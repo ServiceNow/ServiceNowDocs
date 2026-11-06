@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Content pages in CMS, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ After you define the page settings, set the content of the page by adding conten
 
 Role required: content\_admin or admin
 
-**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see [Embedding reports in Jelly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_EmbeddingReportsInJelly.md).
+**Note:** Do not add any type of report, such as a calendar, to iFrames. For more information on adding a report directly onto a page without using iFrames, see Embedding reports in Jelly.
 
 ## Procedure
 
@@ -33,8 +33,6 @@ Role required: content\_admin or admin
 4.  Select the dropzone where the content goes.
 
     Create content blocks by adding one of the content blocks named **\*New \[block type\]** to the page.
-
-    \[Omitted image "Content.png"\] Alt text: Content block options and dropzones.
 
 
 **Parent Topic:**[Content pages in CMS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/content-management-system/c_ContentPages.md)

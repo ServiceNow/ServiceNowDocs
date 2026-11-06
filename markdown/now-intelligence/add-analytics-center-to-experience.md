@@ -1,18 +1,18 @@
 ---
 title: Add Platform Analytics pages to a configurable workspace
-description: Add an Analytics Center and its related pages to your own workspace/experience through page templates.
+description: Add an Analytics Overview and its related pages to your own workspace/experience through page templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-analytics-center-to-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
 
 # Add Platform Analytics pages to a configurable workspace
 
-Add an Analytics Center and its related pages to your own workspace/experience through page templates.
+Add an Analytics Overview and its related pages to your own workspace/experience through page templates.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-In experiences and workspaces, the Analytics Center provides a central page with tabs for all the other pages related to Platform Analytics. You do not have to add an Analytics Center, but this procedure uses that page as example. The same procedure applies to adding the other Platform Analytics pages from templates. Details about those pages are provided at the end of this topic.
+In experiences and workspaces, the Analytics Overview provides a central page with tabs for all the other pages related to Platform Analytics. You do not have to add an Analytics Overview, but this procedure uses that page as example. The same procedure applies to adding the other Platform Analytics pages from templates. Details about those pages are provided at the end of this topic.
 
 ## Procedure
 
@@ -63,17 +63,17 @@ In experiences and workspaces, the Analytics Center provides a central page with
 
 ## Result
 
-You now have a page with a fully configured Analytics Center, including all components. However, none of the links to other pages work until those pages are added and configured.
+You now have a page with a fully configured Analytics Overview, including all components. However, none of the links to other pages work until those pages are added and configured.
 
 ## What to do next
 
-Create pages using the following templates. Follow the same process you used to create the Analytics Center page. Give the pages the following paths and parameters:
+Create pages using the following templates. Follow the same process you used to create the Analytics Overview page. Give the pages the following paths and parameters:
 
 **Note:**
 
 -   The default event handlers use the paths in this table. If you specify a different path, you have to customize the event handler as described in [Configure custom redirection from a dashboard component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-custom-redirection-from-db.md).
 -   Simple List and Dashboard overview are legacy page templates, like Analytics Center. You must specify the parameters manually for these pages. Newer page templates give you the parameters in the course of page creation.
--   Platform Analytics is modular. You can create only some of the pages and get their standalone functions. For example, if you only want dashboard support or KPI Details, create the pages with that functionality and don't create an Analytics Center.
+-   Platform Analytics is modular. You can create only some of the pages and get their standalone functions. For example, if you only want dashboard support or KPI Details, create the pages with that functionality and don't create an Analytics Overview.
 
 <table id="table_c3v_3q3_k1c"><thead><tr><th>
 
@@ -157,15 +157,11 @@ record
 
 </td></tr><tr><td>
 
-Dashboard overview
+Dashboard library
 
 </td><td>
 
-Displays all dashboard tiles
-
-</td><td>
-
-none
+Displays a list of dashboards on the instance, along with usage statistics
 
 </td><td>
 
@@ -173,7 +169,31 @@ none
 
 </td><td>
 
-all-dashboards
+none
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Data visualization library
+
+</td><td>
+
+Displays a list of data visualizations on the instance, along with usage statistics
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -228,6 +248,8 @@ visualization-designer
 [Add a dashboard to a Dashboards page]()
 
 [Configure custom redirection from a dashboard component]()
+
+[Dashboard URL parameter delegation]()
 
 [Pass global filters to the dashboard page template]()
 

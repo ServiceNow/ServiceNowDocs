@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Modify a scheduled job for Publish Journey Accelerator plans
@@ -83,6 +83,9 @@ Run
 Time interval to use for running the scheduled job:
 
 -   **Daily**: Runs daily, at a designated time.
+-   **Day and Month in Year**: Runs yearly on a specific day and month \(for example, July 14\), at a designated time.
+-   **Day in Week in Month in Year**: Runs yearly on a specific day of the week in a specific week of a specific month \(for example, the second Monday in October\), at a designated time.
+-   **Week in Month**: Runs monthly during a specific week of the month \(for example, the third week of each month\), on designated days and at a designated time.
 -   **Weekly**: Runs on a weekly basis, at a designated time and day of the week.
 -   **Monthly**: Runs on a monthly basis, at a designated time and day of the month.
 -   **Periodically**: Runs on a designated repeating interval.
@@ -94,9 +97,9 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 -   **Business Calendar: Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar: Entry Start**, but for the end dates of the associated business calendar entries.
 
-**Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run as this is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
+**Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/business-calendars.md) and[Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -117,7 +120,7 @@ Starting
 
 </td><td>
 
-Date and time of the first scheduled job generation. Select the calendar date and time. This field appears only if you select **Periodically** in the **Run** field.
+Allows you to define the beginning window of time when you would like your job to start running. The job will actually run at the time specified in **Run time**. Select the calendar date and time. The **Starting** field appears only if you select one of the following **Run** types in the **Run** field:
 
 </td></tr><tr><td>
 
@@ -125,7 +128,7 @@ Condition
 
 </td><td>
 
-Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**.
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**.
 
 </td></tr><tr><td>
 

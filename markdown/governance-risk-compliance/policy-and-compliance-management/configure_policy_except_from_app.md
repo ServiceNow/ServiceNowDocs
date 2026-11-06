@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Allow policy exception requests from other applications, Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Configure policy exceptions from other applications

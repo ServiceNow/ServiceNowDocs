@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Viewing or editing a scenario, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,15 +53,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
     -   When you select a bar or space to view the number of allocated spaces, the borders of the selected bar or space are highlighted.
 5.  Edit the stack plan based on your requirement.
 
-<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d158880e195">
+<table id="choicetable_ej5_fmc_kfc"><thead><tr><th align="left" id="d168920e195">
 
 Action
 
-</th><th align="left" id="d158880e198">
+</th><th align="left" id="d168920e198">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d158880e204">
+</th></tr></thead><tbody><tr><td id="d168920e204">
 
 **Zoom in or out on the stack plan**
 
@@ -69,7 +69,7 @@ Steps
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the stack plan.
 
-</td></tr><tr><td id="d158880e219">
+</td></tr><tr><td id="d168920e219">
 
 **Resize a bar**
 
@@ -86,7 +86,7 @@ This step is applicable if the Group by option is Workplace Entity.
 
 5.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d158880e265">
+</td></tr><tr><td id="d168920e265">
 
 **Move a bar to a different floor**
 
@@ -109,7 +109,7 @@ This field is applicable if the Group by option is Workplace Entity.
 
 6.  Select **Apply**, then save the scenario.
 
-</td></tr><tr><td id="d158880e334">
+</td></tr><tr><td id="d168920e334">
 
 **Drag a bar to a different floor**
 

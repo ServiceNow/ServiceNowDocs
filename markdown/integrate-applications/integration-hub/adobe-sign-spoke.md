@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: concept
 last_updated: "2025-10-14"
 reading_time_minutes: 12
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Adobe Sign Spoke
@@ -18,7 +18,7 @@ Automate the process of sending a legal document to an individual or list of rec
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Adobe Sign spoke v2.11.0 is the latest version.
+Adobe Sign spoke v2.11.0 is the latest version. For version history of the spoke, see [Adobe Acrobat Sign spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-adobe-sign.html).
 
 ## Spoke dependencies
 
@@ -261,7 +261,7 @@ Wait for Signature of MegaSigns from Adobe Sign
 
 Waits for the Adobe Sign webhook till all the participants sign or cancel the document.
 
-</td></tr><tr><td rowspan="17">
+</td></tr><tr><td rowspan="18">
 
 Signature Management
 
@@ -336,6 +336,14 @@ Finalize Draft and Send Agreement
 </td><td>
 
 Sends a draft agreement to the participant list for a signature.**Note:** You need to use the **Create Draft Agreement** and **Set Agreement Field** actions before using this action.
+
+</td></tr><tr><td>
+
+Generate Embedded Sending URL
+
+</td><td>
+
+Generates a URL that enables you to embed the agreement sender view on Adobe Sign.
 
 </td></tr><tr><td>
 

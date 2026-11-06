@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Understanding user criteria for event types in Workforce Optimization for ITSM, Scheduling your teams' work in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Understanding user criteria for event types, Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Verify access criteria for a group or a team member in Workforce Optimization for ITSM
@@ -17,6 +17,8 @@ breadcrumb: [Understanding user criteria for event types in Workforce Optimizati
 Check what create, read, update, and delete rights your groups or your team members have for events to make sure that they have the correct permissions that they need.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 
@@ -32,15 +34,15 @@ Role required: sn\_shift\_planning.admin
 
 5.  Do any of the following.
 
-<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d222330e97">
+<table id="choicetable_oxp_qm1_xwb"><thead><tr><th align="left" id="d391758e119">
 
 To
 
-</th><th align="left" id="d222330e100">
+</th><th align="left" id="d391758e122">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d222330e106">
+</th></tr></thead><tbody><tr><td id="d391758e128">
 
 **Verify user access for all your groups**
 
@@ -48,7 +50,7 @@ Do this
 
 Select **All my groups**.
 
-</td></tr><tr><td id="d222330e118">
+</td></tr><tr><td id="d391758e140">
 
 **Specific groups and team members**
 

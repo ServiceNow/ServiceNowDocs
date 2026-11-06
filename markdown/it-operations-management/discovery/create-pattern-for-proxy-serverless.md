@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-10-14"
 reading_time_minutes: 2
-breadcrumb: [Serverless Discovery, Running discoveries in your network, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Serverless Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Create pattern and schedule for host-based serverless discovery

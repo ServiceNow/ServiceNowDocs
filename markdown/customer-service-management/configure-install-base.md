@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-install-base.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure install base
@@ -16,11 +16,11 @@ Track which products and services have been purchased by a customer, how they've
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
-Install the Customer Service Install Base Management plugin \(com.snc.install\_base\) from the ServiceNow Store.
+Install the Customer Install Base Management plugin \(com.snc.install\_base\) from the ServiceNow Store.
 
 Capture the install base for a customer by creating sold products, install base items, and installed products. This would enable the customer service agents to trace issues back to the relevant product, instances of that product, and other entities impacting their functioning.
 
@@ -65,7 +65,7 @@ Customer service agents can view install base information in Agent Workspace. Cu
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, click **Get Started**
+2.  On the Getting Started page of the guided setup, select **Get Started**
 
 3.  In the Foundation Data category, view the list of tasks to configure the feature.
 
@@ -75,7 +75,7 @@ Customer service agents can view install base information in Agent Workspace. Cu
     |Import Install Base Items|Import install base items that represent the items installed or provisioned for a customer.|
     |Import Installed Products|Import installed products to create an association between sold products and install base items.|
 
-4.  To perform a task, click **Configure**.
+4.  To perform a task, select **Configure**.
 
     This button opens the page in your instance where the configuration is completed.
 

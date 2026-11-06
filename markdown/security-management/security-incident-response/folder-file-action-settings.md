@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure File Explorer Component, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -122,11 +122,9 @@ Role required: sn\_msi.workspace\_admin
 
 4.  **Update** the drive record.
 
-    **Note:** You can also perform the file action directly from the list of displayed file operations by choosing the **Active** column values to either True or False. \[Omitted image "folder-file-action-settings.png"\] Alt text: Active column highlighted
+    **Note:** You can also perform the file action directly from the list of displayed file operations by choosing the **Active** column values to either True or False.
 
     If the file action performed is disabled then the action will not be displayed on the **Collaborations** tab of the **Major Security Incident Management** workspace.
-
-    \[Omitted image "msim-workspace-folder-file-actions-page.png"\] Alt text: Three-dot menu with Folder and File Actions highlighted
 
 
 **Parent Topic:**[Configure File Explorer Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/file-explorer.md)

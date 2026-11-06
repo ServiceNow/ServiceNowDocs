@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Reference section for Change Management, Change Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
 # Change Management properties
@@ -41,7 +41,7 @@ glide.ui.risk\_calculate\_rule
 
 </td><td>
 
-Change risk calculation method. Business rule calculates on insert/update, UI action calculates only on demand. **None** disables this capability.-   Type: choice list
+Change risk calculation method. **None** turns off this capability.-   Type: choice list
 -   Default value: ui\_action
 
  For more information, see [Risk Calculator property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/r_ChangeRiskCalculator.md).
@@ -132,7 +132,7 @@ Enforce change request process data requirements, so that any data modification 
 
 </td></tr><tr><td>
 
-com.snc.task.populate\_service\_offering
+com.snc.change\_request.populate\_service\_offering
 
 </td><td>
 
@@ -168,7 +168,7 @@ Enter the change request state field values, each separated by a comma to genera
 </td></tr></tbody>
 </table>## Change Management properties for Discovery integration
 
-If your organization is subscribed to Discovery , integration with Discovery is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. When Discovery is activated, the following three new properties become available.
+If your organization is subscribed to Discovery, integration with Discovery is automatically enabled. With this integration, any configuration item \(CI\) with an IP address that is part of a change request process can be maintained automatically. When Discovery is activated, the following three properties become available.
 
 <table id="table_mh3_5wb_4gb"><thead><tr><th>
 
@@ -194,7 +194,7 @@ com.snc.change\_request.disco.auto.state
 
 </td><td>
 
-Defines which Change Request states Discovery will be automatically triggered.-   Type: String
+Defines the change request states in which Discovery is automatically triggered.-   Type: String
 -   Default value: Review
 
 </td></tr><tr><td>
@@ -203,13 +203,13 @@ com.snc.change\_request.disco.manual.state
 
 </td><td>
 
-Defines which Change Request states allow Discovery to be manually triggered.-   Type: String
+Defines the change request states in which Discovery can be manually triggered.-   Type: String
 -   Default value: Implement, Review
 
 </td></tr></tbody>
 </table>## Change Management properties available from sys\_properties table
 
-The following properties are available for further configuration. To list them, enter `sys_properties.list` in the navigator text box and filter for **com.snc.change\_request**.
+The following properties are available for further configuration. To list them, enter `sys_properties.list` in the navigator text box and filter for **com.snc.change\_**.
 
 <table id="table_ax1_nvt_yr"><thead><tr><th>
 
@@ -244,6 +244,20 @@ com.snc.change\_management.policy.approval.log
 </td><td>
 
 The debug logging property that provides the detailed logging information of the workflow activity when using Change Approval Policies.Type: choice list
+
+</td></tr><tr><td>
+
+sn\_change\_cab.com.snc.change\_management.cab.use\_sow\_meeting
+
+</td><td>
+
+Controls opening of a CAB meeting from the CAB Meeting calendar in the CAB Workbench in Service Operations Workspace.**Note:** Users must have the sn\_sow.sow\_user role to open CAB meetings in SOW.
+
+-   Type: true \| false
+-   Default value: false, for upgrade customers; true for new customers.
+
+-   **true**: CAB meetings open in the CAB Meeting workbench in SOW.
+-   **false**: CAB meetings open in the Core UI.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Reference section for Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/reference-change-management.md)

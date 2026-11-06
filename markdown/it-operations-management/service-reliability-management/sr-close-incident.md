@@ -1,24 +1,24 @@
 ---
 title: Close an SRM incident
-description: Close an incident, if you think it is not an issue, or if it has already been handled.REVISE FOR SRM
+description: Close an incident when it’s not an issue or has already been handled.REVISE FOR SRM
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-close-incident.html
 release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Close an SRM incident
 
-Close an incident, if you think it is not an issue, or if it has already been handled.
+Close an incident when it’s not an issue or has already been handled.
 
 ## Before you begin
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_responder, srm\_manager, or srm\_admin
 
 ## Procedure
 
@@ -32,15 +32,15 @@ Role required: Responder, Manager, or Administrator
 
 3.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d533241e97">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d727751e97">
 
 Option
 
-</th><th align="left" id="d533241e100">
+</th><th align="left" id="d727751e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d533241e106">
+</th></tr></thead><tbody><tr><td id="d727751e106">
 
 **In the incident list view**
 
@@ -48,9 +48,9 @@ Steps
 
 1.  Double-click the **State** field \(or use the keyboard shortcut\) for the incident and select from the list menu.
 2.  Select **OK**.
+ **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-
-</td></tr><tr><td id="d533241e130">
+</td></tr><tr><td id="d727751e142">
 
 **In the incident form**
 
@@ -63,16 +63,16 @@ Steps
 </td></tr></tbody>
 </table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
-    The new state is displayed in the incident list view and incident form and form header.
+    The new state is displayed in the incident list view, incident form, and form header.
 
 
 ## Result
 
-Closed incidents remain in the Incidents list view. Check your filters if you don't see them.
+Closed incidents remain in the incidents list view. If they don't appear, try adjusting your filters.
 
 **Note:**
 
 When you close an incident, any related alerts are closed.
 
-**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

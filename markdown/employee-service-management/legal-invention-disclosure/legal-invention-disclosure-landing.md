@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Invention Disclosure
@@ -37,7 +37,7 @@ Legal Invention Disclosure is a workflow that enables inventors to disclose thei
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 
@@ -48,7 +48,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **[Exploring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/explore-legal-invention-disclosure.md)**  
 Learn more about Legal Invention Disclosure through a sample workflow and review the benefits it can provide.
--   **[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)**  
+-   **[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)**  
 Install Legal Invention Disclosure and configure the requirements to enable efficient processing and tracking of patent requests.
 -   **[Using the Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/use-legal-invention-disclosure.md)**  
 Legal Invention Disclosure provides a streamlined process for inventors to request an application for a patent and for that request to be reviewed both internally and externally by outside counsels. The application is then submitted to patent authorities. You can choose to reward inventors at selected stages of the application process.
@@ -69,6 +69,8 @@ Reference topics provide additional information about the forms that you use in 
 [Legal Simple Contracts]()
 
 [Legal Simple Privacy]()
+
+[Legal Simple Compliance]()
 
 [Gifts and Entertainment Compliance]()
 

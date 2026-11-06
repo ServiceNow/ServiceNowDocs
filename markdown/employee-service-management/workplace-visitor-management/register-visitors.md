@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -39,5 +39,14 @@ Once you submit the registration, the reception staff receives the registration 
 
 For more information about how you can register a visitor, see [Make a visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/register-a-guest.md).
 
-**Parent Topic:**[Explore Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+**Parent Topic:**[Exploring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/workplace-visitor-mgmt-ovw.md)
+
+**Related topics**  
+
+
+[Host portal]()
+
+[Receptionist portal]()
+
+[Visitor portal]()
 

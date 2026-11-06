@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Part requirements, Manage inventory in Field Service Management, Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Source a part and assign an agent
@@ -72,6 +72,4 @@ The sourcing option shows the full list of tasks and part requirements to source
 
 15. Click **Source Part** and complete the transfer order.
 
-
-**Parent Topic:**[Part requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_PartRequirements.md)
 

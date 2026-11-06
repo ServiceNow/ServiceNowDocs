@@ -7,16 +7,16 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring Pipelines and Deployments to deploy apps built in Creator Studio
 
 You can install Pipelines and Deployments and configure a controller instance to deploy apps built in Creator Studio to production instances.
 
-For details on how to set up Pipelines and Deployments, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-p-and-d.md).
+For details on how to set up Pipelines and Deployments, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/config-p-and-d.md).
 
 **Parent Topic:**[Configuring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/configuring-creator-studio.md)
 

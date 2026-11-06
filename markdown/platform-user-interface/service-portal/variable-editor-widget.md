@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ The Variable Editor widget allows you to change the specifications you chose for
 
 You can embed the variable editor widget in the shopping cart widget, to allow users to edit and make changes to their cart items. The options included in the widget are determined by the specific catalog item and the variables that have been configured for it.
 
-For more information on the service catalog variables that are available in Service Portal, see [service catalog variable types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_VariableTypes.md).
+For more information on the service catalog variables that are available in Service Portal, see service catalog variable types.
 
 \[Omitted image "WidgetVariableEditor.png"\] Alt text: Variable Editor widget
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,8 +35,8 @@ You can enable one or more of the following translation modes to define the tran
 Create an email subflow according to your requirements. You can then select this subflow to define translation preferences for a language.
 -   **[Translation Management System configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/tms-configuration.md)**  
 The Localization Framework supports integration with a translation management system to localize the content.
--   **[Configure Localization Framework settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/define-translation-preferences.md)**  
-Configure Localization Framework settings to request translations in the activated languages.
+-   **[Configure the Localization Framework preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/define-translation-preferences.md)**  
+Configure the preferences to request the translation in the activated languages.
 -   **[Localization Framework Properties: Update Set Strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/lf-update-set-strategies.md)**  
 Use update sets to migrate your translations to another instance. Configure properties for update sets according to your business requirements.
 

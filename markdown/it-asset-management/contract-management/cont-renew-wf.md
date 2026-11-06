@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Contract Management, IT Asset Management]
+breadcrumb: [Contract Management, Common applications, Asset Management]
 ---
 
 # Contract renewal workflow

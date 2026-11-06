@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Service Account and Logical Datacenter fields, Denormalization, cloud CI query performance, Cloud discovery]
 breadcrumb: [Improved query performance with direct field population in CI tables, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -44,4 +44,10 @@ Role required: discovery\_admin
 
 
 [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
+
+[Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)
+
+[Set the Populate Service Account and LDC job stale threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-stale-days.md)
+
+[Trigger a full CI table resync for direct field population](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/configure-sa-ldc-full-resync.md)
 

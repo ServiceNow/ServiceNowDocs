@@ -1,5 +1,5 @@
 ---
-title: Approving restricted caller access privileges for Healthcare and Life Sciences Service Management
+title: Approve restricted caller access privileges for Healthcare and Life Sciences Service Management
 description: Approve restricted caller access \(RCA\) privileges for accessing document templates from the Healthcare and Life Sciences Service Management applications.Allow restricted caller access \(RCA\) privileges for the Document Templates application in the target scope to access document templates from a Healthcare and Life Sciences Service Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-approving-rca.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Approving restricted caller access privileges for Healthcare and Life Sciences Service Management
+# Approve restricted caller access privileges for Healthcare and Life Sciences Service Management
 
 Approve restricted caller access \(RCA\) privileges for accessing document templates from the Healthcare and Life Sciences Service Management applications.
 

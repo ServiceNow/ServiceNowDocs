@@ -1,23 +1,23 @@
 ---
-title: Troubleshoot a Now Assist skill
-description: Run diagnostics for a skill on the AI Admin Hub console and get information about the status of your skill configuration.
+title: Troubleshoot an AI skill
+description: Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/troubleshoot-a-now-assist-skill.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-24"
 reading_time_minutes: 1
 keywords: [Now Assist, skill, troubleshoot, diagnostic, nsa\_admin, Generative AI, GenAI]
-breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Troubleshoot a Now Assist skill
+# Troubleshoot an AI skill
 
-Run diagnostics for a skill on the AI Admin Hub console and get information about the status of your skill configuration.
+Run diagnostics for a skill on the AI Admin Hub console to get information about the status of your skill configuration. The availability of diagnostics depends on the skill.
 
 ## Before you begin
 
-Role required: sn\_generative\_ai.nsa\_admin
+Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
@@ -25,15 +25,17 @@ Certain skills have diagnostic scripts that you can run from the AI Admin Hub co
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-    If you’re already in the AI Admin Hub console, select the **Now Assist Features** tab.
+    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to troubleshoot, such as **Technology** or **Customer**.
 
-3.  On the feature card that contains the skill you want to troubleshoot, select **View details**.
+3.  In the All skills or Active skills section, locate the card for the skill you want to troubleshoot.
 
-4.  In the All available skills or Active skills section, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. next to the skill that you want to make a copy of and select **Run diagnostics**.
+4.  Select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. for the skill, then select **Run diagnostics**.
+
+    **Note:** **Run diagnostics** is grayed out or not visible when this option is unavailable.
 
 5.  After the diagnostics are complete, review the results of each test.
 
@@ -46,5 +48,5 @@ If you have identified any problems with your skill configuration, you can [edit
 
 If editing the skill does not solve the issue, you can [contact ServiceNow Support](http://www.servicenow.com/support/contact-support.html) for additional help.
 
-**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-fso-document-processor.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Financial Services Document Processors reference, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reference, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Document Processor
@@ -192,4 +192,34 @@ Document
 Stores all documents.
 
 </td></tr></tbody>
-</table>
+</table>## UI Builder components
+
+The following UI Builder components are available to enhance the workflow experience for documentation tasks.
+
+<table id="table_qrm_dhs_mhc"><thead><tr><th>
+
+Component name
+
+</th><th>
+
+Scope
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+CRM Workspace Playbook – Document Verification
+
+</td><td>
+
+Document Processor
+
+</td><td>
+
+This UI Builder page displays the list of required documents defined in the document list definition as a playbook activity. If the document list item indicates that the document can be deferred or have an exception, these options appear in this page. See [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/doc-processor-associate-document-list-items-to-category.md) for more information.**Note:** This component requires CSM workspace to be installed.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Financial Services Operations Document Processor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-document-processor-reference.md)
+

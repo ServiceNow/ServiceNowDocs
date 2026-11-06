@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Physical Connection form, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Physical Connection form, Reference, Telecommunications Network Inventory]
 ---
 
 # Physical Connection form - Configuration

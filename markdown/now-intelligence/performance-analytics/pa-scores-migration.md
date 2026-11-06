@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Migrating indicator scores
@@ -26,7 +26,7 @@ Instances created prior to Istanbul still use the original Scores \[pa\_scores\]
 
 ## Migration Monitor
 
-After beginning the migration, you can track the migration status by navigating to **Performance Analytics** &gt; **Scores Migration Monitor.**
+After beginning the migration, you can track the migration status by navigating to **Platform Analytics Administration** &gt; **Indicator Settings** &gt; **Scores Migration Monitor.**
 
 If any errors occur during migration, contact Customer Service and Support to resolve the issue.
 
@@ -48,6 +48,12 @@ Role required: admin. Users with the pa\_admin role can view the migration monit
 
 ### About this task
 
+**Important:**
+
+The Scores \[pa\_scores\] table is now deprecated and no longer supported or available for new activation. The optimized model with Scores Level 1 \[pa\_scores\_l1\] and Scores Level 2 \[pa\_scores\_l2\] tables provides the latest experience for this functionality.
+
+For details, see the Deprecation Process \[KB0867184\] article in the Now Support knowledge base.
+
 Migrating scores improves performance and scalability of Performance Analytics. Migration should be performed during off-peak hours.
 
 During migration you cannot collect, modify, or delete scores. Scheduled data collection jobs do not run during migration. After migration completes, check any data collection jobs that were scheduled to run during the migration, as these jobs were suspended.
@@ -59,7 +65,7 @@ During migration you cannot collect, modify, or delete scores. Scheduled data co
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Scores Migration Monitor**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicator Settings** &gt; **Scores Migration Monitor**.
 
 2.  Click the **Schedule Scores Migration** button.
 

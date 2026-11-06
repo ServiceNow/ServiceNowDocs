@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Field Service Crew operations, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
 
 # Managing crew tasks using the Now Mobile Agent application
@@ -37,8 +37,6 @@ Crew members can perform the following actions on the work order task:
 -   View and access knowledge articles related to the task.
 -   Add comments in the work order task.
 
-**Parent Topic:**[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
-
 **Related topics**  
 
 
@@ -48,5 +46,5 @@ Crew members can perform the following actions on the work order task:
 
 [Record time worked for a task or activity manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-agent-record-time.md)
 
-[Knowledge articles on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/access-information-you-need-mobile.md)
+[Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/access-information-you-need-mobile.md)
 

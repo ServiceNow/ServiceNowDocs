@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-filter-catalog-by-location.html
 release: yokohama
 topic_type: task
-last_updated: "2025-05-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Filter product catalog by location
@@ -16,22 +16,29 @@ Agents can filter products in the catalog by using the location function in Orde
 
 ## Before you begin
 
-Role required: sn\_ind\_tmt\_orm.order\_agent
+Location-based product transaction capability must be activated to enable location-based filtering in Order Management. For more information [Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-activate-location-filter.md).
+
+Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
-2.  Select **Customer Orders** &gt; **All**, then choose the order you want to work with.
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+
+3.  Navigate to **Customer Orders** &gt; **All**.
+
+4.  Select an order you want to work with.
 
     The order opens in the **Catalog** tab with the **Select a location** field available.
 
-3.  Select a location.
-
-    \[Omitted image "som-order-mgt-location-filter.png"\]
+5.  Select a location from the Service location field.
 
     The products in the catalog are filtered according to the selected location.
 
 
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
+**Related topics**  
+
+
+[Configuring location-based product transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/config-location-transaction.md)
 

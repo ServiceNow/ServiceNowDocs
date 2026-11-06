@@ -7,9 +7,9 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AutoCAD import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Autocad import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure CAD objects using the CAD Editor tab
@@ -31,7 +31,7 @@ Hide or display a layer while you’re editing and updating layers in the CAD Ed
 -   **[Drawing and editing tools in the CAD editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/editing-tools-cad-editor.md)**  
 The CAD Editor tab provides editing and drawing tools to configure, optimize, and edit your CAD files before importing it to the Map Studio.
 
-**Parent Topic:**[AutoCAD import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
 **Previous topic:**[Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/edit-places.md)
 

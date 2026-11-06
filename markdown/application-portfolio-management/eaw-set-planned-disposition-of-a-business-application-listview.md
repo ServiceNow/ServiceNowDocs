@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use list view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Set the planned disposition of a business application
@@ -38,5 +38,12 @@ Setting the planned disposition of a business application results in better data
 5.  Select **Update**.
 
 
-**Parent Topic:**[List view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-list-view.md)
+
+**Related topics**  
+
+
+[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-business-application-details.md)
+
+[Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md)
 

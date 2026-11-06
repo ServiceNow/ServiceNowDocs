@@ -7,7 +7,7 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Create Case Reports, Generate Case Reports]
 breadcrumb: [Working with Reports in TISC, TISC Library Repository, Threat Intel Library, Use, Threat Intelligence Security Center, Security Operations]
@@ -28,6 +28,8 @@ Access to a case report is restricted to the users and groups that have permissi
 -   **Threat analyst** — Generates and reviews case reports.
 -   **Administrator** — Configures and activates TISC Report Authoring skill in the AI Admin Hub console. Configures Report templates.
 
+-   **[Create a Case Report using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-case-report-ai.md)**  
+Use generative AI to draft a structured case report from the data in the selected case, then review and publish it.
 -   **[Create a Case Report using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-create-case-report-template.md)**  
 Generate a case report from a published report template, such as a post-investigation report or an executive summary, and then preview, publish, and share it.
 

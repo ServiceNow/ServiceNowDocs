@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Transfer orders for Asset Management, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Transfer assets using transfer orders
@@ -52,7 +52,7 @@ You create a transfer order and move it from its initial **Draft** status to the
 
     3.  On the Create transfer order line form, fill in the fields.
 
-        For a description of the field values, see [Transfer order line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-order-line-fields.md).
+        For a description of the field values, see [Transfer order line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/create-transfer-order-line-fields.md).
 
     4.  If the model is a consumable, specify a quantity in **Quantity Requested**.
 
@@ -73,12 +73,22 @@ You create a transfer order and move it from its initial **Draft** status to the
 
 Keep closing each task until you reach the last stage \(**Received**\). After you close the task for the Received stage, the transfer order line is completed and closed. All transfer order lines and the transfer order are marked **Delivered**.
 
-**Parent Topic:**[Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-orders-for-am.md)
+**Parent Topic:**[Manage transfer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/manage-transfer-orders.md)
 
 **Related topics**  
 
 
+[Transfer order flow]()
+
+[Transfer order tasks]()
+
+[Customize transfer order line tasks]()
+
+[Transfer order line asset tracking]()
+
+[Transfer order flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-order-flows.md)
+
 [Summary of transfer order line tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/r_SummaryOfTransferOrderStages.md)
 
-[Transfer order line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-order-line-fields.md)
+[Transfer order line fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/create-transfer-order-line-fields.md)
 

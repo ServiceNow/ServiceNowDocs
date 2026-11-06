@@ -1,18 +1,18 @@
 ---
-title: User Experience Analytics data options for pie and donut visualizations
-description: When you select a User Experience Analytics data source for a pie or donut visualization, the following Data configuration options are available.
+title: Usage Insights data options for pie and donut visualizations
+description: When you select a Usage Insights data source for a pie or donut visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-donut-uxa-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Pie and donut visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics data options for pie and donut visualizations
+# Usage Insights data options for pie and donut visualizations
 
-When you select a User Experience Analytics data source for a pie or donut visualization, the following Data configuration options are available.
+When you select a Usage Insights data source for a pie or donut visualization, the following Data configuration options are available.
 
 **Important:** Pie and donut visualizations are only suitable for Events data, not Users or Sessions. Only Events have a value to group by.
 
@@ -34,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md).
+You have selected a Usage Insights data source in [Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -42,11 +42,11 @@ Metric
 
 </td></tr><tr><td>
 
-Label
+Metric
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source.
+Label of the metric. By default it is the same as the name of the data source: Events or Sessions.For sessions, you can configure the metric to reflect the number of sessions, average session duration, average pages per session, or average sessions per user.
 
 </td></tr><tr><td>
 
@@ -66,9 +66,9 @@ Event property
 
 </td><td>
 
-Properties of the event in a User Experience Analytics data source.
+Properties of the Usage Insights data source.
 
-**Note:** Available only for Events metrics, in which case it is mandatory.
+**Note:** Available only for Events and Sessions metrics, in which case it is mandatory.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
@@ -84,6 +86,14 @@ For more information about setting alternative group-bys for multiple metrics, s
 
 -   Only up to three metrics on one visualization support alternative group-by.
 -   Alternative group-by does not support data binding on the data source
+
+</td></tr><tr><td>
+
+Extended group by configuration
+
+</td><td>
+
+Supports group by per country,  locale, user-specified dimensions, operating system, device resolution, web browser, device type, mobile device, mobile version, mobile connectivity. Supports multiple group by \(at least 2\) for users and sessions.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -97,13 +107,13 @@ Sort by
 
 Sorting options of the main and alternative groups set in **Group by**. Options include:-   Name: Sorts the values alphabetically by field or element name.
 -   Value: Sorts the values numerically or by count.
--   Element order: If you are grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown, this option sorts the groups according to the value of the Sequence field.
+-   Element order: Sorts the groups according to the value of the Sequence field. Available when grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown.
 -   Group bucket: Sorts the elements by bucket group, when applicable. Only available for indicator data sources and when the breakdown used for the **Group by** is based on a bucket group.
 -   Report range: Sorts the table field values by range. Only available for table data sources and when the table field used for the **Group by** has a report range associated with it.
 
 **Note:**
 
--   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by cannot apply to an alternative group-by \(such as sorting by Element order when the alternative group-by is not on the Choice table\), sorting for that group-by defaults to Value.
+-   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by can't apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table.
 -   If no main **Group by** has been set, but alternative group-bys are defined, you can sort only by Name or Value.
 -   Sorting is not available for Pareto bar visualizations. Pareto charts are always sorted by value in descending order.
 
@@ -196,8 +206,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -211,7 +225,7 @@ Number of date periods to display. This property applies only when **Set absolut
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 
@@ -239,6 +253,14 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
 Content
 
 </td><td>
@@ -254,5 +276,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
+</table>**Parent Topic:**[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
 

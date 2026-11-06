@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-campaign-card-config.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Displaying campaigns on ServiceNow mobile, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Displaying campaigns, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure the details for the appearance of cards for a mobile campaign

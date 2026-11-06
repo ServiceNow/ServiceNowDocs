@@ -7,8 +7,8 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -205,6 +205,32 @@ Option to mirror the direction of the portal when the session language is a righ
 
 </td></tr><tr><td>
 
+Use portal-specific authentication
+
+</td><td>
+
+Option to set authentication for each portal. Selecting this option configures and applies portal-specific authentication for a portal. For example, set an authentication method, such as OKTA, for an internal employee portal, and set a different authentication method for an external vendor portal without having to customize the authentication.
+
+</td></tr><tr><td>
+
+Enable local login
+
+</td><td>
+
+Option to enable a local login.
+
+</td></tr><tr><td>
+
+Portal Identity Providers
+
+</td><td>
+
+Identity provider options: Okta and Microsoft Azure.
+
+ If both options are selected, then both login options are present in the login page. If only one portal identity provider is configured, the user is directed to the login page for that provider.
+
+</td></tr><tr><td>
+
 Enable favorites
 
 </td><td>
@@ -236,7 +262,7 @@ Search Application
 
 </td><td>
 
-Defines the search experience settings for your portal, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see [Defining search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/defining-search-app-cfgs-ais.md).
+Defines the search experience settings for your portal, such as the search engine, search results limit, and suggestions limit. For more information on defining a search application configuration, see Defining search application configurations.
 
 </td></tr><tr><td>
 
@@ -244,7 +270,7 @@ Search Results Configuration
 
 </td><td>
 
-Defines how search results are displayed in the portal. For more information on defining a search results configuration, see [Define a composite dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/define-composite-dataset.md).
+Defines how search results are displayed in the portal. For more information on defining a search results configuration, see Define a composite dataset.
 
 </td></tr></tbody>
 </table>3.  Save the form.
@@ -269,5 +295,5 @@ You can associate a portal with any knowledge base. Multiple knowledge bases can
 -   **[Configure Agent Chat in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-va-in-sp.md)**  
 Your end users can initiate and maintain an Agent Chat conversation in any portal page. Write a script to pass portal-specific data to Agent Chat. For example, pass the name of your knowledge base to a Virtual Agent conversation.
 
-**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_ServicePortal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configuring-service-portal.md)
 

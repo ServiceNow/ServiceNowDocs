@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcls-cto-it-request-other-service.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating service requests in Care Team Operations for Healthcare IT, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Create service requests, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Request other IT service with Care Team Operations for IT
@@ -16,7 +16,7 @@ Request IT service for non-EMR issues using the Request other IT service catalog
 
 ## Before you begin
 
-Role required:
+Role required: sn\_hco.care\_team\_member
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Content engagement dashboard
@@ -31,8 +31,6 @@ The Content engagement dashboard displays metrics for user engagement, such as c
 
 **Related topics**  
 
-
-[Approvals experience reference]()
 
 [Block content form]()
 
@@ -56,15 +54,11 @@ The Content engagement dashboard displays metrics for user engagement, such as c
 
 [Employee Center Pro widgets]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -74,5 +68,7 @@ The Content engagement dashboard displays metrics for user engagement, such as c
 
 [Properties installed with Content Publishing]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

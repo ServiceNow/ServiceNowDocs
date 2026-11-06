@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a legal matter template, Legal matter templates, Setting up Legal Matter Management, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Create a legal matter template, Legal matter templates, Configure, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create a phase template for a matter template

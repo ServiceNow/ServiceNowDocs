@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Center \(EC\) homepage journey tabs widget

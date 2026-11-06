@@ -1,16 +1,17 @@
 ---
-title: Edit or remove a business contact or related party from a License and Permit Application
+title: Manage a business contact or related party from an Application
 description: Additional business contacts can be edited or removed by a government service agent before a license or permit case reaches the Process stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-multi-party-remove-business-contact.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using License and Permit Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+keywords: [Edit or remove a business contact or related party, Edit contacts for a License and Permit application]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Edit or remove a business contact or related party from a License and Permit Application
+# Manage a business contact or related party from an Application
 
 Additional business contacts can be edited or removed by a government service agent before a license or permit case reaches the Process stage.
 
@@ -20,19 +21,19 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  Open the License and Permit Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the License and Permit Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **License and Permit Requests** list and select **All**.
 
-3.  Open the License or Permit Request case you wish to remove a business contact from.
+3.  Open the License or Permit Request case that you want to remove a business contact from.
 
     **Note:** Related parties can only be edited if the case is in the **Intake** or **Review** stage.
 
-4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Playbook.
+4.  Navigate to the **Add related parties** activity in the Intake stage of License and Permit Administration.
 
-5.  Select the delete icon \[Omitted image "psds-lpr-trash-icon.png"\] Alt text: delete icon next to the business contact you wish to delete, or the edit icon \[Omitted image "psds-lpr-edit-icon.png"\] Alt text: edit icon next to the business contact you wish to edit.
+5.  Select the delete icon \[Omitted image "psds-lpr-trash-icon.png"\] Alt text: delete icon next to the business contact you want to delete, or the edit icon \[Omitted image "edit-icon.png"\] Alt text: edit icon next to the business contact you want to edit.
 
-6.  Select **Save** once you are finished editing the related party information.
+6.  Select **Save** once you’re finished editing the related party information.
 
 7.  Select **Mark Complete** to save the activity.
 

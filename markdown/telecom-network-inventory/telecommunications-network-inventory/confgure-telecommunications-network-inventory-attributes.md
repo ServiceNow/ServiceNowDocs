@@ -1,5 +1,5 @@
 ---
-title: Configure Telecommunications Network Inventory attributes
+title: Configure attributes
 description: Configure the core equipment table to enable the collection of the common Telecommunications Network Inventory attributes appear in the CI record. You use these attributes to create a Telecommunications Network Inventory CI record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/confgure-telecommunications-network-inventory-attributes.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
-# Configure Telecommunications Network Inventory attributes
+# Configure attributes
 
 Configure the core equipment table to enable the collection of the common Telecommunications Network Inventory attributes appear in the CI record. You use these attributes to create a Telecommunications Network Inventory CI record.
 
 ## Before you begin
 
-Role required: admin
+Role required: Admin
 
 ## About this task
 

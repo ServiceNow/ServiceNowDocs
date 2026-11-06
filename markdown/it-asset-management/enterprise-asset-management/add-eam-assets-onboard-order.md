@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Onboarding multiple enterprise assets in the Enterprise Asset Workspace, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add details of the enterprise assets to an onboarding order
@@ -38,7 +38,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
     -   **RFID tag**
     -   **MAC address**
     -   **Additional info**
-6.  For each asset that you want to onboard, select the Add Row icon \(\[Omitted image "add-aisle-icon.png"\] Alt text: Add row icon.\) and enter the asset details.
+6.  For each asset that you want to onboard, select the Add Row icon \[Omitted image "add-aisle-icon.png"\] Alt text: and enter the asset details.
 
 7.  Select **OK**.
 

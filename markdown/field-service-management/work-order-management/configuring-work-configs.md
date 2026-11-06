@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring Field Service Work Configurations
@@ -26,7 +26,7 @@ The steps for setting up Field Service work configurations are:
 
 2.  [Set up work configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-config-guided-setup.md)
 
-    Use Field Service work configurations to customize the data that is captured when work is done on different types of work order tasks.
+    Use Field Service Work Configurations to customize the data that is captured when work is done on different types of work order tasks.
 
 3.  \(Optional\) [Manage work configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-configs-manage.md)
 
@@ -34,10 +34,14 @@ The steps for setting up Field Service work configurations are:
 
 4.  \(Optional\) [Setting up a work order template with work configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-configs-setting-up-wo-template.md)
 
-    Set up Field Service work configurations can be set up to work with work order templates.
+    Set up Field Service Work Configurations can be set up to work with work order templates.
 
 5.  \(Optional\) [Setting up dynamic scheduling configuration with work configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-configs-setting-up-dynamic-sched.md)
 
-    Set up Field Service work configurations can be set up to work with dynamic scheduling.
+    Set up Field Service Work Configurations can be set up to work with dynamic scheduling.
+
+6.  [Example workflow for Field Service Work Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/example-workflow-for-field-service-work-configurations.md)
+
+    Explore how to use Field Service Work Configurations for a break-fix task for an MRI Scanner.
 
 

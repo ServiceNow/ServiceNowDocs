@@ -7,8 +7,8 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
@@ -18,7 +18,7 @@ The ServiceNow, Inc. Federal plugin provides additional data elements for public
 
 This plugin is intended for the use of extending the tables such as HR Profile, Location, Position with additional fields and tables relevant to the Federal, State, and Local public sectors.
 
-## key benefits
+## Key benefits
 
 The following are some key benefits of the Federal plugin:
 
@@ -36,15 +36,22 @@ The following are some key benefits of the Federal plugin:
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "icon-set-up.png"\] Alt text: Configure the plugin to get started Configure the plugin to get started
+[Set up Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-fed.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the plugin to get started Configure the plugin to get started
 
 </td><td>
 
-[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "icon-workspace.png"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers. Use the plugin to promote interoperability between agencies or shared service providers.
+[Using Federal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-fed-app.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the plugin to promote interoperability between agencies or shared service providers. Use the plugin to promote interoperability between agencies or shared service providers.
 
 </td><td>
 
-[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "icon-reference.png"\] Alt text: Get details about tables in Federal plugin Get details about tables in the plugin
+[Federal plugin reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/refer-fed.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about tables in Federal plugin Get details about tables in the plugin
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

@@ -7,9 +7,9 @@ release: yokohama
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced ACL configuration, Access Control List Rules, Access Management]
+breadcrumb: [Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Evaluate the admin override at the access level

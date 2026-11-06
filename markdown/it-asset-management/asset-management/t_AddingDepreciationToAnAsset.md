@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage various assets through asset classes, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Add depreciation to an asset
@@ -22,13 +22,9 @@ Role required: asset
 
 ## About this task
 
-A depreciation schedule can be added to hardware assets. Based on the information specified in the asset record, the ServiceNow AI Platform calculates the depreciation amount using the **Calculate Depreciation** scheduled job. The following system properties determine when the **Calculate Depreciation** scheduled job should be triggered to calculate the depreciation amount:
+A depreciation schedule can be added to hardware assets. Based on the information specified in the asset record, the ServiceNow AI Platform calculates the depreciation amount daily using the **Calculate Depreciation** scheduled job. The **sn\_itam\_trigger\_depreciation\_job\_after\_days** system property determines when the **Calculate Depreciation** scheduled job calculates the depreciation amount.
 
--   The **sn\_itam\_depreciation\_job\_last\_run** system property stores the date on which the **Calculate Depreciation** scheduled job was last run.
--   The **sn\_itam\_trigger\_depreciation\_job\_after\_days** system property determines the frequency \(in days\) at which the **Calculate Depreciation** scheduled job should be triggered.
-
-    **Note:** By default, this system property is set to **7**. Therefore, the **Calculate Depreciation** scheduled job runs weekly to calculate depreciation amount.
-
+**Important:** The depreciation fields on the asset, such as Depreciated amount, Residual value, and Residual date are updated daily by the **Calculate Depreciation** job. If you plan to enable audit logging in these fields, it logs every change daily. This process could result in a large volume of audit entries, which might impact storage and log management.
 
 The ServiceNow AI Platform calculates the read-only **Residual date** and **Residual value** fields based on the **Cost**, **Depreciation**, and **Depreciation effective date** fields. For example, if the asset **Cost** is $1000.00, the **Straight Line** depreciation method is selected, and exactly two years have passed, the **Residual value** would be $500.00.
 
@@ -53,8 +49,6 @@ For more information about fixed assets and depreciation, see [Using Depreciatio
 5.  Select **Calculate Depreciation**.
 
     The **Residual date**, **Residual value**, and **Depreciated amount** fields are automatically calculated.
-
-    **Important:** The **Calculate Depreciation** scheduled job calculates the depreciation amount weekly. If you perform this step before the next run date of the scheduled job, the recently calculated depreciation amount is displayed.
 
 
 **Parent Topic:**[Manage various assets through asset classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/c_AssetClasses.md)

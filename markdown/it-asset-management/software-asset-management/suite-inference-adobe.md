@@ -1,0 +1,20 @@
+---
+title: Suite inference rules for Adobe license metrics
+description: Based on the system property com.snc.sam.auto\_suite\_inference, the Software Asset Management application uses suite or component licenses.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/suite-inference-adobe.html
+release: yokohama
+product: Software Asset Management
+classification: software-asset-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Software Asset Management software suites, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
+---
+
+# Suite inference rules for Adobe license metrics
+
+Based on the system property **com.snc.sam.auto\_suite\_inference**, the Software Asset Management application uses suite or component licenses.
+
+**Parent Topic:**[Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-suites.md)
+

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/oci-access-and-permission-using-policies.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Oracle Cloud infrastructure \(OCI\) service accounts, Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Set up Oracle Cloud infrastructure \(OCI\) service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # OCI access and permission using policies

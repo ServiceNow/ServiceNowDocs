@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Design and Assign function for your network services, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Create a playbook for the Design and Assign function
@@ -165,8 +165,6 @@ Update the system property to add the playbook in the Design and Assign home pag
 
 **Related topics**  
 
-
-[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-definitions.md)
 
 [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dependency Assessment, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [\(Legacy\) Dependency Assessment, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Dependency Assessment tree view
@@ -30,7 +30,7 @@ The figure below gives an example of the top-down tree view, starting from a das
 
 \[Omitted image "impact-analysis-example.png"\] Alt text: Top-down dependency assessment with legend
 
-**Parent Topic:**[Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
+**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
 
 **Related topics**  
 

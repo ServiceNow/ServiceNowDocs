@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with automation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a parallel process to an app's playbook in Creator Studio
@@ -38,8 +38,8 @@ Activities on a process's parallel branches run at the same time as other specif
 
 5.  Choose one of the following ways to add a parallel branch in the diagram view.
 
-    -   Select the add icon \(\[Omitted image "cs-add-icon.png"\] Alt text:\) and choose the **Add a parallel path** icon \(\[Omitted image "cs-parallel-path-icon.png"\] Alt text:\) in the menu that pops up.
-    -   Select the Drag new connecter dot icon \(\[Omitted image "cs-drag-new-connector-icon.png"\] Alt text:\) for the parallel process’s starting activity and drag it to the activity or decision that should be the end point of the parallel process.
+    -   Select the add icon \[Omitted image "cs-add-icon.png"\] Alt text: and choose the **Add a parallel path** icon \[Omitted image "cs-parallel-path-icon.png"\] Alt text: in the menu that pops up.
+    -   Select the Drag new connecter dot icon \[Omitted image "cs-drag-new-connector-icon.png"\] Alt text: for the parallel process’s starting activity and drag it to the activity or decision that should be the end point of the parallel process.
     **Note:** If you can't see the Drag new connector dot icon, you might need to hover over the activity to see it.
 
     \[Omitted image "cs-drag-new-connector.png"\] Alt text: Hover over the activity to see the Drag new connector icon

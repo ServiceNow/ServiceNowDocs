@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ConfiguringStandardEmail.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Basic email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Basic email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Enable basic email

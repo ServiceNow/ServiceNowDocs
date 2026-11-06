@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2024-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---

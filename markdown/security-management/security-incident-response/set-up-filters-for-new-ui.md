@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,11 +22,7 @@ You can use the Classic environment to define additional primary and secondary f
 
 As you define filters to be used in the Security Analyst Workspace, you can assign tags to indicate whether they can be used as primary or secondary filters. Primary filters are shown at the top of the security incident list.
 
-\[Omitted image "primary-filter.png"\] Alt text: Primary filter
-
-Click **Edit** next to the Quick Filters option to select secondary \(or quick\) filters.
-
-\[Omitted image "secondary-filters.png"\] Alt text: Secondary or quick filter selection
+Select **Edit** next to the Quick Filters option to select secondary \(or quick\) filters.
 
 Role required: admin or sn\_sec\_cmn.write
 
@@ -34,7 +30,7 @@ Role required: admin or sn\_sec\_cmn.write
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Filters**.
 
-2.  Click **New** and complete the following steps.
+2.  Select **New** and complete the following steps.
 
     1.  Enter a **Title**.
 
@@ -42,11 +38,9 @@ Role required: admin or sn\_sec\_cmn.write
 
     3.  Add your filter conditions.
 
-        For example, the **Open Incidents with Priority = Critical** filter, uses these conditions.
+        For example, the **Open Incidents with Priority = Critical** filter.
 
-        \[Omitted image "filter-conditions.png"\] Alt text: Filter conditions
-
-    4.  Click **Submit**.
+    4.  Select **Submit**.
 
 3.  If the **Tags** column is not visible on the filter list, click the gear icon and personalize the view to add it.
 

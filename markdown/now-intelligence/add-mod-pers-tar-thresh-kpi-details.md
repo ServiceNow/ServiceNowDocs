@@ -30,13 +30,11 @@ Role required: Any role for your own personal thresholds. The pa\_threshold\_adm
 
 3.  Click the threshold icon \(\[Omitted image "thresh-icon.png"\] Alt text: Threshold icon\).
 
-4.  Select either Global or Personal thresholds.
-
-    You see all the existing Global or Personal thresholds on this indicator.
+4.  Select either For everyone or For me.
 
 5.  Click the Create Threshold icon \(\[Omitted image "add-target-thresh-icon.png"\] Alt text: Create threshold icon\) or select an existing target to edit it.
 
-6.  Choose the visibility of the threshold, either **Global** or **Personal**.
+6.  Choose the visibility of the threshold, either **For everyone** or **For me**.
 
 7.  Select or change the **Threshold Type**:
 
@@ -50,7 +48,9 @@ Role required: Any role for your own personal thresholds. The pa\_threshold\_adm
 
         Enter a threshold value to trigger a message if the value of the indicator exceeds the threshold.
 
-8.  Click **Save** if you are creating a threshold or **Update** if you are modifying a threshold.
+8.  For a native Data snapshots indicator, you can select **Users to notify** by email when the threshold is broached.
+
+9.  Click **Save** if you are creating a threshold or **Update** if you are modifying a threshold.
 
 
 **Parent Topic:**[Indicator targets and thresholds in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details-targets.md)
@@ -60,9 +60,11 @@ Role required: Any role for your own personal thresholds. The pa\_threshold\_adm
 
 [Create a target in KPI Details]()
 
-[Edit targets in KPI Details]()
+[Edit multiple targets in KPI Details]()
 
-[Add targets for multiple breakdown elements in KPI Details]()
+[Subscribe users to Data snapshots indicator target]()
 
-[Responsibility for global indicator targets]()
+[Add a target to multiple breakdown elements in KPI Details]()
+
+[Responsibility for indicator targets]()
 

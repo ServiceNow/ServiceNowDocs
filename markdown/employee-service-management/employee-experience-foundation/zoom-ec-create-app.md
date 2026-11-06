@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Zoom integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center for Zoom
@@ -85,10 +85,8 @@ View the list of Zoom accounts connected to your ServiceNow® instance.
 Connect your Zoom account to another ServiceNow® instance by overriding your existing ServiceNow instance.
 -   **[Change existing Zoom account connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/zoom-account-change.md)**  
 Change your existing Zoom account connection in your ServiceNow® instance.
--   **[Use Employee Center from Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/zoom-create-email-notification.md)**  
-Access and use the ServiceNow® Employee Center capabilities from Zoom client.
 
-**Parent Topic:**[Zoom integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/zoom-landing.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-ec.md)
 
 **Related topics**  
 

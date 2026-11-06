@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 3.  On the Content configurations related list, select **New**.
 
-    \[Omitted image "template-configuration.png"\] Alt text:
+    \[Omitted image "template-configuration.png"\] Alt text: New content configuration form.
 
 4.  On the form, fill in the fields.
 
@@ -52,7 +52,7 @@ Role required: sn\_grc\_doc\_design.admin and sn\_audit.admin
 
 7.  In the Data columns related list, specify the columns you want on the report from the table that you have selected.
 
-    For more information, see [Configure Data columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-data-columns.md).
+    For more information, see [Configure data columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-data-columns.md).
 
 8.  In the Intermediate filters related list, define the filters that should apply to the dataset to refine the results displayed in the report.
 

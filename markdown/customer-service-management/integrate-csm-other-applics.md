@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/integrate-csm-other-applics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Customer Service Management]
 ---
@@ -18,10 +18,10 @@ Customer Service Management provides integrations with the applications listed i
 
 |Step|Description|
 |----|-----------|
-|[Integrating with IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/integrating-with-it-service-management.md)|Integrate with Incident, Problem, Change, and Request Management applications.|
+|[Integrating withIT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/integrating-with-it-service-management.md)|Integrate with Incident, Problem, Change, and Request Management applications.|
 |[Integrating with Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-spm-integration.md)|Get visibility into sold products and their associated service offerings with this integration.|
 |[Integrating with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-continual-improvement-mgmt.md)|Get help with setting goals, organizing effort, and completing tasks.|
-|[Integrating with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-fsm-integration.md)|Create and view all FSM work orders and appointments as a Customer Service Management user.|
+||Create and view all FSM work orders and appointments as a Customer Service Management user.|
 |[Integrating with IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/integration-event-proactive.md)|Create cases proactively from alerts and track the corresponding install base items affected by the alert.|
 |[Integrating with Customer Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-ppm-integration.md)|Use this integration to create projects and project tasks for your customer accounts.|
 |[Integrating with Financial Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-integration-financial-mgmt.md)|Allocate, track, and get report on expenses in your organization using this integration.|

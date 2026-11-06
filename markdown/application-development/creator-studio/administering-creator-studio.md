@@ -7,15 +7,17 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [administer apps, administering apps]
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Administering Creator Studio
 
 Admins have special privileges to approve and update tasks in Creator Studio that regular users can't.
+
+As a Creator Studio administrator, you manage the processes that keep app development running smoothly on your instance. Admin tasks include approving app creation requests, managing collaborators, configuring forms and activities, and deploying apps to production.
 
 Some of the things that admins can do for Creator Studio include the following:
 
@@ -37,8 +39,10 @@ The experience switcher can provide access to Creator Studio, ServiceNow Studio,
 In Creator Studio, as an administrator or App Engine admin, you have the power to manage how people work together on projects.
 -   **[Administering templates and forms for Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-administering-forms.md)**  
 As an admin, you can create custom templates and pre-configured questions to help streamline and guide users when they build apps in Creator Studio.
--   **[Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md)**  
+-   **[Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md)**  
 Admins can change the default table that apps built in Creator Studio save their requests to.
+-   **[Administering notification emails in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-admining-notifications.md)**  
+Admins can customize existing email notifications and create templates for new email notifications that Creator Studio apps send. For example, you can add branding to notification emails that a request was opened.
 -   **[Administering activities in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-administering-activities.md)**  
 As an admin, you can define custom activities, make them available in Creator Studio, and hide existing activities to help guide users when they add automation to apps.
 -   **[Disable the App type page in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-administer-interstitial-page.md)**  

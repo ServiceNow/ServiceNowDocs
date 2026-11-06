@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/plan-your-app-development.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Plan your application development
@@ -49,8 +49,6 @@ Poor fit
 </td></tr></tbody>
 </table>-   **[Plan before you build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-before-you-build.md)**  
 Essentially, an application is a digital program that supports user tasks. Some actions you take when building an application might be irreversible. Be aware of these actions and plan for them in advance.
--   **[Use agentic AI to build and edit applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-to-use-agentic-ai.md)**  
-Use agentic AI to help create and edit applications. Agentic AI can also summarize what an app does and help you generate code.
 -   **[Manage app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/manage-app-development.md)**  
 Govern app development on the ServiceNow AI Platform.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-config-playbook.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Patient Support Services, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Configuring playbooks for Patient Support Services
@@ -24,7 +24,7 @@ As a user with the admin role, you can create a playbook by using Playbooks, a S
 
 The playbooks in the Patient Support Services application use the CRM Workspace playbook experience. By default, the Patient Support Services application includes a playbook for assisting care coordinators to resolve enrollment cases.
 
-Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with enrollment cases. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-definitions.md).
+Configure a playbook by navigating to **All** &gt; **Process Automation** &gt; **Process Automation Designer**. You can either select an existing process definition or create a new process definition for the playbook associated with enrollment cases.
 
 **Note:** When configuring a process definition for the playbook associated with enrollment cases, ensure that the application scope is set to Patient Support Services or Healthcare and Life Sciences Service Management Core using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
 

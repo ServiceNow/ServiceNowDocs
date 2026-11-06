@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Licensing rules for BYOL and BYOS
@@ -79,7 +79,8 @@ Shared host
 </td><td>
 
 -   BYOL is supported using Microsoft Azure Hybrid Benefits \(AHB\).
--   Enough eligible core licenses must be allocated to cover all cores on the virtual machines that are running.
+-   Enough eligible core licenses must be allocated to cover all cores on the virtual machines \(VMs\) that are running.
+-   Each processor license is equivalent to 16 core licenses.
 -   A minimum of eight core licenses are allocated for using AHB.
 -   Windows DC allows concurrent or dual use rights.
 
@@ -377,7 +378,7 @@ Four vCPUs are equivalent to one socket, and one socket requires one license.
 
 The number of vCPUs is rounded up to the nearest multiple of four. For example, an Oracle WebLogic server that is running on seven vCPUs requires a total of two licenses.
 
--   **Oracle WebLogic Server Enterprise Edition**
+-   **Oracle WebLogic Server Enterprise and Suite Edition**
 
 If hyper-threading is enabled, one license is required for every two vCPUs on which you install or run an Oracle WebLogic Server. If hyper-threading isn’t enabled, one license is required for every vCPU on which you install or run an Oracle WebLogic server.
 
@@ -394,7 +395,7 @@ One license is required for every user or physical device that accesses an Oracl
 
 You must have a minimum of either 10 licenses per eight vCPUs or the total number of users and devices that are accessing this WebLogic Server version. The licensing minimum is set to the larger of the two values.
 
--   **Oracle WebLogic Server Enterprise Edition**
+-   **Oracle WebLogic Server Enterprise and Suite Edition**
 
 If hyper-threading is enabled, you must have a minimum of either 10 licenses per two vCPUs or the total number of users and devices that are accessing this WebLogic Server edition.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,7 +46,7 @@ Roles required for each task are listed with each step in the following table.
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+1.
 
 </td><td>
 
@@ -60,7 +60,7 @@ As a user with the ServiceNow AI Platform admin role, set up your ServiceNow AI 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+2.
 
 </td><td>
 
@@ -72,7 +72,7 @@ As a user with the ServiceNow AI Platform admin role, install and configure the 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+3.
 
 </td><td>
 
@@ -84,7 +84,7 @@ As a user with the ServiceNow AI Platform admin role, install and configure the 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+4.
 
 </td><td>
 
@@ -98,7 +98,7 @@ As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** r
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+5.
 
 </td><td>
 
@@ -112,7 +112,7 @@ As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** r
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+6.
 
 </td><td>
 
@@ -122,7 +122,7 @@ As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** r
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Checkbox
+7.
 
 </td><td>
 
@@ -131,6 +131,6 @@ As a user with the ServiceNow AI Platform **sn\_si.ingestion\_profile\_admin** r
  For more information, see [Schedule and retrieve notable events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-schedule-security.md).
 
 </td></tr></tbody>
-</table>    You have successfully completed the set up steps and verified expected results for the integration.
+</table>    You have successfully completed the setup steps and verified expected results for the integration.
 
 

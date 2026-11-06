@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [User access to flows, Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [User access to flows, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Manage access to Workflow Studio flow features
@@ -125,6 +125,4 @@ Features are elements of the Workflow Studio UI. When feature filtering is turne
 ## What to do next
 
 Assign your users with the roles to access features.
-
-**Parent Topic:**[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/user-access-flow-designer.md)
 

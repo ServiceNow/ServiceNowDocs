@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Complete questionnaires for a work order task on the Contractor Portal
@@ -38,6 +38,4 @@ You can complete questionnaires for the work order tasks that are assigned to yo
 
 6.  Click **Submit** after answering all the mandatory questions in the questionnaire.
 
-
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

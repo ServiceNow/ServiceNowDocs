@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-view-hierarchical-line-items.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Use hierarchical list view for quote line items
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -30,10 +30,12 @@ Role required: sales\_agent
 
     |Control|Description|
     |-------|-----------|
-    |Caret \[Omitted image "icon-caret.png"\]|Opens the hierarchical list view showing the child line items.|
-    |Pencil \[Omitted image "icon-pencil.png"\]|Make additional configuration changes to the products in the line item.|
-    |Number \[Omitted image "icon-list-item-number.png"\]|Shows the number of child line items contained in the parent line item.|
-    |Filter \[Omitted image "icon-filter.png"\]|Filters line items.|
-    |Toggle \[Omitted image "icon-list-toggle.png"\]|Toggles between hierarchical view and standard view.|
+    |Caret \[Omitted image "icon-caret.png"\] Alt text:|Opens the hierarchical list view showing the child line items.|
+    |Pencil \[Omitted image "icon-pencil.png"\] Alt text:|Make additional configuration changes to the products in the line item.|
+    |Number \[Omitted image "icon-list-item-number.png"\] Alt text:|Shows the number of child line items contained in the parent line item.|
+    |Filter \[Omitted image "icon-filter.png"\] Alt text:|Filters line items.|
+    |Toggle \[Omitted image "icon-list-toggle.png"\] Alt text:|Toggles between hierarchical view and standard view.|
 
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing Password Reset processes, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a custom question to the Security Questions verification
@@ -18,7 +18,7 @@ To enroll for the 'Security Questions' verification, the user selects several qu
 
 ## Before you begin
 
-Role required: password\_reset\_admin or admin
+Role required: password\_reset\_admin
 
 ## About this task
 

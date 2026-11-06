@@ -1,46 +1,46 @@
 ---
 title: Integration Commons for CMDB
-description: The Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app contains the CMDB Integrations Dashboard and a set of Robust Transform Engine \(RTE\) transforms and script includes.
+description: The Integration Commons for CMDB application contains the CMDB Integrations Dashboard and a set of Robust Transform Engine \(RTE\) transforms and script includes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.html
 release: yokohama
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Integration Commons for CMDB
 
-The Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app contains the CMDB Integrations Dashboard and a set of Robust Transform Engine \(RTE\) transforms and script includes.
+The Integration Commons for CMDB application contains the CMDB Integrations Dashboard and a set of Robust Transform Engine \(RTE\) transforms and script includes.
+
+Integration Commons for CMDB \(sn\_cmdb\_int\_util\) is available on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Dependencies
 
-CMDB and CSDM Data Foundations Dashboards v2.3.5 or later versions \(see [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)\)
+CMDB and CSDM Data Foundations Dashboards v2.3.5 or later versions \(see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md)\)
 
 ## Using the CMDB Integrations Dashboard
 
-The Integration Commons for CMDB store app provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors and any custom integrations created in IntegrationHub ETL.
+The Integration Commons for CMDB application provides a dashboard with a central view of the status, processing results, and processing errors of all installed Service Graph Connectors and any custom integrations created in IntegrationHub ETL.
 
 See [CMDB Integrations Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/cmdb-integ-dashboard.md) for more information.
 
 ## Using RTE transforms
 
-The Integration Commons for CMDB \(com.snc.cmdb.integration\_util\) plugin provides the Integration Commons functionality. You can use the transforms and script includes to standardize the values stored in the CMDB by different data integrations or by changes. The attributes that are included in the Integration Commons for CMDB store app are attributes that the Identification and Reconciliation Engine \(IRE\) requires for identification or attributes that could be used to derive classes.
+The Integration Commons for CMDB \(com.snc.cmdb.integration\_util\) plugin provides the Integration Commons functionality. You can use the transforms and script includes to standardize the values stored in the CMDB by different data integrations or by changes. The attributes included in the Integration Commons for CMDB application are attributes that the Identification and Reconciliation Engine \(IRE\) requires for identification or attributes that could be used to derive classes.
 
-The transforms are common operation types and template scripts available astemplated operations. A templated operation is a transform that controls the logic for the transform. The result is that there can be only a single output. When a transform returns multiple values, then those values are concatenated by a triple pipe \(\|\|\|\). You then must use the split transform to retrieve the values that you’re interested in. The inputs are either a single field or a list of fields. For all but one transform, the inputs are assumed to be a fixed list of fields as described for each of the following individual transform.
+**Note:** The RTE transforms are included in the Integration Commons for CMDB app and are available in the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/integrationhub-etl.md) app. For more information on RTE transforms, see [RTE operation types included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/cmdb-rte-operation-types.md) and [RTE transforms template scripts included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/cmdb-rte-transforms.md).
 
-**Note:** The RTE transforms are included in the Integration Commons for CMDB store app and are available in the [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/integrationhub-etl.md) store app. For more information on RTE transforms, see[RTE operation types included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/cmdb-rte-operation-types.md) and [RTE transforms template scripts included within the Integration Commons for CMDB app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/cmdb-rte-transforms.md).
+ServiceNow Service Graph Connectors that are available at the ServiceNow Store, have dependencies on the transforms and script includes in the Integration Commons for CMDB app. Therefore, when you install such CMDB integrations, the Integration Commons for CMDB store app is automatically installed too.
 
-ServiceNow Service Graph Connectors that are available at the ServiceNow Store, have dependencies on the transforms and script includes in the Integration Commons for CMDB store app. Therefore, when you install such CMDB integration, the Integration Commons for CMDB store app is automatically installed too.
-
-You can also configure the Application Dependency Mapping \(ADM\) adapter to populate running processes, TCP connections, and applications into CMDB. For more information, see [Configuring the ADM adapter for Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.md).
+You can also configure the Application Dependency Mapping \(ADM\) adapter to populate running processes, TCP connections, and applications into the CMDB. For more information, see [Configuring the ADM adapter for Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/sgc-common-config-adm.md).
 
 **Important:** After upgrades and deployments of new applications or integrations, run quick start tests to verify that Integration Commons for CMDB works as expected. See [Quick start tests for Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/quick-start-tests-integration-commons.md) for more information.
 

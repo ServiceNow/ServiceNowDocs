@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [JavaScript debug window, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Writing to the debug log
@@ -18,7 +18,7 @@ To write to the debug log in your client-side JavaScript, or UI policies, make a
 
 An example of using `jslog()` in JavaScript:
 
-```
+```javascript
 function logData (r ) {
     lastLogDate  = r. responseXML. documentElement. getAttribute ( "last_log_entry" ) ; var items  = r. responseXML. getElementsByTagName ( "log" ) ;
     jslog ( "response=" + r. responseText ) ; }
@@ -26,7 +26,7 @@ function logData (r ) {
 
 Additionally, when client scripts run, the name of the client script and timing information is displayed. This can be useful in determining which scripts are running and whether they are impacting performance.
 
-**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debug-overview.md)
+**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_JavaScriptDebugWindow.md)
 
 ## Debug UI policies
 
@@ -34,7 +34,7 @@ Enabling the **glide.ui.ui\_policy\_debug** property lets you monitor the proces
 
 Here are some sample log events from an incident policy that sets fields to read-only if the incident\_state is closed.
 
-```
+```javascript
 GlideFieldPolicy: Evaluating condition
 GlideFieldPolicy:     incident_state (7) = 7 -> true
 GlideFieldPolicy: --->>> TRUE
@@ -56,9 +56,9 @@ Role required: admin
 
 ### About this task
 
-The steps to access the JavaScript debug window depend on which UI version you are using.
+The steps to access the JavaScript debug window depend on which UI version you're using.
 
-**Note:** The JavaScript debug window is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
+**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ### Procedure
 
@@ -70,8 +70,8 @@ Core UI
 
 </td><td>
 
-1.  Click the gear icon in the banner frame.
-2.  Click the **Developer** section.
+1.  Select the gear icon in the banner frame.
+2.  Select the **Developer** section.
 3.  Toggle the **JavaScript Log and Field Watcher** switch.
 
 
@@ -81,8 +81,8 @@ UI15
 
 </td><td>
 
-1.  Click the gear icon in the banner frame.
-2.  Click **JavaScript Log and Field Watcher**.
+1.  Select the gear icon in the banner frame.
+2.  Select **JavaScript Log and Field Watcher**.
 
 
 </td></tr><tr><td>
@@ -91,13 +91,13 @@ UI11
 
 </td><td>
 
-Click the debug icon \(\[Omitted image "Debug.png"\] Alt text: The debug icon\) in the banner frame.
+Select the debug icon in the banner frame.
 
 </td></tr></tbody>
 </table>    A new pane opens at the bottom of the screen. It shows the JavaScript Log tab and may also show the Field Watcher tab.
 
 2.  If needed, select the **JavaScript Log** tab.
 
-3.  Click the clear icon \(\[Omitted image "Eraser.png"\] Alt text: The clear icon\) to clear the contents of the log, as needed.
+3.  Select the clear icon to clear the contents of the log, as needed.
 
 

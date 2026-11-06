@@ -7,16 +7,16 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowChat API - iOS
+# NowChat API- iOS
 
 The NowChat API is a top-level global API that enables users to instantiate a NowChat service instance.
 
-**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChat - makeChatService\(instanceUrl: URL, delegate: NowChatServiceDelegate?\)
 
@@ -27,7 +27,7 @@ Creates an instance of NowChatService with the specified configuration.
 |Name|Type|Description|
 |----|----|-----------|
 |instanceUrl|URL|URL of the ServiceNow instance providing chat services.|
-|delegate|NowChatServiceDelegate|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
+|delegate|[NowChatServiceDelegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)|Optional. Delegate object that implements the NowChatServiceDelegate protocol.|
 
 |Type|Description|
 |----|-----------|

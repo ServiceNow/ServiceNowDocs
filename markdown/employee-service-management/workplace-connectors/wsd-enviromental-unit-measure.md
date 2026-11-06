@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for environmental data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Table name
 
 </td><td>
 
-The Occupancy and Environment Data table \(sn\_wsd\_wc\_occ\_env\_data\) name.
+The Environmental sensor data table \(sn\_wsd\_wc\_space\_environment\) name.
 
 </td></tr><tr><td>
 
@@ -55,14 +55,6 @@ Value field
 </td><td>
 
 Parameters for which you want to have the unit of measure. For example, Carbon dioxide units, Event timestamp, Location, Ozone units, Temperature units, Relative humidity, and so on. If you select Carbon dioxide, then units for carbon dioxide are shown.
-
-</td></tr><tr><td>
-
-Units field
-
-</td><td>
-
-Units for the value selected in the Value field. For example, **Temperature units** in case you have selected Temperature value in the Value field.
 
 </td></tr><tr><td>
 

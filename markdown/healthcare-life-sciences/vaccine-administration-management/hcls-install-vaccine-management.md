@@ -7,9 +7,9 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Install Vaccine Administration Management
@@ -51,11 +51,7 @@ Role required: admin
 
     1.  Go to  Now Support  and choose **Service Catalog ** from the menu.
 
-        \[Omitted image "catalog.png"\] Alt text: The Service Catalog is highlighted within the Now Support menu.
-
     2.  Click  **Activate Plugin**.
-
-        \[Omitted image "activate-plugin.png"\] Alt text: The Activate Plugin option from the service catalog.
 
     3.  In the  **What is your target instance ** field, specify your instance.
 
@@ -65,11 +61,7 @@ Role required: admin
 
     6.  In the  **Reason/Comments ** field, state that you need the plugin \(com.glide.now.platform.encryption\) for  Vaccine Administration Management.
 
-        \[Omitted image "vam-kmf-installation.png"\] Alt text: Comment box stating that the KMF plugin is needed for Vaccine Administration Management.
-
     7.  In the  **Select Maintenance Start Time ** field, select a start date and time value.
-
-        \[Omitted image "vam-install-select-maintenance-start-time.png"\] Alt text: Select Maintenance Start Time field where a start date and a time value can be selected.
 
     8.  Click **Submit**.
 
@@ -86,8 +78,6 @@ Role required: admin
     3.  In the Crypto Specifications related list, click the record that appears in the list.
 
     4.  Navigate to **Algorithm Definition** &gt; **Lifecycle Definition** &gt; **Key Origin** &gt; **Key Creation**.
-
-        \[Omitted image "install-vaccine-management.png"\] Alt text: Key Creation view of crypto specification with completed fields and a Generate Key option highlighted.
 
     5.  Click **Generate Key**.
 

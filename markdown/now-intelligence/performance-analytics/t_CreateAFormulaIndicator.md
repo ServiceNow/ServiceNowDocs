@@ -1,20 +1,20 @@
 ---
 title: Create a formula indicator
-description: Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
+description: Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/t\_CreateAFormulaIndicator.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Formula indicators, Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create a formula indicator
 
-Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
+Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 
 ## Before you begin
 
@@ -37,10 +37,8 @@ The fields of a formula indicator are similar to the fields of an automated indi
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Formula Indicators** and select **New**.
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Indicators** &gt; **Formula Indicators** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Formula Indicators** and select **New**.
 2.  In the **Name** field, give the indicator a descriptive name, such as Average duration of open incidents.
 
 3.  In the **Calendars** field, select either the standard calendar or a business or fiscal calendar group.
@@ -49,7 +47,7 @@ The fields of a formula indicator are similar to the fields of an automated indi
 
     At least one indicator in the formula must match the specified calendar frequency. The choice of calendar frequencies depends on the setting of the business calendar entries or fiscal calendar schedules.
 
-    For example, the Gregorian calendar has Quarter, Month, Week, and Year frequencies. If you are using the Gregorian calendar, you must choose one of these frequencies.
+    For example, the Gregorian calendar has Quarter, Month, Week, and Year frequencies. If you're using the Gregorian calendar, you must choose one of these frequencies.
 
 5.  If you prefer that the score of this indicator increases or decreases over time, select **Maximize** or **Minimize** in the **Direction** field.
 
@@ -65,13 +63,13 @@ The fields of a formula indicator are similar to the fields of an automated indi
 
 6.  Define the Formula for this indicator.
 
-    1.  To use a calculated value in the formula, click **Browse for a method** \(Repeatable\).
+    1.  To use a calculated value in the formula, tap **Browse for a method** \(Repeatable\).
 
         A dialog opens for you to insert a method from PAFormulaUtils\(\) into the formula. This API returns the calculated value for an indicator. For more information about using this API, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/get-indicator-analytics.md).
 
         \[Omitted image "formula-method-selector.png"\] Alt text: List of descriptive labels of methods in the "Add a method to the formula" dialog box, with Get global target gap of the specified indicator" highlighted.
 
-    2.  To put the score of an indicator in the formula, click the **Browse for an indicator** link and fill in the dialog \(Repeatable\).
+    2.  To put the score of an indicator in the formula, tap the **Browse for an indicator** link and fill in the dialog \(Repeatable\).
 
 <table id="table_lqr_xwr_52b"><thead><tr><th>
 
@@ -87,7 +85,7 @@ Indicator
 
 </td><td>
 
-The indicator you are inserting as a contributing indicator into the formula.If you use a business or fiscal calendar for this indicator, at least one indicator in the formula must use the matching calendar and calendar frequency.
+The indicator you're inserting as a contributing indicator into the formula.If you use a business or fiscal calendar for this indicator, at least one indicator in the formula must use the matching calendar and calendar frequency.
 
 </td></tr><tr><td>
 
@@ -119,7 +117,7 @@ Use in method
 
 </td><td>
 
-Returns a unique identifier instead of the score for this indicator. Select this box when you are specifying an indicator for a method in the formula. These methods get calculated values for the indicator from the Analytics Hub. For more information about using these methods, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/get-indicator-analytics.md).
+Returns a unique identifier instead of the score for this indicator. Select this box when you're specifying an indicator for a method in the formula. These methods get calculated values for the indicator from the Analytics Hub. For more information about using these methods, see [Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/get-indicator-analytics.md).
 
 </td></tr></tbody>
 </table>        You could add indicators manually. However, by using the **Browse for an indicator** function, you ensure that you have the proper notation for indicators and [breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md).
@@ -210,27 +208,39 @@ Allow aggregation of multiple breakdown element scores
 
 Enables widgets to show the summed score of multiple breakdown elements on this indicator. If this field is selected, you can select either aggregated or separated values on the form for a breakdown dashboard that uses this indicator. Formulas based on addition, subtraction, or multiplication are generally good candidates for allowing aggregation. Percentages are also supported, provided the percentages total to 100%. On the other hand, the results of aggregating elements on averages, or of percentages that are not related, are usually not meaningful. **Warning:** These aggregations are not checked for mathematical validity.
 
-</td></tr></tbody>
-</table>9.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+</td></tr><tr><td>
 
+Show real-time score
+
+</td><td>
+
+If all contributing indicators have **Show real-time score** enabled, select this option to use real-time scores to calculate the formula.
+
+</td></tr></tbody>
+</table>9.  In the **Forecasting** tab, set the following fields:
+
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 10. Expand the context menu and select **Save**.
 
     \[Omitted image "auto-indicator-save.png"\] Alt text: Save option in the context menu
 
-11. To apply a breakdown to the entire formula indicator, click **Manage breakdowns** at the top of the page.
+11. To apply a breakdown to the entire formula indicator, press **Manage breakdowns** at the top of the page.
 
     By default, you can apply only breakdowns that are configured for every contributing indicator in the formula.
 
-    **Note:** The system property **com.snc.pa.formula\_indicator\_valid\_breakdown** controls this behavior. By default, it is true. Changing it to false allows you to apply a breakdown to a formula indicator when at least one contributing indicator uses that breakdown. Attempts to view scores for unsupported breakdowns in a widget, the Analytics Hub, or KPI Details result in a warning message instead of a value.
+    **Note:** The system property **com.snc.pa.formula\_indicator\_valid\_breakdown** controls this behavior. By default, it is true. Changing it to false allows you to apply a breakdown to a formula indicator when at least one contributing indicator uses that breakdown. Attempts to view scores for unsupported breakdowns in a data visualization, the Analytics Hub, or KPI Details result in a warning message instead of a value.
 
-    You cannot select a breakdown element in the formula indicator record. The breakdown can only be used interactively, meaning on the Analytics Hub, KPI Details, appropriately configured data visualizations, and dashboards. For information about using the **Manage breakdowns** tool, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+    You cannot select a breakdown element in the formula indicator record. The breakdown can only be used interactively, meaning on the Analytics Hub, KPI Details, appropriately configured data visualizations, and responsive dashboards. For information about using the **Manage breakdowns** tool, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
 
 ## Incident Backlog Growth
 
-As an Incident Manager, you want to improve the efficiency of incident resolution. You already track new and resolved incidents as the Number of new incidents and Number of resolved incidents indicators. However, these indicators do not tell you if you are achieving your goal of improving incident resolution.
+As an Incident Manager, you want to improve the efficiency of incident resolution. You already track new and resolved incidents as the Number of new incidents and Number of resolved incidents indicators. However, these indicators do not tell you if you're achieving your goal of improving incident resolution.
 
 You need a new Backlog Growth KPI to measure the volume of outstanding incidents. To implement this KPI, you create a formula indicator named Incident Backlog Growth, with the following formula:
 

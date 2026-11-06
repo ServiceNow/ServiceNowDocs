@@ -1,20 +1,20 @@
 ---
-title: Software models and Software entitlements
-description: A software model is a profile of the software that you've purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you've purchased.
+title: Software models and software entitlements
+description: A software model is a profile of the software that you have purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you have purchased.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Software models and Software entitlements
+# Software models and software entitlements
 
-A software model is a profile of the software that you've purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you've purchased.
+A software model is a profile of the software that you have purchased, including information about the publisher, version, and discovery map. Software entitlements are used to relate the software model to the rights that you have purchased.
 
 ## Software models
 
@@ -22,35 +22,7 @@ Software models are used to record publisher information and create a profile. Y
 
 If you delete a software model, all records related to the software model, in the Downgrade Rights \[samp\_sw\_downgrade\_model and samp\_downgrade\_model\] tables, are automatically deleted. For detailed information on downgrade rights, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/downgrade-rights.md).
 
-For details on manually creating software models, see [Create software models in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md). For details on automatic creation of software models, see [Automatic creation of software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/duplicate-sw-models.md).
-
-## Software Product Lifecycle report
-
-You can also track a software lifecycle phase for use with the [Technology Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/technology-portfolio-management.md).
-
-The Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table holds the information of the software product, its lifecycle type \(internal or external\), full version, lifecycle phases, start date of the phase, and the risk.
-
-The Content active column in the Software Product lifecycle \[sam\_sw\_product\_lifecycle\] table is set to the value true by the Software Asset Management content service if the lifecycle records are valid. If you do not want a lifecycle phase to be rendered on the Technology Portfolio Management \(TPM\) timeline, then set the **Active** column to false. For example, you can have **General Availability**, **End of Extended Support**, and **End of Support** lifecycle phases as three records for Oracle DB Server software model in the Software Product Lifecycles list. However, if you do not want **General Availability** phase to be shown on the timeline, you can clear the **Active** check box in the Software Product Lifecycle form for that lifecycle phase record. As a result, the timeline starts with the **End of Support** phase. Although the lifecycle phase record exists for the software product lifecycle, the lifecycle data will not be rendered on the timeline. Because only active lifecycle records are considered and plotted in the TPM timeline.
-
-View the Software Product Lifecycle report to be informed about the products nearing end-of-life, end-of-support, and end-of-extended support. View the report by navigating to **Reports** &gt; **View/Run**. The report is based on the scheduled job, **SAM - Generate Data For Software Lifecycle Report**.
-
-## Software Lifecycle Report
-
-The Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table calculates the current and upcoming lifecycle phases from the lifecycle phases mentioned in the Software Product Lifecycle \[sam\_sw\_product\_lifecyle\] table.
-
-For records with the same publisher, product, version, full version, and edition, there's a single record for different lifecycle phases. This helps in avoiding duplicate software installation count for each lifecycle phase. You can export lifecycles from the Software Installation \[cmdb-sam-sw-install\] table. The software installation records are linked to lifecycles via the **Installs associated to lifecycle** column in the Software Installation \[cmdb-sam-sw-install\] table.
-
-Five new columns have been added to Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table:
-
-|New column label and name|Description|
-|-------------------------|-----------|
-|Current phase \[current\_lifecycle\_phase\]|The lifecycle phase that is currently underway.|
-|Current lifecycle phase start date \[current\_lifecycle\_phase\_start\_date\]|The start date of the current lifecycle phase.|
-|Upcoming lifecycle phase \[upcoming\_lifecycle\_phase\]|The lifecyle phase that is soon coming up.|
-|Upcoming lifecycle phase start date \[upcoming\_lifecycle\_phase\_start\_date\]|The start date of the upcoming lifecycle phase.|
-|Owners \[owners\]|The person responsible for the software model.|
-
-**Note:** The lifecycle phase column is removed from the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table.
+For details on manually creating software models, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md). For details on automatic creation of software models, see [Automatic creation of software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/duplicate-sw-models.md).
 
 ## Software entitlements
 
@@ -67,17 +39,58 @@ For details on creating software entitlements, see [Create entitlements in works
 
 ## Import software entitlements
 
-You can import bulk software entitlements at one go.
+Import bulk software entitlements at one go.
 
-If a Publisher Part Number \(PPN\) is specified for the entitlements that you import, the PPN is matched to the PPN in the Content Service Library and the system finds the existing software model linked to it.
+If a Publisher Part Number \(PPN\) is specified for the entitlements that you import, the PPN is matched to PPN in the Content Service Library and the data is used to create a software model automatically.
 
-**Note:** If a `Publisher Part Number not found` error occurs during import of the software entitlement \(product, publisher, version, edition, platform, and language\) but a discovery map is found, then a [custom publisher part number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-add-custom-part-number.md) is created after you manually open the record and fix the import error. If a discovery map is not found, you can create a discovery map to be associated with the publisher part number.
+**Note:** If a `Publisher Part Number not found` error occurs during import of the software entitlement \(product, publisher, version, edition, platform, and language\), open the record and correct the error. To generate a custom part number, select **Create PPN**. If a discovery map is not found, you can create a discovery map to be associated with the publisher part number.
 
 If the import spreadsheet contains a conflicting \(or missing\) PPN, the PPN value is set to the value in the existing product definition, when available.
 
-**Note:** If you import a batch of Microsoft entitlements and the **License Duration** field is set to **Contractual**, you must specify both a start and end date.
+**Note:** If you import a batch of Microsoft entitlements and the **License Duration** field is set to **Contractual**, you must specify the start and end date.
 
 The step-up license type is only available if the publisher is Microsoft. If you try to specify another publisher, an error message is displayed.
+
+## PPN and software model resolution in entitlement imports
+
+The system uses different resolution strategies depending on:
+
+-   Whether a PPN is provided in the import row.
+-   Whether the import is standard \(custom\) or MLS \(Multi-License Service\).
+-   Whether the automatic software model creation property is enabled.
+
+## Scenario 1: PPN field is blank
+
+For standard \(custom\) imports, the system attempts to identify a software model through a matching process:
+
+1.  The system tries to identify a software model using the **Publisher**, **Product**, **Version**, **Edition**, **Platform**, and **Language** fields provided in the import row.
+2.  If an exact match is found, the software model is assigned, and the import proceeds normally.
+3.  If no exact match is found, the system tries a relaxed search, allowing any platform or any language, to find the closest match.
+4.  If a match is found through the relaxed search, the software model is assigned and there is no error.
+5.  If no match is found:
+    -   If the automatic software model creation property is enabled \(the default\), and both publisher and product are identified, the system automatically creates a new software model and the import proceeds.
+    -   If the automatic software model creation property is disabled, or publisher or product can't be identified, an error record is created: `PPN and SM not found`.
+
+For MLS imports, the system doesn't attempt to find a software model from other fields when the PPN is blank. The import row continues to other validation checks but will likely fail at downstream validations \(such as license metric resolution\) that depend on PPN or software model.
+
+## Scenario 2: PPN is provided
+
+PPN exists in the Content Library:
+
+1.  The system looks up the associated software model.
+2.  If exactly one software model is found, it is assigned and there is no error.
+3.  If multiple software models are found, an error record is created: `Multiple software models found for the Publisher Part Number. Please choose a software mode`l.
+
+PPN doesn't exist in the Content Library or is marked Inactive:
+
+1.  The system searches for a software model using **Publisher**, **Product**,**Version**, **Edition**, **Platform**, and **Language** \(exact match only; no relaxed search in this scenario\).
+2.  If software model is found:
+    -   The PPN not found issue is noted internally.
+    -   If no other validation errors exist on the row, the entitlement is created without a PPN reference.
+    -   If other validation errors exist, such as invalid license type, missing purchased rights, an error record is created including `Publisher Part Number not found` alongside other errors.
+3.  If software model isn't found:
+    -   If automatic software model creation is enabled, the import is standard \(custom\), and both publisher and product can be identified, the system automatically creates a software model.
+    -   Else, an error record is created: `PPN and SM not found`.
 
 -   **[Automatic creation of software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/duplicate-sw-models.md)**  
 Software models are automatically created for software installations if one doesn't already exist.

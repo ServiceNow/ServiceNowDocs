@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Agent Client Collector Monitoring, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create Azure policies for metric collection
@@ -186,4 +186,6 @@ Value that you enter \(**-c**\) to indicate that the check retrieves the name of
 ## Result
 
 The configured policy retrieves the resources and their metrics from the specified Azure CI and sends them to the agent.
+
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

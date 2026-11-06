@@ -1,44 +1,102 @@
 ---
 title: Trouble Ticket Open API
-description: The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.Retrieves a list of all trouble ticket records from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.Retrieves a specified record from the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Retrieves a specified record from the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Updates a specified record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Updates a record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Creates a record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Creates a record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
+description: The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.Retrieves a list of all trouble ticket records from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.Retrieves a specified record from the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.Updates a specified record in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.Creates a record in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/trouble-ticket-open-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 50
+last_updated: "2026-09-30"
+reading_time_minutes: 32
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
 # Trouble Ticket Open API
 
-The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.
+The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
+
+## API overview
 
 Use this API to manage ticket information between external ticketing systems and the ServiceNow AI Platform.
 
-This API is included in the [Telecommunications Assurance Workflows](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9e07323d5b2110100206cb837b81c773) application, which is available on the ServiceNow Store. The Customer Service \(com.sn\_customerservice\) and Customer Service Install Base Management \(com.snc.install\_base\) applications are required to use this API with the Case \[sn\_customerservice\_case\] table.
-
-This API is provided within the `sn_ind_tsm_sdwan` namespace.
-
-The calling user must have the ticket\_integrator role.
-
-This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Trouble Ticket Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/developer-guides/trouble-ticket_dev-guide.md).
-
-The Trouble Ticket Open API is a ServiceNow® implementation of the TM Forum Trouble Ticket Management API REST specification. This implementation is based on the [TMF621 Trouble Ticket Management API REST Specification Release 19](https://www.tmforum.org/resources/specification/tmf621-trouble-ticket-management-api-rest-specification-r19-0-0/), June 2019. The Trouble Ticket Open API is conformance certified by TM Forum.
+The Trouble Ticket Open API is a ServiceNow® implementation of the TM Forum Trouble Ticket Management API REST specification. This implementation is based on the [TMF621 Trouble Ticket Management API User Guide v5.0.0](https://www.tmforum.org/resources/specifications/tmf621-trouble-ticket-management-api-user-guide-v5-0-0/), September 2024. The Trouble Ticket Open API is conformance certified by TM Forum.
 
 \[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
+## Scope changes \(November 2026 store\)
+
+**Important:**
+
+**Endpoint migration**: Starting with the November 2026 release, this API transitions from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. URL endpoint paths change from `/api/sn_ind_tsm_sdwan/ticket/troubleTicket` to `/api/sn_ind_tsm_core/ticket/troubleTicket`.
+
+**Deprecation timeline:**
+
+-   **October–November 2026:** Both endpoint paths are active. Plan and test your migration to the new endpoints.
+-   **November 2026:** New `sn_ind_tsm_core` endpoints live. Existing `sn_ind_tsm_sdwan` endpoints are deprecated but still available.
+-   Before Denmark release: Switch all integrations to the new `sn_ind_tsm_core` endpoints.
+-   **Denmark release:** Old `sn_ind_tsm_sdwan` endpoints are officially removed and sunset from use.
+
+See 'Migration Guidance' for details about how to upgrade to use the new endpoints.
+
+|Operation|New endpoint|Deprecated endpoint \(to be removed in Denmark release\)|
+|---------|------------|--------------------------------------------------------|
+|Create ticket|POST /api/sn\_ind\_tsm\_core/ticket/troubleTicket|POST /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket|
+|List tickets|GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket|GET /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket|
+|Get ticket by ID|GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}|GET /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}|
+|Update ticket|PATCH /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}|PATCH /api/sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}|
+
+## Access requirements
+
+This API requires the following applications which are available on the ServiceNow Store:
+
+-   Service Experience Workflows / SD-WAN \(sn\_ind\_tsm\_sdwan\) or Telecom Core \(sn\_ind\_tsm\_core\)
+-   Case Management Core \(com.sn\_customerservice\) and Customer Service Install Base Management \(com.snc.install\_base\) applications when interacting with data in the Case \[sn\_customerservice\_case\] table.
+
+The calling user must have the ticket\_integrator role.
+
+## Migration guidance
+
+**New users:** Use the new `/api/sn_ind_tsm_core/ticket/troubleTicket` endpoints immediately.
+
+**Existing SD-WAN users:** If your integrations currently use the `/api/sn_ind_tsm_sdwan/ticket/troubleTicket` endpoints, prepare for the transition to `sn_ind_tsm_core` before Denmark. To upgrade, simply install or upgrade Telecom Service Management Core. A one-time fix script runs on install.
+
+The installation script automatically:
+
+-   Moves the Trouble Ticket API records \(flows, script includes, ACLs, roles, properties, rate limits, REST operations and so on\) from the SD-WAN scope to TSM Core.
+-   Renames the identifiers listed below from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`.
+
+After installing or upgrading to use the new scope, use the following checklist to keep your endpoints running properly:
+
+-   Update endpoint URLs in all custom integrations, REST calls, and scripts from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`.
+-   Update any custom script references to scope identifiers from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core` \(for example, `gs.getProperty()` or `gs.hasRole()` calls\).
+-   Review and update ACL definitions and role references.
+-   Test integrations against the new endpoints before the mid-Denmark release.
+-   When you install or upgrade Telecom Service Management Core, a one-time fix script automatically moves all API records and renames scope identifiers. Verify that any customized property values are preserved after upgrade.
+
+Request and response payloads, authentication, and access control remain unchanged.
+
+## Extensible options
+
+This API can be extended to make customizations around required parameters, request body validation, additional REST operations, and field mappings. For more information, see the [Trouble Ticket Open API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/developer-guides/trouble-ticket_dev-guide.md).
+
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
-## Trouble Ticket - GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket 
+## Trouble Ticket - GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket
 
-Retrieves a list of all trouble ticket records from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.
+Retrieves a list of all trouble ticket records from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
+
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
 
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket`
+
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
 
 ### Supported request parameters
 
@@ -99,7 +157,7 @@ Maximum number of records to return. For requests that exceed this number of rec
 
 Maximum: 100
 
-You can change the default and maximum values by updating the **sn\_ind\_tsm\_sdwan.pagination.set\_limit** and **sn\_ind\_tsm\_sdwan.pagination.max\_limit** system properties.
+You can change the default and maximum values by updating the **sn\_ind\_tsm\_core.pagination.set\_limit** and **sn\_ind\_tsm\_core.pagination.max\_limit** system properties.
 
 Data type: Number
 
@@ -139,6 +197,7 @@ Filter trouble tickets by ticket type. Only tickets of the specified type are re
 
 -   Case
 -   Incident
+-   Service Problem Case
 
 Data type: String
 
@@ -560,8 +619,9 @@ The type of ticket.Possible values:
 
 -   Case
 -   Incident
+-   Service Problem Case
 
- Data type: String
+Data type: String
 
 </td></tr><tr><td>
 
@@ -577,7 +637,7 @@ This value is always `TroubleTicket`.Data type: String
 This example returns specified fields for the first five trouble ticket case records.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket?limit=5&fields=id%2Cname%2Cdescription%2Cstatus%2Cseverity%2CticketType&ticketType=case" \
+curl "https://instance.servicenow.com/api/sn_ind_tsm_core/ticket/troubleTicket?limit=5&fields=id%2Cname%2Cdescription%2Cstatus%2Cseverity%2CticketType&ticketType=case" \
 --request GET \
 --user 'username':'password'
 ```
@@ -629,13 +689,21 @@ Response body.
 ]
 ```
 
-## Trouble Ticket - GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}
+## Trouble Ticket - GET /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}
 
-Retrieves a specified record from the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
+Retrieves a specified record from the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
+
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
 
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket/{id}`
+
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
 
 ### Supported request parameters
 
@@ -1061,6 +1129,7 @@ Type of ticket.Possible values:
 
 -   Case
 -   Incident
+-   Service Problem Case
 
 Data type: String
 
@@ -1078,7 +1147,7 @@ This value is always `TroubleTicket`.Data type: String
 This example retrieves a trouble ticket record from the Case \[sn\_customerservice\_case\] table.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
+curl "https://instance.servicenow.com/api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
 --request GET \
 --header "Accept:application/json" \
 --user 'username':'password'
@@ -1089,7 +1158,7 @@ Response body.
 ```
 {
     "id": "370415f03c20e910f8772f1bc332b31b",
-    "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/370415f03c20e910f8772f1bc332b31b",
+    "href": "/api/sn_ind_tsm_core/ticket/troubleTicket/370415f03c20e910f8772f1bc332b31b",
     "creationDate": "2023-01-19 22:39:28",
     "lastUpdate": "2023-01-19 22:41:39",
     "description": "Router is not working, my devices cannot detect any signals from the router. First button from the left is flashing red, all others are black. Resetting the router does not solve the problem, I need urgent assistance.",
@@ -1166,461 +1235,21 @@ Response body.
 }
 ```
 
-## Trouble Ticket - GET /sn\_ind\_tsm\_sdwan/troubleticket/\{ticketType\}/\{id\}
+## Trouble Ticket - PATCH /api/sn\_ind\_tsm\_core/ticket/troubleTicket/\{id\}
 
-Retrieves a specified record from the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
+Updates a specified record in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
 
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Trouble Ticket - GET /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md).
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
 
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/troubleticket/{ticketType}/{id}`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket/{id}`
 
-### Supported request parameters
-
-<table id="table_ufw_yqm_5pb" class="rest_api_path_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-ticketType
-
-</td><td>
-
-Type of ticket. This value determines whether a record is retrieved from the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Valid values:
-
--   case
--   incident
-
-Data type: String
-
-</td></tr><tr><td>
-
-id
-
-</td><td>
-
-Sys\_id of the case or incident record to retrieve.Data type: String
-
-</td></tr></tbody>
-</table><table id="table_cn5_zqm_5pb" class="rest_api_query_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-fields
-
-</td><td>
-
-Comma-separated list of fields to return in the response. Invalid fields are ignored. If this value is not passed in, all fields are returned.Valid fields:
-
--   channel
--   creationDate
--   description
--   id
--   lastUpdate
--   name
--   note
--   relatedEntity
--   relatedParty
--   severity
--   status
--   ticketType
--   @type
-
-Data type: String
-
-</td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
-
-|Header|Description|
-|------|-----------|
-|None| |
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-<table><thead><tr><th>
-
-Status code
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-200
-
-</td><td id="entry-200-status-code">
-
-Successful. The request was successfully processed.
-
-</td></tr><tr><td>
-
-400
-
-</td><td>
-
-Bad Request. A bad request type or malformed request was detected for one or more of the following reasons.-   Invalid path parameter.
--   Invalid URI.
-
-</td></tr><tr><td>
-
-404
-
-</td><td>
-
-Record not found. A record associated with the ID is not found in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
-
-</td></tr></tbody>
-</table>### Response body parameters \(JSON or XML\)
-
-<table id="table_n4d_yvm_5pb"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-@type
-
-</td><td>
-
-This value is always `TroubleTicket`.Data type: String
-
-</td></tr><tr><td>
-
-channel
-
-</td><td>
-
-Method of contact that the ticket was created through.Data type: Object
-
-```
-"channel":{
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-channel.name
-
-</td><td>
-
-Name of the contact method. Maps to the Channel \[contact\_type\] field for cases and the Contact type \[contact\_type\] field for incidents.Data type: String
-
-</td></tr><tr><td>
-
-creationDate
-
-</td><td>
-
-Date that the case or incident record was created. Maps to the Created field.Data type: String
-
-</td></tr><tr><td>
-
-description
-
-</td><td>
-
-Description of the issue from the ticket. Maps to the Description field.Data type: String
-
-</td></tr><tr><td>
-
-id
-
-</td><td>
-
-Sys\_id of the case or incident record.Data type: String
-
-</td></tr><tr><td>
-
-lastUpdate
-
-</td><td>
-
-Date the record was last updated. Maps to the Updated field.Data type: String
-
-</td></tr><tr><td>
-
-name
-
-</td><td>
-
-Name of the trouble ticket, typically a short description of the issue. Maps to the Short description field.Data type: String
-
-</td></tr><tr><td>
-
-note
-
-</td><td>
-
-List of all comments on the ticket. This list does not include work notes.Data type: Array of Objects
-
-```
-"note": [
-  {
-    "author": "String",
-    "date": "String",
-    "text": "String",
-    "@type": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-note.@type
-
-</td><td>
-
-Type of note. Only comments are returned \(not work notes\) so this value is always `comments`.Data type: String
-
-</td></tr><tr><td>
-
-note.author
-
-</td><td>
-
-Name of the ServiceNow integration user who made the POST or PATCH request that created the comment.Data type: String
-
-</td></tr><tr><td>
-
-note.date
-
-</td><td>
-
-Date the comment was created in the ServiceNow instance.Data type: String
-
-</td></tr><tr><td>
-
-note.text
-
-</td><td>
-
-Comment text.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity
-
-</td><td>
-
-List of impacted assets, products, sold products \(product inventory\), configuration items, or services.Data type: Array of Objects
-
-```
-"relatedEntity": [
-  {
-    "id": "String",
-    "href": "String",
-    "name": "String",
-    "role": "String",
-    "@referredType": "String",
-    "@type": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedEntity.id
-
-</td><td>
-
-Sys\_id of the impacted item or service.For cases, this value is from one of the following tables:
-
--   Asset \[alm\_asset\]
--   Product Inventory \[sn\_prd\_invt\_product\_inventory\], which extends the Sold Product \[sn\_install\_base\_sold\_product\] table
--   Product Model \[cmdb\_model\]
--   Sold Product \[sn\_install\_base\_sold\_product\]
-
-For incidents, this value is from one of the following tables:
-
--   Configuration Item \[cmdb\_ci\]
--   Service \[cmdb\_ci\_service\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.href
-
-</td><td>
-
-Returns an empty string.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.name
-
-</td><td>
-
-Name of the impacted item or service.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.role
-
-</td><td>
-
-Description of the impacted item or service.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@referredType
-
-</td><td>
-
-Type of item or service.Valid values for case tickets:
-
--   asset
--   product
--   product\_inventory
-
-Valid values for incident tickets:
-
--   cmdb\_ci
--   cmdb\_ci\_service
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@type
-
-</td><td>
-
-This value is always `relatedEntity`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty
-
-</td><td>
-
-Details about the companies and contacts associated with the ticket.Data type: Array of Objects
-
-```
-"relatedParty": [
-  {
-    "id": "String",
-    "name": "String",
-    "@referredType": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.@referredType
-
-</td><td>
-
-Type of related party.Valid values:
-
--   customer: Company or account for the ticket.
--   customer\_contact: Caller or contact for the ticket.
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the related party. If you provide a contact or a user \(caller\), their account or company is automatically populated on the ticket. Data type: String
-
-Table: For cases, the sys\_id is from the Contact \[customer\_contact\] or Account \[customer\_account\] tables. For incidents, the sys\_id is from the User \[sys\_user\] or Company \[core\_company\] tables.
-
-</td></tr><tr><td>
-
-relatedParty.name
-
-</td><td>
-
-Name of the related party. For cases, maps to the Contact or Account field. For incidents, maps to the Caller or Company field.Data type: String
-
-</td></tr><tr><td>
-
-severity
-
-</td><td>
-
-Severity of the issue described by the trouble ticket. Maps to the Priority field.Data type: String
-
-</td></tr><tr><td>
-
-status
-
-</td><td>
-
-Current status of the trouble ticket. Maps to the field.Data type: String
-
-</td></tr><tr><td>
-
-ticketType
-
-</td><td>
-
-Type of ticket \(case or incident\).Data type: String
-
-</td></tr></tbody>
-</table>### cURL request
-
-This example gets the name, description, severity, and status of a case.
-
-```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/troubleticket/case/a78e2c8cdb68b41015364c9b0b96193e?fields=name%2Cdescription%2Cseverity%2Cstatus" \
---request GET \
---header "Accept:application/json" \
---user 'username':'password'
-```
-
-Response body.
-
-```
-{
-  "name": "Short description of issue",
-  "description": "Example description of an issue",
-  "severity": "2 - High",
-  "status": "Open"
-}
-```
-
-## Trouble Ticket - PATCH /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}
-
-Updates a specified record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
-
-### URL format
-
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket/{id}`
 
 ### Supported request parameters
 
@@ -2222,6 +1851,7 @@ Type of ticket.Possible values:
 
 -   Case
 -   Incident
+-   Service Problem Case
 
 Data type: String
 
@@ -2239,7 +1869,7 @@ This value is always `TroubleTicket`.Data type: String
 This example updates a case record.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
+curl "https://instance.servicenow.com/api//api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6" \
 --request PATCH \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
@@ -2260,7 +1890,7 @@ Response body.
 ```
 {
    "id": "6467508d47e345508761b955d36d43f6",
-   "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
+   "href": "/api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
    "creationDate": "2022-05-16 23:38:55",
    "lastUpdate": "2022-05-16 23:48:42",
    "description": "Updated description",
@@ -2337,785 +1967,21 @@ Response body.
 }
 ```
 
-## Trouble Ticket - PATCH /sn\_ind\_tsm\_sdwan/troubleticket/\{ticketType\}/\{id\}
+## Trouble Ticket - POST /api/sn\_ind\_tsm\_core/ticket/troubleTicket
 
-Updates a record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
+Creates a record in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.
 
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Trouble Ticket - PATCH /sn\_ind\_tsm\_sdwan/ticket/troubleTicket/\{id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md).
+### Scope migration \(November 2026\)
+
+Starting with the November 2026 store release, Trouble Ticket Open API endpoints transition from `sn_ind_tsm_sdwan` to `sn_ind_tsm_core`. Both endpoint sets work identically until the Denmark release, when the `sdwan` endpoints are officially removed. See [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md) for migration details and timelines.
+
+**Note:** Request and response payloads, authentication, and access control remain unchanged between both sets of endpoints. API behavior is identical between both sets.
 
 ### URL format
 
-Default URL: `/api/sn_ind_tsm_sdwan/troubleticket/{ticketType}/{id}`
+TSM Core default URL: `/api/sn_ind_tsm_core/ticket/troubleTicket`
 
-### Supported request parameters
-
-<table class="rest_api_path_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-ticketType
-
-</td><td>
-
-Type of ticket. This value determines whether a record is updated in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Valid values:
-
--   case
--   incident
-
-Data type: String
-
-</td></tr><tr><td>
-
-id
-
-</td><td>
-
-Sys\_id of the case or incident record to update.Data type: String
-
-</td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-<table class="rest_api_request_body"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-channel
-
-</td><td>
-
-Method of contact that the ticket was created through.Data type: Object
-
-```
-"channel":{
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-channel.name
-
-</td><td>
-
-Name of the contact method. Maps to the Channel \[contact\_type\] field for cases and the Contact type \[contact\_type\] field for incidents.Valid values are the choices for the contact\_type field. You can provide the choice label or value. For example, `Virtual Agent` or `virtual_agent`.
-
-Data type: String
-
-</td></tr><tr><td>
-
-description
-
-</td><td>
-
-Description of the issue. Maps to the **Description** field.Data type: String
-
-</td></tr><tr><td>
-
-name
-
-</td><td>
-
-Name of the trouble ticket, typically a short description of the issue. Maps to the Short description field.Data type: String
-
-</td></tr><tr><td>
-
-note
-
-</td><td>
-
-List of work notes and comments to add to the ticket.Data type: Array of Objects
-
-```
-"note":[
-  {
-    "text": "String",
-    "@type": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-note.@type
-
-</td><td>
-
-Type of note. This value determines whether the note is recorded in the Work notes or Additional comments field.Valid values:
-
--   comments
--   work\_notes
-
-Data type: String
-
-</td></tr><tr><td>
-
-note.text
-
-</td><td>
-
-Note text. Maps to the Work notes or Additional comments field.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity
-
-</td><td>
-
-List of impacted assets, products, sold products \(product inventory\), configuration items, or services.Data type: Array of Objects
-
-```
-"relatedEntity": [
-  {
-    "id": "String",
-    "@referredType": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedEntity.id
-
-</td><td>
-
-Sys\_id of the impacted item or service.For cases, this value is from one of the following tables:
-
--   Asset \[alm\_asset\]
--   Product Inventory \[sn\_prd\_invt\_product\_inventory\], which extends the Sold Product \[sn\_install\_base\_sold\_product\] table
--   Product Model \[cmdb\_model\]
--   Sold Product \[sn\_install\_base\_sold\_product\]
-
-For incidents, this value is from one of the following tables:
-
--   Configuration Item \[cmdb\_ci\]
--   Service \[cmdb\_ci\_service\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@referredType
-
-</td><td>
-
-Type of item or service.Valid values for case tickets:
-
--   asset
--   product
--   product\_inventory
-
-Valid values for incident tickets:
-
--   cmdb\_ci
--   cmdb\_ci\_service
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty
-
-</td><td>
-
-Details about contacts for the ticket. For cases, this parameter populates the Contact or Account field. For incidents, this parameter populates the Caller or Company field.Data type: Array of Objects
-
-```
-"relatedParty": [
-  {
-    "id": "String",
-    "@referredType": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.@referredType
-
-</td><td>
-
-Type of related party.Valid values:
-
--   customer: Company or account for the ticket.
--   customer\_contact: Caller or contact for the ticket.
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the related party. If you provide a contact or a user \(caller\), their account or company is automatically populated on the ticket. Data type: String
-
-Table: For cases, the sys\_id is from the Contact \[customer\_contact\] or Account \[customer\_account\] tables. For incidents, the sys\_id is from the User \[sys\_user\] or Company \[core\_company\] tables.
-
-</td></tr><tr><td>
-
-severity
-
-</td><td>
-
-Severity of the issue described by the trouble ticket. Maps to the **Priority** field.Valid values:
-
--   1: Critical
--   2: High
--   3: Moderate
--   4: Low
--   5: Planning. Incident only.
-
-Valid values are the choices for the Priority field. You must provide the choice value only. For example, `1`. If an invalid value is provided, the severity is set to Low.
-
-Data type: String
-
-</td></tr><tr><td>
-
-status
-
-</td><td>
-
-Current status of the trouble ticket. Maps to the State field.Valid values are the choices for the State field. You can provide the choice label or value. For example, `New` or `1`.
-
-Data type: String
-
-</td></tr></tbody>
-</table>### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
-|Content-Type|Data format of the request body. Only supports **application/json**.|
-
-|Header|Description|
-|------|-----------|
-|None| |
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-<table><thead><tr><th>
-
-Status code
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-200
-
-</td><td id="entry-200-status-code">
-
-Successful. The request was successfully processed.
-
-</td></tr><tr><td>
-
-400
-
-</td><td>
-
-Bad Request. A bad request type or malformed request was detected for one or more of the following reasons.-   Invalid path parameter.
--   Invalid URI.
-
-</td></tr><tr><td>
-
-404
-
-</td><td>
-
-Record not found. A record associated with the ID is not found in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
-
-</td></tr></tbody>
-</table>### Response body parameters \(JSON or XML\)
-
-<table><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-@type
-
-</td><td>
-
-This value is always `TroubleTicket`.Data type: String
-
-</td></tr><tr><td>
-
-channel
-
-</td><td>
-
-Method of contact that the ticket was created through.Data type: Object
-
-```
-"channel":{
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-channel.name
-
-</td><td>
-
-The name of the contact method.Data type: String
-
-</td></tr><tr><td>
-
-creationDate
-
-</td><td>
-
-The date the record was created.Data type: String
-
-</td></tr><tr><td>
-
-description
-
-</td><td>
-
-The description of the issue from the ticket.Data type: String
-
-</td></tr><tr><td>
-
-id
-
-</td><td>
-
-The sys\_id of the case or incident record.Data type: String
-
-</td></tr><tr><td>
-
-lastUpdate
-
-</td><td>
-
-The date the record was last updated.Data type: String
-
-</td></tr><tr><td>
-
-name
-
-</td><td>
-
-The name of the trouble ticket, typically a short description of the issue.Data type: String
-
-</td></tr><tr><td>
-
-note
-
-</td><td>
-
-A list of all comments on the ticket. This list does not include work notes.Data type: Array
-
- ```
-
-"note":[
-      {
-         "author": "String",
-         "date": "String",
-         "text": "String",
-         "@type": "String"
-      }
-]
-
-```
-
-</td></tr><tr><td>
-
-note.@type
-
-</td><td>
-
-The type of note. Only comments are returned \(not work notes\) so this value is always `comments`.Data type: String
-
-</td></tr><tr><td>
-
-note.author
-
-</td><td>
-
-The name of the ServiceNow integration user who made the POST or PATCH request that created the comment.Data type: String
-
-</td></tr><tr><td>
-
-note.date
-
-</td><td>
-
-The date the comment was created in the ServiceNow instance.Data type: String
-
-</td></tr><tr><td>
-
-note.text
-
-</td><td>
-
-The comment text.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity
-
-</td><td>
-
-List of impacted assets, products, sold products \(product inventory\), configuration items, or services.Data type: Array of Objects
-
-```
-"relatedEntity": [
-  {
-    "id": "String",
-    "href": "String",
-    "name": "String",
-    "role": "String",
-    "@referredType": "String",
-    "@type": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedEntity.id
-
-</td><td>
-
-Sys\_id of the impacted item or service.For cases, this value is from one of the following tables:
-
--   Asset \[alm\_asset\]
--   Product Inventory \[sn\_prd\_invt\_product\_inventory\], which extends the Sold Product \[sn\_install\_base\_sold\_product\] table
--   Product Model \[cmdb\_model\]
--   Sold Product \[sn\_install\_base\_sold\_product\]
-
-For incidents, this value is from one of the following tables:
-
--   Configuration Item \[cmdb\_ci\]
--   Service \[cmdb\_ci\_service\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.href
-
-</td><td>
-
-Returns an empty string.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.name
-
-</td><td>
-
-Name of the impacted item or service.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.role
-
-</td><td>
-
-Description of the impacted item or service.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@referredType
-
-</td><td>
-
-Type of item or service.Valid values for case tickets:
-
--   asset
--   product
--   product\_inventory
-
-Valid values for incident tickets:
-
--   cmdb\_ci
--   cmdb\_ci\_service
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@type
-
-</td><td>
-
-This value is always `relatedEntity`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty
-
-</td><td>
-
-Details about the companies and contacts associated with the ticket.Data type: Array
-
- ```
-
-"relatedParty": [
-    {
-      "id": "String",
-      "name": "String",
-      "@referredType": "String"
-    }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.@referredType
-
-</td><td>
-
-Type of related party.Valid values:
-
--   customer: Company or account for the ticket.
--   customer\_contact: Caller or contact for the ticket.
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the related party. If you provide a contact or a user \(caller\), their account or company is automatically populated on the ticket. Data type: String
-
-Table: For cases, the sys\_id is from the Contact \[customer\_contact\] or Account \[customer\_account\] tables. For incidents, the sys\_id is from the User \[sys\_user\] or Company \[core\_company\] tables.
-
-</td></tr><tr><td>
-
-relatedParty.name
-
-</td><td>
-
-The name of the related party.Data type: String
-
-</td></tr><tr><td>
-
-severity
-
-</td><td>
-
-The severity of the issue described by the trouble ticket.Data type: String
-
-</td></tr><tr><td>
-
-status
-
-</td><td>
-
-The current status of the trouble ticket.Data type: String
-
-</td></tr><tr><td>
-
-ticketType
-
-</td><td>
-
-The type of ticket \(case or incident\).Data type: String
-
-</td></tr></tbody>
-</table>### cURL request
-
-This example updates a case record.
-
-```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/troubleticket/case/370415f03c20e910f8772f1bc332b31b" \
---request PATCH \
---header "Accept:application/json" \
---header "Content-Type:application/json" \
---data "{
-    \"description\":\"Router is not working, my devices cannot detect any signals from the router. First button from the left is flashing red, all others are black. Resetting the router does not solve the problem, I need urgent assistance.\",
-    \"name\":\"My router is not working properly\",
-    \"severity\":\"2\",
-    \"status\":\"10\",
-    \"ticketType\":\"Case\",
-    \"channel\":{
-        \"id\":\"8774\",
-        \"name\":\"eBonding\",
-        \"@type\":\"Channel\"
-    },
-    \"note\":[
-        {
-            \"id\":\"77456\",
-            \"author\":\"Jack Smith\",
-            \"date\":\"2019-05-31T07:34:45.968Z\",
-            \"text\":\"This is a testing work note<html>hello world</html> and <h1>title</h1>\",
-            \"@type\":\"Worknotes\"
-        },
-        {
-            \"id\":\"77457\",
-            \"author\":\"Jack Smith\",
-            \"date\":\"2019-05-31T07:35:45.968Z\",
-            \"text\":\"This is a testing comment<script>gs.info('Hello World')</script>\",
-            \"@type\":\"Comment\"
-        }
-    ],
-    \"relatedParty\":[
-        {
-            \"id\":\"eaf68911c35420105252716b7d40ddde\",
-            \"href\":\"https://mycsp.com:8080/tmf-api/partyManagement/v1/individual/9866\",
-            \"name\":\"Sally Thomas\",
-            \"role\":\"customer\",
-            \"@referredType\":\"customer_contact\"
-        },
-        {
-            \"id\":\"ffc68911c35420105252716b7d40dd55\",
-            \"href\":\"https://mycsp.com:8080/tmf-api/partyManagement/v4/customer/9176\",
-            \"name\":\"Funco Intl\",
-            \"role\":\"customer\",
-            \"@referredType\":\"customer\"
-        }
-    ],
-    \"relatedEntity\": [
-        {
-            \"id\": \"b7fa12c7532520103b6bddeeff7b123b\",
-            \"href\": \"www.google.com\",
-            \"name\": \"Some random name\",
-            \"role\": \"I dont know what this is\",
-            \"@type\": \"relatedEntity\",
-            \"@referredType\": \"product\"
-        },
-        {
-            \"id\": \"71e73d87c3e23010ff00ed23a140dde8\",
-            \"href\": \"www.google.com\",
-            \"name\": \"Some random name\",
-            \"role\": \"I dont know what this is\",
-            \"@type\": \"relatedEntity\",
-            \"@referredType\": \"asset\"
-        },
-        {
-            \"id\": \"a1913c3577b301108e191e599a5a99e8\",
-            \"href\": \"www.google.com\",
-            \"name\": \"Some random name\",
-            \"role\": \"I dont know what this is\",
-            \"@type\": \"relatedEntity\",
-            \"@referredType\": \"product_inventory\"
-        }
-    ]
-}" \
---user 'username':'password'
-```
-
-Response body.
-
-```
-{
-  "id": "370415f03c20e910f8772f1bc332b31b",
-  "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/370415f03c20e910f8772f1bc332b31b",
-  "creationDate": "2023-01-19 22:39:28",
-  "lastUpdate": "2023-01-19 22:41:39",
-  "description": "Router is not working, my devices cannot detect any signals from the router. First button from the left is flashing red, all others are black. Resetting the router does not solve the problem, I need urgent assistance.",
-  "severity": "2 - High",
-  "ticketType": "Case",
-  "name": "My router is not working properly",
-  "status": "Open",
-  "channel": {
-    "name": "e_bonding"
-  },
-  "relatedParty": [
-    {
-      "id": "ffc68911c35420105252716b7d40dd55",
-      "name": "Funco Intl",
-      "@referredType": "customer"
-    },
-    {
-      "id": "eaf68911c35420105252716b7d40ddde",
-      "name": "Sally Thomas",
-      "@referredType": "customer_contact"
-    },
-    {
-      "id": "",
-      "name": "",
-      "@referredType": "assignment_group"
-    },
-    {
-      "id": "",
-      "name": "",
-      "@referredType": "assigned_to"
-    }
-  ],
-  "relatedEntity": [
-    {
-      "id": "b7fa12c7532520103b6bddeeff7b123b",
-      "href": "",
-      "name": "Deduplication and Compression PRD00001965",
-      "role": "This is the product associated with the case.",
-      "@type": "relatedEntity",
-      "@referredType": "product"
-    },
-    {
-      "id": "71e73d87c3e23010ff00ed23a140dde8",
-      "href": "",
-      "name": "",
-      "role": "This is the asset associated with the case.",
-      "@type": "relatedEntity",
-      "@referredType": "asset"
-    },
-    {
-      "id": "a1913c3577b301108e191e599a5a99e8",
-      "href": "",
-      "name": "Deduplication and Compression PI0000037",
-      "role": "This is the product inventory associated with the case.",
-      "@type": "relatedEntity",
-      "@referredType": "product_inventory"
-    }
-  ],
-  "note": [
-    {
-      "text": "This is a testing comment<script>gs.info('Hello World')</script>",
-      "date": "2023-01-19 14:41:39",
-      "author": "System Administrator",
-      "@type": "comments"
-    },
-    {
-      "text": "This is a testing comment<script>gs.info('Hello World')</script>",
-      "date": "2023-01-19 14:39:28",
-      "author": "System Administrator",
-      "@type": "comments"
-    }
-  ],
-  "@type": "TroubleTicket"
-}
-```
-
-## Trouble Ticket - POST /sn\_ind\_tsm\_sdwan/ticket/troubleTicket 
-
-Creates a record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
-
-### URL format
-
-Default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
+S-DWAN default URL: `/api/sn_ind_tsm_sdwan/ticket/troubleTicket`
 
 ### Supported request parameters
 
@@ -3325,7 +2191,7 @@ Required. The severity of the issue described by the trouble ticket. Maps to the
 
 Valid values are the choices for the Priority field. You must provide the choice value only. For example, `1`. If an invalid value is provided, the severity is set to Low.
 
- Data type: String
+Data type: String
 
 </td></tr><tr><td>
 
@@ -3335,7 +2201,7 @@ status
 
 Required. The current status of the trouble ticket. Maps to the **State** field.Valid values are the choices for the **State** field. You can provide the choice label or value. For example, `New` or `1`. If you provide an invalid value, the status is set to New.
 
- Data type: String
+Data type: String
 
 </td></tr><tr><td>
 
@@ -3343,14 +2209,15 @@ ticketType
 
 </td><td>
 
-The type of ticket. This value determines whether the record is created in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Valid values:
+The type of ticket. This value determines whether the record is created in the Case \[sn\_customerservice\_case\], Incident \[incident\], or Service Problem Case \[sn\_sprb\_mgmt\_case\] table.Valid values:
 
 -   Case
 -   Incident
+-   Service Problem Case
 
- Data type: String
+Data type: String
 
- Default: Incident
+Default: Incident
 
 </td></tr></tbody>
 </table>### Headers
@@ -3493,17 +2360,16 @@ note
 
 A list of all comments on the ticket. This list does not include work notes.Data type: Array
 
- ```
+```
 
 "note":[
-      {
-         "author": "String",
-         "date": "String",
-         "text": "String",
-         "@type": "String"
-      }
+   {
+      "author": "String",
+      "date": "String",
+      "text": "String",
+      "@type": "String"
+   }
 ]
-
 ```
 
 </td></tr><tr><td>
@@ -3720,8 +2586,9 @@ The type of ticket.Possible values:
 
 -   Case
 -   Incident
+-   Service Problem Case
 
- Data type: String
+Data type: String
 
 </td></tr></tbody>
 </table>### cURL request
@@ -3729,7 +2596,7 @@ The type of ticket.Possible values:
 This example creates a trouble ticket case record.
 
 ```
-curl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/ticket/troubleTicket" \
+curl "https://instance.servicenow.com/api/sn_ind_tsm_core/ticket/troubleTicket" \
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
@@ -3773,7 +2640,7 @@ Response body.
 ```
 {
    "id": "6467508d47e345508761b955d36d43f6",
-   "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
+   "href": "/api/sn_ind_tsm_core/ticket/troubleTicket/6467508d47e345508761b955d36d43f6",
    "creationDate": "2022-05-16 23:38:55",
    "lastUpdate": "2022-05-16 23:38:55",
    "description": "Laptop keeps shutting off unexpectedly",
@@ -3841,766 +2708,6 @@ Response body.
       }
    ],
    "@type": "TroubleTicket"
-}
-```
-
-## Trouble Ticket - POST /sn\_ind\_tsm\_sdwan/troubleticket/\{ticketType\}
-
-Creates a record in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.
-
-**Important:** Starting with the Tokyo release, this endpoint is deprecated. The new version of this endpoint is [Trouble Ticket - POST /sn\_ind\_tsm\_sdwan/ticket/troubleTicket ](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md).
-
-### URL format
-
-Default URL: `/api/sn_ind_tsm_sdwan/troubleticket/{ticketType}`
-
-### Supported request parameters
-
-<table class="rest_api_path_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-ticketType
-
-</td><td>
-
-The type of ticket. This value determines whether the record is created in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Valid values:
-
--   case
--   incident
-
-Data type: String
-
-</td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-<table class="rest_api_request_body"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-channel
-
-</td><td>
-
-Method of contact that the ticket was created through.Data type: Object
-
-```
-"channel":{
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-channel.name
-
-</td><td>
-
-Name of the contact method. Maps to the Channel \[contact\_type\] field for cases and the Contact type \[contact\_type\] field for incidents.Valid values are the choices for the contact\_type field. You can provide the choice label or value. For example, `Virtual Agent` or `virtual_agent`.
-
-Data type: String
-
-</td></tr><tr><td>
-
-description
-
-</td><td>
-
-Required. A description of the issue. Maps to the **Description** field.Data type: String
-
-</td></tr><tr><td>
-
-name
-
-</td><td>
-
-Name of the trouble ticket, typically a short description of the issue. Maps to the Short description field.Data type: String
-
-</td></tr><tr><td>
-
-note
-
-</td><td>
-
-List of work notes and comments to add to the ticket.Data type: Array of Objects
-
-```
-"note":[
-  {
-    "text": "String",
-    "@type": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-note.@type
-
-</td><td>
-
-Type of note. This value determines whether the note is recorded in the Work notes or Additional comments field.Valid values:
-
--   comments
--   work\_notes
-
-Data type: String
-
-</td></tr><tr><td>
-
-note.text
-
-</td><td>
-
-Note text. Maps to the Work notes or Additional comments field.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity
-
-</td><td>
-
-List of impacted assets, products, sold products \(product inventory\), configuration items, or services.Data type: Array of Objects
-
-```
-"relatedEntity": [
-  {
-    "id": "String",
-    "@referredType": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedEntity.id
-
-</td><td>
-
-Sys\_id of the impacted item or service.For cases, this value is from one of the following tables:
-
--   Asset \[alm\_asset\]
--   Product Inventory \[sn\_prd\_invt\_product\_inventory\], which extends the Sold Product \[sn\_install\_base\_sold\_product\] table
--   Product Model \[cmdb\_model\]
--   Sold Product \[sn\_install\_base\_sold\_product\]
-
-For incidents, this value is from one of the following tables:
-
--   Configuration Item \[cmdb\_ci\]
--   Service \[cmdb\_ci\_service\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@referredType
-
-</td><td>
-
-Type of item or service.Valid values for case tickets:
-
--   asset
--   product
--   product\_inventory
-
-Valid values for incident tickets:
-
--   cmdb\_ci
--   cmdb\_ci\_service
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty
-
-</td><td>
-
-Details about contacts for the ticket. For cases, this parameter populates the Contact or Account field. For incidents, this parameter populates the Caller or Company field.Data type: Array of Objects
-
-```
-"relatedParty": [
-  {
-    "id": "String",
-    "@referredType": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.@referredType
-
-</td><td>
-
-Type of related party.Valid values:
-
--   customer: Company or account for the ticket.
--   customer\_contact: Caller or contact for the ticket.
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the related party. If you provide a contact or a user \(caller\), their account or company is automatically populated on the ticket. Data type: String
-
-Table: For cases, the sys\_id is from the Contact \[customer\_contact\] or Account \[customer\_account\] tables. For incidents, the sys\_id is from the User \[sys\_user\] or Company \[core\_company\] tables.
-
-</td></tr><tr><td>
-
-severity
-
-</td><td>
-
-Required. Severity of the issue described by the trouble ticket. Maps to the **Priority** field.Valid values:
-
--   1: Critical
--   2: High
--   3: Moderate
--   4: Low
--   5: Planning. Incident only.
-
-Valid values are the choices for the Priority field. You must provide the choice value only. For example, `1`. If an invalid value is provided, the severity is set to Low.
-
-Data type: String
-
-</td></tr><tr><td>
-
-status
-
-</td><td>
-
-Current status of the trouble ticket. Maps to the **State** field.Valid values are the choices for the **State** field. You can provide the choice label or value. For example, `New` or `1`.
-
-Data type: String
-
-Default: New
-
-</td></tr><tr><td>
-
-ticketType
-
-</td><td>
-
-Required. Type of ticket. This value determines whether the record is created in the Case \[sn\_customerservice\_case\] or Incident \[incident\] table.Valid values:
-
--   case
--   incident
-
-Data type: String
-
-</td></tr></tbody>
-</table>### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
-|Content-Type|Data format of the request body. Only supports **application/json**.|
-
-|Header|Description|
-|------|-----------|
-|None| |
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-<table><thead><tr><th>
-
-Status code
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-201
-
-</td><td>
-
-Successful. The request was successfully processed.
-
-</td></tr><tr><td>
-
-400
-
-</td><td>
-
-Bad Request. A bad request type or malformed request was detected for one or more of the following reasons.-   Empty payload.
--   Invalid payload. Mandatory field missing.
--   Invalid ticketType or ticketType does not match path parameter ticketType. For example, ticketType is `case` but path parameter is `incident`.
-
-</td></tr></tbody>
-</table>### Response body parameters \(JSON or XML\)
-
-<table><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-@type
-
-</td><td>
-
-This value is always `TroubleTicket`.Data type: String
-
-</td></tr><tr><td>
-
-channel
-
-</td><td>
-
-Method of contact that the ticket was created through.Data type: Object
-
-```
-"channel":{
-  "name": "String"
-}
-```
-
-</td></tr><tr><td>
-
-channel.name
-
-</td><td>
-
-Name of the contact method.Data type: String
-
-</td></tr><tr><td>
-
-creationDate
-
-</td><td>
-
-Date that the case or incident record was created.Data type: String
-
-</td></tr><tr><td>
-
-description
-
-</td><td>
-
-Description of the issue from the ticket.Data type: String
-
-</td></tr><tr><td>
-
-id
-
-</td><td>
-
-Sys\_id of the case or incident record that was created.Data type: String
-
-</td></tr><tr><td>
-
-lastUpdate
-
-</td><td>
-
-Date that the case or incident record was last updated.Data type: String
-
-</td></tr><tr><td>
-
-name
-
-</td><td>
-
-Name of the trouble ticket, typically a short description of the issue.Data type: String
-
-</td></tr><tr><td>
-
-note
-
-</td><td>
-
-List of the comments and work notes that were added to the ticket by the POST request.Data type: Array of Objects
-
-```
-"note":[
-  {
-    "author": "String",
-    "date": "String",
-    "text": "String",
-    "@type": "String"
-  }
-]
-
-```
-
-</td></tr><tr><td>
-
-note.@type
-
-</td><td>
-
-Type of note. Valid values:
-
--   comments
--   work\_notes
-
-Data type: String
-
-</td></tr><tr><td>
-
-note.author
-
-</td><td>
-
-Name of the ServiceNow integration user who made the POST request that created the note.Data type: String
-
-</td></tr><tr><td>
-
-note.date
-
-</td><td>
-
-Date the note was created in the ServiceNow instance.Data type: String
-
-</td></tr><tr><td>
-
-note.text
-
-</td><td>
-
-Note text.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity
-
-</td><td>
-
-List of impacted assets, products, sold products \(product inventory\), configuration items, or services.Data type: Array of Objects
-
-```
-"relatedEntity": [
-  {
-    "id": "String",
-    "href": "String",
-    "name": "String",
-    "role": "String",
-    "@referredType": "String",
-    "@type": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedEntity.id
-
-</td><td>
-
-Sys\_id of the impacted item or service.For cases, this value is from one of the following tables:
-
--   Asset \[alm\_asset\]
--   Product Inventory \[sn\_prd\_invt\_product\_inventory\], which extends the Sold Product \[sn\_install\_base\_sold\_product\] table
--   Product Model \[cmdb\_model\]
--   Sold Product \[sn\_install\_base\_sold\_product\]
-
-For incidents, this value is from one of the following tables:
-
--   Configuration Item \[cmdb\_ci\]
--   Service \[cmdb\_ci\_service\]
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.href
-
-</td><td>
-
-Returns an empty string.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.name
-
-</td><td>
-
-Name of the impacted item or service.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.role
-
-</td><td>
-
-Description of the impacted item or service.Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@referredType
-
-</td><td>
-
-Type of item or service.Valid values for case tickets:
-
--   asset
--   product
--   product\_inventory
-
-Valid values for incident tickets:
-
--   cmdb\_ci
--   cmdb\_ci\_service
-
-Data type: String
-
-</td></tr><tr><td>
-
-relatedEntity.@type
-
-</td><td>
-
-This value is always `relatedEntity`.Data type: String
-
-</td></tr><tr><td>
-
-relatedParty
-
-</td><td>
-
-Details about the companies and contacts associated with the ticket.Data type: Array of Objects
-
-```
-"relatedParty": [
-  {
-    "id": "String",
-    "@referredType": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the related party. If you provide a contact or a user \(caller\), their account or company is automatically populated on the ticket. Data type: String
-
-Table: For cases, the sys\_id is from the Contact \[customer\_contact\] or Account \[customer\_account\] tables. For incidents, the sys\_id is from the User \[sys\_user\] or Company \[core\_company\] tables.
-
-</td></tr><tr><td>
-
-relatedParty.referredType
-
-</td><td>
-
-Type of related party.Valid values:
-
--   customer: Company or account for the ticket.
--   customer\_contact: Caller or contact for the ticket.
-
-Data type: String
-
-</td></tr><tr><td>
-
-severity
-
-</td><td>
-
-Severity of the issue described by the trouble ticket.Data type: String
-
-</td></tr><tr><td>
-
-status
-
-</td><td>
-
-Current status of the trouble ticket.Data type: String
-
-</td></tr><tr><td>
-
-ticketType
-
-</td><td>
-
-Type of ticket \(case or incident\).Data type: String
-
-</td></tr></tbody>
-</table>### cURL request
-
-This example creates a case with high priority and open state.
-
-```
-ccurl "https://instance.servicenow.com/api/sn_ind_tsm_sdwan/troubleticket/case" \
---request POST \
---header "Accept:application/json" \
---header "Content-Type:application/json" \
---data "{
-    \"description\":\"Router is not working, my devices cannot detect any signals from the router. First button from the left is flashing red, all others are black. Resetting the router does not solve the problem, I need urgent assistance.\",
-    \"name\":\"My router is not working properly\",
-    \"severity\":\"2\",
-    \"status\":\"10\",
-    \"ticketType\":\"Case\",
-    \"channel\":{
-        \"id\":\"8774\",
-        \"name\":\"eBonding\",
-        \"@type\":\"Channel\"
-    },
-    \"note\":[
-        {
-            \"id\":\"77456\",
-            \"author\":\"Jack Smith\",
-            \"date\":\"2019-05-31T07:34:45.968Z\",
-            \"text\":\"This is a testing work note<html>hello world</html> and <h1>title</h1>\",
-            \"@type\":\"Worknotes\"
-        },
-        {
-            \"id\":\"77457\",
-            \"author\":\"Jack Smith\",
-            \"date\":\"2019-05-31T07:35:45.968Z\",
-            \"text\":\"This is a testing comment<script>gs.info('Hello World')</script>\",
-            \"@type\":\"Comment\"
-        }
-    ],
-    \"relatedParty\":[
-        {
-            \"id\":\"eaf68911c35420105252716b7d40ddde\",
-            \"href\":\"https://mycsp.com:8080/tmf-api/partyManagement/v1/individual/9866\",
-            \"name\":\"Sally Thomas\",
-            \"role\":\"customer\",
-            \"@referredType\":\"customer_contact\"
-        },
-        {
-            \"id\":\"ffc68911c35420105252716b7d40dd55\",
-            \"href\":\"https://mycsp.com:8080/tmf-api/partyManagement/v4/customer/9176\",
-            \"name\":\"Funco Intl\",
-            \"role\":\"customer\",
-            \"@referredType\":\"customer\"
-        }
-    ],
-    \"relatedEntity\": [
-        {
-            \"id\": \"b7fa12c7532520103b6bddeeff7b123b\",
-            \"href\": \"www.google.com\",
-            \"name\": \"Some random name\",
-            \"role\": \"I dont know what this is\",
-            \"@type\": \"relatedEntity\",
-            \"@referredType\": \"product\"
-        },
-        {
-            \"id\": \"71e73d87c3e23010ff00ed23a140dde8\",
-            \"href\": \"www.google.com\",
-            \"name\": \"Some random name\",
-            \"role\": \"I dont know what this is\",
-            \"@type\": \"relatedEntity\",
-            \"@referredType\": \"asset\"
-        },
-        {
-            \"id\": \"a1913c3577b301108e191e599a5a99e8\",
-            \"href\": \"www.google.com\",
-            \"name\": \"Some random name\",
-            \"role\": \"I dont know what this is\",
-            \"@type\": \"relatedEntity\",
-            \"@referredType\": \"product_inventory\"
-        }
-    ]
-}" \
---user 'username':'password'
-```
-
-Response body.
-
-```
-{
-  "id": "5bbb5cbc3c2ca910f8772f1bc332b34d",
-  "href": "/api/sn_ind_tsm_sdwan/ticket/troubleTicket/5bbb5cbc3c2ca910f8772f1bc332b34d",
-  "creationDate": "2023-01-19 18:33:24",
-  "lastUpdate": "2023-01-19 18:33:24",
-  "description": "Router is not working, my devices cannot detect any signals from the router. First button from the left is flashing red, all others are black. Resetting the router does not solve the problem, I need urgent assistance.",
-  "severity": "2 - High",
-  "ticketType": "Case",
-  "name": "My router is not working properly",
-  "status": "Open",
-  "channel": {
-    "name": "e_bonding"
-  },
-  "relatedParty": [
-    {
-      "id": "ffc68911c35420105252716b7d40dd55",
-      "name": "Funco Intl",
-      "@referredType": "customer"
-    },
-    {
-      "id": "eaf68911c35420105252716b7d40ddde",
-      "name": "Sally Thomas",
-      "@referredType": "customer_contact"
-    },
-    {
-      "id": "",
-      "name": "",
-      "@referredType": "assignment_group"
-    },
-    {
-      "id": "",
-      "name": "",
-      "@referredType": "assigned_to"
-    }
-  ],
-  "relatedEntity": [
-    {
-      "id": "b7fa12c7532520103b6bddeeff7b123b",
-      "href": "",
-      "name": "Deduplication and Compression PRD00001965",
-      "role": "This is the product associated with the case.",
-      "@type": "relatedEntity",
-      "@referredType": "product"
-    },
-    {
-      "id": "71e73d87c3e23010ff00ed23a140dde8",
-      "href": "",
-      "name": "",
-      "role": "This is the asset associated with the case.",
-      "@type": "relatedEntity",
-      "@referredType": "asset"
-    },
-    {
-      "id": "a1913c3577b301108e191e599a5a99e8",
-      "href": "",
-      "name": "Deduplication and Compression PI0000037",
-      "role": "This is the product inventory associated with the case.",
-      "@type": "relatedEntity",
-      "@referredType": "product_inventory"
-    }
-  ],
-  "note": [
-    {
-      "text": "This is a testing comment<script>gs.info('Hello World')</script>",
-      "date": "2023-01-19 10:33:24",
-      "author": "System Administrator",
-      "@type": "comments"
-    }
-  ],
-  "@type": "TroubleTicket"
 }
 ```
 

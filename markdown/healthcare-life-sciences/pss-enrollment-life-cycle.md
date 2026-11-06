@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-enrollment-life-cycle.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enrollment requests in Workspace, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Manage enrollment requests, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Life cycle of an enrollment case
@@ -19,10 +19,6 @@ Enrollment cases within the Patient Support Services application can be in one o
 Starting with the Yokohama release, Patient Support Services is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
-
-The following diagram shows the different states of an enrollment case.
-
-\[Omitted image "pss-enrollment-case-lc.png"\] Alt text: Enrollment case life cycle within Patient Support Services. For the text description, refer to the Enrollment case states section.
 
 <table id="table_hrb_hsl_drb"><thead><tr><th>
 

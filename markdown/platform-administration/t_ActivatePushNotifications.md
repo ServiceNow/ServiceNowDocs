@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ActivatePushNotifications.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -94,6 +94,8 @@ Information that would be helpful for the ServiceNow personnel who are activatin
 
 
 [Push notification system]()
+
+[Enable push notifications for logged-out users]()
 
 [Installed with push notifications]()
 

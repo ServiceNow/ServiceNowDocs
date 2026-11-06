@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Add risks for a project, Adding RIDAC records for a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Add risks for a project, Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure custom Risk rank and Risk value for a project
@@ -59,7 +59,7 @@ For example, a risk might have high probability and medium impact but you might 
 
 [Adding RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ridac-entries-for-project.md)
 
-[Convert one RIDAC record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md)
+[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md)
 
 [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/reassociate-ridac-project.md)
 

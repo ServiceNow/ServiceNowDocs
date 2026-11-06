@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/customize-government-service-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up Self-Service, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Customize the Government Service Portal
@@ -16,7 +16,7 @@ Modify the Government Service Portal to meet your needs, for example to set the 
 
 ## Before you begin
 
-You can customize the government service portal by following this procedure or by using [guided setup for Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-use-gs.md).
+You can customize the Government Service Portal by following this procedure or by using [guided setup for Public Sector Digital Services Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configure-psds-foundation-data.md).
 
 Role required: admin
 

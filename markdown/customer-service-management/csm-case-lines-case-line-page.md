@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-lines-case-line-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case line record pages, Case lines and workflows, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case line record pages, Case Lines and Workflows, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case line item page
@@ -21,8 +21,12 @@ The case line item page shows the details of a case line item, including custome
 The case line item page includes the following tabs:
 
 -   Details: Displays the case line item details, including order and account information, ordered and requested quantities, and shipping information.
--   Tasks: Displays the tasks created for the case line item.
--   Characteristics: Displays the specific characteristics of the case line item.
+-   Case Line Characteristics: Displays the specific characteristics of the case line item.
+-   Case Line Tasks: Displays the tasks created for the case line item.
+-   Case Line Entitlements: Displays the entitlements associated with the case line item. The visibility of the Entitlements tab is controlled by the [sn\_customerservice.advanced\_entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines-install-comp.md) system property.
+
+    The Entitlements tab displays the entitlements associated with the case line item. From this tab, users can associate one or more entitlements to a case line item. The system displays the available entitlements for a case line item based on the customer's service contracts and accounts.
+
 
 ## Contextual side panel
 

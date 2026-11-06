@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Exploring Cloud Cost Management
@@ -32,7 +32,7 @@ Cloud Cost Management continuously monitors your cloud infrastructure to analyze
 |-------|-------|-----|
 |Optimize cloud costs and usage by gaining complete visibility of your cloud spend and usage through an intuitive and streamlined user interface.|[Cloud Cost Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ci-workspace.md)|Executives/FinOps Practitioners/Cloud Managers/Cloud Administrators|
 |Rightsize cloud resources by getting automated recommendations on how to reduce cloud costs by correctly dimensioning cloud resources to match usage.|[Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/rs-cloudin.md)|Cloud Administrators/Application owners|
-|Decrease costs by the conversion of on-demand payment plans to reservation plans for your cloud resources.|[Reservation or Saving plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ri-cloudin.md)|Cloud Administrators/Application owners|
+|Decrease costs by the conversion of on-demand payment plans to reservation plans for your cloud resources.|[Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ri-cloudin.md)|Cloud Administrators/Application owners|
 |Identify cost optimizations targets by analyzing areas of high spend and stranded cloud assets.|[Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ur-cloudin.md)|Cloud Administrators/Application owners|
 |Turn off resources when not in use by identifying cloud resources that aren’t used outside normal working hours and automatically turn them off and on.|[Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/bh-cloudin.md)|Cloud Administrators/Application owners|
 |Allocate budgets|[Cloud budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/bf-cloudin.md)|FinOps Practitioners/Cloud Administrators|

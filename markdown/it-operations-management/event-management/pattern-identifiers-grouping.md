@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Understanding pattern identifiers
@@ -65,7 +65,7 @@ Manage pattern identifier
 
 </td><td>
 
-Add relevant alert field to the pattern identifier.To know how to add fields to the pattern identifier, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
+Add relevant alert field to the pattern identifier.To know how to add fields to the pattern identifier, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
 
 </td><td>
 
@@ -91,7 +91,7 @@ Learn how alert patterns are discovered, grouped, and displayed in the system.
 
 |Concept|Description|
 |-------|-----------|
-|Pattern discovery|When a set of alert fields matches, the alerts are grouped into a "Learned Pattern." For example, alerts with the same Priority Group and Resource are grouped into a pattern.|
+|Pattern discovery|When alert fields match, the alerts are grouped into a "Learned Pattern" — for example, alerts sharing the same Priority Group and Resource.|
 |Pattern reporting|These patterns are displayed on the Learned Patterns report found under **Event Management** &gt; **Administration** &gt; **Learned Patterns**.|
 
 ## Managing Pattern Attributes and Time Frame
@@ -132,7 +132,7 @@ To identify an issue, the system utilizes a combination of Configuration Items \
 
 By default, a Pattern Identifier is defined as the Metric Name, but this can be modified. Two alerts are considered similar if they share the same CI and Pattern Identifier, although fields such as Source, Severity, Description, and others may differ.
 
-For more information, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).**Note:** The Alert Aggregation Learner also identifies patterns of alerts within manual alert groups.
+For more information, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).**Note:** The Alert Aggregation Learner also identifies patterns of alerts within manual alert groups.
 
 In some cases, you can create patterns from alerts where the CIs share the same value in a specified field. For example, to build patterns from alerts with the same CI **Location** field, enter `location` in the **sa\_analytics.agg.learner\_group\_by\_property** property. For more information, [Configure scheduled job-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/enable-alert-grouping.md).
 

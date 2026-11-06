@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -211,7 +211,7 @@ Date and time of injury or illness
 
 </td><td>
 
-Date and time when this injury or illness happened.
+Date and time when this injury or illness happened.The date and time is displayed in the reporting user's local time zone.
 
 </td></tr><tr><td>
 

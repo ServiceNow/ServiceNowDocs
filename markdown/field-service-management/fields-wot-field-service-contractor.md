@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/fields-wot-field-service-contractor.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Management reference, Field Service Management]
+breadcrumb: [Reference, Field Service Management]
 ---
 
 # Work order task fields in the Field Service Contractor application

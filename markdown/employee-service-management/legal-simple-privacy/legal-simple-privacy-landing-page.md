@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Privacy
 classification: legal-simple-privacy
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Simple Privacy
@@ -22,24 +22,24 @@ As a legal fulfiller, you can collaborate in a centralized **Legal Counsel Cente
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore icon. Learn about the features and benefits of Legal Simple Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/explore-legal-simple-privacy-application.md)
+[Explore Learn about the features and benefits of Legal Simple Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/explore-legal-simple-privacy-application.md)
 
 </td><td>
 
-[Set up \[Omitted image "icon-configure.png"\] Alt text: Setup icon. Install the application, and set up practice areas, intake forms, and other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
+[Set up Install the application, and set up practice areas, intake forms, and other configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
 
 </td></tr><tr><td>
 
-[Request and Manage privacy assessment request \[Omitted image "request.png"\] Alt text: Request icon. Submit and track privacy assessment requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
+[Request and Manage privacy assessment request Submit and track privacy assessment requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference icon. Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/legal-simple-privacy-reference.md)
+[Reference Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/legal-simple-privacy-reference.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 
@@ -49,7 +49,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 -   **[Explore Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/explore-legal-simple-privacy-application.md)**  
 The ServiceNow® Legal Simple Privacy provides a mechanism to raise a request for a privacy assessment to resolve privacy-related concerns.
--   **[Setting up Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)**  
+-   **[Configure Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)**  
 Configure the foundation data to enable submitting a privacy impact assessment request to the legal department.
 -   **[Privacy assessment requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/privacy-assessment-requests.md)**  
 Privacy assessment requests enables employees to seek services from the Legal Privacy department to resolve privacy-related concerns.
@@ -70,6 +70,8 @@ Reference topics provide additional information about the lists and forms that y
 [Legal Investigations]()
 
 [Legal Simple Contracts]()
+
+[Legal Simple Compliance]()
 
 [Gifts and Entertainment Compliance]()
 

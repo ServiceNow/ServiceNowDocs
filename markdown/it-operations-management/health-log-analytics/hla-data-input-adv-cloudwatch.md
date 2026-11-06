@@ -1,5 +1,5 @@
 ---
-title: Configure advanced settings for Amazon CloudWatch data inputs
+title: Configure advanced settings for Amazon CloudWatch data inputs in Health Log Analytics manually
 description: Configure advanced settings for data inputs used for streaming log data from Amazon CloudWatch to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-cloudwatch.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced data input configuration, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Advanced manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure advanced settings for Amazon CloudWatch data inputs
+# Configure advanced settings for Amazon CloudWatch data inputs in Health Log Analytics manually
 
 Configure advanced settings for data inputs used for streaming log data from Amazon CloudWatch to your instance.
 
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
+You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses default values.
 
 ## Procedure
 
@@ -42,13 +42,13 @@ You can set system parameters for reading log data that determine the actions th
 
 5.  In the Streaming Sources related list, verify that this data input is streaming log data from all relevant endpoint devices.
 
-    For more information about streaming sources, see [Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
+    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
 6.  Select **Save**.
 
     Health Log Analytics adds the data input record to the Data Inputs table.
 
-7.  Ensure that the data input is configured correctly by selecting **Test connection**.
+7.  Verify that the data input is configured correctly by selecting **Test connection**.
 
     Health Log Analytics tries to connect the MID Server to the data repository.
 
@@ -64,10 +64,10 @@ You can set system parameters for reading log data that determine the actions th
 8.  Select **Publish** to publish the data input to the MID Server.
 
 
-**Parent Topic:**[Advanced data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
+**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
 
 **Related topics**  
 
 
-[Configure Amazon CloudWatch data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)
+[Configure an Amazon CloudWatch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-cloudwatch.md)
 

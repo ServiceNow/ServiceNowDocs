@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Enable or disable Health Log Analytics system features
@@ -38,6 +38,4 @@ Role required: evt\_mgmt\_admin
 
 4.  Select **Update**.
 
-
-**Parent Topic:**[Administering Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-administer.md)
 

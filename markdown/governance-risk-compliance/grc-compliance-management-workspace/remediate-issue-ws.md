@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage issues using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Remediate an issue using the Compliance Workspace

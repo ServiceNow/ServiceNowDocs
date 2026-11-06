@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Profile integration with Microsoft Teams
@@ -33,5 +33,5 @@ To use this integrated feature, the user must install either the HR Service Deli
 -   **[Disable Microsoft Teams status view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/disable-microsoft-teams-status-view.md)**  
 You can disable the status view of Microsoft Teams on your Employee Profile page.
 
-**Parent Topic:**[ServiceNow for Microsoft 365 Add-ins and Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ms365-msteams-landing.md)
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-ec.md)
 

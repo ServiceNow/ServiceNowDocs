@@ -7,9 +7,9 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM Health, IT Operations Management]
+breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create SLO form
@@ -42,12 +42,10 @@ SLI type
 
 </td><td>
 
-Type of the SLI based on which the metrics are calculated. The available types of SLI are as follows:
-
--   **Availability**: Percentage of time your service is available. \(Default\)
--   **Errors**: Measurement of how frequently service error occurs.
--   **Latency**: Time taken to service a request. The actual amount of time that elapsed.
--   **Saturation**: Measurement of your system fraction, emphasizing the resources that are most constrained.
+-   **Availability**: Percentage of time the service is available.
+-   **Errors**: Frequency of service errors.
+-   **Latency**: Time taken to service a request.
+-   **Saturation**: Fullness of the system, focusing on resource use.
 
 </td></tr><tr><td>
 
@@ -73,7 +71,7 @@ Objective \(%\)
 
 </td><td>
 
-The percentage of how available \(uptime\) you want the service to be over a length of time. If measuring by duration, an objective percentage of Five Nines \(99.999%\) means that the service wasn’t available for 26 seconds per month, or about 5 minutes and 35 seconds per year. This is used to calculate your error budget.
+The percentage of how available \(uptime\) you want the service to be over a length of time. If measuring by duration, an objective percentage of Five Nines \(99.999%\) means the service was unavailable for 26 seconds per month, or about 5 minutes and 35 seconds per year. This value is used to calculate your error budget.
 
 </td></tr><tr><td>
 

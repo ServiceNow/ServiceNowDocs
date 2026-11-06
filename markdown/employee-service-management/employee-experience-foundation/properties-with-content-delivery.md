@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-09-04"
-reading_time_minutes: 9
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Properties installed with Content Publishing
@@ -20,9 +20,9 @@ To modify Content Publishing properties as a Content Admin \[sn\_cd.content\_adm
 
 Content Publishing properties determine how the scheduled jobs run and help to ensure that there is limited impact on the performance of your instance.
 
-|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|sn\_cd.all\_must\_approve|Indicates that all approvers must approve any scheduled content prior to publishing it. If you check No, only one approver is required to publish it.|Yes|
+|Properties|Description|
+|----------|-----------|
+|sn\_cd.all\_must\_approve|Indicates that all approvers must approve any scheduled content prior to publishing it. If you check No, only one approver is required to publish it.|
 
 <table id="table_y22_1ky_lnb"><thead><tr><th>
 
@@ -32,10 +32,6 @@ Properties
 
 Description
 
-</th><th>
-
-Default Value
-
 </th></tr></thead><tbody><tr><td>
 
 Allow Ownership for Audiences \(sn\_cd.activate\_audience\_delegation\_controls\)
@@ -44,10 +40,6 @@ Allow Ownership for Audiences \(sn\_cd.activate\_audience\_delegation\_controls\
 
 Indicates you want to be able to enable audience ownership within Content Publishing.For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
-</td><td>
-
-No
-
 </td></tr><tr><td>
 
 Allow Ownership for Content Items \(sn\_cd.activate\_content\_authoring\_controls\)
@@ -55,10 +47,6 @@ Allow Ownership for Content Items \(sn\_cd.activate\_content\_authoring\_control
 </td><td>
 
 Indicates you want to be able to enable content item ownership within Content Publishing.For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
-
-</td><td>
-
-No
 
 </td></tr><tr><td>
 
@@ -74,11 +62,7 @@ Indicates you want to enable topic ownership within Content Publishing.Ownership
 
 **Note:** Other users that have access to the content can view the content scheduled to the restricted topic, but cannot remove the topic from the schedule.
 
-For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
-
-</td><td>
-
-No
+ For more information, see [Content Ownership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-restriction.md).
 
 </td></tr><tr><td>
 
@@ -88,14 +72,10 @@ Allow Ownership for Portal pages \(sn\_cd.activate\_page\_ownership\)
 
 Indicates you want to exclude groups or non-applicable content managers \(specific users\) from assigning content to a specific portal page.
 
-</td><td>
-
-No
-
 </td></tr></tbody>
-</table>|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|sn-cd.activate\_content\_snapshots|Select the checkbox to enable Content Versioning for the Content Library. See [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-versioning.md)|Yes|
+</table>|Properties|Description|
+|----------|-----------|
+|sn-cd.activate\_content\_snapshots|Select the checkbox to enable Content Versioning for the Content Library. See [Content versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-versioning.md)|
 
 <table id="table_uxj_qz3_jdb"><thead><tr><th>
 
@@ -105,24 +85,13 @@ Properties
 
 Description
 
-</th><th>
-
-Default Value
-
 </th></tr></thead><tbody><tr><td>
 
 sn\_cd.notification.max\_run\_time
 
 </td><td>
 
-The maximum amount of time \(in seconds\) the Content Publishing: Send notifications scheduled job runs. Limits the length of the scheduled job, but completes any work in progress and does not pick up any new work.
-
-</td><td>
-
--   Max run time in seconds \(notifications\) is 600
--   Number of seconds to stagger events \(notifications\) is 60
--   Max number of events to queue \(notifications\) is 50
--   Max number of users processsed per email event \(notifications\) is 1000
+The maximum amount of time \(in seconds\) the Content Publishing: Send notifications scheduled job runs. Limits the length of the scheduled job, but completes any work in progress and does not pick up any new work.Default value: 600
 
 </td></tr><tr><td>
 
@@ -130,11 +99,9 @@ sn\_cd.sms\_notification.max\_recipients
 
 </td><td>
 
-The maximum number of people you can send an SMS notification to. **Note:** When the maximum is exceeded, the SMS is not sent. The **Notification status** on the Schedule Content form is **Max Exceeded**.
+The maximum number of people you can send an SMS notification to. Default value: 50,000.
 
-</td><td>
-
-Max number of 50,000
+**Note:** When the maximum is exceeded, the SMS is not sent. The **Notification status** on the Schedule Content form is **Max Exceeded**.
 
 </td></tr><tr><td>
 
@@ -142,11 +109,7 @@ sn\_cd.sms\_notification.max\_users\_per\_event
 
 </td><td>
 
-The maximum number of users to add per event for an SMS notification.
-
-</td><td>
-
-Max number of users processed per email is 1000
+The maximum number of users to add per event for an SMS notification. Default value: 1000.
 
 </td></tr><tr><td>
 
@@ -156,21 +119,13 @@ sn\_cd.notification.event\_stagger
 
 The amount of time between events when a scheduled job runs. Staggering provides time for the events to be processed during the staggered time.Default value: 60 seconds.
 
-</td><td>
-
-60 seconds
-
 </td></tr><tr><td>
 
 sn\_cd.notification.max\_events
 
 </td><td>
 
-The maximum number of events from campaigns to process during the scheduled job.
-
-</td><td>
-
-Max number 50
+The maximum number of events from campaigns to process during the scheduled job.Default value: 50.
 
 </td></tr><tr><td>
 
@@ -180,10 +135,6 @@ sn\_cd.notification.max\_users\_per\_event
 
 The maximum number of users to add per event for an email notification.
 
-</td><td>
-
-Max number of users processed per email is 1000
-
 </td></tr><tr><td>
 
 sn\_cd.notification.max\_recipients
@@ -192,23 +143,18 @@ sn\_cd.notification.max\_recipients
 
 The maximum number of recipients allowed per email notification.
 
-</td><td>
-
-Max number of 50,000
-
 </td></tr></tbody>
-</table>|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|sn\_cd.todo.max\_run\_time|The maximum run time in seconds for the Content Publishing: Create To-dos scheduled job. When the job finishes running, any current items are still processed after the elapsed time.|Max run time is 600 seconds|
-|sn\_cd.todo.event\_stagger|The number of seconds between events.|60 seconds|
-|sn\_cd.todo.max\_events|The maximum number of events that are queued per scheduled job run.|Max number of events is 50|
-|sn\_cd.todo.max\_users\_per\_event|The maximum number of users that can be added per event.|Max number of users is 1000|
-|sn\_cd.todo.max\_assignees|The maximum number of people you can assign to a task.|Max number of assignees is 50,000|
+</table>|Properties|Description|
+|----------|-----------|
+|sn\_cd.todo.max\_run\_time|The maximum run time in seconds for the Content Publishing: Create To-dos scheduled job. When the job finishes running, any current items are still processed after the elapsed time.|
+|sn\_cd.todo.event\_stagger|The number of seconds between events.|
+|sn\_cd.todo.max\_events|The maximum number of events that are queued per scheduled job run.|
+|sn\_cd.todo.max\_users\_per\_event|The maximum number of users that can be added per event.|
+|sn\_cd.todo.max\_assignees|The maximum number of people you can assign to a task.|
 
-|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|sn\_cd.content\_community.max\_posts|The maximum number of posts to a forum allowed per Content Publishing: Post to Forums scheduled job.|Max post is 100|
-|sn\_cd.audience.autocount\_timeout|Maximum number of seconds to wait for the automatic audience count while configuring an audience record.|Max is 2 seconds|
+|Properties|Description|
+|----------|-----------|
+|sn\_cd.content\_community.max\_posts|The maximum number of posts to a forum allowed per Content Publishing: Post to Forums scheduled job.|
 
 <table id="table_oyq_ln3_wtb"><thead><tr><th>
 
@@ -217,10 +163,6 @@ Properties
 </th><th>
 
 Description
-
-</th><th>
-
-Default Value
 
 </th></tr></thead><tbody><tr><td>
 
@@ -234,10 +176,6 @@ Allows you to change your system setting language in the Content Library.When yo
 
  For more information, see [Portal content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-streamline-content.md).
 
-</td><td>
-
-No
-
 </td></tr><tr><td>
 
 sn\_cd.enable\_localization\_framework\_integration
@@ -245,10 +183,6 @@ sn\_cd.enable\_localization\_framework\_integration
 </td><td>
 
 Enables integration with Localization Framework. For more information, see [Configure Localization Framework for Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-int-localization-framework.md).
-
-</td><td>
-
-No
 
 </td></tr></tbody>
 </table><table id="table_vlv_zz3_wtb"><thead><tr><th>
@@ -259,10 +193,6 @@ Properties
 
 Description
 
-</th><th>
-
-Default Value
-
 </th></tr></thead><tbody><tr><td>
 
 Service Portal URL suffix you want to use for portal previews \(sn\_cd.preview.portal\_url\_suffix\)
@@ -271,103 +201,35 @@ Service Portal URL suffix you want to use for portal previews \(sn\_cd.preview.p
 
 The URL suffix of the service portal or Employee Center \(EC\) your company uses for portal previews.You can change this system property when you want to preview your content on a different portal.
 
-</td><td>
-
-esc
+ Default value: esc
 
 </td></tr></tbody>
-</table>|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|Limits how many news articles are shown in the News widgets \(sn\_cd.content\_page\_limit\)|Sets a maximum of news articles that can appear in any of the news widgets, with a system maximum of 500 articles.|Max articles in widgets is 200|
-|Page ID you want to use for News Center \(sn\_cd.news\_center\_page\_id\)|Defines the landing page for news content. The **News Center** button in the main navigation redirects to this page, as well as breadcrumbs and the Call to action button in the widgets.|cd\_news\_center|
-|Page ID you want to display News articles in \(sn\_cd.news\_article\_page\_id\)|Defines the page where a full news article is viewed. When a user clicks a news article in a News widget, the widget redirects to this page.|cd\_news\_article|
-|Sys ID \(sys\_id\) from the Record Section \(sys\_sg\_item\_section\) table for where news articles will be displayed in the mobile app \(sn\_cd.mobile\_record\_section\)|Defines the section in the mobile app where the news article is viewed.|10a5286777403110cd1b756f1b5a99e2|
+</table>|Properties|Description|
+|----------|-----------|
+|Limits how many news articles are shown in the News widgets \(sn\_cd.content\_page\_limit\)|Sets a maximum of news articles that can appear in any of the news widgets, with a system maximum of 500 articles.|
+|Page ID you want to use for News Center \(sn\_cd.news\_center\_page\_id\)|Defines the landing page for news content. The **News Center** button in the main navigation redirects to this page, as well as breadcrumbs and the Call to action button in the widgets.|
+|Page ID you want to display News articles in \(sn\_cd.news\_article\_page\_id\)|Defines the page where a full news article is viewed. When a user clicks a news article in a News widget, the widget redirects to this page.|
+|Sys ID \(sys\_id\) from the Record Section \(sys\_sg\_item\_section\) table for where news articles will be displayed in the mobile app \(sn\_cd.mobile\_record\_section\)|Defines the section in the mobile app where the news article is viewed.|
 
-|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|Enables the ability to edit the HTML and CSS within a Rich Content design \(sn\_cd.activate\_rce\_edit\_code\)|Select **Yes** to allow content managers to edit rich content source code.|No|
+|Properties|Description|
+|----------|-----------|
+|Enables the ability to edit the HTML and CSS within a Rich Content design \(sn\_cd.activate\_rce\_edit\_code\)|Select **Yes** to allow content managers to edit rich content source code.|
 
-|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|The number of seconds to wait before timing out a video content provider subflow \(sn\_cd.provider\_timeout\)|Sets the period of time that the Employee Center attempts to connect to the video content provider. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/content-providers.md)|20 seconds|
+|Properties|Description|
+|----------|-----------|
+|The number of seconds to wait before timing out a video content provider subflow \(sn\_cd.provider\_timeout\)|Sets the period of time that the Employee Center attempts to connect to the video content provider. See [Video hosting integrations framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/content-providers.md)|
 
-<table id="table_mxg_gxv_sbc"><thead><tr><th>
-
-Properties
-
-</th><th>
-
-Description
-
-</th><th>
-
-Default Value
-
-</th></tr></thead><tbody><tr><td>
-
-Allow comments \(sn\_cd.allow\_comments\)
-
-</td><td>
-
-Displays a checkbox in the new content and content template forms for content managers to allow employees to comment on news articles
-
-</td><td>
-
-Yes
-
-</td></tr><tr><td>
-
-Allow replies to comments \(sn\_cd.allow\_replies\_to\_comments\)**Important:** This property is not currently connected to any functionality and might be removed in future releases.
-
-</td><td>
-
-Displays a checkbox in the new content and content template forms for content managers to allow employees to reply to comments on news articles
-
-</td><td>
-
-Yes, but currently unused
-
-</td></tr><tr><td>
-
-Allow reactions \(sn\_cd.allow\_reactions\)
-
-</td><td>
-
-Displays a checkbox in the new content and content template forms for content managers to allow employees to select a reaction icon
-
-</td><td>
-
-Yes
-
-</td></tr><tr><td>
-
-Show view count \(sn\_cd.show\_views\)
-
-</td><td>
-
-Displays the number of unique views for a news article at the top of the article
-
-</td><td>
-
-Yes
-
-</td></tr></tbody>
-</table>|Properties|Description|Default Value|
-|----------|-----------|-------------|
-|sn\_cd.enable\_precomputed\_audiences|Enables precomputed audiences for Company Events.|Yes|
-|sn\_cd.audience\_count\_threshold|Sets the threshold for the number of users that will automatically put the portal into performance mode.|5000|
-|sn\_cd.performance\_portal\_navigation|Sets an Advanced portal navigation sys\_id to use when a Company event is a surge event and is live.|92de6ac87f8a1210a3a9fac8fc86651e|
-|sn\_cd.high\_performance\_event\_buffer|Specify the number of minutes in advance for triggering the high-traffic event.|30|
-|sn\_cd.company\_event\_article\_page\_id|Page ID to display Company Event articles.|cd\_company\_event|
-|sn\_cd.high\_traffic\_event\_modal|Display the event modal on the home page when a high-traffic event is in progress.|No|
-|sn\_cd.high\_traffic\_event\_degraded\_experience|The view displayed for widgets when a high-traffic event is in progress.|Default view|
+|Properties|Description|
+|----------|-----------|
+|Allow comments \(sn\_cd.allow\_comments\)|Displays a checkbox in the new content and content template forms for content managers to allow employees to comment on news articles|
+|Allow replies to comments \(sn\_cd.allow\_replies\_to\_comments\)|Displays a checkbox in the new content and content template forms for content managers to allow employees to reply to comments on news articles|
+|Allow reactions \(sn\_cd.allow\_reactions\)|Displays a checkbox in the new content and content template forms for content managers to allow employees to select a reaction icon|
+|Show view count \(sn\_cd.show\_views\)|Displays the number of unique views for a news article at the top of the article|
 
 **Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
-
-[Approvals experience reference]()
 
 [Block content form]()
 
@@ -393,15 +255,11 @@ Yes
 
 [Employee Center Pro widgets]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -409,5 +267,7 @@ Yes
 
 [Properties installed with Content Governance]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

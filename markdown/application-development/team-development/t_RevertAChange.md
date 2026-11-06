@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Versions, Using Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Revert a change
 
 You can undo changes to a customized record by reverting to an older version.
+
+## Before you begin
+
+Role required: none
 
 ## Procedure
 

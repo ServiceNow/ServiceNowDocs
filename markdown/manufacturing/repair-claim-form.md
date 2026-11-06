@@ -1,22 +1,22 @@
 ---
 title: Repair claim form
-description: Repair claim form enables you to enter the warranty and recall claim details.
+description: The repair claim form enables you to enter the warranty and recall claim details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/repair-claim-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Repair claim form
 
-Repair claim form enables you to enter the warranty and recall claim details.
+The repair claim form enables you to enter the warranty and recall claim details.
 
 <table id="table_ytz_33f_sfc"><thead><tr><th>
 
-Fields
+Field
 
 </th><th>
 
@@ -32,7 +32,17 @@ Warranty
 
 </td></tr><tr><td>
 
-Casual part
+Pre-auth case line
+
+</td><td>
+
+Displays the repair pre-authorization case lines previously created for the selected repair on this claim case. Only approved and partially approved pre-authorization cases are listed.
+
+**Note:** When you select a pre-authorization from the list, the causal parts and miscellaneous details are automatically populated.
+
+</td></tr><tr><td>
+
+Causal part
 
 </td><td>
 
@@ -94,7 +104,7 @@ Casual part
 
 </td><td>
 
-Part number. This field is is auto-populated from the chosen corrective action.
+Part number. This field is auto-populated from the chosen corrective action.
 
 </td></tr><tr><td>
 
@@ -126,11 +136,11 @@ Part number that is repaired, replaced, or upgraded.
 
 </td></tr><tr><td>
 
-Casual part replacement
+Causal part replacement
 
 </td><td>
 
-Casual part replacement is enabled only if you select repair action as replacement or if remedy type contains replacement for recall claim job.
+Causal part replacement is enabled only if you select repair action as replacement or if remedy type contains replacement for recall claim job.
 
 </td></tr><tr><td>
 
@@ -309,10 +319,10 @@ Attachments
 Attachments that support your claims.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
+
+**Related topics**  
 
 
 [Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-submit-repair-claim.md)
-
-[Submit a repair claim for recall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-submit-repair-claim-for-recall.md)
 

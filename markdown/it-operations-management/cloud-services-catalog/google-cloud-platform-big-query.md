@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Order a serverless, cost-effective, multi-cloud data warehouse with BiqQuery for
 
 </td><td>
 
-This is a fully functional sample catalog item that streamlines the process of ordering a serverless, cost-effective, multi-cloud data warehouse solution powered by BigQuery rom the Google Cloud Provider.
+This fully functional sample catalog item streamlines ordering a serverless, cost-effective, multi-cloud data warehouse solution powered by BigQuery from the Google Cloud Provider.
 
  You can set up real-time data streaming and analytics sharing effortlessly with a few clicks. BigQuery's serverless architecture allows SQL-based data analysis and offers customization options for scalability.
 

@@ -1,21 +1,21 @@
 ---
-title: Review the patterns extracted from a source type in Health Log Analytics
-description: View all learned patterns extracted from a source type in a source type structure, together with the log sources in which these patterns appeared. Reviewing these patterns can provide valuable insights into the log message patterns that Health Log Analytics tracks for each source type and log source.
+title: Review patterns extracted from a source type in Health Log Analytics
+description: Inspect all learned patterns extracted from a source type in a source type structure, together with the log sources in which these patterns appeared. Reviewing these patterns can provide valuable insights into the log message patterns that Health Log Analytics tracks for each source type and log source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-view-source-type-patterns.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, source type structure, source types, patterns, log sources, log messages, Aggregated Log Patterns]
-breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Review the patterns extracted from a source type in Health Log Analytics
+# Review patterns extracted from a source type in Health Log Analytics
 
-View all learned patterns extracted from a source type in a source type structure, together with the log sources in which these patterns appeared. Reviewing these patterns can provide valuable insights into the log message patterns that Health Log Analytics tracks for each source type and log source.
+Inspect all learned patterns extracted from a source type in a source type structure, together with the log sources in which these patterns appeared. Reviewing these patterns can provide valuable insights into the log message patterns that Health Log Analytics tracks for each source type and log source.
 
 ## Before you begin
 
@@ -38,5 +38,5 @@ Role required: evt\_mgmt\_admin
     |Domain|The domain to which the pattern belongs.|
 
 
-**Parent Topic:**[Additional data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

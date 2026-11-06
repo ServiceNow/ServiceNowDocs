@@ -1,16 +1,16 @@
 ---
-title: Create repair claim
+title: Create a repair claim manually
 description: Create a repair claim for the products under warranty or recall.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-create-repair-claim.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Repair claim, Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Repair claim, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
-# Create repair claim
+# Create a repair claim manually
 
 Create a repair claim for the products under warranty or recall.
 
@@ -20,7 +20,7 @@ Role required: Manufacturing operations admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Repair**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **List** &gt; **Repair**.
 
     **Note:** Select any **Case** from the list.
 
@@ -36,7 +36,7 @@ Role required: Manufacturing operations admin
 
 5.  Select **Add claim jobs**.
 
-6.  Set **Type** as **Warranty**.
+6.  Set **Type** as **Warranty** or **Recall**.
 
 7.  On the Repair claim jobs form, fill in the fields.
 
@@ -48,4 +48,6 @@ Role required: Manufacturing operations admin
 ## Result
 
 The claim job is successfully submitted for review and approval.
+
+**Parent Topic:**[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-use-repair-claim.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-customer-order-types.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Action types for customer and service orders
@@ -40,15 +40,16 @@ Change
 
 Change an existing order, which changes a previously ordered or fulfilled product or service. This order action type includes the following scenarios:-   Addition of a child product specification that the customer didn’t previously order.
 -   Deletion of an optional child product specification that the customer already has. For example, you upgrade the download speed of your home internet from 100 Mbps to 1000 Mbps.
--   Change characteristics for existing products.
+-   Change characteristics or service location for existing products.
+-   As part of the fulfillment workflows, define a PONR \(Point of No Return\) step for each service or resource order.
 
 </td></tr><tr><td>
 
-Disconnect \(delete for TMF API\)
+Disconnect
 
 </td><td>
 
-Disconnect an existing customer service order. For example, you can disconnect your home internet service.**Note:** When a mandatory product is deleted, all the products are deleted.
+Disconnect an existing customer service order. For example, you can disconnect your home internet service.
 
 </td></tr><tr><td>
 
@@ -56,7 +57,7 @@ Suspend
 
 </td><td>
 
-Product or service order to temporarily inactivate the product inventory of its order line items.**Note:** To learn more, see [Using suspend and resume actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-suspend-resume-action.md).
+Product or service order to temporarily inactivate the product inventory of its order line items.
 
 </td></tr><tr><td>
 
@@ -64,7 +65,7 @@ Resume
 
 </td><td>
 
-Product or service order to activate the product inventory of its order line items that were previously suspended.**Note:** To learn more, see [Using suspend and resume actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-suspend-resume-action.md).
+Product or service order to activate the product inventory of its order line items that were previously suspended.
 
 </td></tr><tr><td>
 
@@ -75,4 +76,12 @@ No change
 Order line items with No change action are included in the order for informational purpose only. For example, an order contains multiple items, but only one of those items must be changed \(such as the speed, which has changed from 100 Mbps to 1000 Mbps\), which affects the parent line item. However, all the other line items in the order remain unchanged.
 
 </td></tr></tbody>
-</table>
+</table>**Note:** The Move action type has been deprecated and can't be used.
+
+**Related topics**  
+
+
+[Suspend and resume products and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-suspend-resume-action.md)
+
+[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/managing-orders.md)
+

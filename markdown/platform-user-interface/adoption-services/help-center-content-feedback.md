@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ When viewing Help center content, after an article is selected, a thumb up or th
 
 ## Feedback analytics
 
-To view the feedback analytics, navigate to **All** &gt; **User Experience Analytics** &gt; **Dashboard**.
+To view the feedback analytics, navigate to **All** &gt; **Usage Insights** &gt; **Dashboard**.
 
 \[Omitted image "analytics-events.png"\] Alt text: analytics events dashboard.
 
@@ -32,7 +32,7 @@ In the example provided, Service Operations Workspace is selected, and in the le
 
 \[Omitted image "thumbs-up-events.png"\] Alt text: thumbs up occurrences page.
 
-In this example, after selecting the **Thumbs up** event, the thumbs up dashboard displays to show
+In this example, after selecting the **Thumbs up** event, the thumbs up dashboard displays to show.
 
 -   Occurrences
 -   Page name
@@ -41,6 +41,4 @@ In this example, after selecting the **Thumbs up** event, the thumbs up dashboar
 -   Sys\_Id
 -   Topic Id
 -   Version
-
-.
 

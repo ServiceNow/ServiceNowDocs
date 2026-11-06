@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for Email Domain Spoofing Detection, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -33,8 +33,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  In Action 3, the playbook calculates the similarity between the Get Tagged domain and Email domain using the Levenshtein algorithm.
 
-    \[Omitted image "playbook-email-spoof-similarity.png"\] Alt text: Calculate the similarity between the two domains using the Levenshtein algorithm
-
 4.  In Action 4, the playbook looks up for the System Property record based on the following conditions:
 
     -   Name is sn\_sec\_spoke.domain\_spoof\_threshold, \(OR\)
@@ -42,8 +40,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 5.  In Action 5, based on the investigation done so far, the playbook checks if the similarity of the two domains exceeds the threshold or not.
 
     If the similarity of the two domains doesn't exceed the threshold, a manual response task is created in Action 5 and the flow ends. If the similarity of the two domains exceeds the threshold, then Actions 6 and 7 are executed.
-
-    \[Omitted image "playbook-email-spoof-detect-threshold.png"\] Alt text: Response tasks to check if the similarity of the two domains exceeds the threshold.
 
 6.  In Action 6, the playbook adds the Email Domain Spoofing security tag to the security incident.
 

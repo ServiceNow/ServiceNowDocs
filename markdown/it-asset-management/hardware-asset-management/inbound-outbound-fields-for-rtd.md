@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Hardware Asset Management reference, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reference, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Remote task definition inbound and outbound fields

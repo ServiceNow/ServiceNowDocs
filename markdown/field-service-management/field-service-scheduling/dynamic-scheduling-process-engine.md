@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Dynamic Scheduling, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Learn Dynamic scheduling process engine
@@ -53,7 +53,9 @@ The following are the key steps involved in the dynamic scheduling process:
 
 ## Dynamic Scheduling process flow
 
-The following is the process flow diagram for Dynamic Scheduling.\[Omitted image "dynamic-scheduling-process-flow.jpg"\] Alt text: Dynamic Scheduling process flow.
+The following is the process flow diagram for Dynamic Scheduling.
+
+\[Omitted image "dynamic-scheduling-process-engine-flow.png"\] Alt text: Dynamic scheduling process flow
 
 **Related topics**  
 

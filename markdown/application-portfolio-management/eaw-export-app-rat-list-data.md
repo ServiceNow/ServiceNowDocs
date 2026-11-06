@@ -1,18 +1,18 @@
 ---
 title: Export application rationalization data to Excel or CSV
-description: Export the application rationalization list view data to Microsoft Excel or CSV so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis.
+description: Export the application rationalization list view data to Microsoft Excel or CSV to obtain insights, share with stakeholders, and prepare for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-export-app-rat-list-data.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use list view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Export application rationalization data to Excel or CSV
 
-Export the application rationalization list view data to Microsoft Excel or CSV so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis.
+Export the application rationalization list view data to Microsoft Excel or CSV to obtain insights, share with stakeholders, and prepare for analysis.
 
 ## Before you begin
 
@@ -37,5 +37,5 @@ Role required: sn\_apm.apm\_user
 
 A file with the selected format is downloaded and saved in your local system.
 
-**Parent Topic:**[List view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-list-view.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use the Admin Center in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure the Info tab in the DPM Admin Center
@@ -32,7 +32,7 @@ Each solution has a **Info** tab that displays information about the solution. F
 
     **Note:** For the **Portfolio properties** option, select **General info**.
 
-3.  Show or hide sections in the **Info** tab for the Service and offering, Business application, Application service, or Portfolio solution.
+3.  Show or hide sections in the **Info** tab for the Service and offering, Business application, Service instance, or Portfolio solution.
 
     -   Turn on the toggle key to show each section of the **Info** tab.
     -   Turn off the toggle key to hide each section of the **Info** tab.

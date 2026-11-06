@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/add-existing-product-capability-to-ba.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add an existing product capability to a business application
@@ -43,7 +43,7 @@ Role required: sn\_apm.apm\_user
 
 The existing product capability is added to the business application.
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 

@@ -1,20 +1,20 @@
 ---
 title: Continual Improvement Management
-description: Use the ServiceNow Continual Improvement Management \(CIM\) application to request improvement opportunities, and implement phases and tasks to meet performance goals, track progress, and measure success.
+description: The ServiceNow Continual Improvement Management \(CIM\) application enables you to request improvement opportunities, and implement phases and tasks to meet performance goals, track progress, and measure success.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/cim-landing-page.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
 
 # Continual Improvement Management
 
-Use the ServiceNow® Continual Improvement Management \(CIM\) application to request improvement opportunities, and implement phases and tasks to meet performance goals, track progress, and measure success.
+The ServiceNow® Continual Improvement Management \(CIM\) application enables you to request improvement opportunities, and implement phases and tasks to meet performance goals, track progress, and measure success.
 
 An improvement initiative consists of:
 
@@ -22,18 +22,11 @@ An improvement initiative consists of:
 -   Phases to organize work effort
 -   Tasks with specific actions to complete
 
-To learn more about how your ServiceNow instance supports Continual Improvement Management, see [Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/get-started-cim.md) for a general understanding of the application and how it is used.
-
-## Start an improvement
-
-For continual improvement in your environment, select an activity.
-
-\[Omitted image "continual-improvement-landing.png"\] Alt text: Improvement process
-
-## Understand Continual Improvement Management concepts
+## Continual Improvement Management concepts
 
 -   [Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/get-started-cim.md)
--   [Requesting improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-improvement-request.md)
+-   [Install Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/request-cim.md)
+-   [Identifying improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-improvement-request.md)
 -   [Managing improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-improvement-initiative-mgmt.md)
 -   [Domain separation and Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-domain-separation.md)
 

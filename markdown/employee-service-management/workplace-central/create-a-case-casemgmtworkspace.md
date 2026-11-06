@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -51,7 +51,7 @@ Submit a workplace service request on behalf of an employee for any reason. You 
     -   Submit a maintenance request
 5.  Select **Submit**.
 
-    To fill the form, refer to [Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md) topics.
+    To fill the form, refer to [Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md) topics.
 
 6.  Select **Submit** to submit the request.
 
@@ -70,6 +70,10 @@ The workplace service request is submitted and a workplace case is created. Refr
 [Work on a workplace case using Case management]()
 
 [Create a child case and a child task]()
+
+[Print a workplace case]()
+
+[Managing print case]()
 
 [Cancel or delete a case]()
 

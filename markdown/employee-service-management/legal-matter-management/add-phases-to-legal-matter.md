@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add a phase to a legal matter
@@ -30,19 +30,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d623821e108">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d674848e108">
 
 Option
 
-</th><th align="left" id="d623821e111">
+</th><th align="left" id="d674848e111">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d623821e117">
+</th></tr></thead><tbody><tr><td id="d674848e117">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d623821e146">
+</td></tr><tr><td id="d674848e146">
 
 **As a collaborator**
 
@@ -81,4 +81,6 @@ A phase is added to the matter.
 ## What to do next
 
 [Add tasks in the phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md) to manage activities in the matter. If the task has to be done by a different user, assign it to them.
+
+**Parent Topic:**[Work on a legal matter]()
 

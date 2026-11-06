@@ -7,18 +7,21 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Contract Management Pro, Employee Service Management]
+keywords: [Word content controls, Self-served contract request, Configure contract templates, Configure Contract Workspace, Configure Obligation Management, Create word document template, Contract configuration, Legal document word template, Microsoft Word add-in for ServiceNow Contracts]
+breadcrumb: [Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Microsoft Word add-in for ServiceNow Contracts
 
 Microsoft Word add-in for ServiceNow Contracts enables you to add content controls in a Microsoft Word document in both Windows and macOS systems. Content controls act as placeholders for content in a document template
 
+\[Omitted image "cmpro-waddin-main-window.png"\] Alt text: Use Microsoft Word add-in for ServiceNow Contracts to add content controls
+
 ## Microsoft Word add-in for ServiceNow Contracts features
 
--   Support for adding content controls for fields, clauses, and signatories that act as placeholders for content in the document template.
+-   Support for adding content controls for fields, clauses, tables, and signatories that act as placeholders for content in the document template.
 -   Support for adding content controls in both Windows and macOS systems using desktop or online versions of Microsoft Word.
 
 ## Microsoft Word add-in for ServiceNow Contracts benefits

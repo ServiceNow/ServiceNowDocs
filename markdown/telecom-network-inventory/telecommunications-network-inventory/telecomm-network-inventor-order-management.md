@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Integrating Telecommunications Network Inventory with other applications, Telecommunications Network Inventory]
+breadcrumb: [Integrate, Telecommunications Network Inventory]
 ---
 
 # Telecommunications Network Inventory and Order Management for Telecommunications and Media
@@ -47,7 +47,7 @@ You must ensure that these conditions are met:
 
 To create a change request, an admin must perform the following tasks for an order task that needs the network inventory actions:
 
-1.  Create a record producer. To learn more, see Create a record producer.
+1.  Create a record producer. To learn more, see [Create a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_DefRecProdInSCat.md).
 2.  Create a change model. To learn more, see [Create a change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-a-change-model.md).
 
     By default, the Telecommunications Network Inventory application provides the change models that are described in the following table.
@@ -88,7 +88,7 @@ As a result, the Order Management for Telecommunications and Media application f
 -   A number of change requests is created based on the need for inventory action of an order task.
 -   As a demo data:
     -   In the Order Management for Telecommunications and Media application, the SD-WAN product has an Allocate and Install CPE task that triggers an equipment creation change request to the Telecommunications Network Inventory application.
-    -   The Telecommunications Network Inventory application has demo data that you can use to create equipment, provision a link aggregation group \(LAG\), automate a Gigabyte Passive Optical Network \(GPON\) broadband, and fiber wise mobility infra as Telecommunications Network Inventory workflows.
+    -   The Telecommunications Network Inventory application has demo data that you can use to create equipment and provision a link aggregation group \(LAG\). You can also use it to automate a Gigabyte Passive Optical Network \(GPON\) broadband and fiber wise mobility infra as Telecommunications Network Inventory workflows.
 
 **Parent Topic:**[Integrating Telecommunications Network Inventory with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/integrating-telecommunications-network-inventory--applications.md)
 

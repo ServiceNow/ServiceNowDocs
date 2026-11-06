@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/supporting-information-for-now-assist-for-esg.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

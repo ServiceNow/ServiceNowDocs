@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Permit-to-work system, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,11 @@ Create a Health and Safety action to a requested permit-to-work. This helps to a
 
 ## Before you begin
 
-Role required: sn\_hs\_rm.permit\_coordinator
+Role required: sn\_hs\_rm.permit\_coordinator or sn\_ohs\_im.action\_writer
+
+## About this task
+
+You can add actions from the Actions tab on a Health and Safety record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
 
 ## Procedure
 

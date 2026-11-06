@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,11 +28,7 @@ Role required: none
 
     Any hashtags already defined are displayed. Up to 36 hashtags can be displayed, and options are available for searching and sorting the hashtags. When searching, you do not need to include the hash symbol \(\#\).
 
-    \[Omitted image "TagsSidebar.png"\] Alt text: Tags sidebar
-
 3.  Click a hashtag to view all messages containing that hashtag.
-
-    \[Omitted image "TagsMultipleMsgs.png"\] Alt text: Tags multiple messages
 
 
 **Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)

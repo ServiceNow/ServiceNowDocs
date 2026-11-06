@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-third-party-data-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Third-party data integration components

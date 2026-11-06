@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Service catalog home page configuration, Service Catalog customization, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service catalog home page configuration, Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure search and navigation
@@ -24,7 +24,7 @@ Each catalog homepage provides a search bar to help locate items not displayed o
 
 To restrict access to this search function by role, use the **List of roles \(comma-separated\) that can search the service catalog** property \(**glide.sc.can\_search**\).
 
-For example, to only allow logged-in users to access search, set this field to blank. To remove the search function for all users, set this field to **None**.
+For example, to only allow logged-in users to access search, set this field to empty. To remove the search function for all users, set this field to **None**.
 
 **Note:** Search results only show items that the logged-in user can access.
 
@@ -32,7 +32,7 @@ For example, to only allow logged-in users to access search, set this field to b
 
 By default, search results are returned from all categories, including inactive categories.
 
-To avoid returning results from inactive categories, set the **Service catalog searches return items in inactive categories** property \(**glide.sc.search.disabled\_cats**\) to **No**. For example, when designing a new category, you can avoid users seeing search results from this category until you are ready to make it active.
+To avoid returning results from inactive categories, set the **Service catalog searches return items in inactive categories** property \(**glide.sc.search.disabled\_cats**\) to **No**. For example, when designing a new category, you can avoid users seeing search results from this category until you're ready to make it active.
 
 **Note:** Security constraints can also make a category or catalog item inaccessible.
 
@@ -43,10 +43,6 @@ By default, a search field does not appear when viewing order guides, record pro
 To define which catalog item types do not show the search field, list these types in the **List of class names for catalog items that do not have the search field displayed** \(**glide.sc.item.cannot\_show\_search**\) property.
 
 For example, to enable searching when viewing record producers, remove `sc_cat_item_producer` from this list.
-
-\[Omitted image "ServiceCatalogSearchBarRemoved.png"\] Alt text: Service catalog search bar removed
-
-\[Omitted image "ServiceCatalogSearchBarEnabled.png"\] Alt text: Service catalog search bar enabled
 
 ## Enable breadcrumb links
 

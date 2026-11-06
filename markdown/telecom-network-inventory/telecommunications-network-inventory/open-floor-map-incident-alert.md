@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the floor map, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
 # Open floor map from an incident or alert
@@ -37,5 +37,5 @@ Role required: sn\_ni\_core.dc\_ops\_agent
 
 The floor map opens and the affected hardware is highlighted. If the issue is related to a rack or cabinet, then the Rack view also opens in the floor map.
 
-**Parent Topic:**[Using the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 

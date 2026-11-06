@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learning Core Reference, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Learning Core

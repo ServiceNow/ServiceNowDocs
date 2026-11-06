@@ -1,20 +1,20 @@
 ---
-title: View CMDB Data Manager policies in CMDB Workspace
-description: View Data Manager policies on a dashboard view, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
+title: View CMDB Data Manager policies
+description: View Data Manager policies on a dashboard view in CMDB Workspace, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-view-policies-wrkspc.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer Data Manager in CMDB Workspace, CMDB Data Manager experience in CMDB Workspace, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# View CMDB Data Manager policies in CMDB Workspace
+# View CMDB Data Manager policies
 
-View Data Manager policies on a dashboard view, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
+View Data Manager policies on a dashboard view in CMDB Workspace, with a timeline of upcoming scheduled policies, counts, and grouped by policy status.
 
 ## Before you begin
 
@@ -22,11 +22,9 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select Management in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
 
-2.  Select the **Data Manager** link in Management tools, in the Manage section.
-
-3.  Select **Policies** in the left-side bar.
+2.  Select **Policies** in the left-side bar.
 
     Select a tab on the Data Manager policies page:
 
@@ -53,6 +51,6 @@ Role required: sn\_cmdb\_admin
 
 ## What to do next
 
--   [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md)
+-   [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md)
 -   [Manage retirement definitions for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md)
 

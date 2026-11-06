@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Carbon Black - Incident Enrichment integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_si\_admin
 
 4.  In the Carbon Black - Incident Enrichment card, click **Configure**.
 
-    \[Omitted image "carbonblack-config.png"\] Alt text: Carbon Black Incident Enrichment
+    \[Omitted image "carbonblack-config-inc.png"\] Alt text: Configure Carbon Black - Incident Enrichment integration
 
 5.  Fill in the fields, as needed.
 

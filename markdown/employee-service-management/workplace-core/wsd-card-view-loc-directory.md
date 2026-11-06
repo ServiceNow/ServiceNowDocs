@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Manage workplace activities and services with Location directory, Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Location Directory, Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Work with the Card view on the Location directory

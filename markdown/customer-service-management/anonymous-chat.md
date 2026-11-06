@@ -1,18 +1,18 @@
 ---
 title: Anonymous chat
-description: Consumers can chat with a consumer service agent without logging in to the Consumer Service Portal.
+description: Anonymous chat allows guest users to initiate chat sessions with consumer service agents through the Consumer Service Portal without requiring authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/anonymous-chat.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Administer, Customer Service Management]
 ---
 
 # Anonymous chat
 
-Consumers can chat with a consumer service agent without logging in to the Consumer Service Portal.
+Anonymous chat allows guest users to initiate chat sessions with consumer service agents through the Consumer Service Portal without requiring authentication.
 
 From the Consumer Service Portal, guest users can click the **Chat** link in the portal header to initiate a chat session with a consumer service agent. Clicking this link opens a form that requests some basic information, including the user's name, email address, and type of issue. Completing and submitting the form creates a chat request that is routed to the appropriate agent queue based on the selected issue type. Once the assigned agent accepts the request, a chat session is established. If necessary, the agent can create a consumer record or a case for the guest user, or transfer the chat to another agent.
 
@@ -43,7 +43,7 @@ For more information, see [Record Producer](https://raw.githubusercontent.com/Se
 
 ## Anonymous chat routing
 
-Information provided by the guest user assists with routing and also provides the conext of the request to the consumer service agent. The chat request is routed to the appropriate agent queue based on the type of issue selected. The routing for anonymous chat requests uses [matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CaseRouting.md). Create one matching rule for each queue and tie a chat request to a chat queue based on the selected issue type. Matching rules for anonymous chat are based on the Customer Interaction table.
+Information provided by the guest user assists with routing and also provides the context of the request to the consumer service agent. The chat request is routed to the appropriate agent queue based on the type of issue selected. The routing for anonymous chat requests uses [matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CaseRouting.md). Create one matching rule for each queue and tie a chat request to a chat queue based on the selected issue type. Matching rules for anonymous chat are based on the Customer Interaction table.
 
 The following matching rules are provided:
 

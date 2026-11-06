@@ -1,18 +1,18 @@
 ---
 title: ArchiMate shapes support in the Enterprise Modeling and Visualization
-description: ArchiMate shapes are the industry standard shapes used by the Enterprise Architects to create diagrams with relationships among with different domains in the enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
+description: ArchiMate shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-archimate.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # ArchiMate shapes support in the Enterprise Modeling and Visualization
 
-ArchiMate® shapes are the industry standard shapes used by the Enterprise Architects to create diagrams with relationships among with different domains in the enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
+ArchiMate® shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
 
 ## ArchiMate shapes mapping with ServiceNow Common Service Data Model \(CSDM\)
 
@@ -40,8 +40,12 @@ Following are the relationship types for the ArchiMate shapes. Use these arrows 
 
 \[Omitted image "archimate-relationship-type.png"\] Alt text: ArchiMate relationship type
 
--   **[Create diagram using ArchiMate shapes and add relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)**  
-Use the industry standard ArchiMate shapes to create modeling diagrams for your enterprise in the Enterprise Architecture Workspace.
+**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
 
-**Parent Topic:**[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+**Related topics**  
+
+
+[ArchiMate shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-archimate-shapes.md)
+
+[Create diagram using ArchiMate shapes and add relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-create-diagram-archimate.md)
 

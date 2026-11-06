@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/activate-default-values-for-cmd-calculations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Activate default values for CMD calculations
@@ -39,5 +39,5 @@ Role required: sn\_esg.program\_manager
 -   **[Metric definition setting record fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/metric-definition-setting-record-fields.md)**  
 The fields of the metric definition setting record form are explained in this topic.
 
-**Parent Topic:**[Formula building in a calculated metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/formula-building-at-metric-definition-and-entity-level.md)
+**Parent Topic:**[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/reviewing-formula-tree.md)
 

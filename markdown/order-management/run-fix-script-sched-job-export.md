@@ -1,18 +1,18 @@
 ---
-title: Add Code field values to catalog entities after upgrading
-description: Add the Code field values for the main product catalog entities. The system uses this field to determine whether the Code field values for an export catalog entity are to be inserted or updated in the target instance.
+title: Add Code field values to catalog entities
+description: Add the Code field values for the main product catalog entities. The system uses this field as a way to identify catalog entities uniquely and to determine whether the Code field values for an export catalog entity are to be inserted or updated in the target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/run-fix-script-sched-job-export.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Add Code field values to catalog entities after upgrading
+# Add Code field values to catalog entities
 
-Add the **Code** field values for the main product catalog entities. The system uses this field to determine whether the **Code** field values for an export catalog entity are to be inserted or updated in the target instance.
+Add the **Code** field values for the main product catalog entities. The system uses this field as a way to identify catalog entities uniquely and to determine whether the **Code** field values for an export catalog entity are to be inserted or updated in the target instance.
 
 ## Before you begin
 
@@ -20,36 +20,48 @@ Role required: admin
 
 ## About this task
 
-In the Washington DC release, the **Code** field was added for the main product catalog entities. If the **Code** field values for these catalog entities are empty after upgrading to the Washington DC release, run both a fix script and an on-demand scheduled job to add the **Code** field values for the main product catalog entities.
+The **Code** values for product catalog entities are system-assigned alphanumeric values based on the catalog entity name, such as the name of a product offering. If the **Code** field values for the main catalog entities are empty, run certain on-demand scheduled jobs and fix scripts to add the **Code** field values for the main product catalog entities.
 
-The fix script adds the **Code** field values for characteristic options. The scheduled job adds the **Code** field values for product offerings, product offering catalog, and product, service, and resource specifications.
+Both the scheduled jobs and fix scripts add the **Code** field values for the catalog entities.
 
 ## Procedure
 
-1.  On the source instance, navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
+1.  On the source instance, navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs** and do the following:
 
-2.  Select the **Populate Code Field** and select **Run Fix Script**.
+    1.  In the filter, enter `Application is Product Catalog Management Core`, then select **Run**.
 
-    The system runs the script, which adds the **Code** field value to characteristic options.
+        A list of jobs for Product Catalog Management Core is displayed.
 
-3.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+    2.  Run each of the following jobs in the order listed below \(select the job, then select **Execute Now**\).
 
-4.  Select the **Schedule job to populate code field on master entities** job.
+        -   **Migrate prod chars values to char options**
+        -   **Schedule job to modify code field on characteristic records that contain special characters**
+        -   **Schedule job to populate code field on master entities**
+        -   **Schedule job to populate name field on product offering characteristics**
+        -   **Schedule Job with upgrade script to populate code**
+2.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 
-5.  Verify that the **Run** field is set to On Demand and select **Execute now**.
+    1.  In the filter, enter `*code` to view the list of applicable fix scripts.
 
-    The system runs the job, which adds the **Code** field value for product offerings, product offering catalog, product offering categories, and product, service, and resource specifications.
+    2.  Run each of the following fix scripts \(select the script, then select **Run Fix Script**\).
 
-6.  Select the **Schedule Job with upgrade script to populate code** job.
+        -   **Populate Code Field** - For Product Catalog Management Core application
+        -   **Populate Code Field** - For Compatibility Management application
+        -   **Populate Code Field** - For Attribute Propagation
+        -   **Populate Code Field Decomposition Rule** - For Order Management application
+        These scripts can be run in any order.
 
-7.  Verify that the **Run** field is set to On Demand and select **Execute now**.
-
-    The system runs the job, which adds the **Code** field value to the Product Catalog Management Core.
-
-8.  Repeat Steps 1 through 7 on the target instance.
+3.  Repeat Steps 1 through 2 on the target instance.
 
 
 ## Result
 
 Your product catalog admin can export product catalog entities from the source instance and import them to the target instance.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

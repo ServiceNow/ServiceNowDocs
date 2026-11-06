@@ -7,16 +7,16 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # OAuth implicit grants
 
 ServiceNow instances support the implicit grant of an access token.
 
-The implicit grant type, also known as **implicit grant code flow**, allows the access token to be given directly to the client application via the user agent, which is typically the web browser or mobile device. No refresh tokens are granted. The end user must still grant access to the protected resource on the instance, just as with standard .
+The implicit grant type, also known as **implicit grant code flow**, allows the access token to be given directly to the client application via the user agent, which is typically the web browser or mobile device. No refresh tokens are granted. The end user must still grant access to the protected resource on the instance, just as with standard.
 
 ## OAuth implicit grant flow process
 

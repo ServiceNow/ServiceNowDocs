@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments as a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Book an appointment for existing work orders and work order tasks
@@ -40,6 +40,4 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
 ## Result
 
 When work order task is accepted by the assigned technician, customer receives SMS and email notification that their appointment is confirmed.
-
-**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

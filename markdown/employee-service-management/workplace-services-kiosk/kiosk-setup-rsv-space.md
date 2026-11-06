@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -43,5 +43,5 @@ Role required: sn\_wsd\_kiosk.operator
     You have successfully setup the kiosk on your device for workplace visitors and guests to make a reservation. For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
 
 
-**Parent Topic:**[Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

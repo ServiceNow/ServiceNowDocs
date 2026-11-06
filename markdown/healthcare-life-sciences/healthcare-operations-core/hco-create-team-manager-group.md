@@ -1,20 +1,20 @@
 ---
-title: Create a group for all team managers in Healthcare Operations Core
-description: Create a group for team members with the sn\_hco.care\_team\_manager role assigned so that users added to this group inherits the collection of roles for Healthcare Operations Core.
+title: Create a group for all care team managers in Healthcare Operations Core
+description: Create a group for care team managers with the sn\_hco.care\_team\_manager role assigned so that users added to this group inherits the collection of roles for Healthcare Operations Core.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-create-team-manager-group.html
 release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Healthcare Operations Core, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Create a group for all team managers in Healthcare Operations Core
+# Create a group for all care team managers in Healthcare Operations Core
 
-Create a group for team members with the sn\_hco.care\_team\_manager role assigned so that users added to this group inherits the collection of roles for Healthcare Operations Core.
+Create a group for care team managers with the sn\_hco.care\_team\_manager role assigned so that users added to this group inherits the collection of roles for Healthcare Operations Core.
 
 ## Before you begin
 

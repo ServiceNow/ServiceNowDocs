@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create a document revision
@@ -30,35 +30,35 @@ You can create document revisions only when the State is Work in progress.
 
 1.  Open a contract request from the workspace you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d255462e62">
+<table id="table_ujj_bct_fgc"><thead><tr><th>
 
 Method
 
-</th><th align="left" id="d255462e65">
+</th><th>
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d255462e71">
+</th></tr></thead><tbody><tr><td>
 
-**Contract Workspace**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
-3.  Select **Contract requests** &gt; **All**
-4.  Select a contract request.
-
-
-</td></tr><tr><td id="d255462e118">
-
-**Workspace used by your application**
+Contract Workspace
 
 </td><td>
 
-1.  Navigate to your workspace.
-2.  Open the list that displays the contract requests.
-3.  Select a contract request.
+-   Navigate to **All→Contract Workspace**.
+-   Select the list icon \(*\[List icon\]*\).
+-   Select **Contract requests→All**
+-   Select a contract request.
+
+
+</td></tr><tr><td>
+
+Workspace used by your application
+
+</td><td>
+
+-   Navigate to your workspace.
+-   Open the list that displays the contract requests.
+-   Select a contract request.
 
 
 </td></tr></tbody>
@@ -80,7 +80,7 @@ Steps
 
         -   **Computer**
 
-            Select this option to upload a file from your system. The field appear upon selecting this option. Select and upload the updated contract from your system.
+            Select this option to upload a file from your system. The **Attachment** field appears upon selecting this option. Select **Attach File** and upload the updated contract from your system.
 
         -   **Activity stream**
 
@@ -99,5 +99,5 @@ Steps
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

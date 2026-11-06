@@ -1,5 +1,5 @@
 ---
-title: Setting up Legal Investigations
+title: Configure Legal Investigations
 description: Configure the foundation data required for managing the complaints for legal investigations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-investigations/setting-up-legal-investigations.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Setting up Legal Investigations
+# Configure Legal Investigations
 
 Configure the foundation data required for managing the complaints for legal investigations.
 
@@ -41,6 +41,6 @@ As an administrator, you can review the installed base system components and mod
 -   [Create a legal matter template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/create-legal-matter-template.md) to standardize the process of investigating a complaint.
 -   Configure an interview template for legal matter tasks of type interview to capture consistent information from the interviews. For example, if you set a questionnaire in the template, the assigned task fulfiller can view a list of predefined questions to ask the interviewees.
 
-    For more information, see [Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+    For more information, see [Interview Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 

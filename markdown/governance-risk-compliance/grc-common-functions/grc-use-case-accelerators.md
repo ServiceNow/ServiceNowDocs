@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,6 +24,8 @@ Unless otherwise noted, each use case accelerator requires that you have the Ser
 The Cyber Risk Institute \(CRI\) is focused to collaborate with the financial sectors and regulators to streamline standardization across risk management. For better cyber compliance management, CRI provides a CRI Profile with the financial sector consensus.
 -   **[Cybersecurity Controls Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/cybersecurity-controls-accelerator.md)**  
 The Cybersecurity Controls Accelerator ™ enables users to easily adopt the CIS Controls from The Center for internet Security ™ to enhance their overall security preparedness and cyber-defense posture.
+-   **[Financial Services Control accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/financial-services-control-accelerator.md)**  
+The Financial Services Control Accelerator gives customers an operational head-start when adopting the Financial Services Control. When the accelerator is downloaded and activated in the GRC applications, pre-configured authority documents, citations, and control objectives.
 -   **[NIST CSF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-csf-usecase-accelerator.md)**  
 The NIST CSF Use Case Accelerator gives customers an operational head-start when adopting the NIST CSF. When the accelerator is downloaded and activated in the GRC applications, pre-configured policies, scopes \(profiles, profile type recommendations\), indicators, risks, and other GRC elements appear.
 -   **[NIST RMF Use Case Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-and-nistrmf-usecase-accelerator.md)**  

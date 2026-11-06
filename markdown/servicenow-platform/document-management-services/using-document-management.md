@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,9 +31,11 @@ Lists are a collection of template documents you can use to create documents tha
 -   **[Document attachments in an activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/activity-stream-for-documents.md)**  
 Include documents in activity streams to include and track updates on attached documents to any record.
 -   **[Redact sensitive data from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/data-redaction-documents.md)**  
-Manually mask sensitive content or data from your PDF documents. Data redaction is available in configurable workspaces.
+Manually mask sensitive content or data from your PDF documents and attachments. Data redaction is available in configurable workspaces.
 -   **[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/integration-external-content-providers.md)**  
 Integrate Document Management with external cloud providers for editing, sharing, and collaborating over documents for Core UI.
+-   **[Document Management in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/document-management-workspace.md)**  
+With Document Management in workspaces you can organize documents into folders, manage document versions, control sharing permissions, and attach files from multiple sources to any ticket or record. The Documents component appears in the side panel of workspace record views and provides a centralized location for managing documents associated with a specific record.
 
 **Parent Topic:**[Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/doc-management-landing.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Delete an indicator
@@ -33,10 +33,8 @@ Role required: pa\_data\_collector \(requires that the indicator record is visib
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **\[type of indicator\]**, and locate the indicator you want to delete.
 
-    -   If you're on an instance that has not fully migrated to Platform Analytics, navigate to **All** &gt; **** &gt; **Performance Analytics** &gt; **Indicators** &gt; **\[type of indicator\]**, and locate the indicator you want to delete.
-    -   If you're on an instance that has fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **\[type of indicator\]**, and locate the indicator you want to delete.
 2.  Open the indicator record.
 
 3.  Make sure you are in the same application scope as the indicator.

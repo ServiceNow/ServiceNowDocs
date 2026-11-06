@@ -7,7 +7,7 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Lifecycle Events customers upgrading from the Washington DC or Xanadu release to
 
 ## Before you begin
 
-Role required: admin \[sn\_hr\_le.admin\]
+Role required: sn\_hr\_le.admin
 
 ## About this task
 

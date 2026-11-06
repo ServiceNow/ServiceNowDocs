@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Sales contract review requests
@@ -42,12 +42,10 @@ As a sales team member, you can submit a legal request for getting legal support
 
 The legal department can manage and process these requested changes to make necessary revisions to the contract document from a centralized location.
 
-\[Omitted image "workflow-sales-contract.png"\] Alt text: Legal Simple Contracts - Sales contracts review request workflow.
-
 -   **[Submit a legal request for sales contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/submit-legal-request-sales-contract-review.md)**  
 Submit a legal request to the legal team for review and legal support for a sales contract.
 -   **[Work on a sales contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/work-legal-request-sales-contract.md)**  
 As a member of the legal contracts support team, review and revise a sales contract document as per the requested changes. Upload the revised document to the request and send it to the requester directly from the request.
 
-**Parent Topic:**[Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/legal-simple-contracts-landing-page.md)
+**Parent Topic:**[Submitting Legal Simple Contracts requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/sub-lg-sim-conts-reqs.md)
 

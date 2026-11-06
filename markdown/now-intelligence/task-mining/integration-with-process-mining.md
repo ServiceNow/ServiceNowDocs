@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 ---
@@ -27,5 +27,5 @@ You must install and configure the Process Mining and Task Mining plugins before
 **Related topics**  
 
 
-[integration-taskmining]
+[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/integration-taskmining.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage transfer orders, Manage inventory in Field Service Management, Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage transfer orders, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create a transfer order
@@ -59,9 +59,4 @@ Role required: wm\_agent, wm\_qualifier, wm\_dispatcher, wm\_admin, or [qualifie
     -   **Agent Pickup**
 10. Click **Submit**.
 
-
--   **[Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-transfer-order-line-task.md)**  
-Use transfer order line tasks to move assets through the shipment or drop-off transfer process.
-
-**Parent Topic:**[Manage transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_TransferOrders.md)
 

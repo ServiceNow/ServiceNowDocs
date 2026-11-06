@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/edit-esg-dashboard-details.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Edit Operational Sustainability Management dashboard details
@@ -22,21 +22,21 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Analytics dashboard**.
 
-2.  Select the Analytics dashboard icon and then select the dashboard you want to edit.
+2.  Select the Analytics dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text: and then select the dashboard you want to edit.
 
 3.  Select the View dashboard details icon \[Omitted image "details-icon.png"\] Alt text: to open the **Details** panel.
 
 4.  Edit the fields as necessary.
 
-<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d34867e98">
+<table id="choicetable_inw_zcy_5gc"><thead><tr><th align="left" id="d35988e103">
 
 Field
 
-</th><th align="left" id="d34867e101">
+</th><th align="left" id="d35988e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d34867e107">
+</th></tr></thead><tbody><tr><td id="d35988e112">
 
 **Name**
 
@@ -44,7 +44,7 @@ Description
 
 Edit the name of the dashboard.
 
-</td></tr><tr><td id="d34867e116">
+</td></tr><tr><td id="d35988e121">
 
 **Description**
 
@@ -52,7 +52,7 @@ Edit the name of the dashboard.
 
 Fill in the description to provide further context about the purpose of the dashboard.
 
-</td></tr><tr><td id="d34867e125">
+</td></tr><tr><td id="d35988e130">
 
 **Mark as certified**
 
@@ -62,7 +62,7 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
  **Note:** You must have an admin role to mark a dashboard as certified. For more information, see [Certify a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/certify-db-ac.md).
 
-</td></tr><tr><td id="d34867e144">
+</td></tr><tr><td id="d35988e149">
 
 **Dashboard visibility**
 
@@ -70,7 +70,7 @@ Mark the dashboard as certified to inform the user that the dashboard is for use
 
 View, add, or remove workspaces in which the dashboard can be viewed.**Note:** If you have the admin role, you can change the workspaces for any dashboard. Other users can change workspaces only for dashboards they create. For more information, see [Edit Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/edit-esg-dashboards.md).
 
-</td></tr><tr><td id="d34867e163">
+</td></tr><tr><td id="d35988e168">
 
 **Create new category**
 
@@ -78,7 +78,7 @@ View, add, or remove workspaces in which the dashboard can be viewed.**Note:** I
 
 Specify one or more dashboard categories.**Note:** For more information, see [Platform Analytics experience dashboard categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/db-categories.md).
 
-</td></tr><tr><td id="d34867e178">
+</td></tr><tr><td id="d35988e183">
 
 **Requested by**
 
@@ -86,7 +86,7 @@ Specify one or more dashboard categories.**Note:** For more information, see [Pl
 
 Specify who requested the dashboard.**Note:** This user is considered a responsible user. The data visualization is shared with them, with editing permissions.
 
-</td></tr><tr><td id="d34867e189">
+</td></tr><tr><td id="d35988e194">
 
 **Owner**
 
@@ -94,7 +94,7 @@ Specify who requested the dashboard.**Note:** This user is considered a responsi
 
 Specify the owner of the dashboard.**Note:** By default, the owner is the creator of the dashboard, but the creator or owner can assign ownership to another user.
 
-</td></tr><tr><td id="d34867e200">
+</td></tr><tr><td id="d35988e205">
 
 **Owner Group**
 
@@ -102,7 +102,7 @@ Specify the owner of the dashboard.**Note:** By default, the owner is the creato
 
 Specify an owner group.**Note:** The owner of a dashboard can be an entire group rather than a single person.
 
-</td></tr><tr><td id="d34867e211">
+</td></tr><tr><td id="d35988e216">
 
 **Created by**
 
@@ -110,7 +110,7 @@ Specify an owner group.**Note:** The owner of a dashboard can be an entire group
 
 See who created the dashboard.
 
-</td></tr><tr><td id="d34867e220">
+</td></tr><tr><td id="d35988e225">
 
 **Last updated by**
 
@@ -118,7 +118,7 @@ See who created the dashboard.
 
 See who updated the dashboard along with the date and time details.
 
-</td></tr><tr><td id="d34867e230">
+</td></tr><tr><td id="d35988e235">
 
 **Shared with**
 
@@ -128,5 +128,5 @@ See who the dashboard has been shared with.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add the Universal Task list category in Service Operations Workspace Core, Using Universal Task, Universal Task, Employee Service Management]
+breadcrumb: [Add list category in SOW core, Using Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Add lists under the Universal Task list categories
@@ -42,5 +42,5 @@ The lists under the Universal Task list category are added.
 -   **[UX List Form SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-task/ux-list-form-sow.md)**  
 Learn about the fields of the UX List form. Use this form to create additional lists in the Lists menu of Service Operations Workspace.
 
-**Parent Topic:**[Add the Universal Task list category in Service Operations Workspace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-task/add-universal-task-list-categories.md)
+**Parent Topic:**[Adding a Universal Task list category in SOW core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-task/add-universal-task-list-categories.md)
 

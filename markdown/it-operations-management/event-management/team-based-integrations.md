@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Team-based integrations in Event Management
@@ -24,8 +24,6 @@ Team-based integrations provides the following capabilities:
 -   Enable seamless integration and automation through the automatic assignment of alerts to appropriate team members based on integration ownership and configuration item \(CI\) ownership.
 
 Customize event rules, event mapping, and the precedence of team rules for team-based integrations. For more information, see [Team-based integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/team-based-integrations-properties.md).
-
-**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Exploring actions, Exploring Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Conversational actions
@@ -18,9 +18,9 @@ Run a Workflow Studio action from a Now Assist conversation. Create and configur
 
 Workflow Studio offers a selection of preconfigured actions that are available to run from Conversational Interfaces.
 
-## Activating the subflows and actions skill
+## Automatic skill activation
 
-To activate the subflows and actions skill, see [Turn on the subflows and actions skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/turn-on-the-subflows-and-actions-skill.md).
+This Platform workflow skill is automatically activated when you install a Now Assist product. For more information about Platform workflow skill activation, see [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-on-now-platform.md).
 
 ## User role access
 
@@ -46,8 +46,10 @@ You can use the conversational settings menu to manage conversational subflows a
 -   Select one or more roles users must have to access the action or subflow skill.
 -   Set the advanced option to make the action or subflow skill discoverable.
 -   Set the advanced option to include the action or subflow skill in the list of topics.
+-   Set the advanced option to retain the context of previous conversations so that the users can ask follow-up questions, provide additional details, and continue the conversation.
+-   Set the advanced option to include error messages from subflows and actions in the conversation.
 
-\[Omitted image "example-conversational-settings.png"\] Alt text: Conversational settings for the preconfigured action called Create Checklist from Template
+\[Omitted image "general-settings-conv-sublow-z.png"\] Alt text: Conversational settings for the preconfigured Send SMS subflow.
 
 When you set these options in Workflow Studio, the system also sets the corresponding options in Virtual Agent Designer.
 
@@ -81,17 +83,10 @@ Conversational subflows and actions support a limited number of input data types
 |string\_full\_utf8|String \(Full UTF-8\)|
 |table\_name|Table Name|
 
--   **[Available conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/available-conversational-actions.md)**  
-Workflow Studio provides a set of actions that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
--   **[Check for conversational compatible actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/check-for-conversational-compatible-actions.md)**  
-Run a compatibility check on new or all actions to determine if they are conversational compatible. Review the inputs of an action to determine if their data types are compatible.
--   **[Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-action-conversation-settings.md)**  
-Configure conversation settings to make an action available to conversational interfaces.
-
-**Parent Topic:**[Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-actions.md)
-
 **Related topics**  
 
 
 [Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-subflows.md)
+
+[Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-action-conversation-settings.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Viewing patient information in Workspace
+title: View patient information in Workspace
 description: With the 360-degree view of a patient in Workspace, you can access the patient details anytime for any healthcare services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-patient-info.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage requests in Healthcare Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Viewing patient information in Workspace
+# View patient information in Workspace
 
 With the 360-degree view of a patient in Workspace, you can access the patient details anytime for any healthcare services.
 

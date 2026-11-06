@@ -7,7 +7,7 @@ release: yokohama
 product: Investment Funding
 classification: investment-funding
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Co-owners for an investment, Investment Funding, Strategic Portfolio Management]
 ---
@@ -27,15 +27,15 @@ Role required:
 
 1.  Open a top-level investment or My fund.
 
-<table id="choicetable_xqc_kqr_25b"><thead><tr><th align="left" id="d43630e62">
+<table id="choicetable_xqc_kqr_25b"><thead><tr><th align="left" id="d49196e62">
 
 Option
 
-</th><th align="left" id="d43630e65">
+</th><th align="left" id="d49196e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43630e71">
+</th></tr></thead><tbody><tr><td id="d49196e71">
 
 **To open a top-level investment**
 
@@ -45,7 +45,7 @@ Steps
 2.  Click an investment tile.
 
 
-</td></tr><tr><td id="d43630e101">
+</td></tr><tr><td id="d49196e101">
 
 **To open a My fund**
 

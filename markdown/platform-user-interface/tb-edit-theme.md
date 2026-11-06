@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tb-edit-theme.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [customize theme, edit theme, manage theme, change theme]
-breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Manage or edit a theme with Theme Builder
@@ -17,17 +17,19 @@ Customize and manage your theme and styling in a time and cost efficient way. Af
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
     The Theme Builder landing page opens in a new tab and is displayed in the Home page view.
 
-2.  From the Home page view, select Manager page view to see all available themes.
-
     \[Omitted image "tb-home.png"\] Alt text: Page menu.
+
+2.  From the Home page view, select Manager page view to see all available themes.
 
     From the Manager page view, you have the choice of viewing existing themes in two ways. You can choose the Grid view or the List view.
 
@@ -37,37 +39,62 @@ Role required: admin
 
     \[Omitted image "tb-list-view.png"\] Alt text: List view.
 
-    The More actions \(\[Omitted image "tb-more-actions.png"\] Alt text: More actions icon.\) icon for published themes contains the following options:
+    Use the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:on a published theme to access these options:
 
-    -   Duplicate
-    -   Delete
-    -   Add alternate color palette
-    -   Unpublish
-    -   Mark as default
+    -   Duplicate: creates a copy of the theme for reuse or modification.
+    -   Delete: permanently removes the theme from your list.
+    -   Add alternate color palette: applies a different color scheme to the theme for variation.
+    -   Unpublish: removes the theme from active use without deleting it, so you can edit or republish later.
+    -   Mark as default: sets the theme as the first option shown in the Next Experience Theme user preference. This option appears if the theme is not the current default theme.
+    Use the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:on a published theme with an alternate color palette defined to access these options:
 
-        **Note:** This option appears if the theme isn’t the current default theme.
+    -   Edit group name: renames the theme group, which includes the base theme and all its alternate color palettes.
+    -   Duplicate: creates a copy of the theme for reuse or modification.
+    -   Delete: permanently removes the theme from your list.
+    -   Unpublish: removes the theme from active use without deleting it, so you can edit or republish later.
+    -   Mark as default: sets the theme as the first option shown in the Next Experience Theme user preference. This option appears if the theme is not the current default theme.
+    Use the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:on an unpublished theme to access these options:
 
-    The More actions \(\[Omitted image "tb-more-actions.png"\] Alt text: More actions icon.\) icon for published themes with the alternate color palettes defined contains the following options:
+    -   Duplicate: creates a copy of the theme for reuse or modification.
+    -   Delete: permanently removes the theme from your list.
+    -   Add alternate color palette: applies a different color scheme to the theme for variation.
+    -   Publish: makes the theme available for use.
+3.  Choose the theme you want to edit using one of the following ways.
 
-    -   Edit group name
-    -   Duplicate
-    -   Delete
-    -   Unpublish
-    -   Mark as default
+<table id="choicetable_v1x_lnb_qfc"><thead><tr><th align="left" id="d53249e240">
 
-        **Note:** This option appears if the theme isn’t the current default theme.
+Page
 
-    The More actions \(\[Omitted image "tb-more-actions.png"\] Alt text: More actions icon.\) icon for the unpublished themes contains the following options:
+</th><th align="left" id="d53249e243">
 
-    -   Duplicate
-    -   Delete
-    -   Add alternate color palette
-    -   Publish
-3.  Select Editor page view and choose the theme you want to edit from the Theme drop-down list. In the Editor page view, you can see only the theme that you select.
+Option
 
-    \[Omitted image "tb-select-theme-editor-view.png"\] Alt text: Select a theme from the Theme drop-down list.
+</th></tr></thead><tbody><tr><td id="d53249e249">
 
-    **Note:** When you select the theme you want to work on, verify that you selected the correct scope for the theme from the application scope picker.
+**Manager \(Grid view\)**
+
+</td><td>
+
+From the Published or Unpublished section, choose the theme you want to edit and select **Edit**.
+
+</td></tr><tr><td id="d53249e261">
+
+**Manager \(List view\)**
+
+</td><td>
+
+From the Published or Unpublished section, choose the theme you want to edit and select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:.
+
+</td></tr><tr><td id="d53249e275">
+
+**Editor**
+
+</td><td>
+
+Choose the theme you want to edit from the Theme drop-down list.\[Omitted image "tb-select-theme-editor-view.png"\] Alt text: Select a theme from the Theme drop-down list.
+
+</td></tr></tbody>
+</table>    **Note:** When you select the theme you want to work on, verify that you selected the correct scope for the theme from the application scope picker.
 
     \[Omitted image "tb-scope-picker.png"\] Alt text: Application scope picker.
 
@@ -77,37 +104,23 @@ Role required: admin
 
     **Note:** The following style records are generated with your theme:
 
-    -   **Your brand palette**: Update the interface colors for your brand.
-    -   **Logo**: Update the logo. You can upload the logo during the theme application either from imagery or the overview page. For more information, see [Upload a logo while publishing a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-upload-logo.md).
-    -   **Font Family**: Update the fonts applied globally to your experience. The fonts are used in headlines, titles, subtitles, body text, and captions.
+    -   **Your brand palette**: Update the interface colors for your brand. For more information, see [Edit your theme colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/edit-theme-colors.md).
+    -   **Logo**: Update the logo. You can upload the logo during the theme application from the Overview page. For more information, see [Upload a new logo to your Theme Builder theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-upload-logo.md).
+    -   **Typography**: Update the fonts applied globally to your experience. The fonts are used in headlines, titles, subtitles, body text, and captions. For more information, see [Edit your default font](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/edit-font.md).
+    -   **Shape**: Update the corner shapes of on-screen components. For more information, see [Edit corner shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/edit-corner-shapes.md).
+5.  Preview your theme before publishing.
 
-        **Note:** If you prefer to customize your font, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-next-experience-style.md). After you save your customized font type and refresh the page, the new font appears as `Custom Font`. If you delete the custom font from your theme record, the font reverts to `Source Sans Pro` as the default.
+    1.  Select the **Experiences** tab from the Global styles panel.
 
-    -   **Shape**: Update the corner shapes of on-screen components.
+    2.  Select the experience that you want to preview from the Experience drop-down list.
 
-        **Note:** If you prefer to customize your shape, see [Create a Next Experience style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-next-experience-style.md). After you save your customized shape and refresh the page, the new shape appears as `Mixed`. This custom value is also displayed in the **Component Styles** tab, where you can edit the custom value.
+    3.  Select the Open in new tab icon \[Omitted image "tb-icon-open-new-tab.png"\] Alt text: to open the experience in a new tab.
 
-    1.  To change the auto-generated UI colors for more in-depth editing, select the Color palette icon \[Omitted image "tb-color-palette-icon.png"\] Alt text: from the Global styles color panel. Use the drop-down list next to each UI element to access the color options.
+        \[Omitted image "tb-experience-preview-1.png"\] Alt text: Global styles experience preview screen.
 
-        **Note:** After you have saved changes to any of the color hooks, a Remove override symbol appears. Select the Remove override symbol to revert your changes back to the original auto-generated colors.
+        An actual live instance appears with all the theme selections applied. You can preview it before implementing the selected themes on the actual instance.
 
-        \[Omitted image "tb-color-undo.png"\] Alt text: Remove override symbol.
-
-5.  To preview your theme before publishing it to your instance, select the **Experience preview** tab.
-
-    \[Omitted image "tb-exp-preview-tab.png"\] Alt text: Experience preview tab.
-
-    Select the experience that you want to preview from the Experience drop-down list.
-
-    \[Omitted image "tb-experience-preview-dropdown.png"\] Alt text: Experience drop-down.
-
-    An actual live instance appears with all the theme selections applied. You can preview it before implementing the selected themes on the actual instance.
-
-    **Note:** Select the Open in new tab icon \[Omitted image "tb-icon-open-new-tab.png"\] Alt text: to open the experience in a new tab. You can see how your unpublished theme interacts with your selected experience.
-
-    \[Omitted image "tb-preview-before-applying-theme.png"\] Alt text: Preview of your experience with theme applied.
-
-    **Note:** For published themes, data in the Experience preview is live data. The changes that you make in the preview are reflected on your instance.
+        **Note:** For published themes, data in the Experiences preview is live data. The changes that you make in the preview are reflected on your instance.
 
 6.  Publish your theme.
 
@@ -115,13 +128,13 @@ Role required: admin
 
 
 -   **[Core styles, colors, variants, and alternate color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/difference-themes-variants.md)**  
-You can tailor the look and feel of the Next Experience UI for different users by configuring the core styles, variants, and alternate color palettes.
+You can tailor the look and feel of the Next Experience UI for different users by configuring the core styles, variants, and alternate color palettes. Core styles define the base theme, variants support accessibility needs, and alternate color palettes provide cosmetic customization options for end users.
 -   **[Add an alternate color palette](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-edit-color-palette.md)**  
 Customize a Theme Builder theme by creating an alternate color palette for the theme and publishing it to your instance.
--   **[Preview components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-preview-components.md)**  
-As you’re creating or managing your theme, you can preview the components available for inclusion on your instance.
--   **[Edit components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-edit-components.md)**  
-Edit Theme Builder individual components to better suit your brand and to meet accessibility compliance standards. The theme hooks that you can edit are specific to each type of component.
+-   **[Working with Global styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/working-with-global-styles.md)**  
+Global styles enable you to edit and define core design elements like fonts, colors, and shapes that apply across your entire theme.
+-   **[Working with Component styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/working-with-component-styles.md)**  
+Component styles enable you to fine-tune the appearance of individual UI elements such as buttons, form controls, and navigation without affecting global theme settings. Use component styles when you need more granular control than what Global styles provide.
 -   **[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/working-with-image-styles.md)**  
 Image styles enable you to experiment with different color schemes for illustrations and replace default illustrations with your own custom images. The Image styles feature provides flexibility in customizing the visual elements of your theme.
 

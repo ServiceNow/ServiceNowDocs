@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,15 +43,15 @@ A demand insights dashboard displays tasks as topics for which your knowledge ba
 
 4.  Analyze the sample to create a knowledge gap feedback task or ignore the tasks within a collection.
 
-<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d308803e133">
+<table id="choicetable_vcr_p5r_hlb"><thead><tr><th align="left" id="d313067e130">
 
 Action
 
-</th><th align="left" id="d308803e136">
+</th><th align="left" id="d313067e133">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d308803e142">
+</th></tr></thead><tbody><tr><td id="d313067e139">
 
 **Report a knowledge gap to create a feedback task**
 
@@ -69,7 +69,7 @@ The **Description** field is automatically populated with frequently appearing w
 4.  Click **Submit**.
 
 
-</td></tr><tr><td id="d308803e182">
+</td></tr><tr><td id="d313067e179">
 
 **Ignore a collection to avoid its tasks from being reported as knowledge gaps**
 
@@ -86,6 +86,8 @@ The **Description** field is automatically populated with frequently appearing w
 If tasks within a collection are reported as knowledge gaps, a common feedback task for all the selected tasks is created and appears in the Knowledge Management application. You can use the assignment rules to assign a feedback task to an ownership group or author. In the Knowledge Curation Tasks list, the **Is knowledge gap created** column value for the selected tasks is set to **true**.
 
 If you select an ignored collection from the demand insights dashboard, you can no longer report tasks within the collection as knowledge gaps.
+
+**Parent Topic:**[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)
 
 **Related topics**  
 

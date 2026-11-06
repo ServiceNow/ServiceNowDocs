@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -54,7 +54,7 @@ Workplace location
 
 </td><td>
 
-Workplace location record that you want to assign to the profile.
+Workplace location record that you want to assign to the profile.**Note:** The Workplace location field is required for neighborhood assignment. Select the required building, floor, or space that you want to assign to the profile.
 
 </td></tr><tr><td>
 
@@ -117,4 +117,6 @@ Source from which the location assignment record was created. This field is auto
 [Workplace location assignment anomaly types]()
 
 [Reserve a space form]()
+
+[Card Configuration examples]()
 

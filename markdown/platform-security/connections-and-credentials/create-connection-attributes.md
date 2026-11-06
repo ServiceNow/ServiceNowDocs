@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Getting started with connections, Connections and Credentials, Access Management]
+breadcrumb: [Get started with connections, Connections and Credentials, Access Management]
 ---
 
 # Create connection attributes for IntegrationHub
@@ -24,7 +24,7 @@ Role required:
 -   The connection\_admin or admin role is required to assign attribute values.
 -   The action\_designer or admin role is required to use attributes in a custom action.
 
-Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-integrationhub.md).
+Connection attributes are only used by integration steps, which require a subscription to Integration Hub. For more information about activating Integration Hub, see Request an Integration Hub plugin.
 
 ## About this task
 
@@ -42,11 +42,11 @@ For more information about building custom Workflow Studio actions, see [Workflo
 
 4.  Define the attribute label and field type.
 
-    For a list of field types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+    For a list of field types, see field types.
 
 5.  Click the Advanced view related link to set advanced dictionary preferences for the attribute.
 
-    For example, to create an attribute with a dynamically calculated value. See [Dictionary entry form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_DictionaryEntryForm.md).
+    For example, to create an attribute with a dynamically calculated value. See .
 
 6.  Click **Submit**.
 
@@ -79,5 +79,5 @@ For more information about building custom Workflow Studio actions, see [Workflo
     **Note:** The system does not track changes to connection attribute labels and data types after you associate the alias to a step. To refresh the connection attribute label or data type, delete the alias from the step and add it again.
 
 
-**Parent Topic:**[Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-information.md)
 

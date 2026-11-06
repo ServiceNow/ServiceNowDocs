@@ -1,28 +1,42 @@
 ---
 title: Post case reviews
-description: Use a post case review document to capture details about a resolved case, including a summary of the issue, affected assets, root cause, resolution, and any preventive measures.
+description: Use a post case review to capture details about a resolved case, including a summary of the issue, affected assets, root cause, resolution, and any preventive measures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-digest-post-case-review.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Post case reviews
 
-Use a post case review document to capture details about a resolved case, including a summary of the issue, affected assets, root cause, resolution, and any preventive measures.
+Use a post case review to capture details about a resolved case, including a summary of the issue, affected assets, root cause, resolution, and any preventive measures.
 
-Customer service agents use the **Create Post Case Review** UI action to create a post case review document. This action creates a case action summary record and adds the record to the Related Records section on the Case form in the **Post Case Review** field.
+## Creating a post case review
 
-The configuration selected for post case review documents identifies the information from the customer service case that is captured and populated in post case review record. The configuration also specifies the template that the system uses to create the post case review document.
+Customer service agents can create post case reviews for cases that are in the **Resolved** state.
 
-Before publishing a post case review document to a case, agents can preview the document and, if necessary, have it reviewed and approved. Agents can add an approval group or approval users to the Post Case Review record and then request approval. The system sends an email notification to the approvers with a link to the post case review document. The approvers can either approve the document or suggest changes by adding them to the **Work notes** field on the Post Case Review record.
+Agents can select the **Create Post Case Review** UI action to create a post case review document. This action creates a case action summary record and adds the record to the Related Records section on the Case form in the **Post Case Review** field.
+
+## Publishing a post case review
+
+Agents can preview a post case review document before publishing and, if necessary, have the document reviewed and approved.
+
+Agents can add an approval group or approval users to the Post Case Review record and then request approval. The system sends an email notification to the approvers with a link to the post case review document. The approvers can either approve the document or suggest changes by adding them to the **Work notes** field on the Post Case Review record.
 
 When an agent publishes a post case review document, the system adds a link to a PDF of the document in the **Additional comments** field on the Case form. The system also adds the record to the Related Records section on the Case form in the **Post Case Review** field. If the document is available to customers, the link is visible from the Customer and Consumer Service Portals.
 
+## Post case review configuration records
+
+The configuration selected for post case review documents identifies the information from the case that is captured and populated in post case review record. The configuration also specifies the template that the system uses to create the post case review document.
+
+## Closing a case while a post case review is in progress
+
 If a case is closed while the post case review document is in progress, agents can still update the **Additional comments** on the Case form with the post case review document link. Once a case is closed, the Post Case Review form displays a message that the associated case has been closed.
+
+## Post case review actions by role
 
 Customer service roles can perform the following actions for post case review documents.
 

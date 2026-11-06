@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Suite results, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Suite results, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Test suite results examples

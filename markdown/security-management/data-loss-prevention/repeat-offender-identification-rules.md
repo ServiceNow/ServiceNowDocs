@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -20,8 +20,8 @@ Create repeat offender identification rules to identify users who repeat the sam
 
 Role required:
 
--   sn\_dlir.admin - Create, edit, and delete.
--   sn\_dlir.analyst and sn\_dlir.analyst\_read - View \(read-only\).
+-   sn\_dlir.admin
+-   sn\_dlir.analyst and sn\_dlir.analyst\_read
 
 ## About this task
 
@@ -91,7 +91,7 @@ DLP fields
 
 </td><td>
 
-Identify repeat offenders based on the required DLP fields. Click on the \[Omitted image "dlp-lock-icon.png"\] Alt text: Lock icon icon next to the DLP Fields to view the list of available DLP fields. Select the DLP fields that you want to use from the Available column and move them to the Selected column.For example, you can select the**File Name** and **File Owner** fields from the Available column and move them to the Selected column. Then, you can identify the repeat offenders based on the **File Name** and **File Owner** fields.
+Identify repeat offenders based on the required DLP fields. Select the DLP fields that you want to use from the Available column and move them to the Selected column.For example, you can select the**File Name** and **File Owner** fields from the Available column and move them to the Selected column. Then, you can identify the repeat offenders based on the **File Name** and **File Owner** fields.
 
  Thus, if a user breaches the repeat offender threshold \(number of violations and duration\), and if the same user matches with the DLP fields, then that particular user is identified as a repeat offender.
 
@@ -112,9 +112,7 @@ Duration \(in days\)
 Define the repeat offender threshold limit in the form of days. After the user repeats the same actions and breaches the threshold duration, the user is identified as a repeat offender.
 
 </td></tr></tbody>
-</table>    \[Omitted image "dlp-repeat-offender.gif"\] Alt text: Configure repeat offender identification rules
-
-4.  Click **Submit**.
+</table>4.  Click **Submit**.
 
 
 **Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-administration.md)
@@ -152,7 +150,7 @@ Define the repeat offender threshold limit in the form of days. After the user r
 
 [Create user delegate configurations]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

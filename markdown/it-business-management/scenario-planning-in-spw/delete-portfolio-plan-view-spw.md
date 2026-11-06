@@ -1,5 +1,5 @@
 ---
-title: Delete a portfolio plan view in Strategic Planning
+title: Delete a portfolio plan view
 description: Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Delete a portfolio plan view in Strategic Planning
+# Delete a portfolio plan view
 
 Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
@@ -46,7 +46,7 @@ Role required: sn\_align\_core.ap\_read\_only
 **Related topics**  
 
 
-[Create a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
 
-[Edit a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md)
+[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.md)
 

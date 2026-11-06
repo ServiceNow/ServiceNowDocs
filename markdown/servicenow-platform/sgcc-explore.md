@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/sgcc-explore.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SGC Central, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

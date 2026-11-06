@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure CMDB Workspace, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a quick link to the Home view of CMDB Workspace
@@ -45,5 +45,5 @@ The new link is available only for the user that created the link, in the Quick 
 
 Click on the Edit quick links icon to edit, delete, or reposition an added link. Then use the up and down arrows to move a link within the list, and click the Edit icon next to a link that you want to modify or delete from the list.
 
-**Parent Topic:**[Configure CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

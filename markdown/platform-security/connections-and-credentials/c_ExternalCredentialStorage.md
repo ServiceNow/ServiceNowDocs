@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # External credential storage
@@ -17,6 +17,8 @@ breadcrumb: [Getting started with credentials, Connections and Credentials, Acce
 An instance can store credentials used by Discovery, Orchestration, and Service Mapping in an external credential repository rather than directly in a ServiceNow credentials record.
 
 The instance maintains a unique identifier for each credential, the credential type \(such as SSH, SNMP, or Windows\), and any credential affinities. The MID Server obtains the credential identifier from the instance, and then uses a customer-provided JAR file to resolve the identifier from the repository into a usable credential. Currently, the ServiceNow® platform supports the use of the [CyberArk vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/c_CyberArkCredStorageIntegrate.md) or BeyondTrust for external credential storage.
+
+Enabling external credential storage does not disable instance-stored credentials. Both can be used at the same time. The External credential store field on each credential determines where the MID Server resolves it: when selected, from the vault; when cleared, the MID Server downloads it from the instance.
 
 ## External credential storage architecture
 
@@ -67,5 +69,5 @@ The MID Server integration with the CyberArk vault enables ServiceNow® Orchestr
 -   **[OAuth 2.0 authentication via MID Server using external credential storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/oauth-2-0-support-in-external-credential.md)**  
 Store OAuth 2.0 credentials-client ID and client secret-in the CyberArk vault instead of the ServiceNow instance. The MID Server gets the credentials from the CyberArk vault, when required to get the OAuth token. The token is stored in the MID Server and refreshed automatically upon expiry.
 
-**Parent Topic:**[Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/credentials-getting-started.md)
+**Parent Topic:**[Get started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/credentials-getting-started.md)
 

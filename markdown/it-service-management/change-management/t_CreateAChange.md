@@ -9,7 +9,7 @@ classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 13
-breadcrumb: [Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
 # Create a change request
@@ -26,10 +26,10 @@ A change request records detailed information about the change. This includes th
 
 If you use conflict detection, the planned start and end dates and the configuration item \(CI\) are required.
 
-**Note:** Editing the field depends on the current state of the change request and the configured workflows.
+**Note:** Editing fields depends on the current state of the change request and the configured workflows.
 
 -   **New:** The fields are editable.
--   **Authorized:** The fields are set to read only to prevent unintended changes after approval.
+-   **Authorized:** The fields are set to read-only to prevent unintended changes after approval.
 -   **Scheduled:** The notes and status fields are editable, and the description field is read-only.
 -   **Implement and Review:** The description and planning fields are set to read-only. The activity and closure information fields are editable.
 
@@ -39,7 +39,7 @@ To modify fields after saving, verify that the change request is still in an edi
 
 1.  Create the change request with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d190084e96">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d331442e98">
 
 **From the Change application**
 
@@ -47,7 +47,8 @@ To modify fields after saving, verify that the change request is still in an edi
 
 You can create all three types of change from the **Change** application. This is the main entry point for creating a change request.1.  Navigate to **All** &gt; **Change** &gt; **Create New**.
 2.  Select **Normal**, **Emergency**, or **Standard** changes.
- If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see .
+3.  Select **Continue**.
+ If you are an upgrade customer and willing to use change models, you must enable the change model properties. For information on change models and its properties, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/manage-change-models.md).
 
  When you enable the change model properties, you see the following tabs when you navigate to **All** &gt; **Change** &gt; **Create New**.
 
@@ -57,17 +58,17 @@ You can create all three types of change from the **Change** application. This i
 -   **All**: All models are available to select.
 
 
-</td></tr><tr><td id="d190084e188">
+</td></tr><tr><td id="d331442e200">
 
 **From an incident or a problem**
 
 </td><td>
 
 As a user with the sn\_change\_write role, you can create a standard, normal, or an emergency change from an incident or a problem.1.  Open the incident or problem.
-2.  Right-click the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
+2.  Select and hold \(or right-click\) the form header and select **Create Normal Change**, **Create Standard Change**, or **Create Emergency Change**.
 
 
-</td></tr><tr><td id="d190084e215">
+</td></tr><tr><td id="d331442e227">
 
 **From an existing change record**
 
@@ -75,7 +76,7 @@ As a user with the sn\_change\_write role, you can create a standard, normal, or
 
 If the administrator enabled the change request copy option, you can create a new change by copying an existing change record.1.  Open the change record that you want to copy.
 2.  Select **Copy Change**.
- **Note:** If the create task workflow sets the **create\_from** field in the \[change\_task\] table to **workflow**, manually created tasks from the existing change record are copied.
+ **Note:** If the create task workflow sets the `create_from` field in the Change Task \[change\_task\] table to `workflow`, manually created tasks from the existing change record are copied.
 
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
@@ -118,7 +119,7 @@ Service
 
 </td><td>
 
-Business service that you want to make available for the change request.**Note:** If you select a business service as the configuration item and that business service is also listed as the configuration item in any other active task, the active tasks icon \(\[Omitted image "other-active-task.png"\] Alt text: Active tasks icon.\) appears. Click this icon to view the list of all the other active tasks that are affecting the business service. You can view the BSM map \(dependency view\) of the selected business service by clicking the dependency icon \(\[Omitted image "dependency-icon.png"\] Alt text: Dependency icon.\).
+Business service that you want to make available for the change request.**Note:** If you select a business service as the configuration item and that business service is also the configuration item in another active task, the active tasks icon \[Omitted image "other-active-task.png"\] Alt text: appears. Select this icon to view the other active tasks that affect the business service. To view the dependency map of the selected business service, select the dependency icon \[Omitted image "dependency-icon.png"\] Alt text:.
 
 </td></tr><tr><td>
 
@@ -134,15 +135,17 @@ Configuration item
 
 </td><td>
 
-Select **Add** to add a CI for the change. You can add a CI for a change in **New** state only.
+Select **Add** to add a CI for the change. You can add a CI for a change in the **New** state only.
 
-CI that the change applies to. Change requests can be associated with any type of CI, including service offerings, providing detailed access to SLA and availability requirements.When you select a dynamic CI group, all the configuration items related to the selected dynamic group will be populated in the Affected CIs related list. In the Affected CIs related list, you can also manually add and delete the dynamic CI groups. When you add a dynamic CI group, all the related CIs are added, and when you remove a dynamic CI group, the related CIs are removed.
+**Important:** You can set or change the primary configuration item \(CI\) only while the change request is in the **New** state. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
- After selecting a CI, you can click the health dashboard icon \(\[Omitted image "Change\_CIHealthIcon.png"\] Alt text: Health dashboard icon.\) to view the CI health details.
+CI that the change applies to. Change requests can be associated with any type of CI, including service offerings, providing detailed access to SLA and availability requirements.When you select a dynamic CI group, all the configuration items related to the selected dynamic group are added to the Affected CIs related list. In the Affected CIs related list, you can also manually add and delete the dynamic CI groups. When you add a dynamic CI group, all the related CIs are added, and when you remove a dynamic CI group, the related CIs are removed.
 
- **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality is applicable to new customers starting from the Paris release.
+ After selecting a CI, you can select the health dashboard icon \[Omitted image "Change\_CIHealthIcon.png"\] Alt text: to view the CI health details.
 
- See [Refresh impacted services properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/refreshing-impacted-services-properties.md)
+ **Note:** By default, Service Offering is filtered out and CIs with Principal Class are selected. The Principal Class filter functionality applies to new instances starting with the Paris release.
+
+ For more information, see [Refresh impacted services properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/refreshing-impacted-services-properties.md).
 
 </td></tr><tr><td>
 
@@ -174,7 +177,7 @@ Model
 
 </td><td>
 
-Change model being used for the change request.For information about Change models, see .
+Change model being used for the change request.For information about Change models, see [Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/manage-change-models.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +209,7 @@ Conflict last run
 
 </td><td>
 
-Date and the time when the conflict was last run.
+Date and time when conflict detection was last run.
 
 </td></tr><tr><td>
 
@@ -214,11 +217,11 @@ Assignment group
 
 </td><td>
 
-Group who will work on the change request. The business rule **Populate Assignment Group based on CI/SO** populates the **Assignment group** field available for the CI or the service offering consecutively.
+Group that works on the change request. The business rule **Populate Assignment Group based on CI/SO** populates the **Assignment group** field available for the CI or the service offering consecutively.
 
 **Note:** The business rule is triggered when a change request is created or updated and when the **Assignment group** and the **Assigned to** fields are empty.
 
-If you want to override the default value, you need to create new properties and provide the field in the property value that must be used to populate the **Assignment group** field. Create the properties in the following order of preference:
+To override the default value, create properties and provide the field in the property value that must be used to populate the **Assignment group** field. Create the properties in the following order of preference:
 
 -   **com.snc.change\_request.ci\_assignment\_group.field\_name**: Identifies which CI field populates the **Assignment group** field.
 -   **com.snc.change\_request.service\_offering\_assignment\_group.field\_name**: Identifies which service offering field populates the **Assignment group** field.
@@ -230,7 +233,7 @@ Assigned to
 
 </td><td>
 
-User that the change is assigned to. If an assignment rule applies, the change is automatically assigned to the appropriate user or group.
+User who the change is assigned to. If an assignment rule applies, the change is automatically assigned to the appropriate user or group.
 
 </td></tr><tr><td>
 
@@ -250,22 +253,6 @@ Detailed description of the change.
 
 </td></tr><tr><td>
 
-Risk and compliance category
-
-</td><td>
-
-Dynamic category that groups the risk and compliance attributes relevant to the change.Categories are hierarchical. A category can have a parent category, so that a specific category nests under a broader one. For example, a category for changes that affect financial or payment systems can nest under a broader compliance category.
-
-The base system includes example categories, such as Risk and Compliance, Financial Risk and Compliance, and SaaS/Cloud Security Compliance. You can deactivate these categories or add your own to match your organization's compliance requirements
-
-**Note:**
-
--   For more information about dynamic categories, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
--   To configure the Risk and compliance category, see .
-
-
-</td></tr><tr><td>
-
 Risk and compliance attributes
 
 </td><td>
@@ -277,7 +264,7 @@ The attributes provided in the base system are examples. You can deactivate them
 **Note:**
 
 -   You can also read and update attribute values from scripts, including risk condition scripts and business rules. Use the dynamic schema scripting API to conditionally respond to attribute values or trigger downstream actions. For information about the scripting API, dynamic attributes, transient attributes, and configuration options, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
--   To configure the Risk and compliance attributes, see .
+-   To configure the Risk and compliance attributes, see [Configure the compliance dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/configure-compliance-dynamic-schema.md).
 
 
 </td></tr></tbody>
@@ -305,13 +292,13 @@ The attributes provided in the base system are examples. You can deactivate them
 
     4.  If the form is configured to show the **CAB delegate** field, select the user who attends the CAB meeting to describe the change.
 
-    5.  In the **CAB recommendation** field, enter notes or recommendations related for the CAB meeting.
+    5.  In the **CAB recommendation** field, enter notes or recommendations related to the CAB meeting.
 
 5.  Select the **Conflicts** tab.
 
 6.  To detect change conflicts, select **Check conflicts**.
 
-7.  Right-click the form header and select **Save.**
+7.  Select and hold \(or right-click\) the form header and select **Save**.
 
 8.  Review entries in the related lists and modify the entries as appropriate.
 
@@ -329,7 +316,7 @@ Affected CIs
 
 </td><td>
 
-List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change.
+List of CIs \(from the CMDB\) affected by the change. You can associate multiple affected CIs with a change. For details, see [Associate multiple CIs with a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md) and [Add affected CIs using a BSM map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_AffectedCIsAndImpactedServices.md).
 
 </td></tr><tr><td>
 
@@ -345,7 +332,7 @@ Service Offerings
 
 </td><td>
 
-List of service offerings affected by the change. You can associate multiple service offerings with a change. This related list is available only when a service offering is selected.If there are service offerings associated to the Impacted Services, then refresh the Impacted services/CIs related list to view the offerings.
+List of service offerings affected by the change. You can associate multiple service offerings with a change. This related list is available only when a service offering is selected.If there are service offerings associated with the Impacted Services, then refresh the Impacted services/CIs related list to view the offerings.
 
  **Note:** If you have customized the default view of your form or related list before the Paris release, you cannot see the field or the related list by default. Modify the form to add them manually.
 
@@ -355,7 +342,7 @@ Approvers
 
 </td><td>
 
-This list is automatically generated from the workflow and any applicable change approval policies. You can also view the **Group** of approvers assigned to the task. To add additional approvers, define or update a change approval policy. For details, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-approval-policy.md) and [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-approval-definitions.md).
+This list is automatically generated from the workflow and any applicable change approval policies. You can also view the **Group** of approvers assigned to the task. To add more approvers, define or update a change approval policy. For details, see [Change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-approval-policy.md) and [Create approval definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-approval-definitions.md).
 
 </td></tr><tr><td>
 
@@ -400,7 +387,7 @@ List of agenda items and details of respective items. For example, the meeting s
 </td></tr></tbody>
 </table>    **Note:**
 
-    To view the complete change request history, navigate to the **Notes**. The log displays all modifications and state transitions, including edited fields and their edit dates.
+    To view the complete change request history, select the **Notes** tab. The log displays all modifications and state transitions, including edited fields and their edit dates.
 
 9.  When the change request is ready to move to the next state, select **Request Approval**.
 
@@ -408,8 +395,8 @@ List of agenda items and details of respective items. For example, the meeting s
 
     -   Assess state: Group level approval for a normal change request. Approval records are automatically generated based on the **Assignment group**. You can conduct peer and technical reviews of the proposed change.
     -   Authorize state: An emergency change request.
-    -   Scheduled state: Pre-approved standard changes.
-    **Note:** To mail the change record, select the more options icon \(\[Omitted image "more-options.png"\] Alt text: More options icon.\) in the content frame and select **Email**. Both the user who requested the change and the user who is assigned to the change are automatically populated in the list of recipients.
+    -   Scheduled state: Preapproved standard changes.
+    **Note:** To email the change record, select the more options icon \[Omitted image "more-options.png"\] Alt text: in the content frame and select **Email**. Both the user who requested the change and the user who is assigned to the change are automatically populated in the list of recipients.
 
     To view the calendar, select **View Calendar** in the title bar of the Change Request form.
 
@@ -425,7 +412,7 @@ You can create a standard change request from the published standard change cata
 -   **[Copy a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/copy-a-change-request.md)**  
 You can copy details of an active or canceled change request to a new change request.
 -   **[Create a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-a-change-task.md)**  
-You can create change tasks for a change request. A change task is a piece of work related to the change request. For example, there can be tasks to plan the change, implement the change, and test, and review the work.
+Create change tasks to track the work for a change request, such as planning, implementing, testing, and reviewing the change.
 -   **[Unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/unauthorized-change-request.md)**  
 Understand how an unauthorized change activity on a configuration item \(CI\) is captured and managed, so that you can review and take timely action on this change.
 

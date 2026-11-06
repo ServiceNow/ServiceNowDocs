@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # RMF steps 4, 5, and 6 - Assess, authorize, and monitor

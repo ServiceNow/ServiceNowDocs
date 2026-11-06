@@ -1,22 +1,22 @@
 ---
 title: GlideQueryCondition - Scoped
-description: The scoped GlideQueryCondition API provides additional AND or OR conditions that can be added to the current condition, allowing you to build complex queries.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
+description: This API provides AND or OR conditions that can be added to the current condition, allowing you to build complex queries.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.Adds an AND condition to the current condition.Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideQueryConditionScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
 # GlideQueryCondition- Scoped
 
-The scoped GlideQueryCondition API provides additional `AND` or `OR` conditions that can be added to the current condition, allowing you to build complex queries.
+This API provides `AND` or `OR` conditions that can be added to the current condition, allowing you to build complex queries.
 
-Build complex queries such as:
+You can use this API to build complex queries such as the following:
 
 ```
 category='hardware' OR category='software' AND priority='2' AND priority='1'
@@ -44,34 +44,6 @@ You can set the **glide.invalid\_query.returns\_no\_rows** system property to tr
 ## GlideQueryCondition - addCondition\(String name, String oper, Object value\)
 
 Adds an AND condition to the current condition.
-
-|Name|Type|Description|
-|----|----|-----------|
-|name|String|Name of a field.|
-|oper|String|Optional. The operator for the query. If you do not specify an operator, the condition uses an equals operator.|
-|value|Object|Value to query on.|
-
-|Type|Description|
-|----|-----------|
-|GlideQueryCondition|Reference to a GlideQueryConditon that was added to the glide record.|
-
-```
-var now_GR = new GlideRecord('incident');
-var qc = now_GR.addQuery('category', 'Hardware');
-qc.addCondition('category', 'Network');
-now_GR.addQuery('number','INC0000003');
-now_GR.next();
-now_GR.number;
-gs.info(now_GR.getEncodedQuery());
-```
-
-## GlideQueryCondition - addOrCondition\(String name, String oper, Object value\)
-
-Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
-
-addOrCondition\(\) works in conjunction with any of the [addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) methods to `OR` the specified query parameters to the query previously constructed using addQuery\(\).
-
-addOrCondition\(\) is typically called with three parameters; table field, operator, and comparison value. It can be called with only two parameters, table field and comparison value, such as `qc.addOrCondition('category', 'software');`. The operator in this case is assumed to be "equal to".
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -107,7 +79,9 @@ String
 
 </td><td>
 
-\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
+\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.If you do not specify an operator, the condition uses an equals operator.
+
+Numbers:
 
 -   =
 -   !=
@@ -116,7 +90,7 @@ String
 -   &lt;
 -   &lt;=
 
- Strings \(must be in upper case\):
+Strings \(must be in upper case\):
 
 -   =
 -   !=
@@ -143,18 +117,123 @@ Value on which to query \(not case-sensitive\).**Note:** All passed in arrays mu
 |----|-----------|
 |GlideQueryCondition|A reference to a GlideQueryConditon that was added to the GlideRecord.|
 
+The following example shows how to add an AND condition to a query.
+
 ```
 var now_GR = new GlideRecord('incident');
 var qc = now_GR.addQuery('category', 'Hardware');
-qc.addOrCondition('category', 'Network');
+qc.addCondition('category', 'Network');
 now_GR.addQuery('number','INC0000003');
 now_GR.next();
 now_GR.number;
 gs.info(now_GR.getEncodedQuery());
-
 ```
 
-To group AND/OR statements to make complex queries, such as "All incidents with a \(state less than 3 OR greater than 5\) AND \(priority is 1 OR priority is 5\)
+Output:
+
+```
+category=Hardware^ORcategory=Network^number=INC0000003
+```
+
+## GlideQueryCondition - addOrCondition\(String name, String oper, Object value\)
+
+Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
+
+This method works in conjunction with [GlideRecord addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to `OR` the specified query parameters to the query previously constructed using addQuery\(\).
+
+The addOrCondition\(\) can be called with only two parameters, table field and comparison value, such as `qc.addOrCondition('category', 'software');`. The operator in this case is assumed to be "equal to".
+
+<table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Field name
+
+</td></tr><tr><td>
+
+oper
+
+</td><td>
+
+String
+
+</td><td>
+
+\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.If you do not specify an operator, the condition uses an equals operator.
+
+Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOESNOTCONTAIN
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).**Note:** All passed in arrays must contain a minimum of two elements. Single element arrays are not supported.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|GlideQueryCondition|A reference to a GlideQueryConditon that was added to the GlideRecord.|
+
+The following example shows how to add an OR condition to a query.
+
+```
+var now_GR = new GlideRecord('incident');
+var qc = now_GR.addQuery('category', 'Hardware');
+qc.addOrCondition('category', 'Network');
+now_GR.addQuery('number','INC0000004');
+now_GR.next();
+now_GR.number;
+gs.info(now_GR.getEncodedQuery());
+```
+
+Output:
+
+```
+category=Hardware^ORcategory=Network^number=INC0000004
+```
+
+To group AND/OR statements to make complex queries, such as getting 10 incidents with a \(state less than 3 OR greater than 5\) AND \(priority is 1 OR priority is 5\).
 
 ```
 var myObj = new GlideRecord('incident');
@@ -162,6 +241,513 @@ var q1 = myObj.addQuery('state', '<', 3);
 q1.addOrCondition('state', '>', 5);
 var q2 = myObj.addQuery('priority', 1);
 q2.addOrCondition('priority', 5);
+myObj.setLimit(10);
 myObj.query();
+
+while (myObj.next()) {
+  gs.info('Incident: ' + myObj.getValue('number') + ' State: ' + myObj.getValue('state') + ' Priority: ' + myObj.getValue('priority'));
+}
+```
+
+Output:
+
+```
+Incident: INC0000001 State: 7 Priority: 1
+Incident: INC0000004 State: 7 Priority: 1
+Incident: INC0000012 State: 7 Priority: 5
+Incident: INC0000013 State: 7 Priority: 1
+Incident: INC0000024 State: 7 Priority: 5
+Incident: INC0000028 State: 7 Priority: 5
+Incident: INC0000031 State: 2 Priority: 1
+Incident: INC0000057 State: 7 Priority: 5
+Incident: INC0000057 State: 2 Priority: 5
+Incident: INC0000058 State: 7 Priority: 5
+```
+
+## GlideQueryCondition - addSystemCondition\(String name, String oper, Object value\)
+
+Adds an AND condition to the current condition.
+
+Explicitly bypasses query ACL checks. Use this method when system-level access is intended, ensuring the script's intent is clear.
+
+See also:
+
+-   [addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideRecord - addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+
+<table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Field name
+
+</td></tr><tr><td>
+
+oper
+
+</td><td>
+
+String
+
+</td><td>
+
+\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.If you do not specify an operator, the condition uses an equals operator.
+
+Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOESNOTCONTAIN
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).**Note:** All passed in arrays must contain a minimum of two elements. Single element arrays are not supported.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|GlideQueryCondition|A reference to a GlideQueryConditon that was added to the GlideRecord.|
+
+To group AND statements to make complex queries, such as getting 20 incidents with a \(state less than 3 AND not 2\) and \(priority is greater than 1 AND priority is not 5\).
+
+```
+var myObj = new GlideRecord('incident');
+var q1 = myObj.addSystemQuery('state', '<', 3);
+q1.addSystemCondition('state', '!=', 2);
+var q2 = myObj.addSystemQuery('priority', '>', 1);
+q2.addSystemCondition('priority', '!=', 5);
+myObj.setLimit(20);
+myObj.query();
+
+while (myObj.next()) {
+  gs.info('Incident: ' + myObj.getValue('number') + ' State: ' + myObj.getValue('state') + ' Priority: ' + myObj.getValue('priority'));
+}
+```
+
+Output:
+
+```
+Incident: INC0011238 State: 1 Priority: 4
+Incident: INC0010127 State: 1 Priority: 2
+Incident: INC0010143 State: 1 Priority: 2
+Incident: INC0011760 State: 1 Priority: 2
+Incident: INC0010708 State: 1 Priority: 3
+Incident: INC0013048 State: 1 Priority: 4
+Incident: INC0010658 State: 1 Priority: 2
+Incident: INC0012021 State: 1 Priority: 3
+Incident: INC0013308 State: 1 Priority: 4
+Incident: INC0010155 State: 1 Priority: 3
+Incident: INC0013312 State: 1 Priority: 4
+Incident: INC0013049 State: 1 Priority: 3
+Incident: INC0010068 State: 1 Priority: 4
+Incident: INC0010135 State: 1 Priority: 2
+Incident: INC0010132 State: 1 Priority: 4
+Incident: INC0010700 State: 1 Priority: 3
+Incident: INC0013311 State: 1 Priority: 2
+Incident: INC0011758 State: 1 Priority: 4
+Incident: INC0012278 State: 1 Priority: 3
+Incident: INC0013306 State: 1 Priority: 4
+```
+
+## GlideQueryCondition - addSystemOrCondition\(String name, String oper, Object value\)
+
+Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
+
+Explicitly bypasses query ACL checks. Use this method when system-level access is intended, ensuring the script's intent is clear. See also [GlideQueryCondition - addUserOrCondition\(String name, String oper, Object value\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
+
+addSystemOrCondition\(\) works in conjunction with the [GlideRecord addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addSystemQuery\(\).
+
+<table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Field name
+
+</td></tr><tr><td>
+
+oper
+
+</td><td>
+
+String
+
+</td><td>
+
+\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.If you do not specify an operator, the condition uses an equals operator.
+
+Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOESNOTCONTAIN
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).**Note:** All passed in arrays must contain a minimum of two elements. Single element arrays are not supported.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|GlideQueryCondition|A reference to a GlideQueryConditon that was added to the GlideRecord.|
+
+To group AND/OR statements to make complex queries, such as getting 20 incidents with a \(state less than 3 OR greater than 5\) AND \(priority is 1 OR priority is 5\).
+
+```
+var myObj = new GlideRecord('incident');
+var q1 = myObj.addSystemQuery('state', '<', 3);
+q1.addSystemOrCondition('state', '>', 5);
+var q2 = myObj.addSystemQuery('priority', 1);
+q2.addSystemOrCondition('priority', 5);
+myObj.setLimit(20);
+myObj.query();
+
+while (myObj.next()) {
+  gs.info('Incident: ' + myObj.getValue('number') + ' State: ' + myObj.getValue('state') + ' Priority: ' + myObj.getValue('priority'));
+}
+```
+
+Output:
+
+```
+Incident: INC0000001 State: 7 Priority: 1
+Incident: INC0000004 State: 7 Priority: 1
+Incident: INC0000012 State: 7 Priority: 5
+Incident: INC0000013 State: 7 Priority: 1
+Incident: INC0000024 State: 7 Priority: 5
+Incident: INC0000028 State: 7 Priority: 5
+Incident: INC0000031 State: 2 Priority: 1
+Incident: INC0000057 State: 7 Priority: 5
+Incident: INC0000057 State: 2 Priority: 5
+Incident: INC0000058 State: 7 Priority: 5
+Incident: INC0000058 State: 2 Priority: 5
+Incident: INC0000059 State: 7 Priority: 5
+Incident: INC0000060 State: 7 Priority: 5
+Incident: INC0000061 State: 7 Priority: 5
+Incident: INC0000062 State: 7 Priority: 5
+Incident: INC0000064 State: 7 Priority: 5
+Incident: INC0000065 State: 7 Priority: 5
+Incident: INC0000066 State: 7 Priority: 5
+Incident: INC0000069 State: 7 Priority: 5
+Incident: INC0000072 State: 7 Priority: 5
+```
+
+## GlideQueryCondition - addUserCondition\(String name, String oper, Object value\)
+
+Adds an AND condition to the current condition.
+
+To explicitly bypasses query ACL checks, use [addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
+
+See also [GlideRecord - addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
+<table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Field name
+
+</td></tr><tr><td>
+
+oper
+
+</td><td>
+
+String
+
+</td><td>
+
+\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.If you do not specify an operator, the condition uses an equals operator.
+
+Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOESNOTCONTAIN
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).**Note:** All passed in arrays must contain a minimum of two elements. Single element arrays are not supported.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|GlideQueryCondition|A reference to a GlideQueryConditon that was added to the GlideRecord.|
+
+To group AND statements to make complex queries, such as getting 20 incidents with a \(state less than 3 AND not 2\) and \(priority is greater than 1 AND priority is not 5\).
+
+```
+var myObj = new GlideRecord('incident');
+var q1 = myObj.addUserQuery('state', '<', 3);
+q1.addUserCondition('state', '!=', 2);
+var q2 = myObj.addUserQuery('priority', '>', 1);
+q2.addUserCondition('priority', '!=', 5);
+myObj.setLimit(20);
+myObj.query();
+
+while (myObj.next()) {
+  gs.info('Incident: ' + myObj.getValue('number') + ' State: ' + myObj.getValue('state') + ' Priority: ' + myObj.getValue('priority'));
+}
+```
+
+Output:
+
+```
+Incident: INC0011238 State: 1 Priority: 4
+Incident: INC0010127 State: 1 Priority: 2
+Incident: INC0010143 State: 1 Priority: 2
+Incident: INC0011760 State: 1 Priority: 2
+Incident: INC0010708 State: 1 Priority: 3
+Incident: INC0013048 State: 1 Priority: 4
+Incident: INC0010658 State: 1 Priority: 2
+Incident: INC0012021 State: 1 Priority: 3
+Incident: INC0013308 State: 1 Priority: 4
+Incident: INC0010155 State: 1 Priority: 3
+Incident: INC0013312 State: 1 Priority: 4
+Incident: INC0013049 State: 1 Priority: 3
+Incident: INC0010068 State: 1 Priority: 4
+Incident: INC0010135 State: 1 Priority: 2
+Incident: INC0010132 State: 1 Priority: 4
+Incident: INC0010700 State: 1 Priority: 3
+Incident: INC0013311 State: 1 Priority: 2
+Incident: INC0011758 State: 1 Priority: 4
+Incident: INC0012278 State: 1 Priority: 3
+Incident: INC0013306 State: 1 Priority: 4
+```
+
+## GlideQueryCondition - addUserOrCondition\(String name, String oper, Object value\)
+
+Appends a two-or-three parameter OR condition to an existing GlideQueryCondition.
+
+addUserOrCondition\(\) works in conjunction with the [GlideRecord addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) method to `OR` the specified query parameters to the query previously constructed using addUserQuery\(\).
+
+To explicitly bypass query ACL checks, use [addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
+
+<table id="table_vy2_625_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Field name
+
+</td></tr><tr><td>
+
+oper
+
+</td><td>
+
+String
+
+</td><td>
+
+\(Optional\) Query operator. The available values are dependent on the data type of the *value* parameter.If you do not specify an operator, the condition uses an equals operator.
+
+Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOESNOTCONTAIN
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).**Note:** All passed in arrays must contain a minimum of two elements. Single element arrays are not supported.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|GlideQueryCondition|A reference to a GlideQueryConditon that was added to the GlideRecord.|
+
+To group AND/OR statements to make complex queries, such as getting 20 incidents with a \(state less than 3 OR greater than 5\) AND \(priority is 1 OR priority is 5\).
+
+```
+var myObj = new GlideRecord('incident');
+var q1 = myObj.addUserQuery('state', '<', 3);
+q1.addUserOrCondition('state', '>', 5);
+var q2 = myObj.addUserQuery('priority', 1);
+q2.addUserOrCondition('priority', 5);
+myObj.setLimit(20);
+myObj.query();
+
+while (myObj.next()) {
+  gs.info('Incident: ' + myObj.getValue('number') + ' State: ' + myObj.getValue('state') + ' Priority: ' + myObj.getValue('priority'));
+}
+```
+
+Output:
+
+```
+Incident: INC0000001 State: 7 Priority: 1
+Incident: INC0000004 State: 7 Priority: 1
+Incident: INC0000012 State: 7 Priority: 5
+Incident: INC0000013 State: 7 Priority: 1
+Incident: INC0000024 State: 7 Priority: 5
+Incident: INC0000028 State: 7 Priority: 5
+Incident: INC0000031 State: 2 Priority: 1
+Incident: INC0000057 State: 7 Priority: 5
+Incident: INC0000057 State: 2 Priority: 5
+Incident: INC0000058 State: 7 Priority: 5
+Incident: INC0000058 State: 2 Priority: 5
+Incident: INC0000059 State: 7 Priority: 5
+Incident: INC0000060 State: 7 Priority: 5
+Incident: INC0000061 State: 7 Priority: 5
+Incident: INC0000062 State: 7 Priority: 5
+Incident: INC0000064 State: 7 Priority: 5
+Incident: INC0000065 State: 7 Priority: 5
+Incident: INC0000066 State: 7 Priority: 5
+Incident: INC0000069 State: 7 Priority: 5
+Incident: INC0000072 State: 7 Priority: 5
 ```
 

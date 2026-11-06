@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: reference
-last_updated: "2025-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Reference, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Field types supported
@@ -50,6 +50,8 @@ The following field types are currently supported with ServiceNow AI Lens:
 -   string
 -   string\_full\_utf8
 -   url
+-   reference
+-   glide\_list
 
 For more information about these fields, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
 

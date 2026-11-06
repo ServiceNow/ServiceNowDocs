@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/manage\_scheduling\_csm\_agent\_workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workforce Optimization for CSM Agent Workspace, Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Workforce Optimization for CSM Agent Workspace, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
 # Manage your schedule from CSM Agent Workspace
@@ -16,7 +16,7 @@ Look up your schedule, request time off, or swap your shift with your peers usin
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configurable-wfo-cs.md).
 
 Role required: sn\_shift\_planning.agent
 
@@ -35,7 +35,18 @@ You can swap shifts with agents that are within your assignment group.
     To view your schedule or another agent's schedule, you can:
 
     -   View your schedule by clicking the **My Calendar** tab. Then, use the list menu to select the schedule that you want to view by day, week, or month.
-    -   View another agent's schedule by clicking the **Team Calendar** tab. Then, click an agent's schedule to see that agent's work and break times.
+    -   View another agent's schedule by clicking the **Team Calendar** tab. Then, click an agent's schedule to see that agent's work and break times by day, week,or month.
+
+        Select one of the following in the drop-down:
+
+        |Calendar view|Description|
+        |-------------|-----------|
+        |Day|The hourly calendar of the current day displays. In the calendar drop-down, select a date to view the respective day’s schedule.|
+        |Week|The current week’s calendar displays. In the calendar drop-down, select a date to view the weekly schedule containing the selected date.|
+        |Month|The current month's calendar displays which includes current week and upcoming three weeks \(28 days\) in a single view. In the calendar drop-down, select a date to view that respective month's calendar.|
+
+        Select the **Today** button to view the current day.
+
 3.  Make a request.
 
     You can communicate with other agents by using Connect Chat or the activity stream on the record to make sure that they would like to swap the requested shift with you.

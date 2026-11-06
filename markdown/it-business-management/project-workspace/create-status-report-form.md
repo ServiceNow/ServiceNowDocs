@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Project Workspace, Reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Workspace, Project Workspace reference, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create status report form

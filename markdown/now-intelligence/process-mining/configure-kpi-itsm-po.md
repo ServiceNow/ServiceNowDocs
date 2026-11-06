@@ -1,26 +1,26 @@
 ---
 title: Configure KPIs for ITSM work items in the Process Mining dashboard
-description: Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and Insights page. Remove the indicators that you no longer want to use.
+description: Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and insights page. Remove the indicators that you no longer want to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/configure-kpi-itsm-po.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Content pack for ITSM, Activate Process Mining content packs, Activating Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [ITSM, Automatic content pack delivery, Activate content packs, Activate, Process Mining, Platform Analytics]
 ---
 
 # Configure KPIs for ITSM work items in the Process Mining dashboard
 
-Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and Insights page. Remove the indicators that you no longer want to use.
+Add the desired Key Performance Indicators \(KPIs\) to monitor the performance of the ITSM work items in the Process Mining Summary and insights page. Remove the indicators that you no longer want to use.
 
 ## Before you begin
 
-**Important:** This feature is available with the ServiceNow Store Process Mining ITSM content pack v1.2. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Important:** This feature is included with the Process Mining ITSM content pack, which is delivered automatically when ITSM is installed on your instance. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-mining-content-pack-delivery.md).
 
-Role required: administrator
+Role required: Administrator
 
 ## Procedure
 
@@ -34,9 +34,9 @@ Role required: administrator
     |**Change Management**|Performance Analytics - Content Pack - Change Management \(com.snc.pa.change\)|
     |**Request Management**|Performance Analytics - Content Pack - Request Management \(com.snc.pa.request\)|
 
-2.  [Add the desired indicator data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_IndicatorSources.md) to the Summary and Insights page.
+2.  [Add the desired indicator data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_IndicatorSources.md) to the Summary and insights page.
 
-    The KPIs listed in the table below are available by default.
+    The KPIs listed in the following table are available by default.
 
 <table id="table_url_glm_2qb"><thead><tr><th>
 

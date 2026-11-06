@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Analytics Hub for a specific indicator, Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Analytics Hub for a specific indicator, \(Legacy\) Analytics Hub, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # View scores and statistics
@@ -140,7 +140,7 @@ You can clear either the first- or second-level breakdown and element combinatio
 
 If you click a value on a chart in a widget on a dashboard, you open the Analytics Hub on that indicator. If you are on a breakdown dashboard and have multiple elements selected, and the widget shows the aggregate of those elements, the Analytics Hub also shows the aggregate of those elements.
 
-For more information about the aggregate view of multiple elements selected on a dashboard, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
+For more information about the aggregate view of multiple elements selected on a dashboard, see [Showing multiple elements separately or aggregated in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
 \[Omitted image "ah-from-multi-element-aggregate.png"\] Alt text: Clicking on a score that is the aggregate of all the selected elements in a widget on a breakdown dashboard
 

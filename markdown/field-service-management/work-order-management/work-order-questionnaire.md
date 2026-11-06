@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring work order questionnaires, Configuring work order tasks, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring survey-based work order questionnaires
@@ -27,8 +27,6 @@ When a work order or task has an associated questionnaire, the **Questionnaires*
 The Inspection Questionnaire is a demo questionnaire record that is included with the Field Service - Questionnaire plugin. Whenever a work order task changes to the Work in Progress state, this questionnaire record adds a questionnaire to that task.
 
 The following is a screen shot of the demo questionnaire form. In the Trigger condition section, there’s a condition that the state must have changed to Work in Progress.
-
-\[Omitted image "questionnaire\_form\_new.png"\] Alt text: Inspection Questionnaire demo record including the various fields and conditions which trigger the questionnaire.
 
 When defining trigger conditions, the operator **changes to** means that the state was changed to Work in progress. If you instead use the operation **is**, then the questionnaire is triggered every time that an update is made to the task.
 

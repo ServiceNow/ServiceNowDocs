@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Manage, Virtual Agent, integration, Microsoft Teams, MSTeams]
-breadcrumb: [Integrating ServiceNow Virtual Agent with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Manage the ServiceNow Virtual Agent integration with Microsoft Teams
@@ -38,7 +38,7 @@ Manage your ServiceNow® Virtual Agent bot branding and customize the bot messag
 
 4.  To integrate your ServiceNow instance with another Microsoft Teams bot, select the Add integration for ServiceNow Virtual Agent icon against the ServiceNow Virtual Agent bot or select the **Add integration** drop-down on the top-right of the Manage Microsoft Teams channel page and select **Integrate with ServiceNow Virtual Agent**.\[Omitted image "add-integration-icon.png"\] Alt text: Manage Microsoft Teams channel view in Conversational Interfaces general settings. The Add integration for ServiceNow Virtual Agent icon and the Integrate with Servicenow Virtual Agent dropdown are highlighted.
 
-5.  Select the Manage Bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: and select **Manage Virtual Agent**.
+5.  Select the Manage Bot icon \[Omitted image "manage-bot-icon.png"\] Alt text: Manage bot icon. and select **Manage Virtual Agent**.
 
     You’re redirected to the Bot Configuration page for the selected bot.
 
@@ -51,5 +51,5 @@ Manage your ServiceNow® Virtual Agent bot branding and customize the bot messag
     For more information, see [Create bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-bot-messages.md).
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

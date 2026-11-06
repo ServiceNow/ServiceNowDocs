@@ -1,20 +1,20 @@
 ---
 title: Procurement workflows
-description: Procurement uses the following workflows.
+description: Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/procurement/c\_ProcurementWorkflows.html
 release: yokohama
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Procurement, IT Asset Management]
+breadcrumb: [Procurement, Common applications, Asset Management]
 ---
 
 # Procurement workflows
 
-Procurement uses the following workflows.
+Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
 
 -   In the Service Catalog Request workflow, items ordered from the service catalog that cost over one thousand dollars require approval.
 
@@ -22,10 +22,12 @@ Procurement uses the following workflows.
 
 -   In the Source Request workflow, catalog tasks are created so that a procurement manager can source the item by creating a transfer order or purchase order.
 
-    \[Omitted image "SourceRequestWorkflow.png"\] Alt text: Source request workflow
+    \[Omitted image "SourceRequestWorkflow.png"\] Alt text: Source request flow actions
 
+-   In the Procurement Process Flow-Hardware, a Service Catalog request task for a hardware asset is created so that a procurement manager can source the item by creating a transfer order or purchase order.
 
-These workflows are provided in the base system. You can edit these workflows in the graphical Workflow Editor or create a workflow to better fit your organization's procurement needs.
+    \[Omitted image "procurement-process-flow-hardware.png"\] Alt text: Procurement process flow-hardware actions
+
 
 **Parent Topic:**[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/c_Procurement.md)
 
@@ -47,4 +49,8 @@ These workflows are provided in the base system. You can edit these workflows in
 [Domain separation and Procurement]()
 
 [Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/c_WorkflowOverview.md)
+
+[Sourcing items in a service catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/c_SourcingRequestItems.md)
+
+[Procurement purchase order management for assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/c_UseProcurement.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Scoring planning items in Strategic Planning Workspace
@@ -25,5 +25,5 @@ Assign ranks to the items based on the planning item attributes and scoring fram
 -   **[Export planning items data from Scoring to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/export-planning-items-data-from-scoring.md)**  
 Export the data of portfolio plan items from your portfolio plan into a Microsoft Excel or CSV file. You can share this data and collaborate with your business stakeholders.
 
-**Parent Topic:**[Portfolio Planning in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
+**Parent Topic:**[Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-in-spw.md)
 

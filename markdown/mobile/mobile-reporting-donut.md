@@ -1,18 +1,18 @@
 ---
 title: Donut reports for mobile
-description: Learn to use donut reports, which enable you to see the portions and percentages between different priorities at a single glance. For example, a donut report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
+description: Learn to use donut reports for mobile, which enable you to see the portions and percentages between different priorities at a single glance. For example, a donut report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-reporting-donut.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data visualizations for the mobile dashboard, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
+breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
 ---
 
 # Donut reports for mobile
 
-Learn to use donut reports, which enable you to see the portions and percentages between different priorities at a single glance. For example, a donut report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
+Learn to use donut reports for mobile, which enable you to see the portions and percentages between different priorities at a single glance. For example, a donut report showing open incidents by priority, enables you to see whether incident counts of different priorities are within acceptable ranges.
 
 **Note:** For information on how to configure donut reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-dashboard-preview.md).
 

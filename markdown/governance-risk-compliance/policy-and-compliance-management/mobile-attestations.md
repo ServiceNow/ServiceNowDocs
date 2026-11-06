@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Reassign overdue Policy and Compliance Management attestations with the GRC Mobile application
@@ -58,15 +58,15 @@ Reassign a record from the list. Alternatively, view the details of the record p
 
     \[Omitted image "mobile-attest-record.jpg"\] Alt text: Attestation record.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d239804e227">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d366051e224">
 
 Option
 
-</th><th align="left" id="d239804e230">
+</th><th align="left" id="d366051e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d239804e236">
+</th></tr></thead><tbody><tr><td id="d366051e233">
 
 **Tap the top menu icon**
 
@@ -74,7 +74,7 @@ Description
 
 Tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the attestation.
 
-</td></tr><tr><td id="d239804e251">
+</td></tr><tr><td id="d366051e248">
 
 **Screen icons at the bottom of the screen.**
 

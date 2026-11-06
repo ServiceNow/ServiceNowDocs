@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [NetApp Server and Cluster, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [NetApp Server and Cluster, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Disable SNMP-based NetApp storage cluster discovery

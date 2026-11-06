@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/doc-processor-associate-document-list-items-to-category.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Financial Services Document Processor, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Create document list item definitions for a document list definition
@@ -30,7 +30,7 @@ You can associate one or more document list item definitions with a document lis
 
 4.  On the form, fill in the fields.
 
-<table><thead><tr><th>
+<table id="doc-list-item-definition-fields"><thead><tr><th>
 
 Field
 
@@ -68,7 +68,7 @@ Can request exception
 
 </td><td>
 
-Option to enable request for exemption from submittal of this document list item.
+Option to enable request for exemption from submission of this document list item.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,15 @@ Can request deferment
 
 </td><td>
 
-Option to enable to request for deferral of this document list item for submittal at a future date.
+Option to enable to request for deferral of this document list item for submission at a future date.
+
+</td></tr><tr><td>
+
+Has fillable document
+
+</td><td>
+
+Option to include a Document template with the task.
 
 </td></tr><tr><td>
 
@@ -105,4 +113,6 @@ Option to require text or data to be automatically extracted from the document l
 </td></tr></tbody>
 </table>5.  Select **Submit**.
 
+
+**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-fso-document-processor.md)
 

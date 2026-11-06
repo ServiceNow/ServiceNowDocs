@@ -1,18 +1,18 @@
 ---
-title: Modify a service contract line
-description: Modify a service contract line so that you can update its existing configurations.
+title: Modify a customer contract line
+description: Modify a customer contract line so that you can update its existing configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-modify-service-contract-line.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contracts and Entitlements, Customer management, Using Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
-# Modify a service contract line
+# Modify a customer contract line
 
-Modify a service contract line so that you can update its existing configurations.
+Modify a customer contract line so that you can update its existing configurations.
 
 ## Before you begin
 
@@ -23,28 +23,33 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  In the Contracts and Entitlements list, select **Service Contracts**.
+2.  In the Contracts and Entitlements list, select **Customer Contracts**.
 
-3.  In the Contracts and Entitlements - Service Contracts list, select the service contract.
+3.  In the Contracts and Entitlements - Customer Contracts list, select the customer contract.
 
-4.  In the service contract lines related list, select the service contract line that you want to modify the characteristics and line items for.
+4.  In the customer contract lines related list, select one or more customer contract lines that you want to modify.
 
-5.  Select **Modify**.
+5.  From the **Modify** list, select one of the options to perform one of these actions:
 
-6.  On the Configurator UI, modify the existing configurations for the service contract line.
+    -   If you select **Modify entire line**, the Configurator UI is displayed. Modify the existing configurations for the customer contract line.
 
-    To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-exploring.md).
+        **Note:** The Configurator UI is displayed only if you select a single customer contract line. If you selected multiple customer contract lines, the order or quote created is displayed.
 
-7.  Select **Update**.
+    -   If you select **Modify quantity**, you can reduce or increase the quantities of the products specified in the selected contract lines. For more info, see [Upsell or Downsell a customer contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cce-upsell-downsell-service-contract.md).
 
-    An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-cont-ent-workflows-csm.md).
+        **Note:** You cannot modify quantity on a ramped contract line.
 
-    -   If the selected target entity is a quote, a quote to modify the service contract line is created. You can click the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
-    -   If the selected target entity is an order, an order to modify the service contract line is created. You can click the order number from the confirmation message to view the modified order line items.
-8.  In the Order Line Items related list, double-click the State value of the parent order line and set it to **Completed**.
+    -   If you select **Modify end date**, you can select an earlier end date or a later end date than the current end date to perform an early termination or extension of a contract line. For a ramped contract line, you can only select a date before the contract expiry date in the **End date** field to perform an early termination. The contract line splits into two contract lines. One contract line has the new end date that you selected and the second contract line has the original end date with State as **Canceled** and Quantity as **Zero**. The remaining segments are canceled and their quantities are zero.
+6.  Select **Update**.
 
-    The modifications are visible on the service contract line.
+    An order or a quote is created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-cont-ent-workflows-csm.md).
+
+    -   If the selected target entity is a quote, a quote to modify the customer contract line is created. You can select the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
+    -   If the selected target entity is an order, an order to modify the customer contract line is created. You can select the order number from the confirmation message to view the modified order line items.
+7.  In the Order Line Items related list, double-click the State value of the parent order line and set it to **Completed**.
+
+    The modifications are visible on the customer contract line.
 
 

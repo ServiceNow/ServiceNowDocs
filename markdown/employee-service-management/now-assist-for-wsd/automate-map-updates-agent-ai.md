@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using AI agent workflows in Now Assist for WSD, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Automate map updates agentic workflow
@@ -47,13 +47,13 @@ The following agents are used in the Automate map updates workflow:
 
 ## Select display
 
-In the Select a UI display section, select **Display** to display the Now Assist panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the Select a UI display section, select **Display** to display the ServiceNow Otto panel. Workplace users with the now\_assist\_panel\_role receive notifications for the triggered use case output. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
 **Note:** To view the output from a triggered use case, you should have the now\_assist\_panel\_role.
 
-Select this option to receive and review notifications sent by AI agents in the Now Assist panel. AI agents send notifications to Map Admins in the Now Assist panel about updates to the import tasks.
+Select this option to receive and review notifications sent by AI agents in the ServiceNow Otto panel. AI agents send notifications to Map Admins in the ServiceNow Otto panel about updates to the import tasks.
 
-**Parent Topic:**[Using AI agent workflows in Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
+**Parent Topic:**[Using AI agent workflows in ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.md)
 
 **Related topics**  
 
@@ -63,6 +63,12 @@ Select this option to receive and review notifications sent by AI agents in the 
 [Help manage workplace reservations agentic workflow]()
 
 [Optimize cleaning activities agent overview]()
+
+[Workplace Concierge agentic workflow]()
+
+[Process image to record agent for workplace case creation]()
+
+[Implement Autonomous L1 Agent for Workplace]()
 
 [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-ai-agents.md)
 

@@ -1,14 +1,14 @@
 ---
 title: GlideElement - Global
-description: The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Determines whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Debugs the object and adds debug messages using setError\(String\).Returns the value of the specified attribute from the dictionary.Gets the base table of the field.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Generates a choice list for a field. Returns the choice values from the base table only, not from the extended table.Gets the choice label for the current choice value.Gets the number of debug messages logged by debug\(\).Returns the field \(element\) that a specified field is dependent on.Returns the name of the table that a field is dependent on.Returns the formatted display value of the field.Returns the formatted display value of a field, or a specified substitute value if the display value is null or empty.Gets the display value of the field in the language passed as a parameter.Returns an element descriptor, which provides information about specific fields, rather than the data inside of those fields.Returns the value for the specified element.Returns any error message associated with the specified element.Gets the escaped value for the current element.Gets the CSS style for the field.Retrieves the platform object associated with the field's value.Gets a glide record.Returns the HTML value of a field.Returns the HTML value of a field, or a specified substitute value if the HTML value is null or empty.Returns either the most recent journal entry or all journal entries.Returns the object's label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Returns a GlideRecord object for a given reference element.Get the CSS style for the value.Returns the name of the table that contains the field.Retrieves the display value for the associated field and escapes the HTML.Returns the value of the field in the database.Retrieves the XHTML value of a field.Gets the XML value of a field as a string.Determines if a field has a specified attribute.Determines if the user has the right to perform a particular operation.Determines if the field has a value.Determines whether the field is null.Sets the duration field to a number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Sets the display value of the field.Adds an error message to the associated field.Sets the initial value of a field.Adds a journal entry and author as a work note or comment field.Sets the value of a field.Converts the field's value to a string.
+description: The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.Determines if the user's role permits the creation of new entries in the associated field.Determines whether the user's role permits them to read the associated GlideRecord.Determines whether the user's role permits them to write to the associated GlideRecord.Determines if the current field has been modified. This functionality is available for all available data types, except Journal fields.Determines if the previous value of the current field matches the specified object.Determines if the new value of a field, after a change, matches the specified object.Returns the number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Debugs the object and adds debug messages using setError\(String\).Returns the value of the specified attribute from the dictionary.Gets the base table of the field.Returns a specified Boolean-type attribute from the dictionary as a Boolean value.Generates a choice list for a field. Returns the choice values from the base table only, not from the extended table.Gets the choice label for the current choice value.Gets the number of debug messages logged by debug\(\).Returns the field \(element\) that a specified field is dependent on.Returns the name of the table that a field is dependent on.Returns the formatted display value of the field.Returns the formatted display value of a field, or a specified substitute value if the display value is null or empty.Gets the display value of the field in the language passed as a parameter.Returns a dynamic attribute definition for this GlideElement.Returns a dynamic namespace object that is configured for the GlideElement.Gets the name of the dynamic namespace configured for the GlideElement.Returns an element descriptor, which provides information about specific fields, rather than the data inside of those fields.Returns the value for the specified element.Returns any error message associated with the specified element.Gets the escaped value for the current element.Gets the CSS style for the field.Retrieves the platform object associated with the field's value.Gets a glide record.Returns the HTML value of a field.Returns the HTML value of a field, or a specified substitute value if the HTML value is null or empty.Returns either the most recent journal entry or all journal entries.Returns the object's label.Gets the label value of the field in the language passed as a parameter.Returns the name of the field.Returns a GlideRecord object for a given reference element.Get the CSS style for the value.Returns the name of the table that contains the field.Retrieves the display value for the associated field and escapes the HTML.Returns the value of the field in the database.Retrieves the XHTML value of a field.Gets the XML value of a field as a string.Determines if a field has a specified attribute.Determines if the user has the right to perform a particular operation.Determines if the field has a value.Determines whether the field is null.Sets the duration field to a number of milliseconds since January 1, 1970, 00:00:00 GMT for a duration field. Does not require the creation of a GlideDateTime object because the duration field is already a GlideDateTime object.Sets the display value of the field.Adds an error message to the associated field.Sets the initial value of a field.Adds a journal entry and author as a work note or comment field.Sets the value of a field.Converts the field's value to a string.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideElementAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 36
+last_updated: "2026-09-10"
+reading_time_minutes: 38
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -738,6 +738,121 @@ getDisplayValueLang: Akzeptieren
 ### Scoped equivalent
 
 To use the getDisplayValueLang\(\) method in a scoped application, use the corresponding scoped method: [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementScopedAPI.md).
+
+## GlideElement - getDynamicAttribute\(\)
+
+Returns a dynamic attribute definition for this GlideElement.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|IDynamicAttribute|Object describing the attribute that the GlideElement represents.|
+
+The following example shows how to get values of the make attribute from the u\_inc\_dynamic\_schema dynamic attribute store column on the incident table.
+
+```
+var gr_Inc = new GlideRecord('incident');
+gr_Inc.query();
+if(gr_Inc.next()) {
+    var attr = gr_Inc.getDynamicAttribute('inc_dynamic_schema->make');
+    gs.info(attr.getValue());
+}
+```
+
+## GlideElement - getDynamicNamespace\(\)
+
+Returns a dynamic namespace object that is configured for the GlideElement.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|IDynamicNamespace|Object describing the dynamic namespace.|
+
+The following example shows how to retrieve the namespace object configured for the inc\_dynamic\_schema dynamic attribute store column on the incident table.
+
+```
+var gr_Inc = new GlideRecord('incident');
+gr_Inc.query();
+if (gr_Inc.next()) {
+    var ge_Make = gr_Inc.getElement('inc_dynamic_schema->make');
+    var namespace = ge_Make.getDynamicNamespace();
+ 
+    gs.info("toString:    " + namespace);
+    gs.info("name:        " + namespace.getName());
+    gs.info("isActive:    " + namespace.isActive());
+    gs.info("isTransient: " + namespace.isTransient());
+}
+```
+
+Output:
+
+```
+toString:    incident/inc_dynamic_schema
+name:        incident/inc_dynamic_schema
+isActive:    true
+isTransient: false
+```
+
+## GlideElement - getDynamicNamespaceName\(\)
+
+Gets the name of the dynamic namespace configured for the GlideElement.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|String|Name of the dynamic namespace.|
+
+The following example shows how to return the dynamic attribute namespace name.
+
+```
+// Gets the name of the namespace from the inc_dynamic_schema dynamic_attribute_store column on the incident table
+ 
+var gr_Inc = new GlideRecord('incident');
+gr_Inc.query();
+if (gr_Inc.next()) {
+    var ge_Make = gr_Inc.getElement('inc_dynamic_schema->make');
+    gs.info(ge_Make.getDynamicNamespaceName());
+}
+```
+
+Output:
+
+```
+number,short_description,active
+```
 
 ## GlideElement - getED\(\)
 

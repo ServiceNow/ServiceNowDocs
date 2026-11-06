@@ -1,20 +1,21 @@
 ---
 title: AI Risk and Compliance workspace
-description: The AI Risk and Compliance workspace enables the AI risk and compliance manager to view the complete risk posture of the AI assets for an enterprise.
+description: The AI Risk and Compliance workspace is the central hub for AI risk and compliance managers to monitor risk posture, track assessments, manage controls and issues, and oversee AI cases across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [AI Risk and Compliance workspace, workspace dashboard, AI risk overview]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # AI Risk and Compliance workspace
 
-The AI Risk and Compliance workspace enables the AI risk and compliance manager to view the complete risk posture of the AI assets for an enterprise.
+The AI Risk and Compliance workspace is the central hub for AI risk and compliance managers to monitor risk posture, track assessments, manage controls and issues, and oversee AI cases across the enterprise.
 
 An AI risk and compliance manager must have a full view of the risks associated with AI assets like AI systems, models, and datasets for several important reasons that are listed as follows:
 
@@ -32,5 +33,18 @@ The home page of the AI risk and compliance workspace meets these requirements a
 
 You can access the AI risk and compliance workspace by navigating to **All** &gt; **AI Risk and Compliance Workspace**.
 
-Select the hyperlinks to learn more about the data each of these tabs display.
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role you can mark assets as Managed or Unmanaged. For more information, see .
+
+**Related topics**  
+
+
+[Risk &amp; compliance tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/risk-and-compliance-tab-airc.md)
+
+[Operations tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/operations-tab.md)
+
+[AI cases tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-cases-tab-airc.md)
+
+[Configure AI Risk and Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-workspace.md)
+
+[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
 

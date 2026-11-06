@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-dashboards-content-pack-sd.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -22,8 +22,6 @@ Platform Analytics data visualizations use Performance Analytics [indicator](htt
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

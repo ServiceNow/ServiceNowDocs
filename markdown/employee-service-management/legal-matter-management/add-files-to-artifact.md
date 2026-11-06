@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an artifact for a legal matter, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Create an artifact for a legal matter, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Attach files to a legal matter artifact
@@ -28,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d681196e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d736096e105">
 
 Option
 
-</th><th align="left" id="d681196e108">
+</th><th align="left" id="d736096e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d681196e114">
+</th></tr></thead><tbody><tr><td id="d736096e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d681196e143">
+</td></tr><tr><td id="d736096e143">
 
 **As a collaborator**
 
@@ -67,15 +67,15 @@ The state of the legal matter updates to Work in Progress.
 
 5.  Add or remove documents from the legal matter.
 
-<table id="choicetable_vhd_kg2_f5b"><thead><tr><th align="left" id="d681196e182">
+<table id="choicetable_vhd_kg2_f5b"><thead><tr><th align="left" id="d736096e182">
 
 Option
 
-</th><th align="left" id="d681196e185">
+</th><th align="left" id="d736096e185">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d681196e191">
+</th></tr></thead><tbody><tr><td id="d736096e191">
 
 **Using the attachment icon**
 
@@ -94,7 +94,7 @@ The attachment icon \[Omitted image "add-attachment-icon.png"\] Alt text: Attach
     -   To download an attached document, select the actions icon, select **Download**.
 
 
-</td></tr><tr><td id="d681196e271">
+</td></tr><tr><td id="d736096e271">
 
 **Using the Documents tab**
 
@@ -117,3 +117,5 @@ Access to these documents to various users is controlled in multiple ways. For m
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)
+

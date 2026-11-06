@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Explore, Process Mining, Platform Analytics]
 ---
 
 # Process Mining workspace
@@ -23,7 +23,7 @@ The Process Mining workspace displays your projects, along with details, summari
 The Process Mining workspace includes the following features.
 
 -   **[Projects landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/landing-page.md)**  
-From the projects landing page for Process Mining, you can access generated projects, business process insights, and the Analyst Workbench.
+From the projects landing page for Process Mining, you can access generated projects, business process insights, and Analyst workbench.
 -   **[Process details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/project-view-screen.md)**  
 The process details page for Process Mining provides access to high level insights and opportunities in addition to the interactive visualized process map.
 
@@ -32,7 +32,9 @@ The process details page for Process Mining provides access to high level insigh
 **Related topics**  
 
 
+[Process Mining architecture]()
+
 [Key features of Process Mining]()
 
-[Evaluating Process Mining]()
+[Evaluation projects]()
 

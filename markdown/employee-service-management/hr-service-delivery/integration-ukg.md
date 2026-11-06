@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -25,9 +25,9 @@ Key features include:
 
 First, you must activate the HR Service Delivery Integration with the Ultimate Kronos Group \[sn\_hr\_ukg\] application from the ServiceNow Store. Next, you must set up [HR Service Delivery Integration with Ultimate Kronos Group application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-ukg.md).
 
-## Overview
+## Overview of HR Service Delivery with Ultimate Kronos Group
 
-After the activation and setup of HR Service Delivery Integration with Ultimate Kronos Group is complete, the HR Service Delivery with Ultimate Kronos Group responds to what employees or managers are saying during a conversation, and allows employees to view the following details from the Ultimate Kronos Group application in the Employee Center Employee Service Center.
+After the activation and setup of HR Service Delivery Integration with Ultimate Kronos Group is complete, the HR Service Delivery with Ultimate Kronos Group responds to what employees or managers are saying during a conversation, and allows employees to view the following details from the Ultimate Kronos Group application in the Employee Center.
 
 ## Topics accessible to employees
 
@@ -87,15 +87,15 @@ As a manager, you can access and view the locations, schedules, and time-off req
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation. Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-ukg.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementationPlan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-ukg.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like fields, tables, and properties. Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like fields, tables, and propertiesGet details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/ref-hrsd-ukg.md)
 
 </td></tr><tr><td>
 

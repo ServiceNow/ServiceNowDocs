@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-system-properties.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Workforce, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Workforce system properties

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Plan calendar
@@ -47,11 +47,4 @@ The **Filter** pane, accessed through the filter icon\( \[Omitted image "filter-
 |Plans|Displays records of a specified plan|
 |Plan types|Displays records of a specified plan type|
 |Plan categories|Displays records of a specified plan category|
-
--   **[Create and view events using the planning calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage_schedule_occurrence.md)**  
-Create and view the schedule occurrences and work orders of associated work plans through the planning calendar.
--   **[Cancel events using the planning calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/cancel-so-planning-calendar.md)**  
-Cancel a schedule occurrence and the work order events of its associated work plans through the planning calendar.
-
-**Parent Topic:**[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 

@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/business-rules-and-script-includes.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Build form and business logic, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Build form and business logic, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Business rules and script includes
 
 Business rules are server-side actions that can be run during CRUD \(Create, Read, Update, Delete\) operations on instance records.
 
-**Note:** Consider creating applications with help from agentic AI. For more information, see [Use agentic AI to build and edit applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-to-use-agentic-ai.md).
+**Note:** Consider creating applications with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-ai-workflow-factory-prime.md).
 
 Some good practices when using Business Rules are:
 
@@ -44,7 +44,7 @@ Store any code that might need to be used elsewhere in a Script Include. Call th
 
 Keeping functions in a Script Include allows testing of the function before deploying the function in other scripted areas, thus reducing overall development and testing time.
 
-For more information, see .
+For more information, see [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).
 
 **Parent Topic:**[Build form and business logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-form-and-business-logic.md)
 

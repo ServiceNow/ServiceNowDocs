@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Customize the Playbook Experience, Designing playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add a custom layout bundle to a UI Builder standard record page
@@ -28,7 +28,7 @@ Role required: admin, ui\_builder\_admin
 
 3.  Fill in the fields for your experience.
 
-<table id="choicetable_jwq_jdh_x1c"><tbody><tr><td id="d73237e87">
+<table id="choicetable_jwq_jdh_x1c"><tbody><tr><td id="d79312e89">
 
 **Name**
 
@@ -36,7 +36,7 @@ Role required: admin, ui\_builder\_admin
 
 The name is used for tracking the experience internally. The experience name is also visible to users from the browser tab.
 
-</td></tr><tr><td id="d73237e96">
+</td></tr><tr><td id="d79312e98">
 
 **URL path**
 
@@ -46,7 +46,7 @@ The URL path is the prefix that people will use to reach your experience. It mat
 
 Supported characters include digits \(0-9\), letters \(A-Z, a-z\), and the following symbols: $-\_!\*\(\),The path can't end with a forward slash \(/\).
 
-</td></tr><tr><td id="d73237e112">
+</td></tr><tr><td id="d79312e114">
 
 **App shell UI**
 
@@ -56,7 +56,7 @@ Choose the **UXR Base Experience Shell**.
 
  The app shell is the wrapper of the page contents, which is similar to the functionality of a web page. The app shell can show things like the logo of your company, user preferences, and the search icon. To learn more about the app shell options, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-shells-uibuilder.md).
 
-</td></tr><tr><td id="d73237e137">
+</td></tr><tr><td id="d79312e139">
 
 **Landing path**
 
@@ -64,7 +64,7 @@ Choose the **UXR Base Experience Shell**.
 
 The landing path is the prefix that people will use to reach your experience homepage. It matches your experience name by default. To designate a page as the homepage, you will need to create a page that has a matching path.
 
-</td></tr><tr><td id="d73237e146">
+</td></tr><tr><td id="d79312e148">
 
 **Roles**
 
@@ -229,13 +229,7 @@ If the width of the bundle container is set to the min-width of the component, s
 
 \[Omitted image "troubleshooting-custom-layout-bundle-1.png"\] Alt text: Sizing settings under the bundle container Styles tab
 
-Alternatively, you can set the **flex-direction** of your new bundle tab to **column**.
-
-\[Omitted image "troubleshooting-custom-layout-bundle-2.png"\] Alt text: Layout settings under the bundle container Styles tab
-
 ## What to do next
 
 Edit test values and controller inputs.
-
-**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
 

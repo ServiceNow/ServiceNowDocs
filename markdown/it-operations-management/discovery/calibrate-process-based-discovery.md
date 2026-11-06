@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Discover applications based on fingerprints, Running discoveries in your network, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discover applications based on fingerprints, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Calibrate fingerprint-based discovery
@@ -111,16 +111,16 @@ Role required: discovery\_admin
 
 1.  Navigate to **All** &gt; **Discovery** &gt; **Home**.
 
-2.  Click **Application Fingerprints**.
+2.  Select **Application Fingerprints**.
 
     The **Application Fingerprints** dashboard opens.
 
 3.  Navigate to the list of suggestions by one of the following methods:
 
     -   On the **Top Suggestions** pie chart, view the top suggestions arranged by the number of processes making up these suggestions.
-    -   To view only suggestions for application servers, click the **Suggested Application Servers** tile. The filtered list of suggestions for application servers is displayed. This list is also filtered to display only suggestions whose accuracy is 100%.
-    -   Alternatively, click **All suggestions**. The unfiltered list of all suggestions is displayed.
-4.  In the Application Suggestions list, click the relevant suggestion in the **Suggested Group Name** column.
+    -   To view only suggestions for application servers, select the **Suggested Application Servers** tile. The filtered list of suggestions for application servers is displayed. This list is also filtered to display only suggestions whose accuracy is 100%.
+    -   Alternatively, select **All suggestions**. The unfiltered list of all suggestions is displayed.
+4.  In the Application Suggestions list, select the relevant suggestion in the **Suggested Group Name** column.
 
     The Application Suggestion form opens.
 

@@ -1,5 +1,5 @@
 ---
-title: Asset Analytics overview for Enterprise Asset workspace
+title: Asset analytics overview for Enterprise Asset workspace
 description: Use the Asset Analytics view to get a detailed view of all your assets, their overall performance, and the asset total cost of ownership \(TCO\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/eam-asset-dboard.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enterprise Asset Workspace, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
-# Asset Analytics overview for Enterprise Asset workspace
+# Asset analytics overview for Enterprise Asset workspace
 
 Use the Asset Analytics view to get a detailed view of all your assets, their overall performance, and the asset total cost of ownership \(TCO\).
 
@@ -149,8 +149,6 @@ Distribution of assets over the last 12 months, based on the following cost type
 </td></tr></tbody>
 </table>## Asset performance
 
-**Important:** The Asset performance tab is available with Enterprise Asset Management version 9.0 and later.
-
 The Asset performance tab provides details on the average values of the following key performance indicators \(KPIs\):
 
 -   Availability
@@ -182,8 +180,6 @@ When you select any KPI report, the **KPI Details** page appears. This page enab
 |Asset availability|Report that lists the availability and other related KPIs of all enterprise assets that are tracked.|
 
 ## Data Visualizations
-
-**Important:** The Data Visualizations tab is available with Enterprise Asset Management version 9.0 and later.
 
 The Data Visualizations tab enables the asset managers to view and create data visualizations in the Visualization Designer. As an asset manager, you can view the visualizations that are bookmarked, certified, owned by you, and shared with you. You can only edit the visualizations that you created.
 

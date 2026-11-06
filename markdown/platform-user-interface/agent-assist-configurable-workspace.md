@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/agent-assist-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tabs sidebar, Exploring Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Tabs sidebar, Explore, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Agent assist

@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolving platform performance issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Add a module to test connection speed
@@ -24,15 +24,15 @@ Role required: admin
 
 1.  Perform the appropriate action for your version of the UI.
 
-<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d62068e54">
+<table id="choicetable_bbq_5lz_hfc"><thead><tr><th align="left" id="d65929e54">
 
 UI version
 
-</th><th align="left" id="d62068e57">
+</th><th align="left" id="d65929e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62068e63">
+</th></tr></thead><tbody><tr><td id="d65929e63">
 
 **Core UI**
 
@@ -42,7 +42,7 @@ Steps
 2.  Open the application menu to which you want to add the module, for example, **System Diagnostics**.
 
 
-</td></tr><tr><td id="d62068e94">
+</td></tr><tr><td id="d65929e94">
 
 **UI15**
 
@@ -58,8 +58,6 @@ Select and hold \(or right-click\) an application menu, such as **System Diagnos
     -   **Title**: Unique name such as `Connection Test`
     -   **Link type**: **URL \(from Arguments\)**
     -   **Arguments**: `connection_test.do`
-    \[Omitted image "ConnectionTestModule.png"\] Alt text: Module form for an example connection test, using the same values previously described.
-
 4.  Select **Submit**.
 
 

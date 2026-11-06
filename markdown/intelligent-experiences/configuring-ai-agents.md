@@ -1,24 +1,24 @@
 ---
-title: Configuring Now Assist AI agents
-description: Configure the Now Assist AI agents to execute agentic workflows with AI agents and mapped tools.
+title: Configure AI agents
+description: Configure AI agents to execute agentic workflows with AI agents and mapped tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configuring-ai-agents.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 6
-breadcrumb: [Now Assist AI agents, Enable AI experiences]
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Configuring Now Assist AI agents
+# Configure AI agents
 
-Configure the Now Assist AI agents to execute agentic workflows with AI agents and mapped tools.
+Configure AI agents to execute agentic workflows with AI agents and mapped tools.
 
 AI agents follow your instructions and act toward a specific goal and outcome by using the tools that you configure for those agents. By using the context of your record and your searchable content, AI agents can plan and analyze the task with a business logic that is combined with the instructions that are sent to large language models \(LLMs\) that suggest the next best action to be taken.
 
 **Note:** Make sure that your record data and knowledge base have the latest accurate information for the best results.
 
-## Configuring AI agents
+## Preparing for AI agents configuration
 
 -   **Prerequisites**
 
@@ -40,7 +40,7 @@ AI agents follow your instructions and act toward a specific goal and outcome by
 
     -   **Instructions**: Clear directives for the AI agent. Write instructions as a step-by-step algorithm that describes the operational flow for the AI agent.
 
-## Configuring the tools for the agentic workflows
+## Understanding the tools for agentic workflows configuration
 
 Define the procedure to build functional tools for your agentic workflow with the following three elements:
 
@@ -54,7 +54,7 @@ Define the procedure to build functional tools for your agentic workflow with th
 
 -   **Tool description**
 
-    Natural language descriptions that describe the utility provided by the tool. Make sure that you define the scope and limits of the tools clearly to help ensure that the tools are picked for the appropriate scenarios in the following ways:
+    Natural language descriptions that describe the utility provided by the tool. Make sure that you define the scope and limits of the tools clearly to help verify that the tools are picked for the appropriate scenarios in the following ways:
 
     -   Provide a description of what the tool is supposed to do.
     -   Describe the scenarios where the tool can be called. Include the specific agentic workflows and tasks where the tool and its functionality can be used.
@@ -67,15 +67,11 @@ Define the procedure to build functional tools for your agentic workflow with th
     Understanding the scenarios where the tool can go wrong can help the AI agent with keeping the execution on track.
 
 
-## Dynamic Orchestrator for agentic workflows
-
-When there are more than the ideal 8 to 10 AI agents available for an agentic workflow, then the dynamic orchestrator helps identify the agents that need to be considered for executing that agentic workflow in the planning phase. The dynamic orchestrator helps map the right agents to the user's agentic workflow to provide better performance and accuracy.
-
 ## Invoke Conversations with AI Agent Background Channel
 
-The AI Agent Background Channel helps you to invoke AI Agent or agentic workflow execution from the Workspace. Use the AI Agent Background Channel associated with the AI Agent Background Provider to invoke conversations. The AI Agent Background Provider is based on the Custom Adapter Framework from Virtual Agent. For more information, see [Configure a provider for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/create-provider-va-cccif.md).
+The AI Agent Background Channel helps you to invoke AI Agent or agentic workflow execution from the Workspace. Use the AI Agent Background Channel associated with the AI Agent Background Provider to invoke conversations. The AI Agent Background Provider is based on the Custom Adapter Framework from Virtual Agent. For more information, see .
 
-Create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\] to add any additional conversational capabilities to your own provider application and get a new inbound ID that allows for customization. For more information, see [Create a channel identifier for your custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/create-channel-id-va-cccif.md).
+Create a channel identifier in the Provider Channel Identities table \[sys\_cs\_provider\_application\] to add any additional conversational capabilities to your own provider application and get a new inbound ID that allows for customization. For more information, see .
 
 To start a conversation, trigger the flow using the sn\_aia.AiAgentRunttimeUtil\(\).startAiAgentConversation\(request\) API in the Script Include \(sys\_script\_include\) of the AIAgentBackgroundProvider and select **Run Script**. When the Script execution status indicates Success, the conversation begins in the order of utterances defined in the Script.
 
@@ -87,7 +83,26 @@ You can also see the entire execution steps on the AI Agent Studio Testing page 
 
 The Interactive AI agents reach out to users for information when there is a fallback in the execution process, and the AI agent re-triggers the flow.
 
-The Non-interactive AI agents do not reach out to the user at any fallback stage in the execution process. When the AI agent needs user information, it takes the dynamic prompt approach using the ReAct layer, where the prompt of the ReAct will change based on the execution mode of the AI agent or agentic workflow. Therefore, in the Non-interactive execution, the reach fallback options do not have to collect input from a user as a fallback option. However, the output of the AI agent or agentic workflow will still need to be presented to the user, and in any execution failure scenario, a message in the Now Assist panel or Virtual Agent is shown.
+The Non-interactive AI agents don't reach out to the user at any fallback stage in the execution process. When the AI agent needs user information, it takes the dynamic prompt approach using the ReAct layer, where the prompt of the ReAct will change based on the execution mode of the AI agent or agentic workflow. Therefore, in the Non-interactive execution, the reach fallback options don't have to collect input from a user as a fallback option. However, the output of the AI agent or agentic workflow will still need to be presented to the user, and in any execution failure scenario, a message in the ServiceNow Otto panel or Virtual Agent is shown.
 
 To implement the Non-interactive execution, the **Execution Mode** field is added in the Execution Plans \[sn\_aia\_execution\_plan\] table, where the execution mode can be **Interactive** or **Non Interactive** based on the given runtime parameter.
+
+You can run the AI agents and agentic workflows concurrently in the AI Agent Background Channel and in Non-interactive mode where the background execution allows AI agents to operate with any chat panel like ServiceNow Otto panel or Virtual Agent.
+
+## Multilingual support
+
+You can leverage multilingual support for AI agents across languages for better translation quality to:
+
+-   Tune system prompts for native translations.
+-   Implement dynamic translation strategies when native support is unavailable.
+-   Provide extensive testing via automated and manual evaluations.
+
+## AI Agent Studio Skills migration
+
+You can auto-migrate all the AI Agent Studio skills from on-glide execution path to the off-glide execution path by setting the **Off-Glide Enabled** to **true**, to enable the skill migration to Mosaic. To do this:
+
+-   Navigate to the OneExtend Capabilities \[sys\_one\_extend\_capability.list\] table.
+-   Find the ServiceNow Otto AI Agents application.
+-   Set the **Off-Glide Enabled** to **true**
+-   Select **Save.**
 

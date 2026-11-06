@@ -1,32 +1,32 @@
 ---
-title: Create a success outcome
-description: Create a success outcome that can be used to measure the achievement of a success objective.
+title: Add a primary success outcome
+description: Create a primary success outcome that can be used to measure the achievement of a success objective.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-outcome.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success outcome
+# Add a primary success outcome
 
-Create a success outcome that can be used to measure the achievement of a success objective.
+Create a primary success outcome that can be used to measure the achievement of a success objective.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-Success outcomes are measurable components of success objectives. Success outcomes are both measurable and actionable and can be monitored either within the ServiceNow AI Platform or through 3rd party integration tools.
+Primary success outcomes are measurable components of success objectives. They’re both measurable and actionable. Progress can be tracked automatically using data collected by the Data Context Engine, or manually for outcomes that aren't easily tracked through metrics.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Outcomes** and click **New**.
+2.  Navigate to the **Customer Success** &gt; **All Outcomes** and select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -60,7 +60,7 @@ Success objective
 
 </td><td>
 
-Select the success objective with which this outcome should be associated. This is a mandatory field.
+Select the success objective with which this outcome should be associated. This is a required field.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ State
 
 </td><td>
 
-State of the success outcome. This can be:-   New
+State of the primary success outcome.-   New
 -   In progress
 -   Paused
 -   Canceled
@@ -89,7 +89,7 @@ Progress
 
 </td><td>
 
-Current progress of this outcome. This can be:-   Not Started
+Current progress of this outcome.-   Not Started
 -   On-Track
 -   At Risk
 -   Paused
@@ -103,7 +103,7 @@ Priority
 
 </td><td>
 
-Priority of this outcome in comparison to others. This can be:-   Critical
+Priority of this outcome in comparison to others.-   Critical
 -   High
 -   Medium
 -   Low
@@ -116,7 +116,7 @@ Planned start
 
 </td><td>
 
-Date which the work towards this outcome is scheduled to start.
+Date on which the work for this outcome is scheduled to start.
 
 </td></tr><tr><td>
 
@@ -124,7 +124,7 @@ Planned stop
 
 </td><td>
 
-Date which the work towards this outcome is scheduled to stop.
+Date on which the work for this outcome is scheduled to stop.
 
 </td></tr><tr><td>
 
@@ -132,7 +132,7 @@ Title
 
 </td><td>
 
-Enter a title for this outcome. This is a mandatory field.
+Enter a title for this outcome. This is a required field.
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Description
 
 </td><td>
 
-Enter a description for this outcome. This is a mandatory field.
+Enter a description for this outcome. This is a required field.
 
 </td></tr><tr><td>
 
@@ -181,19 +181,13 @@ Tracking method
 </td><td>
 
 Tracking method for this outcome.-   Manual: Enter the measurement unit and values manually.
--   Metric: Select a metric from the list. The values are populated automatically if the data source and context engine mapping has been configured.
+-   Metric: Select a metric from the list. The values are populated automatically if the data source and context engine mapping have been configured.
 
 **Note:** The metric values are automatically populated if:
 
-    -   The context for the data source must be configured to point to the success outcome table. See [Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-define-data-source.md).
-    -   The source and the resolving context tables must be correctly configured. See [Set up the context engine mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md).
+    -   The context for the data source must be configured to reference the primary success outcome table. See [Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-define-data-source.md).
+    -   The source and the resolving context tables must be correctly configured. See [Configure the Context Engine Mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md).
 
-
-</td></tr><tr><td colspan="2">
-
-\[Omitted image "account-lifecycle-success-obj-context.png"\] Alt text: Data source context mapping
-
-\[Omitted image "account-lifecycle-success-obj-mapping.png"\] Alt text: Context engine mapping
 
 </td></tr><tr><td>
 
@@ -217,9 +211,15 @@ Current value
 
 </td><td>
 
-Current value of the success outcome.
+Current value of the primary success outcome.
 
 </td></tr></tbody>
-</table>4.  Click **Save** to create a new success outcome.
+</table>4.  Select **Save** to create a primary success outcome.
 
+
+## What to do next
+
+Add a success initiative to capture the activities required to achieve this outcome. See [Add a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-success-initiative.md).
+
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

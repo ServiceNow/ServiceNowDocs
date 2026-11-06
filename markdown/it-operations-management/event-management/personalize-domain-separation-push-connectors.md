@@ -1,20 +1,20 @@
 ---
-title: Personalize domains for push connector events to use in event creation
-description: Configure push connectors to personalize domain separation of events. You can create events in domains other than the user's logged-in or MID Server domain.
+title: Configure domain separation for push connector events
+description: Configure push connectors to create events in domains other than the user's currently logged-in or MID Server domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/personalize-domain-separation-push-connectors.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Event Management Connectors domain personalization, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Connector domain personalization, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Personalize domains for push connector events to use in event creation
+# Configure domain separation for push connector events
 
-Configure push connectors to personalize domain separation of events. You can create events in domains other than the user's logged-in or MID Server domain.
+Configure push connectors to create events in domains other than the user's currently logged-in or MID Server domain.
 
 ## Before you begin
 
@@ -44,15 +44,15 @@ Role required: evt\_mgmt\_admin
 
 4.  In the **Push Connector Configurations** screen, determine whether events should be created in the provided domain or the domain provided in the payload of each event.
 
-<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d442519e243">
+<table id="choicetable_jm5_rmb_d1c"><thead><tr><th align="left" id="d308478e187">
 
 Domain creation location
 
-</th><th align="left" id="d442519e246">
+</th><th align="left" id="d308478e190">
 
 Parameter and values
 
-</th></tr></thead><tbody><tr><td id="d442519e252">
+</th></tr></thead><tbody><tr><td id="d308478e196">
 
 **The provided domain**
 
@@ -62,7 +62,7 @@ Parameter and values
 -   **Value**: domain-identifier
 
 
-</td></tr><tr><td id="d442519e278">
+</td></tr><tr><td id="d308478e218">
 
 **The domain provided in the payload of each event**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View attached knowledge articles
@@ -42,6 +42,4 @@ The knowledge article view page in the Field Service Contractor Portal provides 
 ## Result
 
 The selected version of the article opens in a Knowledge Details page displayed in another tab within the Field Service Contractor Portal. The tab name includes the knowledge article number and its version number.
-
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

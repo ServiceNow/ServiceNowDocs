@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/schedule-ew-integration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---

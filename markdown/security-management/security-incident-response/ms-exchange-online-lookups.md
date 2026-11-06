@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -54,8 +54,8 @@ Complete the following setup tasks in your Microsoft Azure portal prior to insta
 Before you run the integration on your instance, install the Microsoft Exchange Online application for the integration from the ServiceNow Store.
 3.  [Configure the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/msx_configure.md)  
 After you’ve installed the application from the ServiceNow Store, configure it to connect to your ServiceNow AI Platform instance. This activation activates the search and delete workflows.
-4.  [Define email search criteria and request a search on the Microsoft Exchange Online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)  
-As a user with the sn\_si.analyst role, define search criteria and submit an email search request based on incident details on a security incident record.
+4.  [Define email search criteria and request a search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/verify-expected-results-ms-exchange-online.md)  
+As a user with the sn\_si.analyst role, set up search criteria and submit an email search request based on incident details on a security incident record.
 5.  [Request delete approval for emails on Microsoft Exchange online service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-delete-email.md)  
 After an email search is successfully completed and matching messages are identified, you can permanently delete all the suspicious emails from the Microsoft exchange online service that are related to the security incident and phishing campaign.
 6.  [Approve delete email requests for the Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-approve-delete.md)  

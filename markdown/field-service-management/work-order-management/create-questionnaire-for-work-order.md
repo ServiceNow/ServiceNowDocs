@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring survey-based work order questionnaires, Configuring work order questionnaires, Configuring work order tasks, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Survey-based questionnaires, Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create a questionnaire for a work order or task
@@ -45,6 +45,8 @@ The administrator can view questionnaire records from the Questionnaire list and
     |Close before|State that the work order or work order task must be in before the agents can complete a mandatory questionnaire.|
 
 4.  Select **Submit**.
+
+    \[Omitted image "create-questionnaire.png"\] Alt text: questionnaire form
 
     The system creates the record, displays the Questionnaire form, and adds the **Questionnaire Designer** button.
 

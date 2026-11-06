@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-auto-discovry-report.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automation Discovery, Platform Analytics]
 ---
@@ -17,6 +17,10 @@ Create an Automation Discovery report to analyze your records for automation opp
 ## Before you begin
 
 Role required: admin, nlu\_admin, or sn\_auto\_discovery.DiscoveryAuthor
+
+## About this task
+
+**Important:** The deprecation of Automation Discovery was announced in the Zurich release. From the Brazil release, Automation Discovery is no longer deployed, enhanced, or supported. You can continue to use existing deployments but can't initiate new ones. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

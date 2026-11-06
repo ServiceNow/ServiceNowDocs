@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage failure and resolution codes, Configuring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Import failure and resolution codes in bulk
@@ -17,10 +17,6 @@ breadcrumb: [Manage failure and resolution codes, Configuring Enterprise Asset M
 Import multiple failure and resolution codes via Excel templates in the Admin center to assist enterprise asset technicians in diagnosing asset issues and their resolutions.
 
 ## Before you begin
-
-**Important:**
-
-The bulk import of failure and resolution codes is supported in Enterprise Asset Management version 9.0 and later.
 
 The source for the codes that you want to import should already be available. For more details, see [Create a source for failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-source-failure-res-code.md).
 
@@ -32,11 +28,13 @@ Role required: sn\_eam.enterprise\_admin or inventory\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Failure and resolution**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  In the Failure and resolution list, select **Import**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Create an asset service import.
+3.  From the navigation panel of the Admin center view, navigate to **Failure and resolution** &gt; **Import**.
+
+4.  Create an asset service import.
 
     1.  Select **New**.
 
@@ -66,7 +64,7 @@ Role required: sn\_eam.enterprise\_admin or inventory\_admin
 
         1.  In the **Name** field, provide a name for the asset service import.
         2.  Select **Attach file** and then select the code import template that you created in step b.
-4.  Select **Import**.
+5.  Select **Import**.
 
 
 ## Result

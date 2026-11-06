@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Relations Performance Analytics Executive Overview
@@ -24,7 +24,7 @@ The HR ER PA dashboard provides timely information for the following:
 
 Provides data on trends or areas of concern that are emerging and require a deeper analysis in order to create proactive strategies.
 
-\[Omitted image "hr-er-executive-par.png"\] Alt text: Employee Relations Executive Overview
+\[Omitted image "hr-er-ov1.png"\] Alt text: Executive Overview
 
 ## Case analysis
 

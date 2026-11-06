@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-exception-rules-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -16,7 +16,7 @@ Exception rules for Security Exposure Management Workspace enable you to automat
 
 **Using exception rules in your organization**
 
-Use exception rules to automatically defer new and existing findings for a specific period if they match the approved rule condition. Automation minimizes the risk of missing service level agreements and makes it easier to manage multiple items, because you are eliminating manual intervention.
+Use exception rules to automatically defer new and existing findings for a specific period if they match the approved rule condition. Automation minimizes the risk of missing service level agreements and makes it easier to manage multiple items, because you’re eliminating manual intervention.
 
 Deferral rules support ordering, that is, the rule with the highest priority is run first. When a high-priority rule is applied on a finding, no subsequent rules are applied on it again even if the condition matches the Finding.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Alert impact calculation, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Adjust impact rules for a CI
@@ -30,7 +30,7 @@ You can view and adjust the impact rules of CIs from the application service map
 
 1.  Open the application service map from either the Event Management dashboard or the Application service list.
 
-<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d389547e125">
+<table id="choicetable_mbd_wfk_35"><tbody><tr><td id="d638780e131">
 
 **From the Event Management dashboard**
 
@@ -40,7 +40,7 @@ You can view and adjust the impact rules of CIs from the application service map
 2.  Double-click the tile of the application services.
 
 
-</td></tr><tr><td id="d389547e155">
+</td></tr><tr><td id="d638780e161">
 
 **From the Application Service list**
 
@@ -76,6 +76,7 @@ The name of the impact rule.-   **Application Cluster Member**: Determines how a
 -   **Application Impact**: Determines how impact is applied to a specific CI, the overall application service, or parent/child entities within an application service. For the Application Impact rule, you can choose from the following Impact options: **Application Service** or **Parent**.
     -   If no CI is selected, the alert rule applies to the entire application service.
     -   If you select a specific CI, you can define whether the rule applies to the service or its parent.
+-   **CI Parent in Application**: Sets impact only on the parent entity.
 -   **Inclusion**: Determines the impact on entities with a Contains relationship. This rule is read-only.
 -   **Infrastructure Dependencies**: Determines the definition of impact propagation for CIs in infrastructure relationships.
 -   **Network Path**: Determines how impact applies to parent or child entities that are part of a traditional network.

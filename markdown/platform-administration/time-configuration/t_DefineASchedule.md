@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Schedules, Exploring time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Define a schedule
@@ -27,7 +27,7 @@ Role required: schedule\_admin or admin
 
 Alternately, you can also use the Business Calendar functions to create schedules. To learn more about creating business calendars and schedules, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/business-calendars.md).
 
-**Warning:** If you are using Performance Analytics, use caution when changing time spans. Any change you make to the time span on a business or fiscal calendar can invalidate Performance Analytics data. Consult with a Performance Analytics administrator before making such changes.
+**Warning:** If you’re using Performance Analytics, use caution when changing time spans. Any change you make to the time span on a business or fiscal calendar can invalidate the Performance Analytics data. Consult with a Performance Analytics administrator before making such changes.
 
 ## Procedure
 

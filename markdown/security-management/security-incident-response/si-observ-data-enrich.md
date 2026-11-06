@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage observables, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,8 +31,6 @@ After that setup has been completed, the act of changing the Source IP of observ
 [Get AutoFocus Session Info Enrichment Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/search-for-malicious-content.md)
 
 [Palo Alto Networks Firewall Launcher Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/secops-integration-paloalto-firewall-launcher-workflow.md)
-
-[Security Operations Palo Alto Networks - Check and Block Value Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/check-and-block-values.md)
 
 [Get Log Data Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/get-threat-log-data.md)
 

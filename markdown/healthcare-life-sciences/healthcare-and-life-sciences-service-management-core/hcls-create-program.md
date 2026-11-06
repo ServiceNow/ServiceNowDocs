@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure programs and program services, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -18,11 +18,11 @@ Add a program for use within the Healthcare and Life Sciences Service Management
 
 ## Before you begin
 
+Role required: sn.hcls\_manager or admin
+
 To associate an eligibility criteria checklist with the program, create a checklist. For more information, see [Create a checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_CreateAChecklist.md).
 
 **Note:** By default, the application provides a few checklist templates that you can use as a reference when creating a checklist for a Healthcare and Life Sciences program.
-
-Role required: sn.hcls\_manager or admin
 
 ## About this task
 
@@ -69,7 +69,7 @@ By default, the application provides a few sample programs for the Healthcare an
 13. [Publish the program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-create-program.md).
 
 
-**Parent Topic:**[Configuring programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
+**Parent Topic:**[Configure programs and program services for Healthcare and Life Sciences workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-program-setup.md)
 
 ## Configure a specification characteristic for a program
 

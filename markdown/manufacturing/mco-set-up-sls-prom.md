@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-set-up-sls-prom.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
 
 # Set up sales promotion
@@ -18,5 +18,5 @@ A sales promotion setup enables the manufacturers to configure the sales promoti
 |----|-----------|
 |[Create promotion type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/create-promotion-type.md)|Configure different promotion type that is applicable to the customers.|
 |[Create promotion questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-input-set.md)|Configure the MCO input set. Define the grouping for input attributes.|
-||Create a checklist template applicable to user group or user.|
+|[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-checklist-template.md)|Create a checklist template applicable to user group or user.|
 

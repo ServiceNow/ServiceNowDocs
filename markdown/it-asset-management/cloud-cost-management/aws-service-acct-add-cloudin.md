@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Cloud Cost Management for AWS, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add an AWS service account
@@ -22,7 +22,7 @@ You must perform these tasks:
 
 -   Set up download jobs for billing and price sheet data for the service account.
 -   [Configure the MID Server for AWS IAM role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/config-mid-iam-roles.md).
--   Role required: sn\_clin\_core.insights\_admin
+-   Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 ## About this task
 

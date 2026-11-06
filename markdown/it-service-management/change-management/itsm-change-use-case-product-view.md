@@ -1,20 +1,20 @@
 ---
 title: Applying CSDM guidelines to Change Management
-description: Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. The goal of this product view is to help you to understand how Change Management key entities work with the core CSDM framework.
+description: Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. This product view helps you understand how Change Management key entities work with the core CSDM framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/itsm-change-use-case-product-view.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
 # Applying CSDM guidelines to Change Management
 
-Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. The goal of this product view is to help you to understand how Change Management key entities work with the core CSDM framework.
+Change Management lets you control every aspect of the IT change process from creation to approval. When you have accurate information, you can minimize risks to your business and avoid conflicts with scheduling. This product view helps you understand how Change Management key entities work with the core CSDM framework.
 
 ## Change Management
 
@@ -22,7 +22,7 @@ Change Management includes the following features:
 
 -   Manage changes more quickly by using the Change Advisory Board \(CAB\) Workbench to schedule, plan, and manage CAB meetings from one interface.
 -   The Change Management backlog analysis dashboard provides increased visibility into any changes.
--   Service Maps let you see the change impacts at-a-glance.
+-   Service Maps let you see the change impacts at a glance.
 -   The change approval policies increase DevOps velocity and remove IT friction.
 
 For details on implementing the CSDM framework, see [Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-implementation-stages.md).
@@ -33,15 +33,15 @@ The Change Request form references the following attributes and related lists.
 
 <table id="table_rsk_l4b_1wb"><thead><tr><th>
 
- 
+Attribute or related list
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 
-1 Service \(Business Service\)
+Service \(Business Service\)
 
 </td><td>
 
@@ -51,7 +51,7 @@ References the \[cmdb\_ci\_service\_business\] table.
 
 </td></tr><tr><td>
 
-2 Service Offering
+Service Offering
 
 </td><td>
 
@@ -59,7 +59,7 @@ References the \[service\_offering\] table where the offering has a parent servi
 
 </td></tr><tr><td>
 
-3 Configuration Items
+Configuration Items
 
 </td><td>
 
@@ -67,7 +67,7 @@ References the \[cmdb\_ci\] table.
 
 </td></tr><tr><td>
 
-4 Affected/Causal CIs
+Affected/Causal CIs
 
 </td><td>
 
@@ -75,7 +75,7 @@ Related list \[task\_ci\] table.
 
 </td></tr><tr><td>
 
-5 Impacted Services
+Impacted Services
 
 </td><td>
 
@@ -83,16 +83,14 @@ Related list \[task\_cmdb\_ci\_service\] table.
 
 </td></tr><tr><td>
 
-6 Assignment Group
+Assignment Group
 
 </td><td>
 
 References the Group attribute.**Note:** You can populate the Group attribute by using the Assignment Group for the relevant CI.
 
 </td></tr></tbody>
-</table>\[Omitted image "itsm-change-form.png"\] Alt text: Change Request form with numbered fields.
-
-## For more information
+</table>## For more information
 
 For additional details on Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ITILChangeManagement.md).
 

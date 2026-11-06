@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a new incident profile for Microsoft DLP integration, Data Loss Prevention Incident Response with Microsoft, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Create a new incident profile for Microsoft DLP integration, Data Loss Prevention Incident Response with Microsoft, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Microsoft purview endpoint storage configuration

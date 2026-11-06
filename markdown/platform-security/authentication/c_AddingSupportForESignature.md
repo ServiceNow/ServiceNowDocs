@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Add E-Signature support for SAML

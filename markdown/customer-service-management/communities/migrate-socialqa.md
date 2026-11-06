@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # Migrate Social Q&amp;A data to Communities
@@ -18,9 +18,13 @@ If you want to migrate existing Social Q&amp;A content to Communities, you can u
 
 ## Before you begin
 
-Role required: sn\_communities.admin
+Role required: script\_fix\_Admin
 
 The Customer Communities plugin \(com.sn\_customer\_communities\) must be activated.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -53,5 +57,48 @@ Verify the following information.
 -   The accepted solution to a question in Social Q&amp;A is **Marked as Correct Answer** in Communities.
 -   Social Q&amp;A is deactivated for every knowledge base that contained Social Q&amp;A data. Social Q&amp;A content is no longer visible for these knowledge bases.
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community content types]()
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[View community logs]()
+
+[View community feedback and bookmarks tables]()
+
+[Create a case from a discussion]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure video sources for a community]()
+
+[Configure community forums]()
+
+[Forum and user permissions management]()
+
+[Configure the community profile]()
+
+[Create community Terms and Conditions]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

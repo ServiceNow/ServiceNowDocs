@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-02-07"
-reading_time_minutes: 2
-breadcrumb: [Reclaim user subscriptions in the Software Asset Workspace, Reclaiming user subscriptions, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Reclaim user subscriptions in the Software Asset Workspace, Reclaiming user subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaim monday.com user subscriptions in the Software Asset Workspace
@@ -18,7 +18,7 @@ Reclaim unused monday.com subscriptions to reduce your total software costs.
 
 ## Before you begin
 
-To reclaim user subscriptions in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more details on requesting and activating the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin.
+To reclaim user subscriptions in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(sn\_sam\_workspace\) store application. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more details on requesting and activating the Software Asset Workspace \(sn\_sam\_workspace\) store application.
 
 monday.com Role required: admin
 
@@ -36,7 +36,7 @@ The SaaS License Management monday.com integration doesn’t support reclamation
 
         The Software Asset Workspace launches in a new tab.
 
-    2.  From the left navigation menu of the Software Asset Workspace, select **License usage**.
+    2.  From the side navigation menu of the Software Asset Workspace, select **License usage**.
 
         The License usage view opens.
 
@@ -58,7 +58,7 @@ The SaaS License Management monday.com integration doesn’t support reclamation
 
     2.  Log in using your admin credentials.
 
-    3.  At the bottom of the left navigation menu, select your profile icon and then select **Admin**.
+    3.  At the bottom of the side navigation menu, select your profile icon and then select **Admin**.
 
         The Admin section opens.
 
@@ -78,7 +78,7 @@ The SaaS License Management monday.com integration doesn’t support reclamation
 
         The Software Asset Workspace launches in a new tab.
 
-    2.  From the left navigation menu of the Software Asset Workspace, select **License usage**.
+    2.  From the side navigation menu of the Software Asset Workspace, select **License usage**.
 
         The License usage view opens.
 

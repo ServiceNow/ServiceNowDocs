@@ -7,14 +7,18 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2025-02-27"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Location Policy form
 
 Use the location policy form to assign a visitor policy to a workplace location, apply the policy to internal/external visitors and configure whether the policies require signatures.
+
+**Warning:** This topic is only applicable for Workplace Visitor Management version 1.19 or earlier.
+
+In Workplace Visitor Management version 2.0.0 or later, you must create a visit requirement and attach the policy in the Acknowledgment tab. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
 
 |Field|Description|
 |-----|-----------|
@@ -42,4 +46,12 @@ Use the location policy form to assign a visitor policy to a workplace location,
 [Kiosk Page Configuration form]()
 
 [Kiosk Page Customizations]()
+
+[New visit form]()
+
+[Additional requirement form]()
+
+[About visit-related tables]()
+
+[Differences between Workplace Visitor Management versions]()
 

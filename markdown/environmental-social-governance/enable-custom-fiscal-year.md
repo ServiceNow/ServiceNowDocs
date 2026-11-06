@@ -1,18 +1,18 @@
 ---
 title: Create fiscal calendars
-description: Collect, aggregate, and report data based on your fiscal calendars, which may differ from the standard Gregorian calendar. Global organizations often operate in countries with unique fiscal calendars. By creating fiscal calendars in the ESG Management application, you enable local entities to collect data according to their own schedules.
+description: Collect, aggregate, and report data based on your fiscal calendars, which may differ from the standard Gregorian calendar. Global organizations often operate in countries with unique fiscal calendars. By creating fiscal calendars in the Operational Sustainability Management application, you enable local entities to collect data according to their own schedules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/enable-custom-fiscal-year.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create fiscal calendars
 
-Collect, aggregate, and report data based on your fiscal calendars, which may differ from the standard Gregorian calendar. Global organizations often operate in countries with unique fiscal calendars. By creating fiscal calendars in the ESG Management application, you enable local entities to collect data according to their own schedules.
+Collect, aggregate, and report data based on your fiscal calendars, which may differ from the standard Gregorian calendar. Global organizations often operate in countries with unique fiscal calendars. By creating fiscal calendars in the Operational Sustainability Management application, you enable local entities to collect data according to their own schedules.
 
 ## Before you begin
 

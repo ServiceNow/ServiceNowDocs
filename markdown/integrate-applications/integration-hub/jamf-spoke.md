@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Jamf Spoke
@@ -18,7 +18,7 @@ Manage users, mobile devices, groups, and computers in the Jamf account from you
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Jamf spoke v1.4.0 is the latest version.
+Jamf spoke v2.0.0 is the latest version. For version history of the spoke, see [Jamf spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-jamf.html).
 
 ## Supported versions
 
@@ -58,7 +58,7 @@ The Jamf spoke provides sample subflows to demonstrate automating tasks. To cust
 |Revoke Application|Removes the provided user or device from the given group in the Jamf Server.|
 |Look up Configuration Data|Retrieves configuration data for the specified requested item or software configuration record.|
 
-**Note:** These subflows are available only when the [Client Software Distribution 2.0 application]() is installed.
+**Note:** These subflows are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 ## Spoke actions
 
@@ -170,7 +170,7 @@ Removes a target computer group from a Mac application given the current scope o
 
 </td></tr><tr><td rowspan="2">
 
-Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application]() is installed.
+Data Management**Note:** These actions are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
 </td><td>
 
@@ -509,9 +509,9 @@ The Jamf spoke adds the Jamf application to your instance. The application inclu
 |Policies|Displays the list of policies from the Jamf server.|Policy \[sn\_jamf\_spoke\_policy\]|
 |Server Instances|Stores details of the provider servers.|Server Instance \[sn\_jamf\_spoke\_server\]|
 
-**Note:** These modules and tables are available only when the [Client Software Distribution 2.0 application]() is installed.
+**Note:** These modules and tables are available only when the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/csd-app-2.md) is installed.
 
-Another table is Jamf Credential \[sn\_jamf\_spoke\_jamf\_credential\] is available that stores details of the credential records. This table is available along with the Jamf spoke and doesn't require installation of the [Client Software Distribution 2.0 application]().
+Another table is Jamf Credential \[sn\_jamf\_spoke\_jamf\_credential\] is available that stores details of the credential records. This table is available along with the Jamf spoke and doesn't require installation of the [Client Software Distribution 2.0 application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/csd-app-2.md).
 
 ## Spoke triggers
 

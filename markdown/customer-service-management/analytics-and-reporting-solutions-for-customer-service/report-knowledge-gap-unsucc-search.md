@@ -7,9 +7,9 @@ release: yokohama
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Customer Service, Analytics and reporting for Customer Service Management, Customer Service Management]
+breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Customer Service, Analytics and reporting, Customer Service Management]
 ---
 
 # Report knowledge gaps based on unsuccessful searches
@@ -48,5 +48,5 @@ If a collection is reported as a knowledge gap, a feedback task of type Unsucces
 **Related topics**  
 
 
-[Self-Service Analytics dashboard for customer service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.md)
+[Self-Service Analytics dashboard for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.md)
 

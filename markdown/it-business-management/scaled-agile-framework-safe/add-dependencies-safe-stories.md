@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Define a story in SAFe, SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -28,15 +28,15 @@ Prerequisite stories are the stories that must be completed before the current s
 
 1.  Navigate to a story by using any of the following options.
 
-<table id="choicetable_txj_1mx_4lb"><thead><tr><th align="left" id="d104060e64">
+<table id="choicetable_txj_1mx_4lb"><thead><tr><th align="left" id="d127447e64">
 
 Option
 
-</th><th align="left" id="d104060e67">
+</th><th align="left" id="d127447e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104060e73">
+</th></tr></thead><tbody><tr><td id="d127447e73">
 
 **From the Stories module**
 
@@ -46,7 +46,7 @@ Steps
 2.  Click the story that you want to add dependencies to.
 
 
-</td></tr><tr><td id="d104060e100">
+</td></tr><tr><td id="d127447e100">
 
 **From the SAFe planning board**
 

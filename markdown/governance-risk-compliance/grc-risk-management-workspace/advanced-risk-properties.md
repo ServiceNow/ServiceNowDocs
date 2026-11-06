@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Components installed with Advanced Risk, Reference, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -194,7 +194,7 @@ sn\_risk\_advanced.metric\_approval
 
 </td><td>
 
-Enables Risk administrators to define either the simple approval flow or the advanced approval flow for all the metrics and metric definitions. **Note:** This property is available only when the sn\_grc\_appr plugin is activated and must be set while configuring the ESG Management application.
+Enables Risk administrators to define either the simple approval flow or the advanced approval flow for all the metrics and metric definitions. **Note:** This property is available only when the sn\_grc\_appr plugin is activated and must be set while configuring the Operational Sustainability Management application.
 
  The choices are as follows:-   **Simple**: By choosing this option, the Approval section will be enabled both on the manual metric definition form and within the metrics. Using this section, you can designate approvers directly on the metric definition form.
 -   **Advanced**: When you choose this option, the Approval section will be unavailable on the manual metric definition form and the metric form. Instead, approval can be configured by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also allows you to define multiple levels of approvals. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/approval-configuration.md).

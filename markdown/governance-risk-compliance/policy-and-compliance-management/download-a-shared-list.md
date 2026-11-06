@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrate with UCF Common Controls Hub to manage compliance frameworks, Configure the UCF integration using the UCF Common Controls Hub, Manage the UCF integration, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Download a UCF shared list
@@ -20,7 +20,7 @@ In order for compliance managers to download UCF authority documents from the UC
 
 Role required: sn\_compliance.admin or sn\_compliance.manager
 
-**Note:** The current design of UCF supports the downloading of mandated and implied controls. The downloading of implementation controls is not supported. See the Unified Compliance Documentation [How do I distribute an authority document list to other accounts?](https://support.unifiedcompliance.com/migrated/how-do-i-distribute-an-authority-document-list-to-other-accounts).
+**Note:** The current design of UCF supports the downloading of mandated and implied controls. The downloading of implementation controls is not supported. See the Unified Compliance Documentation [How do I distribute an authority document list to other accounts?](https://support.commoncontrolshub.com/hc/en-us/articles/208151063-How-do-I-Distribute-an-Authority-Document-List-to-other-Accounts-).
 
 All data imported from UCF Authority Documents is read-only and must be protected. Do not customize the authority documents, citations, or control objectives on any UCF fields on the GRC tables.
 
@@ -35,8 +35,6 @@ All data imported from UCF Authority Documents is read-only and must be protecte
 4.  Click **Import Shared List**.
 
     A progress bar shows the progress of downloading and importing the documents.
-
-    \[Omitted image "ucf-download-complete.png"\] Alt text: Download complete shown
 
     You may encounter any of the following errors:
 
@@ -97,8 +95,6 @@ If the selected UCF Shared List that you are downloading does not include all th
 
 </td></tr></tbody>
 </table>5.  Click **Review Changed Records** to review the list of changed records.
-
-    \[Omitted image "ucf-review-records.png"\] Alt text: List of changed records
 
     Authority documents in the UCF content are organized and mapped to their proper citations, which in turn are mapped to a common set of controls. The terminology between UCF and the GRC applications differs slightly as explained in the following table.
 

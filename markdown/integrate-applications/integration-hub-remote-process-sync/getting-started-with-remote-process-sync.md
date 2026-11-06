@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
-breadcrumb: [Integration Hub Remote Process Sync, Data and Automation]
+breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
 
 # Getting started with Remote Process Sync
@@ -23,8 +23,6 @@ Learn the basics of setting up a Remote Process Sync integration in order to lin
 Before deciding to move forward with Remote Process Sync as your integration framework, consider how this framework compares to other multi-instance ServiceNow AI Platform® integrations. While solutions such as [Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/instance-data-replication.md) and the [Remote Instance spoke]() support simple multi-instance integrations, Remote Process Sync supports more complex multi-instance integration use cases, focusing on integrating instances by high-level business processes.
 
 **Note:** Remote Process Sync replaces the eBonding spoke for integrating instances.
-
-\[Omitted image "idr-remotespoke-rps-comparison.png"\] Alt text: Instance Data Replication and the Remote Instance spoke support simple integrations for an entire table or using ServiceNow AI Platform APIs. Remote Process Sync supports more complex multi-instance integrations.
 
 If you choose to use Remote Process Sync as your multi-instance integration framework, the next step is to learn about the difference between:
 
@@ -156,21 +154,115 @@ If your process relates to a specific domain, choose a domain other than `global
 
 A remote system contains the configurations for the outbound and inbound connections related to another ServiceNow instance. A Remote System record has the following fields:
 
-|Field|Description|
-|-----|-----------|
-|Name|Enter a name that describes the remote instance. For example, if the instance is managed by one of your customers, Customer A, enter `Customer A's Instance` in the name field.|
-|Description|Optionally, enter more details that describe the remote instance's general purpose in your business process.|
-|External ID|Enter the Sys ID for the Remote System record that shares the same process event with your instance. To get a record's Sys ID, select **Copy sys\_id** from the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon\) in the record's form view. For example, if your Remote Process Sync integration spans two instances, Instance A and Instance B, use the Sys ID from Instance A's Remote System record as the External ID in Instance B and vice-versa. Connecting the Sys IDs and External IDs in this way helps multiple instances know which instance to connect to when the automated outbound and inbound flows run.|
-|Application|Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).|
-|Domain|If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md).|
-|Error Subflow|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a subflow that you want to run when the connection to the remote instance fails. The subflow that you select will run whenever your local instance can't connect to the remote instance after your process sync definition triggers. You can view remote systems that your instance fails to connect to by navigating to **IntegrationHub** &gt; **Remote Process Sync** &gt; **Remote Systems - With Errors**.|
-|Connection Alias|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a Connection &amp; Credential Alias record that you want to use to authenticate with the remote instance. If you haven't set up a Connection &amp; Credential Alias record for this purpose yet, create a new record with Connection and Credential in the Type field. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md).|
-|Outbound State|Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.|
-|Inbound API User|User who can connect to the remote instance. This user must have credentials that match those of the user with the ih\_process\_sync\_api role in the remote instance.|
-|Run Inbound Flows as|Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a user that you want to run the inbound flow for the associated process event. Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.|
-|Inbound State|Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.|
+<table id="table_ofm_nck_2nb"><thead><tr><th>
 
-**Note:** After creating a Remote System record with the appropriate fields filled in, you must then click the **Validate and Activate Remote System** related link. Clicking this link checks that you can successfully connect to the remote instance and then activates the outbound and inbound connections.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Enter a name that describes the remote instance. For example, if the instance is managed by one of your customers, Customer A, enter `Customer A's Instance` in the name field.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Optionally, enter more details that describe the remote instance's general purpose in your business process.
+
+</td></tr><tr><td>
+
+External ID
+
+</td><td>
+
+Enter the Sys ID for the Remote System record that shares the same process event with your instance. To get a record's Sys ID, select **Copy sys\_id** from the context menu \(\[Omitted image "context-menu-icon.png"\] Alt text: Context menu icon\) in the record's form view. For example, if your Remote Process Sync integration spans two instances, Instance A and Instance B, use the Sys ID from Instance A's Remote System record as the External ID in Instance B and vice-versa. Connecting the Sys IDs and External IDs in this way helps multiple instances know which instance to connect to when the automated outbound and inbound flows run.
+
+</td></tr><tr><td>
+
+Application
+
+</td><td>
+
+Automatically set to your current [application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
+
+</td></tr><tr><td>
+
+Domain
+
+</td><td>
+
+If your process relates to a specific domain, choose a domain other than `global`. For more information, see [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md).
+
+</td></tr><tr><td>
+
+Error Subflow
+
+</td><td>
+
+The subflow to run if the Inbound or Outbound State becomes errored.
+
+ Use the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to select a subflow. A subflow appears on this list if:
+
+1.  It is an active, published subflow, and
+2.  An input to the subflow is of type Reference to the Process Sync Remote Systems \[ih\_sync\_remote\_system\] table.
+
+ Choose the subflow you want to run when the connection to the remote instance fails. The subflow you select runs whenever your local instance can't connect to the remote instance after your process sync definition triggers.
+
+ There is an error subflow template you can copy and use to make your own Error Subflows. The RPS Error Subflow Template enables you to select notification methods for when the Inbound and Outbound States are errored. You can view the template by navigating to Workflow Studio and searching for it in the Subflows tab.
+
+ You can view remote systems that your instance fails to connect to by navigating to **All** &gt; **IntegrationHub** &gt; **Remote Process Sync** &gt; **Remote Systems - With Errors**.
+
+</td></tr><tr><td>
+
+Connection Alias
+
+</td><td>
+
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a Connection &amp; Credential Alias record that you want to use to authenticate with the remote instance. If you haven't set up a Connection &amp; Credential Alias record for this purpose yet, create a new record with Connection and Credential in the Type field. For more information, see [Create a Connection and Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md).
+
+</td></tr><tr><td>
+
+Outbound State
+
+</td><td>
+
+Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.
+
+</td></tr><tr><td>
+
+Inbound API User
+
+</td><td>
+
+User who can connect to the remote instance. This user must have credentials that match those of the user with the ih\_process\_sync\_api role in the remote instance.
+
+</td></tr><tr><td>
+
+Run Inbound Flows as
+
+</td><td>
+
+Select the lookup using list icon \(\[Omitted image "lookup-using-list-icon.png"\] Alt text: Lookup using list icon\) to find and choose a user that you want to run the inbound flow for the associated process event. Option to specify the user that runs the flow. You can select the system user or the user who initiates the session. Select the user who initiates the session option when updates should come from the user who triggered the flow. For example, use this option when you want the incident record comments to come from the user who started the flow. Settings for the Run as option in a flow don't apply to child subflows.
+
+</td></tr><tr><td>
+
+Inbound State
+
+</td><td>
+
+Set to `Disabled` by default. You can change this field's value to `Active` by selecting the **Validate and Activate Remote System** related link in this Remote System record's form view after you finish creating the record.
+
+</td></tr></tbody>
+</table>**Note:** After creating a Remote System record with the appropriate fields filled in, you must then click the **Validate and Activate Remote System** related link. Clicking this link checks that you can successfully connect to the remote instance and then activates the outbound and inbound connections.
 
 After creating a Process Event record and a Remote System record, you can then associate Workflow Studio subflows with these records so that automated actions run whenever your process sync definition triggers.
 
@@ -304,6 +396,22 @@ Domain in which the automated action for your integration ran
 
 </td></tr><tr><td>
 
+Time In Queue
+
+</td><td>
+
+Time spent waiting for the processing of the record.
+
+</td></tr><tr><td>
+
+Processing Time
+
+</td><td>
+
+Time spent processing the record, in milliseconds.
+
+</td></tr><tr><td>
+
 Outbound Subflow Context
 
 </td><td>
@@ -327,32 +435,27 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Sequence
+Transform Context
 
 </td><td>
 
-Order in the queue. A lower number is processed before a higher number.
+Sys ID of the execution record for the inbound flow that processed the payload
 
 </td></tr><tr><td>
 
-Status
+Domain
 
 </td><td>
 
-Processing status of the payload in the inbound queue. Options include:-   Ready
--   Processed
--   Error
--   Skipped
-
- **Note:** If an Inbound Queue record has an Error status, change the status to Ready to retry processing the inbound payload.
+Domain in which the automated action for your integration ran
 
 </td></tr><tr><td>
 
-Process Event
+Local Correlation ID
 
 </td><td>
 
-[Process event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) associated with the integration action
+Correlation ID on the local instance
 
 </td></tr><tr><td>
 
@@ -366,19 +469,19 @@ Type of record operation that the remote instance performed, which caused the re
 
 </td></tr><tr><td>
 
-Transform Context
+Payload
 
 </td><td>
 
-Sys ID of the execution record for the inbound flow that processed the payload
+String as JSON payload for inbound data
 
 </td></tr><tr><td>
 
-Local Correlation ID
+Process Event
 
 </td><td>
 
-Correlation ID on the local instance
+[Process event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub-remote-process-sync/getting-started-with-remote-process-sync.md) associated with the integration action
 
 </td></tr><tr><td>
 
@@ -398,19 +501,40 @@ Remote System
 
 </td></tr><tr><td>
 
-Domain
+Sequence
 
 </td><td>
 
-Domain in which the automated action for your integration ran
+Order in the queue. A lower number is processed before a higher number.
 
 </td></tr><tr><td>
 
-Payload
+Time In Queue
 
 </td><td>
 
-String as JSON payload for inbound data
+Time spent waiting for the processing of the record.
+
+</td></tr><tr><td>
+
+Processing Time
+
+</td><td>
+
+Time spent processing the record, in milliseconds.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Processing status of the payload in the inbound queue. Options include:-   Ready
+-   Processed
+-   Error
+-   Skipped
+
+ **Note:** If an Inbound Queue record has an Error status, change the status to Ready to retry processing the inbound payload.
 
 </td></tr></tbody>
 </table>**Note:** Both the Outbound Queue and Inbound Queue tables are maintained by table cleaners that remove records from these tables every 30 days.

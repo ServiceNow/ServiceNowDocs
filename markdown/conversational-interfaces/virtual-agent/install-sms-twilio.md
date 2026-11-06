@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with Twilio, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Install Conversational SMS Integration with Twilio
@@ -31,7 +31,7 @@ Role required: admin or virtual\_agent\_admin
 
     You can search for the application by its name or ID.
 
-    If you cannot find the application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    If you cannot find the application, you may have to request it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -44,5 +44,5 @@ Role required: admin or virtual\_agent\_admin
 
 [Set up the Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-twilio-adapter.md).
 
-**Parent Topic:**[Integrating Virtual Agent with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
 

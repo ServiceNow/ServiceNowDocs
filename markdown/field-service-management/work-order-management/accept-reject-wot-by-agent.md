@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Accept or reject assigned external work order tasks
@@ -41,6 +41,4 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 ## What to do next
 
 After accepting the task, you can start working on it. For more information about executing tasks, see [Execute and track external work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/execute-wot.md).
-
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

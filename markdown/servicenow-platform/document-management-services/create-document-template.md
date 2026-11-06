@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Digital signature for PDF documents using CAC or PIV smart cards, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -67,6 +67,8 @@ Role required: sn\_doc.admin, sn\_doc.reader, or admin
 
 [Sign document templates for PDF documents using CAC or PIV smart card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/sign-pdf-documents-cac-piv.md)
 
+-   **[Assign a custom signing domain for CAC/PIV digital signatures](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/configure-domain-api-signing.md)**  
+Improve signing traffic management by assigning a custom domain for CAC/PIV digital signatures by setting an optional system property to override the default **glide.servlet.uri** setting.
 -   **[Property value for digital signature using CAC or PIV smart cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/property-value-cac-piv-signing.md)**  
 Specify the method that will be used to identify and validate the user who has signed the PDF using the **com.snc.pdfsigning.validation.method** property.
 

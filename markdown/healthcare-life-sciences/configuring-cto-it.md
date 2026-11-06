@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/configuring-cto-it.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -16,11 +16,11 @@ The following setup steps need to occur before using Care Team Operations for He
 
 ## Configuration overview
 
-1.  [Activate Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-it-activate.md)
+1.  [Install Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-it-activate.md)
 
     You can install the Care Team Operations for Healthcare IT application \(sn\_cto\_hcit\) if you have the admin role.
 
-2.  [Set up roles for Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-it-set-up-roles.md)
+2.  [Assign roles to Care Team Operations for Healthcare IT users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-it-set-up-roles.md)
 
     Ensure that the correct roles are assigned to users of Care Team Operations for Healthcare IT.
 
@@ -48,4 +48,6 @@ The following setup steps need to occur before using Care Team Operations for He
 
     Use Decision Builder to change the state mappings for cases and incidents in Care Team Operations for Healthcare IT.
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

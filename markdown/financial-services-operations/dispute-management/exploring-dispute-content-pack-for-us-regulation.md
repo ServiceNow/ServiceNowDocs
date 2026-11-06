@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispute Content Pack for US Regulations, Working with Regulations, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Dispute Content Pack for US Regulations, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring the Dispute Content Pack for US Regulations

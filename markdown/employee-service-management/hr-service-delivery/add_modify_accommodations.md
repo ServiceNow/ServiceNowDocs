@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ You can add, modify, or view accommodation requests for an HR profile. Accommoda
 
 Role required: sn\_hr\_er.case\_writer
 
-**Note:** For more information, see [HR Service Delivery Employee Relations accommodations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-accommodations.md).
+**Note:** For more information, see [Employee Relations accommodations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-accommodations.md).
 
 ## Procedure
 

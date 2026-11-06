@@ -7,8 +7,8 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -18,115 +18,29 @@ You can activate or upgrade the Smart Assessment Engine application by downloadi
 
 ## Configuration overview
 
-Install or upgrade ServiceNow® Smart Assessment Engine \(SAE\) by completing the task on the initial setup checklist.
+Install or upgrade ServiceNow® Smart Assessment Engine \(SAE\) by activating the required plugins. The plugins are organized into two types: required application plugins that provide core functionality, and optional feature plugins that enable additional capabilities.
 
-## Initial setup checklist for SAE
+## Plugins for SAE
 
-Consider printing the following checklist so that you can check off the tasks as you complete them. To generate a PDF, select **Save As PDF** \(\[Omitted image "save-as-pdf.png"\] Alt text: Save as PDF icon.\) and then select **Selected topic**.
+Activate the following plugins to set up the core SAE application. Role required is sn\_smart\_asmt.assessment\_admin.
 
-<table id="table_ytv_tf2_kxb"><thead><tr><th>
+|Plugin|Plugin ID|Type|What this plugin does|
+|------|---------|----|---------------------|
+|Smart Assessment Dependencies|com.snc.smart\_asmt\_dep|Required|Enables domain separation and post-assessment actions. Activate this plugin before activating the other required plugins.|
+|Smart Assessment Core|com.sn\_smart\_asmt|Required|Provides the foundation for SAE, including assessment templates, assessment instances, questions, sections, and the Assessment Workspace.|
+|Smart Assessment Designer|com.sn\_smart\_asmt\_desg|Required|Provides the drag-and-drop template designer for building and editing assessment templates with sections, subsections, and nine question types. Without this plugin, you cannot design or modify assessment templates.|
+|Smart Assessment Connected|com.sn\_smart\_asmt\_conn|Required|Enables integration between SAE and other applications. Provides the Trigger Smart Assessment flow action to generate assessment instances from published templates through Workflow Studio or scripting.|
+|Smart Assessment Migration Tools|com.sn\_smart\_asmt\_mig|Optional|Migrates existing metric types to the new assessment template format. Activate this plugin only if you have existing assessment designs that need migration. For more information, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-migrating.md).|
+|Smart Assessment Post-Assessment Actions|com.sn\_impact\_fwk and com.sn\_smart\_imp\_auto|Optional|Enables automated actions that run after an assessment is submitted. You can link subflows to a template category so that specific workflows trigger automatically based on assessment results.|
+|Advanced Response Automation for Smart Assessment|com.sn\_smart\_resp\_auto|Optional|Enables inline response automation that triggers when a responder selects a specific answer to a question. For example, you can configure a question to automatically create a task or record based on the selected response.|
+|Basic Scoring for Smart Assessment|com.sn\_smart\_scoring|Optional|Enables scoring configuration for assessment templates, including metrics, aggregation strategies, and normalization functions. Scores are computed at the question, section, subsection, and assessment levels after an assessment is completed.|
+|Smart Assessment Collaboration|com.sn\_smart\_collab|Optional|Enables multi-contributor assessments with persona-based section assignment. Multiple users can contribute to a single assessment, with each contributor assigned to specific sections based on their persona.|
 
-Task
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Core** plugin \(com.sn\_smart\_asmt\).Role required: admin
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Designer** plugin \(com.sn\_smart\_asmt\_desg\).Role required: admin
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Connected** plugin \(com.sn\_smart\_asmt\_conn\).Role required: admin
-
-</td></tr></tbody>
-</table>To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/download-grc-first-time.md).
-
-<table id="table_usx_km3_h2c"><thead><tr><th>
-
-Task
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Migration Tools** plugin \(com.sn\_smart\_asmt\_mig\).Role required: admin
-
-**Note:** The migration plugin is necessary only if you have existing assessment designs. This plugin migrates your existing metric types to the new assessment templates. For more information on migrating metric types to assessment templates, see [Creating an assessment template from legacy assessment metric types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-migrating.md).
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Dependencies** plugin \(com.sn\_smart\_asmt\_dep\).Role required: admin
-
-**Note:** This plugin is necessary if you want to use the features domain separation and post-assessment actions.
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Post-Assessment Actions** plugins \(com.sn\_impact\_fwk\) and \(com.sn\_smart\_imp\_auto\).Role required: admin
-
-**Note:** The Smart Assessment Dependencies plugin must be activated before activating the Smart Assessment Post-Assessment Actions plugins.
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Advanced Response Automation for Smart Assessment** plugin \(com.sn\_smart\_resp\_auto\).Role required: admin
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Basic Scoring for Smart Assessment** plugin \(com.sn\_smart\_scoring\).Role required: admin
-
-</td></tr><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: Check box.
-
-</td><td>
-
-Activate the **Smart Assessment Collaboration** plugin \(com.sn\_smart\_collab\).Role required: admin
-
-</td></tr></tbody>
-</table>To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/download-grc-first-time.md).
+To see the instructions for downloading a GRC application from the ServiceNow® Store, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/download-grc-first-time.md).
 
 **Note:** After installing the required plugins, you can do the following:
 
--   Assign SAE roles to users and user groups. Roles determine the permissions and access in the Smart Assessment Engine application. For more information, see [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+-   Assign SAE roles to users and user groups. Roles determine the permissions and access in the Smart Assessment Engine application. For more information, see [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 -   Activate a language. The ServiceNow AI Platform uses American English by default. You can configure SAE to use a different language. For more information, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateALanguage.md).
 -   Refer to the upstream application documentation for further steps. For example, after installing the plugins from the setup checklist, you can refer to the Policy and Compliance Management documentation to enable smart assessments in Policy and Compliance Management.
 

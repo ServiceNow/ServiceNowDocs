@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/javascript-modules-third-party-libraries.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # JavaScript modules and third-party libraries
@@ -16,7 +16,7 @@ Optimize your code base using JavaScript modules to group related code or add th
 
 ## Overview of using JavaScript modules
 
-A module is a JavaScript file that contains related code that's shared and reused within applications on an instance. You can add JavaScript modules and third-party libraries in scoped applications that are created or convertedwith the ServiceNow IDE or ServiceNow SDK. You can also use TypeScript to create modules and compile them to JavaScript before building your application. After installing an application on an instance, JavaScript modules are stored in the EcmaScript Module \[sys\_module\] table.
+A module is a JavaScript file that contains related code that's shared and reused within applications on an instance. You can add JavaScript modules and third-party libraries in applications that are created or convertedwith the ServiceNow IDE or ServiceNow SDK. You can also use TypeScript to create modules and compile them to JavaScript before building your application. After installing an application on an instance, JavaScript modules are stored in the EcmaScript Module \[sys\_module\] table.
 
 In a module, you identify code for reuse with export statements. Then, use import or require statements to reuse the code elsewhere in your applications. You must add third-party Node Package Manager \(npm\) libraries to applications as dependencies to use their module code. For general information about the syntax used to create JavaScript modules, see the [JavaScript modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) page on the MDN Web Docs website.
 
@@ -24,16 +24,16 @@ In a module, you identify code for reuse with export statements. Then, use impor
 
 ## Limitations
 
--   Global applications and application customizations aren't supported with instances on the Yokohama release.
+-   Application customizations aren't supported.
 -   Modules can be used only within the application scope in which they're added. They can't be used across application scopes.
--   A subset of ECMAScript features are supported in modules in accordance with the .
+-   A subset of ECMAScript features are supported in modules in accordance with the [JavaScript engine feature support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/javascript-engine-feature-support.md).
 -   Node.js APIs aren’t supported in modules. The ServiceNow SDK build process polyfills any Node.js built-in modules while packaging modules, otherwise modules are resolved from the `node_modules` directory.
 -   Global variables related to web APIs aren’t supported.
 -   CommonJS modules from third-party libraries aren't supported unless they define exports. Subpath imports aren't supported with CommonJS modules. ECMAScript modules from third-party libraries are supported.
 -   import and export statements are only supported in modules. To import module code in scripts, such as business rules or script includes, use require statements.​
 -   JavaScript modules \[sys\_module\] can be modified only in the ServiceNow IDE or in Visual Studio Code with the ServiceNow SDK.
 
-**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features.
+**Important:** You can't use third-party libraries that rely on unsupported functionality, such as unsupported APIs or ECMAScript features. For more information, see [Third-party library support in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/third-party-library-support.md).
 
 ## Exporting modules
 
@@ -128,7 +128,7 @@ import { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int';
 
 To access server APIs in a third-party library module, you must add the module as a trusted module with the trustedModules parameter in your application's `now.config.json` file. For more information, see [Custom application configuration in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-config-source-code.md).
 
-For more information about available server APIs, see .
+For more information about available server APIs, see [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/api-server.md).
 
 ## Importing script includes
 

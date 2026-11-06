@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [HR Case Management, Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Creating bulk cases
@@ -81,5 +81,5 @@ User segment groups allow you to specify values for a group of users, or with mu
 -   **[Manage a user group segment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/bulk-case-segment-manage.md)**  
 After creating a user group segment, you can review and edit it before you create cases.
 
-**Parent Topic:**[HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

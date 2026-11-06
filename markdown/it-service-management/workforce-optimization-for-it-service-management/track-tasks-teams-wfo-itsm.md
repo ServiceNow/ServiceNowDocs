@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Assigning work using Work Scheduler in Workforce Optimization for ITSM, Work scheduler in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Assigning work, Work scheduler, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Assign work based on your teams' skills and capacity
@@ -17,6 +17,8 @@ breadcrumb: [Assigning work using Work Scheduler in Workforce Optimization for I
 Plan your teams' work and assign work items such as incidents, problems, change requests, or interactions to them based on their skills, availability, and capacity. View your teams' shifts, events, and work assignments and assign or reassign the work items from a central location.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Note:** Your administrator must add sys ids for event categories that you want to display in the calendar to the **sn\_wfo\_work\_sched.shift\_data\_categories** system property. For more information, see [Work Scheduler components in Workforce Optimization for ITSM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/work-scheduler-wfo-itsm-reference.md).
 

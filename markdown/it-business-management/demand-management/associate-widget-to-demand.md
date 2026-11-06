@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a widget for financial metrics, Set up, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ After you configure a widget, associate it with the Demand table to show the fin
 
 ## Before you begin
 
-You need to [configure a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/configure-widget-demand-financials.md) before you can associate it with the Demand \[dmn\_demand\] table.
+You must [configure a widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/configure-widget-demand-financials.md) before you can associate it with the Demand \[dmn\_demand\] table.
 
 Role required: pps\_admin
 
@@ -28,7 +28,7 @@ Role required: pps\_admin
 
 2.  Open a widget to associate with the Demand table.
 
-3.  In the Widget associations related list, click **New**.
+3.  In the Widget associations related list, select **New**.
 
 4.  On the Widget Association form, fill in the fields.
 

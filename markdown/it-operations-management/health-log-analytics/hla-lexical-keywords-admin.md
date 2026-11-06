@@ -1,5 +1,5 @@
 ---
-title: Add, edit, or delete Health Log Analytics lexical keywords
+title: Add, edit, or delete lexical keywords in Health Log Analytics
 description: Manage the keywords that Health Log Analytics looks for in your log data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-lexical-keywords-admin.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Influencing anomaly detection with lexical keywords, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Influence anomaly detection with lexical keywords, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Add, edit, or delete Health Log Analytics lexical keywords
+# Add, edit, or delete lexical keywords in Health Log Analytics
 
 Manage the keywords that Health Log Analytics looks for in your log data.
 
@@ -28,7 +28,7 @@ In log data, terms like "crash" or "failed" are called lexical keywords because 
 
 The application comes with many default global keywords. You can add, edit, and delete global keywords or phrases. These keywords apply to all source types.
 
-**Note:** To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types.md).
+**Note:** To add a specified keyword that is associated with a specific source type, see [Configure source type capabilities in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types.md).
 
 ## Procedure
 
@@ -105,7 +105,7 @@ Source types that are not associated with the keyword. Health Log Analytics does
 
 3.  Edit a global keyword.
 
-    1.  Click the keyword that you want to edit in the list.
+    1.  Select the keyword that you want to edit in the list.
 
     2.  On the form, edit the relevant fields.
 
@@ -120,10 +120,8 @@ Source types that are not associated with the keyword. Health Log Analytics does
     3.  Select **OK**.
 
 
-**Parent Topic:**[Influencing anomaly detection with lexical keywords](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-anomaly-detection.md)
-
 **Related topics**  
 
 
-[View the lexical keywords that generate alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)
+[View the lexical keywords that generate alerts in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-lexical-keywords-manage.md)
 

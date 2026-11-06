@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating business calendars, Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a business calendar
@@ -78,7 +78,7 @@ Parent
 
 </td><td>
 
-Parent business calendar to the current business calendar that you’re creating. To search for an existing business calendar, select \[Omitted image "SearchIcon.png"\] Alt text: Search button.
+Parent business calendar to the current business calendar that you’re creating. To search for an existing business calendar, select the **Lookup using list** icon \(\[Omitted image "icon-search.png"\] Alt text:\).
 
  For example, you created a business calendar for 2020, and an individual child calendar for each month within the year, each with its own business calendar entries. As you create a business calendar for each month, you would select 2020 as the parent calendar for each.
 

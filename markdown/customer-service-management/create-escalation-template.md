@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-escalation-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure escalation management, Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a case or account escalation template
@@ -16,7 +16,7 @@ Create a template for each type of case or account escalation.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_crm\_foundation\_admin or sn\_crm\_escalation\_admin oradmin
 
 ## About this task
 
@@ -56,11 +56,23 @@ Enable this check box to skip the need for approval. If skipped, escalations are
 
 </td></tr><tr><td>
 
-Use Default Approval Workflow
+Use Default Approval
 
 </td><td>
 
-Enable this check box to use the default approval workflow \(**Escalation - Approval**\) provided with the escalation feature. If using the default approval workflow, select an **Approval Group**.
+Enable this check box to use the default approval flow \(**Escalation - Approval**\) provided with the escalation feature. If using the default approval flow, select an **Approval Group**.
+
+</td></tr><tr><td>
+
+Escalation Approval Flow
+
+</td><td>
+
+Staring with the Zurich release, the **Escalation Approval Flow** field is added to the Escalation Template \(sn\_customerservice\_escalation\_template\) table. Existing customers with customizations can still view the legacy **Escalation Approval Workflow** field. You can continue using your current escalation workflows or migrate to the new flows, depending on your customizations. **Note:** As per of this update:
+
+-   The legacy Escalation-Approval workflow has been migrated to the low-code flow designer.
+-   The Escalation Master–Approval workflow has been converted into a business rule.
+Existing customers who haven’t customized these workflows should migrate to the new equivalent base system flows. Customers with customized versions might continue using them, but are encouraged to transition to the updated flows. Custom workflows remain supported, and customers can continue to create them as needed. However, any new business requirements must be implemented using the new or updated flow-based framework, rather than legacy workflows.
 
 </td></tr><tr><td>
 
@@ -76,7 +88,7 @@ Approval Group
 
 </td><td>
 
-If the **Use Default Approval Workflow** check box is enabled:-   For the **Case Escalation** type, you can select an additional approval group.
+If the **Use Default Approval** check box is enabled:-   For the **Case Escalation** type, you can select an additional approval group.
 -   For the **Account Escalation** type, you must select an approval group.
  **Note:** If there are no approvers, escalation requests are automatically approved.
 
@@ -86,7 +98,7 @@ Escalation Approval Workflow
 
 </td><td>
 
-The workflow used to approve escalation requests. Use the default **Escalation-Approval** workflow or select a different workflow.
+The workflow used to approve escalation requests. Use the default **Escalation-Approval** flow or select a different flow.
 
 </td></tr><tr><td>
 

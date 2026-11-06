@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-06-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [OT device related items and related lists, Edit or view OT devices after import or discovery, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -19,7 +19,13 @@ View and edit device-to-device connections for your Operational Technology \(OT\
 ## Before you begin
 
 -   Ensure you have the Industrial Core \[sn\_ot\_core\] plugin installed.
--   Role required: admin
+-   Role required:
+
+    |Role|Description|
+    |----|-----------|
+    |cmdb\_ot\_viewer|Required to read or view device to device connections.|
+    |cmdb\_ot\_editor, cmdb\_ot\_isa\_editor|Required to edit, create, or delete device to device connections.|
+
 
 ## About this task
 
@@ -35,7 +41,7 @@ The Device to Device Connections list shows fields from both the OT Device Netwo
 
 3.  Under the **OT Network** module, select the **Device to Device Connections** list.
 
-4.  If needed, edit the following fields.
+4.  If needed, edit the following fields by selecting the checkbox next to an device to device connection and clicking **Edit**.
 
 <table id="table_ydg_5sp_sfc"><thead><tr><th>
 

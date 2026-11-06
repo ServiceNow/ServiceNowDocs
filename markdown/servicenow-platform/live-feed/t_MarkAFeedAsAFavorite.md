@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,9 +30,9 @@ You can also search for messages marked as favorites, and remove the favorite de
 
 2.  Click either **Group Feeds** or **Record Feeds**, and then click **All Feeds**.
 
-3.  In the list of feeds, click the star icon \(\[Omitted image "EmptyStar.png"\] Alt text: Empty star\) adjacent to the feed name you want to mark as a favorite.
+3.  In the list of feeds, click the star iconadjacent to the feed name you want to mark as a favorite.
 
-    To unfavorite a message, click the star icon \(\[Omitted image "FullStar.png"\] Alt text: Full star\) of a message that is already a favorite.
+    To unfavorite a message, click the star iconof a message that is already a favorite.
 
 
 **Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)

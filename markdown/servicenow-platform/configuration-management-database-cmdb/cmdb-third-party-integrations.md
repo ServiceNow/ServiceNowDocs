@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Service Graph connectors, Service Graph connectors landing page]
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
@@ -52,11 +52,11 @@ Simplify integration and resolve issues with the following enhanced integration 
 
 <table id="table_itc_2y5_3dc" class="nav-card"><tbody><tr><td>
 
-[Service Graph Connector Central\[Omitted image "bus-workflow.svg"\] Alt text:CMDB WorkspaceA view for managing the full life cycle of creating, editing, monitoring, and debugging Service Graph Connector connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/sgcc-landing.md)
+[Service Graph Connector Central\[Omitted image "bus-workflow.svg"\] Alt text:CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/sgcc-landing.md)A view for managing the full life cycle of creating, editing, monitoring, and debugging Service Graph Connector connections.
 
 </td><td>
 
-[Now Assist for Service Graph Connectors \(SGC\)\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Generative AI workflow for resolving issues with Service Graph Connectors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Now Assist for Service Graph Connectors \(SGC\)\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Generative AI skills and features for resolving issues within Service Graph Connectors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 
 </td><td>
 

@@ -1,13 +1,13 @@
 ---
 title: Create security incidents from User Reported Phishing emails
-description: Use this feature to create security incidents from user reported phishing emails.The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality available. See Create rules to validate user-reported phishing attacks.As a user with the sn\_si.admin role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to security@acme.com are categorized as user reported phishing emails.Define the header information that must be captured from user reported phishing emails.User reported phishing emails are converted to security incidents based on the email matching rules that have been defined.The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents.Phishing email records stored in the sn\_si\_phishing\_email table are converted to security incidents records.You can view security incidents associated with the phishing email records in the Security Analyst Workspace.This section covers some of the frequently asked questions about the enhanced User Reported Phishing feature.
+description: Use this feature to create security incidents from user reported phishing emails.The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality. See Create rules to validate user-reported phishing attacks.As a user with the sn\_si.admin role, you can define email matching rules to filter user reported phishing emails based on specific criteria. For example, you can define a rule where all emails sent either directly or through the Report Phish button to security@acme.com are categorized as user reported phishing emails.Define the header information that must be captured from user reported phishing emails.User reported phishing emails are converted to security incidents based on the email matching rules that have been defined.The Transform Phishing Email to Security Incident flow converts or transforms phishing email records to security incidents.Phishing email records stored in the sn\_si\_phishing\_email table are converted to security incidents records.You can view security incidents associated with the phishing email records in the Security Analyst Workspace.This section covers some of the frequently asked questions about the enhanced User Reported Phishing feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/urp-about.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 24
 breadcrumb: [Security incident automatic creation, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -67,7 +67,7 @@ View the security incident record details including the Related Lists, Worknotes
 
 ## Required components and plugins
 
-The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality available. See **Create rules to validate user-reported phishing attacks**.
+The User Reported Phishing feature available is an enhanced version of the existing user reported phishing functionality. See **Create rules to validate user-reported phishing attacks**.
 
 **Important Installation Instructions**
 
@@ -90,10 +90,6 @@ This enhancement replaces the existing User Reported Phishing design. The new de
 
 -   The **User Reported Phishing** inbound actions available prior to the Security Incident Response 9.0 release are now disabled. Security incidents are no longer created through the disabled inbound actions.
 -   The Security Operations spoke application must be installed for the new design to take effect. This includes the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/urp-about.md) flow which is available in an inactive state by default. Activate this flow to create security incidents from the phishing email records.
-
-The following image shows the differences between the old and the new designs:
-
-\[Omitted image "urp-diff-image.png"\] Alt text: User Reported Phishing: Differences
 
 To use the enhanced User Reported Phishing feature, the following plugins and components are required:
 
@@ -127,15 +123,21 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Email Processing** &gt; **Ingestion Rules - User Reported Phishing**.
 
-2.  Click **New** to create a new Email Matching Rule.
+2.  Select **New** to create a new Email Matching Rule.
 
 3.  Enter a name and define one or more conditions for the rule.
 
-4.  Click **Submit** to save the rule.
+    You can configure **Rule Type** and select its value:
+
+    -   **Allow**: If the condition matches for an incoming email, a security incident is created.
+    -   **Deny**: If the condition matches for an incoming email, a security incident is not created.
+    **Note:** Incoming emails are evaluated for the deny rules first irrespective of the **Order** value.
+
+4.  Select **Submit** to save the rule.
 
     The following are some sample rules:
 
-    -   **ToRule**: Filter emails that have been sent directly or forwarded to `security@example.com` email id. \[Omitted image "urp-torule-example.png"\] Alt text: Define ToRule
+    -   **To Rule**: Filter emails that have been sent directly or forwarded to `security@example.com` email id. \[Omitted image "urp-torule-example.png"\] Alt text: Define ToRule
     -   **User ID Rule**: Filter emails that have been sent from a specific email id. \[Omitted image "urp-phishbox-example.png"\] Alt text: Define User ID Rule
 
 ## Define User Reported Phishing properties
@@ -165,7 +167,7 @@ Use these options to configure the following user reported phishing settings.
     -   Enter a string that identifies the beginning of the email header.
     -   Enter a string that identifies the end of the email header.
 
-        **Note:** Apply these settings only to headers captured as part of the email body of the phishing email. For instance, if the **PhishAlarm** plugin \(previously known as Wombat\) has configured with the Microsoft Outlook client, when the user clicks the **Report Phish** button, the email headers are captured as per the configuration defined here. The header information is not captured if the phishing email is forwarded as an attachment.
+        **Note:** Apply these settings only to headers captured as part of the email body of the phishing email. For instance, if the **PhishAlarm** plugin \(previously known as Wombat\) has configured with the Microsoft Outlook client, when the user selects the **Report Phish** button, the email headers are captured as per the configuration defined here. The header information is not captured if the phishing email is forwarded as an attachment.
 
 3.  Specify filters to eliminate headers that are not required for investigating the security incident.
 
@@ -194,7 +196,7 @@ When a new phishing email is reported, the following actions take place:
 -   When the email is identified as a phishing email, and it matches to an email matching rule where the **Rule Type** is set to **Allow**, a phishing email record is created in the `sn_si_phishing_email` table.
 -   Finally, the [Transform user-reported phishing emails to security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/urp-about.md) flow is applied to convert the phishing email record to a security incident.
 
-To view the email details, navigate to **Security Incident** &gt; **Show All Phishing Emails**. A list of phishing email records are displayed. Select the date link in the Created column to view the email record.
+To view the email details, navigate to **Security Incident** &gt; **Phishing Emails** &gt; **Show All Phishing Emails**. A list of phishing email records are displayed. Select the date link in the Created column to view the email record.
 
 \[Omitted image "urp-torule-email-record.png"\] Alt text: Phishing email with To Rule
 
@@ -248,15 +250,15 @@ The id assigned to the message.
 
 </td></tr><tr><td>
 
-Matched URP rule
+Matched Ingestion rule
 
 </td><td>
 
-The User Reported Phishing rule that is to be applied on this email. Select the Information icon to view additional details.
+The User Reported Phishing rule that is to be applied on this email.
 
 </td></tr><tr><td colspan="2">
 
-\[Omitted image "urp-emailmatch-torule.png"\] Alt text: URP ingestion rule As you can see, in this example, the **Condition** field shows that the ToRule is applied on this email and a security incident is created. See [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/urp-about.md) for more information on defining email matching rules.
+See [Set up ingestion rules for User Reported Phishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/urp-about.md) for more information on defining email matching rules.
 
 </td></tr><tr><td>
 
@@ -447,8 +449,6 @@ Click the **Child Security Incidents** tab. You can see a list of child security
 
 **Note:** You can see the child security incidents here only if the **Create child incidents for aggregated emails submissions** flag is set to **Yes** in the User Reported Phishing Properties page. See [Define User Reported Phishing properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/urp-about.md) for the details.
 
-\[Omitted image "urp-sec-rec-child.png"\] Alt text: Child security incidents
-
 **Associated phishing emails**
 
 Click the **Associated Phish Emails** tab. You see a list of phishing email records \(duplicate records\) associated with the parent phishing email record.
@@ -477,27 +477,15 @@ You can view security incidents associated with the phishing email records in th
 
 Navigate to **Security Incident** &gt; **New UI**. The workspace opens in a separate browser tab. Select on the security incident associated with the phishing email record to view the security incident.
 
-\[Omitted image "urp-sec-new-ui.png"\] Alt text: URP security incident: New UI
-
 Select the binoculars icon. The original phishing email is displayed.
-
-\[Omitted image "urp-sec-new-ui-phish-email.png"\] Alt text: URP security incident: New UI - phishing email
 
 In the **Explore** tab, select **Incidents** &gt; **Child Security Incidents**.
 
-\[Omitted image "urp-sec-new-ui-phish-child.png"\] Alt text: URP security incident: New UI - child security incidents
-
 Select **Incidents** &gt; **Associated Phish Headers** &gt; ****. You can view the rolled up headers of all child records and phishing email records aggregated to the parent security incident.
-
-\[Omitted image "urp-sec-rec-phish-assoc-header.png"\] Alt text: URP: New UI - Email headers
 
 Select on the phishing email link to view the phishing email record associated with the security incident.
 
-\[Omitted image "urp-sec-rec-phish-from-email.png"\] Alt text: URP: New UI: phishing email record
-
 Select the **Incident Timeline** tab.
-
-\[Omitted image "urp-sec-newui-worknotes.png"\] Alt text: URP: New UI: worknotes
 
 You can view the system updates that highlight:
 

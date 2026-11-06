@@ -7,8 +7,8 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
@@ -88,16 +88,14 @@ Employees
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Monitor journey accelerator plans|[Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)|Journey Accelerator reader.|
-|Create plans and track them for your employees|[Create and track plans for your employees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/create-employee-plan.md)|Managers|
-|View and complete action plans|[Employees view and complete action plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/ja-employee-plan.md)|Employees|
-|Mentoring benefits|[Mentor employees by using a Journey Accelerator plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/ja-mentor-plan.md)|Assigned mentor|
+||||
+| | | |
+| | | |
+| | | |
+| | | |
 
 ## What to explore next
 
-To learn more about configuring and using Journey Accelerator, see:
+To learn more about configuring and using , see:
 
--   [Install and configure Journey Accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/install-journey-accelerator.md)
--   [Working with Journey Accelerator plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/working-with-journey-accelerator-plans.md)
--   [Journey Accelerator reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/ja-reference.md)
-
+-   -   -   

@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Collect employee input, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Collect employee input, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an employee form
@@ -38,8 +38,6 @@ Role required: sn\_hr\_core.admin
 
     The **Form Designer** button appears.
 
-    \[Omitted image "employee-form-form-designer-button.png"\] Alt text: The Form Designer button appears after you save the employee form.
-
 5.  Click **Form Designer** to open the survey designer in a new window.
 
 6.  Use the survey designer to build questions for your employee form.
@@ -61,17 +59,11 @@ Role required: sn\_hr\_core.admin
 
     **Note:** Make sure to provide each question a name so that you can more easily identify the question when creating mappings or HR criteria records.
 
-    \[Omitted image "employee-form-survey-designer-example.gif"\] Alt text: User building questions in the survey designer.
-
 7.  After building your questions, click **Save and Publish**.
-
-    \[Omitted image "employee-form-survey-designer-save-publish.png"\] Alt text: Click Save and Publish in the survey designer to save and publish the questions for your employe form.
 
 8.  Return to and reload the employee form.
 
     The **Add Mappings** field appears on the employee form.
-
-    \[Omitted image "employee-form-add-mappings-option.png"\] Alt text: The Add Mappings field appears on the employee form after you save and publish your questions in the survey designer.
 
 9.  If you want to map one or more questions to fields on a table, fill in the following new fields on the form.
 
@@ -105,7 +97,7 @@ Conditions
 
 </td><td>
 
-Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Use the condition builder to identify one record on the table to access. Make sure that the result is a match to a single record. This field appears when **Add Mappings** is selected.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>    For example, you can map an employee form to the HR Profile \[sn\_hr\_core\_profile\] table with the following condition:
@@ -113,8 +105,6 @@ Use the condition builder to identify one record on the table to access. Make su
     \[User\] \[is \(dynamic\)\] \[Me\].
 
     The result is that the logged-in user's HR profile record is accessed for mapping.
-
-    \[Omitted image "employee-form-add-mappings-for-hr-profile-table.png"\] Alt text: A condition that is set to User, is dynamic, Me. This means that only the logged in user can update their HR profile.
 
 10. To map one or more questions from the employee form to fields on the target table.
 
@@ -173,8 +163,6 @@ Option to make the question read-only. If selected, the user can read but not up
 </td></tr></tbody>
 </table>        For example, you can map a question for the user's manager to the corresponding field on the User \[sys\_user\] table. When the user views the employee form in an HR task, they will see their manager's name filled in for that field. Because it is marked as read-only, the user will be able to read but not update that field.
 
-        \[Omitted image "employee-form-field-mapping-example.png"\] Alt text: A field mapping where the manager question is mapped to a corresponding table field.
-
     3.  Click **Submit** or **Update**.
 
     4.  Repeat the process as needed.
@@ -188,11 +176,7 @@ You can use the employee form in task forms to collect employee input from users
 
 The following GIF shows an example of an HR agent creating a collect employee input task for an employee, Eva Seahorn, as part of an HR case.
 
-\[Omitted image "employee-form-hr-case-hr-task.gif"\] Alt text: An HR agent creating an HR task in an HR task to collect employee input.
-
 The follow GIF shows an example of the employee, Eva Seahorn, then completing the collect employee input to-do in the Employee Center.
-
-\[Omitted image "employee-form-esc-to-do.gif"\] Alt text: An employee completing a collect employee input to-do in the Employee Center.
 
 **Parent Topic:**[Collect employee input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/employee-form-configuration.md)
 

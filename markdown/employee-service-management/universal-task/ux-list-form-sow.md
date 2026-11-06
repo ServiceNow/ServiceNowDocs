@@ -7,16 +7,16 @@ release: yokohama
 product: Universal Task
 classification: universal-task
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add lists under the Universal Task list categories, Add the Universal Task list category in Service Operations Workspace Core, Using Universal Task, Universal Task, Employee Service Management]
+breadcrumb: [Add lists under list categories, Add list category in SOW core, Using Universal Task, Universal Task, Employee Service Management]
 ---
 
 # UX List Form SOW
 
 Learn about the fields of the UX List form. Use this form to create additional lists in the Lists menu of Service Operations Workspace.
 
-## UX list form
+You create additional lists in the Service Operations Workspace to organize tasks logically, improve navigation, reduce clutter, support role-specific views, and enhance compliance tracking.
 
 <table id="table_ghp_rxg_kxb"><thead><tr><th>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on scheduled tasks in Dispatcher Workspace, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Working on scheduled tasks, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Manage scheduled tasks in Dispatcher Workspace
@@ -28,38 +28,38 @@ Role required: wm\_dispatcher or wm\_crew\_moderator
 
 3.  Assign or update a scheduled task.
 
-<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d43438e87">
+<table id="choicetable_qhx_zpy_3sb"><thead><tr><th align="left" id="d47541e98">
 
 Option
 
-</th><th align="left" id="d43438e90">
+</th><th align="left" id="d47541e101">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d43438e96">
+</th></tr></thead><tbody><tr><td id="d47541e107">
 
 **Assign a scheduled task**
 
 </td><td>
 
 1.  Select a task card or a calendar event.
-2.  Click the overflow icon at the top right.
-3.  Click **Confirm Assignment**.
-4.  Click **Save**.
+2.  Select the overflow icon.
+3.  Select **Confirm Assignment**.
+4.  Select **Save**.
 
 
-</td></tr><tr><td id="d43438e126">
+</td></tr><tr><td id="d47541e137">
 
 **Unassign a scheduled task**
 
 </td><td>
 
 1.  Select a calendar event.
-2.  Click the overflow icon at the top right.
-3.  Move a scheduled task to the Pending dispatch state by clicking **Unassign task**.
+2.  Select the overflow icon.
+3.  Move a scheduled task to the Pending dispatch state by selecting **Unassign task**.
 
 
-</td></tr><tr><td id="d43438e150">
+</td></tr><tr><td id="d47541e161">
 
 **Reschedule a scheduled task**
 
@@ -70,24 +70,24 @@ Steps
 
 **Note:** This option appears only if the scheduled task starts beyond the 12-hour threshold.
 
-</td></tr><tr><td id="d43438e173">
+</td></tr><tr><td id="d47541e184">
 
 **Edit the duration of a scheduled task**
 
 </td><td>
 
-1.  Move to the left or right side of the calendar event bar.
-2.  Click and drag to adjust the start or end time of a task.
+1.  Move to the side of the calendar event bar.
+2.  Select and drag to adjust the start or end time of a task.
 
-**Note:** The travel duration will not be affected.
+**Note:** The travel duration won’t be affected.
 
-</td></tr><tr><td id="d43438e194">
+</td></tr><tr><td id="d47541e205">
 
 **Remove time gaps between tasks**
 
 </td><td>
 
-1.  Right-click on a task in the calendar.
+1.  Select and hold \(or right-click\) on a task in the calendar.
 2.  Select **Remove time gap**.
 
 **Note:** This feature is restricted when:
@@ -98,5 +98,3 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Working on scheduled tasks in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/view-and-assign-scheduled-tasks.md)
-

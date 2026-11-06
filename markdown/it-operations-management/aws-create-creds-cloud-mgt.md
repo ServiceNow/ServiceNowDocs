@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aws-create-creds-cloud-mgt.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up AWS service accounts, Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Configure access to the AWS accounts using permanent AWS credentials
@@ -134,5 +134,5 @@ The **Secret access key** that you generated on the AWS Management Console, such
 
 Create an AWS service account on the ServiceNow AI Platform. For more information, see [Create AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/create-aws-service-accounts.md).
 
-**Parent Topic:**[Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-use-emails-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lead Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Compose emails
@@ -20,11 +20,13 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select a lead that you want to work with.
 
 3.  Select the **Emails** tab.
+
+    **Note:** The **Emails** tab displays both emails linked directly to the lead and emails linked to the lead's touchpoints.
 
 4.  Select **Compose Email** to start a new email or select an existing email to view details.
 
@@ -41,4 +43,13 @@ Role required: sales\_agent
 
 6.  Select **Send email** to send the email or close the email form to save it in the **Draft Emails** tab.
 
+
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

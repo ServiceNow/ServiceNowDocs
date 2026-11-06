@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Apply the CSDM guidelines to Digital Portfolio Management
@@ -26,11 +26,11 @@ See how DPM aligns with the CSDM framework to provide a holistic view of your IT
 
 \[Omitted image "DPM\_and\_CSDM\_infographic\_V2-03.png"\] Alt text: DPM-and-CSDM.
 
-## CSDM life-cycle fields for business and technical services
+## CSDM life-cycle fields for business and technology management services
 
-Service portfolios viewed in DPM display the phase \(or stage\) field and the status field in the header of each business and technical service and service offering. The field values come from the service table \[cmdb\_ci\_service\].
+Service portfolios viewed in DPM display the phase \(or stage\) field and the status field in the header of each business and technology management service and service offering. The field values come from the service table \[cmdb\_ci\_service\].
 
-**Important:** For the Yokohama release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Yokohama release, the labels are Technical Service and Technical Service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Brazil release, the labels are technology management service and technology management service Offering.
 
 The following comparison shows the differences from the traditional Service Portfolio Management phase and status fields to the CSDM life-cycle stage and status fields.
 

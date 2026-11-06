@@ -7,16 +7,14 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Retirement definitions
 
 Specify a retirement definition for a class, to reflect protocols in your organization applicable to the class and to its child classes. These definitions support the transition of CIs through life cycle stages as implemented by CMDB Data Manager life-cycle policies. A class can have a retirement definition by derivation, or by a retirement definition specified for that class.
-
-**Note:** The same retirement definitions are used in both the Data Manager legacy build on Core UI and [Data Manager in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
 
 ## CMDB Data Manager requirement and usage
 
@@ -40,9 +38,15 @@ Always be aware of the automatic derivation of retirement definitions throughout
 
 The base system includes predefined retirement definitions for key classes such as Hardware \[cmdb\_ci\_hardware\] and Application \[cmdb\_ci\_appl\], and are stored in the CMDB Retirement Custom Definitions \[cmdb\_retirement\_custom\_definitions\] table. For example, the predefined retirement definition for the Service \[cmdb\_ci\_service\] class specifies that for a retired CI, the value of the attributes \[operational status\], \[Phase\], and \[Status\] is **Retired**.
 
-Predefined retirement definitions are inactive by default\(other than the cmdb\_ci retirement definition which is always active\), and you must activate a retirement definition that corresponds to a targeted class in a Retire, Archive, or Delete CMDB Data Manager policy. By default, the cmdb\_ci retirement definition is in effect throughout the entire CMDB hierarchy due to derivation.
+Retirement definition for the Configuration item \[cmdb\_ci\] class behaves in the following important ways:
+
+-   It is active by default and you can't deactivate it.
+-   You can't delete it.
+-   By default, it is in effect throughout the entire CMDB hierarchy due to derivation.
+
+The rest of the predefined retirement definitions are inactive by default, and you must activate a retirement definition that corresponds to a targeted class in a Retire, Archive, or Delete CMDB Data Manager policy.
 
 You can use the default retirement definitions, or customize a definition to reflect practices in your organization. You can also add a custom retirement definition for a class. However, each CMDB class can be associated with only a single retirement definition.
 
-To create a retirement definition, see [Manage retirement definitions in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md) or [Edit and activate a retirement definition \(in Core UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/edit-life-cycle-rule.md).
+To manage or delete a retirement definition, see [Manage retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md).
 

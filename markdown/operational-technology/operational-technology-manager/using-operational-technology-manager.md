@@ -1,20 +1,20 @@
 ---
 title: Using the Operational Technology Manager
-description: After you complete all required set up tasks, including installing the Operational Technology \(OT\) extension classes and assigning user roles, perform the following tasks to create the foundational data and relationships for the ServiceNow Operational Technology solution.
+description: After completing setup tasks, perform the following tasks to create foundational data and relationships for the ServiceNow Operational Technology solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-manager/using-operational-technology-manager.html
 release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Manager, Operational Technology]
 ---
 
 # Using the Operational Technology Manager
 
-After you complete all required set up tasks, including installing the Operational Technology \(OT\) extension classes and assigning user roles, perform the following tasks to create the foundational data and relationships for the ServiceNow® Operational Technology solution.
+After completing setup tasks, perform the following tasks to create foundational data and relationships for the ServiceNow® Operational Technology solution.
 
 |Task|Purpose|
 |----|-------|
@@ -23,10 +23,12 @@ After you complete all required set up tasks, including installing the Operation
 |3. Run the Discovery for Operational Technology function.|Discovers Operational Technology \(OT\) devices in designated Purdue levels in your Industrial Control System \(ICS\) networks|
 |4. Use the selections on the Operational Technology \(OT\) menu.|Enables editing or viewing detailed information for the OT devices in your enterprise.|
 
+-   **[Use the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/using-now-assist-for-otm.md)**  
+You can search for Operational Technology \(OT\) configuration items \(CIs\) and OT device information using the Operational Technology \(OT\) Manager Foundation.
+-   **[Agentic AI for the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/now-assist-for-otm-use-cases.md)**  
+The Operational Technology \(OT\) Manager Foundation AI agent operates within agentic workflows to complete tasks autonomously.
 -   **[Service Graph Connector for Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/service-graph-connector-for-OT-excel.md)**  
 The Service Graph Connector for Microsoft Excel function enables you to import your existing Operational Technology data from a populated Microsoft Excel flat-file spreadsheet. You use it in the Integration Hub Extract Transform Load \(ETL\) to upload this data to the Configuration Management Database \(CMDB\).
--   **[IT Discovery for OT Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/discovery-for-operational-technology.md)**  
-You can run the IT Discovery for OT Networks function to discover IT class Operational Technology \(OT\) devices in designated Purdue levels in your Industrial Control System \(ICS\) networks. IT class items include switches, routers, and computers that exist both in data centers and in your factories.
 -   **[Create an Operational Technology device in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/create-ot-ci-industrial-workspace.md)**  
 Create an Operational Technology \(OT\) device in the Industrial Workspace.
 -   **[Edit or view OT devices after import or discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/view-ot-assets.md)**  
@@ -39,6 +41,8 @@ You can model an Operational Technology \(OT\) system service to create other co
 Create a scheduled job that automatically converts your IT hardware to Operational Technology \(OT\) devices by using the Bulk Update Ruleset for Reassigning IT to OT feature. This scheduled job adds OT entity details to all the IT hardware that you want to convert at once.
 -   **[Use CMDB groups to add OT context to IT CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.md)**  
 Use Configuration Management Database \(CMDB\) groups to group IT configuration items \(CIs\) based on additional information, like installed software. Then you can add Operational Technology \(OT\) context to the IT CIs.
+-   **[Create CMDB Data Certification Policy for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/ot-cmdb-data-certification.md)**  
+Create a CMDB Data Certification Policy for Operational Technology \(OT\) to validate and maintain accurate configuration item \(CI\) data.
 
 **Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/operational-technology-manager.md)
 

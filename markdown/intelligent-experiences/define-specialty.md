@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/define-specialty.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Define the specialty of an AI agent
@@ -22,6 +22,10 @@ Role required: sn\_aia.admin
 
 The first step of the guided setup enables you to define the fundamentals of the AI agent. The description, AI agent role, and list of steps fields are used by the LLM to understand how to use the AI agent, by itself or as part of an agentic workflow. Descriptions, AI agent roles, and list of steps should be clear and well-defined. For guidelines for writing these fields, see [Writing effectively for agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/gg-creating-aia.md). For an example AI agent, see [Example AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/example-aia.md).
 
+\[Omitted image "image.create-aia-new1"\] Alt text: AI Agent Guided Setup showcasing the different stages of configuring an AI agent.
+
+**Note:** If you have the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) installed on your ServiceNow instance, then the Premium Chat experience may differ from the standard experience. If you plan to use an AI agent in the Premium Chat mode, make sure to test so it works as expected.
+
 ## Procedure
 
 1.  Enter a name for the AI agent.
@@ -34,7 +38,7 @@ The first step of the guided setup enables you to define the fundamentals of the
 
     The difference between the description and the agent role is that the agent role provides more detail about the function that the AI agent serves within a greater context. The greater context may be as part of an agentic workflow, or it could be the specific function it serves in another type of work process.
 
-    \[Omitted image "def-spec-1.png"\] Alt text: Approval Assistant Agent name, description, and role
+
 
 4.  Craft a list of steps.
 
@@ -54,7 +58,9 @@ The first step of the guided setup enables you to define the fundamentals of the
 
     Long-term memory for AI agents enables agents to access data outside of the specific conversation or trigger that executes it. For example, you can select the **Device and Software** category to give the AI agent access to user information about the kinds of hardware devices and software that are available to the invoking user. The AI agent can remember this information in later conversations.
 
-    \[Omitted image "def-spec-2.png"\] Alt text: Unsupported model providers and memory options
+    -   For more information about creating LTM categories, see .
+    -   For more information about selecting the categories to map them to you AI agent, see .
+
 
 8.  Configure AI agent learning.
 

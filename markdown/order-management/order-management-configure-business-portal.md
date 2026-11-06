@@ -1,22 +1,22 @@
 ---
 title: Configuring the Business Portal
-description: Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer can browse products and create orders in Sales Customer Relationship Management.
+description: Enable B2B customers to self-serve key processes such as order creation, order case management, invoice management, request for quote \(RFQ\) creation by configuring the Business Portal \(sn\_b2b\_portal\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-management-configure-business-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring the Business Portal
 
-Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer can browse products and create orders in Sales Customer Relationship Management.
+Enable B2B customers to self-serve key processes such as order creation, order case management, invoice management, request for quote \(RFQ\) creation by configuring the Business Portal \(sn\_b2b\_portal\).
 
 ## Configuration overview
 
-1.  Install the following plugins in the given order using the Application Manager to set up the Business Portal:
+1.  Install the following applications and features in the specified order using the Application Manager to set up the Business Portal:
 
     1.  Order Management Portal: sn\_ord\_mgmt\_portal
     2.  Product Catalog Management Portal: sn\_prd\_pm\_portal
@@ -26,12 +26,43 @@ Admins can configure the Business Portal \(sn\_b2b\_portal\) so that customer ca
 
     4.  UI Components for Customer Portals: sn\_ciwf\_ui\_cmpnt
     5.  Sales Cart plugin: sn\_sales\_cart
+    6.  Customer Request for Quote plugin: sn\_cust\_rfq
 2.  [Enable the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-management-enable-business-portal.md)
 
     Enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 
-3.  \(Optional\) [Install apps for self-service order case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/activating-self-service-order-case-management-business-portal.md)
+3.  [Configuring product catalog visibility on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/catalog-visibility-business-portal.md)
 
-    Install the necessary plugins based on the self-service options that you want to offer customers for managing order cases on the Business Portal.
+    By default, only users with the sn\_customerservice.customer role can view the product catalog on the Business Portal. After setting up your product catalog and pricing, use the CustomerPortalCatalogAccessUtil script include to extend catalog visibility to additional users.
 
+4.  [Configuring Sales Cart for Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-sales-cart.md)
+
+    Provide easy order creation and checkout processes to your customers through the Sales Cart application.
+
+5.  \(Optional\) [Install Customer Request for Quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-rfq-plugin.md)
+
+    Enable B2B customers to request for quotes \(RFQ\) from the Business Portal. Installing this application also installs the Request for Quote module in the CRM Workspace, which enables sales agents to generate quotes from the RFQs.
+
+6.  \(Optional\) [Install apps for self-service order case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/activating-self-service-order-case-management-business-portal.md)
+
+    Install the applications or features that provide the self-service options that you want to offer customers for managing order and invoice cases on the Business Portal.
+
+
+## Enable AI-powered workflows on the Business Portal
+
+-   [Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-manage-order-operations.md)
+
+    Enable B2B customers to submit order cases using from the Business Portal using chat and voice options.
+
+-   [Configuring the Manage Invoice Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-manage-invoice-operations.md)
+
+    Enable B2B customers to submit invoice cases using from the Business Portal using chat and voice options. Billing specialists and agents can use the invoice dispute assist agentic workflow from the CRM Workspace to resolve invoice cases.
+
+
+**Related topics**  
+
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
+
+[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-business-portal-reference.md)
 

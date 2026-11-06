@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/scripting-for-map-pages.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -165,8 +165,6 @@ while (count.next()) {
 ## Map page marker label script
 
 Marker labels allow you to add dynamic text to markers. This example displays the active incident count at each location.
-
-\[Omitted image "MapMarkerLabels.png"\] Alt text:
 
 ```
 //get the instances url so we can link back to it

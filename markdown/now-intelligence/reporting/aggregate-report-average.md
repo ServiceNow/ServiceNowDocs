@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-05-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Aggregation in reporting, Reporting reference, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Aggregation in Core UI reporting, Core UI Reporting reference, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Aggregate a report on averages
@@ -57,4 +57,6 @@ When you choose the average aggregation, you can also specify the **Percentage c
 ## Result
 
 The sections of the visualization are grouped by the average of the selected records.
+
+**Parent Topic:**[Aggregation in Core UI reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/aggregation-reporting.md)
 

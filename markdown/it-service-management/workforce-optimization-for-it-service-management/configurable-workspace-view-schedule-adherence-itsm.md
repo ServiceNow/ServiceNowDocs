@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Schedule Adherence in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Schedule Adherence, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Monitor schedule adherence of your agents
@@ -17,6 +17,8 @@ breadcrumb: [Schedule Adherence in Workforce Optimization for ITSM, Scheduling i
 Evaluate whether or not your agents are adhering to their assigned schedules. Look for areas where agent activities that do not offer much value can be reduced or eliminated and fine-tune your staffing levels requirements based on their adherence.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 
@@ -40,15 +42,15 @@ Role required: sn\_shift\_planning.admin
 
 3.  Monitor the schedule adherence of your agents.
 
-<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d332042e128">
+<table id="choicetable_c54_ns5_hrb"><thead><tr><th align="left" id="d193175e144">
 
 To
 
-</th><th align="left" id="d332042e131">
+</th><th align="left" id="d193175e147">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d332042e137">
+</th></tr></thead><tbody><tr><td id="d193175e153">
 
 **View schedule adherence at organization or team level**
 
@@ -56,7 +58,7 @@ Do this
 
 Click the **Schedule Adherence** tab.The bar displays the schedule adherence and conformance in percentage for your teams. Click on the bar chart to drill down and view more analytics.
 
-</td></tr><tr><td id="d332042e152">
+</td></tr><tr><td id="d193175e168">
 
 **Analyze planned vs actual scheduling for your team members**
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/now-assist-for-esg.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -46,7 +46,7 @@ Use the ServiceNow Otto for Operational Sustainability application to empower yo
 
 </td><td>
 
-Use Operational Sustainability Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Operational Sustainability
+[Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)Use Operational Sustainability Management AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in ServiceNow Otto for Operational Sustainability
 
 </td><td>
 
@@ -67,14 +67,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 
 -   **[Exploring ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/exploring-now-assist-for-esg.md)**  
 With the Operational Sustainability Management application, you can use the skills to automate the collection of operational sustainability metric data from utility bill documents.
 -   **[Configure ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configure-now-assist-for-esg.md)**  
 If you have the admin role, you can configure the ServiceNow Otto for Operational Sustainability application so that your users can use the generative AI skills in the Operational Sustainability Workspace.
+-   **[Use agentic AI in ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/use-agentic-ai-in-now-assist-for-esg-management.md)**  
+Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
 -   **[Using ServiceNow Otto for Operational Sustainability \(formerly ESG\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.md)**  
 If you have the sn\_esg\_gen\_ai.docintel\_user role, you can leverage the ServiceNow Otto for Operational Sustainability skill to automate the extraction of metrics data from utility invoices. Then map the extracted data to the correct metric definitions and entities.
 

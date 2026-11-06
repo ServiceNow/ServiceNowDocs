@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Collaboration services for Zoom, ServiceNow for Zoom, Zoom integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Collaboration services for Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Install fix-script for Collaboration services for Zoom

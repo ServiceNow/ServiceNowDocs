@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [GRC: Policy and Compliance integrator, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Using the GRC: Policy and Compliance integrator to display batch records and import tasks
@@ -26,5 +26,5 @@ You can access the **All** &gt; **Policy and compliance integrator** &gt; **Cont
 
 \[Omitted image "policy-and-comp-integrator-module-ui.png"\] Alt text: Policy and compliance integrator module.
 
-For information on how you can import the content from your third-party content providers into the Policy and Compliance Management application tables, see [Accessing the batch records in the content integration batch table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/api-batch.md) and [Assign a library import task for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
+For information on how you can import the content from your third-party content providers into the Policy and Compliance Management application tables, see [Content integration batch table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/api-batch.md) and [Assign a library import task for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/assign-lib-import-task.md).
 

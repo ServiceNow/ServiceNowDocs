@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View sibling tasks related to a work order
@@ -24,7 +24,7 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
 1.  Navigate to **All** &gt; **Field Service Contractor Portal** &gt; **Homepage**.
 
-2.  Click **My Lists** &gt; **My Tasks** &gt; **All Tasks**.
+2.  Select **My Lists** &gt; **My Tasks** &gt; **All Tasks**.
 
 3.  Open a work order task from the list.
 
@@ -34,6 +34,4 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
     The sibling work order task provide details, such as parent work order task number, required asset, location, and so on.
 
-
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

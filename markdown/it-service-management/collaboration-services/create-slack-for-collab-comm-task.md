@@ -7,7 +7,7 @@ release: yokohama
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a collaborative communication task, Process flow for Slack communication, Collaboration services, IT Service Management]
 ---
@@ -39,7 +39,7 @@ Role required: major\_incident\_manager
     |Fields|Description|
     |------|-----------|
     |Add participants|Individual users or groups whom you want as participants to the channel.|
-    |Recommended and Selected|Columns to personalize your list. Select the items in the **Recommended** column and move them to the **Selected** column using the right-arrow icon \(\[Omitted image "right-arrow-icon.png"\] Alt text: Right-arrow icon.\).|
+    |Recommended and Selected|Columns to personalize your list. Select the items in the **Recommended** column and move them to the **Selected** column using the right-arrow icon.|
     |Channel name|Unique name for the channel that differentiates it from the rest of the channels in Slack.|
     |Channel topic|Description about the purpose of the channel.|
     |Include a brief message for participants|Brief message that you want to send to the participants.|

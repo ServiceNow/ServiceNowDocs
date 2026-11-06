@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing Task Intelligence for ITSM models, Task Intelligence for ITSM, IT Service Management]
+breadcrumb: [Manage, Task Intelligence for ITSM, IT Service Management]
 ---
 
 # Create an incident prediction model in Task Intelligence for ITSM

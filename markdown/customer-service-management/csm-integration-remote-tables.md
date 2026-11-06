@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-remote-tables.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Using remote tables and the Salesforce spoke
@@ -16,7 +16,7 @@ Create Salesforce spoke actions that you can use to test the third-party data in
 
 -   **[Using the IntegrationHub Salesforce spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-integration-salesforce.md)**  
 Use the Salesforce spoke to integrate a Salesforce account with your ServiceNow instance.
--   **[Create Salesforce spoke actions to retrieve opportunities for use in the remote table definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-integration-salesforce-spoke.md)**  
+-   **[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-integration-salesforce-spoke.md)**  
 The Salesforce spoke provides actions to retrieve metadata of the opportunity record and create a new opportunity.
 -   **[Remote tables and definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-remote-tables-definition.md)**  
 Once you have the spoke custom actions working, you need to create a remote table that describes the schema for the data to be retrieved from the Salesforce Opportunity table.

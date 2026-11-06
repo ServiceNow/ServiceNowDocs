@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrating ServiceNow Virtual Agent with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Install Conversational Integration with Microsoft Teams
@@ -78,5 +78,10 @@ Review these guidelines for using Virtual Agent with Microsoft Teams.
 
 [Integrate ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.md).
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+-   **[Remove Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/uninstall_va_msteams.md)**  
+Remove the integrations between your ServiceNow Virtual Agent bot or the Self-configured bots and Microsoft Teams to disassociate the app with your ServiceNow instance.
+-   **[Activate ServiceNow Otto for Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
+Add ServiceNow Otto for Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
+
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

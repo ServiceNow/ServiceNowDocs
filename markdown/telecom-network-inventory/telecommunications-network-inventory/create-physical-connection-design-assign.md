@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Instantiating your network inventory by using design and assign, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Create physical connection using design and assign
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-When you create a physical connection, it creates the corresponding configuration item \(CI\) records in the Physical Connection \[cmdb\_ci\_ni\_physical\_link\] table. To learn more, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you create a physical connection, it creates the corresponding configuration item \(CI\) records in the Physical Connection \[cmdb\_ci\_ni\_physical\_link\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 

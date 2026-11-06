@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_FiltDeviceNotifUsingASchedule.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a notification filter, Subscription-based notifications, Setting notification preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create a notification filter, Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Filter device notifications using a schedule
@@ -32,7 +32,7 @@ Notifications that are triggered outside of the scheduled days and times for the
 
 4.  In the **Schedule** field, select the schedule for the device.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_NotificationFilters.md)

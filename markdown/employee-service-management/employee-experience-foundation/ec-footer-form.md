@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Footer configuration, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Footer form
@@ -25,6 +25,8 @@ Use the Footer form to create a new footer that you want to appear in the Employ
 |Copyright|The copyright information to appear in the footer.|
 |Active|Option to activate this footer for use.|
 
+**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
+
 **Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
@@ -34,7 +36,7 @@ Use the Footer form to create a new footer that you want to appear in the Employ
 
 [Activity Configuration Detail form]()
 
-[Browser Extension for Employee Center forms]()
+[Approvals experience reference]()
 
 [Connected Content form]()
 
@@ -68,11 +70,9 @@ Use the Footer form to create a new footer that you want to appear in the Employ
 
 [Portal notification content form]()
 
-[Quick Link form]()
-
-[Standard banner and icon sizes]()
-
 [Trigger conditions form]()
+
+[Quick Link form]()
 
 [Tab widget mapping form]()
 
@@ -80,9 +80,13 @@ Use the Footer form to create a new footer that you want to appear in the Employ
 
 [Topic form]()
 
-[To-do content form]()
-
 [User Criteria form]()
 
 [User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 

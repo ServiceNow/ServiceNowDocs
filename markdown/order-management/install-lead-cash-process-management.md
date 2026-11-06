@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/install-lead-cash-process-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Lead-to-Cash Process Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Lead-to-Cash Process Management
@@ -49,7 +49,7 @@ For more information, see [Components installed with Lead-to-Cash Process Manage
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
@@ -63,4 +63,11 @@ The O2C Objects business object group also becomes available. It contains entiti
 ## What to do next
 
 Assign roles to Lead-to-Cash Process Management users so that they can access features and perform tasks using this app. For more information, see [Assign roles to Lead-to-Cash Process Management users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/assign-roles-lead-cash-process-management.md).
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
 

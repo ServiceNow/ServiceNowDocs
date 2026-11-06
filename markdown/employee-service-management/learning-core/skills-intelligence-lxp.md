@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Learning integration with Skills Foundation
@@ -41,6 +41,4 @@ When the Skills Foundation property sn\_skills\_int.enable\_skills is set to tru
 
 -   Learning recommendations presented with My Learning
 -   Recommendation based on skill gaps between employee's skills and those identified as required for their current job.
-
-**Parent Topic:**[Exploring Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning.md)
 

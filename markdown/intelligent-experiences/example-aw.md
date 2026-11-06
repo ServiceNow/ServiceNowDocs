@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/example-aw.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Writing effectively for agentic AI, AI agents best practices, Exploring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Writing prompts for agentic AI, AI agents best practices, Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Example agentic workflow

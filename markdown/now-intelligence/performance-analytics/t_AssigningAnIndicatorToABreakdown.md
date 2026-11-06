@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated breakdowns, Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Automated breakdowns, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Assign an indicator to an automated breakdown
@@ -24,7 +24,7 @@ Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Automated Breakdowns**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Breakdowns** &gt; **Automated Breakdowns**.
 
 2.  Select a breakdown record.
 

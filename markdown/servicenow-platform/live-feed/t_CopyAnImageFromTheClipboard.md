@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,15 +24,11 @@ Role required: none
 
 1.  Click into the **Comment** box and add a comment.
 
-    \[Omitted image "CopyPaste.png"\] Alt text: Copy paste
-
 2.  Click the **Add an image** button.
 
     The **Screenshots** dialog box opens.
 
 3.  Right-click the **Paste an image here** box and select **Paste** to paste the image from the clipboard.
-
-    \[Omitted image "CopyPasted.png"\] Alt text: Copy pasted
 
 4.  To add another image, repeat the previous steps.
 
@@ -44,7 +40,7 @@ Role required: none
 
 8.  To remove an image, click the trash can icon adjacent to the link.
 
-9.  To make changes to an existing image, click the edit icon \(\[Omitted image "Pencil.png"\] Alt text: Pencil\).
+9.  To make changes to an existing image, click the edit icon .
 
     **Note:** The copy/paste functionality is supported in Chrome, Firefox, and Internet Explorer 11.
 

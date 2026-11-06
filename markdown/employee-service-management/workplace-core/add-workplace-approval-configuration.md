@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a workplace performer criteria, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Create a workplace performer criteria, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Add a workplace approval configuration

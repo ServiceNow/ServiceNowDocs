@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,15 +32,13 @@ Create indicators provide you the ability to set a list of indicators for detect
 
 2.  Select the security incident that contains the observables for which you want to create indicators in Microsoft Defender for Endpoint.
 
-3.  Click the Associated Observables related lists.
+3.  Select the Associated Observables related lists.
 
 4.  Add any existing observables or create new observables.
 
 5.  Select the observables.
 
-6.  From the **Actions** on selected rows, click **Create Indicator in Microsoft Defender**.
-
-    \[Omitted image "create\_indicators.png"\] Alt text: Associated Deliverables view: Select Create Indicators in Microsoft Defender for Endpoint from the Actions list.
+6.  From the **Actions** on selected rows, select **Create Indicator in Microsoft Defender**.
 
 7.  On the form, fill in the fields.
 
@@ -141,10 +139,10 @@ RBAC Group Names
 RBAC group names that the indicator would be applied to. The names are in a comma-separated list.
 
 </td></tr></tbody>
-</table>8.  Click **Create Indicator**
+</table>8.  Select **Create Indicator**
 
 9.  Validate the activity and UI messages.
 
-10. Click the **Microsoft Defender Indicator** tab to view the results.
+10. Select the **Microsoft Defender Indicator** tab to view the results.
 
 

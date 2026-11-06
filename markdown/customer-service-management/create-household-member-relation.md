@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-household-member-relation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring households, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create a relationship between household members
@@ -16,7 +16,14 @@ Create a relationship between two consumers who are current members of the same 
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager, admin
+Role required: One of the following roles:
+
+-   sn\_crm\_household\_relationship\_data\_manager
+-   sn\_crm\_consumer\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 
@@ -28,9 +35,9 @@ Relationships are based on responsibilities. A responsibility definition describ
 
 2.  Select a household.
 
-3.  In the Member Relationships related list, click **New**.
+3.  In the Member Relationships related list, select **New**.
 
-    This related list shows the current relationships that exist between consumers in this household. When you click **New**, a new Household Member Relationship is displayed with the **Household** field already filled in.
+    This related list shows the current relationships that exist between consumers in this household. When you select **New**, a new Household Member Relationship is displayed with the **Household** field already filled in.
 
 4.  In the **Consumer is** field, select the consumer in the household to fulfill the responsibility on behalf of another consumer within the same household.
 
@@ -42,7 +49,7 @@ Relationships are based on responsibilities. A responsibility definition describ
 
     **Note:** Starting with the Yokohama release, the **Type** field is added to the Consumer Relationships form. For more information on how to populate the **Type** field for existing data, see [Populate the Type field in relationship tables using the fix script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/migration-of-account-manager-responsibility-access.md).
 
-8.  Click **Submit**.
+8.  Select **Submit**.
 
     The relationship is added to the Member Relationships related list.
 

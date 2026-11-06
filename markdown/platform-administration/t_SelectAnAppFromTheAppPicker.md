@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_SelectAnAppFromTheAppPicker.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Legacy Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Select an application from the application picker
@@ -45,5 +45,5 @@ For more information about application scoping, see [Application scope](https://
 
 For more information about selecting update sets, see [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/select-update-set-system-settings.md).
 
-**Parent Topic:**[Using Legacy Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/using-legacy-application-manager.md)
+**Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/p_CoreConfigurationOverview.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring CMDB Identification and Reconciliation, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components and process of Identification and Reconciliation
@@ -54,7 +54,7 @@ Predefined identification are included for many of the tables in the base system
 
 ## Identification and Reconciliation Engine \(IRE\)
 
-[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md) is a rule-based engine, operating as an underlying key component in Identification and Reconciliation. IRE provides a centralized framework to perform identification and reconciliation processes across different data sources. IRE uses identification rules, reconciliation rules, and IRE data source rules when processing incoming data before inserting or updating data in the CMDB. IRE processes help maintain data integrity in the CMDB.
+[Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md) is a rule-based engine, operating as an underlying key component in Identification and Reconciliation. IRE provides a centralized framework to perform identification and reconciliation processes across different data sources. IRE uses identification rules, reconciliation rules, and IRE data source rules when processing incoming data before inserting or updating data in the CMDB. IRE processes help maintain data integrity in the CMDB.
 
 -   IRE prevents duplicate CIs by uniquely identifying CIs.​
 -   IRE reconciles CI attributes by allowing only authoritative data sources to write to CMDB.

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/troubleshoot-oauth.html
 release: yokohama
 topic_type: topic
-last_updated: "2022-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Troubleshoot synthetic monitors, Synthetic monitoring reference, Synthetic monitoring, ITOM Health, IT Operations Management]
+breadcrumb: [Troubleshoot, Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # OAuth issues

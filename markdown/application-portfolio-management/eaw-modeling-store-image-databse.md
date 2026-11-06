@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-store-image-databse.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Custom shapes support in the Enterprise Modeling and Visualization, Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with custom shapes, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Storing shapes or images to the database
@@ -33,5 +33,16 @@ Every shape in Enterprise Modeling and Visualization is associated with an image
     For more details, see [Image form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-image-form.md).
 
 
-**Parent Topic:**[Custom shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shapes.md)
+**Parent Topic:**[Working with custom shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-working-custom-shapes.md)
+
+**Related topics**  
+
+
+[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-action-custom-shape.md)
+
+[Add a custom shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-custom-shape-library.md)
+
+[Add a shape library element for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shape-element.md)
+
+[Custom shapes example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shape-example.md)
 

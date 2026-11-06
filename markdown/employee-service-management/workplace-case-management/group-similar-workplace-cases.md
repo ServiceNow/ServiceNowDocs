@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -59,7 +59,7 @@ The workplace case is assigned to a parent case.
 
 **Important:** The case selected in the **Parent case** field and the case displayed in the **Parent** field are different. The workplace case displayed in the **Parent** field is generated from the workplace service to which the case is associated. A parent is assigned automatically if the **Activity type** of the workplace service is **Task** or **Child case**.
 
-**Parent Topic:**[Configure Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
@@ -69,6 +69,10 @@ The workplace case is assigned to a parent case.
 [Create a Workplace case template]()
 
 [Create a Workplace task template]()
+
+[Smart Assessment for Workplace Case and Task]()
+
+[Automating seat assignment for new hires]()
 
 [Configure Approval options]()
 

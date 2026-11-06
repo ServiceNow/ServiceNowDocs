@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_InstalledWithPushNotifications.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Push notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,6 +22,8 @@ Several types of components are installed with the push notifications plugins.
 [Push notification system]()
 
 [Activate push notifications]()
+
+[Enable push notifications for logged-out users]()
 
 [Push notification properties]()
 

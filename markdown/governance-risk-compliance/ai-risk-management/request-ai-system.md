@@ -1,62 +1,130 @@
 ---
 title: Request an AI use case
-description: Request the development or procurement of an AI use case to initiate and document the need for an AI-driven solution within an organization. This process ensures that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
+description: Request the development or procurement of an AI system to initiate and document the need for an AI-driven solution within an organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+keywords: [request AI system, AI use case intake, AI governance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Request an AI use case
 
-Request the development or procurement of an AI use case to initiate and document the need for an AI-driven solution within an organization. This process ensures that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
+Request the development or procurement of an AI system to initiate and document the need for an AI-driven solution within an organization.
 
 ## Before you begin
 
-Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+To classify AI systems using a risk-based approach at intake, a teammate with the AI Risk and Compliance Admin \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_admin\] role must complete the following.
+
+-   Set the **Migrate to Advanced Risk Assessments** property to publish risk assessment methodologies \(RAMs\). For more information, see [Set up Advanced Risk assessments properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/advanced-risk-assessments-properties-airc.md).
+-   Publish assessment templates. For more information, see [Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-assessment-templates.md).
+-   Configure the `sn_grc_ai_gov.ai_system_automated_risk_classification_asmt_ram` property to specify a default RAM used for automated regulatory risk classification of AI systems at intake. For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
+-   Configure the `sn_grc_ai_gov.aisystem_primary_ram` property to specify a default RAM for AI systems. For more information, see [Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
+
+**Note:**
+
+If these prerequisites aren't met, intake submissions are accepted but risk classification isn't performed.
+
+Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
 
 ## About this task
 
-The Request an AI System feature enables you to initiate requests for the development or procurement of AI-based solutions. Whether you need a custom AI model, an automation tool, or an advanced analytics system, this platform streamlines the process by capturing key requirements and facilitating approvals.
+If you're using the AI Risk and Compliance \(AIRC\) application, you submit requests through the Employee Center and related tasks such as impact assessments and review tasks \(for example, legal, security, and architecture\). If you're using the AI Control Tower \(AICT\) application, you can submit requests from the AI Control Tower dashboard and manage AI assets through AICT's inventory and life cycle experience. After you submit through the Employee Center, you land on the confirmation page. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding record in AI Control Tower instead of the legacy AI Control Tower workspace. The AI system record header also displays the system name and identifier.
 
-For example, a financial institution wants to improve its loan approval process by implementing an AI-based credit scoring system. The finance team submits an AI request, detailing their requirements, such as risk assessment details, credit data analysis, and automated decision-making. The request is then reviewed for feasibility, budget, and compliance before development or procurement proceeds.
+For more information about the end-to-end life cycle, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md). For an overview of AI Risk and Compliance setup and configuration, see [Configuring AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configuring-ai-risk-and-compliance.md).
+
+The Request an AI system feature enables you to initiate requests for the development or procurement of AI-based solutions. Whether you need a custom AI model, an automation tool, or an advanced analytics system, the platform captures key requirements and facilitates approvals.
+
+For example, a financial institution wants to improve its loan approval process by implementing an AI-based credit scoring system. The finance team submits an AI request detailing requirements such as risk assessment considerations, credit data analysis, and automated decision-making. The request is reviewed for feasibility, budget, and compliance before development or procurement proceeds.
 
 ## Procedure
 
-1.  Request an AI system from either the Employee Center or the AI Control Tower dashboard.
+1.  Request an AI system from the Employee Center or from the AI Control Tower dashboard.
 
-    -   Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-    -   Navigate to **All** &gt; **AI Control Tower**.
-2.  On the Employee Center landing page, select **Technology services** &gt; **AI assets**.
+<table id="choicetable_afh_4hk_23c"><thead><tr><th align="left" id="d282445e228">
 
-    1.  Select the **Request an AI use case** card.
+Option
 
-3.  On the AI Control Tower dashboard, select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon, and navigate to the AI asset inventory.
+</th><th align="left" id="d282445e231">
 
-    1.  Select **Add AI Asset**.
+Description
 
-    2.  Select **AI System**, and select **Next** to continue.
+</th></tr></thead><tbody><tr><td id="d282445e237">
 
-4.  On the form, fill in the fields.
+**Request an AI system using AI Risk and Compliance**
 
-    For a description of the field values on the Request an AI system form, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.md).
+</td><td>
 
-5.  To add attachments, select **Add attachments**.
+Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**. 1.  Select **Help center** &gt; **Technology services** and then select **AI assets** from the Technology services topics section.
+2.  Select the **Request an AI use case** card.
+**Note:**
 
-6.  To save the form as a draft and edit it later, select **Save as Draft**.
+AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-7.  Select **Submit**.
+</td></tr><tr><td id="d282445e288">
 
-    After you submit this form, the AI Center of Excellence team reviews it and guides you through the process.
+**Request an AI system using AI Control Tower**
 
+</td><td>
+
+Navigate to **All** &gt; **AI Control Tower**. 1.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+2.  Select **AI systems**, then select **Add AI system**.
+**Note:**
+
+An AI Asset owner can complete this option.
+
+</td></tr></tbody>
+</table>2.  On the form, fill in the fields.
+
+    For full descriptions of the fields, see [Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.md). For more information about adding an AI system using AI Control Tower, see [Create AI system assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-ai-system-assets.md).
+
+3.  To add attachments, select **Add attachments**.
+
+4.  To save the form as a draft and edit it later, select **Save as Draft**.
+
+5.  Select **Submit**.
+
+    After submission, the appropriate AI governance stakeholders \(such as AI Stewards or AI Center of Excellence teams, depending on configuration\) review the request and guide you through the next steps.
+
+
+## Result
+
+The AI use case request is submitted for governance review. The request is routed to the appropriate AI governance stakeholders based on your organization's configured intake workflow.
+
+## What to do next
+
+After submitting an AI use case request, next steps vary depending on your role.
+
+AI Product Owner or Requester \[`sn_grc_ai_gov.ai_risk_and_compliance_business_user`\]: Provide additional information as requested during intake and onboarding, including details about the AI system, related models, datasets, and intended business outcomes. You may be asked to complete impact assessment questionnaires and support reviews as the AI system progresses through assessment and validation.
+
+For more information, see [Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md).
+
+AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate required assessments, and coordinate cross-functional reviews. Continue to oversee the AI system through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
+
+For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-governance.md).
+
+Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the AI system for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the AI system life cycle.
+
+For more information, see [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md), [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md), [Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md), and [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md).
+
+For an overview of how AI systems move from intake through assessment, deployment, monitoring, and value tracking, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
 -   **[Request an AI use case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.md)**  
-The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
+The Request an AI use case form captures details, supporting documents, and compliance considerations for developing or procuring an AI-based solution.
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-intake.md)
+
+[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
+
+[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)
 

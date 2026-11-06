@@ -1,21 +1,21 @@
 ---
-title: Manage use cases for Now Assist in Contract Management
-description: Manage use cases for Now Assist in Contract Management by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
+title: Manage use cases for ServiceNow Otto for Contract Management Pro
+description: Manage use cases for ServiceNow Otto for Contract Management Pro by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-manage-use-cases.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Update use cases, Modify use cases, Edit use cases, Delete use cases, Deactivate use case, Copy use case]
-breadcrumb: [Managing skills for Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage AI skills, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Manage use cases for Now Assist in Contract Management
+# Manage use cases for ServiceNow Otto for Contract Management Pro
 
-Manage use cases for Now Assist in Contract Management by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
+Manage use cases for ServiceNow Otto for Contract Management Pro by updating the fields, deactivating them when not in use, deleting when no longer required, or copying existing use cases to create new ones.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
+3.  On the tile of your activated skill, select **Edit Configuration** to modify it.
 
     \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract management pro.
 
@@ -39,7 +39,7 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
         Modify the use case by adding new fields, or updating, deactivating, or deleting existing fields.
 
-        For more information on the **Field** form, see [Field form for document extraction setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-extraction-single-field-form.md) and [Question form for document Q&amp;A setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-qna-single-field-form.md).
+        For more information on the **Field** form, see  and .
 
         The base system use cases, **CM Pro - Contract Metadata Extraction** for contract metadata extraction, **CM Pro - Contract Obligation Extraction** for obligation extraction, and **CM Pro - Contract Analysis** for contract analysis cannot be edited, deleted, or deactivated. To customize these use cases, make a copy of the base system use cases and update the copied versions.
 
@@ -62,20 +62,20 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Result
 
-Now Assist applies the updated use case for contract analysis or metadata extraction.
+AI applies the updated use case for contract analysis or metadata extraction.
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
 
 **Related topics**  
 
 
-[Manage use case mappings for Now Assist in Contract Management]()
+[Manage use case mappings for ServiceNow Otto for Contract Management Pro]()
 
 [Manage clause mappings for contract analysis]()
 
 [Manage expected response mappings for contract analysis]()
 
-[Deactivate skills for Now Assist in Contract Management]()
+[Deactivate skills for ServiceNow Otto for Contract Management Pro]()
 
 [Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 
@@ -83,5 +83,5 @@ Now Assist applies the updated use case for contract analysis or metadata extrac
 
 [Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)
 
-[Select large language models for use cases in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-manage-llm.md)
 

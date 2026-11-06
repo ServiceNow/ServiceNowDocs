@@ -1,0 +1,32 @@
+---
+title: Schedule a Data Discovery job with ServiceNow Otto for Vault
+description: Use the schedule data discovery job skill to schedule one-time or recurring Data Discovery jobs with ServiceNow Otto for Vault. Data Discovery jobs can detect sensitive data such as PII or PHI provided as input to the Azure OpenAI model.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/schedule-data-discovery-job-now-assist-vault.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use generative AI skills, ServiceNow Vault]
+---
+
+# Schedule a Data Discovery job with ServiceNow Otto for Vault
+
+Use the schedule data discovery job skill to schedule one-time or recurring Data Discovery jobs with ServiceNow Otto for Vault. Data Discovery jobs can detect sensitive data such as PII or PHI provided as input to the Azure OpenAI model.
+
+## Before you begin
+
+-   Install ServiceNow Vault. For more information, see [Configuring ServiceNow Vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configuring-servicenow-vault.md).
+-   Ensure that the schedule Data Discovery job skill is active. For more information, see .
+
+Role required: sn\_vault\_console.vault\_console\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Vault** &gt; **Vault console**.
+
+2.  In the ServiceNow Otto panel, select **Schedule data discovery job** and specify the job details.
+
+    Example prompt: `Configure a data discovery job that scans the tables Task and Knowledge, looking for data patterns like Credit Card-Visa and Phone Number in columns such as Description and Text. Schedule a sample scan to occur on August 15th, 2025, with a time window from 10:00 AM to 5:00 PM. Name the job "Credit Card & Phone Number Scan" and describe it as "Scans for credit card and phone number data in Task and Knowledge tables."`
+
+

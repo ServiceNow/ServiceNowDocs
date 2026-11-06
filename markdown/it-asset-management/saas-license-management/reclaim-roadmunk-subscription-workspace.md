@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reclaim user subscriptions in the Software Asset Workspace, Reclaiming user subscriptions, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Reclaim user subscriptions in the Software Asset Workspace, Reclaiming user subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaim Roadmunk user subscriptions in the Software Asset Workspace
@@ -18,7 +18,7 @@ Reclaim unused Roadmunk subscriptions to reduce your total software costs.
 
 ## Before you begin
 
-To reclaim user subscriptions in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more details on requesting and activating the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin.
+To reclaim user subscriptions in the Software Asset Workspace, you must request and activate the Software Asset Workspace \(sn\_sam\_workspace\) store application. See [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RequSoftwareAssetMgmt.md) for more details on requesting and activating the Software Asset Workspace \(sn\_sam\_workspace\) store application.
 
 Roadmunk Role required: Account Admin
 
@@ -26,7 +26,7 @@ ServiceNow Role required: sam\_user
 
 ## About this task
 
-The SaaS License Management Roadmunk integration does not support reclamation through the ServiceNow AI Platform. When Software Asset Management creates a removal candidate for your Roadmunk integration, you can reclaim the user subscription by deactivating the associated user on your Roadmunk account. After you deactivate the user, you must update the state of the removal candidate to **Closed Skipped** so that the user subscription is removed from the Software Subscriptions \[samp\_sw\_subscription\] table.
+The SaaS License Management Roadmunk integration doesn’t support reclamation through the ServiceNow AI Platform. When Software Asset Management creates a removal candidate for your Roadmunk integration, you can reclaim the user subscription by deactivating the associated user on your Roadmunk account. After you deactivate the user, you must update the state of the removal candidate to **Closed Skipped** so that the user subscription is removed from the Software Subscriptions \[samp\_sw\_subscription\] table.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
         The Software Asset Workspace launches in a new tab.
 
-    2.  From the left navigation menu of the Software Asset Workspace, select **License usage**.
+    2.  From the side navigation menu of the Software Asset Workspace, select **License usage**.
 
         The License usage view opens.
 
@@ -60,17 +60,17 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
         The Roadmunk dashboard opens.
 
-    3.  On the left navigation menu of the Roadmunk dashboard, click your profile icon and then select **Account Settings**.
+    3.  On the side navigation menu of the Roadmunk dashboard, select your profile icon and then select **Account Settings**.
 
-        Your account settings open.
+        Your account settings appear.
 
     4.  On the page header of your account settings, select the **Users** tab.
 
         This tab displays the complete lists of users on your Roadmunk account, including collaborators, reviewers, and inactive users.
 
-    5.  Click the **Active** toggle button for every user that you want to deactivate.
+    5.  Select the **Active** toggle button for every user that you want to deactivate.
 
-    6.  Click **Save**.
+    6.  Select **Save**.
 
     The users are deactivated and added to the list of inactive users.
 
@@ -80,21 +80,21 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
     If a deactivated user is no longer part of your organization or team, you can delete the user from your Roadmunk account.
 
-    **Warning:** Users are deleted permanently. Proceed with caution, as users cannot be restored once deleted.
+    **Warning:** Users are deleted permanently. Proceed with caution, as users can’t be restored once deleted.
 
     1.  On the same **Users** tab of your Roadmunk account settings, select **INACTIVE USERS**.
 
         The list of inactive users opens.
 
-    2.  Click the Remove icon \(\[Omitted image "remove-icon.png"\] Alt text: Remove icon.\) for the user that you want to delete.
+    2.  Select the Remove icon \[Omitted image "remove-icon.png"\] for the user that you want to delete.
 
-        The removal confirmation dialog box opens.
+        The removal confirmation dialog box appears.
 
-    3.  On the dialog box, click **Delete**.
+    3.  In the dialog box, select **Delete**.
 
         The user is deleted from your account and all roadmaps are unassigned from the user.
 
-        **Note:** The user is not notified about being deleted from your account. Any comments that either mention or are made by the user are updated to indicate that the user has been deleted. All roadmaps that are owned by the user are retained in your account and can be managed by any Account Admin. You can view these roadmaps at any time in the All Roadmaps list on the Roadmaps homepage. If the user is invited back to Roadmunk under the same email address, you must manually reassign these roadmaps to the user.
+        **Note:** The user isn’t notified about being deleted from your account. Any comments that either mention or are made by the user are updated to indicate that the user has been deleted. All roadmaps that are owned by the user are retained in your account and can be managed by any Account Admin. You can view these roadmaps at any time in the All Roadmaps list on the Roadmaps home page. If the user is invited back to Roadmunk under the same email address, you must manually reassign these roadmaps to the user.
 
     4.  Repeat steps b and c for each user that you want to delete.
 
@@ -104,7 +104,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
         The Software Asset Workspace launches in a new tab.
 
-    2.  From the left navigation menu of the Software Asset Workspace, select **License usage**.
+    2.  From the side navigation menu of the Software Asset Workspace, select **License usage**.
 
         The License usage view opens.
 
@@ -116,7 +116,7 @@ The SaaS License Management Roadmunk integration does not support reclamation th
 
     5.  From the list of available removal candidates, select the removal candidate number \(RCCxxxxxxx\) for a user that you deactivated in [step 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-roadmunk-subscription-workspace.md).
 
-    6.  On the Removal Candidate form, update the state of the removal candidate by clicking **Closed Skipped**.
+    6.  On the Removal Candidate form, update the state of the removal candidate by selecting **Closed Skipped**.
 
         Software Asset Management removes the user subscription from the Software Subscriptions \[samp\_sw\_subscription\] table.
 

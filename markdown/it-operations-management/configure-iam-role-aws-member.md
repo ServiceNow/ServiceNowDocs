@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/configure-iam-role-aws-member.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Set up AWS service accounts, Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Configure access for trusting AWS member accounts in trust chain
@@ -121,5 +121,5 @@ Configure the trusting management account and the trusted accessor account.
 -   For information on configuring accessor accounts with AWS credentials, see [Configure temporary credential access for trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/configure-iam-role-aws-account.md).
 -   For information on configuring accessor accounts without AWS credentials, see [Configure credential-less access using trusted AWS accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aws-trusted-credential-less.md).
 
-**Parent Topic:**[Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
 

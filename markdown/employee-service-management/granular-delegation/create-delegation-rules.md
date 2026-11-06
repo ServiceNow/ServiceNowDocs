@@ -7,7 +7,7 @@ release: yokohama
 product: Granular Delegation
 classification: granular-delegation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setting up Granular Delegation, Granular Delegation, Employee Service Management]
 ---

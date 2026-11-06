@@ -1,18 +1,18 @@
 ---
-title: Create tags for the Activity stream
-description: Enable your agents to filter through activities in the Activity stream with custom tags.
+title: Configure tags for the Activity stream
+description: Configure custom tags to filter through entries in the Activity stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tags-activity-stream-admin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering Activity stream for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Create tags for the Activity stream
+# Configure tags for the Activity stream
 
-Enable your agents to filter through activities in the Activity stream with custom tags.
+Configure custom tags to filter through entries in the Activity stream.
 
 ## Before you begin
 
@@ -20,46 +20,60 @@ Role required: admin
 
 ## About this task
 
-Tags enable you to filter your activities in the Activity stream by dynamic and static states not offered in filter lists.
+Tags enable you to filter entries in the Activity stream by dynamic and static states not offered in filter lists.
 
-**Important:** Tags are not available to agents until you enable and create them.
+**Important:** Tags are not available until you configure and create them.
 
 \[Omitted image "x-activity-tags-agent.png"\] Alt text: Activity stream with tags
 
 ## Procedure
 
-1.  Open your workspace experience in UI Builder.
+1.  Open your Configurable Workspace experience in UI Builder.
 
-    See [Open your Configurable Workspace experience in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md) for instructions.
+    For instructions, see [Open experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/open-your-configurable-workspace-experience-in-ui-builder.md).
 
-2.  Select the record page for your workspace experience.
+2.  Select a page from your experience.
 
-3.  Search for Activity stream in the content panel, and select the Activity Stream element.
+3.  In the Content tree, select the Activity Stream component.
 
-4.  In the Tags property, select a data source for your tags.
+4.  From the Configure panel, select **Tags** to expand the section.
 
-5.  Add tags for agents to filter activities by selecting **Add**.
+5.  In the Data Source field, select a data source for the tags.
 
-6.  Customize the tag in the Add Tag modal.
+6.  Select **Add** to create a new tag.
 
-    1.  Enter a label for the tag in the **Label** field.
+7.  Customize the tag in the Add Tag modal.
 
-    2.  Select an icon for the tag in **Icon** field.
+    -   **Label**
 
-    3.  Select a color for the tag from the **Color** list.
+        Enter a label for the tag.
 
-    4.  Select a Table for the tag from the **Table** list.
+    -   **Icon**
 
-    5.  Enter a description for tag in the **Description** field.
+        Select an icon for the tag.
 
-    6.  Select **Save**.
+    -   **Color**
 
-    All tags you add appear under the Tags property.
+        Select a color for the tag from the list.
 
-    \[Omitted image "x-activity-tags-admin.png"\] Alt text: Tags property
+    -   **Table**
 
-7.  Edit existing tags by selecting the sliders icon \(\[Omitted image "x-sliders-icon.png"\] Alt text: Sliders icon\) from the tags list.
+        Select a table for the tag from the list.
 
-8.  Change the order displayed to agents by dragging tags with the drag dots icon \(\[Omitted image "x-drag-dots-icon.png"\] Alt text: Drag dots icon\).
+    -   **Description**
 
+        Enter a description for the tag.
+
+8.  Select **Save**.
+
+9.  Select the slider icon \(\[Omitted image "x-sliders-icon.png"\] Alt text: Sliders icon\) for a tag to edit it.
+
+10. Change the order displayed to agents by dragging tags with the drag dots icon \(\[Omitted image "x-drag-dots-icon.png"\] Alt text: Drag dots icon\).
+
+
+## Result
+
+All tags you created appear under the Tags section.
+
+\[Omitted image "x-activity-tags-admin.png"\] Alt text: Tags property
 

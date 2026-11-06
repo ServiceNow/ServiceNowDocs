@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-use-convert-lead.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Lead Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Convert a lead into an opportunity
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  In the **Leads - All** list, select the lead that you’re working with.
 
@@ -100,4 +100,13 @@ Details to create an opportunity. To learn more, see [Create an opportunity](htt
 
     A dialog box appears for the successful conversion of your lead into an opportunity. You can select the new opportunity record that was created.
 
+
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

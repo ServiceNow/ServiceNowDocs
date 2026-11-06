@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery integration with Oracle Cloud HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -50,6 +50,6 @@ Set up Oracle HCM for HR Service Delivery to pull worker data from Oracle HCM in
 
 6.  Activate and run the scheduled flow that synchronizes Worker profile information between Oracle HCM and ServiceNow HR Service Delivery periodically.
 
-    For more information, see[Activate schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/setup-the-job.md).
+    For more information, see [Activate schedule flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/setup-the-job.md).
 
 

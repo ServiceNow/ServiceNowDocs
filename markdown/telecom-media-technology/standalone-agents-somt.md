@@ -1,23 +1,26 @@
 ---
-title: Standalone agents in Sales CRM for Telecommunications
-description: Use these standalone AI agents to autonomously complete Sales CRM for Telecommunications tasks.
+title: Standalone agents in ServiceNow Otto for Sales CRM for Telecommunications
+description: Use these standalone AI agents to autonomously complete ServiceNow Otto for Sales CRM for Telecommunications tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/standalone-agents-somt.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-10-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Standalone agents in Sales CRM for Telecommunications
+# Standalone agents in ServiceNow Otto for Sales CRM for Telecommunications
 
-Use these standalone AI agents to autonomously complete Sales CRM for Telecommunications tasks.
+Use these standalone AI agents to autonomously complete ServiceNow Otto for Sales CRM for Telecommunications tasks.
 
-## Standalone agents in ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+## Standalone agents in ServiceNow Otto for Sales CRM for Telecommunications
 
-The following AI agents are available with ServiceNow Otto for Sales Customer Relationship Management for Telecommunications:
+The following AI agents are available with ServiceNow Otto for Sales CRM for Telecommunications:
 
--   [ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection Order Enrichment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/order-enrichment-agent-somt.md)
--   [ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection Order Fulfillment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/order-fulfillment-agent-somt.md)
+-   [Order enrichment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/order-enrichment-agent-somt.md)
+-   [Order fulfillment AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/order-fulfillment-agent-somt.md)
+-   [Move order voice AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-move-order-somt.md)
+-   [Order fallout AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-order-fallout-somt.md)
+-   [Image to task plan template AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-task-template-generation-somt.md)
 

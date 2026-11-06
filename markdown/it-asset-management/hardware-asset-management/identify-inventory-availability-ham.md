@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Workspace, Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Workspace, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Identify suitable replacement options for assets in the Hardware Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Work
 Use the Inventory availability report to determine suitable replacement options for your assets and their child components that are in use, in maintenance, pending repair, or defective. The report also helps you to determine the quantity of available substitute models that can be used locally, moved through the distribution channels, and estimate the lead time for new purchases.
 
 ## Before you begin
-
-**Important:** The Inventory availability report is available with Hardware Asset Management version 13.0.0 and later.
 
 The Inventory Availability Report is available only for hardware, consumable, and bundle assets that are in use, in maintenance, pending repair, or defective.
 

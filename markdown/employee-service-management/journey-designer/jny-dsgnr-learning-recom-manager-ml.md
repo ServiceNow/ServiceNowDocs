@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Display learning recommendations to the Manager creating a journey
@@ -28,7 +28,7 @@ The courses displayed are based on solution definitions **Similar journey based 
 -   To receive latest recommendations, update the solution definition regularly.
 
 -   **[Add recommended learning to a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-add-recommended-learning.md)**  
-When the Learning Posts app is integrated with Journey designer, managers and mentors with **Can add recommended learning** are able to add courses to a journey.
+Managers and mentors with **Can add recommended learning** are able to add courses to a journey.
 
 **Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

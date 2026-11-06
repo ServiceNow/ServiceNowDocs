@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, IT Asset Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Common applications, Asset Management]
 ---
 
 # Approve or reject a contract renewal request
@@ -20,7 +20,7 @@ Approve or reject a contract renewal request for all Contract Renewal Request Li
 
 The Renewal approver field must contain a value. If you need to change the approver, navigate to the parent contract and adjust the value there.
 
-Role required: asset\_manager\(core UI and Hardware Asset Workspace only\), contract\_manager\(core UI or Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
+Role required: contract\_system\_admin, asset\_manager\(core UI and Hardware Asset Workspace only\), contract\_manager\(core UI or Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
 
 ## Procedure
 
@@ -40,15 +40,15 @@ Role required: asset\_manager\(core UI and Hardware Asset Workspace only\), cont
 
 5.  Either approve or reject the contract renewal request.
 
-<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d78357e134">
+<table id="choicetable_lcq_2fl_4tb"><thead><tr><th align="left" id="d229477e134">
 
 Action
 
-</th><th align="left" id="d78357e137">
+</th><th align="left" id="d229477e137">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d78357e143">
+</th></tr></thead><tbody><tr><td id="d229477e143">
 
 **Approve the request by selecting Approve**
 
@@ -58,7 +58,7 @@ Result
 -   The Renewal purchase order task or the Manual purchase order task is created.
 
 
-</td></tr><tr><td id="d78357e161">
+</td></tr><tr><td id="d229477e161">
 
 **Reject the request by selecting Reject**
 

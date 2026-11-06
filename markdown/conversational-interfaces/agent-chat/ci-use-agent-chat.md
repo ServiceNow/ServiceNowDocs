@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Conversational Interfaces]
 ---
@@ -20,7 +20,7 @@ Provide your agents with a workspace that has built-in productivity features for
 
 -   Use shortcuts, known as [quick actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/agent-chat/ci-quick-actions-overview.md), for common activities, such as transferring a chat to another queue or displaying contextual info related to the chat.
 -   Reuse common responses, such as greetings or answers to frequent questions, with [response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/response-templates-templated-snippets.md).
--   Get possible solutions for issues, derived from searches of related issues in Knowledge articles, Q&amp;A, and previous incidents or cases with Agent assist..
+-   Get possible solutions for issues, derived from searches of related issues in Knowledge articles, Q&amp;A, and previous incidents or cases with [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
 -   Interact with customers in their native language using [Dynamic Translation for Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/agent-chat/ci-dtac-overview.md).
 -   Manage work assignments delivered to agents' inboxes, enabling them to set their availability and accept, reject, or transfer chats.
 -   Trigger a Virtual Agent self-service topic that walks end users through a task with [Conversation Autopilot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/agent-chat/ci-agent-chat-using.md).

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setup Workplace Connectors for environmental data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Target Table
 
 </td><td>
 
-Target or destination table to store the environmental sensor data.Select Occupancy and Environment Data \(sn\_wsd\_wc\_occ\_env\_data\) table. For more information, see [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/config-connectors-env-sensor.md).
+Target or destination table to store the environmental sensor data.Select Environmental data \(sn\_wsd\_wc\_space\_environment\) table. For more information, see [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/config-connectors-env-sensor.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Type
 
 </td><td>
 
-Type of sensor data. Select **Occupancy And Environment** from the list.
+Type of sensor data. Select **Environment** from the list.
 
 </td></tr><tr><td>
 
@@ -62,11 +62,11 @@ Extension Point Definition
 
 </td><td>
 
-Search for extension point definition for the environmental data. Search using the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for required extension point definition.\) to locate the extension point definition **OccupancyEnvironmentDataHandler**.
+Search for extension point definition for the environmental data. Search using the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for required extension point definition.\) to locate the extension point definition **EnvironmentDataHandler**.
 
 **Note:** Extension point definition defines how the data is transformed from third-party environmental sensor data providers. The data is loaded after transformation into the target environmental data table . The external IDs provided by Metrikus or other data providers are processed and transformed. Environmental data providers or vendors should have a separate implementation framework for these extension points.
 
-For example, if you have two different vendors providing environmental data records, you are expected to create two different implementations for the extension point \(OccupancyEnvironmentDataHandler, provided out-of-the-box\).
+For example, if you have two different vendors providing environmental data records, you are expected to create two different implementations for the extension point \(EnvironmentDataHandler, provided out-of-the-box\).
 
 Make sure that you are storing the environmental data in the units as per the units configured in the Units of measure table. The units should match.
 
@@ -79,14 +79,6 @@ Stale time \(in minutes\)
 </td><td>
 
 Time \(in minutes\) beyond which data is considered stale.Beyond this time, fresh data is fetched from the data provider table. For example, 5 minutes. The application will fetch data every 5 minutes.
-
-</td></tr><tr><td>
-
-Supported Metrics
-
-</td><td>
-
-Option to select target record for supported metrics. For example, Pressure Value.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** to save the connector configuration.

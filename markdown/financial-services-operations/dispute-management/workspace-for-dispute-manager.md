@@ -1,5 +1,5 @@
 ---
-title: Managing dispute manager workspace
+title: Dispute manager workspace
 description: As a dispute manager, you can work on your assigned cases and coordinate real-time updates on your team's cases from the dispute manager workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/workspace-for-dispute-manager.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Managing dispute manager workspace
+# Dispute manager workspace
 
 As a dispute manager, you can work on your assigned cases and coordinate real-time updates on your team's cases from the dispute manager workspace.
 
-If you're a user with either the sn\_bom\_credit\_card.admin or sn\_bom\_credit\_card.dispute\_manager role, you can access the dispute manager workspace.
+To access the dispute manager workspace page, you need to have one of these roles: sn\_bom\_credit\_card.admin or sn\_bom\_credit\_card.dispute\_manager role.
 
 The workspace has a simple interface that provides you with a list of high-level summaries and the dashboards of the team cases, including:
 
@@ -27,11 +27,12 @@ The workspace has a simple interface that provides you with a list of high-level
 
 **Note:** As a dispute manager, you can also act as a fullfiller and submit tasks for approval.
 
-The following example shows the new landing page and approval process of a manual investigation task for a dispute manager.
+The following example shows the landing page of a dispute manager.\[Omitted image "dispute-manager1.png"\] Alt text: Dispute manager landing page
 
-\[Omitted image "dispute\_mgr\_landing\_page.jpg"\] Alt text: View of dispute manager landing page.
+-   **[Preconfigured email templates in a card dispute flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/pre-cofigured-email-template.md)**  
+Email templates are pre-formatted files that you can use to start creating email notifications.
+-   **[Implement 4-eyes policy for approval tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/implementing-4-eyes-principle.md)**  
+The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
 
-\[Omitted image "Dispute\_mgr\_reject.jpg"\] Alt text: View of the review representment approval process.
-
-**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-disputes.md)
 

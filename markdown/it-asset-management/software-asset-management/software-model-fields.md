@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 30
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 33
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software model fields
@@ -46,7 +46,7 @@ Status
 
 </td><td>
 
-The status of the model. The options are **In Production**, **Retired**, and **Sold**.
+Status of the model. The options are **In Production**, **Retired**, and **Sold**.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -80,7 +80,7 @@ Condition qualifiers for the **Version** field.-   **starts with**
 -   **is**
 -   **is anything**
 
- The default is **is anything**.
+This field is automatically set to **is anything**.
 
 </td></tr><tr><td>
 
@@ -100,8 +100,6 @@ Condition qualifiers for the **Edition** field.-   **starts with**
 -   **is**
 -   **is anything**
 
- The default is **is anything**.
-
 </td></tr><tr><td>
 
 Edition
@@ -118,9 +116,9 @@ Discovery map
 
 A set of conditions that determine which software discovery models get mapped to the software models. Purchased rights are only applied to software discovery models that meet the condition. This matching is important for reconciliation. Discovery models with predefined suites are indicated in the **Suite defined** field. A value of **Yes** indicates that the discovery model is a suite parent.
 
- You can use the discovery maps provided, or you can choose to specify the condition information directly instead. A user with the sam\_admin role can choose to create a custom discovery map.
+You can use the discovery maps provided, or you can choose to specify the condition information directly instead. A user with the sam\_admin role can choose to create a custom discovery map.
 
- When you select a discovery map, you may encounter a message: `Many underlying software models will be created. These might be part of suite components, downgrade rights or next version. Please validate on completion`. The message appears only if there are greater than or equal to 50 suite components for the software model and if any of the following conditions are met:
+When you select a discovery map, you may encounter a message: `Many underlying software models will be created. These might be part of suite components, downgrade rights or next version. Please validate on completion`. The message appears only if there are greater than or equal to 50 suite components for the software model and if any of the following conditions are met:
 
 -   A software model doesn’t exist for any suite component
 -   A software model doesn’t exist for any downgrade rights
@@ -130,7 +128,7 @@ A set of conditions that determine which software discovery models get mapped to
 
  You can verify which discovery models get mapped to the software model by selecting the **Show Matching Discovery Models** related link in Software Asset Management classic. View the same results in the Software Asset Workspace, by navigating to **License operations** &gt; **Licensing** &gt; **Software models**. Select a software model and then select the **Matching Discovery Models** related list.
 
- If the **Publisher** and **Product** fields are empty, the values are automatically populated according to the discovery map.
+If the **Publisher** and **Product** fields are empty, the values are automatically populated according to the discovery map.
 
 </td></tr><tr><td>
 
@@ -154,7 +152,7 @@ Product classification
 
 </td><td>
 
-The official United Nations Standard Products and Services Code \(UNSPSC\) classification.From this release, product classifications have been enhanced with a comprehensive set of UNSPSC codes available via the Content Service library. Updates to the UNSPSC codes will also be available via the weekly Content Service library update.
+The official United Nations Standard Products and Services Code \(UNSPSC\) classification.From this release, product classifications have been enhanced with a comprehensive set of UNSPSC codes available via the Content Service library. Updates to the UNSPSC codes will also be available via the bi-weekly Content Service library update.
 
 </td></tr><tr class="sub-head"><td colspan="2">
 
@@ -174,9 +172,9 @@ License under management
 
 </td><td>
 
-The option indicating that you want to manage licenses for the specified software. If you clear this option, your software model won't be included in your reconciliation results.This option is selected by default. It’s also selected for any software models that have been upgraded.
+Option to manage licenses for the specified software. If you clear this option, your software model won't be included in your reconciliation results.This option is selected by default. It’s also selected for any software models that have been upgraded.
 
- If you upgrade and have software models with this option selected, you can do a bulk update and clear the **License Under Management** option from any software models you don’t want to include in your reconciliation results. When you run reconciliation again, only the software models with the option still selected will display in your results.
+If you upgrade and have software models with this option selected, you can do a bulk update and clear the **License Under Management** option from any software models that you don’t want to include in your reconciliation results. When you run reconciliation again, only the software models with the option still selected will display in your results.
 
 </td></tr><tr><td>
 
@@ -184,7 +182,7 @@ Owner
 
 </td><td>
 
-The person responsible for the model.
+Person responsible for the model.
 
 </td></tr><tr><td>
 
@@ -233,26 +231,22 @@ Subscription condition**Note:** This field appears only on subscription-based so
 
 Condition to account for only groups of subscriptions during reconciliation. Only the subscriptions that meet the specified subscription conditions are included in reconciliation. For example, you can set a subscription condition to reconcile subscriptions from only a specific geographic location or business department. **Note:** If you clear the **License under management** option, the subscriptions that meet the specified software conditions are excluded from reconciliation instead.
 
- In the Software Asset Management classic application, you can add multiple subscription conditions to a single software model using the following options:
+In the Software Asset Management classic application, you can add multiple subscription conditions to a single software model using the following options:
 
 -   **Add Filter Condition**: Enables you to specify all the conditions that a subscription must meet to be included in reconciliation.
 -   **Add "OR" Clause**: Enables you to specify any of the conditions that a subscription can meet to be included in reconciliation.
 
- In the Software Asset Workspace, you can add multiple subscription conditions to a single software model using the following options:
+In the Software Asset Workspace, you can add multiple subscription conditions to a single software model using the following options:
 
 -   **or**: Enables you to specify any of the conditions that a subscription can meet to be included in reconciliation.
 -   **and**: Enables you to specify all the conditions that a subscription must meet to be included in reconciliation.
 -   **+ New condition set**: Enables you to specify additional sets of conditions that a subscription can meet to be included in reconciliation.
 
- **Warning:** You can’t add subscription conditions to out-of-the-box software models. You must create a software model to define subscription conditions for the associated subscription software.
+**Warning:** You can’t add subscription conditions to out-of-the-box software models. You must create a software model to define subscription conditions for the associated subscription software.
 
-</td></tr><tr class="sub-head"><td>
+</td></tr><tr class="sub-head"><td colspan="2">
 
-General
-
-</td><td>
-
- 
+General section
 
 </td></tr><tr><td>
 
@@ -260,7 +254,7 @@ Short description
 
 </td><td>
 
-A brief description of the model.
+Brief description of the model.
 
 </td></tr><tr><td>
 
@@ -276,23 +270,7 @@ Language
 
 </td><td>
 
-Language of the software product to use when searching for the normalized discovery model, which is populated after it has been normalized or added manually.The default is **Anything**.
-
-</td></tr><tr><td>
-
-Asset tracking strategy
-
-</td><td>
-
-Allows to override the way assets are tracked for the model.
-
-</td></tr><tr><td>
-
-Asset tracking unit
-
-</td><td>
-
-Unit of measure for asset.
+Language of the software product to use when searching for the normalized discovery model, which is populated after it has been normalized or added manually.This field is automatically set to **Anything**.
 
 </td></tr><tr><td>
 
@@ -300,7 +278,7 @@ Cost
 
 </td><td>
 
-The cost of a single unit of the software.
+Cost of a single unit of the software.
 
 </td></tr><tr><td>
 
@@ -308,13 +286,13 @@ Certified
 
 </td><td>
 
-Indicates if the product associated to this software model is approved or unapproved by TRM.
+Option to indicate if the product associated to this software model is approved or unapproved by TRM.
 
  When a enterprise architect adds a product to the TRM library, the product is flagged as either approved or unapproved. When a software model is created for an approved product, this check box is automatically selected.
 
  If you create a software model for an unapproved product, the software model is designated as restricted. During the reconciliation process, any software installations associated with unapproved products are identified as removal candidates.
 
- If you activate the Application Portfolio Management - TRM \(com.snc.apm\_trm\) plugin for software models that already exist, this check box may or may not be selected depending on whether the product is approved.
+ If you activate the Application Portfolio Management - TRM \(com.snc.apm\_trm\) plugin for software models that exist, this check box may or may not be selected depending on whether the product is approved.
 
 </td></tr><tr><td>
 
@@ -324,17 +302,17 @@ Restricted software
 
 Option for restricting software.Restricted software identifies software that you shouldn’t install in your environment \(inappropriate software, or software with vulnerabilities, for example\).
 
- If the removal candidates don't exist, a scheduled job runs nightly that creates removal candidates for restricted software.
+If the removal candidates don't exist, a scheduled job runs nightly that creates removal candidates for restricted software.
 
 </td></tr><tr><td>
 
-License all installs accessed by clients**Note:** This field appears only on software models that are associated with [client access records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_AddAClientAccessRec.md), except for Oracle DB Server software models.
+License all installs**Note:** This field appears only on software models that are associated with [resource value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-resource-value-record.md) and [client access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) records, except for Oracle Database software models.
 
 </td><td>
 
 Option to license the configuration items \(CIs\) that the software is installed on, based on conditions that you specify on the software model, such as software install conditions. If any of the associated client access records are unlicensed due to insufficient rights, all CIs remain unlicensed.If you disable this option, only the CIs that have been added to your client access records are licensed. See [Add a software client access record in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_AddAClientAccessRec.md) for detailed instructions on how to add CIs to your client access records.
 
- If you enable this option after you have already added CIs to your client access records, those CIs are deleted from your records and then subsequently licensed based on the conditions that you specify on the software model.
+If you enable this option after you have already added CIs to your client access records, those CIs are deleted from your records and then subsequently licensed based on the conditions that you specify on the software model.
 
 </td></tr><tr><td>
 
@@ -347,7 +325,7 @@ Oracle database option or management pack. Each option or pack requires a separa
  This field is shown when creating software models that meet the following conditions:
 
 -   The **Publisher** is **Oracle**.
--   The **Product** is **DB Server**.
+-   The **Product** is **Database**.
 
 </td></tr><tr><td>
 
@@ -357,12 +335,12 @@ Database option condition**Note:** This field appears only on Oracle Database so
 
 Condition to account for only the subsets of Oracle Database options or management packs during reconciliation. Only the database options or management packs that meet the specified database option conditions are included in the reconciliation.**Note:** If you clear the **License under management** option, the database options or management packs that meet the specified database option conditions are excluded from reconciliation instead.
 
- In the Software Asset Management classic application, you can add multiple database option conditions to a single software model using the following options:
+In the Software Asset Management classic application, you can add multiple database option conditions to a single software model using the following options:
 
 -   **Add Filter Condition**: Enables you to specify all the conditions that a database option or management pack must meet to be included in reconciliation.
 -   **Add "OR" Clause**: Enables you to specify any of the conditions that a database option or management pack can meet to be included in the reconciliation.
 
- In the Software Asset Workspace, you can add multiple database option conditions to a single software model using the following options:
+In the Software Asset Workspace, you can add multiple database option conditions to a single software model using the following options:
 
 -   **or**: Enables you to specify any of the conditions that a database option or management pack can meet to be included in the reconciliation.
 -   **and**: Enables you to specify all the conditions that a database option or management pack must meet to be included in reconciliation.
@@ -378,23 +356,19 @@ Option to apply this software model to only subscription-based software suites. 
 
 </td></tr><tr><td>
 
-Auto-generate client access for allocations. **Note:** This field appears only on Oracle Database Server software models.
+Auto-generate client access for allocations. **Note:** This field appears only on Oracle Database software models.
 
- **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services application from the ServiceNow Store. See [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md) for more details on the Data Collection for Oracle Global Licensing and Advisory Services application.
-
-</td><td>
-
-Option to automatically generate and manage client access records for Oracle Database Server. If you enable this option, the Software Asset Management application generates and manages client access records based on your latest Oracle Database Server Named User Plus entitlements, the users, and devices that the associated rights are allocated to, and the Oracle database instances that are supported by these users and devices. The Software Asset Management application generates a separate client access record for each supported database instance. If you disable this option after the Software Asset Management application has automatically generated client access records for Oracle Database Server, those client access records are no longer managed and updated automatically. You must manage and update those client access records manually to keep them accurate and up to date.
-
- If you enable this option and already have existing client access records for Oracle Database Server, all automatically generated client access records are managed and updated automatically again. However, you must continue to manage and update all manually generated client access records.
-
-</td></tr><tr class="sub-head"><td>
-
-Product Catalog
+ **Important:** To use this option, you must request the Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\) application from the ServiceNow Store. For details, see [Request Data Collection for Oracle Global Licensing and Advisory Services \(GLAS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-data-collection-oracle-glas-app.md).
 
 </td><td>
 
- 
+Option to automatically generate and manage client access records for Oracle Database. If you enable this option, the Software Asset Management application generates and manages client access records based on your latest Oracle Database Named User Plus entitlements, the users, and devices that the associated rights are allocated to, and the Oracle database instances that are supported by these users and devices. The Software Asset Management application generates a separate client access record for each supported database instance. If you disable this option after the Software Asset Management application has automatically generated client access records for Oracle Database, those client access records are no longer managed and updated automatically. You must manage and update those client access records manually to keep them accurate and upto date.
+
+ If you enable this option and already have existing client access records for Oracle Database, all automatically generated client access records are managed and updated automatically again. However, you must continue to manage and update all manually generated client access records.
+
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Product Catalog section
 
 </td></tr><tr><td>
 
@@ -418,15 +392,11 @@ Picture
 
 </td><td>
 
-Image of the software logo can be added. This logo appears in the service catalog if the software model is published.
+Image of the software logo that can be added. This logo appears in the service catalog if the software model is published.
 
-</td></tr><tr class="sub-head"><td>
+</td></tr><tr class="sub-head"><td colspan="2">
 
-Activity
-
-</td><td>
-
- 
+Activity section
 
 </td></tr><tr><td>
 
@@ -437,7 +407,7 @@ Work notes
 Notes about the work order task that are visible to all users within your organization.
 
 </td></tr></tbody>
-</table>## Suite Components
+</table>## Suite Components tab
 
 This list shows the software suite component details. Software components are the suite children of a software suite parent. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-suites.md).
 
@@ -451,19 +421,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Allow automated content update
-
-</td><td>
-
-Option enabling ServiceNow to automatically send updated suite definitions to your instance through weekly content updates.
-
-</td></tr><tr><td>
-
 Suite child
 
 </td><td>
 
-The child product or products of the suite. For example, Microsoft Word and Microsoft Excel are child products of Microsoft Office.
+Child product or products of the suite. For example, Microsoft Word and Microsoft Excel are child products of Microsoft Office.
 
 </td></tr><tr><td>
 
@@ -479,15 +441,11 @@ Suite relationship assumed
 
 </td><td>
 
-Relationship that indicates that multiple software models exist for one or more of the suite components. Therefore, the relationship between suite parent and suite component was assumed. Review the created suite components to ensure the relationship is correct.
+Relationship that indicates that multiple software models exist for one or more of the suite components. Therefore, the relationship between suite parent and suite component was assumed. Review the created suite components to ensure that the relationship is correct.
 
-</td></tr><tr class="sub-head"><td>
+</td></tr><tr class="sub-head"><td colspan="2">
 
-Suite Content Usage
-
-</td><td>
-
- 
+Suite Content Usage section
 
 </td></tr><tr><td>
 
@@ -499,11 +457,11 @@ Inference Option: **Number** and **Percent**
 
 **Note:** For any new software models being created with suite components, the **Number** option is selected by default.
 
- **Percent**: Specifies what percentage of the components must be installed for the suite.
+ **Percent**: Specifies the percentage of the components that must be installed for the suite.
 
 **Note:** For existing software models with suite components that were using the inference percent, the **Percent** option is selected by default. However, you can choose to use the **Number** option.
 
- If the system property **Use component licenses to optimize compliance when suite licenses run out** is set to true, Inference percent specifies a threshold to determine whether the suite or component licensing is optimal.
+ If the system property **com.snc.sam.auto\_suite\_inference** is set to true, the Inference number and percent is automatically determined and the parent software model suite is automatically inferred for a software model based on its child software models.
 
 </td></tr><tr><td>
 
@@ -511,10 +469,18 @@ Allow automated content update
 
 </td><td>
 
-Option for enabling automatic content changes to software models.
+Option to enable automatic content changes to software models.
+
+</td></tr><tr><td>
+
+Automatic determination of inference
+
+</td><td>
+
+Option to enable automatic determination of the inference number and percent. You can override this option to continue with the manual calculation of Inference percent.
 
 </td></tr></tbody>
-</table>## Suite Parents
+</table>## Suite Parents tab
 
 This list shows the software suite parent details. For more information, see [Software Asset Management software suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-suites.md).
 
@@ -532,7 +498,7 @@ Suite parent
 
 </td><td>
 
-The parent suites to which the software is assigned. For example, the parent suite for several common Microsoft products is a version of Microsoft Office.
+Parent suites to which the software is assigned. For example, the parent suite for several common Microsoft products is a version of Microsoft Office.
 
 </td></tr><tr><td>
 
@@ -540,7 +506,7 @@ Suite child
 
 </td><td>
 
- 
+Child product or products of the suite. For example, Microsoft Word and Microsoft Excel are child products of Microsoft Office.
 
 </td></tr><tr><td>
 
@@ -556,12 +522,12 @@ Suite relationship assumed
 
 </td><td>
 
-Relationship that indicates that multiple software models exist for one or more of the suite components, therefore the relationship between suite parent and suite component was assumed. Review the created suite components to ensure the relationship is correct.
+Relationship that indicates that multiple software models exist for one or more of the suite components. Therefore the relationship between suite parent and suite component was assumed. Review the created suite components to ensure the relationship is correct.
 
 </td></tr></tbody>
 </table>## Software Product Lifecycles
 
-This list shows the lifecycle information of a software product version. For more information, see the Software Product Lifecycle report section in [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+This list shows the life cycle information of a software product. For more information on life cycles, see [Product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/calculated-lifecycles.md).
 
 <table id="table_hqc_5nn_dbb"><thead><tr><th>
 
@@ -617,7 +583,7 @@ Phase start date
 
 </td><td>
 
-Date the life-cycle phase starts.
+Date when the life-cycle phase starts.
 
 </td></tr><tr><td>
 
@@ -627,6 +593,7 @@ Lifecycle type
 
 The product life cycle type values include:-   **Internal**: The life cycle date is specific to the customer \(for example, based on their internal policy, based on a custom contract/agreement with the publisher\).
 -   **Publisher**: The life cycle date comes from publisher sources and is not specific to a customer.
+-   **Publisher Add-On**
 
 </td></tr><tr><td>
 
@@ -634,7 +601,7 @@ Risk
 
 </td><td>
 
-The risk level to an organization with regards to the lifecycle phase. For example, the risk for the end of support phase for a publisher maybe moderate or the end of life phase maybe high.
+The risk level to an organization with regards to the life-cycle phase. For example, the risk for the end of support phase for a publisher maybe moderate or the end of life phase may be high.
 
 Risk type values include:-   **Very High**
 -   **High**
@@ -648,8 +615,8 @@ Lifecycle phase
 
 </td><td>
 
-Lifecycle phase values include:-   **Pre Release**: Date the software was pre-released.
--   **General Availability**: Date the software became generally available to the market.
+Life-cycle phase values include:-   **Pre Release**: Date when the software was pre-released.
+-   **General Availability**: Date when the software became generally available to the market.
 -   **Upgrade**
 
 **Note:** Only shown when the **Lifecycle type** field is Internal.
@@ -673,7 +640,7 @@ Active
 
 </td><td>
 
-Indicates if the lifecycle is to be considered or not while evaluating the risk of the software.**Note:** By default, only active life cycles are displayed.
+Indicates if the life cycle is to be considered or not while evaluating the risk of the software.**Note:** By default, only active life cycles are displayed.
 
 </td></tr><tr><td>
 
@@ -681,7 +648,7 @@ Source
 
 </td><td>
 
-Source of the lifecycle. If the record is created manually, it's set to **Internal**. If it's created automatically, the field is set to ServiceNow.
+Source of the life cycle. If the record is created manually, this field is set to **Internal**. If the record is created automatically, this field is set to **ServiceNow**.
 
 </td></tr><tr><td>
 
@@ -689,12 +656,12 @@ Description
 
 </td><td>
 
-Description of the software product lifecycle.
+Description of the software product life cycle.
 
 </td></tr></tbody>
-</table>## Software Entitlements
+</table>## Software Entitlements tab
 
-This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+This list shows the entitlement terms of your software license. For more information, see the Software entitlements section in [Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 <table id="table_erg_3b1_vzb"><thead><tr><th>
 
@@ -768,7 +735,7 @@ Total cost
 Total cost of the entitlement calculated from the unit cost.
 
 </td></tr></tbody>
-</table>## Override License Costs
+</table>## Override License Costs tab
 
 This list shows the override license cost information for your software entitlements.
 
@@ -786,7 +753,7 @@ Software Model
 
 </td><td>
 
-The software model that the software entitlement belongs to.
+Software model that the software entitlement belongs to.
 
 </td></tr><tr><td>
 
@@ -794,7 +761,7 @@ Metric Group
 
 </td><td>
 
-The metric group the software entitlement belongs to.
+Metric group that the software entitlement belongs to.
 
 </td></tr><tr><td>
 
@@ -802,7 +769,7 @@ License Metric
 
 </td><td>
 
-The license metric specified for the software entitlement.
+License metric specified for the software entitlement.
 
 </td></tr><tr><td>
 
@@ -818,11 +785,9 @@ License &amp; Maintenance Cost
 
 </td><td>
 
-Cost of the license combined with cost of the maintenance license.
+Cost of the license combined with cost of the maintenance license.Specify a license cost or a license and maintenance cost, to override the true-up cost during reconciliation. If no values are specified in the **License Cost** or **License &amp; Maintenance Cost** fields, the software entitlement cost is used for true-up cost calculations.
 
- Specify a license cost or a license and maintenance cost, to override the true-up cost during reconciliation. If no values are specified in the **License Cost** or **License &amp; Maintenance Cost** fields, the software entitlement cost is used for true-up cost calculations.
-
- **Note:** For SaaS licenses, only the license cost applies. The license &amp; maintenance cost does not apply.
+**Note:** For SaaS licenses, only the license cost applies. The license &amp; maintenance cost does not apply.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -842,7 +807,7 @@ Lower limit
 
 </td><td>
 
-The minimum number of employees that the licenses are required for.
+Minimum number of employees that the licenses are required for.
 
 </td></tr><tr><td>
 
@@ -850,12 +815,93 @@ Upper limit
 
 </td><td>
 
-The maximum number of employees that the licenses are required for.
+Maximum number of employees that the licenses are required for.
 
 </td></tr></tbody>
-</table>## Software Model Results
+</table>## SAP Engine Usages tab
+
+This list shows the license usage for SAP Engines.
+
+<table id="table_rqv_wpp_hfc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the license usage record. Select a name to open the record to view detailed information such as the associated software model and SAP client.
+
+</td></tr><tr><td>
+
+Count
+
+</td><td>
+
+Number of unique users or devices that are granted access to the SAP Engine product.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+Type of CAL that is associated with the license usage record.-   **User CAL**: Licenses each user that accesses the associated server, regardless of the number of devices that each user is using to access the server.
+-   **Device CAL**: Licenses each device that accesses the specified server, regardless of the number of users that are using each device to access the server.
+-   **User/Device CAL**: Licenses each user or device that accesses the associated server.
+
+</td></tr><tr><td>
+
+Usage
+
+</td><td>
+
+Total memory usage of the SAP Engine product in gigabytes \(GB\).
+
+</td></tr><tr><td>
+
+Cost Center
+
+</td><td>
+
+Cost center of the users or devices that are granted access to the SAP Engine product.
+
+</td></tr><tr><td>
+
+Department
+
+</td><td>
+
+Business department of the users or devices that are granted access to the SAP Engine product.
+
+</td></tr><tr><td>
+
+Location
+
+</td><td>
+
+Geographic location of the users or devices that are granted access to the SAP Engine product.
+
+</td></tr><tr><td>
+
+Company
+
+</td><td>
+
+Company of the users or devices that are granted access to the SAP Engine product.
+
+</td></tr></tbody>
+</table>## Software Model Results tab
 
 This list shows the software model results associated with the license metric results.
+
+**Note:** Software model results \(SMRs\) are not generated for software models for Oracle Database options without associated software entitlements. You can set the system property **com.snc.samp.unlicensed\_smr\_creation** to **True** to create SMRs for these models even if there are no entitlements.
 
 <table id="table_fsf_cqk_g4b"><thead><tr><th>
 
@@ -871,7 +917,7 @@ Status
 
 </td><td>
 
-Status of the software model. Possible values are Compliant and Not Compliant.Select the **Status** field to open the corresponding Software Model Results record, where you can view more in-depth information about the software model result. See [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_ViewSWModelResults.md) for detailed descriptions of each field on the Software Model Results form.
+Status of the software model. Possible values are **Compliant** or **Not Compliant**.Select the **Status** field to open the corresponding Software Model Results record, where you can view more in-depth information about the software model result. See [View software model results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_ViewSWModelResults.md) for detailed descriptions of each field on the Software Model Results form.
 
 </td></tr><tr><td>
 
@@ -879,13 +925,13 @@ Agreement type
 
 </td><td>
 
-Agreement type is set on the software entitlement.-   Common: Generic, Enterprise License Agreement \(ELA\)
+Agreement type that is set on the software entitlement.-   Common: Generic, Enterprise License Agreement \(ELA\)
 -   IBM: Generic, Enterprise License Agreement \(ELA\), International Program License Agreement \(IPLA\), IBM Customer Agreement \(ICA\), Unlimited Level Agreement \(ULA\)
 -   Microsoft: Generic, Enterprise License Agreement \(ELA\)
 -   Oracle: Generic, Unlimited Level Agreement \(ULA\)
 -   VMware: Generic, Enterprise License Agreement \(ELA\), Enterprise Purchasing Program \(EPP\), Volume Purchasing Program \(VPP\)
 
- **Note:** If the agreement type is Enterprise Level Agreement or Unlimited Level Agreement, the **Status** is Compliant even if there are unlicensed installations or unlicensed subscriptions.
+**Note:** If the agreement type is Enterprise Level Agreement or Unlimited Level Agreement, the **Status** is Compliant even if there are unlicensed installations or unlicensed subscriptions.
 
 </td></tr><tr><td>
 
@@ -901,7 +947,7 @@ True-up cost
 
 </td><td>
 
-Estimated cost of remediating unlicensed installations based on the lowest number of rights needed \(rights needed \* average price per right from entitlements\). The lowest cost from Purchase Rights remediation options.
+Estimated cost of remediating unlicensed installations based on the lowest number of rights needed \(rights needed times average price per right from entitlements\). The lowest cost from Purchase Rights remediation options.
 
 </td></tr><tr><td>
 
@@ -917,7 +963,7 @@ Potential savings
 
 </td><td>
 
- 
+Cost saved by optimizing unused licenses.
 
 </td></tr><tr><td>
 
@@ -925,7 +971,12 @@ Group
 
 </td><td>
 
-Group specified on which to run reconciliation. Values include None, Country, Department, Company, Region, and Cost Center.
+Group specified on which to run reconciliation. Values include: -   None
+-   Country
+-   Department
+-   Company
+-   Region
+-   Cost Center
 
 </td></tr><tr><td>
 
@@ -933,10 +984,15 @@ Subgroup
 
 </td><td>
 
-Subgroup specified on which to run reconciliation. Values include None, Country, Department, Company, Region, and Cost Center.
+Subgroup specified on which to run reconciliation. Values include:-   None
+-   Country
+-   Department
+-   Company
+-   Region
+-   Cost Center
 
 </td></tr></tbody>
-</table>## Metric Attributes
+</table>## Metric Attributes tab
 
 This list shows the metric attributes information of a software model.
 
@@ -1005,7 +1061,7 @@ Attribute value is unlimited
 Option for setting the attribute as unlimited.
 
 </td></tr></tbody>
-</table>## Vendor Catalog Items
+</table>## Vendor Catalog Items tab
 
 This list shows you the details of the software models associated with a vendor. For more information, see [Vendor catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/product-catalog/c_ManageVendorCatalogItems.md).
 
@@ -1013,11 +1069,11 @@ This list shows you the details of the software models associated with a vendor.
 |-----|-----------|
 |Name|Name of the catalog item.|
 |Product ID|Item identification number assigned by your organization.|
-|Short Description|A brief description of the item.|
+|Short Description|Brief description of the item.|
 |Vendor Price|The price at which the item is available in the vendor catalog. If the vendor offers a discount, the vendor price reflects the discounted price.|
-|Rank tier|Displays the overall ranking for this vendor's products and services.|
+|Rank tier|Overall ranking for this vendor's products and services.|
 
-## Client Access
+## Client Access tab
 
 This list shows a client access record details of the users or devices that are accessing a particular version of your server software using a client access license \(CAL\).
 
@@ -1043,7 +1099,7 @@ Count
 
 </td><td>
 
-Number of unique users or devices that are granted access to the associated server.**Note:** If you are using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
+Number of unique users or devices that are granted access to the associated server.**Note:** If you're using a Citrix software model and User/Device CAL type, the **Count** field is based on the number of user/device licenses that are assigned to your users or shared devices.
 
 </td></tr><tr><td>
 
@@ -1057,7 +1113,7 @@ Type of CAL that is associated with the client access record.-   **User CAL**: L
 
 -   **User/Device CAL**: Licenses each user or device that accesses the associated server.
 
-**Note:** If you are using a Citrix software model, the User/Device CAL type is based on the user/device licenses that are assigned to your users or shared devices.
+**Note:** If you're using a Citrix software model, the User/Device CAL type is based on the user/device licenses that are assigned to your users or shared devices.
 
 -   **Reserved Hourly Average Sensor**: This metric counts the number of unique active endpoints per clock-hour and averages them over a rolling 28-day period. The count of Reserved Hourly Average Sensor Licenses resets at the start of each clock-hour.
 -   **Sensor Subscription**: This metric calculates license usage by averaging endpoint counts over four consecutive weeks. Weekly endpoint counts are based on the total number of endpoints consumed in the previous seven days.
@@ -1097,7 +1153,7 @@ Company
 Company of the users or devices that are granted access to the associated server.
 
 </td></tr></tbody>
-</table>## Software Subscriptions
+</table>## Software Subscriptions tab
 
 This list shows the available subscriptions for a software application.
 
@@ -1123,7 +1179,7 @@ User principal name
 
 </td><td>
 
-The user's email address for the subscription.
+User's email address for the subscription.
 
 </td></tr><tr><td>
 
@@ -1131,7 +1187,7 @@ Software model
 
 </td><td>
 
-The software model for the subscription.
+Software model for the subscription.
 
 </td></tr><tr><td>
 
@@ -1139,7 +1195,7 @@ Last activity
 
 </td><td>
 
-The last date when this subscription was last used.
+Last date when this subscription was last used.
 
 </td></tr><tr><td>
 
@@ -1147,7 +1203,7 @@ Inactive days
 
 </td><td>
 
-The number of days for which a user's subscription has been inactive.This field is visible on the Software Subscriptions form when the **Last activity** field is not empty. Inactive days are calculated using the value in the **Last activity** field.
+Number of days for which a user's subscription has been inactive.This field is visible on the Software Subscriptions form when the **Last activity** field is not empty. Inactive days are calculated using the value in the **Last activity** field.
 
 </td></tr><tr><td>
 
@@ -1158,7 +1214,7 @@ Subscription profile
 Profile that is associated with the subscription identifier.
 
 </td></tr></tbody>
-</table>## Downgrade Rights
+</table>## Downgrade Rights tab
 
 This list shows the downgrade rights information of a software model. For more information, see [Downgrade Rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/downgrade-rights.md).
 
@@ -1202,13 +1258,13 @@ Active
 
 Option that indicates if the downgrade rights on the software model are active or not. If needed, you can deactivate the downgrade rights. Only the active downgrade rights appear in the field. To see all the downgrade rights, remove the Active condition from the filter. If you deactivate a downgrade right on a software model, the change is propagated to the related software entitlement downgrade rights, irrespective of the source of the downgrade right. You cannot deactivate the downgrade right on a software model and keep the downgrade right activated on the software entitlement.
 
- To deactivate a downgrade right, double-click the field to display the toggle button, select **false**, and then select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon\).
+To deactivate a downgrade right, double-click the field to display the toggle button, select **false**, and then select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon\).
 
 -   **false**: deactivates the downgrade right on the software model and on the related software entitlements.
 -   **true**: reactivates the downgrade right on the software model and on the related software entitlements.
 
 </td></tr></tbody>
-</table>## Matching Discovery Models
+</table>## Matching Discovery Models tab
 
 This list shows the discovery maps that match the software publisher and product fields of the software model.
 
@@ -1274,7 +1330,7 @@ Edition
 Normalized edition of the software.
 
 </td></tr></tbody>
-</table>## Product Lifecycles for all Versions
+</table>## Product Lifecycles for all Versions tab
 
 This list shows the life cycle for all versions of the software product.
 
@@ -1316,7 +1372,7 @@ Full version
 
 </td><td>
 
-The granular licensable version of the software.
+Granular licensable version of the software.
 
 </td></tr><tr><td>
 
@@ -1359,6 +1415,7 @@ Lifecycle type
 
 The product life cycle type values include:-   **Internal**: The life cycle date is specific to the customer \(for example, based on their internal policy, based on a custom contract/agreement with the publisher\).
 -   **Publisher**: The life cycle date comes from publisher sources and is not specific to a customer.
+-   **Publisher Add-On**
 
 </td></tr><tr><td>
 
@@ -1366,8 +1423,7 @@ Source
 
 </td><td>
 
-Source of the life cycle.-   If the record is created manually, this value set to Internal.
--   If the record is created automatically, the field is set to ServiceNow.
+Source of the life cycle. If the record is created manually, this field set to **Internal**. If the record is created automatically, the field is set to **ServiceNow**.
 
 </td></tr><tr><td>
 
@@ -1383,7 +1439,7 @@ Phase start date
 
 </td><td>
 
-Date the life-cycle phase starts.
+Date when the life-cycle phase starts.
 
 </td></tr><tr><td>
 
@@ -1391,7 +1447,7 @@ Risk
 
 </td><td>
 
-The risk level to an organization with regards to the life-cycle phase. For example, the risk for the end of support phase for a publisher maybe moderate or the end of life phase maybe high.Risk type values include:
+Risk level to an organization with regards to the life-cycle phase. For example, the risk for the end of support phase for a publisher maybe moderate or the end of life phase maybe high.Risk type values include:
 
 -   Very High
 -   High
@@ -1405,7 +1461,90 @@ Active
 
 </td><td>
 
-Indicates if the life cycle is to be considered or not while evaluating the risk of the software.**Note:** By default, only active life cycles are displayed.
+Option to indicate if the life cycle is to be considered or not while evaluating the risk of the software.**Note:** By default, only active life cycles are displayed.
+
+</td></tr></tbody>
+</table>## Group Allocations tab
+
+This list shows the user groups allocated to the software model.
+
+<table id="table_zrr_zt4_hfc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Assignment Group
+
+</td><td>
+
+Name of the user group assigned to this software entitlement. Software licenses are allocated to all the members of this assignment group based on the availability of unallocated licenses for the software entitlement.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Current status of the group allocation to the software model. Possible values are:-   **New**: When a group allocation is created, this field is automatically set to New.
+-   **Not allocated**: None of the group members are allocated to the software entitlement.
+-   **Fully allocated**: All the members from the user group are allocated to the software entitlement.
+-   **Partially allocated**: A partial number of group members are allocated to the software model.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Indicates if the user group allocation to the software entitlement is active. Possible values are:-   **true**: The allocation record is active and users from the assignment group are allocated to the software entitlement.
+-   **false**: The allocation record is inactive and the users from the assignment group aren't allocated to the software entitlement. When a user group is changed to inactive, the group allocation record is marked as inactive and the **Allocated Quantity** field value is updated.
+
+</td></tr><tr><td>
+
+License metric
+
+</td><td>
+
+User-based license metric for user allocation to the software entitlement. License metric values include:-   Per Named User
+-   Per User
+-   User Subscription
+
+</td></tr><tr><td>
+
+Group Members
+
+</td><td>
+
+Number of users available in the assignment group.
+
+</td></tr><tr><td>
+
+Software model
+
+</td><td>
+
+Field value is automatically set to the selected software model.
+
+</td></tr><tr><td>
+
+Allocated Quantity
+
+</td><td>
+
+Number of users from the assignment group allocated to the software entitlement.
+
+</td></tr><tr><td>
+
+Entitlement condition
+
+</td><td>
+
+Entitlement condition defined to apply the group user allocation on the filtered software entitlements.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)

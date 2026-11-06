@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Move defective assets through the transfer process
@@ -22,7 +22,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **Inventory** &gt; **My Inventory**.
 
@@ -34,15 +34,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following to move the part to the stockroom where it needs to be returned.
 
-<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d116291e101">
+<table id="choicetable_ijp_w1y_2jb"><thead><tr><th align="left" id="d130806e107">
 
 To
 
-</th><th align="left" id="d116291e104">
+</th><th align="left" id="d130806e110">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d116291e110">
+</th></tr></thead><tbody><tr><td id="d130806e116">
 
 **Drop off**
 
@@ -52,7 +52,7 @@ Do this
 2.  Swipe the part to the left and click **Add to drop-off list**.
 
 
-</td></tr><tr><td id="d116291e131">
+</td></tr><tr><td id="d130806e137">
 
 **View part details and then drop off**
 
@@ -82,6 +82,4 @@ A new transfer order line is created.
 -   If a transfer order for the drop-off location does not exist, then a new transfer order is created and the transfer order line added to that transfer order.
 
 For more information on asset transfers, see [Move an asset through the transfer process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-transfer-order-line-task.md).
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

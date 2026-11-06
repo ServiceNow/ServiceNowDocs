@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Understanding the Monitoring Technology Dashboard, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Monitoring Technology Dashboard for Windows
@@ -69,4 +69,6 @@ The Metrics subtab displays the top five performing CIs and servers over the pas
 -   Disk Distribution
 
 You can customize the appearance of the individual widgets on the Windows Monitoring Technology Dashboard. For example, you could change the timeframe for which the alerts appear. You can also include customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
+
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Custom alert fields
@@ -31,6 +31,4 @@ Depending on permissions, you may only be able to create fields with the **user\
 -   sys\_created\_on
 -   sys\_mod\_count
 -   sys\_id
-
-**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
 

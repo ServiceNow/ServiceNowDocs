@@ -4,7 +4,7 @@ description: Employees can submit legal requests for review of third-party contr
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 ---
 
@@ -65,7 +65,7 @@ For wet signatures, after all signatories have signed and returned the contract 
 The requester and legal department members can access the signed contract document from the Legal Contracts repository.
 
 -   **[Create a legal request for a third-party contract review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-submit-request-tpc.md)**  
-Create a legal request for the legal team to review a third-party contract or the terms and conditions provided by the third party.
+Submit contracts or third-party terms and conditions to the legal team for review.
 -   **[View and track third-party contract review request as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-tpc-view-request.md)**  
 View the details of a third-party contract review request after it has been submitted and track the activities in the request.
 -   **[Modify a third-party review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-update-contract-tpc.md)**  
@@ -82,15 +82,17 @@ As a member of the legal contracts support team, review and revise a third-party
 
 [Contract amendments]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

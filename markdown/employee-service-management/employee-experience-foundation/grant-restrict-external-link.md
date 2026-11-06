@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an external link, Quick links, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Create an external link, Quick links, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Grant or restrict access to an external link
@@ -30,15 +30,15 @@ Role required: sp\_admin, taxonomy\_admin, or taxonomy\_manager
 
 3.  To grant access to the external link, click the **Available For** tab.
 
-<table><thead><tr><th align="left" id="d549968e81">
+<table><thead><tr><th align="left" id="d596151e80">
 
 To
 
-</th><th align="left" id="d549968e84">
+</th><th align="left" id="d596151e83">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d549968e90">
+</th></tr></thead><tbody><tr><td id="d596151e89">
 
 **Add a new user criteria**
 
@@ -49,7 +49,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d549968e124">
+</td></tr><tr><td id="d596151e123">
 
 **Edit an existing user criteria**
 
@@ -63,15 +63,15 @@ Do this
 </td></tr></tbody>
 </table>4.  To restrict access to the external link, click the **Not Available For** tab.
 
-<table><thead><tr><th align="left" id="d549968e170">
+<table><thead><tr><th align="left" id="d596151e169">
 
 To
 
-</th><th align="left" id="d549968e173">
+</th><th align="left" id="d596151e172">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d549968e179">
+</th></tr></thead><tbody><tr><td id="d596151e178">
 
 **Add a new user criteria**
 
@@ -82,7 +82,7 @@ Do this
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d549968e213">
+</td></tr><tr><td id="d596151e212">
 
 **Edit an existing user criteria**
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Managemen
 
 The ServiceNow® Cloud Discovery Workspace dashboard provides a summary of the cloud operations of your organization and shows the ServiceNow applications that you can use to manage them.
 
-**Note:** To access the in-product help, [Enable Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md). You can improve the visual experience by using the dark theme. For more information, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-theming.md).
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Required ServiceNow AI Platform roles
 

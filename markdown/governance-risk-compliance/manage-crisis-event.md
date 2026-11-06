@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/manage-crisis-event.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -151,13 +151,11 @@ Additional information about the crisis event.
 
     -   **Pending Approval**
 
-        When you click **Submit for Approval**, the event is set to **Pending Approval** state. In this state, you can only update the **Work notes** field.
-
-        If there are any approval rules configured for the event, then approvals are generated and sent to the approvers. If there are no approval records in the requested state for the event, then you can either **Reject** or **Approve** the event.
+        When you click **Submit for Approval**, the event is set to **Pending Approval** state. In this state, you can only update the **Work notes** field. If there are any approval rules configured for the event, then approvals are generated and sent to the approvers. If there are no approval records in the requested state for the event, then you can either **Reject** or **Approve** the event.
 
         You can view the approval details in the Approvals related list with its name, level of approval, and the state of the approval.
 
-        Select the Approval History related list to view the approval state, name of the approver, event number, the date on which the approval was requested, and comments if any.
+        Select the Approval History related list to view approval details. The list shows the approval state, approver name, event number, request date, and any comments.
 
         **Note:** If you are a BCM Program Manager, then you can see the **Approve** and **Reject** buttons.
 
@@ -183,6 +181,4 @@ Additional information about the crisis event.
 
     **Note:** By default, the PDF is generated and attached after the event is closed.
 
-
-**Parent Topic:**[Structured workflows for Exercise and Crisis Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-recovery-exercise-management.md)
 

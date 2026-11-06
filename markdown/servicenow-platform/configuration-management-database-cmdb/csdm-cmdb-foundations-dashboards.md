@@ -1,20 +1,20 @@
 ---
-title: Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards
-description: The ServiceNow CSDM and CMDB Data Foundations Dashboards store app contains dashboards which provide insights into the key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). This app provides recommendations to ensure that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
+title: Monitor health in CSDM and CMDB Data Foundations Dashboards
+description: The ServiceNow CSDM and CMDB Data Foundations Dashboards store app contains dashboards with insights into the key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). This app uses ServiceNow health benchmarks to provide recommendations to ensure that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards
+# Monitor health in CSDM and CMDB Data Foundations Dashboards
 
-The ServiceNow® CSDM and CMDB Data Foundations Dashboards store app contains dashboards which provide insights into the key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). This app provides recommendations to ensure that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
+The ServiceNow® CSDM and CMDB Data Foundations Dashboards store app contains dashboards with insights into the key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). This app uses ServiceNow® health benchmarks to provide recommendations to ensure that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
 
 **Note:** CSDM and the CMDB Data Foundations Dashboards don't support domain separation.
 
@@ -22,7 +22,7 @@ For an introduction, watch the ServiceNow [Data Foundations Dashboards for CSDM 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 The CSDM and CMDB Data Foundations Dashboards store app provides dashboards that complement each other. See the respective sections for each of the following dashboards:
 

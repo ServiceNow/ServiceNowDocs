@@ -1,20 +1,20 @@
 ---
 title: API reference
-description: Use ServiceNow APIs to change functionalities and add features on the ServiceNow AI Platform.
+description: Use ServiceNow APIs to change functionality and add features on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/api-reference.html
 release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [API implementation and reference]
 ---
 
 # API reference
 
-Use ServiceNow APIs to change functionalities and add features on the ServiceNow AI Platform.
+Use ServiceNow APIs to change functionality and add features on the ServiceNow AI Platform.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -22,19 +22,31 @@ Use ServiceNow APIs to change functionalities and add features on the ServiceNow
 
 </td><td>
 
+[Client Next Experience \[Omitted image "bus-laptop.svg"\] Alt text: Control how the ServiceNow AI Platform functions and is displayed within the web browser in the Next Experience UI Framework.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client-next.md)
+
+</td><td>
+
 [Client mobile \[Omitted image "bus-mobile-native.svg"\] Alt text: Build custom mobile experiences inside of ServiceNow AI Platform native mobile apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/api-client-mobile.md)
 
-</td><td>
-
-[UI Builder \[Omitted image "bus-service-map.svg"\] Alt text: Build client scripts in UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/ui-builder-api-reference/api-uib.md)
-
-</td><td>
+</td></tr><tr><td>
 
 [Server \[Omitted image "bus-server.svg"\] Alt text: Build and update applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
 </td><td>
 
 [REST \[Omitted image "bus-cloud.svg"\] Alt text: Access and update data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
+
+</td><td>
+
+[UI Builder \[Omitted image "bus-service-map.svg"\] Alt text: Build client scripts in UI Builder.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/ui-builder-api-reference/api-uib.md)
+
+</td></tr><tr><td>
+
+[Mobile Scripting \[Omitted image "bus-database.svg"\] Alt text:Run scripts against the local database on a mobile device so that they work in both offline and online mode.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-mobile-scripting.md)
+
+</td><td>
+
+[Mobile SDK \[Omitted image "bus-mobile-phone.svg"\] Alt text: Leverage the ServiceNow AI Platform within standalone Android and iOS apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
 
 </td><td>
 
@@ -54,12 +66,20 @@ Common use cases:
 
 Cabrillo JS is a client-side JavaScript API for accessing capabilities inside ServiceNow AI Platform native mobile applications. Cabrillo JS provides methods to use native device capabilities, native mobile UI, and other ServiceNow AI Platform mobile functionality.
 
-## UI Builder
+## Mobile SDK
 
-Use UI Builder APIs when developing client scripts in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md). Client scripts are executed in response to something happening on a page, such as:
+Use the ServiceNow Mobile SDK to leverage the functionality and resources of the ServiceNow AI Platform within your standalone mobile Android and iOS applications.
 
--   User interaction events/actions, such as a button click.
--   Lifecycle events, such as a data broker execution started.
+Using the Mobile SDK, you can perform the following within your applications:
+
+-   Access data on your ServiceNow instance through its public REST APIs or custom scripted REST APIs that you develop.
+-   Embed and enable Virtual Agent within your application interface.
+-   Embed a real-time, AI-powered voice agent directly in your mobile application. NowVoice provides a full-screen voice interface with live transcripts, mute controls, and post-call transcript sharing.
+-   Gather and track custom analytics events for analysis.
+-   Attach documents \(attachments\) to a record within your ServiceNow instance.
+-   Load web pages hosted on your ServiceNow instance in a native web view or Cabrillo.
+-   Provide simple authentication flows using JSON Web Tokens for third-party applications to authenticate users.
+-   Send push notifications.
 
 ## Server
 
@@ -80,4 +100,11 @@ Common use cases:
 -   Use the [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_AttachmentAPI.md) to upload and query file attachments.
 -   Use the [Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/email-api.md) to send and receive email messages.
 -   Use the [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_TableAPI.md) to create, read, update, and delete records in a table.
+
+## UI Builder
+
+Use UI Builder APIs when developing client scripts in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md). Client scripts are executed in response to something happening on a page, such as:
+
+-   User interaction events/actions, such as a button click.
+-   Lifecycle events, such as a data broker execution started.
 

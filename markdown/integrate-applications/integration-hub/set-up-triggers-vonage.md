@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Vonage Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Vonage Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up triggers for the Vonage spoke

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/early-availability-guide.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Early Availability guide
@@ -23,8 +23,6 @@ The ServiceNow Developer Program provides Early Availability to pre-release vers
 -   Documentation
 
 As a Developer Program member, you have the first opportunity to become familiar with the latest ServiceNow release through Early Availability. Early Availability gives you an opportunity to learn skills that will set you apart from other developers in the industry. You can leverage the latest features and upgrades to build new applications.
-
-\[Omitted image "ea-guide-utah\_eaguide\_images\_servicenow\_eaguide\_eabenefits.png"\] Alt text: Early availability screenshots
 
 -   **[Early Availability learning plans and training courses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/early-availability-learning-plans-and-training-courses.md)**  
 Early Availability gives you access to learning plans and training courses specifically for the latest release.

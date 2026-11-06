@@ -7,7 +7,7 @@ release: yokohama
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate Sidebar and Slack, Sidebar and Slack, Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -40,16 +40,6 @@ Role required: admin
     |member\_left\_channel|A user left a public or private channel.|channels:read or groups:read|
     |message.channels|A message was posted to a channel.|channels:history|
     |message.groups|A message was posted to a private channel.|groups:history|
-    |message.im|A message was posted in a direct message channel.|im:history|
-
-6.  Select **Subscribe to bot Events**.
-
-7.  Add these events:
-
-    |Event Name|Description|Required Scope|
-    |----------|-----------|--------------|
-    |member\_left\_channel|A user left a public or private channel.|channels:read or groups:read|
-    |message.channels|A message was posted to a channel.|channels:history|
     |message.im|A message was posted in a direct message channel.|im:history|
 
 

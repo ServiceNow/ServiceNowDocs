@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Cloud Action Library, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Explore, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Cloud Action Library for AWS
@@ -151,6 +151,8 @@ Datacenter URL
 </td><td>
 
 URL of the datacenter.Leave this field empty.
+
+**Note:** For GovCloud, use the URL [https://ec2.us-gov-west-1.amazonaws.com](https://ec2.us-gov-west-1.amazonaws.com).
 
 </td></tr><tr><td>
 

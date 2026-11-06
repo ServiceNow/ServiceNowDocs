@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage policy exceptions and extensions, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Request a policy extension through Service Portal
@@ -29,6 +29,8 @@ Add the My Policy Exceptions widget to the Service Portal index page. The widget
 2.  Open the policy exception for which you want to request for extension.
 
     The number of remaining extensions that you can request is displayed.
+
+    Set the number of extensions allowed for a policy exception in the **Number of extensions allowed for a policy exception** field on the **Policy and Compliance Properties** page.
 
 3.  In the **Request extension** section, enter the date until which you want to extend.
 

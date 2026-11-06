@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-metrics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -16,7 +16,7 @@ A metric is used to measure and evaluate the effectiveness of your organizationa
 
 ## Metrics
 
-The GRC: Metrics application is installed automatically with the ESG Management application from the ServiceNow® Store. The user role that is responsible to read, create, and update the metric definitions and metrics is the ESG Management metrics manager \(sn\_esg.metrics\_manager\).
+The GRC: Metrics application is installed automatically with the Operational Sustainability Management application from the ServiceNow® Store. The user role that is responsible to read, create, and update the metric definitions and metrics is the Operational Sustainability Management metrics manager \(sn\_esg.metrics\_manager\).
 
 With the GRC: Metrics application, you can define metrics by using the metrics form. Metrics are a combination of a metric definition and an entity. Applying the metric definition to an entity creates a metric. Once the metrics are defined, data is gathered to track the effectiveness and performance of your processes. For example, consider a metric that measures the effectiveness of an incident resolution process by calculating the time it takes to resolve an incident.
 
@@ -26,9 +26,9 @@ Every organization has a range of data sources for building and structuring thei
 
 You can classify your metrics into qualitative and quantitative measurements.
 
-Qualitative metrics in ESG Management are derived from the subjective opinion that you form based on other information. Some examples of qualitative metrics in the ESG Management sectors are brand credibility, corporate value, and so on.
+Qualitative metrics in Operational Sustainability Management are derived from the subjective opinion that you form based on other information. Some examples of qualitative metrics in the Operational Sustainability Management sectors are brand credibility, corporate value, and so on.
 
-Quantitative metrics in ESG Management are the metrics that you can measure in a specific number through certain formulas. Some examples of quantitative metrics for an organization include reporting total energy use, energy use by region, and so on.
+Quantitative metrics in Operational Sustainability Management are the metrics that you can measure in a specific number through certain formulas. Some examples of quantitative metrics for an organization include reporting total energy use, energy use by region, and so on.
 
 ## Examples of metrics
 

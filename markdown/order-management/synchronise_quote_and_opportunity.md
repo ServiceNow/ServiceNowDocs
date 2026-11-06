@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/synchronise\_quote\_and\_opportunity.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Sync quote and opportunity
@@ -69,4 +69,11 @@ The following is a list of default field mappings between opportunity line items
 |Unit net price|Unit net price|
 
 **Note:** When an opportunity and quote header, and an opportunity line item and quote line item are in sync with each other, the addition and deletion of line items on the opportunity record is disabled. All the synced fields on the opportunity and opportunity line item record becomes read only.
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

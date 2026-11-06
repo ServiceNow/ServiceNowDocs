@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreateAQuestion.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Create quizzes with forms, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,8 +31,6 @@ Each question can only be associated with one category. Each question has an ans
     -   By accessing the Assessment Metrics related list and selecting **New**.
     -   Navigate to **Quiz Management** &gt; **Questions** and select **New**.
     **Warning:** When you create a **Choice**or **Likert Scale** question, you must reopen the Assessment Metric form after you submit it to create answers. If you distribute a questionnaire without creating the answers for questions with these data types, recipients are unable to answer the questions. If the questions are mandatory, the recipients are unable to submit their questionnaires.
-
-    \[Omitted image "Quiz\_Question.png"\] Alt text: Quiz question
 
     On the form, fill in the fields.
 

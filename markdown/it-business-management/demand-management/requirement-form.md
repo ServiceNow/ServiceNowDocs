@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -70,7 +70,7 @@ State
 
 </td><td>
 
-Status of the requirement can be **Pending**, **Approved**, or **Rejected**. **Note:** The request state is independent of the demand request state and of the states of any planned tasks associated with the requirement. The request can be closed without the requirement state being closed. Likewise, closing the request does not change the state of the requirement.
+Status of the requirement can be **Pending**, **Approved**, or **Rejected**. **Note:** The request state is independent of the demand request state and of the states of any planned tasks associated with the requirement. The request can be closed without the requirement state being closed. Likewise, closing the request doesn’t change the state of the requirement.
 
 </td></tr><tr><td>
 

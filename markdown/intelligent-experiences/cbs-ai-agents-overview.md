@@ -1,0 +1,21 @@
+---
+title: Core Business Suite AI agents
+description: The following AI agents are available for Core Business Suite.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/cbs-ai-agents-overview.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-08-04"
+reading_time_minutes: 1
+breadcrumb: [Core Business Suite, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Core Business Suite AI agents
+
+The following AI agents are available for Core Business Suite.
+
+-   **[CBS Bulk Upload AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/cbs-cbs-bulk-upload-ai-agent.md)**  
+The CBS Bulk Upload AI agent handles bulk record creation and updates for the Space, Supplier, and Supplier Contact tables.
+
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-agent-landing-page.md)
+

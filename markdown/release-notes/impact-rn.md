@@ -1,175 +1,135 @@
 ---
 title: Impact release notes
-description: ServiceNow Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.ServiceNow Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.ServiceNow Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.ServiceNow Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.
+description: ServiceNow Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/impact-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-03-24"
-reading_time_minutes: 9
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Impact release notes
 
-ServiceNow® Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.
+ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.
 
 ## About Impact
 
--   Adopt ServiceNow products and measure their value, gain access to expert guidance and personalized recommendations, maintain a high-performing platform, and enhance business continuity with 24 x 7 technical support.
--   Access the Impact Store Application integrated within your ServiceNow instance and connected to the Impact Delivery Instance \(IDI\) portal.
--   Use Proactive Code Check to track compliance against leading practices for coding and organizational standards.
--   Jumpstart your understanding and assessment of ServiceNow platform capabilities with new Accelerators that provide a demonstration of the possibilities and capabilities with instance features and maximize value exactly where you need it.
+-   Achieve success your way with tailored resources, driving outcomes aligned to your business priorities.
+-   Accelerate business outcomes faster with AI Control Tower, reducing time to measurable impact.
+-   Adopt ServiceNow products and AI innovations rapidly, ensuring your team moves at the speed of transformation.
+-   Maximize your ServiceNow investment, proving its value to stakeholders through measurable adoption and outcomes.
+-   Improve platform health with proactive guidance, keeping your instance optimized and future-ready.
 
-See [Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-store-app.md) for more information.
+See [Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Impact is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Impact is available for activation with a separate subscription. Your Customer Success Manager sets entitlement information for access.
+    Install Impact by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-    -   Impact Delivery Instance is accessed using your unique portal URL. Your Impact Squad sends you login information to access your IDI portal.
-    -   For the Impact Store Application, see [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/install-impact-innovation-lab.md) for activation details.
-    -   Proactive Code Check can be activated in your production and non-production instances. See [Configuring Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-proactive-code-check.md) for details.
 -   **Upgrade information**
 
-    The Impact Store Application configuration requires a sequence of tasks. See [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-impact-platform.md) for details.
+    Impact configuration requires a sequence of tasks in a unified registration process. See [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-impact-platform.md).
 
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 
-## May 2025
+## October 2026 Store \(v12.0.0\)
 
-ServiceNow® Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.
-
-### What's changed
-
--   **[Impact Workspace name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-home.md)**
-
-    Impact Workspace has been renamed as Impact.
-
--   **[Impact Store App user experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-store-app.md)**
-
-    Impact users who have migrated from the Impact Delivery Instance may access Quicklinks to access features that haven’t been migrated to Impact Store Application yet.
-
--   **[Custom payload in Instance Observer alerts integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/custom-payload-help-guide-impact.md)**
-
-    Define and manage a custom JSON request payload for ServiceNow and third-party integrations with the Instance Observer enhancements.
-
-
-## Yokohama General Availability
-
-ServiceNow® Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.
+Version 12.0.0 introduces a new Setup Hub onboarding experience, multi-participant maturity assessments, Scan Engine performance improvements, and Business Value Management enhancements.
 
 ### What's new
 
--   **[Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-store-app.md)**
-    -   [Impact Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-home.md)Use the Impact home page, an organized collaborative portal, which guides you to your relevant content and helps focus and accomplish your tasks with seamless interaction with Impact application features.
-    -   [Use Guided Setup to synchronize and migrate data to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/guided-setup-impact-in-app.md): Use the simplified interface to synchronize and configure your Impact Store App with the Impact Delivery Instance.
-    -   [Grant temporary instance access to your Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/hop-access-impact-squad.md) to facilitate effective support and rapid issue resolution.
-    -   [Convert an Impact entity to SPM entity as a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/convert-spm-entity-impact-entity-recommendations.md): Create an Impact entity and associate the SPM record details to it, which helps you to avoid manual intervention in converting the entities from Impact to SPM portals to avoid duplication of entities in the process.
-    -   [Using recommendations list in Impact home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/using-recommendations-iip-ws.md):
-        -   Sort the recommendations list using the search and filter options by entering a keyword or phrase to narrow down the list and find the recommendations that you’re looking for.
-        -   Convert Impact recommendations and free-form initiatives into actionable, trackable Strategic Portfolio Management \(SPM\) or Collaborative Work Management \(CWM\) work items. [Creating work items using recommendations and initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/creating-work-items-using-recommendations-and-initiatives.md).
-    -   [Impact Store Application product adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-product-adoption.md)
-        -   Use the Product Adoption Roadmap \(PAR\) to view a recommended implementation sequence for your capabilities:
-            -   [Create and publish a product adoption roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/create-product-adoption-roadmap.md): Use pre-defined ServiceNow templates or build from your own.
-            -   Use Product Adoption Roadmap Templates with pre-defined sequence of capabilities for ITSM \(\(IT Service Management\)\), ITOM \(\(IT Operations Management\)\), and Security Operations.
-            -   View and edit phase-specific notes for a capability to understand prerequisites, plan training, and additional implementation considerations.
-            -   Customize your roadmap by adding or removing capabilities as needed.
-            -   Request Related Accelerators \(if available\) to improve adoption of the capabilities
-    -   [Manage Capabilities Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/manage-capability-maps.md):
-        -   Explore, track, and manage the descriptions, notes, and related resources for your entitled capabilities.
-        -   Use the updated Data Collection Content Packs to automatically transfer Impact Value Metrics to the centralized Impact instance to manage the Value Journey, including Setting Value Baselines and Targets, Outcome Performance Reviews, and the Value Report.
-        -   Use the Capability Details page to view and manage comprehensive information related to a capability in your product adoption journey. The full-page layout replaces the previous pop-up view, making it easier to access, navigate and manage important details, such as usage status and notes in one centralized location.
-        -   View and add adoption guidance for different phases, such as prerequisites and implementation instructions in notes specific to a phase.
-        -   Measure a selected business objective under the same product across multiple ServiceNow instances. Use the Instance option on the Objectives and Outcomes, and Outcomes Insights to filter business objectives and outcomes by the ServiceNow instance. Add and edit the business objectives connected to the capability.
-    -   [Impact Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-healthscan-store-app.md):
-        -   Use Proactive Code Check to track compliance against coding leading practices and organizational standards.
-        -   Activate Proactive Code Check in the Health Store Application to scan update sets and check compliance standards and adherence to leading practices.
-        -   Scan update sets for leading practice violations in a non-production environment with Proactive Code Check and improve code quality, reduce errors, and enhance system stability.
--   **[Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-digital-experience.md)**
-    -   [Connect to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/connect-instance-impact-store-app.md): The administrator or a named contact log in to your instance to facilitate the connection of data with the Impact Store Application.
-    -   [Product Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/product-adoption.md): Start an initiative from an individual capability to log and track your activities toward the implementation. The reference of the created initiative is available in the capability details and initiatives roadmap. The reference of the created initiative is available in the capability details and initiatives roadmap.
-    -   [Healthscan definitions updates: May 2025 store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/healthscan-definitions-may-store.md): Some HealthScan definitions have been updated or deprecated for the May store release.
+-   ****
+
+    Configure Impact through an interactive Setup Hub UI that replaces the previous linear guided setup. Setup progress persists across upgrades.
+
+-   ****
+
+    ServiceNow Impact now includes new self-service maturity assessment accelerators that help customers evaluate their maturity across key domains. With this release you can:
+
+    -   generate prioritized action plans with domain-specific tasks, assigned owners, and completion criteria aligned to business priorities
+    -   address the identified gaps
+-   **[Impact store app value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-business-outcomes.md)**
+    -   Use the Impact Product Console to view and customize estimated data definitions switch any estimated metric to real, verified data, connected directly to Manage Objectives and Outcomes.
+    -   Configure an Estimated data definition using a two step flow. The first step explains the current approximation and what you're about to change. The second step maps the metric to the Performance Analytics indicator and updates the metric status from Not configured to Configured.
+    -   Map Tier 1 and Tier 2 groups and apply the mapping across IT Service Management, Customer Service Management, and HR Service Delivery metrics. Adding or removing a group from any product updates the mapping for all products.
+    -   Track an outcome that uses an Estimated data definition only after you configure its definition in the Impact Store App Store App and enable Service Exchange.
 
 ### What's changed
 
--   **New [Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-store-app.md) experience**
+-   ****
 
-    The new Impact Store Application provides a more efficient, streamlined way for you to work. For information about how to upgrade, see [Configuring the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/configuring-impact-platform.md). Note that [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-digital-experience.md) is still supported in this release.
+    Defects and UI improvements are resolved across all assessment steps, including Overview, Assess, Review, Prioritize, and Action Plan. Additional UI changes include:
 
--   **[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-catalog.md)**
+    -   Domain categories in the Assess Maturity questionnaire display in a reorganized layout with updated task labeling for clearer navigation during assessments.
+    -   The target-setting step in the Prioritize and Target decision table uses a consolidated decision table with an improved UI for specifying target values.
+-   ****
 
-    Minor updates have been incorporated into the following accelerators:
-
-    -   [Jumpstart Your GenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-gen-ai.md)
-    -   [Jumpstart Your Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-now-assist-skill-kit.md)
-    -   [Jumpstart Your Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-document-intelligence.md)
-    -   [On-Demand Value Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/on-demand-value-report.md)
-    -   [LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/lsd-maturity-assessment.md)
-    The following Accelerators are renamed:
-
-    -   Jumpstart Your Now Assist for ITSM is now [Jumpstart Your AI Agents for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-your-ai-agents-for-itsm.md)
-    -   Jumpstart Your Now Assist for CSM is now [Jumpstart Your AI Agents for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-ai-agents-csm.md)
--   **[Data Collection Toolkit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/data-collection-toolkit.md)**
-    -   Download the content packs for both regulated \(GCC/NSC\) and non-regulated customers.
-    -   Automatically transfer Impact Value Metrics to the centralized Impact instance to manage the value journey, including setting value baselines and targets, outcome performance reviews, and the value report with the enhanced toolkit.
--   **[Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-digital-experience.md)**
-
-    With the Yokohama release, Impact Digital Experience \(IDE\) has been renamed as Impact Delivery Instance \(IDI\).
+    On-demand definition scans complete in under one minute on average per instance, reducing wait times for Scan Engine operations.
 
 
-## Yokohama
+-   ****
+    -   Explore improved outcomes for CSM and HR Service Delivery, built on current ServiceNow platform capabilities with updated data instrumentation and calculation logic.
+    -   Find all Impact Value Management \(IVM\) data collection apps in one place, grouped by product line, on both the Impact Store App and Impact Delivery Instance.
 
-ServiceNow® Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.
+## September 2026 store \(v11.0.0\)
+
+Version 11.0.0 introduces standalone product adoption functionality, new Accelerators across multiple domains, Scan Engine API and exception workflow enhancements, and Business Outcomes improvements. It also retires legacy Accelerators and Impact Health Diagnostics.
 
 ### What's new
 
--   **[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-catalog.md)**
-    -   [Jumpstart Your Employee Journey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-employee-journey-management.md): Provides a demonstration of the possibilities and capabilities of Employee Journey Management.
-    -   [Jumpstart Your Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-knowledge-management.md): Provides a demonstration of the possibilities and capabilities of Knowledge Management.
-    -   [Jumpstart Your Legacy Workflow Migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-legacy-workflow-migration.md): Provides a demonstration of the possibilities and capabilities of Legacy Workflow Migration.
-    -   : Provides a demonstration of the possibilities and capabilities of Now Assist for CSM.
-    -   [Jumpstart Your Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-now-assist-skill-kit.md): ​Provides a demonstration of the possibilities and capabilities of Now Assist Skill Kit.
-    -   [Jumpstart Your Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-now-assist-virtual-agent.md): Provides a demonstration of the possibilities and capabilities of Now Assist in Virtual Agent.
-    -   [Jumpstart Your Strategic Portfolio Management – Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-strategic-portfolio-management-resource-management-workspace.md): Provides a demonstration of the possibilities and capabilities of Resource Management Workspace within SPM.
-    -   [Jumpstart Your GenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-gen-ai.md): Provides a demonstration of the possibilities and capabilities of ServiceNow® Generative AI application \(Artificial Intelligence\)
-    -   [Release and Deployment Advisory for Pro-code Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/release-deployment-advisory-pro-code-development.md): Provides guidance to assist pro-code developers in the tools and techniques to release and deploy ServiceNow application configurations and customizations.
-    -   UX: The basics to unlock your ServiceNow success
-    -   [UX: Why It Matters and How to Apply It](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/ux-why-it-matters-how-to-apply-it.md): Takes examples directly from your instance to demonstrate how improving UX can directly influence the success of your ServiceNow investment.
-    -   [LSD Maturity Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/lsd-maturity-assessment.md): Provides guidance on fine-tuning your Legal Service Delivery \(LSD\) on the ServiceNow platform.
-    -   [Introduction to CMDB: Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/introduction-to-cmdb-ingestion.md): Demonstrates the possibilities and capabilities of automating and standardizing the data entry from the input sources for their Configuration Management Database \(CMDB\).
-    -   [Extend Your AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/extend-your-ai-search.md): Provides prescriptive guidance on extending your AI Search beyond foundational levels.
-    -   [Jumpstart Your Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/Jumpstart-your-subscription-management.md): Provides a demonstration of the possibilities and capabilities available with the Subscription Management Application in your instance.
-    -   [Jumpstart Your AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/jumpstart-ai-agent-studio.md): Provides Impact customers with an overview and applied demonstration of AI agents within the platform.
--   **[Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/io-overview.md)**
-    -   Use [Root Cause Correlation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/root-cause-correlation.md) to resolve issues that are identified by configured alerts and drill directly into the records causing the issues.
-    -   [Instance Observer user configurable dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/user-configurable-dashboard.md): Create your own dashboard according to your preferences of metrics to help analyze the health of your system in a snapshot or use the default home page to see a snapshot of instance overall health with key insights, such as performance, reliability, and availability at a glance with the available widgets.
-    -   Use the Instance Observer Seats Add-on to obtain additional seats to your eligible Impact package.
+-   **[Product Adoption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/product-adoption.md)**
+
+    Access core product adoption functionality, capabilities map and product adoption roadmap, without connecting to Service Exchange.
+
+    -   View the capabilities map with a list of capabilities and their entitlement status. You can also edit the usage status manually for relevant capabilities.
+    -   Create product adoption roadmaps using templates or manually, and manage capabilities for those new product adoption roadmaps.
+    -   Receive a consistent message when functionality is limited by unavailable status or inability to edit existing product adoption roadmaps until Service Exchange connects with Guided Setup.
+-   ****
+    -   Accelerate AI adoption and time to value by generating complete applications, surfacing automation opportunities, measuring AI investment impact, and migrating Virtual Agent topics.
+    -   Reduce onboarding friction and technical risk by orienting teams to scoped app development and enabling secure, integration-free access to external data sources. Activate Field Encryption Enterprise as a core part of your Vault Suite security strategy.
+    -   Strengthen your governance foundation by structuring your CSDM data model, establishing sound IRM Entity Framework design, managing your demand pipeline, and improving Knowledge Management process maturity.
+-   ****
+    -   Call the Scan Engine API to provide trigger scans on demand, check scan status and results, and integrate findings into pipeline approval gates.
+    -   Use exception approval workflows with explicit **Save Draft** and **Submit** actions.
+    -   Use configurable exception reason scope controls.
+-   **[Impact store app value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-business-outcomes.md)**
+    -   View the same product line label in the Impact Delivery Instance as in the Impact Store Application for the same product. For example, IT Service Management instead of ITSM. Both legacy and current models in the Impact Delivery Instance now map to the correct product line taxonomy.
+    -   Filter outcomes by version using the new Outcome version filter, available on the Objectives &amp; Outcomes landing page and the Outcome Insights page in Impact Delivery Instance.
 
 ### What's changed
 
--   **[Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-store-app.md)**
+-   **[Accelerator catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/accelerator-catalog.md)**
+    -   Success Readiness Assessment changed to Success Foundation Review.
+    -   UX Accelerators moved from Architecture to the Technical sub-catalog.
+    -   AI Readiness Assessment moved from Architecture to the Technical sub-catalog.
+    -   Tuneup Your IT Asset Management changed to Tuneup Your ITSM Asset Management.
+    -   Jumpstart Your App Engine changed to Jumpstart Your App Deployment Governance.
+-   ****
+    -   Exception workflows in update set scans provide multiple governance improvements.
+    -   Assign a dedicated exception approver role for governance separation.
+    -   Control which finding levels are eligible for exception reasons, as an instance administrator.
+    -   Access update set origin tracking on all scan findings.
+    -   View the captured update set data that contains the violating code whenever a full or delta scan runs and produces a finding.
+    -   Full-scan scope updates so only definitions explicitly configured for single-finding-per-table scanning are included.
+    -   The Scan Engine Properties page now displays a dedicated warning when the company code is unset, with a link to the system property for resolution.
+-   **[Impact store app value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-in-platform-business-outcomes.md)**
 
-    Impact is accessible in both the Impact Delivery Instance, formerly the Impact Digital Experience, and as the ServiceNow Impact Store Application.
+    Access Hardware Asset Management \(HAM\) and Software Asset Management \(SAM\) functionality through a single, unified ITAM app, grouped under IT Asset Management. All previously collected data and configuration is carried over with no manual reinstallation, reconfiguration, required during the upgrade.
 
-
--   **[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-value-journey.md) name changes:**
-    -   Impact Value Journey is renamed to Impact Value
-    -   Value Blueprint is renamed to Objectives and Outcomes.
-    -   Outcomes Performance is renamed to Outcomes Insights.
-    -   Business Objectives is renamed to Objectives.
-    -   Operational Outcomes is renamed to Outcomes.
-    -   Business Value Report is renamed to Value Report.
--   **[Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-packages.md)**
-    -   Add-on SKUs have been updated to provide additional flexibility for Impact customers and are available in all environments where Impact is available.
-    -   Updates to the Impact Advanced package, offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ### What's deprecated or removed
 
-The Expert Connect Accelerator is no longer supported as of Yokohama.
+-   **Accelerators retirement**
+
+    Jumpstart Your Virtual Agent, Jumpstart Your Natural Language Understanding \(NLU\), Jumpstart Your Multi-Lingual Virtual Agent, Jumpstart Your Issue Auto Resolution, and Jumpstart Your CSDM - Crawl technical Accelerators are no longer available.
+
+-   **Impact Proactive Code Check**
+
+    Impact Proactive Code Check/Health Diagnostics UI artifacts, navigation entries, and background jobs are being removed. Ensure your customizations don't depend on Impact Health Diagnostics navigation or diagnostics-specific tables.
+
 

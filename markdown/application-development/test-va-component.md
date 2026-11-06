@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-va-component.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Develop a component for Virtual Agent, Create custom components using ServiceNow CLI, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Develop a component for Virtual Agent, Create custom components using ServiceNow CLI, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Test a component for Virtual Agent
@@ -39,12 +39,12 @@ Virtual Agent components must be tested within the Virtual Agent client chat to 
 
     ```
     "dependencies": {
-        "@servicenow/ui-renderer-snabbdom": "yokohama",
+        "@servicenow/ui-renderer-snabbdom": "brazil",
         "@servicenow/library-translate": "^18.0.0",
-        "@servicenow/now-button": "yokohama",
-        "@servicenow/now-dropdown": "yokohama",
-        "@servicenow/sass-generic": "yokohama",
-        "@servicenow/cli-archetype": "yokohama",
+        "@servicenow/now-button": "brazil",
+        "@servicenow/now-dropdown": "brazil",
+        "@servicenow/sass-generic": "brazil",
+        "@servicenow/cli-archetype": "brazil",
         "@servicenow/sdk-ci": "1.0.8"
     }
     ```
@@ -151,14 +151,12 @@ Host address to use if you want your local development server to be accessible e
 
     The component opens in the test client tool. You can see the initial data provided in the **Custom Control JSON Input Data** field and the component's output in the **Custom Control Return Data** field.
 
-    \[Omitted image "test-tool.png"\] Alt text: The test client tool displaying a sample slider component.
-
 
 ## What to do next
 
 If your component is working as expected, deploy it to your instance. For instructions, see the [ServiceNow® Developer Site](https://developer.servicenow.com/dev.do#!/reference/next-experience/xanadu/cli/development-flow).
 
-After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see Virtual Agent custom controls.
+After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/custom-controls.md).
 
 **Parent Topic:**[Develop a component for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/va-components.md)
 

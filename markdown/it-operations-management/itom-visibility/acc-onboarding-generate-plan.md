@@ -7,10 +7,10 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [agent onboarding, installation plan, agent configuration]
-breadcrumb: [Use the Agent Client Collector \(ACC\) admin workspace, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use the Agent Client Collector \(ACC\) admin workspace, Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
 ---
 
 # Generate an Agent Client Collector installation plan
@@ -73,4 +73,6 @@ The installation plan is generated and ready to use. Each step in the plan inclu
 ## What to do next
 
 After completing the installation plan steps, verify that the agent is running and connected to the ServiceNow instance, on the ACC agents page.
+
+**Parent Topic:**[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/use-acc-admin-workspace.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Interactive activities, Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Docusign activities
@@ -18,7 +18,7 @@ Enable agents and fulfillers to collect electronic signatures during a playbook 
 
 ## Roles and availability
 
--   These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+-   Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 -   You must have access to Workflow Data Fabric's Docusign spoke.
 
 ## Inputs
@@ -71,7 +71,7 @@ Condition Builder
 
 </td><td>
 
-Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** **Show additional options** to see this field.
+Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -99,7 +99,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -165,6 +165,4 @@ Account record from the sn\_docusign\_spoke\_accounts table that specifies where
 </table>## Outputs
 
 Your signed document, available for review.
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/interactive-activities.md)
 

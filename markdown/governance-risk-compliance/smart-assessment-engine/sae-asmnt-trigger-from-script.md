@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Triggering assessments, Configure, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -30,7 +30,7 @@ In the script, you specify the assessment template for the generated assessments
 
 2.  On the **Actions** tab, select **Trigger Smart Assessment**.
 
-3.  In the More actions icon \(\[Omitted image "icon-more-actions-risk.png"\] Alt text: More actions icon.\), select **Create code snippet**, and then copy and paste the snippet into your script.
+3.  In the More actions menu icon \[Omitted image "more-actions-menu.png"\] Alt text:,select **Create code snippet**, and then copy and paste the snippet into your script.
 
 
 ## Result

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/parameter-screen-var-attr.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 17
-breadcrumb: [Configure input form screen inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 20
+breadcrumb: [Configure inputs, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Input form screen attributes for inputs
@@ -465,12 +465,16 @@ Use number inputs to enable your users to enter numerical values. Define optiona
 
  By default, number inputs support decimals.
 
+ To have the basic box input for a number, within an Input record, complete all the mandatory fields and select **Number** in the **Input type** field.
+
 </td><td>
 
-\[Omitted image "param-input-number-1.png"\] Alt text: Examples of number inputs configured as a numerical or percentage values.
+\[Omitted image "ifs-number-box.png"\] Alt text: Examples of number inputs configured as a numerical or percentage values.
 
 </td></tr></tbody>
-</table>You can use these attributes with number inputs.
+</table>To add additional elements to the number inputs, you can use the input attributes listed in the table. From the **Inputs attributes** field select **New** for each attribute you want to add.
+
+**Note:** The **Translated value attribute** toggle is only relevant when selecting the Decoration input attribute. The Decoration input attribute is relevant for the slider Render type. For more information see, [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-slider.md).
 
 <table id="table_qmz_d1r_b4b"><thead><tr><th>
 
@@ -510,22 +514,32 @@ Specify a minimum value for the input.
 
 </td><td>
 
-Specify a render type for the number input.-   **percentage**
+Specify a render type for the number input.-   **integer**
 
-Displays a percent symbol\(%\) after the number in the input.
+Displays whole integers, such as `3`, `1003`, or `57`. When **integer** is used, end users can only enter integers and can't enter decimals.
+
+\[Omitted image "ifs-number-box2.png"\] Alt text: The render type called integer showing an input called Number of outlets with a value of 60.
 
 -   **line**
 
 Displays the input as a line field.
 
--   **box**
+\[Omitted image "ifs-number-line.png"\] Alt text: The render type called line showing an input called Subscription duration in months with a value of 73.
 
-Displays the input as a box field.
+-   **percentage**
 
--   **integer**
+Displays a percent symbol\(%\) after the number in the input.
 
-Displays whole integers, such as `3`, `1003`, or `57`. When **integer** is used, end users can only enter integers and can't enter decimals.
+\[Omitted image "ifs-number-percent.png"\] Alt text: The render type called percentage showing an input called Interest rate in percentage with a value of 8%.
 
+-   **slider**
+
+Displays the input as slider value and a box input. For more information about sliders and how to configure them, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-slider.md).
+
+\[Omitted image "ifs-slider-float-step-size.png"\] Alt text: The render type called slider showing an input called Weight of package in kilograms with a value of 44.25.
+
+
+**Note:** For a table showing which attributes can be used with which render type, see [Number render types and compatible input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/number-compatible-input-attributes.md).
 
 </td></tr><tr><td>
 
@@ -533,7 +547,70 @@ Displays whole integers, such as `3`, `1003`, or `57`. When **integer** is used,
 
 </td><td>
 
+**Note:** This attribute can only be used with line and percentage render types.
+
 Can be set to either `true` or `false`. It's set to `false` by default, which means that by default the associated UI rule validation is run on the hidden inputs. Only set this to `true` when you want to skip the validation on hidden inputs.
+
+</td></tr></tbody>
+</table>The following input attributes listed in this table apply only to the slider render type. For more information, see [Slider types and their input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/slider-input-attributes.md).
+
+<table id="table_lx5_npt_bgc"><thead><tr><th>
+
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+**DefaultValue**
+
+</td><td>
+
+The value displayed when the user first views the slider. If no value is entered, the value displayed is zero. The default value must be between the min and max values.
+
+ **Note:** This defined value is the the starting point, unless a loading mechanism, which takes priority, is configured. See, [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/loading-mechanisms.md).
+
+</td></tr><tr><td>
+
+**StepSize**
+
+</td><td>
+
+The size of each step on the slider. The steps must be a number divisible between the max and min number. For example the min number is 20 and the max number is 80, the StepSize can be numbers like 2, 5, or 10.
+
+</td></tr><tr><td>
+
+**ReferencePoint**
+
+</td><td>
+
+When set to **true** a marker is added to the slider, providing a visual reference point for the user.**Note:** For the sake of visual clarity, this input attribute should not be used with the input attribute VisualStepsEnabled.
+
+</td></tr><tr><td>
+
+**VisualStepsEnabled**
+
+</td><td>
+
+When set to **true** the slider displays visual increments based on the specified StepSize input attribute.**Note:** For the sake of visual clarity, this input attribute should not be used with the input attribute ReferencePoint.
+
+</td></tr><tr><td>
+
+**EnforceStepSize**
+
+</td><td>
+
+When set to **true** users are unable to enter a value in the number box that does not align with the StepSize value.
+
+</td></tr><tr><td>
+
+**Decoration**
+
+</td><td>
+
+Defines sections on the slider with corresponding labels that appear when a user taps a section or enters a value. Each section can be associated with a specific color to aid visual representation. For more information, see [Configure a slider option for a number input](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-slider.md).
 
 </td></tr></tbody>
 </table>## Ranking inputs

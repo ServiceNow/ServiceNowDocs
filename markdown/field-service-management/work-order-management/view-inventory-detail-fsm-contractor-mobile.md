@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # View inventory details using the Field Service Contractor for mobile application
@@ -34,6 +34,4 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
     -   To view details of the available parts, tap **Available** and select a part to view its details.
     -   To view details of the defective parts, tap **Defective** and select a part to view its details.
-
-**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

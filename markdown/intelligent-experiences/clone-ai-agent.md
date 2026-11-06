@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/clone-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Duplicate an AI agent

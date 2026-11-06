@@ -1,5 +1,5 @@
 ---
-title: Use the client GlideList API in the Workspace Experience UI
+title: Client GlideList API in the Workspace Experience UI Developer Guide
 description: Add a custom button to the Agent Workspace Lists page that returns list information in the current view. Define the information to return by adding client GlideList API methods to an action assignment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/developer-guides/add-api-glide.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Developer guides, API implementation and reference]
 ---
 
-# Use the client GlideList API in the Workspace Experience UI
+# Client GlideList API in the Workspace Experience UI Developer Guide
 
 Add a custom button to the Agent Workspace Lists page that returns list information in the current view. Define the information to return by adding client GlideList API methods to an action assignment.
 
@@ -40,15 +40,13 @@ Role required: admin
 
 6.  Right-click in the form header and select **Save**.
 
-7.  Select **Advanced View**.
-
-8.  Select the **Client Script** tab and add one or more method calls into the `onClick{}` method definition.
+7.  In the **Client Script** editor, add one or more method calls into the `onClick{}` method definition.
 
     This method defines what actions to take when the button is selected. For a list of available methods, see [GlideList \(Now Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideListClientAPINEx.md).
 
-    \[Omitted image "add-api-glidelist-workspace.png"\] Alt text: GlideList method calls in the Client Script field.
+    \[Omitted image "add-api-glidelist-workspace.png"\] Alt text: GlideList method calls in the Client Script editor.
 
-9.  Select **Update**.
+8.  Select **Update**.
 
     You can test your button in a Workspace Experience table list view.
 

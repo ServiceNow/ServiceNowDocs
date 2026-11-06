@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Publish an asset to the hardware catalog
@@ -18,7 +18,7 @@ Publish an asset to the hardware catalog so that you can procure the asset by us
 
 ## Before you begin
 
-Before you can publish an asset to the hardware catalog, make sure that an inventory model record has already been created for that asset. If there's no record, you can create an inventory model record. To learn more, see [Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+Before you can publish an asset to the hardware catalog, make sure that an inventory model record has already been created for that asset. If there's no record, you can create an inventory model record. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
 
 Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.telco\_inventory\_catalog\_manager
 

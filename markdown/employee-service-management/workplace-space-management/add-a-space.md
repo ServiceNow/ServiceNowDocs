@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -262,9 +262,13 @@ Occupancy status
 
 The occupancy status of the space.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
 **Measurement Details**
+
+</td><td>
+
+ 
 
 </td></tr><tr id="measuring-unit-field"><td>
 
@@ -353,6 +357,8 @@ Specify if a space type is usable or not by using the Space type configuration f
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
+
+[]()
 
 [Reviewing allocation changes]()
 

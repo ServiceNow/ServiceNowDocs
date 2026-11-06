@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract Configuration form
@@ -38,7 +38,10 @@ Request Table
 
 </td><td>
 
-Table with which you want to associate the contract configuration.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to have the configuration on a different table.
+Table with which you want to associate the contract configuration.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to have the configuration on a different table.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 
 </td></tr><tr><td>
 
@@ -72,6 +75,14 @@ Application
 </td><td>
 
 This field is automatically set per the application scope setting.
+
+</td></tr><tr><td>
+
+Request type
+
+</td><td>
+
+Type of request the template rule is applicable to. You can add multiple request types, so a single configuration is applicable to more than one request typeFor contract requests, select **New Contract**; for amendment requests, select **Amendment**; and for renewal requests, select **Renewal**.
 
 </td></tr><tr><td>
 
@@ -111,6 +122,10 @@ Conditions under which the contract configuration is applied. For example, to ap
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
+[Signatory roles]()
+
 [Clause Variation form]()
 
 [Properties installed to configure expiry notifications]()
@@ -127,5 +142,15 @@ Conditions under which the contract configuration is applied. For example, to ap
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

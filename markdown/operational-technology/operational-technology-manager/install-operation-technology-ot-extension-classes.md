@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 ---

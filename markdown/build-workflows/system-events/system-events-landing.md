@@ -7,8 +7,8 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Build workflows]
 ---
 
@@ -20,19 +20,51 @@ System Events in ServiceNow are crucial for automating processes and maintaining
 
 <table id="table_o4s_mqg_ldc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how system events function as triggers for actions and enable process automation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/exploring-system-events.md)
+[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/exploring-system-events.md)
+
+ \[Omitted image "bus-explore.svg"\] Alt text:Learn about how system events function as triggers for actions and enable process automation.
 
 </td><td>
 
-[Configure events\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and manage system events to trigger actions and automate processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/configuring-system-events.md)
+[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/configuring-system-events.md)
+
+ \[Omitted image "bus-sdlc.svg"\] Alt text:Set up and manage system events to trigger actions and automate processes.
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-[Manage events\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect system events with external systems and applications to enable seamless data exchange and automated work-flows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/managing-system-events.md)
+[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/managing-system-events.md)
+
+ \[Omitted image "bus-integration-and-apis.svg"\] Alt text:Connect system events with external systems and applications to enable seamless data exchange and automated work-flows.
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:More information about the predefined system events available and their usage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/system-events-reference.md)
+[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/system-events-reference.md)
+
+ \[Omitted image "bus-learn.svg"\] Alt text:More information about the predefined system events available and their usage.
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
-</table>
+</table>## Troubleshoot and get help
+
+-   [Ask questions and explore other resources for System events in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
+-   [Contact Customer Service and Support](https://support.servicenow.com/now)
+
+-   **[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/exploring-system-events.md)**  
+Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response.
+-   **[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/configuring-system-events.md)**  
+Plan, configure, and implement system events without having to complete any extra configurations first. Follow the task listed in the configuration overview to implement automated job scheduling.
+-   **[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/managing-system-events.md)**  
+Managing system events involves creating, monitoring, and handling events to drive automation and streamline processes. Administrators and developers can define custom events, register them in the system, and set up actions or work-flows that respond to these events. This functionality helps ensure efficient task execution, helps improve system monitoring, and enables more robust error handling for enhanced operational reliability.
+-   **[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/system-events-reference.md)**  
+Reference topics provide information about system events.
+
+**Parent Topic:**[Build workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/build-workflows.md)
+

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/classic-mobile-migration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile plugins and upgrades, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Plugins &amp; upgrades, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Migrate from the ServiceNow Classic mobile app to the ServiceNow Mobile Platform
@@ -58,7 +58,7 @@ Use these applications right away, or customize them to suit your business needs
 
 -   **Mobile experience for Employee Experience Suite**
 
-    Approve catalog requests, requested items, or change requests from anywhere using the ServiceNow Now Mobile app. For more detail, see [ITSM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md).
+    Approve catalog requests, requested items, or change requests from anywhere using the ITSM Mobile Agent app. For more detail, see [ITSM Mobile agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-mobile-agent.md).
 
 -   **Mobile experience for Field Service Management**
 

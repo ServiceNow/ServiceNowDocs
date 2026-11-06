@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/explore-lead-cash-process-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Sales Customer Relationship Management]
+breadcrumb: [Order operations, Explore, Sales Customer Relationship Management]
 ---
 
 # Lead-to-Cash Process Management

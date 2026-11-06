@@ -1,30 +1,42 @@
 ---
 title: Create or modify service configuration for Appointment Booking
-description: Service-level appointment booking enables customers to easily schedule specific services by customizing appointment availability, lead times, notifications, and booking rules.
+description: Service-level appointment booking enables customers to easily schedule specific services like installation, AC repair, or configuring printers, by customizing appointment availability, lead times, notifications, and booking rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/appt-booking-create-service-config.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-22"
+reading_time_minutes: 10
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create or modify service configuration for Appointment Booking
 
-Service-level appointment booking enables customers to easily schedule specific services by customizing appointment availability, lead times, notifications, and booking rules.
+Service-level appointment booking enables customers to easily schedule specific services like installation, AC repair, or configuring printers, by customizing appointment availability, lead times, notifications, and booking rules.
 
 ## Before you begin
 
-Role required: appointment\_booking\_admin, admin
+Role required: appointment\_booking\_admin
 
-Verify you have an active application configuration \(**Field Service Order Configuration or Field Service Task Configuration**\) set up. You can create service-level configuration within an application-level configuration.
+Verify you have an active application configuration \(**Field Service Order Configuration or Field Service Task Configuration**\) set up. You can create multiple service-level configuration within an application-level configuration.
 
 ## About this task
 
 To use the appointment booking feature, administrators must create a configuration for each service that is available to customers. In the service configuration, administrators can select a schedule from the **Schedules** list and set it as **Excluded** to exclude it from appointment availability.
+
+**Note:**
+
+Appointment Booking determines work and travel duration for appointment booking using the following hierarchy.
+
+1.  **Appointment schedule override**: This takes the highest priority.
+
+    The appointment schedule override lets you define work and travel duration for a specific territory, specific days, or specific date ranges.
+
+2.  **Appointment schedule**: If no schedule override exists, the system uses the duration defined in Appointment schedule at a territory level.
+3.  **Work order task**: If the **Use task duration** option is enabled and no appointment schedule defined, Appointment Booking uses the durations from the work order task.
+4.  **Appointment service configuration**: If none of the above are defined, Appointment Booking uses the work duration and travel duration configured in the appointment service configuration.
 
 ## Procedure
 
@@ -48,11 +60,26 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+Use appointment schedule
+
+</td><td>
+
+Option to configure schedule based on appointment window and service mapping configurations.When enabled, you can configure additional features like overlapping appointment window, allowing overbooking of slots. For more information, see [Create an Appointment schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-appt-sched.md)
+
+**Note:**
+
+-   When **Use appointment schedule** is selected, the default service configuration is overridden and the appointments are configured based on the **Appointment Schedule** settings.
+-   The Advanced Appointment Booking plugin is required to use appointment schedules. For more information, see [Activate Advanced Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/activate-adv-appt-booking.md).
+
+</td></tr><tr><td>
+
 Enable advanced configuration
 
 </td><td>
 
-Option to configure different schedule on a day level when booking appointments.
+Option to configure different appointment schedule for specific days. Advanced appointment booking configurations settings and service configuration rules will be considered for calculating the appointment slots.You can choose to either enable **Use appointment schedule** or **Enabled advanced configuration** for a service configuration. Both the settings can't be enabled together.
+
+For more information, see [Create appointment booking advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/appintment-booking-day-level-config.md) and [Create service configuration rules for a service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-appt-booking-service-config-rules.md).
 
 </td></tr><tr><td>
 
@@ -71,6 +98,23 @@ Ignore Default Notifications
 Sends notifications to customers.-   FALSE \(default\): Notifications are sent to the customer whenever an appointment is scheduled, rescheduled, or canceled.
 -   TRUE: No notifications are sent.
 
+
+</td></tr><tr><td>
+
+Availability Method
+
+</td><td>
+
+Use one of the methods to determine appointment availability for the service. You can choose the availability method depending on the Field Service Management configuration setting in the **Assignment method for tasks** field of [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/t_ConfigureFieldService.md). **Note:** The availability method setting for the service overrides the availability method setting in the application configuration unless **Appointment configuration method** is selected.
+
+The available methods are:-   **Number of appointments per slot**: Sets a fixed number of available appointments per time slot. Recommended if task assignment is manual.
+-   **Scripted**: Dynamically calculates availability based on Field Service Management settings. Recommended if auto-assignment or dynamic scheduling is used. This is the default setting.
+-   **Based on capacity**: Calculates availability based on the capacity defined in the capacity management settings. For more information, see [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
+
+This option is available when the Task Table is selected as work\_order and Field Service Capacity and Reservations Management plugin is installed.
+
+-   **Appointment configuration method**: This is the default option. It calculates availability based on the availability method setting in the appointment booking application configuration.
+For more information on appointment availability methods, see [Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appt-booking-task-assignment.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -98,7 +142,7 @@ Availability table
 
 </td><td>
 
-The table that is used to calculate appointment availability. The default is the Work Order Task \[wm\_task\] table.
+The table that is used to calculate appointment availability. The default is the Work Order Task \[wm\_task\] table for Field Service Management. The availability table is considered when the tasks are auto-assigned or through dynamic scheduling and the availability method is set to **Scripted**.
 
 </td></tr><tr><td>
 
@@ -106,7 +150,11 @@ Holiday Schedule
 
 </td><td>
 
-The holiday schedule to use when determining availability. Appointment booking evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. Click the lookup icon and select a schedule from the Schedules list. **Note:** Holiday schedules are useful when the assignment method for tasks is set to **manually**, which does not consider agent schedules.
+The holiday schedule to use when determining availability. Appointment booking evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. Click the lookup icon and select a schedule from the Schedules list. **Note:**
+
+-   Holiday schedules are useful when the assignment method for tasks is set to **manually**, which does not consider agent schedules.
+-   When **Use appointment schedule** is selected, the holiday schedule defined in the appointment schedule is considered and the holiday schedule defined in the service configuration is ignored.
+
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -146,7 +194,7 @@ User contact
 
 </td><td>
 
-The field on the record provider that determines the individual for whom the appointment is being created. This is a reference field that looks for a sys\_user variable and sets variable on the record producer, for example, **Contact**.Ensure that this field not left blank and is filled with the appropriate value to avoid issues when rescheduling an appointment.
+The field on the record producer that determines the individual for whom the appointment is being created. This is a reference field that looks for a sys\_user variable and sets variable on the record producer, for example, **Contact**.Ensure that this field not left blank and is filled with the appropriate value to avoid issues when rescheduling an appointment.
 
 </td></tr><tr><td>
 
@@ -154,7 +202,9 @@ Timezone
 
 </td><td>
 
-Appointment timezone \(user contact or task location timezone\).
+The timezone considered to display the appointment window. The available options are:-   **Appointment Location**: Determines the appointment availability based on the location of the appointment.
+-   **User Contact Location**: Determines the appointment availability based on the user contact's location.
+
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -182,7 +232,7 @@ Future bookable max days
 
 </td><td>
 
-The number of days in advance of the current day for which an appointment can be booked for this service. The default is 14 days.
+The maximum number of days into the future, starting from the current day, for which an appointment can be booked for this service. The default is 14 days.
 
 </td></tr><tr><td>
 
@@ -218,7 +268,9 @@ Appointment window
 
 </td><td>
 
-The duration of the appointment window. **Note:** Allow enough time for the work to be started and completed within this window.
+The length or duration of the appointment window. **Note:** Allow enough time for the work to be started and completed within this window.
+
+The appointment window duration should be longer than both the work duration and travel duration when the appointment window is set as Complete by.
 
 </td></tr><tr><td>
 
@@ -226,7 +278,12 @@ Use slot end time as
 
 </td><td>
 
-Select whether the agent should arrive by or complete the job before the window end time.
+Defines how the appointment window end time applies for an appointment. The available options are:-   **Arrive by**: Technicians must arrive at the appointment location on or before the specified slot end time.
+
+When you set the value to Arrive by and enable the system property **sn\_apptmnt\_booking.enforce\_arrive\_by\_day\_end\_check**, the system evaluates whether work can be completed before end of day. Appointment slots where the work duration exceeds the available time of the technician are excluded from the available slots. This ensures customers only see slots where technicians can finish work within their shift. For more details, see [Appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking-components.md).
+
+-   **Complete by**: Technicians must complete the assigned work by the specified slot end time. Appointment slots are displayed based on estimated work duration and travel time.
+
 
 </td></tr><tr><td>
 
@@ -234,7 +291,17 @@ Work duration
 
 </td><td>
 
-Estimated time needed to complete all tasks created by the record producer. This duration is set for a task when it is created. Work duration is used to determine appointment availability.
+Estimated time needed to complete all tasks created by the record producer. This duration is set for a task when it is created. Work duration is used to determine appointment availability.**Note:** When Use appointment schedule is selected, and **Use durations from the schedule** is enabled for the schedule, the work duration from the schedule is considered for determining appointment availability and the work duration set in the service configuration is overridden.
+
+</td></tr><tr><td>
+
+Use duration from template or task
+
+</td><td>
+
+Ignore the work duration configured in the service configuration and use the duration from the template or task.-   FALSE \(default\): Use the duration as set in the Work duration field. The sum of work and travel durations must be less than or equal to the appointment window to show available slots.
+-   TRUE: Ignore manually configured work and travel durations. Instead, use values from templates or tasks.
+
 
 </td></tr><tr><td>
 
@@ -242,7 +309,7 @@ Travel duration \(round trip\)
 
 </td><td>
 
-Average round-trip travel time to the appointment location. Travel duration is used to determine availability.
+Average round-trip travel time to the appointment location. Travel duration is used to determine availability.**Note:** When Use appointment schedule is selected, and **Use durations from the schedule** is enabled for the schedule, the travel duration from the schedule is considered for determining appointment availability and the work duration set in the service configuration is overridden.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -309,7 +376,7 @@ Recommendation score
 Indicates the minimum score to recommend a slot. Enter a value between 0 and 1.This field is available only if the Advanced Appointment Booking \(com.snc.advanced\_appointment\_booking\) plugin is activated.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## Result

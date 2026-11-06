@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a monetary benefit plan, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,19 +26,19 @@ Role required: it\_demand\_manager
 
 2.  Open the required demand.
 
-3.  Click the Monetary Benefit Plans related list.
+3.  Select the Monetary Benefit Plans related list.
 
 4.  Open the required monetary benefit plan.
 
-5.  In the Monetary Benefit Plan Breakdowns related list, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: Information icon.\) for a monetary benefit plan breakdown.
+5.  In the Monetary Benefit Plan Breakdowns related list, select the information icon \[Omitted image "benefit-plan-icon.png"\] Alt text: for a monetary benefit plan breakdown.
 
-6.  Click **Open Record**.
+6.  Select **Open Record**.
 
 7.  On the Monetary Benefit Plan Breakdown form, view and update the enabled fields.
 
     For a description of the field names, see [Monetary Benefit Breakdown form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/monetary-benefit-breakdown-form.md).
 
-8.  Click **Update**.
+8.  Select **Update**.
 
 
 **Parent Topic:**[Create a monetary benefit plan for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-benefit-plan.md)

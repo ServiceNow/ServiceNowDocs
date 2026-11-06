@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [License usage view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License usage publisher fields in workspace
@@ -368,5 +368,4 @@ True-up cost
 Estimated cost of remediating unlicensed installations based on the lowest number of rights needed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
-
+</table>

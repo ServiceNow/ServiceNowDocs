@@ -1,20 +1,20 @@
 ---
 title: Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)
-description: The following section lists the setup steps that you are required to complete in your McAfee ePO console prior to installing the application from the ServiceNow Store for the integration.
+description: The following section lists the setup steps that you're required to complete in your McAfee ePO console before installing the application from the ServiceNow Store for the integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/mcafee-epo-setup-mcafee.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)
 
-The following section lists the setup steps that you are required to complete in your McAfee ePO console prior to installing the application from the ServiceNow Store for the integration.
+The following section lists the setup steps that you're required to complete in your McAfee ePO console before installing the application from the ServiceNow Store for the integration.
 
 ## Before you begin
 
@@ -40,19 +40,19 @@ The following steps show you how to install the extension plugin, create a secur
 
         \[Omitted image "mcafee-extension\_install\_1.png"\] Alt text: McAfee ePO console login dialog.
 
-2.  If the page shown in the following figure is not displayed, in the top left of banner of the home page, click the menu icon to display it.
+2.  If the page shown in the following figure is not displayed, in the top left of banner of the home page, select the menu icon to display it.
 
     \[Omitted image "mcafee-extension-install\_3.png"\] Alt text: Menu icon McAfee in McAfee ePO.
 
-3.  In the Software section, click the **Extensions** link.
+3.  In the Software section, select the **Extensions** link.
 
     \[Omitted image "mcafee-extension\_install\_2.png"\] Alt text: Extensions software option highlighted in McAfee ePO.
 
-4.  On the Extensions page that is displayed, click **Install Extension**.
+4.  On the Extensions page that is displayed, select **Install Extension**.
 
     \[Omitted image "mcafee\_extension\_install\_btn.png"\] Alt text: Install Extension button highlighted in McAfee ePO.
 
-5.  In the Install Extension dialog, click **Choose File**, navigate to the `Servicenow.zip` file on your system, and click **OK** to download it.
+5.  In the Install Extension dialog, select **Choose File**, navigate to the `Servicenow.zip` file on your system, and select **OK** to download it.
 
     \[Omitted image "mcafee-extension\_install\_4.png"\] Alt text: Install Extension dialog in McAfee ePO.
 
@@ -64,11 +64,11 @@ The following steps show you how to install the extension plugin, create a secur
 
 6.  If you have not created security tags in McAfee ePO console for the initiate malware scan and isolate host actions, follow these steps.
 
-    1.  Navigate to the home page and click the **Tag Catalog** link.
+    1.  Navigate to the home page and select the **Tag Catalog** link.
 
         \[Omitted image "mcafee\_tag\_creation\_1.png"\] Alt text: Tag Catalog highlighted in McAfee ePO.
 
-    2.  On the Tag Catalog page that is displayed, click **New Tag**.
+    2.  On the Tag Catalog page that is displayed, select **New Tag**.
 
         \[Omitted image "mcafee\_tag\_creation\_2.png"\] Alt text: New Tag button highlighted in McAfee ePO.
 
@@ -78,21 +78,21 @@ The following steps show you how to install the extension plugin, create a secur
 
         \[Omitted image "mcafee\_tag\_creation\_3.png"\] Alt text: Description field of the Tag Catalog.
 
-    4.  To advance to the Criteria step, click **Criteria** in the progress bar.
+    4.  To advance to the Criteria step, select **Criteria** in the progress bar.
 
         The messages that are displayed indicate that no actions are currently assigned to this tag, and that the tag can only be applied manually.
 
         \[Omitted image "mcafee\_tag\_creation\_4.png"\] Alt text: Message displayed that ServiceNow tag is required in McAfee ePO.
 
-    5.  Click **Evaluation** in the progress bar to continue.
+    5.  Select **Evaluation** in the progress bar to continue.
 
         \[Omitted image "mcafee\_tag\_creation\_5.png"\] Alt text: Evaluation tab of Tag Catalog.
 
-    6.  With the Tag Catalog page of the Evaluation step displayed, leave the settings on this page in their defaults, and, in the progress bar, click **Preview**.
+    6.  With the Tag Catalog page of the Evaluation step displayed, leave the settings on this page in their defaults, and, in the progress bar, select **Preview**.
 
         \[Omitted image "mcafee-tag\_creation\_6.png"\] Alt text: Message displayed that ServiceNow tag is required in McAfee ePO.
 
-    7.  With the Preview page displayed, in the lower right of the page, click **Save** to save the record.
+    7.  With the Preview page displayed, in the lower right of the page, select **Save** to save the record.
 
         The new tag is displayed in the Tag catalog as shown in the following figure.
 
@@ -104,7 +104,7 @@ The following steps show you how to install the extension plugin, create a secur
 
 8.  To add an action to your new tag, follow these steps.
 
-    1.  Navigate to the home page and in the Policy section, click the **Client Task Assignments** link.
+    1.  Navigate to the home page and in the Policy section, select the **Client Task Assignments** link.
 
         \[Omitted image "mcafee\_tag\_action\_1.png"\] Alt text: Client Task Assignments highlighted in McAfee ePO.
 
@@ -116,23 +116,23 @@ The following steps show you how to install the extension plugin, create a secur
 
         \[Omitted image "mcafee\_tag\_action\_no\_tag\_assigned.png"\] Alt text: System Tree with On-Demand Scan highlighted in McAfee ePO.
 
-    4.  In the Tags section, under the radio button and next to `Has any of these tags:`, click the **edit** link to edit the criteria for the tag.
+    4.  In the Tags section, under the radio button and next to `Has any of these tags:`, select the **edit** link to edit the criteria for the tag.
 
         \[Omitted image "tag\_action\_no\_tag\_assigned1.png"\] Alt text: Edit link highlighted in System Tree for On-Demand Scan in McAfee ePO.
 
-    5.  In the dialog that is displayed, select the Initiate Malware Scan ServiceNow tag that you created in the preceding steps and click **OK**.
+    5.  In the dialog that is displayed, select the Initiate Malware Scan ServiceNow tag that you created in the preceding steps and select **OK**.
 
         \[Omitted image "mcafee\_tag\_action\_assignment\_dialog.png"\] Alt text: ServiceNow initiate malware scan tag selected and highlighted in McAfee ePO.
 
         The ServiceNow Initiate Malware Scan tag you created is assigned to the On-Demand Scan action.
 
-    6.  Click **OK**.
+    6.  Select **OK**.
 
         In the Tags section, under the radio button and next to `Has any of these tags:`, the Initiate Malware Scan tag is displayed.
 
         \[Omitted image "mcafee\_tag\_action\_tag\_selected.png"\] Alt text: Send this task to only computers which have the following criteria option selected in McAfee ePO.
 
-    7.  Click **Save**.
+    7.  Select **Save**.
 
         On the System Tree page, the task is displayed on the Assigned Client Tasks list \(tab\).
 

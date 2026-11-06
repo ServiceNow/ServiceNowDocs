@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Track inventory
@@ -22,46 +22,68 @@ Role required: wm\_agent
 
 ## About this task
 
-As an agent, you can search parts from your personal stock room, peers' stockroom, and warehouse to complete your work order tasks. The stockroom locations' information appear in the form of interactive map and cards in the **Asset map** screen. You can use the following icons to navigate between the stockroom locations.
-
--   Use the Direction icon \(\[Omitted image "directions-icon.jpg"\] Alt text: Direction icon.\) to view the location of the logged-in user and Show directions icon \(\[Omitted image "direction-icon.jpg"\] Alt text: Show directions icon.\) to navigate between the stockroom locations.
--   Use the Location list icon \(\[Omitted image "list-view.jpg"\] Alt text: Location list icon.\) to view the stockrooms in the list view and Location map icon \(\[Omitted image "map-view.jpg"\] Alt text: Location map icon.\) to view the stockrooms in the map view.
+As an agent, you can search parts from your personal stock room, peer stockrooms, and warehouse to complete your work order tasks. The stockroom location information appears in the form of interactive map and cards in the Asset map page.
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **Inventory**.
 
-3.  Perform one of the following actions.
+3.  Search for parts.
 
-<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d35690e120">
+    1.  Tap **Inventory**.
+
+    2.  Enter a keyword in the search panel.
+
+    3.  Tap the Search icon \(\)
+
+4.  Check part availability.
+
+    1.  Tap **Inventory**.
+
+    2.  Tap **Check availability.**
+
+    3.  Tap **Model**.
+
+    4.  Search for and select the part model.
+
+    5.  In the **Radius** field, enter the radius in miles to search the parts within the specified distance.
+
+        **Note:** The system considers your current location the source location and displays the stockrooms within the specified radius.
+
+    6.  View substitutes of the selected part model by selecting **Search for substitutes**.
+
+    7.  Tap **Next**.
+
+5.  Perform one of the following actions.
+
+<table id="choicetable_ack_gnh_wfb"><thead><tr><th align="left" id="d38071e190">
 
 To
 
-</th><th align="left" id="d35690e123">
+</th><th align="left" id="d38071e193">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d35690e129">
+</th></tr></thead><tbody><tr><td id="d38071e199">
 
 **Search for parts**
 
 </td><td>
 
-1.  Tap **Inventory**.
-2.  Enter a keyword to search parts.
-3.  Tap Search icon \(\[Omitted image "search\_icon.png"\] Alt text: Search icon.\)
+1.  Enter a keyword to search parts.
+2.  Tap the Search icon \(\[Omitted image "search\_icon.png"\] Alt text:\)
 
 
-</td></tr><tr><td id="d35690e159">
+</td></tr><tr><td id="d38071e223">
 
 **Check part availability with your preference**
 
 </td><td>
 
 1.  Tap **Inventory**.
-2.  Tap **Check part availability**.
+2.  Tap **Check availability**.
 3.  Tap **Model**.
 4.  Search for and select the part model.
 5.  In the **Radius** field, enter the radius in miles to search the parts within the specified distance.
@@ -69,16 +91,16 @@ Do this
 **Note:** The system considers your current location as the source location and displays the stockrooms within the specified radius.
 
 6.  \(Optional\) To view substitutes of the selected part model, select **Search for substitutes**.
-7.  Tap **Next** icon.
+7.  Tap **Next**.
  Swipe each part record displayed below the map to the left or the right to see the location of the selected part.
 
-</td></tr><tr><td id="d35690e216">
+</td></tr><tr><td id="d38071e280">
 
-**View parts in your personal stock room**
+**Reconcile assets between a physical location and the system**
 
 </td><td>
 
-Tap **My Inventory**.**Note:** The available and defective parts appear in their respective tabs.
+For more information, see [Perform asset audit for personal stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/perform-asset-audit.md).
 
 </td></tr></tbody>
 </table>
@@ -89,6 +111,4 @@ The stockroom locations' information appear in the form of interactive map and c
 ## What to do next
 
 [Request inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/request-inventory.md)
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

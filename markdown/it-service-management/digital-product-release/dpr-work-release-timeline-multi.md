@@ -7,8 +7,8 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Timeline-oriented releases, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ When working on a release for multiple products, you can choose to work with the
 
 -   Perform primary activities, like starting the release and managing phases and tasks in the main release.
 -   Define the release scope and manage change requests in each product release.
--   Run policies for the current phase either from the main release level or an individual product release. The policy statuses from the individual product releases are aggregated into the policy status of the main release. For more information about how the aggregated status is derived, see [Policy status aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-policy-status-aggregation.md).
+-   Run policies for the current phase either from the main release level or an individual product release. The policy statuses from the individual product releases are aggregated into the policy status of the main release. For more information about how the aggregated status is derived, see [Policy status aggregation in a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-policy-status-aggregation.md).
 
 You can monitor the progress of an individual product release, or you can track the overall progress at the main release level.
 
@@ -56,9 +56,13 @@ You can monitor the progress of an individual product release, or you can track 
 
     -   Select the **Details** tab to make any necessary changes to the release details, such as the release name, owner, status, or description. For more information, see [Review and update release details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-details.md).
     -   Select the **Products** tab to view a list of all products, including their release versions and statuses.
-7.  Select a product or service to work on its release from the **View by** drop-down list.
+7.  In the **Products** tab, add or remove a product from the release as the scope and requirements of the release evolve.
 
-    Based on the selected option, you can see different sections as follows:
+    For more information, see [Add a product to a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-add-product-release.md) and [Remove a product from a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-remove-product-release.md).
+
+8.  Select a product or service to work on its release from the **View by** drop-down list.
+
+    Based on the selected option, you can view and work on different sections as follows:
 
 <table id="table_rnl_swl_b2c"><thead><tr><th>
 
@@ -74,7 +78,9 @@ All products or services
 
 </td><td>
 
-You can see the following sections:-   **Release execution**: Work on the main release, which involves starting the release, [retargeting the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-readiness-target.md), and [executing the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md) to manage phases, tasks, key dates, policies, and approvals. All of these actions apply to all releases.
+You can work on the following sections applicable to all releases:-   **Release timeline**: Work on the main release, which involves [retargeting the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-readiness-target.md), and [executing the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md) to manage phases, tasks, key dates, policies, and approvals. All of these actions apply to all releases.
+-   **Release tasks**: Manage release tasks in a release phase. When you add a task to a phase, it is added to each product's release.
+-   **Release policies**: Manage mapping of policies to a release phase or run the existing ones for compliance checks.
 -   **Change requests**: View a list of all change requests across releases for all products or service.
 
 
@@ -84,19 +90,21 @@ Included product
 
 </td><td>
 
-You can see the following sections for the selected product's release:-   **Overview**: View the progress and quality of the release on the respective dashboards. For more information, see [Release Overview dashboard for a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.md) and [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
--   **Release execution**: View the details of phases of the release or run policies mapped to its phases for compliance checks. For more information, see [Execute the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md).
+You can work on the following sections for the selected product's release:-   **Overview**: View the progress, review risk score, and quality of the release on the respective dashboards. For more information, see [Release Overview dashboard for a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.md) and [Release Quality dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-quality-dashboard.md).
+-   **Release timeline**: View the details of phases of the release. For more information, see [Execute the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md).
 
-**Note:** In the **Details** tab, the **Policy status** field displays a combined compliance status for all releases.
+**Note:** In the **Summary** section, the **Policy status** field displays a combined compliance status for all releases.
 
+-   **Release tasks**: View release tasks in a release phase.
+-   **Release policies**: View mapping of policies to a release phase or run the existing ones for compliance checks.
 -   **Release scope**: View and [update the scope of the release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-scope.md), including product enhancements, planning items, and related tasks such as incidents and problems associated with the release.
 -   **Configuration items**: View and [manage configuration items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-config-items.md) related to the release.
 -   **Change requests**: View and [manage change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-change-request.md) related to the release.
 -   **Release notes**: Create, publish, and share release notes for the release. You can add release notes manually or generate using AI. For more information, see [Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-generate-release-notes.md).
-On the Release form header, select the number under the **Artifacts** label to manage artifacts in the release. The **Artifacts** label is available in the **Overview**, **Release scope**, **Configuration items**, and **Change requests** sections. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-artifact.md).
+On the Release form header, select the number under the **Artifacts** label to manage artifacts in the release. The **Artifacts** label is available only in the **Overview**, **Release scope**, **Configuration items**, and **Change requests** sections. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
 </td></tr></tbody>
-</table>8.  Close a release after verifying its completeness.
+</table>9.  Close a release after verifying its completeness.
 
     For more information, see [Close a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-complete-release.md).
 

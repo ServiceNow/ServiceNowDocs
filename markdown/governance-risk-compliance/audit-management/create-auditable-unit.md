@@ -1,20 +1,20 @@
 ---
 title: Create an auditable unit
-description: Create auditable units with entities such as business units, departments, vendors, products, business processes, business applications, locations, authority documents, and policies to perform risk assessments on the auditable units.
+description: Create auditable units with entities such as business units, departments, vendors, products, business processes, and business applications. Perform risk assessments on the auditable units.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/create-auditable-unit.html
 release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit plan overview, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit plan overview, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an auditable unit
 
-Create auditable units with entities such as business units, departments, vendors, products, business processes, business applications, locations, authority documents, and policies to perform risk assessments on the auditable units.
+Create auditable units with entities such as business units, departments, vendors, products, business processes, and business applications. Perform risk assessments on the auditable units.
 
 ## Before you begin
 

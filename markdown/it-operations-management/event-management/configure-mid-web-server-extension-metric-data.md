@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure key-based MID Web Server authentication
@@ -18,7 +18,7 @@ Provide added security to your MID Web Server extension by using key-based authe
 
 ## Before you begin
 
-**Note:** This procedure is only for compatibility with releases prior to Yokohama. For details on the procedure in the Yokohama release for configuring the MID Web Server, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md).
+**Note:** This procedure is only for compatibility with releases prior to Brazil. For details on the procedure in the Brazil release for configuring the MID Web Server, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md).
 
 -   Deploy and start a MID Server.
 -   Configure a MID Web Server extension and select Keybased as the authentication type. For details, see [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md).
@@ -27,7 +27,7 @@ Role required: agent\_admin
 
 ## Procedure
 
-1.  Using a script program, create a token by constructing a string using defined elements of the HTTP/HTTPS request \(HTTP verb, content type header, and request path, received from the client accessing the MID Web Server extension endpoints\).
+1.  Using a script program, create a token by constructing a string from the following HTTP/HTTPS request elements: HTTP verb, content type header, and request path. These elements are received from the client accessing the MID Web Server extension endpoints.
 
 2.  Create an HMAC \(Hash Message Authentication Code\) of the string by signing the generated string with the auto-generated secret key that is displayed in the **Secret Key**.
 
@@ -143,6 +143,4 @@ public static String signData(String data, String key) throws java.security.Sign
 }
 
 ```
-
-**Parent Topic:**[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md)
 

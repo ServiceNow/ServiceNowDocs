@@ -1,168 +1,47 @@
 ---
-title: Exploring Now Assist
-description: Learn how Now Assist brings generative AI capabilities to the ServiceNow AI Platform. With Now Assist, you can improve the productivity and efficiency in your organization, deliver better self-service, recommend actions and provide answers, and empower your users to search more effectively.
+title: Exploring AI Admin Hub
+description: With the AI Admin Hub application \(formerly Now Assist Admin Console\) you can activate, manage, and monitor AI skills and capabilities. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/exploring-now-assist-platform.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-10-29"
+reading_time_minutes: 3
 keywords: [Exploring, Now Assist, ServiceNow AI Platform, Generative AI, GenAI, framework]
-breadcrumb: [Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Exploring Now Assist
+# Exploring AI Admin Hub
 
-Learn how Now Assist brings generative AI capabilities to the ServiceNow AI Platform. With Now Assist, you can improve the productivity and efficiency in your organization, deliver better self-service, recommend actions and provide answers, and empower your users to search more effectively.
+With the AI Admin Hub application \(formerly Now Assist Admin Console\) you can activate, manage, and monitor AI skills and capabilities. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
 
-## Now Assist overview
+## ServiceNow Otto Admin overview
 
-Now Assist is a growing cross-platform family of generative AI features, which are tasks that a large language model \(LLM\) can perform. Generative AI features are based on the initial training and architecture.
+**Note:** Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-A skill delivers a feature plus the use case to the user. An example of a skill is chat summarization within a customer workspace. Now Assist products provide features that are tailored to meet the needs of users in different workflows.
+A skill delivers a feature plus the use case to the user. An example of a skill is chat summarization within a customer workspace. ServiceNow Otto products provide features and skills that are tailored to meet the needs of users in different workflows.
 
-## Now Assist framework
+## ServiceNow Otto framework
 
-The Now Assist framework is supported across the ServiceNow AI Platform. To use Now Assist skills, activate one or more of the following Now Assist products.
+AI Admin Hub includes some or all of the following foundational platform tools. For more information, see [ServiceNow Otto skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md).
 
-<table id="table_bdm_bpk_rcc" class="custom-rows"><thead><tr><th class="filter">
-
-Workflow
-
-</th><th>
-
-Business areas
-
-</th><th>
-
-Available products
-
-</th></tr></thead><tbody><tr><td>
-
-Technology
-
-</td><td>
-
-The Technology workflow includes IT applications, such as IT services and operations, managing your strategy to deliver products and services, and platform security.
-
-</td><td>
-
--   [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-for-cwm-landing.md)
--   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-landing-cmdb.md)
--   [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/now-assist-ea.md)
--   [ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/now-assist-for-esg.md)
--   [ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-for-irm.md)
--   [ServiceNow Otto for IT Operations Management \(ITOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/now-assist-itom.md)
--   [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm.md)
--   [Operational Technology \(OT\) Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/now-assist-for-otm-landing.md)
--   [ServiceNow Otto for Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-security-incident-landing.md)
--   [ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-sam.md)
--   [ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
--   [ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-tprm.md)
--   [ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/now-assist-for-vulnerability-response-landing.md)
-
-</td></tr><tr><td>
-
-Customer
-
-</td><td>
-
-The Customer workflow includes applications that support customer service, including field service, financial services, telecommunications and media, and the public service sector.
-
-</td><td>
-
--   [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
--   [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
--   [ServiceNow Otto for Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/now-assist-for-financial-services-operations.md)
--   [ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/now-assist-order-management.md)
--   [ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/now-assist-for-psds.md)
--   [ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md)
-
-</td></tr><tr><td>
-
-Employee
-
-</td><td>
-
-The Employee workflow supports HR Service Delivery and Employee Experience features.
-
-</td><td>
-
--   [ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assisit-employee-exp.md)
--   [ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-landing.md)
--   [ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
--   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)
--   [Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-wsd-landing.md)
-
-</td></tr><tr><td>
-
-Creator
-
-</td><td>
-
-The Creator workflow supports a variety of Platform tools and builders, including the following:-   App Engine Studio
--   ServiceNow AI Platform scripting
--   Platform Analytics
--   Service Catalog
--   Workflow Studio
--   RPA Hub
--   Process Mining
-
-</td><td>
-
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md)
-
-</td></tr><tr><td>
-
-Finance &amp; Supply Chain
-
-</td><td>
-
-The Finance &amp; Supply Chain workflow supports purchase requisitions, sourcing requests, and request for products or services.
-
-</td><td>
-
--   [ServiceNow Otto for Accounts Payable Operations \(APO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-apo.md)
--   [ServiceNow Otto for Supplier Lifecycle Operations \(SLO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-slo.md)
--   [ServiceNow Otto for Sourcing and Procurement Operations \(SPO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-spo.md)
-
-</td></tr><tr><td>
-
-App Engine
-
-</td><td>
-
-The App Engine workflow supports App Engine products and offerings so that you can enhance your custom applications with AI.
-
-</td><td>
-
-[Now Assist for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
-
-</td></tr></tbody>
-</table>Now Assist products include some or all of the following foundational platform tools for Now Assist. For more information, see [Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md).
-
--   Administrators install plugins, manage skills, and analyze usage and performance with the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md).
--   Users can take advantage of Now Assist skills by using the [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md) on the instance.
+-   Administrators install plugins, manage skills, and analyze usage and performance with the [Overview tab in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-now-assist.md).
+-   Users can take advantage of ServiceNow Otto skills by using the [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md) on the instance.
 -   Use [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md) to generate answers for AI Search.
 -   Use [ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md) to run generative AI skills in a mobile environment.
--   Use [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md) to create conversational catalog experiences and author topics that use LLM topic discovery.
 -   Developers can use the [Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/generative-ai-controller.md) to integrate generative AI features in custom flows and conversations by using your own third-party large language model \(LLM\) licenses.
 
-The following diagram shows what's available in the Now Assist framework.
-
-\[Omitted image "now-assist-framework-overview.png"\] Alt text: The Now Assist framework includes AI Admin Hub, Now Assist panel, and Generative AI Controller. Framework components become available once you install a product such as ServiceNow Otto for IT Service Management \(ITSM\).
-
-## Now Assist benefits
+## AI Admin Hub benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
 |Leverage the power of search with the Now LLM generative AI model to answer questions in user searches with actionable AI-generated summaries of relevant knowledge articles.|[Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md)|Everyone|
-|Install and configure Now Assist applications and the skills they provide.|[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md)|Administrators|
-|Choose which skills to turn on, and which users can access them.|[Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)|Administrators|
-|Monitor the usage and performance of generative AI features and capabilities offered under Now Assist.|[Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics.md)|Administrators|
-|Access generative AI skills in context through a user-friendly interface.|[Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md)|Everyone|
-|Use Now Assist skills on mobile devices.|[ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)|Everyone|
+|Install and configure ServiceNow Otto applications and the skills they provide.|[ServiceNow Otto Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md)|Administrators|
+|Choose which skills to turn on, and which users can access them.|[ServiceNow Otto Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)|Administrators|
+|Monitor the usage and performance of generative AI features and capabilities offered under ServiceNow Otto.|[ServiceNow Otto Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics.md)|Administrators|
+|Access generative AI skills in context through a user-friendly interface.|[ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md)|Everyone|
+|Use ServiceNow Otto skills on mobile devices.|[ServiceNow Otto for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/now-assist-mobile-landing.md)|Everyone|
 |Customize your workflows and use your own third-party LLM license.|[Generative AI Controller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/generative-ai-controller.md)|Administrators or developers|
-|Use Now Assist in other platform features.|[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)|Administrators or developers|
-|Monitor Now Assist consumption on your instance.|[Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)|Administrators|
+|Use ServiceNow Otto in other platform features.|[ServiceNow Otto skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)|Administrators or developers|
+|Monitor ServiceNow Otto consumption on your instance.|[Monitoring ServiceNow Otto usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)|Administrators|
 

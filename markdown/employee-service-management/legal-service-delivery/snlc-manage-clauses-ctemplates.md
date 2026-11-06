@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage Contract Management Pro for Legal Service Delivery, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Manage Contract Management Pro for Legal Service Delivery, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage clauses and contract templates
@@ -20,7 +20,7 @@ As administrator manage clauses, clause variations, and contract templates.
 
     Edit a clause variation to modify the content that will be used in a contract template.
 
--   **[Edit a contract template by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-edit-ct.md)**
+-   **[Edit contract templates by manually adding content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-edit-ct.md)**
 
     Edit a contract template to reflect any modifications that must be included in the template to generate a standard contract when an employee submits a contract request.
 

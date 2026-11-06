@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, upgrade, remote, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Upgrade Kubernetes Visibility Agent Informers remotely
@@ -35,15 +35,15 @@ Role required: discovery\_admin
 
     **Note:** Only Informers with the value Upgrade Pending in the **Upgrade Status** field can be upgraded. The running status of the Informers must be either Up or Paused.
 
-<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d102706e159">
+<table id="choicetable_l24_ctl_sbc"><thead><tr><th align="left" id="d90421e159">
 
 Upgrade
 
-</th><th align="left" id="d102706e162">
+</th><th align="left" id="d90421e162">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102706e168">
+</th></tr></thead><tbody><tr><td id="d90421e168">
 
 **One Informer**
 
@@ -53,7 +53,7 @@ Steps
 2.  In the Related Links section of the form, select **Upgrade Informer**.
 
 
-</td></tr><tr><td id="d102706e189">
+</td></tr><tr><td id="d90421e189">
 
 **Multiple Informers**
 

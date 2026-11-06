@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -137,6 +137,16 @@ Domain of the configuration. When accessed from the Privacy Workspace, this fiel
 
     For example, for the Personal data section, you can add Data elements, Data subject types, Hierarchy, and Legal basis. The details in the **Guidance** field of the subsections appear during the assessment to help the responder understand the questions in the assessment.
 
+
+## What to do next
+
+Publish a new version of the template to revise a published template without disrupting in-progress assessments.
+
+The Smart Assessment Engine uses one published version of a template at a time. When you publish a new version, the prior version is retired and no new assessments can be sent against it.
+
+**Note:** Assessments already in Draft, Assigned, or Work in progress state continue against the version they were created with.
+
+To create a version of an existing template, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 **Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
 

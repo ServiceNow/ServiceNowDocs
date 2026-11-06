@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # Community content types
 
 There are seven supported content types: Answer, Blog, Comment, Document, Event, Question, and Video.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Community administrators and forum administrators can configure content types at the community and forum levels.
 
@@ -71,7 +75,7 @@ Upload a video on a topic of interest for other users. Videos appear as web URLs
 -   DailyMotion – dailymotion.com
 -   Facebook – facebook.com
 
- **Note:** Videos can be included in other types of content, including questions, answers, blogs, and comments.
+**Note:** Videos can be included in other types of content, including questions, answers, blogs, and comments.
 
 </td></tr><tr><td>
 
@@ -90,10 +94,51 @@ Event
 Create an event that other community users can register for and attend.
 
 </td></tr></tbody>
-</table>-   **[Configure community content types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/enable-content-types-for-community.md)**  
-Configure content types, such as videos and blogs, for the community.
--   **[Configure blog publish schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-blog-publish-schedule.md)**  
+</table>-   **[Configure blog publish schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-blog-publish-schedule.md)**  
 Configure the publishing interval to ensure blogs are published closer to the scheduled time.
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[Migrate Social Q&amp;A data to Communities]()
+
+[View community logs]()
+
+[View community feedback and bookmarks tables]()
+
+[Create a case from a discussion]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure video sources for a community]()
+
+[Configure community forums]()
+
+[Forum and user permissions management]()
+
+[Configure the community profile]()
+
+[Create community Terms and Conditions]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

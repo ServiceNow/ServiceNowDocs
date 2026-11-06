@@ -7,9 +7,9 @@ release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated mapping of OT devices to the Equipment Model, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
+breadcrumb: [Automatically map all OT devices, Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
 # Map an individual OT device to an equipment model entity
@@ -27,20 +27,22 @@ Role required: sn\_ot\_amazing\_write and cmdb\_ot\_viewer
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Operational Technology \(OT\)** &gt; **All OT Devices**.
+1.  Navigate to the Industrial Workspace.
 
-2.  In the **OT device** column, select the OT device that you want to map.
+2.  Open the Industrial Workspace list view.
 
-    **Note:** Subnet mapping also supports Discovery created configuration items \(CIs\) for ISA equipment models.
+3.  Under the **Operational Technology \(OT\)** list module, select one of the available lists.
 
-3.  In the Related Links section, select **Map OT device**.
+4.  Select the OT device that you want to map.
 
-    \[Omitted image "map-ot-device.png"\] Alt text: OT devices form related links section- platform UI
+5.  In the OT device record, select the **More actions** \[Omitted image "more-actions.png"\] Alt text: icon.
+
+6.  Select the **Map OT device** UI action.
 
 
 ## Result
 
 If there is an active OT subnet that matches the IP address and site of the selected device, the device is mapped.
 
-**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automatically map all OT devices to an equipment model entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automatedly-map-all-ot-assets.md)
 

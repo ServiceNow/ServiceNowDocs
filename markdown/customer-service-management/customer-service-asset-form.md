@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-service-asset-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Asset form
@@ -52,7 +52,7 @@ Configuration Item
 
 </td><td>
 
-CI is automatically created when you create an asset. The name that appears in this field is based on the **Serial number** and **Model** field values. Hover over the reference icon to view the configuration item details inherited from the asset record.
+CI is automatically created when you create an asset. The name that appears in this field is based on the **Serial number** and **Model** field values. Point to the reference icon to view the configuration item details inherited from the asset record.
 
 </td></tr><tr><td>
 
@@ -219,7 +219,7 @@ Date on which the asset was installed.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-Location HierarchyThe Location Hierarchy section is available only for hardware, consumables, bundle, and pallet assets. This section appears only under the following conditions:
+Location HierarchyThe Location Hierarchy section is available only for hardware, consumables,bundle, and pallet assets. This section appears only under the following conditions:
 
 -   When the ** sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter is set to **true** on your ServiceNow instance
 -   When you select any location except the campus
@@ -323,7 +323,7 @@ Expenditure type
 </td><td>
 
 The type of expenditure. -   **Capex**: Capital expenditure is a one-time expenditure, where the value is realized over the years. For example, a photocopier.
--   **Opex**: Operational expenditure is an ongoing expenditure. For example, toners for the photocopier.
+-   **Opex**: Operational expenditure is an on-going expenditure. For example, toners for the photocopier.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

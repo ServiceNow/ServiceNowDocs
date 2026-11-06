@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create advanced task dependency using a work order template
@@ -122,6 +122,4 @@ This field displays the order model for the work order. This field can't be edit
 
     After the work order task dependencies are defined, you can select the template when [creating a new work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CreateAWorkOrder.md), and the tasks, along with the defined dependencies, will be inherited by the work order.
 
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

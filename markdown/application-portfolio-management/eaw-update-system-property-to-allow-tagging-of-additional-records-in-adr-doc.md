@@ -1,18 +1,18 @@
 ---
 title: Reference additional records in decision records
-description: You can customize the default values of the sn\_apm\_ws.record\_mention\_config system property to enable the tagging of additional record tables in an architectural decision record \(ADR\).
+description: You can customize the default values of the sn\_apm\_ws.record\_mention\_config system property, to enable the tagging of additional record tables in an architectural decision record \(ADR\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-23"
-reading_time_minutes: 1
-breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Reference additional records in decision records
 
-You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property to enable the tagging of additional record tables in an architectural decision record \(ADR\).
+You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property, to enable the tagging of additional record tables in an architectural decision record \(ADR\).
 
 ## Before you begin
 
@@ -49,5 +49,18 @@ Role required: sn\_apm.apm\_admin
     You can start tagging records from the new table in the ADR docs component. For more information, see [Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tag-users-or-records-in-adr.md).
 
 
-**Parent Topic:**[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.md)
+**Parent Topic:**[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-adr.md)
+
+**Related topics**  
+
+
+[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
+
+[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-edit-adr.md)
+
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-approval-adr.md)
+
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+
+[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-adr-version.md)
 

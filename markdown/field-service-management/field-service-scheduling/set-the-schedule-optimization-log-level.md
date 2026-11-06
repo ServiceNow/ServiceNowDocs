@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring log levels for detailed optimization analysis, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set log levels, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Set the Schedule optimization logging level

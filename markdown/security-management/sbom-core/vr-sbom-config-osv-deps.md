@@ -7,7 +7,7 @@ release: yokohama
 product: SBOM Core
 classification: sbom-core
 topic_type: concept
-last_updated: "2025-02-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Software Bill of Materials, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -27,6 +27,8 @@ These integrations are initiated automatically by internal workflows and are for
 
 ## Configuring the run schedule for the Deps.dev Integration
 
+The Deps.dev Integration is installed with SBOM Response. The integration is activated \(Active check box selected on the integration record\) by default and scheduled to run weekly. Note that this is not the on-demand Deps.dev code trigger integration, and you can edit the schedule and initiate the scheduled job on-demand from its integration record..
+
 To modify the schedule, navigate to **All** &gt; **Vulnerability Response** &gt; **Administration** &gt; **Integrations** &gt; **Deps.dev Integration**. The sn\_vul.app\_configure\_integrations role is required to edit the schedule of this integration.
 
 This Deps.dev integration is used to identify components that are in **Stale** and **Abandoned** states. A stale component's version is more than two major versions behind the latest version and two years behind the latest version. An abandoned component has not been updated for more than two years. The two year and two version thresholds can be edited with system properties. To edit these parameters, navigate to **All** &gt; **System Properties** &gt; **All Properties** and locate the following records:
@@ -34,8 +36,6 @@ This Deps.dev integration is used to identify components that are in **Stale** a
 -   sn\_sbom\_resp.pkg\_abandoned\_threshold
 -   sn\_sbom\_resp.pkg\_stale\_threshold
 -   sn\_sbom\_resp.pkg\_stale\_version\_threshold
-
-The Deps.dev Integration is installed with SBOM Response. The integration is activated \(Active check box selected on the integration record\) by default and scheduled to run weekly. Note that this is not the on-demand Deps.dev code trigger integration, and you can edit the schedule and initiate the scheduled job on-demand from its integration record..
 
 The threshold values for abandoned and stale are in months. The threshold value for version is numerical.
 

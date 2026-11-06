@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-bubble-chart-view.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Rationalization of business applications, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Bubble chart view of application rationalization
@@ -28,6 +28,8 @@ You can also create your own application indicators to analyze business applicat
 
 -   The created indicator must also be attached to the default application profile. For information on how to attach new profile indicators with a scoring profile, see [Attach a profile indicator to a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.md).
 -   If the created indicator isn’t displayed in the bubble size list, verify that the indicator is active. For information on how to activate an indicator, see [Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md).
+
+You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md).
 
 ## Bubbles displayed on the chart
 
@@ -145,20 +147,12 @@ Press and hold Shift key and then click and move the cursor**Note:** For the pan
 </td></tr></tbody>
 </table>**Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
--   **[Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-analyze-applications-by-capability.md)**  
-Consolidate and analyze the business applications based on multiple scores.
--   **[View scores of a custom scoring profile on bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-rat-custom-scoring-profile-scores.md)**  
-Create a system property to view indicator scores of a custom scoring profile on the application rationalization bubble chart.
--   **[Create a demand using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-demand-using-the-bubble-chart.md)**  
-Create a demand for an application from the bubble chart.
--   **[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.md)**  
-Set the planned disposition of a business application to track decisions on the plan of the application.
--   **[Add business application lifecycle data using bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data.md)**  
-Create or edit the life cycle of a business application to manage the business application.
--   **[Edit business application details in bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.md)**  
-You can make updates to the business application record directly from the list, without leaving the bubble chart view.
--   **[Change the number of bubbles displayed on the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.md)**  
-Customize the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to change the number of bubbles displayed on the application rationalization bubble chart page.
-
 **Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-rationalize-business-applications.md)
+
+**Related topics**  
+
+
+[Analyze applications using the bubble chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-analyze-applications-by-capability.md)
+
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md)
 

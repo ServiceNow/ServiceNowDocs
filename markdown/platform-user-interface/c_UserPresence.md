@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_UserPresence.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -31,8 +31,6 @@ When you are viewing a record in a form, such as an incident, you can see if oth
 If multiple users are viewing the record, the avatar is represented by the number of users. Point your cursor to the number to see the names and avatars of the users.
 
 When you are in a Connect conversation or entering comments in an activity stream, you can see information about the activity of the other participant, for example if they are viewing or typing.
-
-\[Omitted image "UserPresenceChatActivity.png"\] Alt text: Connect window highlighting the fact that you can see when another user is typing.
 
 An administrator can disable user presence globally.
 

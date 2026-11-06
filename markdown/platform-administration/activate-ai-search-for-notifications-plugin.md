@@ -1,16 +1,16 @@
 ---
-title: Activate AI Search for Notifications plugin
+title: Activate AI Search for Notifications
 description: You can activate the AI Search for Notifications plugin \(com.glide.notification.ais\) for Notifications if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System and custom notification and delivery channel preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Activate AI Search for Notifications plugin
+# Activate AI Search for Notifications
 
 You can activate the AI Search for Notifications plugin \(com.glide.notification.ais\) for Notifications if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 

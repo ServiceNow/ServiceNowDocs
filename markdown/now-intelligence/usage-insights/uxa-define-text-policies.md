@@ -1,20 +1,20 @@
 ---
-title: Define texts for Notice and Explicit Opt-in user consent management policies
-description: Edit the texts for Notice and Explicit Opt-in consent policies from the default text provided.
+title: Define texts for Notice and Explicit Opt-in messages
+description: Administrators can edit the text that is displayed in the modal window when a user’s location is assigned to a Notice or Explicit Opt-In consent policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-define-text-policies.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [How users consent to tracking in Usage Insights, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Define texts for Notice and Explicit Opt-in user consent management policies
+# Define texts for Notice and Explicit Opt-in messages
 
-Edit the texts for Notice and Explicit Opt-in consent policies from the default text provided.
+Administrators can edit the text that is displayed in the modal window when a user’s location is assigned to a **Notice** or **Explicit Opt-In** consent policy.
 
 ## Before you begin
 
@@ -35,5 +35,5 @@ Role required: admin
 5.  In the message area, enter your updated text and select **Update**.
 
 
-**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-user-set.md)
 

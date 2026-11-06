@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Obligation Management, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Obligation Management, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel an obligation task
@@ -32,15 +32,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open an obligation task from the workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d344820e70">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d370396e70">
 
 Method
 
-</th><th align="left" id="d344820e73">
+</th><th align="left" id="d370396e73">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d344820e79">
+</th></tr></thead><tbody><tr><td id="d370396e79">
 
 **Contract Workspace**
 
@@ -53,7 +53,7 @@ Steps
 5.  Select the obligation task.
 
 
-</td></tr><tr><td id="d344820e127">
+</td></tr><tr><td id="d370396e127">
 
 **Workspace used by your application**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the card details
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-The equipment ports can be physical or logical \(virtual\). The network interface data includes the port availability, bandwidths, slots, software version, MAC address, firmware manufacturer, and version. When you create a card record, it creates a corresponding configuration item \(CI\) record in the Card \[cmdb\_ci\_ni\_interface\_card\] table. To learn more, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+The equipment ports can be physical or logical \(virtual\). The network interface data includes the port availability, bandwidths, slots, software version, MAC address, firmware manufacturer, and version. When you create a card record, it creates a corresponding configuration item \(CI\) record in the Card \[cmdb\_ci\_ni\_interface\_card\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
@@ -113,11 +113,11 @@ Version of the firmware that is used in this network asset.
 
 12. To view the visual representation of the selected record, select **Open Map** button.
 
-    **Note:** Install CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
+    **Note:** Install CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace or Service Graph Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
 
 13. Select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Add Packs** to capture the attributes for a configuration item \(CI\) record.
 
-    To learn more, see [Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
+    To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 
 14. Select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Decommission** to decommission a CI record.
 

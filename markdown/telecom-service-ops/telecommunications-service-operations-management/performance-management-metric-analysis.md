@@ -1,0 +1,25 @@
+---
+title: Performance management: Metric collection
+description: Performance management enables you to capture and analyze operational metrics to identify anomalies. Detected anomalies can generate alerts that surface in Service Operations Workspace, helping you avoid service outages.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/performance-management-metric-analysis.html
+release: yokohama
+product: Telecommunications Service Operations Management
+classification: telecommunications-service-operations-management
+topic_type: concept
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Telecom Assurance, Explore, Telecommunications Service Operations Management]
+---
+
+# Performance management: Metric collection
+
+Performance management enables you to capture and analyze operational metrics to identify anomalies. Detected anomalies can generate alerts that surface in Service Operations Workspace, helping you avoid service outages.
+
+Use provided solutions to collect metrics and monitor your devices for different device platforms:
+
+-   [Cisco Meraki installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/meraki-installed-integrations.md)
+-   [Fortinet installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/fortinet-installed-integrations.md)
+-   [Metric type IDs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/tsom-metric-type-ids.md)
+-   [Arista VeloCloud installed integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/arista-velocloud-installed-integrations.md)
+

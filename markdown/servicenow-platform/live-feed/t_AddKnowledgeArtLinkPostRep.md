@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,8 +27,6 @@ Role required: none
     You do not need to identify the knowledge article ID as a hyperlink. Live feed recognizes it as such and automatically converts it into a link when the message is posted.
 
 2.  When you are finished entering your message, click **Post** or **Reply**.
-
-    \[Omitted image "KBLink.png"\] Alt text: KB link
 
 
 **Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)

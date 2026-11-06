@@ -1,22 +1,20 @@
 ---
 title: ServiceNow SDK
-description: Create and develop scoped applications in source code locally in Visual Studio Code Desktop and upload changes to an instance using the ServiceNow software development kit \(SDK\).
+description: Create and develop applications in source code locally in Visual Studio Code Desktop and upload changes to an instance using the ServiceNow software development kit \(SDK\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-sdk/servicenow-sdk-landing.html
 release: yokohama
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow SDK
 
-Create and develop scoped applications in source code locally in Visual Studio Code Desktop and upload changes to an instance using the ServiceNow software development kit \(SDK\).
-
-**Note:** The ServiceNow SDK doesn't support the Global scope or global applications with instances on the Yokohama release.
+Create and develop applications in source code locally in Visual Studio Code Desktop and upload changes to an instance using the ServiceNow software development kit \(SDK\).
 
 ## Get started
 
@@ -55,7 +53,7 @@ The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the
 
 **Are you a developer who wants more control in a centralized user interface?**
 
-Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+Build apps smarter and deliver them faster with ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
 
 **Need a more general app but still want low-code options?**
 
@@ -67,7 +65,7 @@ Creator Studio specializes in helping you craft request-fulfillment applications
 
 ## Troubleshoot and get help
 
--   To learn more about what's new in the Yokohama release, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/servicenow-sdk-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/servicenow-sdk-rn.md).
+-   To learn more about what's new in the Brazil release, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/servicenow-sdk-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/servicenow-sdk-rn.md).
 -   [ServiceNow SDK and Fluent Creator Toolbox](https://www.youtube.com/live/PHFZBsbTTtI?si=DbZq3aTEtqUlxpbi&t=2167) video
 -   [ServiceNow SDK examples](https://github.com/ServiceNow/sdk-examples) GitHub repository
 -   [ServiceNow IDE, SDK, and Fluent forum](https://www.servicenow.com/community/servicenow-ide-sdk-and-fluent/bd-p/ide-sdk-fluent-forum) in the ServiceNow Community

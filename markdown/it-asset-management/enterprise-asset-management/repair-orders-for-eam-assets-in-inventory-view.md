@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Create repair orders for enterprise assets in the Inventory view

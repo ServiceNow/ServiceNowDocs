@@ -1,20 +1,20 @@
 ---
-title: Create a CMDB 360 Compare Attribute Values query
-description: Create a Compare Attribute Values query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
+title: Create a Compare Attribute Values query
+description: Create a Compare Attribute Values query from the CMDB 360 dashboard in CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB 360 experience in CMDB Workspace, CMDB 360/Multisource CMDB, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB 360 experience in a workspace, CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Create a CMDB 360 Compare Attribute Values query
+# Create a Compare Attribute Values query
 
-Create a Compare Attribute Values query from the CMDB 360 dashboard of your CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
+Create a Compare Attribute Values query from the CMDB 360 dashboard in CMDB Workspace to help you find CIs with mismatched attribute values between discovery sources.
 
 ## Before you begin
 
@@ -28,21 +28,19 @@ The Compare Attribute Values query compares CIs from different discovery sources
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Insights**. In the Insights page navigation panel, select **CMDB 360**.
 
-2.  In the CMDB Workspace menu bar, select **CMDB 360**.
+2.  Select **Create Query**.
 
-3.  Click **Create Query**.
+3.  Select **I want to compare attribute values between discovery sources or against the CMDB**.
 
-4.  Click **I want to compare attribute values between discovery sources or against the CMDB**.
+4.  Select a CI class that you want to compare attribute values for.
 
-5.  Select a CI class that you want to compare attribute values for.
+    You can select a selected class to open the condition builder. Use the condition builder to specify conditions that must be met for each class. Use **And** or **Or** to specify multiple conditions.
 
-    You can click a selected class to open the condition builder. Use the condition builder to specify conditions that must be met for each class. Use **And** or **Or** to specify multiple conditions.
+5.  Select **Continue**.
 
-6.  Click **Continue**.
-
-7.  On the Attributes to compare form, select the options:
+6.  On the Attributes to compare form, select options:
 
     |Option|Description|
     |------|-----------|
@@ -50,9 +48,9 @@ The Compare Attribute Values query compares CIs from different discovery sources
     |Every attribute doesn't match|Select if you want to retrieve CIs where there's a mismatch with every specified attribute value between the discovery sources.|
     |Select attributes to compare|Specify the attributes that you want to compare for mismatched values.|
 
-8.  Click **Continue**.
+7.  Select **Continue**.
 
-9.  Select your discovery sources that you want to compare attribute values for.
+8.  Select the discovery sources that you want to compare attribute values for.
 
     |Field|Description|
     |-----|-----------|
@@ -60,11 +58,11 @@ The Compare Attribute Values query compares CIs from different discovery sources
     |Select discovery sources|The discovery sources that you want to compare. Select at least two.|
     |Limit results to|Limits the query results to CIs that belong to a service or CMDB group. When you select **Application Services**, **Technical Services**, or **CMDB Groups**, a prompt appears. You can use the prompt to specify the service or group that you want the query to filter for.|
 
-10. Click **Continue**.
+9.  Select **Continue**.
 
-11. Enter a name and description for your query.
+10. Enter a name and description for your query.
 
-12. Click **Save** .
+11. Select **Save** .
 
 
 ## What to do next
@@ -74,10 +72,10 @@ Run the query at least once if you want to create a schedule.
 On the CMDB 360 Query Results page:
 
 -   If the number of results exceeds the number of results appearing on the page:
-    -   Click **Load More Results​**: To show the next page of results. The number of results that appear on each result page is specified by the [glide.identification\_engine.multisource.query.batch.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(100 items by default\).
-    -   Click **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(10000 by default\).
-    -   Click a CMDB 360 Source link to easily access preview data of a source and see more details.
--   You can click **Create Schedule** to [set up a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.md) that runs your query on a regular basis. Scheduling your query enables you to use the query results in reports you create.
--   After creating a schedule, you can click **Create Report** to [configure a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/multisource-data-report-builder.md) that you can manage using [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting-landing-page.md).
+    -   Select **Load More Results​**: To show the next page of results. The number of results that appear on each result page is specified by the [glide.identification\_engine.multisource.query.batch.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(100 items by default\).
+    -   Select **Load All Results**: To show all results, up to the limit specified by the [glide.identification\_engine.multisource.query.max.limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) system property \(10000 by default\).
+    -   Select a CMDB 360 Source link to easily access preview data of a source and see more details.
+-   You can select **Create Schedule** to [set up a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-schedule.md) that runs your query on a regular basis. Scheduling your query enables you to use the query results in reports you create.
+-   After creating a schedule, you can select **Create Report** to configure a report that you can manage using [Reporting capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting-landing-page.md).
 -   On the Query Results page, access a record to view further details.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View a reclassification task
@@ -27,7 +27,7 @@ For more information about reclassification during IRE processing, see [Configur
 
 ## Before you begin
 
-Role required: admin or itil
+Role required: sn\_cmdb\_admin, sn\_cmdb\_editor, admin, or itil
 
 ## Procedure
 

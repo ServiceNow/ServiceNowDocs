@@ -1,16 +1,16 @@
 ---
-title: Getting started with Performance charts
+title: Generate performance charts
 description: Follow these steps to generate Performance charts using Instance Observer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/io-getting-started-perf-charts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Performance, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Real-time Instance health monitoring and analysis, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Getting started with Performance charts
+# Generate performance charts
 
 Follow these steps to generate Performance charts using Instance Observer.
 
@@ -29,8 +29,8 @@ Role required: admin
 3.  Select the reporting options:
 
 4.  -   Instance
--   Date range
 -   Metrics \(The metrics available depend on the report selected.\)
+-   Date range
 -   Options and add-ons
 5.  Select **Get Snapshot**.
 
@@ -41,4 +41,6 @@ Role required: admin
     -   Select and drag across the chart to drill down.
     -   Download to PNG, SVG, or CSV files or view transactions on the instance.
     -   Change the report type.
+
+**Parent Topic:**[Real-time Instance health monitoring and analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/instance-observer-performance.md)
 

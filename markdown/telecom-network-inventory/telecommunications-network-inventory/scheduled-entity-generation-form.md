@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Default Template forms, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Default Template forms, Reference, Telecommunications Network Inventory]
 ---
 
 # Scheduled Entity Generation form
@@ -54,7 +54,7 @@ Run
 
 </td><td>
 
-Time interval to use for running the scheduled job. To learn more, see Automatically generate something from a template.
+Time interval to use for running the scheduled job. To learn more, see [Automatically generate something from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ScheduleTheGenerationOfAnEntity.md).
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/assign-theme-to-mobile-app.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a theme for your mobile applications, Legacy mobile theming, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Create a theme, Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Assign a theme to your mobile application

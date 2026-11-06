@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ The Resource Management application provides several properties to control alloc
 
 You need the PPS admin role to access the Resource properties.
 
-To manage resource properties, navigate to **Project Administration** &gt; **Settings** &gt; **Properties – Resource**.
+To manage resource properties, navigate to **All** &gt; **Project Administration** &gt; **Settings** &gt; **Properties – Resource**.
 
 <table id="table_xnq_t5p_ts"><thead><tr><th>
 
@@ -40,7 +40,7 @@ Maximum number of daily resource allocation records that should be considered in
 
 Determines the maximum number of daily resource allocation records that should be considered in synchronous mode during confirmation and allocation. The property improves the system performance when the number of daily allocation records is more than the value set in the property.
 
- The default value is 2600 which implies that the number of daily records considered for confirmation or allocation in synchronous mode is 2600. The value is equivalent to confirming or allocating 10 users on a group resource plan for 1-year duration \(260 working days\) or 5 users for 2-year duration, and so on. If the group resource plan contains 11 users for 1-year duration, the number of daily records are 2860. Thus the confirmation and allocation of the resource plan in this case is in asynchronous mode.
+ The default value is 2600 which implies that the number of daily records considered for confirmation or allocation in synchronous mode is 2600. This is equivalent to confirming or allocating 10 users on a group resource plan for 1-year duration \(260 working days\). It also applies to 5 users for 2-year duration, and so on. If the group resource plan contains 11 users for 1-year duration, the number of daily records are 2860. Thus the confirmation and allocation of the resource plan in this case is in asynchronous mode.
 
  If you always want to confirm and allocate the resource plan in synchronous mode, set the value of the property to a higher number based on your requirements.
 
@@ -161,14 +161,17 @@ The default duration for a calendar event.
 
  For example, a user is available for three blocks of time: two 30-minute blocks and one 60-minute block.
 
--   If the value of this property is set to 30 minutes, and 1 hour needs to be allocated to the user, the allocation is divided into the two 30-minute blocks when the user is available.
+-   If the value of this property is set to 30 minutes, and 1 hour is allocated to the user, the allocation is divided into two 30-minute blocks. The blocks are assigned when the user is available.
 -   If the value of this property is set to 60 minutes, the allocation is given to the 60-minute block.
 
-**Note:** When you are changing the default value, enter a value which results a finite value when divided by 60. For example, 6, 12, 15, 30 and so on.
+**Note:** When you're changing the default value, enter a value which results a finite value when divided by 60. For example, 6, 12, 15, 30 and so on.
+
+ This property also determines the total effort used for group resource assignments with the **Hours** effort type. The requested effort is rounded down to the nearest multiple of this value before it's distributed among the group members.
 
 </td><td>
 
-60 \(minutes\)
+-   If you're using FTE for effort calculation, use 0.6
+-   If you're not using FTE for effort calculation, use 60
 
 </td></tr><tr><td>
 
@@ -197,12 +200,12 @@ Perform Resource Confirmation/Allocation/Cancellation in asynchronous mode \(**c
 
 Uses asynchronous mode when confirming, allocating, or canceling resource plans to improve application performance.
 
- Because resource confirmation and allocation create calendar events for each resource in a group, and also consider each resources schedule, the confirmation, and allocation process can take an excessively long time to complete.
+ Resource confirmation and allocation create calendar events for each resource in a group and consider each resource's schedule. This process can take an excessively long time to complete.
 
  In asynchronous mode, the application uses an event manager to handle errors that might occur when processing the state of the resource plan. If the property is enabled:
 
  -   The state of the resource plan changes to Confirmation in Progress / Allocation in Progress / Cancellation in Progress.
--   If the confirmation, allocation, or cancellation does not work, the **Confirm**, **Allocate**, or **Cancel** UI actions appear so you can reprocess the action. If an allocation is only partially completed, you can click the **Allocate** UI action again to remove all previously created events for the plan and reprocesses the action.
+-   If the confirmation, allocation, or cancellation does not work, the **Confirm**, **Allocate**, or **Cancel** UI actions appear so you can reprocess the action. If an allocation is only partially completed, you can select the **Allocate** UI action again to remove all previously created events for the plan and reprocesses the action.
 
  Enable this property if you encounter errors or longer processing times when handling confirmations, allocations, or cancellations. This might occur if there are more than 25 members in a group or if the duration of the resource plan exceeds 6 months.
 
@@ -212,7 +215,7 @@ No
 
 </td></tr><tr><td>
 
-Comma-separated list of resource event types which will be excluded from user's schedule to calculate available capacity and to avoid making resource allocations on the days having these events \(time\_off, meeting, and so on\) \(**com.snc.resource\_management.exclude\_events\_from\_schedule**\)
+Comma-separated list of resource event types to exclude from user schedules when calculating available capacity and making resource allocations \(**com.snc.resource\_management.exclude\_events\_from\_schedule**\)
 
 </td><td>
 
@@ -261,19 +264,7 @@ Do not allow resource plan dates to be outside the Project/Demand dates \(**com.
 
 Restricts the entry of resource plan dates that go beyond the project or demand dates to avoid discrepancies between project or demand dates and resource plan dates.
 
- If this property is enabled, the resource plan start and end dates must be within the project or demand dates when you create, extend, shift, move, or change the state of a resource plan from requested to confirm or allocate.
-
-</td><td>
-
-No
-
-</td></tr><tr><td>
-
-Create and manage operational resource plans from the resource allocation workbench \(**com.snc.resource\_management.create\_and\_manage\_operational\_resource\_plans\_from\_raw**\)
-
-</td><td>
-
-Enables the creation and management of operational resource plans from the Resource Allocation Workbench.
+ If this property is enabled, the resource plan start and end dates must be within the project or demand dates. This applies when you create, extend, shift, move, or change the state of a resource plan from requested to confirm or allocate.
 
 </td><td>
 
@@ -314,6 +305,30 @@ Excludes the resource assignments with defined statuses from calculating resourc
 </td><td>
 
 This field is left empty.
+
+</td></tr><tr><td>
+
+Redistribute remaining effort when extending or reducing a resource assignment \(**com.snc.resource\_management.redistribute\_effort\_on\_extend\_reduce**\)
+
+</td><td>
+
+Remaining effort on a resource assignment is automatically redistributed across the updated date range when the assignment is extended or reduced.
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Edit effort fields for a resource assignment that has actuals \(**com.snc.resource\_management.edit\_effort\_with\_actuals**\)
+
+</td><td>
+
+Edit the effort fields for a resource assignment even when actual values have been recorded.
+
+</td><td>
+
+true
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Resource Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-mgmt-reference.md)

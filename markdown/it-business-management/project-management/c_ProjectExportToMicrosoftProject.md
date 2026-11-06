@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Importing and exporting projects, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project export to Microsoft Project

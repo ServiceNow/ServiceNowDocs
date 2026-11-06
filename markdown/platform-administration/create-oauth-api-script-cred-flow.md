@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/create-oauth-api-script-cred-flow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure client credential flow for SMTP OAuth2 using certificate-based authentication, Send email using client credential flow, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [SMTP OAuth2 to use certificates, Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an OAuth API script
@@ -41,7 +41,7 @@ Role required: admin
 
 ## What to do next
 
-[Register an OAuth Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/register-oauth-cred-flow.md).
+[Register an OAuth provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/register-oauth-cred-flow.md).
 
 **Parent Topic:**[Configure client credential flow for SMTP OAuth2 using certificate-based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/config-credential-flow-certificate.md)
 

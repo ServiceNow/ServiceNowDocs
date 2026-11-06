@@ -1,32 +1,32 @@
 ---
 title: Using the workplace collaboration Agent for space suggestions
-description: The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you are in office.
+description: The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you're in office.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/suggest-space-agent.html
 release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2026-01-15"
-reading_time_minutes: 2
-breadcrumb: [Using Now Assist in Virtual Agent, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Using the workplace collaboration Agent for space suggestions
 
-The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you are in office.
+The Workplace Collaboration Agent provides insights on your team members in-office attendance. Based on this information, the reservation agent finds and reserves a space for reservation and collaboration. The collaboration agent considers your colleague's in-office days, location, and suggests a space for collaboration when you're in office.
 
 The Create a reservation agent helps employees find a space for reservation. The Workplace collaboration agent provides suggestions for reservations based on colleague’s attendance and proximity. Employees can find and reserve a workspace near a colleague. The collaboration agent helps in improving collaboration and workplace productivity. The collaboration agent provides insights on your colleagues in-office days.
 
 **Note:** Desks reservations are supported by the Workplace collaboration agent.
 
-When providing suggestions for collaboration, the Collaboration agent uses the following priority order: Employee Presence Exceptions data, Employee Presence Routine, and your current reservations. If an employee's current reservation data and location are available but no workplace presence information exists, the agent prioritizes the employee's current reservations over workplace location. The agent uses this prioritization when suggesting spaces for collaboration. For more information, see [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-feat.md).
+When providing suggestions for collaboration, the Collaboration agent prioritizes data in the following order: Employee Presence Exceptions, Employee Presence Routine, and your current reservations. If an employee's current reservation data and location are available but no workplace presence information exists, the agent prioritizes current reservations over workplace location. For more information, see [Workplace Concierge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-feat.md).
 
 Your collaborators can be categorized as:
 
 -   Employee collaborators information derived from Employee Presence Exceptions and Employee Presence Routine in Workplace Concierge.
 -   Collaborator information is also derived from the invitees that you frequently add to your reservations with while making a reservation.
--   Colleagues with whom you collaborate frequently. Your team members and your manager. If you are a manager, your collaborators are your team members reporting to you.
+-   Colleagues with whom you collaborate frequently. Your team members and your manager. If you're a manager, your collaborators are your team members reporting to you.
 
 The workplace collaboration agent improves employee's reservation and collaboration experience by providing the following:
 
@@ -39,8 +39,15 @@ The workplace collaboration agent improves employee's reservation and collaborat
 
 **Note:** If you're planning to sit near a colleague, and if your colleague has a desk reservation for one hour and doesn't have an All day reservation, you can make a reservation for one-hour only. If an employee doesn't have any Employee Presence Exceptions and has no reservations made for a day while in office, the collaboration agent prioritizes the employee's workplace profile location and spaces around that location is suggested to the employee for collaboration.
 
+-   **[Get space suggestions using the Workplace collaboration agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/collaboration-agent.md)**  
+The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, and reservation attendees.
+
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/create-rsv-agent-ovw.md)
+
 **Related topics**  
 
+
+[Making reservations using the Create a reservation agent]()
 
 [Set Employee Presence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/use-workplace-concierge.md)
 

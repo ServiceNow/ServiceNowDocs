@@ -1,5 +1,5 @@
 ---
-title: Network Inventory Workspace Lists view
+title: Lists view
 description: You use the Lists view to access the inventory classes and functions to perform the Network Inventory tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/network-inventory-workspace-list-view.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Network Inventory Workspace, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
 
-# Network Inventory Workspace Lists view
+# Lists view
 
 You use the Lists view to access the inventory classes and functions to perform the Network Inventory tasks.
 
@@ -40,7 +40,7 @@ Sites
 
 </td><td>
 
-View listings of network sites and data centers. Update or create site details. To learn more about network site, see [dfedcfeedd5cb1e09f2c9b2b13926ebc1136abf4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
+View listings of network sites and data centers. Update or create site details. To learn more about network site, see [c80de0b0e42c4582f147f092909ec837bbe80c4e.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md). To learn more about data centers, see [Define the datacenter details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-data-center-details.md).
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Inventory Models
 </td><td>
 
 Create the metadata for the inventory models and then define their relationships to each other for network asset instantiation. To learn more, see:-   [Network inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md)
--   [Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
+-   [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Network Inventory Templates
 </td><td>
 
 Create the inventory and default templates and then define their relationships to each other for network asset instantiation. To learn more, see: -   [Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
--   [Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+-   [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Changes
 
 </td><td>
 
-Instantiate your network inventory using design and assign. To learn more, see[Telecommunications design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.md).
+Instantiate your network inventory using design and assign. To learn more, see[Design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.md).
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Migrating to Creator Studio from Service Creator
@@ -42,6 +42,4 @@ The steps in a Creator Studio playbook, which include activities and decisions r
 In Service Creator, you had to first create a service category, then define the service and its table. In Creator Studio, the table is automatically created when you make an app, simplifying the category selection process.
 
 For more details, check out [Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-working-with-automations.md).
-
-**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

@@ -1,5 +1,5 @@
 ---
-title: View normalization suggestions in workspace
+title: View normalization suggestions in the Software Asset Workspace
 description: View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/view-norm-sugg-workspace.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# View normalization suggestions in workspace
+# View normalization suggestions in the Software Asset Workspace
 
 View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Service Builder
 classification: service-builder
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Service Builder, IT Service Management]
 ---
 
@@ -28,6 +28,7 @@ A service offering represents how a service is provided and who it is for. A ser
 2.  **Team**
 3.  **Operations**
 4.  **Financials**
+5.  **Offering performance**
 
 **Tip:** You can cancel out of creating a service anytime by selecting the **Cancel** button \(next to the **Save** button\). Also, to return to the home page at any time while creating or editing a service, select \[Omitted image "home-polaris-primary2x.png"\] Alt text: Home icon..
 
@@ -82,22 +83,17 @@ Signifies the importance of this offering to business operations. The value of t
 
 </td></tr><tr><td>
 
-Phase
+Lifecycle status
 
 </td><td>
 
-The phase for the offering:-   **Pipeline**: The offering is being designed and a business case is being created.
--   **Catalog**: The offering has been approved and it is now being designed or is operational.
--   **Retired**: The offering is no longer in operation.
+The stage and status for the service that you're creating.
 
+ If you have the CSDM Activation plugin installed \[com.snc.cmdb.csdm.activation\], then the CSDM compliant lifecycle fields display.
 
-</td></tr><tr><td>
+ If you don't have the plugin installed, then the legacy Service Portfolio Management phase and status fields display.
 
-Status
-
-</td><td>
-
-Status enables a unique status workflow that enables you to track each step of the service offering life cycle.
+ For information on the different types of fields, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
 </td></tr><tr><td>
 
@@ -107,8 +103,16 @@ Description
 
 A concise description of the service offering to ensure that it makes sense to the end user or consumer of the service.
 
+</td></tr><tr><td>
+
+Prerequisites
+
+</td><td>
+
+Defines anything that is required to request or use this service offering.
+
 </td></tr></tbody>
-</table>6.  Select the **Team** tab or click **Continue to Team**.
+</table>6.  Select the **Team** tab or select **Continue to Team**.
 
 7.  On the form, fill in the fields.
 
@@ -127,6 +131,14 @@ Owned by
 </td><td>
 
 Person accountable for the service offering and can edit the service at any time. This person is the service owner. Service owners must have the service\_author role.
+
+</td></tr><tr><td>
+
+Managed by
+
+</td><td>
+
+Person responsible for the day-to-day management of this service.
 
 </td></tr><tr><td>
 
@@ -167,6 +179,22 @@ Vendor
 </td><td>
 
 Vendor that may help deliver and support the service offering. This field helps show and track accountability for service offering delivery.
+
+</td></tr><tr><td>
+
+Department
+
+</td><td>
+
+Department that is accountable for the management of this service.
+
+</td></tr><tr><td>
+
+Company
+
+</td><td>
+
+Company that is accountable for the management and delivery of this service \(could be a vendor\).
 
 </td></tr><tr><td>
 
@@ -279,39 +307,43 @@ Other service offerings that your service offering depends on. For example, if a
 
 </td></tr><tr><td>
 
-Application services I depend on
+Service instance I depend on
 
 </td><td>
 
-Applies to business services. Application services that the service offering depends on.
-
-</td></tr><tr><td>
-
-Application services I contain
-
-</td><td>
-
-Applies to technical services. Application services that the offering supports.
+Applies to business services. Service instances that the service offering depends on.
 
 </td></tr></tbody>
 </table>12. Select the **Financials** tab or select **Continue to Financials**.
 
 13. On the form, fill in the fields.
 
-14. |Field|Description|
+14. A Service Offering **Cost unit** is a unit of measurement of the service offering. For example, let's say your service is Microsoft Suite. The cost unit would be the number of users. It could also be the API calls. A cost model that's **Per unit** refers to the price per unit. In this case, it would be the price per Microsoft Suite user or API call. The **Estimated Spend** for the Per unit cost model is determined by the price per unit and units per period. A cost model that's **Fixed** refers to a predetermined and agreed-upon total cost. For example, you set a specific price for your Microsoft Suite service and stick to it. The cost unit is still the same \(users or API calls\), but the **Estimated Spend** is determined by the agreed-upon price.
+
+    |Field|Description|
+    |-----|-----------|
+    |Price model|How the service offering is to be priced. Your selection determines the next field to display.|
+    |Price unit|If the price model is set to **Per Unit**, then enter the price unit in this field. For example, license or subscription.|
+    |Price|If the price model is set to **Fixed**, then enter the price in this field. Be sure to enter the currency symbol as well \(for example, $ for United States dollar\).|
+    |Unit description|If the price model is set to **Per Unit**, then use this field to describe what is included in the unit.|
+
+15. Fill in the rest of the fields.
+
+    The following fields appear conditionally according to the cost source selected in Service Portfolio Management. These fields are enabled as part of the financial optional plugin for Service Portfolio Management. For financial information, the required plugin is com.snc.financial\_management\_for\_spm. For estimate spend information, the required plugin is com.snc.spm.spend. Both plugins require ITSM Pro SKU.
+
+16. |Field|Description|
 |-----|-----------|
-|Price model|How the service offering is to be priced. Your selection determines the next field to display.|
-|Price unit|If the price model is set to **Per Unit**, then enter the price unit in this field. For example, license or subscription.|
-|Price|If the price model is set to **Fixed**, then enter the price in this field. Be sure to enter the currency symbol as well \(for example, $ for United States dollar\).|
-|Unit description|If the price model is set to **Per Unit**, then use this field to describe what is included in the unit.|
-|The following fields appear conditionally according to the cost source selected in Service Portfolio Management. These fields are enabled as part of the financial optional plugin for Service Portfolio Management. For financial information, the required plugin is com.snc.financial\_management\_for\_spm. For estimate spend information, the required plugin is com.snc.spm.spend. Both plugins require ITSM Pro SKU.|
-|Cost model|The cost model that determines how the estimated spend will be calculated.|
+|Cost model|The cost model that determines how the estimated spend is calculated.|
 |Offering cost|If the cost model is set to **Fixed**, then the cost should represent the estimated cost of the offering per time period.|
 |Time period|Interval that you want to track the estimated spend \(**day**, **month**, **quarter**, **year**\).|
 |Cost Unit|If the cost model is set to **Per unit**, the cost should represent the cost per unit.|
 |Units per period|The number of units per period.|
 |Estimated spend|The estimated spend for this item.|
 
-15. Select **Save &amp; Close**.
+17. Select the **Offering Performance** tab or select **Continue to Offering Performance**.
+
+18. In the field, select the KPI group that you want to measure this service offering by.
+
+19. Select **Save &amp; Close**.
 
 

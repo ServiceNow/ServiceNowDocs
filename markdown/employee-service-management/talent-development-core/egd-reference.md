@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Talent Development Core application reference
@@ -45,5 +45,5 @@ Several types of components are installed with Talent Development Core, includin
 -   **[Employee Application Access Criteria reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-empl-profile-app-access-criteria-form.md)**  
 Talent Development uses the **Employee licensing** feature in the Employee Profile app to license users.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-tco-cost-type.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a cost type for Application TCO in Enterprise Architecture Workspace
@@ -33,5 +33,14 @@ Role required: admin
 6.  Select **Save**.
 
 
-**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-tco.md)
+**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-app-tco.md)
+
+**Related topics**  
+
+
+[Create a TCO source cost type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-tco-source-cost-type.md)
+
+[Create a source for an Application TCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-tco-source.md)
+
+[Set the fiscal period property for TCO dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-property-tco-dashboards.md)
 

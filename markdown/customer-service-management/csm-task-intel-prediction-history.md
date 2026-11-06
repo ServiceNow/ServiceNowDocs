@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-task-intel-prediction-history.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use Task Intelligence for Customer Service, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Task Intelligence, Automate and optimize, Use, Customer Service Management]
 ---
 
 # View Task Intelligence prediction history

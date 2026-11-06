@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record creation from security incidents, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,8 +34,12 @@ Role required: sn\_si.basic or higher
     -   **Create OT Change Request**
     **Note:**
 
-    -   The **Create OT Change Request** option is available only when the Operational Technology Change Management plugin \(com.sn\_ot\_chg\_mgmt\) is installed and relevant OT change role is assigned to the user.
+    -   The **Create OT Change Request** option is available only when the Operational Change Management plugin \(com.sn\_ot\_chg\_mgmt\) is installed and relevant OT change role is assigned to the user.
     -   This choice applies only if the popup property \(sn\_vul.popup\) is enabled. When you select one of these buttons, a preview window opens to show you the information from the security incident that is used to create the change, incident, or problem. That is, the configuration item, its location, its priority, and the short and long descriptions. If you're creating a Change Request you can edit the **Priority**, **Short description**, and **Description** fields. If you're creating an Incident, you can edit the **Impact**, **Urgency**, **Short description** and **Description** fields. The fields in the associated security incident screen aren't affected.
 3.  Select **Submit** to create the change, incident, or problem.
 
+
+## Result
+
+The change, incident, OT change request, or problem record is created and linked to the security incident.
 

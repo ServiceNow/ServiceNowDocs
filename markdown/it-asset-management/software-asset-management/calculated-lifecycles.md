@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 11
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Product life cycles
@@ -18,22 +18,34 @@ In the absence of vendor-provided life cycles, there are various capabilities th
 
 ## Overview of product life cycles
 
-For better visibility of all the life-cycle phases, the following columns have been added to the Software Lifecycle Reports \[sam\_sw\_product\_lifecycle\_report\] table:
-
--   General Availability start date
--   General Availability
--   End of Support start date
--   End of Support lifecycle
--   End of Extended Support start date
--   End of Extended Support lifecycle
--   End of Life start date
--   End of Life lifecycle
--   Software model
--   Owners
-
 The Content Library provides approximated life cycle dates and life cycle codes which you can use to drive your life cycle reporting.
 
 You can also use calculated life cycles to create end-of-support \(EOS\), end- of-extended-support \(EOES\), and end-of-life \(EOL\) life cycles for your software products. Additionally, you can create custom life cycles to supplement missing life cycles or overwrite any existing ones from the Content Library.
+
+## Software Product Lifecycles table
+
+The Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table holds the information of the software product, its lifecycle type \(internal or external\), full version, lifecycle phases, start date of the phase, and the risk.
+
+The Content active column in the Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table is set to the value true by the Software Asset Management content service if the lifecycle records are valid. If you do not want a lifecycle phase to be rendered on the Technology Portfolio Management \(TPM\) timeline, then set the **Active** column to false. For example, you can have **General Availability**, **End of Extended Support**, and **End of Support** lifecycle phases as three records for Oracle Database software model in the Software Product Lifecycles list. However, if you do not want **General Availability** phase to be shown on the timeline, you can clear the **Active** check box in the Software Product Lifecycle form for that lifecycle phase record. As a result, the timeline starts with the **End of Support** phase. Although the lifecycle phase record exists for the software product lifecycle, the lifecycle data will not be rendered on the timeline. Because only active lifecycle records are considered and plotted in the TPM timeline.
+
+View the Software Product Lifecycle report to be informed about the products nearing end-of-life, end-of-support, and end-of-extended support. View the report by navigating to **Reports** &gt; **View/Run**. The report is based on the scheduled job, **SAM - Generate Data For Software Lifecycle Report**.
+
+## Software Lifecycle Report table
+
+The Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table calculates the current and upcoming lifecycle phases from the lifecycle phases mentioned in the Software Product Lifecycle \[sam\_sw\_product\_lifecyle\] table.
+
+For records with the same publisher, product, version, full version, and edition, there's a single record for different lifecycle phases. This helps in avoiding duplicate software installation count for each lifecycle phase. You can export lifecycles from the Software Installation \[cmdb\_sam\_sw\_install\] table. The software installation records are linked to lifecycles via the **Lifecycle report** column in the Discovery model \[cmdb\_sam\_sw\_discovery\_model\] table.
+
+For better visibility into all life-cycle phases, the following columns have been added to the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table:
+
+-   Current phase \[current\_lifecycle\_phase\]
+-   Current phase start date \[current\_lifecycle\_phase\_start\_date\]
+-   Upcoming lifecycle phase \[upcoming\_lifecycle\_phase\]
+-   Upcoming lifecycle phase start date \[upcoming\_lifecycle\_phase\_start\_date\]
+-   General availability start date \[ga\_start\_date\]
+-   End of support start date \[eos\_start\_date\]
+-   End of extended support start date \[eoes\_start\_date\]
+-   End of life start date \[eol\_start\_date\]
 
 ## Approximated life cycles and life-cycle codes
 
@@ -41,7 +53,7 @@ Approximated life cycles are provided by the Content Library when life cycle dat
 
 The Software Lifecycle Code \[software\_lifecycle\_code\] table, contains all the approximation codes along with a description of each code. For a detailed explanation of life-cycle codes, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1642485](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1642485).
 
-A new column, Lifecycle code, is added to the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table. This column refers to the Software Lifecycle Code \[software\_lifecycle\_code\] table. If the column is populated, it indicates the record is an approximated lifecycle. If the column is empty, it indicates that the life cycle record has confirmed or explicit dates as published by the publisher.
+A new column, Lifecycle code, is added to the Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table. This column refers to the Software Lifecycle Code \[software\_lifecycle\_code\] table. If the column is populated, it indicates the record is an approximated lifecycle. If the column is empty, it indicates that the life cycle record has confirmed or explicit dates as published by the publisher.
 
 Approximated life cycles are enabled by default as part of generating the Software Lifecycle Report. This is managed in the system property **com.snc.samp.use\_lifecycle\_approximation**. For details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-properties.md).
 
@@ -73,14 +85,18 @@ Besides approximated life cycles and calculated life cycles, to further improve 
 
 Custom life cycles can be created from either of the two locations on selecting **New**:
 
--   Software Product Lifecycles \[sam\_sw\_product\_lifecycle table.
+-   Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table.
 -   Custom Software Product Lifecycle \[sam\_custom\_sw\_product\_lifecycle\] table.
+
+## Publisher add-on life cycles
+
+Software publishers offer various add-ons and optional support that can extend the life cycles of their existing products. The Software Asset Management Content Service maintains life-cycle information for both the standard version of each software product and any available add-ons or optional support in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table. To track life cycles more accurately, you can indicate if you have purchased any add-ons or optional support for your software products. The Software Asset Management application then uses the corresponding life-cycle information in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table to automatically update the life-cycle dates of those products with the extended life-cycle dates of the add-ons or optional support. These updated life-cycle dates are populated in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table. For more information, see [Use publisher add-on lifecycles in the Software Lifecycle Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/specify-publisher-add-on-lifecyles.md).
 
 ## Software life-cycle process
 
 The scheduled job **SAM - Generate Software Lifecycle Report** aggregates life cycle data for all normalized software products which have non- zero installation counts. Each record on the Software Lifecycle Report table displays all life cycle phase columns along with their corresponding phase start dates, if the date is available. Life cycle codes can also be displayed to indicate whether the record is an approximated life cycle or not.
 
-The Software Lifecycle Report table also displays the Current Phase and Upcoming Phase columns along with their corresponding dates. For further details about these columns, see [Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md).
+The Software Lifecycle Report table also displays the Current Phase and Upcoming Phase columns along with their corresponding dates. For further details about these columns, see [Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md).
 
 Another scheduled job, **SAM - Create Calculated Software Lifecycles**, checks for all records on the Software Lifecycle Report table which have GA dates but are missing EOS, EOES, or EOL dates and creates calculated life cycles for them based on the definitions that you have created on Software Lifecycle Averages table.
 
@@ -92,7 +108,7 @@ Keep the following in mind for the scheduled job **SAM - Create Calculated Softw
     **Note:** Reconciliation can be enabled either for the parent domain or for the child domain; it cannot be enabled for both the parent and the child domains.
 
 
-The calculated life cycles and the life cycles created by you are stored in the Custom Software Product Lifecycle \[sam\_custom\_sw\_product\_lifecycle\] table. Life cycles created by the Content Service are stored in the Software Product Lifecycle \[sam\_sw\_product\_lifecycle\] table.
+The calculated life cycles and the life cycles created by you are stored in the Custom Software Product Lifecycle \[sam\_custom\_sw\_product\_lifecycle\] table. Life cycles created by the Content Service are stored in the Software Product Lifecycles \[sam\_sw\_product\_lifecycle\] table.
 
 If you create custom life cycles, calculated life cycles crated by the scheduled job gets deleted in the next Content Service update, as priority is given to the custom life cycles that you created.
 

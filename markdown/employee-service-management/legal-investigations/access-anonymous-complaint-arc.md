@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Submit a complaint through the Anonymous Report Center portal, Submitting a complaint for investigation, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Submit a complaint via the ARC Portal, Requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Access your anonymous report from the Anonymous Report Center portal
@@ -26,26 +26,26 @@ Role required: None
 
 1.  Open the Anonymous Report Center portal either via Employee Center portal or using a direct URL.
 
-<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d458063e57">
+<table id="choicetable_rlf_djt_h5b"><thead><tr><th align="left" id="d493244e72">
 
 Option
 
-</th><th align="left" id="d458063e60">
+</th><th align="left" id="d493244e75">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d458063e66">
+</th></tr></thead><tbody><tr><td id="d493244e81">
 
 **From Employee Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-2.  In the Employee Center portal, click the **Legal** menu and select the **Ethics and Compliance** option.
-3.  In the Ethics and Compliance request category page, click **Anonymous Ethics Complaint**.
+2.  Navigate to **Help center** &gt; **Legal services**.
+3.  From **Ethics and Compliance** category, select **Anonymous Ethics Complaint**.
 
 
-</td></tr><tr><td id="d458063e111">
+</td></tr><tr><td id="d493244e132">
 
 **Using direct URL that does not require a log in**
 
@@ -53,7 +53,7 @@ Steps
 
 Navigate to the Anonymous Report Center by accessing your instance URL and adding a /arc suffix. For example, https://example.com/arc
 
-</td></tr><tr><td id="d458063e120">
+</td></tr><tr><td id="d493244e141">
 
 **From Legal Service Portal**
 
@@ -72,8 +72,6 @@ Navigate to the Anonymous Report Center by accessing your instance URL and addin
     For example: https://&lt;instance\_name&gt;/arc.
 
 3.  In the Anonymous Report Center portal, click **Follow up on a report**.
-
-    \[Omitted image "arc-view-report.png"\] Alt text: Access report in the Anonymous Report Center
 
 4.  On the Follow up on a report page, enter the details.
 

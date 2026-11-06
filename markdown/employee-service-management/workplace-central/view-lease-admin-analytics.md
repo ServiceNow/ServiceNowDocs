@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Workplace Analytics, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -29,7 +29,7 @@ To access the Lease Administration dashboard, you must have the sn\_wsd\_la.mana
 -   Access the dashboard using one of the following navigation paths:
     -   **All** &gt; **Workplace Central** &gt; **Workplace Central**.
     -   **Workspaces** &gt; **Workplace Central**
--   Navigate to the **Lease Administration** tab.\[Omitted image "wpa-lease-admin-dashboard.png"\] Alt text: Workplace Analytics Lease Administration dashboard. For more information on the scorecards and key metrics displayed, refer to the following sections.
+-   Select the Lease Administration \(\[Omitted image "lease-admin-icon.png"\] Alt text: Lease administration icon\) to open the Lease Administration home page.
 
 ## Scorecards and report
 

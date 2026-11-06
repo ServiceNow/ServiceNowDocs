@@ -1,22 +1,22 @@
 ---
-title: Root Cause Correlation
-description: Root Cause Correlation \(RCC\) streamlines performing a root cause analysis by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
+title: Root cause correlation
+description: Root Cause Correlation \(RCC\) finds a root cause by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/root-cause-correlation.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Alerts in Instance Observer, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Root Cause Correlation
+# Root cause correlation
 
-Root Cause Correlation \(RCC\) streamlines performing a root cause analysis by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
+Root Cause Correlation \(RCC\) finds a root cause by automatically correlating metrics, logs, and event information for supported symptoms on production instances for the last 24 hours.
 
 ## RCC symptom categories
 
-The RCC feature is available for self-service alerts and supports the following symptom categories:
+The RCC feature is available for self-service alerts and Critical or Warning performance symptom categories:
 
 -   Memory
 -   Longest running sessions
@@ -41,11 +41,11 @@ Corresponding alert
 
 </th></tr></thead><tbody><tr><td>
 
-DB Impact​
+Database Impact​
 
 </td><td>
 
-Helps the user to identify and address extended SQL queries impacting database performance, tied to high execution time, or increased volumes. The query patterns give snapshots of 30 minute and 60 minute durations from the time the impact is observed on query execution times.​
+Helps you to identify and address extended SQL queries impacting database performance, tied to high execution time, or increased volumes. The query patterns give snapshots of 30-minute and 60-minute durations from the time that the impact is observed on query execution times.​
 
 </td><td>
 
@@ -69,7 +69,8 @@ Longest Running Session​
 
 </td><td>
 
-Searches for the top long-running sessions in mean time to recover \(MTTR\) logs and identifies the top transaction pattern hash with the highest processing times and then the transaction IDs.​
+-   Searches for the top long-running sessions in mean time to recover \(MTTR\) logs
+-   Identifies the top transaction pattern hash with the highest processing times and then the transaction IDs.​
 
 </td><td>
 
@@ -82,7 +83,7 @@ Slow Transactions ​
 </td><td>
 
 -   Identifies the top long-running transactions using the total duration, including ACL time, SQL time, CPU time, processing time, BR time, and script time.
--   Returns the transaction IDs, the pattern hash, and these metrics to help users identify the specific causes of long-running transactions.
+-   Returns the transaction IDs, the pattern hash, and these metrics to help you identify the specific causes of long-running transactions.
 
 ​
 
@@ -119,12 +120,7 @@ The RCC engine monitors innodb\_row\_lock\_waits and threads\_running to detect 
 Threads running​
 
 </td></tr></tbody>
-</table>## RCC report statuses
+</table>**Note:** As soon as any of the aforementioned alerts or Critical or Warning performance are identified, the system automatically generates an RCA report after waiting for a maximum of 10 minutes, depending on the conditions.
 
-When an RCC report is generated several statuses are available:
-
--   RCC In progress: The RCC report generation is being generated.
--   RCC generated: The report has been successfully generated.
--   No RCC found: When there is not enough information to generate the report.
--   RCC failed: Returned when there is a technical issue, generally remedied to regenerate the report.
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 

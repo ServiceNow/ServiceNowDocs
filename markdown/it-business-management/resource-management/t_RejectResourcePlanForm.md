@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource allocation, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -19,10 +19,6 @@ Resource managers can reject plans from the Resource Plan form or from the Resou
 ## Before you begin
 
 Role required: resource\_manager
-
-## About this task
-
-You can also perform this task from the [allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md).
 
 ## Procedure
 

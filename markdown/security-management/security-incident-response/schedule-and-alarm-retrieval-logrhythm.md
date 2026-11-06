@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an alarm profile, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,15 +32,15 @@ Scheduling permits you to modify the scheduling and the types of alarms selected
 
 2.  Choose from the following options to configure your alarm retrieval.
 
-<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d135496e83">
+<table id="choicetable_lvr_kdr_f2b"><thead><tr><th align="left" id="d138396e83">
 
 Option
 
-</th><th align="left" id="d135496e86">
+</th><th align="left" id="d138396e86">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d135496e92">
+</th></tr></thead><tbody><tr><td id="d138396e92">
 
 **Enable incremental alarm retrieval**
 
@@ -48,7 +48,7 @@ Description
 
 Default is selected. Select this option to retrieve incremental alarms.
 
-</td></tr><tr><td id="d135496e101">
+</td></tr><tr><td id="d138396e101">
 
 **Polling interval \(in minutes\)**
 
@@ -58,7 +58,7 @@ The ServiceNow AI Platform instance pulls from the LogRhythm Client Console for 
 
  This setting can be changed, however, the default setting balances alarm ingestion against server load and retrieves the most current data.
 
-</td></tr><tr><td id="d135496e122">
+</td></tr><tr><td id="d138396e122">
 
 **Next Alarm ingestion time \(estimated\)**
 
@@ -66,7 +66,7 @@ The ServiceNow AI Platform instance pulls from the LogRhythm Client Console for 
 
 Displays when the next scheduled ingestion would occur for the current alarm profile. This is only an estimated time.
 
-</td></tr><tr><td id="d135496e131">
+</td></tr><tr><td id="d138396e131">
 
 **Enable historical alarm retrieval**
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,4 +45,6 @@ The I18N:Knowledge Management Internationalization Plugin v2 \(com.glideapp.know
 
 
 Additionally, the Translated Versions related list is automatically added to the Knowledge form after you save an article.
+
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

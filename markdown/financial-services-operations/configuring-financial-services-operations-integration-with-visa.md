@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configuring-financial-services-operations-integration-with-visa.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating with Visa, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Configuring Financial Services Operations Integration with Visa
 
 Plan and configure your Financial Services Operations Integration with Visa implementation.
+
+**Important:** Set the `sn_bom_credit_card.is_visa_integration_enabled` property to `True` to enable Financial Services Operations Integration with Visa. By default, this property is set to `False`, so you need to update it manually. Financial Services Operations Integration with Visa will not function until this property is enabled.
 
 ## Configuration overview
 
@@ -26,7 +28,7 @@ To configure Financial Services Operations Integration with Visa on your Service
 
     You can install the Financial Services Operations Integration with Visa \(com.sn\_fso\_intg\_visa\) application from the ServiceNow Store. The application installs related applications and plugins if they are not already installed.
 
-3.  [Activate Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/activate-visa-spoke.md).
+3.  [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/activate-visa-spoke.md).
 
     IntegrationHub enables execution of third-party APIs as a part of a flow when a specific event occurs in ServiceNow. These integrations, referred to as spokes, are easy to configure and enable you to quickly add powerful actions without the need to write a script.
 
@@ -34,10 +36,14 @@ To configure Financial Services Operations Integration with Visa on your Service
 
     Configure the Financial Services Operations Integration with Visa application by using the Visa connection and credential record to authenticate ServiceNow requests.
 
+5.  [Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/properties-installed-with-fso-integration-with-visa.md).
+
+    Customize properties that control settings for features in the Financial Services Operations Integration with Visa application, such as integration with specific APIs.
+
 
 -   **[Install Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/install-financial-services-operations-integration-with-visa.md)**  
 If you have the admin role, you can install the Financial Services Operations Integration with Visa application.
--   **[Activate Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/activate-visa-spoke.md)**  
+-   **[Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/activate-visa-spoke.md)**  
 Activate the Visa spoke in IntegrationHub from the ServiceNow Store, and enable the quick access to payment and security data. You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security
 -   **[Configure the Visa Queue Scheduler Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/activate-visa-queue-scheduler-flow.md)**  
 Use the Visa Queue Scheduler Flow to control the frequency at which Visa batch queues are processed. This flow runs as a scheduled job at a predefined time interval, triggering the subflow that processes incoming batch queues.

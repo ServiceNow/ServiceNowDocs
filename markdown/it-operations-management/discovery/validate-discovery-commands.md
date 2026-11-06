@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery commands for probes and patterns, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -86,6 +86,4 @@ Starting with Pattern Designer Enhancements version 3.9.0, the new pde\_viewer r
 [Getting started with credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/credentials-getting-started.md)
 
 [Command List form for pattern-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/commands-list-discovery.md)
-
-[Discovery CLI commands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-cli-commands.md)
 

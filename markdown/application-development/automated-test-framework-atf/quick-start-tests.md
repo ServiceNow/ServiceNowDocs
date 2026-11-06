@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Quick start tests
@@ -39,7 +39,7 @@ When you copy a test, Automated Test Framework populates the **Copied from** fie
 -   **[Available quick start tests by application or feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/available-quick-start-tests.md)**  
 Validate that your instance still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize the ServiceNow -provided quick start tests to pass when using your instance-specific data.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) tests types and testing ways](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
@@ -50,5 +50,9 @@ Validate that your instance still works after you make any configuration change 
 
 [Parallel testing]()
 
+[Accelerate ATF tests failure resolution]()
+
 [Performance profiling]()
+
+[ATF Health Check]()
 

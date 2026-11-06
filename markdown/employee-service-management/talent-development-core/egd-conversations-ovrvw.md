@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore Talent Development Core, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Talent Development Core, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Conversations overview
@@ -18,7 +18,7 @@ Conversations with managers, peers, and mentors are a critical part of your care
 
 You must have the Career Conversations app installed for Conversations to work.
 
-**Parent Topic:**[Explore Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
 
 **Related topics**  
 
@@ -27,7 +27,7 @@ You must have the Career Conversations app installed for Conversations to work.
 
 [Install Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-install.md)
 
-[Create a growth conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-create-growth-conversation.md)
+[Create a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-create-growth-conversation.md)
 
-[Update a growth conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-update-growth-conversation.md)
+[Update a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-update-growth-conversation.md)
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 ---
 
@@ -17,6 +17,12 @@ breadcrumb: [Integrating Task Mining, Explore, Task Mining, Platform Analytics]
 Create automation requests for your tasks directly from Task Mining. Capture both steps and desktop actions automation properties in a single recording session, instead of recording the same process twice. When a Task Mining analyst submits an automation request, the recording is delivered to the automation team with all UI properties needed to build desktop actions.
 
 You must install and configure the Automation Center plugin before using the integration. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Install Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/install-automation-center.md).
+
+## Building desktop automations
+
+Submitting an automation request from Task Mining is the entry point to building a complete desktop automation. Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
+
+For more information, see .
 
 ## Initiate an automation request from the Task timeline analysis
 
@@ -30,7 +36,7 @@ You must install and configure the Automation Center plugin before using the int
     **Note:** The generate details option is available only if ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated.
 
 
-\[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the completed New Automation Request form.
+\[Omitted image "tm-automation-request-done.png"\] Alt text: The completed New Automation Request form.
 
 **Parent Topic:**[Integrating Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/integrations-for-task-mining.md)
 

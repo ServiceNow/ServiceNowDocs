@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-dom-sep-value-prop.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Domain separation explained, Domain separation recommended practices for service providers, Domain separation for service providers, Access Management]
+breadcrumb: [Domain separation explained, Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
 
 # Domain separation value proposition

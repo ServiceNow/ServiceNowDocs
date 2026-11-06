@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -16,16 +16,20 @@ breadcrumb: [Workplace Core, Workplace Service Delivery, Employee Service Manage
 
 Monitor your workplace activities. Perform workplace-related actions using the Workplace Core application such as import data, managing locations and configuring other workplace-related settings.
 
+Manage workplace safety activities by adding a space type configuration, blocking a location, managing neighborhoods and so on. Starting from Workplace Core version 2.3, time zones are introduced, and all arrival schedules from version 2.2 and earlier are deactivated after upgrade. From version 2.16.1, the Department and cost center allocation types are no longer available. They're replaced with the new Workplace entity allocation type. Additionally, workplace user profiles are created in the Workplace Profile Location Assignment. For workplace entities, you can only view and make map-based space administration; you can't create scenarios. To view neighborhoods on a floor map, install the Indoor Mapping plugin and its dependencies.
+
 -   **[Import your workspaces data from an Excel spreadsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/import-excel-spreadsheet-workspace-data-wsd.md)**  
 Import your workspaces data from an Excel spreadsheet into the Workplace Core application.
 -   **[Add a space type configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/add-space-type-configuration-wsd.md)**  
-Configure the different types of spaces available in your workplace. You can add spaces based on different space types. The space types enable your employee to identify the different types of spaces that are available on a floor in a Mappedin floor map
+Configure the different types of workspaces available in a workplace. You can add spaces based on different space types \(Workspace/Desk\). Space type enables employee to identify the different types of workspace available on a floor
 -   **[Configure a workplace card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/configure-workplace-card.md)**  
 Create a workplace card to be used in your workplace applications.
 -   **[Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/block-workplace-location.md)**  
 Block a workplace location for a specific period. The blocked workplace location is unavailable during the specified period for any type of reservation on the Workplace Reservation Management Reservation portal.
 -   **[Configure Workplace entity and entity types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-entity.md)**  
 Create a business hierarchy based on your organization's businesses. Allocate workplace locations based on the business to which they’re associated with. Configure workplace entity types and workplace entities to create the structure. For example, add entity types such as Business Units, Marketing Units, and associate workplace entities such as ITSM, Facilities, and more under them.
+-   **[Managing Neighborhoods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/neighborhoods.md)**  
+Neighborhoods are a group of spaces assigned to employees within an organization. A neighborhood can be located anywhere within the organizational structure.
 -   **[Enable favorites option for Workplace Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/confgure-favourites-option-for-ws-portal-wsd.md)**  
 Enable employees to set a workplace location as their favorite while using the Workplace Service Portal. Integrate with Employee Service Center to configure the favorites option.
 -   **[Create a workplace performer criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/create-workplace-performer-criteria.md)**  
@@ -52,8 +56,8 @@ As a workplace admin, you can create knowledge base articles for employees. In t
 Generate and print QR codes for spaces and rooms. Employees can use these codes to make reservation-related actions on the Now Mobile app.
 -   **[Location migration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/location-migration.md)**  
 Learn how to migrate location data from the ServiceNow Locations table to the Workplace Location table to use them in Workplace Service Delivery applications.
--   **[View workplace service usage analytics with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/appsee-intergration-wsd.md)**  
-The ServiceNow® User Experience Analytics provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
+-   **[View workplace service usage analytics with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/appsee-intergration-wsd.md)**  
+The ServiceNow® Usage Insights provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
 
 **Parent Topic:**[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-service-delivery-feat.md)
 

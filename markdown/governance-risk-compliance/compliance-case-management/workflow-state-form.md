@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a workflow state for a compliance case or request, Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create workflow state, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Workflow State form

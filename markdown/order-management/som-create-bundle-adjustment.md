@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-bundle-adjustment.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create pricing adjustments for bundled products
@@ -24,7 +24,7 @@ A pricing adjustment can be a markup or markdown percentage, amount, or a pricin
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 

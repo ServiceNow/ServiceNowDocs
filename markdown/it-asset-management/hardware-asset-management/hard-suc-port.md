@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Hardware Asset Workspace, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Success portal view in Hardware Asset Workspace
@@ -116,4 +116,6 @@ Open success goal activities.
 
 </td></tr></tbody>
 </table>**Important:** The **HAM maturity**, **Total success savings**, **Projected savings**, and **All goals** fields are available with the Hardware Asset Management 10.0.0 version or later.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

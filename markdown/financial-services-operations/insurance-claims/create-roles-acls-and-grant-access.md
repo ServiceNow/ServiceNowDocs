@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up an insurance policy for Insurance claims, Setting up the policy data for Insurance claims, Setting up Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Setting up an insurance policy for Insurance claims, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a role to access insurance policy tables

@@ -1,20 +1,20 @@
 ---
 title: Accept or reject requests from push notifications
-description: As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
+description: As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the ServiceNow Agent mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/accept-reject-wot-push-notification.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Push notifications on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Push notifications, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject requests from push notifications
 
-As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
+As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the ServiceNow Agent mobile app.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ Role required: wm\_agent
 
 3.  Process the request.
 
-<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d27188e70">
+<table id="choicetable_dw3_2px_4tb"><thead><tr><th align="left" id="d27483e76">
 
 To
 
-</th><th align="left" id="d27188e73">
+</th><th align="left" id="d27483e79">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d27188e79">
+</th></tr></thead><tbody><tr><td id="d27483e85">
 
 **Accept working on the work order task notification**
 
@@ -44,7 +44,7 @@ Do this
 
 Click **Accept**
 
-</td></tr><tr><td id="d27188e91">
+</td></tr><tr><td id="d27483e97">
 
 **Reject the task notification**
 
@@ -54,5 +54,3 @@ Click **Reject** **Note:** If you reject the task notification, the task assignm
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Push notifications on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/actionable-push-notifications.md)
-

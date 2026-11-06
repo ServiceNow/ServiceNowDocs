@@ -1,25 +1,29 @@
 ---
 title: Select a theme in Next Experience
-description: Personalize your Next Experience instance by selecting a theme variant or alternate color palette in the user preferences menu.
+description: Personalize your Next Experience instance by selecting a theme and it's variant or alternate color palette in the user preferences menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/select-a-theme-in-next-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [choose theme, select theme, theme user preference]
-breadcrumb: [Next Experience preferences, Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Select a theme in Next Experience
 
-Personalize your Next Experience instance by selecting a theme variant or alternate color palette in the user preferences menu.
+Personalize your Next Experience instance by selecting a theme and it's variant or alternate color palette in the user preferences menu.
 
 ## Before you begin
 
 **Note:** An administrator must enable at least one theme before you can select one as described in this task. For information about theme variants and alternate color palettes, see [Core styles, colors, variants, and alternate color palettes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/difference-themes-variants.md).
 
 Role required: none
+
+You can also watch a short video on how to select a theme.
+
+\[Omitted video\] Description: Select a theme in Next Experience.
 
 ## Procedure
 

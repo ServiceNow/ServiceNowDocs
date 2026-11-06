@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record the time worked on a work order task, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Recording time worked, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Review time recorded for a task
@@ -34,6 +34,4 @@ The **Time Worked** related list on the Work Order Task form displays the Time W
 
 3.  To view a record, click the **Category**.
 
-
-**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

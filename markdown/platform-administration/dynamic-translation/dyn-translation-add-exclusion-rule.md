@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exclusion Framework in Dynamic Translation, Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -52,15 +52,15 @@ Exclusion rules must be unique within a domain. An attempted duplicate submissio
 
 3.  On the **Add Row** form, configure the fields according to the following guidance.
 
-<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d323862e188">
+<table id="choicetable_kb3_lpm_ddc"><thead><tr><th align="left" id="d349771e188">
 
 Rule type
 
-</th><th align="left" id="d323862e191">
+</th><th align="left" id="d349771e191">
 
 Fields
 
-</th></tr></thead><tbody><tr><td id="d323862e197">
+</th></tr></thead><tbody><tr><td id="d349771e197">
 
 **Exact Match**
 
@@ -71,7 +71,7 @@ Fields
 -   **Order**: Optional. See the previous explanation.
 
 
-</td></tr><tr><td id="d323862e223">
+</td></tr><tr><td id="d349771e223">
 
 **Pattern Match**
 
@@ -97,6 +97,8 @@ For exact match rules, you can modify the case sensitivity in its Exclusion Rule
 
 -   Select the **Ignore Case** check box to enable case insensitive matching \(for example, the entry "hello" would match "Hello", "hEllo", "helLo" and so forth.\)
 -   Clear the **Ignore Case** check box to match the entry exactly as it appears in the table, including its casing.
+
+From the Zurich release, you can manually test your pattern. For more information see [Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md).
 
 **Parent Topic:**[Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md)
 

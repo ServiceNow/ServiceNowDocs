@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ Users with the admin or idr\_admin role can access the dashboard.
 Access the IDR Monitoring dashboard in the following way:
 
 -   Navigate to **Instance Data Replication** &gt; **Monitoring Dashboard**.
--   Choose either: **IDR Overall Monitoring** or **IDR License and Usage Details** dashboard.
+-   Choose one of the following: **IDR Overall Monitoring**, **IDR License and Usage SMv2**, or **Scheduled Replication** dashboard.
 
 ## IDR Overall Monitoring dashboard
 
@@ -47,7 +47,7 @@ The IDR Overall Monitoring dashboard monitors the following:
     |Replication Queue Reading Lag|Time between a record change on the producer instance and the moment that it’s sent over the outbound replication queue|
     |Status|Status of a replication set, either active or in error|
     |Status Message|Message that describes the error status|
-    |Message Queue Version|Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)|
+    |Message Queue Version|Version of the Message Queue. Default is V2 \(Hermes\).|
 
 -   **Active Consumer Replication Sets**
 
@@ -60,7 +60,7 @@ The IDR Overall Monitoring dashboard monitors the following:
     |Network Lag|Time between a record change log in the outbound replication queue and the moment that it’s recorded in the consumer instance.|
     |Status|Status of a replication set, either active or in error.|
     |Status Message|Message that describes the error status.|
-    |Message Queue Version|Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)|
+    |Message Queue Version|Version of the Message Queue. Default is V2 \(Hermes\).|
 
 -   **Suite of IDR Scheduled Jobs**
 
@@ -128,9 +128,9 @@ The IDR Overall Monitoring dashboard monitors the following:
     **Note:** You can set the colors on the fields through the personalize list columns \(v\_idr\_dashboard\_list.do\).
 
 
-## IDR License and Usage Details dashboard
+## IDR License and Usage SMv2 dashboard
 
-The IDR License and Usage Details dashboard monitors the following:
+The IDR License and Usage SMv2 dashboard monitors the following:
 
 -   Subscriber Sent Messages
 -   Subscriber Received Messages
@@ -178,6 +178,42 @@ The IDR License and Usage Details dashboard monitors the following:
     \[Omitted image "message-received.png"\] Alt text: IDR messages received.
 
 
+## Scheduled Replication dashboard
+
+Monitor the status of scheduled replication requests within a specific time period. For example, you might track the count of failures for a specific scheduled replication set, or compare the number of scheduled requests to the number of completed requests. You can view the following scheduled replication details:
+
+-   Scheduled Sets
+-   Scheduled Requests
+-   Completed
+-   Failed
+-   Overall Request Status
+-   Replication Set Status Overview
+
+-   **Scheduled Sets**
+
+    The total count of scheduled replication sets created in the selected date range.
+
+-   **Scheduled Requests**
+
+    The total count of scheduled request runs queued in the selected date range.
+
+-   **Completed**
+
+    The total count of scheduled request runs that completed in the selected date range.
+
+-   **Failed**
+
+    The total count of scheduled request runs that failed to complete or encountered an error in the selected date range.
+
+-   **Overall Request Status**
+
+    A donut chart showing status distribution for scheduled requests in the selected date range.
+
+-   **Replication Set Status Overview**
+
+    A table showing the count for each status in the selected date range.
+
+
 **Parent Topic:**[Administering Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/administering-instance-data-replication.md)
 
 **Related topics**  
@@ -189,7 +225,7 @@ The IDR License and Usage Details dashboard monitors the following:
 
 [Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning with Instance Data Replication]()
+[Cloning options with Instance Data Replication]()
 
 [Monitoring queues in Instance Data Replication]()
 

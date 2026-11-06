@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-data-cert-run-certification.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data certification in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run certification for a policy
@@ -16,7 +16,9 @@ Run certification for published policies to generate a new certification instanc
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst, com.snc\_apm\_analyst
+\[Omitted video\] Description: Run certification for a policy in Enterprise Architecture Workspace
+
+Role required: sn\_apm.apm\_analyst
 
 ## Procedure
 
@@ -39,7 +41,7 @@ Role required: System admin, cmdb admin + analyst, com.snc\_apm\_analyst
 6.  Select the Track progress link or select the Track progress tab to see the status.
 
 
-**Parent Topic:**[Data certification in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-explore-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-data-cert.md)
 
 **Related topics**  
 

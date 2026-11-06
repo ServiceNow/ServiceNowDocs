@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Track progress of stories for a sprint in Agile Development 2.0
@@ -54,8 +54,6 @@ You can move the story cards into different lanes or add new stories for the tea
 
         You can also change the order of the lane display by reordering them in the Lane configuration section.
 
-        \[Omitted image "agile-hide-lanes.gif"\] Alt text: Hide or show lanes in Sprint tracking board.
-
     4.  Select a different color to change the board theme.
 
 7.  Add a story to a specific lane.
@@ -67,5 +65,5 @@ You can move the story cards into different lanes or add new stories for the tea
         For field information, see [Create a story in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/create-a-story.md).
 
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
 

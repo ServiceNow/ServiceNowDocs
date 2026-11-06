@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Oracle Cloud Infrastructure alarms
@@ -19,14 +19,16 @@ Integrate Oracle Cloud Infrastructure \(OCI\) alarms with Event Management to se
 ## Before you begin
 
 -   Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
--   Oracle Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Oracle Cloud Infrastructure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/oracle-cloud-infrastructure-discovery.md).
+-   Oracle Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Oracle Cloud Infrastructure Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/oracle-cloud-infrastructure-discovery.md).
 -   Role required: evt\_mgmt\_integration
 
 ## About this task
 
 The Oracle Cloud Notifications service enables you to set up communication channels for publishing messages using topics and subscriptions. When a message is published to a topic, the Notifications service sends the message to all of the topic's subscriptions.
 
-When an Oracle Management Cloud alert is raised, becomes severe, or clears, you may want to be actively notified through an https custom URL to the ServiceNow instance. The Oracle Cloud connector creates events in ServiceNow®.
+When an Oracle Management Cloud alert is raised, becomes severe, or clears, you may want to be actively notified through an https custom URL to the ServiceNow instance.
+
+The Oracle Cloud connector creates events in ServiceNow®.
 
 You can configure the Event Management environment for the collection of alarms from Oracle Cloud by setting your ServiceNow AI Platform instance as the https subscription.
 

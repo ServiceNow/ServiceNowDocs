@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage information objects, Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy.admin
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  In the Privacy Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List icon.\).
+2.  In the Privacy Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Privacy elements** &gt; **AllInformation objects**.
 

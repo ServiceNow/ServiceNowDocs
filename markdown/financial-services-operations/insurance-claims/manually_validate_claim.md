@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Process a commercial claim
@@ -28,15 +28,15 @@ Update and close the tasks of the claim case.
 
 2.  Open the claim case and task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d98705e72">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d118701e76">
 
 Option
 
-</th><th align="left" id="d98705e75">
+</th><th align="left" id="d118701e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d98705e81">
+</th></tr></thead><tbody><tr><td id="d118701e85">
 
 **From the landing page**
 
@@ -44,13 +44,13 @@ Steps
 
 Select an active case from the My pending tasks or My open claims list.
 
-</td></tr><tr><td id="d98705e90">
+</td></tr><tr><td id="d118701e94">
 
 **From the case playbook**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, under **Commercial auto claim cases**, open the case list.
 3.  In the list, select the case that contains the task.
 4.  If the claim case is in New status or not assigned to you, select **Accept** to be able to work on it.
@@ -61,26 +61,26 @@ Select an active case from the My pending tasks or My open claims list.
     -   **Fulfillment**
 
 
-</td></tr><tr><td id="d98705e153">
+</td></tr><tr><td id="d118701e157">
 
 **From a commercial auto claim case**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, under **Commercial auto claim cases**, select **Assigned to me**.
 3.  In the list, select the case that you want to open.
 4.  If the claim case is in New status, select **Accept** to be able to work on it.
 5.  In the case, select the **Tasks** tab and select the claim task.
 
 
-</td></tr><tr><td id="d98705e201">
+</td></tr><tr><td id="d118701e205">
 
 **From the Commercial auto claim tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, under **Commercial auto claim tasks**, select **All**.
 3.  In the list, select the task that you want to open.
 
@@ -101,15 +101,15 @@ Select an active case from the My pending tasks or My open claims list.
 
 5.  Close the task from the playbook activity or the task form.
 
-<table id="choicetable_snm_pcf_25b"><thead><tr><th align="left" id="d98705e285">
+<table id="choicetable_snm_pcf_25b"><thead><tr><th align="left" id="d118701e289">
 
 Claim task
 
-</th><th align="left" id="d98705e288">
+</th><th align="left" id="d118701e292">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d98705e294">
+</th></tr></thead><tbody><tr><td id="d118701e298">
 
 **To submit incident details**
 
@@ -117,7 +117,7 @@ Action
 
 In the case playbook, select **Mark complete**.
 
-</td></tr><tr><td id="d98705e306">
+</td></tr><tr><td id="d118701e310">
 
 **To validate a claim**
 
@@ -125,7 +125,7 @@ In the case playbook, select **Mark complete**.
 
 A claim validation task is created when a business rule determines a duplicate claim due to the same insurance policy and loss date.To validate a claim: In the task form, select **Approve** to validate the claim or **Reject** to deny and close the claim.
 
-</td></tr><tr><td id="d98705e324">
+</td></tr><tr><td id="d118701e328">
 
 **To add claim property, participant, or coverage information**
 
@@ -133,7 +133,7 @@ A claim validation task is created when a business rule determines a duplicate c
 
 In the case playbook, select **Save**.
 
-</td></tr><tr><td id="d98705e336">
+</td></tr><tr><td id="d118701e340">
 
 **To initiate a claim**
 
@@ -141,7 +141,7 @@ In the case playbook, select **Save**.
 
 In the case playbook, select **Submit**.
 
-</td></tr><tr><td id="d98705e349">
+</td></tr><tr><td id="d118701e353">
 
 **To close a claim**
 

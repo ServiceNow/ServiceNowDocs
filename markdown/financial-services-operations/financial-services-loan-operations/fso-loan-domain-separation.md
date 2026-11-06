@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Financial Services Loan Operations, Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Domain separation and Financial Services Loan Operations
@@ -30,9 +30,9 @@ For more information on support levels, see [Application support for domain sepa
 
 ## How domain separation works in Financial Services Loan Operations
 
--   All Financial Service Loan Operations applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables, such as Consumer, Account, and Contact. These tables are domain-separated.
+All Financial Service Loan Operations applications are built on top of Customer Service Management \(CSM\) and use many CSM tables. The key reference tables are the customer tables, such as Consumer, Account, and Contact. These tables are domain-separated.
 
-**Parent Topic:**[Setting up Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/setting-up-fso-loan-ops.md)
+**Parent Topic:**[Financial Services Loan Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/loan-operations-reference.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring scenario planning in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configuring scenario planning in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Configure financial widgets in compare scenario
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Project Administration** &gt; **Widgets**.
 
-2.  From the Widgets list, filter the short description with **Compare scenario** to view the existing list.
+2.  In the Widgets list, filter the Short description with **Compare scenario** to view the existing list.
 
     By default, there are five financial widgets enabled to compare the financial performance of scenarios.
 
@@ -32,25 +32,25 @@ Role required: admin
 
 3.  Edit an existing widget or create a widget to use it in scenario planning.
 
-<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d218428e107">
+<table id="choicetable_rl1_scr_dfc"><thead><tr><th align="left" id="d281291e96">
 
 Choice
 
-</th><th align="left" id="d218428e110">
+</th><th align="left" id="d281291e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d218428e116">
+</th></tr></thead><tbody><tr><td id="d281291e105">
 
 **Edit an existing widget**
 
 </td><td>
 
 1.  Select a record from the list.
-2.  Edit the **Script** field to customize and fetch the required financial information into the widget.
+2.  Edit the **Script** field to customize and fetch required financial information into the widget.
 
 
-</td></tr><tr><td id="d218428e144">
+</td></tr><tr><td id="d281291e126">
 
 **Create a widget**
 

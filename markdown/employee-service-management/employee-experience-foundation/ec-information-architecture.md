@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Advanced Portal Navigation, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # EC Information architecture
@@ -18,7 +18,7 @@ You can now use the out-of-the-box enhanced information architecture for improvi
 
 Using the advanced portal navigation, you can design the primary navigation menu and configure the navigation setup based on employee needs and content priorities. Organize your content into menus or modal windows.
 
-\[Omitted image "ec-ic-architecture-megamenu.png"\] Alt text: Standard and expanded layouts
+
 
 This image is for illustration purpose only for the out-of-the-box \(OOTB\) mega menu.
 
@@ -32,6 +32,7 @@ This image is for illustration purpose only for the out-of-the-box \(OOTB\) mega
 
 Use some of the following guidance and tips.
 
+-   Side navigation is ideal for organizations prioritizing simplicity, focus, and a modern, app-like experience; top navigation remains the better choice when depth, complexity, or broader topic visibility is needed.
 -   For **Standard view**, you can have a maximum of three levels.
 -   For **Expanded view**, you can have a maximum of four levels \(one menu item in the hierarchy and topics up to three levels\). In this example, `Help center > Technology Resources > Hardware > Computers`, you have
     -   One navigation menu item `Help center` and

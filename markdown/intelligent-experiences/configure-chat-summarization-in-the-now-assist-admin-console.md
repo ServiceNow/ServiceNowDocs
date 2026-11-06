@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-chat-summarization-in-the-now-assist-admin-console.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Configure, chat, summarization, Now Assist Admin, console, technology, trigger, skill, input]
-breadcrumb: [Activate a Now Assist skill, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Activate an AI skill, Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure chat summarization and chat reply recommendation skills in the AI Admin Hub console
@@ -21,25 +21,25 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Features**.
 
-    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Features** tab.
 
 2.  On the navigation panel, select a workflow that has chat recommendation, either **Technology** or **Customer**.
 
-    Each workflow contains skill sets.
+    Each workflow contains feature sets.
 
-3.  Toggle between the list and grid layout for optimum view experience.
+3.  On the Chat feature card, select **View details**.
 
-    **Note:** The skill details are presented at the forefront of the interface, enabling you to view all the details without needing to click or navigate away.
-
-4.  Select **Activate skill**.
+4.  In the All available Chat skills section of the chat recommendation card, select **Activate Skill**.
 
 5.  Go to **Define Trigger**, the first step in the guided setup.
 
     By default, many of the options in the setup are configured for the most common use cases. You might need to select the step in the guided setup navigation to go back and change the configurations in previous steps. You can also use **Back** to navigate through the steps.
 
 6.  Using the toggles, select the actions trigger the chat recommendation skill.
+
+
 
     \[Omitted image "na-chat-summarization-trigger.png"\] Alt text: Triggers selected for Now Assist chat recommendation.
 
@@ -96,5 +96,5 @@ Chat recommendation or reply recommendation for the workflow is active on the in
 
 Analyze your skill performance and usage on the AI Admin Hub console to help determine the success of the skill. Learn more about tracking your Now Assist usage at [Monitoring Now Assist usage in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md).
 
-**Parent Topic:**[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)
+**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)
 

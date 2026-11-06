@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating business calendars, Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Pair business calendars with packages
@@ -33,16 +33,16 @@ A package is an application, or generic set of functions, such as HR Service Del
 
 1.  Navigate to **All** &gt; **Business Calendar** &gt; **Calendars for Package**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Calendar|Name of the business calendar that you want to associate with a ServiceNow AI Platform package. Click \[Omitted image "SearchIcon.png"\] Alt text: Search button to access Business Calendars where you can search for an existing business calendar. If there is no existing calendar, you can create a new one.|
-    |Package|Name of the ServiceNow AI Platform package that you want to associate with the selected business calendar. Click \[Omitted image "SearchIcon.png"\] Alt text: Search button to access Packages where you can search for an existing package. If there is no existing package, you can create a new one.|
+    |Calendar|Name of the business calendar that you want to associate with a ServiceNow AI Platform package. Select \[Omitted image "SearchIcon.png"\] Alt text: Search button to access Business Calendars where you can search for an existing business calendar. If there is no existing calendar, you can create a new one.|
+    |Package|Name of the ServiceNow AI Platform package that you want to associate with the selected business calendar. Select \[Omitted image "SearchIcon.png"\] Alt text: Search button to access Packages where you can search for an existing package. If there is no existing package, you can create a new one.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Result

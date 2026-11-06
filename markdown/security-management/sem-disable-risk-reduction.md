@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-disable-risk-reduction.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add a compensating control to the library, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -39,8 +39,6 @@ The risk reduction for a CVE and TPE is enabled by default.
 3.  To enable the risk reduction requests for host vulnerable items, select **Enable risk reduction**.
 
 
-**Parent Topic:**[Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-create-compensatory-control.md)
-
 **Related topics**  
 
 
@@ -48,7 +46,7 @@ The risk reduction for a CVE and TPE is enabled by default.
 
 [Add a compensating control to the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-manager-workspace/create-compensatory-control.md)
 
-[Associate compensating controls with CVEs or TPEs for risk reduction requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-manager-workspace/associate-controls-cve-risk-reduction.md)
+[associate-controls-cve-risk-reduction]
 
 [Impact of the compensating controls on risk score and expiration date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-manager-workspace/requesting-approving-risk-reduction.md)
 

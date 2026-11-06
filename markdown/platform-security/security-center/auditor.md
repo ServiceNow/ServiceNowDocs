@@ -7,24 +7,14 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Scan suites, Security scanner, Security configuration console, Security Center, Platform Security]
 ---
 
 # Auditor checks
 
 Use the Auditor suite to SecureCheck to detect misconfiguration that can impact the security posture of your instance.
-
-The Auditor suite is provided as an update set. You can use this suite within [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sec-center-v2.md). Confirm that Security Center is activated on your instance if you’re using Utah or earlier.
-
-## Import the update set
-
-Administrators can download the update set from support.servicenow.com using this link: [https://support.servicenow.com/sys\_attachment.do?sys\_id=821e1e724732969077748d01426d4393](https://support.servicenow.com/sys_attachment.do?sys_id=821e1e724732969077748d01426d4393).
-
-Commit the update set using the steps detailed in [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/t_CommitAnUpdateSet.md).
-
-Once the update set has been committed, you can access the Auditor suite at **All** &gt; **Security Center** &gt; **Scanner** &gt; **Suites**.
 
 ## Check information
 

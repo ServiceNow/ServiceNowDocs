@@ -1,20 +1,20 @@
 ---
 title: Configure an automatic response for a question
-description: Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
+description: Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, code and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automate response, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Configure an automatic response for a question
 
-Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
+Set up automatic responses for assessment questions using either static responses or script-based responses based on specific conditions. You can configure default responses for text, drop-down list, radio button, check box, date, code and number question types. This feature helps save assessors time and effort by reducing the number of questions that require answers.
 
 ## Before you begin
 
@@ -22,7 +22,10 @@ The Advanced Response Automation for Smart assessment plugin \(com.sn\_smart\_re
 
 **Note:** If you have the assessment admin or template manager role, you can configure a default or conditional default response for a question. To create scripts, you need the developer role in addition to the assessment admin or template manager role.
 
-Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager and sn\_smart\_asmt.developer
+Role required:
+
+-   To configure default or conditional responses: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager
+-   To create scripted responses: one of the earlier roles plus sn\_smart\_asmt.developer
 
 ## Procedure
 
@@ -34,11 +37,11 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 3.  Select a question for which you want to configure an automatic response.
 
-4.  Select the \[Omitted image "ellipsis-vertical-fill-24.svg"\] Alt text: ellipsis icon. **Configuration options**, then select **Automated response**.
+4.  Select the **Configuration options**\[Omitted image "more-actions.png"\] Alt text: and then select **Automated response**.
 
 5.  In the **Default response is** field of the **Automated response** pop-up window, select a default response for the question based on the question type or create a script.
 
-    1.  Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.jpg"\] Alt text: script icon.
+    1.  Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
 
     2.  Update the `result.value = <null>` with the required input.
 
@@ -56,9 +59,9 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
     -   The first condition that meets the criteria triggers the default response. Priority is determined by the order of the conditions. For instance, if you have three conditions and the first one is true, the system doesn't check the remaining two.
 9.  In the **Default response is** field in the **If nothing matches** section, set the default response for situations where none of the condition sets meet the set criteria.
 
-    \[Omitted image "automate-response-add-condition.jpg"\] Alt text: Screen of the Automate response pop-up window, which shows the If section, Then section, and If nothing matches section.
+    \[Omitted image "automate-response-add-condition.png"\] Alt text: Screen of the Automate response pop-up window, which shows theIf section, Then section, and If nothing matches section.
 
-10. Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.jpg"\].
+10. Create a script for a dynamic response by selecting the script icon \[Omitted image "script-icon.png"\] Alt text:.
 
 11. Update the **result.value** field with the required input.
 
@@ -66,7 +69,8 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 12. Under **Additional options**, select the **Set response as editable** option.
 
-    -   Selecting the **Set response as editable** option enables the assessors to edit the response. If cleared, the response becomes read-only.
+    -   When enabled the assessor can edit the automated response. Automation conditions are evaluated when the assessment is created and re-evaluated when dependent questions change. If the assessor manually modifies the response, their entry is preserved and the automated value no longer overwrites it.
+    -   When disabled the response is set to read-only. Automation conditions are evaluated when the assessment is created and re-evaluated every time a dependent question changes. The re-evaluated automated value always overwrites the current response.
     -   For a question to be marked as required, the **Set response as editable** option must be selected. If **Set response as editable** is cleared, the **Required** option is automatically turned off.
 13. Select **Save**.
 

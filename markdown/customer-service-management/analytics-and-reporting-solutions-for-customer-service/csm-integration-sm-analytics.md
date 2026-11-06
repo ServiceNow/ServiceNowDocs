@@ -7,9 +7,9 @@ release: yokohama
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting for Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
 ---
 
 # Customer Service Management integration with Service Management analytics

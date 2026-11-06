@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-insights.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Viewing insights of your portfolio
@@ -21,7 +21,7 @@ You can see the details such as the following:
 -   Software products that are facing high and moderate technology risks
 -   Pending certification instances that are open and not 100% complete
 
-The last refreshed time shows when the results were refreshed in your browser. You can manually refresh the results by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\). You can navigate to the full list by selecting the **View list** button. You can see the details of a record by selecting it.
+The last refreshed time shows when the results were refreshed in your browser. You can manually refresh the results by using the refresh icon \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\). You can navigate to the full list in the Application Rationalization by selecting the **View list** button. You can see the details of a record by selecting it.
 
 \[Omitted image "insights-section.png"\] Alt text: Insights view
 
@@ -34,7 +34,7 @@ The last refreshed time shows when the results were refreshed in your browser. Y
     -   **Candidate business applications for migration**: Displays the number of business applications that are fit for migration, based on their indicator scores.
     -   **Candidate business applications for investment**: Displays the number of business applications that are fit for further investment, based on their indicator scores.
     -   **Business applications w/o cost data**: Displays the number of business applications that lack any cost data associated with them.
-    **Note:** To learn about application indicator scores, see [Configure indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md).
+    **Note:** To learn about application indicator scores, see [Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md).
 
 -   **Business Portfolio**
 
@@ -170,5 +170,5 @@ The link to the TPM technology lifecycles of the hardware model or software prod
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
 

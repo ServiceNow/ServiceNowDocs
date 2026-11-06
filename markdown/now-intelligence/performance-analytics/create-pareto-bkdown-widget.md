@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Breakdown widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,13 +18,13 @@ To identify the most important breakdown elements when the breakdown has a large
 
 ## Before you begin
 
-Role required: pa\_power\_user or admin
+Role required: pa\_admin or admin
 
 ## About this task
 
 **Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
-This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
+This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
 Pareto visualizations contain both bar and line graphs. The bars display the data in descending order from left to right, and the line graph shows the cumulative totals from each category in the same order. The left Y axis is the record count, and the right Y axis is the cumulative percentage of the total number of records evaluated. The data to the left of the intersection of the line graph and the 80% mark have the greatest effect on the overall outcome.
 

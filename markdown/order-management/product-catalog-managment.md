@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/product-catalog-managment.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-12"
-reading_time_minutes: 4
-breadcrumb: [Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Lead-to-cash foundation, Explore, Sales Customer Relationship Management]
 ---
 
 # Product Catalog Management
@@ -16,7 +16,7 @@ Product Catalog Management enables your organization to manage your product offe
 
 Product Catalog Management provides various features to implement product catalogs and categories in your organization.
 
--   Product catalog user interface: Launch from anywhere in opportunity, quote, and order capture workflows, enabling agents to browse and find products quickly with a full catalog search function.
+-   Product catalog user interface: Launch from anywhere in lead, opportunity, quote, and order capture workflows, enabling agents to browse and find products quickly with a full catalog search function.
 -   Catalog category hierarchy: Use hierarchical structures of catalogs and categories to organize products and services logically.
 -   Version control: Track changes made to product information over time, helping with transparency and auditability.
 -   Product offer eligibility: Filter your product catalogs, product offering categories, and product offerings so that agents sell customers only the products for which they’re eligible.
@@ -27,9 +27,12 @@ To learn more about setting up product offering catalogs, see [Configuring produ
 
 ## Product catalog UI
 
-The product offering catalog enables agents to do the following:
+In the product offering catalog, agents and customers can do the following:
 
 -   Browse and search product offerings by using keywords, descriptions, and industry codes​.
+
+    Product catalog admins or managers can also [configure AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-ai-search-prod-catalog.md) in the product catalog interface, enabling agents and customers to find relevant product offerings or service specifications by using semantic queries.
+
 -   Review product offers that are organized by catalog category hierarchy, which streamlines catalog navigation.
 
 \[Omitted image "som-catalog-ui.png"\] Alt text: Product catalog interface that shows the product catalog hierarchy, product tiles with images, and search option.
@@ -38,12 +41,18 @@ The product offering catalog enables agents to do the following:
 
 Product offering catalogs and categories offer a way to organize product offerings so that agents can easily find products to create orders.
 
--   Product Offering Catalog: Hierarchical product offering structures of categories and product offerings.
--   Product Offering Categories: Categories are a logical grouping of product offerings.
--   Product Offerings: Physical goods or non-tangible services that are configurable.
+-   Product offering catalog: Hierarchical product offering structures of categories and product offerings.
+-   Product offering categories: Categories are a logical grouping of product offerings.
+-   Product offerings: Physical goods or non-tangible services that are configurable.
 -   Characteristic and Characteristic options: Product options that are created based on customer preferences.​
 
-\[Omitted image "l2c-product-catalog-hierarchy-2.png"\] Alt text: Infographic shows how catalogs, categories, product offerings, product characteristics, and characteristic options are configured in Sales Customer Relationship Management
+\[Omitted image "l2c-product-catalog-hierarchy-2.svg"\] Alt text: Infographic shows how catalogs, categories, product offerings, product characteristics, and characteristic options are configured in Sales Customer Relationship Management
+
+## Product offering families
+
+A product family is a collection of product offerings that share similar or common features. You can use a product family to create a hierarchical classification of product offerings, like a category tree. A product family can have parent-child relationships, where each node in the family tree can have a parent, forming a multi-level hierarchy. With this structure, you can apply attributes, business rules, and product updates to a product family, rather than change products individually.
+
+After you create product families, you can assign a product family to a product offering. To learn more, see [Create a product offering family](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-product-offering-family.md).
 
 ## Product offer bundling
 
@@ -59,4 +68,8 @@ In Sales Customer Relationship Management, different types of product recommenda
 
 -   Product recommendations using needs analysis - When your sales agents are generating leads and opportunities, they can use product selection guides to help determine relevant products for their customers. For information on setting up needs analysis, including the product selection guides, see [Configuring needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-needs-analysis.md). For details on how your agents can get product recommendations for leads and opportunities, see [Get product recommendations for leads using needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-needs-analysis.md) and [Get product recommendations for opportunities using needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opp-mgmt-use-needs-analysis.md).
 -   Product offering recommendations for quotes - When your sales agents are updating quotes, they can get product recommendations for upselling or cross-selling additional products for existing quote line items. For information on setting up these recommendations, see [Configuring product offering recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-offer-recommendations.md). For details on how product offering recommendations work in quotes, see [Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-prod-recommendations-quote.md).
+
+## What to explore next
+
+[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-managing-product-catalogs.md)
 

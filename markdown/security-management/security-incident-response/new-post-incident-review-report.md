@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manage post incident activities, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,17 +34,17 @@ This section describes the configuration procedure:
 
 ## Report Templates
 
-Use  the  Report  Templates  section to create primary and additional report templates that are applied  to  the security incidents  to  generate  the  Post Incident Review  report. You can format  and  configure  the report based on your requirements. The templates also helps you to include the assessment details in the template.
+Use  the  Report  Templates  section to create primary and additional report templates that are applied  to  the security incidents  to  generate  the  Post Incident Review  report. You can format  and  configure  the report based on your requirements. The templates also help you to include the assessment details in the template.
 
-Following are a few optional steps that can be performed while building the template:
+The following are a few optional steps that can be performed while building the template:
 
 1.  Configuring the branding information.
 2.  Setting up the page size and page margin.
-3.  Adding any security incident related fields \(both custom and standard\).
+3.  Adding any security incident-related fields \(both custom and standard\).
 4.  Using the following predefined custom tokens:  
-    1.  **$sessionUser**: returns  the logged in username
-    2.  **$date**:  returns  the current date
-    3.  **$if\_not\_null\_start &amp; $if\_not\_null\_end**: if these tags are used against any fields then the tags are displayed only if the value exists.  For example:  
+    1.  **$sessionUser**: Returns  the logged in username
+    2.  **$date**:  Returns  the current date
+    3.  **$if\_not\_null\_start &amp; $if\_not\_null\_end**: If these tags are used against any fields, then the tags are displayed only if the value exists.  For example:  
         -   **$\{if\_not\_null\_start:problem\}**
         -   **Problem Category: $\{problem.category\}**
         -   **$\{if\_not\_null\_end:problem\}**

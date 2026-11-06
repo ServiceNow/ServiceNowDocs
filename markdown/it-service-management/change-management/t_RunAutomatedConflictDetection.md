@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Automate conflict detection to run at specific intervals or when a change reques
 
 ## Before you begin
 
-Prior to running conflict detection, consider the following scenarios unique to your organization.
+Prior to running conflict detection, consider the following scenarios:
 
 -   **CMDB list size and relationship complexities**
 
@@ -30,7 +30,7 @@ Prior to running conflict detection, consider the following scenarios unique to 
 
 -   **Advanced mode conflict checking is disabled by default**
 
-    When you upgrade the application, advanced mode conflict checking is disabled by default and affected CIs are not considered during conflict detection. To evaluate all the CIs, set the mode to **Advanced**.
+    When you upgrade the application, advanced mode conflict checking is disabled by default and affected CIs are not considered during conflict detection. To evaluate all CIs, set the mode to **Advanced**.
 
 
 Role required: change\_manager or admin
@@ -41,7 +41,7 @@ Role required: change\_manager or admin
 
 2.  Select one of the following options.
 
-<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d73307e115">
+<table id="choicetable_kz3_j3d_3t"><tbody><tr><td id="d94621e112">
 
 **Run conflict detection automatically after changes to Configuration item, Planned start date, Planned end date, or State when a change request is updated**
 
@@ -53,7 +53,7 @@ When selected, runs conflict detection automatically when a change to one or mor
 -   **State**
 
 
-</td></tr><tr><td id="d73307e143">
+</td></tr><tr><td id="d94621e140">
 
 **Enable the scheduled change conflict checker**
 
@@ -66,7 +66,7 @@ When selected, runs the following conflict detection scheduled jobs at these int
  **Change Conflict Detection &gt;=1 Month Away** is scheduled every seven days.
 
 </td></tr></tbody>
-</table>3.  Click **Save**.
+</table>3.  Select **Save**.
 
     You can view the conflicts on the **Conflicts** tab on the change request record.
 
@@ -76,9 +76,11 @@ When selected, runs the following conflict detection scheduled jobs at these int
 **Related topics**  
 
 
-[Configure conflict analysis properties]()
+[Detect change conflicts]()
 
 [Create blackout and maintenance schedules in Change Management]()
+
+[Schedule types in conflict detection]()
 
 [Configure a change request to monitor outside maintenance schedule conflicts]()
 

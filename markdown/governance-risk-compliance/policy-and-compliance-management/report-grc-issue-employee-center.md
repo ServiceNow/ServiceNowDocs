@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage GRC tasks from Employee Center, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Report a GRC issue from Employee Center
@@ -18,7 +18,7 @@ Use the employee portal to review and work on the action plan related to the obs
 
 ## Before you begin
 
-Role required: sn\_grc.business\_user, sn\_grc.business\_user\_lite
+Role required: sn\_grc.business\_user
 
 **Note:** If you have installed GRC: Advanced Core, then by default the value of the **sn\_grc\_advanced.enable\_my\_issues\_hide\_my\_reported\_issues** system property is also set to **true**. These two conditions must be fulfilled to view the Issue triage form in Employee Center. Otherwise, you can view only the Issue form.
 
@@ -189,7 +189,5 @@ Analysis of the root cause of the issue.
 11. Enter your information in the **Comments** field of the Send additional information pop-up.
 
 12. Click the **Send** button.
-
-    \[Omitted image "IssueTriageActivityEmpCenter.png"\] Alt text: List view of issue triage page.
 
 

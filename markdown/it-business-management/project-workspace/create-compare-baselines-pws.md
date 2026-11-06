@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +16,13 @@ breadcrumb: [Manage financials, Project Workspace, Project Portfolio Management,
 
 Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs with the actual expenses.
 
+## About this task
+
+This video is recorded using Strategic Planning view. Navigation for Project Workspace might differ but the functionality remains the same.\[Omitted video\] Description: Create and compare financial baselines
+
 ## Before you begin
+
+For more information regarding financial baselines and how the comparison works, see [financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/using-financials-prj-wrkspc.md).
 
 Role required: it\_project\_manager
 
@@ -28,15 +34,15 @@ Role required: it\_project\_manager
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d194726e77">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d249535e127">
 
 Option
 
-</th><th align="left" id="d194726e80">
+</th><th align="left" id="d249535e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d194726e86">
+</th></tr></thead><tbody><tr><td id="d249535e136">
 
 **Create a baseline**
 
@@ -53,7 +59,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
  **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d194726e137">
+</td></tr><tr><td id="d249535e187">
 
 **Compare baselines**
 

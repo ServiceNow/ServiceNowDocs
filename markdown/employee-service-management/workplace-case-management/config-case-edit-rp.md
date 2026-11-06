@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-09-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -82,7 +82,7 @@ After making their changes, users can save the updated case, which makes the fol
     -   For both item and space selection in the request, use the `Workplace Service widget Variable set`.
     -   For only space selection, use the `Multilevel space picker widget variable set`.
 
-**Parent Topic:**[Configure Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
@@ -92,6 +92,10 @@ After making their changes, users can save the updated case, which makes the fol
 [Create a Workplace case template]()
 
 [Create a Workplace task template]()
+
+[Smart Assessment for Workplace Case and Task]()
+
+[Automating seat assignment for new hires]()
 
 [Configure Approval options]()
 

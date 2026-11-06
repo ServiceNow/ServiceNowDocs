@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring MID-less Agent Client Collector, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Configuring MID-less ACC, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure MID-less Agent Client Collector using a single-line command

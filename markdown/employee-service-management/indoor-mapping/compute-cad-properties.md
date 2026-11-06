@@ -7,7 +7,7 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -96,7 +96,7 @@ The default value is **global**.
 
 5.  Select to open a place.
 
-    The Places panel opens in the edit mode. Notice that the **Autocad properties** field is available. For more information, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/manage-buildings.md).
+    The Places panel opens in the edit mode. Notice that **Autocad properties** field is available. For more information, see [Manage places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/manage-buildings.md).
 
 6.  Make sure to synchronize your campus after adding a CAD property.
 

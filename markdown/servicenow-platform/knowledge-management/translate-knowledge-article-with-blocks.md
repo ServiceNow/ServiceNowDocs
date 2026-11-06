@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,6 +34,8 @@ Role required: translator
 
     The newly translated blocks appears in the **Translated Block Versions** related list.
 
+
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-translation-management.md)
 
 **Related topics**  
 

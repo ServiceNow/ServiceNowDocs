@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-automating-prioritization-triaging.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -35,7 +35,7 @@ Auto-delete rules automatically remove findings from the system based on predefi
 -   **[Controlling the ingestion volume with automatic exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-controlling-ingestion-volume-automatic-exclusion.md)**  
 Exclusion rules provide a way to filter or exclude detections from getting converted into VITs during the ingestion process in Vulnerability Response.
 -   **[Severity mapping for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-severity-mapping.md)**  
-Severity mapping is a critical feature that enables organizations to standardize and normalize the severity levels of findings detected across different sources. This process involves mapping the severity levels from various scanners and sources to a common severity scale used within Unified Security Exposure Management.
+Severity mapping standardizes and normalizes the severity levels of findings detected across different sources. This process involves mapping the severity levels from various scanners and sources to a common severity scale used within Unified Security Exposure Management.
 -   **[Creating CIs using the Identification and Reconciliation engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-ci-creation-using-IRE.md)**  
 You can create configuration items \(CIs\) in the Configuration Management Database \(CMDB\) using the Identification and Reconciliation engine \(IRE\) API. By using the IRE API to create CIs, you can prevent duplicate CIs from being created and you can reconcile CI attributes by allowing only authoritative data sources to write to CMDB.
 

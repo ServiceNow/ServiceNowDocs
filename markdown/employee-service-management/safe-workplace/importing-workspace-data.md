@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Providing your workplace data, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Providing your workplace data, Workplace Core, Safe Workplace, Heal
 
 Doing a bulk import of the data of all your workspaces into the Workplace Core application through a spreadsheet enables you to avoid manually entering redundant data for each workspace, which saves time and effort.
 
-By using a spreadsheet that contains the global information for your work sites, you can enter only the distinguishing space information instead of having to manually repeat information such as the region, site, building, and floor. You can either create an Excel spreadsheet from the data you've entered into the Workplace Core application or modify an existing workplaces spreadsheet.
+By using a spreadsheet that contains the global information for your work sites, you can enter only the distinguishing space information instead of manually repeating information such as region, site, building, and floor. You can either create an Excel spreadsheet from the data already entered into the Workplace Core application or modify an existing workplace spreadsheet.
 
 **Parent Topic:**[Providing your workplace data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/providing-your-workplace-data.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Structural overview of Policy and Compliance Management, Explore Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Structural overview, Explore, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # An overview of policy life cycle in Policy and Compliance Management
@@ -17,8 +17,6 @@ breadcrumb: [Structural overview of Policy and Compliance Management, Explore Po
 Policies ensure compliance and reduce exposure to risks. A policy can be of any type – it can be a policy, procedure, standard, plan, checklist, framework, or template. Publishing a policy is within its approval process.
 
 When you create a policy, it is in a Draft state, and all the required information about the policy are defined and captured in the record. The required information that you capture are the attributes that drive the process flow of the policy.
-
-\[Omitted image "process-flow-infograph-pol-comp.png"\] Alt text: Process flow diagram of Policy and Compliance Management.
 
 The life cycle of a policy record passes through different states. This is designed to understand where the record currently resides and to display its progress. Each state has a specific set of related activities before it moves to the next state. A policy may also move to the previous state, if required, which is configured and identified according to the current state.
 
@@ -28,7 +26,9 @@ The life cycle of a policy record passes through different states. This is desig
 
 -   **Review**
 
-    Only the policy reviewers can Update the policy in this state to ensure that it satisfies all regulatory requirements. They review the control objectives, its associated entities, controls, and citations, and add additional information, remove unnecessary mappings, or create new control objectives. The reviewer can move the policy Back to Draft state if the policy does not fulfil the requirements or if more details are needed. The reviewer can also Request Approval for the policy or Delete if no longer needed.
+    Only the policy reviewers can Update the policy in this state to ensure that it satisfies all regulatory requirements. They review the control objectives, its associated entities, controls, and citations, and add additional information, remove unnecessary mappings, or create new control objectives. The reviewer can move the policy Back to Draft state if the policy does not fulfill the requirements or if more details are needed.
+
+    Reviewers cannot request approval for a policy. However, the owner of the policy with sn\_compliance.user, which is the minimum required role, and users with compliance manager role can request approval for a policy.
 
 -   **Awaiting approval**
 

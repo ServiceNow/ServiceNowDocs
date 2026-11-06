@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Collaborate with other developers
@@ -149,7 +149,7 @@ Role required: admin, manage collaborator delegated development role, or invite 
 
     -   If the user has AES or delegated developer permissions and is new to the platform, the user is listed under the pending requests section and approval is required. After the request is approved, both the requester and the user receive an email indicating that the user has been added to the application. \[Omitted image "aes-approval-email-purple.png"\] Alt text: Collaboration approval email example
     -   If the user has AES or delegated developer permissions and is not new to the platform, the collaboration request is auto-approved. Both the requester and the user receive an email indicating that the user has been added to the application.
-    **Note:** If a valid controller has been configured on the instance from which the collaboration request originated, a collaboration request task is created on the controller instance. If the originating instance isn't configured on the controller, work notes are automatically added to the request record indicating that the instance must be configured before approval is granted. If the originating instance is the controller or a valid controller has not been configured, the collaboration request task is created on the requesting instance. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-controller-instance.md).
+    **Note:** If a valid controller has been configured on the instance from which the collaboration request originated, a collaboration request task is created on the controller instance. If the originating instance isn't configured on the controller, work notes are automatically added to the request record indicating that the instance must be configured before approval is granted. If the originating instance is the controller or a valid controller has not been configured, the collaboration request task is created on the requesting instance. For more information, see [Configure your controller instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/config-controller-instance.md).
 
 
 ## Change collaborator permissions

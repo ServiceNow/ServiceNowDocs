@@ -7,10 +7,10 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2026-02-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations advisor dashboard indicators, DF CIs missing name location managed by group, principal class data quality indicators, DF Duplicate CIs, CIs not updated indicators]
-breadcrumb: [Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Indicators used in the CMDB success advisor for Data Foundations dashboard

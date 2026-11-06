@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage tasks on the map, Execute a task from the agent map, Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing tasks, Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View work order task information
@@ -28,6 +28,4 @@ The following information is included in a summary pop-up window for a single ta
 -   Parts needed: the parts needed to perform the work.
 
 Click the task number link in the summary pop-up or in the summary pane to display the task in a record pop-up. Use the controls under **Related Links** to accept or reject a task and to update your work status by starting or completing a task.
-
-**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageTasksOnTheMap.md)
 

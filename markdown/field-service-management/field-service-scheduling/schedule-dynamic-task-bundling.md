@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic task bundling, Configuring Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dynamic Task Bundling, Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Schedule dynamic task bundling
@@ -18,7 +18,7 @@ Schedule dynamic bundling to run at a specified time with Field Service Task Bun
 
 ## Before you begin
 
-Role required: admin
+Role required: wm\_admin
 
 ## About this task
 

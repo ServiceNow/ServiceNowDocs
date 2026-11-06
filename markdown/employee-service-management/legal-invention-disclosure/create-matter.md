@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create a matter or add a Legal Invention Disclosure request to an existing matter
@@ -26,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 
 3.  Select the Legal Invention Disclosure request to open.
 
@@ -46,15 +46,15 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 7.  Create a matter from the request or add the request to an existing matter.
 
-<table id="choicetable_vlq_pts_lzb"><thead><tr><th align="left" id="d230388e167">
+<table id="choicetable_vlq_pts_lzb"><thead><tr><th align="left" id="d249010e167">
 
 Request search result
 
-</th><th align="left" id="d230388e170">
+</th><th align="left" id="d249010e170">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d230388e176">
+</th></tr></thead><tbody><tr><td id="d249010e176">
 
 **Request is original**
 
@@ -65,7 +65,7 @@ Actions
 3.  Select **OK**.
  **Note:** If the request contains multiple ideas in the **Describe the invention** field, consider creating a separate matter for each idea with a unique name and modify the field so that only one idea is in the field for each matter.
 
-</td></tr><tr><td id="d230388e209">
+</td></tr><tr><td id="d249010e209">
 
 **Similar request exists**
 

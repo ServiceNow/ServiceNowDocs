@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Employee Relations

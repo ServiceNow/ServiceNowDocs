@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Execute a task from the queue
@@ -66,10 +66,8 @@ Role required: wm\_agent or wm\_dispatcher
 
 The cumulative amount of time worked on the task is captured in the **Actual Work Duration** field. This total includes the time you started working on the task until you closed work on the task, excluding any time paused on the work.
 
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
-
 **Related topics**  
 
 
-[Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Configuring-cust-exp.md)
+[Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Customer-notification-work-order-tasks.md)
 

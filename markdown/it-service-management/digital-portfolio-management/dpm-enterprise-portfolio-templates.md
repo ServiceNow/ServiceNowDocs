@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enterprise portfolios, Work with portfolios in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Navigate service enterprise portfolio templates in DPM

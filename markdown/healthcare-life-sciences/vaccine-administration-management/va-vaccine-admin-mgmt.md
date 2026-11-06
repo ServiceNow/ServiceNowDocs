@@ -7,9 +7,9 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Reference, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Virtual Agent conversations for Vaccine Administration Management
@@ -103,6 +103,4 @@ Active
 
 </td></tr></tbody>
 </table>To activate, deactivate, or edit conversation topics, navigate to **Collaboration** &gt; **Virtual Agent** &gt; **Designer**. In the Topics page, select the **Vaccine Management** category. Click a topic that you want to update. Use the **Active** toggle button to activate or deactivate a topic.
-
-**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
 

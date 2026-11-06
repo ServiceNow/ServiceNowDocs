@@ -1,6 +1,6 @@
 ---
 title: Duplicate a Platform Analytics dashboard
-description: Duplicate a dashboard created in the inline editor so that you can share a modified version with different users.Duplicate a dashboard tab created in the in-line editor so that you can add related important content. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus.
+description: Duplicate a dashboard created in the in-line editor so that you can share a modified version with different users.Duplicate a dashboard tab created in the in-line editor so that you can add related important content. When you add your first tab to a dashboard, there’s a new part of the layout below the title and above the tabs. Add elements above the tabs that are visible no matter which tab has focus.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/duplicate-db.html
 release: yokohama
@@ -8,18 +8,21 @@ topic_type: task
 last_updated: "2025-10-27"
 reading_time_minutes: 2
 keywords: [How to copy a dashboard, How to copy inline dashboards]
-breadcrumb: [Create, share, edit, and more, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Duplicate a Platform Analytics dashboard
 
-Duplicate a dashboard created in the inline editor so that you can share a modified version with different users.
+Duplicate a dashboard created in the in-line editor so that you can share a modified version with different users.
 
 ## Before you begin
 
-Role required: At least one role, as well as access to the dashboard.
+Role required: At least one internal role and access to the dashboard.
 
-**Note:** This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
+**Note:**
+
+-   The user must be allowed to create dashboards. By default, anybody with an internal role can create a dashboard, but your organization might restrict this permission.
+-   This task only applies to dashboards created in the in-line editor. To work with dashboards created in UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
 
 ## About this task
 
@@ -27,7 +30,7 @@ When you duplicate a dashboard, you copy all settings and details of the origina
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  Select the dashboard that you want to duplicate.
 
@@ -60,7 +63,7 @@ Role required: At least one role, as well as edit rights to the dashboard.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  Select the dashboard with a tab that you want to duplicate.
 
@@ -78,9 +81,11 @@ Role required: At least one role, as well as edit rights to the dashboard.
 
 6.  Open the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\) on the original tab and select **Duplicate**.
 
-    Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) to rename the tab.
+    The copy of the tab has the default name **New Tab**. Select the pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\) to rename the tab.
 
-7.  Give the duplicate a unique name and select **Duplicate**.
+7.  Give the duplicate a unique name.
+
+8.  Select **Save** to save the dashboard with the new tab.
 
 
 ### Result

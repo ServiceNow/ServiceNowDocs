@@ -7,9 +7,9 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Planning your application, Building applications]
+breadcrumb: [Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Exploring Team Development
@@ -27,19 +27,19 @@ After setting up the instance hierarchy, you can develop changes on your local d
 -   Comparing your instance with other development instances and resolving any collisions with other development projects.
 -   Pushing changes when a feature is tested and ready to promote to the parent development instance.
 
-Developers with admin access to their development instance and the parent instance can use team development. For alternative access settings, see [Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
+Developers with admin access to their development instance and the parent instance can use Team Development. For alternative access settings, see [Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/r_GrantingAccessRightsToDevelopers.md).
 
 ## Team Development users
 
 |User|Description|
 |----|-----------|
-|Admin|Configures team development.|
-|Developer|Uses team development.|
+|Admin|Configures Team Development.|
+|Developer|Uses Team Development.|
 
 ## What to explore next
 
 To learn more about configuring and using Team Development, see:
 
 -   [Configuring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/configuring-team-development.md)
--   [Using Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/using-team-development.md)
+-   [Administer Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/administer-team-development.md)
 

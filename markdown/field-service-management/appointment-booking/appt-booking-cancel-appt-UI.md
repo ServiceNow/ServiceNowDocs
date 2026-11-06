@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments as a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Cancel an appointment as a customer
@@ -48,6 +48,4 @@ An appointment cannot be canceled if the current time is within the cancellation
 
     Information about the canceled appointment is noted in the **Activities** field on the work order. This information includes the original appointment window, an appointment cancellation message, and the user who made the change.
 
-
-**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

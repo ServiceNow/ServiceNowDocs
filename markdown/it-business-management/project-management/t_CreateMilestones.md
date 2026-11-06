@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a milestone
@@ -33,10 +33,6 @@ Role required: it\_project\_manager
     You can also convert a task to milestone through [Planning console tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_PlanningConsoleTasks.md).
 
 
-## Result
-
-\[Omitted image "milestone\_between\_two\_tasks.png"\] Alt text: Milestone example
-
 **Parent Topic:**[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProject.md)
 
 **Related topics**  
@@ -59,6 +55,10 @@ Role required: it\_project\_manager
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

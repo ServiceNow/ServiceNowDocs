@@ -7,7 +7,7 @@ release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Issue Auto Resolution for HR, HR Service Delivery, Employee Service
 
 You can use the Issue Auto Resolution for HR application to quickly handle your organization's high-volume, low-value HR cases and reduce the burden on your agents so that they can focus on issues that need more experience or manual assistance.
 
-## Overview
+## Overview of Issue Auto Resolution for HR
 
 By providing your employees with self-service content for their routine inquiries through the Issue Auto Resolution for the HR application, you can help resolve your HR cases faster. Without the Issue Auto Resolution for HR application, your agents would take at least 3–5 days to resolve these cases.
 
@@ -28,7 +28,7 @@ Let's say that an employee recently joined your organization. The employee doesn
 
 The following example shows how a new employee can use a personal mobile phone to raise a healthcare-related request.
 
-\[Omitted image "Using-IAR-Scenario-1.png"\] Alt text: Employee inquiry via an email and response via SMS.
+
 
 1.  The employee submits an HR general inquiry through an email from the employee's own mobile device.
 2.  The employee receives an SMS notification with recommendations that are related to the inquiry.
@@ -47,7 +47,7 @@ Let's say that an employee recently joined your organization as a program manage
 
 The following example shows how a new employee can use a company laptop to raise a healthcare-related request.
 
-\[Omitted image "iar-request-resolution-teams.png"\] Alt text: Employee inquiry via an email and response via Microsoft Teams.
+
 
 1.  The employee submits a HR general inquiry through an email via a desktop computer.
 2.  The employee logs in to Microsoft Teams and is greeted by the Issue Auto Resolution virtual assistance.

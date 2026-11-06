@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chemical management, Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ The approver is selected based on the location entered in the chemical request. 
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
 
-2.  In the primary navigation, select **Environmental Management** \[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management icon.
+2.  In the primary navigation, select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management\) icon.
 
 3.  Select a chemical request with the pending review status.
 

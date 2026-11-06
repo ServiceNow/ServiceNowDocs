@@ -1,18 +1,19 @@
 ---
 title: Create an MCO input attribute
-description: Create the MCO input attributes for sales promotion campaign.
+description: Create the MCO input attributes for a sales promotion campaign.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-input-attributes.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create promotion questionnaire, Set up sales promotion, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+keywords: [MCO input attribute, Manufacturing Commercial Operations, input attribute, sales promotion campaign, Promotion Questionnaire]
+breadcrumb: [Set up Sales promotion, Configure, Manufacturing Commercial Operations]
 ---
 
 # Create an MCO input attribute
 
-Create the MCO input attributes for sales promotion campaign.
+Create the MCO input attributes for a sales promotion campaign.
 
 ## Before you begin
 
@@ -20,11 +21,11 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Questionnaire** &gt; **MCO Input Attributes**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Sales Promotion Setup** &gt; **Promotion Questionnaire** &gt; **MCO Input Attributes**.
 
 2.  Select **New**.
 
-3.  Fill in the fields on the [MCO input attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-input-atrributes_form.md)form, as appropriate.
+3.  Fill in the fields on the [MCO input attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-input-atrributes_form.md) form, as appropriate.
 
 4.  Select **Save**.
 

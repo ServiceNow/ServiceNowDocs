@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_AutoCompleteForReferenceFields.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [Reference field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Auto-complete for reference fields
@@ -210,9 +210,9 @@ You can add the **ref\_ac\_columns\_search** attribute to enable auto-complete t
 
 ### Procedure
 
-1.  Right-click the label of a reference field.
+1.  Select and hold \(or right-click\) the label of a reference field.
 
-2.  Select **Configure Dictionary** from the choice list.
+2.  Select **Configure Dictionary** from the list.
 
 3.  Under **Related Links**, click **Advanced view**.
 
@@ -223,8 +223,6 @@ You can add the **ref\_ac\_columns\_search** attribute to enable auto-complete t
     ```
     ref_auto_completer=AJAXTableCompleter,ref_ac_columns=department,ref_ac_order_by=department,ref_ac_columns_search=true 
     ```
-
-    \[Omitted image "AutoCompleteAttribute.png"\] Alt text: Caller list with name and department
 
 5.  Click **Update**.
 
@@ -238,8 +236,6 @@ ref_auto_completer=AJAXTableCompleter ,ref_ac_columns =sys_class_name ,ref_ac_or
 ```
 
 **Note:** The **ref\_contributions** attribute controls the icons that appear next to the reference field.
-
-\[Omitted image "AdditionalCiAttributes.png"\] Alt text: Additional CI attributes
 
 ## Enable contains auto-complete searches
 
@@ -263,9 +259,7 @@ Role required: admin
 
 4.  Set the **value** field to **true**.
 
-    \[Omitted image "AutocompleteContains1.png"\] Alt text: Autocomplete user preference set to true
-
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 ### What to do next
@@ -278,14 +272,5 @@ Wildcard searches use the auto-complete functionality.
 
 Use an asterisk in the reference field for wildcard searches.
 
-\[Omitted image "OneAsteriskWildCardSearch.png"\] Alt text:
-
 If two asterisks are entered, a list of available records display in the auto-complete suggestions.
-
-\[Omitted image "TwoAsteriskWildCardSearch.png"\] Alt text:
-
-**Related topics**  
-
-
-[Wildcard characters allow searching for patterns and variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/c_Wildcards.md)
 

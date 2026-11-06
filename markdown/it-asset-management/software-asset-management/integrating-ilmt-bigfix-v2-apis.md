@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs
@@ -20,7 +20,7 @@ This connection enables you to import usage data into your ServiceNow instance s
 
 See [REST API resources and HTTP methods](https://www.ibm.com/docs/en/license-metric-tool?topic=api-rest-resources-http-methods) for more information on the ILMT and BigFix Inventory integration APIs.
 
-\[Omitted image "ilmt-bigfix-inventory-integration-v2-apis.png"\] Alt text: Integration between ILMT and ServiceNow.
+\[Omitted image "mmasset0021803-ilmt-bigfix-inventory-integration-v2-apis.svg"\] Alt text: Integration between ILMT and ServiceNow.
 
 The ILMT and BigFix Inventory integration enables you to create connections between one or more IBM servers and the ServiceNow AI Platform using HTTP or HTTPS. When you initiate the integration, you receive an IBM Server connection alias that you can use to set up your IBM server connections. If a connection is successful, the Software Asset Management application retrieves peak usage data within the aggregated period that you defined in ILMT or BigFix Inventory.
 
@@ -47,7 +47,7 @@ To track your IBM full capacity and sub-capacity PVU, RVU, and VPC licenses usin
 
 -   **[Request the IBM License Compliance for Software Asset Management application for IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application-ilmt-bigfix.md)**  
 If you are using version 2 of the IBM License Metric Tool \(ILMT\) and BigFix Inventory integration APIs to integrate with ILMT or BigFix Inventory, request the IBM License Compliance for Software Asset Management application from the ServiceNow® Store. Use the integration to track and manage your IBM licenses.
--   **[IBM License Metric Tool \(ILMT\) and BigFix Inventory transform map for v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-transform-maps-v2.md)**  
+-   **[Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v2 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-transform-maps-v2.md)**  
 When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses a default transform map to process this data into ServiceNow tables.
 -   **[View the peak usage of your IBM software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-ibm-ilmt-v2-peak-usage-product.md)**  
 If you are integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, view the highest full capacity and sub-capacity Processor Value Unit \(PVU\), Resource Value Unit \(RVU\), and Virtual Processor Core \(VPC\) usage for your IBM software products within an aggregated time period of up to 90 days.

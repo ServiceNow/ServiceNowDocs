@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Policy and Compliance Management mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a policy
@@ -27,8 +27,6 @@ Users with Compliance user \(sn\_compliance.user\) role can also create policies
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policies and Procedures** &gt; **Policies**.
 
 2.  Click **New**.
-
-    \[Omitted image "policy-new.png"\] Alt text: New policy
 
 3.  On the form, fill in the fields.
 
@@ -112,7 +110,10 @@ State
 </td><td>
 
 The state is a read-only field. Possible choices are: -   **Draft** In this state, all compliance users can modify the policy and control objectives. All compliance users can click **Request review** button. Enter a message in the Request review pop-up and click **Request**, which sets the state to Review.
--   **Review** In this state, the owner, owning group, and reviewers can modify the policy and control objectives. The owner, owning group, and reviewers click **Request approval**, starting the workflow by sending approvals to the users in the Approvers list. The owner, owning group, and reviewers move the policy back to Draft, by clicking **Back to draft**, as well.
+-   **Review** In this state, the owner, owning group, and reviewers can modify the policy and control objectives. The owner, owning group, and reviewers move the policy back to Draft, by clicking **Back to draft**, as well.
+
+Reviewers cannot request approval for a policy. However, the owner of the policy with sn\_compliance.user, which is the minimum required role, and users with compliance manager role can request approval for a policy.
+
 -   **Awaiting approval** In this state, the policy and control objectives are read- only for all. Approvers can approve the policy by updating the approval state in the **Approvals** Related List on the policy form, or by viewing **My Approvals**. If the policy is approved, the policy goes to the **Published** state. Otherwise, it goes back to the **Review** state.
 -   **Published** In this state, the policy and control objectives are read-only for all. Admins can click **Retire** which sets the state of the policy to **Retired**
 -   **Retired** In this state, the policy is read-only for all.
@@ -124,7 +125,7 @@ Valid from
 
 </td><td>
 
-The date and time for which the policy becomes valid.
+Specifies the date and time when the policy becomes effective.
 
 </td></tr><tr><td>
 
@@ -132,7 +133,13 @@ Valid to
 
 </td><td>
 
-The date and time for which the policy is no longer valid.
+Specifies the date and time until which the policy remains valid.**Note:**
+
+By default, when a policy expires, it doesn't automatically trigger a new approval process. Instead, it remains in the **Published**state until the specified number of days \(configured in the **Policy and Compliance** &gt; **Administration** &gt; **Properties** page\) have passed.
+
+After this period, the policy transitions to either the **Review** state \(if reviewers are assigned\) or the **Draft** state \(if no reviewers are assigned\).
+
+The field specifying the number of days is labeled: **Number of days after reaching a policy 'Valid to' date in which the expired policy will automatically move from its Published state back to a Draft/Review state**.
 
 </td></tr><tr><td>
 

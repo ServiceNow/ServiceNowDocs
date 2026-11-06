@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/set-notification-preferences.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System and custom notification and delivery channel preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set notification preferences
@@ -28,15 +28,15 @@ Role required: none
 
 3.  Set global notification preferences.
 
-<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d124354e91">
+<table id="choicetable_rgl_1dh_vvb"><thead><tr><th align="left" id="d134175e91">
 
 Option
 
-</th><th align="left" id="d124354e94">
+</th><th align="left" id="d134175e94">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d124354e100">
+</th></tr></thead><tbody><tr><td id="d134175e100">
 
 **Allow Notifications**
 
@@ -44,7 +44,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d124354e109">
+</td></tr><tr><td id="d134175e109">
 
 **Advanced Preferences**
 
@@ -52,7 +52,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d124354e118">
+</td></tr><tr><td id="d134175e118">
 
 **System notifications**
 
@@ -60,7 +60,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d124354e130">
+</td></tr><tr><td id="d134175e130">
 
 **Custom notifications**
 
@@ -68,7 +68,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d124354e140">
+</td></tr><tr><td id="d134175e140">
 
 **Delivery Channels**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/manage-household-consumer-cases.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring households, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create and manage cases for a consumer or household
@@ -37,13 +37,13 @@ When a consumer case is created or updated, the consumer receives an email notif
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Cases** and click **Create New**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Cases** and select **Create New**.
 
 2.  Select the type of case that you want to create.
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d164784e112">
+<table id="choicetable_cyw_rnc_gmb"><tbody><tr><td id="d200750e112">
 
 **Add a consumer.**
 
@@ -51,10 +51,10 @@ When a consumer case is created or updated, the consumer receives an email notif
 
 Select a consumer in the **Consumer** field. -   If the consumer belongs to only one household, the **Household** field is automatically updated.
 -   If the consumer belongs to more than one household, select a household from the households that a consumer belongs to in the **Household** field.
--   If the consumer does not belong to a household, you can leave the **Household** field empty.
+-   If the consumer doesn’t belong to a household, you can leave the **Household** field empty.
 
 
-</td></tr><tr><td id="d164784e145">
+</td></tr><tr><td id="d200750e145">
 
 **Add a household.**
 
@@ -71,7 +71,7 @@ Select a household in the **Household** field. -   If the household only has onl
 
     If a user with a Relationship Manager relationship is creating a case for a household or household member, this user is automatically added to the watch list.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The case is added to the Cases related list on the Household form.
 

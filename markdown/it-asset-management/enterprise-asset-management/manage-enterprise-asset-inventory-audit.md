@@ -7,14 +7,12 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Manage enterprise asset inventory audit using the ServiceNow Agent app
 
 Use the ServiceNow Agent application to scan the enterprise assets that you want to include in your stockroom inventory audits. After you scan all enterprise assets, you can complete the audit on your ServiceNow instance.
-
-**Important:** The audit enhancements features are available with Enterprise Asset Management version 10.0.0 onwards.
 

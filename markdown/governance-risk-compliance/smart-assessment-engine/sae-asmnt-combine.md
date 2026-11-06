@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Combining assessments and copying responses, Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -31,9 +31,9 @@ Role required: sn\_smart\_asmt.actor
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
     1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
-    2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
-    3.  Select the Control attestations on the left panel.
-    4.  In the My pending tasks related list, the assessments are displayed.
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
+    3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
+    4.  The smart assessments list is displayed.
 2.  Select the assessments that you want to combine.
 
 3.  Select **Combine**.

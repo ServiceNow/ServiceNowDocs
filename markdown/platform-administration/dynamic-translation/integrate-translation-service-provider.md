@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Integration with other translation services, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,15 +18,27 @@ Integrate with a third-party translation provider of your choice for machine tra
 
 ## Before you begin
 
-Create an account with your third-party translation service provider, and obtain the connection and credentials needed for integration.
+-   Create an account with your third-party translation service provider, and obtain the connection and credentials needed for integration.
+-   Role required: admin
 
-Role required: admin
+## About this task
+
+By default Dynamic Translation provides partially preconfigured translator records for several third party services. However, you can also create your own custom integration for a different service provider.
+
+Custom integrations require you to create subflows for language detection and translation, including actions, in Workflow Studio.
+
+Use default subflows as examples when you build your own subflows. For example:
+
+-   Detect Language \[detect\_language\_v4\]
+-   Translate Text \[translate\_text\_v3\]
+
+For background information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md) and [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**, then select **New** to create subflows to detect the language of the input text and translate the input text, as well as actions, using the following guidance.
+1.  Confirm your application scope, then navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**, and select **New**.
 
-    For information, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md).
+    To map error codes try using actions in subflows. For example, the Translate Text subflow has a Translate Text action. On that action, you can select **Open in Action Designer**. In the **Action Outline** section of the Action Designer, you can select **Error Evaluation**. You can overwrite the default error status that a step produces at runtime by entering new status code and status message values. See [Action error evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/action-error-evaluation.md).
 
     1.  Map error codes from your machine translation provider to the error codes and standardized error messages supported by ServiceNow.
 
@@ -41,8 +53,6 @@ Role required: admin
         |40056|Text cannot be translated to target languages.|
 
     2.  Ensure that the inputs and output fields are in the following format for subflows.
-
-        **Note:** When creating subflows, you can refer to the subflows that are available by default if required. For example: Detect Language \[detect\_language\_v4\] and Translate Text \[translate\_text\_v3\]. For more information, see [Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md).
 
 <table id="table_z5q_q5t_23b"><thead><tr><th>
 

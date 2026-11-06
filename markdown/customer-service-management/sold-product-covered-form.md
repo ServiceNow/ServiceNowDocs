@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/sold-product-covered-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Contracts and Entitlements reference, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Customer Contracts and Entitlements reference, Reference, Customer Service Management]
 ---
 
 # Sold Product Covered form
 
 The Customer Contracts and Entitlements application uses the Sold Product Covered form to add sold products or install base items that are covered to the Customer Contracts and Entitlements entities.
 
-For information about adding sold products or install base items that are covered, see [Add a sold product or install base item to a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-products-service-contract.md).
+For information about adding sold products or install base items that are covered, see [Add a sold product or install base item to a customer contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-products-service-contract.md).
 
 <table id="table_tk2_ntk_bzb"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Contract
 
 </td><td>
 
-The reference number of the associated service contract.
+The reference number of the associated customer contract.
 
 </td></tr><tr><td>
 
@@ -58,11 +58,11 @@ The related install base item.**Note:**
 
 </td></tr><tr><td>
 
-Service contract line
+Customer contract line
 
 </td><td>
 
-The associated service contract line reference.
+The associated customer contract line reference.
 
 </td></tr><tr><td>
 

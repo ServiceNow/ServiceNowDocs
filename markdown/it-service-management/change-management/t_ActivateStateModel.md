@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-State Model activates the following related plugin if it is not already active.
+The Change Management - State Model plugin builds on the Change Management - Core plugin. Activate State Model on an instance where Core is not yet active. During activation, State Model activates Core **Type** field on the change request. For the Core plugin, see [Activate Change Management - Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ActivateChangeMgmtCore.md). For the state model concept, see
 
 <table id="table_ub5_s43_w5"><thead><tr><th>
 
@@ -41,7 +41,7 @@ Change Management - Core\[com.snc.change\_management\]
 Change management is used to create and manage change requests. Once this is activated, the values for the **Type** field on the change request are updated.
 
 </td></tr></tbody>
-</table>**Note:** If you install the Change Management - Core plugin \(com.snc.change\_management\), the Change Management - State Model plugin \(com.snc.change\_management.state\_model\) doesn't function as expected. You must not install Change Management - State Model plugin \(com.snc.change\_management.state\_model\) plugin if you install Change Management - Core plugin \(com.snc.change\_management\).
+</table>**Warning:** Activate the Change Management - StateModel plugin `(com.snc.change-management.state_model)` only on an instance where the Change Management - Core plugin `(com.snc.change_management)` is not yet active. State Model activates Core automatically. If you activate Core independently before activating State Model, State Model does not function as expected.
 
 ## Procedure
 
@@ -72,13 +72,13 @@ Several types of components are installed with the Change Management - State Mod
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 
@@ -90,11 +90,11 @@ Several types of components are installed with the Change Management - State Mod
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -102,7 +102,7 @@ Several types of components are installed with the Change Management - State Mod
 
 [Request Change Management - Standard Change Template Intelligence]()
 
-[Change Management - Predictive Intelligence Core]()
+[Request Change Management - Predictive Intelligence Core]()
 
 [Activate Change Management - Change Flows]()
 
@@ -110,9 +110,9 @@ Several types of components are installed with the Change Management - State Mod
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

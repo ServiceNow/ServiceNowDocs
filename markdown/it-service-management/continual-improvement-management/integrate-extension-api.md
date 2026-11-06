@@ -7,9 +7,9 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Overview, Continual Improvement Management, IT Service Management]
+breadcrumb: [Integrated applications, Overview, Continual Improvement Management, IT Service Management]
 ---
 
 # Integrate Continual Improvement Management using extension point
@@ -57,5 +57,5 @@ The CIMIntegrationAPI defines the inbound and outbound extension points for inte
     For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_EditingAUIAction.md).
 
 
-**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/get-started-cim.md)
+**Parent Topic:**[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
 

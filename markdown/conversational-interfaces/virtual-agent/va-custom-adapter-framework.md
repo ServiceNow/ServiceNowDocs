@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Creating conversational custom chat integrations in Virtual Agent
@@ -36,11 +36,11 @@ Virtual Agent Chat Server \(VACS\) supports the following chat client integratio
 
 If you're using a chat client that is not in the list, you can create a custom integration using conversational custom chat integration framework.
 
+**Note:** Custom chat integrations are not supported for premium chat.
+
 You can use any channels that support conversational interfaces, such as Web Portals, Mobile Apps, Slack, Microsoft Teams, SMS, and any other channel and add ServiceNow® Virtual Agent to them.
 
 With a conversational custom chat integration, you can manage and control how your end users' chat experience. The framework helps transform messages from a chat client to VACS, and VACS back to the chat client in a format that renders well on your chat interface.
-
-\[Omitted image "custom-adapter-framework.png"\] Alt text: Custom adapter framework.
 
 The transformation is carried out through a set of Workflow Studio scripts. If you want more information on how to use Workflow Studio, see [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md).
 

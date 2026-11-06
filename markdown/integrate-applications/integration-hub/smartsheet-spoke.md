@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-08-31"
 reading_time_minutes: 8
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Smartsheet Spoke
@@ -19,7 +19,7 @@ The Smartsheet spoke integrates the ServiceNow® platform with Smartsheet so tha
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -611,9 +611,9 @@ Available AI agents include:
 |--------|-----------|
 |Smartsheet user management AI agent|Enables Process Analysts to automate user management workflows within Smartsheet using Integration Hub. It can automate tasks such as create, update, remove users, and retrieve user information.|
 |Smartsheet sheet management AI agent|Enables Process Analysts to automate sheet management workflows within Smartsheet using Integration Hub. It can automate looking up sheets by their ID.|
-|Smartsheet column management AI agent|Assists the Process Analyst in managing and automating column-related tasks in Smartsheet which enables better design and execution of flows in Integration Hub. The agent performs tasks such as fetch list of available columns in a sheet, and a specific column in a sheet.|
-|Smartsheet attachment management AI agent|Enables the Process Analyst to improve Smartsheet workflows by automating attachment-related tasks such as attaching files or URLs, looking up attachment streams, and looking up attachments by ID.|
-|Smartsheet group management AI agent|Enables the Process Analyst to improve group management workflows by automating certain tasks. The Process Analyst can automate tasks such as getting the list of available groups, and update group name.|
+|Smartsheet column management AI Agent|Assists the Process Analyst in managing and automating column-related tasks in Smartsheet which enables better design and execution of flows in Integration Hub. The agent performs tasks such as fetch list of available columns in a sheet, and a specific column in a sheet.|
+|Smartsheet attachment management AI Agent|Enables the Process Analyst to improve Smartsheet workflows by automating attachment-related tasks such as attaching files or URLs, looking up attachment streams, and looking up attachments by ID.|
+|Smartsheet group management AI Agent|Enables the Process Analyst to improve group management workflows by automating certain tasks. The Process Analyst can automate tasks such as getting the list of available groups, and update group name.|
 |Smartsheet sharing management AI agent|Enables the Process Analyst to improve workflows related to sharing in Smartsheet by automating certain actions such as looking up sheet share streams, and creating share sheets.|
 |Smartsheet cross sheet reference management AI agent|Improves workflows related to cross-referencing of sheets by automating certain tasks such as looking up cross-sheet references stream and by ID, and creating a cross-sheet.|
 |Smartsheet row management AI agent|Automates row management by performing certain tasks such as creating new rows, helping users manage data effectively and optimize their processes.|
@@ -621,10 +621,7 @@ Available AI agents include:
 |Smartsheet cell history AI agent|Automates various tasks related to the history of the data in the cells such as looking up cell history stream to retrieve and analyze historical data from Smartsheet cells,|
 |Smartsheet folder management AI agent|Automates folder-related tasks such as fetch list of available folders, create a new folder, and update a folder.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

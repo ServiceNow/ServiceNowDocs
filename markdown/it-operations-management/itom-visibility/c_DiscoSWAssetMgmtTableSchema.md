@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery with Software Asset Management
@@ -35,7 +35,7 @@ The following tables are created when the Software Asset Management plugin is ac
     **Important:** When SAM is installed, the Software Installation \[cmdb\_sam\_sw\_install\] table is the appropriate source for all current software data. This means you need to update any related lists or customized reference fields you added to CI records.
 
 
-Starting with the Kingston release, the Discovery populates the VMWare License Key \[samp\_vmware\_license\_key\] and VMWare License Key Usage \[samp\_vmware\_license\_key\_usage\] tables. See [Data collected for VMware vCenter Server]() for more information on where Discovery saves vCenter data.
+Starting with the Kingston release, the Discovery populates the VMWare License Key \[samp\_vmware\_license\_key\] and VMWare License Key Usage \[samp\_vmware\_license\_key\_usage\] tables. See [Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md) for more information on where Discovery saves vCenter data.
 
 -   **[Configure a CI to display Software Asset Management data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/configure-ci-to-display-sam-data.md)**  
 Configure computer configuration item \(CI\) forms to display data from the Software Installations \[cmdb\_sam\_sw\_install\] table.

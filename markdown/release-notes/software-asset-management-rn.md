@@ -1,189 +1,135 @@
 ---
 title: Software Asset Management release notes
-description: The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.The ServiceNow Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.
+description: The ServiceNow Software Asset Management application enables you to systematically track, evaluate, and manage the cost, utilization, compliance, and optimization for software and SaaS applications. See the following sections for release notes by version.The October 2026 release introduces enhanced support for Zoom Workplace offerings through SaaS integration.The Brazil Early Availability release introduces streamlined onboarding through the Product Hub and Configuration Console, along with license management for SAP S/4HANA Cloud, Private Edition. It also delivers enhanced publisher integrations for Smartsheet, and Microsoft Entra ID, additional predefined license metrics, enhanced deduplication feature, and automated suite inference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/software-asset-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [IT Asset Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Software Asset Management release notes
 
-The ServiceNow® Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.
+The ServiceNow® Software Asset Management application enables you to systematically track, evaluate, and manage the cost, utilization, compliance, and optimization for software and SaaS applications. See the following sections for release notes by version.
 
 ## About Software Asset Management
 
--   Leverage generative AI by using the ServiceNow Otto for Software Asset Management \(SAM\) application to create publisher summaries on software deployment, license compliance, configuration health, and optimization.
--   Manage the licenses for your Oracle Databases and WebLogic deployments on the Nutanix virtualization technology.
--   Integrate SAP Ariba and SAP S/4HANA Cloud with the Software Asset Management application to monitor and track software usage and subscriptions effectively.
--   Simplify the onboarding of your Software Asset Management \(SAM\) application by following the prescriptive guidance provided in the SAM Guided Setup and Microsoft 365 Guided Setup.
--   Track and optimize your IBM Cloud Pak licenses by using the Software Asset Management application.
--   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
+-   Streamline and automate the software asset management tasks using ServiceNow Otto for Software Asset Management \(SAM\)
+-   Automatically normalize your software assets with updates from the Software Asset Management content service.
+-   Track and manage rights for your software products by creating or importing software entitlements.
+-   Integrate with SaaS applications and SSO providers to track your SaaS subscription usage.
+-   Track and manage financial transaction data for your software products to optimize your software spend.
 
 See [Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_SoftwareAssetMgmt.md) for more information.
 
-## Activation and other requirements
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md).
 
-**Important:** SaaS License Management, Data Collection for Oracle Global Licensing and Advisory Services, IBM License Compliance for Software Asset Management, ITAM Health Check, and Software Asset Management Guided Experiences are available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+## Activation and other requirements
 
 -   **Activation information**
 
-    Software Asset Management is available with activation of the Activate all Software Asset Management Professional plugins including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\). Activating this plugin automatically activates the Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\) and the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the new plugin is activated, you can't access the classic user interface.
+    Software Asset Management is available with activation of the following plugins:
 
-    In the ServiceNow AI Platform® Yokohama release, there's limited support for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform® release, you can move to the new workspace for an intuitive and personalized experience.
+    -   **[Activate all Software Asset Management Professional plugin including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md)**
 
-    For releases prior to Utah, if you activated the older Software Asset Management Professional plugin \(com.sn\_samp\_master\), the Software Asset Workspace is available with activation of the Software Asset Workspace plugin \(com.sn\_sam\_workspace\). After the Workspace plugin is activated, you can't revert to the classic user interface. For details about the plugins and how to request them, see [Request Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/t_RequSoftwareAssetMgmt.md).
+        Activating this plugin automatically activates the following:
 
-    To activate Next Experience, make sure that the **glide.ui.polaris.experience** system property in your instance is set to true.
+        -   Activate all Software Asset Management Professional plugin \(com.sn\_samp\_master\)
+        -   Software Asset Workspace store application \(sn\_sam\_workspace\)
+        After you activate the Activate all Software Asset Management Professional plugin including the Software Asset Workspace plugin \(com.sn\_samp\_master\_ws\), you can't access the Software Asset Management Core UI.
 
-    Install the following Software Asset Management applications by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    -   **[Basic Software Asset Management \(com.snc.sams\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_SAMSetupSAMF.md)**
 
-    -   Software Asset Management - SaaS License Management
-    -   Data Collection for Oracle Global Licensing and Advisory Services
-    -   IBM License Compliance for Software Asset Management
-    -   ITAM Health Check
-    -   Software Asset Management Guided Experiences
--   **Upgrade information**
-
-    Starting from the Yokohama release, all the reconciliation script includes are being moved from the family release to the Software Asset Management store application \(com.sn\_itam\_samp\). When upgrading to Yokohama, if you have made customizations to reconciliation script includes, you must move your customizations to the new script includes. The old script includes will be deprecated.
-
-    When upgrading to Yokohama Patch 1 with the Software Asset Management \(sn\_itam\_samp\) 2.1.0 store application installed, you must delete the entitlements for the existing CrowdStrike integration profiles. Then, create new entitlements for various CrowdStrike products, such as CrowdStrike Falcon Endpoint Protection and CrowdStrike Falcon Discover, based on their license metrics. These metrics include the Reserved Hourly Average Sensor and Sensor Subscription, which are found under the CrowdStrike License Metric Group.
-
-    -   If any existing CrowdStrike profiles are in the Draft state, create new integration profiles and delete the existing ones.
-    -   If any existing CrowdStrike profiles are in the Published state, their state changes to Draft.
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Accessibility improvements**
-
-        Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
-    -   **Reflow**
-
-        The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+        To access the foundation capabilities of Software Asset Management, activate the Basic Software Asset Management plugin. After you activate this plugin, activate the Software Asset Workspace store application \(sn\_sam\_workspace\) to complete the setup.
 
 
-**Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-asset-management-rn-landing.md)
+**Parent Topic:**[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-asset-management-rn-landing.md)
 
-## Yokohama Early Availability
+## October 2026
 
-The ServiceNow® Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.
+The October 2026 release introduces enhanced support for Zoom Workplace offerings through SaaS integration.
 
 ### What's new
 
--   **[Gain insights into your publisher license compliance by using Now Assist for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/now-assist-sam.md)**
+-   **[Manage licenses for Zoom Workplace offerings with the expanded Zoom SaaS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/integrate-with-zoom.md)**
 
-    Use generative AI to gain a comprehensive summary of publisher license compliance. The detailed publisher summaries enable you to understand the publisher license compliance details.
+    Use the enhanced Zoom integration to recognize Zoom Workplace offerings, suite structures, and sub-products such as Meetings, Webinars, Phone, and Chat for accurate entitlement reconciliation. Identify stale users based on last login activity rather than meeting hosting history to reduce false positives during reclamation.
 
--   **[Manage Microsoft 365 license compliance and optimization through Microsoft 365 Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)**
-
-    Get a prescriptive guidance for the tasks that you must perform in the Software Asset Management application, Microsoft 365 admin center, and other applications to configure Microsoft 365. This Guided Setup organizes the configuration activities into various categories so that you can see the list of tasks that need to be performed.
-
--   **[Optimize Microsoft 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/microsoft-o365.md)**
-
-    Optimize how to manage Microsoft 365 licensing with these enhancements:
-
-    -   Auto removal of licenses from the Microsoft 365 admin center by detecting low usage and overlapping subscriptions.
-    -   Expanded support for usage-based optimization such as Microsoft 365 E3 Teams and Microsoft 365 government plans.
--   **[Optimize Microsoft Dynamics 365 subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/integrating-with-microsoft365.md)**
-    -   Receive recommendations to save costs by removing low-usage subscriptions for MRS applications.
-    -   Receive guidance on cost-saving strategies while purchasing multiple base subscription licenses for various Microsoft Dynamics 365 applications. Using a combination of base and attach licenses can provide a more cost-effective solution.
--   **[Simplify the activation process for SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/request-saas-license-management.md)**
-
-    Simplify your activation process by optimizing your SaaS subscriptions. You can activate just the SaaS applications that you want to manage.
-
--   **[SaaS security permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/create-integration-profile.md)**
-
-    While integrating your SaaS applications, you can now grant the minimum permissions required to enable key use cases, such as downloading subscriptions, calculating activity, and reclaiming subscriptions.
-
--   **[Optimize subscriptions for SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/integrate-with-ariba.md)**
-
-    Gain visibility to the subscriptions and reclaim stale licenses by integrating your ServiceNow instance with the SAP Ariba application.
-
--   **[Configure and map users from SaaS portals to ServiceNow AI Platform with ease](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/map-user-data.md)**
-
-    Determine your licensed users by mapping user subscriptions from SaaS applications to users in ServiceNow AI Platform.
-
--   **[Optimize CrowdStrike subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/integrate-with-crowdstrike.md)**
-
-    Software Asset Management now includes support for CrowdStrike products with license metrics such as Sensor Subscription and Reserved Hourly Average Sensor. The introduction of a new license metric group, CrowdStrike, improves data coverage and reconciliation. By managing the entitlements for various CrowdStrike products, including CrowdStrike Falcon Endpoint Protection, CrowdStrike Falcon Discover, and others, you can get better tracking and compliance.
-
--   **[Manage compliance for SAP S/4HANA Cloud Public Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/integrate-with-hana.md)**
-
-    Gain visibility to software usage information and subscriptions by integrating your Software Asset Management application with the SAP S/4HANA Cloud Public Edition. This integration supports the Full User Equivalent \(FUE\) license metric that is used to grant licenses for SAP cloud applications.
+    **Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 18.1.1.
 
 
-## Yokohama
+## Brazil Early Availability
 
-The ServiceNow® Software Asset Management application systematically tracks, evaluates, and manages the cost, utilization, compliance, and optimization for software and SaaS applications. The Software Asset Management application was enhanced and updated in the Yokohama release.
+The Brazil Early Availability release introduces streamlined onboarding through the Product Hub and Configuration Console, along with license management for SAP S/4HANA Cloud, Private Edition. It also delivers enhanced publisher integrations for Smartsheet, and Microsoft Entra ID, additional predefined license metrics, enhanced deduplication feature, and automated suite inference.
 
 ### What's new
 
--   **[Manage onboarding of products to support the Software Asset Management \(SAM\) application through SAM Guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/playbook-entitlementsetup-workspace.md)**
+-   **Install the Software Asset Management application from the Product Hub**
 
-    Get step-by-step guidance on the activities that you must perform to onboard SaaS and on-premises products. The guided setup helps you to create or associate success goals, configure product integrations, create software entitlements, or run reconciliation to get the most out of the Software Asset Management application.
+    Streamline onboarding by installing Software Asset Management and its dependent applications from the Product Hub. The Product Hub is the central location to view and manage all applications included in your Software Asset Management subscription. Access product documentation, videos, release notes, and community links from the same place.
 
--   **[Manage license compliance for Oracle Database and WebLogic Server deployed on Solaris Logical Domain \(LDOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/oracle-licensing-hard-partitioned-environments.md)**
+-   **Set up the Software Asset Management application using the Configuration Console**
 
-    Support Oracle Database and WebLogic Server licensing for Per Processor and Named User Plus \(NUP\) license metrics that are deployed on the hard-partitioned Solaris LDOM infrastructure, also known as Oracle VM Server for SPARC.
+    Reduce the time it takes to set up Software Asset Management after installing it from the Product Hub by using the Configuration Console, a one-stop shop for setup. Use predefined settings to smoothen the onboarding journey and configure software foundations, properties, AI skills, governance, team management, and data management from a single location. You can also use the AI conversational interface to configure groups, users, and Content Service setup.
 
--   **[Determine license compliance for Oracle products deployed on Nutanix virtualization technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/software-recon-virt-tech.md)**
+-   **[Manage licenses for SAP S/4HANA Cloud, Private Edition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/sap-publisher-pack.md)**
 
-    License Oracle Database Server, Options, and WebLogic Server with deployments on the Nutanix virtualization technology.
+    Establish an accurate license position for your SAP S/4HANA Cloud, Private Edition delivered through RISE with SAP, without manually tracking user classifications or engine and database consumption. Collect usage data from your private cloud systems and calculate your Full Usage Equivalent \(FUE\) license position automatically with the Software Asset Management publisher pack for SAP. Reduce audit exposure and avoid unexpected compliance costs by measuring private cloud compliance alongside your existing on-premises SAP systems.
 
--   **[Support for revenue-based license metrics for SAP engines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/sap-publisher-pack.md)**
+-   **[Manage all reclamation candidates from a consolidated Reclamation tab on the License usage view in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/sam-workspace-workbench.md)**
 
-    Gain the ability to maintain licenses for higher value, revenue-based SAP engine products.
+    Gain insights with a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows. Drill down from the **Reclamation** tab into individual removal candidates for each publisher or integration, without switching between separate reclamation views. This enhancement gives your asset team a complete picture of reclamation opportunities across your software estate.
 
--   **[Leverage machine learning normalization for software recognition in protected government environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ml-learning-sam.md)**
+-   **[Improved license compliance reporting for Smartsheet SaaS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/integrate-with-smartsheet.md)**
 
-    Extend machine learning normalization capabilities to Government Community Cloud \(GCC\) and National Security Cloud \(NSC\) environments.
+    Improve visibility and compliance reporting of Smartsheet user licenses using the assigned seat type in the Smartsheet portal. The integration now retrieves users by seat type and creates subscription records for each category independently.
 
--   **[Leverage machine learning spend detection in protected government environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/software-spend-detection.md)**
+    **Note:** The updated Smartsheet license reporting is supported starting from Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) version 18.0.3.
 
-    Extend Software Spend Detection capabilities to Government Community Cloud \(GCC\) and National Security Cloud \(NSC\) environments.
+-   **[Use expanded Microsoft Entra ID Single Sign-On \(SSO\) license reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/saas-sso-integration.md)**
 
--   **[Optimize licensing for IBM Cloud Paks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/licensing-ibm-cloud-paks.md)**
+    Expand your Microsoft Entra ID SSO integrations to improve identification of inactive users and surface group-assigned users as reclamation candidates. Update SSO subscription reclamation logic to improve stale subscription detection.
 
-    Use the IBM License Compliance for Software Asset Management application to track and manage licenses for your IBM Cloud Paks.
+    **Note:** The expanded Microsoft Entra ID capability is supported starting from Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) version 18.0.3.
 
--   **[Expand end of life \(EOL\) reporting by creating parent-child relationships between software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/create-parent-child-relationships-between-software-products.md)**
+-   **[Automate suite license inference for improved compliance reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/software-suites-inference.md)**
 
-    View, define, or update the parent-child relationships between your software products. Use these relationships to enable your child products to inherit life-cycle dates from their associated parent products.
+    Enable automatic suite inference to calculate the optimal suite license for each software installation based on your actual footprint and entitlements. This feature reduces manual configuration required for the suite on the software model and improves compliance reporting.
 
--   **[View the Export Classification Control Numbers \(ECCNs\) for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/view-eccn-software-mappings.md)**
+-   **Improve reporting of software installation inventory**
 
-    View the ECCNs that are mapped to your software products. Use this information to identify the products that are subject to U.S. export control regulations so that you can maintain export compliance across your products.
+    Improve reporting of your software installation inventory by deploying rules that automatically consolidate duplicate product installations across your devices.
 
--   **[Create and manage entitlements for your Microsoft 365 From SA and Add-on user subscription licenses \(USLs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/creating-m365-from-sa-add-on-entitlements.md)**
+-   **[Onboard entitlements faster with additional predefined license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_SAMLicenseMetrics.md)**
 
-    Create entitlements to track and manage the From SA and Add-on licensing terms for your Microsoft 365 subscriptions. Specify the details of each license, including the license type, license cost, and number of purchased rights. Use this information to determine your license compliance so that you can optimize your licensing costs.
-
--   **[Improve your compliance position with insights on how your software installations get licensed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/install-licenseusage-journey.md)**
-
-    Evaluate the installation to license consumption percentages and devise strategies for improving your license usage. Track your installation to license journey by connecting software installations to the licenses consumed and identifying the statuses such as licensed or unlicensed.
-
--   **[Gain an understanding of how licenses get calculated for your software assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/explanation-rights-post-recon.md)**
-
-    Learn how the Software Asset Management application calculates the number of licenses that are required for your software assets with the factors that impact this process.
-
--   **[Increase the coverage of product life cycles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/calculated-lifecycles.md)**
-
-    Expand the life-cycle date calculations to include the custom general availability \(GA\) dates. Additionally, support is also available for the End of Extended Support phase and the End of Support and End of Life phases.
+    Reduce entitlement onboarding time by using additional predefined license metrics for supported publishers. These predefined license metrics help you track consumption, verify compliance, and reconcile deployments against entitlements. Review tier ranges and calculation factors on the new **License Metric Tier** tab of the Software entitlement page.
 
 
 ### What's changed
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   **[Gain clearer visibility into SAP HANA user license types with the renamed License classification column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/view-sapusers-workspace.md)**
 
-    The Software Asset configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
+    The **Named user type** column is renamed to **License classification** in the SAP System Users \[samp\_sap\_system\_user\] table for improved visibility into SAP HANA user license types and entitlement reconciliation. The column appears on the SAP System Users related list of software models created for SAP S/4HANA products.
 
--   **[Publisher optimizations dashboard for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/pub-opt-microsoft.md)**
+-   **[Manage SAP S/4HANA Cloud, Public Edition entitlements with the renamed User Subscription metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_SAMLicenseMetrics.md)**
 
-    The Publisher Optimizations dashboard for Microsoft has been updated to support additional subscriptions.
+    The **Full Usage Equivalent** license metric for SAP S/4HANA Cloud, Public Edition is renamed to **User Subscription**, aligning with SAP's updated naming for this edition. The Full Usage Equivalent metric continues to apply to SAP S/4HANA Cloud, Private Edition. The calculation logic is unchanged.
+
+-   **[Manage software models with clearer licensing terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/software-model-fields.md)**
+
+    Understand licensing scope at a glance from the renamed column in the Software Model \[cmdb\_software\_product\_model\] table. The **License all installs accessed by clients** column is renamed to **License all installs**. The new name reflects that all installs meeting the software model's conditions are licensed, not only those tied to client access records.
+
+-   **[Removal candidates tab replaced with the Reclamation tab in the License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/sam-workspace-workbench.md)**
+
+    The **Reclamation** tab in the License usage view on the Software Asset Workspace presents a consolidated view of reclamation candidates across all publishers, SaaS integrations, installed software, and reconciliation flows.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    SAM Admin Experience - v1.0 \(sn\_samp\_admin\): Provides access to the Configuration Console for configuring the Software Asset Management application.
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/create-templates-for-related-task-records.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using form templates, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create templates for related task records
@@ -217,7 +217,7 @@ Change request
 
 [Create a template by saving a form]()
 
-[Create records based on a template]()
+[Schedule record creation from a template]()
 
 [Create a module for a template]()
 

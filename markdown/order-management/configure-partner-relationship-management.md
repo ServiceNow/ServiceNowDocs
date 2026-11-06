@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-partner-relationship-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 1
+last_updated: "2026-11-06"
+reading_time_minutes: 2
 breadcrumb: [Configure, Sales Customer Relationship Management]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Configure, Sales Customer Relationship Management]
 
 Install the PRM \(com.snc.partner\_relationship\_management\) application from ServiceNow® Store to enable enterprises to hire partners and improve their sales cycles.
 
-Admins and users with various roles, such as Enterprise partner admin \(sn\_prm.enterprise\_partner\_admin\), Enterprise partner agent \(sn\_prm.enterprise\_partner\_agent\), and so on must complete the following configuration tasks to set up the Partner Relationship Management application.
+Admins and users with various roles, such as Enterprise partner admin \(sn\_prm.enterprise\_partner\_admin\), Enterprise partner agent \(sn\_prm.enterprise\_partner\_agent\), and more must complete the following configuration tasks to set up the Partner Relationship Management application.
 
 <table id="table_j2t_zzv_1fc"><thead><tr><th>
 
@@ -66,4 +66,33 @@ Configure and add data to the different tables that are installed with PRM.
 -   Enterprise Partner admin \(sn\_prm.enterprise\_partner\_admin\)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-partner-relationship-management.md)**  
+Install the Partner Relationship Management plugin \(com.snc.partner\_relationship\_management\), along with the demo data and installations that are related to ServiceNow Store applications and plugins.
+-   **[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/roles-and-components-of-partner-relationship-management.md)**  
+The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
+-   **[Data model for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/data-model-for-partner-relationship-management.md)**  
+The Partner Relationship Management data model provides a framework to map the relationship between channel partners and programs.
+-   **[Partner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-workspace.md)**  
+Partner admins, agents, and managers can manage partner programs and partnerships on the partner workspace to triage cases and requests from customers.
+-   **[Configure Segment Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-segment-management.md)**  
+Install the Segment Management application \(com.snc.segment\_mgmt\) from the ServiceNow® Store to manage and group entities into various segments to promote progression.
+-   **[Deal Registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/deal-registration-management.md)**  
+Install the Deal Registration Management plugin \(com.snc.deal\_registration\_management\) to enable channel partners to identify and manage customer interest in products.
+-   **[Install Sales Common for Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-sales-common-for-partner-relationship-management.md)**  
+Install the Sales Common for Channel Partners plugin \(com.snc.partner\_relationship\_management\_sales\_common\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
+-   **[Install Order Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-order-management-for-channel-partners.md)**  
+Install the Order Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_orm\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
+-   **[Install Opportunity Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-opportunity-management-for-channel-partners.md)**  
+Install the Opportunity Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_oppty\) and installations that are related to ServiceNow® Store applications and plugins.
+-   **[Install Quote Management for Channel Partners](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-quote-management-for-channel-partners.md)**  
+Install the Quote Management for Channel Partners plugin \(com.snc.partner\_relationship\_management\_qm\), along with the demo data and installations that are related to ServiceNow® Store applications and plugins.
+
+**Parent Topic:**[Configuring Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-configuring.md)
+
+**Related topics**  
+
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-relationship-management.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md)
+

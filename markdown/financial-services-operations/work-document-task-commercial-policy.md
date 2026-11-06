@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/work-document-task-commercial-policy.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work on a policy service case, Using Commercial Lines Servicing, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Work on a policy service case, Use, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a document task to verify documents for a policy service case
@@ -26,15 +26,15 @@ The Document Processor service determines which documents \(inbound and outbound
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
     -   For your assigned tasks, click **Assigned to me**.
     -   For all document tasks, click **All**.
-4.  In the list, select the task that you want to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a task that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Find out which documents are required for the case:
 
@@ -42,15 +42,15 @@ The Document Processor service determines which documents \(inbound and outbound
     -   For a list of outbound documents, click the **Outbound Documents** tab.
 6.  Verify the completeness of all documents that the customer has submitted \(inbound\) or the bank should share with the customer \(outbound\).
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d90677e151">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d110175e169">
 
 Task
 
-</th><th align="left" id="d90677e154">
+</th><th align="left" id="d110175e172">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d90677e160">
+</th></tr></thead><tbody><tr><td id="d110175e178">
 
 **Verify an inbound or outbound document**
 
@@ -60,7 +60,7 @@ Action
 2.  Check the document details and click **Verify**.
 
 
-</td></tr><tr><td id="d90677e181">
+</td></tr><tr><td id="d110175e199">
 
 **Defer an inbound document**
 
@@ -70,7 +70,7 @@ If the customer can't submit a document and has requested to submit it at a futu
 2.  Click **Request Deferment**.
  **Note:** This option is available only if a deferment is enabled for the document category.
 
-</td></tr><tr><td id="d90677e205">
+</td></tr><tr><td id="d110175e223">
 
 **Request exception for an inbound document**
 
@@ -92,4 +92,6 @@ If the customer is not able to submit a document and seeks an exemption from sub
 
 -   The document task moves to the Closed Complete state and the associated case moves to the next stage.
 -   A new task that is based on the configured workflow is automatically generated in a respective task tab of the associated case. The new task is assigned to an assignment group or agent based on the assignment rules.
+
+**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/work-commercial-policy-case.md)
 

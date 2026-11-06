@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for AWS, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -43,15 +43,15 @@ Role required: discovery\_admin
 
 6.  Choose a MID Server.
 
-<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d405780e224">
+<table id="choicetable_bcg_4pg_z2c"><thead><tr><th align="left" id="d284856e224">
 
 Option
 
-</th><th align="left" id="d405780e227">
+</th><th align="left" id="d284856e227">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d405780e233">
+</th></tr></thead><tbody><tr><td id="d284856e233">
 
 **Use a cluster of MID servers**
 
@@ -59,7 +59,7 @@ Description
 
 Select an existing MID Server. Clusters provide failover protection and load balancing between MID Servers. See [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md) for more information.
 
-</td></tr><tr><td id="d405780e252">
+</td></tr><tr><td id="d284856e252">
 
 **Automatically select a MID server**
 
@@ -67,7 +67,7 @@ Select an existing MID Server. Clusters provide failover protection and load bal
 
 An available MID Server with an Identity and Access Management \(IAM\) role is automatically selected when the Discovery schedule runs. See [Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-auto-mid-selection.md) for more information.
 
-</td></tr><tr><td id="d405780e280">
+</td></tr><tr><td id="d284856e280">
 
 **Search for a MID server**
 
@@ -87,15 +87,15 @@ Choose a MID Server to run the Discovery schedule. Only MID Servers that are val
 
 9.  Choose whether you want to **Assume an IAM role** or **Use permanent credentials**.
 
-<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d405780e372">
+<table id="choicetable_lvl_1hq_jhc"><thead><tr><th align="left" id="d284856e372">
 
 Option
 
-</th><th align="left" id="d405780e375">
+</th><th align="left" id="d284856e375">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d405780e381">
+</th></tr></thead><tbody><tr><td id="d284856e381">
 
 **Assume an IAM role**
 
@@ -107,7 +107,7 @@ The MID Server temporarily assumes an IAM role using a trust relationship. After
 -   The IAM role must trust the MID Server's account so it can assume the role.
 If these prerequisites aren't met, verification fails. It's best to confirm with your cloud admin that the role and trust relationship are properly configured before proceeding.
 
-</td></tr><tr><td id="d405780e407">
+</td></tr><tr><td id="d284856e407">
 
 **Use permanent credentials**
 
@@ -140,7 +140,13 @@ The MID Server uses static access keys tied to an IAM user.
 
 13. Select **Next**.
 
-14. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle and choose a MID Server.
+14. To complement your cloud schedule with an IP-based Discovery schedule, enable the **Create a server discovery schedule** toggle.
+
+    1.  Select a method from the **Discovery method** drop-down list.
+
+        **Discover servers with credentials** uses operating system \(OS\)-level credentials to perform deep discovery on EC2 instances. **Discover servers with AWS Systems Manager \(SSM\)** uses AWS SSM Agent to perform deep discovery on EC2 instances. The system property **glide.discovery.enable\_ssm** must be enabled to use SSM discovery. For more information, see [Enable AWS SSM-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/enable-aws-ssm-based-discovery.md).
+
+    2.  Select a MID Server or cluster that can discover the Virtual Machines \(VM\) and their attributes.
 
 15. Select **Next**.
 

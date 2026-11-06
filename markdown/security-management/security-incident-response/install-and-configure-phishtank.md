@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [PhishTank integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Before you run the integration on your instance, complete the installation and c
 
 ## Before you begin
 
-Complete the following setup checklist prior to installation. These setup tasks are required for a smooth installation and configuration.
+Complete the following setup checklist before installation. These setup tasks are required for a smooth installation and configuration.
 
 <table id="table_xxz_jyj_4cb"><thead><tr><th>
 
@@ -73,11 +73,11 @@ Madrid and later release requirements
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the PhishTank tile.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
     \[Omitted image "phishtank-card.png"\] Alt text: The tile with a description of the app and the button used to initiate the configuration.
 
-4.  In the **PhishTank Configuration** dialog box, enter the Name of the configuration, the Username \(developer account created in PhishTank\), and the API key you obtained from the PhishTank website and click **Submit**.
+4.  In the **PhishTank Configuration** dialog box, enter the Name of the configuration, the Username \(developer account created in PhishTank\), and the API key you obtained from the PhishTank website and select **Submit**.
 
     \[Omitted image "phishtank-configure.png"\] Alt text: This field is populated with encrypted account information.
 

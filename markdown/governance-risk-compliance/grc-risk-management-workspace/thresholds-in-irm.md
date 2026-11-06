@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---

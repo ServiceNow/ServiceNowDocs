@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-01-26"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Azure Host, Azure discovery, Azure Dedicated Host, Azure patterns, Host pattern]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure Host pattern-based discovery
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns finds Azure Hosts on your cloud environme
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
+Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -86,5 +86,5 @@ Configuration item \[configuration\_item\]
 -   License: References the Virtual Machine Instance \[cmdb\_ci\_vm\_instance\] table
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+</table>**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

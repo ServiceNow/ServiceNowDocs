@@ -1,5 +1,5 @@
 ---
-title: Organize dashboards into groups
+title: Organize Core UI dashboards into groups
 description: Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to Self-Service Dashboards . You can also add view permissions to dashboard groups.Dashboard group and dashboard permissions are not additive. Depending on how permissions are defined on a dashboard, dashboard group permissions may not apply.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/t\_GroupDashboards.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Organize dashboards into groups
+# Organize Core UI dashboards into groups
 
 Assign dashboards to groups so that users can find the dashboards they want more easily. Dashboard groups determine how dashboards appear in the dashboard picker when you navigate to **Self-Service** &gt; **Dashboards**. You can also add view permissions to dashboard groups.
 
@@ -21,6 +21,8 @@ Assign dashboards to groups so that users can find the dashboards they want more
 Role required: admin, pa\_admin, or pa\_power\_user.
 
 ## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
 
 Permissions on dashboard groups apply to all the dashboards in that group.
 
@@ -40,7 +42,7 @@ To show single groups in the dashboard picker, add the parameter `sysparm_group=
 
 2.  Select the name of the dashboard that you want to add to a group to open its form.
 
-3.  In the **Group** field, use the lookup icon \(\[Omitted image "icon-search.png"\] Alt text:\) to select a group to add the dashboard to.
+3.  In the **Group** field, use the lookup icon \(\[Omitted image "icon-search.png"\] Alt text: Lookup icon\) to select a group to add the dashboard to.
 
     Select an existing dashboard group or select **New** to create a dashboard group.
 

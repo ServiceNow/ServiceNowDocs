@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Article Quality Index, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,4 +38,6 @@ Role required: knowledge\_admin or admin
 ## What to do next
 
 After you assign an AQI checklist to a knowledge base, you can start [performing AQI reviews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/perform-an-aqi.md).
+
+**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-article-quality-index.md)
 

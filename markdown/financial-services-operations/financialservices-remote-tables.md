@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financialservices-remote-tables.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data Model, Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Remote Tables
@@ -35,8 +35,6 @@ Using Financial Services Remote Tables, you can retrieve data from external sour
 
 The **Lookup UXF Client action**, included in the Financial Services Remote Tables plugin, is essential for setting up the FSO Lookup Client action. This action integrates the **Action Payload Definition** and is used within a field decorator as a UXF Client action. It is available as part of the Remote table lookup application but requires integration with a field decorator or a declarative action.
 
-For more information on how to set up the field decorators in Configurable Workspace, see [Create a field decorator action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-a-new-field-decorator-action.md).
-
 The remote tables integration use case includes a step that walks through setting up the FSO Lookup client action. For more information, see [Setting up a remote table integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/setting-up-a-remote-table-integration.md).
 
 ## Developer resources
@@ -52,7 +50,7 @@ Look up a record from any table based on defined conditions.
 -   **[Components installed with Financial Services Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-remote-tables.md)**  
 Several types of components are installed with the installation of the Financial Services Remote Tables application, including tables and user roles.
 
-**Parent Topic:**[Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md)
+**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md)
 
 **Related topics**  
 
@@ -61,7 +59,7 @@ Several types of components are installed with the installation of the Financial
 
 [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-a-new-form-action.md)
 
-[Create a UXF client action for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-a-new-uxf-client-action-for-forms.md)
-
 [FSO Look Up Client action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-look-up-client-action.md)
+
+[Create a field decorator action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-a-new-field-decorator-action.md)
 

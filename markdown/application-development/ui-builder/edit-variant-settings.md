@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a page variant, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Create a page variant, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit page variant settings
@@ -30,11 +30,11 @@ Customize page variant settings to set who sees the page variant. You can add an
 
 2.  Open the experience with the page variant that you want to edit.
 
-3.  Select **Settings** next to the page that you want to edit.
+3.  Expand the page to expose the associated variants.
 
-    \[Omitted image "variant-edit-settings.png"\] Alt text: Arrow pointing to settings link to edit variant settings.
+4.  Next to the page variant that you want to edit, select the Open settings icon \[Omitted image "gear-icon.png"\] Alt text:.
 
-4.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_zgj_fwf_xnb"><thead><tr><th>
 
@@ -87,7 +87,7 @@ Add or remove audiences for the page variant. For more information, see [Learn a
 </td></tr></tbody>
 </table>    \[Omitted image "variant-edit-settings-screen.png"\] Alt text: Edit page variant settings screen.
 
-5.  Click **Save**.
+6.  Click **Save**.
 
 
 **Parent Topic:**[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-variant.md)

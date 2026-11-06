@@ -1,15 +1,15 @@
 ---
 title: Using Performance Analytics with external data
-description: Performance Analytics on external data sources enables you to perform detailed analysis on data that is not in your ServiceNow instance.Performance Analytics supports only the database formats that ServiceNow supports by default. If a customer adds a JDBC driver for an unsupported database format, Performance Analytics does not support that database format as an external data source.Create an external indicator to define what data to evaluate and the SQL statement used to determine the indicator score.Create an external breakdown to define what elements are available to break down external indicator scores.Associate an external indicator and external breakdown to define how to collect breakdown scores for the indicator.Test your external indicators and breakdowns to ensure you can connect to the external data source and collect the data you expect.When using Performance Analytics with external data you must filter SQL statements that collect scores by date.Certain Performance Analytics functionality is not available when you measure external data.
+description: Performance Analytics on external data sources enables you to perform detailed analysis on data that is not in your ServiceNow instance.Performance Analytics supports only the database formats that ServiceNow supports by default. If a customer adds a JDBC driver for an unsupported database format, Performance Analytics does not support that database format as an external data source.Create an external indicator to define what data to evaluate and the SQL statement used to determine the indicator score.Create an external breakdown to define what elements are available to break down external indicator scores.Associate an external indicator and external breakdown to define how to collect breakdown scores for the indicator.Test your external indicators and breakdowns to ensure that you can connect to the external data source and collect the data you expect.When using Performance Analytics with external data you must filter SQL statements that collect scores by date.Certain Performance Analytics functionality is not available when you measure external data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/pa-external-data.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 12
-breadcrumb: [Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Using Performance Analytics with external data
@@ -23,6 +23,8 @@ Performance Analytics external data collection uses three types of configuration
 -   An external indicator which specifies the JDBC data source and SQL statement used to collect scores.
 -   An external breakdown which specifies the JDBC data source and SQL statement used to specify breakdown elements.
 -   An external indicator breakdown which defines the relationship between an external indicator, and breakdown, and the SQL statement used to collect scores for each breakdown element for that indicator.
+
+**Important:** These topics do not apply to external data accessed through Workflow Data Fabric tables. You can create an indicator or breakdown source for a Workflow Data Fabric table normally.
 
 **Parent Topic:**[Configure Performance Analytics advanced features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PADataArchitecture.md)
 
@@ -56,7 +58,7 @@ Role required: pa\_admin, pa\_power\_user, or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **External Indicators** and click **New**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **External Data** &gt; **External Indicators** and select **New**.
 
 2.  Give the indicator a descriptive **Name**.
 
@@ -204,7 +206,7 @@ When selected, the Analytics Hub and KPI Details show unbroken data lines for th
 
  Continuous lines aren’t rendered when a time series is set on the indicator or the Analytics Hub or KPI Details.
 
-</td></tr><tr><td>
+</td></tr><tr id="row_show-real-time-scores"><td>
 
 Show real-time score
 
@@ -225,8 +227,12 @@ When selected, the Analytics Hub and KPI Details can show the score of this indi
     -   KPI Details can show the score of this indicator in real time.
     \[Omitted image "auto-ind-other-tab.png"\] Alt text: The Other tab on an indicator with settings previously listed
 
-10. In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+10. In the **Forecasting** tab, set the following fields:
 
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 11. Save the indicator.
@@ -261,7 +267,7 @@ External breakdown elements are stored on the pa\_ext\_elements tables.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **External Breakdowns**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **External Data** &gt; **External Breakdowns**.
 
 2.  Click **New**.
 
@@ -298,11 +304,11 @@ Role required: pa\_admin, pa\_power\_user, or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **External Indicators**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **External Data** &gt; **External Indicators**.
 
 2.  Select an indicator.
 
-3.  In the **Breakdowns** related list, click **New**.
+3.  In the **Breakdowns** related list, select **New**.
 
 4.  Select the external **Breakdown** to apply to this indicator.
 
@@ -327,7 +333,7 @@ Repeat the previous steps to add additional breakdowns to the indicator. Test th
 
 ## Test external indicators and breakdowns
 
-Test your external indicators and breakdowns to ensure you can connect to the external data source and collect the data you expect.
+Test your external indicators and breakdowns to ensure that you can connect to the external data source and collect the data you expect.
 
 ### Before you begin
 
@@ -341,11 +347,11 @@ No scores or breakdown elements are saved when you test an indicator or breakdow
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **External Indicators** or **Performance Analytics** &gt; **External Breakdowns**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **External Data** &gt; **External Indicators** or **External Breakdowns**.
 
 2.  Select the indicator or breakdown that you want to test.
 
-3.  Click the **Test** button.
+3.  Press the **Test** button.
 
     If the query runs successfully, the number of scores or breakdown elements that would be collected appears. If an error occurs during testing, the error message appears.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a REST message with basic auth, Outbound REST authentication, Outbound REST web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Configure a message with basic auth, Outbound REST authentication, REST, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Create a basic auth profile

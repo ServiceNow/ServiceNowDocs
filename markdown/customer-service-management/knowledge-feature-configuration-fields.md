@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/knowledge-feature-configuration-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Engagement Messenger reference, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
 
 # Knowledge feature configuration

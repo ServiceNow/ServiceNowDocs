@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook statuses and activation states
@@ -32,6 +32,4 @@ Playbook statuses include:
 \[Omitted image "process-activation-state-flow.png"\] Alt text: Creating a playbook sets its status to Draft. Activate your playbook to change to Published. If you make changes after activating, new changes aren't published until you activate your playbook again.
 
 Creating a new playbook sets its status to Draft. Once you activate your playbook, its status changes to Published. If you make changes after activating, your new changes won't be published until you activate your playbook again.
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

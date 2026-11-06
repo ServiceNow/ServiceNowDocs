@@ -1,5 +1,5 @@
 ---
-title: Publish your NLU model
+title: \(Legacy\) Publish your NLU model
 description: Publish your Natural Language Understanding \(NLU\) model to activate it and make it available for use in other applications that consume NLU.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/publish-nlu-model.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Test and publish your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Test and publish your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Publish your NLU model
+# \(Legacy\) Publish your NLU model
 
 Publish your Natural Language Understanding \(NLU\) model to activate it and make it available for use in other applications that consume NLU.
 
@@ -44,7 +44,7 @@ If your model is already published, you can publish it again. However, you must 
 
 4.  On the **Test and publish your model** screen, select **Run new test** to assess the model using its default test set.
 
-    Testing can be skipped, but model performance may not be optimal. If testing is skipped, a confirmation message displays, asking if you want to continue without testing. For more information on testing, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/testing-your-model.md).
+    Testing can be skipped, but model performance may not be optimal. If testing is skipped, a confirmation message displays, asking if you want to continue without testing. For more information on testing, see [\(Legacy\) Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/testing-your-model.md).
 
 5.  Click **Publish model**.
 
@@ -54,6 +54,4 @@ If your model is already published, you can publish it again. However, you must 
 
     **Result:** The most recent version of your NLU model is published. The model is active and available for use in other ServiceNow applications, such as Virtual Agent. Publishing also replaces any older versions of the model that are currently in use by those applications.
 
-
-**Parent Topic:**[Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/testing-your-model.md)
 

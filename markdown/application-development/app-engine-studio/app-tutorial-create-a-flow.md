@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
-breadcrumb: [Adding logic and automation, App creation tutorial, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Adding logic and automation, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a flow
@@ -85,7 +85,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
 5.  Select **Build your flow from scratch**.
 
-    You can also choose to build your flow with Now Assist. For more information, see .
+    You can also choose to build your flow with Now Assist. For more information, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-flow-now-assist.md).
 
 6.  Define the properties of the flow.
 
@@ -107,7 +107,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
     2.  In the **Trigger** field, select **Record** &gt; **Created**.
 
-        For more information about trigger types, see .
+        For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-triggers.md).
 
     3.  In the **Table** field, enter the name of the travel request table and select it from the list.
 
@@ -115,11 +115,7 @@ Use the following tutorial to create a flow for the employee travel request appl
 
 9.  Add actions, flow logic, and sublows to the flow.
 
-    **Note:** You can add actions, flow logic, and subflows to enable your flow to perform desired actions. For example, you can create an action that enables your application to send emails automatically.
-
-    In our tutorial, we add several actions and branches of flow logic to automate the employee travel request process. The following diagram demonstrates the flow that we create in our tutorial.
-
-    \[Omitted image "app-tutorial-create-a-flow-diagram-v4.png"\] Alt text: Diagram that
+    **Note:** You can add [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-actions.md), [flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-logic.md), and [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md) to enable your flow to perform desired actions. For example, you can create an action that enables your application to send emails automatically.
 
     Instructions for adding the actions and flow logic demonstrated in the tutorial are outlined in the following topics.
 
@@ -150,7 +146,7 @@ The Ask for Approval action is a ServiceNow Core action template that enables yo
 
 In our tutorial, we use the Ask for Approval action to request approvals from both managers and regional head for employee travel requests. This procedure outlines the Ask for Approval action that routes to the manager. The procedure for creating the Ask for Approval action that routes to the regional head is outlined in [Duplicate repeating actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/app-tutorial-create-a-flow.md).
 
-For more information about the Ask for Approval action, see .
+For more information about the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/ask-approval-flow-designer.md).
 
 ### Procedure
 
@@ -174,7 +170,7 @@ For more information about the Ask for Approval action, see .
 
 5.  Set the rules for the action.
 
-    **Note:** Rules determine which users can approve or reject requests, and what happens after approval or rejection. For more information about the rules available for the Ask for Approval action, see .
+    **Note:** Rules determine which users can approve or reject requests, and what happens after approval or rejection. For more information about the rules available for the Ask for Approval action, see [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/ask-approval-flow-designer.md).
 
     In our tutorial, we configure the rules for the Ask for Approval action to send travel requests to the manager of the user who submitted the request. The manager can then approve or deny the request.
 
@@ -182,7 +178,7 @@ For more information about the Ask for Approval action, see .
 
     2.  Select the **-Choose approval rule** field, then select **All users approve or reject**.
 
-    3.  Choose which users or groups can complete the approval actions using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon.\), the add user icon \(\[Omitted image "app-tutorial-add-user-icon.png"\] Alt text: Add user icon\), add group icon \(\[Omitted image "app-tutorial-add-group-icon.png"\] Alt text: Add group icon\), the add manual approvers icon \(\[Omitted image "manual-users-icon.png"\] Alt text: Manual approvers icon\), or by dragging data pills from the **Data** panel into the field.
+    3.  Choose which users or groups can complete the approval actions using the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, the add user icon \[Omitted image "app-tutorial-add-user-icon.png"\] Alt text:, add group icon \[Omitted image "app-tutorial-add-group-icon.png"\] Alt text:, the add manual approvers icon \[Omitted image "manual-users-icon.png"\] Alt text: Manual approvers icon, or by dragging data pills from the **Data** panel into the field.
 
         In our tutorial, we want the Ask for Approval action to route to the manager of the user who submitted the travel request. So we select **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by** &gt; **Manager**.
 
@@ -215,7 +211,7 @@ In our tutorial, we use If flow logic to define what the application does if a t
 
 There are two instances of If flow logic in the flow in the app creation tutorial: One that represents manager approval and another that represents regional head approval. This procedure covers creating the branch that represents manager approval. You can use this procedure to create the branch that represents the regional head approval and adjust the **Column label** and **Condition** field values accordingly.
 
-For more information about using If flow logic, see .
+For more information about using If flow logic, see [If flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-logic-if.md).
 
 ### Procedure
 
@@ -272,7 +268,7 @@ Make a decision flow logic enables you to integrate decision tables within flows
 
 In our tutorial, employee travel requests are sent to the regional heads after receiving manager approval. We use Make a decision flow logic to connect the flow to the regional head decision table and retrieve the correct regional information.
 
-For more information about Make a decision flow logic, see .
+For more information about Make a decision flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-logic-make-decision.md).
 
 ### Procedure
 
@@ -339,7 +335,7 @@ This procedure outlines duplicating the Ask for Approval action to request regio
 
     \[Omitted image "app-tutorial-duplicate-action.png"\] Alt text: You can select the Duplicate action icon to duplicate actions within your flow.
 
-2.  Move the duplicated action into the correct place in the flow by hovering over the action, selecting the drag icon \(\[Omitted image "Drag.png"\] Alt text: Row drag and drop gripper icon\), and dragging the action into the correct place.
+2.  Move the duplicated action into the correct place in the flow by hovering over the action, selecting the drag icon \[Omitted image "Drag.png"\] Alt text: Row drag and drop gripper icon, and dragging the action into the correct place.
 
     We move the duplicated Ask for Approval action beneath the Make a decision flow logic that returns the regional head information.
 
@@ -349,15 +345,15 @@ This procedure outlines duplicating the Ask for Approval action to request regio
 
     1.  Select the duplicated action to open the action dialog.
 
-    2.  Select the remove icon \(\[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\) to remove any field values that you must change.
+    2.  Select the remove icon \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element. to remove any field values that you must change.
 
-        In our tutorial, we must change the user that the Ask for Approval routes to. So we select the remove icon \( \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\) in the data pill that contains the manager user information.
+        In our tutorial, we must change the user that the Ask for Approval routes to. So we select the remove icon \[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element. in the data pill that contains the manager user information.
 
-    3.  Provide the correct field values by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon.\) or by dragging data pills from the **Data** panel into the fields.
+    3.  Provide the correct field values by selecting the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon or by dragging data pills from the **Data** panel into the fields.
 
         To route the Ask for Approval action to the correct regional head, we must add the data pill that contains the regional head information.
 
-        -   Using the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon.\), we select **Make a decision** &gt; **Decision Table Multiple Result Record** &gt; **Result elements** &gt; **Regional heads**.
+        -   Using the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, we select **Make a decision** &gt; **Decision Table Multiple Result Record** &gt; **Result elements** &gt; **Regional heads**.
         -   Using the **Data** panel, we select and drag the regional heads data pill into the field.
 
             \[Omitted image "app-tutorial-make-a-decision-data-pill.png"\] Alt text: The regional heads data pill appears in the Data panel in the Make a decision section.
@@ -387,7 +383,7 @@ The Update Record action is a ServiceNow Core action template that you can add t
 
 In our tutorial, we use the Update Record action to update the travel request record after it has been approved or rejected. This procedure outlines creating the Update Record action if a travel request has been approved by the manager and regional head. You can use this procedure to create the other Update Record actions and change the fields and field values as needed.
 
-For more information about the Update Record action, see .
+For more information about the Update Record action, see [Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/update-record-flow-designer.md).
 
 ### Procedure
 
@@ -399,7 +395,7 @@ For more information about the Update Record action, see .
 
 3.  From the **ServiceNow Core** options, select **Update Record**.
 
-4.  Select the record that you want to update by selecting the **Data Pill Picker** \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon.\) or by dragging the data pill from the **Data** panel into the **Record** field.
+4.  Select the record that you want to update by selecting the **Data Pill Picker** \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon or by dragging the data pill from the **Data** panel into the **Record** field.
 
     In our tutorial, we want to update the travel request record, so we add the travel request trigger to the **Record** field.
 
@@ -478,7 +474,7 @@ The Send Email action is a ServiceNow Core action template that you can add to y
 
 In our tutorial, we add Send Email actions to notify employees that their travel requests have been rejected. This procedure covers the Send Email action that notifies employees that their travel request has been rejected by the regional head. You can use this procedure to create the other Send Email action for the manager rejection and adjust the field values accordingly.
 
-For more information about the Send Email action, see .
+For more information about the Send Email action, see [Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/send-email-flow-designer.md).
 
 ### Procedure
 
@@ -490,11 +486,11 @@ For more information about the Send Email action, see .
 
 3.  From the **ServiceNow Core** options, select **Send Email**.
 
-4.  Add the record that the email is associated with to the **Target Record** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon.\), or by dragging the data pill from the **Data** panel.
+4.  Add the record that the email is associated with to the **Target Record** field using the Data pill picker \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, or by dragging the data pill from the **Data** panel.
 
     In our tutorial, we want the email to be associated with the travel request record in our trigger.
 
-5.  Add recipients for the email in the **To** field using the Data pill picker \(\[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon.\), or by dragging the data pill from the **Data** panel.
+5.  Add recipients for the email in the **To** field using the Data pill picker \[Omitted image "data\_pill\_picker.png"\] Alt text: Pill picker icon, or by dragging the data pill from the **Data** panel.
 
     In our tutorial, we want the user who created the travel request to receive the email. The user information is stored under **Trigger - Record Created** &gt; **Travel request Record** &gt; **Opened by**.
 
@@ -535,7 +531,7 @@ If you want your flow to end when certain conditions are met, you can add End Fl
 
 In our tutorial, we add End Flow flow logic to end the flow if a travel request has been rejected.
 
-For more information about End Flow flow logic, see .
+For more information about End Flow flow logic, see [End Flow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-logic-end-action.md).
 
 ### Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent Client Collector Monitoring, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Block event creation for non-existent entities
@@ -44,4 +44,6 @@ A process, service, or log does not exist when the following checks do not conta
 
     If you want to receive notification about the missing process or service, leave the **skip\_events\_for\_nonexistent** parameter with its default value of **false**.
 
+
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

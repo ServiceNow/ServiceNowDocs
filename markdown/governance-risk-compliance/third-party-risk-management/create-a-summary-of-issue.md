@@ -7,10 +7,10 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use generative AI skills, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, Agentic AI, generative AI, Gen AI]
+breadcrumb: [Assess third-party risk, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Generate a summary of a TPRM issue
@@ -19,7 +19,7 @@ Generate a summary of a TPRM issue to support efficient triaging, remediation, a
 
 ## Before you begin
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer
 
@@ -45,15 +45,15 @@ The summary for a TPRM issue is generated based on all the information captured 
 
 4.  Review the summary and complete any of the following options.
 
-<table><thead><tr><th align="left" id="d375265e189">
+<table><thead><tr><th align="left" id="d445864e186">
 
 Option
 
-</th><th align="left" id="d375265e192">
+</th><th align="left" id="d445864e189">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d375265e198">
+</th></tr></thead><tbody><tr><td id="d445864e195">
 
 **Share to work notes**
 
@@ -61,7 +61,7 @@ Description
 
 Select the **Share to work notes** button to launch the summarized result in an editor window. You can modify or review the summary and make any necessary corrections to improve its accuracy and completeness.
 
-</td></tr><tr><td id="d375265e213">
+</td></tr><tr><td id="d445864e210">
 
 **View more**
 
@@ -69,7 +69,7 @@ Select the **Share to work notes** button to launch the summarized result in an 
 
 Select this link to expand the summary.
 
-</td></tr><tr><td id="d375265e222">
+</td></tr><tr><td id="d445864e219">
 
 **View less**
 
@@ -77,7 +77,7 @@ Select this link to expand the summary.
 
 Select this link to collapse the summary.
 
-</td></tr><tr><td id="d375265e231">
+</td></tr><tr><td id="d445864e228">
 
 **Provide feedback**
 
@@ -87,7 +87,7 @@ Select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text: for posit
 
  **Note:** Feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d375265e257">
+</td></tr><tr><td id="d445864e254">
 
 **Copy the summary**
 
@@ -95,7 +95,7 @@ Select the helpful icon \[Omitted image "icon-helpful.png"\] Alt text: for posit
 
 Select the copy icon \[Omitted image "icon-copy.png"\] Alt text: to copy the summary to the clipboard.
 
-</td></tr><tr><td id="d375265e274">
+</td></tr><tr><td id="d445864e271">
 
 **Regenerate the summary**
 
@@ -105,5 +105,3 @@ If you think that data might have changed after you viewed the summary, select t
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using ServiceNow Otto for Third-party Risk Management \(TPRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/using-now-assist-for-tprm.md)
-

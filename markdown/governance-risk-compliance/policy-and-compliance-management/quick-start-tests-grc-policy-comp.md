@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Download GRC: Policy and Compliance Management, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Download, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Quick start tests for Policy and Compliance Management

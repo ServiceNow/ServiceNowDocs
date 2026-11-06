@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Define a custom encryption rule, Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -70,7 +70,7 @@ Use an HTTP protocol analyzer to inspect the request. Useful tools include:
     -   The URL parameters
     -   The POST parameters, if any
     -   The format of the request body, if included
-    \[Omitted image "client-request.png"\] Alt text: Example
+    \[Omitted image "client-request-2.png"\] Alt text: Example
 
 
 ## Result

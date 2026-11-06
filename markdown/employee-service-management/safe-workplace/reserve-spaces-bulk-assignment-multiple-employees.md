@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing workplace reservations for employees, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

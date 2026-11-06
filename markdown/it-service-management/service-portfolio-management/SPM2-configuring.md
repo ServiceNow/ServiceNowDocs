@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Portfolio Management, IT Service Management]
 ---
@@ -30,6 +30,8 @@ Service data relates to each other using different applications in different way
 Set up services and commitments in Service Portfolio Management to define services and track their performance against availability commitments. You can relay the performance information in real-time to your stakeholders.
 -   **[Quick start tests for Service Portfolio Management Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/quick-start-tests-SPM-Premium.md)**  
 Validate that Service Portfolio Management Premium still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
+-   **[Installed with Service Portfolio Management Premium](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/installed-with-SOW.md)**  
+Service Portfolio Management Premium installs the following components.
 -   **[Install the Service Portfolio Management Sample Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/activate-SPM2-content-pack-plugin.md)**  
 Install the Service Portfolio Management Taxonomy Content Pack plugin \(com.snc.spm.content\) to access a sample portfolio structure and service taxonomy. This sample data accelerates your ability to create and manage a service portfolio.
 

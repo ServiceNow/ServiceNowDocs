@@ -7,31 +7,34 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Strategic Portfolio Management – Planning Workspace
 
 The Jumpstart Your Strategic Portfolio Management – Planning Workspace Accelerator provides a demonstration of the possibilities and capabilities of Planning Workspaces within Strategic Portfolio Management \(SPM\).
 
-## Overview
+## Accelerator Overview
 
-Jumpstart Your Strategic Portfolio Management \(SPM\) – Planning Workspace provides Impact customers with a comprehensive overview of the possibilities and capabilities of the Planning Workspaces in SPM. Our goal is to demonstrate how you can receive clear visibility to manage and prioritize work items effectively and ensure they are aligned with your overall strategic goals. We aim to provide you with an understanding of how Planning Workspace can enhance service delivery quality, efficiency, and costs.
+Jumpstart Your Strategic Portfolio Management \(SPM\) – Planning Workspace provides Impact customers with a comprehensive overview of Planning Workspaces in SPM, demonstrating how to gain clear visibility into work items, prioritize effectively, and align execution with strategic goals. This Accelerator also equips customers with key resources and leading practices to help them get started quickly.
 
 For additional information on SPM, see [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ITBusinessManagement.md).
 
-**Note:** This Accelerator is available in Guided, Advanced, and Total Packages.
+## Package Availability
 
-Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 ## What you get
 
 -   **Session Preparation**
-    -   Provision a temporary instance
-    -   Activate and configure the applicable components of the Planning Workspaces in SPM
--   **Customer Coaching Session \#1 \(up to 90 minutes\)**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates and configures the applicable components of the Planning Workspaces in SPM
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
 
     Includes the following:
 
@@ -40,13 +43,14 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
         -   Installation and configuration of Planning Workspaces
         -   High level discussion on Foundation/Dependent data
     -   Walk through of key capabilities
-    -   Review business readiness
-    -   Review usage tracking and maintenance leading practices
-    -   Thirty days of access to the temporary instance
--   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 minutes\)**
+    -   Review leading practices and implementation guidance
+-   **Customer Coaching Session \#2 \(Optional up on Customer request – up to 1 hr\)**
 
     Opportunity for Q&amp;A related to Strategic Portfolio Management \(SPM\) - Planning Workspace
 
+-   **Output\(s\)**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching Session Deck
 
 ## Requested customer resources
 
@@ -99,13 +103,11 @@ Trusted Service Partners \(Recommended\)
 Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.
 
 </td></tr></tbody>
-</table>## Requested information / access
+</table>## Requested Information/Access
 
-Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## Exclusions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
-
-ServiceNow resources are not responsible for implementing SPM Planning Workspace recommendations on Customer’s sub-production or production instances.
+ServiceNow is not responsible for implementing any of the recommended configuration changes on Customer’s non-production or production instances.
 

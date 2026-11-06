@@ -1,5 +1,5 @@
 ---
-title: Time Sheets in Mobile Agent
+title: Time Sheets in ServiceNow Agent
 description: You can access and manage your time sheets from a mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/timesheet-fsm-mobile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Time Sheets in Mobile Agent
+# Time Sheets in ServiceNow Agent
 
 You can access and manage your time sheets from a mobile device.
 
@@ -31,13 +31,4 @@ Timesheets provide the following capabilities:
 -   Submit a time card
 
 \[Omitted image "timesheet\_fsm\_mobile.png"\] Alt text: Mobile view of an agent's app displaying active time sheets.
-
--   **[Create a time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-timesheet-fsm-mobile.md)**  
-Create a time sheet to group all your time cards for the given week from the ServiceNow Agent mobile app.
--   **[Add a time card to log your work time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/create-timecard-fsm-mobile.md)**  
-Create time cards to log your work time through the ServiceNow Agent mobile app.
--   **[Manage time cards in the time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-timesheet-fsm-mobile.md)**  
-Manage your time cards in the Agent mobile app by performing actions such as submitting or deleting a time card or viewing notes.
-
-**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 

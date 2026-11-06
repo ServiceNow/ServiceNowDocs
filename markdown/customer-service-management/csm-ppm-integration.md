@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-ppm-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrate, Customer Service Management]
 ---
 
 # Integrating with Customer Project Management
@@ -21,14 +21,6 @@ Customers can use this integration to create projects and project tasks for thei
 ## Product use rights included with this application
 
 When subscribed to the Strategic Portfolio Management \(SPM\) Subscription Product, Customer Service Management users can create and edit projects. External CSM users can view projects and edit project tasks of their own or related accounts.
-
-## Plugin
-
-Users with the system administrator role can activate the Customer Project Management plugin \(com.snc.csm\_ppm\).
-
-**Note:** This plugin requires the Customer Service plugin \(com.sn\_customerservice\) and the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
-
-The Customer Project Management plugin adds the **Customer Service** &gt; **Projects** module to the application navigator. Users with the customer project manager role can access this module.
 
 ## Customer Project Management Guided Setup
 

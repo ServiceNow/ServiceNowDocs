@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create and associate a policy text document in Microsoft OneDrive
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  In the Compliance Workspace, select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

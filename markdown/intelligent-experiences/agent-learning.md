@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/agent-learning.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI agent learning, Episodic memory]
-breadcrumb: [Exploring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Explore, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI agent learning

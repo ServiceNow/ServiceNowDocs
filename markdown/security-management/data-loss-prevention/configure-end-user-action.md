@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -118,8 +118,6 @@ Conditions in the condition builder. These conditions are based on the DLP incid
 </td></tr></tbody>
 </table>    The following example shows the end-user action configuration for an endpoint. The condition requires the scan source to be an endpoint file system that then triggers this end-user action configuration. The mapping shows that the report wrong owner, report false positive, and deleted file are the response options available to the end user.
 
-    \[Omitted image "dlp-incident-response-options1.png"\] Alt text: The list incident response option rule that the End user can perform.
-
 4.  In the **Response Option Mappings** section, click **New**.
 
 5.  On the form, fill in the fields.
@@ -169,9 +167,7 @@ Show response options for
 Option to determine the user roles to show the response options for.You can choose from **Analyst**, **End user**, and **Escalated Analyst Reviewers** by using the unlock option. You are allowed to choose one or all the roles.
 
 </td></tr></tbody>
-</table>    \[Omitted image "dlp-response-option-mapping-new-record-rule.png"\] Alt text: Response Option mapping page within Incident Response Option Rules
-
-6.  Click **Submit**.
+</table>6.  Click **Submit**.
 
 
 **Parent Topic:**[DLP Incident Response Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-administration.md)
@@ -209,7 +205,7 @@ Option to determine the user roles to show the response options for.You can choo
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

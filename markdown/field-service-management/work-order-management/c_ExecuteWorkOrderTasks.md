@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Execute work order tasks
@@ -22,25 +22,4 @@ The examples in this page illustrate the use of tasks with work orders; however,
 
 -   [Agent task map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheAgentMap.md): The agent task map displays an agent's location and the location of that agent's tasks for the day in a familiar Google Map. The agent map is available when the Service Management Geolocation plugin \(com.snc.service\_management.geolocation\) is active. This map allows for the general scheduling of tasks and provides estimates of an agent's location. Precise agent locations and some automatic features are available when your organization purchases a [Google Maps API for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_Geolocation.md) key and enters it into the system.
 -   [Task queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheQueue.md): It the task map is not available, an agent can manage assigned tasks and their schedule directly from a queue accessed from the application navigator.
-
--   **[Accept or reject a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_AcceptOrRejectAWorkOrderTask.md)**  
-Accept a work order task if you are ready to work on that task. Reject the task and provide a reason if you cannot work on that task.
--   **[Execute a task from the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheAgentMap.md)**  
-As an agent, you can accept or reject tasks assigned to you using features in the agent task map, or take on unassigned tasks near you if your schedule permits.
--   **[Execute a task from the queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheQueue.md)**  
-If the agent task map is not used in your organization, you can manage assigned tasks from the task queue.
--   **[Record an incidental expense](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAnIncidentalExpense.md)**  
-Record incidental expenses associated with your business travel through the Field Service application to execute work order tasks.
--   **[Complete a questionnaire for a work order or task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/complete-wo-or-task-questionnaire.md)**  
-Complete a questionnaire for a work order or work order task. You can access and complete questionnaires from the Work Order or Work Order Task forms.
--   **[Close a work order task as complete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CloseAWorkOrderTaskAsComplete.md)**  
-Only agents can close work order tasks assigned to them.
--   **[Close a work order task as incomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CloseAWorkOrderTaskAsIncomplete.md)**  
-Close a work order task as incomplete if there is work pending on the task.
--   **[Cancel a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CancelAWorkOrderTask.md)**  
-The **Cancel Task** option is appropriate if a work order task is no longer necessary or is a duplicate of another work order task.
--   **[View asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsage.md)**  
-The Field Service Management application tracks the consumable and non-consumable parts that are used or changed during the execution of work order tasks.
-
-**Parent Topic:**[Updating task status in web interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/updating-task-status-in-web-interface.md)
 

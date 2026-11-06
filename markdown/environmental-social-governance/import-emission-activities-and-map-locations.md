@@ -1,18 +1,18 @@
 ---
 title: Import emission activities and map their locations
-description: Use the ESG content accelerator application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
+description: Use the Unified content management application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/import-emission-activities-and-map-locations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the emission factor library, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Import emission activities and map their locations
 
-Use the ESG content accelerator application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
+Use the Unified content management application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
 
 ## Before you begin
 

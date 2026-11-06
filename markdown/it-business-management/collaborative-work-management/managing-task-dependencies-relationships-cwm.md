@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [dependencies, relationships, prerequisite, dependent, related to, CWM, work items, agile]
 breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -29,13 +29,13 @@ Work items in CWM support three relationship types.
 
 -   **Dependent**
 
-    Indicates that this work item is needed by another work item before work on that item can begin. This is the inverse of a prerequisite relationship and communicates downstream impact to your team.
+    Indicates that this work item must be completed before work on another item can begin. This is the inverse of a prerequisite relationship and communicates downstream impact to your team.
 
 -   **Related**
 
     Indicates a general connection between two work items without implying a specific order of execution. Use this relationship when items share context, overlap in scope, or are otherwise connected without one blocking the other.
 
-    \[Omitted image "cwm-relationships-kanban.png"\] Alt text: A Kanban board showing a work item card with the relationships indicator, and the right side panel open listing the related work items and their relationship types.
+    \[Omitted image "cwm-relationships-kanban.png"\] Alt text: A Kanban board showing a work item card with the relationships indicator, and the side panel open listing the related work items and their relationship types.
 
 
 ## Linking work items across boards and spaces

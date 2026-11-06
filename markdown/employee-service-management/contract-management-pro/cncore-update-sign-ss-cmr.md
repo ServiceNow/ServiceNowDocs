@@ -1,20 +1,20 @@
 ---
 title: Add signatories in self-served contract request
-description: Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+description: Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add signatories in self-served contract request
 
-Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
 
 ## Before you begin
 
@@ -24,23 +24,25 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 1.  Navigate to your workspace.
 
-2.  Open the contract request that is assigned to you or for which you’re a collaborator.
+2.  Open a contract request assigned to you or one for which you are a collaborator.
 
 3.  In the **Signatories** tab, select **Add**.
 
 4.  On the Add Signatory form, indicate whether you are configuring an internal or external signatory by selecting **Internal** or **External**.
 
+    \[Omitted image "cmpro-add-sign.png"\] Alt text: Add Signatory form showing Internal and External signatory options.
+
 5.  Configure the signatories.
 
-<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d428534e91">
+<table id="choicetable_hm4_3vk_byb"><thead><tr><th align="left" id="d460595e117">
 
 Option
 
-</th><th align="left" id="d428534e94">
+</th><th align="left" id="d460595e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d428534e100">
+</th></tr></thead><tbody><tr><td id="d460595e126">
 
 **Internal**
 
@@ -48,13 +50,24 @@ Steps
 
 1.  In the **Internal Signer** field, enter the name of the signer.
 
-The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
+The **Authorized signatory name**, **Signatory**, and **Signatory email** fields are automatically populated.
 
-2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique
-3.  Select **Add**.
+2.  In the **Signatory order** field, enter the order in which the contract is sent to signers for an e-signature. Contracts are sent starting with the signatory assigned the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
+3.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+4.  Select **Add**.
 
 
-</td></tr><tr><td id="d428534e141">
+</td></tr><tr><td id="d460595e216">
 
 **External**
 
@@ -63,11 +76,22 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 1.  In the **Authorized signatory name** field, enter the external signer's name.
 2.  In the **Signatory** field, enter the external signer's title.
 3.  In the **Signatory email** field, enter the external signer's email address.
-4.  In the **Order** field, enter the order in which the contract should be sent to signers for an e-signature. The order value should be unique.
-5.  Select **Add**.
+4.  In the **Signatory order** field, enter the order in which the contract is sent to signers for an e-signature. Contracts are sent starting with the signatory assigned the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
+5.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+6.  Select **Add**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

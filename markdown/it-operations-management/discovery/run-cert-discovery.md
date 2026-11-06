@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, I
 
 The Certificate Inventory and Management application allows Discovery to automatically scan for certificates on specific ports through your existing CI-based Discovery schedules. In addition, you can create Discovery schedules to scan for specific URLs.
 
-The ServiceNow Store regularly releases new applications and updates to applications that are created by ServiceNow. If you already have the application, you can download the latest version to enhance your existing experience with our products. Different features are available or enhanced each time an application is released in the Store. Version numbers in this document indicate the content and features available in a particular release.
+The ServiceNow Store regularly releases new applications and updates to ServiceNow applications. If you already have an application, you can download the latest version to enhance your existing experience with ServiceNow products. Features vary by release. The version number indicates which content and features are available in each release.
 
 In Certificate Inventory and Management, you can add a list of imported certificates to [Run Certificate Discovery via certificate file import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/run-cert-inventory-mgmt-import.md), and scan for certificates from your Certificate Authority \(CA\) such as GoDaddy and DigiCert. You can also scan Sectigo and Entrust CAs.
 

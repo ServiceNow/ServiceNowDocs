@@ -1,37 +1,31 @@
 ---
 title: Identity
-description: Know more about the Identities in the instance.
+description: Learn about the identities in the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/identity-landing.html
 release: yokohama
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
 # Identity
 
-Know more about the Identities in the instance.
+Learn about the identities in the instance.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Access Analyzer\[Omitted image "access\_analyzer\_yg.png"\] Alt text: Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/access-analyzer.md)
+[Identity Center\[Omitted image "bus-manager.svg"\] Alt text: Identity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/identity-center.md)
 
- [Access Analyzer is a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/access-analyzer.md)[ServiceNow® Store App which is an access diagnostic tool. It helps to determine who has access to a resource.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/access-analyzer.md)
+ [Identity Center allows you to monitor, manage, and minimize identity-based risk and security gaps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/identity-center.md)
 
 </td><td>
 
 [Global Identity\[Omitted image "bus-discover.svg"\] Alt text: Global Identity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/global-identity.md)
 
  [Global Identity is a ServiceNow® store app enables to update user attributes from one instance to instance \(multiple instances\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/global-identity.md)
-
-</td><td>
-
-[Identity Center\[Omitted image "bus-manager.svg"\] Alt text: Identity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/identity-center.md)
-
- [Identity Center allows you to monitor, manage, and minimize identity-based risk and security gaps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/identity-center.md)
 
 </td></tr><tr><td>
 
@@ -44,10 +38,6 @@ Know more about the Identities in the instance.
 [Identity and Access Audit\[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Icon for working with Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/identity-audit.md)
 
  [Use the Identity and Access Audit to understand the changes made a user, group, role, and ACL.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/identity-audit.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>

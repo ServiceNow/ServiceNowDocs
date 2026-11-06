@@ -1,16 +1,16 @@
 ---
-title: Components installed with the Financial Services Operations Integration with FRISS
+title: Components installed with Financial Services Operations Integration with FRISS
 description: Several types of components are installed with activation of the Financial Services Operations Integration with FRISS \(com.sn\_fso\_intg\_friss\) plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-friss-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with FRISS, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Components installed with the Financial Services Operations Integration with FRISS
+# Components installed with Financial Services Operations Integration with FRISS
 
 Several types of components are installed with activation of the Financial Services Operations Integration with FRISS \(com.sn\_fso\_intg\_friss\) plugin, including tables.
 

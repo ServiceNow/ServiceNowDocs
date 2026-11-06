@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Qualify a work order
@@ -50,13 +50,4 @@ The following table describes the properties that control whether the choice-lis
 |Property|**travel.calculation.auto\_assignment**|Controls map provider for manual/auto assignment \(defaults to Google Maps API\)|
 |Property|**travel.calculation.dynamic\_scheduling**|Controls map provider for dynamic scheduling \(defaults to straight-line estimate\)|
 |Property|**work.spacing**|Task spacing in hours, affects travel time calculations between tasks|
-
--   **[Request additional information to qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RequestAdditionalInformation.md)**  
-Transfer orders move necessary parts to the location where the agent can receive them. If there is not enough information to create a transfer order, the dispatcher can request more details from the qualifier.
--   **[Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_QualifyATask.md)**  
-When a work order is assigned to you for qualification, review and qualify its tasks to ensure that they contain enough information for the groups that are dispatched to work on them. Qualifying work order tasks is required only when Field Service Management is configured for manual qualification.
--   **[Move a work order task to the dispatch queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_PromoteDraftWorkOrderTasks.md)**  
-If Field Service Management is configured to automatically qualify work orders, tasks are also automatically created for the orders. When one of these automatically created tasks is assigned to you, select a dispatch group for it and move it to the dispatch queue.
-
-**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

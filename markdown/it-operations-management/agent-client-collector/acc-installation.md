@@ -1,20 +1,20 @@
 ---
 title: Agent Client Collector Installation
-description: You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
+description: You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously. A single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-installation.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Installation
 
-You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously, while a single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
+You can install the Agent Client Collector on any supported host machine. The Agent Client Collector connects to a MID Server using the HTTP/S protocol, and the connection remains active after being established. One MID Server may handle several agents simultaneously. A single agent works with one MID Server at a time and switches to a different MID Server when necessary to provide failover protection.
 
 When an agent's IP address changes, it selects a MID Server to connect to based on the agent's MID Server list.
 
@@ -182,5 +182,5 @@ Agent Client Collector supports domain separation. The domain of the agent and t
 
 [Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-windows.md)
 
-[Agent Client Collector installation on macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
+[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

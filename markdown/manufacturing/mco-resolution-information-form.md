@@ -1,0 +1,24 @@
+---
+title: Resolution information form
+description: This form enables you to add the report closing details.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-resolution-information-form.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [General form, Reference, Manufacturing Commercial Operations]
+---
+
+# Resolution information form
+
+This form enables you to add the report closing details.
+
+|Field|Description|
+|-----|-----------|
+|Closed by|Select the user who closed the report.|
+|Closed|Select the date on which the report is closed.|
+|Close notes|Enter note, if necessary.|
+
+**Parent Topic:**[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-general-form.md)
+

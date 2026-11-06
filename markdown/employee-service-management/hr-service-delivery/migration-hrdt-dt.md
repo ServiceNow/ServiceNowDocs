@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [HR document templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Migrating from HR Document Templates to Document Templates
@@ -18,7 +18,7 @@ Review these guidelines to successfully migrate from HR Document Templates to Do
 
 **Important:**
 
-Starting with the Yokohama release, HR Document Templates is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported.
+Starting with the Brazil release, HR Document Templates is deprecated and no longer supported or available for new activation.
 
 Use [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/document-templates-overview.md) that provides the latest experience for this functionality. For migration guidelines, see [Migrating from HR Document Templates to Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/migration-hrdt-dt.md).
 
@@ -92,7 +92,7 @@ Participants
 
 </td><td>
 
-Participants are not supported.You must directly map user fields in HTML template body or PDF template mappings.
+Participants aren't supported.You must directly map user fields in HTML template body or PDF template mappings.
 
 </td><td>
 
@@ -188,7 +188,7 @@ For both HTML and PDF, all three signing types are supported: ServiceNow Sign, D
 
 -   Template must be created in ServiceNow.
 -   Only signing is supported in external system.
--   Templates that are created in DocuSign or AdobeSign are not supported in the Document Templates application.
+-   Templates that are created in DocuSign or AdobeSign aren't supported in the Document Templates application.
 
 </td></tr><tr><td colspan="3">
 
@@ -234,7 +234,7 @@ Automatically create draft document
 
 Automatically Initiate Document tasks
 
-Automatically initiate document tasks based on participant configuration. See .
+Automatically initiate document tasks based on participant configuration.
 
 </td></tr></tbody>
 </table>## Migrate HR Document template \(HTML\) to Document Template

@@ -1,5 +1,5 @@
 ---
-title: Manage workforce
+title: Managing workforce
 description: Oversee agent schedules, manage resources, optimize territory coverage, and handle crew tasks and assignments to ensure efficient and effective coverage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/managing-workforce.html
@@ -7,27 +7,41 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-29"
-reading_time_minutes: 1
-breadcrumb: [Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Field Service Management]
 ---
 
-# Manage workforce
+# Managing workforce
 
 Oversee agent schedules, manage resources, optimize territory coverage, and handle crew tasks and assignments to ensure efficient and effective coverage.
 
--   **[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)**  
-Use the Territory Planning Console to assign work orders or work order tasks to agents or crews in the territories that best match their location based on conditions that you set.
--   **[Agent availability and calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/agent-availability-and-calendars.md)**  
-Agent availability and calendars help manage workforce schedules by tracking working hours, breaks, and time off. These tools ensure efficient task assignments and enhance productivity. Managers and agents can update availability, supporting better scheduling decisions.
--   **[Managing agent skills, schedules and tasks in Field Service Agent Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/field-service-agent-management.md)**  
-Field Service managers can view and manage the skills, schedules, and work order tasks of agents in their assignment group.
--   **[Capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/capacity.md)**  
-View, monitor, and manage the total available resources, such as time and workforce, that are used and allocated to tasks and projects.
--   **[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)**  
-Use Field Service Crew Operations to assign the same set of resources repeatedly to the tasks that requires a crew to work on them.
--   **[Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)**  
-Enhance the quality and efficiency of your teams using smart scheduling, team structure, and real-time refreshing single scores. Assess the quality of tasks completed, recommend skills for agents, and train them to address skill gaps.
+## Using overview
 
-**Parent Topic:**[Using Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/use-fsm.md)
+Managing your workforce can include one or more of the following activities.
+
+-   \(Optional\) [Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
+
+    The territory map in the Territory Planning Console provides a visual representation of a territory so you can easily see the location of the agents and crews assigned to the territory and also assign the work order tasks.
+
+-   [Agent availability and calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/agent-availability-and-calendars.md)
+
+    Understanding the times that field service agents are available is a key part of effectively scheduling and assigning work orders and work order tasks.
+
+-   [Managing agent skills, schedules and tasks in Field Service Agent Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/field-service-agent-management.md)
+
+    Field Service managers can quickly see the team members they manage and the skills assigned to members in the team. They can also currently open work order tasks, as well as recently closed work order tasks. Field Service managers can also manage the time sheets related to the Field Service agents that are on their team.
+
+-   \(Optional\) [Capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/capacity.md)
+
+    Field Service managers can see the capacity of the resources, that includes Field Service agents and equipment, that they manage.
+
+-   \(Optional\) [Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
+
+    Some Field Service tasks require a crew to complete the work, that’s where Field Service crew operations come in.
+
+-   \(Optional\) [Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)
+
+    Use smart scheduling, team structure, and real-time refreshing single scores to improve the efficiency of your Field Service agents.
+
 

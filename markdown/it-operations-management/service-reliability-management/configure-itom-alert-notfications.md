@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-03-25"
-reading_time_minutes: 2
-breadcrumb: [Configuring ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure when to send alert notifications for ITOM Mobile
@@ -45,8 +45,6 @@ This procedure is for admins configuring alert push notifications and emails. To
 4.  In the **When to send** section, update or add to the assigned to, state, and severity conditions.
 
     For example, adding the condition **OR \[Severity\]\[is\]\[Major\]** under the condition **\[Severity\]\[is\]\[Critical\]** sends a push notification and email when the **Severity** field of an alert is Critical or Major.
-
-    \[Omitted image "itom-mobile-severity.png"\] Alt text: Box highlights the new condition in the condition builder.
 
 5.  Implement your changes by selecting **Save**.
 

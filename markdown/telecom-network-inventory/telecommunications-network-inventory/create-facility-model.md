@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-05-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating your inventory models, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Create inventory models, Use, Telecommunications Network Inventory]
 ---
 
 # Create a facility model
@@ -82,7 +82,7 @@ Name of the facility model. The ServiceNow AI Platform uses this name to identif
 
 The related tabs appear on the form. You can view or modify the tabs information. To learn more about the related tabs, see [Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md).
 
-**Parent Topic:**[Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
+**Parent Topic:**[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
 **Related topics**  
 

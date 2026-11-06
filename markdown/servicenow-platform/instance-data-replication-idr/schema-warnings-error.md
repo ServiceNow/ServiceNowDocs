@@ -1,5 +1,5 @@
 ---
-title: Warning and error messagesInstance Data Replication
+title: Warning and error messages in Instance Data Replication
 description: Understand error and warning messages related to schema definitions. You can then troubleshoot or fix Instance Data Replication \(IDR\) replication issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/instance-data-replication-idr/schema-warnings-error.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Transform replication data, Replicate data, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Warning and error messagesInstance Data Replication
+# Warning and error messages in Instance Data Replication
 
 Understand error and warning messages related to schema definitions. You can then troubleshoot or fix Instance Data Replication \(IDR\) replication issues.
 

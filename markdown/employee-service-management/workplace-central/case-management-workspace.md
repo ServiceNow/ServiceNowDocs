@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,7 +32,7 @@ As a Case manager, the workspace enables you to perform the following actions:
 -   View the graph of opened and closed cases on weekly bases.
 -   View the monthly volume of cases based on the workplace services.
 -   View the list of active cases in detail.
--   Create a workplace service request directly instead of using the Workplace Service Portal..
+-   Create a workplace service request directly instead of using the Workplace Service Portal.
 -   Assign a case to another agent within your assignment group.
 -   View case details such as the details of the employee who has requested the case, the location of the workplace on the floor map.
 -   Add notes or comments to the case.
@@ -48,6 +48,8 @@ As an admin or a case admin, you can cancel a case if it’s no longer required.
 [Lists module]()
 
 [Workplace Analytics]()
+
+[Space Planning]()
 
 [Space Optimization]()
 

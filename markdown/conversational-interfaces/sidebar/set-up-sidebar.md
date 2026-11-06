@@ -7,8 +7,8 @@ release: yokohama
 product: Sidebar
 classification: sidebar
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
@@ -36,57 +36,20 @@ Role required: admin
 
 4.  Configure the options.
 
-<table id="table_rqd_md4_ndb"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Enable enhanced chat|Slide the toggle switch to activate or deactivate.|
+    |Emojis|Slide the toggle switch to activate or deactivate emojis.|
+    |Enable standalone discussions|Slide the toggle switch to activate or deactivate.|
 
-Field
+    |Field|Description|
+    |-----|-----------|
+    |Automatic Task and Interaction record activation|Slide the toggle switch to activate Sidebar discussions for interaction and task-based records.|
+    |Custom selection|Select **View settings** to display the Sidebar Enabled Tables screen.|
+    |Requester mapping|Select **View settings** to display the [Sidebar requester mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/sidebar/sidebar-requester-mapping.md). The requester is the person requesting the record and any updates about unread messages in related Sidebar discussions will be sent to the requester.|
+    |Discussion subject mapping|To change the default subject for Sidebar discussions, select **View settings** to display the Discussion subject mapping. This screen enables admins to configure which field populates the discussion title in Sidebar discussions. See [Sidebar discussion subject mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/sidebar/sidebar-discussion-subject-mapping.md) for more information.|
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Emojis
-
-</td><td>
-
-Slide the toggle switch to activate or deactivate emojis.
-
-</td></tr></tbody>
-</table><table id="table_opq_b1n_12c"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Automatic Task and Interaction record activation
-
-</td><td>
-
-Slide the toggle switch to activate Sidebar discussions for interaction and task-based records.
-
-</td></tr><tr><td>
-
-Custom selection
-
-</td><td>
-
-Select **View settings** to display the Sidebar Enabled Tables screen.
-
-</td></tr><tr><td>
-
-Requester mapping
-
-</td><td>
-
-Select **View settings** to display the Collaboration Chat Requester Mapping screen. The requester is the person requesting the record and any updates about unread messages in related Sidebar discussions will be sent to the requester.
-
-</td></tr></tbody>
-</table><table id="table_t2c_tfd_nsb"><thead><tr><th>
+<table id="table_t2c_tfd_nsb"><thead><tr><th>
 
 Field
 
@@ -100,9 +63,7 @@ User query
 
 </td><td>
 
-If you select **View settings** one of the following lists displays:
-
--   Users that are automatically pre-filled for the agent to add to a discussion
+If you select **View settings** one of the following lists displays: -   Users that are automatically pre-filled for the agent to add to a discussion
 -   Users that display when the agent searches for participants to add to a discussion
 For more details, see [Configuring Sidebar member query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/sidebar/configure-sidebar-member-query.md).
 

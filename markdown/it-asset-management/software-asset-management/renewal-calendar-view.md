@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Renewals calendar view
@@ -18,7 +18,7 @@ Use the Renewals calendar in the Software Asset Workspace to view the entitlemen
 
 The sam\_user and sam\_admin roles can gain an understanding of the upcoming contract and entitlement renewals and expired contracts by navigating to **Software Asset Workspace** &gt; **Renewals calendar**.
 
-**Note:** Activate the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin to view the Renewals calendar.
+**Note:** Activate the Software Asset Workspace \(sn\_sam\_workspace\) store application to view the Renewals calendar.
 
 This view shows upcoming and expired renewals with the following conditions:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Security Posture Control, Security Operations]
 ---
@@ -102,7 +102,7 @@ Create, clone, edit, and activate policies. There are policies that are included
 
 Policies audit your assets to find matches for potential violations. Insights, visualizations, and use cases depend on policies. See [Policies for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-policies-overview.md).
 
-Assets that match policy conditions are reported as Findings and are mapped to the Configuration Compliance application for remediation. See [View findings for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-view-findings.md).
+Assets that match policy conditions are reported as Findings and are mapped to the Configuration Compliance application for remediation. See [Security Posture Control: Configuring and viewing your findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-view-findings.md).
 
 </td></tr><tr><td>
 

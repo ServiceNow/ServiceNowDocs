@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/guided-decision-tree-input-mapping.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Decision trees in Guided decision, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Decision trees in Guided decision, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Linking inputs in decision tree nodes

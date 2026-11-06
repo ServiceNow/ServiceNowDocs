@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -18,6 +18,8 @@ Learn about the components, such as the roles, tables, plugins, and store applic
 
 -   **[Components installed with Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/components-installed-with-hs-incident-mgmt.md)**  
 Several types of components are installed with installation of the Health and Safety Incident Management application, including tables, user roles, and scheduled jobs. The application also installs related plugins and store applications if they aren’t already installed.
+-   **[Health and safety incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-incident-form.md)**  
+Safety managers and safety agents can use the Health and Safety incident form to create an incident record or to work on a safety incident.
 -   **[Injury and illness fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-injury-illness-form.md)**  
 Safety managers and agents can use the Injury and illness form to log an injury or illness. A safety compliance manager can access an injury and illness report and mark it as recordable for reporting purposes. They can also use it to generate the injury and illness reports.
 -   **[People Involved form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-people-involved-form.md)**  

@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/clear-credentials.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Clear instance credentials in Visual Studio Code
 
 Clear the stored credentials of the current project from the system. User credentials \(instance URL, user name, password\) of a project are stored in the operating system credentials vault so that the user does not need to log in each time.
+
+## Before you begin
+
+Role required: none.
 
 ## About this task
 

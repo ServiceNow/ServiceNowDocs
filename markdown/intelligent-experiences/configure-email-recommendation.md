@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-email-recommendation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Configure, email, reply, Now Assist Admin, console, features, technology, skill, Generative AI, GenAI]
-breadcrumb: [Activate a Now Assist skill, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Activate an AI skill, Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure email reply recommendation in the AI Admin Hub console
@@ -25,25 +25,23 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
 
-    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **Now Assist Features** tab.
 
 2.  On the navigation panel, select a workflow, such as **Technology**.
 
-    Each workflow contains skill sets. The available workflows for email recommendation are Customer \(CSM\) and Employee \(HRSD\).
+    Each workflow contains feature sets. The available workflows for email recommendation are Customer \(CSM\) and Employee \(HRSD\).
 
-3.  Toggle between the list and grid layout for optimum view experience.
+3.  On the feature card that is associated with the skill you'd like to activate, select **View details**.
 
-    **Note:** The skill details are presented at the forefront of the interface, enabling you to view all the details without needing to click or navigate away.
-
-4.  Select **Activate Skill**.
+4.  In the All available skills section, select **Activate Skill**.
 
     If you have already activated the skill and want to edit the configuration, in the Active skills section, select the more options menu item \(\[Omitted image "more-options-menu-item.png"\] Alt text: More options menu item\). Then select **Edit**.
 
 5.  In the **Write with Now Assist** step, choose whether you want the Now Assist context menu to be active and then select the actions you want to be available.
 
-    After each step, select **Save and continue**. For more information about these choices, see[Skill inputs and triggers for Now Assist for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-skill-inputs.md).
+    After each step, select **Save and continue**. For more information about these choices, see Skill inputs and triggers for Now Assist for HRSD.
 
     \[Omitted image "na-email-rec-wwna.png"\] Alt text: Write With Now Assist step in guided setup for email recommendation
 
@@ -69,7 +67,7 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-now-assist-panel.md).
+    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-now-assist-panel.md).
 
         For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
 
@@ -82,5 +80,5 @@ The email recommendation skill is available in multiple workflows. The exact ste
 
 Agents can generate email drafts with generative AI.
 
-**Parent Topic:**[Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)
+**Parent Topic:**[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)
 

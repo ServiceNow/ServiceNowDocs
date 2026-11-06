@@ -1,5 +1,5 @@
 ---
-title: Using the floor map
+title: Floor map
 description: Use the floor map in the Telecommunications Network Inventory application to view the datacenters floor details and monitor the operational data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-05-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
-# Using the floor map
+# Floor map
 
 Use the floor map in the Telecommunications Network Inventory application to view the datacenters floor details and monitor the operational data.
 
@@ -29,5 +29,5 @@ Print the entire canvas of the floor map based on your map selection in the Tele
 -   **[Open floor map from an incident or alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/open-floor-map-incident-alert.md)**  
 Open datacenter floor map from an incident or alert in Service Operations Workspace for Telecommunications Network Inventory. You can view the affected hardware details in the floor map.
 
-**Parent Topic:**[Using Network visualization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-visualization.md)
+**Parent Topic:**[Network visualization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-visualization.md)
 

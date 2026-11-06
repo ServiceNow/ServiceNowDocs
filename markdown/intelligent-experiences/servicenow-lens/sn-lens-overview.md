@@ -1,21 +1,21 @@
 ---
-title: ServiceNow AI Lens landing page overview
-description: Learn about the ServiceNow AI Lens landing page.
+title: ServiceNow AI Lens desktop app landing page overview
+description: Learn about the ServiceNow AI Lens desktop application landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/servicenow-lens/sn-lens-overview.html
 release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow Lens home page, home page of ServiceNow Lens]
-breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
-# ServiceNow AI Lens landing page overview
+# ServiceNow AI Lens desktop app landing page overview
 
-Learn about the ServiceNow AI Lens landing page.
+Learn about the ServiceNow AI Lens desktop application landing page.
 
 \[Omitted image "sn-lens-home-page-overview.png"\] Alt text: ServiceNow AI Lens landing page overview
 
@@ -61,12 +61,12 @@ Preconfigured Lens actions that define behavior of ServiceNow AI Lens. Only the 
 
 </td><td>
 
-Call-to-action button
+Call-to-action buttons
 
 </td><td>
 
--   **Proceed with Lens** - Button to initiate the Lens session using the selected Lens action. This button is visible when a Lens action is selected.
--   **Capture with Lens** - Button to initiate the Lens session in a standalone mode. This button is visible when there is no Lens action selected.
+-   **Upload** - Button to upload one or more files for analysis.
+-   **Capture** - Button to capture one or more screenshots for analysis.
 
 </td></tr><tr><td>
 
@@ -86,6 +86,7 @@ Action card options
 
 |No.|Feature|Description|
 |---|-------|-----------|
-|5|Captured images|Shows the thumbnails of the captured images.|
-|6|Additional directions|User provided additional directions for Now Assist on how to analyze the image.|
+|5|Image and file cards|Cards of the screenshots that you captured and the files that you uploaded. You can click a card and view the preview of a screenshot or file in its default application.|
+|6|Additional screenshot capture or file upload buttons|Buttons to capture or upload additional screenshots or files.|
+|7|Additional directions|Option to provide instructions to AI to analyze the data in the screenshots or files in a specific way.|
 

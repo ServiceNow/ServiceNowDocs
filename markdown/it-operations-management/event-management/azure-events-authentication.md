@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Integrate Azure Monitor as an authenticated data source, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Azure Monitor with OAuth authentication
@@ -22,7 +22,7 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 On the Azure portal, alert correlation rules are defined through the **Correlate alerts** setting within Alert Processing Rules. When **Correlate alerts** is assigned on the Azure portal, the Azure Monitor alerts received on the ServiceNow® instance within 60 minutes are grouped using tag based alert clustering.
 
-Roles required: evt\_mgmt\_admin, web\_service\_admin, and oauth\_admin
+Roles required: evt\_mgmt\_integration, evt\_mgmt\_admin, web\_service\_admin, and oauth\_admin
 
 ## About this task
 
@@ -38,13 +38,13 @@ Configure the Event Management environment for the collection of events from Azu
 
     2.  Create an action group with a secure webhook, and provide the rest endpoint as `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor`.
 
-        **Note:** If you have multiple tenants on the Azure portal and you want to use bidirectional functionality to acknowledge, close, or reopen an alert on the Azure Portal, then the URL for the secure webhook has to be in the following format: `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&event_class=<new_connector_instance_name>`. The &lt;new\_connector\_instance\_name&gt; is the new Azure pull connector instance that you need to create for each tenant with other Azure service principal credentials. To know how to create the pull connector, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
+        **Note:** If you have multiple tenants on the Azure portal and you want to use bidirectional functionality to acknowledge, close, or reopen an alert on the Azure Portal, then the URL for the secure webhook has to be in the following format: `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&event_class=<new_connector_instance_name>`. The &lt;new\_connector\_instance\_name&gt; is the new Azure pull connector instance that you need to create for each tenant with other Azure service principal credentials. To know how to create the pull connector, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
-        For servicenowservices.com instances, the rest endpoint has to be `https://<instance-name>.servicenowservices.com/api/sn_em_connector/em/inbound_event?source=azuremonitor`.
+        For servicenowservices.com instances, the rest endpoint has to be `https://<instance-name>.servicenowservices.com/api/sn_em_connector/em/inbound_event?source=azuremonitor&x-sn-apikey=<api-key>`.
 
         For more information about adding a secure webhook to an action group, see [https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups](https://docs.microsoft.com/en-us/azure/azure-monitor/platform/action-groups).
 
-    3.  Navigate to **Alerts** &gt; **Manage Alert Rules**.
+    3.  Navigate to **Monitor**, select **Alerts**and then select the **Alert rules** tab.
 
     4.  In the Secure Webhook section, make sure that **Yes** is selected for the **Enable the common alert schema** option.
 
@@ -84,7 +84,7 @@ Configure the Event Management environment for the collection of events from Azu
 
     If the registered application is using an Azure V2 token, the `Client ID` should be the same as the `Application (client) ID` of the app registrations defined in your Azure Monitor portal.
 
-    If the registered application is using an Azure V1 token, the `Client ID` should be the same as the `Application ID URI` of the app registrations defined in your Azure Monitor portal \(the exposed API\).
+    If the registered application is using an Azure V1 token, the `Client ID` should be the same as the `Application ID URI` of the app registrations defined in your Azure Monitor portal. This value represents the exposed API.
 
 6.  In the **OAuth OIDC Provider Configuration** field, click the info icon \(\[Omitted image "info.png"\] Alt text: Info icon\).
 
@@ -94,15 +94,15 @@ Configure the Event Management environment for the collection of events from Azu
 
 8.  Enter the `OIDC Metadata URL` according to the Azure token used by the registered application, as shown in the following table.
 
-<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d157842e495">
+<table id="choicetable_rbx_wgs_ymb"><thead><tr><th align="left" id="d519624e492">
 
 Azure token
 
-</th><th align="left" id="d157842e498">
+</th><th align="left" id="d519624e495">
 
 OIDC Metadata URL
 
-</th></tr></thead><tbody><tr><td id="d157842e504">
+</th></tr></thead><tbody><tr><td id="d519624e501">
 
 **V2**
 
@@ -114,7 +114,7 @@ In the OIDC Provider Configuration form, add the following URL to the **OIDC Met
 
  **Note:** If attempting to integrate Azure Gov Cloud with the ServiceNow Azure Monitor Connector, remember to change the claim value to `f1f34126-d4ef-40e1-ad4b-bf5d47b4860d`.
 
-</td></tr><tr><td id="d157842e531">
+</td></tr><tr><td id="d519624e528">
 
 **V1**
 
@@ -134,7 +134,7 @@ Ensure that `<tenant-id>` is replaced with the correct Azure Tenant ID.
 </table>
 ## Result
 
-When an alert is created in Azure Monitor as part of the alert rule, the notification is sent to the ServiceNow AI Platform using the secure webhook endpoint. In your ServiceNow AI Platform instance, navigate to **All Events** to see the events. If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
+Azure Monitor sends a notification to ServiceNow AI Platform using the secure webhook endpoint when an alert rule triggers. In your ServiceNow AI Platform instance, navigate to **All Events** to see the events. To send alert state changes from the ServiceNow instance to the Azure Portal, enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
 **Parent Topic:**[Integrate Azure Monitor as an authenticated data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/azure-integration.md)
 

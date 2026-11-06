@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Network site form
@@ -50,7 +50,7 @@ Location
 
 </td><td>
 
-Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [53209e74a8bd46bceeee2a446f29624462ccc28d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+Geographic location of the network site. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a location from the Location hierarchy. To learn more about the Location hierarchy, see [0810b221422b5a22890dd24a84597bb15ddbc0d4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 </td></tr><tr><td>
 
@@ -92,5 +92,5 @@ Subcategory of the site.
 **Related topics**  
 
 
-[dfedcfeedd5cb1e09f2c9b2b13926ebc1136abf4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md)
+[c80de0b0e42c4582f147f092909ec837bbe80c4e.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/agent-chat-feature-configuration-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Engagement Messenger reference, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
 
 # Chat feature configuration form fields
@@ -98,7 +98,7 @@ Change the default mode for chatting
 
 </td><td>
 
-Determines the default mode for chatting, either synchronously \(Chat\) or asynchronously \(Messaging\).For information on how to set the default chat mode, see [Change the default chat mode for the Chat feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/em-set-default-mode-of-chatting.md).
+Determines the default mode for chatting, either synchronously \(Chat\) or asynchronously \(Messaging\).For information on how to set the default chat mode, see [Change the default chat mode for the Chat feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/em-set-default-mode-of-chatting.md).
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Email notifications for unread messages
 
 </td><td>
 
-Determines the email settings for sending email summaries for unread messages.For more information on how to enable email notifications for a specified duration, see[Configure email notifications for unread chat messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setup-email-notification-unread-message.md).
+Determines the email settings for sending email summaries for unread messages.For more information on how to enable email notifications for a specified duration, see[Configure email notifications for unread chat messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/setup-email-notification-unread-message.md).
 
 **Note:** The green color next to **Status** indicates that the email notification is enabled.
 

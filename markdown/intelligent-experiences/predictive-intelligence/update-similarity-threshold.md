@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and train a similarity solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a similarity solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Update your similarity score threshold
@@ -18,23 +18,30 @@ After you review the similarity examples provided by the system, update your sol
 
 ## Before you begin
 
--   Review the Similarity Score Threshold values for your similarity examples.
--   Role required: admin or ml\_admin
+-   Review your similarity examples and their scores. For more information see [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+-   Role required: ml\_admin or admin
+
+## About this task
+
+A deployed solution returns records only when the similarity score is higher than the **Similarity Score Threshold** value:
+
+-   The higher the threshold value, the higher the precision and the lower the coverage.
+-   The lower the threshold value, the lower the precision and the higher the coverage.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions**.
 
-2.  In the ML Solutions list, locate your solution and click the Reference Lookup icon \(i\).
+2.  In the ML Solutions list, locate your solution by filtering for the Solution Name, and open its active version.
 
-3.  Click **Open Record**.
+3.  On the solution form, locate and open the **Solution Statistics** tab.
 
-4.  In the Solution Statistics section, enter a new numerical value that represents a percentage in the **Similarity Score Threshold** field.
+4.  In the **Similarity Score Threshold** field, enter a new numerical value that represents a percentage.
 
-    For example, imagine that the current score is 80. In your similarity example review you decided to increase the accuracy of your similarity recommendations at the cost of lowering the prediction coverage. So you update the field by entering the higher score of 90.
+    For example, imagine that the current threshold is 80. In your similarity example review you decided to increase the accuracy of your similarity recommendations at the cost of lowering the prediction coverage. So you update the field by entering the higher value of 90.
 
-5.  In the Context Menu, click **Save**.
+5.  In the form's context menu \(Additional actions\), select **Save**.
 
-    Your solution uses the new threshold value that you assigned to it and returns similar results that have a score higher than 90. If you set the score to 90, the degree of similarity in your word corpus is accurate at least 91% of the time.
+    Your solution uses the new threshold value that you assigned to it and returns similar results that have a score higher than 90. If you set the threshold to 90, the similarity score must be 91% or above to return records.
 
 

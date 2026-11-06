@@ -7,9 +7,9 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Healthcare organization table
@@ -21,6 +21,10 @@ The Healthcare organization \[sn\_hcls\_organization\] table stores the details 
 -   Models healthcare organizations of different types including providers and payers.
 -   Other healthcare organizations can be nested within while also being associated with multiple healthcare locations.
 -   When a healthcare organization is created, an associated business location is also created with the same name that references the healthcare organization.
+-   Contains the Business location field, which references the CSM business location \[sn\_csm\_business\_location\] table.
+-   To associate healthcare organizations with healthcare locations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md).
+
+For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 Role required to configure the table: sn\_hcls.admin.
 
@@ -50,6 +54,8 @@ Reference
 
 The associated business location.
 
+ References the CSM business location \[sn\_csm\_business\_location\] table.
+
 </td></tr><tr><td>
 
 Identifier
@@ -60,7 +66,7 @@ String
 
 </td><td>
 
-The associated identifier of the patient.
+The unique identifier of the healthcare organization.
 
 </td></tr><tr><td>
 
@@ -84,7 +90,7 @@ String
 
 </td><td>
 
-Patient ID number associated with the patient’s name.
+ID number generated for this healthcare organization record.
 
  This field is read-only.
 
@@ -114,8 +120,6 @@ Type of healthcare organization you represent.
 -   Payer
 -   Pharmaceutical company
 -   Religious institution
-
- For more information about the available organization types, see [organization types](https://www.hl7.org/fhir/valueset-organization-type.html) defined in the FHIR specifications.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage favorites
@@ -57,7 +57,7 @@ You can add the frequently used content to your favorites list. Click the favori
     -   View the favorites in grid and list views
     **Note:** You can configure user permissions such as **Available for** and **Not Available for**. When the favorited topic is not marked available, the topic isn't visible from **My Favorites** and on the favorites widget. You can see the following message: `You don't have access to <count> of your favorited items`. For more information, see [Enable user criteria for topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/enable-user-criteria-topics.md).
 
-    For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/app-launcher-usability.md).
+    For more information, see [Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
 
 **Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-emp-center.md)
@@ -71,11 +71,17 @@ You can add the frequently used content to your favorites list. Click the favori
 
 [Use the My To-dos page]()
 
-[View advanced portal navigation]()
+[Use approval experience]()
+
+[Manage approvals from Microsoft Teams]()
+
+[Manage approvals from a Microsoft Outlook email]()
 
 [Task filters on My tasks]()
 
 [View the Recommended for you content]()
+
+[Use Employee Center from Zoom]()
 
 [View employee profile]()
 
@@ -84,6 +90,8 @@ You can add the frequently used content to your favorites list. Click the favori
 [Employee Profile org chart widget]()
 
 [RTL support for Employee Center]()
+
+[Access applications from App Launcher]()
 
 [Use Guided Self-Service]()
 

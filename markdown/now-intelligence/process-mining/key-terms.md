@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
+breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
 
 # Process Mining key terms

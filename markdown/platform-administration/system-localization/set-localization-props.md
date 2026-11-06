@@ -7,8 +7,8 @@ release: yokohama
 product: System Localization
 classification: system-localization
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [System Localization reference, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -38,11 +38,12 @@ Enable sorting \(for lists\) in the user's session language when the language is
 
 Enable sorting string values in a column according to the rules of the user's session language. If this option isn’t selected, field values are sorted according to the English alphabet.-   Options: Yes \| No
 -   Default value: No
+-   When this property is set to Yes, and Locale Text Match is true, then the `i18n_session_language_sortable` column attribute must be set to false. See [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/sl-locale-text-match.md).
 -   Learn more: [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/sorting-session-language.md)
 
 </td></tr><tr><td>
 
-Show the language select box on the login page to allow the user to specify the language they would like to be logged in with.
+Show the language select box on the login page so the user can specify the language they would like to be logged in with.
 
  **glide.ui.login.language.select**
 
@@ -124,7 +125,31 @@ Determines the system's default currency into which all prices are automatically
 -   Default value: None
 -   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/currency-administration/locales.md)
 
- **Note:** You have already set a value on this system property, do not change this value once a system has gone into production. If a user's locale must be changed, update the "Country code" field on the user record.
+ **Note:** After you have set a value on this system property and your system has gone into production, do not change this value. If a user's locale must be changed, update the "Country code" field on the user record.
+
+</td></tr><tr><td>
+
+Determines whether the platform displays dates and times formatted according to the user's locale.
+
+ **glide\_i18n.date.default\_to\_locale**
+
+</td><td>
+
+Determines whether the platform displays dates and times formatted according to a user's locale when no date or time format has been selected in user preferences. If this option isn't enabled, dates and times are formatted using patterns set in the **glide.sys.date\_format** and **glide.sys.time\_format** properties. -   Options: Yes \| No
+-   Default value: No
+-   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/currency-administration/locales.md)
+
+</td></tr><tr><td>
+
+For guest users, enables using their IP address to try to set the user's initial language.
+
+ **glide\_i18n.ip\_geolocation**
+
+</td><td>
+
+Determines the platform's default language used from the country associated with the user's IP address if locale can't be determined from other settings. If this option isn't enabled, the platform language defaults to English for guest users whose locale can't be determined.-   Options: Yes \| No
+-   Default value: No
+-   Learn more: [Locale settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/currency-administration/locales.md)
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Client state parameters, Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Client state parameters, Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Update a component’s state using client state parameters
@@ -44,17 +44,11 @@ For example, you can add a button and label component to your page. The button c
 
 5.  To define a client state parameter with an associated value, select Client state parameters in the lower-left panel.
 
-    \[Omitted image "uib-client-state-icon.png"\] Alt text: Client state parameters
-
 6.  Select **+ Add**.
-
-    \[Omitted image "client-state-add.png"\] Alt text: Edit client state parameters modal.
 
 7.  Enter a name for the client state name, type, and initial value.
 
     The client state supports Strings, Numbers, Boolean, and JSON. For example, you could enter the name as `dynamic_label_value`, the type as `String`, and the initial value as `Initial Value`.
-
-    \[Omitted image "client-state-example.png"\] Alt text: Client state with name Counter, Type as Number, and initial value of 0.
 
 8.  Bind the value of the client state parameter to your component.
 
@@ -68,25 +62,17 @@ For example, you can add a button and label component to your page. The button c
 
         The data binding modal appears.
 
-        \[Omitted image "client-state-data-bind-modal.png"\] Alt text: Data binding modal showing available data.
-
     4.  Select **Client states** in the **Data types** tab.
 
     5.  Double-click the client script that you want to bind to the component.
 
-        \[Omitted image "client-state-select-bind.png"\] Alt text: Select a client state from the list.
-
     6.  Select **Apply**.
-
-        \[Omitted image "client-state-bind-result.png"\] Alt text: Client state binding value in the Configure panel.
 
 9.  Select **Save**.
 
 10. Bind the client state value to one component and create a script to connect the second component to the first.
 
     1.  In the left pane, select the **+** icon next to **Client scripts**.
-
-        \[Omitted image "client-script-icon-location.png"\] Alt text: Arrow pointing to the + icon next to client scripts in the UI Builder data drawer.
 
     2.  Enter a script name that describes the task.
 
@@ -95,8 +81,6 @@ For example, you can add a button and label component to your page. The button c
     3.  In the Now Code Editor, add your script.
 
         Let's say that you choose an API to call, and the parameters for the API, such as a state and a value. For example, you could call the `api.setState`, and include the`dynamic_label_value` as the first parameter, and a `NEW VALUE` as the second parameter.
-
-        \[Omitted image "client-state-add-script-example.png"\] Alt text: Script for Update Label Value.
 
 11. Add an event handler to your second component to call the new client script that you created.
 

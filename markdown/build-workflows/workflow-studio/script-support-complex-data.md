@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Complex data, Building actions, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Script support for complex data

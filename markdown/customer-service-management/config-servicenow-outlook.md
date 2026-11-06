@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-servicenow-outlook.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Microsoft Outlook, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Microsoft Outlook, Integrate, Customer Service Management]
 ---
 
 # Configure the ServiceNow Add-in for Microsoft Outlook
@@ -16,7 +16,7 @@ Configure user roles and download the office add-in manifest file in order to us
 
 ## Before you begin
 
-Role required: admin or both sn\_customerservice.proxy\_contact and sn\_customerservice.contact\_manager roles.
+Role required: admin or both sn\_csm\_proxy\_cont and sn\_customerservice.contact\_manager roles.
 
 ## Procedure
 

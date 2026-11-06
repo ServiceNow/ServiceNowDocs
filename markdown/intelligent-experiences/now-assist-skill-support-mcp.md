@@ -1,31 +1,32 @@
 ---
-title: Now Assist skill support in MCP Server Console
-description: MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of Now Assist skills.
+title: AI skill support in MCP Server Console
+description: MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of AI skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-support-mcp.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-12-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, MCP Server Console, Enable AI experiences]
+breadcrumb: [Reference, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
-# Now Assist skill support in MCP Server Console
+# AI skill support in MCP Server Console
 
-MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of Now Assist skills.
+MCP Server Console supports creating tools for Model Context Protocol \(MCP\) servers from a subset of AI skills.
 
-The following Now Assist skills are preconfigured as tools MCP Server Console:
+The following AI skills are preconfigured as tools MCP Server Console:
 
 -   Case summarization
 -   Incident summarization
 
-In addition, you can create tools from the following Now Assist skills or from custom skills created with Now Assist Skill Kit. Only Now Assist skills that don't rely on back-end information as inputs, such as sys IDs, are available to be created as tools. Some Now Assist skills don't currently meet the criteria required to be used as tools. For more information, contact your ServiceNow representative.
+In addition, you can create tools from the following AI skills or from custom skills created with AI Skill Kit. Only AI skills that don't rely on internal information as inputs, such as sys\_ids, are available to be created as tools. Some AI skills don't currently meet the criteria required to be used as tools. For more information, contact your ServiceNow representative.
 
 -   Analyze the CMDB Search request
 -   Change request risk explanation
 -   Code Assist AutoComplete
 -   Code Assist Edit
 -   Code Assist Generation
+-   Code Assist Summarization
 -   Common control objective creation
 -   Correlation insights generation
 -   Customer Service Summary
@@ -63,9 +64,9 @@ In addition, you can create tools from the following Now Assist skills or from c
 **Related topics**  
 
 
-[Create a tool for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-tool-mcp-server.md)
+[Create a tool from an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-a-tool-from-naskill.md)
 
-[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md)
+[Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 
 [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md)
 

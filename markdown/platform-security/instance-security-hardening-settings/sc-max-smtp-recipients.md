@@ -1,5 +1,5 @@
 ---
-title: Minimize SMTP Recipient Quantity \[Updated in Security Center 1.3\]
+title: Minimize SMTP Recipient Quantity
 description: The glide.email.smtp.max\_recipients specifies the maximum number of recipients the instance can list in the To: line for a single email notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.html
@@ -7,32 +7,113 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Logic, Hardening settings, Platform Security]
 ---
 
-# Minimize SMTP Recipient Quantity \[Updated in Security Center 1.3\]
+# Minimize SMTP Recipient Quantity
 
 The **glide.email.smtp.max\_recipients** specifies the maximum number of recipients the instance can list in the **To:** line for a single email notification.
 
-Set **glide.email.smtp.max\_recipients** to the recommended value of **100 or less**. Notifications that would exceed this limit instead create duplicate email notifications addressed to a subset of the recipient list. Each email notification has the same maximum number of recipients.
+The **glide.email.smtp.max\_recipients** system property specifies the maximum number of recipients the instance can list in the To: line for a single email notification. Notifications that would exceed this limit instead create duplicate email notifications addressed to a subset of the recipient list. Each email notification has the same maximum number of recipients.
+
+Ensure that the property **glide.email.smtp.max\_recipients** is set to `100` or less.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.email.smtp.max\_recipients**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)|
-|Purpose|If this property is set to an insecure value above the default value of 100, then its possible a denial of service could happen on the instance.|
-|Recommended value|100|
-|Default value|100|
-|Configuration type|Integer|
-|Security risk|\(Moderate\) Notifications that would exceed this limit instead create duplicate email notifications addressed to a subset of the recipient list.|
-|Security risk rating|4.9|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.email.smtp.max\_recipients**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+String
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+An integer less than or equal to 100
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+100
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+100
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 4.9
+-   CVSS rating: Medium
+-   Security risk details: This can lead to resource exhaustion and potentially cause a Denial of Service \(DoS\) condition on the email subsystem or the instance itself. Limiting recipient counts is essential to prevent abuse and maintain system performance and availability.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)
 

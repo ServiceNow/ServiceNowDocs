@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage status of your projects using Project Status application, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage status of your projects using Project Status application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Activate Mobile Project Status
@@ -59,5 +59,5 @@ Enables you to manage your demands, resources, portfolios and projects. It also 
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Amazon DynamoDB discovery using Patterns
@@ -22,7 +22,7 @@ The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -65,7 +65,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     To enable alert-based discovery, configure the AWS event service as described in Set up AWS event processing for Discovery and Service Mapping in the ServiceNow Cloud Provisioning and Governance documentation.
 
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -314,10 +314,7 @@ The Pattern Designer fails because of a timeout during pattern debugging \(and n
 By default, the **sa.debugger.max\_timeout**parameter is set to 240 seconds.Increase the value of this parameter on the relevant MID Server.
 
 </td></tr></tbody>
-</table>-   **[Define a Cloud REST Query for cloud computing devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.md)**  
-As part of creating or modifying a discovery pattern, you can use the **Cloud REST Query** operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
-
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+</table>**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
 **Related topics**  
 

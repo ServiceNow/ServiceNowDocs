@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -32,7 +32,7 @@ Before starting the encryption proxy, verify the following:
 
 1.  Run the proxy server.
 
-<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d226113e93">
+<table id="choicetable_mpf_khb_tt"><tbody><tr><td id="d290339e99">
 
 **On a Linux machine**
 
@@ -42,7 +42,7 @@ Before starting the encryption proxy, verify the following:
 2.  Execute `./startup.sh`
 
 
-</td></tr><tr><td id="d226113e117">
+</td></tr><tr><td id="d290339e123">
 
 **On a Windows machine**
 

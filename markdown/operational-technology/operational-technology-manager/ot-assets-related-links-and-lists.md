@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Edit or view OT devices after import or discovery, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -41,7 +41,7 @@ IP Address
 
 </td><td>
 
-The IP addresses, IP versions, Net masks, NIC numbers, and configuration items that are associated with the OT device.
+The IP addresses, IP versions, net masks, network partition identifiers, NIC numbers, and configuration items that are associated with the OT device.
 
 </td></tr><tr><td>
 
@@ -180,6 +180,14 @@ Shows the network connections an OT device has with other devices.
 
 </td></tr><tr><td>
 
+IP Network Subnets
+
+</td><td>
+
+Shows all subnets the device is associated with.
+
+</td></tr><tr><td>
+
 Key Value
 
 </td><td>
@@ -201,6 +209,17 @@ Firmware Installation
 </td><td>
 
 Firmware associated with the OT device.
+
+</td></tr><tr><td>
+
+VLAN Configurations
+
+</td><td>
+
+Captures the following VLAN information associated with the OT device.-   VLAN ID
+-   VLAN Tag
+-   Subnet
+-   VLAN Type
 
 </td></tr></tbody>
 </table>-   **[Operational Technology device form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/ot-assets-form.md)**  

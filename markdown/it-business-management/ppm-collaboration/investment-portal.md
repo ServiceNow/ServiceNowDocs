@@ -1,20 +1,24 @@
 ---
 title: Investment Portal
-description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+description: Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. The intuitive interface makes project and demand management more efficient.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/ppm-collaboration/investment-portal.html
 release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-12"
 reading_time_minutes: 3
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Investment Portal
 
-Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics in an intuitive user interface that makes project and demand management more efficient.
+Completing projects and demands on time within budget is a challenge. Investment Portal gives you a comprehensive view of project and demand financials, deadlines, and other important metrics. The intuitive interface makes project and demand management more efficient.
+
+**Important:**
+
+Starting with the Australia release, the Investment Portal is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base. Use Portfolio Planning module in Strategic Planning \(for Pro license\) or Portfolio Planning Workspace \(for standard license\) to experience a more interactive and strategically aligned way to manage portfolios.
 
 Tracking and managing your investments \(both projects and demands\) and then creating investment reports and sharing them through email is time consuming and inefficient. To generate a report you must obtain the status of projects and demands from project and demand managers, produce the report, and then email it.
 

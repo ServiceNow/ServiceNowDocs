@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/debug-drawer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile app settings, Using the mobile apps, Mobile Platform]
 ---
@@ -49,15 +49,15 @@ Debug drawer displayed with screen data
 
 3.  Choose from the following option to either enable or disable the debug drawer option.
 
-<table id="choicetable_oh3_m3c_z4b"><thead><tr><th align="left" id="d107968e116">
+<table id="choicetable_oh3_m3c_z4b"><thead><tr><th align="left" id="d116234e122">
 
 Option
 
-</th><th align="left" id="d107968e119">
+</th><th align="left" id="d116234e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d107968e125">
+</th></tr></thead><tbody><tr><td id="d116234e131">
 
 **Enable debug drawer**
 
@@ -70,7 +70,7 @@ The **Debug Drawer** option displays in the settings page.
 2.  Enable **Debug Drawer**, to display the debug drawer on each screen.
 
 
-</td></tr><tr><td id="d107968e154">
+</td></tr><tr><td id="d116234e160">
 
 **Disable debug drawer**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Install Legal Request Management
@@ -61,7 +61,7 @@ You can also install the following applications:
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -69,7 +69,7 @@ You can also install the following applications:
 
 4.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 5.  Select **Install**.
 

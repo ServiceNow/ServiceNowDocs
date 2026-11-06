@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Importing and exporting projects, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Import project tasks for multiple projects
@@ -29,6 +29,8 @@ Role required: import\_transformer, import\_admin, or admin
 3.  From the Import set table list, select the **Import planned task \[imp\_planned\_task\]** option.
 
 4.  In the **Source of the import** field, select File, and then select **Choose File** to select the source Excel spreadsheet.
+
+    \[Omitted image "import\_task\_file.png"\] Alt text: Import task file configuration form
 
 5.  If required, specify the Work sheet and Header row number.
 

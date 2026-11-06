@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Field Service Management with other applications, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Integration with Virtual Conferencing
@@ -18,18 +18,18 @@ With ServiceNow Field Service Management Virtual Conferencing Integration, colla
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Integration with virtual conferencing overview
+## Virtual conferencing integration overview
 
 The Field Service Management Virtual Conferencing Integration application integrates the conference communication channel with the Notify communication channel by managing and initiating a Zoom or Microsoft Teams meeting directly from the Now Agent mobile application.
 
 As an agent, you can use the Field Service Management Virtual Conferencing Integration application to initiate Zoom or Microsoft Teams meetings using the Initiate Conference option in your Now Agent mobile application.
 
-To get started with the Field Service Management Virtual Conferencing Integration, see [Install Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.md).\[Omitted image "FSM-conference-integration.png"\] Alt text: Field Service Management virtual conference integration where field service agents can take their peer's help to collaborate and resolve the isssues.
+To get started with the Field Service Management Virtual Conferencing Integration, see [Install Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.md).
 
 -   **[Install Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.md)**  
-You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Configure Field Service Management Virtual Conferencing Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-integrations/configure-virtual-conference-fsm.md)**  
 Install and set up the Field Service Management Virtual Conferencing Integration application to interact with customers and peer agents using Zoom or Microsoft Teams meetings initiated from the Now Agent mobile application.
 -   **[View details for recorded conference calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-integrations/view-zoom-meeting-initiated-from-mobile.md)**  

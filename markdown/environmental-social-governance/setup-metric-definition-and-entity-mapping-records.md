@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/setup-metric-definition-and-entity-mapping-records.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Activate document intelligence for utility invoices skill, Configure, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -28,7 +28,7 @@ Once the metric definitions and entity mappings have been configured, you can be
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Environmental, Social, and Governance** &gt; **ESG Workspace** &gt; **Metrics** &gt; **Automated metric definitions**.
+1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics** &gt; **Automated metric definitions**.
 
 2.  Select the filter icon and select **Advanced view**.
 

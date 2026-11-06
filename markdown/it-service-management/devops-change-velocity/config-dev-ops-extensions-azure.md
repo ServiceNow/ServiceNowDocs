@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Configuring the Azure pipeline for DevOps, Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -90,6 +90,8 @@ Azure build \(CI\) pipeline custom tasks:
     -   **ServiceNow DevOps Release Security Results** custom task \(for Release pipelines\)
     **Note:** The **ServiceNow DevOps Build Security Result** task is not supported for Release pipelines.
 
+
+The **ServiceNow DevOps Server Job Notification** and **ServiceNow DevOps Agent Job Notification** tasks are not required pipeline tasks for ServiceNow to track Azure DevOps pipeline job executions. If either is used in your pipelines, you can remove them.
 
 ## Procedure
 

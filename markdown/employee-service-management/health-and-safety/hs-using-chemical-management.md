@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -24,10 +24,16 @@ Employees can request a chemical available in the chemical library or initiate a
 A chemical manager reviews a chemical request received from the employee and submits it for approval by the approver.
 -   **[Approve or reject a chemical request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-approve-reject-chemical-request.md)**  
 The approver or the chemical manager can approve or reject the chemical request in the Employee Center.
--   **[Create a chemical record for a new chemical](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-chemical-record-new-chemical.md)**  
+-   **[Create a chemical record for a chemical](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-chemical-record-new-chemical.md)**  
 The chemical manager can create a chemical record for the new chemical request that has been approved.
+-   **[Complete a chemical record manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-complete-chemical-record-manually.md)**  
+Chemical manager can complete the chemical record for an approved chemical manually if an integration with the 3E service provider is not available.
+-   **[Delete a chemical record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-delete-chemical-record.md)**  
+When a chemical is no longer needed or was created in error, deleting it permanently removes the record from the system.
 -   **[Request a safety data sheet \(SDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-request-safety-data-sheet-sds.md)**  
 You can request a safety data sheet \(SDS\) from the chemical record to view the safety data for that chemical. The SDS can be downloaded in different languages.
+-   **[Monitor and manage the Regulatory list for a chemical substance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-monitor-manage-regulatory-tab.md)**  
+Use the Regulatory tab on a chemical substance record to quickly assess regulatory conformance status, review regulations, and track upcoming and overdue regulatory obligations.
 
 **Parent Topic:**[Using Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-using-environmental-management.md)
 

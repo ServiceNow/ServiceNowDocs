@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-map-overlay.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 19
-breadcrumb: [Configuring Field Service Territory Planning Console, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configuring a map overlay

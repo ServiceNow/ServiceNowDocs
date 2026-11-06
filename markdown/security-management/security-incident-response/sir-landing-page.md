@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-03-17"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Enterprise security case management applications, Security Operations]
 ---
 
@@ -18,7 +18,7 @@ The ServiceNow® Security Incident Response application tracks the progress of s
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_cmj_pv1_abc" class="nav-card"><tbody><tr><td>
 
@@ -26,17 +26,13 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Now Assist for Security Incident Response\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Learn how Now Assist for Security Incident Response supports ServiceNow® Generative AI \(GenAI\) skills in the Security Incident Response Workspace and in the Core UI \(UI16\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-security-incident-response-sir/now-assist-security-incident-landing.md)
-
-</td><td>
-
 [Set up and Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and set up your Security Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/setup-sir.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Administer\[Omitted image "bus-optimize-manage.svg"\] Alt text:Manage and customize your security incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_ConfigureSIM.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Security Incident Response by integrating it with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir_integrations.md)
 
@@ -44,11 +40,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 [Use the Security Incident Response Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to use the Security Incident Response and IT Remediation Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir-workspace-landing-page.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Analytics and Reporting\[Omitted image "bus-infographic.svg"\] Alt text:Monitor remediation progress](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/security-incident-content-pack.md)
 
-</td><td>
+</td></tr><tr><td>
 
  
 
@@ -56,10 +52,14 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 [\`\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/c_SecIncRespOrchestration.md)
 
+</td><td>
+
+ 
+
 </td></tr></tbody>
 </table>## Request a Security Operations app on Store
 
-If you are a new Security Operations customer on London Patch 6 or later, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website. View available apps and submit requests.
+If you're a new Security Operations customer on London Patch 6 or later, visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps. For information about submitting requests, visit the store.
 
 ## Troubleshoot and get help
 

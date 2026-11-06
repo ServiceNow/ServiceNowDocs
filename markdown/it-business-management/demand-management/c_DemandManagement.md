@@ -7,8 +7,8 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -17,6 +17,17 @@ breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 The Demand Management application consists of tools for capturing, centralizing, and assessing strategic and operational demands. It also provides a single location for managing all the demand information.
 
 ## Demand Management overview
+
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
 
 ## Get started
 

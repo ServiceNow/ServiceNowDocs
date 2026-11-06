@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/components-installed-sales-agreement.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Agreement Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Sales Agreement Management
@@ -77,4 +77,6 @@ sn\_sales\_agmt\_core.sales\_agreement\_viewer
 |sn\_sales\_agmt\_core\_sales\_agreement\_line|Stores the lines of a sales agreement indicating the products and services agreed for sale.|
 |sn\_sales\_agmt\_core\_line\_characteristic|Stores the attributes of products and services to be sold.|
 |sn\_sales\_agmt\_core\_line\_adjustment|Stores the adjustments applied during negotiation.|
+
+**Parent Topic:**[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reference-cpq.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Install Agent Workspace for HR Case Management
-description: Install Agent Workspace for HR Case Management \(sn\_hr\_agent\_ws\) from the ServiceNow Store.
+description: Install Agent Workspace for HR Case Management \(com.sn\_hr\_agent\_ws\) from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/install-configurable-hr-agent-ws.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Agent Workspace for HR Case Management
 
-Install Agent Workspace for HR Case Management \(sn\_hr\_agent\_ws\) from the ServiceNow Store.
+Install Agent Workspace for HR Case Management \(com.sn\_hr\_agent\_ws\) from the ServiceNow Store.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find an application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  Select a version from the list and select **Install**.
 
@@ -40,7 +40,7 @@ Role required: admin
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

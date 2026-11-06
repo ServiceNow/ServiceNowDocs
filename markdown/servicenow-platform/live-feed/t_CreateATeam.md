@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -37,11 +37,7 @@ As team administrator, you can do the following:
 
 3.  Click **Create Team**.
 
-    \[Omitted image "Teams.png"\] Alt text: Teams
-
 4.  Enter a **Name** to appear at the top of the feed and in messages posted to the team.
-
-    \[Omitted image "NewTeam.png"\] Alt text: New team
 
     This name links to the team feed.
 
@@ -57,8 +53,6 @@ As team administrator, you can do the following:
 7.  Click **Create**.
 
     The team is created with you as the team administrator.
-
-    \[Omitted image "NewlyCreatedTeam.png"\] Alt text: Newly created team
 
     **Note:** A team administrator can create one or more group feeds specifically for the members of this team by clicking the **Group Feeds** tab and **Create Group Feed**. Additionally, the team can be invited to join a feed. Having multiple feeds for the team facilitates focused discussions on topics of interest to the team and allows the team to selectively invite other teams and members to collaborate on specific feeds.
 

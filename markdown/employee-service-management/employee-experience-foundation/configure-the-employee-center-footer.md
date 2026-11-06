@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Footer configuration, Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Footer configuration, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the footer
@@ -38,4 +38,6 @@ Role required: sp\_admin or admin
 If you click **Save**, the Employee Center Footer Menus section appears.
 
 To configure menus for the footer, see [Configure the footer menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-emp-center-footer-menus.md).
+
+**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
 

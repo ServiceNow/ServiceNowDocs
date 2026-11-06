@@ -1,26 +1,26 @@
 ---
-title: Review the Now Assist suggestions for clause deviations
-description: Review the Now Assist suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
+title: Review the AI suggestions for clause deviations
+description: Review the suggestions for clause deviations and take actions by using the ServiceNow Otto for Contract Management Pro application to ensure that the clauses comply with the guidelines of the company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-review-contract-document.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Contract analysis using Now Assist in Contract Management, Using Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Contract review using AI, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Review the Now Assist suggestions for clause deviations
+# Review the AI suggestions for clause deviations
 
-Review the Now Assist suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
+Review the suggestions for clause deviations and take actions by using the ServiceNow Otto for Contract Management Pro application to ensure that the clauses comply with the guidelines of the company.
 
 ## Before you begin
 
-Before you start to review a document, make sure that the document has been analyzed by the Now Assist application. For more information, see [Analyze a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.md).
+Before you start to review a document, verify the AI analysis of the contract document is complete. For more information, see [Analyze a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.md).
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller and sn\_cm\_core.contract\_fulfiller
+Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 ## About this task
 
@@ -35,27 +35,27 @@ A clause is a section in a contract document that outlines the guidelines of the
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d252039e134">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d272921e126">
 
 Method
 
-</th><th align="left" id="d252039e137">
+</th><th align="left" id="d272921e129">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d252039e143">
+</th></tr></thead><tbody><tr><td id="d272921e135">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
 3.  Select **Contract requests** &gt; **All**.
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d252039e191">
+</td></tr><tr><td id="d272921e182">
 
 **Workspace used by your application**
 
@@ -69,11 +69,11 @@ Steps
 </td></tr></tbody>
 </table>2.  Select **Contract documents**.
 
-3.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \(\[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text: Now Assist Review from contracts icon\).
+3.  If the contextual side panel isn’t open, select the AI for Contracts icon \[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text:.
 
 4.  From the document card, select **Open document**.
 
-    The following table describes the different storage options for internal or external contract downloads.
+    Depending on the internal or external storage configuration the document is downloaded into your system or opened online.
 
 <table id="table_yy5_yq5_zcc"><thead><tr><th>
 
@@ -89,7 +89,7 @@ Internal storage
 
 </td><td>
 
-The document is downloaded into your local system.
+The document is downloaded to your local system.
 
 </td></tr><tr><td>
 
@@ -102,15 +102,20 @@ External storage:1.  Microsoft OneDrive
 The document opens online from the external storage.
 
 </td></tr></tbody>
-</table>5.  If you configure Google Drive, download the document and open it offline to review the Now Assist suggestions.
+</table>5.  Open the contract document depending on your storage configuration.
 
-6.  Review the Now Assist suggestions.
+    -   Internal storage: Open the downloaded document from your system to work on it offline.
+    -   Microsoft OneDrive: Open the document online, or download the document to work on it offline.
+    -   Google Drive: Download the document and open it offline.
+    If you worked on the contract document offline, you must upload the document manually by creating a revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
+
+6.  Review the suggestions.
 
     1.  From the Microsoft Word ribbon, select the ServiceNow Contracts add-in.
 
         For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
-    2.  Enter the legal fulfiller credentials to log in.
+    2.  Log in by entering the legal fulfiller credentials.
 
         The ServiceNow Contracts add-in displays the tabs as listed in the following table.
 
@@ -141,38 +146,39 @@ Description
 Lists all the standard clauses that are active for the contract type that the document belongs to.
 
 </td></tr></tbody>
-</table>    3.  On the **Review Analysis** tab, select **Pending reviews** to review the Now Assist suggestions.
+</table>    3.  On the **Review Analysis** tab, select **Pending reviews** to review the suggestions.
 
 7.  Work on a clause that is tagged as non-standard.
 
     1.  On the **Pending reviews** tab, select the clause card that is tagged as **non-standard**.
 
-        -   Microsoft Word navigates to the clause that is associated with the clause card. If it doesn't navigate you to the clause, you must manually navigate to the clause.
+        -   Microsoft Word navigates to the clause that is associated with the clause card.
         -   The following suggestions are displayed in the card:
-            -   Now Assist comment: Now Assist feedback depending on the clause and the expected responses.
-            -   Standard clause suggestion: Standard clause content suggestion that is.
+            -   AI comment: Feedback depending on the clause and the expected responses.
+            -   Standard clause suggestion: Standard clause content suggestion from the clause library.
             -   Show more/less: Option to expand or collapse the text.
-    2.  Accept or ignore the Now Assist suggestion.
+            -   Thumbs up \[Omitted image "thumbs-up-outline-24.svg"\] and Thumbs down \[Omitted image "thumbs-down-outline-24.svg"\] icons to capture the feedback.
+    2.  Accept or ignore the suggestion.
 
-<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d252039e510">
+<table id="choicetable_zsg_1gb_1dc"><thead><tr><th align="left" id="d272921e510">
 
 Action
 
-</th><th align="left" id="d252039e513">
+</th><th align="left" id="d272921e513">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d252039e519">
+</th></tr></thead><tbody><tr><td id="d272921e519">
 
 **Replace the non-standard clause**
 
 </td><td>
 
--   Select the clause content in the document that needs to be replaced.
+-   Select the clause content in the document that must be replaced.
 -   Select **Use this clause**.
 
 
-</td></tr><tr><td id="d252039e540">
+</td></tr><tr><td id="d272921e540">
 
 **Ignore suggestion**
 
@@ -185,7 +191,7 @@ Select **Ignore**.
 
     1.  On the **Pending reviews** tab, select the clause card that is tagged as non-standard.
 
-    2.  Accept or ignore the Now Assist suggestion.
+    2.  Accept or ignore the suggestion.
 
     |Action|Steps|
     |------|-----|
@@ -196,7 +202,19 @@ Select **Ignore**.
 
     As you review the clauses and take action, they’re moved to the **Completed** tab with the details of the action taken.
 
-10. Add a clause from the clause library.
+10. Provide feedback to help improve the accuracy of contract analysis over time.
+
+    1.  For each suggestion, select the thumbs up icon if the suggestion is helpful or the thumbs down icon if the suggestion is not helpful.
+
+    2.  In the pop-up, select the options that best describe your experience.
+
+        You can select multiple options and add optional comments.
+
+    3.  Select **Submit**.
+
+    The feedback is captured in the Contracts Gen AI Feedback \[sn\_cm\_gen\_ai\_feedback\] table.
+
+11. Add a clause from the clause library.
 
     1.  Select the **Clause library** tab.
 
@@ -210,21 +228,21 @@ Select **Ignore**.
 
     5.  Select **Use this clause**.
 
-    The clause is added to the document. When a valid metadata mapping exists within the clause content, the metadata gets auto-populated. Otherwise, a content control tag name is added and the metadata has to be manually updated. For more information, see [Configure metadata for fields, variables, and variables sets in a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-add-metadata.md).
+    The clause is added to the document. When a valid metadata mapping exists within the clause content, the metadata gets auto-populated. Otherwise, a content control tag name is added and the metadata must be manually updated. For more information, see [Configure metadata for fields, variables, and variables sets in a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-add-metadata.md).
 
-11. Mark the review as complete.
+12. Mark the review as complete.
 
     1.  Select **Mark as complete**.
 
-    2.  Select **Yes** to mark the review complete.
+    2.  Mark the review as complete by selecting **Yes**.
 
-        You can select **Cancel** to continue working on the suggestions.
+        Continue working on the suggestions by selecting **Cancel**.
 
     -   The review is marked as complete and the file is updated in the configured storage.
     -   After the review is marked complete, you can't take any further actions even if there are pending reviews.
-    -   The Contract state is updated to Work in progress and the Contract status is updated to Review completed.
-    **Note:** If you downloaded the document to work on it offline, You must upload the document manually by creating a revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
+    -   The Contract request state is Work in progress and the Contract status is updated to Review completed.
+    **Note:** If you download the document to work on it offline, you must upload the document manually by creating a revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
 
-**Parent Topic:**[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

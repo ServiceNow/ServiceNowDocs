@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: concept
-last_updated: "2025-05-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Workplace Application, Workplace app]
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
@@ -21,19 +21,19 @@ Manage all your workplace cases and tasks using the Workplace Agent for mobile a
 
 <table id="table_qld_tw1_gvb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Agent for mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/explore-workplace-agent-mobile.md)
+[Explore Learn about Workplace Agent for mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/explore-workplace-agent-mobile.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-install.png"\] Alt text: Configure Install Workplace Agent for mobile to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/configure-workplace-mobile-agent.md)
+[Configure Install Workplace Agent for mobile to get started.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/configure-workplace-mobile-agent.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-request.png"\] Alt text: Use Use Workplace Agent for mobile to manage, edit, update and resolve workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
+[Use Use Workplace Agent for mobile to manage, edit, update and resolve workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/use-workplace-agent-mobile.md)
 
 </td><td>
 
-[Components \[Omitted image "icon-reference.png"\] Alt text: Components Know about the key features of Workplace Agent for mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-references.md)
+[Components Know about the key features of Workplace Agent for mobile.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-agent-for-mobile/workplace-agent-mobile-references.md)
 
 </td></tr></tbody>
 </table>

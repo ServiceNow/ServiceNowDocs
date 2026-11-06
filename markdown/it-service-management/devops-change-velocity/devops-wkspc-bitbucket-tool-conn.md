@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Bitbucket, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Bitbucket.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d410712e96">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d345974e96">
 
 Option
 
-</th><th align="left" id="d410712e99">
+</th><th align="left" id="d345974e99">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d410712e105">
+</th></tr></thead><tbody><tr><td id="d345974e105">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Bitbucket from the **Code** category.
 
 
-</td></tr><tr><td id="d410712e132">
+</td></tr><tr><td id="d345974e132">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Bitbucket from the **Code** category.
 
 
-</td></tr><tr><td id="d410712e184">
+</td></tr><tr><td id="d345974e184">
 
 **Tools module**
 
@@ -77,15 +77,15 @@ Steps
 
 3.  On the Bitbucket instance details playbook activity, enter the following details.
 
-<table id="choicetable_krv_ykg_42c"><thead><tr><th align="left" id="d410712e272">
+<table id="choicetable_krv_ykg_42c"><thead><tr><th align="left" id="d345974e272">
 
 Tool
 
-</th><th align="left" id="d410712e275">
+</th><th align="left" id="d345974e275">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d410712e281">
+</th></tr></thead><tbody><tr><td id="d345974e281">
 
 **Bitbucket Server**
 
@@ -96,7 +96,7 @@ Steps
 3.  If your Bitbucket instance is attached to a MID Server, select the MID Server option and enter its details. A MID server is required if your tool instance is hosted on-prem. For more information about MID server, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerSelector.md).
 \[Omitted image "bitbucket-connect-server.png"\] Alt text: Enter Bitbucket instance details page for Bitbucket Server
 
-</td></tr><tr><td id="d410712e318">
+</td></tr><tr><td id="d345974e318">
 
 **Bitbucket Cloud**
 
@@ -111,8 +111,8 @@ Steps
 
 For Basic Auth,
 
-    1.  Enter a value in the **Bitbucket Cloud username** field.
-    2.  Enter a value in the **Password** field.
+    1.  Enter the email address associated with your Bitbucket Cloud account in the **Bitbucket Cloud email** field.
+    2.  Enter the Bitbucket API token with scopes in the **Password** field.
 
 **Note:** For more information on creating basic auth credentials, see [Bitbucket integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/bitbucket-integration-dev-ops.md).
 

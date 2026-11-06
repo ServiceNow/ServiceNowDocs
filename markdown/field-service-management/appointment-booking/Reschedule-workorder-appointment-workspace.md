@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments in the CSM Configurable Workspace, Manage appointments on behalf of a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Reschedule work order appointment in the CSM Configurable Workspace
@@ -39,6 +39,4 @@ Setup the **Field Service Order Configuration** to book an appointment for work 
     3.  Click **Reschedule**.
     The application reschedules an appointment for the work order.
 
-
-**Parent Topic:**[Manage appointments in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-csm-workspace.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: reference
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -40,7 +40,7 @@ Group roles: Workplace Event Planners
 
 </td><td>
 
-AI agentic workflow autonomously assigns emergency maintenance request and change event request submitted by a workplace user. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) and [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
+AI agentic workflow autonomously assigns emergency maintenance request and change event request submitted by a workplace user. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md) and [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 </td><td>
 
@@ -282,4 +282,6 @@ Stores information about all the workplace template configurations created in th
 [Properties installed with Workplace Case Management]()
 
 [Workplace Service form]()
+
+[Workplace Location Assignment service]()
 

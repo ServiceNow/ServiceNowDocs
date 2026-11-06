@@ -1,31 +1,35 @@
 ---
-title: Disable the Post button from disappearing in Activity stream
-description: Disable the Post button from disappearing in Activity stream when mandatory fields aren't filled in. The Post button is functional even when mandatory fields aren't filled in.
+title: Configure the Post button to display continuously
+description: Configure the Post button in the Activity stream to display and function continuously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/disable-mandatory-field-post-button.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering Activity stream for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Activity stream, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Disable the Post button from disappearing in Activity stream
+# Configure the Post button to display continuously
 
-Disable the Post button from disappearing in Activity stream when mandatory fields aren't filled in. The Post button is functional even when mandatory fields aren't filled in.
+Configure the **Post** button in the Activity stream to display and function continuously.
 
 ## Before you begin
 
-The **Post** button disappears by default when the Comments or Work Notes fields are made mandatory by a UI Policy on the incident\_task table. This task enables you to disable that functionality so that the button is visible and useable even when mandatory fields aren't filled in.
+The **Post** button disappears by default when the Comments or Work Notes fields are made mandatory by a UI Policy on the incident\_task table. You can configure the **Post** button to appear and function even when mandatory fields aren't filled.
 
 Role required: admin
 
 ## Procedure
 
-1.  Enter `sys_properties.list` in the **Filter navigator**.
+1.  Navigate to `sys_properties.list`.
 
-2.  Select **glide.activity.compose.can\_post\_mandatory\_fields** from the list.
+2.  Add the **glide.activity.compose.can\_post\_mandatory\_fields** system property.
 
-3.  In the **Value** field, set the value to **true**.
+    For more information on adding a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+
+3.  Set the Value to **true**.
+
+4.  Select **Submit**.
 
 

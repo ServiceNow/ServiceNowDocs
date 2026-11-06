@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 70
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -582,7 +582,7 @@ Array of Objects
 
 </td><td id="entry_referenceItems">
 
-List that define references between items in the input payload. ```
+List that define references between items in the input payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.```
 "referenceItems": [
   { 
     "referenced": "String", 
@@ -2535,7 +2535,7 @@ Array of Objects
 
 </td><td id="entry_referenceItems">
 
-List that define references between items in the input payload. ```
+List that define references between items in the input payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.```
 "referenceItems": [
   { 
     "referenced": "String", 
@@ -5065,7 +5065,7 @@ Array of Objects
 
 </td><td id="entry_referenceItems">
 
-List that define references between items in the input payload. ```
+List that define references between items in the input payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.```
 "referenceItems": [
   { 
     "referenced": "String", 

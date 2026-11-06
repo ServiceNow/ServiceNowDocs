@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/testpubnu-andapp-pubdist.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Request a new branded Android app for public distribution, Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Request public Android app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Test and publish a new branded Android app for public distribution
@@ -68,10 +68,6 @@ After you have tested your app, set it up, and customized its workflows, you are
 -   **Upload your app to the Google Play Console:**
 
     To upload your public branded Android app to the Google Play Console, see [Google documentation](https://developer.android.com/studio/publish/upload-bundle). Also see [KB1710255](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1710255) and [KB1157062](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=a2a066bedb5155d0d0dc3feb68961951) for information about required actions to publish a public Android app on the Google Play Store and for ServiceNow® guidance on creating your Google Play console listing metadata.
-
--   **BlackBerry Portal:**
-
-    To publish your public branded Android app to the BlackBerry Portal if you are using BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295)
 
 -   **Microsoft Intune:**
 

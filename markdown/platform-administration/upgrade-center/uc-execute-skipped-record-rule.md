@@ -7,7 +7,7 @@ release: yokohama
 product: Upgrade Center
 classification: upgrade-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -47,15 +47,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d280311e144">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d303919e144">
 
 Option
 
-</th><th align="left" id="d280311e147">
+</th><th align="left" id="d303919e147">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d280311e153">
+</th></tr></thead><tbody><tr><td id="d303919e153">
 
 **Using Run Now**
 
@@ -66,7 +66,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d280311e179">
+</td></tr><tr><td id="d303919e179">
 
 **Using View Latest Upgrade History tab**
 

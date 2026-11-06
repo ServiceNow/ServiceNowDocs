@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [exclude directories, running process-based discovery, file-based discovery, FBD process path exclusions, process scan]
-breadcrumb: [Running process-based discovery, Agent Client Collector File-Based Discovery, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Running process-based discovery, ACC File-Based Discovery, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Exclude directories from running process-based discovery
@@ -48,4 +48,6 @@ Some running processes have no Software Asset Management \(SAM\) value and only 
 ## Result
 
 The exclusion is pushed to the relevant agents automatically. New collection cycles skip the excluded directories. Any previously collected paths that match the exclusion are removed during the next daily maintenance cycle.
+
+**Parent Topic:**[Running process-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/running-process-based-discovery.md)
 

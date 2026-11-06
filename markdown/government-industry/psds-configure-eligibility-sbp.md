@@ -1,37 +1,28 @@
 ---
 title: Configure Eligibility Rules Engine in Social Benefits Playbook
-description: The eligibility framework in Social Benefits Playbook allows an agent to confirm whether an applicant is eligible for the benefit program being requested.​
+description: The eligibility criteria in Social Benefits Playbook allows an agent to confirm whether an applicant is eligible for the benefit program being requested.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-configure-eligibility-sbp.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Social Benefits Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Social Benefits Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure Eligibility Rules Engine in Social Benefits Playbook
 
-The eligibility framework in Social Benefits Playbook allows an agent to confirm whether an applicant is eligible for the benefit program being requested.​
+The eligibility criteria in Social Benefits Playbook allows an agent to confirm whether an applicant is eligible for the benefit program being requested.​
 
-The Social Benefits Playbook uses an eligibility rules engine, a series of pre-defined policies that are associated to a specific benefit, to determine whether they are eligible to apply for one or more social benefit programs that your agency offers. These policies are a set of pre-defined rules and logic that determines whether a constituent will receive benefits or not. Using a set eligibility rules criteria for Social Benefits Playbook may aid in deflecting applications for which the applicant is not eligible for a specific social benefit program. These policies can be updated as rules and regulations surrounding these social benefit programs change. The policies in Social Benefits Playbook eligibility rules engine criteria are powered by Policy as Code Engine \(PaCE\).
+This section provides information for setting up PaCE \(Policy as Code Engine\) and using it within the Social Benefits Playbook. Eligibility policies are established by defining, testing, and publishing eligibility policies in the policy management home, mapping published policies to one or more benefit type\(s\), and updating existing policies as laws and regulations change.
 
-The Eligibility Framework allows agencies to define and manage the rules used to determine eligibility and calculate benefits. Organizations can check applications against applied rules and reduce manual effort with auto-calculated eligibility recommendations.
+The eligibility criteria in the License and Permit Playbook and Social Benefits Playbook allow an agent to confirm whether an applicant is eligible for the specific license or permit requested. The playbooks use eligibility criteria, a series of questions posed to an applicant, to determine whether they are eligible to apply for a license or permit. Using a set eligibility criterion for the Playbooks may aid in deflecting applications in which the applicant is not eligible to obtain a license or permit.
 
-Eligibility policies are established by:
+Eligibility criteria are established by performing the following three activities:
 
--   Defining, testing, and publishing eligibility policies in the policy management home.
--   Mapping published policies to one or more benefit type\(s\).
--   Updating existing policies as laws and regulations change.
+-   Creating a checklist template for the license or permit class
+-   Adding the eligibility checklist to the license or permit record producer
+-   Mapping it to the respective license or permit class
 
-You can use the eligibility rules engine to manage the life cycle of a policy and create, update, review, and execute policies. With the eligibility rules engine, you can:
-
--   Evaluate any changes to ensure they meet your organization's policy management requirements.
--   Create a policy, modify policy information, or copy a policy and its version to a new policy.
--   Create a new policy version by copying an existing policy version and modifying it.
--   View and define mapping information for any policy.
--   Review executed policy activity and execution history for policies and policy versions.
--   Use tags and categories to manage your policies more efficiently.
-
-If the applicant fulfills all the criteria set forth by the eligibility rules engine policies, then the applicant can proceed with their application, or the agent can proceed in creating a case for the applicant.​ If the applicant does not fulfill at least one of the eligibility criteria, neither an agent nor an applicant can proceed in creating a case for the social benefit program.
+If the applicant fulfills all the eligibility criteria, then the agent can proceed in creating a case for the applicant. If the applicant does not fulfill at least one of the eligibility criteria, an agent cannot proceed in creating a case for the applicant.
 

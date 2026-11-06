@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Architecture Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Integration Strategy
@@ -20,9 +20,13 @@ Guidance on the integration process
 
 This Accelerator provides guidance on the integration process.
 
-### Overview
+### Accelerator Overview
 
 Integration Strategy- Advanced provides Impact Customers with leading practices content and advisory guidance on  the  integration  process, including  design considerations, and platform recommended tools as they relate to the ServiceNow Platform.
+
+### Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance\), and Advanced Packages.
 
 ### What You Get
 
@@ -114,7 +118,7 @@ ServiceNow is not responsible for execution of Customer’s integration strategy
 
 Guidance on the integration process
 
-### Overview
+### Accelerator Overview
 
 Integration Strategy – Total provides Total Impact Customers with leading practices, content, and prescriptive guidance on  the  integration  strategy, including leading practices and design considerations as they relate to the ServiceNow AI Platform.
 

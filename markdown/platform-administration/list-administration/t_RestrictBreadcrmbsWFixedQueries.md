@@ -7,9 +7,9 @@ release: yokohama
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering lists, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Restrict filters and breadcrumbs with fixed queries
@@ -40,14 +40,6 @@ A breadcrumb option enables an administrator to control the base view of a recor
 
 4.  Delete the **Active is true** filter, if present.
 
-5.  Add **&amp;sysparm\_fixed\_query=active=true** to the **Arguments** field and update the record.
-
-    \[Omitted image "FixedQuery1.png"\] Alt text: Add fixed query argument
-
-6.  Navigate to **Incidents** &gt; **Open** and examine the breadcrumbs.
-
-    The **Active=true** link is the widest view permitted in the list of Open incidents shown. The breadcrumb for **All** is not a link because of the fixed query.
-
-    \[Omitted image "FixedQuery2.png"\] Alt text: Breadcrumb for All is not linked
+5.  Add `&sysparm_fixed_query=active=true` to the **Arguments** field and update the record.
 
 

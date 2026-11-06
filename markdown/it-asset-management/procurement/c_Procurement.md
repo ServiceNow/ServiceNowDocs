@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Common applications, Asset Management]
 ---
 
 # Procurement
@@ -26,7 +26,7 @@ Procurement offers the ability to perform the following functions.
 -   **[Procurement roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/r_ProcurementRoles.md)**  
 The Procurement application uses the following roles.
 -   **[Procurement workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/c_ProcurementWorkflows.md)**  
-Procurement uses the following workflows.
+Procurement uses the following workflows. You can edit the existing flows or create a flow in the graphical Workflow Studio to meet your organization's asset procurement process.
 -   **[Use the Procurement Overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/t_UsingTheProcurementOverviewModule.md)**  
 Use the gauges on the Procurement Overview homepage to help you track and manage requests, purchase orders, and other important aspects of the procurement process.
 -   **[Activate Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/t_ActivateProcurement.md)**  
@@ -40,5 +40,5 @@ Assets can be received and added to the system when they are delivered to a stoc
 -   **[Domain separation and Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/domain-separation-procurement.md)**  
 Domain separation is supported in Procurement processing. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/asset-management-related-apps-landing-page.md)
 

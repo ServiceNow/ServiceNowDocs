@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-process-tabs-in-side-panel.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize tabs in the contextual side panel for a playbook page
@@ -50,9 +50,7 @@ The added component gets displayed on the UI. The location depends on where you 
 **Related topics**  
 
 
-[Configure tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-side-panel-tabs.md)
-
-[bundle-platux.add-components-to-sidebar]
+[Hide tabs in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-side-panel-tabs.md)
 
 [Customize a record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-custom-record-page.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Now Assist Conversational Help
@@ -18,23 +18,23 @@ This skill uses Generative AI application capabilities to provide answers to the
 
 \[Omitted video\] Description: Now Assist Conversational Help overview
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
+**Important:** Starting with the Australia release, Conversational Help Skills is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the Deprecation Process article \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] in the Now Support Knowledge Base.
+
+You can install the External Content Connectors Application Suite from the [ServiceNow store](https://store.servicenow.com/store/app/dd69bc781bd9a650396216db234bcb0b)
+
+and use NAp Synthesized Search with ServiceNow Docs.
+
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [AI agents, skills, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills-on-by-default.md).
 
 The Now Assist Conversational Help skill displays as **Get Help** on the Now Assist panel.
 
-**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the AI Admin Hub **Settings**. The ServiceNow Now LLM Service \(Large Language Model\) is the default model provider for this Now Assist skill to retrieve precise answers to the users' questions.
-
-You can ask your question in two ways:
-
--   Select **Get Help** skill and submit a query to use the help option in the Now Assist panel.
--   Submit your query directly in the Now Assist panel. It will perform discovery and find the most appropriate skill among the listed, based on the keywords you entered. This discovered skill is used to retrieve answers for your queries.
-
-    **Note:** The available skills displayed in the Now Assist panel can be customized in consultation with the integration teams.
-
+**Note:** The Get Help feature is available as a part of Now Assist entitlements and no new subscription is required. The feature is enabled by default and you can turn it off in the AI Admin Hub **Settings**.
 
 ## How Conversational Help works
 
-Your query goes through the following steps to retrieve the best response.
+You can ask your question by selecting **Get Help** skill and submit a query to use the help option in the Now Assist panel. Your query goes through the following steps to retrieve the best response.
+
+**Note:** Conversational Help Skills is not available as auto-discoverable as a help skill within Now Assist panel.
 
 1.  AI search
 
@@ -60,6 +60,4 @@ The Now LLM retrieves the most relevant result from [https://www.servicenow.com/
 \[Omitted image "na-conversational-help-skills.png"\] Alt text: Now Assist Conversational Help skill
 
 For more information, see [Fetch end points in Now Assist Conversational Help skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/fetch-end-points-in-conversational-help-skill.md).
-
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

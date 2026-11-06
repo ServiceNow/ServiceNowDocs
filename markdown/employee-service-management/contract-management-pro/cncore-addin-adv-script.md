@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage contract records, Managing Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage contract records, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure fields in contract template to display correct sys\_id value in contract documents
@@ -22,7 +22,7 @@ Role required: sn\_cm\_core.contract\_config
 
 ## About this task
 
-Because the script for mapping variables using the Microsoft Word add-in for ServiceNow Contracts uses the toString\(\) function for the sys\_id variable, its display value is not replaced properly in generated contract documents,
+Because the script for mapping variables using the Microsoft Word add-in for ServiceNow Contracts uses the toString\(\) function for the sys\_id variable, its display value is not replaced properly in generated contract documents.
 
 ## Procedure
 
@@ -47,6 +47,8 @@ Because the script for mapping variables using the Microsoft Word add-in for Ser
 
 
 [View a contract record]()
+
+[View contract repository record]()
 
 [Modify a contract record]()
 

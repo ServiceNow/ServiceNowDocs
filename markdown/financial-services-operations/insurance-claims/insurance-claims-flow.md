@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Insurance claims
@@ -28,7 +28,7 @@ The ServiceNow® Insurance claims application provides a flexible framework that
 
 </td></tr><tr><td>
 
-[Manage\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to manage cases in Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)
+[Manage\[Omitted image "bus-business-management.svg"\] Alt text:Learn how to manage cases in Insurance claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/using-insurance-claims-flow.md)
 
 </td><td>
 

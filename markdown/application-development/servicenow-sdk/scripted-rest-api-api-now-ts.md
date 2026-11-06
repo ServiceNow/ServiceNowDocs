@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Fluent API reference, Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Scripted REST API - ServiceNow Fluent
@@ -18,7 +18,7 @@ The Scripted REST API defines the endpoints, query parameters, and headers for a
 
 **Note:** For the latest ServiceNow Fluent API documentation and examples, see the [ServiceNow Fluent API reference](https://servicenow.github.io/sdk/category/api-reference) and [ServiceNow SDK examples repository](https://github.com/ServiceNow/sdk-examples) on GitHub.
 
-For general information about scripted REST services, see .
+For general information about scripted REST services, see [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_CustomWebServices.md).
 
 **Parent Topic:**[ServiceNow Fluent API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/servicenow-fluent-api-reference.md)
 

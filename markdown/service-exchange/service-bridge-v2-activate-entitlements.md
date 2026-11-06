@@ -1,5 +1,5 @@
 ---
-title: Activate entitlements in Service Exchange
+title: Activate a remote record producer in Service Exchange
 description: Activate entitlements to use a service or product that you have purchased.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-activate-entitlements.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Service Exchange for Consumers, Service Exchange for Consumers, Service Exchange]
+breadcrumb: [Configure for consumers, Service Exchange for Consumers, Service Exchange]
 ---
 
-# Activate entitlements in Service Exchange
+# Activate a remote record producer in Service Exchange
 
 Activate entitlements to use a service or product that you have purchased.
 
@@ -24,30 +24,20 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Service Exchange Consumer** &gt; **Provider Connections**.
 
-2.  Open the Provider connection record by selecting the record number in the **Number** column.
+2.  Select the Number column to navigate to the Provider connection record.
 
-3.  In the **Remote record producers** related table, select the remote record producer \(RRP\) you want to activate.
+    The list of entitlements available is displayed.
 
-4.  Review and approve scripts individually if you want to verify they are accurate before they are approved automatically when you activate the RRP.
+3.  Select the Remote record producers related list and select a remote record producer that you want to activate.
 
-    1.  In the Remote Script Approvals related list, open the script by selecting the script in the **Artifact** column.
+4.  In the Remote record producer page, select **Activate** to activate the entitlement.
 
-    2.  Review the script content.
+    If the remote record producer contains scripts, the scripts get automatically approved when you select **Activate**.
 
-    3.  Select **Back**.
+5.  Approve scripts individually from the **Remote Script Approvals** tab.
 
-    4.  In the Remote Script Approvals related list, if the script status is set to **false**, double-click the approved status and change the value to **true**.
+    1.  In the Approved column, change the script status to true.
 
-        The script status must be set to **true** for a script to be approved and to activate the RRP.
-
-5.  In the Remote record producer page, select **Activate**.
-
-    If the remote record producer contains unapproved scripts, a message appears indicating that with activation, all scripts will be automatically approved.
-
-    -   To approve the RRP and its scripts, select **OK**.
-    -   To stop activation, select **Cancel**.
-6.  Select the Remote task definition tab and select a remote task definition that you want to activate.
-
-7.  In the Remote task definition page, select **Activate** to activate the entitlement.
+    You must approve all the scripts to activate the remote record producer. If you don't approve all the scripts, you can't activate the remote record producer.
 
 

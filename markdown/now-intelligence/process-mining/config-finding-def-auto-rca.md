@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated root cause analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Automated root cause analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure automated root cause analysis
@@ -18,7 +18,7 @@ Configure automated root cause analysis from the process configuration record.
 
 ## Before you begin
 
-Role required:sn\_process\_optimization\_admin, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_analyst
+Role required:sn\_process\_mining\_admin, sn\_process\_mining\_power\_user, or sn\_process\_mining\_analyst
 
 ## Procedure
 

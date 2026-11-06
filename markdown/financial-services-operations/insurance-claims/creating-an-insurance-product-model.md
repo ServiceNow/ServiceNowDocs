@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Insurance product models, Setting up the policy data for Insurance claims, Setting up Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Insurance product models, Setting up the policy data for Insurance claims, Configure, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an insurance product model
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  In the Label column, search for either the personal insurance model or the commercial insurance model.
 
-<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d73620e75">
+<table id="choicetable_hsn_gnv_2dc"><tbody><tr><td id="d89781e79">
 
 **Personal insurance model**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Search for and select **Personal lines insurance product model**.
 
-</td></tr><tr><td id="d73620e87">
+</td></tr><tr><td id="d89781e91">
 
 **Commercial insurance model**
 

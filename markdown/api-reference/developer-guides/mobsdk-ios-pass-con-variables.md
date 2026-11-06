@@ -7,7 +7,7 @@ release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Implement Virtual and Live Agent chat, Mobile SDK Developer Guide - iOS, Developer guides, API implementation and reference]
 ---

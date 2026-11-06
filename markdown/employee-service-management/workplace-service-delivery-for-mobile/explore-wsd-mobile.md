@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: concept
-last_updated: "2025-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---

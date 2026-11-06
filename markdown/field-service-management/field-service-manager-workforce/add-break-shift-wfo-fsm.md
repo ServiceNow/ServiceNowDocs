@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Add schedule breaks to a shift
@@ -47,6 +47,4 @@ You can set the break period within a work shift by ensuring that all of your ag
 
 7.  Click **Save**.
 
-
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -123,7 +123,7 @@ Role required: service\_mapping\_admin
 
     1.  Navigate to **All** &gt; **Service Mapping** &gt; **Service Instances**.
 
-    2.  Click **New**.
+    2.  Select **New**.
 
         The **Discoverable by Service Mapping** option is selected by default.
 

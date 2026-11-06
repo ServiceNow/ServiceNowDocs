@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Available templates, Create your app using an application template, Create your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Expense Pre-Approval template
@@ -18,11 +18,9 @@ Build an application in App Engine Studio \(AES\) using the Expense Pre-Approval
 
 To use the Expense Pre-Approval template, install this application from the ServiceNow Store.
 
-\[Omitted image "template-expense-pre-approval.png"\] Alt text: Expense Pre-Approval template
-
 Employees can easily submit their planned expenses for multiple levels of approval using the Expense Pre-Approval application. Managers can then review every submitted request. Approved requests are assigned to the budget review group, which can approve or reject the request. The employee receives a notification with the final status of the request.
 
-To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see .
+To ensure compliance and improved financial planning, admins can customize the existing flow and levels of approval using decision tables. For more information, see [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md).
 
 For more information on creating an application using a template, see [Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/use-app-template.md).
 

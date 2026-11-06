@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---
@@ -30,7 +30,7 @@ Active
 
 </td><td>
 
-There can be only one active key for a given cryptographic specification in a cryptographic module.
+The active key is used to generate new content, such as encrypting or signing. There can be only one active key for a given cryptographic specification in a cryptographic module.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,9 @@ Compromised
 
 </td><td>
 
-Several keys can exist in the compromised state for revocation in a given cryptographic specification in a cryptographic module. Any active or suspended key can be moved to a compromised state. Compromised keys can’t be used to generate new content, such as encrypting or signing, but may still be used to identify the purpose of existing content, such as decryption or verification.
+Compromised keys can’t be used to generate new content, such as encrypting or signing, but may still be used to identify the purpose of existing content, such as decryption or verification.
+
+ Several keys can exist in the compromised state for revocation in a given cryptographic specification in a cryptographic module. Any active or suspended key can be moved to a compromised state.
 
 </td></tr><tr><td>
 

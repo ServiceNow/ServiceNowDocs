@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # My Learning
@@ -18,7 +18,7 @@ My Learning is a new and modern user portal that enables you to pursue courses t
 
 The Learning portal provides you with a bird's eye view of all your learning, courses, and achievements.
 
-## Overview
+## Learning Overview
 
 The Overview page is the first page that you see when you access My Learning after navigating from Employee Center. Use this page to quickly identify learning that needs attention, visualize recent progress and recent achievements, view all recent activity, and resume any courses that are in-progress.
 
@@ -33,17 +33,4 @@ Use the Activity tab to view your entire content activity and history. You can l
 ## Achievements
 
 Use the Achievements tab to review the achievement badges that you've earned. You can view detailed achievement information. All achievement rules and criteria are created and managed in the back-end using Learning. For more information, see [Create an achievement definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/create-achievement.md).
-
--   **[Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp-widgets.md)**  
-The **Overview** tab on My Learning provides a variety of widgets that help you track courses, view your progress, view achievements among other things.
--   **[Discover](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/discover-lxp.md)**  
-The **Discover** tab on My Learning provides a variety of widgets that help you browse through courses, paths, and collections.
--   **[Activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/activity-lxp.md)**  
-The **Activity** tab on My Learning provides a variety of widgets that help you see your assigned, saved, shared, and completed courses.
--   **[Achievements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/achievements-lxp.md)**  
-The **Achievements** tab on My Learning shows you all your learning achievements.
--   **[Assigned to your team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manager-view-lxp.md)**  
-Track your team learning tasks to streamline their career growth.
-
-**Parent Topic:**[Exploring Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-chat-session-tabs-edit.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CSM Configurable Workspace chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Edit or remove chat session tabs
@@ -16,7 +16,7 @@ Edit the settings for configured SLA threshold levels, add or remove SLA thresho
 
 ## Before you begin
 
-Role required: admin
+Role required: virtual\_agent\_admin
 
 ## About this task
 
@@ -33,7 +33,7 @@ From this section, you can do the following:
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
-    This displays the CI Admin console with the Settings tab selected.
+    This displays the CI Admin Experience with the Settings tab selected.
 
 2.  Select **Agent Chat** on the left side of the CI Admin console.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-03-03"
-reading_time_minutes: 9
-breadcrumb: [Supported Virtual Agent and Agent Chat features for custom chat integrations, Creating conversational custom chat integrations in Virtual Agent, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Supported features for custom chat integrations, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent action scripts
@@ -185,9 +185,52 @@ Example: Provider attributes action script.
 })(inputs, outputs);
 ```
 
+## Sender action script \(Decommissioned in Quebec see sender subflow\)
+
+The sender action script knows how to send a message to the provider. The script should asynchronously invoke a Workflow Studio or Integration Hub subflow. The Virtual Agent is freed to continue processing messages rather than trying to send external requests.
+
+<table id="table_tb3_qjb_xlb"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Output
+
+</th></tr></thead><tbody><tr><td>
+
+-   Results \(JSON\) - Array of messages to send.
+-   Payload \(JSON\) - Last payload received from a requester.
+-   app\_inbound\_id \(String\) - Identifier of the sender, such as the "From" phone number in an SMS case.
+-   channel\_user\_id \(String\) - Identifier of the recipient, such as the "To" phone number in an SMS case.
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>Example: Sender action script.
+
+```
+(function execute(inputs, outputs) {
+    var results = inputs.results;
+    // transform the inputs to something this custom subflow knows about
+    var sendInputs = {
+        app_inbound_id : inputs["app_inbound_id"],
+        channel_user_id: inputs["channel_user_id"],
+        messages: JSON.stringify(results)
+    };
+
+    // invoke an asynchronous subflow which will send the external request. so this sender script will immediately return,
+    // freeing up the chat server thread to do further message processing while putting the external request work on the
+    // Workflow Studio/Integration Hub
+    sn_fd.FlowAPI.startSubflowQuick('sn_va_sms_twilio.va_sms_twilio_adapter_send_sms', sendInputs);
+})(inputs, outputs);
+```
+
 ## Sender subflow
 
-Instead of a script, the sender subflow handles the process of sending a message to a provider. The message is contained in a **payload** string as part of the subflow. The sender has a **service\_url** and **origin\_service\_url**, while the outbound URL varies depending on the provider. For example, a message sent through MS Teams uses the value **tenant\_id**. When the Virtual Agent sends the message containing options, the recipient selects an option. The subflow updates the message display based on their choice and removes the options. The conversation continues based on the user’s selected option. The Virtual Agent is freed to continue processing messages rather than trying to send external requests. When creating a subflow do not have an action call an action within the subflow. For more information on subflows, see .
+Instead of a script, the sender subflow handles the process of sending a message to a provider. The message is contained in a **payload** string as part of the subflow. The sender has a **service\_url** and **origin\_service\_url**, while the outbound URL varies depending on the provider. For example, a message sent through Microsoft Teams uses the value **tenant\_id**. When the Virtual Agent sends the message containing options, the recipient selects an option. The subflow updates the message display based on their choice and removes the options. The conversation continues based on the user’s selected option. The Virtual Agent is freed to continue processing messages rather than trying to send external requests. When creating a subflow do not have an action call an action within the subflow. For more information on subflows, see [Managing conversational subflows in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/managing-conversational-subflows.md).
 
 ## Contextual action script
 

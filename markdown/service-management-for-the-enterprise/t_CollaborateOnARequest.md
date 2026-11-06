@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-management-for-the-enterprise/t\_CollaborateOnARequest.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Facilities requests, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Request Management in a Service Management application, Service Management]
 ---
 
 # Collaborate on a request
@@ -26,8 +26,6 @@ Within a request, you can enter comments that are visible to the submitter, allo
 
 4.  To correspond with other agents, enter content that you do not want the submitter to see in the **Work notes** field.
 
-
-**Parent Topic:**[Facilities requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/c_FacilitiesRequests.md)
 
 **Parent Topic:**[Request Management in a Service Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/rm-sm-application.md)
 

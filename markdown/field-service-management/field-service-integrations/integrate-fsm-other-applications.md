@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure, Field Service Management]
 ---
 
 # Integrating Field Service Management with other applications

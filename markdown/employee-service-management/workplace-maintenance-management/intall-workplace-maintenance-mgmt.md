@@ -1,20 +1,20 @@
 ---
 title: Install Workplace Maintenance Management
-description: Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+description: Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-maintenance-management/intall-workplace-maintenance-mgmt.html
 release: yokohama
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Maintenance Management
 
-Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Maintenance Management \( application from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -48,7 +48,7 @@ Role required: sn\_wsd\_maintenance.admin
 
 2.  Find the application by using the filter criteria and search bar.
 
-    Search for the application by its name \(Workplace Maintenance Management or ID sn\_wsd\_maintenance\). If you cannot find the application, you may have to request it from the ServiceNow Store.
+    Search for the application by its name \(Workplace Maintenance Management or ID \[sn\_wsd\_maintenance\]\). If you cannot find the application, you may have to request it from the ServiceNow Store.
 
 3.  Click **Install**.
 

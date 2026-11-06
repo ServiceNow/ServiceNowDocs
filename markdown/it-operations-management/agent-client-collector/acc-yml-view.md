@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # View the Agent Client Collector configuration file for an agent
@@ -36,6 +36,8 @@ Role required: agent\_client\_collector\_admin
 
     \[Omitted image "acc-yml-attachment.png"\] Alt text: acc.yml configuration file as an attachment
 
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/config-auto-creation-work-orders.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Order Management integration with Field Service Management, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Integrating Order Management with FSM, Integrate, Sales Customer Relationship Management]
 ---
 
 # Configuring automatic creation of work orders
@@ -57,7 +57,7 @@ Add a condition in the decision tree for automatic creation of work orders for o
 
 ### Before you begin
 
-Role required: Administrator
+Role required: administrator
 
 ### About this task
 

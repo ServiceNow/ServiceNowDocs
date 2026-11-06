@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-create-remediation-task-examples.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -266,8 +266,6 @@ This remediation task contains the records that are assigned to **LDAP Admins** 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-unified-security-exposure-management.md)
-
 **Related topics**  
 
 

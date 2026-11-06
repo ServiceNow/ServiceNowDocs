@@ -1,5 +1,5 @@
 ---
-title: Select large language models for use cases in Now Assist in Contract Management
+title: Select large language models for use cases in ServiceNow Otto for Contract Management Pro
 description: Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-manage-llm.html
@@ -7,12 +7,13 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Set LLM for Now Assist skills, Set LLM for ServiceNow Otto skills, Set LLM at skill level]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Select large language models for use cases in Now Assist in Contract Management
+# Select large language models for use cases in ServiceNow Otto for Contract Management Pro
 
 Select a large language model \(LLM\) provider for a contract analysis or metadata extraction use case.
 
@@ -22,19 +23,19 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_admin
 
 ## About this task
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-In Now Assist in Contract Management, you can select the LLM provider at the use case level. This selected LLM is applicable only for the use case and overrides the LLM selected at the skill level.
+In ServiceNow Otto for Contract Management Pro, you can select the LLM provider at the use case level. This selected LLM is applicable only for the use case and overrides the LLM selected at the skill level.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile of your activated skill that you want to modify, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
+3.  On the tile of your activated skill that you want to modify, select **Edit Configuration** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
 
-    \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Now Assist skills in Contract Management Pro.
+    \[Omitted image "cmpro-na-active-skills.png"\] Alt text: AI skills in Contract Management Pro.
 
 4.  In the skill guided setup, select **Use cases**.
 
@@ -61,12 +62,12 @@ In Now Assist in Contract Management, you can select the LLM provider at the use
 
 The LLM provider is set for the use case and is used for contract analysis or metadata extraction where this use case is applicable.
 
-**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Configure data permissions for Now Assist skills]()
+[Configure data permissions for AI skills]()
 
 [Configuring contract metadata extraction]()
 
@@ -74,7 +75,13 @@ The LLM provider is set for the use case and is used for contract analysis or me
 
 [Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management]()
+[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro]()
 
-[Post-upgrade steps for Now Assist in Contract Management]()
+[Post-upgrade steps for ServiceNow Otto for Contract Management Pro]()
+
+[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+
+[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
+
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

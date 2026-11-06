@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-service-case-escalation.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case and account escalation

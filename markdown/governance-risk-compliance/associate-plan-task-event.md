@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/associate-plan-task-event.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Monitor event task completion, Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ A good business continuity plan is a result of thoughtful assessment of business
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  To update an active exercise or crisis event from the Home page of the Business continuity workspace, click the link to the event record in the **Event** column of the **My exercises** section.
+2.  From the Home page of the Business continuity workspace, click the event record link in the **Event** column of the **My exercises** section.
 
 3.  To update the event from the lists view of the workspace, click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
@@ -48,7 +48,7 @@ A good business continuity plan is a result of thoughtful assessment of business
     -   view the details of asset recovery and the activated plan by clicking the information icon \(\[Omitted image "InformationIcon.png"\] Alt text: Information icon\)
     For information on the logic behind the calculation of recovery task entities, see [Calculation of actual duration and total effort to recover an event asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-exercise-crisis-event-details.md).
 
-    If the impacted assets are CMDB CI data that came into the BIA automatically based on CMDB dependencies and when these assets are scoped in the plan, then at the time of recovery of the asset, the related assets and the related plans are automatically pulled into the exercise event as impacted assets and activated plans in the **Impacts** tab.
+    When CMDB CI assets scoped in the plan are recovered, related assets and plans are automatically pulled into the exercise event as impacted assets and activated plans.
 
     For more information on the planning and execution of a recovery event, see [Data flow, planning, execution, and recovery of related plan assets in event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/planning-execution-event-bcm.md).
 
@@ -70,14 +70,14 @@ A good business continuity plan is a result of thoughtful assessment of business
 
     Use the grouped button to add as many plans as you need to an event. However, you can add only one ad hoc plan to the event. **Add ad hoc plan** button appears when an ad hoc plan is created for an event. This ad hoc plan is the one that appears in the Ad hoc plan pop-up when you select assets.
 
-    Add ad hoc plan button is shown after an adhoc plan is created for an event. The same is mapped to the selected assets in the ad hoc plan modal.
+    Add ad hoc plan button is shown after an ad hoc plan is created for an event. The same is mapped to the selected assets in the ad hoc plan modal.
 
     -   To select a plan that the impacted asset is part of, select **Show plan for impacted assets**.
         1.  Select the asset that is impacted in the **Select Impacted Asset** field.
         2.  Click **Next**.
         3.  Select the plans for the impacted asset in the Select Plans to Add pop-up.
 
-            This action creates the activated plan if it does not already exist and then maps the impacted asset with the activated plan in the Impacted Asset to Activated Plan \[sn\_recovery\_impacted\_asset\_to\_activated\_plan\] table.
+            This action creates the activated plan if it does not already exist. It then maps the impacted asset with the activated plan in the Impacted Asset to Activated Plan \[sn\_recovery\_impacted\_asset\_to\_activated\_plan\] table.
 
     -   To display all plans and select assets from the plans, select **Show all plans**.
         1.  Click **Next**.
@@ -135,6 +135,4 @@ A good business continuity plan is a result of thoughtful assessment of business
 
 13. Click the refresh icon \(\[Omitted image "RefreshAlertsIcon.png"\] Alt text: Refresh icon.\) to display the updated state of the asset or plan, and the actual time taken to recover the asset.
 
-
-**Parent Topic:**[View event details and monitor event task completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-exercise-crisis-event-details.md)
 

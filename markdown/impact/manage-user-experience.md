@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/manage-user-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [User Experience, IO analytics, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Manage User Experience
@@ -16,7 +16,7 @@ Explore in-depth transactions for a user or a node for a given period.
 
 ## Before you begin
 
-**Note:** The functionality is enabled through the Impact Delivery Instance \(IDI\) portal where a customer admin reviews the Terms &amp; Conditions and opts-in via the Manage Permissions page.
+**Note:** The functionality is enabled through the Impact Delivery Instance \(IDI\) portal where a customer admin reviews the Terms &amp; Conditions and opts in via the Manage Permissions page.
 
 Role required: admin
 
@@ -42,12 +42,19 @@ Role required: admin
 
 4.  Drill into each data point to open the particular details.
 
-    For instance, select a user data point on the chart. The User transaction details open with various data points. Select each data point to further drill into each area.
-
-    \[Omitted image "io-user-ex-details.png"\] Alt text: Shows the user transaction details.
+    For instance, select a user data point on the chart. The User transaction details open with various data points. Select each data point to drill further into each area.
 
 5.  Select the **URL** tab to access each specific URL transaction.
 
-    \[Omitted image "io-user-ex-url-details.png"\] Alt text: Shows the User Experience URL transaction table.
+6.  Select **Application Monitoring** tab to track applications that have performance issues.
 
+    You can track the applications using five different metrics and analyze the cause of the performance issues.
+
+    For more information, see
+
+    -   [Track of application response time to monitor performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/monitor-apps-user-experience-io.md).
+    -   [Use Platform Performance Analyzer to view server details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-app-mon-perf-analy.md)
+    -   .
+
+**Parent Topic:**[User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/user-experience-insights.md)
 

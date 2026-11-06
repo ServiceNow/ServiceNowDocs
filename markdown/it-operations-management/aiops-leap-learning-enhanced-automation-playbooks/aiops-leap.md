@@ -1,50 +1,50 @@
 ---
-title: AIOps Learning Enhanced Automation Playbook \(LEAP\)
-description: AIOps LEAP application uses AI-driven insights and automation to help manage IT operations.
+title: Learning Enhanced Automation Platform \(LEAP\)
+description: LEAP application uses AI-driven insights and automation to help manage IT operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: reference
-last_updated: "2025-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
-# AIOps Learning Enhanced Automation Playbook \(LEAP\)
+# Learning Enhanced Automation Platform \(LEAP\)
 
-AIOps LEAP application uses AI-driven insights and automation to help manage IT operations.
+LEAP application uses AI-driven insights and automation to help manage IT operations.
 
 ## Get started
 
 <table id="table_nhy_dhw_l2c" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about AIOps LEAP benefits, features, and capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about LEAP benefits, features, and capabilities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/exploring-aiops-leap.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure AIOps LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configuring-aiops-leap.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Create problem records and playbooks using AIOps LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
+[Use\[Omitted image "bus-service-aware-cmdb.svg"\] Alt text:Create problem records and playbooks using LEAP.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/using-aiops-leap.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get detailed information on important skill configuration during AIOps LEAP installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get detailed information on important skill configuration during LEAP installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/references-aiops-leap.md)
 
 </td></tr></tbody>
-</table>**Important:**
+</table>## Supported LLMs for ServiceNow Otto for ITOM
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+You can use Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for ServiceNow Otto for ITOM skills and AI agents. You can set skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+
+**Important:**
+
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
-
-## Supported LLMs for ServiceNow Otto for ITOM
-
-You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for Now Assist skills and AI agents. You can set skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Troubleshoot and get help
 
@@ -62,7 +62,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which ServiceNow Otto for ITOM for code generation is called. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Customer Lifecycle Operations, Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Perform Due Diligence
@@ -29,7 +29,7 @@ This stage requires multiple agents to complete. KYC, Credit, Tax, and Legal age
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  On the **Lists**, tab, select a case.
 

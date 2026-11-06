@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_UsingFiltersAndBreadcrumbs.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ You can apply, modify, create, and save filters. A hierarchical list of conditio
 
 Breadcrumbs offer a quick form of filter navigation. They are ordered from left to right. The left condition is the most general, and the right condition is the most specific. Clicking a breadcrumb removes all the conditions to its right. Clicking the condition separator \(&gt;\) before a condition removes only that condition.
 
-By default, a user with no roles cannot see the breadcrumbs or filter. Administrators can configure the ESS portal to allow unauthenticated users to see breadcrumbs and filters by using a script include. For more information on using script includes to suppress breadcrumbs and filters, see [Use script includes to suppress filters and breadcrumbs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SuppressFiltersScriptInclude.md) .
+By default, a user with no roles cannot see the breadcrumbs or filter. Administrators can configure the ESS portal to allow unauthenticated users to see breadcrumbs and filters by using a script include. For more information on using script includes to suppress breadcrumbs and filters, see Use script includes to suppress filters and breadcrumbs .
 
 \[Omitted image "BreadcrumbsUI.png"\] Alt text: Breadcrumbs.
 
@@ -89,7 +89,7 @@ An encoded query string represents a complex filter on a list of records.
 **Related topics**  
 
 
-[Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DictionaryAttributes.md)
+[bundle-platadm.c_DictionaryAttributes]
 
 [Generate an encoded query string through a filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_GenEncodQueryStringFilter.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
@@ -28,30 +28,30 @@ Role required: sn\_wsd\_msaddin.admin
 
 2.  Select the app launcher icon in the upper-left and click **Admin**.
 
-3.  In the admin center, go to **Settings** &gt; **Integrated apps**.
+3.  In the admin center, go to **Settings** &gt; **Services &amp; add-ins**.
 
-4.  Select **Deployed apps** and select **Upload custom apps**.
+4.  Select **Deploy Add-in** and click **Next** in the overview page.
 
-5.  Select **App type** as **Office Add-in**.
+5.  Select **Upload custom apps**.
 
-6.  Select **Upload manifest file \(.xml\) file from device** option.
+6.  Select **I have the manifest \(.xml\) file on this device** check box.
 
-7.  Click **Choose File** to select the manifest file that you have created for the add-in.
+7.  Click **Choose file** to select the manifest file that you have created for the add-in.
 
-8.  Click **Next**.
+8.  Click **Upload**.
 
 9.  In the Assign users section, select one of the following options to specify whom to deploy the add-in.
 
-    -   **Entire organization**: Select this option to deploy the add-in to everyone.
+    -   **Everyone**: Select this option to deploy the add-in to everyone.
     -   **Specific users/groups**: Select this option to deploy the add-in to only selected users or user groups. Use the search option to find users or groups to whom you want to deploy the add-in.
     -   **Just me**: Select this option to deploy the add-in only to you.
-10. Click **Next**.
+10. In the Deployment method section, select an option to specify how to deploy the add-in to users.
 
-11. In the Deployment method section, review app permissions and selected settings.
-
-12. Click **Finish deployment.**.
+11. Click **Deploy**.
 
     A green tick appears when the add-in deployment is successful. Follow the instructions provided on the page to test if the add-in deployment is successful.
+
+12. Click **Next**.
 
 13. On the final page, click **Cancel** to close the dialog box.
 

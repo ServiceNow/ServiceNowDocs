@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an HR case for a lifecycle event
@@ -32,8 +32,6 @@ A lifecycle event administrator must have built the lifecycle event and created 
 
 3.  On the HR case creation form, under the **Case Details** section, select the HR service you are requesting for the employee.
 
-    \[Omitted image "hr-case-creation-form.png"\] Alt text: On the HR case creation form, select the HR service you are requesting for the employee.
-
 4.  Click **Create Case** to create the HR case.
 
 5.  On the HR case form, fill in the fields on the form, as appropriate.
@@ -50,6 +48,4 @@ After you create a lifecycle event case, you can track the case's progress and m
 The following GIF shows an example of an in-progress lifecycle event case.
 
 **Note:** You can drill down from the lifecycle event case list view to monitor the status of the individual activity sets and activities. You can also drill down from the individual event case form.
-
-\[Omitted image "lifecycle-event-case-progress.gif"\] Alt text: After you create a lifecycle event case, you can track the progress of the lifecycle event and monitor the status of individual activity sets and activities.
 

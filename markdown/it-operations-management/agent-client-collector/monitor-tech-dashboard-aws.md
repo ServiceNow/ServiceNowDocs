@@ -1,20 +1,20 @@
 ---
 title: Monitoring Technology Dashboard for AWS
-description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
+description: With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-aws.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Understanding the Monitoring Technology Dashboard, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Monitoring Technology Dashboard for AWS
 
-With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
+With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
 
 ## Overview of the dashboard
 
@@ -26,8 +26,8 @@ To view the dashboard, navigate to **All** &gt; **AIOps Dashboards** &gt; **Moni
 
 Before using the Monitoring Technology Dashboard for AWS:
 
--   Create an AWS credential. For details on creating AWS credentials, see [Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md).
--   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Create discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-manager.md).
+-   Create an AWS credential. For details on creating AWS credentials, see [Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md).
+-   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Access setup for AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/access-aws-accounts.md).
 -   Ensure that you’re working in the Agent Client Collector Monitoring scope in your ServiceNow instance.
 -   Ensure that the agent\_client\_collector\_admin and dashboard\_admin roles are enabled.
 -   Enable Metric Intelligence on the MID Server.
@@ -61,4 +61,6 @@ Use the **Time range filter** to filter the time range for which you want metric
 Use the **Metrics by selected CI filter** to select the CIs for which you want to view metrics.
 
 You can customize the appearance of the individual widgets on the AWS Monitoring Technology Dashboard. For example, you could change the time that the EC2 metrics appear. You can also include the customized widgets when you are creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
+
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

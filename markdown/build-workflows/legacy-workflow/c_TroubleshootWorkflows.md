@@ -7,7 +7,7 @@ release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Classic Workflow, Build workflows]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Classic Workflow, Build workflows]
 # Troubleshoot workflows
 
 Troubleshooting tools for workflows enable administrators to isolate execution paths, compare contexts, and track incomplete activities.
+
+**Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
 The workflow timeline provides a visual representation of the workflow, including transitions and the elapsed time for each activity. A troubleshooting tool for highlighting execution paths helps users perform forensics on a workflow. The highlighting feature can group multiple execution paths in various colors and can isolate [rollback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ApprovalAndRollbackActivities.md) processing. Use the workflow highlighter to isolate incomplete tasks and approvals. You can also enable a workflow performance timing feature to troubleshoot slow workflows.
 

@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Working on records in your Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Use Screen Summarization
@@ -19,8 +19,6 @@ Screen Summarization is a feature that supports visually impaired and low-vision
 Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
 
 Role required: workspace\_user
-
-## About this task
 
 \[Omitted video\] Description: Screen Summarization overview and instructions on how to use it
 

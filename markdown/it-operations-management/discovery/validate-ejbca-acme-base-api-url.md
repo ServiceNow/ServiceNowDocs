@@ -1,5 +1,5 @@
 ---
-title: Validate your EJBCA ACME base API URL
+title: Validate EJBCA ACME base API URL
 description: Validate that your base API URL for EJBCA ACME has been updated to your organization's root URL address.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/validate-ejbca-acme-base-api-url.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ACME integration with KeyFactor EJBCA for automated flows, Automated Certificate Management Environment, ITOM Visibility, IT Operations Management]
+breadcrumb: [Integration with KeyFactor EJBCA, Automated certificate management with ACME, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Validate your EJBCA ACME base API URL
+# Validate EJBCA ACME base API URL
 
 Validate that your base API URL for EJBCA ACME has been updated to your organization's root URL address.
 
@@ -30,12 +30,14 @@ Role required: discovery\_admin, Public Key infrastructure \(PKI\) admin, admin
 
 4.  Select **EJBCA ACME** in the table.
 
-    The UI is redirected to the certificate field and its Base URL.
 
+## Result
+
+The UI is redirected to the certificate field and its Base URL.
 
 ## What to do next
 
 Review the URL and confirm that it's not the standard default settings.
 
-To connect with EJBCA, you must change the default URL to your specific environment \(env\) URL. If you still see the default setting, reconfigure your base API URL. For more information, see [Configure your base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md).
+To connect with EJBCA, you must change the default URL to your specific environment \(env\) URL. If you still see the default setting, reconfigure your base API URL. For more information, see [Configure base API URL for EJBCA ACME](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/configure-base-api-url-for-ejbca-acme.md).
 

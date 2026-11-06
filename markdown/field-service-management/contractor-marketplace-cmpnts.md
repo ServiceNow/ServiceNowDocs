@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/contractor-marketplace-cmpnts.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Field Service Marketplace components
@@ -153,6 +153,8 @@ Demo data is provided with this plugin.
 </td><td>
 
 Matching skills of contractorsDistance between task and contractors
+
+Matching mandatory skills of contractors
 
 </td><td>
 

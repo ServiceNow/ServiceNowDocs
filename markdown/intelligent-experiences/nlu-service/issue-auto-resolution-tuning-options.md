@@ -1,5 +1,5 @@
 ---
-title: Issue Auto Resolution tuning options
+title: \(Legacy\) Issue Auto Resolution tuning options
 description: When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-options.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Issue Auto Resolution Tuning in NLU, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Issue Auto Resolution Tuning in NLU, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Issue Auto Resolution tuning options
+# \(Legacy\) Issue Auto Resolution tuning options
 
 When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
 
@@ -60,6 +60,4 @@ Review further information in the **Here's a detailed breakdown** section of Ana
 Note that the intents are grouped into mapped and unmapped intents, depending on whether they have been mapped to Virtual Agent topics. After providing feedback in IAR Tuning, you may wish to activate some intent-to-topic mappings. To do so, expand **See unmapped intents**, then select the **Map more intents** button. This opens the IAR Admin Console.
 
 When you have decided the optimum tuning option for your requirements, select the **Save choice** button in the **Learn about tuning goals** window. Then, select the **Tune and publish model** button to advance to the next step.
-
-**Parent Topic:**[Issue Auto Resolution Tuning in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.md)
 

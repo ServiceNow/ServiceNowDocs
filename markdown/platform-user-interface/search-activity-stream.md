@@ -1,18 +1,18 @@
 ---
-title: Search Activity stream
-description: Search using keywords activity stream to find results in work notes, emails and comments more efficiently.
+title: Search the Activity stream
+description: Use keywords to search the Activity stream and find work notes, emails, and comments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/search-activity-stream.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on records in your Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Activity stream, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Search Activity stream
+# Search the Activity stream
 
-Search using keywords activity stream to find results in work notes, emails and comments more efficiently.
+Use keywords to search the Activity stream and find work notes, emails, and comments.
 
 ## Before you begin
 
@@ -20,10 +20,16 @@ Role required: workspace\_user
 
 ## Procedure
 
-1.  Select \[Omitted image "IconSearch.png"\] Alt text: Icon search. in Activity stream.
+1.  Open a record in your instance.
 
-2.  **Note:** Keywords will only highlight in work notes, comments and emails. Activity stream entries that do not match the keyword criteria will filter out as you type. Keyword searches for attachments is also available, but will not highlight, attachments will instead be displayed in activity stream.
+2.  From the Activity stream, select the search icon \(\[Omitted image "IconSearch.png"\] Alt text: Icon search.\).
 
-    Search using keywords in the **Search Activity Stream** search bar to find your results.\[Omitted image "activity-stream-search.png"\] Alt text: Activity stream search
+3.  In the **Search Activity Stream** field, enter keywords to find results.
 
+    \[Omitted image "activity-stream-search.png"\] Alt text: Search Activity Stream field
+
+    **Note:**
+
+    -   Work notes, comments and emails will highlight matching keywords.
+    -   Attachments will not highlight matching keywords, but the attachments will display in the Activity stream.
 

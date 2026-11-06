@@ -1,5 +1,5 @@
 ---
-title: Create variable sets in Service Exchange for remote record producers
+title: Create a variable set in Service Exchange for remote record producers
 description: Create variable sets for a remote record producer in Service Exchange for Providers application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-create-variable-sets.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using variable sets with Remote Record Producers, Remote record producers in Service Exchange, Create remote catalogs in Service Exchange for providers, Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Create variable sets in Service Exchange for remote record producers
+# Create a variable set in Service Exchange for remote record producers
 
 Create variable sets for a remote record producer in Service Exchange for Providers application.
 

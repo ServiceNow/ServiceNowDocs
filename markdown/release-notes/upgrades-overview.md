@@ -1,16 +1,16 @@
 ---
-title: Upgrade to the Yokohama release
+title: Upgrade to the Brazil release
 description: Upgrading and patching your instance requires planning, testing, and validation. To ensure a safe and effective upgrade, read the release notes, create upgrade plans, and test your upgrade on non-production instances before upgrading your production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Yokohama release notes]
+breadcrumb: [Brazil release notes]
 ---
 
-# Upgrade to the Yokohama release
+# Upgrade to the Brazil release
 
 Upgrading and patching your instance requires planning, testing, and validation. To ensure a safe and effective upgrade, read the release notes, create upgrade plans, and test your upgrade on non-production instances before upgrading your production instance.
 

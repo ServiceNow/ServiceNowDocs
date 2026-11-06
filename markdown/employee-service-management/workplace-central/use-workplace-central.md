@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -20,6 +20,8 @@ To customize a page in the Workplace Central application, refer to the knowledge
 
 -   **[Creating custom lists on Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/creating-custom-lists-wsd.md)**  
 You can create custom lists using the Lists module on Workplace Central. You can create a custom list by using existing lists from Workplace Central, or by using a system table.
+-   **[Working with Space Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-space-planning.md)**  
+Manage core functions like space hierarchy, neighborhoods, and user assignments.
 -   **[Working with Space Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-space-optimization.md)**  
 Perform space optimization-related actions such as creating scenarios, approving scenarios and more.
 -   **[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-schedule-planning.md)**  

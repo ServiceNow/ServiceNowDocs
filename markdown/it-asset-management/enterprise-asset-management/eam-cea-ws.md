@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-10-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\), Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Critical Environment Asset Workspace

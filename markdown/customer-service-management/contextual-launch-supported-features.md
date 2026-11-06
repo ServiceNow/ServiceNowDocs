@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/contextual-launch-supported-features.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Management reference, Customer Service Management]
+breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Feature context parameters supported in Engagement Messenger
@@ -290,5 +290,5 @@ None
 </table>**Related topics**  
 
 
-[Launch a feature in Engagement Messenger using custom code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/contextual-launch-using-script-engagement-messenger.md)
+[Launch a feature in Engagement Messenger using custom code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/contextual-launch-using-script-engagement-messenger.md)
 

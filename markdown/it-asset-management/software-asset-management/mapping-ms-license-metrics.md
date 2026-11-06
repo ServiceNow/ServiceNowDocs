@@ -1,22 +1,24 @@
 ---
 title: License metrics for Microsoft products
-description: A detailed description of the license metrics that can be utilized with Microsoft products.
+description: A detailed description of the license metrics that can be used with Microsoft products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/mapping-ms-license-metrics.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License metrics for Microsoft products
 
-A detailed description of the license metrics that can be utilized with Microsoft products.
+A detailed description of the license metrics that can be used with Microsoft products.
 
 ## Microsoft products and Software Asset Management license metrics
+
+**Note:** The support for Per Processor license metric for Windows Server is applicable for Zurich patch 4 and Software Asset Management \(sn\_itam\_samp\) 3.2.0 version onwards. If you have already upgraded to Zurich, you can install the Software Asset Management manually.
 
 <table id="table_olj_hhx_rqb"><thead><tr><th>
 
@@ -45,11 +47,13 @@ Data Center/Standard
 </td><td>
 
 -   Per Core
+-   Per Processor
 -   CAL licensing
 
 </td><td>
 
 -   Per Core \(with CAL\)
+-   Per Processor
 -   User/Device CAL for CAL licensing
 
 </td></tr><tr><td>
@@ -617,6 +621,8 @@ Per Core
 </td><td>
 
 Same as above.**Note:** If you are already using SQL Server Enterprise edition with \(Server/CAL\) server licenses with software assurance, continue to use the Server+CAL licensing model. Use license metric as Server \(per Server\) for Server Licensing and User/Device CAL for CAL licensing. The new purchases for SQL Server Enterprise will be based only on the Per Core licensing model.
+
+For more information about licenses required for Server + CAL licensing model, see [Licensing support for Microsoft SQL Server enterprise on Server+ CAL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/microsoft-sql-server-enterprise-edition-licensing-modal.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational subflows, Exploring subflows, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Conversational subflows, Explore subflows, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Check for conversational compatible subflows
@@ -33,9 +33,9 @@ You can only configure conversational settings for subflows that are marked as c
 
 2.  On the homepage, select **Subflows**.
 
-3.  Select the **Conversational compatible** tab.
+3.  Go to the **Conversational compatible** tab and select **Run compatibility check**.
 
-4.  Select **Run compatibility check**.
+    \[Omitted image "conv-compatible-subflows.png"\] Alt text: Screen showing the conversational compatible tab on the subflows page.
 
     By default, the system only checks new subflows that were created since the last compatibility check. If you want to check all subflows, select **Complete scan**. You can use a complete scan to verify that updated subflows remain conversationally compatible.
 
@@ -49,6 +49,4 @@ The system updates the list of conversational compatible subflows.
 ## What to do next
 
 To make a subflow conversational, configure its conversational settings. See [Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-subflow-conversation-settings.md).
-
-**Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-subflows.md)
 

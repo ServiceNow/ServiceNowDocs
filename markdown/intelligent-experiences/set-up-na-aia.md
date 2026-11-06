@@ -1,0 +1,91 @@
+---
+title: Set up AI agents
+description: The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/set-up-na-aia.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Set up AI agents
+
+The default \(base system\) AI agents provide preconfigured agentic workflows that address common business challenges across ServiceNow applications. Before activating the default AI agents, you must verify that your instance meets the prerequisites and complete the required configuration steps.
+
+## Before you begin
+
+Role required: sn\_aia\_admin
+
+## About this task
+
+**Prerequisites**
+
+-   **Platform version:**
+    -   Minimum: Yokohama Patch 1+ or Xanadu Patch 7+
+    -   Recommended: Yokohama Patch 8 or Zurich Patch 4
+    -   Latest: Zurich Patch 12 or Australia Patch 5
+-   **Required plugins and store Apps**
+
+    -   ServiceNow Otto AI agents store app \(version 8.2 as of Australia Patch 5.\)
+    -   At least one ServiceNow Otto workflow plugin:
+        -   ServiceNow Otto for ITSM
+        -   ServiceNow Otto for HRSD
+        -   ServiceNow Otto for CSM
+        -   ServiceNow Otto for Security Incident Response \(SIR\)
+    -   Generative AI Controller plugin \(minimum version 11.0.0\)
+    **Note:** Select **Load demo data** during installation to access preconfigured examples.
+
+-   **Licensing Requirements**
+
+    ServiceNow Otto Pro Plus or Enterprise entitlement
+
+-   **Required User Roles**
+    -   sn\_aia.admin - Provides access to AI Agent Studio
+    -   sn\_nowassist\_admin.nsa\_admin - Enables ServiceNow Otto administration
+
+## Procedure
+
+1.  Enable AI Search.
+
+    1.  Navigate to **AI Search** &gt; **AI Search Status**.
+    2.  Verify that AI Search is enabled.
+2.  Enable ServiceNow Otto panel.
+
+    1.  Navigate to **Now Assist admin** &gt; **Experiences**.
+    2.  Turn on the **Panel** option.
+3.  Access the AI Agent Studio.
+
+    1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
+    2.  Review the available default \(base system\) agentic workflows.
+4.  Activate the default agentic workflows.
+
+    1.  Select the agentic workflow that you want to use from the available default workflows.
+    2.  Activate the workflow. The default workflows are set to read only and must be activated before use.
+    The default \(OOTB\) agentic workflows include:
+
+    -   Generate resolution plans
+    -   Analyze incident trends
+    -   Classify tasks
+    -   Investigate IT problems
+    -   Process emails for tasks
+5.  Configure chat assistants.
+
+    1.  Navigate to **Conversational Interfaces** &gt; **Assistants**.
+    2.  Determine which chat assistants can access your AI agents.
+    3.  Complete the configuration wizards for ServiceNow Otto panel or ServiceNow Otto ServiceNow Otto for Virtual Agent.
+6.  Configure LLM Connections \(optional\).
+
+    If using external LLM providers instead of the default OpenAI GPT-4.1:
+
+    1.  Navigate to **AI Admin Hub** &gt; **Settings** &gt; **Manage Integration**.
+    2.  Configure API credentials for your chosen LLM provider.
+    **Note:** The default Orchestration layer uses OpenAI GPT-4.1 5.4 on ServiceNow-managed Azure servers.
+
+7.  Test the default AI agents.
+
+    1.  Navigate to **AI Agent Studio** &gt; **Testing** &gt; **Test AI reasoning**.
+    2.  Verify that the orchestrator canvas displays agent execution properly.
+    3.  Review AI agent decision logs to confirm interactions and thought processes are recorded.
+

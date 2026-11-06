@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **evt\_mgmt.connector\_assignment\_group\_admin\_roles** property to set which roles are authorized for admin access over the assignment group field in connector instances.
 
-The **evt\_mgmt.connector\_assignment\_group\_admin\_roles** property contains a comma separated string which indicates the role names that have admin access over the assignment group field in connector instances. Changing the default roles in this list may enable unauthorized users to alter event integrations on the instance. To prevent unauthorized access to roles, set **evt\_mgmt.connector\_assignment\_group\_admin\_roles** to the value of admin,evt\_mgmt\_admin,sn\_sow\_srm.srm\_admin. Review any additional roles in the recommended value string to ensure that the role should be included.
+The **evt\_mgmt.connector\_assignment\_group\_admin\_roles** property contains a comma separated string which indicates the role names that have admin access over the assignment group field in connector instances. Changing the default roles in this list may enable unauthorized users to alter event integrations on the instance. To prevent unauthorized access to roles, set **evt\_mgmt.connector\_assignment\_group\_admin\_roles** to the value of `admin,evt_mgmt_admin,sn_sow_srm.srm_admin`. Review any additional roles in the recommended value string to ensure that the role should be included.
 
 ## More information
 
@@ -50,7 +50,7 @@ Data type
 
 </td><td>
 
-string
+String
 
 </td></tr><tr><td>
 
@@ -63,6 +63,14 @@ admin,evt\_mgmt\_admin,sn\_sow\_srm.srm\_admin
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+admin,evt\_mgmt\_admin,sn\_sow\_srm.srm\_admin
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -83,8 +91,16 @@ Security risk
 </td><td>
 
 -   Severity score: 3.1
--   CVSS score: Low
--   Security risk details: Changing the default roles could enable unauthorized users to alter event integrations on the instance.
+-   CVSS rating: Low
+-   Security risk details: Changing the default roles in this list may open up unauthorized users to altering event integrations on the instance.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+Changing the default roles in this list may prevent previously authorized users from altering event integrations on the instance.
 
 </td></tr><tr><td>
 
@@ -93,14 +109,6 @@ Dependencies and prerequisites
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ua-creating-groups.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)

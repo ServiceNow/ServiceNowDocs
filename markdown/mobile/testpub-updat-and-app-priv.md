@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/testpub-updat-and-app-priv.html
 release: yokohama
 topic_type: task
-last_updated: "2026-08-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Update a branded app, Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Test and publish an updated Android app for private distribution
@@ -44,12 +44,11 @@ Role required: admin
 6.  Publish and distribute your Android app for private distribution by uploading your APK file to your private distribution site, managed Google Play site, or your EMM \(enterprise mobility management\) provider:
 
     -   See [Google documentation](https://support.google.com/a/answer/2494992?hl=en) for information about how to publish private apps from the Google Play Console.
-    -   If you are using the BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
     -   If you are using the Microsoft Intune MAM, see [Microsoft documentation](https://learn.microsoft.com/en-us/mem/intune/apps/apps-add-android-for-work).
     -   For information about ServiceNow® mobile apps version history and changes, see:
         -   Now Mobile
         -   ServiceNow Agent
-    -   Update your app before you update your ServiceNow family version, or at least once per year to keep your push notifications working and to leverage the most up to date ServiceNow mobile features. For more information, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-supported-devices.md).
+    -   Update your app before you update your ServiceNow family version, or at least once per year to keep push notifications working. For the latest ServiceNow mobile features and supported devices, see [Tested devices and supported versions for ServiceNow mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-supported-devices.md).
 
 **Parent Topic:**[Update a branded app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/update-branded-app.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-smart-assessment-flow.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Unified Approvals View, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -33,8 +33,8 @@ The following is the workflow of the smart assessment adaption:
 
 2.  Once the record is **Approved**, VIT is moved to Deferred state.
 
+    The change approval record transitions through the following approval states: **Draft** \(while questionnaire is being filled\), **In Review** \(after submission\), **Approved**, **Rejected**, **Expired** \(if not actioned within the approval expiry period\), or **No Longer Required**.
+
 3.  You can view the questionnaire via a link submitted by the Remediation Owners in the request information in Overview page.
 
-
-**Parent Topic:**[Unified Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-approval-view.md)
 

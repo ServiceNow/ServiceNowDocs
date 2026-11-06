@@ -7,9 +7,9 @@ release: yokohama
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data Discovery jobs, Data Discovery, Platform Privacy]
+breadcrumb: [Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
 # Configure a Data Discovery job
@@ -59,9 +59,17 @@ Scan Type
 </td><td>
 
 Number of entries to be scanned. Possible states are as follows:-   **Sample**: Scans 10,000 entries.
+-   **Incremental**:Scans for sensitive data patterns in new or modified records. This scan type is recurring.
 -   **Full**: Scans all entries.
--   **Attachment Only**: Scans all attachments but no other entries in the table. See [Attachment scanning in Data Discovery jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-discovery/data-discovery-attachment-scanning.md) for more information.
 
+
+</td></tr><tr><td>
+
+Policy
+
+</td><td>
+
+The Data Discovery policy to be used in this job. See [Data Discovery policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-discovery/data-discovery-policies.md) for more information.
 
 </td></tr><tr><td>
 
@@ -69,7 +77,7 @@ Scan Attachments
 
 </td><td>
 
-Check to scan all attachments and table entries for sensitive data patterns.
+Scans attachments for any sensitive data patterns. Images embedded under .pdf or .doc files will not be scanned for sensitive data.**Warning:** This feature requires sending your data to a controlled ServiceNow environment. Before enabling, please confirm you have agreed to the additional terms and conditions required to use this feature.
 
 </td></tr><tr><td>
 

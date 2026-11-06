@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrated experience and service feedback, Setup continuous improvement, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrated experience and service feedback, Setup continuous improvement, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Set up the feedback configuration
@@ -43,6 +43,8 @@ The feedback configuration is generic for all feedback types and definitions.
     -   **Employee center feedback configuration**
     -   **Feedback configuration for kiosk portal**
     -   **MESP Feedback Configuration**
+    If you have the Browser Extension for Employee Center plugin \(sn\_ex\_brw\_ext\) version 1.0 along with the Employee Center Pro plugin \(sn\_ex\_sp\_pro\) version 36.0, you have **Browser Extension feedback configuration** by default.
+
 
 ## Result
 

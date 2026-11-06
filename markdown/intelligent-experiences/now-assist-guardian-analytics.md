@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-guardian-analytics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-02-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Guardian analytics

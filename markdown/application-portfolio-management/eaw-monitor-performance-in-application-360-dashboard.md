@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the Application 360 dashboard in Enterprise Architecture Workspace, Work with Enterprise Architecture Workspace dashboard, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Dashboards, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Monitor performance in Application 360 dashboard
@@ -35,5 +35,12 @@ Role required: sn\_apm.apm\_analyst
 5.  From the Breakdown list, select the type of breakdown that you want to see the trend and distribution details for.
 
 
-**Parent Topic:**[Working with the Application 360 dashboard in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-working-with-application-360-dashboard-in-enterprise-architecture-workspace.md)
+**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-dashboards.md)
+
+**Related topics**  
+
+
+[Explore the Application 360 dashboard in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-working-with-application-360-dashboard-in-enterprise-architecture-workspace.md)
+
+[View application performance in Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.md)
 

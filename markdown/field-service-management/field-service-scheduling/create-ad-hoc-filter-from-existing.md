@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing ad hoc filters, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing ad hoc filters, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Create an ad hoc filter from an existing filter
@@ -24,21 +24,21 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click the **Dispatcher Workspace**.
+2.  Select the **Dispatcher Workspace**.
 
 3.  Select a filter from the drop-down of the filter search field.
 
-4.  Click **Filter**.
+4.  Select **Filter**.
 
 5.  Set up the conditions for the filter.
 
-6.  To save this filter for future use, click **Save filter**.
+6.  To save this filter for future use, select **Save filter**.
 
     1.  Enter a **Filter Name**.
 
-    2.  Click **Save**.
+    2.  Select **Save**.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 ## Result

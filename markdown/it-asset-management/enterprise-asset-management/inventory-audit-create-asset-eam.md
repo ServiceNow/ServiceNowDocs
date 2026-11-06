@@ -7,10 +7,10 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-01-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [create an asset, create new asset inventory audit screen]
-breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an enterprise asset from the inventory audit screen
@@ -22,8 +22,6 @@ Create an enterprise asset record for the scanned asset that doesn't exist in yo
 Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_common.asset\_audit\_user
 
 ## About this task
-
-**Important:** This feature is available with Enterprise Asset Management version 10.0.0 onwards.
 
 When scanning an asset in the inventory, if a new asset is detected that doesn’t exist in your ServiceNow® instance, you can create a record for it. You can add the asset directly from the audit screen in the ServiceNow Agent app.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Control ability to view breakdown elements
@@ -26,7 +26,7 @@ There are no visibility options for breakdowns. Instead, access to breakdowns is
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Breakdown Sources**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **'Data Sources** &gt; **Breakdown Sources**.
 
 2.  Open the breakdown sources record for the breakdown you want to set access to.
 
@@ -56,11 +56,11 @@ Role required: pa\_admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Breakdown Sources**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Breakdown Sources**.
 
 2.  Open an existing breakdown source record.
 
-3.  In the **Elements Security List** related list, click **New**.
+3.  In the **Elements Security List** related list, select **New**.
 
 4.  Fill in the fields, as appropriate.
 

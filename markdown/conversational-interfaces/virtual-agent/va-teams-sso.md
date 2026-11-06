@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Configuring, smart links, Microsoft Teams, MSTeams, Virtual Agent, Task module]
-breadcrumb: [Configure link authentication and opening experience in Microsoft Teams, Configure Virtual Agent for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure link authentication and opening experience in Microsoft Teams, Configure VA for Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configuring smart links in Microsoft Teams
@@ -25,7 +25,7 @@ Smart link settings in the admin console enable admins to define one of the thre
 
 Through link authentication and Single Sign-On \(SSO\) support, link content can be rendered in a pop-up, Microsoft Teams tab, or a new browser tab.
 
-You can configure smart links for Microsoft Teams from the URL navigation system action under **Target Location**. For more information about configuring smart links, see [Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/create-smart-link-preference.md).
+You can configure smart links for Microsoft Teams from the URL navigation system action under **Target Location**. For more information about configuring smart links, see [\(Legacy\) Create a smart link preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/create-smart-link-preference.md).
 
 There are three valid link opening options that are applicable to Microsoft Teams and the smart link settings in admin console enables admins to define where to open a link in Microsoft Teams.\[Omitted image "msteams-link-open-options.png"\] Alt text: Valid link opening options applicable to Microsoft Teams. Load in Place, New Browser Tab, and Popup options are highlighted.
 

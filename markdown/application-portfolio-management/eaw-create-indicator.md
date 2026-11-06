@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-indicator.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure indicators, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure indicators, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit an application indicator
@@ -34,10 +34,19 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing application indicator, select the application indicator.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create new indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-indicator-form.md).
+    For field information, see [Create indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-indicator-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Configure indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)
+**Parent Topic:**[Configure indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-indicators.md)
+
+**Related topics**  
+
+
+[View all application indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-application-indicators.md)
+
+[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-regenerate-indicator-score.md)
+
+[Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md)
 

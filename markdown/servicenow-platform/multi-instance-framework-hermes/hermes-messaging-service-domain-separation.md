@@ -7,7 +7,7 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,7 +49,7 @@ All domain support features require the Domain Support - Domain Extensions Insta
 
 [Hermes Messaging Service security model]()
 
-[Hermes Messaging Service properties]()
+[Hermes Messaging Service system properties]()
 
 [Hermes Messaging Service roles]()
 

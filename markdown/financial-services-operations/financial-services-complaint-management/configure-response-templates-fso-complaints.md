@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Financial Services Complaint Management, Setting up Financial Services Complaint Management, Complaint Management, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Define response templates for Financial Services Complaint Management

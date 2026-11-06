@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Guided Self-Service reference
@@ -44,7 +44,7 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 
 [Activity Configuration Detail form]()
 
-[Browser Extension for Employee Center forms]()
+[Approvals experience reference]()
 
 [Connected Content form]()
 
@@ -78,11 +78,9 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 
 [Portal notification content form]()
 
-[Quick Link form]()
-
-[Standard banner and icon sizes]()
-
 [Trigger conditions form]()
+
+[Quick Link form]()
 
 [Tab widget mapping form]()
 
@@ -90,11 +88,15 @@ You can display Guided Self-Service as a widget on the home page or as a quick l
 
 [Topic form]()
 
-[To-do content form]()
-
 [User Criteria form]()
 
 [User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 
 [Use Guided Self-Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/gss-guided-self-service-homepage.md)
 

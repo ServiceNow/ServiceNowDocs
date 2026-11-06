@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: none
 
 ## About this task
 
-Use the paperclip icon \(\[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon\) to drag files into a post. Additionally, you can [paste images into a post or reply from the clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_CopyAnImageFromTheClipboard.md).
+Use the paperclip icon to drag files into a post. Additionally, you can [paste images into a post or reply from the clipboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_CopyAnImageFromTheClipboard.md).
 
 ## Procedure
 
@@ -30,11 +30,9 @@ Use the paperclip icon \(\[Omitted image "AttachmentIcon.png"\] Alt text: Attach
 
     -   While composing a post or reply \(see [Reply to a Message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_ReplyToAMessage.md)\), locate one or more images or other supported types of files, and drag them into the message box.
 
-    -   Click the paperclip icon \(\[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon\) in the message box, navigate to the location of the files you want to attach, select them, and click **Open**.
+    -   Click the paperclip icon in the message box, navigate to the location of the files you want to attach, select them, and click **Open**.
 
 2.  To add more files, drag-and-drop additional files into the text box below the displayed files or images, or click the plus sign.
-
-    \[Omitted image "AttachingFiles.png"\] Alt text: Attaching files
 
 3.  If you want to delete an attachment before posting the message, click the trashcan icon adjacent to the attachment.
 

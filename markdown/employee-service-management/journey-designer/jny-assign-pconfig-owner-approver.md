@@ -1,24 +1,24 @@
 ---
 title: Assign owners and approvers to a journey configuration
-description: In Journey designer version 2, administrators assign the initial owners and approvers to a plan configuration.
+description: In Journey designer, administrators assign the initial owners and approvers to a plan configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup the Journey designer version 2 plan configuration review and approval process, Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create plan configurations, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Assign owners and approvers to a journey configuration
 
-In Journey designer version 2, administrators assign the initial owners and approvers to a plan configuration.
+In Journey designer, administrators assign the initial owners and approvers to a plan configuration.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_jny.admin
 
 ## About this task
 
@@ -55,5 +55,5 @@ Co-owners have the same capabilities as owners.
 10. Select **Submit**.
 
 
-**Parent Topic:**[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
+**Parent Topic:**[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)
 

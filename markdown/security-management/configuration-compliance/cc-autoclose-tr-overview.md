@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Remediation, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Automatically closing stale test results in Configuration Compliance

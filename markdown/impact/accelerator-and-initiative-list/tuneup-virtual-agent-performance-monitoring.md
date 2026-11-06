@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [TuneUp Your Virtual Agent, Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [TuneUp Your Virtual Agent, Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your Virtual Agent – Performance Monitoring
@@ -22,9 +22,11 @@ The TuneUp Your Virtual Agent – Performance Monitoring Accelerator provides Im
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-landing-page.md) for additional information on Virtual Agent.
 
-**Note:** This Accelerator is available in Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable [ServiceNow Impact Package and Accelerator descriptions](https://www.servicenow.com/legal/servicenow-impact.html).
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Share a portfolio plan with stakeholders
@@ -18,7 +18,7 @@ Share your portfolio plan with stakeholders and other planning managers so that 
 
 ## Before you begin
 
--   [Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 -   Users or groups that you want to share the portfolio plan with must have the sn\_align\_core.ap\_read\_only or sn\_align\_core.apw\_user role to get the read or edit access to the portfolio plan respectively.
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
@@ -29,9 +29,12 @@ Select individual users or groups to share the portfolio with.
 
 When you share a portfolio plan with an individual user or a group, they can access the following data of the portfolio plan:
 
--   Planning page \(Prioritization and Roadmap tabs\) by default
--   Capacity tab in the Planning page if the user has the sn\_align\_ws.spw\_capacity\_user or sn\_align\_ws.spw\_capacity\_read role
--   Goals page if the user has the sn\_apw\_advanced.spw\_goal\_user role.
+-   Planning page
+    -   Prioritization, Roadmap, Kanban, Hierarchy tabs by default
+    -   Capacity tab if the user has the sn\_align\_ws.spw\_capacity\_user or sn\_align\_ws.spw\_capacity\_read role
+    -   Financials tab if the user has sn\_align\_ws.spw\_financial\_user role
+-   Goals page if the user has the sn\_apw\_advanced.spw\_goal\_user role
+-   Scoring page if the user has the sn\_align\_core.apw\_user role
 
 ## Procedure
 
@@ -40,6 +43,10 @@ When you share a portfolio plan with an individual user or a group, they can acc
 2.  From the list of portfolio plans, select one.
 
 3.  From the portfolio plan header in the Planning page, select the **Share portfolio plan** icon \(\[Omitted image "icon-share-pp.png"\] Alt text: Share portfolio plan with users and groups\).
+
+    **Note:** Alternatively, you can select Share actions icon \(\[Omitted image "share-actions-pp.png"\] Alt text: Share actions of a portfolio plan.\) and then select **Copy link** to copy a direct link to the portfolio plan that you can share with other users. The link provides access only to users who already have the required permissions.
+
+    \[Omitted image "copy-link-portfolio-plan.png"\] Alt text: Copy link to share a portfolio plan.
 
 4.  On the Share portfolio plan form, select users to share the portfolio plan with and set their access appropriately.
 
@@ -61,11 +68,11 @@ The selected individual and group users are notified of the portfolio plan shari
 
 ## What to do next
 
-[Collaborate on a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md).
+[Collaborate on a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md).
 
 Change the access level or remove access for a user or a group.
 
-1.  On the Share portfolio plan form, select **Manage access**.
+1.  From the portfolio plan header, select Share actions icon \(\[Omitted image "share-actions-pp.png"\] Alt text: Share actions of a portfolio plan.\) and then select **Manage access**.
 2.  From the user or group card, select the Action Menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Action menu icon.\).
 3.  Select the right access level or select **Remove**.
 
@@ -74,7 +81,7 @@ Change the access level or remove access for a user or a group.
 **Related topics**  
 
 
-[Modify a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/modify-the-details-of-a-portfolio-plan-alignment-planner-workspace.md)
+[Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/modify-the-details-of-a-portfolio-plan-alignment-planner-workspace.md)
 
 [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md)
 

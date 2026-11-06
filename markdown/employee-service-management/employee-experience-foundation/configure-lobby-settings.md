@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Notify connector, Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Notify connector, Microsoft Teams integration for Agent Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Lobby Settings
@@ -20,7 +20,7 @@ You can override the lobby settings in your instance to allow the participants t
 
 **Note:** This is an additional configuration, which is optional and can be used as required.
 
-Role required: admin
+Role required: sn\_notify\_msteams.admin
 
 ## Procedure
 

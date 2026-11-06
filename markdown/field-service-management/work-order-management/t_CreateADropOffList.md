@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use drop off lists, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Using drop off lists, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Create a drop off list
@@ -38,6 +38,8 @@ After creating a drop-off list, there are two ways to add items to the list.
 
 2.  Select a **To stockroom**.
 
+    \[Omitted image "drop-off.png"\] Alt text: drop off list form
+
 3.  Click **Submit**.
 
 4.  Do one or both of the following:
@@ -47,6 +49,4 @@ After creating a drop-off list, there are two ways to add items to the list.
 
         Only items in an agent's personal stockroom that are not reserved, not defective, and not included on another drop off list are available for selection.
 
-
-**Parent Topic:**[Use drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseDropOffLists.md)
 

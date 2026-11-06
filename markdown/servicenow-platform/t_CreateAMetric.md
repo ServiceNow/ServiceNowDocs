@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreateAMetric.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ When you create metrics, consider the focus of the category and what characteris
 
 1.  Navigate in one of the following ways.
 
-<table id="choicetable_amk_2gr_z4"><tbody><tr><td id="d621031e69">
+<table id="choicetable_amk_2gr_z4"><tbody><tr><td id="d632257e69">
 
 **__Assessments__ &gt; __Metric Definition__ &gt; __Categories__**
 
@@ -36,7 +36,7 @@ Open a category, and locate the **Assessment Metrics** related list.
 
  This is the suggested navigation path, as the system links metrics to the category from which they are created.
 
-</td></tr><tr><td id="d621031e99">
+</td></tr><tr><td id="d632257e99">
 
 **__Assessments__ &gt; __Metric Definition__ &gt; __Metrics__**
 

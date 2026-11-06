@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/exploring-digi-resi-third-party-registers.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -21,7 +21,7 @@ Beginning with Release 19.1.x, the following applications are supported for ICT 
 -   Digital Operational Resilience Management: This application is used for uploading and downloading of all individual DORA tables.
 -   Digital Resilience Third-party Information Register: This application is used to download the Digital resilience third-party registers. The application contains the Microsoft Excel template that includes all tabs for reporting purposes. It helps the financial entities to maintain a comprehensive register of their contractual arrangements with ICT Third-party service providers at the individual entity, sub-consolidated, and consolidated levels.
 
-    Customers use Digital resilience third-party registers to create or edit the records in bulk or individually for assessments, branches, contracts, functions, legal entities, supply chains, third parties, or third-party engagements using the Microsoft Excel upload and download feature.
+    Customers use Digital resilience third-party registers to create or edit records in bulk or individually for assessments, branches, contracts, functions, legal entities, supply chains, third parties, or third-party engagements. Use the Microsoft Excel upload and download feature.
 
     **Note:** The IRM Professional license users can access Digital resilience third-party registers in the Operational Resilience Workspace. The TPRM license users can access Digital resilience third-party registers in the TPRM Workspace.
 
@@ -43,7 +43,7 @@ Digital Operational Resilience aligns with the Digital Operational Resilience A
 
 DORA Regulation mandates that financial entities incorporate and periodically review a strategy for managing ICT third-party risk within their ICT risk management framework. This strategy must include a policy governing the use of ICT services that support critical or important functions, as provided by third-party ICT service providers.
 
-A financial institution's policy on using third-party ICT service providers plays a crucial role in defining key aspects of its governance, risk management, and internal control frameworks for these services. Financial entities must perform risk assessments and due diligence before signing contracts with third-party ICT service providers. They must also ensure they can terminate these arrangements if needed and maintain business continuity for critical or important functions. For instance, an action could be necessary where the service is not optimal, external ICT systems malfunction, or the service is disrupted due to sanctions.
+A financial institution's policy on using third-party ICT service providers defines key aspects of its governance, risk management, and internal control frameworks for these services. Financial entities must perform risk assessments and due diligence before signing contracts with third-party ICT service providers. They must also ensure they can terminate these arrangements if needed and maintain business continuity for critical or important functions. For instance, an action could be necessary where the service is not optimal, external ICT systems malfunction, or the service is disrupted due to sanctions.
 
 ## Pillars for DORA
 
@@ -65,19 +65,19 @@ Customers can manage the contractual arrangements by processing the records by u
 
 For information on processing the records through the graphical user interface \(GUI\) or by importing or exporting Microsoft Excel files, see [Using Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/using-dg-registers.md).
 
-## Licensing requirements
+## Accessing the Digital resilience third-party registers application
 
 Users can access the Digital resilience third-party registers application in the following ways:
 
 -   Beginning with Release 19.1.x, customers who already have the Operational Resilience or the TPRM applications can access the Digital resilience third-party registers.
 -   These customers can download, install, and start using the Digital resilience third-party registers application.
 
-The licensing information and the associated workspaces are listed in the following table.
+Per DORA regulatory requirements, financial entities must identify all relevant ICT third-party service providers in template B\_05.01, including:
 
-|License|Application displayed in the UI|Associated workspaces|
-|-------|-------------------------------|---------------------|
-|IRM Professional|Digital resilience third-party registers|Operational Resilience Workspace|
-|TPRM|Digital resilience third-party registers|TPRM Workspace|
+-   All direct ICT third-party service providers
+-   All ICT intra-group service providers
+-   All subcontractors identified in template B\_05.02 on the ICT service supply chain
+-   All ultimate parent undertakings of the ICT third-party service providers referred to in \(a\), \(b\), and \(c\)
 
 ## Digital resilience third-party registers in Operational Resilience Workspace
 
@@ -95,6 +95,10 @@ Users with third-party registers and contractual details spread across various s
 The Register of Information \(RoI\) is a regulatory reporting requirement under the Digital Operational Resilience Act \(DORA\) and is supported by the Digital resilience third-party registers application in the Operational Resilience Workspace.
 -   **[Validation framework for Register of Information in Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/opres-dora-validate-roi.md)**  
 The validation framework helps to verify that RoI packages meet regulatory requirements defined by the DORA.
+-   **[Terminology definitions for ROI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/terminology-definitions.md)**  
+The Terminology definitions module lists standard row, column, group, and option label definitions used across DORA reporting sheets. Only the Description field is editable.
+-   **[Define terminology for ROI export](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/opres-dora-roi-ter-def.md)**  
+Define your organization's terminology for closed-set indicator options in the Register of Information. This verifies the B\_99.01 export includes your definitions.
 
 **Parent Topic:**[Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/digi-resi-third-party-registers.md)
 

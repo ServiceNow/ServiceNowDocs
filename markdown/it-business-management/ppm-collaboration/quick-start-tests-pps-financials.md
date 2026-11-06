@@ -7,9 +7,9 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Quick start tests for Project Portfolio Management
@@ -96,7 +96,7 @@ Validate Project is not 100 percent complete if it has atleast one task as close
 
 </td><td>
 
-Validate the project percent complete is not 100% when at least one task is Closed Incomplete or Closed Skipped. Task percent complete must be less than 100%.
+Validate the project percent complete is not 100% when at least one task is Closed Incomplete or Closed Skipped with task % complete less than 100%.
 
 </td><td>
 
@@ -266,7 +266,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that milestone tasks are closed when their state changes to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state changes to Work in Progress. The project preference "close project milestone tasks when they change to work state" must be set.
 
 </td><td>
 
@@ -278,7 +278,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date changes appropriately for a project in WIP state after setting the project preference to "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a WIP project after setting the "Enable move project for WIP projects" preference.
 
 </td><td>
 
@@ -290,7 +290,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project when the project planned dates differ from the task start date. This test uses the deselected project preference "Rollup project start date from tasks".
+Validate that the project task start date does not roll up to the project after deselecting the "Rollup project start date from tasks" preference.
 
 </td><td>
 
@@ -440,7 +440,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans rolls up to the Planned Cost, Allocated Cost, and Resource Cost fields.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify the costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -530,7 +530,7 @@ Resource-Test the default population of resource plan start &amp; end date
 </td><td>
 
 Validate the following on creating a user or group resource plan from the related list of a demand:-   If a demand is created without a start date and end date, the user or group resource plan has task as demand and no start and end date.
--   If a demand is created with a start date and end date, the user resource plan has the task as demand with the specified dates.
+-   If a demand is created with a start date and end date, the user resource plan has the task as demand with those dates.
 
 </td><td>
 
@@ -542,7 +542,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that actual hours in the resource plan and time card are equal when a time card category is mapped with an operational work type.
+Validate that a time card category is mapped with an operational work type. On submitting the time card, verify that the actual hours in the resource plan and time card are equal.
 
 </td><td>
 

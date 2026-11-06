@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Feedback from the record side panel, Create feedback in Advanced Risk, Parallel Review and Feedback in Advanced Risk, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---

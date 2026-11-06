@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Job safety analysis, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Employees can also submit JSAs from their mobile device using the ServiceNow® N
 
 3.  Create a JSA.
 
-<table id="choicetable_uvx_3dr_dcc"><thead><tr><th align="left" id="d156186e100">
+<table id="choicetable_uvx_3dr_dcc"><thead><tr><th align="left" id="d165523e100">
 
 Option
 
-</th><th align="left" id="d156186e103">
+</th><th align="left" id="d165523e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d156186e109">
+</th></tr></thead><tbody><tr><td id="d165523e109">
 
 **From Health and Safety menu**
 
@@ -50,7 +50,7 @@ To start a JSA from scratch:1.  Under **Health and Safety** menu, select **Job s
 2.  Select **Submit a JSA**.
 An empty JSA form opens.
 
-</td></tr><tr><td id="d156186e137">
+</td></tr><tr><td id="d165523e137">
 
 **From a previously submitted JSA**
 
@@ -82,7 +82,7 @@ A JSA form with values copied from the previous JSA opens.
 ## Result
 
 -   The JSA is submitted for your job or task. To view your submitted JSAs, navigate to the **Health and Safety** menu in the Employee Center and then the **View my JSAs** quick link.
--   The JSA is also listed in the JSAs list on Health and Safety Workspace. A risk manager \[sn\_hs\_rm.jsa\_manager\] can view all the filed JSAs by navigating to the Health and Safety Workspace and selecting the JSAs icon \(\[Omitted image "icon-jsa.png"\] Alt text: JSAs icon\).
+-   The JSA is also listed in the JSAs list on Health and Safety Workspace. A risk manager \[sn\_hs\_rm.jsa\_manager\] can view all the filed JSAs by navigating to the Health and Safety Workspace and selecting the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\) and then selecting the **JSAs** list.
 
 **Parent Topic:**[Job safety analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-job-safety-analysis.md)
 

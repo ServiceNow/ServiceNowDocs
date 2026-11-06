@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-02-10"
-reading_time_minutes: 2
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams using the self-configured bot, Specialized Virtual Agent integrations for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Plugins for Conversational Integration with Microsoft Teams
@@ -22,11 +22,11 @@ You must have either the virtual\_agent\_admin or admin role and the external\_a
 
 -   Install the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin.
 
-    For more information about activating the Glide Virtual Agent plugin, see [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/activate-virtual-agent.md).
+    For more information about activating the Glide Virtual Agent plugin, see [\(Legacy\) Activate Virtual Agent for NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/activate-virtual-agent.md).
 
 -   Download the Conversational Integration with Microsoft Teams app from the ServiceNow® Store.
 
-    For more information about downloading the app, Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    For more information about downloading the app, Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   Install the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin in your ServiceNow instance.
 
@@ -38,5 +38,5 @@ Verify the following plugins for Conversational Integration with Microsoft Teams
 -   Microsoft Teams Graph Spoke \[sn\_msteams\_ahv2\]: Plugin is auto installed as part of \[sn\_va\_teams\]. In your ServiceNow instance, navigate to **All** &gt; **sys\_plugins.list** and search for \[sn\_msteams\_ahv2\] to locate the plugin. If it hasn't been installed, you might have to request from the ServiceNow Store first and install the plugin in your ServiceNow instance.
 -   MS Teams - App Core \[com.snc.msteams.app.core\]: Plugin is auto installed as part of \[sn\_va\_teams\]. In your ServiceNow instance, navigate to **All** &gt; **sys\_plugins.list** and search for \[com.snc.msteams.app.core\] to locate the plugin. If the plugin is installed, you are all set to move forward. If it was not installed, reach out to Customer Service and Support.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams using the self-configured bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-teams-self-configured-bot.md)
+**Parent Topic:**[Exploring Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/exploring-ci-microsoft-teams.md)
 

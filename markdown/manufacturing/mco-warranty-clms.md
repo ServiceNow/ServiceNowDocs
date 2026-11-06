@@ -1,40 +1,28 @@
 ---
-title: Repair claims
+title: Repair claim
 description: In the Repair claims workflow, the customer approaches the dealer with issues related to one or more products. The dealer diagnoses and fixes the issue​ and raises the reimbursement for the repair work performed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-warranty-clms.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MCO core features, Exploring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [MCO core, Explore, Manufacturing Commercial Operations]
 ---
 
-# Repair claims
+# Repair claim
 
 In the Repair claims workflow, the customer approaches the dealer with issues related to one or more products. The dealer diagnoses and fixes the issue​ and raises the reimbursement for the repair work performed.
 
-\[Omitted image "repair-claim-wf.svg"\] Alt text: Decorative
+\[Omitted image "repair-claim-wf.png"\] Alt text: Workflow for repair claims
 
-|Entity|Description|
-|------|-----------|
-|Initiate claim|Dealer initiates the warranty or recall claim.|
-|Search serial number|Dealer can search the claim details based on the serial number.|
-|Enter claim job details|Dealer enters the job details in the dealer portal.|
-|Enter parts and labor code|Dealer enters the labor code and parts in the dealer portal.|
-|Submit claim|Dealer submits the claims request to the OEM.|
-|Review claim|OEM reviews the claims request submitted by the dealer.|
-|Approve claim|OEM reviews the claims and either approves, rejects, partially approves, or send backs the claim.|
-|Generate expense line|Claims agent process the expense line and is generated only for approved or partially approved claims.|
+## What to explore next
 
-**Related topics**  
+To learn more about configuring and using repair campaign, see:
 
-
-[Repair claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-warranty-clms.md)
-
-[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-use-repair-claim.md)
-
-[Submit a repair claim for warranty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-submit-repair-claim.md)
-
-[Submit a repair claim for recall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-submit-repair-claim-for-recall.md)
+-   [Repair claims data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-claims.md)
+-   [Install Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/install-manufacturing-commercial-operations-core.md)
+-   [Implement a repair claim set up](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-set-up-repair-claim.md)
+-   [Repair claim for the dealer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-claim-dealer.md)
+-   [Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-use-repair-claim.md)
 

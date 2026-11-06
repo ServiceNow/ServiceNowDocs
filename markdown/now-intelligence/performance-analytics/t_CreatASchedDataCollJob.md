@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Collecting indicator scores, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Collecting indicator scores, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create or schedule a data collection job
@@ -35,9 +35,9 @@ Data collection jobs run different steps to collect scores and to collect text a
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Data Collector** &gt; **Jobs** and click **New**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Jobs** and select **New**.
 
-    You can instead edit an existing data collection job, for example to change the schedule of when the job runs. In this case, navigate to **Performance Analytics** &gt; **Data Collector** &gt; **Jobs** and click the job name.
+    You can instead edit an existing data collection job, for example to change the schedule of when the job runs. In this case, navigate to **Platform Analytics Administration** &gt; **Data Collector** &gt; **Jobs** and select the job name.
 
 2.  In the **Name** field, give the job a meaningful name.
 
@@ -181,9 +181,9 @@ Conditions
 
 </td><td>
 
-Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see [Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_ScriptSandboxing.md).
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. **Warning:** Conditional scripts for Performance Analytics data collection jobs are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see [Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_ScriptSandboxing.md).
 
-After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs do not collect scores.
+After upgrade, jobs with conditional scripts that contain these disallowed API components will conclude with "Collected with errors." These jobs don't collect scores.
 
 The `com.snc.pa.dc.script.use.sandbox` system property controls whether data collection scripts use the sandbox. Only users with the security\_admin role can modify this property. Exercise caution when turning off this property. When set to false, unauthorized users may be able to execute malicious actions on your instance.
 

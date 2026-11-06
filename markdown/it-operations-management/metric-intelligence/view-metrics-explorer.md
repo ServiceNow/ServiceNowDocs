@@ -7,7 +7,7 @@ release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -26,10 +26,7 @@ The Insights Explorer provides a canvas to which you can drag various metrics fo
 
 Insights Explorer displays metric boundaries according to the most recently configured model. Therefore, legacy anomalies from a previous build may still appear as anomalies, even though according to the current boundaries, the alert does not qualify as an anomaly.
 
-You can also access the Insights Explorer from the following maps:
-
--   [View metrics in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/view-ci-metrics.md)
--   [View metrics from a business service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMViewDashboard.md)
+You can also access the Insights Explorer from the business service map. For details, see [View metrics from a business service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMViewDashboard.md).
 
 \[Omitted image "InsightsExplorerLondon.png"\] Alt text: Dashboard for Metric Intelligence metrics, where you can display charts for selected CI metrics.
 
@@ -205,7 +202,7 @@ Displays the raw, unaggregated metric values. These values are kept only for the
 -   Point to the icon of a CI in the right-hand side bar to display the CI type.
 -   Zoom in or out by changing the default **Last Hour** time range selection. Select one of the preset time periods to display anomaly scores for the last **6 Hours** for example, or specify a custom time period for up to 90 days back.
 
-    To zoom in, highlight a section of a chart by pointing to the upper left corner of the section and dragging the mouse device to the lower right corner of the section. The time range of the chart changes accordingly. If there are other charts on the canvas, they are all automatically synchronized to display data for the same time range. The time range in the title bar automatically updates to reflect the new time range.
+    To zoom in, highlight a section of a chart. Point to the upper left corner of the section and drag the cursor to the lower right corner. The time range of the chart changes accordingly. If there are other charts on the canvas, they are all automatically synchronized to display data for the same time range. The time range in the title bar automatically updates to reflect the new time range.
 
 -   Right-click on a CI in the right-hand side bar and select **View Form** to open its CI form.
 -   Click the map icon next to an application service listed in the **Application Services** tab, to open its application service map.

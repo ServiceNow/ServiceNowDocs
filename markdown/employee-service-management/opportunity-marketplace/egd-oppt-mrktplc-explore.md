@@ -7,9 +7,9 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Marketplace, Talent Development, Employee Service Management]
+breadcrumb: [Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Explore Opportunity Marketplace \(OPM\)
@@ -33,5 +33,5 @@ From the Opportunities you own page in Opportunity Marketplace you can create, m
 -   **[Opportunity publishing approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/opportunity-marketplace/egd-oppt-pubs-approval.md)**  
 The Opportunity Marketplace's publishing approval framework streamlines the approval process, allowing Opportunity Owners to submit drafts for approval and receive notifications upon approval or rejection.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hiring-experiences-landing.md)
 

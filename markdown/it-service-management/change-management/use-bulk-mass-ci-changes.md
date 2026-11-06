@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Process a change request, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
 
 # Use Mass Update CI

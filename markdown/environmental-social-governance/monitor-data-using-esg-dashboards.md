@@ -1,30 +1,30 @@
 ---
-title: Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards
+title: Monitoring assessment data using Operational Sustainability Management dashboards
 description: You can monitor and analyze assessment data at various levels in the Operational Sustainability Management application using the Analytics dashboard. The custom dashboards you create provide tailored insights and deliver relevant information at a glance, improving the decision-making process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-09-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards
+# Monitoring assessment data using Operational Sustainability Management dashboards
 
 You can monitor and analyze assessment data at various levels in the Operational Sustainability Management application using the Analytics dashboard. The custom dashboards you create provide tailored insights and deliver relevant information at a glance, improving the decision-making process.
 
 **Analytics dashboard in Operational Sustainability Workspace**
 
-You can view the page by navigating to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** and selecting the Analytics dashboard icon. From the Analytics dashboards page, you can create dashboards, customize them, and share them with others.
+You can view the page by navigating to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** and selecting the Analytics dashboard icon\[Omitted image "dashboard-icon.png"\] Alt text:. From the Analytics dashboards page, you can create dashboards, customize them, and share them with others.
 
 ## Analytics dashboard
 
 The Analytics dashboard landing page opens as a blank canvas, allowing users to create new dashboards. Once a dashboard is created, users can add various elements such as data visualizations, bar charts, trend analyzes, and score reports to create custom sections and data visualizations. ESG data owners and metric managers can create, edit, and share this dashboard.
 
-\[Omitted image "analytics-dashboard.png"\] Alt text:
+\[Omitted image "analytics-dashboard.png"\] Alt text: Analytics dashboard homepage
 
-To learn more about creating and using ESG Management dashboards, see:
+To learn more about creating and using Operational Sustainability Management dashboards, see:
 
 -   [Create an Operational Sustainability Management dashboard using the In-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-an-esg-dashboard.md)
 -   [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/edit-esg-dashboard-details.md)

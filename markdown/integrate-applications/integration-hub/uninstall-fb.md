@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Workplace from Facebook Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Workplace from Facebook Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Uninstall Workplace from Facebook spoke
@@ -30,11 +30,7 @@ Role required: admin
 
 4.  Click **ServiceNow Spoke**.
 
-    \[Omitted image "fb-uninstall.png"\] Alt text: Uninstall Workplace from Facebook spoke.
-
 5.  Click **Uninstall**.
-
-    \[Omitted image "fb-uninstall2.png"\] Alt text: Confirm uninstallation.
 
 6.  In the Uninstall window, confirm your choice by clicking **Uninstall** again.
 

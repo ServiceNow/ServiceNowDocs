@@ -1,74 +1,62 @@
 ---
 title: Exploring Business Continuity Management
-description: Learn how you can use the Business Continuity Management application to manage your business continuity tasks using predefined templates and workflows.
+description: Learn how you can use the Business Continuity Management application to manage continuity tasks through predefined templates and structured workflows. The application helps you analyze business impact, develop continuity plans, test your readiness through exercises, and respond to real‑world crises.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/exploring-bcm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Exploring Business Continuity Management
 
-Learn how you can use the Business Continuity Management application to manage your business continuity tasks using predefined templates and workflows.
+Learn how you can use the Business Continuity Management application to manage continuity tasks through predefined templates and structured workflows. The application helps you analyze business impact, develop continuity plans, test your readiness through exercises, and respond to real‑world crises.
 
 ## Business Continuity Management overview
 
-The Business Continuity Management application provides a framework to perform continuous management activities such as business impact analysis, business continuity planning, exercise management, and crisis management. The structured workflows in the Business Continuity Management application improve your organizational ability to respond to the issues and recover quickly from the disruptions.
+The Business Continuity Management application provides a framework to perform continuous management activities such as business impact analysis, business continuity planning, exercise management, and crisis management. Its structured workflows improve your organizational ability to respond to issues and recover quickly from disruptions.
 
 ## Business Continuity Management workflow
 
-A typical workflow in the Business Continuity Management application involves the following steps for managing your business continuity tasks:
+A workflow in the Business Continuity Management application involves steps for managing business continuity tasks:
 
 \[Omitted image "bcm-data-flow-lucid.png"\] Alt text: BCM high level workflow.
 
-1.  Administrator downloads the Business Continuity Management application from ServiceNow Store.
-2.  BCM administrator sets up the Business Continuity Management application and the templates for performing the business continuity activities.
-3.  BCM program manager or business impact analysis \(BIA\) administrator creates a business impact analysis to determine the impact of a disruption on the business processes and IT applications. The BIA administrator also focuses on the consequences of incidents and estimates the time of recovery to resume normal business operations.
-4.  BCM program manager or BCM lead reviews the assessments and approves the business impact analysis.
-5.  BCM program manager or business continuity plan \(BCP\) administrator creates a business continuity plan and adds the relevant assets, scope, documentation, related plans, recovery teams, loss scenarios, and recovery tasks to it. The BCP administrator then sends an approval request to the BCM lead to review and approve the business continuity plan.
-6.  BCM program manager creates exercise events, tracks the assets and their dependencies, and approves the exercise events.
-7.  BCM program manager responds to the crisis events, tracks the assets and their associated dependencies, and manages the recovery tasks to mitigate the negative impact of a disruption.
-8.  BCM program manager manages the alerts from the Crisis map interface and initiates the response workflows to minimize the downtime.
-9.  BCM administrator or BCM program manager sends the emergency notifications in Everbridge notifications system and notifies the stakeholders about the crisis alerts.
+1.  Download the Business Continuity Management application from the ServiceNow Store with administrator role.
+2.  Set up the BCM application and templates for continuity tasks with BCM administrator role.
+3.  Create a business impact analysis \(BIA\) with BCM program manager role to understand the impact of disruptions and estimate recovery times.
+4.  Review and approve the BIA with BCM program manager or BCM lead roles to verify findings and recommendations.
+5.  Create a business continuity plan \(BCP\) that includes assets, scope, documentation, recovery teams, loss scenarios, related plans, and recovery tasks. Send a request to review and approve the business continuity plan.
+6.  Create exercise events to test plans, tracks the assets and their dependencies, and validate recovery capabilities.
+7.  Respond to crisis events, track recovery actions, and mitigate operational disruptions.
+8.  Manage alerts from the Crisis map and initiate response workflows.
+9.  Send emergency notifications in Everbridge notifications system to alert stakeholders.
+
+## Accessibility compliance
+
+Starting with BCM core version 12.0.x, Accessibility improvements were made to Business Continuity Management \(BCM\) pages and components:
+
+-   Updates include accessible names for buttons and interactive elements across Crisis map, Gantt view, Event tasks, Asset dependencies, and Business continuity planning pages. Keyboard navigation was corrected for forms and recovery task pages. These updates benefit users who rely on screen readers, keyboard-only users, and users of other Assistive Technology \(AT\).
+-   Reflow support for BCM: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 ## Business Continuity Management benefits
 
-The Business Continuity Management application provides the following benefits:
+The Business Continuity Management application provides these benefits:
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Manage your business continuity activities from the interactive dashboard in the Home page.|[Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/home-page-uib-ws.md)|BCM program manager|
-|Monitor your individual and team tasks from a single dashboard in the **My tasks** view.|[My tasks page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/my-tasks-page-uib-ws.md)|BCM program manager|
-|Assess your critical business services and IT applications by creating a business impact analysis.|[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-bia-in-uib-ws.md)|BCM program manager or BIA administrator|
-|Prepare a business continuity plan with a response strategy and get it reviewed by the BCM leads and program managers.|[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)|BCM program manager or BCP administrator|
-|Finalize your business continuity plan by continuously testing and exercising an event.|[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-exercise-event-in-uib-ws.md)|BCM program manager or BCM planner|
-|Respond to an actual crisis event and manage the associated event tasks.|[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-crisis-event-in-uib-ws.md)|BCM program manager or BCM planner|
-|Respond to the alerts in Crisis map and set the recovery tasks into action to manage the alerts.|[Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)|BCM administrator or BCM program manager|
-|Notify the stakeholders about the crisis alerts by sending emergency notifications in Everbridge.|[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ebn-collective-tasks.md)|BCM administrator or BCM program manager|
+|Manage continuity activities in an interactive dashboard.|[Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/home-page-uib-ws.md)|BCM program manager|
+|Monitor individual and team tasks from a single dashboard in the **My tasks** view.|[My tasks page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/my-tasks-page-uib-ws.md)|BCM program manager|
+|Assess the criticality of services and applications.|[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-bia-in-uib-ws.md)|BCM program manager or BIA administrator|
+|Prepare a business continuity plan with a response strategy and request approvals from BCM leads and program managers.|[Create a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-bcp-plan-in-uib-ws.md)|BCM program manager or BCP administrator|
+|Test and improve business continuity plan continuously.|[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-exercise-event-in-uib-ws.md)|BCM program manager or BCM planner|
+|Respond to actual crisis events and manage associated event tasks.|[Start a crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-crisis-event-in-uib-ws.md)|BCM program manager or BCM planner|
+|Respond to the alerts and set recovery tasks into action.|[Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)|BCM administrator or BCM program manager|
+|Communicate critical updates to stakeholders.|[Sending notifications with Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ebn-collective-tasks.md)|BCM administrator or BCM program manager|
 
 ## Coral theme
 
-Coral is the default theme for the Business Continuity Workspace. It provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for Web and mobile experiences.
-
--   **[BCM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-workspace.md)**  
-Starting with version 5.x.x, the Business Continuity Management application supports BCM Configurable Workspace. You can perform your business continuity tasks with an intuitive functionality in BCM Configurable Workspace.
--   **[Business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bia-uib.md)**  
-Business impact analysis is a structured process where you assess the impact categories and dependencies and predict the consequences of a disruption on a business process or business function.
--   **[Business continuity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcp-uib.md)**  
-Business continuity planning helps you enact and mitigate risk at the time of an event. You can address and plan on the primary scope of the activities, documentation, loss scenarios, recovery teams, approvals, and so on. You can then configure a structured workflow of your business continuity planning tasks in BCM UIB Workspace.
--   **[Element definitions and variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/element-definitions.md)**  
-An element definition is a configuration item that is assessed in the business impact analysis. The element definitions are also recovered in the business continuity plan. If you have the administrator role, you can set up an element variable that is required for a particular dependency of an element.
--   **[Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exercise-management-uib.md)**  
-Exercises are used to provide continuous testing and improving of continuity plans. You can use the exercises to finalize your business continuity plan and improve its effectiveness and usability in an actual crisis event. You can manage your exercises in the BCM Configurable Workspace.
--   **[Crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-management-uib.md)**  
-Managing a crisis event in BCM UIB Workspace helps you to minimize the downtime of critical business functions and processes across your organization. It is also used to minimize the financial, reputation, legal, and regulatory impact during a crisis event.
--   **[Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/threats-feeds-alerts-crisis-map.md)**  
-You can integrate Crisis map with the BCM application and initiate the response workflows for crisis management. After installing the Crisis map application, you can view the **Threat and Alert Data Feeds** module in your BCM application instance.
--   **[Emergency notifications in Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/integrating-crisis-mgmt-with-everbridge-uib.md)**  
-You can integrate Crisis Management in the BCM application with Everbridge notifications system. You can then send an emergency notification to an individual or a group of people alerting them of an impending emergency. It provides a one-way notification and two-way communication through properly established delivery channels.
-
-**Parent Topic:**[Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/business-continuity-mangmt-overview.md)
+The Business Continuity Workspace uses the Coral theme by default, offering a refreshed, brand‑neutral interface with optional dark mode for both web and mobile.
 

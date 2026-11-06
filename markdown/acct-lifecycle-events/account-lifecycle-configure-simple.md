@@ -1,18 +1,18 @@
 ---
-title: Configure simple Account Lifecycle Events playbook tasks
-description: You can configure simple playbook tasks using the Playbooks.
+title: Configure onboarding tasks in playbook
+description: You can configure customer success onboarding tasks in a playbook using the Process Automation Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-configure-simple.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the account onboarding playbook using Playbooks, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
-# Configure simple Account Lifecycle Events playbook tasks
+# Configure onboarding tasks in playbook
 
-You can configure simple playbook tasks using the Playbooks.
+You can configure customer success onboarding tasks in a playbook using the Process Automation Designer.
 
 ## Before you begin
 
@@ -23,11 +23,11 @@ Role required:
 
 ## About this task
 
-You can add, modify, and delete any tasks for the Account Lifecycle Events playbook using the Process Automation Designer. For example, if you want to configure one of the tasks in the Development &amp; Automation lane, perform the following steps.
+You can add, modify, and delete any tasks for the Customer success onboarding tasks in a playbook using the Process Automation Designer. For example, if you want to configure one of the tasks in the Development &amp; Automation lane, perform the following steps.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation Designer**.
+1.  Navigate to **All** &gt; **Process Automation Designer** &gt; **Playbook Designer**.
 
 2.  Select the **Account lifecycle onboarding process**.
 
@@ -41,10 +41,12 @@ You can add, modify, and delete any tasks for the Account Lifecycle Events playb
 
     This option enables you to execute all activities in the task in parallel.
 
-7.  Select the Automation tab and select **Accounts Lifecycle Task** table.
+7.  Select the Automation tab and select **Onboarding Task** table.
 
-8.  Add all required fields and any other fields that must be populated for this task in the Account Lifecycle Events playbook.
+8.  Add all required fields and any other fields that must be populated for this task in the Customer success onboarding in the onboarding playbook.
 
 9.  Select **Done** and then **Activate**.
 
+
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md)
 

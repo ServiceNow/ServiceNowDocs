@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Form field information for Innovation Management, Reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Innovation Management, Innovation Management reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Manage ideas
@@ -26,17 +26,6 @@ Steps
 
 </th></tr></thead><tbody><tr><td>
 
-Change the title
-
-</td><td>
-
-If you need to change the title of an idea for more clarity or accuracy, do one of the following actions:
-
-1.  Enter a new title in the **Title** field.
-2.  Select the **Suggestions** \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestions icon\) icon to select from the list of predefined titles.
-
-</td></tr><tr><td>
-
 Change the state
 
 </td><td>
@@ -51,8 +40,8 @@ Change the state of an idea as it moves through different stages of the life cyc
 -   **In Backlog**: Accepted but put on hold for possible development in the future.
 -   **Planned**: Accepted, and a project, demand, epic, feature, or story is created from the idea for current implementation.
 -   **In Development**: Work has started on the task created from the idea.
--   **Unlikely to implement**: Does not meet requirements, is not feasible, or is not popular. The idea becomes inactive and closed for comments and votes.
--   **Duplicate**: A similar idea exists in the database. The duplicate idea becomes associated with the original idea and is inactive and closed for comments and votes.
+-   **Unlikely to implement**: Does not meet requirements, is not feasible, or is not popular. The idea is set to inactive and closed for comments and votes.
+-   **Duplicate**: A similar idea exists in the database. The duplicate idea is associated with the original idea and is inactive and closed for comments and votes.
 -   **Already exists**: Already developed at the time of idea submission or is close to being developed.
 
 </td></tr><tr><td>
@@ -61,7 +50,7 @@ Mark as a duplicate
 
 </td><td>
 
-When you mark an idea as a duplicate, one idea is marked as the **Original idea** and the other as a **Duplicate idea**. A comment is logged in both the ideas with this information. The idea marked as a duplicate becomes inactive and closed for comments or votes.
+When you mark an idea as a duplicate, one idea is marked as the **Original idea** and the other as a **Duplicate idea**. A comment is logged in both the ideas with this information. The idea marked as a duplicate is set to inactive and closed for comments or votes.
 
  1.  In the State list, set the status of the idea to **Duplicate**.
 2.  Search for and select the idea that you want to mark as original in the **Duplicate** field.
@@ -73,7 +62,7 @@ Delete an idea
 
 </td><td>
 
-Remove an idea from the database when it is no longer relevant or becomes old. Deleting an idea removes all its details such as comments, attachments, and votes from the database.To delete an idea and all the details associated with it:
+Remove an idea from the database when it is no longer relevant or is set to old. Deleting an idea removes all its details such as comments, attachments, and votes from the database.To delete an idea and all the details associated with it:
 
 -   Select the idea.
 -   Select **Delete**.

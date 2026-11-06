@@ -7,7 +7,7 @@ release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Walk-up Experience, IT Service Management]
 ---
@@ -40,8 +40,6 @@ Stockrooms are separate, standalone entities in the Asset Management application
     |Location|Physical location \(address\) of the stockroom.|
     |Type|Type of stockroom. Chose **Walk-up** to create a walk-up stockroom.|
     |Manager|Person in charge of the stockroom. Receives restocking notifications and requests for the stockroom stock rules.|
-
-    For more information on creating or modifying a stockroom, and adding and managing stockroom assets, refer to [Stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_Stockrooms.md).
 
 
 **Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/walkup-experience-configuration.md)

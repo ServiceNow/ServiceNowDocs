@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/sm-create-criteria-group.html
 release: yokohama
 topic_type: task
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Secrets Management dashboard, Secrets Management, Platform Security]
 ---

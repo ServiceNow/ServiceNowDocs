@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/inbound-action-processing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ The system determines which inbound actions to run by comparing the inbound emai
 
 The system follows this processing flow to determine whether to run an inbound action.
 
-\[Omitted image "inbound-action-processing.png"\] Alt text:
+\[Omitted image "inbound-action-processing.png"\] Alt text: Inbound action processing work flow
 
 The system only runs an inbound action when:
 

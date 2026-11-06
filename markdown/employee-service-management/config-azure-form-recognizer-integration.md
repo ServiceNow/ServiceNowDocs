@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/config-azure-form-recognizer-integration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automating vaccine response reviews with the Azure Form Recognizer service, Automating vaccine response reviews, Vaccination Status, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -52,15 +52,15 @@ When you add your credentials to connect to the Azure Form Recognizer service, y
 
 3.  Add your connection credentials and trained model to the Azure Form Recognizer validator service.
 
-<table id="choicetable_gy1_qhr_4sb"><thead><tr><th align="left" id="d653469e219">
+<table id="choicetable_gy1_qhr_4sb"><thead><tr><th align="left" id="d706479e219">
 
 Trained model
 
-</th><th align="left" id="d653469e222">
+</th><th align="left" id="d706479e222">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d653469e228">
+</th></tr></thead><tbody><tr><td id="d706479e228">
 
 **ServiceNow model**
 
@@ -79,7 +79,7 @@ Steps
 
 **Note:** Contact ServiceNow Customer Service and Support or your account management team for "Vaccination Status – Azure Integration setup support". ServiceNow Customer Service and Support and your account management team can complete the steps required to add the trained model with you. Model copy authorizations only last for an hour.
 
-</td></tr><tr><td id="d653469e324">
+</td></tr><tr><td id="d706479e324">
 
 **Customer-trained model**
 

@@ -7,20 +7,20 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Configuring additional columns for Prioritization in Strategic Planning
 
 Customize the default column configuration for the Prioritization page of your portfolio plan so that your planning managers can select the appropriate data points they need.
 
-Portfolio managers or product owners can show or hide the data for their planning items by using the Personalize side panel in the Prioritization page of their workspace. By default, this side panel of List and Hierarchy views provides all the default fields available for that planning item. If your planning managers want to see additional columns, for example, there could be a requirement of information from a dot-walked field. In such cases or to remove any existing choices, you can configure them using the admin role.
+Portfolio managers or product owners can show or hide the data for their planning items by using the Personalize side panel in the Prioritization tab of their workspace. By default, this side panel of Prioritization tab provides all the default fields available for that planning item. If your planning managers want to see additional columns, for example, there could be a requirement of information from a dot-walked field. In such cases or to remove any existing choices, you can configure them using the admin role.
 
-|Personalize settings for List view|Personalize settings for Kanban view|Personalize settings for Hierarchy view|
-|----------------------------------|------------------------------------|---------------------------------------|
-|\[Omitted image "personalize-list-config.png"\] Alt text: Personalize side panel of Strategic Planning List view in the Prioritization page showing the column choices.|\[Omitted image "kanban-personalize.png"\] Alt text: Personalize side panel of Strategic Planning Kanban view in the Prioritization page showing the column choices.|\[Omitted image "personalize-hierarchy-config.png"\] Alt text: Personalize side panel of Strategic Planning List view in the Prioritization page showing the column choices.|
+|Personalize settings for Prioritization tab|Personalize settings for Kanban tab|Personalize settings for Hierarchy tab|
+|-------------------------------------------|-----------------------------------|--------------------------------------|
+|\[Omitted image "personalize-list-config.png"\] Alt text: Personalize side panel of Strategic Planning in the Prioritization tab showing the column choices.|\[Omitted image "kanban-personalize.png"\] Alt text: Personalize side panel of Strategic Planning Kanban tab showing the column choices.|\[Omitted image "personalize-hierarchy-config.png"\] Alt text: Personalize side panel of Strategic Planning Hierarchy tab showing the column choices.|
 
 Add extra columns as choices to this side panel or remove any of the default column choices by updating the list layout configuration for the planning item types associated to the portfolio plan.
 

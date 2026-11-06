@@ -1,24 +1,26 @@
 ---
 title: Configure event body fields
-description: Administrators can add fields to event bodies so Dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
+description: Administrators can add fields to event bodies so dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/add-event-fields.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure event body fields
 
-Administrators can add fields to event bodies so Dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
+Administrators can add fields to event bodies so dispatchers have more information about events when they’re viewing the calendar in Dispatcher Workspace.
 
 ## About this task
 
 Administrators can show up to five fields on the event body in Dispatcher Workspace. Dispatchers can choose what fields show on event bodies in the Dispatcher Settings under the Events tab. For more information on the Events tab, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
 ## Before you begin
+
+\[Omitted video\] Description: Configure Event Body Fields
 
 Role required: admin
 
@@ -80,5 +82,7 @@ The order that the field shows on an event body in relation to the other fields.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
+
+    \[Omitted image "event-body-fields.png"\] Alt text: event body fields form
 
 

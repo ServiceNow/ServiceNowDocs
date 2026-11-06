@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-categorization-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Install the Task Intelligence for Customer Service application, Task Intelligence for Customer Service, Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Install Task Intelligence, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Components installed with Task Intelligence for Customer Service
@@ -44,7 +44,7 @@ ML Sentiment \[ml\_sentiment\]
 
 This table stores machine learning sentiment information and includes the following fields:-   **Original sentiment**: The sentiment that is predicted when the case is created.
 -   **Current sentiment**: The sentiment that is predicted when the case is updated.
--   **Sentiment over time**: Displays the sentiment trend prediction as an agent works to resolve the case. To be able to calculate a value for this field, there must be a minimum of two sentiment predictions.
+-   **Sentiment over time**: Displays the sentiment trend prediction as an agent works to resolve the case. To be able to calculate a value for this field, there needs to be a minimum of two sentiment predictions.
 
 The system uses the following formula used to determine the sentiment trend:
 
@@ -91,7 +91,7 @@ Case\[sn\_customerservice\_case\]
 
 The Case table stores customer service case records. This table is the recipient for case categorization predictions.The **Language** field has been added to the Case table. This field is a reference to the Language \[sys\_language\] table. This field is populated with the prediction made by the language detection spoke and stores the language that was used to create the email or case.
 
- The Case table is added with the Customer Service \(com.sn\_customerservice\) plugin.
+ The Case table is added with the Case Management Core \(com.sn\_customerservice\) plugin.
 
 </td></tr><tr><td>
 
@@ -134,12 +134,12 @@ The Task Skills table stores skills for the Customer Service Management applicat
 |Monitor only|Yes|Yes|False|
 | |Empty|Yes|False|
 | |Empty|Empty|True|
-|Prediction unsuccessful|N/A|N/A|True|
-|Prediction error|N/A|N/A|True|
+|Prediction unsuccessful|NA|NA|True|
+|Prediction error|NA|NA|True|
 
 ## Tables installed with Document Intelligence for Customer Service
 
-The Document Intelligence for Customer Service application uses the following tables:
+The Document Intelligence for Customer Service application uses the following tables
 
 <table id="table_w3z_tft_gwb"><thead><tr><th>
 
@@ -169,7 +169,7 @@ Stores Document Intelligence tasks.
 
  The **agent\_input** field is set to true if an agent makes changes to predicted values in the DocIntel tab.
 
-**Note:** You can track tasks from the ML Solutions table \(ml\_solution.list​\).
+**Note:** You can track tasks from the ML Solusions table \(ml\_solution.list​\).
 
 </td></tr><tr><td>
 
@@ -355,7 +355,7 @@ Controls the content types and file extensions that are supported by the ML pred
 
  To configure content types:
 
--   Leave the property empty to enable all of the supported file extensions. This is the default setting.
+-   Leave the property blank to allow all of the supported file extensions. This is the default setting.
 -   Create a subset of the default values by entering a comma-separate list of content types and file extensions. For example, `application/pdf,text/csv`.
 
 </td></tr><tr><td>
@@ -468,7 +468,7 @@ Defines the maximum waiting time for a straight through processing task to finis
 
 </td><td>
 
-Waits for several milliseconds before fetching valid attachments for Task Intelligence for Customer Service when a case is created from email.**Note:** This property is inactive by default. If you notice that attachments are being missed for cases created from email, enable this property.
+Waits for several milliseconds before fetching valid attachments for Task Intelligence for Customer Service when a case is created from email.**Note:** This property is disabled by default. If you notice that attachments are being missed for cases created from email, enable this property.
 
 ​
 

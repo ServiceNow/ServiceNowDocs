@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Create a request type
@@ -49,7 +49,7 @@ Role required: sn\_compliance\_case\_admin
 
 7.  Select **Submit**.
 
-8.  To create a view rule instead of using the default rule, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md).
+8.  To create a view rule instead of using the default rule, see [Create view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md).
 
 9.  To create an assignment rule instead of using the default rule, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-assignment-rule.md).
 

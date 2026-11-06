@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-my-promotions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion management, Sales promotion, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # My promotions
@@ -20,7 +20,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotion**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Sales Promotion Management** &gt; **My Promotion**.
 
 2.  Select **New**.
 
@@ -36,8 +36,13 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 6.  Select **Publish**.
 
-    Changes to the promotion aren’t allowed after published.
+    Published promotions cannot be modified.
 
 7.  To reuse the sales promotion details, select **Copy**.
 
+
+-   **[Create a checklist template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-create-checklist.md)**  
+Agents workspace enables the manufacturer to create a checklist for verification.
+
+**Parent Topic:**[Sales promotion management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sls-pro-mgmt.md)
 

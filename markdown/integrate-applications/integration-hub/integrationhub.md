@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-03-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data and Automation]
+breadcrumb: [Workflow Data Fabric]
 ---
 
 # Integration Hub
@@ -56,13 +56,13 @@ Watch this video for an overview of Integration Hub.
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 -   **[Exploring Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/exploring-integration-hub.md)**  
-ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can request Integration Hub to call external systems using integration APIs from the Action Designer Script step, run the Script step on the ServiceNow® MID Server, and activate protocol steps like REST, SOAP, and PowerShell.
+ServiceNow® Integration Hub enables you to build reusable integrations with third-party systems and call them from anywhere in the ServiceNow AI Platform. For example, you can call external systems using integration APIs from the Action Designer Script step or run the Script step on the ServiceNow® MID Server. You can also activate protocol steps such as REST, SOAP, and PowerShell.
 -   **[Configuring Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configuring-integration-hub.md)**  
 Review and select an Integration Hub subscription package. Activate Integration Hub plugins and review usage and transaction details.
 -   **[Building integrations in Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/building-integrations-ih.md)**  
@@ -72,5 +72,5 @@ Import data with Integration Hub - Import or stream data from your Apache Kafka 
 -   **[Integration Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/integration-hub-reference.md)**  
 Reference topics provide additional information about Integration Hub and domain separation.
 
-**Parent Topic:**[Data and Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md)
+**Parent Topic:**[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md)
 

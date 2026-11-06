@@ -7,10 +7,10 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2026-01-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [asset audit, inventory audit, audit record fields]
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset audit fields for enterprise assets
@@ -138,8 +138,6 @@ Option to include consumable assets in the stockroom audit. The available option
  The default populated value for this field is derived using the **sn\_itam\_common.set\_default\_include\_consumables** system property. -   When this system property value is set to **yes**, the default value for the **Include consumables** field is set to **Yes**.
 -   When this system property value is set to **no**, the default value for the **Include consumables** field is set to **No**.
 
- **Important:** This field is available with Enterprise Asset Management version 10.0.0 onwards.
-
 </td></tr><tr><td>
 
 Scan method
@@ -159,8 +157,6 @@ Depending on the selected scan method for the audit record, you can scan the ass
 -   To complete asset scanning for the single scan audit record, see [Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/scan-assets-agent-app-eam.md).
 -   To complete asset scanning for multi scan audit records, see [Complete multi scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/complete-multi-scan-inventory-audit-using-mobile-app-eam.md).
 
-**Important:** This field is available with Enterprise Asset Management version 10.0.0 onwards.
-
 </td></tr></tbody>
 </table>**Note:** The audit result fields such as **Expected**, **Not expected and location corrected**, **Missing**, **New**, and **Excluded from licensing** can't be edited. When the asset is scanned in the inventory using the ServiceNow Agent app, values are automatically updated in these fields. For more information about scanning assets, see [Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/scan-assets-agent-app-eam.md) and [Complete multi scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/complete-multi-scan-inventory-audit-using-mobile-app-eam.md).
 
@@ -171,7 +167,7 @@ Depending on the selected scan method for the audit record, you can scan the ass
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 
@@ -204,14 +200,6 @@ Depending on the selected scan method for the audit record, you can scan the ass
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Scheduled jobs and tables installed with normalization of firmware models]()
 

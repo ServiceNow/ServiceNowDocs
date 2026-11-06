@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -42,7 +42,7 @@ The basic role required to access the CWM workspace.
 
 </td><td>
 
-None
+spm\_agile\_common\_user
 
 </td></tr><tr><td>
 
@@ -71,6 +71,49 @@ Admin role to modify and update any system properties for functionality in Docs.
 </td><td>
 
 None
+
+</td></tr><tr><td>
+
+Team member read
+
+ \[sn\_stm.team\_member\_read\]
+
+</td><td>
+
+Allows users to view project tasks and demand tasks, and add comments to them.
+
+</td><td>
+
+-   sn\_cwm.cwm\_user
+-   timecard\_user
+
+</td></tr><tr><td>
+
+Team member read-write
+
+ \[sn\_stm.team\_member\_read\_write\]
+
+</td><td>
+
+Allows users to view and edit project tasks and demand tasks.
+
+</td><td>
+
+sn\_stm.team\_member\_read
+
+</td></tr><tr><td>
+
+CWM AI user
+
+ \[sn\_cwm\_ai.cwm\_ai\_user\]
+
+</td><td>
+
+Enables users to use the generative AI skills that are available with the ServiceNow Otto for CWM application.
+
+</td><td>
+
+sn\_cwm.cwm\_user
 
 </td></tr></tbody>
 </table>## Tables installed

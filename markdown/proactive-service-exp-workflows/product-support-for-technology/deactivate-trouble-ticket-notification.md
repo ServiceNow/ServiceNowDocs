@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Handling API notifications, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
 
 # Deactivate API notification
@@ -31,5 +31,5 @@ Role required: admin
     -   Trouble Ticket Attribute Change Event
     -   Create Trouble Ticket Event for Case
 
-**Parent Topic:**[Handling API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md)
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 

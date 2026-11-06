@@ -1,20 +1,23 @@
 ---
 title: Summarize a flow
-description: Generate a summary of a flow with ServiceNow Otto for Creator.
+description: Generate a summary of a flow or flow execution details with AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/summarize-a-flow.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-04-28"
+last_updated: "2026-09-15"
 reading_time_minutes: 1
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Summarize a flow
 
-Generate a summary of a flow with ServiceNow Otto for Creator.
+Generate a summary of a flow or flow execution details with AI.
+
+\[Omitted video\] Description: Summarize a flow with AI
 
 ## Before you begin
 
@@ -23,13 +26,15 @@ Role required:
 -   now.assist.creator
 -   flow\_designer or admin
 
+Turn on the flow summarization skill. See [Turn on the flow summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/turn-on-the-flow-summarization-skill.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
 2.  On the homepage, select **Flows**.
 
-3.  Open the flow that you want to summarize.
+3.  Open the flow or flow execution details that you want to summarize.
 
 4.  From the More Actions menu, select **Flow summary**.
 
@@ -40,11 +45,11 @@ Role required:
 
 ## Result
 
-ServiceNow Otto for Creator generates a summary of the flow. The flow summary also displays its creation date.
+The flow summarization skill generates a summary of the flow. The flow summary also displays its creation date.
 
 ## What to do next
 
 You can regenerate the flow summary by selecting the **Refresh summary** icon next to the summary creation date.
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flows.md)
 

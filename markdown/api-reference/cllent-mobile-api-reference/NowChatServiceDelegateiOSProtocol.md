@@ -7,16 +7,16 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowChatServiceDelegate protocol - iOS
+# NowChatServiceDelegate protocol- iOS
 
 The NowChatServiceDelegate protocol provides callbacks for notification of actions within the NowChatService such as a request to open a URL or dismiss the chat view controller.
 
-**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChatServiceDelegate - chatService\(\_chatService: NowChatService, didRequestOpenUrlurl: URL\)
 
@@ -41,7 +41,7 @@ func chatService(_ chatService: NowChatService, didRequestOpenUrl url: URL) {
 }
 ```
 
-## NowChatServiceDelegate - chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)
+## NowChatServiceDelegate - chatService\(\_ chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)
 
 Callback that notifies the host application that the system chat theme changed.
 
@@ -89,7 +89,7 @@ func chatServiceViewControllerWasDismissed(_ chatService: NowChatService) {
 
 Called when the chat screen is closed and the chat session ends.
 
-**Note:** You must define the desired functionality for this callback by overriding the function as the default implementation simply prints the message "Chat Session ended with ID: \\\(sessionId\)".
+**Note:** You can define the desired functionality for this callback by overriding the function.
 
 <table id="table_j1t_hv2_52c" class="parameters"><thead><tr><th>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View open asset attestations in the Hardware Asset Workspace
@@ -28,7 +28,7 @@ Role required: asset or inventory\_admin
 
     In the Inventory overview section, the **Open asset attestations** card shows the number of open attestations.
 
-3.  Select the **Open asset attestations** to view the list of attestations that need action from your employees.
+3.  On the Open asset attestations card, select **View records** to view the list of attestations that need action from your employees.
 
 
 ## Result

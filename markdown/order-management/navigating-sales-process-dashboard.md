@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/navigating-sales-process-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Lead-to-Cash Process Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
 ---
 
 # Navigating the sales process dashboard
@@ -40,6 +40,8 @@ A details section consolidates all relevant operational elements—tasks, emails
 **Note:**
 
 Related lists configured in the Sales cockpit view in Next Experience UI govern the tabs that are displayed for a sales entity on the sales dashboard.
+
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 

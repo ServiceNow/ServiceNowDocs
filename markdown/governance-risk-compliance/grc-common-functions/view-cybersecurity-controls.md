@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technology Controls Monitoring Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -29,39 +29,35 @@ Role required: admin or sn\_compliance.reader
 -   Control objectives - Source is CIS or CIS v8 or CSA CCM v4.
 -   Indicator templates - Source is CIS or CIS v8.
 
-Beginning with the Yokohama release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates.
+Beginning with the Brazil release, Technology Controls Monitoring Accelerator provides pre-packaged CIS v8 controls and indicator templates.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Technology Controls Monitoring** &gt; **Cybersecurity Controls**.
 
-    You can view the module as shown in the example.
-
-    \[Omitted image "tech-controls-monitoring.png"\] Alt text: Technology Controls Monitoring module.
-
     **Note:** The CIS controls module is renamed from CIS controls @R to Cybersecurity Controls. The Indicator Templates module is renamed to CIS Indicator Templates.
 
 2.  Select **Authority Documents**.
 
-    The authority documents for source CIS, CIS v8, and CSA CCM v4 are listed as shown in the example.
+    The authority documents for source CIS, CIS v8, and CSA CCM v4 are listed.
 
     \[Omitted image "techctrlmoni-auth-doc-module-csa-ccm-v4-src-added.png"\] Alt text: Authority documents.
 
     The authority document ADCIS10002 is added for CIS v8. Similarly, AD0020002 is added for CSACCMv4.
 
-    For the authority document record, the Content References related list is added for mapping.\[Omitted image "content-reference-rel-list-added-f-every-record-for-mapping.png"\] Alt text: Content References related list.
+    For the authority document record, the Content References related list is added for mapping.
 
-    The citations associated with the authority document are shown in the example.
+    The citations associated with the authority document appear.
 
     \[Omitted image "auth-doc-asso-178-citations-rel-list-2.png"\] Alt text: Authority document citation list
 
 3.  Select **Citations**.
 
-    The citations for source CIS, CIS v8, and CSA CCM v4 are listed as shown in the example.
+    The citations for source CIS, CIS v8, and CSA CCM v4 are listed.
 
     \[Omitted image "techctrlmoni-citations-module-csa-ccm-v4-src-added.png"\] Alt text: Citations.
 
-    Every citation has a control objectives related list as shown in the example.\[Omitted image "every-citation-one-control-obj-rel-list-3.png"\] Alt text: Control objectives related list.
+    Every citation has a control objectives related list.
 
 4.  Select **Control Objectives**.
 

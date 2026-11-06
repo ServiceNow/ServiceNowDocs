@@ -1,22 +1,22 @@
 ---
-title: APM vendor entity mappings for Service Observability
-description: Understand how Service Observability maps service, host, and database entities to your Application Performance Management \(APM\) vendor resources.
+title: Observability vendor entity mappings for Service Observability
+description: Understand how Service Observability maps service, host, and database entities to your observability vendor resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/apm-vendor-entity-mappings.html
 release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
-# APM vendor entity mappings for Service Observability
+# Observability vendor entity mappings for Service Observability
 
-Understand how Service Observability maps service, host, and database entities to your Application Performance Management \(APM\) vendor resources.
+Understand how Service Observability maps service, host, and database entities to your observability vendor resources.
 
-Service Observability displays metrics from your APM vendor for services, hosts, and databases on the Observability dashboards based on the key:value pairs in the [mapping rules you create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md) during configuration. Service Observability sends a request to the APM vendor using that mapping as a filter to find related entities. Any additional filtering needed to find the entities is noted in the following sections.
+Service Observability displays metrics from your observability vendor for services, hosts, databases, and network components on the Observability dashboards based on the key:value pairs in the [mapping rules you create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md) during configuration. Service Observability sends a request to the observability vendor using that mapping as a filter to find related entities. Any additional filtering needed to find the entities is noted in the following sections.
 
 ## Amazon CloudWatch entity mapping
 
@@ -190,6 +190,8 @@ Databases returned by filtering the `postgresql.connections` metric, filtered by
 
 ## Dynatrace entity mapping
 
+You can use either the Dynatrace Classic query or Grail \(DQL\) query, however both require separate data connections. For Grail queries, Service Observability first queries the Grail data source and if not found, will fall back to a Classic query.
+
 |Service Observability entity category|Service Observability entity dashboard|Dynatrace resource|
 |-------------------------------------|--------------------------------------|------------------|
 |**Application**|Service|Services|
@@ -197,11 +199,22 @@ Databases returned by filtering the `postgresql.connections` metric, filtered by
 |**Databases**|MySQL|MySQL database instances|
 | |PostgreSQL|PostgreSQL database instances|
 
+## LogicMonitor entity mapping
+
+Resources are returned using the Get Devices API, using specific property values on the entities as a filter.
+
+|Service Observability entity category|Service Observability entity dashboard|LogicMonitor resource|
+|-------------------------------------|--------------------------------------|---------------------|
+|**Application**|Service|Entities with the `predef.externalResourceType` auto property set to `Service`|
+|**Compute**|Host|Entities with the `predef.externalResourceType` auto property set to `PhysicalServer`, `Container`, or `VirtualMachine`|
+|**Databases**|MySQL|Entities with the `system.categories` custom property set to `MySQL`|
+| |PostgreSQL|Entities with the `system.categories` custom property set to `PostgreSQL`|
+
 ## New Relic entity mapping
 
 |Service Observability entity category|Service Observability entity dashboard|New Relic resource|
 |-------------------------------------|--------------------------------------|------------------|
-|**Application**|Service|APM application services|
+|**Application**|Service|Application services|
 |**Compute**|Host|Hosts|
 |**Databases**|MySQL|MySQL database instances|
 | |PostgreSQL|PostgreSQL database instances|
@@ -217,10 +230,95 @@ Databases returned by filtering the `postgresql.connections` metric, filtered by
 
 ## SolarWinds entity mapping
 
-|Service Observability entity category|Service Observability entity dashboard|SolarWinds resource|
-|-------------------------------------|--------------------------------------|-------------------|
-|**Application**|Service|APM application services|
-|**Compute**|Host|Hosts|
+<table id="table_tvq_kkf_yfc"><thead><tr><th>
+
+Service Observability entity category
+
+</th><th>
+
+Service Observability entity dashboard
+
+</th><th>
+
+SolarWinds resource
+
+</th></tr></thead><tbody><tr><td>
+
+**Application**
+
+</td><td>
+
+Service
+
+</td><td>
+
+Application services
+
+</td></tr><tr><td>
+
+**Compute**
+
+</td><td>
+
+Host
+
+</td><td>
+
+Hosts
+
+</td></tr><tr><td>
+
+**Networking**
+
+</td><td>
+
+Firewall
+
+</td><td>
+
+By default, data mappings find and display metrics using Palo Alto Firewall keys.If you want metrics from a different firewall, follow the instructions for [customizing dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md).
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Load Balancer
+
+</td><td>
+
+By default, data mappings find and display metrics using F5 Big-IP Load Balancer keys.If you want metrics from a different load balancer, follow the instructions for [customizing dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md).
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Interface
+
+</td><td>
+
+Network interfaces
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Other Network Devices
+
+</td><td>
+
+Other network devices, such as switches and routers
+
+</td></tr></tbody>
+</table>Items to note:
+
+-   You can use custom properties for key/value pairs in a data mapping.
+-   If you are using SolarWinds as an exception in your mapping to ingest networking metrics, using custom properties is optional. If you do use them, only entities with those properties in their metadata are returned. If you leave the tag and key values blank, all supported entities are returned.
 
 ## Splunk entity mapping
 
@@ -318,5 +416,164 @@ Not supported
  
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-reference.md)
+</table>## Zabbix entity mapping
+
+In Zabbix, every monitored entity is categorized as a host. To enable differentiation between entities, Service Observability searches for keywords in attributes on metadata tags, including host tags, inherited tags, templates, and host groups. Any Zabbix host that does not match a keyword are classified and displayed as Host entities.
+
+The following table shows the keywords used to find distinct entities. Keywords are case insensitive.
+
+<table id="table_l1n_xzr_23c"><thead><tr><th>
+
+Service Observability entity category
+
+</th><th>
+
+Service Observability entity dashboard
+
+</th><th>
+
+Metadata keyword
+
+</th></tr></thead><tbody><tr><td>
+
+**Application**
+
+</td><td>
+
+Service
+
+</td><td>
+
+-   Apache
+-   nginx
+-   Kubernetes
+-   cluster
+-   application
+
+</td></tr><tr><td>
+
+**Compute**
+
+</td><td>
+
+Host
+
+</td><td>
+
+Any non-matching keyword
+
+</td></tr><tr><td>
+
+**Databases**
+
+</td><td>
+
+MySQL
+
+</td><td>
+
+-   Mysql
+-   Msql
+-   mariadb
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+PostgreSQL
+
+</td><td>
+
+-   Postgres
+-   Psql
+-   Pgsql
+-   Postgresql
+
+</td></tr><tr><td>
+
+**Networking**
+
+</td><td>
+
+Firewall
+
+</td><td>
+
+-   Firewall
+-   palo-alto
+-   palo alto
+-   pan
+-   fortigate
+-   fortinet
+-   fgt
+-   sophos
+-   sonicwall
+-   watchguard
+-   zscaler
+
+By default, data mappings find and display metrics using Palo Alto Firewall keys.If you want metrics from a different firewall, follow the instructions for [customizing dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md).
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Load Balancer
+
+</td><td>
+
+-   Loadbalancer
+-   load\_balancer
+-   alb
+-   nlb
+-   f5
+-   netscaler
+-   big-ip
+-   bigip
+
+By default, data mappings find and display metrics using F5 Big-IP Load Balancer keys.If you want metrics from a different load balancer, follow the instructions for [customizing dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md).
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Other Network devices
+
+</td><td>
+
+-   Network
+-   router
+-   rt
+-   gateway
+-   gw
+-   juniper
+-   junos
+-   switch
+-   catalyst
+-   nexus
+-   arista
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>Item to note:
+
+The default dashboards for each entity type display metrics using Zabbix standard keys. If your implementation uses custom item keys, you need to [customize your dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) accordingly.
+
+**Parent Topic:**[Service Observability reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-reference.md)
 

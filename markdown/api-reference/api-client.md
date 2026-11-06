@@ -7,7 +7,7 @@ release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [API reference, API implementation and reference]
 ---
@@ -20,8 +20,6 @@ Use client-side JavaScript APIs to control aspects of how ServiceNow AI Platform
 Standalone client methods are methods that you can use within your client JavaScripts, such as reflistOpen, but aren't a part of any class or API.
 -   **[DynamicTranslation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/DynamicTranslationClientAPI.md)**  
 The DynamicTranslation API provides methods that translate text, in real time, into multiple languages using translation service providers. This API is available for both standard clients and Angular-based Service Portal clients.
--   **[g\_modal - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_modalClientAPI.md)**  
-The g\_modal API enables you to display a modal window to enhance application functionality.
 -   **[g\_service\_catalog - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_service_catalogClientAPI.md)**  
 The g\_service\_catalog API provides methods to access data in a multi-row variable set \(MRVS\) when a model is open.
 -   **[GlideAgentWorkspace \(g\_aw\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideAgentWorkspaceAPI.md)**  
@@ -40,8 +38,6 @@ The GlideForm API provides methods to customize forms.
 The Mobile GlideForm \(g\_form\) API provides methods to work with forms on the mobile platform.
 -   **[GlideGuid - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideGuidV3API.md)**  
 The GlideGuid API provides methods to create a globally unique identifier.
--   **[GlideList \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideListClientAPINEx.md)**  
-The GlideList API provides methods to customize lists in the Next Experience UI Framework.
 -   **[GlideList2 \(g\_list\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideList2API.md)**  
 The GlideList2 API provides methods to customize \(v2\) lists.
 -   **[GlideListV3 \(g\_list\) - Client \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideListV3API.md)**  
@@ -79,7 +75,7 @@ The ScopedSessionDomain script include that contains client-side methods that pr
 -   **[ScriptLoader - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_ScriptLoaderAPI.md)**  
 The ScriptLoader API provides methods to load scripts asynchronously.
 -   **[SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/SNAnalyticsClientAPI.md)**  
-The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.
+The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.
 -   **[spAriaUtil - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spAriaUtil-API.md)**  
 The spAriaUtil API provides methods to show messages on a screen reader.
 -   **[spContextManager - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spContextManagerAPI.md)**  

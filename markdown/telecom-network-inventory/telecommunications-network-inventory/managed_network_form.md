@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Managed Network form
@@ -110,7 +110,7 @@ Most recent discovery
 
 </td><td>
 
-Most recent discovery \(last\_discovered\). When the most recent discovery is provided, the CI is updated with the provided value only if the entered time value is newer than the time value in the Configuration Management Database \(CMDB\). If the last\_discovered isn’t provided, the last\_discovered attribute is updated with the current timestamp.
+Most recent discovery \(last\_discovered\). When the most recent discovery is provided, the CI is updated with the provided value. This update occurs only if the entered time value is newer than the time value in the Configuration Management Database \(CMDB\). If the last\_discovered isn’t provided, the last\_discovered attribute is updated with the current timestamp.
 
 </td></tr><tr><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/monitoring-now-assist-usage.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Viewing account-level entitlements, Explore, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -17,7 +17,7 @@ View a summary of your Now Assist entitlements and track Now Assist usage across
 ## Key benefits
 
 -   View an account-level summary of your Now Assist entitlements.
--   Track Now Assist usage across your production and non-production instances.
+-   Track Now Assist usage, including Moveworks Assists, across your production and non-production instances.
 -   Track Now Assist usage by domain in domain-separated instances.
 -   View a summary of Now Assist usage by skill.
 -   Plan for future purchases by analyzing Now Assist usage over time.
@@ -35,7 +35,7 @@ Access details about Now Assist usage by navigating to **Admin** &gt; **Subscrip
 ## Use cases
 
 -   Compare the total number of Now Assist entitlements that your company has purchased to the total number of Now Assist entitlements consumed across all your instances. Monitor the available number of Now Assist entitlements for your account.
--   Visualize Now Assist consumption over time by selecting **View details** in the Total used assists card. Monitor compliance for your account over the last 365 days or determine when Now Assist usage exceeded the total purchased count.
+-   Visualize Now Assist consumption over time by selecting **View details** in the Total used assists card. Monitor compliance for your account for the current contract period or determine when Now Assist usage exceeded the total purchased count.
 
     **Note:** Assists used in demo instances are excluded from total used assists.
 
@@ -51,6 +51,7 @@ Access details about Now Assist usage by navigating to **Admin** &gt; **Subscrip
     -   View the total number of entitlements provided by each product in the **Purchased assists** column.
 -   View and filter the number of assists used by domain from the **Used assists** column of the **Domain** list. The **Domain** list is only available if domain separation is enabled and there are domain values other than global.
 -   Determine cumulative Now Assist usage by skill on your current instance. Data in the table is updated nightly. If your current instance doesn’t have any active subscriptions with assists, the list of skills is empty.
+    -   View Moveworks assists broken down by skill. Moveworks skill names are distinguished by the "MW" prefix.
     -   View the number of times a skill has been used in the **Number of actions** column.
     -   View the relative cost for each assist in the **Assist ratio** column.
     -   Determine which skills are consuming the most Now Assist entitlements by checking the **Total assists** column. Total assists are calculated by multiplying values in the **Number of actions** column by values in the **Assist ratio** column.

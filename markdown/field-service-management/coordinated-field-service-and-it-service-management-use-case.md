@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/coordinated-field-service-and-it-service-management-use-case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Field Service Management workflow examples, Exploring Field Service Management, Field Service Management]
+breadcrumb: [Example workflows, Explore, Field Service Management]
 ---
 
 # Field Service IT workflow example
@@ -26,7 +26,7 @@ Field Service Management tracks parts used, expenses, and completion times on a 
 
 ## Field Service IT workflow diagram
 
-\[Omitted image "FSM-it-workflow-asset0012979final.png"\] Alt text: Field Service Management IT workflow from opening an incident to analyzing the audit reports. For more text description, refer to the following table.
+\[Omitted image "FSM-it-workflow.png"\] Alt text: Field Service Management IT workflow from opening an incident to analyzing the audit reports. For more text description, refer to the following table.
 
 ## IT Field Service workflow steps
 

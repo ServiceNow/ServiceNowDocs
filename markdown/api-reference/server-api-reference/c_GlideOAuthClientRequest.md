@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -133,6 +133,8 @@ Sets the grant type for the string you provide.
 ## GlideOAuthClientRequest - setHead\(String name, String value\)
 
 Retrieves the HTTP headers for the string you provide.
+
+**Note:** setHead\(String name, String value\) is used in global. The scoped equivalent of this method is setHeader\(String name, String value\).
 
 |Name|Type|Description|
 |----|----|-----------|

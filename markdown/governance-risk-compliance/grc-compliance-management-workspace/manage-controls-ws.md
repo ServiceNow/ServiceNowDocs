@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage controls using the Compliance Workspace
@@ -34,8 +34,6 @@ As your business changes, and your IT data, processes, and technology improve, r
 
 Look for opportunities to consolidate controls. Look for common, repeated controls across multiple regulatory authorities of frameworks \(for example, SOX and GLBA and AML\). Avoid operating a single control multiple times for each regulation, by cross-mapping controls and eliminating the redundant ones. This process establishes a single consolidated set of controls = control framework, performing and preserving the cross mapping of controls is critical for audits.
 
-\[Omitted image "industry-regulations.png"\] Alt text: Industry regulations and requirements overlap
-
 ## Define controls and business rules
 
 The business rules you define up front, establish the GRC configuration settings later. Be prepared to:
@@ -48,17 +46,11 @@ The business rules you define up front, establish the GRC configuration settings
 -   Compose likely use-cases \(who needs to interact with or view the contents of the GRC system and for what purposes\)
 -   Map authoritative sources to policies, to procedures, to controls, and to risks
 
-## Control requirements
-
-When Create control requirements option is enabled for a control objective, for every control generated under an entity type, control requirements are also created automatically. Previously, only controls were created for entity types. The number of Control Requirements equals the number of control objective requirements.
-
-## Attestation at control requirement level
-
-The Attestation at control requirement level feature allows attestation at a granular level for individual control requirements within a control. Admins can enable requirement-level attestation, assign respondents, and generate assessment tasks for each control requirement. Respondents then attest to requirements by indicating whether they are implemented or not, providing evidence or explanations as required. Failed attestations automatically generate issues, mark the parent control as non-compliant, and roll up the status to the associated entity and control objective.
-
 ## Entity Based Access \(EBA\)
 
-The Entity Based Access provides a framework for more granular approach to management of data access to objects associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/entity-based-access.md). When a user is qualified based on these configurations and has the minimum required roles, they will have access to the following tables:
+The Entity Based Access feature provides a framework for more granular approach to management of data access to objects associated with an entity. Administrators can grant access to an entity's related records by adding users or user groups, or by using entity user fields for entity-based access configuration. For more information, see [Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/entity-based-access.md).
+
+When a user is qualified based on these configurations and has the minimum required roles, they will have access to the following tables:
 
 -   Control
 -   Attestation
@@ -66,5 +58,7 @@ The Entity Based Access provides a framework for more granular approach to manag
 
 ## Entity Based Access \(EBA\) rules
 
-When entity based record access rules are enabled on the Entity Based Access Configuration Properties page, any newly created controls, control attestations, indicators, and indicator tasks associated with a configured entity will automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
+When entity based record access rules are enabled on the **Entity Based Access Configuration Properties** page, any newly created controls, control attestations, indicators, and indicator tasks associated with a configured entity will automatically inherit the entity-based access \(EBA\) value from that entity. Previously, users had to run bulk access updates to apply EBA restrictions whenever new objects were created.
+
+For more information, see [Entity based record access rules to secure new records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/continuous-monitoring-of-entity-based-access.md).
 

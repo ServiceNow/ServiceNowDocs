@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Use a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
 
 # Report inappropriate community content
@@ -19,6 +19,10 @@ Report content to alert community moderators that the content is inappropriate o
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -33,5 +37,38 @@ Role required: sn\_communities.community\_user
     A moderation task is created and assigned to a moderator for resolution. Depending on the moderation settings created for your community, the content may be hidden until a moderator has reviewed it.
 
 
-**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/using-communities.md)
+
+**Related topics**  
+
+
+[Community homepage features for logged in users]()
+
+[Navigating the activity feed]()
+
+[Navigating the forum homepage]()
+
+[Community homepage features for non-logged in users]()
+
+[Self-register to a community]()
+
+[Search the community]()
+
+[Use a community profile]()
+
+[Community subscriptions]()
+
+[Request membership to a forum]()
+
+[Accept an invitation to join a forum]()
+
+[Post and respond to content in the community]()
+
+[Add featured content in a community]()
+
+[Email a community user]()
+
+[View a list of questions and create a case]()
+
+[Gamification]()
 

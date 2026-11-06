@@ -1,142 +1,60 @@
 ---
-title: Create a healthcare organization in Healthcare Operations Core
-description: Create a healthcare organization for use with Healthcare Operations Core.
+title: Create a healthcare organization
+description: Create a healthcare organization, such as a healthcare provider, healthcare department, or organizational team, and associate it with a parent healthcare organization and a common location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-operations-core/hcls-cto-create-healthcare-organization.html
 release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Healthcare Operations Core, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Organizations and locations overview, Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Create a healthcare organization in Healthcare Operations Core
+# Create a healthcare organization
 
-Create a healthcare organization for use with Healthcare Operations Core.
-
-## About this task
-
-The Healthcare organization \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance.
-
-When a healthcare organization is created, an associated business location is also created with the same name that references the healthcare organization.
-
-For more information, see [Example - Organizing your healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/example-organizing-hcls-organizations.md)
+Create a healthcare organization, such as a healthcare provider, healthcare department, or organizational team, and associate it with a parent healthcare organization and a common location.
 
 ## Before you begin
 
 Role required: admin
 
+## About this task
+
+The menu item you navigate to determines which organization type is created and whether that field is set automatically.
+
+|To create a|Navigate to|Organization type|
+|-----------|-----------|-----------------|
+|Healthcare provider|**All** &gt; **Healthcare Operations** &gt; **Healthcare providers**|Set automatically to **Healthcare provider** and read-only.|
+|Healthcare department|**All** &gt; **Healthcare Operations** &gt; **Healthcare departments**|Set automatically to **Healthcare department** and read-only.|
+|Organizational team|**All** &gt; **Healthcare Operations** &gt; **Healthcare organizations**|Set manually to **Organizational Team**.|
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Healthcare Operations** &gt; **Healthcare organizations** &gt; **All**.
+1.  Navigate to the menu item for the type of healthcare organization you want to create.
 
 2.  Select **New**.
 
-3.  Fill in the following fields.
+3.  If you navigated to the generic **Healthcare organizations** list, set the **Organization type** field to the value you want.
 
-<table id="table_zkv_ppj_vcc"><thead><tr><th>
+    **Note:**
 
-Field
+    If you navigated to **Healthcare providers** or **Healthcare departments**, this field is already set and read-only.
 
-</th><th>
+4.  Fill in the following fields.
 
-Description
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name to identify the healthcare organization.|
+    |Parent Organization|Parent organization associated with this healthcare organization.|
+    |Manager|The manager associated with this healthcare organization.|
+    |Phone|Phone number of the healthcare organization.|
+    |Email|Email address associated with the healthcare organization.|
+    |Description|A description of this healthcare organization.|
+    |This is an internal location|Indicates that this healthcare organization is considered an internal location.|
+    |Common Location|The common location associated with this healthcare organization.|
 
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-The name of your healthcare organization.
-
-</td></tr><tr><td>
-
-Organization type
-
-</td><td>
-
-Type of healthcare organization represented.
-
- The following types are available by default:
-
- -   Clinical research sponsor
-
--   Community group
-
--   Educational institute
-
--   Government
-
--   Healthcare provider
-
--   Hospital department
-
--   Non-healthcare business
-
--   Organizational team
-
--   Other
-
--   Payer
-
--   Pharmaceutical company
-
--   Religious institution
-
- For more information about the available organization types, see [organization types](https://www.hl7.org/fhir/valueset-organization-type.html) defined in the FHIR specifications.
-
-</td></tr><tr><td>
-
-Parent Organization
-
-</td><td>
-
-Parent organization associated with the organization.Setting a parent organization will create a hierarchy in which the current organization being created is a child organization of the value selected here.
-
-</td></tr><tr><td>
-
-Phone
-
-</td><td>
-
-Phone number of the organization.
-
-</td></tr><tr><td>
-
-Email
-
-</td><td>
-
-Email address associated with the organization.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-A description of the organization being created.
-
-</td></tr><tr><td>
-
-This is an internal location
-
-</td><td>
-
-Indicated whether the organization being created is associated with an internal location.
-
-</td></tr><tr><td>
-
-Common location
-
-</td><td>
-
-The common location address associated with the healthcare organization being created.
-
-</td></tr></tbody>
-</table>4.  Select **Submit**.
+5.  Select **Submit**.
 
 

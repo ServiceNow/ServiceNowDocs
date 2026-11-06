@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document repository, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,6 +47,8 @@ Role required: owner or writer
 [Download a document]()
 
 [Share a document link]()
+
+[Configure document permissions]()
 
 [Delete a document link]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-critical-alerts-create.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Mobile critical alerts, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile critical alerts, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Create mobile critical alerts
@@ -16,7 +16,7 @@ Create a critical alert from an existing push notification.
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## About this task
 
@@ -24,7 +24,7 @@ Learn how to create a critical alert from an existing push notification. To crea
 
 **Note:**
 
--   For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area. For more information, see the user-related topic, [Enabling critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/critical-alert-enable.md).
+-   For users to receive critical alerts, the feature must be enabled on the user’s mobile device. If the feature is not enabled, the critical alert is delivered as a regular push notification, however it is labeled as critical in the notifications area. For more information, see the user-related topic, [Critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/critical-alert-enable.md).
 -   On the Android platform, when a user receives a critical alert on certain phone types, they may experience the following device behavior:
 
     -   **OnePlus devices with hardware-controlled ringer mode:**
@@ -35,6 +35,9 @@ Learn how to create a critical alert from an existing push notification. To crea
 
         On certain devices, like Oppo and OnePlus, if Do Not Disturb \(DND\) mode is enabled, the DND setting might be temporarily turned off until the critical notification sound has finished playing.
 
+-   On Android clients, version 20.0.0 and later, critical alerts don't work on the following:
+    -   The Android Private Space feature that was introduced in Android 15.
+    -   Android devices that are managed by Mobile Device Management \(MDM\) software. For example, Microsoft Intune.
 
 ## Procedure
 

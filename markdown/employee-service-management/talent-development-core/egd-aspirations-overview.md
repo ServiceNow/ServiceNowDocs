@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore Talent Development Core, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Talent Development Core, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Aspirations overview
@@ -40,5 +40,5 @@ Create and track personal and professional aspirations.
     If your aspiration falls outside the interest, skill and role categories, general gives you the opportunity to make something from scratch.
 
 
-**Parent Topic:**[Explore Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
 

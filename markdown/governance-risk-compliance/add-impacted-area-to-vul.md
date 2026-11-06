@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/add-impacted-area-to-vul.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -38,8 +38,6 @@ Beginning with Release 20.1.x, the Operational Resilience application supports t
 
 5.  Select **Save**.
 
-    **Note:** The operational administrator can view the progress of adding impacted assets to the operational vulnerabilities and they can also change the order of the dependencies.
-
     When you add the primary origin of the operational vulnerability, its impacted areas with upstream entities are updated on the **Impacted areas** tab.
 
     \[Omitted image "op-vul-pri-ori-imp-area.png"\] Alt text: Impacted areas with upstream entities.
@@ -48,7 +46,7 @@ Beginning with Release 20.1.x, the Operational Resilience application supports t
 
     \[Omitted image "op-vul-count-0.png"\] Alt text: Count 0.
 
-    For example, when the impacted areas in the operational vulnerability are updated, the operational vulnerability count on the overview page of SO1 remains at 0 before the scheduled job runs.
+    For example, when the impacted areas in the operational vulnerability are updated, the operational vulnerability count on the overview page of SO1 remains at 0. The count updates after the scheduled job runs.
 
     \[Omitted image "op-vul-count-1.png"\] Alt text: Count 1.
 

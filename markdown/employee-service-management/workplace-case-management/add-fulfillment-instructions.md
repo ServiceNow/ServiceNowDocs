@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -28,7 +28,7 @@ Add instructions for fulfilling a workplace case.
 
 1.  Navigate to **All** &gt; **Workplace Case Management** &gt; **Workplace Case Management - Setup** &gt; **Fulfillment instructions**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -99,14 +99,14 @@ Knowledge articles
 Knowledge article to support the instructions.Select the unlock knowledge articles icon \(\[Omitted image "unlock-icon.png"\] Alt text: Unlock Knowledge articles icon.\) to add an article. Select the lookup icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup icon.\) to search for an article.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
 ## Result
 
 The fulfillment instruction is added. The instruction is displayed in the workplace case records that match the specified conditions.
 
-**Parent Topic:**[Configure Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
@@ -116,6 +116,10 @@ The fulfillment instruction is added. The instruction is displayed in the workpl
 [Create a Workplace case template]()
 
 [Create a Workplace task template]()
+
+[Smart Assessment for Workplace Case and Task]()
+
+[Automating seat assignment for new hires]()
 
 [Configure Approval options]()
 

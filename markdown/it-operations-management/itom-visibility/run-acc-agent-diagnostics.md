@@ -7,10 +7,10 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ACC, agent diagnostics, agent client collector, diagnostic tests, Infra Services Workspace]
-breadcrumb: [Use the Agent Client Collector \(ACC\) admin workspace, ITOM Visibility, IT Operations Management]
+breadcrumb: [Use the Agent Client Collector \(ACC\) admin workspace, Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
 ---
 
 # Run diagnostics on an Agent Client Collector agent
@@ -90,4 +90,6 @@ Step-by-step remediation suggestions.Appears only when the test has a known erro
 
     This button appears only when the run produced failures. Selecting it re-executes only the failed tests and leaves passing tests unchanged.
 
+
+**Parent Topic:**[Use the Agent Client Collector \(ACC\) admin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/use-acc-admin-workspace.md)
 

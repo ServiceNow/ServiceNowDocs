@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/move-pae-db-with-update-set.html
 release: yokohama
 topic_type: task
-last_updated: "2026-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---

@@ -4,7 +4,7 @@ description: Create a record for every building that is part of your organizatio
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 ---
 
@@ -190,9 +190,13 @@ Longitude
 
 Longitude of a campus or a building. The longitude is displayed in the Workplace Service Portal Location directory map.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
 **Measurement Details**
+
+</td><td>
+
+ 
 
 </td></tr><tr id="measuring-unit-field"><td>
 
@@ -298,6 +302,8 @@ The building is added to the selected region, site, and campus.
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
+
+[]()
 
 [Reviewing allocation changes]()
 

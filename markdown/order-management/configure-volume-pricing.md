@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-volume-pricing.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure volume pricing
@@ -16,17 +16,17 @@ Set volume pricing rules by using the Standard Price Adjustment matrix.
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 
 3.  In the Pricing Matrices list, select the Standard Price Adjustment matrix and [create a new matrix version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-matrix-versions.md).
 
-4.  In the Context variables section of the new matrix version, select the Search \[Omitted image "search.png"\] Alt text: Search icon. icon and in the list of Context variables, select the Quantity variable.
+4.  In the Context variables section of the new matrix version, select the Search \[Omitted image "search.png"\] Alt text: icon and in the list of Context variables, select the Quantity variable.
 
     The Quantity variable is added to the Context variables section.
 
@@ -36,7 +36,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pri
 
 6.  In the Conditions section of the Decision table, do the following:
 
-    1.  Select the item to which the volume pricing adjustment is to be applied, such as **Product Offering**
+    1.  Select the item to which the volume pricing adjustment is to be applied, such as **Product Offering**.
 
         For example, if you're setting volume pricing for door sensors, select the Door Sensor product offering.
 

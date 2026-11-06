@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Domain configurations, Domain separation, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Domain configurations, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create a domain configuration
@@ -24,7 +24,7 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Domain Configuration** and create a new record.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Domain Configurations** and create a record.
 
 <table id="table_mff_5qm_tw"><thead><tr><th>
 

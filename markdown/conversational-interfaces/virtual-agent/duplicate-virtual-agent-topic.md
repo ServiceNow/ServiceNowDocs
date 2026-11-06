@@ -1,21 +1,21 @@
 ---
-title: Duplicate a Virtual Agent topic
-description: Create a new topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
+title: Duplicating a Virtual Agent topic
+description: Create a topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/duplicate-virtual-agent-topic.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, topic, duplicate, duplication, copy, NLU, LLM]
-breadcrumb: [Getting started with Virtual Agent Designer, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
-# Duplicate a Virtual Agent topic
+# Duplicating a Virtual Agent topic
 
-Create a new topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
+Create a topic or topic block by copying an existing Virtual Agent topic or topic block and customize it.
 
 ## Before you begin
 
@@ -27,21 +27,24 @@ Consider duplicating topics in the following scenarios:
 
 -   When you want to use an existing topic, such as a prebuilt topic or topic block, as the basis for a new topic or topic block.
 -   When you want to modify an active topic while preserving the original topic for reference purposes or as a backup.
--   When you want to convert a Natural Language Understanding \(NLU\) topic to a large language model \(LLM\) topic.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**, and in the Asset library, select the topic you want to duplicate.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
+2.  Select the **Asset library** tab.
+
+3.  Open the topic you want to duplicate.
+
+4.  In the topic header bar, select the more actions on topics icon \[Omitted image "kebab-menu.png"\] Alt text:, then select **Duplicate**.
 
     1.  In the Duplicate window, enter the new name for the item.
 
     2.  Select **Save**.
 
-3.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
+5.  Update the properties on the **Properties** tab and on the **Flow** tab, change the conversation flow design as needed.
 
-    **Note:** Keep in mind the goal or purpose of your new topic as you set the properties and update the flow. For example, if you're using keyword-based topics, you might need to change certain keywords based on the purpose of your new topic. For LLM topics, you might need to select one or more LLM assistants. For Natural Language Understanding \(NLU\)-enabled topics, you might need to change the NLU model and intent associated with the topic.
+    **Note:** Keep in mind the goal or purpose of your new topic as you set the properties and update the flow. For example, you might need to select one or more LLM assistants.
 
 <table id="table_ahw_hqt_hmb"><thead><tr><th>
 
@@ -57,7 +60,7 @@ Topics
 
 </td><td>
 
-See [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for a description of the topic properties that you can change and how to add or change the nodes in the flow.
+See [Creating a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md) for a description of the topic properties that you can change and how to add or change the nodes in the flow.
 
 </td></tr><tr><td>
 
@@ -68,16 +71,14 @@ Topic blocks
 See [Create a reusable topic block](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-topic-blocks.md) for a description of the topic block properties that you set and the input and output parameters that you define for the block.
 
 </td></tr></tbody>
-</table>4.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
+</table>6.  As you update your design, use the **Test** option to run your design in a chat test window, then fine-tune your design flow accordingly.
 
-    For details on test features of LLM topics, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/test-llm-topics.md).
-
-    For details on test features regarding NLU topics, see [Testing NLU/Keyword topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-designer-testing.md).
+    For more information, see [Testing LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/test-llm-topics.md).
 
 
 ## What to do next
 
 If you’ve completed the topic or topic block, [publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/publish-virtual-agent-topic.md) it to deploy it to your Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

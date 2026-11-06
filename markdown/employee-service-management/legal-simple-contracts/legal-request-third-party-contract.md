@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Third-party contract review requests
@@ -49,5 +49,5 @@ As a member of the legal contracts support team, review and revise a third-party
 -   **[Cancel a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/cancel-legal-contract-request-tpc.md)**  
 Cancel a third-party contract request if it is no longer necessary.
 
-**Parent Topic:**[Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/legal-simple-contracts-landing-page.md)
+**Parent Topic:**[Submitting Legal Simple Contracts requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/sub-lg-sim-conts-reqs.md)
 

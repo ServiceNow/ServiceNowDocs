@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: reference
-last_updated: "2025-05-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitoring instance usage, Monitoring platform performance, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Monitoring instance usage, Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # ServiceNow Store usage overview dashboard

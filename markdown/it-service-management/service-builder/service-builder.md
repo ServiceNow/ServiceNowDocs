@@ -7,7 +7,7 @@ release: yokohama
 product: Service Builder
 classification: service-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [IT Service Management]
 ---
@@ -22,7 +22,7 @@ Create and edit services and service offerings using the ServiceNow® Service Bu
 
 ## Service Builder overview
 
-Create and maintain definitions of your business and technical services and offerings through a guided experience in Service Builder. You can edit service definitions anytime before you publish as well as update already-published services using version control.
+Create and maintain definitions of your business and technology management services and offerings through a guided experience in Service Builder. You can edit service definitions anytime before you publish as well as update already-published services using version control.
 
 After your services and offerings are published, you can view and edit them in the **Services** tab of Service Builder or in its parent application Service Portfolio Management.
 
@@ -31,7 +31,7 @@ After your services and offerings are published, you can view and edit them in t
 Service Builder provides contextual guidance for each step tab as you create your services and service offerings. From the Service Builder **Dashboard** tab, create a service by selecting one of the two options:
 
 -   **Create a business service**
--   **Create a technical service**
+-   **Create a technology management service**
 
 After you select an option, Service Builder provides an organizer for you to see the steps to create a service.\[Omitted image "sb-create-service.png"\] Alt text: Create service organizer.
 
@@ -51,7 +51,7 @@ After you edit a service or an offering, the published version stays active unti
 
 |Home page tab|Description|
 |-------------|-----------|
-|Dashboard|The default landing page where you can create a business service or a technical service. You can also view services that you interacted with in the last few days from the dashboard view.|
+|Dashboard|The default landing page where you can create a business service or a technology management service. You can also view services that you interacted with in the last few days from the dashboard view.|
 |Services|List of all services along with their state, classification, phase, status, and owner. If you have editing access to the services and service offerings, you can edit them from this tab.|
 
 **Related topics**  

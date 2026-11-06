@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: reference
-last_updated: "2025-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference for Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -89,4 +89,5 @@ Enables dynamic translation for messages that contain urls com.glide.cs.dynamic.
 Enables dynamic translation for messages that contain URLs.Installed with the Dynamic Translation for Virtual Agent plugin \(com.glide.cs.dynamic.translation.virtual\_agent\). For information see [Using language detection and dynamic machine translation in Virtual Agent enhanced chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/dynamic-lang-detection-translation-enhanced-chat.md).
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
+

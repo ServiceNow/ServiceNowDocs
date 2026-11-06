@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a Workplace service, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -35,7 +35,7 @@ Activities can be approvals, tasks, or child cases. You can specify the order in
 
 2.  Select the workplace service that you want to modify to add more workplace service activities.
 
-3.  Click **New** under the **Workplace Service Activities** section in the **Workplace services** form.
+3.  Select **New** under the **Workplace Service Activities** section in the **Workplace services** form.
 
 4.  On the form, fill in the fields.
 
@@ -74,7 +74,7 @@ Missing all approves
 
 </td><td>
 
-This field appears if you select the **Activity type** **Approval**. From the list of options, select what action to take if all the approvers are missing.
+This field appears if you select the **Activity type** **Approval**. From the list of options, select what action to take if approvers are missing.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Application
 
 </td><td>
 
-This field is auto-generated. However, ensure that **Workplace Case Management** is selected.
+Make sure that **Workplace Case Management** is selected.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Parent service
 
 </td><td>
 
-This field is auto-populated with the Workplace service to which you are adding this activity.
+Option to add a parent Workplace service.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Approvers
 
 </td><td>
 
-This field appears if you select the **Activity type** **Approval**. Select approvers for the case from the configured performer criteria. Click the unlock icon \( \[Omitted image "unlock-icon.png"\] Alt text: Approvers from case unlock icon \) to select.
+This field appears if you select the **Activity type** **Approval**. Select approvers for the case from the configured performer criteria. Select unlock to select.
 
 </td></tr><tr><td>
 
@@ -122,7 +122,7 @@ Workplace case service
 
 </td><td>
 
-This field appears if you select the **Activity type** as **Child case**. Click the search \(\[Omitted image "search-icon.png"\] Alt text: Workplace case service search icon\) icon and select the Workplace service you want to set as a child case. To add a Workplace service, see [Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/create-workplace-service.md).
+This field appears if you select the **Activity type** as **Child case**. Select the search and select the workplace service you want to set as a child case. To add a workplace service, see [Create a Workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/create-workplace-service.md).
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Continue if incomplete
 
 </td><td>
 
-Select this option if you want this activity to continue even if the activity is closed or incomplete.
+Select this option if you want this activity to continue when the activity is closed or incomplete.
 
 </td></tr></tbody>
 </table>5.  Enter the conditions in the condition builder that you want to trigger the background activity.
@@ -139,7 +139,7 @@ Select this option if you want this activity to continue even if the activity is
 
     In releases prior to the Quebec release, fields had to be selected from the Workplace Case \[sn\_wsd\_case\_workplace\_case\] table and service catalog variables such as questions could not be referenced.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 ## Result

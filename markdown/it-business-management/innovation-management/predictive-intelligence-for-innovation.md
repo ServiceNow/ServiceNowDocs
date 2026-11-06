@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Exploring Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Predictive Intelligence for Innovation Management

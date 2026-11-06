@@ -1,20 +1,20 @@
 ---
 title: Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
-description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+description: Customize case summarization skill by selecting input data sources, setting case state conditions, and defining access controls to generate AI-powered case summaries that fit your organization's needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)
 
-If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+Customize case summarization skill by selecting input data sources, setting case state conditions, and defining access controls to generate AI-powered case summaries that fit your organization's needs.
 
 ## Before you begin
 
@@ -22,11 +22,11 @@ Role required: admin
 
 ## About this task
 
-From the AI Admin Hub console, you can select the input table, related records, and fields for each input template of the case summarization skill, and then configure the prompt headers to include them in the general summary.
+From the AI Admin Hub, you can select the input table, related records, and fields for each input template of the case summarization skill. You can then configure the prompt headers to include them in the general summary.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Features** to access the **Now Assist Features** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** to access the **AI Features** tab of the AI Admin Hub.
 
 2.  In the **Customer** workflow group, view the skills for the ServiceNow Otto for CSM features.
 
@@ -36,11 +36,11 @@ From the AI Admin Hub console, you can select the input table, related records, 
 
     2.  In the All available skills section, locate the skill that you would like to activate and select **Activate skill**.
 
-        **Note:** Only one version of a skill can be active at a time for each table. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated. The copied skill can be activated with the parent skill.
+        **Note:** Only one version of a skill can be active at a time for each table. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon \[Omitted image "csm-ws-dashboards-more-actions-icon.png"\] Alt text: for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    3.  Select the More actions icon\[Omitted image "more\_vertical\_icon.png"\] Alt text: for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
         The copy that you make is listed in the Active skills section.
 
@@ -50,27 +50,25 @@ From the AI Admin Hub console, you can select the input table, related records, 
 
 4.  In the General details step, fill in the fields.
 
-    For information about the inputs and triggers for each skill, see [Activate Now Assist Skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/activate-now-assist-for-customer-service-management-csm-skills_0.md).
+    For information about the inputs and triggers for each skill, see [Additional skill input and trigger information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/additional-skill-input-and-trigger-information-for-now-assist_0.md).
 
     1.  Enter a name and description for the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-5.  View the input data for each skill, such as the base input fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\).
+5.  View the input data for each skill, such as the base input fields and related lists for the different input templates.
 
-    You can change the base input table and add case extension tables for the copied skill. To create an extended table, select **New** on the Tables list page, and select the table to extend from the **Extends table** search field. This option is only available when you’re creating a table, because it incorporates all of the fields of the original table and creates system fields for the new table.
+    You can change the base input table and add case extension tables for the copied skill. To create an extended table, select **New** on the Tables list page, and select the table to extend from the **Extends table** search field. This option is only available when you’re creating a table. It incorporates all of the fields of the original table and creates system fields for the new table.
 
     Configure the base input table fields and related lists for the different input templates \(Case new, Case work in progress, or Case resolved states\) for the skill.
 
-    Each skill relies on a base input table and input fields with descriptions to provide context for the Now LLM Service to generate a response.
+    Each skill relies on a base input table and input fields with descriptions to provide context for the LLM service to generate a response.
 
     Select only those related tables that are offered as the base system as part of the input data.
 
     1.  For each input template state \(New, Work in progress, or Resolved\), select **+New base input field** and configure the base input table fields.
 
         Add multiple base input fields, as necessary.
-
-        \[Omitted image "now-assist-csm-view-input.png"\] Alt text: View of all the input tables and fields that are used to define the prompt that will determine where to pull the data from.
 
         The following table lists the base input table fields and descriptions, including a relevant example.
 
@@ -105,7 +103,7 @@ Description of the base input field value.
 </td></tr></tbody>
 </table>    2.  For each input template state \(New, Work in progress, or Resolved\), configure the rule conditions by using the condition builder to filter the data.
 
-        The rule conditions determine when the input template is used. By default, the record state determines the input template that the Now LLM Service uses.
+        The rule conditions determine when the input template is used. By default, the record state determines the input template that the LLM service uses.
 
         You can build the condition out further by selecting **+New condition set** and configuring additional parameters.
 
@@ -119,7 +117,7 @@ Description of the base input field value.
 
     3.  For each input template state \(New, Work in progress, or Resolved\), select **+New data source** to configure the additional related table and activity stream data, as needed.
 
-        Adding input data sources, like the related tables and activity streams, provide more context to the Now LLM Service in a related list.
+        Adding input data sources, like the related tables and activity streams, provide more context to the LLM service in a related list.
 
         You can also add the rule conditions to these additional data sources.
 
@@ -129,64 +127,15 @@ Description of the base input field value.
 
 6.  Customize the prompt.
 
-    Review and test the prompt for each input template configuration. You can edit the prompt by adding new predefined sections and reordering them, as needed.
+    Review and test the default prompt provided. The prompt is fixed and can't be customized directly within this step or from the AI Admin Hub screen.
 
-    1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt sections from the list of available sections to include in the generated summary.
+    To customize or create prompts, select **Edit prompt in AI Skill Kit**. This will redirect you to the AI Skill Kit, where you can manage prompt configurations for the skill. For more info, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md).
 
-        To add a section, you must configure the relevant input data prior to this step.
-
-        The available prompt sections that you can select:
-
-        -   **Issue**
-        -   **Key Actions Taken**
-        -   **Resolution**
-        The following table lists the mandatory prompt headers.
-
-<table id="table_av3_xhw_2bc"><thead><tr><th>
-
-Input template state
-
-</th><th>
-
-Mandatory prompt header
-
-</th></tr></thead><tbody><tr><td>
-
-New
-
-</td><td>
-
-Issue
-
-</td></tr><tr><td>
-
-Work in progress
-
-</td><td>
-
--   Issue
--   Key Actions Taken
-
-
-</td></tr><tr><td>
-
-Resolved
-
-</td><td>
-
--   Issue
--   Key Actions Taken
--   Resolution
-
-
-</td></tr></tbody>
-</table>        You can add the **Waiting on customer** prompt to cases only if the case has an **Awaiting info** state. Otherwise, adding this header to other states could cause the Now LLM Service to generate inaccurate or unreliable results.
+    1.  For each input template state \(New, Work in progress, or Resolved\), select the prompt to include in the generated summary.
 
     2.  Select **Save** to continue to the test response.
 
     3.  Select a case record in the Test response section, and test the prompt response output format by selecting **Run Test**.
-
-        \[Omitted image "now-assist-csm-customize-prompt.png"\] Alt text: Selection of new sections that can be included in the summary for each input template.
 
     4.  Select **Save and continue** to go to the next step.
 
@@ -198,23 +147,35 @@ Resolved
 
     2.  Select **Save and continue** to go to the next step.
 
-8.  Configure where to display the case summarization.
+8.  Select **Define access** to determine who can access this skill.
 
-    1.  Select either **In-product** or **Now Assist panel**.
+    By selecting specific roles, you're controlling who can use it. The roles you choose will also be available in the next step **Select display**.
 
-        -   **In-product**: When selected, the Now Assist skills are displayed on the forms and workspaces.
+    Default and Custom Roles:
+
+    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+
+9.  Configure where to display the case summarization.
+
+    1.  Select either **In-product** or **ServiceNow Otto panel**.
+
+        -   **In-product**: When selected, the AI skills are displayed on the forms and workspaces.
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, the AI skills are available in the panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate the panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-9.  Review and activate the skill.
+10. Review and activate the skill.
 
     Review your choices and select **Activate** to complete the skill customization.
 

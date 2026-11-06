@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/additional-mobile-configuration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mobile system property configurations
@@ -19,7 +19,7 @@ Require users to enter a PIN when the application has been inactive for five min
 -   **[Configure mobile re-authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-reautentication-concept.md)**  
 Set mobile re-authentication system properties so users must re-authenticate their login credentials when performing specific actions.
 -   **[Configure the blur app option to improve security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/t_BlurApp.md)**  
-As a security feature, administrators can configure the mobile app to blur when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred.
+As a security feature, administrators can configure the mobile app to blur or appear blackened, depending on the operating system, when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred or blackened.
 -   **[Configure the status for rooted and jailbroken devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-rooted-jailbroken-devices.md)**  
 Define whether jailbroken \(iOS\) and rooted \(Android\) devices are permitted on your mobile device. The default value is set to `false` to increase security and to minimize possible disruption to your system.
 -   **[Configure the mobile app to clear the copy/paste clipboard and block ability to share content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-copy-paste.md)**  

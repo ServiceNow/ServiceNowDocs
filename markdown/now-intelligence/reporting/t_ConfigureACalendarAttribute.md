@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize calendar reports, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Customize calendar reports, Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Configure how calendar entries look
@@ -22,17 +22,19 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## Procedure
 
-1.  Open a form for any record in that table.
+1.  Navigate to the table your report is based on, for example incident.list.
 
-2.  Right-click the form header and select **Configure** &gt; **Dictionary**.
+2.  Open a form for any record in the table.
 
-3.  In the record list that appears, select the first record that does not have a value in the **Column name** field.
+3.  Select the Additional actions menu \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions menu icon\) and choose **Configure** &gt; **Dictionary**.
+
+4.  In the record list that appears, select the first record that does not have a value in the **Column name** field.
 
     \[Omitted image "reports-calendar-attributes01.png"\] Alt text: Reports calendar attributes
 
-4.  Switch the **Dictionary Entry** form to the **Advanced** view.
+5.  Switch the **Dictionary Entry** form to the **Advanced** view.
 
-5.  In the **Attributes** field, add **calendar\_elements=&lt;field name&gt;;&lt;field name&gt;**, listing the fields you want to appear in each entry of your calendar report separated by semi-colons.
+6.  In the **Attributes** field, add **calendar\_elements=&lt;field name&gt;;&lt;field name&gt;**, listing the fields you want to appear in each entry of your calendar report separated by semi-colons.
 
     **Note:** When you define attributes for calendar elements, you replace the default display elements of **number** and **short\_description** with the attributes that you list in this field. To add any additional attributes to the calendar entry and retain the number and short description of the change, include the **number** and **short\_description** fields in your attributes. For example, to add state information to your task calendar, add the following attribute to the Task table:
 
@@ -42,13 +44,13 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
     \[Omitted image "reports-calendar-attributes02.png"\] Alt text: Reports calendar attributes
 
-6.  If the table already has an attribute, separate it from the attribute you are adding with a comma, for example:
+7.  If the table already has an attribute, separate it from the attribute you are adding with a comma, for example:
 
     ```
     reference_index_include=active,calendar_elements=number;short_description;state
     ```
 
-7.  Select **Update**.
+8.  Select **Update**.
 
 
 ## Result

@@ -5,20 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/approval-summarizer.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using formatters, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Approval summarizer formatter
 
 The approval summarizer formatter creates the summary at the bottom of an approval form.
 
-The approval summarizer displays different information depending on what is being approved, such as a change request or a service catalog request. Following are two examples.
+The approval summarizer displays full information for the record used to request approval.
 
-\[Omitted image "SummaryOfAChangeRequest.png"\] Alt text:
-
-\[Omitted image "SummaryOfACatalogRequest.png"\] Alt text:
+\[Omitted image "SummaryOfAChangeRequest.png"\] Alt text: The approval summarizer displays information from the original request directly in the approval request.
 
 The **Reject** button allows the approver to deny one or more requested items in a multi-item request, before approving the overall request. If a requested item is denied, the workflow for that item never starts. The approver can then choose to **Accept** the item.
 

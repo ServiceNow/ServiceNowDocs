@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-configure-assignment-rules.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [assign findings to remediation teams automatically, assign vulnerable items to remediation teams automatically, assign application vulnerable items to remediation teams automatically, assign container vulnerable items to remediation teams automatically, configuring assignment rules]
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
@@ -36,7 +36,7 @@ Role required: See [Access control lists \(ACLs\) for administration rules](http
 
 ### About this task
 
-The base system includes one default vulnerability assignment rule, **Assign to CI support group**, which assigns findings to the same assignment group as the CI support group. You can modify this rule using filter conditions or create a rule. With assignment rules, you define the conditions for assignment and the order in which they’re executed. Once a finding matches a rule condition, the assignment process stops.
+With assignment rules, you define the conditions for assignment and the order in which they’re executed. Once a finding matches a rule condition, the assignment process stops.
 
 ### Procedure
 
@@ -267,7 +267,7 @@ The **Unassign** UI action is supported in both the classic environment and the 
 
 ### Result
 
-The request is approved by using a default, one-level approval workflow. For more information, see [Approve or reject an unassign request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-approve-unassign-requests.md).
+The request is approved by using a default, one-level approval workflow.
 
 -   If your request is approved, the state change approval record and the requested approval record transition to the Approved state. You and your groups are removed from the **Assigned to** and **Assignment group** fields. `Unassigned` is displayed in the **Assignment type** field, and the remediation task and VITs are displayed in the list of the Unassigned module for each product.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Issue Auto Resolution for HR to handle cases, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
 
 # Using agent feedback to improve your case criticality predictions

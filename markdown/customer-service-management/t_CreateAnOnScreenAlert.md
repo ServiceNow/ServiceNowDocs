@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateAnOnScreenAlert.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage special handling notes, Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage special handling notes, Agent management, Use, Customer Service Management]
 ---
 
 # Create a special handling note

@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Embedded Help, Embedded Help, In-product help, Adoption services, Configure user experiences]
 ---

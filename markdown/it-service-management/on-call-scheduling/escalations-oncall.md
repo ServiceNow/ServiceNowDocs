@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Define escalation process, On-Call Scheduling, IT Service Management]
+breadcrumb: [Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Escalations in On-Call Scheduling
@@ -36,6 +36,8 @@ To design an escalation process for a task, you define a trigger rule and config
 Use the On-Call Escalation Tracking page for full visibility into the time line of an active or closed escalation as it progresses through its on-call escalation path.
 -   **[View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md)**  
 View the escalation log record for full details on the time line and actions for an on-call escalation as it progressed through the on-call escalation path. You can also access escalation and escalation notification information from reports.
+-   **[Delivery status tracking for On-Call Scheduling notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/delivery-status-tracking-oncall.md)**  
+Every notification that On-Call Scheduling dispatches during an escalation has its delivery status captured, providing a reliable audit trail of who was notified and whether the notification reached them.
 
 **Parent Topic:**[Defining On-Call Scheduling escalation process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/defining-escalation-process-and-template.md)
 

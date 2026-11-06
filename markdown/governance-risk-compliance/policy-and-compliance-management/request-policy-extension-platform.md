@@ -1,5 +1,5 @@
 ---
-title: Request an extension
+title: Request an extension to policy exception
 description: Request an extension for the policy exception that you created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage policy exceptions and extensions, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage policy exceptions and extensions, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Request an extension
+# Request an extension to policy exception
 
 Request an extension for the policy exception that you created.
 

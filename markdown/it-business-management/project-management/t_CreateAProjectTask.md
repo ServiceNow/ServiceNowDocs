@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Basics of Project Management, Explore, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project tasks
@@ -71,6 +71,10 @@ You can create a project task using any of the following options.
 [Types of external dependencies]()
 
 [Project and portfolio funding]()
+
+[Project scheduling in Project Management]()
+
+[Task constraints]()
 
 [Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
 

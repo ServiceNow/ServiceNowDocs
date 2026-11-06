@@ -1,17 +1,17 @@
 ---
 title: Customer Service Management
-description: The ServiceNow Customer Service Management enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
+description: The ServiceNow Customer Service Management application enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_CustomerServiceManagement.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
 # Customer Service Management
 
-The ServiceNow® Customer Service Management enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
+The ServiceNow® Customer Service Management application enables you to provide the service and support that your external customers need. For example, your customers can communicate and receive support through the web, email, chat, telephone, and social media.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -43,7 +43,7 @@ The ServiceNow® Customer Service Management enables you to provide the service 
 
 </td><td>
 
-[Allocate \[Omitted image "bus-optimize-manage.svg"\] Alt text:Use workforce optimization to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md)
+[Allocate \[Omitted image "bus-optimize-manage.svg"\] Alt text:Use workforce optimization to efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configurable-wfo-cs.md)
 
 </td><td>
 

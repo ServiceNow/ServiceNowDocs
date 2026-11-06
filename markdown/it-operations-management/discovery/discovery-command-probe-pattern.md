@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-02-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [discovery commands, probe commands, pattern commands]
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]

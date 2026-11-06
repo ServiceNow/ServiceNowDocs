@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/r\_Fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -63,7 +63,7 @@ Also called a right-click menu, offers several options, including:
 -   The option to copy the sys\_id of the record to the clipboard \(administrators only\).
 -   [Quick edit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_MethodsForListEdits.md) options, such as **Assign to me**, **Approve**, and **Reject**.
 -   The option to edit the record [tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_Tags.md), which provide quick access to frequently referenced or urgent information. When a tag is assigned to a record, the record is displayed on the Tagged Documents page.
--   Options specific to features such as [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) and [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md).
+-   Options specific to features such as Live Feed and [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_UseLists.md)

@@ -7,7 +7,7 @@ release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Developer guides, API implementation and reference]
 ---
@@ -31,7 +31,7 @@ Create a scoped cache and define its cache pair.
 
 ### Before you begin
 
-Role required: admin
+Role required: caching\_admin
 
 ### Procedure
 

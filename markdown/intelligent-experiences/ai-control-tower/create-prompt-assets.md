@@ -7,10 +7,10 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Using AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create prompt assets
@@ -19,11 +19,11 @@ Create AI assets to track and manage the life cycles of your prompts.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] or Asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: sn\_ai\_governance\_ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 ## About this task
 
-A prompt is the input that you provide to AI models to elicit specific responses or outputs. The more detailed and descriptive a prompt is, the higher the quality of the response or output. Examples of prompts include instructions, questions, and commands.
+A prompt is the instructive input that you provide to AI models to elicit specific responses or outputs. The more detailed and descriptive a prompt is, the higher the quality of the response or output. Examples of prompts include instructions, questions, and commands.
 
 ## Procedure
 
@@ -31,7 +31,7 @@ A prompt is the input that you provide to AI models to elicit specific responses
 
 2.  From the AI Control Tower, open the AI assets view.
 
-3.  From the navigation menu of the AI assets view, navigate to **AI asset inventory** &gt; **Prompts**.
+3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **Prompts** or **AI asset inventory - Unmanaged** &gt; **Prompts**.
 
 4.  Select **Add prompt**.
 
@@ -91,7 +91,7 @@ Managed by
 
 </td><td>
 
-User who is assigned to manage the prompt. This field is automatically set to the user who creates the prompt asset.**Note:** This field is editable only if you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this field is read-only.
+User who is assigned to manage the prompt. This field is automatically set to the user who creates the prompt asset.**Note:** This field is editable only if you have the AI steward \(sn\_ai\_governance\_ai\_steward\) role. If you have the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role, this field is read-only.
 
 </td></tr><tr><td>
 
@@ -112,15 +112,33 @@ Input that you want to provide to AI models.
 </td></tr></tbody>
 </table>6.  Select **Next**.
 
-7.  In the Related assets section of the Add prompt form, specify the AI models that are associated with the prompt by searching for and selecting each model from the **AI model** field.
+7.  In the Related assets section of the Add prompt form, associate the prompt with related AI models.
 
-    You can specify more than one model.
+    Related AI models include any AI models that you can provide the prompt to. These AI models can process inputs from the prompt and help generate appropriate outputs.
 
-    **Note:** If an associated AI model isn’t available, you can add it by selecting **Add new** and then following the proceeding steps in [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-ai-model-assets.md).
+    Depending on if the related AI model is currently available in your asset inventory, proceed with one of the following options:
+
+    -   To associate the prompt with a related AI model that is currently available, use the following steps:
+
+        1.  Select the Add from inventory drop-down menu on the header of the AI models list.
+        2.  Select **Add from inventory**.
+        3.  In the Add from inventory dialog box, select the check box for the related AI model that you want to associate the prompt with.
+
+            **Note:** If you want to associate the prompt with multiple related AI models, select the check box for each model.
+
+        4.  Select **Add**.
+        The dialog box closes and the selected AI model appears in the AI models list.
+
+    -   To associate the prompt with a related AI model that is not currently available, use the following steps:
+
+        1.  Select the Add from inventory drop-down menu on the header of the AI models list.
+        2.  Select **Create**.
+        3.  Create the AI model by following the proceeding steps in [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-ai-model-assets.md).
+        The new AI model appears in the AI models list.
 
 8.  Select **Submit for review**.
 
-    **Note:** If you aren’t ready to submit the prompt for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the prompt from the list. When the AI asset record opens, select **Edit** to continue editing the prompt details.
+    **Note:** If you aren’t ready to submit the prompt for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the prompt from the list. When the AI asset record opens, continue editing the prompt details.
 
 
 ## Result

@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Edit skills and proficiencies in the Skills Matrix
@@ -24,7 +24,7 @@ Role required: sn\_skills\_int.admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Go to **Job architecture** &gt; **Role groups**.
 
@@ -52,7 +52,7 @@ Role required: sn\_skills\_int.admin
 **Related topics**  
 
 
-[Creating a new role group through the Skills Workspace]()
+[Creating a role group through the Skills Workspace]()
 
 [Add more skills to a role group]()
 

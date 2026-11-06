@@ -4,7 +4,7 @@ description: Create a connection record for your SAP ECC RFC account. The SAP EC
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
 ---
 

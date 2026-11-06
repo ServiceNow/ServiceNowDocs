@@ -1,18 +1,20 @@
 ---
-title: User Experience Analytics data options for time series visualizations
-description: The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
+title: Usage Insights data options for time series data visualizations
+description: The following Data configuration options are available for all time series type visualizations of Usage Insights data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-time-series-uxa-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics data options for time series visualizations
+# Usage Insights data options for time series data visualizations
 
-The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
+The following Data configuration options are available for all time series type visualizations of Usage Insights data.
+
+**Note:** If you add a Platform Analytics data visualization with Usage Insights data to an inline dashboard, the default drilldown for that data visualization is to open the corresponding UXA analytics page. This feature provides a quick and efficient way to drill down and explore specific user behavior from your Platform Analytics dashboard.
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -28,19 +30,23 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
+You have selected a Usage Insights data source in [Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
 MetricIf there is more than one metric, you can change the time series chart type for that metric by clicking the Change chart type icon. Also, if there is more than one metric, you can use the More options list to select a main metric and to add a Y-axis for each metric. Lastly, you can set dashboard filters to apply only to specific metrics. For more information, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md).
 
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Metric
+
 </td></tr><tr><td>
 
-Label
+Metric
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source.
+Label of the metric. By default it is the same as the name of the data source: Events or Sessions.For sessions, you can configure the metric to reflect the number of sessions, average session duration, average pages per session, or average sessions per user.
 
 </td></tr><tr><td>
 
@@ -120,7 +126,7 @@ Event property \[eventPropertyValue\]
 
 </td><td>
 
-List of properties to choose from for User Experience Analytics Event sources that have properties.
+List of properties to choose from for Usage Insights Event sources that have properties.
 
  **Note:** Only applies to Events metrics.
 
@@ -130,7 +136,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
@@ -149,7 +157,7 @@ Aggregation period \[trendByFrequency\]
 
 </td><td id="entry_aggregation-period">
 
-The period by which to aggregate values to calculate the trend. Options come from the standard calendar and any business calendars that are defined on the instance, such as the Gregorian.
+The period by which values are aggregated to calculate the trend. Options come from the standard calendar and any business calendars that are defined on the instance, such as the Gregorian. Select **Auto** to have the application infer the aggregation level based on the selected date range. Automatic aggregation respects business calendars and shift schedules.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -204,8 +212,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -216,6 +228,8 @@ Allow change date range
 </td><td>
 
 When turned on, the viewer has a date range selector control with a set of predefined options.
+
+ Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -245,7 +259,7 @@ Configure forecast
 
 </td><td>
 
-Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-forecast-ts-viz.md).
+Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 
@@ -293,7 +307,7 @@ Triggered when you navigate away from the dashboard that contains the data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 
@@ -321,6 +335,14 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
 Content
 
 </td><td>
@@ -336,5 +358,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

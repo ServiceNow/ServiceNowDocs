@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Equipment task attribute form
@@ -30,11 +30,12 @@ Inventory template
 
 </td><td>
 
-Inventory template for the equipment model. The instantiation process uses it to generate a network asset instance in the designated network site.**Note:**
+Inventory template for the equipment model include facility models. The instantiation process uses it to generate a network asset instance in the designated network site.**Note:**
 
 -   Depending on the selected inventory template, a list of the optional templates appears at the bottom of the form.
 -   When you select an optional template, the current template values are overwritten.
 -   This field is applicable only for Create inventory equipment.
+-   Facility-based templates are supported
 
 </td></tr><tr><td>
 

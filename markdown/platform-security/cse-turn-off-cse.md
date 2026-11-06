@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cse-turn-off-cse.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
 # Turn off Code Signing
@@ -20,7 +20,7 @@ Role required: admin, codesigning\_admin
 
 ## Procedure
 
-1.  On your trusted instance, navigate to **All** &gt; **Code Signing** &gt; **Code Signing Configuration** to open the Code Signing configuration page.
+1.  On your trusted instance, navigate to **All** &gt; **Code Signing** &gt; **Configuration** &gt; **Guided Setup** to open the Code Signing configuration page.
 
 2.  In the **Instance type** field, select **trusted instance**.
 
@@ -38,7 +38,7 @@ Role required: admin, codesigning\_admin
 
 8.  Upload your configuration files using the steps in [Upload your Code Signing configuration file to your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cse-upload-cs-config.md).
 
-9.  Navigate to **All** &gt; **Code Signing** &gt; **Code Signing Configuration** to open the Code Signing configuration page.
+9.  Navigate to **All** &gt; **Code Signing** &gt; **Configuration** &gt; **Guided Setup** to open the Code Signing configuration page.
 
 10. In the **Instance type** field, select **protected instance**.
 

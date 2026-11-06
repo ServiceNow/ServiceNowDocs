@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-guidance-action-ga.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a guidance in the Core UI, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Create a guidance in the Core UI, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a guidance action for a guidance
@@ -24,7 +24,7 @@ Role required: sn\_gd\_guidance.guidance\_manager
 
 2.  Select a guidance from the Guidances list.
 
-3.  In the Guidance Actions form section, select **New**.
+3.  In the Guidance Actions form section, click **New**.
 
 4.  On the Guidance Action form, fill in the fields.
 
@@ -66,12 +66,12 @@ Action Behavior
 
 </td><td>
 
-The selected behavior for the guidance action:-   **Single click**: The action is initiated and completed with one selection and the card moves to the **History** tab in the side panel. Useful for simple actions such as escalating a case.
+The selected behavior for the guidance action:-   **Single click**: The action is initiated and completed with one click and the card moves to the **History** tab in the side panel. Useful for simple actions such as escalating a case.
 -   **Open in Contextual Side Panel**: The action opens in a detailed view within the side panel. The agent can review the details in the side panel, such as reviewing the content of a knowledge base article.
 -   **Open in Sub Tab**: The action opens in a separate tab.
-You can configure the preview experience for all the action behavior types and configure the detail view for the actions that open in the sub tab or contextual side panel. For more information, see [Configure guidance detail experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-guidance-preview-detail-experiences-ga.md).
+You can configure the preview experience for all the action behaviour types and configure the detail view for the actions that open in the sub tab or contextual side panel. For more information, see [Configure guidance detail experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-guidance-preview-detail-experiences-ga.md).
 
- **Note:** Actions that open in the contextual side panel or in the subtab don’t move to the in-progress state. The action moves to the in-progress or completed state only when the agent selects the action button in the detail view.
+ **Note:** Actions that open in the contextual side panel or in the subtab don’t move to the in-progress state. The action moves to the in-progress or completed state only when the agent clicks the action button in the detail view.
 
 </td></tr><tr><td>
 

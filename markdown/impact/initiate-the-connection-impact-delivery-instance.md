@@ -1,24 +1,23 @@
 ---
-title: Initiate the connection to the Impact Delivery Instance
-description: Connect between your Impact Store Application with the Impact Delivery Instance to exchange data.
+title: Initiate the connection to Impact data with manual registration
+description: Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/initiate-the-connection-impact-delivery-instance.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Configuring the Impact Store Application, Impact Store Application, Impact]
+last_updated: "2026-11-06"
+reading_time_minutes: 2
+breadcrumb: [Use manual registration to configure the Impact Store Application, Data synchronization reference, Impact reference, Impact]
 ---
 
-# Initiate the connection to the Impact Delivery Instance
+# Initiate the connection to Impact data with manual registration
 
-Connect between your Impact Store Application with the Impact Delivery Instance to exchange data.
+Establish a connection between your Impact Store Application and the Impact Delivery Instance to allow the exchange of data.
 
 ## Before you begin
 
 **Important:** A named contact administrator must be allocated to perform the installation and implementation of the Impact Store Application. The person initiating registration may not be the named contact administrator.
 
--   The named contact administrator must have an Impact role for both the Impact Store Application and the Impact Delivery Instance to configure the integration of data.
 -   The named contact administrator performs the configuration starting with a registration email sent from the Impact Squad.
 -   The registration email contains a direct link to the IDI provider connection form.
 
@@ -26,17 +25,25 @@ Role required: An Impact role
 
 ## Procedure
 
-1.  [Install the Impact Store Application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-impact-innovation-lab.md).
+1.  [Install Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-impact-innovation-lab.md).
 
-2.  Log in to the Impact Delivery Instance to initiate the Impact Store Application instance registration.
+2.  Log in to the Impact Store Application.
 
-3.  Navigate to **Activity Center** &gt; **Instance registration**.
+3.  Navigate to **Guided Setup** &gt; **Register your instance** &gt; **Initiate connection to the Impact Delivery Instance**.\[Omitted image "manual-registration-gui.png"\] Alt text: Initiate connection to the Impact Delivery Instance in Impact Guided Setup manual registration.
 
-4.  Select **Add instance**.
+    The login screen for IDI displays to enter IDI credentials.
 
-    The Initiate instance registration page loads.
+4.  Log in to the Impact Delivery Instance.
 
-5.  Complete the form.
+5.  Navigate to **Activity Center** &gt; **Instance registration**.
+
+    The Instance registration page loads.
+
+6.  Select **Add instance**.
+
+    The Initiate instance registration form loads.
+
+7.  Complete the form.
 
 <table id="table_rp1_tj2_1fc"><thead><tr><th>
 
@@ -64,11 +71,16 @@ Name of the instance to be registered
 
 </td></tr><tr><td>
 
-Impact Store Application instance
+Do you have a custom URL?
 
 </td><td>
 
-URL to the Impact Store Application**Note:** The URL should auto-populate, otherwise, contact your Impact Squad for assistance.
+Custom or vanity URL to the Store App-   No: The URL Impact Store Application auto-populates.
+-   Yes:
+    -   Navigate to the Impact Store App **All** &gt; **Custom URLs**.
+    -   Copy the value from the **Domain Name** column.
+    -   Paste the Domain name into the Custom URL field.
+**Note:** See the following image for an example. Contact your Impact Squad for assistance.
 
 </td></tr><tr><td>
 
@@ -81,12 +93,20 @@ Contact \(administrator who receives the email to complete setup\)
 
 
 </td></tr></tbody>
-</table>6.  Select **Initiate registration**.
+</table>    \[Omitted image "custom-url.png"\] Alt text: Custom URL example in the Domain name table.
+
+8.  Select **Initiate registration**.
 
     The registration information is displayed along with the generated registration link. The details are also emailed to the named contact administrator.
 
 
 ## What to do next
 
-The named contact administrator will [Connect to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md).
+The named contact administrator will [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md).
+
+**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/use_manual_registration_configure_impact_store_application.md)
+
+**Previous topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/use_manual_registration_configure_impact_store_application.md)
+
+**Next topic:**[Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md)
 

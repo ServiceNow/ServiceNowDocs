@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -54,7 +54,7 @@ Exchange rate
 
 </td><td>
 
-Rate in effect for the period corresponding to the benefit plan breakdown. When the period corresponding to the benefit plan breakdown has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert the entered benefit into the functional benefit. It is obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
+Rate in effect for the period corresponding to the benefit plan breakdown. When the period corresponding to the benefit plan breakdown has multiple rates, the rate in effect on the first date of that period is used. Exchange rate is used to convert the entered benefit into the functional benefit. It’s obtained from the itfm\_fx\_rate \[budget\_reference\_rates\] table.
 
 </td></tr><tr><td>
 

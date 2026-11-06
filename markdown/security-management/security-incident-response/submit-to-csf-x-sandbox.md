@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activity Definitions, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Add the Automation plan, Activity experience and submit. Once submitted, edit th
 
 ## Automation Plan
 
-The Automation Plan associates the backend action/subflow built using the flow designer. This example uses **Submit to Sandbox - ESCM Activity**sub-flow.
+The Automation Plan associates the backend action/subflow built using the flow designer. This example uses the **Submit to Sandbox - ESCM Activity** sub-flow.
 
 \[Omitted image "sandbox.png"\] Alt text: Activity definitions
 

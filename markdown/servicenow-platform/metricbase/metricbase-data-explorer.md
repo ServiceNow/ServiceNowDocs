@@ -7,7 +7,7 @@ release: yokohama
 product: MetricBase
 classification: metricbase
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with demo data, Configure, MetricBase, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---

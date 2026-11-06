@@ -1,5 +1,5 @@
 ---
-title: Minimize reset password SMS expiracy duration \[Updated in Security Center 1.3\]
+title: Minimize reset password SMS expiry duration
 description: Control the number of minutes remaining before the SMS code expires.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-expiracy.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Minimize reset password SMS expiracy duration \[Updated in Security Center 1.3\]
+# Minimize reset password SMS expiry duration
 
 Control the number of minutes remaining before the SMS code expires.
 
-The **password\_reset.sms.expiry** property represents the number of minutes remaining before the SMS code expires.
+The **password\_reset.sms.expiry** system property denotes the number of minutes before the SMS code expires.
+
+Ensure the property **password\_reset.sms.expiry** is set to `5` or less.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-integer
+Integer
 
 </td></tr><tr><td>
 
@@ -58,11 +60,19 @@ Recommended value
 
 </td><td>
 
-5
+An integer less than or equal to 5
 
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+5
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -83,8 +93,16 @@ Security risk
 </td><td>
 
 -   Severity score: 5.6
--   CVSS score: Medium
--   Security risk details: If this property is not set to the recommended value of **5** or less, the chances of a bad actor guessing and using the SMS code to reset the password increases.
+-   CVSS rating: Medium
+-   Security risk details: If the value is too high, an attacker may guess the SMS code to reset the password.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

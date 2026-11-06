@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Understanding the Monitoring Technology Dashboard, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Understanding the Monitoring Technology Dashboard, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Monitoring Technology Dashboard for Azure
@@ -27,7 +27,7 @@ To view the dashboard, navigate to **All** &gt; **AIOps Dashboards** &gt; **Moni
 Before using the Monitoring Technology Dashboard for Azure:
 
 -   Create an Azure credential. For details on creating Azure credentials, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-azure-cloud-credentials.md).
--   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Discovery for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md).
+-   Create a Discovery schedule, using the credential created in the previous step. For details on creating a Discovery schedule, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md).
 -   Ensure that you’re working in the Agent Client Collector Monitoring scope in your ServiceNow instance.
 -   Ensure that the agent\_client\_collector\_admin and dashboard\_admin roles are enabled.
 -   Enable Metric Intelligence on the MID Server.
@@ -54,4 +54,6 @@ You can filter the dashboard data according to the following filters:
 |Metrics by selected CI filter|The CIs for which you want metric data to display on the dashboard.|
 
 You can customize the appearance of the individual widgets on the Azure Monitoring Technology Dashboard. For example, you could change the time that the CPU usage on virtual machines is displayed. You can also include the customized widgets when you’re creating a custom dashboard. For more information, see [Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/customize-dashboard-widgets.md).
+
+**Parent Topic:**[Understanding the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-concept.md)
 

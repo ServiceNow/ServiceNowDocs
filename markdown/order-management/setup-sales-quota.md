@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/setup-sales-quota.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Forecasting, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up sales quota
@@ -62,6 +62,14 @@ Reference field to User Group in which the quota is assigned for. 
 
 </td></tr><tr><td>
 
+Territory
+
+</td><td>
+
+Reference field to the Territory in which the quota is assigned for. 
+
+</td></tr><tr><td>
+
 External Source
 
 </td><td>
@@ -113,4 +121,11 @@ Select the **Active** check box to activate this quota.
 
     The sales quota has been assigned to sales team.
 
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-forecasting.md)
 

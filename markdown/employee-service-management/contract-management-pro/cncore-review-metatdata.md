@@ -7,10 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Metadata Extraction]
-breadcrumb: [Metadata extraction using Now Assist in Contract Management, Using Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Extract contract metadata, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work with extracted metadata
@@ -31,15 +31,15 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 1.  Open a contract repository record where you want to review extracted information.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d580927e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d629906e69">
 
 Method
 
-</th><th align="left" id="d580927e72">
+</th><th align="left" id="d629906e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d580927e78">
+</th></tr></thead><tbody><tr><td id="d629906e78">
 
 **Contract Workspace**
 
@@ -52,7 +52,7 @@ Steps
 5.  Select the contract repository record.
 
 
-</td></tr><tr><td id="d580927e126">
+</td></tr><tr><td id="d629906e126">
 
 **Workspace used by your application**
 
@@ -68,6 +68,8 @@ Steps
 </table>2.  Select **Review extracted metadata**.
 
     The Document Intelligence workspace opens on a different tab displaying the extracted information.
+
+    \[Omitted image "cmpro-na-di-me.png"\] Alt text: Document intelligence workspace to update the extracted metadata.
 
 3.  Review the extracted information.
 
@@ -91,10 +93,12 @@ Steps
 
 6.  Select **Submit**.
 
-    The information is submitted to be added to the mapped fields in the contract repository.
 
-    When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
+## Result
 
+The information is submitted to be added to the mapped fields in the contract repository.
 
-**Parent Topic:**[Metadata extraction using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
+When the extraction process is completed, you can view the status of the extracted fields in the **Extraction results** related list in the contract repository record. For more information on the status of the fields, see [Metadata extraction results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-metadata-ext-results.md).
+
+**Parent Topic:**[Extract contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-metadata-extract-land.md)
 

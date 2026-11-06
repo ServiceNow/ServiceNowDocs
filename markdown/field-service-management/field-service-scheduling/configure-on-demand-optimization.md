@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Optimizing technician schedules at set intervals throughout the day, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Intraday optimization, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configure on demand optimization

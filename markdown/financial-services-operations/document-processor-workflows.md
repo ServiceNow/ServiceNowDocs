@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/document-processor-workflows.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Document Processor, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Document Processor workflows
@@ -26,7 +26,7 @@ The following predefined workflows for Document Processor are available with the
 |Generate DocIntel Document task|
 |Generate DocIntel Use case|
 
-These workflows are built using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-designer-home-landing-page.md). The application admin can review and customize these predefined flows that are based on the business needs of an organization.
+These workflows are built using [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md). The application admin can review and customize these predefined flows that are based on the business needs of an organization.
 
 ## General workflow for Document Processor
 

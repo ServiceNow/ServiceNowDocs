@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predefined colors in reports, Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Color palettes

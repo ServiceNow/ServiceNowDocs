@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/url-screen.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -13,12 +13,6 @@ breadcrumb: [Mobile screen types, Mobile screens, Mobile app components, Buildin
 # Mobile web screen
 
 Mobile web screens open an external URL or a relative URL within your instance.
-
-**Note:**
-
-There are limitations associated with the use of mobile web screens on navigation tabs. Currently, if the mobile web screen is accessed and authentication has expired because the session has timed out, the device has locked, or the app has been backgrounded, you must re-authenticate in the mobile web screen.
-
-In addition, pulling to refresh the mobile web screen is unavailable on Android devices. Instead, to refresh the app, you must close it, re-start it, and then return to the mobile web screen to see refreshed content. This limitation related to pulling to refresh doesn't exist on iOS devices, version 18.4 and later.
 
 <table id="table_n1k_dbq_nlb"><tbody><tr><td>
 
@@ -31,4 +25,8 @@ Use a mobile web screen to Open a URL from within the ServiceNow app. You can co
 \[Omitted image "url\_screen.png"\] Alt text: Browser screen showing a relative link within the app.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Configure a mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-configure-url-screen.md)**  
+Use a mobile web screen to open a URL from within a ServiceNow mobile application. You can configure relative URLs to open pages within the ServiceNow platform.
+-   **[Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobwebscreen-add-button-virtagent.md)**  
+Admins can configure a button on a mobile web screen that end users can use to launch Virtual Agent from their mobile device.
+

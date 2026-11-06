@@ -1,5 +1,5 @@
 ---
-title: User hierarchy access control for issue and remediation task records
+title: User hierarchy access control
 description: If a user is assigned to an issue or a remediation task, then the manager of the user and the manager above in the hierarchy also get access to the issue or remediation task record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manually create GRC issues, Manage issues in Policy and Compliance Management, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manually create issues, Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# User hierarchy access control for issue and remediation task records
+# User hierarchy access control
 
 If a user is assigned to an issue or a remediation task, then the manager of the user and the manager above in the hierarchy also get access to the issue or remediation task record.
 

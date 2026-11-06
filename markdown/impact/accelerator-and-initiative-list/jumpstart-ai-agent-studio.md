@@ -1,33 +1,38 @@
 ---
 title: Jumpstart Your AI Agent Studio
-description: This accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
+description: This Accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-ai-agent-studio.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your AI Agent Studio
 
-This accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
+This Accelerator provides Impact customers with an overview and applied demonstration of AI agents within the Platform.
 
 ## Jumpstart Your AI Agent Studio Overview
 
 Jumpstart Your AI Agent Studio highlights how AI agents empower customers to build an ecosystem of autonomous or Human-on-the-loop \(HOTL\) Agents equipped with tools that integrate seamlessly across the platform and beyond. These Agents are orchestrated to perform a wide range of tasks with minimal to no human intervention, significantly enhancing organizational efficiency and demonstrating the transformative potential of AI. The offering includes key resources and leading practices guides to help customers get started with ServiceNow AI Agents.
+
+## Package Availability
 
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
 ## What you get
 
 -   **Session preparation**
-    -   Provision a temporary instance 
-    -   Activate and configure related plug-ins
-    -   Configure a custom AI agent
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance 
+    -   Activates and configures related plug-ins
+    -   Configures a custom AI agent
 -   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:

@@ -1,5 +1,5 @@
 ---
-title: Resolving EMR Help requests
+title: Resolve EMR Help requests
 description: You can use a ServiceNow instance to resolve requests generated in the EMR Help service portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/emr-help/resolving-emr-help-requests.html
@@ -7,12 +7,12 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Resolving EMR Help requests
+# Resolve EMR Help requests
 
 You can use a ServiceNow instance to resolve requests generated in the EMR Help service portal.
 

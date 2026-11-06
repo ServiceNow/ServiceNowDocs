@@ -1,42 +1,44 @@
 ---
-title: Now Assist Readiness Evaluation
-description: The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
+title: AI Readiness Evaluation
+description: The AI Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, and five other jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-readiness-evaluation/now-assist-readiness-evaluation-landing-page.html
 release: yokohama
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-15"
+last_updated: "2026-10-06"
 reading_time_minutes: 4
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
-# Now Assist Readiness Evaluation
+# AI Readiness Evaluation
 
-The Now Assist Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, Now Assist for five products, or both.
+The AI Readiness Evaluation app helps prepare your organization for implementing agentic AI for ITSM and CSM, and five other jobs.
+
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md).
 
 Choose one of these tiles to get started.
 
 <table id="table_lgc_mpv_jzb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the Now Assist Readiness Evaluation app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about the AI Readiness Evaluation app.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Run scheduled jobs and configure the app through the Now Assist Readiness Evaluation guided setup.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Run scheduled jobs and configure the app through the AI Readiness Evaluation guided setup.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
 
 </td><td>
 
-[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about how to use the Now Assist Readiness Evaluation dashboards and assessments to prepare for implementing agentic AI, Now Assist, or both.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
+[Use\[Omitted image "bus-person.svg"\] Alt text:Learn about how to use the AI Readiness Evaluation dashboards and assessments to prepare for implementing AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
 
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## AI limitations
@@ -51,10 +53,12 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md).
+
 **Related topics**  
 
 
-[Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platform-now-assist-landing.md)
+[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platform-now-assist-landing.md)
 
-[Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/na-ai-agents.md)
+[AI Agent Studio \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/na-ai-agents.md)
 

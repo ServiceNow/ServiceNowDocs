@@ -4,7 +4,7 @@ description: Reserve multiple workplace items for the same date and time in a si
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 ---
 
@@ -28,15 +28,15 @@ Before booking a room or desk, check the availability of the selected item using
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table><thead><tr><th align="left" id="d333625e60">
+<table><thead><tr><th align="left" id="d358072e60">
 
 Location
 
-</th><th align="left" id="d333625e63">
+</th><th align="left" id="d358072e63">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d333625e69">
+</th></tr></thead><tbody><tr><td id="d358072e69">
 
 **From application navigator**
 
@@ -44,7 +44,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d333625e90">
+</td></tr><tr><td id="d358072e90">
 
 **From Employee Center Portal**
 
@@ -56,7 +56,7 @@ Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Rese
 
 Make a reservation portal page opens for you to make workplace reservations.
 
-</td></tr><tr><td id="d333625e137">
+</td></tr><tr><td id="d358072e137">
 
 **From Workplace Service Portal**
 
@@ -161,9 +161,13 @@ Number of attendees
 
 Number of people expected to attend the meeting.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
-**Add invitees to this reservation** **Note:** This section appears only if your administrator has enabled the configuration to invite attendees to this workplace location. This option will not appear if the **Number of attendees** option is displayed.
+**Add invitees to this reservation** section
+
+</td><td>
+
+**Note:** This section appears only if your administrator has enabled the configuration to invite attendees to this workplace location. This option will not appear if the **Number of attendees** option is displayed.
 
 </td></tr><tr><td>
 
@@ -253,21 +257,23 @@ If any of the items needs approval, then your request is submitted to the approv
 
 [Create a reservation]()
 
+[Auto-resolve recurring reservations]()
+
 [Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Reserve a space near your colleague]()
 
-[Create neighborhood reservations]()
+[Create a multi-day reservation]()
 
 [Create multi-building reservations]()
 
-[Create a multi-day reservation]()
+[Create neighborhood reservations]()
+
+[Enable shift-based reservation]()
 
 [Create a reservation along with a shared reservation]()
-
-[Set a location as favorite using the Space details page]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -280,4 +286,6 @@ If any of the items needs approval, then your request is submitted to the approv
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

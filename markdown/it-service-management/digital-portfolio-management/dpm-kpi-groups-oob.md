@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Digital Portfolio Management reference, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
 
 # KPI groups installed with Digital Portfolio Management
@@ -270,7 +270,7 @@ Service health
 
 </td><td rowspan="2">
 
-Application services
+Service instances
 
 </td><td>
 
@@ -297,7 +297,7 @@ Availability insights
 
 </td><td rowspan="3">
 
-Application services
+Service instances
 
 </td><td>
 

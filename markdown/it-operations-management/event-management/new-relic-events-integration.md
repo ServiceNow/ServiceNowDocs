@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate New Relic platform events
@@ -39,7 +39,7 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) event rules provid
         1.  Navigate to**Alerts &amp; AI** &gt; **Destinations**.
         2.  In the**Add destinations**section, select the**Webhook**channel type.
         3.  In the**Webhook name** field, enter the webhook name.
-        4.  In the**Endpoint URL** field enter:`https://<InstanceName>.service-now.com/api/sn_em_connector/em/inbound_event?source=newrelic`
+        4.  In the**Endpoint URL** field enter: `https://<InstanceName>.service-now.com/api/sn_em_connector/em/inbound_event?source=newrelic`
         5.  In the**Basic Auth**section, enter your user name and password.
 
             **Note:** Verify the evt\_mgmt\_integration role is assigned to the selected user. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.

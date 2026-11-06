@@ -1,5 +1,5 @@
 ---
-title: Manage scenarios in Strategic Planning
+title: Manage scenarios
 description: Use the Manage scenarios option to view a list of all scenarios, rename scenarios, or delete scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/manage-scenarios-in-strategic-planning.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Manage scenarios in Strategic Planning
+# Manage scenarios
 
 Use the **Manage scenarios** option to view a list of all scenarios, rename scenarios, or delete scenarios.
 
@@ -34,15 +34,15 @@ Role required:sn\_align\_core.apw\_user
 
 4.  Do any of the following actions.
 
-<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d166595e111">
+<table id="choicetable_qhd_5v3_ccc"><thead><tr><th align="left" id="d210246e115">
 
 Action
 
-</th><th align="left" id="d166595e114">
+</th><th align="left" id="d210246e118">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d166595e120">
+</th></tr></thead><tbody><tr><td id="d210246e124">
 
 **Delete a scenario**
 
@@ -52,7 +52,7 @@ Description
 2.  Select **Delete**.
 
 
-</td></tr><tr><td id="d166595e141">
+</td></tr><tr><td id="d210246e145">
 
 **Rename a scenario**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills Management in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Skills Management, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Setting up skill prediction in Workforce Optimization for ITSM
@@ -17,6 +17,8 @@ breadcrumb: [Skills Management in Workforce Optimization for ITSM, Workforce Opt
 Collect skill data based on skills agents have used for incident resolution. Use supervised learning to recommend these skills for agents to resolve similar open incidents. You can also find patterns in how skills are used for incident resolution and use unsupervised learning to recommend skills for agents.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Predictive Intelligence must be set up and configured on your instance to train the models. For more information, see [Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Manage controls, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Manage controls, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a control
@@ -244,7 +244,7 @@ Frequency at which the control is tested. This field is for the control's testin
 -   Quarterly
 -   Semi-Annually
 -   Annually
-**Note:** For information on the difference between the**Frequency** field for a control and the**Attestation Frequency** field in an entity, see [KB0694607](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694607).
+**Note:** The **Frequency** field is intended for reporting purposes only and defines how often the control is expected to be tested or executed. It does not influence the attestation schedule. The **Attestation Frequency** field, however, governs how often attestations are triggered for the control. Attestations are initiated by the Control Nightly Attestation scheduled job when the control is in Review or Monitor state. This separation allows customers to track control testing independently from attestation cycles.
 
 </td></tr><tr><td>
 
@@ -336,6 +336,18 @@ Additional comments
 
 Public information about the control.
 
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Access Settings
+
+</td></tr><tr><td>
+
+Entity based access restriction
+
+</td><td>
+
+When **Entity based access restriction** is enabled, only users or user groups included in the access configuration for the entities associated with this control can access it.
+
 </td></tr></tbody>
 </table>4.  Select **Copy entity frequency** related link to copy the value of the **Attestation frequency** field of the entity to the **Attestation frequency** field of the control.
 
@@ -346,5 +358,5 @@ Public information about the control.
 
 ## What to do next
 
-After you create a control, you can convert the control to a common control and add reliant entities and reliant entity types to it. For more information, see [Testing common control and implementing results on multiple reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
+After you create a control, you can convert the control to a common control and add reliant entities and reliant entity types to it. For more information, see [Testing common control and implementing results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/common-controls-multiple-rel-entities.md).
 

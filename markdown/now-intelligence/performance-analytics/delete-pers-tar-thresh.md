@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Targets and thresholds, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Targets and thresholds, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Bulk delete targets/thresholds or delete another user's personal target or threshold
@@ -26,9 +26,9 @@ If your roles allow you to create a global target or threshold, you can delete a
 
 ## Procedure
 
-1.  Navigate to **Performance Analytics** &gt; **Targets** or **Performance Analytics** &gt; **Thresholds**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Targets** or **Platform Analytics Administration** &gt; **Indicators** &gt; **Thresholds**.
 
-2.  Select the tickboxes for the targets or thresholds that you want to delete.
+2.  Select the targets or thresholds that you want to delete.
 
     If an owner is specified for a target or threshold, it is their personal target or threshold.\[Omitted image "select-targets-delete.png"\] Alt text: List of targets with two targets chosen.
 

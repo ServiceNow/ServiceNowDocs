@@ -1,26 +1,26 @@
 ---
-title: Enable AI search in the Business Portals for unauthenticated users
-description: Activate the AI search widgets to allow guest users logging in to the Business portal to use the AI search feature.
+title: Enable AI search in the Business and Consumer Portals for unauthenticated users
+description: Activate the AI search widgets to allow guest users logging in to the Business and Consumer portal to use the AI search feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_search\_businessportal\_guestuser.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Business Portal, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Enable AI search in the Business Portals for unauthenticated users
+# Enable AI search in the Business and Consumer Portals for unauthenticated users
 
-Activate the AI search widgets to allow guest users logging in to the Business portal to use the AI search feature.
+Activate the AI search widgets to allow guest users logging in to the Business and Consumer portal to use the AI search feature.
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
 
-You must configure AI Search for the business portal. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/enable-ais-sp.md).
+You must configure AI Search for the Business and Consumer portal. For more information, see [Enable and configure AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/enable-ais-sp.md).
 
 ## Procedure
 

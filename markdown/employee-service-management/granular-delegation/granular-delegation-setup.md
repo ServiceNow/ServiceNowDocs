@@ -7,7 +7,7 @@ release: yokohama
 product: Granular Delegation
 classification: granular-delegation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Granular Delegation, Employee Service Management]
 ---
@@ -15,6 +15,15 @@ breadcrumb: [Granular Delegation, Employee Service Management]
 # Setting up Granular Delegation
 
 Set up Granular Delegation so your employees can delegate their tasks to other employees.
+
+## Configuration steps
+
+1.  [Activate Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/activate-granular-delegation.md)
+2.  Define what tasks can be delegated by adding the table that holds the tasks: [Add delegation rule tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/add-delegation-rules-tables.md)
+3.  For each delegation table: [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/create-delegation-rules.md)
+4.  Define the users that can delegate tasks and to whom they can be delegated: [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/create-delegation-admin.md)
+
+## Installed with Granular Delegation
 
 Activate the Granular Delegation plugin \(com.glide.granular\_service\_delegation\) for the ServiceNow AI Platform if you have the admin role. For more information, see [Activate Granular Delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/activate-granular-delegation.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Exploring Legal Request Management
@@ -19,8 +19,6 @@ Legal Request Management enables authorized employees in the organization to sub
 ## Legal Request Management overview
 
 Employees can read legal knowledge base articles, submit legal requests, monitor the progress of submitted requests, and interact through [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legal-va-conversations.md).
-
-\[Omitted image "legal-service-delivery-info.png"\] Alt text: Transform and modernize your internal Legal operations through Legal Service Delivery applications.
 
 ## Legal Request Management users
 
@@ -56,9 +54,10 @@ A workflow for a legal request might progress as following:
 1.  Legal User submits a legal request.
 2.  Legal Fulfiller performs the following actions as required:
     1.  Assigns the legal request.
-    2.  Manages attachments for a legal request.
-    3.  Initiates an ad hoc approval for a legal request or its attachment.
-    4.  If required, promotes a legal request to a legal matter.
+    2.  Marks the request as privileged and confidential.
+    3.  Manages attachments for a legal request.
+    4.  Initiates an ad hoc approval for a legal request or its attachment.
+    5.  If required, promotes a legal request to a legal matter.
 3.  If required Request Fulfiller can transfer a legal request.
 4.  Legal Fulfiller closes the legal request on fulfilling it.
 
@@ -128,6 +127,20 @@ Track, prioritize, and work on multiple requests concurrently with an optimized 
 
 Legal Fulfiller
 
+</td></tr><tr><td>
+
+Attorney Client Privilege enables legal fulfillers to mark legal requests as privileged and confidential. This capability helps you protect sensitive legal communications and comply with attorney-client privilege requirements.
+
+</td><td>
+
+[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/lsd-acp-landing.md)
+
+</td><td>
+
+-   Legal Fulfiller
+-   Collaborator
+-   Practice Area Lead
+
 </td></tr></tbody>
 </table>## What to explore next
 
@@ -137,6 +150,11 @@ To learn more about configuring and using Legal Request Management, see:
 -   [Using Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/submitting-legal-request.md)
 -   [Managing legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/managing-legal-request.md)
 -   [Legal Request Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/legal-request-management-reference.md)
+
+-   **[Attorney-Client Privilege](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/lsd-acp-landing.md)**  
+Attorney Client Privilege functionality enables legal fulfiller to designate legal requests as privileged and confidential. It restricts access to authorized stakeholders, marks communications with confidentiality banners, and maintains a document audit trail to help you protect sensitive legal communications.
+-   **[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/now-assist-lsd-exploring.md)**  
+ServiceNow Otto for Legal Service Delivery \(LSD\) provides AI-powered summarization for legal requests and matters, and generates actionable answers from knowledge article search results in Employee Center, Legal Counsel Center, and global search.
 
 **Parent Topic:**[Legal Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/legal-request-management-landing-page.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Monitor controls using GRC Performance Analytics Indicators
@@ -35,7 +35,7 @@ There are two reports for the reporting of breaches:
 -   Risk PA Indicator Breaches
 -   Control PA Indicator Breaches
 
-**Parent Topic:**[Use the Classic user interface for Policy and Compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Activate GRC: Performance Analytics Integration
 
@@ -179,5 +179,7 @@ Role required: sn\_risk.manager or sn\_compliance.manager
 3.  Click the **Update PA Relationships** related link.
 
     All the risks or controls related to the risk statement or policy statement are automatically associated with all the risk statement or policy indicators of the statement. Also, if the indicator has a breakdown that matches the risk or entity of the control \(for example a Business Service breakdown\), the **Breakdown** and **Element** fields for the relationship are automatically filled in.
+
+    **Note:** To use Performance Analytics indicators for risk statements and risks, the Advanced Risk application and Performance Analytics must be active, and the related indicators must be enabled. Otherwise, the related links don't appear on a risk record.
 
 

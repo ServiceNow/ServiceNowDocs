@@ -1,20 +1,20 @@
 ---
 title: Planning your application
-description: Plan out your application before building it to streamline the development process.
+description: Plan out your application before building it in App Engine Studio to streamline the development process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/app-tutorial-introduction.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [App creation tutorial, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Planning your application
 
-Plan out your application before building it to streamline the development process.
+Plan out your application before building it in App Engine Studio to streamline the development process.
 
 When you want to build an application, the first thing you should do is develop a plan for the app. Planning involves outlining what the application does and identifying who will use the application. By planning your application, you can better understand the purpose of your application and address potential issues before development begins.
 
@@ -110,10 +110,6 @@ Consider the problem that you aim to solve with your application. To determine i
 ## Step 2: Visualize the workflow for your application
 
 Once you have identified the use case for your application, visualize the end-to-end workflow for the application. The end-to-end workflow is the sequence of actions an application follows to complete a task or process.
-
-The following visualization demonstrates the end-to-end workflow for the employee travel request application in our tutorial:
-
-\[Omitted image "app-tutorial-example-workflow.png"\] Alt text: Our tutorial application workflow starts with an employee travel request. The request is reviewed by the manager and regional head, then sent to the travel desk for booking.
 
 To visualize the end-to-end workflow for your application, map out what your application does from start to finish. Include any loops that lead back to earlier steps in the workflow and any actions that cause you to exit the workflow.
 

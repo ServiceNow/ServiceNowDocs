@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Domain separation and ServiceNow Studio

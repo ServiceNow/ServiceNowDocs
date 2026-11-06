@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Find linear asset relationships
@@ -18,9 +18,9 @@ You can find relationships between linear assets such as overlapping, continuing
 
 ## Before you begin
 
-You may want to find a relationship between linear assets to associate them with each other. For example, you want to associate a linear asset with another linear asset such as an intersecting asset, in order to find all intersecting linear assets for the given linear asset. Similarly, you want to associate a linear asset with another linear asset such as an overlapping asset, in order to find all overlapping linear assets for that given linear asset.  Once relationships are found between linear assets, records are created for the related linear assets.
-
 Role required: sn\_eam.enterprise\_asset\_manager
+
+You may want to find a relationship between linear assets to associate them with each other. For example, you want to associate a linear asset with another linear asset such as an intersecting asset, in order to find all intersecting linear assets for the given linear asset. Similarly, you want to associate a linear asset with another linear asset such as an overlapping asset, in order to find all overlapping linear assets for that given linear asset.  Once relationships are found between linear assets, records are created for the related linear assets.
 
 ## Procedure
 

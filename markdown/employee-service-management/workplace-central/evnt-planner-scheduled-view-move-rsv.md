@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Working with schedule view, Working with Event planner, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -110,8 +110,6 @@ As a reservation or space planner, you can perform the following actions:
 
     3.  The confirm reservation changes dialog box opens.
 
-        \[Omitted image "wsd-move-rsv-confirmation-window.png"\] Alt text: The Confirmation reservation changes dialog box showing options to select Reservable modules.
-
     4.  Select the Reservable module to where you want to move your reservation.
 
         The list displays all the available Reservable modules to which the selected space or location belongs.
@@ -135,8 +133,6 @@ As a reservation or space planner, you can perform the following actions:
 
         The confirm reservation changes dialog box opens.
 
-        \[Omitted image "wsd-moving-shift-based-rsv.png"\] Alt text: Confirm reservation changes dialog box showing a shift-based Reservable module.
-
     2.  Select a Reservable module to which you want to move the selected reservation and space.
 
         While moving a shift-based reservation, the shift-based Reservable module of which the space is part of is preselected.
@@ -144,8 +140,6 @@ As a reservation or space planner, you can perform the following actions:
         **Note:** You can move a location within the same shift-based reservation and not to a different shift-based reservation. Two different shifts aren’t available for selection in the confirm reservation changes dialog box when you try to move a reservation. Space planners can move a shift-based reservation to a non-shift Reservable module \(Desks, meeting rooms, and so on\). For example: **Desks within a Shift** Reservable module can be moved to **Desks** Reservable Module. For more information, see [Allow Event planners to handle reservations with more flexibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/event-planner-bypass-validation-rule-overview.md).
 
 9.  Select the Show reservation details icon \(\[Omitted image "wsd-show-reservation-details-icon.png"\] Alt text: Reservation details icon.\) to open the Reservation details side-panel context window.
-
-    \[Omitted image "wsd-evnt-planner-update-rsv-window.png"\] Alt text: Reservation details window showing a selected reservation details.
 
     1.  Select and select a reservation to open the reservation details information window.
 

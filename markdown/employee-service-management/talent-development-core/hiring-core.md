@@ -1,20 +1,20 @@
 ---
 title: Hiring Core
-description: Hiring Core provides a repository where you can store information that you’ve created or received from any third party talent acquisition platform for your hiring requirements.
+description: Hiring Core provides a repository where you can store information that you’ve created or received from any third-party talent acquisition platform for your hiring requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/hiring-core.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills Foundation Reference, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Skills Foundation Reference, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Hiring Core
 
-Hiring Core provides a repository where you can store information that you’ve created or received from any third party talent acquisition platform for your hiring requirements.
+Hiring Core provides a repository where you can store information that you’ve created or received from any third-party talent acquisition platform for your hiring requirements.
 
 |Table|Description|
 |-----|-----------|

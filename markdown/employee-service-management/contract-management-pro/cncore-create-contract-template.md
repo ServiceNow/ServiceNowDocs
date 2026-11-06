@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create a contract template
@@ -29,6 +29,8 @@ If you are creating a contract template for a non-task table, ensure that the no
     The Word Templates page opens in the Contract Templates view by default.
 
 2.  Select **New**.
+
+    \[Omitted image "cmpro-contract-template.png"\] Alt text: New contract template form
 
 3.  On the form, fill in the fields.
 

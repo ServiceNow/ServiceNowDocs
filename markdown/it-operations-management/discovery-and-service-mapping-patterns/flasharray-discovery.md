@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2026-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Patterns]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Pure Storage FlashArray discovery
@@ -297,7 +297,7 @@ Operational status of the resource. Default value is Operational.
 |Hosted by \[hosted\_by\]|References the Storage Server \[cmdb\_ci\_storage\_server\] table.|
 |Storage \[storage\]|References the Storage Cluster Node \[cmdb\_ci\_storage\_cluster\_node\] table.|
 
-## CI relationships
+## CI relationships and references
 
 The Pure Storage pattern creates CI relationships and references to support Pure Storage FlashArray discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
@@ -328,5 +328,5 @@ The Pure Storage pattern creates CI relationships and references to support Pure
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Computer \[computer\]|Storage Server \[cmdb\_ci\_storage\_server\]|
 |Storage Volume \[cmdb\_ci\_storage\_volume\]|Provided by \[provided\_by\]|Storage Pool \[cmdb\_ci\_storage\_pool\]|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

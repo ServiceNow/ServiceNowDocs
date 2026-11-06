@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ If you are troubleshooting an alarm ingestion issue, you can override the defaul
 
 **Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[View LogRhythm drilldown events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-events.md)
+**Previous topic:**[View LogRhythm drill down events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-events.md)
 
 **Next topic:**[Verify connectivity for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/verify-connectivity.md)
 

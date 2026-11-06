@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Overview of CMDB Health
@@ -43,7 +43,7 @@ For more details about the KPIs and their associated metrics, see [CMDB Health K
 
 ## CMDB Health dashboards and reports
 
-You can view CMDB Health dashboards and reports in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md). Those dashboards show CMDB Health aggregated results for compliant and non-compliant CIs for CMDB Health KPIs and their metrics.
+You can view CMDB Health dashboards and reports in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in Service Graph Workspace. Those dashboards show CMDB Health aggregated results for compliant and non-compliant CIs for CMDB Health KPIs and their metrics.
 
 <table id="table_dlz_mff_s5"><thead><tr><th>
 
@@ -55,7 +55,11 @@ Use
 
 </th></tr></thead><tbody><tr><td>
 
-CMDB Health Dashboard1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
+CMDB Health Dashboard1.  Navigate to **Workspaces** &gt; **Service Graph Workspace**.
+2.  On the navigation panel, select the Insights icon.
+3.  In the Insights navigation panel, select **CMDB Health**.
+
+or:1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 2.  Select **Home** in the CMDB Workspace menu bar.
 3.  In the Quick links section select the **CMDB Health Dashboard** link.
 
@@ -64,7 +68,7 @@ or:1.  Navigate to **All** &gt; **Configuration** &gt; **CMDB Health Dashboard**
 
 </td><td>
 
-Main CMDB Health dashboard with the following views:**Class View**
+Main CMDB Health Dashboard with the following views:**Class View**
 
 -   Shows CIs and classes health reports with aggregations for metrics, KPIs, and class branches.
 -   Access to remediation tasks that were generated for CIs that failed a health test.
@@ -80,11 +84,11 @@ Main CMDB Health dashboard with the following views:**Class View**
 -   Shows health reports for CMDB groups of type **Health**.
 -   Detailed health for CIs in the group, with aggregations for KPIs, metrics, and health groups.
 
-In either dashboard view you can select **CMDB Health settings** to manage the CMDB Health Dashboard jobs and configure other CMDB Health settings. For more information, see [Set up and configure CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
+In either dashboard view you can select **CMDB Health settings** to manage the CMDB Health Dashboard jobs and configure other CMDB Health settings. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
 
 </td></tr><tr><td>
 
-Relationship Health dashboard1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
+Relationship Health Dashboard1.  Navigate to **Workspaces** &gt; **CMDB Workspace**.
 2.  Select **Home** in the CMDB Workspace menu bar.
 3.  In the Quick links section select the **Relationship Health Dashboard** link.
 
@@ -94,8 +98,8 @@ Shows various charts for relationships health, such as duplicate, orphan, and st
 
 </td></tr><tr><td>
 
-CI health report -   On a CI form that isn't in CMDB Workspace, select **Open in CMDB Workspace**.
--   In CMDB Workspace, select a CI in a list view to open the CI's form. For example, on the CMDB Health dashboard, drill down a KPI tile and then select a CI in the tile's list view.
+CI health report -   On a CI form outside of CMDB Workspaceand Service Graph Workspace, select **Open in Workspace**.
+-   In CMDB Workspace, select a CI in a list view to open the CI's form. For example, on the CMDB Health Dashboard, drill down a KPI tile and then select a CI in the tile's list view.
 
 </td><td>
 
@@ -106,7 +110,7 @@ On a CI form, the CI Health tile contains widgets that show CIs health reports. 
 
 To start gathering and aggregating health data, you must enable the CMDB Health-related jobs \(CMDB Health Dashboard jobs\) which are initially disabled. You also need to configure CMDB Health related system properties and health KPIs and metric test rules, to reflect health standards in your organization.
 
-For details about setting up and configuring CMDB Health, see [Set up and configure CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
+For details about setting up and configuring CMDB Health, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
 
 <table id="table_jhf_14q_fbc"><thead><tr><th>
 
@@ -132,7 +136,7 @@ CMDB Health PreferencesNavigate to **Configuration** &gt; **Health Preferences**
 
 1.  Navigate to **All** &gt; **Configuration** &gt; **CMDB Health Dashboard**.
 2.  Select a view.
-3.  On the CMDB Health dashboard, select **CMDB Health settings**.
+3.  On the CMDB Health Dashboard, select **CMDB Health settings**.
 
 </td><td>
 
@@ -149,9 +153,9 @@ CMDB Health provides a framework for configuring [CI remediation](https://raw.gi
 
 ## Domain separation
 
-CMDB Health is domain aware. If the domain separation plugin has been activated, then the CMDB Health dashboard shows health based on data, rules, and settings from the logged-on user domain. If rules and settings aren't defined for a child domain, then the parent's settings are applied, recursively.
+CMDB Health is domain aware. If the domain separation plugin has been activated, then the CMDB Health Dashboard shows health based on data, rules, and settings from the logged-on user domain. If rules and settings aren't defined for a child domain, then the parent's settings are applied, recursively.
 
 For more information, see [Domain separation in CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-domain-separation.md).
 
-**Parent Topic:**[Explore CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-health-parent.md)
+**Parent Topic:**[Exploring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-health-parent.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-viewing-an-opportunity.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # View an existing opportunity
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: List icon. and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
     -   All- shows all the opportunities in the instance.
     -   Opportunity Tasks- shows your opportunity tasks.
@@ -30,4 +30,11 @@ Role required: sales\_agent
 
 4.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

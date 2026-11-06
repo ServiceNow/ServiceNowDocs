@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer and maintain Career Conversations, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Set up Microsoft Outlook integration in Career Conversations, Install and configure Career Conversations, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Set system properties for Microsoft Outlook integration
@@ -39,8 +39,8 @@ Role required: admin \[sn\_egd\_act.admin\]
     |**sn\_egd\_act.ex\_online\_service\_account\_id**|&lt;Outlook service account used to manage calendar events&gt;|
     |**sn\_egd\_act.portal\_suffix**|esc|
 
-4.  Select **Update**.
+    **Important:** Select **Update** to save the values you defined for each of the previously mentioned system properties.
 
 
-**Parent Topic:**[Administer and maintain Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-administration.md)
+**Parent Topic:**[Set up Microsoft Outlook integration in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/outlook-integration-cc.md)
 

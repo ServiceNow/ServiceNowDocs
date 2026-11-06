@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
 ---
@@ -38,5 +38,5 @@ Once the time aggregation is set, all the score-cards show the data for that per
 
 For more information on the dashboard components, see [HR Success Dashboard indicators components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/sdb-dasboard-overview.md).
 
-For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulae](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/sd-formulae.md).
+For more information on the KPI definitions and formulas, see [HR Success Dashboard indicators KPI definitions and formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/sd-formulae.md).
 

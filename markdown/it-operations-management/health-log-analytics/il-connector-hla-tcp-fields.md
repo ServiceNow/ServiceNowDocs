@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [TCP, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # TCP integration configuration fields
@@ -50,7 +50,7 @@ Port
 
 </td><td>
 
-The port for the MID Server. This field is required.Select a unique port from the array. The placeholder shows the range of ports from which to choose. Make sure that your organization’s security team opens the selected port.
+The port on the MID Server used for listening to logs. This field is required.**Important:** Enter a unique port that no other application on the MID Server uses. Ask your security team to allow traffic on this port between the MID Server and the log sources.
 
 </td></tr><tr><td>
 
@@ -182,5 +182,5 @@ Line breaker delimiters
 The line break character separating the raw log lines.Splitting values must be separated by a comma followed by a space: ", ". For example: "\\r, \\n, , splitHere, \#".
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

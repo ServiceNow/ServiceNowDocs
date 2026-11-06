@@ -1,5 +1,5 @@
 ---
-title: Enforce production instance behavior \[Updated in Security Center 1.3 and 1.5\]
+title: Enforce production instance behavior
 description: Configure whether your instance should be handled like a production or non-production instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-production-instance-behavior.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enforce production instance behavior \[Updated in Security Center 1.3 and 1.5\]
+# Enforce production instance behavior
 
 Configure whether your instance should be handled like a production or non-production instance.
 
-If the **glide.installation.production** property is not set to the recommended value of **true**, the instance is not treated as a production instance, therefore permitting zboot and other potentially dangerous scripts to run. Enabling a production instance to be evaluated as a non-production instance can lead to information leakages or Denial of Service \(DoS\) attacks.
+If the **glide.installation.production** system property is not set to the recommended value of **true**, then the instance is not treated as a production instance, permitting zboot and other potentially dangerous scripts.
+
+Ensure that the property **glide.installation.production** is set to **true** on a production instance.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +94,15 @@ Security risk
 
 -   Severity score: 6.3
 -   CVSS score: Medium
--   Security risk details: Setting this property value to **false** causes the instance to be treated as a non-production instance which enables zboot and other potentially dangerous scripts to run.
+-   Security risk details: Allowing a production instance to be evaluated as non-production can lead to information disclosure or denial of service.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure knowledge article templates, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,4 +40,6 @@ You can define the number of characters to be used as tags in the **glide.knowma
 
     **Note:** You can change which article template field is used for generating SEO. Changes are applied only to knowledge articles created or updated after the change was made. To apply the update to all existing published articles created using this template, run the Populate Meta Description on KB Articles fix script.
 
+
+**Parent Topic:**[Configure knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-knowledge-article-templates.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Netskope Analyst Workspace]
-breadcrumb: [Data Loss Prevention Incident Response Integration with Netskope, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Data Loss Prevention Incident Response Integration with Netskope, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Preview evidence files

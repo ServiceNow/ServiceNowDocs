@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Controlling idle live chat sessions
@@ -22,7 +22,7 @@ You can change the idle chat reminder message and the default time after which t
 
 **Important:**
 
-Idle live chats are not available for Connect Support. Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+Idle live chats are not available for Connect Support. Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/migrate-from-connect-support.md).
 
 ## Change the idle chat reminder message
 

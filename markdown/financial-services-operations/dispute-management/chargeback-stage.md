@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Chargeback stage
@@ -21,7 +21,7 @@ In the collaboration workflow, the issuer initiates pre-arbitration and arbitrat
 -   **[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)**  
 In the collaboration workflow, dispute agents work to resolve consumer disputes and processing errors. In this workflow, issuers can choose to initiate pre-arbitration and arbitration, and acquirers can respond to these events.
 -   **[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)**  
-In the allocation workflow, dispute agents work to resolve fraud and authorization disputes. Acquirers can choose to initiate pre-arbitration and arbitration, and issuers can respond.
+In the allocation workflow, dispute agents work to resolve fraud and authorization disputes. Acquirers can choose to initiate pre-arbitration and arbitration, and issuers can respond. This is a part of the allocation dispute workflow for the Chargeback stage.
 
-**Parent Topic:**[Processing a dispute case with the Card Dispute Transaction playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/processing-a-dispute-case.md)
+**Parent Topic:**[Processing a Visa card dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/processing-a-dispute-case.md)
 

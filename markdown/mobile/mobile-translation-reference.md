@@ -1,18 +1,18 @@
 ---
 title: Translation values for mobile element
-description: Use this reference to find which values to use to translate your mobile elements
+description: Use this reference to find which values to use to translate your mobile elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-translation-reference.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization on mobile devices, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Server-side localization, Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Translation values for mobile element
 
-Use this reference to find which values to use to translate your mobile elements
+Use this reference to find which values to use to translate your mobile elements.
 
 |Mobile Element|Table name|Element name|
 |--------------|----------|------------|
@@ -20,8 +20,8 @@ Use this reference to find which values to use to translate your mobile elements
 |Launcher screen|sys\_sg\_applet\_launcher|title|
 |Function instance|sys\_sg\_button\_instance|label|
 |Function cancel button|sys\_sg\_button|cancel\_label|
-|Function confirm button|sys\_sg\_button|confirm\_label|
-|Global search placeholder text|sys\_sg\_global\_search| |
+|Function confirms button|sys\_sg\_button|confirm\_label|
+|Global search placeholder text|sys\_sg\_global\_search|placeholder|
 |Media section headline|sys\_sg\_section|headline|
 |Media section text|sys\_sg\_section|text|
 |Mobile section|sys\_sg\_section|title|
@@ -31,5 +31,5 @@ Use this reference to find which values to use to translate your mobile elements
 
 This example shows a translation record for an applet called **My Tasks** translated into Spanish.\[Omitted image "mobile-translate-example.png"\] Alt text: Translation record example.
 
-**Parent Topic:**[Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-mobile-device.md)
+**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-server-side.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -40,5 +40,5 @@ Role required: admin or sp\_admin
 **Related topics**  
 
 
-[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management-service-portal.md)
+[bundle-platcap.knowledge-management-service-portal]
 

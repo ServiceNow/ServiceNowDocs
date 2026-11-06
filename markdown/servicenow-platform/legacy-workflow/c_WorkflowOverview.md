@@ -1,28 +1,28 @@
 ---
 title: Classic Workflow
-description: Workflow provides a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
+description: Workflow is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/legacy-workflow/c\_WorkflowOverview.html
 release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Classic Workflow
 
-Workflow provides a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
+Workflow is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
 
-**Note:** As of the New York release, Workflow is a legacy product. Use [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md) for any new process automation. As many organizations have workflows in production, use this Workflow documentation to learn how to work with existing workflows.
+**Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
 <table id="simpletable_g33_wwg_vt" class="simpletableBody"><tbody><tr><td>
 
 **Explore**
 
- -   Yokohama
+ -   Brazil
 -   [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/legacy-workflow/c_WorkflowMovementWithUpdateSets.md)
 -   [Workflow activity pinning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/workflow-activities/c_ActivityPinning.md)
 -   [Domain separation and Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/legacy-workflow/c_WorkflowsAndDomainSeparation.md)

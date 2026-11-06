@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/plan-overview-scorecards.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View plan details, Structured workflows for Business Continuity Planning, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -50,9 +50,7 @@ The Plan Usage and Results section shows the details of the crisis and exercise 
 
 -   **Recovery Teams**
 
-    The scorecard helps you to identify teams and individuals with clear guidelines of responsibilities to act at the time of a crisis.
-
-    The assigned score indicates that a recovery role of a plan has been assigned to a group or a user. The unassigned score indicates that the recovery role is not assigned to any group or user.
+    The scorecard helps you to identify teams and individuals with clear guidelines of responsibilities to act at the time of a crisis. The assigned score indicates that a recovery role of a plan has been assigned to a group or a user. The unassigned score indicates that the recovery role is not assigned to any group or user.
 
     \[Omitted image "RecoveryWidget.png"\] Alt text: Recovery team widget
 
@@ -64,11 +62,9 @@ The Plan Usage and Results section shows the details of the crisis and exercise 
 
 -   **Recovery Tasks**
 
-    The recovery tasks scorecard indicates a group and an owner for the group, identified to carry out the activities of the plan during the recovery process.
+    The recovery tasks scorecard indicates a group and an owner for the group, identified to carry out the activities of the plan during the recovery process. Out of the total number of activities identified for the plan, the assigned score indicates the number of activities for which groups have been assigned. Unassigned score indicates plan activities for which groups have not been assigned.
 
     \[Omitted image "ActivitiesScoreWidget.png"\] Alt text: Activities scorecard
-
-    Out of the total number of activities identified for the plan, the assigned score indicates the number of activities for which groups have been assigned. Unassigned score indicates plan activities for which groups have not been assigned.
 
 -   **Dependencies by Loss scenario**
 
@@ -76,6 +72,4 @@ The Plan Usage and Results section shows the details of the crisis and exercise 
 
     \[Omitted image "DependenciesByLS.png"\] Alt text: Dependencies by loss scenarios
 
-
-**Parent Topic:**[View plan details in scorecards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-bcp-scorecard.md)
 

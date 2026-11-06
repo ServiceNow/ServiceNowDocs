@@ -7,9 +7,9 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Drawing and editing tools in the CAD editor, Configure CAD objects using the CAD Editor tab, AutoCAD import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Drawing and editing tools in the CAD editor, Configure CAD objects using the CAD Editor tab, Autocad import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Editing block attributes

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/understanding-secops.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Security Operations]
 ---
@@ -30,6 +30,8 @@ The Security Operations applications fall under two broad categories for Securit
 
 -   Unified Security Exposure Management \(USEM\) - Applications and tools that help you anticipate, understand, and close your security exposures. See [Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/unified-security-exposure-management-landing-page.md) for more information about using Security Operations applications in USEM.
 -   Enterprise security case management - Applications and tools that help you move quickly to respond to critical incidents.
+
+\[Omitted image "mmasset0020854-secops-horizontal.png"\] Alt text: The Security Operations applications and workflows organized by category.
 
 ## Benefits of the Security Operations applications
 

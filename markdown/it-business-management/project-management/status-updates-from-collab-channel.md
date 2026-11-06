@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [PPM Collaboration, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Notifications for project updates in your collaboration tool
@@ -24,67 +24,43 @@ Using the automatic project status updates on the project collaboration channel 
 
 A notification with the consolidated project status is sent to the project's channel daily at 8:00 AM which consists of the following information.
 
-<table id="table_r3d_r3d_mmb"><thead><tr><th>
+-   **Project overview**
+    -   A direct URL of the project. Selecting this URL opens the project in your ServiceNow instance.
+    -   Name of the project.
+    -   Planned start and end dates of the project.
+    -   State of the project, for example, Work in Progress.
+    -   Status of the project, for example, Green.
+    -   Percentage of project completion.
+-   **Project tasks due today**
 
-Notification
+    List of project tasks that have planned end date marked as today and are in the Work in Progress state. The list displays only five project tasks that are sorted alphabetically by their short description.
 
-</th><th>
+-   **Overdue tasks**
 
-Information
+    List of project tasks which have a planned start date before today but are not in either the Work in Progress or Closed states. The list displays only five project tasks that are sorted in an ascending order of the planned start dates so that you get high visibility into the tasks that are overdue for a longer period.
 
-</th></tr></thead><tbody><tr><td>
+-   **Delayed tasks**
 
-Project overview
+    List of project tasks which have a planned start date before today and are in the Work in Progress state. The list displays only five project tasks that are sorted in ascending order of the planned end dates so that you get high visibility into the tasks that have been delayed for a longer period.
 
-</td><td>
+-   **Project tasks due within seven days**
 
--   A direct URL of the project. Clicking this URL opens the project in your ServiceNow instance.
--   Name of the project.
--   Planned start and end dates of the project.
--   State of the project, for example, Work in Progress.
--   Status of the project, for example, Green.
--   Percentage of project completion.
--   Any exceptions like estimation at completion is greater than total planned cost, planned end date is later than the approved end date, project not started on the start date, and project running late.
+    List of five of the following project tasks that have a planned end date within seven days from today. All these tasks are displayed in ascending order of their due dates so that you get high visibility into the tasks that are due soon.
 
-</td></tr><tr><td>
+    **Note:** Tasks that in Closed state are not displayed in the list.
 
-Project tasks due today
+    -   High priority risks, issues, and action items
+    -   Milestone or key milestone tasks
+-   **Other updates**
 
-</td><td>
+    Notifications are sent to the project channel for the following scenarios.
 
-List of project tasks that have planned end date marked as today and are in the Work in Progress state. The list displays only five project tasks that are sorted alphabetically by their short description.
+    -   Cost estimate at completion \(EAC\) exceeds the planned cost of the project
+    -   Planned end date is later than the approved end date
+    -   Project did not start on the planned start date
+    -   Project is not complete by the planned end date
 
-</td></tr><tr><td>
-
-Overdue Tasks \(Tasks not started on planned start date\)
-
-</td><td>
-
-List of project tasks which have a planned start date before today but are not in either the Work in Progress or Closed states. The list displays only five project tasks that are sorted in an ascending order of the planned start dates so that you get high visibility into the tasks that are overdue for a longer period.
-
-</td></tr><tr><td>
-
-Delayed Tasks \(Tasks not completed on planned end date\)
-
-</td><td>
-
-List of project tasks which have a planned end date before today and are in the Work in Progress state. The list displays only five project tasks that are sorted in ascending order of the planned end dates so that you get high visibility into the tasks that have been delayed for a longer period.
-
-</td></tr><tr><td>
-
-Project tasks due within seven days
-
-</td><td>
-
-List of five of the following project tasks that have a planned end date within seven days from today. All these tasks are displayed in ascending order of their due dates so that you get high visibility into the tasks that are due soon.
-
-**Note:** Tasks that in Closed state are not displayed in the list.
-
--   High priority risks, issues, and action items
--   Milestone or key milestone tasks
-
-</td></tr></tbody>
-</table>## Notification regarding change of project manager
+## Notification regarding change of project manager
 
 When there is a change in the manager of your project, an update is made to the Project manager field of the project record.
 
@@ -94,45 +70,29 @@ When there is a change in the manager of your project, an update is made to the 
 
 ## Notification for other updates to the project
 
-<table id="table_a3w_1nd_mmb"><thead><tr><th>
+-   **Project's status**
 
-Notification
+    When an update is made to the Status field of the project, a notification including the project URL is sent to your project channel.
 
-</th><th>
+-   **RIDAC records**
 
-Information
+    You receive notifications in your project channel when a new RIDAC record is added to or an existing RIDAC record is updated in the project for the following scenarios. With every notification, you receive a direct URL to the corresponding record.
 
-</th></tr></thead><tbody><tr><td>
+    -   Risk
+        -   New risk is created with the priority field set to **High** or **Absolute**
+        -   Updates are made to the State or Risk status fields for an existing risk
+    -   Issue, Decision, Action, and Change request
+        -   New record is created with the priority field set to **1-Critical** or **2-High**
+        -   Priority of an existing record is updated to **1-Critical** or **2-High**
+-   **Milestones**
 
-Project's status
+    Whenever a key milestone is closed, you are notified about the closure and the user who closed it, with a direct URL to the milestone task.
 
-</td><td>
 
-When an update is made to the Status or State fields of the project, a notification including the project URL is sent to your project channel.
+**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/using-project-management.md)
 
-</td></tr><tr><td>
+**Related topics**  
 
-RIDAC records
 
-</td><td>
-
-You receive notifications in your project channel when a new RIDAC record is added to or an existing RIDAC record is updated in the project for the following scenarios. With every notification, you receive a direct URL to the corresponding record.
-
--   Risk
-    -   New risk is created with the Probability field set to **High** or **Absolute**
-    -   The Probability field for an existing risk is updated to **High** or **Absolute**
--   Issue, Decision, Action, and Change request
-    -   New record is created with the priority field set to **1-Critical** or **2-High**
-    -   Priority of an existing record is updated to **1-Critical** or **2-High**
-
-</td></tr><tr><td>
-
-Key milestone/ milestone
-
-</td><td>
-
-Whenever a key milestone or milestone task is Closed Complete, Closed Incomplete, and Closed Skipped, you are notified about the closure and the user who closed it, with a direct URL to the milestone task.
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/using-project-management.md)
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-collab-overview.md)
 

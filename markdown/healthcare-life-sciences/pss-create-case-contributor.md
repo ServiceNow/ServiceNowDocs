@@ -1,16 +1,16 @@
 ---
-title: Creating enrollment cases as a contributor
+title: Create enrollment cases as a contributor
 description: Create enrollment cases for your patients from a service portal as a user with the contributor profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-create-case-contributor.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Creating enrollment cases as a contributor
+# Create enrollment cases as a contributor
 
 Create enrollment cases for your patients from a service portal as a user with the contributor profile.
 

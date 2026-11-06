@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: concept
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -20,7 +20,7 @@ You can define service endpoints, query parameters, schemas,and headers for a sc
 
 Scripted REST APIs generally follow the REST architecture, but you can customize them to use different conventions. You define scripted REST APIs using the Scripted REST Service form found under **Scripted Web Services** → **Scripted REST APIs**.
 
-\[Omitted image "scripted-REST-service-form-new.png"\] Alt text: Scripted REST Service form
+\[Omitted image "scripted-REST-service-form-new.png"\] Alt text: Scripted REST service form
 
 The following videos offer additional information about scripted REST APIs:
 
@@ -84,8 +84,6 @@ Use the API access policy feature to control the authentication method for the A
 ## Scripted REST API access controls
 
 Access control lists \(ACLs\) define criteria, such as the roles needed and conditions that a user must meet to access a scripted REST API or endpoint. A requesting user must satisfy at least one of the ACLs. It is not necessary to satisfy all selected ACLs. You can define a single ACL for an entire REST API or for an individual endpoint.
-
-**Note:** By default, scripted REST APIs contain an ACL that prohibits users with the snc\_external role from making requests to the API.
 
 When defining a scripted REST API ACL, it must have the **Type** value **REST\_Endpoint**.
 

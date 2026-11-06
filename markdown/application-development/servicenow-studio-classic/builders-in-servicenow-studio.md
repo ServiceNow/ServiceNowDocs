@@ -1,38 +1,44 @@
 ---
 title: Builders in ServiceNow Studio
-description: Builders are specialized tools that provide an intuitive and efficient interface for editing metadata records primarily associated with tables extending sys\_metadata. In ServiceNow Studio, you can use builders to create a variety of file types to support your app development.
+description: Builders are specialized tools in ServiceNow Studio for editing metadata records associated with tables that extend sys\_metadata. Use builders to create and edit file types such as decision tables, flows, and forms as part of your app development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/builders-in-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Builders in ServiceNow Studio
 
-Builders are specialized tools that provide an intuitive and efficient interface for editing metadata records primarily associated with tables extending sys\_metadata. In ServiceNow Studio, you can use builders to create a variety of file types to support your app development.
+Builders are specialized tools in ServiceNow Studio for editing metadata records associated with tables that extend sys\_metadata. Use builders to create and edit file types such as decision tables, flows, and forms as part of your app development.
 
-Builders focus on enhancing user experience by offering features such as inline editing, customizable views, and integrated collaboration. Each builder remains agnostic of design libraries or implementations, ensuring adaptability to evolving technologies and frameworks.
+Builders provide features such as inline editing, customizable views, and integrated collaboration. Each builder is independent of specific design libraries or implementations, so it adapts to different technologies and frameworks.
 
-When you open files like decision tables, flows, or tables in ServiceNow Studio, the files open in an integrated tab in their designated builder tool. Some other file types like mobile app configurations open in a new browser tab. Note that you must create or open a file or application to access a builder. You cannot open builders on their own in ServiceNow Studio.
+When you open files such as decision tables, flows, or tables in ServiceNow Studio, the files open in a new tab in their designated builder. Some file types, such as mobile app configurations, open in a new browser tab. To access a builder, you must first open a file or application — builders cannot be opened independently in ServiceNow Studio.
 
 For a full list of the builders integrated in ServiceNow Studio, see [Integrated development tools for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/integrated-development-tools.md).
 
-## How builders open in ServiceNow Studio
+## How do builders open in ServiceNow Studio?
 
-Decision tables and many other types of automations open in integrated tabs.
+Decision tables and most other automation file types open in new tabs within ServiceNow Studio.
 
-\[Omitted image "sn-studio-builder-decision-table.png"\] Alt text: Decision tables are built in the Workflow Studio builder.
+\[Omitted image "sn-studio-builder-dt-bs1.png"\] Alt text: Decision tables open in the Workflow Studio builder in ServiceNow Studio.
 
-Mobile App Builder opens in a new tab.
+Mobile App Builder opens in a new browser tab.
 
 \[Omitted image "sn-studio-builder-mobile.png"\] Alt text: When you open Mobile App Builder, it opens in a new browser tab.
 
-When you open some tools like Table Builder, you may see a short tutorial to help you learn the tool.
+Some builders, such as Table Builder, display a short tutorial when you first open them.
 
-\[Omitted image "sn-studio-builder-tutorial.png"\] Alt text: Some builders have a short tutorial that helps you learn the tool.
+\[Omitted image "sn-studio-builder-tutorial.png"\] Alt text: Some builders display a short tutorial when you first open them.
+
+## How does scope work with builders?
+
+Some builders override automatic scope switching. For example, when you use Table Builder to edit a form or table file, a message indicates that the scope is controlled by the builder.
+
+\[Omitted image "sn-studio-scope-builder.png"\] Alt text: Some builders control the scope for apps open in ServiceNow Studio.
 

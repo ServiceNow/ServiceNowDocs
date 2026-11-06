@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 47
+last_updated: "2026-09-10"
+reading_time_minutes: 49
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -17,6 +17,23 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 The DecisionTableAPI class enables you to access Decision Tables data in scoped and global server-side scripts.
 
 To access DecisionTableAPI methods, use the `sn_dt` namespace. You must have the decision\_table\_crud\_api role to use this API. To learn more about Decision Tables, see [Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/decision-table.md).
+
+## Date/Time inputs
+
+When using date/time inputs in a decision table, values passed to DecisionTableAPI must be provided in the ServiceNow dateTime format:
+
+```
+yyyy-MM-dd HH:mm:ss
+
+```
+
+Date/time values are processed without applying time zone conversion. All comparisons are performed using the internal UTC representation of the dateTime value.
+
+As a result:
+
+-   Decision table inputs don't support time zone offsets.
+-   The system doesn't apply user and system timezones during evaluation.
+-   `between` conditions compare the literal dateTime values exactly as provided.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
@@ -3140,6 +3157,44 @@ Output:
 
 Evaluates a decision table based on the provided inputs and returns an answer. If no inputs are provided, returns the first default answer found.
 
+### Input and condition behavior
+
+When `getDecision()` executes, the Decision Table engine evaluates the provided input values against the configured conditions and returns the matching result rows.
+
+For inputs of type Date / Time, values must be provided in the internal ServiceNow datetime format:
+
+```
+yyyy-MM-dd HH:mm:ss
+
+```
+
+The system evaluates Date / Time values as absolute date-time values. The system doesn't apply time zone information during evaluation.
+
+### Between operator behavior for Date / Time inputs
+
+When a condition uses the between operator with a Date / Time input, the system compares the input value directly to the configured start and end values.
+
+The comparison:
+
+-   Uses the literal datetime values provided
+-   Ignores user, system, or session timezone adjustments
+-   Evaluates boundary values exactly as the condition defines them
+
+Script example to normalize inputs to UTC before running `getDecision()`:
+
+```
+// Normalize a user-provided datetime to UTC before calling getDecision()
+var gdt = new GlideDateTime();
+gdt.setDisplayValue("2025-04-07 09:00:00"); // user-local display value
+
+var inputs = {
+    effective_time: gdt.getValue() // UTC value: yyyy-MM-dd HH:mm:ss
+};
+
+var dt = new sn_dt.DecisionTableAPI();
+var result = dt.getDecision("my_decision_table", inputs);
+```
+
 <table id="table_e3m_w5c_hhb" class="parameters"><thead><tr><th>
 
 Name
@@ -3219,6 +3274,44 @@ var user = response.result_elements.u_user;
 
 Evaluates a decision table based on the provided inputs and returns all correctly evaluated answers. If no inputs are provided, returns all default answers.
 
+### Input and condition behavior
+
+When `getDecision()` executes, the Decision Table engine evaluates the provided input values against the configured conditions and returns the matching result rows.
+
+For inputs of type Date / Time, values must be provided in the internal ServiceNow datetime format:
+
+```
+yyyy-MM-dd HH:mm:ss
+
+```
+
+The system evaluates Date / Time values as absolute date-time values. The system doesn't apply time zone information during evaluation.
+
+### Between operator behavior for Date / Time inputs
+
+When a condition uses the between operator with a Date / Time input, the system compares the input value directly to the configured start and end values.
+
+The comparison:
+
+-   Uses the literal datetime values provided
+-   Ignores user, system, or session timezone adjustments
+-   Evaluates boundary values exactly as the condition defines them
+
+Script example to normalize inputs to UTC before running `getDecision()`:
+
+```
+// Normalize a user-provided datetime to UTC before calling getDecision()
+var gdt = new GlideDateTime();
+gdt.setDisplayValue("2025-04-07 09:00:00"); // user-local display value
+
+var inputs = {
+    effective_time: gdt.getValue() // UTC value: yyyy-MM-dd HH:mm:ss
+};
+
+var dt = new sn_dt.DecisionTableAPI();
+var result = dt.getDecision("my_decision_table", inputs);
+```
+
 <table id="table_e3m_w5c_hhb" class="parameters"><thead><tr><th>
 
 Name
@@ -3253,10 +3346,10 @@ Map
 
 </td><td>
 
-Optional. Input values for the Decision Inputs \[sys\_decision\_input\] table associated with the provided decision table. If no inputs are provided, returns all default answers.**Note:** All inputs and column names must follow the following format:
+Optional. Input values for the Decision Inputs \[sys\_decision\_input\] table associated with the decision table. If you provide no inputs, returns all default answers.**Note:** All inputs and column names must follow this format:
 
--   be all lower case and prefixed with a `u_`
--   blank spaces are replaced with `_`
+-   Use all lowercase and prefix with u\_
+-   Replace blank spaces with \_
 
 For example,
 
@@ -3282,9 +3375,9 @@ Array
 
 </td><td>
 
-List of answer records in GlideRecord format. An answer record is a record on any table associated with a Decision \[sys\_decision\_question\] record. -   If no inputs are provided, returns all default answers.
--   If no default or correctly evaluated answers are found, returns an error.
--   If the decision table supports multiple answers, each answer is listed in the **result\_elements** field.
+List of answer records in GlideRecord format. An answer record is a record on any table associated with a Decision \[sys\_decision\_question\] record. -   If you provide no inputs, returns all default answers.
+-   If the system finds no default or correctly evaluated answers, returns an error.
+-   If the decision table supports multiple answers, the **result\_elements** field lists each answer.
 
 </td></tr></tbody>
 </table>```

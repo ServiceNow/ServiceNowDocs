@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Pull a version
 
 Pulling retrieves versions of customized records from the parent instance and adds them on the development instance. Pulling does not retrieve any versions for changes made by system upgrades, but it retrieves all versions for changes made by users, not just the current version.
+
+## Before you begin
+
+Role required: none
 
 ## About this task
 
@@ -34,6 +38,4 @@ Pulling retrieves all versions for changes made by users that have not already b
 
 4.  Resolve any collisions.
 
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

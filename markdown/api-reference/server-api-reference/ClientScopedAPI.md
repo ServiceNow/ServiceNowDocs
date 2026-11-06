@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -97,16 +97,15 @@ new sn_clotho.Client().accumulate(dataBuilder1, 0);
 
 var dataBuilder2 = new sn_clotho.DataBuilder(building_a, "total_power");
 // values to be accumulated
-dataBuilder2.add(time, 3.5);
+dataBuilder2.add(time, 12);
 new sn_clotho.Client().accumulate(dataBuilder2, 0);
 
 var dataBuilder3 = new sn_clotho.DataBuilder(building_a, "total_power");
 // values to be accumulated
-dataBuilder3.add(time, 3.5);
+dataBuilder3.add(time, 4.3);
 new sn_clotho.Client().accumulate(dataBuilder3, 0);
 
-// As a result of these operations client will save value of
-// 3.5+12+4.3+0(default value) at the timestamp 'time'
+// As a result, client saves value of 3.5+12+4.3+0(default value) at the timestamp 'time'
 ```
 
 ## Client - deleteMetric\(String tableName, String metricName\)

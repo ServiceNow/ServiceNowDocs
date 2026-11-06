@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,17 +28,11 @@ Before you can begin using the Security Analyst Workspace, you must ensure that 
 
 To access this new workspace, navigate to **Security Incident** &gt; **Incidents \(New UI\)**.
 
-\[Omitted image "nav-bar.png"\] Alt text: Security Incident navigation bar
-
 The workspace opens in a separate browser tab.
-
-\[Omitted image "new-ui.png"\] Alt text: All open Security Incidents
 
 ## Locate the security incidents you want to analyze with Quick Filters
 
 The Security Analyst Workspace provides several tools for filtering the list of security incidents so you can quickly find the security incidents you want to analyze. The Quick Filters let you select a subset of the security incidents based on criteria in the filter.
-
-\[Omitted image "quick-filters.png"\] Alt text: Quick filters
 
 Simply click the quick filter you want to use.
 
@@ -50,17 +44,11 @@ You can define additional quick filters, as well as primary filters for the Secu
 
 As with all lists in your instance, the Security Analyst Workspace provides tools for personalizing the list and sorting the information displayed to meet your analysis needs.
 
-\[Omitted image "si-filter-options.png"\] Alt text: Security incident list filtering options
-
 ## Save time with Peek view
 
 Before opening a security incident record, you can save time using the Peek view. This feature allows you to quickly locate vital security artifacts without having to reload the entire page. Simply click the **&gt;** icon to the left of a security incident number to take a peek.
 
-\[Omitted image "peek-view.png"\] Alt text: Security incident showing the peek view
-
 The peek view provides a snapshot of vital information in a single view. This view can save valuable time when you are working with multiple incidents. You can click the down arrows on certain fields to make on-the-fly updates, such as assigning an assignment group or a specific analyst.
-
-\[Omitted image "peek-details.png"\] Alt text: Peek details
 
 ## Perform quick actions on a security incident
 
@@ -74,13 +62,9 @@ After you have selected and opened a specific security incident, you can perform
 
 -   Click **More** to view a quick snapshot of the security incident, such as the description, business impact, and priority. You can also click the down-arrow in the **Assignment group** and **Assigned to** fields to make on-the-fly changes to those fields.
 
-\[Omitted image "quick-actions.png"\] Alt text: Quick actions
-
 ## Work with multiple security incidents
 
 The tabbed interface allows you to keep several security incidents open simultaneously so you can switch between them with a single click. This can save time and allow you to see the big picture when threats from multiple sources are identified.
-
-\[Omitted image "tabbed-interface.png"\] Alt text: Security incident tabbed interface
 
 ## View analysis information in the security incident tabs
 
@@ -94,17 +78,11 @@ When you open a security incident record, three tabs are shown:
 
 Use the **Overview** tab to view information in a security incident in a single location. No need to open another application or console.
 
-\[Omitted image "overview-tab.png"\] Alt text: Overiew tab
-
 The tiles that are displayed on the **Overview** tab are customizable. You can collapse and expand them as needed, and you can move them around by dragging the **Grip** icon. Click the **More options** icon to delete a tile or change its heading text.
-
-\[Omitted image "work-notes-drag.png"\] Alt text: Getting around the Overview tab.
 
 ## Explore tab
 
 Configure the tiles displayed on the **Overview** tab using the **Explore** tab. Simply select the tiles you want to view from the left-hand pane, and click the **Pin** icon. Pinned tiles automatically appear in the **Overview** tab.
-
-\[Omitted image "pin-to-overview.png"\] Alt text: Pin to Overview
 
 The left-hand pane of the **Explore** tab includes a wide variety of information that you can display on the **Overview** tab. For example, expand **Observables** to display these related lists.
 
@@ -124,8 +102,6 @@ Use the **Incident Timeline** tab during your investigation for tracking purpose
 -   You can search for a specific timeline activity using the Search box.
 -   The **Filter Activity** icon allows you to display only the types of timeline activity you want to see \(for example, only incidents created by a specific analyst\).
 -   You can add or remove the Incident Timeline from the **Overview** tab using the **Pin/Unpin** icon.
-
-\[Omitted image "incident-timeline-tab.png"\] Alt text: Incident Timeline
 
 ## Handle security incidents using the Playbook
 

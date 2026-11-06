@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
 ---
@@ -18,13 +18,11 @@ You can activate the REST API Access Policy plugin \(com.glide.rest.policy\) if 
 
 ## Before you begin
 
-Role required: admin.
-
 ## About this task
 
 The following items are installed with REST API Access Policy:
 
--   Plugins: com.gilde.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
+-   Plugins: com.glide.auth.profile, com.snc.adaptive\_authentication, com.snc.platform.security.oauth
 -   Tables: sys\_api\_access\_policy, sys\_auth\_profile\_mapping, auth\_policy\_mapping, inbound\_auth\_profile, std\_http\_auth.
 
 For more information, see [Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/adaptive-authentication.md).

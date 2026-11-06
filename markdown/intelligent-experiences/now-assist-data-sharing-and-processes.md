@@ -1,0 +1,27 @@
+---
+title: Data sharing and processes
+description: Data sharing and processes topic description.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-sharing-and-processes.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+---
+
+# Data sharing and processes
+
+Data sharing and processes topic description.
+
+-   **[Configure Now Assist privacy policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-privacy-policies.md)**  
+Configure privacy policies to anonymize data in Now Assist.
+-   **[Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md)**  
+Data sharing improves ServiceNow AI products. You can opt out of data sharing from the Now Assist Admin console Settings page.
+-   **[Configure Now Assist data overflow processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-na-data-overflow.md)**  
+Configure where Now Assist data is processed during periods of high traffic.
+-   **[Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/assign-data-steward-role.md)**  
+Select a data steward to make decisions about data sharing with ServiceNow in Now Assist applications.
+
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
+

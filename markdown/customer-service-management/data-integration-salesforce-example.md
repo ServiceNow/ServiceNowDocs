@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/data-integration-salesforce-example.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Reference Salesforce integration using remote tables

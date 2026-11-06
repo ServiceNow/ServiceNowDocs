@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2026-04-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -34,7 +34,7 @@ Role required: admin
 
     **Note:**
 
-    In the ServiceNow Store, you must verify that you have entitlements \(or licenses\) to the application and its dependent applications.
+    In the ServiceNow Store, you must verify that you have entitlements \(or licenses\) to the application and its dependent applications. After you have logged in, you can use the menu in the upper right with your initials to manage entitlements and opt-in.
 
     If you want to use a version of this application that is compatible with Unified Security Exposure Management \(USEM\), see [Migrating from Vulnerability Response to Unified Security Exposure Management \(USEM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/migrating-to-usem.md) for more information about USEM and the Unified Security Exposure Management migration.
 
@@ -44,7 +44,7 @@ Role required: admin
 
 6.  Log in to the ServiceNow AI Platform instance where you want to install the application.
 
-7.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
+7.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 8.  From the applications listed, locate the application, select a version from the list, and select **Install**.
 

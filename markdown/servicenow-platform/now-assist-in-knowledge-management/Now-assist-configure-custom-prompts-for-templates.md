@@ -1,30 +1,30 @@
 ---
-title: Configure skills with custom prompts for knowledge article templates
-description: Now Assist in Knowledge Management has extended the out-of-box \(OOB\) KB generation skill to create custom prompts for OOB and custom knowledge article templates.
+title: Configure custom prompts for knowledge article templates
+description: ServiceNow Otto in Knowledge Management has extended the out-of-box \(OOB\) KB generation skill to create custom prompts for OOB and custom knowledge article templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-in-knowledge-management/Now-assist-configure-custom-prompts-for-templates.html
 release: yokohama
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2025-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure skills with custom prompts for knowledge article templates
+# Configure custom prompts for knowledge article templates
 
-Now Assist in Knowledge Management has extended the out-of-box \(OOB\) KB generation skill to create custom prompts for OOB and custom knowledge article templates.
+ServiceNow Otto in Knowledge Management has extended the out-of-box \(OOB\) KB generation skill to create custom prompts for OOB and custom knowledge article templates.
 
 ## Before you begin
 
-In the form configuration of the article record, admin must check for the availability of **Knowledge Gen AI Message** and **Knowledge Now Assist Modal**. If they aren’t present, admin must add them from the **Available** to the **Selected** list.
+In the form configuration of the article record, admin must check for the availability of **Knowledge Gen AI Message** and **Knowledge ServiceNow Otto Modal**. For OOB configurations, they are automatically added to the form view configurator. However, for customized configurations, the admin must add them manually. To do so, navigate to the form layout from the header of the knowledge article \(kb\_knowledge.do\) and add them from **Available** list to the **Selected** list and save. Navigate to Cache \(cache.do\) and clear cache.
 
 Role required: sn\_skill\_builder.admin, sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-To create custom prompts for OOB and custom knowledge article templates, clone the existing KB generation skill, from the Now Assist skill Kit \(NASK\). For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Configuration of the skill happens in three steps:
+To create custom prompts for OOB and custom knowledge article templates, clone the existing KB generation skill, from the AI skill kit. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md) Configuration of the skill happens in three steps:
 
 -   Clone the OOB KB generation skill
 -   Prompt configuration
@@ -32,11 +32,9 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Home**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
 2.  In the **ServiceNow skills** tab, search for KB generation skill.
-
-    \[Omitted image "NASK.png"\] Alt text: Select KB generation skill to be cloned.
 
 3.  Open the KB generation skill associated with the workflow \(ITSM, CSM, and so on\) that you want to configure.
 
@@ -46,15 +44,9 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 5.  In the **Clone skill** window, fill the required fields and select **Clone**.
 
-    \[Omitted image "Clone\_skill.png"\] Alt text: Enter the name of the skill and provider details.
-
 6.  On the success message window, select **Open Cloned Skill**.
 
-    \[Omitted image "Cloned\_success.png"\] Alt text: Select Open cloned skill
-
 7.  On the cloned skill page, navigate to the **Prompts** menu and select the **Add** icon.
-
-    \[Omitted image "Add\_prompt.png"\] Alt text: Select Add from Prompts menu
 
 8.  In the **Add prompt** table, fill the required fields as follows and select **Add**.
 
@@ -72,18 +64,16 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
     For more, see [Evaluate a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/evaluate-prompt.md)
 
-12. Select the **Settings** icon to open the **Configurations** settings panel.\[Omitted image "Config\_settings.png"\] Alt text: Select configuration settings
+12. Select the **Settings** icon to open the **Configurations** settings panel.
 
 13. Scroll down to **Usage conditions** and select the **Add** icon to define the conditions on when to use the prompt based on inputs.
-
-    \[Omitted image "Usage-conditions.png"\] Alt text: Add usage conditions.
 
 14. Fill in the **Key** and **Value** fields to build filters in the **Usage conditions** modal and select **Apply**.
 
     |Key|Value|
     |---|-----|
     |`prompt_type`|Type single or multi|
-    |`source_table`|Incident or case|
+    |`source_table`|Type the table name for the configured skill. For example, if you are working on cloned KB Generation skill for CSM then table name should be sn\_customerservice\_case.|
     |`target_table`|Type name of the template table|
 
 15. Select **Finalize prompt**.
@@ -92,27 +82,21 @@ To create custom prompts for OOB and custom knowledge article templates, clone t
 
 16. Repeat the steps 8 to 15 to create prompts for MultiKB articles.
 
-    **Note:**
-
-    Finalize the prompts for both single KB and multi KB articles and only then publish the skill.
+    **Note:** Custom prompts are configured per template. Repeat steps 8 to 15 for each template, and finalize prompts for both single KB and multi-KB articles before publishing the skill.
 
 17. Select **Publish** to publish the prompts for both single KB and multi-KB articles.
 
-    \[Omitted image "Publish-skill.png"\] Alt text: Select finalized prompts to be included in the published skill.
+    The skill is published and available in the **AI Admin** page for the selected workflow. Activate the skill to make it available for article generation.
 
-    The skill is published and available in the **Now Assist Admin** page for the selected workflow. However, the skill must be activated to be available for use during article generation from Now Assist.
+18. To activate the skill, navigate to **AI Admin** and select **Link to NAA** in the **Skill published** window.
 
-18. To activate the skill, navigate to **Now Assist Admin** and select **Link to NAA** in the **Skill published** window.
+19. Select **Activate skill** to activate the copied skill.
 
-19. Select **Activate skill** to activate the cloned skill.
-
-    \[Omitted image "Activate-skill.png"\] Alt text: Activate the KB generation skill.
-
-    The KB generation skill for Now Assist is activated and ready to use the custom templates as defined by the prompt.
+    The KB generation skill is activated and ready to use the custom templates defined by the prompt.
 
 
 -   **[Guidelines for creating prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/guidelines-for-creating-prompts.md)**  
-The guidelines help to write prompts for Out-of-Box \(OOB\) and custom knowledge article templates. Follow these instructions to create ideal prompts that optimize the use of AI models for generating knowledge articles.
+Guidelines for writing prompts for out-of-box \(OOB\) and custom knowledge article templates to optimize the use of AI models for generating knowledge articles.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
 

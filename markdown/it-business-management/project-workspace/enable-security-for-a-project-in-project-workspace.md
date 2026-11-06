@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring security for a project in Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring security for a project in Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Enable security for a project in Project Workspace
@@ -24,9 +24,9 @@ Role required: admin
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Details page of the project by selecting **Details** from the list.
 
@@ -41,17 +41,21 @@ Role required: admin
 
     You need to specify at least one user or user group for access.
 
+    The confidential project can be accessed by **Allowed users**, **Allowed groups**, the **Assigned to** user, **Additional assignee**, the **Project Manager**, and the administrator.
+
 5.  Select **Save**.
 
-    Once you make the project confidential, the confidentiality setting is applied to the project, all sub projects, and entities such as cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, expense lines, time cards, status reports, baselines, story, investment object, project tasks, resource plan, resource assignments, and RIDAC.
+    The confidentiality setting is applied to the project and all sub projects.
+
+    The setting also applies to related entities: cost plans, cost plan breakdowns, benefit plans, benefit plan breakdowns, expense lines, time cards, status reports, baselines, story, investment object, project tasks, resource plan, resource assignments, and RIDAC.
 
     These will only be accessible to individuals who have been explicitly added to the project.
 
     This setting applies to all associated workspaces. If the project is marked confidential in one workspace, it is automatically made confidential across all other workspaces, including:
 
-    -   **Project Management Workspace**
-    -   **Resource Management Workspace**
-    -   **Strategic Portfolio Workspace**
+    -   Project Management Workspace
+    -   Resource Management Workspace
+    -   Strategic Portfolio Workspace
 
 **Parent Topic:**[Configuring security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configuring-security-for-a-project-in-pw.md)
 

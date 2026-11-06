@@ -1,20 +1,20 @@
 ---
 title: Triggers for cloud policies
-description: Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule and performs the actions specified in the rule, if the conditions are met.
+description: Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule. If the conditions are met, the engine performs the actions specified in the rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/policy-triggers-cloud-mgt.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Triggers for cloud policies
 
-Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule and performs the actions specified in the rule, if the conditions are met.
+Triggers are events that set the policy engine in motion. For example, the on Catalog item request end trigger fires after a user submits a request form. When the trigger for a policy fires, the policy engine tests the conditions specified in the policy rule. If the conditions are met, the engine performs the actions specified in the rule.
 
 ## About triggers
 
@@ -70,7 +70,7 @@ Approval triggers
 
 </td><td>
 
-A cloud approval policy specifies the users who must approve a specified cloud activity before the activity can proceed. Approvers can include the manager of the user making a request, a specified user or group, or users with a specified role. You can specify multiple approvers. Approvals occur in the order that you specify. A policy that is triggered by one of the approval triggers can start approval workflows. The targeted approval policies complement the base-system approval operations.
+A cloud approval policy specifies the users who must approve a specified cloud activity before the activity can proceed. Approvers can include the manager of the user making a request, a specified user or group, or users with a specified role. You can specify multiple approvers. Approvals occur in the order that you specify. A policy that is triggered by one of the approval triggers can start approval subflows. The targeted approval policies complement the base-system approval operations.
 
  **Note:** The approval process is performed after properties are set because property values that were overridden could change costs.
 
@@ -80,9 +80,9 @@ A cloud approval policy specifies the users who must approve a specified cloud a
 
  Use on Stack resource operation \(approval\) to run an approval workflow when an operation is performed on a single resource that is part of a stack. By default, a change request is generated when an operation is performed on a stack, but it does not require an approval. This trigger can launch a mandatory approval.
 
- A policy that is triggered by the on Task Remediation trigger can start approval workflows.
+ A policy that is triggered by the on Task Remediation trigger can start approval subflows.
 
- [Create an action for an 'approval' policy]()
+ [Create an action for an approval policy]()
 
 </td></tr><tr><td>
 
@@ -112,7 +112,7 @@ on Catalog item request start
 
 </td><td>
 
-The on Catalog item request start trigger fires after the user opens a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a workflow.
+The on Catalog item request start trigger fires after the user opens a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
 
  You can use this trigger to run a custom script or workflow to fulfill enterprise processes like custom approval before the catalog item request is processed.​
 
@@ -129,7 +129,7 @@ on Catalog item request end
 
 </td><td>
 
-The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a workflow.
+The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
 
  Use this trigger to launch a workflow after a catalog item request is processed. Consider this trigger a post-provisioning step. For example, you could launch a workflow to install MySQL on the provisioned resource.
 
@@ -209,5 +209,4 @@ on Resource operation
 The on Resource operation trigger fires during the Orchestration process when a user performs a Start, Stop, or Deprovision life cycle operation on a specific resource. A policy that is triggered by the on Resource operation trigger can override a user-requested attribute value, run a script, call a Cloud API, or perform an IP address management operation. [Create an action for an 'on Resource operation' policy]()
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Policies for Cloud Provisioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cloud-policy.md)
-
+</table>

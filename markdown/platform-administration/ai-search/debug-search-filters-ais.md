@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ Enable session debugging for AI Search to view debug log messages for search sou
 
     The Session Log opens.
 
-3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ai-search-preview.md) to submit the search query of interest.
+3.  Use the [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/ai-search-preview.md) to submit the search query of interest.
 
     **Note:** To debug content security filters for another user, specify their name in the Search Preview UI's user impersonation tool.
 

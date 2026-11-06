@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Leader Hub Metric Configurations table

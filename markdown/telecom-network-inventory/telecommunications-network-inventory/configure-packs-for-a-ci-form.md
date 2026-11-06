@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring an attribute pack table, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Attribute pack table, Configure, Telecommunications Network Inventory]
 ---
 
 # Configure an attribute pack table against a configuration item
@@ -19,7 +19,7 @@ Configure an attribute pack table against a configuration item \(CI\) with filte
 ## Before you begin
 
 -   Make sure that the Attribute Pack plugin is installed with the Telecommunications Network Inventory application.
--   Create a pack table with a set of attributes. To learn more, see [Create an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md).
+-   Create a pack table with a set of attributes. To learn more, see [Create table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md).
 
 Role required: admin, sn\_ni\_core.inventory\_admin
 
@@ -116,5 +116,5 @@ Use the pack tables in the CI record. To learn more, see [Use an attribute pack 
 **Related topics**  
 
 
-[Create an attribute pack table]()
+[Create table]()
 

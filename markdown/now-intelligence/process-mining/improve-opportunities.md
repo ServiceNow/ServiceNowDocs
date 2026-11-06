@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
 # Set improvement opportunities
@@ -18,7 +18,7 @@ Set improvement opportunities to find areas of improvement by which teams could 
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## About this task
 
@@ -49,7 +49,7 @@ There are two types of improvement opportunities that could be set up:
 
     For more information on rule-based improvement opportunity, see [Set rule-based improvement opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/rule-based-builder.md).
 
-    For more information on automated improvement opportunity, see [Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/automated-findings.md).
+    For more information on automated improvement opportunity, see [Setting Automated improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/automated-findings.md).
 
 6.  To edit an improvement opportunity, select the improvement opportunity and edit the details.
 

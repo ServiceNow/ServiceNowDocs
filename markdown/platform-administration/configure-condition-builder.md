@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/configure-condition-builder.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Condition field types, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Condition field types, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Update a conditions field to use condition builder v2
@@ -34,7 +34,7 @@ You add a dictionary attribute to the Conditions field to enable condition build
 
     If attributes exist, add this string at the end separated by a comma.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     The form reloads with the v2 version of the condition builder.
 

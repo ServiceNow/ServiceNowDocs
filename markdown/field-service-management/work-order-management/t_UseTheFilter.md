@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage tasks on the map, Execute a task from the agent map, Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing tasks, Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Customize the display of task information on the agent map
@@ -28,15 +28,15 @@ Role required: wm\_agent
 
 3.  Change the filter settings as needed.
 
-<table id="choicetable_jh3_jhn_kfb"><thead><tr><th align="left" id="d128694e96">
+<table id="choicetable_jh3_jhn_kfb"><thead><tr><th align="left" id="d145756e107">
 
 Option
 
-</th><th align="left" id="d128694e99">
+</th><th align="left" id="d145756e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128694e105">
+</th></tr></thead><tbody><tr><td id="d145756e116">
 
 **Date**
 
@@ -44,7 +44,7 @@ Description
 
 Displays the current date. Select a different date to view task assignments for that day.
 
-</td></tr><tr><td id="d128694e114">
+</td></tr><tr><td id="d145756e125">
 
 **Show my location**
 
@@ -52,7 +52,7 @@ Displays the current date. Select a different date to view task assignments for 
 
 Displays your current location on the map with an agent location icon. Clear the check box to remove this icon from the map. If the system cannot locate you automatically by mobile device, it uses the location of a continuing task or the home office.
 
-</td></tr><tr><td id="d128694e126">
+</td></tr><tr><td id="d145756e137">
 
 **Show routing numbers**
 
@@ -60,7 +60,7 @@ Displays your current location on the map with an agent location icon. Clear the
 
 Displays the routing numbers for the tasks dispatched for the date selected in the calendar. Clear the check box to hide the routing numbers.
 
-</td></tr><tr><td id="d128694e135">
+</td></tr><tr><td id="d145756e146">
 
 **Assigned**
 
@@ -68,7 +68,7 @@ Displays the routing numbers for the tasks dispatched for the date selected in t
 
 Displays all assigned tasks for the selected date. Clear the checkbox to hide assigned tasks.
 
-</td></tr><tr><td id="d128694e145">
+</td></tr><tr><td id="d145756e156">
 
 **Unassigned**
 
@@ -82,6 +82,4 @@ Displays all unassigned tasks for the selected date. Clear the checkbox to hide 
     -   To apply the changes to the configuration, click **Apply**.
     -   To cancel the changes made to the configuration, click **Cancel**.
     -   To optimize the agent's task route, click **Optimize Route**.
-
-**Parent Topic:**[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageTasksOnTheMap.md)
 

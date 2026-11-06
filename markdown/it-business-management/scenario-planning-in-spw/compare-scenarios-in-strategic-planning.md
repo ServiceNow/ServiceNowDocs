@@ -1,5 +1,5 @@
 ---
-title: Compare scenarios in Strategic Planning
+title: Compare scenarios
 description: Compare scenarios side by side to confirm alignment with primary goals, evaluate comprehensive planning, optimize resource usage, confirm feasibility, and financial information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Compare scenarios in Strategic Planning
+# Compare scenarios
 
 Compare scenarios side by side to confirm alignment with primary goals, evaluate comprehensive planning, optimize resource usage, confirm feasibility, and financial information.
 
 ## Before you begin
 
-Verify that you have created one or more planning scenarios and selected planning items for execution. For more information, see [Create a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.md).
+Verify that you have created one or more planning scenarios and selected planning items for execution. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.md).
 
 Role required:
 
@@ -59,14 +59,14 @@ Role required:
 
     -   All planning items align with primary goals, with no items unassociated, providing a focused strategy that supports the organization's objectives effectively.
     -   The trade-off section includes relevant items, demonstrating comprehensive and inclusive planning that addresses various aspects of the project or initiative.
-    -   The scenario is realistic and achievable, considering current constraints and capabilities, confirming that planned actions can be executed within the given time frame and budget.
+    -   The scenario is realistic and achievable, considering current constraints and capabilities, confirming that planned actions can be executed within the given timeframe and budget.
     -   Better benefit from financial planning using the widgets, Budget vs Target to validate the allocated budget against the set targets, Benefit to identify scenario with better monetary benefit, and Budget Distribution to see the amount of budget allocated to the top four goals.
 7.  Select the **Approve Scenario** button relevant to a scenario to approve it.
 
-    For more information about approving existing scenarios in the Strategic Planning Workspace, see [Approve a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md).
+    For more information about approving existing scenarios in the Strategic Planning Workspace, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md).
 
 
 ## What to do next
 
-[Approve a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
+[Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
 

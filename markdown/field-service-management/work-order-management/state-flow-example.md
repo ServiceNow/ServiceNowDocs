@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing state flows, Configuring work orders, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Customize state flows, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # State flow example

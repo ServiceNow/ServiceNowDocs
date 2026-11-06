@@ -1,5 +1,5 @@
 ---
-title: Create tasks to fulfill an incident
+title: Create tasks to fulfill an OT incident
 description: Create a set of incident tasks to fulfill an Operational Technology \(OT\) incident. Incident tasks help you to split up and categorize the work that is needed to resolve an incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/operational-technology-incident-management/create-ot-incident-task.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
 
-# Create tasks to fulfill an incident
+# Create tasks to fulfill an OT incident
 
 Create a set of incident tasks to fulfill an Operational Technology \(OT\) incident. Incident tasks help you to split up and categorize the work that is needed to resolve an incident.
 
@@ -22,15 +22,19 @@ Role required: sn\_ot\_incident\_write
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
+1.  Navigate to **All** &gt; **Industrial Workspace**.
 
-2.  Open the OT incident record that you want to create a task for.
+2.  Open the Industrial Workspace list view.
 
-3.  In the Incident Tasks related list, select **New**.\[Omitted image "incident-task-new-button.png"\] Alt text: Create new incident task new button.
+3.  Under the OT Incidents list module, select on of the available lists.
 
-    If you don’t see the Incident Tasks related list, you must add it.
+4.  Select the OT incident record that you want to create incident tasks for.
 
-4.  On the form, fill in the fields.\[Omitted image "ot-incident-task-form-new.png"\] Alt text: Operatioonal Technology incident task form.
+5.  In the OT incident record, select the **Incident Tasks** tab.
+
+6.  Select **New**.
+
+7.  On the Create New Operational Technology Incident Task form, fill in the following fields.
 
 <table id="table_jdm_2hn_23b"><thead><tr><th>
 
@@ -102,7 +106,7 @@ Assignment group
 
 </td><td>
 
-Group who works on the incident task. If you leave this field empty, the incident is automatically assigned.
+Group who works on the incident task. If you leave this field empty, the incident is automatically assigned.**Note:** If needed, you can assign OT incident tasks to IT assignment groups.
 
 </td></tr><tr><td>
 
@@ -138,7 +142,7 @@ Work notes list
 
 </td><td>
 
-Users who receive notifications about this incident task when work notes are added. **Note:** You can select the add me icon \[Omitted image "add-me.png"\] Alt text: Add me icon. to add yourself to the work notes list.
+Users who receive notifications about this incident task when work notes are added. **Note:** You can also add yourself to the work notes list.
 
 </td></tr><tr><td>
 
@@ -149,14 +153,12 @@ Work notes
 Information about how to resolve the incident task, or the steps that need to be taken to resolve it, if applicable.
 
 </td></tr></tbody>
-</table>5.  Select **Submit**.
+</table>8.  Select **Save**.
 
 
 ## Result
 
-Now, you can view and edit the incident task in the related OT incident record in the **Incident Tasks** tab on either the ServiceNow AI Platform or in the Industrial Workspace.
-
-You can also view incident tasks in the Industrial Workspace list view in the following places.
+You can view incident tasks in the Industrial Workspace list view in the following places.
 
 -   Incident tasks assigned to you: **OT Tasks** &gt; **Assigned to Me**
 -   Incident tasks assigned to your group: **OT Tasks** &gt; **Assigned to My Groups**

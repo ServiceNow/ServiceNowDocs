@@ -1,5 +1,5 @@
 ---
-title: Restrict flow context read access \[New in Security Center 1.5\]
+title: Restrict flow context read access
 description: Use the com.snc.process\_flow.reporting.require\_flow\_access property to enforce if an additional access check is required for a user to read a flow check.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-flow-context-read-access.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict flow context read access \[New in Security Center 1.5\]
+# Restrict flow context read access
 
 Use the **com.snc.process\_flow.reporting.require\_flow\_access** property to enforce if an additional access check is required for a user to read a flow check.
 
-When the **com.snc.process\_flow.reporting.require\_flow\_access** property is set to the recommended value of true, there is an additional access check for a user trying to read a flow context. There may be minor information disclosure if this property is set to false.
+When the **com.snc.process\_flow.reporting.require\_flow\_access** system property is set to a value of **true**, there is an additional access check for a user trying to read a flow context. A user must have access to the parent flow to be able to read the flow context.
+
+Ensure that the **com.snc.process\_flow.reporting.require\_flow\_access** system property is set to **true**
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 2.7
 -   CVSS score: Low
--   Security risk details: Setting this property to false retains its existing behavior. Setting this property to true enforces the added security layer of read access.
+-   Security risk details: There may be minor information disclosure if this property is not set securely.
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/create-external-aia.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an external AI agent
@@ -15,11 +15,9 @@ breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
 Create external AI agents in AI Agent Studio to connect the ServiceNow AI Platform with third-party agentic AI providers as primary agents.
 
 -   **[Integrating external AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/external-agent-protocols.md)**  
-Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol and manual integration to use in agentic workflows created in AI Agent Studio.
+Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol integration to use in agentic workflows created in the AI Agent Studio.
 -   **[ServiceNow AI agents as secondary agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/secondary-agent.md)**  
 Integrate ServiceNow AI agents into other agentic AI systems, such as Google Cloud or Azure OpenAI.
--   **[Create an external AI agent with manual integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-manual-external-agent.md)**  
-Create an external AI agent by manually integrating a third-party agent in AI Agent Studio to use in agentic workflows.
 -   **[Create an external AI agent with the Agent2Agent protocol](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-a2a-agent.md)**  
 Create external AI agents in AI Agent Studio to connect the ServiceNow AI Platform with third-party agentic AI providers.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up integrations in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Install Universal Task for Service Operations Workspace
@@ -51,7 +51,7 @@ For more information, see [Universal Task in Service Operations Workspace refere
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

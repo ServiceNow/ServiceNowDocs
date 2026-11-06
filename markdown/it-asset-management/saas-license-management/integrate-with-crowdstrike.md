@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with CrowdStrike
@@ -24,7 +24,7 @@ Integrating your Software Asset Management application with the CrowdStrike enab
 |-------|-------------------------------------------------|---------------------|
 |Download consumption|Falcon administrator|Sensor usage scope with read permissions|
 
-This process is applicable for Yokohama Patch 1, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 15.0.8, and Software Asset Management \(sn\_itam\_samp\) 2.1.0 version onwards. If you are on any version for Yokohama below Patch 1, refer [KB1801232](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=ef634dac83935610cdbbc430feaad3d9).
+This process is applicable for Zurich Patch 7, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 17.0.5, and Software Asset Management \(sn\_itam\_samp\) 4.1.0 version onwards.
 
 ## Register a CrowdStrike OAuth application
 
@@ -72,7 +72,7 @@ Create a CrowdStrike integration profile to track software subscriptions and opt
 
 The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) must be installed from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: admin or sam\_integrator
+ServiceNow Role required: sam\_admin or sam\_integrator
 
 **Important:** You must select the **CrowdStrike Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -82,7 +82,7 @@ If you’re using Software Asset Workspace, the option to create the CrowdStrike
 
 **Note:** When upgrading to Yokohama patch 1 with Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 15.0.8 and Software Asset Management \(sn\_itam\_samp\) 2.1.0 store applications installed, you must delete the entitlements for the existing CrowdStrike integration profiles. Then, create entitlements for various CrowdStrike products, such as Falcon Endpoint Protection and Falcon Discover, based on their license metrics. These metrics include Reserved Hourly Average Sensor and Sensor Subscription, which are found under the CrowdStrike license metric group.
 
--   If any existing CrowdStrike profiles are in the **Draft** state, create new integration profiles and delete the existing ones.
+-   If any existing CrowdStrike profiles are in the **Draft** state, create integration profiles and delete the existing ones.
 -   If any existing CrowdStrike profiles are in the **Published** state, their state changes to Draft.
 
 If you are on any version for Yokohama below patch 1, refer [KB1801232](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=ef634dac83935610cdbbc430feaad3d9).
@@ -91,15 +91,15 @@ If you are on any version for Yokohama below patch 1, refer [KB1801232](https://
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d104786e465">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d76040e457">
 
 Interface
 
-</th><th align="left" id="d104786e468">
+</th><th align="left" id="d76040e460">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d104786e474">
+</th></tr></thead><tbody><tr><td id="d76040e466">
 
 **Core UI**
 
@@ -110,7 +110,7 @@ Action
 3.  Select **CrowdStrike Integration Profile**.
 
 
-</td></tr><tr><td id="d104786e516">
+</td></tr><tr><td id="d76040e508">
 
 **Software Asset Workspace**
 
@@ -162,7 +162,7 @@ Type of integration profile. This field is automatically set to CrowdStrike Subs
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for the process to minimize security risks and optimize SaaS licenses.
 
-    **Note:** The **Download consumptions** check box is selected by default and you can't clear it. Verify that the **Subflow** field is set to **CrowdStrike Download Weekly and Hourly Sensor Usage**.
+    **Note:** The **Download consumption** check box is selected by default and you can't clear it. Verify that the **Subflow** field is set to **CrowdStrike Download Weekly and Hourly Sensor Usage**.
 
     For more information about the required roles and scopes, see [Minimal user permissions table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-crowdstrike.md).
 
@@ -172,7 +172,7 @@ Type of integration profile. This field is automatically set to CrowdStrike Subs
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_crowdstrk\_spoke.CrowdStrike**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -248,75 +248,24 @@ OAuth Redirect URL
 
 9.  On the Integration Profile form, proceed with the Workload product mapping by selecting the **CrowdStrike Product Workload Mappings** tab.
 
-    Workload mapping is essential for accurately associating specific products with the types of workloads they manage \(for example, servers, desktops, containers\). This is because CrowdStrike provides data on workloads and not direct product-to-machine connections. With workload mapping, you can correctly count license usage and ensure compliance. The system adds up the relevant workloads for each product based on this mapping, preventing over- or under-counting. This new approach replaces previous methods and aligns with how CrowdStrike now tracks usage, making it easier to manage compliance.
+    **Note:** The software entitlements and software models must be created before proceeding to the next step.
 
+    -   For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md).
+    -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md).
+    -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
     1.  On the CrowdStrike Product Workload Mappings page, select **New**.
 
-        **Note:** The software entitlements and software models must be created before proceeding to the next step.
-
-        -   For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md).
-        -   For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md).
-        -   For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
     2.  On the form, fill in the fields.
 
-<table id="table_mdk_b33_ydc"><thead><tr><th>
+        For further details on the CrowdStrike Product Workload Mapping, see [Create a product workload mapping for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-product-workload-mapping-crowdstrike.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Integration profile
-
-</td><td>
-
-This field is automatically set to the integration profile for which the workload mapping is being created.
-
-</td></tr><tr><td>
-
-Workload
-
-</td><td>
-
-Endpoints are physical or virtual devices, such as a computer, server, laptop, desktop computer, mobile, cellular, container, pod, or virtual machine image.Endpoints are sometimes referred to as workloads.
-
-For example,
-
--   containers
--   public\_cloud\_with\_containers
--   servers\_without\_containers
--   chrome\_os
-
-
-</td></tr><tr><td>
-
-Software model
-
-</td><td>
-
-Profile of the software, which includes publisher, version, and discovery map.
-
-</td></tr><tr><td>
-
-License metric
-
-</td><td>
-
-License metric for the selected software model.-   **Reserved Hourly Average Sensor**: This metric counts the number of unique active endpoints per clock-hour and averages them over a rolling 28-day period. The count of Reserved Hourly Average Sensor Licenses resets at the start of each clock-hour.
--   **Sensor Subscription**: This metric calculates license usage by averaging endpoint counts over four consecutive weeks. Weekly endpoint counts are based on the total number of endpoints consumed in the previous seven days.
-
-
-</td></tr></tbody>
-</table>    3.  Select **Save**.
+    3.  Select **Save**.
 
 10. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
     You can also validate connections before creating CrowdStrike product workload mappings.
 
-    **Important:** You must provide the Workload product mapping before publishing the profile.
+    **Important:** You must create the product workload mapping before publishing the profile.
 
 11. After the connection is verified and the workload product mapping is provided, select **Publish**.
 
@@ -330,6 +279,8 @@ This integration pulls or creates usage records in the CrowdStrike Product Usage
 ### What to do next
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
+
+You can view details on the usage records and workload mappings created with the CrowdStrike integration. For more information, see [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/operations-workspace.md) in the Software Asset Workspace.
 
 Reconciliation also runs on your subscriptions as a scheduled job or on-demand. You can view your reconciliation results in the [License Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-workbench.md) \(Software Asset Management classic application\) or the [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-workbench.md) \(Software Asset Workspace\). Use these results to determine your license compliance position and to remediate any non-compliance.
 

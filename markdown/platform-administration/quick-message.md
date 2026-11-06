@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/quick-message.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure email client, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Composing emails with quick messages

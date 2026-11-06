@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,8 +30,6 @@ Role required: sn\_apw\_advanced.eap\_user
 
     The item type that you see on the screen depends on the configuration for your EAP team. Alternatively, you can choose a different item type from the More options menu.
 
-    \[Omitted image "eap-new-work-item-options.png"\] Alt text: New work item type options.
-
 4.  On the form, fill in the fields.
 
     The fields that you see on the form vary based on the type of work item that you selected.
@@ -47,9 +45,9 @@ You can open the work item from the success message to add more information.
 
 ## What to do next
 
--   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md).
+-   Refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md).
 
-    This feature requires activating the Write planning item skill of ServiceNow Otto for SPM. For more information, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+    This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
 -   [Schedule work items into iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/schedule-work-items-into-iterations-in-eap-backlog.md).
 

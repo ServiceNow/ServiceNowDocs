@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Instantiating your network inventory by using design and assign, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Create a change request from Network Inventory Workspace
@@ -68,7 +68,7 @@ You can create, review, update, or close a change request task in the Telecommun
 
         **Note:** To assign this change request, select **Assign** &gt; **fill in the assignment group and assigned to** &gt; **Save**.
 
-    -   Set a schedule for this change request. To learn more, see Schedules.
+    -   Set a schedule for this change request. To learn more, see [Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UseSchedules.md).
     -   Calculate the risks for this change request.
 
         When you select **Calculate Risk**, it analyzes an update in the **Risk** field on the **Details** tab.

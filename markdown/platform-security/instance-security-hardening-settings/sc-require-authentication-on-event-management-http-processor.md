@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
@@ -103,7 +103,7 @@ References
 </td><td>
 
 -   [https://docs.aws.amazon.com/sns/latest/dg/welcome.html](https://docs.aws.amazon.com/sns/latest/dg/welcome.html)
--   [Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/access-control.md)
+-   
 
 </td></tr><tr><td>
 

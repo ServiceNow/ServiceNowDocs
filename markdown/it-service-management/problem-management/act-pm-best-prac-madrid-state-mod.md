@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management plugins, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -46,5 +46,5 @@ Existing customers should use the [Migration Utility](https://raw.githubusercont
 **Related topics**  
 
 
-[List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

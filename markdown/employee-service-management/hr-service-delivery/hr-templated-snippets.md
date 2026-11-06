@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Response templates for HR Service Delivery
@@ -52,7 +52,17 @@ Response templates appear for an HR case form for templates associated with the 
 
 **Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
 
-For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Response template for HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-use-response-template.md).
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md).
+
+HR administrators and managers can create response templates. Each template is associated with an HR table that is an extension of the Task \[task\] table. Configure the template to include variables pulled from that table. Also, use a condition builder to specify what a case must meet for the template to be available, such as for a specific HR service.
+
+For more information on creating or modifying a response template, see [Create or modify an HR Service Delivery response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+
+Response templates appear for an HR case form for templates associated with the Form channel and satisfy the conditions on the response template. For the HR case form, the **Responses** button appears at the top. If there are multiple templates available, you can select the appropriate one. See [Work an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_CreateAnHRCase.md).
+
+**Note:** For more information on using a response template with an HR case, see [Copy a response template to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-templated-snippets.md).
+
+For Agent Workspace for HR Service Delivery, the Response Templates icon \(\[Omitted image "response-template-icon.png"\] Alt text: Response template icon\) appears in the Contextual sidebar. For more information, see [Use response templates in HR cases or tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.md).
 
 ## Components installed with response templates
 
@@ -255,14 +265,6 @@ Group visibility
 Indicates what groups have access to the response template.Adding groups filters who can view the response template.
 
  **Note:** Leaving this field empty makes the response template available to all groups.
-
-</td></tr><tr><td>
-
-Language
-
-</td><td>
-
-Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
 
 </td></tr><tr><td>
 

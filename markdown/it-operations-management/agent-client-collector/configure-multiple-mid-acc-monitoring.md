@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a MID Server to work with Agent Client Collector Monitoring, Configuring Agent Client Collector Monitoring, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Configure a MID Server to work with ACC Monitoring, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure multiple MID Servers to work with Agent Client Collector Monitoring

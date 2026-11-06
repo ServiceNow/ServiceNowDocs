@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Visual Task Board checklists, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -59,7 +59,7 @@ There are two ways that you can create a checklist template:
 
 12. Configure the fields for your new checklist template.
 
-<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d57318e200">
+<table id="choicetable_dtf_dxh_j1c"><tbody><tr><td id="d59987e200">
 
 **Group**
 
@@ -67,7 +67,7 @@ There are two ways that you can create a checklist template:
 
 You can use this field to limit the group of users that are allowed to use this checklist template.
 
-</td></tr><tr><td id="d57318e209">
+</td></tr><tr><td id="d59987e209">
 
 **Template**
 
@@ -99,7 +99,7 @@ The name of a checklist item.
 
 The order in which a checklist item appears in the checklist.
 
-</td></tr><tr><td id="d57318e277">
+</td></tr><tr><td id="d59987e277">
 
 **Name**
 
@@ -107,7 +107,7 @@ The order in which a checklist item appears in the checklist.
 
 The name of the checklist template.
 
-</td></tr><tr><td id="d57318e286">
+</td></tr><tr><td id="d59987e286">
 
 **User**
 

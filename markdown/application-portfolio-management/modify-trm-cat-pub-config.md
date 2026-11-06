@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/modify-trm-cat-pub-config.html
 release: yokohama
 topic_type: task
-last_updated: "2026-02-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with the publishing center, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Edit a published TRM catalog configuration
@@ -39,7 +39,7 @@ When you update and save changes to a published catalog configuration, the catal
     -   Update catalog details- In the **Details** tab, modify the catalog name.
     -   Update article publishing rules- In the **Article configurations** tab, select a software or hardware record to open its configuration and update details and its content configuration.
         -   **Details** tab- Define the content structure using AND/OR operators, modify display fields, and select or clear the **Active** check box to make the record active or inactive.
-        -   **Content configurations**- Select a related configuration \(for example, Product lifecycles\), define the content structureusing AND/OR operators, modify display fields, and select or clear the **Active** check box to make the record active or inactive.
+        -   **Content configurations**- Select a related configuration \(for example, Product lifecycles\). Define the content structure using AND/OR operators and modify display fields. Select or clear the **Active** check box to make the record active or inactive.
     -   Manage portal–knowledge base mappings- In the **Portals** tab, create or update a portal mapping for your published catalog, set the order for the knowledge base, and select or clear the **Active** check box to make the record active or inactive.
 6.  Select **Save**.
 
@@ -63,5 +63,5 @@ You must republish to apply changes to the published knowledge base output. Use 
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-the-published-kb.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/understand-publishing-output.md)
 

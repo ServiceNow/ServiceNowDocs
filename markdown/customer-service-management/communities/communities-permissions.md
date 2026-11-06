@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2026-02-18"
-reading_time_minutes: 3
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # Forum and user permissions management
 
 Community and forum administrators can give users and groups of users different levels of access to forums and forum content.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Note:** By default, community content is not publicly accessible. A community administrator must enable public access by configuring the appropriate permissions.
 
@@ -82,5 +86,48 @@ Clone a permission if an existing permission record cannot be modified and you r
 -   **[Create a forum permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/create-forum-permission.md)**  
 Add a forum user and a permission to a forum to create a forum permission.
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community content types]()
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[Migrate Social Q&amp;A data to Communities]()
+
+[View community logs]()
+
+[View community feedback and bookmarks tables]()
+
+[Create a case from a discussion]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure video sources for a community]()
+
+[Configure community forums]()
+
+[Configure the community profile]()
+
+[Create community Terms and Conditions]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

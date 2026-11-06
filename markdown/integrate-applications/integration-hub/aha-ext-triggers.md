@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: task
 last_updated: "2026-03-29"
 reading_time_minutes: 1
-breadcrumb: [Aha! Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Aha! Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up triggers for the Aha! spoke
@@ -38,19 +38,19 @@ Role required: flow\_designer and connection\_admin
 
 4.  Locate the **Aha! Spoke** endpoint and click **View Details**.
 
-    \[Omitted image "image.aha-ext-triggers1"\] Alt text:
+    \[Omitted image "aha-ext-triggers1.jpg"\] Alt text:
 
 5.  For the **Aha! External Trigger** end point, click **Configure**.
 
-    \[Omitted image "image.aha-ext-triggers2"\] Alt text:
+    \[Omitted image "aha-ext-triggers2.jpg"\] Alt text:
 
 6.  Select the user who can trigger the endpoint and click **Activate**.
 
-    \[Omitted image "image.aha-ext-triggers3"\] Alt text:
+    \[Omitted image "aha-ext-triggers3.jpg"\] Alt text:
 
 7.  Copy the generated endpoint URL.
 
-    \[Omitted image "image.aha-ext-triggers4"\] Alt text:
+    \[Omitted image "aha-ext-triggers4.jpg"\] Alt text:
 
 
 ## Add the endpoint URL in Aha!

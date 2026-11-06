@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Surveys in Workforce Optimization for ITSM, Training your teams using Coaching in Workforce Optimization for ITSM, Coaching in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Surveys, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Create a survey in Workforce Optimization for ITSM
@@ -17,6 +17,8 @@ breadcrumb: [Surveys in Workforce Optimization for ITSM, Training your teams usi
 Create surveys and publish them. You can assign published surveys to an agent or a group. You can also share the survey with other teams by adding managers of those teams as the owners of the survey.​
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, User Surveys in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_cfg\_ws.manager
 
@@ -37,7 +39,7 @@ Role required: sn\_wfo\_cfg\_ws.manager
     |**A form**|Select **New**.|
     |**Survey Designer**|Select **Survey Designer**.|
 
-    **Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-survey-coaching-opportunity.md).
+    **Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
 
 6.  Configure the survey based on your needs.
 

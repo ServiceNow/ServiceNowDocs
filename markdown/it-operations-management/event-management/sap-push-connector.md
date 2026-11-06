@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [SAP configurations enabling the SAP Solution Manager connector, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Use the SAP Solution Manager Push connector
@@ -47,7 +47,7 @@ JSON formatted messages are collected using basic authentication. For details on
 
 Create an Remote Function Call \(RFC\) in the SAP Solution Manager and install a transport, as described in [Configure RFC in SAP Solution Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-sap-solution-mgr.md).
 
-**Parent Topic:**[SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/sap-manager-connector.md)
 
 **Related topics**  
 

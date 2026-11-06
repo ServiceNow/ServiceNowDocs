@@ -1,20 +1,20 @@
 ---
 title: Healthcare location table
-description: The Healthcare Location \[sn\_hcls\_location\] table stores details of the location associated with your healthcare organization.
+description: The Healthcare Location \[sn\_hcls\_location\] table provides the ability to map common locations to Healthcare Organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Data model tables, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Healthcare location table
 
-The Healthcare Location \[sn\_hcls\_location\] table stores details of the location associated with your healthcare organization.
+The Healthcare Location \[sn\_hcls\_location\] table provides the ability to map common locations to Healthcare Organizations.
 
 ## Key features
 
@@ -23,6 +23,10 @@ The Healthcare Location \[sn\_hcls\_location\] table stores details of the locat
 -   Related lists for procedures, care specialities, and conditions are shown for records created via the Codeset location \[sn\_hcls\_codeset\_location\] table.
 -   Maps with devices via the Medical device install base item \[sn\_hcls\_medical\_device\_install\_base\_item\] table.
 -   Maps with practitioners via the Practitioner location \[sn\_hcls\_practitioner\_facility\] table.
+-   Contains the Location field, which references the common location \[cmn\_location\] table.
+-   To associate healthcare locations with healthcare organizations, see [Associate healthcare locations with a healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hcls-sm-associate-healthcare-locations-organization.md).
+
+For more information on how healthcare locations and healthcare organizations function, see [Setting up healthcare locations and healthcare organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/understanding-healthcare-locations-and-healthcare-organizations.md).
 
 Role required to configure the table: sn\_hcls.admin.
 
@@ -74,7 +78,7 @@ String
 
 </td><td>
 
-The associated identifier of the patient.
+The unique identifier of the healthcare location.
 
 </td></tr><tr><td>
 
@@ -89,6 +93,8 @@ Reference
 Physical location of this healthcare location.
 
  Entry selected here populates address fields.
+
+ References the Common location \[cmn\_location\] table.
 
 </td></tr><tr><td>
 
@@ -112,21 +118,9 @@ String
 
 </td><td>
 
-Patient ID number associated with the patient’s name.
+ID number associated with the healthcare location record.
 
  This field is read-only.
-
-</td></tr><tr><td>
-
-Managing Organization
-
-</td><td>
-
-Reference
-
-</td><td>
-
-Organization which manages this location.
 
 </td></tr><tr><td>
 
@@ -138,7 +132,7 @@ Reference
 
 </td><td>
 
-Sys\_id of the parent location associated with this location.
+Sys\_id of the parent healthcare location associated with this healthcare location.
 
 </td></tr><tr><td>
 
@@ -151,24 +145,6 @@ Choice list
 </td><td>
 
 Physical form of the location.
-
- The following types are available by default:
-
--   Area
--   Bed
--   Building
--   Cabinet
--   Corridor
--   Jurisdiction
--   Level
--   Room
--   Road
--   Site
--   Vehicle
--   Wing
--   Ward
-
- For more information about the available physical types, see [location types](http://hl7.org/fhir/STU3/valueset-location-physical-type.html) defined in the FHIR specifications.
 
 </td></tr><tr><td>
 
@@ -187,8 +163,6 @@ Option to indicate whether the healthcare location is in use.
 -   Active
 -   Inactive
 -   Suspended
-
- For more information about the available statuses, see [location statuses](https://www.hl7.org/fhir/http://hl7.org/fhir/STU3/valueset-location-status.html) defined in the FHIR specifications.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Healthcare and Life Sciences data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-data-tables.md)

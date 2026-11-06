@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Emergency Exposure Management for Field Service agent monitoring and assignments, Agent availability and calendars, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Use Emergency Exposure Management, Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
 
 # View an Emergency Exposure Management diagnostic report for an affected agent

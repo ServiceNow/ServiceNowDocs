@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 

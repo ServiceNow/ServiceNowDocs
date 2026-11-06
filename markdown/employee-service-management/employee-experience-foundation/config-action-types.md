@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Action framework, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Action framework, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure action types
@@ -39,7 +39,7 @@ Action group provides quick access to approve or reject the requests directly fr
     |Action type name|Name of the action type.|
     |Execute client script before server script|Option to select when the client script needs to be executed before the server script.|
     |Active|Check the box to activate the action type.|
-    |Server script|Server scripts run on the server.|
+    |Server script|Server scripts run on the server. Scripts are executed in th|
     |Server parameters|Server parameters that are required to execute the function for example **State, sys\_id**|
     |Client script|Client scripts run on the client side.|
     |Client parameters|Client parameters that are required to execute the function.|

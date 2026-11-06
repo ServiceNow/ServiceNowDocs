@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/early-availability-api-documentation.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Early Availability guide, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Early Availability guide, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Early availability API documentation
@@ -23,7 +23,7 @@ The Developer Program also contains API documentation on:
 
 Server-side scoped APIs are for use within scoped applications, and may behave differently within the global scope. Server-side legacy APIs are documented for development work in global scope. New applications should be built using scoped APIs.
 
-Early Availability includes access to API documentation for the latest release.\[Omitted image "ea-api-documentation.png"\] Alt text: API documentation for a PDI
+Early Availability includes access to API documentation for the latest release.
 
 **Parent Topic:**[Early Availability guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/early-availability-guide.md)
 

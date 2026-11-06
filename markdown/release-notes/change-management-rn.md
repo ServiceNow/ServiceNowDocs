@@ -1,24 +1,26 @@
 ---
 title: Change Management release notes
-description: The ServiceNow Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.The ServiceNow Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.The Brazil Early Availability release introduces compliance dynamic schema, change lockdown, lockdown conflict detection, and scaled change for Change Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/change-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Change Management release notes
 
-The ServiceNow® Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.
 
 ## About Change Management
 
--   Increase operational efficiency of tier 1 service desk agents with the dedicated sn\_service\_desk\_agent role.
--   Require specified field details to be updated before transitioning the state of a change request by converting existing optional fields to mandatory fields.
--   Restrict unauthorized access to Change Management tables using deny ACLs.
+-   Control the full change lifecycle from request to closure using a structured workflow that reduces IT service disruption.
+-   Define change models using custom state models, state transitions, and transition conditions. Out-of-the box change models include ITIL change models for Standard, Normal, or Emergency changes with dedicated approval paths.
+-   Use machine learning to assess change risk and suggest standard change templates.
+-   Run agentic AI workflows through a conversational interface. Use it to plan changes, assess conflicts, assess change quality, schedule changes, suggest configuration items, create outages, and generate standard change template proposals.
+-   Track team performance with the Change Success Score, which uses historical data to predict successful change completion. This feature requires an ITSM Professional subscription.
 
 See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ITILChangeManagement.md) for more information.
 
@@ -26,52 +28,56 @@ See [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowD
 
 -   **Activation information**
 
-    Change Management is a ServiceNow AI Platform feature that is active by default.
+    Change Management is a ServiceNow AI Platform feature that is active by default. The Change Management plugins listed are activated by default.
+
+-   **Upgrade information**
+
+    The ITSM Enhanced Security Features plugin \(com.snc.itsm.enhanced\_security\) is now activated automatically when you upgrade to the Brazil release. Previously, the plugin was activated only on new instances. Activating the plugin adds "deny unless authenticated" access control list \(ACL\) rules to several IT Service Management tables.
+
+    To revert to the pre-upgrade behavior, contact ServiceNow Support for a list of ACLs to deactivate on specific tables. As a last resort, Support can run a script that deactivates all the new ACLs.
+
+    The Change Management - Collision Detector plugin \(com.snc.change.collision\) is now activated automatically when you upgrade to the Brazil release.
+
+
+## Accessibility and localization
+
+-   **Accessibility information**
+
+    Reflow support for the Create a change request page: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
 
-## Yokohama
+## Brazil Early Availability
 
-The ServiceNow® Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
+The Brazil Early Availability release introduces compliance dynamic schema, change lockdown, lockdown conflict detection, and scaled change for Change Management.
 
 ### What's new
 
--   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/installed-with-cm-itsm-roles.md)**
+-   ****
 
-    With the sn\_service\_desk\_agent user role, increase operational efficiency by streamlining the process of asking about, gathering, and verifying information, as well as delivering quick resolutions. This role is designed for tier 1 service desk agents and is accessible when the ITSM Roles plugin \(com.snc.itsm.roles\) installed.
+    Store risk and compliance details on change requests without adding columns to the Change Request table. Compliance dynamic schema saves these details as name and value pairs in a single field using the platform Dynamic Schema feature. Regulated industries can capture information such as whether a change handles personal data, whether an audit trail is required, and how long a rollback takes. The base system includes example dynamic categories such as Risk and Compliance, Financial Risk and Compliance, and SaaS/Cloud Security Compliance, and example attributes covering areas such as audit trail, downtime, estimated impacted users, lead time, rollback time, and compliance. You can deactivate the examples and define categories and attributes that match your organization's compliance requirements. You can also read and update attribute values from scripts, including risk condition scripts and business rules, using the dynamic schema scripting API.
 
-    The sn\_service\_desk\_agent role includes the following roles:
+-   ****
 
-    -   sn\_incident\_write
-    -   sn\_problem\_write
-    -   sn\_change\_write
-    -   sn\_request\_write
-    -   tracked\_file\_reader
-    Additionally, with the installation of the **ITSM Gen AI** \(**com.sn.itsm.gen.ai**\) plugin, the knowledge\_user and now\_assist\_panel\_user roles are integrated within the sn\_service\_desk\_agent role.
+    Change lockdown allows change managers to pause all or a subset of in-flight change requests. Use it during major unplanned IT, critical, or financial events.
 
-    The sn\_service\_desk\_agent user role can be used starting with Service Operations Workspace version 6.1.
+    **Note:** The Change lockdown depends on Change Management - Collision Detector plugin \(com.snc.change.collision\), this plugin is now activated automatically when you upgrade to the Brazil release.
 
--   **[Change model Type field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAChange.md)**
+-   ****
 
-    A new **Model** option has been added to the change model Type field to help users identify a change that is controlled by a change model. **Model** is the default if a Type has not been set for the change request of a certain change model.
+    Automatically flag change requests that overlap an active lockdown period. Conflict detection runs alongside maintenance window and blackout window checks. Any change request inside a lockdown is marked as an Inside Change Lockdown conflict and placed on hold. Reschedule it outside the lockdown period to clear the conflict and continue processing.
 
--   **[No default Risk value for change requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateAChange.md)**
+-   ****
 
-    There is no longer a default value for the Risk field on the Change Request table. The Risk value is set to **-- None --** until the risk is evaluated for the change request. This change ensures that no risk value is pre-assigned, allowing for a more accurate assessment before advancing the change
+    Scaled Change extends change management to complex environments with many configuration items. A single Scaled Change generates and coordinates child change records for every affected configuration item. It uses scheduling intelligence, conflict detection, and approval workflows to keep large-scale changes on track from planning through closure.
 
--   **[Mandatory field transition condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-a-change-model.md)**
+-   ****
 
-    Ensure mandatory fields are completed before advancing through states for a change request, as defined by the Change Model. This feature enables change managers to mandate the completion of required fields before states can progress according to the Change Model.
+    Assign an ITIL change process to a change model so the ChangeRequest API uses that model when it creates a matching change request.
 
--   **[Deny-unless ACLs on core tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/features-itsm-enhanced-security-change.md)**
+-   ****
 
-    Prevent unauthorized access to change\_request and change\_task tables using deny-unless ACLs. The deny-unless ACLs restrict access on these tables for a non-authenticated user to perform actions such as read, write, delete, or create.
+    Use state field policies to make change request fields mandatory or read-only at each state in a change model. Policies are enforced on the form when a change request is created or updated.
 
-    This feature is available for new or zBoot customers with the installation of the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin. Existing or upgrade customers must test and evaluate in their sub production instance before installing the plugin and implementing the security change in their production instance.
-
-
-### What's deprecated or removed
-
-Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
 

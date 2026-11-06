@@ -7,7 +7,7 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -34,8 +34,6 @@ Customize and manage maps with Indoor Mapping Map Studio. Collaborate in real ti
 \[Omitted image "Indoor-Infographics-01.png"\] Alt text: Diagram showing the Indoor Mapping Map Studio Interface
 
 \[Omitted image "Indoor-Infographics-02.png"\] Alt text: Indoor Mapping Map Studio
-
-
 
 **Parent Topic:**[Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/Indoor-mapping.md)
 

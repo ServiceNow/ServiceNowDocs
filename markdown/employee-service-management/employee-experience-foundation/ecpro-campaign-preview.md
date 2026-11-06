@@ -7,10 +7,10 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [campaign, campaigns, employee center campaign, servicenow campaign, servicenow campaigns]
-breadcrumb: [Creating campaigns, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating campaigns, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Campaign preview
@@ -45,8 +45,6 @@ Single content preview provides a view of the following content types:
     **Note:** Mobile \(with exception to Push and SMS\) and community content are not available for preview.
 
 
-\[Omitted image "campaign-preview-single.png"\] Alt text: Campaign Preview Single piece of content banner
-
 ## Stage preview
 
 Stage preview provides a view into all content in a stage or bundle of a campaign.
@@ -56,8 +54,6 @@ You can also view a specific page \(not just your home page if you are presentin
 For more information, see [Preview single content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-campaign-pre-piece.md).
 
 **Note:** Also available in full portal preview.
-
-\[Omitted image "campaign-stage-preview.png"\] Alt text: Campaign Preview - Stage
 
 ## Full portal preview
 
@@ -70,13 +66,11 @@ Full portal preview provides a view into all content that appears on your portal
     **Note:** Also available in stage preview.
 
 
-\[Omitted image "campaign-preview-portal.png"\] Alt text: Campaign Preview Portal
-
 Only pages with content are available for preview.
 
 ## Information tags
 
-When previewing your campaign content, a blue outline and information tags shows you what content on your portal is part of your campaign. It also shows additional information about the content like a URL, and what stage the content is part of.\[Omitted image "campaign-preview-info.png"\] Alt text: Campaign Preview - Information tags
+When previewing your campaign content, a blue outline and information tags shows you what content on your portal is part of your campaign. It also shows additional information about the content like a URL, and what stage the content is part of.
 
 **Note:** Previews can't be edited.
 

@@ -1,98 +1,52 @@
 ---
 title: Resource Management Workspace release notes
-description: The ServiceNow Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.The ServiceNow Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.The ServiceNow Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.
+description: The ServiceNow Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.Resource Management Workspace enables resource managers set a precise end date for resource assignments directly from the workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/resource-management-workspace-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [resource management workspace, capacity planning, resource allocation, workforce planning, project resources, demand management, resource management workspace, end assignment, resource assignment]
+breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Resource Management Workspace release notes
 
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.
+The ServiceNow® Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.
 
 ## About Resource Management Workspace
 
--   Access the new heatmap modal to view the resource status, remaining capacity, and utilization efforts of resource allocation.
--   Use the **Name**, **Notes**, and **Ready for review** fields while creating a New Resource Assignment.
--   Access the resource assignments and the parent resource assignment from the resource board.
--   Use the interactive dashboard to create and manage widgets to access the required set of resource data in board view.
--   Extend, adjust, and approve resource assignments using the row context menu from the side grid.
+-   Optimize resource allocation by matching the right people with the right primary attributes to planning items and business priorities.
+-   Improve capacity planning with real-time visibility into resource availability, utilization, and workload across the organization.
+-   Streamline workforce planning by consolidating resource requests, assignments, and scheduling into a unified workspace.
 
-See [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-rmw.md) for more information.
+See the [Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/explore-rmw.md) documentation for more information.
 
 ## Activation and other requirements
 
-**Important:** Resource Management Workspace is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Resource Management Workspace by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    The Resource Management Workspace is available to download from ServiceNow Store. Install and activate the plugin to enable the workspace and related features.
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
 
-## May 2025
+## Version 5.11.1
 
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-rmw.md#section_v4k_rtg_1fc)**
-
-    View and access the resource assignments from high-level to get an overview of all the resource assignments, based on their states, completion dates, start dates, resources with allocations over their capacity, and resources allocations within their available.
-
-    -   Filter the resource board using the primary attributes and dates to build a custom view.
-    -   Edit the dashboard further to manage the data representation view of existing widgets or add new elements to build the required widgets.
-    -   Access the custom resource boards from dashboard using the interactive widgets to manage the allocations details.
-    -   Edit the Start and End dates, Task efforts, and Resource status for assigned tasks in the top tray using the inline editing feature.
-
-### What's changed
-
--   **[New navigation menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-rmw.md#section_v4k_rtg_1fc)**
-    -   New Reporting dashboard landing page in Resource Management Workspace to view and access the resource allocation details.
-    -   Interactive widgets in Reporting dashboard to access the custom resource boards.
-
-## Yokohama
-
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.
+Resource Management Workspace enables resource managers set a precise end date for resource assignments directly from the workspace.
 
 ### What's new
 
--   **[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-rmw.md#section_fmx_yrl_b1c)**
-    -   View the Resource status, Remaining capacity, and Utilization columns to the allocation heatmap modal to help resource managers to view detailed insights and the total efforts for Approved and Pending tasks.
-    -   Use the Total row in the heatmap modal to view the aggregate utilization for approved and pending tasks.
-    -   Update the resource status and the efforts for child assignments using the new modal.
-    -   Capture additional details required to the Project manager or Resource manager while creating a New Resource Assignment and New Operational Assignment using the following new fields.
-        -   **Name**
-        -   **Ready for review**
-        -   **Notes**
-    -   Access the assigned resource assignments or the parent resource assignment directly from the resource board view.
+-   **End assignment action in Resource Management Workspace**
+
+    End resource assignments at a precise date without modifying the original task plan. Select **End Assignment** from the row context menu of a resource assignment.
+
 
 ### What's changed
 
--   **[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-rmw.md#section_fmx_yrl_b1c)**
+-   **End assignment UI option**
 
-    Added the following details in the resource allocation heatmap view.
-
-    -   The Resource status column to view Approved and Pending assignments.
-    -   The Remaining capacity column to view the remaining or over-allocated efforts.
-    -   The Utilization column to view the total efforts of approved and pending tasks.
--   **[Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-ra-rmw.md)**
-    -   Added the following fields to create resource assignment form.
-        -   The **Name** field provides a custom or identifiable name for resource assignment.
-        -   The Ready for review list to confirm if a resource assignment is ready for a Resource manager's review for allocation.
-        -   The **Notes** field to add any additional notes while creating a resource assignment.
-    -   Added the following fields in the row context menu of resource assignments in the top tray.
-        -   The **Open Resource Assignment** field to view and edit a specific assigned assignment.
-        -   The **Open Parent Resource Assignment** field to view and edit the parent assignment.
-        -   The **Extend** menu item and **Extend Assignment** modal to request an extension to a resource assignment.
-
--   **[New resource heatmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-rmw.md#section_fmx_yrl_b1c)**
-
-    The resource allocation heatmap view provides more relevant information such as resource status, remaining capacity, and utilization of resources which helps resource managers to plan efficiently and allocate the resources based on their availability, bandwidth, and work requirements.
+    Added **End assignment** option in row context menu for assignments.
 
 

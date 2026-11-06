@@ -4,7 +4,7 @@ description: Administrators can use the ServiceNow Journey Accelerator applicati
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -14,7 +14,7 @@ Administrators can use the ServiceNow® Journey Accelerator application to creat
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="jrny-acclrtr-info-model-table" class="nav-card"><tbody><tr><td>
 
@@ -41,4 +41,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 [Reference \[Omitted image "bus-documentation.svg"\] Alt text: Get details about components like roles, fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/components-installed-with-journey-accelerator.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

@@ -1,89 +1,87 @@
 ---
-title: Managing the Technology Reference Model in Enterprise Architecture Workspace
-description: You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
+title: Technology Reference Model in Enterprise Architecture Workspace
+description: The Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace helps define the standards for your software and hardware products and manage unapproved products in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-managing-the-technology-portfolio.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Technology Portfolio view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Managing the Technology Reference Model in Enterprise Architecture Workspace
+# Technology Reference Model in Enterprise Architecture Workspace
 
-You can use the Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace to define the standards for your software and hardware products and manage unapproved products in your organization.
-
-**Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
+The Technology Reference Model \(TRM\) feature in Enterprise Architecture Workspace helps define the standards for your software and hardware products and manage unapproved products in your organization.
 
 ## Overview and benefits of a TRM
 
-In your business enterprise, using an unapproved software can create a risk to the organization. The risks can include the following:
+In your business enterprise, using unapproved software can create a risk to the organization. The risks can include the following:
 
 -   Security risks: The software might be exposed to security issues.
 -   Delivery risks: There might not be sufficient knowledge on how to support the software.
 -   Legal risks: A business application might use the software in illegal ways.
 
-You must define the standards for the software that is to be used and the software versions that are permitted for use in your organization. Also, you need a way to explore when a non-permitted software is being used within the organization and in which business applications.
+You must define the standards for the software that is to be used and the software versions that are permitted for use in your organization. Use this module to identify non-permitted software in use across the organization and the business applications that use it.
 
 You can use the TRM module in the Enterprise Architecture Workspace to perform the following:
 
--   View a list of all available TRM products. You can also view the list of TRM products grouped by product category.
+-   View a list of all available TRM products. You can also view the list of TRM products grouped by product category
 -   Request a TRM product
 -   Request a TRM product lifecycle
 -   Create a TRM product
 -   Create a TRM product lifecycle
--   Approve or reject TRM product and product lifecycle requests.
+-   Approve or reject TRM product and product lifecycle requests
+
+When you request or create a TRM product, you can optionally add one or more lifecycle records as part of the same action. This eliminates the need to submit a separate lifecycle request afterward. Similarly, approving or rejecting a standalone TRM product lifecycle request applies to all child lifecycle records included in that request.
 
 Using the TRM module, you can manage the standards of the technology and set the right guardrail for technology usage. Setting the standards can improve the technical debt, security posture and save costs for the organization.
 
-You can also assign an owner to a TRM category, to ensure clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
+You can also assign an owner to a TRM category, to facilitate clear accountability and improved governance standards. The owner is responsible for maintaining consistent technology compliance standards for that TRM category.
 
-## TRM Product Lifecycle
+## TRM product lifecycle
 
-Each product in the TRM library is associated with a set of life-cycle phases with a start and end date. The life-cycle phases could be approved, unapproved, approved with constraints, Divest, and evaluation.
+Each product in the TRM library is associated with a set of lifecycle phases with a start and end date. The lifecycle phases could be approved, unapproved, approved with constraints, divest, and evaluation.
 
-The TLM home page fetches all the business applications that are being used in your organization. It helps to review the status of the software that is being used. You can understand if any business application is using the software that is not part of the TRM or a software version that is not approved for production. For more information, see [TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md).
+The TLM home page fetches all the business applications that are used in your organization. It helps to review the status of the software that is being used. You can understand if any business application is using the software that is not part of the TRM or a software version that is not approved for production. For more information, see [TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md).
 
 The TRM module uses a similar module to TLM to search in the TRM library. You can view the software that is part of the TRM library, and initiate a request to add the software or software version to the TRM library.
 
-You can also use the TRM with the Software Asset Management \(SAM\) plugin. This plugin helps you to fetch or select the products and versions for the TRM library. You can also define your own software products when the Software Asset Management integration module isn’t available for your instance.
+You can also use the TRM with the Software Asset Management \(SAM\) plugin. This plugin helps you to fetch or select the products and versions for the TRM library. You can also define your own software products when the Software Asset Management integration module isn't available for your instance.
 
--   **[View all TRM products grouped by product category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-trm-products-grouped-by-product-category.md)**  
-You can view all your Technology Reference Model \(TRM\) products, grouped by category, in the Enterprise Architecture Workspace.
--   **[View all TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-trm-products.md)**  
-You can view all available Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace.
--   **[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-a-trm-products.md)**  
-You can request a TRM product using the TRM catalog to add a new software or hardware to the TRM library.
--   **[Request a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-a-trm-product-lifecycle.md)**  
-You can add a new request to create a life cycle for a TRM product.
--   **[Add a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)**  
-As an Enterprise Architect, you can add a new TRM product to the TRM library.
--   **[Associate an Architectural Artifact to a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-trm-prod.md)**  
-As an Enterprise Architect, you can associate an architectural artifact to a TRM product.
--   **[Add a TRM product lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle-req.md)**  
-As an Enterprise Architect, you can add a new TRM product lifecycle.
--   **[View product capabilities associated with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-capabilities-associated-with-trm-product.md)**  
-You can view the list of product capabilities associated with Technology Reference Model \(TRM\) product, in the Enterprise Architecture Workspace.
--   **[Create product capabilities and associate it with a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-new-product-capability-and-assoc-trm-product.md)**  
-You can create product capabilities and associate it with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace.
--   **[Add an existing product capability to a Technology Reference Model product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-existing-product-capability-to-trm-product.md)**  
-You can add existing product capabilities to Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace.
--   **[Remove product capabilities from a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-remove-product-capabilities-assoc-with-trm-product.md)**  
-You can remove the product capabilities associated with Technology Reference Model \(TRM\) products in the Enterprise Architecture Workspace, confirming only the relevant and current product capabilities are associated with the TRM products.
--   **[Export Technology Reference Model product category data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-export-trm-prod-cat-data.md)**  
-Export the Technology Reference Model \(TRM\) list view data to Microsoft Excel or CSV so that you can use the data to share with stakeholders and prepare for analysis.
--   **[Run a job to sync TRM product names in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.md)**  
-Run a scheduled job to sync the names of Technology Reference Model \(TRM\) products with the names of their linked Software Asset Management \(ServiceNow Otto for SAM\) software products.
--   **[Working with TRM lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
-You can use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple TRM software product lifecycles simultaneously without having to specify the exact minor version details of individual TRM software products.
--   **[Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  
+You can add lifecycle records to a TRM product as part of a product request or a standalone TRM product lifecycle request. The following limits apply to the number of lifecycle groups and phases you can include:
+
+**Note:**
+
+-   For software products: You can add up to 5 version and edition combinations, with a maximum of 10 phases per combination.
+-   For hardware products: You can add up to 5 hardware models, with a maximum of 10 phases per hardware model.
+-   You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
+
+-   **[TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-trm-technical-debt.md)**  
 Manage the TRM technical debts that are created for the products that aren’t approved for the usage.
+-   **[Technical debt calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-technical-debt-calc.md)**  
+Technical debt records identify products used in business applications that aren't approved in the TRM or that use unapproved versions. View technical debt records to understand conformance gaps and plan remediation.
+-   **[Work with TRM lifecycle with wildcard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-wildcard-to-create-technical-debts.md)**  
+Use Technology Reference Model \(TRM\) lifecycles with wildcards to update multiple software product lifecycles simultaneously without specifying exact minor version details.
 
-**Parent Topic:**[Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-technology-portfolio-view.md)
+**Parent Topic:**[Exploring Technology Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-technology-portfolio-view.md)
 
 **Related topics**  
 
 
 [Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-approve-trm-req.md)
+
+[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-trm.md)
+
+[View TPM and TRM lifecycle timelines on the Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-tpm-and-trm-lifecycle-timelines-in-gantt-chart.md)
+
+[Gantt view of TLM and TRM lifecycle timelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-gantt-view-of-tpm-and-trm-lifecycle-timelines.md)
+
+[TRM lifecycle timelines on Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-lifecycle-timelines-on-gantt-chart.md)
+
+[Configure TRM phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-trm-phases.md)
+
+[Configure TRM categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-trm-categories.md)
+
+[TRM technical debt states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-technical-debt-states.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing Mastercard disputes, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Dispute Rules Content Pack for Mastercard
@@ -42,7 +42,7 @@ The Dispute Rules Content Pack for Mastercard application can help you do the fo
 </td></tr></tbody>
 </table>## Request Dispute Rules Content Pack for Mastercard on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use Dispute Rules Content Pack for Mastercard, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 
@@ -52,8 +52,10 @@ Before you can use Dispute Rules Content Pack for Mastercard, you must first dow
 -   [Learn more about how to create your own apps on the developer site.](https://developer.servicenow.com/dev.do#!/)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
--   **[Exploring the Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-mastercard.md)**  
+-   **[Exploring Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-mastercard.md)**  
 Learn how the Dispute Rules Content Pack for Mastercard application uses dispute mapping to ensure that your organization can properly categorize and process disputes.
+-   **[Install the Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/install-the-dispute-rules-content-pack-for-mastercard.md)**  
+If you have the admin role, you can install the Dispute Rules Content Pack for Mastercard application.
 -   **[Setting up Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/configuring-the-dispute-rules-content-pack-for-mastercard.md)**  
 You can set up your implementation of the Dispute Rules Content Pack for Mastercard application by installing the application from the ServiceNow Store.
 -   **[Using the Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/using-the-dispute-rules-content-pack-for-mastercard.md)**  
@@ -61,5 +63,5 @@ By using the Dispute Rules Content Pack for Mastercard's questionnaire, your age
 -   **[Dispute Rules Content Pack for Mastercard reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-reference.md)**  
 Learn about the components and properties that are installed with the Dispute Rules Content Pack for Mastercard application.
 
-**Parent Topic:**[Managing Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-mastercard-disputes.md)
+**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
 

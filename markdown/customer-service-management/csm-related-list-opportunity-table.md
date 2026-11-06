@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-related-list-opportunity-table.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Connect Customer Account and Salesforce Opportunities using a related list

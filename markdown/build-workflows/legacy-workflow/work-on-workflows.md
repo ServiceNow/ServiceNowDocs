@@ -7,7 +7,7 @@ release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Workflow management, Classic Workflow, Build workflows]
 ---
@@ -18,7 +18,7 @@ To complete a workflow, you add workflow activities, validate the workflow, and 
 
 ## Before you begin
 
-Role required: None.
+Role required: snc\_required\_script\_writer\_permission and either workflow\_creator or workflow\_admin.
 
 **Parent Topic:**[Workflow management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/managing-workflows.md)
 
@@ -28,7 +28,7 @@ Activities determine the functionality of the workflow.
 
 ### Before you begin
 
-Role required: workflow\_admin, workflow\_creator, or admin
+Role required: snc\_required\_script\_writer\_permission and workflow\_admin, workflow\_creator, or admin
 
 ### About this task
 
@@ -53,7 +53,7 @@ You can manually validate a workflow from the Workflow Editor. You can generate 
 
 ### Before you begin
 
-Role required: workflow\_admin, workflow\_creator, workflow\_publisher, or admin
+Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, workflow\_publisher, or admin
 
 ### About this task
 
@@ -86,7 +86,7 @@ When a workflow is complete, publish the workflow so that it is available to all
 
 Before you publish a workflow, validate it to test it for issues that might cause it to fail, such as missing subflows or disconnected transitions. For more information, see [Workflow validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/c_WorkflowValidation.md).
 
-Role required: workflow\_admin, workflow\_creator, workflow\_publisher, or admin
+Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, workflow\_publisher, or admin
 
 ### About this task
 
@@ -111,7 +111,7 @@ A workflow can run only if a checked out version is available to the user who ha
 
 ### Before you begin
 
-Role required: workflow\_admin, workflow\_creator, or admin
+Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, or admin
 
 ### Procedure
 
@@ -121,9 +121,9 @@ Role required: workflow\_admin, workflow\_creator, or admin
 
     1.  There is only one workflow version in a state of **Checked out** and **Checked out by**.
 
-    2.  There is only one version and it is not checked out. This version must be both **Active** and **Published**.
+    2.  There is only one version and it is not checked out.
 
-        You may need to personalize the list and add the **Active** column.
+        This version must be both **Active** and **Published**. You may need to personalize the list and add the **Active** column.
 
     3.  If there are multiple versions, only one is **Published**.
 
@@ -140,7 +140,7 @@ You can edit a published workflow after you check it out.
 
 ### Before you begin
 
-Role required: workflow\_admin, workflow\_creator, workflow\_publisher, or admin
+Role required: snc\_required\_script\_writer and workflow\_admin, workflow\_creator, workflow\_publisher, or admin
 
 ### About this task
 
@@ -171,7 +171,7 @@ Application scoping protects applications by identifying and restricting access 
 
 ### Before you begin
 
-Role required: admin
+Role required: snc\_required\_script\_writer and admin
 
 ### Procedure
 
@@ -183,7 +183,9 @@ Role required: admin
 
 4.  Navigate to **Workflow** &gt; **Workflow Editor**.
 
-5.  Create a workflow in the Workflow Editor. For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/t_CreateAWorkflow.md).
+5.  Create a workflow in the Workflow Editor.
+
+    For more details, see [Create a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/t_CreateAWorkflow.md).
 
 6.  In the Workflow Editor, click \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Information icon.
 
@@ -213,7 +215,9 @@ Role required: admin
 
     1.  In **Workflow Name**, type the new name for the copied workflow.
 
-    2.  Click **OK**. The system creates a workflow in the current application scope.
+    2.  Click **OK**.
+
+        The system creates a workflow in the current application scope.
 
 15. In the Workflow Editor, click \[Omitted image "WorkflowPropertiesIcon.png"\] Alt text: Information icon.
 

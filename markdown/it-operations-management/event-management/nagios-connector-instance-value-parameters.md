@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Nagios connector instance value parameters

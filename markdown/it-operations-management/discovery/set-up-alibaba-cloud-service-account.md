@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -47,4 +47,6 @@ Role required: discovery\_admin
 ## What to do next
 
 Create a schedule for Alibaba Cloud in [Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.md) or [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-schedule-DAW.md).
+
+**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/alibaba-cloud-discovery.md)
 

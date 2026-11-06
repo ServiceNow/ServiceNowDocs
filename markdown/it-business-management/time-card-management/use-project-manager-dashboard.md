@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics Project manager, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,8 +31,6 @@ Role required: it\_project\_manager, timecard\_admin
 2.  Select a project and date range from the **Project** and **Date** choice lists.
 
 3.  Review the displayed reports and take necessary actions, if required.
-
-4.  Click the more actions icon \(\[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions icon\) to duplicate, share or export the selected report, if required.
 
 
 **Parent Topic:**[Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/project-manager-dashboard.md)

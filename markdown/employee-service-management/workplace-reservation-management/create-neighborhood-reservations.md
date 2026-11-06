@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Select any of the following context menu navigation options to make a neighborhood reservation.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d707082e78">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d763597e78">
 
 Location
 
-</th><th align="left" id="d707082e81">
+</th><th align="left" id="d763597e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d707082e87">
+</th></tr></thead><tbody><tr><td id="d763597e87">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d707082e111">
+</td></tr><tr><td id="d763597e111">
 
 **From Employee Center Portal**
 
@@ -65,8 +65,6 @@ Make a reservation portal page opens for you to make workplace reservations.
 </td></tr></tbody>
 </table>    The Make a Reservation page opens in a new tab.
 
-    \[Omitted image "wsd-make-rsv.png"\] Alt text: Make a reservation page without the Search button. The search results after adding a location, date, and time are fetched automatically.
-
 2.  Select a Reservable Module configuration.
 
     For example, select any of the following Reservable Module configuraiton. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/config-reservable-module.md).
@@ -79,8 +77,6 @@ Make a reservation portal page opens for you to make workplace reservations.
 3.  To search for reservable spaces in a neighborhood, select **Browse by Neighborhood**.
 
     **Note:** The **Browse by Neighborhood** option is only available if the **Enable browse by neighborhood** option is selected on the Reservable Module configuration page. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/config-reservable-module.md).
-
-    \[Omitted video\] Description: Create a neighborhood reservation.
 
 4.  Complete the following information.
 
@@ -221,9 +217,6 @@ Reserve multiple workplace items spanning multiple buildings. The buildings time
     If any of the items don't require approval, the selected workplace items are reserved. The status of the request is updated to **Confirmed**. If any of the items need approval, your request is submitted for approval. The status of the request is updated to **Awaiting approval**.
 
 
--   **[Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/enable-shift-based-reservation.md)**  
-As an admin, enable employees to reserve a workplace item for a shift. Configure the spaces that can be reserved for a shift. Specify the users who can make shift-based reservation.
-
 **Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
 
 **Related topics**  
@@ -231,21 +224,23 @@ As an admin, enable employees to reserve a workplace item for a shift. Configure
 
 [Create a reservation]()
 
+[Auto-resolve recurring reservations]()
+
 [Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Reserve a space near your colleague]()
 
-[Create multi-building reservations]()
-
 [Create a multi-day reservation]()
+
+[Create multi-building reservations]()
 
 [Create reservation for multiple workplace items]()
 
-[Create a reservation along with a shared reservation]()
+[Enable shift-based reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Create a reservation along with a shared reservation]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -258,4 +253,6 @@ As an admin, enable employees to reserve a workplace item for a shift. Configure
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

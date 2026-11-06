@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Wayfinding Administration, Configure, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -137,7 +137,7 @@ App secret of the map provider \(Mappedin\). Available only if you have installe
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
-    The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.
+    The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.The custom map provider is configured for the table entity that you selected. For example, the map provider shows directions for locations in Building1.
 
     **Note:** The **CustomMapConfigId** is mapped with sys Id of mapped reservations of Indoor Mapping and Mappedin. To get Indoor Mapping maps, users must update **CustomMapDefaultProviderId** and **CustomMapConfigId** in both **location\_custom\_map** and **locations\_custom\_map**. The **CustomMapDefaultProviderId** is the sys Id of Indoor Mapping associated record in the custom map provider. For more information, see [Enable map view to create reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/enable-map-view-mobile-reservations.md).
 

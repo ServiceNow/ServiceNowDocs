@@ -1,87 +1,56 @@
 ---
 title: Audit Management release notes
-description: The ServiceNow Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Yokohama release.The ServiceNow Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Yokohama release.The ServiceNow Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.This release streamlines evidence and document collection with a faster request path and adds a consolidated grid view for tracking control tests. It also introduces a native Documents panel for storing, versioning, and controlling access to documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/grc-audit-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Audit Management release notes
 
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Audit Management application supports activities related to planning audit engagements, executing engagements, and reporting findings to an audit committee. See the following sections for release notes by version.
 
 ## About Audit Management
 
--   Analyze relationships between different variables, such as assessing risks and controls, by using the Matrix report in Audit Workspace.
--   Manage your documents and work papers in Audit Management as cloud files.
--   Upload documents from your local computer as cloud files and link them to any record in your ServiceNow instance.
--   Share a single cloud file with multiple records by linking it to any GRC record.
--   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
+-   Plan and execute audit engagements – Plan engagements, execute them, and report findings to the audit committee and executive board.
+-   Assure stakeholders through engagement reporting – Assure key stakeholders that the organization's risk and compliance management strategy is effective.
 
 See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Audit Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Accessibility improvements**
-
-        Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
-    -   **Reflow**
-
-        The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md).
+    Install Audit Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 
-## May 2025
+## Version 23.0.2
 
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **Entity Based Access for Audit Management**
-
-    Entity-based access enables you to create configurations for entities, entity classes, and entity types. When a user is qualified based on these configurations and has the minimum required roles, they can access to the following tables:
-
-    -   Engagement
-    -   Test Plan
-    -   Control Test
-    -   Observation
-    -   Control to Engagement
-    -   Test Plan to Engagement
-    -   Risk to Engagement
-    -   Issue to Engagement
-    -   Entity to Engagement
-
-## Yokohama
-
-The ServiceNow® Audit Management application supports activities related to planning audit engagements, implementing engagements, and reporting findings to an audit committee. Audit Management was enhanced and updated in the Yokohama release.
+This release streamlines evidence and document collection with a faster request path and adds a consolidated grid view for tracking control tests. It also introduces a native Documents panel for storing, versioning, and controlling access to documents.
 
 ### What's new
 
--   **Matrix report in the Audit Workspace**
+-   ****
 
-    Analyze relationships between different variables by using a Matrix report that presents data in a structured format. Assess and document risks and the internal controls designed to mitigate those risks through the Risk and Controls Matrix.
+    Manage all control tests for an engagement from a single grid on the **Control tests** tab. View test status, assigned auditor, and effectiveness results, create or delete control tests, and request evidence directly from a row without opening each record individually.
+
+-   **Using Document Management System**
+
+    Store, organize, version, and control access to documents on engagements, control tests, and evidence records with the new Documents panel, alongside the existing Attachments panel. Connect an existing document from Microsoft SharePoint, Microsoft OneDrive, or Google Drive without downloading and re-uploading it.
+
+    Summarize a document or ask questions about its content using generative AI capabilities. Generate a spoken audio summary, directly from the Documents panel without opening the full document.
 
 
 ### What's changed
 
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
+-   **Create evidence requests with a two-step process**
 
-    The Audit Management configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
+    Create evidence requests with a two-step process by selecting the **Skip collection detail** option, which moves the request directly to **Work in Progress** state. It also enables you to add evidence manually without creating an Evidence Collection Details record.
 
 

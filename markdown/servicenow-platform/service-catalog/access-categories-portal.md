@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -69,8 +69,6 @@ Role required: requester
 [Request a catalog item from Service Portal]()
 
 [Request an order guide from Service Portal]()
-
-[Standard ticket page for a requested item]()
 
 [SC Categories widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sc-categories-widget.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install HR Service Delivery, Plan your installation, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Install HR Service Delivery, Plan your installation, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Import Update set from XML and install fix script
@@ -42,8 +42,6 @@ For more information about the Update sets, see [Update set transfers](https://r
 
     If you can't find the XML files, click **Show more** to view the list of supporting links and docs.
 
-    \[Omitted image "hrsd\_store\_show\_more.png"\] Alt text: Update sets from HR Service Delivery integration with Microsoft Teams store page
-
 2.  Click each of the XML files to download on to your computer.
 
     -   human\_resources\_integrations\_rca\_records
@@ -54,8 +52,6 @@ For more information about the Update sets, see [Update set transfers](https://r
     -   document\_templates\_rca\_records.xml
     -   fix\_script\_start\_chat\_field\_decorator\_HR
     -   human\_resources\_workspace\_rca.xml
-    \[Omitted image "rca\_records\_hrsd.png"\] Alt text: Update sets from HR Service Delivery integration with Microsoft Teams store page
-
 3.  Navigate to upload XML files.
 
     -   Navigate to **All** &gt; **System Update Sets** &gt; **Local Update Sets** for the RCA script XML uploads.

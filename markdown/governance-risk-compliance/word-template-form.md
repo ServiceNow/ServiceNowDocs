@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/word-template-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage Microsoft Word document templates, Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -95,7 +95,7 @@ Post processing action
 
 </td><td>
 
-Option to update the generatedMicrosoft Word template report with fields from the Report section of the Engagement record.Options are:
+Option to update the generated Microsoft Word template report with fields from the Report section of the Engagement record.Options are:
 
 -   **Populate BIA word template and report fields**: When you choose this template, the fields from the Report section of the BIA record populate in Microsoft Word report.
 -   **Populate BCP Plan word template and report fields**: When you choose this template, the fields from the Report section of the BCP plan record populate in Microsoft Word report.

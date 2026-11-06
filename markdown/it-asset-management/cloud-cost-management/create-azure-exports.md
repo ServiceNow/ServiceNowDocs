@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-05-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Create exports on the Azure portal
@@ -25,8 +25,6 @@ Roles required:
 -   For Subscriptions \(EA/MCA/MPA\): contributor, Storage Account Contributor
 
 ## About this task
-
-**Important:** The support for Azure Exports method is available from Cloud Cost Management version 9.0 and later.
 
 When you're using the Azure Export method to download billing data, you must create an export for your service account on the Azure portal to export billing data to your ServiceNow storage account.
 
@@ -52,7 +50,7 @@ Cloud Cost Management 10.0 and later versions support the FOCUS billing format i
 
 7.  On the Datasets tab, enter **Export prefix** to customize your export name.
 
-8.  Select the edit icon \[Omitted image "workspace-icon-edit.png"\] Alt text: Edit record icon next to the export name that you want to edit.
+8.  Select the edit icon \[Omitted image "workspace-icon-edit.png"\] next to the export name that you want to edit.
 
 9.  In the Edit export window, fill in the fields.
 

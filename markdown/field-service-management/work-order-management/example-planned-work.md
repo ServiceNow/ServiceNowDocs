@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Work plan example
@@ -25,8 +25,6 @@ For example, A hospital has two MRI machines installed on different dates and he
 -   Perform the first two warranty maintenance at the interval of 365 days from the date of installation.
 -   After the first two warranty maintenance are over, perform maintenance every two years for the next eight years.
 -   After ten years, perform maintenance every year.
-
-**Parent Topic:**[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
 
 ## Define a maintenance schedule for multiple assets
 

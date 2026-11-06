@@ -1,22 +1,22 @@
 ---
-title: Create time series visualizations
-description: Show changes in data over time. Use different time series charts to emphasize different aspects of the data, such as trends or individual values.
+title: Create time series data visualizations
+description: Show changes in data over time. Use different time series visualizations to emphasize different aspects of the data, such as trends or individual values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-dv-time-series-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create time series visualizations
+# Create time series data visualizations
 
-Show changes in data over time. Use different time series charts to emphasize different aspects of the data, such as trends or individual values.
+Show changes in data over time. Use different time series visualizations to emphasize different aspects of the data, such as trends or individual values.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -26,36 +26,156 @@ A time series is an ordered sequence of metrics taken continuously over time. Th
 -   Identifying turning points, such as whether a change in policy led to a change in indicator scores.
 -   Evaluating the relationships between data sources.
 
-When you are selecting a visualization for a time series, consider whether you want to emphasize the trend in the data or specific changes in the data. Also consider whether you want to show one data source or compare several related data sources.
+When you select a visualization for a time series, consider whether you want to emphasize the trend in the data or specific changes in the data. Also consider whether you want to show one data source or compare several related data sources.
 
 For information about the use of a Time series visualization in a dashboard, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-vis-timeseries-wrapper/usage). This site gives information about Time series data visualization components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
-For an example of creating a time series visualization, see [Time series visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-line.md).
+For an example of creating a time series visualization, see [Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-line.md).
+
+**Note:**
+
+In Platform Analytics experience, time series visualizations do not display records when the configured Trend by field has no value. If the Trend by field is empty for all records, no records will show in the visualization. If the field is populated for only a subset of the records, only that subset will appear in the visualization.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-2.  Select **New**.
+2.  Select **Create data visualization**.
 
-3.  Select one of the chart types in the Time Series section.
+3.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
-4.  Configure the **Header and border**. Header and border options are the same for all data sources.
+    None of the **Header and border** fields is required.
 
-    |Header and border fields|Description|
-    |------------------------|-----------|
-    |Show header|The visualization header, including title and icons.|
-    |Show header separator|Option to display a line separating the header from the rest of the component.|
-    |Chart title|Title of the visualization.|
-    |Description|A short overview about the visualization that the end user sees.|
-    |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
-    |Wrap labels|Select to wrap long elements labels on the axis.|
-    |Max label size, px|Specify the maximum label size for element names on the axis. Default=100 px.|
-    |Truncation type|Specify where to truncate long labels with an ellipsis. Options are Beginning, Middle, and End.|
-    |Show border|Option to display a line around the component.|
-    |Bare|Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.|
+<table id="table_ly5_djk_c5b"><thead><tr><th>
 
-5.  Choose a data source.
+Header and border fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="ac-dv-showborder"><td>
+
+Show border
+
+</td><td>
+
+Option to display a line around the component.
+
+</td></tr><tr id="ac-dv-showheader"><td>
+
+Show header
+
+</td><td>
+
+The visualization header, including title and icons.
+
+</td></tr><tr id="ac-dv-showheadersep"><td>
+
+Show header separator
+
+</td><td>
+
+Option to display a line separating the header from the rest of the component.
+
+</td></tr><tr id="ac-dv-charttitle"><td>
+
+Chart title
+
+</td><td>
+
+Title of the visualization.
+
+</td></tr><tr id="ac-dv-title-align"><td>
+
+Title alignment
+
+</td><td>
+
+Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.
+
+</td></tr><tr id="ac-dv-chartdesc"><td>
+
+Description
+
+</td><td>
+
+A short overview about the visualization that the end user sees. Descriptions help users find the visualization.
+
+</td></tr><tr id="ac-dv-wraptitle"><td>
+
+Wrap title
+
+</td><td>
+
+Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.
+
+</td></tr><tr id="ac-dv-wraplabels"><td>
+
+Wrap labels
+
+</td><td>
+
+Select to wrap long elements labels on the axis.
+
+</td></tr><tr id="ac-dv-maxlabelsize"><td>
+
+Max label size, px
+
+</td><td>
+
+Specify the maximum label size for element names on the axis. Default=100 px.
+
+</td></tr><tr id="ac-dv-truncationtype"><td>
+
+Line of truncation
+
+</td><td>
+
+Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.
+
+</td></tr><tr id="ac-dv-bare"><td>
+
+Bare
+
+</td><td>
+
+Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.
+
+</td></tr><tr id="ac-dv-showrefreshoption"><td>
+
+Show refresh option
+
+</td><td>
+
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+
+</td></tr><tr id="ac-dv-show-export-option"><td>
+
+Show export options
+
+</td><td>
+
+Option to show or hide the visualization's export types.
+
+</td></tr><tr><td>
+
+Header background color
+
+</td><td>
+
+Specify the color behind the title of the visualization.
+
+</td></tr><tr><td>
+
+Title color
+
+</td><td>
+
+Specify the text color of the title. The default title color is black, but you can choose a color that contrasts better with the header background. Only available when **Header background color** is selected.
+
+</td></tr></tbody>
+</table>4.  Choose a data source.
 
     For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-sources-visualizations.md).
 
@@ -69,7 +189,7 @@ For an example of creating a time series visualization, see [Time series visuali
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements.
 
-        **Note:** Benchmark indicators are not supported.
+        **Note:** Benchmark indicators aren't supported.
 
         \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
@@ -78,15 +198,27 @@ For an example of creating a time series visualization, see [Time series visuali
         You might have a multiple select \(is one of\) or dynamic \(is \(dynamic\)\) operator on the breakdown element filter. These operators require the indicator and breakdown to support them. For more information about the configurations that support these operators, see ["Is one of" and "Is \(Dynamic\)" operators on breakdown conditions in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/condition-operators-ind-bkdowns.md).
 
     -   MetricBase \(available if MetricBase is enabled\). When you select a MetricBase data source, you have the option of constructing a custom filter for it using conditions and related list conditions, as with Table data sources.
-    -   User Experience Analytics \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [User Experience Analytics data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
-    **Note:** You can select multiple data sources for this visualization, but they must be of the same type: table, indicator, User Experience Analytics, or MetricBase. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md).
+    -   Usage Insights \(available with the User Experience PAR Integration application, to users with a required role\). Choose one of up to three KPIs included with this application, depending on the visualization type. For more information, see [Usage Insights data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/uxa-data-sources.md).
+    **Note:** You can select multiple data sources for this visualization, but they must be of the same type: table, indicator, Usage Insights, or MetricBase. For more information, see [Multiple data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/multiple-data-sources.md).
+
+5.  Duplicate the data source.
+
+    1.  Select the data source's More Actions menu \[Omitted image "more-actions-menu-icon.png"\] and choose **Duplicate**.
+
+        \[Omitted image "dv-duplicate-data-source.png"\] Alt text: Data source's More Actions menu with Duplicate selected
+
+    2.  Select the copy of the data source and edit it.
+
+        For example, if the original data source has multiple conditions, you can duplicate it if you want to add more conditions and not lose the original configuration.
+
+    Both the original data source and duplicated and edited data source apply to the visualization.
 
 6.  Select the options for your data source.
 
     -   If your visualization represents table data, go to [Table data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-table-data.md).
-    -   If your visualization represents indicator data, go to [Indicator data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md).
-    -   If your visualization represents User Experience Analytics data, go to [User Experience Analytics data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md).
-    -   If your visualization represents MetricBase data, go to [MetricBase data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-mb-data.md).
+    -   If your visualization represents indicator data, go to [Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md).
+    -   If your visualization represents Usage Insights data, go to [Usage Insights data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md).
+    -   If your visualization represents MetricBase data, go to [MetricBase data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-mb-data.md).
 7.  Under **Presentation**, provide display and color information.
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
@@ -99,7 +231,7 @@ Description
 
 </th></tr></thead><tbody><tr><td colspan="2">
 
-Display settings: Each chart type, such as Area and Column, has a different set of display settings. See [Display settings for different time series charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/display-settings-ts-charts.md).
+Display settings: Each visualization type, such as Area and Column, has a different set of display settings. See [Display settings for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/display-settings-ts-charts.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -178,7 +310,7 @@ Show grid
 
 </td><td>
 
-When turned on, grid lines appear on the chart.
+When enabled, grid lines appear on the visualization.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -265,7 +397,7 @@ This option is available only for Table data sources and only if no more than on
  **Note:** Single color is only available when no **Group by** is selected.
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer clicks a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -281,7 +413,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user clicks in a chart or one of its segments.
+Enable an event to occur when a user selects a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -289,23 +421,20 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md).
+Choose the event that occurs when a user selects in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md).
 
--   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
-
-Not supported for User Experience Analytics data sources.
-
+-   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
-**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records do not open in Workspace embedded lists.
+**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records don't open in Workspace embedded lists.
 
 **Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
 </table>9.  Select **Save**.
 
-    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the Data Visualization list.
+    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 
 
 ## What to do next
@@ -314,23 +443,27 @@ Not supported for User Experience Analytics data sources.
 -   [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-dv-ac.md)
 -   [Bookmark a visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/bookmark-dv-ac.md)
 
--   **[Time series visualization type use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/time-series-visualization-types.md)**  
+-   **[Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/time-series-visualization-types.md)**  
 Time series visualizations can emphasize the trend in the data or specific changes in the data. They can show one data source or compare several related data sources.
 -   **[Table data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-table-data.md)**  
 The following Data configuration options are available for all time series type visualizations of table data.
--   **[Indicator data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md)**  
+-   **[Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md)**  
 The following Data configuration options are available for all time series type visualizations of indicator scores.
--   **[User Experience Analytics data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md)**  
-The following Data configuration options are available for all time series type visualizations of User Experience Analytics data.
--   **[MetricBase data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-mb-data.md)**  
+-   **[Usage Insights data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-uxa-data.md)**  
+The following Data configuration options are available for all time series type visualizations of Usage Insights data.
+-   **[MetricBase data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-mb-data.md)**  
 The following data options are available for all time series type visualizations of MetricBase data.
--   **[Display settings for different time series charts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/display-settings-ts-charts.md)**  
+-   **[Display settings for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/display-settings-ts-charts.md)**  
 Each time series visualization type has a different set of display settings.
--   **[Configure a forecast in a time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-forecast-ts-viz.md)**  
+-   **[Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-forecast-ts-viz.md)**  
 If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.
 -   **[Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md)**  
 If you are showing multiple metrics in a time series data visualization, you can set the group by, visualization type, and Y-axis scale for each metric. You can also have filters on a dashboard apply only to specific metrics.
--   **[Time series visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-line.md)**  
+-   **[Period over period comparison in time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/period-over-period-comparison.md)**  
+Period over period comparison overlays several time periods of an indicator on one time series visualization so that you can spot patterns, trends, and anomalies across the periods.
+-   **[Time series visualization changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ts-dv-changes-b.md)**  
+From the Brazil release, several time series visualizations have minor changes in their presentations.
+-   **[Time series data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-line.md)**  
 Time series visualizations show the changes in data over time. This example starts with a single indicator data source and adds more complexity.
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/creating-data-visualizations.md)

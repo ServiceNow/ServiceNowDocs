@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/create-gcp-service-accounts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up Google Cloud Platform service accounts, Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Set up Google Cloud Platform service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Create GCP service accounts

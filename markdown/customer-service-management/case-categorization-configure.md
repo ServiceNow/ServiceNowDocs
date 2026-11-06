@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-categorization-configure.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Task Intelligence for Customer Service, Task Intelligence for Customer Service, Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Configure record categorization
@@ -39,7 +39,7 @@ Activate the Task Intelligence for Customer Service application \(com.snc.csm\_m
 The Task Intelligence for Customer Service application enables customers to create and train categorization machine learning models. This application automatically activates the following plugins:
 
 -   Predictive Intelligence for Customer Service Management \(com.snc.csm\_ml\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Skills Management \(com.snc.skills\_management\)
 -   Dynamic Translation \(com.glide.dynamic\_translation\)
 -   ServiceNow Language Detection Service Spoke \(com.glide.language\_detection\_spoke\)

@@ -1,50 +1,59 @@
 ---
-title: Assign a processing activity to a key stakeholder
-description: Assign a processing activity to the defined key stakeholders for the stakeholders to start working on the processing activity.
+title: Enable key stakeholders to update processing activities directly
+description: Enable stakeholders to update processing activities directly from the Employee Center by assigning the activity to them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Assign a processing activity to a key stakeholder
+# Enable key stakeholders to update processing activities directly
 
-Assign a processing activity to the defined key stakeholders for the stakeholders to start working on the processing activity.
+Enable stakeholders to update processing activities directly from the Employee Center by assigning the activity to them.
 
 ## Before you begin
+
+The stakeholder must have the processing activity privilege **Edit processing activity and respond to privacy assessments**.
 
 Role required: sn\_privacy.analyst
 
 ## About this task
 
-You can assign a processing activity to a key stakeholder when the processing activity is in the **Discover** state. After the key stakeholder updates the processing activity, they can assign the processing activity back to the privacy team.
+Processing activities must be in the Discover state to be assigned to a key stakeholder.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace** &gt; **List** &gt; **Processing activities** &gt; **Unassigned processing activities**.
+1.  Navigate to **Workspaces** &gt; **Privacy Workspace**.
 
-2.  Select the processing activity that you want to assign to a key stakeholder.
+2.  Select the List icon \[Omitted image "ListsIcon.jpg"\] Alt text:.
 
-3.  Select **Assign to key stakeholder**.
+3.  In the **Lists** tab, select **Processing activities** &gt; **Unassigned processing activities**.
 
-4.  In the Assign to key stakeholder window, select a stakeholder.
+4.  Select the processing activity to be assigned to a key stakeholder.
 
-5.  Select **Assign**.
+5.  Select the more actions icon \[Omitted image "more-actions-new.png"\], and select **Assign to key stakeholder**.
+
+    **Note:** If a different stakeholder is already assigned to the processing activity, select **Reassign to key stakeholder** to remove that stakeholder's edit access.
+
+6.  In the **Assign to key stakeholder** window, select a stakeholder.
+
+    **Note:** Only stakeholders with the **Edit processing activity and respond to privacy assessments** privilege are listed. To modify privileges, see [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
+
+7.  Select **Assign**.
 
 
 ## Result
 
-The processing activity is assigned to the key stakeholder. The processing activity is available for review and update in the Employee Center under **GRC tasks**.
+The assigned stakeholder receives an email notifying them of the processing activity assignment. The stakeholder can navigate to **Employee Center** &gt; **GRC tasks** &gt; **Tasks** &gt; **My pending tasks** &gt; **Processing activities** to view and edit the assigned processing activity record.
+
+## What to do next
+
+[Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md)
 
 **Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
-
-**Related topics**  
-
-
-[Integrating Employee Center and Risk portal with Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/integrate-privacy-and-employee-center.md)
 

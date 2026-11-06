@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-card-font-icons.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
@@ -93,6 +93,14 @@ Use mobile card font icons in the body of mobile cards. Mobile card font icons a
 |Tags-Outline|e938|Xanadu|\[Omitted image "mab-icon-mobcard-tags-outl.png"\] Alt text: Tags-Outline example| |
 |Icon added in the Yokohama release|
 |Tree-Outline|e93a|Yokohama|\[Omitted image "mab-icon-mobcard-tree-out.png"\] Alt text: Tree-Outline example| |
+|Icon added in the Zurich release|
+|Chart-Dependency-Outline|e93b|Zurich|\[Omitted image "mab-icon-mobcard-chrtdepout.png"\] Alt text: Chart-Dependency-Outline example| |
+|Icons added in the Australia release|
+|User-Group-Outline|e93c|Australia|\[Omitted image "mab-icon-card-user-group.png"\] Alt text: User-Group-Outline example| |
+|Calendar-Days-Outline|e93d|Australia|\[Omitted image "mab-icon-card-cal-days.png"\] Alt text: Calendar-Days-Outline example| |
+|Clipboard-Lines-Outline|e93e|Australia|\[Omitted image "mab-icon-card-clip-lines.png"\] Alt text: Clipboard-Lines-Outline example| |
+|Icons added in Brazil release|
+|SN-Sparkmoji-Logo|e93f|Brazil|\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example| |
 
 **Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-icon-reference.md)
 

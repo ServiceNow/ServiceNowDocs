@@ -7,7 +7,7 @@ release: yokohama
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -32,8 +32,6 @@ Use the demo data of the Cost Management plugin to understand how to check all e
 
 3.  View the business service map by selecting the dependency views icon \(\[Omitted image "dependency-views.png"\] Alt text: Dependency views.\).
 
-    \[Omitted image "CostDemoRetailBsm.jpg"\] Alt text: Retail business service map.
-
     This view shows that the dbaix901nyc server is a dependency of the Retail Adding Points, Retail POS, and Retail business services. So whenever the dbaix901nyc server incurs a cost, it would be represented at each of the business services.
 
     The dbaix901nyc server is a member of the Sun E20K Servers NY CI rate card, so the expenses can be verified from this CI rate card.
@@ -49,7 +47,7 @@ Use the demo data of the Cost Management plugin to understand how to check all e
     4.  Filter the related list for **short description contains dbaix901nyc**.
     The server's expenses are now visible:
 
-    \[Omitted image "CostDemoServerexp.jpg"\] Alt text: Cost Demo Server Expense
+    \[Omitted image "CostDemoServerexp.png"\] Alt text: Cost Demo Server Expense
 
     This example contains one direct expense \(**inherited = false**\), and three inherited expenses that have been generated from other direct expenses. These inherited expenses are based on CI relationships, which allow for reporting at any business service level.
 

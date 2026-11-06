@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/color-var-map-pin.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Color theme considerations for mobile, Configure Next Experience theming for mobile, Next Experience theming for mobile, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Color theme considerations, Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Color variable support for map icons
@@ -24,7 +24,7 @@ Map screens have a **Pin Color** section with a **Pin color variable** field to 
 
 </td><td>
 
-\[Omitted image "color-var-example-3.png"\] Alt text: Color variable used in an icon UI section
+\[Omitted image "color-var-example-3.png"\] Alt text: Pin color showing the color labeled as Primary 1.
 
 </td></tr></tbody>
 </table>## Color design guide for map pins

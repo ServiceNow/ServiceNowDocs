@@ -1,20 +1,20 @@
 ---
 title: Create a lifecycle event case using Agent Workspace for HR Case Management
-description: There are multiple ways to create a Lifecycle Event case.
+description: Create lifecycle event cases in Agent Workspace to manage employee transitions such as new hire onboarding, transfers, and offboarding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-ls.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lifecycle event cases in Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Lifecycle event cases in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a lifecycle event case using Agent Workspace for HR Case Management
 
-There are multiple ways to create a Lifecycle Event case.
+Create lifecycle event cases in Agent Workspace to manage employee transitions such as new hire onboarding, transfers, and offboarding.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: sn\_hr\_le.case\_writer
 
 2.  From the Lifecycle Events Cases list, select the **New** button.
 
-    Alternatively, click the \[Omitted image "IconCreateRecordMenu.png"\] Alt text: HR Agent Workspace - Add New icon Add New icon and select **HR Case**.
+    Alternatively, select the Add New icon \(\[Omitted image "IconCreateRecordMenu.png"\] Alt text: Add New icon\) and select **HR Case**.
 
 3.  Enter an employee name or case number.
 

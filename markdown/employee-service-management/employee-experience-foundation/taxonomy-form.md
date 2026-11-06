@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Taxonomy form
@@ -82,7 +82,7 @@ Description of the taxonomy content.
 
 [Activity Configuration Detail form]()
 
-[Browser Extension for Employee Center forms]()
+[Approvals experience reference]()
 
 [Connected Content form]()
 
@@ -118,21 +118,23 @@ Description of the taxonomy content.
 
 [Portal notification content form]()
 
-[Quick Link form]()
-
-[Standard banner and icon sizes]()
-
 [Trigger conditions form]()
+
+[Quick Link form]()
 
 [Tab widget mapping form]()
 
 [Topic form]()
 
-[To-do content form]()
-
 [User Criteria form]()
 
 [User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 
 [Unified Taxonomy for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-taxonomy.md)
 

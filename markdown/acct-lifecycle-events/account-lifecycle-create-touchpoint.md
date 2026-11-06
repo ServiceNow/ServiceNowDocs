@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-touchpoint.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create a touchpoint
@@ -16,21 +16,21 @@ Create a touchpoint to capture and support conversations between providers and c
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
-During the lifecycle of an engagement, providers and customers may have frequent conversations, sync-up meetings, reviews, and so on. A touchpoint is meant to capture and support these discussions and share information among the various stakeholders. Additionally, customers can raise touchpoints to their provider about any number of topics, ask for support, or request details about a given objective.
+During the lifecycle of an engagement, providers and customers may have frequent conversations, synchronization-up meetings, reviews, and so on. A touchpoint is meant to capture and support these discussions and share information among the various stakeholders. Additionally, customers can raise touchpoints to their provider about any number of topics, ask for support, or request details about a given objective.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to **Customer Success** &gt; **All Engagements**.
 
 3.  Open the engagement for which you want to add touchpoints.
 
-4.  Select **Touchpoint** from the drop down list.
+4.  Select **Touchpoint** from the drop-down list.
 
 5.  On the form, fill in the fields.
 
@@ -64,7 +64,7 @@ Engagement
 
 </td><td>
 
-Select the engagement record to which the touchpoint is related. This is a mandatory field.
+Select the engagement record to which the touchpoint is related. This is a required field.
 
 </td></tr><tr><td>
 
@@ -172,7 +172,7 @@ Product
 
 </td><td>
 
-The product to which this touchpoint is related. Select the checkbox to indicate if the touchpoint is related to a specific product that has been sold.
+The product to which this touchpoint is related. Select the check box to indicate if the touchpoint is related to a specific product that has been sold.
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Subject
 
 </td><td>
 
-Enter the subject for this touchpoint. This is a mandatory field.
+Enter the subject for this touchpoint. This is a required field.
 
 </td></tr><tr><td>
 
@@ -204,7 +204,7 @@ Description
 
 </td><td>
 
-Enter a description for this touchpoint. This is a mandatory field.
+Enter a description for this touchpoint. This is a required field.
 
 </td></tr><tr><td>
 
@@ -220,11 +220,21 @@ Additional comments
 
 </td><td>
 
-Any additional information that needs to be provided to the customer.
+Any additional information that must be provided to the customer.
+
+</td></tr><tr><td>
+
+Needs attention
+
+</td><td>
+
+Clear the check box to make Blocked by capability work.
 
 </td></tr></tbody>
 </table>    **Note:** The `Meeting date` and `Meeting type` fields have been deprecated from the Yokohama release.
 
-6.  Click **Save** to create a new touchpoint.
+6.  Select **Save** to create touchpoint.
 
+
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

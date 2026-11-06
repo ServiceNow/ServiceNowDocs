@@ -1,20 +1,20 @@
 ---
 title: Set up resource order controls
-description: Create quota definitions and policies mapped to cloud-template based catalog items. Use policy rules and actions to trigger an approval workflow or notification when the quota limit defined for the group or user exceeds.
+description: Create quota definitions and policies mapped to cloud-template based catalog items. Use policy rules and actions to trigger an approval subflow or notification when the quota limit defined for the group or user exceeds.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/set-up-resource-order-controls.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Resource order controls for template-based catalog items, Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Resource order controls, Quotas and resource order controls, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up resource order controls
 
-Create quota definitions and policies mapped to cloud-template based catalog items. Use policy rules and actions to trigger an approval workflow or notification when the quota limit defined for the group or user exceeds.
+Create quota definitions and policies mapped to cloud-template based catalog items. Use policy rules and actions to trigger an approval subflow or notification when the quota limit defined for the group or user exceeds.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ Consider the following points before you begin setting up resource order control
 
     2.  Specify quota definitions.
 
-        The Resource Order Control base system policy has the default ServiceNow approval policy rule configured by default. If you want to trigger other actions such as notifications or a custom approval workflow when the resource limit is exceeded, you can either modify the base system policy action or create a custom policy for your instance.
+        The Resource Order Control base system policy has the default ServiceNow approval policy rule configured by default. If you want to trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded, you have two options. You can either modify the base system policy action or create a custom policy for your instance.
 
     -   Modify a base system quota definition by specifying the default quota values per user and user group and the user groups to which the defined quota applies.
 
@@ -80,7 +80,7 @@ Consider the following points before you begin setting up resource order control
 
     3.  Navigate to the Rules related list and either modify a base system rule or configure a new rule if you have numerous customizations.
 
-    -   Select the base system **approveresourcelimit** rule and modify it to include a policy action triggering a custom workflow or a notification.
+    -   Select the base system **approveresourcelimit** rule and modify it to include a policy action triggering a custom subflow or a notification.
 
         **Note:** By default, only the ServiceNow approval action is configured for the **approveresourcelimit** rule.
 
@@ -90,8 +90,8 @@ Consider the following points before you begin setting up resource order control
 
 4.  Configure a policy rule action.
 
-    -   Select the base system approve policy rule action in the Policy Rule Actions related list to include a notification or a custom approval workflow.
-    -   Create a cloud policy rule action in the Policy Rule Actions related list, to trigger custom approval workflows or notifications, if you created a policy rule in the previous step.
+    -   Select the base system approve policy rule action in the Policy Rule Actions related list to include a notification or a custom approval subflow.
+    -   Create a cloud policy rule action in the Policy Rule Actions related list, to trigger custom approval subflows or notifications, if you created a policy rule in the previous step.
 
         For more information, see [Create an action for 'on Resource Limit exceeded' policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.md).
 
@@ -102,9 +102,9 @@ Consider the following points before you begin setting up resource order control
 
 ## Result
 
-Based on the Policy Rule action you configured for the Resource order control policy, either an email notification or an approval workflow or both will be triggered if the specified quota is exceeded.
+Based on the Policy Rule action you configured for the Resource order control policy, either an email notification or an approval subflow or both will be triggered if the specified quota is exceeded.
 
-If you have configured an approval policy, the requester receives a notification stating that the approval request has been sent to a designated approver on exceeding the specified quota. Typically, the assigned approver designed the template used to create the cloud resource and has the **sn\_cmp.cloud\_service\_designer** role.
+If you have configured an approval policy, the requester receives a notification when the specified quota is exceeded. The notification states that the approval request has been sent to a designated approver. Typically, the assigned approver designed the template used to create the cloud resource and has the **sn\_cmp.cloud\_service\_designer** role.
 
 **Parent Topic:**[Resource order controls for template-based catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-order-control-template-based-catalog.md)
 

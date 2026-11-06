@@ -1,30 +1,32 @@
 ---
-title: Initiate conference call on incident communication task
-description: Initiate a conference call and include all the required stakeholders to discuss on the resolution of the incident and the communication task.
+title: Initiate a conference call on an incident communication task
+description: Initiate a conference call with the required stakeholders to discuss the resolution of the incident and the communication task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-communications-management/initiate-conf-call.html
 release: yokohama
 product: Incident Communications Management
 classification: incident-communications-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Incident Communications Management, IT Service Management]
+breadcrumb: [Managing incident communications, Incident Communications Management, IT Service Management]
 ---
 
-# Initiate conference call on incident communication task
+# Initiate a conference call on an incident communication task
 
-Initiate a conference call and include all the required stakeholders to discuss on the resolution of the incident and the communication task.
+Initiate a conference call with the required stakeholders to discuss the resolution of the incident and the communication task.
 
 ## Before you begin
 
 Role required: sn\_comm\_management.comm\_plan\_manager or sn\_comm\_management.comm\_plan\_admin
 
-Activate the Notify plugin \(com.snc.notify\), configure the Twilio account, configure the **com.snc.iam.notify\_number** property and create a default provider selector. You can also create a provider selector on the Incident Communication Task table \[incident\_alert\_task\]. The provider selector specifies the Notify group containing the Notify phone numbers or conference provider to make outgoing calls.
+The Notify plugin \(com.snc.notify\) must be active, the Twilio account and the **com.snc.iam.notify\_number** property must be configured, and a default provider selector must exist. You can also create a provider selector on the Incident Communication Task table \[incident\_alert\_task\]. The provider selector specifies the Notify group containing the Notify phone numbers or conference provider to make outgoing calls.
 
 ## Procedure
 
-1.  Navigate to **Incident** &gt; **All**.
+1.  Navigate to **All** &gt; **Incident** &gt; **All**.
+
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Open an incident record.
 
@@ -32,10 +34,10 @@ Activate the Notify plugin \(com.snc.notify\), configure the Twilio account, con
 
 4.  From the Incident Communication Tasks related list, open the incident communication task.
 
-5.  In the related link, click **Initiate Conference Call**.
+5.  In the related links, select **Initiate Conference Call**.
 
-6.  Select the conference bridge number and the participants for the conference call and click **Start Call**.
+6.  Select the conference bridge number and the participants, and then select **Start Call**.
 
 
-**Parent Topic:**[Managing Incident Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
+**Parent Topic:**[Managing incident communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-communications-management/working-with-inci-comm-mgmt.md)
 

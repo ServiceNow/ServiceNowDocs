@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -37,5 +37,5 @@ Role required: admin \(sn\_wsd\_wc.admin\)
 
 **Previous topic:**[Install Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/install-workplace-connectors.md)
 
-**Next topic:**[Configure data Sources and schedule imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/import-data-connector.md)
+**Next topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 

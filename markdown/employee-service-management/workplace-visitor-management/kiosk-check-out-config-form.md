@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -81,4 +81,12 @@ Option to make the page configuration active.
 [Kiosk Page Customizations]()
 
 [Location Policy form]()
+
+[New visit form]()
+
+[Additional requirement form]()
+
+[About visit-related tables]()
+
+[Differences between Workplace Visitor Management versions]()
 

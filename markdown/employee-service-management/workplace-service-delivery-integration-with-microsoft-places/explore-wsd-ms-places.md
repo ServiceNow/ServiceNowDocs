@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [WSD for Microsoft places, Workplace Service Delivery, Employee Serv
 Manage and create all your workplace service requests from the WSD for Microsoft places application integrated with Microsoft Teams.
 
 The WSD for Microsoft places application integrated with the Microsoft Teams enables you to create and manage open workplace service requests. You can manage and create workplace service requests from **Equipment**, **Reservation services**, and **Site services** tabs.
-
-\[Omitted image "wsd-ms-places-home.png"\] Alt text: WSD for MS Places \[Omitted image "wsd-ms-places-home2.png"\] Alt text: WSD for MS Places 2
 
 As a workplace user, the application enables you to perform the following actions:
 
@@ -32,7 +30,7 @@ As a workplace user, the application enables you to perform the following action
 -   You can create a **Catering** service request from **Reservation services**.
 -   You can create service requests like **Badge request**, **Heating &amp; Cooling**, **Tech support**, and **Cleaning** requests from **Site services**.
 
-For more information about raising service requests, refer to [Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md).
+For more information about raising service requests, refer to [Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md).
 
 **Related topics**  
 

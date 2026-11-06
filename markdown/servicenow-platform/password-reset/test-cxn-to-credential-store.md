@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Credential stores for Password Reset, Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Credential stores for Password Reset, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Test the connection to a credential store
@@ -18,7 +18,7 @@ You should test the connection to a credential store after you configure a new c
 
 ## Before you begin
 
-Role required: admin
+Role required: password\_reset\_admin
 
 ## Procedure
 

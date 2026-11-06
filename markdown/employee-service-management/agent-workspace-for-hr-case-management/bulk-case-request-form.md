@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Workspace for HR Case Management reference, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace for HR Case Management reference, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Bulk case request form
@@ -98,7 +98,7 @@ Date and time your bulk case request was submitted to create cases. The value of
 **Related topics**  
 
 
-[Create a new case form]()
+[Create a case form]()
 
 [Page Configurations reference]()
 

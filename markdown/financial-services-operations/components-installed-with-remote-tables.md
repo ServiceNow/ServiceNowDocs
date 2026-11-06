@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-remote-tables.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Financial Services Remote Tables, Data Model, Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [Remote Tables, Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Remote Tables

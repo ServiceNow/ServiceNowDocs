@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateAnOpenFrameConfiguration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the phone channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [OpenFrame overview, Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Create an OpenFrame configuration
@@ -20,13 +20,13 @@ Role required: admin
 
 ## About this task
 
-As part of the OpenFrame configuration, users with the admin role can select one or more user groups. Access to the configuration is limited to the users that have the OpenFrame user role and that belong to the selected groups.
+As part of the OpenFrame configuration, users with the admin role can select one or more user groups. Access to the configuration is limited to the users that have the openframe user role and that belong to the selected groups.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **OpenFrame** &gt; **Configurations** to display the OpenFrame Configurations list.
 
-2.  Select **New**.
+2.  Click **New**.
 
 3.  Fill in the fields, as appropriate.
 
@@ -94,7 +94,7 @@ User Group
 
 </td><td>
 
-The user groups selected for this configuration. Access to this configuration is limited to the users that have the OpenFrame user role and that belong to the selected groups.**Note:** If you do not select any groups, the configuration is available to all users with the OpenFrame user role.
+The user groups selected for this configuration. Access to this configuration is limited to the users that have the openframe user role and that belong to the selected groups.**Note:** If you do not select any groups, the configuration is available to all users with the openframe user role.
 
 </td></tr><tr><td>
 
@@ -150,12 +150,12 @@ Configuration
 
 </td><td>
 
-Can be used to store any JSON-encoded string.
+Can be used to store any JSON encoded string.
 
 </td></tr></tbody>
 </table>    **Note:** Several fields on the OpenFrame Configuration form can also be set by using the OpenFrame API. These fields include: **Title**, **Subtitle**, **Width**, **Height**, and **Title Icon**.
 
-4.  Select **Submit**.
+4.  Click **Submit**.
 
 
 **Related topics**  

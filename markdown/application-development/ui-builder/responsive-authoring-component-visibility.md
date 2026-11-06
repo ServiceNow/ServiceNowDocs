@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Adjusting component visibility in responsive authoring
@@ -68,11 +68,7 @@ In this procedure, show buttons across the top for the desktop and tablet form f
 
     **Note:** To add the buttons, point to **Button 1** in the content tree, select the menu icon, and then select **Add after**.
 
-    \[Omitted image "responsive-author-vis4.png"\] Alt text: Adding after
-
 9.  Check that the content tree and page are accurate.
-
-    \[Omitted image "responsive-author-vis5.png"\] Alt text: Content tree and page with column layout, column, and button components added.
 
 10. Add some space around each button.
 
@@ -102,23 +98,17 @@ In this procedure, show buttons across the top for the desktop and tablet form f
 
     The page looks good at desktop width.
 
-    \[Omitted image "responsive-author-layout9.png"\] Alt text: Buttons shown in horizontal layout at desktop form factor.
-
 13. Select the tablet form factor icon.
 
     \[Omitted image "responsive-author-icon-tablet.png"\] Alt text: Black arrow pointing to tablet form factor icon at the top of a UI Builder page in editor view.
 
     The spacing and position of the buttons also looks good at tablet width.
 
-    \[Omitted image "responsive-author-layout10.png"\] Alt text: Buttons shown in horizontal layout at tablet form factor.
-
 14. Select the mobile responsive authoring icon.
 
     \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
 
     The buttons use almost all the horizontal space at the smaller size.
-
-    \[Omitted image "responsive-author-vis7.png"\] Alt text: Buttons shown in horizontal layout at mobile form factor.
 
 15. Add the dropdown component.
 
@@ -175,8 +165,6 @@ In this procedure, show buttons across the top for the desktop and tablet form f
 19. Select **Preview**.
 
     The mobile form factor is displayed with the menu icon. If you select the arrow, the default options are displayed \(List item 1, List item 2, and so on\). You would configure the dropdown component to display **Tasks**, **Incidents**, and **Changes** just like the horizontal buttons available at the tablet and desktop form factors.
-
-    \[Omitted image "responsive-author-layout12.png"\] Alt text: Mobile form factor displayed in preview overlay.
 
 20. Select the desktop and tablet form factor icons at the top.
 

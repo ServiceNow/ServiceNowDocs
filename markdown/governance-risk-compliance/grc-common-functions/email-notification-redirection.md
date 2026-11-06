@@ -1,20 +1,20 @@
 ---
 title: GRC notification redirection
-description: When you receive notifications for GRC records, you are directed to either the workspace view or classic view based on your access permissions and role. This feature enables you to work directly in the appropriate interface without manual navigation.
+description: When you receive notifications for GRC records, you're directed to either the workspace view or classic view based on your access permissions and role. This feature enables you to work directly in the appropriate interface without manual navigation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/email-notification-redirection.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # GRC notification redirection
 
-When you receive notifications for GRC records, you are directed to either the workspace view or classic view based on your access permissions and role. This feature enables you to work directly in the appropriate interface without manual navigation.
+When you receive notifications for GRC records, you're directed to either the workspace view or classic view based on your access permissions and role. This feature enables you to work directly in the appropriate interface without manual navigation.
 
 ## How it works
 
@@ -22,7 +22,7 @@ When you select a link in a notification, the system determines where to direct 
 
 -   If you have access to a workspace, you're directed to the workspace view of the record.
 -   If you don't have workspace access, you're directed to the classic view of the record.
--   If you have access to multiple workspaces, you're directed to the workspace view of the record in the workspace that takes precedence based on your administrator's configuration.
+-   If you have access to multiple workspaces, you're directed to the workspace view of the record in the workspace that takes precedence based on your administrator's configuration. For workspaces where dynamic routing is configured, routing is applied automatically.
 
 ## Benefits
 
@@ -33,6 +33,8 @@ When you select a link in a notification, the system determines where to direct 
 
 -   **[Configure GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.md)**  
 Create notification routing rules that automatically direct users to workspace view or classic view based on their access permissions.
+-   **[Modify email notifications to use notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.md)**  
+Update email notifications to use the notification redirection framework so users are automatically directed to the appropriate view based on their workspace access.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

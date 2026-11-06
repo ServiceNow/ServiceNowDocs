@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/integrate-operational-sustainability-with-SocialSuite.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

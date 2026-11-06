@@ -1,5 +1,5 @@
 ---
-title: Integrate Workplace Services Kiosk
+title: Integrating Workplace Services Kiosk
 description: Integrate Workplace Services Kiosk with Workplace Service Delivery features to provide different experiences to kiosk users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-services-kiosk/integrating-workplace-services-kiosk.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Integrate Workplace Services Kiosk
+# Integrating Workplace Services Kiosk
 
 Integrate Workplace Services Kiosk with Workplace Service Delivery features to provide different experiences to kiosk users.
 

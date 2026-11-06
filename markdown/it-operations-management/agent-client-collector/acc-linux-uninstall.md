@@ -1,5 +1,5 @@
 ---
-title: Uninstall Agent Client Collector from a Linux system
+title: Uninstall Agent Client Collector from a Linux system manually
 description: Uninstall the Agent Client Collector from a Linux machine manually if the command script is unavailable due to the specific agent not being connected to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-linux-uninstall.html
@@ -7,18 +7,19 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Perform a single-line ACC installation on Linux, Agent Client Collector installation on a Linux OS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Uninstall Agent Client Collector from a Linux system
+# Uninstall Agent Client Collector from a Linux system manually
 
 Uninstall the Agent Client Collector from a Linux machine manually if the command script is unavailable due to the specific agent not being connected to the instance.
 
 ## Before you begin
 
-Role required: agent\_client\_collector\_admin
+-   The uninstall procedure is the same for both MID Server and MID-less deployments.
+-   Role required: agent\_client\_collector\_admin
 
 ## About this task
 
@@ -50,5 +51,5 @@ By default, an uninstalled agent is removed from the system after 30 days. To mo
     **Warning:** Do not use the command rm -Rf, as this can cause data loss.
 
 
-**Parent Topic:**[Perform a single-line Agent Client Collector installation on Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-oneliner-install.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

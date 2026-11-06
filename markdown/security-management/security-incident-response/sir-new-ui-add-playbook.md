@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Additional Security Analyst Workspace configuration, Configure the 
 Add new playbooks to the playbook selection list.
 
 You can select an appropriate playbook to investigate security incidents in the Security Analyst Workspace \([Manage security threats using the Security Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir-new-ui.md)\). The playbook selection option supports only the playbooks which are designed using Flow Designer.
-
-\[Omitted image "add-task-button-callout-1.png"\] Alt text: Security Incident New UI: Select playbook
 
 After you have created a playbook using Flow Designer, follow these steps to include it in the Selected Playbook choice list:
 

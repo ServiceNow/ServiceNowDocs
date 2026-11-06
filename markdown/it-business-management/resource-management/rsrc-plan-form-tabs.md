@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Resource Plan form, Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---

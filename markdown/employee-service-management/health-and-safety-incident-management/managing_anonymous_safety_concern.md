@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Managing an anonymous safety concern
@@ -29,5 +29,5 @@ You can retrieve your anonymous report to submit or view comments and updates fr
 -   **[Work on an anonymous safety concern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/work-anonymous-safety-concern.md)**  
 Only an agent with the sensitive content role \[sn\_ohs\_im.sensitive\_observation\_content\_user\] can view and work on the anonymous report in the Health and Safety Workspace.
 
-**Parent Topic:**[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
+**Parent Topic:**[Manage incidents, observations, and anonymous safety concerns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-manage-incidents-observations-annonymous-concerns.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [My Learning, Exploring Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [My Learning, Exploring Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Assigned to your team
@@ -30,6 +30,4 @@ The Assigned to your team tab has the following information that helps you under
     -   Completed.
 -   Filters: Use the Employee, Status, Content type, Due date, and Completion date filters to sort your team's learnings.
 -   Assign learning: As a manager, assign Learning to your team members to enhance their skills.
-
-**Parent Topic:**[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp.md)
 

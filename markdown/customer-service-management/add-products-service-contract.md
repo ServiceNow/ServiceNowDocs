@@ -1,18 +1,18 @@
 ---
-title: Add a sold product or install base item to a service contract
-description: Add the sold products or the install base items covered to service contracts, contract lines, or entitlements.
+title: Add a sold product or install base item to a customer contract
+description: Add the sold products or the install base items covered to customer contracts, contract lines, or entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-products-service-contract.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Customer Contracts and Entitlements, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
-# Add a sold product or install base item to a service contract
+# Add a sold product or install base item to a customer contract
 
-Add the sold products or the install base items covered to service contracts, contract lines, or entitlements.
+Add the sold products or the install base items covered to customer contracts, contract lines, or entitlements.
 
 ## Before you begin
 
@@ -32,15 +32,15 @@ A sold product or an install base item can be added to a Customer Contracts and 
 
 1.  Navigate to the ServiceNow AI Platform interface or the CRM Workspace.
 
-<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d147919e82">
+<table id="choicetable_zqd_tnc_pzb"><thead><tr><th align="left" id="d178905e88">
 
 Interface
 
-</th><th align="left" id="d147919e85">
+</th><th align="left" id="d178905e91">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d147919e91">
+</th></tr></thead><tbody><tr><td id="d178905e97">
 
 **ServiceNow AI Platform interface**
 
@@ -48,68 +48,68 @@ Action
 
 Navigate to **All** &gt; **Customer Service** &gt; **Contracts and Entitlements**.
 
-</td></tr><tr><td id="d147919e114">
+</td></tr><tr><td id="d178905e120">
 
 **CRM Workspace**
 
 </td><td>
 
--   Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **CSM Configurable Workspace**.
+-   Navigate to **All** &gt; **Workspace Experience** &gt; **Workspaces** &gt; **CRM Workspace**.
 -   In the list view, navigate to **Contracts and Entitlements**.
 
 
 </td></tr></tbody>
-</table>2.  Add the sold product or install base item covered to service contracts, contract lines, or entitlements.
+</table>2.  Add the sold product or install base item covered to customer contracts, contract lines, or entitlements.
 
-<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d147919e164">
+<table id="choicetable_zqd_tnc_pzb1"><thead><tr><th align="left" id="d178905e171">
 
 Add to
 
-</th><th align="left" id="d147919e167">
+</th><th align="left" id="d178905e174">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d147919e173">
+</th></tr></thead><tbody><tr><td id="d178905e180">
 
-**Service Contracts**
+**Customer Contracts**
 
 </td><td>
 
-1.  In the list view, navigate to **Contracts and Entitlements** &gt; **Service Contracts**.
+1.  In the list view, navigate to **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-**Note:** In the ServiceNow AI Platform interface, select **Service Contracts** in the navigation menu.
+**Note:** In the ServiceNow AI Platform interface, select **Customer Contracts** in the navigation menu.
 
-2.  Select the service contract that you want to add the sold product or install base item to.
+2.  Select the customer contract that you want to add the sold product or install base item to.
 3.  From the Products Covered or Install Base Items Covered related list, select **New**.
 
 
-</td></tr><tr><td id="d147919e214">
+</td></tr><tr><td id="d178905e221">
 
-**Service Contract Lines**
+**Customer Contract Lines**
 
 </td><td>
 
-1.  In the list view, navigate to **Contracts and Entitlements** &gt; **Service Contracts**.
+1.  In the list view, navigate to **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-**Note:** In the ServiceNow AI Platform interface, select **Service Contracts** in the navigation menu.
+**Note:** In the ServiceNow AI Platform interface, select **Customer Contracts** in the navigation menu.
 
-2.  Select the service contract that has the required contract line.
-3.  From the Service Contract Lines related list, select the contract line that you want to add the sold product or install base item covered to.
+2.  Select the customer contract that has the required contract line.
+3.  From the Customer Contract Lines related list, select the contract line that you want to add the sold product or install base item covered to.
 4.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
- **Note:** When a sold product or an install base item covered is added to a contract line, it's not added to the related entitlements.
+ **Note:** When a sold product or an install base item covered is added to a contract line, it is not added to the related entitlements.
 
-</td></tr><tr><td id="d147919e267">
+</td></tr><tr><td id="d178905e268">
 
 **Entitlements**
 
 </td><td>
 
-1.  In the list view, navigate to **Contracts and Entitlements** &gt; **Service Contracts**.
+1.  In the list view, navigate to **Contracts and Entitlements** &gt; **Customer Contracts**.
 
-**Note:** In the ServiceNow AI Platform interface, select **Service Contracts** in the navigation menu.
+**Note:** In the ServiceNow AI Platform interface, select **Customer Contracts** in the navigation menu.
 
-2.  Select the service contract that has the required contract line.
-3.  From the Service Contract Lines related list, select the contract line that has the required entitlement.
+2.  Select the customer contract that has the required contract line.
+3.  From the Customer Contract Lines related list, select the contract line that has the required entitlement.
 4.  From the Entitlements related list, select the entitlement that you want to add the sold product or install base item to.
 5.  From the Sold Product Covered or Install Base Items Covered related list, select **New**.
  You can also directly navigate to Entitlements form as follows:
@@ -126,7 +126,7 @@ Procedure
 </table>    **Note:**
 
     -   You can either add a sold product or an install base item to the Customer Contracts and Entitlements entity.
-    -   The state of the entity shouldn't be Expired or Cancelled.
+    -   The state of the entity shouldn't be Expired or Canceled.
 3.  On the Sold Product Covered form, fill in the fields.
 
     For a description of the field values, see [Sold product form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/sold-product-form.md).

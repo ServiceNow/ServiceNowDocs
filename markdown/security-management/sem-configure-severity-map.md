@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-configure-severity-map.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -30,7 +30,7 @@ Creating or editing a severity map is intended only for customized or non-standa
 
 2.  Select **Administration** in the navigation pane.
 
-3.  Under **Others**, select **Review** on the **Normalized Severity Mapping** tile.
+3.  Under **Others**, select **Review** on the **Normalized severity maps** tile.
 
 4.  Select **New**.
 
@@ -72,6 +72,18 @@ Source value
 </td><td>
 
 The source severity value.
+
+</td></tr><tr><td>
+
+Integration type
+
+</td><td>
+
+Integration type choices are:-   Vulnerability Response
+-   Application Vulnerability Response
+-   National Vulnerability Response
+-   Container Vulnerability Response
+
 
 </td></tr></tbody>
 </table>6.  Repeat Step 5 for each source severity level.

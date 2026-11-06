@@ -7,7 +7,7 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
 1.  Navigate to **All** &gt; **Regulatory Change Management** &gt; **Compliance Workspace**.
 
-2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:.
+2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\].
 
 3.  To generate a compliance case report, select **All cases**.
 
@@ -36,7 +36,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
 5.  Open the compliance case or compliance request that you want to export as a PDF report.
 
-6.  Select the more actions icon \[Omitted image "MoreActionsIcon.jpg"\] Alt text:.
+6.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
 
 7.  Select **Export PDF**.
 
@@ -48,6 +48,6 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
     A PDF report is generated and is available in the **Attachments** section of the record to download.
 
-10. To download a local copy of the PDF report, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text: on the PDF report, and select **Download**.
+10. To download a local copy of the PDF report, select the **More actions** \[Omitted image "more-actions-vertical-icon.png"\] icon on the PDF report, and select **Download**.
 
 

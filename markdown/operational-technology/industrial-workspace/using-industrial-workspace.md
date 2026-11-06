@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -30,6 +30,8 @@ You can use the filters on the Operational Technology \(OT\) Progress Scorecard 
 Sort the Operational Technology \(OT\) Progress Scorecard by ascending or descending order to customize your view of the scorecard.
 -   **[Configure the order of your important actions on the Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/configure-order-important-actions-aolp.md)**  
 Configure the order of your important actions on the Operational Technology \(OT\) Action-Oriented Landing Page to personalize how you view your tasks.
+-   **[Operational Technology Vulnerability Risk Rollup dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/ot-risk-rollup-dashboard.md)**  
+The Operational Technology \(OT\) Vulnerability Risk Rollup dashboard contains the risk score of the OT devices at each level of the equipment model.
 -   **[Indicator sources and indicators for the Operational Technology Vulnerability Response \(PA\) dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/indicator-and-indicator-sources-otvr-pa-dashboard.md)**  
 The Operational Technology Vulnerability Response application uses indicator sources and indicators to gather data and track the progress of your vulnerability remediation.
 -   **[Operational Technology Vulnerability Response \(PA\) dashboard breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/breakdowns-otvr-pa-dashboard.md)**  
@@ -44,6 +46,8 @@ View an Operational Technology \(OT\) Unified Map in the Industrial Workspace th
 In the Equipment Model View of the Industrial Workspace, view the previous day's actions and changes that have been performed on the Operational Technology \(OT\) devices in a site.
 -   **[Use the Hardware Vulnerability Assessment menu in the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/using-hva-tabs-.md)**  
 Use the Hardware Vulnerability Assessment menu to view and track all the firmware vulnerability assessments in your OT environment. Also, in the HVA menu you can view the vulnerable items that are created based on the firmware vulnerability assessments.
+-   **[View and edit the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/view-edit-ot-network-map.md)**  
+View and edit the Operational Technology \(OT\) Network Map in the Industrial Workspace to visualize your OT networks per site and their OT devices.
 
 **Parent Topic:**[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 

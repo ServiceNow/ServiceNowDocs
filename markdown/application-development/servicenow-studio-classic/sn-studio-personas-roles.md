@@ -1,26 +1,26 @@
 ---
 title: ServiceNow Studio personas and roles
-description: Admins, delegated developers, and users with Guided Application Creator roles have access to work in ServiceNow Studio.
+description: Admins, delegated developers, and users with Guided Application Creator roles can access and develop in ServiceNow Studio. Each role has different capabilities and permissions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sn-studio-personas-roles.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Managing access to ServiceNow Studio, Configuring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Managing access to ServiceNow Studio, Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio personas and roles
 
-Admins, delegated developers, and users with Guided Application Creator roles have access to work in ServiceNow Studio.
+Admins, delegated developers, and users with Guided Application Creator roles can access and develop in ServiceNow Studio. Each role has different capabilities and permissions.
 
-## ServiceNow Studio personas
+## What can each role do in ServiceNow Studio?
 
-Admins and delegated developers have different capabilities in ServiceNow Studio. Admins can delegate people to work on certain apps and app files by providing delegated developer permissions.
+Admins and delegated developers have different capabilities in ServiceNow Studio. Admins can delegate users to work on specific apps and app files by assigning delegated\_developer permissions.
 
-For more information about roles and access to different app development tools, see [Working with roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
+For more information about roles and access to different app development tools, see [Roles and access in app development tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/working-with-roles-and-access.md).
 
 <table id="table_clb_2w1_xcc"><thead><tr><th>
 
@@ -36,22 +36,6 @@ Capabilities
 
 </th></tr></thead><tbody><tr><td>
 
-Delegated developer \(delegated\_developer\)
-
-</td><td>
-
-Delegated developers have access to just the app or apps they're delegated to. These permissions may vary based on your configuration.
-
-</td><td>
-
--   Access ServiceNow Studio.
--   Update apps that they are given delegated development permissions for.
--   Create an update set to package changes.
--   Create and update app files and other metadata records.
--   Submit an app for deployment through update sets, pipelines, or the Application Repository.
-
-</td></tr><tr><td>
-
 Admin
 
 </td><td>
@@ -62,10 +46,39 @@ Admins can review and approve tasks related to custom application development.
 
 -   Access ServiceNow Studio.
 -   Create apps in ServiceNow Studio.
--   Edit existing apps and app files or delegate development to someone else.
+-   Create Fluent apps in source code from the Explorer tab.
+-   Edit existing apps and metadata records, or delegate development to another user.
 -   Create, edit, and manage update sets.
 -   Update existing metadata records.
 -   Create and edit global \(unscoped\) metadata records.
+
+</td></tr><tr><td>
+
+Delegated developer \(delegated\_developer\)
+
+</td><td>
+
+Delegated developers have access only to the apps they are assigned to. Permissions may vary based on your configuration.
+
+</td><td>
+
+-   Access ServiceNow Studio.
+-   Update apps they have delegated development permissions for.
+-   Create an update set to package changes.
+-   Create and update app files and other metadata records.
+-   Submit an app for deployment through update sets, pipelines, or the Application Repository.
+
+</td></tr><tr><td>
+
+Delegated admin \(Delegated developer with delegated\_admin permission\)
+
+</td><td>
+
+Delegated admins only have access to the scopes they have delegated developer access to.
+
+</td><td>
+
+Grants access to all delegated development permissions for a specific scoped application so that permissions don't need to be granted individually. For more information, see [Developer and deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/developer-permissions.md).
 
 </td></tr><tr><td>
 
@@ -80,6 +93,50 @@ Users with GAC roles can access ServiceNow Studio and create apps. After creatin
 -   Access ServiceNow Studio.
 -   Create custom applications.
 -   With the GAC Global role, create custom global apps.
+
+</td></tr><tr><td>
+
+ServiceNow Studio admin / Unified Developer Core \(UDC\) admin \(sn\_udc.admin\)
+
+</td><td>
+
+Provides administrative access to tables within ServiceNow Studio scope and configuration access to the experience switcher roles.
+
+</td><td>
+
+Granular admin role that enables the following actions:-   Manage all ServiceNow Studio system properties, settings, and configurations.
+-   Manage roles and permissions specific to ServiceNow Studio.
+-   Configure the experience switcher roles across Creator Studio, ServiceNow Studio, and ServiceNow IDE.
+
+For more information about granular admin roles, see .
+
+</td></tr><tr><td>
+
+Preferred tables admin \(sn\_prfrd\_tables.admin\)
+
+</td><td>
+
+Provides administrative access to configure preferred tables for Table Builder.
+
+</td><td>
+
+Granular admin role that enables you to configure preferred tables in your instance for Table Builder.**Note:** Table Builder does not require an additional admin role.
+
+</td></tr><tr><td>
+
+Metadata-specific admin roles-   Business rule admin
+-   Script include admin
+
+</td><td>
+
+Provide access to ServiceNow Studio.
+
+</td><td>
+
+Metadata-specific admin roles are existing roles on the ServiceNow AI Platform that provide developers with admin access to a specific metadata type. For example, the script include admin role enables a developer to create, read, update, and delete \(CRUD\) any script include on the ServiceNow AI Platform and perform development on script includes in ServiceNow Studio.Each metadata-specific admin role must:
+
+-   Enable CRUD access to the metadata types it represents directly within ServiceNow Studio.
+-   Be configurable within the experience switcher.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)

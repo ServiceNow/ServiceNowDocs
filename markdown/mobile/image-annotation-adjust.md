@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/image-annotation-adjust.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with images and attachments in mobile, Mobile app components, Building mobile apps, Mobile Platform]
+breadcrumb: [Working with images and attachments, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Turn off image annotation option
@@ -42,4 +42,6 @@ Role required: admin
     |-------------------------------------------------|------------------------------------------|
     |\[Omitted image "image-annotation-ios.png"\] Alt text: Image annotation button and panel for iOS devices.|\[Omitted image "image-annotation-android.png"\] Alt text: Image annotation button and panel for Android devices.|
 
+
+**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/images-and-attachments.md)
 

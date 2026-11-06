@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,6 +21,8 @@ With the ServiceNow® Document Management application, you can manage large numb
 With the Document Management application, you can create, upload, track and manage documents throughout the lifecycle of the workflow.
 
 Use the document repository to easily upload, retrieve, share, delete and sign documents. Documents can also be linked to other records in the system.
+
+\[Omitted video\] Description: Document Management Overview
 
 ## Document Management benefits
 

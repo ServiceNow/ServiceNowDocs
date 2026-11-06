@@ -1,22 +1,22 @@
 ---
 title: Properties for Identification and Reconciliation
-description: Use the Identification and Reconciliation properties to configure the identification and reconciliation engine \(IRE\).
+description: Use the Identification and Reconciliation properties to configure the Identification and Reconciliation Engine \(IRE\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 15
-breadcrumb: [CMDB Identification and Reconciliation reference, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Properties for Identification and Reconciliation
 
-Use the Identification and Reconciliation properties to configure the identification and reconciliation engine \(IRE\).
+Use the Identification and Reconciliation properties to configure the Identification and Reconciliation Engine \(IRE\).
 
-These properties are available for Identification and Reconciliation. To view and edit these properties, the admin role is required.
+These properties are available for Identification and Reconciliation. To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
 **Note:** To open the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
@@ -321,7 +321,7 @@ Maximum number of items allowed when creating a partial payload. When that limit
 
  -   Type: integer
 -   Default: 1000
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table
 
 </td></tr><tr><td>
@@ -365,7 +365,7 @@ Determines how IRE updates the **last\_discovered** and the **discovery\_source*
 
  -   Type: true \| false
 -   Default: true
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -378,7 +378,7 @@ If Robust Transform Engine \(RTE\) does not pass the **ire.skip\_updating\_last\
 
  -   Type: true \| false
 -   Default: false
--   Learn more: [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -398,7 +398,7 @@ Determines how IRE uses the **source\_recency\_timestamp** value in a payload to
 
  -   Type: true \| false
 -   Default: true
--   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -411,7 +411,7 @@ If RTE does not pass the **ire.skip\_updating\_last\_scan\_to\_now** custom prop
 
  -   Type: true \| false
 -   Default: false
--   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Learn more: [About mapping data columns to CMDB classes and attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/create-etl-transform-map.md) and [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr><tr><td>
@@ -462,6 +462,124 @@ Determines whether filter conditions of a reconciliation rule are applied before
  -   Type: true \| false
 -   Default: false
 -   Learn more: [Create a static reconciliation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md), [Create a dynamic reconciliation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-reconciliation-rule.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.skip\_sys\_object\_source\_matching
+
+</td><td>
+
+Determines whether IRE identification processes have the priority in being used to uniquely identify CIs in a payload, over the use of **sys\_object\_source** lookup.
+
+ When set to true, the system prioritizes sending any payload that contains a criterion attribute to be processed by IRE identification instead of using **sys\_object\_source** lookup. This can be useful in situation that can potentially generate duplicate CIs. For example, using sources in which identifying attributes are changing while the source native key isn't.
+
+ However, when **source\_native\_key** is the only identifiable attribute \(for example, if none of the identification rules can run because attributes and values for rule identifiers aren't present in the payload\), then **source\_native\_key** is used for identification even when the property is set to **true**.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: [Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.lookup\_match.create\_duplicate\_task\_ci.enabled
+
+</td><td>
+
+Enables IRE behavior of creating de-duplication tasks for duplicate related items in a lookup table detected during a lookup-based identification.
+
+ Set the property to reflect on whether such duplication is valid in the organization and doesn't require remediation, or isn't valid and the duplication should be remediated.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.dynamic\_ire\_enabled
+
+</td><td>
+
+Switches between using Dynamic IRE or Static IRE. Set to 'true' to use Dynamic IRE and to turn off Static IRE.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.dynamic\_ire.auto\_compare
+
+</td><td>
+
+Enables comparison between the processing outputs of Dynamic IRE and Static IRE for all payloads.
+
+ If both properties:
+
+-   **glide.identification\_engine.dynamic\_ire.auto\_compare**
+-   **glide.identification\_engine.dynamic\_ire.auto\_compare.sampling.enabled**
+
+are **true**, then the system runs a comparison between Static IRE and Dynamic IRE for all payloads. If both of those properties are **false**, then there are no comparisons.
+
+ -   Type: true \| false
+-   Default: true
+-   Learn more: [Dynamic IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dynamic-ire.md)
+-   Location: System Properties \[sys\_properties\] table
+
+</td></tr><tr><td>
+
+glide.identification\_engine.non\_dependency\_relation.duplicate\_detection
+
+</td><td>
+
+Sets IRE behavior when the payload contains duplicate non-dependent relationships \(identical parent/child relationship type\).
+
+ When **true**, IRE detects duplicate non-dependent relationships in a payload.
+
+ When **false**, IRE doesn't detect duplicate non-dependent relationships in a payload.
+
+ -   Type: true \| false
+-   Default: false
+-   Learn more: [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
+-   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+
+</td></tr><tr><td>
+
+glide.identification\_engine.batch\_update\_last\_discovered.use\_execute\_lazy
+
+</td><td>
+
+Sets IRE mode for processing batch updates of the discovery timestamp fields **first\_discovered** and **last\_discovered**.
+
+ For optimized performance, when IRE processes CI records, it updates discovery timestamp fields in batches. This property controls when these batch updates are executed.
+
+ -   **true**
+
+IRE defers database updates and uses batched operations, which improves performance.
+
+Usage:
+
+    -   For standard production operations
+    -   When performance is critical
+    -   When no race conditions are observed
+-   **false**
+
+IRE processes updates synchronously without delay, ensuring immediate database consistency.
+
+Usage:
+
+    -   When race conditions between discovery and CI deletion exist
+    -   A deletion strategy is aggressively removing recently discovered CIs
+    -   If immediate timestamp consistency is required
+
+ General details:
+
+-   Type: true \| false
+-   Default: true
+-   Learn more: [CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md)
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 </td></tr></tbody>

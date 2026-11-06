@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2025-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the REST API Explorer, REST APIs, Web services, API implementation, API implementation and reference]
 ---

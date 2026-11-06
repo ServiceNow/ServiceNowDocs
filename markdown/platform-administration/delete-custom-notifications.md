@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/delete-custom-notifications.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System and custom notification and delivery channel preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Delete a custom notification
@@ -24,7 +24,7 @@ Role required: none
 
 2.  Select the **Custom Notifications** tab.
 
-3.  In the notification entry, select the more actions icon \( \[Omitted image "delete\_cn.png"\] Alt text: More actions icon\) and select **Delete**.
+3.  In the notification entry, select the more actions icon \[Omitted image "delete\_cn.png"\] Alt text: and select **Delete**.
 
 
 **Parent Topic:**[System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/advanced-notification-prefrences.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Manage a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Submit an incident for a stack
@@ -24,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_user
 
 You can submit an incident for a stack or for an individual resource.
 
-You can also [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-an-incident.md) through the incident application. Make sure that the **Category** field is set to the value Cloud Provisioning and Governance. The configuration item should be the stack name against which the incident is raised. The caller name should be the name of the person for whom this incident is created.
+You can also [Create an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-an-incident.md) through the incident application. Make sure that the **Category** field is set to the value Cloud Provisioning and Governance. The configuration item should be the stack name against which the incident should be raised. The caller name should be the name of the person for whom this incident is created.
 
 ## Procedure
 

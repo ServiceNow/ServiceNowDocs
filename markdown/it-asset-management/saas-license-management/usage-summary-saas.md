@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Viewing your SaaS and SSO subscriptions
@@ -34,6 +34,8 @@ You can also view all subscriptions for an application in the Software Subscript
 
 -   **[Viewing SSO subscription information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/sso-subscriptions.md)**  
 You can view information about the Single Sign-On \(SSO\) applications, SSO users, and SSO groups that are associated with your SSO integrations.
+-   **[Create an SSO group software model mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-ssogrp-swmodel-mapping.md)**  
+Create a mapping for an SSO group with a software model to manage your licenses on group level rather than on application level.
 
 **Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/sam-subscription-management.md)
 

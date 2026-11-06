@@ -1,20 +1,20 @@
 ---
 title: Exploring Workplace Connectors
-description: Workplace Connectors is a framework to integrate different types of badging, occupancy, air quality, temperature, and Wi-Fi sensor data. It provides a standardized way of fetching badging, occupancy, air quality, temperature and Wi-Fi data from workplace hardware or sensors in Workplace Service Delivery.
+description: Workplace Connectors is a framework to integrate different types of badging, occupancy, air quality, and temperature sensor data. It provides a standardized way of fetching badging, occupancy, air quality and temperature data from workplace hardware or sensors in Workplace Service Delivery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/explore-workplace-connectors.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Exploring Workplace Connectors
 
-Workplace Connectors is a framework to integrate different types of badging, occupancy, air quality, temperature, and Wi-Fi sensor data. It provides a standardized way of fetching badging, occupancy, air quality, temperature and Wi-Fi data from workplace hardware or sensors in Workplace Service Delivery.
+Workplace Connectors is a framework to integrate different types of badging, occupancy, air quality, and temperature sensor data. It provides a standardized way of fetching badging, occupancy, air quality and temperature data from workplace hardware or sensors in Workplace Service Delivery.
 
 ## Key features
 
@@ -26,4 +26,10 @@ Workplace Connectors is a framework to integrate different types of badging, occ
 -   Provide Occupancy sensor data for workplace locations. View and manage your reservations on the location directory based on occupancy and reservation statuses.
 -   Monitor indoor pollutants including Particulate Matter \(PM1 &amp; PM2.5\) and air borne chemicals \(Volatile Organic Compounds or VOCs\), relative humidity levels, temperature, and Carbon dioxide \(CO2\) levels in a building or workplace.
 -   Reduced operating costs of workplaces or building maintenance with better air quality and optimum levels of humidity. Reduced particulate matter in the air reduces energy consumption of a building.
+
+**Parent Topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
+
+**Previous topic:**[Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connectors-landing-page.md)
+
+**Next topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 

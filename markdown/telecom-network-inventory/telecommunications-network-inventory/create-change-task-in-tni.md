@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Instantiating your network inventory by using design and assign, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Create and execute a change task in Telecommunications Network Inventory
@@ -24,7 +24,7 @@ Create a change task after you create a change request in the Telecommunications
 
 2.  Navigate to **Telecom Network Inventory** &gt; **Network Inventory Templates**, create the inventory templates for your equipment, and establish the template relationships.
 
-    To learn more, see [Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
+    To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
 
 -   Role required: sn\_ni\_core.inventory\_template\_manager, sn\_ni\_core.inventory\_admin, sn\_ni\_core.telco\_inventory\_catalog\_manager, sn\_ni\_core.inventory\_agent.
 

@@ -1,25 +1,25 @@
 ---
 title: Query Generation reference
-description: A list of Now Assist applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
+description: A list of ServiceNow Otto applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/query-generation-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation reference
 
-A list of Now Assist applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
+A list of ServiceNow Otto applications that come with Query Generation and the tables, jobs, and logs included in Query Generation.
 
--   **[Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-health-page.md)**  
-The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.
 -   **[Supported chart types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-supported-charts.md)**  
-Query Generation and the applications that use it to generate data visualizations support these visualization types
+Query Generation and the applications that use it to generate data visualizations support these visualization types.
 -   **[Supported query operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/qg-supported-query-operations.md)**  
 The following encoded query operators are supported for creating context objects.
+-   **[Unsupported field types in Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-unsupported-field-types.md)**  
+Query Generation explicitly does not support some field types.
 -   **[Query Generation logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/query-generation-logs.md)**  
 Every call to a Query Generator and its results are logged in the Query Generation Log \[sn\_query\_gen\_log\] table.
 -   **[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/tables-sched-jobs-query-gen.md)**  

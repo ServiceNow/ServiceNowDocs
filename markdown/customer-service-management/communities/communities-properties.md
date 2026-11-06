@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Communities, Customer Service Management]
+breadcrumb: [Communities references, Communities, Customer Service Management]
 ---
 
 # Properties installed with Communities
 
 Community administrators can use properties to configure Communities behavior.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The following properties are available for further configuration. To list the properties, enter `sys_properties.list` in the filter navigator and search for the property to configure.
 
@@ -675,17 +679,6 @@ Enables Google re-CAPTCHA on the self-registration page.-   Type: boolean
 
 </td></tr><tr><td>
 
-sn\_ext\_usr\_reg.eur\_user\_role
-
-</td><td>
-
-Adds a role when a sys\_user record is created through self-registration.
-
- -   Type: string
--   Default value: sn\_communities.community\_user
-
-</td></tr><tr><td>
-
 sn\_ext\_usr\_reg.Reg\_link\_expiration\_days
 
 </td><td>
@@ -831,5 +824,18 @@ Enter the maximum number of times a user can post Social Q&amp;A questions per d
 -   Location: System Properties
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md)
+</table>**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communitie-references.md)
+
+**Related topics**  
+
+
+[Quick start tests for Communities]()
+
+[Communities roles]()
+
+[Forum form fields]()
+
+[Video Configurations form fields]()
+
+[Topic form fields]()
 

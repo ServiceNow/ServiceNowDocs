@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,21 +26,21 @@ In the Resource Finder, search for the resources that you need, and create a pla
 
 -   Steps 1 and 2 take you to the resource finder.
 -   Step 3 provides guidance on different options to filter and analyze the resources availability. Choose the options that suit your needs.
--   Step 4 shows how to create a new resource plan for the selected resources.
+-   Step 4 shows how to create resource plan for the selected resources.
 
 ## Procedure
 
 1.  Open the Resource Plans page for a project or demand.
 
-<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d104678e118">
+<table id="choicetable_b5v_xq4_tcb"><thead><tr><th align="left" id="d128854e118">
 
 Option
 
-</th><th align="left" id="d104678e121">
+</th><th align="left" id="d128854e121">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104678e127">
+</th></tr></thead><tbody><tr><td id="d128854e127">
 
 **From a project**
 
@@ -48,10 +48,10 @@ Steps
 
 1.  Navigate to **Project** &gt; **Projects** &gt; **Project Workspace**.
 2.  Open a project record.
-3.  In the **Resource Plan** related list, click **Manage** to open the Resources tab.
+3.  In the **Resource Plan** related list, select **Manage** to open the Resources tab.
 
 
-</td></tr><tr><td id="d104678e166">
+</td></tr><tr><td id="d128854e166">
 
 **From a demand**
 
@@ -59,21 +59,11 @@ Steps
 
 1.  Navigate to **Demand** &gt; **Demands** &gt; **All**.
 2.  Open a demand.
-3.  In the **Resource Plans** related list, click **Manage** to open the Resource Plans page.
-
-
-</td></tr><tr><td id="d104678e205">
-
-**From Allocation Workbench**
-
-</td><td>
-
-1.  Navigate to **Resource** &gt; **Resource Workbench** &gt; **Allocation Workbench**.
-2.  In the Allocation Boards page, select the desired allocation board.
+3.  In the **Resource Plans** related list, select **Manage** to open the Resource Plans page.
 
 
 </td></tr></tbody>
-</table>2.  Select the project or demand in the resource grid section and click the resource finder icon \(\[Omitted image "ResourceFinderIcon.png"\] Alt text: Resource Finder\).
+</table>2.  Select the project or demand in the resource grid section and click the resource finder icon .
 
     The resource finder section opens at the bottom of the page. A list of up to 50 records are displayed initially. If you have more than 50 resources, you can load them by clicking **Get More**.
 
@@ -93,7 +83,7 @@ Display available or over allocated resources
 
 </td><td>
 
-Using the Show/Hide menu \(\[Omitted image "show-hide-icon.png"\] Alt text: Show/Hide\) to filter resources by available or over allocated.
+Using the Show/Hide menu to filter resources by available or over allocated.
 
 </td></tr><tr><td>
 
@@ -103,8 +93,6 @@ Perform a simple search
 
 Search the resources by group, role, or user attributes, by selecting the search criteria.
 
- \[Omitted image "resource-finder-simple-search.png"\] Alt text: Resource finder simple search
-
 </td></tr><tr><td>
 
 Build your own search criteria
@@ -113,11 +101,9 @@ Build your own search criteria
 
 Use the advanced search to add your filter conditions.
 
- For example, select **Search by group**, click **Advanced**, then click the Advanced search filter icon \(\[Omitted image "filter\_icon.png"\] Alt text: Advanced search\). Here you can add conditions to filter this group further.
+ For example, select **Search by group**, click **Advanced**, then click the Advanced search filter icon . Here you can add conditions to filter this group further.
 
 **Note:** While adding filters, ensure that you do not add an AND condition for different values of the same attribute. For example, do not filter the user group with conditions for Skill **X** AND Skill **Y**.
-
- \[Omitted image "resource-finder-advanced-search.png"\] Alt text: Advanced search in resource finder
 
 </td></tr><tr><td>
 
@@ -127,9 +113,7 @@ View the availability of the resources for an extended duration
 
 Use the options from the date range selector.
 
- From the Yokohama release onwards, you can select a custom date range.
-
- \[Omitted image "resource-finder-custom-date-range.png"\] Alt text: Custom date range.
+ From the Brazil release onwards, you can select a custom date range.
 
  The value of the property **Maximum time duration in Resource Finder in months** determines the maximum duration for which the resource details are displayed in the resource finder.
 
@@ -139,13 +123,11 @@ Analyze the resources list
 
 </td><td>
 
-Use the Configuration menu \(\[Omitted image "ConfigurationIcon.png"\] Alt text: Configuration\) to analyze different constraints such as the capacity, availability, actual hours, and others for different time periods.
+Use the Configuration menu to analyze different constraints such as the capacity, availability, actual hours, and others for different time periods.
 
- By default, only the Availability hours are displayed. To view other details, select Detailed View \(\[Omitted image "detailed-view.png"\] Alt text: Detailed view\), and select the required columns from the Configuration menu \(\[Omitted image "ConfigurationIcon.png"\] Alt text: Configuration\).
+ By default, only the Availability hours are displayed. To view other details, select Detailed View , and select the required columns from the Configuration menu .
 
- \[Omitted image "resource-finder-configuration-menu.png"\] Alt text: Configuration menu in resource finder.
-
- Displaying the requested hours for a user group or role helps you understand immediately if you need to fulfil any resource requests and to do so, if you have enough capacity for that user group or role.
+ Displaying the requested hours for a user group or role helps you understand immediately if you need to fulfill any resource requests and to do so, if you have enough capacity for that user group or role.
 
  The **Requested** column would not be available in the Configuration menu under the following conditions.
 
@@ -164,10 +146,8 @@ Update the capacity of a resource
 
 Right-click on the user and select **Update Capacity**.
 
- \[Omitted image "update-capacity.png"\] Alt text: Update capacity option.
-
 </td></tr></tbody>
-</table>4.  Select the resources you want to create resource plans for and click **Add New Plan**.
+</table>4.  Select the resources you want to create resource plans for and select **Add New Plan**.
 
 
 ## Result
@@ -184,7 +164,7 @@ Right-click on the user and select **Update Capacity**.
 ## What to do next
 
 -   Update the planned hours for the resource plan using the resource grid.
--   To view and update more details for the resource plan, click the information icon \(\[Omitted image "informationicon.png"\] Alt text: information\) in the beginning of the resource plan row.
+-   To view and update more details for the resource plan, click the information icon in the beginning of the resource plan row.
 -   You can now [request the resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_RequestResourcePlanApproval.md).
 
 **Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourcePlans.md)
@@ -204,7 +184,7 @@ Right-click on the user and select **Update Capacity**.
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

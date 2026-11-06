@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create a goal in Strategic Planning
@@ -47,5 +47,5 @@ Only the owner or contributors of the goal can edit the goal.
 
 ## What to do next
 
-Set targets for the goals. For more information, see [Create targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md) or [Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
+Set targets for the goals. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md) or [Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
 

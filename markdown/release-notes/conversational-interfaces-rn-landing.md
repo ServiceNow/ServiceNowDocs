@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/conversational-interfaces-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Conversational Interfaces release notes
@@ -16,12 +16,10 @@ Conversational Interfaces includes enhancements and changes in the Xanadu releas
 
 Updates are available for the following Conversational Interfaces applications on the ServiceNow AI Platform.
 
--   **[Now Assist in Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-va-rn.md)**  
-The ServiceNow® Now Assist in Virtual Agent application uses generative AI skills in your conversational experiences. Now Assist in Virtual Agent uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. Now Assist in Virtual Agent was enhanced and updated in the Yokohama release.
--   **[Sidebar release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sidebar-rn.md)**  
-The ServiceNow® Sidebar application enables agents and subject matter experts to collaborate on user issues. Sidebar was enhanced and updated in the Yokohama release.
--   **[Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/virtual-agent-rn.md)**  
-The ServiceNow® Virtual Agent application provides user assistance through a conversational interface so that you can design and build automated conversations that help users to quickly obtain information and to perform common work tasks. Virtual Agent was enhanced and updated in the Yokohama release.
+-   **[ServiceNow Otto for Virtual Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/virtual-agent-rn.md)**  
+The ServiceNow® Otto for Virtual Agent application uses large language models \(LLMs\) to create a natural-language conversational experience that can improve the success of your self-service workflows. See the following sections for release notes by version.
+-   **[Agent Chat release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/agent-chat-rn.md)**  
+The ServiceNow® Agent Chat application enables agents to interact directly with end users through chat. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

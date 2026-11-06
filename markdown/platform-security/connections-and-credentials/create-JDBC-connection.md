@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Getting started with connections, Connections and Credentials, Access Management]
+breadcrumb: [Get started with connections, Connections and Credentials, Access Management]
 ---
 
 # Create a JDBC connection
@@ -302,7 +302,7 @@ All
 
 </td><td>
 
-The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected, and then **Auto-Select MID Server** is selected in the MID Selection list.
+The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected.
 
  To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerSelector.md).
 
@@ -334,7 +334,7 @@ The specific MID Cluster you want to use. This field is available when **Use MID
 </table>3.  Click **Submit**.
 
 
-**Parent Topic:**[Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-information.md)
+**Parent Topic:**[Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-information.md)
 
 **Related topics**  
 

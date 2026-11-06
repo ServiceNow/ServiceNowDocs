@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building spokes using Spoke Generator, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Add more actions to the custom spoke
@@ -18,7 +18,7 @@ Add more reusable actions to your custom spoke to automate an integration.
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or action\_designer with delegated access to the specific application.
 
 ## Procedure
 
@@ -34,6 +34,4 @@ Role required: admin
     -   To create actions manually, click **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/actions.md).
     You can use the published actions to create flows or subflows as per your requirement.
 
-
-**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/spoke-builder.md)
 

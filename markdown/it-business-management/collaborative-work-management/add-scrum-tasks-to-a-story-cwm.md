@@ -7,8 +7,8 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-04"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [scrum tasks, story, agile, CWM, sprint, add scrum task]
 breadcrumb: [Scrum tasks for stories, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -23,7 +23,7 @@ Role required: sn\_cwm.cwm\_user
 
 ## About this task
 
-Scrum tasks are added one at a time from the **Scrum tasks** tab on a story form.
+Scrum tasks are added one at a time from the **Scrum tasks** tab on a story form. To generate multiple scrum tasks at once based on the story description using Now Assist, see [Generate scrum tasks for a story with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md).
 
 ## Procedure
 
@@ -52,10 +52,14 @@ Scrum tasks are added one at a time from the **Scrum tasks** tab on a story form
 
 To add more scrum tasks, repeat the previous steps. You can also add scrum tasks inline from the List and Sprint planning views.\[Omitted image "cwm-scrum-tasks-add-inline.png"\] Alt text: Option to add scrum task for a story inline in the List view.
 
+To generate scrum tasks automatically based on the story content without manual work, see [Generate scrum tasks for a story with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md).
+
 **Parent Topic:**[Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
 
 **Related topics**  
 
 
 [Scrum tasks for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/managing-scrum-tasks-for-stories-cwm.md)
+
+[Generate scrum tasks for a story with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/generate-scrum-tasks-for-stories-cwm.md)
 

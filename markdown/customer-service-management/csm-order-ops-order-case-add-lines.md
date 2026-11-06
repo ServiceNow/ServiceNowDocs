@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-order-ops-order-case-add-lines.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating an order case, Order Operations Case Management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Creating an order case, Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add orders or order lines to an order case

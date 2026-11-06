@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Create and train a classification solution, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Using Group By for classification
@@ -74,11 +74,11 @@ For more context regarding this example and the general usage of Machine Learnin
 **Related topics**  
 
 
-[DatasetDefinition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/DatasetDefinitionAPI.md)
+[bundle-crapiref.DatasetDefinitionAPI]
 
-[ClassificationSolution - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ClassificationSolutionAPI.md)
+[bundle-crapiref.ClassificationSolutionAPI]
 
-[ClassificationSolutionStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ClassificationSolutionStoreAPI.md)
+[bundle-crapiref.ClassificationSolutionStoreAPI]
 
-[ClassificationSolutionVersion - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/ClassificationSolutionVersionAPI.md)
+[bundle-crapiref.ClassificationSolutionVersionAPI]
 

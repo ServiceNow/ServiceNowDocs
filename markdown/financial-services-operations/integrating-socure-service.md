@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/integrating-socure-service.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Operations integration with Socure
@@ -24,19 +24,19 @@ With the ServiceNow® Financial Services Operations Integration with Socure appl
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about the benefits provided by integrating Financial Services Operations Integration with Socure.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/explore-fso-int-socure.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the benefits provided by integrating Financial Services Operations Integration with Socure.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/explore-fso-int-socure.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/setting-up-fso-integration.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/setting-up-fso-integration.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-integration.png"\] Alt text: Work on integrating FSO with the Socure application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-fso-integration-socure.md)
+[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Work on integrating FSO with the Socure application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-fso-integration-socure.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-fso-integration-socure.md)
+[Reference \[Omitted image "bus-datasheet.svg"\] Alt text: Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-fso-integration-socure.md)
 
 </td></tr></tbody>
 </table>

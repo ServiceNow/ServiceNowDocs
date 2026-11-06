@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/vscode-create-file.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a file in VS Code
@@ -17,6 +17,8 @@ Use the ServiceNow extension to create a new file for your application with your
 ## Before you begin
 
 [Import an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/vscode-import-application.md) in your VS Code project to create a file within your project.
+
+Role required: none.
 
 ## Procedure
 

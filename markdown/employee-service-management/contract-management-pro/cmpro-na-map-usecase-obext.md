@@ -7,10 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-10-28"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Obligation extraction use case mapping]
-breadcrumb: [Configure obligation extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure obligation extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract obligation extraction
@@ -19,19 +19,19 @@ Map a use case to specific tables, and define conditions to apply the use case f
 
 ## Before you begin
 
-Ensure that the application scope is in Global or Now Assist in Contract Management scope. If you’re configuring the use case mapping in a different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
+Ensure that the application scope is in the Global or ServiceNow Otto for Contract Management Pro scope. If you’re configuring the use case mapping in a different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
 
 Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile for your skill, select **Activate skill**.
+3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -43,88 +43,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 7.  On the form, fill in the fields.
 
+    For a description of the field values, see [Contract obligation extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-obe.md).
+
     \[Omitted image "cmpro-na-ob-map.png"\] Alt text: Create new use case mapping form to map obligations with request tables and repository tables.
 
-<table id="table_lxd_sm1_wcc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Unique name of the use case mapping.
-
-</td></tr><tr><td>
-
-Use case
-
-</td><td>
-
-The use case used to extract obligations from a signed contract.**Note:** Only active use cases for the contract obligation extraction skill are displayed in the list.
-
-The **CM Pro - Contract Obligation Extraction** use case is available with the Now Assist in Contract Management base system.
-
-</td></tr><tr><td>
-
-Contract type
-
-</td><td>
-
-The contract type for which the use case applies.**Note:** Only active contract types are displayed in the list.
-
-</td></tr><tr><td>
-
-Order
-
-</td><td>
-
-Order in which the use case will apply.If multiple use cases meet the same conditions, the use case with the lowest order number is applied first.
-
-</td></tr><tr><td>
-
-Request table
-
-</td><td>
-
-The table from which contract requests are created. The use case applies to contracts created from the selected table.The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the use case mapping on a different table.
-
-</td></tr><tr><td>
-
-Contract repository table
-
-</td><td>
-
-The repository table where the contract records are created. The use case applies to contracts stored in the selected table.
-
-</td></tr><tr><td>
-
-Request conditions
-
-</td><td>
-
-Conditions under which the use case applies on the request table.The field appears only when the request table is selected.
-
-For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
-
-</td></tr><tr><td>
-
-Repository conditions
-
-</td><td>
-
-Conditions under which the use case applies on the repository table. The field appears only when a table is selected in the **Contract repository table** field.
-
-For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
-
-</td></tr></tbody>
-</table>8.  Select **Save**.
+8.  Select **Save**.
 
 
 ## Result
@@ -135,10 +58,15 @@ The use case is mapped to specific tables and conditions, and it’s applied for
 
 [Activate business rules for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/conf-repository-agentic-ai.md)
 
+-   **[Contract obligation extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-obe.md)**  
+Use the Create use case mapping form in the contract obligation extraction skill to map the use case to specific tables and conditions.
+
 **Parent Topic:**[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)
 
 **Related topics**  
 
+
+[Create use cases for contract obligation extraction]()
 
 [Create use cases for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.md)
 

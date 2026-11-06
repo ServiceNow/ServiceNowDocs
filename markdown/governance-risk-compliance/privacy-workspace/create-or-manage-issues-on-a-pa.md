@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -30,20 +30,25 @@ Issues get created when there are control attestation failures. You can also man
 
 2.  Select and open the processing activity to which you want to add issues.
 
-3.  Click the More related list.
+3.  Select the More related list.
 
-4.  Click Issues.
+4.  Select **Issues**.
 
-5.  Click **Add**.
+5.  Select **Add**.
 
     1.  Select the issues to add.
 
-    2.  Click**Add**.
+    2.  Select **Add**.
 
 6.  To create an issue, refer to the issue creation form.
 
-7.  Click **Save**.
+7.  Select **Save**.
 
 
 **Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
+
+**Related topics**  
+
+
+[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-workflows.md)
 

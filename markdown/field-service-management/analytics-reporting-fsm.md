@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/analytics-reporting-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Field Service Management]
 ---
@@ -13,6 +13,18 @@ breadcrumb: [Field Service Management]
 # Analytics and reporting for Field Service Management
 
 Field Service Analytics and Reporting Solutions contain preconfigured dashboards with actionable data visualizations to improve your business processes and practices.
+
+## Example: Generate Work Order Audit Report
+
+A field service organization needs consistent, accurate reporting on work order activity, technician utilization, and compliance without building reports from scratch. Field Service Analytics and Reporting provides preconfigured dashboards that track work order status, territory performance, contractor activity, and scheduling health, giving managers the data needed to monitor operations and support audits in real time.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Completes work|
+|2|System|Compiles work order details|
+|3|System|Generates report|
+|4|System|Attaches report to work order|
+|5|Manager or Dispatcher|Reviews data for audits|
 
 -   **[Use the Field Service Management Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/Use_field_service_management_overview_dashboard.md)**  
 Use the Field Service Management Overview dashboard to review the work orders by their order of priority. You can also view tasks by their assignment groups.
@@ -26,7 +38,7 @@ Use this dashboard to review the status of work order tasks, agent rating, and w
 Use the Field Service Territory Capacity Analytics dashboard to track capacity trends with interactive charts and graphs, perform gap analysis with a customizable pivot table, and apply filters for targeted data viewing and informed decision-making.
 -   **[Scheduling Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/scheduling-health-dashboard.md)**  
 Use this dashboard to view technician metrics, task metrics, and Schedule Optimization configuration details.
--   **[Using the Field Service Safety dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/use-safety-dashboard-fsm.md)**  
+-   **[Field Service Safety dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/use-safety-dashboard-fsm.md)**  
 Review the status of agents, tasks, and assets using the Field Service Management Covid19 map. Monitor the compliance reports of agents through the Field Service Safety dashboard.
 -   **[Field Service Territory Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/territory-planning-dashboard.md)**  
 Use this dashboard to view and analyze performance analytics such as open work order tasks, agent utilization on work order tasks, and average travel time across territories.

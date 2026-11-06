@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/csdm-v5-ref.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tables installed with Operational Resilience, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -29,7 +29,7 @@ Reference topics provide additional information about CSDM, including the associ
 |Location \[cmn\_location\]|Details of the Location table. Includes location details of the object.|
 |Pillars \[sn\_grc\_choice\]|Details of the Pillars table.|
 |Profile \[sn\_grc\_profile\]|Details of the Profile table.|
-|Profile profile \[sn\_grc\_m2m\_profile\_profile\]|Details of the type of relationship configured in the Many-to-many Profile table. The table contains all the history dependencies.|
+|Profile profile \[sn\_grc\_m2m\_profile\_profile\]|Details of the type of relationship configured in the Many-to-many Profile table.|
 |Profile profile type \[sn\_grc\_m2m\_profile\_profile\_type\]|Details of the type of relationship configured in the Many-to-many Profile type table.|
 |Service \[cmdb\_ci\_service\]|Details of the Service table.|
 |Service Offerings \[task\_service\_offering\]|Details of the Service Offerings table.|

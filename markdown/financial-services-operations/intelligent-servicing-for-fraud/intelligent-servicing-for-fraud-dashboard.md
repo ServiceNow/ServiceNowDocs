@@ -7,9 +7,9 @@ release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Intelligent Servicing for Fraud dashboard

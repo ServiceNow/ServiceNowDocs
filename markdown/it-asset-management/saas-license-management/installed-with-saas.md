@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request SaaS License Management, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Request SaaS License Management, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Installed with SaaS License Management

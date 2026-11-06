@@ -7,35 +7,36 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Data snapshots and multiple breakdowns
 
 Data snapshots in Platform Analytics allows for multiple breakdowns while analyzing your indicators \(KPIs\). This architecture uses a change data capture \(CDC\) process, which captures data changes from configurable tables that are optimized for generating scores and time series at run-time.
 
-Classic Performance Analytics has always calculated multiple breakdowns applied to an indicator through a matrix. Mathematically, the number of calculations increases geometrically with the number of breakdowns. Practically, this approach limits you to a maximum of two breakdowns that can be applied to an indicator simultaneously.
+Classic Performance Analytics calculates multiple breakdowns applied to an indicator through a matrix. Mathematically, the number of calculations increases geometrically with the number of breakdowns. Practically, this approach limits you to a maximum of two breakdowns that can be applied to an indicator simultaneously.
 
-Data snapshots does not use breakdown matrices. Thanks to the use of CDC instead, you can apply multiple breakdown levels. The ability to apply more than two levels of breakdown addresses one of the longstanding pain points of Performance Analytics. This feature deepens your ability to analyze data and broadens the insights you can gain through Performance Analytics.
+Data snapshots does not use breakdown matrixes. Thanks to the use of CDC instead, you can apply multiple breakdown levels. The ability to apply more than two levels of breakdown addresses one of the longstanding pain points of Performance Analytics. This feature deepens your ability to analyze data and broadens the insights you can gain through Performance Analytics.
 
 **Important:**
 
 -   Data snapshots requires that your instance uses the RaptorDB Professional database.
 -   Domain-separated instances are not supported.
--   To get data snapshots and enable multiple levels of breakdown, activate the Data Snapshots \(com.snc.pa.mlb\) plugin. A Performance Analytics subscription and the admin role are required. Consider testing data snapshots in a development environment before activating them on a production instance.
--   When you have activated the Data Snapshots plugin, you still have to enable it for supported indicators. For more information, see [Activate data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
--   Only Platform Analytics experience components \(Data visualizations, KPI Details\) support data snapshots. You cannot show more than two levels of breakdowns in Core UI components like PA widgets and the Analytics Hub.
+-   If your instance has RaptorDB Professional, the Data Snapshots \(com.snc.pa.mlb\) plugin is installed automatically. If the instance is domain separated, the Data snapshots plugin is turned off.
+-   Consider testing the Data snapshots feature in a development environment before activating it on a production instance.
+-   To convert classic Performance Analytics indicators to Data snapshots, check whether the indicator supports Data snapshots. Then activate Data snapshots for the indicator if it does. For more information, see [Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md).
+-   Only Platform Analytics experience components \(Data visualizations, KPI Details\) support Data snapshots. You cannot show more than two levels of breakdowns in Core UI components like PA widgets and the Analytics Hub.
 -   Data snapshots collection jobs may result in increased storage use by Performance Analytics. The jobs copy subsets of the source tables and store every daily change for related records.
 
-The following indicators support data snapshots:
+The following indicators support Data snapshots:
 
 -   Automated indicators that do not use scripted aggregations \(non-scripted indicators\).
 -   Formula indicators with only non-scripted, automated [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md)
 -   Formula indicators that contain other formula indicators, provided that ultimately the underlying indicators are non-scripted, automated indicators.
 
-If an indicator does not support data snapshots, the reasons appear in a warning on the indicator's record page.
+If an indicator does not support Data snapshots, the reasons appear in a warning on the indicator's record page.
 
 **Important:** You cannot apply multiple breakdowns to data that was collected before the feature was activated. You can apply only two levels of breakdown to such data. If you try to apply more levels of breakdown, the result is an empty area for that date range on your data visualization or KPI Details chart.
 
@@ -53,24 +54,34 @@ For the Summed age of open incidents indicator, you see that only the first two 
 
 \[Omitted image "mlb-not-supported.png"\] Alt text: An indicator that does not support multiple breakdowns, showing that only the first two of three breakdowns applied to the dashboard are applied to the indicator.
 
-## KPI Details for an indicator that uses data snapshots
+## KPI Details for an indicator that uses Data snapshots
 
-This example shows the KPI Details for the indicator Number of open incidents. The indicator supports data snapshots and multiple breakdowns, as is shown by a badge in the header. Two breakdowns have been set, each with two elements.
+This example shows the KPI Details for the indicator Number of open incidents. The indicator supports Data snapshots and multiple breakdowns, as is shown by a badge in the header. Two breakdowns have been set, each with two elements.
 
 \[Omitted image "mlb-kpi-details-2-filters.png"\] Alt text: KPI Details for an indicator that supports multiple breakdowns, with two breakdowns selected.
 
-You can select a third breakdown. However, data snapshots were only implemented on this instance a few days ago. Once you select a third breakdown, no data before this date is shown. You have a banner warning you to this effect.
+You can select a third breakdown. However, Data snapshots were only implemented on this instance a few days ago. Once you select a third breakdown, no data before this date is shown. You have a banner warning you to this effect.
 
 \[Omitted image "mlb-kpi-details-3-filters.png"\] Alt text: KPI Details for an indicator that supports multiple breakdowns, with three breakdowns selected but no data from before the implementation of multiple breakdowns.
 
--   **[Activate data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md)**  
-Enable data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When data snapshots are enabled, you can apply multiple breakdown levels to an indicator.
--   **[Limitations and requirements for data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/limitations-mlb.md)**  
-Several features of indicators and breakdowns are not supported with data snapshots and multiple breakdowns.
--   **[Deactivate data snapshots for an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/deactivate-mlb-for-indicator.md)**  
-You can turn data snapshots off or back on for an indicator, provided that indicator supports data snapshots.
--   **[Data snapshot sources and collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md)**  
+-   **[Activate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/activate-unlimited-breakdowns.md)**  
+Enable Data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When Data snapshots are enabled, you can apply multiple breakdown levels to an indicator.
+-   **[Limitations and requirements for Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/limitations-mlb.md)**  
+Several features of indicators and breakdowns are not supported with Data snapshots and multiple breakdowns.
+-   **[Data snapshots sources and collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md)**  
 Data snapshots include data sources for indicator score collection and the mapping between indicators and these sources.
+-   **[Create a Data snapshots automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-ds-automated-indicator.md)**  
+To analyze the performance of a business process that is recorded in a ServiceNow table, use an automated indicator. If you have Data snapshots enabled on your instance, you can create a Data snapshots automated indicator.
+-   **[Create a Data snapshots formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-ds-formula-ind.md)**  
+Create a formula indicator to calculate a score from two or more Data snapshots indicators.
+-   **[Bucket groups and calculated fields in Data Snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/ds-bucket-groups-calculated-fields.md)**  
+Bucket groups let you use numeric data as breakdowns. Calculated fields show numeric data derived from date fields. Map bucket groups to either numeric or calculated fields on Data snapshots indicator sources to use those fields as breakdowns.
+-   **[Deactivate Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/deactivate-mlb-for-indicator.md)**  
+You can turn Data snapshots off or back on for an indicator, provided that indicator supports Data snapshots. An admin can turn the feature off for an instance.
+-   **[Data snapshots jobs and tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/ds-jobs-tables.md)**  
+Several types of components are installed with activation of the Data snapshots plugin, including tables and scheduled jobs.
+-   **[Data snapshots logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/data-snapshots-logs.md)**  
+Each Data snapshots job creates log entries describing the events that happened when that job ran.
 
 **Parent Topic:**[Configure Performance Analytics fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PAWidgetsAndDashboards.md)
 

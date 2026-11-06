@@ -7,7 +7,7 @@ release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
@@ -144,7 +144,7 @@ Default: true
 
 Default: false
 
--   keyboard: Boolean. When true, indicates that the dialog is closable using the ESC key.
+-   keyboard: Boolean. When true, indicates that the dialog is closeable using the ESC key.
 
 Default: true
 
@@ -152,7 +152,7 @@ Default: true
 
 Default: empty
 
--   noDismiss: Boolean. When true,indicates that the header section that contains the close icon is present.
+-   noDismiss: Boolean. When true, indicates that the header section containing the close icon isn't present.
 
 Default: false
 

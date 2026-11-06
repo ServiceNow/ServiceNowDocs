@@ -7,9 +7,10 @@ release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Intelligent Servicing for Fraud, Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
+keywords: [install intelligent servicing for fraud, sn\_bom\_fraud, install fraud application, fraud application installation, servicenow store installation, fraud demo data, admin role required, install fraud plugins]
+breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Install Intelligent Servicing for Fraud
@@ -52,7 +53,7 @@ For more information, see [Components installed with Intelligent Servicing for F
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

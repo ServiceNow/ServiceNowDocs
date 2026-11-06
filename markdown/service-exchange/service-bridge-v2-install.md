@@ -1,5 +1,5 @@
 ---
-title: Installing and configuring Service Exchange for Consumers
+title: Configure Service Exchange for Consumers
 description: As a consumer, follow these steps to set up the Service Exchange for Consumers application in your own instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-install.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Service Exchange for Consumers, Service Exchange]
 ---
 
-# Installing and configuring Service Exchange for Consumers
+# Configure Service Exchange for Consumers
 
 As a consumer, follow these steps to set up the Service Exchange for Consumers application in your own instance.
 
@@ -24,11 +24,18 @@ As a consumer, follow these steps to set up the Service Exchange for Consumers a
 |----|----|
 |Install the Service Exchange for Consumers application.|See [Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/install-service-bridge-v2-customer.md).|
 |Add Service Exchange roles for consumers.|See [Personas for consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-customer-roles.md).|
-|Register with a provider.|See [Registering with a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-register.md).|
-|Activate entitlements.|See [Activate entitlements in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-activate-entitlements.md).|
+|Register with a provider.|See [Connect to a provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-register.md).|
+|Activate entitlements.|See [Activate a remote record producer in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-activate-entitlements.md).|
 |Configure consumer pre-flows.|See [Service Exchange consumer pre-flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-conf-consumer-flow.md).|
 |Add authorized users.|See [Add an authorized user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-auth-user.md).|
 |Create transforms.|See [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-transform.md).|
 |Create remote tasks to sync data.|See [Create remote tasks to sync data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-remote-task-create.md).|
 |Configure settings.|See [Configure settings on the consumer instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-configure-consumer-settings.md).|
+
+**Related topics**  
+
+
+[Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/tmt-service-bridge-both-landing-page.md)
+
+[Use for consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/se-consumer-using.md)
 

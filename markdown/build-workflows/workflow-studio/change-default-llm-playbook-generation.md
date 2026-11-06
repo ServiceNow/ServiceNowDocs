@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Playbook Assist, Playbook generation, Exploring playbooks, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Change the default LLM for playbook generation
@@ -42,5 +42,5 @@ Choose either the NowLLM/Mixtral model or OpenAI's GPT-4o as the default LLM to 
 
 Your default LLM has been changed.
 
-**Parent Topic:**[Configuring Playbook Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-playbook-assist.md)
+**Parent Topic:**[Configuring Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/setting-up-process-automation-designer.md)
 

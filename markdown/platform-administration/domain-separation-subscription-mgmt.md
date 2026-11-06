@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/domain-separation-subscription-mgmt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ Sample use case: When an SP uses chat to respond to a tenant-customer’s messag
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Overview of domain separation inSubscription Management
+## Overview of domain separation in Subscription Management
 
 Subscription Management enables you to manage your subscriptions and monitor subscription usage on your instances. Domain separation is enabled for user-based subscriptionsand for monitoring Now Assist usage.
 
@@ -43,6 +43,8 @@ Users in tenant domains can only view subscription allocations from the global d
 **Note:** User records created before domain separation is activated are in the global scope until manually assigned a domain. Subscription allocations to global users are visible in all domains.
 
 The Allocation Summary section in the subscription details displays information based on the total number of subscription allocations available across all domains. Administrators can use this information to help avoid over-allocating user subscriptions in tenant domains.
+
+If you make allocation changes that aren't reflected in the Allocation Summary or Allocation History, clear the cache.
 
 ## Monitoring Now Assist usage by domain
 

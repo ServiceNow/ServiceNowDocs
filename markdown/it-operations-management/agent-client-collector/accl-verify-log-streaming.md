@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Identify and resolve log streaming issues
@@ -26,7 +26,7 @@ In the ACC data input record, the Streaming Sources related list shows the strea
 
 For example, if the last event time for a data input's endpoint server is yesterday, the server might be down or configured incorrectly. A streaming issue might also be caused by the data input configuration file not being installed on the endpoint.
 
-**Note:** You can view the streaming data of all data inputs and the MID Servers that receive logs from them in the Streaming Sources page. For more information, see [Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md) in the ServiceNow Health Log Analytics application documentation.
+**Note:** You can view the streaming data of all data inputs and the MID Servers that receive logs from them in the Streaming Sources page. For more information, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md) in the ServiceNow Health Log Analytics application documentation.
 
 ## Procedure
 
@@ -46,4 +46,9 @@ For example, if the last event time for a data input's endpoint server is yester
 ## What to do next
 
 Proceed to the next step in the Health Log Analytics data input setup flow. For more information, see [Set up additional ACC data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-data-input-setup.md).
+
+-   **[ACC data input streaming sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-streaming-sources-ref.md)**  
+In the ACC data input record, the Streaming Sources related list shows the streaming data of that data input's sources.
+
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-setup.md)
 

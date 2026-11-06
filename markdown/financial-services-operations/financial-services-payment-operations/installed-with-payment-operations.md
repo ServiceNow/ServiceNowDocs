@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Financial Services Payment Operations reference, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Payment Operations
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 

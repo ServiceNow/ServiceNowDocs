@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/attachment-source-define.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Working with images and attachments in mobile, Mobile app components, Building mobile apps, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Working with images and attachments, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Define attachment sources available to users
@@ -26,13 +26,7 @@ You can limit the origins of attachments to ensure that images are sourced from 
 -   From the user’s phone gallery
 -   From the user’s file system
 
-This feature is supported for all attachment locations including: activity stream, functions, and input form screen. Within the input form screen, attachments can be added from the following areas, as shown in the table.
-
-**Note:** You can source image attachments from the camera and the gallery from both these areas. You cannot source videos or record videos. Only from the input action menu can you source images from the file system.
-
-|Adding attachment types within an individual input value|Adding attachment types as part of an input action|
-|--------------------------------------------------------|--------------------------------------------------|
-|\[Omitted image "ifs-attach-input-value.png"\] Alt text: Adding attachments next to an input value.|\[Omitted image "ifs-attach-input-action.png"\] Alt text: Adding attachments next to an input action.|
+This feature is supported for all attachment locations including: activity stream, functions, and input form screen.
 
 **Note:** This feature is also supported for scripted screens within Mobile App Bridge and the Cabrillo JS module.
 
@@ -48,15 +42,15 @@ This feature is supported for all attachment locations including: activity strea
 
 3.  Select the attachment location for where you want to control the origin of the attachment source.
 
-<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d86995e159">
+<table id="choicetable_odj_n5y_zdc"><thead><tr><th align="left" id="d93178e122">
 
 Attachment location
 
-</th><th align="left" id="d86995e162">
+</th><th align="left" id="d93178e125">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d86995e168">
+</th></tr></thead><tbody><tr><td id="d93178e131">
 
 **Function**
 
@@ -74,7 +68,7 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d86995e246">
+</td></tr><tr><td id="d93178e209">
 
 **Activity stream**
 
@@ -89,53 +83,28 @@ Values can be `camera`, `files`, or `gallery`, or any combination separated by c
 7.  Select **Save**.
 
 
-</td></tr><tr><td id="d86995e298">
+</td></tr><tr><td id="d93178e261">
 
-**Input form screen \(attachment type\)**
-
-</td><td>
-
-1.  Select the  **Screens ** category.
-2.  Select an existing input form screen.
-
-**Note:** If you need to create a new input form screen, follow the instructions starting from the topic [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/parameter-screen-config.md).
-
-3.  Select **New** in the Inputs area. For an explanation of the fields, refer to [Configure input form screen inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/param-screen-config-inputs.md).
-4.  Enter a **Name** and a **Label** for your new input.
-5.  Select `Attachment` in the **Input type** field.
-6.  Select **New** in the **Input attributes** area. The Input form action attribute record opens.
-7.  Select **HiddenAttachmentSources** from the **Name** field.
-8.  Select either `camera`, `files`, or `gallery`, from the **Value** field. The value you select is where you don’t want images sourced from.
-
-**Note:** To prevent images and files from more than one source, add additional **HiddenAttachmentSources** attributes after you save the attribute you're currently configuring.
-
-9.  Select **Save**.
-
-
-</td></tr><tr><td id="d86995e404">
-
-**Input form screen \(attachment input action\)**
+**Input form screen**
 
 </td><td>
 
-1.  Select the  **Screens ** category.
-2.  Select an existing input form screen.
-
-**Note:** If you need to create a new input form screen, follow the instructions starting from the topic [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/parameter-screen-config.md).
-
-3.  Select **New** or open an existing record in the **Actions** area.
-
-**Note:** For an explanation of the fields, refer to [Configure input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/input-actions-configure.md).
-
-4.  Select `Input action` in the **Input type** field.
-5.  Select **New** in the **Action attributes** area. The Input form action attribute record opens.
-6.  Select **HiddenAttachmentSources** from the **Name** field.
-7.  Select either `camera` or `gallery`, from the **Value** field. The value you select is where you don’t want images sourced from.
+1.  Select the  **Screens ** category, and then select  **New**.
+2.  Select the  **Input form ** option in the Create a screen page, and then select  **Continue**.
+3.  Select **New** in the Inputs section.
+4.  Enter a **Name** and **Label** in the Properties section.
+5.  Select `Attachment` from the **Input type** field in the **Settings** section.
+6.  Select **New** in the Input attributes section. The Input record opens.
+7.  Select **HiddenAttachmentSources** from the Name field.
+8.  Select either camera, files, or gallery, from the **Value** field. The value you select is where you don’t want images sourced from.
 
 **Note:** To prevent images and files from more than one source, add additional **HiddenAttachmentSources** attributes after you save the attribute you're currently configuring.
 
-8.  Select **Save**.
+9.  Leave the **Input** field value with its default entry.
+10. Select **Save**.
 
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Working with images and attachments in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/images-and-attachments.md)
+

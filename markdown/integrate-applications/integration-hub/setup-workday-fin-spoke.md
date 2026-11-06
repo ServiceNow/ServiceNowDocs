@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 15
-breadcrumb: [Workday Financials Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Workday Financials Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Workday Financials spoke
@@ -545,17 +545,17 @@ Role required: User with access to create report and the Ledger Account report d
 
 8.  In **Filter** section, select the value as shown and ensure that you add parenthesis.
 
-    \[Omitted image "image.wd-fin-led-acct-3"\] Alt text: Select the required values in the Filter section.
+    \[Omitted image "wd-fin-led-acct-3.PNG"\] Alt text: Select the required values in the Filter section.
 
 9.  In prompt section, clear the **Populate Undefined Prompt Defaults** check box.
 
-    \[Omitted image "image.wd-fin-led-acct-4"\] Alt text: Clear the Populate Undefined Prompt Defaults check box.
+    \[Omitted image "wd-fin-led-acct-4.PNG"\] Alt text: Clear the Populate Undefined Prompt Defaults check box.
 
 10. Select the value of prompts in the Prompt default section.
 
     Ensure that the **Label For Prompt XML Alias** of all prompt fields must be same as shown.
 
-    \[Omitted image "image.wd-fin-led-acct-5"\] Alt text: Verify the Label For Prompt XML Alias values.
+    \[Omitted image "wd-fin-led-acct-5.PNG"\] Alt text: Verify the Label For Prompt XML Alias values.
 
 11. In the Advanced section, select **Enable as webservice** option and click **OK**.
 

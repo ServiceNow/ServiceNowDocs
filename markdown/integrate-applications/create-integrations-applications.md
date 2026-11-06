@@ -1,15 +1,15 @@
 ---
-title: Data and Automation
+title: Workflow Data Fabric
 description: Increase the impact of your cross‑enterprise workflows by connecting any application or data. Connect people, processes, and apps to enhance the value of your ServiceNow investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/create-integrations-applications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 ---
 
-# Data and Automation
+# Workflow Data Fabric
 
 Increase the impact of your cross‑enterprise workflows by connecting any application or data. Connect people, processes, and apps to enhance the value of your ServiceNow investment.
 
@@ -23,23 +23,23 @@ Automate and connect anything to ServiceNow. Unify your approach to automation w
 
 </td><td>
 
-[Integration Hub Remote Process Sync \[Omitted image "bus-share.svg"\] Alt text: Create one-way or bidirectional integrations among multiple ServiceNow instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub-remote-process-sync/integrationhub-remote-process-sync.md)
+[Workflow Data Fabric Home\[Omitted image "bus-share.svg"\] Alt text:Unify and simplify data from different systems into one consistent, discoverable experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/wdf.md)
 
 </td><td>
 
-[Robotic Process Automation \(RPA\) Hub \[Omitted image "ind-robot-machine.svg"\] Alt text: Emulate user actions and eliminate mundane and repetitive human activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-main-landing-page.md)
+[Robotic Process Automation \(RPA\) Hub \[Omitted image "ind-robot-machine.svg"\] Alt text: Emulate user actions and eliminate mundane and repetitive human activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-explore.md)
 
 </td></tr><tr><td>
 
-[Automation Center \[Omitted image "bus-proxy.svg"\] Alt text: Govern your end-to-end multi-vendor automation life cycles from one place.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-landing-page.md)
+[External Content Connectors \[Omitted image "bus-proxy.svg"\] Alt text: Search content and metadata from supported external data repositories.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 
 </td><td>
 
-[Imports \[Omitted image "bus-cloud-download.svg"\] Alt text: Import data from external systems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/imports-overview-page.md)
+[Zero Copy Connectors\[Omitted image "bus-cloud-download.svg"\] Alt text:Fetch real-time data from an external data source without copying it to your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/zero-copy-connectors.md)
 
 </td><td>
 
-[Exports \[Omitted image "bus-cloud-upload.svg"\] Alt text: Export data from an instance to an external file.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/exports-overview-page.md)
+[Stream Connect\[Omitted image "bus-cloud.svg"\] Alt text:Connect your Apache Kafka environment to your ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-apache-kafka.md)
 
 </td></tr></tbody>
 </table>## Workflow Data Fabric products and features
@@ -55,14 +55,6 @@ Product name
 Description
 
 </th></tr></thead><tbody><tr><td>
-
-[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)
-
-</td><td>
-
-App Engine Studio \(AES\) is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. Work that was once assigned to administrators can now be delegated to employees with little to no training using AES.
-
-</td></tr><tr><td>
 
 [Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-landing-page.md)
 
@@ -80,14 +72,6 @@ Boomi supports full lifecycle API management, including governance, analytics, a
 
 </td></tr><tr><td>
 
-[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r-orchestration.md)
-
-</td><td>
-
-ServiceNow® Orchestration extends the workflow engine to manage processes and to automate things outside of a ServiceNow instance. See [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r-orchestration.md) for more information.
-
-</td></tr><tr><td>
-
 [Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conv-spokes-na.md)
 
 </td><td>
@@ -96,27 +80,19 @@ Now Assist in Conversational Spokes application to utilize the conversational ab
 
 </td></tr><tr><td>
 
-[Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-intelligence-landing.md)
+[Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/create-integrations-applications.md) Home
 
 </td><td>
 
-Document Intelligence \(DocIntel\) is an AI solution that enables any organization to automate and accelerate the process of extracting data from documents. That data can easily be integrated into larger automation workflows to save time and resources.
+Unify data from different systems into one consistent, governed layer. Package trusted, business-ready Data Products with built-in context and meaning. Simplify how teams discover, understand, and reuse data through the catalog.
 
 </td></tr><tr><td>
 
-[Exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/exports-overview-page.md)
+[Data Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/data-catalog.md)
 
 </td><td>
 
-Exports enable you to push data from an instance to an external file. To dynamically export data from a script or web service, export data from the URL.
-
-</td></tr><tr><td>
-
-[Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/imports-overview-page.md)
-
-</td><td>
-
-Imports enable administrators to import data from various data sources, and then map that data into ServiceNow tables. You can automate data import tasks from a new design environment using Integration Hub.
+The Data Catalog is a centralized and searchable inventory of all data assets across an organization. It’s enriched with metadata, context, lineage, and governance policies to make data more discoverable, understandable, and usable by both technical and business users.
 
 </td></tr><tr><td>
 
@@ -136,14 +112,6 @@ Integration Hub Remote Process Sync enables you to set up one-way or bidirection
 
 </td></tr><tr><td>
 
-[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)
-
-</td><td>
-
-Process Mining helps analysts and process owners quickly analyze and optimize their business processes.
-
-</td></tr><tr><td>
-
 [External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ext-cont-connectors-landing-page.md)
 
 </td><td>
@@ -152,7 +120,7 @@ The External Content Connectors ServiceNow® Store application enables AI Search
 
 </td></tr><tr><td>
 
-[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/rpa-main-landing-page.md)
+[RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub-landing-page.md)
 
 </td><td>
 
@@ -168,11 +136,11 @@ Connect your Apache Kafka environment to your ServiceNow instance with Stream Co
 
 </td></tr><tr><td>
 
-[Workflow Data Fabric Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/workflow-data-fabric-hub/workflow-data-fabric.md)
+[Zero Copy Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/zero-copy-connectors.md)
 
 </td><td>
 
-Power AI agents and enrich workflows on the ServiceNow AI Platform with real-time data from across the enterprise using ServiceNow® Workflow Data Fabric Hub.
+Securely connect to an external data source and access external data directly from your instance with zero copy connectors. Create zero copy connections and data fabric tables in Workflow Data Fabric Hub after requesting the Zero Copy Connectors app through the Now Support Service Catalog. If it isn't already installed, the app installs Workflow Data Fabric Hub.
 
 </td></tr></tbody>
 </table>## Related ServiceNow applications and features
@@ -192,5 +160,17 @@ Power AI agents and enrich workflows on the ServiceNow AI Platform with real-tim
 -   **[Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/actions.md)**
 
     Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
+
+-   **[Exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/exports-overview-page.md)**
+
+    Exports enable you to push data from an instance to an external file. To dynamically export data from a script or web service, export data from the URL.
+
+-   **[Imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/imports-overview-page.md)**
+
+    Imports enable administrators to import data from various data sources, and then map that data into ServiceNow tables. You can automate data import tasks from a new design environment using Integration Hub.
+
+-   **[Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r-orchestration.md)**
+
+    ServiceNow® Orchestration extends the workflow engine to manage processes and to automate things outside of a ServiceNow instance. See [Classic Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/r-orchestration.md) for more information.
 
 

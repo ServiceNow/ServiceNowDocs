@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Organization chart in Employee Center Pro, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Organization chart in Employee Center Pro, Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Update the report count based on eligible users
@@ -34,4 +34,9 @@ Role required: admin
 ## Result
 
 The report count is updated based on the [eligible users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md) and is populated in the organization chart.
+
+**Related topics**  
+
+
+[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
 

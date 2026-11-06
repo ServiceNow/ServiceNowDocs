@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -27,6 +27,7 @@ As a case manager, monitor the large number of workplace cases incoming daily at
 -   In case of a maintenance cases, you can view the details related to the asset specified and know the location of the asset specified on the map. You know the details such as the product model and asset-related details.
 -   When there are hundreds of cases like regular workplace cases, move cases and, maintenance cases, you can sort and apply a filter on the cases to work on them based on priority.
 -   You can export the list of cases if necessary.
+-   You can track the total time spent on a case or task. The timer starts at zero, tracks time until the record is saved or closed, and resumes when revisited. You can also manually adjust, pause, or resume the timer.
 
 The landing page of the workspace is categorized as follows:
 
@@ -212,4 +213,14 @@ You can perform the following actions on a case at any time:
 [Move conflicts for projects created via Excel upload]()
 
 [Workplace Central troubleshooting]()
+
+[Workplace Task form - Space Assignment task]()
+
+[Neighborhood User Assignment Rule form]()
+
+[User Workplace Profile form]()
+
+[]()
+
+[]()
 

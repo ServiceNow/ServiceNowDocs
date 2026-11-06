@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Document Templates of type HTML, Configuring Document Templates, Document Templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [Document Templates of type HTML, Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Document blocks in Document Templates

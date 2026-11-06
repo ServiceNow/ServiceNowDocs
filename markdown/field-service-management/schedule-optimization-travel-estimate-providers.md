@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/schedule-optimization-travel-estimate-providers.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Field Service Management reference, Field Service Management]
+breadcrumb: [Reference, Field Service Management]
 ---
 
 # Schedule Optimization travel estimate providers
@@ -22,7 +22,7 @@ To enter straight-line travel estimate configuration properties, an administrato
 
 In the **General** tab, you can add the speed limit for the region in the speed multiplier field.
 
-In the **Multipliers** tab, the multipliers defined in the straight-line calculation, are the values that the estimated straight-line travel time is multiplied by, depending on the time bracket the estimate falls in. If the travel time is less than 15 minutes, multiply by a value greater than 1, to increase the estimated travel time. If the travel time is greater than 15 minutes, multiply by a positive value smaller than 1 to decrease the estimated travel time.
+In the **Multipliers** tab, the multipliers defined in the straight-line calculation are the values that the estimated straight-line travel time is multiplied by, depending on the time bracket the estimate falls in. If the travel time is less than 15 minutes, multiply by a value greater than 1, to increase the estimated travel time. If the travel time is greater than 15 minutes, multiply by a positive value smaller than 1 to decrease the estimated travel time.
 
 **Note:** Straight-line distance calculation is a fallback logic in case a customer doesn’t want to choose a map provider for travel time estimates.
 
@@ -36,7 +36,7 @@ Travel estimates are obtained every time Schedule Optimization runs. An administ
 
 To change the configurations for Beans.AI, an administrator can navigate to **All** &gt; **Map Integrations for Field Service** &gt; **Map Provider Configuration**.
 
-By default, the **Inputs** field is set to Beans.AI. By default **Decision table** is set up as follows:
+By default, the **Inputs** field is set to Beans.AI. By default **Decision table** is set up as indicated in the table.
 
 |Field|Value|
 |-----|-----|

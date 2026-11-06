@@ -7,9 +7,9 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure CAD objects using the Map Configuration tab, AutoCAD import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure CAD objects using the Map Configuration tab, Autocad import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Georeference your floor plan
@@ -26,13 +26,13 @@ Role required: admin
 
     **Note:** if the floor plan isn’t positioned on the map, georeference isn’t set \(\[Omitted image "wsd-warning-icon.png"\] Alt text: Georeference not set warning alert.\) alert is shown.
 
-2.  Select Georeference and select **Edit**.
+2.  Select Georeference, then select **Edit**.
 
     \[Omitted image "wsd-georeference-option.png"\] Alt text: Georeference and position your floor plan configuration page.
 
 3.  Move around the pins to position your floor plan on the map.
 
-4.  Select **Display** and from the drop-down list enable the radio button for the required floors.
+4.  Select **Display**, then from the drop-down list, enable the radio button for the required floors.
 
 5.  Select **Save**.
 

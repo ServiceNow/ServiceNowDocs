@@ -1,5 +1,5 @@
 ---
-title: Embed the playbook in Service Portal
+title: Configure a playbook for Service Portal
 description: Add a playbook that Service Portal users can launch and run by creating a Playbook Content Item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/embed-playbook-service-portal.html
@@ -7,19 +7,19 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Playbooks in Service Portal, Designing playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks in Service Portal, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Embed the playbook in Service Portal
+# Configure a playbook for Service Portal
 
 Add a playbook that Service Portal users can launch and run by creating a Playbook Content Item.
 
 ## Before you begin
 
 -   Role required: admin, or portal admin
--   If you don't have a playbook that you want to customize for Service Portal yet, build one in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md).
+-   If you don't have a playbook that you want to customize for Service Portal yet, build one in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md).
 -   Create a record generator, if there isn't already one you want to use. To learn more about creating a playbook record generator, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-record-generator-overview.md).
 -   You may need to set up mappings between your Portal theme and the UXF theme, if they are very different. To set up mappings between your Portal theme and the UXF theme, see [Set up mappings between themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/set-up-mappings-between-themes.md).
 
@@ -65,9 +65,4 @@ For other issues:
 ## What to do next
 
 Customize the runtime playbook experience in the Service Portal Designer.
-
--   **[Portal Playbook Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/portal-playbook-widget.md)**  
-Explore the Portal Playbook Widget.
-
-**Parent Topic:**[Playbooks in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbooks-service-portal.md)
 

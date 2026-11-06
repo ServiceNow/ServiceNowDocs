@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -21,8 +21,6 @@ Use the flow designer to approve exception requests for exception management, an
 Role required: sn\_vulc.admin
 
 ## About this task
-
-If you are an existing Configuration Compliance user, the default option is workflow.
 
 The value of the system property **sn\_vulc.flow\_designer\_activation** is set to true. This means that the flow designer is activated by default.
 
@@ -58,7 +56,7 @@ To use the flow designer, create rules using the Approval Rules module. Using th
 
     In the Approval Configurations tab, there are two levels of approvers set up by default. You can select a rule to define the conditions based on different use cases within a rule. For more information, see [Create configurations for an approval rule in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configuration-compliance/cc-exception-mgt-approval-config.md) .
 
-    **Note:** In each configuration page, you can create multiple approval levels. For more information, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md) .
+    **Note:** In each configuration page, you can create multiple approval levels. For more information, see [Create approval levels for Exception Management in Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configuration-compliance/cc-exception-mgt-config-approval-rule.md).
 
 
 ## Example

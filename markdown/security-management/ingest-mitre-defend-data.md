@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/ingest-mitre-defend-data.html
 release: yokohama
 topic_type: task
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MITRE D3FEND framework, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

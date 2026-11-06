@@ -7,8 +7,8 @@ release: yokohama
 product: System Localization
 classification: system-localization
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -22,7 +22,9 @@ In the following example, the user's session language is Swedish. The Example st
 
 \[Omitted image "sort-session-lang.png"\] Alt text: Column sorted according to the session language
 
-**Note:** The availability of this functionality for a supported language depends on the availability of a collation in the underlying Relational Database Management System \(RDBMS\) used in the instance. For a list of available collations for each language and RDBMS, navigate to the DB Collation Info \[sys\_db\_collation\_info\] table. To add a collation for an unsupported language, see [Add collation information for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/add-collation-unsupported-language.md).
+**Note:** This column attribute can't be set to true when the following column attribute is also set to true: Locale text match. For more information see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/sl-locale-text-match.md).
+
+The availability of this functionality for a supported language depends on the availability of a collation in the underlying Relational Database Management System \(RDBMS\) used in the instance. For a list of available collations for each language and RDBMS, navigate to the DB Collation Info \[sys\_db\_collation\_info\] table. To add a collation for an unsupported language, see [Add collation information for an unsupported language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/add-collation-unsupported-language.md).
 
 ## Enable sorting according to the session language
 
@@ -57,11 +59,13 @@ Configure whether the values in columns are sorted according to the user's sessi
 
 Enable sorting according to the user's session language for the instance.
 
+This column attribute can't be set to true with locale text match. For more information see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/sl-locale-text-match.md).
+
 Role required: admin
 
 ### Procedure
 
-1.  Navigate to a field on a form, right-click the field, and select **Configure Dictionary**.
+1.  Navigate to a field on a form, select and hold \(or right-click\) the field, and select **Configure Dictionary**.
 
     The field must be a string field.
 

@@ -1,24 +1,28 @@
 ---
 title: License operations view
-description: Use the License operations view in Software Asset Workspace to manage software asset operations such as licenses, contracts, discovery, client access, resource value, user subscriptions, content suggestions, software asset success, cloud cost simulation, SAM implementation, IBM ASP, and IBM ILMT V2 integrations.
+description: Use the License operations view in Software Asset Workspace to manage software asset operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/operations-workspace.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 15
-breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License operations view
 
-Use the License operations view in Software Asset Workspace to manage software asset operations such as licenses, contracts, discovery, client access, resource value, user subscriptions, content suggestions, software asset success, cloud cost simulation, SAM implementation, IBM ASP, and IBM ILMT V2 integrations.
+Use the License operations view in Software Asset Workspace to manage software asset operations.
 
-You can access the License operations view by navigating to **Software Asset Workspace** &gt; **License operations**.
+The operations on the License operations view include license management, administration, contracts, discovery, client access, resource value, user subscriptions, content suggestions, cloud cost simulation, and SAM implementation. The application specific operations include IBM ASP, IBM ILMT V2 integrations, and engineering apps integrations.
 
-The list view for the software assets on the License operations view shows the total number of records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+.
+Access the License operations view by navigating to **Software Asset Workspace** &gt; **License operations**.
+
+The list view of the software assets shows the total number of records for your organization based on the value specified in the system property **SAM Workspace License operations list count limit** \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+.
+
+\[Omitted image "license-operations-view.png"\] Alt text: License operations view
 
 The License operations view includes the following categories:
 
@@ -29,7 +33,7 @@ The License operations view includes the following categories:
 
     -   **Software models**
 
-        View the details of the software models created and also create a software model. For more information, see [Create software models in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md).
+        View the details of the software models created and also create a software model. For more information, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md).
 
     -   **Entitlement import**
 
@@ -37,11 +41,11 @@ The License operations view includes the following categories:
 
     -   **Entitlement import error**
 
-        View the details on entitlement import errors that gets generated while importing software entitlements. For more information, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/entitlement-import-error-fields.md).
+        View the details on entitlement import errors that are generated while importing software entitlements. For more information, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/entitlement-import-error-fields.md).
 
     -   **Software lifecycle averages**
 
-        Create averages to calculate the End of Life \(EOL\) and End of Support \(EOS\) lifecycles of your software. For more information, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md).
+        Create averages to calculate the End of Life \(EOL\) and End of Support \(EOS\) life cycles of your software. For more information, see [Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md).
 
     -   **Consumption rules**
 
@@ -51,36 +55,46 @@ The License operations view includes the following categories:
 
         View the product install condition that accounts for all software model installations for a product during reconciliation. These installation conditions are applicable for the software product and all its components. For example, if you have purchased Microsoft Visual Studio, set  up product installation conditions for using Visual Studio only to consume licenses in your non-production  environment. These same conditions then apply across all software models under Visual Studio, including downgrades and  editions. For more information, see [Create product install conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-product-install-condition.md).
 
-    -   **Software installs**
+-   **Administration**
+    -   **Reclamation rules**
 
-        View the details of software installation such as discovery model, publisher, and reconciliation details. The list view also shows the total number of software installation records for your organization. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-installation-fields.md).
+        View the details of reclamation rules that are configured to specify a period of time, amount of time, or the most recent date that a software unit must be used before the software is flagged for reclamation. For more information, see [Software reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sw-reclamation-rules.md).
+
+    -   **Deduplication rules**
+
+        View the details of software deduplication rules that are created to define how duplicate software installations are identified and matched within your organization. For more information, see [Software install deduplication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/deduplication-rule.md).
+
+-   **Reclamation**
+    -   **Removal candidates**
+
+        View a list of all removal candidates. Removal candidates are used to reclaim software installations and subscriptions that aren’t being used. You can also create removal candidates. For more details, see [Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/add-sw-removal-workspace.md).
+
+    -   **Reclamation summary**
+
+        View reclamation candidates consolidated by software model, product, and justification across all reclamation sources. Select a record to view the individual removal candidates in that group.
 
 -   **Contract - Software contracts**
 
     Create a software contract to bind agreement between two parties. [Create a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/contract-management/t_CreateAContract.md).
 
 -   **Discovery**
-    -   **Discovered engineering license**
-
-        View a list of all the discovered and normalized software for your engineering applications.
-
     -   **Discovery models**
 
         View and update software discovery models that are created when a version of software is discovered in a network environment. For more information, see [Discovery models and software installations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_DiscoveryModels.md).
 
-    -   **Engineering license server**
+    -   **Software installs**
 
-        View a list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance. Details on license management servers such as the type of the server, the name of the server, the status of the server, and the last connection time are also provided.
+        View the details of software installation such as discovery model, publisher, and reconciliation details. The list view also shows the total number of software installation records for your organization. For more information, see [Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-installation-fields.md).
 
     -   **Software usage**
 
-        View software usage records to track the usage of software products for which you've created reclamation rules. You can also create software usage records manually from third party integrations or Microsoft System Center Configuration Manager \(SCCM\) integrations. For more information, see [View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-sw-usage-workspace.md).
+        View software usage records to track the usage of software products for which you have created reclamation rules. You can also create software usage records manually from third-party integrations or Microsoft System Center Configuration Manager \(SCCM\) integrations. For more information, see [View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-sw-usage-workspace.md).
 
-    -   **All SAP engines**
+    -   **SAP engines**
 
         View the monthly engine usage measurements for SAP clients based on the license metric for each engine.
 
-    -   **All SAP users**
+    -   **SAP users**
 
         View all the discovered users pulled from the SAP systems and their details such as SAP user roles, SAP user active transactions, SAP user activities, and SAP web activities. For more information, see [View SAP users in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-sapusers-workspace.md).
 
@@ -141,6 +155,31 @@ The License operations view includes the following categories:
 
         View the event details for each SaaS and SSO integration performed by the users, such as the event ID, event name, last activity, subscription, product, subscription profile, and publisher. For more information, see [Overlapping usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/app-ration.md).
 
+    -   **Software storage usage**
+
+        View the usage information for various SaaS applications including details on the allocated storage and used storage in bytes that is stored in the Software storage usage \[saas\_sw\_storage\_usage\] table. For more information, see [Software storage usage fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-storage-usage.md).
+
+    -   **CrowdStrike product usage**
+
+        View the list of usages for various CrowdStrike software models and license metrics. Select a record in the list to view its details.
+
+    -   **CrowdStrike product workload mappings**
+
+        View the list of CrowdStrike products mapped with the types of workloads they manage \(for example, servers, workstations, containers\). With workload mapping, you can correctly count license usage and ensure compliance. Select a record in the list to view its details. For more information on creating a new product workload mapping, see [Create a product workload mapping for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-product-workload-mapping-crowdstrike.md).
+
+    -   **CrowdStrike raw usage**
+
+        View the list of workloads with their metric types. Select a record in the list to view its details.
+
+-   **Software spend detection**
+    -   **Transaction imports**
+
+        View the list of imported spend transactions to track the outcome of each import, verify how many rows were inserted or ignored, and identify imports that require investigation. For more information, see [Import financial transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/import-spend-transactions.md).
+
+    -   **All transactions**
+
+        View the consolidated list of all spend transactions that have been imported or manually created in the Software Asset Workspace. Use this list to review the state of each transaction, verify how it was labeled, and identify transactions that require correction. For more information, see [Managing software spend in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/spend-detection-sam-workspace.md).
+
 -   **Content suggestions**
     -   **Part number suggestions**
 
@@ -194,7 +233,7 @@ The License operations view includes the following categories:
 
     -   **Devices to scan**
 
-        Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only. For more information about updating the VM managers, see [Specify the virtual machine \(VM\) managers for which you are tracking IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md).
+        Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only. For more information about updating the VM managers, see [Specify VMMs for IBM licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.md).
 
     -   **Device settings**
 
@@ -213,10 +252,37 @@ The License operations view includes the following categories:
 
         View details for the discovered device including the server name, server id, server type, hardware model, hardware serial number, hardware vendor, total processor, and CMDB computer. For more information, see [View the devices that are running your IBM software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-ibm-ilmt-v2-discovered-computer.md).
 
+-   **Engineering apps integration**
+    -   **License server**
+
+        View a list of all the license management servers that OpenLM or Open iT connect with to get data into your ServiceNow instance. Details on license management servers such as the type of the server, the name of the server, the status of the server, and the last connection time are also provided.
+
+    -   **Discovered engineering licenses**
+
+        View a list of all the discovered and normalized software for your engineering applications.
+
+    -   **Session details**
+
+        View a list of users who are currently using the product. The list shows the number of days and hours being used per user. Select a record in the list to view its details.
+
+    -   **Daily peak concurrent usage**
+
+        View a list of simultaneous users or devices accessing a specific application. Concurrent licenses can be floating, token, or network types. For more information, see [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md).
+
+    -   **User denials**
+
+        View a list of users that are denied licenses to products. Select a record in the list to view its details.
+
+    -   **Application product map**
+
+        View a list of mappings of the discovered file names to software products for content resolution.
+
+    -   **Unrecognized publisher integration map**
+
+        View or create unrecognized publisher-to-subscription integration mappings. You should create these mappings when the content resolver doesn't automatically recognize a specific publisher. For more information, see [Create an unrecognized publisher integration mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/map-unid-pub-integration.md).
+
 -   **SAM implementation - Published products**
 
     View the list of software products published in a phase-wise implementation of Software Asset Management. For more information, see [Manage phase-wise Software Asset Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-phasewise-imp-of-sam.md).
 
-
-\[Omitted image "license-operations-view.png"\] Alt text: License operations view
 

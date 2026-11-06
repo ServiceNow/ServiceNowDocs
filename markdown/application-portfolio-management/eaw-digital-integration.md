@@ -1,16 +1,16 @@
 ---
-title: Digital integrations in Enterprise Architecture Workspace
+title: Exploring digital integrations in Enterprise Architecture Workspace
 description: Manage all your digital integrations in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-digital-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the application portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Digital integrations in Enterprise Architecture Workspace
+# Exploring digital integrations in Enterprise Architecture Workspace
 
 Manage all your digital integrations in the Enterprise Architecture Workspace.
 
@@ -18,26 +18,28 @@ The digital integration functionality in Enterprise Architecture Workspace helps
 
 You can do the following:
 
--   Proactively find out the issues of the integrations at one place.
+-   Proactively identify integration issues in one location.
 -   Manage the information flows across your organization.
--   Have complete governance over the use of interfaces for internal and external APIs.
+-   Govern interface usage for internal and external APIs.
 
-The digital integration represents the integration between two business applications. In a typical scenario there would be a consuming business application, a provider business application, and an interface that is provided by the provider business application. The digital integration contains the metadata on the integration, including name, version, type, data flow direction, middleware used, owners, and so on.
+The digital integration represents the integration between two business applications. In a typical scenario, there's a consuming business application, a provider business application, and an interface provided by the provider business application. The digital integration contains integration metadata, including name, version, type, data flow direction, middleware used, and owners.
 
-An easy form for digital integration enables the creation of a digital integration from a single page, including the introduction of a new digital interface if it doesn’t exist. The digital integrations are saved in the Digital Integration \[sn\_apm\_di\_digital\_integration\] table. After a digital integration is created, a CI relationship link gets created between the two business applications with the type of interface. This link enables you to access the integration as part of the node map for any business application. A new catalog entry is provided to request an approval for a new digital integration. After the request is approved, the integration gets created.
+An easy form for digital integration enables the creation of a digital integration from a single page. If the digital interface doesn't exist, you can create a new one.The digital integrations are saved in the Digital Integration \[sn\_apm\_di\_digital\_integration\] table. After you create a digital integration, a CI relationship link is created between the two business applications with the interface type. This link enables you to access the integration as part of the node map for any business application. A catalog entry is provided to request approval for a digital integration. After the request is approved, the integration gets created.
 
 The Digital Integrations page displays a list of existing digital integrations and their related information. You can access the Digital Integrations page by navigating to **Workspaces** &gt; **Enterprise Architecture Workspace** &gt; **Portfolio** &gt; **Application Portfolio** &gt; **Digital Integrations**\[Omitted image "eaw-digital-integrations.png"\] Alt text: Digital Integrations in Enterprise Architecture Workspace.
 
--   **[Digital integration management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-dig-intg-data-model.md)**  
-This section shows the digital integration management data model.
--   **[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-dig-integ.md)**  
-View the list of all your digital integrations in the Enterprise Architecture Workspace.
--   **[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-digital-integ.md)**  
-Add a digital integration or edit an existing digital integration in the EA Workspace. The digital integration is a design object used by the Enterprise Architects. It describes a connection between two business applications or between a business application and an external service \(for example: AWS, Yahoo, a TimeZone Conversion service\) that provides an interface \(API\) to interact with.
--   **[Manage architectural artifacts of a digital integration in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.md)**  
-You can create new, add, or remove the architectural artifacts that are associated with a digital integration.
--   **[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-dig-integ-add-info-object.md)**  
-Associate an information object to a digital integration in the Enterprise Architecture Workspace.
+**Parent Topic:**[Exploring the application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
+**Related topics**  
+
+
+[Digital integration management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-dig-intg-data-model.md)
+
+[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-dig-integ.md)
+
+[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-digital-integ.md)
+
+[Manage architectural artifacts of a digital integration in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.md)
+
+[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-dig-integ-add-info-object.md)
 

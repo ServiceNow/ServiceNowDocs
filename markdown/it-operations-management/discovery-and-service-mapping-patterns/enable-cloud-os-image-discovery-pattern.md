@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Discovery, Patterns, AWS, Azure, GCP, Cloud, Machine, Image]
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
@@ -56,5 +56,5 @@ Each cloud service provider offers OS images to launch a Compute/VM instance. Cl
 
 **Previous topic:**[Activate a disabled pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.md)
 
-**Next topic:**[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
+**Next topic:**[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)
 

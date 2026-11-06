@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -33,8 +33,6 @@ Assume that a project, which has resources allocated, gets delayed by one month.
 ## Procedure
 
 1.  Navigate to **All** &gt; **Resource** &gt; **Resource Plans** &gt; **All**.
-
-    If you are accessing the resource plan from the Allocation Workbench, navigate to **Resource &gt; Resource Workbench &gt; Allocation Workbench**, and open the allocation board whose resource plan you want to extend.
 
 2.  Open a resource plan and select **Request Extension**.
 
@@ -70,7 +68,7 @@ The end date of the resource plan is updated and the **Extension** field is set 
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

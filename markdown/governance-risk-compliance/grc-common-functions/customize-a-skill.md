@@ -7,10 +7,10 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-11-10"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Customize a ServiceNow Otto for Integrated Risk Management \(IRM\) skill
@@ -23,7 +23,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## About this task
 
-From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill. You can then configure prompt headers to include in the generated summary.
+From the AI Admin Hub console, you can select the input tables, related lists, and fields for each input template of the incident summarization skill.
 
 ## Procedure
 
@@ -49,7 +49,7 @@ From the AI Admin Hub console, you can select the input tables, related lists, a
 
     4.  Select the copied skill from the Active skills section to open it.
 
-        A guided setup leads you through the configuration of the general details, input, prompt,availability, display, review, and activation of the customized skill.
+        A guided setup leads you through the configuration of the general details, input, availability, display, review, and activation of the customized skill.
 
 5.  In the General details step, fill in the fields.
 
@@ -245,13 +245,9 @@ Closed
 
     3.  Select the incident record in the Test response section, and test the prompt response output format by selecting **Run Test**.
 
-        \[Omitted image "prompt-input.png"\] Alt text: The Customize prompt output screen for issue summarization with a test output section and navigation buttons.
-
         The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
     4.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.
-
-        \[Omitted image "edit-a-prompt.png"\] Alt text: Edit prompt screen to modify prompts in the Now Assist Skill Kit.
 
     5.  Select **Save and continue** to go to the next step.
 

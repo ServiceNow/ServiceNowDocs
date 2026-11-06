@@ -7,7 +7,7 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [On-Call Scheduling, IT Service Management]
 ---
@@ -24,6 +24,8 @@ Several types of components are installed with activation of On-call scheduling,
 Validate that On-Call Scheduling still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/on-call-properties.md)**  
 The property settings configure On-Call Scheduling operations.
+-   **[On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md)**  
+Subflows in On-Call Scheduling enable you to build and configure on-call escalation and notification.
 -   **[On-Call Scheduling workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/workflows-oncall.md)**  
 Workflows perform On-Call Scheduling operations.
 -   **[Domain separation and On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/domain-separation-on-call-scheduling.md)**  

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-access-roles.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-17"
-reading_time_minutes: 14
+last_updated: "2026-10-28"
+reading_time_minutes: 16
 keywords: [access roles, permissions, role capabilities, enterprise architect, application portfolio, business architecture, technology portfolio, data certification, modeling, AI systems]
-breadcrumb: [Install Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Enterprise Architecture Workspace access roles
@@ -21,12 +21,12 @@ The following roles are available in Enterprise Architecture Workspace. After ac
 
 |Role|Description|Typical persona|
 |----|-----------|---------------|
-|sn\_apm.apm\_admin|Full administrative access to configure and manage Enterprise Architecture Workspace settings, including Setup page configuration for all functional areas. Includes all permissions of sn\_apm.apm\_analyst.|EA administrator, IT architect lead|
-|sn\_apm.apm\_analyst|Create and manage key portfolio records such as business applications and digital integrations. Approve or reject requests when assigned to the Enterprise Architect group. Includes all permissions of sn\_apm.apm\_user.|Enterprise architect, solution architect|
-|sn\_apm.apm\_user|Create and update portfolio data across business architecture, information portfolio, technology portfolio, modeling, and data certification. Includes all permissions of sn\_apm.apm\_read.|Application owner, business analyst, portfolio manager|
+|sn\_apm.apm\_admin|Full administrative access to configure and manage Enterprise Architecture Workspace settings, including Setup page configuration for all functional areas. Includes all permissions of sn\_apm.apm\_user.|EA administrator, IT architect lead|
+|sn\_apm.apm\_analyst|Create and manage key portfolio records such as business applications and digital integrations. Approve or reject requests when assigned to the Enterprise Architect group. Includes all permissions of sn\_apm.apm\_admin.|Enterprise architect, solution architect|
+|sn\_apm.apm\_user|Create and update portfolio data across business architecture, information portfolio, technology portfolio, modeling, and data certification.|Application owner, business analyst, portfolio manager|
 |sn\_apm.apm\_read|Read-only access to all pages and records in Enterprise Architecture Workspace. Cannot create or update data. For more information, see [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-stakeholder-role.md).|Business stakeholder, executive, auditor|
 
-Users with Enterprise Architecture Workspace roles and certain platform roles, such as ITIL and other CMDB related roles, may be able to create or edit Business Application records by default.
+**Note:** The global admin role continues to function through role inheritance. However, Enterprise Architecture now uses feature-specific granular admin roles. Use sn\_apm.apm\_admin instead of admin for application-level administration wherever possible. For more information, see [Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-gran-admin-role-changes.md).
 
 ## Enterprise Architect group
 
@@ -75,6 +75,86 @@ sn\_apm.apm\_analyst
 
 -   Approve or reject modeling diagram requests
 -   View shape library configurations, entity configurations, and modeling configuration and relationship definitions
+
+</td></tr><tr><td>
+
+Technology Reference Model \(TRM\) — data access
+
+</td><td>
+
+Group membership only
+
+</td><td>
+
+Read data from the following TRM standards tables: -   TRM Standards phase \(sn\_apm\_trm\_standards\_phase\)
+-   TRM standards product lifecycle \(sn\_apm\_trm\_standards\_product\_lifecycle\)
+-   TRM standards technical debt \(sn\_apm\_trm\_standards\_technical\_debt\)
+
+</td></tr><tr><td>
+
+Application portfolio
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+Retire a business application
+
+</td></tr><tr><td>
+
+Architectural artifacts
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+-   Approve or reject architectural artifact version approval requests. EA group members receive approval requests by email and can approve or reject directly from the notification.
+-   Owner permission on the following architecture document types:
+    -   Application Architecture
+    -   Technology Architecture
+    -   Business Architecture
+    -   Data Architecture
+
+</td></tr><tr><td>
+
+Architecture Review Board \(ARB\)
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+Request an ARB architecture review
+
+</td></tr><tr><td>
+
+Publishing Center / TRM Catalog
+
+</td><td>
+
+sn\_apm.apm\_admin + knowledge\_admin + sp\_admin
+
+</td><td>
+
+Create, publish, and manage TRM Publishing Configurations**Note:** sp\_admin is required in addition to sn\_apm.apm\_admin and knowledge\_admin for EA group members accessing the Publishing Center.
+
+</td></tr><tr><td>
+
+Administration
+
+</td><td>
+
+Group membership
+
+</td><td>
+
+-   Access the **Services Approval Group** module to view and manage EA workflow groups
+-   Configure the EA approval group using the **Configure Enterprise Architecture Group** step in APM Guided Setup
 
 </td></tr></tbody>
 </table>## Installation and plugin activation
@@ -221,6 +301,62 @@ Activate the Read only roles for Enterprise Architecture plugin
 
  
 
+</td></tr><tr><td>
+
+Run the scheduled job to sync TRM product names with linked ServiceNow Otto for SAM software product names
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+
+</td></tr><tr><td>
+
+Run the Migrate BA Product Model Map from EA Workspace scheduled job
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires the admin role. Run on demand from **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
+
 </td></tr></tbody>
 </table>## Setup page
 
@@ -268,7 +404,7 @@ Configure application categories, category groups, and families
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -296,7 +432,7 @@ Configure application and capability indicators
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -324,7 +460,7 @@ Configure scoring profiles and attach profile indicators
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -352,7 +488,7 @@ Configure TRM phases and TRM categories
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -380,7 +516,7 @@ Configure information data domains
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -408,7 +544,7 @@ Configure architectural artifact categories
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -436,7 +572,7 @@ Configure demand actions
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -464,7 +600,7 @@ Configure modeling settings, including shape libraries, entities, relationships,
 
 </td><td align="center">
 
- 
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
 
 </td><td align="center">
 
@@ -2638,6 +2774,62 @@ Modify BPMN diagrams
 
 </td></tr><tr><td>
 
+Set relationship type on a connector; set connector line style, arrowhead style, and icon for non-ArchiMate and mixed connectors; swap connector direction; add a label to a connector
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires Owner or Editor access to the diagram
+
+</td></tr><tr><td>
+
+Align shapes to a common edge or center; distribute shapes at equal spacing
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Requires Owner or Editor access to the diagram. Not available in business capability map diagrams.
+
+</td></tr><tr><td>
+
 View diagrams and diagram details
 
 </td><td align="center">
@@ -4559,4 +4751,10 @@ View your assigned entities
 
 
 [Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-stakeholder-role.md)
+
+[Granular admin role changes in Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-gran-admin-role-changes.md)
+
+[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/install-ea-workspace.md)
+
+[Components installed with Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-installed-with-eaw.md)
 

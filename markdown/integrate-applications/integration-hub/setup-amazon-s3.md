@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [Amazon S3 Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Amazon S3 Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Amazon S3 spoke

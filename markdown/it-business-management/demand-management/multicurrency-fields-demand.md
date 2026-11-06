@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Enable demand currency view, Multicurrency, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ Currency in which you want to manage and track the demand.**Note:**
 
 The ability to select a demand currency depends on the currency option you selected in **Preferences-Project** under **Project Administration**. For more information, see [Select demand currency preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/select-demand-currency.md).
 
-The **Demand currency** field of a demand becomes read-only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown.
+The **Demand currency** field of a demand becomes read only once you create a cost plan, cost plan breakdown, benefit plan, or benefit plan breakdown.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Project currency
 
 Currency in which you want to implement the project when this demand is converted to a project.**Note:**
 
-The **Project currency** field in the Project form of Project Management is carried over from the demand when it is converted.
+The **Project currency** field in the Project form of Project Management is carried over from the demand when it’s converted.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Net present value in demand currency
 
 </td><td>
 
-Present value of future cash based on the given annual interest rate in the selected demand currency.It is a measure for comparing money spent today against future expected financial benefits. It helps when evaluating the overall investment performance.
+Present value of future cash based on the given annual interest rate in the selected demand currency.It’s a measure for comparing money spent today against future expected financial benefits. It helps when evaluating the overall investment performance.
 
 </td></tr><tr><td>
 

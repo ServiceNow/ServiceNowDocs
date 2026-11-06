@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/request-private-branded-ios-app.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Request a new branded iOS app for private distribution
@@ -139,10 +139,8 @@ Mobile Application Management vendor
 
 </td><td>
 
-Select one of the following MAM vendors form the list:
+Select one of the **Intune** MAM vendor form the list.
 
- -   **Blackberry**
--   **Intune**
  This field is only visible if you select the **Mobile Application Management \(MAM\)** toggle.
 
 </td></tr><tr><td>

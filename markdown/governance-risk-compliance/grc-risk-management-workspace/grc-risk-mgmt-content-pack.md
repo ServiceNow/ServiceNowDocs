@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Risk Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ This Platform Analytics Solution is available on the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 

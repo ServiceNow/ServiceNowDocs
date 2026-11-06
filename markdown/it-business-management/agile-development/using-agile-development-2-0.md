@@ -1,5 +1,5 @@
 ---
-title: Using Agile Development 2.0
+title: Managing your product development using Agile Development 2.0
 description: Learn how to use the features of Agile Development 2.0 to efficiently manage your product development life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/agile-development/using-agile-development-2-0.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
-# Using Agile Development 2.0
+# Managing your product development using Agile Development 2.0
 
 Learn how to use the features of Agile Development 2.0 to efficiently manage your product development life cycle.
 

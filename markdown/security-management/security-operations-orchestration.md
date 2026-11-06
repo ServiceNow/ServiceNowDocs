@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-operations-orchestration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -19,7 +19,7 @@ Security Operations Orchestration saves time by eliminating manual processes and
 To create and access additional orchestration activities that are not available with the standard offering Security Operations products, purchase a full orchestration license.
 
 -   Security Incident Response Orchestration workflows:
-    -   [Security Incident Response- Get Network Statistics Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/obtain-network-statistics-workflow.md)
+    -   [Security Incident Response- Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/obtain-network-statistics-workflow.md)
     -   [Security Operations System Command Integration- Get Running Processes flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/obtain-WMI-retrieval-workflow.md)
     -   [Create Lookup Request for IoC Changes workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_CreateScanRequestforIoCChanges.md)
     -   [Security Operations Integration - Email Search and Delete flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integ-email-search-delete.md)

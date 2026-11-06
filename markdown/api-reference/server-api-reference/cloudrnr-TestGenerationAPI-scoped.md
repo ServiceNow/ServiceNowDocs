@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -276,7 +276,7 @@ String
 
 </td><td>
 
-Optional. Name of the test suite to create using test generation.Data type: String
+Optional. Sets the name of the test suite to create via test generation.Data type: String
 
 Default: ATF Generated Suite - &lt;time\_stamp&gt;
 

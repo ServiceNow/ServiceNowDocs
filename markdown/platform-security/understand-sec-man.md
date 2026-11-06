@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/understand-sec-man.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Secrets Management, Secrets Management, Platform Security]
 ---
@@ -16,7 +16,7 @@ Learn how use Secrets Management to manage access to secrets and groups.
 
 ## Terminology
 
-Client-side secrets management is designed to provide a method for managing secrets without the use of proxies, and without giving ServiceNow access to your decrypted data. To understand this process, begin with the following encryption terms.
+Client-side secrets management provides a method for managing secrets without the use of proxies, and without giving ServiceNow access to your decrypted data. To understand this process, begin with the following encryption terms.
 
 <table id="table_qft_qw1_vvb"><thead><tr><th>
 
@@ -77,7 +77,7 @@ A symmetric key encrypts a credential \(in this case, an admin password\), chang
 
 </td><td>
 
-\[Omitted image "cse-process-1.png"\] Alt text: Symmetric key encryption
+\[Omitted image "sm-cse-process-1.svg"\] Alt text: Symmetric key encrypts credential
 
 </td></tr><tr><td>
 
@@ -85,15 +85,15 @@ The symmetric key \(represented in green\) can be applied to the credential to e
 
 </td><td>
 
-\[Omitted image "cse-process-2.png"\] Alt text: Credential encrypted with symmetric key encryption
+\[Omitted image "sm-cse-process-2.svg"\] Alt text: Symmetric key can be applied to credential for encryption or decryption
 
 </td></tr><tr><td>
 
-At this point, asymmetric encryption begins using public\(yellow\) and private key\(blue\) keys.
+At this point, asymmetric encryption begins using public \(green\) and private key \(blue\) keys.
 
 </td><td>
 
-\[Omitted image "cse-process-3.png"\] Alt text: Public and private keys
+\[Omitted image "sm-cse-process-3.svg"\] Alt text: Asymmetric encryption begins using keys
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ The public key encrypts the credential along with the symmetric key. The symmetr
 
 </td><td>
 
-\[Omitted image "cse-process-4.png"\] Alt text: Public key used to encrypt the symmetric key.
+\[Omitted image "sm-cse-process-4.svg"\] Alt text: Public key encrypts the credential with the symmetric key
 
 </td></tr><tr><td>
 
@@ -109,7 +109,7 @@ After being encrypted with the public key, the private key is needed to decrypt 
 
 </td><td>
 
-\[Omitted image "cse-process-5.png"\] Alt text: Public key used to encrypt the symmetric key.
+\[Omitted image "sm-cse-process-5.svg"\] Alt text: The credential is now encrypted with the public key which needs the private key to decrypt
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Exploring Secrets Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-secrets-management.md)

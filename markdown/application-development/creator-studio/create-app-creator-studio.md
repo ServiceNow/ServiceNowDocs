@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [App creation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [App creation, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create an app in Creator Studio
@@ -30,7 +30,7 @@ Your administrator must add you to the Creator Studio Users group.
 
 1.  Let's open Creator Studio. On your instance, select the **All** tab.
 
-    \[Omitted image "cs-all-menu.png"\] Alt text: The All menu lets you see all the apps on your instance
+    \[Omitted image "cs-all-menu.png"\] Alt text: Interface showing All, Favorites, and History tabs with a Filter field.
 
     This tab lets you see all the apps installed on your instance.
 
@@ -52,7 +52,7 @@ Your administrator must add you to the Creator Studio Users group.
 
     **Note:** Your admin may have hidden this page.
 
-    \[Omitted image "crs-interstitial-sd.png"\] Alt text: App type page when creating an app
+    \[Omitted image "crs-interstitial-sd.png"\] Alt text: Within the Creator Studio interface, select the "Service Desk" app option. This type of app is designed to streamline the management of incoming requests or support tickets.
 
 6.  Select the **Continue** button.
 
@@ -79,7 +79,7 @@ Your administrator must add you to the Creator Studio Users group.
 
 To learn all the things you can do as the app owner when building the app, see [Application collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-collaboration.md).
 
-For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table, which contains the table that the app uses. Your admin can change the table for an app, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
+For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table, which contains the table that the app uses. Your admin can change the table for an app, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 
 **Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-creating-apps.md)
 

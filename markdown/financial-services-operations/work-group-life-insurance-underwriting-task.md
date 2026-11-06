@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/work-group-life-insurance-underwriting-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Group Life Servicing, Group Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a group life insurance underwriting task
@@ -26,11 +26,11 @@ The configured workflow automatically generates an underwriting task for an unde
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d49151e84">
+<table><tbody><tr><td id="d56126e88">
 
 **From the Group Life Underwriting task list**
 
@@ -51,15 +51,15 @@ The configured workflow automatically generates an underwriting task for an unde
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d49151e165">
+<table><thead><tr><th align="left" id="d56126e169">
 
 Underwriting task
 
-</th><th align="left" id="d49151e168">
+</th><th align="left" id="d56126e172">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d49151e174">
+</th></tr></thead><tbody><tr><td id="d56126e178">
 
 **To review coverage change**
 
@@ -69,7 +69,7 @@ To close the task:-   In the case playbook, click **Mark complete**.
 -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d49151e201">
+</td></tr><tr><td id="d56126e205">
 
 **To submit a review**
 

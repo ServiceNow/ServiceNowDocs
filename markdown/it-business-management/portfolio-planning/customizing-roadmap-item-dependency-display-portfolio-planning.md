@@ -1,5 +1,5 @@
 ---
-title: Customizing roadmap item dependency display in Portfolio Planning Workspace
+title: Customizing roadmap item dependency display
 description: Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/customizing-roadmap-item-dependency-display-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Personalize roadmap view in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Personalize roadmap view, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Customizing roadmap item dependency display in Portfolio Planning Workspace
+# Customizing roadmap item dependency display
 
 Improve the efficiency of identifying the relationships between your planning items by choosing how the dependencies are displayed on the roadmap view.
 
@@ -74,5 +74,5 @@ Roadmap view
 \[Omitted image "only-dependencies.png"\] Alt text: Roadmap showing only items with dependencies.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Personalize roadmap view in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
+</table>**Parent Topic:**[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)
 

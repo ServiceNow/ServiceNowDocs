@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application Mapping for UNIX, Software discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Application Mapping for UNIX, Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Using the lsof Command
@@ -28,15 +28,13 @@ Role required: admin
 
 3.  Select **Solaris** from the list.
 
-4.  In the UNIX Classification form for Solaris, select the **Triggers probes** related list, and then click **Edit**.
+4.  In the UNIX Classification form for Solaris, select the **Triggers probes** related list, and then select **Edit**.
 
 5.  Move **Linux - Active Connections** from the Collections list to the Triggers probe List.
 
     This probe is configured to use `lsof`.
 
-    \[Omitted image "SolarisActiveConnectionsLsof.png"\] Alt text: Solaris Active Connections lsof
-
-6.  Click **Save**.
+6.  Select **Save**.
 
 7.  Repeat this procedure for the AIX classification probe.
 

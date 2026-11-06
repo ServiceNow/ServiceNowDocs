@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career Assessment, Talent Development, Employee Service Management]
+breadcrumb: [Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Configuring Career Assessment
@@ -23,6 +23,4 @@ After you install Career Assessment, you might encounter Restricted Caller Acces
 -   Target Human Resources Core
 -   Target Journey Accelerator
 -   Target Journey Designer
-
-**Parent Topic:**[Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-engine.md)
 

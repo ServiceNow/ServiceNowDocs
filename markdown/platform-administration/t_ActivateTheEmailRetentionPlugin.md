@@ -1,16 +1,16 @@
 ---
-title: Activate the Email Retention plugin
+title: Activate Email Retention
 description: The Email Retention plugin provides archive and destruction rules for email messages. It is active by default for new instances, but must be activated for upgrades.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ActivateTheEmailRetentionPlugin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Email retention, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Activate the Email Retention plugin
+# Activate Email Retention
 
 The Email Retention plugin provides archive and destruction rules for email messages. It is active by default for new instances, but must be activated for upgrades.
 

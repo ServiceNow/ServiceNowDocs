@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
@@ -17,7 +17,7 @@ breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
 
 Configure what columns must be displayed on the Prioritization page of portfolio plans so that your planning managers can select the appropriate data points they need.
 
-Portfolio managers or product owners can show or hide the data for their planning items by using the Personalize side panel in the Prioritization page of their workspace. By default, this side panel of List and Hierarchy views provides all the default fields available for that planning item. If your planning managers want to see additional columns, for example, there could be a requirement of information from a dot-walked field. In such cases or to remove any existing choices, you can configure them using the admin role.
+Portfolio managers or product owners can show or hide the data for their planning items by using the Personalize side panel in the Prioritization page of their workspace. By default, this side panel of Prioritization and Hierarchy tabs provide all the default fields available for that planning item. If your planning managers want to see additional columns, for example, there could be a requirement of information from a dot-walked field. In such cases or to remove any existing choices, you can configure them using the admin role.
 
 |Personalize settings for List view|Personalize settings for Hierarchy view|
 |----------------------------------|---------------------------------------|

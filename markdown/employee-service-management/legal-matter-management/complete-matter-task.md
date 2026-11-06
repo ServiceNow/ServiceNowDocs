@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a task for a legal matter, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Create a task for a legal matter, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Complete a legal matter task
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, under **My Work**, click **Tasks to do**.
 
@@ -38,4 +38,6 @@ Role required: sn\_lg\_ops.legal\_user
 ## Result
 
 The matter task is completed and its state updates to Review. It sent to the matter owner for approval.
+
+**Parent Topic:**[Create a task for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/add-tasks-to-legal-matter.md)
 

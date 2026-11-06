@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create planning scenarios, Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,15 +32,15 @@ You can perform a what-if analysis by including or excluding demands or projects
 
 1.  Navigate to Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d131721e84">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d163674e84">
 
 Location
 
-</th><th align="left" id="d131721e87">
+</th><th align="left" id="d163674e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d131721e93">
+</th></tr></thead><tbody><tr><td id="d163674e93">
 
 **From application navigator**
 
@@ -50,7 +50,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d131721e129">
+</td></tr><tr><td id="d163674e129">
 
 **From the portfolio list**
 

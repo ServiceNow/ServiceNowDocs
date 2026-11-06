@@ -1,18 +1,18 @@
 ---
 title: Create a group for all location support agents in Care Team Operations for Healthcare IT
-description: Create a group for location support agents with the sn\_cto\_hcit.loc\_support\_agent assigned so that users added to this group inherits the collection of roles for Care Team Operations for Healthcare IT.
+description: Create a group for location support agents with the sn\_cto\_hcit.loc\_support\_agent role assigned so that users added to this group inherits the collection of roles for Care Team Operations for Healthcare IT.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-it-create-support-agent-group.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Healthcare IT, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Create a group for all location support agents in Care Team Operations for Healthcare IT
 
-Create a group for location support agents with the sn\_cto\_hcit.loc\_support\_agent assigned so that users added to this group inherits the collection of roles for Care Team Operations for Healthcare IT.
+Create a group for location support agents with the sn\_cto\_hcit.loc\_support\_agent role assigned so that users added to this group inherits the collection of roles for Care Team Operations for Healthcare IT.
 
 ## Before you begin
 

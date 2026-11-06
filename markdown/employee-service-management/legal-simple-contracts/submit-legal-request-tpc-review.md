@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Third-party contract review requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Third-party contract review requests, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a legal request for a third-party contract review
@@ -29,15 +29,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Access the third-party contract review intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d287550e76">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d310445e76">
 
 Option
 
-</th><th align="left" id="d287550e79">
+</th><th align="left" id="d310445e79">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d287550e85">
+</th></tr></thead><tbody><tr><td id="d310445e85">
 
 **Using __Employee Center__**
 
@@ -48,7 +48,7 @@ Description
 3.  Search for and open the **Third-party Contract Review** request item.
 
 
-</td></tr><tr><td id="d287550e128">
+</td></tr><tr><td id="d310445e128">
 
 **Using __Legal Service Portal__**
 

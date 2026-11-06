@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/track-outages-csm.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Proactive Customer Service Operations, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Proactive Customer Service Operations, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Create an outage from a major case

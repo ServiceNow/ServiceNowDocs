@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Use Guided Self-Service
@@ -51,11 +51,17 @@ For more information, see [Guided Self-Service in Employee Center](https://raw.g
 
 [Use the My To-dos page]()
 
-[View advanced portal navigation]()
+[Use approval experience]()
+
+[Manage approvals from Microsoft Teams]()
+
+[Manage approvals from a Microsoft Outlook email]()
 
 [Task filters on My tasks]()
 
 [View the Recommended for you content]()
+
+[Use Employee Center from Zoom]()
 
 [View employee profile]()
 
@@ -66,4 +72,6 @@ For more information, see [Guided Self-Service in Employee Center](https://raw.g
 [RTL support for Employee Center]()
 
 [Manage favorites]()
+
+[Access applications from App Launcher]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure employee communications widgets, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure employee communications widgets, Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the News feed widget
@@ -32,7 +32,11 @@ Learn more about the news widgets: [News articles](https://raw.githubusercontent
 
 3.  Configure the widget:
 
-    **Note:** News can be directed to other widget instances, provided that the content is published within the News Feed widget. The targeted news will automatically appear on the designated widget, eliminating the task of configuring any content assigned to that widget.
+    **Note:**
+
+    Admins have an additional configuration option to enable or disable a degraded or normal experience for the News Feed Widget to help during high traffic events.
+
+    News can be directed to other widget instances, provided that the content is published within the News Feed widget. The targeted news will automatically appear on the designated widget, eliminating the task of configuring any content assigned to that widget.
 
 <table id="table_lgk_4yj_crb"><thead><tr><th>
 
@@ -169,6 +173,14 @@ Empty state
 </td><td>
 
 Allows the widget to appear if there are no published news articles
+
+</td></tr><tr><td>
+
+Degraded experience
+
+</td><td>
+
+Option to enable or disable a degraded or normal experience for the News Feed Widget to help during high traffic events.
 
 </td></tr><tr><td>
 

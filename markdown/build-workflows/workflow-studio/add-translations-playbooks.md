@@ -1,20 +1,20 @@
 ---
-title: Add translations for playbooks
-description: Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+title: Add translations for Playbooks
+description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/add-translations-playbooks.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Add translations for playbooks
+# Add translations for Playbooks
 
-Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 
 ## Before you begin
 
@@ -57,33 +57,18 @@ The playbook text that you can create translations for are:
 
 8.  In the **Message** field, enter the translation.
 
-9.  Right-click on the form header to open the context menu, and select **Insert**.
+9.  Right-click on the form header to open the context menu, and select **Save**.
 
     Your translation is saved.
 
 10. Repeat steps 1-8 to add more translations.
-
-    \[Omitted image "insert-playbook-translation.gif"\] Alt text: Adding a Spanish translation for the piece of text "Instructional"
 
 
 ## Result
 
 When the playbook runs, the translated content appears for agents in their user session language.
 
-\[Omitted image "playbook-translation-runtime.png"\] Alt text:
+\[Omitted image "playbook-translation-runtime.png"\] Alt text: The message translated into Spanish.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Create a playbook]()
-
-[Playbook variants]()
-
-[Test a playbook]()
-
-[Restart]()
-
-[Duplicate Playbooks]()
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

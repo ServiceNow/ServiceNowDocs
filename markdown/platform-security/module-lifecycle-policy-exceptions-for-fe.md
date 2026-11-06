@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/module-lifecycle-policy-exceptions-for-fe.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
@@ -16,7 +16,7 @@ Use module lifecycle policy exceptions to customize the lifecycle of your module
 
 ## Before you begin
 
-Role required: KMF Admin or KMF Cryptographic Manager
+Role required: sn\_kmf.admin or sn\_kmf.cryptographic\_manager
 
 ## About this task
 

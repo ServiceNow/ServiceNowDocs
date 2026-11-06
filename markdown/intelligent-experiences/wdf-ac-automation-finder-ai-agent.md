@@ -1,0 +1,119 @@
+---
+title: Automation finder AI agent
+description: This Workflow Data Fabric agent fetches automation records from tables on your instance. The agent discovers relevant automations for a specified asset, estimates cost and time savings, saves the discovered automations, and presents a value insights summary to the user.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/wdf-ac-automation-finder-ai-agent.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Workflow Data Fabric AI agents, Workflow Data Fabric AI agents, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Automation finder AI agent
+
+This Workflow Data Fabric agent fetches automation records from tables on your instance. The agent discovers relevant automations for a specified asset, estimates cost and time savings, saves the discovered automations, and presents a value insights summary to the user.
+
+## Workflow
+
+1.  Pass the input JSON received from the data-collection agent to the automation discovery tool to find relevant automations.
+2.  For the first few discovered automations, run the saving estimator tool to calculate time and cost savings per run, then append those estimates to each automation's record.
+3.  Execute the discovered automations tool to persist the results and generate a summary.
+4.  Display the output under the title **Value Insights**, without listing individual automations or inventing additional content.
+
+<table><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   **Script**
+
+Automation Discovery
+
+-   **Topic**
+
+Discovered Automations
+
+-   **Generative AI skill**
+
+Saving Estimator
+
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+Not defined.
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+sn\_ac.automation\_technical\_user
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+sn\_ac.automation\_technical\_user
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+Automation Explorer
+
+</td></tr></tbody>
+</table>Learn more about Workflow Data Fabric at .
+
+**Parent Topic:**[Workflow Data Fabric AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/wdf-ai-agents-overview.md)
+

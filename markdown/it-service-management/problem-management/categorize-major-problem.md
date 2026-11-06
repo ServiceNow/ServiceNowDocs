@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activate.
+**Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activated.
 
 -   If the Problem Management Best Practice – Madrid plugin \(com.snc.best\_practice.problem.madrid\) is activated, configure the Problem form to include the **Major problem** check box and add the **Major problem review** field to the **Resolution Information** tab.
 -   If the Problem Management Best Practice – Madrid plugin \(com.snc.best\_practice.problem.madrid\) is not activated, add the **Review outcome** field to the **Closure Information** tab.

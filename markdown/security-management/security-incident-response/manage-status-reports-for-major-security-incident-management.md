@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ A user with the sn\_msi.workspace\_manager role can create and configure the rep
 
 To customize your MSI status reports, you must first set up the report templates using **Report Templates**. With the help of Report Templates, you can build the report template types, define the report components for those report templates, add additional information, create visualized data to track the scope and progress metrics, add related list data, and generate the status reports.
 
-The following describes the default fields provided in all the report template types. You can configure and format the report template based on your requirements using sections, subsections, and its elements:
+The following table describes the default fields provided in all the report template types. You can configure and format the report template based on your requirements using sections, subsections, and its elements:
 
 |Component Type|Description|
 |--------------|-----------|
@@ -41,31 +41,25 @@ Following are the types of report categories that can be set up and viewed:
 -   **Technical Status Report** PDF
 -   **Executive Status Report** PDF
 
-The above reports are configured and available for the user to select, view, and generate the report from the Major Security Incident Management workspace.
+These reports are configured and available for the user to select, view, and generate the report from the Major Security Incident Management workspace.
 
 ## Mobile-friendly Executive Status Reports - Email
 
 The Executive Status Reports - Email are mobile-friendly status reports that are generated in email format. The report section includes a summary of the report, MSI duration column, incident scope/impact, active team metrics, progress metrics, and Timeline components such as the recent timeline events for that specific major security incident record.
 
-Customize and configure the following report template features to add additional information to the report. A sample executive email status report is shown below for your reference.
-
-\[Omitted image "msim-executive-report-email.png"\] Alt text: Executive Status Report Email
+Customize and configure the report template features to add additional information to the report.
 
 ## Executive Status Reports - PDF
 
 The Executive Status Reports - PDF are status reports that are generated in PDF format. The report section includes a summary of the report, MSI duration column, incident scope/impact, active team metrics, progress metrics, and Timeline components such as the recent timeline events for that specific major security incident record.
 
-Customize and configure the following report template features to add additional information to the report. A sample executive report is shown below for your reference.
-
-\[Omitted image "executive-reports-01.png"\] Alt text: Executive Status Report PDF
+Customize and configure the report template features to add additional information to the report.
 
 ## Technical Status Reports - PDF
 
 The Technical Status Reports - PDF are status reports that are generated in PDF format. The report section includes a summary of the report, MSI duration column, incident scope/impact, active team metrics, progress metrics, and Timeline components such as the recent timeline events for that specific major security incident record, labeled Task updates and labeled activities, based on the assignment group and selected tag label since when the last status report is generated, and additional information such as incident impact and linked incidents.
 
-Customize and configure the report template to add additional information to the report. A sample technical report that shows the additional information, such as the incident impact, is illustrated below for your reference, and the remaining part of the report information is similar to the executive reports.
-
-\[Omitted image "msim-technical-status-report.png"\] Alt text: Technical Status Report PDF
+Customize and configure the report template to add additional information to the report. The additional information, such as the incident impact, is illustrated in the report, and the remaining part of the report information is similar to the executive reports.
 
 The report template sections contain various subsections, which describe how you can construct the report subsections and its elements such as:
 

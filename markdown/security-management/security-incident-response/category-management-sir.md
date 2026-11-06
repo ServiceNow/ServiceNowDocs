@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-11-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,6 +25,8 @@ Create subcategories for a category for a deeper classification of a security in
 
 **Related topics**  
 
+
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()
 

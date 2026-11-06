@@ -1,20 +1,21 @@
 ---
-title: Submit a fraud request
-description: Collect all required information and documents from the customer and submit the fraud request to the back-office agents so that you can begin the fulfillment process.
+title: Submit a fraud case request
+description: Collect all required information and documents from the customer and submit the fraud case request to the back-office agents so that you can begin the fulfillment process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/intelligent-servicing-for-fraud/submit-a-fraud-service-request-as-card-fraud-by-alert.html
 release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Submitting a fraud case request, Using Intelligent Servicing for Fraud, Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
+keywords: [submit a fraud case request, create a fraud case, card fraud by alert, fraud case fulfillment, collect customer documents, document verification tasks, fraud case workflow, fraud types, sn\_bom\_fraud.agent]
+breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Submit a fraud request
+# Submit a fraud case request
 
-Collect all required information and documents from the customer and submit the fraud request to the back-office agents so that you can begin the fulfillment process.
+Collect all required information and documents from the customer and submit the fraud case request to the back-office agents so that you can begin the fulfillment process.
 
 ## Before you begin
 
@@ -24,7 +25,7 @@ Role required: sn\_bom\_fraud.agent
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  On the **Lists** tab, under **Fraud cases**, select **All**
 

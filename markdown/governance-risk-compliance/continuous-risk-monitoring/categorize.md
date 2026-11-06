@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # RMF step 1 - Categorize the authorization package
@@ -41,11 +41,11 @@ Role required to write to overridden fields on the Package form: sn\_irm\_cont\_
 
 ## About this task
 
-When you clicked **Categorize** on the Authorization Package form, an **Impact** field, an **Impact** tab, and an **Information Types** related list appeared on the form.
+When you click **Categorize** on the Authorization Package form, an **Impact** field, an **Impact** tab, and an **Information Types** related list appear on the form.
 
 ## Procedure
 
-1.  In the Information Types related list, select **Edit**.
+1.  In the **Information Types** tab, select **Edit**.
 
     **Note:** As you select the information types, guidance about the selected information type appears, including name, categories, and the Confidentiality, Integrity, and Availability \(CIA\) ratings for the information type.
 
@@ -75,6 +75,8 @@ When you clicked **Categorize** on the Authorization Package form, an **Impact**
     -   Moderate risk = 262 controls
     -   Low risk = 125 controls
 6.  After you have defined the impact, select **Request Approval**.
+
+    \[Omitted image "cam-auth-packages-request-approval.png"\] Alt text: Authorization Package categorize to request for approval.
 
     An approval request is sent to the Authorizing Official, who will access My Approvals from the navigation pane and review the information in the package. When approval is received, the package transitions to the **Select** state.
 

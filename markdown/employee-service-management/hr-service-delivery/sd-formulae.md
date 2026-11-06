@@ -1,20 +1,20 @@
 ---
-title: HR Success Dashboard indicators KPI definitions and formulae
-description: Enable HR Success Dashboard indicators and configure to determine and use the Key Performance Indicators \(KPIs\) and formulae.
+title: HR Success Dashboard indicators KPI definitions and formulas
+description: Enable HR Success Dashboard indicators to use the Key Performance Indicators \(KPIs\) and formulas.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/sd-formulae.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [HR Success Dashboard indicators reference, HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, HR Success Dashboard indicators, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Success Dashboard indicators KPI definitions and formulae
+# HR Success Dashboard indicators KPI definitions and formulas
 
-Enable HR Success Dashboard indicators and configure to determine and use the Key Performance Indicators \(KPIs\) and formulae.
+Enable HR Success Dashboard indicators to use the Key Performance Indicators \(KPIs\) and formulas.
 
 ## Performance Overview
 

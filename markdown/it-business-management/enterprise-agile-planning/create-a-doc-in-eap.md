@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collaborate using Docs, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ Create a Doc at the team-level or planning item level.
 
 2.  Navigate to a team or planning item that you would like to create a Doc for.
 
-<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d92581e85">
+<table id="choicetable_wz1_jq3_bcc"><thead><tr><th align="left" id="d113355e85">
 
 Type
 
-</th><th align="left" id="d92581e88">
+</th><th align="left" id="d113355e88">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d92581e94">
+</th></tr></thead><tbody><tr><td id="d113355e94">
 
 **Agile Structure/Team Doc**
 
@@ -49,7 +49,7 @@ Actions
 3.  Select a Doc to view the pages within.
 
 
-</td></tr><tr><td id="d92581e115">
+</td></tr><tr><td id="d113355e115">
 
 **Planning item Doc**
 

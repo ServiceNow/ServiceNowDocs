@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Configuring Agent-Initiated Messaging Interface

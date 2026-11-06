@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Related templates form
@@ -38,7 +38,7 @@ Inventory model
 
 </td><td>
 
-List of all child product models based on the selected rack unit of the rack. The child product models are defined in the network model relationships for each inventory model of a rack unit. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model. To learn more, see [Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+List of all child product models based on the selected rack unit of the rack. The child product models are defined in the network model relationships for each inventory model of a rack unit. Select the search icon \(\[Omitted image "search.png"\] Alt text: Search icon.\) and select a model. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
 
 **Note:** A list of all product models is displayed if the inventory model is not defined in the model relationship.
 

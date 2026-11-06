@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use knowledge subscriptions, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,15 +28,15 @@ Users can manage knowledge subscriptions from the Knowledge application or from 
 
 1.  Navigate to the Notification Settings page.
 
-<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d515835e66">
+<table id="choicetable_jx3_rxw_jz"><thead><tr><th align="left" id="d522843e63">
 
 Location
 
-</th><th align="left" id="d515835e69">
+</th><th align="left" id="d522843e66">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d515835e75">
+</th></tr></thead><tbody><tr><td id="d522843e72">
 
 **From the Knowledge application**
 
@@ -44,7 +44,7 @@ Description
 
 Click the **Notification Settings** module.**Note:** Activate Knowledge Management Core plugin \(com.glideapp.knowledge\).
 
-</td></tr><tr><td id="d515835e90">
+</td></tr><tr><td id="d522843e87">
 
 **From the Knowledge Management Service Portal**
 
@@ -61,4 +61,6 @@ Click the user name in the portal header and then click **Notification Settings*
 
     The link toggles to **Unsubscribed**.
 
+
+**Parent Topic:**[Use knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)
 

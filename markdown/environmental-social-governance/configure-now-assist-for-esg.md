@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/configure-now-assist-for-esg.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [configure]
 breadcrumb: [Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
@@ -36,10 +36,10 @@ For information about the installation process, see [Install Now Assist plugins]
 
 **Note:** For more information on Retrieval Augmented Generation \(RAG\) and Retention policies, see [Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/indexed-sources-ais.md) and [User data usage policy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/user-data-usage-policy-now-assist.md).
 
--   **[Activate Now Assist skills in ServiceNow Otto for Operational Sustainability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/activate-now-assist-skills-for-esg.md)**  
-Activate a skill before you can use the generative AI capabilities for ServiceNow Otto for Operational Sustainability Management.
 -   **[Activate the document intelligence for utility invoices skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.md)**  
 Activate and then configure document intelligence for utility invoices skill from Now Assist to automate the extraction of metrics data from utility invoices. Once activated, map the extracted data to the correct metric definitions and entities.
+-   **[Activate carbon calculations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/activate-carbon-calculations-agentic-workflow.md)**  
+Configure and activate the carbon calculation workflow that uses AI agents and tools. It automates the creation of calculated metric definition \(CMD\) records and formulas for Scope 3 carbon emissions.
 
 **Parent Topic:**[ServiceNow Otto for Operational Sustainability \(formerly ESG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/now-assist-for-esg.md)
 

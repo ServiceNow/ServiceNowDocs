@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [With Process Configuration Builder, Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [With Process Configuration Builder, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure process details
@@ -18,170 +18,87 @@ Describe the process to get help with further configuration and enhance the qual
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
+
+## About this task
+
+Providing the information in the Process details page helps you in the following ways:
+
+-   Guides you to create projects by providing recommendations for the fields for your analysis. The fields that you specify for state and team definitions are provided as recommendations for activity definitions when creating a project. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-activity-def.md) section.
+-   Unlocks different impact metrics like idle time. The mapping of the state with the stake holders helps in identifying idle time in the process.
+-   Helps in configuring the next steps in the process configuration. Based on the settings here, recommendations are provided in the Automation opportunities page.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  On the left of the page, select the Process configurations icon \(\[Omitted image "icon-process-config.png"\] Alt text: Process configuration builder\).
+2.  On the side panel, select the Process configurations icon \(\[Omitted image "icon-process-config.png"\] Alt text: Process configuration builder\).
 
 3.  Open a table from the **Configurations** tab.
 
     The **Process details** page is displayed. This page has three sections:
 
-    -   Process perspectives
-    -   Breakdown fields
-    -   Child tables
+    -   State definition
+    -   Team definition
+    -   Agent definition
     **Note:** Select the help icon \(?\) to view details about how and why these details must be set. You also get a list of resources.
 
-4.  Fill the details in the **Process perspectives** section.
+4.  Fill the details in the **State definition** section.
 
-    Process perspectives provide varied viewpoints for analyzing a business process. Adding fields to process perspectives provides you with recommendations for the most suitable activity definitions when creating a project. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-activity-def.md) section.
+    \[Omitted image "process-det-1.png"\] Alt text: State definition section in Process details for process configuration
 
-    Additionally, perspectives are used within the process configuration to recommend automated and rule-based improvement opportunity definitions and fields for automated root cause analysis. To see how the recommendations are made when setting the automated root cause analysis, see automated root cause analysis section in the [Configure investigative features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/investigative-features.md) section. To see how recommendations are made when setting the improvement opportunities, see [Configure improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/improvement-opportunities.md).
-
-    \[Omitted image "process-det-1.png"\] Alt text: Process details for process configuration
-
-5.  Select the **+** sign under each section.
-
-    The **Add field** dialog box is displayed.
+    State represents the status of a record within a workflow. It shows how the record progresses toward completion.
 
     1.  Select a field.
 
-    2.  Select **Save**.
+        Defining a state improves analysis by revealing domain-specific insights, such as idle time. It also helps by providing recommendations for activity definitions when creating a project. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-activity-def.md) section.
 
-<table id="table_wmj_zsq_ndc"><thead><tr><th>
+        If you select `State` for this field, then in the process graph you’ll see how records moved from one state to another state.
 
-Field
+    2.  Select **Automatically add as an activity to new projects** if you want the selected field to add automatically as an activity in every new project.
 
-</th><th>
+        This simplifies the setup. If you don’t need a field for analysis, you can remove it.
 
-Description
+    3.  Select **Map state reponsibilities** to map each state with a stakeholder who is responsible for moving the records to the next process state.
 
-</th><th>
+        Mapping states with stakeholders enables you to take advantage of advanced process mining features, such as idle-time analysis.
 
-Example
+        -   Assign each process state to the appropriate stakeholder responsibility.
+        -   Look for the required fields marked with an asterisk \(\*\) to ensure completeness.
+        -   The tooltips provide more information to help you.
+    4.  Select **Save**.
 
-</th></tr></thead><tbody><tr><td>
+5.  Fill the details in the **Team definition** section.
 
-**Which fields represent progression of records through steps?**
+    **Note:** If you select a field in the Process details page that is selected in the promin.blocked.tables list, then the Idle time metrics is not available to set up.
 
-</td><td>
+    \[Omitted image "process-det-team.png"\] Alt text: Team definition section in Process details for process configuration
 
-Select the fields that describe the order in which the activities are executed. It’s usually the starting point for a process mining analysis.This is also known as control-flow perspective.
+    Team refers to a group of individuals who are responsible for a task in your workflow.
 
-</td><td>
+    1.  Select a field.
 
-State, substate
+        Defining a team helps to evaluate team efficiency, track handover of work, and analyze metrics like idle time. It also helps by providing recommendations for activity definitions when creating a project. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-activity-def.md) section.
 
-</td></tr><tr><td>
+        If you select `Assignment group` for this field, then in the process graph you’ll see how records moved from one group to another group.
 
-**Which field represents teams owning a record?**
+    2.  Select **Automatically add as an activity to new projects** if you want the selected field to add automatically as an activity in every new project.
 
-</td><td>
+        This simplifies the setup. You can remove the field if it's not needed for analysis.
 
-Select the fields that describe the resources \(such as teams\) required for the execution of a process and how they interact with each other.The fields selected here are used as recommendation for automated root cause analysis during process configuration.
+6.  Fill the details in the **Agent definition** section.
 
-This is also known as resource perspective.
+    \[Omitted image "process-det-agent.png"\] Alt text: Agent definition section in Process details for process configuration
 
-</td><td>
+    Agent refers to an individual who is responsible for a task in your workflow.
 
-Assignment group
+    1.  Select a field.
 
-</td></tr><tr><td>
+        Defining an agent helps to analyze idle time and handover of work, and improving process efficiency. It also helps by providing recommendations for activity definitions when creating a project. For more information about how the recommended fields are displayed when setting activity definitions, see the table in the [Set activity definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-activity-def.md) section.
 
-**Which field represents the person working on a record?**
+        If you select `Assigned to` for this field, then in the process graph you’ll see how records moved from one assignee to another.
 
-</td><td>
-
-Select the fields that describe the resources \(such as people\) required for the execution of a process and how they interact with each other.This is also known as resource perspective.
-
-</td><td>
-
-Assigned to
-
-</td></tr><tr><td>
-
-**Which other fields would you like to analyze?**
-
-</td><td>
-
-Any other field of your choice. You can choose from the recommended fields. These fields are recommended for their high frequency of changes in your process.
-
-</td><td>
-
-Priority
-
-</td></tr></tbody>
-</table>6.  Fill the details in the **Breakdown fields** section.
-
-    \[Omitted image "proces-det-2.png"\] Alt text: Breakdown fields in process configuration
-
-    Breakdown fields are used to segment the process, enabling the analysis of specific subsets of the process data. Configuring breakdown fields enables analysis of process subsets, provides you with recommendations for the most suitable breakdown in your projects, and surfaces recommendations for automated root cause analysis fields in this process configuration.
-
-    For information about how these recommendations are provided when setting the breakdown definitions in a project, see [Set breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/breakdown.md).
-
-<table id="table_xqk_jhr_ndc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th><th>
-
-Example
-
-</th></tr></thead><tbody><tr><td>
-
-**Fields representing classification of records**
-
-</td><td>
-
-Select the fields that describe how records are classified. The limit for dot-walking is 3 levels. For example: CI.BusinessService.assignment group.
-
-The fields selected here are used as recommendation for automated root cause analysis during process configuration.
-
-</td><td>
-
-Category, Channel
-
-</td></tr><tr><td>
-
-**Field representing importance of records**
-
-</td><td>
-
-Select the fields that describe the importance of the records.
-
-</td><td>
-
-Priority
-
-</td></tr></tbody>
-</table>7.  Fill the details in the **Child tables** section.
-
-    \[Omitted image "process-det-child.png"\] Alt text: Child table in process configuration
-
-    Child tables include data of dependent subprocesses that are important for the execution of the parent process. Analyzing child tables helps uncover inefficiencies in subprocesses that impact the main process's performance. Including child tables in the process configuration provides you with a list of related processes to add as an extra dimension of analysis to your project.
-
-    For example, the Incident table serves as the parent table with general information about incidents, while the Incident Task is the child table that stores specific tasks related to each incident.
-
-    For more information about how these settings are available in the child tables when creating a project, see [Set use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/adv-settings.md).
-
-    1.  Select the **+** sign in the field.
-
-        The **Add child table** dialog box is displayed.
-
-    2.  Select a table.
-
-    3.  Select a **Source field** value to identify the relationship.
-
-    4.  The **Target field** is populated by default.
-
-8.  Select **Continue to investigative features**.
+7.  Select **Continue to recommendations setup**.
 
 
 **Parent Topic:**[Create process configuration using Process Configuration Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-config-builder.md)

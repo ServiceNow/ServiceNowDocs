@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/manage-requests-certs-assessments.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Managing requests, certifications, and assessments
@@ -35,9 +35,9 @@ You can use this tab to keep your business applications inventory up to date by 
 
 Select **View All** to see the full list of certifications. Select the certification number, certification schedule, or certification instance to see more details.
 
-If you have directly installed the 4.0.0 version of the EA Workspace store application, the data in the My certifications table is fetched from the CMDB Data Management Task \(cmdb\_data\_management\_task\) table.
+If you have directly installed the 4.0.0 version of the EA Workspace store application, the My certifications table fetches data from the CMDB Data Management Task \(cmdb\_data\_management\_task\) table.
 
-If you upgraded your EA Workspace from a previous version to the 4.0.0 version, you may see that your certification data is still fetched from the Certification Schedules \(cert\_schedule\) table. In this case, you must migrate your certification policies to the CMDB Data Management Certification Policies \(sn\_cmdb\_ws\_dm\_certification\_policy\) table. For more information, see [Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)and [Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-publish-a-draft-policy.md).
+If you upgraded your EA Workspace from a previous version to the 4.0.0 version, your certification data may still be fetched from the Certification Schedules \(cert\_schedule\) table. You must migrate your certification policies to the CMDB Data Management Certification Policies \(sn\_cmdb\_ws\_dm\_certification\_policy\) table. For more information, see [Import certification schedules in to Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-convert-cert-schedules-to-cert-policies.md)and [Publish a draft Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-publish-a-draft-policy.md).
 
 ## Assessments
 
@@ -45,15 +45,15 @@ The **Assessments** tab shows the list of assessments for your applications that
 
 Each indicator periodically captures related application data that is used to calculate the application score. The assessment of applications is done on an extensible framework, which is based on the various configured indicators. If you require indicators other than the preconfigured ones to calculate the application score, then you can create an indicator based on your business requirements.
 
-You can select **View All** to see the list of assessments. Select the assessment number and metric type to see more details.
+You can select **View all** to see the list of assessments. Select the assessment number and metric type to see more details.
 
 ## Technology Portfolio audit
 
-The  **Technology Portfolio Audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist. For example, if the software product full version is 9.2.1, it may be that the End of Support lifecycle version in the Software Asset Management Content library was only full version 9.2. This audit table helps you to evaluate the lifecycle matching information based on the details of the products being used in your organization. The table helps you to identify whenever an exact lifecycle version match or no valid lifecycle version could be found against the software product or hardware model version used in your organization.
+The  **Technology Portfolio Audit** tab shows audit information for your applications. An entry in this table indicates that at least one lifecycle for that software product or hardware model was either approximated, or not found, or doesn’t exist. For example, the software product full version might be 9.2.1. The End of Support lifecycle version in the Software Asset Management Content library might only be full version 9.2. This audit table helps you to evaluate the lifecycle matching information based on the details of the products being used in your organization. Use the table to identify exact lifecycle version matches or missing lifecycle versions for software products and hardware models in your organization.
 
 The data in the Technology Portfolio Audit table is fetched from the TPM Technology Lifecycle Exception \[sn\_apm\_tpm\_technology\_lifecycle\_exception\] table.
 
-As an admin user, you can run the **Populate TPM Discovered Technologies and Lifecycles** scheduled job on-demand to calculate the technology lifecycle risk for your application portfolio. The scheduled job executes the script generating the lifecycle risk dates including end of support date, end of extended support date, and end of life date for your software products and hardware models by querying the ITAM content library. For more details, see [Schedule a job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/schedule-job-generate-tpm-data.md) and [Run a scheduled job to generate TPM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/run-scheduled-job-update-tpm-data.md). Whether the script runs on demand or scheduled, you can view the results in the Portfolio &gt; Technology Portfolio Management &gt; Logs page.
+As an admin user, you can run the **Populate TPM Discovered Technologies and Lifecycles** scheduled job on-demand to calculate the technology lifecycle risk for your application portfolio. The scheduled job executes the script generating the lifecycle risk dates for your software products and hardware models by querying the ITAM content library. These dates include end of support date, end of extended support date, and end of life date. For more details, see [Run a scheduled job to generate TLM lifecycle data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-scheduled-job-update-tpm-data.md). Whether the script runs on demand or scheduled, you can view the results in the Portfolio &gt; Technology Portfolio Management &gt; Logs page.
 
 <table id="table_frn_x3m_cxb"><thead><tr><th>
 
@@ -181,7 +181,7 @@ TPM technology lifecycle information of the software product or hardware model.
 </td></tr></tbody>
 </table>## Technical Debt
 
-The  **Technical Debt** tab shows the list of TRM technical debt that are created for the products that are not aligned with the TRM phases and standards. A technical debt indicates either there is no TRM product record for a software product used by one or more business application or the TRM product has one or more internal lifecycle phases that restrict its usage.. In this table, you can view the TRM products and associated business applications details, and the reason for the technical debt. A custom scheduled job **Populate TRM technical debts in the EA Workspace** runs and creates an entry in the TRM Technical Debt table. For more details, see [Manage TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-trm-technical-debt.md) and [Run a scheduled job to update TRM technical debt data in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
+The  **Technical Debt** tab shows the list of TRM technical debt that are created for the products that are not aligned with the TRM phases and standards. A technical debt indicates either there is no TRM product record for a software product used by one or more business applications. It may also indicate that the TRM product has one or more internal lifecycle phases that restrict its usage. In this table, you can view the TRM products and associated business applications details, and the reason for the technical debt. A custom scheduled job **Populate TRM technical debts in the EA Workspace** runs and creates an entry in the TRM Technical Debt table. For more details, see [TRM technical debt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-trm-technical-debt.md) and [Update TRM technical debt data using scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-run-job-trm-tech-debts.md).
 
 <table id="table_ak2_5fg_tyb"><thead><tr><th>
 
@@ -262,14 +262,10 @@ Last run
 Shows the time stamp when the custom scheduled job **Populate TRM technical debts in the EA Workspace** is run to update the table with technical debt.
 
 </td></tr></tbody>
-</table>-   **[Update verification status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-verif-status.md)**  
-Change the verification status of a software product or hardware model lifecycle in the TPM technology lifecycle exception table.
--   **[View or update your TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-update-trm-requests.md)**  
-View all your product requests, product lifecycle requests, track their statuses, and edit your existing requests. You can also manage the approvers for your request
--   **[Approve or reject TRM requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-approve-trm-req.md)**  
-As an Enterprise Architect, approve or reject a TRM product or product lifecycle requests submitted by other users.
--   **[Approve or reject a modeling diagram request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-approve-diagram-req.md)**  
-As an Enterprise Architect, approve or reject a Enterprise Modeling and Visualization diagram requests submitted by other users.
+</table>**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
 
-**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
+**Related topics**  
+
+
+[Approve or reject a modeling diagram request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-approve-diagram-req.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Relate a control objective to a citation using the Compliance Workspace
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_admin, sn\_compliance\_manager
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List.\).
+2.  In the Compliance Workspace, click the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
 
 3.  Navigate to **Compliance library** &gt; **Citations**.
 

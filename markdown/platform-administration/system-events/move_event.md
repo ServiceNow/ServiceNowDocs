@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -40,4 +40,6 @@ Role required: admin
 
     You can select any slow moving event and change the queue as required. You can also register an event to show up on the event registry list.
 
+
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-events/managing-system-events.md)
 

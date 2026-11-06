@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/set-up-dealer.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Configure, Manufacturing Commercial Operations]
 ---
 
 # Set up dealer

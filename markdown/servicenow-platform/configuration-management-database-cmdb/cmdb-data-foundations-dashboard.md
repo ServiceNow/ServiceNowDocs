@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 19
-breadcrumb: [CSDM and CMDB Data Foundations Dashboards, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CSDM and CMDB Data Foundations Dashboards, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Data Foundations dashboard
@@ -18,13 +18,13 @@ Use the CMDB Data Foundations dashboard to monitor foundational key health-relat
 
 ## Requirements
 
--   To access the CMDB Data Foundations dashboard, users must be configured with the sn\_cmdb\_admin,admin, itil\_admin, or asset roles. Some metrics that let you drill-down to Performance Analytics \(PA\) data, might require additional roles for accessing specific tables. Those roles are specified as appropriate per metric.
+-   To access the CMDB Data Foundations dashboard, users must be configured with the sn\_cmdb\_admin, admin, itil\_admin, or asset roles. Some metrics that let you drill-down to Performance Analytics \(PA\) data, might require additional roles for accessing specific tables. Those roles are specified as appropriate per metric.
 -   The CMDB Data Foundations dashboard adds the following scheduled jobs, which must be running:
     -   **CMDB Get Well Metric Collection**: Calculates and stores details for compliant CIs associated with metrics, populating the list view of the metrics. Data appears on the dashboard only after the first run of this scheduled job. Metrics' scores are stored in the CMDB Data Foundations Metric Scores \[sn\_getwell\_cmdb\_score\] table. This non-PA job runs daily by default.
     -   **CMDB Data Foundations PA Metric Collection**: Calculates the total non-compliant CIs associated with metrics and populates the PA widgets on the dashboard. Also, provides trending data over time for the non-compliant CIs associated with metrics. This PA job runs daily by default.
     -   **CMDB Get Well CIs Processed Via IRE Metric Batch Collection**: Invoked once a day \(by default\) by the **CMDB Get Well Metric Collection** job and repeatedly runs in 10 minute intervals, to process as many 1,000-CIs \(default\) batch files as possible. After each 10-minute run, the job stops for a minute.
 
-## Overview
+## Overview of CMDB Data Foundations dashboard
 
 \[Omitted image "CMDB-DataFoundations-Xanadu.png"\] Alt text: CMDB Data Foundations dashboard with compliant and non-compliant CIs.
 
@@ -93,16 +93,16 @@ The **Best Practices** tab contains the following metrics:
 
     **Note:** If the percentage of compliant CIs is less than 70%, then the percentage score for this metric is set to 0.
 
-    The Hardware CIs Missing Serial Numbers tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Hardware CIs Missing Serial Numbers tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
-    The Hardware CIs Missing Serial Number by Key Classes chart shows those CIs that are missing a Serial Number, grouped by key classes. Point to a class bar on the chart to show more details, and click a class bar to access a list view of those CIs for class.
+    The Hardware CIs Missing Serial Number by Key Classes chart shows those CIs that are missing a Serial Number, grouped by key classes. Point to a class bar on the chart to show more details, and select a class bar to access a list view of those CIs for class.
 
     To manage a potential performance impact, other than deactivating the metric, you can limit the performance impact by adjusting the following performance management columns for the metric in the CMDB/CSDM Get Well Metrics \[sn\_getwell\_metric\] table. For this metric, those columns are set with the following default values:
 
     -   **Aggregate limit**: 30 \(% of CIs in the metric\)
     -   **Fail count threshold**: 3
     -   **Runtime threshold**: 3,600
-    For more information about these columns, see Performance management in [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    For more information about these columns, see Performance management in [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 -   **Services with Owners**
 
@@ -110,7 +110,7 @@ The **Best Practices** tab contains the following metrics:
 
     The complete set of CIs for this metric consists of all the operational services in the Service \[cmdb\_ci\_service\] table \(where **operational\_status** = **Operational**\). The percentage score for this metric is calculated as \(Compliant CIs/Complete set of CIs\) \*100.
 
-    The Services Missing Owners tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Services Missing Owners tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 
 ## Customizations metrics
@@ -147,7 +147,7 @@ The **Customizations** tab contains the following metrics:
     -   Otherwise, the percentage = \(10 – count\)\*10
     .
 
-    The Base System CMDB Relationship Types Deleted and/or Recreated tile shows the relationships which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those relationships.
+    The Base System CMDB Relationship Types Deleted and/or Recreated tile shows the relationships which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those relationships.
 
 -   **Custom CMDB Tables Using Standard Naming**
 
@@ -158,7 +158,7 @@ The **Customizations** tab contains the following metrics:
     -   If count &lt;= 0 then percent is 100
     -   If count &gt; 6 then percent is 0
     -   If count is between 0 and 6, then percent is \(1-\(count/6\)\)\*100
-    The Custom CMDB Tables Not Using Standard Naming tile shows the tables which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those tables.
+    The Custom CMDB Tables Not Using Standard Naming tile shows the tables which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those tables.
 
 -   **Use of Custom Attributes**
 
@@ -186,7 +186,7 @@ The **Data Management Practices** tab contains the following metrics:
 
     **Note:** If the percentage of compliant CIs is less than 65%, then the result displayed for this metric is set to 0.
 
-    The Active CIs Not Updated in 90 Days tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Active CIs Not Updated in 90 Days tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 -   **CIs Processed via IRE**
 
@@ -198,14 +198,13 @@ The **Data Management Practices** tab contains the following metrics:
     -   Sys\_id is IN \(target\_sys\_id FROM sys\_object\_source table\)
     The CIs that satisfy only the first three conditions but fail the forth condition, are counted as CIs not processed via IRE.
 
-    **Note:** Viewing the data provided by PA for this metric, requires the additional role of admin or discovery\_admin.However, the **Show Records** button on the Analytics Hub page isn't supported.
+    **Note:** Viewing the data provided by PA for this metric, requires the additional role of sn\_cmdb\_admin, admin, or discovery\_admin. However, the **Show Records** button on the Analytics Hub page isn't supported.
 
     To manage a potential performance impact, other than deactivating the metric, you can limit the performance impact by adjusting the following performance management columns for the metric in the CMDB/CSDM Get Well Metrics \[sn\_getwell\_metric\] table. For this metric, those columns are set with the following default values:
 
-    -   **Aggregate limit**: 1,000 \(Number of records in each batch file processed by the **CMDB Get Well CIs Processed Via IRE Metric Batch Collection** job during its 10-minute run intervals. Non customizable\).
     -   **Fail count threshold**: 3
     -   **Runtime threshold**: 72,000 \(Daily limit of total runtime of all **CMDB Get Well CIs Processed Via IRE Metric Batch Collection** job runs\)
-    For this metric, there is no trigger for automatically setting the metric score to 0. For more information about these columns, see 'Performance management' in [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    For this metric, there is no trigger for automatically setting the metric score to 0. For more information about these columns, see 'Performance management' in [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 -   **CIs with Names**
 
@@ -221,7 +220,7 @@ The **Data Management Practices** tab contains the following metrics:
 
     -   If count of CIs without names is &gt; 200, percent is 0
     -   If count of CIs without names is &lt; 200, percent is \(200-\(count of CIs without names\)/200 \* 100\)
-    The CIs Missing Names tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The CIs Missing Names tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 -   **CIs with Relationships to Parent and Child**
 
@@ -236,7 +235,7 @@ The **Data Management Practices** tab contains the following metrics:
     -   **Aggregate limit**: 1,000
     -   **Fail count threshold**: 3
     -   **Runtime threshold**: 3,600
-    For more information about these columns, see Performance management in [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    For more information about these columns, see Performance management in [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 -   **Handled Duplicate CIs**
 
@@ -252,7 +251,7 @@ The **Data Management Practices** tab contains the following metrics:
 
     -   If count of non-compliant CIs is &gt; 200 then percent is 0
     -   If count of non-compliant CIs is &lt; 200 then percent is \(200-count of non-compliant CIs\)/200\*100
-    The Unhandled Duplicate CIs tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Unhandled Duplicate CIs tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 -   **Installed Server CI Naming Reflecting Hostname**
 
@@ -274,7 +273,7 @@ The **Data Management Practices** tab contains the following metrics:
 
     The complete set of CIs for this metric consists of all the CIs in the Hardware \[cmdb\_ci\_hardware\] table. Compliant CIs are those in which **model\_id** is populated.
 
-    The Managed CIs Missing Model Entries tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Managed CIs Missing Model Entries tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 -   **Servers with Location**
 
@@ -292,7 +291,7 @@ The **Data Management Practices** tab contains the following metrics:
 
     The percentage score for the metric is calculated as \(Compliant CIs/Total CIs\)\*100.
 
-    The Duplicate Locations tile shows the total number of CIs which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Duplicate Locations tile shows the total number of CIs which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
     **Note:** If you need to manually refresh the Installed Server CI Naming Not Reflecting Hostname widget, then you must first run the CMDB Get Well Metric Collection job, and then run the CMDB Data Foundations PA Metric Collection job.
 
@@ -307,17 +306,17 @@ The **ITSM Processes** tab contains the following metrics:
 
     The percentage score for the metric is calculated as \(Compliant change requests/Total change requests\) \* 100.
 
-    The Changes Not Referencing a CI tile shows the total number of records which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those change requests.
+    The Changes Not Referencing a CI tile shows the total number of records which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those change requests.
 
-    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil or sn\_change\_read.
+    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil, or sn\_change\_read.
 
 -   **Changes Relating to both a Service and a CI**
 
     Percentage of changes relating services to CIs versus those changes that don't. The complete set of CIs for this metric consists of all change request records. Compliant records are those change requests in which both, the **cmdb\_ci** and the **business\_service** fields, are not empty.
 
-    The Incidents Relating to Neither a Service nor a CI tile shows the total number of records which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    The Incidents Relating to Neither a Service nor a CI tile shows the total number of records which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those CIs.
 
-    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil or sn\_change\_read. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil, or sn\_change\_read. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 -   **Incidents Referencing a CI**
 
@@ -325,9 +324,9 @@ The **ITSM Processes** tab contains the following metrics:
 
     The percentage score for the metric is calculated as \(Compliant Incidents/Total Incidents\)\*100.
 
-    The Incidents Not Referencing a CI shows the total number of incidents which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those incident records.
+    The Incidents Not Referencing a CI shows the total number of incidents which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those incident records.
 
-    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil or sn\_incident\_read.
+    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil, or sn\_incident\_read.
 
 -   **Incidents Relating to both a Service and a CI**
 
@@ -335,8 +334,8 @@ The **ITSM Processes** tab contains the following metrics:
 
     The percentage score for the metric is calculated as \(Compliant Incidents/Total Incidents\) \* 100.
 
-    The Incidents Relating to Neither a Service nor a CI shows the total number of records which are not in compliance with the metric. Click the tile to drill down the PA widget for further details, such as the list all those incident records.
+    The Incidents Relating to Neither a Service nor a CI shows the total number of records which are not in compliance with the metric. Select the tile to drill down the PA widget for further details, such as the list all those incident records.
 
-    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil or sn\_incident\_read. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
+    **Note:** Viewing all the data provided by Performance Analytics for this metric \(when drilling down\), requires the additional role of sn\_cmdb\_editor,itil, or sn\_incident\_read. Click the tile to drill down the PA widget for further details, such as the list all those CIs.
 
 

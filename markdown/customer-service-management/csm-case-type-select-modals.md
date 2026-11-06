@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-type-select-modals.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case type selector
@@ -66,7 +66,7 @@ Select this action from the following records:-   Interaction
 -   Child Case
 
 </td></tr></tbody>
-</table>Some declarative actions available with the Customer Service Case Types plugin are disabled by default. For more information, see [Configure case type and case task type declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-case-type-declarative-action.md).
+</table>Some declarative actions available with the Customer Service Case Types plugin are disabled by default. For more information, see [Configure case type declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-case-type-declarative-action.md).
 
 ## Case type selector versions
 

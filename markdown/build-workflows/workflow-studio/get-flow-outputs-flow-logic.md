@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-11-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Workflow Studio flow logic, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Get Flow Outputs flow logic
@@ -69,6 +69,8 @@ The Advanced Work Assignment \(AWA\) application includes a read-only flow calle
 
 **Related topics**  
 
+
+[Append to Flow Variables flow logic]()
 
 [Assign subflow outputs flow logic]()
 

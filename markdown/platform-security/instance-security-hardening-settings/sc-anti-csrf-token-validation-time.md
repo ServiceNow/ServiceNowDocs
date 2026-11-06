@@ -1,5 +1,5 @@
 ---
-title: Anti-CSRF token validation time \[New in Security Center 1.3\]
+title: Anti-CSRF token validation time
 description: The glide.security.csrf\_previous.time\_limit property specifies the time in seconds for a secure token to expire.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-anti-csrf-token-validation-time.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Anti-CSRF token validation time \[New in Security Center 1.3\]
+# Anti-CSRF token validation time
 
 The **glide.security.csrf\_previous.time\_limit** property specifies the time in seconds for a secure token to expire.
 
-When a user session expires, the secure token expires with it unless the **allowing reuse of expired tokens are allowed** property is enabled, and it is within the time frame described by this property. This token is used to prevent cross site request forgery attacks.
+The **glide.security.csrf\_previous.time\_limit** system property determines the time in seconds for a secure token to expire. When the user session expires, the secure token expires with it, unless the **allowing reuse of expired tokens** property is enabled, and its within the time frame described by this property. This token is used to prevent cross site request forgery attacks.
+
+Ensure that the **glide.security.csrf\_previous.time\_limit** property is set to `86400` seconds \(1 day\).
 
 ## More information
 
@@ -58,7 +60,7 @@ Recommended value
 
 </td><td>
 
-86400 seconds or 1 day
+86400
 
 </td></tr><tr><td>
 
@@ -66,7 +68,15 @@ Default value
 
 </td><td>
 
-86400 seconds or 1 day
+86400
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+86400
 
 </td></tr><tr><td>
 
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 5.3
 -   CVSS score: Medium
--   Security risk details: Not setting this property to the recommended value disables the token validation used to prevent cross site request forgery attacks.
+-   Security risk details: The time limit for a CSRF token to expire defines how long the token remains valid for verifying legitimate user requests; if set too long, it increases the risk that an attacker could reuse a stolen token to perform unauthorized actions, while a shorter expiration window reduces this risk by narrowing the attack window.
 
 </td></tr><tr><td>
 

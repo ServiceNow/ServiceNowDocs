@@ -7,9 +7,9 @@ release: yokohama
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Benchmarks, Benchmarks, IT Service Management]
+breadcrumb: [Configure, Benchmarks, IT Service Management]
 ---
 
 # Enable a benchmark KPI
@@ -32,13 +32,13 @@ KPIs are grouped within categories \(for example, ITSM, ITOM, Security Operation
 
 1.  Navigate to **All** &gt; **Benchmarks** &gt; **Administration** &gt; **Setup**.
 
-2.  To enable or disable a KPI, click the KPI slider.
+2.  To enable or disable a KPI, select the KPI slider.
 
 3.  To view more information about a KPI, click the KPI.
 
     Additional information includes description, formula, conditions, and tables from which the data is collected.
 
-4.  Click **Save**.
+4.  Select **Save**.
 
     Allow one to two months for aggregate monthly data to accurately reflect changes made to KPI status.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/config-credential-flow-certificate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Send email using client credential flow, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure client credential flow for SMTP OAuth2 using certificate-based authentication
@@ -104,10 +104,10 @@ Role required: Microsoft Azure portal administrator and admin
 
 -   **[Configure a JWT provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/config-jwt-credential-flow.md)**  
 Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth application profile to authenticate using certificates.
--   **[Generate SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/generate-sha-1-thumbprint.md)**  
+-   **[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/generate-sha-1-thumbprint.md)**  
 Generate an SHA-1 thumbprint using the JWT provider's sys\_id, the Java Key Store \(JKS\) certificate's sys\_id, and the JKS certificate's alias to the GraphCertificateOAuthTemplate script.
 -   **[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-oauth-api-script-cred-flow.md)**  
 Create and duplicate an OAuth API script for application registry.
 
-**Parent Topic:**[Send email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/send-email-client-credential-flow.md)
+**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/send-email-client-credential-flow.md)
 

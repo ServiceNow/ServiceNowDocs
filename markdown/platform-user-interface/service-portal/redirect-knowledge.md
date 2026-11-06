@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrading Service Portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,13 +22,13 @@ Role required: admin
 
 ## About this task
 
-The **Knowledge Article View** page route map routes the **kb\_article** page to the **kb\_article\_view** page. By default, users with the public role cannot access the **kb\_article\_view** page. However, your administrator can modify this behavior. For more information, see [Enable external or public users to view knowledge articles from the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/make-knowledge-visible-to-public.md).
+The **Knowledge Article View** page route map routes the **kb\_article** page to the **kb\_article\_view** page. By default, users with the public role cannot access the **kb\_article\_view** page. However, your administrator can modify this behavior. For more information, see Enable external or public users to view knowledge articles from the Knowledge Management Service Portal.
 
 After activating the **Knowledge Article View** page route map, you can:
 
--   [Comment on a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/comment-article.md)
--   [Create an article version by importing a Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/upload-new-version-article.md)
--   [Create a version of a knowledge article from a managed document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ViewKnowledgeLinkedToADocument.md)
+-   Comment on a knowledge article
+-   Create an article version by importing a Word document
+-   Create a version of a knowledge article from a managed document
 
 ## Procedure
 

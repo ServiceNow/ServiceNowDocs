@@ -1,5 +1,5 @@
 ---
-title: Create a Virtual Agent conversational custom chat integration configuration
+title: Create a Virtual Agent conversational custom chat integration
 description: Use the Custom Chat Configuration Integration Framework \(CCCIF\) to create a conversational custom chat integration to support third-party chat clients so they can connect to the Virtual Agent Chat Server \(VACS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating conversational custom chat integrations in Virtual Agent, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
-# Create a Virtual Agent conversational custom chat integration configuration
+# Create a Virtual Agent conversational custom chat integration
 
 Use the Custom Chat Configuration Integration Framework \(CCCIF\) to create a conversational custom chat integration to support third-party chat clients so they can connect to the Virtual Agent Chat Server \(VACS\).
 
 ## Before you begin
 
-Activate the [Glide Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/activate-virtual-agent.md) \(com.glide.cs.chatbot\) if it's not already activated. This plugin automatically activates the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) for custom chat integrations.
+Activate the [Glide Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/activate-virtual-agent.md) \(com.glide.cs.chatbot\) if it's not already activated. This plugin automatically activates the Conversational Custom Chat Integration plugin \(com.glide.cs.custom.adapter\) for custom chat integrations.
 
 Role required: admin
 

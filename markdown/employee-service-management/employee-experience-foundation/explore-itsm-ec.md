@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-03-19"
-reading_time_minutes: 6
-breadcrumb: [Employee Center for IT Service Management, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Employee Center for IT Service Management, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring Employee Center for ITSM
@@ -48,7 +48,7 @@ The following requirements must be met to use Employee Center with ITSM.
 -   You can use Employee Center with ITSM or ITSM Pro subscription.
 -   You must subscribe to Employee Center Pro separately from the ServiceNow store.
 
-## Employee Center versus Employee Center Pro
+## Employee Center vs. Employee Center Pro
 
 Employee Center is one portal that is packaged as two separate store applications:
 
@@ -141,7 +141,7 @@ Curated Experiences \([Unified Taxonomy for Employee Center](https://raw.githubu
 
 </td></tr><tr><td>
 
-[Cross-channel Favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/app-launcher-usability.md)
+[Cross-channel Favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 
 </td><td>
 
@@ -184,18 +184,6 @@ Employee communications-   [Portal content](https://raw.githubusercontent.com/Se
 -   [Campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-campaigns.md)
 -   [Content Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-automation-analytics.md)
 -   [Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-governance.md)
-
-</td><td>
-
-\[Omitted image "icon-error-red-x.png"\] Alt text: No
-
-</td><td>
-
-\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
-
-</td></tr><tr><td>
-
-Enterprise Search \(with [SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/sharepoint-search-overview.md)\)
 
 </td><td>
 
@@ -256,7 +244,7 @@ Integration-powered capabilities-   [App Launcher](https://raw.githubusercontent
 
 </td></tr><tr><td>
 
-[Employee Center Pro Kiosk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
+[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 
 </td><td>
 

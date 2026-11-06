@@ -7,8 +7,8 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 111
+last_updated: "2026-09-10"
+reading_time_minutes: 110
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -11747,977 +11747,837 @@ curl "https://instance.service-now.com//api/sn_sales_agmt_core/salesagreement" \
 Response body.
 
 ```
-{
-  "result": {
-    "sys_id": {
-      "label": "Sys ID",
-      "value": "bc93e08a78755a10f8777f88938ba1d8",
-      "displayValue": "bc93e08a78755a10f8777f88938ba1d8",
-      "type": "GUID"
-    },
-    "sys_created_by": {
-      "name": "sys_created_by",
-      "label": "Created by",
-      "value": "maint",
-      "display_value": "maint",
-      "type": "string"
-    },
-    "sys_updated_by": {
-      "name": "sys_updated_by",
-      "label": "Updated by",
-      "value": "maint",
-      "display_value": "maint",
-      "type": "string"
-    },
-    "sys_created_on": {
-      "name": "sys_created_on",
-      "label": "Created",
-      "value": "2024-11-12 08:11:59",
-      "display_value": "2024-11-12 00:11:59",
-      "type": "glide_date_time"
-    },
-    "sys_updated_on": {
-      "name": "sys_updated_on",
-      "label": "Updated",
-      "value": "2024-11-12 08:11:59",
-      "display_value": "2024-11-12 00:11:59",
-      "type": "glide_date_time"
-    },
-    "name": null,
-    "account": {
-      "name": "account",
-      "label": "Account",
-      "value": "86837a386f0331003b3c498f5d3ee4ca",
-      "display_value": "Boxeo",
-      "type": "reference"
-    },
-    "consumer": {
-      "name": "consumer",
-      "label": "Consumer",
-      "value": null,
-      "display_value": "",
-      "type": "reference"
-    },
-    "number": {
-      "name": "number",
-      "label": "Number",
-      "value": "SA0010106",
-      "display_value": "SA0010106",
-      "type": "string"
-    },
-    "state": {
-      "name": "state",
-      "label": "State",
-      "value": "active",
-      "display_value": "Active",
-      "type": "string"
-    },
-    "starts": {
-      "name": "starts",
-      "label": "Start date",
-      "value": "2024-01-01",
-      "display_value": "2024-01-01",
-      "type": "glide_date"
-    },
-    "ends": {
-      "name": "ends",
-      "label": "End date",
-      "value": "2024-12-31",
-      "display_value": "2024-12-31",
-      "type": "glide_date"
-    },
-    "short_description": {
-      "name": "short_description",
-      "label": "Short description",
-      "value": "this is a sample sales agreement",
-      "display_value": "this is a sample sales agreement",
-      "type": "string"
-    },
-    "description": {
-      "name": "description",
-      "label": "Description",
-      "value": null,
-      "display_value": "",
-      "type": "string"
-    },
-    "currency": {
-      "name": "currency",
-      "label": "Currency",
-      "value": null,
-      "display_value": "",
-      "type": "reference"
-    },
-    "default_price_list": {
-      "name": "default_price_list",
-      "label": "Default price list",
-      "value": "19d29513d0e63110f8770dbf976be122",
-      "display_value": "Standard Price List",
-      "type": "reference"
-    },
-    "billing_location": {
-      "name": "billing_location",
-      "label": "Billing location",
-      "value": null,
-      "display_value": "",
-      "type": "reference"
-    },
-    "contact": {
-      "name": "contact",
-      "label": "Contact",
-      "value": null,
-      "display_value": "",
-      "type": "reference"
-    },
-    "shipping_location": {
-      "name": "shipping_location",
-      "label": "Shipping location",
-      "value": null,
-      "display_value": "",
-      "type": "reference"
-    },
-    "quote": {
-      "name": "quote",
-      "label": "Quote",
-      "value": "04ba9004f11f3110f8777d7194f166f6",
-      "display_value": "QT0000001",
-      "type": "reference"
-    },
-    "service_contract_lines": [
-      {
-        "sys_id": {
-          "label": "Sys ID",
-          "value": "3c93e08a78755a10f8777f88938ba1dd",
-          "displayValue": "3c93e08a78755a10f8777f88938ba1dd",
-          "type": "GUID"
-        },
-        "sys_created_by": {
-          "name": "sys_created_by",
-          "label": "Created by",
-          "value": "maint",
-          "display_value": "maint",
-          "type": "string"
-        },
-        "sys_updated_by": {
-          "name": "sys_updated_by",
-          "label": "Updated by",
-          "value": "maint",
-          "display_value": "maint",
-          "type": "string"
-        },
-        "sys_created_on": {
-          "name": "sys_created_on",
-          "label": "Created",
-          "value": "2024-11-12 08:11:59",
-          "display_value": "2024-11-12 00:11:59",
-          "type": "glide_date_time"
-        },
-        "sys_updated_on": {
-          "name": "sys_updated_on",
-          "label": "Updated",
-          "value": "2024-11-12 08:11:59",
-          "display_value": "2024-11-12 00:11:59",
-          "type": "glide_date_time"
-        },
-        "number": {
-          "name": "number",
-          "label": "Number",
-          "value": "SAL0010126",
-          "display_value": "SAL0010126",
-          "type": "string"
-        },
-        "sales_agreement": {
-          "name": "sales_agreement",
-          "label": "Sales agreement",
-          "value": "bc93e08a78755a10f8777f88938ba1d8",
-          "display_value": "SA0010106",
-          "type": "reference"
-        },
-        "short_description": {
-          "name": "short_description",
-          "label": "Short description",
-          "value": "this is sample sa line 1",
-          "display_value": "this is sample sa line 1",
-          "type": "string"
-        },
-        "start_date": {
-          "name": "start_date",
-          "label": "Start date",
-          "value": "2024-02-01",
-          "display_value": "2024-02-01",
-          "type": "glide_date"
-        },
-        "end_date": {
-          "name": "end_date",
-          "label": "End date",
-          "value": "2024-11-30",
-          "display_value": "2024-11-30",
-          "type": "glide_date"
-        },
-        "state": {
-          "name": "state",
-          "label": "State",
-          "value": "active",
-          "display_value": "Active",
-          "type": "string"
-        },
-        "product_offering": {
-          "name": "product_offering",
-          "label": "Product offering",
-          "value": null,
-          "display_value": "",
-          "type": "reference"
-        },
-        "product_specification": {
-          "name": "product_specification",
-          "label": "Product specification",
-          "value": null,
-          "display_value": "",
-          "type": "reference"
-        },
-        "product_model": {
-          "name": "product_model",
-          "label": "Product model",
-          "value": null,
-          "display_value": "",
-          "type": "reference"
-        },
-        "price_list": {
-          "name": "price_list",
-          "label": "Price list",
-          "value": "19d29513d0e63110f8770dbf976be122",
-          "display_value": "Standard Price List",
-          "type": "reference"
-        },
-        "parent_line": {
-          "name": "parent_line",
-          "label": "Parent line",
-          "value": null,
-          "display_value": "",
-          "type": "reference"
-        },
-        "unit_net_price": {
-          "name": "unit_net_price",
-          "label": "Unit net price",
-          "value": "0",
-          "display_value": "£0.00",
-          "type": "currency"
-        },
-        "quantity": {
-          "name": "quantity",
-          "label": "Quantity",
-          "value": "2",
-          "display_value": "2",
-          "type": "decimal"
-        },
-        "unit_of_measure": null,
-        "shipping_location": {
-          "name": "shipping_location",
-          "label": "Shipping location",
-          "value": null,
-          "display_value": "",
-          "type": "reference"
-        },
-        "total_one_time_price": {
-          "name": "total_one_time_price",
-          "label": "Total one-time price",
-          "value": "0",
-          "display_value": "£0.00",
-          "type": "currency"
-        },
-        "total_recurring_price": {
-          "name": "total_recurring_price",
-          "label": "Total recurring price",
-          "value": "0",
-          "display_value": "£0.00",
-          "type": "currency"
-        },
-        "top_agreement_line": null,
-        "quote_line": {
-          "name": "quote_line",
-          "label": "Quote line",
-          "value": null,
-          "display_value": "",
-          "type": "reference"
-        },
-        "sales_agreement_line_characteristics": [
-          {
-            "sys_id": {
-              "label": "Sys ID",
-              "value": "b093e08a78755a10f8777f88938ba1e0",
-              "displayValue": "b093e08a78755a10f8777f88938ba1e0",
-              "type": "GUID"
-            },
-            "sys_created_by": {
-              "name": "sys_created_by",
-              "label": "Created by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_updated_by": {
-              "name": "sys_updated_by",
-              "label": "Updated by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_created_on": {
-              "name": "sys_created_on",
-              "label": "Created",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "sys_updated_on": {
-              "name": "sys_updated_on",
-              "label": "Updated",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "sales_agreement": {
-              "name": "sales_agreement",
-              "label": "Sales agreement",
-              "value": "bc93e08a78755a10f8777f88938ba1d8",
-              "display_value": "SA0010106",
-              "type": "reference"
-            },
-            "sales_agreement_line": {
-              "name": "sales_agreement_line",
-              "label": "Sales agreement line",
-              "value": "3c93e08a78755a10f8777f88938ba1dd",
-              "display_value": "SAL0010126",
-              "type": "reference"
-            },
-            "characteristic": {
-              "name": "characteristic",
-              "label": "Characteristic",
-              "value": "4d289f1a775131108e191e599a5a99c7",
-              "display_value": "AC",
-              "type": "reference"
-            },
-            "type": {
-              "name": "type",
-              "label": "Type",
-              "value": "coverage",
-              "display_value": "Coverage",
-              "type": "string"
-            },
-            "characteristic_option": {
-              "name": "characteristic_option",
-              "label": "Characteristic option",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "value": {
-              "name": "value",
-              "label": "Value",
-              "value": null,
-              "display_value": "",
-              "type": "string"
-            }
-          }
-        ],
-        "sales_agreement_line_adjustments": [
-          {
-            "sys_id": {
-              "label": "Sys ID",
-              "value": "7093e08a78755a10f8777f88938ba1e1",
-              "displayValue": "7093e08a78755a10f8777f88938ba1e1",
-              "type": "GUID"
-            },
-            "sys_created_by": {
-              "name": "sys_created_by",
-              "label": "Created by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_updated_by": {
-              "name": "sys_updated_by",
-              "label": "Updated by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_created_on": {
-              "name": "sys_created_on",
-              "label": "Created",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "sys_updated_on": {
-              "name": "sys_updated_on",
-              "label": "Updated",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "sales_agreement": {
-              "name": "sales_agreement",
-              "label": "Sales agreement",
-              "value": "bc93e08a78755a10f8777f88938ba1d8",
-              "display_value": "SA0010106",
-              "type": "reference"
-            },
-            "sales_agreement_line": {
-              "name": "sales_agreement_line",
-              "label": "Sales Agreement Line",
-              "value": "3c93e08a78755a10f8777f88938ba1dd",
-              "display_value": "SAL0010126",
-              "type": "reference"
-            },
-            "adjustment_type": {
-              "name": "adjustment_type",
-              "label": "Adjustment type",
-              "value": "d88bc79653dd91105c0eddeeff7b12c1",
-              "display_value": "Markup amount",
-              "type": "reference"
-            },
-            "adjustment_source": {
-              "name": "adjustment_source",
-              "label": "Adjustment source",
-              "value": "MANUAL",
-              "display_value": "Manual",
-              "type": "string"
-            },
-            "adjustment_value": {
-              "name": "adjustment_value",
-              "label": "Adjustment value",
-              "value": "123",
-              "display_value": "123",
-              "type": "decimal"
-            },
-            "applicable_to": {
-              "name": "applicable_to",
-              "label": "Applicable to",
-              "value": "UNIT_QTY",
-              "display_value": "Unit Quantity",
-              "type": "string"
-            },
-            "short_description": {
-              "name": "short_description",
-              "label": "Short description",
-              "value": "line adjustment",
-              "display_value": "line adjustment",
-              "type": "string"
-            },
-            "number": {
-              "name": "number",
-              "label": "Number",
-              "value": "SALA0010031",
-              "display_value": "SALA0010031",
-              "type": "string"
-            },
-            "quantity": {
-              "name": "quantity",
-              "label": "Quantity",
-              "value": "3",
-              "display_value": "3",
-              "type": "integer"
-            },
-            "total_amount": {
-              "name": "total_amount",
-              "label": "Total amount",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "amount": {
-              "name": "amount",
-              "label": "Amount",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            }
-          }
-        ],
-        "child_sales_agreement_lines": [
-          {
-            "sys_id": {
-              "label": "Sys ID",
-              "value": "7893e08a78755a10f8777f88938ba1e2",
-              "displayValue": "7893e08a78755a10f8777f88938ba1e2",
-              "type": "GUID"
-            },
-            "sys_created_by": {
-              "name": "sys_created_by",
-              "label": "Created by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_updated_by": {
-              "name": "sys_updated_by",
-              "label": "Updated by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_created_on": {
-              "name": "sys_created_on",
-              "label": "Created",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "sys_updated_on": {
-              "name": "sys_updated_on",
-              "label": "Updated",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "number": {
-              "name": "number",
-              "label": "Number",
-              "value": "SAL0010127",
-              "display_value": "SAL0010127",
-              "type": "string"
-            },
-            "sales_agreement": {
-              "name": "sales_agreement",
-              "label": "Sales agreement",
-              "value": "bc93e08a78755a10f8777f88938ba1d8",
-              "display_value": "SA0010106",
-              "type": "reference"
-            },
-            "short_description": {
-              "name": "short_description",
-              "label": "Short description",
-              "value": "this is sample sa line 1",
-              "display_value": "this is sample sa line 1",
-              "type": "string"
-            },
-            "start_date": {
-              "name": "start_date",
-              "label": "Start date",
-              "value": "2024-02-01",
-              "display_value": "2024-02-01",
-              "type": "glide_date"
-            },
-            "end_date": {
-              "name": "end_date",
-              "label": "End date",
-              "value": "2024-11-30",
-              "display_value": "2024-11-30",
-              "type": "glide_date"
-            },
-            "state": {
-              "name": "state",
-              "label": "State",
-              "value": "active",
-              "display_value": "Active",
-              "type": "string"
-            },
-            "product_offering": {
-              "name": "product_offering",
-              "label": "Product offering",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "product_specification": {
-              "name": "product_specification",
-              "label": "Product specification",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "product_model": {
-              "name": "product_model",
-              "label": "Product model",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "price_list": {
-              "name": "price_list",
-              "label": "Price list",
-              "value": "19d29513d0e63110f8770dbf976be122",
-              "display_value": "Standard Price List",
-              "type": "reference"
-            },
-            "parent_line": {
-              "name": "parent_line",
-              "label": "Parent line",
-              "value": "3c93e08a78755a10f8777f88938ba1dd",
-              "display_value": "SAL0010126",
-              "type": "reference"
-            },
-            "unit_net_price": {
-              "name": "unit_net_price",
-              "label": "Unit net price",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "quantity": {
-              "name": "quantity",
-              "label": "Quantity",
-              "value": "2",
-              "display_value": "2",
-              "type": "decimal"
-            },
-            "unit_of_measure": null,
-            "shipping_location": {
-              "name": "shipping_location",
-              "label": "Shipping location",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "total_one_time_price": {
-              "name": "total_one_time_price",
-              "label": "Total one-time price",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "total_recurring_price": {
-              "name": "total_recurring_price",
-              "label": "Total recurring price",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "top_agreement_line": null,
-            "quote_line": {
-              "name": "quote_line",
-              "label": "Quote line",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "sales_agreement_line_characteristics": [
-              {
-                "sys_id": {
-                  "label": "Sys ID",
-                  "value": "74932c8a78755a10f8777f88938ba132",
-                  "displayValue": "74932c8a78755a10f8777f88938ba132",
-                  "type": "GUID"
-                },
-                "sys_created_by": {
-                  "name": "sys_created_by",
-                  "label": "Created by",
-                  "value": "maint",
-                  "display_value": "maint",
-                  "type": "string"
-                },
-                "sys_updated_by": {
-                  "name": "sys_updated_by",
-                  "label": "Updated by",
-                  "value": "maint",
-                  "display_value": "maint",
-                  "type": "string"
-                },
-                "sys_created_on": {
-                  "name": "sys_created_on",
-                  "label": "Created",
-                  "value": "2024-11-12 08:11:59",
-                  "display_value": "2024-11-12 00:11:59",
-                  "type": "glide_date_time"
-                },
-                "sys_updated_on": {
-                  "name": "sys_updated_on",
-                  "label": "Updated",
-                  "value": "2024-11-12 08:11:59",
-                  "display_value": "2024-11-12 00:11:59",
-                  "type": "glide_date_time"
-                },
-                "sales_agreement": {
-                  "name": "sales_agreement",
-                  "label": "Sales agreement",
-                  "value": "bc93e08a78755a10f8777f88938ba1d8",
-                  "display_value": "SA0010106",
-                  "type": "reference"
-                },
-                "sales_agreement_line": {
-                  "name": "sales_agreement_line",
-                  "label": "Sales agreement line",
-                  "value": "7893e08a78755a10f8777f88938ba1e2",
-                  "display_value": "SAL0010127",
-                  "type": "reference"
-                },
-                "characteristic": {
-                  "name": "characteristic",
-                  "label": "Characteristic",
-                  "value": "4d289f1a775131108e191e599a5a99c7",
-                  "display_value": "AC",
-                  "type": "reference"
-                },
-                "type": {
-                  "name": "type",
-                  "label": "Type",
-                  "value": "coverage",
-                  "display_value": "Coverage",
-                  "type": "string"
-                },
-                "characteristic_option": {
-                  "name": "characteristic_option",
-                  "label": "Characteristic option",
-                  "value": null,
-                  "display_value": "",
-                  "type": "reference"
-                },
-                "value": {
-                  "name": "value",
-                  "label": "Value",
-                  "value": null,
-                  "display_value": "",
-                  "type": "string"
-                }
-              }
-            ],
-            "sales_agreement_line_adjustments": [],
-            "child_sales_agreement_lines": []
-          },
-          {
-            "sys_id": {
-              "label": "Sys ID",
-              "value": "78932c8a78755a10f8777f88938ba133",
-              "displayValue": "78932c8a78755a10f8777f88938ba133",
-              "type": "GUID"
-            },
-            "sys_created_by": {
-              "name": "sys_created_by",
-              "label": "Created by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_updated_by": {
-              "name": "sys_updated_by",
-              "label": "Updated by",
-              "value": "maint",
-              "display_value": "maint",
-              "type": "string"
-            },
-            "sys_created_on": {
-              "name": "sys_created_on",
-              "label": "Created",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "sys_updated_on": {
-              "name": "sys_updated_on",
-              "label": "Updated",
-              "value": "2024-11-12 08:11:59",
-              "display_value": "2024-11-12 00:11:59",
-              "type": "glide_date_time"
-            },
-            "number": {
-              "name": "number",
-              "label": "Number",
-              "value": "SAL0010128",
-              "display_value": "SAL0010128",
-              "type": "string"
-            },
-            "sales_agreement": {
-              "name": "sales_agreement",
-              "label": "Sales agreement",
-              "value": "bc93e08a78755a10f8777f88938ba1d8",
-              "display_value": "SA0010106",
-              "type": "reference"
-            },
-            "short_description": {
-              "name": "short_description",
-              "label": "Short description",
-              "value": "this is sample sa line 1",
-              "display_value": "this is sample sa line 1",
-              "type": "string"
-            },
-            "start_date": {
-              "name": "start_date",
-              "label": "Start date",
-              "value": "2024-02-01",
-              "display_value": "2024-02-01",
-              "type": "glide_date"
-            },
-            "end_date": {
-              "name": "end_date",
-              "label": "End date",
-              "value": "2024-11-30",
-              "display_value": "2024-11-30",
-              "type": "glide_date"
-            },
-            "state": {
-              "name": "state",
-              "label": "State",
-              "value": "active",
-              "display_value": "Active",
-              "type": "string"
-            },
-            "product_offering": {
-              "name": "product_offering",
-              "label": "Product offering",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "product_specification": {
-              "name": "product_specification",
-              "label": "Product specification",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "product_model": {
-              "name": "product_model",
-              "label": "Product model",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "price_list": {
-              "name": "price_list",
-              "label": "Price list",
-              "value": "19d29513d0e63110f8770dbf976be122",
-              "display_value": "Standard Price List",
-              "type": "reference"
-            },
-            "parent_line": {
-              "name": "parent_line",
-              "label": "Parent line",
-              "value": "3c93e08a78755a10f8777f88938ba1dd",
-              "display_value": "SAL0010126",
-              "type": "reference"
-            },
-            "unit_net_price": {
-              "name": "unit_net_price",
-              "label": "Unit net price",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "quantity": {
-              "name": "quantity",
-              "label": "Quantity",
-              "value": "2",
-              "display_value": "2",
-              "type": "decimal"
-            },
-            "unit_of_measure": null,
-            "shipping_location": {
-              "name": "shipping_location",
-              "label": "Shipping location",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "total_one_time_price": {
-              "name": "total_one_time_price",
-              "label": "Total one-time price",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "total_recurring_price": {
-              "name": "total_recurring_price",
-              "label": "Total recurring price",
-              "value": "0",
-              "display_value": "£0.00",
-              "type": "currency"
-            },
-            "top_agreement_line": null,
-            "quote_line": {
-              "name": "quote_line",
-              "label": "Quote line",
-              "value": null,
-              "display_value": "",
-              "type": "reference"
-            },
-            "sales_agreement_line_characteristics": [
-              {
-                "sys_id": {
-                  "label": "Sys ID",
-                  "value": "38932c8a78755a10f8777f88938ba134",
-                  "displayValue": "38932c8a78755a10f8777f88938ba134",
-                  "type": "GUID"
-                },
-                "sys_created_by": {
-                  "name": "sys_created_by",
-                  "label": "Created by",
-                  "value": "maint",
-                  "display_value": "maint",
-                  "type": "string"
-                },
-                "sys_updated_by": {
-                  "name": "sys_updated_by",
-                  "label": "Updated by",
-                  "value": "maint",
-                  "display_value": "maint",
-                  "type": "string"
-                },
-                "sys_created_on": {
-                  "name": "sys_created_on",
-                  "label": "Created",
-                  "value": "2024-11-12 08:11:59",
-                  "display_value": "2024-11-12 00:11:59",
-                  "type": "glide_date_time"
-                },
-                "sys_updated_on": {
-                  "name": "sys_updated_on",
-                  "label": "Updated",
-                  "value": "2024-11-12 08:11:59",
-                  "display_value": "2024-11-12 00:11:59",
-                  "type": "glide_date_time"
-                },
-                "sales_agreement": {
-                  "name": "sales_agreement",
-                  "label": "Sales agreement",
-                  "value": "bc93e08a78755a10f8777f88938ba1d8",
-                  "display_value": "SA0010106",
-                  "type": "reference"
-                },
-                "sales_agreement_line": {
-                  "name": "sales_agreement_line",
-                  "label": "Sales agreement line",
-                  "value": "78932c8a78755a10f8777f88938ba133",
-                  "display_value": "SAL0010128",
-                  "type": "reference"
-                },
-                "characteristic": {
-                  "name": "characteristic",
-                  "label": "Characteristic",
-                  "value": "4d289f1a775131108e191e599a5a99c7",
-                  "display_value": "AC",
-                  "type": "reference"
-                },
-                "type": {
-                  "name": "type",
-                  "label": "Type",
-                  "value": "coverage",
-                  "display_value": "Coverage",
-                  "type": "string"
-                },
-                "characteristic_option": {
-                  "name": "characteristic_option",
-                  "label": "Characteristic option",
-                  "value": null,
-                  "display_value": "",
-                  "type": "reference"
-                },
-                "value": {
-                  "name": "value",
-                  "label": "Value",
-                  "value": null,
-                  "display_value": "",
-                  "type": "string"
-                }
-              }
-            ],
-            "sales_agreement_line_adjustments": [],
-            "child_sales_agreement_lines": []
-          }
-        ]
-      }
-    ]
-  }
-}
-
+"result": {
+		"sys_id": {
+			"label": "Sys ID",
+			"value": "eb853fe5b5165610f87786d3c2884335",
+			"displayValue": "eb853fe5b5165610f87786d3c2884335",
+			"type": "GUID"
+		},
+		"sys_created_by": {
+			"name": "sys_created_by",
+			"label": "Created by",
+			"value": "maint",
+			"display_value": "maint",
+			"type": "string"
+		},
+		"sys_updated_by": {
+			"name": "sys_updated_by",
+			"label": "Updated by",
+			"value": "maint",
+			"display_value": "maint",
+			"type": "string"
+		},
+		"sys_created_on": {
+			"name": "sys_created_on",
+			"label": "Created",
+			"value": "2024-12-06 06:43:51",
+			"display_value": "2024-12-05 22:43:51",
+			"type": "glide_date_time"
+		},
+		"sys_updated_on": {
+			"name": "sys_updated_on",
+			"label": "Updated",
+			"value": "2024-12-06 06:43:51",
+			"display_value": "2024-12-05 22:43:51",
+			"type": "glide_date_time"
+		},
+		"account": {
+			"name": "account",
+			"label": "Account",
+			"value": "86837a386f0331003b3c498f5d3ee4ca",
+			"display_value": "Boxeo",
+			"type": "reference"
+		},
+		"consumer": {
+			"name": "consumer",
+			"label": "Consumer",
+			"value": null,
+			"display_value": "",
+			"type": "reference"
+		},
+		"number": {
+			"name": "number",
+			"label": "Number",
+			"value": "SA0010004",
+			"display_value": "SA0010004",
+			"type": "string"
+		},
+		"state": {
+			"name": "state",
+			"label": "State",
+			"value": "active",
+			"display_value": "Active",
+			"type": "string"
+		},
+		"starts": {
+			"name": "starts",
+			"label": "Start date",
+			"value": "2024-01-01",
+			"display_value": "2024-01-01",
+			"type": "glide_date"
+		},
+		"ends": {
+			"name": "ends",
+			"label": "End date",
+			"value": "2024-12-31",
+			"display_value": "2024-12-31",
+			"type": "glide_date"
+		},
+		"short_description": {
+			"name": "short_description",
+			"label": "Short description",
+			"value": "This is a Sa created by API",
+			"display_value": "This is a Sa created by API",
+			"type": "string"
+		},
+		"currency": {
+			"name": "currency",
+			"label": "Currency",
+			"value": "USD",
+			"display_value": "USD",
+			"type": "reference"
+		},
+		"default_price_list": {
+			"name": "default_price_list",
+			"label": "Default price list",
+			"value": "96257fe1b5165610f87786d3c28843e9",
+			"display_value": "SA Price List",
+			"type": "reference"
+		},
+		"billing_location": {
+			"name": "billing_location",
+			"label": "Billing location",
+			"value": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+			"display_value": "100 South Charles Street, Baltimore,MD",
+			"type": "reference"
+		},
+		"contact": {
+			"name": "contact",
+			"label": "Contact",
+			"value": "60beb5e7d7600200e5982cf65e6103ad",
+			"display_value": "Alex Linde",
+			"type": "reference"
+		},
+		"shipping_location": {
+			"name": "shipping_location",
+			"label": "Shipping location",
+			"value": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+			"display_value": "100 South Charles Street, Baltimore,MD",
+			"type": "reference"
+		},
+		"quote": {
+			"name": "quote",
+			"label": "Quote",
+			"value": "04ba9004f11f3110f8777d7194f166f6",
+			"display_value": "QT0000001",
+			"type": "reference"
+		},
+		"sales_agreement_lines": [{
+					"sys_id": {
+						"label": "Sys ID",
+						"value": "af853fe5b5165610f87786d3c2884339",
+						"displayValue": "af853fe5b5165610f87786d3c2884339",
+						"type": "GUID"
+					},
+					"sys_created_by": {
+						"name": "sys_created_by",
+						"label": "Created by",
+						"value": "maint",
+						"display_value": "maint",
+						"type": "string"
+					},
+					"sys_updated_by": {
+						"name": "sys_updated_by",
+						"label": "Updated by",
+						"value": "maint",
+						"display_value": "maint",
+						"type": "string"
+					},
+					"sys_created_on": {
+						"name": "sys_created_on",
+						"label": "Created",
+						"value": "2024-12-06 06:43:51",
+						"display_value": "2024-12-05 22:43:51",
+						"type": "glide_date_time"
+					},
+					"sys_updated_on": {
+						"name": "sys_updated_on",
+						"label": "Updated",
+						"value": "2024-12-06 06:43:51",
+						"display_value": "2024-12-05 22:43:51",
+						"type": "glide_date_time"
+					},
+					"number": {
+						"name": "number",
+						"label": "Number",
+						"value": "SAL0010003",
+						"display_value": "SAL0010003",
+						"type": "string"
+					},
+					"sales_agreement": {
+						"name": "sales_agreement",
+						"label": "Sales agreement",
+						"value": "eb853fe5b5165610f87786d3c2884335",
+						"display_value": "SA0010004",
+						"type": "reference"
+					},
+					"short_description": {
+						"name": "short_description",
+						"label": "Short description",
+						"value": "this is sample sa line 1",
+						"display_value": "this is sample sa line 1",
+						"type": "string"
+					},
+					"start_date": {
+						"name": "start_date",
+						"label": "Start date",
+						"value": "2024-11-10",
+						"display_value": "2024-11-10",
+						"type": "glide_date"
+					},
+					"end_date": {
+						"name": "end_date",
+						"label": "End date",
+						"value": "2024-12-31",
+						"display_value": "2024-12-31",
+						"type": "glide_date"
+					},
+					"state": {
+						"name": "state",
+						"label": "State",
+						"value": "active",
+						"display_value": "Active",
+						"type": "string"
+					},
+					"product_offering": {
+						"name": "product_offering",
+						"label": "Product offering",
+						"value": "26d07c3211707110f877366201dea60c",
+						"display_value": "Home Automation Bundle",
+						"type": "reference"
+					},
+					"product_specification": {
+						"name": "product_specification",
+						"label": "Product specification",
+						"value": null,
+						"display_value": "",
+						"type": "reference"
+					},
+					"product_model": {
+						"name": "product_model",
+						"label": "Product model",
+						"value": null,
+						"display_value": "",
+						"type": "reference"
+					},
+					"price_list": {
+						"name": "price_list",
+						"label": "Price list",
+						"value": "96257fe1b5165610f87786d3c28843e9",
+						"display_value": "SA Price List",
+						"type": "reference"
+					},
+					"parent_line": {
+						"name": "parent_line",
+						"label": "Parent line",
+						"value": null,
+						"display_value": "",
+						"type": "reference"
+					},
+					"unit_net_price": {
+						"name": "unit_net_price",
+						"label": "Unit net price",
+						"value": "314.2315",
+						"display_value": "£314.2315",
+						"type": "currency"
+					},
+					"quantity": {
+						"name": "quantity",
+						"label": "Quantity",
+						"value": "2",
+						"display_value": "2",
+						"type": "decimal"
+					},
+					"unit_of_measurement": {
+						"name": "unit_of_measurement",
+						"label": "Unit of measure",
+						"value": "cb2795d553020110286eddeeff7b12ff",
+						"display_value": "Each",
+						"type": "reference"
+					},
+					"shipping_location": {
+						"name": "shipping_location",
+						"label": "Shipping location",
+						"value": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+						"display_value": "100 South Charles Street, Baltimore,MD",
+						"type": "reference"
+					},
+					"total_one_time_price": {
+						"name": "total_one_time_price",
+						"label": "Total one-time price",
+						"value": "314.2315",
+						"display_value": "£314.2315",
+						"type": "currency"
+					},
+					"total_recurring_price": {
+						"name": "total_recurring_price",
+						"label": "Total recurring price",
+						"value": "0",
+						"display_value": "£0.00",
+						"type": "currency"
+					},
+					"top_sales_agreement_line": {
+						"name": "top_sales_agreement_line",
+						"label": "Top sales agreement line",
+						"value": "af853fe5b5165610f87786d3c2884339",
+						"display_value": "SAL0010003",
+						"type": "reference"
+					},
+					"quote_line": {
+						"name": "quote_line",
+						"label": "Quote line",
+						"value": null,
+						"display_value": "",
+						"type": "reference"
+					},
+					"sales_agreement_line_characteristics": [{
+						"sys_id": {
+							"label": "Sys ID",
+							"value": "a785f329b5165610f87786d3c2884315",
+							"displayValue": "a785f329b5165610f87786d3c2884315",
+							"type": "GUID"
+						},
+						"sys_created_by": {
+							"name": "sys_created_by",
+							"label": "Created by",
+							"value": "maint",
+							"display_value": "maint",
+							"type": "string"
+						},
+						"sys_updated_by": {
+							"name": "sys_updated_by",
+							"label": "Updated by",
+							"value": "maint",
+							"display_value": "maint",
+							"type": "string"
+						},
+						"sys_created_on": {
+							"name": "sys_created_on",
+							"label": "Created",
+							"value": "2024-12-06 06:43:51",
+							"display_value": "2024-12-05 22:43:51",
+							"type": "glide_date_time"
+						},
+						"sys_updated_on": {
+							"name": "sys_updated_on",
+							"label": "Updated",
+							"value": "2024-12-06 06:43:51",
+							"display_value": "2024-12-05 22:43:51",
+							"type": "glide_date_time"
+						},
+						"sales_agreement": {
+							"name": "sales_agreement",
+							"label": "Sales agreement",
+							"value": "eb853fe5b5165610f87786d3c2884335",
+							"display_value": "SA0010004",
+							"type": "reference"
+						},
+						"sales_agreement_line": {
+							"name": "sales_agreement_line",
+							"label": "Sales agreement line",
+							"value": "af853fe5b5165610f87786d3c2884339",
+							"display_value": "SAL0010003",
+							"type": "reference"
+						},
+						"characteristic": {
+							"name": "characteristic",
+							"label": "Characteristic",
+							"value": "4f31999fd0a63110f8770dbf976be178",
+							"display_value": "Connectivity Tech",
+							"type": "reference"
+						},
+						"type": {
+							"name": "type",
+							"label": "Type",
+							"value": null,
+							"display_value": null,
+							"type": "string"
+						},
+						"characteristic_option": {
+							"name": "characteristic_option",
+							"label": "Characteristic option",
+							"value": "0b31999fd0a63110f8770dbf976be179",
+							"display_value": "3G",
+							"type": "reference"
+						},
+						"value": {
+							"name": "value",
+							"label": "Value",
+							"value": "3G",
+							"display_value": "3G",
+							"type": "string"
+						}
+					}],
+					"sales_agreement_line_adjustments": [{
+						"sys_id": {
+							"label": "Sys ID",
+							"value": "2b85f329b5165610f87786d3c2884316",
+							"displayValue": "2b85f329b5165610f87786d3c2884316",
+							"type": "GUID"
+						},
+						"sys_created_by": {
+							"name": "sys_created_by",
+							"label": "Created by",
+							"value": "maint",
+							"display_value": "maint",
+							"type": "string"
+						},
+						"sys_updated_by": {
+							"name": "sys_updated_by",
+							"label": "Updated by",
+							"value": "maint",
+							"display_value": "maint",
+							"type": "string"
+						},
+						"sys_created_on": {
+							"name": "sys_created_on",
+							"label": "Created",
+							"value": "2024-12-06 06:43:51",
+							"display_value": "2024-12-05 22:43:51",
+							"type": "glide_date_time"
+						},
+						"sys_updated_on": {
+							"name": "sys_updated_on",
+							"label": "Updated",
+							"value": "2024-12-06 06:43:51",
+							"display_value": "2024-12-05 22:43:51",
+							"type": "glide_date_time"
+						},
+						"sales_agreement": {
+							"name": "sales_agreement",
+							"label": "Sales agreement",
+							"value": "eb853fe5b5165610f87786d3c2884335",
+							"display_value": "SA0010004",
+							"type": "reference"
+						},
+						"sales_agreement_line": {
+							"name": "sales_agreement_line",
+							"label": "Sales Agreement Line",
+							"value": "af853fe5b5165610f87786d3c2884339",
+							"display_value": "SAL0010003",
+							"type": "reference"
+						},
+						"adjustment_type": {
+							"name": "adjustment_type",
+							"label": "Adjustment type",
+							"value": "a96c83d653dd91105c0eddeeff7b12d8",
+							"display_value": "Markdown %",
+							"type": "reference"
+						},
+						"adjustment_source": {
+							"name": "adjustment_source",
+							"label": "Adjustment source",
+							"value": "AUTO",
+							"display_value": "Auto",
+							"type": "string"
+						},
+						"adjustment_value": {
+							"name": "adjustment_value",
+							"label": "Adjustment value",
+							"value": "10",
+							"display_value": "10",
+							"type": "decimal"
+						},
+						"applicable_to": {
+							"name": "applicable_to",
+							"label": "Applicable to",
+							"value": "UNIT_QTY",
+							"display_value": "Unit Quantity",
+							"type": "string"
+						},
+						"short_description": {
+							"name": "short_description",
+							"label": "Short description",
+							"value": "Price adjustment",
+							"display_value": "Price adjustment",
+							"type": "string"
+						},
+						"number": {
+							"name": "number",
+							"label": "Number",
+							"value": "SALA0010003",
+							"display_value": "SALA0010003",
+							"type": "string"
+						},
+						"quantity": {
+							"name": "quantity",
+							"label": "Quantity",
+							"value": "3",
+							"display_value": "3",
+							"type": "integer"
+						},
+						"total_amount": {
+							"name": "total_amount",
+							"label": "Total amount",
+							"value": "120",
+							"display_value": "£120.00",
+							"type": "currency"
+						},
+						"amount": {
+							"name": "amount",
+							"label": "Amount",
+							"value": "40",
+							"display_value": "£40.00",
+							"type": "currency"
+						}
+					}],
+					"child_sales_agreement_lines": [{
+								"sys_id": {
+									"label": "Sys ID",
+									"value": "eb85f329b5165610f87786d3c2884318",
+									"displayValue": "eb85f329b5165610f87786d3c2884318",
+									"type": "GUID"
+								},
+								"sys_created_by": {
+									"name": "sys_created_by",
+									"label": "Created by",
+									"value": "maint",
+									"display_value": "maint",
+									"type": "string"
+								},
+								"sys_updated_by": {
+									"name": "sys_updated_by",
+									"label": "Updated by",
+									"value": "maint",
+									"display_value": "maint",
+									"type": "string"
+								},
+								"sys_created_on": {
+									"name": "sys_created_on",
+									"label": "Created",
+									"value": "2024-12-06 06:43:51",
+									"display_value": "2024-12-05 22:43:51",
+									"type": "glide_date_time"
+								},
+								"sys_updated_on": {
+									"name": "sys_updated_on",
+									"label": "Updated",
+									"value": "2024-12-06 06:43:51",
+									"display_value": "2024-12-05 22:43:51",
+									"type": "glide_date_time"
+								},
+								"number": {
+									"name": "number",
+									"label": "Number",
+									"value": "SAL0010004",
+									"display_value": "SAL0010004",
+									"type": "string"
+								},
+								"sales_agreement": {
+									"name": "sales_agreement",
+									"label": "Sales agreement",
+									"value": "eb853fe5b5165610f87786d3c2884335",
+									"display_value": "SA0010004",
+									"type": "reference"
+								},
+								"short_description": {
+									"name": "short_description",
+									"label": "Short description",
+									"value": "this is sample child sa line 1",
+									"display_value": "this is sample child sa line 1",
+									"type": "string"
+								},
+								"start_date": {
+									"name": "start_date",
+									"label": "Start date",
+									"value": "2024-11-11",
+									"display_value": "2024-11-11",
+									"type": "glide_date"
+								},
+								"end_date": {
+									"name": "end_date",
+									"label": "End date",
+									"value": "2024-12-31",
+									"display_value": "2024-12-31",
+									"type": "glide_date"
+								},
+								"state": {
+									"name": "state",
+									"label": "State",
+									"value": "active",
+									"display_value": "Active",
+									"type": "string"
+								},
+								"product_offering": {
+									"name": "product_offering",
+									"label": "Product offering",
+									"value": "3f6111dfd0a63110f8770dbf976be149",
+									"display_value": "Home Automation Hub",
+									"type": "reference"
+								},
+								"product_specification": {
+									"name": "product_specification",
+									"label": "Product specification",
+									"value": null,
+									"display_value": "",
+									"type": "reference"
+								},
+								"product_model": {
+									"name": "product_model",
+									"label": "Product model",
+									"value": null,
+									"display_value": "",
+									"type": "reference"
+								},
+								"price_list": {
+									"name": "price_list",
+									"label": "Price list",
+									"value": "96257fe1b5165610f87786d3c28843e9",
+									"display_value": "SA Price List",
+									"type": "reference"
+								},
+								"parent_line": {
+									"name": "parent_line",
+									"label": "Parent line",
+									"value": "af853fe5b5165610f87786d3c2884339",
+									"display_value": "SAL0010003",
+									"type": "reference"
+								},
+								"unit_net_price": {
+									"name": "unit_net_price",
+									"label": "Unit net price",
+									"value": "94.2694",
+									"display_value": "£94.2694",
+									"type": "currency"
+								},
+								"quantity": {
+									"name": "quantity",
+									"label": "Quantity",
+									"value": "2",
+									"display_value": "2",
+									"type": "decimal"
+								},
+								"unit_of_measurement": {
+									"name": "unit_of_measurement",
+									"label": "Unit of measure",
+									"value": "cb2795d553020110286eddeeff7b12ff",
+									"display_value": "Each",
+									"type": "reference"
+								},
+								"shipping_location": {
+									"name": "shipping_location",
+									"label": "Shipping location",
+									"value": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+									"display_value": "100 South Charles Street, Baltimore,MD",
+									"type": "reference"
+								},
+								"total_one_time_price": {
+									"name": "total_one_time_price",
+									"label": "Total one-time price",
+									"value": "94.2694",
+									"display_value": "£94.2694",
+									"type": "currency"
+								},
+								"total_recurring_price": {
+									"name": "total_recurring_price",
+									"label": "Total recurring price",
+									"value": "0",
+									"display_value": "£0.00",
+									"type": "currency"
+								},
+								"top_sales_agreement_line": {
+									"name": "top_sales_agreement_line",
+									"label": "Top sales agreement line",
+									"value": "af853fe5b5165610f87786d3c2884339",
+									"display_value": "SAL0010003",
+									"type": "reference"
+								},
+								"quote_line": {
+									"name": "quote_line",
+									"label": "Quote line",
+									"value": null,
+									"display_value": "",
+									"type": "reference"
+								},
+								"sales_agreement_line_characteristics": [{
+									"sys_id": {
+										"label": "Sys ID",
+										"value": "e385f329b5165610f87786d3c288431a",
+										"displayValue": "e385f329b5165610f87786d3c288431a",
+										"type": "GUID"
+									},
+									"sys_created_by": {
+										"name": "sys_created_by",
+										"label": "Created by",
+										"value": "maint",
+										"display_value": "maint",
+										"type": "string"
+									},
+									"sys_updated_by": {
+										"name": "sys_updated_by",
+										"label": "Updated by",
+										"value": "maint",
+										"display_value": "maint",
+										"type": "string"
+									},
+									"sys_created_on": {
+										"name": "sys_created_on",
+										"label": "Created",
+										"value": "2024-12-06 06:43:51",
+										"display_value": "2024-12-05 22:43:51",
+										"type": "glide_date_time"
+									},
+									"sys_updated_on": {
+										"name": "sys_updated_on",
+										"label": "Updated",
+										"value": "2024-12-06 06:43:51",
+										"display_value": "2024-12-05 22:43:51",
+										"type": "glide_date_time"
+									},
+									"sales_agreement": {
+										"name": "sales_agreement",
+										"label": "Sales agreement",
+										"value": "eb853fe5b5165610f87786d3c2884335",
+										"display_value": "SA0010004",
+										"type": "reference"
+									},
+									"sales_agreement_line": {
+										"name": "sales_agreement_line",
+										"label": "Sales agreement line",
+										"value": "eb85f329b5165610f87786d3c2884318",
+										"display_value": "SAL0010004",
+										"type": "reference"
+									},
+									"characteristic": {
+										"name": "characteristic",
+										"label": "Characteristic",
+										"value": "4f31999fd0a63110f8770dbf976be178",
+										"display_value": "Connectivity Tech",
+										"type": "reference"
+									},
+									"type": {
+										"name": "type",
+										"label": "Type",
+										"value": null,
+										"display_value": null,
+										"type": "string"
+									},
+									"characteristic_option": {
+										"name": "characteristic_option",
+										"label": "Characteristic option",
+										"value": "0b31999fd0a63110f8770dbf976be179",
+										"display_value": "3G",
+										"type": "reference"
+									},
+									"value": {
+										"name": "value",
+										"label": "Value",
+										"value": "3G",
+										"display_value": "3G",
+										"type": "string"
+									}
+								}],
+								"sales_agreement_line_adjustments": [{
+											"sys_id": {
+												"label": "Sys ID",
+												"value": "2385f329b5165610f87786d3c288431b",
+												"displayValue": "2385f329b5165610f87786d3c288431b",
+												"type": "GUID"
+											},
+											"sys_created_by": {
+												"name": "sys_created_by",
+												"label": "Created by",
+												"value": "maint",
+												"display_value": "maint",
+												"type": "string"
+											},
+											"sys_updated_by": {
+												"name": "sys_updated_by",
+												"label": "Updated by",
+												"value": "maint",
+												"display_value": "maint",
+												"type": "string"
+											},
+											"sys_created_on": {
+												"name": "sys_created_on",
+												"label": "Created",
+												"value": "2024-12-06 06:43:51",
+												"display_value": "2024-12-05 22:43:51",
+												"type": "glide_date_time"
+											},
+											"sys_updated_on": {
+												"name": "sys_updated_on",
+												"label": "Updated",
+												"value": "2024-12-06 06:43:51",
+												"display_value": "2024-12-05 22:43:51",
+												"type": "glide_date_time"
+											},
+											"sales_agreement": {
+												"name": "sales_agreement",
+												"label": "Sales agreement",
+												"value": "eb853fe5b5165610f87786d3c2884335",
+												"display_value": "SA0010004",
+												"type": "reference"
+											},
+											"sales_agreement_line": {
+												"name": "sales_agreement_line",
+												"label": "Sales Agreement Line",
+												"value": "eb85f329b5165610f87786d3c2884318",
+												"display_value": "SAL0010004",
+												"type": "reference"
+											},
+											"adjustment_type": {
+												"name": "adjustment_type",
+												"label": "Adjustment type",
+												"value": "a96c83d653dd91105c0eddeeff7b12d8",
+												"display_value": "Markdown %",
+												"type": "reference"
+											},
+											"adjustment_source": {
+												"name": "adjustment_source",
+												"label": "Adjustment source",
+												"value": "MANUAL",
+												"display_value": "Manual",
+												"type": "string"
+											},
+											"adjustment_value": {
+												"name": "adjustment_value",
+												"label": "Adjustment value",
+												"value": "20",
+												"display_value": "20",
+												"type": "decimal"
+											},
+											"applicable_to": {
+												"name": "applicable_to",
+												"label": "Applicable to",
+												"value": "UNIT_QTY",
+												"display_value": "Unit Quantity",
+												"type": "string"
+											},
+											"short_description": {
+												"name": "short_description",
+												"label": "Short description",
+												"value": "Price adjustment",
+												"display_value": "Price adjustment",
+												"type": "string"
+											},
+											"number": {
+												"name": "number",
+												"label": "Number",
+												"value": "SALA0010004",
+												"display_value": "SALA0010004",
+												"type": "string"
+											},
+											"quantity": {
+												"name": "quantity",
+												"label": "Quantity",
+												"value": "1",
+												"display_value": "1",
+												"type": "integer"
+											},
+											"total_amount": {
+												"name": "total_amount",
+												"label": "Total amount",
 ```
 

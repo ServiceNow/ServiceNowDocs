@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure scheduled job-based alert grouping
@@ -34,12 +34,12 @@ The scheduled job Service Analytics: Group Alerts Using RCA/Alert Aggregation he
     -   Enable Network Traffic correlation \(**sa\_analytics.agg.query\_network\_traffic\_correlation\_enabled**\).
     -   Enable ML based Automation correlation \(**sa\_analytics.specific\_patterns\_enabled**\).
     -   Enable Text based correlation \(**sa\_analytics.text\_based\_group\_enabled**\).
-    -   Group by property, with comma-separated list of field names that need to have matching values across alerts to allow alerts to be grouped together. The property can contain alert field names \(such as assignment\_group\), CI field names \(such as alert\_cmdb\_ci.location\), alert additional info field names \(such as additional\_info.state\), or alert tags \(such as t\_data\_center\). Alerts are grouped when the specified field values match. \(**sa\_analytics.agg.group\_alert\_with\_same\_group\_by\_fields**\).
+    -   Group by property, with comma-separated list of field names. Alerts can be grouped together when the specified field values match each other. The property can contain alert field names \(such as assignment\_group\), CI field names \(such as alert\_cmdb\_ci.location\), or alert additional info field names \(such as additional\_info.state\). It can also contain alert tags \(such as t\_data\_center\). Property: **sa\_analytics.agg.group\_alert\_with\_same\_group\_by\_fields**.
     -   Max number of relations between CIs in a topology which form a CMDB group \(**sa\_analytics.agg.query\_cmdb\_graph\_walk\_nodes**\).
     -   Use all CMDB relations for CMDB group correlation \(**evt\_mgmt.related\_cis\_get\_all\_relation\_types**\).
 3.  Select **Save**.
 
-    To group alerts without a CI as Text-based or ML based groups, set **sa\_analytics.enable\_no\_ci\_grouping** to `true`. Ensure the Feature Identifier includes both the node and metric name. For details on configuring the feature identifier, see [Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
+    To group alerts without a CI as Text-based or ML based groups, set **sa\_analytics.enable\_no\_ci\_grouping** to `true`. Ensure the Feature Identifier includes both the node and metric name. For details on configuring the feature identifier, see [Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md).
 
 4.  Set **evt\_mgmt.alert\_groups\_reasoning.enable\_worknotes** to `none` to prevent group reasoning work note display.
 

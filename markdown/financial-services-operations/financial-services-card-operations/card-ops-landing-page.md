@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Card Operations
@@ -18,7 +18,7 @@ With Financial Services Card Operations, streamline, digitize, and automate the 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -26,7 +26,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Card Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-card-operations/setting-up-fso-card-operations.md)
+[Set up \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Card Operations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-card-operations/set-up-card-operations.md)
 
 </td></tr><tr><td>
 

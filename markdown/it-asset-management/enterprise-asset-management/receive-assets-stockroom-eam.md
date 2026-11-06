@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Receive an enterprise asset at a stockroom in the Enterprise Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asse
 Receive a single enterprise asset that has arrived at your stockroom, whether it's part of a workflow or not, in the Enterprise Asset Workspace.
 
 ## Before you begin
-
-**Important:** The option to receive an enterprise asset at your stockroom through the standardized asset receiving mechanism is available in Enterprise Asset Management version 9.0 and later.
 
 Role required: sn\_eam.asset\_technician or sn\_eam.enterprise\_asset\_manager
 
@@ -113,6 +111,8 @@ Serial Number
 </td><td>
 
 Serial number of the asset.**Note:** Depending on the Model Category that you selected, this field is either required or optional. For instance, Serial number is required for Computer model category.
+
+Unique fields that are required on the asset records are defined by the identification rules on the associated CI classes defined in the Identification and Reconciliation engine \(IRE\). When you create an asset whose model category is linked to a CI class with an identification rule, you should provide details for at least one of the fields, such as Asset tag, Serial number, and MAC address, that uniquely identify the asset.
 
 </td></tr><tr><td>
 

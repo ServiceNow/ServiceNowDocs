@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/pass-global-filters-to-db.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -73,6 +73,8 @@ Role required: admin
 [Add a dashboard to a Dashboards page]()
 
 [Configure custom redirection from a dashboard component]()
+
+[Dashboard URL parameter delegation]()
 
 [Configure dashboard data broker]()
 

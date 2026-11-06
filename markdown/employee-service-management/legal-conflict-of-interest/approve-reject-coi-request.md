@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Managing conflict of interest disclosure requests, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject a conflict of interest disclosure request
@@ -21,6 +21,8 @@ Approve or reject a conflict of interest disclosure request assigned to you or a
 Role required: sn\_lg\_ops.coi\_fulfiller or sn\_lg\_ops.request\_fulfiller
 
 ## About this task
+
+Before approving or rejecting a request, you can review the risk assessment results to understand the risk level and the factors that contributed to the score. The risk level \(Low, Medium, or High\) is displayed in the request header, and detailed evaluation results are available in the Risk responses tab. For more information, see [View risk assessment details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/lsd-coi-view-risk-asmt-dets.md).
 
 The multi-level approval flow for a conflict of interest disclosure request is automated through the **COI Approval flow**. The flow controls the request to advance to the next approval level when approved at one approval level. After the final-level approval, a conflict of interest disclosure record is created. The approval or rejection of the request and the end date specified in the request determines the state of the newly created disclosure record.
 
@@ -40,9 +42,11 @@ For more information on approval flow, see [Conflict of Interest – Approval fl
 
 5.  If it's an existing request that is updated by the requester, review and validate the changes from the Activities stream.
 
-6.  In the **Approvers** tab, click **Requested** in the **State** column to open the approval form.
+6.  View risk assessment details by viewing the Risk level field on the secondary header and navigating to Risk responses tab.
 
-7.  Approve or reject the request.
+7.  In the **Approvers** tab, click **Requested** in the **State** column to open the approval form.
+
+8.  Approve or reject the request.
 
     -   To approve the conflict of interest disclosure request, click **Approve**.
     -   To reject the conflict of interest disclosure request, click **Reject**.
@@ -83,5 +87,5 @@ The state of the conflict of interest disclosure record is based on the followin
 -   For an existing request, the related conflict of interest disclosure record is updated without changing its existing state.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing conflict of interest disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/managing-legal-coi-request.md)
+</table>**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

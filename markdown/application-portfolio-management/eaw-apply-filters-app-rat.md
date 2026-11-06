@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-apply-filters-app-rat.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Apply filters on the Application Rationalization page
@@ -53,10 +53,12 @@ Role required: sn\_apm.apm\_read
     -   The List view page displays all business applications, whereas the Bubble chart page displays only assessed applications. As a result, filter results may differ between the two pages.
     -   When you apply a business capability-based filter, business applications associated with the selected capability and also its child capabilities are displayed.
 
-**Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-rationalize-business-applications.md)
+**Parent Topic:**[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-app-rat.md)
 
 **Related topics**  
 
 
 [Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-rationalize-business-applications.md)
+
+[Working with application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-app-rat.md)
 

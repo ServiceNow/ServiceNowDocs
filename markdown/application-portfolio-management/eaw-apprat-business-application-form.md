@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-apprat-business-application-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business application form
@@ -148,7 +148,6 @@ Operational status of the application. Use the following options:
 -   **Implementing**
 -   **In Production**
 -   **Pilot**
--   **Retired**
 -   **Under Evaluation**
 
 Auditing is enabled for this field. Thus, whenever you update the value in this field, the **Activities** field on the **Activities** tab displays the update.
@@ -241,27 +240,11 @@ Accessibility level of the business application. Use the following options:
 
 </td></tr><tr><td>
 
-Installed
-
-</td><td>
-
-Date when the business application is installed.
-
-</td></tr><tr><td>
-
 Age in months
 
 </td><td>
 
 Age of the business application, in months. This field is auto-populated when the date and time are entered in the **Installed** field.
-
-</td></tr><tr><td>
-
-Retired
-
-</td><td>
-
-Date when the business application is going to be retired.
 
 </td></tr><tr><td>
 
@@ -309,11 +292,11 @@ Planned disposition of a business application. Use the following options:
 
 </td></tr><tr><td>
 
-Target date
+Planned disposition date
 
 </td><td>
 
-Target date for the planned disposition. The target date must be the current date or a future date.
+Target date for the planned disposition. The planned disposition date must be the current date or a future date.
 
 </td></tr><tr><td>
 
@@ -357,7 +340,7 @@ Portfolio manager
 
 </td><td>
 
-Owner of the portfolio, typically from IT. This field appears when you activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\).
+Owner of the portfolio, typically from IT. This field appears when you activate the PPM Standard plugin \(com.snc.financial\_planning\_pmo\). This field is available in the Default view.
 
 </td></tr><tr><td>
 
@@ -472,7 +455,7 @@ Status of the application that meets your requirements or complies with the poli
 |-----|-----------|
 |Work notes|Work notes entered by you.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Pluralsight Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Pluralsight Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Pluralsight spoke
@@ -25,7 +25,7 @@ Integrate the ServiceNow instance and your Pluralsight Skills account using an A
 
 ## About this task
 
-This task enables you to integrate your ServiceNow instance with the Pluralsight host. See the flow, as given in the image below.\[Omitted image "conn-cred-record-pluralsight.png"\] Alt text: Flow to set connection and credential record for Pluralsight spoke.
+This task enables you to integrate your ServiceNow instance with the Pluralsight host. See the flow, as given in the image below.
 
 ## Procedure
 

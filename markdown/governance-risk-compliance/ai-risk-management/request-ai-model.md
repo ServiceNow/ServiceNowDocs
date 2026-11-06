@@ -1,60 +1,113 @@
 ---
 title: Request an AI model
-description: Request the development or procurement of an AI model to customize or deploy an AI system tailored to specific business needs.
+description: Request the development or procurement of an AI model to support an AI system and initiate governance review, risk assessment, and life cycle tracking.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [request AI model, AI model intake, AI governance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Request an AI model
 
-Request the development or procurement of an AI model to customize or deploy an AI system tailored to specific business needs.
+Request the development or procurement of an AI model to support an AI system and initiate governance review, risk assessment, and life cycle tracking.
 
 ## Before you begin
 
-Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
 
 ## About this task
 
-An AI model is a program or system that uses machine learning or artificial intelligence techniques to analyze data, recognize patterns, and make predictions or decisions. It’s trained on a dataset and can perform multiple tasks with minimal human intervention.
+An AI model is a core component of an AI system that performs learning, prediction, classification, or generation based on training data. Requesting an AI model initiates governance review, risk assessment, and life cycle tracking before the model is trained, procured, or deployed. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding AI model in AI Control Tower instead of the legacy AI Control Tower workspace. The AI model record header also displays the model name and identifier.
 
 ## Procedure
 
-1.  Request an AI model from either the Employee Center or the AI Control Tower dashboard.
+1.  Request an AI model using one of the following options.
 
-    -   Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-    -   Navigate to **All** &gt; **AI Control Tower**.
-2.  On the Employee Center landing page, select **Technology services** &gt; **AI assets**.
+<table><thead><tr><th align="left" id="d98418e103">
 
-    1.  Select the **Request an AI model** card.
+Option
 
-3.  On the AI Control Tower dashboard, select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon, and navigate to the AI asset inventory.
+</th><th align="left" id="d98418e106">
 
-    1.  Select **Add AI Asset**.
+Description
 
-    2.  Select **Model**, and select **Next** to continue.
+</th></tr></thead><tbody><tr><td id="d98418e112">
 
-4.  On the form, fill in the fields.
+**Employee Center**
 
-    For a description of the field values on the Request an AI model form, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model-form.md).
+</td><td>
 
-5.  To add attachments, select **Add attachments**.
+1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
+2.  Select **Help center** &gt; **Technology services** and then select **AI assets** from the Technology services topics section.
+3.  Select the **Request an AI model** card.
+ **Note:**
 
-6.  To save the form as a draft and edit it later, select **Save as Draft**.
+AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-7.  Select **Submit**.
+</td></tr><tr><td id="d98418e164">
 
-    After you submit this form, the AI Center of Excellence team reviews your request and provides the necessary approval and guidance.
+**AI Control Tower**
 
+</td><td>
+
+1.  Navigate to **All** &gt; **AI Control Tower**.
+2.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+3.  Select **AI Model**, then select **Add AI Model**.
+ **Note:**
+
+An AI Asset owner can complete this option.
+
+</td></tr></tbody>
+</table>2.  On the form, fill in the fields.
+
+    For descriptions of the fields, see [Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model-form.md). For more information about adding an AI model using the AI Control Tower, see [Create AI model assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-ai-model-assets.md).
+
+3.  To add attachments, select **Add attachments**.
+
+4.  To save the form as a draft and edit it later, select **Save as Draft**.
+
+5.  Select **Submit**.
+
+    The AI model request is submitted for review as part of the AI governance process.
+
+
+## Result
+
+The AI model request is submitted for governance review and routed to the appropriate AI governance stakeholders based on your organization's configured intake workflow.
+
+## What to do next
+
+After submitting an AI model request, the next steps depend on your role in the AI governance life cycle.
+
+AI Product Owner or Requester \[`sn_grc_ai_gov.ai_risk_and_compliance_business_user`\]: Provide additional information as requested during intake and onboarding, including details about the model purpose, training approach, intended usage, and how the model supports one or more AI systems. You may be asked to clarify model sourcing \(in-house or third-party\), data dependencies, or expected business outcomes.
+
+AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments, and coordinate cross-functional reviews. Continue to oversee the AI model through its life cycle, including inventory tracking, governance activities, linkage to related datasets and AI systems, and collaboration across stakeholders.
+
+For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-governance.md).
+
+Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the AI model for regulatory, policy, and risk considerations. Assign risk and impact assessments, recommend controls and attestations, and monitor compliance throughout the AI model life cycle and its associated AI system life cycle.
+
+For more information, see [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md), [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md), [Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md), and [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md).
+
+For an overview of how AI models move from intake through assessment, development, deployment, monitoring, and value tracking, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
 -   **[Request an AI model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model-form.md)**  
 The Request an AI model form is designed to streamline the request process for developing or procuring an AI model. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-intake.md)
+
+[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.md)
+
+[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-10-28"
-reading_time_minutes: 4
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure a workplace card
@@ -49,6 +49,10 @@ Card configuration enables admins to tailor the display and functionality of spa
 5.  Select **Submit**.
 
 
+## What to do next
+
+For more information and examples of elements that can be added to cards, see [Card Configuration examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/card-configuration-examples.md).
+
 -   **[Configure a space details card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/configure-a-space-details-card.md)**  
 Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reservation by updating the card's template with the specific details that you want to customize. You can configure a new field, button, or style for each space card.
 
@@ -64,6 +68,8 @@ Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reser
 [Block a workplace location]()
 
 [Configure Workplace entity and entity types]()
+
+[Managing Neighborhoods]()
 
 [Enable favorites option for Workplace Service Portal]()
 
@@ -91,5 +97,5 @@ Configure a space card in the Location Directory, Kiosk Indoor Mapping, or Reser
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

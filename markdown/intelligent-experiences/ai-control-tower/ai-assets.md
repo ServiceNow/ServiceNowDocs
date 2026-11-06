@@ -7,28 +7,24 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI assets
 
 An AI asset refers to a digital tool or resource that uses artificial intelligence to carry out particular tasks or address problems. Examples include machine learning models, chatbots, natural language processing systems, image recognition software, and similar technologies.
 
-## AI asset Details
+## Details
 
-Explore the AI assets view page and its sections:
+For information on AI inventory, see [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-inventory.md)
 
--   [AI asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-inventory.md)
--   [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
--   [Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/approvals.md)
--   [Cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/cases.md)
--   [Inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/inquiries.md)
--   [AI strategies and goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-strategies-and-goals.md)
--   [AI Task - All Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-task-all-security-tasks.md)
+For information on AI asset Lifecycle, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-asset-lifecycle.md)
 
-For information on AI Control Tower playbook workflow, see [Create an AI Control Tower Playbook workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
+For information on approval playbook workflow, see [Create a Playbook workflow in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-a-playbook-workflow-for-now-assist-approvals.md).
 
-For information on creating Now Assist approvals task, see .
+For information on creating Now Assist approvals task, see [Create a Now Assist approval task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-an-now-assist-approval-task.md).
+
+For information on AI security tasks, see [AI Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-task-all-security-tasks.md).
 

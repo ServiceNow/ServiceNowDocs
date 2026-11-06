@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Manage, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # On-Call Scheduling in Service Operations Workspace
@@ -18,9 +18,11 @@ Use On-Call Scheduling in Service Operations Workspace to view and manage your s
 
 ## On-Call Scheduling overview
 
+\[Omitted video\] Description: Introduction to On-Call Scheduling in Service Operations Workspace
+
 As an agent, view your schedule and your peer's schedules, request an absence, propose coverage, and set your notification preferences.
 
-As a Shift Manager, view, and manage shifts, approve or reject absence requests, and resolve gaps and conflicts. You can also manage notification preferences, delivery channels, escalation trigger rules, and policies for your group.
+As a Shift Manager, view and manage shifts, approve or reject absence requests, and resolve gaps and conflicts. You can also manage notification preferences, delivery channels, escalation trigger rules, and policies for your group.
 
 As an On-call Admin, view, and manage shifts, approve or reject absence requests, and resolve gaps and conflicts. You can also manage notification preferences, delivery channels, escalation trigger rules, and policies for any group.
 
@@ -32,7 +34,7 @@ Use the Schedules menu on the home page to access On-Call Scheduling in Service 
 
 ## On-call Schedules tab
 
-This tab displays all the user's schedules and shifts in a calendar or time-line view. You can customize the view as a day, week, or month view, and filter the calendar based on your groups or time zones.
+This tab displays all the user's schedules and shifts in a calendar or timeline view. You can customize the view as a day, week, or month view, and filter the calendar based on your groups or time zones.
 
 You can manage your work, shifts, and time-off requests on this tab.
 
@@ -60,12 +62,10 @@ Select the Experts On-call icon \(\[Omitted image "experts-on-call.png"\] Alt te
 
 To view the escalation details and dynamic tracking of an on-call escalation, select the on-call escalations icon \(\[Omitted image "on-call-escalation.png"\] Alt text: On-call escalations icon.\) from the Contextual side panel.
 
--   **[Scheduling in service operation workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
-View and manage schedules, shifts and time-off request.
--   **[Create notification preference rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-notification-preference-rule.md)**  
-Define your preferred notification methods and delivery channels for receiving alerts whenever an escalation ticket is raised.
--   **[Escalation triggers and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.md)**  
-Create and edit trigger rules.
+-   **[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)**  
+Configure On-Call Scheduling in Service Operations Workspace \(SOW\) for your organizational needs by using a suite of features to fulfill the requirements.
+-   **[Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/scheduling-in-service-operation-workspace.md)**  
+View and manage schedules, shifts and time-off requests.
 -   **[On-call support for an incident in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/on-call-sow.md)**  
 You can identify available on-call members of a support group and contact them to resolve an issue.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure Workplace entity and entity types
@@ -52,6 +52,8 @@ Create workplace entities based on your organization's business structure. Speci
 
 [Block a workplace location]()
 
+[Managing Neighborhoods]()
+
 [Enable favorites option for Workplace Service Portal]()
 
 [Create a workplace performer criteria]()
@@ -78,5 +80,5 @@ Create workplace entities based on your organization's business structure. Speci
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

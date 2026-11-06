@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting and tracking arrivals at the workplace, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setting and tracking arrivals at the workplace, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Define arrival schedules at the workplace for employees

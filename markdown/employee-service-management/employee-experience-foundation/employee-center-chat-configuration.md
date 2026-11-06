@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee live chat overview
@@ -20,7 +20,7 @@ Connect Support is a messaging tool that enables support agents to provide real-
 
 **Note:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 If no chat queues are defined, then the chat queue defaults to:
 
@@ -28,8 +28,6 @@ If no chat queues are defined, then the chat queue defaults to:
 -   \( HR Service Delivery only\) HR Department Chat Queue
 
 When you initiate a chat in the Employee Center, a pre-chat conversation is displayed with pre-chat categories. The following GIF shows an example of initiating a chat.
-
-\[Omitted image "chat-gif-image.gif"\] Alt text: Start a chat conversation
 
 **Note:** These pre-chat categories are only used with live chat. If you are using Virtual Agent with Employee Center, then these pre-chat categories don't apply.
 

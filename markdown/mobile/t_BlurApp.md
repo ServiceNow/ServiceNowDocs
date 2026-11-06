@@ -1,18 +1,18 @@
 ---
 title: Configure the blur app option to improve security
-description: As a security feature, administrators can configure the mobile app to blur when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred.
+description: As a security feature, administrators can configure the mobile app to blur or appear blackened, depending on the operating system, when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred or blackened.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/t\_BlurApp.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile system property configurations, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [System properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure the blur app option to improve security
 
-As a security feature, administrators can configure the mobile app to blur when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred.
+As a security feature, administrators can configure the mobile app to blur or appear blackened, depending on the operating system, when not in focus on a mobile device. When you double-click the home button on your mobile device to close apps or navigate back to where you left off, the ServiceNow app appears blurred or blackened.
 
 ## Before you begin
 
@@ -32,8 +32,6 @@ Before you enable the **glide.sg.blur\_ui\_when\_backgrounded** system property,
 -   **iOS specific**
 
     ServiceNow mobile apps appear blurred when not in focus on a mobile device.
-
-    **Note:** For BlackBerry and Microsoft Intune variants, screen recordings and screenshots remain enabled.
 
 -   **Android specific**
 

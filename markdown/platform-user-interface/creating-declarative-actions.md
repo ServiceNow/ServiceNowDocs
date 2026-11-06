@@ -1,0 +1,41 @@
+---
+title: Creating declarative action buttons
+description: Create a declarative action and add the button to a workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/creating-declarative-actions.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+---
+
+# Creating declarative action buttons
+
+Create a declarative action and add the button to a workspace.
+
+-   **[Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-form-action.md)**
+
+    Create a form action and add the button to a workspace.
+
+-   **[Configure a form action layout item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-form-action-layout-item.md)**
+
+    Customize the appearance of a form action and control how it appears relative to other actions in a table layout.
+
+-   **[Create a list or related list action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-list-or-related-list-action.md)**
+
+    Create a list or related list action and add the button to a workspace.
+
+-   **[Create an attachment action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-attachment-action.md)**
+
+    Create an attachment action and add the button to workspace.
+
+-   **[Create a field decorator action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-field-decorator-action.md)**
+
+    Create a field decorator action and add the button to a workspace.
+
+-   **[Create a row action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-list-row-context-menu.md)**
+
+    Create a row action and add the button to a workspace.
+
+

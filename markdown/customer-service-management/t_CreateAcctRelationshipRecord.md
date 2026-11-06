@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateAcctRelationshipRecord.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Bi-directional account relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Bi-directional account relationships, Create customer relationships, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create an account relationship record
@@ -16,17 +16,23 @@ Create an account relationship record by selecting the account relationship type
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager or admin
+Role required: One of the following roles:
+
+-   sn\_crm\_foundation\_data\_manager,
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_customerservice\_manager
+-   sn\_crm\_foundation\_admin,
+-   admin
 
 ## About this task
 
-The system administrator can create a relationship record for an account from the **Account Relationships** related list on the Account Relationship Type form.
+The administrator can create a relationship record for an account from the **Account Relationships** related list on the Account Relationship Type form.
 
-The customer service manager and the system administrator can create a relationship record for an account from the **Account Relationships** related list on the account or partner record.
+The customer service manager and the administrator can create a relationship record for an account from the **Account Relationships** related list on the account or partner record.
 
 Deleting a relationship record for an account also deletes the reverse relationship record.
 
-**Note:** Deleting a relationship record does not have any impact on customer service cases that refer to the relationship record.
+**Note:** Deleting a relationship record doesn’t have any impact on customer service cases that refer to the relationship record.
 
 ## Procedure
 
@@ -40,9 +46,9 @@ Deleting a relationship record for an account also deletes the reverse relations
 
     |Field|Definition|
     |-----|----------|
-    |Account From|The source account for this relationship. If you are creating the relationship from an account or partner record, this field is automatically filled in; otherwise, make a selection from the Accounts list.|
-    |Relationship Type|Select the account relationship type for this record. If you are creating the record from an Account Relationship Type form, this field is automatically filled in. Otherwise, make a selection from the Account Relationship Types list, which shows all active account relationship types.|
-    |Account To|The target account for this relationship.|
+    |Account From|The source accounts for this relationship. If you’re creating the relationship from an account or partner record, this field is automatically filled in; otherwise, make a selection from the Accounts list.|
+    |Relationship Type|Select the account relationship type for this record. If you’re creating the record from an Account Relationship Type form, this field is automatically filled in. Otherwise, make a selection from the Account Relationship Types list, which shows all active account relationship types.|
+    |Account To|The target accounts for this relationship.|
     |Order|Specifies the sequence in which records are displayed, organized according to business preferences.|
 
 5.  Select **Submit**.

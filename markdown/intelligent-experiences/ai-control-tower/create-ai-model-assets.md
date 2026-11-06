@@ -7,10 +7,10 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Using AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI model assets
@@ -19,7 +19,7 @@ Create AI assets to track and manage the life cycles of your AI models.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] or Asset Owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: sn\_ai\_governance\_ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 ## About this task
 
@@ -31,7 +31,7 @@ An AI model is a program that is trained to process data and generate outputs, s
 
 2.  From the AI Control Tower, open the AI assets view.
 
-3.  From the navigation menu of the AI assets view, navigate to **AI asset inventory** &gt; **AI Models**.
+3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **AI Models** or **AI asset inventory - Unmanaged** &gt; **AI Models**.
 
 4.  Select **Add AI model**.
 
@@ -131,7 +131,7 @@ Managed by
 
 </td><td>
 
-User who is assigned to manage the AI model. This field is automatically set to the user who creates the AI model asset.**Note:** This field is editable only if you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this field is read-only.
+User who is assigned to manage the AI model. This field is automatically set to the user who creates the AI model asset.**Note:** This field is editable only if you have the AI steward \(sn\_ai\_governance\_ai\_steward\) role. If you have the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role, this field is read-only.
 
 </td></tr><tr><td>
 
@@ -208,17 +208,41 @@ Report that provides data for the metrics that you’re using to evaluate the ef
 </td></tr></tbody>
 </table>6.  Select **Next**.
 
-7.  In the Related assets section of the Add AI model form, specify the datasets and prompts that are associated with the model.
+7.  In the Related assets section of the Add AI model form, associate the AI model with related datasets.
 
-    -   To specify a dataset that is associated with the AI model, search for and select the dataset from the **Evaluation datasets** field. You can specify more than one dataset.
+    Related datasets include any collections of data that can help test or train the AI model.
 
-    -   To specify a prompt that is associated with the AI model, search for and select the prompt from the **AI prompts** field. You can specify more than one prompt.
+    1.  Depending on the type of related dataset that you want associate the AI model with, select one of the following options from the asset type menu:
 
-        **Note:** If an associated dataset or prompt isn’t available, you can add it by selecting **Add new** and then following the proceeding steps in [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-dataset-assets.md) or [Create prompt assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-prompt-assets.md).
+        -   To associate the AI model with a dataset that can help test it, select **Evaluation datasets**.
+        -   To associate the AI model with a dataset that can help train it, select **Training datasets**.
+        The corresponding asset list opens.
+
+    2.  Associate the AI model with the related dataset.
+
+        Depending on if the related dataset is currently available in your asset inventory, proceed with one of the following options:
+
+        -   To associate the AI model with a related dataset that is currently available, use the following steps:
+
+            1.  Select the Add from inventory drop-down menu on the header of the corresponding asset list.
+            2.  Select **Add from inventory**.
+            3.  In the Add from inventory dialog box, select the check box for the related dataset that you want to associate the AI model with.
+
+                **Note:** If you want to associate the AI model with multiple related datasets, select the check box for each dataset.
+
+            4.  Select **Add**.
+            The dialog box closes and the selected dataset appears in the corresponding asset list.
+
+        -   To associate the AI model with a related dataset that is not currently available, use the following steps:
+
+            1.  Select the Add from inventory drop-down menu on the header of the corresponding asset list.
+            2.  Select **Create**.
+            3.  Create the dataset by following the proceeding steps in [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-dataset-assets.md).
+            The new dataset appears in the corresponding asset list.
 
 8.  Select **Submit for review**.
 
-    **Note:** If you aren’t ready to submit the AI model for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the AI model from the list. When the AI asset record opens, select **Edit** to continue editing the AI model details.
+    **Note:** If you aren’t ready to submit the AI model for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the AI model from the list. When the AI asset record opens, continue editing the AI model details.
 
 
 ## Result

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Slack chat connector for major security incidents, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

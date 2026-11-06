@@ -1,20 +1,20 @@
 ---
 title: Order quantity support
-description: Learn how you can support and fulfill your customer orders for multiple instances of a product or service.. You can create multiple domain orders that equal the order quantity for each instance of the product or service. This way, you can efficiently decompose and manage the fulfillment of your customer orders.
+description: Learn how you can support and fulfill your customer orders for multiple instances of a product or service. You can create multiple domain orders that equal the order quantity for each instance of the product or service. This way, you can efficiently decompose and manage the fulfillment of your customer orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-quantity-support.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Add products or services, Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Order quantity support
 
-Learn how you can support and fulfill your customer orders for multiple instances of a product or service.. You can create multiple domain orders that equal the order quantity for each instance of the product or service. This way, you can efficiently decompose and manage the fulfillment of your customer orders.
+Learn how you can support and fulfill your customer orders for multiple instances of a product or service. You can create multiple domain orders that equal the order quantity for each instance of the product or service. This way, you can efficiently decompose and manage the fulfillment of your customer orders.
 
-## Overview
+## Example of order quantity
 
 An instance of a product or service refers to an ordered item with a unique set of order characteristic values, such as the speed and memory size. A customer might order the same top-level product or service for different locations, but each might differ in their order characteristics. For example, if a customer orders a router for one of their locations, it might have a memory size selection that varies from the same router model that was ordered for another location. Order Management supports this order quantity processing for the following scenarios:
 
@@ -32,4 +32,11 @@ In this scenario, you accept and support your customer order that has the inform
 
 -   Specification relationship with quantity characteristic
 -   Characteristic mapping
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

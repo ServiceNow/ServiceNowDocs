@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference for Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -85,4 +85,6 @@ Unable to translate.
 |--------|-------------|
 |When there is no valid subflow associated with the translator configuration.|Either a detect or a translate subflow is required for a valid translator configuration.|
 |When multiple language code mappings are selected for the same language code|Multiple language code mappings cannot be selected for the same language code\(s\): xx.|
+
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

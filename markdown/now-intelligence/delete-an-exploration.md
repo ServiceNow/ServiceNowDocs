@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/delete-an-exploration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Use, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Delete an exploration
@@ -37,10 +37,10 @@ Role required: now\_assist\_explorer\_user and ownership of the exploration. Use
         \[Omitted image "nowass-del-option.png"\] Alt text: Deletion option in the additional options menu.
 
 
-**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-now-assist-explorer.md)
+**Parent Topic:**[Using AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-aide.md)
 
 **Related topics**  
 
 
-[Duplicate, delete, copy to another exploration, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/nowass-expl-dup-del-question-resp.md)
+[Duplicate, delete, copy, or move an answer in an exploration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/nowass-expl-dup-del-question-resp.md)
 

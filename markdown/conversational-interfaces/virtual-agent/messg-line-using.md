@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with LINE, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [LINE, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational Integration with LINE
@@ -44,7 +44,10 @@ As a live agent interacting with a requester over the LINE service channel, you 
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Line service channel for transfer of chat conversations, then you can accept a work item from the LINE chat conversation in your Agent Workspace Inbox. For more information, see [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+**Note:** If an administrator has configured the Line service channel for transfer of chat conversations, then you can accept a work item from the LINE chat conversation in your Agent Workspace Inbox. For more information, see [Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
-**Parent Topic:**[Integrating Virtual Agent with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line.md)
+-   **[Transfer LINE chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-live-agent-conv.md)**  
+Configure the Advanced Work Assignment application to transfer a LINE chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
+
+**Parent Topic:**[Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line.md)
 

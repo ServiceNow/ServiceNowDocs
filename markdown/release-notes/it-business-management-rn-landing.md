@@ -1,37 +1,47 @@
 ---
 title: Strategic Portfolio Management release notes
-description: Strategic Portfolio Management \(formerly IT Business Management\) has new and updated features in the Yokohama release.
+description: Strategic Portfolio Management has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/it-business-management-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Strategic Portfolio Management release notes
 
-Strategic Portfolio Management \(formerly IT Business Management\) has new and updated features in the Yokohama release.
+Strategic Portfolio Management has new and updated features in the Brazil release.
 
--   **[Collaborative Work Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/collaborative-work-management-rn.md)**  
-The ServiceNow® Collaborative Work Management \(CWM\) application provides a central hub to plan, visualize, and collaborate on work with team members across your organization. CWM was enhanced and updated in the Yokohama release.
--   **[Data Separation release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/data-separation-rn.md)**  
-The ServiceNow® Data Separation application enables organizations to restrict access to sensitive data based on a lens hierarchy and its leaf node.
--   **[ServiceNow Otto for Collaborative Work Management \(CWM\) release notes]()**  
-The ServiceNow® ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\) application uses generative AI skills to improve time to value for the tasks you perform in the CWM workspace. ServiceNow Otto for CWM is a new application in the Yokohama release.
--   **[ServiceNow Otto for Strategic Portfolio Management release notes]()**  
-The ServiceNow® ServiceNow Otto for Strategic Portfolio Management application introduces generative AI skills into Strategic Portfolio Management. You can summarize feedback or content in Docs, create stories from epics, generate concise project summaries, create demands through conversations, quickly gain insights into projects, and refine planning item descriptions to enhance clarity and ensure alignment with project goals. ServiceNow Otto for Strategic Portfolio Management is updated in the Yokohama release.
+-   **[Collaborative Work Management \(CWM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/spm-cwm-rn.md)**  
+The ServiceNow® Collaborative Work Management application centralizes tasks, documentation, and planning in a single workspace so teams can manage work without switching between applications. See the following sections for release notes by version.
+-   **[SPM Enterprise-Wide Deployment release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/enterprise-wide-deployment-rn.md)**  
+The ServiceNow® SPM Enterprise-Wide Deployment application provides data partitioning capabilities for Strategic Portfolio Management \(SPM\) tables that enable organizations to separate and control record visibility across functions such as departments and business units. See the following sections for release notes by version.
+-   **[Extended Security for Enterprise-Wide Deployment release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/extended-security-ewd-rn.md)**  
+The ServiceNow® Extended Security for Enterprise-Wide Deployment application provides additional security for Enterprise-Wide Deployment that extends partition access controls across APIs, agentic workflows, indirect references, and unpartitioned parent tables. See the following sections for release notes by version.
+-   **[Export to PowerPoint release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/export-to-ppt-rn.md)**  
+The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in generates and downloads project status reports from your instance as a Microsoft PowerPoint file for sharing with stakeholders and teams. See the following sections for release notes by version.
+-   **[Goal Framework for SPM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/goal-framework-for-spm-rn.md)**  
+The ServiceNow® Goal Framework for SPM application enables you to automate the actual value of your targets for the goals that are defined using the ServiceNow® Goal Framework application. See the following sections for release notes by version.
+-   **[Goal Framework release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/goal-framework-rn.md)**  
+The ServiceNow® Goal Framework application enables your business to create goals, set targets, and evaluate progress toward organizational plans and business outcomes.
+-   **[MCP for Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/mcp-for-spm-rn.md)**  
+The ServiceNow® MCP for Strategic Portfolio Management application connects any MCP-compatible AI assistant to your ServiceNow instance. Strategy and PMO leaders, portfolio managers, and project managers can access live SPM data through natural language. See the following sections for release notes by version.
 -   **[Portfolio Planning release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/portfolio-planning-rn.md)**  
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.
--   **[Project Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/project-portfolio-management-rn.md)**  
-The ServiceNow® Project Portfolio Management application enables you to create and manage a wide range of planning items ranging from a few small tasks to large portfolios of projects. Project Portfolio Management was enhanced and updated in the Yokohama release.
--   **[Project Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/project-workspace-rn.md)**  
-The ServiceNow® Project Workspace application provides an intuitive user experience that enables project managers to plan and manage their projects. Project Workspace was enhanced and updated in the Yokohama release.
+The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. See the following sections for release notes by version.
+-   **[Project Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/spm-ppm-rn.md)**  
+The ServiceNow® Project Portfolio Management application combines innovation, demand, project, program, resource, and portfolio management into a single suite. Teams can plan and execute work using a waterfall, Agile, or hybrid methodology.
+-   **[Project Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/spm-project-workspace-rn.md)**  
+The ServiceNow® Project Workspace application provides an interactive UI to enable project managers to define, plan, track, and monitor projects from a single location.
+-   **[Retail Strategic Portfolio Management Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/spm-retail-rn.md)**  
+The ServiceNow® Retail Strategic Portfolio Management Suite application helps retail organizations plan, manage, and track store life cycle projects such as new store openings, closures, refurbishments, relocations, and technology refreshes.
 -   **[Resource Management Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/resource-management-workspace-rn.md)**  
-The ServiceNow® Resource Management Workspace application provides resource managers with a more efficient way to work with a dedicated workspace to view and manage resource assignments. Resource Management Workspace was enhanced and updated in the Yokohama release.
+The ServiceNow® Resource Management Workspace application helps organizations optimize resource allocation, manage capacity, and align workforce planning with project demands.
 -   **[Strategic Planning release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/strategic-planning-rn.md)**  
-The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. Strategic Planning was enhanced and updated in the Yokohama release.
+The ServiceNow® Strategic Planning application helps you accomplish end-to-end planning using a single workspace. See the following sections for release notes by version.
+-   **[Strategic Spend Tracking for PPM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/strategic-spend-tracking-for-ppm-rn.md)**  
+The ServiceNow® Strategic Spend Tracking for PPM application enables project or demand managers to evaluate the strategic value of organization’s projects and demands. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

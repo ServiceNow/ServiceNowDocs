@@ -7,18 +7,24 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [Integration steps, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # PowerShell step
 
 Run PowerShell scripts on remote machines from your ServiceNow instance through a MID Server.
 
-PowerShell is built on the Windows .NET Framework and is designed to control and automate the administration of Windows machines and applications. ServiceNow supports PowerShell 3.0 to 5.1. PowerShell 3.0 does not support Windows 2003 Server.
+PowerShell is built on the Windows .NET Framework and is designed to control and automate the administration of Windows machines and applications. ServiceNow supports PowerShell 3.0 to 7.4. PowerShell 3.0 does not support Windows 2003 Server.
 
 **Note:** This step requires an Integration Hub subscription. For more information, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+## PowerShell version
+
+By default, Integration Hub supports PowerShell versions 3.0 to 5.1. To use a newer version, [add the MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerProperties.md) **mid.property.ihub.prefer\_powershell6Plus** and set it to `true`.
+
+**Note:** PowerShell version 6.0 or later is not pre-installed on MID Servers. You must install the newer PowerShell version manually. Both the earlier versions \(PowerShell 3.0 to 5.1\) and the newer versions \(PowerShell 6.0 to 7.4\) can co-exist on the same MID Server. Test your Integration Hub and custom PowerShell scripts to ensure everything works before upgrading to a newer version of PowerShell.
 
 ## Roles and availability
 

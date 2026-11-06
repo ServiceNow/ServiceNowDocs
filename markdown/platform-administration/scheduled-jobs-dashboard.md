@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/scheduled-jobs-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Monitor System Events and Scheduled Jobs dashboards, Maintain and monitor, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Understand your Scheduled Jobs dashboard
 
 Visit scheduler dashboard to learn about key health metrics and insights of scheduled jobs.
 
-Navigate to **All** &gt; **System Diagnostics** &gt; **Scheduled Jobs Dashboard**.
+Navigate to **All** &gt; **System Diagnostics** &gt; **System Events and Job Monitoring** &gt; **Scheduled Jobs Dashboard**.
 
 \[Omitted image "scheduled-jobs-dashboard.png"\] Alt text: Scheduled jobs dashboard.
 
@@ -86,11 +86,11 @@ Graphical representation of the total number of scheduled job executions on your
 
 </td></tr><tr><td>
 
-Average Lateness
+Average job wait time
 
 </td><td>
 
-Graphical representation of the average lateness in milliseconds of all scheduled jobs on your instance over a period of time. The default time period is last 24 hours. You can view the data only from last 7 days. The data originates from the sys\_scheduler\_job\_history table.**Note:** When you click on a lateness average data in the graph, the Scheduled Job History list shows up. The list of jobs have been grouped using Jobs Classification concept with Trigger Type as either Run Once or Recurring.
+Graphical representation of the average wait time in milliseconds of all scheduled jobs on your instance over a period of time. The default time period is last 24 hours. You can view the data only from last 7 days. The data originates from the sys\_scheduler\_job\_history table.**Note:** When you click on a wait time average data in the graph, the Scheduled Job History list shows up. The list of jobs have been grouped using Jobs Classification concept with Trigger Type as either Run Once or Recurring.
 
 </td></tr><tr><td>
 
@@ -101,7 +101,7 @@ Scheduled Job Trends
 List of completed jobs grouped by Job Classification concept. The default time period is last 24 hours. You can view the data only from last 7 days. The data originate from the sys\_scheduler\_job\_history table.
 
 </td></tr></tbody>
-</table>**Note:** For both **Stuck Jobs** and **Permanent Error Jobs** tiles, the data and columns originate from the sys\_trigger table. Both the tiles are used to cleanup jobs and keep the scheduled jobs in a positive state. Select the required tile to see the list view of the jobs. The **Lateness** column on both the lists refers to how late the job is based on the time it was supposed to run. If **Next Action** is in the past, the lateness is calculated as the current time minus the next action time. For example, if the job was scheduled to run two minutes ago, then lateness is two minutes. If the job is scheduled to run in the future, then the lateness is 0.
+</table>**Note:** For both **Stuck Jobs** and **Permanent Error Jobs** tiles, the data and columns originate from the sys\_trigger table. Both the tiles are used to cleanup jobs and keep the scheduled jobs in a positive state. Select the required tile to see the list view of the jobs. The **Wait time** column on both the lists refers to how late the job is based on the time it was supposed to run. If **Next Action** is in the past, the wait time is calculated as the current time minus the next action time. For example, if the job was scheduled to run two minutes ago, then the wait time is two minutes. If the job is scheduled to run in the future, then the wait time is 0.
 
 ## Scheduled Job Trends
 

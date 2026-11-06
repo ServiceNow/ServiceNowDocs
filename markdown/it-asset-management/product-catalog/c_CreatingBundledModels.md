@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Models, Product Catalog, IT Asset Management]
+breadcrumb: [Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Bundled models
@@ -60,9 +60,9 @@ You can publish bundled models to the product catalog to make the bundled models
 **Related topics**  
 
 
-[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md)
-
 [Consume consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_ConsumingConsumableAssets.md)
+
+[Create pre-allocated assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreatingPreAllocatedAssets.md)
 
 [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/product-catalog/c_ModelCategories.md)
 

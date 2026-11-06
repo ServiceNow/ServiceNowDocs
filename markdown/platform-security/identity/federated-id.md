@@ -1,58 +1,67 @@
 ---
 title: Exploring Federated ID
-description: Determine the users across multiple instances based on user name and email and provide a unique ID \(Federated ID\) to the user across instances.
+description: The ServiceNow Identity system uniquely identifies users across multiple instances and assigns each resolved user a unique Federated ID for consistent identification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/federated-id.html
 release: yokohama
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Global Identity, Identity]
 ---
 
 # Exploring Federated ID
 
-Determine the users across multiple instances based on user name and email and provide a unique ID \(Federated ID\) to the user across instances.
+The ServiceNow Identity system uniquely identifies users across multiple instances and assigns each resolved user a unique Federated ID for consistent identification.
 
-Federated ID is used to identity users across the multiple ServiceNow® instance. Based on the federated id the user can be identified and the accurate number of users across multiple instances can be determined. For more information, see [Federated ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/federated-id.md).
+With Federated ID, you can accurately calculate the number of unique users across instances, which is useful for licensing and user management. You can generate Federated ID for Role and User on ServiceNow.
 
-**Note:** User name is required for generating Federated IDs.
+To identify and match users and roles across instances, the ServiceNow Identity system generates a Federated ID from the fields configured as the ID Fields for a table, using a hashing function, and stores the value in the `federated_id` column of the `sys_user` table. By default, the User ID and Email fields are used. You can change the fields used for generation to meet your requirements.
 
-Federated ID is a unique identifier for an identity using a hashing function across the ServiceNow® instances.
+**Note:** A Federated ID criterion must include at least one unique field. The unique field verifies that the generated Federated ID stays unique for each record on the selected table.
 
-## Federated ID for Users
+## Selecting ID Fields
 
-By using the **User ID** and **Email** of the user across the instances, the Federated ID is created and displayed in the **sys\_user** table.
+By default, Federated ID generation lets you choose the fields used to generate Federated IDs, subject to these rules:
 
-After upgrading to the Yokohama release, the Federated ID Generation \(`com.glide.identity.globalid`\) plugin is auto-installed on all instances.
+-   The User ID \(`user_name`\) field is no longer required. You can select any unique field from the `sys_user` table as the required unique field. The User ID field itself qualifies as a unique field, so you can still use it if you need to.
+-   At least one unique field must be selected. You can select more than one unique field.
+-   You can add secondary, non-unique fields from the `sys_user` table, and add, remove, or change them at any time. Secondary fields don't satisfy the unique field requirement on their own — for example, valid selections include \(User ID, Email\) or \(a unique field, Email\).
+-   A Federated ID is generated for a record only if at least one of its selected unique fields has a value. If you selected several unique fields, the record requires a value in just one of them. If all the selected unique fields are empty, no Federated ID is generated for that record \(the Federated ID is null\).
 
-**Note:**
-
--   User name is required for generating Federated IDs.
--   User name and email are used to generate Federated IDs by default. To update the fields for generating Federated IDs based on your requirement, see [Updating ID fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/updating-id-fields.md).
--   **iamsync\_admin** role is required to update the configuration.
--   If there are users with duplicate user names and email, then the Federated ID is generated only for one user. If the user name is null or empty, then the Federated ID is null.
+User ID and Email are used to generate Federated IDs by default. To change the fields used for generation, see [Update the ID fields for Federated ID generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/updating-id-fields.md). You must have the `iamsync_admin` role to update the configuration.
 
 \[Omitted image "federated-id-sys.png"\] Alt text: Federated ID in sys\_user table
 
-Schema changes after the plugin installed are as follows:
+## Which fields qualify as a unique field
 
--   New column federated\_id in the `sys_user` table is created.
--   New table - `iamsync_type` is auto populated with the default configuration for the `sys_user` table.
+A field qualifies as a unique field only when its uniqueness is enforced on a single column. The following table shows which field types can be selected as the unique field.
 
-Federated ID is only supported for the `sys_user` table and all the tables that extend the sys\_user table.
+|Field type|Can be used as a unique field|
+|----------|-----------------------------|
+|Field marked unique in the dictionary|Yes|
+|Field with a single-column unique database index|Yes|
+|Field with a database index that isn't unique|No|
+|Field that is unique only as part of a composite \(multi-column\) unique index|No|
+|Non-unique field|No|
 
-After upgrading to the Yokohama release, the Federated ID Generation \(`com.glide.identity.globalid`\) plugin is auto-installed on all instances.
+## Validation
 
-\[/concept/conbody/section/ph/title \{"- topic/title "\}\)Federated ID for Roles\(title\]By using the `roles` of the user across the instances, the Federated ID is created and displayed in the **sys\_user\_role** table.
+-   If you save a criterion without a unique field, the save is blocked and the error **At least one unique field is required for Federated Id generation.** is displayed. The Federated ID Criteria form also shows a message guiding you to include at least one unique field.
+-   Before a Federated ID generation run begins, the system confirms that a unique field is configured. If a unique field is missing, the run is safely skipped instead of failing repeatedly.
 
-**Note:**
+**Note:** When the unique field data is empty, Federated ID is not generated.
 
--   Role is required for generating Federated IDs in the **sys\_user\_role** table.
--   The Federated IDs in the **sys\_user\_role** table can be used to the over usages of the roles.
--   Updating ID fields and Regenerate Federated IDs options are not available for Role type. There's a scheduled job that runs periodically to generate ID for roles in case its empty.
+## Changing the ID Fields
 
+You can change the unique field to a different unique field at any time.
 
+**Important:** Changing any ID Field — unique or secondary — regenerates the Federated IDs for all existing records on the table. Because downstream systems may rely on existing Federated ID values, changing the fields can break those integrations.
+
+The Federated ID Generation \(`com.glide.identity.globalid`\) plugin is auto-installed on all instances. After the plugin is installed, the schema changes are as follows:
+
+-   A column `federated_id` in the sys\_user table is created.
+-   A table, `iamsync_type`, is auto-populated with the default configuration for the sys\_user table.
 

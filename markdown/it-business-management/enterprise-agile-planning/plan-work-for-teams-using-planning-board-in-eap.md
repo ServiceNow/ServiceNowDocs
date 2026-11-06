@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Perform PI planning, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -25,6 +25,8 @@ Role required: sn\_apw\_advanced.eap\_user
 This task is explained using an Agile Release Train \(ART\) that has a Planning Interval \(PI\) as its calendar. This ART has child teams associated with it, which have Sprints defined for them.
 
 On the board, move the story cards into different lanes or add new stories for the teams during planning meetings. Enable the **Dependencies** toggle to view dependencies and blockers across work for the teams.
+
+The Planning board of an ART doesn't display child teams whose planning methodology is Kanban. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 
 ## Procedure
 

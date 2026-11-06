@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-su-licensing-landing-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Operations Management]
 ---
@@ -16,7 +16,7 @@ ServiceNow® IT Operations Management \(ITOM\) licensing calculates and displays
 
 ## Unified statistics for all ITOM products
 
-Use the ITOM licensing module to view subscription-related information for all ITOM products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM Health, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, ServiceNow® ITOM Cloud Accelerate, ServiceNow® Digital End-User Experience \(DEX\), and ServiceNow® Service Observability.
+Use the ITOM licensing module to view subscription-related information for all ITOM products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, ServiceNow® ITOM Cloud Accelerate, ServiceNow® Digital End-User Experience \(DEX\), and ServiceNow® Service Observability.
 
 The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract.
 

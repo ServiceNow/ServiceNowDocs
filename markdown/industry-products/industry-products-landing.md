@@ -1,34 +1,17 @@
 ---
-title: CRM and Industry Products
-description: ServiceNow Customer Relationship Management \(CRM\) helps you sell, fulfill and service on one unified platform. ServiceNow CRM consists of Sales Customer Relationship Management \(Sales CRM\), Field Service Management \(FSM\), and Customer Service Management \(CSM\) and their related industry extensions. Industry Products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
+title: Industry Products
+description: Industry products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/industry-products/industry-products-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
-# CRM and Industry Products
+# Industry Products
 
-ServiceNow® Customer Relationship Management \(CRM\) helps you sell, fulfill and service on one unified platform. ServiceNow CRM consists of Sales Customer Relationship Management \(Sales CRM\), Field Service Management \(FSM\), and Customer Service Management \(CSM\) and their related industry extensions. Industry Products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
-
-## CRM products
-
-<table id="table_x5b_bxc_1fc" class="nav-card"><tbody><tr><td>
-
-[Customer Service Management \[Omitted image "bus-customer-service-agent.svg"\] Alt text:Manage customer cases, resolve problems, and track interactions across multiple channels.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)
-
-</td><td>
-
-[Field Service Management\[Omitted image "bus-field-service-technician.svg"\] Alt text: Manage work orders, assets, or locations, and dispatch agents to perform field work.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md)
-
-</td><td>
-
-[Sales CRM\[Omitted image "bus-transaction.svg"\] Alt text:Manage your sales cycle, including lead and opportunity management, quote generation, order management, contract renewals, and invoicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-overview.md)
-
-</td></tr></tbody>
-</table>## Industry products
+Industry products further extend the value of the ServiceNow AI Platform by productizing data models, frameworks, and workflows to address common experience challenges at scale.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -48,7 +31,7 @@ ServiceNow® Customer Relationship Management \(CRM\) helps you sell, fulfill an
 
 </td><td>
 
-Retail\[Omitted image "ind-storefront.svg"\] Alt text:Enhance the efficiency of retail operations through optimized processes and tools.
+[Retail\[Omitted image "ind-storefront.svg"\] Alt text:Enhance the efficiency of retail operations through optimized processes and tools.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/retail-industry/rahi-retail-operations-overview.md)
 
 </td><td>
 

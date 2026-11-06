@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-activate-catalog-visuals.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Activate the display of product catalog visuals
@@ -34,4 +34,11 @@ The **sn\_prd\_pm.show\_product\_visuals\_on\_catalog\_ui** system property cont
 
     The product offering visuals are loaded in the catalog. If a product offering doesn't have a visual, the text **Image not available** is presented in the product offering tile instead.
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

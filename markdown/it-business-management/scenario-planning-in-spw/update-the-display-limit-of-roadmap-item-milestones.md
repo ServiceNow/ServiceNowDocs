@@ -7,10 +7,10 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update the display limit of Prioritization and Roadmap items
@@ -48,15 +48,15 @@ If the total number exceeds these default limits, the additional number of plann
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d263804e159">
+<table id="choicetable_ygd_pdb_3rb"><thead><tr><th align="left" id="d336654e159">
 
 Field
 
-</th><th align="left" id="d263804e162">
+</th><th align="left" id="d336654e162">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d263804e168">
+</th></tr></thead><tbody><tr><td id="d336654e168">
 
 **Name**
 
@@ -67,7 +67,7 @@ Description
 -   **sn\_align\_ws.kanban\_lanes\_max\_limit** for Kanban view lanes limit \(Prioritization, portfolio roadmap and free-form roadmap\). This is applicable only for reference fields.
 
 
-</td></tr><tr><td id="d263804e194">
+</td></tr><tr><td id="d336654e194">
 
 **Type**
 
@@ -75,7 +75,7 @@ Description
 
 Integer
 
-</td></tr><tr><td id="d263804e203">
+</td></tr><tr><td id="d336654e203">
 
 **Value**
 

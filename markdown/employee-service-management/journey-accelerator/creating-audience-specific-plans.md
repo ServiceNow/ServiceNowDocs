@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Creating and managing audience-specific Journey Accelerator templates

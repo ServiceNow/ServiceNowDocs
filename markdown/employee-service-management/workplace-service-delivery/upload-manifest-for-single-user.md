@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---

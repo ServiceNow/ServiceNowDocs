@@ -1,20 +1,20 @@
 ---
-title: Using Impact Store Application
-description: The Impact Store Application is available directly through your ServiceNow instance and is accessed in addition to the Impact Delivery Instance portal.
+title: Using Impact
+description: Using Impact available directly through your ServiceNow instance and the Impact Delivery Instance offers a similar experience, but the user interface may vary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-in-app.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Store Application, Impact]
+breadcrumb: [Impact]
 ---
 
-# Using Impact Store Application
+# Using Impact
 
-The Impact Store Application is available directly through your ServiceNow instance and is accessed in addition to the Impact Delivery Instance portal.
+Using Impact available directly through your ServiceNow instance and the Impact Delivery Instance offers a similar experience, but the user interface may vary.
 
-## Impact store application key features
+## Key features
 
 <table id="table_vhm_dgl_ntb"><thead><tr><th align="center">
 
@@ -34,12 +34,12 @@ Details
 
 </td><td>
 
-[Impact home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-platform-home.md)
+[Navigate Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-platform-home.md)
 
 </td><td>
 
-Navigate to the Impact Workspace from your ServiceNow instance to explore the Impact Home page:-   Use the progression checklist to onboard your team.
--   Familiarize your team with Impact Store App features by following the Guided Tour.
+-   Use the progression checklist to onboard your team.
+-   Familiarize your team with the Impact Store App features by following the Guided Tour.
 -   Interact with your Impact team.
 -   Receive tailored recommendations for next steps.
 
@@ -49,11 +49,36 @@ Navigate to the Impact Workspace from your ServiceNow instance to explore the Im
 
 </td><td>
 
-[Impact Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-healthscan-store-app.md)
+[Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/platform-health-idi.md)
 
 </td><td>
 
-Use the diagnostic tool that helps you understand the current health of your instance, identify potential issues and setbacks, and take quick corrective action.​
+Use diagnostic tools that help you understand the current health of your instance, identify potential issues and setbacks, and take quick corrective action.​
+
+</td></tr><tr><td align="center">
+
+\[Omitted image "bus-featured.svg"\] Alt text:
+
+</td><td>
+
+[Use the recommendations list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/using-recommendations-iip-ws.md)
+
+</td><td>
+
+Use the recommendations full list to view the recommendations tailored for you.
+
+</td></tr><tr><td align="center">
+
+\[Omitted image "bus-rocketship.svg"\] Alt text:
+
+</td><td>
+
+[Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/impact-initiatives.md)
+
+</td><td>
+
+-   [Initiatives Catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
+-   [Accelerator Catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
 
 </td></tr><tr><td align="center">
 
@@ -61,11 +86,11 @@ Use the diagnostic tool that helps you understand the current health of your ins
 
 </td><td>
 
-[Impact store app value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-platform-business-outcomes.md)
+[Build implementation plans with product adoption roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-product-adoption-roadmap/impact-par.md)
 
 </td><td>
 
-View your capabilities and product adoption roadmaps for your ServiceNow instance:-   See the applications, or capabilities, at your disposal for achieving your business objectives.
+View your capabilities and product adoption roadmaps for your ServiceNow instances:-   See the applications, or capabilities, at your disposal for achieving your objectives.
 -   View a recommended implementation sequence for your capabilities organized into specific phases for optimal implementation.
 
 </td></tr><tr><td align="center">
@@ -74,25 +99,24 @@ View your capabilities and product adoption roadmaps for your ServiceNow instanc
 
 </td><td>
 
-[Impact store app value management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-platform-business-outcomes.md)
+[Value Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/value-library/impact-in-platform-business-outcomes.md)
 
 </td><td>
 
-Captures your business objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
+Captures your objectives, which are high-level goals tied to measurable outcomes that help illustrate value over time.
 
 </td></tr><tr><td align="center">
 
-\[Omitted image "bus-rocketship.svg"\] Alt text:
+\[Omitted image "bus-management-console.svg"\] Alt text:
 
 </td><td>
 
-[Impact Store Application Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-platform-initiatives-accelerators.md)
+[Consumption Report in Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/ide-consumption-report.md)
 
 </td><td>
 
--   [Initiatives catalog](https://www.servicenow.com/docs/access?context=initiatives-catalog): Actionable engagements and workstreams that support your digital transformation.
--   [Accelerator catalog](https://www.servicenow.com/docs/access?context=accelerator-catalog): Fixed-scope offerings with experts behind each option to quickly provide value exactly where you need it
+View your tier features across various accounts including used and unused Accelerators, initiatives, instance observer users, developer support users, and active case breakdowns.
 
 </td></tr></tbody>
-</table>**Important:** In order to access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Impact User Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/ide-user-management.md) for additional information.
+</table>**Important:** To access various levels of Impact, a role must be assigned to you. Your Impact Administrator can assign the appropriate roles to you. See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-roles.md) for additional information.
 

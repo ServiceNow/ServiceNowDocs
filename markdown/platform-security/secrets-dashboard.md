@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/secrets-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Secrets Management, Platform Security]
 ---
@@ -51,15 +51,15 @@ The **Secret Group Warnings** tab displays warnings related to your secret group
 
     This card displays warnings if there are client accessible secret groups that don’t have an active identity module access policy \(MAP\). Select a secret group name to view that record.
 
--   **Identity Groups - Warnings**
+-   **Identity Groups- Warnings**
 
     This card displays warnings if there are identity groups that don’t have group members configured. Select the identity group name to view the record.
 
 
-**Note:** The Secrets Management Dashboard is a part of Secrets Management Enterprise. Secrets Management Enterprise is a Secrets Management Enterprise. Secrets Management our production instance.
+**Note:** The Secrets Management Dashboard is a part of Secrets Management Enterprise. Secrets Management Enterprise is a Secrets Management Enterprise. Secrets Management ServiceNow's production instance.
 
--   **[Secrets management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/roles-sec-man.md)**  
-Secrets management adds these roles.
+-   **[Secrets Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/roles-sec-man.md)**  
+Secrets Management adds these roles.
 -   **[Create a secret group cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-sm-crypto-module.md)**  
 Create a secret group cryptographic module to perform encryption and decryption.
 -   **[Create a basic secret group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/sm-create-basic-group.md)**  

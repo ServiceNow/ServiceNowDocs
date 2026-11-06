@@ -1,60 +1,47 @@
 ---
 title: Opportunity Management release notes
-description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.The September 2026 release includes ServiceNow Otto support for better user experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/opportunity-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Opportunity Management release notes
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities. See the following sections for release notes by version.
 
 ## About Opportunity Management
 
-1.  Enable customers to view the roll-up amount in the Kanban View.
-2.  Enable sales representatives to customize bundled products and products with complex characteristics in the product catalog.
+-   Evaluate an opportunity's total worth with integrated pricing that computes the combined prices of each product offering, helping teams strategize resource and budget allocation for deals.
+-   Focus your sales team on deals with the highest financial impact by analyzing the potential revenue of each opportunity.
+-   Customize offers that meet customer needs while maintaining profitability, using real-time pricing insights during negotiation.
+-   Generate an AI summary for an opportunity to get information from emails, touchpoints, deal stage, and line items without opening every related record.
+-   Review AI-generated win probability scores and contextual insights to assess deal health, prioritize pipeline opportunities, and identify risks.
+-   Ask questions and issue commands to work on an opportunity in plain language using an MCP client and ServiceNow Otto.
 
 See [Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/opportunity-management.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Opportunity Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Opportunity Management by requesting it from ServiceNow Store.
+    Install Opportunity Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
 
-## May 2025
+## Version 14.1.0
 
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   ****
-
-    Enables the sales representatives to customize the complex product offerings by using the product configurator. This ensures that the sales representatives identify and share the detailed requirements and price to the customer much earlier in the cycle.
-
--   **[Revise existing opportunities after an upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/revise-existing-opportunities-post-upgrade.md)**
-
-    Enable the sales representatives to use the scheduled job to modify older opportunities to incorporate the functionality of supporting parent-child opportunity line items.
-
-
-## Yokohama Early Availability
-
-The ServiceNow® Opportunity Management application enables your sales agents and account executives to create and manage opportunities that identify and track the potential sales for your customers. Opportunity Management was enhanced and updated in the Yokohama release.
+The September 2026 release includes ServiceNow Otto support for better user experience.
 
 ### What's new
 
--   **[View the roll-up amount in the Opportunity Kanban View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/opportunity-management-kanban-view.md)**
+-   **ServiceNow Otto support on Opportunity Management**
 
-    Enables customers to view the roll-up amount that is automatically calculated in the base currency for all opportunity stages in the Kanban View.
+    Retrieve, update, and create opportunity records and related CRM data from ServiceNow Otto using natural language.
 
 

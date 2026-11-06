@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_CustomerServiceSatisfactionSurvey.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Close a customer service case, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Close a customer service case, Manage cases, Use, Customer Service Management]
 ---
 
 # Customer service satisfaction surveys

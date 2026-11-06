@@ -7,8 +7,8 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -56,7 +56,7 @@ For information about configuring a review subflow, see [Setting up the Catalog 
 
     -   To edit an item in the **In review** state, you must cancel the review. After you cancel the review, the state of the item is reverted to **Draft**.
     -   To view the conversational details of the catalog item, select **View conversational details**.
-    To edit an item in the **In review** state, you must cancel the review. After you cancel the review, the state of the item is reverted to **Draft**.
+    To edit an item in the **In review** state, you must cancel the review. After you cancel the review, the state if the item is reverted to **Draft**.
 
 4.  Make the required changes and select **Save**.
 
@@ -69,6 +69,14 @@ For information about configuring a review subflow, see [Setting up the Catalog 
 
 -   **[Add advanced capabilities to a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/add-advanced-capabilities.md)**  
 Add advanced capabilities, such as catalog client scripts, data lookup rules, and advanced reference qualifiers to a catalog item.
+-   **[Create UI policies in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-ui-policies-in-catalog-builder.md)**  
+Configure catalog UI policies with scripts and multiple catalog UI policy actions in Catalog Builder to facilitate the creation of complex catalog items.
+-   **[UI policy form in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/ui-policy-form-in-catalog-builder.md)**  
+Refer to the fields and their descriptions on the UI Policy form in Catalog Builder.
+-   **[Create client script in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-client-scripts-in-catalog-builder.md)**  
+You can create client scripts to customize the catalog item, such as to control the behavior of the catalog items after they're published.
+-   **[Catalog client script form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/client-script-form.md)**  
+Use client-side scripts to define dynamic behavior or validations on this catalog item.
 -   **[Discard a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/discard-a-catalog-item.md)**  
 Discard a catalog item that’s in the Draft state in Catalog Builder.
 
@@ -77,5 +85,5 @@ Discard a catalog item that’s in the Draft state in Catalog Builder.
 **Related topics**  
 
 
-[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/view-conversational-dashboard.md)
+[View the conversational catalog overview dashboard using Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)
 

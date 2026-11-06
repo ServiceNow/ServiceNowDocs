@@ -1,5 +1,5 @@
 ---
-title: Set up alert notifications in channels
+title: Set up Health Log Analytics alert notifications in channels
 description: Set up notifications for new Health Log Analytics anomaly alerts in either a Slack or Microsoft Teams channel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-notifications-in-channel.html
@@ -7,20 +7,20 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Alert notification in Slack or Microsoft Teams channels, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Receive alert notification in Slack or Microsoft Teams channels, Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Set up alert notifications in channels
+# Set up Health Log Analytics alert notifications in channels
 
 Set up notifications for new Health Log Analytics anomaly alerts in either a Slack or Microsoft Teams channel.
 
 ## Before you begin
 
-Starting with Version 33.0.27 - August 2024, Health Log Analytics uses the Microsoft Teams Graph spoke application to send notifications for new anomaly alerts. The new application replaces the Microsoft Teams spoke plugin, which will be deprecated. If you're using an HLA version earlier than 33.0.27, follow the setup procedure below. Otherwise, refer to [Set up alert notifications in a Microsoft Teams channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-notifications-in-ms-teams.md).
+Starting with Version 33.0.27 - August 2024, Health Log Analytics uses the Microsoft Teams Graph spoke application to send notifications for new anomaly alerts. The new application replaces the Microsoft Teams spoke plugin, which will be deprecated. If you're using an HLA version earlier than 33.0.27, follow the setup procedure below. Otherwise, refer to [Set up Health Log Analytics alert notifications in a Microsoft Teams channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-notifications-in-ms-teams.md).
 
-**Note:** If you upgrade from an earlier version to Version 33.0.27 - August 2024 or later, redo the setup using the procedure in [Set up alert notifications in a Microsoft Teams channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-notifications-in-ms-teams.md).
+**Note:** If you upgrade from an earlier version to Version 33.0.27 - August 2024 or later, redo the setup using the procedure in [Set up Health Log Analytics alert notifications in a Microsoft Teams channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-notifications-in-ms-teams.md).
 
 For alert notifications in Slack channels, verify that the plugin Slack Webhooks Spoke for ServiceNow Integration Hub \(com.sn.slack.ah\) is installed:
 
@@ -102,5 +102,5 @@ The service instance associated with the alert.If this field is empty, the syste
     4.  Select **Update**.
 
 
-**Parent Topic:**[Alert notification in Slack or Microsoft Teams channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-alert-notification-in-channel.md)
+**Parent Topic:**[Health Log Analytics alert notification in Slack or Microsoft Teams channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-alert-notification-in-channel.md)
 

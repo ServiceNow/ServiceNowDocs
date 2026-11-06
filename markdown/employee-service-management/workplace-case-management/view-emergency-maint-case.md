@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -35,9 +35,9 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 
     When an emergency maintenance request is submitted, a workplace case is created. For more information about the emergency maintenance request, see [Submit an emergency maintenance request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/submit-emergency-maint-request.md).
 
-    The change event request workplace case is automatically assigned to the Workplace Event Planner assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. When it is assigned to a Workplace Event Planner, AI agentic workflow Manage temporary space closures is triggered. AI agents block a location for maintenance and move any impacted reservations from the blocked location to an available new location. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+    The change event request workplace case is automatically assigned to the Workplace Event Planner assignment group. It is then assigned manually to a user in the Workplace Event Planners assignment group. When it is assigned to a Workplace Event Planner, AI agentic workflow Manage temporary space closures is triggered. AI agents block a location for maintenance and move any impacted reservations from the blocked location to an available new location. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
-    Event planners can review the notifications sent by AI agents in the Now Assist panel. AI agents notifies Workplace Event Planners about actions taken through case resolution and case summarization notes in the conversational interface. For more information, see [Review notifications in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
+    Event planners can review the notifications sent by AI agents in the Now Assist panel. AI agents notifies Workplace Event Planners about actions taken through case resolution and case summarization notes in the conversational interface. For more information, see [Review notifications in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/agentic-workflow-notifications-nowassist.md).
 
     The team of AI agents also update the case work notes.
 
@@ -62,8 +62,6 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 
         Verify the workplace reservation services that are moved from the canceled reservation location to the new reservation location.
 
-        \[Omitted image "wsd-new-extra-services-added-agenticai.png"\] Alt text: Selected reservation showing the moved workplace services in the Requested Service Items tab.
-
     -   From the Related List, select the **Invitees** tab.
 
         Verify the invitees that are moved to the selected or moved reservation location.
@@ -71,10 +69,8 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
     -   Navigate to the Reservation summary page to verify the canceled reservation and the updated reservation with a new location.
 5.  An email notification is triggered and sent to workplace reservation administrators and event planners for the updated reservation location.
 
-    \[Omitted image "wsd-email-notification.png"\] Alt text: Email notification after the reservation location is updated.
 
-
-**Parent Topic:**[Manage Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/manage-workplace-cases.md)
+**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/manage-workplace-cases.md)
 
 **Related topics**  
 
@@ -82,4 +78,8 @@ Role required: sn\_wsd\_rsv.reservation\_planner, sn\_wsd\_case.case\_writer
 [View and track workplace cases]()
 
 [View change event reservation case details]()
+
+[Print workplace cases]()
+
+[Managing print cases]()
 

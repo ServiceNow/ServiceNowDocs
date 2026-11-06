@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-01-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GCP, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

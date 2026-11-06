@@ -1,32 +1,74 @@
 ---
-title: Create new value stream stage form
+title: Create value stream stage form
 description: Add a value stream stage to identify and map each activity associated with that stage of the overall value stream.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-new-value-stream-stage-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new value stream stage form
+# Create value stream stage form
 
 Add a value stream stage to identify and map each activity associated with that stage of the overall value stream.
 
-|Field|Description|
-|-----|-----------|
-|Name|The name of the stage.|
-|Order|The order in which this stage appears within the overall value stream.|
-|Description|A brief description of the value stream stage.|
-|Value stream|The name of the value stream with which the value stream stage is associated.|
+<table id="table_mss_mdj_ybc"><thead><tr><th>
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+The name of the stage.
+
+</td></tr><tr><td>
+
+Value stream
+
+</td><td>
+
+The name of the value stream with which the value stream stage is associated.
+
+</td></tr><tr><td>
+
+Display name
+
+</td><td>
+
+This field is read-only.The display name of the value stream stage that is automatically generated from the value stream name and the value stream stage name after the record is saved. This field is read-only.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+The order in which this stage appears within the overall value stream.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+A brief description of the value stream stage.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
+[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
 
 [Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
 

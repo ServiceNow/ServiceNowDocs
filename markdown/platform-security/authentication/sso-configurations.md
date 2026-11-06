@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Multi-Provider SSO configurations
@@ -18,7 +18,7 @@ You must perform several steps to set up Multi-Provider SSO, including configuri
 
 Refer the following topics to know more about each of the configurations.
 
--   [Multi-Provider SSO \(SAML\) IdP authentication flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/idpauthflow.md)
+-   [Multi-provider SSO \(SAML\) IdP authentication flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/idpauthflow.md)
 -   [Configure Multi-Provider SSO properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_ConfigureMultiProviderSSOProps.md)
 -   [Create an external identity provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_CreateUpdateIdentityProvider.md)
 -   [Configure users for Multi-Provider SSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_ConfigureUsersMultiProviderSSO.md)

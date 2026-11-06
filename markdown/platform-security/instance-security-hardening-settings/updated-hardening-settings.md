@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 43
+last_updated: "2026-09-10"
+reading_time_minutes: 40
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
 
@@ -35,7 +35,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enforce certificate trust \[Updated in Security Center 1.3 and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-certificate-trust.md)
+[Enforce certificate trust \[Updated in Security Center 1.3, removed in 2.0, added in 7.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-certificate-trust.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Maximize reset password SMS complexity \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-complexity.md)
+[Maximize reset password SMS complexity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-complexity.md)
 
 </td><td>
 
@@ -53,7 +53,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enable High Security Plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md)
+[Enable High Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Enforce strict security of session cookies \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-secure-session-cookies.md)
+[Enforce strict security of session cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-secure-session-cookies.md)
 
 </td><td>
 
@@ -71,7 +71,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Do not use demo certificates for active saml configurations \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-do-not-use-demo-certificates-active-saml-configurations-plugin.md)
+[Do not use demo certificates for active SAML configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-do-not-use-demo-certificates-active-saml-configurations-plugin.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)
+[Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)
 
 </td><td>
 
@@ -97,7 +97,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require obfuscation of mobile app UI \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-mobile-app-ui-obfuscation.md)
+[Require obfuscation of mobile app UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-mobile-app-ui-obfuscation.md)
 
 </td><td>
 
@@ -124,7 +124,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Set Xframe options to prevent embedding third-party websites \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xframe-options.md)
+[Set Xframe options to prevent embedding third-party websites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xframe-options.md)
 
 </td><td>
 
@@ -154,7 +154,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Deny by default with empty ACLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)
+[Deny by default with empty ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)
 
 </td><td>
 
@@ -165,7 +165,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Maximize reset password request retry window duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-retry-window.md)
+[Maximize reset password request retry window duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-retry-window.md)
 
 </td><td>
 
@@ -174,7 +174,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require Authorization for XSD Requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xsd-request-authorization.md)
+[Require Authorization for XSD Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xsd-request-authorization.md)
 
 </td><td>
 
@@ -186,7 +186,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Escape jelly script \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
+[Escape jelly script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-jelly.md)
 
 </td><td>
 
@@ -195,7 +195,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Double check inbound transactions \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.md)
+[Double check inbound transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-double-check-inbound-transactions.md)
 
 </td><td>
 
@@ -214,7 +214,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for pdf requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authorization-for-pdf-requests.md)
+[Require authorization for PDF requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authorization-for-pdf-requests.md)
 
 </td><td>
 
@@ -226,7 +226,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict uploaded MIME types \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-upload-mime-type-restriction.md)
+[Restrict uploaded MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-upload-mime-type-restriction.md)
 
 </td><td>
 
@@ -236,7 +236,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable legacy JQuery behavior \[Updated in Securty Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-legacy-jquery-behavior.md)
+[Disable legacy JQuery behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-legacy-jquery-behavior.md)
 
 </td><td>
 
@@ -245,7 +245,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Maximize reset password request unlock window duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-unlock-window.md)
+[Maximize reset password request unlock window duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-unlock-window.md)
 
 </td><td>
 
@@ -254,7 +254,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable MultiSSO Debugging \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
+[Disable Multi-SSO debugging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-multisso-debugging.md)
 
 </td><td>
 
@@ -264,7 +264,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce production instance behavior \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-production-instance-behavior.md)
+[Enforce production instance behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-production-instance-behavior.md)
 
 </td><td>
 
@@ -273,7 +273,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Limit Invalid Password Reset Attempts \[Updated in Security Center 1.3 and updated in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts.md)
+[Limit Invalid Password Reset Attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts.md)
 
 </td><td>
 
@@ -282,7 +282,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for csv requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)
+[Require authorization for csv requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authorization-for-csv-requests.md)
 
 </td><td>
 
@@ -294,7 +294,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize reset password request success window duration \[Updated in Securty Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-success-window.md)
+[Minimize reset password request success window duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-success-window.md)
 
 </td><td>
 
@@ -303,7 +303,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce SOAP request strict security \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.md)
+[Enforce SOAP request strict security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-strict-security.md)
 
 </td><td>
 
@@ -312,7 +312,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for SOAP requests \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
+[Require authorization for SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.md)
 
 </td><td>
 
@@ -326,7 +326,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require XMLdoc2 entity validation with allowlistDisable entity expansion \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md)
+[Require XMLdoc2 entity validation with allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md)
 
 </td><td>
 
@@ -335,7 +335,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Apply domain separation on dot walked fields \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-apply-domain-separation.md)
+[Apply domain separation on dot walked fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-apply-domain-separation.md)
 
 </td><td>
 
@@ -349,7 +349,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict JSONP requests to trusted URLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-jsonp-request-inclusion-list.md)
+[Restrict JSONP requests to trusted URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.md)
 
 </td><td>
 
@@ -360,7 +360,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize reset password max SMS per day \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-max-sms-per-day.md)
+[Minimize reset password max SMS per day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-max-sms-per-day.md)
 
 </td><td>
 
@@ -369,7 +369,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Maximize reset password verification delay duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-verification-delay.md)
+[Maximize reset password verification delay duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-verification-delay.md)
 
 </td><td>
 
@@ -380,7 +380,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for data broker rest API \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)
+[Require authorization for data broker rest API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-data-broker-rest-api-authorization.md)
 
 </td><td>
 
@@ -394,7 +394,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for JSONv2 request \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-jsonv2-request-authorization.md)
+[Require authorization for JSONv2 request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-jsonv2-request-authorization.md)
 
 </td><td>
 
@@ -406,7 +406,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable JavaScript tags in embedded HTML \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.md)
+[Disable JavaScript tags in embedded HTML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-allow-javascript-tags-in-embedded-html.md)
 
 </td><td>
 
@@ -418,7 +418,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable security jump start plugin \(ACL Rules\) \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md)
+[Enable security jump start plugin \(ACL Rules\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-jump-start-plugin-acl-rules.md)
 
 </td><td>
 
@@ -427,7 +427,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Set guest user for soap requests \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-set-guest-user-for-soap-requests.md)
+[Set guest user for soap requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-set-guest-user-for-soap-requests.md)
 
 </td><td>
 
@@ -436,16 +436,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.md)
-
-</td><td>
-
--   New short description: Enforce Client Generated Scripts Sandbox
--   Old short description: Client Generated Scripts Sandbox
-
-</td></tr><tr><td>
-
-[Restrict XML external entities \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md)
+[Restrict XML external entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md)
 
 </td><td>
 
@@ -454,7 +445,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable ACLs to Control Live Profile Details \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-acls-to-control-live-profile-details.md)
+[Enable ACLs to Control Live Profile Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-acls-to-control-live-profile-details.md)
 
 </td><td>
 
@@ -492,7 +483,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Define allowed ServiceNow internal IP addresses \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
+[Reduce the scope of the IP allow List for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 
@@ -501,7 +492,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Validate SOAP content type \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-content-type-checking.md)
+[Validate SOAP content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-soap-content-type-checking.md)
 
 </td><td>
 
@@ -511,7 +502,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for excel requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-excel-request-authorization.md)
+[Require authorization for excel requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-excel-request-authorization.md)
 
 </td><td>
 
@@ -523,7 +514,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for API requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-request-authorization.md)
+[Require authorization for API requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-request-authorization.md)
 
 </td><td>
 
@@ -535,7 +526,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
+[Minimize entity expansion threshold for GlideXMLUtil scriptable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.md)
 
 </td><td>
 
@@ -573,7 +564,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable HTTP Only Cookie Flag \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.md)
+[Enable HTTP Only Cookie Flag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.md)
 
 </td><td>
 
@@ -583,7 +574,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable scoped admin application ACLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-administer-scoped-admin-application-acls.md)
+[Enable scoped admin application ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-administer-scoped-admin-application-acls.md)
 
 </td><td>
 
@@ -593,7 +584,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable UserCookie version 3.1 \[Updated in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-usercookie-version-3-1.md)
+[Enable UserCookie version 3.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-usercookie-version-3-1.md)
 
 </td><td>
 
@@ -602,7 +593,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for XML requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-request-authorization.md)
+[Require authorization for XML requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-request-authorization.md)
 
 </td><td>
 
@@ -614,7 +605,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize external user registration link expiration duration \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-link-expiration.md)
+[Minimize external user registration link expiration duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-link-expiration.md)
 
 </td><td>
 
@@ -632,7 +623,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize SMTP Recipient Quantity \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.md)
+[Minimize SMTP Recipient Quantity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-max-smtp-recipients.md)
 
 </td><td>
 
@@ -641,7 +632,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable updated version of MultiSSO plugin \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-updated-version-of-multi-sso-plugin-is-enabled.md)
+
 
 </td><td>
 
@@ -663,7 +654,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Escape XML markup \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-xml.md)
+[Escape XML markup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-xml.md)
 
 </td><td>
 
@@ -675,7 +666,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for RSS requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.md)
+[Require authorization for RSS requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-rss-request-authorization.md)
 
 </td><td>
 
@@ -687,7 +678,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Maximum allowed attachment size \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md)
+[Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md)
 
 </td><td>
 
@@ -696,7 +687,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce relative links \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.md)
+[Enforce relative links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-relative-links.md)
 
 </td><td>
 
@@ -705,7 +696,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable SMS code notification for enrollment and verification \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-sms-code-notification-for-enrollment-and-verification.md)
+[Enable SMS code notification for enrollment and verification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-sms-code-notification-for-enrollment-and-verification.md)
 
 </td><td>
 
@@ -749,7 +740,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for script requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-script-request-authorization.md)
+[Require authorization for script requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-script-request-authorization.md)
 
 </td><td>
 
@@ -761,7 +752,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Limit concurrent interactive sessions \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)
+[Minimize Concurrent Interactive Sessions with Limit Concurrent Sessions Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-glide-authenticate-limit-concurrent-interactive-sessions.md)
 
 </td><td>
 
@@ -783,7 +774,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize session activity timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-activity-timeout.md)
+[Minimize session activity timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-activity-timeout.md)
 
 </td><td>
 
@@ -801,7 +792,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict access to background script \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-access-to-background-script.md)
+[Restrict access to background script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-access-to-background-script.md)
 
 </td><td>
 
@@ -813,7 +804,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable embedded HTML code \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-allow-embedded-html-code.md)
+
 
 </td><td>
 
@@ -822,7 +813,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize absolute session timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
+[Minimize absolute session timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
 
 </td><td>
 
@@ -831,7 +822,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authentication by default for client-callable script includes \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.md)
+[Require authentication by default for client-callable script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-privacy-on-client-callable-script-includes.md)
 
 </td><td>
 
@@ -840,7 +831,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict access to GlideSystemUserSession scriptable API \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.md)
+[Restrict access to GlideSystemUserSession scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.md)
 
 </td><td>
 
@@ -849,7 +840,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enforce HTML Sanitization \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.md)
+[Enforce HTML sanitization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-check-unsanitized-html.md)
 
 </td><td>
 
@@ -859,7 +850,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize absolute session timeout duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
+[Minimize absolute session timeout duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-absolute-session-timeout.md)
 
 </td><td>
 
@@ -868,7 +859,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Activate role based multi-factor authentication \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-role-based-multi-factor-authentication.md)
+[Activate role based multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-role-based-multi-factor-authentication.md)
 
 </td><td>
 
@@ -887,7 +878,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
+[Restrict email domains for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
 
 </td><td>
 
@@ -898,7 +889,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Maximize reset password SMS pause window duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-pause-window.md)
+[Maximize reset password SMS pause window duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-pause-window.md)
 
 </td><td>
 
@@ -910,7 +901,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable outbound SSLv2/SSLv3 connections \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sslv2-sslv3.md)
+[Disable outbound SSLv2/SSLv3 connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sslv2-sslv3.md)
 
 </td><td>
 
@@ -919,7 +910,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for unload requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authorization-for-unload-requests.md)
+[Require authorization for unload requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-require-authorization-for-unload-requests.md)
 
 </td><td>
 
@@ -931,7 +922,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable email spam scoring and filtering \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md)
+[Enable email spam scoring and filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md)
 
 </td><td>
 
@@ -949,7 +940,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
+[Enable anti-CSRF token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-anti-csrf-token.md)
 
 </td><td>
 
@@ -958,7 +949,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require AJAXGlideRecord ACL checking \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md)
+[Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md)
 
 </td><td>
 
@@ -967,7 +958,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Log user impersonation \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-log-user-impersonation.md)
+[Log user impersonation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-log-user-impersonation.md)
 
 </td><td>
 
@@ -975,7 +966,7 @@ Rule Script: Script has been updated to improve detection accuracy.Script has be
 
 </td></tr><tr><td>
 
-[Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)
+[Disallow infected file download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)
 
 </td><td>
 
@@ -983,7 +974,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable Captcha for External User Registration \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
+[Enable CAPTCHA for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-captcha-external-user-registration.md)
 
 </td><td>
 
@@ -992,7 +983,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable SQL Error Messages \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md)
+[Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md)
 
 </td><td>
 
@@ -1001,7 +992,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize reset password request expiration duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-expiration.md)
+[Minimize reset password request expiration duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-expiration.md)
 
 </td><td>
 
@@ -1011,7 +1002,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Control Lockout Time for Invalid Password Reset Attempts \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.md)
+[Control lockout time for invalid password reset attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.md)
 
 </td><td>
 
@@ -1020,7 +1011,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict downloadable MIME types \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
+[Restrict downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
 
 </td><td>
 
@@ -1029,7 +1020,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Escape Excel Formulas \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)
+[Escape Excel formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)
 
 </td><td>
 
@@ -1038,7 +1029,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable contextual security plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-contextual-security-plugin.md)
+[Enable contextual security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-contextual-security-plugin.md)
 
 </td><td>
 
@@ -1047,7 +1038,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable account recovery \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-account-recovery.md)
+[Enable account recovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-account-recovery.md)
 
 </td><td>
 
@@ -1061,7 +1052,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for import requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-import-request-authorization.md)
+[Require authorization for import requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-import-request-authorization.md)
 
 </td><td>
 
@@ -1073,7 +1064,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable SNC access control plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md)
+[Enable SNC access control plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md)
 
 </td><td>
 
@@ -1082,7 +1073,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Limit concurrent sessions across all nodes \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-concurrent-sessions-across-all-nodes.md)
+[Limit concurrent sessions across all nodes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-concurrent-sessions-across-all-nodes.md)
 
 </td><td>
 
@@ -1091,7 +1082,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for XML output requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-output-authorization.md)
+[Require authorization for XML output requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-output-authorization.md)
 
 </td><td>
 
@@ -1103,7 +1094,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Escape scripts in scratchpad \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-scratchpad.md)
+[Escape scripts in scratchpad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-scratchpad.md)
 
 </td><td>
 
@@ -1114,7 +1105,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for WSDL request \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.md)
+[Require authorization for WSDL request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.md)
 
 </td><td>
 
@@ -1126,7 +1117,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Require authorization for SCHEMA requests \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-schema-request-authorization.md)
+[Require authorization for SCHEMA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-schema-request-authorization.md)
 
 </td><td>
 
@@ -1138,7 +1129,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict downloadable MIME types \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
+[Restrict downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
 
 </td><td>
 
@@ -1147,7 +1138,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable logger for low privilege users in script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-glide-security-logger-no-loggining-for-sandbox.md)
+[Disable logger for low privilege users in script sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-glide-security-logger-no-loggining-for-sandbox.md)
 
 </td><td>
 
@@ -1157,7 +1148,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Implement the x-frame-options: SAMEORIGIN security header \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
+[Implement the x-frame-options: SAMEORIGIN security header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
 
 </td><td>
 
@@ -1167,7 +1158,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Restrict performance monitoring access \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.md)
+[Restrict performance monitoring access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.md)
 
 </td><td>
 
@@ -1176,7 +1167,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Turn off verbose SQL error messages for import processor \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-turn-off-verbose-sql-error-messages-for-import-processor.md)
+[Turn off verbose SQL error messages for import processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-turn-off-verbose-sql-error-messages-for-import-processor.md)
 
 </td><td>
 
@@ -1184,7 +1175,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Minimize reset password SMS expiracy duration \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-expiracy.md)
+[Minimize reset password SMS expiry duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-sms-expiracy.md)
 
 </td><td>
 
@@ -1193,7 +1184,7 @@ Rule Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Disable creating users from incoming emails \[Updated in Securty Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-emails-by-domain.md)
+[Disable creating users from incoming emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-emails-by-domain.md)
 
 </td><td>
 

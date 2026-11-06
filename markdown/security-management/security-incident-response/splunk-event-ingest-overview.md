@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -62,7 +62,7 @@ This integration requires an installed and configured MID Server in your Service
 
 ## Integration architecture and systems connection
 
-For more information about the architecture of the integration including key terms and external systems connection details, see [Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md).
+For more information about the architecture of the integration including key terms and external systems connection details, see [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md).
 
 ## Checklist
 
@@ -75,10 +75,10 @@ The following topics are numbered. Follow the topics listed below in the order t
 1.  [Set up your ServiceNow AI Platform instance for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-setup-sn.md)  
 The following section lists the setup tasks that you are required to complete in your ServiceNow AI Platform® instance prior to installing the application from the ServiceNow Store.
 2.  [Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-install-and-configure.md)  
-Before you run the integration on your ServiceNow AI Platform® instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform® instance.
+Install and configure Splunk Enterprise security- Event Ingestion integration from the ServiceNow Store on your ServiceNow AI Platform instance.
 3.  [Create and name an event profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-create-profile.md)  
 Create an event profile in your ServiceNow AI Platform instance and determine which Splunk alerts create security incidents.
-4.  [Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)  
+4.  [Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)  
 The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 
 **Parent Topic:**[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir_integrations.md)

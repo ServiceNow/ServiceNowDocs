@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Create a shift plan
@@ -17,6 +17,8 @@ breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Sch
 Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 
@@ -42,15 +44,15 @@ In the **Shifts** tab, you can view the work shifts and on-call shifts in separa
 
 5.  Create a shift.
 
-<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d40054e180">
+<table id="choicetable_ynn_t3g_v4b"><thead><tr><th align="left" id="d41149e196">
 
 To
 
-</th><th align="left" id="d40054e183">
+</th><th align="left" id="d41149e199">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d40054e189">
+</th></tr></thead><tbody><tr><td id="d41149e205">
 
 **Create a work shift**
 
@@ -83,7 +85,7 @@ For example, you can set the earliest start time as 11:00, the latest end time a
         4.  Click **Save**.
 You can view the number of agents for each hour or day on the shift span window.
 
-</td></tr><tr><td id="d40054e307">
+</td></tr><tr><td id="d41149e323">
 
 **Create an on-call shift**
 

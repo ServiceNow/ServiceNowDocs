@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Know Your Customer \(KYC\)
 classification: financial-services-know-your-customer-kyc
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Know Your Customer
@@ -24,19 +24,19 @@ This application is automatically installed when you install any of the followin
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about the capabilities of Financial Services Know Your Customer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about the capabilities of Financial Services Know Your Customer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Set up Financial Services Know Your Customer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-configure.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Financial Services Know Your Customer.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-configure.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Create, manage, and complete KYC tasks to evaluate applicant information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/perform-due-diligence.md)
+[Use \[Omitted image "bus-service-aware.svg"\] Alt text: Create, manage, and complete KYC tasks to evaluate applicant information.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/perform-due-diligence.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components, such as roles and tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.md)
+[Reference \[Omitted image "bus-datasheet.svg"\] Alt text: Get details about components, such as roles and tables.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-know-your-customer-kyc/fso-kyc-installed-with.md)
 
 </td></tr></tbody>
 </table>

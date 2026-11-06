@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee tasks page
@@ -42,11 +42,11 @@ Ask a question is a widget that establishes a communication link between a user 
 
 For HR cases, define configuration under **Conversational Interfaces**.
 
-**Note:** For more information about **Conversational Interfaces**, see [Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/convint-landing-page.md) and Setting up Agent Chat.
+**Note:** For more information about **Conversational Interfaces**, see [Conversational Interfaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/convint-landing-page.md) and [Setting up Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ac-configure-agent-chat.md).
 
 If your company is not using Connect Support, you can choose to hide the **Ask a question** link. To hide the Ask a question link, go to **sys\_properties.list** and find the **sn\_hr\_sp.hr\_ask\_a\_question\_enabled** property. Default value is **true**. To hide the Ask a Question on HR cases and tasks on the Employee Center, change the setting to **false**. For HR tasks, when Agent Workspace is selected in the **Task support team** drop-down, Virtual Agent is used. If Users and groups is selected, Connect Support is used. For more information, see [Adding an HR task to an HR case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_ViewAnHRTask.md).
 
-Advanced Work Assignment To configure Advanced Work Assignment \(AWA\) for Agent Workspace, see [Advanced Work Assignment \(AWA\) for HR Service Delivery Agent Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/awa-hr-overview.md).
+Advanced Work Assignment To configure Advanced Work Assignment \(AWA\) for Agent Workspace, see [Advanced Work Assignment \(AWA\) for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-awa.md).
 
 ## Preconfigured filters
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Data Foundations data integration coverage, attribute coverage for principal classes, Discovery pattern coverage, Service Graph Connector coverage, supported principal classes and attributes, upgrade data integration source]
-breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Analyze data integrations, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Evaluate Data Foundations data integration coverage

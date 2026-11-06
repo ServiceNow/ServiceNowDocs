@@ -1,20 +1,20 @@
 ---
 title: Create a Knowledge Graph schema
-description: Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and Now Assist Panel.
+description: Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto Panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/knowledge-graph/creating-a-new-knowledge-graph-schema.html
 release: yokohama
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Create a Knowledge Graph schema
 
-Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and Now Assist Panel.
+Create customized Knowledge Graph schema that will be used by Virtual Agent, AI Agents and ServiceNow Otto Panel.
 
 ## Before you begin
 
@@ -61,11 +61,22 @@ Role required: kg\_admin
     -   Node description
     \[Omitted image "edit-node-details.png"\] Alt text: Node details.
 
-8.  In the Columns that can be queried section, search for and select the desired columns and select **Save**.
+8.  In the **Table filters** section, view and add filters to set rules that control which records are shown in query results.
+
+    To add table filters, provide the following information:
+
+    -   Field
+    -   Operator
+    -   Value
+    -   Add Condition set: optional field to add an alternative filter condition.
+    -   Apply filters to child tables: optional check box to add the same filter conditions for the child table of the selected table in the graph.
+    \[Omitted image "table-filters.png"\] Alt text: Table filters
+
+9.  In the Columns that can be queried section, search for and select the desired columns and select **Save**.
 
     \[Omitted image "columns-that-can-be-queried.png"\] Alt text: Columns that can be queried.
 
-9.  Add, delete, or edit edges in the Related nodes section and select **Save**.
+10. Add, delete, or edit edges in the Related nodes section and select **Save**.
 
     \[Omitted image "related-nodes.png"\] Alt text: Related nodes.
 

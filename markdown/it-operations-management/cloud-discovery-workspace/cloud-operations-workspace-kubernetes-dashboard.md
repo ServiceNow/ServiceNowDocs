@@ -7,14 +7,16 @@ release: yokohama
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---
 
 # Kubernetes Explorer
 
 Use the ServiceNow® Kubernetes Explorer to drill-down and view the Kubernetes environments and resources of your organization.
+
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 \[Omitted image "cow-kubernetes-explorer.gif"\] Alt text: Cloud Resources Explorer.
 
@@ -34,6 +36,8 @@ The sn\_cloud\_ops\_ws.cloud\_ops\_admin role is required to view the Kubernetes
 ## Access the Kubernetes Explorer
 
 To open the dashboard, navigate to **All** &gt; **Cloud Discovery Workspace** &gt; **Kubernetes Explorer**.
+
+**Important:** Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported. Discovery Admin Workspace provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Use cases
 

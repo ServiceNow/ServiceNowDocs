@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ You can generate a Certificate Signing Request \(CSR\) on the instance by provid
 
 Creating a CSR manually can be a cumbersome and error-prone process. Automatic CSR generation can be enabled on the **Request New Certificate** and **Request New Ceriticate \(Automated\)** forms. This feature is disabled by default for security.
 
-To enable automatic CSR generation, set the system property **sn\_disco\_certmgmt.enable\_csr\_generation** to true. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryProperties.md) for more information.
+To enable automatic CSR generation, set the system property **sn\_disco\_certmgmt.enable\_csr\_generation** to true. This property also controls whether the PKCS12 certificate format is available, because a PKCS\#12 key store requires a private key that is generated with the CSR. See [Discovery properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryProperties.md) for more information.
 
 Once enabled, a **Want to generate CSR?** checkbox is displayed in the certificate request form. Selecting the checkbox enables the required input fields to generate the CSR. Provide the necessary information and select **Generate**. The input data is validated and the CSR is formated accordingly.
 

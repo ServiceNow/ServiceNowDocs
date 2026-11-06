@@ -7,9 +7,9 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2025-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore Opportunity Marketplace \(OPM\), Opportunity Marketplace, Talent Development, Employee Service Management]
+breadcrumb: [Explore, Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Opportunity publishing approval

@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Understanding the Monitoring Technology Dashboard
@@ -27,4 +27,23 @@ To view the dashboard, navigate to **All** &gt; **AIOps Dashboards** &gt; **Moni
 Select the arrow next to the dashboard name to enabled choosing a different dashboard to view:
 
 \[Omitted image "monitoring-tech-db-linuxlabel.png"\] Alt text: Arrow next to name of dashboard, with list of dashboards to choose
+
+-   **[Monitoring Technology Dashboard for Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-linux.md)**  
+With the Linux Monitoring Technology Dashboard, you can monitor the health and performance of your Linux infrastructure. The dashboard enables you to identify the CIs and servers in your system with the highest resource consumption, and also the most recent active alerts.
+-   **[Monitoring Technology Dashboard for Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-windows.md)**  
+With the Windows Monitoring Technology Dashboard, you can monitor the health and performance of your Windows infrastructure. The dashboard enables you to identify the CIs and servers in your system with the highest resource consumption, and also the most recent active alerts.
+-   **[Monitoring Technology Dashboard for HTTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-http.md)**  
+With the HTTP Monitoring Technology Dashboard you can monitor the response time of your `http` and `https` URLs. By using the dashboard, you can identify the URLs with the highest metric readouts in your system's infrastructure, and view the most recent active alerts on those URLs.
+-   **[Monitoring Technology Dashboard for Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-azure.md)**  
+With the Azure Monitoring Technology Dashboard, you can monitor the health and performance of your Azure infrastructure. By using the dashboard, you can identify the configuration items \(CIs\) and servers with the highest metric readouts, and view the most recent active alerts on those CIs.
+-   **[Monitoring Technology Dashboard for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-aws.md)**  
+With the AWS Monitoring Technology Dashboard, you can monitor the health and performance of your AWS infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
+-   **[Monitoring Technology Dashboard for GCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-gcp.md)**  
+With the GCP Monitoring Technology Dashboard, you can monitor the health and performance of your GCP infrastructure. Identify the configuration items \(CIs\) and servers with the highest metric readouts. View the most recent active alerts on those CIs and servers.
+-   **[Monitoring Technology Dashboard for VMware vSphere](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/monitor-tech-dashboard-vsphere.md)**  
+With the VMware vSphere Monitoring Technology Dashboard, you can monitor the health and performance of your VMware vSphere infrastructure. You can identify the CIs and servers with the highest metric readouts. You can also view the most recent active alerts on those CIs and servers.
+-   **[Customize the Monitoring Technology Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/customize-dashboard-widgets.md)**  
+Customize the Monitoring Technology Dashboard widgets in the Data Visualizations library so your dashboard displays information exactly as you want to see it.
+
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Working with automation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add an automated playbook to an app in Creator Studio
@@ -40,7 +40,7 @@ To add a playbook, you must be given permission to work on the app.
 
     -   If the form is still in draft, a message pops up telling you that you must publish the form first. Check out [Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-publish-form.md) for more information.
     -   You can select only published forms to run the playbook. If you published a form and then edit it, you can’t use the version that's being edited in a condition for a playbook, for example as a trigger for the automation. However, you can use the published version of the form or publish the version that you’re editing, which makes its question answers available to use in playbook conditions.
-    -   The table for the form you choose is the app’s underlying table, which is specified when the app is created. However, your admin can change the table, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for details. If you get a message that playbook creation is unavailable, contact your admin to verify the table for the app.
+    -   The table for the form you choose is the app’s associated table, which is specified when the app is created. However, your admin can change the table, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for details. If you get a message that playbook creation is unavailable, contact your admin to verify the table for the app.
     \[Omitted image "crs-automation-add-nav.png"\] Alt text: Select + Add automation in the navigation panel
 
 4.  Specify the playbook's General attributes in the Create playbook modal.

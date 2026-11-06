@@ -7,8 +7,8 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-04-18"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Security monitoring console, Security Center, Platform Security]
 ---
 
@@ -28,7 +28,7 @@ Select the **+Create task** button to create a Security Task related to a metric
 
 ## My metrics dashboard
 
-This is a customizable dashboard that displays information about metrics you care about most. Select **Edit** to customize your dashboard by adding visualizations, filters, headings, images, rich text, and lists. To learn about the various ways you can customize your dashboard, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-dashboards.md).
+This is a customizable dashboard that displays information about metrics you care about most. Select **Edit** to customize your dashboard by adding visualizations, filters, headings, images, rich text, and lists. To learn about the various ways you can customize your dashboard, see .
 
 ## Metrics navigation pane
 
@@ -50,6 +50,8 @@ View the trend line of the active users on the ServiceNow AI Platform.
 Use authentication policies to evaluate authentication requests and deny or allow access to your instance based on the specified policy conditions.
 -   **[Antivirus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/antivirus.md)**  
 Displays the trend of when events occur on potentially infected files. See when they are discovered, placed into quarantine, restored, or deleted.
+-   **[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sc-metrics-authentication.md)**  
+View trends for metrics related to authentication schemes, such as Multi-Factor Authentication\(MFA\) use, web service accounts, and biometric scanner usage.
 -   **[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/data-classification-security-metrics.md)**  
 Access the Security Metrics for data classification on your ServiceNow instance.
 -   **[Authentication metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/authentication.md)**  

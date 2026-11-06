@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Using AI Agents with ServiceNow Otto for Employee Experience
@@ -46,13 +46,5 @@ To run the AI agents autonomously, you must first duplicate the use case, and th
 -   Activate all agents within the use case.
 -   Activate the trigger to invoke the use case automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
-
--   **[Company News &amp; Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/check-company-newsevent-ai-agent-for-emp-exp.md)**  
-Use this agent to enable users to check their company-related latest news and upcoming events.
-
-**Parent Topic:**[ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/now-assisit-employee-exp.md)
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 

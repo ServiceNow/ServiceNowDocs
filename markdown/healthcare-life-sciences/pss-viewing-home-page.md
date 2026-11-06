@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-viewing-home-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enrollment requests in Workspace, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Manage enrollment requests, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Viewing the landing page for enrollment cases in Workspace
@@ -40,7 +40,7 @@ As a care coordinator, you can perform the following tasks from the landing page
 
 ## Viewing data
 
-The Workspace landing page for enrollment cases is same as the landing page of Workspace for any healthcare-related cases including cases created for addressing enrollment requests. For more information, see [Viewing the landing page for healthcare-related cases in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md).
+The Workspace landing page for enrollment cases is same as the landing page of Workspace for any healthcare-related cases including cases created for addressing enrollment requests. For more information, see [View the landing page for healthcare-related cases in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.md).
 
 **Note:** Your administrator can customize the landing page for Workspace and change the data that appears on it.
 

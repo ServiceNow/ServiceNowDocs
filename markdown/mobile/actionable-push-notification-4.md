@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/actionable-push-notification-4.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure actionable push notifications, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configure actionable push notifications, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Map functions with push actions on the actionable push notification
@@ -37,7 +37,9 @@ Role required: admin
 
     If your push action receives a value from your user, you need to configure a push parameter to pass this value to your record. For example, if you create a reject action that requires your user to enter a reason for the rejection, the action must have a parameter to pass that text value to your approval record.
 
-    1.  Verify that your push action requires a parameter. In the push action instance form, click the preview icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Preview icon\) next to the **Push action** field. If the push action has a value of `Text Response` in the **Response type** field, you must create a push parameter.
+    1.  Verify that your push action requires a parameter.
+
+        In the push action instance form, click the preview icon \(\[Omitted image "gac-info-icon.png"\] Alt text: Preview icon\) next to the **Push action** field. If the push action has a value of `Text Response` in the **Response type** field, you must create a push parameter.
 
         \[Omitted image "action-response-type.png"\] Alt text: Push action with a response type of text response
 
@@ -47,13 +49,17 @@ Role required: admin
 
         \[Omitted image "open-function-record.png"\] Alt text: Open record button on the function pop up
 
-    4.  In the function form, note the parameter that appears in the **UI Parameters** related list at the bottom on the form. You will need this value in later steps.
+    4.  In the function form, note the parameter that appears in the **UI Parameters** related list at the bottom on the form.
+
+        You will need this value in later steps.
 
     5.  Click the back button to return to the push action instance form.
 
     6.  In the **Push Parameter Values** related list, click **New**.
 
-    7.  In the push parameter value form, select your parameter in the **Parameter** field. This is the parameter you noted from the function form in step d.
+    7.  In the push parameter value form, select your parameter in the **Parameter** field.
+
+        This is the parameter you noted from the function form in step d.
 
     8.  Click **Submit** to save your push parameter value.
 

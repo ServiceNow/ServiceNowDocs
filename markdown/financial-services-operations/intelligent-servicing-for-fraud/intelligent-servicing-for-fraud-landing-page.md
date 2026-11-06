@@ -7,9 +7,10 @@ release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using banking applications, Financial Services Operations \(FSO\)]
+keywords: [intelligent servicing for fraud, fraud case management, create fraud cases, fraud alerts, suspicious fraud alerts, alert detection system, fraud reported by customer, fraud analytics and reporting, fraud dashboard, process optimization for fraud]
+breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Intelligent Servicing for Fraud
@@ -18,7 +19,7 @@ With ServiceNow® Intelligent Servicing for Fraud, you can create cases for susp
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Get started
 
@@ -28,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/intelligent-servicing-for-fraud/configuring-intelligent-servicing-for-fraud.md)
+[Configure \[Omitted image "bus-optimize-manage.svg"\] Alt text: Configure environments, tools, and user access.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/intelligent-servicing-for-fraud/configuring-intelligent-servicing-for-fraud.md)
 
 </td><td>
 
@@ -36,11 +37,11 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-[Analytics and reporting \[Omitted image "bus-improve-it-costs.svg"\] Alt text: Coordinate work and improve processes with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/intelligent-servicing-for-fraud/intelligent-servicing-for-fraud-dashboard.md)
+[Analytics and reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Coordinate work and improve processes with a preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/intelligent-servicing-for-fraud/intelligent-servicing-for-fraud-dashboard.md)
 
 </td><td>
 
-[Process Mining \[Omitted image "bus-optimize-manage.svg"\] Alt text: Visualize the process and identify the improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-process-optz-content-pack.md)
+[Process Mining \[Omitted image "bus-project.svg"\] Alt text: Visualize the process and identify the improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-process-optz-content-pack.md)
 
 </td><td>
 

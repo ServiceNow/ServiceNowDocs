@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate Case and Knowledge Management
@@ -66,8 +66,10 @@ Provides HR Integrations.
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 
--   **[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)**  
-Several types of components install with the activation of the Case and Knowledge Management plugin, including tables, user roles, and scheduled jobs.
+**Parent Topic:**[Configuring Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configuring-ckm.md)
 
-**Parent Topic:**[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
+**Related topics**  
+
+
+[Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md)
 

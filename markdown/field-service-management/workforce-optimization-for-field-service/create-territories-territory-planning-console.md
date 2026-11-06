@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Field Service Territory Planning, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
 
 # Create a Field Service territory
@@ -66,7 +66,7 @@ Parent
 
 </td><td>
 
-Name of the parent location for the territory to create a territory hierarchy.If no parent territory is specified, this territory will serve as the highest-level \(parent\) territory.
+Name of the parent location for the territory to create a territory hierarchy. If no parent territory is specified, this territory will serve as the highest-level \(parent\) territory.
 
 **Note:** Territory manager can only create child territories for their territories.
 
@@ -101,6 +101,30 @@ Assignment Territory
 </td><td>
 
 Select the check box to convert the territory into an assignment territory, allowing you to add assignment groups and field service agents to it.**Note:** An inactive assignment territory is not eligible for scheduling and does not appear in the Dispatcher Workspace.
+
+</td></tr><tr><td>
+
+Aggregated agent schedule cut off
+
+</td><td>
+
+The number of days until which the agent schedule details are available, and the aggregated agent schedule is used for task assignments when capacity is defined by aggregated agent schedule. Beyond the cut-off days, the base defined capacity is utilized for capacity management and task assignments.**Note:**
+
+-   This field is available only for assignment territory.
+
+-   The **Aggregated Agent Schedule** doesn’t apply on the day when capacity is defined \(Day 0\). It always applies from the following day \(Day 1\) after the capacity is defined until the cut-off day or date.
+
+</td></tr><tr><td>
+
+Aggregated agent schedule cutoff date
+
+</td><td>
+
+The date until which the agent schedule details are available, and the aggregated agent schedule is used for task assignments when capacity is defined by aggregated agent schedule. Beyond the cut-off date, the base defined capacity is utilized for capacity management and task assignments.**Note:**
+
+-   This field is available only for assignment territory.
+-   If both aggregated agent schedule cut off days and date is specified, only the aggregated agent schedule cutoff date is considered for capacity allocation and task assignments.
+
 
 </td></tr><tr><td>
 

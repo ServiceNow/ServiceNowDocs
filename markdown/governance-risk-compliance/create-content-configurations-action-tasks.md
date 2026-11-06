@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-content-configurations-action-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Set up the content configurations in the Template Configurations module to defin
 
 ## Before you begin
 
-Role required: sn\_oper\_res.admin
+Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## Procedure
 
@@ -119,4 +119,11 @@ To specify table or data that you want to insert in the content block as a table
 
     The Content configurations related list is displayed.
 
+
+**Related topics**  
+
+
+[Create reporting configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-reporting-configurations.md)
+
+[Download the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/download-manifest-file.md)
 

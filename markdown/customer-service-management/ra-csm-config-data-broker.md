@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-config-data-broker.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Configure force refresh for recommendations
@@ -88,15 +88,15 @@ Refreshes recommendations for all the active agent, when set to true. By default
 </td></tr></tbody>
 </table>7.  In the **When to trigger** drop-down, select one of the following.
 
-<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d75084e222">
+<table id="choicetable_eqc_b33_yfc"><thead><tr><th align="left" id="d88628e231">
 
 Option
 
-</th><th align="left" id="d75084e225">
+</th><th align="left" id="d88628e234">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d75084e231">
+</th></tr></thead><tbody><tr><td id="d88628e240">
 
 **Always**
 
@@ -104,7 +104,7 @@ Description
 
 Triggers the refresh every time there’s an update.
 
-</td></tr><tr><td id="d75084e240">
+</td></tr><tr><td id="d88628e249">
 
 **Conditional**
 

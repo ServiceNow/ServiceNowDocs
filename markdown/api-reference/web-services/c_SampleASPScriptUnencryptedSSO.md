@@ -1,24 +1,24 @@
 ---
 title: Sample ASP Script for unencrypted single sign-on
-description: This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
+description: This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/c\_SampleASPScriptUnencryptedSSO.html
 release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inbound web service examples, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Examples, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Sample ASP Script for unencrypted single sign-on
 
-This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
+This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
 
 This sample assumes:
 
--   The web server supports ASP .NET
+-   The web server supports ASP.NET
 -   The target instance is `https://<instance name>.service-now.com/`
 -   SiteMinder or another single sign-on application has pre-authenticated the user
 -   The target instance expects an HTTP header of SM\_USER

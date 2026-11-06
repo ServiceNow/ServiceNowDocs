@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software installation fields
@@ -70,7 +70,7 @@ Edition Override
 
 Override of the software edition setting.For Office 365 subscriptions, this field is set from the software subscriptions record.
 
- If the edition for the software was not discovered, you can edit this field to set the edition, if known, so reconciliation can be performed successfully.
+ If the edition for the software was not discovered, you can edit this field to set the edition if you know it, so that reconciliation can be performed successfully.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

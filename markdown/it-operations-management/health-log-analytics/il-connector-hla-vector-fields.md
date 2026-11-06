@@ -7,17 +7,17 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2026-01-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Vector Agent, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Vector Agent integration configuration fields
 
 Description of the fields on the Vector Agent integration configuration forms for Health Log Analytics.
 
-For the Vector Agent integration setup procedure, see [Set up a Vector Agent integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-vector.md).
+For the Vector Agent integration setup procedure, see [Set up a Vector Agent integration for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-vector.md) .
 
 <table id="table_ttp_1wb_c3c"><thead><tr><th>
 
@@ -54,7 +54,7 @@ Port
 
 </td><td>
 
-The port on the MID Server. This field is required.Choose a port within the range 6000-6200 from the array. The port must not be occupied by another process. Make sure that your organization’s security team opens the selected port on the MID Server.
+The port on the MID Server used for listening to logs. This field is required.**Important:** Enter a unique port that no other application on the MID Server uses. Ask your security team to confirm that traffic on that port is allowed.
 
 </td></tr><tr><td>
 
@@ -73,5 +73,5 @@ Description
 Option to add a brief description of the integration to help identify it.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

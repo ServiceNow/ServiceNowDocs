@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Approve or reject outside counsel engagement request, Engage with outside counsel, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Approve or reject outside counsel engagement request, Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Assign task created for filling Legal Tracker details
@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d615156e78">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d665139e78">
 
 Method
 
-</th><th align="left" id="d615156e81">
+</th><th align="left" id="d665139e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d615156e87">
+</th></tr></thead><tbody><tr><td id="d665139e87">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d615156e131">
+</td></tr><tr><td id="d665139e131">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  From the list, open an unassigned task.
 
 
-</td></tr><tr><td id="d615156e191">
+</td></tr><tr><td id="d665139e191">
 
 **Using platform view**
 

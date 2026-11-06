@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-lines-case-line-task-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case line record pages, Case lines and workflows, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case line record pages, Case Lines and Workflows, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case line task page

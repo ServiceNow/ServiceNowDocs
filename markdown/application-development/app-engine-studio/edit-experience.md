@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Editing an experience in App Engine Studio
@@ -18,7 +18,7 @@ Tailor your app's experience to suit your business needs by building interfaces 
 
 ## Editing workspaces in Workspace Builder
 
-Workspace Builder is a streamlined no-code tool that enables you to configure custom workspaces built in AES quickly and easily. For more information on using Workspace Builder, see [Building workspaces in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md). For more complex customizations, edit the workspace in UI Builder.
+Workspace Builder is a streamlined no-code tool that enables you to configure custom workspaces built in AES quickly and easily. For more information on using Workspace Builder, see [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md). For more complex customizations, edit the workspace in UI Builder.
 
 ## Editing forms created in Table Builder
 

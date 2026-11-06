@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a profile for ICAP DLP integration, Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Create a profile for ICAP DLP integration, Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Define filters to apply for the Incident creation
@@ -38,8 +38,6 @@ Filtering helps you to isolate DLP alerts and to limit the number of DLP alerts 
 
     -   If  **AND**  is selected, all conditions must be matched.
     -   If  **OR**  is selected, either condition can be matched.
-    \[Omitted image "dlp-icap-filtering-section.png"\] Alt text: ICAP DLP Filtering section.
-
 
 ## What to do next
 

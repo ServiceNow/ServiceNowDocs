@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Submitting a loan service request, Using Financial Services Loan Operations, Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Submitting a loan service request, Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Submit a loan service request as a requester
@@ -33,19 +33,19 @@ Business customers and consumers can also submit loan service requests from the 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a loan request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d88306e97">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d107536e115">
 
 Option
 
-</th><th align="left" id="d88306e100">
+</th><th align="left" id="d107536e118">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d88306e106">
+</th></tr></thead><tbody><tr><td id="d107536e124">
 
 **Personal loan service request for a consumer**
 
@@ -55,7 +55,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d88306e133">
+</td></tr><tr><td id="d107536e151">
 
 **Business loan service request for a business customer**
 
@@ -65,7 +65,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d88306e163">
+</td></tr><tr><td id="d107536e181">
 
 **Loan service request from an interaction record**
 

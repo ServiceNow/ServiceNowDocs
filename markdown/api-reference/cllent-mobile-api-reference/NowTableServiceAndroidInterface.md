@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowTableService interface - Android
+# NowTableService interface- Android
 
 The NowTableService interface provides functions that enable you to create, read, delete, and update records within a table on a ServiceNow instance.
 
@@ -20,7 +20,7 @@ The NowTableService interface provides functions that enable you to create, read
 |----|----|-----------|
 |configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowTableService - createRecord\(tableName: String, fields: Map&lt;String, String&gt;, writeOptions: FieldWriteOptions?, configuration: FieldReadConfiguration?\)
 

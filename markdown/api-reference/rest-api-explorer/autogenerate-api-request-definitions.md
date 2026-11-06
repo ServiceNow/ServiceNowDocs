@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ Use sample requests made to an API resource to generate request header associati
 
 ## Before you begin
 
-An instance admin must set the system property **glide.rest.sampling.enabled** to true. To limit the likelihood of performance problems, only enable automatic generation of API request definitions in non-production instances.
+An instance admin must set the system property **glide.rest\_sampling.enabled** to true. To limit the likelihood of performance problems, only enable automatic generation of API request definitions in non-production instances.
 
 Role required: web\_service\_admin
 
@@ -26,15 +26,15 @@ Role required: web\_service\_admin
 
 1.  Create a scripted REST API request sampling configuration in one of the following ways.
 
-<table id="choicetable_rjy_kf1_s3c"><thead><tr><th align="left" id="d896194e66">
+<table id="choicetable_rjy_kf1_s3c"><thead><tr><th align="left" id="d1031888e66">
 
 Option
 
-</th><th align="left" id="d896194e69">
+</th><th align="left" id="d1031888e69">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d896194e75">
+</th></tr></thead><tbody><tr><td id="d1031888e75">
 
 **Navigate through a scripted REST API record**
 
@@ -46,7 +46,7 @@ Procedure
 4.  In the **Request Sampling Configuration** tab, select **New**.
 
 
-</td></tr><tr><td id="d896194e123">
+</td></tr><tr><td id="d1031888e123">
 
 **Navigate directly to a new scripted REST API request sampling configuration**
 

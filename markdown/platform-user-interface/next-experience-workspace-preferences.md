@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-workspace-preferences.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [workspace preference]
-breadcrumb: [Next Experience preferences, Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience Workspace preferences
@@ -32,5 +32,6 @@ Role required: none
     |\[Omitted image "pol-pref-workspace-ribbon.png"\] Alt text: Show the ribbon.|Shows the ribbon widget by default when the form loads.|
     |\[Omitted image "pol-pref-workspace-sidebar.png"\] Alt text: Show the sidebar.|Shows the contextual side panel by default when the form loads.|
     |\[Omitted image "pol-pref-workspace-activity-stream.png"\] Alt text: Expand activity stream items by default.|Expands all activities in the activity stream automatically.|
+    |\[Omitted image "pol-pref-workspace-lazy.png"\] Alt text: Lazy load workspace pages.|Loads all content on a page dynamically, as needed. Disable this preference to load all content immediately.|
 
 

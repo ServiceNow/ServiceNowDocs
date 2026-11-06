@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/long-term-memory-aia.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Set up long-term memory
@@ -16,7 +16,7 @@ Make AI agents remember your preference or facts from previous interactions and 
 
 ## Before you begin
 
-Role required: sn\_aia\_admin
+Role required: sn\_aia.admin
 
 ## Procedure
 
@@ -24,18 +24,24 @@ Role required: sn\_aia\_admin
 
 2.  Select **Long-term memory**.
 
-    \[Omitted image "aia-long-term-memory.png"\] Alt text: The Long-term memory settings page from AI Agent Studio.
+    \[Omitted image "aia-long-term-memory-new.png"\] Alt text: The Long-term memory settings page from AI Agent Studio.
 
-3.  Configure the General setting.
+3.  Configure the User facts and preferences.
 
-    1.  Turn on the Allow AI agents to store memories setting by using the toggle button.
+    1.  Turn on the Allow all AI agents to retain user information using the toggle button.
 
-    2.  Turn on the Allow AI agents to use stored memories in current and future interactions setting by using the toggle button.
+    2.  Turn on the Allow all AI agents to apply their knowledge in conversations using the toggle button.
 
-    3.  Turn on the Allow an LLM to identify categories of memories setting by using the toggle button.
+    3.  Turn on the Allow an LLM to identify categories of memories using the toggle button.
 
-4.  To view the existing categories of memories, select **View**.
+    4.  To view the existing categories of memories, select **View**.
 
-5.  To view the relationships or mappings between AI agents and categories, select **View**.
+    5.  To view the relationships or mappings between AI agents and categories, select **View**.
+
+4.  Configure Past executions outcomes by turning on the Allow all AI agents to learn from past executions using the toggle button.
+
+    When you want to turn off agent learning from past executions, you will see a confirmation pop up. Selecting **Disable** will disable agent learning.
+
+    \[Omitted image "disable-agent-learning.png"\] Alt text: Confirmation for disabling agent learning.
 
 

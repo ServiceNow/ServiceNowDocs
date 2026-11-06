@@ -1,20 +1,20 @@
 ---
 title: Approve or reject a shift-swap in Service Operations Workspace
-description: You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
+description: Approve a shift swap that your peer requested if you're available to work during that time period, or reject it if you're unable to work then.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/approve-reject-shift-swaps-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization for ITSM in the Service Operations Workspace, Optimize, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Service Operations Workspace - Scheduling, Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Approve or reject a shift-swap in Service Operations Workspace
 
-You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
+Approve a shift swap that your peer requested if you're available to work during that time period, or reject it if you're unable to work then.
 
 ## Before you begin
 
@@ -24,17 +24,17 @@ Role required: sn\_shift\_planning.agent
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  Click the Schedule icon.
+2.  Select the **Schedule** \(\[Omitted image "sow-schedule-icon.png"\] Alt text:\) icon.
 
-3.  Click the **Shift Approvals** tab.
+3.  Select the **Shift Approvals** tab.
 
 4.  Select the request you want to approve or reject.
 
 5.  Review the details of the shift swap request and do one of the following:
 
-    -   To approve the request, click **Approve**.
-    -   To reject the request, click **Reject**.
-    If you approve a shift-swap, the application moves the request to your manager's approval queue. For more information, go to [Track and manage your teams' schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/approve-time-off-shift-swaps-wfo-itsm.md).
+    -   To approve the request, select **Approve**.
+    -   To reject the request, select **Reject**.
+    If you approve a shift-swap, the application moves the request to your manager's approval queue. For more information, see [Track and manage your teams' schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/approve-time-off-shift-swaps-wfo-itsm.md).
 
 
 **Parent Topic:**[Service Operations Workspace - Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/itsm-sow-workspace-scheduling.md)

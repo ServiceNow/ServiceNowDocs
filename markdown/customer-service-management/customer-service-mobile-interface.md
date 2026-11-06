@@ -1,16 +1,16 @@
 ---
-title: Mobile experience for Customer Service Management
+title: Mobile experience for CSM
 description: Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-service-mobile-interface.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage schedules and sites, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Schedules and sites, Use, Customer Service Management]
 ---
 
-# Mobile experience for Customer Service Management
+# Mobile experience for CSM
 
 Manage customer service cases from a mobile device with the Customer Service Management mobile application. Stay connected and access information in real time to complete tasks quickly.
 
@@ -21,8 +21,6 @@ Activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\) to use the a
 **Note:** The Customer Service Management mobile application supports product cases.
 
 For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateAPlugin.md).
-
-\[Omitted image "csm-mobile-agent.png"\] Alt text: Customer service mobile launcher screen that displays the agent's cases needing attention and cases that are new, active, and active critical.
 
 With the customer service agent role \(sn\_customerservice\_agent\), you can:
 
@@ -41,8 +39,6 @@ With the system administrator role, you can configure the Customer Service Manag
 -   Configure the functions associated with swipe actions and top menu actions.
 -   Configure and create push notifications.
 
-\[Omitted image "csm-mobile-manager.png"\] Alt text: Customer Service mobile launcher screen that displays the manager's cases that are new, active, and active critical, and also approvals needed for escalations and change requests.
-
 With the customer service manager role \(sn\_customerservice\_manager\) you can:
 
 -   Search for cases using keywords
@@ -56,7 +52,7 @@ The Customer Service Management mobile application runs on the ServiceNow® mobi
 To use the Customer Service Management mobile application, activate the Customer Service Mobile plugin \(com.sn\_csm\_mobile\). This plugin activates the following plugins:
 
 -   Mobile Agent Native Client plugin \(com.glide.sg.agent\_native\_client\)
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Customer Service Case Action Status \(com.sn.csm\_action\_status\)
 
 To provide support for major cases, you can activate the optional Major Issue Management plugin \(com.sn\_majorissue\_mgt\).
@@ -67,7 +63,7 @@ Once the Customer Service Management mobile application is activated and configu
 
 For more information, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateAPlugin.md).
 
--   **[Customer Service mobile application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-mobile-overview.md)**  
+-   **[CSM application overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-mobile-overview.md)**  
 Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
 -   **[Get started with the Customer Service mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/install-customer-service-mobile-app.md)**  
 Use the ServiceNow Agent mobile app to access the Customer Service mobile application. Then log in to an instance as an agent or manager and work on your customer service cases.

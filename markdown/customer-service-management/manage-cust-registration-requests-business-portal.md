@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/manage-cust-registration-requests-business-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Manage customer registration requests from Business Portal
@@ -37,6 +37,13 @@ Role required: sn\_customerservice.customer\_admin
     A user account is created and an email is sent to the contact’s email address with a user ID and temporary password. The user is also assigned these roles: sn\_esm\_user and snc\_external.
 
 
+**Related topics**  
+
+
+[Reject a registration request]()
+
+[Manage customer registration requests from Business Portal]()
+
 ## Reject a registration request
 
 Reject a registration request from a user that was submitted from Business Portal.
@@ -44,6 +51,10 @@ Reject a registration request from a user that was submitted from Business Porta
 ### Before you begin
 
 Role required: sn\_customerservice.customer\_admin
+
+### About this task
+
+If a registration request does not meet your organization's requirements or contains invalid information, you can reject it from the Business Portal.
 
 ### Procedure
 
@@ -59,4 +70,11 @@ Role required: sn\_customerservice.customer\_admin
 
     A rejection email is sent to the requester’s email address.
 
+
+**Related topics**  
+
+
+[Approve a registration request with a valid registration code on Business Portal]()
+
+[Manage customer registration requests from Business Portal]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Comparing projects, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Comparing projects, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Start a comparison
@@ -18,7 +18,7 @@ Begin a side-by-side project comparison.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## About this task
 
@@ -28,7 +28,7 @@ You can perform a comparison of a main or linked project.
 
 1.  Select the project you want to compare.
 
-2.  From the process map within **Analyst Workbench**, select **Compare**.
+2.  From the process map within Analyst workbench, select **Compare**.
 
     Access the Compare view from a main or linked process.
 
@@ -42,7 +42,7 @@ You can perform a comparison of a main or linked project.
 2.  From the Variation Analysis panel, choose a route to compare on.
 7.  Select **Apply** if you selected filters, or **Show route** if you selected a route to compare on.
 
-    A second model with your filters applied displays next to the main model. Items in the **Breakdown Filters** are also filtered according to the applied routes.
+    A second model with your filters applied displays next to the main model. Items in the **Breakdowns** are also filtered according to the applied routes.
 
     **Note:** After applying filters, you can use the selector in the upper right corner of the window to view a different model version.
 

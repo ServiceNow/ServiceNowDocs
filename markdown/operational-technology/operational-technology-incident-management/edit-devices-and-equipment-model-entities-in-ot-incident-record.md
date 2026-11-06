@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_ot\_incident\_write or sn\_ot\_incident\_admin
 
 5.  Add or remove a related OT device.
 
-<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d25824e128">
+<table id="choicetable_x1v_mk5_g1c"><thead><tr><th align="left" id="d69063e130">
 
 Action
 
-</th><th align="left" id="d25824e131">
+</th><th align="left" id="d69063e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d25824e137">
+</th></tr></thead><tbody><tr><td id="d69063e139">
 
 **Add a related OT device from the incident record**
 
@@ -52,7 +52,7 @@ Description
 4.  Select **Add**.
 
 
-</td></tr><tr><td id="d25824e167">
+</td></tr><tr><td id="d69063e169">
 
 **Remove a related OT device from the incident record**
 

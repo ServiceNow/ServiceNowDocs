@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/parameter-screen-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
@@ -116,19 +116,23 @@ Option to add timestamps for inputted data. For example, use this option to trac
 
 </td></tr><tr><td>
 
+Hide action execution messages button
+
+</td><td>
+
+Option to hide the error indicator button \[Omitted image "ifs-error-indicator.png"\] Alt text: Error indicator icon. displayed in the top menu bar indicating that the submitted input form contains at least one error. The input form can’t be submitted until the errors are fixed. The icon remains available when working through all input form screen pages.
+
+Tapping the icon opens a page that lists the validation errors, enabling users to correct these errors and submit an error-free input form. The list refreshes only after it is resubmitted.
+
+\[Omitted image "ifs-error-list.png"\] Alt text: Error indicator page in an input form screen listing 3 error messages and 3 info messages.
+
+</td></tr><tr><td>
+
 Fetch Type
 
 </td><td>
 
 Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens. Select from **Background**, **Dynamic prefetch**, **On-demand**, or **Prefetch** as required for your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/applet-fetch-types.md).
-
-</td></tr><tr><td>
-
-Header Only on First Page
-
-</td><td>
-
-Option to make the header visible only on the first page of the input form screen.
 
 </td></tr><tr><td>
 
@@ -220,6 +224,26 @@ Input form page display
 The way that information is displayed on your input form screen. Select one of the following options, as required for your setup:-   **Individual page for each input**: Choose this option to place each input field on its own page in your mobile app. Select this option for complex input types.
 -   **Custom page and section setup**: Choose this option when you have multiple input fields that must appear on the same page in your mobile app. If you choose this option, more configuration options appear at the bottom of the form where you can configure **Pages** and **Section mappings**.
 
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Page Settings
+
+</td></tr><tr><td>
+
+Header only on first page
+
+</td><td>
+
+Option to make the header visible only on the first page of the input form screen.
+
+</td></tr><tr><td>
+
+Proceed with unfilled mandatory inputs
+
+</td><td>
+
+Option to provide users the choice to work on all pages of an input form screen, even if required fields are not completed. Multiple users can use the Next and Previous buttons at all times, enabling them to complete the form in a non-sequential manner. In addition, users can use the page menu to work on any page of their choosing.**Note:** If mandatory fields are not completed the form can’t be submitted.
 
 </td></tr><tr><td>
 

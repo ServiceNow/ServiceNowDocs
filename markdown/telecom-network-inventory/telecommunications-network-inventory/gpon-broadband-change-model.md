@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Instantiating your network inventory by using design and assign, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Design your GPON Broadband Service
@@ -18,7 +18,7 @@ Design and assign your Gigabyte Passive Optical Network \(GPON\) broadband servi
 
 ## Before you begin
 
-Before you can establish a GPON Broadband Service change request and complete the related change tasks, your inventory catalog and template managers must do the following network configuration setup:
+Before you can establish a GPON Broadband Service change request and complete the related change tasks, your inventory catalog and template managers must complete the following setup:
 
 1.  Navigate to **Telecom Network Inventory** &gt; **Inventory Models**, create your inventory models, and define their relationships.
 
@@ -26,7 +26,7 @@ Before you can establish a GPON Broadband Service change request and complete th
 
 2.  Navigate to **Telecom Network Inventory** &gt; **Network Inventory Templates**, create the inventory templates for your equipment, and establish the template relationships.
 
-    To learn more, see [Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
+    To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
 
 
 Install the Telecommunications Network Inventory Advanced and Core demo data.
@@ -45,7 +45,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 5.  On the record producer form, you can update the fields.
 
-    The fields of the record producer form are auto-populated. This demonstration displays how to create configuration items \(CIs\) to show the design and assign of a GPON broadband service. You can change the flow as needed. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
+    The fields of the record producer form are auto-populated. This demonstration displays how to create configuration items \(CIs\) to show the design and assign of a GPON broadband service. To learn more about the fields, see [Change request and change task forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/change_request_forms.md).
 
 6.  Select **Save**.
 

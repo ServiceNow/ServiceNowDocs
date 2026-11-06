@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -22,15 +22,15 @@ Service Portfolio Management enables portfolio owners and service owners to crea
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Exploring\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Portfolio Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Service Portfolio Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/c_ServicePortfolioManagementv2.md)
 
 </td><td>
 
-[Configuring\[Omitted image "bus-sdlc.svg"\] Alt text:Configure service offerings, commitments, subscriptions, and the service catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-configuring.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure service offerings, commitments, subscriptions, and the service catalog.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-configuring.md)
 
 </td></tr><tr><td>
 
-[Using\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Service Portfolio Management to create and manage services, service offerings, portfolios, and service level agreements \(SLAs\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-using.md)
+[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Service Portfolio Management to create and manage services, service offerings, portfolios, and service level agreements \(SLAs\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-using.md)
 
 </td><td>
 

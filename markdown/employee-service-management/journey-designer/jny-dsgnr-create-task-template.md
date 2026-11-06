@@ -1,5 +1,5 @@
 ---
-title: Create a task template in Journey designer
+title: Create a task template
 description: Journey owners \(managers\) and mentors create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-task-template.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Create a task template in Journey designer
+# Create a task template
 
 Journey owners \(managers\) and mentors create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys.
 
@@ -22,7 +22,7 @@ Role required: Modifier \[sn\_jny.writer\]
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Journeys** &gt; **My templates**.
+1.  From the Employee Center, navigate to **Journeys** &gt; **My templates**.
 
 2.  Select **Create task template**.
 

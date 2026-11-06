@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Post CSV or Excel files directly to an import set, Importing data using import sets, Import sets, Imports, Data and Automation]
+breadcrumb: [Post CSV or Excel files directly to an import set, Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
 
 # Posting a CSV file - Perl and Java examples

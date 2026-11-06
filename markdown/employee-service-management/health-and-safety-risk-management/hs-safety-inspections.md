@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -56,8 +56,6 @@ Create a safety audit for a process or regulation with formalized assessment cri
 Complete a safety inspection or audit survey assigned to you through the Employee Center.
 -   **[Add a finding and root cause analysis for a safety inspection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-inspection.md)**  
 Record a finding based on the survey results for a safety inspection and perform a root cause analysis \(RCA\) for it.
--   **[Add a finding and root cause analysis for a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-add-finding-rca-safety-audit.md)**  
-Record a finding based on the audit results and perform a root cause analysis \(RCA\) for it.
 -   **[Add an action for a safety inspection or audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-add-action-safety-inspection.md)**  
 Add an action for each finding to address any issues or implement measures necessary to improve workplace safety. You can add multiple actions for an inspection or audit finding.
 -   **[Add an action from survey response in safety inspection through Employee center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/add-action-from-survey-response-in-safety-inspection.md)**  

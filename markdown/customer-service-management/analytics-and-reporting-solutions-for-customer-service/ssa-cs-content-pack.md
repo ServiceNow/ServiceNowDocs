@@ -7,9 +7,9 @@ release: yokohama
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and reporting for Customer Service Management, Customer Service Management]
+breadcrumb: [Analytics and reporting, Customer Service Management]
 ---
 
 # Platform Analytics Solutions for Self-Service Analytics for Customer Service
@@ -26,8 +26,6 @@ The following roles and tasks are associated with this Solution:
 
 
 [Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ssa-solution-config.md)
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/self-service-analytics.md)
 

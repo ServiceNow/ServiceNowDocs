@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing territories and agents from Territory Planning console, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
 ---
 
 # Change map marker location in the Territory Planning console
@@ -30,15 +30,15 @@ You can move the map marker icons from the current location to the new location 
 
 2.  Edit location for marker overlay data items.
 
-<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d50510e92">
+<table id="choicetable_j1m_5b2_2yb"><thead><tr><th align="left" id="d55609e101">
 
 To
 
-</th><th align="left" id="d50510e95">
+</th><th align="left" id="d55609e104">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d50510e101">
+</th></tr></thead><tbody><tr><td id="d55609e110">
 
 **Edit location of a single icon map marker**
 
@@ -55,7 +55,7 @@ You can move the map marker icon from the current location to the new location o
 -   Drag and drop the map marker to the desired location or enter the address manually in the **New Location** field.
 
 
-</td></tr><tr><td id="d50510e156">
+</td></tr><tr><td id="d55609e165">
 
 **Edit location of all items in a co-located marker data item**
 
@@ -77,6 +77,4 @@ You can move the map marker icon from the current location to the new location o
 ## Result
 
 The following snapshots illustrate the process of changing data item locations when selecting a single map marker or a co-located map marker icon.\[Omitted image "csp.gif"\] Alt text: GIF displaying the process of changing the map overlay data item's location.
-
-**Parent Topic:**[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
 

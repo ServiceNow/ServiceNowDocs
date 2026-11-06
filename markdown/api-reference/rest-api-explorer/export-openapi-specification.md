@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the REST API Explorer, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -36,7 +36,7 @@ Role required: web\_service\_admin, rest\_api\_explorer, or admin
 
 3.  Below the list of API methods, select the link for the export format you want to use.
 
-<table id="choicetable_un2_fp2_25b"><tbody><tr><td id="d212054e136">
+<table id="choicetable_un2_fp2_25b"><tbody><tr><td id="d248520e136">
 
 **Export OpenAPI Specification \(YAML\)**
 
@@ -44,7 +44,7 @@ Role required: web\_service\_admin, rest\_api\_explorer, or admin
 
 Format the export in YAML.
 
-</td></tr><tr><td id="d212054e145">
+</td></tr><tr><td id="d248520e145">
 
 **Export OpenAPI Specification \(JSON\)**
 

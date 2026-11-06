@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2026-02-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Create a risk event response template, Use Risk Events, Use, Risk Management, Governance, Risk, and Compliance]
 ---

@@ -1,20 +1,20 @@
 ---
 title: Identity and Access Audit
-description: Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
+description: Use the Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/identity-audit.html
 release: yokohama
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity]
 ---
 
 # Identity and Access Audit
 
-Use the Identity and Access Audit to understand changes made for users, groups, roles, and ACLs.
+Use the Identity and Access Audit to understand changes made to users, groups, roles, and ACLs.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
@@ -30,9 +30,9 @@ Use the Identity and Access Audit to understand changes made for users, groups, 
 
 </td></tr><tr><td>
 
-[Audit Results\[Omitted image "icon-manage.png"\] Alt text: Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/audit-results.md)
+Audit Results\[Omitted image "icon-manage.png"\] Alt text: Evaluation
 
- [View results from Identity and Access Audit.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/audit-results.md)
+ View results from Identity and Access Audit.
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Optimize a task route
@@ -29,7 +29,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## Procedure
 
-1.  Navigate to the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -48,6 +48,4 @@ Role required: wm\_agent or wm\_dispatcher
     |**View task details**|Select the task.|
     |**Toggle between map and list view**|Use the **Map** or **List** icons to toggle between map and list view.|
 
-
-**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

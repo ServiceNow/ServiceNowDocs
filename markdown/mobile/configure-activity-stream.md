@@ -1,18 +1,18 @@
 ---
 title: Configure an activity stream screen for a record screen
-description: Configure an activity stream on your form to give your users access to comments, work notes, and attachments relating to the record they are viewing.
+description: Configure an activity stream screen on your form to give your users access to comments, work notes, and attachments relating to the record they are viewing. In addition, use activity stream segments when you want to show the history of updates for a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/configure-activity-stream.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure an activity stream screen for a record screen
 
-Configure an activity stream on your form to give your users access to comments, work notes, and attachments relating to the record they are viewing.
+Configure an activity stream screen on your form to give your users access to comments, work notes, and attachments relating to the record they are viewing. In addition, use activity stream segments when you want to show the history of updates for a record.
 
 ## Before you begin
 

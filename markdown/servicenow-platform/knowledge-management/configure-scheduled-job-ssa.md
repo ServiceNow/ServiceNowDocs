@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure Self-Service Analytics, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -143,4 +143,6 @@ Script to run at the scheduled date and time.For a new scheduled script, copy th
 </td></tr></tbody>
 </table>4.  Click **Update** for consumers and customer contacts or **Submit** to save a custom configuration.
 
+
+**Parent Topic:**[Configure Self-Service Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-ssa.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-kanban-view.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Track opportunities using Kanban view
@@ -32,11 +32,18 @@ The Kanban view as part of Opportunity Management in Sales Customer Relationship
 
 ## Procedure
 
-1.  Navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: List view icon. and select **Opportunity - All**.
+1.  Navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Opportunity - All**.
 
 2.  Select the **View Kanban** button.
 
     -   To change an opportunity state, drag the opportunity card from one state and drop it into another state.
     -   To view the opportunities of different sales type, use the Filter by option on the page.
     -   To create a new opportunity directly from this page, select the **Create Opportunity** button. To learn more, see [Create an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-new-opportunity.md).
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

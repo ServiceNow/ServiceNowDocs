@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 14
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset fields for enterprise assets
@@ -179,15 +179,7 @@ Location
 
 Current physical location of the asset.
 
- **Note:**
-
-If you set the location to a specific building, floor, or place, and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, the Enterprise Asset Management application automatically populates a corresponding location hierarchy of up to three levels, including the campus, building or structure, and floor that the asset is currently located in. The location hierarchy depicts the hierarchical relationship between the specified location and the corresponding parent locations. You can view the location hierarchy in the Location Hierarchy section of the asset record, which is generated after you fill in all fields and save the form.
-
- **Note:**
-
-If you set the location to a specific place and then set the **sn\_itam\_common.sn\_enable\_indoormap\_for\_assets** system parameter to **true** on your ServiceNow instance, the asset record, which is generated after you fill in all fields and save the form, includes an interactive map that shows the real-time location of the asset. This map is still included in the asset record when you open the record from an associated work order task or stockroom record.
-
-The map does not display by default. To display the map, select the Location map icon \(\[Omitted image "asset-indoor-location-icon.png"\] Alt text: Location map icon.\) on the sidebar of the asset record.
+ **Note:** If you set the location to a specific building, floor, or place, the Enterprise Asset Management application automatically populates a corresponding location hierarchy of up to three levels, including the campus, building or structure, and floor that the asset is currently located in. The location hierarchy depicts the hierarchical relationship between the specified location and the corresponding parent locations. You can view the location hierarchy in the Location Hierarchy section of the asset record, which is generated after you fill in all fields and save the form.
 
 </td></tr><tr><td>
 
@@ -696,7 +688,7 @@ Work notes are updated for the following cases: -   Updates to **Assigned To**, 
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 
@@ -729,14 +721,6 @@ Work notes are updated for the following cases: -   Updates to **Assigned To**, 
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Scheduled jobs and tables installed with normalization of firmware models]()
 

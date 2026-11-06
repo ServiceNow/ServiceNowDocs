@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ADFS integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [ADFS integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Set up the instance for ADFS
@@ -20,7 +20,7 @@ Configure your instance and SAML 2.0 settings to work with ADFS.
 
 Perform these steps only after you have set up ADFS for SAML. For details on that process, see [set up ADFS for SAML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_ADFSIntegrationWithSAML2.0.md).
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## Procedure
 

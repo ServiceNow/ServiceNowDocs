@@ -1,34 +1,44 @@
 ---
-title: Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
-description: If you have an agent role, you can summarize the case details and generate the case resolution notes with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
+title: Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: You can use various generative AI skills with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-using.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-03-12"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+# Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-If you have an agent role, you can summarize the case details and generate the case resolution notes with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
+You can use various generative AI skills with the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
 Summarize the case details to help you understand the case context quicker. These summaries are useful for long-running or complex cases that include multiple conversations between agents and constituents.
 
-Generate the case resolution notes to help wrap up cases faster. When you're ready to propose a solution to a constituent or relay a decision about their application, this feature can generate resolution notes and add them to the Case form. The resolution notes also provide the context about the case resolution to other agents who might encounter similar issues or cases.
-
 Generate a summary of the Virtual Agent chat history and the chat conversation between a live agent and a customer by using the chat summarization skill in the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application.
 
-Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the Now Assist AI Search for CSM Workspace​ plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
+Synthesize and summarize information from multiple KBs to deliver relevant answers in a conversational format using the ServiceNow Otto for AI Search for Public Sector Workspace plugin​. This skill provides actionable AI-generated or AI-selected answers to a search in CSM Workspace, and can replace a list of possible findings with a single-turn conversational result.
 
 ## Skills
 
-The ServiceNow Otto for PSDS application includes the generative AI skills that can enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
+The ServiceNow Otto for PSDS application includes the generative AI skills that enable your agents to understand the case context so that they can propose resolutions to the constituent or approve an application faster.
 
--   **Case summarization**
+-   **Investigative case summarization**
 
-    Provides an agent with a summary of a public service case, including the issue and the actions taken. An agent can generate a summary of a case to understand the case context, refresh the summary so that it includes the latest updates to the case, and post the summary to the case work notes.
+    Synthesizes case narratives, entities, evidence, and activity into a structured summary, enabling agents to grasp case context and respond to inquiries. Generates detailed resolution information for investigative outcomes, allowing agents to propose solutions and integrate generated information into the case record.
+
+-   **Investigative case narrative refinement \(via ServiceNow Otto Context Menu\)**
+
+    Reviews text and surfaces gaps, inconsistencies, and tone issues before a case narrative is submitted for supervisory review. Delivers real-time refinement suggestions grounded in linked entities, evidence, and case activity, and allows investigators full control over accepting, rejecting, or editing every suggestion. Accessed via the ServiceNow Otto Context Menu upon text selection within a case narrative field.
+
+-   **Document screening**
+
+    Review and validate uploaded documents autonomously, checking IDs, tax forms, and other supporting documents. This skill flags potential issues and surfaces key details, applying consistent validation logic across every submission.
+
+-   **Government case summarization**
+
+    Condenses comprehensive case records into concise summaries, including the issue and the actions taken, enabling agents to grasp case contexts and respond effectively to inquiries. Generates detailed resolution information for specific government case types, allowing agents to propose solutions to constituents or business contacts and integrate this information into the case record.
 
     The case summarization skill generates a case summary and displays it above the activity stream. The summary includes the information that the agent enters in the following case record fields:
 
@@ -40,34 +50,32 @@ The ServiceNow Otto for PSDS application includes the generative AI skills that 
     -   Service level agreement \(SLA\)
     \[Omitted image "now\_assist\_psds\_case\_summary.png"\] Alt text: AI-generated case summary for a case record.
 
--   **Chat summarization**
+-   **Chat Summarization**
 
-    Provides an agent with a summary of a customer's Virtual Agent chat history, live agent chat history, and the interaction history. Agents can view or create the following summaries:
+    Automatically generate summaries of agent-facing chats, capturing the context of conversations between agents and constituents or virtual agents at different points of the handoff, such as when a Virtual Agent chat history is handed off to a live agent, or when one live agent hands off a chat history with a customer to another live agent. This functionality enables critical information from interactions to be readily accessible for future reference and action.
 
-    -   Virtual Agent chat handoff summary: Summarizes the conversation when Virtual Agent hands off a chat to a live agent​ and displays the summary in the Active Chat window. An agent can view a summary of the actions that were taken by a customer before engaging with a live agent.
-    -   Live Agent to Live Agent handoff summary: Summarizes the conversation when a live agent hands off a chat to another live agent​ and displays the summary in the Active Chat window. An agent can view a summary of the actions that were taken by a customer before hand off to another live agent.
-    -   Quick action summary: Provides a summary when an agent uses the `/summarize` quick action in the Active Chat window.
-    -   Chat wrap up summary: Populates the **Chat Summary** and **Short description** fields on the interaction record when a live agent wraps up a chat with a customer.
+-   **ServiceNow Otto for AI Search**
 
-        **Note:** If a chat summary isn’t available for the interaction, the **Chat Summary** field doesn’t appear on the interaction record.
+    Leverage single-turn capabilities for legislation and policy summarization, providing agents with succinct overviews of complex documents and enhancing the ability to navigate and comprehend extensive legislative materials. This skill provides actionable AI-generated or AI-selected answers in searches, synthesizing and summarizing information from multiple knowledge bases to deliver relevant answers in a conversational format​.
 
-    \[Omitted image "chat-summary-now-assist-psds-pointer.png"\] Alt text: AI-generated chat summaries for an interaction.
+-   **Fee Waiver AI agent skill**
 
--   **Resolution notes generation**
+    Determines the fee breakdown for an information request by working to arrive at a subtotal fee estimate, a recommendation for whether a fee waiver request should be approved or rejected, including reasons for any rejection, and a total fee estimate, with the fee waiver, if applicable. This skill works via the Information Request Fee Estimation AI Agent to provide an autonomous decision based on guidelines added in a specific knowledge article. For information on standalone AI agents in Public Sector, see .
 
-    Can enable an agent to generate the resolution notes for a case, propose the resolution to the constituent or applicant, and add the information to the case record.
 
-    The resolution notes generation skill displays a pop-up window that an agent can use to select a resolution code and review the resolution notes text before proposing a resolution to a constituent or relaying a decision to an applicant.
+**Important:**
 
-    **Note:** The resolution notes generation skill requires a minimum of 200 words in the case record to generate the resolution notes. If the resolution notes can't be generated, the system displays a message below the **Resolution notes** field.
-
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 **Related topics**  
 
 
 [Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md)
 
-[Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
+[Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)
 
-[Using ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+[Using generative AI with ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
 

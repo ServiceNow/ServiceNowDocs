@@ -1,28 +1,30 @@
 ---
 title: TuneUp Your AI Search
-description: This accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
+description: This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/tuneup-ai-search.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your AI Search
 
-This accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
+This Accelerator provides guidance on fine-tuning artificial intelligent \(AI\) Search to optimize performance and value.
 
-## Overview
+## Accelerator Overview
 
 TuneUp Your AI Search Accelerator provides Impact customers with an assessment of AI Search performance and prescriptive guidance to optimize results and improve end-user experience. Included is an assessment of AI Search architecture and configuration, tuning AI Search, an overview of AI Search analytics, and prescriptive guidance on how to optimize performance.
 
 See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/overview-ais.md) for additional information on AI Search.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -57,50 +59,98 @@ Customer Resource 
 
 Responsibilities 
 
+</th><th>
+
+Required
+
+</th><th>
+
+Recommended
+
 </th></tr></thead><tbody><tr><td>
 
-Platform Owner \(Required\)
+Platform Owner
 
 </td><td>
 
 Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
 
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
-Virtual Agent Lead \(Required\)
+Virtual Agent Lead
 
 </td><td>
 
 Subject matter expert responsible for ServiceNow ITSM Virtual Agent.
 
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
-System Administrator\(s\) \(Required\)
+System Administrator\(s\)
 
 </td><td>
 
 Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
 
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
-Developer\(s\) \(Required\)
+Developer\(s\)
 
 </td><td>
 
 Writes code for the ServiceNow platform.
 
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
 </td></tr><tr><td>
 
-Trusted Service Partners \(Recommended\)
+Trusted Service Partners
 
 </td><td>
 
 Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.
 
+</td><td>
+
+ 
+
+</td><td>
+
+✓
+
 </td></tr></tbody>
 </table>## Requested Information
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+Please refer to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exceptions
 

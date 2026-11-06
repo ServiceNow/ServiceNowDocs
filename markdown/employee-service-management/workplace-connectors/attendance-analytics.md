@@ -1,20 +1,20 @@
 ---
 title: Attendance Analytics
-description: The Attendance analytics table computes badging data based on the employee head count at the region, site, campus, and building level. It derives occupancy data from the Badging Data table.
+description: The Attendance analytics table computes badging data based on the employee head count at the region, site, campus, and building level. It derives occupancy data from the Employee Attendance Data table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/attendance-analytics.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Attendance Analytics
 
-The Attendance analytics table computes badging data based on the employee head count at the region, site, campus, and building level. It derives occupancy data from the Badging Data table.
+The Attendance analytics table computes badging data based on the employee head count at the region, site, campus, and building level. It derives occupancy data from the Employee Attendance Data table.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_wsd\_wc.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Badging Data**.
+1.  Navigate to **All** &gt; **Employee Attendance Data**.
 
     Verify that the Event Type column is set to **Swipe-in** and the State column is set to **Access Granted**.
 
@@ -45,8 +45,8 @@ Role required: sn\_wsd\_wc.admin
 
     In Workplace Central, filter data by **Workplace entity** on the Occupancy dashboard data.
 
-    -   The scheduled job **DataSummarization** in Workplace Central runs daily, and retrieves data from the Badging Data table and loads it into the Attendance Analytics table.
-    -   The DataSummarization scheduled job checks for Workplace entity mapped values. It populates the employee space occupancy data based on the head count at the Region, Site, Campus, Building, and Floor level for a workplace entity.
+    -   The scheduled job **WSDHeadCount Daily Job** in Workplace Central runs daily, and retrieves data from the Employee Attendance table and loads it into the Attendance Analytics table.
+    -   The WSDHeadCount Daily Job scheduled job checks for Workplace entity mapped values. It populates the employee space occupancy data based on the head count at the Region, Site, Campus, and Building level for a workplace entity.
 
         \[Omitted image "workplace-attendance-analytics-dashboard.png"\] Alt text: Workplace Analytics showing Occupancy Dashboard metrics.
 
@@ -55,7 +55,7 @@ Role required: sn\_wsd\_wc.admin
 
 **Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Badging Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/badging-data.md)
+**Previous topic:**[Employee attendance data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/employee-attendance.md)
 
-**Next topic:**[Extension point for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/extension-point-for-badging-data.md)
+**Next topic:**[Setup Workplace Connectors for occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-occupancy-connectors.md)
 

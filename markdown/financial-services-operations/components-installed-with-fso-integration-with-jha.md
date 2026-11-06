@@ -1,16 +1,16 @@
 ---
-title: Components installed with the Financial Services Operations Integration with Jack Henry jXchange spoke
+title: Components installed with Financial Services Operations Integration with Jack Henry jXchange
 description: Several types of components are installed with the activation of the Financial Services Operations Integration with Jack Henry jXchange spoke \(com.sn.jha.spoke\), including plugins and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-fso-integration-with-jha.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Jack Henry jXchange, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Jack Henry jXchange, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Components installed with the Financial Services Operations Integration with Jack Henry jXchange spoke
+# Components installed with Financial Services Operations Integration with Jack Henry jXchange
 
 Several types of components are installed with the activation of the Financial Services Operations Integration with Jack Henry jXchange spoke \(com.sn.jha.spoke\), including plugins and tables.
 
@@ -81,7 +81,7 @@ Table that stores the unique identification value in its ID field. This value wa
 
 </td></tr><tr><td>
 
-Financial Account Mapping\[sn\_fso\_intg\_jha\_financial\_account\_mapping
+Financial Account Mapping\[sn\_fso\_intg\_jha\_financial\_account\_mapping\]
 
 </td><td>
 

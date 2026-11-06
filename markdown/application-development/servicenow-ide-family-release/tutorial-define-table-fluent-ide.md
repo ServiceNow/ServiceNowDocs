@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Getting started: Create your first application in the ServiceNow IDE, Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Getting started: Create your first application in the ServiceNow IDE, Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Tutorial part 3: Define a table in ServiceNow Fluent code
@@ -26,7 +26,7 @@ Role required: admin
 
 ServiceNow Fluent is a domain-specific language \(DSL\) based on TypeScript for defining the metadata files \[sys\_metadata\] that make up applications and includes APIs for the different types of metadata, such as tables, roles, ACLs, business rules, and Automated Test Framework tests. You use objects in the ServiceNow Fluent APIs to define metadata in files with the `.now.ts` extension. The ServiceNow IDE has language processing and validation for ServiceNow Fluent APIs and applications by default. For more information about ServiceNow Fluent, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-fluent.md).
 
-In this example, you create a simple table for a to-do list using objects in the ServiceNow Fluent Table API. Then, you update the sample code for business rule and client script definitions to reference the new table. Lastly, you review your changes from the Metadata Explorer. For more information about the Table API, see [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/table-api-now-ts.md).
+In this example, you create a simple table for a to-do list using objects in the ServiceNow Fluent Table API. Then, you update the sample code for business rule and client script definitions to reference the new table. Lastly, you review your changes from the File Categories view. For more information about the Table API, see [Table API - ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/table-api-now-ts.md).
 
 ## Procedure
 
@@ -194,7 +194,7 @@ task
 
 15. Review your changes as metadata.
 
-    1.  From the Activity Bar, select the Metadata Explorer view \(\[Omitted image "servicenow-ide-metadata-explorer-icon.png"\] Alt text: Metadata Explorer\).
+    1.  From the Activity Bar, select the File Categories view or Apps view.
 
     2.  Select your application to expand it.
 
@@ -202,11 +202,11 @@ task
 
         The table opens in Table Builder.
 
-        \[Omitted image "servicenow-ide-table-builder.png"\] Alt text: The To-do Items table in Table Builder accessed from the Metadata Explorer in the ServiceNow IDE.
+        \[Omitted image "servicenow-ide-table-builder.png"\] Alt text: The To-do Items table in Table Builder accessed from the File Categories view in the ServiceNow IDE.
 
 16. Edit the metadata and synchronize your changes into the source code.
 
-    From the Metadata Explorer, you can simulate another user editing the metadata outside of the source code to see changes transformed back into the code you added.
+    From the File Categories view, you can simulate another user editing the metadata outside of the source code to see changes transformed back into the code you added.
 
     1.  In Table Builder, search for the Task field and change the Column label from "Task" to "To Do".
 

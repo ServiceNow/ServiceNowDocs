@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbook-filter-activities.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Playbooks for Customer Service Management, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Filter playbook activities

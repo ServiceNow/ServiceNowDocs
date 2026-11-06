@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Virtual Agent with Facebook Messenger, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure Conversational Integration with Facebook Messenger
@@ -34,19 +34,23 @@ This task provides the general steps to integrate the Facebook Messenger messagi
 
 4.  [Close idle Facebook Messenger chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-open-conv.md).
 
-5.  [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md).
+5.  [Integrate Facebook Messenger with other ServiceNow applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-integrating-apps.md)
+
+6.  [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md).
 
 
 -   **[Install Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-install.md)**  
 You can install the Conversational Integration with Facebook Messenger application \(sn\_va\_fb\_messenger\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Set up Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-setup.md)**  
 Integrate Facebook Messenger with your ServiceNow instance using the Conversational Integration with Facebook Messenger application. Use the application to engage customers in conversations with bots.
--   **[Capturing information from a user in a Facebook Messenger chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-capture-info.md)**  
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
 -   **[Closing idle Facebook Messenger chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-open-conv.md)**  
 Enable agents to effectively manage their active Facebook Messenger chat conversations by automatically closing conversations after they have been inactive for a pre-configured amount of time.
--   **[Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md)**  
-Configure the Advanced Work Assignment application to transfer a Facebook Messenger chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
+-   **[Integrating the Facebook Messenger messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-integrating-apps.md)**  
+Review this topic to see which ServiceNow applications and features can use the Conversational Integration with Facebook Messenger application.
+-   **[Uninstall Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/remove-conv-integ-fbm.md)**  
+Users can remove the Conversational Integration with Facebook Messenger application when the app is no longer needed.
+-   **[Legacy setup and configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/legacy-va-fb-messenger-setup.md)**  
+Set up and configure Conversational Integration with Facebook Messenger \(Legacy\).
 
-**Parent Topic:**[Integrating Virtual Agent with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
+**Parent Topic:**[Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
 

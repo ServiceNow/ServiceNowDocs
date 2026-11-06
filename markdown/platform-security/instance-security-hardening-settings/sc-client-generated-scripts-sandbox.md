@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
@@ -42,7 +42,7 @@ If you enable the script sandbox, the script being evaluated at either of these 
 -   Certain API calls \(largely, but not entirely, limited to ones dealing with direct DB access are not allowed.\)
 -   You can't insert, update, or delete data from within the sandbox. For example, any calls to `current.update()`, are ignored. If you run the ServiceNow AI Platform without enabling script sandboxing, none of these restrictions apply.
 
-**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Yokohama release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
+**Note:** Beginning with the Xanadu release, script includes marked as **Glide AJAX enabled** \(previously named **Client callable**\) aren’t accessible within the sandbox. Only those marked **Sandbox enabled** are available within the sandbox. When upgrading to the Brazil release from the Washington DC release or earlier, any script includes marked as **Client callable** are also marked as **Sandbox enabled**.
 
 ## More information
 
@@ -132,13 +132,13 @@ References
 
 </td><td>
 
-[Configuring Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/r_ScriptSandboxing.md) **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
+ **glide.script.use.sandbox** belongs to the same family of properties that secure and restrict execution of scripts originating from the client:
 
 -   **glide.script.allow.ajaxevaluate**: See [Disable AJAXEvaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-ajaxevaluate.md).
--   **glide.script.secure.ajaxgliderecord**: See [Require AJAXGlideRecord ACL checking \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md).
+-   **glide.script.secure.ajaxgliderecord**: See [Require AJAXGlideRecord ACL checking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enabling-ajaxgliderecord-acl-checking.md).
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -35,5 +35,5 @@ Role required: sp\_admin
     For example, you can hide the kiosk header by setting the display of the `header-container` class to `none`.
 
 
-**Parent Topic:**[Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

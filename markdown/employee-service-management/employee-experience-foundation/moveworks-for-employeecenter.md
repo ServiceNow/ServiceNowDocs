@@ -1,20 +1,20 @@
 ---
 title: Moveworks for Employee Center
-description: Moveworks for Employee Center enables AI-powered conversational support within the Employee Center portal through natural language interactions.
+description: Moveworks for Employee Center \(built on Moveworks\) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/moveworks-for-employeecenter.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-01-15"
-reading_time_minutes: 2
-breadcrumb: [Admin configurations, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Moveworks for Employee Center
 
-Moveworks for Employee Center enables AI-powered conversational support within the Employee Center portal through natural language interactions.
+Moveworks for Employee Center \(built on Moveworks\) enables AI-powered conversational support within the Employee Center portal through natural language interactions.
 
 Using Moveworks embedded AI assistant, your employees can ask questions, get instant answers, and complete tasks end-to-end from Employee Center and Employee Center Pro.
 
@@ -30,20 +30,18 @@ After you configure the app, you can access the Moveworks Embedded AI Assistant 
 
 \[Omitted image "mw-employee-center-exp.png"\] Alt text: Moveworks Embedded AI assistant experience
 
-Moveworks unifies the enterprise systems under one intelligent layer to deliver outcomes that matter for every role, team, and business objective. For more information, see [Moveworks documentation](https://help.moveworks.com/).
+Moveworks unifies the enterprise systems under one intelligent layer to deliver outcomes that matter for every role, team, and business objective. For more information, see [Moveworks documentation](https://help.moveworks.com/) and [JWT Certificate Generation Guide](https://docs.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#jwt-certificate-generation-guide-mac--windows).
 
 **Related topics**  
 
 
 [Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Moveworks for Employee Center app from store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Moveworks for Employee Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
 [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
-
-[Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
+[Use Moveworks for Employee Center on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 

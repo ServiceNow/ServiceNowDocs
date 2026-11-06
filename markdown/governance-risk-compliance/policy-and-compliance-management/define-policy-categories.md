@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Allow policy exception requests from other applications, Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Define policy categories
@@ -23,8 +23,6 @@ Role required: sn\_compliance.manager
 ## Procedure
 
 1.  When defining the [Policy Exception Integration Registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/enable-other-apps-to-request-policy-exceptions.md), click the lock icon on the **Policy categories** field.
-
-    \[Omitted image "policy-cat.png"\] Alt text: Policy category
 
 2.  In the Policy categories form, click **New**.
 

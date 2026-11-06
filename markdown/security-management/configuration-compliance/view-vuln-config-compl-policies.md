@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-08-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_vulc.read and sn\_vulc.remediation\_owner to view
 
 ## About this task
 
-Test groups are imported records and uneditable inside Configuration Compliance.
+Test groups are imported records and you cannot edit them in the Configuration Compliance application.
 
 ## Procedure
 

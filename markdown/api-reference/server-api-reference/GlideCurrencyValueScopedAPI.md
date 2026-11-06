@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideCurrencyValue API provides methods that return the currency code and original currency from an associated GlideCurrencyParser.parse\(\) call.
 
-This class runs is in the `sn_currency` namespace.
+This API is provided within the `sn_currency` namespace.
 
 **Note:** There is no constructor for this class.
 

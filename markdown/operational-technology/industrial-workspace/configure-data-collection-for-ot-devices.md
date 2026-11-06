@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Operational Technology Visibility dashboard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -18,13 +18,13 @@ Configure the data collection for Operational Technology \(OT\) devices so that 
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or pa\_admin
 
 ## About this task
 
 If the OT Devices Daily Data Collection job hasn't run yet, that means that no data is available for the OT Visibility dashboard and the **Last updated** timestamp is hidden. If you have the admin role, you see the following warning message that prompts you to run the OT Devices Daily Data Collection job:\[Omitted image "no-data-shown-message.png"\] Alt text: No data is shown error message on the OT Visibility dashboard that prompts you to run the OT Devices Daily Data Collection Job.
 
-**Note:** If you don't have an admin role, you see a warning message that prompts you to reach out to the administrator for help.
+**Note:** If you don't have the pa\_admin role, you see a warning message that prompts you to reach out to the administrator for help.
 
 ## Procedure
 

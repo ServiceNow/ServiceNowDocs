@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-attach-profile-indicators-with-application-scoring-profiles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add or edit a scoring profile, Configure scoring profiles, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Add or edit a scoring profile, Configure scoring profiles, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Attach a profile indicator to a scoring profile
@@ -38,7 +38,7 @@ You can create or update the scoring profile with new indicators and associate i
 
 7.  On the form, fill in the fields.
 
-    For a description of the field values, see [Create new profile indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-profile-indicator-form.md).
+    For a description of the field values, see [Create profile indicator form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-profile-indicator-form.md).
 
 8.  Select **Save**.
 

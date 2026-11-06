@@ -1,18 +1,18 @@
 ---
 title: Field Service Management workflow examples
-description: The sample workflows in this section provide examples of how you can use Field Service Management to resolve issue faster, prevent issues from occuring, and work seamlessly across organizations.
+description: The sample workflows in this section provide examples of how you can use Field Service Management to resolve issue faster, prevent issues from occurring, and work seamlessly across organizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/fsm-use-cases.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Field Service Management, Field Service Management]
+breadcrumb: [Explore, Field Service Management]
 ---
 
 # Field Service Management workflow examples
 
-The sample workflows in this section provide examples of how you can use Field Service Management to resolve issue faster, prevent issues from occuring, and work seamlessly across organizations.
+The sample workflows in this section provide examples of how you can use Field Service Management to resolve issue faster, prevent issues from occurring, and work seamlessly across organizations.
 
 -   **[Field Service operations workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-operations-use-case.md)**  
 This Field Service operations workflow example shows how a clinical engineering manager at a healthcare provider handles an MRI scanner issue that can be resolved with a firmware upgrade.

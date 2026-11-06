@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -20,18 +20,117 @@ Learn more about Enterprise Agile Planning \(EAP\) and review the benefits it ca
 
 Scrum leaders, product owners, portfolio managers, solution train engineers, and Agile release train engineers can enhance their Agile framework using the following EAP features:
 
-|Benefit|Feature|
-|-------|-------|
-|Manage backlog and prioritize work.|[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)|
-|Create and plan activities such as creating PIs and Sprints, assigning work to teams, and scheduling this work into team-level iterations.|[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)|
-|Manage dependencies across teams and Agile release trains \(ARTs\).|[Planning Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/pi-planning-eap.md)|
-|Track activities and visualize progress.|[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)|
-|Collaborate real-time and asynchronously to discuss resolutions for blockers.|[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)|
-|Manage work and track progress efficiently for Kanban teams that don't operate in a regular cadence.|[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md) and [Planning Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/pi-planning-eap.md) for Kanban-type teams|
-|Flexibly configure team and work hierarchies.|[Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md)|
-|Store and manage all kinds of documentation for Agile teams and their work items from a centralized location.|[Collaborate using Docs in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.md)|
-|Gain insights into the page content by summarizing it or improve content quality by refining it using Now Assist.|[Summarize and refine Docs content in EAP using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.md)|
-|Save time and reduce manual effort by automatically generate stories for work items using Now Assist.|[Generate stories for epics and features using Now Assist for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)|
-|Define goals at the iteration level or the team level iterations. Teams then align with the business value and gain greater visibility into the work they contribute toward organizational objectives.|[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)|
-|Analyze team progress, performance, and keep track of key metrics using preconfigured dashboards with data visualizations.|[EAP Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap-dashboard.md)|
+<table id="table_ztr_h41_dzb"><thead><tr><th>
 
+Benefit
+
+</th><th>
+
+Feature
+
+</th></tr></thead><tbody><tr><td>
+
+Manage backlog and prioritize work.
+
+</td><td>
+
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)
+
+</td></tr><tr><td>
+
+Create and plan activities such as creating PIs and Sprints, assigning work to teams, and scheduling this work into team-level iterations.
+
+</td><td>
+
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)
+
+</td></tr><tr><td>
+
+Manage dependencies across teams and Agile release trains \(ARTs\).
+
+</td><td>
+
+[Planning Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/pi-planning-eap.md)
+
+</td></tr><tr><td>
+
+Track activities and visualize progress.
+
+</td><td>
+
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)
+
+</td></tr><tr><td>
+
+Collaborate real-time and asynchronously to discuss resolutions for blockers.
+
+</td><td>
+
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)
+
+</td></tr><tr><td>
+
+Manage work and track progress efficiently for Kanban teams that don't operate in a regular cadence.
+
+</td><td>
+
+[Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md) and [Planning Board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/pi-planning-eap.md) for Kanban-type teams
+
+</td></tr><tr><td>
+
+Get a unified, end-to-end view of your entire work item hierarchy from strategic epics down to individual stories. This way, every team member can instantly see how their work connects to broader organizational work, without navigating multiple screens or running reports.
+
+</td><td>
+
+[Work item hierarchy for EAP teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/eap-hierarchy-tab.md)
+
+</td></tr><tr><td>
+
+Flexibly configure team and work hierarchies.
+
+</td><td>
+
+[Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md)
+
+</td></tr><tr><td>
+
+Store and manage all kinds of documentation for Agile teams and their work items from a centralized location.
+
+</td><td>
+
+[Collaborate using Docs in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/docs-for-eap-teams-and-planning-items.md)
+
+</td></tr><tr><td>
+
+Gain insights into the page content by summarizing it or improve content quality by refining it using ServiceNow Otto.
+
+</td><td>
+
+[Summarize and refine Docs content in EAP using ServiceNow for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/summarize-and-refine-docs-content-in-eap.md)
+
+</td></tr><tr><td>
+
+Save time and reduce manual effort by automatically generate stories for work items using ServiceNow Otto.
+
+</td><td>
+
+[Generate stories for epics and features using ServiceNow Otto for SPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)
+
+</td></tr><tr><td>
+
+Define goals at the iteration level or the team level iterations. Teams then align with the business value and gain greater visibility into the work they contribute toward organizational objectives.
+
+</td><td>
+
+[Iteration goals and work item goals in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/iteration-goals-in-eap.md)
+
+</td></tr><tr><td>
+
+Analyze team progress, performance, and keep track of key metrics using preconfigured dashboards with data visualizations.
+
+</td><td>
+
+[EAP Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap-dashboard.md)
+
+</td></tr></tbody>
+</table>

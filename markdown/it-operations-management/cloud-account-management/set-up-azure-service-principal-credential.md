@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Azure Service Principal credential
@@ -35,9 +35,9 @@ Role required: ServiceNow AI Platform admin
     |Field|Value|
     |-----|-----|
     |Name|Name of the service principal to register with the instance. For example, `Azure service principal credentials`.|
-    |Tenant ID|Azure Directory ID value from the text file.|
-    |Client ID|Azure Application ID value from the text file.|
-    |Secret key|Azure Application key value from the text file.|
+    |Tenant ID|Directory ID value in the Azure configuration.|
+    |Client ID|Application ID value in the Azure configuration.|
+    |Secret key|Application key value in the Azure configuration.|
     |Credential Alias|The credential alias that you want to tie to the OAuth 2.0 credential. By default, use the predefined alias name as: sn\_itom\_cam.CAM\_Azure\_Connection|
 
 5.  In the **API Key** field, enter the key obtained from the admin.

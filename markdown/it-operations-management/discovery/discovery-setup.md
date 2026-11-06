@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery setup
@@ -29,6 +29,14 @@ Setup method
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+[ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/itom-conf-console.md)
+
+</td><td>
+
+Use this method for a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by ServiceNow Otto.This method requires additional plugins and configuration. For more information, including prerequisites, see [Access the ITOM Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/access-itom-config-console-disco.md).
+
+</td></tr><tr><td>
 
 [Discovery Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-guided-setup.md)
 

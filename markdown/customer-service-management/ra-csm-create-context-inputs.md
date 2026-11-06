@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-create-context-inputs.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-12"
-reading_time_minutes: 1
-breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Create a context input in Recommended Actions
@@ -61,6 +61,14 @@ Application
 </td><td>
 
 Scoped application name.The applicable name is populated by default.
+
+</td></tr><tr><td id="entry-ci-mandatory">
+
+Mandatory
+
+</td><td>
+
+When this check box is selected, you must set the values for these contextual inputs directly on [Recommended Actions component on the record page in the UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-dynamic-context-inputs.md) for the recommendations to be generated.**Note:** If you select this check box and fail to set contextual inputs on Recommended Actions component in the UIB, the recommendations will not be generated.
 
 </td></tr><tr><td>
 

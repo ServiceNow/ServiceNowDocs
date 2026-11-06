@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Verify the meta data for your IBM hosts
@@ -44,7 +44,7 @@ Role required: sam\_admin or sam\_user
 
     1.  Double-click the value in the incorrect meta data field.
 
-    2.  When prompted, enter or select the correct value and then select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+    2.  When prompted, enter or select the correct value and then select the Save icon \[Omitted image "save-icon.png"\].
 
         The meta data field updates with the correct value.
 

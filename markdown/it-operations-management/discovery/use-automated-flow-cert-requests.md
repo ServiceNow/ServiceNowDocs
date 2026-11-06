@@ -1,5 +1,5 @@
 ---
-title: Use automated flow for certificate management
+title: Using automated flow for certificate management
 description: Certificate and Management streamlines your TLS certificate processes, offering benefits such as improved efficiency and enhanced security. Automating certificate management ensures timely renewal of certificates, which minimizes the risk of expired certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/use-automated-flow-cert-requests.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Use automated flow for certificate management
+# Using automated flow for certificate management
 
 Certificate and Management streamlines your TLS certificate processes, offering benefits such as improved efficiency and enhanced security. Automating certificate management ensures timely renewal of certificates, which minimizes the risk of expired certificates.
 
@@ -36,7 +36,7 @@ Role required: pki\_admin or admin
 
     -   Add the **ca\_host\_ip** field of the routing policy.
     -   Add the IP of an intermediate server in **ca\_host\_ip** field of the routing policy.
-    The intermediate server can be any Windows server in the same domain as the Microsoft CA Server, and has access to the certutil and certreq commands available on Powershell. When an intermediate server is used, the MID Server executes a Powershell script on the intermediate server using Invoke-Command. This command uses a Remote Procedure Call \(RPC\) to run the certutil and certreq commands on the CA Server.
+    The intermediate server can be any Windows server in the same domain as the Microsoft CA Server. It must have access to the certutil and certreq commands available on Powershell. When an intermediate server is used, the MID Server executes a Powershell script on the intermediate server using Invoke-Command. This command uses a Remote Procedure Call \(RPC\) to run the certutil and certreq commands on the CA Server.
 
 4.  Create the certificate credential and map it to the credential alias.
 

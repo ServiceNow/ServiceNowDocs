@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -37,9 +37,13 @@ As you go bottom to top in an Agile structure, the cards are grouped as follows 
 
     For example, if Sprint is the planning calendar configured for an Agile Team, the cards on the Planning Board represent the work assigned for the selected Sprint. For an Agile Team, you can see Stories on the planning board.
 
+    If you use custom state choices as vertical lanes on the Planning board, you must map them to state buckets in the `rm_story` dictionary. Otherwise, story cards in those custom states don't appear after a page reload. For more information, see [Configure state bucket mapping for custom story states in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configure-state-buckets-for-custom-story-states-in-eap.md).
+
 -   ART: For an iteration, the Story cards are horizontally grouped by child teams and vertical lanes represent the iterations of the child teams.
 
     If Planning Interval \(PI\) is the planning calendar configured for ART, the vertical lanes represent the Sprints within the selected PI.
+
+    The ART Planning board doesn't display Agile Teams whose planning methodology is Kanban, because Kanban teams don't use iterations. A message that you can dismiss tells you that some teams might not be displayed. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 
 -   Solution Train: Horizontally grouped by child ARTs and vertical lanes represent the state of the item.
 -   Portfolio: Horizontally grouped by child Solution Trains and vertical lanes represent the state of the item.

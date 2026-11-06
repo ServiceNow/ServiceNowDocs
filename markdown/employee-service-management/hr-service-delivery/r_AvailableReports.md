@@ -1,20 +1,20 @@
 ---
 title: Available HR reports
-description: Predefined HR reports are available in the HR Dashboards &amp; Reports Reports list.
+description: Predefined HR reports are available in the HR Case Management Reports list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/r\_AvailableReports.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Run Reports, HR Dashboards &amp; Reports, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Available HR reports
 
-Predefined HR reports are available in the **HR Dashboards &amp; Reports** &gt; **Reports** list.
+Predefined HR reports are available in the **HR Case Management** &gt; **Reports** list.
 
 |Report name|Description|Displays|
 |-----------|-----------|--------|

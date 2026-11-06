@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-04-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey view for a manager
@@ -32,7 +32,9 @@ Use the Involved journeys tab to stay on track and updated about they journeys t
 
 ## Task templates
 
-Use the Task templates tab to create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys. For more information, see [Create a task template in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md).
+Use the Task templates tab to create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys. For more information, see [Create a task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md).
+
+**Note:** As an admin, you have the option to hide the Task templates widget from the journey widget configuration page.
 
 **Parent Topic:**[Managers, mentors, and employees work with journeys in the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-working-with-journeys.md)
 

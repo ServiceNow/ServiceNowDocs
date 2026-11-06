@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Request task management, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Request task management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create a task template for common task requests

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Workplace Service Delivery, Employee Service Management]
 # Emergency Response Management
 
 ServiceNow® Emergency Response Management applications help your organization mobilize its business continuity efforts during natural disasters and pandemics like COVID-19. Streamline and automate activities on multiple fronts to keep everyone informed and connected as you anticipate or experience emergencies.
+
+**Note:** Starting with the Brazil release, Emergency Response Management is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 Emergency Response Management applications include:
 
@@ -36,8 +38,6 @@ Emergency Response Management applications include:
 
 
 Use the Emergency Response Management applications together to automate workflows for sharing information with users, assessing the impact on your team, and responding to the emergency event.
-
-\[Omitted image "covid-apps\_workflow.png"\] Alt text: Manage user status end-to-end
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 

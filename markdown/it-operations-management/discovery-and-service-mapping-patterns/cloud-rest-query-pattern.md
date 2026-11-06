@@ -1,20 +1,20 @@
 ---
 title: Define a Cloud REST Query for cloud computing devices
-description: As part of creating or modifying a discovery pattern, you can use the Cloud REST Query operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
+description: As part of creating or modifying a discovery pattern, use the Cloud REST Query operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/cloud-rest-query-pattern.html
 release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Amazon DynamoDB, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Amazon DynamoDB, AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Define a Cloud REST Query for cloud computing devices
 
-As part of creating or modifying a discovery pattern, you can use the **Cloud REST Query** operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
+As part of creating or modifying a discovery pattern, use the **Cloud REST Query** operation to extract information from configuration items \(CIs\) of the PaaS \(Platform as a Service\) type, such as Microsoft Azure or Amazon Web Services.
 
 ## Before you begin
 
@@ -162,5 +162,5 @@ Formatted JSON or not
 
 Use the Cloud REST Query operation to extract information about AWS buckets, their names and creation dates.
 
-**Parent Topic:**[Amazon DynamoDB discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-dynamoDB-discovery.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

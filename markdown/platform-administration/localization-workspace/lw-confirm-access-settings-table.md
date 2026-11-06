@@ -1,30 +1,28 @@
 ---
 title: Confirm access to Settings table
-description: As part of the configuration for Localization Workspace in Yokohama, confirm access to the Settings table of Localization Framework.
+description: As part of the configuration for Localization Workspace, confirm access to the Settings table of Localization Framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-confirm-access-settings-table.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Confirm access to Settings table
 
-As part of the configuration for Localization Workspace in Yokohama, confirm access to the Settings table of Localization Framework.
+As part of the configuration for Localization Workspace, confirm access to the Settings table of Localization Framework.
 
 ## Before you begin
 
 Localization Framework must be installed. It is included with Localization Workspace if not already installed.
 
-Role required: admin
+Role required: admin. The Localization admin role \(localization\_admin\) can't complete this procedure.
 
 ## About this task
-
-**Note:** The Localization admin role \(localization\_admin\) can't complete this procedure. The admin role is necessary.
 
 Localization Workspace requires access to a Localization Framework table, Settings \[sn\_lf\_setting\]. The Settings table controls the ability to create and update translation projects. Confirm access using the following procedure.
 

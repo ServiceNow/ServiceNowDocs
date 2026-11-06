@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/advanced-cap.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure, Customer Service Management]
 ---
 
 # Extend capabilities
 
 To extend your Customer Service Management environment, integrate additional applications and features. This enhances functionalities and improves support for more efficient interactions.
 
-\[Omitted image "workflow-extend-cap.png"\] Alt text: overview of topics within extend capabilities showing the topics that fit within this category
+\[Omitted image "workflow-extend-cap.png"\] Alt text: overview of topics within the extend capabilities category
 
 |Application or feature|Description|
 |----------------------|-----------|
@@ -24,5 +24,5 @@ To extend your Customer Service Management environment, integrate additional app
 |[Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ssa-solution-config.md)|Configure Platform Analytics Solution for Self-Service Analytics to run diagnostics, review and customize components, and start collecting data.|
 |[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cim-landing-page.md)|Request improvement opportunities, and implement phases and tasks to meet performance goals, track progress, and measure success.|
 |[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)|Create automated business process flows from your data to help analysts and process owners to analyze and optimize their business processes.|
-|[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md)|Manage and maintain the productivity of your workforce and efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
+|[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configurable-wfo-cs.md)|Manage and maintain the productivity of your workforce and efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
 

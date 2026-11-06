@@ -1,21 +1,21 @@
 ---
-title: Configure Splunk data inputs
-description: Configure a data input for streaming log messages to your ServiceNow instance using a Splunk heavy forwarder.
+title: Configure a Splunk data input in Health Log Analytics manually
+description: Set up a data input for streaming log messages to your ServiceNow instance using a Splunk heavy forwarder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-splunk.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration]
-breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure Splunk data inputs
+# Configure a Splunk data input in Health Log Analytics manually
 
-Configure a data input for streaming log messages to your ServiceNow instance using a Splunk heavy forwarder.
+Set up a data input for streaming log messages to your ServiceNow instance using a Splunk heavy forwarder.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Configure a data input for streaming log messages to your ServiceNow instance us
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 -   For shipping your logs encrypted using SSL TLS, see the [Streaming Data With Rsyslog &amp; Filebeat Using SSL \[KB0866319\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0866319) article in the Now Support Knowledge Base.
 
 -   Configure Splunk to forward logs to your ServiceNow instance using Syslog.
@@ -40,7 +40,7 @@ Role required: evt\_mgmt\_admin
 
 This setup procedure is for streaming logs to your instance using a Splunk heavy forwarder. If you can't use a heavy forwarder, you can use a Splunk Universal Forwarder instead. For more information, see the [Splunk Universal Forwarder as a Shipping method \[KB0961378\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0961378) article in the Now Support Knowledge Base.
 
-Starting in the Yokohama family release, you can use new Splunk data inputs to ingest data in the preprocessed \("cooked"\) log-forwarding format that Splunk uses by default. In cooked mode, the Splunk forwarder embeds configuration details, such as host, source type, source, and other settings into the log data. Ingesting the data into HLA in this format ensures that each log line retains all the relevant contextual information. If you are using the cooked data option in HLA, there is no need to edit the `props.conf` and `transforms.conf` files during Splunk data input configuration.
+Starting in the Yokohama family release, you can use new Splunk data inputs to ingest data in the preprocessed \("cooked"\) log-forwarding format that Splunk uses by default. In cooked mode, the Splunk forwarder embeds configuration details, such as host, source type, source, and other settings into the log data. Ingesting the data into HLA in this format verifies that each log line retains all the relevant contextual information. If you are using the cooked data option in HLA, there is no need to edit the `props.conf` and `transforms.conf` files during Splunk data input configuration.
 
 **Note:** All Splunk configuration files are located in the `$SPLUNK_HOME/etc/system/local/` folder. If a configuration file that you need to modify doesn't exist, create it and save it to this folder.
 
@@ -58,9 +58,9 @@ Starting in the Yokohama family release, you can use new Splunk data inputs to i
 
     For a description of the fields, see [Splunk data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-splunk-ref.md).
 
-5.  On the **Outputs.conf** tab, add the following stanzas to the `outputs.conf` file to forward log data over the selected transport protocol and port.
+5.  On the **Outputs.conf** tab, add the following stanzas to the `outputs.conf` file to make the shipper forward log data over the selected transport protocol on the selected port.
 
-    Select **Next** when complete.
+    Select **Next**.
 
     **Note:** If you have already configured outputs, merge these lines with your existing configuration.
 
@@ -229,7 +229,7 @@ Starting in the Yokohama family release, you can use new Splunk data inputs to i
 
     Health Log Analytics adds the data input record to the Data Inputs table.
 
-10. Ensure that the data input is configured correctly by selecting **Test connection**.
+10. Verify that the data input is configured correctly by selecting **Test connection**.
 
     Health Log Analytics tries to connect the MID Server to the data repository.
 
@@ -253,7 +253,7 @@ The data input configuration process is complete. Health Log Analytics adds the 
 
 ## What to do next
 
-[Make sure that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
+[Verify that the data input is streaming data.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md)
 
 **Parent Topic:**[Configuring data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-inputs-configuring.md)
 

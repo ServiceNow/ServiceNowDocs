@@ -1,16 +1,16 @@
 ---
-title: Using the developer guide
+title: Developer guide
 description: ServiceNow Financial Services Operations \(FSO\) enables financial services institutions \(FSIs\) to securely automate core operational processes through pre-built digital applications and workflows. FSO connects operations across all departments—front, middle, and back-office—for financial institutions with a single platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-int\_guide-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Financial Services Operations \(FSO\)]
 ---
 
-# Using the developer guide
+# Developer guide
 
 ServiceNow® Financial Services Operations \(FSO\) enables financial services institutions \(FSIs\) to securely automate core operational processes through pre-built digital applications and workflows. FSO connects operations across all departments—front, middle, and back-office—for financial institutions with a single platform.
 

@@ -1,24 +1,28 @@
 ---
 title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
-description: Use the ServiceNow ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+description: Use the ServiceNow Otto for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/somt-now-assist.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-11-13"
+last_updated: "2026-10-05"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications, Media, and Technology]
+breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
 
-Use the ServiceNow® ServiceNow Otto for Sales Customer Relationship Management for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+Use the ServiceNow Otto for Sales CRM for Telecommunications application to automate enrichment and fulfillment tasks. This helps customers introduce new offerings without the need to build complex subflows. These AI Agents automatically suggest new tasks based on similarities with previous orders and also provide flexibility by auto-correcting the agent’s inputs related to new tasks.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
+For more information, see [Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md).
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
@@ -35,5 +39,5 @@ This application uses artificial intelligence \(AI\) and machine learning, which
 
 This application requires data to be transferred from ServiceNow customers' individual instances to a centralized ServiceNow environment, which may be located in a different data center region from the one where your instance is, and potentially to a third-party cloud provider, such as Microsoft Azure. This data is handled per ServiceNow's internal policies and procedures, including our policies available through our [CORE Compliance Portal](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0564067).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 

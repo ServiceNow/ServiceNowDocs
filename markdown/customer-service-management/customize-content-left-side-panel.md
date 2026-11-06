@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-content-left-side-panel.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize content in the left side panel for a playbook page
@@ -28,17 +28,10 @@ Any changes made to the configuration will affect other record pages and page va
 
 2.  Select a ribbon setting for your table.
 
-    If a ribbon setting doesn’t exist for your table, you can create one. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md).
+    If a ribbon setting doesn’t exist for your table, you can create one. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md).
 
 3.  Select values for the **Ribbon component** and the **Ribbon Component Attributes**.
 
 4.  Select **Update**.
 
-
-**Related topics**  
-
-
-[Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md)
-
-[bundle-platux.configure-service-workspace-ribbons]
 

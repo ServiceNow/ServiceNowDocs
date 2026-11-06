@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Veritas Cluster Server discovery
@@ -20,7 +20,7 @@ You can use this pattern on the ServiceNow AI Platform using Kingston Patch 8, L
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -125,5 +125,5 @@ The Unix Cluster – VERITAS Cluster pattern creates the following CI relationsh
 |Unix Cluster resource group \[cmdb\_ci\_unix\_cluster\_resource\_group \]|Contains: Contained by|The Node field on Unix Cluster Node \[cmdb\_ci\_unix\_cluster\_node\]|
 |Unix Cluster resource group \[cmdb\_ci\_unix\_cluster\_resource\_group \]|Contains: Contained by|Unix Cluster resource \[cmdb\_ci\_unix\_cluster\_resource\]|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

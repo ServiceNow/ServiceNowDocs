@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [OT Asset Management, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # OT Asset Management licensing
@@ -271,12 +271,17 @@ When both OT Asset Management and Hardware Asset Management applications or lice
 
 For more details on licensing hardware assets, see [Licensing framework for Hardware Asset Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/licensing-ham-solutions.md).
 
+-   **[View the license report for the OT Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/view-license-report-otam.md)**  
+View details of the subscriptions consumed by your organization for the OT Asset Management application by using the ITAM License Report.
+
 **Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 
 
-[View the license report for the OT Asset Management application]()
+[Installing OT Asset Management]()
+
+[Installed with OT Asset Management]()
 
 [OT Asset Workspace]()
 

@@ -9,7 +9,7 @@ classification: project-management
 topic_type: task
 last_updated: "2026-10-01"
 reading_time_minutes: 1
-breadcrumb: [Create a project task from a project, Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a project task from a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Link change requests to a project task
@@ -49,8 +49,6 @@ You can link any change request record to a project task, regardless of the chan
 ## Result
 
 On the Project Task form, a notification appears at the top specifying that the task is linked to one or more change requests.
-
-\[Omitted image "TaskWithLinkedChange"\] Alt text: Screenshot for task with Linked Change
 
 **Parent Topic:**[Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateATaskFromAProject.md)
 

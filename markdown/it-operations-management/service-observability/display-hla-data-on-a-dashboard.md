@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-11-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Add Health Log Analytics data
@@ -56,7 +56,7 @@ Role required: sn\_sow\_svcobs.admin
 
     3.  In the **Add data source** page, navigate to **Health Log Analytics** &gt; **Log components**.
 
-    4.  Enter a saved search or select a component and then optionally add conditions or a Lucene query, as described in Step 5 of [Create log data dashboards and visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-log-data-dashboard-create.md).
+    4.  Enter a saved search or select a component and then optionally add conditions or a Lucene query, as described in Step 5 of [Create log data dashboards and visualizations in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-dashboard-create.md).
 
     5.  Once the filter is correct, choose **Add this source**.
 

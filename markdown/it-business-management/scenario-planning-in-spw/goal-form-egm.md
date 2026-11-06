@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-30"
 reading_time_minutes: 3
-breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Goal form
@@ -36,11 +36,19 @@ Name of the goal.
 
 </td></tr><tr><td>
 
+Number
+
+</td><td>
+
+Unique identifier of the goal, for example GOAL0001001. The value is generated automatically and is read-only. To use a different prefix, such as OBJ, see [Customize label for Goal and Target tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/customize-labels-for-goal-and-target-tables.md).
+
+</td></tr><tr><td>
+
 State
 
 </td><td>
 
-State of the goal. The state can be **Draft**, **In progress**, **Approved**, **Complete**, **Pending**, **Achieved**, or **Not Achieved**.
+State of the goal. The state can be **Draft**, **In progress**, **Approved**, **Complete**, **Pending**, **Achieved**, **Not Achieved**, or **Cancelled**.
 
 </td></tr><tr><td>
 
@@ -68,7 +76,7 @@ Status
 
 </td><td>
 
-Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **None**.
+Status of the goal. Status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 

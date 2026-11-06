@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_PropInstallWcustServ.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Components installed with Customer Service Management, Customer Service Management reference, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
 # Properties installed with Customer Service Management
@@ -313,6 +313,31 @@ Processes SLA asynchronously during parent to child case creation and synchroniz
 
 </td></tr><tr><td>
 
+sn\_csm\_case\_types.enable\_service\_selector
+
+</td><td>
+
+Enables the Case Type Selector for cases created from the following records:
+
+-   Interaction
+-   Account
+-   Contact
+-   Consumer
+-   Sold Product
+-   Install Base Item
+-   Related lists: child case, case task
+-   List view
+-   Case task list view
+
+ -   **Type**: true \| false
+-   **Default value**: true
+
+**Note:** The `sn_csm_case_types.enable_service_selector` property is set to true for zBoot customers, and can be enabled for upgrade customers.
+
+-   **Location**: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
+
 glide.ui.sn\_customerservice\_escalation\_activity.fields
 
 </td><td>
@@ -347,7 +372,7 @@ sn\_customerservice.case.autoresponder.customportal
 
 </td><td>
 
-Custom portal URL that contains the knowledge article parameter such as sys\_kb\_id or kb\_number. Example: https://&lt;instance-name&gt;.service-now.com/csm?id=kb\_article\_view&amp;sys\_kb\_id=\{sys\_kb\_id
+Custom portal URL that contains the knowledge article parameter such as sys\_kb\_id or kb\_number. Example: https://&lt;instance-name&gt;.service-now.com/csm?id=kb\_article\_view&amp;sys\_kb\_id=\{sys\_kb\_id\}
 
  -   **Type**: string
 -   **Default value**: none
@@ -461,6 +486,26 @@ Rules or filters from the sn\_query\_rule table to determine read access to cust
  -   **Type**: true \| false
 -   **Default value**: true
 -   **Location**: **Customer Service** &gt; **Administration** &gt; **Properties**
+
+</td></tr><tr><td id="advanced-entitlements">
+
+sn\_customerservice.advanced\_entitlements
+
+</td><td>
+
+This property displays or hides the Case Entitlements related list for case records.-   **Type**: true \| false
+-   **Default value**: false
+-   **Location**: **Customer Service** &gt; **Administration** &gt; **Properties**
+
+If **true**:
+
+-   The Case Entitlements related list is visible on the Case form.
+-   The **Entitlement** field on the Case form is hidden.
+
+If **false**:
+
+-   The **Entitlement** field is visible on the Case form.
+-   The Case Entitlements related list is hidden on the Case form.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_InstalledWithCustomerService.md)

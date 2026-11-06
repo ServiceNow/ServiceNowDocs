@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Azure Network and Subnet, Azure virtual network, Azure subnet, Azure discovery, Azure patterns, Network and Subnet pattern]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure Network and Subnet pattern-based discovery
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns finds Azure virtual networks, subnets, an
 
 -   **Verify the Microsoft Azure discovery prerequisites**
 
-    For more information, see the prerequisites section in [Microsoft Azure Cloud components discovery using patterns]().
+    For more information, see the prerequisites section in [Microsoft Azure Cloud discovery using patterns]().
 
 -   **Configure the Discovery schedule to support GovCloud**
 
@@ -81,5 +81,5 @@ The Azure - Network and Subnet \(LP\) pattern collects tags and populates them i
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Network \[cmdb\_ci\_network\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

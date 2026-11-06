@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-ppm-investment-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Customer Project Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---
 
 # Customer Service Investment Portal

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-operations-explore.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Retail]
 ---
 
@@ -17,6 +17,8 @@ Whether you're starting or expanding your implementation of the Retail applicati
 ## Retail overview
 
 The Retail applications streamline operations and optimize communication within retail organizations and with headquarters. By building on the existing functionalities of Customer Service Management and Field Service Management, this application optimizes workflows, improves coordination, and supports both frontline and backend operations to run smoothly and efficiently.
+
+\[Omitted video\] Description: Retail overview
 
 Retail helps you accomplish the following:
 
@@ -45,10 +47,10 @@ Retail case types are designed to address various business needs and streamline 
 
 The case types available are:
 
--   : Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin.
--   : Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
--   : Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured assignments of store cases and tasks, reducing the time to resolution.
--   : Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
+-   [HQ communications case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-hq-operations.md): Initiate and coordinate large-scale actions across multiple stores with the HQ communications case type in the Retail HQ operations plugin.
+-   [Store inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-store-services.md): Streamline the process for contacting HQ for store-to-HQ cases with the store inquiry case type in the Retail Store Services plugin, which provides a clearly defined workflow for resolution at HQ.
+-   [In-store operations case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-in-store-operations.md): Standardize the reporting, tracking, and resolution of in-store issues with the in-store operations case type in the Retail in-store operations plugin. This case type contributes to structured assignments of store cases and tasks, reducing the time to resolution.
+-   [Customer complaint case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-customer-complaint.md): Help ensure quick and efficient customer service resolutions by capturing store-related complaints from customers using the customer complaint case type in the Retail customer complaint plugin.
 
 ## Retail data model
 
@@ -69,11 +71,23 @@ To learn more about configuring and using Retail, see:
 -   [Configuring Retail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-operations-configuring.md)
 -   [Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-manage-customer-complaints.md)
 -   [Manage store inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-manage-store-inquiries.md)
--   [Track cases and tasks from Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-navigating-retail.md)
+-   [Track cases and tasks from the Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-navigating-retail.md)
 -   [Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-operations-reference.md)
 
+-   **[Retail case overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-case.md)**  
+The Retail case table stores information about your retail case types and provides the base for retail case creation. This table extends the Customer Service Management case table. All fields utilized through Customer Service Management case remain intact.
 -   **[Retail portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-portal.md)**  
-Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.You must install Retail core to use the Retail portal. You must enter `<instance>/rsp` in the browser URL to access the Retail portal.
+Retail portal provides an enhanced experience to use self-service tools, view cases, and gain visibility into metrics for your retail organizations.
 -   **[Retail mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-mobile.md)**  
 The Retail mobile plugin offers a customized mobile experience for retail operations, enabling frontline teams to manage efficiently store activities and resolve issues on the go. It provides real-time insights into key KPIs, supports issue tracking, and is compatible with both Android and iOS platforms.
+-   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-case-types.md)**  
+Retail case types are designed to address various business needs and streamline workflows for store-level and HQ-driven task management.
+-   **[Retail store plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-multistore-operational-planning.md)**  
+The Retail store plan provides a centralized way to plan, schedule, and manage operational work across multiple stores, giving HQ and regional teams full visibility while simplifying execution for store teams.
+-   **[Retail case types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-retail-case-types-revamp.md)**  
+A case type represents the processes, data, and automation needed to resolve a specific type of retail issue.
+-   **[Retail Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-store-audit-overview.md)**  
+Retail Store Audit Operations lets Plan Authors publish structured audit plans that automatically generate Store Audit Cases and Audit Tasks for field Auditors to complete across selected store locations.
+-   **[Break-Fix Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/breakfix-overview.md)**  
+Break-Fix Case Management enables store staff to report and resolve hardware and IT failures through a structured workflow involving requestors, HQ support agents, and field service technicians.
 

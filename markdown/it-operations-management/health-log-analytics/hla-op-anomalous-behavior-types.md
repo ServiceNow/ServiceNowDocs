@@ -1,5 +1,5 @@
 ---
-title: Types of anomalous behavior
+title: Types of anomalous behavior in Health Log Analytics
 description: Anomalous behavior in a CI or a service can indicate an important issue. For example, a spike in the frequency or number of messages of a particular type can indicate a problem.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-op-anomalous-behavior-types.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Exploring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Types of anomalous behavior
+# Types of anomalous behavior in Health Log Analytics
 
 Anomalous behavior in a CI or a service can indicate an important issue. For example, a spike in the frequency or number of messages of a particular type can indicate a problem.
 
-## Understanding anomalies
-
-To build models of expected behavior, the system monitors the log stream to learn baselines for patterns, metrics, and gauges over various time periods. Time periods can be hourly, daily, weekly, or unlimited. Behavior that departs from the learned models is considered anomalous behavior.
+To build models of expected behavior, Health Log Analytics monitors the log stream to learn baselines for patterns, metrics, and gauges over various time periods. Time periods can be hourly, daily, weekly, or unlimited. Behavior that departs from the learned models is considered anomalous behavior.
 
 ## Types of log property
 
@@ -35,18 +33,16 @@ To build models of expected behavior, the system monitors the log stream to lear
     A gauge property has a numerical value that is reported continuously. Gauge properties represent operations that consume resources. For example, CPU usage, memory usage, or response time.
 
 
-## How anomalies appear in the Service Operations Workspace
+## How anomalies appear in Health Log Analytics
 
-The Anomaly card illustrates the anomalous activity that led to the alert.
+The Anomaly card illustrates the anomalous activity that led to the alert. The chart shows:
 
--   The blue line shows the recent anomalous activity.
--   On some charts, the lightly shaded area indicates the expected \(learned baseline\) behavior.
+-   Recent anomalous activity
+-   Expected behavior \(the learned baseline\)
+-   Baseline values from one day earlier
+-   Baseline values from the previous week
 
-    A peach-shaded area represents the baseline values for the same hour one day earlier. A pink-shaded area shows the values for the same period in the previous week.
-
--   Click the information icon to see how the anomaly was identified: \[Omitted image "icon-info.png"\] Alt text: Information icon.
-
-In this example, the peach-shaded area shows the same data for the same hour one day earlier. The spike in the metric value \(events per minute\) is clearly visible.
+In this example, the system tracks the baseline rate \(the average number of events per minute\) for a specific log pattern. When this typically inactive log generates a spike in events, the system detects the deviation from the baseline and generates an alert.
 
 \[Omitted image "anomaly-spike.png"\] Alt text: Anomaly card identifies and illustrates anomalous behavior.
 
@@ -60,6 +56,4 @@ In this example, the peach-shaded area shows the same data for the same hour one
 |Anomaly above average or below average|Activity that deviates from expected baseline behavior for pattern or meter or gauge metrics, such as keywords metrics or severity metrics.|
 |Baseline reference​ increase or decrease|An increase or decrease in the value or volume of a log property as compared to the one-hour or one-week baseline.|
 |Correlation of severity and keyword alerts|An increase in the volume of a severity level or keyword.|
-
-**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Development and automation
-description: This phase is meant to track important activities such as setting up account relationships, maintenance schedules, defining SLAs, Service Exchange installation \(if required\), and ensuring that they are completed.
+description: This phase is used to track and complete critical activities including account relationship management, maintenance scheduling, Service Level Agreement \(SLA\) definition, and Service Exchange installation \(when required\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook-development.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
+breadcrumb: [Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Development and automation
 
-This phase is meant to track important activities such as setting up account relationships, maintenance schedules, defining SLAs, Service Exchange installation \(if required\), and ensuring that they are completed.
+This phase is used to track and complete critical activities including account relationship management, maintenance scheduling, Service Level Agreement \(SLA\) definition, and Service Exchange installation \(when required\).
 
 <table id="table_ghf_3n4_1yb"><thead><tr><th>
 
@@ -45,8 +45,10 @@ The following activities are available with the base system:-   Setup account re
 
 **Note:** If you have selected any of the Service Exchange integration options in the Initial Setup stage, the relevant activities are displayed and you can configure them as required.
 
-These are demo tasks and can be configured according to your requirements. You can add or delete tasks, and modify them as required. In the Related work activity, you can create ad-hoc tasks if required. See [Configure simple Account Lifecycle Events playbook tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure-simple.md) for details on simple configuration tasks.
+These activities can be configured according to your requirements. You can add or delete tasks, and modify them as required. In the Related work activity, you can create ad-hoc tasks if necessary. See [Configure onboarding tasks in playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure-simple.md) for details on simple configuration tasks.
 
 </td></tr></tbody>
-</table>Review the data and click **Mark Complete** to move to the next stage.
+</table>Review the data and select **Mark Complete** to move to the next stage.
+
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

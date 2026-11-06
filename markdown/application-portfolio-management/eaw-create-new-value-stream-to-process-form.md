@@ -1,16 +1,16 @@
 ---
-title: Create new value stream to process form
+title: Create value stream to process form
 description: Add a value stream to a process to create an efficient workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-new-value-stream-to-process-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new value stream to process form
+# Create value stream to process form
 
 Add a value stream to a process to create an efficient workflow.
 
@@ -21,12 +21,12 @@ Add a value stream to a process to create an efficient workflow.
 |Order|The sequence of the activity within the value stream with which the business process is to be associated.|
 |Value stream stage|The specific stage of the value stream that is to be associated with the business process.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
+[Exploring value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
 
-[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
+[View value stream stages associated with a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-vs-stages-assoc-with-bp.md)
 

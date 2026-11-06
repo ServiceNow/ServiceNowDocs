@@ -1,20 +1,20 @@
 ---
 title: Fine-tune patterns using traffic-based discovery
-description: As an alternative to customizing the pattern from the Pattern Designer side, improve existing patterns so that Service Mapping can use them to find configuration item \(CI\) connections previously found using traffic-based discovery.
+description: Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously found using traffic-based discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/connection-section-traffic-based.html
 release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Fine-tune patterns using traffic-based discovery
 
-As an alternative to customizing the pattern from the Pattern Designer side, improve existing patterns so that Service Mapping can use them to find configuration item \(CI\) connections previously found using traffic-based discovery.
+Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously found using traffic-based discovery.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Basic knowledge of programming is desirable.
 
 Service Mapping can discover and map configuration items \(CIs\) following their traffic-based connections. This method is referred to as traffic-based mapping and complements pattern-based mapping.
 
-Using traffic-based discovery, Service Mapping may discover an important CI connection. In this case, you can make sure that this connection is always found for all CIs belonging to the same CI type. You do that by modifying the pattern used to discover CIs of that CI type. A pattern is a sequence of commands whose purpose it is to detect attributes of a CI and its outbound connections.
+Using traffic-based discovery, Service Mapping may discover an important CI connection. In this case, you can make sure that this connection is always found for all CIs belonging to the same CI type. You do that by modifying the pattern used to discover CIs of that CI type. A pattern is a sequence of commands designed to detect attributes of a CI and its outbound connections.
 
 You can search CI configuration files to locate data discovered using traffic-based discovery, for example IP address and port. If there are configuration files containing this data, you create a pattern step to parse this file. Next time Service Mapping discovers this CI using the modified pattern, it extracts the information about this connection directly from the configuration file.
 
@@ -34,7 +34,7 @@ You can search CI configuration files to locate data discovered using traffic-ba
 
 1.  Navigate to **Service Mapping** &gt; **Services** &gt; **Application Services**.
 
-2.  Click **View Map** next to the relevant service instance.
+2.  Select **View Map** next to the relevant service instance.
 
 3.  Right-click the relevant CI.
 

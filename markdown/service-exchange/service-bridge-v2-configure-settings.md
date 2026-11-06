@@ -1,5 +1,5 @@
 ---
-title: Update settings for Authorized Users
+title: Update settings for authorized users
 description: As a provider, you can configure the settings for Authorized Users who have been created on the consumer's instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-configure-settings.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Update settings for Authorized Users
+# Update settings for authorized users
 
 As a provider, you can configure the settings for Authorized Users who have been created on the consumer's instance.
 
@@ -37,4 +37,6 @@ Role required: admin
 
     **Note:** You can view the settings defined in the Remote Record Producers and Remote Task Definitions tabs but cannot modify them.
 
+
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-administer.md)
 

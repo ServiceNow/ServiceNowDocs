@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Google Cloud Platform \(GCP\) - Firebase Realtime DB, Firebase Realtime Database, GCP discovery, GCP patterns]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # GCP Firebase Realtime Database pattern-based discovery
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns finds GCP Firebase Realtime Database inst
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -64,5 +64,5 @@ The Google Cloud Platform \(GCP\) - Firebase Realtime DB pattern creates these r
 |Google Datacenter \[cmdb\_ci\_google\_datacenter\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
 |Google Datacenter \[cmdb\_ci\_google\_datacenter\]|Contains::Contained by|Availability Zone \[cmdb\_ci\_availability\_zone\]|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

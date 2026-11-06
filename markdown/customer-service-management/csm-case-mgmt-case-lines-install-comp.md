@@ -5,24 +5,24 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-mgmt-case-lines-install-comp.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Case lines and workflows, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Components installed with Case lines and workflows
 
 Several types of components are installed with the Case lines and workflows application, including tables and roles.
 
-## Tables installed with Case lines and workflows
+## Tables
 
 <table id="table_vxx_wrp_lcc"><thead><tr><th>
 
- 
+Table
 
 </th><th>
 
- 
+Description
 
 </th></tr></thead><tbody><tr><td>
 
@@ -47,6 +47,14 @@ The Case Line Task table stores the tasks related to case line items. This table
 </td><td>
 
 The Case Line Characteristic form displays details about the product offering included in a case line.The prefix for case line characteristic records is **CSLC**.
+
+</td></tr><tr><td>
+
+[Case Line Entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-entitlements-form.md)\[sn\_case\_line\_entitlement\]
+
+</td><td>
+
+The Case Line Entitlement table stores the entitlements that are associated with case line items.
 
 </td></tr></tbody>
 </table>## Roles
@@ -166,6 +174,40 @@ This is an existing role.The customer service agent role has read, write, and up
 </td><td>
 
 For more information, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
+
+</td></tr><tr><td>
+
+Customer contactsn\_customerservice.customer
+
+</td><td>
+
+This is an existing role.The customer contact has read and write permissions in the Case Line Characteristic table
+
+</td><td>
+
+For more information, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
+
+</td></tr></tbody>
+</table>## Properties
+
+<table id="table_ayg_r1r_hfc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_customerservice.advanced\_entitlements
+
+</td><td>
+
+Displays the Entitlements related list on the Case Line form.-   True: the related list is visible.
+-   False: the related list is hidden.
+
+This property applies to both CSM Configurable Workspace and Core UI.
 
 </td></tr></tbody>
 </table>

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-setup-support-team.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Retail, Retail]
+breadcrumb: [Configure, Retail]
 ---
 
 # Set up your retail support team
@@ -16,7 +16,7 @@ Set up your retail support team by creating a group then assigning the sn\_retai
 
 ## Before you begin
 
-Role required: admin
+Role required: user\_admin
 
 You can assign a role to a group to grant access to applications and modules to group members.
 

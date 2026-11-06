@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2025-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

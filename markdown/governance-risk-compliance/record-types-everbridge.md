@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/record-types-everbridge.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup steps for emergency notification, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,6 +30,4 @@ Record types are information stored in Everbridge which are required to create c
 
     Record types for your organization ID with the category are imported from Everbridge. If successfully imported you get a message of confirmation, otherwise an error message.
 
-
-**Parent Topic:**[Setup steps for emergency notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setting-up-everbridge-emergency-notification.md)
 

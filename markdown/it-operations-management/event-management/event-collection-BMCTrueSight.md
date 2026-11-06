@@ -1,20 +1,20 @@
 ---
 title: Event collection from BMC TrueSight and BMC TrueSight\_v2
-description: The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\).
+description: The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). It uses event stream notification capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/event-collection-BMCTrueSight.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event collection from BMC TrueSight and BMC TrueSight\_v2
 
-The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\).
+The MID WebService Event Collector enables you to collect JSON formatted event messages sent from BMC TrueSight Operations Management \(TrueSight\), previously known as BMC ProactiveNet Performance Management \(BPPM\). It uses event stream notification capabilities.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is inst
 
 Ensure that you:
 
--   Deploy and start the MID Server. See [MID Server configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerConfiguration.md).
+-   Deploy and start the MID Server. See [MID Server configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerConfiguration.md) .
 -   Configure and start the MID Web Server. See [Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md).
 -   Configure and start the MID WebService Event Collector. See [Configure the MID WebService Event Collector Context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-em-context-extension.md).
 

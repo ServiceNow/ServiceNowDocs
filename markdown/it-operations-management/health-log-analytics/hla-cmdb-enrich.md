@@ -1,20 +1,20 @@
 ---
-title: Add log-based CIs to the CMDB
-description: Keep the Configuration Management Database \(CMDB\) updated with host data discovered in your logs by adding log-based configuration items \(CIs\) to it.
+title: Add log-based CIs to the CMDB in Health Log Analytics
+description: Keep the Configuration Management Database \(CMDB\) updated with host data Health Log Analytics discovered in your logs by adding log-based configuration items \(CIs\) to the database.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enhancing the CMDB with host data found in logs, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Enrich the CMDB with host data from logs, Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Add log-based CIs to the CMDB
+# Add log-based CIs to the CMDB in Health Log Analytics
 
-Keep the Configuration Management Database \(CMDB\) updated with host data discovered in your logs by adding log-based configuration items \(CIs\) to it.
+Keep the Configuration Management Database \(CMDB\) updated with host data Health Log Analytics discovered in your logs by adding log-based configuration items \(CIs\) to the database.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ Role required: evt\_mgmt\_admin
 
 2.  Handle a single CI candidate or multiple CI candidates together.
 
-<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d105215e92">
+<table id="choicetable_ywx_ypy_qrb"><thead><tr><th align="left" id="d91719e103">
 
 Option
 
-</th><th align="left" id="d105215e95">
+</th><th align="left" id="d91719e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d105215e101">
+</th></tr></thead><tbody><tr><td id="d91719e112">
 
 **Take action on a single CI candidate**
 
@@ -44,7 +44,7 @@ Procedure
 
 1.  Select a CI candidate record and review the information on the form.
 
-For field descriptions, see [Field descriptions for log-based CI candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.md).
+For field descriptions, see [Log-based CI candidates fields in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-fields.md).
 
 2.  Add the CI candidate to the CMDB or delete it.
     -   If the CI candidate is appropriate, either add it to the CMDB as is or include more information in it before adding it to the CMDB.
@@ -56,7 +56,7 @@ The CI is added to the CMDB. In the CMDB table for the relevant class type, the 
     -   If the CI candidate is irrelevant, delete it by selecting **Delete**.
 
 
-</td></tr><tr><td id="d105215e167">
+</td></tr><tr><td id="d91719e182">
 
 **Take action on multiple CI candidates at the same time**
 
@@ -77,5 +77,5 @@ The selected CIs are added to the CMDB. The CI candidate records are automatical
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Enhancing the CMDB with host data found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
+**Parent Topic:**[Enhancing the CMDB with host data Health Log Analytics found in logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-cmdb-enrich-concept.md)
 

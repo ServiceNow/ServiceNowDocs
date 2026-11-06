@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/preview-affected-records-for-deletion.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delete records safely, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Deleting records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Preview affected records for deletion
@@ -41,5 +41,5 @@ Up to three levels of cascaded records are deleted when the job is executed. For
 
 [Schedule or execute a job to delete records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/schedule-execute-job-delete-records.md)
 
-**Parent Topic:**[Deleting records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-records-safely.md)
+**Parent Topic:**[Deleting records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-records-safely.md)
 

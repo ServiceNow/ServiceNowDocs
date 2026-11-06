@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/domain-separation-fso-document-processor.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Financial Services Document Processors reference, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Domain separation and Financial Services Document Processor
@@ -34,7 +34,7 @@ All [Financial Services Operations \(FSO\)](https://raw.githubusercontent.com/Se
 
 All new tables added in Document Processor are domain-separated:
 
--   -   sn\_doc\_processor\_category
+-   sn\_doc\_processor\_category
 -   sn\_doc\_processor\_type
 -   sn\_doc\_processor\_m2m\_category\_type
 -   sn\_doc\_processor\_attribute
@@ -49,6 +49,8 @@ All new tables added in Document Processor are domain-separated:
 -   Ability to use in any workflow in Financial Services Operations applications to collect and validate customer documents
 -   Ability to request deferment or exception of a document.
 -   When integrated with Document Intelligence, ability to extract and store document data attributes.
+
+**Parent Topic:**[Financial Services Operations Document Processor reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-document-processor-reference.md)
 
 **Related topics**  
 

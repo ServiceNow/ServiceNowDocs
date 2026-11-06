@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-configure-engagement-messenger.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable communication channels, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Enable communication channels, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure Engagement Messenger for Playbooks
@@ -20,7 +20,7 @@ Configure certain Engagement Messenger settings to enable public sector end user
 -   [Activate the Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/activate-virtual-agent.md) \(com.glide.cs.chatbot\), which requires a subscription.
 -   [Activate the Customer Service Virtual Agent Conversations plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\), which requires a subscription.
 
-## Configure Engagement Messenger for Service Request Playbook application
+## Configure Engagement Messenger for Service Request Administration
 
 Configure Engagement Messenger settings for creating and tracking non-emergency service requests.
 

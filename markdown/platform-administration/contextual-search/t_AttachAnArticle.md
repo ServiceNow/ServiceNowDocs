@@ -7,7 +7,7 @@ release: yokohama
 product: Contextual Search
 classification: contextual-search
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ Role required: none
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Incident**.
+1.  Navigate to **All** &gt; **Incident** &gt; **All**.
 
 2.  Edit an active incident record.
 

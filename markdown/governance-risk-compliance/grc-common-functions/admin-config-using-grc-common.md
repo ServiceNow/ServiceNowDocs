@@ -7,8 +7,8 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -29,12 +29,6 @@ The Tasks Page Configuration module in the classic user interface displays the c
 Update the Tasks Page Configuration record in the classic user interface to display the task configurations in various workspaces. The Tasks Page Configuration record displays the configurations that an end user can view in the My Tasks landing page in each workspace.
 -   **[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)**  
 The Issue Page Configuration module displays the configurations related to the Issues overview landing pages in various workspaces. The data displayed in the Issues overview landing page is configured using the Issue Page Configurations module in the classic user interface. The Issues overview landing page includes the Issues, Issue triages, Tracking status of the issues, and Audit observations pages.
--   **[Create a new Issue Page Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/create-new-issue-page-configuration.md)**  
-Create a new issue page configuration record in the Issue Page Configuration module in the classic user interface. The Issue Page Configuration module displays the configurations related to the Issues section in the landing pages of the workspaces. The newly created issue is displayed in the Issue overview landing page in the selected workspace.
--   **[Link a new Issue Page Configuration record to a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/link-new-issue-config-record-to-the-ws.md)**  
-Create a new Issue Page Configuration record and link it from the classic user interface to the desired workspace. After linking the Issue Page Configuration record, the workspace view displays the new settings in the Issues overview landing page.
--   **[Update an Issue Page Configurations record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/update-issue-page-configuration.md)**  
-Update an existing Issue Page Configurations record in the classic user interface to update the issue page configurations that are displayed in the Issues overview landing page in the workspace. After modifying the configurations in the Issue Page Configuration record, the issues, issue triages, and tracking status of the issues are displayed for the users in the desired workspace.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

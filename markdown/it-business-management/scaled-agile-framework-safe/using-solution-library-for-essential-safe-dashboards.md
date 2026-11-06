@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -26,9 +26,7 @@ For example, if you are upgrading from version 1.0.1 or earlier of the applicati
 -   SAFe Epic Dashboard
 -   SAFe Team Dashboard
 
-For more information, see [Use Solution Library to install a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/install-content.md).
-
-**Note:** For users on the Yokohama release, the **Install** and **Upgrade** buttons are not visible on the Solution Library content form. For information on resolving this issue, see [Allow PA Solution Library for Store apps](https://support.servicenow.com/kb_view.do?sys_kb_id=ce74a4bb1b89d4107a5933f2cd4bcb3f).
+**Note:** For users on the Brazil release, the **Install** and **Upgrade** buttons are not visible on the Solution Library content form. For information on resolving this issue, see [Allow PA Solution Library for Store apps](https://support.servicenow.com/kb_view.do?sys_kb_id=ce74a4bb1b89d4107a5933f2cd4bcb3f).
 
 **Parent Topic:**[Performance Analytics Content Pack for Essential SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/pa-content-pack-essential-safe.md)
 

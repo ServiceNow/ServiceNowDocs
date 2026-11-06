@@ -1,26 +1,24 @@
 ---
 title: ServiceNow Studio release notes
-description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+description: The ServiceNow ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.ServiceNow Studio was enhanced and updated in the October release with updated tracking for update sets and source control changes and persistent versioning for ServiceNow Studio used without Build Agent.ServiceNow Studio was enhanced and updated in the September release with an agentic-first, simplified interface for development, and a configurable activity bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/servicenow-studio-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ServiceNow Studio release notes
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.
 
 ## About ServiceNow Studio
 
--   Work in the best development environment for your task by using the experience switcher to switch between developing in Creator Studio, ServiceNow Studio, and ServiceNow IDE.
--   As of version 27.2.4, the ServiceNow Studio File Navigator performance has been improved for large applications.
--   As of version 27.2.4, you can easily identify apps created in Creator Studio or ServiceNow IDE by looking at the App Details page in ServiceNow Studio.
--   As of version 27.2.4, the file creation experience is now a full-page, guided process with built-in security checks. Admins see all application files, while delegated developers only see file types they have permission to create within the specified scope.
--   As of version 27.2.4, users with Write permission for an application description can use Now Assist for app summary generation to generate an app summary. The Summarize button is disabled for users without access to edit the app description, preventing failures after clicking.
+-   Use the generative and agentic AI capabilities in ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records.
+-   Access low-code builders available in the ServiceNow AI Platform, including Table Builder and flows in Workflow Studio, alongside other development tools.
+-   Package changes for deployment using update sets, pipelines, or the Application Repository without leaving ServiceNow Studio.
 
 See  for more information.
 
@@ -30,73 +28,97 @@ See  for more information.
 
     ServiceNow Studio is a ServiceNow AI Platform feature that is active by default.
 
--   **Upgrade information**
-
-    ServiceNow Studio no longer has to be downloaded from the ServiceNow Store. It’s available on the ServiceNow AI Platform by default.
-
-
-## Accessibility and localization
-
--   **Localization information**
-
-    As of version 27.2.4, there is Right-to-Left language support for ServiceNow Studio.
-
 
 **Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
 
-## May 2025
+## Version 30.1.3
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+ServiceNow Studio was enhanced and updated in the October release with updated tracking for update sets and source control changes and persistent versioning for ServiceNow Studio used without Build Agent.
 
 ### What's new
 
--   **File Navigator performance has been improved for large applications**
-
-    As of version 27.2.4, smaller apps load all files on open, while larger apps \(exceeding a configurable limit\) load a subset initially, with additional files available on demand. Search for files in larger apps will perform server-side calls to decrease load times. Contact your ServiceNow support team to change the app size limits.
-
 -   ****
 
-    As of version 27.2.4, use the new full-page, guided file creation experience to create any type of file for which you have permission.
-
--   ****
-
-    As of version 27.2.4, the app details page for each app shows which development environment your app was created in. Use this information to switch between environments as needed in the course of app development and deployment.
+    ServiceNow Studio supports the Delegated Admin role for ServiceNow Otto app summary generation.
 
 
 ### What's changed
 
 -   ****
 
-    As of version 27.2.4, the available options at the success page for creating an application changed from **Go to app dashboard** to **View App Details** and **Create File**.
+    Update sets and changes linked to source control both display in the Changes tab, with clear tracking paths for both options and support for simultaneous update set and source control use.
 
 
-## Yokohama
+### What's deprecated or removed
 
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
+-   **Pre-VS Code replatformed version of ServiceNow Studio**
+
+    The newly redesigned ServiceNow Studio went through several iterations before the replatform onto VS Code that occurred in March 2026. All versions before the replatform have been deprecated. Previously, turning off Build Agent returned you to the pre-VS Code version of ServiceNow Studio. Now, it stays on the VS Code version and turns off Build Agent.
+
+
+## Version 30.1.1
+
+ServiceNow Studio was enhanced and updated in the September release with an agentic-first, simplified interface for development, and a configurable activity bar.
 
 ### What's new
 
 -   ****
 
-    Use the best tool for your app development by switching between Creator Studio, ServiceNow Studio, and ServiceNow IDE.
+    Learn ServiceNow Studio efficiently with an updated course of quick start topics.
 
 -   ****
 
-    Help prevent duplicate app creation by summarizing the contents of an app using Now Assist app summary generation in ServiceNow Studio and using the summary if accurate as the app description.
+    Personalize the new, agentic-first ServiceNow Studio user interface by choosing which components you want to use. Use the pro option with all features, vibe mode with minimal components, or custom, to choose your own.
 
 -   ****
 
-    Change settings or see related links for an app from the app details page. Refresh your app to load updated details.
-
--   ****
-
-    In the November 2024 release, only admins could create apps in ServiceNow Studio. Now, users with Guided Application Creator \(GAC\) roles can also create applications.
+    ServiceNow Studio supports Build Agent spec mode, which generates a complete implementation plan from your requirements.
 
 
 ### What's changed
 
 -   ****
 
-    The App settings icon in ServiceNow Studio used to open a small modal where only a few settings could be updated and the app could be deleted. In this release, the icon opens a Core UI view of all the app settings and related links for the app.
+    ServiceNow Studio user preferences and settings have moved from the top right corner to the bottom left corner of the interface. View what's new in ServiceNow Studio, access command palette and keyboard shortcut options, and update preferences.
+
+-   **App summary generation moves to an agentic architecture**
+
+    ServiceNow Otto for app summary generation now uses an AI agent to generate application summaries. This change moves the App summary generation from a skill-based architecture to the AI agent orchestration model.
+
+    With this release, users who install the App summary plugin receive the App Summary AI agent.
+
+    The App Summary AI agent is turned off by default after plugin installation to help avoid unexpected charges. An administrator must enable the agent in AI Agent Studio before users can generate application summaries.
+
+    The end-user experience remains the same. The change affects only the underlying architecture, which now uses an agentic model instead of the earlier skill-based model.
+
+-   **Deployment tab**
+
+    The **Deployment** tab, with lists of all update sets, applications, and deployment requests, has moved from the home page to the activity bar as a separate tab.
+
+
+### What's deprecated or removed
+
+-   **Experience switcher**
+
+    The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE capabilities were consolidated under the Explorer tab in ServiceNow Studio. There is no current replacement for the Experience switcher, but each individual application can still be accessed on the ServiceNow AI Platform.
+
+-   **Tools tab**
+
+    The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see .
+
+-   **Create menu**
+
+    The Create menu in the top right corner of ServiceNow Studio has been removed. The other Create option in the activity bar is still available and has the same functionality.
+
+-   **Resources**
+
+    The Resources section has been removed from the ServiceNow Studio home page. There is no current replacement for the Resources section, but users with Build Agent can prompt in the main chat to access resources.
+
+
+### Plugin information
+
+-   **Deprecated plugins**
+
+    Studio \(com.glide.dev-studio\): The new ServiceNow Studio \(sn\_sns\) is the replacement for this plugin. For more information, see .
 
 

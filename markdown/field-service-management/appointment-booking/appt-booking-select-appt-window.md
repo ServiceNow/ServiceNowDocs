@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments from a work order or work order task, Manage appointments on behalf of a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments from a work order or work order task, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Select an Appointment window
@@ -36,8 +36,6 @@ The time zone used for appointment is displayed in the lower corner of the windo
 -   If the selected location for the service has an associated time zone, that time zone is used.
 -   If the location doesn’t have an associated time zone and the current user does, the user's time zone is used.
 -   If the location and the current user don't have an associated time zone, the system time zone is used.
-
-**Parent Topic:**[Manage appointments from a work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-work-order.md)
 
 **Related topics**  
 

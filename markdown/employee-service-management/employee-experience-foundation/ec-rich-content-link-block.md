@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a Link or Link block with the Rich Content Editor
@@ -64,6 +64,14 @@ Display \(Link only\)
 Configure the appearance of multiple components within the same column, such as an image and a text component. Select from the following options:-   **Top and bottom** \(default\): Image appears above the other component.
 -   **Side by side**: Image appears with the other component next to it.
 **Note:** For best results, set the same display for the components. For example, if you have an image and text components in a column and want the image to appear on the left and the text to appear at the right, change the **Display** settings for both components to **Side by side**.
+
+</td></tr><tr><td>
+
+Add Text to list item \(link\)
+
+</td><td>
+
+Enables you to add text below a linked list item by pressing the Right Arrow key, then typing beneath the link.
 
 </td></tr><tr><td colspan="2">
 
@@ -146,6 +154,16 @@ Target
 Indicates where the button directs the user. Your choices are:-   This window: Selecting the button opens the content in the same window you have displayed.
 -   New window: Selecting the button opens the content in a new window.
 
+
+</td></tr><tr><td>
+
+Bulleted or numbered list \(Adding link\)
+
+</td><td>
+
+Adding links to a bulleted or numbered list of items.
+
+ See, [Add a List with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-rich-content-editor-list.md)
 
 </td></tr></tbody>
 </table>5.  If you added a Link block, drag-and-drop an Image into the Link block.

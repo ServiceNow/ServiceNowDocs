@@ -1,48 +1,55 @@
 ---
 title: Exploring Service Observability
-description: Service Observability helps operations teams triage and manage incidents in a complex and distributed production system. It combines external application performance monitoring \(APM\) systems' telemetry with related data from the Configuration Management Database \(CMDB\) and displays both in a single workflow in the Service Operations Workspace \(SOW\).
+description: Service Observability helps operations teams triage and manage incidents in a complex and distributed production system. It combines external observability monitoring systems' telemetry with related data from the Configuration Management Database \(CMDB\) and displays both in a single workflow in the Service Operations Workspace \(SOW\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/exploring-service-observability.html
 release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Service Observability, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Exploring Service Observability
 
-Service Observability helps operations teams triage and manage incidents in a complex and distributed production system. It combines external application performance monitoring \(APM\) systems' telemetry with related data from the Configuration Management Database \(CMDB\) and displays both in a single workflow in the Service Operations Workspace \(SOW\).
+Service Observability helps operations teams triage and manage incidents in a complex and distributed production system. It combines external observability monitoring systems' telemetry with related data from the Configuration Management Database \(CMDB\) and displays both in a single workflow in the Service Operations Workspace \(SOW\).
 
 ## Service Observability overview
 
-Service Observability displays health metrics in the SOW related to a given service. Metrics can be ingested from an external APM system and displayed alongside information for related configuration items in the CMDB.
+Service Observability displays application, infrastructure, and network health metrics in the SOW related to a given service. Metrics can be ingested from an external observability vendor \(application, network, and cloud monitors\) and displayed alongside information for related configuration items in the CMDB.
 
-Service Observability supports the following APM vendors:
+Service Observability supports the following observability vendors:
 
 -   Amazon CloudWatch
 -   AppDynamics
+-   Cisco ThousandEyes synthetic tests
 -   Datadog
--   Dynatrace
+-   DynatraceSaaS and on-premise \(both Classic and Grail environments\)
+-   LogicMonitor
 -   Microsoft Azure Monitor
 -   New Relic
--   Prometheus \(on-premise\)
+-   Prometheus on-premise
 -   SolarWinds on-premise
--   Splunk Observability
+-   Splunk Observability and logs from Splunk Enterprise
+-   Zabbix on-premise
+
+Service Observability also supports MetricBase as a data source. For setup instructions, see [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md).
 
 Service Observability supports the following databases:
 
 -   MySQL
 -   PostgreSQL \(not supported with Splunk\)
--   RDS \(Relational Database Service\) \(Amazon CloudWatch\)
+-   RDS \(Relational Database Service\) for Amazon CloudWatch
 
-After connecting an APM instance to Service Observability, map services in the CMDB to APM metrics using existing tags.
+After connecting an observability vendor to Service Observability, you map services in the CMDB to observability metrics using existing tags.
 
-With this data mapping, Service Observability displays APM metrics for entities such as host or database along with details about related CI information. Operators use these metrics and contextual information, including current incidents and alerts, to assess service health.
+With this data mapping, Service Observability displays metrics for entities such as host, database, or network components, along with details about related CI information. Operators use these metrics and contextual information, including current incidents and alerts, to assess service health.
 
-For example, say you use Dynatrace to monitor your `checkout` service, and metrics from your database and host use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the APM data tagged with `checkout-service`, Service Observability retrieves metrics for those databases and hosts and CIs related to the service. It then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
+
+For example, you use Dynatrace to monitor your `checkout` service, databases, and hosts. Metrics from all these entities use the tag `checkout-service` to denote requests coming from that service. By mapping the `checkout` service CI to the Dynatrace data tagged with `checkout-service`, Service Observability retrieves metrics for those databases, hosts, and related CIs. It then displays them together. Operators can pinpoint issues on entities related to the service and narrow down the mitigation process without having to leave the SOW.
 
 ## Service Observability users
 
@@ -60,9 +67,7 @@ System admin
 
 </td><td>
 
-Version 1.5 only.
-
- System admins configure users and teams, register services to be monitored, connect Service Observability to APMs, and then map those services to that data. They can also view the data in the SOW
+System admins configure users and teams, register services to be monitored, connect Service Observability to observability vendors, and then map those services to that data. They can also view the data in the SOW
 
 </td></tr><tr><td>
 
@@ -70,7 +75,7 @@ Service Observability admin
 
 </td><td>
 
-Version 1.6.x and later.Service Observability admins can configure users and teams, connect Service Observability to APMs, and then map services to that data. They can also view the data in the SOW. Admins can also customize dashboard templates used to display metrics and related information.
+Service Observability admins can configure users and teams, connect Service Observability to observability vendors, and then map services to that data. They can also view the data in the SOW. Admins can also customize dashboard templates used to display metrics and related information.
 
 </td></tr><tr><td>
 
@@ -78,18 +83,18 @@ Operator/operations manager**Note:** These users must belong to an `srm` group t
 
 </td><td>
 
-Operators use Service Observability when triaging incidents in the SOW. They can view basic health metrics for a service, along with related incidents, alerts, and changes. They can get more detailed information by navigating to the **Observability** tab to view additional service metrics, along with metrics from related entities, such as a host or database.
+Operators use Service Observability when triaging incidents in the SOW. They can view basic health metrics for a service, along with related incidents, alerts, and changes. They can get more detailed information by navigating to the **Observability** tab to view additional service metrics, along with metrics from related entities, such hosts, networks, or databases.
 
 </td></tr></tbody>
 </table>## Service Observability workflow
 
-Admins configure Service Observability by registering services, connecting APM metrics, and then mapping the services to that data. Operators use Service Observability to determine if another related entity is causing issues surfaced by the service's performance.
+Admins configure Service Observability by creating a connection to an observability vendor and then mapping CI services to that data. Operators use Service Observability to determine if another related entity is causing issues surfaced by the service's performance.
 
 As an admin, you:
 
 1.  Determine the services to be monitored by Service Observability based on business criticality.
-2.  Connect existing APM instances to Service Observability.
-3.  Map services with APM metric data based on APM-based tags used on that data.
+2.  Connect existing observability vendor instances to Service Observability.
+3.  Map services to observability metric data using vendor-based tags attached to that data.
 4.  Customize the templates used to display metric charts.
 
 As an operator or manager, you:
@@ -114,7 +119,7 @@ Users
 
 </th></tr></thead><tbody><tr><td>
 
-Centralize critical signals and bridge workflows to increase agility and reliability: -   Connect data from external APMs
+Consolidate data from existing monitoring tools, network health tools, cloud providers, ServiceNow agents, and third-party tools for a full-stack view of service health:-   Connect data from external Observability vendors.
 -   Map that data to CMDB services
 -   View combined data in the SOW
 
@@ -148,6 +153,31 @@ See related changes to the system and alerts associated with a service in one pl
 </td><td>
 
 [View overall service health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/view-overall-service-health.md).
+
+</td><td>
+
+Operators
+
+</td></tr><tr><td>
+
+Use generative AI to analyze metric data and find insights to help determine service health.
+
+</td><td>
+
+-   [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md)
+-   [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-service-health-in-service-observability.md)
+
+</td><td>
+
+Operators
+
+</td></tr><tr><td>
+
+See Service Observability data as part of Incident Management workflows
+
+</td><td>
+
+
 
 </td><td>
 

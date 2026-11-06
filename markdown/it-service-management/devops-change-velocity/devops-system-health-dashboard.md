@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, DevOps Change Velocity, IT Service Management]
 ---
@@ -31,7 +31,7 @@ Use the System Health dashboard to track the health, event status, and connectiv
 
 ## Events
 
-From the DevOps Change Workspace, navigate to **Administration** &gt; **System health** &gt; **System health dashboard**.
+From the DevOps Change Workspace, navigate to **List** &gt; **System health** &gt; **System health dashboard**.
 
 <table id="table_sv5_h3z_gsb"><thead><tr><th>
 

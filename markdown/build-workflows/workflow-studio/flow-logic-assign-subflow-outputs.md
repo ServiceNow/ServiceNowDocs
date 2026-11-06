@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Workflow Studio flow logic, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Assign subflow outputs flow logic
@@ -68,6 +68,8 @@ Follow these design considerations when assign output values from a subflow.
 
 **Related topics**  
 
+
+[Append to Flow Variables flow logic]()
 
 [Call a workflow flow logic]()
 

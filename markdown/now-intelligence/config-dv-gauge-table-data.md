@@ -1,16 +1,16 @@
 ---
-title: Table data options for gauge visualizations
+title: Table data options for gauge data visualizations
 description: When you select a table data source for a gauge visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-gauge-table-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Gauge visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Gauge visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Table data options for gauge visualizations
+# Table data options for gauge data visualizations
 
 When you select a table data source for a gauge visualization, the following Data configuration options are available.
 
@@ -32,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md).
+You have selected a Table data source in [Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -182,7 +182,7 @@ Option to update score in real time. If you enable both real-time update and dat
 
 -   When a condition is dot-walked to another table, high traffic on the table suspends real-time data updates.
 -   For tables, real-time updating supports only COUNT data aggregations.
--   Real-time updating is not supported on single score, dial, and gauge visualizations based on remote tables..
+-   Real-time updating is not supported on single score, dial, and gauge visualizations based on remote tables or Workflow Data Fabric tables.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -214,6 +214,14 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
 Content
 
 </td><td>
@@ -229,5 +237,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md)
+</table>**Parent Topic:**[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md)
 

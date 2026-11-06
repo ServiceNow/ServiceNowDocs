@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-scenario-analysis-in-ws.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create a scenario analysis
@@ -36,7 +36,7 @@ If you have the sn\_oper\_res.manager role, you can create a scenario analysis. 
 
 4.  In the **Analysis start date** field in the Milestones panel, enter the start date for the analysis in the **YYYY-MM-DD HH:mm:ss** format.
 
-    Participants receive a notification link to access the record in the Operational Resilience Workspace and start their analysis on the Analysis start date.
+    A notification is sent to the participants to start their analysis on the Analysis start date.
 
 5.  In the **Plan approver** field in the Assignees panel, select the plan approver for the analysis.
 
@@ -44,7 +44,7 @@ If you have the sn\_oper\_res.manager role, you can create a scenario analysis. 
 
     The logged-in user is automatically assigned as the owner of the analysis.
 
-    For the descriptions of the field values on the User New record form, see [Create New Scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/scenario-analyses-reference-in-ws.md).
+    For the descriptions of the field values on the User New record form, see [Create Scenario analysis form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/scenario-analyses-reference-in-ws.md).
 
     A sample scenario analysis form is shown in the following example.
 

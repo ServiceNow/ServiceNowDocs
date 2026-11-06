@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-decision-trees-gdb.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a decision tree in Core UI
@@ -76,11 +76,9 @@ Question font size
 
 </td><td>
 
-The font size of the questions in the guided decision tree. It reflects in the workspace and service portal.
+The font size of the questions in the guided decision tree. It reflects in the workspace and service portal.The font size defined in the parent decision tree is inherited by the child decision tree even though the Question font size for the child decision tree has its own Question font size defined.
 
-The font size defined in the parent decision tree is inherited by the child decision tree even though the Question font size for the child decision tree has its own Question font size defined.
-
-You may need to configure the form to add this field.
+ You may need to configure the form to add this field.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2025-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a Data Discovery job, Data Discovery jobs, Data Discovery, Platform Privacy]
+breadcrumb: [Configure a job, Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
 # Attachment scanning in Data Discovery jobs
@@ -22,10 +22,17 @@ Sensitive data such as social security Numbers \(SSN\), credit card numbers, and
 
 ## Limitations
 
--   Embedded images and attachments in PDF and DOC files will not be scanned for sensitive data.
 -   Files must be less than 10MB.
 -   Support is available for the following file types:
     -   PDF
     -   DOC\(X\)
     -   TXT
+    -   XLS\(X\)
+    -   CSV
+    -   XML
+    -   EML
+    -   MSG
+    -   JPG
+    -   JPEG
+    -   PNG
 

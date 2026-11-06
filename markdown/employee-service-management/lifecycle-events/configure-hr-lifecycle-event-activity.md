@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 33
-breadcrumb: [Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a lifecycle event activity
@@ -20,7 +20,7 @@ Create or modify a lifecycle event activity. Lifecycle Events activities can be 
 
 Role required: sn\_hr\_le.activity\_writer and membership in the owning group that owns the activity.
 
-Each activity must be associated with an owning group. If the activity has a targeted audience, you can use audience records to define the conditions or criteria that the subject person of a lifecycle event case must meet for the activity to trigger on their behalf. Each activity is associated with a single activity set.
+Each activity must be associated with an owning group. If the activity has a targeted audience, use audience records to define the conditions the subject person of a lifecycle event case must meet. Those conditions determine whether the activity triggers on their behalf. Each activity is associated with a single activity set.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Each activity must be associated with an owning group. If the activity has a tar
 
     -   To create a new activity, click **Add Activity**.
     -   To modify an existing activity, hover over the activity and click **Edit Activity**.
-    \[Omitted image "le-builder-configure-activities.png"\] Alt text: Use the lifecycle event builder to create new or modify existing activities.
+    \[Omitted image "le-builder-config-activities-brand2.png"\] Alt text: Use the lifecycle event builder to create new or modify existing activities.
 
 4.  On the Activity form, set the **Activity type** field to one of the following:
 
@@ -131,7 +131,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -287,7 +287,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -434,7 +434,7 @@ Catalog Item
 
 </td><td>
 
-\(Lifecycle Events for Enterprise only\) A catalog item fulfills the activity. In the **Catalog item** field, select the catalog item to use.**Note:** A record producer, which is a specific type of catalog item, can’t be selected from the list of catalog items that appear in this field. A catalog item is a good or service. See [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_IntroductionToCatalogItems.md) for more information.
+\(Lifecycle Events for Enterprise only\) A catalog item fulfills the activity. In the **Catalog item** field, select the catalog item to use.**Note:** A catalog item is a good or service. See [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_IntroductionToCatalogItems.md) for more information.
 
 </td></tr><tr><td>
 
@@ -450,7 +450,7 @@ HR Service
 
 </td><td>
 
-An HR service fulfills the activity. In the **HR service** field, select the HR service to use.**Note:** HR services are the requests and assistance that an HR organization provides its employees. See [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-administration.md) for more information.
+An HR service fulfills the activity. In the **HR service** field, select the HR service to use.**Note:** HR services are the requests and assistance an HR organization provides its employees. See [HR services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-administration.md) for more information.
 
 </td></tr><tr><td>
 
@@ -518,20 +518,20 @@ Audience
 
 </td><td colspan="2">
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
  **Note:** Audience records define the conditions or criteria that a user must meet.
 
 </td></tr></tbody>
-</table>3.  Select **Save**.
+</table>3.  Click **Save**.
 
 4.  In the **Activity Field Mappings** section, you can map fields from the parent lifecycle event case to the appropriate fields on the child activity that is generated when the fulfiller activity is triggered.
 
     **Note:** This section inherits any mappings from the associated fulfiller activity type. You can use the default fulfiller activity type mappings as-is or further modify them.
 
-    1.  Select **New** or open a record.
+    1.  Click **New** or open a record.
 
     2.  Fill in the fields on the form.
 
@@ -600,11 +600,11 @@ Map to field
 Field in the target table that the activity field is mapped to.**Note:** Make sure that the data type of the field being mapped from is the same as the data type of the field being mapped to.
 
 </td></tr></tbody>
-</table>    3.  Select **Submit** or **Update**.
+</table>    3.  Click **Submit** or **Update**.
 
     4.  Repeat the process as needed.
 
-5.  Select **Update**.
+5.  Click **Update**.
 
 
 ## For a notification
@@ -703,7 +703,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -854,7 +854,7 @@ Flow
 Subflow to use with the activity.**Important:**
 
 -   Only the **Switch primary job** subflow that is used to [support multiple jobs in a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/adopt-jobs-table.md) is available to use out-of-box.
--   To use a different subflow with the activity, additional configuration is required. See the [Implementing multiple subflows in an LE activity \[KB0817520](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817520) article in the HI Knowledge Base for more information.
+-   To use a different subflow with the activity, additional configuration is required. See the [Implementing multiple subflows in an LE activity \[KB0817520\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817520) article in the HI Knowledge Base for more information.
 
 
 </td></tr><tr><td>
@@ -899,7 +899,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -1259,7 +1259,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -1284,10 +1284,6 @@ Defines whether the activity should trigger for the lifecycle event case. You ca
     -   Notification
     -   Flow
     -   Content
-    For example, this is an activity container to request a credit card. The activity container has three member activities. The first is to approve the credit card request, the second is to submit the request, and the third is to notify relevant groups about the request.
-
-    \[Omitted image "le-activity-container-example.png"\] Alt text: An activity container to request a credit card, with three member activities to approve the request, submit the request, and notify relevant groups.
-
 5.  Click **Update**.
 
 
@@ -1371,7 +1367,7 @@ Audience
 
 </td><td>
 
-Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If no audience record is selected, then the activity for the activity to trigger in the case. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
+Defines whether the activity should trigger for the lifecycle event case. You can apply one or more audience records. The subject person of the lifecycle event case must meet the conditions or criteria of one audience record for the activity to trigger in the case. If an activity isn't associated with an audience record, then the activity triggers for all employees. The audience criteria for an activity set applies first. When the audience criteria is met, the activity set executes. The audience at the activity level is then checked and executed.
 
  You cannot set an audience for activity sets that have a trigger type of Rescind.
 
@@ -1423,7 +1419,7 @@ Role required: admin
 
 6.  A reorder pop-up appears.
 
-    \[Omitted image "le-reorder-activity.png"\] Alt text: Lifecycle event activity - Reorder
+    \[Omitted image "le-reorder-activity-brand2.png"\] Alt text: Lifecycle event activity - Reorder
 
 7.  Select a choice with your mouse and release.
 
@@ -1431,7 +1427,7 @@ Role required: admin
 
 8.  Another way to edit an activity is to select the Edit Activity icon \(\[Omitted image "le-edit-activity-icon.png"\] Alt text: Lifecycle event - Edit Activity icon\) on an activity.
 
-    The activity appears in a separate window.\[Omitted image "le-edit-activity.png"\] Alt text: Lifecycle event - Edit activity
+    The activity appears in a separate window.\[Omitted image "le-edit-activity-brand2.png"\] Alt text:
 
 9.  Edit the **Activity set** and **Display order** fields to change the activity set the activity belongs to and the order it appears.
 
@@ -1444,7 +1440,7 @@ Role required: admin
 
 For a lifecycle event case, you can trigger or create an activity from an activity that is in another activity set.
 
-Activities in later activity sets can be created based on survey responses in earlier activity sets and for users other than the person the case was created for \(subject person\).
+Activities in later activity sets can be created based on survey responses in earlier activity sets. They can also be created for users other than the subject person of the case.
 
 You can create an activity that has a task type of Collect Employee Input and based on the results, another activity is created. In this example, the activity that has a task type of Collect Employee Input is the upstream activity. The activity that is created from this is the downstream activity.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Working with database views for reporting
@@ -20,7 +20,12 @@ For example, a database view can join the Incident table to the Metric Definitio
 
 Several useful database views are installed with the Database View plugin and the Database Views for Service Management plugin. These database views cover most metric reporting needs and greatly reduce the need to define new ones.
 
-Any user who can create a report can use database views as the report source, but ACLs on the underlying tables are honored. This means that the ACLs of the parent tables of those tables are also evaluated.
+Any user who can create a report can use database views as the report source. Access control follows this hierarchy:
+
+1.  If ACLs exist on the database view itself, those ACLs are evaluated and take precedence.
+2.  If no database view ACLs exist, the system honors ACLs from the underlying tables.
+
+By design, database view ACLs override table-level ACLs.
 
 **Note:**
 
@@ -38,9 +43,11 @@ Any user who can create a report can use database views as the report source, bu
 
 ## ACLs and database views
 
-You do not need to create ACLs on fields in the view. The system honors contextual ACLs \(ACLs with a condition or script\) that exist on the underlying table. Non-contextual ACLs \(ACLs with only role checks\) are still honored just as with previous releases.
+You don't need to create ACLs on fields in the view. If field-level ACLs exist, the system evaluates them.
 
-To require explicit read ACLs be added to the database views, set the **glide.security.expander.view.legacy** property to **true**. On upgraded instances, add this system property and set it to **true**.
+To require that read ACLs be added to the database views, set the **glide.security.expander.view.legacy** property to **true**. On upgraded instances, add this system property and set it to **true**.
+
+When **glide.security.expander.view.legacy** is **true**, underlying table ACLs are ignored. When the property is **false** \(the default\), the underlying table ACLs are used if there are no database view ACLs.
 
 You can still create additional ACLs on the database views. These ACLs are evaluated last and are always honored.
 

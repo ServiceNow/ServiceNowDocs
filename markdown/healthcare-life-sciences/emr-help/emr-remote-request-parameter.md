@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [EMR Help data model tables, EMR Help reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Remote request parameter table
@@ -96,8 +96,6 @@ True/False
 </td><td>
 
 Used to classify whether the information received by this parameter is sensitive or not.
-
- **Note:** Fields marked as true should only be mapped to data columns that have column level encryption enabled. To learn more bout column level encryption, see: [Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-landing.md) .
 
 </td></tr><tr><td>
 

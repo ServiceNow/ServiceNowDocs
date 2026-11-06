@@ -1,18 +1,18 @@
 ---
 title: Activate Email - Support for Email Processing by Microsoft Graph API
-description: You can activate the Email - Support for Email Processing by Microsoft Graph API plugin \(glide.email.graph\) for Notifications if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
+description: You can activate the Email - Support for Email Processing by Microsoft Graph API plugin \(com.glide.email.graph\) for Notifications if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ms-graph-plugin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reading email using Microsoft Graph, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate Email - Support for Email Processing by Microsoft Graph API
 
-You can activate the Email - Support for Email Processing by Microsoft Graph API plugin \(glide.email.graph\) for Notifications if you have the admin role.
+You can activate the Email - Support for Email Processing by Microsoft Graph API plugin \(com.glide.email.graph\) for Notifications if you have the admin role.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Email - Support for Email Processing by Microsoft Graph API plugin \(glide.email.graph\) using the filter criteria and search bar.
+2.  Find the Email - Support for Email Processing by Microsoft Graph API plugin \(com.glide.email.graph\) using the filter criteria and search bar.
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 
@@ -33,14 +33,5 @@ Role required: admin
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/read-email-using-ms-graph.md)
-
-**Related topics**  
-
-
-[Configure an OAuth profile to use a client ID and secret for token generation]()
-
-[Configure an OAuth profile to use certificates for authentication with Microsoft Azure]()
-
-[Create an email account for Microsoft Graph \(receive\)]()
+**Parent Topic:**[Read or send emails using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/read-send-emails-ms-graph.md)
 

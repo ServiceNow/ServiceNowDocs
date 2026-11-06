@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-05-19"
+reading_time_minutes: 4
+breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a legal request for a non-disclosure agreement
@@ -24,40 +24,17 @@ Submit a legal request for a non-disclosure agreement \(NDA\) with third parties
 
 ## Procedure
 
-1.  Access the non-disclosure agreement intake form.
-
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d380116e85">
-
-Method
-
-</th><th align="left" id="d380116e88">
-
-Actions
-
-</th></tr></thead><tbody><tr><td id="d380116e94">
-
-**__Employee Center__**
-
-</td><td>
-
 1.  Navigate to **All** &gt; **Employee Center**.
-2.  Select **Legal** &gt; **Browse all Legal** from the header.
+
+    **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
+
+2.  Navigate **Help center** &gt; **Legal services** &gt; **Legal agreements**.
+
+    **Note:** In new deployments, the base system legal contract intake forms \(Non-disclosure agreement, Third-party contract review, and Contract Amendment and Renewal request\) are hidden by default. On enabling they will be available under **Home** &gt; **Legal Services** &gt; **Legal agreements**. If you are upgrading from an existing deployment, your current intake form visibility settings are unchanged.
+
 3.  Search for and open the **Non-disclosure agreement** request item.
 
-
-</td></tr><tr><td id="d380116e139">
-
-**__Legal Service Portal__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select **Service Catalog**.
-3.  Search for and open the **Non-disclosure agreement** request item.
-
-
-</td></tr></tbody>
-</table>2.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_contract_request_form"><thead><tr><th>
 
@@ -137,7 +114,7 @@ External signatory details
 
 </td><td>
 
-List of people from the selected third party who should sign the agreement.
+List of people from the selected third party who should sign the agreement.**Note:** The **Signatory Role** field appears only when the `sn_cm_core.enable_docusign_signature_roles` system property is set to `true`. The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and defaults to Signer. To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
 
 </td></tr><tr><td>
 
@@ -147,10 +124,11 @@ Signature type
 
 Type of signature.-   Electronic signature: The signatory electronically signs the contract.
 -   Wet signature: The signatory manually signs the physical version of the contract.
+-   Offline signature: The contract is signed outside Contract Management Pro — for example, on paper or through a third-party application.
 The default signature type is Electronic Signature.
 
 </td></tr></tbody>
-</table>3.  Modify the list of signatories.
+</table>5.  Modify the list of signatories.
 
     -   To add a signatory, select **Add** and provide the signatory's details.
 
@@ -158,9 +136,9 @@ The default signature type is Electronic Signature.
 
     -   To remove a signatory, select the Remove row icon \(\[Omitted image "delete-icon.png"\] Alt text: Remove row icon.\) on the signatory's row.
 
-4.  Select **Submit**.
+6.  Select **Submit**.
 
-5.  Modify the request details or manage signatories by selecting **Actions** and then selecting **Edit Request**.
+7.  Modify the request details or manage signatories by selecting **Actions** and then selecting **Edit Request**.
 
     This option is available only if the request state is Draft or Work in progress. For more information, see [Modify a non-disclosure agreement legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-modify-nda-req.md).
 
@@ -186,7 +164,7 @@ The default signature type is Electronic Signature.
     A record for each external signatory is created in the Signer \[sn\_cm\_core\_signer\] table.
 
 
-For more information on how to view and track a legal request, see [View and track non-disclosure agreement requests as a legal user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
+For more information on how to view and track a legal request, see [View and track NDA requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-view-legal-req-details.md).
 
 **Parent Topic:**[Non-disclosure agreement requests]()
 

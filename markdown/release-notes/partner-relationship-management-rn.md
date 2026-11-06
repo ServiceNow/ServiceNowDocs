@@ -1,53 +1,53 @@
 ---
 title: Partner Relationship Management release notes
-description: The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Yokohama release.The ServiceNow Partner Relationship Management application provides a unified workspace for sales, delivery, marketing and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Yokohama release.
+description: The ServiceNow Partner Relationship Management application provides a unified solution for sales, delivery, marketing, and operations to manage the entire partner life cycle. See the following sections for release notes by version.Streamline deal registration with a natural language AI agent that assists users in capturing deal details, validating information, and creating deal records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/partner-relationship-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-04-09"
-reading_time_minutes: 1
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [partner relationship management, PRM, partner portal, deal registration, partner life cycle, partner relationship management, deal registration, AI agent, agentic AI]
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Partner Relationship Management release notes
 
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Yokohama release.
+The ServiceNow® Partner Relationship Management application provides a unified solution for sales, delivery, marketing, and operations to manage the entire partner life cycle. See the following sections for release notes by version.
 
 ## About Partner Relationship Management
 
--   Enable enterprises to gain real-time visibility into partner's performance and engage with the channel partner ecosystem.
--   Enable channel partners to use the self-service Partner portal to register members, raise inquiries, and foster communication between the enterprise and partners.
+-   Submit and track cases through the Partner Portal to reduce resolution time and improve collaboration between partners and enterprises.
+-   Manage partner life cycle activities and collaboration through a single platform.
+-   Register and track partner-sourced deals in a unified system to help avoid conflicts and provide proper recognition.
+-   Provide partners with role-based access to case management, knowledge articles, and program visibility to reduce manual escalations and enable faster independent problem resolution.
+-   View partner engagement, performance, and participation through partner overview for enterprise roles.
 
-See  for more information.
+See [Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/partner-relationship-management.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Partner Relationship Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Partner Relationship Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Partner Relationship Management is available with activation of the Partner Relationship Management plugin. For details, see [Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/install-partner-relationship-management.md).
 
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
 
-## Yokohama General Availability
+## Version 11.0.2
 
-The ServiceNow® Partner Relationship Management application provides a unified workspace for sales, delivery, marketing and operations to help you manage the entire partner life cycle. Partner Relationship Management is a new application in the Yokohama release.
+Streamline deal registration with a natural language AI agent that assists users in capturing deal details, validating information, and creating deal records.
 
 ### What's new
 
--   **[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/configure-partner-relationship-management.md)**
+-   **Deal Registration AI agent**
 
-    Support channel partners, enterprises, and their hierarchies with a centralized data model that specifies the roles and responsibilities of channel partners and enterprises.
+    Accelerate deal registration with an AI agent that assists users with deal intake, validation, and record creation. This helps reduce manual effort by guiding users through the deal registration process and supporting more accurate deal submissions.
 
--   **[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/using-partner-relationship-management.md)**
+    The agent captures deal details, validates records, summarizes information for review, and creates the deal. If validation fails or additional information is needed, the agent suggests corrective actions.
 
-    Enable channel partners to submit service requests, access catalog items, and manage their profiles on the self-service partner portal.
+-   **Partner criteria for deals**
 
--   **[Using Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/using-partner-relationship-management.md)**
-
-    Enable channel partners to create, track, and resolve service cases efficiently with the end-to-end case management workflow on the partner portal.
+    Added filtering rules to control partner access to accounts and consumers when creating deals. These rules help verify partners select only relevant records, reducing errors and supporting cleaner transaction creation.
 
 

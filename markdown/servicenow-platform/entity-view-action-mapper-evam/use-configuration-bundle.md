@@ -1,20 +1,20 @@
 ---
 title: View configurations, view templates, and configuration bundles for EVAM
-description: A view configuration combines conditions, database fields, and declarative actions with an associated view template. You can also group view configurations together to create configuration bundles.
+description: A view configuration combines conditions, database fields, and declarative actions with an associated view template. You can also group view configurations together to create configuration bundles using the Entity View Action Mapper \(EVAM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/entity-view-action-mapper-evam/use-configuration-bundle.html
 release: yokohama
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: concept
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Entity View Action Mapper, EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Exploring Entity View Action Mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View configurations, view templates, and configuration bundles for EVAM
 
-A view configuration combines conditions, database fields, and declarative actions with an associated view template. You can also group view configurations together to create configuration bundles.
+A view configuration combines conditions, database fields, and declarative actions with an associated view template. You can also group view configurations together to create configuration bundles using the Entity View Action Mapper \(EVAM\).
 
 EVAM has pre-defined view configurations, view templates, and configuration bundles to make it easier to use the feature. The base system configuration bundles include:
 

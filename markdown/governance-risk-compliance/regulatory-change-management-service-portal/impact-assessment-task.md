@@ -7,9 +7,9 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Regulatory process flow and tasks, Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Impact assessments for the regulatory alerts
@@ -27,26 +27,5 @@ The impact assessment process is used as a reporting tool for evaluating the imp
 
 **Note:** For more information on how to initiate either of these assessments, refer to [Assess the impact of a regulatory alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/impact-assessment-tasks.md).
 
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
-
-**Related topics**  
-
-
-[Regulatory Change Management application landing page]()
-
-[Tasks page in the Compliance Workspace]()
-
-[Source document import tasks]()
-
-[Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Regulatory assessment for a regulatory alert]()
-
-[Next Experience Discuss and Chat Collaboration]()
-
-[Regulatory Change Management application in the Compliance Workspace]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
+**Parent Topic:**[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)
 

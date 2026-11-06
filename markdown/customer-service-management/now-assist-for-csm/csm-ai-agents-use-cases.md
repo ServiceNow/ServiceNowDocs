@@ -1,27 +1,27 @@
 ---
-title: Using agentic workflows in ServiceNow Otto for Customer Service Management \(CSM\)
-description: The Customer Service Management \(CSM\) AI Agent Collection provides a set of prebuilt, fully configured AI agents and agentic workflows designed to address common Customer Service Management scenarios.
+title: Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)
+description: The Customer Service Management \(CSM\) AI Agent Collection provides a set of prebuilt, fully configured AI agents and agentic workflows to address common Customer Service Management scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Using agentic workflows in ServiceNow Otto for Customer Service Management \(CSM\)
+# Using agentic AI in ServiceNow Otto for Customer Service Management \(CSM\)
 
-The Customer Service Management \(CSM\) AI Agent Collection provides a set of prebuilt, fully configured AI agents and agentic workflows designed to address common Customer Service Management scenarios.
+The Customer Service Management \(CSM\) AI Agent Collection provides a set of prebuilt, fully configured AI agents and agentic workflows to address common Customer Service Management scenarios.
 
-These model examples combine autonomous and supervised flows to perform multi-step actions using advanced reasoning, triggered by customer cases, conversations, or detected intents. Built on the ServiceNow AI Platform, the agents leverage capabilities such as Knowledge Graph, Flow Designer, scripting, Topics, Catalog Items, Retrieval-Augmented Generation \(RAG\), record operations, web search, and generative inputs. Powered by AI Agent Fabric and Workflow Data Fabric, the collection operates seamlessly across systems without dependency on data location, while Guardian enforces guardrails for security and compliance. By offering ready-to-use building blocks, it helps guide and automate complex processes, reduce agent friction, and free human agents to focus on higher-value work—ultimately accelerating resolution times and enhancing customer experience.
+These model examples combine autonomous and supervised flows to perform multi-step actions using advanced reasoning, triggered by customer cases, conversations, or detected intents. Built on the ServiceNow AI Platform, the agents use capabilities such as Knowledge Graph, Flow Designer, scripting, Topics, and Catalog Items. They also use Retrieval-Augmented Generation \(RAG\), record operations, web search, and generative inputs. Powered by AI Agent Fabric and Workflow Data Fabric, the collection operates seamlessly across systems without dependency on data location, while Guardian enforces guardrails for security and conformance. By offering ready-to-use building blocks, it helps guide and automate complex processes, reduce agent friction, and free human agents to focus on higher-value work. This ultimately accelerates resolution times and enhances customer experience.
 
 <table id="table_xt1_lth_l2c"><thead><tr><th>
 
-agentic workflow
+Agentic workflow
 
 </th><th>
 
@@ -55,23 +55,43 @@ Handles end-to-end case or case type validation, creation, verification, and esc
 
 </td><td>
 
-Provides agents with real-time, context aware responses to queries on customer data, case details, product information, catalog entries, and interaction history, using multi-turn Q&amp;A to maintain conversational context and accuracy.
+Provides agents with real-time, context-aware responses to queries on customer data, case details, product information, catalog entries, and interaction history. Uses multi-turn Q&amp;A to maintain conversational context and accuracy.
 
 </td><td>
 
 -   Customer insight AI Agent
 -   Case action AI Agent
 
+</td></tr><tr><td>
+
+[Complaint Case AI Agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/csm-ai-agents-use-cases.md)
+
+</td><td>
+
+Automate and enhance the complaint resolution process by gathering missing information, detecting customer sentiment, categorizing complaints, and proposing resolutions. It supports human agents by managing complaint intake, triage, research, resolution, and ongoing communication, reducing manual effort and case closure time. 
+
+</td><td>
+
+-   Complaint case intake agent
+-   Complaint case triage agent
+-   Complaint case research agent
+
 </td></tr></tbody>
 </table>## Supported Large Language Models
 
 **Note:**
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+
+For the Now LLM Service updates, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md).
 
 ## Security implementation considerations
 
 Enable security implementation to execute AI agents and agentic workflows through Access Control Lists \(ACLs\) and user identities. For more information, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md)
+
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/define-sec-controls-aw.md).
+
+AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/define-sec-controls-aia.md).
 
 ## Considerations for running the autonomous AI Agents
 
@@ -82,13 +102,9 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 -   Activate the agentic workflow.
 -   Activate all agents within the agentic workflow.
 -   Activate the trigger to invoke the agentic workflow automatically. If you prefer to invoke it manually, activating the trigger isn’t necessary.
-
-For information about Triage cases, see [Customer Service Management AI agent collection triage cases agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/case-resolving-use-case.md).
+-   Azure OpenAI is recommended for CSM agentic workflows. For information on Large Language Models \(LLMs\) for AI agents and agentic workflows, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Standalone AI agents
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 

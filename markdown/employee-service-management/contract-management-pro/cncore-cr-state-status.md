@@ -7,10 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-05-19"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [Contract status, State, Contract Management Pro, Contract lifecycle management workflow]
-breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
+breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract request State and Contract document status in Contract Management Pro
@@ -21,6 +21,9 @@ For a contract request you can see the following:
 
 -   State: Indicating the state of the contract request.
 -   Contract status: Indicating the status of the contract document.
+
+    **Note:** For cumulative approvals in the multiple-document scenario, the approval status of latest revision is considered for populating the contract status.
+
 
 <table id="table_tn1_45f_5xb"><thead><tr><th>
 
@@ -102,7 +105,7 @@ Awaiting approval
 
 </td><td>
 
-An approval request has been raised and the contract document is awaiting approval.
+An approval request has been raised and the contract document is awaiting an approval.In multiple document approval scenario, when for at least 1 document \(latest version\) revision approval status is **Requested**, the contract status is **Awaiting approval**.
 
 </td><td>
 
@@ -114,13 +117,14 @@ Awaiting signature
 
 </td><td>
 
-All signatories have signed the document.
+The contract document has been sent for signature.
 
 </td><td>
 
 -   Awaiting signature
 -   Preparing for signature
 -   Signature paused
+-   Signature delivery failed
 
 </td></tr><tr><td>
 
@@ -250,7 +254,7 @@ Document approval rejected
 
 </td><td>
 
-The contract document was rejected by the approver.
+The contract document was rejected by the approver.In multiple document approval scenario, when at least one approval is in the **rejected** state, the contract status is **Document approval rejected**.
 
 </td></tr><tr><td>
 
@@ -368,6 +372,14 @@ Signature paused
 
 Modify signatories action has been initiated and the signature workflow is paused.
 
+</td></tr><tr><td>
+
+Signature delivery failed
+
+</td><td>
+
+The signature request could not be delivered to one or more signatories.**Note:** This is applicable for electronic signature only.
+
 </td></tr><tr><td colspan="2">
 
 **State:Contract signed**
@@ -424,6 +436,10 @@ Contract request was canceled.
 
 [Components installed with Analytics Pack for Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
+[Signatory roles]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -442,5 +458,15 @@ Contract request was canceled.
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

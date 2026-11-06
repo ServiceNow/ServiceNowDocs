@@ -7,7 +7,7 @@ release: yokohama
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -22,19 +22,19 @@ The ServiceNow® Export to PowerPoint for Strategic Portfolio Management add-in 
 
 <table id="id_cqr_1l4_55b" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore. Learn about Export to PowerPoint add-in features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/explore-export-to-ppt.md)
+[Explore \[Omitted image "bus-learn.svg"\] Alt text: Learn about Export to PowerPoint add-in features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/explore-export-to-ppt.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure. Install and configure the Export to PowerPoint add-in.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure the Export to PowerPoint add-in.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/configure-export-to-ppt.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "request.png"\] Alt text: Use. Use Export to PowerPoint to generate and download your project status report.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text: Use Export to PowerPoint to generate and download your project status report.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/using-export-to-ppt.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference. Get details about components installed, form fields, tables, roles, and general guidelines.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)
+[Reference \[Omitted image "bus-whitepaper.svg"\] Alt text: Get details about components installed, form fields, tables, roles, and general guidelines.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/export-to-powerpoint-for-application-portfolio-management/export-ppt-reference.md)
 
 </td></tr></tbody>
 </table>**Important:**

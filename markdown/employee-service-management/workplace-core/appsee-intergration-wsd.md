@@ -1,36 +1,36 @@
 ---
-title: View workplace service usage analytics with User Experience Analytics
-description: The ServiceNow User Experience Analytics provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
+title: View workplace service usage analytics with Usage Insights
+description: The ServiceNow Usage Insights provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-core/appsee-intergration-wsd.html
 release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
-# View workplace service usage analytics with User Experience Analytics
+# View workplace service usage analytics with Usage Insights
 
-The ServiceNow® User Experience Analytics provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
+The ServiceNow® Usage Insights provides you with qualitative analytics on how the services provided by the Workplace Service Delivery applications are used by the workplace managers, employees, and other workplace users.
 
 ## User analytics
 
-The User Experience Analytics application provides you with data as to how an employee uses the various services and other actions that you provide them in the Workplace Service Portal. You can understand how an employee experiences and uses those services, such as their behavior and their journey around the portal. You can get an insight about the performance of the application by viewing a real-time analysis through data visualization.
+The Usage Insights application provides you with data as to how an employee uses the various services and other actions that you provide them in the Workplace Service Portal. You can understand how an employee experiences and uses those services, such as their behavior and their journey around the portal. You can get an insight about the performance of the application by viewing a real-time analysis through data visualization.
 
 You can log the events and get the analysis by enabling the analytics-related setting either on the Workplace Service Portal level, on the workplace service level, and anywhere throughout Workplace Core.
 
-For more information about User Experience Analytics, refer to [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md).
+For more information about Usage Insights, refer to [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md).
 
 ## System properties
 
-ServiceNow®, by default, provides a set of properties with User Experience Analytics that are common to all application using which you can specify how you want to enable analytics. As an admin, you can enable or disable the analytics for specific portals, specific users, or at the instance level. For detailed information about the system properties related to user experience analytics, refer to [User Experience Analytics related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/all-analytics-properties.md).
+ServiceNow®, by default, provides a set of properties with Usage Insights that are common to all application using which you can specify how you want to enable analytics. As an admin, you can enable or disable the analytics for specific portals, specific users, or at the instance level. For detailed information about the system properties related to Usage Insights, refer to [related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/all-analytics-properties.md).
 
 ## Settings
 
-The User Experience Analytics application enables you to specify the analytics settings on the portal level. Navigate to **All** &gt; **Service Portal** &gt; **Portals** &gt; **Workplace Services** and select **Create Analytics Settings** to enable user analytics.
+The Usage Insights application enables you to specify the analytics settings on the portal level. Navigate to **All** &gt; **Service Portal** &gt; **Portals** &gt; **Workplace Services** and select **Create Analytics Settings** to enable user analytics.
 
 **Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/manage-wsd-activites.md)
 
@@ -46,6 +46,8 @@ The User Experience Analytics application enables you to specify the analytics s
 [Block a workplace location]()
 
 [Configure Workplace entity and entity types]()
+
+[Managing Neighborhoods]()
 
 [Enable favorites option for Workplace Service Portal]()
 

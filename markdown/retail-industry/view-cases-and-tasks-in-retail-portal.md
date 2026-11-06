@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/view-cases-and-tasks-in-retail-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Track cases and tasks from Retail portal, Retail]
+breadcrumb: [Track cases and tasks from the Retail portal, Retail]
 ---
 
 # Track your cases and tasks from the Retail portal
@@ -28,6 +28,7 @@ Role required: Store associate, Store Manager, Regional Manager
     -   Cases: All cases that are assigned to your current assigned cases, unassigned cases, or cases requested by you.
     -   Escalated cases: Cases that are currently in an escalated state.
     -   Tasks: All tasks to be fulfilled by retail personas that are assigned to you, unassigned, or recently updated.
+    -   In-Store Ops Tasks: Store Tasks for your store, including the parent case and when each task was last updated. This category appears only when Retail In-store Operations is installed.
 3.  Select a case to see the details about it.
 
 

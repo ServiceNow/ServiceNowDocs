@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Setting up your workforce, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
 
 # Configuring Field Service Agent Efficiency
@@ -47,11 +47,17 @@ The steps for configuring Field Service Agent Efficiency are:
 
 1.  [Activate Field Service Agent Efficiency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/activate-field-service-agent-efficiency.md)
 
-    Activating the Field Service Agent Efficiency plugin \(com.snc.fsm\_agent\_efficiency\) requires the admin role.
+    Activating the Field Service Agent Efficiency \(com.snc.fsm\_agent\_efficiency\) plugin requires the admin role.
 
 2.  [Create or modify Agent Efficiency criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-criteria.md)
 3.  [Assign an Agent Efficiency value to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/assign-efficiency-value-to-agents.md)
 4.  \(Optional\) [Create or modify an Agent Efficiency determination rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/create-or-modify-agent-efficiency-determination-rule.md)
-5.  \(Optional\) Configure Field Service Agent Efficiency with Dynamic Scheduling to auto-assign tasks to the agents. For more information, see[Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md) .
-6.  \(Optional\) Configure Field Service Agent Efficiency with Intelligent Task Recommendations to recommend the best suited task for an agent based on the efficiency. For more information, see [Setting up Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/administer-task-recommendations.md).
+5.  \(Optional\) Configure Field Service Agent Efficiency with Dynamic Scheduling to auto-assign tasks to the agents. For more information, see [Configuring Dynamic Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/Configure-dynamic-scheduling.md).
+6.  \(Optional\) Configure Field Service Agent Efficiency with Intelligent Task Recommendations to recommend the best suited task for an agent based on the efficiency. For more information, see [Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/administer-task-recommendations.md).
+7.  \(Optional\) Configure Field Service Agent Efficiency with Schedule Optimization to identify, schedule, and assign tasks to the most appropriate agent based on the agent efficiency and an accurate estimated duration. For more information see, [Configuring Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/schedule-optimization-engine.md).
+
+**Related topics**  
+
+
+[Field Service Agent Efficiency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/agent-efficiency.md)
 

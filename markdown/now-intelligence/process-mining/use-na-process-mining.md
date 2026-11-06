@@ -1,25 +1,29 @@
 ---
-title: Using Now Assist for Process Mining
-description: Run work notes analysis on a transition to identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.
+title: Using ServiceNow Otto for Process Mining
+description: Use ServiceNow Otto for Process Mining to run work notes analysis on a transition and generate highlights on improvement opportunities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/use-na-process-mining.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
-# Using Now Assist for Process Mining
+# Using ServiceNow Otto for Process Mining
 
-Run work notes analysis on a transition to identify the work notes and generate insights about inefficiencies, challenges, and other reasons that cause reassignment of work.
+Use ServiceNow Otto for Process Mining to run work notes analysis on a transition and generate highlights on improvement opportunities.
 
-This section covers the following topic:
+This section covers the following topics:
 
--   **[Run work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/run-worknotes-analysis.md)**  
-Generate a work notes analysis on a transition. 50 transition records are required to trigger work notes analysis, and 25 work notes must be eligible.
+-   **[Run transition work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/run-worknotes-analysis.md)**  
+Generate a transition work notes analysis on a transition.
+-   **[Generate highlights for improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/generate-highlights.md)**  
+Generate highlights for the improvement opportunities to optimize your processes.
+-   **[Run intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/run-intent-and-activity-analysis.md)**  
+Generate a intent and activity analysis on a node.
 
-**Parent Topic:**[Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/now-assist.md)
+**Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/now-assist.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Populate an application service using the Dynamic CI Group method
+title: Use the Dynamic CI Group method to populate application services
 description: The Dynamic CI Group method for populating an application service, automatically generates a dynamic CI group. The members of the CMDB group that the dynamic CI group is based on, populates the application service. The application service continuously synchronizes with the CMDB group to reflect any changes in membership in the CMDB group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Populate an application service using the Dynamic CI Group method
+# Use the Dynamic CI Group method to populate application services
 
 The Dynamic CI Group method for populating an application service, automatically generates a dynamic CI group. The members of the CMDB group that the dynamic CI group is based on, populates the application service. The application service continuously synchronizes with the CMDB group to reflect any changes in membership in the CMDB group.
 
@@ -23,10 +23,10 @@ The Dynamic CI Group is one of several methods for populating an application ser
 **Note:**
 
 -   The number of CIs in an application service that is populated by the Dynamic CI Group method, is limited to 10,000, even if the associated CMDB group has more than 10,000 CIs.
--   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups]().
+-   A CMDB group can be used to populate only a single application service. For more information about populating and using CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 -   A dynamic CI group contains CIs but can't contain other groups.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Dynamic CI Group, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 Role required: app\_service\_admin
 

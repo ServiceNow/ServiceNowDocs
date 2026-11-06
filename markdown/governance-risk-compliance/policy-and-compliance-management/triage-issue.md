@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Report self-identified issues via the Service Portal, Manage issues in Policy and Compliance Management, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Report self-identified issues, Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Triage a self-identified issue
@@ -137,13 +137,7 @@ Ability to resolve the reportable issue assigned to them
 
     The list shows triage issues previously created and assigned to you.
 
-    \[Omitted image "issue-triages.png"\] Alt text: Issue Triages
-
 2.  Click the number of the issue that you want to triage.
-
-    \[Omitted image "issue-triage-new.png"\] Alt text: Issue Triage - new record
-
-    **Note:** The **Classification** field is automatically pre-filled based on the **Issue type** selected. Similarly, an assignment rule called sn\_grc\_advanced\_issue\_triage runs and pre-fills the **Triage group**. This rule uses the **Source** and **Classification** to determine the group to which the triage is assigned. Assignment rules also handle issue triages in Risk Management and triages where the **Classification** is set to **Other** \(that is, it is initially unknown\). For the second use case, you must manually set the **Triage group** to **Risk** or **Compliance**.
 
 3.  When you are ready for triage of this issue to begin, select a **Triage owner** and click **Analyze**.
 
@@ -166,9 +160,7 @@ Ability to resolve the reportable issue assigned to them
 
     \[Omitted image "triage-results-addl.png"\] Alt text: Additional results
 
-7.  If you select a result, such as **Confirmed as a new compliance issue**, which requires more action than simple observation, additional analysis fields display, as shown in the following screen.
-
-    \[Omitted image "issue-results-addl-fields.png"\] Alt text: Additional fields displayed as result of Result selection
+7.  If you select a result, such as **Confirmed as a new compliance issue**, which requires more action than simple observation, additional analysis fields display.
 
     If the result is **Confirmed as an existing compliance issue**, then an **Existing issue** field appears where you must identify the existing issue that you are referring to.
 
@@ -177,8 +169,6 @@ Ability to resolve the reportable issue assigned to them
     **Note:** If the issue is out for review, the reviewer can also click **Complete Triage** to complete the triage and create an actual issue.
 
     The issue triage transitions to the **Closed** state and a link to the issue displays at the top of the screen.
-
-    \[Omitted image "triage-closed.png"\] Alt text: Triage closed and new issue created
 
 9.  The issue can be analyzed using the usual issue management procedures.
 

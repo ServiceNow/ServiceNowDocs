@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-sentiment-analysis.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Task Intelligence for Customer Service, Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Sentiment Analysis
@@ -21,13 +21,11 @@ Use the sentiment analysis feature included with Task Intelligence for Customer 
 -   Identify the ongoing sentiment of updated cases.
 -   Display this information to agents and managers.
 
-\[Omitted image "task-intel-case-list-sentiment2.png"\] Alt text: My Cases list view in CSM Configurable Workspace showing positive, negative, and neutral case sentiment fields.
-
 Agents can use current case sentiment to prioritize their work and ongoing sentiment as it trends over time to see if cases are moving in the right direction.
 
 Managers can use sentiment to route cases to agents with the right empathy skills, monitor cases and reassign as needed, and avoid escalations. Manager can also identify coaching opportunities by looking at cases that ended on a negative sentiment.
 
-**Note:** In the Yokohama release, the sentiment analysis feature can predict sentiment for cases created in English.
+**Note:** In the Brazil release, the sentiment analysis feature can predict sentiment for cases created in English.
 
 ## Sentiment analysis machine learning models
 

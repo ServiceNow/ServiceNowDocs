@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI systems, Definitions of AI asset inventory, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI systems, Definitions of AI asset inventory, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Example of an AI system
@@ -21,7 +21,7 @@ While AI risks extend beyond banking and finance, consider an AI system for cred
 For instance, an organization might use AI to generate credit scores for loan approvals and using those scores to make approval decisions. The AI system can be fed a variety of data from the following large language models \(LLMs\):
 
 -   Now LLM: Provides financial information, payment history, and so on.
--   Open AI: Provides details such as bankruptcy filings, court judgments.
+-   Open AI: Provides details such as bankruptcy filings, court judgments, and so on.
 -   Azure OpenAI: Provides spending and saving patterns.
 
 The figure in the following example illustrates how an AI system is interrelated with datasets, models, and the broader ecosystem.

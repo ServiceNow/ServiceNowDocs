@@ -7,9 +7,9 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Improvement integration with other applications, Overview, Continual Improvement Management, IT Service Management]
+breadcrumb: [Create an improvement request, Continual Improvement Management, IT Service Management]
 ---
 
 # Create application records from improvement initiatives
@@ -32,17 +32,76 @@ Role required: sn\_cim.improvement\_coordinator or sn\_cim.improvement\_manager
 
     **Note:** Related links are visible only when a CIM task is in the Open, Work in Progress, or On Hold state.
 
-    |Record type|Link to select|
-    |-----------|--------------|
-    |Demand|Create Demand|
-    |Project|Create Project|
-    |Coaching opportunity|Create Coaching Opportunity|
-    |Knowledge base articles|Create Knowledge|
-    |Agile Development story|Create Story|
-    |Performance Analytics automated indicator|Create PA Indicator|
-    |Change|Create Change|
+<table id="table_ugr_kht_bgc"><thead><tr><th>
 
-    **Note:**
+Record type
+
+</th><th>
+
+Link to select
+
+</th></tr></thead><tbody><tr><td>
+
+Demand
+
+</td><td>
+
+Create Demand
+
+</td></tr><tr><td>
+
+Project
+
+</td><td>
+
+Create Project
+
+</td></tr><tr><td>
+
+Coaching opportunity
+
+</td><td>
+
+Create Coaching Opportunity
+
+</td></tr><tr><td>
+
+Knowledge base articles
+
+</td><td>
+
+Create Knowledge
+
+</td></tr><tr><td>
+
+Agile Development story
+
+</td><td>
+
+Create Story
+
+</td></tr><tr><td>
+
+Performance Analytics automated indicator
+
+</td><td>
+
+Create PA Indicator
+
+</td></tr><tr><td>
+
+Change
+
+</td><td>
+
+Create Change**Note:** You must have the following roles to view and create change requests:
+
+-   change\_read, change\_write, or ITIL roles to view the **Create Change** link.
+-   change\_write or ITIL roles to create change records.
+If you have not been assigned the required roles, contact your system administrator.
+
+</td></tr></tbody>
+</table>    **Note:**
 
     Default field values set in the **sn\_cim.initiative\_copy\_attributes** property are populated in the application record form. Contact your administrator to edit this property by adding or deleting fields. For more information, see [Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/configure-cim-int-property.md).
 
@@ -53,5 +112,5 @@ Role required: sn\_cim.improvement\_coordinator or sn\_cim.improvement\_manager
 
 The application record is created and UI changes display on the source improvement initiative or CIM task record and corresponding application records. For more information, see [Updates after application record creation from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/updates-app-record-from-initiative.md).
 
-**Parent Topic:**[Improvement integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
+**Parent Topic:**[Create an improvement request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/create-cim-request.md)
 

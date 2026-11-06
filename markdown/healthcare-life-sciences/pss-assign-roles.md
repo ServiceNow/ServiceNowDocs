@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [Configuring Patient Support Services, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Assign roles for Patient Support Services users

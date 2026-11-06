@@ -1,20 +1,20 @@
 ---
 title: Send CAB meeting request to attendees
-description: You can send CAB meeting invitations to attendees for each CAB meeting.
+description: Send Change Advisory Board \(CAB\) meeting invitations to the attendees of each CAB meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/send-cab-meeting-request-attendees.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbench, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
 # Send CAB meeting request to attendees
 
-You can send CAB meeting invitations to attendees for each CAB meeting.
+Send Change Advisory Board \(CAB\) meeting invitations to the attendees of each CAB meeting.
 
 ## Before you begin
 
@@ -24,11 +24,13 @@ Role required: sn\_change\_cab.cab\_manager
 
 You can send meeting invitations from a CAB meeting only.
 
+**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
 ## Procedure
 
-1.  Navigate to the CAB meeting for which you want to send out invitations using one of the following steps.
+1.  Navigate to the CAB meeting for which you want to send invitations.
 
-<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d420779e60">
+<table id="choicetable_mqf_2kv_lz"><tbody><tr><td id="d365848e89">
 
 **Open from the CAB meeting list**
 
@@ -38,7 +40,7 @@ You can send meeting invitations from a CAB meeting only.
 2.  Select and open the CAB meeting to modify.
 
 
-</td></tr><tr><td id="d420779e90">
+</td></tr><tr><td id="d365848e119">
 
 **Open from the CAB definition list**
 
@@ -50,7 +52,7 @@ You can send meeting invitations from a CAB meeting only.
 
 
 </td></tr></tbody>
-</table>2.  Click the **Send meeting request to attendees** related link.
+</table>2.  Select the **Send meeting request to attendees** related link.
 
     The CAB meeting invitation is sent to all listed attendees.
 

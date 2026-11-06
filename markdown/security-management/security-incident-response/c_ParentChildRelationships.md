@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,6 +34,4 @@ Note:
 -   The **Parent** field is used to associate the security incident with a parent record, such as a major incident, problem, or change request, that is outside the Security Incident module. For grouping multiple security incidents to a main security incident, the **Parent security incident** field is used.
 
 When a parent is closed or canceled, any active children are also closed or canceled. Any active **Response Tasks** on the child incidents are canceled. If there are no other open **Tasks**, the child incident is closed. When closed, the **Post Incident Interview** records the closure and the information found on the **Closure Information** tab is propagated from the parent to the children.
-
-\[Omitted image "ChildResponseTaskClosed.png"\] Alt text: Child response task closed and post incident review updated
 

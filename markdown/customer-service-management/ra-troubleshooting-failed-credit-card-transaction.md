@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-troubleshooting-failed-credit-card-transaction.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example configurations of recommended actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Example: Troubleshoot a failed credit card transaction

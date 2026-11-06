@@ -1,18 +1,18 @@
 ---
 title: Add or edit a department
-description: You can create or edit departments to effectively manage and optimize business applications by providing a structured approach to align the business applications with the strategic goals of the organization.
+description: Create or edit departments to manage and optimize business applications and align them with organizational strategic goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-or-edit-a-department.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage departments, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage departments, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit a department
 
-You can create or edit departments to effectively manage and optimize business applications by providing a structured approach to align the business applications with the strategic goals of the organization.
+Create or edit departments to manage and optimize business applications and align them with organizational strategic goals.
 
 ## Before you begin
 
@@ -34,10 +34,17 @@ Role required: user\_admin
     -   To update details of an existing department, select the department.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create new department form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-department-form.md).
+    For field information, see [Create department form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-department-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-departments.md)
+**Parent Topic:**[Manage departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-departments.md)
+
+**Related topics**  
+
+
+[View all departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-departments.md)
+
+[Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)
 

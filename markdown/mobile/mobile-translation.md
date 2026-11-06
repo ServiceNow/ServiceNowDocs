@@ -1,34 +1,34 @@
 ---
 title: Create translation records for mobile
-description: Create records on the Translated Name / Field table to translate elements of your mobile app that are not natively translated.
+description: Create records on the Translated Name / Field table to translate elements of your mobile app that aren't natively translated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-translation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Localization on mobile devices, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Server-side localization, Localization, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Create translation records for mobile
 
-Create records on the Translated Name / Field table to translate elements of your mobile app that are not natively translated.
+Create records on the Translated Name / Field table to translate elements of your mobile app that aren't natively translated.
 
 ## Before you begin
 
 Role required: admin
 
-Use these steps to add translations for your mobile device that are not already translated by your mobile device's native translation settings. To see which elements need to be manually translated, switch your mobile device's native language to the language you are working on, and view your mobile apps to see which values remain in English. Use the steps below to translate the remaining values.
+Use these steps to add translations for your mobile device that aren't already translated by your mobile device's native translation settings. To see which elements must be manually translated, switch your mobile device's native language to the language you're working on. Then view your mobile apps to see which values remain in English. To translate the remaining values, follow the procedural steps in the next section.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Localization** &gt; **Translated Name / Fields** &gt; **.**
+1.  Navigate to **All** &gt; **System Localization** &gt; **Translated Name / Fields**
 
-2.  Click **New** to create a new Translated Name / Fields record.
+2.  Select **New** to create a Translated Name / Fields record.
 
 3.  On the form, fill in the fields.
 
-<table id="table_q1y_m4b_2mb"><thead><tr><th>
+<table id="table_tfs_qpw_mhc"><thead><tr><th>
 
 Field
 
@@ -79,13 +79,13 @@ Element
 
 </td><td>
 
-The element on the table to be translated. See the table below for element names for each translatable element.
+The element on the table to be translated. Refer to [Translation values for mobile element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-translation-reference.md) for the element names of each translatable element.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 5.  Repeat the steps to create a record for each language you want to support on your instance.
 
 
-**Parent Topic:**[Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-mobile-device.md)
+**Parent Topic:**[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-server-side.md)
 

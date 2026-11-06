@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Field Service Management with other applications, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Integration with Change Management
@@ -18,7 +18,7 @@ With ServiceNow Change Management for Field Service, create work orders from a c
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Change Management for Field Service provides an integration between the Change Management and Field Service Management applications. The Change Management application enables ITIL agents to create work orders from change requests in the CRM Workspace and ServiceNow AI Platform application. This integration provides a unified experience to ITIL agents by enabling them to track the progress of a related work order directly in the change request.
 

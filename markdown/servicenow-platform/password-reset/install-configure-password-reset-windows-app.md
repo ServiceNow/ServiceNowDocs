@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Installing and configuring Password Reset Windows Application
@@ -39,5 +39,5 @@ The Password Reset Windows Application has a few limitations.
 -   **[Uninstall the Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/win-uninstall-password-reset.md)**  
 You can run either an EXE or an MSI file to uninstall the application.
 
-**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-admin-guide.md)
+**Parent Topic:**[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-landing-page.md)
 

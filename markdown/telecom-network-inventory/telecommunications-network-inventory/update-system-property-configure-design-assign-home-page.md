@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Design and Assign function for your network services, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Update system property to configure the Design and Assign home page
@@ -43,7 +43,7 @@ The Change model name appears as a UI action in the Design and Assign home page.
 
 ## What to do next
 
-Use the playbook to design and assign a service request. To learn more, see [Using Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md).
+Use the playbook to design and assign a service request. To learn more, see [Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md).
 
 **Parent Topic:**[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-use-case-example.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Customer Service Management and the CSDM guidelines, Getting started with Customer Service Management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CSDM guidelines, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Customer Service Management examples
@@ -18,7 +18,7 @@ In this example, the CSDM helps the fictitious ACME technology company use CSM t
 
 ACME offers a network monitoring service to its enterprise customers who can purchase either the Platinum, Gold, or Silver offering. A customer, Boxeo, has purchased the network monitoring Platinum offering \(Sold Product\) and is using it in development and production environments \(Install Base Item\).
 
-\[Omitted image "csm-data-model-example.png"\] Alt text: CSM data model example.
+\[Omitted image "csm-data-model-example-v5.png"\] Alt text: CSM data model example.
 
 The key personas \(customer service agents, network operations center \(NOC\) engineers, service owners, and customers\) can complete the following tasks:
 

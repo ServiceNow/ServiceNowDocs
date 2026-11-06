@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-mov-mgmt-setup.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Move Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Update a move-related workplace service record producer. Link a workplace servic
 -   **[Create a move-related knowledge base article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/create-move-related-kb-article.md)**  
 Create a knowledge base article so that you can provide move-related information or notices to employees.
 -   **[Review move conflicts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/review-conflicts.md)**  
-View the reason behind a move request conflict.
+You can review the reason behind a move request conflict and decide how to resolve the conflict.
 
 **Parent Topic:**[Workplace Move Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-move-mgmt-overview.md)
 

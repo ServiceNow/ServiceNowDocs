@@ -1,20 +1,20 @@
 ---
 title: Share a document link
-description: Create a shared link with public access to share and download a document for collaboration.
+description: Create and control document sharing based on classification for shared links with public access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/document-management-services/share-document-link.html
 release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document repository, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Share a document link
 
-Create a shared link with public access to share and download a document for collaboration.
+Create and control document sharing based on classification for shared links with public access.
 
 ## Before you begin
 
@@ -30,9 +30,13 @@ The **Share document** button is visible only when the document has a valid defa
 
 2.  Select the record that you want to share the document link for.
 
-3.  In the record, select **Share Document**.
+3.  In the record, select **Share** to share the document link.
+
+    **Note:** To restrict the creation and sharing of permalinks based on document classifications go to the system property **com.snc.documents.permalink.allowed\_classification** and add the classification type under the property value.
 
 4.  For Link Validity, select **Permanent** to keep the link permanently, or select **Expire Link On**, and select the link expiry date.
+
+    **Note:** If a classification that was previously allowed for permalink creation becomes restricted then a new permalink cannot be created for documents if the classification is changed to restricted. But existing permalinks will continue to function until they have reached their expiry date or are explicitly deleted.
 
 5.  Select the copy link icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy link icon.\) to copy and share the document link to download the document.
 
@@ -53,6 +57,8 @@ The **Share document** button is visible only when the document has a valid defa
 [Download a document]()
 
 [Modify a shared link access]()
+
+[Configure document permissions]()
 
 [Delete a document link]()
 

@@ -1,0 +1,49 @@
+---
+title: File ACH return
+description: File a return to ODFI for a disputed transaction if it has been determined to be eligible for a refund.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/fso-ach-file-refund.html
+release: yokohama
+product: Dispute Management
+classification: dispute-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Processing an ACH dispute, Resolving ACH disputes, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# File ACH return
+
+File a return to ODFI for a disputed transaction if it has been determined to be eligible for a refund.
+
+## Before you begin
+
+Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
+
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
+
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+
+5.  Select the **Playbook** tab.
+
+6.  In the **Processing** tab, select the transaction ID.
+
+7.  In **Open Tasks**, select **File ACH return**.
+
+8.  Once you've completed the due diligence for filing a return with the ODFI, provide an appropriate description and any relevant remarks.
+
+9.  Close the task.
+
+
+**Parent Topic:**[Processing an ACH dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/process-dispute-ach.md)
+

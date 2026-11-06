@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -173,5 +173,5 @@ In this example, Agent A is auto-assigned the task.
 
 ### Agent assignment using Advanced Work Assignment \(AWA\)
 
-You can configure [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-application-landing-page.md) to automatically assigns security incidents to your security analysts, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified security analysts using work item queues, routing conditions, and assignment criteria that you define.
+You can configure  to automatically assigns security incidents to your security analysts, based on their availability, capacity, and optionally, skills. AWA pushes work to qualified security analysts using work item queues, routing conditions, and assignment criteria that you define.
 

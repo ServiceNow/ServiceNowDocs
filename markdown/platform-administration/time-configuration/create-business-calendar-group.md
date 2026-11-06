@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating business calendars, Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a business calendar group
@@ -51,11 +51,7 @@ You can base a Performance Analytics indicator or a report on business calendars
 
 The Gregorian Calendar group comes with the base system. It includes the Week, Month, Quarter, and Year business calendars, which also come with the base system.
 
-\[Omitted image "gregorian-calendar-group.png"\] Alt text: The business calendar group record for the Gregorian calendar, showing the component business calendars
-
-Each business calendar record also shows which groups it belongs to.
-
-\[Omitted image "biz-calendar-showing-group.png"\] Alt text: Business calendar record showing which business calendar groups it is in
+Each business calendar record \(Week, Month, Quarter, and Year\) also shows which groups it belongs to.
 
 **Parent Topic:**[Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/business-calendars.md)
 

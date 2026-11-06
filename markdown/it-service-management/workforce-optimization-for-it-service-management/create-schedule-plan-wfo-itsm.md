@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Create a schedule plan
@@ -17,6 +17,8 @@ breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Sch
 Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability. This way, you can make sure that you are using your resources in the best way possible for your organization.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 

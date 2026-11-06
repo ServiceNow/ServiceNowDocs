@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Patterns, Amazon Web Services \(AWS\), Cloud, Discovery, Visibility, CMDB, IAM]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -43,8 +43,9 @@ There are several approaches for discovering AWS environments.
 1.  Cloud metadata discovery: Provides a high-level view of the AWS cloud infrastructure.
 2.  Cloud OS-Level discovery: Provides a deeper level of discovery that indicates the state of the AWS cloud resources, such as installed software, active services, running processes, and system configurations.
 3.  Event‑driven cloud discovery: Tracks changes in the life-cycle state or the configuration of AWS cloud resources. For more information, see [AWS events-driven discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/aws-events-driven-discovery.md)
-4.  Collecting data with Agent Client Collector \(ACC-VC\): Performs horizontal IP-based discovery for OS-related attributes such as system configurations, network interfaces, and running process. For more information, see [Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-visibility-landing-page.md).
-5.  Collecting data with Service Graph Connectors: Imports and integrates AWS data into CMDB and non-CMDB tables. Specializes in collecting the data for AWS Organizations. For more information, see [AWS discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/aws-discovery-methods.md) and [Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-integration-aws-sg.md).
+4.  Collecting data with AWS Systems Manager: Provides a streamlined, agent-based approach to discovering Amazon Elastic Compute Cloud \(EC2\). For more information, see [AWS SSM discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/aws-ssm-discovery.md)
+5.  Collecting data with Agent Client Collector \(ACC-VC\): Performs horizontal IP-based discovery for OS-related attributes such as system configurations, network interfaces, and running process. For more information, see [Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-discovery.md).
+6.  Collecting data with Service Graph Connectors: Imports and integrates AWS data into CMDB and non-CMDB tables. Specializes in collecting the data for AWS Organizations. For more information, see [AWS discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/aws-discovery-methods.md) and [Service Graph Connector for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-integration-aws-sg.md).
 
 For comparison of AWS cloud discovery methods and requirements, see [AWS cloud discovery methods and use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/aws-discovery-methods-use-case.md)
 
@@ -74,7 +75,7 @@ In the ServiceNow AI Platform side, there are user configurations needed if you 
 -   Discovery runs commands and API queries to access and discover your AWS infrastructure. Before starting to configure Discovery roles and permissions, review the Cloud discovery spreadsheet and verify the REST API permissions.
 
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 

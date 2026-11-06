@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/escalate-csm-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case and account escalation, Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case and account escalation, Manage cases, Use, Customer Service Management]
 ---
 
 # Escalate a case or an account
@@ -16,7 +16,10 @@ Users with the escalation requester role can escalate a case or account.
 
 ## Before you begin
 
-Role required: sn\_customerservice.escalation\_requester or sn\_customerservice.deescalation\_requester
+Role required:
+
+-   sn\_customerservice.escalation\_requester, sn\_customerservice.deescalation\_requester or sn\_crm\_escalation\_admin to escalate a case.
+-   sn\_customerservice.escalation\_requester, sn\_customerservice.deescalation\_requester, sn\_crm\_escalation\_admin, or sn\_crm\_account\_data\_manager to escalate an account.
 
 ## Procedure
 
@@ -132,6 +135,10 @@ Additional information that explains why this escalation is needed.
 </td></tr></tbody>
 </table>4.  Click **Submit**.
 
-    If the escalation template includes an approval workflow, the approvers review the escalation request and either approve or deny the request \(provide a reason\). Once the escalation request is approved, the customer is notified.
+    If the escalation template includes an approval flow, the approvers review the escalation request and either approve or deny the request \(provide a reason\). Once the escalation request is approved, the customer is notified.
+
+    **Note:** Multiple escalations cannot be created for the same case.
+
+    For more details see, [Case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/use-case-account-escalation.md).
 
 

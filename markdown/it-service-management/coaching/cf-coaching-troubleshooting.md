@@ -1,20 +1,20 @@
 ---
-title: Coaching troubleshooting
-description: Troubleshooting actions can help resolve common issues when setting up or running Coaching.
+title: Resolve Coaching issues
+description: Resolve common issues when setting up or running Coaching.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/cf-coaching-troubleshooting.html
 release: yokohama
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Coaching reference, Coaching, IT Service Management]
+breadcrumb: [Reference, Coaching, IT Service Management]
 ---
 
-# Coaching troubleshooting
+# Resolve Coaching issues
 
-Troubleshooting actions can help resolve common issues when setting up or running Coaching.
+Resolve common issues when setting up or running Coaching.
 
 <table id="table_xgp_zw4_sfb"><thead><tr><th>
 
@@ -52,7 +52,7 @@ These resolutions are applicable to a coaching assessment not being created:-   
 
 </td></tr><tr><td>
 
-I need to override ACLs and trainings for the Assigned Training related list on the Coaching Opportunity and Coaching Assessment forms.
+You want to override ACLs and trainings for the Assigned Training related list on the Coaching Opportunity and Coaching Assessment forms.
 
 </td><td>
 

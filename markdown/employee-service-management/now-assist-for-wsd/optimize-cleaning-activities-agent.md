@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-08-20"
-reading_time_minutes: 3
-breadcrumb: [Optimize cleaning activities agent overview, Using AI agent workflows in Now Assist for WSD, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Optimize cleaning activities agent overview, Using AI agent workflows in ServiceNow Otto for WSD, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
 # Optimize cleaning activities agentic workflow
@@ -18,7 +18,7 @@ This team of workplace agents can find open maintenance cases and optimize it fo
 
 ## Optimize cleaning activities agentic workflow overview
 
-This AI agentic workflow enables Workplace teams to schedule and manage cleaning and other maintenance schedules based on space utilization and optimization. This agentic AI retrieves employee reservation data and visitor registration planned for a specific office location and date. It checks the minimum and maximum space utilization threshold to see if cleaning requests are required. It deactivates the cases when a location shows a minimum utilization threshold value \(below 40\). The agents optimize the cleaning schedule based on how workplace employees plan to use a space or location. It checks space wastage to provide the optimum workplace experience to employees. For more information, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
+This AI agentic workflow enables Workplace teams to schedule and manage cleaning and other maintenance schedules based on space utilization and optimization. This agentic AI retrieves employee reservation data and visitor registration planned for a specific office location and date. It checks the minimum and maximum space utilization threshold to see if cleaning requests are required. It deactivates the cases when a location shows a minimum utilization threshold value \(lower than 40\). The agents optimize the cleaning schedule based on how workplace employees plan to use a space or location. It checks space wastage to provide the optimum workplace experience to employees. For more information, see [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
 
 ## AI agents used in optimize cleaning activities workflow
 
@@ -74,4 +74,8 @@ This agent gets all open maintenance cases based on the maintenance plan Id. Eac
 This agent can take a list of maintenance cases available and calculate the utilization rate of each case. This utilization rate is used to optimize the cases. This agent takes a list of maintenance cases as input and calculates the utilization rate for locations for a given schedule.
 
 **Parent Topic:**[Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md)
+
+**Previous topic:**[Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md)
+
+**Next topic:**[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md)
 

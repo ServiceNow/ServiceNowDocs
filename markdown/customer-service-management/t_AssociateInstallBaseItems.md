@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssociateInstallBaseItems.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Customer Data Models for B2B2C, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using customer data models for B2B2C, Customer management, Use, Customer Service Management]
 ---
 
 # Associate install base items with account consumers
@@ -46,7 +46,7 @@ Add an existing consumer
 
 </td></tr><tr><td>
 
-Add a new consumer
+Add a consumer
 
 </td><td>
 

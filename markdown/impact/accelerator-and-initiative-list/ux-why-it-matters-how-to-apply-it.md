@@ -1,51 +1,44 @@
 ---
-title: UX: Why It Matters and How to Apply It
-description: The UX: Why It Matters and How to Apply It Accelerator takes examples directly from your instance to demonstrate how improving UX can directly influence the success of your ServiceNow investment.
+title: UX: Build a Foundation for Better Experiences
+description: This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/ux-why-it-matters-how-to-apply-it.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# UX: Why It Matters and How to Apply It
+# UX: Build a Foundation for Better Experiences
 
-The UX: Why It Matters and How to Apply It Accelerator takes examples directly from your instance to demonstrate how improving UX can directly influence the success of your ServiceNow investment.
+This Accelerator takes examples directly from the Impact customer’s instance to develop their understanding of User Experience \(UX\) and demonstrate how investing in UX directly influences the success of their ServiceNow investment.
 
 ## Accelerator overview
 
-User Experience \(UX\) is crucial for maximizing the value of your ServiceNow investment because it ensures that workflows, interfaces, and tools are intuitive, efficient, and enjoyable for all users. A strong UX increases adoption rates, reduces errors, and drives self-service success, empowering employees and customers to interact seamlessly with the platform. By prioritizing UX, organizations can unlock the full potential of the ServiceNow platform, delivering measurable ROI through improved productivity, satisfaction, and operational efficiency.
+UX: Build a Foundation for Better Experiences helps Impact customers develop the foundational skills to start considering the needs of their users as part of their ongoing ServiceNow implementation process. By developing this capability and mindset, customers can unlock the full potential of the platform, improve productivity, enhance user satisfaction, and boost operational efficiency.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Platform Governance\), Advanced and Total Packages.
 
 ## What you get
 
--   **Introduction session \(up to 60 minutes\)**
+-   **Session Preparation**
+    -   Provide a temporary instance
+    -   Review customer’s implemented experience to gain deeper insights of the UX
+-   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 
     Includes the following activities:
 
-    -   Review of the scope and expectations of the Accelerator
-    -   Review your UX goals and what you need to be successful
-    -   Walk through next steps
--   **UX presentation \(up to 120 minutes\)**
-
-    This presentation includes two sections.
-
-    Part one reviews the following:
-
-    -   Why UX is important
-    -   UX compared to design: Similarities and differences
-    -   UX concepts and terms explained and applied to everyday ideas
-    Part two reviews the following:
-
-    -   Why UX matters for your ServiceNow products and personas
-    -   A presentation of examples pulled directly from your unique instance to demonstrate how UX would improve multiple areas of your ServiceNow AI Platform
-    .
-
+    -   Review the scope and expectations of the accelerator and confirm customer’s UX goals and maturity level
+    -   Outline the importance of considering user needs, goals, and feedback when implementing ServiceNow products
+    -   Present UX concepts, terms, and examples from customer instance to demonstrate how UX can improve multiple areas of their ServiceNow AI Platform
+-   **Customer Coaching Session \#2 \(Optional Upon Recommendation-up to 1 hour\)**
+    -   Continue discussion of UX concepts and opportunities, if needed
+    -   Opportunity for Q&amp;A related to developing UX practice
 -   **Outputs**
 
     Content covered in the UX presentation
@@ -53,15 +46,23 @@ User Experience \(UX\) is crucial for maximizing the value of your ServiceNow in
 
 ## Requested customer resources
 
-One or more customer resource is requested. The specific number of resources provided is Accelerator and customer specific.
+One or more customer resources are requested. The specific number of resources provided is accelerator and customer specific.
 
 |Customer resource|Responsibilities|Required|Optional|
 |-----------------|----------------|--------|--------|
-|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
-|Customer UX Lead|Responsible for designing the user experience on the Customer’s end.| |✓|
+|Product Owner|Manages Customer’s  ServiceNow  Portal.|✓| |
+|UX &amp; OCM expert|Primary stakeholders and advocates for user experience and organizational change management.   | |✓|
+|Process/Service Owner\(s\)|A senior leader within each business unit for each major process or service \(Example: incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.| |✓|
+|Developer\(s\)|Writes code for the ServiceNow platform| |✓|
+|Trusted Service Partner\(s\)|Attends ServiceNow Impact accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Exceptions
+## Requested Information/Access
 
--   The Accelerator may conclude early if the assessment clearly identifies required changes.
--   ServiceNow resources are not responsible for implementation or management of the ServiceNow platform.
+-   Assessment of customer’s UX maturity
+-   Description of common user profiles
+-   Overview of customer’s intended goals and motivations for prioritizing user experience
+
+## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

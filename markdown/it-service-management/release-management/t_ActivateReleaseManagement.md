@@ -7,9 +7,9 @@ release: yokohama
 product: Release Management
 classification: release-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Release Management, IT Service Management]
+breadcrumb: [Release Management, IT Service Management]
 ---
 
 # Activate Release Management
@@ -19,10 +19,6 @@ Activate the Release Management plugin \(com.snc.release\_management\_v2\) with 
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-For more information, see [Components installed with Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/components-installed-with-release-management-v2.md) v2.
 
 ## Procedure
 
@@ -39,5 +35,8 @@ For more information, see [Components installed with Release Management](https:/
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 
-**Parent Topic:**[Configuring Release Management v2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/configuring-release-management.md)
+-   **[Components installed with Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/components-installed-with-release-management-v2.md)**  
+Several types of components are installed with activation of the Release Management v2 plugin, including tables and user roles.
+
+**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/c_ITILReleaseManagement.md)
 

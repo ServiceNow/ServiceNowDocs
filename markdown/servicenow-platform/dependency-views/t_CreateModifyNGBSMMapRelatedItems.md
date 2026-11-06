@@ -7,9 +7,9 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Administer Dependency Views, Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create or modify Map Related Items
@@ -18,7 +18,7 @@ The Map Related Items module relates referenced CIs to one another, which allows
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ## About this task
 

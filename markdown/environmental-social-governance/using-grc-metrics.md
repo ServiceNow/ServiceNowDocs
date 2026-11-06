@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/using-grc-metrics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -38,6 +38,10 @@ Specify the value formula in the sn\_grc\_metric\_definition in the required rec
 The metric and the metric definition overview pages provide visualization for the metric trends and help you to monitor the tasks and activities that need attention.
 -   **[Reviewing calculation details with formula trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/reviewing-formula-tree.md)**  
 Review calculated metric definitions by viewing a structured and visual representation of the entire calculation chain. By using a formula tree, you can access the calculation details and view how the different metrics and emission factors are interconnected.
+-   **[Submit metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/submit-metric-data-tasks-for-a-campaign.md)**  
+Submit metric data tasks for a campaign individually, or together as a bulk action if bulk submission is enabled for the campaign.
+-   **[Manage metric data tasks for a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/manage-metric-data-tasks-for-a-campaign.md)**  
+Approve, reject, or review metric data tasks for a campaign individually, or together as a bulk action if bulk submission is enabled for the campaign.
 
 **Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-landing-page.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-consumer-customer-record.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Verify a contact, consumer, or guest user, Engaging with the customer using email interaction, Using Email Interaction for Customer Service Management, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Verify user details, Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a consumer or contact record
@@ -18,6 +18,8 @@ Create a consumer or contact from the Lookup and Verify feature in the contextua
 ## Before you begin
 
 Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, workspace\_admin, or admin
+
+In addition to the preceding roles, a user with any one of the sn\_crm\_consumer\_data\_manager, sn\_crm\_consumer\_relationship\_data\_manager, sn\_crm\_foundation\_data\_manager, or sn\_crm\_foundation\_admin roles can create a consumer. A user with any one of the sn\_crm\_account\_data\_manager, sn\_crm\_account\_relationship\_data\_manager, sn\_crm\_foundation\_data\_manager or sn\_crm\_foundation\_admin can create a Contact record.
 
 ## About this task
 

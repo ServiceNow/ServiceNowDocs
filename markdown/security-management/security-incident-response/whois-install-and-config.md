@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reverse Whois integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -29,15 +29,15 @@ Role required: admin
 
 2.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Whois API tile.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
-    \[Omitted image "whois-configure.png"\] Alt text: A description of the app and the button used to initiate the configuration.
+    \[Omitted image "reverse-whois-config-tile.png"\] Alt text: A description of the app and the button used to initiate the configuration.
 
 4.  In the **Whois API Configuration** dialog box, enter the API key you obtained from the product website.
 
     \[Omitted image "reverse-config-9-4.png"\] Alt text: Reverse Whois API Configuration completed configuration
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     Configuration is successfully completed unless an error message is displayed. You can now run enrichment lookups on the domains returned from the Reverse Whois integration.
 

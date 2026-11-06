@@ -1,5 +1,5 @@
 ---
-title: Manage visitor registrations
+title: Managing visitor registrations
 description: As an admin and as a reception staff, you can track visitor registrations and update their status while the visitors are on the premises.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Manage visitor registrations
+# Managing visitor registrations
 
 As an admin and as a reception staff, you can track visitor registrations and update their status while the visitors are on the premises.
 
@@ -27,6 +27,8 @@ As an admin and as a reception staff, you can perform the following actions on v
 
 As an admin, you can also view visit logs containing details about the state changes for the visitor registrations.
 
+-   **[Use the receptionist portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/use-receptionist-portal.md)**  
+Use the receptionist portal to manage visitor activity in your workplace.
 -   **[Update a visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/update-visitor-registration.md)**  
 Track visitor registrations and update the status of a visitor while the visitor is on the premises.
 -   **[View visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/view-visitor-registrations.md)**  

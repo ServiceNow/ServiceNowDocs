@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-customization-prop-table-f-g-maps.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customization properties, Setup for Crisis map, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

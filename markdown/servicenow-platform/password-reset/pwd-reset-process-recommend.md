@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Calculating the security score for password reset process
@@ -45,5 +45,28 @@ To maximize your Password Policy Score, enable the Password Policy on the Creden
 
 **Send password reset process security score notification** is a weekly job that send reminders to the password admin about the score and recommendations to improve the score. An email notification is sent to the Process Owners of all the active processes if **Enable security score notification** option is selected in Password Reset Process form.
 
-**Parent Topic:**[Configuring Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-admin-guide.md)
+**Parent Topic:**[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)
+
+**Related topics**  
+
+
+[Configure password expiration reminder]()
+
+[Credential stores for Password Reset]()
+
+[Password Reset verifications]()
+
+[Configure your Password Reset process to auto-enroll users]()
+
+[Enable users to enroll for Password Reset]()
+
+[Configure Password Reset properties]()
+
+[Send email to remind users to enroll for Password Reset]()
+
+[Configure the required strength for passwords]()
+
+[Specify lockout for failed login attempts]()
+
+[Configure Google reCAPTCHA for the password reset process]()
 

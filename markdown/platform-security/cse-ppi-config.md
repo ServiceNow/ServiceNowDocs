@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cse-ppi-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
 # Configure Code Signing Enterprise on your protected instance
@@ -28,7 +28,7 @@ Roles required:
 
 ## Procedure
 
-1.  On your PPI, navigate to **All** &gt; **Code Signing** &gt; **Code Signing Configuration** to open the Code Signing configuration page.
+1.  On your PPI, navigate to **All** &gt; **Code Signing** &gt; **Configuration** &gt; **Guided Setup** to open the Code Signing configuration page.
 
 2.  In the **Instance type** field, select **protected instance**.
 
@@ -56,7 +56,9 @@ Roles required:
 
 11. Wait while your instance performs a guardrail check.
 
-    This check scans your instance for any invalid signatures, and might take some time to complete. Don't exit or refresh the page until the scan completes.
+    This check scans your instance for any invalid or missing signatures, and might take some time to complete. Don't exit or refresh the page until the scan completes.
+
+    This workflow identifies signatures that were generated with expired or inactive certificates and re-signs the affected records. To improve performance, the workflow now divides the process into multiple events and runs them in parallel.
 
 12. If the scan finds invalid signatures, select **Download Report**.
 

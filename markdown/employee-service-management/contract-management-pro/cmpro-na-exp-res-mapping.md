@@ -1,34 +1,35 @@
 ---
 title: Map a field to an expected response
-description: Map a field of a use case to an expected response. Now Assist executes the fields \(prompt questions\) on a contract document to identify a non-standard clause.
+description: Map a field of a use case to an expected response. AI uses the field mapping to identify a non-standard clause in a contract document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-03-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Contract analysis, Contract analysis expected response mapping, Expected response for contract analysis fields, Expected response mapping, Clause mapping, Now Assist in contract management pro, ServiceNow Otto for Contract Management Pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a field to an expected response
 
-Map a field of a use case to an expected response. Now Assist executes the fields \(prompt questions\) on a contract document to identify a non-standard clause.
+Map a field of a use case to an expected response. AI uses the field mapping to identify a non-standard clause in a contract document.
 
 ## Before you begin
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
+Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile for your skill, select **Activate skill**.
+3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -66,7 +67,11 @@ Request table
 
 </td><td>
 
-Table that the contract analysis is executed from.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+Table that the contract analysis is executed from.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 
@@ -82,8 +87,8 @@ Expected response
 
 </td><td>
 
-Expected response:-   Yes: When Now Assist returns the same response as expected, the system considers the field as standard.
--   No: When Now Assist returns a response that differs from the expected answer, the system considers the field as non-standard.
+Expected response:-   Yes: When AI returns the same response as expected, the system considers the field as standard.
+-   No: When AI returns a response that differs from the expected answer, the system considers the field as non-standard.
 
 All such fields within a field group are categorized as non-standard and are displayed in transaction results with AI-generated comments in both the workspace and Word Add-in.
 
@@ -103,11 +108,19 @@ Order
 
 </td><td>
 
-Order in which the expected response is evaluated if a field has been mapped to multiple responses.Now Assist evaluates the expected response from the lowest ordered number to the highest ordered number. Now Assist stops evaluating when the expected response is satisfied.
+Order in which the expected response is evaluated if a field has been mapped to multiple responses.AI evaluates the expected response from the lowest ordered number to the highest ordered number. AI stops evaluating when the expected response is satisfied.
 
 </td></tr></tbody>
 </table>9.  Select **Save**.
 
+
+## Result
+
+The fields of the contract analysis use case are mapped to expected responses. AI uses the field mapping to identify a non-standard clause on a contract document.
+
+## What to do next
+
+[Map a use case for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-ca.md)
 
 **Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 
@@ -119,4 +132,6 @@ Order in which the expected response is evaluated if a field has been mapped to 
 [Map a field group to a clause]()
 
 [Map a use case for contract analysis]()
+
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

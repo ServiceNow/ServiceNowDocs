@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -37,6 +37,4 @@ Once the integration is set up, you can use the CIC Plus service with new hire o
 ## How the CIC Plus integration works
 
 The CIC Plus integration works as follows. Your HR management system \(HRMS\) pushes employee information to your IDP and ServiceNow AI Platform systems. The CIC Plus integration then invokes the get\_usa\_employee\_profile REST endpoint to fetch employee information. When a user opens an assigned task and clicks on the link to connect to the CIC Plus service, the CIC Plus integration authenticates the user through a SAML identification via your IDP service. After the user completes the required tax forms, the status is pushed back to the ServiceNow AI Platform system and the employee task is automatically closed.
-
-\[Omitted image "cic-plus-integration.png"\] Alt text: CIC Plus integration setup.
 

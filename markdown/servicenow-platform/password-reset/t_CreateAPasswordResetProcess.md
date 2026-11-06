@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure your Password Reset process
@@ -18,7 +18,7 @@ To implement the process, you configure credentials, verification methods and se
 
 ## Before you begin
 
-Role required: password\_reset\_admin or admin
+Role required: password\_reset\_admin
 
 1.  Be sure to [Plan your Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_PlanPasswordReset.md).
 2.  Create the credential store record for user names and passwords that are managed.
@@ -30,20 +30,6 @@ Role required: password\_reset\_admin or admin
     -   The Password Reset Windows App \(com.glideapp.password\_reset\_desktop\) plugin supports changing the AD password.
 3.  Define the verifications that the process can use.
 4.  Configure Password Reset to auto-enroll users or to enable users to enroll for the program. See [Configure your Password Reset process to auto-enroll users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/configure-auto-enroll-for-pwd-reset.md) and [Enable users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/configure-user-enroll-for-pwd-reset.md).
-
-Configuring password reset for external users: External users \(users with the snc\_external role\) cannot manually enroll their devices in the password reset system. Security restrictions prevent external users from writing data to the password reset enrollment tables, and the enrollment form is not accessible to external users by default.
-
-To enable password reset for external users, configure an automatic verification that does need manual enrollment such as Personal data verification or Email Code or SMS Code verification. Make sure that their email address or phone number is already stored in their user record.
-
-To configure automatic verification for external users:
-
-1.  Navigate to **Password Reset** &gt; **Processes**.
-2.  Select any of the automatic verifications from the related list of a process record ie Personal data/SMS/Email.
-3.  Ensure that the SMS/Email are of type Automatic and for that navigate to **Password Reset** &gt; **Extensions** &gt; **Verification types**.
-4.  Select the **Automatic enrollment** option.
-5.  Ensure that external users have a valid email address or phone number in their user profile.
-
-Once configured, external users can receive a one-time verification code to their registered email address or phone number to complete the password reset process.
 
 ## About this task
 
@@ -102,6 +88,8 @@ A Password Reset process consists of the following elements:
 14. Navigate to **Password Reset** &gt; **Properties** to set the properties that configure the Password Reset experience for end users.
 
 
+-   **[Calculating the security score for password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/pwd-reset-process-recommend.md)**  
+The security score of the password reset process is a critical metric for the password reset administrators to assess the strength and configuration of the password reset process.
 -   **[Configure password expiration reminder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-expiration-setup.md)**  
 You can configure the password reset expiration reminder feature to send notifications to change or reset a user’s password whenever it is going to expire.
 -   **[Credential stores for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/c_CredentialStores.md)**  
@@ -112,7 +100,7 @@ Each verification specifies the method and process for verifying the identity of
 To simplify management, many organizations auto-enroll users in the Password Reset program. Every base-system verification type enables you to specify automatic enrollment for your process.
 -   **[Enable users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/configure-user-enroll-for-pwd-reset.md)**  
 To enable users to enroll for the Password Reset program, you specify a UI macro that takes the user through the enrollment process and a script that processes the enrollment data that the user entered. The base system includes a functioning macro and script.
--   **[Configuring Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_SetPwdResetProps.md)**  
+-   **[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_SetPwdResetProps.md)**  
 You can specify properties that configure the Password Reset experience for end users.
 -   **[Send email to remind users to enroll for Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/config-pwd-reset-enroll-reminder.md)**  
  You can automatically send messages that remind users to enrolled in the Password Reset process. You specify the text of the message and can configure the messages to repeat at intervals.

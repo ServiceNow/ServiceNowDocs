@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/preview-email-cases.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage email tasks, Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Preview an email from the Emails related list
@@ -23,7 +23,7 @@ Role required: sn\_customerservice\_agent
 For information about adding or modifying actions on a form, see the following topics:
 
 -   [Customizing your workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/declarative-actions-landing.md)
--   [Create a UXF client action for forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-a-new-uxf-client-action-for-forms.md)
+-   [Create a form action button](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-a-new-form-action.md)
 -   [Declarative actions glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/declarative-actions-glossary.md)
 
 ## Procedure

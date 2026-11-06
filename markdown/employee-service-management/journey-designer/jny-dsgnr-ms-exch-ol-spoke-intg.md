@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrations for Journey designer app, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrate, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrating Microsoft Exchange Online spoke with Journey designer

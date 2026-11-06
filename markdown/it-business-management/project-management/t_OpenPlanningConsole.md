@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Planning console - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Open the project planning console
@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Open the planning console using any of the following methods.
 
-<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d239168e68">
+<table id="choicetable_tt5_jhn_sdb"><thead><tr><th align="left" id="d307343e68">
 
 Option
 
-</th><th align="left" id="d239168e71">
+</th><th align="left" id="d307343e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d239168e77">
+</th></tr></thead><tbody><tr><td id="d307343e77">
 
 **From project workspace**
 
@@ -42,7 +42,7 @@ Steps
 2.  Select the **Planning** tab.
 
 
-</td></tr><tr><td id="d239168e105">
+</td></tr><tr><td id="d307343e105">
 
 **From a project record**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select the **Planning Console** related link.
 
 
-</td></tr><tr><td id="d239168e129">
+</td></tr><tr><td id="d307343e129">
 
 **From Project Workbench**
 

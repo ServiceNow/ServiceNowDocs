@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up coaching in Workforce Optimization for Field Service, Configuring Workforce Optimization for Field Service, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up coaching, Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
 
 # Set up skill prediction to resolve similar tasks in Workforce Optimization for Field Service

@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Custom URLs association to your instance, Authentication, Access Management]
+breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
 
 # Activate custom URLs
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the Plugin Files related list, find the following property, and change the setting value:
 
-<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d52434e115">
+<table id="choicetable_dhn_fnq_hz"><tbody><tr><td id="d57963e112">
 
 **glide.customurl.enabled**
 

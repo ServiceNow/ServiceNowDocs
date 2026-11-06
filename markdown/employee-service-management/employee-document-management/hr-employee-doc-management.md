@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Document Management
 classification: employee-document-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Document Management
@@ -20,27 +20,34 @@ Your company asks employees to complete and return documents related to benefits
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how Employee Document Management works Learn about how Employee Document Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/exploring-employee-document-management.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how Employee Document Management works Learn about how Employee Document Management works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/exploring-employee-document-management.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/configuring-employee-document-management.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/configuring-employee-document-management.md)
 
 </td><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Learn how to manage employee documents Learn how to manage employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/using-employee-document-management.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how to manage employee documents Learn how to manage employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/using-employee-document-management.md)
 
 </td></tr><tr><td>
 
-[Dashboard \[Omitted image "icon-report.png"\] Alt text: View statistics of your employee documents View statistics of your employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/edm-dashboard.md)
+[Dashboard \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: View statistics of your employee documents View statistics of your employee documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/edm-dashboard.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: More information on other properties of Employee Document Management More information on other properties of Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/reference-employee-document-management.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: More information on other properties of Employee Document Management More information on other properties of Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/reference-employee-document-management.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

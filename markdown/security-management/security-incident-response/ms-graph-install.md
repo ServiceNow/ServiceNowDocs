@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up your Now platform instance for the Microsoft Graph Security API integration, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Set up instance, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Install and configure the Servicenow application for Microsoft Graph Security API alert ingestion integration
@@ -28,19 +28,19 @@ Role required: sn\_si.admin
 
     \[Omitted image "ms-graph-config-tile.png"\] Alt text: Microsoft Graph Security API: configure
 
-3.  To configure the application, click **Configure**.
+3.  To configure the application, select **Configure**.
 
 4.  In the Alert Ingestions Configuration dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d68866e125">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d69985e134">
 
 Field
 
-</th><th align="left" id="d68866e128">
+</th><th align="left" id="d69985e137">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68866e134">
+</th></tr></thead><tbody><tr><td id="d69985e143">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d68866e149">
+</td></tr><tr><td id="d69985e158">
 
 **Tenant ID**
 
@@ -56,7 +56,7 @@ Name of the Microsoft Azure Cloud instance. You can enter only alphanumeric valu
 
 The Microsoft Azure Tenant ID. This is the instance from which all the alerts in the Microsoft Azure portal are retrieved.
 
-</td></tr><tr><td id="d68866e164">
+</td></tr><tr><td id="d69985e173">
 
 **Client ID**
 
@@ -64,7 +64,7 @@ The Microsoft Azure Tenant ID. This is the instance from which all the alerts in
 
 The Client ID for the application that you have registered in the Microsoft Azure portal. See [Configure the Microsoft Azure portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-graph-configure-azure.md) for details.
 
-</td></tr><tr><td id="d68866e189">
+</td></tr><tr><td id="d69985e198">
 
 **Client Secret**
 
@@ -73,9 +73,9 @@ The Client ID for the application that you have registered in the Microsoft Azur
 The password for your registered application.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
-    After it is successfully validated and submitted, each alert ingestions server configuration is saved on the Security Integrations page as a tile. If your saved configuration tiles are not displayed on the Security Integrations page, on the top right corner of the page, from the Show Configurations choice list, click **Yes**.
+    After it is successfully validated and submitted, each alert ingestions server configuration is saved on the Security Integrations page as a tile. If your saved configuration tiles are not displayed on the Security Integrations page, on the top right corner of the page, from the Show Configurations list, select **Yes**.
 
 
 ## What to do next

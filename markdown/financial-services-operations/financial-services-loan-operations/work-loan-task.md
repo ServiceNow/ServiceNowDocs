@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Financial Services Loan Operations, Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a loan task for a loan service case
@@ -36,7 +36,7 @@ For the following loan workflows, agents can also use the case playbook that gui
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Loan Tasks**, open the task list.
 

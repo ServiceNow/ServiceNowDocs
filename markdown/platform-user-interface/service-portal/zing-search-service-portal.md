@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -43,7 +43,7 @@ Search sources have simple and advanced configurations.
 
 ## Text index groups
 
-A text index group defines how users see search results. For example, combine search results from several sources, or set the weight of certain fields. Text index groups are a ServiceNow AI Platform feature. To learn more, see [Configure multiple tables for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/index-multiple-tables.md).
+A text index group defines how users see search results. For example, combine search results from several sources, or set the weight of certain fields. Text index groups are a ServiceNow AI Platform feature. To learn more, see Configure multiple tables for indexing and searching.
 
 Associate a portal with a text index group to create common search rules and to combine search results from all search sources in the group. If you have a custom search source or portal, consider whether you want to use the base system **portal\_index\_group** text index group, or create your own text index group. The base system text index group includes the Catalog items and Knowledge tables. When a user searches for an item in Service Portal, they see combined results from these tables. To add an index group to a portal, see [Add a text index group to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/create-text-index-group.md).
 
@@ -51,7 +51,7 @@ Associate a portal with a text index group to create common search rules and to 
 
 ## Search suggestions and typeahead search
 
-Search suggestions replaces typeahead search in Service Portal. Update the **glide.service\_portal.search\_as\_you\_type\_behavior** system property to change this behavior. For more information, see [Enable and disable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-search-suggestions.md). Service Portal search widgets automatically use whichever feature you enable.
+Search suggestions replaces typeahead search in Service Portal. Update the **glide.service\_portal.search\_as\_you\_type\_behavior** system property to change this behavior. For more information, see Enable and disable search suggestions. Service Portal search widgets automatically use whichever feature you enable.
 
 ## Search facets
 
@@ -60,7 +60,7 @@ Enable your end users to filter search results for a more meaningful result set.
 -   Fields in a table such as **Active** or **Author**.
 -   Query conditions such as **\[Updated\]\[After\]\[Last week\]**.
 
-**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-single-table-for-indexing.md).
+**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: .
 
 Search facets render in the Faceted Search widget on the sp\_search page. In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/enable-facets.md).
 

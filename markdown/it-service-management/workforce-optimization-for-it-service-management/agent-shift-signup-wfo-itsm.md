@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Scheduling your teams' work, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Enable your teams to sign up for work shifts
@@ -17,6 +17,8 @@ breadcrumb: [Scheduling your teams' work in Workforce Optimization for ITSM, Sch
 Empower your teams to sign up for work shifts based on their availability and preference.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 
@@ -119,15 +121,15 @@ Do this
         -   The system will automatically close the sign ups after the sign-up due date.
 5.  Add agents to the work shifts.
 
-<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d421103e373">
+<table id="choicetable_ejp_3fs_dvb"><thead><tr><th align="left" id="d366138e389">
 
 To
 
-</th><th align="left" id="d421103e376">
+</th><th align="left" id="d366138e392">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d421103e382">
+</th></tr></thead><tbody><tr><td id="d366138e398">
 
 **Auto-assign agents**
 
@@ -135,7 +137,7 @@ Do this
 
 Enable the **Enabled for auto-assignment for agents** check box. Your agents who have set the shift to be their top preference is auto-assigned. The number of shifts auto-assigned is based on the value set in the **sn\_shift\_planning.max\_shifts\_to\_autoassign** system property.
 
-</td></tr><tr><td id="d421103e397">
+</td></tr><tr><td id="d366138e413">
 
 **Assign agents manually**
 

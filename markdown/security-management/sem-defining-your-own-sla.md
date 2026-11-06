@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-defining-your-own-sla.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -14,14 +14,16 @@ breadcrumb: [Automating prioritization and triaging, Security Exposure Managemen
 
 Remediation target rules set the expected time frame for addressing findings, similar to how service level agreements \(SLAs\) set deadlines for fixing vulnerabilities. You can also send notifications to users and groups when target dates are approaching and when they are past due.
 
-For instance, if an asset contains Payment Card Industry \(PCI\) data, such as credit card information, the vulnerability must be resolved within 30 days, as per the PCI Data Security Standard \(PCI DSS\). You can create remediation target rules by specifying:
+For example, an asset containing PCI \(Payment Card Industry\) data, such as credit card information, may require vulnerabilities to be resolved within 30 days. This requirement aligns with the PCI DSS \(PCI Data Security Standard\). You can create remediation target rules by specifying:
 
 -   **The remediation target**: The deadline by which the vulnerability must be fixed.
 -   **The reminder target**: The date when reminders should start.
 -   **The reminder and notification recipients**: Who should be notified if the findings exceed the reminder or remediation target dates without being fixed.
--   **The recalculation method**: How the system updates the remediation target \(RT\) date when a vulnerable item’s risk rating changes.
+-   **The recalculation trigger**: The field or fields that, when changed on a finding, cause the system to recalculate the remediation target \(RT\) date. You can select one or more of the available fields, such as **Risk rating** and **Assignment group**.
+-   **The recalculation method**: How the system updates the remediation target \(RT\) date when a selected field changes.
+-   **The recalculation method**: How the system updates the remediation target \(RT\) date when a vulnerable item's risk rating changes.
 
-Vulnerability analysts and managers can view the remediation target date in the findings form and list views, provided the findings are not in Deferred, Resolved, or Closed states. Remediation target rules are evaluated during import and re-evaluated if a finding is reopened.
+Vulnerability analysts and managers can view the remediation target date in the findings form and list views, provided the findings aren't in Deferred, Resolved, or Closed states. Remediation target rules are evaluated during import and re-evaluated if a finding is reopened.
 
 In the findings list view, the remediation target dates are color-coded with dots:
 
@@ -33,20 +35,20 @@ A summary email is sent for each remediation target rule when one or more findin
 
 ## Recalculation of remediation target date
 
-Starting with Unified Security Exposure Management version 30.1.4 and Vulnerability Response version 26.4.4, administrators can configure how the system recalculates the remediation target date when a finding’s risk rating changes.
+Starting with Unified Security Exposure Management version 30.1.4 and Vulnerability Response version 26.4.4, administrators can configure how the system recalculates the remediation target date when a finding’s risk rating changeswhen a selected field on a finding changes.
 
 -   Under normal conditions, the system calculates the RT date as:
 
     **Remediation Target** = **Target from \(date\)** + **Target \(days\)**
 
--   When the risk rating changes, the system calculates a new RT date using the formula below. The selected recalculation method determines whether this new date replaces the existing RT date.
+-   When a selected field changesWhen the risk rating changes, the system calculates a new RT date using the following formula. The selected recalculation method determines whether this new date replaces the existing RT date.
 
     **Recalculated RT date** = **Field change time** + **Target \(days\)**
 
-    **Field change time** captures when the risk rating changed. Target \(days\) uses SLA of new risk rating.
+    **Field change time** captures when the selected field last changed. Target \(days\) uses the value from the remediation target rule that currently matches the finding.when the risk rating changed. Target \(days\) uses SLA of new risk rating.
 
 
-The following options define how the system applies the recalculated RT date when a risk rating changes:
+The following options define how the system applies the recalculated RT date when a selected field changeswhen a risk rating changes:
 
 <table id="table_ogs_hbs_3hc"><thead><tr><th>
 
@@ -66,6 +68,14 @@ Retains the existing RT date. The recalculated date isn’t applied.
 
 </td></tr><tr><td>
 
+Recalculate from trigger field change date
+
+</td><td>
+
+Updates the Remediation Target date to: Field change time + Target \(days\) based on the rule that matches the finding’s updated values.
+
+</td></tr><tr><td>
+
 Recalculate from risk change date
 
 </td><td>
@@ -74,11 +84,27 @@ Updates the Remediation Target date to: Field change time + Target \(days\) base
 
 </td></tr><tr><td>
 
+Recalculate from trigger field change date and always set to the earliest target date
+
+</td><td>
+
+Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
+
+</td></tr><tr><td>
+
 Recalculate from risk change date and always set to earliest target date
 
 </td><td>
 
 Compares the existing RT date with Field change time + Target \(days\) and applies the earlier date.
+
+</td></tr><tr><td>
+
+Recalculate from risk rating change date and set to the earliest target date only when risk rating increases \(available only when **Risk rating** is selected as a trigger field\)
+
+</td><td>
+
+If the risk increases: Compares the existing RT date and the recalculated RT date and applies the earliest date. If the risk decreases: Applies Field change time + Target \(days\) without comparison.
 
 </td></tr><tr><td>
 
@@ -136,7 +162,7 @@ When you modify a remediation target rule, use the **Reapply** button on the Rem
 **Note:**
 
 -   If the **Evaluate remediation targets** job is running, you can’t initiate a reapply process. However, if a reapply process is already running and the scheduled job is triggered, they run in parallel.
--   As a vulnerability admin or analyst, you can obtain the latest remediation target date for selected findings in the Security Exposure Management Workspace. This method is more efficient than running the remediation target rules for all findings in the classic UI, which can be time-consuming. For more information, see [Re-evaluate the remediation properties of the records in the Security Exposure Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-configure-remediation-target-rules.md).
+-   As a vulnerability admin or analyst, you can obtain the latest remediation target date for selected findings in the Security Exposure Management Workspace. This method is more efficient than running the remediation target rules for all findings in the classic UI, which can be time-consuming.
 
 **Parent Topic:**[Automating prioritization and triaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-automating-prioritization-triaging.md)
 

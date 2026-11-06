@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage your SRM team details
@@ -18,7 +18,7 @@ Add or edit team members, description, contact information of you team.
 
 ## Before you begin
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Teams** icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the team card whose details you want to update.
 

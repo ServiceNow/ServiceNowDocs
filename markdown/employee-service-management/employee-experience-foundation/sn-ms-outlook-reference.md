@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Outlook, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow for Microsoft Outlook, EmployeeWorks, Employee Service Management]
 ---
 
 # ServiceNow for Microsoft Outlook reference
@@ -21,5 +21,5 @@ The following properties are installed with the Outlook Actionable Messages plug
 -   **[Outlook Actionable Messages compatibility for surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/oam-survey-compatibility.md)**  
 Survey definitions must be compatible with Outlook Actionable Messages \(OAM\) to display surveys in the Microsoft Outlook application.
 
-**Parent Topic:**[ServiceNow for Microsoft Outlook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-ms-outlook-integration.md)
+**Parent Topic:**[EmployeeWorks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)
 

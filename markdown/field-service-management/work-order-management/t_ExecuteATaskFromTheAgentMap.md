@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Execute a task from the agent map
@@ -36,15 +36,4 @@ You can optimize task routes in the map to have the system determine the most ef
     -   **Accepted**
     -   **Pending Dispatch**
     -   **Work in Progress**
-
--   **[Agent map symbols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/r_AgentMapSymbols.md)**  
-The agent map shows your location, the tasks assigned to you for the current day, tasks that have been accepted, and other tasks that have not yet been assigned.
--   **[Agent location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_AgentLocation.md)**  
-The Field Service Management application calculates your location from a set of geographical coordinates.
--   **[Manage tasks on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageTasksOnTheMap.md)**  
-The icons in the task map mark the location of tasks assigned to you and any unassigned tasks in your area.
--   **[Pick up an unassigned task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_PickUpAnUnassignedTask.md)**  
-Agents can assign themselves nearby unassigned tasks directly from the agent task map.
-
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

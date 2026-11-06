@@ -1,20 +1,20 @@
 ---
-title: How users consent to tracking in User Experience Analytics
-description: An individual can select to opt in or opt out of User Experience Analytics advanced tracking at any time.
+title: How users consent to tracking in Usage Insights
+description: An individual can select to opt in or opt out of Usage Insights advanced tracking at any time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/user-exp-analytics-user-set.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# How users consent to tracking in User Experience Analytics
+# How users consent to tracking in Usage Insights
 
-An individual can select to opt in or opt out of User Experience Analytics advanced tracking at any time.
+An individual can select to opt in or opt out of Usage Insights advanced tracking at any time.
 
 ## Before you begin
 
@@ -22,21 +22,21 @@ Role required: user
 
 ## About this task
 
-You can opt in or opt out of advanced tracking on a mobile device, in the Service Portal, or in the web-based UI. The selection to either opt in or opt out applies to all areas where User Experience Analytics advanced tracking takes place.
+You can opt in or opt out of advanced tracking on a mobile device, in the Service Portal, or in the web-based UI. The selection to either opt in or opt out applies to all areas where Usage Insights advanced tracking takes place.
 
 ## Procedure
 
-1.  Access a platform to configure User Experience Analytics advanced tracking settings either via your mobile application, the Service Portal, or the web-based UI.
+1.  Access a platform to configure Usage Insights advanced tracking settings either via your mobile application, the Service Portal, or the web-based UI.
 
-<table id="choicetable_nwq_zlv_hsb"><thead><tr><th align="left" id="d103555e83">
+<table id="choicetable_nwq_zlv_hsb"><thead><tr><th align="left" id="d121108e77">
 
 Platform type
 
-</th><th align="left" id="d103555e86">
+</th><th align="left" id="d121108e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d103555e92">
+</th></tr></thead><tbody><tr><td id="d121108e86">
 
 **Mobile application**
 
@@ -48,7 +48,7 @@ Action
 4.  Either enable the **Enable Analytics** button to opt in to advanced tracking, or turn off the **Enable Analytics** button to opt out of advanced tracking.
 
 
-</td></tr><tr><td id="d103555e137">
+</td></tr><tr><td id="d121108e131">
 
 **Web-based UI**
 
@@ -59,7 +59,7 @@ Action
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d103555e176">
+</td></tr><tr><td id="d121108e170">
 
 **Service Portal**
 
@@ -71,12 +71,17 @@ Action
 
 
 </td></tr></tbody>
-</table>    **Note:** When a user's country consent policy is set to Notice or Explicit Opt In, they receive a new notice or opt-in message yearly.
-
-
+</table>
 ## What to do next
 
 Read more about tracking options presented to you in the UI in [Tracking controls and data collection behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-controls-and-data-collection-behavior.md).
 
-**Parent Topic:**[User privacy, tracking, and user consent management in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
+-   **[View users’ consent tracking selections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-view-user-decision.md)**  
+View and analyze details regarding users and their tracking selection preferences.
+-   **[Define texts for Notice and Explicit Opt-in messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-define-text-policies.md)**  
+Administrators can edit the text that is displayed in the modal window when a user’s location is assigned to a **Notice** or **Explicit Opt-In** consent policy.
+-   **[Configure link to your privacy policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-config-link-privacy-policy.md)**  
+When Usage Insights is enabled, the ServiceNow Services Privacy Statement is linked by default. However, administrators can update the link to point to the organization privacy policy.
+
+**Parent Topic:**[User privacy, tracking, and user consent management in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-track-options.md)
 

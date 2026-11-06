@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Approvals hub
@@ -74,5 +74,5 @@ Here is what an employee can do.
     -   Submit your approval requests from any internal and external applications.
     -   View progress or status of the request.
 
-For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Use Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
+For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
 

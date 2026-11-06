@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Engage with outside counsel, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Request Outside Counsel engagement
@@ -26,15 +26,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d188001e61">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d203262e61">
 
 Method
 
-</th><th align="left" id="d188001e64">
+</th><th align="left" id="d203262e64">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d188001e70">
+</th></tr></thead><tbody><tr><td id="d203262e70">
 
 **Using Legal Counsel Center homepage**
 
@@ -46,7 +46,7 @@ Action
 4.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d188001e114">
+</td></tr><tr><td id="d203262e114">
 
 **Using Legal Counsel Center lists**
 
@@ -59,7 +59,7 @@ Action
 5.  Select the **Outside Counsels** tab.
 
 
-</td></tr><tr><td id="d188001e173">
+</td></tr><tr><td id="d203262e173">
 
 **Using platform view**
 

@@ -1,5 +1,5 @@
 ---
-title: Feedback for Virtual Agent setup
+title: Configuring feedback for Virtual Agent
 description: You can promote the experience feedback or set up service feedback for the Virtual Agent.Promote the experience feedback topic to appear in the default Virtual Agent suggestions.Set up the service feedback to appear after a topic conversation in the Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/configuring-fdbck-va.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrated experience and service feedback, Setup continuous improvement, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrated experience and service feedback, Setup continuous improvement, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
-# Feedback for Virtual Agent setup
+# Configuring feedback for Virtual Agent
 
 You can promote the experience feedback or set up service feedback for the Virtual Agent.
 

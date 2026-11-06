@@ -1,20 +1,20 @@
 ---
 title: Configure a secure MID Web Server extension
-description: Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access both a private key and a certificate \(or certificate chain\) from a Java keystore to use during the TLS handshake where the MID Web Server and the client acknowledge each other.
+description: Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access a private key and certificate \(or certificate chain\) from a Java keystore. The keystore is used during the TLS handshake where the MID Web Server and the client acknowledge each other.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/configure-midwebserver-extension-secure.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a secure MID Web Server extension
 
-Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access both a private key and a certificate \(or certificate chain\) from a Java keystore to use during the TLS handshake where the MID Web Server and the client acknowledge each other.
+Configure a TLS listener for extra security and encryption of data transferred to and from the MID Web Server extension. Access a private key and certificate \(or certificate chain\) from a Java keystore. The keystore is used during the TLS handshake where the MID Web Server and the client acknowledge each other.
 
 ## Before you begin
 
@@ -34,17 +34,17 @@ Role required: agent\_client\_collector\_admin
     -   mTLS – See [MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 4.  Select either the MID unified keystore or the web server keystore.
 
-    The MID Web Server unified keystore is the most efficient option. If you want to enable backward compatibility and the ability to store keypairs in an additional keystore, use the Web server keystore \(which allows you to use the MID unified keystore as well\).
+    The MID Web Server unified keystore is the most efficient option. To enable backward compatibility and store keypairs in an additional keystore, use the Web server keystore. The Web server keystore allows you to use the MID unified keystore as well.
 
-<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d89994e151">
+<table id="choicetable_ezm_tvg_dsb"><thead><tr><th align="left" id="d84517e157">
 
 Option
 
-</th><th align="left" id="d89994e154">
+</th><th align="left" id="d84517e160">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89994e160">
+</th></tr></thead><tbody><tr><td id="d84517e166">
 
 **MID unified keystore**
 
@@ -57,7 +57,7 @@ For more information, see the **Install custom certificates in the MID Server un
 
 **Important:** Leaving the **Keystore Certificate Alias** field empty causes connecting clients to skip certificate verification. Instead, the MID Server uses its own self-signed certificate.
 
-</td></tr><tr><td id="d89994e203">
+</td></tr><tr><td id="d84517e209">
 
 **Web server keystore**
 
@@ -71,8 +71,6 @@ For more information, see the **Install custom certificates in the MID Server un
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md)
-
 **Related topics**  
 
 

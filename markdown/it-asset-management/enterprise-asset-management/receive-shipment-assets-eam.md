@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Receive assets from inbound shipments at your stockroom in the Enterprise Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage the receiving of assets at stockrooms in the Enterprise Asse
 Receive enterprise and consumable assets from one or more shipments that are in transit to your stockroom in the Enterprise Asset Workspace. You can receive assets from shipments originating from any workflow.
 
 ## Before you begin
-
-**Important:** The option to receive assets from inbound shipments at your stockroom through the standardized asset receiving mechanism is available in Enterprise Asset Management version 9.0 and later.
 
 Role required: sn\_eam.asset\_technician or sn\_eam.enterprise\_asset\_manager
 

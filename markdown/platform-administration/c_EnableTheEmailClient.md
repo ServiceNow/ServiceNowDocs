@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_EnableTheEmailClient.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring email client, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email client
@@ -16,10 +16,11 @@ Send email directly from any record, such as an incident, change request, or pro
 
 ## Using the email client
 
-You can use the email client either from a form or the record view in a workspace.
+You can use the email client either from a form or the record view in a workspace. To open the email client in a workspace or from a form, open a record and select the More options icon \[Omitted image "more-options-icon.png"\] Alt text:. Select **Email**
 
--   To open the email client from a form, open a record and click the more options menu \(\[Omitted image "more-options-menu.png"\] Alt text: More options menu\). Click the email icon \(\[Omitted image "email\_icon.png"\] Alt text: Email icon\).
--   To open the email client in a workspace, open a record and click the menu icon \(\[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More UI Actions menu\). Click **Compose Email**.
+\[Omitted image "email-client.png"\] Alt text: Email client
+
+.
 
 The email client looks like a standard email interface, which contains a toolbar for text formatting and adding attachments.
 

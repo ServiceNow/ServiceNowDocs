@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Assign a leader or supporter role to a user record

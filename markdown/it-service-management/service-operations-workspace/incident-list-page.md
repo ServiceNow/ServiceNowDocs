@@ -1,33 +1,26 @@
 ---
 title: Configure the list page in Service Operations Workspace for ITSM
-description: Configure the fuzzyCount property to modify how the number of records is displayed on the SOW list page thus improving system performance.
+description: Configure the fuzzyCount property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the fuzzyCount property helps improve the system performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/incident-list-page.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure the list page in Service Operations Workspace for ITSM
 
-Configure the **fuzzyCount** property to modify how the number of records is displayed on the SOW list page thus improving system performance.
+Configure the **fuzzyCount** property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the **fuzzyCount** property helps improve the system performance.
 
 ## About this task
 
-The input of the **fuzzyCount** property is JSON key value pair.
+The input of the **fuzzyCount** property is JSON key value pair. The property applies to any new list component used across SOW pages where record count limit input for the component isn't defined.
 
-**Note:** The property applies to any new list component used across SOW pages where record count limit input for the component isn't defined.
-
-On the SOW list page, right-click on a record to use the following options:
-
--   Copy URL: Copy the URL of the record to a clipboard and share the record URL with other stakeholders.
--   Copy sys ID: Copy the sys ID of the record to a clipboard and share the sys ID of the record with other stakeholders
-
-**Note:** You can resize the modal in the SRP and list pages in SOW.
+The **fuzzyCount** property applies to all SOW list including related list and Multi Record Associator \(MRA\) list in the SOW records pages.
 
 ## Before you begin
 
@@ -35,11 +28,15 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
+1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**.
 
-2.  From the list of UX applications, select **Service Operations Workspace**.
+2.  On the SOW Admin Center page, navigate to **Initial setup** &gt; **SOW properties**.
 
-3.  On the UX Application form, from the UX Page Properties related list, select the **fuzzyCount** property.
+3.  On the SOW properties page, in the **Set display count to improve list loading** tile, select **Configure**.
+
+    The **fuzzyCount** UX property page opens on a separate tab.
+
+    Alternatively, you can also access the **fuzzyCount** UX property page by navigating to **All** &gt; **Now Experience Framework** &gt; **Experiences**. From the list of UX applications, select **Service Operations Workspace** and then from the UX Page Properties related list, select the **fuzzyCount** property.
 
 4.  On the UX Page Property page, edit the **Value** field.
 
@@ -57,7 +54,7 @@ Description
 
 </td><td>
 
-Displays the count of the total number of records in a list.\[Omitted image "fuzzycount.png"\] Alt text: Count of incidents
+Displays the count of the total number of records in a list. The fuzzyCount UX property is not applied to the SOW list page.\[Omitted image "fuzzycount.png"\] Alt text: Count of incidents
 
 </td></tr><tr><td>
 
@@ -75,7 +72,7 @@ Displays the count of the number of records in a list as &lt;integer+&gt;.For ex
 
 </td><td>
 
-Displays the count of the number of records in a list as &lt;integer+&gt;.For example, if the incident has 14 records, if you configure the incident value in the property as 10, the system displays the count of incidents as 10 and for the non incident list, the count will be based on the default value defined in the property.
+Displays the count of the number of records in a list as &lt;integer+&gt;. You can also set the count of the records to be displayed for a specific table or record type such as incident.For example, if the incident has 14 records, if you configure the incident value in the property as 10 and default value as 20, the system displays the count of incident records as 10+ and for the non incident list, the count is displayed based on the default value defined in the property which is 20+.
 
 </td></tr></tbody>
 </table>5.  Select **Update**.

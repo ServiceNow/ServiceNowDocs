@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -215,6 +215,8 @@ Search and select the Indoor Mapping campus that you want to integrate with Work
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
+
+[]()
 
 [Reviewing allocation changes]()
 

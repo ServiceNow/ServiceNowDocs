@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: resource\_user or resource\_manager
 
     \[Omitted image "DeleteConfirmationMessage.png"\] Alt text: screenshot for Delete confirmation message
 
-3.  Select **OK**.
+3.  Select **Delete**.
 
     The resource plan and all the associated allocations are removed.
 
@@ -54,7 +54,7 @@ Role required: resource\_user or resource\_manager
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

@@ -1,18 +1,18 @@
 ---
 title: Activate a decision tree
-description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Customer Service, or in Service Portal.
+description: Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-guided-decision-tree.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate a decision tree
 
-Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Customer Service, or in Service Portal.
+Activate a completed decision tree so you can use it in playbooks created using Playbooks, in recommendations created using Recommended Actions for Service, or in Service Portal.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 When you activate a decision tree, Decision Tree Builder checks for errors such as missing information, invalid input mappings due to changes in prior node inputs, or missing guidance inputs. After all the errors are resolved, you can activate the decision tree.
 
-If you make changes to an activated decision tree, remember to activate the decision tree again to display the updated decision tree in a workspace.
+If you make changes to an activated decision tree, remember to activate the decision tree again to display the updated decision tree in a workspace.When a decision tree is activated to create a new version, the success message lists all playbooks and activities that reference the decision tree with direct links to facilitate version updates.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ If you make changes to an activated decision tree, remember to activate the deci
     -   If there are no errors, the confirmation dialog box to activate the decision tree displays.
 5.  In the confirmation dialog box, select **Activate now**.
 
-    A success message with instructions on the next action to take is displayed.
+    A success message with instructions on the next action to take is displayed. If the decision tree is part of a Guided Decision with Inputs and Outputs activity in any playbooks, the success message displays the playbooks and their Guided Decision with Inputs and Outputs activities that use the decision tree. You must navigate to these playbooks and update the decision tree version to the latest version. Otherwise, these playbook activities continue using the older version until you update them to the latest version.
 
 
 ## Result
@@ -49,6 +49,6 @@ If you make changes to an activated decision tree, remember to activate the deci
 ## What to do next
 
 -   Configure recommended actions to use the activated decision tree as a recommendation. The recommendations appear as cards in the contextual side panel of a workspace. For more information, see [Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-guided-decisions-to-recommended-actions.md).
--   Configure Playbooks to use the activated decision tree as part of a playbook in a record tab. For more information, see [Add Guided Decisions to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-guided-decision-playbook.md).
+-   Configure Playbooks to use the activated decision tree as part of a playbook in a record tab. For more information, see [Add Guided Decisions to playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-guided-decision-playbook.md) and [Add Guided Decision with inputs/outputs to Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-gd-input-output-playbook.md).
 -   Configure a Service Portal page to use the activated decision tree for providing troubleshooting process to internal users. For more information, see [Add Guided Decisions to Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-guided-decisions-service-portal.md).
 

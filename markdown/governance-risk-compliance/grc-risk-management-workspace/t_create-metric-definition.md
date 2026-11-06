@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring metrics, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -28,13 +28,13 @@ In automated metric definitions, the data is collected automatically based on th
 
 1.  Navigate to **All** &gt; **Risk** &gt; **Risk Workspace** &gt; **Lists** &gt; **Metrics** &gt; **Automated metric definitions**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
     For a detailed explanation of the fields, refer to [Automated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/automated-metric-definition-fields-irm.md).
 
-4.  Click **Save**.
+4.  Select **Save**.
 
     **Note:** In the new automated metric definition form, only the **Details** tab is displayed. After a new automated metric definition is created, additional related lists are displayed with the **Details** tab in the form.
 

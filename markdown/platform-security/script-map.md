@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/script-map.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
 
@@ -28,7 +28,11 @@ Consider the following when executing an encryption script request:
 
 When creating a module access policy that is set to the script type, there is an option available to validate the integrity of the script version being accessed. Only the assigned version of the script is allowed access to the encryption modules. When the **Check script version** check box is selected in the module access policy, anytime the script is run, the system performs a version comparison. If the script has been changed, the user is notified.
 
-\[Omitted image "check-script-version.png"\] Alt text: Shows the check script version checkbox in a module access policy.
+\[Omitted image "check\_script\_version.png"\] Alt text: Shows the check script version checkbox in a module access policy.
+
+## Configure script access to encrypted data
+
+Execute a script to run the cryptographic module policy for a cryptographic purpose. Specific read \(decrypt/unwrap\) or write \(encrypt, wrap\) access can be defined based on the module access policy operation granularity. See [Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configure-script-encryption.md).
 
 -   **[Configure script access to encrypted data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configure-script-encryption.md)**  
 Execute a script to run the cryptographic module policy for a cryptographic purpose. Specific read \(decrypt/unwrap\) or write \(encrypt, wrap\) access can be defined based on the module access policy operation granularity.

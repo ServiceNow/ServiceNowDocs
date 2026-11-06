@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-management-for-the-enterprise/c\_ClosedAndCompletedRequests.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Close a request, Facilities requests, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Close a request, Request Management in a Service Management application, Service Management]
 ---
 
 # Closed and completed requests

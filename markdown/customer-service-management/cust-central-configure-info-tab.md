@@ -1,28 +1,28 @@
 ---
-title: Configure the Customer Information view using the CSM Configurable Workspace
-description: Configure the display of the Customer Information view using the CRM Workspace.
+title: Configure the Customer Information view using CRM Workspace
+description: Configure the display of the Customer Information view using CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cust-central-configure-info-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configure the Customer Information view using the CSM Configurable Workspace
+# Configure the Customer Information view using CRM Workspace
 
-Configure the display of the Customer Information view using the CRM Workspace.
+Configure the display of the Customer Information view using CRM Workspace.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
 The Customer Information view displays all touch points that a customer has had with a contact center in the form of information cards.
 
-**Note:** The following steps can be used to configure the Customer Information view in the CSM Configurable Agent Workspace. This is the workspace that is configured using UI Builder, introduced in the Quebec release.
+**Note:** The following steps can be used to configure the Customer Information view in CRM Workspace. This workspace is configured using UI Builder.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ The Customer Information view displays all touch points that a customer has had 
 
 2.  On the Getting Started page of the guided setup, select **Get Started**
 
-3.  In the Customer Central - Customer Information for CSM Configurable Workspace category, view the list of tasks to configure the feature.
+3.  In the Customer Central - Customer Information for CRM Workspace category, view the list of tasks to configure the feature.
 
     |Task|Description|
     |----|-----------|

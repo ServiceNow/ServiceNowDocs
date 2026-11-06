@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/social-media-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Social media integration
@@ -34,37 +34,10 @@ The Customer Service Social Integration plugin \(com.sn\_cs\_social\) is activat
 
 The Customer Service Social Media plugin adds the following tables.
 
-<table id="table_byk_1mz_gx"><thead><tr><th>
+|Table|Description|
+|-----|-----------|
+|Social Channels \(sn\_app\_cs\_social\_social\_channel\)|Stores the social channels, which are brought in by the social integration tool.|
+|Social Profiles \(sn\_app\_cs\_social\_social\_profile\)|Stores the social profiles created for each customer contact or consumer.|
+|Social Logs \(sn\_app\_cs\_social\_social\_log\)|Stores the details of social media conversations related to cases.|
+|Customer Service integration with Social Media Store \(sn\_cs\_social\_host\)|The Customer Service integration with Social Media app allows agents to select Social as the communication channel and add a social profile to the Case form. Any communication with customers or consumers that takes place through social media is recorded on the Case form in the Social Logs related list.|
 
-Table
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Social Channels\[sn\_app\_cs\_social\_social\_channel\]
-
-</td><td>
-
-Stores the social channels, which are brought in by the social integration tool.
-
-</td></tr><tr><td>
-
-Social Profiles\[sn\_app\_cs\_social\_social\_profile\]
-
-</td><td>
-
-Stores the social profiles created for each customer contact or consumer.
-
-</td></tr><tr><td>
-
-Social Logs\[sn\_app\_cs\_social\_social\_log\]
-
-</td><td>
-
-Stores the details of social media conversations related to cases.
-
-</td></tr></tbody>
-</table>

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateAModuleForATemplate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using form templates, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a module for a template
@@ -52,7 +52,7 @@ Child templates are only applied if the parent template is applied from a module
 
 [Create a template by saving a form]()
 
-[Create records based on a template]()
+[Schedule record creation from a template]()
 
 [Template bar]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the interactive installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -30,11 +30,9 @@ Role required: admin
 
 4.  Click **Run Tests**.
 
-    Test results display.
+    Test results display.\[Omitted image "installation-tests-2.png"\] Alt text: Edge Encryption proxy installation tests
 
-    \[Omitted image "installation-tests.png"\] Alt text: Edge Encryption proxy installation tests
-
-5.  Click **Next**.
+5.  Select **Next**.
 
     If an issue is encountered, you can move through the installer to correct the configuration. If no issues are encountered, the installer jumps to the **Launch** page. You can check the proxy status, stop the proxy, or start the proxy from the **Launch** page.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/view-recovery-task-self-service.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Structured workflows for Exercise and Crisis Management, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -42,6 +42,4 @@ Role required: sn\_bcm.recovery\_team\_member
 
 9.  Click **Update** after your changes.
 
-
-**Parent Topic:**[Structured workflows for Exercise and Crisis Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-recovery-exercise-management.md)
 

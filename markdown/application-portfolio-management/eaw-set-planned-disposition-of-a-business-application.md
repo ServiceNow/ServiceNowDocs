@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Bubble chart view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Set the planned disposition of a business application
@@ -32,15 +32,15 @@ Setting the planned disposition of a business application results in better data
 
 4.  Select the bubble for the relevant application that you want to set the planned disposition for and perform the following.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d44643e92">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d48868e92">
 
 Bubble type
 
-</th><th align="left" id="d44643e95">
+</th><th align="left" id="d48868e95">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d44643e101">
+</th></tr></thead><tbody><tr><td id="d48868e101">
 
 **Single bubble**
 
@@ -51,7 +51,7 @@ Action
 
 \[Omitted image "bubble-chart-menu-set-planned-disposition.png"\] Alt text: Set planned disposition button highlighted.
 
-</td></tr><tr><td id="d44643e139">
+</td></tr><tr><td id="d48868e139">
 
 **Grouped bubble**
 
@@ -121,7 +121,7 @@ Retire
 </table>6.  Select **Update**.
 
 
-**Parent Topic:**[Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
 **Related topics**  
 

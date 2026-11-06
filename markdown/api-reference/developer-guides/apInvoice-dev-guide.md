@@ -7,7 +7,7 @@ release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Developer guides, API implementation and reference]
 ---
@@ -24,10 +24,14 @@ You can define custom invoice fields for the request body. Use the following flo
 
 Define credentials for cXML payloads in the Source system credential \[sn\_spend\_intg\_source\_system\_credential\] table. For instructions, see [Setting credentials for authentication in the cXML payload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/developer-guides/apInvoice-dev-guide.md).
 
+You can apply a filter condition for invoice lines containing multiple ERPs. For information, see [Integration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/integration-errors-during-erp-posting.md).
+
 See also:
 
 -   [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/acc-pay-invoice-processing.md)
--   [AP Invoice API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ap-invoice-api.md)
+-   [AP Invoice API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ap-invoice-api.md)
+
+**Note:** The AP Invoice API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) and Source-to-Pay Integration Framework \(sn\_spend\_intg\) applications, which are available on the ServiceNow Store.
 
 ## Add custom fields for invoice import
 
@@ -145,7 +149,7 @@ Role required: admin
 
 Identify the payload source system listed in the Invoice integration field mappings \[sn\_spend\_intg\_invoice\_intg\_field\_mapping\] table.
 
-See also [AP Invoice – POST sn\_spend\_intg/ap\_invoice/cxml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ap-invoice-api.md).
+See also [AP Invoice – POST /sn\_spend\_intg/ap\_invoice/cxml](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ap-invoice-api.md).
 
 ### Procedure
 

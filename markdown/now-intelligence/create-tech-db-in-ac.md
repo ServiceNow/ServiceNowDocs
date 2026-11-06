@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-tech-db-in-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Create an advanced dashboard, Create a dashboard in UI Builder]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
@@ -19,7 +19,7 @@ Follow the Technical Editor option to create a dashboard using UI Builder. In UI
 
 Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
 
-It isn’t possible to edit the dashboard's details in the Analytics Center when you create a dashboard in the Technical Editor. However, you can share a technical dashboard from the Analytics Center.
+It isn’t possible to edit the dashboard's details in the Analytics Overview when you create a dashboard in the Technical Editor. However, you can share a technical dashboard from the Analytics Overview.
 
 **Note:** Data visualizations based on table data are automatically shared with users that you share a dashboard with.
 

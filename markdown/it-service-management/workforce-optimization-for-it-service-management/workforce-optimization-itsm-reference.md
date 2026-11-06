@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Workforce Optimization for ITSM reference
 
 Refer to install components such as roles, tables, and system properties to configure and administer Workforce Optimization for ITSM.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 To get details on which roles can be associated with each Workforce Optimization for ITSM persona, see [Roles in Workforce Optimization for ITSM](https://www.servicenow.com/community/workforce-optimization-blog/roles-in-workforce-optimization/ba-p/2647167).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/config-ne-theme-in-mab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Next Experience theming for mobile, Next Experience theming for mobile, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Assign a Next Experience theme in the Mobile App Builder
@@ -20,7 +20,7 @@ Role required: admin
 
 To use Next Experience theming, you must have Next Experience enabled on your instance. For activation instructions and more information on Next Experience, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-theming.md).
 
-**Note:** If you are a new customer starting with the Yokohama release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Polaris** theme automatically.
+**Note:** If you are a new customer starting with the Brazil release, Next Experience is active by default on your instance. No activation is required, and your mobile apps use the **Coral** theme automatically.
 
 ## Procedure
 
@@ -36,8 +36,11 @@ To use Next Experience theming, you must have Next Experience enabled on your in
 
 5.  In the **Mobile theme** section, select a theme from the list.
 
-    With Next Experience enabled, your instance uses the **Polaris** by default. If you want to continue to use this theme, you do not need to update this field. You will only need to change this field if you have a custom theme you want to apply to the app, or if you had previously opted out of Next Experience.
+    With Next Experience enabled, your instance uses the **Coral** by default. If you want to continue to use this theme, you do not need to update this field. You will only need to change this field if you:
 
+    -   Have a custom theme that you want to apply to the app.
+    -   Want to apply the former **Polaris** theme to the app.
+    -   Had previously opted out of Next Experience.
     For information on creating your own themes, see [Exploring themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-theming.md).
 
 6.  Click the **Save** button in the upper right corner of the screen to save your changes.

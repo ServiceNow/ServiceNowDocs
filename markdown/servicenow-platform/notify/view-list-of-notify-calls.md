@@ -7,14 +7,16 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify for making conference calls, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # List of Notify calls
 
 If you are a Notify administrator, you can view a list of calls and the status of a call made to or from Notify. The call records help in reporting and analytics.
+
+## Notify list
 
 To view a list of calls, navigate to **Notify** &gt; **Calls**.
 

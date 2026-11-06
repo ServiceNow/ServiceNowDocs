@@ -7,8 +7,8 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 38
+last_updated: "2026-09-10"
+reading_time_minutes: 51
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 Allows external systems, such as those used by vendors, to securely submit invoices directly into an accounts payable system in a structured and automated manner.
 
-This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) store application, which is provided within the `sn_spend_intg` namespace. For information, see [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/acc-pay-invoice-processing.md).
+This API requires the Accounts Payable Invoice Processing \(com.sn\_ap\_apm\) and Source-to-Pay Integration Framework \(sn\_spend\_intg\) applications, which are available on the ServiceNow Store. For information, see [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/acc-pay-invoice-processing.md).
 
 Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/developer-guides/apInvoice-dev-guide.md) for help with the following tasks:
 
@@ -25,11 +25,22 @@ Refer to [AP Invoice API Developer Guide](https://raw.githubusercontent.com/Serv
 -   Map the custom field to a payload entry in a specific format, such as JSON, cXML, or XML.
 -   Setting credentials for authentication when using cXML as the payload.
 
+You can apply a filter condition for invoice lines containing multiple ERPs. For information, see [Integration errors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/integration-errors-during-erp-posting.md).
+
 **Note:** The maximum default payload size is 100 records. This value is configurable in the **sn\_spend\_intg.ap.invoice.create.api.record\_limit** system property.
+
+-   **Invoice attachments**
+
+    The XML and JSON endpoints support attachments at the invoice, invoice line, and invoice case levels. The cXML endpoint does not support attachments.
+
+    Use the following guidelines for attachments:
+
+    -   Do not use the reserved "SD\_" prefix for attachment file names.
+    -   All attachments must be encoded as Base64 format.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
-## AP Invoice – POST sn\_spend\_intg/ap\_invoice/cxml
+## AP Invoice – POST /sn\_spend\_intg/ap\_invoice/cxml
 
 Processes an automated invoice in commerce XML \(cXML\) format.
 
@@ -802,7 +813,7 @@ The following result shows that the request is successful and the invoice data i
 }
 ```
 
-## AP Invoice – POST sn\_spend\_intg/ap\_invoice/json
+## AP Invoice – POST /sn\_spend\_intg/ap\_invoice/json
 
 Processes an automated invoice in JSON format.
 
@@ -875,6 +886,7 @@ List containing each invoice to be processed.Data type: Object of nested invoice
     "discounts": "String",
     "erp_number": "String",
     "external_invoice_number": "String",
+    "invoice_copy_attachment": [Array],
     "invoice_date": "String",
     "invoice_line_count": "String",
     "invoice_lines": [Array],
@@ -903,7 +915,8 @@ List containing each invoice to be processed.Data type: Object of nested invoice
     "subtotal": "String",
     "supplier": "String",
     "supplier_invoice_number": "String",
-    "supplier_tax_id": "String"
+    "supplier_tax_id": "String",
+    "supporting_attachments": [Array]
   }
 }
 ```
@@ -1042,6 +1055,61 @@ Maximum length: 40
 
 </td></tr><tr><td>
 
+invoices. invoice\_copy\_attachment
+
+</td><td>
+
+List of attachments defined at the invoice level. See [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/acc-pay-invoice-processing.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+
+Data type: Array of Objects
+
+```
+"invoice_copy_attachment": [
+  {
+    "content": "String",
+    "encoding": "String",
+    "mime_code": "String",
+    "name": "String"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+invoices.invoice\_copy\_attachment. content
+
+</td><td>
+
+Base64-encoded file content of the attachment.Data type: String
+
+</td></tr><tr><td>
+
+invoices.invoice\_copy\_attachment. encoding
+
+</td><td>
+
+This value is always `base64`.Data type: String
+
+</td></tr><tr><td>
+
+invoices.invoice\_copy\_attachment. mime\_code
+
+</td><td>
+
+This value is always `base64`.Data type: String
+
+</td></tr><tr><td>
+
+invoices.invoice\_copy\_attachment. name
+
+</td><td>
+
+File name of the attachment.**Note:** Do not use the reserved "SD\_" prefix for an attachment file name.
+
+Data type: String
+
+</td></tr><tr><td>
+
 invoices.invoice\_date
 
 </td><td>
@@ -1076,11 +1144,12 @@ invoices.invoice\_lines
 
 </td><td>
 
-List of objects that define the lines that are being invoiced for purchases within this order. Invoice lines are staged in the Invoice line import inbound \[sn\_spend\_intg\_imp\_invoice\_line\] table.Data type: Array
+List of objects that define the lines that are being invoiced for purchases within this order. Invoice lines are staged in the Invoice line import inbound \[sn\_spend\_intg\_imp\_invoice\_line\] table.Data type: Array of Objects
 
 ```
 "invoice_lines": [
   {
+    "attachments": [Array],
     "cost_center": "String",
     "currency": "String",
     "external_invoice_number": "String",
@@ -1104,6 +1173,61 @@ List of objects that define the lines that are being invoiced for purchases with
   }
 ]
 ```
+
+</td></tr><tr><td>
+
+invoices.invoice\_lines. attachments
+
+</td><td>
+
+List of attachments defined at the invoice line level. See [Create New Invoice Line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/create-invoice-line-form.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+
+Data type: Array of Objects
+
+```
+"attachments": [
+  {
+    "content": "String",
+    "encoding": "String",
+    "mime_code": "String",
+    "name": "String"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+invoices.invoice\_lines. attachments.content
+
+</td><td>
+
+Base64-encoded file content of the attachment.Data type: String
+
+</td></tr><tr><td>
+
+invoices.invoice\_lines. attachments.encoding
+
+</td><td>
+
+This value is always `base64`.Data type: String
+
+</td></tr><tr><td>
+
+invoices.invoice\_lines. attachments.mime\_code
+
+</td><td>
+
+This value is always `base64`.Data type: String
+
+</td></tr><tr><td>
+
+invoices.invoice\_lines. attachments.name
+
+</td><td>
+
+File name of the attachment.**Note:** Do not use the reserved "SD\_" prefix for an attachment file name.
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1794,6 +1918,61 @@ invoices.target\_erp
 
 ERP record in which the invoice is posted. Located in the ERP Source \[sn\_fin\_erp\_source\] table. See [ERP source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/erp-source.md).Data type: String
 
+</td></tr><tr><td>
+
+invoices. supporting\_attachments
+
+</td><td>
+
+List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See [Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/invoice-processing-case-form.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+
+Data type: Array of Objects
+
+```
+"supporting_attachments": [
+  {
+    "content": "String",
+    "encoding": "String",
+    "mime_code": "String",
+    "name": "String"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+invoices. supporting\_attachments.content
+
+</td><td>
+
+Base64-encoded file content of the attachment.Data type: String
+
+</td></tr><tr><td>
+
+invoices. supporting\_attachments.encoding
+
+</td><td>
+
+This value is always `base64`.Data type: String
+
+</td></tr><tr><td>
+
+invoices. supporting\_attachments.mime\_code
+
+</td><td>
+
+This value is always `base64`.Data type: String
+
+</td></tr><tr><td>
+
+invoices. supporting\_attachments.name
+
+</td><td>
+
+File name of the attachment.**Note:** Do not use the reserved "SD\_" prefix for an attachment file name.
+
+Data type: String
+
 </td></tr></tbody>
 </table>### Headers
 
@@ -1929,7 +2108,7 @@ Data type: String
 </td></tr></tbody>
 </table>### cURL request
 
-The following example shows how to process an invoice provided as a request in JSON format.
+The following example shows how to process an invoice provided as a request in JSON format. Base64 encoding varies in size and can be very large. The content value has been truncated to conserve space. The information reflects proper payload structure.
 
 ```
 curl "https://instance.servicenow.com/api/sn_spend_intg/v1/ap_invoice/json" \
@@ -1943,140 +2122,784 @@ curl "https://instance.servicenow.com/api/sn_spend_intg/v1/ap_invoice/json" \
 :'password' \
 --data \
  '{
-    "invoices": [
+  "invoices": [
+    {
+      "invoice_type": "",
+      "supplier_invoice_number": "2InvoiceAttach_A1",
+      "external_invoice_number": "EXT-INV-erp-po-1_Attach1",
+      "supplier": "",
+      "business_owner": "lara.croft@example.com",
+      "purchase_order": "",
+      "date_format": "DD MMMM, YYYY",
+      "invoice_date": "2nd June, 2021",
+      "payment_terms": "Net 30",
+      "legal_entity": "AUS",
+      "subtotal": "(100.00)",
+      "shipping_amount": "30.00",
+      "other_charges": "20.00",
+      "discounts": "00.00",
+      "amount_invoiced": "200.00",
+      "currency": "USD",
+      "invoice_line_count": "10",
+      "ship_to_city": "New York",
+      "ship_to_country": "USA",
+      "ship_to_state_or_province": "NY",
+      "ship_to_street": "123 Main St",
+      "ship_to_zip_or_postal_code": "10001",
+      "ship_from_city": "Los Angeles",
+      "ship_from_country": "USA",
+      "ship_from_state_or_province": "CA",
+      "ship_from_street": "456 Oak Ave",
+      "ship_from_zip_or_postal_code": "90001",
+      "remit_address": "789 Elm St, Suite 200",
+      "remit_to_city": "Chicago",
+      "remit_to_country": "USA",
+      "remit_to_state_or_province": "IL",
+      "remit_to_zip_or_postal_code": "60601",
+      "supplier_tax_id": "123456789",
+      "invoice_copy_attachment": [
         {
-            "invoice_type": "non_po_invoice",
-            "supplier_invoice_number": "SPOTLIGHT98",
-            "external_invoice_number": "SPOTLIGHT98",
-            "erp_number": "RTest12345",
-            "purchase_order": "R0030R16537",
-            "business_owner": "paula.smith@example.com",
-            "supplier": "3245545",
-            "original_invoice": "SIN188191",
-            "invoice_date": "2023-08-15",
-            "payment_terms": "Net 30",
-            "legal_entity": "1000",
-            "subtotal": "100.00",
-            "shipping_amount": "50.00",
-            "other_charges": "20.00",
-            "discounts": "100.00",
-            "amount_invoiced": "150.00",
-            "currency": "USD",
-            "invoice_line_count": "2",
-            "ship_to_city": "",
-            "ship_to_country": "USA",
-            "ship_to_state_or_province": "NY",
-            "ship_to_street": "123 Main St",
-            "ship_to_zip_or_postal_code": "10001",
-            "ship_from_city": "Los Angeles",
-            "ship_from_country": "USA",
-            "ship_from_state_or_province": "CA",
-            "ship_from_street": "456 Oak Ave",
-            "ship_from_zip_or_postal_code": "90001",
-            "remit_address": "789 Elm St, Suite 200",
-            "remit_to_city": "Chicago",
-            "remit_to_country": "USA",
-            "remit_to_state_or_province": "IL",
-            "remit_to_zip_or_postal_code": "60601",
-            "bill_to_city": "San Diego",
-            "bill_to_country": "USA",
-            "bill_to_state_or_province": "CA",
-            "bill_to_street": "4810 Eastgate Mall",
-            "bill_to_zip_or_postal_code": "92121",
-            "supplier_tax_id": "123456789",
-            "tax_details": [
-                {
-                    "tax_type": "Central Goods and Services Tax",
-                    "tax_amount": "25",
-                    "tax_rate": ""
-                },
-                {
-                    "tax_type": "Sales tax",
-                    "tax_amount": "10",
-                    "tax_rate": "10"
-                },
-                {
-                    "tax_type": "IGST",
-                    "tax_amount": "",
-                    "tax_rate": "15"
-                },
-                {
-                    "tax_type": "State Goods and Service Tax",
-                    "tax_amount": "20",
-                    "tax_rate": "10"
-                }
-            ],
-            "invoice_lines": [
-                {
-                    "external_invoice_number": "SPOTLIGHT98",
-                    "line_description": "Laptop",
-                    "line_quantity": "5",
-                    "line_unit_price": "20.00",
-                    "subtotal": "100.00",
-                    "line_amount_invoiced": "100.00",
-                    "purchase_order_line": "232432",
-                    "po_line_description": "Mac laptop",
-                    "currency": "USD",
-                    "cost_center": "41605600",
-                    "gl_account": "141101",
-                    "tax_code": "A0 - Sales tax, standard rate",
-                    "ship_to_city": "New York",
-                    "ship_to_country": "USA",
-                    "ship_to_state_or_province": "NY",
-                    "ship_to_street": "123 Main St",
-                    "ship_to_zip_or_postal_code": "10001",
-                    "supplier_part_number": "SPN-001",
-                    "uom": "Hours",
-                    "tax_details": [
-                        {
-                            "tax_type": "Central Goods and Services Tax",
-                            "tax_amount": "25",
-                            "tax_rate": ""
-                        },
-                        {
-                            "tax_type": "Sales tax",
-                            "tax_amount": "",
-                            "tax_rate": "10"
-                        }
-                    ]
-                },
-                {
-                    "external_invoice_number": "SPOTLIGHT98",
-                    "line_description": "Charger",
-                    "line_quantity": "5",
-                    "line_unit_price": "40.00",
-                    "subtotal": "200.00",
-                    "line_amount_invoiced": "200.00",
-                    "purchase_order_line": "232432",
-                    "po_line_description": "Mac laptop",
-                    "currency": "USD",
-                    "cost_center": "41605600",
-                    "gl_account": "141101",
-                    "tax_code": "A0 - Sales tax, standard rate",
-                    "ship_to_city": "New York",
-                    "ship_to_country": "USA",
-                    "ship_to_state_or_province": "NY",
-                    "ship_to_street": "123 Main St",
-                    "ship_to_zip_or_postal_code": "10001",
-                    "supplier_part_number": "SPN-001",
-                    "uom": "Hours",
-                    "tax_details": [
-                        {
-                            "tax_type": "Central Goods and Services Tax",
-                            "tax_amount": "25",
-                            "tax_rate": ""
-                        },
-                        {
-                            "tax_type": "Sales tax",
-                            "tax_amount": "",
-                            "tax_rate": "10"
-                        }
-                    ]
-                }
-            ]
+          "file_name": "InvoiceTestInv_Json_A1.pdf",
+          "mime_code": "application/pdf",
+          "encoding": "base64",
+          "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmV/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "InvoiceTestINVIMG_Json_A1.jpg",
+          "mime_code": "image/jpeg",
+          "encoding": "base64",
+          "content": "iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1B/Base64EncodingIntentionallyTruncated"
         }
-    ],
-    "target_erp": ""
+      ],
+      "tax_details": [
+        {
+          "tax_type": "CGST",
+          "tax_amount": "10",
+          "tax_rate": ""
+        },
+        {
+          "tax_type": "Withholding tax",
+          "tax_amount": "",
+          "tax_rate": "25"
+        },
+        {
+          "tax_type": "Sales tax",
+          "tax_amount": "12",
+          "tax_rate": "12"
+        }
+      ],
+      "invoice_lines": [
+        {
+          "external_invoice_number": "EXT-INV-erp-po-1",
+          "line_description": "2INV_Line_Attach_A1",
+          "po_line_description": "",
+          "purchase_order_line": "",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "200.00",
+          "line_amount_invoiced": "118.00",
+          "currency": "USD",
+          "cost_center": "ACN00001",
+          "gl_account": "100001",
+          "tax_code": "A1 - Sales tax, reduced rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "attachments": [
+            {
+              "file_name": "InvoiceTestLine.pdf",
+              "mime_code": "application/pdf",
+              "encoding": "base64",
+              "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQc/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "InvoiceTest1Line.jpg",
+              "mime_code": "image/jpeg",
+              "encoding": "base64",
+              "content": "iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ0MgUHJvZmW2GWCy8SpAszALlJ/Mv6HK54/f/3/XFv4ysU57JMAAAAASUVORK5CYII="
+            }
+          ]
+        },
+        {
+          "external_invoice_number": "EXT-INV-erp-po-3",
+          "line_description": "Testing",
+          "po_line_description": "",
+          "purchase_order_line": "",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "200.00",
+          "line_amount_invoiced": "118.00",
+          "currency": "USD",
+          "cost_center": "ACN00005",
+          "gl_account": "100002",
+          "tax_code": "A1 - Sales tax, reduced rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours"
+        }
+      ]
+    },
+    {
+      "invoice_type": "",
+      "supplier_invoice_number": "10MultiInvoiceAttach_A2",
+      "external_invoice_number": "EXT-INV-noerp-PO_Attach_A2",
+      "purchase_order": "0004531004",
+      "supplier": "880733",
+      "date_format": "DD-MM-YYYY",
+      "invoice_date": "02-05-2021",
+      "payment_terms": "NET 30",
+      "legal_entity": "XYZ Ltd.",
+      "subtotal": "100",
+      "shipping_amount": "30.00",
+      "other_charges": "20.00",
+      "discounts": "10.00",
+      "amount_invoiced": "140.00",
+      "currency": "USD",
+      "invoice_line_count": "1",
+      "ship_to_city": "New York",
+      "ship_to_country": "USA",
+      "ship_to_state_or_province": "NY",
+      "ship_to_street": "123 Main St",
+      "ship_to_zip_or_postal_code": "10001",
+      "ship_from_city": "Los Angeles",
+      "ship_from_country": "USA",
+      "ship_from_state_or_province": "CA",
+      "ship_from_street": "456 Oak Ave",
+      "ship_from_zip_or_postal_code": "90001",
+      "remit_address": "789 Elm St, Suite 200",
+      "remit_to_city": "Chicago",
+      "remit_to_country": "USA",
+      "remit_to_state_or_province": "IL",
+      "remit_to_zip_or_postal_code": "60601",
+      "supplier_tax_id": "12340009",
+      "supporting_attachments": [
+        {
+          "file_name": "10InvcCaseTstInv_Json_A2.pdf",
+          "mime_code": "application/pdf",
+          "encoding": "base64",
+          "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZW50YXRpb24gOTY3MTUxMzkw/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTstPNGInv_Json_A2.png",
+          "mime_code": "image/png",
+          "encoding": "base64",
+          "content": "iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ0MgUHJvZmlsZQAASImVVwdY/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTstInv2_Json_A2.pdf",
+          "mime_code": "application/pdf",
+          "encoding": "base64",
+          "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZW50YXRpb24gOTY3MTQzNjgzKQovQXV0aG9yIChQYWdlcm8gQUIpCi9Td/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTstXMLINV_Json_A2.xml",
+          "mime_code": "text/xml",
+          "encoding": "base64",
+          "content": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9I/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTtExcelINV_Json_A2.xlsx",
+          "mime_code": "application/vnd.ms-excel",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQCpD2g4fwEAAAIFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAACAAAAAAAAAAAAAA/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTstCSVINV_Json_A2.csv",
+          "mime_code": "text/csv",
+          "encoding": "base64",
+          "content": "Im51bWJlciIsInN1cHBsaWVyX2ludm9pY2VfbnVtYmVyIiwic3VwcGxpZXIiLCJzdGF0ZSIsInR5cGUiLCJkd/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTstJsonINV_Json_A2.json",
+          "mime_code": "application/json",
+          "encoding": "base64",
+          "content": "eyJyZWNvcmRzIjpbeyJyZXF1aXJlc19hY2tub3dsZWRnZW1lbnQiOiJmYWxzZSIsInRheF9hbW91buYm91bmRfc291cmNlIjoiIn1dfQ==/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTstdocINV_Json_A2.docx",
+          "mime_code": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQDnIQddcAEAANcFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAACAAAAAAAAAAA/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceCasePPT_Json_A2.pptx",
+          "mime_code": "application/vnd.ms-powerpoint",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiB="
+        },
+        {
+          "file_name": "10InvoiceCaseRichText_Json_A2.rtf",
+          "mime_code": "application/rtf",
+          "encoding": "base64",
+          "content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2NvYXRleHRzY2FsaW5nMFxjb2NvYXBsYXRmb3JtM/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvcCaseTst_INVJPG_Json_A2.jpg",
+          "mime_code": "image/jpeg",
+          "encoding": "base64",
+          "content": "/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPCggKDxINCgoNEhQQEBIQEB/Base64EncodingIntentionallyTruncated"
+        }
+      ],
+      "invoice_copy_attachment": [
+        {
+          "file_name": "10InvoiceTestInv_Json_A2.pdf",
+          "mime_code": "application/pdf",
+          "encoding": "base64",
+          "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZW50YXRpb24g/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceTestInv_Json_A2.jpg",
+          "mime_code": "image/jpeg",
+          "encoding": "base64",
+          "content": "iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ0MgUHJvZmls/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvceTstInv2_Json_A2.pdf",
+          "mime_code": "application/pdf",
+          "encoding": "base64",
+          "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZW50YXRpb24g=/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceTestXMLINV_Json_A2.xml",
+          "mime_code": "text/xml",
+          "encoding": "base64",
+          "content": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vI/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceTestExcelINV_Json_A2.xlsx",
+          "mime_code": "application/vnd.ms-excel",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQCpD2g4fwEAAAIFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAACAAAAAAAAAAAAAA=/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceTestCSVINV_Json_A2.csv",
+          "mime_code": "text/csv",
+          "encoding": "base64",
+          "content": "Im51bWJlciIsInN1cHBsaWVyX2ludm9pY2VfbnVtYmVyIiwic3VwcGxpZXIiLCJzd/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceTestJsonINV_Json_A2.json",
+          "mime_code": "application/json",
+          "encoding": "base64",
+          "content": "eyJyZWNvcmRzIjpbeyJyZXF1aXJlc19hY2tub3dsZWRnZW1lbnQiOiJmYWxzZSI/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceTestdocINV_Json_A2.docx",
+          "mime_code": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQDnIQddcAEAANcFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnht/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoicePPT_Json_A2.pptx",
+          "mime_code": "application/vnd.ms-powerpoint",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtb/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "10InvoiceRichText_Json_A2.rtf",
+          "mime_code": "application/rtf",
+          "encoding": "base64",
+          "content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2NvYXRleHRz/Base64EncodingIntentionallyTruncated"
+        }
+      ],
+      "tax_details": [
+        {
+          "tax_type": "Value added tax",
+          "tax_amount": "21",
+          "tax_rate": ""
+        },
+        {
+          "tax_type": "IGST",
+          "tax_amount": "",
+          "tax_rate": "22"
+        },
+        {
+          "tax_type": "Withholding tax",
+          "tax_amount": "23",
+          "tax_rate": ""
+        }
+      ],
+      "invoice_lines": [
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO_Attach_A2",
+          "purchase_order_line": "00045310041",
+          "po_line_description": "Yeti microphone - black",
+          "line_description": "10MultiInvoiceLineAttach_A2",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "200.00-",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00001",
+          "gl_account": "141150",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "attachments": [
+            {
+              "file_name": "10InvoiceTest_INVLine_Json_A2.pdf",
+              "mime_code": "application/pdf",
+              "encoding": "base64",
+              "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZW50/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10InvoiceTest_INVLine_Json_A2.jpg",
+              "mime_code": "image/jpeg",
+              "encoding": "base64",
+              "content": "iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ0Mg/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10InvceTst2_INVLine_Json_A2.pdf",
+              "mime_code": "application/pdf",
+              "encoding": "base64",
+              "content": "JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZW50Y/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10InvoiceTestXML_INVLine_Json_A2.xml",
+              "mime_code": "text/xml",
+              "encoding": "base64",
+              "content": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxv/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10InvoiceTestExcel_INVLine_Json_A2.xlsx",
+              "mime_code": "application/vnd.ms-excel",
+              "encoding": "base64",
+              "content": "UEsDBBQABgAIAAAAIQCpD2g4fwEAAAIFAAATAAgCW0NvbnRlbnRfVHlwZX/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10InvoiceTestdoc_INVLine_Json_A2.docx",
+              "mime_code": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+              "encoding": "base64",
+              "content": "UEsDBBQABgAIAAAAIQDnIQddcAEAANcFAAATAAgCW0NvbnRlbnRfVHlwZX/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10_InvoiceLinePPT_Json_A2.pptx",
+              "mime_code": "application/vnd.ms-powerpoint",
+              "encoding": "base64",
+              "content": "UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZX/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "10_InvoiceLineRichText_Json_A2.rtf",
+              "mime_code": "application/rtf",
+              "encoding": "base64",
+              "content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2NvYX/Base64EncodingIntentionallyTruncated"
+            }
+          ],
+          "tax_details": [
+            {
+              "tax_type": "IGST",
+              "tax_amount": "",
+              "tax_rate": "3.4"
+            },
+            {
+              "tax_type": "GST",
+              "tax_amount": "3.9",
+              "tax_rate": ""
+            },
+            {
+              "tax_type": "VAT",
+              "tax_amount": "2",
+              "tax_rate": "4"
+            }
+          ]
+        },
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO",
+          "purchase_order_line": "00045310041",
+          "po_line_description": "Yeti microphone - black",
+          "line_description": "Testing ERP POL",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "200.00-",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00001",
+          "gl_account": "141150",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "tax_details": [
+            {
+              "tax_type": "IGST",
+              "tax_amount": "",
+              "tax_rate": "3.4"
+            },
+            {
+              "tax_type": "GST",
+              "tax_amount": "3.9",
+              "tax_rate": ""
+            },
+            {
+              "tax_type": "VAT",
+              "tax_amount": "2",
+              "tax_rate": "4"
+            }
+          ]
+        },
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO_Attach3",
+          "purchase_order_line": "00045310042",
+          "po_line_description": "Pv-3310 photo tripod w/3-way pan",
+          "line_description": "Date Formate Test",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "100.00",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00002",
+          "gl_account": "100005",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "tax_details": [
+            {
+              "tax_type": "IGST",
+              "tax_amount": "",
+              "tax_rate": "3.2"
+            },
+            {
+              "tax_type": "Withholding tax",
+              "tax_amount": "",
+              "tax_rate": "4"
+            },
+            {
+              "tax_type": "VAT",
+              "tax_amount": "",
+              "tax_rate": "3"
+            }
+          ],
+          "attachments": [
+            {
+              "file_name": "InvoiceLinePPT.pptx",
+              "mime_code": "application/vnd.ms-powerpoint",
+              "encoding": "base64",
+              "content": "UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZXN/Base64EncodingIntentionallyTruncated"
+            },
+            {
+              "file_name": "InvoiceLineRichText.rtf",
+              "mime_code": "application/rtf",
+              "encoding": "base64",
+              "content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2NvYX/Base64EncodingIntentionallyTruncated"
+            }
+          ]
+        },
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO-01",
+          "purchase_order_line": "00045310042",
+          "po_line_description": "Yeti microphone - black",
+          "line_description": "",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "100.00",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00005",
+          "gl_account": "141101",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "tax_details": [
+            {
+              "tax_type": "SGST",
+              "tax_amount": "",
+              "tax_rate": "3.1"
+            },
+            {
+              "tax_type": "GST",
+              "tax_amount": "3.8",
+              "tax_rate": ""
+            },
+            {
+              "tax_type": "CGST",
+              "tax_amount": "",
+              "tax_rate": "1.2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "invoice_type": "",
+      "supplier_invoice_number": "LineLevelTax_Attach3",
+      "external_invoice_number": "EXT-INV-noerp-PO-line_attach3",
+      "purchase_order": "",
+      "supplier": "880733",
+      "date_format": "mm-dd-yyyy",
+      "invoice_date": "09-05-2021",
+      "payment_terms": "NET 30",
+      "legal_entity": "1100.",
+      "subtotal": "100",
+      "shipping_amount": "30.00",
+      "other_charges": "20.00",
+      "discounts": "10.00-",
+      "amount_invoiced": "140.00",
+      "currency": "USD",
+      "invoice_line_count": "1",
+      "ship_to_city": "New York",
+      "ship_to_country": "USA",
+      "ship_to_state_or_province": "NY",
+      "ship_to_street": "123 Main St",
+      "ship_to_zip_or_postal_code": "10001",
+      "ship_from_city": "Los Angeles",
+      "ship_from_country": "USA",
+      "ship_from_state_or_province": "CA",
+      "ship_from_street": "456 Oak Ave",
+      "ship_from_zip_or_postal_code": "90001",
+      "remit_address": "789 Elm St, Suite 200",
+      "remit_to_city": "Chicago",
+      "remit_to_country": "USA",
+      "remit_to_state_or_province": "IL",
+      "remit_to_zip_or_postal_code": "60601",
+      "supplier_tax_id": "12340009",
+      "invoice_copy_attachment": [
+        {
+          "file_name": "InvoicePPT.pptx",
+          "mime_code": "application/vnd.ms-powerpoint",
+          "encoding": "base64",
+          "content": "UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZXNdLnh/Base64EncodingIntentionallyTruncated"
+        },
+        {
+          "file_name": "InvoiceRichText.rtf",
+          "mime_code": "application/rtf",
+          "encoding": "base64",
+          "content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2NvYXRleH/Base64EncodingIntentionallyTruncated"
+        }
+      ],
+      "invoice_lines": [
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO-3",
+          "purchase_order_line": "00045310041",
+          "po_line_description": "Yeti microphone - black",
+          "line_description": "Testing ERP POL",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "200.00",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00005",
+          "gl_account": "120040",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "tax_details": [
+            {
+              "tax_type": "IGST",
+              "tax_amount": "",
+              "tax_rate": "6"
+            },
+            {
+              "tax_type": "GST",
+              "tax_amount": "7",
+              "tax_rate": ""
+            },
+            {
+              "tax_type": "Sales tax",
+              "tax_amount": "8",
+              "tax_rate": "8"
+            }
+          ]
+        },
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO-3",
+          "purchase_order_line": "00045310042",
+          "po_line_description": "Pv-3310 photo tripod w/3-way pan",
+          "line_description": "Date Formate Test",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "200.00",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00001",
+          "gl_account": "141250",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "tax_details": [
+            {
+              "tax_type": "CGST",
+              "tax_amount": "",
+              "tax_rate": "4.1"
+            },
+            {
+              "tax_type": "SGST",
+              "tax_amount": "4.4",
+              "tax_rate": ""
+            },
+            {
+              "tax_type": "VAT",
+              "tax_amount": "",
+              "tax_rate": "4.3"
+            }
+          ]
+        },
+        {
+          "external_invoice_number": "EXT-INV-noerp-PO-3",
+          "purchase_order_line": "00045310042",
+          "po_line_description": "Yeti microphone - black",
+          "line_description": "",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "100.00",
+          "line_amount_invoiced": "97.00",
+          "currency": "USD",
+          "cost_center": "ACN00007",
+          "gl_account": "141300",
+          "tax_code": "A0 - Sales tax, standard rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "uom": "Hours",
+          "tax_details": [
+            {
+              "tax_type": "IGST",
+              "tax_amount": "",
+              "tax_rate": "2.4"
+            },
+            {
+              "tax_type": "Withholding tax",
+              "tax_amount": "5.5",
+              "tax_rate": ""
+            },
+            {
+              "tax_type": "VAT",
+              "tax_amount": "2.6",
+              "tax_rate": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "invoice_type": "credit_memo",
+      "supplier_invoice_number": "EXT-INV-erp-po_AttachLine",
+      "external_invoice_number": "EXT-INV-erp-po_AttachLine",
+      "original_invoice": "INV0001013",
+      "supplier": "",
+      "business_owner": "lara.croft@example.com",
+      "purchase_order": "0004889699",
+      "invoice_date": "09/13/2024",
+      "payment_terms": "Net 30",
+      "legal_entity": "AUS",
+      "subtotal": "150.00",
+      "shipping_amount": "30.00",
+      "other_charges": "20.00",
+      "discounts": "00.00",
+      "amount_invoiced": "200.00",
+      "currency": "USD",
+      "invoice_line_count": "10",
+      "ship_to_city": "New York",
+      "ship_to_country": "USA",
+      "ship_to_state_or_province": "NY",
+      "ship_to_street": "123 Main St",
+      "ship_to_zip_or_postal_code": "10001",
+      "ship_from_city": "Los Angeles",
+      "ship_from_country": "USA",
+      "ship_from_state_or_province": "CA",
+      "ship_from_street": "456 Oak Ave",
+      "ship_from_zip_or_postal_code": "90001",
+      "remit_address": "789 Elm St, Suite 200",
+      "remit_to_city": "Chicago",
+      "remit_to_country": "USA",
+      "remit_to_state_or_province": "IL",
+      "remit_to_zip_or_postal_code": "60601",
+      "supplier_tax_id": "123456789",
+      "tax_details": [
+        {
+          "tax_type": "CGST",
+          "tax_amount": "15",
+          "tax_rate": ""
+        },
+        {
+          "tax_type": "Sales tax",
+          "tax_amount": "",
+          "tax_rate": "10"
+        },
+        {
+          "tax_type": "SGST",
+          "tax_amount": "10",
+          "tax_rate": ""
+        }
+      ],
+      "invoice_lines": [
+        {
+          "external_invoice_number": "EXT-INV-erp-po_AttachLine",
+          "line_description": "POL ERP number Attachment on line only",
+          "po_line_description": "",
+          "purchase_order_line": "00048896991",
+          "line_quantity": "5",
+          "line_unit_price": "20.00",
+          "subtotal": "100.00",
+          "line_amount_invoiced": "118.00",
+          "currency": "USD",
+          "cost_center": "ACN00004",
+          "gl_account": "436000",
+          "tax_code": "A1 - Sales tax, reduced rate",
+          "ship_to_city": "New York",
+          "ship_to_country": "USA",
+          "ship_to_state_or_province": "NY",
+          "ship_to_street": "123 Main St",
+          "ship_to_zip_or_postal_code": "10001",
+          "supplier_part_number": "SPN-001",
+          "attachments": [
+            {
+              "file_name": "InvoiceLinePPT.pptx",
+              "mime_code": "application/vnd.ms-powerpoint",
+              "encoding": "base64",
+              "content": "UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZXN/Base64EncodingIntentionallyTruncated""
+            },
+            {
+              "file_name": "InvoiceLineRichText.rtf",
+              "mime_code": "application/rtf",
+              "encoding": "base64",
+              "content": "e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2NvYXRl/Base64EncodingIntentionallyTruncated"
+          ],
+          "uom": "Hours"
+        }
+      ]
+    }
+  ],
+  "target_erp": ""
 }'
 ```
 
@@ -2090,7 +2913,7 @@ The following result shows that the request is successful and the invoice data i
 }
 ```
 
-## AP Invoice – POST sn\_spend\_intg/ap\_invoice/xml
+## AP Invoice – POST /sn\_spend\_intg/ap\_invoice/xml
 
 Processes an automated invoice in XML format.
 
@@ -2441,6 +3264,158 @@ Related table: Invoice Import \[sn\_spend\_intg\_imp\_invoice\]
 
 </td></tr><tr><td>
 
+/Invoice/SupportingAttachments
+
+</td><td>
+
+List of attachments defined at the invoice processing case level for cases assigned to Accounts Payable Specialists. See [Invoice processing case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/invoice-processing-case-form.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+
+</td></tr><tr><td>
+
+/Invoice/SupportingAttachments/Attachment/
+
+</td><td>
+
+Contains the details for a single attachment.
+
+</td></tr><tr><td>
+
+/Invoice/SupportingAttachments/Attachment/Content
+
+</td><td>
+
+Base64-encoded file content of the attachment.
+
+</td></tr><tr><td>
+
+/Invoice/SupportingAttachments/Attachment/Encoding
+
+</td><td>
+
+This value is always `base64`.
+
+</td></tr><tr><td>
+
+/Invoice/SupportingAttachments/Attachment/FileName
+
+</td><td>
+
+File name of the attachment.**Note:** Do not use the reserved "SD\_" prefix for an attachment file name.
+
+</td></tr><tr><td>
+
+/Invoice/SupportingAttachments/Attachment/MimeCode
+
+</td><td>
+
+This value is always `base64`.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceCopyAttachment/
+
+</td><td>
+
+List of attachments defined at the invoice level. See [Accounts Payable Invoice Processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/acc-pay-invoice-processing.md).Once created, the system will generate the invoice record along with the associated invoice case and invoice lines. Attachments will be linked to their respective records accordingly.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceCopyAttachment/Attachment/
+
+</td><td>
+
+Contains the details for a single attachment.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceCopyAttachment/Attachment/Content
+
+</td><td>
+
+Base64-encoded file content of the attachment.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceCopyAttachment/Attachment/Encoding
+
+</td><td>
+
+This value is always `base64`.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceCopyAttachment/Attachment/FileName
+
+</td><td>
+
+File name of the attachment.**Note:** Do not use the reserved "SD\_" prefix for an attachment file name.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceCopyAttachment/Attachment/MimeCode
+
+</td><td>
+
+This value is always `base64`.
+
+</td></tr><tr><td>
+
+/Invoice/InvoiceLines/
+
+</td><td>
+
+List of InvoiceLine elements that define the lines that are being invoiced for purchases within this order.
+
+</td></tr><tr><td>
+
+/InvoiceLine/
+
+</td><td>
+
+Invoice line definition. Invoice lines are staged in the Invoice line import inbound \[sn\_spend\_intg\_imp\_invoice\_line\] table.
+
+</td></tr><tr><td>
+
+/InvoiceLine/Attachment/
+
+</td><td>
+
+Contains the details for a single attachment.
+
+</td></tr><tr><td>
+
+/InvoiceLine/Attachment/Content
+
+</td><td>
+
+Base64-encoded file content of the attachment.
+
+</td></tr><tr><td>
+
+/InvoiceLine/Attachment/Encoding
+
+</td><td>
+
+This value is always `base64`.
+
+</td></tr><tr><td>
+
+/InvoiceLine/Attachment/FileName
+
+</td><td>
+
+File name of the attachment.**Note:** Do not use the reserved "SD\_" prefix for an attachment file name.
+
+</td></tr><tr><td>
+
+/InvoiceLine/Attachment/MimeCode
+
+</td><td>
+
+This value is always `base64`.
+
+</td></tr><tr><td>
+
 /InvoiceLine/CostCenter
 
 </td><td>
@@ -2775,7 +3750,7 @@ Data type: String
 </td></tr></tbody>
 </table>### cURL request
 
-The following example shows how to process an invoice provided as a request in XML format.
+The following example shows how to process an invoice provided as a request in XML format. Base64 encoding varies in size and can be very large. The content value has been truncated to conserve space. The information reflects proper payload structure.
 
 ```
 curl -X POST https://instance.servicenow.com/api/sn_spend_intg/v1/ap_invoice/xml \
@@ -2783,23 +3758,23 @@ curl -X POST https://instance.servicenow.com/api/sn_spend_intg/v1/ap_invoice/xml
 -H "Content-Type: application/json" \
 -d '<Invoices>
     <Invoice>
-        <InvoiceType>invoice</InvoiceType>
-        <SupplierInvoiceNumber>S-432432425</SupplierInvoiceNumber>
-        <ExternalInvoiceNumber>EXT-INV-003</ExternalInvoiceNumber>
+        <InvoiceType>po_invoice</InvoiceType>
+        <SupplierInvoiceNumber>S-AttachmentInvoice-A1-SupportDoc1</SupplierInvoiceNumber>
+        <ExternalInvoiceNumber>EXT-INV-#00A1</ExternalInvoiceNumber>
         <Supplier>3245545</Supplier>
-        <PurchaseOrder>0004511198</PurchaseOrder>
-        <BusinessOwner>Paula Smith</BusinessOwner>
-        <InvoiceDate>2023-09-02</InvoiceDate>
+        <PurchaseOrder>###0004889698</PurchaseOrder>
+        <BusinessOwner>paula.smith@example.com</BusinessOwner>
+        <DateFormat>DD-MMM-YY</DateFormat>
+        <InvoiceDate>16-DEC-24</InvoiceDate>
         <PaymentTerms>Net 60</PaymentTerms>
-        <OriginalInvoice></OriginalInvoice>
-        <LegalEntity></LegalEntity>
-        <Subtotal>23985.00</Subtotal>
-        <ShippingAmount>750.00</ShippingAmount>
-        <OtherCharges></OtherCharges>
-        <Discounts></Discounts>
-        <AmountInvoiced>27073.54</AmountInvoiced>
+        <LegalEntity>US</LegalEntity>
+        <Subtotal>100.00</Subtotal>
+        <ShippingAmount>20.00</ShippingAmount>
+        <OtherCharges>20</OtherCharges>
+        <Discounts>10</Discounts>
+        <AmountInvoiced>150.00</AmountInvoiced>
         <Currency>USD</Currency>
-        <InvoiceLineCount>2</InvoiceLineCount>
+        <InvoiceLineCount>1</InvoiceLineCount>
         <ShipToCity>Los Angeles</ShipToCity>
         <ShipToCountry>USA</ShipToCountry>
         <ShipToStateOrProvince>CA</ShipToStateOrProvince>
@@ -2823,96 +3798,456 @@ curl -X POST https://instance.servicenow.com/api/sn_spend_intg/v1/ap_invoice/xml
         <SupplierTaxID>7894328742</SupplierTaxID>
         <TaxDetails>
             <TaxDetail>
-                <TaxType>CGST</TaxType>
-                <TaxAmount></TaxAmount>
-                <TaxRate>15</TaxRate>
+                <TaxType>Sales tax</TaxType>
+                <TaxAmount>10</TaxAmount>
+                <TaxRate></TaxRate>
             </TaxDetail>
             <TaxDetail>
-                <TaxType>SGST</TaxType>
-                <TaxAmount>100</TaxAmount>
+                <TaxType>CGST</TaxType>
+                <TaxAmount></TaxAmount>
+                <TaxRate>11</TaxRate>
+            </TaxDetail>
+            <TaxDetail>
+                <TaxType>IGST</TaxType>
+                <TaxAmount>12</TaxAmount>
+                <TaxRate>12</TaxRate>
+            </TaxDetail>
+            <TaxDetail>
+                <TaxType>Withholding tax</TaxType>
+                <TaxAmount>13</TaxAmount>
                 <TaxRate></TaxRate>
             </TaxDetail>
         </TaxDetails>
+        <SupportingAttachments>
+            <Attachment>
+                <FileName>InvoiceCaseSupportingDoc.png</FileName>
+                <MimeCode>image/png</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>InvoiceImageA1.jpg</FileName>
+                <MimeCode>image/jpeg</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPCggKDxINC/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+        </SupportingAttachments>
+        <InvoiceCopyAttachment>
+            <Attachment>
+                <FileName>InvoiceA1.pdf</FileName>
+                <MimeCode>application/pdf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>InvoiceImageA1.jpg</FileName>
+                <MimeCode>image/jpeg</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPCggKDxINC/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+        </InvoiceCopyAttachment>
         <InvoiceLines>
             <InvoiceLine>
-                <ExternalInvoiceNumber>EXT-INV-002</ExternalInvoiceNumber>
-                <LineDescription>NowX Laptop</LineDescription>
-                <PurchaseOrderLine></PurchaseOrderLine>
-                <LineQuantity>15</LineQuantity>
-                <LineUnitPrice>1500.00</LineUnitPrice>
-                <Subtotal>22500.00</Subtotal>
-                <LineAmountInvoiced>24693.75</LineAmountInvoiced>
+                <ExternalInvoiceNumber>EXT-INV-#00A1</ExternalInvoiceNumber>
+                <LineDescription>Invoice_Line_Attach_A1</LineDescription>
+                <PurchaseOrderLine>POL11232</PurchaseOrderLine>
+                <POLineDescription>NowX Charger</POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>10.00</LineUnitPrice>
+                <Subtotal>200.00</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
                 <Currency>USD</Currency>
-                <CostCenter></CostCenter>
-                <GLAccount></GLAccount>
-                <TaxCode></TaxCode>
-                <ShipToCity></ShipToCity>
-                <ShipToCountry></ShipToCountry>
-                <ShipToStateOrProvince></ShipToStateOrProvince>
-                <ShipToStreet></ShipToStreet>
-                <ShipToZipOrPostalCode></ShipToZipOrPostalCode>
-                <SupplierPartNumber></SupplierPartNumber>
+                <CostCenter>ACN00001</CostCenter>
+                <GLAccount>100005</GLAccount>
+                <TaxCode>A1 - Sales tax, reduced rate</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
                 <UOM>Individual Unit</UOM>
-                <TaxDetails>
-                    <TaxDetail>
-                        <TaxType>WHTTax</TaxType>
-                        <TaxAmount>2193.75</TaxAmount>
-                        <TaxRate>9.75</TaxRate>
-                    </TaxDetail>
-                </TaxDetails>
+                <Attachments>
+                    <Attachment>
+                        <FileName>InvoiceLineA1.png</FileName>
+                        <MimeCode>image/png</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMT/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                </Attachments>
             </InvoiceLine>
             <InvoiceLine>
-                <ExternalInvoiceNumber>EXT-INV-002</ExternalInvoiceNumber>
-                <LineDescription>NowX Charger</LineDescription>
-                <PurchaseOrderLine>PO-6789-001</PurchaseOrderLine>
-                <LineQuantity>15</LineQuantity>
-                <LineUnitPrice>99.00</LineUnitPrice>
-                <Subtotal>1485.00</Subtotal>
-                <LineAmountInvoiced>1629.79</LineAmountInvoiced>
+                <ExternalInvoiceNumber>EXT-INV-#00A</ExternalInvoiceNumber>
+                <LineDescription>InvoiceLine_PDF_Attach_A1</LineDescription>
+                <PurchaseOrderLine>00048896981</PurchaseOrderLine>
+                <POLineDescription></POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>10.00</LineUnitPrice>
+                <Subtotal>200.00</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
                 <Currency>USD</Currency>
-                <CostCenter></CostCenter>
-                <GLAccount></GLAccount>
-                <TaxCode></TaxCode>
-                <ShipToCity></ShipToCity>
-                <ShipToCountry></ShipToCountry>
-                <ShipToStateOrProvince></ShipToStateOrProvince>
-                <ShipToStreet></ShipToStreet>
-                <ShipToZipOrPostalCode></ShipToZipOrPostalCode>
-                <SupplierPartNumber></SupplierPartNumber>
+                <CostCenter>ACN00005</CostCenter>
+                <GLAccount>120050</GLAccount>
+                <TaxCode>A1 - Sales tax, reduced rate</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
+                <UOM>Individual Unit</UOM>
+                <Attachments>
+                    <Attachment>
+                        <FileName>Invoice_line_A1.pdf</FileName>
+                        <MimeCode>application/pdf</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBER/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>InvoiceImageA1.jpg</FileName>
+                        <MimeCode>image/jpeg</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPC/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                </Attachments>
+            </InvoiceLine>
+        </InvoiceLines>
+    </Invoice>
+    <Invoice>
+        <InvoiceType>non_po_invoice</InvoiceType>
+        <SupplierInvoiceNumber>10MultiAttach_Inv_invline_A2-MultiSupp</SupplierInvoiceNumber>
+        <ExternalInvoiceNumber>EXT-INV-#00A2</ExternalInvoiceNumber>
+        <Supplier>3245545</Supplier>
+        <BusinessOwner>paula.smith@example.com</BusinessOwner>
+        <DateFormat>DD-MMM-YYYY</DateFormat>
+        <InvoiceDate>10-Nov-2024</InvoiceDate>
+        <PaymentTerms>Net 60</PaymentTerms>
+        <LegalEntity>1100</LegalEntity>
+        <Subtotal>120.00</Subtotal>
+        <ShippingAmount>10.00</ShippingAmount>
+        <OtherCharges>10</OtherCharges>
+        <Discounts>10</Discounts>
+        <AmountInvoiced>150.00</AmountInvoiced>
+        <Currency>USD</Currency>
+        <InvoiceLineCount>1</InvoiceLineCount>
+        <ShipToCity>Los Angeles</ShipToCity>
+        <ShipToCountry>USA</ShipToCountry>
+        <ShipToStateOrProvince>CA</ShipToStateOrProvince>
+        <ShipToStreet>456 Oak Ave</ShipToStreet>
+        <ShipToZipOrPostalCode>90001</ShipToZipOrPostalCode>
+        <ShipFromCity>Addison</ShipFromCity>
+        <ShipFromCountry>USA</ShipFromCountry>
+        <ShipFromStateOrProvince>TX</ShipFromStateOrProvince>
+        <ShipFromStreet>15725 Dallas P</ShipFromStreet>
+        <ShipFromZipOrPostalCode>55555</ShipFromZipOrPostalCode>
+        <RemitAddress>47 W 11th St</RemitAddress>
+        <RemitToCity>New York</RemitToCity>
+        <RemitToCountry>USA</RemitToCountry>
+        <RemitToStateOrProvince>NY</RemitToStateOrProvince>
+        <RemitToZipOrPostalCode>99999</RemitToZipOrPostalCode>
+        <BillToStreet>4810 Eastgate Mall</BillToStreet>
+        <BillToCity>San Diego</BillToCity>
+        <BillToCountry>USA</BillToCountry>
+        <BillToStateOrProvince>CA</BillToStateOrProvince>
+        <BillToZipOrPostalCode>92121</BillToZipOrPostalCode>
+        <SupplierTaxID>7894328742</SupplierTaxID>
+        <TaxDetails>
+            <TaxDetail>
+                <TaxType>Value added tax</TaxType>
+                <TaxAmount>8</TaxAmount>
+                <TaxRate></TaxRate>
+            </TaxDetail>
+            <TaxDetail>
+                <TaxType>Withholding tax</TaxType>
+                <TaxAmount></TaxAmount>
+                <TaxRate>7</TaxRate>
+            </TaxDetail>
+        </TaxDetails>
+        <SupportingAttachments>
+            <Attachment>
+                <FileName>10InvoiceCaseTestInv_Xml_A2.pdf</FileName>
+                <MimeCode>application/pdf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCasePNGInv_Xml_A2.png</FileName>
+                <MimeCode>image/png</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvceCaseTst2Inv_Xml_A2.pdf</FileName>
+                <MimeCode>application/pdf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCaseTestXMLINV_Xml_A2.xml</FileName>
+                <MimeCode>text/xml</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kY/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCaseTestExcelINV_Xml_A2.xlsx</FileName>
+                <MimeCode>application/vnd.ms-excel</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>UEsDBBQABgAIAAAAIQCpD2g4fwEAAAIFAAATAAgCW0NvbnRlbnRfVHlwZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCaseTestdocINV_Xml_A2.docx</FileName>
+                <MimeCode>application/vnd.openxmlformats-officedocument.wordprocessingml.document</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>UEsDBBQABgAIAAAAIQDnIQddcAEAANcFAAATAAgCW0NvbnRlbnRfVHlwZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCasePPT_Xml_A2.pptx</FileName>
+                <MimeCode>application/vnd.ms-powerpoint</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCaseRichText_Xml_A2.rtf</FileName>
+                <MimeCode>application/rtf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2Nv/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceCaseImageJpeg_XML_A2.jpg</FileName>
+                <MimeCode>image/jpeg</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPCggKDxINC/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+        </SupportingAttachments>
+        <InvoiceCopyAttachment>
+            <Attachment>
+                <FileName>10InvoiceTestInv_Xml_A2.pdf</FileName>
+                <MimeCode>application/pdf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoicePNGInv_Xml_A2.png</FileName>
+                <MimeCode>image/png</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMTmlDQ1BJQ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvceTst2Inv_Xml_A2.pdf</FileName>
+                <MimeCode>application/pdf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBERiBQcmVzZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceTestXMLINV_Xml_A2.xml</FileName>
+                <MimeCode>text/xml</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kY/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceTestExcelINV_Xml_A2.xlsx</FileName>
+                <MimeCode>application/vnd.ms-excel</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>UEsDBBQABgAIAAAAIQCpD2g4fwEAAAIFAAATAAgCW0NvbnRlbnRfVHlwZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceTestCSVINV_Xml_A2.csv</FileName>
+                <MimeCode>text/csv</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>Im51bWJlciIsInN1cHBsaWVyX2ludm9pY2VfbnVtYmVyIiwic3VwcGxp/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceTestJsonINV_Xml_A2.json</FileName>
+                <MimeCode>application/json</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>eyJyZWNvcmRzIjpbeyJyZXF1aXJlc19hY2tub3dsZWRnZW1lbnQiOiJmY/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceTestdocINV_Xml_A2.docx</FileName>
+                <MimeCode>application/vnd.openxmlformats-officedocument.wordprocessingml.document</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>UEsDBBQABgAIAAAAIQDnIQddcAEAANcFAAATAAgCW0NvbnRlbnRfVHlwZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoicePPT_Xml_A2.pptx</FileName>
+                <MimeCode>application/vnd.ms-powerpoint</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlbnRfVHlwZ/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceRichText_Xml_A2.rtf</FileName>
+                <MimeCode>application/rtf</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyClxjb2Nv/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+            <Attachment>
+                <FileName>10InvoiceImageJpeg_XML_A2.jpg</FileName>
+                <MimeCode>image/jpeg</MimeCode>
+                <Encoding>base64</Encoding>
+                <Content>/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPCggKDxINC/Base64EncodingIntentionallyTruncated=</Content>
+            </Attachment>
+        </InvoiceCopyAttachment>
+        <InvoiceLines>
+            <InvoiceLine>
+                <ExternalInvoiceNumber>EXT-INV-#00A2</ExternalInvoiceNumber>
+                <LineDescription>Apple_MultiAttach_A2</LineDescription>
+                <PurchaseOrderLine>48896981</PurchaseOrderLine>
+                <POLineDescription>Keyboards</POLineDescription>
+                <LineQuantity>12</LineQuantity>
+                <LineUnitPrice>10.00</LineUnitPrice>
+                <Subtotal>(200.00)</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
+                <Currency>USD</Currency>
+                <CostCenter>ACN00005</CostCenter>
+                <GLAccount>141100</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
                 <UOM>Individual Unit</UOM>
                 <TaxDetails>
                     <TaxDetail>
-                        <TaxType>GSTTax</TaxType>
-                        <TaxAmount>144.79</TaxAmount>
-                        <TaxRate>9.75</TaxRate>
+                        <TaxType>SGST</TaxType>
+                        <TaxAmount>2</TaxAmount>
+                        <TaxRate></TaxRate>
                     </TaxDetail>
                     <TaxDetail>
-                        <TaxType>CGST</TaxType>
-                        <TaxAmount>1000</TaxAmount>
-                        <TaxRate>12</TaxRate>
+                        <TaxType>IGST</TaxType>
+                        <TaxAmount></TaxAmount>
+                        <TaxRate>3</TaxRate>
+                    </TaxDetail>
+                    <TaxDetail>
+                        <TaxType>IGST</TaxType>
+                        <TaxAmount>5</TaxAmount>
+                        <TaxRate>4</TaxRate>
+                    </TaxDetail>
+                </TaxDetails>
+                <Attachments>
+                    <Attachment>
+                        <FileName>10InvoiceTestInvLine_Xml_A2.pdf</FileName>
+                        <MimeCode>application/pdf</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBER/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvcPNGInvLine_Xml_A2.png</FileName>
+                        <MimeCode>image/png</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>iVBORw0KGgoAAAANSUhEUgAAA0YAAALUCAYAAAAv/SLkAAAMT/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvTst2InvLine_Xml_A2.pdf</FileName>
+                        <MimeCode>application/pdf</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>JVBERi0xLjQKJaqrrK0KMSAwIG9iago8PAovVGl0bGUgKFBER/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceTestXMLINVLine_Xml_A2.xml</FileName>
+                        <MimeCode>text/xml</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIH/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceTestExcelINVLine_Xml_A2.xlsx</FileName>
+                        <MimeCode>application/vnd.ms-excel</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>UEsDBBQABgAIAAAAIQCpD2g4fwEAAAIFAAATAAgCW0NvbnRlbn/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceTestCSVINVLine_Xml_A2.csv</FileName>
+                        <MimeCode>text/csv</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>Im51bWJlciIsInN1cHBsaWVyX2ludm9pY2VfbnVtYmVyIiwic/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceTestJsonINVLine_Xml_A2.json</FileName>
+                        <MimeCode>application/json</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>eyJyZWNvcmRzIjpbeyJyZXF1aXJlc19hY2tub3dsZWRnZW1lb/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceTestdocINVLine_Xml_A2.docx</FileName>
+                        <MimeCode>application/vnd.openxmlformats-officedocument.wordprocessingml.document</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>UEsDBBQABgAIAAAAIQDnIQddcAEAANcFAAATAAgCW0NvbnRlb/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceLinePPT_Xml_A2.pptx</FileName>
+                        <MimeCode>application/vnd.ms-powerpoint</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>UEsDBBQABgAIAAAAIQAPBpW0tQEAAHgMAAATAAgCW0NvbnRlb/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvoiceLineRichText_Xml_A2.rtf</FileName>
+                        <MimeCode>application/rtf</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcY29jb2FydGYyODIyC/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                    <Attachment>
+                        <FileName>10InvcImageJPG_InvcLine_Xml_A2.jpg</FileName>
+                        <MimeCode>image/jpeg</MimeCode>
+                        <Encoding>base64</Encoding>
+                        <Content>/9j/4AAQSkZJRgABAQEA8ADwAAD/2wCEAAoHBwcIBwoICAoPC/Base64EncodingIntentionallyTruncated=</Content>
+                    </Attachment>
+                </Attachments>
+            </InvoiceLine>
+            <InvoiceLine>
+                <ExternalInvoiceNumber>EXT-INV-#002</ExternalInvoiceNumber>
+                <LineDescription>Negative Tax</LineDescription>
+                <PurchaseOrderLine>48896981</PurchaseOrderLine>
+                <POLineDescription>Keyboards</POLineDescription>
+                <LineQuantity>12</LineQuantity>
+                <LineUnitPrice>10.00</LineUnitPrice>
+                <Subtotal>200.00</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
+                <Currency>USD</Currency>
+                <CostCenter>ACN00001</CostCenter>
+                <GLAccount>100001</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
+                <UOM>Individual Unit</UOM>
+                <TaxDetails>
+                    <TaxDetail>
+                        <TaxType>Value added tax</TaxType>
+                        <TaxAmount></TaxAmount>
+                        <TaxRate>6</TaxRate>
+                    </TaxDetail>
+                    <TaxDetail>
+                        <TaxType>Withholding tax</TaxType>
+                        <TaxAmount>16</TaxAmount>
+                        <TaxRate></TaxRate>
                     </TaxDetail>
                 </TaxDetails>
             </InvoiceLine>
         </InvoiceLines>
     </Invoice>
     <Invoice>
-        <InvoiceType>invoice</InvoiceType>
-        <SupplierInvoiceNumber>S-432432426</SupplierInvoiceNumber>
-        <ExternalInvoiceNumber>EXT-INV-006</ExternalInvoiceNumber>
+        <InvoiceType></InvoiceType>
+        <SupplierInvoiceNumber>Both taxes</SupplierInvoiceNumber>
+        <ExternalInvoiceNumber>EXT-INV-#008</ExternalInvoiceNumber>
         <Supplier>3245545</Supplier>
-        <PurchaseOrder>0004511198</PurchaseOrder>
-        <BusinessOwner>Paula Smith</BusinessOwner>
-        <InvoiceDate>2023-09-02</InvoiceDate>
-        <PaymentTerms>Net 60</PaymentTerms>
         <OriginalInvoice></OriginalInvoice>
-        <LegalEntity></LegalEntity>
-        <Subtotal>23985.00</Subtotal>
-        <ShippingAmount>750.00</ShippingAmount>
-        <OtherCharges></OtherCharges>
-        <Discounts></Discounts>
-        <AmountInvoiced>27073.54</AmountInvoiced>
+        <PurchaseOrder>###0004889698</PurchaseOrder>
+        <BusinessOwner>paula.smith@example.com</BusinessOwner>
+        <DateFormat>DD MMMM, YY</DateFormat>
+        <InvoiceDate>5 June, 24</InvoiceDate>
+        <PaymentTerms>Net 60</PaymentTerms>
+        <LegalEntity>1100</LegalEntity>
+        <Subtotal>100.00</Subtotal>
+        <ShippingAmount>10.00</ShippingAmount>
+        <OtherCharges>10-</OtherCharges>
+        <Discounts>10</Discounts>
+        <AmountInvoiced>130.00</AmountInvoiced>
         <Currency>USD</Currency>
-        <InvoiceLineCount>2</InvoiceLineCount>
+        <InvoiceLineCount>1</InvoiceLineCount>
         <ShipToCity>Los Angeles</ShipToCity>
         <ShipToCountry>USA</ShipToCountry>
         <ShipToStateOrProvince>CA</ShipToStateOrProvince>
@@ -2936,54 +4271,288 @@ curl -X POST https://instance.servicenow.com/api/sn_spend_intg/v1/ap_invoice/xml
         <SupplierTaxID>7894328742</SupplierTaxID>
         <TaxDetails>
             <TaxDetail>
-                <TaxType>VATTax</TaxType>
-                <TaxAmount>2338.54</TaxAmount>
+                <TaxType>SGST</TaxType>
+                <TaxAmount>21</TaxAmount>
                 <TaxRate></TaxRate>
+            </TaxDetail>
+            <TaxDetail>
+                <TaxType>IGST</TaxType>
+                <TaxAmount></TaxAmount>
+                <TaxRate>23</TaxRate>
             </TaxDetail>
         </TaxDetails>
         <InvoiceLines>
             <InvoiceLine>
-                <ExternalInvoiceNumber>EXT-INV-002</ExternalInvoiceNumber>
-                <LineDescription>NowX Laptop</LineDescription>
-                <PurchaseOrderLine></PurchaseOrderLine>
-                <LineQuantity>15</LineQuantity>
-                <LineUnitPrice>1500.00</LineUnitPrice>
-                <Subtotal>22500.00</Subtotal>
-                <LineAmountInvoiced>24693.75</LineAmountInvoiced>
+                <ExternalInvoiceNumber>EXT-INV-008</ExternalInvoiceNumber>
+                <LineDescription>Apple macbook 15 Pro</LineDescription>
+                <PurchaseOrderLine>#ABC00048896981</PurchaseOrderLine>
+                <POLineDescription>NowX Laptop</POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>10.00</LineUnitPrice>
+                <Subtotal>-200.00</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
                 <Currency>USD</Currency>
-                <CostCenter></CostCenter>
-                <GLAccount></GLAccount>
-                <TaxCode></TaxCode>
-                <ShipToCity></ShipToCity>
-                <ShipToCountry></ShipToCountry>
-                <ShipToStateOrProvince></ShipToStateOrProvince>
-                <ShipToStreet></ShipToStreet>
-                <ShipToZipOrPostalCode></ShipToZipOrPostalCode>
-                <SupplierPartNumber></SupplierPartNumber>
+                <CostCenter>ACN00005</CostCenter>
+                <GLAccount>100001</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
                 <UOM>Individual Unit</UOM>
                 <TaxDetails>
+                    <TaxDetail>
+                        <TaxType>SGST</TaxType>
+                        <TaxAmount>12</TaxAmount>
+                        <TaxRate></TaxRate>
+                    </TaxDetail>
                 </TaxDetails>
             </InvoiceLine>
+        </InvoiceLines>
+    </Invoice>
+    <Invoice>
+        <InvoiceType>credit_memo</InvoiceType>
+        <SupplierInvoiceNumber>no taxes</SupplierInvoiceNumber>
+        <ExternalInvoiceNumber>EXT-INV-#009</ExternalInvoiceNumber>
+        <Supplier>3245545</Supplier>
+        <OriginalInvoice>Both taxes</OriginalInvoice>
+        <PurchaseOrder></PurchaseOrder>
+        <BusinessOwner>Paula Smith</BusinessOwner>
+        <DateFormat></DateFormat>
+        <InvoiceDate>2024-06-03</InvoiceDate>
+        <PaymentTerms>Net 60</PaymentTerms>
+        <LegalEntity>US</LegalEntity>
+        <Subtotal>100.00</Subtotal>
+        <ShippingAmount>10.00</ShippingAmount>
+        <OtherCharges>10</OtherCharges>
+        <Discounts>10</Discounts>
+        <AmountInvoiced>130.00</AmountInvoiced>
+        <Currency>USD</Currency>
+        <InvoiceLineCount>1</InvoiceLineCount>
+        <ShipToCity>Los Angeles</ShipToCity>
+        <ShipToCountry>USA</ShipToCountry>
+        <ShipToStateOrProvince>CA</ShipToStateOrProvince>
+        <ShipToStreet>456 Oak Ave</ShipToStreet>
+        <ShipToZipOrPostalCode>90001</ShipToZipOrPostalCode>
+        <ShipFromCity>Addison</ShipFromCity>
+        <ShipFromCountry>USA</ShipFromCountry>
+        <ShipFromStateOrProvince>TX</ShipFromStateOrProvince>
+        <ShipFromStreet>15725 Dallas P</ShipFromStreet>
+        <ShipFromZipOrPostalCode>55555</ShipFromZipOrPostalCode>
+        <RemitAddress>47 W 11th St</RemitAddress>
+        <RemitToCity>New York</RemitToCity>
+        <RemitToCountry>USA</RemitToCountry>
+        <RemitToStateOrProvince>NY</RemitToStateOrProvince>
+        <RemitToZipOrPostalCode>99999</RemitToZipOrPostalCode>
+        <BillToStreet>4810 Eastgate Mall</BillToStreet>
+        <BillToCity>San Diego</BillToCity>
+        <BillToCountry>USA</BillToCountry>
+        <BillToStateOrProvince>CA</BillToStateOrProvince>
+        <BillToZipOrPostalCode>92121</BillToZipOrPostalCode>
+        <SupplierTaxID>7894328742</SupplierTaxID>
+        <InvoiceLines>
             <InvoiceLine>
-                <ExternalInvoiceNumber>EXT-INV-002</ExternalInvoiceNumber>
-                <LineDescription>NowX Charger</LineDescription>
-                <PurchaseOrderLine>PO-6789-001</PurchaseOrderLine>
-                <LineQuantity>15</LineQuantity>
-                <LineUnitPrice>99.00</LineUnitPrice>
-                <Subtotal>1485.00</Subtotal>
-                <LineAmountInvoiced>1629.79</LineAmountInvoiced>
+                <ExternalInvoiceNumber>EXT-INV-008</ExternalInvoiceNumber>
+                <LineDescription>Apple macbook 15 Pro</LineDescription>
+                <PurchaseOrderLine>#ABC00048896981</PurchaseOrderLine>
+                <POLineDescription>NowX Laptop</POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>10.00-</LineUnitPrice>
+                <Subtotal>100.00</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
                 <Currency>USD</Currency>
-                <CostCenter></CostCenter>
-                <GLAccount></GLAccount>
-                <TaxCode></TaxCode>
-                <ShipToCity></ShipToCity>
-                <ShipToCountry></ShipToCountry>
-                <ShipToStateOrProvince></ShipToStateOrProvince>
-                <ShipToStreet></ShipToStreet>
-                <ShipToZipOrPostalCode></ShipToZipOrPostalCode>
-                <SupplierPartNumber></SupplierPartNumber>
+                <CostCenter>ACN00005</CostCenter>
+                <GLAccount>141200</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
+                <UOM>Individual Unit</UOM>
+            </InvoiceLine>
+            <InvoiceLine>
+                <ExternalInvoiceNumber>EXT-INV-008</ExternalInvoiceNumber>
+                <LineDescription>Apple macbook 15 Pro</LineDescription>
+                <PurchaseOrderLine>#ABC00048896981</PurchaseOrderLine>
+                <POLineDescription>NowX Laptop</POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>10.00</LineUnitPrice>
+                <Subtotal>100.00</Subtotal>
+                <LineAmountInvoiced>100</LineAmountInvoiced>
+                <Currency>USD</Currency>
+                <CostCenter>ACN00001</CostCenter>
+                <GLAccount>100002</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
+                <UOM>Individual Unit</UOM>
+            </InvoiceLine>
+        </InvoiceLines>
+    </Invoice>
+    <Invoice>
+        <InvoiceType></InvoiceType>
+        <SupplierInvoiceNumber>LineLevelTaxes</SupplierInvoiceNumber>
+        <ExternalInvoiceNumber>EXT-INV-#0010</ExternalInvoiceNumber>
+        <Supplier>3245545</Supplier>
+        <PurchaseOrder></PurchaseOrder>
+        <BusinessOwner>Paula Smith</BusinessOwner>
+        <DateFormat>MMM DD, YYYY</DateFormat>
+        <InvoiceDate>Aug 3, 2024</InvoiceDate>
+        <PaymentTerms>Net 60</PaymentTerms>
+        <LegalEntity>US</LegalEntity>
+        <Subtotal>100</Subtotal>
+        <ShippingAmount>10</ShippingAmount>
+        <OtherCharges>10</OtherCharges>
+        <Discounts>10</Discounts>
+        <AmountInvoiced>10</AmountInvoiced>
+        <Currency>USD</Currency>
+        <InvoiceLineCount>1</InvoiceLineCount>
+        <ShipToCity>Los Angeles</ShipToCity>
+        <ShipToCountry>USA</ShipToCountry>
+        <ShipToStateOrProvince>CA</ShipToStateOrProvince>
+        <ShipToStreet>456 Oak Ave</ShipToStreet>
+        <ShipToZipOrPostalCode>90001</ShipToZipOrPostalCode>
+        <ShipFromCity>Addison</ShipFromCity>
+        <ShipFromCountry>USA</ShipFromCountry>
+        <ShipFromStateOrProvince>TX</ShipFromStateOrProvince>
+        <ShipFromStreet>15725 Dallas P</ShipFromStreet>
+        <ShipFromZipOrPostalCode>55555</ShipFromZipOrPostalCode>
+        <RemitAddress>47 W 11th St</RemitAddress>
+        <RemitToCity>New York</RemitToCity>
+        <RemitToCountry>USA</RemitToCountry>
+        <RemitToStateOrProvince>NY</RemitToStateOrProvince>
+        <RemitToZipOrPostalCode>99999</RemitToZipOrPostalCode>
+        <BillToStreet>4810 Eastgate Mall</BillToStreet>
+        <BillToCity>San Diego</BillToCity>
+        <BillToCountry>USA</BillToCountry>
+        <BillToStateOrProvince>CA</BillToStateOrProvince>
+        <BillToZipOrPostalCode>92121$%ad</BillToZipOrPostalCode>
+        <SupplierTaxID>7894328742</SupplierTaxID>
+        <InvoiceLines>
+            <InvoiceLine>
+                <ExternalInvoiceNumber>EXT-INV-008</ExternalInvoiceNumber>
+                <LineDescription>Apple macbook 15 Pro</LineDescription>
+                <PurchaseOrderLine></PurchaseOrderLine>
+                <POLineDescription>NowX Laptop</POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>20</LineUnitPrice>
+                <Subtotal>-200¥</Subtotal>
+                <LineAmountInvoiced>200$</LineAmountInvoiced>
+                <Currency>USD</Currency>
+                <CostCenter>ACN00005</CostCenter>
+                <GLAccount>141300</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001ACD@</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
                 <UOM>Individual Unit</UOM>
                 <TaxDetails>
+                    <TaxDetail>
+                        <TaxType>SGST</TaxType>
+                        <TaxAmount>12</TaxAmount>
+                        <TaxRate></TaxRate>
+                    </TaxDetail>
+                    <TaxDetail>
+                        <TaxType>CGST</TaxType>
+                        <TaxAmount></TaxAmount>
+                        <TaxRate>15</TaxRate>
+                    </TaxDetail>
+                    <TaxDetail>
+                        <TaxType>Withholding tax</TaxType>
+                        <TaxAmount>13</TaxAmount>
+                        <TaxRate>13</TaxRate>
+                    </TaxDetail>
+                </TaxDetails>
+            </InvoiceLine>
+        </InvoiceLines>
+    </Invoice>
+    <Invoice>
+        <InvoiceType></InvoiceType>
+        <SupplierInvoiceNumber>LineLevelTaxes</SupplierInvoiceNumber>
+        <ExternalInvoiceNumber>EXT-INV-#0010</ExternalInvoiceNumber>
+        <Supplier>3245545</Supplier>
+        <PurchaseOrder></PurchaseOrder>
+        <BusinessOwner>Paula Smith</BusinessOwner>
+        <DateFormat>MMMM DD, YYYY</DateFormat>
+        <InvoiceDate>september 1st, 2024</InvoiceDate>
+        <PaymentTerms>Net 60</PaymentTerms>
+        <LegalEntity>US</LegalEntity>
+        <Subtotal>100</Subtotal>
+        <ShippingAmount>10</ShippingAmount>
+        <OtherCharges>10</OtherCharges>
+        <Discounts>10</Discounts>
+        <AmountInvoiced>10</AmountInvoiced>
+        <Currency>USD</Currency>
+        <InvoiceLineCount>1</InvoiceLineCount>
+        <ShipToCity>Los Angeles</ShipToCity>
+        <ShipToCountry>USA</ShipToCountry>
+        <ShipToStateOrProvince>CA</ShipToStateOrProvince>
+        <ShipToStreet>456 Oak Ave</ShipToStreet>
+        <ShipToZipOrPostalCode>90001</ShipToZipOrPostalCode>
+        <ShipFromCity>Addison</ShipFromCity>
+        <ShipFromCountry>USA</ShipFromCountry>
+        <ShipFromStateOrProvince>TX</ShipFromStateOrProvince>
+        <ShipFromStreet>15725 Dallas P</ShipFromStreet>
+        <ShipFromZipOrPostalCode>55555</ShipFromZipOrPostalCode>
+        <RemitAddress>47 W 11th St</RemitAddress>
+        <RemitToCity>New York</RemitToCity>
+        <RemitToCountry>USA</RemitToCountry>
+        <RemitToStateOrProvince>NY</RemitToStateOrProvince>
+        <RemitToZipOrPostalCode>99999</RemitToZipOrPostalCode>
+        <BillToStreet>4810 Eastgate Mall</BillToStreet>
+        <BillToCity>San Diego</BillToCity>
+        <BillToCountry>USA</BillToCountry>
+        <BillToStateOrProvince>CA</BillToStateOrProvince>
+        <BillToZipOrPostalCode>92121$%ad</BillToZipOrPostalCode>
+        <SupplierTaxID>7894328742</SupplierTaxID>
+        <InvoiceLines>
+            <InvoiceLine>
+                <ExternalInvoiceNumber>EXT-INV-008</ExternalInvoiceNumber>
+                <LineDescription>Apple macbook 15 Pro</LineDescription>
+                <PurchaseOrderLine></PurchaseOrderLine>
+                <POLineDescription>NowX Laptop</POLineDescription>
+                <LineQuantity>10</LineQuantity>
+                <LineUnitPrice>20</LineUnitPrice>
+                <Subtotal>-200¥</Subtotal>
+                <LineAmountInvoiced>200$</LineAmountInvoiced>
+                <Currency>USD</Currency>
+                <CostCenter>ACN00005</CostCenter>
+                <GLAccount>141300</GLAccount>
+                <TaxCode>A0 Sales Tax</TaxCode>
+                <ShipToCity>New York</ShipToCity>
+                <ShipToCountry>USA</ShipToCountry>
+                <ShipToStateOrProvince>New York</ShipToStateOrProvince>
+                <ShipToStreet>PA112</ShipToStreet>
+                <ShipToZipOrPostalCode>1001ACD@</ShipToZipOrPostalCode>
+                <SupplierPartNumber>SPN1211</SupplierPartNumber>
+                <UOM>Individual Unit</UOM>
+                <TaxDetails>
+                    <TaxDetail>
+                        <TaxType>SGST</TaxType>
+                        <TaxAmount>12</TaxAmount>
+                        <TaxRate></TaxRate>
+                    </TaxDetail>
+                    <TaxDetail>
+                        <TaxType>CGST</TaxType>
+                        <TaxAmount></TaxAmount>
+                        <TaxRate>15</TaxRate>
+                    </TaxDetail>
+                    <TaxDetail>
+                        <TaxType>Withholding tax</TaxType>
+                        <TaxAmount>13</TaxAmount>
+                        <TaxRate>13</TaxRate>
+                    </TaxDetail>
                 </TaxDetails>
             </InvoiceLine>
         </InvoiceLines>

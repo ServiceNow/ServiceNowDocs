@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Set up authentication with Microsoft Azure to connect Microsoft Teams with Workp
 2.  [Setup OAuth connectivity with Microsoft Teams Connections spoke for virtual meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-connection-spoke.md)  
 Register your Microsoft Teams Communications spoke with ServiceNow instance for OAuth authorization.
 3.  [Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.md)  
-Register your Microsoft Teams Graph with ServiceNow® instance for OAuth authorization to get recordings after a virtual meeting.
+Register your Microsoft Teams Graph with your ServiceNow® instance for OAuth authorization to get recordings after a virtual meeting.
 4.  [Create credential for Microsoft Teams Communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-credentials-for-microsoft-teams-connection.md)  
 Setup credentials for Microsoft Teams Communication spoke.
 5.  [Create connection and credential for Microsoft Teams Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-connection-and-credentials-alias-for-microsoft-teams-graph.md)  

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Logical Connection form
@@ -52,7 +52,7 @@ Site A
 
 </td><td>
 
-Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [dfedcfeedd5cb1e09f2c9b2b13926ebc1136abf4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Originating network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [c80de0b0e42c4582f147f092909ec837bbe80c4e.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Site Z
 
 </td><td>
 
-Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [dfedcfeedd5cb1e09f2c9b2b13926ebc1136abf4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+Destination network site for this connection. Select the search icon \( \[Omitted image "search.png"\] Alt text: Search icon.\) and select a network site. To learn more, see [c80de0b0e42c4582f147f092909ec837bbe80c4e.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr></tbody>
 </table>**Related topics**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/using-cam.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Customer management, Use, Customer Service Management]
 ---
 
 # Using customer access management
@@ -21,9 +21,7 @@ Customer access management enables you to support multiple contacts and consumer
 **Related topics**  
 
 
+[Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-cam.md)
+
 [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-account-access-cam.md)
-
-[Add related parties to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/adding-related-party-to-case.md)
-
-[Adding related parties to a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-related-parties-to-sp.md)
 

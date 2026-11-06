@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automation Center reference, Automation Center, Data and Automation]
+breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
 
 # Components installed with Automation Center
@@ -22,7 +22,7 @@ Demo data is available for this plugin.
 
 ## Roles installed
 
-**Note:** To view the Robotic Process Automation \(RPA\) data, RPA roles are required. For more information about RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/installed-with-rpa-hub.md) .
+**Note:** To view the Robotic Process Automation \(RPA\) data, RPA roles are required. For more information about RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/installed-with-rpa-hub.md) .
 
 <table id="table_ddp_3pg_wtb"><thead><tr><th>
 

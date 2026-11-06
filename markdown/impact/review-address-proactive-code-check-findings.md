@@ -1,20 +1,22 @@
 ---
-title: Proactive Code Check analytics
+title: Proactive Code Check analytics for the Impact Store Application
 description: Platform Owners use Proactive Code Check to track compliance against coding best practices and organizational standards. Owners can review detailed findings and audit the status of issues that were uncovered during the scan. Historical data is available up to six months.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/review-address-proactive-code-check-findings.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Proactive Code Check, Impact Platform Health, Using Impact Store Application, Impact Store Application, Impact]
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
-# Proactive Code Check analytics
+# Proactive Code Check analytics for the Impact Store Application
 
 Platform Owners use Proactive Code Check to track compliance against coding best practices and organizational standards. Owners can review detailed findings and audit the status of issues that were uncovered during the scan. Historical data is available up to six months.
 
 ## About this task
+
+**Note:** Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   Identify recurring issues and trends in unresolved findings.
 -   View progress on resolving technical debt over time.
@@ -30,17 +32,13 @@ Role required: Impact\_platform\_owner, sn.mif\_mif\_read
 
     The Proactive Code Check overview displays with data from the last 30 days.
 
-    \[Omitted image "pcc-analytics.png"\] Alt text: The PCC analytics page with findings summaries displayed.
-
 2.  Select **View Dashboard** to view additional information about the scans.
 
     -   Filter by instances or by time period.
-    -   The Prevented findings charts display metrics related to findings that were resolved prior to moving an update set to a production completed status.\[Omitted image "pcc-dashboard-prevented-findings.png"\] Alt text: Chart of the findings that were prevented in non-production update sets.
-    -   The Unresolved findings section displays metrics related to findings that remained open after an update set was moved to a production completed status.\[Omitted image "pcc-dashboard-unresolved-findings.png"\] Alt text: Chart of the findings that were unresolved in non-production update sets.
+    -   The Prevented findings charts display metrics related to findings that were resolved prior to moving an update set to a production completed status.
+    -   The Unresolved findings section displays metrics related to findings that remained open after an update set was moved to a production completed status.
     -   Compare Trends in Resolved vs. Unresolved Findings.
 3.  Select **View all findings** to view all findings related to Proactive Code Check.
-
-    \[Omitted image "pcc-all-findings-table.png"\] Alt text: List of all findings detected.
 
     -   View All Findings Across Instances.
     -   Filter and Group Findings by Severity, Type, or Check.
@@ -56,5 +54,5 @@ Role required: Impact\_platform\_owner, sn.mif\_mif\_read
         |Count of Findings Muted|Muted and Updated on Today|
 
 
-**Parent Topic:**[Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
+**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
 

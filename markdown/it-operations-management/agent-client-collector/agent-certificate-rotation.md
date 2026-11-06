@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC certificates, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent certificate rotation
@@ -20,6 +20,8 @@ When an Agent Client Collector's certificate expiration is approaching, system p
 
 -   **certificate-rotation-days-out**: Indicates the number of days before certificate expiration that an agent attempts to rotate its certificate. Configured in the `acc.yml` configuration file. Default = 28.
 -   **sn\_agent.certificate\_rotation\_days\_out**: Indicates the number of days before certificate expiration that the system accepts a certificate rotation request for a specific agent. Configured on the System Properties page \(**All** &gt; **System Properties** &gt; **All Properties**\). Default = 28.
+
+**Parent Topic:**[Agent Client Collector certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-certificates.md)
 
 **Related topics**  
 

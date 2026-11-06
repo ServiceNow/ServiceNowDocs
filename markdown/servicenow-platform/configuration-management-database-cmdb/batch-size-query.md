@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring CMDB Query Builder, CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Batch size for CMDB Query Builder queries
@@ -23,7 +23,7 @@ Batch size is applicable and behaves the same in all query run scenarios, regard
 -   Query Builder user interface \(ad hoc or saved query\)
 -   [Query Builder Scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/CMDBQueryBuilderAPI.md)
 -   Scheduled jobs
--   [CMDB groups]()
+-   [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
 
 The batch size for query runs is allocated in the following priority order:
 
@@ -36,7 +36,7 @@ The batch size for query runs is allocated in the following priority order:
 If you are experiencing performance problems when running queries, you can modify the batch size value:
 
 -   Globally for all queries: By adding \(if necessary\) and setting the value of the system property [glide.cmdb.query.batch\_size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md).
--   Per saved query: [Set batch size for a specific saved query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md)
+-   Per saved query: [Set batch size for a specific saved query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md).
 
 ## Set batch size for a specific saved query
 
@@ -44,7 +44,7 @@ Configure a custom batch size for a CMDB Query Builder saved query that takes a 
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ### About this task
 

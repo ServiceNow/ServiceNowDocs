@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a work plan for your enterprise assets, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create a work plan for your enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a planned work schedule for your work plan

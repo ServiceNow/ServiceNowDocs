@@ -8,7 +8,8 @@ product: Discovery
 classification: discovery
 topic_type: concept
 last_updated: "2026-10-01"
-reading_time_minutes: 6
+reading_time_minutes: 8
+keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -18,17 +19,21 @@ The Schedules page provides a single place to monitor Discovery performance, eff
 
 To access the Discovery Admin Workspace Schedules page, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
 
-**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.13.0. Specific version requirements are noted for individual features where applicable.
+**Note:** The capabilities described here are available starting with Discovery Admin Workspace v1.19.0. Specific version requirements are noted for individual features where applicable.
 
 ## Key features
 
 -   **Quick Discovery option**
 
-    Enables you to perform an IP-based discovery in just a few steps. You can select an IP range, choose the MID selection method, pick the MID Server, and run the discovery all within one interface. This option is available from any tab on the Schedules page.
+    Enables you to perform an IP-based discovery in just a few steps. You can select an IP range, choose the MID selection method, pick the MID Server, and run the discovery all within one interface. The **Quick Discovery** option is available from any tab on the **Schedules** page.
 
 -   **New Discovery option**
 
-    Enables you to choose how you want to discover your resources, either through IP-based or Cloud-based discovery. This option is available from any tab on the Schedules page.
+    Enables you to choose how you want to discover your resources, either through IP-based or Cloud-based discovery. The **New Discovery** option is available from any tab on the **Schedules** page.
+
+    Enables you to choose how you want to discover your resources, through IP-based, Cloud, or Certificate discovery. The **New Discovery** option is available from any tab on the **Schedules** page.
+
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with patch 8.
 
 -   **Overview tab**
 
@@ -133,9 +138,9 @@ Displays the count of all Discovery errors by category.Select a category to add 
 
     Provides a centralized view for monitoring and managing IP‑based Discovery schedules and coverage.
 
-    Depending on your IPv6 IP Address Management \(IPAM\) integration, items that require attention are displayed. These items include IPs not covered by Discovery schedules and schedules that were auto-created from IPAM that require activation. If you haven't enabled auto-created Discovery schedules via IPAM, select **Review in Settings** to access the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md) page. When auto‑created schedules are enabled, a notification displays the number of Discovery schedules that require activation. Select **View and activate schedules** to open the Auto‑created schedules page. For details on activating these schedules, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/activate-auto-disco-schedule.md). For more information about IPv6 IPAM integration, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
+    Depending on your IPv6 IP Address Management \(IPAM\) integration, items that require attention are displayed. These items include IPs not covered by Discovery schedules and schedules that were auto-created from IPAM that require activation. Select **Review missing coverage** to access the  page where you can view coverage analysis results and create Discovery schedules from IP Ranges. If you haven't enabled auto-created Discovery schedules via IPAM, select **Review in Settings** to access the [Discovery Admin Workspace Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-setup.md) page. When auto‑created schedules are enabled, a notification displays the number of Discovery schedules that require activation. Select **View and activate schedules** to open the Auto‑created schedules page. For details on activating these schedules, see [Activate auto-created Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/activate-auto-disco-schedule.md). For more information about IPv6 IPAM integration, see [IPAM Discovery integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ipv6-ipam-disco-integration.md).
 
-    Select **All IP range sets** to access the Discovery Range Sets \[discovery\_range\] table.
+    Select **View Inventory** to open the IP inventory page. On the IP inventory page, you can manage the IP ranges, networks, and IPAM data that Discovery relies on. For more information, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-ip-inventory.md).
 
     Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 
@@ -145,23 +150,22 @@ Displays the count of all Discovery errors by category.Select a category to add 
 
     Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_daw-disco-schedule-details.md).
 
+-   **Certificate discovery**
+
+    Provides a centralized view for monitoring and managing certificate Discovery schedules. Depending on the state of your schedules, items that require attention are displayed. Select **Review that list of IP-based schedules** to open the IP-based discovery tab. To resolve certificate schedule errors, select **Review schedules** to open the [Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md) page. To review discovered certificates, select **Go to Certificate Management Workspace** to access the Certificate Inventory and Management Workspace.
+
+    Discovery Admin Workspace offers two methods for certificate discovery:
+
+    -   Port scans: Collects certificates from devices that have listening ports found during your existing IP-based Discovery schedules. For more information, see [Run Certificate Discovery via port scans in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-discover-certs-port.md).
+    -   URL scans: Collects certificates from a list of URLs that you specify in a new certificate Discovery schedule. For more information, see [Run Certificate Discovery via URL scans in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-discover-certs-url.md).
+    Select a Discovery schedule from the table to view extensive details and update schedule field parameters. For more information, see [Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_daw-disco-schedule-details.md).
+
+    **Note:** Certificate discovery is available in Discovery Admin Workspace starting with v1.20.0 and requires the Brazil, Australia, or Zurich release starting with Patch 8.
+
 -   **Discovery status tab**
 
     Shows the status of scheduled discoveries. You can select a Discovery status number to view detailed information. For more details, see [Discovery Admin Workspace status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-disco-status-details.md).
 
-
--   **[Create an IP-based Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t-dawCreateNewDiscoSchedule.md)**  
-Use the Discovery Admin Workspace dashboard to create IP-based Discovery schedules.
--   **[Discovery Admin Workspace schedule details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_daw-disco-schedule-details.md)**  
-Discovery Admin Workspace enables you to view, edit, and run IP-based Discovery schedules conveniently within a single interface.
--   **[Discovery Admin Workspace status details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-disco-status-details.md)**  
-The Discovery Status Details page offers a summary of a discovery initiated from a schedule, detailing the devices identified, any errors encountered, and any anomalies found.
-
-**Parent Topic:**[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md)
-
-**Previous topic:**[Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-home.md)
-
-**Next topic:**[Create an IP-based Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t-dawCreateNewDiscoSchedule.md)
 
 **Related topics**  
 

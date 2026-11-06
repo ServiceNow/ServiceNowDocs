@@ -1,5 +1,5 @@
 ---
-title: Analytics Hub
+title: \(Legacy\) Analytics Hub
 description: The Analytics Hub is an exploratory view of indicators, used for more detailed analysis. It lets you see trends, predictions, breakdowns, and associated records for a specific indicator. The Analytics Hub replaces scorecards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/c\_UsePerformanceAnalyticsScorecards.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Analytics Hub
+# \(Legacy\) Analytics Hub
 
 The Analytics Hub is an exploratory view of indicators, used for more detailed analysis. It lets you see trends, predictions, breakdowns, and associated records for a specific indicator. The Analytics Hub replaces scorecards.
 
 **Note:** In Platform Analytics, Analytics Hub functionality is in [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details.md). Navigate to **Platform Analytics** &gt; **Indicators**. After you migrate to Platform Analytics, only the [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details.md) option is available.
-
-Watch this five-minute video to learn how to use Analytics Hub to analyze, explore, and compare Performance Analytics indicator data.
 
 In the Analytics Hub, analyze indicator scores by aggregating data, comparing scores, or viewing changes over time, and filter scores by breakdown. Enhance the Analytics Hub by adding targets, thresholds, trendlines, and useful comments for significant changes.
 

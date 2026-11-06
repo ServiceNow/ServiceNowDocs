@@ -5,15 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/closing-of-an-email-interaction.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
-breadcrumb: [Engaging with the customer using email interaction, Using Email Interaction for Customer Service Management, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Close an email interaction
 
 Close the email interaction after the customer accepts the resolution. The email interaction also automatically closes due to customer inactivity.
+
+**Note:** After an email interaction is closed, sending emails or composing worknotes within that interaction is no longer available.
 
 ## Close an email interaction after the customer accepts a resolution
 
@@ -27,7 +29,7 @@ Role required: sn\_customerservice\_agent, or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "List\_icon\_eaai\_new.png"\] Alt text: List icon that displays the interactions.\).
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -40,7 +42,7 @@ Role required: sn\_customerservice\_agent, or sn\_customerservice\_manager
 
 The email interaction is closed and marked as Closed Complete.
 
-## Closing an email interaction due to customer inactivity
+## Close an email interaction due to customer inactivity
 
 An email interaction gets closed automatically when there’s no response from the customer within a certain period. By default, the period of inactivity is set to a value of five days.
 

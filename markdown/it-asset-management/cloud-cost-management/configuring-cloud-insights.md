@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring Cloud Cost Management
@@ -34,7 +34,7 @@ Resource
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "bus-download.svg"\] Alt text: Install Cloud Cost ManagementInstall Cloud Cost Management
+\[Omitted image "bus-download.svg"\] Alt text:Install Cloud Cost Management
 
 </td><td>
 
@@ -46,11 +46,11 @@ Get the Cloud Cost Management application from the [ServiceNow Store](https://st
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-download.svg"\] Alt text: Install Cloud Cost Management Infra StackInstall Cloud Cost Management Infra Stack
+\[Omitted image "bus-download.svg"\] Alt text:Install Cloud Cost Management Infra Stack
 
 </td><td>
 
-Get the Cloud Cost Management Infra Stack application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).**Important:** The Cloud Cost Management Infra stack application is available with Cloud Cost Management version 8.1 and later. Installing the Cloud Cost Management Infra Stack application is optional. However, if you've activated this application, you can't deactivate it later.
+Get the Cloud Cost Management Infra Stack application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).**Important:** The Cloud Cost Management Infra Stack application is available with Cloud Cost Management version 8.1 and later. Installing the Cloud Cost Management Infra Stack application is optional. However, if you have activated this application, you can't deactivate it later.
 
 </td><td>
 
@@ -58,7 +58,7 @@ Get the Cloud Cost Management Infra Stack application from the [ServiceNow Store
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-3-person.svg"\] Alt text: Assign Cloud Cost Management rolesAssign roles
+\[Omitted image "bus-3-person.svg"\] Alt text:Assign roles
 
 </td><td>
 
@@ -70,11 +70,11 @@ Assign Cloud Cost Management roles to user groups and to individual users based 
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-server.svg"\] Alt text: Install MID serversInstall MID servers
+\[Omitted image "bus-server.svg"\] Alt text:Install MID Servers
 
 </td><td>
 
-Install the MID servers to enable the movement of data between the Discovery application and your cloud platform.
+Install the MID Servers to enable the movement of data between the Discovery application and your cloud platform.
 
 </td><td>
 
@@ -82,7 +82,7 @@ Install the MID servers to enable the movement of data between the Discovery app
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-server.svg"\] Alt text: Configure MID serversConfigure MID Servers
+\[Omitted image "bus-server.svg"\] Alt text:Configure MID Servers
 
 </td><td>
 
@@ -96,7 +96,7 @@ Configure the MID Servers for enabling the Discovery application to communicate 
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-discover.svg"\] Alt text: Discover cloud resourcesDiscover your cloud resources
+\[Omitted image "bus-discover.svg"\] Alt text:Discover your cloud resources
 
 </td><td>
 
@@ -109,7 +109,7 @@ Discover the service accounts, the credentials for accessing the accounts, and t
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-datasheet.svg"\] Alt text: Download billing dataSchedule and manage jobs to download billing data for Cloud Cost Management
+\[Omitted image "bus-datasheet.svg"\] Alt text:Schedule and manage jobs to download billing data for Cloud Cost Management
 
 </td><td>
 
@@ -123,7 +123,7 @@ Provide the Cloud Cost Management application access to the billing and usage da
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-dollar-sign.svg"\] Alt text: Download and store price sheet dataSchedule and manage jobs to download price sheets for Cloud Cost Management
+\[Omitted image "bus-dollar-sign.svg"\] Alt text:Schedule and manage jobs to download price sheets for Cloud Cost Management
 
 </td><td>
 
@@ -137,7 +137,7 @@ Enable Cloud Cost Management to download and store price sheet data of the used 
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-sdlc.svg"\] Alt text: Configure Cloud Cost ManagementConfigure the Cloud Cost Management features
+\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Cloud Cost Management features
 
 </td><td>
 
@@ -145,7 +145,7 @@ Configure the Cloud Cost Management features to rightsize, identify, assign, man
 
 </td><td>
 
--   [Reservation or Saving plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ri-cloudin.md)
+-   [Commitments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/ri-cloudin.md)
 -   [Rightsizing resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/rs-cloudin.md)
 -   [Unused resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/um-cloudin.md)
 -   [Business hours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/bh-cloudin.md)
@@ -153,7 +153,7 @@ Configure the Cloud Cost Management features to rightsize, identify, assign, man
 
 </td></tr><tr><td>
 
-\[Omitted image "bus-rocketship.svg"\] Alt text: Use Cloud Cost ManagementUse Cloud Cost Management
+\[Omitted image "bus-rocketship.svg"\] Alt text:Use Cloud Cost Management
 
 </td><td>
 

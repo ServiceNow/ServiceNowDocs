@@ -1,44 +1,44 @@
 ---
 title: Create a dynamic category
-description: Create a container for organizing dynamic attribute groups.
+description: Create a container for organizing dynamic attributes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/create-dynamic-category.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic Schema, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a dynamic category
 
-Create a container for organizing dynamic attribute groups.
+Create a container for organizing dynamic attributes.
 
 ## Before you begin
 
-Role required: admin
+Role required: dynamic\_schema\_writer
 
 ## About this task
 
-After defining your dynamic attribute groups, organize the groups into broader categories.
+After defining your dynamic attributes, you can organize them into categories.
 
-Dynamic categories inherit the group membership of their extended hierarchy. For example, a Televisions category could inherit the Electrical Specs group associated with its parent category, Electronics.
+Dynamic categories inherit the dynamic attributes of their extended hierarchy. For example, a Televisions category could inherit the volts, amps, and watts attributes associated with its parent category, Electronics.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Dynamic Schema** &gt; **Dynamic Categories**.
+1.  Navigate to **All** &gt; **Dynamic Schema** &gt; **Dynamic Namespaces**.
 
-2.  Select **New**.
+2.  In the Dynamic Categories related list, select **New**.
 
 3.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
-    |Label|Label used for displaying the dynamic attribute group.|
+    |Namespace|Namespace to which the dynamic category belongs.|
+    |Label|Label used for displaying the dynamic category.|
     |Name|Internal name for the dynamic category.|
-    |Parent|Parent category from which this category extends.|
     |Description|A brief summary of what the category contains.|
-    |Extensible|Option to allow other categories to extend this category.|
+    |Parent|Parent category from which this category extends.|
     |Active|Option to activate the dynamic category.|
 
 
@@ -52,9 +52,9 @@ Dynamic categories inherit the group membership of their extended hierarchy. For
 
 ## What to do next
 
-Add more dynamic categories as needed. For example, you might add dynamic categories for other store departments like Health and Beauty, Automotive, and Sporting Goods.
+Add more dynamic categories as needed. For example, you might add parent categories for store departments like Health and Beauty, Automotive, and Sporting Goods and child categories for Body Soap, Shampoo, Motor Oil, and Fishing Poles.
 
-If you determine that you need another dynamic attribute group for multiple products in a category, you can define the dynamic attributes, add them to a new dynamic attribute group, and then add the dynamic attribute group to a broader dynamic category. The new dynamic attribute group is automatically inherited by any dynamic category that extends from the broader dynamic category.
+If you determine that you need dynamic attributes for multiple products in different dynamic categories, you can define the dynamic attributes in a broader, parent dynamic category. When you add attributes to a parent, they're automatically inherited by a child category.
 
-For example, you might need attributes for capturing Volts, Amps, and Watts in a product record. You can add the attributes to a new group called Electrical Specs, and then add the group to the Electronics category. Because the Televisions category extends from the Electronics category, the Electrical Specs group is automatically inherited by the Televisions category.
+For example, you might need attributes for capturing Volts, Amps, and Watts in a product record. You can add these attributes to the Electronics category. When you create the Televisions category and select Electronics as the parent category, the Volts, Amps, and Watts attributes are automatically inherited by the Televisions category.
 

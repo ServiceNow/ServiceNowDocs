@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Image bot response control
@@ -61,7 +61,7 @@ Image alt text
 
 </td><td>
 
-Alternative, screen-readable text included for accessibility. This text is used along with the image. Enter the text using the text field, data pill, or script. For more information about using data pills or scripts, see [Virtual Agent Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
+Alternative, screen-readable text included for accessibility. This text is used along with the image. Enter the text using the text field, data pill, or script. For more information about using data pills or scripts, see [Assistant Designer controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/virtual-agent-controls.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -84,22 +84,15 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|The maximum image size is determined by the **com.glide.attachment.max\_size** system property. The default value is 1024 MB.|
-|Mobile UI|Supported|The maximum image size is determined by the **com.glide.attachment.max\_size** system property. The default value is 1024 MB.|
-|Now Assist panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|For details about the maximum image size allowed, check the Slack documentation.|
-|Workplace|Supported|For details about the maximum image size allowed, check the Workplace documentation.|
-|Facebook Messenger|Supported|For details about the maximum image size allowed, check the Facebook Messenger documentation.|
 |SMS Twilio|Supported|File size limits may vary. For Twilio limitations, check their [Accepted Content Types for Media](https://www.twilio.com/docs/sms/accepted-mime-types).|
-|LINE|Supported|File size limits may vary. For details, see the LINE documentation.|
 |WhatsApp|Supported|File size limits may vary. For details, see the WhatsApp documentation.|
-|Apple Messages for Business|Supported|None|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found an image`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Google Chat|Supported|None|
 
 ## Example Image bot response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -122,5 +115,5 @@ Image bot response output
 \[Omitted image "va-image-response-mobile.png"\] Alt text: A chat window shows a picture of a computer.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Control objectives form
-description: Use the control objectives form to capture all the information that you need to associate a control with a question using the Third-party Risk Management application. As a third-party risk admin, you can create a control objective.
+description: Use the control objectives form to capture all the information that you need to associate a control objective with a question using the Third-party Risk Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-control-objective-form.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Add a control objective, TPRM with Policy and Compliance Management, Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Control objectives form
 
-Use the control objectives form to capture all the information that you need to associate a control with a question using the Third-party Risk Management application. As a third-party risk admin, you can create a control objective.
+Use the control objectives form to capture all the information that you need to associate a control objective with a question using the Third-party Risk Management application.
 
 <table id="table_FloorForm"><thead><tr><th>
 

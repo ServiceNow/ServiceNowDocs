@@ -1,50 +1,57 @@
 ---
 title: Add a sales agreement to an order in Order Management
-description: Add a sales agreement to your order. A sales agreement is a contract to order a pre-identified set of products and services for a set price.
+description: Add a sales agreement to an order to set pricing, filter catalog options, and streamline product configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-add-sales-agreement-to-order.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Add a sales agreement to an order in Order Management
 
-Add a sales agreement to your order. A sales agreement is a contract to order a pre-identified set of products and services for a set price.
+Add a sales agreement to an order to set pricing, filter catalog options, and streamline product configuration.
 
 ## Before you begin
 
-Role required: sn\_ind\_tmt\_orm.order\_agent
+Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 
 ## About this task
 
-A sales agreement is a contract to order a set of products and services for a set price. Sales agreements let agents move quickly through the order process because the sales agreements establish the products and pricing for the order.
+A sales agreement is a contract to purchase a defined set of products and services for a fixed price. With a sales agreement:
 
--   Sales agreement terms are defaulted for the order.​
--   Price lists are defaulted based on the pricing terms in the sales agreement​.
--   The order catalog is filtered for products and options by the terms of the sales agreement​.
--   Agents can configure product bundles for orders with sales agreements.
+-   Terms are defaulted for the order.​​
+-   Price lists are defaulted based on the pricing terms.
+-   The order catalog is filtered for products and options.
+-   Agents can configure product bundles for orders.
+-   Agents can move quickly through the order process.
 
 See [Using Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-agreement-mgmt-using.md) and [Create a sales agreement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-new-sales-agreement.md) to learn more about creating a sales agreement.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer orders** &gt; **All** and select the order you’re working with.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  Navigate to the Order Details tab by selecting the more icon \[Omitted image "som-icon-more-order-detail.png"\]and choosing **Order Details**.
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  In the **Customer Order** form, find the **Sales Agreement** field and select the sales agreement you want.
+3.  Navigate to **Customer Orders** &gt; **All**.
 
-    \[Omitted image "som-add-sa-to-order.png"\] Alt text: Image shows the order form with a sales agreement selected to add to the order.
+4.  Select an order.
 
-4.  Select **Update**.
+5.  Select the more actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:, and then select **Order details**.
+
+6.  In the Customer Order form, select the sales agreement you want in the **Sales Agreement** field.
+
+7.  Select **Update**.
 
     The sales agreement with its product offerings and price lists is added to the order.
 
 
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
+## What to do next
+
+[Add products or services to an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-add-products-services-to-orders.md)
 
 **Related topics**  
 

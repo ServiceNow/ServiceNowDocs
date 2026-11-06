@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC Risk Workspace, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -76,9 +76,5 @@ Create control test plans
 [Create a test plan in Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/create-test-plan-in-risk-ws.md)
 
 </td></tr></tbody>
-</table>The following image shows the view for the IT risk manager.
-
-\[Omitted image "risk-workspace-it-risk-mgr.png"\] Alt text: Home page for the IT risk manager in workspace.
-
-**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
+</table>**Parent Topic:**[GRC Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/risk-workspace.md)
 

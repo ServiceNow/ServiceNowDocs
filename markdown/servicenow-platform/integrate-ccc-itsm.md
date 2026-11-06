@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/integrate-ccc-itsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,14 +26,14 @@ Callers can use PIN-based authentication to access the phone channel. Managers c
 
 ## Workforce Optimization for ITSM
 
-Integrate Voice with Workforce Optimization for ITSM to visualize call metrics from Amazon Connect. The Voice uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-overview.md) to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace.
+Integrate Voice with Workforce Optimization for ITSM to visualize call metrics from Amazon Connect. The Voice uses Advanced Work Assignment to display the call metrics and active calls along with all other Channel metrics in the Manager Workspace.
 
 \[Omitted image "cloudcallcenter-amazonconnect-wfo-itsm.png"\] Alt text: Amazon Connect Phone Workforce Optimization for ITSM
 
 -   **[Install ServiceNow Voice for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/install-ccc-itsm.md)**  
 You can install the ServiceNow Voice for ITSM application \(sn\_cti\_itsm\_cnt\) if you have the admin role. This plugin installs the ITSM content for integration between ServiceNow Voice and a third-party phone system.
 -   **[Real time transcriptions for ServiceNow Voice for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/using-voice-rtt-itsm.md)**  
-Agents can see a transcript of voice calls while interacting with customers. Real time transcription enable agents to better understand caller issues, and managers to gain insights into caller trends and agent training gaps.
+Agents can see a transcript of voice calls while interacting with customers. Real time transcription allows agents to better understand caller issues, and allows managers to gain insights into caller trends and agent training gaps.
 -   **[Enable native voice control in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/itsm-native-voice-record-page.md)**  
 Enable the native voice control to allow the agents to manage the calls using the Interaction Controls Component and the Customer History tab component.
 

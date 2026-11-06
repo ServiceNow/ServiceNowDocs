@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [Configuring Redox Inbound Integration, Redox Inbound Integration, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Redox Inbound Integration, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Assign roles for Redox Inbound Integration users

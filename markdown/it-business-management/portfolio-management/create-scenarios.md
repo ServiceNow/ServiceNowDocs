@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Management
 classification: portfolio-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Scenario Planning for PPM, Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,15 +30,15 @@ You can create up to four planning scenarios with different combinations of proj
 
 1.  Navigate to the Portfolio Planning Workbench from either of two starting points.
 
-<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d222914e78">
+<table id="choicetable_xfs_1fh_jlb"><thead><tr><th align="left" id="d287326e78">
 
 Location
 
-</th><th align="left" id="d222914e81">
+</th><th align="left" id="d287326e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d222914e87">
+</th></tr></thead><tbody><tr><td id="d287326e87">
 
 **From application navigator**
 
@@ -48,7 +48,7 @@ Steps
 2.  From the **Portfolio** choice list, select the portfolio that you want to perform the planning for.
 
 
-</td></tr><tr><td id="d222914e120">
+</td></tr><tr><td id="d287326e120">
 
 **From the portfolio list**
 

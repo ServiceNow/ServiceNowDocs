@@ -1,16 +1,16 @@
 ---
-title: Create a document template
+title: Create a case digest document template
 description: Create a template to use for generating case action summaries or post case review documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-review-doc-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure case digests, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Create a document template
+# Create a case digest document template
 
 Create a template to use for generating case action summaries or post case review documents.
 
@@ -18,17 +18,24 @@ Create a template to use for generating case action summaries or post case revie
 
 Role required: admin
 
+Before creating a document template for case digests \(used in Case Action Summaries and Post Case Reviews\), ensure that the required plugins are active in your instance.
+
+-   Case Digests \(`com.sn_csm_case_digest`\)
+-   Outsourced for customer service \(`com.sn_csm_outsource`\)
+
+**Note:** If the plugin is not active, contact your system administrator to activate it. The navigation menus and options described in this topic does not appear until the required plugins are active.
+
 ## About this task
 
-Document templates identify the information to be included in case action summaries and post case review documents. Create a document template to select, organize, and format the content included in the generated documents. You can create a new template or modify an existing template. Two document templates, **CAS Template** and **PCR Template**, are included with the Case Digests plugin.
+Document templates identify the information to be included in case action summaries and post case review documents. Create a document template to select, organize, and format the content included in the generated documents. You can create a template or modify an existing template. Two document templates, **CAS Template** and **PCR Template**, are included with the Case Digests plugin.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Case Digest** &gt; **Administration** &gt; **Document Templates**.
 
-2.  Click **New** to create a template.
+2.  Select **New** to create a template.
 
-    You can also modify an existing template by clicking the template name and opening the template form.
+    You can also modify an existing template by selecting the template name and opening the template form.
 
 3.  Fill in the following fields on the CS Document Template form.
 
@@ -60,11 +67,19 @@ The table that contains the fields to include in the document template.-   Case 
 
 </td></tr><tr><td>
 
+Category
+
+</td><td>
+
+Select or create a category to organize your templates.
+
+</td></tr><tr><td>
+
 Header Image
 
 </td><td>
 
-Click to add an image file to use in the document header.
+Select to add an image file to use in the document header.
 
 </td></tr><tr><td>
 
@@ -80,9 +95,9 @@ Header Position
 
 </td><td>
 
-The position of the image within the header:-   Left
--   Center
--   Right
+The position of the image within the header:-   Left align
+-   Center align
+-   Right align
 
 
 </td></tr><tr><td>
@@ -102,6 +117,21 @@ Internal content
 The content in the case action summary that is for internal users only. This field is available if the Case Action Summary table is selected in the **Table name** field.
 
 </td></tr></tbody>
-</table>4.  Click **Submit** or **Update**.
+</table>4.  Select **Submit** or **Update**.
 
+5.  After creating the case digest template:
+
+6.  Navigate to &gt; **All** &gt; **Case Digest** &gt; **Administration** &gt; **Configuration**.
+
+7.  Open an existing configuration or create new and select the template you created.
+
+8.  Select the template that you created in the **Document Template** field.
+
+9.  Select **Save** to save the record.
+
+
+**Related topics**  
+
+
+[Create a case digest configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-case-review-type.md)
 

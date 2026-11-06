@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Content Review
 classification: legal-content-review
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Content Review requests, Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a Legal Content Review request
@@ -26,47 +26,21 @@ If you have the Legal Virtual Agent Conversations application installed on your 
 
 ## Procedure
 
-1.  Access the Legal Content Review intake form.
+1.  Navigate to **All** &gt; **Employee Center**.
 
-<table id="choicetable_av2_r5c_3xb"><thead><tr><th align="left" id="d319206e90">
+    **Note:** If you're using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
 
-Option
+2.  Navigate to **Help center** &gt; **Legal services**.
 
-</th><th align="left" id="d319206e93">
+3.  Search for the content review request item.
 
-Description
-
-</th></tr></thead><tbody><tr><td id="d319206e99">
-
-**Using __Employee Center__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Employee Center**
-2.  Select **Legal services** from the header.
-3.  Select **Browse Legal services**.
 4.  Select **Legal Content Review**.
 
-
-</td></tr><tr><td id="d319206e142">
-
-**Using __Legal Service Portal__**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal**
-2.  Select **Service Catalog**.
-3.  Select the expand icon \[Omitted image "plus-icon.png"\] Alt text: Expand icon on **Legal Requests** from the left panel.
-4.  Select **Compliance Requests**.
-5.  Select **Legal Content Review** from the complete list of compliance requests.
-
-
-</td></tr></tbody>
-</table>2.  On the Content Review form, fill in the fields.
+5.  On the Content Review form, fill in the fields.
 
     For more information on the fields, see [Legal Content Review form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-content-review/legal-content-review-form.md).
 
-3.  Select **Submit**.
+6.  Select **Submit**.
 
 
 ## Result

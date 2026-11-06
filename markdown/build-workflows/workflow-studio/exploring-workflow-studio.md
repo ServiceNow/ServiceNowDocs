@@ -7,7 +7,7 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Workflow Studio, Build workflows]
 ---
@@ -30,7 +30,7 @@ The Workflow Studio homepage consists of these elements.
 
 -   **2. Workflow types**
 
-    Select a workflow type to see a list of available items you can edit. Options include playbooks, flows, subflows, triggers, actions, data stream actions, and decision tables.
+    Select a workflow type to see a list of available items you can edit. Options include playbooks, flows, subflows, actions, data stream actions, and decision tables.
 
 -   **3. Create a workflow**
 
@@ -95,12 +95,11 @@ The Workflow Studio integrations page consists of these elements.
 
 \[Omitted image "workflow-studio-create-button-and-menu-options.png"\] Alt text: Create button and its available options
 
-You can create new workflow items from any Workflow Studio page rather than just the Homepage. Use the Create button on the tab header to display a list of available workflow components.
+Beginning with the Xanadu release, you can create new workflow items from any Workflow Studio page rather than just the Homepage. Use the Create button on the tab header to display a list of available workflow components.
 
 -   Playbook
 -   Flow
 -   Subflow
--   Trigger
 -   Action
 -   Data Stream
 -   Decision table
@@ -130,8 +129,6 @@ If you're trying to determine if a playbook should be a flow instead, start by d
         -   If no, create a flow that triggers a playbook for the user interactions.
     -   If no, use a flow. Flows use less data storage in your instance.
 -   If your playbook is not triggered very often, keep it as a playbook. Playbooks offer visibility into where you're at in a process, particularly business processes with manual user steps.
-
-To learn more about the differences between flows and playbooks, see [When to use flows and playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.md). For general guidelines of using flows, subflows, and actions, see [General guidelines for Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-considerations-consolidated.md).
 
 You can reference decision tables in flows, subflows, actions, and playbooks. Data streams are not used in flows, subflows, actions, playbooks, or decision tables. To learn more about data streams, see [Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/data-stream-actions.md).
 
@@ -168,16 +165,10 @@ Workflow Studio combines playbooks, flows, subflows, actions, decision tables, a
     Workflow Studio contains execution details for all workflow object types. You no longer have to switch between applications to see execution details for a particular object type.
 
 
--   **[Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer.md)**  
-Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
--   **[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)**  
-Flows automate a repeatable multi-step process. When the flow trigger conditions are met, the flow runs a sequence of reusable actions and flow logic to complete the process.
--   **[Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-subflows.md)**  
-Subflows automate a repeatable multi-step process that also produces an output needed by another process. When a playbook, flow, or script calls a subflow, the subflow runs a sequence of reusable actions and flow logic to complete the process and produce output values.
--   **[Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-actions.md)**  
-Actions automate a repeatable task or operation within a flow. Flows run actions by passing them data as inputs. Actions run a sequence of steps to complete the task, and pass data to the flow as outputs.
--   **[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/decision-designer-overview.md)**  
-Decision tables in Workflow Studio enable developers to decouple decision logic from their code by creating and maintaining decision rules.
+-   **[Getting started with process automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-process-automation.md)**  
+Learn how process automation applications can help you use the ServiceNow AI Platform® to transform your manual business processes into digitized, automated workflows.
+-   **[When to use flows and Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/when-to-use-flows-and-playbooks.md)**  
+Use these general guidelines to determine when to create a flow or a playbook.
 
 **Parent Topic:**[Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio.md)
 

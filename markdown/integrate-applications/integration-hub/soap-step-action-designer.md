@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [Integration steps, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SOAP step
@@ -25,11 +25,8 @@ Enable action designers to send outbound SOAP web service requests to external s
     -   Select WSDL
     -   Load new WSDL
     -   Select a WS-Security policy
--   The ServiceNow® MID Server doesn't support WS-Security policies.
 
 ## Fields
-
-**Note:** If you select Define Connection Inline and leave the Connection Timeout field empty, the system uses a default timeout of 60 seconds. To see or adjust this default, go to **Setup** &gt; **System Properties** &gt; **All** and search for **glide.soap.request\_processing\_timeout**. For integrations that work as expected every time, set an explicit timeout value instead of relying on the system default.
 
 <table id="table_ndq_3kp_2fb"><thead><tr><th>
 
@@ -324,7 +321,7 @@ Headers
 
 </td><td>
 
-The name-value pairs to include in the SOAP message as HTTP headers. Click the plus icon \[Omitted image "plus-icon-soap-step.png"\] Alt text: Plus icon to add headers. Add a **Name** and **Value** for each HTTP header.
+The name-value pairs to include in the SOAP message as HTTP headers. Use the plus icon to add headers. Add a **Name** and **Value** for each HTTP header.
 
 </td></tr><tr><td>
 

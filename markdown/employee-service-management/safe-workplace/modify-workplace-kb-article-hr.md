@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace knowledge management, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -40,7 +40,7 @@ A knowledge base article undergoes the following workflow when it is created:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Knowledge management**.
+1.  Navigate to **All** &gt; **Workplace Safety Management** &gt; **Knowledge management**.
 
 2.  Select **All articles**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-sort-options-for-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure sort options for task panel
@@ -34,7 +34,7 @@ By default, dispatchers can sort tasks based on only the following options:
 
 1.  Navigate to **Field Service** &gt; **Dispatcher Workspace Configuration** &gt; **Task Panel Sorting**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -48,6 +48,8 @@ By default, dispatchers can sort tasks based on only the following options:
     |Sort order|Sort order for the sort field labels. The default value is ascending. To use a descending order, select **z-a**.|
     |Order|The display order of the sort options in Dispatcher Workspace. Sort options that have a lower order number appear higher in the order.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
+
+    \[Omitted image "task-panel-sort.png"\] Alt text: sort option configuration form
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Subscription downgrade configuration
@@ -19,9 +19,10 @@ Determine various downgrade configurations of SaaS applications and view the dow
 |Field|Description|
 |-----|-----------|
 |Display name|Name of the supported downgrade configuration.|
-|Source subscription identifier|Subscription identifier of the SaaS application that is currently being used.|
-|Destination subscription identifier|Subscription identifier of SaaS application that can be downgraded to.|
-|Condition|Defined downgrade conditions for the SaaS application.|
+|Source identifier name|Name of the SaaS application that is currently being used.|
+|Destination identifier name|Name of the SaaS application that can be downgraded to.|
+|Source identifier|Subscription identifier of the SaaS application that is currently being used.|
+|Destination identifier|Subscription identifier of the SaaS application that can be downgraded to.|
 |Active|Shows whether the downgrade configuration is active.|
 
 **Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)

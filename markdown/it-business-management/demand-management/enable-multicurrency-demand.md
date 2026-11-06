@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Multicurrency, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -15,6 +15,17 @@ breadcrumb: [Multicurrency, Configure, Demand Management, Project Portfolio Mana
 # Enable demand currency view
 
 Switch to the demand currency view to track the planned costs of a demand in the selected currency.
+
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
 
 ## Before you begin
 
@@ -24,7 +35,7 @@ Role required: admin or it\_demand\_manager
 
 ## About this task
 
-To manage your demands in currency different than the functional currency, the demand currency fields are added in the following tables that have the cost details and financials tab:
+Demand currency fields are added to the following tables. These tables include the cost details and financials tab, and support demands in a currency different from the functional currency:
 
 |Table name|Description|
 |----------|-----------|
@@ -43,7 +54,7 @@ To manage your demands in currency different than the functional currency, the d
 
 2.  Right-click the context menu of the form.
 
-3.  Click **View**.
+3.  Select **View**.
 
 4.  Select **Demand Currency** from the list.
 
@@ -59,7 +70,7 @@ Set the capital expense \(Capex\) and operating expense \(Opex\) budgets in dema
 -   **[Cost plan updates and cost recalculation in demand currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/cost-recalculation-demand-multicurrency.md)**  
 Updating the unit cost, quantity, or fiscal period of a cost plan updates all the related amount fields in the cost plan and its breakdowns. Also, the amounts in the related fields of the demand, to which the cost plan is rolling up, are recalculated and reflected in the demand currency.
 -   **[Benefit plan updates and recalculation in demand currency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/benefit-plan-recalculation-demand.md)**  
-Updating the entered currency, entered benefit, offset type, or the fiscal period of a benefit plan also updates all related amount fields in the benefit plan and its breakdowns. Also, the amounts in the related fields of the demand, to which the benefit plan is rolling up, are recalculated and reflected in demand currency.
+Changes to the entered currency, benefit, offset type, or fiscal period of a benefit plan update all related amount fields and breakdowns. The related demand fields are recalculated and reflected in demand currency.
 
 **Parent Topic:**[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/multicurrency-demand.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage picking enterprise assets within your stockroom for Enterprise Asset Management workflows, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset picking, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # View the open enterprise asset pick tasks for your stockroom
@@ -41,7 +41,7 @@ The list of open asset pick tasks for the stockroom is displayed.
 
 Manage all the enterprise asset pick tasks assigned to you by using the Mobile Agent application. For details, see [Manage enterprise asset pick tasks using the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-pick-task-eam-mobile-app.md).
 
-**Parent Topic:**[Manage picking enterprise assets within your stockroom for Enterprise Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
+**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
 
 **Related topics**  
 

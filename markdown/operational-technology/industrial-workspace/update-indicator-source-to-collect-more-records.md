@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational Technology Vulnerability Response \(PA\) dashboard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Review and update an indicator source to override the expected record count if y
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or pa\_admin
 
 ## Procedure
 

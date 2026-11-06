@@ -1,20 +1,20 @@
 ---
 title: Agent Client Collector plugins
-description: An Agent Client Collector plugin is a script or group of scripts that extend the Agent Client Collector's capabilities. Plugins enhance monitoring by collecting metrics, performing specialized checks, and triggering events based on conditions, like monitoring an application's queue size when it reaches 60% or 80%. Plugins ensure scalable, customizable monitoring to adapt to evolving infrastructure or application needs.
+description: An Agent Client Collector \(ACC\) plugin is a script or group of scripts that extend the Agent Client Collector's capabilities. Plugins enhance monitoring by collecting metrics, performing specialized checks, and triggering events based on conditions, like monitoring an application's queue size when it reaches 60% or 80%. Plugins ensure scalable, customizable monitoring to adapt to evolving infrastructure or application needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-assets.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector plugins
 
-An Agent Client Collector plugin is a script or group of scripts that extend the Agent Client Collector's capabilities. Plugins enhance monitoring by collecting metrics, performing specialized checks, and triggering events based on conditions, like monitoring an application's queue size when it reaches 60% or 80%. Plugins ensure scalable, customizable monitoring to adapt to evolving infrastructure or application needs.
+An Agent Client Collector \(ACC\) plugin is a script or group of scripts that extend the Agent Client Collector's capabilities. Plugins enhance monitoring by collecting metrics, performing specialized checks, and triggering events based on conditions, like monitoring an application's queue size when it reaches 60% or 80%. Plugins ensure scalable, customizable monitoring to adapt to evolving infrastructure or application needs.
 
 ## Plugin-check dependency
 
@@ -22,6 +22,10 @@ Plugins are tightly integrated with checks in the Agent Client Collector Framewo
 
 -   Plugin Dependency: A plugin can be associated with one or more checks, and vice versa, where checks can depend on multiple plugins.
 -   Execution: Plugins and checks run on the same agent, working in unison to gather data, perform specialized tasks, or trigger necessary events
+
+## Plugin-agent compatibility
+
+Agents must be the same version as their corresponding plugins or can be one version lower. For example, an ACC agent version 4.1.0 can work with an ACC-F store version 5.1.0.
 
 ## Creating and managing plugins
 
@@ -33,7 +37,5 @@ You can create Agent Client Collector plugins as needed to customize the monitor
 
 ## Pre-installed plugins
 
-Agent Client Collector Framework includes a set of pre-installed plugins that provide basic functionalities for common monitoring tasks, such as gathering standard metrics or monitoring key system parameters. For more detailed information on the plugins that come with the Agent Client Collector as part of ITOM Health, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-app-itom-health.md).
-
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
+Agent Client Collector Framework includes a set of pre-installed plugins that provide basic functionalities for common monitoring tasks, such as gathering standard metrics or monitoring key system parameters. For more detailed information on the plugins that come with the Agent Client Collector as part of ITOM AIOps, see [Plugins or applications installed with ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-app-itom-health.md).
 

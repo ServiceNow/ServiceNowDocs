@@ -5,14 +5,21 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_ManageUsersFromCustomerPortal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Manage contacts from the customer portal
 
 Create and update customer contacts, assign roles to contacts, and enable or disable contact logins from the customer portal.
+
+**Related topics**  
+
+
+[Manage customer registration requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-cust-registration-requests.md)
+
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_ManageUsersFromCustomerPortal.md)
 
 ## Create a customer contact
 
@@ -71,6 +78,13 @@ By selecting the **Create Contact** catalog item, you can add the details for a 
 7.  Click **Save** to update the record.
 
 
+**Related topics**  
+
+
+[Update contact information for a user]()
+
+[Enable or disable the login for a contact]()
+
 ## Update contact information for a user
 
 Update the contact information for a user from the customer portal.
@@ -81,7 +95,7 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 ### Procedure
 
-1.  Click **Support** &gt; **Contacts** in the portal header.
+1.  Select **Support** &gt; **Contacts** in the portal header.
 
 2.  Select a contact from the Contacts list.
 
@@ -101,8 +115,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
     |Notification|Enable or disable notifications for this customer.|
     |User ID|A unique identifier for this user. The user ID should follow the format **firstname.lastname**.|
 
-4.  Click **Save**.
+4.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Create a customer contact]()
+
+[Assign a user role to a contact]()
 
 ## Enable or disable the login for a contact
 
@@ -120,15 +141,15 @@ Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner\
 
 3.  In the Actions list, select one of the following links.
 
-<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d208184e727">
+<table id="choicetable_fnc_gct_lrb"><thead><tr><th align="left" id="d254572e799">
 
 Choice
 
-</th><th align="left" id="d208184e730">
+</th><th align="left" id="d254572e802">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d208184e736">
+</th></tr></thead><tbody><tr><td id="d254572e808">
 
 **Disable login**
 
@@ -136,7 +157,7 @@ Description
 
 Disables the login for this contact. When the login is disabled, the contact can’t access the customer portal.This link is displayed if the login is enabled.
 
-</td></tr><tr><td id="d208184e748">
+</td></tr><tr><td id="d254572e820">
 
 **Enable login**
 
@@ -146,6 +167,13 @@ Enables the login for this contact.This link is displayed if the login is disabl
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Create a customer contact]()
+
+[Assign a user role to a contact]()
+
 ## Assign a user role to a contact
 
 Assign one or more user roles to a contact from the customer portal.
@@ -162,19 +190,19 @@ Use the Edit Role pop-up window to manage the roles for a contact. Contacts must
 
 ### Procedure
 
-1.  Click **Support** &gt; **Contacts** in the portal header.
+1.  Select **Support** &gt; **Contacts** in the portal header.
 
 2.  Select a contact from the Contacts list.
 
-3.  In the Actions list, click the **Edit Roles** link.
+3.  In the Actions list, select the **Edit Roles** link.
 
 4.  In the Edit Role pop-up window, select a role in the **Available** column and move it to the **Selected** column.
 
-5.  Click **Update** on the Edit Role pop-up window.
+5.  Select **Update** on the Edit Role pop-up window.
 
     **Note:** If there are no roles in the **Selected** column, the system displays an error message and the column resets to display the originally assigned roles.
 
-6.  Click **Save** on the Contact form.
+6.  Select **Save** on the Contact form.
 
 
 **Related topics**  

@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-11-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Platform Analytics Solution for Configuration Management \(CMDB\)
@@ -22,8 +22,6 @@ The Platform Analytics Solution for Configuration Management \(CMDB\) has been r
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

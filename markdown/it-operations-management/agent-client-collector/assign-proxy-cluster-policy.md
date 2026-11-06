@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using proxy agents in Agent Client Collector, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Using proxy agents in ACC, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Assign a proxy agent cluster to a policy
@@ -57,7 +57,7 @@ Only one app should be run on a given proxy agent because running multiple apps 
 
     -   To load balance the selected multi-proxy agents that monitor the matching CIs, clear the **Run checks on all proxy agents \(No load balancing\)** option.
 
-        For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, each agent would monitor two CIs.
+        For example, if you have five agents in a cluster or five agents using the filter/script option and 10 matching CIs in the policy, the load is distributed. Each agent monitors two CIs.
 
         You can also enable load balancing at a later time, as described in [Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md).
 
@@ -71,6 +71,11 @@ Only one app should be run on a given proxy agent because running multiple apps 
 
 8.  Select **Activate**.
 
+
+-   **[Enable load balancing between proxy agents in a cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/view-proxy-ci-distribution.md)**  
+Enable load balancing between proxy agents in a cluster so that if an agent is not functioning properly, monitored CIs are redistributed to another agent. After enabling load balancing, you can view the CIs monitored by each proxy agent in a policy.
+
+**Parent Topic:**[Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/proxy-agent.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Manage OAuth tokens
@@ -18,7 +18,7 @@ Open OAuth tokens to provide access to restricted resources.
 
 ## Before you begin
 
-Role required: any user or admin
+Role required: any user or oauth\_admin
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Improve resource usage with Business hours
@@ -237,11 +237,11 @@ This column appears only for the Failed tab.Details of the failure type and the 
 
 </td></tr></tbody>
 </table>-   **[Configure Business hours operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/bh-settings-config-cloudin.md)**  
-You can choose to use or to disable Business Hours features and specify the amount of non-business hour spend that triggers notifications to users or groups. Controlling unnecessary resource use can help reduce costs.
+Enable or disable the Business hours feature and set a non-business-hour spend threshold to trigger notifications to users or groups. This action helps control unnecessary resource usage and reduce costs.
 -   **[Create Business hours schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/create-bh-schedule.md)**  
 Create and apply a Business hours schedule to the cloud resources for enforcing the on/off schedule.
 -   **[Define or update a Business hours policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/bh-policy-create-cloudin.md)**  
-A Business hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
+A Business hours job applies policies to identify resources running outside the specified hours, reports them, and manages the start and stop of resources on a specified schedule. Running only during specified business hours can significantly reduce your cloud spend.
 
 **Parent Topic:**[Using Cloud Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/using-cloud-insights.md)
 

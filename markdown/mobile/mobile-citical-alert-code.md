@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-citical-alert-code.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile critical alerts, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile critical alerts, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Critical alerts from push notifications using JSON code
@@ -28,6 +28,11 @@ On the Android platform, when a user receives a critical alert on certain phone 
 
     On certain devices, like Oppo and OnePlus, if Do Not Disturb \(DND\) mode is enabled, the DND setting might be temporarily turned off until the critical notification sound has finished playing.
 
+
+On Android clients, version 20.0.0 and later, critical alerts don't work on the following:
+
+-   The Android Private Space feature that was introduced in Android 15.
+-   Android devices that are managed by Mobile Device Management \(MDM\) software. For example, Microsoft Intune.
 
 ## Critical alert JSON to activate Android operating systems
 

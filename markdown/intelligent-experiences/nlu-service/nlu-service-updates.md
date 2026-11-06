@@ -1,5 +1,5 @@
 ---
-title: NLU Service updates
+title: \(Legacy\) NLU Service updates
 description: Refer to this documentation so you are up to date with changes to the NLU Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/nlu-service-updates.html
@@ -7,16 +7,18 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU Service updates
+# \(Legacy\) NLU Service updates
 
 Refer to this documentation so you are up to date with changes to the NLU Service.
 
 ## Service update summary
+
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The NLU Service helps the system to understand natural language and drive intelligent actions. This service trains and predicts intents and entities for a given user utterance in your NLU model so it can understand human-expressed natural language, whether spoken or written. The source of this documentation is [KB0953693](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0953693).
 
@@ -42,6 +44,4 @@ This service is updated independently of your instance upgrade, and without any 
 -   Upgraded the ServiceNow Language Model for the Danish, Swedish, Finnish, and Norwegian languages, improving their average prediction quality by 17% from Tokyo.
 -   Improved the handling of punctuation in entities and special characters in vocabulary sources.
 -   Incorporated feedback provided on intent predictions by admin users in the NLU Workbench to improve model training data for Virtual Agent.
-
-**Parent Topic:**[Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-explore.md)
 

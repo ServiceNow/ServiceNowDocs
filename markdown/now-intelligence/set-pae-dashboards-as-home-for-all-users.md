@@ -1,16 +1,16 @@
 ---
-title: Set dashboards as home for all users
+title: Set Platform Analytics dashboards as home for all users
 description: You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/set-pae-dashboards-as-home-for-all-users.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Set dashboards as home for all users
+# Set Platform Analytics dashboards as home for all users
 
 You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 

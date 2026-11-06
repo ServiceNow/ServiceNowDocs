@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-05-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage failure and resolution codes, Configuring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage failure and resolution codes, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a failure or resolution code
@@ -17,10 +17,6 @@ breadcrumb: [Manage failure and resolution codes, Configuring Enterprise Asset M
 Create a failure or resolution code to help enterprise asset technicians identify either the asset failure or the solution to the asset problem.
 
 ## Before you begin
-
-**Important:**
-
-The creation of a failure or resolution code is supported in Enterprise Asset Management version 9.0 and later.
 
 The source for the code that you want to create should already be available. For more details, see [Create a source for failure and resolution codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-source-failure-res-code.md).
 
@@ -32,15 +28,15 @@ Failure and resolution codes are stored in the Asset service source \[Asset serv
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Failure and resolution**.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  In the Failure and resolution list, select **Codes**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-    Any existing codes are shown in the Codes list.
+3.  From the navigation panel of the Admin center view, navigate to **Failure and resolution** &gt; **Codes**.
 
-3.  Select **New**.
+4.  Select **New**.
 
-4.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_tz1_v1s_mfc"><thead><tr><th>
 
@@ -111,7 +107,7 @@ Source
 Source of the code. This field is required.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
 
 ## Result

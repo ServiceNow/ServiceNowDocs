@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Uploading your config data, Configuring DevOps Config, DevOps Confi
 
 The CDM XML parser enables the parsing of attribute key-value pairs in XML files, so when you upload config data from an XML file into CDM, you can easily identify the attributes of each element in the CDM editor or list view.
 
-**Important:** Starting with the Washington DC release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 This parsing of attribute key-value pairs from an XML file to a JSON format in CDM helps you in the following ways:
 

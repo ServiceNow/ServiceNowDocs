@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Setting up Major Incident Management in Service Operations Workspace
@@ -22,5 +22,5 @@ A major incident demands a response beyond the routine incident management proce
 
 Setting up Major Incident Management in Service Operations Workspace involves installing Major Incident Management using Admin Center in Service Operations Workspace.
 
-Admin Center in Service Operations Workspace gives admins centralized control of the instance. It provides quick access to manage all customizations in Service Operations Workspace for IT Service Management \(ITSM\) and additional plugins that extend the Service Operations Workspace for ITSM capabilities. For more information on Admin Center, see [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/admin-center-sow.md).
+Admin Center in Service Operations Workspace gives administrators centralized control of the instance. It provides quick access to manage all customizations in Service Operations Workspace for IT Service Management \(ITSM\) and additional plugins that extend the Service Operations Workspace for ITSM capabilities. For more information on Admin Center, see [Admin Center in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/admin-center-sow.md).
 

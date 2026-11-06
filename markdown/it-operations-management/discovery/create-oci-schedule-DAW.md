@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-07-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -23,9 +23,9 @@ Verify the following:
 
 -   You have at least one validated MID Server with a status of **Up**. The MID Server must reach the IP ranges that you intend to discover. You can install the MID Server by using [Use MID Server guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/use-mid-server-guidedsetup.md) or by manually downloading and running the installer. For details, see the MID Server installation instructions for [Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_InstallAMIDServerOnLinux.md) and [Windows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-install-prereqs.md).
 -   The MID Server used for Cloud Discovery is configured with the Cloud Management capability.
--   Configure an OCI user in the Oracle Cloud console with an API signing key and the required Identity and Access Management \(IAM\) policies. This grants the MID Server access to the cloud resources you plan to discover.
+-   An OCI user in the Oracle Cloud console is configured with an API signing key and the required Identity and Access Management \(IAM\) policies. The MID Server can access the cloud resources to discover.
 -   You have created a suitable OCI API credentials in the ServiceNow AI Platform to connect with the OCI user you want to use for discovery. For more information, see [Create Oracle API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/create-oracle-api-credentials.md).
--   You're using Discovery Admin Workspace v1.13.0 or later.
+-   You're using Discovery Admin Workspace v1.13.0.
 
 Role required: discovery\_admin
 
@@ -53,15 +53,15 @@ Role required: discovery\_admin
 
 8.  Select a cloud account.
 
-<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d482683e317">
+<table id="choicetable_bbl_3zw_zgc"><thead><tr><th align="left" id="d695400e323">
 
 Option
 
-</th><th align="left" id="d482683e320">
+</th><th align="left" id="d695400e326">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d482683e326">
+</th></tr></thead><tbody><tr><td id="d695400e332">
 
 **Existing cloud account**
 
@@ -69,7 +69,7 @@ Description
 
 Select an existing cloud account on your instance. Once an account is selected, the **Account name** and **Account ID** fields auto-populate.
 
-</td></tr><tr><td id="d482683e341">
+</td></tr><tr><td id="d695400e347">
 
 **New cloud account**
 

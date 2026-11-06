@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring the Key Management Framework, Key Management Framework, Encryption]
 ---
@@ -24,7 +24,9 @@ Cryptographic modules also support key life-cycle management. You can create and
 
 -   **Cryptographic specification**
 
-    Defines aspects of your module, including its cryptographic purpose and which algorithms to use.
+    Defines which algorithm to use for encryption, and where the key will come from. All keys use the Advanced Encryption Standard with Cipher Block Chaining \(AES CBC\), but you can select either 128 or 256 bit. This specification covers both asymmetric and symmetric key-based cryptographic operations.
+
+    **Note:** Symmetric encryption uses a single key for both encryption and decryption. Asymmetric encryption uses a pair of keys, a public key for encryption and a private key for decryption.
 
 -   **Cryptographic keys**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/c\_GlobalScope.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application scope, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application scope, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Global scope
@@ -22,7 +22,7 @@ Since all global applications are in the same scope, they bypass scope protectio
 -   Run API requests
 -   Create configuration records
 
-Typically, only applications provided by ServiceNow are in the global scope. However, any custom applications created before application scope was implemented are also in the global scope. Additionally, developers with the sn\_g\_app\_creator.app\_creator role can create applications in the global scope. For more information, see [Allow global application development in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/gac-activate-global.md).
+Typically, only applications provided by ServiceNow are in the global scope. However, any custom applications created before application scope was implemented are also in the global scope. Additionally, developers with the sn\_g\_app\_creator.app\_creator role can create applications in the global scope.
 
 Applications in the global scope are eligible for upload to the application repository, but not to the ServiceNow Store.
 

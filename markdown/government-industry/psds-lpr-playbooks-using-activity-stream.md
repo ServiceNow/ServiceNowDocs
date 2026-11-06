@@ -1,18 +1,18 @@
 ---
-title: Using the activity stream in License and Permit Playbook
-description: You can access the activity stream in the contextual side panel in CRM Workspace after you create an license and permit request record using the License and Permit Playbook. The activity stream enables you to communicate with requesters and make internal notes about the work that is done on a record, making it easier to relay and track information.
+title: Using the activity stream in License and Permit Administration
+description: You can access the activity stream in the contextual side panel in Public Sector Workspace after you create an license and permit request record using the License and Permit Administration. The activity stream enables you to communicate with requesters and make internal notes about the work that is done on a record, making it easier to relay and track information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-lpr-playbooks-using-activity-stream.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the contextual side panel in Public Sector Digital Services License and Permit Playbook, Using License and Permit Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Using the activity stream in License and Permit Playbook
+# Using the activity stream in License and Permit Administration
 
-You can access the activity stream in the contextual side panel in CRM Workspace after you create an license and permit request record using the License and Permit Playbook. The activity stream enables you to communicate with requesters and make internal notes about the work that is done on a record, making it easier to relay and track information.
+You can access the activity stream in the contextual side panel in Public Sector Workspace after you create an license and permit request record using the License and Permit Administration. The activity stream enables you to communicate with requesters and make internal notes about the work that is done on a record, making it easier to relay and track information.
 
 ## Using the activity stream
 

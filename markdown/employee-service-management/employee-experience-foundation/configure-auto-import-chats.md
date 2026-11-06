@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Import messages from Microsoft Teams to ServiceNow, HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Import messages from Microsoft Teams to ServiceNow, HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the chat to enable auto-import
@@ -24,19 +24,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Chat Administration** &gt; **Chat Configuration**.
 
-    \[Omitted image "chat-configuration.png"\] Alt text: Chat configuration
-
 2.  Click **Default** option to view the default OOB configuration.
-
-    \[Omitted image "default-chat-configuration.png"\] Alt text: Default chat configuration
 
     **Note:** If you want to auto-import chats for certain conditions, create a condition.
 
 3.  Navigate to **ServiceNow for Microsoft Teams** &gt; **Chat Administration** &gt; **Chat Configuration**.
 
 4.  Click **New**.
-
-    \[Omitted image "new-chat-configuration.png"\] Alt text: New chat configuration
 
 5.  On the form, fill the fields.
 

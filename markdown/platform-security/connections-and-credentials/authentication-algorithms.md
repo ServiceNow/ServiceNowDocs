@@ -7,7 +7,7 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connections and Credentials, Access Management]
 ---
@@ -26,7 +26,7 @@ Authentication algorithms support the following steps:
 -   REST Step
 -   SOAP Step
 
-For more information, see [Integration steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integration-steps.md)
+For more information, see Integration steps
 
 ## Authentication algorithm types
 

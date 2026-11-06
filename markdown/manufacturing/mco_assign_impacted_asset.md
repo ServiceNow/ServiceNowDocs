@@ -1,0 +1,33 @@
+---
+title: Assign an impacted asset
+description: Assign an impacted asset to the recall campaign.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco\_assign\_impacted\_asset.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Recall a campaign phase, Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
+---
+
+# Assign an impacted asset
+
+Assign an impacted asset to the recall campaign.
+
+## Before you begin
+
+Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.recall\_phase\_owner
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Recall Campaign Phases**.
+
+2.  Select **Assign**.
+
+3.  Select the asset from the list.
+
+4.  Select **Assign**.
+
+
+**Parent Topic:**[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-phases.md)
+

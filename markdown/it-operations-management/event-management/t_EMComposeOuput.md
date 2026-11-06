@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Event rules, Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure an event rule to customize alert content
@@ -22,9 +22,11 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+
 You can customize alert content by adding the required event fields and modifying the text in the fields.
 
-**Note:** When creating regex expression for input, ensure that you create input with the variables in sequential order. While variables can be skipped for inclusion, the selected order must be maintained.
+**Note:** When creating regex expression for input, ensure that you create input with the variables in sequential order. While variables can be skipped for inclusion, the selected order must be maintained. Use unique names within the Additional Info data to prevent conflicts with the predefined field variable names. Identical names cause issues in event rule regex. As a result, you may find that a saved regex is missing or unavailable when you later access it from the Expressions section.
 
 Format alert text by using one or both of these methods:
 
@@ -37,9 +39,11 @@ Format alert text by using one or both of these methods:
 
 -   Configure which fields display in the **Event Input** pane by configuring the exclusion list \[em\_event\_rule\_black\_list\].
 
-    A field entered into the exclusion list that already appears in an existing event rule is not removed from the rule; instead, it is moved to the **Manual Attributes** section in the rule.
+    A field entered into the exclusion list that already appears in an existing event rule is not removed from the rule. Instead, it is moved to the **Manual Attributes** section in the rule.
 
 -   Control the order of event form fields by configuring em\_event\_rule\_order.
+
+To automatically filter out irrelevant alerts or transform and standardize alert data for better response, you can also use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 ## Procedure
 

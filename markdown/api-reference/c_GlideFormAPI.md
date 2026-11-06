@@ -1,14 +1,14 @@
 ---
 title: GlideForm \(g\_form\) - Client
-description: The GlideForm API provides methods to customize forms.Adds an icon on a field's label.Adds an icon on a field's label.Displays the specified error message at the top of the form.Displays a floating form message at the top of the form detail section. The message does not cover UI actions.Adds the specified informational message to the top of the form.Adds a choice to the end of a choice list field.Adds a choice to the list field at the position specified.Removes all informational and error messages from the top of the form.Removes all form messages of any type.Removes all form messages of a given type.Removes all options from the choice list.Removes any value\(s\) from the field.Prevents file attachments from being added.Allows file attachments to be added. Shows the paper clip icon.Used to draw attention to a particular field. Flashes the specified color for a specified duration of time in the specified field.Returns the most recent action name, or, for a client script, the sys\_id of the UI action clicked.Returns a Boolean value for the specified field.Returns the HTML element for the specified field.Returns the decimal value of the specified field.Gets the display value from a form in the core UI.Gets the display value from a form in Service Portal.Returns the HTML element specified by the parameter.Returns the HTML element for the form.Returns the HTML element of the help text for the specified field.Returns the integer value of the field.Returns the plain text value of the field label.Returns the option element for a selected box named fieldName where choiceValue matches the option value.Returns the GlideRecord for a specified field.Returns an array of related list names from the current form.Returns all section names, whether visible or not.Returns an array of the form's sections.Returns the name of the table to which this record belongs.Returns the sys\_id of the record displayed in the form.Returns the value of the specified form field.Hides all field messages.Hides all field messages of the specified type.Hides the error message placed by showErrorBox\(\).Hides the first message that appears in the specified field on the current form.Hides the specified related list on the form.Hides all related lists on the form.Returns true while a live update is being done on the record the form is showing.Returns true if the field is mandatory.Returns true if the record has never been saved.Returns true if the section is visible.Determines whether the field associated with the passed-in field name is visible on the current form.Registers a custom event listener that detects when any field in the current form is modified by a user.You can update a list collector variable.Removes the icon from the specified field that matches the icon and title.Removes the icon from the specified field that matches the icon, title, and color.Removes the specified option from the choice list.Saves the record without navigating away \(update and stay\).Makes the specified field mandatory.Shows or hides a section.Sets the value of a specified form field to the value of a specified display value in a reference record.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the scrollForm parameter is true, the form scrolls to the control or field.Displays either an informational or error message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the form is scrolled to the field.Displays either an informational or error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and scrollForm is true, the form is scrolled to the field.Makes the specified field available or unavailable.Displays or hides a field.Sets the plain text value of the field label.Makes the specified field read-only or editable.Sets the value of a specified form field to the passed in value.Makes a Service Catalog variable editor read only.Displays or hides the field.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form scrolls to the control or field.Displays the specified related list on the form.Displays all the form's related lists.Saves the record.Performs the UI action specified by the parameter.
+description: The GlideForm API provides methods to customize forms.Adds an icon on a field's label.Adds an icon on a field's label.Displays the specified error message at the top of the form.Displays a floating form message at the top of the form detail section. The message doesn't cover UI actions.Displays a high priority message at the top of the form.Adds the specified informational message to the top of the form.Displays a low priority message at the top of the form.Displays a moderate level priority message at the top of the form.Adds a choice to the end of a specified choice list field.Adds a choice to the list field at the position specified.Displays a success message at the top of the form.Removes all form messages of any type.Removes all form messages of a specified type.Removes all informational and error messages from the top of the form.Removes all options from the specified choice list.Removes any value\(s\) from the specified field.Prevents file attachments from being added to the form.Programmatically turns off a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already turned off.Allows file attachments to be added to the form. Shows the paper clip icon.Programmatically enables a specific choice in the drop-down field, if the choice exists. No changes are made if the option is already enabled.Use to draw attention to a field. Flashes the specified color for a specified duration of time in the specified field.Returns the most recent action name, or, for a client script, the sys\_id of the UI action clicked.Returns a form annotation of a given name.Returns a list of all annotations on a form.Returns a Boolean value for the specified field.Returns an object with properties representing a given field and choice value.Returns the HTML element for the specified field.Returns the decimal value of the specified field.Returns the display value from a form in the core UI.Returns the display value from a form in Service Portal.Returns the HTML element specified by the parameter.Returns the HTML element for the form.Returns the HTML element of the help text for the specified field.Returns the integer value for the specified field.Returns the plain text value of the field label.Returns the option element for a selected box named fieldName where choiceValue matches the option value.Returns the available and selected options for a choice or reference field on the form. This method is useful for dynamic forms, catalog variables and variable sets, and integrations needing to inspect or filter field options at runtime.Returns the GlideRecord for a specified field.Returns an array of related list names from the current form.Returns all section names, whether visible or not.Returns an array of the form's sections.Returns the name of the table to which this record belongs.Returns the sys\_id of the record displayed in the form.Returns the value of the specified form field.Hides all field messages.Hides all field messages of the specified type.Hides an annotation with a given name on the form UI.Hides the error message placed by showErrorBox\(\).Hides the first message that appears in the specified field on the current form.Hides the Related Links section of a form.Hides the specified related list on the form.Hides all related lists on the form.Hides the template bar on the form.Returns true while a live update is being done on the record the form is showing.Returns true if the field is mandatory.Returns true if the record has never been saved.Returns true if the section is visible.Determines whether the field associated with the passed-in field name is visible on the current form.Registers a custom event listener that detects when any field in the current form is modified by a user.You can update a list collector variable.Removes the icon from the specified field that matches the specified icon and title.Removes the icon from the specified field that matches the specified icon, title, and color.Removes the specified option from the specified choice list.Saves the record without navigating away \(update and stay\).Updates the label of a specific choice in the drop-down field.Makes the specified field available or unavailable.Displays or hides a specified field on the form.Sets the plain text value of the specified field label.Makes the specified field mandatory.Makes the specified field read-only or editable.Show or hide the Related Links section in the form UI using Boolean values.Shows or hides a specified section in the form.Sets the value of a specified form field to the specified value or the value of a specified display value in a reference record.Makes a Service Catalog variable editor read only.Displays or hides the specified field.Shows an annotation with a given name on the form UI.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the scrollForm parameter is true, the form scrolls to the control or field.Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form automatically scrolls to the control or field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the method automatically scrolls the form to that field.Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and scrollForm is true, the method scrolls the form to that field.Displays the Related Links section of a form.Displays the specified related list on the form.Displays all the form's related lists.If hidden, shows the template bar at the bottom of the form.Saves the record.Performs the specified UI action.Hides or shows all annotations on the form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/c\_GlideFormAPI.html
 release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 34
+last_updated: "2026-09-10"
+reading_time_minutes: 46
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Client API reference, API reference, API implementation and referen
 
 The GlideForm API provides methods to customize forms.
 
-GlideForm.js is the JavaScript class containing the methods. Only use GlideForm methods on the client. You can use these methods to make custom changes to the form view of records. All validation of examples was done using client scripts.
+Only use GlideForm methods on the client. You can use these methods to make custom changes to the form view of records. All validation of examples was done using client scripts.
 
 You can also use some of these methods in other client scripts \(such as Catalog Client Scripts or Wizard Client Scripts\), but you must first test this to determine whether they will work as expected.
 
@@ -34,13 +34,103 @@ Adding the same item twice is prevented; however, you can add the same icon with
 
 **Note:** This method is not supported by Service Catalog.
 
-|Name|Type|Description|
-|----|----|-----------|
-|fieldName|String|The field name.|
-|icon|String|The font icon to show next to the field. Supported icons - icon-user, icon-user-group, icon-lightbulb, icon-home, icon-mobile, icon-comment, icon-mail, icon-locked, icon-database, icon-book, icon-drawer, icon-folder, icon-catalog, icon-tab, icon-cards, icon-tree-right, icon-tree, icon-book-open, icon-paperclip, icon-edit, icon-trash, icon-image, icon-search, icon-power, icon-cog, icon-star, icon-star-empty, icon-new-ticket, icon-dashboard, icon-cart-full, icon-view, icon-label, icon-filter, icon-calendar, icon-script, icon-add, icon-delete, icon-help, icon-info, icon-check-circle, icon-alert, icon-sort-ascending, icon-console, icon-list, icon-form, and icon-livefeed.|
-|title|String|The text title for the icon.|
+<table id="table_vyw_1dw_ts" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-fieldName-entry">
+
+Field name.
+
+</td></tr><tr><td>
+
+icon
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-icon-entry">
+
+Name of the icon to show next to the specified field.Valid values:
+
+-   icon-add
+-   icon-alert
+-   icon-book
+-   icon-book-open
+-   icon-calendar
+-   icon-cards
+-   icon-cart-full
+-   icon-catalog
+-   icon-check-circle
+-   icon-cog
+-   icon-comment
+-   icon-console
+-   icon-dashboard
+-   icon-database
+-   icon-delete
+-   icon-drawer
+-   icon-edit
+-   icon-filter
+-   icon-folder
+-   icon-form
+-   icon-help
+-   icon-home
+-   icon-image
+-   icon-info
+-   icon-label
+-   icon-lightbulb
+-   icon-list
+-   icon-livefeed
+-   icon-locked
+-   icon-mail
+-   icon-mobile
+-   icon-new-ticket
+-   icon-paperclip
+-   icon-power
+-   icon-script
+-   icon-search
+-   icon-sort-ascending
+-   icon-star
+-   icon-star-empty
+-   icon-tab
+-   icon-trash
+-   icon-tree
+-   icon-tree-right
+-   icon-user
+-   icon-user-group
+-   icon-view
+
+</td></tr><tr><td>
+
+title
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-title-entry">
+
+Title for the icon.
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 
@@ -56,14 +146,115 @@ Adding the same item twice is prevented; however, you can add the same icon with
 
 **Note:** This method is not supported by Service Catalog.
 
-|Name|Type|Description|
-|----|----|-----------|
-|fieldName|String|The field name.|
-|icon|String|The font icon to show next to the field. Supported icons - icon-user, icon-user-group, icon-lightbulb, icon-home, icon-mobile, icon-comment, icon-mail, icon-locked, icon-database, icon-book, icon-drawer, icon-folder, icon-catalog, icon-tab, icon-cards, icon-tree-right, icon-tree, icon-book-open, icon-paperclip, icon-edit, icon-trash, icon-image, icon-search, icon-power, icon-cog, icon-star, icon-star-empty, icon-new-ticket, icon-dashboard, icon-cart-full, icon-view, icon-label, icon-filter, icon-calendar, icon-script, icon-add, icon-delete, icon-help, icon-info, icon-check-circle, icon-alert, icon-sort-ascending, icon-console, icon-list, icon-form, and icon-livefeed.|
-|title|String|The text title for the icon.|
-|color|String|A CSS color.|
+<table id="table_gzh_fyd_5s" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-fieldName-entry">
+
+Field name.
+
+</td></tr><tr><td>
+
+icon
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-icon-entry">
+
+Name of the icon to show next to the specified field.Valid values:
+
+-   icon-add
+-   icon-alert
+-   icon-book
+-   icon-book-open
+-   icon-calendar
+-   icon-cards
+-   icon-cart-full
+-   icon-catalog
+-   icon-check-circle
+-   icon-cog
+-   icon-comment
+-   icon-console
+-   icon-dashboard
+-   icon-database
+-   icon-delete
+-   icon-drawer
+-   icon-edit
+-   icon-filter
+-   icon-folder
+-   icon-form
+-   icon-help
+-   icon-home
+-   icon-image
+-   icon-info
+-   icon-label
+-   icon-lightbulb
+-   icon-list
+-   icon-livefeed
+-   icon-locked
+-   icon-mail
+-   icon-mobile
+-   icon-new-ticket
+-   icon-paperclip
+-   icon-power
+-   icon-script
+-   icon-search
+-   icon-sort-ascending
+-   icon-star
+-   icon-star-empty
+-   icon-tab
+-   icon-trash
+-   icon-tree
+-   icon-tree-right
+-   icon-user
+-   icon-user-group
+-   icon-view
+
+</td></tr><tr><td>
+
+title
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-title-entry">
+
+Title for the icon.
+
+</td></tr><tr><td>
+
+color
+
+</td><td>
+
+String
+
+</td><td id="g_form-add_decor-color-entry">
+
+CSS color.
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 
@@ -91,7 +282,7 @@ g_form.addErrorMessage('This is an error');
 
 ## GlideForm - addFormMessage\(String message, String type, Object options\)
 
-Displays a floating form message at the top of the form detail section. The message does not cover UI actions.
+Displays a floating form message at the top of the form detail section. The message doesn't cover UI actions.
 
 See also:
 
@@ -118,7 +309,7 @@ message
 
 String
 
-</td><td>
+</td><td id="g_form-add_form_msg-message-entry">
 
 Message to display.
 
@@ -130,9 +321,9 @@ type
 
 String
 
-</td><td>
+</td><td id="glideform-parm-type-entry">
 
-The type of message.Valid values:
+Type of message.Valid values:
 
 -   error
 -   info
@@ -146,9 +337,9 @@ options
 
 Object
 
-</td><td>
+</td><td id="g_form-add_form_msg-options-entry">
 
-Optional. Object containing buttons to add to the form message and any metadata needed to handle a button click.```
+Optional. Buttons to add to the form message and any metadata needed to handle a button click.```
 {
   buttons: [Array],
   meta: {Object}
@@ -163,28 +354,16 @@ options.buttons
 
 Array
 
-</td><td>
+</td><td id="g_form-add_form_msg-options_buttons-entry">
 
-Array of buttons to add to the form message.```
+List of buttons to add to the form message.```
 buttons: [
   {
-    label: "String", 
-    actionName: "String"
+    actionName: "String",
+    label: "String"
   }
 ]
 ```
-
-</td></tr><tr><td>
-
-options.buttons.label
-
-</td><td>
-
-String
-
-</td><td>
-
-Text to display on the button.
 
 </td></tr><tr><td>
 
@@ -194,9 +373,21 @@ options.buttons.actionName
 
 String
 
+</td><td id="g_form-add_form_msg-options_buttons_actionName-entry">
+
+Name used by the `FORM_MESSAGE_BUTTON_CLICKED` event handlers to determine the button that was clicked.For example, if you add a button with the **actionName**`assign_to_me`, you must create an event handler in UIB on the `FORM_MESSAGE_BUTTON_CLICKED` event that only executes when the **actionName** is `assigned_to_me`.
+
+</td></tr><tr><td>
+
+options.buttons.label
+
 </td><td>
 
-Name used by FORM\_MESSAGE\_BUTTON\_CLICKED event handlers to determine the button that was clicked.For example, if you add a button with the actionName `assign_to_me`, you must create an event handler in UIB on the FORM\_MESSAGE\_BUTTON\_CLICKED event that only executes when the actionName is `assigned_to_me`.
+String
+
+</td><td id="g_form-add_form_msg-options_buttons_label-entry">
+
+Text to display on the button.
 
 </td></tr><tr><td>
 
@@ -206,7 +397,7 @@ options.meta
 
 Object
 
-</td><td>
+</td><td id="g_form-add_form_msg-options_meta-entry">
 
 Map of any metadata needed to handle the button click formatted as key-value pairs. ```
 meta: {
@@ -233,6 +424,26 @@ g_form.addFormMessage('error2 message','error');
 g_form.addFormMessage('Would you like to reassign this to yourself?', 'info', {buttons: [{label: "Assign to me", actionName: "assign_to_me"}], meta: {'userId': '46d44a23a9fe19810012d100cca80666'}});
 ```
 
+## GlideForm - addHighMessage\(String message\)
+
+Displays a high priority message at the top of the form.
+
+This message appears for approximately four seconds and then disappears. This timeout is not configurable at this time.
+
+|Name|Type|Description|
+|----|----|-----------|
+|message|String|High priority message to display on the form.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to display a high priority message at the top of the form.
+
+```
+g_form.addHighMessage("This is a high priority message");
+```
+
 ## GlideForm - addInfoMessage\(String message\)
 
 Adds the specified informational message to the top of the form.
@@ -251,15 +462,55 @@ This message appears for approximately four seconds and then disappears. This ti
 g_form.addInfoMessage('The top five fields in this form are mandatory');
 ```
 
-## GlideForm - addOption\(String fieldName, String choiceValue, String choiceLabel\)
+## GlideForm - addLowMessage\(String message\)
 
-Adds a choice to the end of a choice list field.
+Displays a low priority message at the top of the form.
+
+This message appears for approximately four seconds and then disappears. This timeout is not configurable at this time.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The name of the field.|
-|choiceValue|String|The value to be stored in the database.|
-|choiceLabel|String|The value displayed.|
+|message|String|Low priority message to display on the form.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to display a low priority message at the top of the form.
+
+```
+g_form.addLowMessage(“This is a low priority message"); 
+```
+
+## GlideForm - addModerateMessage\(String message\)
+
+Displays a moderate level priority message at the top of the form.
+
+This message appears for approximately four seconds and then disappears. This timeout is not configurable at this time.
+
+|Name|Type|Description|
+|----|----|-----------|
+|message|String|Moderate priority message to display on the form.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to display a moderate priority message at the top of the form.
+
+```
+g_form.addModerateMessage("This is a moderate priority message");
+```
+
+## GlideForm - addOption\(String fieldName, String choiceValue, String choiceLabel\)
+
+Adds a choice to the end of a specified choice list field.
+
+|Name|Type|Description|
+|----|----|-----------|
+|fieldName|String|Name of the field in which to add the choice field option.|
+|choiceValue|String|Value to store in the database.|
+|choiceLabel|String|Value to display.|
 
 |Type|Description|
 |----|-----------|
@@ -277,10 +528,10 @@ Adds a choice to the list field at the position specified.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The field name.|
-|choiceValue|String|The value stored in the database.|
-|choiceLabel|String|The value displayed.|
-|choiceIndex|Number|Order of the choice in the list. The index is into a zero based array.|
+|fieldName|String|Name of the field in which to add the choice field option.|
+|choiceValue|String|Value to store in the database.|
+|choiceLabel|String|Value to display.|
+|choiceIndex|Number|Order of the choice in the list. The index is a zero-based array.|
 
 |Type|Description|
 |----|-----------|
@@ -290,22 +541,24 @@ Adds a choice to the list field at the position specified.
 g_form.addOption('priority', '2.5', '2.5 - Moderately High', 3);
 ```
 
-## GlideForm - clearMessages\(\)
+## GlideForm - addSuccessMessage\(String message\)
 
-Removes all informational and error messages from the top of the form.
+Displays a success message at the top of the form.
 
-Removes informational and error messages added with g\_form.addInfoMessage\(\) and g\_form.addErrorMessage\(\).
+This message appears for approximately four seconds and then disappears. This timeout is not configurable at this time.
 
 |Name|Type|Description|
 |----|----|-----------|
-|None| | |
+|message|String|Success message to display on the form.|
 
 |Type|Description|
 |----|-----------|
-|void| |
+|None| |
+
+The following example shows how to display a message confirming a success message at the top of the form.
 
 ```
-g_form.clearMessages();
+g_form.addSuccessMessage("This is a success message");
 ```
 
 ## GlideForm - clearAllFormMessages\(\)
@@ -333,7 +586,7 @@ g_form.clearAllFormMessages();
 
 ## GlideForm - clearFormMessages\(String type\)
 
-Removes all form messages of a given type.
+Removes all form messages of a specified type.
 
 See also:
 
@@ -360,9 +613,9 @@ type
 
 String
 
-</td><td>
+</td><td id="glideform-parm-type-entry">
 
-The type of message.Valid values:
+Type of message.Valid values:
 
 -   error
 -   info
@@ -379,13 +632,31 @@ The following example shows how to clear all error messages from the form.
 g_form.clearFormMessages('error');
 ```
 
-## GlideForm - clearOptions\(String fieldName\)
+## GlideForm - clearMessages\(\)
 
-Removes all options from the choice list.
+Removes all informational and error messages from the top of the form.
+
+Removes informational and error messages added with g\_form.addInfoMessage\(\) and g\_form.addErrorMessage\(\).
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Name of the field.|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|void| |
+
+```
+g_form.clearMessages();
+```
+
+## GlideForm - clearOptions\(String fieldName\)
+
+Removes all options from the specified choice list.
+
+|Name|Type|Description|
+|----|----|-----------|
+|fieldName|String|Name of the field for which to clear the choice options.|
 
 |Type|Description|
 |----|-----------|
@@ -393,11 +664,13 @@ Removes all options from the choice list.
 
 ## GlideForm - clearValue\(String fieldName\)
 
-Removes any value\(s\) from the field.
+Removes any value\(s\) from the specified field.
+
+**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see .
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Name of the field.|
+|fieldName|String|Name of the field to clear.|
 
 |Type|Description|
 |----|-----------|
@@ -405,7 +678,7 @@ Removes any value\(s\) from the field.
 
 ## GlideForm - disableAttachments\(\)
 
-Prevents file attachments from being added.
+Prevents file attachments from being added to the form.
 
 This method is not available on the mobile platform. If this method is run on a mobile platform, no action occurs.
 
@@ -416,10 +689,95 @@ This method is not available on the mobile platform. If this method is run on a 
 |Type|Description|
 |----|-----------|
 |void| |
+
+## GlideForm - disableChoice\(String fieldName, String choiceValue\)
+
+Programmatically turns off a specific choice in the drop-down field, if the choice exists. No changes are made if the choice is already turned off.
+
+<table id="table_q2s_gds_rfc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td>
+
+Field name of the choice to turn off.Data type: String
+
+</td></tr><tr><td>
+
+choiceValue
+
+</td><td>
+
+String
+
+</td><td>
+
+Value of the choice to turn off.Data type: String
+
+</td></tr></tbody>
+</table><table id="table_fvm_xbs_rfc" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the given choice is turned off or active in the form.Valid values:
+
+-   true: Choice is turned off.
+-   false: Option is already turned off or is not found.
+
+Data type: Boolean
+
+</td></tr></tbody>
+</table>The following example calls disableChoice\(\) to turn off the loading\_dock choice in the delivery\_location form field.
+
+```
+if (g_form.getValue('address_type') == 'home') {
+	g_form.disableChoice('delivery_location', 'loading_dock');
+}
+
+// Only itil_admin users can select the "Closed" option  
+
+function onLoad() {
+	if (g_user.hasRole('itil_admin')) return;
+
+	if (g_form.getValue('incident_state') != '7')
+		g_form.disableChoice('incident_state', 7);
+
+	if (g_form.getValue('state') != '7') {
+		g_form.disableChoice('state', 7);
+	}
+
+}
+```
 
 ## GlideForm - enableAttachments\(\)
 
-Allows file attachments to be added. Shows the paper clip icon.
+Allows file attachments to be added to the form. Shows the paper clip icon.
 
 This method is not available on the mobile platform. If this method is run on a mobile platform, no action occurs.
 
@@ -431,9 +789,52 @@ This method is not available on the mobile platform. If this method is run on a 
 |----|-----------|
 |void| |
 
+## GlideForm - enableChoice\(String fieldName, String choiceValue\)
+
+Programmatically enables a specific choice in the drop-down field, if the choice exists. No changes are made if the option is already enabled.
+
+|Name|Type|Description|
+|----|----|-----------|
+|fieldName|String|Field name of the choice to enable.|
+|choiceValue|String|Value of the choice to enable.|
+
+<table id="table_fvm_xbs_rfc" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the given choice is successfully enabled.Valid values:
+
+-   true: Choice is enabled.
+-   false: Choice is already enabled or is not found.
+
+Data type: Boolean
+
+</td></tr></tbody>
+</table>The following example calls enable\(\) to enable a new drop-down choice, `1`, in the `priority` form field.
+
+```
+var shortDescription = g_form.getValue('shortDescription');
+
+// Allow priority 1 selection if short description mentions security 
+if (shortDescription.includes('security')) {
+	var p1Choice = g_form.getChoice('priority', '1');
+	g_form.enableChoice('priority', '1');
+}
+```
+
 ## GlideForm - flash\(String fieldName, String color, Number count\)
 
-Used to draw attention to a particular field. Flashes the specified color for a specified duration of time in the specified field.
+Use to draw attention to a field. Flashes the specified color for a specified duration of time in the specified field.
 
 This method is not supported by Service Catalog.
 
@@ -459,9 +860,9 @@ fieldName
 
 String
 
-</td><td>
+</td><td id="g_form-flash-fieldName-entry">
 
-Specifies the field to highlight in the following format: `"<table-name>.<field-name>"`.
+Field to highlight in the following format: `"<table-name>.<field-name>"`.
 
 </td></tr><tr><td>
 
@@ -471,7 +872,7 @@ color
 
 String
 
-</td><td>
+</td><td id="g_form-flash-color-entry">
 
 RGB color or acceptable CSS color.
 
@@ -483,9 +884,11 @@ count
 
 Number
 
-</td><td>
+</td><td id="g_form-flash-count-entry">
 
-Specifies how long the label will flash. Options include:-   2: Flashes for 1 second
+How long the label will flash. Valid values:
+
+-   2: Flashes for 1 second
 -   0: Flashes for 2 seconds
 -   -2: Flashes for 3 seconds
 -   -4: Flashes for 4 seconds
@@ -511,7 +914,7 @@ Returns the most recent action name, or, for a client script, the sys\_id of the
 
 |Type|Description|
 |----|-----------|
-|String|The current action name.|
+|String|Current action name or sys\_id of the UI action clicked.|
 
 ```
 function onSubmit() {
@@ -520,17 +923,285 @@ function onSubmit() {
 }
 ```
 
+## GlideForm - getAnnotationByName\(String name\)
+
+Returns a form annotation of a given name.
+
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm - getAnnotationByName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) to return all annotations in a form.
+
+<table id="table_skr_c4l_rfc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+The name of the annotation to return.Table: Form Annotations \[sys\_ui\_annotation\], Field: **Name**
+
+</td></tr></tbody>
+</table><table id="table_irm_qnl_rfc" class="returns"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Array of Objects
+
+</td><td>
+
+Content of the annotation.Data type: Array of Objects
+
+```
+[{content: "String", name: "String", visible: Boolean}]
+```
+
+</td></tr><tr><td>
+
+array.content
+
+</td><td>
+
+Text of the returned annotation.Data type: String
+
+</td></tr><tr><td>
+
+array.name
+
+</td><td>
+
+Name of the returned annotation.Data type: String
+
+Table location: Form Annotations \[sys\_ui\_annotation\], Field: **name**
+
+</td></tr><tr><td>
+
+array.visible
+
+</td><td>
+
+Flag that indicates whether the annotation is visible on the form.
+
+ Valid values:
+
+-   true: The annotation is visible.
+-   false: The annotation isn't visible.
+
+ Data type: Boolean
+
+</td></tr></tbody>
+</table>The following example demonstrates how to use the getAnnotationByName\(\) method to retrieve a form annotation according to its given name, test-annotation-msg-1.
+
+```
+   var sampleAnnotation = g_form.getAnnotationByName("test-annotation-msg-1");
+
+   /* returns:  
+   { 
+       "name": "test-annotation-msg-1", 
+       "visible": true, 
+       "content": "Test<input id=\"make_spacing_ok\" style=\"visibility:hidden; width:0px;\">" 
+   }
+   */
+```
+
+## GlideForm - getAnnotations\(\)
+
+Returns a list of all annotations on a form.
+
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. Use [GlideForm - getAnnotationByName\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) to return a specific annotation by its name.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_irm_qnl_rfc" class="returns"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Array of Objects
+
+</td><td>
+
+Content of the annotation.Data type: Array of Objects
+
+```
+[{content: "String", name: "String", visible: Boolean}]
+```
+
+</td></tr><tr><td>
+
+array.content
+
+</td><td>
+
+Text of the returned annotation.Data type: String
+
+</td></tr><tr><td>
+
+array.name
+
+</td><td>
+
+Name of the returned annotation.Data type: String
+
+Table location: Form Annotations \[sys\_ui\_annotation\], Field: **name**
+
+</td></tr><tr><td>
+
+array.visible
+
+</td><td>
+
+Flag that indicates whether the annotation is visible on the form.
+
+ Valid values:
+
+-   true: The annotation is visible.
+-   false: The annotation isn't visible.
+
+ Data type: Boolean
+
+</td></tr></tbody>
+</table>The following example first calls getAnnotations\(\) to return all annotations in a form, and then calls hideAnnotation\(\) to hide all annotations in the form.
+
+```
+const annotations = getAnnotations();
+
+/* returns:  
+[ 
+    { 
+        "name": "test-annotation-msg-1", 
+        "visible": true, 
+        "content": "Test<input id=\"make_spacing_ok\" style=\"visibility:hidden; width:0px;\">" 
+    }, 
+    { 
+        "name": "test-annotation-msg-2", 
+        "visible": true, 
+        "content": "Test 2<input id=\"make_spacing_ok\" style=\"visibility:hidden; width:0px;\">" 
+    } 
+
+]*/
+annotations.forEach(function(annotation) {
+	g_form.hideAnnotation(annotation.name);
+});
+
+// this script hides all annotations on the form.
+```
+
 ## GlideForm - getBooleanValue\(String fieldName\)
 
 Returns a Boolean value for the specified field.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Name of the field.|
+|fieldName|String|Field to highlight in the following format: `"<table-name>.<field-name>"`.|
 
 |Type|Description|
 |----|-----------|
 |Boolean|Returns false if the field value is false or undefined; otherwise returns true.|
+
+## GlideForm - getChoice\(String fieldName, String choiceValue\)
+
+Returns an object with properties representing a given field and choice value.
+
+|Name|Type|Description|
+|----|----|-----------|
+|fieldName|String|Field name of the choice to retrieve.|
+|choiceValue|String|Value of the choice to retrieve.|
+
+<table id="table_fvm_xbs_rfc" class="returns"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+GlideFormChoice object or null
+
+</td><td>
+
+GlideFormChoice object for the specified field and choice value. Returns null if no matching choice exists.Data type: Object
+
+```
+("label", "value", "disabled", "index")
+```
+
+</td></tr><tr><td>
+
+GlideFormChoice.label
+
+</td><td>
+
+Read-only display text of the choice.Data type: String
+
+</td></tr><tr><td>
+
+GlideFormChoice.value
+
+</td><td>
+
+Read-only value of the choice.Data type: String
+
+</td></tr><tr><td>
+
+GlideFormChoice.disabled
+
+</td><td>
+
+Flag that indicates whether the choice is turned off in the form.Valid values:
+
+-   true: Choice is turned off.
+-   false: Choice is enabled.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+GlideFormChoice.index
+
+</td><td>
+
+Indicates the position of the choice in the drop-down.Data type: Number
+
+</td></tr></tbody>
+</table>The following example calls enable\(\) to enable a new drop-down choice, `1`, in the `priority` form field.
+
+```
+var shortDescription = g_form.getValue('shortDescription');
+
+// Allow priority 1 selection if short description mentions security 
+if (shortDescription.includes('security')) {
+	var p1Choice = g_form.getChoice('priority', '1');
+	g_form.enableChoice('priority', '1');
+}
+```
 
 ## GlideForm - getControl\(String fieldName\)
 
@@ -544,11 +1215,11 @@ This method is not available in mobile scripts or Service Portal scripts.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Name of the field.|
+|fieldName|String|Name of the field for which to return the HTML element.|
 
 |Type|Description|
 |----|-----------|
-|HTMLElement|The field's HTML element.|
+|HTMLElement|Field's HTML element.|
 
 ## GlideForm - getDecimalValue\(String fieldName\)
 
@@ -556,11 +1227,11 @@ Returns the decimal value of the specified field.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The name of the field.|
+|fieldName|String|Name of the field for which to return the decimal value.|
 
 |Type|Description|
 |----|-----------|
-|String|The decimal value of the specified field.|
+|String|Decimal value of the specified field.|
 
 ```
 function onChange(control, oldValue, newValue, isLoading) {
@@ -570,7 +1241,7 @@ function onChange(control, oldValue, newValue, isLoading) {
 
 ## GlideForm - getDisplayBox\(String fieldName\)
 
-Gets the display value from a form in the core UI.
+Returns the display value from a form in the core UI.
 
 **Note:** To get a display value from a form in Service Portal, use the [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) method.
 
@@ -581,11 +1252,11 @@ See also:
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Name of the field from which you want to retrieve a value in the form.|
+|fieldName|String| |
 
 |Type|Description|
 |----|-----------|
-|None| |
+|None|Name of the field from which to retrieve the value in the form.|
 
 ```
 var caller = g_form.getDisplayBox('caller_id').value;
@@ -600,9 +1271,7 @@ if (caller == assignee)
 
 ## GlideForm - getDisplayValue\(String fieldName\)
 
-Gets the display value from a form in Service Portal.
-
-**Note:** To get a display value from a form in the core UI, use the [getDisplayBox\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) method.
+Returns the display value from a form in Service Portal.
 
 See also:
 
@@ -617,7 +1286,7 @@ See also:
 
 |Type|Description|
 |----|-----------|
-|None| |
+|String|Display value of the specified field.|
 
 The following example shows how to get the display value of a reference variable in the core UI or Service Portal. The use case for this example is on the [community](https://www.servicenow.com/community/developer-blog/get-display-value-of-reference-variable-service-catalog/ba-p/2287763) site.
 
@@ -648,11 +1317,11 @@ This method is not available in mobile scripts or Service Portal scripts.
 
 |Name|Type|Description|
 |----|----|-----------|
-|id|String|The field id.|
+|id|String|Field ID.|
 
 |Type|Description|
 |----|-----------|
-|HTMLElement|The field's HTML element.|
+|HTMLElement|Field's HTML element.|
 
 ## GlideForm - getFormElement\(\)
 
@@ -666,7 +1335,7 @@ This method is not available in mobile scripts or Service Portal scripts.
 
 |Type|Description|
 |----|-----------|
-|HTMLFormElement|The HTML element for the form.|
+|HTMLFormElement|HTML element for the form.|
 
 ## GlideForm - getHelpTextControl\(String fieldName\)
 
@@ -684,11 +1353,11 @@ This method is applicable to service catalog variables only.
 
 ## GlideForm - getIntValue\(String fieldName\)
 
-Returns the integer value of the field.
+Returns the integer value for the specified field.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The field name.|
+|fieldName|String|Field name.|
 
 |Type|Description|
 |----|-----------|
@@ -700,11 +1369,11 @@ Returns the plain text value of the field label.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The field name|
+|fieldName|String|Field name.|
 
 |Type|Description|
 |----|-----------|
-|String|The label text.|
+|String|Label text.|
 
 ```
 if (g_user.hasRole('itil')) {
@@ -740,6 +1409,116 @@ var choiceLabel = g_form.getOption('category', choiceValue).text;
 }
 ```
 
+## GlideForm - getOptions\(String fieldName\)
+
+Returns the available and selected options for a choice or reference field on the form. This method is useful for dynamic forms, catalog variables and variable sets, and integrations needing to inspect or filter field options at runtime.
+
+For example, you can use the g\_form.getOptions\(\) to:
+
+-   Get and set the name-value pairs in a watch\_list field type.
+-   Search or filter available options by a search term.
+-   Enable access to the same auto-complete results via a callback.
+-   Get and set options on choice fields, reference fields, and advanced field types such as watch\_list, glide\_list, field\_list, and slushbucket.
+
+|Name|Type|Description|
+|----|----|-----------|
+|fieldName|String|The field name of the choice or reference field to retrieve.|
+
+<table id="table_ez3_jyr_rfc" class="returns"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Array of Objects or null
+
+</td><td>
+
+Read-only array of objects containing the value and label of each selected option. Returns null if the field does not support options.Data type: Array of Objects
+
+```
+[{value: "String", displayValue: "String"}]
+```
+
+</td></tr><tr><td>
+
+array.displayValue
+
+</td><td>
+
+The choice display value.Data type: String
+
+</td></tr><tr><td>
+
+array.value
+
+</td><td>
+
+The value of the option.Data type: String
+
+</td></tr><tr><td>
+
+getAvailable\(term\)
+
+</td><td>
+
+Function for returning all available options. A search term can be provided as an argument to filter the options by display value \(a case-insensitive sub string match\). Returns a Promise of Array of Objects with the matching choice's display value and value. Data type: Array of Objects
+
+```
+[{value: "String", displayValue: "String"}]
+```
+
+</td></tr></tbody>
+</table>The following example calls g\_form.getOptions\(\) to return all available choices for specified form fields, like state, work\_notes\_list, and others.
+
+```
+g_form.getOptions("state"); //table: incident, field: state, type: integer, choice: Dropdown without --None--
+/*
+returns [{"value":"1","displayValue":"New"},{"value":"2","displayValue":"In Progress"},{"value":"3","displayValue":"On Hold"},{"value":"6","displayValue":"Resolved"},{"value":"7","displayValue":"Closed"},{"value":"8","displayValue":"Canceled"}]
+*/
+
+g_form.getOptions("category"); //table: incident, field: category, type: string, choice: Dropdown with --None--
+/*
+returns [{"value":"","displayValue":"-- None --"},{"value":"inquiry","displayValue":"Inquiry / Help"},{"value":"software","displayValue":"Software"},{"value":"hardware","displayValue":"Hardware"},{"value":"network","displayValue":"Network"},{"value":"database","displayValue":"Database"}]
+*/
+
+g_form.getOptions("work_notes_list") //table: incident, field: work_notes_list, type: glide_list
+/*
+returns [{"value":"62826bf03710200044e0bfc8bcbe5df1","displayValue":"Abel Tuter"},{"value":"a8f98bb0eb32010045e1a5115206fe3a","displayValue":"Abraham Lincoln"},{"value":"5137153cc611227c000bbd1bd8cd2005","displayValue":"Fred Luddy"},{"value":"6a826bf03710200044e0bfc8bcbe5dec","displayValue":"Alissa Mountjoy"}]
+*/
+
+g_form.getOptions("restricted_fields") //table: std_change_properties, field: restricted_fields, type: field_list
+/*
+[{"value":"activity_due","displayValue":"Activity due"},{"value":"additional_assignee_list","displayValue":"Additional assignee list"},{"value":"comments","displayValue":"Additional comments"},{"value":"assignment_group","displayValue":"Assignment group"},{"value":"backout_plan","displayValue":"Backout plan"},{"value":"business_duration","displayValue":"Business duration"},{"value":"cab_delegate","displayValue":"CAB delegate"},...]
+*/
+
+g_form.getOptions('table') //table: sys_script_client, field: table, type: table_name
+/*
+[{"value":"","displayValue":"-- None --"},{"value":"cmdb_ci_appl_dot_net","displayValue":".NET Application [cmdb_ci_appl_dot_net]"},{"value":"evaluation","displayValue":"A/B Testing Evaluation [evaluation]"},{"value":"evaluation_execution","displayValue":"A/B Testing Evaluation Execution [evaluation_execution]"},{"value":"evaluation_parameter","displayValue":"A/B Testing Evaluation Parameter [evaluation_parameter]"},{"value":"sn_access_analyzer_request","displayValue":"Access Analyzer Query [sn_access_analyzer_request]"},{"value":"sn_access_analyzer_access_comparison_request","displayValue":"Access Comparison Request [sn_access_analyzer_access_comparison_request]"},{"value":"sys_security_acl","displayValue":"Access Control [sys_security_acl]"},...]
+*/
+
+g_form.getOptions('mandatory_fields'); //table: kb_knowledge_base, field: mandatory_fields, type: slushbucket
+/*
+[{"value":"active","displayValue":"Active"},{"value":"article_id","displayValue":"Article ID"},{"value":"displayValue","displayValue":"Article body"},{"value":"article_type","displayValue":"Article type"},{"value":"direct","displayValue":"Attachment link"},{"value":"author","displayValue":"Author"},{"value":"base_version","displayValue":"Base Version"},...]
+*/
+```
+
+The following example script demonstrates how to call g\_form.getOptions\(\) with getAvailable\(\) function.
+
+```
+const options = g_form.getOptions('priority');
+if (options) {
+  console.log('Selected:', options.selected);
+  options.getAvailable('high').then(available => {
+    console.log('Available matching "high":', available);
+  });
+}
+```
+
 ## GlideForm - getReference\(String fieldName, Function callBack\)
 
 Returns the GlideRecord for a specified field.
@@ -769,9 +1548,9 @@ Description
 
 GlideRecord
 
-</td><td>
+</td><td id="g_form-getReference-returns-entry">
 
-GlideRecord object for the specified field. If the specified reference cannot be found, it returns an initialized GlideRecord object where currentRow = -1 and rows.length = 0.
+GlideRecord object for the specified field. If the specified reference can't be found, it returns an initialized GlideRecord object where `currentRow = -1` and `rows.length = 0`.
 
 </td></tr></tbody>
 </table>```
@@ -796,7 +1575,7 @@ Returns an array of related list names from the current form.
 
 |Type|Description|
 |----|-----------|
-|Array|String array of related list names from the current form. The related list names are listed in the order in which they appear on the form.|
+|Array of Strings|List of related list names from the current form. The related list names are listed in the order in which they appear on the form.|
 
 ```
 var listNames = g_form.getRelatedListNames();
@@ -816,7 +1595,7 @@ Returns all section names, whether visible or not.
 
 |Type|Description|
 |----|-----------|
-|Array of strings|The section names.|
+|Array of Strings|Section names.|
 
 ## GlideForm - getSections\(\)
 
@@ -830,7 +1609,7 @@ This method is not available on the mobile platform. If this method is run on a 
 
 |Type|Description|
 |----|-----------|
-|Array of HTML elements|The form's sections.|
+|Array of HTML elements|Form's sections.|
 
 ```
 function onChange(control, oldValue, newValue, isLoading) {
@@ -877,7 +1656,7 @@ Returns the sys\_id of the record displayed in the form.
 
 |Type|Description|
 |----|-----------|
-|String|The record's sys\_id.|
+|String|Record's sys\_id.|
 
 ```
 function onLoad() {
@@ -969,9 +1748,9 @@ type
 
 String
 
-</td><td>
+</td><td id="g_form-hideAllFieldMsgs_S-type-entry">
 
-The type of message.Valid values:
+&gt;Type of message.Valid values:
 
 -   error
 -   info
@@ -981,6 +1760,50 @@ The type of message.Valid values:
 |----|-----------|
 |void| |
 
+## GlideForm - hideAnnotation\(String name\)
+
+Hides an annotation with a given name on the form UI.
+
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
+
+-   [GlideForm - showErrorBox\(String name, String message, Boolean scrollForm\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) to display a specific annotation on the form.
+-   [GlideForm - toggleAnnotations\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) to toggle annotations on and off with greater flexibility.
+
+<table id="table_isv_1nt_rfc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the annotation to hide in the form.Table: Form Annotations \[sys\_ui\_annotation\], Field: **Name**
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+The following example demonstrates how to programmatically hide the annotation named test-annotation-msg-1 on the form field using the hideAnnotation\(\) method.
+
+```
+g_form.hideAnnotation('test-annotation-msg-1');
+```
+
 ## GlideForm - hideErrorBox\(String fieldName\)
 
 Hides the error message placed by showErrorBox\(\).
@@ -989,7 +1812,7 @@ Whenever possible, use hideFieldMsg\(\) rather than this method whenever possibl
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The name of the field or control.|
+|fieldName|String|Name of the field or control whose error message to hide.|
 
 |Type|Description|
 |----|-----------|
@@ -1029,7 +1852,7 @@ fieldName
 
 String
 
-</td><td>
+</td><td id="g_form-hideFieldMsg-fieldName-entry">
 
 Name of the field on which to hide the message.
 
@@ -1041,7 +1864,7 @@ clearAll
 
 Boolean
 
-</td><td>
+</td><td id="g_form-hideFieldMsg-clearAll-entry">
 
 Optional. Flag that indicates whether to hide all messages for the specified field.Valid values:
 
@@ -1068,6 +1891,30 @@ function submitEncryptedInputs() {
     return true;
   });
 }
+```
+
+## GlideForm - hideRelatedLinks\(\)
+
+Hides the Related Links section of a form.
+
+See also:
+
+-   [GlideForm - showRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - setRelatedLinksDisplay\(Boolean display\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example script hides related links in the current form.
+
+```
+// Hide related links
+g_form.hideRelatedLinks()
 ```
 
 ## GlideForm - hideRelatedList\(String listTableName\)
@@ -1097,6 +1944,24 @@ This method is not available on the mobile platform. If this method is run on a 
 |Type|Description|
 |----|-----------|
 |void| |
+
+## GlideForm - hideTemplateBar\(\)
+
+Hides the template bar on the form.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example script hides the Template Bar on the current form.
+
+```
+g_form.hideTemplateBar()
+```
 
 ## GlideForm - isLiveUpdating\(\)
 
@@ -1180,9 +2045,9 @@ Description
 
 Boolean
 
-</td><td>
+</td><td id="g_form-isVisible-returns-entry">
 
-Flag that indicates whether the specified field is visible on the current form.Valid values:
+Flag that indicates whether the specified field is visible on the current form.Possible values:
 
 -   true: Field is visible on the form.
 -   false: Field isn't visible on the form.
@@ -1227,11 +2092,11 @@ fn
 
 Function
 
-</td><td>
+</td><td id="g_form-onUserChangeValue-fn-entry">
 
 Function to call when a user changes the value of a field within the current form. This is actually the function code, not just the function name. This function must accept the following three arguments:
 
- -   field name
+-   field name
 -   original field value
 -   updated field value
 
@@ -1269,15 +2134,15 @@ g_form.refreshSlushbucket('bucket');
 
 ## GlideForm - removeDecoration\(String fieldname, String icon, String title\)
 
-Removes the icon from the specified field that matches the icon and title.
+Removes the icon from the specified field that matches the specified icon and title.
 
-**Note:** This method is not supported by Service Catalog.
+**Note:** This method isn't supported by Service Catalog.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Field name.|
+|fieldName|String|Field name from which to remove the decoration.|
 |icon|String|Name of the icon to remove.|
-|title|String|The icon's text title \(name\).|
+|title|String|Icon's text title \(name\).|
 
 |Type|Description|
 |----|-----------|
@@ -1303,16 +2168,16 @@ function onChange(control, oldValue, newValue, isLoading) {
 
 ## GlideForm - removeDecoration\(String fieldname, String icon, String title, String color\)
 
-Removes the icon from the specified field that matches the icon, title, and color.
+Removes the icon from the specified field that matches the specified icon, title, and color.
 
-**Note:** This method is not supported by Service Catalog.
+**Note:** This method isn't supported by Service Catalog.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Field name.|
+|fieldName|String|Field name from which to remove the decoration.|
 |icon|String|Name of the icon to remove.|
-|title|String|The icon's text title \(name\).|
-|color|String|A CSS color|
+|title|String|Icon's text title \(name\).|
+|color|String|CSS color to match.|
 
 |Type|Description|
 |----|-----------|
@@ -1324,12 +2189,12 @@ g_form.removeDecoration('caller_id', 'icon-star', 'VIP', 'blue');
 
 ## GlideForm - removeOption\(String fieldName, String choiceValue\)
 
-Removes the specified option from the choice list.
+Removes the specified option from the specified choice list.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|Name of the field.|
-|choiceValue|String|The value stored in the database. This is not the label.|
+|fieldName|String|Name of the field from which to remove the option from the choice list.|
+|choiceValue|String|Value stored in the database. This is not the label.|
 
 |Type|Description|
 |----|-----------|
@@ -1351,45 +2216,13 @@ Saves the record without navigating away \(update and stay\).
 |----|-----------|
 |void| |
 
-## GlideForm - setMandatory\(String fieldName, Boolean mandatory\)
+## GlideForm - setChoiceLabel\(String fieldName, String choiceValue, String newLabel\)
 
-Makes the specified field mandatory.
+Updates the label of a specific choice in the drop-down field.
 
-Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see [Form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_FormFields.md).
+When calling this method, the index position of the updated option in the drop-down remains unchanged. The enabled or turned off state of the option is preserved.
 
-**Note:** Whenever possible, use a UI policy rather than this method.
-
-|Name|Type|Description|
-|----|----|-----------|
-|fieldName|String|Name of the field.|
-|mandatory|Boolean|When true makes the field mandatory. When false makes the field optional.|
-
-|Type|Description|
-|----|-----------|
-|void| |
-
-## GlideForm - setSectionDisplay\(String sectionName, Boolean display\)
-
-Shows or hides a section.
-
-|Name|Type|Description|
-|----|----|-----------|
-|sectionName|String|The section name is lower case with an underscore replacing the first space in the name, and with the remaining spaces being removed, for example "Section Four is Here" becomes "section\_fourishere". Other non-alphanumeric characters, such as ampersand \(&amp;\), are removed. Section names can be found by using the getSectionNames\(\) method.|
-|display|Boolean|When true shows the section. When false hides the section.|
-
-|Type|Description|
-|----|-----------|
-|Boolean|Returns true when successful.|
-
-## GlideForm - setValue\(String fieldName, String value, String displayValue\)
-
-Sets the value of a specified form field to the value of a specified display value in a reference record.
-
-To improve performance by preventing a round trip when setting the value for a reference field, use this method, not setValue\(fieldName, value\). When setting multiple reference values for a list collector field, pass arrays in the **value** and **displayValue** parameters.
-
-**Note:** The method setValue\(\) can cause a stack overflow when used in an OnChange client script. This is because every time the value is set, it will register as a change, which may re-trigger the OnChange client script. To prevent this, perform a check that will validate that the new value will be different from the old value. For example, before performing `setValue(shortDesc, newValue.toUpperCase());`, validate that the short description is not already uppercase. This will prevent the client script from applying the toUpperCase\(\) more than once.
-
-<table id="table_oxn_vrc_5s" class="parameters"><thead><tr><th>
+<table id="table_q2s_gds_rfc" class="parameters"><thead><tr><th>
 
 Name
 
@@ -1411,143 +2244,160 @@ String
 
 </td><td>
 
-Name of the form field to update.
+Field name that contains the choice to update.Data type: String
 
 </td></tr><tr><td>
 
-value
+choiceValue
 
 </td><td>
 
-String or Array
+String
 
 </td><td>
 
-Sys\_id of the reference record to use to update the field.If the specified field is a GlideList, this parameter can contain an array of sys\_ids. In this case, the method performs a lookup of all records specified in the array and those values are used to update the contents of the specified field \(related list\).
-
-**Note:** When defining a value in a choice list, be sure to use number value rather than the label.
+Value of the choice label to update with a new label.Data type: String
 
 </td></tr><tr><td>
 
-displayValue
+newLabel
 
 </td><td>
 
-String or Array
+String
 
 </td><td>
 
-Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
-
-For additional information on display values, see [Display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DisplayValues.md).
+Label name to update the existing choice label to.Data type: String
 
 </td></tr></tbody>
-</table>|Type|Description|
-|----|-----------|
-|void| |
+</table><table id="table_fvm_xbs_rfc" class="returns"><thead><tr><th>
 
-This example shows passing the sys\_id of the reference record that contains the userName field to use to update the **assigned\_to** form field.
+Type
 
-```
-g_form.setValue('assigned_to', userSysID, userName);
-```
+</th><th>
 
-This example shows passing an array of reference record sys\_ids and an array of corresponding display value names to use to update the form fields in the GlideList **glide-list\_field\_name**.
+Description
 
-```
-g_form.setValue('glide-list_field_name', sysIDArray, displayNameArray);
-```
+</th></tr></thead><tbody><tr><td>
 
-## GlideForm - showErrorBox\(String name, String message, Boolean scrollForm\)
+Boolean
 
-Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the scrollForm parameter is true, the form scrolls to the control or field.
+</td><td>
 
-A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\). The showFieldMsg\(\) method is a similar method that requires a type parameter.
+Flag that indicates whether the option label is updated successfully.Valid values:
 
-|Name|Type|Description|
-|----|----|-----------|
-|name|String|Name of the field or control.|
-|message|String|Message to display.|
-|scrollForm|Boolean|When true scrolls the form to the field. When false the form does not scroll to the field.|
+-   true: Choice label is updated.
+-   false: Choice label isn't updated because the specified choice to update may have been read-only or does not exist, or the new label exists and is already associated with another option.
 
-|Type|Description|
-|----|-----------|
-|void| |
-
-## GlideForm - showFieldMsg\(String field, String message, String type\)
-
-Displays either an informational or error message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the form is scrolled to the field.
-
-A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\).
-
-The showErrorBox\(\) method is a shorthand method that does not require the type parameter.
-
-**Note:** This method does not work with the **journal\_field** type field in Core UI.
-
-|Name|Type|Description|
-|----|----|-----------|
-|field|String|Name of the field or control.|
-|message|String|Message to display.|
-|type|String|"error","info", or "warning".|
-
-|Type|Description|
-|----|-----------|
-|void| |
+</td></tr></tbody>
+</table>The following example calls setChoiceLabel\(\) to update the 'bonus' field choices \(10, 20, and 30\) to new values.
 
 ```
-g_form.showFieldMsg('impact','Low impact response time can be one week','info');
-```
-
-## GlideForm - showFieldMsg\(String field, String message, String type, Boolean scrollForm\)
-
-Displays either an informational or error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and scrollForm is true, the form is scrolled to the field.
-
-A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\).
-
-The showErrorBox\(\) method is a shorthand method that does not require the type parameter.
-
-**Note:** This method does not work with the **journal\_field** type field in Core UI.
-
-|Name|Type|Description|
-|----|----|-----------|
-|field|String|Name of the field or control.|
-|message|String|Message to display.|
-|type|String|"error","info", or "warning".|
-|scrollForm|Boolean|When true, the form scrolls to the field if it is off screen. When false, the form does not scroll.|
-
-|Type|Description|
-|----|-----------|
-|void| |
-
-```
-g_form.showFieldMsg('impact','Low impact not allowed with High priority','error',false);
+// Show the calculated bonus next to the percentage label
+var salary = parseInt(g_form.getValue('salary'), 10); 
+g_form.setChoiceLabel('bonus', '10', '10% ($'+ (salary * .10) +')'); 
+g_form.setChoiceLabel('bonus', '20', '20% ($'+ (salary * .20) +')'); 
+g_form.setChoiceLabel('bonus', '30', '30% ($'+ (salary * .30) +')');
 ```
 
 ## GlideForm - setDisabled\(String fieldName, Boolean disable\)
 
 Makes the specified field available or unavailable.
 
-|Name|Type|Description|
-|----|----|-----------|
-|fieldName|String|Name of the field.|
-|disable|Boolean|When true disables the field. When false enables the field.|
+<table id="table_sn2_j4c_5s" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td id="g_form-setDisabled-fieldName-entry">
+
+Name of the field to enable or turn off.
+
+</td></tr><tr><td>
+
+disable
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-setDisabled-disable-entry">
+
+Flag that indicates whether to turn off the specified field.Valid values:
+
+-   true: Turns off the field.
+-   false: Enables the field.
+
+Default: false
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 
 ## GlideForm - setDisplay\(String fieldName, Boolean display\)
 
-Displays or hides a field.
+Displays or hides a specified field on the form.
 
-This method cannot hide a mandatory field with no value. If the field is hidden, the space is used to display other items. Whenever possible, use a UI policy instead of this method.
+This method can't hide a mandatory field with no value. If the field is hidden, the space is used to display other items. Whenever possible, use a UI policy instead of this method.
 
-|Name|Type|Description|
-|----|----|-----------|
-|fieldname|String|Name of the field.|
-|display|Boolean|When true displays the field, when false hides the field.|
+<table id="table_k4d_ctw_ts" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td id="g_form-setDisplay-fieldName-entry">
+
+Name of the field.
+
+</td></tr><tr><td>
+
+display
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-setDisplay-display-entry">
+
+Flag that indicates whether to display the specified field.Valid values:
+
+-   true: Display the field.
+-   false: Hide the field.
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 
@@ -1567,14 +2417,14 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 
 ## GlideForm - setLabelOf\(String fieldName, String label\)
 
-Sets the plain text value of the field label.
+Sets the plain text value of the specified field label.
 
 **Note:** This method is not supported by Service Catalog.
 
 |Name|Type|Description|
 |----|----|-----------|
-|fieldName|String|The field name.|
-|label|String|The field text label.|
+|fieldName|String|Name of the field for which to set the label.|
+|label|String|Plain text value to set in the label.|
 
 |Type|Description|
 |----|-----------|
@@ -1587,6 +2437,60 @@ if (g_user.hasRole('itil')) {
 }
 ```
 
+## GlideForm - setMandatory\(String fieldName, Boolean mandatory\)
+
+Makes the specified field mandatory.
+
+Mandatory fields are visually distinguished by an asterisk next to the field label. The asterisk is red if the field is empty, and black if the field is not empty. The system displays a validation message if a user attempts to save or submit the form without completing those fields. For more information, see [Form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_FormFields.md).
+
+**Note:** Whenever possible, use a UI policy rather than this method.
+
+<table id="table_xnx_z4c_5s" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td id="g_form-setMandatory-fieldName-entry">
+
+Name of the field to make mandatory.
+
+</td></tr><tr><td>
+
+mandatory
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-setMandatory-mandatory-entry">
+
+Flag that indicates whether the field is mandatory.Valid values:
+
+-   true: Field is mandatory.
+-   false: Field is optional.
+
+Default: false
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|void| |
+
 ## GlideForm - setReadOnly\(String fieldName, Boolean readOnly\)
 
 Makes the specified field read-only or editable.
@@ -1595,7 +2499,7 @@ Whenever possible, use a UI policy instead of this method.
 
 To make a mandatory field read-only, you must first remove the mandatory requirement for that field by using the setMandatory\(\) method.
 
-Once you set a field to read-only, you cannot use the [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) method to update the value of that field. If you need to set the value in this way, you must set the readOnly value to false.
+Once you set a field to read-only, you cannot use the [setValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) method to update the value of that field. If you need to set the value in this way, you must set the **readOnly** value to `false.`
 
 <table id="table_xdf_qpc_5s" class="parameters"><thead><tr><th>
 
@@ -1617,9 +2521,9 @@ fieldName
 
 String
 
-</td><td>
+</td><td id="g_form-setReadOnly-fieldName-entry">
 
-Name of the field.
+Name of the field whose access value to set.
 
 </td></tr><tr><td>
 
@@ -1629,17 +2533,17 @@ readOnly
 
 Boolean
 
-</td><td>
+</td><td id="g_form-setReadOnly-readOnly-entry">
 
-Flag that determines whether the associate field is editable or read-only.Possible values:
+Flag that determines whether the associate field is editable or read-only.Valid values:
 
--   true: Set field to read-only
--   false: Set field to be editable
+-   true: Set field to read-only.
+-   false: Set field to be editable.
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|None| |
+|void| |
 
 The following example shows how set the Variable Editor to read only. To do this in Service Catalog tables, use setVariablesReadOnly\(\).
 
@@ -1655,15 +2559,114 @@ function onLoad() {
 }
 ```
 
-## GlideForm - setValue\(String fieldName, String value\)
+## GlideForm - setRelatedLinksDisplay\(Boolean display\)
 
-Sets the value of a specified form field to the passed in value.
+Show or hide the Related Links section in the form UI using Boolean values.
 
-This method also supports setting values in a multi-row variable set \(MRVS\). You must first use `JSON.parse(getValue('<mrvs_field_name>'))` to obtain the MRVS array and then use indexing to update the fields within the row objects. Once all values are updated in the MRVS, use the setValue\(\) method to save the updated MRVS array. For more details, see the code example below.
+[GlideForm - hideRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) hides related link UI Actions on the form, while [GlideForm - showRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) shows them. The g\_form.setRelatedLinksDisplay\(boolean: display\) method, however, can be used to either show or hide related links with more flexibility in your scripts.
 
-**Note:** The method setValue\(\) can cause a stack overflow when used in an OnChange client script. This is because every time the value is set, it will register as a change, which may re-trigger the OnChange client script. To prevent this, perform a check that will validate that the new value will be different from the old value. For example, before performing `setValue(shortDesc, newValue.toUpperCase());`, validate that the short description is not already uppercase. This will prevent the client script from applying the toUpperCase\(\) more than once.
+<table id="table_ebq_t1t_rfc" class="parameters"><thead><tr><th>
 
-<table id="table_bqz_pqc_5s" class="parameters"><thead><tr><th>
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+display
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether to show or hide the Related Links section of a form.Valid values:
+
+-   true: Displays related links in the form.
+-   false: Hides related links in the form.
+
+Default: true
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+The following example demonstrates how to show or hide the Related Links section in a form.
+
+```
+// Displays the Related Links section in the UI
+g_form.setRelatedLinksDisplay(true);
+// Hides the Related Links section in the UI
+g_form.setRelatedLinksDisplay(false);
+```
+
+## GlideForm - setSectionDisplay\(String sectionName, Boolean display\)
+
+Shows or hides a specified section in the form.
+
+<table id="table_pqq_qqd_5s" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sectionName
+
+</td><td>
+
+String
+
+</td><td id="g_form-setSectionDisplay-sectionName-entry">
+
+Section name is lower case with an underscore replacing the first space in the name, and with the remaining spaces being removed. For example, "Section Four is Here" becomes "section\_fourishere". Other non-alphanumeric characters, such as ampersands \(&amp;\), are removed. Section names can be found by using the getSectionNames\(\) method.
+
+</td></tr><tr><td>
+
+display
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-setSectionDisplay-display-entry">
+
+Flag that indicates whether to show the section.Valid values:
+
+-   true: Show the section.
+-   false: Hide the section.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|Boolean|Returns true when successful.|
+
+## GlideForm - setValue\(String fieldName, String value, String displayValue\)
+
+Sets the value of a specified form field to the specified value or the value of a specified display value in a reference record.
+
+To improve performance by preventing a round trip when setting the value for a reference field, use this method, not setValue\(fieldName, value\). When setting multiple reference values for a list collector field, pass arrays in the **value** and **displayValue** parameters.
+
+**Note:** This method can't be used to update fields set to strict read only. If this method is called on strict read only fields, the field isn't updated and a warning is logged in the browser console. For more information, see .
+
+**Note:** The method setValue\(\) can cause a stack overflow when used in an `onchange` client script. This is because every time the value is set, it will register as a change, which may re-trigger the OnChange client script. To prevent this, perform a check that will validate that the new value will be different from the old value. For example, before performing `setValue(shortDesc, newValue.toUpperCase());`, validate that the short description is not already uppercase. This will prevent the client script from applying the toUpperCase\(\) more than once.
+
+<table id="table_oxn_vrc_5s" class="parameters"><thead><tr><th>
 
 Name
 
@@ -1683,7 +2686,7 @@ fieldName
 
 String
 
-</td><td>
+</td><td id="g_form-setValue-fieldName-entry">
 
 Name of the form field to update.
 
@@ -1693,45 +2696,43 @@ value
 
 </td><td>
 
-String
+String or Array
+
+</td><td id="g_form-setValue-value-entry">
+
+Sys\_id of the reference record to use to update the field.If the specified field is a GlideList, this parameter can contain an array of sys\_ids. In this case, the method performs a lookup of all records specified in the array and those values are used to update the contents of the specified field \(related list\).
+
+**Note:** When defining a value in a choice list, be sure to use a number value rather than the label.
+
+</td></tr><tr><td>
+
+displayValue
 
 </td><td>
 
-String value to set in the specified field.**Note:** When defining a value in a choice list, be sure to use the number value rather than the label.
+String or Array
+
+</td><td id="g_form-setValue-displayValue-entry">
+
+Field within the specified reference record to use to update the specified field. For example, in the User \[sys\_user\] table it might be userName.If the specified field is a GlideList, this parameter can contain an array of display value names.
+
+For additional information on display values, see [Display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DisplayValues.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
 |void| |
 
-The following example shows how to set the short description in the current form.
+This example shows passing the sys\_id of the reference record that contains the userName field to use to update the **assigned\_to** form field.
 
 ```
-g_form.setValue('short_description', 'replace this with appropriate text');
+g_form.setValue('assigned_to', userSysID, userName);
 ```
 
-The following example shows how to set values in an MRVS. In this example, salaries are being managed through the Service Catalog. The client script searches all rows within the MRVS for the value entered in the **Job title** and then updates the matching entries within the MRVS with what is entered in the **Salary** field. The MRVS is named "variable\_set\_1" and contains the following fields within each row object: Employee name \[employee\_name\], Job title \[employee\_job\_title\], and Salary \[employee\_salary\]. In addition, the Catalog Item contains: Job title \[job\_title\] and Salary \[salary\].
+This example shows passing an array of reference record sys\_ids and an array of corresponding display value names to use to update the form fields in the GlideList **glide-list\_field\_name**.
 
 ```
-function onChange(control, oldValue, newValue, isLoading) {
-if (isLoading || newValue == '') {
-return;
-}
-
-// Get the MRVS
-var multiRowVariableSet = JSON.parse(g_form.getValue('variable_set_1'));
-
-for (var i = 0; i < multiRowVariableSet.length; i++) {
-// Check if the entered job title matches the title in the current MRVS row
-  if (multiRowVariableSet[i].employee_job_title == g_form.getValue("job_title")){
-    // Update the value of a matching field with the new salary
-    multiRowVariableSet[i].employee_salary = newValue;
-  }
-}
-
-// Update the MRVS
-g_form.setValue('variable_set_1', JSON.stringify(multiRowVariableSet));
-}
+g_form.setValue('glide-list_field_name', sysIDArray, displayNameArray);
 ```
 
 ## GlideForm - setVariablesReadOnly\(Boolean isReadOnly\)
@@ -1764,19 +2765,19 @@ isReadOnly
 
 Boolean
 
-</td><td>
+</td><td id="g_form-setVariablesReadOnly-isReadOnly-entry">
 
-Flag that determines whether the variable editor is read only.Possible values:
+Flag that determines whether the variable editor is read only.Valid values:
 
 -   true: Sets the variable editor as read-only.
 -   false: Sets the variable editor as editable.
 
- Default: false
+Default: false
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|None| |
+|void| |
 
 Adding the following line to a client script sets the variable editor to read only.
 
@@ -1786,18 +2787,53 @@ g_form.setVariablesReadOnly(true);
 
 ## GlideForm - setVisible\(String fieldName, Boolean display\)
 
-Displays or hides the field.
+Displays or hides the specified field.
 
-On desktop UI, the space is left blank when hidden. On Mobile or Service Portal UI, the space is filled in my other fields when hidden. This method cannot hide mandatory fields with no value.
+On desktop UI, the space is left blank when hidden. On Mobile or Service Portal UI, the space is filled in my other fields when hidden. This method can't hide mandatory fields with no value.
 
 Use UI Policy rather than this method whenever possible.
 
-|Name|Type|Description|
-|----|----|-----------|
-|fieldName|String|The field name.|
-|display|Boolean|When true displays the field. When false hides the field.|
+<table id="table_k24_45w_ts" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+fieldName
+
+</td><td>
+
+String
+
+</td><td id="g_form-setVisible-fieldName-entry">
+
+Name of the field to display or hide.
+
+</td></tr><tr><td>
+
+display
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-setVisible-display-entry">
+
+Flag that indicates whether to display the specified field.Valid values:
+
+-   true: Display the field.
+-   false: Hide the field.
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 
@@ -1815,30 +2851,321 @@ function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    }
 ```
 
+## GlideForm - showAnnotation\(String name\)
+
+Shows an annotation with a given name on the form UI.
+
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. See also:
+
+-   [GlideForm - hideAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) to hide a specific annotation on the form.
+-   [GlideForm - toggleAnnotations\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md) to toggle annotations on and off with greater flexibility.
+
+<table id="table_isv_1nt_rfc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the annotation to show in the form.Table: Form Annotations \[sys\_ui\_annotation\], Field: **Name**
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+The following example demonstrates how to programmatically show the annotation named test-annotation-msg on the form field using the showAnnotation\(\) method.
+
+```
+g_form.showAnnotation('test-annotation-msg');
+```
+
+## GlideForm - showErrorBox\(String name, String message, Boolean scrollForm\)
+
+Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and the **scrollForm** parameter is true, the form scrolls to the control or field.
+
+A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\). The showFieldMsg\(\) method is a similar method that requires a type parameter.
+
+<table id="table_lyr_dww_ts" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td id="g_form-showErrorBox-name-entry">
+
+Name of the field or control under which to display the error message.
+
+</td></tr><tr><td>
+
+message
+
+</td><td>
+
+String
+
+</td><td id="g_form-showErrorBox-message-entry">
+
+Error message to display.
+
+</td></tr><tr><td>
+
+scrollForm
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-showErrorBox-scrollForm-entry">
+
+Flag that indicates whether to automatically scroll the form to the error message field.Valid values:
+
+-   true: Scroll to the error message field.
+-   false: Don't scroll to the error message field.
+
+Default: true
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|void| |
+
 ## GlideForm - showErrorBox\(String name, String message\)
 
-Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form scrolls to the control or field.
+Displays an error message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen, the form automatically scrolls to the control or field.
 
 A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\). The showFieldMsg\(\) method is a similar method that requires a type parameter.
 
 |Name|Type|Description|
 |----|----|-----------|
-|name|String|The name of the control or field.|
-|message|String|The message to be displayed.|
+|name|String|Name of the field or control under which to display the error message.|
+|message|String|Error message to display.|
 
 |Type|Description|
 |----|-----------|
 |void| |
 
+## GlideForm - showFieldMsg\(String field, String message, String type\)
+
+Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is off the screen, the method automatically scrolls the form to that field.
+
+A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\).
+
+The showErrorBox\(\) method is a shorthand method that does not require the type parameter.
+
+**Note:** This method does not work with the **journal\_field** type field in Core UI.
+
+<table id="table_u3z_hxw_ts" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+field
+
+</td><td>
+
+String
+
+</td><td id="g_form-showFieldMsg-field-entry">
+
+Name of the field or control under which to display the message.
+
+</td></tr><tr><td>
+
+message
+
+</td><td>
+
+String
+
+</td><td id="g_form-showFieldMsg-message-entry">
+
+Message to display.
+
+</td></tr><tr><td>
+
+type
+
+</td><td>
+
+String
+
+</td><td id="g_form-showFieldMsg-type-entry">
+
+Type of message.Valid values:
+
+-   error
+-   info
+-   warning
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|void| |
+
+```
+g_form.showFieldMsg('impact','Low impact response time can be one week','info');
+```
+
+## GlideForm - showFieldMsg\(String field, String message, String type, Boolean scrollForm\)
+
+Displays a message under the specified form field \(either a control object or the name of the field\). If the control or field is currently off the screen and **scrollForm** is `true`, the method scrolls the form to that field.
+
+A global property \(glide.ui.scroll\_to\_message\_field\) is available that controls automatic message scrolling when the form field is off screen \(scrolls the form to the control or field\).
+
+The showErrorBox\(\) method is a shorthand method that does not require the type parameter.
+
+**Note:** This method does not work with the **journal\_field** type field in Core UI.
+
+<table id="table_wmr_gyw_ts" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+field
+
+</td><td>
+
+String
+
+</td><td id="g_form-showFieldMsg-field-entry">
+
+Name of the field or control under which to display the message.
+
+</td></tr><tr><td>
+
+message
+
+</td><td>
+
+String
+
+</td><td id="g_form-showFieldMsg-message-entry">
+
+Message to display.
+
+</td></tr><tr><td>
+
+type
+
+</td><td>
+
+String
+
+</td><td id="g_form-showFieldMsg-type-entry">
+
+Type of message.Valid values:
+
+-   error
+-   info
+-   warning
+
+</td></tr><tr><td>
+
+scrollForm
+
+</td><td>
+
+Boolean
+
+</td><td id="g_form-showFieldMsg-scrollForm-entry">
+
+Flag that indicates whether to automatically scroll the form to the message field.Valid values:
+
+-   true: Scroll to the message field.
+-   false: Don't scroll to the message field.
+
+Default: true
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|void| |
+
+```
+g_form.showFieldMsg('impact','Low impact not allowed with High priority','error',false);
+```
+
+## GlideForm - showRelatedLinks\(\)
+
+Displays the Related Links section of a form.
+
+See also:
+
+-   [GlideForm - hideRelatedLinks\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - setRelatedLinksDisplay\(Boolean display\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example displays related links in the form UI.
+
+```
+// Show related links
+g_form.showRelatedLinks()
+```
+
 ## GlideForm - showRelatedList\(String listTableName\)
 
 Displays the specified related list on the form.
 
-This method is not available on the mobile platform. If this method is run on a mobile platform, no action occurs.
+This method isn't available on the mobile platform. If this method is run on a mobile platform, no action occurs.
 
 |Name|Type|Description|
 |----|----|-----------|
-|listTableName|String|Name of the related list.|
+|listTableName|String|Name of the related list to display.|
 
 |Type|Description|
 |----|-----------|
@@ -1848,7 +3175,7 @@ This method is not available on the mobile platform. If this method is run on a 
 
 Displays all the form's related lists.
 
-This method is not available on the mobile platform. If this method is run on a mobile platform, no action occurs.
+This method isn't available on the mobile platform. If this method is run on a mobile platform, no action occurs.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1857,6 +3184,24 @@ This method is not available on the mobile platform. If this method is run on a 
 |Type|Description|
 |----|-----------|
 |void| |
+
+## GlideForm - showTemplateBar\(\)
+
+If hidden, shows the template bar at the bottom of the form.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example script displays the Template Bar at the bottom of the current form.
+
+```
+g_form.showTemplateBar()
+```
 
 ## GlideForm - submit\(\)
 
@@ -1874,7 +3219,7 @@ The user is taken away from the form, returning them to where they were.
 
 ## GlideForm - submit\(String verb\)
 
-Performs the UI action specified by the parameter.
+Performs the specified UI action.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -1883,4 +3228,29 @@ Performs the UI action specified by the parameter.
 |Type|Description|
 |----|-----------|
 |void| |
+
+## GlideForm - toggleAnnotations\(\)
+
+Hides or shows all annotations on the form.
+
+[Annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) are visual separators between form elements, or blocks of colored text used to highlight form elements. If annotations are visible on the form, calling toggleAnnotations\(\) hides them. Similarly if annotations are hidden on the form, calling this method displays them.
+
+See also:
+
+-   [GlideForm - hideAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+-   [GlideForm - showAnnotation\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to call toggleAnnotations\(\) to show or hide form annotations. As a result, annotations are hidden or shown depending on their previous state.
+
+```
+g_form.toggleAnnotations();
+```
 

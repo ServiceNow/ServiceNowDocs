@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Field Service Capacity and Reservations Management, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
 # Create a capacity assignment override
@@ -18,7 +18,7 @@ Override the default capacity assignment rules to accommodate changes in the pla
 
 ## Before you begin
 
-Role required: wm\_admin, wm\_manager, and wm\_internal\_contractor\_manager
+Role required: sn\_fsm\_tp.fsm\_territory\_manager, wm\_manager, sn\_fsm\_capacity\_mg.wm\_capacity\_write, sn\_fsm\_tp.fsm\_territory\_planner, wm\_admin, wm\_contractor\_manager\_int
 
 ## About this task
 

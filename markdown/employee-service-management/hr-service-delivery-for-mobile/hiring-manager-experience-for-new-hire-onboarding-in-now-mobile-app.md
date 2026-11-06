@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery for mobile, HR Service Delivery, Employee Service Management]
 ---
@@ -29,5 +29,5 @@ Onboarding cases that are shown in the Track new hires section do not appear und
 
 To learn more about new hire onboarding and lifecycle events, see [Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md).
 
-**Parent Topic:**[HR Service Delivery for mobile]()
+**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md)
 

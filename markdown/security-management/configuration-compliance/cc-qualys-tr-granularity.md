@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Qualys, Integrate, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
@@ -33,6 +33,8 @@ Role required:
 3.  In the **Configuration Key** section, choose the field for which you want to create unique test results.
 
     For example, selecting **instance** creates unique test results for each instance within a database.
+
+    **Note:** Use this feature with caution. Each additional configuration key increases integration time. To maintain optimal performance, limit your use to no more than three extra keys.
 
 4.  Enter true next to **instance** to enable granularity, or false to disable it.
 

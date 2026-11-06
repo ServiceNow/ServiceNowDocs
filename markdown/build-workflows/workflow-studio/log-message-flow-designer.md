@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workflow Studio actions, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Log action
@@ -20,7 +20,7 @@ Logs a message in the Workflow Studio log table sys\_flow\_log.
 
 Available as a Workflow Studio ServiceNow core action. Users with the flow\_designer or admin role can add an action to a flow and define configuration details.
 
-You can view the logs in the flow execution details. To learn more, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-execution-details.md) and [Workflow Studio data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/data-population.md).
+You can view the logs in the flow execution details. To learn more, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-execution-details.md) and [Data pills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/data-population.md).
 
 ## Fields
 

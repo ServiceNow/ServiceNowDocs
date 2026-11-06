@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring EMR Help, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Customize the URL and REST API task parameters for EMR systems

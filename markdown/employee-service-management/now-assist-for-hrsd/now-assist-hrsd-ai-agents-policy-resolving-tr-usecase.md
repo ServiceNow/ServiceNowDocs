@@ -1,13 +1,13 @@
 ---
 title: Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
-description: Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
+description: The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies. It helps employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
@@ -15,11 +15,13 @@ breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HR
 
 # Help resolve tuition requests agentic workflow for ServiceNow Otto for HRSD
 
-Use the Help resolve tuition requests agentic workflow for faster mean time to repair \(MTTR\) cases that require validation based on policies that are built for tuition reimbursement.
+The Help resolve tuition requests agentic workflow evaluates employee-submitted course information against company tuition policies. It helps employees understand whether their proposed course meets reimbursement requirements and directs them through the pre-approval flow.
 
 ## Help resolve tuition requests overview
 
-The Help resolve tuition requests agentic workflow can help to collect requested information, check all the policy content, and evaluate the information to resolve a case.
+The Help resolve tuition requests agentic workflow streamlines the tuition pre-approval process by evaluating the course information an employee submits against company policies found in knowledge articles.
+
+**Note:** This agentic workflow is designed for employees to receive pre-approval before enrolling in a course. The [Help resolve tuition requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/resolve-tuition-reimbursement-requests.md) agentic workflow helps employees request reimbursement for pre-approved and completed courses.
 
 To access the agentic workflow:
 
@@ -29,7 +31,7 @@ To access the agentic workflow:
     The Define key requirements workflow is displayed. For more information, see [Help resolve tuition requests AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
 
 3.  Select **Add a preferred trigger** to review the trigger factors for this agentic workflow. For more information, see [Triggers for the Help resolve tuition requests agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
-4.  The **Select a UI display** option enables the Now Assist panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
+4.  The **Select a UI display** option enables the ServiceNow Otto panel. For more information, see [Select display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-policy-resolving-tr-usecase.md).
 
 ## Help resolve tuition requests AI agents
 
@@ -52,11 +54,9 @@ In the Help resolve tuition requests workflow, the agentic workflow begins execu
 
 ## Select display
 
-In the **Select a UI display** workflow, you can enable the Now Assist panel display, which sends notifications to HR agents for the triggered case. When the Now Assist panel option is enabled, the AI agent output or notifications are displayed in the Now Assist panel.
+In the **Select a UI display** workflow, you can enable the ServiceNow Otto panel display, which sends notifications to HR agents for the triggered case. When the ServiceNow Otto panel option is enabled, the AI agent output or notifications are displayed in the ServiceNow Otto panel.
 
-Select this option to receive and review notifications by AI agents in the Now Assist panel. AI agents notify HR agents in the Now Assist panel with the case resolution and summarization notes.
-
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+Select this option to receive and review notifications by AI agents in the ServiceNow Otto panel. AI agents notify HR agents in the ServiceNow Otto panel with the case resolution and summarization notes.
 
 **Related topics**  
 

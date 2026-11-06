@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_ConfigureE.164PhoneNumberFields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Phone number field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Phone number field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # E.164 phone number field configuration
@@ -22,13 +22,9 @@ The system properties apply the configuration option to all phone number fields 
 
 By default, phone number fields require that a phone number match the display format of the selected territory.
 
-By default, phone number fields require that a phone number match the display format of the selected territory. If a phone number does not match this format, the input box displays a red line underneath the phone number or the whole box turns red, and users are prevented from saving it.
-
-\[Omitted image "PhoneE164Strict.png"\] Alt text:
+By default, phone number fields require that a phone number match the display format of the selected territory. If a phone number does not match this format, users are prevented from saving it.
 
 Setting the **glide.phone\_number\_e164.strict** system property to **false** or adding the **pn\_strict** dictionary attribute allows the phone number input box to display a green line underneath numbers that do not match the territory format listed for the selected territory or the whole box turns green. You can use the **Other / Unknown** territory to store otherwise invalid phone numbers.
-
-\[Omitted image "PhoneE164NoStrict.png"\] Alt text:
 
 **Warning:** Switching from optional territory format validation to required territory format validation may result in some phone numbers failing validation altogether. In such cases, the E.164 phone number field displays an error message.
 
@@ -38,17 +34,11 @@ By default, users can enter phone numbers in their territory's local format and 
 
 The phone number field automatically formats local phone numbers into E.164-compliant international phone numbers when the user finishes editing the field. As long as the phone number entered matches the territory's format for a local number, users can save the phone number.
 
-\[Omitted image "PhoneE164EntryLocal.png"\] Alt text:
-
-\[Omitted image "PhoneE164DisplayInternational.png"\] Alt text:
-
 Changing the **glide.phone\_number\_e164.allow\_national\_entry** system property or adding the **pn\_allow\_national\_entry** dictionary attribute requires users to enter a phone number in the territory's international format, which starts with the plus \(+\) character. Users cannot save a locally formatted phone number, and the phone number input box displays a red line underneath phone numbers without the proper international formatting.
 
 ## Configure the display of the local format
 
 By default, an E.164 phone number field always displays phone numbers in an international format.
-
-\[Omitted image "PhoneE164DisplayInternational.png"\] Alt text: North American phone number displaying in local format.
 
 Change the E.164 phone number to use the local format in certain circumstances by [adding the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md):
 
@@ -103,8 +93,6 @@ Overrides the **glide.phone\_number\_e164.display\_national** property setting f
 A property controls how territory labels are displayed.
 
 You can display territory labels next to the number in an E.164 phone number field by setting the system property or adding the dictionary attribute. This display is useful if the territory selector choice list is turned off and you want the user to see the territory for the entered phone number.
-
-\[Omitted image "E164PhoneDisplayTerritoryLabels.png"\] Alt text: Phone display with the phone number +44 01733 753363 and the territory label United Kingdom.
 
 Enabling territory labels also displays the phone territory in lists.
 
@@ -163,8 +151,6 @@ A property is available to control the display of prefixes.
 
 You can enable the display of the international direct dialing prefix, which appears between the territory selector choice list and the input box for an E.164 phone number field on forms, by setting the system property or adding the dictionary attribute.
 
-\[Omitted image "E164PhoneDisplayIdd.png"\] Alt text: Phone display with the international direct dialing prefix before the phone number field
-
 [Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to display the international direct dialing prefix.
 
 <table id="simpletable_xsy_m3x_vz"><thead><tr><th>
@@ -211,8 +197,6 @@ Overrides the **glide.phone\_number\_e164.display\_users\_idd** property that de
 By default, an E.164 phone number field always displays the phone territory that is associated with the phone number.
 
 Changing the system property or adding the dictionary attribute hides the territory selector choice list. If the territory selector choice list is hidden, users can only enter a local or national number.
-
-\[Omitted image "PhoneE164HideSelector.png"\] Alt text: Number field with no selector displayed.
 
 [Add the following system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to show or hide the territory selector choice list.
 

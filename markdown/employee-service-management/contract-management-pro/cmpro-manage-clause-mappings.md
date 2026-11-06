@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing skills for Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Update clause mappings, Modify clause mappings, Edit clause mappings, Delete clause mappings, Deactivate clause mappings]
+breadcrumb: [Manage AI skills, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage clause mappings for contract analysis
@@ -22,11 +23,11 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the **Contract analysis** tile, select **Edit** in the options menu \(\[Omitted image "cmpro-na-three-dot-icon.png"\] Alt text: Options menu icon.\).
+3.  On the **Contract analysis** tile, select **Edit Configuration**.
 
     \[Omitted image "cmpro-na-active-skills.png"\] Alt text: Active skills in Contract management pro.
 
@@ -52,21 +53,23 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
         Delete a clause mapping when it is no longer required for the skill.
 
-6.  In the Clause mappings page, select **Save and continue**.
 
-7.  In the Review and activate page, select **Done**.
+## Result
 
+AI uses the updated clause mappings to display suggestions for non-standard or missing clauses in a contract document.
 
-**Parent Topic:**[Managing skills for Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-manage-na-skills.md)
+**Parent Topic:**[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)
 
 **Related topics**  
 
 
-[Manage use cases for Now Assist in Contract Management]()
+[Manage use cases for ServiceNow Otto for Contract Management Pro]()
 
-[Manage use case mappings for Now Assist in Contract Management]()
+[Manage use case mappings for ServiceNow Otto for Contract Management Pro]()
 
 [Manage expected response mappings for contract analysis]()
 
-[Deactivate skills for Now Assist in Contract Management]()
+[Deactivate skills for ServiceNow Otto for Contract Management Pro]()
+
+[Map a field group to a clause](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.md)
 

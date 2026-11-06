@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Connect to a third-party OAuth provider
@@ -18,7 +18,7 @@ Configure how the client ID and secret are sent to your OAuth provider.
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 ## Procedure
 
@@ -209,15 +209,21 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **Iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-type.md).
+To know more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
-</table>3.  Go to the related list on the record OAuth Entity Profiles to validate a system-generated default profile for the new OAuth provider without any scope.
+</table>    The system creates a record in the Application Registries \[oauth\_entity\] table with type OAuth Provider.
+
+3.  Select OAuth Entity Profiles to validate a system-generated default profile for the new OAuth provider without any scope.
 
     You can change or add an OAuth provider profile including the name, grant type, and OAuth Scope.
 
-4.  Go to the related list on the record OAuth Entity Scopes to define all available OAuth scopes for this OAuth provider.
+4.  Select OAuth Entity Scopes to define all available OAuth scopes for this OAuth provider.
 
     You can select the scopes when you create or update a profile. Each OAuth scope contains a name and a scope that you must get from the provider's specification, such as a read scope or a write scope. Each scope must be defined separately.
+
+5.  Select OAuth Entity Resources to define all OAuth resources this OAuth provider.
+
+6.  Select **Submit**.
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/restricted-caller-access-privilege.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Restricted caller access privilege settings
@@ -33,7 +33,9 @@ For more information, see [Requested restricted caller access \(RCA\)](https://r
 
 ## Restricted caller access privilege setting combinations
 
-You can define various combinations of privilege settings for restricted caller access and specify whether access is allowed or restricted for each relationship. This process ensures that your application has the privileges to access the correct scope and not one you don't want to access. You can define various combinations of the following settings:
+As a target application owner, you can define various combinations of privilege settings for restricted caller access and specify whether access is allowed or denied for each relationship. RCA records must be created in the target application scope to control access to your application's resources. You can define various combinations of privilege settings for restricted caller access and specify whether access is allowed or restricted for each relationship.
+
+You can define various combinations of the following settings:
 
 -   **Scope**
 
@@ -41,21 +43,25 @@ You can define various combinations of privilege settings for restricted caller 
 
 -   **Source**
 
-    A specific application resource in a selected source scope.
+    A specific application resource \(such as a business rule, script include, or table\) in a selected source scope.
 
 -   **Target**
 
     A specific application resource in a selected target scope.
 
 
-These restricted caller access privilege settings combinations include, but are not limited to following combinations:
+These restricted caller access privilege settings combinations include, but are not limited to, the following combinations:
 
--   Scope-to-scope
--   Scope-to-target
--   Source-to-scope
--   Source-to-target
+-   Scope-to-scope: Control access from all resources in a source application to all resources in your target application
+-   Scope-to-target: Control access from all resources in a source application to a specific resource in your target application
+-   Source-to-scope: Control access from a specific source application resource to all resources in your target application
+-   Source-to-target: Control access from a specific source application resource to a specific resource in your target application
 
-**Note:** For more information about these access setting combinations and to learn how to create each combination, see [Set the application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scope-resource-access.md).
+For more information about these access setting combinations and to learn how to create each combination, see [Set the application scope, application resource, and event access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scope-resource-access.md).
+
+**Note:**
+
+Source application developers who need to request access to resources in another application should coordinate with the target application owner. You can package Requested RCA records in your application, which will then be reviewed and approved or denied by the target application administrator upon installation.
 
 ## Activating application restricted caller access
 

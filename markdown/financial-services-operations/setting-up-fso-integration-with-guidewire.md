@@ -1,16 +1,16 @@
 ---
-title: Setting up the Financial Services Operations Integration with Guidewire
+title: Set upFinancial Services Operations Integration with Guidewire
 description: You can integrate a ServiceNow instance with your Guidewire account so that you can access policy and claims information in the insurance core system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/setting-up-fso-integration-with-guidewire.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Guidewire, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Guidewire, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Setting up the Financial Services Operations Integration with Guidewire
+# Set upFinancial Services Operations Integration with Guidewire
 
 You can integrate a ServiceNow instance with your Guidewire account so that you can access policy and claims information in the insurance core system.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Create a scrum task for Agile Development 2.0 stories
@@ -167,5 +167,5 @@ Notes to indicate progress on the scrum task or issues blocking it.
 -   **[Create multiple scrum tasks for stories in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/create-multiple-scrum-tasks.md)**  
 For your Agile Development 2.0 stories, create batches of different types of scrum tasks at a time, to save time.
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
 

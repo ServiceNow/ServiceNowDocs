@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Close a work order task as incomplete
@@ -98,6 +98,4 @@ All follow-on tasks generated from any of the work order tasks are in **Closed C
 
     Condition = current.sys\_class\_name != 'wm\_task' &amp;&amp; current.sys\_class\_name != 'wm\_order'.
 
-
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

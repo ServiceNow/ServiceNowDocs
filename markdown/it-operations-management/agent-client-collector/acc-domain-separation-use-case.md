@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Domain separation and Agent Client Collector, Exploring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Domain separation and ACC, Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Use case: Data isolation and monitoring with domain separation
@@ -40,6 +40,4 @@ In a large financial institution, departments like IT, Finance, Compliance, and 
 -   Operational efficiency: Departments operate independently, managing configurations and monitoring without conflicts.
 -   Regulatory compliance: Easier adherence to data privacy regulations \(GDPR, SOX\) due to secure data segregation.
 -   Reduced data corruption: Isolated environments prevent unintended cross-departmental impacts, enhancing system stability.
-
-**Parent Topic:**[Domain separation and Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/domain-separation-agent-client-collector.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/pcso-event-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive Customer Service Operations, Configure Proactive Customer Service Operations, Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Proactive Customer Service Operations, Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Integration with Event Management

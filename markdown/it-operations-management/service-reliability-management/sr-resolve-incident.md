@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Resolve an SRM incident
@@ -18,7 +18,7 @@ Resolve an incident, if you need it reviewed, or you think it has already been h
 
 ## Before you begin
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## Procedure
 
@@ -34,15 +34,15 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d86712e104">
+<table id="choicetable_llb_1fq_vyb"><thead><tr><th align="left" id="d466159e104">
 
 Option
 
-</th><th align="left" id="d86712e107">
+</th><th align="left" id="d466159e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d86712e113">
+</th></tr></thead><tbody><tr><td id="d466159e113">
 
 **In the incident list view**
 
@@ -50,9 +50,9 @@ Steps
 
 1.  Double-click the **State** field \(or use the keyboard shortcut\) for the incident and select from the list menu.
 2.  Select **OK**.
+ **Tip:** If you have the srm\_admin role, you can update multiple incidents at once. First, select the relevant incidents and select **Edit**. Then use the **State** drop-down to choose the appropriate value and select **Update**.
 
-
-</td></tr><tr><td id="d86712e137">
+</td></tr><tr><td id="d466159e149">
 
 **In the incident form**
 
@@ -65,7 +65,7 @@ Steps
 </td></tr></tbody>
 </table>    For value choices, see [SRM incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-incidents-workspace.md).
 
-    The new state is displayed in the incident list view and incident form and form header.
+    The new state is displayed in the incident list view, incident form, and form header.
 
 
 ## Result
@@ -76,5 +76,5 @@ Resolved incidents remain in the Incidents list view. Check your filters if you 
 
 When you resolve an incident, the related alerts remain open until you close the incident.
 
-**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcm-approval-configuration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [General administration setup for BCM, Configure, Business Continuit
 
 Approver configurator provides you with capabilities to define multiple levels of approvals based on business rule definitions.
 
-To set up multiple levels of approvals in your business impact analysis and business plans, you must configure the following setup steps:
+To set up multiple levels of approvals in your business impact analysis and business plans, you must configure these setup steps:
 
 -   Set up approval configuration
 -   Set up approval levels

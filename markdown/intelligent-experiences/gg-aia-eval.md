@@ -1,116 +1,128 @@
 ---
-title: General guidelines for AI agent and agentic workflow evaluation
-description: Learn about agentic evaluation runs and different recommendations for evaluating your AI agents and agentic workflows against datasets to check for completion, performance, and tool execution.
+title: General guidelines for agentic AI asset evaluation
+description: Learn about agentic evaluation runs and different recommendations for evaluating your agentic AI assets against datasets to check for completion, performance, and tool execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/gg-aia-eval.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Evaluate agentic AI, Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [agentic AI evaluation, AI agent testing, evaluation metrics, dataset creation, agentic execution logs]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# General guidelines for AI agent and agentic workflow evaluation
+# General guidelines for agentic AI asset evaluation
 
-Learn about agentic evaluation runs and different recommendations for evaluating your AI agents and agentic workflows against datasets to check for completion, performance, and tool execution.
+Learn about agentic evaluation runs and different recommendations for evaluating your agentic AI assets against datasets to check for completion, performance, and tool execution.
 
 ## Overview of agentic evaluation runs
 
-Evaluation runs for AI agents and agentic workflows evaluate their executions for different metrics, such as task completion, performance, and tool execution. You can create datasets using logs for agentic workflows.
+Agentic evaluations help you verify that your agentic AI assets perform as expected across different scenarios and data sets. Regular evaluation helps maintain quality and identify areas for improvement as you develop your agentic AI assets.
+
+The evaluation process uses automated testing to measure how well your agentic AI assets performs. Metrics for evaluation include complete tasks, execute tools correctly, and maintain performance standards. You can also create your own custom metrics to evaluate agentic AI asset responses and tasks in other ways.
 
 ## When to run agentic evaluations
 
--   **Run after you have manually tested basic execution.**
+Run agentic evaluations at key points in your development and maintenance cycle to verify performance and catch issues early.
 
-    Before running an automated evaluation, you can manually test the execution of an [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-ai-agent.md) or [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-aia-use-case.md).
+-   **Run after you have manually tested basic execution**
 
--   **Run agentic evaluations when you make significant changes.**
+    Before running an automated evaluation, manually test the execution of an [AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-ai-agent.md) or [agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-aia-use-case.md). Manual testing helps you identify obvious issues and verify that the basic functionality works before investing time in automated evaluation.
 
-    After making updates to the agentic workflow, you can execute an agentic evaluation run to track the efficacy of the new version.
+-   **Run agentic evaluations when you make significant changes**
+
+    After making updates to the agentic workflow, execute an agentic evaluation run to track the efficacy of the new version. This includes changes to prompts and tool configurations that might affect performance.
+
+-   **Run evaluations before deploying to production**
+
+    Evaluate your agentic AI assets in a test environment before deploying them to production. This helps verify that changes work correctly and maintain expected performance levels.
+
+-   **Run periodic evaluations for ongoing monitoring**
+
+    Schedule regular evaluation runs to monitor the ongoing performance of your agentic AI assets. This helps detect performance degradation over time and ensures consistent quality.
+
+-   **Run evaluations after data source changes**
+
+    When the underlying data sources or schemas change, run evaluations to verify that your agentic AI assets continue to function correctly with the new data structure.
 
 
 ## Choosing an evaluation method
 
--   **Review the evaluation method options.**
+Select evaluation methods based on what aspects of your agentic AI asset performance you want to measure. Different methods provide insights into different aspects of functionality.
 
-    The agentic evaluation guided setup provides information about each evaluation method, including what they’re measuring and how they work. You can also review the common questions in the sidebar for answers about the available metrics.
+-   **Review the evaluation method options**
 
--   **Use multiple evaluation methods at a time.**
+    The agentic evaluation guided setup provides information about each evaluation method, including what they're measuring and how they work. You can also review the common questions in the sidebar for answers about the available metrics. Take time to understand each method before selecting which ones to use.
 
-    Choosing multiple evaluation methods can provide a better overall picture of the AI agent's or agentic workflow's performance.
+-   **Use multiple evaluation methods at a time**
+
+    Choosing multiple evaluation methods can provide a better overall picture of the agentic AI asset's performance. Different methods measure different aspects, such as task completion rates, response accuracy, and tool execution success.
+
+-   **Consider task completion metrics for workflow validation**
+
+    Task completion metrics help you verify that your agentic workflows successfully complete their intended tasks and validate end-to-end workflow functionality.
+
+-   **Apply tool execution metrics for technical validation**
+
+    Tool execution metrics verify that your agentic AI assets correctly use the tools and APIs they're configured to access. This method helps ensure that integrations work as expected.
 
 
 ## Creating a dataset
 
--   **Use filters to target the right data.**
+Create targeted datasets that represent the scenarios and data your agentic AI assets will encounter in production. Well-designed datasets provide more meaningful evaluation results.
 
-    Add filters to the execution logs to control exactly what you're measuring your agentic workflow against. Filter different time frames to verify that you're measuring the latest version of a workflow. You can select **See preview** to see a list of records. You can also use the check boxes to select individual records to measure against.
+-   **Use filters to target the right data**
 
--   **Generate new execution data for your evaluation run.**
+    Add filters to the execution logs to control exactly what you're measuring your agentic workflow against. You can select **See preview** to see a list of records. You can also use the check boxes to select individual records to measure against.
 
-    When going through the agentic evaluation guided setup, you can create new execution logs on multiple records before the evaluation begins. Use this reduce time.
+-   **Generate new execution data for your evaluation run**
+
+    When going through the agentic evaluation guided setup, you can create new execution logs on multiple records before the evaluation begins. Use this option to reduce time and ensure you have fresh data for evaluation.
+
+-   **Include diverse scenarios in your dataset**
+
+    Create datasets that include various scenarios your agentic AI assets might encounter, including edge cases and error conditions. Comprehensive datasets help identify potential issues before they affect users.
+
+-   **Maintain dataset quality and relevance**
+
+    Regularly review and update your evaluation datasets to ensure they remain relevant to current use cases. Remove outdated scenarios and add new ones that reflect changing requirements or data patterns.
+
+-   **Consider data volume for meaningful results**
+
+    Include sufficient data volume in your datasets to generate statistically meaningful results. Small datasets might not reveal performance patterns or issues that become apparent with larger data sets.
 
 
-## Frequently Asked Questions
+## Interpreting evaluation results
 
--   **Do I need to keep anything ready before an automated evaluation?**
+Understanding evaluation results helps you make informed decisions about improving your agentic AI assets and identifying areas that need attention.
 
-    Before you begin, make sure you:
+-   **Analyze trends across multiple evaluation runs**
 
-    -   Test your agent or workflow in the playground. Catch the obvious issues early—automated evaluations are best for deeper validation.
-    -   Ensure your table has all the required inputs if you're generating test scenarios or using scenarios from previous agent or workflow runs during setup.
-    -   Prep enough scenarios. We recommend at least 100. Your evaluation is only as strong as the situations you put your agent through.
-    -   Define what success means. Be clear on what the right output for your agent should be.
--   **How do I set up my first automated evaluation?**
+    Compare results from multiple evaluation runs to identify trends in performance. Look for patterns that indicate improving or declining performance over time.
 
-    To set up an evaluation, follow the guided flow:
+-   **Focus on metrics that align with business objectives**
 
-    1.  Select your agent or workflow and its version.
-    2.  Choose your metrics—built-in or custom.
-    3.  Use an existing dataset or decide how you want to build one.
-    That's it—you're ready to evaluate.
+    Prioritize the evaluation metrics that most closely align with your business objectives and user requirements. Not all metrics carry equal weight for your specific use case.
 
--   **When should I create a custom metric?**
+-   **Investigate unexpected results**
 
-    Create a custom metric when you have unique evaluation criteria and want to measure workflow or agent-specific behaviors that aren't covered by ServiceNow's built in metrics. For example, you might want to:
+    When evaluation results differ significantly from expectations, investigate the identified issues and their traces. This might reveal issues with the agentic AI asset configuration, data quality, or evaluation setup.
 
-    -   Check whether a particular phrase appears in the agent's response.
-    -   Measure response length to assess verbosity or brevity.
--   **How do I build a dataset for agentic evaluations?**
 
-    There are two ways to build a dataset for agentic evaluations, but first, let's clarify what a dataset is. Your dataset should include logs of executions that capture what happens when your AI agent or workflow processes records like incidents, case, or tasks. You can create a dataset by either:
+## General guidelines for effective evaluation
 
-    -   Using logs from previous agent or workflow runs, or
-    -   Generating new logs by running the agent or workflow after setup.
--   **What's next after an automated evaluation?**
+Follow these general guidelines to maximize the value of your agentic evaluation efforts and ensure reliable results.
 
-    Review your evaluation results to:
+-   **Establish baseline performance metrics**
 
-    -   Identify configuration gaps in your agent or workflow
-    -   Assess deployment readiness
-    -   Analyze tool performance for issues with inputs or descriptions
-    -   Drill down into individual executions and metric scores
-    Return to AI Agent Studio to refine your configuration, then rerun evaluations to track improvements.
+    Create baseline measurements when you first deploy your agentic AI assets. These baselines provide reference points for comparing future evaluation results and tracking improvements.
 
--   **How do I create a custom metric?**
+-   **Monitor evaluation performance over time**
 
-    Create a custom metric in a few steps:
+    Track how your evaluation processes themselves perform over time. This includes evaluation run times, resource usage, and the reliability of the evaluation infrastructure.
 
-    1.  Name and describe your metric.
-    2.  Define its evaluation scope—agentic workflow, agents, or both.
-    3.  Specify what it measures, how it works, and its output format.
-    4.  Add metric inputs and write your script-based metric.
-    5.  Save and publish to make it available for use.
--   **How do I interpret evaluation results?**
+-   **Validate evaluation methods periodically**
 
-    Based on the metrics you select, each execution will display a score for every metric. Refer to the "Metric guide" to understand what the scores mean. You can also customize metric thresholds to align with your organization's definitions of success and failure.
-
--   **How do I track the progress of my evaluations?**
-
-    Evaluations may take some time, but you don't need to stay on the page. From the homepage, you can track all evaluations and even see if any action is required.
-
--   **How is the parser tool used during custom metric creation?**
-
-    When creating a custom metric for agentic evaluations, providing a metric input is optional—we include the 'execution plan record sys\_id' by default. We also provide a parser tool that pulls structured data from your execution logs, so you won't need to manually parse through the XML or JSON. You can access the parser tool's outputs with tool output.
+    Periodically review and validate your evaluation methods to ensure they continue to provide meaningful insights. Update methods as your agentic AI assets evolve and requirements change.
 
 

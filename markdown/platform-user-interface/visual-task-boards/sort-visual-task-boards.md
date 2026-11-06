@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -40,7 +40,7 @@ Only the owner of the board can create the sorting criteria, and add, edit, or d
 
     3.  Select **Add sort**, choose the conditions you want from the fields and then select **Create**.
 
-        \[Omitted image "vtb-add-sort.png"\] Alt text: Select Add Sort to create sorting options.
+        \[Omitted image "datadrivenAddSort.png"\] Alt text: Select Add Sort to create sorting options.
 
     4.  In the Add Sort window, choose your sorting order and then select **Save**.
 

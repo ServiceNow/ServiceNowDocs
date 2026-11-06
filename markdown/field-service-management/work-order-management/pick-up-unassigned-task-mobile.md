@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Pick up an unassigned task
@@ -24,7 +24,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## Procedure
 
-1.  Navigate to the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -38,6 +38,4 @@ Role required: wm\_agent or wm\_dispatcher
 ## Result
 
 You receive a notification that the task has been assigned to you.
-
-**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

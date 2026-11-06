@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,4 +46,6 @@ All new and existing customers must manually enable AI Search in the Knowledge p
 ## Result
 
 AI Search is enabled throughout the Knowledge portal. Customers can use AI Search from the search bar on the portal.
+
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 

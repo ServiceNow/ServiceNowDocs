@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Triggers, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a trigger definition
@@ -49,8 +49,6 @@ Define the type of trigger that determines when to start running your playbook.
 
         The playbook runs when a user creates a record or updates an existing record anywhere in the ServiceNow AI Platform.
 
-    **Note:** Triggers only fire for record operations that are interactive, or made by users. Triggers don't fire for non-interactive record operations. For more information, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_NonInteractiveSessions.md).
-
 6.  Click **Next** to go on to the next step.
 
 7.  In the Table list, select a table whose record operations you want to trigger your playbook.
@@ -69,9 +67,4 @@ Define the type of trigger that determines when to start running your playbook.
 Your trigger definition is added to the Trigger Definition \[sys\_pd\_trigger\_definition\] table. You can now select your preset trigger when you [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-process-definition.md).
 
 **Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-triggers.md)
-
-**Related topics**  
-
-
-[Add and configure a trigger in a playbook]()
 

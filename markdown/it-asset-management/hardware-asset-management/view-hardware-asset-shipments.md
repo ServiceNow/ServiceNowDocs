@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Track shipments using the integration framework, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View hardware asset shipment details
@@ -114,18 +114,6 @@ The date corresponds to the date on which the ship task of the source is closed.
 
 </td></tr><tr><td>
 
-Shipment quantity
-
-</td><td>
-
-Quantity of assets shipped for the shipment record.This field value is automatically populated when the assets are shipped to the destination.
-
-The shipment quantity is the sum of the asset quantities shipped for each shipment line.
-
-**Important:** The **Shipment quantity** field is available with Hardware Asset Management version 14.0.0 onwards.
-
-</td></tr><tr><td>
-
 Receive date
 
 </td><td>
@@ -197,19 +185,7 @@ Option that indicates whether the shipment record is stale. This option is read-
 **Related topics**  
 
 
-[Creating an integration script include for third-party carrier applications]()
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
 [View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
 
 [Stale shipments]()
 

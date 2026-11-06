@@ -7,16 +7,16 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Getting started: Create your first application in the ServiceNow IDE
 
 Get started in the ServiceNow IDE by creating an application that you can develop in source code, pushing it to a remote repository, and cloning it on another instance.
 
-The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. With the ServiceNow IDE, you can get started building scoped applications quickly using familiar tools and industry-standard development practices. For an overview of the ServiceNow IDE user interface, see [ServiceNow IDE user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md).
+The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. With the ServiceNow IDE, you can get started building applications quickly using familiar tools and industry-standard development practices. For an overview of the ServiceNow IDE user interface, see [ServiceNow IDE user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md).
 
 ## Tutorial overview
 

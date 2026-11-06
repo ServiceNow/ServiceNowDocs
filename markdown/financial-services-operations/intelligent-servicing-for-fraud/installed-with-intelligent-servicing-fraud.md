@@ -7,9 +7,10 @@ release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
+keywords: [components installed with intelligent servicing for fraud, sn\_bom\_fraud plugin, fraud tables, fraud roles, sn\_bom\_fraud\_case, sn\_bom\_fraud\_task, sn\_bom\_fraud\_transaction, sn\_bom\_fraud.admin, sn\_bom\_fraud.agent, sn\_bom\_fraud.manager, sn\_bom\_fraud.viewer, sn\_bom\_fraud.contributor, card fraud policy rules, fraud investigation routing rules, decision tables for fraud]
+breadcrumb: [Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Intelligent Servicing for Fraud
@@ -28,7 +29,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 

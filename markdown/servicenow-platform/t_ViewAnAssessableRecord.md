@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_ViewAnAssessableRecord.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assessable records, Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,7 +42,7 @@ Name
 
 </td><td>
 
-\[Read-Only\] Assessable record name based on the [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectTheDisplayValue.md) of the source record. The name appears on assessment questionnaires.\[Omitted image "AssessmentAssessableRecord.png"\] Alt text: Assessment assessable record
+\[Read-Only\] Assessable record name based on the [Select a field as the table display value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectTheDisplayValue.md) of the source record. The name appears on assessment questionnaires.
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-or-edit-a-data-domain-from-the-portfolio-page.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data domains, Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage data domains, Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit a data domain from the Portfolio page
@@ -39,12 +39,17 @@ Role required: sn\_apm.apm\_admin
     -   To update details of an existing data domain, select the data domain.
 6.  On the form, fill in the fields.
 
-    For field information, see [Data Domain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/data-domain-form.md).
+    For field information, see [Data Domain form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-data-domain-form.md).
 
 7.  Select **Save**.
 
     You can also create data domains from the Setup page of Enterprise Architecture Workspace. For information, see [Add or edit an information data domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-info-data-domain.md).
 
 
-**Parent Topic:**[Manage data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-data-domains.md)
+**Parent Topic:**[Manage data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-data-domains.md)
+
+**Related topics**  
+
+
+[View all data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-data-domains.md)
 

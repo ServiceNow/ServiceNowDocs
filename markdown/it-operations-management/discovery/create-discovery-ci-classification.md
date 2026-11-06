@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -179,7 +179,7 @@ Versions
 Lists versions of this classifier. A new version is created whenever you modify the classifier record. To revert to a previous version, open that record and select **Revert to this version** under **Related Links**.
 
 </td></tr></tbody>
-</table>    This example shows a completed CI classification form with exploration probes defined. For instruction on creating probes, see [Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md). The probes defined here are launched when the device is properly classified, unless Discovery is configured to stop after classification.
+</table>    This example shows a completed CI classification form with the Horizontal Pattern probe defined. For instruction on creating probes, see [Discovery probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md). Probes that are defined are launched when the device is properly classified, unless Discovery is configured to stop after classification.
 
     \[Omitted image "DiscoveryClassificationForm.png"\] Alt text: Discovery classification form
 

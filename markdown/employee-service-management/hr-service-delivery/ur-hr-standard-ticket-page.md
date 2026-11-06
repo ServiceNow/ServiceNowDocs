@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Standard Ticket Page view for HR Service Delivery
@@ -22,7 +22,7 @@ For new and restarted instances, the Standard Ticket page view is available by d
 
 After you have configured the HR services and have completed the page route mappings, your HR requests appear in the Standard Ticket page view in the following format:
 
-\[Omitted image "hr-request-standard-ticket.png"\] Alt text: HR case with the Standard Ticket page view enabled
+
 
 When you enable expected resolution time \(ETTR\), you can see the estimated time for your request. For more information, see [Estimated time to resolve HR cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/train-model-ettr.md).
 

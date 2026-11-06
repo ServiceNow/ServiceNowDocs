@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Administer and maintain the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View Talent Development Core licensed profiles
@@ -18,7 +18,7 @@ You can view a list of profiles that are licensed for Talent Development.
 
 ## Before you begin
 
-Role required: sn\_egd\_core.admin or admin
+Role required: sn\_egd\_core.admin
 
 ## About this task
 

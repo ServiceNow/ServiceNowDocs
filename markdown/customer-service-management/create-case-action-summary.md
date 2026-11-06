@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-action-summary.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a case action summary
@@ -55,15 +55,15 @@ After creating a case action summary, the record is added to the Case form in th
 
 7.  Publish the case action summary using one of the following actions.
 
-<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d68543e238">
+<table id="choicetable_dzr_w4v_d3b"><thead><tr><th align="left" id="d80726e238">
 
 Action
 
-</th><th align="left" id="d68543e241">
+</th><th align="left" id="d80726e241">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68543e247">
+</th></tr></thead><tbody><tr><td id="d80726e247">
 
 **Publish to Case**
 
@@ -73,7 +73,7 @@ Updates the case with the case action summary. -   Information from the customer
 -   Information from the case action summary is added to the **Work notes** field on the Case form.
 
 
-</td></tr><tr><td id="d68543e271">
+</td></tr><tr><td id="d80726e271">
 
 **Publish to Case &amp; Notify**
 

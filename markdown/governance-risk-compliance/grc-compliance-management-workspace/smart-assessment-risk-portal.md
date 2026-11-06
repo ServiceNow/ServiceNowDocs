@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Control assessment based on GRC attestation template, Create a control objective using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Control assessment through attestation, Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Respond to attestations on the Risk Portal
@@ -30,7 +30,7 @@ As an attestation respondent of a control you can log in to the Risk Portal and 
 
 2.  Select the new task in My pending tasks section of the Risk Portal.
 
-    You can view the Attestations on the left panel.
+    You can view the attestations on the left panel. The Control Attestations list view displays the Control and Entity columns alongside the existing assessment instance, assessment template, state, users, and due date columns, providing attestors with direct scope context for each assessment instance without opening individual records.
 
 3.  Select the assessment instance link on the right panel of the My pending tasks related list.
 

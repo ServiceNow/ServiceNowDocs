@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
@@ -23,25 +23,25 @@ For portfolio plans, only those planning items that are prioritized from the Pri
 
 Use the information in the following sections to start using roadmap capabilities for your business plans.
 
--   **[Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)**  
+-   **[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)**  
 Create a standalone visual roadmap to start high-level planning of work from different units of the company.
--   **[Duplicate a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/copy-roadmap-in-portfolio-planning.md)**  
+-   **[Duplicate a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/copy-roadmap-in-portfolio-planning.md)**  
 Create a roadmap with the data of an existing roadmap. If the roadmap you want to create is similar to an existing roadmap, duplicating the existing roadmap saves your time.
--   **[Create planning items from roadmap view in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.md)**  
+-   **[Create planning items from roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.md)**  
 Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
--   **[Plan unscheduled items into roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.md)**  
+-   **[Plan unscheduled items into roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.md)**  
 Add items without start or end dates yet to your portfolio plan or free-form roadmap.
--   **[Reschedule roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/reschedule-roadmap-items-portfolio-planning.md)**  
+-   **[Reschedule roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/reschedule-roadmap-items-portfolio-planning.md)**  
 Update the planned dates of your roadmap items to account for any changes in your scheduling priorities.
--   **[Add milestones for roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md)**  
+-   **[Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md)**  
 Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
--   **[Add milestones for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.md)**  
+-   **[Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.md)**  
 Track key outcomes of your planning items \(such as demands and projects\) by creating milestones for them, directly from the roadmap view.
--   **[Add dependencies for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)**  
+-   **[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)**  
 Create dependencies and visualize relationships between planning items of your portfolio or free-form roadmap, so that you can adjust their scheduling.
--   **[Personalize roadmap view in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)**  
+-   **[Personalize roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalize-roadmap-view-portfolio-planning.md)**  
 Customize the way that your roadmap is displayed. Group the roadmap items, color them by a category, add numerical data points, and display milestones and dependencies to analyze your roadmap efficiently and take informed decisions.
--   **[Track roadmap item progress in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/track-roadmap-item-progress-portfolio-planning.md)**  
+-   **[Track the progress of roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/track-roadmap-item-progress-portfolio-planning.md)**  
 Visually track the completion of a work item on your portfolio plan roadmap or free-form roadmap using the tracking mode.
 
 **Parent Topic:**[Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/portfolio-planning-app-landing-page.md)

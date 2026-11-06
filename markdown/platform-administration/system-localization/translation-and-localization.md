@@ -7,7 +7,7 @@ release: yokohama
 product: System Localization
 classification: system-localization
 topic_type: concept
-last_updated: "2025-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 ---

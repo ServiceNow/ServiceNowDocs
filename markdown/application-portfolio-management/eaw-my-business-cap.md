@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-my-business-cap.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your entities, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with your entities, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View your business capabilities
@@ -28,8 +28,17 @@ Role required: sn\_apm.apm\_user
 
 4.  Select **My Business Capabilities**.
 
-    You can also view the list of capabilities from the Business Portfolio page. For more information, see [Managing a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/manage-business-portfolio.md).
+    You can also view the list of capabilities from the Business Portfolio page. For more information, see [Exploring a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/manage-business-portfolio.md).
 
 
-**Parent Topic:**[Manage your entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-my-entities.md)
+**Parent Topic:**[Working with your entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-your-entities.md)
+
+**Related topics**  
+
+
+[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)
+
+[Add a business capability to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-existing-business-capability-to-ba.md)
+
+[Remove business capabilities from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-unassign-business-capabilities-from-ba.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: reference
-last_updated: "2025-02-25"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Live Agent, chat, context, variables, Virtual Agent, Interaction, Connect Support]
-breadcrumb: [Configure context variables for storing chat-related information, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
+breadcrumb: [Configure context variables, General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
 # Live agent chat context variables
@@ -37,14 +37,6 @@ Application scope of the chat. For example, **Global**, **HR**, **CSM**, or **IT
 
 </td></tr><tr><td>
 
-auto\_resolution\_context\_id
-
-</td><td>
-
-If Auto Resolution is enabled, the ID of the record created when a requester is redirected to Virtual Agent.
-
-</td></tr><tr><td>
-
 case
 
 </td><td>
@@ -63,51 +55,11 @@ Category defined in the Consumer Service portal in the CSM application \(require
 
 </td></tr><tr><td>
 
-csp\_email
-
-</td><td>
-
-Requester’s email address, as entered in a pre-chat survey on the Consumer Service Portal.
-
-</td></tr><tr><td>
-
-csp\_first\_name
-
-</td><td>
-
-Requester’s first name, as entered in a pre-chat survey on the Consumer Service Portal.
-
-</td></tr><tr><td>
-
-csp\_last\_name
-
-</td><td>
-
-Requester’s last name, as entered in a pre-chat survey on the Consumer Service Portal.
-
-</td></tr><tr><td>
-
 devicetype
 
 </td><td>
 
 Type of device being used for the chat. For example, **mweb** \(chat widget\), **android**, or **ios**.
-
-</td></tr><tr><td>
-
-esc\_pre\_chat\_ask\_a\_question
-
-</td><td>
-
-Requester response to a pre-chat survey selection from within the HR Service Delivery application ESC view of the HR Case record.
-
-</td></tr><tr><td>
-
-experience\_name
-
-</td><td>
-
-Name assigned to the Live Agent experience.
 
 </td></tr><tr><td>
 
@@ -163,7 +115,7 @@ mandatory\_skills
 
 </td><td>
 
-Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-assignment-rule.md).
+Required skills and skill level for an agent.For example, German language proficiency with an associated high skill level may be required for German-speaking requesters. You can define mandatory skills and activate skill levels in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -171,7 +123,7 @@ optional\_skills
 
 </td><td>
 
-Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-assignment-rule.md).
+Skills and skill levels that would be useful for a given chat scenario.You can define optional skills in Advanced Work Assignment. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md).
 
 </td></tr><tr><td>
 
@@ -188,50 +140,6 @@ portal
 </td><td>
 
 Name of the portal that the chat was accessed from.
-
-</td></tr><tr><td>
-
-post\_assessment\_instance
-
-</td><td>
-
-Reference to the post-chat survey \(Assessment Instances \[asmt\_assessment\_instance\] table\), if there is one.
-
-</td></tr><tr><td>
-
-post\_chat\_survey\_name
-
-</td><td>
-
-Name of a post-chat survey that is used to gather feedback from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/create-chat-surveys.md).
-
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/take-survey-connect-chat.md).
-
-</td></tr><tr><td>
-
-pre\_assessment\_instance
-
-</td><td>
-
-Reference to the pre-chat survey \(Assessment Instances \[asmt\_assessment\_instance\] table\), if there is one.
-
-</td></tr><tr><td>
-
-pre\_chat\_survey\_name
-
-</td><td>
-
-Name of a pre-chat survey that is used to gather information from the requester.For information about creating surveys, see [Create chat surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/create-chat-surveys.md). To learn more about how chat context variables from pre-chat surveys are used in Advanced Work Assignment to route work to live agents, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-queues.md).
-
- For information about creating surveys in Connect Chat, see [Configure a survey in Connect Chat support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/take-survey-connect-chat.md).
-
-</td></tr><tr><td>
-
-queue
-
-</td><td>
-
-Sys\_id of the pre-built Connect Support chat queue \(deprecated\).
 
 </td></tr><tr><td>
 
@@ -264,14 +172,6 @@ table
 </td><td>
 
 Table containing the record that relates to the interaction. Typically, this is the record being viewed in the portal when the chat is requested.
-
-</td></tr><tr><td>
-
-url
-
-</td><td>
-
-URL from which the request originates.
 
 </td></tr></tbody>
 </table>## Additional resources

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Financial Services Loan Operations, Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Financial Services Loan Operations
@@ -43,6 +43,4 @@ Role required: sn\_bom\_loan\_b2b.admin, sn\_bom\_loan.b2c\_admin, and admin
     |**Configure assignment rules**|[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.|
     |**Configure Document Processor**|[Configure Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-fso-document-processor.md) for document categories, document types, inbound and outbound document rules, and approval rules for document deferments and exceptions.|
 
-
-**Parent Topic:**[Setting up Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/setting-up-fso-loan-ops.md)
 

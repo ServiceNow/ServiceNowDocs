@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Create and test your credentials, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # SSH credentials
@@ -245,7 +245,7 @@ Credential alias
 </td><td>
 
 -   Allow flow designers to use aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you do not need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/r-credentials.md).
--   Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can also assign different credentials to each occurrence of the same activity type. You can use the credential for discovering CIs not belonging to this CI type using Service Mapping and Discovery patterns. Enter the table name for the CI type to which the CI belongs. For example, enter cmdb\_ci\_apache\_web\_server.
+-   Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow. You can also assign different credentials to each occurrence of the same activity type. To use the credential for discovering CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs. For example, enter cmdb\_ci\_apache\_web\_server.
 
 </td></tr><tr><td>
 
@@ -484,7 +484,7 @@ Lists running process. As an alternative to running with root access, add a proc
 -   **Used by**: Discovery
 
 </td></tr></tbody>
-</table>For a list of privileged commands that you need for Discovery and Service Mapping, see [Service Mapping commands requiring a privileged user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_CommandsnCredentials.md). This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
+</table>For a list of privileged commands that you need for Discovery and Service Mapping, see . This list includes commands that require elevated rights to discover and map Unix-based hosts in your organization.
 
 ## Access Requirements for Non-Root Credentials
 

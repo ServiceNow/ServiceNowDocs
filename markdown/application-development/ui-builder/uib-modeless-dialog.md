@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create modeless dialogs in UI Builder
@@ -21,8 +21,6 @@ The Modeless Dialog component is a floating window containing components and con
 Modeless dialogs are different than modals, which pop up but block interaction with the page until the modal is closed. Modeless dialogs are also different than popovers, which close after you click outside the popover.
 
 Common modeless dialog use cases include creating a record, composing an email, using chat, adding work notes or comments, reading help information, or adding/viewing attachments in the modeless dialog.
-
-\[Omitted image "modeless-dialog-example.png"\] Alt text: UI Builder experience with a black arrow pointing to a modeless dialog floating over the page.
 
 ## Anatomy of a modeless dialog
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Review and update a post incident report
@@ -23,7 +23,7 @@ The major incident must be in the **Resolved** state. For more information, see 
 Role required:
 
 -   For PIR review: sn\_incident\_read or sn\_incident\_write
--   For PIR update, generate and download: major\_incident\_manager or admin
+-   For PIR update, generate and download: major\_incident\_manager, incident\_write \(added as co-contributors\) or admin
 
 ## About this task
 

@@ -1,18 +1,18 @@
 ---
-title: Set up a character counter for journal fields
-description: A character counter displays the number of remaining characters in a journal field.
+title: Configure a character counter for journal fields
+description: Configure a character counter to display the number of remaining characters in a journal field.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-up-character-counter-journal-fields.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering forms for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Set up a character counter for journal fields
+# Configure a character counter for journal fields
 
-A character counter displays the number of remaining characters in a journal field.
+Configure a character counter to display the number of remaining characters in a journal field.
 
 ## Before you begin
 
@@ -21,6 +21,8 @@ Role required: admin
 ## Procedure
 
 1.  Navigate to `sys_properties.list`.
+
+    The entire list of properties in the System Properties \[sys\_properties\] table opens.
 
 2.  Add a system property named **glide.ui.textarea.character\_counter**.
 

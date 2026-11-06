@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Qualify work order tasks in CSM Agent Workspace
@@ -35,6 +35,4 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
     3.  Click **Save**.
     The work order task moves to **Pending Dispatch** state. When all work order tasks related a work order are qualified the work order moves to **Qualified** state. For more information on qualifying work order tasks, see [Qualify work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_QualifyATask.md)
 
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

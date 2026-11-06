@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a telecommunications equipment instance, Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Create a telecommunications equipment instance, Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Review and update the telecommunications equipment details
@@ -65,7 +65,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 10. View the visual representation of the selected record by selecting the **Open Map** button.
 
-    **Note:** Install CMDB Workspace 3.5.0 or a later version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
+    **Note:** Install Service Graph Workspace or CMDB Workspace 3.5.0 or a later version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
 
 11. View the associated network inventories by selecting the brick icon \(\[Omitted image "infrastructure-relashionship.png"\] Alt text: Brick icon.\).
 
@@ -81,5 +81,5 @@ If you want to establish relationships with the other network assets, enter the 
 **Related topics**  
 
 
-[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

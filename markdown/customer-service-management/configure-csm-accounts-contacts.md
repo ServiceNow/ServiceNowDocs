@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-csm-accounts-contacts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure accounts and contacts
@@ -16,7 +16,13 @@ An account is a supported external customer and a contact is a user who is an em
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   admin
 
 ## About this task
 
@@ -34,6 +40,13 @@ An account can have multiple contacts but a contact can be associated with only 
 
 -   You can import existing accounts and contacts using guided setup.
 
--   You can create new accounts and contacts using the Customer Service Management application.
+-   You can create accounts and contacts using the Customer Service Management application.
 
+
+**Related topics**  
+
+
+[Create customer accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-create-csm-accounts.md)
+
+[Account hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_AccountHierarchy.md)
 

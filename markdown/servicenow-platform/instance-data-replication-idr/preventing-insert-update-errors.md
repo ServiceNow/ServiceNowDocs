@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,7 +52,7 @@ If the table is a child, decide if you want to replicate its parent.
 
 [Deploying a replication configuration from one instance to another in Instance Data Replication]()
 
-[Cloning with Instance Data Replication]()
+[Cloning options with Instance Data Replication]()
 
 [Monitoring replication status in Instance Data Replication]()
 

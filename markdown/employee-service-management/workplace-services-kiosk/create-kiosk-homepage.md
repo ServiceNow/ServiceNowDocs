@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -48,5 +48,5 @@ Role required: sn\_wsd\_kiosk.admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

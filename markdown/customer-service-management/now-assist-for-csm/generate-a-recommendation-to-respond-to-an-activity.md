@@ -1,30 +1,30 @@
 ---
 title: Generate activity stream responses
-description: Generate recommendations for work notes or comments in a case record using Now Assist and add them to enhance the quality of your interactions with the user.
+description: Generate recommendations for work notes or comments in a case record using ServiceNow Otto and add them to enhance the quality of your interactions with the user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/generate-a-recommendation-to-respond-to-an-activity.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-11-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Generate activity stream responses
 
-Generate recommendations for work notes or comments in a case record using Now Assist and add them to enhance the quality of your interactions with the user.
+Generate recommendations for work notes or comments in a case record using ServiceNow Otto and add them to enhance the quality of your interactions with the user.
 
 ## Before you begin
 
 These skills are inactive by default. Your administrator must enable the skills that you want to use.
 
-Role required: sn\_esm\_agent
+Role required: sn\_customerservice\_agent or sn\_customerservice.consumer\_agent
 
 ## Procedure
 
-1.  Navigate to a case record in the CSM/FSM Configurable Workspace or Core UI where you want to generate work notes or comments using Now Assist.
+1.  Navigate to a case record in the CSM/FSM Configurable Workspace or Core UI where you want to generate work notes or comments using ServiceNow Otto.
 
 2.  Select **Compose**, then select **Compose Comments** or **Compose Work Notes** from the drop down in front line case page.
 
@@ -40,9 +40,9 @@ Role required: sn\_esm\_agent
         -   **Summarize actions taken**: Create a summary of all steps taken to resolve the case.
         **Note:** The options display based on the configurations by your admin. Under work notes only 3 options are available – Post response, Summarize actions taken and Follow up.
 
-    2.  Select one of the options based on the type of response you want Now Assist to generate.
+    2.  Select one of the options based on the type of response you want AI to generate.
 
-        The response appears in the Now Assist Context Menu \(NACM\).
+        The response appears in the ServiceNow Otto Context Menu \(NACM\).
 
     3.  You can select the **Refine** menu and elaborate, shorten, or change the tone of the response.
 

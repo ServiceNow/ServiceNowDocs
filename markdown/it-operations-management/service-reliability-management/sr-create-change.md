@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manually create an SRM change task
@@ -20,7 +20,7 @@ Create a change task to implement a controlled process for modifying approved an
 
 For general information on Change requests, see [Using Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/using-change-management.md).
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## Procedure
 

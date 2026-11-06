@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Using Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Defer an automation request
@@ -45,7 +45,7 @@ Deferring an automation request is one of the life-cycle stages of an automation
 
 ## What to do next
 
-You can move the automation request to Planned state or reject the automation request. For more information, see [Move an automation request to the planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/move-automation-request-to-planned.md) and [Reject an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/reject-automation-request.md).
+You can move the automation request to Planned state or reject the automation request. For more information, see [Move an automation request to the Planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/move-automation-request-to-planned.md) and [Reject an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/reject-automation-request.md).
 
 **Parent Topic:**[Working with automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automations.md)
 

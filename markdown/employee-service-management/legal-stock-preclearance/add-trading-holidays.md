@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Legal Stock Preclearance, Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add trading holidays
@@ -46,5 +46,5 @@ A trading holiday might impact the stock preclearance approval validity period b
 7.  Click **Submit**.
 
 
-**Parent Topic:**[Setting up Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
+**Parent Topic:**[Configure Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-pre-administration.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Request a workplace service
+title: Requesting a workplace service
 description: Raise a general enquiry or any workplace improvement-related services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-case-management/request-workplace-services.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Request a workplace service
+# Requesting a workplace service
 
 Raise a general enquiry or any workplace improvement-related services.
 
@@ -23,7 +23,7 @@ Raise a general enquiry or any workplace improvement-related services.
 -   **[Reconfigure an office space]()**  
 Provide details on how an office space should be reconfigured.
 -   **[Raise help request for a workplace inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.md)**  
-Submit a general workplace service request for issues that need a human response. Request help for issues that are not covered by current automated workflows.
+Submit a general workplace service request for issues that need a human response. Request help for issues that aren't covered by current automated workflows.
 -   **[Raise a move request for a space change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-desk-change.md)**  
 Create a move request to relocate to another space. Specify why you want to move and when you want to move. You can select a space that is located in your current building or at a different building. You can also select a desk directly on the floor map.
 -   **[Request furniture for a space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-furniture.md)**  

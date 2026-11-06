@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Location forms
@@ -130,7 +130,7 @@ Longitude of the location in decimal degrees.
 </table>**Related topics**  
 
 
-[53209e74a8bd46bceeee2a446f29624462ccc28d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
+[0810b221422b5a22890dd24a84597bb15ddbc0d4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)
 
 ## Location form - Parent
 

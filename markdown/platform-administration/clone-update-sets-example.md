@@ -1,18 +1,18 @@
 ---
 title: Handling a large amount of in-progress update sets
-description: You can batch a large group of update sets in the Clone Admin Console.
+description: Batch in-progress update sets before a clone to preserve active development work across source and target instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/clone-update-sets-example.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Handling a large amount of in-progress update sets
 
-You can batch a large group of update sets in the Clone Admin Console.
+Batch in-progress update sets before a clone to preserve active development work across source and target instances.
 
 ## Before you begin
 
@@ -34,9 +34,9 @@ Role required: clone\_admin
 
 7.  Export the parent update set.
 
-8.  **Note:** \(Important: Don’t commit!\)
+8.  On your source instance, retrieve the update set.
 
-    On your source instance, retrieve the update set.
+    **Important:** Don’t commit!
 
     The parent update set is added to the retrieved update sets on your source instance.
 

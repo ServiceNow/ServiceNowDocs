@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ssa-solution-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service
@@ -52,25 +52,19 @@ A ServiceNow AI Platform administrator must have installed the content pack plug
 
 7.  If you changed the time field stamps in any indicator sources, also change any related Performance Analytics scripts.
 
-    For more information, see [Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/update-pa-scripts.md).
-
 8.  Open the Breakdown Sources tab.
 
 9.  For each dashboard included in this Platform Analytics Solution:
 
     1.  Filter the breakdown sources on the dashboard name.
 
-    2.  Review the conditions on the breakdown source as described in [Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/review-breakdown-sources.md).
+    2.  Review the conditions on the breakdown source.
 
 10. Navigate to **Performance Analytics** &gt; **Jobs**.
 
 11. Set up and run the historical job for this Platform Analytics Solution, \[SSA\] Self-Service Analytics Data Collection.
 
-    Follow the procedure in [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/historical-data-nowintel-solution.md).
-
 12. Edit and activate the scheduled data collection job for this Platform Analytics Solution, \[SSA\] Self-Service Analytics Data Collection.
-
-    Follow the procedure in [Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/schedule-job-nowintel-solution.md).
 
 
 **Related topics**  

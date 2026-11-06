@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a strict mode connection with Microsoft Exchange Online, Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -24,21 +24,17 @@ Role required: Microsoft admin
 
 ## Procedure
 
-1.  Go to [https://admin.exchange.microsoft.com/](https://admin.exchange.microsoft.com/).
+1.  Go to [https://admin.microsoft.com/](https://admin.microsoft.com/).
 
 2.  On the left panel, select **Resources** **Rooms &amp; equipments**.
 
 3.  Select a resource of **Type** - **Room** to which you to configure strict mode.
 
-4.  In the room details, under the **Delegation** tab, edit the **Read and manage \(Full Access\)** permission.
+4.  On the room details, edit the **Delegates** field.
 
-5.  Select **Add members** and add read and manage permissions.
+5.  Specify the users or the delegated user email address.
 
-    This permission allows a delegate to open this mailbox and behave as the mailbox owner, with full access to the mailbox.
-
-6.  Specify the users or the delegated user email address.
-
-7.  Select **Save**.
+6.  Select **Save changes**.
 
     **Important:** Repeat the steps from Step 3 to Step 6 for every resource of the type **Room** on which you want to configure the strict mode.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Telecommunications Network Inventory function catalog, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Path Search function

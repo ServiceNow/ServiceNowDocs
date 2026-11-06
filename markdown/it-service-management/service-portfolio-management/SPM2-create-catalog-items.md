@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Service offerings in Service Portfolio Management, Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Service offerings in Service Portfolio Management, Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Create catalog items for service offering subscribers in Service Portfolio Management

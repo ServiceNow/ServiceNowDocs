@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -41,8 +41,6 @@ Follow these steps to achieve domain separation:
 -   Change the **Run as** from the system user to the user with the `sn_si.admin` role in the respective domain and run the scheduled job.
 
 \[Omitted image "ibm-qradar-domain-sep1.png"\] Alt text: IBM QRadar Process Polling Queue job
-
-\[Omitted image "ibm-qradar-domain-sep2.png"\] Alt text: IBM QRadar Process Profiles and Offense Updates job
 
 **Related topics**  
 

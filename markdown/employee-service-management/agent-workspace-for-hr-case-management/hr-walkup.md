@@ -1,20 +1,20 @@
 ---
 title: HR Walk-up
-description: The HR Walk-up feature offers a convenient and efficient way for users to seek immediate assistance and support for their HR-related issues. With designated walk-up centers, users can seek in-person or remote assistance, report issues, and receive guidance from HR agents.Use HR walk-up to support HR requests raised by deskless workers.
+description: HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.Use HR walk-up to support HR requests raised by deskless workers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-walkup.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Walk-up
 
-The HR Walk-up feature offers a convenient and efficient way for users to seek immediate assistance and support for their HR-related issues. With designated walk-up centers, users can seek in-person or remote assistance, report issues, and receive guidance from HR agents.
+HR Walk-up enables employees to receive immediate in-person or remote support from HR agents at designated walk-up centers.
 
 **Note:** The HR Walk-up feature is available when the Walk-up Experience \(com.snc.walkup\) and Employee Center Pro \(sn\_ex\_sp\_pro\) plugins are installed.
 
@@ -24,7 +24,7 @@ The HR Walk-up feature offers a convenient and efficient way for users to seek i
 
     Every employee or a guest can check in and get support at an established walk-up service center.
 
--   **[Employee Center Pro Kiosk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)**
+-   **[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)**
 
     Employee Center Pro Kiosk enables all deskless workers with simplified access to information and services for self-serve and improved productivity.
 

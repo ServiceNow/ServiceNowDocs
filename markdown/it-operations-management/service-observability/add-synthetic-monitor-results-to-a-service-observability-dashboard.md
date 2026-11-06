@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use synthetic monitoring with Service Observability, Configuring Service Observability, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Use synthetic monitoring with Service Observability, Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Add synthetic monitor results to a Service Observability dashboard
@@ -70,6 +70,4 @@ Role required: sn\_sow\_svcobs.admin
 ## What to do next
 
 For detailed instructions about editing dashboards, see [Edit Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/edit-db-elements-in-ac.md).
-
-**Parent Topic:**[Use synthetic monitoring with Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/use-synthetic-monitoring-with-service-observability.md)
 

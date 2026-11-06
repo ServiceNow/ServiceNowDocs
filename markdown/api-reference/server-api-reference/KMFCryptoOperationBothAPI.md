@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -94,6 +94,16 @@ Name of the operation to perform.Valid values \(not case-sensitive\):
     -   Default input format: KMFBase64 - Base64 encoded
     -   Default output format: Formatted - Formatted to the KMF specifications
     -   Default output type: String
+-   JWT\_SIGN: Generate a JSON Web Token \(JWT\) signature using an asymmetric-key algorithm. Requires a KMF cryptographic module with a Signature Generation cryptographic purpose. The JWT header must be passed via the withAdditionalInput\(\) method. The generated JWT can be verified by external systems that have access to the public key material.
+    -   Additional builder methods:withAdditionalInput\(\)
+    -   Default input format: String, JWT payload in JSON format
+    -   Default output format: String, a complete JWT token \(header.payload.signature\)
+    -   Default output type: String
+-   JWT\_VERIFY: JSON Web Token \(JWT\) signature verification using an asymmetric-key algorithm. Requires a KMF cryptographic module with a Signature Verification cryptographic purpose.
+    -   Additional builder methods: None.
+    -   Default input format: String, a complete JWT token \(header.payload.signature\)
+    -   Default output format: String, containing validity status, decoded header, and decoded payload
+    -   Default output type: String. Returns a JSON object with signature validity \(true/false\) and decoded JWT components if verification succeeds. Can verify JWTs generated both within and outside the ServiceNow instance.
 -   MAC\_GENERATION: Generation of a Message Authentication Code \(MAC\). Symmetric-key algorithm based to provides data integrity and authentication. Requires a KMF cryptographic module with a Symmetric Authenticity cryptographic purpose.
     -   Additional builder methods: None
     -   Default input format: KMFBase64 - Base64 encoded
@@ -183,6 +193,28 @@ sn_kmf_ns.KMFCryptoOperation("global.sj_cm","ASYMMETRIC_DECRYPTION")
 
 var clearText = op.doOperation("afFS…");
 
+```
+
+This example shows how to generate and verify a JWT signature.
+
+```
+                                                                                         
+// Validating from instance
+   var moduleName = 'global.jwtimport'; // must have signature generation spec
+   var header = '{ "alg": "P5512","typ": "JWT"}'; // your header JSON as a string
+   var payload = '{"sub": "1234567890", "name": "John Doe", "admin": true, "iat": 1516239022)'; // your payload JSON as a string
+
+// SIGN
+   var api = new sn_kmf_ns.KMFCryptoOperation(moduleName, "JWT_SIGN").withAdditionalInput(header);
+   var token = api.doOperation(payload);
+   gs.info("sign = " + token);
+
+
+
+// VERIFY
+   api = new sn_kmf_ns.KMFCrypto0peration(moduleName, "JWT_VERIFY");
+   var verifyoutput = api.doOperation(token);
+   gs.info("verify = " + verifyOutput);
 ```
 
 ## KMFCryptoOperation - doOperation\(Object data\)

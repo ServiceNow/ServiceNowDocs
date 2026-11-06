@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Case Management, Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Resubmit an HR case for approval
@@ -47,5 +47,5 @@ HR cases: Approvals for HR cases use workflows. Do the following to resubmit a r
     **Note:** Approvers that do not have the sn\_hr\_core.manager role cannot access the HR case after the state changes to **Closed Complete**.
 
 
-**Parent Topic:**[HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

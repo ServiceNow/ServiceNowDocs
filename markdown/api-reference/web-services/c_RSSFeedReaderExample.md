@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [RSS feed reader, RSS web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Feed reader, RSS web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # RSS feed reader example

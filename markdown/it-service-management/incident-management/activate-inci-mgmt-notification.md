@@ -7,7 +7,7 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
@@ -40,5 +40,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

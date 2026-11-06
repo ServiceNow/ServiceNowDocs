@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configuring shipping, Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Integrate with a third-party shipping carrier in the Enterprise Asset Workspace
@@ -22,13 +22,15 @@ Role required: sn\_eam.enterprise\_admin
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Asset operations view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Asset operations view, navigate to **Shipment** &gt; **Shipping carriers**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Shipping** &gt; **Carrier integration**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_ic1_mmg_qxb"><thead><tr><th>
 
@@ -103,7 +105,7 @@ Notes
 Additional notes about the shipping carrier.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
 
 **Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)

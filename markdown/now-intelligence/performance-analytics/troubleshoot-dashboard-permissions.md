@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Dashboard permissions, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI dashboard permissions, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Solving permissions issues on a responsive dashboard
@@ -52,7 +52,7 @@ Role required: dashboard\_admin, pa\_admin
 
 [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
-[Organize dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_GroupDashboards.md)
+[Organize Core UI dashboards into groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_GroupDashboards.md)
 
 [How dashboard and dashboard group permissions interact on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_GroupDashboards.md)
 
@@ -99,7 +99,7 @@ Role required: admin
 
 ### About this task
 
-A dashboard is shared with a user with edit permissions. On some tabs, the user cannot add widgets. When the user selects **Add widgets**, nothing happens. The same user is able to add widgets to other tabs and dashboards. The cause for the problem is related to how the affected dashboard tab was created. If the dashboard tab was created in a [non-responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/non-responsive-dashboards.md) and the tab is linked to another dashboard tab, the affected user needs editing permissions on this other linked dashboard.
+A dashboard is shared with a user with edit permissions. On some tabs, the user cannot add widgets. When the user selects **Add widgets**, nothing happens. The same user is able to add widgets to other tabs and dashboards. The cause for the problem is related to how the affected dashboard tab was created.
 
 ### Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Enable Outside Counsel to be added to Legal Invention Disclosure matters
@@ -41,5 +41,5 @@ Role required: sn\_lg\_ip.patent\_config, sn\_lg\_matter.matter\_config
 
 [Associate an existing Outside Counsel to a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/add-outside-counsel-to-existing-matter.md)
 
-**Parent Topic:**[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/Activate-predictive-intl-fsm.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Predictive Intelligence for Field Service Management, Setting up FSM reports and analytics, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Predictive Intelligence for Field Service Management, FSM reports and analytics, Configure, Field Service Management]
 ---
 
 # Activate Predictive Intelligence for Field Service Management

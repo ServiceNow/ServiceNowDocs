@@ -1,5 +1,5 @@
 ---
-title: Legal Hold Notification Reference
+title: Legal Hold Notification reference
 description: Reference topics provide additional information about the components used in Legal Hold Notification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-ref.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: concept
-last_updated: "2025-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Legal Hold Notification Reference
+# Legal Hold Notification reference
 
 Reference topics provide additional information about the components used in Legal Hold Notification.
 

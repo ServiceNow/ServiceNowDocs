@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [List of Discovery probes, Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # vCenter probes and probe parameters
@@ -162,7 +162,7 @@ This probe relies on the statistics intervals configured for the vCenter. By def
  **Important:** To modify the default values for this probe, coordinate with the administrator responsible for the vCenter management. For more information, see [VMware documentation](https://communities.vmware.com/t5/Storage-Performance/vCenter-Performance-Counters/ta-p/2790328).
 
 </td></tr></tbody>
-</table>\*For more information, see [VMware tags]().
+</table>\*For more information, see [VMware tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md).
 
 Consider the following when setting these parameters:
 

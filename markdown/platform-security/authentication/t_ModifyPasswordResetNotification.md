@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Password Reset, Local Authentication, Authentication, Access Management]
+breadcrumb: [Password Reset, Local authentication, Authentication, Access Management]
 ---
 
 # Modify the Password Reset notification email text
@@ -22,7 +22,7 @@ Role required: password\_reset\_admin
 
 ## About this task
 
-This process is relevant only if users are [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_SubscriptionBasedNotifications.md).
+This process is relevant only if users are Subscription-based notifications.
 
 ## Procedure
 
@@ -32,6 +32,6 @@ This process is relevant only if users are [Subscription-based notifications](ht
 
 3.  Modify the text of the email in the **What it will contain** section.
 
-    For information on configuring other aspects of the notification, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateANotification.md).
+    For information on configuring other aspects of the notification, see Create an email notification.
 
 

@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/service-bridge-om-for-providers.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Integrate, Sales Customer Relationship Management]
 ---
 
 # Order Management for providers with Service Exchange
 
 The Service Exchange Order Management for Providers application enables service providers to use Order Management to create product offerings and service specifications that Service Exchange consumers can order from service catalogs in their ServiceNow instances. Order agents and fulfillers can then complete the orders and requests on the provider instance.
 
-## Overview of Service Exchange Order Management for Providers
+## Overview of Order Management for providers with Service Exchange
 
 The Service Exchange Order Management for Providers application supports the sales order and fulfillment process over Service Exchange. Published product offers and service specifications generate remote record producers \(RRPs\). These remote record producers create the remote catalog items that your consumers can order from the Service Portal on their instance.
 

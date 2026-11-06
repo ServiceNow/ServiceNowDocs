@@ -7,7 +7,7 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -18,13 +18,9 @@ Accept and assign a new improvement request so it can be assessed for approval. 
 
 ## Before you begin
 
+The Improvement Requester must create an improvement request.
+
 Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
-
-## About this task
-
-\[Omitted image "cim-accepted.png"\] Alt text: CIM accept and assign initiative
-
-Precondition: Improvement Requester created an improvement request.
 
 ## Procedure
 
@@ -36,17 +32,17 @@ Precondition: Improvement Requester created an improvement request.
 
 2.  Align the improvement request with company strategic objectives, and assign an Improvement Coordinator.
 
-    1.  On the Improvement Initiative form, unlock the **Strategies** field to access your company strategic objectives, then click the lookup list.
+    1.  On the Improvement Initiative form, unlock the **Strategies** field to access your company strategic objectives, then select the lookup list.
 
     2.  Select the [enterprise strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/overview-business-planning.md) aligned with the improvement request.
 
         **Note:** Only the Improvement Manager can create a strategy.
 
-    3.  Click the **CIM Coordinator** lookup list and select an Improvement Coordinator to manage the improvement.
+    3.  Select the **CIM Coordinator** lookup list and select an Improvement Coordinator to manage the improvement.
 
 3.  Complete the fields for business service, business process, priority, effort estimate, benefits, and why this improvement is important.
 
-4.  In the header bar, click **Accept** to progress the improvement request to the **Assess** state.
+4.  In the header bar, select **Accept** to progress the improvement request to the **Assess** state.
 
     Improvement Coordinator is notified of assignment.
 
@@ -73,7 +69,7 @@ As part of the acceptance process, the Improvement Manager determined that KPI p
 |Benefits|High|
 |Percent complete|0|
 |Short description|Improve average time to resolve an incident by 25%|
-|Business justification|Average time to resolve an incident time is bad compared to Industry average. I compared our value with global values from companies in the same industry using the Benchmarks application.|
+|Business justification|Average time to resolve an incident time is bad compared to Industry average. Compared company value with global values from companies in the same industry using the Benchmarks application.|
 
 |Field|Value|
 |-----|-----|

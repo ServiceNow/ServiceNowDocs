@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-price-list-line.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a price list line
@@ -16,11 +16,11 @@ Create a price list line and associate it to a product offering.
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Pricing** &gt; **Price Lists** and select the price list to which you're adding the price list line.
 
@@ -54,6 +54,14 @@ Name of the price list.
 
 </td></tr><tr><td>
 
+Code
+
+</td><td>
+
+System-generated alphanumeric number based on the price list name.
+
+</td></tr><tr><td>
+
 Product Offering
 
 </td><td>
@@ -70,7 +78,7 @@ Unit of measure for the product.
 
 </td></tr><tr><td>
 
-List price
+Base list price
 
 </td><td>
 
@@ -78,11 +86,19 @@ Price set for the product offering, which is the full price that a product or se
 
 </td></tr><tr><td>
 
+Derived price
+
+</td><td>
+
+Option that enables derived pricing \(also called related product pricing\) for product offerings associated with this price list line. For more information, see [Configuring derived pricing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-related-product-pricing.md).
+
+</td></tr><tr><td>
+
 Start Date
 
 </td><td>
 
-Starting date and time that the price list line is effective. Select the Calendar icon \(\[Omitted image "calendar-icon.png"\]\) to choose the start date and time, then select **OK**.
+Starting date and time that the price list line is effective. Select the Calendar icon \[Omitted image "calendar-icon.png"\] Alt text: to choose the start date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -90,7 +106,7 @@ End Date
 
 </td><td>
 
-Ending date and time that the price list line is no longer effective. After this time, the price list line is no longer active. Select the Calendar icon \(\[Omitted image "calendar-icon.png"\]\) to choose the end date and time, then select **OK**.
+Ending date and time that the price list line is no longer effective. After this time, the price list line is no longer active. Select the Calendar icon \[Omitted image "calendar-icon.png"\] Alt text: to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 

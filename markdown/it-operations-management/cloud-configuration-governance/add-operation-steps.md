@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Add operation steps to a resource block
@@ -47,7 +47,6 @@ Select the type of operation:
 -   **Invoke Cloud API**: Select this option to select a provider, interface, and method from CAPI.
 -   **Invoke Host Resource Operation**: Select this option to use an operation \(also called an operation signature\) from the host interface that you already specified for this resource block.
 -   **Invoke Script**: Select this option to invoke a method from an existing MID Server script include.
--   **Invoke Workflow**: Select this option to invoke a pre-existing workflow triggering operations on this resource block.
 -   **Invoke Flow**: Select this option to invoke subflows from a list of active subflows.
 
 
@@ -110,14 +109,6 @@ Scripts\[Operation Type = Invoke Script\]
 </td><td>
 
 Enter the script you want to invoke, along with a method in the script. Use this syntax: `script-name.method`.
-
-</td></tr><tr><td>
-
-Workflow\[Operation Type = Invoke Script\]
-
-</td><td>
-
-Do not use Workflow.
 
 </td></tr><tr><td>
 
@@ -184,12 +175,8 @@ Enter an optional condition that must be met before the system uses this step.
         -   `Output.resp` is a mandatory part of the syntax.
         -   `nodeId`
 
--   **[Add an operation to a resource block to use with a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-op-to-resource-for-wrkflw.md)**  
-You can select from the existing operations in a resource block to work with your workflow or you can create a custom operation.
--   **[Add a resource operation step to invoke a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-resource-op-step-invoke-wrkflw.md)**  
-You can invoke a workflow by adding an operations step to a resource and then associating the resource to a workflow.
 -   **[Add a resource operation step to invoke a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/add-resource-op-step-subflow.md)**  
-Invoke a subflow by adding an operations step to a resource and then associating the resource to a new or existing subflow.
+Invoke a subflow by adding an operation step to a resource and linking it to a new or existing subflow.
 
 **Parent Topic:**[Resource blocks in Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-blocks.md)
 

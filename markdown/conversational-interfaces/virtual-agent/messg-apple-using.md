@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with Apple Messages for Business, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational Integration with Apple Messages for Business
@@ -35,5 +35,5 @@ As a live agent interacting with a requester over the Apple Messages for Busines
 -   Share photos or videos.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+**Note:** If an administrator has configured the Apple Messages for Business service channel for transfer of chat conversations, then you can accept a work item from the Apple Messages for Business chat conversation in your Agent Workspace Inbox. For more information, see [Transfer Apple Messages for Business chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-apple-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 

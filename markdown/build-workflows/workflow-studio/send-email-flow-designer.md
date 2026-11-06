@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Workflow Studio actions, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Actions, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Send Email action
@@ -19,10 +19,6 @@ Send an email to specified users or groups as an action in a flow.
 ## Roles and availability
 
 Available as a Workflow Studio ServiceNow core action. Users with the flow\_designer or admin role can add an action to a flow and define configuration details.
-
-**Note:**
-
-Send Email requires the flow to run as a user with an active email address. System User doesn't have email configured by default, so your flow will fail if you use that account. Switch to a user with valid email and your flow is ready to send emails.
 
 ## Inputs
 

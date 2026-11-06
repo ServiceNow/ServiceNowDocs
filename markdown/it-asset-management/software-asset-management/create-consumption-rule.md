@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create consumption rules
@@ -44,7 +44,7 @@ Role required: sam\_user
 
 4.  Select **Save**.
 
-    The new consumption rule appears in the Consumption rules list view. You must [link this rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/link-consumption-rules.md) to one or many entitlements.
+    The new consumption rule appears in the Consumption rules list view. You must [link this rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/link-consumption-rules.md) to one or many entitlements. For details on how the system evaluates a linked consumption rule, see [Consumption rule evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/consumption-rule-evaluation.md).
 
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)

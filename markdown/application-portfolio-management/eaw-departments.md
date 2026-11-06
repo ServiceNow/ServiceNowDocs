@@ -1,16 +1,16 @@
 ---
-title: Manage departments
+title: Exploring departments
 description: Departments are specialized functional areas within an organization, having their own specified roles and objectives. Departments are subsets of business units.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-departments.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage departments
+# Exploring departments
 
 Departments are specialized functional areas within an organization, having their own specified roles and objectives. Departments are subsets of business units.
 
@@ -18,12 +18,14 @@ Each department contributes to the overall strategy and goals of its related bus
 
 You can also add users to a department.
 
--   **[View all departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-departments.md)**  
-You can view the list of all available departments in the Enterprise Architecture Workspace.
--   **[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-department.md)**  
-You can create or edit departments to effectively manage and optimize business applications by providing a structured approach to align the business applications with the strategic goals of the organization.
--   **[Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)**  
-You can add users to departments, thereby enabling the departments to perform their specific tasks and reach their desired objectives. Users can contribute to the decision-making process of a department by providing their insights. This leads to optimized usage of business applications and increased cost savings.
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)
 
-**Parent Topic:**[Working with business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)
+**Related topics**  
+
+
+[View all departments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-departments.md)
+
+[Add or edit a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-department.md)
+
+[Add a user to a department](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-new-user-to-a-deparment.md)
 

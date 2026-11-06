@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,13 +26,13 @@ Role required: it\_demand\_manager
 
 2.  Select the demand to which you want to add a request change.
 
-3.  From the Request Changes related list, click **New**.
+3.  From the Request Changes related list, select **New**.
 
 4.  On the Request Change form, fill in the fields.
 
     For a description of the field names, see [Request change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/request-change-form.md).
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 ## What to do next

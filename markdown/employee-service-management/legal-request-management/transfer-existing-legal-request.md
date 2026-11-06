@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work on a legal request, Managing legal requests, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Transfer a legal request
@@ -38,7 +38,7 @@ Role required: sn\_lg\_ops.request\_fulfiller
 
 4.  Open the legal request that you want to transfer.
 
-5.  Select the More Actions icon \(\[Omitted image "icon-ellipses.png"\] Alt text: More Actions icon.\) and then select **Transfer Request**.
+5.  Select the More Actions icon \(\[Omitted image "more-button-icon.png"\] Alt text: More Actions icon.\) and then select **Transfer Request**.
 
 6.  In the dialog box, fill in the fields.
 
@@ -101,12 +101,13 @@ Any comments that would be helpful in relation to the transfer of the legal requ
 ## Result
 
 -   The legal request is transferred to the selected practice area.
+-   When a request is transferred, the newly created request does not inherit the Privileged and Confidential setting from the parent legal request.
 -   A new request is created and the old request is canceled.
 -   The state of the new request is Draft.
 -   The fulfiller becomes the collaborator. Collaborators are assignees who have similar privileges as the person to whom the legal request is assigned.
 -   Any attachments in ServiceNow® storage or external storage like Google Drive and Microsoft OneDrive are transferred to the new request.
 -   After the request is sent to the requester, the fulfiller's name is moved from the Collaborators field to the Watch list.
--   The request state is changed to New after the variables are updated and submitted by the fulfiller or the requester.
+-   The request state is changed to New after the variables are updated and submitted by the fulfiller.
 
 **Parent Topic:**[Work on a legal request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/work-on-legal-request.md)
 

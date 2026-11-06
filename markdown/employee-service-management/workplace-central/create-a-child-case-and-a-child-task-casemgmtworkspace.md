@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -65,6 +65,7 @@ Role required: sn\_wsd\_case.manager
         |Description|Enter a detailed description about the case.|
         |Additional comments|Add any comments regarding the case. The comments are visible to the requester.|
         |Work notes|Add work notes to the case. The notes are visible only to you.|
+        |Time worked|Tracks the total time spent on a case or task. The timer starts at zero, tracks time until the record is saved or closed, and resumes when revisited. You can also manually adjust, pause, or resume the timer.|
 
     4.  To attach any file, select the Attachment icon \(\[Omitted image "casemgmt-attachementicon.png"\] Alt text: Attachment icon.\) on the side panel.
 
@@ -115,6 +116,10 @@ Role required: sn\_wsd\_case.manager
 [Work on a workplace case using Case management]()
 
 [Create a workplace service case]()
+
+[Print a workplace case]()
+
+[Managing print case]()
 
 [Cancel or delete a case]()
 

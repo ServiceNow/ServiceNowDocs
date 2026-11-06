@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-using.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Lead Management
@@ -27,4 +27,44 @@ The Lead Management interface contains the following tabs:
 |[Appointments tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-create-appointment.md)|Create appointments for your lead.|
 |[Line items tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-line-items-tab.md)|Add different line items to a lead.|
 |[Emails tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-emails-tab.md)|Create emails to communicate with the required stakeholders.|
+
+-   **[Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-new-lead.md)**  
+Create a lead in the Lead Management application by entering the details, such as customer name, sales stage, lead type, score, and source.
+-   **[Update a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-edit-update.md)**  
+Edit or update a lead in Lead Management.
+-   **[Assign a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-assign-lead.md)**  
+Assign a lead to a sales agent in Lead Management.
+-   **[Add and view the details of a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-details-tab.md)**  
+Use the Details tab to add more information about your lead.
+-   **[Add products to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-add-product.md)**  
+Use the Catalog tab in the Lead Management to add products to your lead.
+-   **[Get product recommendations for leads using needs analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-needs-analysis.md)**  
+Choose a needs template from the product selection guide in the product catalog to get product recommendations for sales leads.
+-   **[Add line items to a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-line-items-tab.md)**  
+Create a new product line item for your lead by entering the details, such as product offering and quantity.
+-   **[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-tasks-tab.md)**  
+Create lead tasks to follow-up calls, emails, or meetings with your to progress on the lead.
+-   **[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/manage-touchpoints-lead.md)**  
+View, create, and delete touchpoints associated with a lead from the touchpoints related list.
+-   **[Compose emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-emails-tab.md)**  
+Create an email to communicate the product information to your customer as per the business requirements.
+-   **[Schedule a meeting from a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/schedule-meeting-lead.md)**  
+Schedule a client meeting directly from a lead record to associate it with the lead.
+-   **[Manage leads using Kanban view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-kanban-view.md)**  
+Personalize and manage the leads information that is most relevant to you and your stakeholders using the Kanban view.
+-   **[Convert a lead into an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-convert-lead.md)**  
+Convert a lead into an opportunity in Lead Management.
+-   **[Disqualify a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-disqualify-lead.md)**  
+Disqualify a lead in Lead Management.
+-   **[Export leads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-export-leads.md)**  
+You can export a quote as a JSON file in Lead Management and provide it to a customer.
+
+**Parent Topic:**[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-opportunity-mgt.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configuring shifts for your workplace
@@ -38,6 +38,8 @@ Associate work areas and spaces with a shift in Workplace Core so that they are 
 
 [Configure Workplace entity and entity types]()
 
+[Managing Neighborhoods]()
+
 [Enable favorites option for Workplace Service Portal]()
 
 [Create a workplace performer criteria]()
@@ -62,5 +64,5 @@ Associate work areas and spaces with a shift in Workplace Core so that they are 
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

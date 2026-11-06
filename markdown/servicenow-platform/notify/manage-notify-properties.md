@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Notify Cisco Webex Connector, Configure, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure Notify Cisco Webex Connector, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Manage Notify properties
@@ -18,7 +18,7 @@ Manage the Notify Webex Connector application properties to configure the meetin
 
 ## Before you begin
 
-Role required: admin
+Role required: notify\_setup\_admin
 
 ## Procedure
 

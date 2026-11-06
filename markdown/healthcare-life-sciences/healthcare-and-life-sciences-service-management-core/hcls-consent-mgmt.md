@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -35,7 +35,7 @@ A document policy requires a consent form to be reviewed, signed, or both by a p
 
 With the Document template policy type, a to-do item is created for the patient to sign the consent form.
 
-You must configure the document that needs to be signed by a patient, create decision rules for it, and reference the document in the policy. For more information, see [Configuring document templates for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-doc-templates.md).
+You must configure the document that needs to be signed by a patient, create decision rules for it, and reference the document in the policy. For more information, see [Configure document templates for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-doc-templates.md).
 
 **Note:** You can associate only one active policy with a document template.
 

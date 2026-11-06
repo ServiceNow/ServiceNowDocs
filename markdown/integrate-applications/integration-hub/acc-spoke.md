@@ -1,15 +1,15 @@
 ---
 title: Agent Client Collector Spoke
-description: Automate the process of executing commands on agents or configuration items \(CI\) using the ServiceNow Agent Client Collector spoke. Agent Client Collector framework allows you to execute commands on the systems where it is installed and sends output data to the ServiceNow instance through the MID Server. Also reuse this short description in the release notes.
+description: Automate the process of executing commands on agents or configuration items \(CI\) using the ServiceNow Agent Client Collector spoke. Agent Client Collector framework allows you to execute commands on the systems where it is installed and sends output data to the ServiceNow instance through the MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/acc-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-04-29"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Agent Client Collector Spoke
@@ -18,7 +18,7 @@ Automate the process of executing commands on agents or configuration items \(CI
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Agent Client Collector spoke v1.2.0 is the latest version.
+Agent Client Collector spoke v1.2.0 is the latest version. For version history of the spoke, see [Agent Client Collector Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-agent-client-collector.html).
 
 ## Supported versions
 
@@ -47,10 +47,6 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 
 **Note:** Some of these plugins are licensable features and require appropriate licenses, if used outside the spoke implementation.
-
-## Spoke requirements
-
-MID Server. For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-landing.md).
 
 ## Spoke subflows
 

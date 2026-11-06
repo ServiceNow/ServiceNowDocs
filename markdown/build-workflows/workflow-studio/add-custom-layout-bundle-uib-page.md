@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize the Playbook Experience, Designing playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add a custom layout bundle to a UI Builder page
@@ -136,6 +136,4 @@ You've added a bundle and all its components, presets, and controller to your ne
 ## What to do next
 
 Edit test values and controller inputs.
-
-**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
 

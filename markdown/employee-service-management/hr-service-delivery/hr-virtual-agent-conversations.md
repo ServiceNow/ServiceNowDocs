@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -56,8 +56,6 @@ The following predefined, HR Service Delivery Virtual Agent topics are available
 -   Employee Info Update \(Template\)
 
 **Note:** Employee info update topic enables you to update information like Email, Address and Phone number, at one place instead of going to the individual topics separately.
-
-**Warning:** General HR Inquiry is no longer available as one of the predefined topics.
 
 A topic defines the dialog between the Virtual Agent \(chat support bot\) and user to accomplish a specific goal. The information exchanged during the conversation flow \(user inputs and bot responses\) enables the chatbot to fulfill a user request or assist a user in completing a task.
 
@@ -122,7 +120,7 @@ Get pre-built topics or create new topics from the recommended topics for HR Ser
 
 \[Omitted image "topic-recom-setting.png"\] Alt text: Topic recommendation setting.
 
-For HR Cases, this default setting is shipped with Taxonomy preselected to HRSD and the Filtered by setting set to display the cases created after the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-topic-recommendations.md).
+For HR Cases, this default setting ships with Taxonomy preselected to HRSD. The Filtered by setting displays cases created in the last 90 days. For more information on Topic Recommendations, see [Using Virtual Agent Topic Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-topic-recommendations.md).
 
 In the Topic Recommendations page, under Get new recommendations, select **HR Cases** and click on **Get new recommendations**. Once the new recommendations are available, select your preferred recommendations and add them to the Virtual Agent using the **Add to VA** option. For more information, see [Topic Recommendations page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/topic-recommendations-page.md).
 
@@ -142,7 +140,7 @@ Activate Virtual Agent for HR Service Delivery to provide user assistance throug
 
 ### Before you begin
 
-Role required: admin
+Role required: virtual\_agent\_admin
 
 ### About this task
 
@@ -186,7 +184,7 @@ Setting up Virtual Agent or Virtual Agent with NLU for HR Service Delivery requi
 
 ### Before you begin
 
-Role required: admin, virtual\_agent\_admin
+Role required: virtual\_agent\_admin
 
 The base system provides predefined Virtual Agent and Virtual Agent NLU topics \(chatbot conversations\).
 
@@ -241,7 +239,7 @@ You can only customize the greeting experience for Virtual Agent setup topics. C
 |Fallback|Fallback Topic|
 |Explore Help|Virtual Agent Capabilities|
 
-Role required: virtual\_agent\_admin or admin
+Role required: virtual\_agent\_admin
 
 ### Procedure
 
@@ -289,7 +287,7 @@ For HR Service Delivery Virtual Agent users, six deflection patterns are availab
 |HR VA Service Case Not Created|HR general inquiry case created|No deflection|
 |HR VA Info-Not-Found|Information not found|No deflection|
 
-If the user interacts with a Virtual Agent topic that has deflection defined, the deflection data is captured automatically in the background without changing the user experience. This deflection outcome of matched patterns is then recorded for analysis. You can access this information by navigating to **All** &gt;**Self-Service Analytics** &gt; **Deflection Metric**.
+If the user interacts with a Virtual Agent topic that has deflection defined, the deflection data is captured automatically in the background without changing the user experience. This deflection outcome of matched patterns is then recorded for analysis. You can access this information by navigating to **All** &gt; **Self-Service Analytics** &gt; **Deflection Metric**.
 
 **Note:** The default deflection patterns in the HR Service Delivery Virtual Agent are not customizable. To modify a deflection pattern, you have to clone it, make the necessary changes, activate it and then publish the pattern.
 

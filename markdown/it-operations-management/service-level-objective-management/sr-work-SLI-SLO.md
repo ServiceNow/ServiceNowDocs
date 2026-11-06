@@ -1,5 +1,5 @@
 ---
-title: Working with reliability metrics
+title: Reliability metrics in SLO Management
 description: Learn about the reliability metrics and features that can help you track service health, respond to issues, and support business goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring SLO Management, Service Level Objective Management, ITOM Health, IT Operations Management]
+breadcrumb: [Exploring SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Working with reliability metrics
+# Reliability metrics in SLO Management
 
 Learn about the reliability metrics and features that can help you track service health, respond to issues, and support business goals.
 
@@ -47,8 +47,6 @@ The Reliability metrics tab shows how well a specific service is meeting its rel
 
 To view the Reliability metrics tab in Service Operations Workspace, navigate to **Services \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\)** &gt; **\[Your service\]** &gt; **Reliability Metrics**.
 
-\[Omitted image "sr-slo-list-view.png"\] Alt text: The Reliability metrics tab shows a list of SLOs for the User Authentication service.
-
 See these links to learn more about what you can do in the Reliability metrics tab:
 
 -   [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md)
@@ -57,24 +55,25 @@ See these links to learn more about what you can do in the Reliability metrics t
 
 ## Service level objectives table
 
-On the Reliability metrics tab, the Service level objectives table includes the following details about the selected service:
+On the Reliability metrics tab, the Service level objectives table includes the following details about the service SLOs:
 
--   **Service level objective**: Name of the SLO. The SLO is a target value or the objective that your team must reach to meet your service level agreement \(SLA\).
--   **SLI type**: Performance category being measured:
-    -   Availability: Percentage of time your service or configuration item is available, also known as uptime.
-    -   Errors: Frequency of your service errors.
-    -   Latency: Time that it takes to service a request.
-    -   Saturation: Fullness of your system, focusing on resource usage.
--   **Compliance period**: Time window used to calculate performance:
-    -   Month: Current month, for example, if the current date is January 26, the month is January 1 through January 31.
-    -   Rolling 7, 30, or 90 days: Number of days from the current date. For example, for rolling 7 days, the duration is 7 days back from the current date.
--   **State**: Status of the SLO, such as draft, running, or retired.
--   **Objective \(percentage\)**: Target percentage of SLI performance.
--   **Limit occurrences**: Number of limit breaches that have occurred. Used by count-based SLOs only.
--   **Service level indicator**: SLI associated with the SLO.
--   **Error budget**: Allowable failure time for the compliance period, calculated using the compliance period and objective \(percentage\).
--   **Remaining error budget**: Error budget still available.
--   **Remaining breach occurrences**: Number of breaches still available before the limit is reached.
+-   **Name** - Name of the SLO. You can select the name to view the SLO record.
+-   **Reliability** - Current state of the SLO. For example, stable, at risk, or critical.
+-   **% Error budget remaining** - Percentage of the error budget still available in the current compliance period.
+-   **Compliance period** - Time window used to calculate performance:
+    -   Month - Current month, for example, if the current date is January 26, the month is January 1 through January 31.
+    -   Rolling 7, 30, or 90 days - Number of days from the current date. For example, for rolling 7 days, the duration is 7 days back from the current date.
+-   **SLI type** - Performance category being measured:
+    -   Availability - Percentage of time your service or configuration item is available, also known as uptime.
+    -   Errors - Frequency of your service errors.
+    -   Latency - Time that it takes to service a request.
+    -   Saturation - Fullness of your system, focusing on resource usage.
+-   **Source type** - Origin of the data used to calculate the SLIs for this SLO:
+    -   Alert - Uses alerts from integrated monitoring tools.
+    -   Outage - Uses outages detected by monitoring tools and reported by users. An outage indicates when the service was unavailable. This source type excludes planned outages, such as scheduled maintenance.
+-   **Updated** - The date and time the SLO was last edited.
+-   **Updated by** - The user name of the person who last edited the SLO.
+-   **State** - Status of the SLO. For example, running or retired.
 
 **Note:** For performance purposes, SLO and SLI records \(\[sn\_sow\_srm\_slo\_history\] and \[sn\_sow\_srm\_sli\_metric\]\) are archived after one year and deleted five years later. Archived data is omitted from tables and visualizations.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Skills Foundation, Talent Development, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Exploring Skills Foundation
@@ -24,7 +24,7 @@ The core capability of the platform is the underlying technology that resides in
 
 ## Skills Foundation for Talent Development
 
-The Skills Foundation engine acts as the foundational layer that powers all the capabilities within Talent Development. Talent Development applications use skills at its core to guide managers and employees through their career plans. This approach not only supports individual development but also contributes to achieving better business outcomes. For more information, see [Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+The Skills Foundation engine acts as the foundational layer that powers all the capabilities within Talent Development. Talent Development applications use skills at its core to guide managers and employees through their career plans. This approach not only supports individual development but also contributes to achieving better business outcomes. For more information, see [Growth Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
 
 **Note:** Skills Foundation is only integrated with Talent Development applications.
 

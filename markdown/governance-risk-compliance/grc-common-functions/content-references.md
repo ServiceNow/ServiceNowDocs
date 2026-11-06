@@ -1,13 +1,13 @@
 ---
 title: Content references in GRC
-description: You can add tags to virtually any type of record defined in GRC applications that reference GRC content packs, integrations, use case accelerators, or any new regulations that use those records. After the records have been tagged, you can filter the content reference tags to identify which records are used within each application.As you are analyzing any of the many types of records available in GRC applications, it is easy to add a content reference tag so the record can be included when you perform searches for records associated with a given integration, content pack, use case accelerator, and so forth.You can define new content reference tags, as needed, to accommodate new regulations as they arise. You can define new tags in any GRC application, and they are then available in all GRC applications.
+description: You can add tags to virtually any type of record defined in GRC applications that reference GRC content packs, integrations, use case accelerators, or any new regulations that use those records. After the records have been tagged, you can filter the content reference tags to identify which records are used within each application.As you're analyzing any of the many types of records available in GRC applications, it is easy to add a content reference tag so the record can be included when you perform searches for records associated with a given integration, content pack, use case accelerator, and so forth.You can define new content reference tags, as needed, to accommodate new regulations as they arise. You can define new tags in any GRC application, and they are then available in all GRC applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/content-references.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -56,7 +56,7 @@ In the GRC Audit Management, Policy and Compliance Management, and Risk Manageme
 
 ## Add content reference tags to records
 
-As you are analyzing any of the many types of records available in GRC applications, it is easy to add a content reference tag so the record can be included when you perform searches for records associated with a given integration, content pack, use case accelerator, and so forth.
+As you're analyzing any of the many types of records available in GRC applications, it is easy to add a content reference tag so the record can be included when you perform searches for records associated with a given integration, content pack, use case accelerator, and so forth.
 
 ### Before you begin
 
@@ -72,27 +72,25 @@ Role required: admin
 
     \[Omitted image "content-reference-policy-excp.png"\] Alt text: Content reference related list in a policy exception record
 
-2.  Scroll down and click the **Content References** related list.
+2.  Scroll down and select the **Content References** related list.
 
     \[Omitted image "content-reference-policy-excp-new.png"\] Alt text: Content References related list with New and Edit buttons
 
-3.  Click **Edit**.
+3.  Select **Edit**.
 
     \[Omitted image "content-reference-slushbucket.png"\] Alt text: Sluchbucket for adding content reference tags
 
-4.  Click **Save**.
+4.  Select **Save**.
 
-    Move the integrations, use case accelerators, and so forth to which you want to associate with this policy exception record from the **Collection** box to the **Content References List**, then click **Save**. In this example, policy exception record PER0000105 has been tagged as being associated with the NIST RMF Use Case Accelerator.
-
-    \[Omitted image "content-reference-policy-excp-tag-added.png"\] Alt text: Policy exception record tagged for GDPR DPIA use case accelerator
+    Move the integrations, use case accelerators, and so forth to which you want to associate with this policy exception record from the **Collection** box to the **Content References List**, then select **Save**. In this example, policy exception record PER0000105 has been tagged as being associated with the NIST RMF Use Case Accelerator.
 
 5.  Navigate to the **Content References** module under that application and select the associated use case accelerator.
 
-    To view all records tagged for a specific use case accelerator within a specific GRC application, For example, to see all records tagged with content references in Risk Management for the SOX content pack, navigate to **Risk** &gt; **Administration** &gt; **Content References**, and click **SOX**.
+    To view all records tagged for a specific use case accelerator within a specific GRC application, For example, to see all records tagged with content references in Risk Management for the SOX content pack, navigate to **Risk** &gt; **Administration** &gt; **Content References**, and select **SOX**.
 
     \[Omitted image "content-reference-sox.png"\] Alt text: Records tagged as content references to SOX
 
-6.  Click any of the related lists that show a number to see the records tagged as content references for SOX.
+6.  Select any of the related lists that show a number to see the records tagged as content references for SOX.
 
 
 ## Create content reference tags
@@ -111,7 +109,7 @@ Role required: admin
 
     \[Omitted image "content-reference-oob-tags.png"\] Alt text: Content references included in base system
 
-2.  Click **New**.
+2.  Select **New**.
 
     \[Omitted image "content-reference-new-record.png"\] Alt text: Content Reference new record
 
@@ -119,7 +117,7 @@ Role required: admin
 
     **Note:** The **Version** number can be the software version released from the ServiceNow Store
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     The new content reference tag is added to the list and is available from the Content Reference module in the GRC Audit Management, Policy and Compliance Management, and Risk Management applications.
 

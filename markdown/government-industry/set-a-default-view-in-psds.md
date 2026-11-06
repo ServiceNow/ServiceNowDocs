@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/set-a-default-view-in-psds.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Optional configuration steps for Public Sector Digital Services Core, Install and configure the Public Sector Digital Services Core application, Set up your environment, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Optional configuration steps, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Set a default view for Items Received in the Public Sector Digital Services platform

@@ -7,16 +7,16 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Training agents using Coaching With Learning, Coaching, IT Service Management]
+breadcrumb: [Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
 
 # Managing your coaching assessments
 
 Employees, or trainees, are assessed on work they have done that has triggered a coaching opportunity. Once assessed, the trainee is assigned training by the coach. Use the Trainee Dashboard to manage your assessments and track results.
 
-You can access the Trainee Dashboard from the Coaching navigation menu, or directly from the dashboard list. Click a report to view the detailed data.
+You can access the Trainee Dashboard from the Coaching navigation menu, or directly from the dashboard list. Select a report to view the detailed data.
 
 **Note:** You must have the Coaching trainee role to view your Trainee Dashboard.
 
@@ -41,5 +41,5 @@ The Trainee Dashboard lets you manage your assessments and track results.
 -   **[Work with your coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-work-with-your-coach.md)**  
 Use your assessments to work with your coach, including assigned training and due dates. You can view your assessments and track your results using the Trainee Dashboard.
 
-**Parent Topic:**[Training agents using Coaching With Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-train-your-agents.md)
+**Parent Topic:**[Training agents using Coaching with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-train-your-agents.md)
 

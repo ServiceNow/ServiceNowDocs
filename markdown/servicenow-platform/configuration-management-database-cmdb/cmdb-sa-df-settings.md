@@ -7,10 +7,10 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-07-28"
-reading_time_minutes: 1
-keywords: [Data Foundations settings assessment, CMDB Data Manager policies review, reconciliation rules review, CI creation from assets using IRE, CI classes missing managed by group]
-breadcrumb: [Analyze CMDB settings, Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-28"
+reading_time_minutes: 2
+keywords: [Data Foundations settings assessment, CMDB Data Manager policies review, reconciliation rules review, CI creation from assets using IRE, CI classes missing managed by group, Sync managed by group business rule]
+breadcrumb: [Analyze CMDB settings, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB and Data Foundations settings assessed in the CMDB success advisor
@@ -55,6 +55,14 @@ Shows principal CI classes that do not have a **Managed by group** field configu
 
 </td></tr><tr><td>
 
+Sync managed by group
+
+</td><td>
+
+Makes sure that the managed by group field value syncs to CIs by checking whether the Sync managed by group business rule is active.
+
+</td></tr><tr><td>
+
 Review custom attributes
 
 </td><td>
@@ -92,5 +100,5 @@ Marks CIs as retired when no longer in use.
 </table>**Related topics**  
 
 
-[Administer Data Manager in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
+[Administer CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/administer-data-manager.md)
 

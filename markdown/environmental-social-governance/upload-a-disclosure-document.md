@@ -1,18 +1,18 @@
 ---
 title: Upload a disclosure document
-description: Upload locally created disclosures in the ESG Management application instance.
+description: Upload locally created disclosures in the Operational Sustainability Management application instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/upload-a-disclosure-document.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a narrative disclosure on local system, Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Upload a disclosure document
 
-Upload locally created disclosures in the ESG Management application instance.
+Upload locally created disclosures in the Operational Sustainability Management application instance.
 
 ## Before you begin
 

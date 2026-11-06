@@ -7,7 +7,7 @@ release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workflow management, Classic Workflow, Build workflows]
 ---
@@ -20,8 +20,12 @@ Automate a multi-step process by creating a workflow with the Workflow Editor.
 
 Role required:
 
--   You must have the workflow\_admin or workflow\_creator role to use the Workflow Editor.
+-   You must have the snc\_required\_script\_writer\_permission and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
 -   If you are designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
+
+## About this task
+
+**Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
 ## Procedure
 

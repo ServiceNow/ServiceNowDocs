@@ -1,23 +1,26 @@
 ---
 title: ServiceNow AI Platform core feature release notes
-description: The ServiceNow ServiceNow AI Platform core features provide functionalities to applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Yokohama release.The ServiceNow ServiceNow AI Platform core features provide functionalities to applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Yokohama release.The ServiceNow ServiceNow AI Platform core features provide functionalities to applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Yokohama release.
+description: The ServiceNow AI Platform core features provide configurations for global ServiceNow AI Platform behavior and behavior in some ServiceNow AI Platform applications. See the following sections for release notes by version.Cross-scope access security enforcement for the getRefRecord\(\) JavaScript API is improved and the default behavior of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed in this patch.Troubleshoot MCP server connections and tool calls from the system logs.Enhancements to AI indicators, HTML editor upgrade to TinyMCE 8.3.0, improved JavaScript engine features, and new configuration options for choice fields and exports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/core-platform-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ServiceNow AI Platform core feature release notes
 
-The ServiceNow® ServiceNow AI Platform core features provide functionalities to applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Yokohama release.
+The ServiceNow AI Platform® core features provide configurations for global ServiceNow AI Platform behavior and behavior in some ServiceNow AI Platform applications. See the following sections for release notes by version.
 
-## About ServiceNow AI Platform core feature
+## About ServiceNow AI Platform
 
--   Streamline how you access help content on the system events and job scheduling dashboard by accessing the appropriate help content in each tab.
--   Insert, update, and delete data in an external data source from a remote table.
+-   Access platform capabilities, discover new applications, and get intelligent, actionable insights.
+-   Install and manage licensed applications and plugins for your instance and understand your subscriptions and entitlements.
+-   Configure core features, such as tables and data, users, search, notifications, and localization.
+-   Maintain and monitor the ServiceNow AI Platform to identify issues or enhance performance.
+-   Plan and manage ServiceNow AI Platform upgrades to patches and new releases.
 
 See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/intro-now-platform-landing.md) for more information.
 
@@ -27,90 +30,94 @@ See [Administer the ServiceNow AI Platform](https://raw.githubusercontent.com/Se
 
     The ServiceNow AI Platform core features are active by default.
 
+    To use Multi-Instance Setup, you must install it from the ServiceNow Store and activate the AMF Core plugin. For more information, see .
+
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)
 
-## May 2026
+## Brazil Patch 2
 
-The ServiceNow® ServiceNow AI Platform core features provide functionalities to applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Yokohama release.
+Cross-scope access security enforcement for the getRefRecord\(\) JavaScript API is improved and the default behavior of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed in this patch.
+
+### What's changed
+
+-   **Improved cross-scope access security enforcement for getRefRecord\(\) JavaScript API**
+
+    The cross-scope security mechanism has been strengthened, supporting consistent application of authorization rules. For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985).
+
+-   **[Default value of glide.sys.fencing.restricted\_caller\_access.invalidation\_mode is SCRIPT\_ENGINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md)**
+
+    The default value of the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property changed from DB\_LISTENER to SCRIPT\_ENGINE. When the property is set to SCRIPT\_ENGINE, and an update set contains a script with changes, the script engine doesn't invalidate associated RCA records. To enable a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits, set the value to DB\_LISTENER.
+
+
+## Brazil Patch 1
+
+Troubleshoot MCP server connections and tool calls from the system logs.
 
 ### What's new
 
--   **Enhance instance security for sandbox scripts with guarded script**
+-   **MCP server logging**
 
-    The guarded script evaluator restricts the JavaScript features and APIs available to untrusted, client-generated scripts running in the script sandbox environment. Beginning with the Yokohama Patch 13 release, incompatible scripts sent to the server by guest users are rejected on all instances by default. Scripts sent by authenticated users are evaluated using a phased approach to enforcement that varies by the type of instance to provide time to detect and review incompatible scripts before rejecting them. Scripts that use unsupported features are recorded in the Incompatible Guarded Scripts list, where you can rewrite them or create exemptions for scripts that can't be rewritten.
+    Troubleshoot MCP server connections and tool calls by enabling logging for MCP servers and reviewing the system logs.
 
 
-## Yokohama
+## Brazil Early Availability
 
-The ServiceNow® ServiceNow AI Platform core features provide functionalities to applications and other parts of the ServiceNow AI Platform. The ServiceNow AI Platform core features were enhanced and updated in the Yokohama release.
+Enhancements to AI indicators, HTML editor upgrade to TinyMCE 8.3.0, improved JavaScript engine features, and new configuration options for choice fields and exports.
 
 ### What's new
 
--   **[Add dynamic attributes to a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/add-dynamic-attributes-dynamic-category.md)**
+-   **Set up cross-instance communication**
 
-    Add individual attributes or a group of attributes to a dynamic category.
+    Run a scan to discover non-production instances related to a production instance and connect instances using the Multi-Instance Setup application \(sn-app-amf\). Multi-Instance Setup supports cross-instance communication with other ServiceNow applications and provides a single interface to view and monitor connections.
 
--   **[Reference a dynamic attribute or a list of dynamic attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-dynamic-schema-reference.md)**
+-   **AI indicators now visible in Core UI lists**
 
-    Build a dependency between a dynamic attribute store field and either a dynamic attribute or a list of dynamic attributes.
+    Rows in Core UI lists that are created or modified by an AI agent now display an AI indicator. The indicator clears automatically when a user makes an inline edit to the row, keeping the indicator accurate as data changes.
 
--   **[Edit data in remote tables on an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-remote-table-script.md)**
+-   **Caching for repeated metadata queries**
 
-    Insert, update, and delete data in an external data source from a remote table on an instance when you enable editing for the table. Customize the script definitions that enable you to insert, update, or delete data from a remote table.
+    The platform caches repeated metadata queries to optimize processing of metadata requests.
+
+-   **Monitor daily slow-pattern trends**
+
+    Track day-over-day trends in slow-pattern data with daily snapshots that automatically identify new or worsening patterns. High-significance changes are highlighted in list views, helping you quickly spot meaningful changes and prioritize investigation efforts. Built-in data retention and filtering keep historical comparisons accurate and relevant for up to 33 days.
 
 
 ### What's changed
 
--   **[Updated Access Control Lists \(ACLs\) for Transaction tables and Session Management tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/exploring-access-control-list.md)**
+-   **AI indicators updated for form fields**
 
-    The ACLs for a number of Transaction Management tables and Session Management tables have been updated to enhance security using a combination of Deny and Allow ACLs. All new ACLs have a security attribute. You must have the security attribute to add to the role list of an ACL. For more information, see [Configure an ACL rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_CreateAnACLRule.md), [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/acl-denial-behavior.md), and .
+    AI indicators for form fields in Core UI and configurable workspaces now support AI color gradients and have been updated to reflect the latest ServiceNow Otto name and iconography.
 
-    The updated Transaction Management tables include:
+-   **[TinyMCE version 8.3.0 upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UseHTMLFields.md)**
 
-    -   syslog
-    -   syslog\_ajax
-    -   syslog\_email
-    -   syslog\_transaction
-    -   syslog\_script
-    The updated Session Management tables include:
+    The HTML editor in Core UI and configurable workspaces is upgraded from TinyMCE version 6.8.2 to version 8.3.0.
 
-    -   sys\_audit
-    -   sys\_security\_acl
-    -   sys\_user\_auth
-    -   sys\_user\_session
--   **[Configuring plugins for the TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-the.md-plugins-for-tinymce.md)**
+-   **[Text pattern configuration in the HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-the.md-system-properties-in-tinymce.md)**
 
-    The Accessibility Checker \(a11ychecker\) plugin is now available in the TinyMCE HTML editor. The plugin identifies WCAG and Section 508 accessibility violations and provides an auto-repair feature where applicable. To configure the plugin, see [Change the TinyMCE HTML editor plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-the.md-plugins-for-tinymce.md). Additional configurations to the accessibility rules, like changing the WCAG level and HTML versions can also be done via **TinyMCEconfigscript** script.
+    Text patterns in the HTML editor can now be turned on or off using the **glide.ui.html.editor.textpatterns** system property.
 
--   **[Field types supported in a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md)**
+-   **[Configurable choice field empty option labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md)**
 
-    The following field types are now supported for use in a configurable workspace:
+    Configure choice fields to display either None or --None-- for empty options using the **glide.ui.choice.display\_none** system property.
 
-    -   Documentation\_field
-    -   Domain\_path
-    -   HTML\_Script
-    -   Long
-    -   Longint
-    -   multi\_small
-    -   Order index
-    -   Radio
-    For more information, see [Field types reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+-   **[Base cross-scope access on the latest source code updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md)**
 
--   **[Specify the tables that a REST API access policy restricts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-api-access-policy.md)**
+    Control how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set with the glide.sys.fencing.restricted\_caller\_access.invalidation\_mode system property.
 
-    Specify the tables that a Table REST API access policy applies to on the API Access Policy form.
+    **Note:** In the Brazil Early Availability and Brazil Patch 1 releases, the default value is DB\_LISTENER. Beginning with the Brazil Patch 2 release, the default value is SCRIPT\_ENGINE.
 
--   **[Use ISO currency codes with the FX Currency field type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/fx-currency.md)**
+-   **ECMAScript 2021 \(ES12\) JavaScript mode supports additional scripting features**
 
-    Use three-digit ISO 4217 currency codes from the **Numeric code** field on the Currency \[fx\_currency\] table with fields of the FX Currency field type.
+    Use additional scripting features in applications or scripts that use the ECMAScript 2021 \(ES12\) JavaScript mode.
 
--   **[Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/sorting-session-language.md)**
+-   **JavaScript engine updated with changes from the Rhino engine**
 
-    Configure whether string values in columns are sorted according to the user's session language or English.
+    The JavaScript engine on the ServiceNow AI Platform was updated to incorporate changes from the open-source Rhino JavaScript engine.
 
--   **[Columnstore index type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateCustomIndex.md)**
+-   **[Configure row threshold for exports to Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ExportLimits.md)**
 
-    Optimize data storage and retrieval by creating a columnstore index. This index type is available with RaptorDB Professional.
+    Configure the row limit for exports to Excel using the properties **glide.export.xls.max.rows.per.sheet** and **glide.export.xlsx.max.rows.per.sheet**.
 
 

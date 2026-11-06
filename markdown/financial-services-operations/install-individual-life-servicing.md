@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/install-individual-life-servicing.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Individual Life Servicing, Individual Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Install Individual Life Servicing
@@ -17,7 +17,7 @@ You can install the Individual Life Servicing application \(sn\_ins\_indiv\_life
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the[Individual Life Servicing](https://store.servicenow.com/sn_appstore_store.do#!/store/application/3d80728a772a4110e64632b61e5a992b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the [Individual Life Servicing](https://store.servicenow.com/sn_appstore_store.do#!/store/application/3d80728a772a4110e64632b61e5a992b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
 
@@ -50,7 +50,7 @@ For more information, see [Components installed with Individual Life Servicing](
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

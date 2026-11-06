@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Requesting and receiving required parts, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Requesting and receiving required parts, Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Transfer part orders through the Field Service Contractor Portal
@@ -46,15 +46,15 @@ You can process only transfer orders that contain parts sourced from a warehouse
     -   The short description text for the transfer order line task for drop off is "Receive" and the state is Open.
 6.  Drop off or prepare for shipment.
 
-<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d110724e129">
+<table id="choicetable_mhs_zj4_rhb"><thead><tr><th align="left" id="d124702e137">
 
 To
 
-</th><th align="left" id="d110724e132">
+</th><th align="left" id="d124702e140">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d110724e138">
+</th></tr></thead><tbody><tr><td id="d124702e146">
 
 **Prepare for shipment**
 
@@ -96,7 +96,7 @@ This task has the short description text "Deliver" and the state Open.
 
 This task automatically moves to the Closed Complete state.
 
-</td></tr><tr><td id="d110724e220">
+</td></tr><tr><td id="d124702e228">
 
 **Drop off**
 
@@ -121,5 +121,3 @@ The task moves to the Closed Complete state.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
-

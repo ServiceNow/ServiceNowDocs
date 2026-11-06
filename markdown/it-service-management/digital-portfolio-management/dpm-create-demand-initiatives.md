@@ -1,20 +1,20 @@
 ---
 title: Create demand from Digital Portfolio Management
-description: Create demand using the Digital Portfolio Management \(DPM\) application. DPM enables you to create demand for any business or technical services that you own.
+description: Create demand using the Digital Portfolio Management \(DPM\) application. DPM enables you to create demand for any business or technology management services that you own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-create-demand-initiatives.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
 
 # Create demand from Digital Portfolio Management
 
-Create demand using the Digital Portfolio Management \(DPM\) application. DPM enables you to create demand for any business or technical services that you own.
+Create demand using the Digital Portfolio Management \(DPM\) application. DPM enables you to create demand for any business or technology management services that you own.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ You can manage and create demands for services or service offerings that you own
 
 1.  Navigate to **All** &gt; **Digital Portfolio Management** &gt; **Digital Portfolio Management Workspace &gt; Personal Portfolios**
 
-2.  To create demand, select a business or technical service.
+2.  To create demand, select a business or technology management service.
 
 3.  From the list, select the **Create** option and then select **Demand**.
 

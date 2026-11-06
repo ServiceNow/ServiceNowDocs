@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-account-groups.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Email accounts, Creating an email account, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email accounts, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Multiple email readers

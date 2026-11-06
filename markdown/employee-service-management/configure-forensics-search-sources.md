@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/configure-forensics-search-sources.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Legal Digital Forensics, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure a data source for digital forensics
@@ -75,5 +75,5 @@ Fields that are applicable for the data source.The selected fields appear on the
 -   **[Add fulfillment instructions and checklist for a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/add-fulfillments-steps-dft.md)**  
 Add instructions for a data source that a task owner in a legal matter can follow to resolve the task.
 
-**Parent Topic:**[Setting up Legal Digital Forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/setting-up-legal-dft.md)
+**Parent Topic:**[Configure Legal Digital Forensics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/setting-up-legal-dft.md)
 

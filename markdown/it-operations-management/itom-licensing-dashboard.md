@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-licensing-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -57,7 +57,7 @@ Description
 </th></tr></thead><tbody><tr><td>
 
 -   ITOM Visibility
--   ITOM Health
+-   ITOM AIOps
 -   Health Log Analytics
 -   ITOM Cloud Accelerate
 -   ITOM Discovery

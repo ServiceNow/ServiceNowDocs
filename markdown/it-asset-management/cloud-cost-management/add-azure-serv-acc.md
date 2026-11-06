@@ -1,24 +1,24 @@
 ---
 title: Add a Microsoft Azure service account
-description: Add a Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
+description: Add an Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/add-azure-serv-acc.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add a Microsoft Azure service account
 
-Add a Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
+Add an Azure service account to store the credential and access information. You can use this service account for commercial purpose and it should be different from your Azure government service account.
 
 ## Before you begin
 
-Role required: sn\_cmp.cloud\_admin
+Role required: discovery\_admin or sn\_cmp.cloud\_admin
 
 Set up download jobs for billing and price sheet data for the service account.
 
@@ -34,7 +34,7 @@ A service account is a secure record on your instance that stores the credential
 
 2.  Select **New**.
 
-3.  On the form, fill in the fields.
+3.  On the Cloud Service Account form, fill in the fields.
 
 <table id="table_pm4_gm2_1yb"><thead><tr><th>
 

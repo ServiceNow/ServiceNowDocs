@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 ---
 
 # Financial Services
@@ -19,7 +19,7 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/setting-up-fso-applications.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/setting-up-fso-applications.md)
 
 </td><td>
 
@@ -27,15 +27,27 @@ The ServiceNow® Financial Services Operations \(FSO\) solution helps financial 
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage and configure banking and insurance solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-banking-overview.md)
+[Banking applications\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Manage and configure banking solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-banking-overview.md)
 
 </td><td>
 
-[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Access preconfigured dashboards with actionable data visualizations to monitor and improve your service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
+[Insurance applications\[Omitted image "ind-government.svg"\] Alt text:Manage and configure insurance solutions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-insurance-overview.md)
 
 </td><td>
 
-[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for FSO to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/now-assist-for-financial-services-operations-fso/now-assist-for-financial-services-operations.md)
+[Analyze\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Access preconfigured dashboards with actionable data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+[Automate\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use AI to enhance user productivity and efficiency through proactive experiences.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/exploring-now-assist-for-financial-services-operations-fso.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Additional resources

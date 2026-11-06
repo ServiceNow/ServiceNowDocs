@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Perform Zscaler remediation
@@ -21,7 +21,7 @@ By default, the **Zscaler Monitoring Policy** monitoring check runs every 30 min
 -   **zscaler-monitoring-check**: Checks the status of the Zscaler app running on your agent.
 -   **zscaler-remediation-check**: Invoked only when the Zscaler app is not running efficiently. This check shuts down and restarts the app, and automatically creates an incident.
 
-    Only one incident is created every 24 hours for a Zscaler app that does not remediate properly. For example, if the remediation check runs multiple times on an agent, new remediation records are created which are associated with the same incident until 24 hours have passed, at which time a second incident is created. When the Zscaler app restarts successfully, the incident closes.
+    Only one incident is created every 24 hours for a Zscaler app that does not remediate properly. For example, if the remediation check runs multiple times on an agent, new remediation records are created and associated with the same incident. After 24 hours have passed, a second incident is created. When the Zscaler app restarts successfully, the incident closes.
 
     Zscaler remediation produces the following output:
 
@@ -35,5 +35,5 @@ Verify that Zscaler remediation stops and starts the Zscaler app after the remed
 -   **[Use the Zscaler dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/zscaler-dashboard.md)**  
 Use the Zscaler dashboard to view Zscaler monitoring and remediation statuses in graph format.
 
-**Parent Topic:**[Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-framework-landing-page.md)
+**Parent Topic:**[Deploying Agent Client Collector on endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-endpoint-deployment.md)
 

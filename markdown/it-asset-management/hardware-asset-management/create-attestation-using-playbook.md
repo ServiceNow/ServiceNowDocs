@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Playbook for asset attestation, Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Playbook for asset attestation, Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an asset attestation or a schedule using the playbook
@@ -106,15 +106,15 @@ Date on which the attestation schedule should be processed for the last time to 
 
 6.  In the **Select model category** activity, select the model categories of assets that you want to attest.
 
-<table id="choicetable_k3g_slp_rfc"><thead><tr><th align="left" id="d324249e297">
+<table id="choicetable_k3g_slp_rfc"><thead><tr><th align="left" id="d195870e297">
 
 Number of model categories to be attested
 
-</th><th align="left" id="d324249e300">
+</th><th align="left" id="d195870e300">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d324249e306">
+</th></tr></thead><tbody><tr><td id="d195870e306">
 
 **All**
 
@@ -124,7 +124,7 @@ Action
 2.  Select **Mark complete**.
 
 
-</td></tr><tr><td id="d324249e333">
+</td></tr><tr><td id="d195870e333">
 
 **A few model categories from the list**
 

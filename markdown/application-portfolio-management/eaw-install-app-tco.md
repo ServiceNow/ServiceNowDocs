@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-install-app-tco.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage application total cost of ownership \(TCO\), Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Install the Application Total Cost of Ownership \(TCO\) plugin
@@ -39,5 +39,5 @@ Role required: admin
 5.  Select **Install**.
 
 
-**Parent Topic:**[Manage application total cost of ownership \(TCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-application-tco.md)
+**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-app-tco.md)
 

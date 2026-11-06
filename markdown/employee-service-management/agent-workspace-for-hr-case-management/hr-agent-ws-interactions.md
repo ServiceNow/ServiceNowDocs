@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Using interactions in Agent Workspace for HR Case Management
@@ -20,9 +20,7 @@ An interaction is a request for assistance made through chat, phone, or in perso
 
 You can also create an interaction for simple requests where you decide you might not want to create an HR case or associated tasks.
 
-Interaction records are automatically created when you are using agent chat.
+Interaction records are automatically created when you're using agent chat.
 
 **Note:** Agent Assist is available for interactions.
-
-For more information on interactions, see [Interaction records in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/interaction-message-agent-workspace.md).
 

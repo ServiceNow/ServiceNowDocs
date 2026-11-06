@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ex-create-rule.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example: Link the similar major case to the current case, Example configurations of recommended actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Create a rule from the Case context record
@@ -34,7 +34,7 @@ New rules can only be created from context records.
 
 4.  In the **Name** field, enter `Active rule`.
 
-5.  In the **Roles** field, select the Edit User Roles \[Omitted image "icon-pencil-ac.png"\] Alt text: Edit User Roles icon icon and then select Customer service agent \[sn\_customerservice\_agent\] and Consumer service agent \[sn\_customerservice.consumer\_agent\].
+5.  In the **Roles** field, select the Edit User Roles icon and then select Customer service agent \[sn\_customerservice\_agent\] and Consumer service agent \[sn\_customerservice.consumer\_agent\].
 
     The selected user roles can see recommendations for this rule.
 
@@ -44,8 +44,12 @@ New rules can only be created from context records.
 
     Agents can see recommendations for the records in the context table that meet this criteria.
 
-8.  In the **Field affecting this rule** field, select Short description from the slush bucket.
+8.  Enable the **Apply to tables extended from the context table** check box, so that the rule and its recommendations are applied to tables that are extended from the context table.
 
-9.  Select **Submit**.
+    For more information, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-rules.md).
+
+9.  In the **Field affecting this rule** field, select Short description from the slush bucket.
+
+10. Select **Submit**.
 
 

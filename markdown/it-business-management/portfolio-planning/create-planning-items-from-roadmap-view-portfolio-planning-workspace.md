@@ -1,5 +1,5 @@
 ---
-title: Create planning items from roadmap view in Portfolio Planning Workspace
+title: Create planning items from roadmap view
 description: Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create planning items from roadmap view in Portfolio Planning Workspace
+# Create planning items from roadmap view
 
 Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
 
@@ -25,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d277786e87">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d356121e93">
 
 Roadmap type
 
-</th><th align="left" id="d277786e90">
+</th><th align="left" id="d356121e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d277786e96">
+</th></tr></thead><tbody><tr><td id="d356121e102">
 
 **Portfolio plan roadmap**
 
@@ -43,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d277786e117">
+</td></tr><tr><td id="d356121e123">
 
 **Free-form roadmap**
 
@@ -84,9 +84,9 @@ Multiple planning item types
 
 The new item appears on the roadmap, at a place based on its approved start and end dates.
 
-If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.md).
+If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/plan-unscheduled-items-into-roadmap-in-portfolio-planning.md).
 
--   **[Modify planning items from roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/modify-planning-items-from-roadmap-portfolio-planning.md)**  
+-   **[Modify planning items from roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/modify-planning-items-from-roadmap-portfolio-planning.md)**  
 Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 
 **Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)

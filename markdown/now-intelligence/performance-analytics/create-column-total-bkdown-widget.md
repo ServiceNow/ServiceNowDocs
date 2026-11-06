@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Breakdown widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,13 +18,13 @@ To follow changes over time in both the scores of an indicator and the relative 
 
 ## Before you begin
 
-Role required: pa\_power\_user or admin
+Role required: pa\_admin or admin
 
 ## About this task
 
 **Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
-This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
+This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
 This visualization combines a time series and a breakdown widget. A classic time series with a line visualization is shown for the indicator scores. This line is combined with a column visualization of the breakdown for each point in time at which indicator scores were collected. Use this widget to explore relationships between the indicator score and the relative proportion of breakdown elements for that indicator.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-07-06"
+last_updated: "2026-11-01"
 reading_time_minutes: 2
-breadcrumb: [Event forwarding, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Event forwarding, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Set up event forwarding
@@ -20,11 +20,13 @@ Create an event forwarding configuration record to enable events to flow from on
 
 You must have a credential with the evt\_mgmt\_integration role, which enables you to create events in the target instance. If you don't have this credential, see [Create basic auth server credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-credentials-basic-auth.md) for information on how to create it.
 
+If the target instance enforces basic authentication restrictions, the user specified in the credential must be permitted to access APIs through basic authentication. Configure the user as Web Service Access Only or assign the `snc_basic_auth_api_access` role.
+
 Role required: evt\_mgmt\_admin
 
 ## About this task
 
-The source instance, which forwards events to a target instance, must have a user with the evt\_mgmt\_integration role, a password for the credential, and a new event forwarding record. The target instance, which receives events from the source, must have a credential with the same user name and password as the source instance.
+The source instance forwards events to a target instance. The source instance must have a user with the evt\_mgmt\_integration role, a password for the credential, and a new event forwarding record. The target instance receives events from the source. The target instance must have a credential with the same user name and password as the source instance.
 
 The event forwarding record contains details about the target ServiceNow instance URL to which events are to be forwarded along with the credentials to connect it.
 
@@ -56,8 +58,6 @@ You must create a separate configuration record for each target instance to forw
 
 8.  For multiple targets, repeat the steps for a separate configuration record for each instance.
 
-
-**Parent Topic:**[Event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-em.md)
 
 **Related topics**  
 

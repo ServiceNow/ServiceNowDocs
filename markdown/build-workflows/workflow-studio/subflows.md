@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Building subflows
@@ -206,8 +206,12 @@ Reasons to use a subflow instead of a flow include:
 Reuse an entire flow's content as a subflow. Define the input data the subflow uses and the output data it generates. Call subflows from other flows or script.​
 -   **[Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-subflow-now-asist.md)**  
 Use generative AI to create a subflow from text directionsand images.
+-   **[Create conversational subflow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-conversational-subflow-skill.md)**  
+Create a skill for the conversational subflow and make the skill available for users in a conversation. You can have multiple skills for the same subflow.
 -   **[Configure subflow conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-subflow-conversation-settings.md)**  
 Configure conversation settings to make a subflow available to conversational interfaces.
+-   **[Configure LLM to generate descriptions for conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-llm-for-conversational-subflow.md)**  
+Choose which LLM you want to use by default to generate descriptions for inputs, outputs, and skills for conversational subflows.
 -   **[Copy a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/copy-subflow.md)**  
 Copy a subflow to give it a new name and move it to another application scope.
 -   **[Create a decision table in a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-decision-table-subflow.md)**  
@@ -218,12 +222,16 @@ Convert consecutive items of a flow into a new subflow that preserves data pill 
 Enable flow authors to set field values for a record being created or updated. Use a template value input to set different field values each time you add an action or subflow to a flow.
 -   **[Get started with Dynamic Flow and Get Flow Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-dynamic-flow-get-flow-outputs.md)**  
 Create a sample flow that dynamically calls subflows for provisioning cloud services.
--   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/test-subflow.md)**  
-You can test a subflow alone, or when added to a flow. When testing a subflow alone, you must define the inputs that the subflow uses in its actions. Because a subflow does not have a trigger, testing a subflow runs the actions using the defined input values. Unless updated, subsequent tests use the same inputs defined in the initial test run.
 -   **[Publish a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/publish-subflow.md)**  
 Publish a subflow to make it available to other users and to add it to activated flows.
 -   **[Summarize a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/summarize-a-subflow.md)**  
 Generate a summary of a subflow with ServiceNow Otto for Creator.
+-   **[Subflow history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/subflow-history.md)**  
+View and manage the history of a subflow. See past configurations of a subflow to copy, restore, or remove them.
+-   **[Test a subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/test-subflow.md)**  
+You can test a subflow alone, or when added to a flow. When testing a subflow alone, you must define the inputs that the subflow uses in its actions. Because a subflow does not have a trigger, testing a subflow runs the actions using the defined input values. Unless updated, subsequent tests use the same inputs defined in the initial test run.
+-   **[Test conversational subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/test-conversational-subflow.md)**  
+Test a conversational subflow to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 
-**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-workflow-studio-components.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

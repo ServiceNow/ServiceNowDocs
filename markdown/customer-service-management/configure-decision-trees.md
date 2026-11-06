@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-decision-trees.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Editing decision trees in Core UI, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Editing decision trees in Core UI, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Edit a decision tree
@@ -89,6 +89,8 @@ Shows or hides the **Dismiss** button that cancels the flow of a decision tree. 
 </td></tr></tbody>
 </table>4.  Select **Update**.
 
+
+## Result
 
 ## What to do next
 

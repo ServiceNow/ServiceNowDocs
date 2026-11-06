@@ -7,7 +7,7 @@ release: yokohama
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service catalog requests, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

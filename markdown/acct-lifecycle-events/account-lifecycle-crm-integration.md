@@ -1,20 +1,20 @@
 ---
-title: Integrating with Microsoft Dynamics CRM
+title: Enable integration with Microsoft Dynamics CRM
 description: Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Customer success, Configure, Customer Success Management]
 ---
 
-# Integrating with Microsoft Dynamics CRM
+# Enable integration with Microsoft Dynamics CRM
 
 Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 
-By enabling integration of the Microsoft Dynamics CRM platform during the engagement lifecycle you can track renewals, assess risks, and create renewal opportunities. The Microsoft Dynamics CRM integration is available with the Account Lifecycle Events application and can be configured to work with other CRM platforms.
+When the Microsoft Dynamics CRM integrated is enabled, customer success managers can track renewals, assess risks, and create renewal opportunities during the engagement lifecycle. The Microsoft Dynamics CRM integration is available with the Customer Success Management application and can be configured to work with other CRM platforms.
 
 The following use cases are supported:
 
@@ -24,7 +24,7 @@ The following use cases are supported:
 
 To set up the integration, follow these steps:
 
-**Note:** Before you set the integration, you must configured the Recommended Actions application. See [Set up Recommended Actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-rec-action.md) for details.
+**Note:** Before you set the integration, you must configured the Recommended Actions application. See [Set up recommended actions for account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-rec-action.md) for details.
 
 1.  Set up the Microsoft Dynamics CRM spoke. See [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md) for details.
 2.  On the Microsoft Dynamics CRM platform, you must do the following:
@@ -115,4 +115,11 @@ After you have setup the integration, you can do the following:
 
 -   [Create an opportunity in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.md)
 -   [Create a task in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-crm-task.md)
+
+-   **[Create an opportunity in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.md)**  
+Create a renewal opportunity in the Microsoft Dynamics CRM platform from your ServiceNow instance.
+-   **[Create a task in Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-crm-task.md)**  
+Create a task in the Microsoft Dynamics CRM platform from your ServiceNow instance and receive updates to the task in your ServiceNow instance.
+
+**Parent Topic:**[Configure customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-csm-service-definition.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a service definition
@@ -71,11 +71,15 @@ You can also create relationships between the service definition and other relat
     -   If one or more service definitions have the same order value, the system displays the service definitions in alphabetical order.
 11. Enable the **Active** check box.
 
-12. In the **Description** field, add a description of the service definition.
+12. Enable the **Use service catalog item** check box.
+
+    When this check box is enabled, the service definition can use catalog items and their associated record producers to create cases in CRM Workspace. The Catalog Service Relationships related list stores the catalog items that are associated with the service definition. For more information, see [service definition use service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-service-definition-catalog-items.md).
+
+13. In the **Description** field, add a description of the service definition.
 
     Service definitions appear in the case type selector in a card view. The card includes the name, description, and image for a service definition. Customer service agents can search for services by entering keywords found in the service definition name and description.
 
-13. Select **Submit**.
+14. Select **Submit**.
 
     The service definition is added to the Service Definitions list.
 

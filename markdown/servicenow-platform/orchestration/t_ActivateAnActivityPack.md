@@ -7,7 +7,7 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Orchestration, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 The following activity packs are available and active with your Orchestration subscription:
 
--   [Orchestration - Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) \(com.snc.orchestration.ad\)
+-   [Orchestration - Active Directory]() \(com.snc.orchestration.ad\)
 -   [Orchestration - Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_AzureADActivityPack.md) \(com.snc.orchestration.azure.ad\)
 -   [Orchestration - Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchestrationExchangeActivities.md) \(com.snc.orchestration.exchange\)
 -   [Orchestration - SFTP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchestrationSFTPActivityPack.md) \(com.snc.orchestration.sftp\)
@@ -39,8 +39,6 @@ The following activity packs are available and active with your Orchestration su
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
-
-    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -80,8 +78,6 @@ Select the date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 

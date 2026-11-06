@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Common applications, Asset Management]
 ---
 
 # Product Catalog
@@ -39,10 +39,10 @@ Model categories associate CI classes with asset classes. Model categories are p
 -   **[Domain separation and Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/product-catalog/domain-separation-product-catalog.md)**  
 Domain separation is supported in the Product Catalog. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/asset-management-related-apps-landing-page.md)
 
 **Related topics**  
 
 
-[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/c_ManagingAssets.md)
+[Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/c_ManagingAssets.md)
 

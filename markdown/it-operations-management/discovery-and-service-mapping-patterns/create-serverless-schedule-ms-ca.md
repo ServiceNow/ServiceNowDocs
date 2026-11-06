@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-03-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Microsoft CA certificates, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Microsoft CA certificates, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Create a serverless schedule for Microsoft CA discovery

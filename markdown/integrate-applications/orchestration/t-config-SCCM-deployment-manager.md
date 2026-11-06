@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring SCCM, Client software distribution from SCCM, Client Software Distribution, Orchestration applications, Classic Orchestration, Data and Automation]
+breadcrumb: [Configuring SCCM, Client software distribution from SCCM, Client Software Distribution, Orchestration applications, Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Configure the Application Administrator role on the SCCM server
@@ -38,13 +38,9 @@ These instructions are for Microsoft 2012 R2 Server.
 
 6.  If the user does not already have this role, click **Add**, select this role from the list, and click **OK**.
 
-    \[Omitted image "SCCMConsole.png"\] Alt text: Granting the deployment role on the SCCM server
-
 7.  Log into SCCM as the user with the Application Administrator role.
 
 8.  Open the menu from the upper left corner of the console and select **Connect via Windows PowerShell**.
-
-    \[Omitted image "ConnectSCCMviaPowerShell.png"\] Alt text:
 
 9.  Ensure that the user can access the CM console.
 

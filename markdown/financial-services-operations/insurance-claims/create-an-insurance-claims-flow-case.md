@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Initiate an Insurance claims case
@@ -46,15 +46,15 @@ This procedure references service definitions and products that are used in the 
 
 10. In the Add claim participant form, enter the details of the participant, and then select **Save**.
 
-<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d36644e174">
+<table id="choicetable_x5k_v1y_tcc"><thead><tr><th align="left" id="d39991e177">
 
 Reporter status
 
-</th><th align="left" id="d36644e177">
+</th><th align="left" id="d39991e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d36644e183">
+</th></tr></thead><tbody><tr><td id="d39991e186">
 
 **Is a policy participant**
 
@@ -66,7 +66,7 @@ Steps
 -   Enter how the participant is related to the insured in the **Relationship to insured** field.
 
 
-</td></tr><tr><td id="d36644e222">
+</td></tr><tr><td id="d39991e225">
 
 **Is not a policy participant**
 

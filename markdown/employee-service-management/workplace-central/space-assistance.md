@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,6 +36,8 @@ The Workplace Central workspace enables you to manage the space requests submitt
 [Lists module]()
 
 [Workplace Analytics]()
+
+[Space Planning]()
 
 [Space Optimization]()
 

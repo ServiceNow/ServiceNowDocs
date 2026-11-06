@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Coaching in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Assess the quality of completed tasks
@@ -26,7 +26,7 @@ You can create an assessment from an interaction or any task type.
 
 When you manually create an assessment, you can add a survey to it. Coaching assessments also get created and assigned to the coach based on the trigger conditions that are defined in coaching opportunities.
 
-If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score. For more information, see [Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/assess-trainee.md).
+If the coaching opportunity includes a survey, you can opt to take the survey and the assessment. When you use a survey to assess a trainee, the score for the survey is automatically calculated when you complete the survey. The assessment rating is then updated based on that score.
 
 The Coaching Overview screen displays the average quality of the tasks that were completed in the past 30 days for your assignment groups.
 
@@ -42,15 +42,15 @@ The Coaching Overview screen displays the average quality of the tasks that were
 
 3.  Perform assessments.
 
-<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d100025e109">
+<table id="choicetable_k5z_rpq_pnb"><thead><tr><th align="left" id="d111850e114">
 
 To
 
-</th><th align="left" id="d100025e112">
+</th><th align="left" id="d111850e117">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d100025e118">
+</th></tr></thead><tbody><tr><td id="d111850e123">
 
 **Perform adhoc assessments**
 
@@ -65,7 +65,7 @@ The assessment screen appears in the right panel.
 4.  Click the plus \(+\) icon.
 
 
-</td></tr><tr><td id="d100025e158">
+</td></tr><tr><td id="d111850e163">
 
 **Use assessments triggered by coaching opportunities**
 
@@ -174,6 +174,4 @@ Training to assign to the trainee.You can also assign learning tasks from course
 
     -   To complete the ad hoc assessment, click **Save**.
     -   To complete assessments creating using coaching opportunities, click **Complete assessment**.
-
-**Parent Topic:**[Coaching in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/coaching-wfo-fsm.md)
 

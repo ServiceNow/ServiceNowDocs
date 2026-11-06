@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a page in UI Builder, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Create a page in UI Builder, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a page from a legacy template
@@ -30,15 +30,11 @@ Role required: admin
 
     See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  Select the **+** icon in the **Pages and variants** section.
+3.  Select the **Create new page** in the center of the screen.
 
-    \[Omitted image "create-page-icon.png"\] Alt text: Create page button on the experience view page.
+4.  Scroll down and select **View legacy templates**.
 
-4.  Select **Create a new page**.
-
-    \[Omitted image "page-create-popup.png"\] Alt text: Page type selection modal.
-
-5.  Select **Use template** when pointing to the template that you want to use.
+5.  Hover over the template you want to use and select **Use template**.
 
     \[Omitted image "uib-legacy-template-select.png"\] Alt text: Dashboards selected in the legacy template list.
 
@@ -48,17 +44,19 @@ Role required: admin
 
     A default path is added based on your page name. You can also create your own path. The path is required and must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, `"~"`\), with the words separated by a forward slash or hyphen. The **URL preview** shows the path of your page.
 
-    \[Omitted image "uib-legacy-template-settings.png"\] Alt text: Page name and URL path fields.
-
     **Note:** The application scope defaults to the scope that the user is in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/security-roles.md).
 
-8.  Select how you want to use the base page template.
+8.  Select a URL page type in the **Type** drop-down list. UI Builder automatically assigns a page type based on the legacy template you select, but you can change this value if needed.
+
+    URL page types help you categorize and find important pages in the Experience view. Pages with a type other than **None** are filtered more effectively in the Experience view.
+
+9.  Select how you want to use the base page template.
 
     Select **Use the original page \(customization limited\)** if you want to reference the template and its data. Select **Copy contents of the page \(fully customized\)** to copy the contents of the page template. When you reference a page template, your page automatically updates when you upgrade to a new release. If you copy the page template, your page will not update after upgrade.
 
-9.  Select **Continue**.
+10. Select **Continue**.
 
-10. Add required parameters to your page URL.
+11. Add required parameters to your page URL.
 
     1.  Click **+ Add**.
 
@@ -70,7 +68,7 @@ Role required: admin
 
         For more information about required and optional page parameters, see [Adding Page Parameters](https://developer.servicenow.com/dev.do#!/learn/courses/washingtondc/app_store_learnv2_uibuilder_washingtondc_ui_builder/app_store_learnv2_uibuilder_washingtondc_create_pages_in_ui_builder/UCP_AddingPageParameters_washingtondc) in the ServiceNow Developer website.
 
-11. Add optional pieces of data that you want to add to the URL of your page.
+12. Add optional pieces of data that you want to add to the URL of your page.
 
     1.  Click **+ Add**.
 
@@ -82,23 +80,23 @@ Role required: admin
 
         For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md).
 
-12. Select **Looks good**.
+13. Select **Looks good**.
 
-13. Enter a name for the page variant.
+14. Enter a name for the page variant.
 
     The form automatically adds **Default** to the page name.
 
-14. Add one or more audiences for this page.
+15. Add one or more audiences for this page.
 
     If an audience you need is not listed, you can choose the Open audiences in platform link to create one.
 
-15. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
+16. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
     For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
-16. Select **Create** to create your blank page.
+17. Select **Create** to create your blank page.
 
-    The page you created displays in the **Page and variants** section of your experience. Select **Editor** to start adding components to your page. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-components.md).
+    The page you created displays in the **Page** section of your experience. Select **Editor** to start adding components to your page. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-components.md).
 
 
 **Parent Topic:**[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-page.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create Feedback in Strategic Planning
@@ -28,15 +28,15 @@ Role required: pf\_user
 
 3.  Select **Feedback** and then choose one of these options to create a feedback.
 
-<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d195405e87">
+<table id="choicetable_psy_rgg_dbc"><thead><tr><th align="left" id="d250598e87">
 
 Choice
 
-</th><th align="left" id="d195405e90">
+</th><th align="left" id="d250598e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d195405e96">
+</th></tr></thead><tbody><tr><td id="d250598e96">
 
 **All feedback**
 
@@ -46,7 +46,7 @@ From the feedback page:-   Select **All feedback** card to view all the feedback
 -   Select **New feedback** from either the overview or list page.
 
 
-</td></tr><tr><td id="d195405e122">
+</td></tr><tr><td id="d250598e122">
 
 **New filter**
 
@@ -57,7 +57,7 @@ From the feedback page:-   Select **New filter** to create a new filter based on
 -   Select **New feedback** from either overview or list page.
 
 
-</td></tr><tr><td id="d195405e155">
+</td></tr><tr><td id="d250598e155">
 
 **Existing filter**
 

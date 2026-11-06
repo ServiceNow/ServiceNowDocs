@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -29,7 +29,7 @@ This API depends on the a suite of classes to build various elements comprising 
 -   [Style](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/StyleBothAPI.md) – Creates a style for defining properties such font size, border, and alignment. You can apply the same style to multiple objects simultaneously.
 -   [Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TableBothAPI.md) – Creates a Table object to add to a PDF document. Defines the data to use in each cell and sets styles, margins, and alignment.
 
-The following example shows how to create a basic PDF using the Document API and several components, such as a table, cell, and paragraph. The result is a list of Incidents from the Incident \[incident\] table listed in a PDF. You can test this example in your instance if you replace `<sys_id>` with the sys\_id of an incident record.
+The following example shows how to create a basic PDF using the Document API and several components, such as a table, cell, and paragraph. The result is a list of incidents from the Incident \[incident\] table listed in a PDF. You can test this example in your instance by replacing `<sys_id>` with the sys\_id of an incident record to attach the PDF to.
 
 ```
 var pageSize = new sn_pdfgeneratorutils.PdfPage("A4");

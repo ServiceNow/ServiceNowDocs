@@ -7,8 +7,8 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -25,8 +25,6 @@ Role required: resource\_manager
 ## About this task
 
 Project and demand managers can [complete resource plans from a project, project task, planning console, or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md).
-
-**Note:** You can also complete and close a resource plan from the [Allocation Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md).
 
 ## Procedure
 
@@ -65,7 +63,7 @@ Example 1: A resource plan of Allocation type **Monthly** from 1 November to 31 
 
 Example 2: If the same resource plan has Allocation type as **Planned Duration**, no allocations are deleted, and the end date of the allocation is updated to the completion date.
 
--   **[Complete a resource plan from a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md)**  
+-   **[Complete a resource plan from a project, planning console, or demand record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/complete-resource-plan-from-project-or-demand.md)**  
 If a project or a project task is marked Closed, the project manager can complete the associated Allocated resource plans. Similarly, the demand manager can complete the resource plans for a Closed or Deferred demand.
 
 **Parent Topic:**[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourcePlans.md)
@@ -87,7 +85,7 @@ If a project or a project task is marked Closed, the project manager can complet
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

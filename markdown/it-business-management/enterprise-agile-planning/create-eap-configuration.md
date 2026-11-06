@@ -7,8 +7,8 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -70,6 +70,18 @@ Sync with Agile Development
 
 Select this option to sync iterations such as Planning Intervals and Sprints with Agile Development 2.0. For more information, see [Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md).If your team is of the Kanban type, you can leave this option unselected.
 
+</td></tr><tr><td>
+
+Allow unique cadence for each team
+
+</td><td>
+
+Option to let each team set its own iteration dates.If the configuration has planning calendars at more than one team level, each top-level team receives its own calendar. If the configuration has a single level of iterations, such as Sprints only, the iterations carry their own dates instead of following a calendar.
+
+Teams that you add after you select this option receive a unique calendar. Teams that already exist continue to use the default calendar of the configuration. Selecting this option doesn't change the iterations that already exist.
+
+For more information, see [Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md).
+
 </td></tr></tbody>
 </table>5.  Select the work item types to be available within this configuration.
 
@@ -85,13 +97,17 @@ Select this option to sync iterations such as Planning Intervals and Sprints wit
 
     -   **Scrum teams with a regular cadence**
 
-        Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval** and **Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
+        Planning calendars can be set only for Agile Release Trains \(ARTs\) and Agile Teams and the planning calendar types available by default are **Planning Interval**, **Sprint**, and **Scrum Sprint**. If you want a different calendar, create one. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
+
+        A configuration holds one planning calendar for each team level. A team level that has no planning calendar, such as Portfolio or Solution Train, doesn't have iterations of its own. In the default configurations, only the ART and Agile Team levels have a planning calendar, which gives you two levels of iterations: Planning Intervals on ARTs and Sprints on Agile Teams.
 
         \[Omitted image "eap-work-item-team-level-mapping.png"\] Alt text: Mapping work item type and planning calendars to the team levels.
 
     -   **Kanban teams**
 
-        If your team operates in a Kanban style, which is a continuous workflow structure without any regular planning interval schedule, you can set the **Planning calendar** fields to **None**.
+        If all teams in your configuration operate in a Kanban style, you can set the **Planning calendar** fields to **None**. Kanban is a continuous workflow structure without any regular planning interval schedule.
+
+        In other configurations, an individual Agile Team can follow Kanban. Set its **Planning methodology** to Kanban when you add the team. Such a team doesn't use the planning calendar of its ART. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
 
         \[Omitted image "eap-kanban-config-calendar.png"\] Alt text: Mapping work item type and planning calendars for a Kanban team configuration.
 

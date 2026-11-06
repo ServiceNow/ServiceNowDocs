@@ -7,7 +7,7 @@ release: yokohama
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Benchmarks, IT Service Management]
 ---
@@ -157,7 +157,7 @@ Average time to close a change
 
 </td><td>
 
-\[\[Benchmark: Total time to close changes\]\] /
+\[Benchmark: Total time to close changes\] /
 
  \[\[Benchmark: Number of changes closed\]\]
 

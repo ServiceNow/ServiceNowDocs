@@ -1,16 +1,16 @@
 ---
-title: Load data from Watershed into ESG Management
+title: Load data from Watershed into Operational Sustainability Management
 description: Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/load-data-from-watershed.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Load data from Watershed into ESG Management
+# Load data from Watershed into Operational Sustainability Management
 
 Load data from the Watershed spreadsheets into the staging table. After you load the data and complete the setup, you can start using the Operational Sustainability Integration with Watershed.
 

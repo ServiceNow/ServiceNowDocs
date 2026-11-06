@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a request type, Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create Request type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Request type form
@@ -26,7 +26,7 @@ The following table lists the descriptions of the field values.
 |Active|Option to select the request type as active or inactive.|
 |Description|Description about this request type. This description is for the administrator to understand the request type.|
 |State Model|
-|State Model|Workflow states for the request type. For more information, see [Create a state model to define the workflow states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).|
+|State Model|Workflow states for the request type. For more information, see [Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).|
 |Template Configuration|
 |Document templates|Template to generate Portable Document Format \(PDF\) reports for compliance requests associated with this request type.|
 

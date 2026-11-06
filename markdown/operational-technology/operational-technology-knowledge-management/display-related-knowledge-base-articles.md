@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -30,9 +30,9 @@ Role required: sn\_ot\_incident\_read
 
 3.  Select the incident record that you want to view.
 
-4.  In the incident record, select the **Agent assist** button \[Omitted image "agent-assist-button.png"\] Alt text: Agent assist button. to open the Agent Assist window if it's not already opened.
+4.  In the incident record, select the Agent assist button \[Omitted image "agent-assist-button.png"\] Alt text: to open the Agent Assist window if it's not already opened.
 
-5.  To view the full knowledge article, select the **More actions** button \[Omitted image "more-actions-vertical.png"\] Alt text: More actions button..
+5.  To view the full knowledge article, select the **More actions** button \[Omitted image "more-actions.png"\] Alt text:.
 
 6.  Select **Full View**.
 

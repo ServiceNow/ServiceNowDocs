@@ -7,8 +7,8 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Explore, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -22,7 +22,7 @@ A CI class \(table\) is the original table name in the instance database. CMDB c
 
 Prior to version 11.1, if a matched CI was not found either in the Discovered Items list or CMDB, a CI was created in the Unmatched CI class \(`sn_sec_cmn_unmatched_ci`\).
 
-For more information, see [Unmatched CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/unmatchedCIs.md).
+For more information, see Unmatched CIs.
 
 Starting with version 11.1, you can use the IRE API to create CIs in CMDB. Instead of using the Unmatched CI class, a CI is created in the Unclassed Hardware or Incomplete IP Identified Device class.
 

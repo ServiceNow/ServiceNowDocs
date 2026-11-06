@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Edit and manage service portfolios in Service Portfolio Management, Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Edit and manage service portfolios, Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Remap service portfolio taxonomy nodes in Service Portfolio Management

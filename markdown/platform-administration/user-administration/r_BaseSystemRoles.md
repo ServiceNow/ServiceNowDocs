@@ -7,8 +7,8 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 42
+last_updated: "2026-09-10"
+reading_time_minutes: 43
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -558,9 +558,9 @@ Category managers can create, edit, and delete model categories.
 
 ## CMDB administrator \[sn\_cmdb\_admin\]
 
-The configuration management data base \(CMDB\) administrator is a key role required for interacting with the CMDB Workspace. CMDB administrators can access all CMDB data, tools, and UIs within the CMDB Workspace. Users with this role can set policies that an editor can't, such as class manager and app service requirements.
+The configuration management data base \(CMDB\) administrator is a key role required for interacting with the CMDB Workspaceand the Service Graph Workspace. CMDB administrators can access all CMDB data, tools, and UIs within the CMDB Workspaceand Service Graph Workspace. Users with this role can set policies that an editor can't, such as class manager and app service requirements.
 
-As you drill down in the CMDB Workspace, there are some dashboards and list views that require specific roles in addition to the CMDB Admin, CMDB Editor, or CMDB User roles.
+As you drill down in the CMDB Workspaceor the Service Graph Workspace, there are some dashboards and list views that require specific roles in addition to the CMDB Admin, CMDB Editor, or CMDB User roles.
 
 -   **Contains Roles**
 
@@ -614,9 +614,9 @@ CMDB de-duplication admins can review and remediate CMDB de-duplication tasks.
 
 ## CMDB editor \[sn\_cmdb\_editor\]
 
-A key role required for interacting with CMDB Workspace. CMDB editors can create, edit, and delete CMDB records but can't change policies such as data manager, class manager within CMDB Workspace.
+A key role required for interacting with CMDB Workspaceand the Service Graph Workspace. CMDB editors can create, edit, and delete CMDB records but can't change policies such as data manager, class manager within CMDB Workspaceor Service Graph Workspace.
 
-As you drill down in the CMDB Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
+As you drill down in the CMDB Workspaceor Service Graph Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
 
 -   **Contains Roles**
 
@@ -745,9 +745,9 @@ CMDB reader users can read data from the CMDB hierarchy.
 
 ## CMDB user \[sn\_cmdb\_user\]
 
-A key role required for interacting with CMDB Workspace. CMDB users have read-only access to CMDB data and basic UI within CMDB Workspace.
+A key role required for interacting with CMDB Workspaceand the Service Graph Workspace. CMDB users have read-only access to CMDB data and basic UI within CMDB Workspaceand Service Graph Workspace.
 
-As you drill down in the CMDB Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
+As you drill down in the CMDB Workspaceor in Service Graph Workspace, there are some dashboards and list views that require specific roles in addition to the key CMDB Admin, CMDB Editor, or CMDB User roles.
 
 -   **Contains Roles**
 
@@ -1314,7 +1314,7 @@ Inventory users have access to stock information.
 
 ## ITIL
 
-Information Technology Infrastructure Library \(ITIL\) users can open, update, close incidents, problems, changes, and configuration management items. This role is the base system technician role. Users with the ITIL role can have tasks assigned to them.
+Information Technology Infrastructure Library \(ITIL\) users can open, update, close incidents, problems, changes, and read some rules, definitions, and CIs related to CMDB features. This role is the base system technician role. Users with the ITIL role can have tasks assigned to them.
 
 -   **Contains Roles**
 
@@ -1328,10 +1328,6 @@ Information Technology Infrastructure Library \(ITIL\) users can open, update, c
     -   email\_composer
     -   snc\_platform\_rest\_api\_access
     -   sn\_change\_write
-    -   sn\_cmdb\_editor
-
-        **Note:** This containment differs by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
-
     -   sn\_comm\_management.comm\_plan\_viewer
     -   sn\_gd\_guidance.guidance\_user
     -   sn\_incident\_write
@@ -1371,10 +1367,6 @@ ITIL administrators can delete incidents, problems, changes, and other related r
 -   **Contains Roles**
 
     List of roles contained within the role.
-
-    -   sn\_cmdb\_admin
-
-        **Note:** This containment differs by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
     -   assessment\_admin
     -   sn\_bm\_client.benchmark\_data\_viewer

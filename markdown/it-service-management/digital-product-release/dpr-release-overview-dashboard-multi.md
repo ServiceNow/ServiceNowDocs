@@ -1,20 +1,20 @@
 ---
 title: Release Overview dashboard for a multi-product release
-description: The Release overview dashboard provides an overview of all the information about an individual product's release in a multi-product release, which the product team can use to assess its readiness.
+description: The Release overview dashboard displays key metrics and status information for a product release within a multi-product release, enabling product teams to assess readiness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-release-overview-dashboard-multi.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-12-08"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Release dashboards, Explore, Digital Product Release, IT Service Management]
 ---
 
 # Release Overview dashboard for a multi-product release
 
-The Release overview dashboard provides an overview of all the information about an individual product's release in a multi-product release, which the product team can use to assess its readiness.
+The Release overview dashboard displays key metrics and status information for a product release within a multi-product release, enabling product teams to assess readiness.
 
 \[Omitted image "dpr-release-overview-multi.png"\] Alt text: Release Overview dashboard provides high-level information about a single product or service release and its progress.
 
@@ -28,15 +28,80 @@ To open the dashboard, navigate to **Workspaces** &gt; **Digital Product Release
 
 ## Widgets
 
-|Widget|Description|
-|------|-----------|
-|Release tasks|Number of tasks in the release, grouped by their state.|
-|Change requests|Number of change requests in the release, grouped by their state.|
-|Enhancements|Number of product enhancements in the release, grouped by their state.|
-|Work items|Number of work items in the release, grouped by their type, and stacked by their state.|
-|Related tasks|Number of related tasks \(incidents, problems\) linked to the release, grouped by their type, and stacked by their state.|
-|Policies|List of all policies, grouped by the phases they’re mapped to.|
-|Approvals|List of all approval tasks, grouped by their approval status.|
+<table id="table_n4k_xm2_c1c"><thead><tr><th>
+
+Widget
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Risk score
+
+</td><td>
+
+Risk level of a release. This score is calculated based on the overdue tasks and policy failures.For more information, see [Risk score for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-risk-score-release.md).
+
+</td></tr><tr><td>
+
+Release tasks
+
+</td><td>
+
+Number of tasks in the release, grouped by their state.
+
+</td></tr><tr><td>
+
+Change requests
+
+</td><td>
+
+Number of change requests in the release, grouped by their state.
+
+</td></tr><tr><td>
+
+Policies
+
+</td><td>
+
+Number of policies for the selected product release, grouped by their run status.
+
+</td></tr><tr><td>
+
+Approvals
+
+</td><td>
+
+Number of approval tasks for the selected product release, grouped by their state.
+
+</td></tr><tr><td>
+
+Enhancements
+
+</td><td>
+
+Number of product enhancements in the release, grouped by their state.
+
+</td></tr><tr><td>
+
+Work items
+
+</td><td>
+
+Number of work items in the release, grouped by their type, and stacked by their state.
+
+</td></tr><tr><td>
+
+Related tasks
+
+</td><td>
+
+Number of related tasks \(incidents, problems\) linked to the release, grouped by their type, and stacked by their state.
+
+</td></tr></tbody>
+</table>**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
 
 **Parent Topic:**[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-dashboard-release.md)
 

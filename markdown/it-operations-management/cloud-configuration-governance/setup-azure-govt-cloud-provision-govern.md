@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Microsoft Azure Government Cloud on Cloud Provisioning and Governance
@@ -18,6 +18,24 @@ Set up Microsoft Azure Government Cloud on Cloud Provisioning and Governance for
 
 ## Before you begin
 
+To set up Microsoft Azure Government cloud on Cloud Provisioning and Governance, you must:
+
+-   Set up a Microsoft Azure Service Principal on the Azure Government Portal and register the service account on the Cloud Provisioning and Governance application.
+-   Configure a MID Server with the required properties to enable Microsoft Azure Government and the ServiceNow instance to communicate correctly.
+-   Use the Microsoft Azure Service Principal credentials to discover associated service accounts and cloud resources.
+-   In the base system Terraform template, set the *environment* variable to `usgovernment`. For information on where to find the template to modify, see [Discover the Infrastructure as Code \(IaC\) templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/exploring-cpg-terraform-connector.md).
+
+    ```
+    provider "azurerm" {
+         subscription_id = "<REPLACE_WITH_ACCOUNT_ID»"
+         client_id = "<REPLACE_WITH_APP_ID»"
+         client_secret = "<REPLACE_WITH_PASSWORD»"
+         tenant_id = "<REPLACE_WITH_TENANT_ID»"
+         environment = "usgovernment"
+      }
+    ```
+
+
 Role required: admin
 
 **Note:** ServiceNow® ITOM products are not officially certified or supported for Germany and China regions.
@@ -25,12 +43,6 @@ Role required: admin
 ## About this task
 
 Be sure to perform the procedures in order. After you have performed the Day 1 setup, you can perform the optional Day 2 setup and configuration procedures as needed and in any order. Detailed instructions for each procedure follow this overview.
-
-To set up Microsoft Azure Government cloud on Cloud Provisioning and Governance, you must:
-
--   Set up a Microsoft Azure Service Principal on the Azure Government Portal and register the service account on the Cloud Provisioning and Governance application.
--   Configure a MID Server with the required properties to enable Microsoft Azure Government and the ServiceNow instance to communicate correctly.
--   Use the Microsoft Azure Service Principal credentials to discover associated service accounts and cloud resources.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for Okta User Login Failures from Multiple IPs, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,8 +35,6 @@ Role required:
 
     If the devices are authenticated by known user agents, then the flow ends.
 
-    \[Omitted image "playbook-okta-login-failures-ips-overview.png"\] Alt text: Response tasks if there were no successful logins before or after the activity from the different IPs/ASNs.
-
 4.  In Action 5, based on the investigation, reach out to the user through out-of-band communication \(For example, phone call or email\) to check if the activity is due to account lockout or a wrong password provided by the user.
 
 5.  In Action 6, check whether the user provided a valid business justification.
@@ -54,8 +52,6 @@ Role required:
 8.  In Action 12, inform the affected user that account will be locked for investigation purposes.
 
     You can use the provided email template to inform the affected user.
-
-    \[Omitted image "playbook-okta-login-failures-ips-investigate.png"\] Alt text: Response tasks if there were successful logins before or after the activity from the different IPs/ASNs.
 
 9.  In Action 13, work with the IT Support team to lock the account out and start investigating the scope of the compromise.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Experience for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,21 +26,15 @@ Time to complete this task: 5-10 minutes.
 
 Verify that you have completed the setup steps described in [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md).
 
-
-
-\[Omitted image "mobile\_landing-agent.jpg"\] Alt text: Security Incident Response mobile landing page.
-
 ## Procedure
 
 1.  On your mobile device, tap the **ServiceNow Agent** app to open it.
-
-    \[Omitted image "mobile-agentapp-NY.png"\] Alt text: ServiceNow Agent app.
 
     If you are not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 
 2.  If the ServiceNow AI Platform instance with the Security Incident Response core application is not already added to your mobile device, follow these steps to add it.
 
-    1.  On the Instances screen that is displayed, tap the \[Omitted image "mobile\_instances\_plus.png"\] Alt text: Plus icon..
+    1.  On the Instances screen that is displayed, tap the + icon.
 
         A screen is displayed that prompts you to enter and save an address of a ServiceNow AI Platform instance.
 

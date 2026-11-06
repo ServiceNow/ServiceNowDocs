@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Coaching, Coaching, IT Service Management]
+breadcrumb: [Configure, Coaching, IT Service Management]
 ---
 
 # Setting up Coaching and surveys
@@ -20,7 +20,7 @@ To take full advantage of Coaching, configure the Coaching application and set u
 
 Configure Coaching to start assessing and coaching trainees.
 
-1.  Set up Coaching [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-roles.md) and groups to identify Coaching users, coaches, and admins.
+1.  Set up [Coaching roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-roles.md) and groups to identify Coaching users, coaches, and admins.
 2.  Define an assessment trigger on the Coaching Opportunity form.
 3.  Identify training content that is provided as part of a training or virtual coaching.
 4.  Configure virtual coaches to add to a coaching opportunity.

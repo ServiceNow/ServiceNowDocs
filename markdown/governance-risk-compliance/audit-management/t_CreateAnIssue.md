@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage audit issues and remediation, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit issues and remediation, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manually create GRC issues
@@ -56,7 +56,7 @@ For more information on the access control limitations to issues, see [GRC busin
 When you are creating an issue, you have the option of grouping the issue with other similar issues.
 -   **[Group similar issues under an existing parent issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/group-similar-issues-existing-parent.md)**  
 When you are creating an issue, you have the option of grouping the issue with other similar issues as part of an existing parent issue group.
--   **[User hierarchy access control for issue and remediation task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md)**  
+-   **[User hierarchy access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/user-hierarchy-risk-remed-task.md)**  
 If a user is assigned to an issue or a remediation task, then the manager of the user and the manager above in the hierarchy also get access to the issue or remediation task record.
 -   **[Report issues from the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/report-issues-from-serviceportal.md)**  
 When you identify any deficiencies in the controls or improvements that can be made in the organization policies, report an issue from the ServiceNow, Inc. Service Portal.

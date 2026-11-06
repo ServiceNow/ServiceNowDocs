@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -24,7 +24,7 @@ For additional information, see [Define Robust Transform Engine operations](http
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
-## RTETransformer - rteTransform\(String transformDefinitionId, Boolean verboseLogging, String source, Number batchSize\)
+## RTETransformer - RTETransformer\(String transformDefinitionId, Boolean verboseLogging, String source, Number batchSize\)
 
 Instantiates an RTETransformer object.
 
@@ -94,7 +94,7 @@ Number
 Number of messages to process at one time \(batch\). For example, if there are 10 messages in a payload, and this value is set to 2, the method runs five separate batch jobs to process all messages in the payload.
 
 </td></tr></tbody>
-</table>The following code example shows how to instantiate an RTETransformer object for the source testSourceRecord that has a batch size of 10.
+</table>The following code example shows how to instantiate an RTETransformer object for the source `testSourceRecord` that has a batch size of 10.
 
 ```
 (function(/*CTIOperationRequest*/ request, /*CTIOperationResponse*/ response, /*Context*/ ctx) {    

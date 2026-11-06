@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -50,4 +50,6 @@ Role required: discovery\_admin
 ## What to do next
 
 [Set up Alibaba Cloud service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/set-up-alibaba-cloud-service-account.md)
+
+**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/alibaba-cloud-discovery.md)
 

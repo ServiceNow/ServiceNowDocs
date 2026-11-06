@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mca-attributes.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Card actions in Mobile Card Builder, Mobile Card Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Card actions, Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Card template element attributes

@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Azure Application LB, Azure Application Gateway, Azure discovery, Azure patterns, Application LB pattern]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure Application LB pattern-based discovery
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns finds Azure application load balancers on
 
 -   **Verify the Microsoft Azure discovery prerequisites**
 
-    For more information, see the prerequisites section in [Microsoft Azure Cloud components discovery using patterns]().
+    For more information, see the prerequisites section in [Microsoft Azure Cloud discovery using patterns]().
 
 -   **Configure the Discovery schedule to support GovCloud**
 
@@ -97,5 +97,5 @@ The Azure - Application LB \(LP\) pattern collects tags and populates them in th
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

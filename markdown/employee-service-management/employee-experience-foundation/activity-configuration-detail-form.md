@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Activity Configuration Detail form
@@ -124,7 +124,7 @@ In the Card mapping script section, add a JSON script to retrieve records from a
 
 [Activity Configuration form]()
 
-[Browser Extension for Employee Center forms]()
+[Approvals experience reference]()
 
 [Connected Content form]()
 
@@ -160,11 +160,9 @@ In the Card mapping script section, add a JSON script to retrieve records from a
 
 [Portal notification content form]()
 
-[Quick Link form]()
-
-[Standard banner and icon sizes]()
-
 [Trigger conditions form]()
+
+[Quick Link form]()
 
 [Tab widget mapping form]()
 
@@ -172,9 +170,13 @@ In the Card mapping script section, add a JSON script to retrieve records from a
 
 [Topic form]()
 
-[To-do content form]()
-
 [User Criteria form]()
 
 [User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 

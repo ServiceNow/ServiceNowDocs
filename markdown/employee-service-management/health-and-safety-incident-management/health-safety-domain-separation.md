@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---

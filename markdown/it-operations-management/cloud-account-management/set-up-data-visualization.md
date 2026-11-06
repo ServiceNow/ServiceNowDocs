@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2024-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up scan configuration for data visualization
@@ -32,11 +32,11 @@ Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
 
 4.  Under the **Configuration** tab, select a **Cloud Provider Type** from the lookup.
 
-5.  Select the **Unlock Policy Sets** icon \(\[Omitted image "unlock\_icon.png"\] Alt text: Lock\) and select a policy set from the list.
+5.  Select the **Unlock Policy Sets** icon \(\[Omitted image "unlock\_icon.png"\] Alt text: Unlock policy sets\) and select a policy set from the list.
 
-6.  Select the **Lock Policy Sets** icon \(\[Omitted image "lock\_icon.png"\] Alt text: Unlock\).
+6.  Select the **Lock Policy Sets** icon \(\[Omitted image "lock\_icon.png"\] Alt text: Lock policy sets\).
 
-7.  Select and hold \(or right-click\) on the top bar and select **Save** to save the current settings.
+7.  Select Additional actions icon \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon\) or right-click on the top bar and select **Save** to save the current settings.
 
     \[Omitted image "save-scan-config.png"\] Alt text: Save Cloud Configuration Governance Scan Configuration
 
@@ -48,7 +48,7 @@ Role required: sn\_itom\_cam.cw\_admin or sn\_itom\_ccg.scheduling\_admin
 
 10. Select **Update**.
 
-11. Synchronize the configuration with the Cloud Account Management app by selecting **Sync CAM Config**.\[Omitted image "sync\_CAM\_config.png"\] Alt text: Sync Cloud Account Management Config button on the Scan Configuration page
+11. Synchronize the configuration with the Cloud Account Management app by selecting **Sync CAM Config**.\[Omitted image "sync\_CAM\_config.png"\] Alt text: Sync CW Config button on the Scan Configuration page
 
     **Note:**
 

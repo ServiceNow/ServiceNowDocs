@@ -1,20 +1,20 @@
 ---
 title: Invoke the Schedule page and view a calendar
-description: You can use the URL from arguments module, a field decoration \(dictionary attribute ref\_contributions\), or a UI Action linking to show\_schedule.doto invoke the Schedule page.
+description: You can use the URL from arguments module, a field decoration \(dictionary attribute ref\_contributions\), or a UI Action linking to show\_schedule.do to invoke the Schedule page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/time-configuration/c\_GenCalViewsFromSchedPages.html
 release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using schedules and calendars, Schedules, Exploring time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Using schedules and calendars, Schedules, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Invoke the Schedule page and view a calendar
 
-You can use the URL from arguments module, a field decoration \(dictionary attribute `ref_contributions`\), or a UI Action linking to `show_schedule.do`to invoke the Schedule page.
+You can use the URL from arguments module, a field decoration \(dictionary attribute `ref_contributions`\), or a UI Action linking to `show_schedule.do` to invoke the Schedule page.
 
 For example, the On-call calendar module generates the calendar from the following URL:
 

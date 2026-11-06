@@ -1,22 +1,23 @@
 ---
 title: Contract metadata extraction use cases
-description: In contract metadata extraction, use cases specify the information that you want Now Assist to detect in a document, and the use case mappings define the type of information to process.
+description: In contract metadata extraction, use cases specify the information that you want AI to detect in a document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/metadata-extraction-use-case.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Now Assist in Contract Management reference, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Use cases for contract metadata extraction, Now Assist use cases, Contract metadata extraction, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Create use cases, Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract metadata extraction use cases
 
-In contract metadata extraction, use cases specify the information that you want Now Assist to detect in a document, and the use case mappings define the type of information to process.
+In contract metadata extraction, use cases specify the information that you want AI to detect in a document.
 
-The CM Pro-Contract Metadata Extraction use case is available with the Now Assist in the Contract Management base system. This use case is not editable.
+The CM Pro-Contract Metadata Extraction use case is available with the Contract Management Pro - Prime base system. This use case is not editable.
 
 **Note:** If you create your own use case or customize a copy of an available use case, be sure to test it thoroughly to verify accuracy.
 
@@ -335,12 +336,5 @@ Availability of clause that indicates if the contract renews by default unless s
 has\_auto\_renewal\_clause
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist in Contract Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-ref.md)
-
-**Related topics**  
-
-
-[Supporting information for Now Assist in Contract Management]()
-
-[Contract analysis states in Now Assist in Contract Management]()
+</table>**Parent Topic:**[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 

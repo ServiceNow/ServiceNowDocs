@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define your inventory groups
@@ -26,7 +26,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 An inventory group represents a group of configuration items\(CIs\). In a group, you can add any CI but you cannot be duplicate a CI.
 
-When you create an inventory group, it creates a group in the inventory group\[cmdb\_group\] table. To learn more, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you create an inventory group, it creates a group in the inventory group\[cmdb\_group\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
@@ -60,7 +60,7 @@ Group type
 
 </td><td>
 
-Select one of the following group type-   CMDB Workspace
+Select one of the following group type-   CMDB Workspace or Service Graph Workspace
 -   Default
 -   Health
 -   Network Inventory Group

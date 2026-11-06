@@ -1,5 +1,5 @@
 ---
-title: Explore Upgrade History in Upgrade Management
+title: Explore Upgrade History in Upgrade Console
 description: The Upgrade History module maintains a comprehensive record of all upgrades performed on an instance. This module allows you to access detailed reports for both historical and recent upgrade versions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-upgrade-history-explore.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Upgrade History in Upgrade Management
+# Explore Upgrade History in Upgrade Console
 
 The Upgrade History module maintains a comprehensive record of all upgrades performed on an instance. This module allows you to access detailed reports for both historical and recent upgrade versions.
 
-To view an upgrade history record, navigate to Upgrade Management in one of the ways.
+To view an upgrade history record, navigate to Upgrade Console in one of the ways.
 
 <table id="table_oqw_5jr_hdc"><thead><tr><th>
 
@@ -32,7 +32,7 @@ Using left navigation
 
 </td><td>
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade History**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console** &gt; **Upgrade History**.
 2.  Select an upgrade from the list. On selecting an upgrade from the list, the System Upgrades form appears.
 
 </td></tr><tr><td>
@@ -41,7 +41,7 @@ Using Admin tab option
 
 </td><td>
 
-1.  Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade History**.
+1.  Navigate to **Admin** &gt; **Upgrade Console** &gt; **Upgrade History**.
 2.  Select an upgrade from the list. On selecting an upgrade from the list, the System Upgrades form appears.
 
 </td></tr></tbody>
@@ -93,5 +93,5 @@ Copies to review
 Total number of copied records to review whose base records have been upgraded.
 
 </td></tr></tbody>
-</table>See [Upgrade History tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-history-tool.md) for more information.
+</table>See [Upgrade History tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-history-tool.md) for more information.
 

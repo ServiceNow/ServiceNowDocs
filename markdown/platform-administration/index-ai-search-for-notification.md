@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/index-ai-search-for-notification.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate AI Search for Notifications plugin, System and custom notification and delivery channel preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Activate AI Search for Notifications, Preferences in Next Experience, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Index AI Search for notifications
@@ -43,5 +43,5 @@ If an indexed source contains unindexed records, the Indexed Sources list displa
     When the task completes, the **Ingestion State** field shows **indexed**.
 
 
-**Parent Topic:**[Activate AI Search for Notifications plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.md)
+**Parent Topic:**[Activate AI Search for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.md)
 

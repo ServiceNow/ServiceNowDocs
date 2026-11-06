@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security incident map, Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,17 +24,15 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Overview**.
 
-2.  Click **Add content** in the top left corner of the page to open the widget selection control.
+2.  Select **Add content** in the top left corner of the page to open the widget selection control.
 
-3.  In the first selection box, click **Reports**.
+3.  In the first selection box, select **Reports**.
 
-4.  In the second selection box, click **Security Incident**.
+4.  In the second selection box, select **Security Incident**.
 
-5.  In the third selection box, click **Security Incident map**.
+5.  In the third selection box, select **Security Incident map**.
 
-    \[Omitted image "SecurityIncidentGeoHeatmap.png"\] Alt text: Security Incident Response map.
-
-6.  At the bottom of the screen, click the location on the screen you want to add to the report.
+6.  At the bottom of the screen, select the location on the screen you want to add to the report.
 
 7.  Close the **Add content** box.
 

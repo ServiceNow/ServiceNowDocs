@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/setting-up-group-life-servicing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Group Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Setting up Group Life Servicing

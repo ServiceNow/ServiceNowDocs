@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: concept
 last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Entra Entitlement Management Spoke
@@ -19,6 +19,10 @@ Retrieves details of access packages and access package assignments in Microsoft
 ## Integration Hub subscription
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+## Spoke version
+
+Microsoft Entra Entitlement Management Spoke v1.0.0 is the latest version. For version history of the spoke, see [Microsoft Entra Entitlement Management Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-microsoft-entra-entitlement-mgmt-spoke.html).
 
 ## Supported versions
 

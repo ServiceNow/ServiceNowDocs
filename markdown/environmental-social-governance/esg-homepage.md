@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-homepage.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Explore, Operational Sustainability Management \(formerly Environme
 The Operational Sustainability Workspace is a simplified user interface designed for different users to perform their respective tasks. The home page of the Operational Sustainability Workspace displays various quick actions and reports.
 
 The Operational Sustainability Workspace displays different sections to provide data visualization for different components. These sections reference the three pillars of Environmental, Social, and Governance commitments.
+
+The following image shows you the operational sustainability home page.
+
+\[Omitted image "operational-sustainability-workspace.png"\] Alt text: Operational sustainability dashboard
 
 Each section of the dashboard is explained in the following sections.
 
@@ -65,7 +69,7 @@ The Top Level Goals Summary section provides a more detailed view of the goals a
 
 ## Target summary by goal
 
-This section provides a summary of the targets by goals and their status, owners, measure, target value, actual value, progress, check in frequency, and who is the goal updated by.
+This section summarizes targets by goal, including status, owner, measure, target value, actual value, progress, check-in frequency, and updater.
 
 ## Disclosures
 

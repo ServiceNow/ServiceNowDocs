@@ -1,80 +1,65 @@
 ---
 title: Hardware Asset Management release notes
-description: The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Yokohama release.The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. See the following sections for release notes by version.This version introduces an application installation option from the Admin Home page, a Configuration Console to set up HAM, and integration of HAM with the Contract Management Pro application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/hardware-asset-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [IT Asset Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Asset Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Hardware Asset Management release notes
 
-The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. See the following sections for release notes by version.
 
 ## About Hardware Asset Management
 
--   Achieve asset data accuracy, improve asset utilization, and reduce risk through Asset Attestation.
--   Streamline Hardware Asset Management \(HAM\) licensing for only non-OT hardware assets to access Hardware Asset Management features and workflows.
--   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
+-   Track and manage the end-to-end life cycle of hardware assets and consumables using prescriptive workflows and a centralized single-pane view of your asset estate.
+-   Reduce the risk of asset loss through asset tagging, ownership assignment, and location tracking.
+-   Streamline inventory operations using mobile devices to receive assets and conduct on-site audits.
+-   Automate asset life cycle workflows such as refresh, reclamation, repair, and return merchandise authorization \(RMA\).
+-   Reduce duplicate and inaccurate hardware asset records by normalizing model details against the Content Service repository.
 
 See [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ham-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Hardware Asset Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Hardware Asset Management is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install Hardware Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Hardware Asset Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+-   **Upgrade information**
+    -   After upgrading to the Brazil release, review and reassess any ACL roles you have customized or deleted to confirm they reflect your expected access settings.
+    -   A new system property, **sn\_itam\_restrict\_asset\_read**, controls read access to the Asset \[alm\_asset\] table and its child tables for users with only the snc\_internal role. For more information, see [Asset and CI management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManagingAssets.md).
+    -   A new system property, **sn\_itam\_enable\_manufacturer\_reference\_filter**, controls the Manufacturer field reference filter on model records for the Product Model \[cmdb\_model\] table. When this property is set to **true**, only active manufacturers appear as options. Set this property to **false** to also include inactive manufacturers.
 
 ## Accessibility and localization
 
 -   **Accessibility information**
-    -   **Accessibility improvements**
+    -   Reflow support for Hardware Asset Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
-        Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
+**Parent Topic:**[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-asset-management-rn-landing.md)
 
-    -   **Reflow**
+## Version 16.0.0
 
-        The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
-
-
-**Parent Topic:**[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-asset-management-rn-landing.md)
-
-## Yokohama
-
-The ServiceNow® Hardware Asset Management application provides advanced workflow, automation, and mobile capabilities to track and manage your technology asset environment. Hardware Asset Management was enhanced and updated in the Yokohama release.
+This version introduces an application installation option from the Admin Home page, a Configuration Console to set up HAM, and integration of HAM with the Contract Management Pro application.
 
 ### What's new
 
--   **[Maintain accurate asset details by creating Asset Attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-attestation-ham.md)**
+-   **Hardware Asset Management installation from the Product Hub**
 
-    Validate whether assets are in use and confirm asset assignment by performing audits through Asset Attestation to verify through confirmation by employees whether they are still using assigned serialized hardware assets.
+    Install Hardware Asset Management and dependent applications from the Product Hub, the central location to view and manage all applications included in your subscription.
 
--   **[Hardware Model Normalization for Operational Technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/hardware-normalization.md)**
+-   **Set up Hardware Asset Management using the Configuration Console**
 
-    When the OT Asset Management application is installed, standardize your hardware and consumable models with a minimum of one OT asset in addition to the model categories that belong to the opted-in HAM resource categories through the Hardware Model Normalization process. The OT entity flag on the asset indicates whether it's an OT asset.
+    Streamline your asset management setup by configuring all Hardware Asset Management settings from a single location using the Configuration Console. Set up users, roles, asset lifecycle, inventory, asset integrations, and generative AI skills. You can also use the AI conversational interface to configure groups, users, and content service setup.
 
+-   ****
 
-### What's changed
+    Manage your hardware contract lifecycle across renewals, expirations, and obligations by integrating Hardware Asset Management with the Contract Management Pro application. Use the agentic workflow to extract key metadata and obligations from signed contract documents and track contractual commitments proactively to reduce unexpected costs.
 
--   **[My Assets menu and Assets tab on the Employee Center portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/asset-attestation-ham.md)**
-
-    The My Assets menu appears on the global header navigation bar of the Employee Center home page. This menu provides employees with quick access to the details of assets assigned to them.
-
-    The Employee profile widget now includes an Assets tab, which shows the details of the assets assigned to the employee.
-
-
--   **[Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md)**
-
-    The configurable Hardware Asset Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality.
-
-
-### What's deprecated or removed
-
-The MAC address \[mac\_address\] field in the Hardware \[alm\_hardware\] table is deprecated. The data in this field is available in the new MAC address \(mac\_addr\) field in the Asset \[alm\_asset\] table.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to AWS billing and usage data, Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Cancel an AWS Billing download job
@@ -18,11 +18,7 @@ A Billing download job obtains billing and usage data from each payer account fo
 
 ## Before you begin
 
-Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integrations\_admin\]
-
-## About this task
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
+Role required: Cloud Integrations admin \(sn\_cld\_intg\_core.cloud\_integrations\_admin\)
 
 ## Procedure
 

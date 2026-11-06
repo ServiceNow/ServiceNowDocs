@@ -7,9 +7,9 @@ release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Healthcare Operations Core Reference, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Reference, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Components installed with Healthcare Operations Core
@@ -53,6 +53,8 @@ Abstract case type that provides a foundation to extend from when building your 
 
 </td></tr><tr><td>
 
+Admin
+
 sn\_hco.admin
 
 </td><td>
@@ -62,13 +64,14 @@ sn\_hco.admin
 -   sn\_bus\_loc.ibl\_writer
 -   sn\_csm\_case\_types.service\_definition\_admin
 -   sn\_hcls.foundation\_data\_writer
--   view\_changer
 
 </td><td>
 
-Has access to create, view, edit and manage healthcare provider, organization, location, and roles
+This is the administrator role for Healthcare Operations Core.
 
 </td></tr><tr><td>
+
+Team Member
 
 sn\_hco.care\_team\_member
 
@@ -79,9 +82,11 @@ sn\_hco.care\_team\_member
 
 </td><td>
 
-Has access to create and view healthcare cases.
+This role has access to create and view HCO cases and can add members to the care unit.
 
 </td></tr><tr><td>
+
+Team Manager
 
 sn\_hco.care\_team\_manager
 
@@ -92,11 +97,11 @@ sn\_hco.care\_team\_manager
 
 </td><td>
 
-Has access to create and view healthcare cases.
-
- can add members to the care unit.
+This role can view HCO cases and HCLS foundation data.
 
 </td></tr><tr><td>
+
+Viewer
 
 sn\_hco.viewer
 
@@ -106,11 +111,13 @@ sn\_hcls.foundation\_data\_viewer
 
 </td><td>
 
-Has access to view healthcare cases.
+This role can view HCO cases and HCLS foundation data.
 
 </td></tr><tr><td>
 
-sn\_hco.loc\_support\_agen
+Support Agent
+
+sn\_hco.loc\_support\_agent
 
 </td><td>
 
@@ -118,7 +125,19 @@ sn\_bus\_loc.svc\_location\_support\_agent
 
 </td><td>
 
-Views, tracks, and resolves all cases within their assignment group.
+This role can view, track, resolve, and fulfill all cases under their assignment group.
+
+</td></tr><tr><td>
+
+sn\_hco.loc\_manager
+
+</td><td>
+
+ 
+
+</td><td>
+
+Monitors the tasks within their organizations.
 
 </td></tr></tbody>
 </table>## Plugins installed with Healthcare Operations Core

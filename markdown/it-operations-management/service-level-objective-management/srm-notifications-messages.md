@@ -7,9 +7,9 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2025-07-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM Health, IT Operations Management]
+breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Notifications for breached error budgets
@@ -27,15 +27,14 @@ The message contains details about the breach to help team members learn about t
 -   Service level objective - Name of the service level objective \(SLO\), for example, `Navigation service availability 99.95`.
 -   Service/CI - Name of the associated service or configuration time. Select the name to open the relevant service in SRM.
 -   Policy name - Name of the error budget policy that was breached.
--   Reliability - The service state: critical, at risk, or stable.
 -   Error budget remaining - Percentage of error budget left at the time of the breach.
 -   View SLO in ServiceNow - Link to view the SLO details in SRM.
 
 ## Sample notification
 
-The following image is a sample notification in Microsoft Teams. It shows an error budget policy violation for the Retail service and details about the SLO, service state, and error budget remaining.
+The following image is a sample notification in Microsoft Teams. It shows an error budget policy violation for the Cart service and details about the SLO and error budget remaining.
 
-\[Omitted image "srm-msteams-notification.png"\] Alt text: Cart service has an error budget violation on its Cart service availability SLO.
+\[Omitted image "srm-msteams-notification2.png"\] Alt text: Cart service has an error budget violation on its Cart service availability SLO.
 
 ## Related documentation
 

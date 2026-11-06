@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 9
-breadcrumb: [Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Service Delivery
@@ -42,6 +42,8 @@ Legal Service Delivery includes the following key applications:
 
     The ServiceNow® Legal Request Management application provides a single, unified mechanism for employees to get all the information, services, and help that they need from the legal department. Employees can submit legal requests, monitor their progress, and read legal knowledge base articles—all through an omni-channel experience across portal, mobile, and virtual agent channels.
 
+    Fulfillers can also designate requests as privileged and confidential using Attorney Client Privilege feature. When privileged and confidential is enabled, the system restricts access to authorized stakeholders, and marks communications with confidentiality banners. For more information, see [Attorney-Client Privilege]().
+
     Legal Request Management is the core application in the Legal Service Delivery suite. All other applications that you choose to install require the installation of Legal Request Management.
 
 -   **[Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-management-landing-page.md)**
@@ -49,6 +51,8 @@ Legal Service Delivery includes the following key applications:
     The ServiceNow® Legal Matter Management application enables you to complete legal requests that need cross-departmental tasking and workflow with a mechanism to store documents and track important milestones. With its embedded record level security, you can maintain the confidential and sensitive information of each record.
 
     Matter templates help you with standardized process and workflow for various matter types.
+
+    Matter owners and fulfiller can also designate requests as privileged and confidential using Attorney Client Privilege feature. When privileged and confidential is enabled, the system restricts access to authorized stakeholders, and marks communications with confidentiality banners. For more information, see [Attorney-Client Privilege]().
 
 
 ## Legal Practice Applications
@@ -97,9 +101,9 @@ The ServiceNow® Legal Simple Compliance application provides prebuilt legal wor
     The ServiceNow® Legal Stock Preclearance application enables you to manage stock preclearance requests complying with the company’s stock preclearance policy. You can set up trading windows, manage an access list, and approve or reject stock preclearance requests.
 
 
-## [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+## [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/now-assist-lsd-exploring.md)
 
-Use the ServiceNow® ServiceNow Otto for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter. Request fulfillers can understand the context, refresh the summary, and post the summary to work notes more quickly with generative AI.
+Use the ServiceNow Otto for Legal Service Delivery \(LSD\) application to summarize a legal request or legal matter. Request fulfillers can understand the context, refresh the summary, and post the summary to work notes more quickly with generative AI.
 
 ## [Legal Counsel Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legal-counsel-center-landing.md)
 
@@ -152,6 +156,6 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
-    Access real-time courses, self-paced training, and career resources, such as [Legal Service Delivery \(LSD\) Essentials](https://learning.servicenow.com/lxp/en/legal-service-delivery/legal-service-delivery-lsd-essentials-tokyo?id=learning_course_prev&course_id=9dbcfc34974b8a10524eb3cf9153affb) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+    Access real-time courses, self-paced training, and resources such as [Legal Service Delivery](https://learning.servicenow.com/lxp/en/legal-service-delivery/legal-service-delivery-lsd-essentials-tokyo?id=learning_course_prev&course_id=66b4e6cd474b5650ac2f89c2e36d43f9/) and more, from [ServiceNow University](https://learning.servicenow.com/now/lxp/home).
 
 

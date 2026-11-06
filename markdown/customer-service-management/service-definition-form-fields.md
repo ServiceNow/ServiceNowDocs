@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-definition-form-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Service Definition form
@@ -100,6 +100,14 @@ Active
 </td><td>
 
 Enables the service definition.
+
+</td></tr><tr><td>
+
+Use service catalog item
+
+</td><td>
+
+This check box enables the admin to specify the service definitions that launch record producers.
 
 </td></tr><tr><td>
 

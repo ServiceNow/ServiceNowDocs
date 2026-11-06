@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quorum Control Policy, Cloud Encryption with Key Management, Encryption]
 ---
@@ -36,15 +36,15 @@ Roles required: sn\_kmf.admin
 
 4.  Fill in the fields to complete the form.
 
-<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d95569e104">
+<table id="choicetable_jby_cys_lrb"><thead><tr><th align="left" id="d109855e104">
 
 Field
 
-</th><th align="left" id="d95569e107">
+</th><th align="left" id="d109855e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d95569e113">
+</th></tr></thead><tbody><tr><td id="d109855e113">
 
 **Approvers**
 
@@ -52,7 +52,7 @@ Description
 
 Designate the members of the quorum from the list of users. Select the lock icon \[Omitted image "lock-icon.png"\] Alt text: Lock icon. to open the user directory. There is no limit to the number of approvers that can be selected.
 
-</td></tr><tr><td id="d95569e128">
+</td></tr><tr><td id="d109855e128">
 
 **Minimum number of approvers to achieve quorum**
 
@@ -60,7 +60,7 @@ Designate the members of the quorum from the list of users. Select the lock icon
 
 Designate the minimum number of approvers required to achieve quorum. For example, if there are nine approvers selected, a minimum of five may be configured for quorum. When five approvals are received in the system, quorum is reached and the withdraw operation starts.**Note:** The minimum number of required approvers is two.
 
-</td></tr><tr><td id="d95569e140">
+</td></tr><tr><td id="d109855e140">
 
 **Requests expire after the specified duration \(hours\)**
 

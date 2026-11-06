@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/config-offline-property-function-instance.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure offline mode properties for function instances
@@ -16,7 +16,11 @@ Determine if the function instance available to users in online mode is also ava
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile-admin, admin
+
+## About this task
+
+Function instances define the location of the function within the screen. For example: the footer area, top menu, or on a specific field. Define whether a function instance is available in offline mode. By default, all button instances are available offline, but you can disable specific ones if needed.
 
 ## Procedure
 
@@ -30,15 +34,15 @@ Role required: admin
 
 3.  Select one of the following methods to access a function instance.
 
-<table><thead><tr><th align="left" id="d78288e86">
+<table><thead><tr><th align="left" id="d84081e98">
 
 Method
 
-</th><th align="left" id="d78288e89">
+</th><th align="left" id="d84081e101">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d78288e95">
+</th></tr></thead><tbody><tr><td id="d84081e107">
 
 **From an existing screen**
 
@@ -50,7 +54,7 @@ Procedure
 
 **Note:** The default value of the **Disable Offline** field is turned off.
 
-</td></tr><tr><td id="d78288e128">
+</td></tr><tr><td id="d84081e136">
 
 **From the function instance table**
 
@@ -66,5 +70,5 @@ Procedure
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-offline-mode.md)
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/functions-offline.md)
 

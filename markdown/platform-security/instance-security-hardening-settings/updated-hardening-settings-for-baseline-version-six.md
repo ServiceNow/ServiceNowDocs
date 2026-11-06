@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2025-04-22"
-reading_time_minutes: 24
+last_updated: "2026-09-10"
+reading_time_minutes: 22
 breadcrumb: [Updated hardening settings, Baseline versions, Hardening settings, Platform Security]
 ---
 
@@ -35,7 +35,7 @@ Updates
 
 </td></tr><tr><td>
 
-[Prevent Empty ACL Creation \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
+[Prevent empty ACL creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
 
 </td><td>
 
@@ -43,7 +43,7 @@ Rule: Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Enable ACLs for Encoded Query in Simple List Widget \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-acls-for-encoded-query-in-simple-list-widget.md)
+[Enable ACLs for Encoded Query in Simple List Widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-acls-for-encoded-query-in-simple-list-widget.md)
 
 </td><td>
 
@@ -52,7 +52,7 @@ Rule: Script: Script has been updated to improve detection accuracy.
 
 </td></tr><tr><td>
 
-[Sanitize All Translated HTML Fields \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-sanitize-all-translated-html-fields.md)
+[Sanitize All Translated HTML Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-sanitize-all-translated-html-fields.md)
 
 </td><td>
 
@@ -69,7 +69,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Implement the x-frame-options: SAMEORIGIN security header \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
+[Implement the x-frame-options: SAMEORIGIN security header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-x-frame-options-sameorigin.md)
 
 </td><td>
 
@@ -78,26 +78,12 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Restrict access to GlideSystemUserSession scriptable API \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.md)
+[Restrict access to GlideSystemUserSession scriptable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-glidesystemusersession-scriptable-api.md)
 
 </td><td>
 
 -   Remediation \(New\): Ensure the property**glide.sandbox.usersession.allow\_unsanitized\_messages** is set to **false**. If a System Property \[sys\_properties\] record does not exist for this property, create one.
 -   Remediation \(Old\): Ensure the property **glide.sandbox.usersession.allow\_unsanitized\_messages** is set to **false**.
-
-</td></tr><tr><td>
-
-[Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-client-generated-scripts-sandbox.md)
-
-</td><td>
-
--   Short Description \(New\): Enable Script Sandbox
--   Short Description \(Old\): Enforce Client Generated Scripts Sandbox
--   Description \(New\): This property enables the script sandbox feature. The script sandbox is mainly utilized when executing client-generated scripts \(such as query conditions and GlideAjax expressions\). If **glide.script.use.sandbox** is not set to the recommended value of **true**, then the script sandbox feature will be disabled. Without the script sandbox, unauthorized/unauthenticated users can execute arbitrary privileged script on an instance. This would lead to complete security impact across all areas, including, but not limited to potentially malicious access to all data on the instance.
--   Description \(Old\): This property enables the script sandbox validation feature which limits query conditions and calculated values in client-generated scripts. If **glide.script.use.sandbox** is not set to the recommended value of **true**, then our javascript sandbox feature will be disabled which controls what can be done in script. Without appropriate authorization and validation, there is a potential for an attacker to perform unauthorized operations against the platform.
--   CVSS Score \(New\): 10
--   CVSS Score \(Old\): 9.8
--   Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
@@ -110,7 +96,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Restrict oauth parameters to POST body \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.md)
+[Restrict oauth parameters to POST body](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-oauth-parameters-to-post-body.md)
 
 </td><td>
 
@@ -119,7 +105,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Enforce URL allowlist check \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-url-allowlist-check.md)
+[Enforce URL allowlist check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-url-allowlist-check.md)
 
 </td><td>
 
@@ -130,22 +116,22 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Require XMLdoc2 entity validation with allowlistDisable entity expansion \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md)
+[Require XMLdoc2 entity validation with allowlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xmldoc2-entity-validation-with-entity-expansion.md)
 
 </td><td>
 
 -   If the **glide.stax.whitelist\_enabled** system property does not exist in the System Properties \[sys\_properties\] table, or it is not set to the recommended value of **true**, then all external entities are allowed when the **glide.stax.allow\_entity\_resolution** system property is set to the value of **true**. If customizations do not require entity expansion, use the **glide.stax.allow\_entity\_resolution** system property to disable external entity expansion. The XML completes parsing but doesn't include any internal or external entities.
 
     -   If you set **glide.stax.allow\_entity\_resolution** to **true**, all external entities attempt to resolve or expand subject entities, subject to the setting of the **glide.stax.whitelist\_enabled** property.
-    -   If you set **glide.stax.allow\_entity\_resolution** to **false**, all entity resolution and expansion is blocked. To learn more about this property, see [Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md).
-When **glide.stax.whitelist\_enabled** is set to **true**, define a listing of comma-delimited FQDN in the **glide.xml.entity.whitelist** property, which are the only URLs that can be reached using the XML entity processing property. To learn more, see [Restrict XML external entities \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md). Attackers can use this vulnerability to expand data exponentially in an External Entities Expansion \(XXE\) attack, quickly consuming all system resources.
+    -   If you set **glide.stax.allow\_entity\_resolution** to **false**, all entity resolution and expansion is blocked. To learn more about this property, see [Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md).
+When **glide.stax.whitelist\_enabled** is set to **true**, define a listing of comma-delimited FQDN in the **glide.xml.entity.whitelist** property, which are the only URLs that can be reached using the XML entity processing property. To learn more, see [Restrict XML external entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md). Attackers can use this vulnerability to expand data exponentially in an External Entities Expansion \(XXE\) attack, quickly consuming all system resources.
 
 -   Description \(Old\): If **glide.stax.whitelist\_enabled** is not set to the recommended value of **true**, then all external entities are allowed. This could lead to External Entities Expansion \(XXE\) attacks.
 -   Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Restrict XML external entities \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md)
+[Restrict XML external entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.md)
 
 </td><td>
 
@@ -162,7 +148,7 @@ Values other than `http://java.sun.com/j2ee/dtds/` can be included in the in the
 
 </td></tr><tr><td>
 
-[Restrict email domains for external user registration \[Updated in Security Center 1.3, 1.5, and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
+[Restrict email domains for external user registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-external-user-registration-email-domain-allowlist.md)
 
 </td><td>
 
@@ -170,7 +156,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
+[Validate file MIME type in AttachmentCreator web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)
 
 </td><td>
 
@@ -187,7 +173,7 @@ It is a security best practice to validate file uploads at least with MIME type 
 
 </td></tr><tr><td>
 
-[Define allowed ServiceNow internal IP addresses \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
+[Reduce the scope of the IP allow List for an instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ip-addresses-access-allowlist.md)
 
 </td><td>
 
@@ -206,7 +192,7 @@ When set to "true", the "glide.ip.authenticate.allow" property is used to grant 
 
 </td></tr><tr><td>
 
-[Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)
+[Disable Entity Expansion within the XMLDocument2 Streaming Parser](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-entity-expansion.md)
 
 </td><td>
 
@@ -222,7 +208,7 @@ Set the **glide.stax.allow\_entity\_resolution** system property to **false** to
 
 </td></tr><tr><td>
 
-[Deny by default with empty ACLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)
+[Deny by default with empty ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-security-manager-default-deny.md)
 
 </td><td>
 
@@ -262,7 +248,7 @@ Restriction should be applied for unauthenticated users as some attachments migh
 
 </td></tr><tr><td>
 
-[Disable embedded HTML code \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-allow-embedded-html-code.md)
+
 
 </td><td>
 
@@ -282,7 +268,7 @@ The ServiceNow AI Platform mitigates many injection and cross-site attacks by im
 
 </td></tr><tr><td>
 
-[Enable password reset policy checks \[Updated in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-password-reset-policy-checks.md)
+[Enable password reset policy checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-password-reset-policy-checks.md)
 
 </td><td>
 
@@ -290,7 +276,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Enable email spam scoring and filtering \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md)
+[Enable email spam scoring and filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md)
 
 </td><td>
 
@@ -300,7 +286,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Escape Excel Formulas \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)
+[Escape Excel formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-escape-excel-formula.md)
 
 </td><td>
 
@@ -316,7 +302,7 @@ Set the **glide.export.escape\_formulas** system property to **true** to escape 
 
 </td></tr><tr><td>
 
-[Restrict JSONP requests to trusted URLs \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-jsonp-request-inclusion-list.md)
+[Restrict JSONP requests to trusted URLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-jsonp-requests-to-trusted-urls.md)
 
 </td><td>
 
@@ -330,7 +316,7 @@ Use the value of the **angular.jsonp.inclusion\_list.urls** system property to d
 
 </td></tr><tr><td>
 
-[Enable SNC access control plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md)
+[Enable SNC access control plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md)
 
 </td><td>
 
@@ -340,7 +326,7 @@ Prevent ServiceNow Customer Service and Support personnel from accessing the ins
 
 **Note:** Other authorized ServiceNow Operations personnel, in their capacity to support and manage the product, are required to perform administrative actions on the underlying infrastructure. Enabling this plugin may affect support service levels and the Availability SLA. Availability SLA is then measured from the time that Support staff personnel are granted access to your instance.
 
-Enable the SNC Access Control \(com.snc.snc\_access\_control\) plugin to restrict access to your instance without your express permission. For more details on this feature, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_SNCAccessControl.md). For activation information, see [Activating ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ActivateSNCAccessControl.md)
+Enable the SNC Access Control \(com.snc.snc\_access\_control\) plugin to restrict access to your instance without your express permission. For more details on this feature, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_SNCAccessControl.md). For activation information, see [Activate ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ActivateSNCAccessControl.md)
 
 -   Description \(Old\): The SNC Access Control \(com.snc.snc\_access\_control\) plugin prevents Customer Service and Support personnel from accessing the instances without your express permission. However, other authorized ServiceNow Operations personnel, in their capacity to support and manage the product, are required to perform administrative actions on the underlying infrastructure. This infrastructure includes servers and databases, among other infrastructure components that make up the SaaS solution. This access method is fully auditable and tracked.This plugin enables you to restrict access to your instance without your express permission, so it may affect support service levels and the Availability SLA. Availability SLA is then measured from the time that Support staff personnel are granted access to your instance.
 -   Remediation \(New\): Ensure the plugin "com.snc.snc\_access\_control" is activated. Read the documentation on activating at [https://www.servicenow.com/docs/csh?topicname=t\_ActivateSNCAccessControl.html&amp;version=latest.](https://www.servicenow.com/docs/access?context=t_ActivateSNCAccessControl&version=latest.)
@@ -372,7 +358,7 @@ Ensure that the **SNC User Lockout Check with Auto Unlock** script action \(foun
 
 </td></tr><tr><td>
 
-[Restrict access to specific IP ranges plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md)
+[Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md)
 
 </td><td>
 
@@ -390,7 +376,7 @@ Ensure that the **SNC User Lockout Check with Auto Unlock** script action \(foun
 
 </td></tr><tr><td>
 
-[Restrict downloadable MIME types \[Updated in Security Center 1.3 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
+[Restrict downloadable MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-downloadable-mime-type-denylist.md)
 
 </td><td>
 
@@ -399,7 +385,7 @@ Ensure that the **SNC User Lockout Check with Auto Unlock** script action \(foun
 
 </td></tr><tr><td>
 
-[Enable updated version of MultiSSO plugin \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-updated-version-of-multi-sso-plugin-is-enabled.md)
+
 
 </td><td>
 
@@ -417,7 +403,7 @@ Follow the steps in [KB0756504](https://support.servicenow.com/kb?id=kb_article_
 
 </td></tr><tr><td>
 
-[Prevent inactive users from logging in \[New in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-inactive-users-from-logging-in.md)
+[Prevent inactive users from logging in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-inactive-users-from-logging-in.md)
 
 </td><td>
 
@@ -425,7 +411,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Enable MID audit log \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)
+[Enable MID audit log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-mid-audit-log-plugin-applicability-mid-server.md)
 
 </td><td>
 
@@ -433,7 +419,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Ensure archive table ACLs are checked \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ensure-archive-table-acls-are-checked.md)
+[Ensure archive table ACLs are checked](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-ensure-archive-table-acls-are-checked.md)
 
 </td><td>
 
@@ -441,7 +427,7 @@ Rule Script: Script has been updated to improve detection accuracy
 
 </td></tr><tr><td>
 
-[Define active session timeout exception roles \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-define-active-session-timeout-exception-roles.md)
+[Define active session timeout exception roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-define-active-session-timeout-exception-roles.md)
 
 </td><td>
 
@@ -468,7 +454,7 @@ To protect your instance against these security vulnerabilities:
 
 </td></tr><tr><td>
 
-[Limit UI active session life span \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-ui-active-session-life-span.md)
+[Limit UI active session life span](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-ui-active-session-life-span.md)
 
 </td><td>
 

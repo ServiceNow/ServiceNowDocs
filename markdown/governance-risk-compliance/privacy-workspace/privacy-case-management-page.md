@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -23,5 +23,5 @@ The home page contains the following tabs:
 -   [Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/operations-tab-prm.md)
 -   [Privacy cases dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-cases-tab.md)
 
-\[Omitted image "processing-activity-tab.png"\] Alt text: The home page that appears for the landing page for privacy
+\[Omitted image "processing-activity-tab.png"\] Alt text: Processing activity tab of the Privacy management dashboard.
 

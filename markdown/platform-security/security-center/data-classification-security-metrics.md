@@ -7,7 +7,7 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security metrics, Security monitoring console, Security Center, Platform Security]
 ---
@@ -23,7 +23,7 @@ See [data classification](https://raw.githubusercontent.com/ServiceNow/ServiceNo
 -   **Classifiable data**: Tables or columns that can be classified.
 -   **Classified data**: Dictionary entries, tables, or columns that are classified.
 
-The data is graphically displayed in a customizable chart that provides detailed analysis such as setting targets, thresholds, trends, statistics, or forecasts. The data is also organized as records in a table. See [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md) for more information.
+The data is graphically displayed in a customizable chart that provides detailed analysis such as setting targets, thresholds, trends, statistics, or forecasts. The data is also organized as records in a table. See  for more information.
 
 Select the cards to view the individual metrics page with additional details.
 

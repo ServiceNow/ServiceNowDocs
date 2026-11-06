@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-notifications-preferences.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [next experience notification, notification preferences]
-breadcrumb: [Next Experience preferences, Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience notification preferences
@@ -27,15 +27,15 @@ Role required: none
 
 3.  Configure your preferences for system notifications outside of the platform.
 
-<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d114399e97">
+<table id="choicetable_wgv_zk1_cwb"><thead><tr><th align="left" id="d119577e103">
 
 Option
 
-</th><th align="left" id="d114399e100">
+</th><th align="left" id="d119577e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114399e106">
+</th></tr></thead><tbody><tr><td id="d119577e112">
 
 **Allow Notifications**
 
@@ -43,7 +43,7 @@ Description
 
 Enable or disable all notifications.
 
-</td></tr><tr><td id="d114399e115">
+</td></tr><tr><td id="d119577e121">
 
 **Advanced Preferences**
 
@@ -51,7 +51,7 @@ Enable or disable all notifications.
 
 Customize notification preferences for system notifications, custom notifications, and delivery channels.
 
-</td></tr><tr><td id="d114399e124">
+</td></tr><tr><td id="d119577e130">
 
 **System notifications**
 
@@ -59,7 +59,7 @@ Customize notification preferences for system notifications, custom notification
 
 Enable or disable system notification categories, for example, Approval or Connect notifications.
 
-</td></tr><tr><td id="d114399e136">
+</td></tr><tr><td id="d119577e142">
 
 **Custom notifications**
 
@@ -67,7 +67,7 @@ Enable or disable system notification categories, for example, Approval or Conne
 
 Enable or disable custom notifications.
 
-</td></tr><tr><td id="d114399e146">
+</td></tr><tr><td id="d119577e152">
 
 **Delivery Channels**
 
@@ -76,7 +76,7 @@ Enable or disable custom notifications.
 Enable or disable individual delivery channels.
 
 </td></tr></tbody>
-</table>    For more information about advanced notification preferences, see [System and custom notification and delivery channel preferences in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/advanced-notification-prefrences.md).
+</table>    For more information about advanced notification preferences, see System and custom notification and delivery channel preferences in Next Experience.
 
 4.  Select the **Next Experience** tab.
 

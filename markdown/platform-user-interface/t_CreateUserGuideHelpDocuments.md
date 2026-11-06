@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_CreateUserGuideHelpDocuments.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [System user guide, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -36,13 +36,9 @@ Role required: admin
 
     3.  Click **Submit**.
 
-        \[Omitted image "UserGuidePage.png"\] Alt text: User guide help page
-
 2.  Create help page sections and associate them with the page.
 
     1.  Navigate to **System User Guide** &gt; **Administration** &gt; **Help Page Sections** and click **New**.
-
-        \[Omitted image "UserGuideSection.png"\] Alt text: User guide section definition
 
     2.  Give your section a unique and concise title, and then click **Submit**.
 
@@ -63,8 +59,6 @@ Role required: admin
         |Application|Application scope for this record. This field is read-only and defaults to the **Global** scope.|
         |Page|Help page on which this section appears. You can use the lookup field to change the page on which a section appears.|
         |Section|Name of the section to display on the selected page.|
-
-        \[Omitted image "UserGuideSectionToPage.png"\] Alt text: Placing sections on a help page
 
     7.  Click **Submit**.
 
@@ -90,13 +84,9 @@ Role required: admin
         |Short description|Brief description of the content of this document. This description is used as the title for the document on the help page.|
         |Text|Document content, including graphics and tables. You can format your entry, create bulleted or numbered lists, and attach images.|
 
-        \[Omitted image "UserGuideDocument.png"\] Alt text: User guide help document
-
     5.  Click **Submit**.
 
     6.  Repeat the process to create the necessary help documents for that section.
-
-        \[Omitted image "UserGuideSectionAndContent.png"\] Alt text: Section record with help documents
 
 
 **Parent Topic:**[System user guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_SystemUserGuide.md)

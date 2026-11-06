@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering templates and forms for Creator Studio, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Templates and forms, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Show the AES template

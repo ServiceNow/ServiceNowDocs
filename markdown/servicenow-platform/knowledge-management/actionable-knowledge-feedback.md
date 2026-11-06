@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ If an ownership group is assigned to the article, the feedback task is assigned 
 
 If no ownership group is assigned to the article, the feedback task is assigned to the author or reviser of the article.
 
-The task assignee can update the article, create a new article, request additional feedback, or reassign the task and receives notification after the feedback is updated or resolved.
+The task assignees can update the article, create a new article, request additional feedback, or reassign the task and receives notification after the feedback is updated or resolved.
 
 **Note:** The actionable feedback feature is available in the Knowledge Management Service Portal and Agent Workspace. To use the actionable feedback feature in other service portals, you can activate the **Knowledge Article View** page route map.
 

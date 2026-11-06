@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/set-up-entities-for-targets.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-25"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -18,11 +18,19 @@ Set up an entity record in the instance and map it to an incident or security in
 
 Role required: sn\_oper\_res.admin, sn\_dri\_inc\_rptg.digital\_resilience\_incident\_admin
 
+## About this task
+
+When an entity is mapped to an incident or security incident, a flow runs. The flow is either 'DRI case creation on incident entity insert' or 'DRI case creation on SIR entity insert'.
+
+This automatically creates a Digital Resilience Incident Reporting case in the Digital Resilience Incident Reporting module. For information on the flows, see [Configure Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.md).
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and open an incident from the list view.
 
 2.  To add one or multiple entities to the selected incident, select **Add** in the Entities related list.
+
+    Adding the entity triggers the DRI case creation flow, which generates a Digital Resilience Incident Reporting case record automatically in the sn\_grc\_inc\_rptg\_case\_task table. The DRI manager can then assign the case and proceed with the regulatory reporting assessment.
 
     The Entities related list is shown in the example.
 

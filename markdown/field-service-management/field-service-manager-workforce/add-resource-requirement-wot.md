@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Field Service Crew operations, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
 
 # Add resource requirements for a work order task
@@ -119,6 +119,4 @@ Option to indicate that the resource requirement should be matched with availabl
 </td></tr></tbody>
 </table>7.  Select **Submit**.
 
-
-**Parent Topic:**[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
 

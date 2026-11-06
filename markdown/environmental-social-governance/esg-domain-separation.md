@@ -1,18 +1,18 @@
 ---
 title: Domain separation and Operational Sustainability Management
-description: Domain separation is supported for ESG Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+description: Domain separation is supported for Operational Sustainability Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-domain-separation.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Domain separation and Operational Sustainability Management
 
-Domain separation is supported for ESG Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported for Operational Sustainability Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic
 
@@ -38,9 +38,9 @@ These users can choose to expand or collapse the domain scope to show or hide da
 
 **Note:** Users always have access to data from domains that have been explicitly granted to them by domain visibility.
 
-## How domain separation works in ESG Management
+## How domain separation works in Operational Sustainability Management
 
-While ESG Management supports separation of data, separation of logic and process is not fully supported. Many types of records in the ESG Management application are automatically generated through user processes. Integrations with Project Portfolio Management and GRC: Metrics can create and associate data automatically. For records that are automatically and manually generated, the domain of the record is the same as the domain of the user responsible for creating or generating the records. Users must ensure that they are creating and generating records at the right domain level so that they are visible to the right set of users.
+While Operational Sustainability Management supports separation of data, separation of logic and process is not fully supported. Many types of records in the Operational Sustainability Management application are automatically generated through user processes. Integrations with Project Portfolio Management and GRC: Metrics can create and associate data automatically. For records that are automatically and manually generated, the domain of the record is the same as the domain of the user responsible for creating or generating the records. Users must ensure that they are creating and generating records at the right domain level so that they are visible to the right set of users.
 
 For example, suppose you have domains that look like:
 
@@ -88,7 +88,7 @@ For more information on these tables, see [Components installed with Operational
 
 ## Use case
 
-ESG data can be separated from the data of other departments. Each business area using the ESG Management application can have separate data that cannot be shared with other departments. Therefore, each department can have its own goals, targets, material topics, and so on. When looking at a goal from the ESG domain, the user can choose to expand the domain scope to show values from the ESG domain or collapse the domain scope to show only goals that match the ESG domain. By default, domain separation adds a domain field to the Task \[task\]and Configuration Items \[cmdb\_ci\] tables and their extensions. You can extend domain separation to any new tables you create by adding a sys\_domain field to the table's dictionary definition. By default, the system only domain-separates platform and baseline application tables where appropriate.
+ESG data can be separated from the data of other departments. Each business area using the Operational Sustainability Management application can have separate data that cannot be shared with other departments. Therefore, each department can have its own goals, targets, material topics, and so on. When looking at a goal from the ESG domain, the user can choose to expand the domain scope to show values from the ESG domain or collapse the domain scope to show only goals that match the ESG domain. By default, domain separation adds a domain field to the Task \[task\]and Configuration Items \[cmdb\_ci\] tables and their extensions. You can extend domain separation to any new tables you create by adding a sys\_domain field to the table's dictionary definition. By default, the system only domain-separates platform and baseline application tables where appropriate.
 
 **Note:** ServiceNow® does not recommend domain separating platform tables such as any table with the sys\_ prefix such as the Dictionary Entry \[sys\_dictionary\] and Dictionary Entry Override \[sys\_dictionary\_override\] tables because it can produce unexpected results.
 

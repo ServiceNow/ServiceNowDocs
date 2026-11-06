@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_TakeAnAssessment.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,13 +44,9 @@ By default, you can't modify your answers to an assessment after submission. How
 
     Assessment questionnaires are arranged in sections: first by record, then by category. Each record appears as a section title. Questions for the record appear underneath the record, grouped by category. Each category appears as a subsection underneath the record name. Click the collapse icon \(\[Omitted image "CollapseIcon.png"\] Alt text: Collapse icon\) or expand icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand icon\) to hide or show the questions in a category, or all the categories and questions for a record. Colored bars indicate the status of each question.
 
-    \[Omitted image "AssessmentQuestionnaireForm.png"\] Alt text: Assessment questionnaire form
-
 4.  Answer each question to the best of your ability.
 
     Point to a question for more information.
-
-    \[Omitted image "AssessmentMetricTooltip.png"\] Alt text: Tooltip for an assessment metric
 
     If you're unsure of how to respond to a question or if a question doesn't apply to a particular record, select **Not Applicable**, if available.
 
@@ -65,8 +61,6 @@ By default, you can't modify your answers to an assessment after submission. How
 7.  If prompted, enter your user name and password to verify your full name signature.
 
     If all the questions are answered with valid values, a`success` message appears. If the system detects an unanswered required question or invalid response, the assessment isn't submitted, and a message appears at the top of the questionnaire explaining the error. Questions with problems are temporarily highlighted.
-
-    \[Omitted image "AssessmentsInvalidValue.png"\] Alt text: Error messages for invalid responses
 
 8.  You can modify your responses to the assessment until its due date.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Populating the CMDB
@@ -64,16 +64,16 @@ Use the [CMDB instance API](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## Manually create a CI
 
-Create a single CI for a specific class in CMDB Workspace or in Core UI. The role required for this operation depends on the settings of the class table you select for the CI.
+Create a single CI for a specific class in CMDB Workspace,Service Graph Workspace, or in Core UI. The role required for this operation depends on the settings of the class table you select for the CI.
 
-You can also manually create a CI while leveraging Identification and Reconciliation Engine \(IRE\) processes to ensure that the new CI complies with various class requirements and that it's unique. For more information, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md).
+You can also manually create a CI while leveraging Identification and Reconciliation Engine \(IRE\) processes to ensure that the new CI complies with various class requirements and that it's unique.
 
 1.  Use the CI Class Manager:
     1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
     2.  Select **Hierarchy** to display the list of CI Classes. Select the class to use for the CI.
     3.  In the class navigation bar, select **CI List** and then on the CI list view, select **New**.
     4.  Fill out the CI form and then select **Submit**.
-2.  Or, manually create a CI while leveraging Identification and Reconciliation Engine \(IRE\) processes to ensure that the new CI complies with various class requirements and that it's unique. For more information, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md).
+2.  Or, manually create a CI while leveraging Identification and Reconciliation Engine \(IRE\) processes to ensure that the new CI complies with various class requirements and that it's unique. For more information, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md)or .
 3.  Or, directly use a table:
     1.  Navigate to **All** &gt; **Configuration** and then elect the class to use for the CI, such as Business Services.
     2.  In the navigation filter of the application navigator, enter the table label \(such as 'Linux'\), or the table name in the format of &lt;table name&gt;.list \(such as 'cmdb\_ci\_linux\_server.list'\). Then, press Enter.

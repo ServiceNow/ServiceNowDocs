@@ -7,7 +7,7 @@ release: yokohama
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Custom interactive filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -48,11 +48,11 @@ Custom interactive filters are a fallback for use when standard interactive filt
 
 -   **Filtering widgets in Export to PDF**
 
-    When you create custom content to be placed as widgets on dashboards and home pages, you must perform extra tests before you export the content to PDF. In the exported PDF, report widgets that are filtered using custom interactive filters may appear as blank squares or the widget content does not respect the filter.
+    When you create custom content to be placed as widgets on Core UI dashboards, you must perform extra tests before you export the content to PDF. In the exported PDF, report widgets that are filtered using custom interactive filters may appear as blank squares or the widget content does not respect the filter.
 
 -   **Custom interactive filters cannot be used in a breakdown dashboard**
 
-    On breakdown dashboards, the breakdown itself is used to filter all Performance Analytics widget data. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+    On breakdown dashboards, the breakdown itself is used to filter all Performance Analytics widget data. For more information, see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 
 **Parent Topic:**[Custom interactive filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/c_CustomPublishers.md)

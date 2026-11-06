@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Triggers
@@ -18,9 +18,11 @@ Triggers specify when to start running your playbook.
 
 In Playbooks, triggers indicate when your playbook should start running. Each trigger has a type and conditions that, when met, start running your activated playbook.
 
-You can choose a trigger when you create a playbook in Workflow Studio. Start by adding a trigger, which defines the trigger type. Then, set conditions and other options to refine your trigger so that it fires in a way that makes sense for your business process. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-process-definition.md).
+You choose one or more triggers when you create a playbook in Workflow Studio. To add a trigger, start by choosing the trigger type. Then, set conditions and other options to refine your trigger so that it fires in a way that makes sense for your business process. Repeat if you want your playbook to run based on multiple triggers. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-process-definition.md).
 
-If there are no triggers that fit your use case, you can create your own trigger definition instead. For more information, see [Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-trigger-definition.md).
+**Note:** You can also configure and activate a playbook without any trigger, if you're planning to only trigger the playbook via API.
+
+If you don't see a trigger that fits your use case, you can also create your own trigger definition instead. For more information, see [Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-trigger-definition.md).
 
 \[Omitted image "process-automation-designer-trigger-flow.png"\] Alt text: When the conditions specified in your trigger are met anywhere in the ServiceNow AI Platform, your automated playbook starts running.
 
@@ -28,22 +30,26 @@ If there are no triggers that fit your use case, you can create your own trigger
 
 In your Trigger Definition \[sys\_pd\_trigger\_definition\] record, you can choose a trigger type, which determines when your trigger fires. These trigger types represent record operations that can occur in the ServiceNow AI Platform®. The following trigger types are available in your instance by default:
 
--   **Record Created**
+-   **Scheduled**
+
+    The playbook runs on a schedule specified by the playbook author.
+
+-   **When record is created**
 
     The playbook runs when a user creates a record anywhere in the ServiceNow AI Platform.
 
--   **Record Updated**
+-   **When record is updated**
 
     The playbook runs when a user updates an existing record anywhere in the ServiceNow AI Platform.
 
--   **Record Created or Updated**
+-   **When record is created or updated**
 
     The playbook runs when a user creates a record or updates an existing record anywhere in the ServiceNow AI Platform.
 
 
 **Note:** Triggers only fire for record operations that are interactive, or made by users. Triggers don't fire for non-interactive record operations. For more information, see [Non-interactive sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_NonInteractiveSessions.md).
 
-## Conditions to run
+## Details
 
 After you add a trigger to your playbook, you can then set conditions and other options that determine when and how your trigger fires.
 
@@ -65,25 +71,19 @@ Use the condition builder to create field conditions for when your playbook runs
 
 </td></tr><tr><td>
 
-Run my process
-
-</td><td>
-
-Choose an option for when your playbook runs. Options include:-   **Once**: Triggers the playbook once for the life of the triggering input record.
--   **For each unique change**: Triggers the playbook for every unique update to a non-[system field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_GlobalDefaultFields.md) even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.
-
-**Note:** Playbooks that have a trigger that runs **For each unique change** can produce recursions when run in a non-interactive session. When such playbooks make a change to the trigger record, the change meets the playbook's trigger conditions and causes a recursion.
-
--   **Only if not currently running**: Triggers the playbook for every unique change if a process execution is not currently running.
--   **For every update**: Triggers the playbook every time the input record is updated, regardless of whether there has already been or there currently are any running process executions.
-
-</td></tr><tr><td>
-
-Run on extended
+Run this trigger on extended tables
 
 </td><td>
 
 Select this option to trigger the playbook on tables that extend from your selected table. For example, if you enable this option and select the Configuration Item \[cmdb\_ci\] table, your playbook runs when record operations occur on the Server \[cmdb\_ci\_server\], Computer \[cmdb\_ci\_computer\], and other extended tables. For more information, see [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-extension-and-classes.md).
+
+</td></tr><tr><td>
+
+Trigger on unique change
+
+</td><td>
+
+Select this to trigger the playbook for every unique update to a non-[system field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_GlobalDefaultFields.md) even if the flow is currently running. The system stores a history of every change to a record and determines whether the change is unique. For example, if an incident record's **State** field changes from In Progress to On Hold, the playbook runs. However, if the **State** field then changes back to In Progress, the playbook doesn't run.**Note:** Playbooks that have a trigger that runs **For each unique change** can produce recursions when run in a non-interactive session. When such playbooks make a change to the trigger record, the change meets the playbook's trigger conditions and causes a recursion.
 
 </td></tr></tbody>
 </table>## Design considerations
@@ -107,6 +107,8 @@ Refer to these design considerations when working with triggers:
 Define the type of trigger that determines when to start running your playbook.
 -   **[Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-trigger.md)**  
 Begin building your playbook by adding and configuring the trigger.
+-   **[Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)**  
+Create a scheduled trigger that starts your playbook at the required time and interval. You can schedule a trigger in any time zone, with or without an end date for the schedule.
 
-**Parent Topic:**[Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md)
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-building-blocks.md)
 

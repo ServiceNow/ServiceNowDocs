@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/color-var-ui-rule.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Color theme considerations for mobile, Configure Next Experience theming for mobile, Next Experience theming for mobile, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Color theme considerations, Configure theming, Next Experience theming, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Color variable support for UI rules

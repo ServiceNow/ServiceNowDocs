@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work an HR case, HR Case Management, Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work an HR case, Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Add adhoc approvers to a case

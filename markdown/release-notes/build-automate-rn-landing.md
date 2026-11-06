@@ -1,49 +1,67 @@
 ---
 title: App development and low-code release notes
-description: The ServiceNow AI Platform has new and updated automation, as well as and no-code, low-code, and platform developer features in the Yokohama release.
+description: The ServiceNow AI Platform has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/build-automate-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # App development and low-code release notes
 
-The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Yokohama release.
+The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
 
+-   **[AI Workflow Factory Prime release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-workflow-factory-prime-rn.md)**  
+The ServiceNow® AI Workflow Factory Prime application contains products that enable you to discover, build, run, and extend on the ServiceNow AI Platform. See the following sections for release notes by version.
+-   **[App Engine Management Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/app-engine-management-center-rn.md)**  
+The ServiceNow® App Engine Management Center application provides an innovative experience for you to manage the full life cycle of custom app development, from intake to deployment. See the following sections for release notes by version.
 -   **[App Engine Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/app-engine-studio-rn.md)**  
-The ServiceNow® App Engine Studio \(AES\) application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. App Engine Studio was enhanced and updated in the Yokohama release.
--   **[Creator Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/creator-studio-rn.md)**  
-The ServiceNow® Creator Studio product is a guided application development experience that enables business process experts to create request-based applications without the barriers of traditional low-code development. Creator Studio was enhanced and updated in the Yokohama release.
--   **[ERP Canvas release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/erp-canvas-rn.md)**  
-The ServiceNow® ERP Canvas application \(formerly known as ERP Data Hub\) enables you to connect to the ERP \(Enterprise Resource Planning\) system of record, query remote tables, and build data models to use ERP data on the ServiceNow AI Platform. ERP Canvas was enhanced and updated in the Yokohama release.
--   **[ERP Customization Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/erp-customization-mining-rn.md)**  
-The ServiceNow®ERP Customization Mining \(ERP-CM\) product enables ERP \(Enterprise Resource Planning\) consultants and architects to identify customizations and recommend candidates for replatforming from the ERP system onto the ServiceNow AI Platform. ERP Customization Mining was enhanced and updated in the Yokohama release.
--   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/integration-hub-rn.md)**  
-The ServiceNow® Integration Hub application extends the ServiceNow® Workflow Studio automation capabilities by enabling you to integrate your instance data with data in external systems. Integration Hub was enhanced and updated in the Yokohama release.
--   **[Next Experience Developer \(NED\) Tools release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ned-rn.md)**  
-The ServiceNow® Next Experience Tools application enables you to create the components to track and enhance page performance and improve overall developer productivity. NED Tools was enhanced and updated in the Yokohama release.
--   **[ServiceNow Otto for App Engine release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-app-engine-rn.md)**  
-The ServiceNow® ServiceNow Otto for App Engine application enables creators to enhance custom applications with AI agents and skills that application users can leverage at runtime. ServiceNow Otto for App Engine is a new application in the Yokohama Patch 3 release.
--   **[ServiceNow Otto for Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-creator-rn.md)**  
-The ServiceNow® ServiceNow Otto for Creator application includes generative AI skills that can make developing on the ServiceNow AI Platform more efficient. ServiceNow Otto for Creator was enhanced and updated in the Yokohama release.
--   **[RPA Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rpa-rn.md)**  
-The ServiceNow® RPA Hub application enables end-to-end automation for your organization. RPA Hub was enhanced and updated in the Yokohama release.
--   **[Table Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/table-builder-rn.md)**  
-The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. Table Builder was enhanced and updated in the Yokohama release.
--   **[ServiceNow IDE release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-ide-rn.md)**  
-The ServiceNow® integrated development environment \(IDE\) application enables developers to create scoped applications in source code in an IDE based on Visual Studio Code for the Web on the ServiceNow AI Platform. ServiceNow IDE was enhanced and updated in the Yokohama release.
--   **[ServiceNow SDK release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-sdk-rn.md)**  
-The ServiceNow® software development kit \(SDK\) enables developers to create scoped applications in source code locally in Visual Studio Code Desktop and upload changes to a ServiceNow instance. ServiceNow SDK was enhanced and updated in the Yokohama release.
+The ServiceNow® App Engine Studio application enables creators of varying skill levels to build applications that meet the immediate needs of your organization. See the following sections for release notes by version.
+-   **[Application Runtime Policy release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/application-runtime-policy-rn.md)**  
+The ServiceNow® Application Runtime Policy module enables optional, automatic generation of resource access policies for custom applications in development. See the following sections for release notes by version.
+-   **[Automation Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/automation-center-rn.md)**  
+The ServiceNow® Automation Center application helps you govern your end-to-end, multi-vendor automation life cycles from one place, and use real-time dashboards to measure automation health and prevent failures. See the following sections for release notes by version.
+-   **[Build Agent and Autonomous Engineer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-agent-rn.md)**  
+The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
+-   **[Partner Passport Portal release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/partner-passport-portal-rn.md)**  
+Partner Passport Portal is available in Workflow Data Fabric that enables you to apply committed fabric credits toward partner applications, such as Boomi. Partner Passport Portal is a new feature in the Brazil release.
+-   **[Data Catalog release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/data-catalog-rn.md)**  
+ Data Catalog application is the self-service discovery layer within the Workflow Data Fabric application that enables teams to find, understand, and govern data assets across your organization. Data Catalog is a new application in the Brazil release.
+-   **[Developer Sandboxes release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+The ServiceNow® Developer Sandboxes application enables your administrators and delegated developers to request, access, and manage the individual sandboxes on top of the same underlying development instance. See the following sections for release notes by version.
+-   **[Guided Application Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/guided-application-creator-rn.md)**  
+Guided Application Creator is a legacy development interface for building applications. This application is deprecated in the Brazil release.
+-   **[Integration Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/integrationhub-rn-2026-09.md)**  
+The Confluent Kafka REST Proxy Spoke integrates your ServiceNow instances with the Kafka cluster through API and the ServiceNow Kafka Consumer application integrates your ServiceNow instance with Kafka Consumer and stores data in the ServiceNow tables. These are currently supported for the Brazil release, but they will be deprecated in a future release.
+-   **[Intelligent approvals release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-approvals-rn.md)**  
+The ServiceNow® Intelligent approvals application automatically evaluates incoming approval requests against your organization's policy documents. Requests that clearly meet policy criteria are approved or rejected automatically, while ambiguous cases are routed to human reviewers for approval. See the following sections for release notes by version.
+-   **[Lux release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lux-rn.md)**  
+Lux is a Lit-based platform for building widget-based UI experiences that run on a ServiceNow instance. You create pages using widgets as Lit components. Release notes are organized by version.
+-   **[Lux Lab release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lux-lab-rn.md)**  
+Lux Lab is a desktop application for building Lux applications that run on a ServiceNow instance. You create projects, edit code, preview your work, and deploy to your instance from one tool. Release notes are organized by version.
+-   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/component-rn.md)**  
+The ServiceNow® Next Experience Components application provides the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Brazil release.
+-   **[ReleaseOps release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/releaseops-rn.md)**  
+The ServiceNow® ReleaseOps application enables you to deploy and validate code from development to production in your ServiceNow environments. See the following sections for release notes by version.
+-   **[Service Creator release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+The ServiceNow® Service Creator application enables a department to offer custom services through the service catalog. This application is deprecated in the Brazil release.
+-   **[ServiceNow Lux Lab for VS Code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-ai-experience-lab-for-vs-code-rn.md)**  
+The ServiceNow Lux Lab for VS Code extension transforms how you build on the ServiceNow AI Platform. Scaffold experiences, pages, and widgets with framework intelligence built in, cutting development time and ensuring consistency across your projects. See the following sections for release notes by version.
 -   **[ServiceNow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-studio-rn.md)**  
-The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and easily create custom apps. ServiceNow Studio was enhanced and updated in the Yokohama release.
--   **[Workflow Data Fabric Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-data-fabric-rn.md)**  
- The ServiceNow® Workflow Data Fabric Hub application unifies data from across the enterprise, providing access to external data in real time without needing to copy it to your instance. Workflow Data Fabric Hub is a new application in the Yokohama release.
--   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-studio-rn.md)**  
-The ServiceNow® Workflow Studio application provides a single location to access all process automation applications. Workflow Studio was enhanced and updated in the Yokohama release.
+The ServiceNow® ServiceNow Studio application provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps. See the following sections for release notes by version.
+-   **[Stream Connect release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/stream-connect-rn.md)**  
+The ServiceNow® Stream Connect application links your Apache Kafka environment to your ServiceNow instance, enabling you to stream data between your instance and your external systems. See the following sections for release notes by version.
+-   **[Table Builder release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/table-builder-rn.md)**  
+The ServiceNow® Table Builder application is a centralized way to build tables, forms, and display logic. See the following sections for release notes by version.
+-   **[Workflow Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workflow-studio-rn-landing.md)**  
+The ServiceNow® Workflow Studio application consolidates playbooks, flows, actions, decision tables, and integrations into one design environment. Workflow Studio was enhanced and updated in the Brazil release.
+-   **[Zero Copy Connectors release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/zero-copy-connectors-rn.md)**  
+ServiceNow® Zero Copy Connectors unifies data from across the enterprise, providing access to external data in real-time without needing to copy it to your instance.
+-   **[Zero Copy Connector for ERP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/zero-copy-connector-for-erp-rn.md)**  
+The ServiceNow® Zero Copy Connector for ERP application enables you to connect to an Enterprise Resource Planning \(ERP\) system of record, query remote tables, and build data models to use ERP data. Zero Copy Connector for ERP was enhanced and updated in the Brazil release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

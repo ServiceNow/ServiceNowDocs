@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Service Management integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [IT Service Management integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Unfurl the web links in Microsoft Teams chat
@@ -19,8 +19,6 @@ ServiceNow for Microsoft Teams supports link unfurling. Link unfurling generates
 To enable link unfurling, you must create and download the manifest file and upload the file to Microsoft Teams. To download the manifest file, refer [Create and download the manifest file for pre-published apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/download-manifest-file-mt.md).
 
 In a conversation in Microsoft Teams application, the content in the URL appears as a preview to the user in the form of an adaptive card. The preview is generated based on the content shared in the URL.
-
-\[Omitted image "adaptive-card-generic-sn-link.png"\] Alt text: Adaptive card
 
 The content in the adaptive card will be shown only for public knowledge articles, and the catalog items. However, the adaptive card shows generic content for all private links in the chat conversations.
 

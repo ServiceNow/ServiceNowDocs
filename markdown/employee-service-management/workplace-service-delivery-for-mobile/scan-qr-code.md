@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,33 +26,19 @@ Role required: sn\_wsd\_core.workplace\_user
 
     The Mobile home page is displayed.
 
-    \[Omitted image "wsd-qr-code-mob-home-page.png"\] Alt text: Mobile app home page.
+2.  You can also select a space from **My favorites** and reserve a space.
 
-2.  Navigate to **Workplace Reservation Management** &gt; **Workplace Spaces** and select any workplace space.
+3.  Select a space.
 
-3.  Select **Create QR Code**.
-
-4.  Select **Print QR Codes**.
-
-5.  Enter the file name, and select **Print**.
-
-6.  Download the QR Code file.
-
-7.  Open the file and scan the QR Code from mobile.
-
-    \[Omitted image "wsd-qr-code-mobile-screen-1.jpeg"\] Alt text: Selected space showing the See my reservation and Reserve button options.
-
-8.  Tap **See my reservations** to see your existing reservations for a selected space.
+4.  Tap **See my reservations** to see your existing reservations for a selected space.
 
     Select a space from the list of spaces to view the Reservation Information screen. For more information about the Reservation Information screen, see [Make a reservation using the Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/make-a-reservation-on-mobile.md).
 
-9.  Tap **Reserve** to reserve a location for a selected space.
+5.  Tap **Reserve** to reserve a location for a selected space.
 
-10. Space details screen is displayed with the quick reservation option for a day.
+6.  Space details screen is displayed with the quick reservation option for a day.
 
-    \[Omitted image "wsd-qr-code-timeslots-vertical-view.png"\] Alt text: Space details page showing available time slots.
-
-11. Perform the following steps:
+7.  Perform the following steps:
 
     1.  Reserve available time slot: Select a time slot for your reservation.
 
@@ -70,28 +56,26 @@ Role required: sn\_wsd\_core.workplace\_user
     2.  Check availability: Manually select a Start date and time and End date and time for your reservation. If you try to select a past date or select any future dates, tThe time is reset to the current date. Time durations can be changed.
     3.  The Schedule view shows the time slot in vertical bars. Select the chevron icon \( \[Omitted image "chevron-right-outline-24.svg"\] Alt text: chevron icon to move forward in the scheduled view calendar\) to move forward or select the icon \(\[Omitted image "chevron-left-outline-24.svg"\] Alt text: Chevron icon to move backward in the scheduled view calendar\) to go back and check the reservation time slot availability for a day.
 
-        \[Omitted image "wsd-qr-code-schedule-view-focus.png"\] Alt text: Scheduled view showing the selected time slot.
-
         The selected time slot \(Step 9a\) is highlighted in green on the scheduled view. Existing reservations and unavailable time slots show shaded blocks. Vertical lines indicate a 1-hour duration while the dotted lines indicate a 30-minute duration.
 
     4.  If the selected time slot isn’t available or if the selected space is not available, a validation message is shown. Users can use the **Nearby spaces** option to check for available spaces or check for next available time slot. **Nearby spaces** section shows list of spaces that are nearby the scanned space and are available for reservation.
     5.  Select **View details** to see the space details.
-12. Tap **Reserve** to make your reservation.
+8.  Tap **Reserve** to make your reservation.
 
     Check in your reservation by the start time and check-out the reservation after it ends. Open your reservation to check in directly using the My Reservations option on the home page.
 
-13. Review the reservation summary details.
+9.  Review the reservation summary details.
 
-14. Tap **Check in** to check in your reservation.
+10. Tap **Check in** to check in your reservation.
 
     For more information, see [Check in or check out a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/check-in-out-rsv-on-mobile.md).
 
-15. Select the **Actions** drop-down options to:
+11. Select the **Actions** drop-down options to:
 
     -   Change reservation details
     -   Cancel reservation
     -   Share reservation
-16. To submit a general inquiry or raise a complaint request, select **Submit a request**.
+12. To submit a general inquiry or raise a complaint request, select **Submit a request**.
 
     **Note:** This option appears only if the Workplace Case Management plugin is installed.
 
@@ -103,13 +87,13 @@ Role required: sn\_wsd\_core.workplace\_user
 
     3.  After reviewing the inquiry details, tap **Close**.
 
-17. To view and change your reservation details, select **See my reservation**.
+13. To view and change your reservation details, select **See my reservation**.
 
     This option appears only if you have a reservation on this space.
 
     1.  Select the more options icon.
 
-        \(\[Omitted image "cance-rsv.png"\] Alt text: More option icon in an android device.\)
+        \(\)
 
         The availability of the icon depends on the type of device that you’re using.
 

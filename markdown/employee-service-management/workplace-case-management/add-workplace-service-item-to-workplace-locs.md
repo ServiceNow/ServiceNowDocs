@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Add a workplace service item to a workplace service, Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -55,7 +55,7 @@ Select workplace locations where the workplace item must be available. Employees
 
 5.  On the form, scroll down to the Workplace Service Item Locations related list.
 
-6.  Select **Edit...**.
+6.  Select **Edit**.
 
 7.  Select and move the service.
 
@@ -63,7 +63,7 @@ Select workplace locations where the workplace item must be available. Employees
 
     2.  From the **Collection** column on the left, select the workplace location.
 
-    3.  Move the workplace location to the **Workplace location List** column on the right by using the add-remove icon \(\[Omitted image "add-remove-icon.png"\] Alt text: Add-remove icon.\).
+    3.  Move the workplace location to the **Workplace location List**.
 
 8.  Select **Save**.
 
@@ -71,7 +71,7 @@ Select workplace locations where the workplace item must be available. Employees
 
     1.  On the form, scroll down to the Workplace Service Item Locations related list.
 
-    2.  Select the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) for the workplace location.
+    2.  Select the preview to preview the workplace location.
 
     3.  In the preview dialog box, select **Open record**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/setup-fso-socure-spoke.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Financial Services Operations Integration with Socure, Integrating with Socure, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Set up, Socure, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Activate the Socure spoke from Integration Hub

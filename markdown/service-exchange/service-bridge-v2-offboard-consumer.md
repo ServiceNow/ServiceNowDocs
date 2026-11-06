@@ -1,20 +1,20 @@
 ---
 title: Off-board a Service Exchange consumer
-description: Off-board an on-boarded consumer and remove all related records.
+description: Off-board an onboarded consumer and remove all related records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-offboard-consumer.html
 release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register a Service Exchange consumer, Use Service Exchange for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Register a consumer, Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Off-board a Service Exchange consumer
 
-Off-board an on-boarded consumer and remove all related records.
+Off-board an onboarded consumer and remove all related records.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Role required: admin, sn\_sb.admin
 
 3.  Select the **Off-Board Consumer** related link on the form.
 
-    You see a confirmation message indicating that this action off-boards this connection and deletes all related connection records.
+    You see a confirmation message indicating that this action will off-board this connection and delete all related connection records.
 
 4.  Select **OK** to off-board the consumer connection.
 
@@ -39,9 +39,7 @@ Role required: admin, sn\_sb.admin
 
 ## Result
 
-Records related to the specific consumer connection gets deleted from the following tables:
-
-**Note:** For each table listed, only the records related to the specific consumer connection being off-boarded are deleted.
+The following tables are deleted:
 
 -   Connection tables:
     -   ih\_sync\_capture\_definition
@@ -66,7 +64,9 @@ Records related to the specific consumer connection gets deleted from the follow
     -   sn\_sb\_pro\_authorized\_user
     -   sn\_sb\_pro\_consumer\_connection
     -   sn\_sb\_pro\_entitlement
--   Tasks \(records related to the specific consumer connection are deleted only if you choose to delete all existing tasks\)
+-   Tasks \(records from the following tables are deleted only if you choose to delete all existing tasks\)
     -   sn\_sb\_pro\_provider\_task
     -   sn\_sb\_pro\_remote\_task
+
+**Parent Topic:**[Register a Service Exchange consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-onboarding.md)
 

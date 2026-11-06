@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Submit safety incidents and observations, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Submit a safety incident as an employee
@@ -39,6 +39,9 @@ To open the emergency contacts knowledge article from the Employee Center, navig
     **Note:**
 
     -   The map loads when the **Use map location** check box is selected. On the map, the Google search box can be used to find the exact location of the incident or observation.
+
+        For more information on configuring the visibility of the Google search box on the map, see [Configure the location search bar visibility on the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-configure-property-hide-map-location.md).
+
     -   The **Contractor** option appears only when the Health and Safety Contractor Management \(sn\_hs\_crm\) application is installed on your instance. For more information, see [Additional features in Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/install-hs-incident-mgmt.md). The field only lists users who have the \[snc\_external\] role assigned to them and have their Health and Safety profile created. For more information, see [Assign Health and Safety profile to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/assign-hs-profile-user.md).
 4.  If you have selected the **Report Health and Safety Incident - Advanced** form, use the **Describe the event** section to add more details about the incident.
 

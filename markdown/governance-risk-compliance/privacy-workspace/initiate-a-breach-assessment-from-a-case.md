@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  Select **All Cases**.
 
@@ -49,6 +49,10 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 7.  Select **Save**.
 
+
+## What to do next
+
+Initiate new breach assessments with a revised breach assessment template. See [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 **Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md)
 

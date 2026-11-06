@@ -1,39 +1,39 @@
 ---
 title: Risk portfolio dashboard
-description: Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you are associated.
+description: Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-risk-portfolio.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Dashboards, Customer success, Use, Customer Success Management]
 ---
 
 # Risk portfolio dashboard
 
-Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you are associated.
+Get an overall view of all active risks, top risk categories, and the risk scope of all engagements with which you’re associated.
 
-Login as a user with the `sn_acct_lc.ale_success_agent` role and navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and click on the **Active risk signals** icon to view the Active risk portfolio overview page.
+Login as a user with the `sn_acct_lc.customer_success_agent` role and navigate to **Workspaces** &gt; **CRM Workspace** and select the **Active risk signals** icon to view the Active risk portfolio overview page.
 
 \[Omitted image "account-lifecycle-risk-port.png"\] Alt text: Risk portfolio page
 
 The following score cards are displayed:
 
--   Risk signals: The total number of active risk signals and impacted contract value. Click on the link to drill down to the list of all risk signals.
+-   Risk signals: The total number of active risk signals and impacted contract value. Select the link to drill down to the list of all risk signals.
 -   Risk signals by scope: Active risk signals categorized by scope or state of the engagement such as adoption, onboarding, and so on.
 -   Risk signals by probability: Active risk signals grouped by high, moderate, or low probability.
--   Top risk signal categories: The top active risk signal categories based on the risk type defined in the ALE Choice record.
+-   Top risk signal categories: The top active risk signal categories based on the risk type defined in the Customer Success Choice record.
 
 You can do the following:
 
 -   Hover over the charts to see the number of risk and the percentage by scope, probability, and category.
--   Click on a specific category in a chart to drill down to the list view of all the risks in that category.
--   Click on a chart to drill down to the list of total risks.
--   Click **View all risk signals** to drill down to the list of all the risk signals.
--   Click the \[Omitted image "icon-menu-square.png"\] Alt text: icon to Create a risk signal manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
+-   Select a specific category in a chart to drill down to the list view of all the risks in that category.
+-   Select a chart to drill down to the list of total risks.
+-   Select **View all risk signals** to drill down to the list of all the risk signals.
+-   Select the \[Omitted image "icon-menu-square.png"\] Alt text: icon to Create a risk signal manually. See [Create a risk signal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-risk-signal.md).
 
-The list of active risk signals are displayed. You can sort this list by Due date, Priority, Probability, or Created on date. Click **View all risk signals** to view the All risk signals page.
+The list of active risk signals are displayed. You can sort this list by Due date, Priority, Probability, or Created on date. Select **View all risk signals** to view the All risk signals page.
 
 In the Active risk signals section, you can view the following:
 
@@ -55,8 +55,15 @@ In the Active risk signals section, you can view the following:
     -   Probability
     -   Contract value impacted
     -   Engagement title
-    Click the \[Omitted image "icon-menu.png"\] Alt text: icon to Create success play manually.
+    Select the \[Omitted image "icon-menu.png"\] Alt text: icon to Create success play manually.
 
-    Click the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the detailed record page.
+    Select the \[Omitted image "open-link-right-outline-24.svg"\] Alt text: icon to drill down to the detailed record page.
 
+
+-   **[Risk and issues page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-risk-issues-page.md)**  
+This page provides detailed information about a risk signal including risk occurrences, threshold values, and risk solution.
+-   **[Associate risk signals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-risk_signal_solution.md)**  
+Use this option to associate a risk signal with an internal play or a success case.
+
+**Parent Topic:**[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-dashboards.md)
 

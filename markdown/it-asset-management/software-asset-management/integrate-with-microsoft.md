@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Microsoft 365
@@ -24,15 +24,31 @@ Process
 
 </th><th>
 
+Required?
+
+</th><th>
+
 Required user role in the Microsoft 365 application
 
 </th><th>
 
 Authentication scopes
 
+</th><th>
+
+Purpose
+
+</th><th>
+
+Least privilege?
+
 </th></tr></thead><tbody><tr><td>
 
 Download subscriptions
+
+</td><td>
+
+Mandatory
 
 </td><td>
 
@@ -41,7 +57,15 @@ Application developer
 </td><td>
 
 -   User.Read.All
--   Organization.Read.All
+-   LicenseAssignment.Read.All
+
+</td><td>
+
+Permits the ServiceNow instance to read tenant, user, and license information to synchronize Microsoft 365 subscription data.
+
+</td><td>
+
+The user role and scope are read-only and limited to metadata access. It doesn't allow modifying users, groups, or licenses.
 
 </td></tr><tr><td>
 
@@ -49,16 +73,34 @@ Pull user activity
 
 </td><td>
 
--   Power platform administrator
+Optional
+
+</td><td>
+
 -   Application developer
+-   Power platform administrator
 
 </td><td>
 
 Reports.Read.All
 
+</td><td>
+
+-   Pulls usage of Microsoft 365 apps for Enterprise \(Microsoft Word, Excel, PowerPoint\), and other products such as Exchange Online, Teams, OneDrive, Power BI, SharePoint Online, Viva Engage \(previously Yammer\). Required for the Software Asset Management Professional application to generate optimization recommendations for low usage. For example, low usage for Microsoft 365 E1, Microsoft 365 E3-&gt; E1.
+-   Pulls Power BI usage and activity metrics for license optimization. Required for the Software Asset Management Professional application to generate optimization recommendation for low usage. For example, Microsoft 365 E5-&gt; E3.
+
+</td><td>
+
+-   The role and scope are read-only and limited to metadata access. It doesn't allow modifying users, groups, or licenses.
+-   For getting Power BI usage, this is the least privilege role. You should consider limiting membership to specific security groups and enabling read-only Power BI admin settings for the service principal.
+
 </td></tr><tr><td>
 
 Reclaim subscriptions
+
+</td><td>
+
+Optional
 
 </td><td>
 
@@ -68,6 +110,41 @@ Application developer
 
 -   GroupMember.ReadWrite.All
 -   LicenseAssignment.ReadWrite.All
+
+</td><td>
+
+Permits the Software Asset Management Professional application to reclaim inactive licenses by removing Microsoft 365 subscriptions assigned to inactive users.
+
+</td><td>
+
+These permissions only enable modifying license assignments and don't provide tenant-wide admin capabilities.
+
+</td></tr><tr><td>
+
+Assign licenses
+
+</td><td>
+
+Optional
+
+</td><td>
+
+Application developer
+
+</td><td>
+
+-   GroupMember.ReadWrite.All
+-   LicenseAssignment.Read.All
+-   LicenseAssignment.ReadWrite.All
+-   User.Read.All
+
+</td><td>
+
+Allows license assignment to users in the Microsoft 365 portal.
+
+</td><td>
+
+These permissions only enable Microsoft 365 license assignment.
 
 </td></tr></tbody>
 </table>## Setting up Microsoft 365 integration
@@ -96,7 +173,7 @@ Manage Microsoft 365 license compliance and optimization by performing the follo
 
     5.  [Receive latest updates from Software Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMContentService.md)
 
-        Update your instance with new content weekly on a scheduled basis through Software Asset Management Content Service. The Software Asset Management application provides automated content to simplify the normalization of software installations and subscriptions, offering enriched data such as lifecycle information, downgrade rights, and suite definitions. This data is essential for maintaining accurate license compliance and optimization.
+        Update your instance with new content twice every week on a scheduled basis through Software Asset Management Content Service. The Software Asset Management application provides automated content to simplify the normalization of software installations and subscriptions, offering enriched data such as lifecycle information, downgrade rights, and suite definitions. This data is essential for maintaining accurate license compliance and optimization.
 
     6.  [Create a success goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-success-goals.md)
 

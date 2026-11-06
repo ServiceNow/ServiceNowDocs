@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/chart-options-multi-metrics.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,17 +18,21 @@ If you are showing multiple metrics in a time series data visualization, you can
 
 \[Omitted video\] Description: Multiple metrics being added to a time series visualization
 
-## Separate chart for each metric
+## Separate visualization for each metric
 
-When you have a data visualization with more than one data source, you have a separate metric for each data source. In time series data visualizations, you can select a separate chart type for each metric, to make the chart easier to read. In each Metric tile, selecting the chart icon opens a list of chart types to choose from.
+When you have a data visualization with more than one data source, you have a separate metric for each data source. In time series data visualizations, you can select a separate visualization type for each metric, to make the visualization easier to read. In each Metric tile, selecting the visualization icon opens a list of visualization types to choose from.
 
-\[Omitted image "ts-chart-choice-multi-metrics.png"\] Alt text: Metrics tile when there are 2 metrics, showing chart selection menu.
+\[Omitted image "ts-chart-choice-multi-metrics.png"\] Alt text: Metrics tile when there are 2 metrics, showing visualization selection menu.
+
+**Note:** When a Data snapshots indicator is selected, the Metrics component is the same as the source table.
+
+Dot-walk fields are limited to those fields defined in the snapshot indicator's source.
 
 ## Multiple Y-axes
 
-In some time series, the difference between the range of values of metrics makes it difficult to read the metrics when they share the same Y-axis scale. In this case, you can have separate Y-axis scales for the metric. Add a Y-axis for a metric by selecting the More options icon in the metric tile. Be sparing with this function, however, because having too many Y-axis scales also makes the chart difficult to read. Also, be sure to give a short but clear label for each Y-axis if you have more than one.
+In some time series, the difference between the range of values of metrics makes it difficult to read the metrics when they share the same Y-axis scale. In this case, you can have separate Y-axis scales for the metric. Add a Y-axis for a metric by selecting the More options icon in the metric tile. Be sparing with this function, however, because having too many Y-axis scales also makes the visualization difficult to read. Also, be sure to give a short but clear label for each Y-axis if you have more than one.
 
-\[Omitted image "ts-metric-multi-addaxis.png"\] Alt text: Adding Y-axis charts for each metric.
+\[Omitted image "ts-metric-multi-addaxis.png"\] Alt text: Adding Y-axis visualizations for each metric.
 
 ## Group by per metric
 
@@ -48,5 +52,5 @@ For example, consider a bar visualization that shows the Number of open problems
 
 \[Omitted image "dv-follow-filters-per-metric.png"\] Alt text: Bar visualization configured so that of two metrics, one follows filters on a dashboard and one does not.
 
-**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/config-cti-comp-log.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up ServiceNow Voice, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -58,8 +58,6 @@ You can create logs for the following components:
 
     You can see the logs from the invoked `sn_cti` modules, including the date created, log level, log message, and source. In the system logs, the message log level is always **info**. For basic logs from `sn_cti_core` without any logging configuration, the log level varies.
 
-
-## Example
 
 For an entry on `sn_cti_log_cfg.list` for an operation handler with **warn** log level logger located in the operation handler, the code is as follows:
 

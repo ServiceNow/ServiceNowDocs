@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Review a request for adding a component to a component library and approve or re
 
 ## Before you begin
 
-**Important:** Starting with the Washington DC release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Someone has requested to add a local component from an application to the component library as a shared component. If there are such requests in a library that need your approval, you see a **Requests** label \(\[Omitted image "cdm-comp-library-request.png"\] Alt text: The Requests label beside the library name in the list.\) beside the library name.
 
@@ -40,15 +40,15 @@ Role required: cdm\_admin or cdm\_editor
 
 5.  As required, click accept or reject the request.
 
-<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d393571e141">
+<table id="choicetable_mcn_flw_dxb"><thead><tr><th align="left" id="d308200e130">
 
 Approval action
 
-</th><th align="left" id="d393571e144">
+</th><th align="left" id="d308200e133">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d393571e150">
+</th></tr></thead><tbody><tr><td id="d308200e139">
 
 **Accept a request**
 
@@ -69,7 +69,7 @@ Description
 5.  Click **Accept**.
 
 
-</td></tr><tr><td id="d393571e220">
+</td></tr><tr><td id="d308200e209">
 
 **Reject a request**
 

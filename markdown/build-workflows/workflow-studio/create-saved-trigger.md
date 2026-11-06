@@ -1,20 +1,20 @@
 ---
-title: Create a saved trigger
-description: Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
+title: Create a saved record-based trigger
+description: Create a reusable trigger definition that responds to a record-based event. When a record is created or updated in a specific table, the trigger activates and starts the flows where it is used. You can allow flow authors to select the saved trigger, view its conditions, or add their own conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-saved-trigger.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
-# Create a saved trigger
+# Create a saved record-based trigger
 
-Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
+Create a reusable trigger definition that responds to a record-based event. When a record is created or updated in a specific table, the trigger activates and starts the flows where it is used. You can allow flow authors to select the saved trigger, view its conditions, or add their own conditions.
 
 ## Before you begin
 
@@ -24,9 +24,9 @@ Role required: trigger\_designer, flow\_designer, or admin
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  From the Workflow Studio home page, select **New** &gt; **** &gt; **Trigger**.
+2.  On the Workflow Studio home page, select **New** &gt; **Trigger**.
 
-3.  On the form, fill in the fields.
+3.  Fill in the details for your trigger.
 
 <table id="table_l5n_ytp_4dc"><thead><tr><th>
 
@@ -50,9 +50,10 @@ Trigger type
 
 </td><td>
 
-Type of trigger to start your flow.For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-triggers.md).
-
-**Note:** Starting with the Yokohama release, only record-based triggers are supported for saved flow triggers.
+Type of trigger to start your flow. Under **Record**, select any of the following:-   **Created**: Starts the flow when a record is created in the specified table.
+-   **Updated**: Starts the flow when a record is updated.
+-   **Created or updated**: Starts the flow on either event.
+For more information about trigger types, see [Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-triggers.md).
 
 </td></tr><tr><td>
 
@@ -71,19 +72,18 @@ Application
 Application to create the trigger. The default is Global.The application scope determines which data your trigger can access and what data it can share.
 
 </td></tr></tbody>
-</table>4.  Select **Show additional properties**.
-
-5.  On the form, fill in the fields.
+</table>4.  Select **Show additional properties** and fill any additional properties.
 
     |Field|Description|
     |-----|-----------|
     |Accessible from|Choice between whether the trigger data should be accessible only from the specified application or all application scopes.|
+    |Protection|Option to make the trigger read-only.|
     |Category|Category where your trigger is displayed.|
     |Trigger annotation|Annotation for your trigger that the user can see before they select it.|
 
-6.  Select **Build trigger**.
+5.  Select **Build trigger**.
 
-7.  On the form, fill in the fields.
+6.  Fill in the trigger definition.
 
 <table id="table_wmd_rw5_4dc"><thead><tr><th>
 
@@ -99,7 +99,7 @@ Table
 
 </td><td>
 
-Table for the flow.
+Table for the trigger.The trigger starts when a record is created or updated in the specified table. For example, if you want the trigger to start when an incident is created or updated, select the Incident table.
 
 </td></tr><tr><td>
 
@@ -122,18 +122,23 @@ You can select if you want users to view and modify these options when they use 
 If a user modifies the advanced options, any future modifications that you make to these options in the trigger don't affect the user modified settings.
 
 </td></tr></tbody>
-</table>    **Tip:** Your changes are saved automatically in Workflow Studio. Use the undo and redo buttons as you need.
+</table>    **Tip:** Your changes are saved automatically in Workflow Studio.
 
-8.  Make the trigger available by selecting **Publish**.
+7.  Make the trigger available by selecting **Publish**.
 
 
--   **[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-external-trigger.md)**  
-Save a set of trigger definitions as a reusable trigger that responds to an external event through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
+## Result
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/use-saved-trigger.md)
+
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-triggers.md)
 
 **Related topics**  
 
 
 [Saved flow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/saved-flow-triggers.md)
+
+[Create a saved scheduled trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-scheduled-trigger.md)
+
+[Create a saved external trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-external-trigger.md)
 

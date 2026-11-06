@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2025-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Legal Hold Notification, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add a new custodian to an existing legal hold matter
@@ -24,7 +24,7 @@ Role required: sn\_lg\_hold.legal\_hold\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Default list** tab, navigate to **Matters** &gt; **All**
 

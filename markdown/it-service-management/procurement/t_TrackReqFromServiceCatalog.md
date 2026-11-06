@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Procurement purchase order management for assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Track a request from the service catalog

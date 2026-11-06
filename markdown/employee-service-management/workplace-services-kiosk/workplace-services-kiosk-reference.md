@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-12-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---

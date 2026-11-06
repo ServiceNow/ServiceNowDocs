@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Digital Portfolio Management, IT Service Management]
 ---
@@ -29,7 +29,7 @@ Digital Portfolio Management \(DPM\) enables you to use related applications to 
 -   **[Process Mining components for Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-po-integration.md)**  
 Admins must install the ITSM Process Mining Content Pack from the ServiceNow® Store to get the insights and system property for Process Mining in Digital Portfolio Management \(DPM\). Use Process Mining to analyze and improve key performance indicator \(KPI\) outputs in DPM.
 -   **[Digital Portfolio Management persona](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-persona.md)**  
-The Digital Portfolio Management \(DPM\) persona is a solution owner — That is one that owns services, service offerings, business applications, or application services.
+The Digital Portfolio Management \(DPM\) persona is a solution owner — That is one that owns services, service offerings, business applications, or service instances.
 -   **[Digital Portfolio Management views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-views.md)**  
 The Digital Portfolio Management \(DPM\) workspace pulls in data from various ServiceNow applications. The views show where the data is coming from.
 -   **[Domain separation and Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-domain-separation.md)**  

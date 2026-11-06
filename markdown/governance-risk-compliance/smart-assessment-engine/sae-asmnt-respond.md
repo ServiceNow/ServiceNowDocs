@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -22,20 +22,40 @@ Role required: sn\_smart\_asmt.actor
 
 ## About this task
 
-When you’re assigned to a task to respond to an assessment, you submit your responses to the assessment within the relevant workspace. Smart assessments are available for use with Control attestation and Risk identification. Your responses might provide evidence to help prove that a control is implemented or identify gaps that can lead to potential risk.
+When you’re assigned a task to respond to an assessment, you submit your responses to the assessment within the relevant workspace. Smart assessments are available for use with Control attestation and Risk identification. Your responses can help with gathering evidence to prove that a control is implemented or help identify gaps that can lead to potential risk.
 
 ## Procedure
 
-1.  In your workspace, navigate to your list of assigned assessments.
+1.  Navigate to your workspace.
+
+2.  Navigate to your list of assigned assessments.
 
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
-    1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the task icon \[Omitted image "icon-tprm-ws-tasks.png"\] Alt text: and then navigate to **My pending tasks** &gt; **Control attestations** &gt; **Smart Assessments**.
-2.  Review any instructions or reference information and answer all relevant questions.
+    1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
+    3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
+    4.  The smart assessments list is displayed.
+3.  Select the assessment you want to respond to.
 
-    You might see additional question guidance text for your review as you complete the questions. Your responses are automatically saved.
+4.  Review any instructions or reference information.
 
-3.  Select **Submit**.
+    You may see additional question guidance text for your review as you complete the questions.
+
+5.  Answer all relevant questions in the questionnaire.
+
+    Your responses are automatically saved.
+
+6.  Select **Submit**.
+
+7.  Alternatively, you can complete smart assessment responses from the Employee Center.
+
+    To respond to an assessment from the portal:
+
+    1.  In the Employee Center, open **My Assessments**.
+
+    2.  Open the assigned assessment and answer the questions.
+
+    3.  Select **Submit**.
 
 

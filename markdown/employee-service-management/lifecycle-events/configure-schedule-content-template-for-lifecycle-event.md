@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configure the supporting components for a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure the supporting components for a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a schedule content template for a lifecycle event activity
@@ -22,7 +22,7 @@ Have the content that you want to use with the schedule content template. You ca
 
 |Content type|Description|
 |------------|-----------|
-|[Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/ecpro-content-delivery-mobile.md)|Mobile content is delivered as a mobile banner in the Now Mobile and Mobile Onboarding apps.|
+|[Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md)|Mobile content is delivered as a mobile banner in the Now Mobile and Mobile Onboarding apps.|
 |[Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-publish-content.md)|Portal content is delivered as content \(such as a banner, calendar, or video\) in a portal such as the Employee Service Center.|
 |[Notification content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-notification-content.md)|Notification content is delivered as a notification.|
 |[Creating to-do content that appears in a banner or styled content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-to-dos.md)|To-do content is delivered as a to-do in both portal and mobile.|
@@ -45,13 +45,7 @@ Role required: admin
 
 4.  From the **Template** field, add the **Content** field.
 
-    \[Omitted image "schedule-content-template.png"\] Alt text: Schedule content template.
-
 5.  For the **Content** field, select a content record to use with the template.
-
-    For example, this is a schedule content template for a content record called "Welcome to Content Delivery Banner".
-
-    \[Omitted image "schedule-content-template-example-1.png"\] Alt text: Schedule content template for portal content
 
 6.  Add additional fields with corresponding values, as needed.
 
@@ -62,10 +56,6 @@ Role required: admin
     -   Notification content
     -   To-do content
     For a list of the available fields for each content type, see [Schedule content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
-
-    For example, the content type for the "Welcome to Content Delivery Banner" record is portal content. Portal content requires, at a minimum, the addition of the **Title**, **Widget instance**, and **Audience** fields.
-
-    \[Omitted image "schedule-content-template-example.png"\] Alt text: Schedule content template for portal content. Portal requires, at a minimum, the additional of the Content location, Page, and Widget instance fields.
 
 7.  Click **Submit** or **Update**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-migration-perform-partial.html
 release: yokohama
 topic_type: task
-last_updated: "2025-10-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to migrate a few dashboards]
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ Migrate a selection of your existing dashboards, reports, interactive filters, a
 
 ## Before you begin
 
-Role required: admin or dashboard\_admin.
+Role required: dashboard\_admin or higher
 
 ## About this task
 
@@ -27,15 +27,17 @@ Run and test the migration first on a single, non-production instance. After you
 
 You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
 
-When you perform a partial migration, artifacts such as reports, pa widgets, and filters are not saved in the Platform Analytics library. These artifacts are only migrated to the library when you perform a full migration.
-
-When you perform a partial migration, the original Core UI dashboard is marked inactive and a new dashboard is created in Platform Analytics experience. Note that if you navigate to the Core UI dashboard, there is no redirect to the migrated dashboard after a partial migration.
+If content on a dashboard is used in only one dashboard, it will be available only on that dashboard after migration. If it is used in more than one dashboard, that content is migrated to the Platform Analytics experience library.
 
 If you change a Core UI dashboard after migration and migrate it again, the changed dashboard overwrites the originally migrated dashboard.
 
 You cannot move the migrated artifacts from a non-production instance to a production instance.
 
 If you delete a migrated dashboard, that dashboard isn’t migrated if full migration is performed on your instance. You can migrate it again using the steps in this topic. If you want to remigrate a Core UI dashboard, be sure to delete the existing migrated dashboard to avoid duplicating dashboard content.
+
+The migrated dashboard appears in the Platform Analytics library. Links to the original Core UI dashboard redirect to the library as well.
+
+Reports associated with chart to chart drilldown in migrated dashboards are saved to the Visualization Library.
 
 ## Procedure
 
@@ -60,5 +62,5 @@ If you delete a migrated dashboard, that dashboard isn’t migrated if full migr
 
 ## What to do next
 
-Verify that the migrated dashboards have all the features of the Core UI dashboards, either as fully migrated content or as iframed content. For more information, see [Content not migrated or migrated in compatibility mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-mig-unmigrated-content.md).
+Verify that the migrated dashboards have all the features of the Core UI dashboards, either as fully migrated content or as iframed content. For more information, see [Unmigrated content and compatibility mode migrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-mig-unmigrated-content.md).
 

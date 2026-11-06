@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Access controls in Service Operations Workspace for ITSM
@@ -23,18 +23,9 @@ For a user, access to Service Operations Workspace for ITSM is based on the foll
 
     **Note:**
 
-    -   The itil role contains the sn\_sow.sow\_user role. But if the user has any custom or granular roles other than itil, then the sn\_sow.sow\_user role should be assigned to the user and the audiences should be updated with custom roles.
-    -   Custom roles require updates to ACLs \(access control lists\) that restrict access to certain functionality.
+    -   The itil role contains the sn\_sow.sow\_user role. If the user has custom or granular roles other than itil, assign the sn\_sow.sow\_user role to the user and update the audiences with the custom roles.
+    -   Custom roles require updates to access control lists \(ACLs\) that restrict access to certain functionality.
 -   First audience that the user belongs to.
 
 \[Omitted image "sow-access.png"\] Alt text: Flow chart for SOW access
-
--   **[Types of landing pages in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/landing-page-types-sow.md)**  
-Landing pages provide an agent with quick visibility into the work assigned, announcements, upcoming tasks, and so on.
--   **[Configure the audience for the SOW landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-audience-sow-landing-page.md)**  
-Define who can access your SOW landing pages. You can targeted experiences for audiences such as agents and managers.
--   **[Configure service desk groups to access the Service Operations Workspace landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-service-desk-groups-sow.md)**  
-Confirm that the right users have access to the Service Operations Workspace landing page.
-
-**Parent Topic:**[Getting started with Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/getting-started-sow.md)
 

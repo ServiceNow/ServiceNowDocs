@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mcb-elements.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Mobile Card Builder user interface, Mobile Card Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [User interface, Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Mobile Card Builder components

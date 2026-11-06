@@ -7,8 +7,8 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -41,8 +41,12 @@ Add the following Hermes tables to the Clone Data Preservers list if they're mis
 -   hermes\_audit\_records
 -   hermes\_client\_metrics
 -   hermes\_cluster\_config
+-   hermes\_ip\_filtering\_audit
 -   hermes\_metrics
 -   hermes\_metrics\_collection
+-   hermes\_operation\_metadata
+-   hermes\_shared\_topic\_acl
+-   hermes\_shared\_topic\_connection
 -   hermes\_system\_status
 -   hermes\_topic\_audit\_records
 -   hermes\_topic\_location
@@ -61,8 +65,12 @@ Add the following Hermes tables to the Clone Exclude Tables list if they're miss
 -   hermes\_audit\_records
 -   hermes\_client\_metrics
 -   hermes\_cluster\_config
+-   hermes\_ip\_filtering\_audit
 -   hermes\_metrics
 -   hermes\_metrics\_collection
+-   hermes\_operation\_metadata
+-   hermes\_shared\_topic\_acl
+-   hermes\_shared\_topic\_connection
 -   hermes\_system\_status
 -   hermes\_topic\_audit\_records
 -   hermes\_topic\_location
@@ -76,6 +84,8 @@ Add the following Hermes tables to the Clone Exclude Tables list if they're miss
 
 **Related topics**  
 
+
+[Managing Hermes settings]()
 
 [Check the status of and connection to the Hermes Kafka cluster]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/submit-legal-dft-request.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Submitting digital forensics requests, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a digital forensic request
@@ -22,17 +22,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal portal and selecting a request from the **Service Catalog**.
+    **Note:** If you are using Legal Service Portal, you can submit a legal request by navigating to the Legal Service Portal and selecting a request from the **Service Catalog**.
 
-2.  Select **Legal services** from the header.
+2.  Navigate to **Help center** &gt; **Legal services**.
 
-3.  Select **Browse Legal services**.
+3.  Search for the digital forensic request item.
 
-4.  Search for the digital forensic request item.
+4.  Click **Digital Forensic Request**.
 
-5.  Click **Digital Forensic Request**.
-
-6.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
 <table id="table_DFT_request_form"><thead><tr><th>
 
@@ -150,7 +148,7 @@ Preferred completion date and time
 Date by which the investigation must be complete. The date and time is based on the time zone you are in while requesting.
 
 </td></tr></tbody>
-</table>7.  Click **Submit**.
+</table>6.  Click **Submit**.
 
 
 ## Result

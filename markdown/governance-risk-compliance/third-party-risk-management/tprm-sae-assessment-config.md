@@ -7,8 +7,8 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -187,6 +187,8 @@ The following template purposes \(classifications\) are available.-   TPRM exter
 -   TPRM internal IRQ
 -   TPRM internal tiering questionnaire
 
+**Note:** Only use the available template purposes. Creating custom purposes \(categories or classifications\) will cause SAE assessments to fail during m2m linkage processing. When creating or migrating SAE questionnaire templates, make sure the Purpose field is set to one of the supported categories only.
+
 For more information, see [Create a TPRM SAE questionnaire or document request template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/create-sae-q-template.md).Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
 
 </td></tr><tr><td>
@@ -233,15 +235,62 @@ For more information, see [Configure scoring for an assessment](https://raw.gith
 
 </td></tr><tr><td>
 
-Set up Unified Content Management.
+Set up Unified Content Management
 
 </td><td>
 
-This task is optional. Install the Unified Content Management application. If you have the TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role you can access and update Smart Assessment Engine templates from the Unified Content Management page in the Vendor Management Workspace. The UCM application serves as a starter template library, providing ready-to-use SAE templates for TPRM assessments. You can view available templates, and activate or update template versions for use in TPRM assessments.
+This task is optional. Install the Unified Content Management application. If you have the TPR manager \[sn\_vdr\_risk\_asmt.vendor\_risk\_manager\] role you can access and update Smart Assessment Engine templates from the Unified Content Management page in the Vendor Management Workspace. The UCM application serves as a starter template library, providing ready-to-use SAE templates for TPRM assessments, including SIG Full, SIG Core, and SIG Lite templates for 2026. You can view available templates, and activate or update template versions for use in TPRM assessments.
 
-For more information, see [Managing TPRM SAE templates with Unified Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md) and [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md).
+For more information, see [Managing TPRM SAE templates with Unified Content Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-integrating-ucm.md), [Activate or update Smart Assessment templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/activate_sae_ucm.md), and [Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md).
 
 Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
+
+</td></tr><tr><td>
+
+Manage Smart Assessment template versions
+
+</td><td>
+
+This task is optional.SAE template versioning uses a deep copy approach: each version is a full copy of the template. When you publish a new version, the previously published version is automatically retired. Retired versions remain visible but cannot be used for new assessments. Template versions can also be deleted.
+
+To create a new version, use the **Create Version** action on the template record in the Vendor Management Workspace. Editing a published template in place is no longer supported.
+
+Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_admin
+
+</td></tr><tr><td>
+
+Set up Smart Assessment Response Assist skill
+
+</td><td>
+
+This task is optional.
+
+ Set up the Smart Assessment Response Assist skill to generate initial draft responses from vendor documents and previously completed assessments. The skill works at the template category level.
+
+ Install ServiceNow Otto for Smart Assessment Engine \(SAE\) and activate the Smart Assessment Response Assist skill, then configure template categories for document-assisted drafting in TPRM.
+
+ For more information, see [Activate smart assessment response assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/activate-smart-assessment-response-assist-skill.md) and [Configure AI-assisted questionnaire pre-fill for TPRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-dms-sae-config.md).
+
+</td></tr><tr><td>
+
+Activate Software Bill of Materials \(SBOM\) support.
+
+</td><td>
+
+Install and activate the required SBOM applications to enable SBOM collection in TPRM. SBOM information is collected using engagement-level external assessments and requires the Smart Assessment Engine.
+
+ At a minimum, activate the following applications:
+
+ -   SBOM Core \(`sn_sbom_core`\)
+-   Data Model for SBOM \(`sn_sbom_dm`\)
+
+ To include vulnerability insights for SBOM components, also activate SBOM Response and Vulnerability Response.
+
+ After activation, verify that SBOM fields and related lists are available on engagement records.
+
+ For more information, see [Activate SBOM support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/sbom-activate.md).
+
+ Role required: admin
 
 </td></tr></tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: View CI information with the Now Assist CI summarization skill
+title: View CI information with the ServiceNow Otto CI summarization skill
 description: View a concise summary of key CI data. You can select the CI on a CI form, in a workspace page, or on any list view. The summary can include discovery data, ownership, and key related items such as open incidents, alerts, problems, upcoming change requests, and security vulnerabilities. Additionally, the summary lists the service instances that the CI is part of.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-agent-ci-summarizer.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# View CI information with the Now Assist CI summarization skill
+# View CI information with the ServiceNow Otto CI summarization skill
 
 View a concise summary of key CI data. You can select the CI on a CI form, in a workspace page, or on any list view. The summary can include discovery data, ownership, and key related items such as open incidents, alerts, problems, upcoming change requests, and security vulnerabilities. Additionally, the summary lists the service instances that the CI is part of.
 
@@ -22,7 +22,9 @@ Role required: sn\_cmdb\_user
 
 ## About this task
 
-This procedure describes how you can manually access the skill in Core UI or in the CMDB Workspace. In addition, any agentic workflow can use the skill.
+This procedure describes how you can manually access the skill. In addition, any agentic workflow can use the skill.
+
+When a ServiceNow Otto skill is enabled, the ServiceNow Otto icon \[Omitted image "icon-otto-outline-24.svg"\] icon appears in the toolbar of the workspace. For more information, see [Working in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
@@ -30,47 +32,47 @@ This procedure describes how you can manually access the skill in Core UI or in 
 
     For example, select **All** and enter `cmdb_ci.list` in the search filter. Select a CI to open its CI form.
 
-2.  Select **Summarize** in the Now Assist box.
+2.  Select **Summarize** in the ServiceNow Otto box.
 
     \[Omitted image "na-cmdb-summarize-button.png"\] Alt text: Summarize button on the CI form.
 
-    Now Assist generates and displays summary information for the CI, as in this example.
+    ServiceNow Otto generates and displays summary information for the CI, as in this example.
 
     \[Omitted image "na-cmdb-ci-summary-example.png"\] Alt text: Summary information.
 
-3.  Provide feedback, copy the summary text to the clipboard, or refresh the summary.
+3.  Provide feedback, copy the response text to the clipboard, or refresh the response.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d394100e139">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d401012e163">
 
 Option
 
-</th><th align="left" id="d394100e142">
+</th><th align="left" id="d401012e166">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d394100e148">
+</th></tr></thead><tbody><tr><td id="d401012e172">
 
 **Provide feedback for the summary**
 
 </td><td>
 
-If you think that the summary was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that the summary wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the Agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the Agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
+If you think that the response was helpful, select thumbs-up \[Omitted image "icon-thumbs-up.png"\]. If you think that it wasn’t helpful, select thumbs-down \[Omitted image "icon-thumbs-down.png"\].This feedback improves the agentic AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated response and stores it in the agentic AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d394100e163">
+</td></tr><tr><td id="d401012e187">
 
 **Copy the summary**
 
 </td><td>
 
-Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the summary information for another purpose, such as pasting into an email.
+Select the copy to clipboard icon \[Omitted image "icon-clipboard.png"\] to use the response information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d394100e175">
+</td></tr><tr><td id="d401012e198">
 
 **Refresh the summary**
 
 </td><td>
 
-If you think that data might have changed after you viewed the summary, select the redo icon \[Omitted image "icon-redo.png"\] to refresh the summary information.
+If you think that data might have changed after you viewed the response, select the redo icon \[Omitted image "icon-redo.png"\] to refresh the response information.
 
 </td></tr></tbody>
 </table>

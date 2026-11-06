@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/ds-application-properties.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced domain separation administration, Domain separation setup and administration, Domain separation for service providers, Access Management]
+breadcrumb: [Advanced administration, Setup and administration, Domain separation for service providers, Access Management]
 ---
 
 # Domain separation application properties

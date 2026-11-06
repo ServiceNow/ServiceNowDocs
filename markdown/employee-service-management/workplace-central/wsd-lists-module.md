@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-04-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -45,6 +45,8 @@ For more information about creating custom lists, see [Creating custom lists on 
 
 
 [Workplace Analytics]()
+
+[Space Planning]()
 
 [Space Optimization]()
 

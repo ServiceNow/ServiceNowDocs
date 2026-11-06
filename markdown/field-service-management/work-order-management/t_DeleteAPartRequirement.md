@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a part requirement, Part requirements, Manage inventory in Field Service Management, Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Create a part requirement, Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Delete a part requirement
@@ -36,6 +36,4 @@ Role required: wm\_qualifier or [qualifier combination role](https://raw.githubu
 
     The system deletes the part requirement without displaying a confirmation message.
 
-
-**Parent Topic:**[Create a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CreateAPartRequirement.md)
 

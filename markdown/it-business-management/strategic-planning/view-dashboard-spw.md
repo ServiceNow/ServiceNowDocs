@@ -1,5 +1,5 @@
 ---
-title: View a dashboard in Strategic Planning
+title: View a dashboard
 description: View key data and metrics on a dashboard to monitor performance, track progress, and make informed decisions related to ideas, feedback, strategy, planning, and execution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/view-dashboard-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# View a dashboard in Strategic Planning
+# View a dashboard
 
 View key data and metrics on a dashboard to monitor performance, track progress, and make informed decisions related to ideas, feedback, strategy, planning, and execution.
 
@@ -50,11 +50,11 @@ Dashboards consolidate data from multiple sources into a single, easily digestib
 **Related topics**  
 
 
-[Create a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-dashboard-spw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-dashboard-spw.md)
 
-[Duplicate a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)
 
-[Share a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)
 
-[Add a Platform Analytics dashboard to Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating and managing quick links for journeys, Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating and managing quick links for journeys, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Delete a quick link created by an administrator
@@ -18,7 +18,7 @@ To delete an administrator created quick link in Journey designer, you must be a
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_jny.admin
 
 ## Procedure
 

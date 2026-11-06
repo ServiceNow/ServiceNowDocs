@@ -7,16 +7,16 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Data collection and refresh for the Network Inventory Workspace widgets
 
 Learn how the Telecommunications Network Inventory data that appears on the Network Inventory Workspace landing page is collected and refreshed.
 
-To increase the responsiveness and speed of the Network Inventory Workspace, a scheduled job runs once a day to collect the count data that appears on the landing page. This job collects this data from the Configuration Management Database \(CMDB\) Groups \[cmdb\_group\] table.
+To increase the responsiveness and speed of the Network Inventory Workspace, a scheduled job runs once a day. It collects the count data that appears on the landing page. This job collects this data from the Configuration Management Database \(CMDB\) Groups \[cmdb\_group\] table.
 
 Each landing page section, or widget, has a Configuration Management Database \(CMDB\) group that is assigned to it, and it provides the count data that you see. For example, the Network sites overview widget contains the counts for the total number of your sites, and for your sites that are currently in maintenance. The Network entities by category widget contains the counts for each category of network equipment that your organization has, such as the interface cards and connections.
 

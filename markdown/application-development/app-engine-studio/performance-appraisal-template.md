@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Available templates, Create your app using an application template, Create your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Performance Review template
@@ -122,7 +122,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Employee\[x\_&lt;company-name&gt;\_ &lt;my performance\_review\_app&gt;.employee
+Employee\[x\_&lt;company-name&gt;\_ &lt;my performance\_review\_app&gt;.employee\]
 
 </td><td>
 
@@ -134,7 +134,7 @@ Read \(own\) and Update \(own\)
 
 </td></tr><tr><td>
 
-HR/Admin\[x\_&lt;company-name&gt;\_ &lt;my performance\_review\_app&gt;.admin
+HR/Admin\[x\_&lt;company-name&gt;\_ &lt;my performance\_review\_app&gt;.admin\]
 
 </td><td>
 
@@ -146,7 +146,7 @@ Create, Read \(own\), Update \(own\), Delete \(all\)
 
 </td></tr><tr><td>
 
-Manager\[x\_&lt;company-name&gt;\_ &lt;my performance\_review\_app&gt;.manager
+Manager\[x\_&lt;company-name&gt;\_ &lt;my performance\_review\_app&gt;.manager\]
 
 </td><td>
 

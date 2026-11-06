@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Employee Center Pro Kiosk widgets, Configure, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Customize Employee Center Pro Kiosk widgets, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the Time off widget display
@@ -40,6 +40,8 @@ Role required: sn\_hr\_sp.esc\_admin
 
     **Note:** The time off information is available only after relogging.
 
+
+**Parent Topic:**[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)
 
 **Related topics**  
 

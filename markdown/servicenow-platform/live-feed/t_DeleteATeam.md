@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  From the team list, select the team name.
 
-4.  Click the edit icon \(\[Omitted image "GearIcon.png"\] Alt text: The edit icon\).
+4.  Click the edit icon.
 
 5.  Click **Delete**.
 

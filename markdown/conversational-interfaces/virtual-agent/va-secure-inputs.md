@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, secure, password, inputs, Action utility, conversations]
-breadcrumb: [Integrating Virtual Agent with Workflow Studio workflows, Exploring other Virtual Agent features, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrating Virtual Agent with Workflow Studio workflows, Other Virtual Agent features, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Virtual Agent secure password inputs
@@ -45,7 +45,7 @@ Note the following points about how password-related inputs are handled securely
 -   When users enter a password on a channel, users can toggle the Hide text icon \[Omitted image "hide-password-icon.png"\] Alt text: Hide text icon. to show or hide the password.
 -   ServiceNow admins can mark a specific channel as secure. If topic authors attempt to include a channel that isn't marked as secure, a warning message appears.
 
-    For more information about creating secure channels, see [Create a Virtual Agent conversational custom chat integration configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
+    For more information about creating secure channels, see [Create a Virtual Agent conversational custom chat integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-adapter-for-virtual-agent.md).
 
 -   Passwords are masked \(not readable\) in queues, tables, and logs.
 

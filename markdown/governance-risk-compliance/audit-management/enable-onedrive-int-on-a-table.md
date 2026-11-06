@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your documents and work papers with Audit Management as cloud files, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Complete the prerequisites to manage your documents using Microsoft
@@ -34,7 +34,7 @@ Ensure that you have installed the following applications:
 
 1.  Set up the Microsoft OneDrive Integration Hub Spoke.
 
-    -   For grant type as **Authorization Code**, use a service account to generate the **OAuth** token. All the file operations in Microsoft OneDrive from ServiceNow are executed using this service account. The end user must ensure that the service account is also the owner of the file that the user is trying to link with the file.
+    -   For grant type as **Authorization Code**, use a service account to generate the **OAuth** token. All the file operations in Microsoft OneDrive from ServiceNow are executed using this service account. The end user must ensure that the service account is also the owner of the file that the user is trying to link to.
 
         The required API permissions in Azure application registration are **openid**, **email**, **Files.Read**, **Files.ReadWrite.All**, **offline\_access**, **User.Read**, **User.ReadBasic.All**.
 
@@ -47,5 +47,7 @@ Ensure that you have installed the following applications:
     The Cloud file configuration record is displayed.
 
     For more information on the fields, see [Create a Cloud file configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/manage-access-permissions-to-the-cloud-file.md).
+
+    To find the value for the **File location ID** field, see [Find the File location ID for a Cloud file configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/get-sharepoint-file-location-id.md).
 
 

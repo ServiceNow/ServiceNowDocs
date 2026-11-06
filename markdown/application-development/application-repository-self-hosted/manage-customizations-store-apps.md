@@ -7,9 +7,9 @@ release: yokohama
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Manage customizations to applications
@@ -43,7 +43,7 @@ There are two ways to create application-customizations.
 
     1.  Open the Store application or the application installed via plugin from ServiceNow Studio.
 
-        To learn more, see .
+        To learn more, see [Access ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/access-servicenow-studio.md).
 
         The application opens in Studio.
 
@@ -58,8 +58,6 @@ There are two ways to create application-customizations.
         **Note:** You can open the application in either Studio or select it as the current working application in the Store application record.
 
     3.  To open this application in Studio, select the stack menu, and then select **Edit in Studio**.
-
-        \[Omitted image "app-picker-edit-in-studio.png"\] Alt text: Edit a store application in Studio in the application picker.
 
         The application opens in Studio. You can make application changes from Studio.
 

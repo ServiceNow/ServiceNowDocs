@@ -1,18 +1,18 @@
 ---
 title: Activate an agentic workflow template
-description: Activate triggers and change display settings for agentic workflows in AI Agent Studio that come installed with Now Assist applications.
+description: Activate an agentic workflow that come installed with ServiceNow applications in AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/activate-aia-use-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-20"
-reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Activate an agentic workflow template
 
-Activate triggers and change display settings for agentic workflows in AI Agent Studio that come installed with Now Assist applications.
+Activate an agentic workflow that come installed with ServiceNow applications in AI Agent Studio.
 
 ## Before you begin
 
@@ -20,9 +20,9 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-Agentic workflows that are installed with Now Assist applications aren’t automatically activated. You must activate them before they can be used in the Now Assist panel. Some may come with predefined triggers that must be set to activate, but others don’t have triggers at all and you must add your own.
+Agentic workflows that are installed with AI applications aren’t automatically activated. You must activate them before they can be used in the ServiceNow Otto panel or as a UI action. Some may come with predefined triggers that must be set to active, too.
 
-These predefined agentic workflows can also be used as templates for your own customized ones. You can [duplicate a agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/clone-aia-usecase.md) and use it as a blueprint for one that better suits your business needs, such as changing which records are available or providing different instructions.
+These predefined agentic workflows can also be used as templates for your own customized ones. You can [duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/clone-aia-usecase.md) and use it as a blueprint for one that better suits your business needs, such as changing which records are available or providing different instructions.
 
 ## Procedure
 
@@ -42,18 +42,18 @@ These predefined agentic workflows can also be used as templates for your own cu
 
 8.  Select **Save and continue**.
 
-9.  Toggle the display for the Now Assist panel so that it’s turned on.
+9.  Toggle the display for the ServiceNow Otto panel and/or UI action so that it’s turned on.
 
-    You have enabled the agentic workflow in the Now Assist panel. If the option isn't available, you must enable the panel first. For more information, see [Turn on the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-now-assist-panel.md).
+    You have enabled the agentic workflow in the ServiceNow Otto panel. If the option isn't available, you must enable the panel first. For more information, see [Activate the ServiceNow Otto panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-now-assist-panel.md), [Activate ServiceNow Otto panel enhanced chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-enhanced-activate.md), or  for premium chat.
 
 10. Select **Save and test**.
 
 
 ## Result
 
-The agentic workflow runs when the trigger is detected in the Now Assist panel.
+The agentic workflow runs when the trigger is detected in the ServiceNow Otto panel.
 
 ## What to do next
 
-After completing the steps, you're redirected to test your agentic workflow to be sure it works as intended.
+After completing the steps, you're redirected to test your agentic workflow to be sure it works as intended. You can [test an execution of your agentic workflow manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-aia-use-case.md) or [test the user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-aw-access.md). Once you've determined that the agentic workflow has the basic functionality you expect, you can [evaluate it using automated tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/execute-aia-eval.md).
 

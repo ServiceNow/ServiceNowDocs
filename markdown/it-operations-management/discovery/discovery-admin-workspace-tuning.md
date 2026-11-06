@@ -7,8 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Discovery, Admin, Workspace]
 breadcrumb: [Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -23,15 +24,4 @@ The Discovery Admin Workspace Tuning Home page provides tools to assess instance
 ## Tuning check results
 
 Use the tuning tools to interrogate your instance for configurations that indicate health issues and identify opportunities to address best practices. Tuning checks your existing configurations and helps you resolving issues. For more information on how to run checks, see [Run Tuning checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/run-tuning-checks.md).
-
--   **[Run Tuning checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/run-tuning-checks.md)**  
-Tuning checks are scans aimed at optimizing configurations, grouped into suites with each specific check detailed below.
--   **[Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/edit-an-existing-check.md)**  
-By editing the definition check, you can change description and script.
-
-**Parent Topic:**[Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md)
-
-**Previous topic:**[URL Discovery insights dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/url-disco-insights.md)
-
-**Next topic:**[Run Tuning checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/run-tuning-checks.md)
 

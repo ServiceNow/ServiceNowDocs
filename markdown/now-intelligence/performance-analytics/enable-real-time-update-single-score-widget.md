@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Enable real-time updating for single score report widgets
@@ -22,7 +22,7 @@ Role required: You must have edit rights to the dashboard where the widget has b
 
 Four types of aggregation are available for single-score reports: Count, Average, Sum, and Count Distinct. Real-time updating is available only for single score widgets that use the **Count** aggregation.
 
-**Note:** Real-time updating doesn’t work for single score report widgets on responsive dashboards under the following circumstances:
+**Note:** Real-time updating doesn’t work for single score reports on responsive dashboards under the following circumstances:
 
 -   When the report source is a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md), the user must click the Refresh icon \[Omitted image "icon-refresh.png"\] Alt text: Refresh icon on the widget to update the score. For more information, see [Database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DatabaseViews.md).
 -   Domain visibility is not supported in real-time reporting. Only the assigned domain of the user and its domain hierarchy and, the global domain are supported.
@@ -33,7 +33,7 @@ Four types of aggregation are available for single-score reports: Count, Average
     Because query business rules change query conditions on the fly for the specific user, the record watcher framework used for real-time updates doesn't trigger the query business rules.
 
 -   When a widget uses the filter `Assignment group - is (dynamic) - One of My Groups`, the widget doesn’t update in real time.
--   Single score report time update is not supported on rotation tables.
+-   Single score report real time update is not supported on rotation tables, Workflow Data Fabric tables, and remote tables.
 
 ## About this task
 

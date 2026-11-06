@@ -7,16 +7,15 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+keywords: [App Engine, App Engine ServiceNow, App Engine Studio, low code development, ServiceNow App Engine, performance review template, app template, app engine studio in servicenow]
+breadcrumb: [App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring App Engine Studio
 
 Learn how you can use the low-code app development tool, App Engine Studio \(AES\), to build powerful applications using guided setup, predefined templates, and workflows.
-
-This video shows a visual overview of the app creation process using App Engine Studio.
 
 ## App Engine Studio users
 
@@ -32,7 +31,7 @@ The following illustration describes the basic tasks involved in creating an app
 
 **Note:** Select the image to enlarge it.
 
-\[Omitted image "aes-app-creation-process-with-roles-asset0013219.png"\] Alt text: Infographic for creating apps workflow. For the text description, refer to the workflow steps that follow.
+\[Omitted image "aes-app-creation-process-MMASSET0022003.png"\] Alt text: Infographic for creating apps workflow. For the text description, refer to the workflow steps that follow.
 
 The workflow for creating apps in App Engine Studio is as follows:
 
@@ -104,13 +103,11 @@ App Engine Studio provides the following benefits.
 |Submit ideas for an app, which admins then approve.|[Submit your idea for app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-intake/submit-intake-request.md)|Citizen developer|
 |Use templates for standard application types, such as procurement portal or time off request, as a starting point to create and customize new apps quickly.|[Create your app using an application template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/use-app-template.md)|Citizen developer|
 |Access multiple development tools in one interface, such as Table Builder and Workspace Builder.|[Integrated development tools for AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-integration-with-development-tools.md)|Citizen developer|
-|Scale development while maintaining process to review and test applications before deployment.|[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.md)|Administrator|
+|Scale development while maintaining process to review and test applications before deployment.|[Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/managing-app-development-using-aemc.md)|Administrator|
 
 ## Accelerate your low-code development with AES
 
 Using App Engine Studio's low-code development environment, citizen developers can quickly build high-quality apps. Citizen developers are individuals in your organization who aren’t experienced programmers, but who are subject matter experts with ideas for creating apps. With an approved idea in hand, a citizen developer chooses an app template, fills in a few parameters, and AES builds the app. The resulting application includes data, experiences, logic and automation, and security, all of which can be customized to your organization's needs.
-
-\[Omitted image "aes-landing-purple-update.png"\] Alt text: App Engine Studio home page
 
 Apps created from a template can be easily modified to meet the requirements defined by the citizen developer, or new apps can be created from scratch.
 

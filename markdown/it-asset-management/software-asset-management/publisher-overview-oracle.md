@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publisher overview for Oracle in the Software Asset Workspace
@@ -84,7 +84,7 @@ Summary of your license compliance progress.This summary includes the following 
 
 </td></tr><tr><td>
 
-License types of Oracle Database on MS Azure
+License types of Oracle Database and WebLogic Server on MS Azure
 
 </td><td>
 
@@ -92,11 +92,11 @@ Number of software installations for each license type that you are using in Mic
 
 </td></tr><tr><td>
 
-License types of Oracle Database on AWS
+License types of Oracle Database and WebLogic Server on AWS
 
 </td><td>
 
-Number of software installations for each license type that you are using in AWS cloud environments, based on the cloud service model through which your Oracle Database servers are deployed. License types include BYOL and License Included. Cloud service models include PaaS \(Platform as a Service\) and IaaS \(Infrastructure as a Service\).
+Number of software installations for each license type that you are using in AWS cloud environments, based on the cloud service model through which your Oracle Database and WebLogic Servers are deployed. License types include BYOL and License Included. Cloud service models include PaaS \(Platform as a Service\) and IaaS \(Infrastructure as a Service\).
 
 </td></tr></tbody>
 </table>For more details on the license usage information that is provided in the publisher overview, see [License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md).

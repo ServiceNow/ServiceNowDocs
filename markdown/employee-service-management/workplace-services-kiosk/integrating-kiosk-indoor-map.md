@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate Workplace Services Kiosk, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Integrate, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Integrating Workplace Services Kiosk with Workplace Indoor Mapping
@@ -35,5 +35,5 @@ If an error occurs on the kiosk at run time, a generic error page is displayed t
 
 The kiosk uses the **Kiosk general request** record producer to create a case from the **Raise an issue** modal. You can configure the record producer by navigating to **Workplace Case Management** &gt; **Workplace Case Management - Setup** &gt; **Record producers**.
 
-**Parent Topic:**[Integrate Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/integrating-workplace-services-kiosk.md)
+**Parent Topic:**[Integrating Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/integrating-workplace-services-kiosk.md)
 

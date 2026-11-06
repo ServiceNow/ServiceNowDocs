@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 Ensure to register the WSD for Microsoft places application in the Microsoft Azure portal.
 
-For more information about registering the WSD for Microsoft places application, refer to[Register the WSD for Microsoft places application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/installing-wsd-ms-places.md)
+For more information about registering the WSD for Microsoft places application, refer to [Register the WSD for Microsoft places application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/installing-wsd-ms-places.md)
 
 ## Procedure
 

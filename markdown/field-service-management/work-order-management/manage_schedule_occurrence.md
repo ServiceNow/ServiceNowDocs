@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Plan calendar, Create a work order for the planned work, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Plan calendar, Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create and view events using the planning calendar
@@ -57,6 +57,4 @@ The calendar displays either single events or stacked events when multiple event
 
     3.  Select **Apply**.
 
-
-**Parent Topic:**[Plan calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/planning_calendar_pwm.md)
 

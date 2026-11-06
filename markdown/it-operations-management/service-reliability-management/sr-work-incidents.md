@@ -1,5 +1,5 @@
 ---
-title: Working with Incidents in SRM
+title: Working with incidents in SRM
 description: Plan ahead of service disruptions and have SRM send notifications and create status when incidents occur. Distractions are minimized and teams stay focused on remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Working with Incidents in SRM
+# Working with incidents in SRM
 
 Plan ahead of service disruptions and have SRM send notifications and create status when incidents occur. Distractions are minimized and teams stay focused on remediation.
 
 You can manually create incidents within SRM or create an error budget action to do so. See [Manually create an SRM incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-incident.md) or [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more information.
 
--   [Manual creation from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/open-incident.md).
+-   [Manual creation from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/open-incident.md).
 -   [Manual creation from the incident view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-incident.md).
 -   Automatically from Alert automations, if Alert automations are installed.
 
@@ -74,7 +74,7 @@ Resolve an incident, if you need it reviewed, or you think it has already been h
 -   **[Cancel an SRM incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-cancel-incident.md)**  
 Close an incident, if you think it is not an issue, or if it has already been handled.
 -   **[Close an SRM incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-close-incident.md)**  
-Close an incident, if you think it is not an issue, or if it has already been handled.
+Close an incident when it’s not an issue or has already been handled.
 -   **[Reopen an SRM incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-reopen-incident.md)**  
 Reopen a closed incident if you think the issue is not yet resolved.
 

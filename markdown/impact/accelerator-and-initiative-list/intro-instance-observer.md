@@ -7,26 +7,28 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Introduction to Instance Observer-Guided
 
 The Introduction to Instance Observer Accelerator provides guidance on understanding and monitoring performance using Instance Observer.
 
-## Overview
+## Accelerator overview
 
-Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md) for more information on the feature.
+Introduction to Instance Observer provides Impact Guided customers with an overview of Instance Observer, a review of specific telemetry for instance availability, prescriptive guidance on visible trends, and leading practices on monitoring your ServiceNow platform. See [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md) for more information on the feature.
 
-**Note:** This Accelerator is available for the Impact Guided package.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\) packages.
 
 ## What You Get
 
 -   **Session Preparation**
 
-    Assess customer's Instance Observer data​
+    The Technical Accelerator Consultant assesses customer's Instance Observer data​
 
 -   **Customer Coaching Session \#1 \(Up to 60 minutes\)**
 

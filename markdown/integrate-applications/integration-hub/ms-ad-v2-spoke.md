@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 8
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Active Directory v2 Spoke
@@ -18,7 +18,7 @@ Create, delete, and manage objects in Microsoft Active Directory, such as users,
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Active Directory v2 spoke v2.5.2 is the latest version.
+Microsoft Active Directory v2 spoke v2.5.3 is the latest version. For version history of the spoke, see [Microsoft AD v2 spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-ad-v2.html).
 
 ## Supported versions
 
@@ -436,11 +436,6 @@ Install Now Assist for Conversational Spokes and start using the conversational 
 
 \[Omitted image "ad-v2-na-lookup-user-action.jpg"\] Alt text: Lookup User action conversational ability in Now Assist panel
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
-
 ## Available AI agents
 
 Install Now Assist for Integration Hub and start using the available AI agents. For more information, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/now-assist-spokes.md).
@@ -464,10 +459,7 @@ Available AI agents include:
 |Microsoft Active Directory computer manager|Manages computers in the Active Directory \(AD\) and retrieves their details.|
 |Microsoft Active Directory user manager|Manages users in the Active Directory \(AD\) and retrieves their details.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

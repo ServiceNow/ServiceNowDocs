@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Attachments can be added to records from portal pages by navigating the file sys
 
 By default, several base system widgets accept attachments from portal users using one or more of these methods. To modify how portal users can add attachments, you can clone and edit widgets to customize the file attachment experience as described in the following procedures.
 
-To track how portal users attach files to records from pages in your portal, see the SP File Attach event in User Experience Analytics for Service Portal. For more information about available events, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics-events.md).
+To track how portal users attach files to records from pages in your portal, see the SP File Attach event in Usage Insights for Service Portal. For more information about available events, see [Service Portal events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics-events.md).
 
 **Parent Topic:**[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_Pages.md)
 

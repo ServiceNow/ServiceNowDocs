@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-07-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configuring Service Reliability Management
@@ -24,7 +24,7 @@ The guided setup provides a sequence of tasks to help you configure SRM on your 
 
 Visit the following pages to set up and configure SRM. The content is primarily for srm\_admin or admin users.
 
-1.  [Install Service Reliability Management from Admin Center or ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)  
+1.  [Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)  
 Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
 2.  [Assign an administrator to Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-assign-admins.md)  
 Add people from your ServiceNow instance to administer Service Reliability Management \(SRM\) and your service operations.
@@ -38,9 +38,11 @@ Customize how team approvals work when non-admin users create or add a team in S
 Configure the actions that the team can select when the error budget of a service level objective \(SLO\) is breached.
 7.  [Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-approve-change-req.md)  
 Approve a service change request in Service Reliability Management \(SRM\) to allow the requested action to proceed.
-8.  [Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-add-twilio-key.md)  
+8.  [Configure fields for escalation triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/srm-configure-trigger-fields.md)  
+Configure additional fields for on-call escalation triggers in Service Reliability Management \(SRM\).
+9.  [Configure Twilio to send notifications in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-add-twilio-key.md)  
 Connect your Service Reliability Management \(SRM\) instance and Twilio account to send notifications to teams.
-9.  [Install the Alert Automation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)  
+10. [Install the Alert Automation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)  
 Install the **Alert Automation** application and any supporting applications.
 
 **Parent Topic:**[Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-landing-page.md)

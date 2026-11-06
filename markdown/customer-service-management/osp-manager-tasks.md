@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/osp-manager-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Agent management, Use, Customer Service Management]
 ---
 
 # Outsourced Service Provider manager tasks
@@ -18,6 +18,6 @@ Some key functions that outsourced service provider managers can perform include
 
 | | |
 |---|---|
-|[Onboard Outsourced Service Provider agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/onboard-osp-agent.md)|An OSP manager can onboard OSP agents to manage and fulfill cases.|
-|[Assign a case to an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/osp-assign-case-manager.md)|As an Outsourced Customer Service external manager you can assign a case to an agent under your group.|
+|[Onboard an Outsourced Service Provider agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/onboard-osp-agent.md)|An OSP manager can onboard OSP agents to manage and fulfill cases.|
+|[Assign a case to an OSP agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/osp-assign-case-manager.md)|As an Outsourced Customer Service external manager you can assign a case to an agent under your group.|
 

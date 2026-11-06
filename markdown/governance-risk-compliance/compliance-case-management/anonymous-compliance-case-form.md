@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2026-02-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report a compliance case anonymously, Reporting a compliance case in GRC: Compliance Case Management, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Report a compliance case anonymously, Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Anonymous compliance case form

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring work plans, Configuring Planned Work Management, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create planned work records
@@ -36,15 +36,15 @@ You can also create planned work records through the Planned Work Management Wor
 
 2.  Create planned work records.
 
-<table id="choicetable_nqq_y3j_35b"><thead><tr><th align="left" id="d72526e125">
+<table id="choicetable_nqq_y3j_35b"><thead><tr><th align="left" id="d80030e129">
 
 To
 
-</th><th align="left" id="d72526e128">
+</th><th align="left" id="d80030e132">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d72526e134">
+</th></tr></thead><tbody><tr><td id="d80030e138">
 
 **Create planned work records for all the schedules defined for matching records**
 
@@ -54,7 +54,7 @@ Do this
 2.  In the related links section, select **Associate plan with filtered records**.
 
 
-</td></tr><tr><td id="d72526e155">
+</td></tr><tr><td id="d80030e159">
 
 **Create planned work records for an individual schedule defined for matching records**
 

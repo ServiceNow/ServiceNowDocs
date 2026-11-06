@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use Notify connector for Microsoft Teams, Use Microsoft Teams integration for Agent Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Use Notify connector for Microsoft Teams with Incident Communication Management
@@ -22,8 +22,6 @@ The property **com.snc.iam.enable\_notify** must be enabled in Notify Properties
 2.  Check the option **Enable Notify integration for Incident Communications Management. Entering phone number in 'com.snc.iam.notify\_number' property is equivalent to setting this to true** \(com.snc.iam.enable\_notify\).
 
     Right-click on the "Enable Notify integration for Incident Communications Management. Entering phone number in 'com.snc.iam.notify\_number' property is equivalent to setting this to true" text and click **Edit Property** to view the property details.
-
-    \[Omitted image "notify-properties.png"\] Alt text: Notify properties.
 
 3.  Click **Save**.
 

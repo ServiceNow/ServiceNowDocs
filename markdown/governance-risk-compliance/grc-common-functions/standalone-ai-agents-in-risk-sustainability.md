@@ -1,5 +1,5 @@
 ---
-title: Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\) skills
+title: Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
 description: Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.html
@@ -7,13 +7,13 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Use agentic AI, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Use agentic AI, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
-# Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\) skills
+# Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
 Use AI agents in Governance, Risk, and Compliance to complete IT-related tasks autonomously.
 
@@ -27,6 +27,6 @@ The following AI agents are available in the ServiceNow Otto for IRM application
 
 -   Control Objective Change Agent
 
-    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/update-impacted-control-objectives-AI.md).
+    For more information, see [Use Control Objective Change Agent to update control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/update-impacted-control-objectives-AI.md).
 
 

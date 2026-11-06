@@ -7,18 +7,18 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Advanced query support for AWS and Azure
 
 Understand how to create advanced queries for Service Observability dashboard charts.
 
-Advanced queries in Service Observability support most vendor-specific query languages. Simply copy a query from the APM chart and paste it into the Advanced query field in Service Observability. However, queries to AWS and Azure must be JSON-formatted and follow the guidelines outlined in this topic.
+Advanced queries in Service Observability support most vendor-specific query languages. Simply copy a query from the observability chart and paste it into the Advanced query field in Service Observability. However, queries to AWS and Azure must be JSON-formatted and follow the guidelines outlined in this topic.
 
-**Note:** As of version 1.10, you can import charts directly from AWS and Azure. See [Edit APM data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/edit-service-observability-dashboards.md) for more information.
+**Note:** As of version 1.10, you can import charts directly from AWS and Azure. See [Edit data charts on Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/edit-service-observability-dashboards.md) for more information.
 
 ## AWS advanced queries
 

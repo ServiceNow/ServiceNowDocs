@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -50,7 +50,7 @@ Name
 
 </td><td>
 
-Name of the release calendar.
+Name of the release calendar.For example, `Q3 2026 Platform Releases`.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Description
 
 </td><td>
 
-Brief description of the release calendar.
+Brief description of the release calendar.For example, `Tracks all platform release readiness targets and deployment windows for Q3 2026`.
 
 </td></tr><tr><td>
 
@@ -74,9 +74,11 @@ Exclusion schedules
 
 </td><td>
 
-Schedules for blackouts, maintenance, or holidays are lists of dates for planned closures or business holidays. Add these schedules to the release calendar to avoid having release targets for certain dates.The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_DefineASchedule.md).
+Schedules for blackouts, maintenance, or holidays are lists of dates for planned closures or business holidays.Add your organization's schedules to the release calendar to avoid having release targets scheduled on those dates.
 
-To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/digital-product-release-properties.md).
+The blackouts and maintenance schedules are shown from the Schedule \[cmn\_schedule\] table. For more information, see [Define a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_DefineASchedule.md).
+
+To include user-defined exclusion schedules under **Others** category, you can configure the system property **sn\_dpr.release\_calendar\_exclusions**. For more information, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/digital-product-release-properties.md).
 
 </td></tr></tbody>
 </table>5.  Save the release calendar.
@@ -87,6 +89,8 @@ To include user-defined exclusion schedules under **Others** category, you can c
 ## Result
 
 The release calendar is saved and displayed in the calendar layout. Events for the exclusion schedules that are added to the release calendar are shown on specific dates on the calendar.
+
+\[Omitted image "dpr-release-calendar.png"\] Alt text: Release calendar showing a monthly view with scheduled change requests, release targets, and schedules.
 
 ## What to do next
 
@@ -101,4 +105,9 @@ You can perform the following tasks to manage and visualize your release activit
 -   Use filters to view calendar entries by event type \(release target, release, change request\) or by exclusion schedules \(blackouts, holidays, maintenance\).
 -   Change the timezone to view events on the calendar for the selected timezone.
 -   Switch between Week and Month views for better visibility of upcoming events.
+
+**Related topics**  
+
+
+[bundle-crapiref.dpr-POST-release_calendar]
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Certificate Inventory and Management patterns, Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Discovery uses the **Collect Certificates** extension section of the **Linux Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -40,7 +40,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Data collected by Discovery during horizontal discovery
 
-The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following table and fields.
+The **Collect Certificates** extension section of the **Linux Server** and **Windows OS – Servers** patterns support discovery of the following tables and fields.
 
 <table id="table_w2j_l53_2nb"><thead><tr><th>
 
@@ -50,11 +50,7 @@ Field
 
 Description
 
-</th></tr></thead><tbody><tr><td class="sub-head" colspan="2">
-
-Unique Certificates \[cmdb\_ci\_certificate\] ​
-
-</td></tr><tr><td>
+</th></tr></thead><tbody><tr><td>
 
 Fingerprint \[fingerprint\]
 
@@ -210,11 +206,16 @@ Issuer \[issuer\]
 
 In this field, there’s a reference to the certificate record. The issuer is the entity that signed and issued the certificate. The reference is available if the issued certificate is a part of the same payload.
 
-</td></tr><tr><td colspan="2">
+</td></tr></tbody>
+</table><table id="table_installed_certificate"><thead><tr><th>
 
-Installed Certificate \[sn\_disco\_certmgmt\_cmdb\_installed\_certificate\]
+Field
 
-</td></tr><tr><td>
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
 
 Discovery Method \[discovery\_method\]
 

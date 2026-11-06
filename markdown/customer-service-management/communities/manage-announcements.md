@@ -1,5 +1,5 @@
 ---
-title: Make an announcement to community members
+title: Configure announcement for community members
 description: Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/manage-announcements.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Community Service Portal, Configure a community, Communities, Customer Service Management]
+breadcrumb: [Community Service Portal, Configuring communities, Communities, Customer Service Management]
 ---
 
-# Make an announcement to community members
+# Configure announcement for community members
 
 Global announcements appear in the banner and broadcast messages to all community members. Forum announcements appear in the Announcements section on the forum page. You can also send the announcement by email.
 
@@ -22,6 +22,10 @@ Role required:
 
 -   sn\_communities.admin can manage Global announcements and Forum announcements
 -   sn\_communities.forum\_admin can manage Forum announcements for own forums only. The announcement appears only in the forum that the admin owns.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 

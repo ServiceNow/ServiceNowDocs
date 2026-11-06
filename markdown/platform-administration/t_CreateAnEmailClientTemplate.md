@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateAnEmailClientTemplate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Configure email client, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an email client template
@@ -64,7 +64,7 @@ Conditions
 
 </td><td>
 
-The conditions that determine when this client template is used. Use the condition builder to identify the target record that must match before this template is applied to the email client.
+The conditions that determine when this client template is used. Use the condition builder to identify the target record that must match before this template is applied to the email client. **Note:** Conditions are only used for to apply a default template upon initial load. Conditions are not used when loading a custom email template from a workspace sidebar.
 
 </td></tr><tr><td>
 
@@ -187,31 +187,80 @@ Enter a comma-separated list of either field names that contain user email addre
 </td></tr></tbody>
 </table>6.  On the **Sender Configuration** tab, select the **From Generation Type** method to determine how the sender \(From address\) in the email client message is generated.
 
-    Use this method only if you want a different From address than the one defined in your SMTP email account.
+<table id="choicetable_f3x_twt_pfc"><thead><tr><th align="left" id="d40247e499">
 
-    -   None: The From address isn’t generated in the email client message.
-    -   SMTP Email Account: Use the From address of the SMTP email account for the instance as the sender.
-    -   Select From List: Choose from a list of allowable From addresses defined in the Email Client From Address \[sys\_email\_client\_from\_address\] table.
-    -   Script: Run a GlideRecord query on the Email Client From Address \[sys\_email\_client\_from\_address\] table.
+Type
 
-        For example, the following script sets the From address based on the location of the incident caller:
+</th><th align="left" id="d40247e502">
 
-        ```
-        (function (fromAddressQuery, targetRecord) {
-            // targetRecord is incident for this template
-            var location = targetRecord.caller_id.country;
-        
-            if (location == 'us')
-                fromAddressQuery.addQuery('email_address', 'servicedesk.us@example.com');
-            else if (location == 'japan')
-                fromAddressQuery.addQuery('email_address', 'servicedesk.jp@example.com');
-            else if (location == 'uk')
-                fromAddressQuery.addQuery('email_address', 'servicedesk.uk@example.com');
-        
-        })(fromAddressQuery, targetRecord);
-        ```
+Description
 
-    -   Text: Enter the email From address to be used in the client.
+</th></tr></thead><tbody><tr><td id="d40247e508">
+
+**None**
+
+</td><td>
+
+The From address isn’t generated in the email client message.
+
+</td></tr><tr><td id="d40247e517">
+
+**SMTP Email Account**
+
+</td><td>
+
+Use the From address of the SMTP email account for the instance as the sender.
+
+</td></tr><tr><td id="d40247e526">
+
+**Select From List**
+
+</td><td>
+
+Choose from a list of allowable From addresses defined in the Email Client From Address \[sys\_email\_client\_from\_address\] table.
+
+</td></tr><tr><td id="d40247e535">
+
+**Script**
+
+</td><td>
+
+Run a GlideRecord query on the Email Client From Address \[sys\_email\_client\_from\_address\] table.For example, the following script sets the From address based on the location of the incident caller:
+
+```
+(function (fromAddressQuery, targetRecord) {
+    // targetRecord is incident for this template
+    var location = targetRecord.caller_id.country;
+
+    if (location == 'us')
+        fromAddressQuery.addQuery('email_address', 'servicedesk.us@example.com');
+    else if (location == 'japan')
+        fromAddressQuery.addQuery('email_address', 'servicedesk.jp@example.com');
+    else if (location == 'uk')
+        fromAddressQuery.addQuery('email_address', 'servicedesk.uk@example.com');
+
+})(fromAddressQuery, targetRecord);
+```
+
+</td></tr><tr><td id="d40247e549">
+
+**Text**
+
+</td><td>
+
+Enter the email From address to be used in the client.
+
+</td></tr><tr><td id="d40247e558">
+
+**User Email Addresses**
+
+</td><td>
+
+For integrating users or agents personal corporate mail boxes with ServiceNow to send and receive emails.**Note:** This requires User Mailbox Integration \(com.glide.email.user\_mailbox.integration\) plugin to be installed.
+
+</td></tr></tbody>
+</table>    Use this method only if you want a different From address than the one defined in your SMTP email account.
+
     **Note:**
 
     The From email address doesn’t appear in the email client unless you configure an email client to display the From address. For more information on managing the behavior of an email client, see [Email client configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/email-client-configuration.md).
@@ -403,7 +452,7 @@ To
 
 </td><td>
 
-Enter a comma-separated list of either field names that contain user email addresses or specific email addresses. To reference an email address using a script, create a script include and then call the script include in the **To** field. Your script must start with the `javascript:` prefix. The script must return email addresses in a comma-separated string. Use only one JavaScript expression and do not combine it with field names.
+Enter a comma-separated list of either field names that contain user email addresses or just email addresses. To reference an email address using a script, create a script include and then call the script include in the **To** field. Your script must start with the `javascript:` prefix. The script must return email addresses in a comma-separated string. Use only one JavaScript expression and do not combine it with field names.
 
 </td></tr><tr><td>
 
@@ -411,9 +460,9 @@ Cc
 
 </td><td>
 
-Enter a comma-separated list of either field names that contain user email addresses or specific email addresses. To reference an email address using a script, create a script include and then call the script include in the **Cc** field. Your script must start with the `javascript:` prefix. The script must return email addresses in a comma-separated string. Use only one JavaScript expression and do not combine it with field names.
+Enter a comma-separated list of either field names that contain user email addresses or just email addresses. To reference an email address using a script, create a script include and then call the script include in the **Cc** field. Your script must start with the `javascript:` prefix. The script must return email addresses in a comma-separated string. Use only one JavaScript expression and do not combine it with field names.
 
- This field cannot have the same addresses as the **To** field.
+ This field can’t have the same addresses as the **To** field.
 
 </td></tr><tr><td>
 

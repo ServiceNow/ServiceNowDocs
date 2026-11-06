@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-guidances-share-kb-chat.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Guidances in Recommended Actions, Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Guidances, Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Share KB in chat interactions guidance
@@ -24,6 +24,8 @@ This guidance includes the following actions for sharing:
 
 -   **Send in chat**: Agents can share the article with customers.
 -   **Send in private chat**: Agents can only share the article with internal users such as other agents or managers. Customers can’t access locked articles. Private chat messages use a yellow background.
+
+The relevancy score displays on the Share KB in chat interactions guidance in the Search tab of the Recommended Actions contextual side panel. It indicates how well a search result matches the agent’s query.
 
 ## Public and private knowledge articles
 

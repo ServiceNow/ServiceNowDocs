@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Setting up your workforce, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
 
 # Configuring Field Service with Service Locations
@@ -34,15 +34,19 @@ The steps for configuring Field Service with Service Locations are:
 
     Set the default validation option that will be used when adding locations to a work order or work order task.
 
-4.  [Add Service Locations functionality to a work order catalog item in the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configure-service-location-record-producer.md)
+4.  [Customize fields for mapping location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/customize-fields-for-mapping-location.md)
+
+    Customize ad-hoc fields for setting location appropriate location for work orders pr work order tasks when you add location using map interface.
+
+5.  [Add Service Locations functionality to a work order catalog item in the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configure-service-location-record-producer.md)
 
     Add Service Locations functionality to a work order or work order task catalog item to enable the ability to add a location on demand.
 
-5.  [Set the limit of maximum service locations added per day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/set-max-locations-limit.md)
+6.  [Set the limit of maximum service locations added per day](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/set-max-locations-limit.md)
 
     Set the limit of maximum service locations that can be added per day by an external user.
 
-6.  [Set the default location on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/set-default-location-while-using-map.md)
+7.  [Set the default location on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/set-default-location-while-using-map.md)
 
     Set the initial default location for a service location on a map.
 

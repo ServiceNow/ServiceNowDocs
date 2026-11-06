@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2026-02-18"
-reading_time_minutes: 1
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # View community feedback and bookmarks tables
@@ -22,6 +22,10 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
 
 **Note:** Communities users \(sn\_communities.community\_user\) have read access to the bookmarks table and the feedback table. Users can only view another user's bookmark and feedback records for content they themselves can access. Bookmark and feedback record visibility is constrained by the viewer's access to the underlying content.
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Community** &gt; **Feedback**.
@@ -31,5 +35,48 @@ Role required: sn\_communities.admin, sn\_communities.community\_moderator, sn\_
     -   Click **Feedback** to view the content feedback was given for, the type of the feedback, and who provided it.
     -   Click **Bookmarks** to view the content that was bookmarked and who added it.
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community content types]()
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[Migrate Social Q&amp;A data to Communities]()
+
+[View community logs]()
+
+[Create a case from a discussion]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure video sources for a community]()
+
+[Configure community forums]()
+
+[Forum and user permissions management]()
+
+[Configure the community profile]()
+
+[Create community Terms and Conditions]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Opportunity Marketplace, Talent Development, Employee Service Management]
+breadcrumb: [Configure, Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View and manage role applicants from Opportunity Marketplace
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-The names of the applicants links to their **Employee Profile**, see [Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/employee-profile.md).
+The names of the applicants links to their **Employee Profile**, see .
 
 </td></tr><tr><td>
 

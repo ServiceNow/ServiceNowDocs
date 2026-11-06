@@ -1,24 +1,24 @@
 ---
 title: Recalculate costs of resource assignments of a demand
-description: Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+description: Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.html
 release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create and manage resource assignments, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Recalculate costs of resource assignments of a demand
 
-Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 
 ## Before you begin
 
-Ensure the following setup:
+Confirm the following setup:
 
 -   The demand must be active.
 -   The demand must have an active rate model assigned.
@@ -41,7 +41,7 @@ This option recalculates the costs of all resource assignments of the demand at 
 
     For a description of the field names, see [Recalculate resource costs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/recalculate-resource-costs-form.md).
 
-5.  Click **OK**.
+5.  Select **OK**.
 
 
 ## Result

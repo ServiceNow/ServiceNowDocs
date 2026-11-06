@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage workplace activities and services with Location directory, Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Location Directory, Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure map properties for Location Directory

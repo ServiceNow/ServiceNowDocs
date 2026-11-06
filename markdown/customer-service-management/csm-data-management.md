@@ -1,78 +1,115 @@
 ---
 title: Data management for Customer Service Management
-description: Organize and manage the data for both your internal users and external customers by using the Customer Service Management application. You can provide your managers and agents with a view of the customer data, including the account and contact or consumer information, products and services, assets, contracts, and entitlements.
+description: Data management refers to the processes and tools used to collect, organize, secure, and use customer-related data effectively so that support teams can deliver better service experiences. You can give your managers and agents a comprehensive view of customer data, including account and contact or consumer details, products and services, assets, contracts, and entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-data-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Exploring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Explore, Customer Service Management]
 ---
 
 # Data management for Customer Service Management
 
-Organize and manage the data for both your internal users and external customers by using the Customer Service Management application. You can provide your managers and agents with a view of the customer data, including the account and contact or consumer information, products and services, assets, contracts, and entitlements.
+Data management refers to the processes and tools used to collect, organize, secure, and use customer-related data effectively so that support teams can deliver better service experiences. You can give your managers and agents a comprehensive view of customer data, including account and contact or consumer details, products and services, assets, contracts, and entitlements.
+
+## Overview of data management
+
+In the Customer Service Management application, data forms the backbone of great service. It connects customer, product, service, and team information, giving agents and managers a complete view of every interaction. From customer profiles and product ownership to contracts, entitlements, and installed assets, CSM brings all data together to enable fast resolutions, consistent support, and higher customer satisfaction.
+
+\[Omitted image "customer-service-value-chain.png"\] Alt text: An infographic describing how a company delivers products and services to customers by linking company, service organizations, staff, and customers.
+
+The infographic illustrates the customer service value chain, highlighting how companies deliver products and services to customers through different internal and external entities.
+
+At the core, a company provides both physical and digital products and services. These offerings are delivered through service organizations such as branches, franchises, stores, offices, or even outsourced entities like call centers. Each of these service organizations has employees and staff working in customer-facing or back-office roles. Together, they confirm customers, whether individuals \(B2C\) or organizations \(B2B\), receive consistent service.
+
+Some service organizations operate with physical products \(for example, point-of-sale systems or demo kiosks\), while others rely on digital products and services. Regardless of format, everything within this chain ultimately exists to serve the customers of the company.
+
+## How customer data management fits into the value chain
+
+Customer Data Management \(CDM\) acts as the foundation of this value chain. It confirms that customer details, including accounts, contacts, consumers, and households, are well captured and accurate. With reliable customer data, service organizations can personalize interactions, communicate more effectively, and provide faster resolution of issues.
+
+CDM also enables seamless linkage of customer profiles with products, services, entitlements, and cases, confirming that agents and managers have a 360-degree view of the customer. By maintaining consistent customer data, companies can scale their service operations, deliver positive customer experiences, and gain insights that support upselling, cross-selling, and long-term customer satisfaction.
+
+In short, CDM provides the connective tissue of the customer service value chain. It links the company, its service organizations, staff, and customers together through accurate, actionable information that powers every stage of service delivery.
+
+## Key elements of data management
+
+The following key elements form the foundation of effective data management in Customer Service Management:
 
 ## Customer service business model
 
-Different business models are available to support your goals and business needs in the Customer Service Management application. The business models vary depending on the products, services, and support that you provide to your customers. With the right model for your business, you can answer queries, solve issues, and provide consistent and high-quality service that focuses on increasing your customer satisfaction.
+Different business models are available to support your goals and business needs in the Customer Service Management application. The business models vary depending on the products, services, and support that you provide to your customers. With the correct model for your business, you can answer queries, solve issues, and provide consistent and high-quality service that focuses on increasing your customer satisfaction.
 
 To learn more about the customer service business model, see [Customer service business models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-data-models.md).
 
 ## Customer data
 
-Customer data includes information about the customers who are external to your organization, such as names and addresses, telephone numbers, and email addresses. In the business-to-business \(B2B\) business model, customer data includes details about accounts and contacts. In the business-to-consumer \(B2C\) business model, it includes details about consumers and households. Maintaining accurate customer data enables your agents to communicate with customers quickly and easily.
+Customer data includes information about the customers who are external to your organization, such as names and addresses, telephone numbers, and email addresses. Maintaining accurate customer data enables your agents to communicate with customers quickly and easily.
+
+-   B2B: In the business-to-business \(B2B\) business model, customer data includes details about accounts and contacts.
+-   B2C: In the business-to-consumer \(B2C\) business model, it includes details about consumers and households.
 
 To learn more about the customer data, see [Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-data.md).
 
 ## Product data
 
-Product data includes information about the products and services that an organization provides to its customers. This data can include information about products and product models, assets, sold products, install base items, and installed products. When assisting customers, your agents can quickly select the correct product data, add the details to case records, and view information related to the product data such as knowledge articles and resolved cases.
+Product data includes information about the products and services that your organization provides to its customers. This data can include information about:
+
+-   Product models and catalog items
+-   Assets and sold products
+-   Installed base items \(what the customer owns\)
+-   Installed products
+
+When assisting customers, your agents can use product data to link the correct product to a case, access-related knowledge articles, and review previous resolutions.
 
 To learn more about the product data, see [Product data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/product-data.md).
 
 ## Contributor users
 
-Contributor users enable you to engage both internal and external users to assist in resolving customer issues and requests.
+Contributor users enable both internal and external users to assist in resolving customer issues and requests. For example, a field technician, partner, or third-party supplier can be added to a case as a contributor.
 
 To learn more about the contributor users, see [Contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-contributor-users.md).
 
 ## Service Model Foundation
 
-Service Model Foundation refers to a set of pre-designed business and technical data frameworks that meet the business needs of a particular industry. Service Model Foundation provides the core framework, security, and guidance to the model entities in the customer service value chain across the industry verticals. By using these models, you can provide positive experiences for your customers, agents, and middle office workers as they execute the customer service processes.
+Service Model Foundation refers to a set of pre-designed business and technical data frameworks. It helps set up and manage how services are delivered and supported, confirming consistency and efficiency in handling customer and operational requests. It provides a standardized way to configure, monitor, and support service requests, incidents, cases, and workflows across various business locations or service organizations.
 
-To learn more about the Service Model Foundation, see [Service Model Foundation overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-industry-data-model.md).
+To learn how to configure Service Model Foundation, see the [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-industry-data-model.md).
+
+For guidance on using the BLSP portal to add staff to your business location, create cases, work orders, and more, refer to the [Using the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/using-blsp-portal.md).
 
 ## Internal user data
 
-Internal user data includes the information about the people within your organization, such as managers, agents, and other employees. Internal users can belong to different user groups and can be assigned roles as customer and consumer service agents and managers.
+Internal user data includes the information about the people within your organization, such as managers, agents, and other employees. Internal users can be grouped into teams and assigned roles to manage cases, resolve issues, and interact with customers.
 
 To learn more about the internal user data, see [Internal user data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-internal-user-data.md).
 
 ## Business stakeholders for Customer Service Management
 
-Business stakeholders are users who are directly involved in your customer service processes. They can create, view, and approve cases and requests across your organization.
+Business stakeholders are internal users who directly influence customer service processes. They can create, view, and approve cases and requests, confirming that customer support aligns with business priorities.
 
 To learn more about the business stakeholders, see [Business Stakeholder for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/business-stakeholder-for-csm.md).
 
 ## Customer Access Management
 
-Customer access management supports multiple related parties \(contacts, consumers, and internal users\) in handling cases, sold products, and install bases by providing them with varying levels of access. Additionally, it facilitates tracking and collaboration on specific cases and products for related parties, allowing for the naming of relationships. Related parties associated with a product can not only view the product but also track all of its cases.
+Customer access management \(CAM\) enables related parties \(contacts, consumers, or internal users\) in handling cases, sold products, and install bases by providing them with varying levels of access. Additionally, it facilitates tracking and collaboration on specific cases and products for related parties, enabling for the naming of relationships. Related parties associated with a product can not only view the product but also track all of its cases.
+
+For example, a consumer can log a case about a product, while an associated contact at the same household can track and update the case.
 
 To learn more about customer access management, see [Configuring customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-cam.md) and [Using customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/using-cam.md).
 
 ## Install Base Management
 
-Use install base management to capture a customer’s use or purchase of a product across any industry with the Customer Service Management application. You can track the products and services that are installed at the different customer locations. For example, you could learn how many products are at a location, who has the product, and how it’s being used.
+Install base management captures details of a customer’s purchased or installed products. Activating the Customer Install Base Management \(com.snc.install\_base\) plugin enables you to:
 
-Install base supports all the industry verticals across tangible and intangible goods, providing expansion opportunities into post-sales support for any industry vertical.​ For example, in the banking industry, the install base could be an automated teller machine \(ATM\). Let's say that an ATM inside a grocery store isn’t working. That means, a repair request would have to be created to fix it.
+-   Track products and services at different customer locations
+-   Enable up-sell and cross-sell opportunities
+-   Help field technicians service products more effectively
+-   Resolve issues faster with clear product ownership data
 
-The key benefits of using install base management include:
+For example, in the banking industry, an install base could include automated teller machines \(ATMs\). If an ATM at a grocery store fails, a repair request can be created and tracked against the installed base record.
 
--   Tracking the products and services that have been purchased by a customer.
--   Upselling and cross-selling other products from your product catalog. By knowing which products the customer already has installed makes it easier to upsell and cross-sell other products.
--   Knowing how the product is being used makes it easier for the field technician to service the product.
--   Fixing issues more quickly leads to a great customer experience.
--   Keeping a record of the installed base items enables you to maintain and replace the items more quickly.
+To learn more about install base management, see [Configure install base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-install-base.md).
 

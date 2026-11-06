@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Configuration, Hardening settings, Platform Security]
 
 Reduce the risk of cookie/session-related hijacking of web apps using a system property.
 
-If **glide.http.headers\_config.enabled** isn’t set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren’t used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see [HTTP Response Headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/http-response-header.md).
+If the **glide.http.headers\_config.enabled** system property isn't set to **true**, then response header configurations defined in the HTTP Response Headers \[sys\_response\_header\] table aren't used. Security related HTTP response headers include Content Security Policy, which aids in XSS-related protections. For details on HTTP response headers, see [http-response-header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/http-response-header.md).
 
-Verify that the property **glide.http.headers\_config.enabled** is set to **true**.
+Ensure that the property **glide.http.headers\_config.enabled** is set to **true**.
 
 ## More information
 

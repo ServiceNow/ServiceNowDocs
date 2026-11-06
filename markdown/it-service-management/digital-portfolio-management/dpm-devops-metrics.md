@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
 
 # DevOps value stream metrics in Digital Portfolio Management

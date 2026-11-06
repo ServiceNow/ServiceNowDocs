@@ -1,0 +1,57 @@
+---
+title: Zero Copy Connector for ERP partner profile tab column descriptions
+description: The partner profile tab on a system record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/erp-partner-profile-tab-fields.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: reference
+last_updated: "2026-08-06"
+reading_time_minutes: 1
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, partner, profile, tab, field, inbound, outbound, communication]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Zero Copy Connector for ERP partner profile tab column descriptions
+
+The partner profile tab on a system record in Zero Copy Connector for ERP \(Enterprise Resource Planning\) contains information that defines inbound and outbound communications with a partner.
+
+For process details, see [View Zero Copy Connector for ERP partner profile information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/view-erp-system-partner-profile-information.md).
+
+<table id="table_fdq_5sh_bhc"><thead><tr><th>
+
+Column
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Partner number
+
+</td><td>
+
+Number for which a master record is created in a system application, for example, S4LOCAL.
+
+</td></tr><tr><td>
+
+Partner type
+
+</td><td>
+
+Partner role or function. Common types include:-   LS: Logical System
+-   KU: Customer \(for outbound messages\)
+-   LI: Vendor \(for outbound messages\)
+
+</td></tr><tr><td>
+
+Updated
+
+</td><td>
+
+Date and time the partner profile was most recently saved.
+
+</td></tr></tbody>
+</table>

@@ -1,34 +1,27 @@
 ---
 title: Using Guided Tours
-description: Use Guided Tours to train and onboard users within the ServiceNow user interface \(UI\).
+description: Use Guided Tours for onboarding new users, training on new features, and providing in-application assistance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/using-guided-tours.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Guided Tours, Adoption services, Configure user experiences]
 ---
 
 # Using Guided Tours
 
-Use Guided Tours to train and onboard users within the ServiceNow user interface \(UI\).
+Use Guided Tours for onboarding new users, training on new features, and providing in-application assistance.
 
-## Create a Guided Tour
+-   **[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)**  
+Guided Tour Designer is an interactive guide that assist administrators in creating and editing guided tours for ServiceNow® applications, service portals, and custom applications.
+-   **[Start a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/accessing-guided-tours.md)**  
+Guided Tours are available across four user interface types: Standard, Service Portal, Workspace, and Custom UI.
+-   **[Guided Tours dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-overview.md)**  
+The Guided Tours Overview dashboard provides statistics related to guided tour usage.
 
-Create a guided tour to direct users how to interact with their instance. For more information see [Create a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/add-guided-tour.md).
-
-## Edit a guided tour
-
-You can modify the settings of a guided tour, such as the roles that access the tour. You can also edit, add, delete, and reorganize the guided tour steps, and apply additional formatting to the instructional text. For more information see [Edit a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/edit-guided-tour.md).
-
-## Designing guided tours
-
-For information to help you create effective guided tours for your users see [Designing guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-advice.md).
-
-## Use a view with a guided tour
-
-You can assign a list or form view to a guided tour step if you are changing from the Default view to a different view, such as Self-Service. For more information see [Use a view with a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/use-view-guided-tour.md).
+**Parent Topic:**[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tours.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Result improvement rules, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Make your search experiences more consistent by configuring a search profile to 
 
 ## Before you begin
 
-You must have [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/now-assist-ais.md) installed.
+You must have [ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/now-assist-ais.md) installed.
 
 Role required: ais\_admin
 

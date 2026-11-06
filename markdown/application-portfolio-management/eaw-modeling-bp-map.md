@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-bp-map.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business process modeling, Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a diagram for a business process map
@@ -43,7 +43,11 @@ The business process map gets created and opened in a new tab.
 
 You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
 
-**Parent Topic:**[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/business-process-modeling.md)
+BPMN shapes are organized into sub-categories in the palette: **General**, **Event**, **Activity**, and **Gateway**. Expand a sub-category to browse its shapes.
+
+When you drag a shape from the palette to the canvas, the shape displays its actual icon as you drag it. To preview a shape before placing it, hover over it in the palette. All BPMN shapes are compatible with both light and dark diagram themes.
+
+**Parent Topic:**[Working with business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-bp-map.md)
 
 **Related topics**  
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -40,8 +40,6 @@ Based on your configuration, add entities such as Portfolios, Solutions Trains, 
 
 3.  Add a Portfolio by selecting the + icon \(\[Omitted image "eap-add-icon.png"\] Alt text: Add icon.\) next to the configuration name.
 
-    \[Omitted image "eap-add-portfolio.png"\] Alt text: Option to add teams to Agile structure.
-
     1.  On the SAFe Portfolio form, fill in details such as name, description and parent portfolio.
 
     2.  Select **Submit**.
@@ -56,6 +54,20 @@ Based on your configuration, add entities such as Portfolios, Solutions Trains, 
 
         The teams that you add as Agile Teams must be of the type **Agile**. If you need new teams or cannot find any existing teams, contact your admin. For more information, see [Assignment groups in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/manage-groups-agile-dev.md).
 
-    \[Omitted image "eap-agile-structure-full-safe.png"\] Alt text: Agile structure for a Full Configuration in EAP.
+5.  To add Agile Teams to an ART, select the + icon \(\[Omitted image "eap-add-icon.png"\] Alt text: Add icon.\) next to the ART.
+
+    1.  In the **Add Agile Teams** dialog, select a value in the **Planning methodology** field, and then select **Next**.
+
+        The planning methodology applies to all teams that you add in this batch. The default value is **Scrum**. For more information, see [Scrum and Kanban teams in an ART in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/scrum-and-kanban-teams-in-eap.md).
+
+        \[Omitted image "eap-add-agile-teams-methodology.png"\] Alt text: Add Agile Teams dialog with the Planning methodology field set to Scrum.
+
+    2.  Select the teams to add.
+
+        If you can't find a team, contact your system administrator.
+
+        \[Omitted image "eap-add-agile-teams-select.png"\] Alt text: Add Agile Teams dialog listing the teams that you can select.
+
+    3.  Select **Add**.
 
 

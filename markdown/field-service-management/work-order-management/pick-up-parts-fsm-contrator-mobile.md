@@ -1,5 +1,5 @@
 ---
-title: pick up parts using the Field Service Contractor for mobile application
+title: Pick up parts using the Field Service Contractor for mobile application
 description: Pick up the part by transferring it from an available stockroom when you are at a task site and need a missing part to complete your job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/pick-up-parts-fsm-contrator-mobile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# pick up parts using the Field Service Contractor for mobile application
+# Pick up parts using the Field Service Contractor for mobile application
 
 Pick up the part by transferring it from an available stockroom when you are at a task site and need a missing part to complete your job.
 
@@ -40,6 +40,4 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 ## Result
 
 The sourcing stage moves to Delivered and the part is added to your inventory and is marked as available.
-
-**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

@@ -1,26 +1,26 @@
 ---
-title: User Experience Analytics
-description: The ServiceNow User Experience Analytics application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Portal, and Mobile applications. Knowing how your users interact with these applications enables you to improve how you manage your ServiceNow instance.
+title: Usage Insights
+description: The ServiceNow Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Portal, and Mobile applications. Knowing how your users interact with these applications enables you to improve how you manage your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics]
 ---
 
-# User Experience Analytics
+# Usage Insights
 
-The ServiceNow® User Experience Analytics application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Portal, and Mobile applications. Knowing how your users interact with these applications enables you to improve how you manage your ServiceNow instance.
+The ServiceNow® Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Portal, and Mobile applications. Knowing how your users interact with these applications enables you to improve how you manage your ServiceNow instance.
 
 ## Get started
 
 <table id="table_dcr_ltx_nxb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about User Experience Analytics features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Usage Insights features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)
 
 </td><td>
 
@@ -35,27 +35,25 @@ The ServiceNow® User Experience Analytics application enables you to monitor ho
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Understand user roles and related properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 
 </td></tr></tbody>
-</table>**Note:** User Experience Analytics is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using User Experience Analytics
+</table>**Note:** Usage Insights is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using Usage Insights
 
 ## Troubleshoot and get help
 
--   Ask questions and view User Experience Analytics articles and video content in the [Platform Analytics community](https://www.servicenow.com/community/platform-analytics/ct-p/platform-analytics).
+-   Ask questions and view Usage Insights articles and video content in the [Platform Analytics community](https://www.servicenow.com/community/platform-analytics/ct-p/platform-analytics).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
 ## Additional references
 
 -   [User Experience Analytics for mobile applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-analytics.md)
--   [User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sp-analytics.md)
+-   [for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sp-analytics.md)
 
--   **[Exploring User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)**  
-The ServiceNow® User Experience Analytics application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
--   **[Configuring User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/configuring-user-exp-analytics.md)**  
-An admin can configure which ServiceNow applications to track in the User Experience Analytics application as well as user tracking consent policies.
--   **[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)**  
-Monitor usage analytics of your Next Experience web applications as well as Core UI, Service Portal and ServiceNow mobile and applications.
--   **[User Experience Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)**  
-Roles and properties installed with User Experience Analytics.
+-   **[Exploring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/exploring-user-exp-analytics.md)**  
+The ServiceNow® Usage Insights application enables you to monitor how users interact with your ServiceNow Core UI, Next Experience, Mobile, and Service Portal applications, allowing product managers and applications owners to gain insight into usage and adoption.
+-   **[Configuring Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/configuring-user-exp-analytics.md)**  
+An admin can configure which ServiceNow applications to track in the Usage Insights application as well as user tracking consent policies.
+-   **[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)**  
+Monitor how users interact in your ServiceNow  web and mobile applications.
 
 **Parent Topic:**[Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/c_performanceAnalyticsAndReporting.md)
 

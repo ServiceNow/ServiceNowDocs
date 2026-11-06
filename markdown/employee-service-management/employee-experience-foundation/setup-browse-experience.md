@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Setup Employee Center browse experience features
@@ -26,7 +26,7 @@ Follow these steps to setup browse experience features:
 
     -   [Mega menu configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-mega-menu.md)
     -   [Advanced Portal Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.md)
-    To learn about the navigation menus, see [View advanced portal navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/adv-portal-navigation-employee.md)
+    To learn about the navigation menus, see 
 
 4.  Configure the out-of-the-box widgets \(optional\): [Configure browse experience widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/custom-widget-landing-ec.md)
 
@@ -37,7 +37,7 @@ Follow these steps to setup browse experience features:
 |Feature|Description|
 |-------|-----------|
 |[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|Empower employees with easier self-serve capabilities by deploying a series of prompts to guide employees to the correct knowledge article or request.|
-|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/app-launcher-usability.md)|Cross-channel favorites offer quick access to frequently used content for employees, with sorting and customization options|
+|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)|Cross-channel favorites offer quick access to frequently used content for employees, with sorting and customization options|
 |[Recommended for you](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/rfy-ec.md)|The Recommended for you widget displays catalog items and knowledge articles tailored to employees based on their profiles or popular content among similar users|
 |[Quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-quick-link-config.md)|Quick links offer employees a way to quickly access internal and external resources related to specific departments within your organization.|
 |[Get support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/apn-config-getsupport.md)|Get support provides a central place to find resources within a home page widget or a modal window.|

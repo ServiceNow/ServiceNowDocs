@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/get-network-statistics-capability.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -20,7 +20,7 @@ The **Get Network Statistics** capability has a flow, [Security Operations Integ
 
 -   **[Security Operations Integrations - Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integration-get-network-stats-workflow.md)**  
 The Security Operations Integrations - Get Network Statistics flow retrieves a list of active network connections from a host or endpoint.
--   **[Security Incident Response- Get Network Statistics Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/obtain-network-statistics-workflow.md)**  
+-   **[Security Incident Response- Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/obtain-network-statistics-workflow.md)**  
 The **Security Incident Response** &gt; **Get Network Statistics** flow retrieves the network statistics for an affected Windows-based resource when added to a security incident in the **Analysis** state.
 
 **Parent Topic:**[Integration capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/integration-capabilities.md)

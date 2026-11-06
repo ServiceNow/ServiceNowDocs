@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a File access permission record to manage the permissions, Create a Cloud file configuration on engagements and audit tasks, Manage your documents and work papers with Audit Management as cloud files, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [File Access Permissions, Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # File access permission record form
@@ -58,9 +58,9 @@ Groupfield
 
 </td><td>
 
-Access permissions that can be configured for the users of a group. Displays a tree structure of all the group fields for the selected record. When the permissions are refreshed for the first time, every group member in the group who wants to have access to the document, should select the engagement record and select the **Request access** action manually to access the document.
+Access permissions that can be configured for the users of a group. Displays a tree structure of all the group fields for the selected record. When the permissions are refreshed for the first time, group members must request access manually. To access the document, select the engagement record and select the **Request access** action.
 
- The users of a group do not automatically receive an access to the record for the first time. They must request an access for the first time.
+ The users of a group do not automatically receive access to the record for the first time. They must request access for the first time.
 
  For the subsequent operations on the record, access for the users \(who requested it for the first time\) is also refreshed.
 

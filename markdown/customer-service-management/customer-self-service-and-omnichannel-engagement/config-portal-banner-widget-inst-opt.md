@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Portal Banner widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Banner widget
@@ -22,7 +22,11 @@ The UI Components for Customer Portals plugin must have been activated. For more
 
 If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
-Role required: sp\_admin or admin
+Role required: sp\_admin
+
+## About this task
+
+\[Omitted video\] Description: Configure portal banner widget
 
 ## Procedure
 
@@ -32,64 +36,68 @@ Role required: sp\_admin or admin
 
 3.  On the Service Portal Designer page, search for and select the page to which you want to add the widget.
 
-4.  Select the **Widgets** tab.
+4.  Add container.
 
-5.  In the Layouts section, drag the Container layout onto the portal edit page.
+    1.  Select the **Widgets** tab.
 
-6.  On the container, select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
+    2.  In the Layouts section, drag the Container layout onto the portal edit page.
 
-7.  In the **Width** field, select **Fluid**.
+    3.  On the container, select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
-8.  Select **Save**.
+    4.  In the **Width** field, select **Fluid**.
 
-9.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\).
+    5.  Select **Save**.
 
-10. In the column, select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\).
+5.  Add columns to container.
 
-    **Note:** Verify that **Column** is selected in the breadcrumbs navigation.\[Omitted image "portal-banner-widget-breadcrumbs.jpg"\] Alt text: Service Portal Designer banner displaying the Column breadcrumb
+    1.  On the container, add a set of columns by selecting the plus button \(\[Omitted image "portal-plus-icon.png"\] Alt text: Plus button\).
 
-11. Select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\) in the banner in Service Portal Designer.
+    2.  In the column, select the Edit page properties icon \(\[Omitted image "icon-portal-page.png"\] Alt text: Edit page properties icon.\) in the banner in Service Portal Designer.
 
-12. On the Page window, in the **Page Specific CSS** field, paste the following CSS code.
+        **Note:** Verify that **Column** is selected in the breadcrumbs navigation.\[Omitted image "portal-banner-widget-breadcrumbs.jpg"\] Alt text: Service Portal Designer banner displaying the Column breadcrumb
 
-    ```
-    .col-md-12{ 
-         padding-left: 0;
-         padding-right: 0; 
-     }
-    .padding-top {
-         padding-top: 0;
-     } 
-    ```
+    3.  On the Page window, in the **Page Specific CSS** field, paste the following CSS code.
 
-    If a message appears about the application scope, select **here** to be able to edit the record.
+        ```
+        .col-md-12{ 
+             padding-left: 0;
+             padding-right: 0; 
+         }
+        .padding-top {
+             padding-top: 0;
+         } 
+        ```
 
-13. Select **Save**.
+        If a message appears about the application scope, select **here** to be able to edit the record.
 
-14. On the Widgets pane, in the **Filter Widget** field, enter `Portal Banner`.
+    4.  Select **Save**.
 
-15. Drag the widget onto the container.
+6.  Add portal banner widget.
 
-16. In the Edit page, select the Portal Banner widget.
+    1.  On the Widgets pane, in the **Filter Widget** field, enter `Portal Banner`.
 
-17. Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
+    2.  Drag the widget onto the container.
 
-18. On the Instance form, in the **Presentation** field, paste the following JSON code into the **Search Placeholder Text** field.
+    3.  In the Edit page, select the Portal Banner widget.
 
-    ```
-    {
-        "title": "enter the title",
-        "size": "enter the size of search bar",
-        "color": "enter color"
-    }
-    ```
+    4.  Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
-    For more information about each parameter, see [Script parameters for the search option in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/json-param-search-option-banner-widget.md).
+    5.  On the Instance form, in the **Presentation** field, paste the following JSON code into the **Search Placeholder Text** field.
 
-19. On the Instance form, fill in the fields.
+        ```
+        {
+            "title": "enter the title",
+            "size": "enter the size of search bar",
+            "color": "enter color"
+        }
+        ```
 
-    For a description of the field values, see [Portal Banner widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/banner-widget-inst-options.md).
+        For more information about each parameter, see [Script parameters for the search option in the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/json-param-search-option-banner-widget.md).
 
-20. Select **Save**.
+    6.  On the Instance form, fill in the fields.
+
+        For a description of the field values, see [Portal Banner widget instance options form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/banner-widget-inst-options.md).
+
+    7.  Select **Save**.
 
 

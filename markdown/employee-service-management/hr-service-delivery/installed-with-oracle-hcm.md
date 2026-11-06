@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference - HR Service Delivery integration with Oracle Cloud HCM, HR Service Delivery integration with Oracle Cloud HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---

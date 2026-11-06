@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Configure, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Use multiple repositories structure with Terraform Connector app

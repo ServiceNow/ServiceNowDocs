@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-event-types-to-appear-on-the-team-calendar.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Workforce, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Workforce, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure event types to appear on the Team calendar in Workforce
@@ -44,5 +44,5 @@ Role required: wm\_admin
 **Related topics**  
 
 
-[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-manager-workforce.md)
+[Managing agents and tasks from Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-manager-workforce.md)
 

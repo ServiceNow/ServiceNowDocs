@@ -1,14 +1,14 @@
 ---
 title: GlideElementDescriptor - Scoped, Global
-description: The GlideElementDescriptor API provides information about individual fields in a glide record.Returns the encryption type used for attachments on the element's table.Returns the element's encryption type.Returns the element's internal data type.Returns the element's label.Returns the element's length.Returns the element's name.Returns the element's plural label.Returns true if an encrypted attachment has been added to the table.Returns true if the element is an automatically generated or system field.Returns true if the element is defined as a dropdown choice in its dictionary definition.Returns true if an element is encrypted.Determines whether the element is mandatory and must contain a value before the record can be saved.Returns true if the element is a virtual element.
+description: The GlideElementDescriptor API provides information about individual fields in a glide record.Returns the encryption type used for attachments on the element's table.Returns the element's encryption type.Returns the element's internal data type.Returns the element's label.Returns the element's length.Returns the element's name.Returns the element's plural label.Returns true if an encrypted attachment has been added to the table.Returns true if the element is an automatically generated or system field.Returns true if the element is defined as a dropdown choice in its dictionary definition.Returns true if an element is encrypted.Returns whether the field represented by this descriptor is configured for Column Level Encryption \(CLE\).Determines whether the element is mandatory and must contain a value before the record can be saved.Returns true if the element is a virtual element.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideElementDescriptorScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -405,6 +405,76 @@ Output:
 
 ```
 false
+```
+
+## GlideElementDescriptor - isEncrypted\(\)
+
+Returns whether the field represented by this descriptor is configured for Column Level Encryption \(CLE\).
+
+Use this method to programmatically detect encrypted fields before reading or writing sensitive data, or to enforce access policies based on a field's encryption status. The Encryption Support plugin \(com.glide.cle\) must be active, otherwise isEncrypted\(\) returns false regardless of field configuration.
+
+|Name|Type|Description|
+|----|----|-----------|
+|None| | |
+
+<table id="table_kx1_tmp_z3c" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the field is configured for CLE.
+
+ Valid values:
+
+-   true: Field is configured for CLE.
+-   false: Field isn't encrypted, or the Encryption Support \(com.glide.cle\) plugin isn't active.
+
+</td></tr></tbody>
+</table>The following server-side script uses isEncrypted\(\) to check whether the short\_description field on the Incident table is encrypted before logging its value. Copy this into a Background Script or Business Rule on your instance to test.
+
+**Note:** Use the [GlideRecord - getED\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) or [Scoped GlideElement - getED\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementScopedAPI.md) method to obtain a GlideElementDescriptor object.
+
+```
+// Retrieve a sample Incident record
+var gr = new GlideRecord('incident');
+gr.setLimit(1);
+gr.query();
+
+if (gr.next()) {
+    // Get the GlideElement for the field you want to inspect
+    var element = gr.getElement('short_description');
+
+    // Retrieve the descriptor from the element
+    var descriptor = element.getED();
+
+    // Check whether the field is configured for Column Level Encryption
+    if (descriptor.isEncrypted()) {
+        gs.info('short_description is encrypted. Value: ' + element.getDisplayValue());
+    } else {
+        gs.info('short_description is NOT encrypted. Value: ' + gr.getValue('short_description'));
+    }
+}
+```
+
+Output \(unencrypted\):
+
+```
+short_description is NOT encrypted. Value: Unable to connect to network
+```
+
+Output \(CLE enabled on the field\):
+
+```
+short_description is encrypted. Value: Unable to connect to network
 ```
 
 ## GlideElementDescriptor - isMandatory\(\)

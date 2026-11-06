@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Create stockroom for enterprise assets
@@ -25,8 +25,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 1.  Navigate to **Enterprise Asset Workspace** &gt; **Inventory** &gt; **All stockrooms**.
 
 2.  Select **New**.
-
-    The Create New Stockroom page opens.
 
 3.  On the form, fill in the fields.
 
@@ -118,11 +116,47 @@ Option to exclude the stockroom from all service locations in which you are comp
 
 </td></tr><tr><td>
 
+Warehouse tasks required
+
+</td><td>
+
+Option to enable the Asset pick task and Asset put away task for the stockroom.
+
+</td></tr><tr><td>
+
 External
 
 </td><td>
 
 Indicates if this stockroom is managed internally \(check box is cleared\) or is managed externally by a third party \(check box is selected\).
+
+</td></tr><tr><td colspan="2">
+
+Sourcing by AI Agents
+
+</td></tr><tr><td>
+
+Auto-consume
+
+</td><td>
+
+Asset sourcing option that helps you fulfill enterprise asset requests autonomously. This option enables AI agents to automatically use assets that are available in this stockroom.
+
+</td></tr><tr><td>
+
+Auto-purchase
+
+</td><td>
+
+Asset sourcing option that helps you fulfill enterprise asset requests autonomously. This option enables AI agents to automatically generate purchase orders for assets that are not currently available in this stockroom.
+
+</td></tr><tr><td>
+
+Auto-transfer
+
+</td><td>
+
+Asset sourcing option that helps you fulfill enterprise asset requests autonomously. This option enables AI agents to automatically generate transfer orders to move assets between this stockroom and any other stockroom that has this option enabled.
 
 </td></tr></tbody>
 </table>4.  Select **Save**.

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage issues in Policy and Compliance Management
@@ -25,5 +25,5 @@ Your employees and business users within your company can self-identify an issue
 -   **[Remediate an issue in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/remediate-issue.md)**  
 After an issue has been identified, triaged, and investigated, you can remediate it.
 
-**Parent Topic:**[Use the Classic user interface for Policy and Compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

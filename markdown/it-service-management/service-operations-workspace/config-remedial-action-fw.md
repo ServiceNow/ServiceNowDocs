@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configure the Remedial Actions Framework
@@ -290,7 +290,7 @@ Option to allow duplicate concurrent execution of remedial actions.**Note:** If 
 
 ## What to do next
 
-When a Remedial Action Type is created, you must create an implementation or do the necessary changes in the existing implementation of the **RemedialActionProvider** scripted extension point. To view and use the new or modified remedial actions, you must configure the Investigate UI to display the remedial actions. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+When a remedial action type is created, you must create an implementation or do the necessary changes in the existing implementation of the **RemedialActionProvider** scripted extension point. To view and use the new or modified remedial actions, you must configure the Investigate UI to display the remedial actions. For more information, see [Customize the Investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
 **Parent Topic:**[Setting up Investigation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/set-up-investigate.md)
 

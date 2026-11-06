@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Associate an existing legal matter with a legal request
@@ -28,38 +28,38 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
-3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
+3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d677123e105">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d731363e105">
 
 Option
 
-</th><th align="left" id="d677123e108">
+</th><th align="left" id="d731363e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d677123e114">
+</th></tr></thead><tbody><tr><td id="d731363e114">
 
 **As an assignee**
 
 </td><td>
 
 1.  Select the **Assigned to Me** option.
-2.  Select a legal matter to work on.
-3.  If the legal matter is newly assigned to you, select **Start** to start working on it.
+2.  Select a request to work on.
+3.  If the request is newly assigned to you, select **Start Work** to start working on the request.
 
-The state of the legal matter updates to Work in Progress.
+The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d677123e143">
+</td></tr><tr><td id="d731363e143">
 
 **As a collaborator**
 
 </td><td>
 
 1.  Select the **Collaborations** option.
-2.  Select a legal matter to work on.
+2.  Select a request to work on.
 
 
 </td></tr></tbody>
@@ -71,4 +71,6 @@ The state of the legal matter updates to Work in Progress.
 ## Result
 
 The selected legal matter is associated with the legal request and shows up in the list in the **Legal Matters** tab.
+
+**Parent Topic:**[Work on a legal matter]()
 

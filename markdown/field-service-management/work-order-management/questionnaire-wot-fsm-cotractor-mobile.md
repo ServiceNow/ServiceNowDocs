@@ -1,5 +1,5 @@
 ---
-title: Complete questionnaire for work order task using the Field Service Contractor for mobile application
+title: Complete questionnaire for a work order task using the Field Service Contractor for mobile application
 description: Answer to the preset questions associated with a work order task to gather and store the responses for future reference.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/questionnaire-wot-fsm-cotractor-mobile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Complete questionnaire for work order task using the Field Service Contractor for mobile application
+# Complete questionnaire for a work order task using the Field Service Contractor for mobile application
 
 Answer to the preset questions associated with a work order task to gather and store the responses for future reference.
 
@@ -40,12 +40,10 @@ Role required: wm\_ext\_agent, wm\_ext\_manager
 
 8.  Tap **Submit**.
 
-    Once submitted you can view but cannot change your questionnaire.
+    Once submitted you can view the responses submitted in the questionnaire.
 
 
 ## Result
 
 The submitted questionnaire appears in the Completed tab.
-
-**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

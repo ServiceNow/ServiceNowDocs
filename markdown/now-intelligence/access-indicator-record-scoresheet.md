@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/access-indicator-record-scoresheet.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # Access indicator record or scoresheet from KPI Details
@@ -17,6 +17,8 @@ In KPI Details, the More actions menu lets you open the record or the scoresheet
 ## Before you begin
 
 This procedure assumes you are already examining an indicator in KPI Details and want to view or edit the indicator record or the scoresheet. If you are not in KPI Details, you can open either of these items directly from unified navigation.
+
+**Important:** Data snapshots indicators do not use a scoresheet. There is no option to edit scores for a native Data snapshots indicator. For a classic indicator with Data snapshots enabled, changes to the scoresheet do not apply to the time period when Data snapshots is enabled.
 
 Role required: pa\_power\_user, pa\_admin, or admin for record; pa\_admin or admin for scoresheet
 
@@ -44,7 +46,13 @@ Role required: pa\_power\_user, pa\_admin, or admin for record; pa\_admin or adm
 
 [Select time aggregation in KPI Details]()
 
-[Filter KPI Details by breakdown elements]()
+[Configure trend for a native Data snapshots indicator in KPI Details]()
+
+[Configure display properties for a Data snapshots indicator]()
+
+[Filter indicator scores by breakdown elements in KPI Details]()
+
+[Filter native Data snapshots indicator scores in KPI Details]()
 
 [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 

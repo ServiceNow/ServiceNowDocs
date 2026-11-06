@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert lifecycle configuration
@@ -17,7 +17,7 @@ breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Mana
 Event Management provides various modules, templates, and properties for configuring alerts and the actions that execute for these alerts.
 
 -   **[Configure the alert active interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMSetTheAlertActiveInterval.md)**  
-The active interval property \(**evt\_mgmt.active\_interval**\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. Based on the active interval, event, and existing closed alert information, the alert is reopened and the event information is added to the existing alert or a new alert is created.
+The active interval property \(**evt\_mgmt.active\_interval**\) determines how Event Management handles a new event that is similar to events that appear on an existing closed alert. The system uses the active interval, event, and existing closed alert information to either reopen the alert and add the event information, or create a new alert.
 -   **[Configure alert flapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigAlertStateFlapDetect.md)**  
 Set flapping properties to determine when an alert enters and exits the flapping state. Flapping can indicate configuration problems \(that is, thresholds set too low\), troublesome services, or real network problems.
 

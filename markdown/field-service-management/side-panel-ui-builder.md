@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/side-panel-ui-builder.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize Dispatcher Workspace, Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Customize Dispatcher Workspace with UI Builder, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Customizing the contextual side panel in Dispatcher Workspace with UI Builder
@@ -20,5 +20,5 @@ In the following image you can see the Dispatcher Workspace contextual side pane
 
 \[Omitted image "dispatcher-workspace-uib.png"\] Alt text: Dispatcher workspace configurable components in UI Builder
 
-For more information on using tabs in UI Builder, see [Tabs Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-tabs/usage). For information on adding tabs, see [Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tabs-components.md).
+For more information on using tabs in UI Builder, see [Tabs Usage](https://developer.servicenow.com/dev.do#!/reference/next-experience/vancouver/now-components/now-tabs/usage). For information on adding tabs, see [Add tabbed content to UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tabs-components.md).
 

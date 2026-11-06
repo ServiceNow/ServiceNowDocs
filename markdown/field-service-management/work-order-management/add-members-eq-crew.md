@@ -1,29 +1,20 @@
 ---
 title: Add members or equipment to your crew
-description: Add crew members or equipment to your crews on the Now Mobile Agent application.Add members or equipment to your crew to organize your crew and resources.Add members or equipment to task crew meet the resource needs of a work order task.View the resource requirements of a task and add the appropriate assignees to ensure agents are equipped and staffed.
+description: Add crew members or equipment to your crews on the ServiceNow Agent application.Add members or equipment to your crew to organize your crew and resources.Add members or equipment to task crew meet the resource needs of a work order task.View the resource requirements of a task and add the appropriate assignees to ensure agents are equipped and staffed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/add-members-eq-crew.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Crew on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Add members or equipment to your crew
 
-Add crew members or equipment to your crews on the Now Mobile Agent application.
-
-**Parent Topic:**[Crew on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-crew-mobile-agent-app.md)
-
-**Related topics**  
-
-
-[Remove or release members and equipment from your crew]()
-
-[Edit member or equipment details]()
+Add crew members or equipment to your crews on the ServiceNow Agent application.
 
 ## Add members or equipment to your planned crew
 

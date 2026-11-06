@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Communities references, Communities, Customer Service Management]
 ---
 
 # Quick start tests for Communities
 
 Validate that Communities still work after you make any configuration change, such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Communities quick start tests require activating the Customer Communities plugin \(com.sn\_customer\_communities\) and the Communities Demo Data plugin \(com.sn\_communities\_demo\).
 
@@ -37,8 +41,20 @@ Communities quick start tests require activating the Customer Communities plugin
 |Post a video with 'Disable comment' option|Verify a video is posted with `Disable comments` option as selected.|Orlando|
 |Pin a video as Featured|Verify that a video is marked as featured by community administrator in the forum and community home page.|Orlando|
 
+**Parent Topic:**[Communities references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communitie-references.md)
+
 **Related topics**  
 
+
+[Properties installed with Communities]()
+
+[Communities roles]()
+
+[Forum form fields]()
+
+[Video Configurations form fields]()
+
+[Topic form fields]()
 
 [Quick start tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/quick-start-tests.md)
 

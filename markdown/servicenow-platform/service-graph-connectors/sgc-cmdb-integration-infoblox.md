@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: concept
-last_updated: "2026-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,15 +18,15 @@ Use the Service Graph Connector for Infoblox to pull data from an Infoblox insta
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Supported versions
 
 -   Supported versions: Infoblox API v2.11.2
 -   Supported ServiceNow versions:
-    -   Yokohama
     -   Zurich
     -   Australia
+    -   Brazil
 
 ## Use cases
 
@@ -49,7 +49,7 @@ The source native keys \(SNKs\) for all CIs in Service Graph Connector for Infob
 
 You can configure a connection for the connector by using the SGC Central view in the Service Graph Workspace or CMDB Workspace. The view enables you to discover and install connectors, and then effectively manage the full life cycle of creating, editing, monitoring, and debugging connections. To configure the connector using SGC Central, see [Configure Service Graph Connector for Infoblox using SGC Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgcc-configure-infoblox-integ.md).
 
-**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
+**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
 ## CMDB integrations dashboard
 

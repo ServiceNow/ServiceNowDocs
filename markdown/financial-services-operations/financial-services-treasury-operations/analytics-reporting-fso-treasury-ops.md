@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Analytics and reporting for Financial Services Treasury Operations
@@ -18,5 +18,5 @@ Financial Services Treasury Operations contains a preconfigured dashboard with a
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-dashboard.md) is available for Financial Services Treasury Operations.
+The [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-treasury-ops-dashboard.md) is available for Financial Services Treasury Operations.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # View a claim's summary

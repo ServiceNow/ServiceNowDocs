@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Strategic Portfolio Management]
 
 ServiceNow® Collaborative Work Management \(CWM\) provides a central hub to plan, visualize, manage, and collaborate on work with your teams. Save time and improve the efficiency of your team by avoiding switching between multiple tools to manage the progress of work and goals.
 
-\[Omitted video\] Description: Overview of Collaborative Work Management.
+\[Omitted video\] Description: Overview of Collaborative Work Management
 
 CWM enables planning tasks in detail, organizing unplanned work and its resources, and collaborating with cross-functional teams.
 

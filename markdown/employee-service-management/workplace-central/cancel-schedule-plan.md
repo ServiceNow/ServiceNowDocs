@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Schedule Planning, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -39,7 +39,7 @@ Role required: sn\_wsd\_spcmgmt.project\_owner
 
 ## Result
 
-The schedule plan is moved to the Cancelled state. If the schedule plan was published before being cancelled, the location assignments created in the plan are made inactive.
+The schedule plan is moved to the Canceled state. If the schedule plan was published before being cancelled, the location assignments created in the plan are made inactive.
 
 **Parent Topic:**[Working with Schedule Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-schedule-planning.md)
 

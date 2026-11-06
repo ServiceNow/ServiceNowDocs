@@ -1,48 +1,43 @@
 ---
-title: Capabilities maps
-description: See the applications, or capabilities, at your disposal for achieving your business objectives.
+title: Entitlements and usage using capabilities
+description: A capabilities map shows the products and capabilities available in your instance based on your entitlements. Use capabilities maps to understand what you have purchased and how to implement features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-product-adoption-roadmap/capabilities-map.html
 release: yokohama
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-21"
 reading_time_minutes: 2
-breadcrumb: [Product Adoption, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Product adoption, Using Impact, Impact]
 ---
 
-# Capabilities maps
+# Entitlements and usage using capabilities
 
-See the applications, or capabilities, at your disposal for achieving your business objectives.
+A capabilities map shows the products and capabilities available in your instance based on your entitlements. Use capabilities maps to understand what you have purchased and how to implement features.
 
-## Capabilities maps overview
+Capabilities maps provide transparency into the products and capabilities purchased on the ServiceNow platform, with a comprehensive list of entitled products and capabilities. Each capability includes a description, users can explore further for additional detail.
 
-Capabilities maps enable customers transparency and clarity into your ServiceNow platform with a comprehensive list of the products and capabilities that you have purchased. Descriptions of those capabilities are provided and can be drilled down to explore additional information about them.
-
-You obtain separate capabilities maps for each instance, as when more than one instance is present, a capability map is generated for each one.
-
-The status of the capabilities can be managed to identify which capabilities are being used, which aren’t in use, which are planned, and which are in the process of implementation. In addition, you’ll also see recommendations from your Impact squad for you to consider implementing.
+You obtain separate capabilities maps for each instance. When more than one instance is present, the system generates a capability map for each instance.
 
 **Note:** If a stakeholder group has been enabled, the capabilities map only displays those instances that are associated with a stakeholder group. In case there’s an instance that isn't displayed in the capabilities map, confirm it’s associated with a stakeholder group. See [Group Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/group-views.md) for more information on stakeholder groups.
 
-## Homepage
-
-Capabilities maps are available in Impact from the **Product Adoption** menu. Capabilities maps provide a reference point into which applications you’re entitled to.
-
-\[Omitted image "cap-map-par.png"\] Alt text: Shows the capabilities maps based on the selected filters on the Product Adoption page.
+Capabilities maps are available in Impact Delivery Instance and Impact Store App from the **Product Adoption** menu.
 
 If you have more than one instance, select an instance from the drop-down selection menu. The summary information displayed references the selected instance.
 
 On the capabilities maps, see the entire list of applications and a summary of the capabilities based on the filters that you select. When you change the filter options, the data displayed in the map updates accordingly.
 
-The available filters are as follows:
+The Capability details page displays information for a capability including description, relevant product adoption guidance, and it's alignment to objectives. You can use the **About** section to view detailed capability information to support informed decisions and **Related accelerators** to find relevant tools to help you implement and the capability. For more information, see [Capability details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-product-adoption-roadmap/capability-details.md).
 
--   Name: Filter by capability names.
--   Availability: See all capabilities, or only those that are available with licenses, or unavailable without licenses, for your instance.
--   Usage status: Filter by a usage status of the capabilities. You can pick one or more statuses to display at a time.
--   Squad recommended: Display all capabilities, or only those recommended by your squad.
--   Show hidden: Select **No** if you don't want to see hidden capabilities in this capabilities map. Select **Yes** if you want to access the list of hidden capabilities.
--   Create an initiative from a specific capability to integrate product adoption and the initiative roadmap.
--   Start an initiative from any individual capability where you can log and track all of your activities towards the implementation. Once created, the initiative will be referenced in the capability details and Initiative Roadmap.
+## Impact Delivery Instance and Impact Store integration for Capabilities Map
+
+You can view a list of your entitled applications and associated usage status, and manually edit usage status, without an active integration between the Impact Delivery Instance and Impact Store Application using the Service Exchange connection.
+
+Without the integration, the following areas of the capabilities map display an empty state and an empty-state icon:
+
+-   **Overall usage status**
+-   **Recommended capabilities requiring your attention**
+
+An active integration using Service Exchange is required for real-time data synchronization and to ensure seamless information flow between the Impact Delivery Instance and Impact Store Application.
 

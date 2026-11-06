@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Viewing and sharing Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ When you create a conversation from a task board, all the board members become m
 
 2.  Open a task board.
 
-3.  In the board header, click the connect with board members icon \(\[Omitted image "IconConnectWithBoardMembers.png"\] Alt text: Connect with board members icon\).
+3.  In the board header, click the connect with board members icon \(\[Omitted image "IconVTBConnectwithBoard.png"\] Alt text: Connect with board members icon\).
 
     The system automatically opens a record conversation for the board. Each board member becomes a member of the conversation.
 
@@ -40,7 +40,7 @@ When you create a conversation from a task board, all the board members become m
 **Related topics**  
 
 
-[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_Collaboration.md)
+[bundle-platcap.c_Collaboration]
 
 [Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/visual-task-boards/c_VisualTaskBoards.md)
 

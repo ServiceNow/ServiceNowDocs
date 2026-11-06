@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search Assist for authenticated external users, Configure the Customer and Consumer Service Portals, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [AI Search Assist for authenticated external users, Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure AI Search Assist Actions for authenticated external users
@@ -24,7 +24,7 @@ You must configure AI Search for the Customer and Consumer Service Portals. For 
 
 You must enable the Typeahead Search and AI Search Assist for the authenticated external users to use the AI search feature. For more information on the widgets, see [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/typeahead-search-widget.md) and [AI Search Assist widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/ais-assist-widget.md).
 
-Role required: admin
+Role required: web\_service\_admin
 
 ## Procedure
 
@@ -56,4 +56,9 @@ Role required: admin
 
 
 **Parent Topic:**[AI Search Assist for authenticated external users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-search-for-portal-auth-external.md)
+
+**Related topics**  
+
+
+[Using Now Assist in portal case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/using-ai-search-with-q-a-within-the-portal-form.md)
 

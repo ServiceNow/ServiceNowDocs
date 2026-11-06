@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 1.  To view the time lag on a producer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard**, and check the Active Producer Replication Sets for the following details.
 
-<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d79117e70">
+<table id="choicetable_mkm_wmd_skb"><tbody><tr><td id="d78836e70">
 
 **Name**
 
@@ -34,7 +34,7 @@ Role required: admin
 
 Name of the producer replication set.
 
-</td></tr><tr><td id="d79117e79">
+</td></tr><tr><td id="d78836e79">
 
 **Replication Queue Reading Lag**
 
@@ -42,7 +42,7 @@ Name of the producer replication set.
 
 Time between a record change on the producer instance and the moment it is sent over the outbound replication queue.
 
-</td></tr><tr><td id="d79117e88">
+</td></tr><tr><td id="d78836e88">
 
 **Status**
 
@@ -50,7 +50,7 @@ Time between a record change on the producer instance and the moment it is sent 
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d79117e97">
+</td></tr><tr><td id="d78836e97">
 
 **Status Message**
 
@@ -58,13 +58,13 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d79117e106">
+</td></tr><tr><td id="d78836e106">
 
 **Message Queue Version**
 
 </td><td>
 
-Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)
+Version of the Message Queue. Default is V2 \(Hermes\).
 
 </td></tr></tbody>
 </table>    To get additional information, view the producer instance xmlstats at `https://<producer-instance-name>/xmlstats.do?include=idr`.
@@ -80,7 +80,7 @@ Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)
 
 2.  To view the time lag on a consumer instance, navigate to **Instance Data Replication** &gt; **Monitoring Dashboard** and check the Active Consumer Replication Sets for the following details.
 
-<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d79117e165">
+<table id="choicetable_pgt_f12_skb"><tbody><tr><td id="d78836e165">
 
 **Name**
 
@@ -88,7 +88,7 @@ Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)
 
 Name of the consumer replication set.
 
-</td></tr><tr><td id="d79117e174">
+</td></tr><tr><td id="d78836e174">
 
 **Data Lag**
 
@@ -96,7 +96,7 @@ Name of the consumer replication set.
 
 Time between a record change on the producer instance and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d79117e183">
+</td></tr><tr><td id="d78836e183">
 
 **Network Lag**
 
@@ -104,7 +104,7 @@ Time between a record change on the producer instance and the moment it is recor
 
 Time between a record change logs in the outbound replication queue and the moment it is recorded in the consumer instance.
 
-</td></tr><tr><td id="d79117e192">
+</td></tr><tr><td id="d78836e192">
 
 **Status**
 
@@ -112,7 +112,7 @@ Time between a record change logs in the outbound replication queue and the mome
 
 Status of a replication set, either active or in error.
 
-</td></tr><tr><td id="d79117e201">
+</td></tr><tr><td id="d78836e201">
 
 **Status Message**
 
@@ -120,13 +120,13 @@ Status of a replication set, either active or in error.
 
 Message that describes the error status.
 
-</td></tr><tr><td id="d79117e211">
+</td></tr><tr><td id="d78836e211">
 
 **Message Queue Version**
 
 </td><td>
 
-Version of the Message Queue. Either V1 \(Legacy\) or V2 \(Hermes\)
+Version of the Message Queue. Default is V2 \(Hermes\)
 
 </td></tr></tbody>
 </table>    To get additional information, view the consumer instance xmlstats at `https://<consumer-instance-name>/xmlstats.do?include=idr`. \[Omitted image "xmlstats-consumer.png"\] Alt text: Consumer xmlstats The xmlstats shows:

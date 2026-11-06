@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit hardware asset inventory, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an audit record in the Hardware Asset Management application
@@ -31,15 +31,15 @@ The asset or inventory\_user role can only access the Asset Audits \[sn\_hamp\_a
 
 1.  Create an audit.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d145552e80">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d102358e87">
 
 Interface
 
-</th><th align="left" id="d145552e83">
+</th><th align="left" id="d102358e90">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d145552e89">
+</th></tr></thead><tbody><tr><td id="d102358e96">
 
 **Core UI**
 
@@ -47,9 +47,9 @@ Action
 
 1.  Navigate to **Asset Audits** &gt; **Asset Audits** form.
 2.  Select **New**.
- **Important:** If you have set the **sn\_hamp.migrate\_hamaudit** system property value to **true**, to enable audit enhancements in your ServiceNow® instance, you can't create an asset audit record from the core UI. Audit enhancements feature is available with Hardware Asset Management version 15.0.0 onwards.
+ **Important:** If you have set the **sn\_hamp.migrate\_hamaudit** system property value to **true**, to enable audit enhancements in your ServiceNow® instance, you can't create an asset audit record from the core UI.
 
-</td></tr><tr><td id="d145552e135">
+</td></tr><tr><td id="d102358e139">
 
 **Hardware Asset Workspace**
 

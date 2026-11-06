@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Jira, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -66,7 +66,7 @@ Jira Cloud
 1.  In the **Tool name** field, enter a name for the tool.
 2.  In the **Tool integration** field, search for and select Jira Cloud.
 3.  in the **Tool URL** field, enter your Jira Cloud instance URL.
-4.  In the **Credential type** field, select **Basic Auth** or **OAuth 2.0**.
+4.  In the **Credential type** field, select **Basic Auth** or **OAuth 2.0 with 3LO**.
 
 **Basic Auth**
 
@@ -75,17 +75,9 @@ Jira Cloud
 **Note:** The Jira user that you use here must have the Jira Administrators permissions.
 
     2.  Enter the password or access token to access this instance.
-**OAuth 2.0**
+**OAuth 2.0 with 3LO**
 
-Pre-requisites:
-
-    -   
-    -   [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-jira-serv-mgmt.md)
-    -   
-    -   Create credential record for Jira Cloud
-In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.
-
-**Note:** Only records that are not in use and configured for Jira Cloud can be selected as an existing credential record.
+Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md).
 
 5.  If you want to configure webhooks for all the projects discovered in your Jira instance, then select the option **Do you wish to configure webhook for the tool?**
 

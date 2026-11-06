@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Request Management
 classification: operational-technology-request-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [OT service catalog]
 breadcrumb: [Configure, Operational Technology Request Management, Operational Technology]
@@ -29,7 +29,7 @@ You can create catalog items for the OT Service Catalog in the catalog builder. 
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Builder**.
 
-2.  In the **Dashboard** tab under **Start creating your new catalog item**, select **Create a new catalog item**.\[Omitted image "create-catalog-item-buttom-otrm.png"\] Alt text: Create a new catalog item button in the catalog builder on your instance.
+2.  In the **Dashboard** tab under **Start creating your new catalog item**, select **Create a new catalog item**.
 
     Alternatively, select the **Catalog Items** tab and click **New**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-service-connector.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Concepts for service providers, Exploring domain separation, Domain separation for service providers, Access Management]
 ---
@@ -13,8 +13,6 @@ breadcrumb: [Concepts for service providers, Exploring domain separation, Domain
 # Service provider connector
 
 The service provider connector application is a reference design for creating a ServiceNow Store application for your customers to use to integrate with your systems. Service provider applications help you speed on-boarding and create standardized integrations.
-
-\[Omitted image "bp-service-connector-apps.png"\] Alt text: Service Connector Apps
 
 ## Benefits of service connectors
 
@@ -128,7 +126,7 @@ IntegrationHub
 </td><td>
 
 When process integration is the goal:-   Easier to inject in the middle of a process, as part of complex or conditional step in the middle of a flow
--   To learn more, see [IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)
+-   To learn more, see IntegrationHub
 
 </td></tr><tr><td>
 
@@ -156,7 +154,7 @@ Flow Designer
 </td><td>
 
 When process design is the goal-   Used for automating processes in a single design environment. Process owners can use natural language to automate approvals, tasks, notifications, and record operations without coding.
--   To learn more, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md)
+-   To learn more, see 
 
 </td></tr></tbody>
 </table>Learn more about the [Service Connector proof of concept](https://support.servicenow.com/kb_view.do?sysparm_article=KB0817720) on the ServiceNow Knowledge site.

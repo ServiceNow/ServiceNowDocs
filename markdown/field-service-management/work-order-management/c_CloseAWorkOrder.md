@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Closing work orders and next steps
@@ -30,5 +30,28 @@ After an order has been assigned to an agent, that agent can complete and close 
 -   When the **Request lifecycle is task driven** configuration option is enabled, all states of the work order are driven by the task. The agent can click the **Close Complete** button on the Work Order Task form to close any tasks that need to be closed manually. After all of the work order's tasks are closed, the work order is closed automatically.
 -   When the **Request lifecycle is request driven** configuration option is set and all of the work order's tasks are closed, the agent to whom the work order is assigned can click the **Close Complete** button on the Request form to close and complete the order.
 
-**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
+## Example: Job Blocked – Part Unavailable
+
+A service technician cannot complete a repair because a required part is unavailable. Field Service Management allows technicians to close a work order task as incomplete, provide a reason, and creates a follow-on task to track the outstanding work. The dispatcher reschedules the job once the part is sourced, and the technician completes the task through the standard workflow.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Identifies missing part|
+|2|Technician|Closes work order task as Incomplete|
+|3|Technician|Creates follow-up task|
+|4|Dispatcher|Reschedules task|
+|5|Dispatcher|Sources required part|
+
+## Example: AI-Generated Work Order Closure Summary
+
+A service technician needs to close a work order quickly without spending time writing detailed summaries from memory. ServiceNow Otto for Field Service Management \(FSM\) analyzes work order task information and generates a structured closure summary that technicians can review, edit, and save before closing the task.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician|Logs work performed and parts used|
+|2|System|Analyzes work order activity|
+|3|System|Generates structured summary|
+|4|Technician|Reviews and edits summary|
+|5|Technician|Saves summary to work order|
+|6|Technician|Closes work order|
 

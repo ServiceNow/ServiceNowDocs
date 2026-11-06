@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Workflow Studio flow trigger types
@@ -162,7 +162,7 @@ For more information on running multiple flows on an inbound email, see [Allow m
 
 The following diagram shows how inbound emails are processed by inbound email triggers. After the email has been classified as a reply, forward, or new email, the system tries to match the email to an active inbound email trigger. If the email meets the conditions of an inbound email trigger, the flow runs. If the flow issues stop processing, the email is finished being processed. If the flow does not issue stop processing, the system evaluates the conditions of more inbound email triggers. If there are no more inbound email triggers to evaluate, the system tries to match the email with an active inbound email action instead.
 
-\[Omitted image "inbound-flow-processing.png"\] Alt text: Processing emails in the Inbound Email trigger
+\[Omitted image "inbound-flow-processing-brand2.png"\] Alt text: Processing emails in the Inbound Email trigger
 
 **Important:** Inbound email flows use the email sender as the user who initiates the session. If the system doesn't recognize the sender, the inbound email flow runs as the Guest user. Setting the inbound email flow to run as the user who initiates the session ensures that the flow actions are limited by user access controls. If the initiating user needs elevated privileges for some reason, have the inbound email flow call a subflow that runs with the required roles. To test access controls for an inbound email flow, impersonate a typical inbound email user and manually trigger the flow.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Conversational Integration with Google Chat, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring your Conversational Integration with Google Chat, Google Chat, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Installing Conversational Integration with Google chat
@@ -76,7 +76,7 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 22. Select **+ Create service account**.
 
-23. On the Create service account screen, fill out the fields:
+23. On the Create service account form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
@@ -88,7 +88,7 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 25. Select **Done**.
 
-26. On the Service Accounts screenn,navigate to the Manage Keys page and select your new outbound service account.
+26. On the Service Accounts page, navigate to the Manage Keys page and select your new outbound service account.
 
 27. Select the Keys tab.
 
@@ -96,7 +96,7 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 29. On the Create private key for 'Outbound Service Account' window, select **P12**.
 
-30. Select **Create** - this automatically downloads a file to your machine.
+30. Select **Create**; this automatically downloads a file to your machine.
 
 31. On the Private key saved to your computer window, enter a private key password.
 
@@ -105,5 +105,5 @@ Install the Google Chat \(sn\_va\_google-chat\) application so that Now Virtual 
 
 [Integrating Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)
 
-**Parent Topic:**[Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/gchat-conv-integration.md)
+**Parent Topic:**[Configuring your Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-va-google-chat.md)
 

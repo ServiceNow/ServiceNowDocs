@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a Microsoft 365 integration profile
@@ -18,7 +18,7 @@ Create an integration profile to track software subscriptions and optimize stale
 
 ## Before you begin
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 To integrate with Microsoft 365, activate the following plugins:
 
@@ -36,15 +36,15 @@ If you’re using Software Asset Workspace, the option to create the direct inte
 
 1.  From a web browser, open your ServiceNow instance.
 
-<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d328701e127">
+<table id="choicetable_w41_4c4_2cc"><thead><tr><th align="left" id="d199179e127">
 
 Interface
 
-</th><th align="left" id="d328701e130">
+</th><th align="left" id="d199179e130">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d328701e136">
+</th></tr></thead><tbody><tr><td id="d199179e136">
 
 **Core UI**
 
@@ -52,7 +52,7 @@ Action
 
 Navigate to **All** &gt; **Software Asset** &gt; **SaaS License** &gt; **Direct Integration Profiles**
 
-</td></tr><tr><td id="d328701e159">
+</td></tr><tr><td id="d199179e159">
 
 **Software Asset Workspace**
 
@@ -125,6 +125,18 @@ Profile type
 
 Type of integration profile. This field is automatically set to **Microsoft 365**.
 
+</td></tr><tr><td>
+
+Permission type
+
+</td><td>
+
+The type of permission for the integration profile to access data correctly and securely.Values include:
+
+-   **Application**: Permissions that enable the application to access any data without a signed-in user.
+-   **Delegated**: Permissions that enable the application to act in place of a signed-in user.
+
+
 </td></tr></tbody>
 </table>5.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
@@ -140,7 +152,7 @@ Type of integration profile. This field is automatically set to **Microsoft 365*
 
     If the connection is successfully validated, the integration profile downloads subscriptions and activity data.
 
-    **Note:** If the **Download Activity** field is selected without configuring the optional Power BI settings, the Validate connection feature will issue the following warning message: "All required APIs are validated successfully, but the optional Power BI API validation has failed."
+    **Note:** If the **Download Activity** field is selected without configuring the optional Power BI settings, the Validate connection feature issues the following warning message: "All required APIs are validated successfully, but the optional Power BI API validation has failed."
 
 8.  Check the status of the user subscription job by navigating to **Software Asset** &gt; **Administration** &gt; **Job Results**.
 
@@ -149,7 +161,17 @@ Type of integration profile. This field is automatically set to **Microsoft 365*
 
 View all automatically generated software models for Microsoft 365 by navigating to **Integration - Microsoft 365** &gt; **Software Models**. A software model is a profile of the software that you have purchased, including information about the publisher, version, and discovery map. Software models record publisher information and create a profile.
 
-After creating an integration profile for Microsoft 365, you can view information about software models, unrecognized subscription identifiers, scheduled jobs, scheduled job results, and software subscriptions in the Software Asset Workspace. Navigate to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**.
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select a Microsoft 365 integration profile to view the following related lists:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 When you create an integration profile, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to ensure that it meets your specifications. You can view all automatically generated reclamation rules for Office 365 by navigating to **Software Asset** &gt; **Administration** &gt; **Reclamation Rules**. Reclamation rules are applied based on the Microsoft System Center Configuration Management \(SCCM\) usage data that is pulled through the Microsoft SCCM usage integration. For more information on these reclamation rules, see [Create a reclamation rule to import Microsoft SCCM usage data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-reclamation-rule-sccm.md).
 

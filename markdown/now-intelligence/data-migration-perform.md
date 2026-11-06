@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-migration-perform.html
 release: yokohama
 topic_type: task
-last_updated: "2026-02-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,29 +18,31 @@ Migrate your existing dashboards, reports, interactive filters, and Performance 
 
 Role required: To perform the full migration and activate Platform Analytics experience: admin. Users with other admin roles \(pa\_admin, report\_admin, and dashboard\_admin\) have access to the Migration Center to evaluate the migration.
 
-The Migration Center is only available when Next Experience is enabled. To enable Next Experience, set the value of the **glide.ui.polaris.experience** property to true.
-
 ## About this task
 
-This topic assumes that your instance is not a net new Xanadu or Yokohama instance. The Migration Center is only available on upgrading instances.
+This topic assumes that your instance is not a net new Xanadu, Yokohama, Zurich or Brazil instance. The Migration Center is only available on upgrading instances.
 
 Run and test the migration on a single, non-production instance. After you’re satisfied with the results of a full test migration, launch the migration on the production instance. Select **Try your content** to test the output on a limited number of dashboards.
 
 **Note:**
 
+You cannot use update sets to move the migrated material from a non-production instance to a production instance. Test the migration on the non-production instance and then use Migration Center functionality to migrate the production instance.
+
 If you change a Core UI dashboard after migration and migrate it again, the changed dashboard overwrites the originally migrated dashboard.
 
 If you change a report, and perform full data migration again, the changed Core UI report overwrites the originally migrated content, and any changes you have made to the associated Platform Analytics experience visualization. Changed Core UI reports do not overwrite changes when you perform a partial migration of Core UI dashboards.
 
-You cannot move the migrated material from a non-production instance to a production instance.
+Dashboards migrated in compatibility mode may experience performance issues.
 
-Dashboards with visualizations or other widgets migrated in compatibility mode may experience performance issues.
+Migrated dashboards appear in the Platform Analytics library. Links to the original Core UI dashboards redirect to the library as well.
+
+Reports associated with chart to chart drilldown are saved to the Visualization Library.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Migration Center**.
 
-2.  Review the information about the migration process under Learn about Platform Analytics Experience.
+2.  Review the information about the migration process under Learn about Platform Analytics experience.
 
     The tabs provide more information about the migration process and what you can expect from Platform Analytics.
 

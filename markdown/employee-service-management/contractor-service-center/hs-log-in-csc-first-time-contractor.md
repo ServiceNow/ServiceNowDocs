@@ -7,7 +7,7 @@ release: yokohama
 product: Contractor Service Center
 classification: contractor-service-center
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Contractor Service Center, Health and Safety, Employee Service Management]
 ---

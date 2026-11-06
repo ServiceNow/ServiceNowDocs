@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-07-02"
 reading_time_minutes: 13
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Okta Spoke
@@ -19,7 +19,7 @@ Use Okta to manage users, passwords, and groups.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -27,7 +27,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Okta spoke v4.8.3 is the latest version.
+Okta spoke v4.8.3 is the latest version. For version history of the spoke, see [Okta Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-okta.html).
 
 ## Spoke dependencies
 
@@ -41,7 +41,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 -   com.glide.cobject:sys,com.glide.script.vtable
 -   com.snc.remote\_directory\_sync
 -   XML Parser for ServiceNow IntegrationHub \(com.glide.hub.action\_step.xmlparser\)
--   Flow Designer Designer Model \(com.glide.hub.designer\_backend.model\)
+-   Flow Designer Model \(com.glide.hub.designer\_backend.model\)
 -   Complex Object \(com.glide.cobject\)
 
 **Note:** Some of these plugins are licensable features and require an appropriate license if used outside the spoke implementation. For information on licenses, contact your account manager.
@@ -56,11 +56,11 @@ The Okta spoke provides sample flows in the draft state to demonstrate automatin
 
 |Flow|Description|
 |----|-----------|
-|Add User to Okta Group|When a user is created, adds the user to the specified group.|
+|Add User to Okta Group|When a user is created, it adds the user to the specified group.|
 |Onboard User in Okta|When a user is created in ServiceNow, creates and activates the user in Okta.|
-|Remove Okta Group Membership on Deactivation|When a user is deactivated, removes the user from all Okta groups.|
+|Remove Okta Group Membership on Deactivation|When a user is deactivated, it removes the user from all Okta groups.|
 
-**Note:** Okta has the ServiceNow\_UD application to provision users in ServiceNow. ServiceNow can also be configured to provision users in Okta. Hence, ServiceNow administrators must ensure that circular user creation does not occur.
+**Note:** Okta has the ServiceNow\_UD application to provision users in ServiceNow. ServiceNow can also be configured to provision users at Okta. Therefore, ServiceNow administrators must confirm that circular user creation doesn’t occur.
 
 ## Spoke subflows
 
@@ -96,7 +96,7 @@ Inbound Integration from Okta to ServiceNow
 
 </td><td>
 
-Allows inbound integration from Okta to a ServiceNow instance. Verifies if an event hook already exists for an application. If the event hook does not exist, a new event hook is created. **Note:** Make sure that **Configuration URI** field value is in this format: `https://<instance-name>.service-now.com/api/sn_okta_spoke/oktawebhook`
+Allows inbound integration from Okta to a ServiceNow instance. Verifies if an event hook exists for an application. If the event hook doesn’t exist, a new event hook is created. **Note:** Make sure that **Configuration URI** field value is in this format: `https://<instance-name>.service-now.com/api/sn_okta_spoke/oktawebhook`
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Get Groups
 
 </td><td>
 
-Updates an existing group or creates a group in Okta.
+Updates an existing group or creates a group at Okta.
 
 </td></tr><tr><td>
 
@@ -120,7 +120,7 @@ Create or Update Okta Applications Record
 
 </td><td>
 
-Creates a Okta application record or updates an existing Okta application record.
+Creates an Okta application record or updates an existing Okta application record.
 
 </td></tr></tbody>
 </table>## Available sample conversational subflows
@@ -211,7 +211,7 @@ Activate User
 
 </td><td>
 
-Starts the process of activating a user in Okta by enabling new or returning users to configure their Okta account from an activation URL. This action can either have Okta send the activation URL to the user as an email, or it can return the activation URL as a data pill for use in a later action to send an email or notification.
+Starts the process of activating a user at Okta by enabling new or returning users to configure their Okta account from an activation URL. This action can either have Okta send the activation URL to the user as an email, or it can return the activation URL as a data pill for use in a later action to send an email or notification.
 
 </td></tr><tr><td>
 
@@ -219,7 +219,7 @@ Clear User Session
 
 </td><td>
 
-Clears all active sessions the specified user has with Okta, which forces the user to log back in the next time they use Okta.
+Clears all active sessions you have with Okta, which forces the user to log back in the next time they use Okta.
 
 </td></tr><tr><td>
 
@@ -227,7 +227,7 @@ Create User
 
 </td><td>
 
-Creates the specified user in Okta with the specified standard, optional, and mandatory field values.**Note:** Okta has the ServiceNow\_UD application to provision users in ServiceNow. ServiceNow can also be configured to provision users in Okta. Hence, ServiceNow administrators must ensure that circular user creation does not occur.
+Creates the specified user at Okta with the specified standard, optional, and mandatory field values.**Note:** Okta has the ServiceNow\_UD application to provision users in ServiceNow. ServiceNow can also be configured to provision users at Okta. Therefore, ServiceNow administrators must confirm that circular user creation doesn’t occur.
 
 </td></tr><tr><td>
 
@@ -235,9 +235,9 @@ Deactivate User
 
 </td><td>
 
-Deactivates the specified user in Okta, which removes the user's groups and application assignments, and changes the user status to DEACTIVATED. This action is commonly used when a user departs the company indefinitely.
+Deactivates the specified user at Okta, which removes the user's groups and application assignments, and changes the user status to DEACTIVATED. This action is commonly used when a user departs the company indefinitely.
 
- **Note:** Do not perform this action on users with a DEPROVISIONED status.
+ **Note:** Don’t perform this action on users with a DEPROVISIONED status.
 
 </td></tr><tr><td>
 
@@ -285,7 +285,7 @@ Restart User Activation
 
 </td><td>
 
-Restarts the specified user's activation within Okta. Use this action if the user did not complete their activation with the activation code or link provided by the **Activate User** Action.
+Restarts the specified user's activation within Okta. Use this action if the user didn’t complete their activation with the activation code or link provided by the **Activate User** Action.
 
 </td></tr><tr><td>
 
@@ -301,7 +301,7 @@ Unsuspend User
 
 </td><td>
 
-Unsuspends the specified user in Okta.
+Unsuspends the specified user at Okta.
 
 </td></tr><tr><td>
 
@@ -309,7 +309,7 @@ Update User Profile
 
 </td><td>
 
-Updates the user profile details for the specified user in Okta.
+Updates the user profile details for the specified user at Okta.
 
 </td></tr><tr><td>
 
@@ -663,10 +663,7 @@ Available AI agents include:
 |Okta application management AI agent|Automates application management-related workflows in Okta from Integration Hub. Automate actions such as look up applications, retrieve application details by ID, and create or update Okta application records.|
 |Okta logs management AI agent|Automates log management-related workflows in Okta from Integration Hub. Automate actions such as 'Look up Okta Logs Stream’.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

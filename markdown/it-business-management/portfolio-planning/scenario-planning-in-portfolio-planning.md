@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create and evaluate strategic scenarios to explore different planning approaches
 
 ## Scenario planning overview
 
-Scenario planning in Portfolio Planning enables organizations to create, evaluate, and approve the best strategic scenario that aligns with their strategic goals and intended business outcomes. This process helps in visualizing different approaches, assessing their impacts, and making informed decisions before implementing the live plan. By using scenario planning, organizations can anticipate potential challenges.
+Scenario planning in Portfolio Planning enables organizations to create, evaluate, and approve the best strategic scenario that aligns with their strategic goals and intended business outcomes. This process helps in visualizing different approaches, assessing their impacts, and making informed decisions before implementing the live plan. By utilizing scenario planning, organizations can anticipate potential challenges.
 
 ## What is a scenario
 
@@ -35,15 +35,15 @@ As compared to a plan, a scenario additionally has the following:
 
 For more information on portfolio plans, see [Portfolio plans in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/portfolio-plans-in-portfolio-planning-ppw.md).
 
-By comparing scenarios side by side, you can assess the differences in goal alignment and trade-offs between each scenario. This comparative analysis helps identify the scenario that best meets strategic objectives. For more information on comparing the scenarios, see [Compare scenarios in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
+By comparing scenarios side by side, you can assess the differences in goal alignment and trade-offs between each scenario. This comparative analysis helps identify the scenario that best meets strategic objectives. For more information on comparing the scenarios, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
 
 ## Scenario planning workflow in Portfolio Planning
 
 Using the Scenario Planning feature in Portfolio Planning, you can perform the following activities:
 
--   Create a scenario to explore different strategic approaches and business outcomes. For more information, see [Create a scenario in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md).
--   Adjust and compare multiple scenarios side by side to evaluate differences in goal alignment, trade-offs, and financial benefits. For more information, see [Compare scenarios in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
--   Approve the best scenario that aligns with the organizational goals. For more information, see [Approve a scenario in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).
+-   Create a scenario to explore different strategic approaches and business outcomes. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md).
+-   Adjust and compare multiple scenarios side by side to evaluate differences in goal alignment and trade-offs. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md).
+-   Approve the best scenario that aligns with the organizational goals. For more information, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).
 -   Set a target portfolio budget for each of your planning cycle, which can be for fiscal period, quarter, yearly, or portfolio timeline.
 -   Evaluate the target vs proposed budget of In-plan items and review the monetary benefit from the prioritized items.
 

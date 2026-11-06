@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-tasks-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add opportunity tasks
@@ -20,23 +20,15 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  Navigate to **List** view \[Omitted image "Lists.png"\]and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text:and select **Opportunity - All**.
 
 2.  Select the opportunity you want to work with and select the **Tasks** tab.
 
 3.  Select **New** to start a new opportunity task or select an existing opportunity task to make changes.
 
-4.  Fill in the fields in the Opportunity Task form.
+4.  On the Opportunity Task form, fill in the fields.
 
-    |Fields|Descriptions|
-    |------|------------|
-    |Number|The system-generated number of the opportunity task.|
-    |Opportunity|The opportunity number.|
-    |Due date|The date by which the opportunity task has to be completed.|
-    |Short description|More information about the opportunity task.|
-    |State|State of the opportunity task.|
-    |Assigned to|The name of the sales agent to whom the sales manager has assigned this opportunity task.|
-    |Work notes|Additional notes about the opportunity task.|
+    For more information, see [Create new opportunity task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-opportunity-task-form.md).
 
 5.  Select **Save**.
 
@@ -45,5 +37,10 @@ Role required: sales\_manager
 
 ## What to do next
 
-You can create appointments in your opportunity tasks. To learn more, see [Create appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-create-an-appoinment.md).
+You can create appointments in your opportunity tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-create-an-appoinment.md).
+
+**Related topics**  
+
+
+[Create a related task from a touchpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-touchpoint-related-tasks.md)
 

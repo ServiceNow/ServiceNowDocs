@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a custom spoke
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
--   Use ServiceNow® Studio to create a spoke. For more information about Studio, see ServiceNow Studio.
+-   Use ServiceNow® Studio to create a spoke. For more information about Studio, see [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-landing.md).
 -   If a spoke exists for the SaaS application that you're integrating with, you can use the existing spoke instead of creating one. For a list of applications that have ServiceNow® Integration Hub spokes, see [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md).
 
 ## Procedure

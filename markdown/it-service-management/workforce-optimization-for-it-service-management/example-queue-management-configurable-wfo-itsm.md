@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Example for using channel management in Workforce Optimization for ITSM
 
 Understand how you can route work to specific groups and monitor real-time performance using Channel Management.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 A manager manages IT operations for a large organization and has 12 teams reporting to them. Each of their teams has anywhere from 20 through 50 agents. They must ensure that incoming work gets effectively routed to the right groups across all channels.
 

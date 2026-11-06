@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-12-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -48,7 +48,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     3.  Fill out each text field with its corresponding value.
 
-        For more information on the fields and values, see [IP-Based Discovery Schedule Form Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md).
+        For more information on the fields and values, see [IP-Based Discovery Schedule form and fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.md).
 
     4.  Select and hold \(or right-click\) above **Discovery Schedule** and select **Save**.
 
@@ -62,7 +62,7 @@ Role required: Certificate administrator, discovery\_admin, or admin
 
     8.  Fill each field with its corresponding value.
 
-        For more information on the fields and values, see [Setting Your IP Addresses Form and Fields Table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/setting-up-your-ip-addresses.md).
+        For more information on the fields and values, see [Setting Your IP Addresses form and fields table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/setting-up-your-ip-addresses.md).
 
     9.  Select **Submit**.
 

@@ -1,5 +1,5 @@
 ---
-title: Control requirement details in the CAM view of Control objective and Control forms
+title: Control Requirement Details View
 description: The CAM view of the Control form has fields that have been added to capture the control requirement details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-cr-control-form.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Control requirement details in the CAM view of Control objective and Control forms
+# Control Requirement Details View
 
 The CAM view of the Control form has fields that have been added to capture the control requirement details.
 
@@ -509,5 +509,5 @@ Activities
 Message logs of control requirement's state change.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[CAM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
+</table>**Parent Topic:**[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/reference-grc-cam.md)
 

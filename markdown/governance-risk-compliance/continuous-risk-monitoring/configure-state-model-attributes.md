@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-08"
-reading_time_minutes: 1
-breadcrumb: [GRC state model configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [GRC state model configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Add existing attributes to a GRC workflow state
@@ -18,16 +18,29 @@ Add existing Governance, Risk, and Compliance state model attributes to add spec
 
 ## Before you begin
 
-With CAM, you get the following attributes:
+With CAM, you get the following UI button attributes:
 
--   **Generate ATO Letter**: Generates Authority to Operate \(ATO\) letter document.
--   **Generate Executive Summary**: Generate an Executive Summary document.
--   **Generate OSCAL SSP**: Generate an OSCAL format System Security Plan \(SSP\).
--   **Generate POAM**: Generate a Plan of Action and Milestones \(POA&amp;M\) document.
--   **Generate SAP**: Generate a Security Assessment Plan \(SAP\) document.
--   **Generate SAR**: Generate a Security Assessment Report \(SAR\) document.
--   **Generate SSP**: Generate a System Security Plan \(SSP\) document.
+-   Generate ATO Letter: Generates Authority to Operate \(ATO\) letter document.
+-   Generate Executive Summary: Generate an Executive Summary document.
+-   Generate OSCAL SSP: Generate an OSCAL format System Security Plan \(SSP\).
+-   Generate POAM: Generate a Plan of Action and Milestones \(POA&amp;M\) document.
+-   Generate OSCAL AP: Generate an Assessment Plan in OSCAL format.
+-   Generate OSCAL AR: Generate an Assessment Results in OSCAL format
+-   Generate SAP: Generate a Security Assessment Plan \(SAP\) document.
+-   Generate SAR: Generate a Security Assessment Report \(SAR\) document.
+-   Generate SSP: Generate a System Security Plan \(SSP\) document.
 -   Required approval: Requires approval before proceeding to the next step.
+
+You also get the following related list button attributes:
+
+-   Required Information Type Actions: Enables Add and Remove buttons in Information Types related list
+-   Required Baseline Actions: Enables buttons in Baseline Controls related lists \(Add, Remove, Mark as Not Applicable, Inherit, Create Hybrid, Return to Baseline\)
+-   Required Overlay Actions: Enables Add and Remove buttons in Overlays page
+
+In addition, you get the following UI page attributes:
+
+-   Required Overlay Page: Displays the Overlays UI page
+-   Required Authorization Documents Page: Displays the Authorization Documents page
 
 **Note:** To configure state model attributes with the CAM specific attributes, perform the tasks in this topic. To create a new state model attribute, see [Create a new state model attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/configure-new-state-model-attributes.md).
 
@@ -43,13 +56,9 @@ Role required: sn\_irm\_cont\_auth.admin
 
 4.  On the selected workflow state record, select **State Model Attributes** tab.
 
-    \[Omitted image "WF-state-edit-attributes2.png"\] Alt text: State model attributes tab.
-
 5.  To add the existing attributes, select **Edit**.
 
 6.  Select attribute from the **Collection** list.
-
-    \[Omitted image "WF-state-edit-attributes1.png"\] Alt text: Editing state model attribute.
 
 7.  Select the right arrow icon \(&gt;\) to move selected attribute to the **State Model Attributes List** on the right.
 

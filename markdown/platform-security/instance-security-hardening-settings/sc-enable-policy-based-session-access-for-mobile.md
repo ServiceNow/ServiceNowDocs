@@ -1,5 +1,5 @@
 ---
-title: Enable policy based session access for mobile \[New in Security Center 1.5\]
+title: Enable policy based session access for mobile
 description: Use the The Zero Trust- Policy Based Session Access plugin to control if users authenticating through a mobile app will have their roles reduced.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-policy-based-session-access-for-mobile.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Authentication, Hardening settings, Platform Security]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable policy based session access for mobile \[New in Security Center 1.5\]
+# Enable policy based session access for mobile
 
 Use the The Zero Trust- Policy Based Session Access plugin to control if users authenticating through a mobile app will have their roles reduced.
 
-The Zero Trust- Policy Based Session Access plugin enables security admins to reduce user access in a session based on parameters such as IP address, location, identify provider attributes, and user attributes with adaptive authentication policies. When this plugin is enabled or set to true, users authenticating through a mobile device will have their roles restricted according to the plugin's policies. Instance admins may wish to restrict high privileged access when users authenticate through a mobile device as it could indicate an unsafe environment for sensitive operations.
+The **Zero Trust - Policy Based Session Access** plugin allows security admins to reduce user access in a session based on IP, Location, Identity provider attributes and user attributes using adaptive authentication policies. When this property is set to **true**, then users logging in via mobile device will have their roles restricted as configured by the plugin policies.
+
+Set the Glide Property **glide.authenticate.session\_access.mobile.enabled** to **true**.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -83,8 +93,16 @@ Security risk
 </td><td>
 
 -   Severity score: 4.7
--   CVSS score: Medium
--   Security risk details: If this hardening setting is set to true, then policy based session access is enforced on the instance for mobile logins, and users that are not coming from a trusted environment, or are not using trusted devices will have their roles with reduced privileges. True is the secure setting. If this setting is configured to false, then policy based session access is disabled, and users will continue to have full roles including the high privileged roles like admin all the time.
+-   CVSS rating: Medium
+-   Security risk details: Instance admins may wish to restrict high privileged access when users login via mobile device, possible indicating an unsafe environment for sensitive operations.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -94,22 +112,6 @@ Dependencies and prerequisites
 
 None
 
-</td></tr><tr><td>
-
-Functional impact
-
-</td><td>
-
-If admin has configured the session access policy on the instance, then users will have their roles reduced after mobile login if they are not coming from a trusted environment or using a trusted device.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Adaptive authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/adaptive-authentication.md)
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

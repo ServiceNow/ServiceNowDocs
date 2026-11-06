@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,7 +38,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
@@ -50,7 +50,7 @@ For more information, see [Set up your ServiceNow AI Platform instance for the M
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
@@ -61,7 +61,7 @@ For more information, see [Set up your McAfee ePO console to integrate with Secu
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
@@ -69,7 +69,7 @@ As a user with the ServiceNow AI Platform administrator role, install the McAfee
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
@@ -77,15 +77,15 @@ As a user with the ServiceNow AI Platform security incident administrator role, 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
-As a user with the security incident administrator role, create a profile for McAfee ePO capabilities. For information about profiles, see [McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-creating-profiles.md). For the steps required to create a profile, see [Create a capability profile for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-create-profile.md).
+As a user with the security incident administrator role, create a profile for McAfee ePO capabilities. For information about profiles, see [McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-creating-profiles.md). For the steps required to create a profile, see [Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-create-profile.md).
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
@@ -94,11 +94,11 @@ As a user with the security incident administrator role, configure a profile and
 3.  Test and preview security incidents.
 4.  Locate search results and other details on the related lists on the security incident.
 5.  Create and Configure different types of profiles and test security incidents for each type.
- For information about triggering conditions and the alternate CI field, see [Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md). For the steps required to configure a profile, test, and preview security incidents and examples of profile types, see the examples that follow [Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md).
+ For information about triggering conditions and the alternate CI field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md). For the steps required to configure a profile, test, and preview security incidents and examples of profile types, see the examples that follow [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md).
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: Check box.
+Check box
 
 </td><td>
 
@@ -107,7 +107,7 @@ As a user with the ServiceNow AI Platform security incident analyst role, submit
 For more information on processing approval requests, see [Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-approval-group-mcafee.md).
 
 </td></tr></tbody>
-</table>    You have successfully completed the set up steps, installed and configured the application, and verified expected results for the integration.
+</table>    You have successfully completed the setup steps, installed and configured the application, and verified expected results for the integration.
 
 
 **Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcaffee-epo-overview-arch.md)

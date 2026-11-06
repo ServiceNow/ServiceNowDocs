@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/configure-po-map.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -40,31 +40,33 @@ This component offers similar content on any dashboard that you get from process
 
     When you select this element, it is added to the dashboard, and its configuration panel opens.
 
-4.  Under **Data** in the Process Mining - Map configuration panel, select a Process Mining project.
+4.  Under **Header and border**, set whether the map shows a header or a border, along with the chart title in the header and a description.
+
+5.  Under **Data** in the Process Mining - Map configuration panel, select a Process Mining project.
 
     You can only select a Process Mining project that you can access.
 
-5.  For the map to follow filters on the dashboard, select **Follow filters**.
+6.  For the map to follow filters on the dashboard, select **Follow filters**.
 
     For more information, see [Applying filters to Process Mining maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/applying-filters-to-process-optimization-maps.md).
 
-6.  Set the percentage of connections to show.
+7.  Set the percentage of connections to show.
 
     Connections are lines that show how the subjects of the mapped process change states. These lines end in arrows to show the direction of the change. They also have boxes that show the number of records that followed that path and the average time they spent in the earlier state before moving. For example, if a box in the middle of a connection says 505/5d, \[Omitted image "po-map-connection-detail.png"\] Alt text: Details box in the middle of a connection 505 records have followed this change in state, and the average time in the earlier state was 5 days.
 
     The most frequent changes are shown first. So if you accept the default 20%, only the 20% most frequent changes between states are shown. Too low a number results in too little data being shown on the map. Too high a number turns the map into a mass of spaghetti, with many rare changes between states that you might not care about.
 
-7.  Set the percentage of activities to show.
+8.  Set the percentage of activities to show.
 
     Activities, or nodes, are the possible states of the subject of the process. For example, if you are looking at Incidents, an incident can be in the Assigned state or the Work in progress state. Too many activities can clutter the map, but generally show as many as you can.
 
-8.  Animate the map by turning on **Case follow simulation**.
+9.  Animate the map by turning on **Case follow simulation**.
 
     When **Case follow simulation** is active, the solid lines of the connections are replaced by moving dashed lines. The speed at which the dashes move represents the speed at which objects move from one state to the next. The thickness of the dashes shows the relative amounts of traffic.
 
     \[Omitted image "po-map-animation.gif"\] Alt text: Process Mining map animated to show process flow speed
 
-9.  Specify the header and border settings, such as the title and description.
+10. Specify the header and border settings, such as the title and description.
 
 
 ## What to do next
@@ -78,7 +80,7 @@ Outside of editing mode, a user can expand the settings \[Omitted image "Cogwhee
 
 [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-mining.md)
 
-[Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md)
+[Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md)
 
 [Refining a process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyze-data.md)
 

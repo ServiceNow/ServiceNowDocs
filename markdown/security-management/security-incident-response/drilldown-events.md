@@ -1,5 +1,5 @@
 ---
-title: View LogRhythm drilldown events
+title: View LogRhythm drill down events
 description: View the related raw or base events for a LogRhythm alarm in the security incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/drilldown-events.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional configurations for the LogRhythm integration, LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# View LogRhythm drilldown events
+# View LogRhythm drill down events
 
 View the related raw or base events for a LogRhythm alarm in the security incident.
 
@@ -27,8 +27,6 @@ As a security analyst you can view the related raw or base events for a LogRhyth
 ## Procedure
 
 1.  Navigate to **All** &gt; **LogRhythm Integration** &gt; **LogRhythm Drilldown Events**.
-
-    The following illustration shows how to navigate to the **LogRhythm Drilldown Events** module, sort the list of events by **Group By Alarm ID**, and click the associated security incident. In the security incident, you can find the **LogRhythm Drilldown Events** tab in the related links.
 
 
 **Parent Topic:**[Additional configurations for the LogRhythm integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configure-system-and-troubleshooting-properties.md)

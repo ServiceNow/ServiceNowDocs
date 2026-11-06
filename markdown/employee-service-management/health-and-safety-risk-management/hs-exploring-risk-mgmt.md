@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -52,7 +52,7 @@ Health and Safety Risk Management provides safety incident prevention capabiliti
 
     Safety team members conduct safety inspections and audits at their establishments that involve the following activities:
 
-    -   Inspection or audit manager pre-builds surveys using Survey Designer and schedules safety inspections or audits in the Health and Safety Workspace.
+    -   Inspection or audit manager pre-builds smart assessment or surveys and schedules safety inspections or audits in the Health and Safety Workspace.
     -   Safety inspector or auditor walks around and conducts surveys through the Employee Center or on Now Mobile app.
 
         They can also complete the inspection or audit surveys offline on the Mobile Agent app. Surveys completed offline are synchronized once an internet connection is established.
@@ -89,7 +89,7 @@ Users
 
 </th></tr></thead><tbody><tr><td>
 
-Access Employee Center and Now Mobile app based tool that enables any worker to submit a Job safety analysis \(JSA\) easily. Employees can analyze their job safety at the point of work creating a JSA from scratch or start from a predefined job.
+Access Employee Center and Now Mobile app based app that enables any worker to submit a Job safety analysis \(JSA\) easily. Employees can analyze their job safety at the point of work creating a JSA from scratch or start from a predefined job.
 
 </td><td>
 
@@ -114,7 +114,7 @@ Risk manager
 
 </td></tr><tr><td>
 
-Access the safety risk assessment tool in the workspace to assess risks and implement effective risk mitigation strategies.​
+Access the safety risk assessment in the workspace to assess risks and implement effective risk mitigation strategies.​
 
 </td><td>
 
@@ -195,7 +195,7 @@ Empower a proactive and conformant safety practice through scheduled and ad-hoc 
 
 </td></tr><tr><td>
 
-Enable agents to complete inspection or audit surveys offline that are synchronized with the instance once an internet connection is restored.
+Enable agents to complete inspection or audit assessments offline that are synchronized with the instance once an internet connection is restored.
 
 </td><td>
 

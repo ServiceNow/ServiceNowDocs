@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Quick Links widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Portal Quick Links widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Quick Links widget
@@ -22,13 +22,13 @@ The UI Components for Customer Portals plugin must have been activated. For more
 
 If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
-Role required: sp\_admin or admin
+Role required: sp\_admin
 
 ## Procedure
 
 1.  Navigate to the **All** &gt; **Service Portal** &gt; **Service Portal Configuration**.
 
-2.  Select **Designers**.
+2.  Select **Designer**.
 
 3.  On the Service Portal Designer page, search for and select the page to which you want to add the widget.
 

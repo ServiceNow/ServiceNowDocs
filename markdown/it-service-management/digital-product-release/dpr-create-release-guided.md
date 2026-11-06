@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -39,7 +39,7 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 4.  In the **Release details** step, provide basic information about the release, including the release name, owner, and a brief description.
 
-5.  Select **Release validates a new product version** to determine whether the release validates a version.
+5.  Select **Validates product or service version** to determine whether the release validates a version.
 
     The versions and templates in the next step are determined by this field.
 
@@ -47,9 +47,9 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
     -   Templates with the validate version setting on are only available to select.
 6.  In the **Version details** step, select a product or service from the **Primary product or service** and select an existing version or enter a new version number.
 
-    The existing versions listed for a product or service are based on the **Release validates a new product version** field.
+    The existing versions listed for a product or service are based on the **Validates product or service version** field.
 
-    **Note:** If a new version number was entered, it’s automatically created and associated with the release.
+    **Note:** If a new version number is entered, it’s automatically created and associated with the release.When **Validates product or service version** is selected, the new version number must be unique for the product or service.
 
     Any Included products associated with the selected product or service are listed.
 
@@ -68,7 +68,9 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 7.  In the **Release template** step, select a release template to apply to the release.
 
-    The templates listed are based on the **Release validates a new product version** field. If it’s selected, the templates with the validate version setting on are only available to choose.
+    The templates listed are based on the **Validates product or service version** field. If it’s selected, the templates with the validate version setting on are only available to choose.
+
+    **Note:** When product-level release settings are configured, only the templates defined in the release settings are available for selection. For more information, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
 
     A release structure is generated based on the selected release template. For more information about a release template, see [Create a release template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-create-release-template.md).
 
@@ -79,6 +81,8 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
     A release target is needed for timeline-oriented releases, while it's not required for stage-oriented releases.
 
     1.  Select a release calendar.
+
+        **Note:** When product-level release settings are configured, only the calendars defined in the release settings are available for selection.
 
     2.  Select a release target date on the calendar.
 
@@ -93,9 +97,12 @@ Releases can follow a timeline-oriented and stage-oriented release process. For 
 
 -   One or more releases are created depending on the number of products or services selected:
 
-    -   If you selected a single product or service, one release is created. The release is opened in the Release Overview page.
+    -   If you selected a single product or service, one release is created. The release is opened in the Release Overview page. If the product has restricted access enabled, the restricted access setting and the product team are copied to the release as the initial release team.
     -   If you selected a primary product or service and added included products, the releases are created based on the value set in the **sn\_dpr.multi\_product.create\_independent\_releases** system property:
         -   When the property is set to false, a main release is created for the primary product or service and individual releases for each included product are created and added to the main release as dependent releases. The release is opened in the Release Dashboard page.
+
+            If the primary product has restricted access enabled, the restricted access setting and the product team are copied to the main release as the initial release team. The same setting is mirrored onto every included product release \(regardless of each product's own setting\). Only members of the set release team can view the release in the workspace. For more information, see [Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-product-release.md)
+
         -   When the property is set to true, a release bundle is created which contains all the individual releases created for the primary product or service and each included product. The release bundle is opened in the Release bundle's Overview page.
     In either case, the releases are created in the Pending state.
 

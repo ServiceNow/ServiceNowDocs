@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/update-validation-matrix.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring matrix validation rules, Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configure matrix validation rules, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Update validation settings in a matrix
@@ -16,11 +16,11 @@ Change the rule validation checks for a matrix. These checks run automatically w
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Context Rule Management** &gt; **Rule Matrices**.
 

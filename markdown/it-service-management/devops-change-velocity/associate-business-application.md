@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2026-02-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration with JFrog AppTrust application, JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---

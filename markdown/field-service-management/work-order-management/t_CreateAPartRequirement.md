@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Part requirements, Manage inventory in Field Service Management, Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create a part requirement
@@ -38,7 +38,7 @@ You can create a part requirement to request a part with or without the context 
 
 4.  Do one of the following.
 
-<table><tbody><tr><td id="d46313e180">
+<table><tbody><tr><td id="d50709e188">
 
 **Click __Source__.**
 
@@ -46,7 +46,7 @@ You can create a part requirement to request a part with or without the context 
 
 All tasks and part requirements are listed on the left. Point to any task or part requirement icon to obtain more information. Right-click a work order task and select **Create Part Requirement**. This method is useful if you are sourcing multiple parts for a work order task.
 
-</td></tr><tr><td id="d46313e195">
+</td></tr><tr><td id="d50709e203">
 
 **In the __Part Requirements__ related list, click __New__.**
 
@@ -77,11 +77,4 @@ This method is useful if you are sourcing a single part for a work order task.
 
     **Note:** Part requirement record numbers start with an **SOPR** prefix and the records are stored in the \[sm\_part\_requirement\] table in the Service Order Management application. Part requirements created in prior releases start with an **WOPR** prefix.
 
-
--   **[Copy a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_CopyAPartRequirement.md)**  
-Copy a part requirement to quickly create another, similar part requirement.
--   **[Delete a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_DeleteAPartRequirement.md)**  
-Delete a part requirement from a work order task.
-
-**Parent Topic:**[Part requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_PartRequirements.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create Microsoft Azure credentials for billing download
@@ -28,7 +28,7 @@ Starting with the Vancouver release, the Billing dashboard is no longer availabl
 
 If you have activated the Cloud Cost Management application, you can only navigate to the Billing Dashboard when you’re using Cloud Provisioning and Governance on a domain-separated instance.
 
-You must have an API Access Key credential for a Microsoft Enterprise Agreement EA for all Azure accounts that you want billing information for.
+You must have an API Access Key credential for an Enterprise Agreement \(EA\) for all Azure accounts for which you want billing information.
 
 Role required: sn\_cmp.cloud\_governor
 

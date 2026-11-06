@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the floor map, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
 # Map Indoor Mapping campus to a datacenter
@@ -41,7 +41,7 @@ After you create a Indoor Mapping campus record, you must map it to the datacent
 
 4.  Select the location record in the **CMN Location Campus** field.
 
-    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [53209e74a8bd46bceeee2a446f29624462ccc28d.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
+    If you don't have a location record for your datacenter location, create one. Make sure to use the same location as the datacenter you want to map. To learn more about how to create location record, see [0810b221422b5a22890dd24a84597bb15ddbc0d4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md).
 
 5.  Select **Update** to map the campus with the location record.
 
@@ -64,12 +64,12 @@ The Indoor Mapping campus record including buildings, floors, places are mapped 
 
 View the details of your datacenter infrastructure using the floor map. To learn more, see [View details of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/view-details-floor-map.md).
 
-**Parent Topic:**[Using the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
 [Synchronize Indoor Mapping with CMN Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sync-cmn-location.md)
 
-[Visualization of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
+[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 

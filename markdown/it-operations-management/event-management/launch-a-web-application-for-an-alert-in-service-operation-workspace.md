@@ -1,0 +1,37 @@
+---
+title: Launch a web application for an alert in Service Operations Workspace for ITOM
+description: Launch a web application that was configured in an alert management rule to quickly access necessary tools, improving response times and efficiency.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/launch-a-web-application-for-an-alert-in-service-operation-workspace.html
+release: yokohama
+product: Event Management
+classification: event-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Responding to and working with alerts in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+---
+
+# Launch a web application for an alert in Service Operations Workspace for ITOM
+
+Launch a web application that was configured in an alert management rule to quickly access necessary tools, improving response times and efficiency.
+
+## Before you begin
+
+Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  From the navigation bar, select the Express list icon \[Omitted image "express-list1.png"\].
+
+3.  Select the alert number to open it.
+
+    The alert opens in a separate tab, displaying the **Overview** subtab. In the right panel, the **Utilities** tab is selected by default.
+
+4.  In the Utilities section, select the web application to launch the app.
+
+    **Note:** For information on how to add a web application that can be launched, see [Create an alert management rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-alert-management-rule.md).
+
+

@@ -1,18 +1,18 @@
 ---
 title: Field Service Task Bundling components
-description: Several types of components are installed with the activation of the Field Service Task Bundling feature including business rules, task filters, and task grouping rules.
+description: Several types of components are installed with the activation of the Field Service Task Bundling feature including business rules, task filters and task grouping rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/task-bundling-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Field Service Task Bundling components
 
-Several types of components are installed with the activation of the Field Service Task Bundling feature including business rules, task filters, and task grouping rules.
+Several types of components are installed with the activation of the Field Service Task Bundling feature including business rules, task filters and task grouping rules.
 
 ## Business Rules
 
@@ -52,6 +52,31 @@ Field Service Task Bundling adds the following business rules.
 |Sync Bundle Work Duration to subtasks|Work Order Task \[wm\_task\]|Syncs bundle duration to the total estimated work duration of its subtasks.|
 |Validate Min &amp; Max Tasks|Task Grouping Policy \[sn\_task\_grouping\_policy\]|Validates that the number of subtasks in a bundle created from a policy falls between the policy minimum and maximum range.|
 |Work duration change on bundle|Work Order Task \[wm\_task\]|Validates that the subtask estimated work duration is less than the subtask duration of the bundle.|
+
+## Script Includes for Task Bundling
+
+The following script includes contain reusable code that supports the task bundling process, making scripts easier to maintain and update. To customize these script includes, see, [Advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customizations.md).
+
+|Script Includes|Description|
+|---------------|-----------|
+|BundleMatchingDimensionParts|Matches agents with parts for subtasks on a bundle.|
+|BundleMatchingDimensionSkillAdvanced|Advanced skill matching dimension for bundle tasks.|
+|BundleTaskFlowUtil|Utility functions for managing bundle task flows.|
+|BundleTaskSLA|Contains APIs for handling Bundle Task SLA functionality.|
+|DynamicBundlingAdvancedRuleScripts|Contains APIs used in advanced Task Grouping rules for use with Dynamic Bundling.|
+|FSMDynamicBundling|Main API for FSM Dynamic Bundling functionality.|
+|FSMDynamicBundlingAJAX|AJAX functions for FSM Dynamic Bundling.|
+|FSMDynamicBundlingAssignments|Contains APIs used to handle processing Dynamic Bundling during Dynamic Scheduling and Auto Assign flows.|
+|FSMDynamicBundlingUtil|Contains APIs used to handle various Dynamic Bundling functionality.|
+|FSMMobileBulkActionsConstants|Contains constant values used throughout the Task Bundling Mobile Bulk Actions APIs.|
+|FSMMobileBulkActionsUtil|Functions called from Mobile Bulk Actions configurations.|
+|FSMTaskBundle|Facilitates the creation and functionality of a Task Bundle.|
+|FSMTaskBundleAJAX|AJAX functions for FSM Task Bundle functionality.|
+|FSMTaskBundleCapacityUtil|Task Bundle capacity utility functions.|
+|FSMTaskBundleStateFlows|Contains APIs used to handle Task Bundle state changes and subtask state changes.|
+|MatchingDimensionRejectedTechnicianForBundle|Prevents selection of a technician who has rejected a subtask on a bundle.|
+|TaskBundlingConstants|Contains constant values used throughout the Task Bundling APIs.|
+|TaskGroupingFSMEP|Implements extension point sn\_task\_grouping.TaskGroupingEP.|
 
 ## Task Grouping Policies
 
@@ -93,6 +118,23 @@ Field Service Task Bundling adds the following task grouping rules.
 |WOT's That Need Same Asset Within Next 30 Days|Default Policy|Bundles tasks that require the same Asset within the next 30 days.|
 |WOT's With Similar Required Parts|Default Policy|Bundles tasks that require similar parts.|
 |WOT's With Similar Task Skills|Default Policy|Bundles tasks that require similar skills.|
+
+## Script includes for Task Grouping
+
+The following script includes contain reusable code that supports the task grouping process, making scripts easier to maintain and update. To customize these script includes, see, [Advanced configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customizations.md).
+
+|Script include|Description|
+|--------------|-----------|
+|TaskGroupingAJAX|Client callable utilities for Task Grouping.|
+|TaskGroupingConstants|Contains all constant values used by the Task Grouping APIs.|
+|TaskGroupingDefaultEP|Implements extension point sn\_task\_grouping.TaskGroupingEP. This is the default implementation.|
+|TaskGroupingDurationFields|Gets valid field choices for the duration field on Task Grouping Policies.|
+|TaskGroupingGroup|Creates a logical representation of a Task Grouping Group. The group object handles the grouping of items while honoring the group boundaries.|
+|TaskGroupingInitiator|Handles the initiation of the Task Grouping engine. Use initiateProcessing\(\) to create the events that start the task grouping engine.|
+|TaskGroupingLoggerUtil|Logger utility used to log the task grouping process.|
+|TaskGroupingPacker|Handles the packing of tasks into groups based on a set of boundaries.|
+|TaskGroupingProcessor|Handles the processing of Task Grouping Policies and Rules. Returns groups of tasks to be handled by other applications.|
+|TaskGroupingUtil|Utility functions used throughout the Task Grouping engine.|
 
 ## Task Filters
 
@@ -161,5 +203,15 @@ Reassigns unassigned task bundles.
 |Bundle: Matching Skills For Dynamic Scheduling|Matches bundles that have skill requirements with agents who have those skills.|
 |Bundle: Matching Mandatory Parts for Dynamic Scheduling|Matches bundles that have part requirements with agents who have those parts.|
 
+-   **[Field Service Task Bundling fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-task-bundling-fields.md)**  
+The fields that are included in the details section of work order task bundles.
+
 **Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
+
+**Related topics**  
+
+
+[Configuring Task Bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/configuring-fsm-task-bundling.md)
+
+[Activate Field Service Task Bundling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/activate-work-order-task-bundling.md)
 

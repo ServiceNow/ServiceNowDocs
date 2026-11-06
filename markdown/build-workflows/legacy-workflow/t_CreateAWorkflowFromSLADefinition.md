@@ -7,7 +7,7 @@ release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a workflow, Workflow management, Classic Workflow, Build workflows]
 ---
@@ -18,6 +18,7 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
 ## Before you begin
 
+-   You must have the snc\_required\_script\_writer\_permission and either the workflow\_admin or workflow\_creator role to use the Workflow Editor.
 -   If you’re designing the workflow as part of an update set process, see [Workflow movement with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/c_WorkflowMovementWithUpdateSets.md) before creating the workflow.
 
 ## Procedure
@@ -40,9 +41,9 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
 6.  Enter a **Name**.
 
-7.  Enter a **Description**.
+7.  \[Optional\] Enter a **Description**.
 
-8.  Edit the conditions fields as necessary.
+8.  \[Optional\] Edit the conditions fields as necessary.
 
 9.  Click **Submit**.
 
@@ -54,7 +55,7 @@ Automate a multi-step process by creating a workflow from an SLA definition.
 
     For more information, see [Work on workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/work-on-workflows.md).
 
-11. Change the advanced settings for the workflow by clicking the properties icon \(\[Omitted image "PropIcon.png"\] Alt text: Properties icon.\).
+11. \[Optional\] Change the advanced settings for the workflow by clicking the properties icon \(\[Omitted image "PropIcon.png"\] Alt text: Properties icon.\).
 
     If you make changes, click **Update**.
 

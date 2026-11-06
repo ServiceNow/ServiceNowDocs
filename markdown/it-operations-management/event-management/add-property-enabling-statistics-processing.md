@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View event processing statistics, Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [View event processing statistics, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Enable processing of event process statistics
@@ -38,8 +38,6 @@ Role required: evt\_mgmt\_admin
 
 3.  Select **Submit**.
 
-
-**Parent Topic:**[View event processing statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/monitor-event-processing-metrics.md)
 
 **Related topics**  
 

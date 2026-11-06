@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Predictive Intelligence for Legal Service Delivery, Predictive intelligence for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Predictive intelligence for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Use Predictive Intelligence for Legal Service Delivery
@@ -36,7 +36,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a General Legal Request or Ethics Complaints by selecting an option under **Legal Requests**.
 

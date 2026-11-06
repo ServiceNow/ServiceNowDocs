@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for Configuration Management Database \(CMDB\)
 classification: now-assist-for-configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, ServiceNow Otto for Configuration Management Database \(CMDB\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure the Search CMDB agentic workflow
@@ -41,10 +41,10 @@ Role required: sn\_query\_gen.admin
 
 To monitor the progress of an indexing task, refresh the Indexed Source History page. When the **Ingestion State** field shows **indexed**, indexing is complete. If the field shows **cancelled** or **error**, indexing didn't complete successfully.
 
-**Parent Topic:**[Configuring Now Assist for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
+**Parent Topic:**[Configuring ServiceNow Otto for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-cmdb-configuring.md)
 
 **Related topics**  
 
 
-[Use Now Assist to search the CMDB for CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md)
+[Use ServiceNow Otto to search the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-search.md)
 

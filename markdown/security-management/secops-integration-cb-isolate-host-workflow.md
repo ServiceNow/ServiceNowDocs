@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/secops-integration-cb-isolate-host-workflow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Isolate Host capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -22,14 +22,14 @@ Role required: sn\_si.analyst
 
 The flow process activities include:
 
--   [Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begins-cis-activity.md)
--   [Get IP from CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/get-ip-from-ci-activity.md)
+-   [Legacy: Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begins-cis-activity.md)
+-   [Get IP from CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 -   [Collect Carbon Black configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/collect-cb-config-activity.md)
--   [Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-failure.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-failure.md)
 -   [Get Sensor ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/get-sensor-id-activity.md)
 -   [Set Network Isolation Enabled activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 -   [Update Sensor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/update-sensor-activity.md) - returns Isolate Host result.
--   [Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-complete.md)
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-complete.md)
 
 \[Omitted image "carbon-black-integration-isolate-host-flow-v1.png"\] Alt text: Flow designer for Security Operations Carbon Black Integration - Isolate Host\[Omitted image "carbon-black-integration-isolate-host-flow-v1-2.png"\] Alt text: Flow designer for Security Operations Carbon Black Integration - Isolate Host
 

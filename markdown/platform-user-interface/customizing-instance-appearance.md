@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/customizing-instance-appearance.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -51,6 +51,8 @@ The following properties are available through UI Properties.
 
 In Core UI \(UI16\), CSS properties and how they affect the platform UI change depending on the release.
 
+**Note:** Settings configured from the Basic Configuration UI16 page are not applicable to instances with Next Experience enabled.
+
 <table id="table_xxt_5bk_11b"><thead><tr><th>
 
 CSS class
@@ -62,10 +64,6 @@ Description
 </th><th>
 
 How to configure
-
-</th><th>
-
-Affected area
 
 </th></tr></thead><tbody><tr><td>
 
@@ -79,10 +77,6 @@ Header background color
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Header background color**
 
-</td><td>
-
-\[Omitted image "HeaderBGColor.png"\] Alt text: Header background
-
 </td></tr><tr><td>
 
 $navpage-header-color
@@ -94,10 +88,6 @@ Color for header text and the global search icon
 </td><td>
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Banner text color**
-
-</td><td>
-
-\[Omitted image "BannerTextColor.png"\] Alt text: Banner text color
 
 </td></tr><tr><td>
 
@@ -111,10 +101,6 @@ Color for logged in user name text, and the global search Connect, Help, and set
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
 
-</td><td>
-
-\[Omitted image "HeaderButtonColor.png"\] Alt text: Header with User name and Connect, Help, and settings icons highlighted
-
 </td></tr><tr><td>
 
 $navpage-header-divider-color
@@ -126,10 +112,6 @@ Header divider color
 </td><td>
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Header divider stripe color**
-
-</td><td>
-
-\[Omitted image "BannerDividerColor.png"\] Alt text: Header divider striper
 
 </td></tr><tr><td>
 
@@ -144,10 +126,6 @@ Color for the following icons in the sidebars-   Expand/collapse
 </td><td>
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
-
-</td><td>
-
-\[Omitted image "ButtonColor.png"\] Alt text: Connect sidebar with arrow pointing to the plus icon
 
 </td></tr><tr><td>
 
@@ -164,10 +142,6 @@ Color for the following icons when a user points to the control:-   Global searc
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
 
-</td><td>
-
-\[Omitted image "ButtonHoverColor.png"\] Alt text: Point to the Help icon to show that it is blue when a user points to it\[Omitted image "ButtonColorHover2.png"\] Alt text: Point to Clear option in the Application Navigator to show that it is also blue on point to
-
 </td></tr><tr><td>
 
 $search-text-color
@@ -179,10 +153,6 @@ Color of the search text, both in the navigation filter and the global search fi
 </td><td>
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
-
-</td><td>
-
-\[Omitted image "SearchTextColor.png"\] Alt text: Search in application navigator showing "incident" in white
 
 </td></tr><tr><td>
 
@@ -196,10 +166,6 @@ Border color for the navigation filter and the conversation filter
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Border color for UI16**
 
-</td><td>
-
-\[Omitted image "BorderColor.png"\] Alt text: Filter navigator
-
 </td></tr><tr><td>
 
 $nav-highlight-main
@@ -211,10 +177,6 @@ Highlights the module after the user has clicked it. In the Connect workspace, h
 </td><td>
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
-
-</td><td>
-
-\[Omitted image "HighlightMain.png"\] Alt text: Selected conversation in the Connect Workspace showing the correct color
 
 </td></tr><tr><td>
 
@@ -228,10 +190,6 @@ Background for expanded navigation items
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Navigation background expanded items**
 
-</td><td>
-
-\[Omitted image "ExpandedBackgroundColor.png"\] Alt text: Application with expanded modules to show the difference in color
-
 </td></tr><tr><td>
 
 $navpage-nav-bg
@@ -243,10 +201,6 @@ Header and footer for navigator and sidebars.
 </td><td>
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Navigation header/footer**
-
-</td><td>
-
-\[Omitted image "NavigationBGColor.png"\] Alt text: Navigation
 
 </td></tr><tr><td>
 
@@ -260,10 +214,6 @@ Background for navigator and sidebars
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Background for navigators and sidebars**
 
-</td><td>
-
-\[Omitted image "FavoritesConnectBGColor.png"\] Alt text: Navigator, sidebars
-
 </td></tr><tr><td>
 
 $navpage-nav-color-sub
@@ -276,10 +226,6 @@ Text color for modules in the main navigation
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
 
-</td><td>
-
-\[Omitted image "NavColorSub.png"\] Alt text: Application navigator with Incident open and the modules beneath incident showing the text color is white
-
 </td></tr><tr><td>
 
 $navpage-nav-mod-text-hover
@@ -287,10 +233,6 @@ $navpage-nav-mod-text-hover
 </td><td>
 
 Text color when hovering over items in the main navigation
-
-</td><td>
-
-Not supported
 
 </td><td>
 
@@ -308,10 +250,6 @@ Navigator separator color
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Navigation separator color**
 
-</td><td>
-
-\[Omitted image "NavigationSeparatorColor.png"\] Alt text: Separators
-
 </td></tr><tr><td>
 
 $nav-highlight-bar-active
@@ -323,10 +261,6 @@ Line under the active tab in the application navigator. This color is also used 
 </td><td>
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Navigation selected tab divider bar color**
-
-</td><td>
-
-\[Omitted image "NavBarActive.png"\] Alt text: Application navigator with the All Applications tab selected and an arrow indicating the fact that the line under the tab is blue
 
 </td></tr><tr><td>
 
@@ -340,10 +274,6 @@ Line under the inactive tabs in the application navigator
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Navigation unselected tab divider bar color**
 
-</td><td>
-
-\[Omitted image "NavBarInactive.png"\] Alt text: Application navigator with the All Applications tab selected and an arrow point to the other tabs to indicate that the line is a different color
-
 </td></tr><tr><td>
 
 $navpage-nav-selected-bg
@@ -355,10 +285,6 @@ Navigation selected tab background color
 </td><td>
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Navigation selected tab background color**
-
-</td><td>
-
-\[Omitted image "NavigationSelectedTabBGColor.png"\] Alt text: Selected tab
 
 </td></tr><tr><td>
 
@@ -372,10 +298,6 @@ Currently selected Navigation tab icon color
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Currently selected Navigation tab color for UI16**
 
-</td><td>
-
-\[Omitted image "NavigationIconColor.png"\] Alt text: Navigation icon
-
 </td></tr><tr><td>
 
 $navpage-nav-unselected-color
@@ -387,10 +309,6 @@ Unselected navigation tab icon and favorite icons color
 </td><td>
 
 Navigate to **System Properties** &gt; **Basic Configuration UI16** &gt; **Unselected navigation tab icon and favorite icons color**
-
-</td><td>
-
-\[Omitted image "UnselectedNavIconColor.png"\] Alt text: Favorite icon color
 
 </td></tr><tr><td>
 
@@ -404,10 +322,6 @@ Color of the currently selected message in Connect
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
 
-</td><td>
-
-\[Omitted image "LatestMessageColor.png"\] Alt text: Connect sidebar with selected message pointed out by arrow
-
 </td></tr><tr><td>
 
 $nav-timeago-header-color
@@ -415,10 +329,6 @@ $nav-timeago-header-color
 </td><td>
 
 Timestamp header backgrounds in History tab
-
-</td><td>
-
-Not supported
 
 </td><td>
 
@@ -436,10 +346,6 @@ Core content text color for items such as applications and the empty state text 
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
 
-</td><td>
-
-\[Omitted image "MainNavText.png"\] Alt text: Application navigator with arrow pointing at Service Desk to show that the text is white
-
 </td></tr><tr><td>
 
 $navpage-nav-app-text-hover
@@ -451,10 +357,6 @@ Text color for a selected module
 </td><td>
 
 Add the CSS property to the CSS field of a theme. For more information, see [Create or customize a theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateOrCustomizeATheme.md).
-
-</td><td>
-
-\[Omitted image "SelectedModuleTextColor.png"\] Alt text: Incidents &gt; Open module selected to show the selected color
 
 </td></tr></tbody>
 </table>-   **[Configure logo, colors, and system defaults for Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_ConfigureLogoColorsSysDfltsUI16.md)**  

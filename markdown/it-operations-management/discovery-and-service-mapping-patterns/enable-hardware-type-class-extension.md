@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -77,14 +77,14 @@ The Cloud Hardware Type \[cmdb\_ci\_cloud\_hardware\_type\] table uses the objec
 
 **Previous topic:**[Activate a disabled pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.md)
 
-**Next topic:**[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
+**Next topic:**[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)
 
 **Related topics**  
 
 
-[Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
-[Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
+[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 
-[Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

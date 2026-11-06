@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Acknowledge enterprise assets in the recall order
@@ -28,9 +28,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 3.  Select the recall order that you want to acknowledge.
 
-4.  Select **Acknowledge Recall**.
-
-    The **Acknowledge Recall** button is available with Enterprise Asset Management version 9.0 and later.
+4.  Select **Acknowledge Recall**
 
     An Acknowledge task in the Open state is created and listed under the Recall Tasks tab.
 

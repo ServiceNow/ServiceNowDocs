@@ -1,24 +1,24 @@
 ---
 title: Case update notifications
-description: Contacts, consumers, and contributor users added to a case with the authorized representative responsibility can receive all email notifications that are also received by the primary contact of the case.
+description: Contacts, consumers, and contributor users assigned the Authorized Representative responsibility on a case receive all email notifications sent to the case’s primary contact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-update-notification-cam.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add related parties to a case, Using customer access management, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Add related parties to a case, Using customer access management, Customer management, Use, Customer Service Management]
 ---
 
 # Case update notifications
 
-Contacts, consumers, and contributor users added to a case with the authorized representative responsibility can receive all email notifications that are also received by the primary contact of the case.
+Contacts, consumers, and contributor users assigned the Authorized Representative responsibility on a case receive all email notifications sent to the case’s primary contact.
 
-Contacts added as additional contacts to the sold product with the Authorized Representative responsibility can receive all email notifications that are received by the primary contact of the case.
+Contacts added as additional contacts to the sold product with the Authorized Representative responsibility receive all email notifications sent to the case’s primary contact.
 
-Consumers added as an additional consumer to the sold product with the Authorized Representative responsibility can receive all email notifications that are received by the primary consumer of the case.
+Consumers added as an additional consumer to the sold product with the Authorized Representative responsibility receive all email notifications sent to the case's primary consumer.
 
-Internal users added as related parties to the case with the Authorized Representative responsibility can receive all email notifications that are received by the primary contact or consumer of the case.
+Internal users added as related parties to a case with the Authorized Representative responsibility receive all email notifications sent to the case’s primary contact or consumer.
 
 For case resolved emails, related parties with the Authorized Representative responsibility can accept or reject the proposed solution. The responses of emails from related parties are treated similarly to the primary contact or consumer on the case. For more information, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateANotification.md).
 

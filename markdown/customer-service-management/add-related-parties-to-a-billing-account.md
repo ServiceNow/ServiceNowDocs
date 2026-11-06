@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Add related parties to a billing account
@@ -117,9 +117,11 @@ The **Responsibility** field is left empty for any listed party type, such as li
 **Related topics**  
 
 
-[Granular roles and supported entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/granular-roles-and-supported-entities-CAM.md)
+[Granular roles and entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/granular-roles-and-supported-entities-CAM.md)
 
 [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateAResponsibilityDefinition.md)
+
+[Creating a responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/creating-responsibility-access-configuration.md)
 
 [Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/declarative-resposibility-framework.md)
 

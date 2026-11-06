@@ -7,9 +7,9 @@ release: yokohama
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create feedback filters in Strategic Planning
@@ -29,8 +29,6 @@ Project managers can retain the feedback filters, share them with team members o
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
 
 2.  Select **Feedback** and then select **New filter** to create a new filter.
-
-    \[Omitted image "product-feedback-filters.gif"\] Alt text: Animated tour of the feedback filters in Feedback application.
 
 3.  On the form, fill in the **Feedback filter name**.
 

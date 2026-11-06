@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
@@ -234,115 +234,34 @@ Description
 
 Brief description of the contract.
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr></tbody>
+</table>|Field|Description|
+|-----|-----------|
+|Rentable area|Total rentable area of the leased premises.|
+|Unit of measurement|Units of the rentable area and useable area.|
+|Useable area|Total usable area of the leased premises.|
 
-Area
+|Field|Description|
+|-----|-----------|
+|Payment schedule|Schedule that defines when to make payments, for example, Monthly or Annually.|
+|Payment amount|Amount that has been paid on the contract to date.|
+|Total cost|Final cost of the contract after adjustments have been applied.|
+|Yearly cost|Yearly cost of the contract.|
+|Vendor account|Vendor account associated with the contract.|
+|PO number|Purchase order number assigned to the contract.|
+|Cost center|Cost center that is financially responsible for the asset.|
+|Security deposit|The returnable sum paid to the lessor to cover for possible loss or damage.|
+|Has rate card|Option to indicate whether the contract has an associated rate card.|
 
-</td></tr><tr><td>
+<table id="table_amb_23p_fgc"><thead><tr><th>
 
-Rentable area
+Field
 
-</td><td>
+</th><th>
 
-Total rentable area of the leased premises.
+Description
 
-</td></tr><tr><td>
-
-Unit of measurement
-
-</td><td>
-
-Units of the rentable area and useable area.
-
-</td></tr><tr><td>
-
-Useable area
-
-</td><td>
-
-Total usable area of the leased premises.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Financial section
-
-</td></tr><tr><td>
-
-Payment schedule
-
-</td><td>
-
-Schedule that defines when to make payments, for example, Monthly or Annually.
-
-</td></tr><tr><td>
-
-Payment amount
-
-</td><td>
-
-Amount that has been paid on the contract to date.
-
-</td></tr><tr><td>
-
-Total cost
-
-</td><td>
-
-Final cost of the contract after adjustments have been applied.
-
-</td></tr><tr><td>
-
-Yearly cost
-
-</td><td>
-
-Yearly cost of the contract.
-
-</td></tr><tr><td>
-
-Vendor account
-
-</td><td>
-
-Vendor account associated with the contract.
-
-</td></tr><tr><td>
-
-PO number
-
-</td><td>
-
-Purchase order number assigned to the contract.
-
-</td></tr><tr><td>
-
-Cost center
-
-</td><td>
-
-Cost center that is financially responsible for the asset.
-
-</td></tr><tr><td>
-
-Security deposit
-
-</td><td>
-
-The returnable sum paid to the lessor to cover for possible loss or damage.
-
-</td></tr><tr><td>
-
-Has rate card
-
-</td><td>
-
-Option to indicate whether the contract has an associated rate card.
-
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Renewal/Extension section
-
-</td></tr><tr><td>
+</th></tr></thead><tbody><tr><td>
 
 Automatically renew/extend
 

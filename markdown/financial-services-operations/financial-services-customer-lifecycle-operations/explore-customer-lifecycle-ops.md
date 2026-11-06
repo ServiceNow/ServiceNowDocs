@@ -1,5 +1,5 @@
 ---
-title: Exploring Financial Services Customer Lifecycle Operations
+title: Explore Financial Services Customer Lifecycle Operations
 description: You can use Financial Services Customer Lifecycle Operations to simplify and streamline the management of business and consumer accounts throughout their entire customer life cycle.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/explore-customer-lifecycle-ops.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
-# Exploring Financial Services Customer Lifecycle Operations
+# Explore Financial Services Customer Lifecycle Operations
 
 You can use Financial Services Customer Lifecycle Operations to simplify and streamline the management of business and consumer accounts throughout their entire customer life cycle.
 

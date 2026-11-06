@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -31,7 +31,7 @@ If **glide.live\_feed.custom\_journal.acl\_check\_enabled** is not set to the re
 |Configuration type|Boolean.|
 |Security risk|\(Moderate\) When set to true, only the custom journal entries which pass ACL will be shown in Live Feed, otherwise, all users will be able to see all journal entries.|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

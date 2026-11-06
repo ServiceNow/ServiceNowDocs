@@ -1,32 +1,26 @@
 ---
-title: Enable and Configure Restart for Playbooks
-description: Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
+title: Configure restart for Playbooks
+description: Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/enable-define-restart.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Restart, Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Enabling playbook restart, Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Enable and Configure Restart for Playbooks
+# Configure restart for Playbooks
 
-Configure your playbook so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
+Configure restart so that agents and fulfillers in Playbook Experience can restart a playbook from the beginning, or from a specific stage or activity.
 
 ## Before you begin
 
 Role required: pd\_author
 
-When you open an existing playbook in Workflow Studio for the first time after upgrading to the Process Automation Designer 25.1.2 ServiceNow Store app, a banner message notifies you to enable restart for your playbook. You must enable the restart feature before you can perform the task below.
-
-\[Omitted image "restart-enable-message.png"\] Alt text: Restart notification in Workflow Studio
-
-This message only displays for existing playbooks. Restart is automatically enabled for new playbooks and does not change any other features and functions.
-
-**Note:** Once enabled, restart cannot be disabled. If you don't want agents to be able to restart a playbook or the activities and stages in a playbook, do not perform the following task.
+**Note:** Once restart is enabled for a playbook, it cannot be disabled. If you don't want agents to be able to restart a playbook or its activities and stages, do not perform the following task.
 
 ## Procedure
 
@@ -44,7 +38,7 @@ This message only displays for existing playbooks. Restart is automatically enab
 
         The **Additional Properties** modal displays.
 
-    4.  At the bottom of the **General** tab, check the **Allow this process to be restarted during runtime** box.
+    4.  At the bottom of the **General** tab, select the **Allow this process to be restarted during runtime** box.
 
         \[Omitted image "restart-playbook-setting.png"\] Alt text:
 
@@ -56,29 +50,21 @@ This message only displays for existing playbooks. Restart is automatically enab
 
     **Note:** Restart settings for a stage do not apply to its activities. Each activity also has its own restart settings.
 
-    1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**.
+    1.  In the Playbooks builder, open the stage or activity you want to configure restart settings for.
 
-        The Playbooks list displays.
-
-    2.  Open the playbook you want to configure stage or activity restart settings for.
-
-        The Playbooks builder displays.
-
-    3.  Open the stage or activity you want to configure restart settings for.
+    2.  Under **Restart rules**, select what you want the stage or activity to do when restarted.
 
         \[Omitted image "playbooks-restart-rules.png"\] Alt text: Activity and stage restart rules in the side panel
 
-    4.  Select what you want the stage or activity to do when restarted.
-
-<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d110606e284">
+<table id="choicetable_kcx_5sn_tzb"><thead><tr><th align="left" id="d119428e202">
 
 Rule
 
-</th><th align="left" id="d110606e287">
+</th><th align="left" id="d119428e205">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110606e293">
+</th></tr></thead><tbody><tr><td id="d119428e211">
 
 **Skip on restart**
 
@@ -86,7 +72,7 @@ Description
 
 The stage or activity only runs during a playbook's initial run. It never runs during a restarted run.**Note:** This setting is helpful if you don't want new tasks or records to be created during a restarted run, because the original execution and resulting record is still relevant.
 
-</td></tr><tr><td id="d110606e307">
+</td></tr><tr><td id="d119428e225">
 
 **Run always**
 
@@ -94,7 +80,7 @@ The stage or activity only runs during a playbook's initial run. It never runs d
 
 The stage or activity always runs, whether during an initial or restarted run.
 
-</td></tr><tr><td id="d110606e316">
+</td></tr><tr><td id="d119428e234">
 
 **Skip on first run**
 
@@ -120,5 +106,5 @@ The stage or activity runs only during restarted runs. It never runs during an i
     \[Omitted image "restart-playbook-pe.png"\] Alt text: Restart playbook button in context menu in Playbook preview
 
 
-**Parent Topic:**[Restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/restart.md)
+**Parent Topic:**[Enabling playbook restart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/restart.md)
 

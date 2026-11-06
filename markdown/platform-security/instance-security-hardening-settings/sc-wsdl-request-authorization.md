@@ -1,5 +1,5 @@
 ---
-title: Require authorization for WSDL request \[Updated in Security Center 1.3 and 1.5\]
+title: Require authorization for WSDL request
 description: Use the glide.basicauth.required.wsdl property to designate if incoming WSDL \(Web Services Description Language\) requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-wsdl-request-authorization.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for WSDL request \[Updated in Security Center 1.3 and 1.5\]
+# Require authorization for WSDL request
 
 Use the **glide.basicauth.required.wsdl** property to designate if incoming WSDL \(Web Services Description Language\) requests should require basic authentication.
 
-If **glide.basicauth.required.wsdl** is not set to the recommended value of true, then , then this will disable Basic Authentication for WSDL requests. WSDL is a protocol that is used to describe web services such as instance table schemas, and is not a mechanism for sharing the data within tables. Setting this property to true allows for disclosure of table schemas to unauthenticated users.
+If **glide.basicauth.required.wsdl** system property is not set to the recommended value of **true**, then Basic Authentication for WSDL requests are turned off. WSDL is a protocol that is used to describe web services such as instance table schemas, and is not a mechanism for sharing the data within tables. Setting this property to **true** allows for disclosure of table schemas to unauthenticated users.
+
+Ensure the property **glide.basicauth.required.wsdl** exists in the System Properties \[sys\_properties\] table and is set to **true**.
 
 **Note:** If you choose not to require basic authentication for incoming WSDL requests, you must modify Access Control \(ACL\) rules to enable guest users to access the WSDL content.
 
@@ -34,7 +36,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -50,19 +52,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To enforce basic authentication on WSDL requests.
+Boolean
 
 </td></tr><tr><td>
 
@@ -74,15 +68,41 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Default value
 
 </td><td>
 
-5.3
+true
 
 </td></tr><tr><td>
 
-Functional Impact
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 5.3
+-   CVSS rating: Medium
+-   Security risk details: Unauthenticated access to WSDL Requests, when combined with misconfigured guest user role, poses a risk of unauthorized table schema exposure.
+
+</td></tr><tr><td>
+
+Functional impact
 
 </td><td>
 
@@ -91,19 +111,11 @@ This remediation enforces a combination of authentication methods, in the form o
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(Medium\) Without appropriate authorization configured on the WSDL web services, an unauthorized user can get access to sensitive WSDL content/data on the target instance.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Web service security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_WebServiceSecurity.md)
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)

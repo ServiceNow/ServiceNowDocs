@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Walk-up Experience appointment booking configuration

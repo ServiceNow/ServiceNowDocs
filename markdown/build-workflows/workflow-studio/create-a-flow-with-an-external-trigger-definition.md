@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow with an external trigger
@@ -21,6 +21,8 @@ Set up a flow with a base system external trigger definition. The flow responds 
 Role required: flow\_designer or admin
 
 Subscription required: This feature requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
+
+Ensure that you've configured the external trigger endpoints for the third-party application spoke. For more information about configuring the third-party spoke, see [Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-external-webhook-endpoints.md).
 
 ## Procedure
 

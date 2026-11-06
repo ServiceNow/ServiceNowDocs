@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-account-opportunities-action.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Create Salesforce spoke actions to retrieve opportunities for use in the remote table definition, Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Retrieve opportunities, Using remote tables and the Salesforce spoke, Reference Salesforce integration using remote tables, Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Get Opportunities for Account Id custom action
@@ -56,5 +56,5 @@ The pre-processing output is a query, similar to the **Get All Opportunities** a
 
 These steps and outputs are the same as for the **Get All Opportunities** action.
 
-**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities for use in the remote table definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-integration-salesforce-spoke.md)
+**Parent Topic:**[Create Salesforce spoke actions to retrieve opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-integration-salesforce-spoke.md)
 

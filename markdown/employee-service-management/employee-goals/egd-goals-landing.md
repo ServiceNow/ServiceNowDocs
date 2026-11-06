@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Goals
 classification: employee-goals
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Talent Development, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Goals
@@ -43,16 +43,11 @@ The ServiceNow® Employee Goals application lets employees view and track their 
  
 
 </td></tr></tbody>
-</table>-   **[Exploring Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-explore.md)**  
-The Employee Goals application provides employees and managers with visibility into business goals set by your organization and personal goals that are specific to an employee. This application helps employees cultivate their goals into growth plans to bolster the talent in your organization.
--   **[Installing and configuring Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-install-config.md)**  
-Install the Employee Goals application to import the goal management data stored on your human capital management \(HCM\) system to the ServiceNow AI Platform®. When configuration options are available, administrators can configure components of the application to meet the specifications of your organization.
--   **[Integrations for Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-integrate.md)**  
-Extend the Employee Goals application's capabilities by integrating with your organization's human capital management \(HCM\) system to make employee goals accessible while using the Talent Development suite of applications.
--   **[Using Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-using.md)**  
-Use the Employee Goals app to access goal management data across several applications in the Talent Development suite.
--   **[Employee Goals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-reference.md)**  
-Reference topics provide additional information about the components and forms associated with the Employee Goals application.
+</table>## Additional resources
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 

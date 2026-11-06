@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,8 +39,6 @@ Role required: none
     By default, 7 replies are visible for each message. Any reply to a reply includes a **Threads** link.
 
 7.  Click **Threads** to view all of the replies within the selected reply in reverse chronological order within the **Message Thread** pop-up window, similar to an email thread.
-
-    \[Omitted image "MessageThread.png"\] Alt text: Message thread
 
 
 **Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)

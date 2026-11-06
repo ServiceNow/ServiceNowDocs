@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Evaluation dashboard References, Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation dashboard reference, AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Components installed with the Evaluation dashboard
@@ -309,9 +309,7 @@ evalUtils
 Primary Utility function for the Evaluator.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Evaluation dashboard References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-references.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Remote tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/remote-tables.md)

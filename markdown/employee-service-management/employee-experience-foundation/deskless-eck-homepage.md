@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Use Employee Center Pro Kiosk
@@ -30,12 +30,14 @@ As an EC Pro Kiosk user \(sn\_ex\_sp\_pro\_kiosk.user\), you can easily navigate
 
 You can send useful information such as **Schedule** or **Article** to self as an email or SMS.
 
-\[Omitted image "deskless-sms-email-sample.png"\] Alt text: send to self mail option and samples
+
 
 1.  Options to select from **Send as Email** or **Send as SMS**.
 2.  Sample mail template for the required article.
 3.  Sample SMS template for the schedule information.
 4.  Sample mail template for the schedule information.
 
-For more information, see [Employee Center Pro Kiosk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md) and [Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md).
+For more information, see [Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md) and [Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md).
+
+**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 

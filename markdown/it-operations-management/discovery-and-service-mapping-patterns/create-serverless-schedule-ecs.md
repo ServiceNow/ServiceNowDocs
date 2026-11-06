@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Amazon ECS resource, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Amazon ECS resource, AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Create a serverless schedule for Amazon ECS discovery
@@ -18,7 +18,8 @@ Create a serverless schedule to discover Amazon Elastic Container Service \(Amaz
 
 ## Before you begin
 
-Verify you have an AWS service account ID and have created AWS credentials. For more information, see the prerequisites section in [Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md).
+-   Verify you have an AWS service account ID and have created AWS credentials. For more information, see the prerequisites section in [Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md).
+-   Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns.
 
 Role required: discovery\_admin
 
@@ -82,7 +83,7 @@ Discovering ECR resources requires running the Amazon AWS - ECS pattern before u
 
 Either execute discovery immediately by selecting **Discover now** or wait until the predefined schedule triggers the discovery.
 
-**Parent Topic:**[Amazon ECS resource discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-ecs-fargate-discovery.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
 **Related topics**  
 

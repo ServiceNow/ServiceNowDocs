@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Evaluating software usage activity for Microsoft 365 subscriptions
@@ -27,9 +27,9 @@ The following table lists the sources for collecting the software usage activity
 |Microsoft Graph APIs|Desktop, Web, Mobile|Outlook, Word, PowerPoint, Excel, OneNote, Teams, Exchange Online, SharePoint Online, Power BI|
 |Microsoft SCCM or ACC-V|Desktop|Microsoft Office 365 apps for Enterprise|
 |Jamf for macOS devices|Desktop|Microsoft Office 365 apps for Enterprise|
-|Manual upload of the usage reports on the ServiceNow instance from the Microsoft Office 365 admin center|Desktop, Web, Mobile|Microsoft 365 Copilot, Visio Online, and Project Online|
+|Manual upload of the usage reports on the ServiceNow instance from the Microsoft Office 365 admin center|Desktop, Web, Mobile|Microsoft 365 Copilot, Visio Online, Planner, and Project|
 
-**Note:** You can download the usage for Microsoft 365 Copilot, Visio Online, and Project Online from the Microsoft Office 365 admin center. For details, see [Upload the Microsoft 365 Copilot, Visio Online, and Project Online usage reports to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/upload-usage-reports-copilot-visio-project.md).
+**Note:** You can download the usage for Microsoft 365 Copilot, Visio Online, and Project Online from the Microsoft Office 365 admin center. For details, see [Upload the Microsoft 365 Copilot, Visio Online, Planner, and Project usage reports to your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/upload-usage-reports-copilot-visio-project.md).
 
 After completing the [Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/integrate-with-microsoft.md), you can view the usage activity information using any of the following tables:
 
@@ -49,6 +49,10 @@ Based on the software usage activity, Software Asset Management generates optimi
 ## License optimization for Microsoft subscriptions
 
 Software usage activity helps you with license optimization by discovering reclamation candidates from both the individual Microsoft products and the Microsoft 365 suite subscriptions. For more information, see [Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/pub-opt-microsoft.md). The  **SAM - Collect Microsoft 365 Usage ** scheduled job collects the usage data daily and the  **SAM - Create New Reclamation Candidates for Office 365 Integration**  generates the removal candidates weekly for low usage, downgrade, consolidated, and overlapping subscriptions. You can determine the reclamation candidates using both APIs and discovery solutions.
+
+-   **Overlapping subscriptions**
+
+    Overlapping Microsoft 365 integration subscriptions occur when a user or organization has several active subscriptions that provide the same or similar services at the same time. For example, both Microsoft 365 E3 and Office 365 E3 subscriptions exist, leading to unnecessary duplicate access to Office applications and additional services already included in Microsoft 365 E3. Software Asset Management recommends reclaiming the Office 365 E3 subscriptions and using the Microsoft 365 E3 subscriptions instead.
 
 -   **Low usage subscriptions**
 
@@ -94,7 +98,7 @@ No desktop usage
 -   Microsoft 365 Enterprise E3 to Microsoft 365 Enterprise E1
 -   Microsoft 365 A3 for Students to Microsoft 365 A1 for Students
 -   Microsoft 365 A3 for Faculty to Microsoft 365 A1 for Faculty
-
+ **Note:** For Microsoft 365 E3 to Microsoft 365 F3 downgrade, the user's mailbox and OneDrive size is also checked after checking the desktop usage.
 
 </td></tr><tr><td>
 
@@ -108,18 +112,24 @@ User is a Shared Email Box
 -   Microsoft Office 365 Enterprise E5 to Microsoft Exchange Online Plan 2
  **Note:** When the user is a shared email box, you can select the type of user as **Shared Email Box** in the **Non-person Account** field in the Discovered Users form.
 
+</td></tr><tr><td>
+
+Microsoft Exchange Online \(mailbox\) and Microsoft OneDrive size
+
+</td><td>
+
+Microsoft 365 E3 to Microsoft 365 F3If a user's mailbox size and OneDrive size is less than two gigabytes \(GB\), a downgrade recommendation is generated. The usage is retrieved from the Software storage usage \[saas\_sw\_storage\_usage\] table. For more information, see [Software storage usage fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-storage-usage.md).
+
 </td></tr></tbody>
 </table>    Additionally, you can view the Microsoft 365 and Office 365 downgrade candidates, including details about the source edition and the target edition in the [Subscription downgrade configuration \[saas\_downgrade\_configuration\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/saas-downgrade-configuration.md) table.
+
+    You can view the conditions for downgrading the Microsoft 365 and Office 365 subscriptions in the [Subscription downgrade configuration condition \[saas\_downgrade\_config\_condition\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/saas-downgrade-config-conditions.md) table.
 
     **Note:** You can also determine usage for Microsoft Access and Publisher from additional discovery solutions, such as Microsoft SCCM or ACC-V for E3 to E1 optimization. Here, the frequency of downgrade candidate generation from E3 to E1 would be monthly instead of weekly.
 
 -   **Consolidated subscriptions**
 
     Consolidating Microsoft 365 integration subscriptions means merging multiple separate subscriptions into one unified subscription. This approach brings all licenses and services under a single account which helps in saving cost, easier track usage, and license assignments. For example, if Office 365 Enterprise E5, Windows, and EMS subscriptions exist, Software Asset Management recommends using a single license such as Microsoft 365 Enterprise E5 to cover these multiple products at a lower cost.
-
--   **Overlapping subscriptions**
-
-    Overlapping Microsoft 365 integration subscriptions occur when a user or organization has several active subscriptions that provide the same or similar services at the same time. For example, both Microsoft 365 E3 and Office 365 E3 subscriptions exist, leading to unnecessary duplicate access to Office applications and additional services already included in Microsoft 365 E3. Software Asset Management recommends reclaiming the Office 365 E3 subscriptions and using the Microsoft 365 E3 subscriptions instead.
 
 
 Additionally, the subscription assignment date that is automatically populated from the Microsoft 365 portal helps in generating the reclamation candidates for individual subscriptions. Using the subscription assignment date instead of the record creation date on the ServiceNow AI Platform helps to create correct reclamation candidates based on the actual use from the Microsoft 365 portal.

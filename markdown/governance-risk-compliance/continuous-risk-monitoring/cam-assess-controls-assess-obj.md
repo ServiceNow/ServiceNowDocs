@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Implementing controls and assessment objectives in CAM, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Generate assessment procedure plans for a test plan

@@ -7,16 +7,14 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Structural overview of Policy and Compliance Management
 
 The structural overview of Policy and Compliance Management enables you to understand how the different modules that make up the Policy and Compliance Management application of ServiceNow integrate and interact with one another.
-
-\[Omitted image "p-c-process-flow-comp-updte-ovrv.png"\] Alt text: Infographic for structural process flow of the modules in Policy and Compliance. For text description refer to the steps in the process flow.
 
 -   **Authority document**
 

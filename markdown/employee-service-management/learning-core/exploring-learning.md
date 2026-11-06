@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-02-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learning, Talent Development, Employee Service Management]
+breadcrumb: [Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Exploring Learning
@@ -65,11 +65,4 @@ To learn more about configuring and using , see:
 -   [Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/configuring-learning.md)
 -   [Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manage-your-learning.md)
 -   [Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-experience-reference.md)
-
--   **[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp.md)**  
-My Learning is a new and modern user portal that enables you to pursue courses that help you grow in all aspects of your career.
--   **[Learning integration with Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/skills-intelligence-lxp.md)**  
-Skills Foundation integrates with Learning to introduce skills-driven learning search results; recommend and suggest courses based on a learner's skills.
-
-**Parent Topic:**[Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning-exp.md)
 

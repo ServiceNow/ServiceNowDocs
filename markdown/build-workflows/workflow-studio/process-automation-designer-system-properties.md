@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbooks system properties
@@ -24,6 +24,4 @@ The following system properties relate to the Playbooks configuration:
 |--------|-----------|
 |com.glide.event\_manager.process\_automation.claim\_limit|Number of Process Automation events that the event handler can process in a single transaction|
 |sn\_agent\_workspace.default\_view\_editable\_tables|Default table views, as a comma-separated list, that you want to allow Workspace to render within a playbook card during runtime|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

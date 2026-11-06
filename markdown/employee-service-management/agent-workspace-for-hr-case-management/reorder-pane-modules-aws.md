@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Reorder the navigation pane modules in HR Agent Workspace
@@ -18,7 +18,7 @@ Quickly access the navigation pane modules in HR Agent Workspace. For example, H
 
 ## Before you begin
 
-Role required: admin or ui\_builder\_admin
+Role required: ui\_builder\_admin
 
 ## Procedure
 

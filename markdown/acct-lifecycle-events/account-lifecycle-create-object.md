@@ -1,22 +1,22 @@
 ---
-title: Create a success objective
+title: Add a success objective
 description: Create a success objective that represents the value of the products sold to the customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-object.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success objective
+# Add a success objective
 
 Create a success objective that represents the value of the products sold to the customer.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
@@ -24,9 +24,9 @@ A success objective represents that value of one or more products purchased by t
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Objectives** and click **New**.
+2.  Navigate to the **Customer Success** &gt; **All Objectives** and select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -60,7 +60,7 @@ Engagement
 
 </td><td>
 
-Select the engagement record to which the objective is to be related. This is a mandatory field.
+Select the engagement record to which the objective is to be related. This is a required field.
 
 </td></tr><tr><td>
 
@@ -100,7 +100,7 @@ State
 
 </td><td>
 
-State of the engagement record. This can be:-   New
+State of the engagement record.-   New
 -   Define
 -   In progress
 -   Canceled
@@ -113,7 +113,7 @@ Progress
 
 </td><td>
 
-Current progress of this objective. This can be:-   Not Started
+Current progress of this objective.-   Not Started
 -   On-Track
 -   At Risk
 -   Paused
@@ -127,7 +127,7 @@ Priority
 
 </td><td>
 
-Priority of this objective in comparison to others. This can be:-   Critical
+Priority of this objective in comparison to others.-   Critical
 -   High
 -   Medium
 -   Low
@@ -140,7 +140,7 @@ Planned start
 
 </td><td>
 
-Date which the work towards this objective is scheduled to start.
+Date on which the work for this objective is scheduled to start.
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Planned stop
 
 </td><td>
 
-Date which the work towards this objective is scheduled to stop.
+Date on which the work for this objective is scheduled to stop.
 
 </td></tr><tr><td>
 
@@ -156,7 +156,7 @@ Title
 
 </td><td>
 
-Enter a title for this objective. This is a mandatory field.
+Enter a title for this objective. This is a required field.
 
 </td></tr><tr><td>
 
@@ -180,7 +180,7 @@ Description
 
 </td><td>
 
-Enter a description for this objective. This is a mandatory field.
+Enter a description for this objective. This is a required field.
 
 </td></tr><tr><td>
 
@@ -191,6 +191,12 @@ Work notes
 Any internal notes regarding this objective.
 
 </td></tr></tbody>
-</table>4.  Click **Save** to create a new success objective.
+</table>4.  Select **Save** to create a success objective.
 
+
+## What to do next
+
+Add one or more success outcomes to measure the achievement of this objective. See [Add a primary success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-outcome.md).
+
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

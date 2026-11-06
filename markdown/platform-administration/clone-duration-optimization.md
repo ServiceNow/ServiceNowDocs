@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/clone-duration-optimization.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,9 +22,9 @@ When creating a clone request, consider the following guidelines.
 
     **Note:** The `Last 90 days` option can increase duration, as it takes longer to remove records from the task table that are older than 90 days after restoration.
 
--   Don't exclude large tables.
+-   Selecting Exclude Attachment Data on the clone request form can add to your clone duration.
 -   Don't preserve large amounts of data in your request. If you must preserve table data, such as users, groups, and roles, consider exporting the records to a file and importing them after cloning.
--   Add conditions to the preservers configured for the clone request.
+-   Add conditions to the preservers configured for the clone request to only preserve the data that you need.
 -   Use clone chaining to split up your request, see [Clone terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/clone-terminology.md).
 
 **Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/instance-clone-reference.md)

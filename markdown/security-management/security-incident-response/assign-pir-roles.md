@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Manage post incident activities, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,9 +30,7 @@ Role required: admin
 
 4.  Assign one or more roles for this category of questions.
 
-    \[Omitted image "pirRoles.png"\] Alt text: Post Incident Review roles
-
-5.  Click **Update**.
+5.  Select **Update**.
 
 6.  Navigate to **User Administration** &gt; **Users**.
 

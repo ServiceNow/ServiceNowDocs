@@ -7,9 +7,9 @@ release: yokohama
 product: Decision Tables
 classification: decision-tables
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Decision tables in the classic environment, Decision Tables, Builder library, Developing your application, Building applications]
+breadcrumb: [Decision tables in the classic environment, Decision Tables, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a decision table to resolve complex decisions
@@ -185,7 +185,7 @@ Default value for this input.
 
 ## What to do next
 
-With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see .
+With Workflow Studio, you can add your decision to the **Make a decision** flow logic. For more information about the **Make a decision** flow logic, see [Make a decision flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-logic-make-decision.md).
 
 **Parent Topic:**[Decision tables in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/decision-tables/decision-tables-classic-ui.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,10 +24,6 @@ You can use record feeds to do the following:
 -   Improve visibility into progress for end users.
 -   Provide a single place to see updates on multiple records.
 -   Save feed history in the record so that knowledge is not lost in an email chain.
-
-\[Omitted image "LiveFeedDocument.png"\] Alt text: An incident shown in the Live Feed interface.
-
-**Note:** Many of these features are part of Live Feed v2.
 
 -   **[Activate the Live Feed Document plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/t_ActivateLiveFeedDocument.md)**  
 The Live Feed Document plugin is active by default.

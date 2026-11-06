@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/delete-aia-use-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Delete an agentic workflow
@@ -30,9 +30,9 @@ You must assign appropriate permissions by using the access control lists \(ACLs
 
 2.  Select the check box of the agentic workflow that you want to delete and select **Delete**.
 
-    \[Omitted image "delete-aia-use-case.png"\] Alt text: Selecting an agentic workflow for deletion.
+    You can also delete multiple agentic workflows by selecting multiple agentic workflow records at a time.
 
-    **Note:** You can also delete multiple agentic workflows by selecting multiple agentic workflow records at a time if you define the ACLs.
+    **Note:** Some agentic workflows installed with ServiceNow applications can't be deleted.
 
 3.  In the confirmation pop-up window, select **Delete**.
 

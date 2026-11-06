@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internal review overview, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Internal review overview, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on internal review task
@@ -24,58 +24,58 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d660772e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d714263e55">
 
 Method
 
-</th><th align="left" id="d660772e58">
+</th><th align="left" id="d714263e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d660772e64">
+</th></tr></thead><tbody><tr><td id="d714263e64">
 
 **My Work listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **My Work** &gt; **Requested Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d660772e111">
+</td></tr><tr><td id="d714263e111">
 
 **Delegated to me listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Delegated to me** &gt; **Contract Review Tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d660772e158">
+</td></tr><tr><td id="d714263e158">
 
 **Contract Review Tasks listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Under **Contract Review tasks**, select **All** or **My tasks**
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d660772e205">
+</td></tr><tr><td id="d714263e205">
 
 **Contract Request Reviews tab**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 3.  Select **Contract Requests** &gt; **Assigned to me**
 4.  Open the contract request from the list
 5.  Select **Reviews** tab.
@@ -107,15 +107,15 @@ Steps
 
     The reviewer can make edits to the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d660772e356">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d714263e356">
 
 Type of storage
 
-</th><th align="left" id="d660772e359">
+</th><th align="left" id="d714263e359">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d660772e365">
+</th></tr></thead><tbody><tr><td id="d714263e365">
 
 **Internal storage**
 
@@ -131,7 +131,7 @@ Steps
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d660772e409">
+</td></tr><tr><td id="d714263e409">
 
 **External storage**
 

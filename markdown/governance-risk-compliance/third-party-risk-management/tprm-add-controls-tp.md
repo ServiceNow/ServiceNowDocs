@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [TPRM with Policy and Compliance Management, Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -18,11 +18,13 @@ If you’re using both Policy and Compliance Management and Third-party Risk Man
 
 ## Before you begin
 
-Role required: sn\_vdr\_risk\_asmt.vendor\_risk\_manager and sn\_compliance.manager
+Role required: sn\_compliance.manager and sn\_vdr\_risk\_asmt.vendor\_risk\_manager to associate controls in the Vendor Management Workspace.
 
 ## About this task
 
-Controls are automatically generated when you associate a policy with an entity type or an entity type with a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually created.
+Controls and control objectives are created and managed in Policy and Compliance Management and can then be associated with third parties or engagements.
+
+Controls are automatically generated when you associate a policy with an entity type or an entity type with a control objective. A control is created for each entity listed in the entity type for the control objective. Controls can also be manually associated with a third party or engagement.
 
 For more information on creating policies in Policy and Compliance Management, see [Create a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/t_DefineAPolicy.md).
 
@@ -48,11 +50,11 @@ To understand the difference between a control objective and a control, see [Str
 
     For more information on managing controls, see [Manage controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/c_GRCControls.md).
 
-    The control is created and all related lists are visible.
+    The control is associated with the third party or engagement and all related lists are visible.
 
 
 -   **[Create new control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-control-record-form.md)**  
-Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application. As a third-party risk admin, you can create a control.
+Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application.
 
 **Parent Topic:**[Integrating Third-party Risk Management with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/pc-assessment-integration.md)
 

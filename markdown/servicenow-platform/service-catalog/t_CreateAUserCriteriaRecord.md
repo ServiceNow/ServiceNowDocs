@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Set security for items and categories, Service Catalog security, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -148,7 +148,18 @@ With **Match All** selected, only users meeting all these conditions are matched
 **Note:** If you select **Match All**, ensure that you do not create contradictory conditions which can never be met. For example, if all users in location A work for company G, then the conditions in this example can never be met.
 
 </td></tr></tbody>
-</table>
+</table>    A User Criteria record is considered empty if none of the following attributes are defined:
+
+    -   Roles
+    -   Groups
+    -   Departments
+    -   Location
+    -   Company
+    -   Script \(or any other user attribute conditions\)
+
+        **Note:** An empty User Criteria matches only authenticated users. Unauthenticated users are no longer matched by an empty User Criteria. Note that this behavior applies only to the Australia release.
+
+
 **Parent Topic:**[Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/c_ServiceCatalogAccessControls.md)
 
 ## Implementing user criteria

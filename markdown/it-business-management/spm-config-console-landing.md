@@ -1,0 +1,60 @@
+---
+title: ServiceNow Otto for Setup \(SPM\)
+description: ServiceNow Otto for Setup \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/spm-config-console-landing.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Strategic Portfolio Management]
+---
+
+# ServiceNow Otto for Setup \(SPM\)
+
+ServiceNow Otto for Setup \(SPM\) centralizes administration of your Strategic Portfolio Management applications in one workspace. The console brings together setup items for Common configuration, Financials, Project and Demand Management, Strategic Planning and Portfolio Planning, and Enterprise-Wide Deployment.
+
+## Get started
+
+<table id="table_spm-config-console-landing-nav" class="nav-card presentation"><tbody><tr><td>
+
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for Setup \(SPM\) and how it enables your SPM rollout.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/spm-config-console-explore.md)
+
+</td><td>
+
+[Access\[Omitted image "bus-sdlc.svg"\] Alt text:Open the console from the Admin Home page to start configuring SPM apps.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/spm-config-console-access.md)
+
+</td><td>
+
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn the configuration modules the console provides for the per-application setup tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/spm-config-console-modules.md)
+
+</td></tr></tbody>
+</table>## Helpful resources
+
+Some ServiceNow resources that can provide helpful information:
+
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+
+    Connect with fellow ServiceNow professionals at [ServiceNow Community](https://community.servicenow.com/community)
+
+-   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
+
+    [Impact](http://impact.servicenow.com)
+
+-   **\[Omitted image "dcx-icon-impact.svg"\]Impact**
+
+    Accelerate ROI and amplify your experience at [http://impact.servicenow.com](http://impact.servicenow.com)
+
+-   **\[Omitted image "dcx-icon-learning.svg"\]ServiceNow University**
+
+    Build skills with instructor-led and online training at [ServiceNow University](https://learning.servicenow.com/now/lxp/home)
+
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
+    -   Access advice on managing your instances, access self-help, and get technical support at [https://support.servicenow.com/now](https://support.servicenow.com/now)
+    -   Learn more about specific known errors, and any available workarounds, from [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
+
+**Related topics**  
+
+
+[bundle-platadm.ia-landing]
+

@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # View log shipper alerts
@@ -38,8 +38,10 @@ Log shipper alerts are generated from log shipper events with a severity of Majo
 
 2.  Review the information provided in the Alerts list.
 
-    For details and a description of the columns, see [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/t_EMUseAlertConsole.md).
+    For details and a description of the columns, see [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMUseAlertConsole.md).
 
+
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-setup.md)
 
 **Related topics**  
 

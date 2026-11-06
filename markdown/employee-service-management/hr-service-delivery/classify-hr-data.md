@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Vault for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ Role required: data\_classification\_admin
 
     You can select multiple data classifications as needed.
 
-    See Data dictionary tables for additional information.
+    See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataDictionaryTables.md) for additional information.
 
 
 **Parent Topic:**[ServiceNow Vault for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/vault-hr-service-delivery.md)

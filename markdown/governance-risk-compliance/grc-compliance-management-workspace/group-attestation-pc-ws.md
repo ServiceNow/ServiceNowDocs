@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage controls using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Group assessments for similar assessments in the Tasks page
@@ -28,7 +28,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the Tasks \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon icon on the left pane.
+2.  Select \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon from the sidebar.
 
 3.  Select the attestation records in the My pending tasks tab that you'd like to group.
 
@@ -38,7 +38,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 5.  Select a **Response type** in the Group assessments pop-up.
 
-    For more information on the response types, see [Consolidate control attestations using the Same Response feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 6.  Select a criterion to group the assessments in the **Group by** list.
 
@@ -58,13 +58,9 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
     On the other hand, if all the assessments that you selected are invalid, for example, risk assessments or privacy assessments, then the **Group** button is inactive as grouping isn’t possible for such assessments.
 
-    \[Omitted image "group-assess-ui-message.png"\] Alt text: UI message with link to the grouped assessments.
-
     **Note:** You can group the assessments that are in **Ready to take** or **In progress** state, but not the assessments that are in **Complete** or **Canceled** state.
 
     If the status of a record that you’ve selected for grouping has changed and is being assessed before you select the **Group** button to group the assessments, then such a record can’t be grouped.
-
-    \[Omitted image "group-assess-no-grouping-ui.png"\] Alt text: Error message indicating the assessments could not be grouped.
 
 8.  Select the link to the grouped assessment in the UI message.
 

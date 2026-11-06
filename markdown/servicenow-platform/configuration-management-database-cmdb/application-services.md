@@ -1,22 +1,24 @@
 ---
-title: Application services
-description: Understand application services, learn about different application service types and how multiple ServiceNow business units and products use them.
+title: Service instances \(Application services\)
+description: Understand service instances \(application services\), learn about different application service types and how multiple ServiceNow business units and products use them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Application services
+# Service instances \(Application services\)
 
-Understand application services, learn about different application service types and how multiple ServiceNow® business units and products use them.
+Understand service instances \(application services\), learn about different application service types and how multiple ServiceNow® business units and products use them.
 
-## What application services are
+**Note:** Application service is being renamed to service instance. Both terms are being used interchangeably in this section.
+
+## What service instances \(application services\) are
 
 A service instance is a set of interconnected applications and hosts that are configured to offer a service to the organization. Service instances can be internal, like an organization email system or customer-facing, like an organization website. For example, creating financial reports through a web-based application requires a computer, web server, application server, databases, middleware, and network infrastructure. These applications and hosts are all configured to offer the service of financial reporting. In development environments, an application service represents an instance of a business application or system.
 
@@ -44,7 +46,7 @@ There are the following types of application services:
 
 -   **Dynamic CI Group**
 
-    Dynamic CI groups which act as application services. The members of the [CMDB groups]() that is associated with the dynamic CI group, populates the application service. A dynamic CI group is a dynamic grouping of CIs, based on some common criteria such as the location of all web servers in Detroit or all Oracle databases in Boston. After creating a dynamic CI group, it can be used as a group offering in IT Service Management.
+    Dynamic CI groups which act as application services. The members of the [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) that is associated with the dynamic CI group, populates the application service. A dynamic CI group is a dynamic grouping of CIs, based on some common criteria such as the location of all web servers in Detroit or all Oracle databases in Boston. After creating a dynamic CI group, it can be used as a group offering in IT Service Management.
 
     If created from the Application Service wizard, the service classification is application service, and if created from the legacy Event Management UI or Service Mapping UI, the classification is technical service. Application services of the Dynamic CI Group type are stored in the Dynamic CI Group \[cmdb\_ci\_query\_based\_service\] table.
 

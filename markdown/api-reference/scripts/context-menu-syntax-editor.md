@@ -7,97 +7,34 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [JavaScript syntax editor, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Explore, Scripting, API implementation, API implementation and reference]
 ---
 
 # Context menu in the syntax editor
 
 View the context menu for script includes, Glide APIs, and tables in the JavaScript syntax editor.
 
-With the context menu options, your users can navigate to:
+In the syntax editor, bold font is used for tokens that have a context menu. Right-click the token to view context menu options. With the context menu options, your users can navigate to:
 
 -   Script include definitions
 -   Glide API documentation
 -   System and custom table definitions and data
 
-In the syntax editor, bold font is used for tokens that have a context menu. Right-click the token to view context menu options. If you use a Mac, you can use the Command-click shortcut.
+\[Omitted image "js-editor-context-menu.png"\] Alt text: The context menu options for a script include in the syntax editor.
 
-<table id="table_cwh_4xj_fhb"><thead><tr><th>
+|Token type|Context menu option|Description|
+|----------|-------------------|-----------|
+|Script include|Open Definition|Opens the definition of the script include in a new window.|
+|Script include|Find References|Displays a list of all files referencing the script include. You can preview the file or open the file in a new window.|
+|Glide API|Show Documentation|Opens the API reference documentation for the Glide API in a new window.|
+|Table|Show Definition|Opens the definition of the system or custom table in a new window.|
+|Table|Show Data|Displays records in the table that are based on the role of the current user.|
 
-Token type
+You can configure whether to show the context menu in the syntax editor with the **glide.ui.syntax\_editor.context\_menu** system property.
 
-</th><th>
+**Note:** Context menu options can be accessed only if the browser supports SharedWorker, such as Google Chrome and Mozilla Firefox.
 
-Context menu option
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td rowspan="2">
-
-Script include
-
-</td><td>
-
-Open Definition
-
-</td><td>
-
-Definition of the script include in a new window.
-
-</td></tr><tr><td>
-
-Find References
-
-</td><td>
-
-List of files referencing the script include.**Note:**
-
--   To view the preview of the file, click the preview script icon \[Omitted image "preview-script.png"\] Alt text: Preview script icon.
-
-To open the file in a new window, click **Open File**.
-
--   To view all files that reference the script include, click **Show All Files**.
-
-</td></tr><tr><td>
-
-Glide API
-
-</td><td>
-
-Show Documentation
-
-</td><td>
-
-Documentation page of the Glide API.
-
-</td></tr><tr><td rowspan="2">
-
-Table
-
-</td><td>
-
-Show Definition
-
-</td><td>
-
-Definition of the system or custom table in a new window.
-
-</td></tr><tr><td>
-
-Show Data
-
-</td><td>
-
-Records in the table that are based on the role of the current user.
-
-</td></tr></tbody>
-</table>Enable or disable the context menu in the script editor using the **glide.ui.syntax\_editor.context\_menu** property in the System Property \[sys\_properties\] table. See [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md) for more information.
-
-**Note:** Context menu options can be accessed only if the browser supports SharedWorker. For example, Google Chrome and Mozilla Firefox.
-
-**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditor.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 5
-breadcrumb: [Working with automation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add activities to an app's playbook in Creator Studio
@@ -55,7 +55,7 @@ Diagram
 </td><td>
 
 1.  Select the **+** icon in the stage.
-2.  In the mini-picker, select the square icon \(\[Omitted image "cs-add-activity-icon.png"\] Alt text:\) to add an activity.
+2.  In the mini-picker, select the square icon \[Omitted image "cs-add-activity-icon.png"\] Alt text: to add an activity.
 
 
 </td></tr><tr><td>
@@ -119,8 +119,16 @@ Placeholder
 
 Set an undefined activity to be specified later, or a more advanced activity such as an email notification, when an activity is completed.Placeholder activities don't have any logic assigned to them yet, and must be edited in Workflow Studio. Or, you can swap them out later for another type of activity in Creator Studio.
 
+</td></tr><tr><td>
+
+Update submission
+
+</td><td>
+
+Update the value of the specified fields on the record that the form generates when a user submits it.
+
 </td></tr></tbody>
-</table>    \[Omitted image "cs-add-activity-email.png"\] Alt text: Select which type of activity to add
+</table>    \[Omitted image "crs-add-activity-more.png"\] Alt text: Select which type of activity to add
 
     Your new activity and its Activity properties panel appear, where you define what the activity is.
 
@@ -128,7 +136,7 @@ Set an undefined activity to be specified later, or a more advanced activity suc
 
     |Field|Description|
     |-----|-----------|
-    |Name|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
+    |Label|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the activity accomplishes.|
 
     \[Omitted image "cs-assign-to-properties.png"\] Alt text: Activity details panel
@@ -167,7 +175,17 @@ Set an undefined activity to be specified later, or a more advanced activity suc
             Select the **Requester** option for the **To** or **Cc** fields to include the person who made the request in the email's recipients.
 
         -   Enter the email's subject in the **Subject** field.
-        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \(\[Omitted image "cs-more-actions-icon.png"\]\) to display more formatting options. For example, you can add images, tables, and links to the email.
+        -   Enter the body of the email in the textbox. Select the additional toolbar buttons icon \[Omitted image "cs-more-actions-icon.png"\] to display more formatting options. For example, you can add images, tables, and links to the email.
+    4.  For Update submission activities, select the fields that the activity should update on the submitted form's record.
+
+        Choose one or more of the following fields to be automatically updated and specify the field value:
+
+        -   **Short description**: Then enter a value for the updated short description.
+        -   **Description**: Then enter a value for the updated description.
+        -   **State**: Then select the updated record state. For example, **Open**.
+        -   **Priority**: Then select the updated value. For example, **4 - Low**.
+        For example, you can add an **Update submission** activity that automatically closes a record if a previous approval activity is declined.
+
 10. Select at what point the activity should start running in the **When to start** field of the Conditions section.
 
     The options are:

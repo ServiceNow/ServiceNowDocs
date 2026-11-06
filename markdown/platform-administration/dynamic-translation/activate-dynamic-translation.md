@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -113,5 +113,5 @@ Common utilities for translation features.
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-of-plugins.md)
+[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-of-plugins.md)
 

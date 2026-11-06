@@ -1,16 +1,16 @@
 ---
-title: Create records based on a template
+title: Schedule record creation from a template
 description: You can create and schedule a scheduled job to create records based on a template. For example, you can regularly create a populated task record to perform a weekly backup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ScheduleATemplate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using form templates, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Create records based on a template
+# Schedule record creation from a template
 
 You can create and schedule a scheduled job to create records based on a template. For example, you can regularly create a populated task record to perform a weekly backup.
 

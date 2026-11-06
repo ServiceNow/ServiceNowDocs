@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-mobile-playbooks-perform-agent-manager-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using Mobile Agent, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+keywords: [Using the Mobile Agent to perform agent tasks, perform agent tasks by using the mobile agent]
+breadcrumb: [Mobile Agent, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the Mobile Agent to perform agent tasks
@@ -37,7 +38,7 @@ View the details of a case and determine if you need to make any changes or take
 3.  Select a case to view its details.
 4.  Determine if you need to make any changes or take other actions. If so, perform any of the tasks in this table.
 
- For details on viewing a case in the Mobile Agent, see [Track government service requests with the ServiceNow Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-mobile-playbook-view-service-requests-agent.md).
+ For details on viewing a case in the Mobile Agent, see [Track government service requests with the Mobile Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-mobile-playbook-view-service-requests-agent.md).
 
 </td></tr><tr><td>
 

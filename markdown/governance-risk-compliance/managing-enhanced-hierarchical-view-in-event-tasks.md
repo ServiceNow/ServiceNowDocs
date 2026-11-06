@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/managing-enhanced-hierarchical-view-in-event-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ To manage task dependencies, you can select **View dependencies** in the Depende
 
 \[Omitted image "sort-plan-rt3.png"\] Alt text: RT3.\[Omitted image "gantt-view-task-dep.png"\] Alt text: View dependencies.
 
-After selecting **View dependencies**, a modal view is shown, displaying the dependency details, including the dependent task \(for example, RT3 is dependent on RT2\), its dependency \(RT2\), and the state of the dependent plan \(activated\). This display provides a clear understanding of task relationships and their current status.
+After selecting **View dependencies**, a modal view displays the dependency details. The details include the dependent task \(for example, RT3 is dependent on RT2\), its dependency \(RT2\), and the state of the dependent plan \(activated\). This display provides a clear understanding of task relationships and their current status.
 
 \[Omitted image "gantt-view-task-dep-details.png"\] Alt text: Details.
 
@@ -46,13 +46,13 @@ To create a new dependency, drag from the end of one task to the start of anothe
 
 \[Omitted image "event-task-dep-drag.png"\] Alt text: Drag.
 
-You can create multiple links between tasks as needed, enabling for flexible dependency management directly within the Gantt chart. However, attempting to create a cyclic dependency \(for example, making Task 2 dependent on Task 1 when Task 1 is already dependent on Task 2\) results in an error, as it can cause cyclic dependencies. The system helps to prevent such configurations to maintain a valid and manageable project structure.
+You can create multiple links between tasks as needed, enabling flexible dependency management directly within the Gantt chart. However, you cannot create a cyclic dependency. For example, making Task 2 dependent on Task 1 when Task 1 is already dependent on Task 2 results in an error. The system prevents such configurations to maintain a valid and manageable project structure.
 
 \[Omitted image "event-task-dep-error.png"\] Alt text: Error.
 
 ## Color-coded bars
 
-The bars in the chart are color-coded, and selecting the legends reveals the color conventions for different task states, such as Closed complete, Closed duplicate, Closed incomplete, and others. This color-coding system helps to identify the status of tasks quickly.
+The bars in the chart are color-coded. Selecting the legends reveals the color conventions for different task states, such as Closed complete, Closed duplicate, Closed incomplete, and others. This color-coding system helps to identify the status of tasks quickly.
 
 \[Omitted image "event-task-dep-color-code.png"\] Alt text: Color.
 

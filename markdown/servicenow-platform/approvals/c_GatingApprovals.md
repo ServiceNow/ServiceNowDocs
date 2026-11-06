@@ -7,7 +7,7 @@ release: yokohama
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Generate gating approvals with:
 |Item-based approvals|Flag specific catalog items as requiring specific approvals. Any requests for these items automatically require these approvals.|
 
 -   **[Set up a gating approval via an approval rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/approvals/t_SetUpAGatingApprViaApprovalRule.md)**  
-You canset up a gating approval via an approval rule.
+You can set up a gating approval via an approval rule.
 -   **[Set up a gating approval based on the item being ordered](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/approvals/c_SetUpGatingApprBasedOnOrdItem.md)**  
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
 

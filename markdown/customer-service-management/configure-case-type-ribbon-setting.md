@@ -1,16 +1,16 @@
 ---
-title: Configure ribbon settings for case types
+title: Configure case type ribbon settings
 description: Create a ribbon configuration for a case type or enable ribbon configurations to be inherited by the case type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-case-type-ribbon-setting.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring customer service case types, Customer service case types, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring customer service case types, Customer service case types, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configure ribbon settings for case types
+# Configure case type ribbon settings
 
 Create a ribbon configuration for a case type or enable ribbon configurations to be inherited by the case type.
 
@@ -28,8 +28,6 @@ Case types that are extended from the Case table can display these components in
 
 -   Create ribbon settings for case extensions, or
 -   Modify existing ribbon settings so that the case extensions inherit the ribbon component behavior.
-
-To create ribbon settings, see Set up ribbons in workspace.
 
 To modify ribbon component behavior, use the following procedure.
 

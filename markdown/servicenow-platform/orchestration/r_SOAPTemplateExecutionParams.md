@@ -7,7 +7,7 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a SOAP web service activity, Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -200,5 +200,5 @@ Reference
 Credentials to use for this SOAP message when the `auth_type` is `basic_auth_pick_credentials`.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a SOAP web service activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/t_CreateASOAPWebServiceActivity.md)
+</table>**Parent Topic:**[Create a SOAP web service activity]()
 

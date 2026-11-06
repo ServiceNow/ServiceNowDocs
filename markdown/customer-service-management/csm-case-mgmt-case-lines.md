@@ -1,22 +1,22 @@
 ---
-title: Case lines and workflows
-description: The Case lines and workflows application provides the ability to reference multiple line items on a case record. Agents can use these line items to capture, track, and resolve multiple related issues in a single case.
+title: Case Lines and Workflows
+description: The Case lines and workflows application provides the ability to reference multiple line items on a case record. Agents and customers with the sn\_customerservice.customer role can use these line items to capture, track, and resolve multiple related issues in a single case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-mgmt-case-lines.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Case lines and workflows
+# Case Lines and Workflows
 
-The Case lines and workflows application provides the ability to reference multiple line items on a case record. Agents can use these line items to capture, track, and resolve multiple related issues in a single case.
+The Case lines and workflows application provides the ability to reference multiple line items on a case record. Agents and customers with the `sn_customerservice.customer` role can use these line items to capture, track, and resolve multiple related issues in a single case.
 
-The Case lines and workflows application provides the framework for a case type to handle multiple related issues. One example is the Orders case type available with the [Order Operations Case Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-order-ops.md). This case type enables agents to create cases with case line items for multiple orders or for multiple order lines within a single order.
+The Case lines and workflows application provides the framework for a case type to handle multiple related issues. One example is the Orders case type available with the [Order Operations Case Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-order-ops.md). This case type enables users to create cases with case line items for multiple orders or for multiple order lines within a single order.
 
-Case line items enable agents to track multiple issues for the same case. Agents can resolve these different issues, represented by case line items, independently before resolving and closing the case. Agents can take different actions on different case line items depending on the need.
+Case line items enable users to track multiple issues for the same case. Users can resolve these different issues, represented by case line items, independently before resolving and closing the case. Users can take different actions on different case line items depending on the need.
 
 This application supports different types of line items based on the source of the case. These line items can include entities such as orders or order lines, invoices or invoices lines, contracts, and sold products. Each case line item maps to an entity line \(for example, an order line\) and has its own resolution process.
 
@@ -35,16 +35,24 @@ The Case lines and workflows application \(com.sn\_case\_line\) enables the Case
 
 The case lines and workflows application includes a Case Line Items list view in the Core UI. To access the Case Line Items list, navigate to **All** &gt; **Customer Service** &gt; **Cases** &gt; **All Line Items**.
 
-The Case lines and workflows application application also includes tables and roles. For more information, see [Components installed with Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines-install-comp.md).
+The Case lines and workflows application also includes tables and roles. For more information, see [Components installed with Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines-install-comp.md).
 
 The Case lines and workflows application is available from the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 
 
 [Order case pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-order-ops-case-page.md)
+
+[Case line item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-form.md)
+
+[Case line task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-task-form.md)
+
+[Case line characteristic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-characteristics-form.md)
+
+[Case line entitlement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-entitlements-form.md)
 

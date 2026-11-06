@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring DaaS, Device as a Service, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configuring DaaS, Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Install Hardware Asset Management for DaaS
@@ -51,8 +51,10 @@ For more information, see [Components installed with Hardware Asset Management f
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
+
+**Parent Topic:**[Configuring DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configuring-daas.md)
 

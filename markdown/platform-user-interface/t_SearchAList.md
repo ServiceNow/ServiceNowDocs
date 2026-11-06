@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_SearchAList.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -54,7 +54,7 @@ Each option in a choice list is defined with a column label and a value. For exa
 **Related topics**  
 
 
-[Enable text searches](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_TextSearchesInRecordLists.md)
+[bundle-platadm.c_TextSearchesInRecordLists]
 
 [Personal lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_PersonalLists.md)
 
@@ -129,7 +129,7 @@ Search for values that start end with search-term.
 Search for values that don't equal search-term.
 
 </td></tr></tbody>
-</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see [Auto-complete for reference fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_AutoCompleteForReferenceFields.md).
+</table>**Note:** Reference fields support a different set of wildcard operators. For details on using wildcards to search reference field auto-complete values, see .
 
 **Related topics**  
 

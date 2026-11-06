@@ -7,9 +7,9 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prepare to upgrade with Upgrade Plan, Upgrade Plans tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Prepare to upgrade with Upgrade Plan, Upgrade Plans tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Preview Upgrade Plan

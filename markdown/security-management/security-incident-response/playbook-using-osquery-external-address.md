@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for OSquery of External Address in /etc/hosts file, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,8 +30,6 @@ Role required:
 2.  In Action 2, gather the details of the IP address and the hostname.
 
 3.  In Action 3, check whether this IP address belongs to the internal organization's public/private IP range or not.
-
-    \[Omitted image "playbook-osquery-overview.png"\] Alt text: Response task to check whether this IP address belongs to the internal organization's public/private IP range.
 
 4.  In Action 4, if the IP address belongs to the internal organization's public/private IP range, perform the following steps:
 
@@ -69,8 +67,6 @@ Role required:
         2.  In Action 19, initiate a post incident review.
 
             In Action 20, after the post incident review, the flow ends.
-
-        \[Omitted image "playbook-osquery-investigate.png"\] Alt text: Response task to check whether the owner or team information is available.
 
 12. In Action 21, if the owner or team information is unavailable, isolate the host system.
 

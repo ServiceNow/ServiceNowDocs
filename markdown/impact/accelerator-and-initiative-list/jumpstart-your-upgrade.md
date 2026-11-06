@@ -7,27 +7,31 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Upgrade
 
 Guidance on upgrade planning and preparation
 
-## Overview
+## Accelerator Overview
 
 Jumpstart Your Upgrade provides Impact Customers with guidance, tips, and tools to execute a ServiceNow upgrade. It enables Customers to upgrade by helping them understand leading practices as well as giving them an opportunity to see what their instance looks like upgraded in a temporary instance.
 
-Offered pursuant to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 
 -   **Upgrade Assessment**
     -   Provisioning of a pre-upgraded temporary instance
     -   Upgrade assessment using ServiceNow HealthScan
--   **Customer Coaching Session \#1 \(up to 90 min\)**
+-   **Customer Coaching Session \#1 \(up to 60 min\)**
 
     Review of:
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Verify and depart your enterprise assets for disposal using the Mobile Agent application
@@ -31,8 +31,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
     The navigation bar displays tabs for the ServiceNow applications and applets that you have access to through the Mobile Agent application. The navigation bar also displays tabs for your Mobile Agent application settings and notifications.
 
     The home screen for the Enterprise Asset Management application opens.
-
-    \[Omitted image "eam-mobile-agent-app-home-screen.png"\] Alt text: Enterprise Asset Management home screen in the ServiceNow Mobile Agent application.
 
 3.  Tap **Asset disposal**.
 
@@ -64,7 +62,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     8.  After you scan or enter the asset tag value for all desired enterprise assets, go to the **Review** tab to verify the complete list.
 
-        If you want to remove any enterprise assets from the list, tap the Delete icon \(\[Omitted image "delete-icon-mobile-agent-app.png"\] Alt text: Delete icon.\) for that enterprise asset.
+        If you want to remove any enterprise assets from the list, tap the Delete icon \[Omitted image "delete-icon-mobile-agent-app.png"\] Alt text: for that enterprise asset.
 
     9.  Tap **Submit**.
 
@@ -100,7 +98,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
     8.  After you scan or enter the asset tag value for all desired enterprise assets, go to the **Review** tab to verify the complete list.
 
-        If you want to remove any enterprise assets from the list, tap the Delete icon \(\[Omitted image "delete-icon-mobile-agent-app.png"\] Alt text: Delete icon.\) for that enterprise asset.
+        If you want to remove any enterprise assets from the list, tap the Delete icon \[Omitted image "delete-icon-mobile-agent-app.png"\] Alt text: for that enterprise asset.
 
     9.  Tap **Submit**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Event Management Operator Tutorial, Using Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Advanced tasks for the Event Management operator
@@ -30,7 +30,7 @@ If an alert is in the flapping state, you might need to triage the alert again.
 -   **[Handle alerts while CIs are in maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/operator-alerts-CIs-in-maintenance.md)**  
 When an alert occurs on a CI that is in the maintenance state, the alert state is also changed to maintenance. You should find and monitor the states of these alerts. Later, when changes on the CI are complete, finish triaging the alert and close it.
 -   **[Adjust alert impact while triaging an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/operator-adjust-impact-rules.md)**  
-As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Do this when you think that the impact does not accurately represent what you see in your network environment so other operators and administrators see the correct impact information.
+As an Event Management operator, you might need to modify the impact that an alert has on an application service and on the CIs in a service. Adjust the impact when it does not accurately represent your network environment.
 
 **Parent Topic:**[Event Management Operator Tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/operator-guide-em.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Populate an application service using the Manual method
+title: Use the Manual method to populate application services
 description: The Manual method for populating an application service, is based on selecting an entry point CI, which lets users access the application service. To populate the application service, you then manually add CIs to the new application service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Populate an application service using the Manual method
+# Use the Manual method to populate application services
 
 The Manual method for populating an application service, is based on selecting an entry point CI, which lets users access the application service. To populate the application service, you then manually add CIs to the new application service.
 
@@ -24,7 +24,7 @@ Role required: app\_service\_admin
 
 Manual is one of several methods for populating an application service with CIs. Choosing a method for populating an application service, is only one step of the generic procedure for creating an application service. Ensure that you have completed the initial steps as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-it-services.md). The procedure described here is incomplete by itself as it complements that generic procedure.
 
-For information about the different types of application services and the different methods you can use to populate application services, including Manual, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including Manual, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 ## Procedure
 

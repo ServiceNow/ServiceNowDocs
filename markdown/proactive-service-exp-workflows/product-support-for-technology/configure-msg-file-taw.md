@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [About messages used in escalation workflows in Proactive Service Experience Workflows, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Messages in escalation workflows, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Customize message files for Proactive Service Experience Workflows

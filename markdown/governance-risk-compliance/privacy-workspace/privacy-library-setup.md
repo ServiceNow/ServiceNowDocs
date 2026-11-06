@@ -7,8 +7,8 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -24,19 +24,19 @@ Authority documents are the principles, guidelines, regulations, standards, and 
 -   Regulations
 -   Audit Guidelines
 
-Organizations can either create the authority documents, citations, and control objectives or they can download and import them from a third-party provider such as the Network Frontiers Unified Compliance Framework \(UCF\).
+Organizations can either create the authority documents, citations, and control objectives or they can download and import them from a third-party provider such as the Network Frontiers Unified Compliance Framework \(UCF\). You can create and manage authority documents from **Library** &gt; **Authority documents** in the List view of the Privacy Workspace.
 
 ## Citations
 
-Citations are records with the specific requirements cited by an authority document. A citation relates authority documents to its applicable controls. Each citation has control objectives.
+Citations are records with the specific requirements cited by an authority document. A citation relates authority documents to its applicable controls. Each citation has control objectives. You can add citations to the Library from the List view of the Privacy Workspace.
 
 ## Policies
 
-Policies include control objectives. Policies can also be associated to authority documents. Policies are published and regularly updated with incremented versions. For more information on policies, refer to [Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/r_PolicyComplianceMgmt.md).
+Policies include control objectives. Policies can also be associated to authority documents. Policies are published and regularly updated with incremented versions. You can add policies to the Library from the List view of the Privacy Workspace.
 
 ## Risk statements
 
-Using risk statements you can create a central risk register to manage potential privacy risks that may occur any time and any where in an organization.
+Using risk statements you can create a central risk register to manage potential privacy risks that may occur any time and any where in an organization. You can add risk statements to the Library from the List view of the Privacy Workspace.
 
 ## Privacy assessments
 
@@ -60,4 +60,11 @@ Configure information object categories to classify information objects effectiv
 Categorize information objects as personal information. Only information objects classified as personal information can be associated with the processing activities.
 
 **Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+
+**Related topics**  
+
+
+[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-assessment-template.md)
+
+[Create a Risk Assessment Methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-risk-assessment-methodology.md)
 

@@ -1,0 +1,197 @@
+---
+title: Service Model Foundation data model
+description: The Service Model Foundation data model defines the underlying structure that supports data consistency and relationships across Service Model Foundation. The data model explains its purpose, including how entities such as services, locations, and accounts are organized and connected through the entity-relationship Diagram \(ERD\) and reference architecture. It provides a unified view of data design, confirming scalability, integrity, and seamless integration across Service Model Foundation components.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/data-models-smf.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-28"
+reading_time_minutes: 4
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
+---
+
+# Service Model Foundation data model
+
+The Service Model Foundation data model defines the underlying structure that supports data consistency and relationships across Service Model Foundation. The data model explains its purpose, including how entities such as services, locations, and accounts are organized and connected through the entity-relationship Diagram \(ERD\) and reference architecture. It provides a unified view of data design, confirming scalability, integrity, and seamless integration across Service Model Foundation components.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
+
+Service Model Foundation provides a framework that your customers can use to create structured yet flexible data models that represent their business structure. Central support represents the supporting entity within the main organization. Service organizations represent additional entities providing customer support.
+
+There are three types of service organizations:
+
+-   Internal Organizations \(formerly Internal Business Locations \(IBL\)\)
+-   External Organizations \(formerly External Business Locations \(EBL\)\)
+-   Outsourced Service Providers \(OSP\)
+
+Note: These business organizations can also be logical entities and not necessarily physical locations.
+
+## Entity relationship model
+
+The following entity-relationship diagram \(ERD\) shows the tables and their relationships that comprise the Service Model Foundation data model.
+
+\[Omitted image "smf-data-model.png"\] Alt text: Entity relationship diagram showing how service organizations connect to internal and external organizations and outsourced service providers, each linked to employees or staff.
+
+This ERD illustrates the structural relationships among service organizations, business locations, and staff or employees within the Service Model Foundation. A service organization manages multiple internal organizations, external organizations, and outsourced service providers \(OSP\), each associated with its own workforce, that is employees or external staff, who perform service activities.
+
+The model differentiates internal versus external service and sales delivery contexts while maintaining a unified link through the sys\_user and external organization staff \(formerly service organization external staff\) tables. It provides the foundation for access control, visibility, and data consistency across all Service Model Foundation entities.
+
+## Reference architecture and data flow model
+
+The following reference architecture diagram illustrates the technical framework and data flow within the Service Model Foundation \(SMF\) system.
+
+\[Omitted image "smf-reference-architecture.png"\] Alt text: Reference diagram highlighting how various system components, tables, and services interact to deliver and manage service operations.
+
+This reference architecture highlights how various system components, tables, and services interact to deliver and manage service operations. It shows the flow of data between primary data tables, transaction tables, and custom tables, emphasizing the integration points between internal and external organizations, service offerings, and case management processes.
+
+The reference architecture ensures a clear understanding of how information is processed, routed, and stored across the Service Model Foundation system.
+
+## Entities included with Service Model Foundation
+
+The Service Model Foundation feature includes the following entities.
+
+<table id="table_ky1_wy4_dmb"><thead><tr><th>
+
+Entity
+
+</th><th>
+
+Definition
+
+</th><th>
+
+Examples
+
+</th></tr></thead><tbody><tr><td>
+
+Organization Cores \(formerly Service organizations\)
+
+</td><td>
+
+The internal and external entities that are involved in providing a service to customers.
+
+ A service organization provides the base framework that supports the customer service value chain. This framework includes internal and external organizations.
+
+ You can extend the service organization to create entities as needed.
+
+</td><td>
+
+-   Financial service organizations with multiple branches
+-   Automobile manufacturers with multiple dealerships
+-   Government agencies with multiple office locations
+
+</td></tr><tr><td>
+
+Internal organizations
+
+</td><td>
+
+The internal entities that belong to a business organization and are involved in providing goods and services.
+
+</td><td>
+
+-   Stores
+-   Branches
+-   Centers
+
+</td></tr><tr><td>
+
+External organizations
+
+</td><td>
+
+The external entities that belong to a business organization and are involved in providing goods and services.
+
+</td><td>
+
+-   Franchises
+-   Dealerships
+
+</td></tr><tr><td>
+
+Customers \(B2B\)
+
+</td><td>
+
+The external customers in the business-to-business model who use goods and services.
+
+</td><td>
+
+-   Accounts
+-   Contacts
+
+</td></tr><tr><td>
+
+[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-households.md)
+
+</td><td>
+
+The external customers in the business-to-consumer model who use goods and services.
+
+</td><td>
+
+-   Consumers
+-   Households
+
+</td></tr><tr><td>
+
+Employees and staff members
+
+</td><td>
+
+The people who work at internal and external organizations and assist customers.
+
+</td><td>
+
+-   Internal employees
+-   External agents
+-   External staff
+
+</td></tr><tr><td>
+
+[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-roles.md)
+
+</td><td>
+
+Job functions that are performed by various users in the business organization.
+
+</td><td>
+
+-   Location managers
+-   Location agents
+-   Location consumer agents
+-   Location relationship managers
+-   Location manager contributors
+
+</td></tr><tr><td>
+
+[Responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-responsibilities.md)
+
+</td><td>
+
+Definitions of the responsibilities that an agent can perform for a customer or that a consumer can perform for another consumer. Use these responsibilities to create relationships between agents and customers or between consumers.
+
+</td><td>
+
+-   Location agents
+-   Location consumer agents
+-   Location contributors
+-   Location manager contributors
+-   Location manager fulfiller
+-   Location relationship manager
+
+</td></tr><tr><td>
+
+[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-relationships.md)
+
+</td><td>
+
+Relationships that are created between agents and customers or between two consumers, are based on specific responsibilities. Use these relationships to provide additional access to data.
+
+</td><td>
+
+-   Relationships between an employee or staff member and a customer
+-   Relationships between two consumers
+
+</td></tr></tbody>
+</table>

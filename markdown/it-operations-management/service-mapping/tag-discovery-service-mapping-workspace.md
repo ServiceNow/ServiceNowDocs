@@ -7,9 +7,9 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Choose the right method for discovery and mapping application services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Tag-based discovery for the Service Mapping Workspace

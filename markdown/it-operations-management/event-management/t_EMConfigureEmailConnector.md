@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure event collection from email
@@ -30,7 +30,9 @@ When you add an inbound email action to send email, Event Management uses inboun
 
 2.  In the **Inbound Email Configuration** section, in the **Email receiving enabled** option, select **Yes** to enable the collection of events from email.
 
-3.  To configure the email information to pass to Event Management for event and alert processing, navigate to **System Policy** &gt; **Email** &gt; **Inbound Actions** and in the list of Inbound Email Actions records search for and open the default **create event** form.
+3.  Navigate to **System Policy** &gt; **Email** &gt; **Inbound Actions**.
+
+    In the list of Inbound Email Actions records, search for and open the default **create event** form.
 
     1.  On the **Inbound Email Actions** form, specify these values.
 

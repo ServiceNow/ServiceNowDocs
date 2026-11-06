@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Use Service Exchange for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create configuration revisions
@@ -25,10 +25,6 @@ A configuration can be one of the following:
 -   Remote task definition
 -   Remote record producer
 
-The following diagram shows how a configuration revision is created, published, and deployed to consumers.
-
-\[Omitted image "service-bridge-v2-config-revision.jpg"\] Alt text: Configuration revision lifecycle
-
 **Note:** The following sections describe the various stages in the configuration revision life-cycle of a remote task definition. You can:
 
 -   [Create a configuration revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-config-rev.md)
@@ -41,14 +37,14 @@ You can follow the same process to create revisions for a remote record producer
 
 ## Create a configuration revision
 
-1.  Navigate to the **All** &gt; **Service ExchangeProvider** &gt; **Remote task definitions**.
+1.  Navigate to the **All** &gt; **Service Exchange Provider** &gt; **Remote task definitions**.
 2.  Select the remote task definition for which you want to create a configuration revision.
 
     **Note:** The remote task definition that you select must be in the **Published** state.
 
     \[Omitted image "service-bridge-v2-remote-task-defn1.jpg"\] Alt text: Service Exchange Remote Task Definition
 
-    Note the **Compatibility** field. This field shows the Service Exchange version that is being used by the provider. If the consumer is using a compatible Service Exchange version, data can be synced between the provider and consumer instances. But if the consumer isn’t using a compatible version, any new entitlements can’t be activated until the corresponding Service Exchange version is upgraded. See [Service Exchange mismatched version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-mismatch-version.md) for additional information.
+    Note the **Compatibility** field. This field shows the Service Exchange version that is being used by the provider. If the consumer is using a compatible Service Exchange version, data can be synced between the provider and consumer instances. But if the consumer isn’t using a compatible version, any new entitlements can’t be activated until the corresponding Service Exchange version is upgraded. See [Mismatched version support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-mismatch-version.md) for additional information.
 
 3.  Select **Checkout**.
 4.  A new revision of the configuration is created and the State is set to **In Draft**.

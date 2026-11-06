@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/threats-feeds-alerts-crisis-map.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -33,13 +33,13 @@ When you integrate the Crisis map application with the BCM application, you can 
 
 ## Threat and Alert Data Feeds module in BCM
 
-The **Threat and Alert Data Feeds** module in BCM displays the following information:
+The **Threat and Alert Data Feeds** module in BCM displays details:
 
 -   **Feeds**
 -   **Alerts**
 -   **Administration**
 
-The **Threat and Alert Data Feeds** module is shown in the following example.
+The **Threat and Alert Data Feeds** module is shown in the example.
 
 \[Omitted image "threat-alert-data-feeds-admin-tasks.png"\] Alt text: Threat alerts and data feeds.
 
@@ -47,16 +47,16 @@ The **Threat and Alert Data Feeds** module is shown in the following example.
 
 A threat feed is the data intelligence information of a potential or current threat that can pose a danger to an organization. It can disrupt the business routine or disable its business processes. The Crisis map application receives the feeds from third-party sources such as GDAC Feeds and Weather Gov Alerts.
 
-The **Feeds** module in BCM displays the following types of feeds:
+The **Feeds** module in BCM displays types of feeds:
 
 -   **Active feeds**
 -   **Archived feeds**
 
-A sample view of the active feeds is displayed in the following example.
+A sample view of the active feeds is displayed in the example.
 
 \[Omitted image "feeds.png"\] Alt text: Active feeds view.
 
-You can use the **Personalize List** icon to configure the list columns in the **Feeds** module. For example, you can display the following additional details on the alert:
+You can use the **Personalize List** icon to configure the list columns in the **Feeds** module. For example, you can display additional details on the alert:
 
 -   Headline
 -   Event
@@ -67,7 +67,7 @@ You can use the **Personalize List** icon to configure the list columns in the *
 -   Data source
 -   Process state
 
-Threat feeds include information about real-time disruptive events as shown in the following sample list:
+Threat feeds include information about real-time disruptive events as shown in the sample list:
 
 -   Civil unrest or riots
 -   Flood advisory
@@ -83,17 +83,17 @@ Threat feeds include information about real-time disruptive events as shown in t
 
 An alert is a notification that reports an incident happened at a particular place and time. First, an incident or an event reportedly happens. Then, the alert triggers a notification that reports or notifies the incident to the concerned people to take an action.
 
-The **Alerts** module in BCM displays the following types of feeds:
+The **Alerts** module in BCM displays types of feeds:
 
 -   **Active alerts**
 -   **Dismissed alerts**
 -   **Alert responses**
 
-A sample view of the active alerts is shown in the following example.
+A sample view of the active alerts is shown in the example.
 
 \[Omitted image "alerts.png"\] Alt text: Active alerts.
 
-You can use the **Personalize List** icon to configure the list columns in the **Alerts** module. For example, you can display the following details on the alert:
+You can use the **Personalize List** icon to configure the list columns in the **Alerts** module. For example, you can display these details on the alert:
 
 -   Title
 -   Severity
@@ -107,7 +107,7 @@ You can use the **Personalize List** icon to configure the list columns in the *
 
 If you have the BCM administrator role, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-admin-tasks.md) for information on the setup tasks.
 
-The **Administration** module in BCM displays the following types of feeds:
+The **Administration** module in BCM displays types of feeds:
 
 -   **Scheduled imports**
 
@@ -132,6 +132,4 @@ The **Administration** module in BCM displays the following types of feeds:
 ## Crisis map
 
 For information on managing the alerts in Crisis map, see [Structured workflows for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-collective-tasks.md).
-
-**Parent Topic:**[Exploring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exploring-bcm.md)
 

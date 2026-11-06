@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Designing playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbooks in Service Portal
@@ -66,19 +66,8 @@ Service Portal playbooks are also supported in a mobile interface.
 
 The general life cycle of a Service Portal playbook can be summarized as:
 
--   A business process administrator builds the playbook in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md).
--   An administrator adds the playbook to a Service Portal page and customizes the playbook runtime experience at the same time through the ServiceNow AI Platform®. To learn more about embedding a playbook in Service Portal and further customizations in the ServiceNow AI Platform®, see [Embed the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/embed-playbook-service-portal.md).
--   Service Portal administrators and developers customize the playbook portal page. To learn more about using the Service Portal Designer to customize the playbook portal page, see [Customize the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/customize-playbook-service-portal.md).
+-   A business process administrator builds the playbook in Workflow Studio. To learn more about building a playbook in Workflow Studio, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md).
+-   An administrator adds the playbook to a Service Portal page and customizes the playbook runtime experience at the same time through the ServiceNow AI Platform®. To learn more about embedding a playbook in Service Portal and further customizations in the ServiceNow AI Platform®, see [Configure a playbook for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/embed-playbook-service-portal.md).
+-   Service Portal administrators and developers customize the playbook portal page. To learn more about using the Service Portal Designer to customize the playbook portal page, see [Customize a playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/customize-playbook-service-portal.md).
 -   Service Portal end users, also called requesters, launch and run through the playbook. To learn more about launching and running a playbook in Service Portal, see [Run a playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/run-a-playbook-in-service-portal.md).
-
--   **[Set up mappings between themes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/set-up-mappings-between-themes.md)**  
-Make sure that playbooks run as expected in your Service Portal by setting up mappings between your Service Portal theme and the UXF theme used in UI Builder.
--   **[Embed the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/embed-playbook-service-portal.md)**  
-Add a playbook that Service Portal users can launch and run by creating a Playbook Content Item.
--   **[Customize the playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/customize-playbook-service-portal.md)**  
-Use the Service Portal Designer to customize the playbook runtime experience for Service Portal users.
--   **[Run a playbook in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/run-a-playbook-in-service-portal.md)**  
-Launch a playbook as a Service Portal requestor.
-
-**Parent Topic:**[Designing playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-experience-admins.md)
 

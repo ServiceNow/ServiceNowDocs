@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Direct web services, SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Direct services, SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Retrieve choice fields using direct web services
@@ -27,8 +27,6 @@ To see a list of choice values:
 1.  Navigate to the form containing the choice field. For example, navigate to **Incident &gt; Open** and select an incident.
 2.  Right-click the choice value field and select **Configure Dictionary**. For example, configure the dictionary for the **State** field.
 3.  From the Choices related list, note the value for the label you want to query. For example, note that the **Closed** choice has a value of **7**.
-
-\[Omitted image "Choice\_values.png"\] Alt text: incident stat value
 
 **Parent Topic:**[Direct web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_DirectWebServices.md)
 

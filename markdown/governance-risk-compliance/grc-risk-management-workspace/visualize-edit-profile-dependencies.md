@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use entity and risk dependencies using the GRC: Workbench, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Role required: sn\_grc.manager
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d167702e100">
+<table id="choicetable_ar5_2j2_pw"><tbody><tr><td id="d320836e97">
 
 **To add an upstream entity dependency**
 
@@ -44,7 +44,7 @@ Role required: sn\_grc.manager
 
 Drag an eligible upstream entity from the list of eligible entities on the right and drop it on the top half of the entity in the center of the page.
 
-</td></tr><tr><td id="d167702e109">
+</td></tr><tr><td id="d320836e106">
 
 **To add a downstream entity dependency**
 

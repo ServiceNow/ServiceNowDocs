@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using an attribute pack for a CI record, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Attribute pack for CI records, Use, Telecommunications Network Inventory]
 ---
 
 # Review and update a pack for a CI record
@@ -35,7 +35,7 @@ Role required: sn\_ni\_core.inventory\_agent
 5.  Select **Save**.
 
 
-**Parent Topic:**[Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
+**Parent Topic:**[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
 
 **Related topics**  
 

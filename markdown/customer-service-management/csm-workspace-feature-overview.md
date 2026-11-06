@@ -1,45 +1,203 @@
 ---
 title: CRM Workspace features
-description: Agents can use several different features available in CRM Workspace to assist customers and resolve cases.
+description: CRM Workspace provides several tools and features that agents can use to assist customers, research issues, and resolve cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-feature-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-10-22"
+reading_time_minutes: 8
+breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CRM Workspace features
 
-Agents can use several different features available in CRM Workspace to assist customers and resolve cases.
+CRM Workspace provides several tools and features that agents can use to assist customers, research issues, and resolve cases.
 
-## CRM Workspace interface features
+<table id="table_csm_workspace_feature_overview"><thead><tr><th>
 
-Use these topics to get an overview of the CRM Workspace interface, landing pages, and forms.
+Feature
 
-|Feature overview|Description|
-|----------------|-----------|
-|[CSM workspace landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-landing-pages.md)|Provides customer service agents with an overview of their new, assigned, and high priority cases, plus the cases assigned to their groups.|
-|[CSM workspace form headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-form-headers.md)|Provides an overview of configurable form headers, the primary and secondary values included in the headers, and where this information appears.|
-|[CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-agent-workspace-agent-actions.md)|Provides an overview of agent actions, account hierarchy, special handling notes, related lists, and Agent Assist.|
-|[CSM workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-agent-workspace-ribbon.md)|Provides agents with a quick overview of the case details. Components in the form ribbon display relevant information about the case, including a contact or consumer summary, a timeline, and SLA details.|
+</th><th>
 
-## Additional features
+Description
 
-A number of additional features are available for use with CRM Workspace.
+</th></tr></thead><tbody><tr><td>
+
+[Multi-tab interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-interface.md)
+
+</td><td>
+
+Displays information using tabs and sub-tabs which enable agents to work on multiple cases, tasks, and other records within a single browser window. Agents can quickly move between records without losing their place.
+
+</td></tr><tr><td>
+
+[Contextual display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-interface.md)
+
+</td><td>
+
+Displays information that provides agents with a complete view of a customer's history, including interactions, products, and cases.
+
+</td></tr><tr><td>
+
+[Agent inbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-interface.md)
+
+</td><td>
+
+Agents see their assignments in their CRM Workspace inbox. Work assignments appear as cards in the inbox that agents can either choose to accept or reject. Agents can also set their status in the inbox, such as **Available** or **Busy**.
+
+</td></tr><tr><td>
+
+[Landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-landing-pages.md)
+
+</td><td>
+
+A landing page is an initial view of a user's workspace. For customer service agents, the landing page can show an overview of their new, assigned, and high priority cases, plus the cases assigned to their groups.
+
+</td></tr><tr><td>
+
+[List pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-list-views.md)
+
+</td><td>
+
+Provide filtered lists of cases, interactions, and other records such as accounts and contacts that enable agents to quickly find records and manage their work. Agents can also create and save personalized lists for quick access to relevant information.
+
+</td></tr><tr><td>
+
+[Record details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-interface.md)
+
+</td><td>
+
+Content pages determine how information is displayed in the workspace. [Record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md) display information about the current record. This can include details such as the account, contact, and priority for a case record or the communication channel, short description, and state for an interaction record.
+
+</td></tr><tr><td>
+
+[Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-side-panel-components.md)
+
+</td><td>
+
+A configurable panel that provides agents with additional tools and information such as search, Recommended Actions, attachments, related lists, and templates. This access helps agents research and resolve customer issues without leaving the case view.
+
+</td></tr><tr><td>
+
+[Activity stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-activity-stream.md)
+
+</td><td>
+
+The activity stream helps agents stay informed by displaying a chronological list of updates and communications within a record like field changes, comments, work notes, and emails.
+
+</td></tr><tr><td>
+
+[Compose](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/activity-stream-compose-configurable-workspace.md)
+
+</td><td>
+
+The Compose area in a configurable workspace record page enables agents to communicate with customers and other agents through comments, work notes, and emails.
+
+</td></tr><tr><td>
+
+[Modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.md)
+
+</td><td>
+
+Windows that overlay the main window content in a workspace. Agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
+
+</td></tr><tr><td>
+
+[Form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-form-templates.md)
+
+</td><td>
+
+Use form templates to populate fields on new records with selected values. Create and edit form templates for use in CRM Workspace and then use the templates to automatically populate the configured fields.
+
+</td></tr><tr><td>
+
+[Search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-side-panel-components.md)
+
+</td><td>
+
+Global search enables agents to search multiple record types at once from the Next Experience Unified Navigation [search field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-ais-next-experience-app.md).
+
+ The Recommended Actions tab in the contextual side panel includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-ai-search.md) functionality. This search feature displays an initial set of search results based on the text in the case short description, including knowledge articles. Agents can also enter different search keywords and repeat the search.
+
+</td></tr><tr><td>
+
+[AI tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-exploring.md)
+
+</td><td>
+
+Includes recommended solutions, such as knowledge articles and similar cases, and Recommended Actions.Use the ServiceNow Otto for Customer Service Management \(CSM\) application to summarize interaction chats and calls, summarize case information, and generate case resolution notes.
+
+</td></tr><tr><td>
+
+[Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-chat-summary.md)
+
+</td><td>
+
+The chat summarization feature automatically creates summaries of chat conversations. The agent can quickly gain an understanding of the interaction without reading the entire transcript of the conversation.
+
+</td></tr><tr><td>
+
+[Chat session tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-chat-session-tabs.md)
+
+</td><td>
+
+Visual indicators on chat session tabs, such as colors and icons, alert agents to unread chat messages and SLA threshold timers.
+
+</td></tr><tr><td>
+
+[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/lookup-and-verify-overview.md)
+
+</td><td>
+
+Use this feature to enable agents to quickly look up contacts or consumers using information such as the name, phone number, or record number.
+
+</td></tr><tr><td>
+
+[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-action-status-csm-workspace.md)
+
+</td><td>
+
+Use the case action status feature so that agents can identify cases that need attention.
+
+</td></tr><tr><td>
+
+[Display preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-preferences-next-experience.md)
+
+</td><td>
+
+Agents can personalize their workspace to suit their workflow. Display, theme, and notification preferences enable agents to control information density \(comfortable or compact modes\), choose color schemes \(light or dark mode\), and manage alerts.
+
+</td></tr><tr><td>
+
+Responsive pages and resizable panes
+
+</td><td>
+
+Workspace pages adapt to any device, automatically adjusting layout for desktop, tablet, and mobile screens. Agents can resize panes and use modeless dialogs that fit their workflow.
+
+</td></tr><tr><td>
+
+Dynamic page views
+
+</td><td>
+
+Workspace is context aware and can be tailored to support record and persona-based experiences, driven by UI Builder.
+
+</td></tr></tbody>
+</table>## Additional applications
+
+A number of additional applications are available for use with CRM Workspace.
 
 |Feature|Description|
 |-------|-----------|
 |[AWA for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/awa-csm-overview.md)|Use Advanced Work Assignment \(AWA\) to automatically assign work items to agents based on their availability, capacity, and skills.|
-|[Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-chat-summary.md)|Use chat summarization to automatically create summaries of chat conversations.|
-|[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md)|Use Workforce Optimization to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
-|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md)|Use Customer Central to provide agents with all of the information about a customer in one central location. This feature enables agents to quickly zoom in on the customer issue and provide efficient and supportive service.|
+|[Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md)|Use Customer Central to provide agents with all of the information about a customer in one central location. This feature enables agents to quickly focus on the customer issue and provide efficient and supportive service.|
+|[ServiceNow Link Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-chrome-link-manager.md)|Use the ServiceNow Link Manager feature to manage and organize browser tabs within a ServiceNow instance.|
+|[Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configurable-wfo-cs.md)|Use Workforce Optimization for Customer Service to manage and maintain the productivity of your workforce. Efficiently route work to your team, manage your team's skills and schedules, and monitor their performance.|
 |[Customer Service Case Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-case-types.md)|Use case types to handle different types of customer issues. A case type identifies the processes and the data needed to resolve a specific type of issue, such as a lost or missing credit card.|
 |[Proactive Customer Service Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/proactive-service-operations.md)|Use this feature to track the digital services used by your customers and to proactively create cases for service disruptions.|
 |[Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-case-playbooks.md)|Use playbooks to provide step-by-step guidance for completing the tasks needed to resolve specific types of customer service cases.|
 |[Guided Decisions for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-guided-decisions.md)|Use guided decisions to resolve complex cases faster and more efficiently by guiding customer service agents through a structured troubleshooting process.|
-|[Lookup and verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/lookup-and-verify-overview.md)|Use this feature to enable agents to quickly look up contacts or consumers using information such as the name, phone number, or record number.|
-|[Case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-action-status-csm-workspace.md)|Use the case action status feature so that agents can easily identify cases that need attention.|
 |[Estimated time to resolve a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ettr.md)|Use machine learning to predict the estimated time to resolve a case \(ETTR\) based on case attributes such as the short description, category, priority, and assignment group.|
 

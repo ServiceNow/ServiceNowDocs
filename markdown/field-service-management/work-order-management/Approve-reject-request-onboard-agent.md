@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Approve or reject requests for onboarding agents
@@ -42,6 +42,4 @@ Whenever a manager of the contractor company onboards a field service agent, the
 
         The newly onboarded agent is rejected by the parent company. External managers cannot assign the work order tasks to the agent.
 
-
-**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

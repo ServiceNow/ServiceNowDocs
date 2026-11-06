@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Digital Product Release reference, Digital Product Release, IT Service Management]
+breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
 
 # Domain separation and Digital Product Release

@@ -1,22 +1,21 @@
 ---
 title: Request an AI use case form
-description: The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
+description: The Request an AI use case form captures details, supporting documents, and compliance considerations for developing or procuring an AI-based solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system-form.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [request AI use case form, AI system intake form, intake fields]
 breadcrumb: [Request an AI use case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Request an AI use case form
 
-The Request an AI use case form is designed to streamline the request process for developing or procuring an AI-based solution. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with development and deployment of the AI-solution.
-
-See the following table for a description of the field values.
+The Request an AI use case form captures details, supporting documents, and compliance considerations for developing or procuring an AI-based solution.
 
 <table id="table_l35_zwl_kkb"><thead><tr><th>
 
@@ -44,7 +43,17 @@ State
 
 </td><td>
 
-Indicates whether the AI system is in the draft, development, or deployed state. For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-asset-lifecycle.md).
+Current state of the AI system: draft, development, or deployed. Draft is the default state.
+
+The following options are available.
+
+-   Draft
+-   Deployed
+-   Development
+
+For more information on states, see [AI asset lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-asset-lifecycle.md).
+
+**Note:** This field is available in the Request an AI use case form on the Employee Center.
 
 </td></tr><tr><td>
 
@@ -60,9 +69,11 @@ Model category
 
 </td><td>
 
-AI model category to classify how the system learns and decides. The options are as follows:-   **Agentic AI**: Acts autonomously to achieves goals by planning, deciding, and taking actions.
--   **Classic AI**: Follows fixed rules to solve structured problems.
--   **Generative AI**: Learns from data to create content like text, images, or code.
+AI model category to classify how the system learns and decides. The following options are available.
+
+-   Agentic AI: Acts autonomously to achieve goals by planning, deciding, and taking actions.
+-   Classic AI: Follows fixed rules to solve structured problems.
+-   Generative AI: Learns from data to create content like text, images, or code.
 
 </td></tr><tr><td>
 
@@ -70,7 +81,7 @@ Description
 
 </td><td>
 
-Brief description of the AI system, its core functionality, and intended use.
+Brief description of the AI system, its core functionality, and intended use.For example, an AI system that analyzes incident and request data to identify recurring issues and recommend proactive remediation actions.
 
 </td></tr><tr><td>
 
@@ -78,7 +89,7 @@ Documentation
 
 </td><td>
 
-Any supporting documentation for the dataset sources, training processes, and model behavior.
+Any supporting documentation for the dataset sources, training processes, and model behavior.For example, data source specifications, model cards, training summaries, or evaluation reports.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -106,11 +117,29 @@ Managed by
 
 </td><td>
 
-User responsible for managing the AI system.
+User responsible for managing the AI system. **Note:** This field is automatically populated with the name of the person who submitted the request.
+
+</td></tr><tr><td>
+
+Business application
+
+</td><td>
+
+One or more business applications to associate with the AI system. This field is available when the Enterprise Architecture for AICT plugin \(com.sn\_ea\_aict\) is active. The Enterprise Architecture for AICT plugin installs automatically with AI Control Tower Core \(sn\_ai\_governance\).
+
+ Associate one or more business applications with the AI system.
+
+-   You can select multiple business applications.
+-   If you don't select a business application, intake and onboarding continue without interruption.
+-   Retired business applications aren't available for selection.
+
+For more information, see [AI Control Tower integration with Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-aict.md).
+
+ **Note:** Starting in version 23.1.1, availability depends on the Enterprise Architecture for AICT plugin instead. If AI Risk and Compliance, Enterprise Architecture Workspace, and AI Control Tower Core are upgraded out of sync, this field's behavior and your existing business application associations may be temporarily affected. For more information, see .
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-AI models and Datasets
+AI models and datasets
 
 </td></tr><tr><td>
 
@@ -127,6 +156,142 @@ Datasets
 </td><td>
 
 Datasets to train or test the AI models. For example, ServiceNow Customer purchase history 1.0.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Use and purpose
+
+</td></tr><tr><td>
+
+Intended outcome of the AI system
+
+</td><td>
+
+Primary business outcome the AI system is expected to achieve. The following options are available.
+
+-   Not Applicable
+-   Efficiency Boost
+-   Quality Enhancement
+-   Decision Guidance
+-   Automation of Tasks
+-   Customer Experience Upgrade
+-   Insight Generation
+
+</td></tr><tr><td>
+
+Area where the AI system is used
+
+</td><td>
+
+Business or operational areas where the AI system is used or provides value.Select all that apply.
+
+-   Customer Services
+-   External Partner Ecosystem
+-   Finance &amp; Accounting
+-   HR &amp; Workforce
+-   Internal Operations
+-   IT &amp; Security
+-   Sales &amp; Marketing
+-   Supply Chain
+
+</td></tr><tr><td>
+
+Type of output produced
+
+</td><td>
+
+Type of outputs the AI system produces for users, systems, or downstream processes.Select all that apply.
+
+-   Automated Decisions
+-   Generated Content
+-   Insight &amp; Summaries
+-   Ranking &amp; Scores
+-   Recommendations
+-   Simple Alerts
+-   System Actions
+
+</td></tr><tr><td>
+
+People affected by the AI system
+
+</td><td>
+
+Groups of people who may be directly or indirectly affected by the AI system's outputs or decisions.Select all that apply.
+
+-   External Partners
+-   General Customer Base
+-   Internal Team
+-   Public or Large Audiences
+-   Specific Customer Groups
+
+</td></tr><tr><td>
+
+Level of human involvement
+
+</td><td>
+
+Degree of human guidance, review, or approval applied to the AI system's activities during operation.The following options are available.
+
+-   Not Applicable
+-   Full User Control
+-   User-Guided with AI Support
+-   Shared Control
+-   AI-Initiated with User Approval
+-   Fully Automated Workflow
+
+</td></tr><tr><td>
+
+Data used by the system
+
+</td><td>
+
+Types of data the AI system uses to process inputs and generate outputs.Select all that apply.
+
+-   Behavioral or Usage Data
+-   Business Operational Data
+-   Customer Interaction Data
+-   Profile or Account Data
+-   Public or General Info
+-   Sensitive Business Data
+
+</td></tr><tr><td>
+
+Interaction type with end users
+
+</td><td>
+
+End user interaction with the AI system, including whether outputs are visible, actionable, or interactive.The following options are available.
+
+-   Not Applicable
+-   No Direct Interaction
+-   Background Support
+-   Notifications &amp; Prompts
+-   User-Facing Recommendations
+-   Chat-Based Interaction
+-   Interactive Experience
+
+</td></tr><tr><td>
+
+System autonomy level
+
+</td><td>
+
+Extent to which the AI system initiates actions or decisions without human intervention.The following options are available.
+
+-   None
+-   Assistive \(AI suggests\)
+-   Semi-Automated \(acts with confirmation\)
+-   Condition-Based Automation
+-   Event-Triggered Automation
+-   Fully Automated Execution
+
+</td></tr><tr><td>
+
+Additional use and purpose details
+
+</td><td>
+
+Additional information or context that helps clarify the specific use and purpose of this AI system.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.md)

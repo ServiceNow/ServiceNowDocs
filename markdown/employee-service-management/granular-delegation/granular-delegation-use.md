@@ -7,7 +7,7 @@ release: yokohama
 product: Granular Delegation
 classification: granular-delegation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Granular Delegation, Employee Service Management]
 ---
@@ -81,7 +81,11 @@ Duties
 Select the duties you want to assign to the delegate for the time period you select.If your admin organized the duties into categories, the categories are listed before the individual duties. When you select a category, all of the duties in that category are selected.
 
 </td></tr></tbody>
-</table>6.  Select **Submit**.
+</table>    **Note:** Setting up delegation does not automatically delegate the existing active tasks of delegator prior to the delegation start date. Tasks are delegated only in the following cases:
+
+    -   A new case is assigned to the delegator between the delegation start and end dates.
+    -   An existing case of the delegator updated during the delegation period.
+6.  Select **Submit**.
 
     **Note:** You can also navigate to **Granular Delegation** &gt; **My Delegates** and select **New**, or **Granular Delegation** &gt; **Create New Delegate** to assign your tasks to another employee. For more information, see [View my delegates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/granular-delegation-use.md).
 

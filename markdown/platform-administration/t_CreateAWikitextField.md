@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateAWikitextField.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Wiki field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Wiki field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a Wikitext field
@@ -20,11 +20,9 @@ Role required: personalize\_form
 
 ## Procedure
 
-1.  Create a new field with the **Type** set to **Wiki**.
+1.  Create a field with the **Type** set to **Wiki**.
 
-2.  Click **Wikitext** to begin editing.
-
-    \[Omitted image "WikiPluginWikitext.png"\] Alt text: Wiki plugin wikitext
+2.  On the form with the new Wiki type field, select **Wikitext** to begin editing.
 
     The Wikitext field appears on the form.
 

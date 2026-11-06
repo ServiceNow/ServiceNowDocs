@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Password Reset Windows Application installation requirements
@@ -30,7 +30,7 @@ Required ServiceNow release
 
 </td><td>
 
-Password Reset Windows Application version 5.0 is supported on the San Diego, Tokyo, and Utah releases.
+Password Reset Windows Application version 5.1.4 is supported on the Yokohama, Xanadu, and Washington DC releases.
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ Required software
 
 </td><td>
 
--   Version of Password Reset Windows Application: 5.0
+-   Version of Password Reset Windows Application: 5.1.4
 -   Microsoft .NET Framework: 4.7.1 and newer
 -   Microsoft Visual C++: Redistributable Visual Studio 2017
 

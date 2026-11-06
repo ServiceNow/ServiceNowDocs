@@ -1,22 +1,29 @@
 ---
 title: Create additional account addresses
-description: An account can have multiple addresses, such as a main address as well as shipping and billing addresses.
+description: An account can have multiple addresses, such as a main address and shipping and billing addresses.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-account-address.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create customer accounts, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Create customer accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create additional account addresses
 
-An account can have multiple addresses, such as a main address as well as shipping and billing addresses.
+An account can have multiple addresses, such as a main address and shipping and billing addresses.
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager or admin
+Role required: One of the following roles:
+
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 
@@ -26,9 +33,9 @@ The main address for an account is stored in fields on the [Account form](https:
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Customer** &gt; **Accounts**.
 
-2.  Click the number of the desired account.
+2.  Select the number of the desired account.
 
-3.  In the **Addresses** related list, click **New**.
+3.  In the **Addresses** related list, select **New**.
 
 4.  Fill in the fields on the Location form.
 
@@ -38,6 +45,6 @@ The main address for an account is stored in fields on the [Account form](https:
 
     If you have multiple billing or shipping addresses, use this field to designate one as the primary address.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 

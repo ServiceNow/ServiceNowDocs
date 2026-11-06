@@ -7,16 +7,14 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and monitor hardware asset performance, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace
 
 Set up the necessary configurations in the Asset operations view to enable the tracking of KPIs for your hardware assets. These settings enable you to monitor and manage the performance your assets.
-
-**Important:** The settings to enable the tracking of asset performance are available with Hardware Asset Management version 13.0.0 and later.
 
 As an administrator, configure the following settings to monitor asset KPIs:
 
@@ -33,5 +31,5 @@ Define the scheduled operational time, which is the duration during which the as
 -   **[Map hardware assets to an operational schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/create-asset-schedule-ham.md)**  
 Create an asset schedule to map the hardware assets to an operation schedule.
 
-**Parent Topic:**[Manage and monitor hardware asset performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-and-monitor-hardware-asset-performance.md)
+**Parent Topic:**[Integrations and advanced configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/integrations-advncd-configs.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration services for Zoom reference, ServiceNow for Zoom, Zoom integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Collaboration services for Zoom reference, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # API permissions/scope for ServiceNow integration with Zoom

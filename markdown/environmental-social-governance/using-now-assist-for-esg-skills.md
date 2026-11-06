@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/using-now-assist-for-esg-skills.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-09-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Use]
 breadcrumb: [Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
@@ -19,7 +19,7 @@ The document intelligence for utility invoices reduces manual entry, and increas
 
 ## Modifying the instructions for ServiceNow Otto for Operational Sustainability skills
 
-Starting with the Yokohama release, users who have the ServiceNow Otto for Operational Sustainability plugin installed can use the document intelligence for utility invoices skill.
+Starting with the Brazil release, users who have the ServiceNow Otto for Operational Sustainability plugin installed can use the document intelligence for utility invoices skill.
 
 To modify the instructions for the Document Intelligence for utility invoices skill, follow the steps that are mentioned in [KB1806035](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1806035).
 

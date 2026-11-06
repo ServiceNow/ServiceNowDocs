@@ -7,7 +7,7 @@ release: yokohama
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval rules, Classic approvals, Build workflows]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Approval rules, Classic approvals, Build workflows]
 # Approve with a process guide
 
 Process guides work similarly to approval rules in that their execution is controlled via a condition.
+
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 

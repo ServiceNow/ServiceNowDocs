@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Zoom integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # ServiceNow for Zoom
@@ -109,23 +109,23 @@ Create custom integrations using Zoom spoke.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how agents and employees use Collaboration services for Zoom.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/explore-sn-zoom.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how agents and employees use Collaboration services for Zoom.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/explore-sn-zoom.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-sn-zoom.md)
 
 </td><td>
 
-[Integrate \[Omitted image "icon-integrate.png"\] Alt text: Extend Zoom capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Zoom capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Initiate and import Zoom chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Initiate and import Zoom chat messages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-sn-zoom.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components like Zoom APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-sn-zoom.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components like Zoom APIs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-sn-zoom.md)
 
 </td><td>
 

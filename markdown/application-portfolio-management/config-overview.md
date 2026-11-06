@@ -1,18 +1,18 @@
 ---
 title: Create and apply a configuration for the Overview section
-description: Create visualization configurations for the Overview section and apply them as needed.
+description: Create visualization configurations for the Portfolio Overview section and apply them as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/config-overview.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create and apply a configuration for the Overview section
 
-Create visualization configurations for the Overview section and apply them as needed.
+Create visualization configurations for the Portfolio Overview section and apply them as needed.
 
 ## Before you begin
 
@@ -176,5 +176,5 @@ Option to provide access to the selected users and user groups. Add users or gro
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Configure the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/customize-workspace.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-eaw.md)
 

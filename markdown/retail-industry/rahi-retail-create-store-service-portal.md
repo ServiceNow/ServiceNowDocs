@@ -1,24 +1,24 @@
 ---
 title: Create a store inquiry case from the Retail portal
-description: Create a retail store inquiry case from the Retail portal to report issues on behalf of the store that you are associated with.
+description: Create a retail store inquiry case from the Retail portal to report issues on behalf of the store that you're associated with. By using the Retail portal to create a case, you can more efficiently get updated information about your case in real time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-create-store-service-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage store inquiries, Retail]
 ---
 
 # Create a store inquiry case from the Retail portal
 
-Create a retail store inquiry case from the Retail portal to report issues on behalf of the store that you are associated with.
+Create a retail store inquiry case from the Retail portal to report issues on behalf of the store that you're associated with. By using the Retail portal to create a case, you can more efficiently get updated information about your case in real time.
 
 ## Before you begin
 
 You must have the Retail Store services plugin installed.
 
-Role required: sn\_rtl\_stre\_servcs.contributor , sn\_rtl\_stre\_servcs.agent, sn\_rtl\_stre\_servcs.agent\_manager
+Role required: sn\_rtl\_stre\_servcs.contributor , sn\_rtl\_stre\_servcs.agent, or sn\_rtl\_stre\_servcs.agent\_manager
 
 ## About this task
 
@@ -32,12 +32,12 @@ Store Inquiry Case \(sn\_rtl\_stre\_servcs\_inquiry\_case\) is extended from the
 
 1.  Navigate to **Home** &gt; **Catalog** &gt; **Catalog Items** &gt; **Store policy inquiry**.
 
-2.  Fill in the information about the request, such as which store the request is for, the priority of the request, purpose of the inquiry, and other details about the inquiry.
+2.  Fill in the information about the request, such as which store the request is for, what the priority of the request is, what the purpose of the inquiry is, and other details.
 
     |Fields|Description|
     |------|-----------|
     |**Requesting store**|Retail store that is making this request.|
-    |**Priority**|Sequence in which this case must be resolved, based on the impact and urgency.|
+    |**Priority**|Task sequence to resolve this case. The tasks are based on the impact and urgency of this request.|
     |**Briefly describe your policy inquiry**|Brief description about this request.|
     |**Detailed description of the inquiry, including any specific questions**|Details about this request.|
 

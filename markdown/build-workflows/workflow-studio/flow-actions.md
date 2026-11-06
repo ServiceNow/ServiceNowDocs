@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Workflow Studio actions
@@ -47,7 +47,7 @@ You can find any custom actions you created in the spoke to which they belong. A
 -   **[Add Worknote Link to Context action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-worknote-link.md)**  
 Add a journal field entry containing a link to the current flow context record. Use the link to view the flow execution details of the current flow. You can add a flow context link to any record that has a journal field.
 -   **[Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md)**  
-Request approval for a record with an approval field. You can configure a rule set for an approval, rejection, or cancellation. If a due date is added to an approval, the approval is automatically approved, rejected, or canceled if the approvers have not responded by the designated time.
+Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 -   **[Associate Record to Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/associate-to-email-action.md)**  
 Associate a record with an Email \[sys\_email\] record so that you can track which record is affected by the email.
 -   **[Create Catalog Task action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-catalog-task-flow-designer.md)**  
@@ -67,7 +67,7 @@ Removes one or all attachments associated with a record and deletes the attachme
 -   **[Delete Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/delete-record-flow-designer.md)**  
 Deletes a record on any table.
 -   **[Execute Skill action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/execute-skill-action.md)**  
-Run a published Now Assist skill and use the skill outputs in a flow or subflow.
+Run a published ServiceNow Otto for Creator skill and use the skill outputs in a flow or subflow.
 -   **[Fire Event action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/fire-event-action.md)**  
 Create a system event record in the Event \[sysevent\] table to be processed by a scheduled event handler. Pass event parameters using flow data.
 -   **[Get Attachments on Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/get-attachments-rec.md)**  
@@ -94,6 +94,8 @@ Associates a record from the Attachment \[sys\_attachment\] table with a target 
 Move attachments from an email to a record so that the files are available to your users when they view the record.
 -   **[Record Producer action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/record-producer-flow-designer.md)**  
  Create a Task record from a Record Producer Catalog Item \[sc\_cat\_item\]. The Task record inherits values from the catalog item's variable values.
+-   **[Run script action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/run-script-action.md)**  
+Run custom JavaScript code within a reusable action.
 -   **[Send Email action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/send-email-flow-designer.md)**  
 Send an email to specified users or groups as an action in a flow.
 -   **[Send Notification action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/send-notification-action.md)**  
@@ -108,8 +110,12 @@ Create a requested item \[sc\_req\_item\] on a Service Catalog Request \[sc\_req
 Look up and update multiple records as a single action. Using this action removes the need to separately look up a list of records and then process the list with For Each flow logic. Set field values with a template or add and configure them using data pills.
 -   **[Update Record action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/update-record-flow-designer.md)**  
 Update an existing record in a table. You can dynamically add and configure fields for the record.
+-   **[Use an AI agent action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/use-an-ai-agent-action.md)**  
+Use flow data to run an AI agent and configure the expected agent output for use later in the flow.
 -   **[Wait For Condition action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/wait-for-condition-flow-designer.md)**  
 Pause a flow until record values match a specific set of conditions.
+-   **[Wait For Email Reply action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/wait-for-email-reply-action.md)**  
+Pause a flow until an email reply is received to an outbound email record
 -   **[Wait For Message action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/wait-for-message-action.md)**  
 Pause a flow until it receives a specific message from the flow API. Specify the string message that resumes running the flow, and optionally provide a time out value to resume the flow if no message is received after a specific amount of time.
 

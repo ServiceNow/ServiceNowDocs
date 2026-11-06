@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/modifying-table-cleanup-policy-l2c-process-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Lead-to-Cash Process Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Modifying data retention and table cleanup policy for Lead-to-Cash Process Management

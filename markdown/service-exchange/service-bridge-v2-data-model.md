@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange reference, Service Exchange]
+breadcrumb: [Reference, Service Exchange]
 ---
 
 # Service Exchange data model
@@ -20,10 +20,6 @@ The data model uses a combination of the following types of tables to store data
 
 -   Service Exchange application tables.
 -   ServiceNow AI Platform standard tables.
-
-The following diagram provides an overview of the data model for Service Exchange.
-
-\[Omitted image "service-bridge-v2-data-model-full.jpg"\] Alt text: Diagram shows the Service Exchange data model
 
 The following table lists the Access Control Rights \(ACR\) for specific Service Exchange base table.
 
@@ -280,10 +276,4 @@ None
 None
 
 </td></tr></tbody>
-</table>-   **[Service Exchange for Providers data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-datamodel-provider.md)**  
-The Service Exchange for Providers data model provides insight into how the tables that are used in the Service Exchange for Providers application relate to each other.
--   **[Service Exchange for Consumers data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-datamodel-customers.md)**  
-The Service Exchange for Consumers data model provides insight into how the tables that are used in the Service Exchange for Consumers application relate to each other.
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
-
+</table>

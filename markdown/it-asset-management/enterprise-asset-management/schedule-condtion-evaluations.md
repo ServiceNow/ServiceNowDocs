@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Schedule condition evaluations for enterprise models or assets

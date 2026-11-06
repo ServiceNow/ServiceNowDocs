@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring survey-based work order questionnaires, Configuring work order questionnaires, Configuring work order tasks, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Survey-based questionnaires, Questionnaires, Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Activate Field Service Questionnaire
@@ -22,11 +22,9 @@ Role required: Admin
 
 -   Ensure that the following plugins are activated before you install Field Service com.snc.wm\_questionnaire.
     -   **Required ServiceNow plugins**
-        -   **Customer Service \(com.sn\_customerservice\)**
+        -   **Case Management Core \(com.sn\_customerservice\)**
         -   **Customer Service Management Demo Data \(com.snc.customerservice.demo\)**
         -   **Field Service Management**
-
-Role required: admin.
 
 ## Procedure
 

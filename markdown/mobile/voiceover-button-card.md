@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/voiceover-button-card.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring screen reader support in mobile, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Screen reader support, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Adding voiceover text for buttons defined as icon type within cards

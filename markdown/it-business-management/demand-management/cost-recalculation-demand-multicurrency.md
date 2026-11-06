@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enable demand currency view, Multicurrency, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ Updating the unit cost, quantity, or fiscal period of a cost plan updates all th
     When you change the fiscal period, either the start date or end date in the Cost Plan form, the following values are recalculated:
 
     -   The **Total planned cost** and the **Cost in demand currency** of the cost plan are recalculated. Therefore, the Cost Plan Breakdown records may be added or removed.
-    -   If the **Recurring** check box is not selected, then the **Cost in demand currency** of each Cost Plan Breakdown record is recalculated.
+    -   If the **Recurring** check box isn’t selected, then the **Cost in demand currency** of each Cost Plan Breakdown record is recalculated.
     -   The values in the **Capital expense in demand currency**, **Operating expense in demand currency**, and the **Total planned cost in demand currency** fields of the demand are recalculated.
 -   **Changes in the entered cost of a cost plan breakdown or manual addition of a breakdown**
 

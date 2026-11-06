@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Administer, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Administer, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure how to display related items on the map
@@ -24,7 +24,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Configuration settings that non-admin users can specify are described in [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Configuration settings that non-admin users can specify are described in [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
 
 Related items are grouped by category in the **Related items** panel. Related items also appear for CI badges on the map and timeline.
 
@@ -143,10 +143,10 @@ Optional end date field to use for a range on the timeline.
 </td></tr></tbody>
 </table>5.  Select **Submit** or **Update**.
 
-    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md).
+    The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md).
 
 
-**Parent Topic:**[Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md)
 
 **Related topics**  
 

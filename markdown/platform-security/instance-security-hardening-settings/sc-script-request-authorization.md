@@ -1,5 +1,5 @@
 ---
-title: Require authorization for script requests \[Updated in Security Center 1.3\]
+title: Require authorization for script requests
 description: Use the glide.basicauth.required.scriptedprocessor property to designate if incoming script requests should require basic authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-script-request-authorization.html
@@ -7,18 +7,22 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for script requests \[Updated in Security Center 1.3\]
+# Require authorization for script requests
 
 Use the **glide.basicauth.required.scriptedprocessor** property to designate if incoming script requests should require basic authentication.
 
-## More information
+The **glide.basicauth.required.scriptedprocessor** system property determines whether basic auth is required to invoke a scripted processor. Any records accessed by the scripted processor still use other access controls, such as ACLs, before returning any data. If **glide.basicauth.required.scriptedprocessor** isn't set to the recommended value of **true**, then an attacker could access sensitive information such as an unauthenticated \(guest\) user attempting to access an email through the EmailDisplay sys\_processor.
+
+Ensure the property **glide.basicauth.required.scriptedprocessor** exists in the System Properties \[sys\_properties\] table and is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+
+## More information
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -30,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -46,19 +50,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To enforce basic authentication on scripts requests.
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,15 +66,41 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Default value
 
 </td><td>
 
-7.2
+true
 
 </td></tr><tr><td>
 
-Functional Impact
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.2
+-   CVSS rating: High
+-   Security risk details: This property may allow unauthenticated users to invoke scripted processors, potentially exposing sensitive information despite existing ACLs.
+
+</td></tr><tr><td>
+
+Functional impact
 
 </td><td>
 
@@ -87,22 +109,12 @@ This remediation enforces the authentication in the form of Basic authorization.
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(High\) Without appropriate authorization configured on the incoming script requests, an unauthorized user access sensitive content/data on the target instance.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_Authentication.md)
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

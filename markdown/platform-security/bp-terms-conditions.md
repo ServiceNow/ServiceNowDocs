@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-terms-conditions.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Domain separation recommended practices for service providers, Domain separation for service providers, Access Management]
+breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
 
 # Domain separation terms
@@ -18,7 +18,7 @@ With a ServiceNow instance, you can improve efficiency, add greater security, an
 
 In a managed domain, the **Managed domain** field allows domain administrators to manually select a domain for the user, group, department, location, or CI record, rather than using the domain that is assigned automatically from the company record.
 
-If you want to change those properties, you can override them to further customize the functions of the applications in each of your domains.\[Omitted image "bp-managed-domain.png"\] Alt text: Manual override switch
+If you want to change those properties, you can override them to further customize the functions of the applications in each of your domains.
 
 ## Process tables
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitoring and investigating, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # View service health metrics
@@ -18,7 +18,7 @@ View detailed metrics for a service, as well as metrics from related entities, s
 
 ## About this task
 
-The **Observability** tab on the Service details page displays metrics for related entities inferred from external application performance management \(APM\) instances, enabling you to view related metrics without having to leave the ServiceNow platform.
+The **Observability** tab on the Service details page displays metrics for related entities inferred from external observability instances. You can view related metrics without leaving the ServiceNow platform.
 
 The metrics are grouped by the following entity types:
 
@@ -28,10 +28,11 @@ The metrics are grouped by the following entity types:
 
 For example, say you have metrics from New Relic used to monitor services, databases, and hosts. Say that you also have an issue with the `checkout` service and want to view performance information and metrics related to that service. Service Observability can show you the service, database, and host metrics related to that service that are coming from New Relic, along with related CI information from the ServiceNow platform. Each entity type has its own dashboard and each metric and related CI information has its own chart.
 
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
+
 ## Before you begin
 
--   For version 1.5.0, a service must be activated. For more information, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/activate-teams-and-services.md).
--   A data mapping must be configured. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
+A data mapping must be configured. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
 Role required: operator \[snc\_sow\_svcobs.manager\]
 
@@ -66,6 +67,6 @@ Role required: operator \[snc\_sow\_svcobs.manager\]
     -   Display metrics from a different time period using the time picker. The default time period is the last hour.
     -   Refresh the charts to the current time period of the last hour by selecting the **Refresh** button.
     -   Hover over a point to view detailed information.
-    For detailed information about using this page, refer to the corresponding Observability templates for your APM vendor described in [Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/observability-templates.md).
+    For detailed information about using this page, refer to the corresponding Observability templates for your observability vendor described in [Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/observability-templates.md).
 
 

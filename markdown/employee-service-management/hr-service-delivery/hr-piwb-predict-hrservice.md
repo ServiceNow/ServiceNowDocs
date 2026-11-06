@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -118,19 +118,20 @@ Role required: sn\_piwb\_hr\_content.admin
 
 29. View the test results data for the use case model in the **View test results** section.
 
-30. If you are ready to integrate your use case model into your business processes, return to the use case **Evaluate and tune your models** page and select the box next to the model that you want to integrate.**Start** in the **Integrate the best model** section.
+30. When you're ready to integrate your use case model into your business processes, do these steps:
+31. Return to the use case **Evaluate and tune your models** page, and select the box next to the model that you want to integrate.
 
-31. In the **Select an Action** list menu, select **Integrate this model**.
+32. Select **Start** in the **Integrate the best model** section.
+
+33. In the **Select an Action** list menu, select **Integrate this model**.
 
     The **Select a model to integrate** page opens.
 
-32. Click **Integrate**.
+34. Click **Integrate**.
 
-33. Click **Integrate** again when the pop-up asks you if you are sure you want to perform this action.
+35. Click **Integrate** again when the pop-up asks you if you're sure you want to perform this action.
 
     You have integrated a use case model into your business process.
-
-    **Note:** For details regarding trained use case integration implementation, refer to [Predictive Intelligence Workbench integration and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-piwb-integ-implem-custom.md).
 
 
 **Parent Topic:**[HR Predictive Intelligence Workbench implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-piwb-implementation-guidance.md)

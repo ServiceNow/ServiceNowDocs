@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [My Learning, Exploring Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [My Learning, Exploring Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Discover
@@ -25,6 +25,4 @@ The **Discover** tab has the following widgets that help you with a seamless lea
 |Trending now|Shows you courses, paths or collections that are trending now so you can discover new things to learn.|
 |Round out your skills|Recommends courses based on the skills you may want to improve for your role.|
 |Search|Enables you to search within Learning to find a course.|
-
-**Parent Topic:**[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp.md)
 

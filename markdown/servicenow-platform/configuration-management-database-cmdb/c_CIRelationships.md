@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-10-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CI relationships in the CMDB
@@ -249,7 +249,7 @@ When applying security to CI relationships, it is important to apply the access 
 -   **[Create a CI relation rollup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateACIRelationRollup.md)**  
 A CI relation rollup allows you to sum, count, max, min, or mean a relationship type. You can create CI relation rollups.
 
-**Parent Topic:**[Exploring CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 
 **Related topics**  
 

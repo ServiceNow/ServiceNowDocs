@@ -1,20 +1,20 @@
 ---
 title: Create an ACL
-description: Create an access control rule \(ACL\) to prevent the Needs review field from being modified after it has been set.
+description: Create an access control rule \(ACL\) to avoid the Needs review field from being modified after it has been set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/t\_CreateNewACL.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: add a new change management state, Reference section for Change Management, Change Management, IT Service Management]
+breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Create an ACL
 
-Create an access control rule \(ACL\) to prevent the **Needs review** field from being modified after it has been set.
+Create an access control rule \(ACL\) to avoid the **Needs review** field from being modified after it has been set.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin with elevated security
 
 The newly created UI Policy makes the **Needs review** field mandatory when a change request reaches the **Complete** state.
 
-The subsequent configuration of the state model ensures that a value is required in the **Needs review** field before the change request can be saved in the **Complete** state. To prevent the **Needs review** value from being changed after it has been set, create a new access control level record \(ACL\) to make the field read-only.
+The subsequent configuration of the state model ensures that a value is required in the **Needs review** field before the change request can be saved in the **Complete** state. To avoid the **Needs review** value from being changed after it has been set, create access control level record \(ACL\) to make the field read-only.
 
 ## Procedure
 
@@ -32,11 +32,11 @@ The subsequent configuration of the state model ensures that a value is required
 
 2.  Open the form context menu and select **Configure** &gt; **Security Rules**.
 
-3.  Elevate your security role in the user menu that opens when you click your name in the header.
+3.  Elevate your security role in the user menu that opens when you select your name in the header.
 
     Only administrators with elevated security roles can add ACLs.
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  Enter the following values.
 
@@ -50,10 +50,10 @@ The subsequent configuration of the state model ensures that a value is required
 
     \[Omitted image "NewStateTutNewACL1.png"\] Alt text: New change request ACL
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddUIPolicy.md)
 

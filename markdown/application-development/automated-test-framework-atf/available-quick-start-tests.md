@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 108
-breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 110
+breadcrumb: [Quick start tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Available quick start tests by application or feature
@@ -219,11 +219,11 @@ Enterprise Architecture quick start tests require enabling the Enterprise Archit
 |Enterprise Architecture: Test for Indicator Score and Application Score generation|Verify the creation of indicator, scoring profile, and generation of indicator scores and application scores.|Paris|
 |Enterprise Architecture: Business Application with Information Object and Data Domain|Verify the creation of business application, information object, and addition of the CRUD operations in relation attributes.|Quebec|
 
-To learn more about Enterprise Architecture \(formerly Application Portfolio Management\), see [Application Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/application-portfolio-management.md).
+To learn more about Enterprise Architecture \(formerly Application Portfolio Management\), see [Enterprise Architecture \(formerly Application Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/application-portfolio-management-landing-page.md) .
 
 ## Assessments and Surveys
 
-Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl. Survey\).
+Assessments and Surveys quick start tests require activating the Automated Test Framework for Survey plugin \(com.glide.automated\_testing\_impl.survey\).
 
 |Name|Description|Release version|
 |----|-----------|---------------|
@@ -382,7 +382,7 @@ Coaching quick start tests requires activation of the Coaching plugin \(com.sn\_
 |Coaching: Submit Coaching survey as a Coach user.|Verify that coach can submit survey for a trainee.|Quebec|
 |Coaching: Submit Coaching survey as a Traineer user.|Verify that trainee can submit survey for a coach.|Quebec|
 
-To learn more about coaching, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/coaching-landing.md).
+To learn more about coaching, see [Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cf-coaching-landing.md).
 
 ## Communities
 
@@ -427,7 +427,7 @@ Configuration Management Database \(CMDB\) quick start tests require activating 
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|CMDB BSM: Dependency Views|Test functionality of Dependency Views APIs. These APIs retrieve Dependency Views map and associated map items such as context menu items, for a given CI sys\_id and using itil user role.|New York|
+|CMDB BSM: Dependency Views|Test functionality of Dependency Views APIs. These APIs retrieve Dependency Views map and associated map items such as context menu items, for a given CI sys\_id and using sn\_cmdb\_editor or itil user role.|New York|
 
 <table id="table_ipl_qdw_nhb"><thead><tr><th>
 
@@ -500,7 +500,7 @@ CMDB IRE: Reconciliation Rule
 
 </td><td>
 
-Check operations on a reconciliation rule, in CI Class Manager, using itil and itil\_admin roles. Operations include create, edit, and delete a reconciliation rule.
+Check operations on a reconciliation rule, in CI Class Manager, using sn\_cmdb\_editor, sn\_cmdb\_admin, itil, and itil\_admin roles. Operations include create, edit, and delete a reconciliation rule.
 
  Also, check for active and not active setting, and derived rules.
 
@@ -514,7 +514,7 @@ CMDB IRE: Identification Rule
 
 </td><td>
 
-Check operations on an identification rule, in CI Class Manager, using itil and itil\_admin roles. Operations include create, edit, and delete an identification rule.
+Check operations on an identification rule, in CI Class Manager, using sn\_cmdb\_editor, sn\_cmdb\_admin, itil, and itil\_admin roles. Operations include create, edit, and delete an identification rule.
 
  Also, check for active and not active setting, and derived rules.
 
@@ -530,8 +530,8 @@ Paris
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using itil user role.|New York|
-|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, and associated records displayed for a specific CI in relationship formatter using itil user role.|New York|
+|CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using sn\_cmdb\_editor and itil user roles.|New York|
+|CMDB REL FORMATTER:Relationship Formatter|Check CI information, relationship types, relationships, associated records, and CMDB views displayed in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
 
 |Test|Description|Release version|
 |----|-----------|---------------|
@@ -567,8 +567,8 @@ All Customer Service Management quick start tests require activating the Custome
 -   Case Playbook for Onboarding \(sn\_onboarding\)
 -   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
 -   CSM Contributor User \(com.snc\_csm\_contributor\_user\)
--   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
--   Customer Service Household \(com.snc.household\)
+-   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   Customer Household Data Model \(com.snc.household\)
 -   Customer Service Management for Orders \(com.snc.csm.order\)
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
@@ -763,6 +763,224 @@ Madrid
 
 </td></tr><tr><td>
 
+CSM: Create Major Case and its Child Cases
+
+</td><td>
+
+Create a major case and the associated child cases for the customer accounts in the recipient list. **Note:** Requires Major Issue Management.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Agent Creating Request for Customer
+
+</td><td>
+
+As a customer service agent, create a request for a customer. **Note:** Requires Customer Service Request Integration.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Register New Case Type
+
+</td><td>
+
+Register a case type and verify the record is created.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Create Project for an Account
+
+</td><td>
+
+Project Manager creates project for an account.**Note:** Requires Customer Project Management.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Identify Project Contact
+
+</td><td>
+
+Project manager identifies customers to a project.**Note:** Requires Customer Project Management.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Create Case from Project
+
+</td><td>
+
+Create a case from a project.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Advanced Type Skill Determination Rule Test
+
+</td><td>
+
+Create an advanced type skill determination rule.
+
+ **Note:** Requires Skill Determination.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Create Case from Project Task
+
+</td><td>
+
+Create a case from a project task.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Create Task from Case
+
+</td><td>
+
+Create a case task from a case.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Assign Case Task to Case Task Agent
+
+</td><td>
+
+The customer service agent creates and assigns a case task to a case task agent.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Case Task Agent views assigned Case Task
+
+</td><td>
+
+Verifies that the case task agent can view an assigned case task.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Case Task Agent Completes Assigned Task
+
+</td><td>
+
+The case task agent completes an assigned case task.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM-Create a case using 'Create a case \(POST\)' API
+
+</td><td>
+
+Create a case using 'Create a case \(POST\)' API.**Note:** Requires a user authentication record assigned to the **Basic authentication** field in step 1 of the ATF.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM-Query a case using 'Query a case \(GET\)' API
+
+</td><td>
+
+Query a case using 'Query a case \(GET\)' API.**Note:** Requires a user authentication record assigned to the **Basic authentication** field in step 1 of the ATF.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Address sharing across Accounts
+
+</td><td>
+
+Implement reusable addresses for accounts to support complex customer operations and business models.
+
+</td><td>
+
+Washington DC
+
+</td></tr><tr><td>
+
+CSM: Manage Consumer Profile Locations
+
+</td><td>
+
+Create and manage consumer locations, and map them to consumer profiles.
+
+</td><td>
+
+Washington DC
+
+</td></tr><tr><td>
+
+CSM: OCS Manager creating New OSP
+
+</td><td>
+
+Verify that a new Outsourced Service Provider \(OSP\) is created by the OCS internal manager. **Note:** Requires Outsourced Customer Service.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Case Creation by OCS Agent
+
+</td><td>
+
+Verify that an Outsourced Customer Service agent is able to create a case. **Note:** Requires Outsourced Customer Service.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
 CSM - Create Proactive Case by NOC Operator
 
 </td><td>
@@ -779,7 +997,7 @@ CSM - Employee creating case OBO customer
 
 </td><td>
 
-As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the CSM Extension for Proxy Contacts.
+As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the Customer Proxy Contacts.
 
 </td><td>
 
@@ -823,95 +1041,11 @@ New York
 
 </td></tr><tr><td>
 
-CSM: Register New Case Type
-
-</td><td>
-
-Register a case type and verify the record is created.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Project Manager create Project for an Account
-
-</td><td>
-
-Project Manager creates project for an account.**Note:** Requires Customer Project Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Project Manager identify Project Contact
-
-</td><td>
-
-Project manager identifies customers to a project.**Note:** Requires Customer Project Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
 CSM - Project Manager create project task and assign to a customer
 
 </td><td>
 
 Project manager creates project task and assigns to a customer.**Note:** Requires Customer Project Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Create Case from Project
-
-</td><td>
-
-Create a case from a project.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Create Case from Project Task
-
-</td><td>
-
-Create a case from a project task.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Create Task from Case
-
-</td><td>
-
-Create a case task from a case.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Agent Creating Request for Customer
-
-</td><td>
-
-As a customer service agent, create a request for a customer. **Note:** Requires Customer Service Request Integration.
 
 </td><td>
 
@@ -948,32 +1082,6 @@ CSM - Agent Create Change Requests for a project
 </td><td>
 
 As a customer service agent, create a change request for a project.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Create Major Case and its Child Cases
-
-</td><td>
-
-Create a major case and the associated child cases for the customer accounts in the recipient list. **Note:** Requires Major Issue Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Advanced Type Skill Determination Rule Test
-
-</td><td>
-
-Create an advanced type skill determination rule.
-
- **Note:** Requires Skill Determination.
 
 </td><td>
 
@@ -1035,7 +1143,7 @@ CSM: Create Sold Product on Household
 
 </td><td>
 
-Create a sold product on a household and its member. **Note:** Requires Customer Service Install Base Management and Customer Service Household with **Load demo data** enabled.
+Create a sold product on a household and its member. **Note:** Requires Customer Service Install Base Management and Customer Household Data Model with **Load demo data** enabled.
 
 </td><td>
 
@@ -1052,42 +1160,6 @@ Validates the functionality of the **Refresh Install Base Health** button on the
 </td><td>
 
 Quebec
-
-</td></tr><tr><td>
-
-CSM: Assign Case Task to Case Task Agent
-
-</td><td>
-
-The customer service agent creates and assigns a case task to a case task agent.
-
-</td><td>
-
-Rome
-
-</td></tr><tr><td>
-
-CSM: Case Task Agent views assigned Case Task
-
-</td><td>
-
-Verifies that the case task agent can view an assigned case task.
-
-</td><td>
-
-Rome
-
-</td></tr><tr><td>
-
-CSM: Case Task Agent Completes Assigned Task
-
-</td><td>
-
-The case task agent completes an assigned case task.
-
-</td><td>
-
-Rome
 
 </td></tr><tr><td>
 
@@ -1196,6 +1268,18 @@ Verifies the creation of a business location and onboarding a member to it.
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+CSM: Escalate or de-escalate account workflow
+
+</td><td>
+
+Escalate or de-escalate account workflow
+
+</td><td>
+
+Zurich
 
 </td></tr></tbody>
 </table>|Test|Description|Release version|
@@ -1377,7 +1461,7 @@ CSM - Create case from Portal as Consumer Contributor
 
 </td><td>
 
-Creates a customer case from the portal by a user with the consumer contributor user role \(sn\_customerservice.consumer\_contributor\).**Note:** Requires Business Location, Customer Service Household, and CSM Contributor User.
+Creates a customer case from the portal by a user with the consumer contributor user role \(sn\_customerservice.consumer\_contributor\).**Note:** Requires Business Location, Customer Household Data Model, and CSM Contributor User.
 
 </td><td>
 
@@ -1389,7 +1473,7 @@ CSM - Create case from Portal as Account Contributor
 
 </td><td>
 
-Creates a customer case from the portal by a user with the account contributor user role \(sn\_customerservice.account\_contributor\).**Note:** Requires Business Location, Customer Service Household, and CSM Contributor User.
+Creates a customer case from the portal by a user with the account contributor user role \(sn\_customerservice.account\_contributor\).**Note:** Requires Business Location, Customer Household Data Model, and CSM Contributor User.
 
 </td><td>
 
@@ -1397,7 +1481,7 @@ Rome
 
 </td></tr><tr><td>
 
-CSM - Add Related parties on Case and perform action on case as Related party
+CSM - Add related parties on Case and perform action on case as Related party
 
 </td><td>
 
@@ -1406,6 +1490,18 @@ Verify the ability to add related parties to the case and perform actions on the
 </td><td>
 
 Rome
+
+</td></tr><tr><td>
+
+CSM - Create product case as an account consumer from the CSM Portal
+
+</td><td>
+
+Create a product case as an account from the customer service portal.**Note:** Requires Customer Service Portal. Also requires that the test be run as admin.
+
+</td><td>
+
+Australia
 
 </td></tr></tbody>
 </table><table id="table_lss_wlb_4jb"><thead><tr><th>
@@ -1422,7 +1518,7 @@ Release version
 
 </th></tr></thead><tbody><tr><td>
 
-CSP - Create Product Case as Consumer from CSP Portal
+CSP - Create product case as consumer from CSP Portal
 
 </td><td>
 
@@ -1434,7 +1530,7 @@ Madrid
 
 </td></tr><tr><td>
 
-CSP - Search on Homepage
+CSP - Search on homepage
 
 </td><td>
 
@@ -1446,7 +1542,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Update Support Profile
+CSP - Update support profile
 
 </td><td>
 
@@ -1458,7 +1554,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Register Your Product
+CSP - Register your product
 
 </td><td>
 
@@ -1482,7 +1578,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Accept Proposed Solution On Case
+CSP - Accept proposed solution on case
 
 </td><td>
 
@@ -1494,7 +1590,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Provide Feedback on Survey
+CSP - Provide feedback on Survey
 
 </td><td>
 
@@ -1506,7 +1602,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - View Publications on CSP Portal
+CSP - View publications on CSP Portal
 
 </td><td>
 
@@ -1518,11 +1614,11 @@ Orlando
 
 </td></tr><tr><td>
 
-CSP - Create Product Case as an internal unified consumer from CSP Portal
+CSP - Create product case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-Verify creating a product case as an internal unified consumer from the CSP portal using the Customer Service and Consumer Service Portal plugins.
+Verifies creating a product case as an internal unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -1530,15 +1626,27 @@ Yokohama
 
 </td></tr><tr><td>
 
-CSP - Create Product Case as an external unified consumer from CSP Portal
+CSP - Create product case as an external unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies creating a product case as an external unified consumer from the CSP portal with the Customer Service and Consumer Service Portal plugins.
+Verifies creating a product case as an external unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+CSP - Create household member as an account consumer from the CSM Portal
+
+</td><td>
+
+Create a household member as an account from the customer service portal.**Note:** Requires Customer Service Portal. Also requires that the test be run as admin.
+
+</td><td>
+
+Australia
 
 </td></tr></tbody>
 </table>|Test|Description|Release version|
@@ -2046,7 +2154,7 @@ Essential SAFe: Team PI Objective tests
 
 Verify the functionality of creating and updating team PI Objectives-   Verify that you can create a team-level PI objective
 -   Verify that you can update the created PI objective with the planned business value \(PBV\) and actual business value \(ABV\)
--   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to the team PBV
+-   Verify that the percentage of business value achieved is computed as the percentage of ABV complete for committed PI objectives compared to team PBV
 
 </td><td>
 
@@ -2464,6 +2572,36 @@ Clone a work order task
 
 Yokohama
 
+</td></tr><tr><td>
+
+Create a time worked entry as a dispatcher or qualifier
+
+</td><td>
+
+-   From the CSM/FSM Configurable workspace, go to the List view and create a new work order.
+-   Qualify the work order and verify that a work order task is created.
+-   Select **Record Time**, then fill in the time worked entry and select **Save**.
+-   Verify that the time worked entry is created successfully.
+
+</td><td>
+
+Brazil
+
+</td></tr><tr><td>
+
+Flag a work order task from CSM/FSM Configurable workspace
+
+</td><td>
+
+-   From the CSM/FSM Configurable workspace, as a user with the Dispatcher or Qualifier role, go to the List view and create a new work order.
+-   Qualify the Work order and verify if a Work order task is created.
+-   Go to the Work order task you created and select **Flag**. Verify the work order task is flagged and you see a **Unflag** button.
+-   Select **Unflag** and verify work order task is now unflagged, and the **Flag** button is available.
+
+</td><td>
+
+Brazil
+
 </td></tr></tbody>
 </table>## Finance Close Automation
 
@@ -2501,7 +2639,7 @@ Granular Delegation quick start tests require activating the Granular Delegation
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|\[Delegation\] Admin - Adding a delegation rule with delegator and delegate user criteria|Ensures a delegate or delegator honors the user criteria assigned to an HR task.|Yokohama|
+|\[Delegation\] Admin - Adding a delegation rule with delegator and delegate user criteria|Ensures a delegate or delegator honors the user criteria assigned to an HR task.|Brazil|
 
 ## GRC Audit Management
 
@@ -2537,7 +2675,7 @@ GRC: Create and process a milestone
 
 </td><td>
 
-Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes when the milestone state changes.
+Create a milestone in an engagement. The due date cannot be in the past and the completion date cannot be in the future. For a milestone in open state, the percent complete is 0 and changes with the milestone state.
 
 </td><td>
 
@@ -2549,7 +2687,7 @@ GRC: Cost and Resource plan rollup
 
 </td><td>
 
-Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to the engagement. The costs are rolled up to the plan. Any edits to these costs in the engagement are reflected in the plan.
+Create an audit plan and associate an engagement to it. Add a cost plan and resource plan to this engagement. Notice that these costs are rolled up to the plan. Any edits to these costs in engagement reflects in the plan.
 
 </td><td>
 
@@ -2561,7 +2699,7 @@ GRC: Create Engagement Project Manual and automatic
 
 </td><td>
 
-On an engagement in the validate state, perform the Enable advanced planning ui-action. An engagement project is created. When the state of an engagement associated to an audit plan with Advanced planning capabilities is changed to validate, an engagement project is created automatically.
+On an engagement in the validate state, perform the Enable advanced planning ui-action. An engagement project gets created. When the state of an engagement associated to an audit plan having "Advanced planning capabilities" is changed to validate, an engagement project gets created automatically.
 
 </td><td>
 
@@ -2573,7 +2711,7 @@ GRC: Auditable Unit with Detailed Risk Assessment
 
 </td><td>
 
-Create an Auditable unit with method as "Detailed Risk Assessment" and request for Assessing the Risk Assessment by adding the Assessor. The assessor responds and marks the assessment as Complete after performing the control assessment and residual assessment. The risk assessment fields are automatically updated.
+Create an Auditable unit with method as "Detailed Risk Assessment" and request for Assessing the Risk Assessment by adding the Assessor. Once the assessor responds and marks Assessment as Complete after performing the control assessment and residual assessment, the risk assessment fields are automatically updated.
 
 </td><td>
 
@@ -3354,7 +3492,7 @@ Paris
 
 ## Knowledge Management
 
-Knowledge Management quick start tests require activating the following plugins: Knowledge Management Core \(com.glideapp.knowledge\), Knowledge Management Advanced Installer \(com.snc.knowledge\_advanced.installer\), Knowledge Blocks \(com.snc.knowledge\_blocks\), and Customer Service Management Demo Data \(com.snc.customerservice.demo\).
+Knowledge Management quick start tests require activating the Knowledge Management Core plugin \(com.glideapp.knowledge\), the Knowledge Management Advanced Installer plugin \(com.snc.knowledge\_advanced.installer\), and the Knowledge Blocks plugin \(com.snc.knowledge\_blocks\). The tests also require activating the Customer Service Management Demo Data plugin \(com.snc.customerservice.demo\).
 
 <table id="table_whf_nfg_h1c"><thead><tr><th>
 
@@ -3777,14 +3915,14 @@ Madrid
 
 ## Predictive Intelligence
 
-Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atfin the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). To run the tests successfully, the user attached to the ml\_atf authorization profile must have the ml\_admin role.
+Predictive Intelligence quick start tests require activating the Predictive Intelligence \[com.glide.platform\_ml\] plugin. To execute critical upgrade tests on existing machine learning solutions, create a basic authorization profile named ml\_atf in the Basic Auth Configurations table \(sys\_auth\_profile\_basic.list\). To run the tests successfully, the user attached to the ml\_atf authorization profile must have the ml\_admin role.
 
-|Test|Description|Release version|
-|----|-----------|---------------|
-|PI: Presence of ML model artifacts persisted in glide|Verify all the trained ML model artifacts are persisted in glide \(sys\_attachments table\) after model training/instance cloning so that ML prediction calls are successful.|New York|
-|PI: Valid setup of ML user \(sharedservice.worker\) in glide|Validate if the ML user in glide \(sharedservice.worker\) is active and not logged out so that model training is successful.|New York|
-|PI: Glide upgrade test for Classification solution|Validate that the classification model prediction on existing active models is producing the same class membership and confidence value results after a glide upgrade.|New York|
-|PI: Glide upgrade test for Similarity solution|Validate that the similarity model prediction API calls on active models are successful after a glide upgrade.|New York|
+|Test|Description|
+|----|-----------|
+|PI: Presence of ML model artifacts persisted in glide|Verify all the trained ML model artifacts are persisted in glide \(sys\_attachments table\) after model training/instance cloning so that ML prediction calls are successful.|
+|PI: Valid setup of ML user \(sharedservice.worker\) in glide|Validate if the ML user in glide \(sharedservice.worker\) is active and not logged out so that model training is successful.|
+|PI: Glide upgrade test for Classification solution|Validate that the classification model prediction on existing active models is producing the same class membership and confidence value results after a glide upgrade.|
+|PI: Glide upgrade test for Similarity solution|Validate that the similarity model prediction API calls on active models are successful after a glide upgrade.|
 
 ## Problem Management
 
@@ -4151,7 +4289,7 @@ Validate Project is not 100 percent complete if it has atleast one task as close
 
 </td><td>
 
-Validate the project percent complete is not 100% when at least one task is Closed Incomplete or Closed Skipped. Task percent complete must be less than 100%.
+Validate the project percent complete is not 100% when at least one task is Closed Incomplete or Closed Skipped with task % complete less than 100%.
 
 </td><td>
 
@@ -4321,7 +4459,7 @@ Validate project preference "close project milestone tasks when they change to w
 
 </td><td>
 
-Validate that milestone tasks are closed when their state changes to Work in Progress. This test uses the project preference "close project milestone tasks when they change to work state".
+Validate that milestone tasks are closed when their state changes to Work in Progress. The project preference "close project milestone tasks when they change to work state" must be set.
 
 </td><td>
 
@@ -4333,7 +4471,7 @@ Validate project preference "Enable move project for WIP projects"
 
 </td><td>
 
-Validate that the project start date changes appropriately for a project in WIP state after setting the project preference to "Enable move project for WIP projects".
+Validate that the project start date changes appropriately for a WIP project after setting the "Enable move project for WIP projects" preference.
 
 </td><td>
 
@@ -4345,7 +4483,7 @@ Validate project preference "Rollup project start date from tasks"
 
 </td><td>
 
-Validate that the start date of a project task does not roll up to the project when the project planned dates differ from the task start date. This test uses the deselected project preference "Rollup project start date from tasks".
+Validate that the project task start date does not roll up to the project after deselecting the "Rollup project start date from tasks" preference.
 
 </td><td>
 
@@ -4495,7 +4633,7 @@ Verify aggregated cost of all resource plans roll up to the corresponding projec
 
 </td><td>
 
-Validate that the aggregated cost of all resource plans rolls up to the Planned Cost, Allocated Cost, and Resource Cost fields.
+Validate that the aggregated cost of all resource plans on a project or demand roll up to the Planned Cost and Allocated Cost fields. Verify the costs also roll up to the Resource Cost section of respective projects and demands.
 
 </td><td>
 
@@ -4585,7 +4723,7 @@ Resource-Test the default population of resource plan start &amp; end date
 </td><td>
 
 Validate the following on creating a user or group resource plan from the related list of a demand:-   If a demand is created without a start date and end date, the user or group resource plan has task as demand and no start and end date.
--   If a demand is created with a start date and end date, the user resource plan has the task as demand with the specified dates.
+-   If a demand is created with a start date and end date, the user resource plan has the task as demand with those dates.
 
 </td><td>
 
@@ -4597,7 +4735,7 @@ Validate that actual hours in operational resource plan and time card are equal
 
 </td><td>
 
-Validate that actual hours in the resource plan and time card are equal when a time card category is mapped with an operational work type.
+Validate that a time card category is mapped with an operational work type. On submitting the time card, verify that the actual hours in the resource plan and time card are equal.
 
 </td><td>
 
@@ -4651,7 +4789,7 @@ The Reporting quick start test Automated Test Framework - Reporting plugin \(com
 |----|-----------|---------------|
 |Report Visibility|Confirm whether reports are still visible to users whom they are shared with.|Madrid|
 
-## Software Asset Management Foundation plugin Software Asset Management
+## Basic Software Asset Management Software Asset Management
 
 Software Asset Management quick start tests require activating the Software Asset Management Professional plugin \(com.snc.samp\). Some quick start tests require activating the following additional plugins.
 
@@ -4953,18 +5091,6 @@ Madrid
 
 </td></tr><tr><td>
 
-SIR: Security Incident life cycle
-
-</td><td>
-
-Validate the response tasks of the Policy Violation workflow.
-
-</td><td>
-
-Madrid
-
-</td></tr><tr><td>
-
 SIR: PIR Assessments OOTB configuration test
 
 </td><td>
@@ -5171,12 +5297,48 @@ Create new response task from an existing security incident.
 
 Yokohama
 
+</td></tr><tr><td>
+
+Now Assist for Security: Active Security Incident Summarization
+
+</td><td>
+
+Summarize an active security incident and validate the displayed sections.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+Now Assist for Security: Security Incident Summarization\_Share to worknotes
+
+</td><td>
+
+Share the generated summary to worknotes.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+Now Assist for Security: Closed Security Incident Summarization
+
+</td><td>
+
+Summarize a closed security incident and validate the displayed sections.
+
+</td><td>
+
+Zurich
+
 </td></tr></tbody>
 </table>To learn more about Security Incident Response, see [Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/sir-landing-page.md).
 
 ## Service Level Management
 
-Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.service\_level\_management.atf\).
+Service Level Management quick start tests require activating the Service Level Management - ATF Tests plugin \(com.snc.sla.atf\).
 
 |Test|Description|Release version|
 |----|-----------|---------------|
@@ -5561,7 +5723,7 @@ Skills Management quick start tests require activating the Skills Management plu
 |Skills MGMT: Create a skill from Manage IT Skills user interface.|Verify that you can create a skill from the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Add skills and skill levels to users in the Manage IT Skills user interface.|Verify that you can add skills and associated skill levels to users in the Manage IT Skills user interface.|Orlando|
 |Skills MGMT: Select a skill and add users to the skill in the Manage IT Skills user interface.|Verify that you can select a skill and add the skill and associated skill levels to one or more users in the Manage IT Skills user interface.|Orlando|
-|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to one or more users in the Manage IT skills user interface.|Orlando|
+|Skills MGMT: Select a skill that does not have a skill level and add users to that skill in the Manage IT Skills user interface.|Verify that you can select a skill without a skill level and add it to users in the Manage IT skills user interface.|Orlando|
 
 To learn more about Skills Management, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/skills-management.md).
 
@@ -5640,17 +5802,7 @@ Verifies a catalog request for any item from self-service can be created when Un
 San Diego
 
 </td></tr></tbody>
-</table>## Vendor Management Workspace
-
-Vendor Management Workspace quick start tests require activating the Vendor Manager Workspace plugin \(com.snc.vlm.vmw\) and loading demo data.
-
-|Test|Description|Release version|
-|----|-----------|---------------|
-|VLM: Create a Vendor|Track problems with the Vendor Manager Workspace plugin after upgrade. Create a new vendor.|New York|
-
-To learn more about Vendor Management Workspace, see [Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/vendor-management-workspace-landing-page.md).
-
-## Vendor Manager Workspace and Third-party Risk Management
+</table>## Vendor Manager Workspace and Third-party Risk Management
 
 GRC: Vendor Manager Workspace and Third-party Risk Management quick start tests require activating the Vendor Manager Workspace and Third-party Risk Management plugin \(com.sn\_vdr\_risk\_asmt\) and loading demo data.
 
@@ -5676,7 +5828,7 @@ Vulnerability Response quick start tests require activating the Vulnerability Re
 |VR: Create Vulnerable Item via Form|Determine whether a user can successfully create a vulnerable item from the Vulnerable Item form.|Madrid|
 |VR: Vulnerability Group Life Cycle|Determine whether a user can successfully resolve a vulnerability group.|Madrid|
 |VR: Vulnerable Item life cycle|Determine whether a user can successfully move a vulnerable item through its life cycle, and also determine whether a closed vulnerable item can be reopened.|Madrid|
-|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for a vulnerability group using the scores for all vulnerable items in the group.|New York|
+|VR: Rollup Calculator|Determine whether the rollup risk calculator can provide an overall risk score for an entire group of vulnerable items. The score uses the scores for all the vulnerable items in a vulnerability group.|New York|
 |VR: Vulnerability Response Assignment Rules|Determine whether a sample set of assignment rules can successfully auto-assign vulnerable items to an assignment group for remediation.|New York|
 |VR: Vulnerability Calculators|Test the vulnerability calculators.|New York|
 |VR: CI Lookup - Qualys|Create a new lookup rule with method "field\_matching" called "Lookup By Network Adapter" for Qualys. Determine whether a configuration item is successfully matched in the Discovered Item table by network adapter and IP address with the new lookup rule.|Orlando|

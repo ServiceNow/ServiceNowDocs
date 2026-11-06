@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Certificates for authentication, Establish MS Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Use certificate for authentication, Establish Microsoft Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Establish a connection using certificates
@@ -30,17 +30,17 @@ Role required: admin
 
     **Note:** This template contains the delegated API permission required for the MSTeams integration.
 
-4.  From the Related Links section, click Create **New Connection &amp; Credential**.
+4.  From the Related Links section, select Create **New Connection &amp; Credential**.
 
-<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d280395e92">
-
- 
-
-</th><th align="left" id="d280395e94">
+<table id="choicetable_pnx_jpr_gwb"><thead><tr><th align="left" id="d289028e92">
 
  
 
-</th></tr></thead><tbody><tr><td id="d280395e99">
+</th><th align="left" id="d289028e94">
+
+ 
+
+</th></tr></thead><tbody><tr><td id="d289028e99">
 
 **Name**
 
@@ -48,7 +48,7 @@ Role required: admin
 
 Any unique Name.
 
-</td></tr><tr><td id="d280395e108">
+</td></tr><tr><td id="d289028e108">
 
 **Connection URL**
 
@@ -56,7 +56,7 @@ Any unique Name.
 
 Connection URL. For example, https://graph.microsoft.com
 
-</td></tr><tr><td id="d280395e117">
+</td></tr><tr><td id="d289028e117">
 
 **API Version**
 
@@ -64,7 +64,7 @@ Connection URL. For example, https://graph.microsoft.com
 
 Version of the API. For example, v1.0
 
-</td></tr><tr><td id="d280395e126">
+</td></tr><tr><td id="d289028e126">
 
 **Authorization URL**
 
@@ -72,7 +72,7 @@ Version of the API. For example, v1.0
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
-</td></tr><tr><td id="d280395e136">
+</td></tr><tr><td id="d289028e136">
 
 **Token URL**
 
@@ -80,7 +80,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/authorize
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
-</td></tr><tr><td id="d280395e145">
+</td></tr><tr><td id="d289028e145">
 
 **Token Revocation URL**
 
@@ -88,7 +88,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/token
 
 https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
-</td></tr><tr><td id="d280395e154">
+</td></tr><tr><td id="d289028e154">
 
 **OAuth Client ID**
 
@@ -96,7 +96,7 @@ https://login.microsoftonline.com/&lt;&lt;tenant ID&gt;/oauth2/v2.0/revoke
 
 Client ID.
 
-</td></tr><tr><td id="d280395e163">
+</td></tr><tr><td id="d289028e163">
 
 **OAuth Client Secret**
 
@@ -105,7 +105,7 @@ Client ID.
 You can enter any value. **Note:** This is not important as you will be using the certificate-based authentication.
 
 </td></tr></tbody>
-</table>5.  Click **Create and Get Oauth Token**.
+</table>5.  Select **Create and Get Oauth Token**.
 
     An error message is displayed prompting 401- unauthorised.
 
@@ -125,12 +125,12 @@ You can enter any value. **Note:** This is not important as you will be using th
 
 12. Open the record **MSIM Microsoft Teams Connector Credential**.
 
-13. From Related Links, click **Get OAuth Token**.
+13. From Related Links, select **Get OAuth Token**.
 
     On success, the following API permissions are added to the Azure application.
 
     \[Omitted image "api-permissions-msteams.png"\] Alt text: API Permissions - MS Teams
 
 
-**Parent Topic:**[Using Certificates for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-certificates-for-authentication.md)
+**Parent Topic:**[Use certificate for authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-certificates-for-authentication.md)
 

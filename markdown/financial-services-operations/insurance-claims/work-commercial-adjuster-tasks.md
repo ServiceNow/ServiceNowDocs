@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Adjuster tasks, Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Adjuster tasks, Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on commercial claim adjuster tasks
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.auto\_adjuster
 
 2.  Open the task one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d57135e74">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d65336e78">
 
 Option
 
-</th><th align="left" id="d57135e77">
+</th><th align="left" id="d65336e81">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d57135e83">
+</th></tr></thead><tbody><tr><td id="d65336e87">
 
 **From the landing page**
 
@@ -44,13 +44,13 @@ Steps
 
 Select a task from the All open claims list.
 
-</td></tr><tr><td id="d57135e92">
+</td></tr><tr><td id="d65336e96">
 
 **From the Commercial auto claim adjuster tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, under **Commercial auto claim adjuster tasks**, select **All**.
 3.  In the list, select the task that you want to open.
 
@@ -60,15 +60,15 @@ Select a task from the All open claims list.
 
 4.  Work on the adjuster task by completing various actions from the claim workspace.
 
-<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d57135e143">
+<table id="claim-workspace-actions-table"><thead><tr><th align="left" id="d65336e147">
 
 Claim task
 
-</th><th align="left" id="d57135e146">
+</th><th align="left" id="d65336e150">
 
 Claim workspace actions
 
-</th></tr></thead><tbody><tr><td id="d57135e152">
+</th></tr></thead><tbody><tr><td id="d65336e156">
 
 **To add a document verification task**
 
@@ -80,7 +80,7 @@ Claim workspace actions
 4.  Select **Submit document**.
 
 
-</td></tr><tr><td id="d57135e187">
+</td></tr><tr><td id="d65336e191">
 
 **To verify a document**
 
@@ -88,7 +88,7 @@ Claim workspace actions
 
 Select **Verify** to verify the document or **Reject** to reject the submitted document for verification.
 
-</td></tr><tr><td id="d57135e202">
+</td></tr><tr><td id="d65336e206">
 
 **To add claim coverage**
 
@@ -101,7 +101,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d57135e237">
+</td></tr><tr><td id="d65336e241">
 
 **To add a reserve or payment**
 
@@ -114,7 +114,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d57135e272">
+</td></tr><tr><td id="d65336e276">
 
 **To add an ad-hoc claim task**
 
@@ -125,7 +125,7 @@ Select **Verify** to verify the document or **Reject** to reject the submitted d
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d57135e299">
+</td></tr><tr><td id="d65336e303">
 
 **To submit a reserve or payment amount for approval**
 
@@ -135,7 +135,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 2.  Select **Submit**.
 
 
-</td></tr><tr><td id="d57135e328">
+</td></tr><tr><td id="d65336e332">
 
 **To refer a claim for fraud evaluation**
 
@@ -143,7 +143,7 @@ Select **Approve** to approve or **Reject** to reject the reserve or payment amo
 
 Select **Send to SIU**.
 
-</td></tr><tr><td id="d57135e340">
+</td></tr><tr><td id="d65336e344">
 
 **To submit a claim settlement decision**
 

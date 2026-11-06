@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a state model to define the workflow states and transitions, Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create compliance state model, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # GRC State Model form
@@ -28,5 +28,5 @@ See the following table for a description of the field values.
 |State field|Field to hold the state value in a table that this state model applies to. It is dependent on Table name. This field is automatically set to **State**. You can change the value to match your configuration.|
 |Manage Attachments|Select this icon and choose the required files to attach.|
 
-**Parent Topic:**[Create a state model to define the workflow states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md)
+**Parent Topic:**[Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md)
 

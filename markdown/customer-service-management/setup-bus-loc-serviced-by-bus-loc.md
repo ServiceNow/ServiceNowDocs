@@ -5,20 +5,22 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/setup-bus-loc-serviced-by-bus-loc.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Setting up inter-organization support
 
 Provide your agents at a business location with the visibility into other business locations that they support using the inter-organization support capability. This way, you can enable location support agents to resolve cases raised by other business location.
 
-## Overview
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
+
+## Overview of inter-organization support
 
 The Service Model Foundation enables business locations to request help from others and fulfill such requests. Besides supporting customers, business locations can also support other service organizations.
 
-Currently, there is no easy way for agents who are assigned to a specific business location to access the details they need about other business locations they support, such as contact information, install base items, or existing cases.
+Currently, there’s no easy way for agents who are assigned to a specific business location to access the details they need about other business locations they support, such as contact information, install base items, or existing cases.
 
 With the inter-organization support capabilities, you can enable your business location agents to access additional details about the other business locations they serve, facilitating quicker and more efficient support for the requesting service organization.
 
@@ -28,7 +30,7 @@ With the inter-organization support capabilities, you can enable your business l
 
 Streamlined support for national retail chains: In the retail segment, store and central support teams assist with day-to-day store operations at the market, country, or segment level. The retailers aim to structure these teams to support only the stores or franchises within their countries. For effective customer support, store agents need full access to the stores, but currently, regional support agents lack full access to the service organizations, limiting their effectiveness.
 
-For example, the ABC retail operates with more than 150 stores nationwide. Each store has its own dedicated support team for daily operations, while regional support teams provide additional assistance. However, the regional location support agents currently lack full access to the service organizations, resulting in delays and inefficiencies in addressing store issues.
+For example, a retail chain operates with more than 150 stores nationwide. Each store has its own dedicated support team for daily operations, while regional support teams provide additional assistance. However, the regional location support agents currently lack full access to the service organizations, resulting in delays and inefficiencies in addressing store issues.
 
 With the inter-organization capability, ABC retail can:
 

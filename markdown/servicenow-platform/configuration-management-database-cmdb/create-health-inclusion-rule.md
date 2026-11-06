@@ -1,24 +1,24 @@
 ---
 title: Create health inclusion rule
-description: Filter the CIs that are included in health calculations and that appear in the CMDB Health dashboard by defining health inclusion rules. Use health inclusion rules to temporarily filter out classes that generate a large number of failures, until the problems are fixed.
+description: Filter the CIs that are included in health calculations and that appear in the CMDB Health Dashboard by defining health inclusion rules. Use health inclusion rules to temporarily filter out classes that generate a large number of failures, until the problems are fixed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/create-health-inclusion-rule.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up and configure CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create health inclusion rule
 
-Filter the CIs that are included in health calculations and that appear in the CMDB Health dashboard by defining health inclusion rules. Use health inclusion rules to temporarily filter out classes that generate a large number of failures, until the problems are fixed.
+Filter the CIs that are included in health calculations and that appear in the CMDB Health Dashboard by defining health inclusion rules. Use health inclusion rules to temporarily filter out classes that generate a large number of failures, until the problems are fixed.
 
 ## Before you begin
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access.
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
 ## About this task
 
@@ -27,11 +27,11 @@ Evaluation for the required, orphan, recommended, duplicate and staleness health
 **Note:**
 
 -   You can specify health inclusion rules per domain.
--   Creating health inclusion rules at the level of the base cmdb\_ci table can potentially filter out health results of all classes in CMDB health dashboards.
+-   Creating health inclusion rules at the level of the base cmdb\_ci table can potentially filter out health results of all classes in CMDB Health dashboards.
 -   Applying a health inclusion rule to the duplicate metric, is supported only in the global domain.
 -   Due to performance issues, dot-walking in health inclusion rules for the duplicate metric is not supported.
 
-In addition to any health inclusion rules, [identification inclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md) also indirectly impact what appears in the CMDB Health dashboard for duplicate CIs. The dashboard itself uses the identification engine \(IRE\) to identify duplicate CIs and therefore identification inclusion rules are applied.
+In addition to any health inclusion rules, [identification inclusion rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-id-inclusion-rule.md) also indirectly impact what appears in the CMDB Health Dashboard for duplicate CIs. The dashboard itself uses the identification engine \(IRE\) to identify duplicate CIs and therefore identification inclusion rules are applied.
 
 Inheritance of health inclusion rules:
 

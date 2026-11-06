@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/trigger-condition-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -121,10 +121,7 @@ Condition
 
 </td><td>
 
-Condition builder that defines the criteria that must be true to send the survey. For example, to send a survey whenever an incident closes, create the condition **\[State\] \[is\] \[Closed\]**.**Note:**
-
--   When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
--   Survey triggers will not function as expected when you use dot-walk conditions in the **Condition** field.
+Condition builder that defines the criteria that must be true to send the survey. For example, to send a survey whenever an incident closes, create the condition **\[State\] \[is\] \[Closed\]**.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Surveys reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/survey-reference.md)

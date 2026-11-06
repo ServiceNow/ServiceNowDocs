@@ -7,7 +7,7 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Lifecycle Event Workflow]
 breadcrumb: [Activate Lifecycle Events, Configuring Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
@@ -26,7 +26,7 @@ When a lifecycle event case is created:
     **Note:** You can access the workflows from **Execution Contexts**.
 
 
-\[Omitted image "LEWorkflow1.png"\] Alt text: Activity set workflow diagram.
+\[Omitted image "LEWorkflow1-Brand2.png"\] Alt text: Activity set workflow diagram.
 
 Each activity set in a lifecycle event has an associated workflow. Each workflow:
 

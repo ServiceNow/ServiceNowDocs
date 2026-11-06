@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MSIM Playbooks, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [MSIM Playbooks, Major Security Incident Management, Security Incide
 
 The Legal Request playbook provides step-by-step guidance on how you can inform legal about the latest summary of an MSI so that they can notify the SEC in the 4-day time frame that is required for material breaches.
 
-## Overview
+## Overview of Playbook for Legal Request
 
 As an Incident Manager, you can use the Legal Request playbook to inform the legal team about the latest summary of an MSI so that they can notify the SEC for material breaches. You can use the Process Automation Designer \(PAD\) templates to perform the steps in the Legal Request playbook and inform the Legal team accordingly.
 
@@ -30,8 +30,6 @@ The following are the lanes of the process definition and correspond to the majo
 -   Review
 
 Each lane has certain activities within it.
-
-
 
 \[Omitted image "msim-playbook-list.png"\] Alt text: Playbook for Legal Request
 

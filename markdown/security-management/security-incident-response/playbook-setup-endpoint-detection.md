@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for Endpoint Detection, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -33,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  You can create a copy of the Endpoint Detection playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    \[Omitted image "playbook-endpoint-detection.png"\] Alt text: Overview of the Endpoint Detection playbook
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -47,8 +45,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     -   **Category** is **Malicious code activity**.
     -   **Short description** is **CrowdStrike Detection Alerts**.
-    \[Omitted image "playbook-endpoint-detection-trigger.png"\] Alt text: Trigger condition for Endpoint Detection playbook.
-
 
 **Parent Topic:**[Playbook for Endpoint Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-endpoint-detection.md)
 

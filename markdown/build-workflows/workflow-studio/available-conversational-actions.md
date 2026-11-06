@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational actions, Exploring actions, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Conversational actions, Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Available conversational actions
@@ -28,6 +28,4 @@ Workflow Studio provides a set of actions that are preconfigured to be compatibl
 |Send Notification|Global|none|
 |Create Meeting Space|Google Meet Spoke|admin|
 |Update Meeting Space|Google Meet Spoke|admin|
-
-**Parent Topic:**[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-actions.md)
 

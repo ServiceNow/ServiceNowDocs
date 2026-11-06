@@ -1,36 +1,36 @@
 ---
 title: Create an action for an 'on Resource Limit exceeded' policy
-description: Set the on Resource limits exceeded policy to automatically run approval workflows or send notifications when an order form is submitted for a template-based catalog item that exceeds the defined resource limit or quota values.
+description: Set the on Resource limits exceeded policy to automatically run approval subflows or send notifications when a template-based catalog item order exceeds defined resource limits.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-action-on-resource-limits-exceeded.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create an action for an 'on Resource Limit exceeded' policy
 
-Set the **on Resource limits exceeded** policy to automatically run approval workflows or send notifications when an order form is submitted for a template-based catalog item that exceeds the defined resource limit or quota values.
+Set the **on Resource limits exceeded** policy to automatically run approval subflows or send notifications when a template-based catalog item order exceeds defined resource limits.
 
 ## Before you begin
 
 You must have configured the following items:
 
 -   One or more cloud policy groups
--   A cloud policy
--   An approval policy
--   An email notification
--   A workflow using the [Workflow editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-editor.md)
+-   Cloud policy
+-   Approval policy
+-   Email notification
+-   [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-subflow.md)
 
 Role required: sn\_cmp.cloud\_governor or cloud\_admin
 
 ## About this task
 
-The **On resource limit exceeded** base system policy action has a default ServiceNow approval policy rule configured by default. If you want to trigger other actions such as notifications or a custom approval workflow when the resource limit is exceeded, you can either modify the base system policy action or create a custom policy for your instance.
+The **On resource limit exceeded** base system policy action has a default ServiceNow approval policy rule configured by default. You can trigger other actions such as notifications or a custom approval subflow when the resource limit is exceeded. Modify the base system policy action or create a custom policy for your instance.
 
 ## Procedure
 
@@ -60,17 +60,17 @@ The **On resource limit exceeded** base system policy action has a default Servi
 
     2.  Click **Create** next to the action you want to occur when the quota is exceeded.
 
-<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d338575e240">
+<table id="choicetable_xpc_mhp_znb"><thead><tr><th align="left" id="d242135e263">
 
 Option
 
-</th><th align="left" id="d338575e243">
+</th><th align="left" id="d242135e266">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d338575e249">
+</th></tr></thead><tbody><tr><td id="d242135e272">
 
-**Initiate a base system ServiceNow approval workflow.**
+**ServiceNow Approval**
 
 </td><td>
 
@@ -79,19 +79,19 @@ Steps
 3.  Select the **Assignment group** to which this action applies.
 
 
-</td></tr><tr><td id="d338575e282">
+</td></tr><tr><td id="d242135e312">
 
-**Initiate a custom approval workflow.**
+**Custom Approval**
 
 </td><td>
 
 1.  Enter a unique name for the action in the **Action Name** field.
-2.  Select an existing custom workflow in the **Workflow** field.
+2.  Select an existing custom workflow in the **Subflow** field.
 
 
-</td></tr><tr><td id="d338575e306">
+</td></tr><tr><td id="d242135e343">
 
-**Send an email notification to the catalog item requester and the manager.**
+**Send aNotification**
 
 </td><td>
 

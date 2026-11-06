@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -19,6 +19,8 @@ To use the new functionality available in knowledge v3 with legacy articles, you
 To migrate knowledge content, move articles out of the default knowledge base by changing the **Knowledge Base** value for each article. The state of the article remains unchanged when moving articles. After selecting a new knowledge base, assign a category to each article using the category structure defined in the new knowledge base.
 
 After you migrate a knowledge article, the legacy feedback functionality is automatically replaced with the new knowledge feedback mechanisms. Legacy feedback is copied to the Live Feed Message \[live\_message\] table to ensure previously submitted feedback is available for knowledge v3 articles.
+
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 

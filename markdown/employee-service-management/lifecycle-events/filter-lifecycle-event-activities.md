@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Filter lifecycle event activities

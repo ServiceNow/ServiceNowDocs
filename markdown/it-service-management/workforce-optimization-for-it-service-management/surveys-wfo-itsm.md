@@ -7,16 +7,18 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Training your teams using Coaching in Workforce Optimization for ITSM, Coaching in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Surveys in Workforce Optimization for ITSM
 
 Assess the quality of your teams' completed tasks. Use surveys to get feedback on from your team.
 
-**Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-survey-coaching-opportunity.md).
+**Important:** Starting with the Brazil release, User Surveys in Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+**Note:** For detailed information on how to create a survey and associate with a coaching opportunity, see [Create a survey and associate with a Coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-create-survey-coaching-opportunity.md).
 
 -   **[Assess the quality of your agent's completed tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/assess-skills-automatically-configurable-workspace.md)**  
 Assess the ability of your agents to resolve incidents or the quality of their completed tasks.

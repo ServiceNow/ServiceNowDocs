@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SRM interface, Get started with Service Reliability Management, Exploring Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [SRM interface, Get started with Service Reliability Management, Exploring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Search, filters, lists, forms, and guides
@@ -41,8 +41,6 @@ An overview of the additional elements in the Service Reliability Management \(S
 -   **Setup checklists**
 
     Use the setup checklists to visualize the process that you go through to reach your goals. Each step is highlighted as you complete it.
-
-    \[Omitted image "sr-get-started-service-tiles.png"\] Alt text: The service setup checklist shows the required setup information: service details and alert data source.
 
 
 **Parent Topic:**[SRM interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-navigate-interface.md)

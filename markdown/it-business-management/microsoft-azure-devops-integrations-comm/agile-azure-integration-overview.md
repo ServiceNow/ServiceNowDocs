@@ -7,9 +7,9 @@ release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Strategic Portfolio Management]
 ---
 
 # Microsoft Azure DevOps Integration for Agile Development
@@ -30,8 +30,10 @@ Starting with version 1.3, Microsoft Azure DevOps Integration for Agile Developm
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
+-   **[Components installed with Microsoft Azure DevOps integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/components-installed-with-agile-azure-integration.md)**  
+Several types of components are installed with activation of the Microsoft Azure DevOps integration for Agile Development application, including user roles, scheduled jobs, and tables.
 -   **[Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/setting-up-agile-azure-integration.md)**  
 Understand the setup process of Microsoft Azure DevOps Integration for Agile Development 2.0.
 -   **[Importing and exporting work items between Agile Development and Azure DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/import-export-issues-azure-agile-workflow.md)**  
@@ -39,5 +41,5 @@ Understand the workflow for the import and export of work items between Agile De
 -   **[Troubleshooting issues for Azure DevOps integration with Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/troubleshooting-issues-agile-azure-int.md)**  
 Resolve common issues that you might face while working with the integration of Azure DevOps and Agile Development 2.0.
 
-**Parent Topic:**[Integrating Agile Development 2.0 with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/integrating-agile-dev-with-third-party-apps.md)
+**Parent Topic:**[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/r_ITBusinessManagement.md)
 

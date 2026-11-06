@@ -1,5 +1,5 @@
 ---
-title: Update roadmap item dependencies in Portfolio Planning
+title: Update roadmap item dependencies
 description: Update or delete the dependencies for the planning items on your roadmap so that they reflect any change of plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Add dependencies for roadmap items in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Add dependencies for roadmap items, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Update roadmap item dependencies in Portfolio Planning
+# Update roadmap item dependencies
 
 Update or delete the dependencies for the planning items on your roadmap so that they reflect any change of plans.
 
@@ -31,15 +31,15 @@ Dependencies for free-form roadmaps are available only if the roadmap's source t
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d163068e95">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d204911e99">
 
 Roadmap type
 
-</th><th align="left" id="d163068e98">
+</th><th align="left" id="d204911e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d163068e104">
+</th></tr></thead><tbody><tr><td id="d204911e108">
 
 **Portfolio plan roadmap**
 
@@ -49,7 +49,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d163068e125">
+</td></tr><tr><td id="d204911e129">
 
 **Free-form roadmap**
 
@@ -68,15 +68,15 @@ From the Free-form Roadmaps tab, select a roadmap.
 
 4.  From the side panel, locate your dependency and use the More actions icon \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions icon.\) to edit or delete.
 
-<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d163068e182">
+<table id="choicetable_syp_cn3_2tb"><thead><tr><th align="left" id="d204911e186">
 
 Choice
 
-</th><th align="left" id="d163068e185">
+</th><th align="left" id="d204911e189">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d163068e191">
+</th></tr></thead><tbody><tr><td id="d204911e195">
 
 **Edit dependency**
 
@@ -87,7 +87,7 @@ Steps
 
 For field information, see [Dependency form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/dependency-form.md).
 
-</td></tr><tr><td id="d163068e227">
+</td></tr><tr><td id="d204911e231">
 
 **Delete dependency**
 
@@ -99,5 +99,5 @@ For field information, see [Dependency form](https://raw.githubusercontent.com/S
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Add dependencies for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
+**Parent Topic:**[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 

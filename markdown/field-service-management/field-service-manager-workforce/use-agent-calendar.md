@@ -7,16 +7,14 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Managing agent skills, schedules and tasks in Field Service Agent Management, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing agent skills,schedules, and tasks, Managing workforce, Use, Field Service Management]
 ---
 
 # Use the agent calendar
 
 Users with the agent calendar user role can add events to their personal calendar and configure the calendar to show or hide different types of events.
-
-**Parent Topic:**[Managing agent skills, schedules and tasks in Field Service Agent Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/field-service-agent-management.md)
 
 **Related topics**  
 
@@ -230,7 +228,7 @@ Role required: agent\_schedule\_user
     -   **Field Service** &gt; **Agent** &gt; **My Schedule**
 2.  Use one of the following methods to move an event.
 
-<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d71984e615">
+<table id="choicetable_ezl_bqb_hx"><tbody><tr><td id="d79491e628">
 
 **Click an event and drag it to a new day or time**
 
@@ -238,7 +236,7 @@ Role required: agent\_schedule\_user
 
 The **When** and **To** fields in the event record are updated with the new information.
 
-</td></tr><tr><td id="d71984e630">
+</td></tr><tr><td id="d79491e643">
 
 **Double-click an event to open the event record**
 

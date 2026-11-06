@@ -7,22 +7,23 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Platform Analytics Solution for Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Normalization and Content Service dashboard
 
 View normalization trend charts on the Normalization and Content Service dashboard integrated with Performance Analytics.
 
-**Note:** The Normalization and Content Service dashboard is no longer available for new Yokohama users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Yokohama without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Yokohama. If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Yokohama but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard. If you activated the workspace plugin \(before or after upgrading to Yokohama, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
+**Note:** The Normalization and Content Service dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
+
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Brazil, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 The Normalization and Content Service dashboard tab is accessed by navigating to **Software Asset** &gt; **Overview** and selecting **Normalization and Content Service** from the dashboard list. You can also access it from the dashboard list of another Software Asset Management dashboard. Select an element within a report to see more information, or add and move widgets as needed.
 
 Normalization chart results are updated daily when the **SAM — Discovery Model Normalization** job is run. You can save charts in PNG or JPG formats.
-
-\[Omitted image "sam-normalization-dash.png"\] Alt text: SAMNormalizationDashboard
 
 |Report|Source list|Description|
 |------|-----------|-----------|
@@ -32,8 +33,6 @@ Normalization chart results are updated daily when the **SAM — Discovery Model
 ## Central Data Service Download Status related list
 
 The Central Data Service Download Status related list is updated daily when the **SAM — Central Data Service Download Status** job is run.
-
-\[Omitted image "sam-norm-dash-cds.png"\] Alt text: SAMNormDashStatus
 
 |Field|Description|
 |-----|-----------|

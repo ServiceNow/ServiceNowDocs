@@ -1,20 +1,20 @@
 ---
 title: CMDB Health process status: incomplete score
-description: The CMDB Health dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
+description: The CMDB Health Dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/incomplete-score.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB Health process tracking and troubleshooting, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Tracking and troubleshooting, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Health process status: incomplete score
 
-The CMDB Health dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
+The CMDB Health Dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
 
 'Incomplete score' is displayed when:
 

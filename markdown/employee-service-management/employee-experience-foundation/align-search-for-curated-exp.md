@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup search experience, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup search experience, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # AI Search for Curated Experiences
@@ -25,6 +25,12 @@ Deactivate the existing taxonomy so that the search configurations pick up the c
 ## About this task
 
 For new customers, the AI search is enabled by default.
+
+**Note:** AI Search returns additional results based on user roles:
+
+-   Users with either the system admin or content admin role can see unpublished content.
+-   For users with content approver roles, search results might include content for which they are not the audience. However, they cannot view the content unless they are part of the configured audience.
+-   For users with content admin or content manager roles, search results shouldn't include content \(such as news, company events or rich content\) in AI search results if they don't meet the scheduled availability window, or for which they are not the configured audience.
 
 ## Procedure
 

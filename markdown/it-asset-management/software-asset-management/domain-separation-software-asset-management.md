@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Domain separation and Software Asset Management
@@ -26,32 +26,54 @@ Sample use case: Tenant-customers of a shared environment must be able to modify
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Domain separation support
 
-Domain separation support in the product enables service providers to offer managed services for software and hardware asset management to their customers. This feature also caters to large organizations who manage their subsidiaries as independent domains.
+Domain separation in Software Asset Management enables service providers to offer managed Software Asset Management services to their customers. It also enables large organizations to manage their subsidiaries as independent domains.
+
+With multi-tenant support for Software Asset Management, you can manage the entire Software Asset Management lifecycle for your customers in a shared ServiceNow instance. This model provides complete data and process separation between tenants, along with tenant admin support.
+
+## Service provider benefits
+
+Multi-tenant support for Software Asset Management offers the following benefits to service providers:
+
+-   Expand the service portfolio to include Software Asset Management.
+-   Offer Software Asset Management as a service to your users that includes:
+    -   Contract and entitlement management
+    -   Discovery and normalization reporting
+    -   Software reconciliation, optimization, and licensing expertise
+    -   Audit response
+    -   Software lifecycle and vulnerability reporting
+    -   SaaS license management
+    -   Engineering license management
+
+## Customer benefits
+
+Customers gain the following benefits when a service provider manages their assets on the shared ServiceNow instance:
+
+-   Access to established Software Asset Management services and processes delivered by domain experts
+-   No platform or process ownership required from the customer
 
 ## How domain separation works in Software Asset Management
 
-In SAM, domain separation occurs in two stages: data separation and process separation. From the Paris release, both data and process are domain-separated.
+In Software Asset Management, domain separation occurs in two stages: data separation and process separation. From the Paris release, both data and process are domain-separated.
 
 Any user with sam\_integrator role has access to create and modify the SaaS integration profiles. Since users with this role can also access the Oauth application registry \(currently not domain-separated, so records across all domains are visible\), this sam\_integrator role should be assigned with caution. The user should be in the service provider organization and satisfy high permissions criteria.
 
-To view logs for domain separation, you need to create a system property titled **asset.log\_level** and set its value to **debug**, **trace** or **info**. Based on the value that you set, logs are shown when any scheduled job that extends the AssetManagementBaseJobscheduled job runs.
+To view logs for domain separation, create a system property named **asset.log\_level** and set its value to **debug**, **trace** or **info**. The level you set determines which logs appear when any scheduled job that extends the **AssetManagementBaseJob** scheduled job runs.
 
 In a domain-separated instance, the content data service \(CDS\) should populate data in the instance with domain set as **global**.
 
 **Note:**
 
-The [Recommended practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/bp-domain-sep-recommended.md) is to avoid customizing the base system domain configuration record.
+Avoid customizing the base system domain configuration record. For more information, see [Recommended practice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/bp-domain-sep-recommended.md).
 
-\[Omitted image "ham-sam-multitenant.png"\] Alt text: Multitenant support for IT Asset Management
+\[Omitted image "mmasset0021805-ham-sam-multitenant.svg"\] Alt text: Diagram showing how a service provider manages the IT Asset Management lifecycle for multiple tenant customers in a shared ServiceNow instance, with complete data and process separation between tenants
 
 ## Required plugins
 
 -   Domain separation extension \(com.glide.domain.msp\_extensions.installer\)
 -   Performance Analytics – Domain Support \(com.snc.pa.domain\_support\)
--   SAMP \(com.sn\_samp\_master\)
--   HAMP \(store app\)
+-   Software Asset Management Professional \(com.sn\_samp\_master\)
 
 ## Other supported plugins
 

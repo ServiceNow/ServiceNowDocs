@@ -1,21 +1,21 @@
 ---
-title: Creating a catalog item using Now Assist
-description: Create a catalog item by using Now Assist and make the item available in Service Catalog for catalog item requests. You can also define dynamic behavior for your catalog item and apply auto-populate settings.
+title: Creating a catalog item conversationally using AI
+description: Create a catalog item conversationally using AI and make the item available in Service Catalog for catalog item requests. You can also define dynamic behavior for your catalog item and apply auto-populate settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [generative AI, Now Assist in Catalog Builder]
-breadcrumb: [Now Assist in Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+keywords: [generative AI, AI Authoring for Catalog Builder]
+breadcrumb: [Using AI conversation to create and edit catalog items, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Creating a catalog item using Now Assist
+# Creating a catalog item conversationally using AI
 
-Create a catalog item by using Now Assist and make the item available in Service Catalog for catalog item requests. You can also define dynamic behavior for your catalog item and apply auto-populate settings.
+Create a catalog item conversationally using AI and make the item available in Service Catalog for catalog item requests. You can also define dynamic behavior for your catalog item and apply auto-populate settings.
 
 ## Before you begin
 
@@ -27,31 +27,37 @@ Role required: catalog\_builder\_editor
 
 2.  Select the **Dashboard** tab and select **Create a new catalog item**.
 
+    **Note:** If you have a catalog\_builder\_developer role, you can select **Build from scratch**.
+
 3.  Review the steps involved in the creation process and select **Continue**.
 
 4.  Select a template from the list and select **Use this item template**.
 
-5.  In the Now Assist step, describe the catalog item you want.
+    **Note:** If you chose Build from scratch, you don't get this step.
 
-    For more information about describing your catalog item, see [How to describe a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/how-to-describe-catalog-item.md).
+5.  Select **Build with AI**.
 
-6.  Select **Try an example** to view sample prompts for creating catalog items using Now Assist.
+6.  Select **Build**.
 
-    **Note:** Select **Try an example** again to view more samples. You can edit the text in the sample and describe the item according to your requirements.
+7.  In the AI conversation, describe the catalog item you want.
 
-7.  Select **Generate with Now Assist**.
+8.  Review the item’s preview, and if you want changes, describe the changes in chat.
 
-    Now Assist generates content for the Details and Questions steps of the catalog item.
+9.  View the preview of the item, and when you get what you want, select **Continue to the next step**.
 
-8.  Verify the content in the Details and Questions steps before you submit the item.
+    If you want to preview your catalog item in portal or mobile, select **Preview**.
 
-    **Note:** The AI sparkle \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: AI sparkle icon.\) icon displayed for these steps and their fields denotes that the content in the fields is AI-generated. If you change the content, the sparkle is removed.
+10. If you want AI to generate your catalog item again, select **Edit with AI**.
+
+    You’re redirected to the AI conversation, where you can describe your changes to get the desired catalog item.
+
+11. After you’ve all the details in your catalog item, submit it.
 
 
-**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+**Parent Topic:**[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
 
 **Related topics**  
 
 
-[How to describe a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)
+[Suggestions to describe catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/how-to-describe-catalog-item.md)
 

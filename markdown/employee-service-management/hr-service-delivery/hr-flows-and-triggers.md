@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR flows and triggers
@@ -26,7 +26,7 @@ The following flows are installed with the Human Resources: Core application. Th
 
     The trigger is based on the employee's start date in the HR Profile Table \[sn\_hr\_core\_profile\]. If the employment start date is at or after today, the flow creates an HR Onboarding case. This flow runs every time an HR profile is created or updated.
 
-    For more information about the HR Profile, see [Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/employee-profile.md) and [HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
+    For more information about the HR Profile, see [HR Profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileRecords.md).
 
 -   **New Hire on Boarding Case Trigger Job**
 

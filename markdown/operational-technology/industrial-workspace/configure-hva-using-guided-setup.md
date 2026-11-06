@@ -1,20 +1,20 @@
 ---
 title: Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup
-description: Use the Industrial Workspace Admin guided setup to walk through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
+description: Use the Industrial Workspace Admin guided setup to walk you through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-workspace/configure-hva-using-guided-setup.html
 release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Industrial Workspace, Operational Technology]
 ---
 
 # Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup
 
-Use the Industrial Workspace Admin guided setup to walk through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
+Use the Industrial Workspace Admin guided setup to walk you through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Use the Industrial Workspace Admin guided setup to assign required user roles, c
     |**Install and Run NVD Integration**|Run the National Vulnerability Database \(NVD\) integration to import data from the NIST NVD database to help you determine the severity and details of CVEs found in your environment.|
     |**Configure Vulnerability Assessment properties**|Configure the properties required to perform hardware vulnerability assessment for OT devices.|
     |**Schedule Vulnerability Assessment Jobs**|Execute scheduled jobs that enable vulnerability assessment on OT devices in the inventory and mark expired assessments that must be deleted.|
-    |**Normalization opt-in**|Select the **Firmware Discovery Model** Opt-in option for ServiceNow Asset Management Content Service to collect unnormalized firmware details of OT devices and update the normalized content library. This process improves the ratio of normalized data mapping to CVEs and therefore improves assessment of vulnerabilities.|
+    |**Normalization opt-in**|Select **Firmware Discovery Model** Opt-in option for ServiceNow Asset Management Content Service to collect unnormalized firmware details of OT devices and update the normalized content library. This process improves the ratio of normalized data mapping to CVEs and therefore improves assessment of vulnerabilities.|
     |**Delete obsolete assessments**|Configure the time duration after which the obsolete and expired assessments are deleted.|
 
 
@@ -48,7 +48,7 @@ Use the Industrial Workspace Admin guided setup to assign required user roles, c
 Assign roles to users so that they can configure properties, and use hardware vulnerability assessments features, capabilities, and data.
 -   **[Run NVD Integrations for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.md)**  
 Install and run National Vulnerability Database \(NVD\) integrations to perform hardware vulnerability assessment.
--   **[Configure the properties for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/configure-hva-properties.md)**  
+-   **[Configure properties for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/configure-hva-properties.md)**  
 Configure the properties required to perform hardware vulnerability assessment.
 -   **[Run scheduled jobs to perform Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/jobs-hwd-vul-assessment.md)**  
 Execute scheduled jobs to perform hardware vulnerability assessment.

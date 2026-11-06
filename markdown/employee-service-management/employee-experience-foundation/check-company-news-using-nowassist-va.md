@@ -1,20 +1,20 @@
 ---
 title: Check company news and events
-description: Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center Now Assist in Virtual Agent.
+description: Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center ServiceNow Otto for Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/check-company-news-using-nowassist-va.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Use, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Check company news and events
 
-Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center Now Assist in Virtual Agent.
+Stay connected and informed on company updates, events, announcements, and more with the help of the AI Agent in the Employee Center ServiceNow Otto for Virtual Agent.
 
 ## About this task
 
@@ -24,7 +24,7 @@ The agent displays news based on your location and your interests. It displays y
 
 ## Before you begin
 
-You can also perform the following steps in Now Assist in Virtual Agent for Microsoft Teams You can check your company's latest news and events similarly.
+You can also perform the following steps in ServiceNow Otto for Virtual Agent for Microsoft Teams. You can check your company's latest news and events similarly.
 
 Role required: none
 
@@ -36,14 +36,12 @@ Role required: none
 
 2.  Select **Open chat**.
 
-    Now Assist in Virtual Agent appears.
+    ServiceNow Otto appears.
 
 3.  Enter your query.
 
     -   To check the latest news or know about any particular news, enter your query like `What's the latest news`, `show me the company news`, `show me news on 401k`, `` or anything.
     -   To check about upcoming events or any specific event, enter your query like `Are there any events`, `show me the events happening in New York this month`, `show me all the company events` or anything.
-    \[Omitted image "uex-aiagent-event.png"\] Alt text: Checking company events in Now Assist\[Omitted image "uex-aiagent-eventtopic.png"\] Alt text: Checking more details about a specify event in Now Assist.\[Omitted image "uex-aiagent-steps.png"\] Alt text: Latest news and events in Now Assist.
-
 4.  Search for a specific event to get more details.
 
     If the event requires RSVP, select **Yes** or **No**. If you have already specified your RSVP, you can also edit it.
@@ -54,9 +52,11 @@ Role required: none
 **Related topics**  
 
 
-[Check your to-do tasks by using the Now Assist in Virtual Agent]()
+[Check your to-do tasks by using the ServiceNow Otto for Virtual Agent]()
 
-[Check your approvals by using Now Assist in Virtual Agent]()
+[Check your approvals by using ServiceNow Otto for Virtual Agent]()
 
 [View summarization for approvals]()
+
+[Manage approvals with Approval Assistance AI agent]()
 

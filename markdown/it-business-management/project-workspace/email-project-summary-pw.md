@@ -1,32 +1,34 @@
 ---
-title: Schedule project summary emails with Email skill
-description: Schedule the project summary email to prioritize and track the most important changes in the project in Project Workspace.
+title: Schedule the project insights email
+description: Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/email-project-summary-pw.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Schedule project summary emails with Email skill
+# Schedule the project insights email
 
-Schedule the project summary email to prioritize and track the most important changes in the project in Project Workspace.
+Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
+
+\[Omitted video\] Description: Demonstration of project insights generation skill in Project Workspace.
 
 ## Before you begin
 
-Make sure that the Email project summary skill is active.
-
-If you have users with custom roles that need access to this skill, you must update ACLs for those roles.
+Ensure that the Project insights generation skill is active.
 
 Role required: it\_project\_manager
 
 ## About this task
 
-By using the Project summary generation skill, you can generate a concise project insights. The project summary is shared through email. Project managers can monitor key elements such as milestones, resources, projects, RIDAC, and project tasks. They can also prioritize their projects and decide the cadence of receiving these project insights email.
+By using the Project insights generation skill, you can generate a concise project insights. The project insights are shared through email. Project managers can monitor key elements such as project, project task, milestone, resource assignment, ridac, and financial. They can also prioritize their projects and decide the cadence of receiving these project insights email.
+
+When a project is created in the work in progress state, the project insight generation skill is automatically enabled. This ensures that projects begin generating insights early in the execution phase without requiring manual setup. In addition, all existing projects in the work in progress state are automatically enabled for email‑based project insights.
 
 ## Procedure
 
@@ -34,17 +36,11 @@ By using the Project summary generation skill, you can generate a concise projec
 
 2.  From the planning page, select the more actions icon \(\[Omitted image "more-options-icon.png"\] Alt text: More actions icon.\) and then select **Configure project insights**.
 
-    You can view the configure project insights option only when the project summary generation skill is turned on.
-
-    To turn on the skill, navigate to **Admin** &gt; **Now Assist Admin**. From Now Assist Skills tab, select **SPM** category. From Project summary generation skill card, select **Turn on**. From Turn on Project insights generation modal, select **Turn on**.
-
-    From Project summary generation skill card, select **Deactivate skill** to deactivate the skill. From Deactivate skill modal, select the reason of deactivation and select **Deactivate**.
-
-    **Note:** To add user access, you need to edit Access control lists \(ACLs\). Users with it\_project\_manager role only can turn on this skill.
+    From Project insights generation skill card, select **Edit** to modify the email conditions. From project insights configuration screen, select **Switch scope** and then select **Edit conditions**. Administrators can control insight generation through admin‑level configuration. For more information on configurations, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configuring-na-spm.md). From Email condition modal, admins can define which projects should generate insights and trigger email notifications, providing flexibility over when and for which projects insights are sent. For more information on project insights configuration, see [Project Insights Auto-Emails: Configuration and Customization Guide](https://www.servicenow.com/community/spm-articles/project-insights-auto-emails-configuration-and-customization/ta-p/3567549).
 
 3.  From the Configure project insights modal, in Choose topics step, select **Next**.
 
-    You can select or deselect the Project tasks, Milestones, or Resources cards to customize what information is displayed in the Project insights email.
+    You can select or deselect the project, project task, milestone, resource assignment, ridac, and financial card to customize what information is displayed in the project insights email. For more information on how insights are delivered, see [Project insights overview](https://www.servicenow.com/community/spm-articles/project-insights-engine-what-gets-surfaced-and-why/ta-p/3529023).
 
 4.  In Personalize content step, add your requirements and select **Next**.
 
@@ -62,20 +58,30 @@ By using the Project summary generation skill, you can generate a concise projec
     -   For confidential projects, recipients are required to be included in the list of users authorized to view the project.
 8.  Select **Send preview** to generate and send a preview of the insights email instantly.
 
-    When you select Send preview, you receive a project summary instantly and also receive insights based on the selected cadence. The email would go to the recipients selected along with the Project Manager.
+    When you select Send preview, you receive a project insights instantly and also receive insights based on the selected cadence. The email would go to the recipients selected along with the Project Manager.
+
+9.  Select **Schedule** to schedule insights email for the project.
+
+    **Note:** Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
+
+    This skill automatically generates and sends project insight emails based on project data and activity. These emails provide a consolidated view of project health, including schedule variance, RIDAC \(risks, issues, decisions, actions, and change requests\), resources, milestones, projects, project tasks, and financial insights. Project items are automatically grouped into RIDAC categories and classified by impact level: high, medium, or low, while financial insights highlight potential risks and variances. This automated insight delivery helps stakeholders stay informed about project health, risks, and financial status without manual reporting effort. For more information, see [What Project Insights Detects — Risks &amp; Actions \(RIDAC\), Financials and Schedule](https://www.servicenow.com/community/spm-articles/what-project-insights-detects-risks-amp-actions-ridac-financials/ta-p/3533785).
+
+    This skill considers task-level work notes when generating project insights.
+
+    This skill generates insights and emails them to the project manager and other stakeholders based on the cadence. For instance, when a resource is over allocated, the project manager receives an alert without having to review it manually. When scheduling the email, managers can pick or unpick the topics they want. They customize the insights with their own prompt instructions, add more stakeholders, and choose whether to schedule the email or instantly send a preview. You can pause email by selecting **Pause cadence** check box.
 
 
-## Schedule a project summary email
+## Schedule a project insight email
 
 Let's assume that you have selected a weekly cadence and chosen Monday \(which falls on 2025-07-07\). After adding recipients:
 
--   If you select **Schedule**, the project summary is emailed to you and the recipients weekly on Mondays, starting from 2025-07-07 and continues until the project becomes inactive.
--   If you select **Send preview**, you will receive an initial summary email immediately and will also receive summary according to the selected cadence and day.
+-   If you select **Schedule**, the project insights are emailed to you and the recipients weekly on Mondays, starting from 2025-07-07 and continues until the project is inactive.
+-   If you select **Send preview**, you will receive an initial insights email immediately and will also receive insights according to the selected cadence and day.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
 
 **Related topics**  
 
 
-[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-agents-project-task-monitoring.md)
+[Configure the Monitor project tasks AI agent in AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configure-agents-project-task-monitoring.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Example - Create task without qualifying a work order
@@ -53,6 +53,4 @@ Role required: wm\_task\_initiator
 
     3.  Click **Submit**.
 
-
-**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

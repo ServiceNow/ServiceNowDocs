@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/secops-integration-get-network-stats-workflow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration- Get Network Statistics capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -32,7 +32,7 @@ The flow actions include:
 -   
 .
 
--   **[Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begins-cis-activity.md)**  
+-   **[Legacy: Execution Tracking - Begin \(CIs\) Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begins-cis-activity.md)**  
 The **Execution Tracking - Begin \(CIs\)** flow action starts the auditing process for a Security Operations Integration flow that operates on configuration items \(CIs\).
 
 **Parent Topic:**[Security Operations Integration- Get Network Statistics capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/get-network-statistics-capability.md)

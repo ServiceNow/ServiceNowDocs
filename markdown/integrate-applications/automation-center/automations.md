@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Working with automations
@@ -28,7 +28,7 @@ An automation request helps you to automatically streamline your business proces
 Create an automation task to effectively manage the activities associated with the automation request. However, this is an optional step.
 -   **[Create an automation resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-automation-resource.md)**  
 Create an automation resource to associate a resource to an automation task. However, this is an optional step.
--   **[Move an automation request to the planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/move-automation-request-to-planned.md)**  
+-   **[Move an automation request to the Planned state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/move-automation-request-to-planned.md)**  
 After creating an automation request, move it to the **Planned** state before you work on it or create associated automation tasks or resources.
 -   **[Move an automation request to the In progress state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/move-automationrequest-to-inprogress.md)**  
 As you begin the development for the automation request, move it to the **In progress** state. This state notifies anyone using Automation Center that the work for the automation is in progress.
@@ -38,6 +38,10 @@ Defer an automation request from Automation Center if the priority of the reques
 Reject an automation request from Automation Center if it's a duplicate of an existing automation or if it doesn’t meet the required criteria.
 -   **[Publish an automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/publish-automation-request.md)**  
 Publish an automation request from Automation Center to make the request ready for execution.
+-   **[Create an agent for Task Mining requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-agent.md)**  
+Create an automation request agent to efficiently manage the tasks of the Task Mining automation request without manual intervention.
+-   **[Working with golive checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/working-golive.md)**  
+Create a golive checklist to automatically track items that must be reviewed before publishing the automation request. Every golive checklist is associated with an automation request.
 -   **[Map automations with automation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/map-automation-to-req.md)**  
 Map automations in Published state with an automation request to publish the automation request.
 -   **[Update an automation attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-attribute-ci.md)**  

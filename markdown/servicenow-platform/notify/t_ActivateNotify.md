@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Activate Notify
@@ -18,7 +18,7 @@ You can activate the Notify \(com.snc.notify\) plugin if you are an administrato
 
 ## Before you begin
 
-Role required: admin
+Role required: notify\_setup\_admin
 
 ## About this task
 

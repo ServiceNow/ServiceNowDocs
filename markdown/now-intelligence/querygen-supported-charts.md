@@ -1,18 +1,18 @@
 ---
 title: Supported chart types
-description: Query Generation and the applications that use it to generate data visualizations support these visualization types
+description: Query Generation and the applications that use it to generate data visualizations support these visualization types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/querygen-supported-charts.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Supported chart types
 
-Query Generation and the applications that use it to generate data visualizations support these visualization types
+Query Generation and the applications that use it to generate data visualizations support these visualization types.
 
 -   Scores: single score, dial, gauge
 -   Bar: horizontal and vertical bars

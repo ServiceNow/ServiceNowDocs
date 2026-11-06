@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Administration tasks in Learning Core
@@ -48,6 +48,8 @@ Configure the learning system so that the schedule flow pulls learning content f
 
 **Related topics**  
 
+
+[Install Learning Core]()
 
 [Integrating Learning Core with third-party learning management systems]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Install the Service Portfolio Management Sample Content Pack, Configuring Service Portfolio Management, Service Portfolio Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Install the Service Portfolio Management Sample Content Pack, Configure, Service Portfolio Management, IT Service Management]
 ---
 
 # View Service Portfolio Management sample IT services portfolio content

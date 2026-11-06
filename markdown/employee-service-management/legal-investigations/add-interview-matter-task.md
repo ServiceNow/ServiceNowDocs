@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work on a legal matter for a complaint, Managing complaint requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Work on a legal matter for a complaint, Manage, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add an interview task to a legal matter

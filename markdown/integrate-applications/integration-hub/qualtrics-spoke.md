@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-03-12"
+reading_time_minutes: 5
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Qualtrics Spoke
@@ -18,7 +18,7 @@ Integrate ServiceNow instance with Qualtrics. Manage web-based survey distributi
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Qualtrics spoke v1.4.2 is the latest version.
+Qualtrics spoke v1.4.2 is the latest version. For version history of the spoke, see [Qualtrics spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-qualtrics.html).
 
 ## Supported versions
 
@@ -97,6 +97,9 @@ The Qualtrics spoke provides sample subflows to demonstrate automating Qualtrics
 |Look up Mailing List by Name|Retrieves ID of the mailing list for the specified name.|
 |Look up Message by Name|Retrieves ID of the message for the specified name.|
 |Look up Survey by Name|Retrieves ID of the survey with the specified name.|
+|Process Qualtrics Webhook Events|Processes Qualtrics webhook survey events.|
+|Segment Membership Score|Evaluates the segment membership score.|
+|Upsert Contact or Consumer| |
 
 ## Spoke actions
 
@@ -307,12 +310,56 @@ Retrieves all event subscriptions.
 
 The Qualtrics spoke provides these modules.
 
-|Module|Description|
-|------|-----------|
-|Contacts and Consumers|Create, view, and modify the contact and consumer records. When a record is created or updated here, the Upsert Contact or Consumer to Qualtrics flow is triggered.|
-|Qualtrics Score Mapping Answers|View the score mapping answers.|
+<table id="table_zpk_2gg_prb"><thead><tr><th>
 
-## Connection and credential alias requirements
+Module
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Contacts and Consumers
+
+</td><td>
+
+Create, view, and modify the contact and consumer records. When a record is created or updated here, the Upsert Contact or Consumer to Qualtrics flow is triggered.
+
+</td></tr><tr><td>
+
+Qualtrics Score Mapping Answers
+
+</td><td>
+
+View the score mapping answers.
+
+</td></tr><tr><td>
+
+Qualtrics Contacts
+
+</td><td>
+
+Stores synced Qualtrics directory contact records.
+
+</td></tr><tr><td>
+
+Qualtrics Webhook Registry
+
+</td><td>
+
+Connects Qualtrics webhooks to ServiceNow subflows. Each record links a trigger event, like activating or deactivating a survey, to the subflow that handles it.By default, these webhook registries are available:
+
+-   Survey activated event
+-   Survey deactivated event
+-   Response completed event
+-   Response partial event
+-   Recipient session started event
+
+These webhook registries are mapped to the Process Qualtrics Webhook Events subflow.
+
+</td></tr></tbody>
+</table>## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r-credentials.md).
 

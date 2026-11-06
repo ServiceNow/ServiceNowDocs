@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Configure Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Install Task Intelligence Admin Console
@@ -50,7 +50,7 @@ For more information, see [Task Intelligence roles](https://raw.githubuserconten
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

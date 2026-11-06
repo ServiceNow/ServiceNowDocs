@@ -7,7 +7,7 @@ release: yokohama
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
@@ -36,8 +36,6 @@ The system property **sn\_tcm\_collab\_hook.slack\_on\_task** enables the slack 
 2.  Open an active incident record.
 
 3.  Click the **View Slack Channels** related link.
-
-    \[Omitted image "view-join-import.png"\] Alt text: View slack channels
 
     All the dedicated slack channels for the incident are displayed.
 

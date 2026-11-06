@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,9 +30,9 @@ Role required: none
 
 3.  Click **Feeds**.
 
-4.  Click the subscribe icon \(\[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe icon\) beside the feed name.
+4.  Click the subscribe icon beside the feed name.
 
-    You can click the unsubscribe icon \(\[Omitted image "Unsubscribe2.png"\] Alt text: Unsubscribe 2\) to stop receiving email notifications.
+    You can click the unsubscribe icon to stop receiving email notifications.
 
 
 **Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)

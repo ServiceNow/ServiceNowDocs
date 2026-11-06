@@ -1,20 +1,20 @@
 ---
-title: Creating a card disputes case request from the service catalog
-description: Create a card disputes case request from the Customer or Consumer Service Portals by navigating the service catalog.
+title: Create a card disputes case request from the service catalog
+description: Create a card disputes case request from the Customer or Consumer Service Portals by navigating to the service catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing dispute intake in portal, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Creating a card disputes case request from the service catalog
+# Create a card disputes case request from the service catalog
 
-Create a card disputes case request from the Customer or Consumer Service Portals by navigating the service catalog.
+Create a card disputes case request from the Customer or Consumer Service Portals by navigating to the service catalog.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 ## Procedure
 
-1.  Create a request by going to either the portal landing page or the portal menu header and then doing one of the following actions.
+1.  Create a request by going to the portal landing page or the portal menu header and then performing one of the following actions.
 
-<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d46433e54">
+<table id="choicetable_vsj_nl4_21c"><tbody><tr><td id="d51849e75">
 
 **__Request Something__**
 
@@ -32,7 +32,7 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 
 On the portal landing page, select the **Request Something** link.
 
-</td></tr><tr><td id="d46433e67">
+</td></tr><tr><td id="d51849e88">
 
 **__Requests__**
 
@@ -47,10 +47,10 @@ In the portal menu header, navigate to **Requests** &gt; **Request Something**.
 
 3.  In the card disputes case intake page, fill in the information that is related to the request.
 
-    For more information on the various stages of the card disputes case within the playbook, see [Managing dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md)
+    For more information on the various stages of the card disputes case within the playbook, see [Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md)
 
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Managing dispute intake in portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)
+**Parent Topic:**[About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-intake-overview.md)
 

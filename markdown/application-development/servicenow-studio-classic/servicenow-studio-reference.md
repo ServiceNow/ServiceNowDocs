@@ -1,29 +1,33 @@
 ---
 title: ServiceNow Studio reference
-description: Reference topics provide additional information about the Navigator panel taxonomy, supported file types, properties, and collaboration permissions for ServiceNow Studio.
+description: Use these reference topics to find details about the Navigator panel taxonomy, supported file types, properties, and collaboration permissions in ServiceNow Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/servicenow-studio-reference.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio reference
 
-Reference topics provide additional information about the Navigator panel taxonomy, supported file types, properties, and collaboration permissions for ServiceNow Studio.
+Use these reference topics to find details about the Navigator panel taxonomy, supported file types, properties, and collaboration permissions in ServiceNow Studio.
 
 -   **[ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)**  
-Learn more about each metadata file type and its corresponding primary table in the File categories tab of the ServiceNow Studio Navigator panel.
+Reference each metadata file type and its corresponding primary table in the File categories tab of the ServiceNow Studio Navigator panel.
 -   **[ServiceNow Studio properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-properties.md)**  
-System properties control system behavior. The properties in this section are specific to the ServiceNow Studio application and delegated development deployment. You can access system properties for ServiceNow Studio by navigating to **All** &gt; **sys\_properties.list**.
+Configure system properties to control ServiceNow Studio application behavior and delegated development deployment. Access ServiceNow Studio system properties by navigating to **All** &gt; **sys\_properties.list**.
 -   **[ServiceNow Studio supported file types using code search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sn-studio-file-types.md)**  
-ServiceNow Studio supports the following file types when using code search.
+Reference the file types that ServiceNow Studio supports when using code search to locate scripts and metadata across an instance.
+-   **[Supported preview file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/supported-preview-file-types.md)**  
+Find the file types that ServiceNow Studio supports in preview features to confirm or update user-facing page functionality.
 -   **[Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md)**  
-Collaboration permissions determine what delegated developers can do when working on an app in ServiceNow Studio. They can be set by an admin or the app owner.
+Collaboration permissions determine what delegated developers can do when working on an app in ServiceNow Studio. Admins or app owners set these permissions.
+-   **[Custom Application record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/application-record-field-descriptions.md)**  
+Use the Custom Application form to add or modify information that defines the behavior of a custom application.
 
-**Parent Topic:**[Building applications with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+**Parent Topic:**[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 

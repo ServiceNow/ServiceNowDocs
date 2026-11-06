@@ -1,5 +1,5 @@
 ---
-title: Configuring ITOM Mobile Agent
+title: Configure ITOM Mobile Agent
 description: Set up and configure ITOM Mobile Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/configure-itom-mobile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Configuring ITOM Mobile Agent
+# Configure ITOM Mobile Agent
 
 Set up and configure ITOM Mobile Agent.
 

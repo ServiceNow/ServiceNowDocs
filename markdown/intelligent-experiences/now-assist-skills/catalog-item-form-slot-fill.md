@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Catalog item form slot-fill
@@ -32,6 +32,4 @@ Pre-filled fields show AI icons to help users validate values populated by Now A
 -   Container
 -   UI page
 -   HTML
-
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

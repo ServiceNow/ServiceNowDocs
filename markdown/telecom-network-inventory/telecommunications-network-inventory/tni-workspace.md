@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
 # Reviewing and updating your network inventory with the Network Inventory Workspace
@@ -17,12 +17,12 @@ breadcrumb: [Using Telecommunications Network Inventory, Telecommunications Netw
 You use the Network Inventory Workspace to manage your inventory and perform the tasks in the Telecommunications Network Inventory application.
 
 -   **[Manually creating and reviewing your network asset instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-telecommunications-network-inventory.md)**  
-A key function that you can perform in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
+A key function in the network inventory workspace is to manually create your network assets and a digital model of your network in the Telecommunications Network Inventory application. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for your network growth.
 -   **[Delete a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/delete-inventory-record.md)**  
 Delete an inventory record that is no longer relevant or needed in the Telecommunications Network Inventory application.
 -   **[Inventory number allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/vlan_or_lag_number_management.md)**  
 The inventory number allocation in the Telecommunications Network Inventory application enables you to manage LAG, VLAN, IP addresses, and telephone numbers. You can review, create, update, or delete the different LAG, VLAN, IP address, and telephone number records.
--   **[Managing your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)**  
+-   **[Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)**  
 Create application services, business applications, and network interfaces to manage all type of network functions. Here you can create, review, update, and delete application services, and business applications using the Telecommunications Network Inventory application.
 -   **[Data collection and refresh for the Network Inventory Workspace widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-collection-niw-widgets.md)**  
 Learn how the Telecommunications Network Inventory data that appears on the Network Inventory Workspace landing page is collected and refreshed.
@@ -38,7 +38,7 @@ Publish an asset to the hardware catalog so that you can procure the asset by us
 **Related topics**  
 
 
-[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 
-[Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/product-data.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Set up your environment, Configure, Customer Service Management]
 ---
 
 # Product data
@@ -83,7 +83,7 @@ This application enables you to update the existing configurations and to modify
 
 </td></tr><tr><td>
 
-Create [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/lead-to-cash-workflows.md) for products and services
+Create  for products and services
 
 </td><td>
 

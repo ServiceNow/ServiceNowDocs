@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing ad hoc filters, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing ad hoc filters, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Delete a saved ad hoc filter
@@ -24,17 +24,17 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **List**.
+2.  Select **List**.
 
 3.  Under **Lists**, navigate to **Saved Filters** &gt; **Task Filter**.
 
 4.  Select a filter.
 
-5.  Click the **More Actions** \(\[Omitted image "more\_actions1.png"\] Alt text: More actions icon.\) icon.
+5.  Select the **More Actions** \(\[Omitted image "more\_actions1.png"\] Alt text: More actions icon.\) icon.
 
-6.  Click **Delete**.
+6.  Select **Delete**.
 
-7.  Click **OK**.
+7.  Select **OK**.
 
 
 ## Result

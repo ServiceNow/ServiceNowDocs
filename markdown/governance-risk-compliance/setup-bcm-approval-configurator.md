@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setup-bcm-approval-configurator.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval configuration, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-workflow-scenario.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Exploring Patient Support Services, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Explore, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Patient Support Services - Workflow scenario
@@ -21,10 +21,6 @@ Starting with the Yokohama release, Patient Support Services is being prepared f
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Scenario: A doctor prescribes some medicines and injections to treat a disease diagnosed in a patient. The patient is concerned about the cost because of a high co-pay medical insurance plan and is worried about taking injections by oneself. The doctor tells the patient about the savings card and patient support program offered by a pharma company. The doctor then helps the patient to submit the enrollment application. In the enrollment application form, the patient enters all personal and insurance details and requests support for the savings card, sharps disposal service, and injection training. The patient signs the Health Insurance Portability and Accountability Act \(HIPAA\) consent and submits the enrollment application form. When an enrollment case is created in the ServiceNow instance, the Patient Support Services workflow initiates a playbook configured for enrollment cases. The case gets assigned to John who is a care coordinator.
-
-The following graphic shows how the Patient Support Services application is used for managing the patient support program as discussed in the scenario.
-
-\[Omitted image "pss-workflow.png"\] Alt text: Infographic outlining the Patient Support Services workflow. For the image description, refer to the text that follows.
 
 The following workflow elaborates how various users use the Patient Support Services application to enable the patient to enroll for a patient support program and obtain the savings card from a pharma company:
 

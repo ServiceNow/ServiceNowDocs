@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -93,7 +93,7 @@ The Password \(two-way encrypted\) field type is used to encrypt and decrypt dat
 
 **Parent Topic:**[Discovery patterns used by ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/c_MappingPatternsCustomization.md)
 
-**Previous topic:**[Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md)
+**Previous topic:**[OpenStack resource discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/openstack-discovery.md)
 
 **Next topic:**[Check which plugin contains a required pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/check-pattern-availability.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Lifecycle Event Script Includes, APIs]
 breadcrumb: [Activate Lifecycle Events, Configuring Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]

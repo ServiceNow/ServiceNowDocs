@@ -1,30 +1,36 @@
 ---
-title: Integrating ServiceNow Virtual Agent with Microsoft Teams
-description: Enables ServiceNow Virtual Agent to integrate with Microsoft Teams application.
+title: Integrate Virtual Agent with Microsoft Teams
+description: Enable ServiceNow Virtual Agent to integrate with the Microsoft Teams application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
-topic_type: concept
-last_updated: "2025-01-30"
+topic_type: task
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Virtual Agent, integration, MS Teams, Microsoft, Teams]
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrating ServiceNow Virtual Agent with Microsoft Teams
+# Integrate Virtual Agent with Microsoft Teams
 
-Enables ServiceNow Virtual Agent to integrate with Microsoft Teams application.
+Enable ServiceNow Virtual Agent to integrate with the Microsoft Teams application.
 
--   **[Install Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-install.md)**  
-You can install the Microsoft Teams \(sn\_va\_teams\) application to integrate with Now Virtual Agent if you have the admin role.
+## Before you begin
+
+Role required: virtual\_agent\_admin or admin.
+
+-   **[Integrating ServiceNow Otto for Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/integrating-now-assist-va-msteams.md)**  
+ServiceNow Otto for Virtual Agent uses large language models \(LLMs\) and generative AI to improve deflection rates and reduce the amount of work that Natural Language Understanding \(NLU\) topic discovery once required.
 -   **[Integrate ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/add-msteams-snow-va-bot.md)**  
 Add the Now Virtual Agent bot to your ServiceNow instance to integrate with Microsoft Teams.
 -   **[Override Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/override-msteams-install.md)**  
 Override Virtual Agent integration with Microsoft Teams.
 -   **[Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-va-teams.md)**  
 Manage your ServiceNow® Virtual Agent bot branding and customize the bot messages in your ServiceNow instance after integration with Microsoft Teams.
+-   **[Specialized Virtual Agent integrations for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/specialized-va-integs-msteams.md)**  
+The specialized Virtual Agent integrations for Microsoft Teams support different users as per their need.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

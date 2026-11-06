@@ -1,24 +1,24 @@
 ---
 title: Capturing information from a user in a Facebook Messenger chat conversation
-description: Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
+description: Use the collection of input controls provided by Assistant Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/messg-fbm-capture-info.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Conversational Integration with Facebook Messenger, Integrating Virtual Agent with Facebook Messenger, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Capturing information from a user in a Facebook Messenger chat conversation
 
-Use the collection of input controls provided by the Virtual Agent Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
+Use the collection of input controls provided by Assistant Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
 
-Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
+Use Assistant Designer for creating and managing topics, which are blueprints for conversations between a virtual agent and user. For more information, see [Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md).
 
-The Conversational Integration with Facebook Messenger application supports the following user input controls in Virtual Agent Designer.
+The Conversational Integration with Facebook Messenger application supports the following user input controls in Assistant Designer.
 
 <table id="table_fq2_gqz_2mb"><thead><tr><th>
 
@@ -82,9 +82,9 @@ Carousel
 User selects a single item from the carousel.In a carousel, the title for an image has maximum limit of 40 characters and the text for the image has maximum character limit of 60 characters. At a time, a user can view only 10 images. If there are more than 10 images, the pagination format is used to view more options. The default value of the maximum number of images in a carousel for a page is set in the **sn\_va\_fb\_messenger.max\_carousel\_cards** system property \(location: System Property \[sys\_properties\] table\).
 
 </td></tr></tbody>
-</table>For more information about configuring user input controls, see [Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md).
+</table>For more information about configuring user input controls, see [Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md).
 
-The Conversational Integration with Facebook Messenger application supports the following bot responses in Virtual Agent Designer.
+The Conversational Integration with Facebook Messenger application supports the following bot responses in Assistant Designer.
 
 <table id="table_mq2_gqz_2mb"><thead><tr><th>
 
@@ -127,9 +127,9 @@ Card
 Bot sends selected information from a record on your instance.
 
 </td></tr></tbody>
-</table>**Note:** You can also return search results as bot responses in Facebook Messenger chat conversations when there are no relevant topics to display to end users. For more information, see [Improving the user experience with AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-ai-search.md).
+</table>**Note:** You can also return search results as bot responses in Facebook Messenger chat conversations when there are no relevant topics to display to end users. For more information, see [\(Legacy\) Implementing AI Search in NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/va-ai-search.md).
 
-For more information about configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md).
+For more information about configuring bot responses, see [Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md).
 
-**Parent Topic:**[Configure Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-configure.md)
+**Parent Topic:**[Using Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-using.md)
 

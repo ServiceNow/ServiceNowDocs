@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbooks-configuring.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure Playbooks for Customer Service Management
@@ -30,7 +30,7 @@ Create or customize a playbook record page
 
 </td><td>
 
-A record page provides the base structure for how a record is displayed in CSM Configurable Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-horizontal-stages.md)
+A record page provides the base structure for how a record is displayed in CRM Workspace. The following playbook record pages are available with the Playbooks for Customer Service Management application \[com.sn\_csm\_playbook\]:-   [Case playbook: horizontal stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-horizontal-stages.md)
 -   [Case playbook: vertical stages page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-vertical-stages.md)
 
 For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-pages.md).
@@ -50,22 +50,6 @@ For more information, see the following topics:
 
 -   [Case playbook: horizontal stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-horizontal-stages.md)
 -   [Case playbook: vertical stages page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-vertical-stages.md)
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
- 
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
- 
 
 </td></tr><tr><td>
 
@@ -97,7 +81,7 @@ Configure a playbook to use compact mode
 
 </td><td>
 
-Compact mode moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete playbook activities in the side panel while viewing other tabs in the record page.Users with the system administrator role can configure a playbook to use compact mode in the playbook component configuration in UI Builder. For more information about configuring this feature, see Integrate Playbook with Workspace.
+Compact mode moves the playbook from a tab in the workspace to the contextual side panel. Agents can complete playbook activities in the side panel while viewing other tabs in the record page.Users with the system administrator role can configure a playbook to use compact mode in the playbook component configuration in UI Builder.
 
 </td></tr><tr><td>
 
@@ -113,21 +97,16 @@ Select a playbook experience
 
 </td><td>
 
-A playbook experience is a defined set of configurations that determines how the system renders a playbook in Workspace. You can use playbook experiences to customize the look and feel of a playbook, map user actions, and override activities.The Playbook Experience plugin \(com.playbook\_experience\) includes the Global Playbook Experience record, which defines a default playbook configuration.
+A playbook experience is a defined set of configurations that determines how the system renders a playbook in workspace. You can use playbook experiences to customize the look and feel of a playbook, map user actions, and override activities.The Playbook Experience plugin \(com.playbook\_experience\) includes the Global Playbook Experience record, which defines a default playbook configuration.
 
 The Playbooks for Customer Service Management plugin \(com.sn\_csm\_playbook\) includes the following additional playbook experience records:
 
--   CSM Configurable Workspace Playbook
+-   CRM Workspace Playbook
 -   CSM Agent Workspace Playbook
 
 Users with the system administrator role can select a playbook experience when adding a playbook to a page in UI Builder.
 
 Different playbooks for the same record type can use different playbook experiences. For example, if a complaint case uses two playbooks, each playbook can use a different playbook experience.
-
-For more information, see the following topics in the Workspace administrator documentation:
-
--   Create Playbook experience configurations
--   Preview a playbook
 
 </td></tr><tr><td>
 
@@ -139,7 +118,7 @@ Create a record for a case type by using a playbook record generator. With a rec
 
 </td></tr><tr><td>
 
-[Confgure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
+[Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
 
 </td><td>
 

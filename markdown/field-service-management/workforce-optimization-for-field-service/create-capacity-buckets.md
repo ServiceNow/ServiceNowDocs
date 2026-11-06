@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a capacity definition, Configuring Field Service Capacity and Reservations Management, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Create a capacity definition, Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
 # Create capacity buckets to distribute the workload capacity for a day

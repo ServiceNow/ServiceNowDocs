@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Stockrooms
@@ -18,12 +18,12 @@ Stockrooms are places to which assets are assigned.
 
 When stock is low on a particular asset, stock rules can either notify an asset manager or automatically transfer inventory from one stockroom to another.
 
-Stockrooms are separate, standalone entities in the Asset Management application.
+Stockrooms are separate, standalone entities in the Base Asset Management application.
 
 -   **[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/c_StockRules.md)**  
 Stock rules are defined criteria stating that when the inventory of a particular asset in a particular stockroom reaches a specified threshold, a certain number should either be transferred from another stockroom or ordered from a vendor.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 
@@ -39,8 +39,6 @@ Stock rules are defined criteria stating that when the inventory of a particular
 [Manage pre-allocated assets]()
 
 [Manage transfer order]()
-
-[Example Asset Management process]()
 
 [Use Organization Management]()
 

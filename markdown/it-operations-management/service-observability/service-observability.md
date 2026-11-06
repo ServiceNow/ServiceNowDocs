@@ -7,16 +7,16 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM Health, IT Operations Management]
+breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
 
 # Service Observability
 
 The ServiceNow® Service Observability application enables operators to triage and manage incidents in a complex and distributed system. Application and platform telemetry insights from multiple observability tools are combined into a centralized workflow.
 
-\[Omitted image "so\_overview.png"\] Alt text: Admin connects APM and maps data to CIs. Operator can view APM and CI data together in one view.
+\[Omitted image "so\_overview.png"\] Alt text: Admin connects APM and NPM and maps data to CIs. Operator can view APM, NPM, and CI data together in one view.
 
 ## Get started
 
@@ -30,7 +30,7 @@ The ServiceNow® Service Observability application enables operators to triage a
 
 </td></tr><tr><td>
 
-[Monitor and investigate\[Omitted image "icon-managing.png"\] Alt text:Learn how to find the source of issues and view the health of services and their related infrastructure entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/using-service-observability.md)
+[Monitor and investigate\[Omitted image "bus-management-console.svg"\] Alt text:Learn how to find the source of issues and view the health of services and their related infrastructure entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/using-service-observability.md)
 
 </td><td>
 

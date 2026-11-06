@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Explore, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Explore Microsoft Teams and Microsoft 365 integration for Employee Experience
@@ -30,5 +30,5 @@ HR Service Delivery integration with Microsoft Teams extends the Now Virtual Age
 -   **[Universal Request integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/sn-ms-teams-ur.md)**  
 The ServiceNow® Universal Request integration with Microsoft Teams application extends the ServiceNow integration with Microsoft Teams. You can enable employees to more effectively request and receive service from within Microsoft Teams by using this application.
 
-**Parent Topic:**[Exploring ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/explore-sn-teams.md)
+**Parent Topic:**[Exploring ServiceNow for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/explore-sn-teams.md)
 

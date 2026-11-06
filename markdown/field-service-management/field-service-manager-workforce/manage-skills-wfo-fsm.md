@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Coaching in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Manage skills using Workforce Optimization for Field Service
@@ -40,15 +40,15 @@ You can view skills for all users grouped by assignment group and the overall sk
 
 4.  Add a skill or skill level.
 
-<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d40848e112">
+<table id="choicetable_ufk_1hx_nlb"><thead><tr><th align="left" id="d44463e123">
 
 To
 
-</th><th align="left" id="d40848e115">
+</th><th align="left" id="d44463e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d40848e121">
+</th></tr></thead><tbody><tr><td id="d44463e132">
 
 **Add a skill**
 
@@ -59,7 +59,7 @@ Do this
 3.  Click **OK**.
 The skill gets automatically added to the agent.
 
-</td></tr><tr><td id="d40848e151">
+</td></tr><tr><td id="d44463e162">
 
 **Update a skill level**
 
@@ -80,6 +80,4 @@ The skill gets automatically added to the agent.
     -   Click the More Options \(\[Omitted image "ellipsis-new.png"\] Alt text: More options icon.\) icon and select **Save**.
     The application assigns the skill to the user. If the assigned skill does not have a skill level, the application adds the basic skill level to the user.
 
-
-**Parent Topic:**[Coaching in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/coaching-wfo-fsm.md)
 

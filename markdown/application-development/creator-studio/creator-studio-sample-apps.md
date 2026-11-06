@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Example apps you can build in Creator Studio
@@ -35,6 +35,4 @@ The following are some examples of service desk apps that you can build in Creat
 -   One-time funding requests, such as a retirement party
 -   Birthday party planning
 -   Internal skill sharing, where a department creates an app of skills they need for a project where people can sign up
-
-**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

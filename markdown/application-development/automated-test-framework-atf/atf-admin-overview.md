@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Administering the Automated Test Framework \(ATF\)
@@ -22,6 +22,8 @@ For details about individual properties that control how the Automated Test Fram
 Step configuration records \(or step configs\) define how each step type behaves. You can create new step configurations that define custom steps that run on the server.
 -   **[Working with test step templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-templates.md)**  
 Test step templates contain a list of steps to be added all at once to an automated test.
+-   **[Testing Configurable Workspace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-conf-ws.md)**  
+Simplify test creation by directly interacting with components on most Configurable Workspace pages via the Page Inspector.
 -   **[Enable or disable executing Automated Test Framework tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-enable-tests.md)**  
 Allow or prevent tests and test suites from executing on this instance.
 -   **[Modify data retention policy for ATF test results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-edit-table-cleanup.md)**  
@@ -38,6 +40,8 @@ Set request and response payload sizes, filter request and response headers, and
 You can troubleshoot automatic test performance by inspecting system transaction log records and potentially shorten execution time by adjusting how often automatic tests capture screenshots.
 -   **[Working with scheduled test suites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-sched-suites.md)**  
 You can schedule a test suite to run at a specified date and time.
+-   **[ATF Code Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-code-coverage.md)**  
+Metadata code coverage tracks which lines of code in your custom scripts are executed during ATF test runs. It helps identify untested code, validate test quality, and assess deployment risk in ReleaseOps.
 
 **Parent Topic:**[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-landing-page.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Modify a resource event that is part of a resource plan
+title: Modify a resource event in a resource plan
 description: You can modify a resource event that is part of a resource plan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/t\_ModifyResourceEvntPartResPlan.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource event modifications, Resource events, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Modify a resource event that is part of a resource plan
+# Modify a resource event in a resource plan
 
 You can modify a resource event that is part of a resource plan.
 
@@ -22,7 +22,7 @@ Role required: resource\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Resource** &gt; **Resource Plans** &gt; **All**.
+1.  Navigate to **Resource** &gt; **Resource Plans** &gt; **All**.
 
 2.  Select a plan **Number**.
 
@@ -31,8 +31,6 @@ Role required: resource\_manager
 4.  On the Resource Event form, update the fields.
 
     For a description of the field names, see [Resource Event form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-event-form.md).
-
-    \[Omitted image "resource\_event.png"\] Alt text: Resource event
 
 
 **Parent Topic:**[Resource event modifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ModifyAResourceEvent.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/imp-considerations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Considerations before implementation
@@ -19,7 +19,7 @@ Mobile push notifications are configurable pushed messages that appear directly 
 -   **[Location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-location-tracking.md)**  
 Location tracking enables you to track the activity and positioning of agents while they perform tasks. You can also use the feature to make sure your agents are safe and can be easily located.
 -   **[Localization on mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-mobile-device.md)**  
-ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages.
+ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
 -   **[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-offline-mode.md)**  
 Configure offline mode to enable your users who have no internet connection to continue working from a mobile device.
 -   **[Siri shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/siri-shortcuts.md)**  

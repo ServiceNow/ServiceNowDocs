@@ -1,21 +1,17 @@
 ---
-title: Yokohama release notes
-description: The ServiceNow Yokohama release includes new products and applications, as well as additional features and fixes for existing products. Read the release notes to learn about the release, prepare for your upgrade, and upgrade your instance.
+title: Brazil release notes
+description: The ServiceNow Brazil release includes new products and applications, as well as additional features and fixes for existing products. Read the release notes to learn about the release, prepare for your upgrade, and upgrade your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/family-release-notes.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-05-05"
-reading_time_minutes: 4
+last_updated: "2026-11-05"
+reading_time_minutes: 3
 ---
 
-# Yokohama release notes
+# Brazil release notes
 
-The ServiceNow® Yokohama release includes new products and applications, as well as additional features and fixes for existing products. Read the release notes to learn about the release, prepare for your upgrade, and upgrade your instance.
-
-## Yokohama highlights
-
-\[Omitted image "release-highlights-yokohama.png"\] Alt text: Service and operational resiliency, AI purpose-built for every industry, and making AI actionableFor more information about products and features in the ServiceNow AI Platform Yokohama release, see the [Yokohama General Availability release highlights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-highlights.md).
+The ServiceNow® Brazil release includes new products and applications, as well as additional features and fixes for existing products. Read the release notes to learn about the release, prepare for your upgrade, and upgrade your instance.
 
 ## Path to successful upgrades
 
@@ -29,7 +25,7 @@ To use the release notes in your upgrade process, choose the upgrade phase that 
 
 <table id="table_fxj_bnd_tmb" class="nav-card"><tbody><tr><td>
 
-[Learn about Yokohama \[Omitted image "learn.png"\] Alt text: icon for the tile Learn about Yokohama Find out what's new and changed in Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-learn-landing-page.md)
+[Learn about Brazil \[Omitted image "learn.png"\] Alt text: icon for the tile Learn about Brazil Find out what's new and changed in Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-learn-landing-page.md)
 
 </td><td>
 
@@ -37,22 +33,18 @@ To use the release notes in your upgrade process, choose the upgrade phase that 
 
 </td><td>
 
-[Upgrade to Yokohama \[Omitted image "upgrade.png"\] Alt text: icon for the tile Upgrade to Yokohama Review the process and upgrade your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-overview.md)
+[Upgrade to Brazil \[Omitted image "upgrade.png"\] Alt text: icon for the tile Upgrade to Brazil Review the process and upgrade your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrades-overview.md)
 
 </td></tr></tbody>
 </table>## Release timeline
 
-New Yokohama release versions are released throughout the year. Here are the current dates for Yokohama patch and security patch releases. To view a full list of Yokohama release versions, refer to [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md). Future release dates are subject to change.
+New Brazil release versions are released throughout the year. Here are the current dates for Brazil patch and security patch releases. To view a full list of Brazil release versions, refer to [Available patches and hotfixes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md). Future release dates are subject to change.
 
-
-
-\[Omitted image "release-timeline-yokohama.png"\] Alt text: Yokohama release timeline for the year of 2026
+\[Omitted image "release-timeline-brazil.png"\] Alt text: Brazil release timeline for the year of 2026
 
 ## Maximize your release notes value
 
 Learn how to navigate the redesigned release notes and find the information you’re looking for. Use new release notes tools to improve your upgrade experience.
-
-\[Omitted video\] Description: How to use release notes
 
 ## Release notes tools
 
@@ -60,7 +52,7 @@ We've created some tools to help you review the release notes and upgrade more q
 
 -   **Release notes summaries**
 
-    If you're interested in a specific set of release notes information, we've displayed release notes for all products by category. For example, you can read about the browser requirements for all Yokohama products, all on one page.
+    If you're interested in a specific set of release notes information, we've displayed release notes for all products by category. For example, you can read about the browser requirements for all Brazil products, all on one page.
 
 -   **Personalized PRB release notes**
 
@@ -71,17 +63,10 @@ We've created some tools to help you review the release notes and upgrade more q
     View all release notes information for any product, from any family release version to another, on one page.
 
 
-To check out the release notes tools available for your upgrade scenario, choose your upgrade path to Yokohama.
+## Choose your upgrade path to Brazil
 
--   [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
--   [Release notes for upgrading from Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-2-landing-page.md)
--   [Release notes for upgrading from Vancouver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-3-landing-page.md)
--   [Yokohama patch and hotfix release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
-
-## Choose your upgrade path to Yokohama
-
--   [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
--   [Release notes for upgrading from Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-2-landing-page.md)
--   [Release notes for upgrading from Vancouver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-3-landing-page.md)
--   [Yokohama patch and hotfix release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
+-   [Release notes for upgrading from Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
+-   [Release notes for upgrading from Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-2-landing-page.md)
+-   [Release notes for upgrading from Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-3-landing-page.md)
+-   [Brazil patch and hotfix release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/available-versions.md)
 

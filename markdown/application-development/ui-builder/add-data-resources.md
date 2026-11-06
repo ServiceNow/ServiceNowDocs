@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add and configure data resources to a page
@@ -44,13 +44,9 @@ In the data resource section of UI Builder, you can add and configure local data
 
 6.  Select **Data resource**.
 
-    \[Omitted image "data-resource-open.png"\] Alt text: Add a Data resource option.
-
 7.  Select a data resource to add to your page.
 
     For example, you could select **Look up a single record**.
-
-    \[Omitted image "data-resource-look-up-records.png"\] Alt text: Selecting the Global application, Look Up Records data resource, and Add button.
 
 8.  Select **Add** to add the data resource to your page.
 

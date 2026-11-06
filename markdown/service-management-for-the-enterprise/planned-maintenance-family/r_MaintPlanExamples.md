@@ -7,7 +7,7 @@ release: yokohama
 product: Planned Maintenance \(Family\)
 classification: planned-maintenance-family
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Planned Maintenance, Service Management]
 ---
@@ -18,9 +18,7 @@ You can define maintenance plans using model-based, meter-based, or duration-bas
 
 -   To schedule a reboot for certain computer models after a specified number of keystrokes, define a model-based plan with a meter-based maintenance schedule.
 -   To schedule a printer ink cartridge replacement after printing a specified number of pages, define a general plan with a meter-based maintenance schedule.
--   To schedule an anti-virus scan on particular computers after a specified number of days, define a model-based plan with a duration-based maintenance schedule.
-
-**Note:** You can't modify the selection criteria and conditions after the maintenance plan is created.
+-   To schedule an antivirus scan on particular computers after a specified number of days, define a model-based plan with a duration-based maintenance schedule.
 
 **Parent Topic:**[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/planned-maintenance-family/c_SMPlanMaint.md)
 

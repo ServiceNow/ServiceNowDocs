@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Certificate integrations and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+breadcrumb: [Certificate alerts and notifications, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
 # Receive certificate notifications on Slack
@@ -59,5 +59,5 @@ A scheduled job in Certificate Inventory and Management regularly checks the exp
 
 Notifications are directed to the Slack channel specified in Discovery properties. If a certificate is assigned to a user, and their configured email matches the Slack email, the user is tagged in the Slack message. The Slack scheduled job runs weekly, and you can adjust its frequency by modifying the Certificate Notification scheduled job settings.
 
-**Parent Topic:**[Certificate integrations and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
+**Parent Topic:**[Certificate alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-inventory-mgmt-workflow.md)
 

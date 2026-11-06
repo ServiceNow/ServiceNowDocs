@@ -1,22 +1,22 @@
 ---
 title: Components installed with Operational Sustainability Management \(formerly ESG Management\)
-description: Several types of components such as roles, tables, and properties are installed with the ESG Management application and the GRC: Metrics application.
+description: Several types of components such as roles, tables, and properties are installed with the Operational Sustainability Management application and the GRC: Metrics application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/components-installed-with-esg.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Components installed with Operational Sustainability Management \(formerly ESG Management\)
 
-Several types of components such as roles, tables, and properties are installed with the ESG Management application and the GRC: Metrics application.
+Several types of components such as roles, tables, and properties are installed with the Operational Sustainability Management application and the GRC: Metrics application.
 
 ## Roles
 
-The following roles are installed with the ESG Management application.
+The following roles are installed with the Operational Sustainability Management application.
 
 **Note:** For the tables and roles installed with the GRC: Metrics application, see [Components installed with the GRC: Metrics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/tables-installed-with-metrics.md).
 
@@ -56,7 +56,7 @@ Users with this role can read, write, update, and delete the following:-   Mater
 -   Disclosures
 -   Authority documents
 -   Citations
--   Citations and metric definitions from the ESG content accelerator application
+-   Citations and metric definitions from the Unified content management application
 -   Risk assessment factors
 -   Update and publish risk assessments methodologies
 -   Emission activity
@@ -74,7 +74,7 @@ These users can read and update the **sn\_esg\_scope3.historical\_years\_selecto
 
 </td><td>
 
-sn\_esg.program\_manager, sn\_esg.integrations\_admin, sn\_esg.internal\_admin, sn\_grc\_metric.admin, sn\_esg.internal\_disclosure\_manager, report\_user, sn\_esg\_msoff\_intg.admin, If the ESG Risk Management plugin is activated, sn\_risk\_advanced.ara\_admin, and sn\_risk.manager roles are installed. If the com.snc.multiprovider\_documents plugin is activated, the mp\_document\_user role is added.
+sn\_grc.forecast.admin, sn\_esg.msoff\_intg.admin, sn\_esg.internal\_disclosure\_manager, sn\_grc\_metric.admin, sn\_grc\_doc\_design.admin, report\_user, sn\_esg.integrations\_admin, sn\_esg.program\_manager, sn\_esg.internal\_admin, mp\_document\_user, sn\_grc\_claims.adminIf the ESG Risk Management plugin is activated, the sn\_risk\_advanced.ara\_assessor and sn\_risk.implementation\_manager roles are installed.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Users with this role can read the following:-   Material topics
 
 </td><td>
 
-sn\_esg.reader, sn\_grc\_metric.manager
+sn\_esg.reader, sn\_grc\_metric.manager, sn\_esg\_content.admin
 
 </td></tr><tr><td>
 
@@ -127,7 +127,7 @@ Users with this role can read the following:-   Material topics
 
 </td><td>
 
-sn\_esg.internal\_disclosure\_manager, sn\_esg.reader, report\_user, sn\_esg\_msoff\_intg.reader If the com.snc.multiprovider\_documents plugin is activated, the mp\_document\_user role is added.
+sn\_esg.internal\_disclosure\_manager, sn\_esg.reader, report\_user, sn\_esg\_msoff\_intg.reader, sn\_esg\_content.admin, sn\_grc\_claims.manager, mp\_document\_userIf the com.snc.multiprovider\_documents plugin is activated, the mp\_document\_user role is added.
 
 </td></tr><tr><td>
 
@@ -151,7 +151,7 @@ Users with this role can read the following:-   Goals
 
 </td><td>
 
-sn\_grc\_metric.user, workspace\_user, sn\_gf.goal\_user\_read, canvas\_user, sn\_grc\_metric.reader, sn\_grc\_workspace.task\_reader,sn\_grc\_workspace.user, sn\_grc.library\_readerIf the ESG Risk Management plugin is activated, sn\_risk\_advanced.ara\_assessor sn\_risk.reader roles are installed.
+sn\_grc.library\_reader, sn\_gf.goal\_user\_read, sn\_grc\_workspace.task\_reader, sn\_grc\_metric.reader, sn\_grc\_metric.user, If the ESG Risk Management plugin is activated, the sn\_risk\_advanced.ara\_assessor, sn\_risk.library\_reader, sn\_risk\_advanced.ara\_assessor, sn\_risk.library\_business\_user, and sn\_risk.implementation\_business\_user roles are installed.
 
 </td></tr><tr><td>
 
@@ -181,7 +181,7 @@ Users with this role can read, write, update, and delete the following:-   Mater
 
  These users can read authority documents, citations, framework status, GRI citation, Metric definition, SASB citation, TCFD citation, UN SDG citation, Scope 3 dashboard, inflation factors.
 
-If the ESG content accelerator, application is installed, these users can read emission activity source, emission activity, emission factor location, emission unit, and disclosures. They can read and update Emission activity location.
+If the Unified content management, application is installed, these users can read emission activity source, emission activity, emission factor location, emission unit, and disclosures. They can read and update Emission activity location.
 
 They can also delete only those metrics and metric definitions that they have created.
 
@@ -189,7 +189,7 @@ They can read and update the system property Scope 3 dashboard's historical year
 
 </td><td>
 
-sn\_esg.reader, sn\_gf.epmo\_strategy\_planner, sn\_grc\_metric.manager, sn\_gf.goal\_user, sn\_esg.internal\_manager, sn\_grc.library\_admin, sn\_compliance.library\_adminIf the ESG Risk Management plugin is activated, sn\_risk.reader sn\_risk\_advanced.ara\_approver,sn\_risk\_advanced.ara\_assessor,sn\_risk\_advanced.ara\_creator roles are installed.
+sn\_esg.reader, sn\_gf.epmo\_strategy\_planner, sn\_grc\_metric.manager, sn\_gf.goal\_user, sn\_esg.internal\_manager, sn\_grc.library\_admin, sn\_compliance.library\_admin,sn\_grc\_claims.manager, sn\_grc\_forecast.manager, sn\_compliance.control\_employee\_reader, sn\_esg\_content.admin, sn\_compliance.control\_framework\_reader, sn\_grc.issue\_employee\_userIf the ESG Risk Management plugin is activated,the sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_approver, and sn\_risk.implementation\_business\_user roles are installed.
 
 </td></tr><tr><td>
 
@@ -210,7 +210,7 @@ Users with this role can do the following tasks:-   Create the risk framework
 
 </td><td>
 
-sn\_risk.manager
+sn\_risk\_advanced.ara\_planner, sn\_risk.implementation\_manager, sn\_risk.library\_manager, sn\_risk\_advanced.ara\_creator, sn\_risk\_advanced.ara\_assessor, sn\_risk\_advanced.ara\_approver
 
 </td></tr><tr><td>
 
@@ -228,12 +228,12 @@ Users with this role can do the following tasks:-   Create a claim
 
 </td><td>
 
-sn\_grc\_claims.manager
+sn\_grc\_claims.reader
 
 </td></tr></tbody>
 </table>## Tables
 
-The following tables are installed with the ESG Management application.
+The following tables are installed with the Operational Sustainability Management application.
 
 <table id="table_thf_cgm_frb"><thead><tr><th>
 
@@ -646,7 +646,7 @@ Relationship between imported material topic data and Socialsuite materiality as
 </td></tr></tbody>
 </table>## Properties
 
-The following properties are installed with the ESG Management application.
+The following properties are installed with the Operational Sustainability Management application.
 
 <table id="table_h5y_fpm_frb"><thead><tr><th>
 
@@ -678,7 +678,7 @@ sn\_esg.metric\_approval
 
 </td><td>
 
-Enables ESG administrators to define either the simple approval flow or the advanced approval flow for all the metrics and metric definitions. **Note:** This property is available only when the sn\_grc\_appr plugin is activated and must be set while configuring the ESG Management application.
+Enables ESG administrators to define either the simple approval flow or the advanced approval flow for all the metrics and metric definitions. **Note:** This property is available only when the sn\_grc\_appr plugin is activated and must be set while configuring the Operational Sustainability Management application.
 
  The choices are as follows:-   **Simple**: By choosing this option, the Approval section will be enabled both on the manual metric definition form and within the metrics. Using this section, you can designate approvers directly on the metric definition form.
 -   **Advanced**: When you choose this option, the Approval section will be unavailable on the manual metric definition form and the metric form. Instead, approval can be configured by setting the approval conditions, tables, and approvers in the GRC: Approver Configurator application. This application also allows you to define multiple levels of approvals. For more information see, [Using Approver Configurator for setting up approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/approval-configuration.md).
@@ -694,7 +694,7 @@ Enables you to configure the number of historical years for which you want to vi
 </td></tr></tbody>
 </table>## Scheduled jobs
 
-The following scheduled jobs are installed with the ESG Management application.
+The following scheduled jobs are installed with the Operational Sustainability Management application.
 
 |Name|Description|
 |----|-----------|

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Activity definitions, Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create an action as an activity automation plan

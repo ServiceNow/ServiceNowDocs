@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a profile for the Microsoft Graph Security API alert ingestion integration, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Create a profile, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Preview the security incident for the Microsoft Graph Security API integration
@@ -26,21 +26,17 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 ## Procedure
 
-1.  If the security incident preview is not displayed, click **Preview** in the progress bar.
+1.  If the security incident preview is not displayed, select **Preview** in the progress bar.
 
     All the ingested alerts and the field mappings defined in the Mapping page are displayed.
 
-2.  Click on an Alert ID to see a preview of the security incident.
+2.  Select on an Alert ID to see a preview of the security incident.
 
     This view is a read-only view, and a record of this security incident is not saved.
 
 3.  Review the field mapping of the alert values on the security incident.
 
-    \[Omitted image "ms-graph-create-profile-5.png"\] Alt text: Microsoft Graph Security API: preview profile
-
-    The preceding image is an example of a preview with a mapping error of the samples that were ingested.
-
-4.  To resolve this error, click **Mapping** in the progress bar.
+4.  To resolve this error, select **Mapping** in the progress bar.
 
 5.  Edit the mapping to fix incorrect values or populate any missing data.
 
@@ -49,5 +45,5 @@ As a user with the sn\_si.admin role, preview a security incident and edit the m
 
 ## What to do next
 
-If no error messages are displayed, and you are satisfied with the field mapping on the security incident, the next step is to define the schedule.
+If no error messages are displayed, and you're satisfied with the field mapping on the security incident, the next step is to define the schedule.
 

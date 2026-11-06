@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Domain separation in ServiceNow Otto for Customer Service Management \(CSM\)

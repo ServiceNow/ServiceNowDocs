@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Create a contract rate card, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Contract Rate Card form

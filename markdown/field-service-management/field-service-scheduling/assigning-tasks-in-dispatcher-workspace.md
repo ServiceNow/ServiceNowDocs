@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-02-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assigning work order tasks to agents from Dispatcher Workspace
@@ -24,6 +24,4 @@ Assigning work order tasks to agents from Dispatcher Workspace.
 
     Logically group similar tasks into a bundle enables agents to track, start, and complete related tasks at once instead of individually.
 
-
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/scheduling-and-dispatching-agents.md)
 

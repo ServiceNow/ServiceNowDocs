@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_ActivityFormatter.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Using formatters, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Formatters, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activity formatter
@@ -22,7 +22,7 @@ Activity type and a time stamp display in the top of each entry.
 
 In Core UI, the activity formatter shows updates in real time so you can see the latest information without refreshing the form. User presence enables you to see when other users are entering comments.
 
-\[Omitted image "UI16ActivityFormatter.png"\] Alt text: Core UI activity formatter
+\[Omitted image "activity-formatter.png"\] Alt text: Core UI activity formatter
 
 **Parent Topic:**[Using formatters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_Formatters.md)
 
@@ -37,7 +37,7 @@ You can create an activity formatter for any audited table.
 
 ### Before you begin
 
-Role required: admin
+Role required: ui\_macro\_admin
 
 ### Procedure
 
@@ -89,6 +89,8 @@ Enable the Live Feed-Activity toggle, which allows users to switch between the a
 
 ### Before you begin
 
+The Live Feed-Activity toggle is only supported in the Core UI. To enable it, the system property **glide.ui.polaris.experience** must be set to "false."
+
 Role required: admin.
 
 ### About this task
@@ -97,24 +99,16 @@ Use live feed to interact with other users on a record by posting messages and a
 
 \[Omitted image "ActivityFormatterToggle.png"\] Alt text: Live Feed/Activity toggle
 
-The **glide.ui.show\_live\_feed\_activity property** is enabled. Navigate to **Collaborate** &gt; **Feed Administration** &gt; **Properties** and enable the **Toggle the display of the live feed tab in the activity formatter** option.
-
 ### Procedure
 
-1.  Verify that the live feed and record feed plugins are active.
+1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
 
-2.  If the activity formatter is not visible, configure the form to add it.
+2.  Find the **glide.ui.show\_live\_feed\_activity** property and set it to "true."
 
-3.  Set the **live\_feed** dictionary attribute to true on the form.
 
-    This action adds live feed to the activity formatter.
+### Result
 
-4.  Enable the system property.
-
-    1.  Navigate to **Collaborate** &gt; **Feed Administration** &gt; **Properties**.
-
-    2.  Enable the **Toggle the display of the live feed tab in the activity formatter** option \(**glide.ui.show\_live\_feed\_activity property**\).
-
+Form activity formatters include a Live Feed-Activity toggle.
 
 ## Customize activities
 
@@ -228,7 +222,7 @@ Value
 
 </td></tr></tbody>
 </table>
-## Configure email reply for the activity formatter in Core UI
+## Enable the email reply button for the activity formatter in Core UI
 
 The **glide.ui16.emailStreamResponseActions** system property determines whether a user can reply to email using the email reply button in the activity stream in Core UI.
 

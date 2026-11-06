@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/test-ai-agent-mcp.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Test an AI agent

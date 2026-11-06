@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # JavaScript function test outcome fields

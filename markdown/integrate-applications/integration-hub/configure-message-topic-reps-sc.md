@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Stream Connect Message Replication, Using Stream Connect for Apache Kafka, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Message replication, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
 # Create message and Kafka topic replications in Stream Connect
@@ -23,14 +23,18 @@ Set up message and topic replications to replicate data between your Apache Kafk
 -   Verify the Hermes Messaging Service and Instance PKI Certificate Generator are working.
     -   [Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md).
     -   Check the [Key Management Framework Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/kmf_diagnostics.md) to verify that all three items in the Instance PKI section are operational.
--   Configure and start a MID Server. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerConfiguration.md). The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
+-   Configure and start a MID Server or MID Server cluster. For more information, see [Configuring MID Servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerConfiguration.md) and [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
+
+    The MID Server must be able to access Hermes endpoints through the firewall. Work with your network administrator to make sure that the following port ranges are open.
 
     -   Producer: 4000–4050
     -   Consumer1: 4100–4150
     -   Consumer2: 4200–4250
     **Note:** Proxy settings on the MID Server don't apply to Hermes connectivity. The MID Server proxy configuration applies only to HTTP-based communication. Hermes uses Kafka-native TCP connections, so traffic to the Hermes cluster bypasses proxy settings regardless of how the MID Server is configured.
 
--   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka SSL Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
+    If you're using a MID Server cluster, it must have a cluster type of **Load Balance**. The **Failover** cluster type is not supported.
+
+-   Stream Connect Message Replication uses a Connection &amp; Credential alias to connect to your local Kafka. [Create a Connection &amp; Credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md) with a **Connection type** of **Kafka**. A Connection &amp; Credential alias requires a [Kafka Connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-kafka-connection.md) and a [Kafka Credential](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/create-kafka-ssl-credentials.md).
 -   Stream Connect Message Replication requires the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin.
 
 ## About this task
@@ -51,14 +55,12 @@ A Kafka Topic Replication record specifies the replication from a single source 
     |-----|-----------|
     |Name|Name of the message replication.|
     |Messaging service connection|Connection &amp; Credential alias specifying which messaging service to connect to.|
-    |Status|Last known status of the message replication. This field is automatically set.|
-    |Error message|Error message based on the last known status of the message replication. This field is automatically set.|
     |Application|Application scope for the message replication. This field is automatically set.|
     |Active|Option to activate the message replication.|
 
 3.  Select **Save**.
 
-    After you save the form, the Kafka Topic Replications tab appears at the bottom of the page.
+    After you save the form, the Message Replication Statuses and Kafka Topic Replications tabs appear at the bottom of the page.
 
 4.  On the Kafka Topic Replications tab, select **New**.
 
@@ -130,22 +132,6 @@ Option to activate the topic replication.
 
 </td></tr><tr><td>
 
-Status
-
-</td><td>
-
-Last known status of the topic replication. This field is automatically set.
-
-</td></tr><tr><td>
-
-Error message
-
-</td><td>
-
-Error message based on the last known status of the topic replication. This field is automatically set.
-
-</td></tr><tr><td>
-
 Track in current update set
 
 </td><td>
@@ -160,9 +146,9 @@ When selected, the topic replication is added to the current update set, so it's
 
 ## Result
 
-After you've created all your message and topic replication records, messages should be replicating. You can check the **Status** and **Error message** fields on the Message Replication record for a general status of how the replication is working.
+After you've created all your message and topic replication records, messages should be replicating. You can check the Message Replication Statuses \[sys\_sc\_message\_replication\_status\] tab on the Message Replication form to view the status, MID Server, and error messages for each message replication.
 
-You can also check the **Status** and **Error message** fields on each individual Kafka Topic Replication record for the status of a specific topic replication.
+You can also check the Channel Replication Statuses \[sys\_sc\_channel\_replication\_status\] tab on the Kafka Topic Replication record to view status details for each topic replication, including the **MID Server**, **Error message**, and **Error Since** values.
 
 Each Kafka Topic Replication record also has a related list named Message Replication Statistics. Once replications are running, this list displays metrics records, which are created every 60 seconds for each topic replication. Each metrics record has information about the topic replication, including the **Message count**, which shows the number of messages replicated in each collection interval.
 

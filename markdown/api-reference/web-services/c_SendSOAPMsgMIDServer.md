@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SOAP message, Outbound SOAP web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP message, SOAP, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Send a SOAP message through a MID server
@@ -18,7 +18,7 @@ When creating SOAP message functions, you can configure the function to be sent 
 
 There must be a running MID Server associated with your instance to use this functionality. All SOAP messages sent through a MID Server are performed asynchronously.
 
-\[Omitted image "SoapMessageMid.png"\] Alt text:
+\[Omitted image "SoapMessageMid.png"\] Alt text: MID server is supplied in the SOAP message form.
 
 By specifying a MID Server, all SOAP requests that use this SOAP message are sent through that MID Server. You can override the selected MID Server by using the setMIDServer\(mid server\) API call in a script.
 

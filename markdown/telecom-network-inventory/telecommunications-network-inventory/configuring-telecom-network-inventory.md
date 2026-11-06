@@ -7,7 +7,7 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Telecommunications Network Inventory]
 ---
@@ -18,8 +18,10 @@ Learn how to configure the Telecommunications Network Inventory application so t
 
 -   **[Install Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/installing-telecommunications-network-inventory.md)**  
 If you have the admin role, you can install the Telecommunications Network Inventory application. The application includes the demo data and installations that are related ServiceNow® Store applications and plugins, if they aren’t already installed.
--   **[Assigning user roles for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)**  
+-   **[Assign user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecom-inventory-roles.md)**  
 You can assign roles to control user access to specific features, capabilities, and data in the Telecommunications Network Inventory application. These assigned roles enable or prevent access to specific forms and processes by users with the specified roles only.
+-   **[Query range access for TNI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/query-range-access-for-tni-tables.md)**  
+TNI tables use query range access control lists \(ACLs\) to enforce field-level read access for authenticated users who already have read permission on the table.
 -   **[Define a location hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-locations.md)**  
 Define a location hierarchy for your Telecommunications Network Inventory forms so that you can track and manage your network assets. By defining a location hierarchy, you can see where all your network equipment is located.
 -   **[Create manufacturer and vendor codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/add-company-designate-manufacturer-tni.md)**  
@@ -28,16 +30,18 @@ Create company codes by using the Telecommunications Network Inventory applicati
 Create a central office code, country code, area code, and rate center for a series of telephone numbers by using the Telecommunications Network Inventory application.
 -   **[Configuring decision tables for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/decision_tables.md)**  
 You can configure decision tables to resolve complex tasks in the Telecommunications Network Inventory application. For example, you can create, review, or delete an entry for tasks in a decision table in Decision Builder.
--   **[Configure Telecommunications Network Inventory attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/confgure-telecommunications-network-inventory-attributes.md)**  
+-   **[Configure attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/confgure-telecommunications-network-inventory-attributes.md)**  
 Configure the core equipment table to enable the collection of the common Telecommunications Network Inventory attributes appear in the CI record. You use these attributes to create a Telecommunications Network Inventory CI record.
 -   **[Configuring an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configuring-pack-table.md)**  
-After you create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application, you can configure the mapping between the table and the inventory object that you want to use it with.
+After you create an attribute pack table with the attributes you define in the Telecommunications Network Inventory application, you can configure the mapping. The mapping is between the table and the inventory object that you want to use it with.
 -   **[Configuring capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configuring-capacity-management.md)**  
 Create and configure the capacity management function, definition, and metric in the Telecommunications Network Inventory application. By using capacity management, you can calculate the maximum, occupied, and available capacity of your network assets.
 -   **[Configuring overlays on floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-overlays-floor-map.md)**  
 Update the decision table to configure the operational data overlay on the floor map. You can view the operational data of the datacenters for a selected time range as colored layer on the floor map in the Telecommunications Network Inventory application.
 -   **[Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)**  
 Create and configure a Design and Assign function in the Telecommunications Network Inventory application. You can use it to design your network service and assign the network resources.
+-   **[Configure ServiceNow Otto for TNI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-servicenow-otto-for-tni.md)**  
+If you have the admin role, you can configure ServiceNow Otto in Telecommunications Network Inventory so that your agents can use the generative AI skills and agentic workflows.
 
 **Parent Topic:**[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecom-network-inventory.md)
 

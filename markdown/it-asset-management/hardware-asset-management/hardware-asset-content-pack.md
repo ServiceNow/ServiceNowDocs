@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Analytics and Reporting Solutions for Hardware Asset Management
@@ -54,10 +54,10 @@ Beginning with the Xanadu release, note the following points about the Core UI P
 
 **Note:** After upgrading to Xanadu, you can view both the Core UI Performance Analytics dashboards and the Next Experience Platform Analytics dashboards for Hardware Asset Management. While migrating the Core UI Performance Analytics dashboards to the Next Experience Platform Analytics dashboards, auto-migration is disabled by default to avoid duplicate dashboards.
 
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
+
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

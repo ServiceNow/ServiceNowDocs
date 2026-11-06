@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Health process tracking and troubleshooting
@@ -75,20 +75,20 @@ Orphan test results provide the details of where exactly the hierarchy is broken
 An error message is logged if the results from a scripted audit are not included in the compliance KPI. The reason can be that the script in the audit was not updated to populate its **Last ran date** field. Without a **Last ran date** value, CMDB Health is unable to identify these run results as part of a recent complete audit run, and skips those results.
 
 -   **[CMDB Health process status: failure threshold reached](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/failure-threshold-reached.md)**  
-The CMDB Health dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
+The CMDB Health Dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
 -   **[CMDB Health process status: incomplete score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/incomplete-score.md)**  
-The CMDB Health dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
+The CMDB Health Dashboard shows the string 'incomplete score' for a metric when it fails to calculate the score for the metric.
 
 **Parent Topic:**[CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md)
 
 **Related topics**  
 
 
-[Explore CMDB Health]()
+[Exploring CMDB Health]()
 
-[CMDB Health experience in CMDB Workspace]()
+[CMDB Health experience in CMDB Workspace and in Service Graph Workspace]()
 
-[View CMDB Health dashboard]()
+[View CMDB Health Dashboard]()
 
 [View relationships health]()
 

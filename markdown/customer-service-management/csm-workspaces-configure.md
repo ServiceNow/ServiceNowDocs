@@ -1,70 +1,70 @@
 ---
 title: CRM Workspace
-description: CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+description: CRM Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspaces-configure.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-22"
 reading_time_minutes: 2
-breadcrumb: [Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CRM Workspace
 
-CRM Workspace is a user interface that provides agents with the tools they need to answer customer questions and resolve customer issues.
+CRM Workspace is a user interface that provides customer service agents with the tools they need to assist customers, answer questions, and resolve issues quickly and efficiently.
 
-The [Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) is built to improve agent efficiency and facilitate resolutions. From a single view, agents can:
+\[Omitted image "front-line-case-page-template.png"\] Alt text: Workspace interface showing record details, activities, and tools for resolving customer issues, including search and recommended actions.
 
--   Work on multiple issues concurrently in an optimized, intuitive layout.
--   Resolve issues faster with automated suggestions powered by machine learning.
+CRM Workspace provides agents with a unified workspace to handle customer requests. Agents can manage cases, accounts, and contacts from multiple channels, such as email, voice, and chat on a single screen, eliminating the need to switch between tabs.
+
+## CRM Workspace features
+
+Key features of CRM Workspace include list views for managing cases, interactions, and other records and tabs for multitasking. It also enables agents to access customer history and context without leaving the main screen.
+
+|Feature|Description|
+|-------|-----------|
+|Unified workspace|Consolidates the tools and information an agent needs into a single, customizable interface.|
+|List pages|Provide filtered lists of cases, interactions, and other records such as accounts and contacts. Agents can also create and save their own lists.|
+|Multi-tab interface|Tabs and subtabs enable agents to work on multiple cases, tasks, and other customer records within a single browser window. Agents can quickly move between records without losing their place.|
+|Contextual display|Agents get a complete view of a customer's history, including interactions, products, and cases.|
+|Channel integration|Agents can manage customer interactions from various channels, including email, chat, and phone, all within the same interface.|
+|Contextual side panel|A configurable panel that provides agents with additional tools and information such as search, Recommended Actions, attachments, and templates.|
+|AI tools|Summarize interaction chats and calls, summarize case information, and generate case resolution notes.|
+
+For more information, see [CRM Workspace features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-feature-overview.md).
+
+## CRM Workspace benefits
+
+The ServiceNow [Configurable Workspace UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) improves user efficiency and facilitates resolutions. CRM Workspace, which is built from the Configurable Workspace UI, is built specifically for customer service agents.
+
+CRM Workspace brings together customer information, case management, and collaboration tools into a single window. This user experience enables agents to manage several cases and interactions across different channels at the same time.
+
+CRM Workspace presents the Core UI lists and forms in one interface and consolidates multiple tabs into a single, focused work area. From this single view, agents can:
+
+-   Work on multiple issues concurrently in an intuitive layout, reducing context and tab switching.
+-   Resolve issues with automated suggestions powered by machine learning.
 -   Get notified of potential major incidents based on issue frequency and impact.
 -   Keep informed of updates and surface important insights with a live activity feed and analytics.
 
-## CSM Configurable Workspace overview
-
-A [workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-landing-page.md) is a suite of tools in a single focused work area that enables a user to efficiently complete an entire job. It provides users such as customer service agents, managers, and help desk professionals with tools to help answer customer questions and resolve issues.
-
-A workspace also includes features that enable a user to be more efficient, including a multi-tab interface for managing multiple cases and a contextual display that provides quick orientation to the current task. For more information about the key features that make up a workspace, see [Exploring Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/learn-about-agent-workspace.md).
-
-Workspaces use pages and page variants to display table and record information. Some pages are provided with the CRM Workspace application. For more information, see [CSM Configurable Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md).
-
-You can also create pages, either from a template or from scratch, or you can duplicate and customize an existing page variant. You can create and customize pages and variants using [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md), a web user interface builder. For more information, see [Creating pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-create-page-variant.md).
-
-## UI Builder
-
-[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) is a web user interface builder that enables you to build pages for workspaces. With UI Builder, you can:
-
--   Configure page layouts and components.
--   Extend and deploy custom components in a workspace.
--   Leverage UI Builder components to build additional solutions.
-
-For more information about working with pages and components, see the following topics:
-
--   For more information about working with components in UI Builder, see [Work with components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-components.md).
--   For more information about available components, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
-
-## Workspace tutorials
-
-The following tutorials describe the different parts of a workspace and give you an overview of how a workspace works.
-
--   [Workspace tutorial for agents starting with a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-tutorial-for-agents.md)
--   [Workspace tutorial for agents starting with a chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-tutorial-agents-chat.md)
+For more information, see [CRM Workspace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-overview.md).
 
 ## Application information
 
-The CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\) is activated with the Customer Service plugin \(com.sn\_customerservice\).
+The CRM Workspace plugin \(com.snc.uib.csm\_agent\_workspace\) is activated with the Case Management Core plugin \(com.sn\_customerservice\).
 
-Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
+**Note:** Starting with the Yokohama release, CRM Workspace has a dependency on the Customer Central plugin. For more information, see [Customer Central plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md).
 
 The CRM Workspace application is available from the ServiceNow Store.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 
 
 [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/list-of-workspaces.md)
+
+[Configurable Workspace glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configurable-workspace-glossary.md)
 

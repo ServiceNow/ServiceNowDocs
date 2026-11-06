@@ -1,0 +1,69 @@
+---
+title: Self-service conversational troubleshooting
+description: Use the AI Admin Center conversational experience to diagnose and resolve common AI administration issues.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-center-self-healing-agent.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-10-28"
+reading_time_minutes: 2
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using the ServiceNow Otto panel conversational experience, AI Admin Center, Getting started with AI, Enable AI Experiences]
+---
+
+# Self-service conversational troubleshooting
+
+Use the AI Admin Center conversational experience to diagnoseand resolve common AI administration issues.
+
+Self-service conversational troubleshooting is a diagnostic assistant in the AI Admin Center conversational experience. It interprets your issue description and classifies it against a library of known AI admin failure patterns. The AI agent presents a root cause hypothesis with a confidence level, enabling you to make informed decisions about how to resolve the issue.
+
+For issues with AI Admin Hub, such as skill visibility, skill activation, LLM providers, guardrails, global settings, roles, and governance, the AI agent can also resolve the issue for you. It converts the recommended fix into a plan, shows you the plan and, with your approval, runs each action and verifies the result. For other issues, such as AI Agent Advisor issues, the AI agent gives you the next steps to resolve the issue yourself.
+
+Self-service conversational troubleshooting may work with other AI agents to accomplish tasks. For more information on AI agents, see [Explore AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/exploring-ai-agents.md).
+
+## AI agent access
+
+The AI agent runs every action as you and never elevates your privileges. It can't make a change that your roles don't permit.
+
+Role required: sn\_na\_center.nac\_admin
+
+## AI agent uses
+
+Use self-service conversational troubleshooting to help with issues such as:
+
+-   AI Admin Center configuration or setup problems
+-   Plugin installation or activation failures
+-   Missing or turned off Now Assist application features
+-   Integration connectivity or credential problems
+-   Role or permission misconfigurations affecting Now Assist access
+-   Feature flags or activation toggles in an unexpected state
+-   Compatibility conflicts between plugins or versions
+
+For more information, see the troubleshooting issues described in KB article [KB2330598](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2330598) on Now Support.
+
+## AI agent actions
+
+When used, the AI agent may attempt the following actions:
+
+-   Interpret the information provided by the user.
+-   Compare the information against documented issues.
+-   Present a root cause hypothesis with a confidence level.
+-   Recommend remediation actions after receiving user confirmation.
+-   Maintain issue context throughout the conversation.
+
+## How it works
+
+1.  Describe your issue in the conversational interface in AI Admin Center.
+2.  The AI agent interprets your description and matches it against known failure patterns.
+3.  The AI agent displays the possible root cause of the issue along with its degree of confidence that it is correct.
+4.  You review the hypothesis and confirm, adjust, or provide additional details about the issue.
+5.  After you confirm the diagnosis, the AI agent guides you toward a resolution.
+
+    Depending on your issue, the agent may do one of the following:
+
+    -   Walk you through specific configuration steps.
+    -   Link you to relevant documentation or troubleshooting articles.
+    -   Suggest settings or statuses to verify.
+    -   Recommend escalation to support if the issue requires specialized help.
+6.  The AI agent retains your issue description, the diagnosis, and the confidence level throughout your session so you can ask follow-up questions without repeating context.
+

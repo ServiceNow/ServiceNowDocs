@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -24,7 +24,7 @@ An administrator can add the following system properties to manage transaction q
 A description of the fields on the Transaction Quota Rule form.
 -   **[Transaction quota rule condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/transaction-quota-condition-builder.md)**  
 A description of the options available in the condition builder for the Transaction Quota Rule form.
--   **[Example system log messages for transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/c_ExampleSystemLogMessages.md)**  
+-   **[Example system log messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/c_ExampleSystemLogMessages.md)**  
 An example of system log messages for transactions.
 -   **[Methods to add variable information to the cancellation message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/r_AddVarInfoToTheCancellationMsg.md)**  
 You can use the following methods of the *jvar\_transaction* variable to add information to the cancellation message.

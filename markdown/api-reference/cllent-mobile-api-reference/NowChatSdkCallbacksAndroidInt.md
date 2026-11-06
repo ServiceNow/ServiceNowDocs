@@ -1,18 +1,18 @@
 ---
 title: NowChatSdkCallbacks interface - Android
-description: The NowChatSdkCallbacks interface provides functions that enable callbacks for host applications to configure or handle actions from the NowChatSDK.Called when the chat screen is closed and the chat session ends.Handles the specified URI, such as to open it in a webview, custom tab, or external browser.Sets the result code to return when NowChat is exited.Returns the view to display when the NowChat UI data is loading; typically a configured indeterminate progress bar.
+description: The NowChatSdkCallbacks interface provides functions that enable callbacks for host applications to configure or handle actions from the NowChatSDK.Called when the chat screen is closed and the chat session ends.Handles the specified URI, such as opening it in a webview, custom tab, or external browser.Sets the result code to return when NowChat is exited.Returns the view to display when the NowChat UI data is loading; typically a configured indeterminate progress bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowChatSdkCallbacksAndroidInt.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowChatSdkCallbacks interface - Android
+# NowChatSdkCallbacks interface- Android
 
 The NowChatSdkCallbacks interface provides functions that enable callbacks for host applications to configure or handle actions from the NowChatSDK.
 
@@ -89,7 +89,7 @@ Flag that indicates whether the host application should prevent NowChat from acc
 -   false: Do not prevent access to the camera.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowChatSdkCallbacks - didEndSessionWithId\(sessionId: String\)
 
@@ -141,7 +141,7 @@ class SampleNowChatSDKCallbacks : NowChatSdkCallbacks {
 
 ## NowChatSdkCallbacks - loadUri\(uri: Uri, context: Context\)
 
-Handles the specified URI, such as to open it in a webview, custom tab, or external browser.
+Handles the specified URI, such as opening it in a webview, custom tab, or external browser.
 
 |Name|Type|Description|
 |----|----|-----------|

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/kpi-details-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [KPI Details, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ KPI Details has several sections:\[Omitted image "kpi-details-whole.png"\] Alt t
 
 ## Header
 
-The header contains the name of the indicator, a date selector \(default: last data collection\), and the score on that date. The absolute and percentage differences between that score and the previously collected score are shown. If the indicator has Maximize or Minimize set, the color of the score and the score change direction arrow indicates whether the score is improving or getting worse.
+The header contains the name of the indicator, a date selector \(default: last data collection\), and the score on that date. Data snapshots indicators are identified with a badge. The absolute and percentage differences between that score and the previously collected score are shown. If the indicator has Maximize or Minimize set, the color of the score and the score change direction arrow indicates whether the score is improving or getting worse.
 
 The date selector uses whatever calendar the indicator uses.
 
@@ -33,9 +33,9 @@ If a target is set for the selected date, the header shows the target value and 
 The indicator chart shows:
 
 -   The **Chart options** menu. For more information, see [Chart options in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options.md).
--   A date picker to choose the date range of the information in the chart.
+-   A date picker to choose the date range of the information in the chart. For Industrial Connected Workforce \(ICW\) indicators, this date range can be in shifts or production days.
 -   A time series graphic representation of the indicator over time. Click on a point in the graph to see the details for that date.
--   A time series aggregation selector. For more information, see [Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-time-series-aggregation.md).
+-   A time series aggregation selector. For more information, see [Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-time-series-aggregation.md). \(Does not apply to Industrial Connected Workforce indicators.\)
 -   The **Show records** toggle, which shows you the records associated with the indicator score on the selected date. For more information, see [Show, compare, create, and edit records in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/show-compare-edit-records.md).
 
 **Warning:** In some cases, when you collect second-level breakdowns, the score and the number of records do not agree. When these values do not agree, the score is correct. For more details and an example, see [KB0748969](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0748969).
@@ -66,8 +66,14 @@ You can view the list of records underlying an indicator score. You can create a
 The KPI Details **Chart options** menu enables you to show, hide, or change aspects of an indicator visualization. Selected chart options persist per user for each indicator. Chart options are divided into analysis, time series, and chart type options.
 -   **[Select time aggregation in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-time-series-aggregation.md)**  
 You can aggregate changes in indicators into discrete time intervals. A time aggregation consists of an AVG or SUM function combined with a time series, such as By quarter.
--   **[Filter KPI Details by breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/apply-brkdowns-element-kpi-details.md)**  
-In KPI Details, you apply breakdowns and elements to the indicator in the Filters sidebar.
+-   **[Configure trend for a native Data snapshots indicator in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-trend-ds-indicator.md)**  
+Select a calendar and period by which to aggregate scores on the chart. You can also choose whether to include scores from incomplete periods.
+-   **[Configure display properties for a Data snapshots indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-display-properties-ds-indicator.md)**  
+Change display properties for viewing a specific native Data snapshots indicator in KPI Details.
+-   **[Filter indicator scores by breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/apply-brkdowns-element-kpi-details.md)**  
+Apply breakdowns and elements to filter classic and Data snapshots-enabled indicators. The filter controls are in the KPI Details sidebar.
+-   **[Filter native Data snapshots indicator scores in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/filter-data-snapshots-indicator-scores.md)**  
+Filter native Data snapshots indicators by the fields on their Data snapshots sources. For fields that refer to tables with report hierarchies, roll up scores to the parent field.
 -   **[Access indicator record or scoresheet from KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/access-indicator-record-scoresheet.md)**  
 In KPI Details, the More actions menu lets you open the record or the scoresheet of the indicator you are viewing.
 

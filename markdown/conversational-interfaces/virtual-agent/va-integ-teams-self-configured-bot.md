@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Specialized Virtual Agent integrations for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrating Virtual Agent with Microsoft Teams using the self-configured bot
@@ -24,14 +24,14 @@ The self-configured method offers a solution for the following cases:
     **Note:** Microsoft Azure supports the bot framework in GCCHIGH and DOD \(US Department of Defense\). For more information about the bot framework support, see [Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md).
 
 
-If you are a commercial customer who has already installed a pre-published bot but would like to integrate with multiple ServiceNow instances within a single Microsoft Teams tenant, see [Integrate your Self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
+If you are a commercial customer who has already installed a pre-published bot but would like to integrate with multiple ServiceNow instances within a single Microsoft Teams tenant, see [Integrate your self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
 
 ## Prerequisites
 
 Before integrating Virtual Agent with your Microsoft Teams tenant, ensure that the following prerequisites are met:
 
 -   Verify that your ServiceNow instances have been upgraded to the San Diego release.
--   If you are a commercial user, verify that your Microsoft 365 is on the commercial environment. If you are a regulated market user, verify that your Microsoft 365 is on the GCC environment.
+-   Verify that your Microsoft 365 installation is on the commercial environment, which has a **.com** suffix. If your Microsoft 365 environment is in any regulated market environment, see [Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams-gcch.md).
 -   You have not attempted previous installations of the Conversational Integration with Microsoft Teams in your instances.
 
     If you previously tried to install the integration in Quebec and the above releases, refer to this [Knowledge Base](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1116195) article to remove the residual installation items.
@@ -43,12 +43,10 @@ Before integrating Virtual Agent with your Microsoft Teams tenant, ensure that t
 ## What to do next
 
 1.  [Plugins for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/addtional-plugins-msteams.md)
-2.  [Create a Bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-bot-msteams.md)
+2.  [Create a bot in Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-bot-msteams.md)
 3.  [Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md)
 4.  [Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/upload-package-file-msteams.md)
 
--   **[Plugins for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/addtional-plugins-msteams.md)**  
-Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin, the Conversational Integration with Microsoft Teams \[sn\_va\_teams\] plugin, and verify its additional plugins to enable other features for conversation design.
 -   **[Auto-generate the manifest file for uploading on Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/generate-manifest-file-msteams.md)**  
 Auto-generate the manifest file and customize the branding of your Microsoft Teams app so that you can make Virtual Agent available in your organization.
 -   **[Upload the manifest package file to publish your bot](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/upload-package-file-msteams.md)**  

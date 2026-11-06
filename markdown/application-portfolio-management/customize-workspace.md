@@ -1,16 +1,16 @@
 ---
-title: Configure the Enterprise Architecture Workspace
+title: Show or hide sections on the home page of the EA Workspace
 description: Customize your workspace to display the components that you want to see.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/customize-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Configure the Enterprise Architecture Workspace
+# Show or hide sections on the home page of the EA Workspace
 
 Customize your workspace to display the components that you want to see.
 
@@ -32,4 +32,6 @@ For the Insights, Overview, and Health sections, you can hide some components if
 
     **Note:** You can create a visualization configuration using the Platform Analytics Workspace. For instructions, see [Create a single score visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-sing-sc-ac.md).
 
+
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-eaw.md)
 

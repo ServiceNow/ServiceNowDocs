@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/sold-product-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-02-05"
-reading_time_minutes: 3
-breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Sold product form
@@ -40,11 +40,35 @@ Parent of the sold product, if applicable.
 
 </td></tr><tr><td>
 
+Product
+
+</td><td>
+
+Product model that the sold product belongs to.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 Account
 
 </td><td>
 
-Account that is associated with the sold product.**Note:** If you select an account, the **Household**, **Service Organization**, and **Consumer** fields are hidden. The **Consumer** field is active only when the B2B2C plugin is installed.
+Account that is associated with the sold product.**Note:** If you select an account, the **Household**, **Buyer Organization**, and **Consumer** fields are hidden. The **Consumer** field is active only when the B2B2C plugin is installed.
+
+</td></tr><tr><td>
+
+Billing account
+
+</td><td>
+
+Enables direct reference to the associated Billing Account on the Sold Product entity within ServiceNow® CRM allowing agents to access financial information instantly during service delivery.
 
 </td></tr><tr><td>
 
@@ -64,11 +88,11 @@ Consumer that is associated with the sold product.**Note:** This field is active
 
 </td></tr><tr><td>
 
-Product
+Derived price
 
 </td><td>
 
-Product model that the sold product belongs to.
+A Boolean value that indicates whether the sold product’s price is derived from other sold products. Used by backend pricing logic to determine if pricing is calculated based on contributing products.
 
 </td></tr><tr><td>
 
@@ -76,15 +100,15 @@ Household
 
 </td><td>
 
-Household to which this sold product belongs to.**Note:** If you select a household, the **Service Organization**, **Account**, and **Contact** fields are hidden.
+Household to which this sold product belongs to.**Note:** If you select a household, the **Buyer Organization**, **Account**, and **Contact** fields are hidden.
 
 </td></tr><tr><td>
 
-Service Organization
+Buyer Organization
 
 </td><td>
 
-Internal or external entity that is involved in providing a service to the customer.**Note:** If you select a service organization, the **Household**, **Account**, **Contact**, and **Consumer** fields are hidden. The **Service Organization** field is active only when the service organization plugin is installed.
+Internal or external entity that is involved in providing a service to the customer.**Note:** If you select a buyer organization, the **Household**, **Account**, **Contact**, and **Consumer** fields are hidden. The **Buyer Organization** field is active only when the service organization plugin is installed.
 
 </td></tr><tr><td>
 
@@ -149,6 +173,14 @@ The service location of the sold product.
 
 </td></tr><tr><td>
 
+Contract start date and Contract end date
+
+</td><td>
+
+The existing Add order to Sold product to create Sold product state is changed to **In Preparation** if the contract start date &gt;current date. If `current_date >= contract_start_date` and `current_date <= contract_end_date` then the state is changed to **Active**. If `current_date > end_date` then the state is changed to **Expired**.
+
+</td></tr><tr><td>
+
 Product specification
 
 </td><td>
@@ -157,11 +189,30 @@ The product specification associated with a sold product.**Note:** The **Product
 
 </td></tr><tr><td>
 
-Provider service organization
+Seller organization
 
 </td><td>
 
-The service organization that sells and supports the products or services owned by the customer.
+The organization that sells and supports the products or services owned by the customer.
+
+</td></tr><tr><td>
+
+Deal type
+
+</td><td>
+
+Indicates the type of deal associated with the order.-   Direct : The seller engages directly with the customer, with no intermediary partner involved.
+-   Indirect : The seller engages the customer through an intermediary, such as as reseller, service provider, or distributor.
+
+</td></tr><tr><td>
+
+Route to market
+
+</td><td>
+
+Identifies the exact sales channel used to execute the deal:-   Direct
+-   Reseller
+-   Distributor
 
 </td></tr></tbody>
 </table><table id="table_zjm_kqp_ydc"><thead><tr><th>
@@ -309,4 +360,10 @@ Unit list price
 Allow users to capture the list price of the specific sold product.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/sold-product.md)
+
+[Create a sold product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-sold-item.md)
+

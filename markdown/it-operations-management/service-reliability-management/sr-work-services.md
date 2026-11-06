@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Working with SRM services
@@ -18,9 +18,9 @@ A service represents a functional outcome like networking, payments, or HR servi
 
 Service Reliability Management \(SRM\) works with integrations to prioritize and route alerts to the relevant responders. It follows up with escalations until the alert is acknowledged and someone responds. When you create or add a service in SRM, it must reflect a service in your SRM infrastructure.
 
-**Note:** You might want multiple tool integrations to monitor each technical service and receive events from those tools. See [Working with SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md) for more information.
+**Note:** You might want multiple tool integrations to monitor eachtechnology management service and receive events from those tools. See [Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md) for more information.
 
-In addition, you can create reliability metrics for the service. See [Working with reliability metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md).
+In addition, you can create reliability metrics for the service. See [Reliability metrics in SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-work-SLI-SLO.md).
 
 Tying a team and policies to that service makes it easier to divide responsibilities and track technical outcomes. It also makes it easier to automate response routines and focus on who you notify and when.
 
@@ -61,9 +61,12 @@ For more information about individual service details, see [Edit service details
 The columns include the following details:
 
 -   **Service**: Name of the service.
--   **Class**: Application or technical service.
+-   **Class**: Service instance or technology management service.
 -   **Business criticality**: Importance of the service to the business.
 -   **Open alerts**: Number of open alerts assigned to the service.
+
+    **Note:** For technology management services, the counts for **Open alerts** and **Open critical alerts** include alerts for related configuration items \(CIs\). To view the individual alerts and their associated CIs, open the service and select the **Related alerts** tab. The alert counts include related CIs up to 3 levels deep, with a maximum of 2,000 CIs.
+
 -   **Open incidents**: Number of open incidents assigned to the service.
 -   **Error budget remaining**: Percentage of error budget remaining for the service.
 
@@ -73,8 +76,12 @@ The Service reliability tab is a customizable dashboard showing high-level servi
 
 -   **[Add a service to SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-add-service.md)**  
 Add services to Service Reliability Management \(SRM\) to help your teams manage service health.
--   **[Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md)**  
+-   **[Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md)**  
 Edit an existing service owned by your team. For each service that you support in SRM provide general information about the service and the SRM team that supports it.
+-   **[Remove a service from SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-remove-service.md)**  
+Remove a service from Service Reliability Management \(SRM\) when you no longer need to track or monitor its reliability.
+-   **[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)**  
+Connect your services to monitoring tools using the Integrations Launchpad . Integrations send information to Service Reliability Management \(SRM\), helping you track alerts, manage incidents, and maintain service health.
 
 **Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 

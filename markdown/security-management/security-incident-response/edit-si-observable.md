@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage observables, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,19 +26,17 @@ Role required: sn\_si.basic
 
 2.  Choose an incident.
 
-3.  Click **Security Incident Observables** related list tab.
+3.  Select the **Security Incident Observables** related list tab.
 
-4.  Click **Edit**.
+4.  Select **Edit**.
 
 5.  Add or remove observables from the list.
 
     Create a filter for long lists.
 
-    \[Omitted image "EditObservableList.png"\] Alt text: Edit observables list example
+6.  Select **Save**.
 
-6.  Click **Save**.
-
-    **Note:** When you add an observable to the security incident, the system checks for any other configuration items or users associated with it. The **Related Configuration Items** and **Related Users** related list tabs are updated accordingly. Also, if the Threat Intelligence plugin is activated, and you have at least one[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir_integrations.md) integration implementation activated, the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sec-ops-threat-lookups-capability.md) executes one or more workflows, and threat security lookups are performed on the observables you added. The results appear in the **Threat Lookup Results** tab.
+    **Note:** When you add an observable to the security incident, the system checks for any other configuration items or users associated with it. The **Related Configuration Items** and **Related Users** related list tabs are updated accordingly. Also, if the Threat Intelligence plugin is activated, and you have at least one [Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir_integrations.md) integration implementation activated, the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sec-ops-threat-lookups-capability.md) executes one or more workflows, and threat security lookups are performed on the observables you added. The results appear in the **Threat Lookup Results** tab.
 
 
 **Related topics**  

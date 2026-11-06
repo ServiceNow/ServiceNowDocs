@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin or sp\_admin
 
 In new instances, search facets are enabled by default. If upgrading from a previous release, enable search facets by activating a record in the Page Route Maps \[sp\_page\_route\_map\] table. See [Enable search facets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/enable-facets.md). Create facet items and mapped queries with no more than 30 filter items. To verify, test each search source with a variety of keywords as a user with low permissions.
 
-**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-single-table-for-indexing.md).
+**Note:** Only set search facets for indexed fields. Fields that are not indexed may take longer to return results and are not optimized for a fast search experience. Learn more: .
 
 ## Procedure
 

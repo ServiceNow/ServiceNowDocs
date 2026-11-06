@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data collection process and logging, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Data collection, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # View data collection usage
@@ -18,11 +18,13 @@ To view statistics about data collection jobs, click **Data Collection Overview*
 
 ## Before you begin
 
+**Important:** This functionality is available only on migrated instances that still have Core UI artifacts. Net new instances do not have the Admin Console.
+
 Role required: pa\_admin, admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Admin Console**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Admin Console**.
 
 2.  In the Usage tile, click **Data Collection Overview**.
 

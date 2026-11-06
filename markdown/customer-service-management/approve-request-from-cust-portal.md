@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/approve-request-from-cust-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Approve a change request, or registration request
@@ -24,15 +24,15 @@ A registration request or a change request may require approval from another emp
 
 ## Procedure
 
-1.  In the Customer Service Portal header, click **Notification** &gt; **View all notifications**.
+1.  In the Customer Service Portal header, select **Notification** &gt; **View all notifications**.
 
-2.  Click a record in the Approvals section of the Notifications page.
+2.  Select a record in the Approvals section of the Notifications page.
 
     The system displays a read-only view of the record approval form. For requests that include one or more items, these items appear in a collapsible list at the bottom of the Request form.
 
-3.  Click a requested item at the bottom of the Request form to view the details in a pop-up window.
+3.  Select a requested item at the bottom of the Request form to view the details in a pop-up window.
 
-4.  Click **Approve**.
+4.  Select **Approve**.
 
     The system makes the following updates:
 
@@ -42,4 +42,9 @@ A registration request or a change request may require approval from another emp
         -   If the record is approved by the customer administrator or if the customer self-approves the request, the change in status is added to the **Additional comments** field.
         -   For other approvers, the change in status is added to the **Work notes** field.
     -   The approval record is updated in the Approval table.
+
+**Related topics**  
+
+
+[View the status of a request, change request, or registration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-request-status-cust-portal.md)
 

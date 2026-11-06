@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,6 +26,7 @@ You can create the following types of template:
 
     For information about creating task templates, see [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/wsd-task-template.md).
 
+-   **Smart assessment template**: A Smart Assessment template defines a structured set of instructions, sections, and questions that guide agents in completing workplace cases or tasks. You can create and publish the template in the Smart Assessment workspace by selecting the appropriate Workplace table and configuring the assessment content. Once published, the template can be associated with trigger conditions so that it automatically attaches to qualifying workplace cases or tasks.
 
 **Parent Topic:**[Exploring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-ovw.md)
 

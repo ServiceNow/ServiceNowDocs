@@ -1,20 +1,20 @@
 ---
 title: Add a catalog item
-description: Service catalog enables you to add a catalog item to multiple catalogs and categories.
+description: Service Catalog enables you to add a catalog item to multiple catalogs and categories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/t\_AssignItemToAddlCatalogsCategory.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a catalog item
 
-Service catalog enables you to add a catalog item to multiple catalogs and categories.
+Service Catalog enables you to add a catalog item to multiple catalogs and categories.
 
 ## Before you begin
 

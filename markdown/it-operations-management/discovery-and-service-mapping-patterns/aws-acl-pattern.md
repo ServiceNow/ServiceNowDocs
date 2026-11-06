@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AWS Network ACL, AWS ACL discovery, AWS patterns, Network ACL pattern]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # AWS Network ACL pattern-based discovery
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns finds AWS Network access control lists \(
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+    For more information, see the prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **Configure the Discovery schedule to support GovCloud**
 
@@ -53,5 +53,5 @@ The Amazon AWS - ACL \(LP\) pattern creates the following relationships and refe
 |Network ACL \[cmdb\_ci\_network\_acl\]|Implement End Point To::Implement End Point From|ACL Endpoint \[cmdb\_ci\_endpoint\_acl\]|
 |Cloud Subnet \[cmdb\_ci\_cloud\_subnet\]|Use End Point To::Use End Point From|ACL Endpoint \[cmdb\_ci\_endpoint\_acl\]|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

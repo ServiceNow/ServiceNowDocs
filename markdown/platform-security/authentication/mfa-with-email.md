@@ -1,26 +1,26 @@
 ---
-title: Multi-factor authentication with Email
-description: Multi-factor authentication \(MFA\) with Email as a factor for your authentication.
+title: Email as an MFA factor
+description: Multi-factor authentication \(MFA\) with email as a factor for your authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/mfa-with-email.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [MFA verification methods, Configure Multi-factor authentication, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Multi-factor authentication with Email
+# Email as an MFA factor
 
-Multi-factor authentication \(MFA\) with Email as a factor for your authentication.
+Multi-factor authentication \(MFA\) with email as a factor for your authentication.
 
-Admin can configure ServiceNow instance to require users who attempt to login to the instance using Email based OTP.
+Admin can configure ServiceNow instance to require users who attempt to log in to the instance using email-based OTP.
 
-**Note:** MFA with Email is activated with the Integration - Multifactor Authentication \(`com.snc.integration.multifactor.authentication`\) plugin by default. You need to configure the policy inputs and conditions.
+**Note:** MFA with email is activated with the Integration - Multifactor Authentication \(`com.snc.integration.multifactor.authentication`\) plugin by default. You need to configure the policy inputs and conditions.
 
 \[Omitted image "email-screen-mfa.png"\] Alt text: MFA-Email
 
-When users attempt to login to ServiceNow, Email OTP is sent to the Email address associated. User's can enter the six-digit verification code that it sent to the email address and verify their identity.
+When users attempt to log in to ServiceNow, Email OTP is sent to the email address associated. Users can enter the six-digit verification code that it sent to the email address and verify their identity.
 

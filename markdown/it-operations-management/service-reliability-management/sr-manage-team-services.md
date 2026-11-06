@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Add an SRM team, Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage or add a service to your SRM team
@@ -18,7 +18,7 @@ Add a service to an incident to increase the amount of data for the incident.
 
 ## Before you begin
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Role required: Responder, Manager, or Administrator
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Teams** icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select a team card to open any team you want to view or add a service to.
 
@@ -40,15 +40,15 @@ Role required: Responder, Manager, or Administrator
 
 6.  Add a new service or register an existing one.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d396911e135">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d277894e135">
 
 Option
 
-</th><th align="left" id="d396911e138">
+</th><th align="left" id="d277894e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d396911e144">
+</th></tr></thead><tbody><tr><td id="d277894e144">
 
 **Add a new service**
 
@@ -62,7 +62,7 @@ For more information on the field descriptions, see [Add service form](https://r
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d396911e186">
+</td></tr><tr><td id="d277894e186">
 
 **Register an existing service**
 
@@ -82,15 +82,15 @@ For more information on the field descriptions, see [Add service form](https://r
 
 8.  Finish setting up your service or do it later.
 
-<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d396911e252">
+<table id="choicetable_mrc_vh1_lbc"><thead><tr><th align="left" id="d277894e252">
 
 Option
 
-</th><th align="left" id="d396911e255">
+</th><th align="left" id="d277894e255">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d396911e261">
+</th></tr></thead><tbody><tr><td id="d277894e261">
 
 **Finish setting up your service**
 
@@ -101,7 +101,7 @@ Steps
 3.  Select **Add SLO &amp; SLI** and create a service level objective and measure your service health with a service level indicator.
 
 
-</td></tr><tr><td id="d396911e291">
+</td></tr><tr><td id="d277894e291">
 
 **Do it later**
 
@@ -110,7 +110,7 @@ Steps
 Select **Do it later**.
 
 </td></tr></tbody>
-</table>    See [Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md) and [Edit service details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service-form.md)for information on the service and completion steps for setup.
+</table>    See [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md) and [Edit service details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service-form.md)for information on the service and completion steps for setup.
 
 
 **Parent Topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-team.md)

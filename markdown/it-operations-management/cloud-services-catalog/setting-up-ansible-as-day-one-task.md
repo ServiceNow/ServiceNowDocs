@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Ansible with Cloud Services Catalog, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Integrating Ansible, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Ansible as a Day 1 task
@@ -20,7 +20,7 @@ Set up the Ansible console as a Day 1 task before running Discovery and deployin
 
 All extra variables must have a variable called deploymentID. The value of this deploymentID is sent from the catalog request.
 
-Select the **Prompt on launch** option next to the variables section in the template. This action enables you to update or override the default extra\_vars with values from the catalog order form when launching the template.
+Select the **Prompt on launch** option next to the variables section in the template. This action allows you to update or override the default extra\_vars with values from the catalog order form when launching the template.
 
 Tag all resources with the deploymentID key to enable Discovery after provisioning.
 

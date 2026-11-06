@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Basics of Project Management, Explore, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Change requests and project tasks
@@ -25,8 +25,6 @@ When you link a project task to a change request record, a new project task link
 **Note:** A project task cannot have both task link records and child project tasks. When a project task is linked to a change request, you cannot also create child tasks for that project task. Likewise, when a project task has child tasks, you cannot link the parent project task to a change record.
 
 The project task link record is read only. You can view the project task links from a related list on the Project Task form.
-
-\[Omitted image "Project\_task\_links\_related\_list.png"\] Alt text: Project Tasks Links related list
 
 You can also link multiple change requests to a single project task. In this case, a project task link record is created for each link and all the project task link records become child tasks of the project task.
 
@@ -97,6 +95,10 @@ Modifications made in the Project Management application do not propagate to a l
 [Types of external dependencies]()
 
 [Project and portfolio funding]()
+
+[Project scheduling in Project Management]()
+
+[Task constraints]()
 
 [Link change requests to a project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_LinkChangesToAProjectTask.md)
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -163,9 +163,7 @@ Who will receive:
 
 What will it contain:
 
-If you want to modify the email contents such as body of the email which includes the Subject or Message HTML, you must have the System Administrator role access or assigned as System Administrator and not an MSI Administrator.
-
-\[Omitted image "notification-si-proposed-msi.png"\] Alt text: Notification SI proposed to MSI
+If you want to modify the email contents such as body of the email which includes the Subject or Message HTML, you must have the System administrator role access or assigned as System administrator and not an MSI administrator.
 
 **Notification: Security Incident promoted \(SI\) as Major Security Incident \(MSI\)**
 
@@ -178,9 +176,7 @@ This notification is triggered when a security incident is promoted and when the
 
 **What will it contain**
 
-If you want to modify the email contents such as body of the email, which includes the Subject or Message HTML, you must have the System Administrator role access or assigned as System Administrator and not an MSI Administrator.
-
-\[Omitted image "notification-si-promoted-msi.png"\] Alt text: Notification SI Promoted to MSI
+If you want to modify the email contents such as body of the email, which includes the Subject or Message HTML, you must have the System administrator role access or assigned as System administrator and not an MSI administrator.
 
 ## Configure MSI closure activities
 

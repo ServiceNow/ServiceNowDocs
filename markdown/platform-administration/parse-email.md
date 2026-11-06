@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/parse-email.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -117,6 +117,8 @@ Language of the reply separator.**Note:** All email clients don't indicate a lan
 
 [Email notifications dashboard]()
 
+[Email diagnostics dashboard]()
+
 [Email templates]()
 
 [Email layouts]()
@@ -129,5 +131,5 @@ Language of the reply separator.**Note:** All email clients don't indicate a lan
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

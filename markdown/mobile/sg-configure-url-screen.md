@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-configure-url-screen.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Mobile web screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
@@ -18,11 +18,11 @@ Use a mobile web screen to open a URL from within a ServiceNow mobile applicatio
 
 Role required: admin
 
-**Note:**
+## About this task
 
-There are limitations associated with the use of mobile web screens on navigation tabs. Currently, if the mobile web screen is accessed and authentication has expired because the session has timed out, the device has locked, or the app has been backgrounded, you must re-authenticate in the mobile web screen.
+Starting with the Zurich release, end-users whose mobile web screen session expires due to session timeouts, device locking, or app backgrounding are automatically logged back into their session when they return to the web screen in their mobile app.
 
-In addition, pulling to refresh the mobile web screen is unavailable on Android devices. Instead, to refresh the app, you must close it, re-start it, and then return to the mobile web screen to see refreshed content. This limitation related to pulling to refresh doesn't exist on iOS devices, version 18.4 and later.
+This feature works by default for all service portal pages but requires configuration for UXF pages. To enable this feature on UXF pages, admins must add the mobile app bridge as a data source to the page in UI Builder. For more information on how to do this, please refer to Steps 1-4 in [Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobwebscreen-add-button-virtagent.md).
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Fetch type
 
 </td><td>
 
-Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens.Select either `Prefetch`, `On-demand`, `Background` or `Dynamic prefetch` as required according to your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/applet-fetch-types.md).
+Fetch type settings determine when data is loaded in screens. Change your fetch type to optimize load time performance for your screens.Select either `Prefetch`, `On-demand`, `Background`, or `Dynamic prefetch` as required according to your setup. For more information about these options, see [Mobile fetch types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/applet-fetch-types.md).
 
 </td></tr><tr><td>
 
@@ -96,7 +96,15 @@ Hide screen name
 
 </td><td>
 
-Determines if the screen name is not shown as the screen header. This is useful if, for example, the text already appears in the header name or if it does not provide any value to the user.
+Determines if the screen name isn’t shown as the screen header. This configuration is useful if, for example, the text already appears in the header name or if it doesn’t provide any value to the user.
+
+</td></tr><tr><td>
+
+Check Access Control List \(ACL\)
+
+</td><td>
+
+Enable this toggle to check available ACLs for access to the **URL**.
 
 </td></tr><tr><td>
 
@@ -104,11 +112,27 @@ Role access
 
 </td><td>
 
-Determine which user roles can access this screen. If you have selected no roles, users with any role will have access to the screen.
+Determine which user roles can access this screen. If you have selected no roles, users with any role can access the screen.
 
 </td></tr></tbody>
-</table>    **Important:** The field **Open in external browser** doesn't operate as expected. Instead, the ServiceNow mobile app automatically opens all mobile web screen links that navigate to the same domain as the currently logged-in instance in an internally embedded browser. Otherwise, mobile web screen links that point to web pages that don't reside on the currently logged-in instance automatically open in an external browser. Note that links opened in external browsers on Android apps might still have the appearance of the internally embedded browser window.
+</table>    **Important:** The field **Open in external browser** doesn't operate as expected. Links to web content that are associated with the instance that the user is currently logged into on the mobile app open as hybrid web pages within the app. All other web content opens in the end-user's default mobile browser outside the app.
 
-6.  Select **Save**.
+6.  If you want to turn off the native header of the mobile screen so that it doesn't interfere with the mobile web screen header, do the following configuration:
 
+    1.  In Mobile App Builder, select **Save** to save the mobile web screen.
+    2.  At the top of the Mobile Web Screen form, select the more options menu \(\[Omitted image "button-more-ios.png"\] Alt text: More options menu\), and then select **Open in platform**.
+
+        The Mobile web screen configuration page opens in the web UI of your instance.
+
+    3.  In the Mobile web screen configuration page, select the **Hide native header** check box.
+    4.  Select **Update**.
+
+        \[Omitted image "mobwebscrn-hide-screen-nam.png"\] Alt text: Hide native header results on device
+
+
+## What to do next
+
+If you want to further customize your mobile web screen, see [Add a button to your mobile web screen that launches Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobwebscreen-add-button-virtagent.md).
+
+**Parent Topic:**[Mobile web screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/url-screen.md)
 

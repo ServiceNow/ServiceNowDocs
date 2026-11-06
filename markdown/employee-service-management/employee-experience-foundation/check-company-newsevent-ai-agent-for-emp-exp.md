@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-08-19"
-reading_time_minutes: 2
-breadcrumb: [Use AI Agents, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use AI Agents, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Company News &amp; Events AI Agent
@@ -24,13 +24,11 @@ Verify that you have the following plugins:
 
 -   Content Publishing version 36.0.4 \(Installed automatically as part of Employee Center Pro\)
 
-\[Omitted image "uex-aiagent-event.png"\] Alt text: Checking company events in Now Assist\[Omitted image "uex-aiagent-eventtopic.png"\] Alt text: Checking more details about a specify event in Now Assist.\[Omitted image "uex-aiagent-steps.png"\] Alt text: Latest news and events in Now Assist.
-
 ## Company News &amp; Events AI Agent overview
 
 The **Company News &amp; Events AI Agent** helps users stay informed by sharing the latest updates on news, events, and announcements.
 
-It understands general questions like "What’s the latest news?" or "Are there any upcoming events?", casual questions like "show me New York news" or "what's happening in Atlanta this month," and also specific questions such as "Get the latest news on 401k," "Show me events happening in New York," or "Show local news."
+It understands general questions like "What’s the latest news?" or "Are there any upcoming events?". You can also ask casual questions like "show me New York news" or "what's happening in Atlanta this month," and also specific questions such as "Get the latest news on 401k," "Show me events happening in New York," or "Show local news."
 
 On prompting, it also provides updates based on the user’s location and their interests. Shows nearby events, local news stories, company updates, and news related to relevant people or topics the user cares about.
 
@@ -58,9 +56,4 @@ To activate, refer to [Activate Company News and Events AI Agent](https://raw.gi
 |Content processor|Scripts|Autonomous|true|
 |Get Filters|Scripts|Autonomous|false|
 |Get latest news|Scripts|Autonomous|false|
-
--   **[Activate Company News and Events AI Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/enable-company-news-and-events-ai-agent.md)**  
-Activate the Company News and Events AI Agent to enable users to check news and events in Now Assist in Virtual Agent.
-
-**Parent Topic:**[Using AI Agents with ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-ai-agent-in-now-assist-for-empexp.md)
 

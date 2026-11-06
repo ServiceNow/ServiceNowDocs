@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Create an approval group for the McAfee ePO for Security Operations integration 
 
 You can't reassign the approval authority to a group, unless an approval group is available in your instance.
 
-**Note:** The approvals option in the [Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
+**Note:** The approvals option in the [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
 
 Role required: ServiceNow AI Platform® Security incident administrator \(sn\_si.admin\)
 

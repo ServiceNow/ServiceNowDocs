@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ex-create-recommendation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example: Troubleshoot a failed credit card transaction, Example configurations of recommended actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Example: Troubleshoot a failed credit card transaction, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Create a recommendation with the decision tree as an action type

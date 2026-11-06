@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-10-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Contract amendments, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Contract amendments, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on amendment request
@@ -57,12 +57,12 @@ Identify the legal and contract requests created for amendment using the followi
 
     The state of the legal request updates to Work in progress.
 
-2.  Link parent contract \(Example: CNTR0010003\) when prompted with a message or you want to change the already linked parent contract.
+2.  Link parent contract \(Example: CNTR0010077\) when prompted with a message or you want to change the already linked parent contract.
 
     \[Omitted image "snlc-amend-link-cntr.png"\] Alt text: Link parent contract
 
     -   If you didn’t select a contract while submitting the amendment request, you’re prompted to link a parent contract record.
-    -   When a contract is linked, its corresponding contract request \(Example: CMR0001186\) will automatically be linked through a parent-child hierarchy. You can’t manually unlink the contract request as it depends on the contract selection.
+    -   When a contract is linked, its corresponding contract request \(Example: CMR0001026\) will automatically be linked through a parent-child hierarchy. You can’t manually unlink the contract request as it depends on the contract selection.
     1.  Navigate to the Legal request details section.
 
     2.  In the Parent contract record field, select the Search for Record icon \(\[Omitted image "lsd-cont-rec-search.png"\] Alt text: Search for Record icon\).
@@ -73,15 +73,15 @@ Identify the legal and contract requests created for amendment using the followi
 
 3.  Modify legal request.
 
-<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d701661e246">
+<table id="choicetable_rxb_zfw_fhc"><thead><tr><th align="left" id="d757426e246">
 
 Options
 
-</th><th align="left" id="d701661e249">
+</th><th align="left" id="d757426e249">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d701661e255">
+</th></tr></thead><tbody><tr><td id="d757426e255">
 
 **Add collaborators**
 
@@ -91,7 +91,7 @@ If you need help from other fulfillers to work on the legal request, add them in
 
 The collaborators are notified via email that they’ve been added as collaborators to a legal request.
 
-</td></tr><tr><td id="d701661e274">
+</td></tr><tr><td id="d757426e274">
 
 **Update the users in watch list and requested for**
 

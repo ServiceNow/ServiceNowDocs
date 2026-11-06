@@ -7,8 +7,8 @@ release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 67
+last_updated: "2026-09-10"
+reading_time_minutes: 74
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [API reference, API implementation and reference]
 
 Find APIs to use with your ServiceNow products.
 
-Browse the table below to view which Server, REST, and Client APIs are supported by a specific ServiceNow product. All products and APIs display by default in alphabetical order. To see only APIs of those products you are interested in, select one or more product names in the **Product** filter drop-down on this page. Once you select a product in the filter, only the APIs for your selection\(s\) display in the table. Clear filter criteria by deselecting options in the filter drop-down.
+Browse the table below to view which Server, REST, and Client APIs are supported by a specific ServiceNow product. All products and APIs display by default in alphabetical order. To see only APIs of those products you're interested in, select one or more product names in the **Product** filter drop-down on this page. Once you select a product in the filter, only the APIs for your selection\(s\) display in the table. Clear filter criteria by deselecting options in the filter drop-down.
 
 In the APIs column, simply hover over a link to read a short description about an API's functionality, or click the link to view its full reference documentation. An asterisk\* indicates that the API is offered in all ServiceNow products.
 
@@ -69,6 +69,21 @@ Agent Workspace
 -   **Client**
 
 [GlideAgentWorkspace \(g\_aw\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideAgentWorkspaceAPI.md)
+
+
+</td></tr><tr><td>
+
+AI Control Tower
+
+</td><td>
+
+-   **Server**
+
+[MCPClient - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/MCPClientAPI.md)
+
+-   **REST**
+
+[AI Assets Inventory API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ai-assets-inventory-api.md)
 
 
 </td></tr><tr><td>
@@ -157,10 +172,22 @@ Customer Service Management \(CSM\)
 
 </td><td>
 
--   **Client**
-
-[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_openFrameAPI.md)
-
+-   **REST**
+    -   [Account API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/account-api.md)
+    -   [ActivitySubscriptions API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/actsub-api.md)
+    -   [Appointment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-api.md)
+    -   [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/case-api.md)
+    -   [Consumer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/consumer-api.md)
+    -   [Contact API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/contact-api.md)
+    -   
+    -   [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/attachment_csm-api.md)
+    -   [Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cust_central-api.md)
+    -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/entitlement-api.md)
+    -   [Install Base Item API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/integrations-api.md)
+    -   [openframe API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/openframe-api.md)
+    -   [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/order_csm-api.md)
+    -   [Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/servicecontract-api.md)
+    -   [Verify Entitlements API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/verifyentitlements-api.md)
 -   **Server**
     -   [NotifyJsTelephonyDriver - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/NotifyJsTelephonyDriverAPI.md)
     -   [NotifyPhoneNumber - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_NotifyPhoneNumberAPI.md)
@@ -170,22 +197,21 @@ Customer Service Management \(CSM\)
     -   [NotifyUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/NotifyUtilAPI.md)
     -   [PDAutomationProvider - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PDAutomationProviderBothAPI.md)
     -   [SMSPreferenceHandlerSNC - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SMSPreferenceHandlerAPI.md)
+-   **Client**
+
+[openFrameAPI - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_openFrameAPI.md)
+
+
+</td></tr><tr><td>
+
+Customer Service Problem Management
+
+</td><td>
+
 -   **REST**
-    -   [Account API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/account-api.md)
-    -   [ActivitySubscriptions API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/actsub-api.md)
-    -   [Appointment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-api.md)
-    -   [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/case-api.md)
-    -   [Consumer API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/consumer-api.md)
-    -   [Contact API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/contact-api.md)
-    -       -   [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/attachment_csm-api.md)
-    -   [Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cust_central-api.md)
-    -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/entitlement-api.md)
-    -   [Install Base Item API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/integrations-api.md)
-    -   [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md)
-    -   [openframe API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/openframe-api.md)
-    -   [Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/order_csm-api.md)
-    -   [Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/servicecontract-api.md)
-    -   [Verify Entitlements API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/verifyentitlements-api.md)
+
+[Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-test-management-api.md)
+
 
 </td></tr><tr><td>
 
@@ -194,9 +220,8 @@ Sales Customer Relationship Management
 </td><td>
 
 -   **Server**
-
-[LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md)
-
+    -   [ConsolidationService - Scoped, Gobal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ConsolidationServiceAPI.md)
+    -   [LeadtoCashCore - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md)
 
 </td></tr><tr><td>
 
@@ -330,6 +355,16 @@ Event Management
 
 </td></tr><tr><td>
 
+Field Service Management for Telecommunications
+
+</td><td>
+
+-   **REST**
+    -   [Appointment Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-open-api.md)
+    -   [Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/work-order-mgmt-api.md)
+
+</td></tr><tr><td>
+
 Workflow Studio
 
 </td><td>
@@ -345,8 +380,6 @@ Workflow Studio
     -   [Flow - Scoped \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/FlowScopedAPI.md)
     -   [JSONStreamingAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/JSONStreamingAPIScopedAPI.md)
     -   [JSONStreamingBuilder - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/JSONStreamingBuilderScopedAPI.md)
-    -   [Producer - Scoped \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ProducerScopedAPI.md)
-    -   [ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ProducerV2ScopedAPI.md)
     -   [ScriptableDataStream - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ScriptableDataStreamAPI.md)
     -   [ScriptableFlowRunner - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ScriptableFlowRunnerScopedAPI.md)
     -   [ScriptableFlowRunnerResult - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ScriptableFlowRunnerResultScopedAPI.md)
@@ -378,9 +411,6 @@ Glide API - Client-server communication
 
 </td><td>
 
--   **Client**
-    -   [GlideAjax - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideAjaxAPI.md)
-    -   [GlideURLV3 - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideURLV3API.md)
 -   **Server**
     -   [action - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ActionAPIBoth.md)
     -   [GlideappCalculationHelper - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideappCalcHelperAPI.md)
@@ -394,6 +424,9 @@ Glide API - Client-server communication
     -   [GlideSystem - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
     -   [GlideURI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideURIGlobalAPI.md)
     -   [GlideURI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideURIScopedAPI.md)
+-   **Client**
+    -   [GlideAjax - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideAjaxAPI.md)
+    -   [GlideURLV3 - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideURLV3API.md)
 
 </td></tr><tr><td>
 
@@ -416,10 +449,6 @@ Glide API – Database operations and parsing data
 
 </td><td>
 
--   **Client**
-    -   [GlideRecord - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideRecordClientSideAPI.md)
-    -   [GlideUser - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideUserAPI.md)
-    -   [i18N - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_i18NV3API.md)
 -   **Server**
     -   [GlideAggregate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideAggregateAPI.md)
     -   [GlideAggregate - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md)
@@ -436,6 +465,11 @@ Glide API – Database operations and parsing data
     -   [GlideUser - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GUserAPI.md)
     -   [GlideUser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideUserScopedAPI.md)
     -   [Optional - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/OptionalGlobalAPI.md)
+-   **Client**
+    -   [GlideRecord - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideRecordClientSideAPI.md)
+    -   [GlideUser - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideUserAPI.md)
+    -   [GlideUser \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideUserAPINX.md)
+    -   [i18N - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_i18NV3API.md)
 -   **REST**
     -   [Aggregate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_AggregateAPI.md)
     -   [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_TableAPI.md)
@@ -445,10 +479,6 @@ Glide API – Database operations and parsing data
 Glide API – Date and time
 
 </td><td>
-
--   **Client**
-
-[StopWatch - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_StopWatchAPI.md)
 
 -   **Server**
     -   [DateTimeUtils - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_DateTimeUtilsAPI.md)
@@ -466,6 +496,9 @@ Glide API – Date and time
     -   [GlideTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTimeScopedAPI.md)
     -   [GlideTimeline - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTimelineAPI.md)
     -   [GlideTimelineItem - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTimelineItemAPI.md)
+-   **Client**
+    -   [StopWatch - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_StopWatchAPI.md)
+    -   [StopWatch \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/StopWatchAPINX.md)
 
 </td></tr><tr><td>
 
@@ -486,11 +519,6 @@ Glide API – Fields, forms, and lists
 
 </td><td>
 
--   **Client**
-    -   [GlideDocument - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideDocumentV3API.md)
-    -   [GlideForm \(g\_form\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
-    -   [GlideList2 \(g\_list\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideList2API.md)
-    -   [GlideListV3 \(g\_list\) - Client \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideListV3API.md)
 -   **Server**
     -   [GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementAPI.md)
     -   [GlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementScopedAPI.md)
@@ -499,6 +527,13 @@ Glide API – Fields, forms, and lists
     -   [GlideListProperties - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideListPropertiesAPI.md)
     -   [GlideSysListControl - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSysListControlScoped.md)
     -   [GlideTableHierarchy - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTableHierarchyScopedAPI.md)
+-   **Client**
+    -   [GlideDocument - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideDocumentV3API.md)
+    -   [GlideForm \(g\_form\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideFormAPI.md)
+    -   [GlideForm \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideFormAPINX.md)
+    -   [GlideList2 \(g\_list\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideList2API.md)
+    -   [GlideList \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideListClientAPINEx.md)
+    -   [GlideListV3 \(g\_list\) - Client \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideListV3API.md)
 
 </td></tr><tr><td>
 
@@ -531,14 +566,14 @@ Glide API - Messages
 
 </td><td>
 
--   **Client**
-    -   [GlideDialogWindow - Client \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideDialogWindowAPI.md)
-    -   [GlideNotification - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideNotificationV3API.md)
 -   **Server**
     -   [GlideDigest - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideDigestScopedAPI.md)
     -   [GlideSystem - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSystemAPI.md)
     -   [GlideSystem - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
     -   [GlideTransformLog - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransformLogAPI.md)
+-   **Client**
+    -   [GlideDialogWindow - Client \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideDialogWindowAPI.md)
+    -   [GlideNotification - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideNotificationV3API.md)
 
 </td></tr><tr><td>
 
@@ -581,10 +616,6 @@ Glide API – System
 
 </td><td>
 
--   **Client**
-
-[GlideGuid - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideGuidV3API.md)
-
 -   **Server**
     -   [GlideEventManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideEventManagerGlobalAPI.md)
     -   [GlideImpersonate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideImpersonateAPI.md)
@@ -597,12 +628,20 @@ Glide API – System
     -   [GlideSystem - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSystemAPI.md)
     -   [GlideSystem - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSystemScopedAPI.md)
     -   [GlideSystemRunLevel - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideSystemRunLevelAPIGlobal.md)
+-   **Client**
+
+[GlideGuid - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideGuidV3API.md)
+
 
 </td></tr><tr><td>
 
 Glide API - UI – Classic UI
 
 </td><td>
+
+-   **Server**
+
+[GlideUICompatibility - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideUICompatibilityScopedAPI.md)
 
 -   **Client**
     -   [GlideList2 \(g\_list\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideList2API.md)
@@ -611,10 +650,6 @@ Glide API - UI – Classic UI
     -   [GlideModal - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideModalV3API.md)
     -   [GlideNavigation - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_GlideNavigationV3API.md)
     -   [GlideUIScripts - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GUIScriptsAPI.md)
--   **Server**
-
-[GlideUICompatibility - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideUICompatibilityScopedAPI.md)
-
 
 </td></tr><tr><td>
 
@@ -625,18 +660,19 @@ Glide API – UI – Next Experience
 -   **Client**
     -   [GlideList \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideListClientAPINEx.md)
     -   [PolarisUI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PolarisUIScopedAPI.md)
+    -   [GlideModal \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GModClientAPINX.md)
+    -   [g\_modal \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_modalClientAPINX.md)
+    -   [GlideNavigation \(Next Experience\) - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/GlideNavigationClientAPINX.md)
 
 </td></tr><tr><td>
 
-Field Service Management
+Healthcare and Life Sciences Service Management Core
 
 </td><td>
 
 -   **REST**
 
-[Appointment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-api.md)
-
-[Appointment Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-open-api.md)
+[HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/hl7-inbound-api.md)
 
 
 </td></tr><tr><td>
@@ -663,21 +699,6 @@ Instance Scan
 -   **Server**
     -   [Findings - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/FindingsAPI.md)
     -   [LinterCheckAstNode - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LinterCheckAstNodeAPIBoth.md)
-
-</td></tr><tr><td>
-
-Integration Hub
-
-</td><td>
-
--   **Server**
-
-[PersonalAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PersonalAuthAPIScoped.md)
-
--   **REST**
-
-[Continuous Integration/Continuous Delivery \(CICD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cicd-api.md)
-
 
 </td></tr><tr><td>
 
@@ -721,6 +742,32 @@ IT Service Management
 
 </td></tr><tr><td>
 
+Integration Hub
+
+</td><td>
+
+-   **Server**
+    -   [KafkaProducerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/KafkaProducerAPIScoped.md)
+    -   [PersonalAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PersonalAuthAPIScoped.md)
+    -   [Producer - Scoped \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ProducerScopedAPI.md)
+    -   [ProducerV2 - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ProducerV2ScopedAPI.md)
+-   **REST**
+    -   [Continuous Integration/Continuous Delivery \(CICD\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cicd-api.md)
+    -   [Schema Registry API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/schema_registry-api.md)
+
+</td></tr><tr><td>
+
+Interaction Management
+
+</td><td>
+
+-   **REST**
+
+[Interaction Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/interaction-management-api.md)
+
+
+</td></tr><tr><td>
+
 Knowledge Management
 
 </td><td>
@@ -743,6 +790,17 @@ Lead Management
 -   **REST**
 
 [lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/lead-api.md)
+
+
+</td></tr><tr><td>
+
+Manufacturing Commercial Operations
+
+</td><td>
+
+-   **SOAP**
+
+
 
 
 </td></tr><tr><td>
@@ -812,13 +870,8 @@ ServiceNow AI Platform
 
 </td><td>
 
--   **Client**
-    -   [g\_service\_catalog - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_service_catalogClientAPI.md)
-    -   [Guided Tours - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/guided_toursAPI.md)
-    -   [NotifyClient - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_Notify2WebRTCClient.md)
-    -   [NotifyOnTaskClient - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/NotifyOnTaskClient.md)
-    -   [ScriptLoader - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_ScriptLoaderAPI.md)
 -   **Server**
+    -   [CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)
     -   [AbstractDBObject - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_AbstractDBObject.md)
     -   [AbstractScriptProcessor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_AbstractScriptProcessorAPI.md)
     -   [AbstractTimelineSchedulePage - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_AbstractTimelineSchedulePage.md)
@@ -828,6 +881,7 @@ ServiceNow AI Platform
     -   [AutomationException - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_AutomationException.md)
     -   [Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ConsoleAPI.md)
     -   [Conversation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ConversationScopedAPI.md)
+    -   [Conversation Member API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/conversation-member-api.md)
     -   [CriteriaEvaluator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CriteriaEvaluatorAPI.md)
     -   [CSVParser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CSVParserScopedAPI.md)
     -   [DSCScriptableAPI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/DSCScriptableAPI.md)
@@ -869,7 +923,7 @@ ServiceNow AI Platform
     -   [RenderProperties - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/RenderProperties-Scoped-API.md)
     -   [RequestAuthAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/RequestAuthAPI.md)
     -   [ResponseTemplate - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ResponseTemplateAPI.md)
-    -   []()
+    -   [RESTAPIRequest - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ScriptableServiceRequest.md)
     -   [RESTAPIRequestBody - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ScriptableServiceRequestBody.md)
     -   [RESTAPIResponse - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ScriptableServiceResponseBuilder.md)
     -   [RESTAPIResponseStream - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ScriptableServiceRespStreamWriter.md)
@@ -898,6 +952,7 @@ ServiceNow AI Platform
     -   [XMLNodeIterator - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_XMLNodeIteratorScopedAPI.md)
     -   [AuthCredential - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/AuthCredentialAPI.md) Only available within the `sn_auth` namespace.
 -   **REST**
+    -   [Developer Sandbox Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/developer-sandbox-management-api.md)
     -   [Aggregate API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_AggregateAPI.md)
     -   [Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_AttachmentAPI.md)
     -   [Batch API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/batch-api.md)
@@ -906,46 +961,16 @@ ServiceNow AI Platform
     -   [Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sales_agreement-api.md)
     -   [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/scriptdebugger-api.md)
     -   [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_TableAPI.md)
-
-</td></tr><tr><td>
-
-ServiceNow AI Platform Legacy Capabilities
-
-</td><td>
-
--   **Server**
-    -   [ConnectActionResponse - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ConnectActionResponseAPI.md)
-    -   [GlideConversation - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideConversationAPI.md)
-
-</td></tr><tr><td>
-
-ServiceNow AI Platform - Security
-
-</td><td>
-
 -   **Client**
-
-[ScopedSessionDomain - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/ScopedSessionDomainAPI.md)
-
--   **Server**
-    -   [OAuthUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_OAuthUtilScriptInclude.md)
-    -   [SCIM2Client - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SCIM2ClientAPI.md)
-    -   [SCIM2ClientUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SCIM2ClientUtilAPI.md)
-    -   [StandardCredentialsProvider - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/standard-credentials-provider-api.md)
-    -   [CertificateEncryption - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md)
-    -   [ConnectionInfo - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/connection-info-api.md)
-    -   [ConnectionInfoProvider - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/connection-info-provider-api.md)
-    -   [KMFCryptoOperation - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)
-    -   [DCManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/DCManagerAPIGlobal.md)
-    -   [ScopedDCManager - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/DCManagerAPIScoped.md)
--   **REST**
-    -   [Data Classification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/data-classification-api.md)
-    -   [System for Cross-domain Identity Management \(SCIM\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/scim-api.md)
-    -   [User Role Inheritance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/user-role-inheritance-api.md)
+    -   [g\_service\_catalog - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/g_service_catalogClientAPI.md)
+    -   [Guided Tours - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/guided_toursAPI.md)
+    -   [NotifyClient - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_Notify2WebRTCClient.md)
+    -   [NotifyOnTaskClient - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/NotifyOnTaskClient.md)
+    -   [ScriptLoader - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_ScriptLoaderAPI.md)
 
 </td></tr><tr><td>
 
-Order Management for Telecommunications, Media, and Technology
+Sales Customer Relationship Management for Telecommunications
 
 </td><td>
 
@@ -960,16 +985,18 @@ Order Management for Telecommunications, Media, and Technology
     -   [TopicUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md)
     -   [TroubleTicketNotificationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
 -   **REST**
+    -   [Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf-party-management-open-api.md)
     -   [Alarm Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/alarm-open-api.md)
     -   [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/event_open-api.md)
     -   [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-catalog-open-api.md)
     -   [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-inventory-open-api.md)
+    -   [Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-offering-qualification-api.md)
     -   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf622_product_ordering-api.md)
     -   [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-catalog-open-api.md)
     -   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-order-open-api.md)
-    -   [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-test-management-api.md)
     -   [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ts-qualification-api.md)
     -   [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md)
+    -   [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/quote-management-api.md)
 
 </td></tr><tr><td>
 
@@ -1046,6 +1073,23 @@ Sourcing and Procurement Operations
 
 </td></tr><tr><td>
 
+Product Support for Technology
+
+</td><td>
+
+-   **Server**
+    -   [EventProcessorUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/EventProcessorUtilOOBScopedAPI.md)
+    -   [EventQueueProcessorOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/EventQueueProcessorOOBScopedAPI.md)
+    -   [HermesEventPublisherOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.md)
+    -   [OpenMessageBusEventPublisherOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/OpenMsgBusEvtPubScopedAPI.md)
+    -   [TroubleTicketNotificationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
+-   **REST**
+
+[Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md)
+
+
+</td></tr><tr><td>
+
 Project Portfolio Management
 
 </td><td>
@@ -1088,13 +1132,9 @@ Service Exchange
 </td><td>
 
 -   **Server**
-
-[CSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CSBScratchpadUtilScopedAPI.md)
-
-[sb - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PSBPublicAPIUtilBoth.md)
-
-[PSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.md)
-
+    -   [CSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CSBScratchpadUtilScopedAPI.md)
+    -   [sb - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PSBPublicAPIUtilBoth.md)
+    -   [PSBScratchpadUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/PSBScratchpadUtilScopedAPI.md)
 
 </td></tr><tr><td>
 
@@ -1152,16 +1192,46 @@ ServiceNow Voice
 
 </td></tr><tr><td>
 
+ServiceNow AI Platform - Security
+
+</td><td>
+
+-   **Server**
+    -   [OAuthUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_OAuthUtilScriptInclude.md)
+    -   [SCIM2Client - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SCIM2ClientAPI.md)
+    -   [SCIM2ClientUtil - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SCIM2ClientUtilAPI.md)
+    -   [StandardCredentialsProvider - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/standard-credentials-provider-api.md)
+    -   [CertificateEncryption - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CertificateEncryptionScopedAPI.md)
+    -   [ConnectionInfo - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/connection-info-api.md)
+    -   [ConnectionInfoProvider - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/connection-info-provider-api.md)
+    -   [KMFCryptoOperation - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)
+    -   [DCManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/DCManagerAPIGlobal.md)
+    -   [ScopedDCManager - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/DCManagerAPIScoped.md)
+-   **REST**
+    -   [Data Classification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/data-classification-api.md)
+    -   [System for Cross-domain Identity Management \(SCIM\) API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/scim-api.md)
+    -   [User Role Inheritance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/user-role-inheritance-api.md)
+-   **Client**
+
+[ScopedSessionDomain - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/ScopedSessionDomainAPI.md)
+
+
+</td></tr><tr><td>
+
+ServiceNow AI Platform Legacy Capabilities
+
+</td><td>
+
+-   **Server**
+    -   [ConnectActionResponse - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ConnectActionResponseAPI.md)
+    -   [GlideConversation - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideConversationAPI.md)
+
+</td></tr><tr><td>
+
 Service Portal
 
 </td><td>
 
--   **Client**
-    -   [spAriaUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spAriaUtil-API.md)
-    -   [spContextManager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spContextManagerAPI.md)
-    -   [spModal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/SPModal-API.md)
-    -   [spUtil - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spUtilAPI.md)
-    -   [SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/SNAnalyticsClientAPI.md)
 -   **Server**
     -   [GlideSPScriptable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideSPScriptableScopedAPI.md)
     -   [GlideSPSearchAnalytics - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideSPSearchAnalyticsAPI.md)
@@ -1170,6 +1240,12 @@ Service Portal
     -   [SPScriptedFacetService - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SPScriptedFacetServiceScopedAPI.md)
     -   [SPSEOUtilsSNC - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SPSEOUtilsSNCAPI.md)
     -   [SPWidgetAccessControl - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SPWidgetAccessControlGlobalAPI.md)
+-   **Client**
+    -   [spAriaUtil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spAriaUtil-API.md)
+    -   [spContextManager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spContextManagerAPI.md)
+    -   [spModal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/SPModal-API.md)
+    -   [spUtil - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/spUtilAPI.md)
+    -   [SNAnalytics - Client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/SNAnalyticsClientAPI.md)
 
 </td></tr><tr><td>
 
@@ -1200,9 +1276,41 @@ Telecommunications Network Inventory
 </td><td>
 
 -   **REST**
+    -   [DCIM Metric Data Feed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/dcim-metric-data-feed-api.md)
+    -   [Resource Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/resource-inventory-api.md)
 
-[Resource Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/resource-inventory-api.md)
+</td></tr><tr><td>
 
+Telecommunications Service Operations Management \(TSOM\)
+
+</td><td>
+
+-   **Server**
+    -   [EventProcessorUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/EventProcessorUtilOOBScopedAPI.md)
+    -   [EventQueueProcessorOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/EventQueueProcessorOOBScopedAPI.md)
+    -   [HermesEventPublisherOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/HermesEventPublishOOBScopedAPI.md)
+    -   [OpenMessageBusEventPublisherOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/OpenMsgBusEvtPubScopedAPI.md)
+    -   [TMFTopicEventAPIUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/tmftopiceventapiutiloobScopedAPI.md)
+    -   [TopicAPIUtilsOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TopicAPIUtilsOOBAPIScoped.md)
+    -   [TopicSubscriptionUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TopicSubscriptionUtilAPIScoped.md)
+    -   [TopicUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TopicUtilOOBAPIScoped.md)
+    -   [TroubleTicketNotificationUtilOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/TroubleTicketNotifScopedAPI.md)
+-   **REST**
+    -   [Appointment Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-open-api.md)
+    -   [Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf-party-management-open-api.md)
+    -   [Alarm Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/alarm-open-api.md)
+    -   [Event Notification Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/event_open-api.md)
+    -   [Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-catalog-open-api.md)
+    -   [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-inventory-open-api.md)
+    -   [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf622_product_ordering-api.md)
+    -   [Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-offering-qualification-api.md)
+    -   [Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/quote-management-api.md)
+    -   [Service Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-catalog-open-api.md)
+    -   [Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-order-open-api.md)
+    -   [Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-test-management-api.md)
+    -   [Technical Service Qualification Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ts-qualification-api.md)
+    -   [Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md)
+    -   [Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/work-order-mgmt-api.md)
 
 </td></tr><tr><td>
 
@@ -1240,18 +1348,51 @@ Universal Task
 
 </td></tr><tr><td>
 
-Virtual Agent
+USG
 
 </td><td>
 
 -   **Server**
 
-[ProactiveTriggerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md)
+[SecretsAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SecretsAPI.md)
+
+
+</td></tr><tr><td>
+
+Virtual Agent
+
+</td><td>
 
 -   **REST**
     -   [CCCIF Media Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cccif-api.md)
     -   [Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/bot-api.md)
     -   [Voice Interaction Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/voice-interaction-resource-api.md)
+-   **Server**
+
+[ProactiveTriggerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ProactiveTriggerScopedAPI.md)
+
+
+</td></tr><tr><td>
+
+Workplace Service Delivery
+
+</td><td>
+
+-   **REST**
+    -   [Workplace Connector Webhook API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/workplace_connector_webhook-api.md)
+    -   [WSD Extra Service Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_extra_serv_req-api.md)
+    -   [WSD Extra Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_extra_service-api.md)
+    -   [WSD Group Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_grp_reserv-api.md)
+    -   [WSD Multi Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_multi_reserv-api.md)
+    -   [WSD Presence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_presence-api.md)
+    -   [WSD Recurring Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_recur_reserv-api.md)
+    -   [WSD Reservable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservable-api.md)
+    -   [WSD Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservation-api.md)
+    -   [WSD Reservation Invitees API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservation_invitees-api.md)
+    -   [WSD Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_search-api.md)
+    -   [WSD Shift API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_shift-api.md)
+    -   [WSD Unified Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_unified-search-api.md)
+    -   [WSD User API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_user-api.md)
 
 </td></tr><tr><td>
 
@@ -1269,25 +1410,6 @@ Workflow \(legacy\)
     -   [WorkflowModelManagerAjax - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_WorkflowModelManagerAjaxAPI.md)
     -   [WorkflowScheduler - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_WorkflowSchedulerAPI.md)
     -   [WorkflowTimeline - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_WorkflowTimelineAPI.md)
-
-</td></tr><tr><td>
-
-Workplace Service Delivery
-
-</td><td>
-
--   **REST**
-    -   [Workplace Connector Webhook API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/workplace_connector_webhook-api.md)
-    -   [WSD Extra Service Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_extra_serv_req-api.md)
-    -   [WSD Extra Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_extra_service-api.md)
-    -   [WSD Group Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_grp_reserv-api.md)
-    -   [WSD Multi Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_multi_reserv-api.md)
-    -   [WSD Recurring Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_recur_reserv-api.md)
-    -   [WSD Reservable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservable-api.md)
-    -   [WSD Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservation-api.md)
-    -   [WSD Reservation Invitees API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservation_invitees-api.md)
-    -   [WSD Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_search-api.md)
-    -   [WSD Shift API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_shift-api.md)
 
 </td></tr></tbody>
 </table>

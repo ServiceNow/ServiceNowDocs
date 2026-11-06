@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Set up and configure CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set a CI field to be recommended
@@ -20,8 +20,8 @@ Define a list of CI fields as recommended, noting that it is desirable that they
 
 Role required:
 
--   Itil\_admin and personalize\_dictionary: For editing the dictionary table
--   itil has read access
+-   sn\_cmdb\_admin or Itil\_admin, and personalize\_dictionary: For editing the dictionary table
+-   sn\_cmdb\_editor and itil have read access
 
 ## About this task
 

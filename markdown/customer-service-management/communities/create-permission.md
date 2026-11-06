@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Forum and user permissions management, Configure a community, Communities, Customer Service Management]
+breadcrumb: [Forum and user permissions management, Configuring communities, Communities, Customer Service Management]
 ---
 
 # Create a permission
@@ -19,6 +19,10 @@ Create a permission to use to define a user's access to a forum and the content 
 ## Before you begin
 
 Role required: sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 

@@ -1,23 +1,24 @@
 ---
 title: Service Catalog release notes
-description: The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Yokohama release.The ServiceNow Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Yokohama release.
+description: The ServiceNow Service Catalog application provides a requester view of available services and products offered by departments within your organization. See the following sections for release notes by version.The Brazil release adds configurable subscription access enforcement for catalog items and lets migrate Core UI to an Angular portal using a plugin only on upgrades.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/service-catalog-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform capabilities release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow AI Platform capabilities release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Service Catalog release notes
 
-The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Yokohama release.
+The ServiceNow® Service Catalog application provides a requester view of available services and products offered by departments within your organization. See the following sections for release notes by version.
 
 ## About Service Catalog
 
--   Enable your users to experience the flexibility of using supported languages when creating or editing catalog items in Catalog Builder.
--   Identify and resolve accessibility-related issues during catalog item generation through a new accessibility checker button in the TinyMCE toolbar in Service Catalog.
+-   Develop comprehensive service catalogs to empower users with self-service capabilities.
+-   Tailor portals to let users request a range of catalog items, including services and product offerings.
+-   Standardize request fulfillment processes to verify the accuracy and availability of items within the catalogs.
 
 See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog.md) for more information.
 
@@ -28,30 +29,33 @@ See [Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Service Catalog is a ServiceNow AI Platform feature that is active by default.
 
 
-## Accessibility and localization
-
--   **Accessibility information**
-
-    Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a catalog item in Service Catalog. See [Accessibility checker in the toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_DefineACatalogItem.md) for more information.
-
-
 **Parent Topic:**[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-capabilities-rn-landing.md)
 
-## Yokohama
+## Brazil Early Availability
 
-The ServiceNow® Service Catalog application provides a requester view of the available services and products offered by the departments within your organization. Service Catalog was enhanced and updated in the Yokohama release.
+The Brazil release adds configurable subscription access enforcement for catalog items and lets migrate Core UI to an Angular portal using a plugin only on upgrades.
 
 ### What's new
 
--   **[Use non-English language for creating or editing catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-item-cat-builder.md)**
+-   **[Configurable subscription access enforcement for catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_ServiceCatalogProperties.md)**
 
-    Enable your users to use supported languages when creating or editing catalog items. A non-English language user can create or edit a catalog item in their language that is supported in Catalog Builder. For example, if a Spanish language user logs in to Catalog Builder and creates or edits an item, the Spanish version of the item is created or updated.
+    Control whether service subscriptions can bypass "Available for" user criteria on catalog items using the `glide.sc.catalog_item.subscription_enforcement` property. This setting verifies that only users meeting specific criteria can access items, even with a parent service subscription.
+
+    The property controls this behavior with the following two modes:
+
+    -   require\_criteria: Prevents access to users who don't meet the item's criteria, even if they are subscribed to the parent service offering.
+    -   allow\_bypass: Preserves existing behavior that means users gain access through the "Available for" user criteria. "allow\_bypass" is a default value.
+-   **Migration from Core UI to Angular portal**
+
+    Migrate from the Core UI catalog experience to the Angular portal using the `com.glideapp.servicecatalog.ui16_portal` plugin, but only for upgraded instances.
+
+    Administrators on upgraded instances must install the`com.glideapp.servicecatalog.ui16_portal` plugin to move from the Core UI catalog experience to the Angular portal. On new instances, the plugin is active by default. Requesters view the Angular portal instead of Core UI while requesting a catalog item.
 
 
-### What's changed
+### What's deprecated or removed
 
--   **[Accessibility checker in the toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_DefineACatalogItem.md)**
+-   **Removal of Catalog Roles from request management ACLs**
 
-    Identify and resolve accessibility related issues during catalog item generation through a new accessibility checker button in the TinyMCE toolbar in Service Catalog.
+    ACL records on request management tables and fields no longer grant access based on the catalog role or the catalog admin role. ACL records for tables owned by request management, such as Request \[sc\_request\] and Requested Item \[sc\_req\_item\], no longer include catalog-related roles in the list of required roles. Each ACL record retains at least one request management role, so the list is never empty. Users who have only a catalog-related role and no request management role can no longer use these ACL records to access request management tables or features. Another ACL record on the same table might still grant access through a different role. This change affects only the ACL records that the catalog team owns.
 
 

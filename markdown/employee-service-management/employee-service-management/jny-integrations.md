@@ -4,7 +4,7 @@ description: Extend the Journey designer application's capabilities by integrati
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -14,8 +14,6 @@ Extend the Journey designer application's capabilities by integrating other appl
 
 Integrating supported applications expands the features and capabilities of Journey designer. Supported applications have unique installation and configuration requirements. Supported integration applications can be installed before or after installing the Journey designer app.
 
--   [Learning Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-posts/learning-post-app.md) v5.0.0 \[sn\_lnp\]
--   [Listening Posts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/listening-posts/listening-posts.md) v5.0.0 \[sn\_lp\]
 -   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/manager-hub-overview.md) v1.0.0 \[sn\_mh\]
 -   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/ms-exch-online-spoke.md) v3.2.0 \[sn\_ex\_online\_spke\]
 -   [Retry Handler Framework v1.0.1 \[sn\_handler\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/retry-handler-frmwrk.md)

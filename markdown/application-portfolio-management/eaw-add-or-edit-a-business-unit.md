@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-or-edit-a-business-unit.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage business units, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage business units, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit a business unit
@@ -17,6 +17,10 @@ Create or edit a business unit to define your organizational functions.
 ## Before you begin
 
 Role required: sn\_apm.apm\_admin and business\_planner
+
+**Note:**
+
+Starting with the Brazil release, Business Planner plugin and Business Planner role are being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -34,10 +38,15 @@ Role required: sn\_apm.apm\_admin and business\_planner
     -   To update details of an existing business unit, select the business unit.
 6.  On the form, fill in the fields.
 
-    For field information, see [Create a new business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-new-business-unit-form.md).
+    For field information, see [Create a business unit form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-new-business-unit-form.md).
 
 7.  Select **Save**.
 
 
-**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-units.md)
+**Parent Topic:**[Manage business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-business-units.md)
+
+**Related topics**  
+
+
+[View all business units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-business-units.md)
 

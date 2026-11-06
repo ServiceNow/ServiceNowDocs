@@ -7,16 +7,14 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Employee Service Management]
 ---
 
 # Universal Request
 
 ServiceNow Universal Request empowers customers in their journey toward Enterprise Service Management \(ESM\) or Global Business Services \(GBS\) by enabling agents to resolve cases seamlessly across the enterprise to provide a better employee experience.
-
-\[Omitted image "ur-landing-infographics.png"\] Alt text: Universal Request application
 
 ## Employee experience
 
@@ -59,7 +57,15 @@ Task employees to get additional information needed to fulfill the employee’s 
 [Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/ur-reference-topic.md)
 
 </td></tr></tbody>
-</table>-   **[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)**  
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+
+-   **[Exploring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/explore-universal-request.md)**  
 The ServiceNow Universal Request application enables cross-departmental reporting from the time of an initial employee request through the final issue resolution. You can map various departmental ticket states and activity streams into a unified and simplified experience for your employees and agents.
 -   **[Setting up and configuring Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/setup-configure-ur.md)**  
 Set up and configure Universal Request to enable agents to create universal requests and work on them to resolve employee issues.
@@ -77,6 +83,8 @@ Extend the capabilities of Universal Request and connect with other departments 
 Validate that Universal Request still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 -   **[Universal Request in Agent Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/universal-request-workspace.md)**  
 Use Universal Request in Agent Workspaces to create, view, and work on the universal request.
+-   **[Using agentic flows in Universal Request AI agent collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/ur-ai-agent-collection.md)**  
+Use the Universal Request AI agent collection to complete tasks autonomously.
 
 **Parent Topic:**[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-service-management-overview.md)
 

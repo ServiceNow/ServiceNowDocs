@@ -1,18 +1,18 @@
 ---
 title: Security Operations System Command Integration- Get Running Processes flow
-description: The Security Operations System Command Integration - Get Running Processes flow retrieves the running processes of a configuration item when added or updated to a Windows or Unix-based security incident in the Analysisstate.
+description: The Security Operations System Command Integration - Get Running Processes flow retrieves the running processes of a configuration item when added or updated to a Windows or Unix-based security incident in the Analysis state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/obtain-WMI-retrieval-workflow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations Integration- Get Running Processes capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
 
 # Security Operations System Command Integration- Get Running Processes flow
 
-The Security Operations System Command Integration - Get Running Processes flow retrieves the running processes of a configuration item when added or updated to a Windows or Unix-based security incident in the **Analysis**state.
+The Security Operations System Command Integration - Get Running Processes flow retrieves the running processes of a configuration item when added or updated to a Windows or Unix-based security incident in the **Analysis** state.
 
 ## Before you begin
 
@@ -28,14 +28,14 @@ The flow process actions include:
 
 -   [Get Configuration Item FQDN Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/get-config-FQDN-activity.md)
 -   [Determine Shell Script by OS activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/determine-shell-script-by-os-activity.md)
--   [Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begin.md)
+-   [Legacy: Execution Tracking - Begin Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execution-tracking-begin.md)
 -   [Get Running Processes via PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/get-running-processes-via-pwrshell-activity.md)
 -   [Execute Shell Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/execute-shell-script-activity.md)
--   [Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-failure.md)
+-   [Legacy: Capability Execution Tracking- Failure Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-failure.md)
 -   [Extract Shell Script from MID Script activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/extract-shell-script-mid-script-activity.md)
 -   [Combine Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/combine-results-activity.md) and return values in an array
 -   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-enrich-data-records.md)
--   [Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-complete.md)
+-   [Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-complete.md)
 
 \[Omitted image "get-running-processes-flows.png"\] Alt text: Security Operations System Command Integration- Get Running Processes flow
 

@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Anonymous Report Center, Anonymous Report Center \(ARC\), Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Anonymous Report Center \(ARC\), Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Anonymously report discrimination

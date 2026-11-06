@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for T1003 - Defense Evasion - Mimikatz DCShadow, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,8 +35,6 @@ Role required:
 
 4.  In Action 4, if the user provided a valid business justification, perform the following steps:
 
-    \[Omitted image "playbook-mimikatz-dcshadow-overview.png"\] Alt text: Response task to check whether the user provided a valid business justification
-
     1.  In Action 5, document the findings so far.
 
     2.  In Action 6, initiate a post incident review.
@@ -44,8 +42,6 @@ Role required:
         In Action 7, after the post incident review, the flow ends.
 
 5.  In Action 8, if the user didn’t provide a valid business justification, perform the following steps:
-
-    \[Omitted image "playbook-mimikatz-dcshadow-investigate.png"\] Alt text: Response tasks when the user didn't provide a valid business justification.
 
     1.  In Action 9, lock down or quarantine all the accounts, computers, and other devices involved.
 

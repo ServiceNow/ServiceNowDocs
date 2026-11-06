@@ -1,18 +1,18 @@
 ---
-title: View an order with the Business Portal
-description: View orders using the Business Portal in Order Management.
+title: View an order on the Business Portal
+description: Customers can view their orders using the Business Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-view-order-using-customer-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Business Portal, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Self-service order management, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
-# View an order with the Business Portal
+# View an order on the Business Portal
 
-View orders using the Business Portal in Order Management.
+Customers can view their orders using the Business Portal.
 
 ## Before you begin
 
@@ -20,20 +20,22 @@ Role required: sn\_customerservice.customer
 
 ## Procedure
 
-1.  Navigate to your Business Portal.
+1.  Log in to the Business Portal.
 
-2.  In the Business Portal, select **Requests** &gt; **View submitted request** &gt; **View orders**.
+2.  Select **Requests** &gt; **View submitted request** &gt; **View orders**.
 
     The View order window has the following controls.
 
     -   To search for orders - use the search option.
     -   To sort, and filter orders - use the filter.
-    -   To export as a PDF, Excel, or CSV - use the Action icon \[Omitted image "icon-three-dot-menu.png"\].
-    -   To open and order - select the order number.
+    -   To export as a PDF, Excel, or CSV - use the Action icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:.
+    -   To open an order - select the order number.
     -   To navigate back to the main window - use the breadcrumbs.
+
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/self-service-order-management.md)
 
 **Related topics**  
 
 
-[Create orders with the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-create-an-order-using-customer-portal.md)
+[Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-create-an-order-using-customer-portal.md)
 

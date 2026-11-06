@@ -7,16 +7,16 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software installation optimization and removal
 
 You can optimize your environment by reclaiming unused software as well as removing unauthorized software.
 
-If a user is not using software installed, or infrequently, that software can be a candidate for removal. Removal means uninstalling and reallocating the software to an individual who will use it more often. Removal candidates are used to reclaim software installations.
+If a user is not using an installed software, or using infrequently, that software can be a candidate for removal. Removal means uninstalling and reallocating the software to an individual who uses it more often. Removal candidates are used to reclaim software installations.
 
 ## Overview of software reclamation
 
@@ -24,21 +24,22 @@ Software reclamation is integrated with Workflow and [Client Software Distributi
 
 **Note:** If you change a software asset's state to **Retired** or **Missing**, the installation associated to the software asset gets removed and a removal candidate won't be created.
 
-Reclamation can be performed for suite based products and for individual products that are not part of a suite.
+Starting from the Zurich release, the reclamation workflow can also be completed using the Software Reclamation Flow in the Flow Designer application with additional error handling features.
 
-For suite based products, bulk reclamation is performed at the user level. One removal candidate is created for reclaiming the suite. You can add the suite components to the same removal candidate via the Software Installation related list on the removal candidate form. The potential savings displayed is for the entire suite. Suite components cannot be reclaimed individually. In the Software Asset Workspace, you can add the suite components to the removal candidate one at a time. In the Software Asset Management classic framework, you can add the suite components all at one go.
+Reclamation can be performed for suite based products and for individual products that aren't part of a suite.
 
-For individual products, you can specify the software installation that you wish to reclaim.
+-   For suite based products, bulk reclamation is performed at the user level. One removal candidate is created for reclaiming the suite. You can add the suite components to the same removal candidate via the Software Installation related list on the removal candidate form. The potential savings displayed is for the entire suite. Suite components can't be reclaimed individually. In the Software Asset Workspace, you can add the suite components to the removal candidate one at a time. In the Software Asset Management classic framework, you can add the suite components all at one go.
+-   For individual products, you can specify the software installation that you want to reclaim.
 
 There are multiple ways that removal candidates get created. A monthly scheduled job, **SAM – Identify new reclamation candidates**, uses the reclamation rules and software usage to create removal candidates. Additionally, removal candidates are also created as part of using remediation options for unlicensed and unallocated software installations, and for restricted software. When a software model is marked as restricted, removal candidates are created for any software associated to that software model. The reclamation flow and process is the same in all these use cases.
 
 The **SAM – Identify new reclamation candidates** scheduled job creates removal candidates and these removal candidates automatically have the bulk reclamation flag checked. The removal candidates created are based on the results from the reconciliation process. Verify that at least one reconciliation process has run with successful results before running the **SAM – Identify new reclamation candidates** scheduled job. This ensures that the **SAM – Identify new reclamation candidates** scheduled job accurately creates removal candidates to identify the right potential savings.
 
-In each list of Removal Candidates, you can select individual records for reclamation \(**Reclaim**\) or **Reclaim All** to reclaim all qualifying removal candidates. Qualifying candidates are those candidates in the Ready state. Once you select **Reclaim** or **Reclaim All**, the workflow to remove the software is initiated.
+In each list of Removal Candidates, you can select individual records for reclamation \(**Reclaim**\) or **Reclaim All** to reclaim all qualifying removal candidates. Qualifying candidates are those candidates that are in the Ready state. After you select **Reclaim** or **Reclaim All**, the process to remove the software is initiated.
 
-## Upgrading to Yokohama
+## Upgrading to Brazil
 
-When you upgrade to Yokohama and if you have an existing removal candidate in the**Awaiting revocation** state, nothing will be done with that removal candidate. If that removal candidate was part of a suite, then removal candidates are created for each of the other software installations in that suite. However, if the state of the existing removal candidates is anything other than **Awaiting revocation** then those removal candidates are canceled and a single removal candidate gets created for all the software installations that are part of that suite. In the **Activity** section on the removal candidate form, a reason is mentioned for the closure of each removal candidate.
+After upgrading to Brazil, if you have an existing removal candidate in the**Awaiting revocation** state, nothing will be done with that removal candidate. If that removal candidate was part of a suite, then removal candidates are created for each of the other software installations in that suite. However, if the state of the existing removal candidates is anything other than **Awaiting revocation**, then those removal candidates are canceled and a single removal candidate gets created for all the software installations that are part of that suite. In the **Activity** section on the removal candidate form, a reason is mentioned for the closure of each removal candidate.
 
 ## Removal candidate grouping
 
@@ -86,7 +87,7 @@ Awaiting Approval
 
 </td><td>
 
-If the **Notify User** check box was selected, the user can approve or deny the removal candidate. If the user still wants to keep the software installation, it becomes the responsibility of a member of the assignment group to approve or decline the removal.
+If the **Notify User** check box was selected, the user can approve or deny the removal candidate. If the user still wants to keep the software installation, it becomes the responsibility of the manager to approve or decline the removal.
 
 </td></tr><tr><td>
 
@@ -96,7 +97,7 @@ Awaiting Revocation
 
 The final step in the workflow. You can select **Close Complete** to reclaim software rights in the removal candidate manually. Otherwise, a weekly scheduled job \(named SAM — Updating Existing Reclamation Candidates\) automatically updates removal candidates in the **Awaiting Revocation** state and with the software install field empty to **Closed Complete** state.
 
- If the removal candidate is in any other state and the software install is empty, the Reclamation workflow is canceled and updated to **Closed Skipped** state.
+ If the removal candidate is in any other state AND the software install is empty, the Reclamation workflow is canceled and updated to **Closed Skipped** state.
 
  The state for a removal candidate that has restricted software is automatically set to **Awaiting Revocation** and the justification is set to **Restricted Software**.
 
@@ -127,7 +128,7 @@ Software rights not reclaimed by the removal candidate as user activity is detec
 </td></tr></tbody>
 </table>## Restricted software justification and unlicensed justification
 
-Workflows for removal candidates with a restricted software justification or an unlicensed justification get executed automatically. The user is notified of unauthorized software use and is not prompted for approval.
+Workflows for removal candidates with a restricted software justification or an unlicensed justification get executed automatically. The user is notified of unauthorized software use and isn't prompted for approval.
 
 -   Restricted Software:
 
@@ -142,7 +143,7 @@ Workflows for removal candidates with a restricted software justification or an 
     `You are not licensed to use [Publisher] [Product] installed on the device, [device name]. Use the appropriate process to request a license for the software.`
 
 
-The workflow state for a Restricted software justification and an unlicensed justification is then set to Awaiting Revocation and, once discovery identifies that the installation no longer exists, the state is changed to Closed Complete.
+The workflow state for a Restricted software justification and an unlicensed justification is then set to **Awaiting Revocation**. After discovery identifies that the installation no longer exists, the state is changed to **Closed Complete**.
 
 ## Unallocated justification and Low Usage justification
 
@@ -178,9 +179,9 @@ Removal candidate descriptions get updated based on the justification.
     `[Publisher] [Product] installed on the device, [device name], has been flagged for reclamation due to low usage. If you do not require this software, Reject this task. If you still require access to this software, Approve this task and your request for continued use of the software will be routed for manager approval.`
 
 
-When the **Reclaim** action is clicked, if the **Notify User** field is selected and the days before reclamation is greater than 0, then the state is set to Awaiting User. Otherwise the state is set to Awaiting Reclamation.
+When the **Reclaim** action is selected, if the **Notify User** field is true and the days before reclamation is greater than 0, then the state is set to **Awaiting User**. Otherwise the state is set to **Awaiting Reclamation**.
 
-When the state changes to Awaiting User, a notification is sent to the user.
+When the state changes to **Awaiting User**, a notification is sent to the user.
 
 **Parent Topic:**[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/explore-sam-workspace.md)
 

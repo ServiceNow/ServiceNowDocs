@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage tasks in a Major Security Incident, Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -89,7 +89,7 @@ Priority
 </td><td>
 
 Select the priority of the task to determine when the task is performed. The priority can be one of the following values:-   **None**
--   **1-Critical**
+-   **1 - Critical**
 -   **2 - High**
 -   **3 - Moderate**
 -   **4 - Low**

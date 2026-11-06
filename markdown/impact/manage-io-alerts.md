@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/manage-io-alerts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Alerts in Instance Observer, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Manage Instance Observer alerts
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Open an alert threshold notification.
 
-    The email notifications originate from ServiceNow and the subject is `New Alert!`.
+    The email notifications originate from ServiceNow and the subject is `New Alert`.
 
     \[Omitted image "io-alert-notification-email.png"\] Alt text: Shows a sample email with a threshold alert.
 
@@ -38,9 +38,7 @@ Role required: admin
 
     -   \[Omitted image "io-RCC-report.png"\] Alt text: Shows the RCC summary report.
 
-    -   
-
-        \[Omitted image "io-metrics-charts.png"\] Alt text: Shows the metrics charts.
+    -   \[Omitted image "io-metrics-charts.png"\] Alt text: Shows the metrics charts.
 
     -   The available menu options vary based on the type of root cause correlation.
 6.  Sort the table by Created Date/Time to view the most recent entries chronologically.
@@ -55,4 +53,6 @@ Role required: admin
 
 9.  For further investigation, select **Create a Case** and submit the captured summary information.
 
+
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-alerts-intro.md)
 

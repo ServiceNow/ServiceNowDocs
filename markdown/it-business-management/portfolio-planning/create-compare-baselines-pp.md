@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic
 # Create and compare financial baselines
 
 Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs against the actual expenses.
+
+## About this task
+
+This video is recorded using Strategic Planning view. Navigation for Portfolio Planning Workspace might differ but the functionality remains the same.\[Omitted video\] Description: Create and compare financial baselines
 
 ## Before you begin
 
@@ -28,15 +32,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Create or compare baselines.
 
-<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d187237e77">
+<table id="choicetable_xd3_bdk_2zb"><thead><tr><th align="left" id="d236936e120">
 
 Option
 
-</th><th align="left" id="d187237e80">
+</th><th align="left" id="d236936e123">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187237e86">
+</th></tr></thead><tbody><tr><td id="d236936e129">
 
 **Create a baseline**
 
@@ -53,7 +57,7 @@ Create financial baseline window appears with the Name field is auto-populated w
 
 **Note:** You can [activate a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md) to automatically create financial baselines.
 
-</td></tr><tr><td id="d187237e136">
+</td></tr><tr><td id="d236936e179">
 
 **Compare baselines**
 

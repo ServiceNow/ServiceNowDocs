@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure Virtual Agent for Microsoft Teams
@@ -66,8 +66,6 @@ Enable users to configure branding for the published Microsoft Teams bot app, th
 Link authentication and opening experience in Microsoft Teams provides a seamless experience for end users to interact with ServiceNow links when you use Virtual Agent on Microsoft Teams.
 -   **[Installing Microsoft Teams for all Virtual Agent users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/prelink-va-users-integ-msteams.md)**  
 Pre-link your Virtual Agent requesters to a ServiceNow instance before they run the Conversational Integration with Microsoft Teams. Batch pre-linking enables your Virtual Agent users to immediately chat with a virtual agent and receive notifications without going through the initial authentication linking process.
--   **[Activate Now Assist in Virtual Agent for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/activate-na-va-msteams.md)**  
-Add Now Assist in Virtual Agent to your Microsoft Teams and Microsoft Copilot bot.
 -   **[Customize auto-linking for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/customize-autolink-msteams.md)**  
 Customize auto-linking for user profiles by defining the email Id of the user in any custom table rather than just the User \[sys\_user\] table.
 -   **[Configure promoted topics for Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-teams-promoted-topics.md)**  
@@ -76,10 +74,10 @@ Configure promoted topics to push out important, common topics for users' quick 
 Configure Microsoft Teams Message Extension to enable users to use AI Search to find content \(Knowledge articles and catalog items\), and share information in a one-on-one or group chat. For the base system Virtual Agent integration with Microsoft Teams, this feature is enabled by default.
 -   **[Configure Microsoft Azure Conditional Access for Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/msteams-setup-conditional-access.md)**  
 You must configure conditional access in Microsoft Azure to restrict users from accessing the production applications. Conditional access helps you from accidentally overriding your production integration with a custom or personal instance integration.
--   **[Set up your language preferences for the Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-msteams-localization.md)**  
+-   **[Set up your language preferences for your Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-msteams-localization.md)**  
 Set language preferences so that Virtual Agent is in the same language as the user's preferred Microsoft Teams language.
 -   **[Localize the bot messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/localize-bot-messg.md)**  
 Localize the bot messages to receive them in a language of your choice during your conversations with the bot.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Conversational Integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
 

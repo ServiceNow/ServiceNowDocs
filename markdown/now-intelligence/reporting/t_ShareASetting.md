@@ -1,29 +1,29 @@
 ---
-title: Share a report
-description: Control which users and groups can see a report in their Reports list.
+title: Share a Core UI report
+description: Control which users and groups can see a Core UI report.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/t\_ShareASetting.html
 release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-24"
 reading_time_minutes: 4
 keywords: [Share a Core UI report, Share a report in the classic environment]
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Share a report
+# Share a Core UI report
 
-Control which users and groups can see a report in their Reports list.
+Control which users and groups can see a Core UI report.
 
 ## Before you begin
 
-Role required: report\_admin, report\_global, or report\_group.
+Role required: report owner, report\_admin, report\_global, or report\_group.
 
-This topic refers to Reporting in the Core UI. If your instance is migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-dv-ac.md).
+This topic refers to Reporting in the Core UI. If your instance is a Brazil release or migrated to Platform Analytics experience, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-dv-ac.md).
 
-The following roles can share reports:
+The creator of a report can share that report with any user. The following roles can share reports:
 
 <table id="table_pfs_kl1_nmb"><thead><tr><th>
 
@@ -71,14 +71,6 @@ The report\_group user can edit reports that are shared with the groups they are
 
 </td></tr><tr><td>
 
-report\_publisher
-
-</td><td>
-
-No sharing permissions.
-
-</td></tr><tr><td>
-
 report\_scheduler
 
 </td><td>
@@ -99,7 +91,7 @@ No sharing permissions.
 You can control who sees reports by making them:
 
 -   Globally visible to all users
--   Visible only to you if you are the report creator.
+-   Visible only to you if you're the report creator.
 -   Visible to one or more specific users
 -   Visible to one or more specific groups
 
@@ -109,11 +101,13 @@ It is not possible to grant edit rights on a report when you share it.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **View / Run** and select the report you want to control.
+1.  Navigate to **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select the report you want to control.
 
-2.  In the upper right side of the report form, click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Share**.
+    On instances with Unified Analytics enabled, and on new Brazil instances, both Core UI reports and Platform Analytics experience data visualizations are found in the Platform Analytics library. Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. For more information, see [Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/differences-between-core-ui-ne-dbs.md).
 
-3.  In the Sharing settings dialog box, fill in the fields and click **OK**.
+2.  In the upper right side of the report form, select the **Sharing** icon \[Omitted image "square-share-fill-24.svg"\] and select **Share**.
+
+3.  In the Sharing settings dialog box, fill in the fields and select **OK**.
 
 <table id="table_czf_tlh_yq"><thead><tr><th>
 
@@ -129,12 +123,10 @@ Visible to
 
 </td><td>
 
-Users to whom the report is available. You can select the following options:
-
--   **Me** Only you can view the report. This option is only available to you on the reports that you create.
+Users to whom the report is available. You can select the following options:-   **Me** Only you can view the report. This option is only available to you on the reports that you create.
 -   **Everyone** All users can view the report. However, you can select required roles, and only users with at least one of those roles can view the report.
 -   **Groups and Users** Only specific groups and users can see the report.
- The **Groups and Users** option is visible to users with the report\_group role.
+The **Groups and Users** option is visible to users with the report\_group role.
 
 </td></tr><tr><td>
 
@@ -142,9 +134,7 @@ Requires role
 
 </td><td>
 
-\(Optional\) Roles from the Roles \[sys\_user\_role\] table. If you select any roles, a user must have at least one of them to view the report. If you do not select a role, all users can view the report.
-
- You can specify required roles only for reports that are otherwise visible to Everyone. If you modify such a report to be shared with specific Groups and Users, the required roles no longer apply.
+\(Optional\) Roles from the Roles \[sys\_user\_role\] table. If you select any roles, a user must have at least one of them to view the report. If you don't select a role, all users can view the report.You can specify required roles only for reports that are otherwise visible to Everyone. If you modify such a report to be shared with specific Groups and Users, the required roles no longer apply.
 
 </td></tr><tr><td>
 
@@ -152,9 +142,7 @@ Groups
 
 </td><td>
 
-Groups whose members have permission to see the report.
-
- This field is available when the **Groups and Users** option is selected.
+Groups whose members have permission to see the report.This field is available when the **Groups and Users** option is selected.
 
 </td></tr><tr><td>
 
@@ -162,28 +150,22 @@ Users
 
 </td><td>
 
-Users who have permission to see the report.
-
- This field is available when the **Groups and Users** option is selected.
+Users who have permission to see the report.This field is available when the **Groups and Users** option is selected.
 
 </td></tr></tbody>
-</table>4.  Click the **Sharing** icon \(\[Omitted image "Form\_ShareIcon.png"\] Alt text: Sharing icon\) and select **Add to Dashboard** or **Publish**.
+</table>4.  Select the **Sharing** icon \[Omitted image "square-share-fill-24.svg"\] and choose **Add to Dashboard** or **Copy read-only link**.
 
-5.  Share the dashboard or share the URL of the published report.
+5.  Share the dashboard or share a read-only URL of the report.
 
-    You can share the URL of the published report with any user, role, or group with whom you have shared the report.
-
-    To publish a report, enable the property **glide.report.published\_reports.enabled**. For more information, see [\(Legacy\) Publish a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/t_PublishAReport.md).
-
-    The people with whom you share the report must have rights to view the report data.
+    You can share the read-only URL of the report with any authenticated user, but that user must have rights to view the report data.
 
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DistributeReports.md)
 
 **Related topics**  
 
 
 [Share a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ControlAccessToADashboard.md)
 
-[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
+[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
 

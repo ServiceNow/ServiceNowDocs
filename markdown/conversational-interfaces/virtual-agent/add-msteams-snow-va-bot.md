@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-02-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Integrate, Virtual agent, MSTeams, Microsoft, Teams, sn\_va\_teams]
-breadcrumb: [Integrating ServiceNow Virtual Agent with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrate ServiceNow Virtual Agent with Microsoft Teams
@@ -31,27 +31,29 @@ Any time you create and publish a bot, every user receives all changes you've ma
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Channels and Integrations**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
-2.  Under All integrations in the Microsoft Teams tile, select **Add Integration**.
+2.  In **General Settings** under **Channels and integrations**, select **View All**.
 
-    **Note:** The **Add Integration** drop-down menu is available only after installing the Conversational Integration with Microsoft Teams plugin \(sn\_va\_teams\) on your ServiceNow instance.
+    The Channels and integrations page opens.
 
-    \[Omitted image "add-msteams-integ.png"\] Alt text: Microsoft Teams Add Integrations drop-down menu, with Integrate with Now Virtual Agent selected.
+3.  Under the Available Channels section in the Microsoft Teams tile, select **Add Integrations**.
 
-3.  From the **Add Integration** drop-down menu, select **Integrate with Now Virtual Agent**.
+    **Note:** The **Add Integrations** drop-down menu is available only after installing the Conversational Integration with Microsoft Teams plugin \(sn\_va\_teams\) on your ServiceNow instance.
 
-4.  In the Microsoft Pick an account screen, select a Microsoft Teams account that you would like to use for the integration.
+    \[Omitted image "add-msteams-integ.png"\] Alt text: Microsoft Teams Add Integrations drop-down menu, with Integrate with ServiceNow Virtual Agent selected.
+
+4.  From the **Add Integrations** drop-down menu, select **Integrate with ServiceNow Virtual Agent**.
+
+5.  In the Microsoft Pick an account screen, select a Microsoft Teams account that you would like to use for the integration.
 
     \[Omitted image "pick-msteams-account.png"\] Alt text: Microsoft Teams account integration selection dialog box.
 
-5.  Log in to the selected Microsoft Teams account.
+6.  Log in to the selected Microsoft Teams account.
 
-6.  In the ServiceNow Virtual Agent screen, select **Accept** to accept the permissions for the app.
+7.  In the ServiceNow Virtual Agent screen, select **Accept** to accept the permissions for the app. \[Omitted image "va-teams-permissions.png"\] Alt text: Logging into the Microsoft Teams account to integrate with your Now Virtual Agent requires you to accept the requested permissions.
 
-    \[Omitted image "va-teams-permissions.png"\] Alt text: Logging into the Microsoft Teams account to integrate with your Now Virtual Agent requires you to accept the requested permissions.
-
-7.  If the selected tenant has already been assigned to Virtual Agent, you must first uninstall from the previously associated instance.
+8.  If the selected tenant has already been assigned to Virtual Agent, you must first uninstall from the previously associated instance.
 
     **Note:** Starting from Tokyo release, if your Microsoft Teams tenant is already associated with another ServiceNow instance. If you intend to associate it with a new instance, then you're asked to contact the administrator to first uninstall it from the previously associated instance. For more information, see [Override Microsoft Teams integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/override-msteams-install.md).
 
@@ -61,9 +63,9 @@ Any time you create and publish a bot, every user receives all changes you've ma
 
     \[Omitted image "msteams-install-success.png"\] Alt text: Message indicating successful installation of the ServiceNow Virtual Agent integration for Microsoft Teams.
 
-8.  Select **Go to Microsoft Teams** to manage your Microsoft Teams app.
+9.  Select **Go to Microsoft Teams** to manage your Microsoft Teams app.
 
-9.  Select **Continue to manage channels and integrations** to manage the integration on your ServiceNow instance.
+10. Select **Continue to manage channels and integrations** to manage the integration on your ServiceNow instance.
 
     The Microsoft Teams application appears in the list of integrations.
 
@@ -78,5 +80,5 @@ If you would like to integrate your ServiceNow® instance with another Microsoft
 
 For more information, see [Manage the ServiceNow Virtual Agent integration with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-va-teams.md).
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

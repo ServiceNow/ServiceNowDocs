@@ -1,18 +1,20 @@
 ---
-title: External Business Location form
-description: In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the External Business Location \(EBL\) form to store information about an external business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+title: External Organization form
+description: In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the External Organization \(formerly External Business Location \(EBL\)\) form to store information about an external business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ext-business-location-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
-# External Business Location form
+# External Organization form
 
-In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the External Business Location \(EBL\) form to store information about an external business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+In the Customer Service Management \(CSM\) application, the Service Model Foundation uses the External Organization \(formerly External Business Location \(EBL\)\) form to store information about an external business location. This information includes the staff members assigned to that location, cases, sold products, and install base items created for customers.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 <table id="table_oxs_s2g_qtb"><thead><tr><th>
 
@@ -36,7 +38,29 @@ Name
 
 </td><td>
 
-Name of the external business location.
+Name of the external organization.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+Type of organization. Select any one of the following:-   Business location: Physical location of a business where a business operates
+-   Business group: An organization that might also consist of a collection of parent and child companies operating as a single entity.
+
+</td></tr><tr><td>
+
+Business function
+
+</td><td>
+
+Type of functions offered at a business location. Select the following business function:-   Service: Select this type if a business location provides service-related functions, such as providing support, or resolving cases for accounts, consumers, or other business locations.
+-   Sales: Select this type if a business organization \(formerly business location\) provides sales-related activities, such as creating or managing orders, generating quotes, handling opportunities or leads, managing pricing, offering product recommendations, or supporting account-based selling for accounts, consumers, or other business locations.
+-   Service and Sales: Select both service and sales if the business location is providing both service-related and sales-related activities.
+
+**Note:** You can create and manage orders and cases by selecting both types of business functions.
+
 
 </td></tr><tr><td>
 
@@ -48,7 +72,7 @@ Manager of the external business location.**Note:** Both internal and external u
 
 </td></tr><tr><td>
 
-Parent Business Location
+Parent Business Organization
 
 </td><td>
 
@@ -80,7 +104,7 @@ State or province where the external business location is located.
 
 </td></tr><tr><td>
 
-Zip/Postal code
+ZIP/Postal code
 
 </td><td>
 
@@ -92,8 +116,19 @@ Customers served
 
 </td><td>
 
-Types of customers who are served at a business location. Customers served can be defined using two options:-   **All Customers**: Allows service organization staff to create and resolve issues for all the customers.
--   **Criteria-based**: Allows service organization staff to create and resolve issues only for customers associated with the service organization using a criteria.
+Types of customers who are served at a business location. Customers served can be defined using two options:-   **All Customers**: Enables service organization staff to create and resolve issues for all the customers.
+-   **Criteria-based**: Enables service organization staff to create and resolve issues only for customers associated with the service organization using a criteria.
+
+Associate a channel partner to add roles in the Service Organization tab.
+
+
+</td></tr><tr><td>
+
+Excluded from hierarchy overrides
+
+</td><td>
+
+Enabling this, the hierarchy agents can't view the location or its details.
 
 </td></tr><tr><td>
 
@@ -109,7 +144,7 @@ Email
 
 </td><td>
 
-Email ID used by the internal business location.
+Email ID used by the internal organization.
 
 </td></tr><tr><td>
 
@@ -117,7 +152,7 @@ Phone
 
 </td><td>
 
-Phone number for the internal business location.
+Phone number for the internal organization.
 
 </td></tr><tr><td>
 
@@ -152,9 +187,9 @@ Description
 Description of the business location.
 
 </td></tr></tbody>
-</table>## External business location related lists
+</table>## External organization related lists
 
-The External Business Location form includes the following related lists.
+The External Organization form includes the following related lists.
 
 <table id="table_wts_433_gmb"><thead><tr><th>
 
@@ -170,18 +205,18 @@ Members
 
 </td><td>
 
-Internal and external users who have been added as staff members at this business location. -   Staff members can create cases for customers at their business locations.
--   Staff members can access customer cases and information where the **Service Organization** field on the Case form matches their business locations.
+Internal and external users who have been added as staff members at this business organization. -   Staff members can create cases for customers at their business locations.
+-   Staff members can access customer cases and information where the **Service Organization** field on the Case form matches their business organizations.
 
-For more information about adding staff members to an external business location, see [Add staff members to a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-staff-members-biz-loc.md).
+For more information about adding staff members to an external organization, see [Add staff members to a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-staff-members-biz-loc.md).
 
 </td></tr><tr><td>
 
-Child External Business Locations
+Child External Organizations
 
 </td><td>
 
-List of external business location records.For more information about creating external business locations, see [Create an external business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-external-business-location.md).
+List of external organization records.For more information about creating external organizations , see [Create an external organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-external-business-location.md).
 
 </td></tr><tr><td>
 
@@ -189,7 +224,7 @@ Assignment Groups
 
 </td><td>
 
-List of all associated assigned groups of the internal business location.For more information, see [Setting up assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-assignment-groups.md).
+List of all associated assigned groups of the internal organization.For more information, see [Setting up assignment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-assignment-groups.md).
 
 </td></tr><tr><td>
 
@@ -197,7 +232,7 @@ Available Services
 
 </td><td>
 
-List of services supported by the business location.For more information, see [Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/products-services-at-bus-loc.md).
+List of services supported by the business organization .For more information, see [Setting up products and available services at a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/products-services-at-bus-loc.md).
 
 </td></tr><tr><td>
 
@@ -205,24 +240,24 @@ Customer Projects
 
 </td><td>
 
-List of all projects assigned to the business location. Select a project to see **Project Tasks**, **Sub Projects** and **Cases** assigned to the project.
+List of all projects assigned to the business organization. Select a project to see **Project Tasks**, **Sub Projects**, and **Cases** assigned to the project.
 
  **Note:**
 
 -   A location manager can see projects of their respective and child business locations. To learn more about roles, see [Service Model Foundation roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-roles.md).
--   List of project tasks under customer project tab is visible only if the **Visible to Customer** is selected during project task creation.
+-   A list of project tasks under the customer project tab is visible only if the **Visible to Customer** is selected during project task creation.
 
- To learn more about project creation, see[Create customer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-customer-projects.md).
+ To learn more about project creation, see [Create customer projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-customer-projects.md).
 
  To learn more about project task creation, see [Create a project task from a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/t_CreateATaskFromAProject.md).
 
 </td></tr><tr><td>
 
-Service Organization Customer Criteria
+Organization Customer Criteria
 
 </td><td>
 
-List of customers supported by an external business location.For more information about associating customer criteria to an external business location, see [Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/associate-customer-criteria-to-service-organization.md).
+List of customers supported by an external organization.For more information about associating customer criteria to an external organization, see [Define the configuration type for customers or business locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/associate-customer-criteria-to-service-organization.md).
 
 </td></tr><tr><td>
 
@@ -230,7 +265,7 @@ Cases Requested by Location
 
 </td><td>
 
-Cases that have been created and requested by this location.For more information about assigning cases to an external business location, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-business-location-cases.md).
+Cases that have been created and requested by this location.For more information about assigning cases to an external organization, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-business-location-cases.md).
 
 </td></tr><tr><td>
 
@@ -238,7 +273,9 @@ Cases Assigned to Location
 
 </td><td>
 
-Cases that have been created and assigned to this location. For more information about creating and managing cases, see [Create and manage cases for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-business-location-cases.md).
+Cases that have been created and assigned to this location. For more information about creating and managing cases, see [Create and manage cases for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-business-location-cases.md).
+
+**Note:** This tab appears only if the business function is set as Service.
 
 </td></tr><tr><td>
 
@@ -276,7 +313,7 @@ Sold Products
 
 </td><td>
 
-Sold products that have been created for customers at this location.To learn more about creating and managing sold products for an external business location, see [Create and manage sold products for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-sp-for-business-location.md).
+Sold products that have been created for customers at this location.To learn more about creating and managing sold products for an external organization, see [Create and manage sold products for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-sp-for-business-location.md).
 
 </td></tr><tr><td>
 
@@ -284,13 +321,13 @@ Install Base Items
 
 </td><td>
 
-Install base items that have been created for customers at this location.For more information about creating and managing install base items for an external business location, see [Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-ib-items-for-business-locations.md).
+Install base items that have been created for customers at this location.For more information about creating and managing install base items for an external organization, see [Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-ib-items-for-business-locations.md).
 
 </td></tr></tbody>
 </table>**Related topics**  
 
 
-[Create an internal business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-internal-business-location.md)
+[Create an internal organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-internal-business-location.md)
 
 [Service Model Foundation relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-relationships.md)
 

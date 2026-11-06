@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [SSH commands, probe commands, SSH probe commands, no elevated privileges]
-breadcrumb: [SSHCommand probe, List of Discovery probes, Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [SSHCommand probe, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Non-privileged SSH commands during probe-based discovery

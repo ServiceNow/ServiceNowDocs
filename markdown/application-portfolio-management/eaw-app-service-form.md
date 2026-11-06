@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-app-service-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Application service form
@@ -18,31 +18,31 @@ An application service is a configuration item \(CI\) that represents the operat
 
 |Field|Description|
 |-----|-----------|
-|Name|A unique, descriptive name that identifies the application service and distinguishes it from other services supporting the same business application.|
-|Location|Specifies where the application service is hosted or primarily operated, such as a data center or geographic location.|
-|Short Description|Briefly describes what this application service delivers or supports, such as the capability or function it enables.|
-|Created|Date and time when the application service record was created. These fields are system‑generated and read‑only.|
+|Name|Name of the application service.|
+|Location|Set the location for the application service.|
+|Short Description|Unique description of the application service.|
+|Created|This is field is non-editable field.|
 |Created by|This is field is non-editable field.|
-|Updated|Date and time when the application service record was last updated. These fields are system‑generated and read‑only.|
-|Updated by|Name of the user who updated the application service.|
-|Support group|The group responsible for supporting this application service during normal operations.|
+|Updated|This is field is non-editable field.|
+|Updated by|This is field is non-editable field.|
+|Support group|Name of the user group who supports the application service.|
 |Supported by|Name of the user who supports the application service.|
 |Managed by|Name of the user who manages the application service.|
 |Managed by group|Name of the user group who manages the application service.|
-|Environment|Indicates the deployment environment of the service, such as Development, Test, or Production.|
+|Environment|Name of the environment such as Development, Production or Test.|
 |Company|Name of the company.|
 |Manufacturer|Name of the manufacturer.|
 |Model ID|Model ID associated with the service.|
 |Model number|Number of the Model.|
-|Category|This field is auto-populated as Business Service.|
-|Sub-category|This field is auto-populated as Service.|
+|Category|This field is auto-populaged as Business Service.|
+|Sub-category|This field is auto-populaged as Service.|
 |Department|Name of the department.|
 
 |Field|Description|
 |-----|-----------|
-|Discovery source|Identifies the source that populated or last updated this application service record, such as ServiceNow Discovery or Service Mapping.|
-|First discovered|Date when the application service was first identified by discovery processes. These values are typically system‑managed.|
-|Most recent discovery|Date when the application service was most recently identified by discovery processes. These values are typically system‑managed.|
+|Discovery source|Discovery source of the application service.|
+|First discovered|Select the first discovered date.|
+|Most recent discovery|Select the most recent discovery date.|
 |Correlation ID|Enter the co-relation ID.|
 |Skip sync|Option to select to skip the sync. This is a read-only field.|
 
@@ -63,14 +63,16 @@ An application service is a configuration item \(CI\) that represents the operat
 |Field|Description|
 |-----|-----------|
 |Fully qualified domain name|Fully qualified domain name of the application service.|
-|IP Address, MAC Address, and DNS Domain|Network attributes associated with the application service. These fields are usually populated automatically from the CMDB and are not manually maintained in Enterprise Architecture.|
+|IP Address|Enter IP the address.|
+|MAC Address|Enter the MAC address.|
 |Serial number|Enter the serial number.|
+|DNS Domain|Enter DNS domain.|
 |Attributes|Enter attributes names.|
 |Comments|Add comments.|
 |Monitor|Option to select monitor.|
 |Can Print|Option to print the details.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-next-experience-landing-page-footer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Next Experience landing pages, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure a Next Experience landing page footer
@@ -28,29 +28,33 @@ The footer is hidden by default. To configure the footer, you enable it in UI Bu
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select **Unified Navigation App**.
+2.  From the UI Builder home page, select **Experiences**.
 
-3.  In the Variants section, select the More options icon \(\[Omitted image "three-dot-icon.png"\] Alt text: More options icon\) for the Unified Navigation Landing Page - Admin Role and select **Duplicate**.
+3.  In the search experiences field, enter `Unified Navigation App`.
+
+4.  In the Variants section, select the More options icon \[Omitted image "three-dot-icon.png"\] Alt text: for the Next Experience Landing Page - Admin Role and select **Duplicate**.
 
     The main variant of the landing page is read-only. To edit, you work in a copy.
 
-    \[Omitted image "duplicate-unified-nav-landing.png"\] Alt text: UI Builder unified navigation landing page more options menu with Duplicate highlighted
+    \[Omitted image "duplicate-unified-nav-landing.png"\] Alt text: UI Builder Next Experience landing page more options menu with Duplicate highlighted
 
-4.  In the Unified Navigation Landing Page - Admin Role Copy Content Body outline, select Container 5 and select the Client State Parameters icon \(\[Omitted image "uib-client-state-icon.png"\] Alt text: UI Builder client state icon\).
+5.  In the variant creation modal, keep all fields as-is and select **Create**.
 
-5.  In the Client state parameters section, toggle the **hideResourcesSection** value off.
+6.  In the Next Experience Landing Page - Admin Role Copy Content Body outline, select **Client State Parameters**.
+
+7.  In the Client state parameters section, clear the **hideResourcesSection** initial value check box.
 
     This action enables the landing page footer.
 
-    \[Omitted image "disable-hideresourcessection-param.gif"\] Alt text: Animated gif of the Client state parameters dialogue section with the hideResourcesSection Initial value toggled on and then toggled off.
+    \[Omitted image "disable-hideresourcessection-param.png"\] Alt text:
 
-6.  Select the **X** to close the Client state parameters section.
+8.  Select the **Apply**.
 
     The default footer is visible with two link sets: Frequent visits and Learn more.
 
-7.  To configure the links in the footer, select Link set 1 or Link set 2 under Container 5.
+9.  To configure the links in the footer, select Link set 1 or Link set 2 under Container 5.
 
-8.  In the Config section, edit the links.
+10. In the Config section, edit the links.
 
     For more information, see [Link set UIB Setup](https://developer.servicenow.com/dev.do#!/reference/now-experience/rome/shared-components/now-link-set/uib-setup) in the ServiceNow Developer documentation.
 

@@ -1,18 +1,18 @@
 ---
 title: Add value stream stages to a value stream
-description: You can add value stream stages to a value stream to break it down into discrete steps and establish the foundation for associating business processes and business capabilities with each stage.
+description: You can add value stream stages to a value stream to break it down into discrete steps. This establishes the foundation for associating business processes and business capabilities with each stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-vs-stages-to-a-vs.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage value streams, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage value streams, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add value stream stages to a value stream
 
-You can add value stream stages to a value stream to break it down into discrete steps and establish the foundation for associating business processes and business capabilities with each stage.
+You can add value stream stages to a value stream to break it down into discrete steps. This establishes the foundation for associating business processes and business capabilities with each stage.
 
 ## Before you begin
 
@@ -38,19 +38,19 @@ Role required: sn\_apm.apm\_user
 
 8.  On the form, fill in the field.
 
-    For a description of the field values, see [Create new value stream stage form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-value-stream-stage-form.md).
+    For a description of the field values, see [Create value stream stage form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-value-stream-stage-form.md).
 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
+**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-value-streams.md)
 
 **Related topics**  
 
 
-[View all value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-value-streams.md)
+[View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-value-streams.md)
 
 [Add or edit a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream.md)
 
-[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
+[Exploring value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
 

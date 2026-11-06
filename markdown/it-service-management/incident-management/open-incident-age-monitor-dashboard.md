@@ -7,9 +7,9 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Analytics and reporting, Incident Management, IT Service Management]
+breadcrumb: [Legacy: Incident Management Platform Analytics Solutions, Incident reporting, Incident Management, IT Service Management]
 ---
 
 # Legacy: Open Incidents Age Monitor dashboard

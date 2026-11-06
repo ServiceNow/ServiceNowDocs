@@ -1,16 +1,16 @@
 ---
-title: Activate Field Encryption Enterprise
+title: Activate Field Encryption
 description: Activate either Field Encryption Starter or Field Encryption Enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/activate-platform-encryption.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Field Encryption, Field Encryption, Encryption]
 ---
 
-# Activate Field Encryption Enterprise
+# Activate Field Encryption
 
 Activate either Field Encryption Starter or Field Encryption Enterprise.
 
@@ -43,7 +43,7 @@ Customers that were using Column Level Encryption in previous releases, and who 
 
 2.  Under **Search your licensed applications and plugins**, search for `Field Encryption`.
 
-    The search should reveal the plugin. If you have purchase a subscription for Field Encryption Enterprise, you can also see this plugin available.
+    The search should reveal the plugin. If you purchase a subscription for Field Encryption Enterprise, you can also see this plugin available.
 
     **Important:** To activate Field Encryption Enterprise, you must first purchase a subscription. Your account manager can arrange to have the plugin activated on your organization's production and non-production instances, generally within a few days.
 

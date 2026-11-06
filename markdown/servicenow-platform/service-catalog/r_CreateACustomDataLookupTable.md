@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service catalog data lookup, Service catalog variables, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---

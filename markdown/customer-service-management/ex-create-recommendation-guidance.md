@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ex-create-recommendation-guidance.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example: Link the similar major case to the current case, Example configurations of recommended actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Create a recommendation with guidance as an action type
@@ -16,7 +16,7 @@ Create a recommendation to select the Guidance as an action type for linking a m
 
 ## Before you begin
 
-Role required: sn\_nb\_action.next\_best\_action\_author, admin
+Role required: sn\_nb\_action.next\_best\_action\_author, or admin
 
 ## Procedure
 

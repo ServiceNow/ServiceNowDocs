@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ sn\_wsd\_spcmgmt.admin
 
 </td><td>
 
-As a Workplace Space Management admin, you can access the application completely.
+As a Workplace Space Management admin, you can access the application completely and perform any task that require other space management roles.
 
 </td><td>
 
@@ -50,7 +50,7 @@ sn\_wsd\_spcmgmt.manager
 
 </td><td>
 
-As a Workplace Space Manager, you can access the application completely.
+As a Workplace Space Manager, you can access the application completely and perform any task that require other space management roles.
 
 </td><td>
 
@@ -85,7 +85,9 @@ As a workplace scenario reader, you can view scenarios in a read-only mode.
 
 </td><td>
 
-sn\_wsd\_central.workspace\_user
+-   sn\_wsd\_central.workspace\_user
+-   sn\_wsd\_case.case\_reader
+-   sn\_wsd\_core.location\_reader
 
 </td></tr><tr><td>
 
@@ -132,6 +134,8 @@ As a Project Owner, you can create and manage Schedule Plans.
 </td></tr></tbody>
 </table>## Tables installed with Workplace Space Management
 
+**Note:** Neighborhood is moved from Workplace Space Management \[version\] to Workplace Core \[version\]. For more information, see [Components installed with Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/components-installed-with-workplace-service-delivery.md).
+
 <table id="table_t5k_1kj_qpb"><thead><tr><th>
 
 Table
@@ -162,7 +166,7 @@ Neighborhood\[sn\_wsd\_spcmgmt\_neighborhood\]
 
 </td><td>
 
-Stores information about a neighborhood allocated to a cost center, department, or a group.
+Stores information about a neighborhood allocated to a cost center, department, or a group.This table is deprecated from Workplace Space Management version 1.17.0.
 
 </td></tr><tr><td>
 
@@ -170,7 +174,7 @@ Neighborhood user assignment rule\[sn\_wsd\_spcmgmt\_neighborhood\_user\_assignm
 
 </td><td>
 
-Stores information about neighborhood user assignment rule to create and add new users to a neighborhood.
+Stores information about neighborhood user assignment rule to create and add new users to a neighborhood.This table is deprecated from Workplace Space Management version 1.17.0.
 
 </td></tr><tr><td>
 
@@ -178,11 +182,11 @@ Neighborhood space\[sn\_wsd\_spcmgmt\_neighborhood\_m2m\_space\]
 
 </td><td>
 
-Stores information about a neighborhood space.
+Stores information about a neighborhood space.This table is deprecated from Workplace Space Management version 1.17.0.
 
 </td></tr><tr><td>
 
-View by Configuration\[sn\_wsd\_spcmgmt\_view\_by\_configuration\]
+View by Configuration\[sn\_wsd\_spcmgmt\_viewby\_configuration\]
 
 </td><td>
 
@@ -228,13 +232,27 @@ Space Allocation Type Change Tracker\[sn\_wsd\_spcmgmt\_space\_allocation\_type\
 
 Stores information about changes made to types of allocation, which can be reviewed to plan and edit scenarios.
 
+</td></tr><tr><td>
+
+KPI Configuration\[sn\_wsd\_spcmgmt\_kpi\_configuration\]
+
+</td><td>
+
+Stores information about the KPIs that are configured for Workplace Space Management.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Space Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-space-management/workplace-space-mgmt-references.md)
 
 **Related topics**  
 
 
+[Allocation - types, setting, and impact]()
+
 [Properties installed with Workplace Space Management]()
 
 [View by Configuration form]()
+
+[KPI Configuration form]()
+
+[]()
 

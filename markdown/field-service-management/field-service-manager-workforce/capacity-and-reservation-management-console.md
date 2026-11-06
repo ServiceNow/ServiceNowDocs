@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Capacity, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Capacity, Managing workforce, Use, Field Service Management]
 ---
 
 # Using the Capacity Console
@@ -18,7 +18,10 @@ The Capacity Console is a tool designed for monitoring, managing, and optimizing
 
 It provides an intuitive, visual representation of capacity utilization, empowering capacity planners to make data-driven decisions and improve operational efficiency.
 
-**Note:** To use Capacity Console, you must activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+**Note:** To use Capacity Console, you must activate the following:
+
+-   Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) plugin. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+-   Field Service territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 -   **Comprehensive capacity view**
 
@@ -43,8 +46,8 @@ It provides an intuitive, visual representation of capacity utilization, empower
 
     -   Save filter preferences: Save your chosen filter settings for quick and easy access in future sessions.
     -   Customize calendar capacity data parameters: Update the calendar to prioritize specific metrics:
-        -   Replace existing metrics \(for example, "Used Capacity" with "Unused Capacity"\).
-        -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
+        -   Replace existing metrics by customizing the fields shown on events \(for example, "Used Capacity" with "Unused Capacity"\). You can also customize the summary operator used in the event \(for example, replace "+" with "-", "\*", or "/"\).
+        -   Add new fields using the **Application Field Set**: Capacity Console events fields. For more information, see [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md).
 -   **Refining data with the filters**
 
     Customizable filters at the top of the console enable for tailored data views.
@@ -84,13 +87,6 @@ The following snapshot illustrates the Capacity Console, showcasing:
 -   Weekly capacity metrics, including demand, allocated capacity, and unused capacity.
 
 \[Omitted image "capacity-console.png"\] Alt text: Capacity Console showing territories like Aurora and Chicago across demand channels with a week-view of capacity metrics.
-
--   **[View data in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/view-territory-summary-from-capacity-console.md)**  
-The Capacity Console is a visualization tool designed to address common organizational challenges related to resource availability and capacity utilization. It enables real-time visibility into capacity, identifies bottlenecks, and enables quick adjustments to meet changing demands, helping organizations optimize their operations effectively.
--   **[View territory and demand channel summary in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/view-territory-summary-in-capacity-console.md)**  
-The Capacity Console provides a comprehensive summary of territories and demand channels, enabling capacity planners and managers to make informed decisions about resource allocation and management.
-
-**Parent Topic:**[Capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/capacity.md)
 
 **Related topics**  
 

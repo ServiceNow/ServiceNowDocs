@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning, Talent Development, Employee Service Management]
+breadcrumb: [Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Using My Learning
@@ -33,5 +33,5 @@ Using Learning, learning administrators can manage user activities. To aid the u
 -   **[Skill sensing for learning content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/skill-sensing-for-learning-content.md)**  
 Skill sensing is an automated approach to identify and extract skills from the title and description of a course so that the admin can associate the skills to a course.
 
-**Parent Topic:**[Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning-exp.md)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

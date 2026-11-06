@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset Workspace, Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Receive assets from inbound shipments at your stockroom in the Hardware Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset 
 Receive hardware and consumable assets from one or more shipments that are in transit to your stockroom in the Hardware Asset Workspace. You can receive assets from shipments originating from any workflow.
 
 ## Before you begin
-
-**Important:** The option to receive assets from inbound shipments at your stockroom through the standardized asset receiving mechanism is available in Hardware Asset Management version 13.0.0 and later.
 
 Role required: inventory\_user or asset
 

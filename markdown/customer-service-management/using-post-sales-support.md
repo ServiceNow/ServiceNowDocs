@@ -1,26 +1,35 @@
 ---
 title: Using Customer Contracts and Entitlements
-description: Learn how consumers, managers, agents, and administrators use the Customer Contracts and Entitlements application to generate service contracts and contract lines to work on the services.
+description: Learn how consumers, managers, agents, and administrators use the Customer Contracts and Entitlements application to generate customer contracts and contract lines.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/using-post-sales-support.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Customer management, Using Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Customer management, Use, Customer Service Management]
 ---
 
 # Using Customer Contracts and Entitlements
 
-Learn how consumers, managers, agents, and administrators use the Customer Contracts and Entitlements application to generate service contracts and contract lines to work on the services.
+Learn how consumers, managers, agents, and administrators use the Customer Contracts and Entitlements application to generate customer contracts and contract lines.
 
-Service contracts, service contract lines, and entitlements can be created in the following ways:
+Customer contracts, customer contract lines, and entitlements can be created in the following ways:
 
--   Via workflows: You can create service contracts, service contract lines, and entitlements by using the contracts and entitlements workflow. For more information, see [Contracts and Entitlement Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cont-ent-workflows-csm.md).
+-   Via workflows: You can create customer contracts, customer contract lines, and entitlements by using the contracts and entitlements workflow. For more information, see [Creating contracts and entitlements using workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-cont-ent-workflows-csm.md).
 
-    **Note:** When a service contract line or entitlement is created via the Sales Customer Relationship Management workflow, the account/consumer/household details are copied from the sold product and it inherits the state of the sold product. Further, when the state of the contract line changes, the same state is synced back to the parent sold product.
+    **Note:** When a customer contract line or entitlement is created via the Sales Customer Relationship Management workflow, the account/consumer/household details are copied from the sold product and it inherits the state of the sold product. Further, when the state of the contract line changes, the same state is synced back to the parent sold product.
 
 -   Via API integrations:
     -   [Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/servicecontract-api.md)
     -   [Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/entitlement-api.md)
+
+Customer Contracts and Entitlements is integrated with ServiceNow® Quote Experience that provides a unified Quote Experience for creating, pricing, approving, and completing quotes. It is a single, modern quoting solution that supports both simple and complex quoting needs. It provides a configurable workspace for managing quotes, including products, pricing, approvals, and lifecycle progression. You can create and manage quotes directly from your CRM opportunity workflow. To install ServiceNow® Quote Experience, see .
+
+You can perform the following features using Customer Contracts and Entitlements Workflows:
+
+-   Standard renewals: A standard renewal occurs when a contract is renewed on schedule. The system creates a new contract with the existing contract lines, entitlements, and child records, with the new term starting immediately after the original contract ends. There is no pricing adjustments that are needed beyond the agreed renewal terms.
+-   Non-standard renewals: A non-standard renewal occurs when a contract is renewed outside of the renewal cycle. This covers three scenarios: an early renewal, a late renewal, and a short-term renewal. For more info, see [Renew a customer contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cce-renew-service-contract-line.md).
+-   Consolidation of Contracts: You can merge multiple contracts for the same account into a single contract. Use contract consolidation during renewal to align contract terms and combine subscriptions into one contract. For more info, see [Renew a customer contract line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cce-renew-service-contract-line.md).
+-   Upsell or Downsell: You can add or reduce the quantity to an existing contract during its term.
 

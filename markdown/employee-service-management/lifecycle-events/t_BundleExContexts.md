@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an HR case for a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create an HR case for a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Monitor the status of a lifecycle event case
@@ -30,11 +30,7 @@ Role required: sn\_hr\_le.activity\_reader
 
 3.  Under the **Related Links** section, click **Activity Set Execution**.
 
-    \[Omitted image "lifecycle-event-activity-set-execution.png"\] Alt text: Under the Related Links section on the HR case form, click Activity Set Execution.
-
 4.  From the Activity Set Contexts list, you can monitor the state of each activity set in the lifecycle event case.
-
-    \[Omitted image "lifecycle-event-activity-set-execution-activity-sets.png"\] Alt text: Monitor the state of each activity set in the lifecycle event case.
 
 <table id="table_alf_2jw_5fb"><thead><tr><th>
 
@@ -77,10 +73,6 @@ Lifecycle event case that is being monitored.
 
     1.  Click the preview button for the applicable activity set.
 
-        \[Omitted image "lifecycle-event-activity-set-execution-activities.png"\] Alt text: Click the Preview button next to each activity set to monitor the state of the individual activities.
-
     2.  On the Activity Set Context form, under the Activity Status section, you can monitor the state of each activity within the activity set.
-
-        \[Omitted image "lifecycle-event-activity-set-execution-activities-drilldown.png"\] Alt text: For each activity set, you can monitor the state of the individual activities.
 
 

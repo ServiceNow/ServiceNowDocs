@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create work order tasks in CSM Agent Workspace
@@ -36,8 +36,6 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
 
 5.  Click **Save**.
 
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 
 **Related topics**  
 

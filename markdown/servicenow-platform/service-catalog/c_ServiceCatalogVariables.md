@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,13 +32,15 @@ The Data Lookup and Record Matching Support for Service Catalog plugin offers si
 Audit the variables so that the audit history records all changes to the named variables.
 -   **[Service Catalog variable editors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog-variable-editor.md)**  
 Variable editor displays variable values in fulfiller forms. A requester, while requesting the item, specifies these variable values in the catalog item questions.
+-   **[Prefilling variable values on the catalog item form in the portal and Next Experience UIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/prefill-variable-values-catalog-item-form.md)**  
+When catalog item requesters want to order items on portals or Next Experience UI, you can set the catalog items to use the key-value pairs, which prefill the variable values. The requesters can finish forms faster.
 
 **Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog-reference.md)
 
 **Related topics**  
 
 
-[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptableServiceCatalogVariables.md)
+[Scriptable service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/c_ScriptableServiceCatalogVariables.md)
 
 [Use service catalog variables in a report – Report Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/use-service-catalog-variables-in-report.md)
 

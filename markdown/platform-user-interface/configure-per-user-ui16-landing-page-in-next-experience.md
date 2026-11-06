@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Next Experience landing pages, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure per-user landing pages in Next Experience
@@ -30,15 +30,15 @@ Next Experience landing pages provide the information you need to start working.
 
 3.  In the **Name** field, enter `my_home_navigation_page`.
 
-4.  In the **User** field, select the Lookup using the list icon \(\[Omitted image "query-icon.png"\] Alt text: Lookup using list icon.\) and assign a user.
+4.  In the **User** field, select the search icon \[Omitted image "query-icon.png"\] Alt text:and assign a user.
 
     You can have multiple entries of this preference for different users.
 
 5.  Specify the value of the landing page.
 
-    For example, to use the Visual Task Board overview as the landing page, you would enter `$vtb.do`. The value for any selected landing page is found within the URL. To assign a specific VTB, you would enter the portion of the URL from `$vtb.do` onward.
+    For example, to use the Visual Task Board overview as the landing page, enter `$vtb.do`. The value for any selected landing page is found within the URL. To assign a specific VTB, enter the portion of the URL from `$vtb.do` onward.
 
-    **Note:** When you copy the URL information, be sure to replace any HTML entities with their decoded values. For example, replace the entity `%24` with `$`.
+    **Note:** When you copy the URL information, replace any HTML entities with their decoded values. For example, replace the entity `%24` with `$`.
 
     \[Omitted image "set-indiv-ui16-landing.png"\] Alt text: User Preference my\_home\_navigation\_page form with a VTB URL segment in the Value field
 

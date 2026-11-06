@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/aia-hide-citations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Citations in Now Assist AI agents, Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Citations in AI agents, Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Disable citations in AI Agent Studio
@@ -39,7 +39,7 @@ By default, the citations are enabled for all agentic workflows and AI agents. T
     |Value|Provide **false** as the value to hide the citations.|
     |Target table|The table where the target agentic workflow or AI agent resides.|
     |Target record|The record of the target agentic workflow or AI agent.|
-    |Application|The application scope for the agent property record: Now Assist AI agents.|
+    |Application|The application scope for the agent property record: ServiceNow Otto AI agents.|
 
 4.  Select **Submit**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Properties installed to configure expiry notifications
@@ -58,6 +58,10 @@ Specifies whether the user needs an audit certificate to accompany the signed co
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
+[Signatory roles]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -74,5 +78,15 @@ Specifies whether the user needs an audit certificate to accompany the signed co
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

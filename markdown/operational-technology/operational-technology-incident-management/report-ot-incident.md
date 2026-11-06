@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Incident Management, Operational Technology]
 ---
@@ -19,6 +19,10 @@ Create an Operational Technology \(OT\) incident record to report a deviation fr
 ## Before you begin
 
 Role required: sn\_ot\_incident\_write
+
+## About this task
+
+For a walkthrough of how to report an OT incident, watch this video.\[Omitted video\] Description: Reporting an OT incident in the Industrial Workspace
 
 ## Procedure
 

@@ -7,20 +7,16 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+last_updated: "2026-10-22"
+reading_time_minutes: 4
+breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Use the Admin Center in Digital Portfolio Management
 
 The Admin Center in Digital Portfolio Management \(DPM\) provides administrators a guided walk-through to set up and configure the DPM Workspace for the organization. The provided information and configuration prompts enable visibility into the end-to-end service and application life-cycle.
 
-With a DPM admin role \[sn\_dpm.dpm\_admin\], access the DPM Admin Center to set up and configure the DPM experience for the organization. The Admin Center provides easy to follow setup steps and includes tooltips and links to resources, plugins, and configuration tables.
-
-**Note:** An administrator \[admin\] must install plugins.
-
-\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
+With a DPM admin role \[sn\_dpm.dpm\_admin\], access the DPM Admin Center to set up and configure the DPM experience for the organization. The Admin Center provides easy to follow setup steps and includes tool-tips and links to resources, plugins, and configuration tables.
 
 ## Access the DPM Admin Center
 
@@ -28,9 +24,11 @@ To access the DPM Admin Center, you must have the DPM Admin role \[sn\_dpm.dpm\_
 
 **Note:** Demo data users that come with the base system have been assigned the Admin role \[sn\_dpm.dpm\_admin\]. You can impersonate one of the demo data users to test the Admin Center.
 
+\[Omitted video\] Description: Let's review the Digital Portfolio Management Admin Center.
+
 Navigate to **All** &gt; **Digital Portfolio Management** &gt; **DPM Admin Center**.
 
-The Admin Center has two tabs: **Overview** and **Settings**.
+The Admin Center has three tabs: **Overview**, **Settings**, and **Troubleshoot**.
 
 ## Overview tab
 
@@ -38,7 +36,7 @@ The Admin Center has two tabs: **Overview** and **Settings**.
 
 The **Overview** tab enables you to do the following:
 
--   Follow the guided setup to configure services with offerings, business applications, and application services.
+-   Follow the guided setup to configure services with offerings, business applications, and service instances.
 -   Configure key performance indicator \(KPI\) groups.
 -   Explore the settings.
 -   Create and review service portfolios.
@@ -48,7 +46,7 @@ The **Overview** tab enables you to do the following:
 ## Navigate the configuration steps
 
 -   Select **Configure** on a solution card from the **Overview** tab.
--   Follow the guided walk-though. Each step has its own prompts, instructions, and conditions to set up your data in the DPM Workspace.
+-   Follow the guided walk-through. Each step has its own prompts, instructions, and conditions to set up your data in the DPM Workspace.
 
     **Note:** When you see the information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon.\) next to a step heading, select it to view more information about that step.
 
@@ -65,20 +63,22 @@ You can navigate to any step at any time to update the configuration settings.
 
 ## Settings tab
 
-The **Settings** tab enables you to do the following for solutions \(services, service offerings, business applications, and application services\):
+The **Settings** tab enables you to do the following for solutions \(services, service offerings, business applications, and service instances\):
 
--   Configure the following for each solution page.
-    -   Personal portfolio solution cards
+-   Configure:
     -   Header fields
-    -   Plan fields
-    -   Build fields
+    -   Plan fields \(Service and offering properties and Business application properties\)
+    -   Build fields \(Service and offering properties and Business application properties\)
     -   Run fields
-    -   Risk fields
+    -   Risk fields \(Business application properties\)
+    -   Info fields
     -   Portfolio properties
     -   General information fields on the Info tab
+    -   Personal portfolio solution cards
     -   KPI group properties
     -   DevOps properties
--   Show or hide the Plan, Build, and Run tabs.
+    -   Email properties
+-   Show or hide the main tabs.
 -   Show or hide content sections from each of the main tabs.
 -   Access resources for additional help.
 
@@ -98,12 +98,12 @@ There’s no limit to how many times you can run the recalculation. You can also
 Configure the page header fields for your solutions in the DPM Admin Center. Your configuration determines how the header fields are displayed in the DPM Workspace.
 -   **[Configure the Info tab in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-info-tab.md)**  
 Show or hide various sections of the **Info** tab for your solutions in DPM. You can also configure the general information fields. Your configuration determines how the fields are displayed in the **General info** section of the **Info** tab in the DPM Workspace.
--   **[Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md)**  
-Configure the fields that display on the personal portfolio solution cards in the DPM Admin Center. Your configuration determines the fields that display on each solution card in the DPM Workspace.
 -   **[Configure scheduled email reports in DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-schedule-email-reports.md)**  
 Send periodic emails of KPI metrics to the DPM solution owners.
--   **[View relationships of business applications and application services in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-view-related-records.md)**  
-In the DPM Admin Center, you can see a comprehensive view of your business applications and application services. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your application services.
+-   **[Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md)**  
+Configure the fields that display on the personal portfolio solution cards in the DPM Admin Center. Your configuration determines the fields that display on each solution card in the DPM Workspace.
+-   **[View relationships of business applications and service instances in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-view-related-records.md)**  
+In the DPM Admin Center, you can see a comprehensive view of your business applications and service instances. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your service instances.
 
 **Parent Topic:**[Configuring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-cfw.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building spokes using Spoke Generator, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
 # Create spoke and build actions manually
@@ -20,8 +20,6 @@ Automate an integration and generate reusable actions manually.
 
 -   Install the Spoke Generator app from the ServiceNow Store.
 -   Role required: admin or action\_designer
-
-**Note:** User with the action\_designer role cannot add actions by importing the Open API Specification.
 
 ## Procedure
 
@@ -50,6 +48,4 @@ Automate an integration and generate reusable actions manually.
 
     -   If you want to create actions by importing the required OpenAPI Specification, select **From OpenAPI spec**. For information about selecting the required operations and creating actions, see [Create spoke and build actions by importing an OpenAPI Specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-spoke-fd.md).
     -   If you want to create actions manually, select **Manually**. The Action Properties screen is displayed. You should create and publish the action in the Action Designer. For more information, see [Building actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/actions.md).
-
-**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/spoke-builder.md)
 

@@ -1,0 +1,23 @@
+---
+title: Guided Tour Reference
+description: Reference topics provide additional information about configuration properties, roles, and more.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tour-reference.html
+release: yokohama
+product: Adoption Services
+classification: adoption-services
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Guided Tours, Adoption services, Configure user experiences]
+---
+
+# Guided Tour Reference
+
+Reference topics provide additional information about configuration properties, roles, and more.
+
+-   **[Guided Tour callout color](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-callout-color.md)**  
+Customize Guided Tours callout colors in Service Portal.
+
+**Parent Topic:**[Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tours.md)
+

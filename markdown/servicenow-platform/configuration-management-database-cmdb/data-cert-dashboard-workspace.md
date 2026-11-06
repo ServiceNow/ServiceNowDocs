@@ -7,16 +7,14 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-07-07"
-reading_time_minutes: 3
-breadcrumb: [Data Certification experience in CMDB Workspace, Data Certification, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Data Certification Dashboard
 
 Use the Data Certification Dashboard in CMDB Workspace as a central location to manage Data Certification instances and tasks, and to see counts, progress, state, and analytical insights. You can drill down past due certification tasks to examine and to reassign them, for example, so that they can be completed by an appropriate user.
-
-\[Omitted image "cmdb-data-certif-dashboard.jpg"\] Alt text: Data Certification Dashboard.
 
 The Data Certification Dashboard gets populated by Data Certification execution records. For information about the archive rules that control the retention of those records, see 'Retention of Data Certification records' in [Data Certification experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.md).
 
@@ -27,13 +25,23 @@ The user role determines which certification tasks are included in the dashboard
 -   data\_manager\_user: Minimum role required for access. Provides access to those certification tasks that are assigned to the user, to an assignment group that the user is a member of, or if the user is the manager of the assigned user or of the assignment group.
 -   data\_manager\_admin: Provides access to all certification tasks.
 
+## Access
+
+Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Tasks**. In the Tasks navigation panel select **Certification**.
+
 ## Reviewing certification tasks
 
-The Data Certification Dashboard provides several ways for you to drill down to the certification tasks list, which can contain tasks requiring review. For information about reviewing \(and then certifying or failing\), reassigning, or canceling tasks, see [Review certification tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
+The Data Certification Dashboard provides several tabs for you to drill down to certification tasks lists, which can contain tasks requiring review. For information about reviewing \(and then certifying or failing\), reassigning, or canceling tasks, see [Review certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md).
+
+## Certification tasks
+
+The Certification tasks tab lists all certification tasks from all policy executions from all certification instances, per your user role. For each task you can see details such as progress indicators, overall percent complete, and a general state such as Not Started and Past Due.
+
+You can filter, sort, or group the list of tasks, or search for specific tasks. Select a task to see its details and to process.
 
 ## Certification instances
 
-The Certification instances tab shows counts and other details for certification instances. A certification instance is the collection of certification tasks for a policy execution identified by its unique policy execution number. For each certification instance, the dashboard shows progress indicators such as the overall percent complete, and a general state such as Not Started and Past Due. Each card shows the total number of associated tasks, and within that total, the number of tasks in a complete, open, and unassigned state.
+The Certification instances tab shows counts and other details for certification instances. A certification instance is the collection of certification tasks for a policy execution identified by its unique policy execution number. For each certification instance, the dashboard shows progress indicators for its associated tasks, such as overall percent complete, and a general state such as Not Started and Past Due. Each certification instance card shows the total number of associated tasks, and within that total, the number of tasks in a complete, open, and unassigned state.
 
 You can:
 

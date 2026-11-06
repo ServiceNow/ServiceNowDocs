@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a policy using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Create policy, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage compliance of a policy from the overview page
@@ -20,7 +20,5 @@ The policy module helps you to create and document all policies. Policies are hi
 
 The overview page of a policy record describes the necessity of the policy with respect to the organization's assets. It also gives you the status of the policy, its overall compliance percent, non-compliant entities, and control objectives. It also tracks the open and overdue policy acknowledgements, policy exceptions, and issues.
 
-Select the \[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon. icon to know the regulations that the policy has addressed and the related risk statements.
-
-\[Omitted image "record-page-mig-policy.png"\] Alt text: Overview page of a policy record.
+Select the sidebar icon to know the regulations that the policy has addressed and the related risk statements.
 

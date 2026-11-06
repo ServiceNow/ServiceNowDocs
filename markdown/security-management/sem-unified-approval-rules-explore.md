@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-unified-approval-rules-explore.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Exposure Management Workspace, Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -19,7 +19,7 @@ The Approvals landing page provides a comprehensive view of all approval request
 -   **Today’s approvals**: Approvals due for action today \(e.g., an unassignment request expiring by end of day\).
 -   **Pending approvals**: Approvals awaiting action beyond today across all request types.
 -   **Exception approvals**: Approvals specifically for exception requests \(e.g., a request to allow delayed patching of a high-risk vulnerability\).
--   **False positive approvals**: Approvals for requests flagged as false positives \(e.g., scanner incorrectly reporting a vulnerability on a host\).\[Omitted image "approvals\_view.png"\] Alt text:
+-   **False positive approvals**: Approvals for requests flagged as false positives \(e.g., scanner incorrectly reporting a vulnerability on a host\).
 -   **All approvals**: Consolidated list of all approvals, including exception, false positive, risk reduction, and unassignment \(e.g., a single view of everything awaiting your approval\).
 -   **Overdue approvals**: Approvals that have crossed their due date \(e.g., a risk reduction request that was supposed to be approved yesterday\).
 -   **Expiring exceptions**: Exceptions scheduled to expire within the next 7 days.
@@ -40,7 +40,7 @@ Approvers can approve or reject requests directly within the same record. See [R
 
 Every comment and approval action is recorded and attributed.
 
-You can use generative AI to streamline the approval process for exceptions and false positive requests with AI-driven recommendations. For more information, see: [Approval Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/sem-approval-recommendation-skill.md)
+You can use generative AI to streamline the approval process for exceptions and false positive requests with AI-driven recommendations. For more information, see: [Generate approval recommendations with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-approval-recommendation-skill.md)
 
 All requests including pending, overdue, or completed, are easy to locate and manage in the single view. Links to legacy approval requests are available for items that remain in the old flow during the migration period.
 

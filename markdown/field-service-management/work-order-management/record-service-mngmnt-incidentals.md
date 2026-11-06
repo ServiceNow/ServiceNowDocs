@@ -1,5 +1,5 @@
 ---
-title: Record Service Management incidental expenses on the Contractor Portal
+title: Record incidental expenses on the Contractor Portal
 description: Agents of contractor companies can use the Field Service Contractor Portal to track incidental expenses that arise during the execution of a work order task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/record-service-mngmnt-incidentals.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
-# Record Service Management incidental expenses on the Contractor Portal
+# Record incidental expenses on the Contractor Portal
 
 Agents of contractor companies can use the Field Service Contractor Portal to track incidental expenses that arise during the execution of a work order task.
 
@@ -52,6 +52,4 @@ The expense line is deleted if any of these conditions change.
 
 6.  Click **Save**.
 
-
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

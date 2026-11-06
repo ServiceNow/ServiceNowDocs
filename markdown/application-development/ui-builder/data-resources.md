@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Dynamically expose data in UI Builder pages \(advanced feature\)
@@ -19,8 +19,6 @@ Sync data between ServiceNow tables and data with the pages you build with UI Bu
 ## Learning about data resources in UI Builder
 
 UI Builder syncs ServiceNow tables/data using [data resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-glossary.md). A data resource fetches the data that UI Builder uses to display information in a [component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-glossary.md). UI Builder components use data resources to sync data across different experiences. Data resources make the data in components dynamic, which means that you don't have to recreate data for every page.
-
-\[Omitted image "data-resource-graphic.png"\] Alt text: Data resource stack distributing data to multiple pages.
 
 Data resources are found in the data resource drawer. The data resource drawer is where you can add and configure a data resource for your page. After you configure the data resource, you can sync the data between components on your page and ServiceNow tables/data.
 
@@ -100,8 +98,6 @@ You can use the following data resource types that are shown in the table.
 
 Inherited data resources share information from the surrounding parts of a UI Builder page such as an application. Imagine your page is in a large frame, and it gets some information from the frame or other parts around it. You can use this info by connecting it to your page's properties, kind of like linking puzzle pieces together. If you get this information from the frame, you don't have to get it again yourself.
 
-\[Omitted image "data-resources-inherit-local.png"\] Alt text: Diagram showing the difference between inherited and local data resources.
-
 Local data resources are items you add to a UI Builder page yourself. Imagine you're making a page for travel requests. You can sync employee data to a list component so employees can request trips linked to their own info.
 
 To use these data resources, either bring them in from an app or create them in the ServiceNow platform. Then, in UI Builder, make these resources available for your components. Next, tie the data to your component, so it can work with it. For instance, you could have a set of records, expose it in UI Builder, and link it to a component. From there, configure the component to do things with the data, like saving new records.
@@ -112,12 +108,35 @@ Once your page is syncing data, you connect it to the part of the page that need
 
 When you add a data resource in UI Builder, it's like adding a tool that knows where to get information from. Data resource properties are the instructions that tell a data resource how to bring data into UI Builder pages. These properties tell a data resource which data to get, how to organize it, and what conditions to follow. For instance, you can use these properties to specify which tables to look in, how to sort the data, and more. These properties are what make the data resource work correctly and give you the data you need.
 
+After adding a data resource, you can choose to load it either eagerly or explicitly. Use the descriptions below to determine which approach best fits your page. This decision can impact performance, user experience, and resource efficiency, so it's important to understand the differences.
+
+-   **Immediately \(eager evaluation\)**
+
+    Data loads automatically when the page or component loads.
+
+    Useful for core content the user expects to see right away.
+
+    May slow down loading of pages and components by fetching unused data.
+
+-   **Only when invoked \(explicit evaluation\)**
+
+    Defers data loading until a user takes a specific action. For example, clicking a button or entering data in a field.
+
+    Saves resources by only fetching data when needed.
+
+    Speeds up initial page loading.
+
+
+\[Omitted image "data-resource-early-eval.png"\] Alt text: Arrow pointing to the When to evaluate this data resource drop down.
+
 ## UI Builder Data resource scripts
 
 Data resource scripts are special instructions you give UI Builder to return specific pieces of data. For example, if you're dealing with a list of products, a script could tell a data resource to show only products that are available in stock or to arrange them in a particular order. Data resource scripts enable you to customize how UI Builder treats the information, such as adding extra rules or actions.
 
 -   **[Add and configure data resources to a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-data-resources.md)**  
 Add data resources to dynamically expose data from tables, records, or other elements on your page in UI Builder.
+-   **[Add Now Assist skills to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-skill.md)**  
+Add skills to enhance your UI Builder page with Now Assist's generative AI capabilities.
 -   **[Bind data to UI Builder pages using controllers \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/controllers.md)**  
 Controllers simplify the linking of data and event logic to enable component presets in UI Builder.
 -   **[Create custom controllers \(Advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/controller-builder.md)**  

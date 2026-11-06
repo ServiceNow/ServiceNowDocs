@@ -1,0 +1,28 @@
+---
+title: Using MCP for Enterprise Architecture
+description: MCP for Enterprise Architecture connects any MCP-compatible AI assistant to your ServiceNow instance, enabling enterprise architects and portfolio managers to access live EA data through natural language.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/using-ea-mcp-server.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-23"
+reading_time_minutes: 1
+keywords: [EA MCP server]
+breadcrumb: [MCP for Enterprise Architecture, Enterprise Architecture]
+---
+
+# Using MCP for Enterprise Architecture
+
+MCP for Enterprise Architecture connects any MCP-compatible AI assistant to your ServiceNow instance, enabling enterprise architects and portfolio managers to access live EA data through natural language.
+
+## EA MCP server
+
+After connecting the EA MCP server to an AI assistant, you can query live EA data using natural language. The AI assistant selects the appropriate MCP tool based on your request and returns results directly in the chat.
+
+For step-by-step instructions, see [Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-ea-data-using-mcp-tools.md).
+
+-   **[Access Enterprise Architecture data using MCP tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-ea-data-using-mcp-tools.md)**  
+Use MCP \(Model Context Protocol\) tools to query live Enterprise Architecture data—including business application insights, capability mappings, and rationalization data—from any MCP-compatible AI assistant.
+
+**Parent Topic:**[MCP for Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-mcp-server-landing-page.md)
+

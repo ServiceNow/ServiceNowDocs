@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Create a technology product case
@@ -125,4 +125,6 @@ Displays the time zone of the user in the Contact field.
 
     When the service problem case is submitted, the stage is automatically set to **Verify** and state as **New**.
 
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

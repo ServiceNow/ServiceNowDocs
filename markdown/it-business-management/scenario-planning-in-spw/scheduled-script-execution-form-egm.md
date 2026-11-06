@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Scheduled Script Execution form
@@ -18,7 +18,7 @@ Scheduled Jobs are automated pieces of work that can be performed at a specific 
 
 ## Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables
 
-Use the **Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables** job to migrate the existing goals data to the Goal Framework tables.
+Use the **Migrate Goal, Strategy, and Work item data to the Goal Framework and related Planning item tables** job to migrate the legacy goals data to the Goal Framework tables.
 
 <table id="scheduled-job-to-migrate-goals-data-parameters-form"><thead><tr><th>
 

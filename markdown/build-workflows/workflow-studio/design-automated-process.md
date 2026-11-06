@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Getting started with Playbooks, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Building your first playbook, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a sample playbook
@@ -225,7 +225,7 @@ Your process appears in as a playbook. Here, agents and fulfillers can get a tas
 
 ## What to do next
 
-Customize the Playbook layout for deployment. To learn more, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
+Customize the Playbook layout for deployment. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
 
-**Parent Topic:**[Getting started with Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-processes.md)
+**Parent Topic:**[Building your first playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-processes.md)
 

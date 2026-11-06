@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Routing work items using Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Using Voice with Workforce Optimization for ITSM
 
 Use Voice to deflect incidents away from your human agents using bots. You can record phone interactions when agents resolve issues. Also, you can monitor those interactions to evaluate and improve the quality of incident resolutions.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 This video provides an overview of the Voice application:
 
@@ -26,7 +28,7 @@ With the Voice application, you can:
 
 **Note:** You can integrate any third-party telephony service with the [ServiceNow Voice Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cloud-call-center-overview.md). By default, the Voice provides you with the ability to integrate with the Amazon Connect application.
 
-You can visualize the metrics from the Amazon Connect phone queues that are routed through Voice using the Channels application in Workforce Optimization for ITSM.The Voice application uses [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md) to report data from the Amazon Connect queues.
+You can visualize the metrics from the Amazon Connect phone queues that are routed through Voice using the Channels application in Workforce Optimization for ITSM.The Voice application uses Advanced Work Assignment to report data from the Amazon Connect queues.
 
 ## Voice Amazon Connect integration workflow
 
@@ -39,7 +41,7 @@ Here's how the Voice integrates with Amazon Connect:
 As a manager, you can:
 
 -   Monitor your agent's calls as they resolve customer issues.
--   View synchronized [agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/agent-experience.md) within the Channels application in Workforce Optimization for ITSM.
+-   View synchronized agent presence states within the Channels application in Workforce Optimization for ITSM.
 -   Assess your agents by reviewing recordings of the agent interaction and call transcripts.
 -   Analyze sentiments from the call transcripts and use that information to coach and train your agents.
 

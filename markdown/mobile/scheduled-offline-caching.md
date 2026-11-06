@@ -1,16 +1,16 @@
 ---
-title: Scheduled offline caching
+title: Configure scheduled offline caching
 description: Configure offline caching so your field technicians can receive scheduled updates to their offline data cache. Scheduled downloads are based on the user's work schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/scheduled-offline-caching.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Scheduled offline caching, Configure offline cache to devices, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Scheduled offline caching
+# Configure scheduled offline caching
 
 Configure offline caching so your field technicians can receive scheduled updates to their offline data cache. Scheduled downloads are based on the user's work schedule.
 
@@ -20,9 +20,9 @@ To enable and configure scheduled offline caching, the Agent Schedule plugin \[c
 
 ## Create work schedules for offline caching
 
-For mobile clients other than Mobile Agent, ensure that an entry in Offline download schedule \(sys\_sg\_offline\_download\_schedule\) exists for the client type, for example, Request. This entry specifies the table that has the offline download schedules for the agents or technicians. Mobile uses the schedule from this table for scheduling offline cache generation. To populate schedules for each user, a scheduler script can be used like in Field Service Mobile.
+For mobile clients other than Mobile Agent, verify that an entry in offline download schedule \(sys\_sg\_offline\_download\_schedule\) exists for the client type, for example, Request. This entry specifies the table that has the offline download schedules for the agents or technicians. Mobile uses the schedule from this table for scheduling offline cache generation. To populate schedules for each user, a scheduler script can be used like in Field Service Mobile.
 
-For Mobile Agent, the entry is created when the plugin is activated. After activating the plugin, you must create work schedules for the agents or technicians to enable users to automatically receive scheduled offline caches. This can be done directly through the Agent Work Schedules \[agent\_work\_schedule\] table. For more information on how to create schedules through this table, see [Create a work schedule for an agent or technician](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-agent-work-schedule.md).
+For the Mobile Agent app, the entry is created when the plugin is activated. After activating the plugin, you must create work schedules for the agents or technicians to enable users to automatically receive scheduled offline caches. This can be done directly through the Agent Work Schedules \[agent\_work\_schedule\] table. For more information on how to create schedules through this table, see [Create a work schedule for an agent or technician](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-agent-work-schedule.md).
 
 Based on the records from the Agent Work Schedules table, your instance runs background scheduled jobs that create schedules in the Agent Daily Schedules \[agent\_daily\_schedule\] table. Within these schedules, agents will receive a silent push sometime throughout their scheduled day.
 
@@ -67,7 +67,7 @@ glide.sg.offline.scheduled\_download.cachesync\_offset
 
 </td><td>
 
-Determines when your instance starts payload generation prior to schedule. Value determines how many minutes before the user schedule payload generation begins.**Note:** Be sure not to set the value of this property earlier than your Mobile Offline Scheduling job is runs. Doing so will prevent offline payloads from being generated.
+Defines the number of minutes before the user's scheduled time that the instance begins generating the offline payload.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ glide.sg.offline.scheduled\_download.reminder\_offset
 
 </td><td>
 
-Determines when your instance sends your users a daily reminder to manually download a cache. The instance sends this reminder only when there is no cache or the cache is expired. Value determines how many minutes before a user schedule your instance sends this reminder.
+Define the number of minutes before the user's scheduled offline time that a reminder is sent to download the cache manually.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ glide.sg.offline\_payload.refresh\_frequency
 
 </td><td>
 
-Determines **refreshTimestamp** frequency of payloads. Value represents this frequency in minutes The default value is 480.
+Define a fixed interval between the initial scheduled cache download and when the cache should be refreshed.
 
 </td></tr><tr><td>
 
@@ -91,10 +91,13 @@ glide.sg.offline.attachment.max\_total\_bytes
 
 </td><td>
 
-Determines the maximum size allocated for all attachments in a cache. Value is represented in Megabytes \(MB\). The maximum value is 2048 MB.
+Defines the total amount of storage the offline cache can use for attachments in bytes.
 
 </td></tr></tbody>
-</table>For information on more offline related system properties, see, [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-configure-offline-mode.md).
+</table>For information on other related offline system properties, see [System properties in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-system-properties.md).
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-offline-mode.md)
+-   **[General guidelines for scheduling offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/general-guidelines-schedule-caching.md)**  
+When scheduling offline caches keep these general guidelines in mind for usability and a good user experience.
+
+**Parent Topic:**[Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/offline-caching-scheduled.md)
 

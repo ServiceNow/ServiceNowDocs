@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a policy using the Compliance Workspace
@@ -22,9 +22,9 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst or sn\_complian
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
+1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the **Create** list and select **Policy** from the **Home** page.
+2.  On the **Home** page, from the **Create** list on top right, select **Policy**.
 
 3.  On the form, fill in the fields.
 
@@ -125,6 +125,14 @@ Owning Group
 </td><td>
 
 Group that owns the policy.
+
+</td></tr><tr><td>
+
+Owner
+
+</td><td>
+
+The user responsible for the policy. The Owner field is mandatory. Only a user with sn\_compliance.user role can be added as an owner.
 
 </td></tr><tr><td>
 

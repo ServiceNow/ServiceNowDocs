@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -175,7 +175,7 @@ Creates new and modifies existing patterns, which Service Mapping and Discovery 
 \[pd\_user\]
 
 </td></tr></tbody>
-</table>**Note:** Users with the itil role only can view all service instances.
+</table>**Note:** Users with the sn\_cmdb\_editor or itil role only can view all service instances.
 
 ## Scheduled jobs installed
 
@@ -1709,5 +1709,4 @@ Select the subnetwork location to allow for the identification of the appropriat
 -   **Location:** **Service Mapping** &gt; **Administration** &gt; **Properties**
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/service-mapping-reference.md)
-
+</table>

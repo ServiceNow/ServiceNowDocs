@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Duplicate a goal or target
@@ -39,11 +39,11 @@ Only the owner or contributors of the goal can edit the goal.
 4.  Select the Row context menu icon \(\[Omitted image "more-actions.png"\] Alt text: Row context menu icon.\) of the goal or target that you want to copy and then select **Duplicate**.
 
     -   For a goal, the Goal modal opens with all details of the goal you copied from. You can update the details for the goal as needed and then select **Save** to save the goal or select **Save and add a target** to save the goal and add a target for the goal. For a description of the field values, see [Goal form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/goal-form-egm.md).
-    -   For a target, the copied target appears right under its goal. Note that this action doesn’t copy the target actuals. You can open the target record and update the details as needed and then save the target for the goal. For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-form-egm.md).
+    -   For a target, the New target window opens with all details of the target you copied from. You can update the details for the target as needed and then select **Save** to save the target or select **Save and add a new target** to save the target and add another target for the goal. For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-form-egm.md).
     By default, the name is **Copy of ABC** where ABC is the name of the goal or target you copied from.
 
 
 ## What to do next
 
-Set more targets for the goals. For more information, see [Create targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md) or [Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
+Set more targets for the goals. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md) or [Configuring target source for target automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/setting-targets-for-a-goal-and-automating-the-actual-value-using-agf-apw.md).
 

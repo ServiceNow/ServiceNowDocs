@@ -7,18 +7,18 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# Paginator class - Android
+# Paginator class- Android
 
 The Paginator class provides functions for paging through the return results passed back by a REST endpoint call, such as those returned by the NowTableService class.
 
 You must first call the [NowTableService - paginator\(from tableName: String, configuration: FetchConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md) or [NowTableService - paginator&lt;Model: Decodable&gt;\(from tableName: String, path: String = Constants.resultPath, coder: Coder = .default, configuration: FetchConfiguration? = nil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md) function to retrieve paginate return results.
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## Paginator - first\(\)
 

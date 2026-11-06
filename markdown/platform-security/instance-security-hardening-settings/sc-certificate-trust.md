@@ -1,5 +1,5 @@
 ---
-title: Enforce certificate trust \[Updated in Security Center 1.3 and removed in 2.0\]
+title: Enforce certificate trust \[Updated in Security Center 1.3, removed in 2.0, added in 7.0\]
 description: Use system properties to ensure that certificate expiration and trust are checked for certificates received from outbound HTTPS call endpoints when host verification is not performed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-certificate-trust.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communications, Hardening settings, Platform Security]
 ---
 
-# Enforce certificate trust \[Updated in Security Center 1.3 and removed in 2.0\]
+# Enforce certificate trust \[Updated in Security Center 1.3, removed in 2.0, added in 7.0\]
 
 Use system properties to ensure that certificate expiration and trust are checked for certificates received from outbound HTTPS call endpoints when host verification is not performed.
 
@@ -104,7 +104,7 @@ References
 
 [Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_Certificates.md)
 
- [Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.md)
+ [Verify certificate chain and hostname](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-communications.md)

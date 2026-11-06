@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange data model, Service Exchange reference, Service Exchange]
+breadcrumb: [Data model, Reference, Service Exchange]
 ---
 
 # Service Exchange for Consumers data model
@@ -21,10 +21,6 @@ The Service Exchange for Consumers data model uses a combination of the followin
 -   Service Exchange for Consumers application tables.
 -   Customer Service Management application tables.
 -   ServiceNow AI Platform standard tables.
-
-The following diagram provides an overview of the data model of the Service Exchange for Consumers application.
-
-\[Omitted image "service-bridge-v2-data-model-customer.jpg"\] Alt text: Diagram shows the Service Exchange for Consumers data model
 
 The following table lists the Access Control Rights \(ACR\) for specific Service Exchange for Consumer tables.
 
@@ -495,5 +491,4 @@ admin
  sn\_sb.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Exchange data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-data-model.md)
-
+</table>

@@ -1,5 +1,5 @@
 ---
-title: Viewing the landing page for healthcare-related cases in Workspace
+title: View the landing page for healthcare-related cases in Workspace
 description: As a healthcare agent, you can use the landing page of Workspace to quickly scan and access healthcare-related cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-home-page.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage requests in Healthcare Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Manage healthcare requests in Workspace, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Viewing the landing page for healthcare-related cases in Workspace
+# View the landing page for healthcare-related cases in Workspace
 
 As a healthcare agent, you can use the landing page of Workspace to quickly scan and access healthcare-related cases.
 
 The landing page of healthcare-related cases in Workspace provides an overview of your new, assigned, and high priority healthcare cases and the healthcare cases assigned to your groups.
-
-\[Omitted image "hcls-healthcare-workspace-home-page.png"\] Alt text: Landing page of the Healthcare-related Workspace displaying case-related widgets and important items for users to interact with.
 
 ## Accessing and using the landing page
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-tco-source-cost-type.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a TCO source cost type
@@ -43,7 +43,7 @@ After a source is created for the TCO, you can create a source cost type from th
 8.  Select **Save**.
 
 
-**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-tco.md)
+**Parent Topic:**[Configure application total cost of ownership \(TCO\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-app-tco.md)
 
 **Related topics**  
 

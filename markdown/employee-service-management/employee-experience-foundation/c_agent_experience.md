@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Explore, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Explore Microsoft Teams integration for Agent Experience
@@ -21,5 +21,5 @@ Notify connector for Microsoft Teams enables you to manage and initiate a Micros
 -   **[Meeting Extensions for Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/meeting-extensibility-ms-teams.md)**  
 The Meeting extensions for Microsoft Teams enables the major incident manager, and the participants to view the communication tasks from within Microsoft Teams during an active conference call.
 
-**Parent Topic:**[Exploring ServiceNow for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/explore-sn-teams.md)
+**Parent Topic:**[Exploring ServiceNow for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/explore-sn-teams.md)
 

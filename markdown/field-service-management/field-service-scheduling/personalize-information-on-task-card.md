@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Customize information on task cards and agent cards
@@ -28,17 +28,17 @@ On the task cards and agent cards, the administrator has to configure what field
 
 1.  Navigate to **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
 3.  Customize the information to be presented on the card.
 
-    -   For task cards, click Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\) and then select the **Tasks** tab.
-    -   For agent cards, click Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\) and then select the **Resources** tab.
+    -   For task cards, select Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\) and then select the **Tasks** tab.
+    -   For agent cards, select Settings icon \(\[Omitted image "IconPersonalizeList.png"\] Alt text: Settings icon.\) and then select the **Resources** tab.
 4.  Enable or disable the fields in the Settings dialog box.
 
     For more information, see [Enable Dispatcher Workspace settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/dispatcher-wrkspc-settings.md).
 
-5.  Click **Save**.
+5.  Select **Save**.
 
 
 ## Result

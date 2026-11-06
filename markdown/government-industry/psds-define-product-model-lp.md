@@ -1,16 +1,16 @@
 ---
-title: Define a Product Model for License and Permit Playbook
+title: Define a Product Model for License and Permit Administration
 description: A product model record is required in a license/permit case application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-define-product-model-lp.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [License and Permit Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Define a Product Model for License and Permit Playbook
+# Define a Product Model for License and Permit Administration
 
 A product model record is required in a license/permit case application.
 
@@ -25,8 +25,6 @@ For a license/permit case, a product model is used to represent a specific type 
 Additional fields to describe the permit product can be added if required. For example, for a drivers license, you may add a choice field for license class with choices A, B, or C, then create three records, one per class. For a commercial fishing permit, you may add a field that captures whether or not a boat inspection is required before the permit can be granted.
 
 If there are multiple types of permits with unrelated fields, you can extend specific product model classes from the permit model base class. For example, if your agency offers bird taxidermy and wildlife import/export permits out of the same organization, consider whether you need specific permit model classes that would help define different attributes on each permit product.
-
-For more information on product models, case types, and service definitions, see .
 
 ## Procedure
 

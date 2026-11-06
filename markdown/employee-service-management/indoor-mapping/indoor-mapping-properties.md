@@ -7,7 +7,7 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -72,9 +72,7 @@ Maximum number of users that can be campus editors. This property can be increas
 
 </td></tr><tr><td>
 
-Maximum distance in centimeters between the first and last point to convert a line to a polygon while importing an AutoCAD file \[sn\_map\_core.line\_to\_polygon\_max\_distance
-
-\]
+Maximum distance in centimeters between the first and last point to convert a line to a polygon while importing an AutoCAD file
 
 </td><td>
 

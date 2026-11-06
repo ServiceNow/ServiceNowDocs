@@ -7,19 +7,19 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # IRE support for non-CMDB tables
 
 Apply Identification and Reconciliation Engine \(IRE\) processes to supported non-CMDB tables to ensure data integrity and health of those tables.
 
-Starting with the Yokohama release, IRE supports some non-CMDB tables. You can use all IRE features with some non-CMDB tables after creating identification rules \(CI identifiers and identifier entries\) for those tables. Non-CMDB tables supported for IRE features include:
+Starting with the Brazil release, IRE supports some non-CMDB tables. You can use all IRE features with some non-CMDB tables after creating identification rules \(CI identifiers and identifier entries\) for those tables. Non-CMDB tables supported for IRE features include:
 
 -   In an application-specific scope: All non-CMDB tables
--   In the global scope: Only non-CMDB tables that are preset in the base system. In the Yokohama release for example, the Location \[cmn\_location\], Department \[cmn\_department\], Cost Center \[cmn\_cost\_center\], Building \[cmn\_building\], User \[sys\_user\], and Group \[sys\_user\_group\] non-CMDB tables are supported.
+-   In the global scope: Only non-CMDB tables that are preset in the base system. In the Brazil release for example, the Location \[cmn\_location\], Department \[cmn\_department\], Cost Center \[cmn\_cost\_center\], Building \[cmn\_building\], User \[sys\_user\], and Group \[sys\_user\_group\] non-CMDB tables are supported.
 
 You can't use the [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-class-manager-landing-page.md) to manage any IRE-related rules for non-CMDB tables. Instead, you must work directly with the respective tables in list views to create and manage those rules as described in the following procedures:
 
@@ -30,11 +30,11 @@ You can't use the [CI Class Manager](https://raw.githubusercontent.com/ServiceNo
 -   [Create an identification inclusion rule for a non-CMDB table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-non-cmdb-id-inclusion-rule.md)
 -   [Simulate payload execution using identification simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/identification-simulation.md)
 -   [Use partial payloads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
--   [Review and remediate de-duplication tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
+-   [Review and process de-duplication tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 
 You can use the following store apps with supported non-CMDB tables:
 
--   [CMDB 360 in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md)
+-   CMDB 360 in CMDB Workspace
 -   [IntegrationHub ETL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/integration-hub-etl/integrationhub-etl.md)
 
 IRE processes are applied to supported non-CMDB tables with the following differences:

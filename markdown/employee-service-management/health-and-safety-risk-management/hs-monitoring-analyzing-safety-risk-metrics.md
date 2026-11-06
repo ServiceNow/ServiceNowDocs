@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ For any selected period and location, you can drill down into detailed data for 
 ## Prerequisites
 
 -   Ensure that Health and Safety Risk Management and Health and Safety Incident Management applications are installed. For more information, see [Install Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/install-hs-risk-mgmt.md).
--   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/configure-job-generate-frequency-rates.md).
+-   Run the **\[OHS\] Safety Metrics** scheduled job to update the safety metrics on demand. For more information, see [Configure scheduled job to generate frequency rates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/configure-job-generate-frequency-rates.md).
 
     **Note:** The **\[OHS\] Safety Metrics** job is set to run daily by default.
 

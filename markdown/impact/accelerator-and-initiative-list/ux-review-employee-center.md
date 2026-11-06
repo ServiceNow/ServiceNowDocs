@@ -1,60 +1,63 @@
 ---
 title: UX: Portal Experience Review
-description: The UX \(User Experience\) Portal Experience Review Accelerator provides a comprehensive evaluation of your Employee Center, focusing on usability, design, and ServiceNow leading practices to enhance overall user experience engagement.
+description: This Accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/ux-review-employee-center.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Portal Experience Review
 
-The UX \(User Experience\) Portal Experience Review Accelerator provides a comprehensive evaluation of your Employee Center, focusing on usability, design, and ServiceNow leading practices to enhance overall user experience engagement.
+This Accelerator evaluates the UX of a customer’s ServiceNow portal, focusing on usability, design, and leading practices to enhance overall user experience and engagement.
 
 ## Accelerator overview
 
-UX: Portal Experience Review can enhance Employee Center adoption by evaluating the portal against ServiceNow leading practices, identifying UX issues, and providing actionable recommendations to improve design, enhance user satisfaction, and increase portal efficiency.
+UX: Portal Experience Review provides Impact customers with an assessment of the user experience of their ServiceNow portal implementation. Through careful review against ServiceNow leading practices, we identify UX issues and provide actionable recommendations to improve design, enhance user satisfaction, and increase portal adoption and efficiency.
 
-See [Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-center-landing-page.md) on Employee Center.
+## Package Availability
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
-## Major activities
+## What you get
 
--   **Introduction session \(up to 1 hour\)**
+-   **Session preparation**
+    -   Provision a temporary instance
+    -   Review customer’s portal to uncover UX insights and identify actionable recommendations
+-   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 
-    Includes the following:
+    Includes the following activities:
 
-    -   You will receive a review of the scope and expectations of the Accelerator.
-    -   We will facilitate the collection of essential information to conduct the expert review of your ServiceNow Employee Center, such as portal access, export content taxonomy, and so on.
--   **Assessment of current Employee Center UX \(up to 8 hours\)**
-
-    The UX Consultant will complete an Expert Review of your Employee Center to gain deeper insights of the user experience.
-
--   **Assessment findings and recommendation readout \(up to 1.5 hours\)**
-    -   The UX Consultant will present findings from the evaluation of your current portal experience, along with initial recommendations for improvement.
-    -   You’ll have the opportunity to provide feedback on these recommendations and ask follow-up questions.
+    -   Review scope and expectations of the Accelerator and confirm customer needs.
+    -   Discuss findings from the Employee Center portal evaluation, along with initial improvement recommendations.
+-   **Customer Coaching Session \#2 \(Optional Upon Recommendation-up to 1 hour\)**
+    -   Continue discussion of current portal experience recommendations, if needed
+    -   Opportunity for Q&amp;A related to recommendations
 -   **Outputs**
-
-    Assessment Findings and Recommendation Readout Deck.
-
+    -   Assessment Findings
+    -   Recommendation Readout Deck
 
 ## Requested customer resources
 
-One or more customer resource is requested. The specific number of resources provided is Accelerator and customer specific.
+One or more customer resources are requested.The specific number of resources provided is Accelerator and customer specific.
 
 |Customer resource|Responsibilities|Required|Optional|
 |-----------------|----------------|--------|--------|
 |Product owner|Manages Customer’s  ServiceNow  Service Catalog.|✓| |
-|Customer UX lead|Responsible for designing the user experience on the Customer’s end.| |✓|
+|UX &amp; OCM Expert|Primary stakeholders and advocates for user experience and organizational change management.   | |✓|
 |Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Exceptions
+## Requested Information/Access
 
-The Accelerator may conclude early if the assessment clearly identifies required changes.
+-   Customer goals and UX pain points for portal to be reviewed
+-   Existing user research and feedback on current portal, plus relevant insights
+
+## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

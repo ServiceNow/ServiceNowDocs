@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Create a Software Asset Management Foundation software model in workspace
@@ -22,15 +22,13 @@ Role required: sam\_user, sam\_admin, or model\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Software asset** &gt; **Software Asset Workspace**.
+1.  Navigate to **All** &gt; **Software asset** &gt; **Software Asset Workspace** &gt; **License operations**.
 
-2.  Click **License operations** view on the left bar.
+2.  Under **Licensing**, select **software models**.
 
-3.  Under **Licensing**, click **software models**.
+3.  Select **New**.
 
-4.  Click **New**.
-
-5.  On the form, fill in the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_sys_qsk_2qb"><thead><tr><th>
 
@@ -54,9 +52,9 @@ Publisher
 
 </td><td>
 
-Publisher of the software. You can use the lookup list provided.**Note:** Publisher is a reference to the company \[core\_company\]. Only companies you are using internally are shown.
+Publisher of the software. You can use the lookup list provided.**Note:** Publisher is a reference to the company \[core\_company\]. Only companies you’re using internally are shown.
 
- If the publisher and product do not exist, you can [Add a Software Asset Management Foundation plugin custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
+ If the publisher and product don’t exist, you can [Add a Basic Software Asset Management custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
 
 </td></tr><tr><td>
 
@@ -64,7 +62,7 @@ Product
 
 </td><td>
 
-Software product name. The same lookup list provided on the Software Discovery Models form.**Note:** If the relationship between the software publisher \[samp\_sw\_publisher\] and company \[core\_company\] is not correct, products for that publisher may not be shown.
+Software product name. The same lookup list provided on the Software Discovery Models form.**Note:** If the relationship between the software publisher \[samp\_sw\_publisher\] and company \[core\_company\] isn’t correct, products for that publisher may not be shown.
 
 </td></tr><tr><td>
 
@@ -114,7 +112,7 @@ Next version
 
 </td><td>
 
-Reference to another software model of the same manufacturer which represents the next version of the product.
+Reference to another software model of the same manufacturer that represents the next version of the product.
 
 </td></tr><tr><td>
 
@@ -130,7 +128,7 @@ Status
 
 </td><td>
 
-The current status of the model. Options are **In Production**, **Retired**, and **Sold**.
+The status of the model. Options are **In Production**, **Retired**, and **Sold**.
 
 </td></tr><tr><td>
 
@@ -188,7 +186,7 @@ Platform
 
 </td><td>
 
-Platform of the software product to use when searching for the normalized discovery model.Default is **--Anything--** for Windows, Mac, Unix.
+Platform of the software product to use when searching for the normalized discovery model.Default is **--Anything--** for Windows, Mac, UNIX.
 
 </td></tr><tr><td>
 
@@ -237,19 +235,19 @@ An image of the software logo can be added. This logo appears in the Service Cat
 </td></tr></tbody>
 </table>    The Suite Components and Suite Parents related lists consist of parent and child configuration.
 
-    **Note:** If you've added a discovery map to your product details, predefined suites are used and suite components are created automatically for known suite parent.
+    **Note:** If you have added a discovery map to your product details, predefined suites are used and suite components are created automatically for known suite parent.
 
-6.  To publish the software model to the product catalog, under **Related Links**, click **Publish to Software Catalog** and select a category for the software model.
+5.  To publish the software model to the product catalog, under **Related Links**, select **Publish to Software Catalog** and select a category for the software model.
 
     The values set in the Product Catalog related list are published.
 
-7.  To show the list of discovery models that match the software publisher and product fields of the software model, under **Related Links**, click **Show Matching Discovery Models**.
+6.  To show the list of discovery models that match the software publisher and product fields of the software model, under **Related Links**, select **Show Matching Discovery Models**.
 
     The Discovery Models list is opened in a new browser tab for your reference.
 
-8.  To perform additional configuration, select the new software model record in the Software Models list.
+7.  To perform additional configuration, select the new software model record in the Software Models list.
 
-    1.  In the Software Model Lifecycles related list, create a new record \(see table for field descriptions\).
+    1.  In the Software Model Lifecycles related list, create a record \(see table for field descriptions\).
 
 <table id="table_ag4_vyk_2qb"><thead><tr><th>
 
@@ -346,15 +344,15 @@ Risk
 
 
 </td></tr></tbody>
-</table>    2.  [Create a Software Asset Management Foundation plugin entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
+</table>    2.  [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
-    3.  [View Software Asset Management Foundation plugin software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
+    3.  [View Basic Software Asset Management software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
 
         The latest software model results are shown in the Software Model Results related list.
 
-    4.  In the Metric Attributes related list, click a metric attribute to set the attribute value field \(see table for field descriptions\).
+    4.  In the Metric Attributes related list, select a metric attribute to set the attribute value field \(see table for field descriptions\).
 
-        The Metric Attributes related list contains metric values set in [Create a Software Asset Management Foundation plugin entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md) and is used for reconciliation \(metric group, license metric, and software model combination\).
+        The Metric Attributes related list contains metric values set in [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md) and is used for reconciliation \(metric group, license metric, and software model combination\).
 
 <table id="table_zql_nkm_11b"><thead><tr><th>
 
@@ -431,5 +429,5 @@ Check box for setting the attribute as unlimited.
 </table>    5.  [Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
+**Parent Topic:**[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
 

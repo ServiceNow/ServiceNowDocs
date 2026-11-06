@@ -7,14 +7,18 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Virtual Agent Conversations
 
 The ServiceNow® Legal Virtual Agent Conversations application provides predefined conversation topics to enable automated chats with employees seeking legal services. You can build new topics or customize predefined topics to handle common legal requests from employees or guide them through self-service tasks.
+
+**Important:** Starting with the Australia release, Legal Virtual Agent Conversations is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. There is no replacement for this plugin.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Features
 

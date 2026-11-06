@@ -1,27 +1,27 @@
 ---
-title: Now Assist in Catalog Builder
-description: Use ServiceNow Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
+title: AI Authoring for Catalog Builder
+description: Use AI Authoring for Catalog Builder to create catalog items of your choice by giving text inputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [generative AI, Now Assist in Catalog Builder]
+keywords: [generative AI, AI Authoring for Catalog Builder]
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Now Assist in Catalog Builder
+# AI Authoring for Catalog Builder
 
-Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
+Use AI Authoring for Catalog Builder to create catalog items of your choice by giving text inputs.
 
 ## Get started
 
 <table id="table_dch_f2f_cbc" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation by Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about catalog generation with AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)
 
 </td><td>
 
@@ -29,7 +29,7 @@ Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your c
 
 </td></tr><tr><td>
 
-[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
+[Generate\[Omitted image "bus-start-developing.svg"\] Alt text:Learn how to create a catalog item using AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)
 
 </td><td>
 
@@ -38,7 +38,7 @@ Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your c
 </td></tr></tbody>
 </table>**Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
-**Important:** Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+**Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 
@@ -57,13 +57,17 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
--   **[Exploring Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)**  
-Learn how the Now Assist in Catalog Builder application helps you to create catalog items by simply describing them. Now Assist generates catalog items with more detailed descriptions and question labels.
--   **[Configuring Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
-Install and configure Now Assist in Catalog Builder.
--   **[Creating a catalog item using Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-catalog-item-using-now-assist.md)**  
-Create a catalog item by using Now Assist and make the item available in Service Catalog for catalog item requests. You can also define dynamic behavior for your catalog item and apply auto-populate settings.
--   **[Catalog item generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/catalog-item-generation-reference.md)**  
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
+
+-   **[Exploring AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/explore-now-assist-for-catalog-generate.md)**  
+Learn how the AI Authoring for Catalog Builder application helps you to create catalog items by simply describing them. AI generates catalog items with more detailed descriptions and question labels.
+-   **[Install AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/install-now-assist-catalog-generation.md)**  
+Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get AI Authoring for Catalog Builder.
+-   **[Configuring AI in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/configuring-catalog-item-generation.md)**  
+Install and configure AI in Catalog Builder.
+-   **[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)**  
+AI provides a conversational interface that enables you to create catalog items, making these items available in the Service Catalog for users to request.
+-   **[AI Authoring for Catalog Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/catalog-item-generation-reference.md)**  
 Reference topics provide additional information about configuration properties, roles, and more.
 
 **Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog.md)

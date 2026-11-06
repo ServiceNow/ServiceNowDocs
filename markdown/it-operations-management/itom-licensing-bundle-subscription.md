@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-licensing-bundle-subscription.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -16,13 +16,13 @@ You can purchase subscriptions for several ITOM products together as part of a b
 
 The ITOM/OT SU Licensing application calculates and displays subscription consumption for bundle subscriptions. When your organization purchases subscriptions in a bundle, you get the same number of subscription units for all ITOM applications covered by the bundle. You cannot use bundle subscriptions for other applications, even if these other applications are part of the same bundle. The consumption level of the bundle is defined by the highest number of consumptions by one of the products in the bundle.
 
-When you purchase subscriptions in a bundle, you receive an equal number of subscription units for all ITOM applications covered by that bundle. For instance, if you buy a bundle of 500 units covering ITOM Visibility and ITOM Health, your organization receives 500 units for each application.
+When you purchase subscriptions in a bundle, you receive an equal number of subscription units for all ITOM applications covered by that bundle. For instance, if you buy a bundle of 500 units covering ITOM Visibility and ITOM AIOps, your organization receives 500 units for each application.
 
 **Note:** You can only purchase one bundle at a time.
 
 \[Omitted image "itom-license-summary-bundle-only.png"\] Alt text: Subscriptions window displaying subscriptions purchased by bundle.
 
-Bundle subscriptions are specific to certain applications. You cannot utilize bundle subscriptions for other applications, even if those applications are part of the same bundle. For instance, if you purchase a bundle of 500 units covering ITOM Visibility and ITOM Health, you receive 500 units for each application. If you use all 500 ITOM Visibility subscription units, you cannot utilize the remaining ITOM Health subscription units for ITOM Visibility.
+Bundle subscriptions are specific to certain applications. You cannot use bundle subscriptions for other applications, even if those applications are part of the same bundle. For example, if you purchase a bundle of 500 units covering ITOM Visibility and ITOM AIOps, you receive 500 units for each application. If you use all 500 ITOM Visibility units, the remaining ITOM AIOps units can't be used for ITOM Visibility.
 
 The consumption level of the bundle is determined by the highest usage among the products included in the bundle.
 

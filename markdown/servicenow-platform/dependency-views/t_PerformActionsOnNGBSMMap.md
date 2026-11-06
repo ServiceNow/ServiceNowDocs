@@ -7,14 +7,18 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Use Dependency Views, Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Perform actions on nodes in a Dependency Views map
 
 You can view various related items for the nodes in a Dependency Views map.
+
+## Before you begin
+
+Role required: None
 
 ## About this task
 
@@ -122,8 +126,6 @@ Starting at the selected icon, loads the next level of the map, past the setting
 [Change the layout of Dependency Views map]()
 
 [Filter the view of a Dependency Views map]()
-
-[View metrics for CIs in a Dependency Views map]()
 
 [Export a Dependency Views map]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Add a resource script to a resource block
@@ -42,7 +42,7 @@ Type
 
 </td><td>
 
-Type of script:-   Instance Script: Javascript that performs an operation on the instance \(for example, a workflow\).
+Type of script:-   Instance Script: Javascript that performs an operation on the instance \(for example, a subflow\).
 -   PowerShell Script
 -   Python Script
 -   Response Processor: Converts return data from the external cloud API to the operation implementation into a format that the CMDB can accept.

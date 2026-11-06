@@ -1,5 +1,5 @@
 ---
-title: Configure parameters on project cards in classic workspace
+title: Configure parameters on project cards in Project Workspace
 description: Configure the parameters that are displayed on a project card in My Projects Space page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/configure-project-card-parameters.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure parameters on project cards in classic workspace
+# Configure parameters on project cards in Project Workspace
 
 Configure the parameters that are displayed on a project card in **My Projects Space** page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 
@@ -39,8 +39,6 @@ The project workspace overview page **My Projects Space** displays the projects 
     -   Date and short description of the last missed milestone task under **Last missed milestone** heading.
     The parameters displayed are derived from the records in \[pm\_home\_page\_card\] table. In \[pm\_home\_page\_card\] table, each project state is assigned some parameters to be displayed.
 
-
-\[Omitted image "ProjectWorkspaceCard.png"\] Alt text: Project card in project workspace.
 
 You can configure the information which is displayed in row 2 and row3 on a card.
 
@@ -74,8 +72,6 @@ You can configure the information which is displayed in row 2 and row3 on a card
         |Content|JSON field to add the parameters to be displayed under the selected section for the selected state.|
 
         The following screenshot shows a JSON example of adding Risks, Issues, Actions, and Overdue tasks parameters under **Updates** heading for Open state.
-
-        \[Omitted image "ProjectWorkspaceCardConfiguration.png"\] Alt text: Example project card configuration
 
     3.  Click **Submit**.
 

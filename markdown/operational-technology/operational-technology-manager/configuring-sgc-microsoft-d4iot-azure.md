@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Service Graph Connector for Microsoft Defender for IoT \(Azure\), Integrate, Operational Technology Manager, Operational Technology]
 ---
@@ -266,9 +266,7 @@ Query to filter other attributes for Active Scan devices. For example, to allow 
     The asset record contains the model category of the CI. For more information about the model categories for Operational Technology \(OT\), see [Model categories for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/model-categories-for-ot.md). To view the model category for an OT device, complete the following:
 
     1.  Navigate to **All** &gt; **Operational Technology \(OT\)** &gt; **All OT Devices**.
-    2.  Select the OT device that you want to view the asset record for.
-    3.  Next to the **Asset** field, select the **Preview this record** \(\[Omitted image "preview-record-icon.png"\] Alt text: Preview this record icon\) icon.
-    4.  Select **Open Record**.
+    2.  Select an OT device to view its asset record in a new tab.
 12. To troubleshoot the Service Graph Connector for Microsoft Defender for IoT \(Azure\), complete the following:
 
     1.  Select the \[OPTIONAL\] Troubleshooting the Service Graph Connector for Microsoft Defender for IoT \(Azure\) section.

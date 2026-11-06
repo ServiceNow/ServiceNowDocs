@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [OAuth authorization code grant flow, OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth authorization code grant flow, Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Authorization code flow example: ServiceNow instance as authorization server

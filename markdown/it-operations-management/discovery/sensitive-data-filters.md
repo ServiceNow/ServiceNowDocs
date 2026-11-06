@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Sensitive data filters

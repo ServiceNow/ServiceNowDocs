@@ -7,16 +7,16 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery probes and sensors
 
 Discovery probes and sensors perform data collection and update the Configuration Management Database \(CMDB\).
 
-With each release, patterns are replacing many probes and sensors for Discovery. Consider creating new patterns or editing existing ones if you want to customize what Discovery can find. The information on probes and sensors is intended for customers who are not using patterns yet and for customers who already have customized probes that are retained upon upgrade. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
+With each release, patterns are replacing many probes and sensors for Discovery. Consider creating new patterns or editing existing ones if you want to customize what Discovery can find. The information on probes and sensors is intended for customers who are not yet using patterns or who have customized probes retained upon upgrade. See [Patterns and horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) for more information on patterns.
 
 **Note:** For information on Probe to Pattern migration see the knowledge article [KB0694477](https://support.servicenow.com/kb_view.do?sysparm_article=KB0694477).
 
@@ -36,11 +36,13 @@ The MID Server then processes all the output ECC messages, runs the necessary pr
 
 After an entry is inserted in the ECC Queue table, a business rule fires \(on insert\) that takes that information and runs it through a sensor processor. The sensor processor's job is to take the input data, find any sensors interested in that data, and pass it along to be processed. Those sensors ultimately update the CMDB.
 
+**Important:** Discovery now enforces code signing for probes, probe parameters, and sensors when code signing is enabled on the instance. Unsigned or tampered payloads are blocked, and signatures are validated before execution. For more information about code signing, see [Discovery on Code Signing instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/code-sign-disco-probes.md).
+
 ## How probes and sensors work together
 
-The MID Server launches probes to collect information about a device. The probe sends back information to the sensor to be processed. If the probe has a post-processing script defined, the post-processing script does some data processing on the MID Server before data is sent back to the sensor on the ServiceNow instance. Otherwise the probes sends back all the data collected and the sensor performs this data processing. In both cases, the sensor updates the CMDB.
+The MID Server launches probes to collect information about a device. The probe sends back information to the sensor to be processed. If the probe has a post-processing script defined, the post-processing script does some data processing on the MID Server. The processed data is then sent back to the sensor on the ServiceNow instance. Otherwise the probes sends back all the data collected and the sensor performs this data processing. In both cases, the sensor updates the CMDB.
 
-A multi-probe is a probe that contains probes. A multi-sensor processes the data from a multi-probe. To process the data from the multi-probe, the multi-sensor contains individual scripts to process the data returned by each probe contained in the Multiprobe, as well as a main multi-sensor script. The individual scripts pass their processed data to the main multi-sensor script.
+A multi-probe is a probe that contains probes. A multi-sensor processes the data from a multi-probe. To process the data from the multi-probe, the multi-sensor contains individual scripts to process the data returned by each probe contained in the Multiprobe. It also includes a main multi-sensor script. The individual scripts pass their processed data to the main multi-sensor script.
 
 \[Omitted image "multisensor-example.png"\] Alt text: The MultiSensor form
 
@@ -126,5 +128,5 @@ Multiprobes contain one or more simple probes configured to extract specific inf
 -   **[Custom Discovery probe to populate a CI from a text file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CustomProbeTextFile.md)**  
 This custom Discovery probe reads a text file from a Windows computer and populates a configuration item \(CI\) in the CMDB with the values from the file.
 
-**Parent Topic:**[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md)
+**Parent Topic:**[Using Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/using-discovery.md)
 

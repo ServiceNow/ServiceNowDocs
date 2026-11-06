@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_GenEncodQueryStringFilter.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encoded query strings, Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,7 +34,7 @@ Role required: none
 
 5.  Copy the query to your system clipboard.
 
-6.  Use the query string to [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/navigate-using-url.md) or an [Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ReferenceQualifiers.md).
+6.  Use the query string to [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/navigate-using-url.md) or an Reference qualifiers.
 
     When you use the CONTAINS operator on a list filter, the system translates the filter to a LIKE query. For example, if you filter for active records with numbers that contain 123, the URL is `https://InstanceName.service-now.com/incident_list.do?sysparm_query=active%3Dtrue%5EGOTOnumberLIKE123`.
 
@@ -44,7 +44,7 @@ Role required: none
 **Related topics**  
 
 
-[Reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ReferenceQualifiers.md)
+[bundle-platadm.c_ReferenceQualifiers]
 
 [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/navigate-using-url.md)
 

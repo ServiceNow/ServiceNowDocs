@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Configure KPIs for queues
@@ -18,21 +18,23 @@ Configure key performance indicators in queues to track the incoming work for sp
 
 ## Before you begin
 
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 Role required: sn\_channel\_mgmt.admin
 
 ## Procedure
 
 1.  Add KPIs to a queue.
 
-<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d120680e57">
+<table id="choicetable_tmd_vh5_tlb"><thead><tr><th align="left" id="d196424e73">
 
 To
 
-</th><th align="left" id="d120680e60">
+</th><th align="left" id="d196424e76">
 
 Do This
 
-</th></tr></thead><tbody><tr><td id="d120680e66">
+</th></tr></thead><tbody><tr><td id="d196424e82">
 
 **Add from a service channel**
 
@@ -44,7 +46,7 @@ Do This
 4.  Select a queue.
 
 
-</td></tr><tr><td id="d120680e104">
+</td></tr><tr><td id="d196424e120">
 
 **Add from a queue**
 

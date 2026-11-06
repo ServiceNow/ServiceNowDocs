@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Rollup example use case implementation for a Security Case, Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ To rollup information such as configuration items, observables, and indicator of
 
 ## Procedure
 
-1.  Navigate to **Major Security Incident Response** &gt; **Linked Records Configuration**.
+1.  Navigate to **Major Security Incident Response** &gt; **MSI Administration** &gt; **Linked Record Configuration**.
 
     The Linked Record Configurations page displays.
 
@@ -38,7 +38,7 @@ To rollup information such as configuration items, observables, and indicator of
 ## What to do next
 
 -   For more detailed information, see [Configure Rollup Records in Major Security Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/roll-up-record-configuration-in-major-security-incident-management.md)
--   For a security case example information, see[Writing script for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-rollup-record-configurations.md)
+-   For a security case example information, see [Writing script for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-rollup-record-configurations.md)
 
 **Parent Topic:**[Rollup example use case implementation for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/use-case-for-a-security-case.md)
 
@@ -62,7 +62,7 @@ Role required: admin and sn\_msi.workspace\_admin
 
 4.  The Rollup Record configuration will be displayed in the Related List section.
 
-5.  Click **New** to create a new roll up record configuration.
+5.  Select **New** to create a new roll up record configuration.
 
     Below is an example record created to Rollup Observables data related to Security Case we are trying to Rollup with the field values as:
 

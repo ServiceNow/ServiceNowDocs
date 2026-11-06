@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Manage appointments from a work order or work order task, Manage appointments on behalf of a customer, Manage appointments, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Managing appointments from a work order or work order task, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Book an appointment for a customer
@@ -52,6 +52,4 @@ Dispatchers and agents can click "Book Appointment" on the work order or work or
 ## Result
 
 The **Window start** and **Window end** fields on the work order task are updated with the selected appointment start and end times. The **Estimated work duration** field is updated with the duration of the selected appointment time slot.
-
-**Parent Topic:**[Manage appointments from a work order or work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-work-order.md)
 

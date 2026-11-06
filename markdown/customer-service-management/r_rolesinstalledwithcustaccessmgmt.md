@@ -1,18 +1,18 @@
 ---
 title: Roles installed with customer access management
-description: Customer access management uses different predefined functional and granular roles to establish relationships between users and entities. The granular and functional roles help provide user access to information and maintain data security.
+description: Customer access management uses different functional and granular roles to establish relationships between users and entities. The granular and functional roles help provide user access to information and maintain data security.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_rolesinstalledwithcustaccessmgmt.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Roles installed with customer access management
 
-Customer access management uses different predefined functional and granular roles to establish relationships between users and entities. The granular and functional roles help provide user access to information and maintain data security.
+Customer access management uses different functional and granular roles to establish relationships between users and entities. The granular and functional roles help provide user access to information and maintain data security.
 
 ## Functional and granular roles overview
 
@@ -20,7 +20,7 @@ Functional and granular roles help provide authorized related parties access to 
 
 Granular roles provide access to cases, sold product, and related entities. One or more granular roles can be bundled together as a functional role to perform a meaningful action. Linking multiple granular roles to a functional role enables you to build your own access rules by applying the functional and granular roles for various Customer Service Management \(CSM\) entities.
 
-A granular model helps to protect data by granting the required level of access to the relevant CSM entities. With this functionality, each role is associated with a set of privileges or responsibilities that determine users’ access to certain information. You can set granular policies that authorize individuals to do their jobs efficiently and effectively, which helps to improve the customer experience.
+A granular model helps to protect data by granting the required level of access to the relevant CSM entities. With this functionality, each role is associated with a set of privileges or responsibilities that determine your access to certain information. You can set granular policies that authorize individuals to do their jobs efficiently and effectively, which helps to improve the customer experience.
 
 ## Roles and descriptions
 
@@ -48,7 +48,7 @@ Case Authorized Contact\[sn\_customerservice.case\_authorized\_contact\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -64,7 +64,7 @@ Case Authorized Consumer\[sn\_customerservice.case\_authorized\_consumer\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -80,7 +80,7 @@ Case Authorized Contributor\[sn\_customerservice.case\_authorized\_contributor\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -140,7 +140,7 @@ Customer Service Install Base Management \[com.snc.install\_base\]
 
 </td><td>
 
-This role provides the contact access to view the install base and its associated sold products when added as a related party. Additionally, it enables the contact to create and manage cases for the related install base records.​ Creation of case is only allowed if the contact and install base belong to the same account.
+This role provides the contact access to view the install base and its associated sold products when added as a related party. Additionally, it enables the contact to create and manage cases for the related install base records.​ Creation of case is only enabled if the contact and install base belong to the same account.
 
 </td><td>
 
@@ -160,7 +160,7 @@ Customer Service Install Base Management \[com.snc.install\_base\]
 
 </td><td>
 
-This role provides the consumer access to view the install base and its associated sold products when added as a related party. Additionally, it enables the user to create and manage cases for the related install base records.​
+This role provides the consumer access to view the install base and its associated sold products when added as a related party. Additionally, it enables you to create and manage cases for the related install base records.​
 
 </td><td>
 
@@ -180,7 +180,7 @@ Customer Service Install Base Management \[com.snc.install\_base\]
 
 </td><td>
 
-This role provides the internal user to view the install base and its associated sold products when added as a related party. Additionally, it enables the user to create and manage cases for the related install base records.​​
+This role provides the internal user to view the install base and its associated sold products when added as a related party. Additionally, it enables you to create and manage cases for the related install base records.​​
 
 </td><td>
 
@@ -200,7 +200,7 @@ Customer Service Install Base Management \[com.snc.install\_base\]
 
 </td><td>
 
-This role provides the service organization member to view the install base and its associated sold products when added as a related party. Additionally, it enables the user to create and manage cases for the related install base records.​
+This role provides the service organization member to view the install base and its associated sold products when added as a related party. Additionally, it enables you to create and manage cases for the related install base records.​
 
 </td><td>
 
@@ -216,11 +216,11 @@ Install Base Authorized Account
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base
+Customer Service Install Base Management \[com.snc.install\_base\]
 
 </td><td>
 
-Provides access to all the contacts of the account to view the install base and its associated sold products when added as a related party. Additionally, it enables the contact to create and manage cases for the related install base records. Creation of case is only allowed if contact and install base belongs to same account.
+Provides access to all the contacts of the account to view the install base and its associated sold products when added as a related party. Additionally, it enables the contact to create and manage cases for the related install base records. Creation of case is only enabled if contact and install base belongs to same account.
 
 </td><td>
 
@@ -236,11 +236,11 @@ Install Base Service Organization
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base
+Customer Service Install Base Management \[com.snc.install\_base\]
 
 </td><td>
 
-Provides access to all the members of service organization to view the install base and its associated sold products when added as a related party. Additionally, it enables the users to manage cases for the related install base records.
+Provides access to all the members of service organization to view the install base and its associated sold products when added as a related party. Additionally, it enables you to manage cases for the related install base records.
 
 </td><td>
 
@@ -355,7 +355,7 @@ Case Read\[sn\_customerservice.case\_read\_granular\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -371,7 +371,7 @@ Cases Create\[sn\_customerservice.case\_create\_granular\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -387,7 +387,7 @@ Case Write\[sn\_customerservice.case\_write\_granular\]
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 
@@ -404,7 +404,7 @@ Case Related Party Write \[sn\_customerservice.case\_related\_party\_write\_gran
 
 </td><td>
 
-Customer Service \[com.sn\_customerservice\]
+Case Management Core \[com.sn\_customerservice\]
 
 </td><td>
 

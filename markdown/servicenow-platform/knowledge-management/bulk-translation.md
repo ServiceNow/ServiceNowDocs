@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ The Bulk Translations feature extends the localization service in Knowledge Mana
 
 ## Translation workflow
 
-You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/workflow-localization-framework.md) .
+You can define a workflow to determine the actions required to complete a translation. For information, see [Workflows in the Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/workflow-localization-framework.md).
 
 ## Preferences configuration
 
@@ -40,4 +40,11 @@ Translation validation enables you to review and manage the translation request 
 -   The article's source language is different from the requested language.
 -   The source article shouldn’t be a translated article.
 -   The total number of selected articles is less than 200.
+
+-   **[Use Bulk Translation for manual translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-bts-manual-translation.md)**  
+Translate knowledge articles into different languages through bulk translations.
+-   **[Use Bulk Translation for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/bts-for-dynamic-translations.md)**  
+Translate knowledge articles into different languages using machine translations.
+
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-translation-management.md)
 

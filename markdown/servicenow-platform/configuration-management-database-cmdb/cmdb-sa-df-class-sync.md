@@ -7,10 +7,10 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-05-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [principal class sync, out-of-sync principal classes, Data Foundations advisor notification, CI Class Manager principal class discrepancy, resolve principal class sync]
-breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Manage advisor scope, Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Principal class sync in Data Foundations advisor

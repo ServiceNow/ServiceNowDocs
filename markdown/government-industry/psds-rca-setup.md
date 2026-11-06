@@ -1,16 +1,16 @@
 ---
-title: Configure Restricted Caller Access privilege settings in Public Sector Digital Services
+title: Configure Restricted Caller Access \(RCA\) privilege settings
 description: Define cross-scope access to an application, application resource \(such as an access control role, a business rule, a UI action, or a script include\), or event. You can use a requested RCA to grant store apps access to protected resources in the ServiceNow AI Platform without the need to wait for the next family release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-rca-setup.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Information Request Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Information Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure Restricted Caller Access privilege settings in Public Sector Digital Services
+# Configure Restricted Caller Access \(RCA\) privilege settings
 
 Define cross-scope access to an application, application resource \(such as an access control role, a business rule, a UI action, or a script include\), or event. You can use a requested RCA to grant store apps access to protected resources in the ServiceNow AI Platform without the need to wait for the next family release.
 

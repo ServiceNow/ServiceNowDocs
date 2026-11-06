@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_AddingASuggestionField.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Suggestion field type
@@ -20,7 +20,7 @@ Role required: personalize\_dictionary
 
 ## Procedure
 
-1.  Open the form to which you are adding a suggestion field.
+1.  Open the form to which you're adding a suggestion field.
 
 2.  Add a new field or locate an existing field.
 
@@ -28,10 +28,6 @@ Role required: personalize\_dictionary
 
 4.  In the **Choice** field, select **Suggestion**.
 
-5.  Click **Update**.
-
-    Suggestions are presented to the user.
-
-    \[Omitted image "SuggestionShort.png"\] Alt text: Suggestion window with suggestions for "Issue with"
+5.  Select **Update**.
 
 

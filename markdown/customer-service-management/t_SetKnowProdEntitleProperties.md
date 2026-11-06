@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_SetKnowProdEntitleProperties.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge product entitlements, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Knowledge product entitlements, Administer, Customer Service Management]
 ---
 
 # Set knowledge product entitlement properties
@@ -24,7 +24,7 @@ Role required: admin
 
 2.  Set the following properties, as needed.
 
-<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d194827e86">
+<table id="choicetable_v3v_fd1_cv"><tbody><tr><td id="d238909e92">
 
 **Enable access control of Knowledge Bases based on product entitlements**
 
@@ -32,7 +32,7 @@ Role required: admin
 
 If enabled, customers can access all of the knowledge bases related to the products for which they have entitlements.
 
-</td></tr><tr><td id="d194827e95">
+</td></tr><tr><td id="d238909e101">
 
 **Allow access to Knowledge Bases with empty related\_products**
 
@@ -40,7 +40,7 @@ If enabled, customers can access all of the knowledge bases related to the produ
 
 If enabled, customers can access all knowledge bases even if no products have been specified in the **Related Products** field on the Knowledge Base form.
 
-</td></tr><tr><td id="d194827e107">
+</td></tr><tr><td id="d238909e113">
 
 **Enable access control of Knowledge Articles based on product entitlements**
 
@@ -48,7 +48,7 @@ If enabled, customers can access all knowledge bases even if no products have be
 
 If enabled, customers can access all of the knowledge articles related to the products for which they have entitlements.
 
-</td></tr><tr><td id="d194827e116">
+</td></tr><tr><td id="d238909e122">
 
 **Allow access to Knowledge Articles with empty related\_products**
 

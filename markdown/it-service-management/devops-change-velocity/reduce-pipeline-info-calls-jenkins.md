@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -25,7 +25,7 @@ The ServiceNow DevOps configuration section in Jenkins includes a **Force Tracki
 
 ## How it works
 
-In previous versions, a REST call fetched the pipeline information for every Jenkins build triggered. If you had multiple pipelines in your Jenkins environment and were tracking only a few of them, this meant that a call was made to fetch the tracking information for each pipeline even if you were tracking a few of them.
+In previous versions, a REST call fetched the pipeline information for every Jenkins build triggered. If you had multiple pipelines in your Jenkins environment and were tracking only a few of them, a call was made to fetch the tracking information for each pipeline even if you were tracking only a few of them.
 
 The first time you trigger a Jenkins build or pipeline execution, Jenkins makes a pipeline information API call and creates *snPipelineInfo.json* file in `/{JENKINS_HOME}/jobs/{jobName}` directory. For each subsequent pipeline execution Jenkins checks the information available in the *snPipelineInfo.json* file before making a pipeline info API call.
 

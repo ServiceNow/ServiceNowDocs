@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Software license usage, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View software model results
@@ -28,7 +28,9 @@ For example, if the status of a product result shows that it isn’t compliant, 
 
 License metric result information includes rights owned and rights used as well as the license allocation breakdown so you can determine your options to become compliant. The Remediation Options related list shows the number of rights needed and calculates the cost of those rights for you, based on the license metric.
 
-You can use the dashboard field action \(\[Omitted image "SAMdashboardIcon.png"\] Alt text: DashboardFieldAction\) icon on the Software Model Results form to view the Rights Owned vs Rights Used chart to forecast when additional licenses are needed.
+You can use the dashboard field action \[Omitted image "SAMdashboardIcon.png"\] icon on the Software Model Results form to view the Rights Owned vs Rights Used chart to forecast when additional licenses are needed.
+
+**Note:** Software model results \(SMRs\) aren’t generated for software models for Oracle Database options without associated software entitlements. However, you can set the system property **com.snc.samp.unlicensed\_smr\_creation** to **True** to create SMRs for these models even if there are no entitlements.
 
 ## Procedure
 
@@ -251,7 +253,7 @@ Number of allocations needed for compliance. Only used for Per Named User and Pe
 
 </td></tr><tr><td>
 
-Rights needed**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
+Rights needed**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -259,7 +261,7 @@ Number of rights that are required to cover unlicensed installations.
 
 </td></tr><tr><td>
 
-Unlicensed installs**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
+Unlicensed installs**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -267,7 +269,7 @@ Number of unlicensed software installations that aren’t covered by any entitle
 
 </td></tr><tr><td>
 
-Unlicensed SAP users \(SAP only\)**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
+Unlicensed SAP users \(SAP only\)**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -275,7 +277,7 @@ Number of unlicensed SAP users that aren’t covered by any entitlements.
 
 </td></tr><tr><td>
 
-Unlicensed options \(Oracle only\)**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
+Unlicensed options \(Oracle only\)**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -283,7 +285,7 @@ Number of unlicensed Oracle database options that aren’t covered by any entitl
 
 </td></tr><tr><td>
 
-Unlicensed subscriptions**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
+Unlicensed subscriptions**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -291,7 +293,7 @@ Number of unlicensed software subscriptions that aren’t covered by any entitle
 
 </td></tr><tr><td>
 
-True-up cost**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list icon.\) to modify the fields that appear in the License Metric Results.
+True-up cost**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -299,7 +301,7 @@ Estimated cost of remediating unlicensed installations that are based on the low
 
 </td></tr><tr><td>
 
-Potential savings**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list.\) to modify the fields that appear in the License Metric Results.
+Potential savings**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 
@@ -307,7 +309,7 @@ Estimated cost saved by reclaiming removal candidates.
 
 </td></tr><tr><td>
 
-Downgrade rights**Note:** This field is hidden by default. Select the personalize list icon \(\[Omitted image "gear-icon.png"\] Alt text: Personalize list\) to modify the fields that appear in the License Metric Results.
+Downgrade rights**Note:** This field is hidden by default. Select the personalize list icon \[Omitted image "gear-icon.png"\] to modify the fields that appear in the License Metric Results.
 
 </td><td>
 

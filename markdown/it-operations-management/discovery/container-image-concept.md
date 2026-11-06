@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [container, image, Aqua Trivy, security, pattern, scanning, CMDB, Visibility, ACC for Kubernetes - Visibility, Agent Client Collector]
 breadcrumb: [Kubernetes discovery using patterns, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
@@ -34,7 +34,7 @@ You can use two ITOM Visibility apps to scan container images, Discovery and Ser
 
 -   **Use case \# 1**
 
-    Once an application has been packaged up in container images, a security professional can scan the base image, as well as the final image, for vulnerabilities, and identify OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
+    Once an application has been packaged up in container images, a security professional can scan the base image and the final image for vulnerabilities. The scan identifies OS packages, software dependencies, and application records. This is specifically for Containerized MSSQL Server.
 
 
 <table id="table_m1k_b4g_vdc"><thead><tr><th>
@@ -121,7 +121,7 @@ Discovered using Kubernetes Visibility Agent
 </td></tr></tbody>
 </table>-   **Use case \#2**
 
-    A compliance officer can generate an  SBOM  to obtain a detailed list of the dependencies of the container image and to ensure that the software complies with industry regulations.
+    A compliance officer can generate an  SBOM  to obtain a detailed list of the dependencies of the container image. This ensures that the software complies with industry regulations.
 
 
 |Visibility method|Method characteristics|

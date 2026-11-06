@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 ---
 
 # Applying the CSDM guidelines to Service Portfolio Management
@@ -26,7 +26,7 @@ After the CSDM activation plugin is installed \[**com.snc.cmdb.csdm.activation**
 
 Using the CSDM life-cycle fields helps you manage the end-to-end life cycle of services and service offerings. The shared field names provide you with consistency and alignment as you use other ServiceNow applications. For more information about the CSDM, see [Enabling CSDM life-cycle sync between legacy fields and related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-life-cycle-standard-values.md).
 
-**Important:** For the Yokohama release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Yokohama release, the labels are Technical Service and Technical Service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. The label changes align with the CSDM, version 5. Prior to the Brazil release, the labels are Technical Service and Technical Service Offering.
 
 The following comparison shows the differences from the traditional Service Portfolio Management phase and status fields to the CSDM life-cycle stage and status fields.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Using chat in Agent Workspace for HR Case Management
@@ -18,13 +18,13 @@ Agent chat for Agent Workspace for HR Case Management enables you to ask questio
 
 -   **Activation**
 
-    Ensure you have activated the Agent Chat \[com.glide.interaction.awa\] plugin prior to using this feature. For more information on setting up chat, see Agent Workspace chat.
+    Confirm that you have activated the Agent Chat \[com.glide.interaction.awa\] plugin before using this feature.
 
 -   **HR groups**
 
-    Ensure that your HR agents are part of an HR group or subgroup. Having subgroups helps to ensure HR agents with the correct skills and knowledge pair up when an employee initiates a chat.
+    Verify that your HR agents are part of an HR group or subgroup. Having subgroups helps to pair HR agents with the correct skills and knowledge when an employee initiates a chat.
 
-    For example, an employee initiates a chat requesting information about your company's benefits. Having a benefits subgroup with agents that specialize in your company's benefits ensures the employee's chat is directed to the correct agents.
+    For example, an employee initiates a chat requesting information about your company's benefits. Having a benefits subgroup with agents that specialize in your company's benefits directs the employee's chat to the correct agents.
 
     For more information about HR groups, see [Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_ManageHRGroups.md).
 

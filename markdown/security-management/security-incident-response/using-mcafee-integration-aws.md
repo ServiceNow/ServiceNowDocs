@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,7 +24,7 @@ Before you use McAfee ePO integration on the Security Incident Response workspac
 
 ## About this task
 
-You can use the McAfee ePO integration to make remediation actions on the endpoints in real time, use profiles to gather details about the host, and make specific queries or actions on the endpoint using the Security Incident Response workspace.
+You can use the McAfee ePO integration to make remediation actions on the endpoints in real-time, use profiles to gather details about the host, and make specific queries or actions on the endpoint using the Security Incident Response workspace.
 
 The McAfee ePO integration enables analysts to use the following McAfee ePO capabilities on the Security Incident Response Analyst workspace:
 
@@ -43,13 +43,9 @@ The McAfee ePO integration enables analysts to use the following McAfee ePO capa
 
     For example, Get Host Details.
 
-    \[Omitted image "mcafee-workspace-1.png"\] Alt text: McAfee ePO capability to trigger from the related list
-
 4.  In the Get Host Details pop-up, select the **McAfee ePO** implementation.
 
-    \[Omitted image "mcafee-workspace-2.png"\] Alt text: Get Host Details
-
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The Get Host Details capability is invoked on the CI. You can view the worknotes for the results and findings.
 
@@ -57,9 +53,7 @@ The McAfee ePO integration enables analysts to use the following McAfee ePO capa
 
 7.  Select the **Configuration Item**, and click the **View Associated Info** action.
 
-    The Associated information of the Configuration Item is displayed. For example, Host Details.\[Omitted image "mcafee-workspace-results.png"\] Alt text: The Associated information of the Configuration Item
-
-8.  Click the **Configuration Item** to view the host details.
+8.  Select the **Configuration Item** to view the host details.
 
     Similarly, you can try using the other McAfee ePO capability for you security incidents on the SIR Analyst Workspace.
 
@@ -76,5 +70,5 @@ The McAfee ePO integration enables analysts to use the following McAfee ePO capa
 
 **Previous topic:**[Trigger additional actions in McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configure-additional-actions-mcafee.md)
 
-**Next topic:**[McAfee ESM - Email Parser integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-esm-emailparser-integration.md)
+**Next topic:**[Test security incidents to initiate malware scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-test-incident-malscan.md)
 

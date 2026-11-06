@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/review-draft-emails.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Compose emails from the full email composer, Communicating via email in Workspace, Responding to issues in an open record in Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Full email composer, Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Review email drafts from the full email composer

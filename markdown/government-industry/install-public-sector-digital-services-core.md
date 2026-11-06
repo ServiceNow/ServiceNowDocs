@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/install-public-sector-digital-services-core.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure the Public Sector Digital Services Core application, Set up your environment, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Activate Public Sector Core, Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Install Public Sector Digital Services Core
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-For more information, see [Components installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md).
+For more information, see [Components and Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md).
 
 ## Procedure
 
@@ -46,12 +46,12 @@ For more information, see [Components installed with Public Sector Digital Servi
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
 
 ## What to do next
 
-Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-use-gs.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the CRM Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-optional-config-steps.md).
+Use [guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configure-psds-foundation-data.md) to configure the Public Sector Digital Services Core application. If you're not using guided setup, you can customize the Government Service Portal and configure the Public Sector Workspace for public sector use by following the [optional configuration steps for Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-optional-config-steps.md).
 

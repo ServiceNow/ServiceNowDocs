@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sir-integration-builder-reference.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [LLM-powered SIR integration builder, Security Operations]
 ---

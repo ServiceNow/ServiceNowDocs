@@ -7,10 +7,10 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Rehires, Transfers, Multiple jobs]
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Capturing multiple job records for a user

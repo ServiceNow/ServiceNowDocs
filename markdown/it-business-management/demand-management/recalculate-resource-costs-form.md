@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ End date
 
 </td><td>
 
-End date of the time period for which the costs are recalculated.By default, the field shows the due date of the demand. If the due date is not specified for the demand, the field is empty.
+End date of the time period for which the costs are recalculated.By default, the field shows the due date of the demand. If the due date isn’t specified for the demand, the field is empty.
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Confirmed/Allocated costs for Confirmed/Allocated resource plans
 
 </td><td>
 
-Option for recalculating the confirmed or allocated cost of Confirmed or Allocated resource plans.
+Option for recalculating the confirmed or allocated cost of confirmed or allocated resource plans.
 
 </td></tr><tr><td>
 
@@ -62,9 +62,9 @@ Planned costs for Confirmed/Allocated resource plans
 
 </td><td>
 
-Option for including the planned cost of a Confirmed or Allocated plan.The option is enabled if the **Confirmed/Allocated costs for Confirmed/Allocated resource plans** option is selected.
+Option for including the planned cost of a confirmed or allocated plan.The option is enabled if the **Confirmed/Allocated costs for Confirmed/Allocated resource plans** option is selected.
 
- By default, the option is not selected.
+ By default, the option isn’t selected.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/demand-management-forms.md)

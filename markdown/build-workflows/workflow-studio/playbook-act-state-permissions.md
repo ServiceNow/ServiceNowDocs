@@ -1,22 +1,22 @@
 ---
 title: Playbook activity state-mapping permissions
-description: User permissions must be assigned to allow agents to complete, skip, or restart activities in playbook using activity state mapping.
+description: User permissions must be assigned to allow agents to complete or skip activities in playbook using activity state mapping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-act-state-permissions.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook activity state mapping, Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Playbook activity state mapping, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook activity state-mapping permissions
 
-User permissions must be assigned to allow agents to complete, skip, or restart activities in playbook using activity state mapping.
+User permissions must be assigned to allow agents to complete or skip activities in playbook using activity state mapping.
 
-**Can Complete**, **Can Skip**, and **Can Restart** permissions are determined whenever an activity is fetched based on the following conditions:
+**Can Complete** and **Can Skip** permissions in declarative action client conditions **\[sys\_declarative\_action\_assignment.list\]** are determined whenever an activity is fetched based on the following conditions:
 
 -   **Experience Status Record** must be defined
 -   Users must have write access on **Experience Status Record**
@@ -28,10 +28,11 @@ User permissions must be assigned to allow agents to complete, skip, or restart 
     |-------------------|--------------|
     |Can Complete|Complete|
     |Skip|Skipped|
-    |Restart|In Progress|
 
 
-If the permissions are not valid, users cannot perform that operation. The corresponding declarative actions that use the **Can Complete**, **Can Skip**, and **Can Restart** client conditions will not display.
+If the permissions are not valid, users cannot perform that operation. The corresponding declarative actions that use the **Can Complete** and **Can Skip** client conditions will not display.
+
+\[Omitted image "declarative-action-state-mapping-permissions.png"\] Alt text: Adding Can Complete or Can Skip client conditions to a declarative action
 
 **Note:** If a user does not have read access on the **Experience Status Field** of the **Experience Status Record**, the default activity state will be used instead. The default activity state is the state of the flow powering the activity.
 

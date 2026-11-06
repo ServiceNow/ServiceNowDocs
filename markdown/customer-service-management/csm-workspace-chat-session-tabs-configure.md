@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-chat-session-tabs-configure.html
 release: yokohama
 topic_type: task
-last_updated: "2025-05-14"
-reading_time_minutes: 2
-breadcrumb: [CSM Configurable Workspace chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Chat session tabs, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure chat session tabs
@@ -16,7 +16,7 @@ Configure settings such as duration and color for the chat SLA threshold timers 
 
 ## Before you begin
 
-Role required: admin
+Role required: virtual\_agent\_admin
 
 ## About this task
 
@@ -28,17 +28,19 @@ You can configure a minimum of one and a maximum of three chat SLA threshold tim
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Settings**.
 
-    This displays the CI Admin console with the Settings tab selected.
+    This displays the CI Admin Experience with the Settings tab selected.
 
-2.  Select **Agent Chat** on the left side of the CI Admin console.
+2.  Select **Agent Chat** on the left side of the CI Admin Experience.
 
     This displays the Agent Chat settings screen.
+
+    **Note:** If you don’t have the required permissions to modify these settings, the following message appears: `You do not have the required permissions to modify these settings. Please contact your administrator.`
 
 3.  In the Session Tab Settings section, enable the **Activate** button in the upper right corner and select **Save**.
 
     This is a global switch that enables the feature for an instance.
 
-4.  Select **CSM/FSM Configurable Workspace** in the **Select a workspace for tab settings** field.
+4.  Select **CRM Workspace** in the **Select a workspace for tab settings** field.
 
     This is the workspace for which you want to enable the chat session tabs feature.
 
@@ -47,6 +49,8 @@ You can configure a minimum of one and a maximum of three chat SLA threshold tim
     This enables the chat session tabs feature for the selected workspace and adds the Level 1 timer automatically.
 
     When enabled, inactive tab colors change color to alert agents to unread messages. You can configure a minimum of one and a maximum of three SLA threshold timers that alert agents to impending SLA breaches.
+
+    **Note:** Disabling the Session Tab doesn’t remove the saved workspace. The workspace remains available and can be accessed later.
 
 6.  Configure up to three SLA threshold breach warnings.
 

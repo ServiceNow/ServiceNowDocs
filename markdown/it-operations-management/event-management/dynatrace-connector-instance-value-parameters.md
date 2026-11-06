@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Dynatrace connector instance value parameters
@@ -26,6 +26,22 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+BaseApiPath
+
+</td><td>
+
+Custom base path for Dynatrace API calls. If your Dynatrace instance uses a different path than the default `/api/v2/metrics`, enter the custom path to ensure successful collection of metrics.
+
+</td></tr><tr><td>
+
+connectionAliasSysID
+
+</td><td>
+
+Connection credential alias sys ID of the Service graph connector you have configured. By default, the classic sys ID is populated. You can provide the sys ID of the Grail connection, if configured.
+
+</td></tr><tr><td>
+
 debug
 
 </td><td>
@@ -39,6 +55,16 @@ initialSyncInMins
 </td><td>
 
 Number of minutes before the current time that the initial metric collection runs. For example, if the value is 15, the connector fetches metrics from the past 15 minutes.Default: 15
+
+</td></tr><tr><td>
+
+isGrailApiEnabled
+
+</td><td>
+
+Set to **true** to enable Grail connection. Grail API related metrics are displayed in the **Configure metrics to collect** list. If this value is set **false**, the classic connection is enabled and classic API related metrics are displayed.
+
+ Default: false
 
 </td></tr><tr><td>
 

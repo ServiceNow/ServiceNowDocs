@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-message-authentication-for-inbound-communication.html
 release: yokohama
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI voice assistant, Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Configure custom assistant

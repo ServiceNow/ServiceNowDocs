@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-explore-arch-analyzer.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-03"
-reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Exploring the architecture analyzer
@@ -36,16 +36,15 @@ You can perform the following on the architecture analyzer page:
 -   Tweak the canvas display according to your requirement by performing the following:
     -   To hide the left navigation pane and the **Add to canvas** boxes, select the toggle full-screen icon \(\[Omitted image "arch-anlyzer-expand-canvas.png"\] Alt text: Toggle full-screen icon\)
     -   To hide just the left navigation pane, select the toggle sidebar icon \(\[Omitted image "arch-anlyzer-hide-side-panel.png"\] Alt text: Toggle sidebar icon\)
-    -   To clear all entities from the canvas, select the **Clear** button \(\[Omitted image "arch-anlyzer-clear-canvas.png"\] Alt text: Clear button icon\)
+    -   To clear all entities from the canvas and the selections made in the **Add to canvas** boxes, select the **Clear** button \(\[Omitted image "arch-anlyzer-clear-canvas.png"\] Alt text: Clear button icon\)
     -   To download the exploration canvas in image format, select the download as an image icon \(\[Omitted image "arch-anlyzer-download-exploration.png"\] Alt text: Download icon\)
 
--   **[Create an exploration in the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.md)**  
-You can create an exploration to begin analyzing relationships between architectural entities using the architecture analyzer in the Enterprise Architecture Workspace.
-
-**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 
+
+[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-architecture-analyzer.md)
 
 [Create an exploration in the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.md)
 

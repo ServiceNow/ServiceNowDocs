@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 3
-breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 4
+breadcrumb: [Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Binding alerts to a specific host CI \(default binding\)
@@ -22,7 +22,7 @@ The system can perform default binding using the **Node** field or the **CI Iden
 
 When an event enters the system, a key field like **Node** is available in the event record. However, there is no **Node** field in the CI. Instead, the node value from the event is compared with various attributes in the host CI, such as Name, Fully Qualified Domain Name \(FQDN\), IP, or MAC address. If a match is found, the alert is linked to the corresponding CI. This is the default method for binding alerts to CIs.
 
-The property **sa.active\_operation\_status** is used by the default binding mechanism, specifically when binding via IP/MAC using the node field in the event. When an event attempts to bind to a host through the node field \(using IP/MAC\), the system ignores hosts whose operational status is not included in this property and the operational status of the host must also not be null. By default, the property value is "1", which corresponds to Operational. You can extend the list to include additional statuses, and any status in the list is not ignored during binding.
+The **sa.active\_operation\_status** property controls IP/MAC binding via the node field. The system ignores hosts whose operational status is not in this property or is null. The default value is "1" \(Operational\). You can add statuses to the list; any status in the list is considered during binding.
 
 Example: If **sa.active\_operational\_status** = "1,2", then both Operational and Non-operational hosts are considered valid for binding. The status attribute is defined by the following values:
 
@@ -51,4 +51,18 @@ Imagine a server \(Server-123\) in your network generates an event. The event re
     2.  It compares "Server-123.example.com" with the FQDN, IP, MAC address, or Name of existing host CIs.
     3.  If a match is found \(e.g., FQDN in the CMDB is also "Server-123.example.com"\), the alert is linked to that CI.
 2.  Applying Event Rules: Even if the Node resolves to Server-123, additional event rules might determine if the alert should be linked differently. For example, an event rule may specify that alerts from Server-123 should be linked to a parent CI \(like a cluster\) instead of the individual server.
+
+## Fallback CI binding fields
+
+Use these **Additional Info** fields to help the system bind alerts to the correct Configuration Item \(CI\) when standard CI binding methods don't find a match.
+
+-   sn\_fallback\_binding\_ci\_id: Specifies the exact CI to bind to by providing the CI's `sys_id`
+-   sn\_fallback\_binding\_ci\_name: Specifies the name of the CI to search for and bind to. If multiple CIs have the same name, the system uses the first matching CI.
+-   sn\_fallback\_binding\_ci\_type: Used in conjunction with `sn_fallback_binding_ci_name`: Use this field together with sn\_fallback\_binding\_ci\_name to narrow the search when multiple CIs share the same name. This field specifies the CI class or type that the system should match.
+
+The system evaluates these fallback fields only after it attempts all standard CI binding strategies and finds no matching CI. Store these fields \(keys\) in the Additional Info field of an event and populate them with relevant CI information. When standard binding methods fail, the system uses the values of these fields as fallback criteria for CI binding. For example, the Additional Info field might contain:
+
+`{"sn_fallback_binding_ci_name": "linux01"}`
+
+In this example, the system uses the value of `sn_fallback_binding_ci_name` \(`linux01`\) to find and bind the appropriate CI when standard CI binding strategies don't identify a match.
 

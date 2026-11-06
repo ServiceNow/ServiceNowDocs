@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Domain separation and Reporting, Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Domain separation and Reporting, Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Enable domain separation on reports

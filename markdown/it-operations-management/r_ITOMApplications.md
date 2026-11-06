@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/r\_ITOMApplications.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 ---
 
 # IT Operations Management
@@ -42,27 +42,25 @@ Avoid and solve service issues effectively
 
 \[Omitted image "visibility-infrastructure\_50.png"\] Alt text: Visibility into discovered resources
 
-Instantly see the service impact of your infrastructure issues and changes, simplify root-cause analysis, and reduce mean time to repair \(MTTR\). End-to-end discovery and service mapping gives you an accurate, up-to-date CMDB view of your IT infrastructure and services. The resulting complete and reliable record is used by other ServiceNow applications, such as ITOM Health, ITOM Optimization, and Software Asset Management. In this way, you can improve service quality, strengthen change processes, reduce risk, optimize infrastructure spend, and minimize software compliance issues. For more information, see [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-landing-page.md).
+Instantly see the service impact of your infrastructure issues and changes, simplify root-cause analysis, and reduce mean time to repair \(MTTR\). End-to-end discovery and service mapping gives you an accurate, up-to-date CMDB view of your IT infrastructure and services. The resulting complete and reliable record is used by other ServiceNow applications, such as ITOM AIOps, ITOM Optimization, and Software Asset Management. In this way, you can improve service quality, strengthen change processes, reduce risk, optimize infrastructure spend, and minimize software compliance issues. For more information, see [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-landing-page.md).
 
 ## Avoid and solve service issues effectively
 
 \[Omitted image "health75.png"\] Alt text: Events prioritized on the dashboard
 
-ITOM Health uses the power of AIOps to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM Health applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
+ITOM AIOps uses AI to turn events into actionable alerts. Pinpoint service issues and rapidly identify and remediate the root cause. Unlike legacy event management systems, which are static and rule based, ITOM AIOps applies machine learning and advanced analytics to correlate events, adapting automatically to rapidly evolving virtualized and cloud environments. For more information, see [ITOM Health](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/data-sheet/ds-itom-health.pdf).
 
 ## Accelerate cloud strategy and reduce costs
 
-ITOM Optimization enables you to manage the life-cycle of your cloud resources, from discovery to provisioning new resources, handling day-to-day changes and maintenance, until deprovisioning. All of these features are built on ServiceNow governed workflows, offering capabilities such as change, audit, security, and approval.
-
-Whether it is cloud migration assessment or a cloud resource configuration check, ITOM Governance offers workflows to enable the process, while also enabling you to remediate cloud tags and invalid configurations. Combining the strengths of agile and innovative capabilities in the Cloud with ITOM and the well-established ServiceNow framework ensures a successful transition.
-
-Accelerate your cloud strategy with IT Operations Management. Improve your organization's cloud utilization, drive down costs, automate requests, and aid in approvals and governance of the infrastructure that supports native cloud environments.
+Accelerate your cloud strategy with ITOM Cloud Accelerate. Improve your organization's cloud utilization, drive down costs, automate requests, and aid in approvals and governance of the infrastructure that supports native cloud environments.
 
 ## IT Operations Management products licensing
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM Health, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, and ServiceNow® ITOM Cloud Accelerate.
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using the following IT Operations Management products: ServiceNow® ITOM Visibility, ServiceNow® ITOM Discovery, ServiceNow® ITOM AIOps, ServiceNow® Health Log Analytics, ServiceNow® ITOM Optimization, ServiceNow® ITOM Cloud Accelerate, ServiceNow® Service Reliability Management, ServiceNow®SLO Management, ServiceNow® Service Observability, and ServiceNow® synthetic monitoring.
 
 The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-landing-page.md).
+
+The ServiceNow Store regularly releases updates to applications created by ServiceNow. To access the latest features and updates for ITOM applications, deploy the latest upgrades from the [ServiceNow Store](https://store.servicenow.com/store). Each application may be on a different release schedule and is not specifically tied to a family release.
 
 ## Get started
 
@@ -89,10 +87,13 @@ The ServiceNow Product Documentation doesn't provide information on prices, pack
 -   [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
 -   [Visibility: Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md)
 -   [Visibility: Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
--   [ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 -   [Health: Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EM.md)
 -   [Health: Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-landing-page.md)
 -   [Health: Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-landing-page.md)
 -   [ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-optimization-landing-page.md)
 -   [Optimization: Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cloud-management-v2-landing-page.md)
+-   [Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-landing-page.md)
+-   [SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/slo-landing-page.md)
+-   [Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability.md)
+-   [Synthetic monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/synthetic-monitoring-landing-page.md)
 

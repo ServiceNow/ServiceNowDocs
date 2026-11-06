@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-05-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Set up the Smartsheet spoke, Smartsheet Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Set up the Smartsheet spoke, Smartsheet Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up Smartsheet spoke connection and credentials

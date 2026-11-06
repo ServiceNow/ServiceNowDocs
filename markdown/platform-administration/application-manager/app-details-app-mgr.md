@@ -7,7 +7,7 @@ release: yokohama
 product: Application Manager
 classification: application-manager
 topic_type: concept
-last_updated: "2025-09-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -31,11 +31,9 @@ For an application, this page includes the following:
 
 For a plugin or product, this page shows a summary of the plugin or product's function and its dependencies.
 
-\[Omitted image "app-mgr-app-details.png"\] Alt text: Application Manager details page demonstrating unlicensed dependencies and a "License required for subprod" application state indicator.
+\[Omitted image "app-mgr-app-details.png"\] Alt text: Application Manager details page demonstrating uninstalled application dependencies that can be installed with the application that requires them. No application state indicators are present.
 
-The application details page for Now Assist applications includes a Now Assist suite version selector instead of an application version selector. For more information about Now Assist suites, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
-
-\[Omitted image "app-mgr-details-now-assist.png"\] Alt text: Application details page for a Now Assist application, highlighting the Now Assist suite version selector.
+The application details page for AI applications includes an AI Suites version selector instead of an application version selector. For more information about AI Suites, see [Now Assist suite versions in the Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-suites-app-mgr.md).
 
 ## Dependencies
 

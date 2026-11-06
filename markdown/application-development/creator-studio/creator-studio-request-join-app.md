@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaborating with others to build apps in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Collaborate to build apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Ask to work on an app in Creator Studio

@@ -7,9 +7,9 @@ release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Delegate development and deployment permissions to personnel, Using Delegated Development, Delegated Development, Planning your application, Building applications]
+breadcrumb: [Delegate permissions, Administer, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Developer and deployment permissions
@@ -22,30 +22,176 @@ For example, you might grant permissions that enable a user to upgrade the appli
 
 **Note:** If the App Collaboration Component is installed, the link appears as **Manage Collaborators**.
 
-|Permission|Description|
-|----------|-----------|
-|Delete Application|Grants the assigned developer within a scoped app rights to delete the application.|
-|Source Control|Grants the assigned developer full access to source control.|
-|All File Types|Grants the assigned developer access to all application file types, including some not granted by the other options. This permission is equivalent to granting the user the admin role but with some limitations. Specifically, it provides access to all file types that are configured in your application per the Manage Developers task in the Application Creator. For an example of such file types, see the permissions example in [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).|
-|Playbooks|Grants the assigned developer access to the Playbooks design environment to create processes. Editing activity subflows or actions requires the **Flow Designer** permission.|
-|Integrations|Grants the assigned developer access to web service APIs, REST APIs, data sources, and Integration Hub - Import.|
-|Reporting|Grants the assigned developer access to reports and scheduled reports.|
-|Notifications|Grants the assigned developer access to work with automatic email notifications.|
-|Decision Tables|Grants the assigned developer access to Decision Tables to create decision logic based on multiple if-then rules.|
-|Mobile Builders|Grants the assigned developer access to mobile builders, such as Mobile App Builder.|
-|UI Builder|Grants the assigned developer access to UI Builder to create pages for experiences.|
-|Workflow|Grants the assigned developer access to the Workflow Editor and Activity Creator.|
-|Service Catalog|Grants the assigned developer access to catalog-related file types such as catalog items, record producers, and variables.|
-|Service Portal|Grants the assigned developer access to Service Portal editors and tools.|
-|Workflow Studio|Grants the assigned developer access to the Workflow Studio design environment to create flows and actions. Script action steps require the **Allow Scripting** permission.|
-|Tables &amp; Forms|Grants the assigned developer access to model and layout related file types such as table columns, form layout, and list layout.|
-|Manage ACLs &amp; Roles|Grants the assigned developer access to security-related file types such as access controls and user roles.|
-|Allow Scripting|Grants the assigned developer write access to script fields such as those in business rules, client scripts, and Workflow Studio script action steps.|
-|Manage Collaborators|Grants the assigned developer the ability to invite and manage users and groups. This permission allows the delegated developer to further invite and manage other developers to the application.|
-|Invite Collaborators|Grants the assigned developer the ability to invite users and groups. This permission allows the delegated developer to further invite other developers to the application.|
-|Delegated Admin|Grants access to all Delegated Development permissions so that permissions do not need to be granted individually.|
+<table id="table-developer-permissions"><thead><tr><th>
 
-## Deployment permissions
+Permission
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Delete Application
+
+</td><td>
+
+Grants the assigned developer within a scoped app rights to delete the application.
+
+</td></tr><tr><td>
+
+Source Control
+
+</td><td>
+
+Grants the assigned developer full access to source control.
+
+</td></tr><tr><td>
+
+All File Types
+
+</td><td>
+
+Grants the assigned developer access to all application file types, including some not granted by the other options. This permission is equivalent to granting the user the admin role but with some limitations. Specifically, it provides access to all file types that are configured in your application per the Manage Developers task in the Application Creator. For an example of such file types, see the permissions example in [Delegated development and deployment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md).
+
+</td></tr><tr><td>
+
+Playbooks
+
+</td><td>
+
+Grants the assigned developer access to the Playbooks design environment to create processes. Editing activity subflows or actions requires the **Flow Designer** permission.
+
+</td></tr><tr><td>
+
+Integrations
+
+</td><td>
+
+Grants the assigned developer access to web service APIs, REST APIs, data sources, and Integration Hub - Import.
+
+</td></tr><tr><td>
+
+Reporting
+
+</td><td>
+
+Grants the assigned developer access to reports and scheduled reports.
+
+</td></tr><tr><td>
+
+Notifications
+
+</td><td>
+
+Grants the assigned developer access to work with automatic email notifications.
+
+</td></tr><tr><td>
+
+Decision Tables
+
+</td><td>
+
+Grants the assigned developer access to Decision Tables to create decision logic based on multiple if-then rules.
+
+</td></tr><tr><td>
+
+Mobile Builders
+
+</td><td>
+
+Grants the assigned developer access to mobile builders, such as Mobile App Builder.
+
+</td></tr><tr><td>
+
+UI Builder
+
+</td><td>
+
+Grants the assigned developer access to UI Builder to create pages for experiences.
+
+</td></tr><tr><td>
+
+Workflow
+
+</td><td>
+
+Grants the assigned developer access to the Workflow Editor and Activity Creator.
+
+</td></tr><tr><td>
+
+Service Catalog
+
+</td><td>
+
+Grants the assigned developer access to catalog-related file types such as catalog items, record producers, and variables.
+
+</td></tr><tr><td>
+
+Service Portal
+
+</td><td>
+
+Grants the assigned developer access to Service Portal editors and tools.
+
+</td></tr><tr><td>
+
+Workflow Studio
+
+</td><td>
+
+Grants the assigned developer access to the Workflow Studio design environment to create flows and actions. Script action steps require the **Allow Scripting** permission.
+
+</td></tr><tr><td>
+
+Tables &amp; Forms
+
+</td><td>
+
+Grants the assigned developer access to model and layout related file types such as table columns, form layout, and list layout.
+
+</td></tr><tr><td>
+
+Manage ACLs &amp; Roles
+
+</td><td>
+
+Grants the assigned developer access to security-related file types such as access controls and user roles.
+
+</td></tr><tr><td>
+
+Allow Scripting
+
+</td><td>
+
+Grants the assigned developer write access to script fields such as those in business rules, client scripts, and Workflow Studio script action steps.**Note:** The SNC scripting role is also added.
+
+</td></tr><tr><td>
+
+Manage Collaborators
+
+</td><td>
+
+Grants the assigned developer the ability to invite and manage users and groups. This permission allows the delegated developer to further invite and manage other developers to the application.
+
+</td></tr><tr><td>
+
+Invite Collaborators
+
+</td><td>
+
+Grants the assigned developer the ability to invite users and groups. This permission allows the delegated developer to further invite other developers to the application.
+
+</td></tr><tr><td>
+
+Delegated Admin
+
+</td><td>
+
+Grants access to all Delegated Development permissions for a specific scoped application so that permissions do not need to be granted individually.**Note:** The SNC scripting role is also added.
+
+</td></tr></tbody>
+</table>## Deployment permissions
 
 The update set deployment permissions are hidden by default and require a system administrator to enable them with system properties. See [Display or hide update set deployment permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/display-or-hide-deployment-permissions.md) for more information.
 

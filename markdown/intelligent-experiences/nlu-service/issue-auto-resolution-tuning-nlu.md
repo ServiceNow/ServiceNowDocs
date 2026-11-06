@@ -1,5 +1,5 @@
 ---
-title: Issue Auto Resolution Tuning in NLU
+title: \(Legacy\) Issue Auto Resolution Tuning in NLU
 description: Use the NLU Workbench homepage to support Issue Auto Resolution \(IAR\) tuning in NLU.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-nlu.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Issue Auto Resolution Tuning in NLU
+# \(Legacy\) Issue Auto Resolution Tuning in NLU
 
 Use the NLU Workbench homepage to support Issue Auto Resolution \(IAR\) tuning in NLU.
 
@@ -35,9 +35,4 @@ Unlike the Virtual Agent and AI Search tabs, the IAR tab doesn't use a **Create 
 \[Omitted image "issue-auto-resolution-tuning-nlu2.png"\] Alt text: The NLU Workbench homepage opens in the Virtual Agent tab by default.
 
 At the top of the NLU Workbench page are three tabs that group Virtual Agent, Issue Auto Resolution, and AI Search models separately. Below those tabs are a list of models colored gray. In the Model column of the list, when you select the caret to the left of the model name, the model changes color from gray to white and opens to show the model's languages; status; usage; model type; number of enabled intents and mapped intents and the date when the model was last modified or last published.
-
--   **[Issue Auto Resolution tuning options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/issue-auto-resolution-tuning-options.md)**  
-When you are tuning your Issue Auto Resolution model in NLU Workbench, you can adjust the output for several goals: precision, automation, or a balance of the two. Compare how your choice of tuning options affect match rate and coverage, before committing.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md)
 

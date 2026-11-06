@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/revise-existing-opportunities-post-upgrade.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-28"
-reading_time_minutes: 1
-breadcrumb: [Install and configure Opportunity Management, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Revise existing opportunities after an upgrade
@@ -47,14 +47,21 @@ The scheduled job updates the open opportunities \(not in any of the closed stag
 
 For open, non-synced opportunities:
 
--   The scheduled job updates the newly added **Top Opportunity Line Item** and **Product Specification** fields for all the opportunity lines.
--   If a complex product offering has a child offering, the job creates child opportunity lines under the parent line. Newly created child lines contain correct values populated for the newly added fields.
--   A subsequent pricing call is made to populate pricing fields for all the lines in the hierarchy.
+1.  The scheduled job updates the newly added **Top Opportunity Line Item** and **Product Specification** fields for all the opportunity lines.
+2.  If a complex product offering has a child offering, the job creates child opportunity lines under the parent line. Newly created child lines contain correct values populated for the newly added fields.
+3.  A subsequent pricing call is made to populate pricing fields for all the lines in the hierarchy.
 
 For open, synced opportunities:
 
 1.  A scheduled job updates the newly added **Top Opportunity Line Item** field for all the opportunity lines.
 2.  The **Product Specification** field, new hierarchy, and pricing fields for this line are updated only if any change is done on the corresponding synced quote line.
 
-**Note:** After upgrading to the Yokohama Q2 release, run the scheduled job before working with Opportunity . Failure to do so results in inconsistent behavior in Opportunity and the related tables.
+**Note:** After upgrading to the Yokohama Q2 release, run the scheduled job before working with Opportunity. Failure to do so results in inconsistent behavior in Opportunity and the related tables.
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

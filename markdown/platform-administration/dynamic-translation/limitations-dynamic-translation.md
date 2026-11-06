@@ -1,27 +1,27 @@
 ---
 title: Limitations in Dynamic Translation
-description: You must be aware of a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience.
+description: Learn about length and language support limitations when integrating with a machine translation service provider in Dynamic Translation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/dynamic-translation/limitations-dynamic-translation.html
 release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference for Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Limitations in Dynamic Translation
 
-You must be aware of a few limitations when you integrate with a translation service provider to enable the Dynamic Translation experience.
+Learn about length and language support limitations when integrating with a machine translation service provider in Dynamic Translation.
 
-## Length limitations for translation service providers
+## Length limitations for machine translation service providers
 
-The following are the length limitations for translation service providers:
+The following are the length limitations for some translation service providers. If you use a different third-party provider, check that provider's documentation.
 
--   For Google, the recommended maximum length of each request is 5,000 characters. The maximum size of the input text cannot exceed 30,000 code points. For more information, see the [Google Documentation](https://cloud.google.com/translate/quotas).
--   For Microsoft, the input text for translation cannot have more than 50,000 characters including spaces. The input text for detection also has a maximum of limit of 50,000 characters. For more information, see the [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits#character-and-array-limits-per-request).
+-   For Google, the recommended maximum length of each request is 5,000 characters. The maximum size of the input text can't exceed 30,000 code points. For more information, see the [Google Documentation](https://cloud.google.com/translate/quotas).
+-   For Microsoft, the input text for translation can't have more than 50,000 characters including spaces. The input text for detection also has a maximum of limit of 50,000 characters. For more information, see the [Microsoft Documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/request-limits#character-and-array-limits-per-request).
 
 ## Language support limitations for translation service providers
 
@@ -30,4 +30,6 @@ Not all translation service providers support the same languages that ServiceNow
 For information about languages supported by Google for translation, see the Google [documentation](https://cloud.google.com/translate/docs/languages).
 
 For information about languages supported by Microsoft for translation, see the Microsoft [documentation](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support).
+
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 

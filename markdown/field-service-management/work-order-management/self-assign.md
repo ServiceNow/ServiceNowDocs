@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject a work order task on a mobile device
@@ -45,6 +45,4 @@ The task is either accepted or rejected. If the task is rejected, it is reassign
 -   If a manager rejects the task, the state of the task changes to Pending dispatch or Pending assignment. The rejected task is assigned to the manager of next appropriate group. If the system cannot identify another qualified group, the task remains in the Pending dispatch state so the dispatcher can manually assign the task.
 
 -   If an agent rejects the task, it is reassigned to the agent's manager.
-
-**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

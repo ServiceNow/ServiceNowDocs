@@ -1,14 +1,14 @@
 ---
 title: GlideTime - Scoped
-description: The GlideTime API provides methods for performing operations on GlideTime objects, such as instantiating GlideTime objects or working with GlideTime fields.Instantiates a GlideTime object with the current time.Instantiates a GlideTime object with its time starting at midnight UTC plus the passed in value.Returns the time in the specified format.Gets the time in the current user's display format and time zone.Gets the display value in the current user's time zone and the internal format \(HH:mm:ss\).Returns the hours part of the time using the local time zone.Returns the hours part of the time using the local time zone. The number of hours is based on a 24 hour clock.Returns the hours part of the time using the UTC time zone. The number of hours is based on a 24 hour clock.Returns the hours part of the time using the UTC time zone. The number of hours is based on a 12 hour clock. Noon and midnight are represented by 0, not 12.Returns the number of minutes using the local time zone.Returns the number of minutes in the hour based on the UTC time zone.Returns the number of seconds in the current minute.Gets the time value stored in the database by the GlideTime object in the internal format, HH:mm:ss, and the system time zone.Sets a time value using the current user's display format and time zone.Sets the time of the GlideTime object in the internal time zone.Gets the duration difference between two GlideTime object values.
+description: The GlideTime API provides methods for performing operations on GlideTime objects, such as instantiating GlideTime objects or working with GlideTime fields.Instantiates a GlideTime object with the current time.Instantiates a GlideTime object with its time starting at midnight UTC plus the passed in value.Returns the time in the specified format.Gets the time in the current user's display format and time zone.Returns the time using the current user's timezone and a specified format.Gets the display value in the current user's time zone and the internal format \(HH:mm:ss\).Returns the time using the current user's timezone and a specified format and language.Returns the hours part of the time using the local time zone.Returns the hours part of the time using the local time zone. The number of hours is based on a 24 hour clock.Returns the hours part of the time using the UTC time zone. The number of hours is based on a 24 hour clock.Returns the hours part of the time using the UTC time zone. The number of hours is based on a 12 hour clock. Noon and midnight are represented by 0, not 12.Returns the number of minutes using the local time zone.Returns the number of minutes in the hour based on the UTC time zone.Returns the number of seconds in the current minute.Gets the time value stored in the database by the GlideTime object in the internal format, HH:mm:ss, and the system time zone.Sets a time value using the current user's display format and time zone.Sets the time using the current user's timezone and a specified format.Sets the time using the current user's timezone and a specified format and language.Sets the time of the GlideTime object in the internal time zone.Gets the duration difference between two GlideTime object values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideTimeScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideTime API provides methods for performing operations on GlideTime objects, such as instantiating GlideTime objects or working with GlideTime fields.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/p_GlideServerAPIs.md).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
@@ -151,6 +151,65 @@ gt.setDisplayValue("12:00:00"); // User Time Zone
 gs.info(gt.getDisplayValue()); // User Time Zone
 ```
 
+## GlideTime - getDisplayValueEx\(String style\)
+
+Returns the time using the current user's timezone and a specified format.
+
+<table id="table_tg4_ckc_b3c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+style
+
+</td><td>
+
+String
+
+</td><td>
+
+Format to use for the time.Valid values \(case insensitive\):
+
+-   `short`: HH:mm \(AM/PM\)
+-   `medium`: HH:mm:ss \(AM/PM\)
+-   `long`: HH:mm:ss \(AM/PM\) timezone abbreviation
+-   `full`: HH:mm:ss \(AM/PM\) timezone
+
+The time is returned in the current user's language. The language determines whether the time is returned in 12 hour or 24 hour format.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|String|The time in the specified format.|
+
+This example returns the time using the current user's timezone and each formatting option.
+
+```
+var gt = new GlideTime();
+gs.info(gt.getDisplayValueEx("short"));
+gs.info(gt.getDisplayValueEx("medium"));
+gs.info(gt.getDisplayValueEx("long"));
+gs.info(gt.getDisplayValueEx("full"));
+```
+
+Output:
+
+```
+8:52 AM  //short
+8:52:24 AM  //medium
+8:52:24 AM PST  //long
+8:52:24 AM Pacific Standard Time  //full
+```
+
 ## GlideTime - getDisplayValueInternal\(\)
 
 Gets the display value in the current user's time zone and the internal format \(HH:mm:ss\).
@@ -167,6 +226,77 @@ Gets the display value in the current user's time zone and the internal format \
 var gt = new GlideTime();
 gt.setValue("01:00:00"); //Internal Time Zone , UTC
 gs.info(gt.getDisplayValueInternal()); //User Time Zone
+```
+
+## GlideTime - getDisplayValueLang\(String style, String language\)
+
+Returns the time using the current user's timezone and a specified format and language.
+
+<table id="table_ygv_fkc_b3c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+style
+
+</td><td>
+
+String
+
+</td><td>
+
+Format to use for the time.Valid values \(case insensitive\):
+
+-   `short`: HH:mm \(AM/PM\)
+-   `medium`: HH:mm:ss \(AM/PM\)
+-   `long`: HH:mm:ss \(AM/PM\) timezone abbreviation
+-   `full`: HH:mm:ss \(AM/PM\) timezone
+
+</td></tr><tr><td>
+
+language
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Language to return the time in, provided as a BCP 47 language tag. For example, to return the time in Japanese use the tag `ja`.The language determines whether the time is returned in 12 hour or 24 hour format. For example, times in English use the 12 hour format, while times in Japanese use the 24 hour format.
+
+Default: Current user's language.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|String|The time in the specified format and language.|
+
+This example returns the time in Spanish using the current user's timezone and each formatting option.
+
+```
+var gt = new GlideTime();
+gs.info(gt.getDisplayValueLang("short", "es"));
+gs.info(gt.getDisplayValueLang("medium", "es"));
+gs.info(gt.getDisplayValueLang("long", "es"));
+gs.info(gt.getDisplayValueLang("full", "es"));
+```
+
+Output:
+
+```
+9:25  //short
+9:25:44  //medium
+9:25:44 PST  //long
+9:25:44 (hora estándar del Pacífico)  //full
 ```
 
 ## GlideTime - getHourLocalTime\(\)
@@ -288,11 +418,167 @@ gt.setDisplayValue('01:00:00');   // User Time Zone
 gs.info(gt.getDisplayValueInternal()); // User Time Zone
 ```
 
+## GlideTime - setDisplayValueEx\(String time, String style\)
+
+Sets the time using the current user's timezone and a specified format.
+
+<table id="table_zb5_3kc_b3c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+time
+
+</td><td>
+
+String
+
+</td><td>
+
+Value to set for the time. The [getDisplayValueEx\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTimeScopedAPI.md) method returns times in a valid format, or times can be formatted as shown below.
+
+-   HH:mm \(AM/PM\)
+-   HH:mm:ss \(AM/PM\)
+-   HH:mm:ss \(AM/PM\) timezone abbreviation
+-   HH:mm:ss \(AM/PM\) timezone
+
+The current user's language determines whether 12 hour \(AM/PM\) or 24 hour time values are accepted. For example, if the current user's language is English `6:25 PM PST` is a valid value while `18:25 PST` is not.
+
+</td></tr><tr><td>
+
+style
+
+</td><td>
+
+String
+
+</td><td>
+
+Format to use for the time.You must use the same format as the provided **time** value.
+
+Valid values \(case insensitive\):
+
+-   `short`: HH:mm \(AM/PM\)
+-   `medium`: HH:mm:ss \(AM/PM\)
+-   `long`: HH:mm:ss \(AM/PM\) timezone abbreviation
+-   `full`: HH:mm:ss \(AM/PM\) timezone
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example sets the time using the current user's timezone and a specified format.
+
+```
+gt = new GlideTime();
+gt.setDisplayValueEx("8:25:25 AM", "medium");
+gs.info(gt.getDisplayValueEx("full"));
+```
+
+Output:
+
+```
+8:25:25 AM Pacific Standard Time
+```
+
+## GlideTime - setDisplayValueLang\(String time, String style, String language\)
+
+Sets the time using the current user's timezone and a specified format and language.
+
+<table id="table_zb5_3kc_b3c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+time
+
+</td><td>
+
+String
+
+</td><td>
+
+Value to set for the time. The [getDisplayValueLang\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTimeScopedAPI.md) and [getDisplayValueEx\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideTimeScopedAPI.md) methods return times in a valid format, or times can be formatted as shown below.
+
+-   HH:mm \(AM/PM\)
+-   HH:mm:ss \(AM/PM\)
+-   HH:mm:ss \(AM/PM\) timezone abbreviation
+-   HH:mm:ss \(AM/PM\) timezone
+
+The **language** parameter determines whether 12 hour \(AM/PM\) or 24 hour time values are accepted. For example, if the language is `en` \(English\), `6:25 PM PST` is a valid value while `18:25 PST` is not.
+
+</td></tr><tr><td>
+
+style
+
+</td><td>
+
+String
+
+</td><td>
+
+Format to use for the time.You must use the same format as the provided **time** value.
+
+Valid values \(case insensitive\):
+
+-   `short`: HH:mm \(AM/PM\)
+-   `medium`: HH:mm:ss \(AM/PM\)
+-   `long`: HH:mm:ss \(AM/PM\) timezone abbreviation
+-   `full`: HH:mm:ss \(AM/PM\) timezone
+
+</td></tr><tr><td>
+
+language
+
+</td><td>
+
+String
+
+</td><td>
+
+Language to set the time in, provided as a BCP 47 language tag. For example, to set the time in Japanese, use the tag `ja`.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example sets the time in English using the current user's timezone and retrieves it in Spanish.
+
+```
+gt = new GlideTime();
+gt.setDisplayValueLang("4:15:00 PM PST", "long", "en");
+gs.info(gt.getDisplayValueLang("full", "es"));
+```
+
+Output:
+
+```
+16:15:00 (hora estándar del Pacífico)
+```
+
 ## GlideTime - setValue\(String o\)
 
 Sets the time of the GlideTime object in the internal time zone.
-
-If invalid data is provided to this method, the underlying time is set to 00:00:00.
 
 |Name|Type|Description|
 |----|----|-----------|

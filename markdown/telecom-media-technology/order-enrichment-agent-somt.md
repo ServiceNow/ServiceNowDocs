@@ -1,36 +1,34 @@
 ---
-title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection Order Enrichment AI agent
-description: Use the Order Enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
+title: ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection order enrichment AI agent
+description: Use the order enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/order-enrichment-agent-somt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Standalone agents in SOMT, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection Order Enrichment AI agent
+# ServiceNow Otto for Sales Customer Relationship Management for Telecommunications AI agent collection order enrichment AI agent
 
-Use the Order Enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
+Use the order enrichment AI agent to collect customer order information, identify if the order needs enrichment, and create enrichment tasks.
 
-## Order Enrichment AI agent overview
+## Order enrichment AI agent overview
 
-The Order Enrichment AI agent creates a task and triggers the order fulfillment AI agent upon its completion. On closure of the enrichment task, it invokes the order fulfillment agent.
+The order enrichment AI agent creates a task and triggers the order fulfillment AI agent on its completion. On closure of the enrichment task, the order fulfillment agent is invoked.
 
-Given a top Order Line Item \(OLI\) finds all tasks needed to enrich it and all it child OLIs.
+For each top order line Item \(OLI\) and its child OLIs, the order enrichment agent uses historical data from similar orders to determine which enrichment tasks are required.
 
-For each top order line item \(OLI\) and its child OLIs, the Order Enrichment Agent uses historical data from similar orders to determine which enrichment tasks are required.
-
-To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/activate-group-action-framework-somt.md).
+To activate the Group Action Framework \(GAF\), see [Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/activate-group-action-framework-somt.md).
 
 If needed, the outcome of the order tasks can be modified by the agent.
 
-When an order line item is created, if an enrichment process isn’t defined for that order line specification, a place order task is created. When this task is assigned to an agent, it triggers the Enrichment AI Agent for this order line item.
+When an OLI is created, if an enrichment process isn’t defined for that order line specification, a place order task is created. When this task is assigned to an agent, it triggers the order enrichment AI agent for this order line item.
 
-If the specification enrichment tasks defined in the decision table aren’t available to create the enrichment tasks, the default flow Trigger EnrichmentAI Agent is triggered to create the enrichment tasks for an order line item during the enrichment process. To configure the order enrichment flows using Decision Tables, see .
+If the specification enrichment tasks defined in the decision table aren’t available, the default flow trigger enrichment AI agent is triggered. This agent creates the enrichment tasks for an order line item during the enrichment process. To configure the order enrichment flows using Decision Tables, see .
 
-To modify the Order Enrichment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
+To modify the order enrichment AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements.
 
 Role required: sn\_somt\_gen\_ai.sales\_and\_order\_fulfillment\_ai\_agent
 

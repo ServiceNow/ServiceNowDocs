@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-csm-product-models.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product models, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Product models, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Import product models with guided setup
@@ -16,7 +16,7 @@ A product is a type of good or service that your company sells and supports. Pro
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 

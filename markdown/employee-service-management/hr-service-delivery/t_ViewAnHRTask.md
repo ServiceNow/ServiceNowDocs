@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 13
-breadcrumb: [Work an HR case, HR Case Management, Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Work an HR case, Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Adding an HR task to an HR case
@@ -126,7 +126,7 @@ Interval \(days\)
 
 Enter the number of days the reminder email should be sent on an interval.
 
-</td></tr><tr><td rowspan="16">
+</td></tr><tr><td rowspan="15">
 
 HR task type
 
@@ -148,7 +148,7 @@ Submit Catalog Item
 
 </td><td>
 
-A catalog item fulfills the HR task. In the **Catalog Item** field, select a catalog item.
+A catalog item fulfills the HR task. In the **Catalog Item** field, select an active catalog item.
 
 </td></tr><tr><td>
 
@@ -219,16 +219,6 @@ Sign Document
 Requests the user to sign a document. An example is sending an education agreement to be signed for tuition reimbursement. The **Acknowledgment text** field appears. Using this field shows a check box and text above the signature.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
 
  After the user signs the document, the document is generated with the signature and attached to the task. The task is closed complete and the document is attached to the case.
-
-</td></tr><tr><td>
-
-Schedule a meeting
-
-</td><td>
-
-Enables you to create a meeting invite for an employee while you are working on an HR case. For example, you can schedule a meeting with a new hire as part of the onboarding process. -   You can view the available slots of an employee and schedule a meeting. The employee will receive a meeting invite on Microsoft Outlook.
--   You can also send the meeting invite to external attendees.
-**Note:** For the meeting invite and scheduling capability, you must install the ServiceNow Microsoft Exchange Online Spoke.
 
 </td></tr><tr><td>
 
@@ -442,15 +432,15 @@ Enter notes about the case to correspond with other HR agents. These notes are n
     -   Click **View Responses** to view the feedback submitted by an employee via the form sent through the HR task of type **Collect Employee Input**.
 5.  Perform any of the following actions.
 
-<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d191238e1024">
+<table id="choicetable_fp3_2wv_rr"><thead><tr><th align="left" id="d206704e1002">
 
 Action
 
-</th><th align="left" id="d191238e1027">
+</th><th align="left" id="d206704e1005">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d191238e1033">
+</th></tr></thead><tbody><tr><td id="d206704e1011">
 
 **Assign to me**
 
@@ -458,7 +448,7 @@ Description
 
 Click
 
-</td></tr><tr><td id="d191238e1042">
+</td></tr><tr><td id="d206704e1020">
 
 **Close a task**
 
@@ -466,7 +456,7 @@ Click
 
 Enter information in the **Work notes** field and other fields as needed, and change the **State** to **Closed Complete**.**Note:** All HR tasks must be closed before the parent HR case can be closed.
 
-</td></tr><tr><td id="d191238e1063">
+</td></tr><tr><td id="d206704e1041">
 
 **Clone task**
 
@@ -474,7 +464,7 @@ Enter information in the **Work notes** field and other fields as needed, and ch
 
 Click the **Clone Task** related link. Enter the new task information in the task form and click **Update**.
 
-</td></tr><tr><td id="d191238e1078">
+</td></tr><tr><td id="d206704e1056">
 
 **Cancel the task**
 
@@ -482,7 +472,7 @@ Click the **Clone Task** related link. Enter the new task information in the tas
 
 Click **Cancel Task** in the form header.
 
-</td></tr><tr><td id="d191238e1091">
+</td></tr><tr><td id="d206704e1069">
 
 **Review the progress of sibling tasks**
 
@@ -490,7 +480,7 @@ Click **Cancel Task** in the form header.
 
 The **Sibling Tasks** tab shows all tasks under the same case. Click a task number to see the details.
 
-</td></tr><tr><td id="d191238e1103">
+</td></tr><tr><td id="d206704e1081">
 
 **HR Document Acknowledgement**
 

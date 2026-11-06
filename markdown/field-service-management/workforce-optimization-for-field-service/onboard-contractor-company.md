@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Contractor Management, Configuring contractor capabilities, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Contractor Management, Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
 
 # Onboard a contractor company
@@ -22,10 +22,6 @@ Role required: wm\_admin and wm\_contractor\_manager\_int
 
 ## About this task
 
-The work order tasks of the contractor company are automatically assigned to the manager for reassigning it to the field agents. The users can update the work order tasks company only if a manager is assigned.
-
-**Note:** The users will not be able to edit or assign the work order tasks of this contractor company if a manger is not assigned to the company.
-
 You can also do the initial configuration of onboarding a contractor company through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 
 ## Procedure
@@ -36,116 +32,22 @@ You can also do the initial configuration of onboarding a contractor company thr
 
 3.  On the form, fill in the fields.
 
-<table id="table_dgx_5x5_3lb"><thead><tr><th>
+    |Field|Description|
+    |-----|-----------|
+    |Name|Name of the contractor company.|
+    |Manager|Internal manager of the company selected from a drop-down list.|
+    |Phone|Company phone number.|
+    |Fax phone|Fax number of the company.|
+    |Website|Web address of the company.|
+    |Street|Mailing street address of the company.|
+    |City|City in which the company is located.|
+    |State / Province|State or province in which the company is located.|
+    |Zip / Postal code|ZIP or postal code for the company.|
+    |Country|Name of the country in which the external contractor company is located.|
+    |Service Provider Type|Field Service Provider.|
+    |Notes|Any information about the company that would be helpful for others to know.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name of the contractor company.
-
-</td></tr><tr><td>
-
-Manager
-
-</td><td>
-
-Internal manager of the company selected from a drop-down list. The default value is System Administrator.The work order tasks of the contractor company are automatically assigned to the manager for reassigning it to the field agents.
-
-Users can update the work order tasks company only if a manager is assigned.
-
-**Note:** The users will not be able to edit or assign the work order tasks of this contractor company if a manger is not assigned to the company.
-
-</td></tr><tr><td>
-
-Phone
-
-</td><td>
-
-Company phone number.
-
-</td></tr><tr><td>
-
-Fax phone
-
-</td><td>
-
-Fax number of the company.
-
-</td></tr><tr><td>
-
-Website
-
-</td><td>
-
-Web address of the company.
-
-</td></tr><tr><td>
-
-Street
-
-</td><td>
-
-Mailing street address of the company.
-
-</td></tr><tr><td>
-
-City
-
-</td><td>
-
-City in which the company is located.
-
-</td></tr><tr><td>
-
-State / Province
-
-</td><td>
-
-State or province in which the company is located.
-
-</td></tr><tr><td>
-
-Zip / Postal code
-
-</td><td>
-
-ZIP or postal code for the company.
-
-</td></tr><tr><td>
-
-Country
-
-</td><td>
-
-Name of the country in which the external contractor company is located.
-
-</td></tr><tr><td>
-
-Service Provider Type
-
-</td><td>
-
-Field Service Provider.
-
-</td></tr><tr><td>
-
-Notes
-
-</td><td>
-
-Any information about the company that would be helpful for others to know.
-
-</td></tr></tbody>
-</table>4.  Click **Submit**.
+4.  Click **Submit**.
 
 
 ## Result

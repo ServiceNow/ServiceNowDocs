@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage engagements, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Generate an audit report from an engagement
@@ -40,7 +40,7 @@ When an engagement is in the **Follow up** state, the audit lead can generate an
 
 5.  To publish the KB article without making any changes, click **Publish**
 
-6.  To edit the KB article, click **Edit.**.
+6.  To edit the KB article, click **Edit**.
 
     The KB article page appears with the state of the KB article as **Draft** and a minor version of the article is created.
 

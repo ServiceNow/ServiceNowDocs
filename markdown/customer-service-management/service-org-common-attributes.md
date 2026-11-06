@@ -5,18 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-org-common-attributes.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a business location, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Create a business organization, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Common attributes of service organizations
 
 By using common attributes to establish a unified reference architecture and data model, you can extend the Customer Service Management data model to support your service organizations.
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
+
 You can get use cases from industries like Financial Services Operations, Healthcare and Life Sciences, and Public Sector Digital Services, to capture common attributes for your architecture and data model. For example, a service organization may want to capture attributes for bank branches, hospitals, and agencies. By capturing these common attributes across industries, you can create a unified reference architecture and data model that avoids implementing the same attribute across different industries.
 
-The following table lists the common attributes that have been identified across industries for the service organization \[sn\_customer\_service\_organization\] table.
+The following table lists the common attributes that have been identified across industries for the Organization Core \[sn\_customer\_service\_organization\] table.
 
 |Field Name|Description|
 |----------|-----------|

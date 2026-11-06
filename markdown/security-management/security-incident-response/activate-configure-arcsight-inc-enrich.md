@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HPE ArcSight Logger - Incident Enrichment integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,9 +28,7 @@ Role required: sn\_si\_admin
 
     The available security integrations appear as a series of cards.
 
-3.  In the HPE ArcSight Logger - Incident Enrichment card, click **New**.
-
-    \[Omitted image "arcsight-config.png"\] Alt text: HPE ArcSight Logger configuration
+3.  In the HPE ArcSight Logger - Incident Enrichment card, select **New**.
 
 4.  Fill in the fields, as needed.
 
@@ -49,11 +47,11 @@ Role required: sn\_si\_admin
 
     **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The integration configuration card displays.
 
-6.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
+6.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
 
 7.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 

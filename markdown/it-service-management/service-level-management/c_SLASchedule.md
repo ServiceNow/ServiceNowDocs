@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]
 ---
@@ -29,4 +29,9 @@ You can specify the schedule to be used when creating new task SLAs in the **Sch
 -   Schedule source field: This option allows you to select the appropriate field from the task such as an incident or problem that will provide the schedule. For example, Configuration item &gt; Schedule.
 
 **Parent Topic:**[Service Level Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-level-management/service-level-management-reference.md)
+
+**Related topics**  
+
+
+[Create an SLA definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-level-management/t_CreateAnSLADefinition.md)
 

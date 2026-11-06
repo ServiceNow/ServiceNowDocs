@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Planning item form, Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Planning item form, Form field information for Strategic Planning, Reference, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Project planning item form
@@ -81,6 +81,14 @@ Planning state
 </td><td>
 
 State of the planning item in the Strategic Planning or Portfolio Planning Backlog.
+
+</td></tr><tr><td>
+
+Execution URL
+
+</td><td>
+
+Link to the project's execution record in the Project Workspace.
 
 </td></tr><tr><td>
 
@@ -292,7 +300,7 @@ Business capabilities of this planning item.
 **Related topics**  
 
 
-[Create planning items from the roadmap view in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
+[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
 
-[Add planning items to Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
+[Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.md)
 

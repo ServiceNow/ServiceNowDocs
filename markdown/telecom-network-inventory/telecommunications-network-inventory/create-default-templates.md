@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating inventory template for network asset instantiation, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Create inventory template for network asset instantiation, Use, Telecommunications Network Inventory]
 ---
 
 # Create a default template
@@ -47,5 +47,5 @@ When you use the **Template** field to select the table that stores the CI class
     To learn more about the fields, see [Scheduled Entity Generation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/scheduled-entity-generation-form.md).
 
 
-**Parent Topic:**[Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+**Parent Topic:**[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 

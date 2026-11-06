@@ -1,5 +1,5 @@
 ---
-title: Security Incident Response form after alert ingestion
+title: Security incident Response form after alert ingestion
 description: After a Microsoft Graph Security API alert has been ingested, a security incident is created and the corresponding updates are made to the security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/ms-graph-sir-changes.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Security Incident Response form after alert ingestion
+# Security incident Response form after alert ingestion
 
 After a Microsoft Graph Security API alert has been ingested, a security incident is created and the corresponding updates are made to the security incident record.
 
@@ -20,18 +20,12 @@ After a Microsoft Graph Security API alert has been ingested, a security inciden
 
 If you had selected the **Log work note for new alert** option in the alert Aggregation Criteria as described in the [Mapping alerts to security incident response fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-graph-create-profile-map.md), a worknote is posted when the alert is aggregated.
 
-\[Omitted image "ms-graph-worknote.png"\] Alt text: Microsoft Graph Security API: Log worknote
-
-Click on the alert link to navigate to the internal alert import record that contains raw alert data.
-
-\[Omitted image "ms-graph-sir-alert-record.png"\] Alt text: Microsoft Graph Security API Alert Import Record
+Select the alert link to navigate to the internal alert import record that contains raw alert data.
 
 ## Aggregated alerts
 
-Click **Related Lists** &gt; **Aggregated Microsoft Graph Security alerts** to view the alerts aggregated to the security incident.
+Select **Related Lists** &gt; **Aggregated Microsoft Graph Security alerts** to view the alerts aggregated to the security incident.
 
-\[Omitted image "ms-graph-related-aggregated.png"\] Alt text: Microsoft Graph Security API: aggregated alerts
-
--   **Create security incident**: Select an alert from the list, click the **Actions** menu and click **Create security incident**. This option creates a new security incident for the alert and this alert is de-aggregated from the parent security incident.
--   **Delete alert record**: Select an alert from the list, click the **Actions** menu and click **Delete**. This option deletes the alert record.
+-   **Create security incident**: Select an alert from the list, select the **Actions** menu and select **Create security incident**. This option creates a new security incident for the alert and this alert is de-aggregated from the parent security incident.
+-   **Delete alert record**: Select an alert from the list, select the **Actions** menu and select **Delete**. This option deletes the alert record.
 

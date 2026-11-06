@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
@@ -100,7 +100,7 @@ References
 
 </td><td>
 
-[Limit concurrent sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions.md)
+[Concurrent session limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)

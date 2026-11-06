@@ -7,8 +7,8 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -29,6 +29,7 @@ Response automation aims to make the assessment process efficient by reducing ma
     -   Date
     -   Date &amp; time
     -   Number
+    -   Code
     You can select a default response that doesn't have a condition or one that is dependent on multiple conditions. Assessors can then verify, adjust, or keep these default responses.
 
 -   **Scripts**
@@ -38,8 +39,23 @@ Response automation aims to make the assessment process efficient by reducing ma
     -   Generate dynamic default responses based on other questions, creating real-time adaptability.
     -   Query tables to fetch specific data and incorporate it into the response, confirming relevant information is included.
     -   Set up conditions within the script to handle different scenarios, enabling complex and dynamic automation workflows.
-    \[Omitted image "automate-response-script.jpg"\] Alt text: Setting up a default response for a question using a script.
+    \[Omitted image "automate-response-script.png"\] Alt text: Setting up a default response for a question using a script.
 
+
+## Set response as editable
+
+Under Additional options, the Set response as editable setting controls whether the respondent can modify the automated response and how re-evaluation behaves:
+
+-   **Enabled \(default\)**
+
+    The respondent can edit the automated response. Response automation conditions are evaluated when the assessment is created and re-evaluated when a dependent question changes. However, if the respondent has manually modified the response, the re-evaluated automated value is not applied and the respondent's manual entry is preserved.
+
+-   **Inactive**
+
+    The response is read-only and the respondent can't modify it. Response automation conditions are evaluated when the assessment is created and re-evaluated every time a dependent question changes. Because the respondent cannot edit the response, the re-evaluated value always overwrites the current response.
+
+
+**Note:** When Set response as editable is inactive, the Required toggle on the question is automatically turned off, since the system provides the response.
 
 When setting up the automated response, you can use if-then conditions to build the required criteria for the response. For more information, see [Configure an automatic response for a question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/configure-automatic-response-for-a-question.md).
 

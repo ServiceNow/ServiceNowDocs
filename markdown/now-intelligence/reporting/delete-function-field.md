@@ -1,31 +1,29 @@
 ---
 title: Deactivate a function field
-description: The user who created a function field or a user with the admin role can deactivate it. If there are more than 20 function fields on a table, you can’t create a new function field without deactivating one or more existing ones.
+description: The user who created a function field or a user with the admin role can deactivate it. If a table already has 20 function fields, you must deactivate one or more existing fields before creating another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/delete-function-field.html
 release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-09-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report on function fields, Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Deactivate a function field
 
-The user who created a function field or a user with the admin role can deactivate it. If there are more than 20 function fields on a table, you can’t create a new function field without deactivating one or more existing ones.
+The user who created a function field or a user with the admin role can deactivate it. If a table already has 20 function fields, you must deactivate one or more existing fields before creating another.
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, function\_field\_admin
 
 ## Procedure
 
-1.  Perform one of the following actions:
+1.  Navigate to **Platform Analytics Administration** &gt; **Core UI artifacts** &gt; **Reports.**
 
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
 2.  Select the report with the function field to deactivate.
 
 3.  Open the **Configure** tab and select **Configure function field**.
@@ -34,9 +32,9 @@ Role required: admin
 
 5.  Select the function field and choose **Deactivate**.
 
-    If one or more reports use the function field, you see a link to a list of those reports. You can review the list, choose **Deactivate anyway**, or select **Cancel**.
+    If one or more reports or visualizations uses the function field, you see a link to a list of those reports. You can review the list, choose **Deactivate anyway**, or select **Cancel**.
 
-6.  Confirm the deactivation or cancel.
+6.  Confirm the deactivation.
 
 
 ## Result

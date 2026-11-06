@@ -1,20 +1,20 @@
 ---
 title: Configure global Health Log Analytics system properties
-description: Configure global Health Log Analytics system properties if you need to alter the default values, which should not usually be necessary.
+description: Configure global Health Log Analytics system properties if you need to alter the default values, which typically should not be necessary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-system-properties-configure.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Health Log Analytics system properties for a single log source, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Configure system properties for a single log source, Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure global Health Log Analytics system properties
 
-Configure global Health Log Analytics system properties if you need to alter the default values, which should not usually be necessary.
+Configure global Health Log Analytics system properties if you need to alter the default values, which typically should not be necessary.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-Changing Health Log Analytics system properties affects back-end processes and can produce unexpected results. Therefore, if you need to make changes to these properties, keep a record of your adjustments. For example, note the value before and after a modification and the time of the change.
+Changing Health Log Analytics system properties affects back-end processes and can produce unexpected results. Therefore, if you must make changes to these properties, keep a record of your adjustments. For example, note the value before and after a modification and the time of the change.
 
 **Note:** To modify a Health Log Analytics system property whose **Requires restart** value is **true**, contact ServiceNow support to modify it for you.
 

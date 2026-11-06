@@ -1,20 +1,20 @@
 ---
 title: Decision activities
-description: Create and define branches with different conditions for different paths that an agent can follow in playbook.
+description: Create and define branches with different conditions for different paths between activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-a-decision-activity.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Decision activities
 
-Create and define branches with different conditions for different paths that an agent can follow in playbook.
+Create and define branches with different conditions for different paths between activities.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ Role required: playbook.admin
 
 ## About this task
 
-Add a decision activity to create a decision tree so that agents in Playbook Experience can troubleshoot if-then situations during runtime. Branches are the different paths with different conditions that agents can follow. For example, in a credit card approval playbook:
+Add a decision activity to create a decision tree between activities so that agents in Playbook Experience can troubleshoot if-then situations during runtime. Branches are the different paths with different conditions that agents can follow. For example, in a credit card approval playbook:
 
 \[Omitted image "playbook-decisions-example.png"\] Alt text: Playbook decisions credit card approval example in Diagram view in Workflow Studio
 
 In this example, an agent can take different actions for different credit scores during a decision activity to assess the risk of a credit card applicant.
 
-Decisions are not currently supported for stages, but you can create different stages and set different **Run conditions** to get achieve the same outcome.
+Decisions are also supported for stages. To learn more, see [Decision stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-decision-stage.md).
 
 ## Procedure
 
@@ -133,30 +133,7 @@ For more information, see [Restart a playbook](https://raw.githubusercontent.com
 
 ## Result
 
-You've added and configured decision branches.
+You've added and configured decision branches between activities.
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Automation Assets]()
-
-[Start with delay input properties]()
-
-[Optional activities]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mentoring, Talent Development, Employee Service Management]
+breadcrumb: [Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Configuring mentoring
@@ -25,12 +25,6 @@ Role required: sn\_ecn.mentoring\_admin
 ## About this task
 
 When an administrator installs the Mentoring app from the ServiceNow store, it integrates learning, skills identification, aspirations, and planning for a personal career growth and development plan.
-
-## About this task
-
-**Note:**
-
-Before installing Mentoring 2.0.1, first upgrade to an **MSI trued-up patch** of the Store Apps family version. This ensures all MSI fixes are applied correctly.
 
 ## Procedure
 
@@ -64,13 +58,4 @@ After you install Mentoring you might encounter Restricted Caller Access \(RCA\)
 Dependencies
 
 The Mentoring application depends on other applications such as Career Conversations and Employee Profile.
-
--   **[Create a Mentoring program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/create-mentoring-pgm.md)**  
-Create a customized mentoring program that can be adopted by a mentee.
--   **[Add a new Mentoring participant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/add-mentoring-participant.md)**  
-As a manager, add members from your team either as mentors or mentees to participate in mentorship program.
--   **[Create a Mentoring relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/create-mentoring-relationship.md)**  
-As a manager, create a mentoring relationship between two of your employees.
-
-**Parent Topic:**[Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/mentoring-egd-overview.md)
 

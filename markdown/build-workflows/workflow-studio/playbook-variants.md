@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook variants
@@ -33,9 +33,9 @@ To get started, see [Create a playbook variant](https://raw.githubusercontent.co
 
 Create, run, troubleshoot, and monitor your playbook variants more effectively. Use these guidelines to optimize the performance of your playbook variants.
 
--   **Order your variants**
+-   **Evaluate your variants**
 
-    Playbook variants are evaluated from the top down at every level. The first variant that meets conditions will run. Make sure your variants are in the order that you would like for them to be evaluated.
+    By default, the variants are evaluated at the start of the playbook, from the top down at every level. The first variant that meets the trigger conditions will run. However, you can choose to evaluate the variants after certain activities are complete. You can leverage the output generated in the completed activities to decide which variant to run. This gives you more flexibility in designing the playbook and its variants.
 
 -   **Pay attention to property overrides**
 
@@ -45,10 +45,6 @@ Create, run, troubleshoot, and monitor your playbook variants more effectively. 
 
     Check all properties to ensure they are still configured as you want them. Re-sync properties to be the same as in the parent, if needed.
 
--   **Don't create variants for playbooks with decision activities**
-
-    Decision activities are not currently supported in playbook variants.
-
 -   **Don't create variants if you want to change stage properties**
 
     Stage overrides are not currently supported in playbook variants.
@@ -56,23 +52,12 @@ Create, run, troubleshoot, and monitor your playbook variants more effectively. 
 
 -   **[Create a playbook variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-playbook-variant.md)**  
 Create variations of a playbook for different use cases.
+-   **[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/set-evaluation-point.md)**  
+Set a point in your base playbook after which the variants are evaluated and run.
 -   **[Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/reorder-playbook-variants.md)**  
 Change the order in which playbook variants are evaluated.
 -   **[Save a playbook variant as a favorite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/bookmark-playbook-variant.md)**  
 Save a playbook variant as a favorite for quick reference.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Create a playbook]()
-
-[Test a playbook]()
-
-[Restart]()
-
-[Duplicate Playbooks]()
-
-[Add translations for playbooks]()
+**Parent Topic:**[Understanding the playbook components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-building-blocks.md)
 

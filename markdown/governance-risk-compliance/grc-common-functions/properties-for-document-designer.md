@@ -7,9 +7,9 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install the add-in, Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Install the add-in, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Reference information for Document designer
@@ -73,4 +73,5 @@ com.snc.word\_doc\_api.max\_repetitions
 This property sets the number of times a repeater block \(a defined section of content\) will be duplicated and inserted consecutively into the Word document. Each repetition adds a new instance of the block immediately following the previous one, creating a sequential chain of repeated sections. The default value is 100.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/install-document-designer.md)
+

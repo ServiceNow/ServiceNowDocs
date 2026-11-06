@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collecting indicator scores, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Collecting indicator scores, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Cancel a data collection job
@@ -22,7 +22,7 @@ Role required: pa\_data\_collector and schedule\_admin, or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Data Collector** &gt; **Jobs**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Jobs**.
 
 2.  Select the job you want to cancel.
 

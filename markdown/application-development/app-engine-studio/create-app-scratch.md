@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Create your application from scratch
@@ -44,7 +44,7 @@ Role required: admin, sn\_app\_eng\_studio.user
 
 8.  On the summary screen, select **Go to app dashboard**.
 
-9.  If you want a more advanced app development environment to work in, you can open your app in  by selecting **Try it out** in the banner.
+9.  If you want a more advanced app development environment to work in, you can open your app in [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md) by selecting **Try it out** in the banner.
 
     \[Omitted image "sn-studio-entry-aes.png"\] Alt text: Try opening your app in ServiceNow Studio for a more advanced app development experience.
 

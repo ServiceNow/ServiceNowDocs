@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Set up Contracts Core
@@ -38,7 +38,7 @@ On installing Contract Management Pro for Legal Service Delivery, Contracts Core
 
     Configure reminders for expiring contracts that each business unit can use without the need to create their own.
 
--   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)**
+-   **[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
     Create a contract template of type .docx that can be used when submitting a legal contract request to generate a standard legal contract with predefined content.
 

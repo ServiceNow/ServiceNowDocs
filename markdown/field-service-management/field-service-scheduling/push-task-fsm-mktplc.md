@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Push a request to Field Service Marketplace
@@ -56,8 +56,6 @@ The request is sent to the contractors. Contractors can respond with time or cos
 ## What to do next
 
 After receiving a response, review the responses to assign the task to a contractor or respond with other inquiries. For more information, see [Assign a task to a contractor on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/review-rspons-fsm-mrktplc.md).
-
-**Parent Topic:**[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
 
 ## Add a contractor to Marketplace participants post-push
 

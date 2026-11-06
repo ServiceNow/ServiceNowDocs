@@ -1,20 +1,20 @@
 ---
-title: Request additional attributes for a new CI being created in a workspace
-description: Integrate a request for specific CI attributes when manually creating a new CI in your workspace. When then creating a new CI in the respective workspace, users can enter values for the requested attributes, as appropriate for the new CI.
+title: Request additional attributes for new CIs
+description: Integrate a request for specific CI attributes when manually creating a new CI in your workspace. Then, when creating a new CI in the respective workspace, users can enter values for the requested attributes, as appropriate for the new CI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure CMDB Workspace, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Request additional attributes for a new CI being created in a workspace
+# Request additional attributes for new CIs
 
-Integrate a request for specific CI attributes when manually creating a new CI in your workspace. When then creating a new CI in the respective workspace, users can enter values for the requested attributes, as appropriate for the new CI.
+Integrate a request for specific CI attributes when manually creating a new CI in your workspace. Then, when creating a new CI in the respective workspace, users can enter values for the requested attributes, as appropriate for the new CI.
 
 ## About this task
 
@@ -103,5 +103,5 @@ Pre-set to 'Create CI'.
 
 When manually creating a new CI for the specified **CI class** in the respective workspace, users are requested to enter values for the specified **Additional attributes** on the Additional attributes page.
 
-**Parent Topic:**[Configure CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

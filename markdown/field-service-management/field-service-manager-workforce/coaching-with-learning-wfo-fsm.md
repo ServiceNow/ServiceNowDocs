@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Coaching in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Coaching, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Coaching with Learning
@@ -17,8 +17,6 @@ breadcrumb: [Coaching in Workforce Optimization for Field Service, Workforce Opt
 Use Coaching with Learning to train your agents with internal and external learning content. Organize similar content in catalogs. Assign learning tasks and track completion.
 
 **Important:** Coaching with Learning is available when you enable the Coaching with Learning application from the ServiceNow® Store. To enable this application, see [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
-
-**Parent Topic:**[Coaching in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/coaching-wfo-fsm.md)
 
 ## Create a learning library
 

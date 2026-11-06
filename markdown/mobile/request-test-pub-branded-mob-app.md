@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/request-test-pub-branded-mob-app.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Request, test, and publish a branded mobile app
@@ -54,8 +54,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -80,8 +78,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -99,8 +95,6 @@ Custom
 </td><td>
 
 None
-
- BlackBerry
 
  Microsoft Intune
 
@@ -126,8 +120,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -152,8 +144,6 @@ Standard
 
 None
 
- BlackBerry
-
  Microsoft Intune
 
 </td><td>
@@ -171,8 +161,6 @@ Custom
 </td><td>
 
 None
-
- BlackBerry
 
  Microsoft Intune
 

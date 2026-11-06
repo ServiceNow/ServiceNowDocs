@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# FieldReadConfiguration structure - iOS
+# FieldReadConfiguration structure- iOS
 
 The FieldReadConfiguration structure enables you to configure which fields to fetch from a ServiceNow instance table and in which format.
 
@@ -62,9 +62,9 @@ List of the types of fields to return.Possible values:
 -   rawValue: Returns the raw value of the parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
-## FieldReadConfiguration init\(includeFields: \[FieldName\] = \[\], options: Options = \[\]\)
+## FieldReadConfiguration - init\(includeFields: \[FieldName\] = \[\], options: Options = \[\]\)
 
 Configures the fields within a record in a ServiceNow table to pass back in the return results of a REST endpoint call.
 

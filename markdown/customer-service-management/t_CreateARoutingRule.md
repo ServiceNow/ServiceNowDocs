@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateARoutingRule.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a matching rule for case routing
@@ -16,7 +16,7 @@ Create a matching rule for a customer service case that identifies the case attr
 
 ## Before you begin
 
-Role required: admin
+Role required: assignment\_rule\_admin
 
 ## Procedure
 
@@ -151,7 +151,7 @@ For **Scripted** matching. use this field to create a customized script for iden
 
 8.  In the **Use for** field, specify how you want the matching criterion to be used.
 
-<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d105768e355">
+<table id="choicetable_wzv_ztm_sx"><tbody><tr><td id="d127148e355">
 
 **Ranking and display**
 
@@ -159,7 +159,7 @@ For **Scripted** matching. use this field to create a customized script for iden
 
 Use the criterion to determine agent ranking and displays it in a column on the workbench.
 
-</td></tr><tr><td id="d105768e364">
+</td></tr><tr><td id="d127148e364">
 
 **Display only**
 
@@ -167,7 +167,7 @@ Use the criterion to determine agent ranking and displays it in a column on the 
 
 Displays the criterion in a column on the workbench but does not use it to determine agent ranking.
 
-</td></tr><tr><td id="d105768e373">
+</td></tr><tr><td id="d127148e373">
 
 **Ranking only**
 
@@ -178,7 +178,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 </td></tr></tbody>
 </table>9.  Select a **Ranking Method**.
 
-<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d105768e394">
+<table id="choicetable_ccn_j5m_sx"><tbody><tr><td id="d127148e394">
 
 **More is better**
 
@@ -186,7 +186,7 @@ Uses the criterion to determine agent ranking but does not display it on the wor
 
 For example, more availability is better when determining the agent ranking.
 
-</td></tr><tr><td id="d105768e403">
+</td></tr><tr><td id="d127148e403">
 
 **Less is better**
 

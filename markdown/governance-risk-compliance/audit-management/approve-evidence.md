@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Evidence request workflow and users, Evidence request, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Evidence request workflow, Audit evidence request, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Approve evidence before evidence review

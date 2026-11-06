@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Track progress of scrum tasks for a sprint in Agile Development 2.0
@@ -47,5 +47,5 @@ You can move the task cards into different lanes or add new task for a story, to
         For field information, see [Create a scrum task for Agile Development 2.0 stories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/create-a-scrum-task.md).
 
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
 

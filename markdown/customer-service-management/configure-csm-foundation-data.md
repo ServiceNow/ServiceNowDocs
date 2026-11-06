@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-csm-foundation-data.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure foundation data
@@ -16,11 +16,11 @@ With Customer Service Management, you can import or create customer information 
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user
 
 ## About this task
 
-Foundation data includes all of the data that you need to configure in order to support your customers. This includes information about:
+Foundation data includes the data that you must configure to support your customers, including information about:
 
 -   Customers \(external users\)
 -   Customer relationships
@@ -31,21 +31,21 @@ Foundation data includes all of the data that you need to configure in order to 
 
 You can import and configure most of this foundation data using the Customer Service Management guided setup. This feature takes you through the entire setup and configuration process.
 
-To create new data, such as adding new accounts and contacts, you can use the Customer Service Management application.
+To create data, such as adding new accounts and contacts, you can use the Customer Service Management application.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup**.
 
-2.  On the Getting Started page of the guided setup, click **Get Started**.
+2.  On the Getting Started page of the guided setup, select **Get Started**.
 
     The guided setup reopens with a page of different categories of Customer Service Management features that you can configure.
 
-3.  In the Foundation Data category, click **Get Started**.
+3.  In the Foundation Data category, select **Get Started**.
 
     The Foundation Data page opens with a list of tasks to configure the different types of customer information.
 
-4.  To perform a task, click **Configure**.
+4.  To perform a task, select **Configure**.
 
 <table id="table_tth_54l_mlb"><thead><tr><th>
 
@@ -77,7 +77,7 @@ Import Consumers \(B2C\)
 
 </td><td>
 
-A consumer is a customer in the business-to-consumer \(B2C\) business model. Import and verify existing consumer data. For more information, see [Import consumers with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-consumers.md).
+A consumer is a customer in the business-to-consumer \(B2C\) business model. Import and verify existing consumer data. For more information, see [Import consumers through guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-consumers.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Roles control access to features and capabilities. The Customer Service Manageme
 
 -   Internal roles for agents and managers
 -   External roles for customers, customer partners, and consumers
- Assign the necessary roles to internal and external users. For more information, see .
+ Assign the necessary roles to internal and external users. For more information, see [Assign roles to CSM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/assign-csm-roles.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Import Installed Products
 
 </td><td>
 
-Installed products create an association between sold products and install base items. Installed products also provide information on the sold products and how they are deployed or installed. For more information, see [Import installed products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-installed-products.md).
+Installed products create an association between sold products and install base items. Installed products also provide information on the sold products and how they’re deployed or installed. For more information, see [Import installed products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-installed-products.md).
 
 </td></tr><tr><td>
 
@@ -190,7 +190,7 @@ Create Service Contracts
 
 </td><td>
 
-A service contract contains information about the type of support that is provided to a customer and can include coverage for specific assets. It can also include multiple service entitlements and SLAs. For more information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-csm-service-contracts.md).
+A service contract contains information about the type of support that is provided to a customer and can include coverage for specific assets. It can also include multiple service entitlements and service-level agreements \(SLAs\). For more information, see [Create service contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-csm-service-contracts.md).
 
 </td></tr><tr><td>
 
@@ -206,7 +206,7 @@ Create Account Teams
 
 </td><td>
 
-Account teams are made up of employees who fulfill specific jobs or roles for a particular account. Create these roles, or responsibility definitions, and then assign them to employees and contacts. For more information, see [Creating an account team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-account-teams.md).
+Account teams are made up of employees who fulfill specific jobs or roles for a particular account. Create these roles, or responsibility definitions, and then assign them to employees and contacts. For more information, see [Creating an account team member](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-account-teams.md).
 
 </td></tr></tbody>
 </table>

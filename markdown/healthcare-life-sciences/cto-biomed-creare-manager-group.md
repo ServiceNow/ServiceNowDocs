@@ -1,18 +1,18 @@
 ---
 title: Create a group for all location managers in Care Team Operations for Biomed
-description: Create a group for location managers with the sn\_customerservice.svc\_location\_manager assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
+description: Create a group for location managers with the sn\_customerservice.svc\_location\_manager role assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-creare-manager-group.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Create a group for all location managers in Care Team Operations for Biomed
 
-Create a group for location managers with the sn\_customerservice.svc\_location\_manager assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
+Create a group for location managers with the sn\_customerservice.svc\_location\_manager role assigned so that users added to this group will inherit the collection of roles for Care Team Operations for Biomed.
 
 ## Before you begin
 

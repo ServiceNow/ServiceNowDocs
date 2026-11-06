@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [Install and configure Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate and setup Learning
@@ -41,6 +41,4 @@ For more information, see [Install and configure Learning](https://raw.githubuse
 Learning integrates Skills Foundation to skill based recommendations for a learner. Learning admins can add skills to a learning course by searching and selecting skills using the skills Intelligent widget.
 
 For more information, see [Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manage-your-learning.md).
-
-**Parent Topic:**[Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/configuring-learning.md)
 

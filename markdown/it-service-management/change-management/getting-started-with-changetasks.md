@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile experience for Change Management, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Mobile experience for Change Management, Use, Change Management, IT Service Management]
 ---
 
 # Get started with Change Management mobile tasks
@@ -30,13 +30,13 @@ Role required: itil or sn\_change\_write
 
     You do not need to include `service-now.com` at the end of the instance name.
 
-3.  Tap **Change tasks** to get started with managing your change tasks.
+3.  Tap **Change tasks** to start managing your change tasks.
 
 
 -   **[View change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/mobile-view-changetask.md)**  
-You can view the state, risk, and the schedule of the change tasks in the Mobile Agent mobile application.
+View the state, risk, and schedule of change tasks in the Mobile Agent mobile application.
 -   **[Add comments to your change tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/mobile-add-comment-changetask.md)**  
-You can add comments to a change task from the Mobile Agent mobile application. For example, to add an insight about the change task or a discussion regarding the change task.
+Add comments to a change task from the Mobile Agent mobile application. For example, to add an insight about the change task or a discussion regarding the change task.
 -   **[Resolve or close a change task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/mobile-resolve-changetask.md)**  
 When you implement the change task, you can close the task from the Mobile Agent mobile application.
 

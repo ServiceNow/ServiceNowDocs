@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -34,8 +34,6 @@ When creating announcements, you can define the way an announcement displays.
 
     -   Announcement banner
     -   [Announcements widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/announcements-widget.md) instance
-    \[Omitted image "announcements.png"\] Alt text: Announcement banner and widget in the Service Portal.
-
     To define the announcement display location, define the announcement type in the announcement record.
 
 -   **Display Style**

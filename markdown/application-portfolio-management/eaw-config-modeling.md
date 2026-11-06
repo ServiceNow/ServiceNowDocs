@@ -1,48 +1,51 @@
 ---
-title: Configure Enterprise Modeling and Visualization
-description: You can configure the shape libraries, modeling options, entities, and relationships used in the Enterprise Modeling and Visualization.
+title: Manage Enterprise Modeling and Visualization
+description: Enterprise Modeling and Visualization refers to the modeling and diagramming tools within the EA Workspace to represent business capabilities, business hierarchies, and their interrelationships.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-config-modeling.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Exploring the Setup page in the Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Configure Enterprise Modeling and Visualization
+# Manage Enterprise Modeling and Visualization
 
-You can configure the shape libraries, modeling options, entities, and relationships used in the Enterprise Modeling and Visualization.
+Enterprise Modeling and Visualization refers to the modeling and diagramming tools within the EA Workspace to represent business capabilities, business hierarchies, and their interrelationships.
 
--   **[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-shape-libraries.md)**  
-View all shape libraries available for the Enterprise Modeling and Visualization in the Enterprise Architecture Workspace.
--   **[Show or hide shapes in diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-show-hide-shapes.md)**  
-Configure a custom shape library element to show or hide it in different diagram types.
--   **[Add or edit a shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-shape-library.md)**  
-Create a shape library or edit an existing library to add new shapes and create diagrams using the shapes.
--   **[Add a shape library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-shape-library-element.md)**  
-Create a shape library element to associate a shape and its diagram action to the shape library.
--   **[View configuration for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-modeling-config.md)**  
-View all the configuration details of Enterprise Architecture Workspace.
--   **[Create diagram action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-create-diagram-action.md)**  
-Create diagram actions for newly added custom shapes that can be used in Enterprise Modeling and Visualization to create diagrams.
--   **[Edit a modeling configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-modeling-menu.md)**  
-As an administrator, you can edit an existing configuration details for modeling. You can also make the configuration active or inactive.
--   **[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-entity-config.md)**  
-View all entities available for the Enterprise Modeling and Visualization in the Enterprise Architecture Workspace.
--   **[Add or edit an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-entity.md)**  
-Add an entity or edit an existing entity details that are included in the Enterprise Modeling and Visualization diagram.
--   **[Add or update shape icon for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-update-entity-icon.md)**  
-Add a shape icon to an entity or edit an existing one to use them in creating Enterprise Modeling and Visualization diagram.
--   **[View relationships configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-relationships.md)**  
-View all relationship configurations available for the Enterprise Modeling and Visualization in the Enterprise Architecture Workspace.
--   **[Add or edit a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-relationship.md)**  
-Add or edit a relationship configuration details available for the Enterprise Modeling and Visualization in the Enterprise Architecture Workspace.
+The Enterprise Modeling and Visualization diagrams aren’t illustrative but interactive artifacts that support planning and governance with regard to your enterprise architecture landscape. You can create, edit, and manage diagrams using ArchiMate, general, or Enterprise Architecture shapes.
 
-**Parent Topic:**[Work with the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
+**Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
 
 **Related topics**  
 
 
-[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+
+[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+
+[View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-shape-libraries.md)
+
+[Show or hide shapes in diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-show-hide-shapes.md)
+
+[Add or edit a shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-shape-library.md)
+
+[Add a shape library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-shape-library-element.md)
+
+[View configuration for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-modeling-config.md)
+
+[Create diagram action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-create-diagram-action.md)
+
+[Edit a modeling configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-modeling-menu.md)
+
+[View all entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-entity-config.md)
+
+[Add or edit an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-entity.md)
+
+[Add or update shape icon for an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-update-entity-icon.md)
+
+[View relationships configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-relationships.md)
+
+[Add or edit a relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-relationship.md)
 

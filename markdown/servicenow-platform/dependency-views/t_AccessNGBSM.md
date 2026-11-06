@@ -7,9 +7,9 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Use Dependency Views, Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View a Dependency Views map
@@ -22,7 +22,7 @@ Role required: dependency\_views \(see general requirements\)
 
 General role requirements:
 
--   To access a Dependency Views map from either the navigation menu, a script API, or directly from a URL, the minimum role required is the dependency\_views. Some operations that are related to icons, indicators, and menu actions require the ecmdb\_admin role. Some operations that are related to properties and dependency types require the admin role.
+-   To access a Dependency Views map from either the navigation menu, a script API, or directly from a URL, the minimum role required is the dependency\_views. Some operations that are related to icons, indicators, and menu actions require the ecmdb\_admin role. Some operations that are related to properties and dependency types require the sn\_cmdb\_admin or admin role.
 -   Dependency Views enforces ACL permissions on CIs, and visually hides them and their relationship from the map if the permission requirement is not met.
 
 ## About this task
@@ -58,8 +58,6 @@ Administrators can configure the setting for the default layout of the map and n
 [Change the layout of Dependency Views map]()
 
 [Filter the view of a Dependency Views map]()
-
-[View metrics for CIs in a Dependency Views map]()
 
 [Perform actions on nodes in a Dependency Views map]()
 

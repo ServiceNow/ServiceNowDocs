@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2025-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -48,17 +48,13 @@ Active
 
 Option to activate the calendar provider.
 
-</td></tr><tr><td colspan="2">
-
-**Provider Configuration**
-
 </td></tr><tr><td>
 
 Calendar processor
 
 </td><td>
 
-Calendar processor for the synchronization. Select **Microsoft Graph**.
+Calendar processor for the synchronization. Select **Microsoft Graph** from the **Provider Configuration** tab.
 
 </td></tr><tr><td>
 
@@ -66,7 +62,7 @@ Override alias?
 
 </td><td>
 
-Option to enable the selection of your own connection and credential alias. If the option isn’t enabled, then the default connection and credential alias are used.
+Option to enable the selection of your own connection and credential alias from the **Provider Configuration** tab. If the option isn’t enabled, then the default connection and credential alias are used
 
 </td></tr><tr><td>
 
@@ -74,7 +70,7 @@ Connection &amp; credential alias
 
 </td><td>
 
-Select the connection and credential alias that you created on your own for the calendar provider. This option appears only if you have selected the **Override alias?** option. If an alias isn’t specified, then the default connection and credential alias are used.
+Select the connection and credential alias that you created on your own for the calendar provider. This option appears only if you have selected the **Override alias?** option. If an alias isn’t specified, then the default connection and credential alias are used
 
 </td></tr><tr><td>
 

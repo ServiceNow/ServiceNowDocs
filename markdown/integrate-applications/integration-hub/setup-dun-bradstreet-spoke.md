@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Dun and Bradstreet DirectPlus Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Dun and Bradstreet DirectPlus Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Dun and Bradstreet DirectPlus spoke
@@ -22,7 +22,7 @@ Integrate the ServiceNow instance and Dun and Bradstreet Direct+ by using the cl
 -   Activate Dun and Bradstreet DirectPlus spoke.
 -   Role required: admin
 
-## Configure a connection for Dun and Bradstreet DirectPlus spoke
+## Configure a connection for the Dun and Bradstreet DirectPlus spoke
 
 Add and configure a Dun and Bradstreet DirectPlus connection to authenticate ServiceNow requests.
 
@@ -51,14 +51,16 @@ Add and configure a Dun and Bradstreet DirectPlus connection to authenticate Ser
 
     |Field|Description|
     |-----|-----------|
+    |Connection Information|
     |Name|Name to uniquely identify the connection record. For example, `Dun and Bradstreet Directplus connection`|
     |Connection URL|URL of the Dun and Bradstree Direct+ instance. Enter `https://plus.dnb.com`.|
+    |Credential Information|
     |Client ID|Client ID of your Dun and Bradstreet DirectPlus account.|
     |Client Secret|Client secret of your Dun and Bradstreet DirectPlus account.|
 
     \[Omitted image "d-and-b-connection-form.png"\] Alt text: Dun and bradstreet connection template form
 
-6.  Click **Configure Configure and Get OAuth Token**.
+6.  Click **Save and Get OAuth Token**.
 
 
 ### Result

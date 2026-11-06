@@ -7,7 +7,7 @@ release: yokohama
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure Emergency Outreach notifications, Emergency Outreach, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---

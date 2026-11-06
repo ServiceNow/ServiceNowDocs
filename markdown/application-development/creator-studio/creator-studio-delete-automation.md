@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with automation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Automation in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete a playbook in Creator Studio
@@ -32,7 +32,7 @@ To delete a playbook, you must be given permission to work on the app.
 
     \[Omitted image "crs-auto-copy-nav.png"\] Alt text: Select the automation in the navigation panel
 
-5.  Select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text:\).
+5.  Select the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text:.
 
 6.  Select **Delete**.
 

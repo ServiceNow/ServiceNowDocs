@@ -7,7 +7,7 @@ release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Walk-up Experience, IT Service Management]
 ---
@@ -30,9 +30,9 @@ The Walk-up Experience service channel is viewed and configured through Advanced
 
 2.  Select **Walk-up** to open the Walk-up Experience service channel.
 
-3.  Refer to [Configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-service-channel.md) for detailed information regarding the Service Channel Walk-up form values and conditions.
+3.  Refer to Configure a service channel for detailed information regarding the Service Channel Walk-up form values and conditions.
 
-    For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+    For more information regarding Advanced Work Assignment service channels, including configuring capacity and utilization, inbox layout, and overriding agent capacity for selected agents, refer to .
 
 
 **Parent Topic:**[Configuring Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/walkup-experience-configuration.md)

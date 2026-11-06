@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View historical changes for a CI
@@ -21,8 +21,8 @@ The **Changes** panel in Unified Map displays change details such as changes to 
 Role required:
 
 -   To access maps: sn\_cmdb\_user, sn\_cmdb\_editor or sn\_cmdb\_admin
--   To access maps with operational application services: app\_service\_user, and sm\_user or sm\_admin
--   To access maps with operational and non-operational application services: app\_service\_admin, and sm\_user or sm\_admin
+-   To access maps with operational service instances: app\_service\_user, and sm\_user or sm\_admin
+-   To access maps with operational and non-operational service instances: app\_service\_admin, and sm\_user or sm\_admin
 -   To access and view related items: itil
 
 ## About this task
@@ -38,7 +38,7 @@ Changes are also indicated on the timeline. For more information, see [Viewing r
     \[Omitted image "um-changes-panel.png"\] Alt text: Details of changes for the CI.
 
     -   Select **Show more / Show less** for details on a card.
-    -   Hold the cursor over a change to select the Flag as important icon to flag the change as important.
+    -   To flag a change as important, hold the cursor over a change and then select the Flag as important icon.
 
 2.  Perform other tasks.
 
@@ -48,7 +48,7 @@ Changes are also indicated on the timeline. For more information, see [Viewing r
         -   Field changes
         -   Flagged
         -   Filter sets
-    -   Select the Search icon \[Omitted image "icon-um-change-search.png"\] and enter text in the Search Activity Stream field to find specific changes by entering terms.
+    -   Select the Search icon \[Omitted image "icon-um-change-search.png"\] and enter text in the **Search Activity stream** field to find specific changes by entering terms.
     -   Select the ascending \[Omitted image "icon-um-open-filter-panel.png"\] or descending sort icon \[Omitted image "icon-um-change-sort.png"\] to toggle between ascending or descending sort.
     -   Create a filter set to supplement the existing filtering options on the Changes panel. You can save filter settings for reuse. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
 

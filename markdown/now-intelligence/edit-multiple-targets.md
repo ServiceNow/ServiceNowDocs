@@ -1,32 +1,34 @@
 ---
-title: Edit targets in KPI Details
+title: Edit multiple targets in KPI Details
 description: Retroactively change one or more existing targets from their start date instead of ending them and starting new targets from a later date. You can edit multiple targets to have the same value, the same change in value, or the same date.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/edit-multiple-targets.html
 release: yokohama
 topic_type: task
 last_updated: "2023-08-03"
-reading_time_minutes: 5
+reading_time_minutes: 6
 breadcrumb: [Targets and thresholds, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
-# Edit targets in KPI Details
+# Edit multiple targets in KPI Details
 
 Retroactively change one or more existing targets from their start date instead of ending them and starting new targets from a later date. You can edit multiple targets to have the same value, the same change in value, or the same date.
 
 ## Before you begin
 
-Role required: pa\_target\_admin to edit all global targets. Any user with a personal target can edit that target.
+Role required: pa\_target\_admin to edit all targets that were created for everyone. Any user with a target that they created for themselves can edit that target.
 
-A responsible user can edit a global target they are responsible for, regardless of role. For more information, see [Responsibility for global indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/responsibiity-targets-kpi-details.md).
+A responsible user can edit any target that they are responsible for, regardless of role. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/responsibiity-targets-kpi-details.md).
 
 ## About this task
 
 If you have multiple targets set on the same indicator, the Target Configuration panel in KPI Details lets you set them in bulk to have the same start date, review date, or value. As a manager, you can use this feature to modify targets for a set of segments.
 
+**Note:** The Target Configurations panel does not support native Data snapshots indicators.
+
 You can change only identical target values to new values. You can change differing start and review dates to new, identical start or review dates. However, none of the new periods when the targets would apply can overlap the periods of other targets that match the same filters.
 
-**Note:** An alternative interface is available for a quick edit of a single target. Open the Targets panel and select the tile for a target. You can change the absolute value and the Start and Review dates of the target. For more options in editing a target, or to edit multiple targets, use the following procedure instead.
+**Note:** An alternative interface is available for a quick edit of a single target. Open the Targets panel and select the tile for a target. You can change the absolute value and the Start and Review dates of the target. Native Data snapshot indicators support this alternative interface. For more options in editing a target, or to edit multiple targets, use the following procedure instead.
 
 ## Procedure
 
@@ -36,9 +38,11 @@ You can change only identical target values to new values. You can change differ
 
     The **Targets** panel opens.
 
-3.  Click the cogwheel to open the **Targets Configuration** page.
+3.  Click the cogwheel to open the **Targets Configuration** panel.
 
     \[Omitted image "kpi-details-target-config-cogwheel.png"\] Alt text: Targets panel top showing config cogwheel.
+
+    **Note:** The Targets Configuration panel is not available for native Data snapshots indicators.
 
     The **Targets configuration** view opens.
 
@@ -136,9 +140,11 @@ The highest value you want the target to have, regardless of calculation. You do
 
 [Create a target in KPI Details]()
 
+[Subscribe users to Data snapshots indicator target]()
+
 [Create, modify, or delete a threshold in KPI Details]()
 
-[Add targets for multiple breakdown elements in KPI Details]()
+[Add a target to multiple breakdown elements in KPI Details]()
 
-[Responsibility for global indicator targets]()
+[Responsibility for indicator targets]()
 

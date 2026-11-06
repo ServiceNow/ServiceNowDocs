@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-display-values-as-tab-titles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Display field values as interaction record tab titles
@@ -20,8 +20,6 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-**Note:** This task applies to CRM Workspace.
-
 Configure the **sessionTabTitle** property to identify the fields that can be used in interaction record tab titles. Enter fields in this property as a comma separated string.
 
 The system evaluates these fields in the order that they appear in the string. The first field that has a value is used as the interaction record tab title. If none of the fields in the string have values, the system displays the record number as the tab title.
@@ -30,9 +28,9 @@ The system evaluates these fields in the order that they appear in the string. T
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences** and select CRM Workspace.
 
-2.  In the UX Page Properties list, click the **sessionTabTitle** property.
+2.  In the UX Page Properties list, select the **sessionTabTitle** property.
 
 3.  In the **Value** field, enter the fields to use in interaction record tab titles.
 
@@ -40,6 +38,6 @@ The system evaluates these fields in the order that they appear in the string. T
 
     **Note:** Configured fields must appear on the interaction record.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 

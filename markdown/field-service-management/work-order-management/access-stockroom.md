@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Requesting and receiving required parts, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Requesting and receiving required parts, Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Access stockroom information on the Field Service Contractor Portal
@@ -34,6 +34,4 @@ Agents can access only information for their personal stockrooms and group stock
 
     -   To check the status of hardware items available in the stockroom, such as model, quantity, state, and sub state, click the Hardware related list.
     -   To check the status of consumable items available in the stockroom, such as quantity, state, and sub state, click the Consumable related list.
-
-**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
 

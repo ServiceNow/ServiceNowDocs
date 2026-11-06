@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [hardware asset resale, resell retired assets]
-breadcrumb: [Create a disposal order, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Create a disposal order, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Resale hardware assets
@@ -22,8 +22,6 @@ Enhance asset management by reselling eligible retired hardware assets instead o
 Role required: asset
 
 ## About this task
-
-**Important:** The asset resale feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 Asset resale is an extension of the asset disposal workflow that enables you to resell eligible retired assets instead of disposing of them. This approach helps reduce waste and save costs, because you can receive credit for assets that you successfully resell. When the Disposal order is in the Documentation stage, you can choose between disposing of or reselling the assets.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute a task from the agent map, Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Agent location
@@ -23,6 +23,4 @@ These coordinates are updated at a predefined interval based on geolocation data
 -   Action description
 -   Work order task number
 -   Location timestamp
-
-**Parent Topic:**[Execute a task from the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheAgentMap.md)
 

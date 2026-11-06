@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure email notification on application service severity change, Application services in Event Management, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure email for severity changes, Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure contextual colors and icons
@@ -156,5 +156,5 @@ Icon that is displayed when the context includes an icon and when accessibility 
 </table>4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure email notification on application service severity change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)
+**Parent Topic:**[Configure email notifications for service severity changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMCreateEmailNotificationBusinessService.md)
 

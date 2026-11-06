@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/example-add-slide-to-existing-page.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Overview help pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,8 +28,6 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
 
 2.  Open the help page for the current version.
 
-    \[Omitted image "OverviewHelpPageIstanbul.png"\] Alt text: Overview help page record
-
 3.  In the **Overview Help Panels** related list, click **New**.
 
 4.  Create a panel with these values:
@@ -41,8 +39,6 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
     -   **Text**: Enter a description of the feature, emphasizing the highlights in this version. In this example, the text describes the ability to create activities and share them in the ServiceNow store.
     **Note:** Buttons for custom panels do not have icons on them.
 
-    \[Omitted image "OverviewHelpExample1.png"\] Alt text: Workflow Editor panel
-
 5.  Save the record.
 
 6.  Create another panel with these values:
@@ -52,8 +48,6 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
     -   **Roles**: **assessment\_admin**. Only users with this role are able to see this panel.
     -   **Image**: This is an example of a bubble chart that you want the assessment administrators to see.
     -   **Text**: Enter a description of the chart to display to the users, emphasizing the advantages of this type of chart.
-    \[Omitted image "OverviewHelpPanelHelsinki.png"\] Alt text: Assessment reports panel
-
 7.  Save the record.
 
 8.  Log in as a user with the assessment\_admin role.
@@ -62,13 +56,9 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
 
     The overview help page for the current version appears, with the control button for the auditing dashboard displayed for the user in the order configured.
 
-    \[Omitted image "OverviewHelpExamplePageIstanbul.png"\] Alt text: Overview help page for the assessment administrator
-
 10. Click the button to display the assessment report panel.
 
     The image you selected for your custom panel appears with the title and description you defined.
-
-    \[Omitted image "OverviewHelpExample6.png"\] Alt text: Assessment report panel
 
 11. Log out and log in again as a user with the activity\_admin role.
 
@@ -76,13 +66,9 @@ You can create a panel that displays a screenshot of auditing gauges to users wi
 
     The overview help page for the current version appears, with the control button for the Workflow Editor tabs displayed for the user in the order configured.
 
-    \[Omitted image "OverviewHelpExample7.png"\] Alt text: Overview help page for the Orchestration user
-
 13. Click the button to display the Orchestration activities panel.
 
     The image you selected for your custom panel appears with the title and description you defined.
-
-    \[Omitted image "OverviewHelpExample5.png"\] Alt text: Orchestration panel
 
 
 **Parent Topic:**[Overview help pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/overview-help-pages.md)

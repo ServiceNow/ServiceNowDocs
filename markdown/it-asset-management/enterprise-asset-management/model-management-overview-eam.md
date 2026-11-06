@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Workspace, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise model management overview for Enterprise Asset Workspace
@@ -22,7 +22,7 @@ You can access the Enterprise model management view by navigating to **Enterpris
 
 To access detailed information and take relevant action, select any widget. You can also narrow your results by using the **Model category** filter.
 
-\[Omitted image "modeloverview.png"\] Alt text: Model management view
+\[Omitted image "modeloverview.png"\] Alt text: Enterprise model management view
 
 <table id="table_a3f_2h4_nrb"><thead><tr><th>
 

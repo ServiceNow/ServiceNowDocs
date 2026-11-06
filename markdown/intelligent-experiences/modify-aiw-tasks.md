@@ -1,0 +1,107 @@
+---
+title: Edit the tasks of an AI specialist in the legacy AI Agent Studio
+description: Select tasks that an AI specialist can perform in the legacy AI Agent Studio.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/modify-aiw-tasks.html
+release: yokohama
+topic_type: task
+last_updated: "2026-10-13"
+reading_time_minutes: 6
+keywords: [ai specialist tasks, ai specialist actions, ai specialist capabilities, ai specialist configure, ai specialist settings, ai specialist classify assign, ai specialist triage diagnose, ai specialist investigate resolve, ai specialist response formatting, ai specialist reassign]
+breadcrumb: [Configure in the legacy AI Agent Studio, Configure, Autonomous Workforce, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Edit the tasks of an AI specialist inthe legacy AI Agent Studio
+
+Select tasks that an AI specialist can perform inthe legacy AI Agent Studio.
+
+## Before you begin
+
+Role required: sn\_aia.admin
+
+## About this task
+
+AI specialist tasks determine what they can do. Choosing the correct tasks provides your AI specialist with the tools required to complete complex goals autonomously.
+
+To learn how to modify the roles and capabilities that an AI specialist has, see [Edit the profile of an AI specialist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/modify-aiw-profile.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+
+2.  In the **AI specialists** tab, select the AI specialist you want to edit.
+
+3.  Navigate to the **Tasks** tab in the AI specialist guided setup to view the full list of tasks that the AI specialist can perform.
+
+4.  Select the card of a task to review and make changes to the specific details of the task configuration.
+
+    The following tasks are available to the L1 IT Service Desk AI Specialist. These are presented as examples. Different AI specialists may have different tasks.
+
+    \[Omitted image "aiw-aias-tasks-all.png"\] Alt text: Tasks tab of the L1 IT Service Desk AI Specialist guided setup with cards for Classify and assign, Triage and diagnose, Investigate and resolve, Response formatting, and Reassign
+
+    -   **Classify and assign**
+
+        Configure how the AI specialist identifies incidents, classifies them, and assigns a specific incident type for follow-up.
+
+        -   **Table**: Select the table in which the AI specialist operates and resolution workflows are executed.
+        -   **Fields to predict**: Enter the fields that the AI specialist should classify if empty.
+        -   **Similar records search profile**: Select the AI Search profile that should be used for gathering records similar to the assigned record.
+        -   **Override existing field values with predictions**: Enable this setting to let the AI specialist use predictions from similar records to replace existing values. Fields that can potentially be overridden are **Service**, **Offering**, and **CI**. Turn off if you only want the AI specialist to fill in empty fields.
+    -   **Triage and diagnose**
+
+        Configure the details for how the AI specialist analyzes incidents for accurate handling.
+
+        -   **Field to use as Task objective**: Select the record fields which the AI specialist uses to analyze and determine the next steps.
+        -   **Use attachment content**: Enable the option for the AI specialist to review the content of attached files as part of incident triage and diagnosis.
+        -   **Map AI specialist states to record states**: Map the states of the AI specialist's execution to the states of the incident record. For example, the AI specialist's **Awaiting information** state can be mapped to the Incident record **On Hold** state. If you have customized state values for your Incident table, you can map them to the AI specialist's states here.
+        -   **Routing criteria**: Add criteria that determine which records the AI specialist handles. Criteria are grouped into two sections:
+
+            -   **Attempt resolution for**: When an incident matches one of these criteria, the AI specialist attempts to resolve it.
+            -   **Reassign for**: When an incident matches one of these criteria, the incident is reassigned to a human.
+            To add a criterion, select **Add attempted criteria** or **Add reassigned criteria**, depending on which decision you want the criterion to trigger. In the **New routing criteria** dialog box, enter a name in the **Criteria** field and explain in the **Description** field which incidents belong to the criterion.
+
+            Select **Submit** to add the criterion. The criterion appears as a labeled item in its section.
+
+            To change a criterion, select its name to reopen the dialog box. To remove a criterion, select the **X** next to its name and then select **Delete** to confirm. A removed criterion is no longer used when the AI specialist routes work.
+
+    -   **Investigate and resolve**
+
+        Configure the following details on how the AI specialist investigates to find relevant solutions and resolve the issue.
+
+        -   **Knowledge sources**: Select search profiles and/or knowledge base **sys\_ids** to define how the AI specialist retrieves knowledge articles. AI search profiles can include sources such as knowledge articles, ServiceNow documentation, or specific tables. You can create AI Search profiles specifically for your AI specialists. To customize what information your AI specialist accesses, add search profiles with the pre-installed ones or remove the pre-installed ones. You must have at least one search profile selected for the AI specialist to complete the **Investigate and resolve** task.
+
+            **Note:** If you include a table as a search source but don't grant the AI specialist access through its assigned roles, it can't search that table.
+
+        -   **Automatically create KFT records**: Enable if you want the AI specialist to create a KB Feedback Task record after proposing a solution without an existing knowledge article.
+        -   **Research depth**: Select how extensively the AI specialist must gather and analyze data during investigation.
+        -   **Pre resolution condition**: The conditions that must be true before the AI specialist will resolve the ticket. These are fields that get filled in after a ticket has been submitted.
+        -   **Execution mode**: Determine how autonomously the AI specialist should act. **Autopilot** mode grants the AI specialist the ability to mark a ticket as resolved once resolution steps are sent. **Supervised \(Copilot\)** mode requires human acceptance of its resolution proposal.
+        -   **Auto-submit catalog requests**: Enable AI specialists to submit catalog items on behalf of the user without an additional confirmation step.
+    -   **Response formatting**
+
+        Configure the details on how the AI specialist communicates to keep requesters informed through communication channels.
+
+        -   **Inbound channels**: Select the inbound channels such as Activity stream through which the AI specialist can receive messages from requesters.
+        -   **Outbound Channels**: Select the outbound channels the AI specialist uses to send responses or notifications. You can select channels such as Activity stream, email, portal, or phone.
+        -   **Internal communication when confidence is low**: Enable to allow the AI specialist to log its solution as a work note rather than proposing it directly.
+        -   **Response templates**: Write the template for what the AI specialist should say to communicate to the user. You can set response templates for three different AI specialist states: Awaiting Info, Solution Proposed, and Reassign to Human. You can format your message using the WYSIWYG editor to include things like bold text, specific fonts, tables, highlighting, links, and bullets.
+    -   **Reassign**
+
+        Configure the following details on how the AI specialist directs unresolved incidents to the correct team or agent for timely resolution.
+
+        -   **Maximum number of interactions before escalation**: Set how many times to contact the requester before sending to a human agent. Enter a number greater than zero.
+        -   **Reassign on follow-up question**: Enable this option to send the ticket to a human agent when the requester asks a follow-up question. Turning off the option lets the AI specialist handle follow-ups.
+        -   **Choose where to reassign records**: Select the assignment group to reassign the ticket after an AI specialist has reviewed it and chosen to reassign it.
+        -   **Cross-group reassignment**: Enable the AI specialist to recommend reassigning an incident to a different assignment group. The AI specialist never reassigns an incident to a different assignment group on its own.
+        -   **Cross-group confidence threshold**: Set the confidence threshold for whether an incident belongs to a specific other assignment group.
+5.  Select **Save** to save your changes.
+
+    You can make additional changes to your AI specialist before selecting save. Changing tabs in the AI specialist guided setup won't lose your changes.
+
+    If you don't select **Save** before navigating to a new page or closing the browser, your changes are lost.
+
+
+## Result
+
+Your AI specialist tasks are updated. After being assigned work, your AI specialist performs the actions necessary to complete those tasks on the relevant records.
+

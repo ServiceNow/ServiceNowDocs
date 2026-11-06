@@ -1,5 +1,5 @@
 ---
-title: Open your configurable workspace experience in UI Builder for Cloud Discovery Workspace
+title: Access the UI Builder in Cloud Discovery Workspace
 description: Access your Configurable Workspace experience in UI Builder for editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-discovery-workspace/open-workspace-ui-builder-cdw.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cloud Discovery Workspace, ITOM Visibility, IT Operations Management]
 ---
 
-# Open your configurable workspace experience in UI Builder for Cloud Discovery Workspace
+# Access the UI Builder in Cloud Discovery Workspace
 
 Access your Configurable Workspace experience in UI Builder for editing.
 
 ## Before you begin
 
-Role required: admin, ui\_builder\_admin
+Role required: ui\_builder\_admin or admin
 
 ## Procedure
 

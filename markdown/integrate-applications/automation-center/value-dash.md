@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Automation Center Workspace, Exploring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Workspace, Explore, Automation Center, Workflow Data Fabric]
 ---
 
 # Automation Center Value dashboard
@@ -22,7 +22,7 @@ All widgets under the following sections are available only if the you have the 
 -   Number of deployed automations under Active automations
 -   Future automations
 
-To access all other widgets in the Active automations section, you must associate a domain configuration with a data collection job. For more information see [https://www.servicenow.com/docs/bundle/yokohama-now-intelligence/page/use/performance-analytics/task/associate-domain-config-dc-job.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/associate-domain-config-dc-job.md).
+To access all other widgets in the Active automations section, you must associate a domain configuration with a data collection job. For more information see [https://www.servicenow.com/docs/bundle/zurich-now-intelligence/page/use/performance-analytics/task/associate-domain-config-dc-job.html](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/associate-domain-config-dc-job.md).
 
 You can access the Value dashboard in either of two ways:
 

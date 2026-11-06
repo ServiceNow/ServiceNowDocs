@@ -1,36 +1,37 @@
 ---
 title: Map a field group to a clause
-description: Map field groups of a use case to clause variations of a clause library. Now Assist uses the mapped clause content to display suggestions for a missing or non-standard clause.
+description: Map field groups of a use case to clauses of a clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-map-fieldgrp-clause.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-03-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Contract analysis, Contract analysis clause mapping, Clause mapping, Now Assist in contract management pro, ServiceNow Otto for Contract Management Pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a field group to a clause
 
-Map field groups of a use case to clause variations of a clause library. Now Assist uses the mapped clause content to display suggestions for a missing or non-standard clause.
+Map field groups of a use case to clauses of a clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
 
 ## Before you begin
 
 Ensure that you have active clauses in the clause library.
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
+Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile for your skill, select **Activate skill**.
+3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -64,7 +65,11 @@ Request table
 
 </td><td>
 
-Request table that contains the clauses that you want to map.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+Request table that contains the clauses that you want to map.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose a different table for the mapping.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 
@@ -90,6 +95,14 @@ Clause that you want to map the field group to.**Note:** Only active clauses are
 9.  Select **Save**.
 
 
+## Result
+
+The field groups are mapped to clauses of the clause library. AI uses the mapped clause content to display suggestions for a missing or non-standard clause.
+
+## What to do next
+
+[Map a field to an expected response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-exp-res-mapping.md)
+
 **Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 
 **Related topics**  
@@ -100,4 +113,6 @@ Clause that you want to map the field group to.**Note:** Only active clauses are
 [Map a field to an expected response]()
 
 [Map a use case for contract analysis]()
+
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -796,6 +796,24 @@ Can create and update permit request.
 -   sn\_hs\_rm.risk\_assessment\_reader
 -   sn\_hs\_rm.safety\_inspection\_reader
 
+</td></tr><tr><td>
+
+Intelligent policy author
+
+ \[ptw\_intelligent\_policy\_author\]
+
+</td><td>
+
+Intelligent policy author for Health and Safety permit to work who can-   View permits and their child records, for example, permit checklists
+-   Create and update documents in the Health and Safety document library where the approval policy lives
+-   Approve permits
+
+</td><td>
+
+-   sn\_ohs\_im.document\_writer
+-   sn\_ohs\_im.document\_reader
+-   sn\_hs\_rm.permit\_reader
+
 </td></tr></tbody>
 </table>## Tables installed
 
@@ -839,13 +857,37 @@ Stores all audit schedules created for safety audits. This table extends the Hea
 
 </td></tr><tr><td>
 
-Audit survey
+Audit questionnaire
 
  \[sn\_hs\_rm\_audit\_survey\]
 
 </td><td>
 
-Stores all audit surveys for safety audits. This table extends the Health and Safety task \[sn\_ohs\_im\_task\] table.
+Stores all audit questionnaires such as smart assessments and surveys for safety audits. This table extends the Health and Safety task \[sn\_ohs\_im\_task\] table.
+
+</td></tr><tr><td>
+
+Criteria\[sn\_hs\_rm\_audit\_criteria\]
+
+</td><td>
+
+Stores all criteria for safety audits.
+
+</td></tr><tr><td>
+
+Item for review\[sn\_hs\_rm\_audit\_item\_for\_review\]
+
+</td><td>
+
+Stores all items for review for safety audits. This table extends the Health and Safety task \[sn\_ohs\_im\_task\] table.
+
+</td></tr><tr><td>
+
+Objective\[sn\_hs\_rm\_audit\_objective\]
+
+</td><td>
+
+Stores all objectives for safety audits. This table extends the Health and Safety task \[sn\_ohs\_im\_task\] table.
 
 </td></tr><tr><td>
 

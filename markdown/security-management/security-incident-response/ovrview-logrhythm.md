@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -46,7 +46,7 @@ This integration is compatible with LogRhythm 7.8 or later. The earlier versions
 
 **Note:** The following topics are numbered. For a smooth installation and to help you verify expected results, follow the topics in the order they’re presented.
 
-1.  [Set up the REST API for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-api-lr.md)  
+1.  [Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-api-lr.md)  
 You use the LogRhythm REST API key to gather additional event details for individual alarm fields. The API key provides details that are unavailable using the LogRhythm REST API.
 2.  [Install the plugin and configure LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/install-and-config-logrhythm.md)  
 Before you run the integration on your instance, complete the installation and configuration steps so the application properly integrates with Security Operations on the ServiceNow AI Platform®.

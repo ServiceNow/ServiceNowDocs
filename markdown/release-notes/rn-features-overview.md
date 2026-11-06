@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-features-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Yokohama release notes]
+breadcrumb: [Brazil release notes]
 ---
 
 # Build your own release notes
@@ -35,7 +35,7 @@ Get a glimpse of release notes based on what products you have and what informat
 
 </td><td>
 
--   **[Personalized PRB release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-summary-fixes.md)**
+-   **[Personalized PRB release notes](https://www.servicenow.com/docs/r/release-notes/brazil-summary-fixes.html)**
 
 With personalized PRB release notes, collect a list of fixes to fit your specific upgrade scenario. Choosing your current release version and your targeted release version generates a list of all the fixes included in your upgrade. View this list in a table, or download a spreadsheet to sort and review PRBs as needed.
 
@@ -48,13 +48,13 @@ With personalized PRB release notes, collect a list of fixes to fit your specifi
 
 </td><td>
 
--   **Combined product release notes**
+-   **[Combined product release notes](https://www.servicenow.com/docs/r/release-notes/brazil-australia-combined-release-notes.html)**
 
 If your upgrade involves skipping one or more family releases, combined product release notes ensure you have all the information you need to prepare for your upgrade. From a list of available products, you can filter changes and features for your specific applications across the relevant releases, and view the information all on one page.
 
-    -   [Combined product release notes for upgrades from Xanadu to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-xanadu-combined-release-notes.md)
-    -   [Combined product release notes for upgrades from Washington DC to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-washingtondc-combined-release-notes.md)
-    -   [Combined product release notes for upgrades from Vancouver to Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-vancouver-combined-release-notes.md)
+    -   [Combined product release notes for upgrades from Australia to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/brazil-australia-combined-release-notes.md)
+    -   [Combined product release notes for upgrades from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/brazil-zurich-combined-release-notes.md)
+    -   [Combined product release notes for upgrades from Yokohama to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/brazil-yokohama-combined-release-notes.md)
 \[Omitted image "combined-rn.png"\] Alt text: Personalized PRBs
 
 
@@ -76,7 +76,7 @@ Once you're equipped with the product and PRB information you need, compile a li
 
 To begin building your release notes, choose an option above or select which family you're upgrading from:
 
--   [Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
--   [Release notes for upgrading from Washington DC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-2-landing-page.md)
--   [Release notes for upgrading from Vancouver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-3-landing-page.md)
+-   [Release notes for upgrading from Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
+-   [Release notes for upgrading from Zurich](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-2-landing-page.md)
+-   [Release notes for upgrading from Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-3-landing-page.md)
 

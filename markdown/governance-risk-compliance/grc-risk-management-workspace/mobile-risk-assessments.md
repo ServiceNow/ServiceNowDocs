@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -58,15 +58,15 @@ Reassign a risk assessment that is past its due date directly from the list of r
 
     \[Omitted image "mobile\_risk\_assment\_rcd.jpg"\] Alt text: Assessment record details.
 
-<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d52240e221">
+<table id="choicetable_y2s_tlz_xhb"><thead><tr><th align="left" id="d45403e218">
 
 Option
 
-</th><th align="left" id="d52240e224">
+</th><th align="left" id="d45403e221">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d52240e230">
+</th></tr></thead><tbody><tr><td id="d45403e227">
 
 **Reassign**
 
@@ -74,7 +74,7 @@ Description
 
 With the record displayed, review the details and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to reassign the assessment.
 
-</td></tr><tr><td id="d52240e245">
+</td></tr><tr><td id="d45403e242">
 
 **Tap a screen icon at the bottom of the screen.**
 

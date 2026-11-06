@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Add a service to SRM
@@ -18,20 +18,20 @@ Add services to Service Reliability Management \(SRM\) to help your teams manage
 
 ## Before you begin
 
-If you’re adding a technical service to SRM, make sure it doesn’t have a support group. You assign the support group when you add the service to SRM.
+If you’re adding atechnology management service to SRM, make sure it doesn’t have a support group. You assign the support group when you add the service to SRM.
 
-Role required: srm\_admin, srm\_manager, or srm\_responder
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## About this task
 
-Add a service to SRM to assign it to your teams and let them access its incidents and alerts. You can either create a service or import an existing one. SRM supports both application and technical services:
+Add a service to SRM to assign it to your teams and let them access its incidents and alerts. You can either create a service or import an existing one. SRM supports both service instances and technology management services:
 
--   Application services - Business-facing services, such as an HR portal. Application services often have multiple infrastructure components.
--   Technical services - IT-focused services that support a business or application service. For example, an authentication service or database service.
+-   Service instances - Business-facing services, such as an HR portal. Service instances often have multiple infrastructure components.
+-   Technology management services - IT-focused services that support a business service or service instance. For example, an authentication service or database service.
 
-When you add a technical service to SRM, you also add its Technical Service Offerings \(TSOs\). TSOs are specific components within a parent technical service. For example, Spam filtering is a TSO within the Email technical service. In SRM, you can assign a parent technical service and its TSOs to different teams.
+When you add a technology management service to SRM, you also add its offerings. Offerings are specific components within a parent technology management service. For example, Spam filtering is an offering within the Email technology management service. In SRM, you can assign a parent technology management service and its offerings to different teams.
 
-**Note:** When you import an existing technical service, its TSOs don’t inherit its support group. TSOs either keep their existing support group or, if they don’t have one, you must assign it before setting up SRM Service Level Objectives \(SLOs\).
+**Note:** When you import an existingtechnology management service, itsofferings don’t inherit its support group. Offerings either keep their existing support group or, if they don’t have one, you must assign it before setting up Service Level Objectives \(SLOs\).
 
 ## Procedure
 
@@ -41,19 +41,19 @@ When you add a technical service to SRM, you also add its Technical Service Offe
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  Select the Services icon \[Omitted image "icon-sr-services.png"\] Alt text: Services page icon and then select **Add a service**.
+2.  Select the Services icon \[Omitted image "icon-sr-services.png"\] Alt text: Services page icon and then select **Add**.
 
 3.  In the Add services for your teams modal, you can either create a service or add existing services.
 
-<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d112837e148">
+<table id="choicetable_m3m_brg_n1c"><thead><tr><th align="left" id="d487201e166">
 
 Option
 
-</th><th align="left" id="d112837e151">
+</th><th align="left" id="d487201e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d112837e157">
+</th></tr></thead><tbody><tr><td id="d487201e175">
 
 **Create a new service**
 
@@ -64,7 +64,7 @@ Steps
 3.  Select **Next**.
 
 
-</td></tr><tr><td id="d112837e195">
+</td></tr><tr><td id="d487201e213">
 
 **Select existing services**
 
@@ -89,17 +89,14 @@ Steps
 
     If approvals aren't enabled, your service appears in the service list. If approvals are enabled, your request is sent for approval. After it's approved, the service appears in the services list.
 
-    **Note:** If you added a technical service, its TSOs appear in the Offerings tab on the parent technical service’s page. TSOs also appear in the services list. To view a TSO without an assigned support group, remove all filters from the services list.
+    **Note:** If you added atechnology management service, itsofferings appear in the Offerings tab on the parenttechnology management service's page. Offerings also appear in the services list. To viewan offering without an assigned support group, remove all filters from the services list.
 
 
 ## What to do next
 
-If a TSO doesn't have a support group, assign it to a support group before setting up SLOs. For how to assign support groups, see [Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md).
+Ifan offering doesn't have a support group, assign it to a support group before setting up SLOs. For how to assign support groups, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md).
 
 You can also add integrations to your service to start monitoring its health.
-
--   **[Working with SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)**  
-Connect your services to monitoring tools using the Integrations Launchpad . Integrations send information to Service Reliability Management \(SRM\), helping you track alerts, manage incidents, and maintain service health.
 
 **Parent Topic:**[Working with SRM services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-services.md)
 

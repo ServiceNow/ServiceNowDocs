@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-run-job-to-populate-tpm-lifecycle-identifier.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Technology Lifecycle Management \(TLM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run a scheduled job to populate Technology Lifecycle Management lifecycle record identifier
@@ -21,6 +21,12 @@ Ensure the Technology Lifecycle Management \(sn\_apm\_tpm\) plugin version 1.9.0
 Role required: admin
 
 ## About this task
+
+**Important:**
+
+Technology Lifecycle Management \(TLM\) was previously known as Technology Portfolio Management \(TPM\). TPM and TLM refer to the same feature. Table names and scheduled job names continue to use TPM and haven't been renamed.
+
+Whether your instance displays TPM or TLM also depends on your application versions. TLM labels appear only when both the Enterprise Architecture Workspace application \(version 9.2.1 or later\) and the Technology Lifecycle Management plugin, sn\_apm\_tpm \(version 1.11.0 or later\), are installed. If either application is on an earlier version, the interface continues to show TPM.
 
 TLM lifecycle record identifiers are automatically generated on creating a TLM record using the Technology Lifecycle Management \(sn\_apm\_tpm\) plugin version 1.9.0. However, for TLM lifecycle records generated using previous versions of the TLM plugin don't have any lifecycle record identifiers. The TLM record identifiers of these TLM lifecycle records must be generated using the Populate Number field in TPM Discovered Technologies job.
 
@@ -36,21 +42,21 @@ On selecting a TLM lifecycle record identifier, more information on the TLM life
 
 3.  Select  ** Execute Now**.
 
-    **Note:** You must verify that your application scope is set to Technology Lifecycle Management. For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)
+    **Note:** You must verify that your application scope is set to Technology Lifecycle Management. For information on how to change the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md)
 
 
 ## Result
 
 The missing TLM lifecycle record identifiers are generated for the older TLM lifecycle records.
 
-**Parent Topic:**[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
+**Parent Topic:**[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-tpm.md)
 
 **Related topics**  
 
 
 [Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)
 
-[Managing the Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
+[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
 
-[Update TPM data for business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md)
+[Update TPM data for a business application or application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-tpm-data.md)
 

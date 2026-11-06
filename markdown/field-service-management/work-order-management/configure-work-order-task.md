@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring work order tasks
@@ -39,5 +39,9 @@ Optionally, set up one or more work order task configurations.
 -   [Configuring Time Recording for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Configuring-time-recording.md)
 
     Use the time recording feature enables agents to record time worked on tasks from the Work Order Task form and time spent on other activities, such as meetings or training, from the Time Worked form.
+
+-   [Enable PDF summaries at work order task level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/enable-pdf-summary.md)
+
+    Signed PDF summaries are generated at the work order task level. You can generate these PDF summaries at the work order task level by enabling the SM Config.
 
 

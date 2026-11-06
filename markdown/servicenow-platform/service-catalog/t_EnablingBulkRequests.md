@@ -1,5 +1,5 @@
 ---
-title: Clone requests
+title: Create up to ten copies of Service Catalog request
 description: Clone a request to create up to ten copies \(clones\) of the same Service Catalog request, for different users, without having to enter the same information multiple times. For example, you can request a new piece of equipment for several specified people, generating multiple individual requests quickly from a single initial request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/t\_EnablingBulkRequests.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Catalog customization, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Clone requests
+# Create up to ten copies of Service Catalog request
 
 Clone a request to create up to ten copies \(clones\) of the same Service Catalog request, for different users, without having to enter the same information multiple times. For example, you can request a new piece of equipment for several specified people, generating multiple individual requests quickly from a single initial request.
 

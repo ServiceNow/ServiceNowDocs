@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Reopen an incident in Service Operations Workspace
@@ -62,9 +62,9 @@ A success notification message pop-up appears on the banner. The incident record
 
 [Work on an incident record in Service Operations Workspace]()
 
-[Close resolved incident]()
-
 [Remedial actions using Playbook]()
+
+[Close resolved incident]()
 
 [Incident Management in Service Operations Workspace reference]()
 

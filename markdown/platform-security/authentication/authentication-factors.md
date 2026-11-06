@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Authentication factors, Authentication, Factors, Factors in ServiceNow, Authentication factors for AI Voice, Authentication AI Agents]
 breadcrumb: [Authentication, Access Management]

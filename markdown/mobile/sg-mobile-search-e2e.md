@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-search-e2e.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure search criteria, Global search for mobile, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
+breadcrumb: [Configure search criteria, Global search, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Create a search configuration

@@ -1,0 +1,57 @@
+---
+title: Customize showing a full conversation in UI Builder
+description: Customize the show full conversation feature in UI Builder to display the entire email thread between the customer and agent.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-show-full-conversation.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Customize the email interaction experience, Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
+---
+
+# Customize showing a full conversation in UI Builder
+
+Customize the show full conversation feature in UI Builder to display the entire email thread between the customer and agent.
+
+## Before you begin
+
+A duplicate variant must be configured by an administrator. If the duplicate variant isn’t configured, you can't enable Show full conversation. For more information, see [Customize the email interaction experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customize-email-interaction-experience.md).
+
+Role required: admin
+
+## About this task
+
+For more information on UI Builder, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
+
+**Note:** By default, **Enable Email Show full conversation** is enabled for Email Interaction for CSM.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
+
+2.  On the UI Builder page, select **Experiences** tab.
+
+3.  On the Experiences page, search and select **CSM/FSM Configurable Workspace**.
+
+4.  Navigate to **Pages and variants** &gt; **Record** &gt; **Email Interaction Page**.
+
+    **Note:** The Email Interaction Page variant is the newly created variant.
+
+5.  Select **Editor**.
+
+6.  In the Content section, search and select **Activity Stream 1**.
+
+7.  In the Activity Stream 1 panel, navigate to **Configure** &gt; **Display**
+
+    **Note:** If a message appears about the application scope, select **here** to be able to edit the record.
+
+8.  Turn on the **Email Show Full Conversation** toggle switch.
+
+9.  Select **Save**.
+
+
+## Result
+
+You can view the entire conversation within the activity stream.
+

@@ -7,8 +7,8 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -18,18 +18,18 @@ You can use the Privacy Case Management application to report privacy cases and 
 
 -   **[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)**  
 Any user can report a privacy case or an event that needs the attention of the privacy team.
--   **[Report a privacy case through email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-issues-email.md)**  
-Identify and manage issues related to the impacted areas for the reported privacy case. You can also create issues from the Privacy Case Management landing page.
 -   **[Initiate a breach assessment from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/initiate-a-breach-assessment-from-a-case.md)**  
 Initiate a breach assessment from a privacy case to capture the details of breach, the type of data that is impacted, and so on. These details help the privacy analyst to identify if the breach must be notified to a regulator.
 -   **[Work on a privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/work-on-a-privacy-breach-asmt.md)**  
 Accept the work of assessing a privacy breach assessment and work on the assessment.
+-   **[Perform RadarFirst analysis on a privacy breach assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/submit-breach-review.md)**  
+Initiate a RadarFirst analysis to evaluate the breach against applicable privacy regulations and receive an overall risk estimate for each impacted jurisdiction.
 -   **[Case task workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/case-task-workflow.md)**  
 Case tasks help you to collaborate with multiple teams to investigate, perform impact assessment to establish case criticality, and gather evidence to capture the details and responses for further review.
 -   **[Add an impacted area to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-impacted-areas.md)**  
 Add the impacted areas or objects that are affected by the privacy case or event in the Privacy Case Management application.
 -   **[Add PI information objects to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-pi-information-objects-to-a-privacy-case.md)**  
-Add information objects to the privacy case after a privacy case is created. Adding information objects helps you understand the types of personal information that is being compromised during a breach.
+To identify the types of personal data compromised during a breach, add \[PI\] information objects to a privacy case.
 -   **[Add key stakeholders to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-keystakeholders-to-privacy-case.md)**  
 Add key stakeholders to a privacy case to identify the key members who are responsible for the data that is lost during the breach. You can then send the respective breach assessments to the stakeholders based on their responsibilities.
 -   **[Add a related area to a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-related-areas.md)**  

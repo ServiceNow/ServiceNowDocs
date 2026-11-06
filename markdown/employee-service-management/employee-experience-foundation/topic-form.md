@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Topic form
@@ -144,7 +144,7 @@ Enable user criteria check
 
 </td><td>
 
-When you opt in, you can select the user criteria for the topic visibility. Enable user criteria check to determine visibility of current topic and its child topics in navigation and popular topics widget. The criteria set also applies to child topics. Criteria in connected content still govern content visibility on topic pages.**Note:** When you have many topics, ensure you set up user criteria for your topics.
+When you opt in, you can select the user criteria for the topic visibility. Enable user criteria check to determine visibility of current topic and its child topics in navigation and popular topics widget. The criteria set also applies to child topics. Criteria in connected content still govern content visibility on topic pages.**Note:** When you have a lot of topics, ensure you set up user criteria for your topics.
 
 Default: Disable
 
@@ -180,7 +180,7 @@ This field is available when the **Enable user criteria check** is selected.
 
 [Activity Configuration Detail form]()
 
-[Browser Extension for Employee Center forms]()
+[Approvals experience reference]()
 
 [Connected Content form]()
 
@@ -216,21 +216,23 @@ This field is available when the **Enable user criteria check** is selected.
 
 [Portal notification content form]()
 
-[Quick Link form]()
-
-[Standard banner and icon sizes]()
-
 [Trigger conditions form]()
+
+[Quick Link form]()
 
 [Tab widget mapping form]()
 
 [Taxonomy form]()
 
-[To-do content form]()
-
 [User Criteria form]()
 
 [User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
+
+[Website configuration form]()
 
 [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md)
 

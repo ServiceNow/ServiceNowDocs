@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/active-authentication-android.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile properties, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Keep native apps active during authentication on Android devices

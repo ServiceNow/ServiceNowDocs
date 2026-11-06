@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced tasks for the Event Management operator, Event Management Operator Tutorial, Using Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Advanced operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Work with flapping alerts

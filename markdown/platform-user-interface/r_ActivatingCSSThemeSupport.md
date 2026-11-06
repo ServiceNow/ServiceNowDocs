@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/r\_ActivatingCSSThemeSupport.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CSS theme support, Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ There are different plugins that activate CSS themes support.
 
 Activate the following plugins to use themes, based on the version of the UI you use.
 
-**Core UI:** CSS Theme support See [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateAPlugin.md).
+**Core UI:** CSS Theme support See Activate a plugin.
 
 **Parent Topic:**[CSS theme support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_CSSThemeSupport.md)
 

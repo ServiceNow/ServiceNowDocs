@@ -4,7 +4,7 @@ description: Generate and print a QR code for a single space or room, or for mul
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 

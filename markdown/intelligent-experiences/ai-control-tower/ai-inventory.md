@@ -7,10 +7,10 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # AI asset inventory
@@ -46,5 +46,5 @@ For information on AI asset record details, see [View AI asset details](https://
 
 For information on creating AI assets, see [Creating AI assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/creating-ai-assets.md)
 
-For information on process flow of the MCP servers, see 
+For information on process flow of the MCP servers, see [Process flow of MCP servers via AI Gateway](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/process-flow-of-mcp-servers-via-ai-gateway.md)
 

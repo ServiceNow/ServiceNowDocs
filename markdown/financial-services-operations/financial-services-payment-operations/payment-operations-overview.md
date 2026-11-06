@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Payment Operations
@@ -26,15 +26,12 @@ Transform your financial institution's middle and back office payment operations
 The application is used by:
 
 -   Administrators, who configure the application. For the full list of installed roles and permissions, see [Components installed with Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/installed-with-payment-operations.md).
--   Fulfillers, such as inquiry agents and claim agents in the middle and back office, who work cases from the Workspace..
+-   Fulfillers, such as inquiry agents and claim agents in the middle and back office, who work cases from the Workspace. For details on workspace users, see [Using Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/using-payment-operations.md).
 -   End users — customers, branch workers, and call center agents — who submit payment requests and check case status.
 
 ## Payment dashboard
 
-Using actionable data visualizations in a preconfigured dashboard, you can improve your business processes and quantify the value of self-service. For more information, see [Payment Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-operations-dashboard.md).
-
--   **[Financial Services Payment Operations workflow example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-workflow-example.md)**  
-The workflows available with Financial Services Payment Operations connect people, departments, and institutions to quickly initiate, research, and resolve the payment errors and missing payments.
+Using actionable data visualizations in a preconfigured dashboard, you can improve your business processes and quantify the value of self-service. For more information, see [Payment Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/payment-operations-dashboard.md).
 
 **Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
 

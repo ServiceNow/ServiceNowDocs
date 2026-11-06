@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/create-territory-conditions-in-console.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Territory Planning Console, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Field Service Territory Planning Console, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Enable identification of relevant territories for a work order or work order task

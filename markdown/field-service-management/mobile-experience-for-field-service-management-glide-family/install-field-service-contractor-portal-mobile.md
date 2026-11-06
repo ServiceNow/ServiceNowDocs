@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile feature of the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile app, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Access the ServiceNow Agent for Field Service Contractor for mobile application

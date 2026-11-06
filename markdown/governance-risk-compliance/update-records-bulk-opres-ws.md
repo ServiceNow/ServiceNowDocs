@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/update-records-bulk-opres-ws.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Update existing records in bulk
@@ -61,7 +61,7 @@ Repeat these steps for each data type to ensure consistency across all categorie
 
     It creates a Microsoft Excel sheet that you can use to make bulk updates for the records you selected.
 
-    After downloading the templates to add options on the reference fields, the upload templates are updated to a dynamic format with drop-downs for choice and reference fields, rather than hard-coding the values.
+    After downloading the templates, you can add options on the reference fields. The upload templates are updated to a dynamic format with drop-downs for choice and reference fields, rather than hard-coding the values.
 
     The dynamic templates automatically handle translations for headers and reference field options. They fetch these elements in real-time, ensuring they remain up-to-date without the need for manual updates. The default template stays up-to-date because the options are generated dynamically.
 
@@ -73,25 +73,39 @@ Repeat these steps for each data type to ensure consistency across all categorie
 
 8.  Create an upload request by navigating to **Excel download/upload requests** and selecting **New**.
 
-9.  On the form, select **Upload** as the request type and fill in the remaining fields.
+9.  Review the results to see a summary of the successfully uploaded records and those with errors.
+
+    The Result panel of an Excel upload request shows the skipped, inserted, and updated record counts and warning messages.
+
+    \[Omitted image "excel-upload-request-result-panel.png"\] Alt text: Result panel of an Excel upload request showing skipped, inserted and updated record counts and warning messages.
+
+    The Number of skipped records, Number of inserted records, and Number of updated records counts summarize the upload outcome. The Messages text area lists per-row WARNING and INVALID\_VALUE entries, such as "`LEI not found in GLEIF database"`, `Entity status is NULL, expected ACTIVE`, or `Entity name mismatch`
+
+    Use these messages to identify the spreadsheet rows that need correction before re-uploading.
+
+10. On the form, select **Upload** as the request type and fill in the remaining fields.
 
     For descriptions of all these fields, see [Create New Excel download/upload request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-excel-upload-download-req.md).
 
     **Note:** Only DORA administrators can view the **Upload** option and perform this task.
 
-10. Select **Save**.
+11. Select **Save**.
 
-11. Attach the updated template file by selecting **Attach File** and selecting the file from your local hard drive.
+12. Attach the updated template file by selecting **Attach File** and selecting the file from your local hard drive.
 
-12. Select **Upload**.
+13. Select **Upload**.
 
-13. Navigate to the **Result** section of the upload request to view the records that were uploaded successfully and any errors.
+14. View the **Result** section of the upload request to view the records that were uploaded successfully and any errors.
 
-    1.  Correct the errors in the Microsoft Excel spreadsheet.
+    You can cross-reference the Row, errorCode and column values in the Result panel with the matching cells in the spreadsheet.
 
-    2.  Upload the record again.
+    1.  Cross-reference the Row, errorCode, and column values listed in the Result panel with the matching cells in the Microsoft Excel spreadsheet.
 
-14. Repeat the steps until all errors are resolved and all records are uploaded successfully.
+    2.  Correct the errors in the spreadsheet.
+
+    3.  Upload the record again.
+
+15. Repeat the steps until all errors are resolved and all records are uploaded successfully.
 
     The updated records are uploaded in bulk from the Digital resilience third-party registers.
 

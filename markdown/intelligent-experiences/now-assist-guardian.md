@@ -1,14 +1,14 @@
 ---
 title: AI Guardian
-description: AI Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.Monitor the performance of guardrails enabled through AI Guardian.
+description: AI Guardian is built on the ServiceNow Small Language Model \(SLM\) and monitors generative AI interactions to detect offensive content, prompt injection attacks, and sensitive topics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-guardian.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [Now Assist Guardian, Llama, Generative AI, GenAI, SLM, Large language model, Guardrails, Safety categories]
-breadcrumb: [Exploring Now Assist, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Guardian
@@ -399,16 +399,16 @@ Technology
 
 </td><td>
 
-[ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/now-assist-spm.md)
+
 
 </td><td>
 
--   [Multi feedback summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/feedback-summary-sentiment-topics.md)
--   [Planning item doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-documents-genai-skill-spw.md)
--   [Project doc summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/summarize-doc-content-genai-skill-pw.md)
--   [Project summary emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/email-project-summary-skill-pw.md)
--   [Story generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/generate-stories-from-epics-now-assist-eap.md)
--   [Write planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/refine-text-with-write-planning-item-skill.md)
+-   Multi feedback summarization
+-   Planning item doc summarization
+-   Project doc summarization
+-   Project summary emails
+-   Story generation
+-   Write planning item
 
 </td></tr><tr><td>
 
@@ -434,13 +434,13 @@ Customer
 
 </td><td>
 
-[ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
+
 
 </td><td>
 
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-generate-kb-article.md)
--   [Sidebar summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/na-fsm-summarize-sidebar-platform.md)
--   [Work order task summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/generate-wot-summ-fsm.md)
+-   KB generation
+-   Sidebar summarization
+-   Work order task summarization
 
 </td></tr><tr><td>
 
@@ -474,11 +474,11 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-landing.md)
+
 
 </td><td>
 
-[Incident summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hs-summarize-safety-incident.md)
+Incident summarization
 
 </td></tr><tr><td>
 
@@ -486,14 +486,14 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
+
 
 </td><td>
 
--   [Case summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-summarize-case.md)
--   [Chat summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-chat.md)
--   [KB generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)
--   [Resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd-res-note.md)
+-   Case summarization
+-   Chat summarization
+-   KB generation
+-   Resolution notes generation
 
 </td></tr><tr><td>
 
@@ -501,11 +501,11 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-landing.md)
+
 
 </td><td>
 
-[Legal request summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-lsd-summarize-case.md)
+Legal request summarization
 
 </td></tr><tr><td>
 
@@ -513,7 +513,7 @@ Employee
 
 </td><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-now-assit-landing.md)
+
 
 </td><td>
 
@@ -526,7 +526,7 @@ Creator
 
 </td><td>
 
-[Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md)
+
 
 </td><td>
 
@@ -569,79 +569,16 @@ Finance &amp; Supply Chain
 [Record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/now-assist-spo-summarize-record.md)
 
 </td></tr></tbody>
-</table>## AI Guardian analytics
+</table>-   **[Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md)**  
+Activate offensiveness detection to log or block offensive content generated by AI skills and workflows.
+-   **[Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-prompt-injection-attack-protection.md)**  
+Activate or deactivate prompt injection attack detection to protect all generative AI applications and AI-generated text and conversations.
+-   **[Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-sensitive-topic-filters.md)**  
+Set up filters in AI Guardian to redirect Virtual Agent users to a live agent or HR case when a sensitive subject is detected in a conversation.
+-   **[Export AI Guardian logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/export-now-assist-guardian-logs.md)**  
+Export logs from AI Guardian to get insights into how often different guardrails are being detected and used.
+-   **[Configuring a Guardrail Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-byog.md)**  
+AI Guardian supports default guardrails and third-party or custom guardrail service providers to extend AI content monitoring with your organization's AI governance policies.
 
-Monitor the performance of guardrails enabled through AI Guardian.
-
-The AI Guardian analytics dashboard helps admins monitor and evaluate the effectiveness of offensive content and prompt injection guardrails in tracking and analyzing requests sent to large language models \(LLM\) and their responses.
-
-\[Omitted image "naa-nag-offensive-content.png"\] Alt text: Prompt injection dashboard page
-
-The indicators on the AI Guardian dashboard page provide the following insights.
-
--   Average latency as a result of active offensive content and prompt injection guardrails. High latency could mean increased guardrail activity in the period.
--   Count and percentage of offensive content and prompt injection occurrences.
--   Skills where offensive content and prompt injection occurrences were detected.
-
-Apply the filters on the dashboard to view guardrail activity for skills in a date range. See [AI Analytics dashboard indicator details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.md) for information on the data and calculations behind each indicator.
-
-### Offensive content indicators
-
--   **Guardrail-added latency**
-
-    This area of the dashboard shows the average latency as a result of the active offensive content guardrail for the selected skills and date range.
-
-    \[Omitted image "naa-nag-guardrail-latency-offensive-content.png"\] Alt text: Guardrail latency for prompt injection.
-
--   **Percentage flagged as offensive**
-
-    This area of the dashboard shows the percentage of requests and responses to and from the LLM service that are flagged for offensive content.
-
-    \[Omitted image "naa-nag-percentage-offensive-content.png"\] Alt text: Percentage of offensive content occurrences.
-
--   **Total offensive content occurrences**
-
-    This area of the dashboard shows the total number of offensive content occurrences for the selected skills and date range.
-
-    \[Omitted image "naa-nag-total-offensive-content.png"\] Alt text: Total offensive content occurrences.
-
--   **Categories of offensive content**
-
-    This area of the dashboard shows a breakdown of offensive content occurrences by the categories. If content is deemed to be offensive under more than one category, for example, toxic and defamatory, the occurrence is counted individually toward both the categories. For more information on offensive content categories, see [AI Guardian]().
-
-    \[Omitted image "naa-nag-categories-offensive-content.png"\] Alt text: Categories of offensive content indicator.
-
--   **Offensive content occurrences by skill**
-
-    This area of the dashboard shows the number of offensive content occurrences over time by the skills in which the content is detected.
-
-    \[Omitted image "naa-nag-offensive-content-occurrences-by-skill.png"\] Alt text: Offensive content occurrences by skill.
-
-
-### Prompt injection indicators
-
--   **Guardrail-added latency**
-
-    This area of the dashboard shows the average latency as a result of the active prompt injection guardrail for the selected skills and date range.
-
-    \[Omitted image "naa-nag-guardrail-latency-prompt-injection.png"\] Alt text: Guardrail-added latency indicator.
-
--   **Percentage flagged as prompt injection**
-
-    This area of the dashboard shows the percentage of requests and responses to and from the LLM service that are flagged for offensive content.
-
-    \[Omitted image "naa-nag-percentage-prompt-injection.png"\] Alt text: Percentage flagged as prompt injection indicator.
-
--   **Total prompt injection occurrences**
-
-    This area of the dashboard shows the total number of offensive content occurrences for the selected skills and date range.
-
-    \[Omitted image "naa-nag-total-prompt-injection.png"\] Alt text: Total prompt injection occurrences
-
--   **Prompt injection occurrences by skill**
-
-    This area of the dashboard shows the number of prompt injection occurrences over time by the skills where prompt injection attempts were detected.
-
-    \[Omitted image "naa-nag-prompt-injection-by-skill.png"\] Alt text: Prompt injection occurrences by skill indicator.
-
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,12 +22,16 @@ The Hermes Messaging Service is a ServiceNow AI Platform capability that is avai
 
 To successfully set up and configure Stream Connect or Log Export Service, you must complete the steps in [Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md).
 
--   **[Hermes Messaging Service activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md)**  
-The Hermes Messaging Service is enabled when the Glide Hermes Message Queue plugin \(com.glide.hermes\) is activated.
+-   **[Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md)**  
+The Hermes Messaging Service is not a standalone plugin.
 -   **[Set up a secure connection to the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/set-up-secure-connection-to-hermes.md)**  
 Secure your Kafka topics by generating a ServiceNow® instance-signed certificate.
 -   **[Revoke a Hermes certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/revoke-certificate.md)**  
 Revoke a ServiceNow® instance-signed certificate so that it can't be used in secure connections to the Hermes Messaging Service.
+-   **[Restricting access to Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/restricting-access-hermes-topics.md)**  
+Restrict access to Hermes by IP address.
+-   **[Enable encryption at rest for a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/enable-encryption-at-rest-for-hermes.md)**  
+Enable encryption at rest on a Hermes topic to help protect message data stored on broker disks from unauthorized access.
 
 **Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/manage-services.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Compliance case task workflow, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Compliance case task workflow, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Create an action task
@@ -28,7 +28,7 @@ After a case is reported to the compliance team, a compliance case analyst can c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon. icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  In the List section, select **All Cases**.
 

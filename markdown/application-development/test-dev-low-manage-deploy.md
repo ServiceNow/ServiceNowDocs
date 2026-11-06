@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-dev-low-manage-deploy.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage apps with low-code tools, Low-code and no-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Manage apps with low-code tools, Low-code and no-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Deploy apps with low-code tools
@@ -18,7 +18,7 @@ Deploy your ServiceNow apps.
 
 <table id="table_stn_cff_2vb" class="nav-card"><tbody><tr><td>
 
-[App Engine Management Center \[Omitted image "icon-workspace-builder.png"\] Alt text: App Engine Management Center. Track and manage your App Engine Studio \(AES\) requests, deployments, applications, and collaborative developers using the App Engine Management Center \(AEMC\) in your production instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.md)
+[App Engine Management Center \[Omitted image "icon-workspace-builder.png"\] Alt text: App Engine Management Center. Track and manage your App Engine Studio, Creator Studio, and ServiceNow Studio requests, deployments, applications, and collaborative developers using the App Engine Management Center \(AEMC\) in your production instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/managing-app-development-using-aemc.md)
 
 </td></tr></tbody>
 </table>## Core UI Tech Stack

@@ -1,30 +1,35 @@
 ---
-title: Manufacturing Commercial Operations reference
+title: Reference
 description: Reference topics provide additional information about Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/manufacturing-reference.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manufacturing Commercial Operations]
 ---
 
-# Manufacturing Commercial Operations reference
+# Reference
 
 Reference topics provide additional information about Manufacturing Commercial Operations.
 
-<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+-   **[Components installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-components-installed.md)**  
+Several types of components are installed when you install the Manufacturing Commercial Operations application. These components include user roles, tables, plugins, ServiceNow Store applications, and business rules.
+-   **[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/data-model.md)**  
+Learn about the Manufacturing Commercial Operations application as well as its entitlements and integrations by viewing the data model and integrations architecture diagrams. These diagrams show the relationships between the tables and roles within the application. They provide an overall picture of how the Manufacturing Commercial Operations application operates.
+-   **[MCO Integration APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/manufacturing-integrate.md)**  
+Use ServiceNow APIs to change functionality and add features in the Manufacturing Commercial Operations \(MCO\) solution.
+-   **[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)**  
+Includes all the forms related to repair and recall.
+-   **[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/sales-promotion-form.md)**  
+Includes all the forms related to the sales promotion.
+-   **[Quality issue management form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-qim-form.md)**  
+Includes all the forms related to quality issue management.
+-   **[General form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-general-form.md)**  
+General forms used in MCO.
+-   **[Domain separation for MCO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-domain-separation.md)**  
+Domain separation is supported for Manufacturing Commercial Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including the users who can see and access data.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-troubleshooting.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-troubleshooting.md)**  
 
-Customer Service Management reference \[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text: Reference topics provide additional information about the Customer Service Management for Manufacturing Commercial Operations application.
 
-</td><td>
-
-Order Management Reference \[Omitted image "bus-project-manager.svg"\] Alt text: Reference topics provide additional information about the Order Management for Manufacturing Commercial Operations application.
-
-</td><td>
-
-Service Bridge reference \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text: Reference topics provide additional information about the Service Bridge for Manufacturing Commercial Operations data model and configurations.
-
-</td></tr></tbody>
-</table>

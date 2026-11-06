@@ -7,7 +7,7 @@ release: yokohama
 product: Export to PowerPoint for Application Portfolio Management
 classification: export-to-powerpoint-for-application-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Export to PowerPoint for Strategic Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_ppt\_export.ppt\_admin
 
 2.  Select a parent table record, for example, Project report `pm_project`.
 
-<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d182080e82">
+<table id="choicetable_wws_lkm_t5b"><tbody><tr><td id="d230415e82">
 
 **To manage Related Tables**
 
@@ -47,7 +47,7 @@ On the Related tables form, fill the fields. For a description of the field valu
 4.  Select **Submit**.
 The selected table and its relation to the parent table is displayed in the Related tables section.
 
-</td></tr><tr><td id="d182080e162">
+</td></tr><tr><td id="d230415e162">
 
 **To manage Scripted Elements**
 

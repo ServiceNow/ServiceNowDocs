@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Edit a map, UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Editing a map, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a CI to a map using the map editor
@@ -22,19 +22,19 @@ Role required: sn\_cmdb\_admin or sn\_cmdb\_editor
 
 ## About this task
 
+-   You can add only CIs that have existing records in the CMDB.
 -   You can add only one CI at a time.
 -   You can remove an added CI from the map if you have not yet saved the CI to the map.
--   You can add only CIs that have existing records in the CMDB.
 -   If you try add a CI that already has a connection to another CI on the map, the map re-centers and the CI is highlighted. In some cases, due to filter settings, the CI isn't displayed.
--   An added CI appears on the map but its CMDB record isn't changed unless you change the CI's connections and save the changes.
+-   An added CI appears on the map but its CMDB record isn't changed unless you change the CI connections and save the changes.
 -   The map editor doesn't support adding endpoint CIs.
--   After you add a CI, it is saved to the map only if it has a path \(direct or indirect\) to the home node.
+-   After you add a CI, it can be saved to the map only if it has a path \(direct or indirect\) to the home node.
 
 ## Procedure
 
 1.  While working in a map, select the edit map icon \[Omitted image "icon-um-edit-map.png"\] and then take one of the following actions:
 
-    -   Right-click in a blank spot on the map and select **Add CI**.
+    -   Select and hold \(or right-click\) in an empty spot on the map and select **Add CI**.
     -   Select the Add CI icon \[Omitted image "icon-um-add-ci.png"\].
 2.  On the Add a CI panel, specify the class of CI to add.
 

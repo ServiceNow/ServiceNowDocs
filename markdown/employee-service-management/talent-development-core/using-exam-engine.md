@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career Assessment, Talent Development, Employee Service Management]
+breadcrumb: [Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Using Career Assessment
@@ -25,5 +25,5 @@ Create internal learning content to add exams as content items within a learning
 -   **[View an exam instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/view-exam-instance.md)**  
 View an exam instance to verify number of attempts, scores and completion status of an exam assigned to a user.
 
-**Parent Topic:**[Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-engine.md)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -22,8 +22,6 @@ SLA breakdown is configurable and typically should be configured for the more si
 
 **Related topics**  
 
-
-[Create SLA breakdown definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-level-management/create-sla-breakdown-definitions.md)
 
 [Configure Service Level Agreement \(SLA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-level-management/c_ConfigureSLAs.md)
 

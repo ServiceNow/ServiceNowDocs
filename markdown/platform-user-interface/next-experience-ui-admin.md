@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-ui-admin.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,20 +20,24 @@ Select the following links to learn about Next Experience functionality with the
 Next Experience delivers a next generation, intuitive, personalized experience to drive productivity, improve engagement, and surface insights across the ServiceNow AI Platform. Your path to activating Next Experience may depend on your instance's level of customization.
 -   **[Next Experience Readiness Checker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-readiness-checker.md)**  
 The Next Experience Readiness Checker assists users with deciding whether to turn on Next Experience after an upgrade.
+-   **[Configuring Next Experience start page options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+Multiple start page options help you determine where best to start your day in Next Experience. Configure the landing page so that you and your users start on a page tailored to your needs in ServiceNow.
 -   **[Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-theming.md)**  
-Themes enable you to tailor the visual experience for your users, helping to update the look and feel to be more like your brand.
+Themes let you customize the visual experience to match your brand.
 -   **[Next Experience landing pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-landing-pages.md)**  
 Modify the landing pages on your Next Experience instance so that users see a landing page tailored to their experience in ServiceNow.
 -   **[Performing admin user functions in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/use-next-experience-admin-user-menu.md)**  
 Use admin functions in the Next Experience user menu to elevate roles, impersonate users, and configure a workspace.
 -   **[Configure custom menus for Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-custom-menu.md)**  
 Create custom menus in the Next Experience Unified Navigation that contain just what the users need to increase productivity and efficiency.
+-   **[Next Experience All Menu Editing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-all-menu-editing.md)**  
+Create and edit application menus and modules directly in the Platform All menu.
 -   **[Add a workspace to the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/add-workspace-unified-navigation.md)**  
 Configure the Unified Navigation to display a workspace in the Workspaces menu.
 -   **[Set the order of your workspaces in the Unified Navigation Workspaces menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-order-workspace-unified-navigation.md)**  
-Set the order of your workspaces and control how they appear in the Unified Navigation Workspaces menu.
+Control the display order of workspaces in the Unified Navigation Workspaces menu by setting a numerical order value on each workspace record.
 -   **[Configuring search in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configuring-search-next-experience.md)**  
-Administrators can customize Next Experience search settings. Add new searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu for users.
+Customize Next Experience search settings. Add searchable tables, modify the fields displayed for search results from a table, or add workspace applications to the search context menu.
 -   **[Create custom notifications in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-custom-notifications-next-experience.md)**  
 Provide better context and information about users' work by creating custom content for in-product notifications in Next Experience.
 -   **[Next Experience in-product help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-in-product-help.md)**  
@@ -46,7 +50,7 @@ Banner announcements enable you to communicate planned maintenance, unplanned ou
 Next Experience global variables are used in client scripts to determine whether Next Experience is applied to a page.
 -   **[Next Experience system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/pol-sys-properties.md)**  
 List of system properties related to the Next Experience UI.
--   **[Measuring the performance of your instance in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/measuring-performance-next-experience.md)**  
+-   **[Instance performance in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/measuring-performance-next-experience.md)**  
 View the performance-based information, including the UI loading times, for any recently accessed Next Experience page by using the client interaction table.
 
 **Parent Topic:**[Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-landing-page.md)

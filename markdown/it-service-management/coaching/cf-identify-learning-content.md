@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Coaching, Coaching, IT Service Management]
+breadcrumb: [Configure, Coaching, IT Service Management]
 ---
 
 # Identify and add course items for a virtual coach
@@ -172,5 +172,5 @@ Autofill fields
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Concepts, Exploring, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Concepts, Explore, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Try out Complimentary Performance Analytics for Incident Management
@@ -25,20 +25,12 @@ Complimentary Performance Analytics for Incident Management has the following fe
 -   A maximum of 180 days of historic scores are visualized, counting from today's date.
 -   Is usable only in the global domain
 
-To try out Complimentary Performance Analytics for Incident Management, navigate to **Performance Analytics** &gt; **Guided Setup** and launch the Incident Management guided setup. This setup takes you on a tour of indicators, breakdowns, their sources, data collection, and viewing results.
-
-You can also try out the Spotlight feature with Complimentary Performance Analytics for Incident Management. Spotlight helps prioritize work by evaluating records against multiple weighted criteria. Without a license you can only use Spotlight with incident records and you cannot access the Spotlight interactive analysis. To try out Spotlight, activate the Performance Analytics - Spotlight - Incident Spotlight plugin and follow the guided setup at **Spotlight** &gt; **Guided Setup**. The admin role is necessary to activate the plugin.
-
-The free two-hour course [Platform Analytics Overview](https://learning.servicenow.com/lxp/en/now-intelligence/platform-analytics-pa-overview?id=learning_course_prev&course_id=fb9decf8932f06905402393d6cba10f6) provides an introduction to PA components and concepts you can use with Complimentary Performance Analytics for Incident Management. \(Registration required.\)
-
 **Parent Topic:**[Performance Analytics concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PerformanceAnalytics.md)
 
 **Related topics**  
 
 
 [Troubleshoot your Complimentary Performance Analytics for Incident Management setup](https://community.servicenow.com/community/performance-analytics/blog/2015/08/27/free-performance-analytics-reconfiguring-indicators)
-
-[Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/content-packs-in-form-analytics.md)
 
 [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/spotlight/spotlight.md)
 

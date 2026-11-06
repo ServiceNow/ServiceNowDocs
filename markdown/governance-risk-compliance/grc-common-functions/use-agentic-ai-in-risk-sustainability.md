@@ -7,15 +7,17 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, agentic AI, generative AI, Gen AI]
-breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Use agentic AI in ServiceNow Otto for Integrated Risk Management \(IRM\)
 
 Use agents within an agentic workflow or as standalone agents to achieve specific automated outcomes.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Find information such as the large language models \(LLM\) supported in Now Assist and security controls that are important considerations for using agentic AI.
 
@@ -25,7 +27,7 @@ For more information on language support, see [Multilingual service for Now Assi
 
 **Note:**
 
--   You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+-   You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 -   For the Now LLM Service updates, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md).
 
@@ -48,8 +50,7 @@ To run the AI agents autonomously, you must first [duplicate the agentic workflo
 
 Looking for an AI agent?
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
+-   There may be AI agents installed with the Now Assist application that aren’t used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md)
 -   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
-
-For information on the standalone ServiceNow Otto for IRM AI agents, see [Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\) skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.md).
+-   For information on the standalone ServiceNow Otto for IRM AI agents, see [Standalone AI Agents in ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/standalone-ai-agents-in-risk-sustainability.md).
 

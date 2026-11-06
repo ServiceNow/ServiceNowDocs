@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a normal mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -37,7 +37,7 @@ Role required: admin
 
 2.  Go to your system's **Downloads** folder and unzip the file.
 
-3.  Open **agent** &gt; **config.xml**.
+3.  Open &gt; **agent** &gt; **config.xml**.
 
 4.  In the config.xml file, do the following:
 

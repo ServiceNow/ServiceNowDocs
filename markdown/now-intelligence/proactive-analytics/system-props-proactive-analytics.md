@@ -7,9 +7,9 @@ release: yokohama
 product: Proactive Analytics
 classification: proactive-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proactive analytics insights on dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Insights on dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # System properties for Proactive analytics

@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -21,8 +21,6 @@ Checklists are available as a tab in the card details.
 \[Omitted image "CardCheckList.png"\] Alt text: Sample checklist of an incident task card
 
 You can add, remove, or rearrange checklist items. You can also save a checklist as a template for future use on other cards. Any user can create or edit a checklist. When the compact card view is disabled, the task card displays a progress bar to show how many items are complete.
-
-\[Omitted image "TaskCardChecklistProgress.png"\] Alt text: The task card displays a checklist progress bar
 
 You can also use checklists with task records in the standard interface. For more information, see [Checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_Checklists.md).
 

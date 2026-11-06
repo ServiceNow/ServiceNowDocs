@@ -7,9 +7,9 @@ release: yokohama
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Retail Task Management reference, Retail Task Management, Retail]
+breadcrumb: [Reference, Retail Task Management, Retail]
 ---
 
 # Retail Task Management Core data model
@@ -28,11 +28,11 @@ The **Affected retail stores** field in the Retail case \[sn\_retail\_case\] tab
 
 Installing Retail Task Management Core automatically installs the Multi-case creation plugin, adding a new internal field child case creation status to track the state of child case creation. If child case creation is completed successfully, the main State field of the parent case is set to Open.
 
-The Multi-case creation plugin also introduces a new internal table Affected Service Organizations. This table maintains a many-to-one mapping between Service Organizations \(SOs\) and Cases.
+The Multi-case creation plugin also introduces a new internal table Affected Organization Core. This table maintains a many-to-one mapping between Organization Core and Cases.
 
-\[Omitted image "rtmc-case-so-data-model.png"\] Alt text: Affected service organizations in Retail Task Management Core.
+\[Omitted image "rtmc-case-so-data-model.png"\] Alt text: Affected organizations in Retail Task Management Core.
 
-**Note:** Both the child case creation status field and the Affected Service Organizations table are hidden from end users. They're only used internally by the multi-case engine to manage and track case creation processes.
+**Note:** Both the child case creation status field and the Affected Organization Core table are hidden from end users. They're only used internally by the multi-case engine to manage and track case creation processes.
 
 \[Omitted image "rtmc-mccc-data-model.png"\] Alt text: Multiple case creation config in the Retail Task Management Core data model.
 
@@ -41,4 +41,6 @@ Installing the Multi-case creation plugin adds the Multiple case creation config
 The Multi Case Creation Config table holds the necessary information for multiple case creations.
 
 For more detailed information on how these fields are involved with the multi-store creation process, refer to [Configuring Retail Task Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/legacy-retail-task-management/rahi-retail-task-management-configuring.md).
+
+**Parent Topic:**[Retail Task Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,13 +34,13 @@ The flows provided with the base system are in an inactive state. Activate these
 
     \[Omitted image "cj-sir-flow-phishing.png"\] Alt text: Security Incident Management SpokesNotice that the flows have a published status and are inactive.
 
-3.  For example, if you want to activate the Automated Malware Playbook flow, click the **Security Incident - Automated Phishing Playbook - Template V1** link to view the flow.
+3.  For example, if you want to activate the Automated Malware Playbook flow, select the **Security Incident - Automated Phishing Playbook - Template V1** link to view the flow.
 
     \[Omitted image "cj-sir-flow-auto.png"\] Alt text: Automated Phishing Playbook Template
 
     **Note:** You cannot edit the flows provided with the base system as they are read-only flows. You can use these flows as they are or make a copy and modify them as required.
 
-4.  Click **Activate** to activate the flow.
+4.  Select **Activate** to activate the flow.
 
 
 ## Result

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-dashboard-to-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
@@ -81,6 +81,8 @@ Select event handlers to configure the actions \(events\) provided with the dash
 [Add Platform Analytics pages to a configurable workspace]()
 
 [Configure custom redirection from a dashboard component]()
+
+[Dashboard URL parameter delegation]()
 
 [Pass global filters to the dashboard page template]()
 

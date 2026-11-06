@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Stream Connect Message Replication, Using Stream Connect for Apache Kafka, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Message replication, Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
 # Viewing Stream Connect Message Replication statistics
@@ -27,6 +27,7 @@ When message replications are running, the system creates a metrics record for e
 |Source|Name of the topic used as the source.|
 |Destination|Name of the topic used as the destination.|
 |Direction|Direction of the replication, either **To ServiceNow** or **From ServiceNow**.|
+|MID Server|Reference to the MID Server responsible for replication.|
 
 **Parent Topic:**[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-message-replication.md)
 

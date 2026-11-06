@@ -1,20 +1,20 @@
 ---
-title: About Touchpoints
-description: Customer success agents can schedule regular touchpoints during the lifecycle of an engagement to evaluate progress, provide feedback, and offer guidance.
+title: Touchpoints
+description: Customer success agents can schedule regular touchpoints during the life cycle of an engagement to evaluate progress, provide feedback, and offer guidance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-touchpoints.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
 
-# About Touchpoints
+# Touchpoints
 
-Customer success agents can schedule regular touchpoints during the lifecycle of an engagement to evaluate progress, provide feedback, and offer guidance.
+Customer success agents can schedule regular touchpoints during the life cycle of an engagement to evaluate progress, provide feedback, and offer guidance.
 
-Touchpoints are used to support conversations between providers and enterprise customers at different stages in the engagement lifecycle. Touchpoints help capture and organize both internal and external meeting notes, and ensure that all communication and action items are efficiently tracked and easily accessible for future reference.
+Touchpoints support conversations between providers and enterprise customers throughout the engagement life cycle. Touchpoints help capture and organize both internal and external meeting notes, and ensure that all communication and action items are efficiently tracked and easily accessible for future reference.
 
 ## Touchpoint user roles
 
@@ -23,7 +23,9 @@ Touchpoints are used to support conversations between providers and enterprise c
 |Success Agent|Can create, read, and update touchpoints and meeting records.|
 |Success Customer|Can create and update touchpoints, meeting records, and schedule meetings.|
 
-See [Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-touchpoint-home.md)
+See [Touchpoint home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-touchpoint-home.md) for more details.
 
-for more details.
+## Meetings on the touchpoint page
+
+When a touchpoint has a related meeting record, a **Meeting Record** link is displayed on the touchpoint page. Select \[Omitted image "open-link-right-outline-24.svg"\] Alt text: to open the meeting record and access the meeting page.
 

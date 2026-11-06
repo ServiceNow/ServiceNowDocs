@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-recall-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Recall management
@@ -16,8 +16,19 @@ Recall management enables the OEMs to identify and remove or replace the faulty 
 
 |Tasks|Description|
 |-----|-----------|
-|[My campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)|Displays all the recall claims that are assigned to the person logged in to the workspace.|
-|[All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaigns.md)|Displays all the recall claims that are assigned to the OEM.|
-|[My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaign-phases.md)|Displays all the recall campaign phases that are assigned to the person logged in to the workspace.|
-|[All campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaign-phases.md)|Displays all the recall campaign phases that are assigned to the OEM.|
+|[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)|Displays all the recall campaign that are assigned to the person logged in to the workspace.|
+|[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaigns.md)|Displays all the recall campaign that are created by the OEM.|
+|[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaign-phases.md)|Displays all the recall campaign phases that are assigned to the person logged in to the workspace.|
+|[Recall a campaign phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-phases.md)|Displays all the recall campaign phases that are created by the OEM.|
+
+-   **[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)**  
+Create a recall campaign and also view the list of campaigns claims assigned to the person who has logged in to the workspace.
+-   **[View All campaigns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaigns.md)**  
+View a recall campaign using the All campaigns form.
+-   **[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaign-phases.md)**  
+Display the claims assigned to the person who has logged in to the workspace.
+-   **[Merge two or more phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco_merge_phases.md)**  
+Merge phases and sub-phases to reorganize and transfer assets.
+
+**Parent Topic:**[Using MCO workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-agent-management.md)
 

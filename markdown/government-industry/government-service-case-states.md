@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/government-service-case-states.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Catalog, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Life cycle of a Public Service case

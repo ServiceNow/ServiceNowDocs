@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Target breakdowns in Strategic Planning, Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Target breakdowns in Strategic Planning, Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update the actual value of a target breakdown
@@ -18,7 +18,7 @@ Update the actual value of a target breakdown when its status is changed.
 
 ## Before you begin
 
-Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
+Role required: sn\_apw\_advanced.spw\_goal\_user and \(sn\_align\_core.apw\_user or sn\_gf.goal\_admin\)
 
 ## About this task
 
@@ -26,19 +26,21 @@ Updating the actual value of a target breakdown automatically updates the actual
 
 **Note:** Only the owner or contributors of the goal can update the target breakdowns.
 
+If the target is stale, you can't update its breakdown actuals until an administrator resets the target. For details, see [Stale targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/stale-targets.md).
+
 ## Procedure
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d79660e65">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d96126e84">
 
 Option
 
-</th><th align="left" id="d79660e68">
+</th><th align="left" id="d96126e87">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d79660e74">
+</th></tr></thead><tbody><tr><td id="d96126e93">
 
 **From the Goals and targets tab or Target breakdown side panel**
 
@@ -54,7 +56,7 @@ The target breakdown side panel opens with the **Check-in actuals** window.
 
 Alternatively, you can select the cell in the Actual column of the target breakdown and enter the actual value on the **Goals and targets** tab.
 
-</td></tr><tr><td id="d79660e138">
+</td></tr><tr><td id="d96126e157">
 
 **From the Target breakdowns tab**
 

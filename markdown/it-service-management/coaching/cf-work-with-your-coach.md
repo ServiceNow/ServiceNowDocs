@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing your coaching assessments, Training agents using Coaching With Learning, Coaching, IT Service Management]
+breadcrumb: [Managing your coaching assessments, Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
 
 # Work with your coach
@@ -36,11 +36,11 @@ You can provide feedback for your coach when the assessment is in resolved, clos
 
 5.  Add any **Notes** for your coach that are applicable to your progress or learning status.
 
-6.  To provide feedback for the coach, click **Start Survey**.
+6.  To provide feedback for the coach, select **Start Survey**.
 
     The Provide Training Feedback form appears.
 
-7.  Complete the feedback and click **Submit**.
+7.  Complete the feedback and select **Submit**.
 
     The score for the survey is added to the **Coach rating** field.
 
@@ -66,5 +66,5 @@ You can provide feedback for your coach when the assessment is in resolved, clos
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Additional requirements for all Yokohama features and products
-description: Cumulative release notes summary on additional requirements for Yokohama features and products.
+title: Additional requirements for all Brazil features and products
+description: Cumulative release notes summary on additional requirements for Brazil features and products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-addtl-reqs.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-08"
+last_updated: "2026-11-04"
 reading_time_minutes: 6
-breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Additional requirements for all Yokohama features and products
+# Additional requirements for all Brazil features and products
 
-Cumulative release notes summary on additional requirements for Yokohama features and products.
+Cumulative release notes summary on additional requirements for Brazil features and products.
 
 To use certain products, specific setups or third-party requirements are required.
 
@@ -26,22 +26,49 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
-AI Skill Kit
+AI Agent Studio
 
 </td><td>
 
-The Next Experience UI Framework must be enabled to use the Now Assist panel.
+You must first install the supported version of the ServiceNow AI Platform to be able to use AI agents and AI Agent Studio. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+
+Next Experience UI Framework must be enabled before you can use the ServiceNow Otto panel.
 
 </td></tr><tr><td>
 
-AIOps LEAP
+AI Desktop Actions
 
 </td><td>
 
-You should have the following dependencies installed:
+The following are required to use defined AI Desktop Actions:
 
--   Now Assist for Platform
--   Now Assist for Creator \(optional\)
+-   Operating system: Microsoft Windows 11.
+-   .NET 9.0 runtime v9.0.10 or .NET 9 Desktop Runtime v9.0.10.
+-   No extended monitors are connected.
+
+You must first install the supported ServiceNow Otto version of ServiceNow to be able to use the ServiceNow Otto AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+
+You must enable Next Experience UI Framework before you can use the ServiceNow Otto panel.
+
+</td></tr><tr><td>
+
+AI Workflow Factory Prime
+
+</td><td>
+
+-   ****
+
+Some AI Workflow Factory Prime capabilities aren't yet available in regulated markets. Check your entitlements to determine whether you have access to AI Workflow Factory Prime capabilities.
+
+
+</td></tr><tr><td>
+
+Access Analyzer
+
+</td><td>
+
+-   ****
+    -   Access Analyzer is a ServiceNow Store product. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps and for information about submitting requests to the store.
 
 </td></tr><tr><td>
 
@@ -51,16 +78,140 @@ Advanced AI Search Management Tools
 
 -   ****
 
-You must have the User Experience Analytics API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
+You must have the Usage Insights API application installed from the ServiceNow Store to use Advanced AI Search Management Tools.
 
 
 </td></tr><tr><td>
 
-Creator Studio
+Autonomous Workforce
 
 </td><td>
 
-You must have the App Engine Enterprise license to use Creator Studio.
+-   ****
+
+Your instance must be on Brazil EA.
+
+
+</td></tr><tr><td>
+
+Build Agent and Autonomous Engineer
+
+</td><td>
+
+-   ****
+    -   Build Agent is dependent on ServiceNow Otto for Creator.
+    -   Autonomous Engineer is dependent on Build Agent.
+
+</td></tr><tr><td>
+
+CRM Outlook Add-in
+
+</td><td>
+
+-   ****
+
+Configuring email promotion requires the User Mailbox Integration plugin to be active on your instance so that emails associated through the add-in are promoted from the Staged Email \[sys\_email\_staging\] table to the Email \[sys\_email\] table, making them visible to agents in the workspace.
+
+
+</td></tr><tr><td>
+
+Clone Admin Console
+
+</td><td>
+
+-   ****
+    -   The `clone_admin` role is required to request, cancel, or schedule clones.
+    -   OAuth-based clone target authentication requires Australia Patch 5 or later on both the source and target instances. The `oauth_admin` role is required on the target instance during initial OAuth setup only. See .
+    -   A Now Assist license is required to use the Clone FAQ Agent. If Now Assist is installed after the Clone Admin Console, reinstall the console from the Store to enable the skill.
+    -   Both the source and target instances must be on Australia Patch 5 or later to use Multi-Instance View.
+
+</td></tr><tr><td>
+
+Customer Engagement Sequences
+
+</td><td>
+
+-   ****
+
+Email-based sequences requires the User Mailbox Integration plugin \(com.glide.email.user\_mailbox.integration\) to be active on your instance so that the sequence can detect email replies from prospects.
+
+
+</td></tr><tr><td>
+
+Customer self-service for Sales Customer Relationship Management
+
+</td><td>
+
+-   ****
+
+Sales Cart REST APIs require the Billing Account Core \(sn\_billing\_account\) and Order Management \(sn\_ind\_tmt\_orm\) applications for supporting end-to-end ordering, billing, and payment flows.
+
+
+</td></tr><tr><td>
+
+Data Privacy and Discovery
+
+</td><td>
+
+-   ****
+    -   Appropriate user roles assigned: Data Privacy Admin, Data Discovery Admin, and other role-based permissions for specific features.
+    -   For OCR image discovery: Modern browser with JavaScript enabled; image file size limits apply \(typically 10 MB or less\).
+    -   For reversible tokenization: Cryptographic key management system configured with authorized roles defined for de-anonymization access.
+    -   For bring your own PII detection: External PII service endpoint accessible with credentials securely stored.
+    -   For granular findings storage: Sufficient database storage for storing individual record references; retention policies should be defined.
+
+</td></tr><tr><td>
+
+Dispute Rules Content Pack for Mastercard
+
+</td><td>
+
+-   ****
+
+Requires Financial Services Card Operations \(sn\_bom\_credit\_card\).
+
+
+</td></tr><tr><td>
+
+Dispute Rules Content Pack for Visa
+
+</td><td>
+
+-   ****
+
+Requires Financial Services Card Operations \(sn\_bom\_credit\_card\) to be installed.
+
+
+</td></tr><tr><td>
+
+Domain Separation
+
+</td><td>
+
+-   ****
+    -   Appropriate user roles assigned: Domain Separation Admin, Domain Policy Admin, and other role-based permissions for domain management and configuration.
+
+</td></tr><tr><td>
+
+Enterprise Architecture
+
+</td><td>
+
+-   ****
+
+ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+
+</td></tr><tr><td>
+
+Export to PowerPoint
+
+</td><td>
+
+-   ****
+
+Export to PowerPoint is unavailable for customers in FedRAMP, NSC DOD IL5, or Australia IRAP-Protected datacenters, self-hosted customers, or other restricted environments. Check for availability updates in future releases.
+
 
 </td></tr><tr><td>
 
@@ -75,209 +226,94 @@ Your instance needs inbound mTLS support to run external content connector crawl
 
 </td></tr><tr><td>
 
-Knowledge Graph
+Firewall Audits and Reporting
 
 </td><td>
 
-Ensure that your instance is upgraded to XP7.
+-   ****
+
+Requires ITOM Visibility base plugins and appropriate role assignments for firewall management.
+
 
 </td></tr><tr><td>
 
-Now Assist
+Kubernetes Visibility Agent \(KVA\)
 
 </td><td>
 
-The Next Experience UI Framework must be enabled before you can use the Now Assist panel.
+-   ****
+
+Requires ITOM Visibility base plugins, Discovery, and appropriate Kubernetes cluster access permissions. The agent must be deployed in each Kubernetes cluster you want to monitor.
+
 
 </td></tr><tr><td>
 
-Now Assist AI agents
+LEAP
 
 </td><td>
 
-You must first install the supported Now Assist version of ServiceNow to be able to use the Now Assist AI agents. For more information, see [Install Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-ai-agents-plugins.md).
+-   ****
 
-Enable the Next Experience UI Framework before you can use the Now Assist panel.
+You should have the following dependencies installed:
+
+    -   ServiceNow Otto for Platform
+    -   ServiceNow Otto for Creator
 
 </td></tr><tr><td>
 
-Now Assist for IT Operations Management \(ITOM\)
+Live Connect
 
 </td><td>
 
-The ServiceNow Otto for ITOM application requires an ITOM Pro Plus or Enterprise Plus license.
+-   ****
+    -   ODBC or JDBC drivers must be installed on client systems.
+    -   User accounts must be configured with appropriate table access controls.
 
 </td></tr><tr><td>
 
-Now Assist in Document Intelligence
+Lux Lab
 
 </td><td>
 
-Now Assist in Document Intelligence requires the installation of the Document Intelligence application \(sn\_docintel\) and at least one Now Assist product.
+-   ****
+
+Lux Lab requires the following:
+
+<table id="table_lux_lab_reqs"><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+pnpm
 
 </td><td>
 
-[Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md) requires a license for Virtual Agent and at least one Now Assist product.
-
-</td></tr><tr><td>
-
-Performance Analytics
+10 or later
 
 </td><td>
 
-To use the new data snapshots feature, your instance must be on the RaptorDB Professional database.
-
-</td></tr><tr><td>
-
-RPA Hub
-
-</td><td>
-
-To use the Unattended Robot application, the hardware requirements for a single robot are as follows:
-
-|Resource|Minimum|Recommended|
-|--------|-------|-----------|
-|CPU|2 cores of Intel 1.8 GHz 64-bit processor|4 cores of Intel 2.4 GHz 64-bit processor|
-|RAM|4-GB RAM|8-GB RAM|
-|Disk space|Minimum 50-GB free disk space after installing the OS, patches, and base software|Minimum 100-GB free disk space after installing the OS, patches, and base software|
-
-To use the Unattended Robot application, the minimum and recommended hardware requirements for a high density robot are multiplied by the number of runtimes. Multiple robots execute jobs concurrently on the same Windows Server machine. For example, with three users concurrently executing jobs, the minimum hardware requirements for a high density robot are:
-
--   6 cores of Intel 1.8GHz 64-bit \(6 cores of 1.8GHz 64-bit per runtime\).
--   12 GB of RAM \(4 cores per runtime\).
-
-To use the Unattended Robot application, the software requirements for a standard robot are:
-
--   Operating system: Microsoft Windows 10, Windows Server 2016, Windows Server 2019, Windows Server 2022.
--   NET framework: Windows 4.7.1 or greater.
--   DPI scaling setting must be deactivated.
-
-To use the Unattended Robot application, the software requirements for a high density robot are:
-
--   Operating system: Windows Server 2022.
--   NET framework: Windows 4.7.1 or greater.
--   DPI scaling setting must be deactivated.
-
-If you are upgrading to Yokohama, verify that you have the latest robot MSI from Yokohama installed. The older versions of the robots do not work.
-
-An unattended robot is mapped to only one machine. This is applicable for standard robot.
-
-Virtual Machines \(VMs\) that are used for the Unattended Robot application must be persistent and constantly on.
-
-To use the Attended Robot application, the hardware requirements are:
-
-|Resource|Minimum|Recommended|
-|--------|-------|-----------|
-|CPU|Intel Processor \(1vCPU\)|Intel Processor \(4vCPU\)|
-|RAM|4-GB RAM|8-GB RAM|
-|Disk space|Minimum 20-GB free disk space after installing the OS, patches, and base software|Minimum 50-GB free disk space after installing the OS, patches, and base software|
-
-To use the Attended Robot application, the software requirements are:
-
--   Operating system: Microsoft Windows 10 or Windows Server 2016 or Windows Server 2019.
--   NET framework: Windows 4.7.1 or greater.
--   DPI scaling setting must be deactivated.
-
-An attended robot is mapped to only one user.
-
-To use the RPA Desktop Design Studio application, the hardware requirements are:
-
-|Resource|Minimum|Recommended|
-|--------|-------|-----------|
-|CPU|Intel Processor \(At least, Core i5\)|Intel Processor \(Core i7\).|
-|RAM|4-GB RAM|8-GB RAM|
-|Disk space|Minimum 20-GB free disk space after installing the OS, patches, and base software|Minimum 50-GB free disk space after installing the OS, patches, and base software|
-
-To use the RPA Desktop Design Studio application, the software requirements are:
-
--   Operating system: Microsoft Windows 10 or Windows Server 2016 or Windows Server 2019.
--   NET framework: Windows 4.7.1 or greater.
--   Monitor with 1920x1080p resolution.
--   DPI scaling setting must be deactivated.
-
-</td></tr><tr><td>
-
-Service Observability
-
-</td><td>
-
-For the best experience, an APM instance should be installed and an API Key Credential for that instance should be configured on the ServiceNow® platform. Service Observability supports Datadog, Dynatrace, or New Relic.
-
-</td></tr><tr><td>
-
-ServiceNow Add-in for Microsoft 365
-
-</td><td>
-
-You must have Microsoft Outlook 2019 or a later version to use ServiceNow Add-in for Microsoft 365.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for App Engine
-
-</td><td>
-
-Check your entitlements to determine whether you have access to the ServiceNow Otto for App Engine application.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Customer Service Management \(CSM\)
-
-</td><td>
-
-The ServiceNow Otto for CSM application requires a Customer Service Management Pro Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Field Service Management \(FSM\)
-
-</td><td>
-
-The ServiceNow Otto for FSM application requires Field Service Management.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Financial Services Operations \(FSO\)
-
-</td><td>
-
-The ServiceNow Otto for FSO application requires a Financial Services Operations Professional Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Hardware Asset Management \(HAM\)
-
-</td><td>
-
-The ServiceNow Otto for Hardware Asset Management \(HAM\) application requires the Hardware Asset Management Pro plus license.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for IT Service Management \(ITSM\)
-
-</td><td>
-
-The ServiceNow Otto for ITSM application requires an IT Service Management Pro Plus or Enterprise Plus license.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Sales Automation
-
-</td><td>
-
-The ServiceNow Otto for Sales Automation application requires the Sales Development AI agents.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Software Asset Management \(SAM\)
-
-</td><td>
-
-The Now Assist for SAM application requires the Software Asset Management Pro plus or the Enterprise plus license.
+[pnpm](https://pnpm.io/installation)
 
 </td></tr><tr><td>
 
@@ -285,54 +321,209 @@ ServiceNow SDK
 
 </td><td>
 
-You must have Node.js and Node Package Manager \(npm\) installed to install the ServiceNow SDK. For more information, see .
-
-</td></tr><tr><td>
-
-Skills Foundation
+4.12.1 or later
 
 </td><td>
 
-The Skills Workspace plugin \(sn\_skills\_int\_ws\) must be installed to access the workspace experience.
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
 
 </td></tr><tr><td>
 
-Smart Assessment Engine
+ServiceNow instance
 
 </td><td>
 
-Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-prepare-landing-page.md)
+
+</td></tr></tbody>
+</table>
+
 
 </td></tr><tr><td>
 
-Synthetic monitoring
+ReleaseOps
 
 </td><td>
 
-You must do the following before you can use synthetic monitoring:
+-   ****
 
--   If you have version 1.0, configure at least one proxy agent on the Agent Client Collector. These agents should be the ones you use to monitor the health and performance of the services to be monitored. For more information about proxy agents, see [Using proxy agents in Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/proxy-agent.md).
+ReleaseOps is not supported in regulated environments or on-premise. Check your entitlements to determine whether you have access to ReleaseOps.
 
-Starting with version 1.2, you can run tests from your local Glide instance instead of a proxy agent.
-
--   Add CIs in the CMDB for the endpoints that you want to monitor.
--   If your endpoints require authentication, configure credentials in the Credentials \[discovery\_credentials\] table.
 
 </td></tr><tr><td>
 
-Talent Feedback
+Retail Strategic Portfolio Management Suite
 
 </td><td>
 
-The Skills Foundation plugin \(sn\_skills\_int\) must be installed to be able to request skill feedback on Talent Feedback.
+-   ****
+
+Before installing Retail Strategic Portfolio Management Suite, install the following applications from the ServiceNow® Store:
+
+    -   Enterprise-Wide Deployment \(sn\_spm\_ewd\)
+    -   Project Workspace \(sn\_pw\)
+    -   Business Location \(app-business-location\)
+    -   Customer Service \(app-csm-ppm\)
 
 </td></tr><tr><td>
 
-Usage Insights
+Security Incident Response
 
 </td><td>
 
-Customer must use ADC v3 to access the new User Experience Analytics experience. Customers on ADC v2 will have access to the Xanadu version of User Experience Analytics.
+-   ****
+
+The Security Support Common plugin is activated automatically when any of the plugins for the main Security Operations applications are activated. These applications include Security Incident Response, Vulnerability Response, Threat Intelligence, and Configuration Compliance.
+
+
+</td></tr><tr><td>
+
+Self-service and omnichannel engagement for CSM
+
+</td><td>
+
+-   ****
+
+Microphone permission is required for WebRTC calls on mobile devices.
+
+
+</td></tr><tr><td>
+
+ServiceNow Lux Lab for VS Code
+
+</td><td>
+
+-   ****
+
+The ServiceNow Lux Lab for VS Code extension requires the following:
+
+<table id="table_imf_rfb_dkc"><thead><tr><th>
+
+Application
+
+</th><th>
+
+Version
+
+</th><th>
+
+Resources for more information
+
+</th></tr></thead><tbody><tr><td>
+
+Visual Studio Code
+
+</td><td>
+
+1.97 later
+
+</td><td>
+
+[Visual Studio Code updates](https://code.visualstudio.com/updates/v1_132)
+
+</td></tr><tr><td>
+
+Node.js
+
+</td><td>
+
+24 or later
+
+</td><td>
+
+[Node.js](https://nodejs.org/en/download)
+
+</td></tr><tr><td>
+
+pnpm
+
+</td><td>
+
+10 or later
+
+</td><td>
+
+[pnpm](https://pnpm.io/installation)
+
+</td></tr><tr><td>
+
+ServiceNow SDK
+
+</td><td>
+
+4.14 or later
+
+</td><td>
+
+[ServiceNow SDK](https://www.npmjs.com/package/@servicenow/sdk)
+
+</td></tr><tr><td>
+
+ServiceNow instance
+
+</td><td>
+
+-   Australia Patch 5 or later
+-   Zurich Patch 12 or later
+
+
+</td><td>
+
+[Prepare your upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-prepare-landing-page.md)
+
+</td></tr></tbody>
+</table>
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Virtual Agent
+
+</td><td>
+
+-   ****
+
+ServiceNow Otto for Virtual Agent requires at least one ServiceNow Otto product or the Requestor Agents - Foundation plugin.
+
+
+</td></tr><tr><td>
+
+Threat Intelligence Security Center
+
+</td><td>
+
+-   ****
+    -   The CrowdStrike vulnerability intelligence feed requires a CrowdStrike subscription that includes vulnerability intelligence, such as Falcon Adversary Intelligence or Falcon Adversary Intelligence Premium.
+    -   Sighting search with CrowdStrike NextGen SIEM requires the CrowdStrike API base URL, a client ID, and a client secret. Which log repositories you can search depends on the Falcon subscriptions enabled on your account.
+    -   The Extract information from documents skill must be enabled for the AI-powered intelligence import.
+
+</td></tr><tr><td>
+
+Unified Security Exposure Management \(USEM\)
+
+</td><td>
+
+-   ****
+
+The Security Support Common plugin is activated automatically when any of the plugins for the main Security Operations applications are activated. These applications include Unified Security Exposure Management \(USEM\), Security Incident Response, Threat Intelligence, and Configuration Compliance.
+
+
+</td></tr><tr><td>
+
+Vulnerability Response
+
+</td><td>
+
+-   ****
+
+The Security Support Common plugin is activated automatically when any of the plugins for the main Security Operations applications are activated. These applications include Vulnerability Response, Security Incident Response, Threat Intelligence, and Configuration Compliance.
+
 
 </td></tr><tr><td>
 
@@ -340,8 +531,18 @@ Zero Copy Connector for ERP
 
 </td><td>
 
-SAP ECC and S/4 HANA are currently the only available systems that integrate with ERP Canvas.
+SAP ECC, SAP S/4 HANA, and Oracle E-Business Suite \(12.2 and later\) are the available systems that integrate with Zero Copy Connector for ERP.
+
+</td></tr><tr><td>
+
+Zero Copy Connectors
+
+</td><td>
+
+-   ****
+    -   Role required: df\_connection\_admin to create connections. Data steward access is also required to view mapped tables.
+    -   REST connectors require network connectivity to the target REST-enabled system.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

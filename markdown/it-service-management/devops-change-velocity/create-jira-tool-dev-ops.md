@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Jira, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard Jira.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d362988e100">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d247414e100">
 
 Option
 
-</th><th align="left" id="d362988e103">
+</th><th align="left" id="d247414e103">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d362988e109">
+</th></tr></thead><tbody><tr><td id="d247414e109">
 
 **Homepage**
 
@@ -44,7 +44,7 @@ Steps
 2.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d362988e136">
+</td></tr><tr><td id="d247414e136">
 
 **Applications module**
 
@@ -56,7 +56,7 @@ Steps
 4.  On the  Connect to a tool  modal, select Jira from the **Plan** category.
 
 
-</td></tr><tr><td id="d362988e188">
+</td></tr><tr><td id="d247414e188">
 
 **Tools module**
 
@@ -162,18 +162,7 @@ For information on obtaining the value of Cloud ID, see [Obtain the value of Clo
     2.  Enter the password or access token to access this instance. \[Omitted image "jira-plybk-12.png"\] Alt text: Enter Jira Cloud instance details for basic authentication
 **OAuth 2.0 with 3LO**
 
-Pre-requisites:
-
-    -   
-    -   
-    -   Create a credential record for Jira Cloud
-Select an existing OAuth 2.0 credential record in the **Credential** field, or select **Create OAuth 2.0 credential record** to create a new record. For instructions on creating a new credential record, see Create a credential record for Jira Cloud.
-
-**Note:**
-
-    -   The option to create a new OAuth 2.0 will only be available if you have the connection &amp; OAuth admin role.
-    -   Only records that are not in use and configured for Jira Cloud can be selected as an existing credential record.
-\[Omitted image "jira-plybk-10.png"\] Alt text: Enter Jira Cloud instance details for OAuth 2.0 authentication
+Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md). \[Omitted image "jira-plybk-10.png"\] Alt text: Enter Jira Cloud instance details for OAuth 2.0 authentication
 
 3.  If your Jira instance is attached to a MID Server, select the **MID Server** option and enter its details.
 
@@ -219,7 +208,7 @@ For more information about MID server, see [MID Server selection](https://raw.gi
     This action does the following:
 
     -   Registers a webhook between your Jira and ServiceNow instances, and enables real-time data transfer between the two.
-    -   If you have connected your Jira tool using OAuth 2.0 based authentication, the webhooks are created for the OAuth 2.0 integration app in Jira when you configure automatically, whereas if you have connected using basic authentication, the webhooks are created for all your projects in Jira. If you choose to configure the webhooks manually for a Jira tool created using OAuth 2.0 based authentication, a duplicate webhook may get created.
+    -   If you have connected your Jira tool using OAuth 2.0 based authentication, the webhooks are created for the OAuth 2.0 integration app in Jira when you configure automatically. And if you have connected using basic authentication, the webhooks are created for all your projects in Jira. If you choose to configure the webhooks manually for a Jira tool created using OAuth 2.0 based authentication, a duplicate webhook may get created.
     All the discovered Jira projects are listed as Plans.
 
     If you don’t choose to configure now, you can enable nightly polling later to fetch data for any tracked plans by setting the **Enable Polling** system property to **Yes**.
@@ -274,6 +263,9 @@ From the tool record page, you can:
 -   To import historical data from the plans, associate the plans with an application, and import the data. For more information, see [Associate tool objects to applications - Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/apps-associate-objects-wkspc.md).
 
 **Note:** It is recommended not to update the project key for projects in Jira. If the project key is updated, the updated object names will not reflect in DevOps Change Velocity. Only when the object is updated in Jira, the new name will reflect in DevOps Change Velocity.
+
+-   **[Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md)**  
+Authenticate a Jira tool connection using OAuth 2.0 with three-legged OAuth \(3LO\) to enable secure, delegated access to your Jira account.
 
 **Parent Topic:**[Jira integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/jira-integration-dev-ops.md)
 

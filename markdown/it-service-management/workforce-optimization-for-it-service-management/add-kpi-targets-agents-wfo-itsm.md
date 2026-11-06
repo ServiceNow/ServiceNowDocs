@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analyzing team performance using Teams in Workforce Optimization for ITSM, Teams in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Analyzing team performance, Teams, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Add KPI targets for agents
@@ -17,6 +17,8 @@ breadcrumb: [Analyzing team performance using Teams in Workforce Optimization fo
 Set key performance indicator goals that you want your agents to achieve so that they can improve the quality of how they resolve incidents. You can also set goals to monitor and improve an existing baseline measurement.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: pa\_target\_admin and sn\_team\_perf.team\_performance\_admin
 
@@ -46,15 +48,15 @@ When you set a personal target, it is only visible to you.
     -   To set a personal target, click **Personal**.
 7.  Set the KPI target.
 
-<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d251196e145">
+<table id="choicetable_fdw_lqf_t4b"><thead><tr><th align="left" id="d448559e161">
 
 To
 
-</th><th align="left" id="d251196e148">
+</th><th align="left" id="d448559e164">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d251196e154">
+</th></tr></thead><tbody><tr><td id="d448559e170">
 
 **Update an existing target**
 
@@ -62,7 +64,7 @@ Do this
 
 In the **Target** field, update the value that you'd like the agent to achieve for the selected KPI.
 
-</td></tr><tr><td id="d251196e166">
+</td></tr><tr><td id="d448559e182">
 
 **Set a target for a key performance indicator**
 
@@ -72,7 +74,7 @@ In the **Target** field, update the value that you'd like the agent to achieve f
 2.  In the **Target** field, enter a value that you'd like the agent to achieve for the selected KPI.
 
 
-</td></tr><tr><td id="d251196e187">
+</td></tr><tr><td id="d448559e203">
 
 **Set a target to improve an existing baseline value**
 

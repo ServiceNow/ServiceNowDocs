@@ -7,9 +7,9 @@ release: yokohama
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contextual Security Manager, Access Control List Rules, Access Management]
+breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Double-check form submission

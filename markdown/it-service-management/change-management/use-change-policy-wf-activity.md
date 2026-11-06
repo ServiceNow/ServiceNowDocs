@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating change approval policies, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Creating change approval policies, Use, Change Management, IT Service Management]
 ---
 
 # Use the Change Approval Policy workflow activity
@@ -38,7 +38,7 @@ Role required: admin
 
     For example, when the change request is on-hold.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 **Parent Topic:**[Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/using-change-approval-policies-cf.md)

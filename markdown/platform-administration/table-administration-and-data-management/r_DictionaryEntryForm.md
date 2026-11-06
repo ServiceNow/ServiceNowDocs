@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Modify dictionary entries, Manage tables and indexes, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Modify dictionary entries, Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Dictionary entry form
@@ -69,9 +69,16 @@ Read only
 
 </td><td>
 
-Determines whether the users can change the field value in the user interface. When this checkbox is selected, it gets grayed out. The system calculates and displays the data for the field.
+Legacy option that controls whether users can change the field value in the user interface. This option is selected and greyed out in the following cases:-   When the field was marked as read only prior to the Australia release.
+-   When an option is selected in the **Read only option** field.
 
- **Note:** You can [override this option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md) for extended tables.
+</td></tr><tr><td>
+
+Read only option
+
+</td><td>
+
+Controls whether a field is read only and whether it can be changed by a client script or server-side APIs. For details, see [Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/read-only-option.md).
 
 </td></tr><tr><td>
 

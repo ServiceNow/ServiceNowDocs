@@ -7,7 +7,7 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-10-23"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [IT Service Management]
 # Coaching
 
 Use ServiceNow Coaching to monitor your teams' performance and coach your employees to improve their skill set.
-
-This video provides an overview of how you can use Coaching with Learning to train your teams.
 
 Train your agents with internal and external learning content using Coaching with Learning. Organize similar content in learning libraries. Assign learning tasks and track completion.
 

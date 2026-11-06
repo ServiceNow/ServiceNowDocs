@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Personal portfolios, Work with portfolios in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Personal portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Create a personal portfolio in Digital Portfolio Management
@@ -22,14 +22,14 @@ Role required: sn\_dpm.dpm\_manager
 
 ## About this task
 
-DPM supports services, service offerings, business applications, and application services so you can populate your personal portfolios with any of these items. Each item type is tagged and color-coded as you drill into your personal portfolio.
+DPM supports services, service offerings, business applications, and service instances so you can populate your personal portfolios with any of these items. Each item type is tagged and color-coded as you drill into your personal portfolio.
 
 -   View personal portfolios that you created and those portfolios that are shared with you.
 -   Assign editors and viewers for the personal portfolios that you created.
--   Edit your personal portfolio anytime when you want to add or remove solutions \(business services, technical services, offerings, business applications, and application services\).
+-   Edit your personal portfolio anytime when you want to add or remove solutions \(business services, technology management services, offerings, business applications, and service instances\).
 -   See all items that need attention, view their details to learn more, and take action if you have proper permissions according to the item's access control list \(ACL\).
 
-As you navigate the DPM landscape, you may find services, offerings, business applications, and application services that interest you. You can add those solutions to your personal portfolio immediately, without having to return to the personal portfolio menu. You can also share your personal portfolio with individuals and with groups.
+As you navigate the DPM landscape, you may find services, offerings, business applications, and service instances that interest you. You can add those solutions to your personal portfolio immediately, without having to return to the personal portfolio menu. You can also share your personal portfolio with individuals and with groups.
 
 **Note:** The information on each personal portfolio solution card can be altered by configuration. To configure the solution cards, you must have the DPM admin role \[sn\_dpm.dpm\_admin\]. For more information, see [Configure personal portfolio solution cards in the DPM Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-solution-cards.md).
 
@@ -92,12 +92,12 @@ Add collaborators
 </td></tr></tbody>
 </table>5.  Select **Next**.
 
-6.  Add business applications, services, service offerings, and application services to your personal portfolio.
+6.  Add business applications, services, service offerings, and service instances to your personal portfolio.
 
     -   Select each tabbed item to find the solution that you want to add to your personal portfolio, or **Search** to find items. You can search for a solution title or an owner name to find all items owned by that name.
     -   Select the items that you want to add, and then select **Add selected items** to add them to your personal portfolio.
 
-        **Note:** Review each tab. Your search term may show results in one or more of the three tabs: **Business applications**, **Services/Offerings**, or **Application services**.
+        **Note:** Review each tab. Your search term may show results in one or more of the three tabs: **Business applications**, **Services/Offerings**, or **Service instances**.
 
 7.  Select **Review portfolio \(total\)**.
 

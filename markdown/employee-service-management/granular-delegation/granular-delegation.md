@@ -7,8 +7,8 @@ release: yokohama
 product: Granular Delegation
 classification: granular-delegation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Employee Service Management]
 ---
 
@@ -26,7 +26,7 @@ Service delegation options are available, like limiting a delegation to specific
 -   Limiting records to only approvals.
 -   Limiting records to only task assignments.
 
-**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-application-landing-page.md).
+**Note:** Granular Delegation is intended for employee users, not fulfiller or agent users, such as in ITSM. Depending on your use cases, fulfiller and agent delegation is better managed via .
 
 ## Terms
 
@@ -57,4 +57,12 @@ For information on HR criteria and user criteria, see:
     -   Ad-hoc: An employee who is defined as a delegator can delegate their tasks from the **My Delegates** widget in the Employee Center.
     **Note:** The delegation\_admin must define a delegation rule table, delegation rules, and delegates. For more information on defining a delegation rule table see [Add delegation rule tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/add-delegation-rules-tables.md). For more information on defining a delegation rule, see [Create delegation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/create-delegation-rules.md). For more information on defining delegators and delegates, see [Create a delegate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/granular-delegation/create-delegation-admin.md).
 
+
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 

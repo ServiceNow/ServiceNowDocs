@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Association ID
 
 </td><td>
 
-Record to associate to the widget.To access the relevant records, you must select the Tables \[sys\_db\_objects\] table in the **Table name** list and the Demand \[dmn\_demand\] table in the **Document** list.
+Record to associate with the widget.To access the relevant records, you must select the Tables \[sys\_db\_objects\] table in the **Table name** list and the Demand \[dmn\_demand\] table in the **Document** list.
 
 </td></tr><tr><td>
 
@@ -38,7 +38,7 @@ Association table
 
 </td><td>
 
-Table to associate to the widget.You must select the Tables \[sys\_db\_objects\] table from the list.
+Table to associate with the widget.You must select the Tables \[sys\_db\_objects\] table from the list.
 
 </td></tr><tr><td>
 

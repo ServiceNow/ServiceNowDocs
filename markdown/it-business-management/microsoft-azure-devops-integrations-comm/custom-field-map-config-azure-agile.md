@@ -7,9 +7,9 @@ release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Customize your field map configuration
@@ -121,5 +121,9 @@ When you select a reference field for the **Internal Field** field, you must sel
 
 During import, the integration application searches for the record in the reference table using the **Lookup Column Name** field. If the record is not found, the value in the work item will be empty in Agile Development 2.0.
 
-\[Omitted image "lookup-column-name.png"\] Alt text: Lookup column name field.
+For a user reference field such as **Assigned To**, the integration reads the value in angle brackets that follows the user's display name in the Azure DevOps value. It searches the user table for a record in which the column that you select in **Lookup Column Name** matches that value. If no user matches, **Assigned To** is empty.
+
+To match users by another attribute, change **Lookup Column Name** on the **Assigned To** field map to that column. For example, select `user_name` if the value in angle brackets is the sign-in name of the user. You can't select a column that is itself a reference field.
+
+
 

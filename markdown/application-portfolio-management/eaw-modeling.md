@@ -1,61 +1,99 @@
 ---
-title: Enterprise Modeling and Visualization in the EA Workspace
-description: The Enterprise Modeling and Visualization functionality in EA Workspace helps you with diagramming and modeling capabilities, and enable you to model the future state of your IT and its relationship to the business landscape.
+title: Exploring Enterprise Modeling and Visualization in the EA Workspace
+description: Enterprise Modeling and Visualization in EA Workspace helps you with diagramming and modeling capabilities and enable you to model the future state of your IT and its relationship to the business landscape.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Modeling and Visualization in the EA Workspace
+# Exploring Enterprise Modeling and Visualization in the EA Workspace
 
-The Enterprise Modeling and Visualization functionality in EA Workspace helps you with diagramming and modeling capabilities, and enable you to model the future state of your IT and its relationship to the business landscape.
+Enterprise Modeling and Visualization in EA Workspace helps you with diagramming and modeling capabilities and enable you to model the future state of your IT and its relationship to the business landscape.
 
 \[Omitted video\] Description: Enterprise Modeling and Visualization overview
 
 You can use the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] functionality in EA Workspace to create diagrams for your applications hierarchy and associate them with architectural artifacts. These diagrams enable decision makers to make informed decisions.
 
-Creating diagrams for your applications hierarchy helps you in the following:
+Creating diagrams helps you in the following:
 
--   Visual representation: The diagrams and models provide a visual representation of complex enterprise structures, processes, and relationships. This visual representation helps your stakeholders, including executives and IT to understand the complexities of the organization.
--   Effective communication: Diagrams serve as a common language that bridges the gap between technical and non-technical stakeholders. They enable effective communication and collaboration between different teams and departments within an organization.
--   Improved decision making: The diagramming and modeling capabilities enable decision makers to make informed decisions. They can assess the impact of proposed changes, evaluate different scenarios, and identify potential risks before implementing strategies or projects.
--   Alignment with business goals: Diagrams and models help you align your IT initiatives with overall business goals. They provide a holistic view of the business and confirm that IT 's investments are strategically aligned with business goals.
--   Change management: The modeling capabilities facilitate change management by illustrating how changes impact the entire enterprise. This helps plan and execute transformations that run smoothly and with minimal disruption.
--   Regulatory and governance compliance: Many regulatory agencies and standards organizations require documentation and adherence to architectural guidelines. Modeling helps you verify compliance and governance by providing a structured framework for managing architectural artifacts.
--   Efficiency and cost reduction: By identifying redundancies, optimizing processes, and streamlining operations, modeling and diagramming can lead to cost reductions and improvements in operational efficiency.
+-   Visual representation: Diagrams and models represent complex enterprise structures, processes, and relationships for stakeholders including executives and IT teams.
+-   Effective communication: Diagrams provide a shared visual language for technical and non-technical stakeholders, supporting collaboration across teams and departments.
+-   Improved decision making: Decision makers can assess the impact of proposed changes, evaluate scenarios, and identify potential risks before implementing strategies or projects.
+-   Alignment with business goals: Diagrams and models help align IT initiatives with overall business goals, providing a view of the business and verifying that IT investments are strategically aligned with business goals.
+-   Change management: Modeling capabilities illustrate how changes affect the enterprise, supporting planning and execution of transformations with minimal disruption.
+-   Regulatory and governance: Modeling provides a structured framework for managing architectural artifacts and documenting adherence to architectural guidelines.
+-   Efficiency and cost reduction: Identifying redundancies, optimizing processes, and streamlining operations can help reduce costs and improve operational efficiency.
 
 \[Omitted image "modeling-home.png"\] Alt text: Modeling page
 
-## Installing the Enterprise Modeling and Visualization application
+**Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
-You can activate the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] from the ServiceNow Store.
+## Install the Enterprise Modeling and Visualization application
+
+You can install the Enterprise Modeling and Visualization \[com.snc.apm\_modelling\_tool\] from the ServiceNow Store.
 
 ## Working with diagrams
 
--   **Shapes**: This section enables you to use different kinds of shapes to create a diagram. Available shapes are:
+-   **Shapes**: Use different shapes to create a diagram. Available shapes are:
 
     -   General shapes
-    -   Enterprise Architecture shapes
+    -   AWS shapes
+    -   CSDM shapes
+    -   EA Extended shapes
     -   ArchiMate® shapes \(ArchiMate is a registered trademark of The Open Group\)
-    \[Omitted image "modeling-shapes-section.png"\] Alt text: Shapes
+    -   BPMN shapes
+    \[Omitted image "modeling-shapes-library.png"\] Alt text: Shapes libray
+
+    Use the Toggle Shape Library icon to show or hide the shapes panel on the canvas.
+
+    Use the Switch to List or Grid view icon to switch between list view and grid view of the shapes for all the shape libraries.
 
     You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
 
-    You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Pulling outward increases the shape's dimensions, while dragging inward reduces its size.
+    You can also adjust the size of shapes by selecting a shape and then drag any of its edges or corner handles. Dragging outward increases the shape dimensions; dragging inward reduces its size.
 
--   **Labels connector lines**: Select a connector line between shapes in a diagram to add a label for the connector line by selecting the **Select to add text** icon.
+    When you hover over a shape icon in the **Shapes** panel, a preview popover appears to the right of the panel. The popover shows a larger view of the shape and its label. Moving to a different shape icon, using either the mouse or the arrow keys, updates the popover to the new shape. The popover closes when you move the mouse away from the icon, press Tab on the keyboard, start dragging a shape, or scroll the panel.
 
-\[Omitted image "add-text-button-connector-line.png"\] Alt text: Click to add text button highlighted.
+-   **Label connector lines**: Select a connector line between shapes in a diagram and select **T+** in the connector toolbar to add a label. For more information, see [Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md).
+
+    You can perform the following actions for the labels:
+
+    -   Add multiple labels on a single relationship line
+    -   Drag and move labels
+    -   Delete individual labels without deleting the relationship
+    -   Use undo or redo action for a label
+    **Note:** In read-only mode or after the diagram is submitted for approval, label actions are unavailable.
+
+-   **Connector line properties**: Select a connector between two shapes to display a toolbar above the connector. The toolbar has two forms depending on the notation of the connected shapes:
+
+    -   If both connected shapes are ArchiMate shapes, the toolbar shows the following controls:
+
+        -   **Relationship type**: Sets the ArchiMate relationship type from a predefined list, including Access, Aggregation, Assignment, Association, Composition, Flow, Influence, Realization, Serving, Specialization, Triggering, and Used by.
+        -   **Swap direction**: Reverses the connector orientation, switching the left and right sides.
+        -   **T+**: Adds a text label to the connector.
+        \[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button before a connector linking two shapes.
+
+    -   If at least one connected shape is a non-ArchiMate shape \(for example, a CSDM or AWS shape\), or when connecting shapes from two different notations, the toolbar shows the following controls:
+
+        -   **Line style**: Sets the connector line to solid, dashed, or dotted.
+        -   **Start arrow**: Sets the arrowhead style at the starting end of the connector.
+        -   **Swap direction**: Reverses the connector orientation, switching the left and right sides.
+        -   **End arrow**: Sets the arrowhead style at the ending end of the connector.
+        -   **Icon**: Adds a BPMN message flow decorator icon to the connector.
+        -   **T+**: Adds a text label to the connector.
+        \[Omitted image "connector-line-non-archimate.png"\] Alt text: Non-ArchiMate connector toolbar showing line style, start arrow, Flip, end arrow, icon, and T+ controls above a connector linking two shapes.
+
+    For more information, see [Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-connector-properties.md) and [Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-connector-properties.md).
 
 -   **Version**: This field enables you to view and open a different version of the diagram.
 
     \[Omitted image "modeling-version-selection.png"\] Alt text: Version drop-down
 
--   **View details**: Use this option to view version-specific details of your diagram such as version label, description, and planned rollout day.
+-   **View details**: Use this option to view version-specific details of your diagram such as version label, description, and planned rollout date.
 
     \[Omitted image "version-details-diagram.png"\] Alt text: View details pop-up window
 
@@ -63,13 +101,13 @@ You can activate the Enterprise Modeling and Visualization \[com.snc.apm\_modell
 
     \[Omitted image "diagram-changes-undo-redo.png"\] Alt text: Undo and Redo buttons highlighted on a diagram page.
 
--   **Version**: This field enables you to view and open a different version of the diagram.
+-   **Align and distribute shapes**: Select two or more shapes on the canvas to align them to a common edge or center. Select three or more shapes to also distribute them at equal spacing. For more information, see [Align and distribute shapes in a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-align-distribute-shapes.md).
 
-    \[Omitted image "modeling-version-selection.png"\] Alt text:
+    \[Omitted image "modeling-align-options.png"\] Alt text: The alignment and distribution options available on the diagram canvas page.
 
 -   **Share**: Use this option to share the diagram with your peers.
 -   **Commit changes**: Use this option to synchronize the diagram to the repository. This option is available only when the diagram is approved.
--   **Save as new version**: Use this option to create a new version of the diagram within the same artifact.
+-   **Save as new version**: Use this option to create a version of the diagram within the same artifact.
 -   **Duplicate**: Use this option to duplicate an existing diagram and save it as a new artifact.
 
     \[Omitted image "modeling-options.png"\] Alt text: Modeling options
@@ -89,50 +127,58 @@ You can activate the Enterprise Modeling and Visualization \[com.snc.apm\_modell
     -   **Delete shape from canvas** to remove the selected shape from the canvas.
     -   **Add relation** to add relationships with reference to the selected object.
 
+## Keyboard navigation on the diagram page
+
+Enterprise Modeling and Visualization supports keyboard navigation across the diagram canvas, panels, shapes, and dialogs.
+
+You can use the keyboard to move between shapes, groups, pools, swimlanes, and nested elements on the canvas. Focus indicators clearly show the currently selected item. You can access shape and relationship context menus using the keyboard. Use these menus to open the side panel, view related records, add or edit relationship text, and delete or add relations.
+
+The following table lists the keyboard shortcuts available for navigating:
+
+|Key|Action|
+|---|------|
+|Tab or Shift + Tab|Move focus forward or backward between canvas elements, panels, and controls.|
+|Arrow keys \(↑ ↓ ← →\)|Navigate between shapes, nested elements, libraries, lists, pools, and swimlanes.|
+|Enter|Select the focused shape, relationship, or control.|
+|Shift + Enter|Move focus to shape or relationship adornments.|
+
 -   **[Shapes to create a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-shapes.md)**  
 The shapes available in Enterprise Modeling and Visualization help you create diagrams. You can add a shape to the canvas by either selecting the shape or by dragging the shape from the **Shapes** palette to the canvas.
--   **[Search shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-filter-shapes.md)**  
-Search for a shape in the Shapes palette of a diagram.
--   **[Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-related-records.md)**  
-Fetch and add a related record to the selected shape in a diagram.
--   **[Create a blank diagram using modeling in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-create-diagram.md)**  
-Create a diagram and synchronize it to the ServiceNow database.
--   **[Create a diagram for a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bc-map.md)**  
-Create and model your business capability map using the Enterprise Modeling and Visualization.
--   **[Update a business capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-update-bc-map.md)**  
-Modify an existing business capability map by adding new capabilities, business applications, or changing the hierarchy of the existing capabilities.
--   **[Add capabilities or applications to a capability map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bcmap-add-bc-ba.md)**  
-Add a new or existing business capability or business application to the capability map using the Enterprise Modeling and Visualization.
--   **[Create diagram for a business hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-ba-map.md)**  
-Create and model your business application hierarchy map using the Enterprise Modeling and Visualization.
--   **[Update a business application hierarchy map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-update-ba-map.md)**  
-Modify an existing business application hierarchy map by adding or removing shapes and relationships.
--   **[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/business-process-modeling.md)**  
-Business processes are a structured sequence of tasks that are grouped, helping to accomplish specific business outcomes. A business process modeling diagram or a BPMN \(Business Process Model and Notation\) diagram is a visual representation of a business process.
--   **[Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md)**  
-You can enhance diagram clarity in Enterprise Modeling and Visualization by adding a descriptive text on the connector line between shapes. Connector line labels clarify the nature of the relationship between shapes, annotate the data flow direction, and provide contextual information.
+-   **[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-connector-properties.md)**  
+When you select a connector between two shapes in an enterprise modeling diagram, a toolbar appears above the connector. Use the toolbar to define the relationship type or visual style of the connector.
 -   **[ArchiMate shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-archimate.md)**  
-ArchiMate® shapes are the industry standard shapes used by the Enterprise Architects to create diagrams with relationships among with different domains in the enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
+ArchiMate® shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. ArchiMate is a registered trademark of The Open Group. Enterprise Modeling and Visualization supports ArchiMate shapes along with General and Enterprise Architecture shapes.
+-   **[AWS shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-modeling-aws.md)**  
+Enterprise Modeling and Visualization supports Amazon Web Services \(AWS\) shape libraries for modeling cloud architectures. These shapes enable architects to design future-state cloud diagrams aligned with CMDB and CSDM standards.
+-   **[CSDM shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/align-with-csdm5.md)**  
+ServiceNow CSDM data model defines standardized relationships between service-related objects in the CMDB. It ensures consistency across ITSM, ITOM, and EA practices. In Enterprise Architecture Workspace, CSDM shapes represent these objects visually in diagrams, enabling architects to model business capabilities, applications, services, and technical components in alignment with the Now Platform.
 -   **[Custom shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shapes.md)**  
 Custom shapes are the user-defined graphical elements that can be used to represent specific concepts, processes, systems, or roles in your diagrams. These shapes can be tailored to fit the unique needs of your organization, making your diagrams more meaningful and easier to understand.
--   **[Share a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-share-diagram.md)**  
-Share your draft diagrams with individuals and groups and define access levels for them to view and modify the diagram.
--   **[Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)**  
-Synchronize an approved diagram and all its elements to the database.
--   **[Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)**  
-Copy an existing diagram and create a version for it within the selected architectural artifact. You can update the new version as required.
--   **[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)**  
-You can add or edit version-specific details for a diagram to improve change management and compliance. Adding diagram version details ensures better clarity between all stakeholders in the context of the diagram and timelines.
--   **[Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-duplicate.md)**  
-You can make a copy of an existing diagram that you created and modify the duplicate diagram according to your requirement.
--   **[Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-submit-for-approval.md)**  
-Send your draft modeling diagrams for approval. After receiving the approval, you can commit the diagram to the database. The approval process can be done through a configured workflow. By default, the approval request is submitted to the Enterprise Architect group.
--   **[Synchronize a shape to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-sync-shape.md)**  
-Add a shape to a diagram. Synchronize the shape to the database by mapping the shape to an existing CI or adding a CI.
--   **[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-delete-shape.md)**  
-Delete a shape and all of its relationships from a diagram.
--   **[Delete Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-delete-diagram.md)**  
-You can delete diagrams from the Enterprise Modeling and Visualization All Diagrams page, confirming only the relevant and current diagrams are available.
+-   **[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/business-process-modeling.md)**  
+Business processes are a structured sequence of tasks that are grouped, helping to accomplish specific business outcomes. A business process modeling diagram or a BPMN \(Business Process Model and Notation\) diagram is a visual representation of a business process.
+-   **[Business process map diagrams from images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bpm-diagram-from-image.md)**  
+Use the ServiceNow AI lens skill to generate a business process map \(BPM\) diagram automatically by uploading an image of an existing process diagram from any tool.
 
-**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
+
+**Related topics**  
+
+
+[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
+
+[Configure Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-modeling.md)
+
+[Add or edit diagram version details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-diagram-version-details.md)
+
+[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-connector-properties.md)
+
+[Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-connector-properties.md)
+
+[Add labels to connector lines between shapes in a diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.md)
+
+[Approve or reject a modeling diagram request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-approve-diagram-req.md)
+
+[Delete a shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-delete-shape.md)
+
+[Delete Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-delete-diagram.md)
 

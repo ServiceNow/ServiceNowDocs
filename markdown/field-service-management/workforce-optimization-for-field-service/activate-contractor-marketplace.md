@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Marketplace, Configuring contractor capabilities, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Marketplace, Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
 
 # Activate Field Service Marketplace

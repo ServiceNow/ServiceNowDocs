@@ -7,7 +7,7 @@ release: yokohama
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Utility workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Utility workflow activities, Workflow activities reference, Workflo
 
 The legacy **REST Message** activity enables an administrator to override the REST endpoint or supply the variables configured in the REST Message module.
 
-This activity is deprecated in the Yokohama release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r-orchestration.md) REST Activity templates instead.
+This activity is deprecated in the Brazil release and no longer shows up in the Workflow canvas for new workflow development. New workflows should use the [Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r-orchestration.md) REST Activity templates instead.
 
 Existing workflows using it will continue to work as designed. To edit this activity in an existing workflow, you must [re-activate the activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ReactivateDeprecatedActivity.md).
 

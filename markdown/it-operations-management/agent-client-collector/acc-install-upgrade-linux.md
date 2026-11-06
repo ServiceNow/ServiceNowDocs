@@ -1,32 +1,29 @@
 ---
 title: Upgrade the Agent Client Collector manually on a Linux system
-description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
+description: Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS. Use this procedure if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-install-upgrade-linux.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install ACC on a Windows machine manually, Agent Client Collector installation on a Windows machine, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Upgrade the Agent Client Collector manually on a Linux system
 
-Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS if the single-line command script is not connected to the instance or you want to use enhanced customization options.
+Perform a manual upgrade of your existing Agent Client Collector version on a system running a Linux OS. Use this procedure if the single-line command script is not connected to the instance or you want to use enhanced customization options.
 
 ## Before you begin
 
 -   Ensure that you have configured the Agent Client Collector web server. For more information, see [Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configure-web-server.md).
 -   Restart the MID Web Server.
--   Collect host data, to ensure that all files are up to date. For details, see [Run host data collection for an agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/collect-host-data-agent.md).
+-   Collect host data, to ensure that all files are up to date. For details, see [Collect data from your system devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/checks-policies-working-with.md).
 -   Ensure that you have installed a Linux version of the Agent Client Collector. For more information, see [Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-linux-concept.md).
+-   The upgrade procedure is the same for both MID Server and MID-less deployments.
 -   Role required: agent\_client\_collector\_admin
-
-## About this task
-
-The upgrade procedure is the same for both MID Server and MID-less deployments.
 
 ## Procedure
 
@@ -103,5 +100,5 @@ The upgrade procedure is the same for both MID Server and MID-less deployments.
     `sudo tail -f /var/log/servicenow/agent-client-collector/acc.log`
 
 
-**Parent Topic:**[Install the Agent Client Collector on a Windows machine manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-windows.md)
+**Parent Topic:**[Agent Client Collector installation on a Linux OS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-linux-concept.md)
 

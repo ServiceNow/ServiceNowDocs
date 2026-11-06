@@ -7,9 +7,9 @@ release: yokohama
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up defaults required for FX Currency use, Configuring currency fields, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Update a Currency Instance record
@@ -24,15 +24,15 @@ Role required: currency\_instance\_admin, with ACL access to the FX Currency fie
 
 1.  Access the Currency Instance record using one of the following methods.
 
-<table id="choicetable_wfb_pcw_5jb"><thead><tr><th align="left" id="d65199e73">
+<table id="choicetable_wfb_pcw_5jb"><thead><tr><th align="left" id="d69287e73">
 
 Access method
 
-</th><th align="left" id="d65199e76">
+</th><th align="left" id="d69287e76">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d65199e82">
+</th></tr></thead><tbody><tr><td id="d69287e82">
 
 **Direct access from an FX Currency field**
 
@@ -40,7 +40,7 @@ Description
 
 Select the edit icon \(\[Omitted image "currency-edit.png"\] Alt text: Edit icon\) that appears next to the FX Currency field in a transaction record.
 
-</td></tr><tr><td id="d65199e101">
+</td></tr><tr><td id="d69287e101">
 
 **From the navigator bar**
 

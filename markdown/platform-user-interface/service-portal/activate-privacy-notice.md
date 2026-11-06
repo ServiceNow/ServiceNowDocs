@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User Experience Analytics for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
 # Activate the privacy notice for unauthenticated users
@@ -18,7 +18,7 @@ If you enabled unauthenticated user tracking in your portal, you may be required
 
 ## Before you begin
 
-By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see [Configure User Experience Analytics Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-analytics-settings.md).
+By default, unauthenticated user tracking is turned off for portals. To modify analytics settings for a portal, see Configure Usage Insights Settings.
 
 Role required: sp\_admin
 
@@ -40,7 +40,7 @@ Role required: sp\_admin
 
     \[Omitted image "portal-section-privacy-announcement.png"\] Alt text: Portals section in the Announcement form.
 
-    **Note:** The Privacy Notice announcement appears only in portals for which have User Experience Analytics settings.
+    **Note:** The Privacy Notice announcement appears only in portals for which have Usage Insights settings.
 
 4.  Activate the announcement by selecting the **Active** option.
 
@@ -51,9 +51,9 @@ Role required: sp\_admin
 
 The Privacy Notice announcement is displayed to unauthenticated portal users.
 
-\[Omitted image "privacy-notice-example.png"\] Alt text: Privacy Notice announcement in a portal.
 
-**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
+
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 

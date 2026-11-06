@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [MID Web Server and agent mTLS Authentication, Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Connect the agent to the MID Server using mTLS
@@ -107,8 +107,6 @@ Role required: agent\_client\_collector\_admin
         If the `C:/ProgramData` directory is hidden \(such as on older Windows versions\), change the Explorer filter to show hidden elements.
 
     -   macOS: The default location is: `/Library/Application\ Support/servicenow/agent-client-collector/log/acc.log`
-
-**Parent Topic:**[MID Web Server and agent mTLS Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server-mTLS-authentication.md)
 
 **Related topics**  
 

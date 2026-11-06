@@ -1,13 +1,13 @@
 ---
 title: Roles installed with Code Signing
-description: Code Signing includes the following roles.Use the code signing admin role to assign codesigning\_manager and codesigning\_auditor roles to other users.Use the code signing manager role to create and update signature configuration, and create and run code signing jobs.Use the code signing auditor role to view signature configurations and signing jobs. The auditor role does not have create or write access to code signing assets.
+description: Code Signing includes the following roles.Use the code signing admin role to assign codesigning\_manager and codesigning\_auditor roles to other users.Use the code signing manager role to create and update signature configuration, and create and run code signing jobs.Use the code signing auditor role to view signature configurations, signing jobs, and Code Signing change audit data. The auditor role does not have create or write access to code signing assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cs-role-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Code Signing reference, Code Signing, Platform Security]
+breadcrumb: [Administer and Troubleshoot, Code Signing, Platform Security]
 ---
 
 # Roles installed with Code Signing
@@ -58,7 +58,7 @@ None.
 
 ## Code signing auditor \[codesigning\_auditor\]
 
-Use the code signing auditor role to view signature configurations and signing jobs. The auditor role does not have create or write access to code signing assets.
+Use the code signing auditor role to view signature configurations, signing jobs, and Code Signing change audit data. The auditor role does not have create or write access to code signing assets.
 
 ### Contains Roles
 
@@ -74,5 +74,5 @@ None.
 
 ### Special considerations
 
-None.
+This role grants read and reporting access to the **sn\_cse\_vault\_codesigning\_audit\_data** table, which records changes to protected records. No role grants create, update, or delete access to this table. For more information, see [Code Signing change audit data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cs-vault-audit-data.md).
 

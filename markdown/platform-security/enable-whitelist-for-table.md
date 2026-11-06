@@ -1,16 +1,16 @@
 ---
-title: Enabling inclusion list auditing for a table
+title: Enable inclusion list auditing for a table
 description: Enable a table to audit only those fields you explicitly designate. This is useful when you want to audit only a small number of fields in an audited table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/enable-whitelist-for-table.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring auditing for a table, Auditing]
 ---
 
-# Enabling inclusion list auditing for a table
+# Enable inclusion list auditing for a table
 
 Enable a table to audit only those fields you explicitly designate. This is useful when you want to audit only a small number of fields in an audited table.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-cash-process-management-reference.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Customer Relationship Management reference, Sales Customer Relationship Management]
+breadcrumb: [Order operations, Reference, Sales Customer Relationship Management]
 ---
 
 # Lead-to-Cash Process Management reference
@@ -21,5 +21,5 @@ Properties for Lead-to-Cash Process Management node map visualization.
 -   **[Components installed with Business Object Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/components-installed-business-object-core.md)**  
 Several types of components are installed with activation of the Business Object Core plugin, including tables and user roles.
 
-**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-reference.md)
+**Parent Topic:**[Order operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reference-order-operations.md)
 

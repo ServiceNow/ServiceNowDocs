@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add forms to UI Builder pages
@@ -17,8 +17,6 @@ breadcrumb: [Customize UI Builder pages using components, Working in UI Builder,
 Use the Form component to add one or more forms to UI Builder pages.
 
 Add functionality to your UI Builder pages by including forms. You define the fields on the form and their properties, such as making them required. Then, collect data as the form is completed and submitted.
-
-\[Omitted image "form-component.png"\] Alt text: Sample form component named transfer order line task on a page.
 
 You can add more than one form to a single page. You can also add a form to a page that already contains a component with a nested form. Sample use cases include:
 

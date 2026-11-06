@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create monetary benefit plans for your planning items in Strategic Planning
@@ -21,6 +21,10 @@ Create and manage monetary benefit plans to capture the potential benefits while
 -   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
+
+## About this task
+
+\[Omitted video\] Description: Create and manage benefit plans
 
 ## Procedure
 
@@ -34,15 +38,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d248908e124">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d318055e138">
 
 Option
 
-</th><th align="left" id="d248908e127">
+</th><th align="left" id="d318055e141">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d248908e133">
+</th></tr></thead><tbody><tr><td id="d318055e147">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +56,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d248908e157">
+</td></tr><tr><td id="d318055e171">
 
 **Using finanicals record page**
 

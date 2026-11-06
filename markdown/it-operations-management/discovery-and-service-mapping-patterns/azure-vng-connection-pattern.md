@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-12-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Azure - Virtual Network Gateway Connection \(LP\), Azure Virtual Network Gateway Connections, Azure VPN Connections, Azure discovery, Azure patterns]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure Virtual Network Gateway Connection pattern-based discovery
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns finds Azure Virtual Network Gateway Conne
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
+Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -111,5 +111,5 @@ The Azure - Virtual Network Gateway Connection \(LP\) pattern collects tags and 
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Virtual Network Gateway Connection \[cmdb\_ci\_vpc\_gateway\_connection\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

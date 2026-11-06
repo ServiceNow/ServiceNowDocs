@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Communicating with stakeholders about incidents and major incidents, Managing a major incident record, Major Incident Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Communicating about incidents and major incidents, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Manage recipients in a communication task
@@ -82,5 +82,5 @@ User, user group, or list of recipients with the user role. You must use the **A
 </table>4.  Select **Save**.
 
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/main-node-relationship-fw.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -13,6 +13,10 @@ breadcrumb: [Explore, Operational Resilience, Governance, Risk, and Compliance]
 # Main node configurations: A component of the Data Relationships Framework
 
 Starting with Release 20.1.x, the Main node configurations, supported by the Data Relationships Framework, are available with Operational Resilience to define dependency roll-up chains. Operational Resilience administrators configure the entity types and pillars, generate the entities, and then establish relationships between different CSDM objects. After this setup is complete, data from the CMDB is fetched into Operational Resilience, displaying rolled-up dependencies in the Workspace view.
+
+\[Omitted video\] Description: An overview of creating a main node configuration.
+
+The video gives you an overview of creating a main node configuration to visualize incident relationships with affected configuration items and child incidents.
 
 ## Data Relationships Framework
 
@@ -66,7 +70,9 @@ The existing Node relationship configurations related list has been updated and 
 
 -   Maximum number of nodes and Maximum number of levels: You can set the maximum number of nodes and levels for the map \(as shown in the **Properties** tab\). Similarly, you can also control the maximum number of children shown at the specific node relation and maximum number of levels shown at a specific node. The **Maximum number of levels** property is enabled only when the source table and target table in the Main node configuration are the same; if they’re different, this property is disabled.
 -   Maximum number of children: You can control maximum number of children to be displayed at the specific node relation. The minimum value for this field is 2.
--   Direction: Another field added to the relationship configuration is "Direction," which specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target." When set to "Target to source," selecting a specific node displays all its upstream nodes, showing the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
+-   Direction: Another field added to the relationship configuration is "Direction," which specifies the direction of the relationship between the source and target tables. The direction can be set to either "Target to source" or "Source to target."
+
+    When set to "Target to source," selecting a specific node displays all its upstream nodes. This shows the relationships leading to that node. When set to "Source to target," selecting a specific node displays all its downstream nodes.
 
     \[Omitted image "main-node-config-direction.png"\] Alt text: Direction.
 
@@ -79,7 +85,9 @@ The existing Node relationship configurations related list has been updated and 
 
 ## Nexus map configurations related list
 
-The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you to define its UI configuration, determining how the selected node would be displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements. A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
+The Nexus map configurations related list has been introduced in the UI. Configuring the Nexus map configuration for the selected main node helps you define its UI configuration. This determines how the selected node is displayed in the Nexus map. This setting includes settings for colors, icons, edge configuration, and other visual elements.
+
+A single main node configuration can have multiple Nexus configurations, enabling for different data views for the same structure. This flexibility is achieved through configuration at the Nexus map level.
 
 \[Omitted image "main-node-config-nexus-map.png"\] Alt text: Nexus map configuration.
 
@@ -120,7 +128,7 @@ You can update the following UI parameters for the node:
 -   Icon: Update the icon to be used for the node in the main node UI, for example, briefcase-outline.
 -   Secondary label: Update the secondary label to be displayed for the node, for example, class.
 -   Tooltip: Update the tooltip to be displayed when hovering over the node, for example, Name.
--   **Configuration for set as main node** field \(Setting a node as the Main Node\): To enable the **Make this primary** functionality for a node \(To make a node as a primary node\), you must configure the **Configuration for set as main node** setting. This configuration reflects the hierarchy flow for the node that is designated as primary. To set a specific node as the Main node \(primary node\) at any point, select the Nexus map configuration in the **Configuration for set as main node** field. For example, when viewing node relationships from primary node A to node B and node C, the node chain such as "A -&gt;B -&gt;C" is displayed. You can select node B as the Main node \(primary node\) and then the display shows node A as the upstream node and node C as the downstream node.
+-   **Configuration for set as main node** field \(Setting a node as the Main Node\): To enable the **Make this primary** functionality for a node \(To make a node as a primary node\), you must configure the **Configuration for set as main node** setting. This configuration reflects the hierarchy flow for the node that is designated as primary. To set a specific node as the Main node \(primary node\) at any point, select the Nexus map configuration in the **Configuration for set as main node** field. For example, when viewing node relationships from primary node A to node B and node C, the node chain such as "A -&gt;B -&gt;C" is displayed. You can select node B as the Main node \(primary node\). The display then shows node A as the upstream node and node C as the downstream node.
 
     **Configuration for 360° view** field: You can configure this setting to determine the configuration to be used when viewing a 360° view, for example, **Entity**.
 
@@ -219,7 +227,7 @@ The Main node configurations are included with the Operational Resilience base v
 
     For more information on the Opres with CSDM header configuration, see [Opres with CSDM header Main node configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/opres-with-csdm-header.md).
 
-2.  Service \(CMDB\) configuration for services: The Service \(CMDB\) configuration defines the relationships for a service and is primarily used by existing customers. It supports only one level of dependency, such as a parent service having a child service, a process, or a dependency. A child service can have a process and a dependency \(such as Dep2 or Dep4 as shown in the example\) and a process can have a dependency \(such as Dep3 as shown in the sample hierarchy\).
+2.  Service \(CMDB\) configuration for services: The Service \(CMDB\) configuration defines the relationships for a service and is primarily used by existing customers. It supports only one level of dependency, such as a parent service having a child service, a process, or a dependency. A child service can have a process and a dependency \(such as Dep2 or Dep4 as shown in the example\). A process can have a dependency \(such as Dep3 as shown in the sample hierarchy\).
 
     \[Omitted image "s-sam-hier.png"\] Alt text: Sample hierarchy.
 
@@ -262,8 +270,6 @@ After setting up the Main node configurations, you must verify that the entities
 Node relationship configurations are used to set up relationships between the records and objects defined in the table. You can configure the details of the main node such as its name, source, table name, filter conditions, and so on.
 -   **[Nexus map configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/nexus-map-configuration.md)**  
 Beginning with Operational Resilience, version 21.1.x, the Nexus map configuration has been introduced. To display a main node in the Operational Resilience Workspace, you must configure the Nexus map. The Node Map configuration UI allows you to visualize related data hierarchically, track issues, and identify areas needing attention for effective resolution or health monitoring.
--   **[Main node configuration source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/main-node-configuration-source.md)**  
-You can set up the source for the Main node configurations.
 
 **Parent Topic:**[Exploring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/what-is-opres.md)
 

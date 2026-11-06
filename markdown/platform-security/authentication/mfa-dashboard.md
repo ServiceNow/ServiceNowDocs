@@ -1,0 +1,90 @@
+---
+title: MFA Dashboard
+description: View the different MFA metrics to understand the MFA adoption and usage.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/mfa-dashboard.html
+release: yokohama
+product: Authentication
+classification: authentication
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Multi-factor authentication, Authentication, Access Management]
+---
+
+# MFA Dashboard
+
+View the different MFA metrics to understand the MFA adoption and usage.
+
+Multi-factor authentication \(MFA\) enhances security by requiring an additional verification step during the login process. The MFA Dashboard helps you to monitor and manage MFA settings for your organization. This dashboard provides an overview of MFA user enrollment, privileged admins who haven't enrolled in MFA, and compliance. You can use it to verify that all users have MFA enabled for enhanced security.
+
+To access the MFA Dashboard, navigate **All** &gt; **Multi-factor Authentication** &gt; **MFA Dashboard**.
+
+\[Omitted image "mfa-dashboard.png"\] Alt text: MFA Dashboard
+
+**Note:** You must enable MFA to view the metrics. For more information, see [Multi-factor Authentication system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-properties.md).
+
+Following are the types of metrics displayed on the MFA Dashboard:
+
+-   [User Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-dashboard.md)
+-   [Login Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-dashboard.md)
+
+## User Metrics
+
+The following table provides details of the User Metrics in the MFA Dashboard.
+
+<table id="table_bwy_g2c_cfc"><thead><tr><th>
+
+Metrics
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Users enrolled in Multi-factor Authentication \(MFA\)
+
+</td><td>
+
+The percentage of users who can perform username-password based login and enrolled in MFA. This metric provides an insight on the adoption of MFA by the users over a period of time.**Note:** Ideally, the score should gradually increase and should be 100% over a period of time \(Refreshed once a day to collect records for a day before\).
+
+</td></tr><tr><td>
+
+Privileged admins without Multi-factor Authentication \(MFA\)
+
+</td><td>
+
+Privileged admins not using MFA is a significant risk to platform security. Enroll these users in MFA. **Note:** Privileged admins are the users who have at least one role from the sys\_icenter\_role\_config table. \(Refreshed once a day to collect records for a day before\).
+
+</td></tr></tbody>
+</table>## Login Metrics
+
+The following table provides details of the Login Metrics in the MFA Dashboard.
+
+<table id="table_bdy_r2c_cfc"><thead><tr><th>
+
+ 
+
+</th><th>
+
+ 
+
+</th></tr></thead><tbody><tr><td>
+
+Multi-factor Authentication \(MFA\) factors used
+
+</td><td>
+
+Classification of MFA factors used during the username-password based login.
+
+</td></tr><tr><td>
+
+User-password logins without Multi-factor Authentication \(MFA\)
+
+</td><td>
+
+The percentage of username-password based logins without MFA. This metric provides an insight on the adoption of MFA over a period of time. **Note:** Ideally, the score should gradually decrease and should be zero over a period of time \(Refreshed once a day to collect records for a day before\).
+
+</td></tr></tbody>
+</table>

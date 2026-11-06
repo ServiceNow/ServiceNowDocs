@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/configuring-cto-biomed.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -16,17 +16,17 @@ The following setup steps need to occur prior to using Care Team Operations for 
 
 ## Configuration overview
 
-1.  [Activate Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-biomed-activate.md)
+1.  [Install Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-biomed-activate.md)
 
     Install the Care Team Operations for Biomed application \(sn\_cto\_biomed\) if you have the admin role.
 
-2.  [Setting up plugins for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-biomed-plugin-info.md)
+2.  [Set up work order synchronization in Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-biomed-plugin-info.md)
 
     The Field Service Management \[com.snc.work\_management\] plugin is required for work order synchronization to function with Care Team Operations for Biomed.
 
     For Care Team Operations for Biomed to create work orders from Healthcare Biomed cases, the Field Service Management \[com.snc.work\_management\] plugin must be installed.
 
-3.  [Set up roles for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-biomed-set-up-roles.md)
+3.  [Assign roles for Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-biomed-set-up-roles.md)
 
     Ensure that the correct roles are assigned to users of Care Team Operations for Biomed.
 
@@ -54,4 +54,6 @@ The following setup steps need to occur prior to using Care Team Operations for 
 
     Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Biomed .
 
+
+**Note:** This application includes a knowledge base article that defines which details the ServiceNow Otto case intake AI agent asks for when it creates a case. To change the intake questions, see [Manage domain intelligence for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-manage-domain-intelligence.md).
 

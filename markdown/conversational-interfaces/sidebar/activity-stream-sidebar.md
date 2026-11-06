@@ -7,8 +7,8 @@ release: yokohama
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [sidebar, Virtual Agent, activity stream, Polaris, Core UI, discussion, tile]
 breadcrumb: [Exploring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -44,6 +44,12 @@ The primary record card appears as part of the activity stream and displays the 
 -   Priority \(for task-based record cards\)
 
 \[Omitted image "sidebar-primary-record-card-example.png"\] Alt text: Primary record card.
+
+## Starting a discussion
+
+If you select **Open Discussion**, then the Sidebar panel opens and displays the Sidebar discussions. Customers and non-fulfiller roles don’t have access to the record don’t have access to the conversation tile, similar to work notes.
+
+\[Omitted image "sidebar-start-discussion.png"\] Alt text: Start a discussion.
 
 ## Posting a message
 

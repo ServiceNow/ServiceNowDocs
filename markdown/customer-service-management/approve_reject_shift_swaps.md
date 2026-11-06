@@ -1,22 +1,22 @@
 ---
-title: Approve or reject a shift-swap from CSM Agent Workspace
+title: Approve or reject a shift swap from CSM Agent Workspace
 description: You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/approve\_reject\_shift\_swaps.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workforce Optimization for CSM Agent Workspace, Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Workforce Optimization for CSM Agent Workspace, Workforce Optimization for Customer Service, Agent management, Use, Customer Service Management]
 ---
 
-# Approve or reject a shift-swap from CSM Agent Workspace
+# Approve or reject a shift swap from CSM Agent Workspace
 
 You can approve a shift swap requested by your peer if you are available to work for that time period. You can reject it if you are unable to work then.
 
 ## Before you begin
 
-**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md).
+**Important:** To access the next generation of the Workforce Optimization for Customer Service application, transition to the Workforce Optimization for Customer Service application that is available from the ServiceNow Store. You can now configure Workforce Optimization for Customer Service using the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md). For more information see, [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configurable-wfo-cs.md).
 
 Role required: sn\_shift\_planning.agent
 
@@ -34,6 +34,6 @@ Role required: sn\_shift\_planning.agent
 
     -   To approve the request, click **Approve**.
     -   To reject the request, click **Reject**.
-    If you approve a shift swap, the application moves the request to your manager's approval queue. For more information, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/scheduling-configurable-wfo-cs.md).
+    If you approve a shift swap, the application moves the request to your manager's approval queue. For more information, refer to [Scheduling in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/scheduling-configurable-wfo-cs.md).
 
 

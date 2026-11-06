@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Pulse survey content, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Pulse survey content, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create pulse survey content
@@ -74,7 +74,5 @@ Option to indicate that the pulse content is active and available for use.
     -   To add a question to content, click **New**. For more information, see [Create a pulse question](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-create-pulseq.md).
     -   To add a question from Question Bank, click **From Question Bank**.
     Add Content \(of type Pulse Content\) to a campaign in Content Experiences or schedule content in Content Publishing. For more information, see [Publishing content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-publishing-schedule.md).
-
-    **Note:** For more information, see [Listening Posts]().
 
 

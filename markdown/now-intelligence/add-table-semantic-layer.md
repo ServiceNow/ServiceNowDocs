@@ -1,32 +1,38 @@
 ---
 title: Add a table to the semantic data layer
-description: Add more tables to the Query Generation semantic layer so that users can use Now Assist in Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.
+description: Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.Instead of adding individual tables or database views to the semantic layer, you can select multiple ones from a list and enable Query Generation for them together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-table-semantic-layer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-21"
-reading_time_minutes: 3
-breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Add a table to the semantic data layer
 
-Add more tables to the Query Generation semantic layer so that users can use Now Assist in Platform Analytics applications to ask questions about the data in those tables.
+Add more tables to the Query Generation semantic layer so that users can use ServiceNow Otto for Platform Analytics applications to ask questions about the data in those tables.
 
 ## Before you begin
+
+\[Omitted video\] Description: Adding a table to the semantic data layer
 
 Semantic table configuration supports regular tables, database views, and Workflow Data Fabric tables.
 
 **Warning:** Adding a table to the semantic data layer and enabling semantic generation on that table can negatively impact both initial load time and runtime performance of Query Generation.
 
-Role required: admin, now\_assist\_explorer\_admin, sn\_query\_gen.admin
+Role required: sn\_query\_gen.admin or higher
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Query Generation** &gt; **Administration** &gt; **Semantic table config**.
 
     If you do not have this navigation path despite having the correct roles, you may be missing a required entitlement.
+
+    **Note:** As an alternative to this procedure, you can select one or more tables in a list and apply the Enable for Query Generation list action.
+
+    \[Omitted image "enable-qg-from-list-of-tables.png"\] Alt text: The Enable for query generation action for tables in a list of tables.
 
 2.  In the Semantic Tables Configurations list, select **New**.
 
@@ -53,7 +59,7 @@ Your table is added to the list. If you enabled semantic generation, records for
 
 ## Adding the Contract table hierarchy to the semantic layer
 
-If you have users who need to explore and discuss data relating to asset contracts, you need to add the Contract \[ast\_contract\] table to the semantic layer. This table hierarchy is not supported by default.
+If you have users who need to explore and discuss data relating to asset contracts, add the Contract \[ast\_contract\] table to the semantic layer. This table hierarchy is not supported by default.
 
 1.  First, you open the Semantic Table Configuration list \[sn\_query\_gen\_table\_config\_list\] and press the **New** button.
 

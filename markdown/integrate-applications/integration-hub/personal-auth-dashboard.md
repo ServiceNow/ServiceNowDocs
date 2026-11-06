@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing connections in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Manage connections, Integration Hub, Workflow Data Fabric]
 ---
 
 # Using the Personal Authentication dashboard

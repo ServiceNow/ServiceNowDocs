@@ -1,5 +1,5 @@
 ---
-title: Use Approvals hub
+title: Use approval experience
 description: Use the My tasks section to track and fulfill the requests from the portal and Now Mobile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Use, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
-# Use Approvals hub
+# Use approval experience
 
 Use the **My tasks** section to track and fulfill the requests from the portal and Now Mobile.
 
 As an approver, view all your approvals with the in-context details such as common info, primary info, tabs, and the associated action groups.
 
-\[Omitted image "c-approval-my-tasks-june.png"\] Alt text: Approval flow on portal and mobile
+
 
 You can perform the following actions from the portal and Now Mobile.
 
@@ -33,4 +33,39 @@ You can perform the following actions from the portal and Now Mobile.
 -   When you enable e-signatures for approvals, the approver must enter the correct credentials to change the approval state. Only when the credentials pass, the approval status changes.
 
 For more information, see [Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-ootb.md) and [Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-intro.md).
+
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-emp-center.md)
+
+**Related topics**  
+
+
+[Use the Employee Center topic pages]()
+
+[Topic managers and contributors for topic page management]()
+
+[Use the My To-dos page]()
+
+[Manage approvals from Microsoft Teams]()
+
+[Manage approvals from a Microsoft Outlook email]()
+
+[Task filters on My tasks]()
+
+[View the Recommended for you content]()
+
+[Use Employee Center from Zoom]()
+
+[View employee profile]()
+
+[Use Personalized Answers]()
+
+[Employee Profile org chart widget]()
+
+[RTL support for Employee Center]()
+
+[Manage favorites]()
+
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 

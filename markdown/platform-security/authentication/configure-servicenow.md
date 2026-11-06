@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Azure AD Integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Azure AD Integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Configure ServiceNow
@@ -344,7 +344,7 @@ Request
 
 </td><td>
 
-Unique id as part of request. The id can be a user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information, see [Testing IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
+Unique id as part of request. The id can be a user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information, see [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr><tr><td>
 
@@ -352,7 +352,7 @@ Response
 
 </td><td>
 
-Unique id as part of response. The id can be a user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information, see [Testing IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
+Unique id as part of response. The id can be a user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information, see [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr></tbody>
 </table>10. Select **Test Connection** at the upper-right corner of the page.

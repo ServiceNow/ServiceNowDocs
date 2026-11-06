@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_TargetCommViewPubOnbusinessPortal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View a publication on Business Portal
@@ -42,4 +42,9 @@ The **Publications** link on the business portal displays a list of current publ
 
 7.  Select the return arrow at the top of the publication to return to the Publications list.
 
+
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
 

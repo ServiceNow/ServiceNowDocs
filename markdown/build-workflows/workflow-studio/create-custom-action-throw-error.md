@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Flow error handler, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Flow error handler, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a custom action to throw an error
@@ -42,7 +42,7 @@ This custom action throws an error when the action input value is set to 1. Any 
     |Application|Global|
     |Accessible From|All application scopes|
 
-4.  Select **Submit**.
+4.  Select **Build Action**.
 
     The system displays the Workflow Studio interface.
 
@@ -68,12 +68,34 @@ This custom action throws an error when the action input value is set to 1. Any 
 
 10. Configure the variable with these values.
 
-    |Field|Value|
-    |-----|-----|
-    |Name|code|
-    |Value|Select the data pill \[action-&gt;Error Code\]|
+<table id="table_cvp_l5p_lhb"><thead><tr><th>
 
-11. In **Script**, enter this JavaScript code.
+Field
+
+</th><th>
+
+Value
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+code
+
+ **Note:** Make sure that this value is lower case so that it matches the script call reference in the next step.
+
+</td></tr><tr><td>
+
+Value
+
+</td><td>
+
+Select the data pill \[action-&gt;Error Code\]
+
+</td></tr></tbody>
+</table>11. In **Script**, enter this JavaScript code.
 
     ```
     (function execute(inputs, outputs) {
@@ -83,7 +105,7 @@ This custom action throws an error when the action input value is set to 1. Any 
     })(inputs, outputs);
     ```
 
-12. Click **Save**.
+12. Select **Save**.
 
     \[Omitted image "create-action-throw-error.png"\] Alt text: Action outline and configuration of the sample action Throw an error.
 

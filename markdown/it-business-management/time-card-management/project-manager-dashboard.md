@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -40,8 +40,6 @@ The Project time card exceptions report lists the users who did not submit their
 
 The report is generated from the project\_timecard\_exception table. It requires the schedule job **Project Time Card Exceptions** to be running to get the up-to-date information.
 
-\[Omitted image "ProjectTimeCardExceptions.png"\] Alt text: Screenshot for Project Time Card Exceptions report
-
 ## Total approved hours for project\(s\)
 
 It displays the total approved hours in all project categories displayed in **Time by Project Time Category** report.
@@ -51,8 +49,6 @@ It displays the total approved hours in all project categories displayed in **Ti
 ## Time by Project Time Category report
 
 The bar chart report displays the time approved against each project category for the users allocated to the selected project.
-
-\[Omitted image "TimeByProjectTimeCategory.png"\] Alt text: Screenshot for Time by Project Time Category report
 
 -   **[Use the Analytics Project manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/use-project-manager-dashboard.md)**  
 The Analytics Project manager shows the time card reports for the selected projects.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-doc-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational vulnerability module, Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,7 @@ Role required: sn\_oper\_res.admin
 
 7.  To add blocks for advanced search, select **Add Blocks**.
 
-<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d366385e149">
+<table id="choicetable_ib1_wzc_tcc"><tbody><tr><td id="d224570e149">
 
 **To add an existing document block to the template**
 
@@ -46,7 +46,7 @@ Role required: sn\_oper\_res.admin
 
 In Search blocks, type in the name of an existing document block, select the document block, and select **Insert**.
 
-</td></tr><tr><td id="d366385e161">
+</td></tr><tr><td id="d224570e161">
 
 **To add a new document block to the template**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-09-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage notifications in Contract Management Pro
@@ -28,11 +28,13 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 **Related topics**  
 
 
-[Configuring Contract Workspace with UI Builder components]()
+[Configuring Contract Workspace]()
 
 [Configure signature pause duration when modifying signatories]()
 
 [Auto-populate the start date and end date for contract requests]()
+
+[Enable signatory roles]()
 
 [Activate a system property to generate a certificate of completion]()
 

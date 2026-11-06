@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Clone a lifecycle event
@@ -26,7 +26,7 @@ Role required: sn\_hr\_le.admin
 
 2.  Click **Clone Lifecycle Event** to clone the lifecycle event and all of its associated activity sets and activities.
 
-    \[Omitted image "lifecycle-event-clone.png"\] Alt text: Click Clone Lifecycle Event to begin the cloning process.
+    \[Omitted image "lifecycle-event-clone-brand2.png"\] Alt text: Click Clone Lifecycle Event to begin the cloning process.
 
     Once complete, a message that the lifecycle event was successfully cloned appears.
 

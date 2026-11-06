@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Health and Safety, Employee Service Management]
 ---
@@ -22,13 +22,9 @@ Help employees return to the workplace when they're healthy and ready with the f
 
 -   **Employee Readiness Surveys**
 
-    \[Omitted image "safe-workplace-ers.png"\] Alt text: Gauge workforce readiness for returning to the workplace
-
     With the ServiceNow® Employee Readiness Surveys application, send surveys to help gauge whether users are ready to return to the workplace. Ask questions to get insights into how users feel about returning to work, their current health status, and underlying concerns such as personal health, family obligations, and anxiety about workplace safety. Based on responses, you can measure and determine the steps needed to help users feel safe and secure upon their return.
 
 -   **Employee Health Screening**
-
-    \[Omitted image "safe-workplace-ehs.png"\] Alt text: Screen employees for a safer return to the workplace
 
     The ServiceNow® Employee Health Screening application enables organizations to screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and personal protective equipment \(PPE\). Based on their own criteria, organizations can determine whether it’s safe for the user to enter the workplace. Organizations can use a reporting dashboard  to view trends by sites and record the return of users into  their  facilities.
 
@@ -39,20 +35,16 @@ Prepare your workplace for the return of employees with the following Safe Workp
 
 -   **Workplace Core**
 
-    \[Omitted image "safe-workplace-wsm.png"\] Alt text: Manage workspace distancing, shifts, and cleaning
-
     Using the ServiceNow® Workplace Core application, quickly configure sanitized and socially distanced workspaces for the return of users. With department leaders, workplace service managers can reserve available workspaces for users in shifts. Workspaces can be scheduled for disinfection before and after these shifts. Through reports and dashboards, workplace managers can view how many of the available workspaces have been reserved. Workplace managers also have a real-time view of all cleaning task statuses, including a full audit trail history.
 
 -   **Workplace Personal Protective Equipment Inventory Management**
-
-    \[Omitted image "safe-workplace-wppe.png"\] Alt text: Manage the inventory of personal protective equipment
 
     The ServiceNow® Workplace Personal Protective Equipment Inventory Management application helps you manage and monitor workplace needs for safety equipment provided to your workforce. A dashboard provides a comprehensive view of inventory by each facility, an aggregate scope of the entire workplace, and historical data on how equipment levels have changed over time. You can update current inventory levels daily for accurate and real-time inventory management.
 
 
 Use the Safe Workplace applications together to automate workflows for determining your employees' readiness and needs for returning to work, preparing sanitized and socially distanced workspaces, and managing the inventory of safety equipment for your workforce.
 
-\[Omitted image "safe-workplace-together.png"\] Alt text: Safe Workplace apps.
+
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 
@@ -78,7 +70,7 @@ Screen users before entering the workplace to ensure compliance with the organiz
 -   **[Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/workplace-safety-mgmt-hr.md)**  
 Use the ServiceNow® Workplace Core application to create safer, managed processes for returning employees to the workplace and staying open. Establish distancing plans, shift assignments, and sanitation scheduling and manage workspace allocation in stages. The Workplace Core is also available as a core application in the Workplace Service Delivery suite.
 -   **[Workplace PPE Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/ppe-inventory-management.md)**  
-Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety  of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
+Use the ServiceNow® Workplace Personal Protective Equipment Inventory Management application to manage PPE inventory to help safeguard the physical safety of your workforce. Monitor the availability of PPE at different locations, fulfill employee requests for PPE, and track PPE assigned to employees.
 -   **[Safe Workplace Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace-dashboard/safe-workplace-dashboard.md)**  
 The ServiceNow® Safe Workplace Dashboard provides leaders in HR, Workplace Services, and Health &amp; Safety with a complete view of operations. Leaders have visual insight into the status of work sites and users to determine whether a site is ready to resume a safe operation.
 -   **[Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contact-tracing/contact-tracing.md)**  
@@ -87,8 +79,6 @@ The ServiceNow® Contact Tracing application helps organizations reduce workplac
 Streamline the user health testing process to help organizations reduce the spread of infectious diseases in the workplace.
 -   **[Employee Readiness Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-readiness-core/employee-readiness-core.md)**  
 Use the ServiceNow® Employee Readiness Core application to track employee data across all Safe Workplace suite and ServiceNow® Emergency Response Management applications.
--   **[Enterprise Employee Experience Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/return-workplace-employee-exp-pack.md)**  
-Enterprise Employee Experience Pack is a new store application that delivers preconfigured process flows and sample content to help you quickly implement enterprise-wide use cases across multiple departments.
 -   **[Employee Travel Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-travel-safety/employee-travel-safety.md)**  
 Use the ServiceNow® Employee Travel Safety application to help support safe travel for employees by verifying the site safety and policy compliance of destinations, monitoring employee health status, and keeping a contact log during travel.
 -   **[Vaccination Status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/vaccination-status.md)**  

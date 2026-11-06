@@ -1,16 +1,17 @@
 ---
-title: Use non-self-served contract request
-description: Use Contract Management Pro yto submit non self-served contract requests for review of contracts based on third-party templates.
+title: Third-Party paper contract request
+description: Use Contract Management Pro to submit non self-served contract requests for review of contracts based on third-party templates.
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
-# Use non-self-served contract request
+# Third-Party paper contract request
 
-Use Contract Management Pro yto submit non self-served contract requests for review of contracts based on third-party templates.
+Use Contract Management Pro to submit non self-served contract requests for review of contracts based on third-party templates.
 
 ## Features
 
@@ -24,11 +25,11 @@ Non-self-served contract requests include the following features:
 -   Contracts repository containing the metadata of signed contract documents.
 -   Support for a configurable system property to generate a certification of completion.
 
-## Non-self-served contracts request workflow
+## Third-Party paper contracts request workflow
 
 A workflow for non-self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request from the workspace. For more information, see [Initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request from the workspace. For more information, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
 2.  A contract request is created in the Draft state.
 3.  The Contract requester uploads a single contract or multiple contracts and their supporting documents and classifies them.
 4.  The contract fulfiller views the contract document attached to the contract request.
@@ -62,15 +63,15 @@ A workflow for non-self-served contract request might progress as follows:
 -   **[Modify a non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-nss-contract.md)**  
 As a requester, modify the contract request to update the request details or replace the attached contract document with an updated version.
 -   **[Work on a non-self-served contract review request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-review-request.md)**  
-Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions, and then send the ready document for an e-signature from within the contract request.
+Review and revise a non-self-served contract document. As a collaborator on the request, you can email the revised document to stakeholders to verify the revisions. After they confirm the revisions, send the signature from the contract request.
 -   **[Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md)**  
 As a contract user or the person for whom the contract was requested, add single or multiple contracts and classify them.
--   **[Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)**  
-As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
+-   **[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)**  
+ Add one or more supporting documents from your computer, cloud storage, or activity stream.
 -   **[Modify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-mod-supdoc.md)**  
 As a contract fulfiller, add, classify, or remove supporting documents submitted in the contract request.
--   **[Add supporting documents to the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-ss-add-suprt-doc.md)**  
-As a contract user or fulfiller, add single or multiple supporting documents to the contract request and classify them.
+-   **[Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)**  
+As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 -   **[Reclassify supporting documents in the contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-supdoc.md)**  
 As a contract fulfiller, reclassify the supporting documents submitted in the contract request. For example you can reclassify the supporting document as a contract document.
 

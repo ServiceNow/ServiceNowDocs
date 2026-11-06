@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-components-installed-with-plugins.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Retail reference, Retail]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reference, Retail]
 ---
 
 # Components installed with plugins
@@ -35,6 +35,22 @@ Certain roles and dependencies must be considered when using the Retail customer
 Certain roles and dependencies must be considered when using the Retail HQ Operations plugin.
 -   **[Components installed with Retail In-store Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-in-store-operations.md)**  
 Certain roles and dependencies must be considered when using the Retail In-store Operations plugin.
+-   **[Components installed with Retail Playbook for Store Plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+Certain roles and dependencies must be considered when using the Retail Playbook for Store Plan.
+-   **[Components installed with Task Plan Template Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-task-plan-template-playbook.md)**  
+Certain roles and dependencies must be considered when using the Task Plan Template Playbook.
+-   **[Components installed with PWM Playbook Activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-pwm-playbook-activities.md)**  
+Certain roles and dependencies must be considered when using the PWM Playbook Activities.
+-   **[Components installed with Store Plans - Fulfilment in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-fulfilment-in-portal.md)**  
+Certain roles, plugin dependencies, and fields must be considered when fulfilling Store Cases and Store Tasks from the Retail Portal.
+-   **[Components installed with Smart Assessments for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-smart-assessments.md)**  
+Smart Assessment support in Customer Service Management \(CSM\) and Field Service Management \(FSM\) workspaces provides a unified experience for creating, configuring, and viewing assessment templates and instances.
+-   **[Components installed with Store Audit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-store-audit-reference.md)**  
+Reference information for roles, tables, fields, and workspace configuration artifacts for Retail Store Audit Operations.
+-   **[Components for Break-Fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/breakfix-reference.md)**  
+Technical reference for Break-Fix case states, available actions, critical fields, tables, and data relationships.
+-   **[Components installed with Field Service for Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/fsm-audit-reference.md)**  
+Reference information for the plugin dependencies, roles, and tables installed with the Field Service for Audit plugin.
 
 **Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-operations-reference.md)
 

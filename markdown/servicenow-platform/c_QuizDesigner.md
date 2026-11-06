@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/c\_QuizDesigner.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ The quiz designer provides a single interface that users with the assessment\_ad
 
 You can also use it to edit existing quizzes and change scoring parameters.
 
-Alternatively, you can use the modules of the [assessment engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/r_Assessments.md) to create and edit the records that make up a quiz. All quiz records are stored in assessment tables and displayed in Quiz views of those tables. For details, see [Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/c_CreateQuizzesWithForms.md).
+Alternatively, you can use the modules of the [assessment engine]() to create and edit the records that make up a quiz. All quiz records are stored in assessment tables and displayed in Quiz views of those tables. For details, see [Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/c_CreateQuizzesWithForms.md).
 
 ## Tools on the Quiz Designer
 

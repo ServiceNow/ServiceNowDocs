@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Using the Reviewer Service Portal, Using Grants Management, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Reviewer Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Review and score a grant proposal using the Reviewer Service Portal
@@ -16,13 +16,15 @@ As a Merit Reviewer, you can review grant proposals for feasibility, impact, and
 
 ## Before you begin
 
-Role required: awa\_agent, sn\_gsm\_grnt\_mgmt.external\_reviewer
-
-Reviewers must be part of the group with the pps\_resource role.
+Role required: external\_reviewer
 
 ## About this task
 
 Reviewers can then score proposals as part of the evaluation stage of the Public Sector Digital Services Grants Management using the Reviewer Service portal.
+
+You can either select Submit or Decline Review for a particular Merit Review Task. When you click Submit, a modal will appear where you can confirm by clicking Submit again, and the state will automatically change from “In Progress” to “Complete”.
+
+When you select Decline Review, a modal pops up where you can decline specific MRTs by providing a valid reason, such as a conflict of interest or other concerns. The state then changes to Declined, and the view returns to the default scoring screen with no scores.
 
 ## Procedure
 
@@ -35,6 +37,8 @@ Reviewers can then score proposals as part of the evaluation stage of the Public
 2.  Select a review expand the categories under the **Scoring** tab.
 
     **Scoring** is the default tab that appears. Select other tabs to view information about the grant proposal.
+
+    \[Omitted image "psds-rsp-scoring-tab.png"\] Alt text: scoring tab view
 
 3.  Select a score from the drop-down and provide comments for rationale, strengths, and concerns for each of the categories and select **Save**.
 

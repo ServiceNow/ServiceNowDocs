@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enable actionable knowledge feedback, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,4 +43,6 @@ Ensure that the Developer Application is set to **Human Resources: Core**.
 ## Result
 
 The property is added and you can now create knowledge articles from an HR case.
+
+**Parent Topic:**[Enable actionable knowledge feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-act-know-feedback-properties.md)
 

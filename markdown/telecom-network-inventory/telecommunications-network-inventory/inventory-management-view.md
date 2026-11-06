@@ -1,5 +1,5 @@
 ---
-title: Network Inventory management view
+title: Management view
 description: Use the Inventory management view in the Telecommunications Network Inventory Workspace to get a detailed view of your network inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-management-view.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Network Inventory Workspace, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
 
-# Network Inventory management view
+# Management view
 
 Use the Inventory management view in the Telecommunications Network Inventory Workspace to get a detailed view of your network inventory.
 
@@ -20,7 +20,7 @@ The Inventory management view displays the network inventory details such as equ
 
 -   **Overview**
 
-    View various inventory data, such as total number of equipment grouped by the model, manufacturer, and life-cycle state, and availability of racks, ports, and slots within a site that you’re selected.
+    View various inventory data, such as total number of equipment grouped by the model, manufacturer, and life-cycle state. You can also view the availability of racks, ports, and slots within a site that you’ve selected.
 
 -   **Inventory List**
 

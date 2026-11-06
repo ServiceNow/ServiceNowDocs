@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/universal-linking-enable.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Universal linking for mobile, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Universal linking, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Enable mobile universal linking

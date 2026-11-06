@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Storage Discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery via SMI-S and CIM, Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure SMI-S Provider for storage Discovery
@@ -34,10 +34,6 @@ Role required: admin
 
 4.  In the SMI-S Provider or agent, configure the **Discovery Interval** with a synchronization rate that allows the wbem probe to receives the most current information during discovery.
 
-    For example, for EMC storage, set the **Discovery Interval**.
-
-    \[Omitted image "ProviderEMCsyncRate.png"\] Alt text: EMC provider example
-
 5.  On the ServiceNow instance, set up [CIM credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_CIMCredentialsForm.md).
 
 6.  Create a Discovery Schedule with the IP addresses of each SMI-S Provider.
@@ -47,5 +43,5 @@ Role required: admin
 8.  Run a basic IP address Discovery.
 
 
-**Parent Topic:**[Storage Discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
+**Parent Topic:**[Storage discovery via SMI-S and CIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoStorageviaSMISCIM.md)
 

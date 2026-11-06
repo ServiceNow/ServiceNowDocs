@@ -1,16 +1,16 @@
 ---
-title: Create new scoring profile form
+title: Create scoring profile form
 description: Create an application score profile and update the default application profile with new profile indicators per your requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/create-new-scoring-profile-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new scoring profile form
+# Create scoring profile form
 
 Create an application score profile and update the default application profile with new profile indicators per your requirements.
 
@@ -20,12 +20,12 @@ Create an application score profile and update the default application profile w
 |Description|Description of the scoring profile.|
 |CI Class|Configuration item type for which the score is generated.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-scoring-profiles.md)
+[Manage scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-scoring-profiles.md)
 
 [Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-scoring-profile.md)
 

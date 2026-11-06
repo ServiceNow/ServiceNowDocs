@@ -1,24 +1,24 @@
 ---
 title: CMDB Health process status: failure threshold reached
-description: The CMDB Health dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
+description: The CMDB Health Dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/failure-threshold-reached.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB Health process tracking and troubleshooting, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Tracking and troubleshooting, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Health process status: failure threshold reached
 
-The CMDB Health dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
+The CMDB Health Dashboard shows the string ‘failure threshold reached' when the number of CIs that are failing the metric tests, reaches the failure threshold set for the metric.
 
 CMDB Health stops processing for this metric in the current cycle, and therefore there is no aggregated health score for the metric. Processing will be attempted again in the next cycle. Also, status in the CMDB Health Metric Status \[cmdb\_health\_metric\_status\] table is set to **Max Failures** for this metric.
 
-When the health score of a metric cannot be evaluated, then the processing status of the respective KPI \(for example, correctness\) is set to **Incomplete**. The CMDB Health dashboard shows the string **Incomplete score** for the respective KPI. Also, aggregated health scores for the metric are not available for any class in the CMDB hierarchy.
+When the health score of a metric cannot be evaluated, then the processing status of the respective KPI \(for example, correctness\) is set to **Incomplete**. The CMDB Health Dashboard shows the string **Incomplete score** for the respective KPI. Also, aggregated health scores for the metric are not available for any class in the CMDB hierarchy.
 
 Review and refine the rules defined for the metric which has reached max failures. If a rule associated with the metric is too generic, resulting in large number of failures, attempt to refine it as follows:
 
@@ -36,9 +36,9 @@ Review and refine the rules defined for the metric which has reached max failure
 
     -   Orphan: Review the orphan rules and adjust them to remove excessive orphan failures. For more information, see [Create a CMDB Health orphan rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthOrphanRule.md).
     -   Staleness: Review the effective duration for the classes that are causing failures and adjust the duration to reduce the number of failures. For more information, see [Create a CMDB Health staleness rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBHealthStaleRule.md).
-    -   Duplicate: Review the de-duplication tasks and remediate the tasks to remove duplicate CIs and to avoid creating failure records. For more information, see [Remediate a de-duplication task \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
+    -   Duplicate: Review the de-duplication tasks and remediate the tasks to remove duplicate CIs and to avoid creating failure records. For more information, see [Remediate a de-duplication task \(manual\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/reconcile-dup-task.md).
 
-For more troubleshooting information about failure threshold related issues, see [How to Resolve Max Failure Threshold Errors for CMDB Health Dashboard \[KB2487349\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2487349).
+For more troubleshooting information about failure threshold related issues, see the [How to Resolve Max Failure Threshold Errors for CMDB Health Dashboard \[KB2487349\]](https://support.servicenow.com/kb_view_customer.do?sysparm_article=KB2487349) article in the Now Support Knowledge Base.
 
 **Parent Topic:**[CMDB Health process tracking and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthTroubleshooting.md)
 

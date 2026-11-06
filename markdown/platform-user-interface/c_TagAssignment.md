@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_TagAssignment.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -117,7 +117,7 @@ Role required: none
 
 5.  Perform one of the following actions.
 
-<table id="choicetable_w54_wkq_fs"><tbody><tr><td id="d98806e465">
+<table id="choicetable_w54_wkq_fs"><tbody><tr><td id="d102874e459">
 
 **Assign an existing tag**
 
@@ -125,7 +125,7 @@ Role required: none
 
 Begin typing the tag name and select the tag.
 
-</td></tr><tr><td id="d98806e474">
+</td></tr><tr><td id="d102874e468">
 
 **Create a tag**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Advanced Discovery configuration
@@ -25,7 +25,7 @@ MID Servers use PowerShell and PowerShell Remoting for accessing configuration i
 -   **[Application Dependency Mapping \(ADM\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_ApplicationDependencyMapping.md)**  
 Application Dependency Mapping \(ADM\) discovers CIs by detecting TCP connections between devices.
 -   **[Discovery behaviors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryBehaviors.md)**  
-Discovery behaviors determine the probes that Shazzam launches, and from which MID Servers these probes are launched.
+Discovery behaviors determine the probes that Shazzam launches and from which MID Servers these probes are launched.
 -   **[CI deletion strategies for pattern discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/deletion-strategy.md)**  
 When you perform discovery with a pattern, you can choose what to do with configuration items \(CIs\) that are in the Configuration Management Database \(CMDB\) but Discovery can no longer find.
 -   **[Configuration file tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/tracked-config-files.md)**  
@@ -43,5 +43,5 @@ When a clone occurs, Discovery schedules are copied from the source instance to 
 -   **[Sensitive data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/sensitive-data-filters.md)**  
 The Discovery Sensitive Data Filters \[discovery\_sensitive\_data\_filter\] table provides a way to help prevent sensitive information from being exposed in the Configuration Management Database \(CMDB\) by applying redaction rules during data collection.
 
-**Parent Topic:**[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-discovery.md)
+**Parent Topic:**[Configuring Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryConfiguration.md)
 

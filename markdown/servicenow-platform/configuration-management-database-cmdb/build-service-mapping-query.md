@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Build a Service Mapping query using the CMDB Query Builder
@@ -18,7 +18,7 @@ The Service Mapping query type is a pattern consisting of classes and relationsh
 
 ## Before you begin
 
-Role required: cmdb\_query\_builder\_read to only view and run saved queries, and cmdb\_query\_builder \(contained for itil, itil\_admin, and asset\) to create and save queries, modify saved queries, and run queries.
+Role required: cmdb\_query\_builder\_read to only view and run saved queries, and cmdb\_query\_builder to create and save queries, modify saved queries, and run queries.
 
 Authorized users can update and [delete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md) a query created by another user.
 
@@ -113,11 +113,11 @@ See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 
     -   Select **Load More Results** to display the next set of 100 results.
     -   Select **Load All Results** to display the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
-    Select a CI to open its CI form, and on the CI form select **Open in CMDB Workspace** to view CI health in the CI Health tile in CMDB Workspace. This operation requires the sn\_cmdb\_user \(CMDB user\) role.
+    Select a CI to open its CI form, and on the CI form select **Open in Workspace** to view CI health in CMDB Workspaceor in Service Graph Workspace. This operation requires the sn\_cmdb\_user \(CMDB user\) role.
 
     **Note:** When a query is running, wait for it to complete or to time out before opening or running another query.
 
--   [Modify Query Builder settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-config-display.md): Select the Settings icon \(\[Omitted image "dv-map-settings.png"\] Alt text: Settings icon.\) icon to open the **Query Builder Settings** dialog box.
+-   [Modify Query Builder settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-config-display.md): Select the Settings icon to open the **Query Builder Settings** dialog box.
 -   Copy and share the URL of a saved query with users that have access to the CMDB Query Builder. Pasting the shared URL in a new internet browser window, directly opens the saved query in the CMDB Query Builder.
 -   [Create a report in CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-query-results-report.md).
 -   [Create a schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-cmdb-query-schedule.md) to run the query at a future time, and to email the results to interested parties.
@@ -126,7 +126,7 @@ See [Example queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
     Export query results that are visible: Select the Query Results context menu and select **Export**. Even if the **Load More Results** button is visible, indicating that there are additional query results, only the results that are visible are exported.
 
 -   [Export and import a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/export-import-query.md) to port a query definition between instances.
--   [Populate a CMDB group]() using the saved query.
+-   [Populate a CMDB group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) using the saved query.
 -   [Delete a CMDB query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/delete-cmdb-query.md).
 
 **Related topics**  

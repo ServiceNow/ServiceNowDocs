@@ -7,8 +7,8 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -70,6 +70,8 @@ Base system widgets are read-only so you can benefit from future updates. To mak
 Create unique instances of widgets by configuring the options for each instance.
 -   **[Widget library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/widget-showcase.md)**  
 You can use base system widgets as-is in your Service Portal or clone them to suit your own business needs.
+-   **[Configure widget loading order in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-widget-loading-order.md)**  
+Configure service portal pages to defer load the widgets on a page. The delay in loading of non-essential widgets helps to improve page loading speed and optimizes the use of resources.
 
-**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_ServicePortal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configuring-service-portal.md)
 

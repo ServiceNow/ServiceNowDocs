@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,6 +34,8 @@ System administrators perform the following tasks to integrate the Knowledge Man
 -   [Add the Knowledge Management Service Portal widgets to quickly access knowledge articles from the Service Portal homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/conf-service-portal-know-management.md) \(Optional\).
 
 **Note:** These configurations apply to the base system pages within the Service Portal only.
+
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 
 **Related topics**  
 

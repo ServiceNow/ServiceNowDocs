@@ -1,22 +1,22 @@
 ---
 title: SNAnalytics - Client
-description: The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.Stores the specified event information in the analytics data store.Appends the specified string to the specified user string property in the analytics data store.Increments or decrements the specified user property value with the specified number value in the analytics data store.Removes the specified property for the current user from the analytics data store.Sets the specified properties with the specified values for the current user in the analytics data store.Sets the specified property with the specified value for the current user in the analytics data store.Saves the name and description of a page in the analytics data store.
+description: The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.Stores the specified event information in the analytics data store.Appends the specified string to the specified user string property in the analytics data store.Increments or decrements the specified user property value with the specified number value in the analytics data store.Removes the specified property for the current user from the analytics data store.Sets the specified properties with the specified values for the current user in the analytics data store.Sets the specified property with the specified value for the current user in the analytics data store.Saves the name and description of a page in the analytics data store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/SNAnalyticsClientAPI.html
 release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
 # SNAnalytics- Client
 
-The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.
+The SNAnalytics API provides methods to push custom analytics data \(events, pages, and user properties\) to the Usage Insights for Service Portal dashboard.
 
-User Experience Analytics for Service Portal provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on Service Portal. You can use these insights to optimize your portal. For example, User Experience Analytics tracks when a user orders a catalog item or views a knowledge article. You can use this data to infer which items or articles are the most popular among users.
+Usage Insights for Service Portal provides dashboard views for monitoring the key performance indicators \(KPIs\) of web applications built on Service Portal. You can use these insights to optimize your portal. For example, Usage Insights tracks when a user orders a catalog item or views a knowledge article. You can use this data to infer which items or articles are the most popular among users.
 
 To access this API, the Service Portal Analytics \(com.glide.service-portal.analytics\) plugin must be activated on the instance. In addition, within your application, you must import the snAnalytics Angular service, such as:
 
@@ -24,7 +24,7 @@ To access this API, the Service Portal Analytics \(com.glide.service-portal.anal
 <client_script><![CDATA[function($rootScope, $scope, $window, $timeout, spUtil, $sce, spModal, $uibModal, $location, cabrillo, snAnalytics)
 ```
 
-For additional information, see [User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sp-analytics.md).
+For additional information, see [Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sp-analytics.md).
 
 **Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client.md)
 
@@ -405,7 +405,7 @@ snAnalytics.setUserProperty('Company', "ABC Company")
 
 Saves the name and description of a page in the analytics data store.
 
-This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see [Exploring User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/exploring-user-exp-analytics.md).
+This information appears in the user session timeline and on the analytics dashboard. Call this method within your custom widgets to track the pages visited by a user. You can also use this method to track user navigation within an individual page. For more information, see [Exploring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/exploring-user-exp-analytics.md).
 
 **Note:** In general, portal pages are automatically tagged with this tracking capability. Use this method for custom scenarios, such as a single page custom widget in a wizard scenario.
 

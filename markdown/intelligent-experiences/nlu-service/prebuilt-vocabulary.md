@@ -1,5 +1,5 @@
 ---
-title: Pre-built vocabulary
+title: \(Legacy\) Pre-built vocabulary
 description: Use ServiceNow pre-built vocabulary for software and hardware terms so the system recognizes their multiple variations in utterances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/prebuilt-vocabulary.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU vocabulary, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Pre-built vocabulary
+# \(Legacy\) Pre-built vocabulary
 
 Use ServiceNow® pre-built vocabulary for software and hardware terms so the system recognizes their multiple variations in utterances.
 
@@ -34,6 +34,4 @@ If you select the first option and click **Confirm**, the system uses the pre-bu
 If you select the second option, enter a synonym for the word, and click **Confirm**, the word and the synonym are added to the model vocabulary.
 
 If you select either of the two options and click **Ignore**, the blue line disappears and the word remains as it was previously.
-
-**Parent Topic:**[NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)
 

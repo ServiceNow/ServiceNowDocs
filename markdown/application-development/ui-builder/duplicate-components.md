@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Duplicate a component
@@ -42,11 +42,7 @@ Create an exact copy of a configured component on your page except for the name 
 
     You can also use the keyboard shortcut **cmd + D** \(Mac\) or **ctrl + D** \(Windows\).
 
-    \[Omitted image "component-duplicate.png"\] Alt text: Arrow pointing to duplicate option on the component menu.
-
     The duplicated component appears below the copied component in the content tree.
-
-    \[Omitted image "component-duplicate-copied.png"\] Alt text: Content tree with duplicated heading component listed after the original component.
 
 7.  Select **Save**.
 

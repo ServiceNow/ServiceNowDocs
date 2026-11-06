@@ -1,0 +1,122 @@
+---
+title: Outbound message IDoc status for IDoc log tab fields
+description: The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP contains detailed information about an individual message.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/erp-canvas-outbound-message-idoc-status-for-idoc-log-tab-columns.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: reference
+last_updated: "2026-08-06"
+reading_time_minutes: 1
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, outbound, message, idoc, status, log]
+breadcrumb: [Field descriptions, Reference, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Outbound message IDoc status for IDoc log tab fields
+
+The outbound message IDoc status for IDoc log tab in Zero Copy Connector for ERP contains detailed information about an individual message.
+
+For process details, see [View and troubleshoot IDoc messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/view-and-troubleshoot-idoc-messages.md).
+
+Explore the API for interacting with Zero Copy Connector for ERP models. For details and examples of using the API, see .
+
+<table id="table_c51_mfb_ghc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Message ID
+
+</td><td>
+
+Unique ID number assigned when an error or event occurs during IDoc processing.
+
+</td></tr><tr><td>
+
+Message number
+
+</td><td>
+
+Unique number within a message class, for example, 099.
+
+</td></tr><tr><td>
+
+Message type
+
+</td><td>
+
+Type of business document in an SAP system, for example, ORDERS.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Processing state of an outbound message sent via IDoc at a specific time.
+
+</td></tr><tr><td>
+
+Status code
+
+</td><td>
+
+Numerical value stored in the IDoc status record, for example:-   03: Data passed to port \(outbound success\)
+-   20: Delivery to external system failure \(outbound error\)
+
+</td></tr><tr><td>
+
+Status code text
+
+</td><td>
+
+Text description of the current state of the IDoc.
+
+</td></tr><tr><td>
+
+Parameter 1
+
+</td><td>
+
+Specified parameter to filter information, such as No filters, No conversion, or No version change.
+
+</td></tr><tr><td>
+
+Parameter 2
+
+</td><td>
+
+Additional specified parameter.
+
+</td></tr><tr><td>
+
+Parameter 3
+
+</td><td>
+
+Additional specified parameter.
+
+</td></tr><tr><td>
+
+Parameter 4
+
+</td><td>
+
+Additional specified parameter.
+
+</td></tr><tr><td>
+
+Created
+
+</td><td>
+
+Date and time the message was created.
+
+</td></tr></tbody>
+</table>

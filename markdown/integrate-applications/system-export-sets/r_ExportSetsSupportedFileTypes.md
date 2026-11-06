@@ -7,9 +7,9 @@ release: yokohama
 product: System Export Sets
 classification: system-export-sets
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an export target, Export sets, Exports, Data and Automation]
+breadcrumb: [Create an export target, Export sets, Exports, Workflow Data Fabric]
 ---
 
 # Export set supported file types

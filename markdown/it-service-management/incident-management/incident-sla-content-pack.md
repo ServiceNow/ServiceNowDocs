@@ -7,9 +7,9 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics and reporting, Incident Management, IT Service Management]
+breadcrumb: [Incident reporting, Incident Management, IT Service Management]
 ---
 
 # Legacy: Incident SLA Management Platform Analytics Solutions
@@ -22,13 +22,13 @@ Starting in Xanadu release, the Incident SLA Management Platform Analytics Solut
 
 Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
-To enable the solution for Incident SLA Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Click **Get Started** then scroll to the section for Incident SLA Management. The guided setup takes you through the entire setup and configuration process.
+To enable the solution for Incident SLA Management, an admin can navigate to **Performance Analytics** &gt; **Guided Setup**. Select **Get Started** then scroll to the section for Incident SLA Management. The guided setup takes you through the entire setup and configuration process.
 
-The dashboards in this content pack are inactive when installed. Complete configuration and run data collection jobs before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see [Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-nowintel-solutions.md).
+The dashboards in this content pack are inactive when installed. Complete configuration and run data collection jobs before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
 ## Inactive dashboards
 
-Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see [Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-nowintel-solutions.md)
+Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
 -   **[Legacy: Incident SLA Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-sla-mgmt-dashboard.md)**  
 See how well the incidents that are subject to a Service Level Agreement meet the deadlines of those SLAs.
@@ -39,12 +39,10 @@ This dashboard lets you see incidents that are overdue according to an SLA, divi
 -   **[Legacy: Overdue Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/overdue-reports-dashboard.md)**  
 See the currently open incidents that are subject to an SLA. You can view a list of the incidents or see how they break down in a heatmap or a pivot table.
 
-**Parent Topic:**[Reporting incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-monitor-track.md)
+**Parent Topic:**[Incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-monitor-track.md)
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

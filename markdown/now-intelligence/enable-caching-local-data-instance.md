@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/enable-caching-local-data-instance.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use a local data instance with a data visualization, Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Use a local data instance, Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Enable data caching for a local data instance

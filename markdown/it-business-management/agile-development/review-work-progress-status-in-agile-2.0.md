@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work progress status, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Work Progress Status for Agile Teams, Agile Development, Strategic Portfolio Management]
 ---
 
 # Reviewing progress status for Agile Development 2.0 epics
@@ -25,8 +25,6 @@ The Status column of the epics list shows a Green, Yellow, or Red indicator for 
 -   Red: Your epic is not progressing well and might be at risk of not being complete by the planned end date,
 
 The estimated completion date displays a date with the likelihood of the epic's completion.
-
-\[Omitted image "epic-progress-status.png"\] Alt text: work progress status for epics in Agile 2.0
 
 The [\[Scrum\] daily data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/enable-daily-data-collection.md) helps generate the burnup report for your epics. Using the data generated for these epic burnup reports, an estimated completion date is determined for each of your epics. You can see that this date is the intersection of Completed and Scope forecast series in the respective epic burnup reports.
 

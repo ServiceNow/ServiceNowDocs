@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/change-wf-execution-order.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -26,17 +26,13 @@ Role required: sn\_sec\_cmn.write
 
 2.  Select the integration capability for which you want to change the execution order.
 
-    \[Omitted image "change-order.png"\] Alt text: Integration Capability Implementations showing the execution order
-
 3.  Select the implementation you want to modify.
-
-    \[Omitted image "tanium.png"\] Alt text: Integration Capability Implementation for selected implementation
 
 4.  Change the **Order** to a higher or lower number.
 
     Lower numbers have a higher execution priority.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Integration capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/integration-capabilities.md)

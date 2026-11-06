@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments as a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # View work order and appointment details as a customer
@@ -32,6 +32,4 @@ Role required: appointment\_booking\_user
 
     If necessary, use the **Appointment** field to reschedule or cancel the appointment.
 
-
-**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

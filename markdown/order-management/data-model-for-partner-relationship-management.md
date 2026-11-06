@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/data-model-for-partner-relationship-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Configure Channel Partner table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-channel-partner-table.md)
+
 
 </td><td>
 
@@ -43,7 +43,7 @@ Manage information related to channel partners.
 
 </td></tr><tr><td>
 
-[Configure Partner Program table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-partner-program-table.md)
+
 
 </td><td>
 
@@ -56,7 +56,7 @@ Enable channel partners to participate in structured programs to build customer 
 
 </td></tr><tr><td>
 
-[Configure Partner Program Relationship table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-partner-program-relationship-table.md)
+
 
 </td><td>
 
@@ -68,7 +68,9 @@ Enable channel partners to participate in structured programs to build customer 
 Establish a relationship between channel partners and partner programs.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-partner-relationship-management.md)
+
+**Related topics**  
 
 
 [Install Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/install-partner-relationship-management.md)

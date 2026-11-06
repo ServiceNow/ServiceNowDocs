@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB Compliance, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Desired State
@@ -40,7 +40,7 @@ Desired state differs substantially from data certification. Data certification 
 2.  Create a template: Create a template with conditions that define the desired state of the physical attributes, related records, and relationships for a CI. The certification filter you select for the template determines which configuration items the system examines.
 3.  Create and run an audit: Create an audit using the template. Set the audit to run on a schedule or on demand. The audit generates a set of results based on the conditions from the template you specify. Determine usage of follow-on tasks:
     -   Determine if the audit creates follow-on tasks and assignment.
-    -   Determine if the same follow-on task is used for the same audit failure across multiple runs. The system attribute **glide.allow.new.cert\_follow\_on\_task** is set to true by default, allowing for new follow on tasks to be created for the same failure, at each audit run \(this property applies only to audits that aren't scripted\).
+    -   Determine if the same follow-on task is used for the same audit failure across multiple runs. The system property **glide.allow.new.cert\_follow\_on\_task** is set to true by default, allowing for new follow on tasks to be created for the same failure, at each audit run \(this property applies only to audits which aren't scripted\).
 4.  View audit results: View the audit results which display any discrepancies between the desired state, as specified by the template, and the actual state of the target configuration items.
 5.  Correct discrepancies: Correct the discrepancies the audit found by completing the follow-on tasks created by the system.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Organization chart in Employee Center Pro
@@ -36,10 +36,6 @@ As an admin, you can perform the following org chart configuration steps:
 
 **Related topics**  
 
-
-[Configure eligible users for org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-eligible-users-orgchart.md)
-
-[Configure card settings for org chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-new-org-chart-card-config.md)
 
 [Modify the org chart widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-orgchart-instanceoptions.md)
 

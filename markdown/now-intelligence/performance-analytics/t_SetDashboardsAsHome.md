@@ -7,10 +7,10 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [change the home dashboard]
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Set responsive dashboards as your home
@@ -29,7 +29,7 @@ Role required: user.
 
 **Important:**
 
-The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality.
+The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
 Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
@@ -39,6 +39,10 @@ For more information, see:
 -   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
 When dashboards are set as your **Home**, the most recently selected dashboard is always loaded. You cannot specify a dashboard as your **Home**. Mark a dashboard as a favorite to navigate to the dashboard easily.
+
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 
@@ -59,5 +63,5 @@ When dashboards are set as your **Home**, the most recently selected dashboard i
 
 When you navigate to **Self-Service** &gt; **Dashboards** or select your company logo, the last dashboard you selected appears.
 
-**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/goals-overview-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\), Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

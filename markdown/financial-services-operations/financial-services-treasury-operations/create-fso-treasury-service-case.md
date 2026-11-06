@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Financial Services Treasury Operations, Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a treasury service case
@@ -32,19 +32,19 @@ A treasury agent can also create a treasury service case by navigating to **Trea
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a treasury case from the treasury case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d112120e123">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d137594e127">
 
 Option
 
-</th><th align="left" id="d112120e126">
+</th><th align="left" id="d137594e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d112120e132">
+</th></tr></thead><tbody><tr><td id="d137594e136">
 
 **Treasury case from the treasury case list**
 
@@ -54,7 +54,7 @@ Steps
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d112120e162">
+</td></tr><tr><td id="d137594e166">
 
 **Treasury case from an interaction record**
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-10-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery for Google Cloud Platform, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---

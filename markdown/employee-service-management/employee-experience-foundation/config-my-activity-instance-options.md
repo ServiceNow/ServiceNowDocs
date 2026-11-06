@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-02-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [My active items widget configuration, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [My active items widget configuration, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify Active items widget display
@@ -48,7 +48,7 @@ Role required: sp\_admin or admin
 
 4.  Click **Save**.
 
-    **My Active Items Widget Layout Guidance**
+5.  **My Active Items Widget Layout Guidance**
 
     The My Active Items widget is designed for optimal display and usability when configured using a column size of 3 or greater. This layout ensures that information presented within the widget remains readable and visually consistent across Employee Center topics.
 

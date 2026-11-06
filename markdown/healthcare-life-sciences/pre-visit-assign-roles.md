@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 1
-breadcrumb: [Configuring Pre-Visit Management, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Pre-Visit Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Assign roles for Pre-Visit Management users

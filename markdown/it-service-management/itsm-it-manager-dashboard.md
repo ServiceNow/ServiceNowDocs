@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-it-manager-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics ITSM Dashboards, IT Service Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Legacy: Performance Analytics ITSM Dashboards, Platform Analytics I
 
 Follow the daily and weekly progress of incidents, problems, and requests for your assignment groups.
 
-IT managers can also use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for their assignment groups.
+IT managers can use the [ITSM Success Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-success-dashboard-indicators/explore-success-dashboard-indicators.md) to view the metrics for their assignment groups.
 
 \[Omitted image "itsm-it-manager.gif"\] Alt text: Animated tour of the tabs of the IT Manager dashboard
 

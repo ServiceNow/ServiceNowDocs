@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a policy for Schedule Optimization, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Create policies, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configure the policy to assign preferred technicians to tasks
@@ -22,7 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Dispatchers have the ability to designate preferred, secondary, or excluded technicians on the work order task record. To activate this capability, an admin must incorporate specific optimization features into the policy.
+Dispatchers can designate preferred, secondary, or excluded technicians on the work order task record. To activate this capability, an admin must incorporate specific optimization features into the policy.
 
 ## Procedure
 
@@ -37,8 +37,19 @@ Dispatchers have the ability to designate preferred, secondary, or excluded tech
 5.  In the **Optimization Features** field, select the Lookup icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup icon.\) and add the following objectives and constraints:
 
 6.  1.  Maximize preferred agent assignment
-2.  Enable assignments only with preferred or secondary agents
+2.  Enable assignments based on technician assignment preference
 3.  Block excluded agents from assignment
 7.  Select **Submit**.
 
+
+## Result
+
+The policy is configured to assign preferred technicians to tasks. When the optimization run is complete, check the [Run Summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/viewing-task-assignments-from-so-runs.md) to view assignment outcomes for tasks with required, preferred, or secondary technician preferences. Tasks that could not be assigned to a required technician are listed in the run summary.
+
+**Related topics**  
+
+
+[Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md)
+
+[Set technician preferences for tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/assign-preferred-agents-tasks.md)
 

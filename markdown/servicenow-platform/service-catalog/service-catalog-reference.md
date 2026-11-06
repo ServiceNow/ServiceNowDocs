@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,6 +42,8 @@ Description of the fields on the Record Producer form.
 Description of the fields on the Order guide form.
 -   **[Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/catalog-item-form.md)**  
 Description of the fields on the Catalog Item form.
+-   **[Service Catalog topic blocks in Virtual Agent powered by NLU](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/request-topic-blocks-va.md)**  
+You can design a topic conversation in the Virtual Agent powered by Natural Language Understanding \(NLU\) by including reusable topic blocks to perform request submission tasks.
 
 **Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog.md)
 

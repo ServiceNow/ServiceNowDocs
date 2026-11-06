@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring security for a project in Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring security for a project in Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Activate the Project Advanced Security plugin

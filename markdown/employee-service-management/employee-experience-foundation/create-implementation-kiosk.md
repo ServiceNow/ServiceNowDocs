@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Schedule in Employee Center Pro Kiosk, Configure, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Schedule in Employee Center Pro Kiosk, Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Customize data display in Kiosks
@@ -43,4 +43,6 @@ Role required: admin
 ## Result
 
 You can view data on the **Schedule** and **Time off** tabs based on your location or any other user criterion you've set.
+
+**Parent Topic:**[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)
 

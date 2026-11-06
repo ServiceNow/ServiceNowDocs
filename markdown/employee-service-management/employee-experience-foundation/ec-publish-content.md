@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Creating employee communications
@@ -154,7 +154,7 @@ Create and publish content in the Content Library using the following process:
 
         -   [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/notify-landing-page.md)
         -   [Enable SMS delivery with the email client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_EnableTheSMSDeliveryOption.md)
-        -   [Configuring Employee Center for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/ec-mobile-configrations.md)
+        -   [Configuring Employee Center for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-mobile-configrations.md)
     -   Microsoft Teams: Notifications sent to your employees via Microsoft Teams. This requires the ServiceNow for Microsoft Teams integration. See [Sending notifications to employees using Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-campaigns-ms-teams-mt.md).
 -   **[To-do content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-to-do-content.md)**
 
@@ -166,7 +166,7 @@ Create and publish content in the Content Library using the following process:
     -   View Link: Provides a link to content that after accessing completes the to-do.
 -   **[Pulse survey content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-pulse-content.md)**
 
-    To receive feedback from your employees, create and send Pulse surveys that can drive action and measure impact. For more information, see [Listening Posts]().
+    To receive feedback from your employees, create and send Pulse surveys that can drive action and measure impact.
 
 -   **[Employee Forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-employee-forum.md)**
 

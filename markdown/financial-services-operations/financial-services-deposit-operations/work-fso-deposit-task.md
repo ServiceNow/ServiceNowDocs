@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a deposit task for fulfillment
@@ -46,19 +46,19 @@ If assignment rules are configured, the task is automatically assigned to a depo
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the case playbook or the deposit task list.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d70763e145">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d84452e149">
 
 Option
 
-</th><th align="left" id="d70763e148">
+</th><th align="left" id="d84452e152">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d70763e154">
+</th></tr></thead><tbody><tr><td id="d84452e158">
 
 **From the case playbook**
 
@@ -70,7 +70,7 @@ Steps
 4.  Under the playbook stages, select the task activity to work on.
 
 
-</td></tr><tr><td id="d70763e187">
+</td></tr><tr><td id="d84452e191">
 
 **From the Deposit task list**
 
@@ -91,15 +91,15 @@ Steps
 
 7.  Close the deposit task.
 
-<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d70763e259">
+<table id="choicetable_jcl_dyr_hsb"><thead><tr><th align="left" id="d84452e263">
 
 Deposit task
 
-</th><th align="left" id="d70763e262">
+</th><th align="left" id="d84452e266">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d70763e268">
+</th></tr></thead><tbody><tr><td id="d84452e272">
 
 **To verify operating instructions for a standing order**
 
@@ -107,7 +107,7 @@ Action
 
 Click **Approve** to approve or **Reject** to reject the request.
 
-</td></tr><tr><td id="d70763e283">
+</td></tr><tr><td id="d84452e287">
 
 **To authorize a deposit request**
 
@@ -115,7 +115,7 @@ Click **Approve** to approve or **Reject** to reject the request.
 
 Click **Approve** to approve or **Reject** to reject the request.**Note:** You can't authorize a deposit task if its parent deposit case is assigned to you.
 
-</td></tr><tr><td id="d70763e301">
+</td></tr><tr><td id="d84452e305">
 
 **-   To update a deposit account to fulfill and close the request
 -   To create and activate account for account origination

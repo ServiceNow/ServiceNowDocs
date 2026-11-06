@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # RMF step 0 - Prepare the authorization package
@@ -17,6 +17,9 @@ breadcrumb: [Using CAM, Continuous Authorization and Monitoring, Governance, Ris
 In the Prepare step, you set up authorization boundaries, control overlays, and information types, as well as create the actual authorization package.
 
 ## Your actions in the Prepare step
+
+-   [Define the authorization boundary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/define-auth-boundaries.md)
+-   [Create an authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/create-auth-package.md)
 
 -   **[Define the authorization boundary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/define-auth-boundaries.md)**  
 An authorization boundary defines the scope of a particular system that can be continuously managed and monitored using the CAM application.

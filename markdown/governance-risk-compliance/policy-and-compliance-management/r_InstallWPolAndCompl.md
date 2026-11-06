@@ -7,8 +7,8 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Policy and Compliance Management reference, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
@@ -158,43 +158,6 @@ Contains the reader, user, and manager roles in sn\_grc scopes, and the reader a
 
 -   sn\_compliance.manager
 -   sn\_audit.manager
-
-</td></tr><tr><td>
-
-Rationalize process writer \[sn\_reco\_template.rationalization\_process\_writer\]
-
-</td><td>
-
-Contains the reader and user roles in sn\_reco\_template scopes and is needed for rationalization process for creation and editing.
-
-</td><td>
-
--   sn\_reco\_template.rationalization\_process\_reader
--   sn\_reco\_template.recommendation\_writer
-
-</td></tr><tr><td>
-
-Rationalize process reader \[sn\_reco\_template.rationalization\_process\_reader\]
-
-</td><td>
-
-Contains the reader and user roles in sn\_reco\_template scopes and is reader role for rationalization process.
-
-</td><td>
-
-sn\_reco\_template.recommendation\_reader
-
-</td></tr><tr><td>
-
-Compliance GenAI User \[sn\_grc\_shared\_genai.compliance\_gen\_ai\_user\]
-
-</td><td>
-
-Contains the reader and user roles in sn\_grc\_shared\_genai scopes and is needed for generating recommendation in rationalization process.
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>## Tables installed with Policy and Compliance Management
@@ -356,7 +319,7 @@ Extends Item to entity \[sn\_grc\_m2m\_entity\_item\] table.
 </td></tr></tbody>
 </table>**Note:** All additional tables installed by the dependent plugins are also needed for Policy and Compliance Management.
 
-## GRC business user role to control access of compliance tables
+## Access limitations for GRC business user role
 
 The access control limitations \(ACLs\) or no role conditions with snc\_internal role \(or no role\) is replaced with sn\_grc.business\_user role to control the access level of different users to compliance tables and also to track their usage.
 

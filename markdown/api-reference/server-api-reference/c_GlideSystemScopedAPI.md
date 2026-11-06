@@ -1,14 +1,14 @@
 ---
 title: GlideSystem - Scoped
-description: The scoped GlideSystem API provides a number of convenient methods to obtain information about the system, the current logged in user, and other system level information.Adds an error message for the current session.Adds an info message for the current session. This method is not supported for asynchronous business rules.Creates a base64 string from the specified string.Returns an ASCII string from the specified base64 string.Returns the date and time for the beginning of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this year in the user's session time zone as a UTC timestamp.Generates a date and time for the specified date in the current user's timezone as a UTC timestamp.Returns the date and time for a specified number of days ago the user's session time zone as a UTC timestamp.Returns the date and time for the end of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Writes a debug message to the system log.Returns the date and time for the end of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this year in the user's session time zone as a UTC timestamp.Writes an error message to the system log.Queues an event for the event manager.Queues an event in the event manager.Executes a job for a scoped application.Generates a GUID that can be used when a unique identifier is required.Gets the caller scope name; returns null if there is no caller.Gets a string representing the cache version for a CSS file.Gets the ID of the current application as set using the Application Picker.Gets the name of the current scope.Returns the date format associated with the current user.Returns the date and time format associated with the current user.Returns the error messages that were added by addErrorMessage\(\) for the session.Retrieves the specified message from the Message \[sys\_ui\_message\] table. If the message has HTML special characters, replaces them with the corresponding HTML name codes. For example, &amp; becomes &amp;amp;.Retrieves translated messages from the Message \[sys\_ui\_message\] table to display in a UI.Gets the value of a Glide property. If the property is not found, returns an alternate value.Gets a reference to the current Glide session.Retrieves the GlideSession session ID.This method is no longer available. Instead, use gs.getSession\(\).getSessionToken\(\).Returns the time format associated with the current user.Returns the name of the time zone associated with the current user.Gets the current URI for the session.Returns a reference to the scoped GlideUser object for the current user.Gets the display name of the current user.Gets the sys\_id of the current user.Returns the user name of the current user.Determines if the current user has the specified role.Returns the date and time for a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the end of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Provides a safe way to call a script include from the sandbox, allowing only the inclusion of trusted scripts.Writes an info message to the system log.Determines if debugging is active for a specific scope.Checks if the current session is interactive. An example of an interactive session is when a user logs in normally. An example of a non-interactive session is using a SOAP request to retrieve data.Determines if the current user is currently logged in.You can determine if a request comes from a mobile device.Returns the date and time for the end of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for a specified number of months ago in the user's session time zone as a UTC timestamp.Returns the date and time for the last day of the month a specified number of months ago.Returns the date and time for the start of the month a specified number of months ago. Returned in the user's session time zone as a UTC timestamp.Queries an object and returns true if the object is null, undefined, or contains an empty string.Returns the date and time for the last day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the first day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Sets the specified key to the specified value if the property is within the script's scope.Sets the redirect URI for this transaction, which then determines the next page the user will see.Determines if a database table exists.Encodes non-ASCII characters, unsafe ASCII characters, and spaces so the returned string can be used on the Internet. Uses UTF-8 encoding. Uses percent \(%\) encoding.Replaces UTF-8 encoded characters with ASCII characters.Writes a warning message to the system log.Takes an XML string and returns a JSON object.Returns a date and time for a certain number of years ago in the user's session time zone as a UTC timestamp.Returns yesterday's time \(24 hours ago\). Returned in the user's session time zone as a UTC timestamp.
+description: The scoped GlideSystem API provides a number of convenient methods to obtain information about the system, the current logged in user, and other system level information.Adds an error message for the current session.Displays a high priority message at the top of the form.Adds an info message for the current session. This method is not supported for asynchronous business rules.Displays a low priority message at the top of the form.Displays a moderate priority message at the top of the form.Displays a message confirming a successful action at the top of the form.Creates a base64 string from the specified string.Returns an ASCII string from the specified base64 string.Returns the date and time for the beginning of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of this year in the user's session time zone as a UTC timestamp.Generates a date and time for the specified date in the user's session time zone as a UTC timestamp.Returns the date and time for a specified number of days ago the user's session time zone as a UTC timestamp.Returns the date and time for the end of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the beginning of the day a specified number of days ago. Returned in the user's session time zone as a UTC timestamp.Writes a debug message to the system log.Returns the date and time for the end of last month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of last year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of next year in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this month in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this quarter in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this week in the user's session time zone as a UTC timestamp.Returns the date and time for the end of this year in the user's session time zone as a UTC timestamp.Writes an error message to the system log.Queues an event for the event manager.Queues an event in the event manager.Executes a job for a scoped application.Generates a GUID that can be used when a unique identifier is required.Gets the caller scope name; returns null if there is no caller.Gets a string representing the cache version for a CSS file.Gets the ID of the current application as set using the Application Picker.Gets the name of the current scope.Returns the date format associated with the current user.Returns the date and time format associated with the current user.Returns the error messages that were added by addErrorMessage\(\) for the session.Retrieves the specified message from the Message \[sys\_ui\_message\] table. If the message has HTML special characters, replaces them with the corresponding HTML name codes. For example, &amp; becomes &amp;amp;.Retrieves translated messages from the Message \[sys\_ui\_message\] table to display in a UI.Gets the value of a Glide property. If the property is not found, returns an alternate value.Gets a reference to the current Glide session.Retrieves the GlideSession session ID.This method is no longer available. Instead, use gs.getSession\(\).getSessionToken\(\).Returns the time format associated with the current user.Returns the name of the time zone associated with the current user.Gets the current URI for the session.Returns a reference to the scoped GlideUser object for the current user.Gets the display name of the current user.Gets the sys\_id of the current user.Returns the user name of the current user.Determines if the current user has the specified role.Returns the date and time for a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the end of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the hour a specified number of hours ago. Returned in the user's session time zone as a UTC timestamp.Provides a safe way to call a script include from the sandbox, allowing only the inclusion of trusted scripts.Writes an info message to the system log.Determines if debugging is active for a specific scope.Checks if the current session is interactive. An example of an interactive session is when a user logs in normally. An example of a non-interactive session is using a SOAP request to retrieve data.Determines if the current user is currently logged in.You can determine if a request comes from a mobile device.Returns the date and time for the end of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the start of the minute a specified number of minutes ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for a specified number of months ago in the user's session time zone as a UTC timestamp.Returns the date and time for the last day of the month a specified number of months ago.Returns the date and time for the start of the month a specified number of months ago. Returned in the user's session time zone as a UTC timestamp.Queries an object and returns true if the object is null, undefined, or contains an empty string.Returns the date and time for the last day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Returns the date and time for the first day of the quarter for a specified number of quarters ago. Returned in the user's session time zone as a UTC timestamp.Sets the specified key to the specified value if the property is within the script's scope.Sets the redirect URI for this transaction, which then determines the next page the user will see.Determines if a database table exists.Encodes non-ASCII characters, unsafe ASCII characters, and spaces so the returned string can be used on the Internet. Uses UTF-8 encoding. Uses percent \(%\) encoding.Replaces UTF-8 encoded characters with ASCII characters.Writes a warning message to the system log.Takes an XML string and returns a JSON object.Returns a date and time for a certain number of years ago in the user's session time zone as a UTC timestamp.Returns yesterday's time \(24 hours ago\). Returned in the user's session time zone as a UTC timestamp.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideSystemScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 32
+last_updated: "2026-09-10"
+reading_time_minutes: 33
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -65,6 +65,24 @@ gs.include("PrototypeServer");
   }
 ```
 
+## Scoped GlideSystem - addHighMessage\(String message\)
+
+Displays a high priority message at the top of the form.
+
+|Name|Type|Description|
+|----|----|-----------|
+|message|String|High priority message to display.|
+
+|Type|Description|
+|----|-----------|
+|void| |
+
+The following example shows how to display a high priority message at the top of the form.
+
+```
+gs.addHighMessage("This is a high priority message");
+```
+
 ## Scoped GlideSystem - addInfoMessage\(String message\)
 
 Adds an info message for the current session. This method is not supported for asynchronous business rules.
@@ -87,6 +105,60 @@ if ((!current.u_date1.nil()) && (!current.u_date2.nil())) {
     current.setAbortAction(true);
   }
 }
+```
+
+## Scoped GlideSystem - addLowMessage\(String message\)
+
+Displays a low priority message at the top of the form.
+
+|Name|Type|Description|
+|----|----|-----------|
+|message|String|Low priority message to display.|
+
+|Type|Description|
+|----|-----------|
+|void| |
+
+The following example shows how to display a low priority message at the top of the form.
+
+```
+gs.addLowMessage("This is a low priority message");
+```
+
+## Scoped GlideSystem - addModerateMessage\(String message\)
+
+Displays a moderate priority message at the top of the form.
+
+|Name|Type|Description|
+|----|----|-----------|
+|message|String|Moderate message to display.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to display a moderate priority message at the top of the form.
+
+```
+gs.addModerateMessage("This is a moderate priority message");
+```
+
+## Scoped GlideSystem - addSuccessMessage \(String message\)
+
+Displays a message confirming a successful action at the top of the form.
+
+|Name|Type|Description|
+|----|----|-----------|
+|message|String|Success message to display.|
+
+|Type|Description|
+|----|-----------|
+|void| |
+
+The following example shows how to display a message confirming a success message at the top of the form.
+
+```
+gs.addSuccessMessage("This is a success message");
 ```
 
 ## Scoped GlideSystem - base64Encode\(String source\)
@@ -232,7 +304,7 @@ Returns the date and time for the beginning of this year in the user's session t
 
 ## Scoped GlideSystem - dateGenerate\(String date, String range\)
 
-Generates a date and time for the specified date in the current user's timezone as a UTC timestamp.
+Generates a date and time for the specified date in the user's session time zone as a UTC timestamp.
 
 <table id="table_mhc_ljn_zv" class="parameters"><thead><tr><th>
 
@@ -484,6 +556,15 @@ Returns the date and time for the end of this month in the user's session time z
 |Type|Description|
 |----|-----------|
 |String|UTC in the format yyyy-mm-dd hh:mm:ss|
+
+This example shows how to use endOfThisMonth\(\) to set the GlideDateTime object to the end of the current month.
+
+```
+setEndDate : function(dt) {
+  var gdt2 = new GlideDateTime(dt);
+  gdt2.setValue(gs.endOfThisMonth());
+}
+```
 
 ## Scoped GlideSystem - endOfThisQuarter\(\)
 

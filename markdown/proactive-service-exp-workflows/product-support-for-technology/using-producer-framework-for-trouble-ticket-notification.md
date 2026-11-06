@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Handling API notifications, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
 
 # Using the producer framework for outbound notifications
@@ -158,7 +158,7 @@ When the system pushes an event to the staging table, the following steps take p
     To learn more about configuring the producer event notification framework, see [Producer Event Notification Framework developer guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/developer-guides/prod_evt_not-dev_guide-overview.md).
 
 
-**Parent Topic:**[Handling API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md)
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 
 **Related topics**  
 

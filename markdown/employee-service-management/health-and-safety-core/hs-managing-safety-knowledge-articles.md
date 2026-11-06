@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -49,9 +49,7 @@ To view a list of all knowledge base articles in the Health and Safety Workspace
 1.  Navigate to **Health and Safety Workspace** and select the configuration icon \(\[Omitted image "icon-config.png"\] Alt text: Configuration icon\).
 2.  In the **Configuration** tab, select **Knowledge**.
 
-**Note:**
-
-By default, the knowledge list in the Health and Safety Workspace is filtered by the `Knowledge base = Safety` filter. However, to view all articles from other knowledge bases, you can do the following:
+**Note:** By default, the knowledge list in the Health and Safety Workspace is filtered by the `Knowledge base = Safety` filter. However, to view all articles from other knowledge bases, you can do the following:
 
 -   Select the filter icon \(\[Omitted image "icon-filter.png"\] Alt text: filter icon\) in the list and remove the `Knowledge base = Safety` filter.
 -   Additionally, to remove this default filter setting from the Knowledge list in the Health and Safety Workspace, remove it in the UIB related list configuration. For more information, see [Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/lists-configurable-workspace.md)

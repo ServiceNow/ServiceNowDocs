@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rollup example use case implementation for a Security Case, Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Create required business rules for a Security Case.
 
 Role required: admin
 
-Create the three following business rules for the new source table Security Case \(sn\_ti\_case\). These business rules are required to maintain the consistency in behavior with out of the box provided source table such as Security incident \(sn\_si\_incident\).
+Create the three following business rules for the new source table Security Case \(sn\_ti\_case\). These business rules are required to maintain the consistency in behavior with base system provided source table such as Security incident \(sn\_si\_incident\).
 
 Business rules for the new source table:
 
@@ -42,7 +42,7 @@ Business rules for the new source table:
 
 3.  Open record and change the table name to a new source table: sn\_ti\_case.
 
-4.  Right-click the menu on the page and click **Insert and Stay** to create the record.
+4.  Select and hold \(or right-click\) the menu on the page and select **Insert and Stay** to create the record.
 
     \[Omitted image "change-table-name-step6.png"\] Alt text: Change the table name
 

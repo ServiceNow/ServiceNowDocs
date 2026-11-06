@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Migrating NLU/keyword Virtual Agent topics to LLM topics, Getting started with Virtual Agent Designer, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Migrating NLU topics to LLM, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Migrate NLU topics to LLM topics
@@ -26,17 +26,15 @@ Role required: virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin
 
 2.  Select **Migrate Topics to LLM**.
 
-    \[Omitted image "llm-topic-migration-vad-2.png"\] Alt text: Migrate Topics to LLM is an option in the Assistant Designer Asset library side panel.
-
-    **Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
+    \[Omitted image "llm-topic-migration-vad.png"\] Alt text: Migrate Topics to LLM is an option in the Assistant Designer Asset library side panel.
 
     The Topic Migration workflow opens in a new browser tab.
 
 3.  Review and determine which NLU and keyword topics you want to migrate into LLM topics on the Select topics step.
 
-    \[Omitted image "llm-topic-migration-select-topics-2.png"\] Alt text: Select topics step of the topic migration workflow enables you to select topics that you want to migrate from NLU and keyword topics to become new LLM topics.
+    \[Omitted image "llm-topic-migration-select-topics.png"\] Alt text: Select topics step of the topic migration workflow enables you to select topics that you want to migrate from NLU and keyword topics to become new LLM topics.
 
-    **Tip:** Select the link in the Name column to review the topic in the Assistant Designer canvas in a new browser tab. Migrate fewer than 50 topics at one time to give yourself enough time to review the topics.
+    **Tip:** Select the link in the Name column to review the topic in the Virtual Agent Designer canvas in a new browser tab. Migrate fewer than 50 topics at one time to give yourself enough time to review the topics.
 
 4.  Select which NLU and keyword topics you want to migrate, and then select **Next** on the Select topics step.
 
@@ -44,11 +42,11 @@ Role required: virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin
 
 5.  Review the affected topic blocks, Virtual Agent notifications, and Proactive Triggers, and then select **Next** on the Review connections step.
 
-    On the Topic blocks tab, only topic blocks and topic blocks connected with the selected topics are displayed in this list. Dynamic topic blocks must be manually selected for migration. You can select the link in the Topic Block column to view the topic block in the Assistant Designer canvas in a new browser tab. Although dynamic topic blocks can be optionally published, topic blocks are automatically published after migration. The Virtual Agent Notifications and Proactive Triggers tabs only appear if the topics you've selected for migration have notifications or Proactive Triggers associated with the original NLU topic. You can select the link in the Topic Name column on their respective tabs to view the NLU topic in the Virtual Agent Designer canvas in a new browser tab. The LLM-compatible Virtual Agent notifications and Proactive Triggers are created and connected to the new LLM topics only after those topics are published through the last Publish step in the topic migration workflow.
+    On the Topic blocks tab, only topic blocks and topic blocks connected with the selected topics are displayed in this list. Dynamic topic blocks must be manually selected for migration. You can select the link in the Topic Block column to view the topic block in the Virtual Agent Assistant Designer canvas in a new browser tab. Although dynamic topic blocks can be optionally published, topic blocks are automatically published after migration. The Virtual Agent Notifications and Proactive Triggers tabs only appear if the topics you've selected for migration have notifications or Proactive Triggers associated with the original NLU topic. You can select the link in the Topic Name column on their respective tabs to view the NLU topic in the Virtual Agent Designer canvas in a new browser tab. The LLM-compatible Virtual Agent notifications and Proactive Triggers are created and connected to the new LLM topics only after those topics are published through the last Publish step in the topic migration workflow.
 
     **Note:** The Proactive Triggers tab is only applicable if you've installed the Proactive Triggers \[sn\_pt\] app version 3.0.1 or later and have turned on this feature. If you'd prefer to manually migrate your actions for Virtual Agent notifications and Proactive Triggers rather than them automatically migrating after the Publish step, set the **com.glide.cs.notification.create\_llm\_actions\_after\_topic\_migration** and **com.glide.cs.proactive\_trigger.create\_llm\_actions\_after\_topic\_migration** system properties to `false` in **All** &gt; **System Properties** &gt; **All Properties**.
 
-    \[Omitted image "llm-topic-migration-review-topic-blocks-2.png"\] Alt text: Review topic blocks or notifications to see where they are used prior to continuing on in the topic migration workflow.
+    \[Omitted image "llm-topic-migration-review-topic-blocks.png"\] Alt text: Review topic blocks or notifications to see where they are used prior to continuing on in the topic migration workflow.
 
     **Note:** If no topic blocks, notifications, or Proactive Triggers were selected or connected to the selected topics, their respective tabs don’t appear.
 
@@ -87,17 +85,17 @@ Keep current topic descriptions?
 Current topic descriptions are used as the LLM topic descriptions rather than using generative AI to create topic descriptions for migrated LLM topics. This field is turned off by default. If this field is turned on, and there was no topic description in the original NLU topic, a topic description must be manually added to the new LLM topic before publication.
 
 </td></tr></tbody>
-</table>    \[Omitted image "llm-topic-migration-settings-2.png"\] Alt text: Settings includes three main fields that you need to review including the Select assistants for migrated topics, Choose how migrated topics are named, and Keep current topic descriptions fields.
+</table>    \[Omitted image "llm-topic-migration-settings.png"\] Alt text: Settings includes three main fields that you need to review including the Select assistants for migrated topics, Choose how migrated topics are named, and Keep current topic descriptions fields.
 
 7.  Review the topics for migration on the Migrate topics step, and then select **Next** to begin migration.
 
     **Note:** Leave the browser window open until the migration process is complete.
 
-    \[Omitted image "llm-topic-migration-migrate-topics-process-bar-2.png"\] Alt text: When migrating topics is in progress, a progression bar appears and the screen dynamically updates with which topics are completing or failing migration.
+    \[Omitted image "llm-topic-migration-migrate-topics-process-bar.png"\] Alt text: When migrating topics is in progress, the screen dynamically updates with which topics are Not Started, In progress, Complete, or Failing migration.
 
-    \[Omitted image "llm-topic-migration-migration-complete-2.png"\] Alt text: When topic migration is complete, the Review migration log option appears and you can select this option to view additional data on the success or failure of your topic migration.
+    \[Omitted image "llm-topic-migration-migration-complete.png"\] Alt text: When topic migration is complete, the Download migration log option appears and you can select this option to view additional data on the success or failure of your topic migration.
 
-    The migration complete progression bar appears and displays a dynamic percentage of completeness. During migration, the Migration status column updates dynamically with the values changing from `Not started` to either `Failed` or `Complete`. After migration is complete, any topic blocks selected, or those associated with the selected topics, are automatically published. You can choose to select **Review migration log** or **Next**. Selecting **Review migration log** downloads a .CSV file of the Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table data. For more information on this table data, see [NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md). Selecting **Next** continues the workflow to the Review descriptions step.
+    The migration complete progression bar appears and displays a dynamic percentage of completeness. During migration, the Migration status column updates dynamically with the values changing from `Not started` to either `Failed` or `Complete`. After migration is complete, any topic blocks selected, or those associated with the selected topics, are automatically published. You can choose to select **Download migration log** or **Next**. Selecting **Download migration log** downloads a .CSV file of the Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table data. For more information on this table data, see [NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md). Selecting **Next** continues the workflow to the Review descriptions step.
 
 8.  Continue to the Review descriptions step by selecting **Next**.
 
@@ -107,15 +105,15 @@ Current topic descriptions are used as the LLM topic descriptions rather than us
 
     **Note:** The display name, not the internal name, of the new LLM topics appears. The display name of the new LLM topics matches the existing NLU topic's display name. If you select the LLM topic link, you are redirected to that topic in Virtual Agent Designer through a new browser tab or window. For additional information about strong LLM topic descriptions, see [LLM description and instruction guidelines for Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-llm-instruction-guidelines.md).
 
-<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d109075e502">
+<table id="choicetable_vjq_sfm_wbc"><thead><tr><th align="left" id="d128409e482">
 
 Option
 
-</th><th align="left" id="d109075e505">
+</th><th align="left" id="d128409e485">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d109075e511">
+</th></tr></thead><tbody><tr><td id="d128409e491">
 
 **Edit topic description**
 
@@ -130,7 +128,7 @@ All topic descriptions, either migrated from the existing NLU topic description 
 4.  Repeat this process until all topic descriptions are reviewed and edited.
 
 
-</td></tr><tr><td id="d109075e543">
+</td></tr><tr><td id="d128409e523">
 
 **Edit topic description and test utterances**
 
@@ -151,17 +149,17 @@ The original NLU topic's utterances are compared against the new LLM topic descr
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "llm-topic-migration-review-desc-no-utterance-2.png"\] Alt text: No NLU utterances to test and only the edit description feature.
+</table>    \[Omitted image "llm-topic-migration-review-desc-no-utterance.png"\] Alt text: No NLU utterances to test and only the edit description feature.
 
-    \[Omitted image "llm-topic-migration-review-desc-utterances-2.png"\] Alt text: NLU utterances that match and do not match.
+    \[Omitted image "llm-topic-migration-review-desc-utterances.png"\] Alt text: NLU utterances that match and do not match.
 
 10. Continue to the Publish step by selecting **Next**.
 
 11. Select each LLM Topic check box that you want to publish, and then select **Publish topics**.
 
-    \[Omitted image "llm-topic-migration-publish-topics-2.png"\] Alt text: Publish topics option that becomes available after you select LLM topics for publication.
+    \[Omitted image "llm-topic-migration-publish-topics.png"\] Alt text: The Publish topics option becomes available after you select LLM topics for publication.
 
-    **Tip:** If you select the LLM topic link, you’re redirected to that topic in Virtual Agent Designer through a new browser tab or window. Any edits that you make in Virtual Agent Designer are reflected in the topic migration's Publish step. You must publish LLM topics through this step for any connected notifications or Proactive Triggers to work.
+    **Tip:** If you select the LLM topic link, you’re redirected to that topic in Virtual Agent through a new browser tab or window. Any edits that you make in Virtual Agent Designer are reflected in the topic migration's Publish step. You must publish LLM topics through this step for any connected notifications or Proactive Triggers to work.
 
     You receive a `Selected topics were successfully published` output message. The topics that you migrated, but didn't select to publish, continue to appear on this step until you navigate away from the topic migration workflow.
 

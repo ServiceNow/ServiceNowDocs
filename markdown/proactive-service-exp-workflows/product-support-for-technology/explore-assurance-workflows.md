@@ -1,44 +1,55 @@
 ---
 title: Exploring the Proactive Service Experience Workflows
-description: Learn how you can use the Proactive Service Experience Workflows application to automatically initiate workflows that resolve network-initiated incidents and proactively notify impacted customers.
+description: Learn how you can use the Product Support for Technology application to automatically initiate workflows that resolve network-initiated incidents and proactively notify impacted customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Proactive Service Experience Workflows]
+breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Exploring the Proactive Service Experience Workflows
 
-Learn how you can use the Proactive Service Experience Workflows application to automatically initiate workflows that resolve network-initiated incidents and proactively notify impacted customers.
+Learn how you can use the Product Support for Technology application to automatically initiate workflows that resolve network-initiated incidents and proactively notify impacted customers.
+
+## Request apps on the Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Proactive Service Experience Workflows capabilities
 
-The application delivers end-to-end support, analyzes customer impact, and enables transparent communication between all parties involved in the support process. With Proactive Service Experience Workflows, service providers can:
+Proactive Service Experience Workflows deliver end-to-end support, while understanding customer impact, and offering transparent communication to all parties involved in the support process. Telecommunications, media, or technology service providers can:
 
-|Capabilities|Key features|
-|------------|------------|
+|Capabilities|Feature|
+|------------|-------|
 |Identify affected customer accounts based on one or more configuration items associated with upstream services that are tied to an install base.|[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)|
-|With Operations Account 360, use data from ITSM and CSM to drill down into customer accounts and visualize key information about the account.|[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)|
+|With Operations Account 360, use data from ITSM and CSM to drill down into customer accounts and visualize key information about the account.|[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)|
 |Generate proactive cases that include synchronizations of certain fields on case insert, incident resolution, or closure of a change request.|[Redirection to the right case type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/generate-proactive-cases.md)|
 |Reduce administrative setup and overhead with enhanced incident and change request forms in the Service Operations Workspace.|[Create a case from a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-impact-change.md)|
-|Resolve minor cases without intervention by customer support agents.|[Auto-creation of cases and updates from incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-auto-creation-case.md)|
 |Provide capabilities for technical support agents to communicate with external customers without navigating between incident or change requests, and associated case records.|[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)|
-|Use five unique Workflow Studio flows that can be modified to suit your business needs.|[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)|
+|Use five unique Workflow Studio flows that can be modified to suit your business needs.|[Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)|
 |Escalate incidents for faster action based on a preconfigured decision table.|[About escalating incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-escalate-incident.md)|
 |Create incident records from certain API clients based on TM Forum TMF621 Rest API standards.|[Create an incident in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/create-an-incident-proactive.md)|
-|Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.|[Components installed with Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/spm-components.md)|
+|Use dedicated roles that enable technical support agents to see both ITSM and CSM and applications.||
 
-For information about the architectural components of the Proactive Service Experience Workflows application, see [Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md).
+For information about the architectural components of the Proactive Service Experience Workflows application, see [Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md).
 
--   **[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)**  
+-   **[Proactive Service Experience Workflows architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/architecture-assurance-workflows.md)**  
 There are multiple components that make up the architecture of the Proactive Service Experience Workflows application.
+-   **[Technology Account 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/technology-account-360.md)**  
+Use the Technology Account 360 to get a unified view of customer or partner account details combining account health, financial, product usage, and open tasks.
+-   **[Executive Portfolio view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/executive-portfolio-page.md)**  
+The Executive Portfolio page provides account teams and leadership with a real-time view of account portfolio performance. Use this page to identify at-risk revenue, track renewal readiness, monitor product adoption, and understand customer experience trends.
+-   **[Service delivery overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md)**  
+Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 -   **[Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/service-operations-workspace-proactive.md)**  
 You can use the Service Operations Workspace application to get an overview of how a network agent can prioritize tasks and resolve incidents.
+-   **[AI in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-otto-about.md)**  
+Use ServiceNow Otto to generate executive insight briefs and success play recommendations in Proactive Service Experience Workflows.
 
-**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.md)
+**Parent Topic:**[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 

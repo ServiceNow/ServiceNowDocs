@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_SetUpSect508ComplianceFeature.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and
 
 You can configure accessibility features globally or for specific users. Users can also individually enable user preferences for themselves to meet their specific accessibility needs.
 
-The platform includes features that support Web Content Accessibility Guidelines \(WCAG\) 2.0 AA and WCAG 2.1 AA \(for some products\) to make the interface more accessible to all users. These features improve the user experience when accessing the instance with screen readers and keyboard navigation.
+The platform includes features that support Web Content Accessibility Guidelines \(WCAG\) 2.2 AA \(for some products\) to make the interface more accessible to all users. These features improve the user experience when accessing the instance with screen readers and keyboard navigation.
 
 Accessibility features are not enabled by default because some features are user specific. Administrators have the flexibility to enable features globally or for individual users.
 
@@ -112,7 +112,7 @@ Sending focus to the first field on a form is useful to most users however, it p
 
 3.  Clear the checkbox to turn off first field focus.
 
-    **Note:** If your instance has list v3 enabled, instead navigate to **All** &gt; **User Administration** &gt; **User Preferences** instead and update the **glide.ui.accessibility.focus\_first\_field** property to false.
+    **Note:** If your instance has list v3 enabled, instead navigate to **All** &gt; **User Administration** &gt; **User Preferences** instead and update the **glide.ui.accessibility.focus\_first\_field**
 
 
 ## Enable the accessible form tooltips feature

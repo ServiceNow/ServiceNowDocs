@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a pull connector
@@ -68,6 +68,14 @@ Description
 
 Any optional information that the administrator wants to use to identify this record.
 
+</td></tr><tr><td>
+
+Assignment Group
+
+</td><td>
+
+Designates which team is responsible for managing, maintaining, and responding to issues related to this connector instance.
+
 </td></tr><tr><td id="entry_ConnectorDefinition">
 
 Connector definition **Note:** Metric Intelligence connectors \(such as the AWS CloudWatch and AzureConnector\), appear in the base system only if the Metric Intelligence plugin \(com.snc.sa.metric\) is activated.
@@ -76,6 +84,7 @@ Connector definition **Note:** Metric Intelligence connectors \(such as the AWS 
 
 The vendor and protocol used to gather events from the external event source. Select the connector definition that matches the source of external events. The options available in the base system are, for example: -   AWS CloudWatch
 -   AzureConnector
+-   Datadog
 -   HPOM
 -   IBM Netcool
 -   NagiosXI
@@ -322,7 +331,9 @@ Configure the Opsview\_V2 connector instance to receive alerts from an Opsview M
 -   **[Configure PRTG connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-prtg-connector.md)**  
 Configure the PRTG connector instance to receive alerts from a Paessler PRTG Network Monitor source.
 -   **[Apache Kafka Consumer Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/apache-kafka-consumer-connector.md)**  
-The Apache Kafka Consumer connector instance enables you to create events from messages collected from the Apache Kafka topic as a JSON payload that contains essential information in a data block.
+The Apache Kafka Consumer connector creates events from messages collected from the Apache Kafka topic as a JSON payload in a data block.
+-   **[Configure the Kafka metrics connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-kafka-metrics-connector.md)**  
+Configure the Kafka metric consumer connector instance to read message send to Kafka server over topic.
 -   **[Configure SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-sapsolman-connector.md)**  
 Configure the SAP Solution Manager \(Solman\) connector instance to enable communication between the SAP Solution Manager and Event Management.
 -   **[Configure alert collection from SCOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigureSCOMConnectorInstance.md)**  
@@ -335,6 +346,8 @@ Configure the VMware vCenter Server \(vCenter or vCenter\_V2\) connector instanc
 Configure the VMware vRealize Operations \(vRealize or vRealize\_V2\) connector instance to receive events from the vRealize Operations Log and Event Management servers. vRealize uses basic authentication. vRealize\_V2 uses token-based authentication.
 -   **[Configure event collection from Zabbix server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigureZabbixConnector.md)**  
 Configure the Zabbix server connector instance to receiving alerts from the Zabbix server.
+-   **[Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-a-datadog-work-item-connector.md)**  
+Configure a Datadog work item to aggregate related alerts and signals from Datadog into a trackable operational problem.
 
 **Parent Topic:**[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/connectors-and-listeners.md)
 

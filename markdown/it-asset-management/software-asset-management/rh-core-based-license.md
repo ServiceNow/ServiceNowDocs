@@ -1,20 +1,20 @@
 ---
 title: Red Hat Enterprise Linux core-based licensing
-description: Use the RHEL Per Core license metric to license core-based RHEL products on both physical and virtual environments.
+description: The Software Asset Management publisher pack for IBM supports core-based licensing rules for RHEL products in both physical and virtual environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/rh-core-based-license.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Management for Red Hat Enterprise Linux, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management for Red Hat Enterprise Linux, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Red Hat Enterprise Linux core-based licensing
 
-Use the RHEL Per Core license metric to license core-based RHEL products on both physical and virtual environments.
+The Software Asset Management publisher pack for IBM supports core-based licensing rules for RHEL products in both physical and virtual environments.
 
 ## Overview of the Per Core licensing model
 

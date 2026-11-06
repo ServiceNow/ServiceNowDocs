@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsm-mappedin-type-table.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure Mappedin, Configure, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Convert Mappedin data to Workplace Space Mapping data
 
 Use the **Mappedin Type Mappings** table to convert data from Mappedin to Workplace Space Mapping data.
+
+**Important:**
+
+The Mappedin integration is not available for new customers. Existing customers can upgrade to Mappedin version 1.11.0.
 
 The **Mappedin Type Mappings** table has configurations to convert the Type and Subtype data used in a Mappedin map to **Table** and **Space type** used in Workplace Core.
 

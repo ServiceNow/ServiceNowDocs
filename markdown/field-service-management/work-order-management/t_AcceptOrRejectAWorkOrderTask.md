@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Accept or reject a work order task
@@ -34,15 +34,15 @@ The task must be in **Assigned** state for an agent to accept or reject the task
 
 3.  Accept or reject the task.
 
-<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d103728e107">
+<table id="choicetable_mqd_4y5_djb"><thead><tr><th align="left" id="d116729e116">
 
 To
 
-</th><th align="left" id="d103728e110">
+</th><th align="left" id="d116729e119">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d103728e116">
+</th></tr></thead><tbody><tr><td id="d116729e125">
 
 **Accept the task**
 
@@ -50,7 +50,7 @@ Do the following
 
 Click **Accept**. The work order task moves to **Accepted** state.
 
-</td></tr><tr><td id="d103728e131">
+</td></tr><tr><td id="d116729e140">
 
 **Reject the task.**
 
@@ -79,12 +79,12 @@ The reason for rejecting the task is populated in the work notes and the task mo
  **Note:** The rejected task is not dynamically scheduled to the same agent for the next 24 hours. This is controlled by the work.management.rejected.technician.duration [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_PropInstallWFieldServMgmnt.md). However, as an agent you can manually assign the work order task back to yourself or as a dispatcher you can assign it back to the same agent.
 
 </td></tr></tbody>
-</table>
+</table>    \[Omitted image "accept-reject-task.png"\] Alt text: accept and reject buttons
+
+
 ## Result
 
 In case an agent accepts a successor \(downstream\) task that is dependent on another task, the successor \(downstream\) task can be started before the predecessor \(upstream\) task is complete.
 
 When the agent selects **Start Work**, a message states that open task dependencies exist and asks if the agent wants to start work.
-
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Templates in Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Templates in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create and sign document tasks in Agent Workspace for HR Case Management
@@ -18,7 +18,7 @@ Create document tasks directly in the Agent Workspace for HR Case Management usi
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_core.case\_writer
 
 ## Procedure
 
@@ -26,31 +26,35 @@ Role required: admin
 
 2.  Select an HR case for the document task.
 
-    In the **HR service** field, make sure that an HR service that has document template is selected. For example, request an employment verification letter or generate an offer letter. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
+    In the **HR service** field, make sure that an HR service that has document template is selected. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
 
-3.  Click the **Start Work** button.
+3.  Select the **Start Work** button.
 
 4.  Select the **Preview document** option.
 
-    The document is displayed with options to cancel, edit, generate or initiate document task. For more information, see[Document tasks generation in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/task-mapped-participants.md).
+    The document is displayed with options to cancel, edit, generate, or initiate document tasks.
 
 5.  Select the **Initiate document task** button.
 
+    \[Omitted image "initiate-tasks.png"\] Alt text: Preview document dialog showing employment verification letter with Initiate document tasks button
+
+    For more information, see [Document tasks generation in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/task-mapped-participants.md).
+
     Document tasks that are part of the selected HR case are generated and listed in the **Document tasks** tab. The participants will receive document tasks as configured in the template
 
-6.  Select the document task.
+6.  Select a document task that is assigned to you.
 
-7.  In the document task record, sign off on the document.
+7.  Select **Sign Document** or **Fill Document** as displayed.
 
-    1.  Select the **Sign Document** button.
+    **Note:** The **Fill Document** button appears only for PDF document templates.
 
-    2.  In the dialog box that appears, sign the document.
+8.  In the dialog box that appears, sign the document \(HTML template\) or fill the required fields and sign the document \(as configured in PDF template\).
 
-        **Note:** If the **Signing type** in the template is Adobe Acrobat Sign or Docusign, after clicking **Sign Document**, the document opens in a new tab to enable you to use the associated signing type.
+    **Note:** If the **Signing type** in the template is Adobe Acrobat Sign or Docusign, on clicking **Sign Document**, you will be redirected to the respective application page for signing the document.
 
-    3.  Click **Sign** to complete the signing process.
+9.  Select **Sign** to complete the signing process.
 
-        The status of the document task is automatically set to **Closed**.
+    The status of the document task is automatically set to **Closed**.
 
 
 ## Result

@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-12-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Amazon AWS Route53, Amazon Route 53, Route 53, AWS discovery, AWS patterns, DNS discovery]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Amazon Route 53 pattern-based discovery
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns finds Amazon Route 53 domain name systems
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the AWS discovery prerequisites section in [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+Verify the AWS discovery prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -48,5 +48,5 @@ The Amazon AWS Route53 pattern creates these relationships to support Amazon Rou
 |DNS Name \[cmdb\_ci\_dns\_name\]|Used by::Uses|DNS Alias \[cmdb\_ci\_dns\_alias\]|
 |DNS Name \[cmdb\_ci\_dns\_name\]|Hosted on::Hosts|Cloud Service Account \[cmdb\_ci\_cloud\_service\_account\]|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

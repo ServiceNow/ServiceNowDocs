@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Workspace
 classification: localization-workspace
 topic_type: concept
-last_updated: "2025-03-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,7 +21,9 @@ Several types of components are installed with activation of the Localization Wo
 -   **[Localization Workspace Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-domain-separation.md)**  
 Domain separation is unsupported for Localization Workspace. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Types of Localizable content in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-localizable-content.md)**  
-Localization Workspace collects available translatable content from across your instance when you create a translation request. Content becomes available when its table has an artifact record and permissions configured.
+Localization Workspace collects available translatable content from across your instance when you create a translation request. You can make your content available by configuring permissions and creating an artifact record.
+-   **[Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace-roles.md)**  
+Localization Workspace is installed with these roles.
 
 **Parent Topic:**[ServiceNow AI Platform translation and localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/translation-and-localization.md)
 

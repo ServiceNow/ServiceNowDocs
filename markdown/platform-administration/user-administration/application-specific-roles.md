@@ -7,7 +7,7 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -134,7 +134,7 @@ HR Service Delivery
 
 </td><td>
 
-[Setting up your Alumni Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/asc-configure.md)
+[Setting up your](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/asc-configure.md)
 
 </td></tr><tr><td>
 
@@ -486,7 +486,7 @@ Event Management
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -494,11 +494,11 @@ Advanced Work Assignment
 
 </td><td>
 
-[Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-awa.md)
+
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -510,7 +510,7 @@ AI Search
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -522,7 +522,7 @@ Application Portfolio Management
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -534,7 +534,7 @@ Automation Center
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -546,7 +546,7 @@ Client Software Distribution 2.0
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -558,7 +558,7 @@ Conversational Analytics
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -570,7 +570,7 @@ Document Intelligence
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -582,7 +582,7 @@ Interaction Management
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -594,7 +594,7 @@ Live Feed
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -606,7 +606,7 @@ Notify
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -618,7 +618,7 @@ Orchestration \(Legacy\)
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -630,7 +630,7 @@ Build Workflows
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -642,7 +642,7 @@ Build Workflows
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -654,7 +654,7 @@ Build Workflows
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -666,7 +666,7 @@ Build Workflows
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -678,7 +678,7 @@ Service Bridge
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -690,7 +690,7 @@ Service Bridge
 
 </td></tr><tr><td>
 
-Now Platform Capabilities
+ServiceNow AI Platform capabilities
 
 </td><td>
 
@@ -754,11 +754,11 @@ Platform Analytics
 
 </td><td>
 
-User Experience Analytics
+Usage Insights
 
 </td><td>
 
-[Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/components-installed-user-exp-analytics.md)
+[Roles installed with](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/components-installed-user-exp-analytics.md)
 
 </td></tr><tr><td>
 

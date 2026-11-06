@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Kubernetes, Visibility, labels, annotations, include, exclude, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Define include and exclude lists of Labels and Annotations
@@ -36,15 +36,15 @@ If both options are configured, **excludeLabelsAndAnnotations** takes precedence
 
 1.  Create an include or exclude list by using the following procedure.
 
-<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d101595e141">
+<table id="choicetable_zc3_nht_51c"><thead><tr><th align="left" id="d476762e141">
 
 Task
 
-</th><th align="left" id="d101595e144">
+</th><th align="left" id="d476762e144">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d101595e150">
+</th></tr></thead><tbody><tr><td id="d476762e150">
 
 **Create an include list**
 
@@ -52,12 +52,14 @@ Procedure
 
 -   When using a Helm chart, in the Helm install command, add a comma-separated include list of Labels and Annotations.
 
-For example: `--set IncludeLabelsAndAnnotations="label1,label2"`
+For example: `--set includeLabelsAndAnnotations="label1\,label2"`
+
+Quotes are required when specifying more than one label.
 
 -   When using the k8s\_informer.yaml file, add values under the environment variable INCLUDE\_LABELS\_AND\_ANNOTATIONS.
 
 
-</td></tr><tr><td id="d101595e172">
+</td></tr><tr><td id="d476762e174">
 
 **Create an exclude list**
 
@@ -65,7 +67,9 @@ For example: `--set IncludeLabelsAndAnnotations="label1,label2"`
 
 -   When using a Helm chart, in the Helm install command, add a comma-separated exclude list of Labels and Annotations.
 
-For example: `--set ExcludeLabelsAndAnnotations="label1,label2"`
+For example: `--set excludeLabelsAndAnnotations="label1\,label2"`
+
+Quotes are required when specifying more than one label.
 
 -   When using the k8s\_informer.yaml file, add values under the environment variable EXCLUDE\_LABELS\_AND\_ANNOTATIONS.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: it\_demand\_manager
 
 ## About this task
 
-After analyzing the risks and issues and taking a decision on how to manage those risks and issues, add an action for resolving the risk or issue to a demand.
+After analyzing the risks and issues and taking a decision on how to manage those risks and issues, add an action for resolving the risk or issue.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ After analyzing the risks and issues and taking a decision on how to manage thos
 
 2.  Select the demand to which you want to add an action.
 
-3.  From the Actions related list, click **New**.
+3.  From the Actions related list, select **New**.
 
 4.  On the Action form, fill in the fields.
 
@@ -38,13 +38,13 @@ After analyzing the risks and issues and taking a decision on how to manage thos
 
 5.  If the action requires approval from other stakeholders, request approval with a due date using the **Approval** and **Due date** fields.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 ## What to do next
 
 -   Convert an action to a request change and close the action. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reassociate-ridac-demand.md).
 
 **Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ridac-entries-for-demand.md)
 

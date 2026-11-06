@@ -1,5 +1,5 @@
 ---
-title: Communicating with stakeholders about incidents and major incidents
+title: Communicating with stakeholders about incidents and major incidents in SOW
 description: Use the Communicate tab to create and manage all communications with stakeholders during the various phases of an incident or a major incident.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Communicating with stakeholders about incidents and major incidents
+# Communicating with stakeholders about incidents and major incidents in SOW
 
 Use the **Communicate** tab to create and manage all communications with stakeholders during the various phases of an incident or a major incident.
 
@@ -25,7 +25,7 @@ The **Communicate** tab contains the following options to create and manage comm
     -   Communication plan – The communication tasks that are associated with a particular communication plan are grouped.
     -   Completion status - The communication tasks are grouped based on the completion status and due dates. You can choose to list the tasks from the following group sections:
         -   Overdue – Communication tasks with past due dates.
-        -   Upcoming – Communications tasks with an upcoming due date.
+        -   Upcoming – Communication tasks with an upcoming due date.
         -   Completed – Communication tasks that are completed.
         -   Skipped – Communication tasks that are skipped.
 -   **Filter by communication plan**
@@ -34,7 +34,7 @@ The **Communicate** tab contains the following options to create and manage comm
 
 -   **Compose**
 
-    Compose a communication message, such as an email, DEX Desktop Assistant, SMS, Microsoft Teams, or Slack message. For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
+    Compose a communication message, such as an email, DEX Desktop Assistant, SMS, Microsoft Teams, or Slack message. For more information on DEX Desktop Assistant, see .
 
     **Note:**
 
@@ -45,7 +45,7 @@ The **Communicate** tab contains the following options to create and manage comm
     -   DEX must be version 2.5.0 or later.
 -   **Manage recipients**
 
-    Add and manage recipients for a communications task. You can add a user role and a user in the recipient list. You can also access this option by selecting the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then selecting **Manage recipients**.
+    Add and manage recipients for a communication task. You can add a user role and a user in the recipient list. You can also access this option by selecting the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then selecting **Manage recipients**.
 
 -   **New Communication**
 
@@ -80,9 +80,11 @@ The **Communicate** tab contains the following options to create and manage comm
 
     Increase the **Due in** time for a communication task. Select the **More actions** \(\[Omitted image "mim-more-action-icon.png"\] Alt text: More action icon\) icon on the communication task and then select **Snooze**.
 
+    **Note:** When the **Snooze** option is used for communication task grouped under overdue or skipped, the task is moved to the upcoming section of the group.
+
 
 -   **[Compose communications for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/compose-communication-mim-sow.md)**  
-Compose the communication messages for incidents and major incidents using communication channels such as email and SMS.
+Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 -   **[Manage recipients in a communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/manage-recipients-mim-sow.md)**  
 Manage the recipients list for a communication task to create flexible and effective communication with the required stakeholders.
 -   **[Create an adhoc communication task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-adhoc-comm-task-mim-sow.md)**  

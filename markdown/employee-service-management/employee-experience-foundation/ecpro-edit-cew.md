@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure employee communications widgets, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure employee communications widgets, Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify the Content Experiences widget
@@ -29,6 +29,8 @@ Role required: sp\_admin or admin
     **Note:** **Custom HTML** options are not supported OOB on content experience widgets for **Banner content type**.
 
 2.  Press and hold the control key, right-click the Content Experience widget, and then select **Instance Options**.
+
+    **Note:** On the topic page, selecting any heading—including quick link headings—allows you to access **Instance options**. Within the instance window, you can modify the current heading levels. Once changes are made, select **Save** to apply the changes; the updated heading level will be reflected on the topic page, enhancing overall visibility.
 
 3.  Configure the widget:
 
@@ -72,7 +74,6 @@ Widget style
 
 How you want the content to appear in the widget when viewed on desktop. The choices are:-   **Right-hand list menu**: Displays a menu of content headings on the right side of the widget.
 -   **Dotted carousel**: Displays navigable dots representing each page of articles.
--   **Dotted carousel** is only supported for widgets with a width less than 900 pixels.If a head widget is less than 900 pixels, other widget styles will not be supported.
 -   **Tiles**: Displays content in one large left-side tile and two smaller vertically-stacked tiles on the right side.
 
 
@@ -83,6 +84,14 @@ Allow background image to be partially covered by right-hand list menu
 </td><td>
 
 Stretches the image across the width of the widget. This option only applies to the widget style right-hand list menu setting.
+
+</td></tr><tr><td>
+
+Alt Text
+
+</td><td>
+
+Content manager can add an Alt Text field, which provides a short description of the featured images. This capability is only available within the Content Experiences Widget for styles, banner or news and event content.**Note:** This feature lets users hear image descriptions on the portal using a screen reader.
 
 </td></tr><tr><td>
 

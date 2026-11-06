@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Manage and monitor alerts
@@ -50,8 +50,8 @@ Close an alert by an event or a user action. Closing an alert also closes any re
 Additional events can cause reopening of alerts, or you can reopen an alert by changing its state. When an alert reopens, any associated incidents can also be updated or reopened according to the incident state and the **evt\_mgmt.alert\_reopens\_incident** property.
 -   **[Alert insight properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-alert-insight-properties.md)**  
 Use these properties to configure alert insight.
--   **[Rotate event tables and alert table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)**  
+-   **[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)**  
 The growth of data tables impedes performance. Preserve instance performance by event table rotation and alert table cleanup for status and alert history retention.
 
-**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
+**Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EM.md)
 

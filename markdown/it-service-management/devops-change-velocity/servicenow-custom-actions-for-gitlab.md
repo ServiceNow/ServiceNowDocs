@@ -1,5 +1,5 @@
 ---
-title: Implement custom actions for pipelines using a generic Docker container image
+title: Implement custom actions for pipelines using Docker image
 description: Use the ServiceNow custom actions to collect data related to change request creation, Sonar scan, artifact registration, and package registration in your pipeline with the help of the generic Docker Container Image.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.html
@@ -7,12 +7,12 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 18
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
 
-# Implement custom actions for pipelines using a generic Docker container image
+# Implement custom actions for pipelines using Docker image
 
 Use the ServiceNow custom actions to collect data related to change request creation, Sonar scan, artifact registration, and package registration in your pipeline with the help of the generic Docker Container Image.
 

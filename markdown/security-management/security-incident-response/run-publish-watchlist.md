@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage observables, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,18 +30,14 @@ Role required: sn\_si.analyst
 
 2.  Select **Observables** from the **Related List** tab.
 
-3.  Click **Publish to Watchlist** in the **Actions on selected rows...** drop-down menu.
+3.  Select **Publish to Watchlist** in the **Actions on selected rows...** drop-down menu.
 
-    \[Omitted image "RunPublish2Watchlist.png"\] Alt text: Run Publish to Watchlist
-
-    The dialog box appears.
-
-    \[Omitted image "Publish2WatchlistDiaglogBox.png"\] Alt text: Publish to Watchlist dialog box
+    The Publish to Watchlist dialog box appears.
 
 4.  Enter or choose the implementation.
 
     **Note:** A workflow is triggered by the [Security Operations Integration- Publish to Watchlist capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/pubish-to-watchlist-capability.md) when you select the CrowdStrike Falcon Host implementation.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 

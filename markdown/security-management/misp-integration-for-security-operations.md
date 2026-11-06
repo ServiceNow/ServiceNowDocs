@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/misp-integration-for-security-operations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -16,17 +16,11 @@ With MISP integration for Security Operations, you can investigate security inci
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## MISP Overview
 
 MISP, which stands for Malware Information Sharing Platform, lets you exchange and share threat intelligence and Indicators of Compromise \(IoCs\) about the targeted malware and attacks within your community of trusted members. You can also share MISP information with private or open communities. By exchanging MISP information, you can investigate targeted attacks faster, improve the detection ratio, and reduce the number of false positives in your environment.
-
-## MISP and Security Operations
-
-See the following example to learn how the MISP information flows with Security Operations applications.
-
-\[Omitted image "misp-overview.png"\] Alt text: How MISP integrates with the Security Operations applications.
 
 ## Key features
 

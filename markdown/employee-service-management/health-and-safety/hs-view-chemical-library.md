@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chemical management, Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -35,7 +35,7 @@ The chemical library is displayed containing a list of chemicals, its manufactur
 
 ## What to do next
 
-You can use the chemical library to search for chemicals by name or keyword, and access the chemical record. The chemical record lets you view detailed information, including chemical identity, ingredients, concentrations, hazard data, and related safety documents. For information on creating a chemical request, see [Create a chemical request from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-chemical-request-ec.md).
+You can use the chemical library to search for chemicals by name or keyword, and access the chemical record. The chemical record lets you view detailed information, including chemical identity, ingredients, concentrations, hazard data, first aid, and related safety documents. For information on creating a chemical request, see [Create a chemical request from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-chemical-request-ec.md).
 
 **Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-using-chemical-management.md)
 

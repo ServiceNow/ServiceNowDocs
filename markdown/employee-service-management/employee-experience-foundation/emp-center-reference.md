@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center reference
@@ -20,8 +20,8 @@ Reference topics provide additional information about Employee Center components
 Use the Activity Configuration form to do a basic configuration or an advanced configuration for an activity.
 -   **[Activity Configuration Detail form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/activity-configuration-detail-form.md)**  
 Use the Activity Configuration Detail form to specify which records you want to retrieve from a table when certain conditions are met for a basic activity configuration.
--   **[Browser Extension for Employee Center forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecbe-forms.md)**  
-The Browser Extension for Employee Center forms provide information about various configurations required to set up the extension.
+-   **[Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-ootb.md)**  
+Use the following reference information for better approval experience.
 -   **[Connected Content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/connected-content-form.md)**  
 Use the connected content form to associate content to the topics in your taxonomy.
 -   **[Default Employee Profile Header Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/default-profile-header.md)**  
@@ -56,24 +56,26 @@ The overview section form enables you to configure a section on the Employee Pro
 The portal notification configurations form enables you to create a unified notification system for your preferred portal.
 -   **[Portal notification content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/notif-content-form.md)**  
 The field descriptions provided here are required to configure your portal notification messages.
--   **[Quick Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-quick-link-form.md)**  
-Use the Quick Link form to create a new quick link and specify the content type for the quick link.
--   **[Standard banner and icon sizes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-portal-images-size.md)**  
-Use the following sizes for the banner and icons for optimal portal performance.
 -   **[Trigger conditions form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/notif-trigger-form.md)**  
 The field descriptions provided here are essential to create the trigger conditions for your portal notification messages.
+-   **[Quick Link form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-quick-link-form.md)**  
+Use the Quick Link form to create a new quick link and specify the content type for the quick link.
 -   **[Tab widget mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/tab-widget-mapping-form.md)**  
 You can use the tab widget mapping form to display widgets on a tab and control their visibility.
 -   **[Taxonomy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/taxonomy-form.md)**  
 Use the taxonomy form to create your own taxonomy for the Employee Center portal.
 -   **[Topic form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/topic-form.md)**  
 Use the topic form to create topics for the new or cloned taxonomy.
--   **[To-do content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/to-do-content-form.md)**  
-Use the To-do content form to add to-dos to your portal page.
 -   **[User Criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-user-criteria-form.md)**  
 Add a user criteria record to decide which users, roles, and groups can access a quick link.
 -   **[User Criteria output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/user-criteria-output.md)**  
 User Criteria output based on **Available For** and **Not Available For** values.
+-   **[Schedule appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/schedule-appointment-form.md)**  
+Use the Schedule appointment form to select a reason and provide contact information for your appointment.
+-   **[Location Consent form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/location-consent-form.md)**  
+The location consent form helps you configure the communication channels for appointment bookings.
+-   **[Website configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-website-form.md)**  
+The field descriptions provide a point of reference when you're configuring the Browser Extension for Employee Center for a website.
 
 **Parent Topic:**[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-center-landing-page.md)
 

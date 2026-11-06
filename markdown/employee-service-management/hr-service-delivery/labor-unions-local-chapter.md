@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up labor unions, Labor unions, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a local chapter
@@ -18,7 +18,7 @@ Use Local Chapters to set up and track the chapters of your union. Local chapter
 
 ## Before you begin
 
-Role required: admin
+Role required: HR admin \[sn\_hr\_core.admin\]
 
 ## Procedure
 
@@ -84,5 +84,5 @@ The website URL of the local union chapter.
     **Note:** For more information on **Labor Union Contacts**, see [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-contacts.md). For more information on **Employee Union Memberships**, see [Create employee union memberships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-employee-membership.md).
 
 
-**Parent Topic:**[Setting up labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Emp
 # HR profile and HR case security
 
 Because HR profile information is sensitive and confidential, the System Administrator \[admin\] cannot view it. The same is true for some of the information in HR cases and HR tasks.
-
-**Note:** The preceding statement applies only when you complete the steps in [Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md).
 
 HR profile information is confidential and viewed only by authorized HR personnel who are assigned a role that includes sn\_hr\_core.profile\_reader or sn\_hr\_core.profile\_writer, such as sn\_hr\_core.secure\_info\_reader.
 

@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-operations-core-data-model.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data Model, Learning and exploring, Financial Services Operations \(FSO\)]
+keywords: [FSO Core, Financial Services Operations, data model, financial institutions, service organizations, customer data, financial accounts, product models, sold products, financial services, treasury services, foundational data, operational workflow, banking, insurance]
+breadcrumb: [Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Operations Core
@@ -122,5 +123,5 @@ This section describes the banking tables in FSO Core and shows how they store a
 -   **[FSO Core Insurance tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-core-insurance-tables.md)**  
 This section explains the insurance tables in FSO Core and how they handle insurance data.
 
-**Parent Topic:**[Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md)
+**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md)
 

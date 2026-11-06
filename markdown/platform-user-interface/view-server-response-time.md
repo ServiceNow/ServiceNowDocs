@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/view-server-response-time.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Measuring the performance of your instance in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Instance performance, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # View the server response time
@@ -34,7 +34,7 @@ Role required: admin
 
 6.  From the filter navigator, enter `syslog_transaction.list` in the search field.
 
-7.  From the transaction table, select the personalize list icon \( \[Omitted image "PersonalizeListIcon.png"\] Alt text: Personalize list icon.\), within the banner frame.
+7.  From the transaction table, select the personalize list icon \[Omitted image "PersonalizeListIcon.png"\] Alt text:, within the banner frame.
 
 8.  From the Available column, select the Client Interaction ID and move it to the Selected column.
 
@@ -47,5 +47,5 @@ Role required: admin
     The server response times for that particular interaction are displayed.
 
 
-**Parent Topic:**[Measuring the performance of your instance in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/measuring-performance-next-experience.md)
+**Parent Topic:**[Instance performance in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/measuring-performance-next-experience.md)
 

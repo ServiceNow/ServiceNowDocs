@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Agent Client Collector, Agent Client Collector for Visibility, ACC for Visibility]
-breadcrumb: [Using Agent Client Collector for Visibility Content, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Discovery, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Populating Assigned To attribute in Computer CI for Agent Client Collector for Visibility Content
@@ -48,5 +48,5 @@ You can automatically populate Assigned to for Windows endpoint devices and macO
 
 No new user account is created in the sys\_user table. Instead, the existing user is queryied and the same is referenced as Assigned To user for a CI.
 
-**Parent Topic:**[Using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-v-using-agent-client-collector-for-visibility.md)
+**Parent Topic:**[Agent Client Collector Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-discovery.md)
 

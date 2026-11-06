@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Change request and change task forms
@@ -124,6 +124,7 @@ Change model to create a change request for a phone number allocation. To learn 
 </td></tr></tbody>
 </table>|Fields|Description|
 |------|-----------|
+|Model|Change model that is associated with the Telecommunications Network Inventory change request.|
 |Customer Site|Network site.|
 |ONT equipment template|Equipment template.|
 |Splitter|Equipment.|
@@ -397,7 +398,7 @@ This type of request definition enables you to create a cable record.
 
 -   **Add Card**
 
-This type of request definition enables you to select a site and equipment model when you add interface cards. To learn more about equipment instantiation, see [Telecommunications design and assign]().
+This type of request definition enables you to select a site and equipment model when you add interface cards. To learn more about equipment instantiation, see [Design and assign]().
 
 -   **Create equipment**
 
@@ -407,7 +408,7 @@ This type of request definition enables you to select a network site and an inve
 
 These types of request definitions have similar sets of site and equipment selection fields for the physical or logical connections between your start \(A\) and end \(Z\) locations. You can only select those interfaces that are associated with the designated equipment model for the A-start and Z-end interfaces.
 
-For the instantiation of physical or logical connections, you must select a physical connection model or a logical connection model, depending on the type of connection that you want to create between the two sites. For a logical connection, this internal code creates a CI record, and additional path elements.
+For the instantiation of physical or logical connections, you must select a connection model. Choose a physical or logical connection model depending on the type of connection that you want to create between the two sites. For a logical connection, this internal code creates a CI record, and additional path elements.
 
 -   **Logical connection - Path compute**
 
@@ -696,7 +697,7 @@ Service
 
 </td><td>
 
-Service for these numbers. The selected service gets assigned to the numbers.**Note:** Ensure that you’ve created a service for this phone number. To learn more, see [Managing your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md).
+Service for these numbers. The selected service gets assigned to the numbers.**Note:** Ensure that you’ve created a service for this phone number. To learn more, see [Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md).
 
 </td></tr><tr><td>
 

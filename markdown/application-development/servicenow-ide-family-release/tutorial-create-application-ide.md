@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Getting started: Create your first application in the ServiceNow IDE, Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Getting started: Create your first application in the ServiceNow IDE, Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Tutorial part 1: Create an application in the ServiceNow IDE
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-In the ServiceNow IDE, you can develop scoped applications in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. You can also create JavaScript modules and use third-party libraries to organize and reuse code within scoped applications. For an application to support development in source code, you must create a scoped application or convert an existing scoped application using the ServiceNow IDE or ServiceNow SDK. In this tutorial, you create a scoped application from the ServiceNow IDE.
+In the ServiceNow IDE, you can develop applications in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. You can also create JavaScript modules and use third-party libraries to organize and reuse code within an application scope. For an application to support development in source code, you must create an application or convert an existing application using the ServiceNow IDE or ServiceNow SDK. In this tutorial, you create a scoped application from the ServiceNow IDE.
 
 ## Procedure
 

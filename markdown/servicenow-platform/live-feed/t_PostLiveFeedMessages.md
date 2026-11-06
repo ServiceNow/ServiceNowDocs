@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: none
 
     Use hashtags, if you want.
 
-4.  As needed, click \[Omitted image "Poll-Icon.png"\] Alt text: Poll icon, \[Omitted image "AttachmentIcon.png"\] Alt text: Attachment icon, or \[Omitted image "ScreenshotIcon.png"\] Alt text: Screenshot icon to add a poll, attachment, or screenshot image, respectively.
+4.  As needed, click the poll, attachment, or screenshot icon , , to add a poll, attachment, or screenshot image, respectively.
 
 5.  Click **Post**.
 

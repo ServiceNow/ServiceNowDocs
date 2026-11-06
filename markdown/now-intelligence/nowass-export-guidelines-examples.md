@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/nowass-export-guidelines-examples.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Export dashboards and visualizations, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Export guidelines and examples
@@ -20,7 +20,7 @@ Here are some example requests with different levels of detail, to use in differ
 
 -   **Export this visualization to PowerPoint**
 
-    If you have a dashboard or data visualization open, you do not have to specify the name. Now Assist is aware of the context. For this request, you would be asked for the export method.
+    If you have a dashboard or data visualization open, you do not have to specify the name. ServiceNow Otto is aware of the context. For this request, you would be asked for the export method.
 
 -   **Export visualization Asset lifecycle by state to PPT**
 
@@ -41,7 +41,7 @@ Here are some example requests with different levels of detail, to use in differ
     In this case, you export the open dashboard and apply any filters on the dashboard as a whole and on any tabs. If you export a dashboard tab with applied filters, you apply only the top-level dashboard filters and the filters on that tab. You can apply filters only when exporting to PowerPoint.
 
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

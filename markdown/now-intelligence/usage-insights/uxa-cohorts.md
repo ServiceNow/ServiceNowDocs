@@ -1,20 +1,20 @@
 ---
-title: Cohort analysis in User Experience Analytics
-description: A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to analyze how many users complete a predetermined sequence of actions so you can track conversion rates.
+title: Cohort analysis in Usage Insights
+description: A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-cohorts.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-26"
 reading_time_minutes: 1
-breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Cohort analysis in User Experience Analytics
+# Cohort analysis in Usage Insights
 
-A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to analyze how many users complete a predetermined sequence of actions so you can track conversion rates.
+A cohort is a group of users separated from other users by similar traits or actions. Cohorts enable you to group users together based on common behavior to analyze how many users complete certain predetermined actions in a given time frame.
 
 Cohort analysis reports provide you with information on how one in-app action relates to another. You can see measurements of how much time passes between a sequence of actions, and trends in user behavior and engagement over periods of time.
 
@@ -23,7 +23,7 @@ Define the predetermined sequence of actions a group of users complete so you ca
 -   **[Edit a cohort](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/edit-action-cohort.md)**  
 Edit cohort session data to include in your analysis.
 -   **[Delete a cohort](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/delete-action-cohort.md)**  
-Easily delete a cohort report.
+Delete a cohort report that you no longer need.
 
-**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

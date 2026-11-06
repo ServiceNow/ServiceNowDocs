@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [User criteria for Service Portal, Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -42,5 +42,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

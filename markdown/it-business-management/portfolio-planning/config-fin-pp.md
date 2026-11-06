@@ -1,5 +1,5 @@
 ---
-title: Configure financials for planning items in Portfolio Planning
+title: Configure financials for Portfolio Planning
 description: Configure the ServiceNow Internal integrations to view the financials for planning items in Portfolio Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/config-fin-pp.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Configure financials for planning items in Portfolio Planning
+# Configure financials for Portfolio Planning
 
 Configure the ServiceNow Internal integrations to view the financials for planning items in Portfolio Planning.
 
@@ -60,14 +60,14 @@ Role required: admin
 
 10. Activate and define a scheduled job to migrate budget for your planning items.
 
-    For more information, see [Scheduled job to migrate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.md)
+    For more information, see [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/fin-migrate-budget-scheduled-job-ppw.md)
 
 11. Activate and define scheduled job to automatically create financial baselines for your planning items at a defined cadence.
 
-    For more information, see [Scheduled job to create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/baseline-schedule-job-pp.md).
+    For more information, see [Activate a scheduled job to create financial baselines for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/baseline-schedule-job-pp.md).
 
 12. Activate and define a scheduled job to generate labor costs for your projects and demands based on the attribute-based resource assignments.
 
-    For more information, see [Scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
+    For more information, see [Activate a scheduled job to generate labor costs for your projects and demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/gen-labor-costs-scheduled-job-pp.md).
 
 

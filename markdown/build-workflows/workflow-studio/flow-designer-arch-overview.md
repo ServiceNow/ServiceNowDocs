@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Exploring flows, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Architecture Overview
@@ -113,7 +113,7 @@ Workflow Studio uses the flow or action status to describe the current state of 
 
 -   **Action status**
 
-    The Workflow Studio interface does not display the configuration status of actions. To view action status, navigate to the Action Types table \[sys\_hub\_action\_type\_definition\] and display the **Draft state** field.
+    The Workflow Studio interface doesn't display the configuration status of actions. To view action status, navigate to the Action Types table \[sys\_hub\_action\_type\_definition\] and display the **Draft state** field.
 
     |Action Draft status|Description|
     |-------------------|-----------|
@@ -142,13 +142,13 @@ Use standard ServiceNow AI Platform application development capabilities to crea
 
 Workflow Studio supports collision avoidance. Collision avoidance prevents a user from modifying an object that is being modified in a different update set. For example, User A is editing a flow in a particular update set. User B, who is working in a different update set, attempts to open the same flow. In this situation, the system detects a collision and alerts User B. User B can then choose to either **Cancel** or **Continue**. Selecting **Cancel** takes User B back to the Workflow Studio homepage. Selecting **Continue** opens the flow in read-only mode.
 
-For collision avoidance to work, both users must be in the same application scope, and it must be an application scope other than global. Additionally, the application being modified must be linked to source control. For more information, see Collision avoidance.
+For collision avoidance to work, both users must be in the same application scope, and it must be an application scope other than global. Additionally, the application being modified must be linked to source control.
 
 ## Security
 
 Control access to Workflow Studio processes and records.
 
--   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the Workflow Studio [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/developer-permissions.md).
+-   Administrators can grant users access to Workflow Studio flows by creating an application and assigning users as developers with the [delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_DelegatedDevelopment.md) permission. Delegated development allows administrators to control whether flow designers can access features normally restricted to admin users such as assigning user roles, creating access controls, or creating scripts. For more information, see [Developer permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/developer-permissions.md).
 -   Administrators can grant access to Workflow Studio flows by directly assigning users the flow\_designer user role, which includes the role to view flow execution details.
 
     **Warning:** Directly granting a user the flow\_designer role is equivalent to giving the user the admin role, because Workflow Studio can run flows as the System user, which has access to all tables and all database operations.
@@ -194,6 +194,4 @@ During the design phase, you can test unpublished actions by setting **Show draf
     **Warning:** Disabling **Show draft actions** before publishing your actions removes all draft actions from your flow.
 
 -   Any change you make to an active flow or published action causes it to return to a draft state. If the flow is triggered, the system only runs the activated flow and published actions, and the flow execution details only display what was run. When there is a draft of an active flow, the trigger and actions listed in the flow execution details may be different than those listed in the draft flow.
-
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)
 

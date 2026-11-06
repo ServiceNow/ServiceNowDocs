@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---

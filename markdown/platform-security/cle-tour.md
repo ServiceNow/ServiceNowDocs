@@ -1,18 +1,18 @@
 ---
 title: Column Level Encryption Guided Tour
-description: The tour gives a brief overview of the Column Level Encryption Enterprise setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Enterprise Overview course.​
+description: The tour gives a brief overview of the Column Level Encryption setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Overview course.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cle-tour.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Column Level Encryption, Column Level Encryption, Encryption]
 ---
 
 # Column Level Encryption Guided Tour
 
-The tour gives a brief overview of the Column Level Encryption Enterprise setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Enterprise Overview course.​
+The tour gives a brief overview of the Column Level Encryption setup needed to encrypt table fields or attachments.​ Steps for the creation of Field Encryption Modules, Module Access Policies, and Encrypted Field Configurations are also covered. The tour includes links to detailed documentation and the ServiceNow University Column Level Encryption Overview course.​
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Role required: sn\_kmf.crypto\_manager or security\_admin
 
 4.  Select **Next** to progress through the tour.
 
-    \[Omitted image "tour\_image.png"\] Alt text: The Column Level Encryption Enterprise tour.
+    \[Omitted image "tour\_image.png"\] Alt text: The Column Level Encryption tour.
 
 
 **Parent Topic:**[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md)

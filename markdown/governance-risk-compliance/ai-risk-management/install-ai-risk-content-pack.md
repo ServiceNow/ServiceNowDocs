@@ -1,84 +1,75 @@
 ---
-title: Install AI Risk and Compliance Content
-description: You can install the AI Risk and Compliance Content application \(sn\_grc\_ai\_gov\_cont\) if you have the admin role. This application is a centralized repository of frameworks, citations, control objectives, risk statements, and assessment templates. Using this application accelerates customers an operational head-start when adopting various regulations and frameworks.
+title: Install AI Risk and Compliance content
+description: Install the AI Risk and Compliance content application \(sn\_grc\_ai\_gov\_cont\) to add predefined governance content such as frameworks, authority documents, control objectives, and risk statements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content pack, Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Install AI Risk and Compliance Content
+# Install AI Risk and Compliance content
 
-You can install the AI Risk and Compliance Content application \(sn\_grc\_ai\_gov\_cont\) if you have the admin role. This application is a centralized repository of frameworks, citations, control objectives, risk statements, and assessment templates. Using this application accelerates customers an operational head-start when adopting various regulations and frameworks.
-
-## Disclaimer
-
-**Important:** The pre-packaged content included in this product is provided solely for informational and guidance purposes to assist with the initial setup of AI Risk &amp; Compliance frameworks. It does not constitute legal advice or assurance of regulatory compliance. Customers are solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions. By using this content, the Customer acknowledges that it must independently validate, customize, and maintain the accuracy and relevance of all information based on its specific legal, regulatory, and operational context. The provider disclaims any liability for decisions made based on the use of such content.
+Install the AI Risk and Compliance content application \(sn\_grc\_ai\_gov\_cont\) to add predefined governance content such as frameworks, authority documents, control objectives, and risk statements.
 
 ## Before you begin
+
+Install the AI Risk and Compliance product before installing the AI Risk and Compliance content application.
+
+**Important:** The pre-packaged content included with this product is provided for informational and guidance purposes only to support initial setup of AI Risk and Compliance. The content does not constitute legal advice or assurance of regulatory compliance. Customers are responsible for validating, customizing, and maintaining the content to help ensure alignment with applicable laws, regulations, and organizational requirements.
 
 Role required: admin
 
 ## About this task
 
-The AI Risk and Compliance Content application installs the predefined library of frameworks such as NIST AI Risk Management Framework and the EU Artificial Intelligence Act to initiate operational activities for the enterprise:
+The AI Risk and Compliance content application installs a predefined library of governance content that you can use to configure AI Risk and Compliance workflows.
+
+The installed content includes:
 
 -   Agencies
--   Authority Documents
+-   Authority documents
 -   Citations
--   Control Objectives
--   Risk Statements
--   AI Assessment Templates
+-   Control objectives
+-   Risk statements
 
-The following applications are also installed with AI Risk and Compliance Content:
+Review and configure all installed content to align with your organization’s policies and applicable regulatory requirements.
 
--   360 degree relationship visualization \(sn\_grc\_36-degree\)
--   AI Control Tower Core \(sn\_ai\_governance\)
--   AI Risk and Compliance Management \(sn\_grc\_ai\_gov\)
--   Data Foundation Model \(sn\_cmdb\_foundation\)
--   Data registry \(sn\_data\_registry\)
--   Data grid UI Component \(sn\_datagrid\)
--   GRC Feature Roles \(sn\_grc\_ftr\_role\)
--   Document Templates \(sn\_doc\)
--   GRC: Common Workspace Elements \(sn\_grc\_workspace\)
--   GRC: Approver Configurator \(sn\_grc\_appr\)
--   GRC: Policy and Compliance \(sn\_compliance\)
--   GRC: Risk Heatmap \(sn\_risk\_heatmap\)
--   GRC: Profiles \(sn\_grc\)
--   GRC: Risk Management \(sn\_risk\)
--   GRC: taxonomy management \(sn\_grc\_taxonomy\)
--   GRC: Risk Shared Common Components \(sn\_irm\_shared\_cmn\)
--   Regulatory Agency Library \(sn\_reg\_body\_mgmt\)
--   Post Assessment Actions for Smart Assessments \(sn\_smart\_imp\_auto\)
--   Record - Vertical \(sn\_rec\_pg\_vertical\)
--   Smart Assessment Core \(sn\_smart\_asmt\)
--   sn-reusable-impact-framework \(sn\_impact\_fwk\)
--   sn-smart-assessment-designer \(sn\_smart\_asmt\_desg\)
--   sn-smart-assessment-connected \(sn\_smart\_asmt\_conn\)
--   Workspace Inspector \(sn\_inspector\)
--   SPM Common UI Component \(sn\_spm\_com\_ui\_comp\)
+Related applications, such as AI Risk Management \(sn\_grc\_ai\_gov\), are installed automatically as dependencies.
 
 ## Procedure
 
-1.  Find the AI Risk and Compliance Content application \(sn\_grc\_ai\_gov\_cont\) using the filter criteria and search bar.
+1.  Navigate to **All** &gt; **System Applications** &gt; **All** and locate the AI Risk and Compliance content application \(sn\_grc\_ai\_gov\_cont\).
 
-    You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
+    Search by application name or application ID. If the application is not available, request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you’re displayed.
+    Available versions appear next to the **Install** button.
 
 2.  Select **Install**.
 
 
 ## Result
 
-The AI Risk and Compliance content pack is installed.
+The AI Risk and Compliance content application is installed.
 
 ## What to do next
 
-[Verify AI Risk and Compliance Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/verify-content.md)
+Verify that the content is available and ready to use:
+
+1.  Navigate to **All** &gt; **Plugins** and confirm that required plugins are active.
+2.  In Application Manager, search for the installed applications and confirm that the AI Risk and Compliance content application and related management applications are present.
+
+**Related topics**  
+
+
+[Install AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/install-ai-risk-and-compliance.md)
+
+[Activate or update NIST Risk Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)
+
+[Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)
+
+[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
 

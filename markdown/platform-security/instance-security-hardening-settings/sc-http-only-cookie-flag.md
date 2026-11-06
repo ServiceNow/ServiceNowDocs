@@ -1,5 +1,5 @@
 ---
-title: Enable HTTP Only Cookie Flag \[Updated in Security Center 1.3\]
+title: Enable HTTP Only Cookie Flag
 description: Use the glide.cookies.http\_only property to enable the HTTPOnly attribute for sensitive cookies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-http-only-cookie-flag.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Enable HTTP Only Cookie Flag \[Updated in Security Center 1.3\]
+# Enable HTTP Only Cookie Flag
 
 Use the **glide.cookies.http\_only** property to enable the HTTPOnly attribute for sensitive cookies.
 
-Use the HTTPOnly attribute to prevent attacks, such as cross-site scripting, because it doesn't allow access to the cookie using a client-side script, such as JavaScript. It does not eliminate cross site scripting risks but does eliminate some exploitation vectors.
+If the **glide.cookies.http\_only** system property is not set to the recommended value of **true**, then the instance does not require the HTTPOnly attribute for sensitive cookies.
+
+Ensure that the property **glide.cookies.http\_only** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -32,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -48,19 +50,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To mitigate the risk of client-side script accessing the protected cookie.
+Boolean
 
 </td></tr><tr><td>
 
@@ -80,20 +74,19 @@ true
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-8
+true
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-This remediation adds an extra HTTPOnly flag in on session cookies, thus protecting them from being stolen. -   If you have custom functionality that requires JavaScript to access the user's cookie, it breaks that functionality. It should not be the case under normal circumstances.
--   The ServiceNow AI Platform handles session management and there shouldn't be a reason for a custom script to access the user's cookies.
+[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
 
 </td></tr><tr><td>
 
@@ -101,18 +94,28 @@ Security risk
 
 </td><td>
 
-\(Moderate\) Session cookies in the application authenticate an end user and provide implicit access permissions on the application. That means there is a need to secure them from being stolen or exported. HTTP Only flags protect the session cookies from JavaScript injections or cross site scripting vulnerabilities stealing them.
+-   Severity score: 8.0
+-   CVSS rating: High
+-   Security risk details: The HTTPOnly attribute is used to prevent attacks, such as cross-site scripting, because it doesn't allow access to the cookie using a client-side script, such as JavaScript.
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md)
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)
 

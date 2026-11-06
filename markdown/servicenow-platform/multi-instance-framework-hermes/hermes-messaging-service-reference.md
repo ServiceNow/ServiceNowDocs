@@ -7,7 +7,7 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Reference topics provide details on the Hermes Messaging Service components and 
 The Hermes Messaging Service architecture is built on the following components.
 -   **[Hermes Messaging Service security model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-security-model.md)**  
 The Hermes Messaging Service security model relies on the following capabilities.
--   **[Hermes Messaging Service properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md)**  
+-   **[Hermes Messaging Service system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md)**  
 These system properties control the behavior of the Hermes Messaging Service.
 -   **[Hermes Messaging Service roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-roles.md)**  
 Hermes Messaging Service is installed with these roles.

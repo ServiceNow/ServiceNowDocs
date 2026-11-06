@@ -1,5 +1,5 @@
 ---
-title: Compliance Home page for the compliance analyst
+title: Compliance Home page for the Compliance Analyst
 description: The compliance analyst home page in the Compliance Workspace enables the compliance analyst to track compliance activities and helps compliance managers to ensure that the organization is compliant with various regulations and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.html
@@ -7,18 +7,18 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [GRC Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Compliance Workspace, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Compliance Home page for the compliance analyst
+# Compliance Home page for the Compliance Analyst
 
 The compliance analyst home page in the Compliance Workspace enables the compliance analyst to track compliance activities and helps compliance managers to ensure that the organization is compliant with various regulations and policies.
 
 ## Responsibilities of a compliance analyst
 
-The compliance analysts oversee specific areas of compliance including specific policies, regulations, and related compliance activities. Therefore, the filter option help them to filter the compliance records based on the required criteria. They can view and work on the tasks that they are assigned to.
+The compliance analysts oversee specific areas of compliance including specific policies, regulations, and related compliance activities. Therefore, the filter option help them to filter the compliance records based on the required criteria.
 
 -   Analyze and update the existing policies and related documents.
 -   Implement policies and controls when assigned.
@@ -58,10 +58,6 @@ The compliance analyst Home page provides a personalized experience for a corpor
     Provides a summary of important and open tasks and exceptions and helps the analyst to manage policy exceptions. Since the analyst is required to understand the policy exceptions created on the policies that is assigned to them, they can apply the filter on the required policies and view the exceptions created on these policies. Similarly, the analyst can select specific policies to view its campaign details.
 
     **Note:** To track the issues the compliance analyst can access the issue details from the "Issues Overview" section.
-
--   **Tasks**
-
-    Provides a summary of My pending tasks and My group's tasks – the job queue directs their day-to-day activities.
 
 -   **Quick links**
 

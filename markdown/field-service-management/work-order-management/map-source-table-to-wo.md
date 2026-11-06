@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring data mapping, Configuring Template Management for Field Service, Configuring work orders, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure data mapping, Template Management, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create field mapping from a source table to a work order
@@ -20,7 +20,7 @@ Create a table map to configure the fields that are copied from a source table t
 
 You must activate the Template Management for Field Service plugin \(com.snc.fsm\_template\_management\).
 
-Role required: admin
+Role required: wm\_admin
 
 ## About this task
 

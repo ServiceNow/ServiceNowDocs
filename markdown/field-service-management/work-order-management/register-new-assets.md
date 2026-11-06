@@ -1,20 +1,20 @@
 ---
 title: Register new assets
-description: Register new assets that are supported for customers and have not been registered previously using the Now Mobile Agent application.
+description: Register new assets that are supported for customers and have not been registered previously using the ServiceNow Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/register-new-assets.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Register new assets
 
-Register new assets that are supported for customers and have not been registered previously using the Now Mobile Agent application.
+Register new assets that are supported for customers and have not been registered previously using the ServiceNow Agent application.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: asset
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **Inventory**.
 
@@ -50,6 +50,4 @@ Role required: asset
 
     The Register Assets form is updated with the latest count and other related information.
 
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

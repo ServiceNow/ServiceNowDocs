@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/components-installed-pss.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Customer Contracts and Entitlements, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Customer Contracts and Entitlements, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Components installed with Customer Contracts and Entitlements
@@ -38,7 +38,7 @@ sn\_pss\_core.service\_contract\_viewerService contract viewer
 
 </td><td>
 
-Performs read operation on:-   Service contracts
+Performs read operation on:-   customer contracts
 -   Contract lines
 -   Entitlements
 -   Characteristics
@@ -76,7 +76,7 @@ sn\_pss\_core.service\_contract\_managerService contract manager
 
 </td><td>
 
-Performs create/read/update operations on: -   Service contracts
+Performs create/read/update operations on: -   Customer contracts
 -   Contract lines
 -   Entitlements
 -   Characteristics
@@ -96,7 +96,7 @@ sn\_pss\_core.pss\_integratorIntegration user
 
 </td><td>
 
-Performs create/read operations by using rest endpoints on service contracts and entitlements.
+Performs create/read operations by using rest endpoints on customer contracts and entitlements.
 
 </td><td>
 
@@ -123,7 +123,7 @@ Characteristics\[sn\_pss\_core\_entitlement\_characteristic\]
 
 </td><td>
 
-Stores the characteristic values for entitlements or service contract lines.
+Stores the characteristic values for entitlements or customer contract lines.
 
 </td></tr><tr><td>
 
@@ -155,5 +155,5 @@ Stores the runtime contract lines like a service plan.
 -   [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md)
 -   [Assign a role to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignRoleToGroup.md)
 
-The default view on service contracts and entitlements in Customer Service Management workspace is Service Contract Workspace view. It can be changed by an administrator.
+The default view on customer contracts and entitlements in Customer Service Management workspace is Service Contract Workspace view. It can be changed by an administrator.
 

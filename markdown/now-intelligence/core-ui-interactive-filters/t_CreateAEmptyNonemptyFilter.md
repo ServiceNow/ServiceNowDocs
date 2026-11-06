@@ -7,7 +7,7 @@ release: yokohama
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2026-01-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating Interactive Filters, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ You can create a Boolean interactive filter that lets users filter report widget
 
 ## Before you begin
 
-Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience.
+Role required: hp\_publisher\_admin and report\_admin. The hp\_publisher\_admin role exists only for managing interactive filters in Core UI. By default, it contains the role analytics\_filter\_admin for managing Core UI filters that are migrated to Platform Analytics experience. It isn't possible to create Core UI interactive filters in net new instances from Yokohama forward.
 
 **Note:** If the interactive filter has a default value or specifies the last selected value, non-responsive dashboards do not apply this value automatically. This feature is only available on [Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
 
@@ -28,7 +28,7 @@ Create this filter for a field where **Yes** filters for records where the speci
 
 ## Procedure
 
-1.  Navigate to **sys\_ui\_hp\_publisher.list**.
+1.  Navigate to **All** &gt; **Performance Analytics Administration** &gt; **Core UI Artifacts** &gt; **Interactive Filters**.
 
 2.  Select **New**.
 

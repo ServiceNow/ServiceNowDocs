@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Google Maps API keys, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Google Maps, Set up workforce, Configure, Field Service Management]
 ---
 
 # Google Maps APIs for Field Service capabilities

@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Deploying replication configuration, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -45,15 +45,15 @@ You can copy a replication configuration from one instance to another using an u
     -   Producer replication \(one-way\)
     -   Producer replication with bi-directional replication
     -   Producer replication with discrete replication
-<table id="choicetable_ap2_cnm_3yb"><thead><tr><th align="left" id="d467906e143">
+<table id="choicetable_ap2_cnm_3yb"><thead><tr><th align="left" id="d474781e143">
 
 Option
 
-</th><th align="left" id="d467906e146">
+</th><th align="left" id="d474781e146">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d467906e152">
+</th></tr></thead><tbody><tr><td id="d474781e152">
 
 **Capture a producer replication configuration**
 
@@ -65,7 +65,7 @@ Steps
 4.  Capture the replication configuration by selecting **Track in Update Set**.
 
 
-</td></tr><tr><td id="d467906e194">
+</td></tr><tr><td id="d474781e194">
 
 **Capture a consumer replication configuration**
 
@@ -131,15 +131,15 @@ Steps
 
 6.  On the target instance, perform the following steps based on the type of replication set that you want to set up.
 
-<table id="choicetable_i5p_kyv_hyb"><thead><tr><th align="left" id="d467906e472">
+<table id="choicetable_i5p_kyv_hyb"><thead><tr><th align="left" id="d474781e472">
 
 Type of replication
 
-</th><th align="left" id="d467906e475">
+</th><th align="left" id="d474781e475">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d467906e481">
+</th></tr></thead><tbody><tr><td id="d474781e481">
 
 **Producer replication**
 
@@ -150,7 +150,7 @@ Steps
 3.  Select **Activate**.
 
 
-</td></tr><tr><td id="d467906e517">
+</td></tr><tr><td id="d474781e517">
 
 **Consumer replication**
 
@@ -162,7 +162,7 @@ Steps
 4.  Select **Update**.
 
 
-</td></tr><tr><td id="d467906e562">
+</td></tr><tr><td id="d474781e562">
 
 **Bi-directional replication**
 
@@ -176,7 +176,7 @@ Steps
 6.  Select **Submit**.
 
 
-</td></tr><tr><td id="d467906e620">
+</td></tr><tr><td id="d474781e620">
 
 **Discrete replication**
 

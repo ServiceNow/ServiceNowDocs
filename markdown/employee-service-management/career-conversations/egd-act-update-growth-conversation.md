@@ -1,5 +1,5 @@
 ---
-title: Update a growth conversation
+title: Update a growth conversation in Career Conversations
 description: Use the Career Conversations app to update the agenda for an upcoming conversation with your employee or manager. Center the focus of the discussion around the employee's growth and development as a professional within your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/career-conversations/egd-act-update-growth-conversation.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using the Career Conversations application, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Update a growth conversation
+# Update a growth conversation in Career Conversations
 
 Use the Career Conversations app to update the agenda for an upcoming conversation with your employee or manager. Center the focus of the discussion around the employee's growth and development as a professional within your organization.
 
@@ -35,15 +35,15 @@ Role required: employee \[sn\_egd\_act.employee\] or manager \[sn\_egd\_act.mana
 
 3.  Use the widget that corresponds to your role within your organization to select the conversation that you want to update.
 
-<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d107904e143">
+<table id="choicetable_k4c_xgc_xzb"><thead><tr><th align="left" id="d112872e155">
 
 Role
 
-</th><th align="left" id="d107904e146">
+</th><th align="left" id="d112872e158">
 
 Widget
 
-</th></tr></thead><tbody><tr><td id="d107904e152">
+</th></tr></thead><tbody><tr><td id="d112872e164">
 
 **Employee**
 
@@ -51,7 +51,7 @@ Widget
 
 Your conversations
 
-</td></tr><tr><td id="d107904e161">
+</td></tr><tr><td id="d112872e173">
 
 **Manager**
 

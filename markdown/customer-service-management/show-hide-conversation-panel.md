@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/show-hide-conversation-panel.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Interaction Controls Component \(ICC\) call interaction features, Integrating contact centers with Interaction Controls Component \(ICC\) for voice calls, Integrating with contact centers, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Enable ICC for CCaaS calls and callbacks, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Show or hide the conversation panel

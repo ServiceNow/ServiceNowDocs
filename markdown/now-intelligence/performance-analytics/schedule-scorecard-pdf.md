@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Schedule the export and distribution of an indicator
@@ -20,11 +20,17 @@ Schedule an indicator to automate its distribution.
 
 This feature requires the licensed version of [Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md).
 
+**Note:** This feature currently does not support Data snapshots indicators.
+
 Role required: pa\_power\_user, pa\_admin, or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Scheduled Indicators** and create a new record.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Schedules** &gt; **Scheduled Indicators**.
+
+2.  Select **New**.
+
+3.  Complete the form as follows:
 
 <table id="table_nys_fdc_p1b"><thead><tr><th>
 

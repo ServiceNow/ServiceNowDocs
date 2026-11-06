@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset Management, IT Service Management]
+breadcrumb: [Asset Management common applications, IT Service Management]
 ---
 
 # Contract Management
@@ -34,6 +34,8 @@ If you are using the Software Asset Management plugin, use the Software Licenses
 You can view information about your contract status in the Contract Management Overview module.
 -   **[Components installed with Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/r_ComponentsInstalledWContractMgmt.md)**  
 Several types of components are installed with Contract Management.
+-   **[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/contract-approval-workflow.md)**  
+Use the Contract Approval flow to get approval from the approver defined in the contract. You can edit the existing flow or create a flow in the graphical Workflow Studio to meet your organization's contract approval process.
 -   **[Contract Management use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/c_UseContractManagement.md)**  
 Users with the contract\_manager role can use the Contract Management application to create various types of contracts, such as leases, warranties, maintenance, and service.
 -   **[Condition check definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/c_UseConditionCheckDefinitions.md)**  
@@ -41,7 +43,7 @@ Condition check definitions enable you to define logical conditions that indicat
 -   **[Domain separation and Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/domain-separation-contract-mgmt.md)**  
 Domain separation is unsupported in Contract Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/asset-management/c_AssetManagement.md)
+**Parent Topic:**[Asset Management common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/asset-management-core.md)
 
 **Related topics**  
 

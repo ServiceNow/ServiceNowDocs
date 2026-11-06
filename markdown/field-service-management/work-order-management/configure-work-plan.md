@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Configuring work plans, Configuring Planned Work Management, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Configure work plans, Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configure a work schedule
@@ -20,21 +20,13 @@ After creating a work plan, it’s important to define specific criteria to dete
 
 Role required: sn\_fsm\_planned\_wm.planned\_work\_admin and model\_manager
 
-You must create a work plan before configuring a work schedule for the plan.
+Create a work plan before configuring a work schedule for the plan.
 
 ## About this task
 
-You can create a single schedule or multiple schedules. For example, you can set up schedules for a class of computer to be rebooted on the first and 15th of every month.
+You can create a single schedule or multiple schedules for a work plan. For example, a flexible work schedule can be created for multiple assets that belong to the same work plan based on their installation date.
 
 **Note:** Plan carefully when defining multiple work schedules for the same plan. For example, you set up one schedule to replace a printer cartridge every three months. You set up another schedule to replace the cartridge after every 10,000 pages is printed. This conflict could cause the cartridge to be replaced twice in the same week. Ensure that your schedules don’t conflict with one another.
-
-Work schedules can be based on either duration or meter and can be triggered by the first occurring related condition. For example, on the Planned Work Schedule form, select **Duration or Meter** as the trigger for an automobile maintenance schedule and then define the duration as six months and the meter as 10,000 miles. The schedule is triggered by whichever comes first. With the **Duration or Meter** trigger selected, the **Next run time** and **Next run value** fields are populated in the **Planned Work Records** related list on the Work Plan form.
-
-**Note:** In a work plan record, the timestamp displayed in the **Next run time** field isn’t the same as the time set for executing the planned work. The **Next action** field in the **Planned Maintenance Nightly Run** record displays the actual scheduled job execution time for the planned work.
-
-When the scheduled job runs, it checks whether the value in the **Next run time** field is less than the time set for the next planned work nightly run job and if it is, the system generates a request. A planned nightly maintenance isn’t executed and a request isn’t generated based on the next run time.
-
-A flexible work schedule can be created for multiple assets that belong to the same work plan based on their installation date. For example, on the Planned Work Schedule form, select **Field Value** as the start planned schedule based on, for multiple assets and then select **Installed** as the effective start reference. The schedule identifies the starting date of the planned work record based on the installation date of the assets that are associated with the work plan. With the **Field Value** start planned schedule based on selected, the **Next run time** field is populated in the **Planned Work Records** related list on the Work Plan form.
 
 You can also create planned work schedules through the Planned Work Management Workspace. Navigate to **All** &gt; **Planned Work Management** &gt; **Workspace**, and then select the **List** icon \(\[Omitted image "ListIcon.png"\] Alt text: List icon.\).
 
@@ -84,6 +76,9 @@ Timing condition that triggers the execution of the plan. -   **Duration:** work
 -   **Script:** Apply advanced criteria for running a maintenance plan. The **Script** field appears.
 -   **Duration or Meter:** Maintenance to be performed based on both time and count, whichever comes first. You must specify the duration and meter details.
 
+With the Duration or Meter trigger selected, the **Next run time** and **Next run value** fields are populated in the Planned Work Records related list on the Work Plan form.
+
+For more information on triggers and examples, see [Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-trigger-types.md)
 
 </td></tr><tr><td>
 
@@ -258,6 +253,12 @@ Start planned schedule based on
 Option based on which the planned work schedule should determine its start date.-   Date
 -   Field Value
 -   Schedule
+-   Calculated
+
+**Note:**
+
+    -   Configure the extension point sn\_fsm\_planned\_wm.PWMScheduleStartExtensionPoint to calculate the start date for the work schedule.
+    -   For calculated work schedules, schedule occurrences are not automatically updated if changes are made to the extension point implementation after the schedule occurrence has been created.
 
 
 </td></tr><tr><td>
@@ -311,5 +312,5 @@ Determine how often the planned work is scheduled to be performed. For example, 
 
 The schedule is created for a work plan. The Schedule Occurrences related list is added to the schedule to track the occurrence of maintenance cycles for the schedule.
 
-The schedule occurrences are created automatically for duration-based schedules. However, if a different trigger option is selected for a schedule, the occurrence is created only when the specified condition or meter value is met. The creations of schedule occurrences depend on the effective end date. If no effective end date is specified, the application generates the next occurrence of the schedule.
+The schedule occurrences are created automatically for duration-based schedules. However, if a different trigger option is selected for a schedule, the occurrence is created only when the specified condition or meter value is met. The creations of schedule occurrences depend on the effective end date. If no effective end date is specified, the application generates the next occurrence of the schedule. For more information, see [View schedule occurrences for a planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/view-schedule-occurrences-for-a-planned-work.md).
 

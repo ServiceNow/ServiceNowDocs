@@ -7,16 +7,19 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Adobe, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic
 
 View compliance analysis results related to Microsoft Office 365 and Adobe Cloud License Management in Software Asset Management classic.
 
-**Note:** The Office 365 &amp; Adobe Cloud dashboard is no longer available for new Yokohama users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Yokohama without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Yokohama. If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Yokohama but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard. If you activated the workspace plugin \(before or after upgrading to Yokohama, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
+**Note:** The Office 365 &amp; Adobe Cloud dashboard is no longer available for new Brazil users who have activated the Software Asset Management Professional \(com.snc.samp\) plugin or upgraded to Brazil without activating the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil.
+
+-   If you activated the Software Asset Management Professional \(com.snc.samp\) plugin prior to Brazil but didn't activate the Workspace plugin \(com.sn\_sam\_workspace\), you have access to this dashboard.
+-   If you activated the Software Asset Workspace \(sn\_sam\_workspace\) store application after upgrading to Brazil, you won’t be able to access this dashboard from the **Software Asset** navigation menu in your instance. You can however access this dashboard from the **Dashboards** navigation menu.
 
 Access the dashboard by navigating to **All** &gt; **Software Asset** &gt; **Office 365 &amp; Adobe Cloud**.
 
@@ -46,10 +49,6 @@ Only Adobe software products that are recognized as subscription software are sh
 
     User Name \| Email ID \| Subscription Name \| Subscription Cost \| List of devices assigned to users \| List of Adobe suite of products \| Last Access Time
 
-
-## SaaS subscription reports
-
-\[Omitted image "SAMDash365.png"\] Alt text:
 
 **Parent Topic:**[Software Asset Management publisher pack for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/adobe-publisher-pack.md)
 

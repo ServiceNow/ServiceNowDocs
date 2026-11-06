@@ -1,16 +1,24 @@
 ---
-title: MCO core features
-description: Manufacturing Commercial Operations Manufacturing Commercial Operations \(MCO\) features enables you to raise sale promotion and recall campaign and raise claim requests for repair.
+title: Manufacturing Commercial Operations core features
+description: Manufacturing Commercial Operations \(MCO\) enables you to manage sales promotions, recall campaigns, warranty and repair claims, and pre-authorization requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/manufacturing-commercial-operations-core-features.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+keywords: [sales promotion, recall campaign, warranty claims, repair claims, pre-authorization]
+breadcrumb: [Explore, Manufacturing Commercial Operations]
 ---
 
-# MCO core features
+# Manufacturing Commercial Operations core features
 
-Manufacturing Commercial Operations Manufacturing Commercial Operations \(MCO\) features enables you to raise sale promotion and recall campaign and raise claim requests for repair.
+Manufacturing Commercial Operations \(MCO\) enables you to manage sales promotions, recall campaigns, warranty and repair claims, and pre-authorization requests.
+
+|Features|Description|
+|--------|-----------|
+|[Sales promotion claims](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sls-prom-clms.md)|Create and manage sales promotions to reach customers with targeted offers and campaigns.|
+|[Recall campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rcl-clms.md)|Initiate and manage recall campaigns to address product defects or issues after distribution.|
+|[Repair claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-warranty-clms.md)|Process warranty and repair claims by documenting customer-reported issues and managing reimbursement requests from dealers.|
+|[Pre-authorization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-pre-auth-request.md)|Request pre-authorization to obtain approval before initiating repair or warranty claim activities.|
 

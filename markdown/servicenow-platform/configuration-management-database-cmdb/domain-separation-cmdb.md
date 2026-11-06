@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CMDB reference, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Domain separation and Configuration Management Database \(CMDB\)
@@ -27,14 +27,14 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Overview of domain separation in CMDB
 
 The following topics provide details about domain separation in Configuration Management \(CMDB\) modules:
 
 -   [Domain separation in CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-domain-separation.md)
 -   [Domain separation and CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-groups-query-builder.md)
 -   [Domain separation and CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-identification-reconciliation.md)
--   [Domain separation and the relations formatter and the CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)
+-   [Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)
 -   [CMDB APIs \(CMDB SDK\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-APIs.md)
 
 **Related topics**  

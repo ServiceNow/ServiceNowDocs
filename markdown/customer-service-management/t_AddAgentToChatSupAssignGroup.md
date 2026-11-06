@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AddAgentToChatSupAssignGroup.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Agent management, Use, Customer Service Management]
 ---
 
 # Add an agent to the chat support assignment group

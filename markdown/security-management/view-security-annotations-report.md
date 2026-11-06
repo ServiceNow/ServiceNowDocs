@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/view-security-annotations-report.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Security annotations, Security Operations common functionality, Security Operations]
 ---
@@ -23,8 +23,6 @@ Role required: admin
 1.  Navigate to **All** &gt; **Reports** &gt; **View/Run**.
 
 2.  Search for Security Annotations under **My reports** or **All.**
-
-    \[Omitted image "SecurityAnnotationsReport.png"\] Alt text: Security annotations report
 
 
 **Parent Topic:**[Security annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-annotations.md)

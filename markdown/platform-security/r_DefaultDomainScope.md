@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/r\_DefaultDomainScope.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Domain separation setup and administration, Domain separation for service providers, Access Management]
+breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
 
 # Domain system properties and user preferences
@@ -54,7 +54,7 @@ Restricts domain scope to the record's domain for all data.-   Type: true \| fal
 -   **glide.sys.domain.domain\_change\_notify**
 -   **glide.sys.domain.no\_change\_roles**
 
-For a full list of properties see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+For a full list of properties see Available system properties.
 
 **Note:**
 

@@ -1,26 +1,26 @@
 ---
 title: Setup for Crisis map
-description: The BCM administrator can perform the administrative tasks to set up the Crisis map interface.
+description: BCM administrators perform the administrative tasks to set up the Crisis map interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-admin-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Setup for Crisis map
 
-The BCM administrator can perform the administrative tasks to set up the Crisis map interface.
+BCM administrators perform the administrative tasks to set up the Crisis map interface.
 
-The BCM administrator performs the administrative tasks to set up the threat alerts and data feeds in Crisis map. The administrative tasks are displayed under **Administration** in the **Threat and Alert Data Feeds** module as shown in the following example.
+BCM administrators perform the administrative tasks to set up the threat alerts and data feeds in Crisis map. The administrative tasks are displayed under **Administration** in the **Threat and Alert Data Feeds** module as shown in the example.
 
-**Note:** Prior to enabling the Crisis Map feature, ensure that you have purchased and set up Google Maps API.
+**Note:** Prior to enabling the Crisis Map feature, verify that you have purchased and set up Google Maps API.
 
 \[Omitted image "threat-alert-data-feeds-admin-tasks.png"\] Alt text: Threat alerts and data feeds.
 
-If you have the BCM administrator role, perform the following administrative tasks to set up the Crisis map:
+With the BCM administrator role, you can perform the administrative tasks to set up the Crisis map:
 
 -   **Scheduled Imports**: Configure a Scheduled Data Imports record for the Crisis map application. For more information, see [Configure Scheduled Data Imports records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/sched-data-imports-crisis-map-uib-ws.md).
 -   **Resource Configuration**: Configure a Resource Configuration record for the Crisis map application. For more information, see [Configure Resource Configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/conf-resource-for-crisis-map-uib-ws.md).

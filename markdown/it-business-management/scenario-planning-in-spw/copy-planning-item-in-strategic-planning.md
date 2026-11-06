@@ -1,5 +1,5 @@
 ---
-title: Duplicate a planning item in Strategic Planning
+title: Duplicate a planning item
 description: Create a copy of an existing planning item to add it to your portfolio plan's work backlog in Strategic Planning Workspace and ensure that the work pipeline is current. If the planning item you want to create is similar to an existing planning item, duplicating the existing planning item saves your time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/copy-planning-item-in-strategic-planning.html
@@ -7,24 +7,24 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Duplicate a planning item in Strategic Planning
+# Duplicate a planning item
 
 Create a copy of an existing planning item to add it to your portfolio plan's work backlog in Strategic Planning Workspace and ensure that the work pipeline is current. If the planning item you want to create is similar to an existing planning item, duplicating the existing planning item saves your time.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Use the Prioritization page of your portfolio plan to add new planning items or import them from other ServiceNow execution system such as PPM, Agile Development 2.0, or SAFe.
+Use the Prioritization tab of your portfolio plan to add new planning items or import them from other ServiceNow execution system such as PPM, Agile Development 2.0, or SAFe.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Use the Prioritization page of your portfolio plan to add new planning items or 
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the Prioritization page, select **List** view.
+3.  From the Planning page, select **Prioritization** tab.
 
 4.  Select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon.\) of the planning item that you want to copy and then select **Duplicate**.
 
@@ -47,7 +47,7 @@ Use the Prioritization page of your portfolio plan to add new planning items or 
 
 ## What to do next
 
--   [Rank planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md).
--   [Update planning item details from Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
--   Learn about [Personalizing Prioritization page views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+-   [Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md).
+-   [Update planning item details from Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
+-   Learn about [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Enable daily data collection for Agile 2.0 dashboards

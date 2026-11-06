@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/adv-algorithm-cleent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -20,11 +20,15 @@ Role required: admin
 
 ## Procedure
 
-1.  On the **Crypto Specifications \(\#\)** tab, click **New**.
+1.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** tab, click **New**.
 
-    \[Omitted image "new-crypto-spec.png"\] Alt text: Crypto Specifications tab.
+2.  Select **View module details** from the **Field Encryption overview** to open the module record you want to configure.
 
-2.  On the form, fill in the fields.
+3.  Select **Manage Specification Settings** in the **Cryptographic Specification** section.\[Omitted image "fe-manage-spec-settings.png"\] Alt text: Manage Specification Settings button.
+
+4.  Select **Back** to navigate to the **Algorithm Definition** tab.
+
+5.  On the form, fill in the fields, selecting **Next** through each tab.
 
 <table id="table_ff2_jwq_fqb"><thead><tr><th>
 
@@ -97,11 +101,11 @@ Integrity
 Option to provide Integrity in GCM operation and does not apply for Field Encryption Enterprise functionality.
 
 </td></tr></tbody>
-</table>3.  Click **Submit**.
+</table>6.  Click **Submit**.
 
-    The following example shows AES CBC-256 encryption. When Field Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES CBC-256 applies as the crypto purpose. See [Cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
+    The following example shows AES 256 CBC encryption. When Field Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES 256 CBC applies as the crypto purpose. See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
-    \[Omitted image "algorithm-definition.png"\] Alt text: Shows the AES-CBC-256 encryption configuration options.
+    \[Omitted image "fe-crypto-module-def.png"\] Alt text: Shows the AES 256 CBC encryption configuration options.
 
 
 ## What to do next

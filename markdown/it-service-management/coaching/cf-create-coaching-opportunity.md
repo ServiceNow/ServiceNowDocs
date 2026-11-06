@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Coaching, Coaching, IT Service Management]
+breadcrumb: [Configure, Coaching, IT Service Management]
 ---
 
 # Define trigger conditions for a coaching opportunity
@@ -28,25 +28,25 @@ When the triggered conditions defined in a coaching opportunity are met, an asse
 
 1.  Create a coaching opportunity using the guided setup or by using the application navigator.
 
-<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d405098e68">
+<table id="choicetable_wfs_345_4lb"><thead><tr><th align="left" id="d329092e68">
 
 To create using
 
-</th><th align="left" id="d405098e71">
+</th><th align="left" id="d329092e71">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d405098e77">
+</th></tr></thead><tbody><tr><td id="d329092e77">
 
 **Guided setup**
 
 </td><td>
 
 1.  Navigate to **Continual Improvement** &gt; **Administration** &gt; **Guided Setup**.
-2.  Go to the **Add a Coaching Opportunity** section and click **Configure**.
+2.  Go to the **Add a Coaching Opportunity** section and select **Configure**.
 
 
-</td></tr><tr><td id="d405098e113">
+</td></tr><tr><td id="d329092e113">
 
 **The Application navigator**
 
@@ -55,7 +55,7 @@ Do this
 Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
 </td></tr></tbody>
-</table>2.  Click **New**.
+</table>2.  Select **New**.
 
 3.  Fill in the fields on the Coaching Opportunity form.
 
@@ -71,7 +71,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
         -   To select the assignment group manager as the coach for the selected task record, enable the **Specify coach user** check box and select the coach user from the selected table.
     5.  Add the condition for the critical moment in the **Trigger** fields.
 
-        See [Common ITSM assessment triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-overview.md) for examples.
+        See [Common ITSM assessment triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-overview.md) for examples.
 
 4.  Fill in the fields in the **Snapshot Settings** tab.
 
@@ -85,9 +85,9 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
     1.  To limit the number of coaching assessments generated, set the **Random sample \(%\)** to a percentage of the total number.
 
-        If you reduce the random sample size, you can prevent certain trainees from being excluded by specifying **Users who should be coached on every opportunity**. For example, you may want new employees to be coached every time.
+        If you reduce the random sample size, you can avoid certain trainees from being excluded by specifying **Users who should be coached on every opportunity**. For example, you may want new employees to be coached every time.
 
-    2.  Specify the **Assessment duration** after which the coaching assessment is set to **Closed Complete** state.
+    2.  Specify the **Assessment duration** after which the coaching assessment is set to **Closed Incomplete** state.
 
         You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
 
@@ -107,7 +107,7 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 
         **Note:** You can set strategic objectives by navigating to **Continual Improvement** &gt; **Strategy Objectives**.
 
-        You can add [assigned trainings and virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md) items to the related lists, if applicable, to complete the coaching opportunity.
+        You can add [assigned trainings and virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-identify-learning-content.md) items to the related lists, if applicable, to complete the coaching opportunity.
 
 
 ## Coaching admin defines a trigger condition
@@ -144,5 +144,5 @@ Navigate to **Coaching** &gt; **Coaching Opportunities**.
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

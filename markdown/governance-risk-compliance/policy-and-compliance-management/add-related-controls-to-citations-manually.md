@@ -1,20 +1,20 @@
 ---
 title: Add related controls to a citation manually
-description: Enable the Citation to Control Mapping feature for more accurate compliance scoring and management.
+description: Add related controls to a citation manually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/add-related-controls-to-citations-manually.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Association of citations to controls, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Association of citations to controls, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Add related controls to a citation manually
 
-Enable the Citation to Control Mapping feature for more accurate compliance scoring and management.
+Add related controls to a citation manually.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Role required: Compliance Manager \(sn\_compliance\_ws.corporate\_compliance\_ma
 
 4.  Select the citation where you want to associate additional controls.
 
-5.  In the Citation page, navigate to the Controls tab, and select **Add**.
+5.  In the Citation page, navigate to the **Controls** tab, and select **Add**.
 
     The Controls available for associations displays only the eligible controls that can be associated to the citation:
 
@@ -41,5 +41,5 @@ Role required: Compliance Manager \(sn\_compliance\_ws.corporate\_compliance\_ma
 
 ## Result
 
-The new controls now appear in the Controls tab. And the Compliance score for the citation is automatically recalculated.
+The new controls now appear in the **Controls** tab. And the Compliance score for the citation is automatically recalculated.
 

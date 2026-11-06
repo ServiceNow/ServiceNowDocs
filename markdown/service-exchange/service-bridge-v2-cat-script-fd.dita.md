@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange reference, Service Exchange]
+breadcrumb: [Reference, Service Exchange]
 ---
 
 # Catalog client script new record form
@@ -28,6 +28,4 @@ Field descriptions for the catalog client script new record form contains inform
 |Applies on a Catalog Item view|Option to apply the catalog client script to catalog items displayed within the order screen on the service catalog.|
 |Applies on Target Record|Option to apply the catalog client script on a record created for task-extended tables via record producers.|
 |Script|The script content.|
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
 

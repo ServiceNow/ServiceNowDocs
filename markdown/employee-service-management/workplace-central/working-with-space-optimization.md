@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -29,7 +29,7 @@ After creating a scenario and implementing the space allocation and assignment, 
 -   **[Send a scenario for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/send-a-scenario-for-approval.md)**  
 After publishing the scenario, send your scenario for approval to workplace managers of your organization.
 -   **[Change owner of a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/change-owner-of-a-scenario.md)**  
-Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A can switch a scenario between multiple owners one at a time.
+Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A scenario can switch between multiple owners one at a time.
 -   **[Deploy a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
 After publishing a scenario plan, deploy the scenario on your production.
 -   **[View scenario change details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/view-scenario-change-details.md)**  
@@ -49,6 +49,8 @@ As a space planner, perform space assignments, user assignments and other action
 
 
 [Creating custom lists on Workplace Central]()
+
+[Working with Space Planning]()
 
 [Working with Schedule Planning]()
 

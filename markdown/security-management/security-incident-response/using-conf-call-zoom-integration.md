@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate MSIM Conference Calls with Zoom, Major Security Incident Management Conference Call Integration, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_msi.workspace\_manager
 
 2.  From the Major Security Incident list, select a major security incident.
 
-3.  Click the **Start a conference call** action.
+3.  Select the **Start a conference call** action.
 
 4.  You can also start a conference call by clicking the \[Omitted image "msim-conf-call-icon.png"\] Alt text: Conference call icon on the right-context menu and selecting the + icon.
 
@@ -50,7 +50,7 @@ Role required: sn\_msi.workspace\_manager
 
     The description that you provide will be added to the conference record.
 
-9.  After the participant list is finalized, click **Start**.
+9.  After the participant list is finalized, select **Start**.
 
     The conference call starts in the Zoom app. All the participants are notified through two emails, one email is sent to the participants from the MSIM app and the other email is sent from the Zoom conference bridge.
 

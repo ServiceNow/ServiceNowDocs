@@ -1,33 +1,35 @@
 ---
-title: Reviewing your Now Assist assessment
-description: This automated assessment process evaluates potential implementation impacts and provides actionable insights for Now Assist products.
+title: Reviewing your AI assessment
+description: This automated assessment process evaluates potential implementation impacts and provides actionable insights for your AI products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.html
 release: yokohama
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-18"
-reading_time_minutes: 3
+last_updated: "2026-10-06"
+reading_time_minutes: 4
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Use, Now Assist Readiness Evaluation, Enable AI experiences]
+breadcrumb: [Use, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
-# Reviewing your Now Assist assessment
+# Reviewing your AI assessment
 
-This automated assessment process evaluates potential implementation impacts and provides actionable insights for Now Assist products.
+This automated assessment process evaluates potential implementation impacts and provides actionable insights for your AI products.
 
-Navigate to **Workspaces** &gt; **Now Assist Readiness Evaluation** and select the assessment icon \[Omitted image "na-assessment-icon.png"\] Alt text: to review your Now Assist assessment.
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md).
 
-**Note:** Before viewing your Now Assist assessments, you must first have run the scheduled jobs to get the assessment results. If you haven't run your scheduled jobs, you are prompted to do so on an individual job level. For more information on running scheduled jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md) and [Configure the Now Assist Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
+Navigate to **Workspaces** &gt; **AI Readiness Evaluation** and select the assessment icon \[Omitted image "na-assessment-icon.png"\] Alt text: to review your AI assessment.
 
-The summary tab provides a consolidated summary of features, including Now Assist capabilities across AI Search, Virtual Agent \(VA\), IT Service Management \(ITSM\), Customer Service Management \(CSM\), and HR Service Delivery \(HRSD\), as well as their corresponding estimated remediation efforts. The results shown are estimates. You should evaluate results provided by Now Assist Readiness Evaluation for accuracy and appropriateness for your use case.
+**Note:** Before viewing your AI assessments, you must first have run the scheduled jobs to get the assessment results. If you haven't run your scheduled jobs, you are prompted to do so on an individual job level. For more information on running scheduled jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md) and [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 
-To understand the estimated remediation effort, select the **Legends** button. The legend shows the estimated remediation effort using sizing verbiage and colors, along with an estimated timeline of remediation in development days.
+The summary tab provides a consolidated summary of features, including AI capabilities across AI Search, Virtual Agent \(VA\), IT Service Management \(ITSM\), Customer Service Management \(CSM\), and HR Service Delivery \(HRSD\), as well as their corresponding estimated remediation efforts. The results shown are estimates. You should evaluate results provided by AI Readiness Evaluation for accuracy and appropriateness for your use case.
 
-\[Omitted image "legends.png"\] Alt text: Legends button displays estimated remediation efforts such as Small \(1-5 days\), Medium \(6-10 days\), Large \(11-30 days\), XL \(31-90 days\).
+To understand the estimated remediation effort, select the **Legends** button. The legend shows the estimated remediation effort using sizing verbiage and colors, along with an estimated timeline of remediation in development days. The legend also includes descriptions of the icons found next to the assessment questions.
 
-After reviewing the summary, select the individual assessment links to be redirected to that specific assessment in a new browser tab. The questions for each Now Assist assessment differs. For example, the questions and answers on the Now Assist for AI Search assessment are different than the questions and answers on the Now Assist for Virtual Agent assessment.
+\[Omitted image "legends.png"\] Alt text: Legends button displays estimated remediation efforts such as None, Small, Medium, Large, XL, or XXL, and also includes icon descriptions.
+
+After reviewing the summary, select the individual assessment links to be redirected to that specific assessment in a new browser tab. The questions for each AI assessment differs. For example, the questions and answers on the ServiceNow Otto for AI Search assessment are different than the questions and answers on the ServiceNow Otto for Virtual Agent assessment.
 
 **Note:** The assessments gather information from tables. To view any of the tables' available questions, answers, assessments, or assessment run successes or failures, search for the applicable table in the navigation filter:
 
@@ -40,15 +42,15 @@ For more information about how to search for tables in the navigation filter, se
 
 The assessments include visual indicators to guide you on non-blocker and blocker results. The following list details the descriptions of the assessment's visual indicators:
 
--   \[Omitted image "green-check-icon.png"\]: Non-blocker area and no further action needed.
--   \[Omitted image "red-check-icon.png"\] Alt text:: Blocker area and further action is needed to resolve issue before implementation.
--   \[Omitted image "yellow-warning-icon.png"\] Alt text:: Non-blocker area warning, but the issue should be evaluated before implementation.
+-   \[Omitted image "green-check-icon.png"\]: Informational area and no further action needed.
+-   \[Omitted image "red-check-icon.png"\] Alt text:: Further action is needed to resolve findings before implementation. These required areas include estimated remediation efforts.
+-   \[Omitted image "yellow-warning-icon.png"\] Alt text:: Recommended area warning, but the finding should be evaluated before implementation. These recommendations are observations that should be reviewed prior to implementation but no estimated remediation effort is provided.
 
-You can select **Download Report** to export the entire Now Assist assessment report in PDF format from the Summary tab. The exported report still includes hyperlinks to the specific individual assessments. Selecting **Download Report** on an individual assessment downloads only that report in PDF format. After selecting a hyperlink in the PDF, that record or table opens in a separate browser tab.
+You can select **Download Report** to export the entire assessment report in PDF format from the Summary tab. The exported report still includes hyperlinks to the specific individual assessments. Selecting **Download Report** on an individual assessment downloads only that report in PDF format. After selecting a hyperlink in the PDF, that record or table opens in a separate browser tab.
 
 **Note:** You don’t have to select **Download Report** to work directly with the problematic records or tables found in the assessment. Each assessment includes hyperlinks to the records or tables that need attention. Selecting a hyperlink opens the record or table in a separate browser tab.
 
-\[Omitted image "nare-assessment-nava.png"\] Alt text: Now Assist for Virtual Agent assessment is shown, along with relevant Virtual Agent questions and answers.
+\[Omitted image "nare-assessment-nava.png"\] Alt text: ServiceNow Otto for Virtual Agent assessment is shown, along with relevant Virtual Agent questions and answers.
 
 After reviewing the assessment and making the suggested assessment changes, rerun your scheduled jobs to see how your results improve. For more information on rerunning a specific job or all jobs, see [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md).
 

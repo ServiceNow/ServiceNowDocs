@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2024-09-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Review request policies
@@ -42,7 +42,7 @@ For each step, an entry is created in the **sn\_itom\_cam\_automation\_activity*
 
 5.  To add a condition, select **New condition set**.
 
-6.  To remove a condition, select the delete \[Omitted image "delete-input-icon.png"\] Alt text: Delete icon.
+6.  To remove a condition, select the delete icon \[Omitted image "delete-input-icon.png"\] Alt text: Delete.
 
     **Note:** For more information on managing policies, see [Manage PaCE policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pace-admin-manage-policies.md).
 

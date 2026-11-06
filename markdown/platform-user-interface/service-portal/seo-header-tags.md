@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Improving search engine optimization for portals, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -47,7 +47,7 @@ To specify a canonical URL for the page, update the `generateCanonicalURL` funct
 
 To specify custom header tags for the page, update the `generateCustomTagsForSEO` function in the script include.
 
-For an example of inserting custom SEO tags into the knowledge article view page, see [Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configure-seo-knowledge.md).
+For an example of inserting custom SEO tags into the knowledge article view page, see Configure custom SEO tags for canonical URLs and localized knowledge articles.
 
 **Parent Topic:**[Improving search engine optimization for portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/seo-sp.md)
 

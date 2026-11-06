@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Convert one RIDAC record to another for a project in Project Workspace
@@ -30,17 +30,13 @@ You can also specify to close the parent record on creation of the new record in
 
 1.  Select the project for which you want to convert one RIDAC entry to another.
 
-    For information on how to navigate to a Project in the Project Workspace, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to a Project in the Project Workspace, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
-
-    \[Omitted image "ridac-list.png"\] Alt text: L2 menu
 
 3.  On the Project form, select **Row context menu** for an individual risk, issue, decision, action, or request change record.
 
 4.  Select **Convert to RIDAC**.
-
-    \[Omitted image "convert-to-RIDAC-list.png"\] Alt text: Convert to RIDAC in Project Workspace
 
 5.  On the Convert dialog box, from the Select task type list, select the RIDAC record to which you want to convert the selected record.
 
@@ -48,14 +44,14 @@ You can also specify to close the parent record on creation of the new record in
 
 6.  Modify the text in the **Short description** field, which is copied from the parent record.
 
-7.  Change the default assignment copied from the parent record in the **Assigned to** field by clicking the lookup icon \(\[Omitted image "lookup\_icon.png"\] Alt text: Lookup icon\) and selecting a different user.
+7.  Change the default assignment copied from the parent record in the **Assigned to** field by selecting the search for record icon \(\[Omitted image "lookup\_icon.png"\] Alt text: search for record icon.\) and selecting a different user.
 
 8.  If you want to close the parent RIDAC record on creation of a new record, select the close parent record option.
 
     The label of the close parent record option changes depending on the parent record type. For example, if the parent record is an issue and you’re converting it to decision record, then the close record option would appear as **Close Issue**.
 
-9.  Click **OK**.
+9.  Select **OK**.
 
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-ridac-pw.md)
 

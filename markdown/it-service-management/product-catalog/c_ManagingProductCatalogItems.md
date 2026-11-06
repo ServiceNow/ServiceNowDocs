@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Product catalog items

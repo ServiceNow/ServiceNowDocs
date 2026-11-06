@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,9 +32,9 @@ All notifications related to a top-level message, such as replies, mentions, and
 
 2.  Click either **Group Feeds** or **Record Feeds**, and then select the feed name.
 
-3.  Click the subscribe icon \(\[Omitted image "Subscribe.png"\] Alt text: Subscribe\).
+3.  Click the subscribe icon.
 
-    You can click the unsubscribe icon \(\[Omitted image "Unsubscribe2.png"\] Alt text: Unsubscribe\) to stop receiving email notifications.
+    You can click the unsubscribe icon to stop receiving email notifications.
 
     **Note:** If a team is subscribed to receive email notifications for a feed, but a member of the team did not subscribe to the team, that member does not receive the email notifications.
 

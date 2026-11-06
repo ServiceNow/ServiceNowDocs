@@ -1,5 +1,5 @@
 ---
-title: Create a Software Asset Management Foundation plugin software model in classic
+title: Create a SAM Foundation software model
 description: Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/t\_AddASoftwareModelSAMF.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
-breadcrumb: [Configuring Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Create a Software Asset Management Foundation plugin software model in classic
+# Create a SAM Foundation software model
 
 Software models are used to connect purchased software rights with discovered software installations. Additionally, software models can be used to manage suites of software as well as to publish requestable software to the Service Catalog.
 
@@ -58,7 +58,7 @@ Publisher
 
 Publisher of the software. You can use the lookup list provided.**Note:** Publisher is a reference to the company \[core\_company\]. Only companies you are using internally are shown.
 
- If the publisher and product do not exist, you can [Add a Software Asset Management Foundation plugin custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
+ If the publisher and product do not exist, you can [Add a Basic Software Asset Management custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/add-custom-license-metric-samf.md).
 
 </td></tr><tr><td>
 
@@ -346,9 +346,9 @@ Risk
 
 
 </td></tr></tbody>
-</table>    2.  [Create a Software Asset Management Foundation plugin entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
+</table>    2.  [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
-    3.  [View Software Asset Management Foundation plugin software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
+    3.  [View Basic Software Asset Management software model results in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ViewSWModelResultsSAMF.md).
 
         The latest software model results are shown in the Software Model Results related list.
 
@@ -431,5 +431,5 @@ Check box for setting the attribute as unlimited.
 </table>    5.  [Create a vendor catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/product-catalog/t_CreateAVendorCatalogItem.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

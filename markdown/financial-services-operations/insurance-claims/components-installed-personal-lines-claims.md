@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Personal Lines Claims, Personal Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Personal Lines Claims
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 
@@ -39,10 +39,10 @@ Enables the extension of tables from the Customer Service Management application
 
 |Store application|Description|
 |-----------------|-----------|
-|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see[Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).|
+|Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Insurance Special Investigations|Insurance Special Investigations enables insurance carriers to route fraud investigation requests to SIU agents. Requests get routed via adjusters working on claim cases through workflows in the Personal Lines Claims application.|
 |Document Processor|Enables management of document services tasks that are used in insurance policy service cases. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/integrating-with-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-case-playbooks.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/setting-up-csm-playbooks.md).|
 
 ## Roles installed
 

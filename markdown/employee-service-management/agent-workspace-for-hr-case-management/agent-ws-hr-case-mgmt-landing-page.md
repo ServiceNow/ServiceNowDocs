@@ -1,5 +1,5 @@
 ---
-title: Agent Workspace for HR Case Management \(Configurable\)
+title: Agent Workspace for HR Case Management
 description: Agent Workspace for HR Case Management \(Configurable\) is one of two workspaces available for the HR Service Delivery application and uses the Next Experience user interface. It is built on a configurable UI Builder version, which makes it easy to configure and extend according to business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
-# Agent Workspace for HR Case Management \(Configurable\)
+# Agent Workspace for HR Case Management
 
 Agent Workspace for HR Case Management \(Configurable\) is one of two workspaces available for the HR Service Delivery application and uses the Next Experience user interface. It is built on a configurable UI Builder version, which makes it easy to configure and extend according to business needs.
 
-\[Omitted video\]
+\[Omitted video\] Description: Video demonstration of the Agent Workspace for HR Case Management \(Configurable\), showing the Next Experience user interface and key features for managing HR cases
 
 ## Comparison between HR Service Delivery Core UI, HR Service Delivery Agent Workspace \(Classic\), and Agent Workspace for HR Case Management \(Configurable\)
 
@@ -25,7 +25,7 @@ HR agents can work on HR cases using HR Service Delivery Core UI, HR Service Del
 -   The HR Service Delivery Core UI enables you to create, view, or work on an HR case in a form view.
 -   The HR Service Delivery Agent Workspace \(Classic\) gives you the ability to create custom workspaces from the Agent Workspace framework.
 
-    **Note:**
+    **Important:**
 
     -   HR Service Delivery Agent Workspace \(Classic\) is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
     -   If you are an existing user of HR Service Delivery Agent Workspace \(Classic\), you can migrate to the Agent Workspace for HR Case Management \(Configurable\) for enhanced features and capabilities. See [Migration Guidelines](https://www.servicenow.com/community/hrsd-articles/hr-agent-workspace-migration-guidelines-from-classic-to/ta-p/2310606).
@@ -442,19 +442,26 @@ Response templates
 
 <table id="table_rwk_drp_bwb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn more about Agent Workspace for HR Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore Learn more about Agent Workspace for HR Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-exploring.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/setup-configurable-hr-agent-workspace.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Learn how to use HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Learn how to use HR Agent Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-use.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Reference Get details about components like fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-reference.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

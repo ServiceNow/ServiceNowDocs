@@ -7,9 +7,9 @@ release: yokohama
 product: Application Intake
 classification: application-intake
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Planning your application, Building applications]
+breadcrumb: [Planning your application, Classic app development, Building applications]
 ---
 
 # Submit your idea for app development
@@ -18,7 +18,7 @@ With your carefully-planned idea in hand, you are ready to submit it through App
 
 ## Before you begin
 
-If you have not already [activated the Apply for Citizen Development standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/activate-catalog-item-for-app-intake.md), you must do so before you can perform this procedure.
+If you have not already [activated the Apply for Citizen Development standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/activate-catalog-item-for-app-intake.md), you must do so before you can perform this procedure.
 
 Role required: none
 
@@ -60,5 +60,5 @@ If the idea is approved, developers can build the app with the guided, intuitive
 
 If the admin approves your request, you can start building your app in App Engine Studio. You should receive a confirmation email with access to build the app.
 
-If you are an admin who approves requests, learn more about [managing AEMC requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-aemc-requests.md).
+If you are an admin who approves requests, learn more about [managing AEMC requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-aemc-requests.md).
 

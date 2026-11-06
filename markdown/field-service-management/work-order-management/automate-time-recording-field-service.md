@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record the time worked on a work order task, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Recording time worked, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Pause a work order task
@@ -34,12 +34,12 @@ The work order task must be in the Work in Progress state to pause the timer.
 
     The button toggles to **Resume Work** automatically.
 
+    \[Omitted image "pause-work.png"\] Alt text: pause work
+
 3.  Click **Resume Work** when you are ready to work on the activity again.
 
 
 ## Result
 
 Each time you pause or resume work on the task, a timestamp is captured in the activity stream and the actual time you worked on the task is automatically calculated. An entry for the time worked is created in the **Time Worked** related list.
-
-**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

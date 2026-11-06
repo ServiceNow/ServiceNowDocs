@@ -7,10 +7,10 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Pattern, WMI, SQL instance, SQL DB On Windows, SQL Cluster]
-breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Database discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Microsoft SQL Server and Cluster discovery
@@ -71,9 +71,9 @@ For detailed information on SQL Server supported versions see: [Detailed informa
 
 ## SQL failover cluster instance \(FCI\)
 
-Updating the version 1.6.1 set of Patterns available from the ServiceNow® Store starting August 2023 enables an appropriate discovery of the Always On availability group details and the SQL Failover Clusters. When the failover scenario is occurring, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). Then a new MSFT SQL instance and databases are created.
+Starting with version 1.6.1 of the Patterns available from the ServiceNow® Store \(August 2023\), discovery of Always On availability group details and SQL Failover Clusters is supported. When a failover scenario occurs, the MSSql DB On Windows pattern discovers the failover cluster \(Node 2\). A new MSFT SQL instance and databases are then created.
 
-\[Omitted image "sql\_cluster\_discovery.jpg"\] Alt text: Node 2 is a duplicate of Node 1
+\[Omitted image "sql\_cluster\_discovery.png"\] Alt text: Node 2 is a duplicate of Node 1
 
 The following procedure enables appropriate visibility of the SQL clusters.
 
@@ -480,7 +480,7 @@ Failover state.Possible values:
     |Availability Group \[availability\_group\]|References the MSSQL Availability Group \[cmdb\_ci\_mssql\_ag\] table.|
 
 
-## CI relationships
+## CI relationships and references
 
 The MSSql DB On Windows pattern creates the following relationships and references to support Microsoft SQL Server and Cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 

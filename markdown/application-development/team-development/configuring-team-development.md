@@ -7,9 +7,9 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Planning your application, Building applications]
+breadcrumb: [Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Configuring Team Development
@@ -18,12 +18,28 @@ Configure Team Development for your instance.
 
 ## Configuration overview
 
-1.  [Team Development setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_SettingUpTeamDevelopment.md)
+1.  [Access rights for developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/r_GrantingAccessRightsToDevelopers.md)
 
     To enable parallel development on multiple non-production instances, administrators can set up the Team Development instance hierachy and grant access rights for developers.
 
-2.  [Team Development process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_TeamDevelopmentProcess.md)
+2.  [Create an exclusion policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_CreateAnExclusionPolicy.md)
 
-    The basic Team Development process sets up the instance hierarchy, grants developer access rights, manages the movement of development changes from development instances to test instances, and promotes applications to the production instance.
+    Application developers can create an exclusion policy to prevent pushes or pulls to particular instances in the team development hierarchy.
+
+3.  [Define a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_DefineARemoteInstance.md)
+
+    Define other instances in the hierarchy as remote instances.
+
+4.  [Enable a code review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_EnableCodeReview.md)
+
+    You can require a code review of all changes pushed to an instance.
+
+5.  [Select the parent instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_SelectTheParentInstance.md)
+
+    An instance can have multiple peer instances but only one parent instance.
+
+6.  [Set up an instance hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_SetUpAnInstanceHierarchy.md)
+
+    Set up an instance hierarchy that best supports your development life cycle.
 
 

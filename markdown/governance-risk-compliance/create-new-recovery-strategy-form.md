@@ -1,20 +1,20 @@
 ---
-title: Create New Recovery strategy form
-description: Use the Create New Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
+title: Create Recovery strategy form
+description: Use the Create Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-recovery-strategy-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add recovery strategies for dependencies, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Create New Recovery strategy form
+# Create Recovery strategy form
 
-Use the Create New Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
+Use the Create Recovery strategy form in BCM UIB Workspace to add details about the recovery strategy for the identified loss scenario.
 
-## Create New Recovery strategy form
+## Create Recovery strategy form
 
 For description of the field values, see the table.
 

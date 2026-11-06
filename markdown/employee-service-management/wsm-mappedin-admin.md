@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsm-mappedin-admin.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,19 +18,19 @@ ServiceNow® Workplace Space Mapping provides indoor maps for interactive locati
 
 <table id="table_s3z_wrb_qtb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore Learn about Workplace Space Mapping and space optimization in your workplace with map providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-space-mapping-explore.md)
+[Explore Learn about Workplace Space Mapping and space optimization in your workplace with map providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-space-mapping-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-configure.png"\] Alt text: Configure. Configure and install Workplace Space Mapping with Indoor Mapping or Mappedin as your map provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
+[Configure Configure and install Workplace Space Mapping with Indoor Mapping or Mappedin as your map provider.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
 
 </td></tr><tr><td>
 
-[Using \[Omitted image "icon-managing.png"\] Alt text: Using Use Workplace Space Mapping for interactive locations and reservation management in your workplace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-using-workplace-space-mapping.md)
+[Using Use Workplace Space Mapping for interactive locations and reservation management in your workplace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-using-workplace-space-mapping.md)
 
 </td><td>
 
-[References \[Omitted image "icon-reference.png"\] Alt text: References Work with Workplace Space Mapping tables, properties, and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-reference.md)
+[References Work with Workplace Space Mapping tables, properties, and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-reference.md)
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Regulatory alerts, Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -38,7 +38,7 @@ Role required: sn\_grc\_reg\_change.user
 
 8.  Select **Confirm**.
 
-    \[Omitted image "link-change-tasks.png"\] Alt text: Link change tasks
+    \[Omitted image "link-change-tasks.png"\] Alt text: Link change tasks for impacted areas.
 
 
 ## Result

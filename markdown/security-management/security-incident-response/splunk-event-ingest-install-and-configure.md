@@ -1,20 +1,20 @@
 ---
 title: Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration
-description: Before you run the integration on your ServiceNow AI Platform instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform instance.
+description: Install and configure Splunk Enterprise security- Event Ingestion integration from the ServiceNow Store on your ServiceNow AI Platform instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/splunk-event-ingest-install-and-configure.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Install and configure the ServiceNow application for the Splunk Enterprise Event Ingestion integration
 
-Before you run the integration on your ServiceNow AI Platform® instance, complete these installation and configuration steps so the application properly integrates with the Security Incident Response and Security Operations products on your ServiceNow AI Platform® instance.
+Install and configure Splunk Enterprise security- Event Ingestion integration from the ServiceNow Store on your ServiceNow AI Platform instance.
 
 ## Before you begin
 
@@ -26,25 +26,21 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 1.  If you have not installed the Splunk Enterprise Event Ingestion application from the ServiceNow Store for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/install-non-core-apps.md) and follow the steps to install it.
 
-2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Splunk Event Ingestions tile.
+2.  Navigate to **All** &gt; **Integrations** &gt; **Integrations Configurations**
 
-3.  To configure the application, click **New**.
+3.  Search for **Splunk Enterprise security- Event Ingestion** tile, and select **Configure**.
 
-    \[Omitted image "Splunktile\_new.png"\] Alt text: Splunk new configuration tile.
+4.  On the form, fill in the fields.
 
-4.  Alternatively, if a **Configure** button is displayed on a tile, click it to edit an existing configuration.
-
-5.  In the Event Ingestions Configuration dialog that is displayed, fill in the fields.
-
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d245185e164">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d253209e131">
 
 Field
 
-</th><th align="left" id="d245185e167">
+</th><th align="left" id="d253209e134">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d245185e173">
+</th></tr></thead><tbody><tr><td id="d253209e140">
 
 **Name**
 
@@ -52,7 +48,7 @@ Description
 
 Name of the Splunk Enterprise console or Splunk Cloud instance used for the integration.Spaces are supported for names, but parentheses are not supported. For example, enter `HQ-USA`, or `HQ USA`.
 
-</td></tr><tr><td id="d245185e197">
+</td></tr><tr><td id="d253209e164">
 
 **Splunk API Base URL**
 
@@ -60,7 +56,7 @@ Name of the Splunk Enterprise console or Splunk Cloud instance used for the inte
 
 URL for your Splunk Enterprise console or Splunk Cloud instance.
 
-</td></tr><tr><td id="d245185e212">
+</td></tr><tr><td id="d253209e179">
 
 **Basic Authentication**
 
@@ -68,7 +64,7 @@ URL for your Splunk Enterprise console or Splunk Cloud instance.
 
 Default is disabled.If you are using API Account User Name and API Password for configuration, enable the check box.
 
-</td></tr><tr><td id="d245185e224">
+</td></tr><tr><td id="d253209e191">
 
 **API Account User Name**
 
@@ -76,7 +72,7 @@ Default is disabled.If you are using API Account User Name and API Password for 
 
 User name that you created for your individual user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d245185e237">
+</td></tr><tr><td id="d253209e204">
 
 **API Password**
 
@@ -84,7 +80,7 @@ User name that you created for your individual user account on the Splunk Enterp
 
 Password that you created for your individual user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d245185e249">
+</td></tr><tr><td id="d253209e216">
 
 **Token Based \(available from version 12.0.0\)**
 
@@ -92,7 +88,7 @@ Password that you created for your individual user account on the Splunk Enterpr
 
 Token based authentication that you created for your API user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d245185e264">
+</td></tr><tr><td id="d253209e231">
 
 **Token**
 
@@ -100,7 +96,7 @@ Token based authentication that you created for your API user account on the Spl
 
 Token that you created for your API user account on the Splunk Enterprise console.
 
-</td></tr><tr><td id="d245185e276">
+</td></tr><tr><td id="d253209e243">
 
 **MID Server**
 
@@ -108,7 +104,7 @@ Token that you created for your API user account on the Splunk Enterprise consol
 
 Specific MID Server that is set up in your environment. Only MID Servers that are active and validated are available from this choice list.
 
-</td></tr><tr><td id="d245185e285">
+</td></tr><tr><td id="d253209e252">
 
 **On Premises Deployment**
 
@@ -127,21 +123,11 @@ A choice list is displayed. Default is **Any**.
 
 
 </td></tr></tbody>
-</table>    The following figure is an example of a completed form for a configuration of an on-premises version of Splunk Enterprise with a MID Server.
+</table>    Each Splunk Enterprise alert that you ingest from your Splunk Enterprise console requires a unique event profile in your ServiceNow AI Platform® instance. However, the source that you configure on the Event Ingestions Configuration form can be reused for multiple ServiceNow AI Platform® profiles as long as each profile ingests unique Splunk triggered alerts.
 
-    \[Omitted image "splunk-event-ingestion-auth.png"\] Alt text: Configuration form with fields populated.
+5.  Select **Submit**.
 
-    Each Splunk Enterprise alert that you ingest from your Splunk Enterprise console requires a unique event profile in your ServiceNow AI Platform® instance. However, the source that you configure on the Event Ingestions Configuration form can be reused for multiple ServiceNow AI Platform® profiles as long as each profile ingests unique Splunk triggered alerts.
-
-6.  Click **Submit**.
-
-    After validation is successfully completed, the Security Integrations page is displayed with each of your configurations. On each valid configuration tile, **Configure** and **Delete** buttons are displayed as shown in the following figure.
-
-    **Note:** You have to use either Basic Authentication or Token Based Authentication only. Enable one of the authentications and enter the corresponding authentication details. Enabling both will display an error.
-
-    After it is successfully validated and submitted, each Event Ingestions Splunk server configuration is saved on the Security Integrations page as a tile. If your saved configuration tiles are not displayed on the Security Integrations page, on the top right corner of the page, from the Show Configurations choice list, click **Yes**.
-
-    \[Omitted image "splunk\_214\_ConfigurationScreen.png"\] Alt text: Configuration form for Splunk Enterprise event ingestion configuration.
+    The configured integration tile displays.
 
 
 If an error message is displayed after you click **Submit**, enter your information again and click **Submit**.

@@ -7,9 +7,9 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Data privacy \(Store\), Data Privacy, Platform Privacy]
+breadcrumb: [Data privacy, Data Privacy, Platform Privacy]
 ---
 
 # Data classification
@@ -23,7 +23,7 @@ Data Classification enables support for:
 
 ## Data classifications
 
-Data classification is a standalone process in which you manually apply data classifications to existing dictionary entries in any table. See [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataDictionaryTables.md) for additional information.
+Data classification is a standalone process in which you manually apply data classifications to existing dictionary entries in any table. See  for additional information.
 
 -   You classify data as you find appropriate for your business and you can alter the available data classes as necessary.
 -   When you classify data, you can use the pre-defined data classifications, or create your own. Although use of pre-defined data classifications is optional, it is advisable do so as a starting point. These pre-defined data classifications are included in demo data that you can install in your instance.

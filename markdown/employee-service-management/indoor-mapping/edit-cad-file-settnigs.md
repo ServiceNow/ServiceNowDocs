@@ -7,9 +7,9 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AutoCAD import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Autocad import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Edit file settings
@@ -37,7 +37,7 @@ Role required: admin
 
     -   File encoding: Option to change or update your file encoding standard. Update the file encoding format only if there's an issue with the file encoding standard.
 
-**Parent Topic:**[AutoCAD import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
+**Parent Topic:**[Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.md)
 
 **Previous topic:**[Import CAD configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/import-cad-config.md)
 

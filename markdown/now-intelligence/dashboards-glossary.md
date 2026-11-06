@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dashboards-glossary.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-05-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dashboard glossary, dashboard terms, bookmark dashboard, dashboard category, certified dashboard, dashboard, data visualization, dashboard element, dashboard filter, filter group, inline editor, dashboard editor, Platform Analytics library, dashboards library, dashboard tab, top stage, dashboard top stage, widget, dashboard widget]
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
@@ -37,7 +37,7 @@ A graphic representation of table, indicator, or other instance data placed on a
 
 ## element
 
-A visual object placed on a Platform Analytics dashboard. Elements include data visualizations, dividers, filters, filter groups, headings, images, lists, Now Assist Context Menus, Process Mining maps, rich text, workbenches, and funnels.
+A visual object placed on a Platform Analytics dashboard. Elements include data visualizations, dividers, filters, filter groups, headings, images, lists, ServiceNow Otto context menus, Process Mining maps, rich text, workbenches, and funnels.
 
 ## filter
 

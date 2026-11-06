@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an SLA configuration for CIs, SLAs for application services and CIs, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Create an SLA configuration for CIs, SLAs for application services and CIs, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Limit the records for the SLA configuration filter
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-By default, the size of dynamic CI group records is limited to 10,000 elements. Exceeding this limit can affect system stability. If the filter configuration for a specified dynamic CI group returns too many records, you can limit the number of records that are returned by setting the value of the sa.qbs.max\_num\_of\_cis property. For more information, see [Create a Dynamic CI Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md).
+By default, the size of dynamic CI group records is limited to 10,000 elements. Exceeding this limit can affect system stability. If the filter configuration for a specified dynamic CI group returns too many records, you can limit the number of records. Set the value of the sa.qbs.max\_num\_of\_cis property to limit the returned records. For more information, see [Create a Dynamic CI Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md).
 
 ## Procedure
 

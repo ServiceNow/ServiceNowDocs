@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,8 +28,6 @@ Roles required:
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Homepage** or navigate to **Self-Service** &gt; **Dashboards**.
 
 2.  Choose Security Incident Explorer from the reports list.
-
-    \[Omitted image "SIRExplorerToolBar.png"\] Alt text: Security Incident Response Explorer
 
 
 ## Result

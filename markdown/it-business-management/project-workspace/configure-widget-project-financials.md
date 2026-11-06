@@ -7,8 +7,8 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [View forecasts and manage financial plans for a project, Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -131,5 +131,5 @@ Description of the widget.
 -   **[Associate a widget to the Project table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/associate-widget-to-project.md)**  
 After you configure a widget, associate it with the Project table to show the financial data of a project.
 
-**Parent Topic:**[View forecasts and manage financial plans for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
+**Parent Topic:**[View and manage project financial plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)
 

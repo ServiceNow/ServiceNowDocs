@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Confidential records, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_grc.admin, sn\_grc.business\_user who has opened the risk eve
 
 1.  Navigate to **All &gt; Administration &gt; GRC Properties**.
 
-2.  Select **Yes** for **Enable record level confidentiality** property and click **Save**.
+2.  Select **Yes** for **Enable record level confidentiality** property and select **Save**.
 
     Perform the following steps by logging in with the sn\_grc.business\_user role or a module specific role as defined in the Role required section.
 
@@ -42,7 +42,7 @@ Role required: sn\_grc.admin, sn\_grc.business\_user who has opened the risk eve
 
     Allowed groups can update the confidential record.
 
-7.  Click **Update**.
+7.  Select **Update**.
 
 
 ## Result

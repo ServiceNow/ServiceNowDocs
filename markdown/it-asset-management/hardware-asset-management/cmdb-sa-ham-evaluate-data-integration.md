@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HAM data integration coverage, attribute coverage for model categories, Discovery pattern coverage, Service Graph Connector coverage, supported model categories and attributes]
-breadcrumb: [Analyze data integrations, Use HAM advisor, Asset and CI management, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Analyze data integrations, Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Evaluate HAM data integration coverage

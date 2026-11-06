@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Prioritization display settings in Strategic Planning
@@ -28,8 +28,10 @@ Create a system property to update the display limit of the items shown in Prior
 Add new tables to roadmap preferences and configure their details so that these tables can be used as source tables while creating a free-form roadmap in Strategic Planning.
 -   **[Customize planning item display preferences for roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configure-source-table-preferences-for-roadmap.md)**  
 Update the default display configuration of planning item attributes in Prioritization, portfolio plan Roadmap, and Free-form roadmap pages so that data relevant to you is displayed in Strategic Planning Workspace.
--   **[Hierarchy view display configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/hierarchy-display-configuration-strategic-planning.md)**  
-Show or hide parent records of planning items shown in the Hierarchy view for high-level and regular portfolio plans by configuring system properties.
+-   **[Hierarchy tab display configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/hierarchy-display-configuration-strategic-planning.md)**  
+Show or hide parent records of planning items shown in the Hierarchy tab for high-level and regular portfolio plans by configuring system properties.
+-   **[Update execution URLs for planning item demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-execution-url-for-demand-spw.md)**  
+Run this scheduled job after upgrading to update execution URLs on existing demand planning items so they redirect correctly to the Demands module.
 
 **Parent Topic:**[Configuring Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/setting-up-alignment-planner-workspace.md)
 

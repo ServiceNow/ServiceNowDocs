@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Service Mapping, Application Service, unmapped server, Service Mapping workspace]
 breadcrumb: [Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -23,13 +23,13 @@ Maximize the use of your organization's resources by mapping application service
 -   Verify Machine Learning readiness.
 -   Confirm that the data is trained.
 
-For more information, see [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/readiness-dashboard-ml.md)
+For more information, see [Application service readiness dashboard in configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 
 **Important:**
 
 Service Mapping Plus v.1.10.0 or higher:
 
-To successfully update your data and view application candidates for unmapped servers, see [Troubleshooting steps for Mapping unmapped servers with Application service candidates \[KB1585065\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585065) in the Now Support Knowledge Base.
+To update your data and view application candidates for unmapped servers, see [Troubleshooting steps for Mapping unmapped servers with Application service candidates \[KB1585065\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1585065) in the Now Support Knowledge Base.
 
 Role required: service\_mapping\_admin
 
@@ -37,19 +37,59 @@ Role required: service\_mapping\_admin
 
 1.  Navigate to **Workspaces** &gt; **Service Mapping**.
 
-2.  Choose the unmapped server you want to create application service for.
+2.  Select the unmapped server that you want to use to create an application service.
 
-    1.  In the **Unmapped servers** tile, select the **Unmapped Servers with Candidate ID** graph.
+<table id="choicetable_vyc_pgt_zfc"><thead><tr><th align="left" id="d663644e135">
 
-    2.  In the Unmapped servers with candidate list, review the list of suggested candidates.
+Version of Service Mapping Plus
 
-        You can group by candidate IDs or by the servers to prioritize your work by right-clicking the relevant column name and selecting **Group By**.
+</th><th align="left" id="d663644e141">
 
-    3.  Select the preferred candidate.
+Actions
 
-3.  Select **Map application service**.
+</th></tr></thead><tbody><tr><td id="d663644e147">
+
+**Versions released before version 1.16.3**
+
+</td><td>
+
+1.  In the **Unmapped servers** tile, select the **Unmapped servers with Candidate ID** graph.
+2.  Review the list of suggested candidates.
+3.  Organize the candidate list to prioritize your work.
+
+    |Organization method|Action|
+    |-------------------|------|
+    |Order|Select a column name to sort the results in ascending or descending order.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\]\) icon to group results by the selected column.|
+
+4.  Select the preferred candidate.
+5.  Select **Map application service**.
 
 
+</td></tr><tr><td id="d663644e227">
+
+**Starting with version 1.16.3**
+
+</td><td>
+
+1.  In the **Unmapped servers** tile, select the **Unmapped servers with relevant candidate** graph.
+
+**Note:** All application service candidates have been filtered to exclude irrelevant tools, so only the most relevant candidates are presented.
+
+2.  Review the list of servers with their associated candidates.
+3.  Organize the candidate list to prioritize your work.
+
+    |Organization method|Action|
+    |-------------------|------|
+    |Order|Select a column name to sort the results in ascending or descending order.|
+    |Group|Select the menu \(\[Omitted image "menu-icon.png"\]\) icon to group results by the selected column.|
+
+4.  Select the preferred server or candidate.
+5.  Select **Map application service**.
+
+
+</td></tr></tbody>
+</table>
 ## Result
 
 The selected application service candidate is converted to an application service, and the selected unmapped servers are mapped.

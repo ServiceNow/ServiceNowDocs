@@ -7,9 +7,10 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create an AI case in the AI Risk and Compliance workspace, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
+keywords: [create AI case form, AI case fields, case reporting]
+breadcrumb: [Create an AI case, Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Create New AI case form
@@ -136,7 +137,7 @@ Case analyst
 
 </td><td>
 
-Analyst who will analyze and work on the AI case. The AI case analyst is a part of the Assignment group.
+Analyst who analyzes and works on the AI case. The AI case analyst is a part of the Assignment group.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Proactive Service Experience Workflows and Incident Management within the Service Operations Workspace
@@ -47,7 +47,7 @@ The following example demonstrates how Proactive Service Experience Workflows is
 3.  The technical support engineer triages the issues by reviewing the latest changes in the Agent Assist that triggered the outage.
 4.  The technical support engineer then restarts the SD-WAN controller and selects **Generate Proactive Cases** in the Cases section. One major case and five child cases are generated and notifications are sent to the primary contacts for the affected accounts.
 5.  As a major case was created, the technical support engineer notifies the major issue manager of a potentially serious outage. The Major Issue Manager manages the major case record and communication with both technical teams and affected customers.
-6.  The Technical Support Engineer \(TSE\) realizes the device can't be rebooted and might have failed altogether. The TSE changes the Sub Category field to device failure and selects the **Escalate UI** action and enters a work note.
+6.  The Technical Support Engineer \(TSE\) realizes the device can't be rebooted and might have failed altogether. The TSE changes the Sub Category field to device failure and selects the **Escalate UI** action and enters a work note
 7.  The next level L2 Support team receives the incident and updates the record status.
 8.  The L2 Technical Support Engineer tries to troubleshoot the issues on the SD-WAN controller and successfully restarts the configuration item. Four out of the five the affected accounts report the issue is resolved, but the fifth account is still experiencing some problems.
 9.  To diagnose further issues with the fifth account, the L2 Technical Support Engineer performs the following steps:

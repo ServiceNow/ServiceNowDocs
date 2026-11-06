@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-it-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Care Team Operations for Healthcare IT reference, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Components installed with Care Team Operations for Healthcare IT
@@ -17,6 +17,8 @@ Several types of components such as tables, user roles, and business rules are i
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 ## Tables installed with Care Team Operations for Healthcare IT
+
+**Tables installed with Care Team Operations for Healthcare IT**
 
 <table id="table_rqh_dgm_c2c"><tbody><tr><td>
 
@@ -37,85 +39,67 @@ Abstract case type that provides a foundation to extend from when building your 
 </td></tr></tbody>
 </table>## Base roles installed with Care Team Operations for Healthcare IT
 
-<table id="table_mfg_hgm_c2c"><tbody><tr><td>
+<table id="id_bwq_gqw_ngc"><tbody><tr><td>
 
-**Role**
-
-</td><td>
-
-**Contains**
+sn\_cto\_hcit.admin
 
 </td><td>
 
-**Description**
+IT Admin
+
+</td><td>
+
+IT Admin role for Care Team Operations for Healthcare IT.
 
 </td></tr><tr><td>
 
-sn\_hco.admin 
+sn\_cto\_hcit.loc\_support\_agent
 
 </td><td>
 
--   sn\_csm\_agent
--   sn\_service\_org.writer
--   sn\_bus\_loc.ibl\_writer
--   sn\_hcls.foundation\_data\_writer
--   sn\_csm\_case\_types.service\_definition\_viewer
+IT Support Agent
 
 </td><td>
 
-Has access to create, view, edit and manage healthcare provider, organization, location and roles.
+Views/resolves all cases under their assignment group. Tracks and fulfills cases.
 
 </td></tr><tr><td>
 
-sn\_hco.care\_team\_member 
+sn\_cto\_hcit.viewer
 
 </td><td>
 
--   sn\_customerservice.service\_organization\_contributor​
--   sn\_hcls.foundation\_data\_viewer
+IT Viewer
 
 </td><td>
 
-Has access to create and view healthcare cases.
+Views all IT and HCLS foundation data.
+
+ **Note:**If users need access to incidents, the sn\_incident\_read role can be added to this role.
 
 </td></tr><tr><td>
 
-sn\_hco.care\_team\_manager 
+sn\_cto\_hcit.loc\_contributor
 
 </td><td>
 
--   sn\_hco.care\_team\_member ​
--   sn\_customerservice.svc\_location\_manager\_contributor
+CTO IT location contributor role
 
 </td><td>
 
-Has access to create, view healthcare cases.
-
- Has ability to add members to the care unit.
+Reports cases, respond to cases, track cases at business location, views cases under their team.**Note:** This role is automatically inherited into the Care Team Member role when the Care Team Operations for Healthcare IT plugin is installed.
 
 </td></tr><tr><td>
 
-sn\_hco.viewer 
+sn\_cto\_hcit.loc\_manager
 
 </td><td>
 
-sn\_hcls.foundation\_data\_viewer
+Healthcare IT services support department manager
 
 </td><td>
 
-Has access to view healthcare cases.
-
-</td></tr><tr><td>
-
-sn\_hco.loc\_support\_agen
-
-</td><td>
-
-sn\_bus\_loc.svc\_location\_support\_agent
-
-</td><td>
-
-Views, tracks, and resolves all cases within their assignment group.
+Monitors the tasks within their organizations.
 
 </td></tr></tbody>
 </table>## Plugins installed with Care Team Operations for Healthcare IT
@@ -147,137 +131,6 @@ Healthcare Operations Core
 </td><td>
 
 Healthcare Operations Core provides clinicians an uniform interface to report and track issues related to their day-to-day operations. This helps hospitals eliminate inefficient manual processes, reduce patient safety risks and increase patient satisfaction through timely resolution of issues and completion of important tasks.
-
-</td></tr></tbody>
-</table>## Service definitions installed with Care Team Operations for Healthcare IT
-
-<table id="table_q31_fvs_1fc"><tbody><tr><td>
-
-**Name**
-
-</td><td>
-
-**Description**
-
-</td></tr><tr><td>
-
-Healthcare IT services
-
-</td><td>
-
-Service definition for healthcare IT service care team requests.
-
-</td></tr></tbody>
-</table>## Service definition categories installed with Care Team Operations for Healthcare IT
-
-<table id="table_cbd_hvs_1fc"><tbody><tr><td>
-
-**Name**
-
-</td><td>
-
-**ID**
-
-</td><td>
-
-**Table**
-
-</td></tr><tr><td>
-
-EMR service
-
-</td><td>
-
-emr\_service
-
-</td><td>
-
-sn\_cto\_hcit\_case
-
-</td></tr><tr><td>
-
-Other IT service
-
-</td><td>
-
-other\_it\_service
-
-</td><td>
-
-sn\_cto\_hcit\_case
-
-</td></tr></tbody>
-</table>## Record producers installed with Care Team Operations for Healthcare IT
-
-<table id="table_fsb_jvs_1fc"><tbody><tr><td>
-
-**Name**
-
-</td><td>
-
-**Description**
-
-</td></tr><tr><td>
-
-Report an EMR issue
-
-</td><td>
-
-Report any issue with your EMR. For example, login issues, data quality issues, attachment related issues, etc.
-
-</td></tr><tr><td>
-
-Request other IT service
-
-</td><td>
-
-Report any care team related IT issue.
-
-</td></tr></tbody>
-</table>## Service categories installed with Care Team Operations for Healthcare IT
-
-<table id="table_gp3_kvs_1fc"><tbody><tr><td>
-
-**Title**
-
-</td><td>
-
-**Description**
-
-</td></tr><tr><td>
-
-EMR services
-
-</td><td>
-
-Request EMR specific support or services here.
-
-</td></tr><tr><td>
-
-Other IT services
-
-</td><td>
-
-Report other IT or system related issues here.
-
-</td></tr></tbody>
-</table>## Service catalogs installed with Care Team Operations for Healthcare IT
-
-<table id="table_n11_svs_1fc"><tbody><tr><td>
-
-**Title**
-
-</td><td>
-
-**Description**
-
-</td></tr><tr><td>
-
-Healthcare IT
-
-</td><td>
-
-This is a catalog for Care Team Operations for Healthcare IT service.
 
 </td></tr></tbody>
 </table>

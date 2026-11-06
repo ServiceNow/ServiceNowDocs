@@ -1,5 +1,5 @@
 ---
-title: Set up your workplace location data
+title: Workplace location data
 description: In the Workplace Core application, set up data related to your workplace locations so you can select a location in your safety records, for example, your safety incidents and observations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-core/configure-hs-workplace-location-data.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, Health and Safety Core, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
 
-# Set up your workplace location data
+# Workplace location data
 
 In the Workplace Core application, set up data related to your workplace locations so you can select a location in your safety records, for example, your safety incidents and observations.
 
@@ -43,8 +43,6 @@ The **Location** field on safety forms, for example, incidents and observations,
 [Create a safety report field mapping for generating reports]()
 
 [Configure groups for Health and Safety]()
-
-[Configure scheduled job to generate frequency rates]()
 
 [Assign Health and Safety profile to a user]()
 

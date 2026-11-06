@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Assess a trainee, Coaching your trainee, Training agents using Coaching With Learning, Coaching, IT Service Management]
+breadcrumb: [Assess a trainee, Coaching your trainee, Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
 
 # Assign skills after completing an assessment
@@ -30,15 +30,15 @@ The coaching assessments generated from coaching opportunities award the skills 
 
 1.  Associate skills with coaching assessment or opportunities.
 
-<table id="choicetable_nyk_yw3_shb"><thead><tr><th align="left" id="d192753e57">
+<table id="choicetable_nyk_yw3_shb"><thead><tr><th align="left" id="d335672e57">
 
 To
 
-</th><th align="left" id="d192753e60">
+</th><th align="left" id="d335672e60">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d192753e66">
+</th></tr></thead><tbody><tr><td id="d335672e66">
 
 **Associate skills with coaching opportunities**
 
@@ -46,12 +46,12 @@ Do this
 
 1.  Navigate to **Coaching** &gt; **Coaching Opportunities**.
 2.  Select the record for which you want to associate a skill and skill level.
-3.  In the **Skills Awarded on Assessment Completion** related list, click **New**.
-4.  In the **Skill** field, click the lookup icon and select the skill to associate with this opportunity.
-5.  In the **Skill level** field, click the lookup icon and select the skill level for this opportunity.
+3.  In the **Skills Awarded on Assessment Completion** related list, select **New**.
+4.  In the **Skill** field, select the lookup icon and select the skill to associate with this opportunity.
+5.  In the **Skill level** field, select the lookup icon and select the skill level for this opportunity.
 
 
-</td></tr><tr><td id="d192753e114">
+</td></tr><tr><td id="d335672e114">
 
 **Associate skills with coaching assessments**
 
@@ -59,12 +59,12 @@ Do this
 
 1.  Navigate to **Coaching** &gt; **Coaching Assessments**
 2.  Select the record for which you want to associate a skill and skill level.
-3.  In the **Skills Awarded by Assessment** related list, click **New**.
-4.  In the **Skill** field, click the lookup icon and select the skill to associate with this assessment.
-5.  In the **Skill level** field, click the lookup icon and select the skill level for this assessment.
+3.  In the **Skills Awarded by Assessment** related list, select **New**.
+4.  In the **Skill** field, select the lookup icon and select the skill to associate with this assessment.
+5.  In the **Skill level** field, select the lookup icon and select the skill level for this assessment.
 When the assessment is complete, the skill is automatically added for the trainee.
 
-</td></tr><tr><td id="d192753e161">
+</td></tr><tr><td id="d335672e161">
 
 **Associate skills with course items**
 
@@ -72,13 +72,13 @@ When the assessment is complete, the skill is automatically added for the traine
 
 1.  Navigate to **Coaching** &gt; **Course Items**
 2.  Select the record for which you want to associate a skill and skill level.
-3.  In the **Skills Awarded on Assessment Completion** related list, click **New**.
-4.  In the **Skill** field, click the lookup icon and select the skill to associate with this training.
-5.  In the **Skill level** field, click the lookup icon and select the skill level for this course item.
+3.  In the **Skills Awarded on Assessment Completion** related list, select **New**.
+4.  In the **Skill** field, select the lookup icon and select the skill to associate with this training.
+5.  In the **Skill level** field, select the lookup icon and select the skill level for this course item.
 
 
 </td></tr></tbody>
-</table>2.  Click **Submit**.
+</table>2.  Select **Submit**.
 
     You can navigate to the **All Awarded Skills** related list in a **Coaching Assessments** record for a trainee to view all skills to be awarded for that trainee. The **Source** field displays whether the award came from an opportunity, assessment, or training.
 

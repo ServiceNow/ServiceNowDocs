@@ -7,8 +7,8 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -20,19 +20,26 @@ Manually create a processing activity or update a processing activity that is au
 
 Role required: sn\_privacy.analyst \(who owns the processing activity\) or sn\_privacy.manager
 
+## About this task
+
+You can create a processing activity in two ways:
+
+-   Manually create a processing activity for a business application or process that handles personal data.
+-   Update a processing activity that was automatically created when a privacy screening assessment determined that personal data is being processed. Screening assessments include automation rules that create processing activities based on specific responses. To configure automation in your assessment template, refer to [Post-assessment automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/impact-automation.md).
+
 ## Procedure
 
 1.  Navigate to one of the following.
 
-<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d335587e59">
+<table id="choicetable_kjs_yc1_sqb"><thead><tr><th align="left" id="d423063e81">
 
 Action
 
-</th><th align="left" id="d335587e62">
+</th><th align="left" id="d423063e84">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d335587e68">
+</th></tr></thead><tbody><tr><td id="d423063e90">
 
 **To create a new processing activity**
 
@@ -42,7 +49,7 @@ Procedure
 2.  Click **New**.
 
 
-</td></tr><tr><td id="d335587e104">
+</td></tr><tr><td id="d423063e126">
 
 **To update a processing activity**
 
@@ -279,6 +286,10 @@ Internal notes not visible to the external people.
 </td></tr></tbody>
 </table>3.  Click **Save**.
 
+
+## What to do next
+
+Send a privacy assessment to a processing activity owner to collect more information on why and how the processing activity is using personal information. For more information, see [Send a privacy assessment from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/send-privacy-asmt-from-pa.md).
 
 **Parent Topic:**[Using Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-privacy-mgmt.md)
 

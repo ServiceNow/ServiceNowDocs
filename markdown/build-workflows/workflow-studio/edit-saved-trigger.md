@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Edit a saved trigger
@@ -40,7 +40,7 @@ You can't modify the trigger type and the table.
 
 5.  Update any of the trigger conditions or the advanced options.
 
-    **Note:** If a user has modified the advanced options while using the trigger, any modifications that you make to these options doesn't affect the user's modified settings. To view the field descriptions for the trigger forms, see [Create a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md).
+    **Note:** If a user has modified the advanced options while using the trigger, any modifications that you make to these options doesn't affect the user's modified settings. To view the field descriptions for the trigger forms, see [Create a saved record-based trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md).
 
 6.  Select **Publish**.
 
@@ -50,14 +50,12 @@ You can't modify the trigger type and the table.
 
     For instructions on how to detach a trigger, see [Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/detach-saved-trigger.md).
 
-9.  Update the trigger properties, such as the trigger name, by selecting the More Actions menu icon and then selecting **Properties**.
-
-    \[Omitted image "more-actions.png"\] Alt text: Menu option to update the trigger properties.
+9.  Update the trigger properties, such as the trigger name, by selecting the More Actions menu icon \(\[Omitted image "triggers-more-actions.png"\] Alt text: Option to select more actions menu.\) and then selecting **Properties**.
 
 10. On the Trigger properties pop-up window, update the properties as needed and select **Update**.
 
 11. Make the updated trigger available by selecting **Publish**.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-triggers.md)
 

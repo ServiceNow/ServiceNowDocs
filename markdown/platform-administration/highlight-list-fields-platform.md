@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/highlight-list-fields-platform.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Customizing fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Highlight list fields
@@ -26,11 +26,7 @@ Highlighted fields in lists appear colored and optionally, have a leading bullet
 
 The set up involves specifying the fields that gets highlighted and the conditions that trigger the highlighting.
 
-\[Omitted image "highlight-reasoning.png"\] Alt text: Highlighting reasoning
-
-Available highlighting colors are:
-
-\[Omitted image "highlighting-colors.png"\] Alt text: Highlight colors
+\[Omitted image "highlight-reasoning.png"\] Alt text: When records are listed from the selected Table, the selected Field is highlighted based on the conditions added in the Highlighted Value Conditions tab.
 
 You cannot highlight the following field types:
 

@@ -1,20 +1,20 @@
 ---
 title: Identify New Attachments action
-description: Identify the attachments a local record already has to determine which remote attachments need synchronization. Use the output of this action to request missing attachments from a remote system.
+description: Identify the attachments already associated with a local record to determine which remote attachments require synchronization. Use the output of this action to request missing attachments from the remote system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub-remote-process-sync/identify-new-attachments-action.html
 release: yokohama
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Remote Process Sync actions, Integration Hub Remote Process Sync, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Actions, Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
 
 # Identify New Attachments action
 
-Identify the attachments a local record already has to determine which remote attachments need synchronization. Use the output of this action to request missing attachments from a remote system.
+Identify the attachments already associated with a local record to determine which remote attachments require synchronization. Use the output of this action to request missing attachments from the remote system.
 
 ## Roles and availability
 
@@ -28,6 +28,10 @@ Available as a ServiceNow Core Remote Process Sync action.
 
     This action requires roles granted by delegated development or assigned to the user. For more information, see [User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/user-access-flow-designer.md).
 
+
+## Retry policy
+
+The Identify New Attachments action uses the RPS Push Attachment Policy to retry failed requests at regular intervals. To view or edit this policy, navigate to the Retry Policies \[sys\_retry\_policy\] table at **All** &gt; **IntegrationHub** &gt; **Connections &amp; Credentials** &gt; **Retry Policies**.
 
 ## Inputs
 
@@ -44,6 +48,22 @@ Provide a value for each input that your action needs. To add dynamic values, yo
     Data type: **Record**
 
     Reference to a record on the local instance you are synchronizing with another instance. The data pill contains all the field values for the specified record. For example, a case record on the local instance.
+
+-   **Max Attachment Size \(MB\)**
+
+    Data type: **Integer**
+
+    Integer specifying the maximum uncompressed attachment size that can be included in the list of attachments, in megabytes.
+
+    You can use this field to limit attachment sizes and avoid errors that may result from syncing very large attachments.
+
+    Leave this field blank to use the platform limit for attachment sizes.
+
+-   **Allowed Extensions**
+
+    Data type: **List**
+
+    List containing the attachment extensions that can be included in the list of attachments. Leave this field blank to use the platform restrictions.
 
 
 ## Outputs

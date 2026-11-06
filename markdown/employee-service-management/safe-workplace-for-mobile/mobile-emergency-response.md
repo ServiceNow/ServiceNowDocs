@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace for mobile
 classification: safe-workplace-for-mobile
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Manage the essential steps for return to workplace from anywhere using the Safe 
 
 The ServiceNow® Safe Workplace mobile experience enables organizations to manage the essential steps for returning users to the workplace from anywhere with the Now Mobile app. With an intuitive mobile design and user-friendly interface, organizations can deliver a seamless return to workplace experience, enabling users to complete health screenings and surveys, set up visits, make reservations, request PPE, and more to support their health and safety.
 
-<table id="table_onh_wcp_plb"><tbody><tr><td>
+<table id="table_lbx_xss_fgc"><tbody><tr><td>
 
 \[Omitted image "health-applet-launcher.jpg"\] Alt text: Health applet launcher page
 
@@ -37,7 +37,7 @@ From the Safe Workplace for mobile app, users can access applications from the E
 
 **Note:** The Emergency Response Management for Now® Mobile app was renamed to Safe Workplace for mobile.
 
-<table id="table_m3j_3nr_gnb"><thead><tr><th>
+<table id="table_hmk_dts_fgc"><thead><tr><th>
 
 Emergency Response Management applications
 
@@ -68,7 +68,7 @@ Safe Workplace applications
 </td></tr></tbody>
 </table>## Safe Workplace for mobile features
 
-<table id="table_vhc_dqz_4lb"><tbody><tr><td>
+<table id="table_xy4_pts_fgc"><tbody><tr><td>
 
 \[Omitted image "recieve-notif-icon.png"\] Alt text: Receive and respond to outreach notifications.
 
@@ -377,6 +377,14 @@ Organizations remain solely responsible for complying with their legal obligatio
 ServiceNow is offering this application to government agencies and their authorized users, not to employees of government agencies in their individual capacities. Use of this application is being offered free of charge for a limited or extended time period and with no expectation of payment from the government agency to ServiceNow for use during that time period, nor does usage create an actual or implied future obligation on behalf of the government. ServiceNow hereby expressly waives any future claims for payment from the agency in connection with usage of the application. Government customers are solely responsible to confirm with the agency’s Ethics Office or its authorized representative that acceptance and usage of the application is permissible.
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
+
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
 -   **[Install Safe Workplace for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace-for-mobile/install-safe-workplace-mobile.md)**  
 Install the Now® Mobile app and Safe Workplace for mobile app.

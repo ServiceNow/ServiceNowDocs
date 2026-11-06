@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-related-party-install-base.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using customer access management, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using customer access management, Customer management, Use, Customer Service Management]
 ---
 
 # Add related parties to an install base item
@@ -20,7 +20,7 @@ Role required: admin and sn\_customerservice\_manager
 
 ## About this task
 
-An install base-related party is a list of contacts, consumers, contributors, service organization members, accounts, or service organizations. You add a related party to enable access to another party that isn't the owner of the install base. The related parties that you associate with an install base can access the install base and related entities, including the installed products, sold products, and cases that are associated with the install base.
+An install base-related party is a list of contacts, consumers, contributors, service organization members, accounts, or service organizations. You add a related party to enable access to another party that isn't the owner of the install base. Related parties associated with an install base can access it and its related entities, including installed products, sold products, and associated cases.
 
 **Note:** You can enable additional contacts by using the **Restrict Contact Access** field. For details, see [Restrict contact access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/manage-account-access-cam.md).
 
@@ -53,7 +53,7 @@ An install base-related party is a list of contacts, consumers, contributors, se
 
     **Note:** The **Responsibility** field on the Install Base-Related Parties form is automatically populated based on the type of related party that is selected. For information on the type of related parties, see [Create related party configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/adding-related-party-config-to-case.md).
 
-5.  To Use the **Order** field to specify the sequence in which records are displayed, organized according to business preferences.
+5.  To use the **Order** field to specify the sequence in which records are displayed, organized according to business preferences.
 
 6.  Select **Submit**.
 

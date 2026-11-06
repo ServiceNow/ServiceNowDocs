@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a document template for signing documents, Digital signature for PDF documents using CAC or PIV smart cards, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

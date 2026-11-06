@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/assess-impact-categories-bia.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -24,13 +24,13 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
 2.  Click the lists icon \(\[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
 
-    By default the records in the **In Draft** state of the Business Impact Analysis list opens.
+    By default, the list of BIA records in the **In Draft** state opens.
 
 3.  To create a business impact analysis \(BIA\) record, click **New**.
 
 4.  To update an existing BIA, click the link to the record in the **Name** column.
 
-    You can view different cards that give the information on the impact assessment result, its progress, and the dependencies of the business process on business application, hardware, software, or vendors.
+    You can view cards that display impact assessment results, progress, and business process dependencies on applications, hardware, software, or vendors.
 
     \[Omitted image "BIAImpactAssessmentDependencyView.png"\] Alt text: Impact assessment and dependency view of BIA
 
@@ -59,7 +59,7 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
     -   **BIA SLA**
 
-        The business impact analysis also requires a specific time by which the assessment of a business process must be completed. By default, the SLA timer is set to 30 days and it marks the time since the BIA is drafted, which is **In Draft** state, until the time it is complete, which is **Approved** state.
+        The business impact analysis also requires a specific time by which the assessment of a business process must be completed. By default, the SLA timer is set to 30 days and tracks the time from when the BIA enters **In Draft** state until it reaches **Approved** state.
 
 5.  To assess the different types of business impact categories on the business process, click the **RTO Impact Assessment** tab.
 
@@ -77,27 +77,17 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
         The order in which the impact categories appear in the **RTO Impact Assessment**, **RPO Impact Assessment**, and **Dependency Assessment** tabs depend on the order in which the impact categories are created in the template that is used in the BIA.
 
-        The order of impact rating in the RTO impact assessment grid and the order of the questions in the RPO impact assessment grid are defined by the impact rating scale and the impact analysis questions in the BIA, respectively.
-
-        However, any user who can access the BIA can change the order of the RPO impact grid, RTO impact categories, and dependency groups.
+        The order of impact ratings in the RTO impact assessment grid is defined by the impact rating scale in the BIA. The order of questions in the RPO impact assessment grid is defined by the impact analysis questions in the BIA. However, any user who can access the BIA can change the order of the RPO impact grid, RTO impact categories, and dependency groups.
 
     -   **Columns in dependency group grid**
 
-        If you had set up column configurations for an element of a dependency group and enabled your grid configuration as active, then you can view those columns in the dependency grid for the corresponding dependency group in which element definition matches with the grid configuration element definition.
-
-        Otherwise, you can view the grid that is rendered based on the configured view; that is either IT asset or non-IT asset view based on the required data backup value of the dependency group.
+        If you had set up column configurations for an element of a dependency group and enabled your grid configuration as active, then you can view those columns in the dependency grid for the corresponding dependency group in which element definition matches with the grid configuration element definition. Otherwise, you can view the grid that is rendered based on the configured view; that is either IT asset or non-IT asset view based on the required data backup value of the dependency group.
 
         \[Omitted image "GridConfigBCMWS.png"\] Alt text: Grid columns for dependency assessment.
 
         \[Omitted image "GridConfigBCMSetup.png"\] Alt text: Grid configuration setup.
 
-        For ad hoc reporting of variables created for dependency: Add the columns in Dependency report source \[sn\_bia\_dependency\_report\_source\] table to match the variables that you defined in Element variable where the **Enable reporting** option is set to **true**. A scheduled job that runs weekly:
-
-        -   retrieves the
-            -   dependencies \(sn\_bia\_dependency\), where the impact analysis is in approved state, updated in the last seven days, and has not expired, and the
-            -   corresponding element
-        -   and updates the data in the reporting table.
-        To display the columns that you require you must set up the [element variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-bcm-element-variable.md) and [grid configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-bcm-grid-config.md). For more information, see, [Grid configuration for column display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grid-config-dependency-assessment.md).
+        For ad-hoc reporting: Add the columns in Dependency report source \[sn\_bia\_dependency\_report\_source\] table to match the variables that you defined in Element variable where the **Enable reporting** option is set to **true**. A scheduled job runs weekly to retrieve dependencies \(sn\_bia\_dependency\) and their corresponding elements, then updates the data in the reporting table. The job retrieves dependencies where the impact analysis is in approved state, was updated in the last seven days, and has not expired. To display the columns that you require you must set up the [element variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-bcm-element-variable.md) and [grid configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-bcm-grid-config.md). For more information, see, [Grid configuration for column display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grid-config-dependency-assessment.md).
 
 8.  To change the order of appearance of the impact categories in RTO, RPO, and dependency groups in dependency assessment, navigate to **Business Continuity** &gt; **Business Impact Analysis** &gt; **Impact Category Results**.
 
@@ -107,19 +97,4 @@ Role required: sn\_bcm.program\_manager or sn\_bcm.planner
 
     3.  To change the order of dependency groups, click the Impact Dependency Groups related list and change the order.
 
-
--   **[Review an impact category and assess its recovery time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/review-impact-category-bia.md)**  
-Review the impact categories and define the timeframe during which the organization would experience the downtime of its business processes. Analyze the downtime or disruption duration, which helps to determine the recovery time objective for the asset that is assessed.
--   **[Assess RPO impact of technology assets on the business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/RPO-asset-impact-assessment.md)**  
-Use the RPO impact assessment tab to enter asset information. The information can be critical from the objective of its recovery, the data value of the asset, and the frequency at which the data changes in the asset.
--   **[Identify critical dependencies to prioritize recovery plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identify-dependent-items-bia.md)**  
-Use the **Dependency Assessment** tab to identify items or assets that belong to a definite object type or a dependency group.
--   **[View business impact analysis details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-bia-details.md)**  
-Use the **Details** tab to view the general information of the business impact analysis. You can also adjust the recovery time objective and recovery point objective results of the primary element as per your requirement.
--   **[View approval state flows for a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-approval-state-flows-bia.md)**  
-View the approval state transitions sent at each level of the approval process, and the details of the approvers as you direct the business impact analysis through multiple levels of approvals.
--   **[Update dependency details of a BIA in Self Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/my-self-service-bia.md)**  
-Use contributor role to update the disruption duration of the impact category result, RPO Impact analysis responses, state of the impact dependency group, and the work notes in the Activity related item.
-
-**Parent Topic:**[Structured workflows for Business Impact Analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/structured-workflows-bia.md)
 

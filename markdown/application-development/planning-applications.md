@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/planning-applications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Building applications]
+breadcrumb: [Classic app development, Building applications]
 ---
 
 # Planning your application
@@ -43,7 +43,7 @@ The application development process starts with planning. Consider how the appli
 
     Administrators can use Table Administration to view and modify the database structure.
 
--   **[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)**
+-   **[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/team-development-landing.md)**
 
     Team Development supports parallel development on multiple, non-production ServiceNow instances.
 
@@ -73,9 +73,5 @@ The application development process starts with planning. Consider how the appli
 -   **[ServiceNow application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-repository-self-hosted/app-repo.md)**
 
     After you develop and test a custom application, you can make the application available to company instances by publishing it to the ServiceNow application repository.
-
--   **Source Control integration**
-
-    Enable application developers to integrate with a Git Source Control repository. Save and manage multiple versions of an application from a non-production instance.
 
 

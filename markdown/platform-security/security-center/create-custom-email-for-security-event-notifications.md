@@ -7,7 +7,7 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure policy preferences, Security Event Notifications, Security monitoring console, Security Center, Platform Security]
 ---
@@ -66,7 +66,7 @@ Select the field next to **Send when** label and select **Triggered**.
 
 </td><td>
 
-Create an email template.See [Create an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAnEmailTemplate.md) for more information.
+Create an email template.See  for more information.
 
 Enter fields of the event into **Message HTML**. This can be done by using the `${event_id.FIELD_NAME}`. Here's an example:
 

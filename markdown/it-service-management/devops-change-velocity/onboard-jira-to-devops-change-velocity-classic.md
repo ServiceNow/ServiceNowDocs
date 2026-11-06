@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Jira, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -69,17 +69,9 @@ Jira Cloud
 **Note:** The Jira user that you use here must have the Jira Administrators permissions.
 
     2.  Enter the password or access token to access this instance.
-**OAuth 2.0**
+**OAuth 2.0 with 3LO**
 
-Pre-requisites:
-
-    -   
-    -   [Obtain the value of Cloud ID](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-jira-serv-mgmt.md)
-    -   
-    -   Create credential record for Jira Cloud
-In the **Tool credential** field, select an existing OAuth 2.0 tool credential record.
-
-**Note:** Only records that are not in use and configured for Jira Cloud can be selected as an existing credential record.
+Select the OAuth credential record. For more information, see [Connect a Jira tool using OAuth 2.0 with 3LO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/connect-a-jira-tool-using-oauth-2-0-with-3lo.md).
 
 </td></tr></tbody>
 </table>        For a list of all the permissions required on the credentials for connecting to Jira, see Jira permissions in [Permissions required for DevOps tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/tool-req-permission.md).

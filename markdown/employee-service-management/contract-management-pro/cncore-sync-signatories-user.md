@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Updating and synchronizing signatories, Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Updating and synchronizing signatories, Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Resolve an error during send for signature

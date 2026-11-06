@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mob-pub-about-custom-apps.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building and configuring in branded mobile apps, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Build/configure branded apps, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Create custom-type mobile apps with Mobile Publishing

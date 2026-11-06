@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Now LLM Service, Document Intelligence, Extract information from documents skill]
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Now Assist extract information from documents
@@ -21,5 +21,7 @@ Now Assist uses generative AI capabilities to extract values from the document b
 
 Agents can use the Document Intelligence workspace to review and confirm the extracted information.
 
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
+\[Omitted image "image.na-review-extracted-information"\] Alt text: Document Intelligence workspace showing the extracted information on the document image.
+
+For more information, see .
 

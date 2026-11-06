@@ -7,10 +7,10 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [mega menu, servicenow mega menu, menu taxonomy]
-breadcrumb: [Mega menu configuration, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Mega menu configuration, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Mega menu async load system properties
@@ -38,7 +38,7 @@ You can decouple the mega menu load from the homepage using the asynchronous pro
 
 2.  Search for the following properties and click open.
 
-    \[Omitted image "mm-sys-properties-megamenu.png"\] Alt text: Async load system properties with timeout and skeleton load
+    \[Omitted image "mm-sys-properties-megamenu.png"\] Alt text: Async load system properties with sample timeout and skeleton load
 
     1.  Toggle **sn\_ex\_sp.megamenu \_async\_load** to enable or disable the asynchronous mega menu loading feature.
 
@@ -47,7 +47,7 @@ You can decouple the mega menu load from the homepage using the asynchronous pro
     2.  Toggle **sn\_ex\_sp.megamenu\_async\_load\_skeleton\_view** to enable or disable the Mega Menu skeleton loader.
 
         -   True: Show the skeleton loader until the async flow gets the data.
-        -   False: Show previous session data until the async flow gets the data and then update the UI. For more information, see [User portal data map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/user-portal-data-map.md).
+        -   False: Show that previous session data until the async flow gets the data and then update the UI. For more information, see [User portal data map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/user-portal-data-map.md).
     3.  Specify the **sn\_ex\_sp.megamenu\_async\_timeout** timeout duration \(in milliseconds\) for loading the asynchronous mega menu.
 
         The default value is 15000. After 15 seconds, the UI aborts the data load and displays an error message

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Footer configuration, Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Footer configuration, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure the footer menus
@@ -24,7 +24,7 @@ Role required: sp\_admin or admin
 
 After you create a footer, configure the menus for the footer. For example, you can create Marketing as a menu category and associate links, such as Media Relations, Press Releases, and Brand Library to this menu.
 
-\[Omitted image "ec-marketing-footer-menu.png"\] Alt text: Marketing menu with associated links in the footer.
+
 
 ## Procedure
 
@@ -40,4 +40,6 @@ After you create a footer, configure the menus for the footer. For example, you 
 
 5.  Click **Submit**.
 
+
+**Parent Topic:**[Footer configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-footer-config.md)
 

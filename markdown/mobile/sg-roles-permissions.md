@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-roles-permissions.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [User roles and user criteria permissions for mobile apps, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [User roles/criteria permissions, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # User role permissions in mobile apps

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assigning work order tasks to agents using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Ignoring travel time of field service agents
@@ -28,6 +28,4 @@ Note the following parameters related to dynamic scheduling when Ignore travel i
 
 -   Double booking must be enabled for the system to assign tasks to the agent automatically.
 -   If access hours are defined in a work order task, the system ignores the defined access hours limit when auto-assigning that task to agents.
-
-**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

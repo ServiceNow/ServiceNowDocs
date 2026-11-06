@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Change models, Exploring Change Management, Change Management, IT Service Management]
+breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
 
 # Change Models properties
@@ -60,10 +60,10 @@ com.snc.change\_management.change\_model.default\_read\_roles
 
 </td><td>
 
-Comma-separated roles that have read access to change model records. Use this property to restrict who can view change model definitions.
+It is a default field value that sets the roles that are automatically added to change model when it's created. Use this property to control who can view change model definitions.
 
 </td></tr></tbody>
 </table>**Note:** If type compatibility is set to false, and change type does not match with a corresponding change model, the change model is marked as Legacy.
 
-**Parent Topic:**[Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models.md)
+**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/manage-change-models.md)
 

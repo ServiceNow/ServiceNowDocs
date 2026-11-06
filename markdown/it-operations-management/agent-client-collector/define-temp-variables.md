@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generate a Pattern allowlist, Enabling Agent Client Collector data collection, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Generate a Pattern allowlist, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Define temporary variables for a pattern allowlist

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Instantiating your network inventory by using design and assign, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Create a network topology record by using design and assign
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-When you instantiate a template, it creates a corresponding configuration item \(CI\) record in the Network Topology \[cmdb\_ci\_network\_topology\] table. And the root nodes are stored in the Topology Root Node \[cmdb\_network\_topology\_root\_node\] table. To learn more about the topology data model, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you instantiate a template, it creates a corresponding configuration item \(CI\) record in the Network Topology \[cmdb\_ci\_network\_topology\] table. And the root nodes are stored in the Topology Root Node \[cmdb\_network\_topology\_root\_node\] table. To learn more about the topology data model, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 

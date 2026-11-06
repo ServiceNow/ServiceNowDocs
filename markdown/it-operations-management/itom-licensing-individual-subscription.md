@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-licensing-individual-subscription.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [ITOM/OT SU Licensing subscription types, Explore, ITOM/OT SU Licens
 
 You can purchase subscriptions for individual ITOM applications \(ala carte\).
 
-The ITOM/OT SU Licensing application calculates and displays subscription consumption for ITOM applications purchased individually \(ala carte\). If your organization exceeds the number of subscription units, the Subscriptions window shows the relevant a la carte subscription as overdrawn. You cannot use unconsumed subscriptions for overdrawn subscriptions of another application.
+The ITOM/OT SU Licensing application calculates and displays subscription consumption for ITOM applications purchased individually \(a la carte\). If your organization exceeds the number of subscription units, the Subscriptions window shows the relevant a la carte subscription as overdrawn. You cannot use unconsumed subscriptions for overdrawn subscriptions of another application.
 
 The Subscriptions window displays information about the purchased and allocated subscriptions for ITOM applications.
 
@@ -24,7 +24,7 @@ If your organization surpasses the number of purchased subscriptions for an ITOM
 
 \[Omitted image "itom-license-subscr-only-diagram.png"\] Alt text: The diagram shows how the licensing module calculates a la carte subscriptions.
 
-If your organization exceeds the total number of subscription units purchased, the Subscriptions window indicates the relevant a la carte subscription as overdrawn. In the following illustration, ITOM Health consumed more subscriptions than the amount purchased for it.
+If your organization exceeds the total number of subscription units purchased, the Subscriptions window indicates the relevant a la carte subscription as overdrawn. In the following illustration, ITOM AIOps consumed more subscriptions than the amount purchased for it.
 
 \[Omitted image "itom-license-summary-carte-overdraft.png"\] Alt text: Subscriptions window showing a la carte subscriptions in an overdraft.
 

@@ -1,5 +1,5 @@
 ---
-title: Software Asset Management Foundation plugin discovery models and software installations
+title: Basic Software Asset Management discovery models and software installations
 description: Software discovery models are automatically created during discovery so you can manually normalize the software installed in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/c\_DiscoveryModelsSAMF.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Software Asset Management Foundation plugin, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Exploring Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Software Asset Management Foundation plugin discovery models and software installations
+# Basic Software Asset Management discovery models and software installations
 
 Software discovery models are automatically created during discovery so you can manually normalize the software installed in your environment.
 
@@ -238,7 +238,7 @@ Edition Override
 
 Override of the software edition setting.If the edition for the software was not discovered, you can edit this field to set the edition, if known, so reconciliation can be performed successfully.
 
- For more information, see [Manually override SAM Foundation edition value in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md).
+ For more information, see [Manually override SAM Foundation edition value](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_ManOverrideEditionSAMF.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -337,5 +337,5 @@ Omit from suites
 Check box for not counting the software install as a component of a suite during reconciliation.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
+</table>**Parent Topic:**[Exploring Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/exploring-sam-foundation.md)
 

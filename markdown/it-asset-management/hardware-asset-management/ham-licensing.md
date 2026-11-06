@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Hardware Asset Management subscription, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management subscription, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Hardware Asset Management licensing
@@ -22,6 +22,17 @@ Only the resource categories that are opted in are counted toward the Subscripti
 **Note:** By default for a particular resource category, the normalization functions for its associated models and the asset actions for its associated assets don't work. If you want to use the normalization functions and asset actions, you have to opt in that resource category.
 
 For more information about opting in or out of the HAM license resource categories, see [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
+
+**Important:**
+
+Every physical asset record in the Asset \[alm\_asset\] table counts toward your subscription total if it meets the following criteria:
+
+-   It belongs to a resource category your organization has opted in to for HAM licensing.
+-   It is in an active state \(not Disposed or Retired\).
+
+Assignment to a user is not required — an unassigned asset that meets these criteria counts the same as an assigned asset.
+
+HAM licensing has no dependency on CMDB CI classes or CI records.
 
 Based on the usage of model categories, the ServiceNow HAM license is divided into resource categories. There are different types of resource categories. Different assets fall under different categories as well. Make sure you opt in the correct and required categories. An asset represented in the Asset \[alm\_asset\] table and which meets the criteria for each managed IT resource type such as Server, End User Computers, Network Gear, and Mobile Device, is counted toward a Subscription Unit based on the predefined ratio of number of assets to subscription units.
 
@@ -217,6 +228,4 @@ Assets with the following model categories are excluded from accessing Hardware 
 
 
 [Licensing framework for Hardware Asset Management solutions]()
-
-[Hardware Asset Management license exclusion]()
 

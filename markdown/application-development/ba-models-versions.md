@@ -1,0 +1,45 @@
+---
+title: Supported models and versions
+description: Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/ba-models-versions.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Supported models and versions
+
+Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
+
+## Supported models
+
+Build Agent currently supports the following models:
+
+-   Azure OpenAI GPT 5.4
+-   Azure OpenAI GPT 5.5
+
+    **Note:** GPT 5.5 support is not available in the APAC region.
+
+-   Azure OpenAI GPT 5.6 Sol 
+-   Azure OpenAI GPT 6.1å Sol 
+-   Google Gemini 3.8 Flash
+-   Google Gemini 3.7 Flash
+-   Google Gemini 3.5 Flash
+-   Gemini 2.5 Pro
+-   Claude Opus 4.6
+-   Claude Opus 4.8
+-   Claude Opus 5.0
+
+## Changing the model and version
+
+You can change the version by selecting it directly in Build Agent or Autonomous Engineer.
+
+\[Omitted image "ba-model-version-change.png"\] Alt text: Model selection drop-down showing model options.
+
+To change the model in use, navigate to the AI Admin Hub. For information on changing the model that Build Agent or Autonomous Engineer uses, see [Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/edit-model-providers.md).
+
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md)
+

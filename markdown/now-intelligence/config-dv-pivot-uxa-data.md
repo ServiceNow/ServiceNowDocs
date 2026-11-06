@@ -1,18 +1,18 @@
 ---
-title: User Experience Analytics data options for pivot table visualizations
-description: When you select a User Experience Analytics data source for a pivot table visualization, the following Data configuration options are available.
+title: Usage Insights data options for pivot table data visualizations
+description: When you select a Usage Insights data source for a pivot table visualization, the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-pivot-uxa-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Pivot table visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Pivot table visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics data options for pivot table visualizations
+# Usage Insights data options for pivot table data visualizations
 
-When you select a User Experience Analytics data source for a pivot table visualization, the following Data configuration options are available.
+When you select a Usage Insights data source for a pivot table visualization, the following Data configuration options are available.
 
 **Important:** Pivot table visualizations are only suitable for Events data, not Users or Sessions. Only Events have a value to group by.
 
@@ -34,7 +34,7 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source, Events application, in [Create a pivot table visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-pivot-ac.md).
+You have selected a Usage Insights data source in [Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-pivot-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -42,11 +42,11 @@ Metric
 
 </td></tr><tr><td>
 
-Label
+Metric
 
 </td><td>
 
-Label of the metric. By default it is the same as the name of the data source.
+Label of the metric. By default it is the same as the name of the data source: Events or Sessions.For sessions, you can configure the metric to reflect the number of sessions, average session duration, average pages per session, or average sessions per user.
 
 </td></tr><tr><td>
 
@@ -66,9 +66,9 @@ Columns
 
 </td><td>
 
-Properties of the event in a User Experience Analytics data source.
+Properties of the Usage Insights data source.
 
-**Note:** Available only for Events metrics, in which case it is mandatory.
+**Note:** Available only for Events and Sessions metrics, in which case it is mandatory.
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Event property
 
 </td><td>
 
-Choice of properties of the event to select for a column or row.
+Choice of properties of the data source to select for a column or row.
 
 </td></tr><tr><td>
 
@@ -152,7 +152,7 @@ Triggered when you navigate away from the dashboard that contains the data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 
@@ -180,6 +180,14 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
 Content
 
 </td><td>
@@ -195,5 +203,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a pivot table visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-pivot-ac.md)
+</table>**Parent Topic:**[Create a pivot table data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-pivot-ac.md)
 

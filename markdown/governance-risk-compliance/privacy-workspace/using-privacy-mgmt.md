@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -22,12 +22,12 @@ When a privacy manager plans the privacy program for an organization, the first 
 Privacy assessments can be sent using various methods such as entities, entity types, and processing activities.
 -   **[Create a Risk Assessment Methodology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-risk-assessment-methodology.md)**  
 Configure a risk assessment methodology \(RAM\) in the Privacy Management application so that you can assess the risks in your organization.
--   **[Respond to a privacy smart assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md)**  
-Respond to either a screening assessment or an impact assessment from the Assessment Workspace. The assessment results help to understand the potential privacy risks and their mitigation measures.
+-   **[Respond to privacy impact assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/respond-to-a-privacy-smart-assessment.md)**  
+Respond to an impact assessment from the Assessment Workspace to help privacy teams understand the potential privacy risks and their mitigation measures.
 -   **[Respond to a privacy screening assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.md)**  
 As an entity owner or a processing activity key stakeholder, respond to the privacy assessment that is initiated by the privacy lead.
 -   **[Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md)**  
-As a privacy analyst, review a privacy assessment after the responders submit the assessment. You can either close the assessment after a review or you can also request for revision if you determine that the assessment requires more information.
+Review a privacy assessment after the business user submits it. You can either close the assessment after a review or request a revision if you determine that the assessment requires more information.
 -   **[Create or update a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-processing-activity.md)**  
 Manually create a processing activity or update a processing activity that is automatically created out of a privacy screening assessment. You can also update a processing activity that is created from an entity record. When you update a processing activity, you can fill in the relevant details about the personal data that is being processed.
 -   **[Create or manage an information object within a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-manage-io-on-pa.md)**  
@@ -38,12 +38,20 @@ Add data subject types to a processing activity in the Privacy Workspace.
 Add data subject types to privacy impact assessment from the Employee Center.
 -   **[Classify data subject type as vulnerable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/classify-data-subject-type-as-vulnerable.md)**  
 Classify a data subject type as vulnerable. When you mark a data subject type as vulnerable, the criticality score is calculated as High.
--   **[Add key stakeholders and send privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md)**  
-Add key stakeholders to a processing activity to identify the key members who are responsible for processing the personal data within the processing activity. You can then send the respective privacy assessments to the stakeholders based on their responsibilities. For example, an entity owner is a key stakeholder for a processing activity.
+-   **[Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md)**  
+Add key stakeholders to a processing activity. Based on their role, users are assigned default processing activity privileges that control whether they can edit a processing activity, view it, or respond to its privacy assessments.
+-   **[Enable key stakeholders to update processing activities directly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md)**  
+Enable stakeholders to update processing activities directly from the Employee Center by assigning the activity to them.
+-   **[Request edit access to a processing activity from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/request-edit-access-pa.md)**  
+Access a processing activity directly from the Employee Center and request edit access to update the details your team is responsible for.
 -   **[Add a regulatory agency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-a-regulatory-agency.md)**  
 Add a regulatory agency in the Privacy Workspace to identify the relevant regulatory authorities that are responsible for overseeing the industries or sectors within each jurisdiction. The jurisdictions consolidate all the regulatory communications via emails and implement the notification rules for data privacy or security breaches for the reported privacy cases.
--   **[Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)**  
-Establish a lineage to visualize data consumption, sharing, and the associated risks for a processing activity. Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a lineage or hierarchy that tracks where personal data is shared.
+-   **[Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)**  
+Define new relationships in a hierarchy directly on a processing activity to record how it connects to vendors, applications, systems, and other processing activities across regions. This enables you to track cross-border data transfers and generate a lineage map to visualize data consumption, sharing, and the associated risks for a processing activity.
+-   **[Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/lineage.md)**  
+Data lineage is the visual representation of the relationships you define in a hierarchy. You can add new relationships directly from the lineage map in a processing map.
+-   **[Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/data-transfers.md)**  
+Organizations often transfer personal data between applications, vendors, business units, and regions, which are subject to privacy regulations. Privacy Management captures each movement as a data transfer record on the processing activity to help you comply with privacy regulations.
 -   **[Create or manage a control on a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-controls.md)**  
 Add new controls or manage the controls that are automatically added to the processing activity from the assessment responses. Adding controls ensures that the appropriate regulations are applied to the processing activity.
 -   **[Delete a control from a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/delete-controls.md)**  
@@ -54,10 +62,8 @@ Add new risks or manage the risks that are automatically added to the processing
 Initiate quick discussions with key stakeholders while working on a processing activity, privacy case, or a personal data rights request. The chat feature is integrated with Microsoft Teams and a group is automatically created on Microsoft Teams when a discussion is initiated.
 -   **[Create or add issues on a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-or-manage-issues-on-a-pa.md)**  
 Create issues or add existing issues for a processing activity. Associating issues to a processing activity helps you to identify and prioritize remediation actions. Relating issues reduces the number of issues customers need to manage, thus improving the overall organizational efficiency in management of these issues.​
--   **[Assign a processing activity to a key stakeholder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/assign-pa-to-keystakeholders.md)**  
-Assign a processing activity to the defined key stakeholders for the stakeholders to start working on the processing activity.
--   **[Access control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)**  
-Describes how access to processing activity records can be restricted by using Entity-Based Access \(EBA\).
+-   **[Accessing control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)**  
+Access to processing activity records can be restricted by using Entity-Based Access \(EBA\).
 
 **Parent Topic:**[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-management.md)
 

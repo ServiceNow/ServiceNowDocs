@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-email-notifications-interaction.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure notifications and reminders for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure email notifications for an interaction
@@ -33,7 +33,7 @@ You can customize the existing notification or create a notification. For more i
 
 1.  Navigate to **All** &gt; **System Notifications ** &gt; **Email** &gt; **Notifications**.
 
-2.  Select the Show column search row icon \(\[Omitted image "Search\_icon\_eaaI.jpg"\] Alt text: Show column search icon\).
+2.  Select the Show column search row icon \(\[Omitted image "Search\_icon\_eaai\_new.png"\] Alt text: Search icon\[Omitted image "Search\_icon\_eaaI-new.png"\] Alt text: Show columns icon\).
 
 3.  In the  **Name** column, search for any of the following notification.
 

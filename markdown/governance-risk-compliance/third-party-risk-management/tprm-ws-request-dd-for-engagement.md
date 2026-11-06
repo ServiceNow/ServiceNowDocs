@@ -7,8 +7,8 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Request due diligence, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -44,6 +44,8 @@ Because your organization assesses the risk that is associated with doing busine
 
     For descriptions of each type of due diligence request, see [Requesting third-party risk due diligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-requesting-tpr-due-diligence.md).
 
+    **Note:** If your organization requires a software bill of materials \(SBOM\) from the third party as part of due diligence, select **SBOM required** on the request form. When selected and the engagement uses the Smart Assessment Engine, the system automatically associates an SBOM questionnaire with the engagement's external assessment. For more information, see [Request a software bill of materials from an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-sbom-collect.md).
+
 4.  Select **Add attachments** to include a document with the request.
 
 5.  Specify the third party for the engagement.
@@ -60,7 +62,7 @@ Because your organization assesses the risk that is associated with doing busine
         1.  Select the **Third party is not listed** check box.
         2.  Enter the name of the new third party.
         3.  The form expands. In the next step, you enter the key information like the address and contact details for the third party and for the engagement.
-    If you selected an existing third party, much of the information is automatically filled in. For descriptions of these fields, see [Request third-party risk due diligence request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-dd-form.md).
+    If you selected an existing third party, identifying information such as address and contact details is automatically filled in. For descriptions of these fields, see [Request third-party risk due diligence request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-dd-form.md).
 
 6.  Select **Submit**.
 

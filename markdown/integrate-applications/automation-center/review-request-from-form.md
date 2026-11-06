@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating a review request, Working with reviews, Using Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Creating a review request, Working with reviews, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Create a review request from Automation Center

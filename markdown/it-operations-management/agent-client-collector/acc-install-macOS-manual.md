@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Agent Client Collector installation on macOS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Manually install Agent Client Collector on macOS
@@ -20,7 +20,7 @@ Install Agent Client Collector manually on a machine that uses macOS when the ag
 
 -   Ensure that you have configured the Agent Client Collector web server.
 -   Verify that your server's OS and version matches the list of supported OS versions as described in [Agent Client Collector Installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
--   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
+-   \(Optional\): Enable golden image mode for cloning additional agents by setting the golden image marker located at `/Library/Preferences/acc.rc.plist`.
 -   Navigate to **Agent Client Collector** &gt; **Deployment** &gt; **Agent Downloads** and download the signed `.pkg` relevant for your OS.
 -   Store the `.pkg` installation package on one of your installed agents.
 
@@ -94,5 +94,5 @@ Role required: agent\_client\_collector\_admin
     **Note:** By default, exiting the installation program causes the program to restart immediately. To ensure that the program remains stopped after exiting, set the KeepAlive property in the `/Library/LaunchDaemons/com.sn.acc.plist` file to **false**.
 
 
-**Parent Topic:**[Agent Client Collector installation on macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

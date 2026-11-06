@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/voice-agent-analytics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # AI voice agent analytics
@@ -16,5 +16,5 @@ The Voice dashboard page in the Analytics tab of Assistant Designer helps you mo
 
 ## Accessing AI voice agent analytics
 
-To view the dashboard, navigate to **All** &gt; **Assistant Designer** &gt; **Analytics** and select the **Voice** tab. See [Voice page in assistant analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/voice-assistant-analytics.md) for more information.
+To view the dashboard, navigate to **All** &gt; **Assistant Designer** &gt; **Analytics** and select the **Voice** tab. See  for more information.
 

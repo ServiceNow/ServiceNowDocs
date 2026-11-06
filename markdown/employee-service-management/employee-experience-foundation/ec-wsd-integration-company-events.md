@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Company events, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Company events, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Workplace Service Delivery Integration
@@ -30,7 +30,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 1.  Navigate to **Workplace Service Management** &gt; **Portal** &gt; **New Reservation.**
 
-2.  \[Omitted image "wsd-integration-wrm-nr.png"\] Alt text: Create a new reservation through WSD portal
+2.  \[Omitted image "image.wsd-integration-wrm-nr"\] Alt text: Create a new reservation through WSD portal
 
 3.  Enter the day and time for the event to start and end.
 
@@ -38,7 +38,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 4.  Select **Search** to populate the **Search results** for a list of available buildings for the day and time you selected.
 
-5.  \[Omitted image "wsd-integration-make-reservation.png"\] Alt text: Set a day and time for your reservation and see search results
+5.  \[Omitted image "image.wsd-integration-make-reservation"\] Alt text: Set a day and time for your reservation and see search results
 
 6.  Select **Next**.
 
@@ -50,7 +50,7 @@ The workplace service delivery integrates with employee center pro to provide yo
 
 9.  Review the **Reservation summary** and select **Submit reservation**.
 
-10. \[Omitted image "wsd-integration-reservation-details.png"\] Alt text: See your reservation details and summary to validate the information you selected
+10. \[Omitted image "image.wsd-integration-reservation-details"\] Alt text: See your reservation details and summary to validate the information you selected
 
     **Note:** Any **Workplace User** can see the **Reservation details** and **Reservation summary**; however, only a **Content Manager** is able to save the event or make changes to the event in the content library.
 

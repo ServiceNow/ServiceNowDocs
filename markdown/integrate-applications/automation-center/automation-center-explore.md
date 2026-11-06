@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automation Center, Data and Automation]
+breadcrumb: [Automation Center, Workflow Data Fabric]
 ---
 
 # Exploring Automation Center
@@ -34,6 +34,8 @@ The Automation Center Kanban board provides an easy access to view and manage au
 Action Center provides an easy way to fix repeated issues that cause automations to fail in Automation Center.
 -   **[Connection Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/conn-manager.md)**  
 Connection Manager enables you to add data from a third-party tool into Automation Center tables by correctly mapping and testing the data import.
+-   **[Migration accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/migration.md)**  
+Migration accelerator enables seamless, low-effort, cost-efficient migration of UiPath, Blue Prism, and Automation Anywhere automations to ServiceNow RPA Hub. It’s a solution that minimizes downtime, maximizes reuse, and accelerates time-to-value.
 
 **Parent Topic:**[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-landing-page.md)
 

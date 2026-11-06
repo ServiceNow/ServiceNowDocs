@@ -1,20 +1,20 @@
 ---
 title: Discovery properties
-description: Discovery properties allow you to control several aspects of the horizontal discovery process.
+description: Discovery properties enable you to control several aspects of the horizontal discovery process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/r\_DiscoveryProperties.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 28
+last_updated: "2026-09-10"
+reading_time_minutes: 30
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery properties
 
-Discovery properties allow you to control several aspects of the horizontal discovery process.
+Discovery properties enable you to control several aspects of the horizontal discovery process.
 
 For information about the Discovery properties that Agent Client Collector uses, see [Using push-based and horizontal IP-based Discovery together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/using-enhanced-discovery-and-agent-less-discovery-together.md).
 
@@ -45,7 +45,7 @@ glide.discovery.enforce\_unique\_ips
 
 </td><td>
 
-Enforce unique IP addresses: Ignores the IP address after Discovery encounters subsequent devices that use the same IP address. Each time a computer, printer, or network gear with a valid IP address is discovered, any other devices with the same IP address have their IP address field cleared. If inactive, stores the IP address for each device.
+Enforce unique IP addresses: Ignores the IP address after Discovery encounters subsequent devices that use the same IP address. Each time a computer, printer, or network device with a valid IP address is discovered, the IP address field is cleared on any other device sharing that address. If inactive, stores the IP address for each device.
 
  -   Type: true \| false
 -   Default value false
@@ -67,7 +67,7 @@ glide.discovery.bgp\_router\_disable
 
 </td><td>
 
-BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. Normally such exploration IS inactive because of the huge size of BGP routing tables, and because generally such routers are only operating at the edge of large networks where further network discovery would be irrelevant. This value could be set to false if your organization only uses BGP routers as edge routers between relatively small networks \(such as between buildings on a single campus\).
+BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. This exploration is inactive by default because BGP routing tables are large. These routers typically operate at the edge of large networks, where further network discovery is not relevant. Set this value to false if your organization uses BGP routers as edge routers between relatively small networks. For example, between buildings on a single campus.
 
  If you must populate the \[discovery\_device\_neighbors\] table during horizontal layer 2 discovery of the bgp-enabled devices, set the **BGP router exploration disable** property to **No**. Notice that enabling this property can cause performance issues including out-of-memory issues on the MID Server.
 
@@ -151,6 +151,16 @@ com.snc.use\_external\_credentials
 
 Allows the use of external storage of credentials.-   Type: true \| false
 -   Default value: true
+
+</td></tr><tr><td>
+
+com.glide.codesigning.tracking.unsupported\_script\_tracking.enabled
+
+</td><td>
+
+Controls script tracking for code signing on Cloud Discovery. When set to true and code signing is enabled, ECC queue records inserted through unsupported scripts are not notarized, which can cause Cloud Discovery operations to fail. Set this property to **false** to enable Cloud Discovery on code-signed instances.-   Type: true \| false
+-   Default value: true
+-   Learn more: [Configure Cloud Discovery for code-signed instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-cloud-disco-code-sign.md)
 
 </td></tr><tr><td>
 
@@ -338,10 +348,10 @@ glide.discovery.certs.enable\_incident\_creation\_for\_expired\_certificates
 
 </td><td>
 
-Certificate Inventory and Management: Enables the Scheduled Job to create the incidents for expired certificates, for example, certificates whose validity is past current system date or time. By default, this property is enabled.
+Certificate Inventory and Management: Enables the Scheduled Job to create the incidents for expired certificates, for example, certificates whose validity is past current system date or time.
 
  -   Type: true \| false
--   Default value: true
+-   Default value: false
 
 </td></tr><tr><td>
 
@@ -451,7 +461,7 @@ glide.discovery.enable\_mac\_address\_verification
 
 </td><td>
 
-Enables MAC address verification to determine if a device has changed its IP address during a discovery. If set to **true**, Discovery passes the MAC address of a device being discovered to the MID Server so that probes can determine if the IP address has changed while Discovery is running. If the device has changed IP addresses, then Discovery stops processing that IP address and updates the Discovery log with a warning message. Discovery doesn’t stop processing other IP addresses.
+Enables MAC address verification to determine if a device has changed its IP address during a discovery. If set to **true**, Discovery passes the MAC address of a device to the MID Server. Probes use this to determine whether the IP address changed during discovery. If the device has changed IP addresses, then Discovery stops processing that IP address and updates the Discovery log with a warning message. Discovery doesn’t stop processing other IP addresses.
 
  -   Type: true \| false
 -   Default value: false
@@ -487,6 +497,24 @@ glide.discovery.enable.software\_simplify\_sccm
 </td><td>
 
 Enables cleanup for SCCM software. If set to **true**, Discovery changes the Name of the software to be the same as SCCM. If set to **false**, Discovery doesn’t clean up the Name. Use with the **glide.discovery.enable.software\_simplify** property to avoid software data discrepancy between Discovery and SCCM.-   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
+glide.discovery.enable\_ssm
+
+</td><td>
+
+Enables AWS SSM-based discovery.-   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
+glide.discovery.ssm.enable\_windows
+
+</td><td>
+
+Enables AWS SSM-based discovery on Windows machines as a high-level system user that can run any command.-   Type: true \| false
 -   Default value: false
 
 </td></tr><tr><td>
@@ -582,7 +610,7 @@ glide.discovery.hostname.snmp\_trusted
 </td><td>
 
 SNMP is trusted host name source: If set to **true**, trust the device name discovered via SNMP. If checked, any device name found via SNMP is used instead of the name found by a reverse DNS lookup. -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Yokohama, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -593,7 +621,7 @@ glide.discovery.hostname.ssh\_trusted
 SSH is trusted host name source: If set to **true**, trust the device name discovered via SSH. If checked, any device name found via SSH is used instead of the name found by a reverse DNS lookup.**Note:** For Linux, AIX, and Solaris patterns, do not use the DNS name as the host name.
 
 -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Yokohama, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -602,7 +630,7 @@ glide.discovery.hostname.wmi\_trusted
 </td><td>
 
 WMI is trusted host name source: If set to **true**, trust the device name discovered via WMI. If checked, any device name found via WMI is used instead of the name found by a reverse DNS lookup.-   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Yokohama, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 
 </td></tr><tr><td>
 
@@ -624,7 +652,7 @@ IP service affinity: If set to **true**, IP service affinity is enabled. IP serv
  **Note:** You must enable ip\_service\_affinity records if you’re using multiple SSH ports.
 
  -   Type: true \| false
--   Default value: false \(For new Discovery customers starting in Yokohama, default value is true.\)
+-   Default value: false \(For new Discovery customers starting in Brazil, default value is true.\)
 -   Learn More: [Check IP service affinity for Discovery and Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CheckIPServiceAffinity.md)
 
 </td></tr><tr><td>
@@ -636,6 +664,15 @@ glide.discovery.L3\_mapping
 Map servers and network devices to routers and layer-3 switches If the "L3 mapping" property is enabled, it maps servers and network gears to its associated routers and layer-3 switches.-   Type: true \| false
 -   Default value: true
 -   Learn More: [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_NetworkDiscovery.md)
+
+</td></tr><tr><td>
+
+glide.discovery.log\_debug
+
+</td><td>
+
+Controls debug logging for Discovery. When set to **false** \(default\), Discovery debug statements aren't logged. Setting the property to **true** enables debug logging for Discovery, allowing detailed debug statements to be written to the logs.-   Type: true \| false
+-   Default value: false
 
 </td></tr><tr><td>
 
@@ -755,6 +792,14 @@ glide.discovery.roundingInterval.ram
 
 Memory rounding: Enter the number to round the computer RAM to. The units are in MB.-   Type: integer
 -   Default value: 1
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -880,7 +925,18 @@ glide.discovery.shazzam\_ranges\_json
 
 </td><td>
 
-Use JSON for IP ranges in Shazzam: If set to **true**, discovery encodes Shazzam's IP ranges as JSON, dramatically reducing the payload size.-   Type: true \| false
+Use JSON for IP ranges in Shazzam: If set to **true**, Discovery encodes Shazzam's IP ranges as JSON, dramatically reducing the payload size.-   Type: true \| false
+-   Default value: true
+
+</td></tr><tr><td>
+
+glide.discovery.shazzam\_simplify\_ranges
+
+</td><td>
+
+If set to **true**, Shazzam detects IPs included in multiple ranges of the same Discovery schedule and removes duplicates from all but one range. Deduplication is limited to schedules with a single behavior. Schedules with multiple behaviors work, but duplicate IPs aren’t removed.
+
+ -   Type: true \| false
 -   Default value: true
 
 </td></tr><tr><td>
@@ -1022,8 +1078,32 @@ sn\_disco\_certmgmt.enable\_csr\_generation
 
 </td><td>
 
-Enables automatic CSR generation on the Certificate Inventory and Management **Request New Certificate** and **Request New Ceriticate \(Automated\)** forms. This feature is disabled by default for security.-   Type: true \| false
+Enables automatic CSR generation on the Certificate Inventory and Management **Request New Certificate** and **Request New Ceriticate \(Automated\)** forms. This property also controls whether the PKCS12 certificate format is available, because a PKCS\#12 key store requires a private key that is generated with the CSR. This feature is disabled by default for security.-   Type: true \| false
 -   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_certmgmt.find\_and\_attach\_root\_certificate
+
+</td><td>
+
+Certificate Inventory and Management Finds the root certificate by its subject common name and links it to the certificate chain during discovery. This happens only when the root certificate is already in the CMDB. If no root is found, nothing is linked. Use this property when discovery retrieves only the server certificate, for example, when access to the root and intermediate certificates is restricted. When this property is enabled, discovery searches the certificates that are already in the CMDB for the root certificate of the discovered certificate and links it.
+
+ -   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_certmgmt.mark\_self\_signed\_for\_incomplete\_chain
+
+</td><td>
+
+Certificate Inventory and Management When discovery captures an incomplete certificate chain, sets the last captured certificate as its own root issuer and issuer. For example, this happens for a server certificate discovered without its root and intermediate certificates.
+
+ This doesn't change the certificate's Is self-signed value. Set the value of the property to false to turn this behavior off. This property isn't available in the base system. To change its value, create the property in the System Property \[sys\_properties\] table.
+
+ -   Type: true \| false
+-   Default value: true \(if the property doesn't exist\)
 
 </td></tr><tr><td>
 
@@ -1105,10 +1185,26 @@ sn\_disco\_workspace.discovery\_stats\_time\_scale
 
 </td><td>
 
-Discovery Admin Workspace: Allows you to see the health of your Discovery schedules over your preferred time span. Options include: 7, 14, and 30 days. Selecting a different value updates indicators and charts to measure over this time period.
-
- -   Type: choice list
+Discovery Admin Workspace: Configures the time scale for all relevant charts in Discovery Admin Workspace. Setting the time scale enables you to view the health of your Discovery schedules over your preferred time span.-   Type: choice list
 -   Default value: 7
+
+</td></tr><tr><td>
+
+sn\_disco\_workspace.enable\_auto\_create\_schedules
+
+</td><td>
+
+Discovery Admin Workspace: Enables automatic creation and management of Discovery schedules based on IPv6 network infrastructure data in IPAM. When set to **true**, Discovery uses your IPAM data to generate schedules that target IPv4 and IPv6 networks without requiring manual schedule configuration.-   Type: true \| false
+-   Default value: false
+
+</td></tr><tr><td>
+
+sn\_disco\_workspace.enable\_error\_framework
+
+</td><td>
+
+Discovery Admin Workspace: Controls whether the Error Framework is active for Discovery. When set to **true**, Discovery uses the Error Framework to capture and display errors in Discovery Admin Workspace. When set to **false**, Discovery uses the legacy Diagnostics experience.-   Type: true \| false
+-   Default value: true
 
 </td></tr><tr><td>
 

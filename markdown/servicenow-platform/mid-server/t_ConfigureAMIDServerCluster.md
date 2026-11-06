@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -89,6 +89,12 @@ The following event is triggered when the platform cannot find a MID Server with
 |-----|-----|-----------|-------------|
 |mid\_server.cluster.down|MID Server Cluster`[ecc_agent_cluster]`|A MID Server cluster has failed|MID Server Cluster Management|
 
+### Combining clusters
+
+A MID Server can be added to both types of clusters at the same time. This diagram shows a scenario in which a MID Server from a load balancing cluster \(MID Server D\) is also present in a fail-over cluster. If MID Server D fails, MID Server E in the failover cluster is available to the load balancing cluster to perform the tasks previously assigned to MID Server D.
+
+\[Omitted image "MIDServerClustersDiagram.png"\] Alt text: MID Server failover example
+
 ### Specifying a specific MID Server cluster
 
 You can specify a specific MID Server cluster for a Discovery schedule. The discovery process uses that cluster only. You cannot chain clusters or specify a single MID Server that belongs to multiple clusters.
@@ -102,10 +108,4 @@ The distributed MID Server cluster type is used exclusively in Operational Intel
 Using Smart Workload Manager, an application assigns jobs to MID Servers based on true load. The application may used cluster based MID Server selection. In cases where some MID Servers in the cluster slow in processing jobs, the MID Servers which are processing records faster are assigned more jobs.
 
 The instance is aware of individual MID Servers in the cluster and their work load capacity. Work assignments are dynamically distributed based on the real-time performance and metric data of each MID Server. By considering key factors such as current task queue size, processing speed, and system load, tasks will be assigned more efficiently to prevent overloading any single server and enhance overall system stability. MID Servers with lower workload and higher processing speed receive more tasks.
-
-### Combining legacy clusters
-
-Combining MID Server Clusters is only for use with legacy selection methods. A MID Server can be added to both types of clusters at the same time. This diagram shows a scenario in which a MID Server from a load balancing cluster \(MID Server D\) is also present in a fail-over cluster. If MID Server D fails, MID Server E in the failover cluster is available to the load balancing cluster to perform the tasks previously assigned to MID Server D.
-
-\[Omitted image "MIDServerClustersDiagram.png"\] Alt text: MID Server failover example
 

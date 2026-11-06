@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -26,7 +26,7 @@ To understand more details about a processing activity, refer to [Processing act
 
 The following image shows the Overview tab of a processing activity.
 
-\[Omitted image "processing-activity-overview.png"\] Alt text: A processing activity record.
+\[Omitted image "processing-activity-prm-hr-onboarding-sample.png"\] Alt text: A processing activity record.
 
 -   **[Workflow of a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/stages-pa.md)**  
 A processing activity workflow helps the privacy analysts to manage the life cycle of a processing activity.

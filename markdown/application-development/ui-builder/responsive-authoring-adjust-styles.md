@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Adjust styles for responsive authoring
@@ -92,8 +92,6 @@ A method of increasing page usability is to tailor components using different st
 
     The stylized text component uses a great deal of vertical space at the smaller size.
 
-    \[Omitted image "responsive-author-styles4.png"\] Alt text: Page displayed at the mobile form factor with large margin around stylized text component and H1 heading size.
-
 11. Remove the extra margin space and make the heading smaller just for the mobile form factor.
 
     1.  In the content tree, select **Stylized text 1**.
@@ -111,8 +109,6 @@ A method of increasing page usability is to tailor components using different st
     7.  Select **Save**.
 
     The stage updates automatically showing that the stylized text component uses less space.
-
-    \[Omitted image "responsive-author-styles5.png"\] Alt text: Page displayed at the mobile form factor with zero margin around stylized text component and reduced heading size.
 
 12. Select the tablet and the desktop form factor icons at the top to confirm that no changes were made to the larger form factors.
 

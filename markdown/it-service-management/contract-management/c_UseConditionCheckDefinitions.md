@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Condition check definitions
@@ -33,6 +33,8 @@ You can define a condition check to change values in a contract when the **Contr
 [Use the Asset Contract Overview module]()
 
 [Components installed with Contract Management]()
+
+[Contract approval flow]()
 
 [Contract Management use]()
 

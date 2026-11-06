@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Define escalation process, On-Call Scheduling, IT Service Management]
+breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Create an escalation policy
@@ -36,7 +36,7 @@ On-Call Scheduling supports multiple escalation policies per shift; for example,
 
 1.  Create a custom escalation policy using the escalation designer.
 
-<table id="choicetable_xjj_bsh_cgb"><tbody><tr><td id="d148108e93">
+<table id="choicetable_xjj_bsh_cgb"><tbody><tr><td id="d251577e93">
 
 **Access the designer from the On-Call Schedules module**
 
@@ -48,7 +48,7 @@ On-Call Scheduling supports multiple escalation policies per shift; for example,
 4.  Click **Override escalation** and click **OK** in the confirmation window.
 
 
-</td></tr><tr><td id="d148108e135">
+</td></tr><tr><td id="d251577e135">
 
 **Access the designer from the My Group Schedules module**
 

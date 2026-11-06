@@ -1,22 +1,22 @@
 ---
 title: Ensure dashboards creation/deletion requires access check \[New in Security Center 1.3 and updated in 2.0\]
-description: The glide.processors.check\_access\_before\_process property enables access control list \(ACL\) enforcement for creating or deleting dashboards when a user is logged in.
+description: The glide.processors.check\_access\_before\_process system property enables access control list \(ACL\) enforcement for creating or deleting dashboards when a user is logged in.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-ensure-dashboards-creation-deletion-requires-access-check.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
 # Ensure dashboards creation/deletion requires access check \[New in Security Center 1.3 and updated in 2.0\]
 
-The **glide.processors.check\_access\_before\_process** property enables access control list \(ACL\) enforcement for creating or deleting dashboards when a user is logged in.
+The **glide.processors.check\_access\_before\_process** system property enables access control list \(ACL\) enforcement for creating or deleting dashboards when a user is logged in.
 
-Ensure the Glide Property **glide.processors.check\_access\_before\_process** exists and is set to the value true. If the property does not appear in the sys\_properties table, add a new record.
+Set the **glide.processors.check\_access\_before\_process** system property to **true**. If the property does not appear in the System Properties \[sys\_properties\] table, the fallback value is **true**.
 
 ## More information
 
@@ -50,7 +50,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -66,7 +66,15 @@ Default value
 
 </td><td>
 
-false
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
 
 </td></tr><tr><td>
 

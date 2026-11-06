@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring air gap connections, Microsoft SCCM, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

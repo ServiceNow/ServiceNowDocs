@@ -7,8 +7,8 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Health and Safety, Employee Service Management]
 ---
 
@@ -41,7 +41,7 @@ To turn on offline mode on your mobile, do the following:
 
 **Tip:** To schedule a periodic download of cache, configure the **glide.sg.offline.scheduled\_download.enabled** system property on your instance. For more information, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/sg-configure-offline-mode.md).
 
-\[Omitted image "hs-health-safety-mobile.png"\] Alt text: Health and Safety Incident Management on an Android device.
+
 
 -   **[Configure mobile apps to access Health and Safety applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/configure-now-mobile-health-safety.md)**  
 Configure the ServiceNow mobile apps to access Health and Safety applications for submitting safety incidents, observations, and job safety analyses \(JSAs\).

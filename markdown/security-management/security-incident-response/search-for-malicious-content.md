@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks - AutoFocus integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,15 +24,13 @@ Role required: sn\_si.analyst
 
 The **Security Operations Palo Alto Networks- Get AutoFocus Session Info Enrichment** flow is executed when the **Source IP** field in a security incident is modified and the record is updated. The flow fetches the IP address and submits a query request to AutoFocus. If AutoFocus has previously identified sessions originating from the IP address, a JSON-formatted report is returned.
 
-\[Omitted image "get-autofocus-session.png"\] Alt text: Get AutoFocus Session Flow
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Show Open Incidents**.
 
-2.  Click the **Indicators of Compromise** tab and populate the **Source IP** field.
+2.  Select the **Indicators of Compromise** tab and populate the **Source IP** field.
 
-3.  Click **Update**.
+3.  Select **Update**.
 
     AutoFocus scans the information from the IP address and a text file in JSON format is attached to the security incident.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Contextual Search
 classification: contextual-search
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring contextual search, Contextual search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -111,7 +111,7 @@ When the value is set to false, a relative or external link can be opened from t
 
 To review this property in the System Properties \[sys\_properties\] table, enter `sys_properties.list` in the navigation filter.
 
-**Note:** This property is available from the Yokohama patch 1 release onwards.
+**Note:** The contextual search window is displayed in the core UI.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Configuring contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/contextual-search/configuring-contextual-search.md)

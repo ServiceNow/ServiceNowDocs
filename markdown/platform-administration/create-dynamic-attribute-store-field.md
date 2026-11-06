@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/create-dynamic-attribute-store-field.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Storing dynamic attributes on a record, Dynamic Schema, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a dynamic attribute store field
@@ -18,44 +18,50 @@ Store dynamic attributes on a record using a dynamic attribute store field.
 
 Role required: admin
 
+## About this task
+
+You can create a dynamic attribute store field to store one or more dynamic attributes that describe a record. When you create a dynamic attribute store field, the following schema changes occur automatically.
+
+-   A dynamic namespace is automatically created and associated with the dynamic attribute store field. Dynamic attributes, dynamic categories and other items defined in the dynamic namespace become available to the store field. You may modify the namespace of a store field at any time without affecting data stored for that field. The system will begin interacting with that data using definitions provided by the new namespace.
+-   A dynamic category reference field is automatically added to the same table and associated with the store field. This category reference field provides additional metadata for the store field to guide users when deciding which attributes to add.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Tables**.
 
-2.  Select the table that you want use for storing dynamic attributes.
+2.  Select the table that you want to use for storing dynamic attributes.
 
-3.  In the Table Columns related list, select **New**.
+3.  In the Columns related list, select **New**.
 
 4.  In the Type field, select **Dynamic Attribute Store**.
 
-5.  Complete the form by providing a Column label, Column name, and optional field attributes as necessary.
+5.  Complete the form by providing a Column label.
 
 6.  Select **Submit**.
 
-    The dynamic attribute store field is added to the table.
 
-7.  Create a relationship between the dynamic attribute store field and a dynamic schema reference field.
+## Result
 
-    1.  Select **Use dependent field**.
+-   A dynamic attribute store field is added to the table. An associated dynamic namespace is created with the following naming format:
 
-    2.  Select the **Dependent on field** drop-down list.
+    ```
+    <table_name>/<dynamic_attribute_store_column_name>
+    ```
 
-    3.  In the list of elements, select the dynamic schema reference field that you created by following the steps in [Create a dynamic schema reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-dynamic-schema-reference.md).
+-   A dynamic category reference field is added to the table. A dependency relationship is established between the category reference field and the dynamic attribute store field.
 
-        **Note:** The reference field that the dynamic attribute store field depends on doesn’t need to exist on the same table. You can dot-walk to the dynamic schema metadata from the table that holds the dynamic attribute store field. For example, you might dot-walk from the Product field on your Sold Products table to the Products table to get its schema information.
+## New dynamic store field on the Products table
 
-8.  Select **Update**.
-
-
-## Add a dynamic attribute store field
-
-\[Omitted image "dynamic-json-field-example.png"\] Alt text: Add a dynamic attribute store field to your table.
-
-## Set up the dependency between the dynamic attribute store field and a dynamic schema reference field
-
-\[Omitted image "dynamic-json-dependent-on.png"\] Alt text: Make the dynamic attribute store field dependent on the reference field.
+\[Omitted image "dynamic-store-field-example.png"\] Alt text: A dynamic attribute store field is created for capturing attributes about products.
 
 ## What to do next
 
-[Add dynamic attributes to a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/add-dynamic-attributes-record.md)
+Develop your dynamic schema by creating dynamic attributes and dynamic categories. You can build out the schema using either of the following methods:
+
+-   Add dynamic attributes and dynamic categories to the dynamic namespace that's currently associated with the store field you created. Refer to the following topics:
+    -   [Create a dynamic attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/add-dynamic-attributes.md)
+    -   [Create a dynamic category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-dynamic-category.md)
+-   Add dynamic attributes and dynamic categories to a new dynamic namespace and then associate that namespace with the store field that you created. Refer to the following topics:
+    -   [Create a dynamic namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-dynamic-namespace.md)
+    -   [Associate a dynamic attribute store with a different namespace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/update-dynamic-namespace-dynamic-attribute-store.md)
 

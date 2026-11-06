@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,11 +34,9 @@ Administrators can restrict who can rename hashtags.
 
 4.  Point to the hashtag you want to change.
 
-    If you have the rights to edit hashtags, an edit tag \(\[Omitted image "Pencil.png"\] Alt text: Pencil\) appears.
+    If you have the rights to edit hashtags, an edit tag displays.
 
 5.  Click the edit tag icon.
-
-    \[Omitted image "EditTag.png"\] Alt text: Edit tag
 
 6.  Enter a new hashtag name.
 

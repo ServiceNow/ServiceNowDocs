@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/scope-resource-access.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Restricted caller access privilege settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Set the application scope, application resource, and event access
@@ -31,7 +31,7 @@ You can set the following restricted caller access privilege settings combinatio
 -   Source-to-Scope
 -   Source-to-Target
 
-**Note:** In the Rome release, we have enforced that an RCA privilege record must be present in the target application to grant access to a resource. This means that the target scope must match the application scope.
+**Note:** An RCA privilege record must be present in the target application to grant access to a resource. This means that the target scope must match the application scope.
 
 ## Procedure
 

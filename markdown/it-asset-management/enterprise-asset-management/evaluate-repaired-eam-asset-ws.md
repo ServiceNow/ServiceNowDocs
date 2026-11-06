@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Fulfill repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfill repair orders manually, Fulfilling repair orders in the Enterprise Asset Workspace, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Evaluate the repaired asset in the Enterprise Asset Workspace
@@ -70,7 +70,7 @@ Role required: sn\_eam.enterprise\_asset\_technician
     1.  The repair order and the repair order line are in the Completed stage.
     2.  The state of the asset changes to In stock and the substate changes to Available.
 
-**Parent Topic:**[Fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
+**Parent Topic:**[Manually fulfill repair orders in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/fulfill-eam-repair-orders-in-ws.md)
 
 **Related topics**  
 

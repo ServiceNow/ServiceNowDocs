@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Exploring Legal Service Portal
@@ -19,8 +19,6 @@ The Legal Service Portal is a self-service portal for employees to submit legal 
 The Legal Service Portal is installed with the installation of the Legal Request Management app.
 
 Navigate to **All** &gt; **Legal Request** &gt; **Legal Service Portal** to access Legal Service Portal.
-
-\[Omitted image "legal-service-portal.png"\] Alt text: Legal Service Portal homepage.
 
 Use the Legal Service Portal to do the following tasks:
 

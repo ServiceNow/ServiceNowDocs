@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Com
 Configure the Entity Based Access application by installing it from the ServiceNow Store and by setting up Entity Based Access properties in the instance.
 
 -   **[Install the Entity Based Access application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/install-entity-based-access.md)**  
-Install the GRC: Entity Based Access application.
+Install the GRC: Entity Based Access \(sn\_grc\_ent\_access\) application.
 -   **[Set up Entity Based Access properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/set-up-entity-based-access-properties.md)**  
 Enable or disable the Entity Based Access properties to control access to the objects that are associated with an entity.
 

@@ -1,24 +1,24 @@
 ---
 title: Create and train a regression solution
-description: Train your solution by using historical data to predict numeric outputs, such as a temperature or a stock price. For example, you can use regression to estimate the time it takes to resolve an incident or a case.
+description: Regression solutions have been deprecated. They could be used to predict numeric outputs, such as a temperature or a stock price.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/create-regression-solution.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create and train a regression solution
 
-Train your solution by using historical data to predict numeric outputs, such as a temperature or a stock price. For example, you can use regression to estimate the time it takes to resolve an incident or a case.
+Regression solutions have been deprecated. They could be used to predict numeric outputs, such as a temperature or a stock price.
 
 ## Before you begin
 
-**Important:** Support for new regression solutions is deprecated in the Yokohama release. You will still be able to edit and train any existing solutions, but you won't be able to create new ones.
+**Note:** Support for new regression solutions is deprecated in the Brazil release. You can still edit and train any existing solutions, but you can't initiate new ones. The following information is provided for legacy context.
 
 Role required: ml\_admin or admin
 
@@ -28,7 +28,7 @@ Regression solutions enable you to predict a point estimate and prediction inter
 
 -   Mean Absolute Error \(MAE\), which measures the mean deviation of a predicted value from the actual value. This metric is useful as it's easy to understand as its scale is the same as that of its target. However, MAE is unbounded, making it difficult to compare across models.
 -   Symmetric Mean Absolute Percentage Error \(SMAPE\) is a percentage value of the deviation from the predicted to the actual. SMAPE is a bounded version of MAE except that it has a value range between 0 and 100. The lower the SMAPE value, the better the model accuracy.
--   Range Accuracy is the percentage of actual values between a predicted range. In other words, it's the range between the upper and lower bounds of the prediction. For example, if four out of five actuals lie within the predicted range, the range accuracy is 80%.
+-   Range Accuracy is the percentage of actual values between a predicted range. In other words, it's the range between the upper and lower bounds of the prediction. For example, if four out of five actual values lie within the predicted range, the range accuracy is 80%.
 -   Average Interval Width is the difference between the upper and lower bounds of the prediction. This metric explains how informative the interval is. The smaller the average width, the better the model
 
 When making predictions, regression also enables you to specify a confidence level for the prediction interval \(range\).
@@ -39,7 +39,7 @@ In this example procedure, you create and train a regression solution definition
 
 1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Regression** &gt; **Solution Definitions**.
 
-2.  On the Regression Definitions list, click **New**.
+2.  On the Regression Definitions list, select **New**.
 
 3.  On the Regression Definition form, configure these fields per the following guidance.
 
@@ -79,7 +79,7 @@ Select an existing word corpus that's relevant to your solution. For example, in
 
  However, the word corpus selection is optional. If your input data has text columns and you don't choose a word corpus, your regression solution trains a new word corpus model by using the text columns in your input data. The resulting word corpus can be reused in any other regression solution or other ML solution type.
 
- **Note:** A pre-trained model is used instead of the Word Corpus for users who activated Predictive Intelligence starting in Utah.
+ **Note:** A pre-trained model is used instead of the Word Corpus for users who activated Predictive Intelligence starting in the Utah release.
 
 </td></tr><tr><td>
 
@@ -162,14 +162,14 @@ Select how often the system regenerates the solution based on records matching t
 
 
 </td></tr></tbody>
-</table>4.  Click the appropriate context menu option or button for your solution definition.
+</table>4.  Select the appropriate context menu option or button for your solution definition.
 
     |Option|Description|
     |------|-----------|
     |**Save or Save &amp; Train**|Save your solution definition record so you can return to it later, or save and submit it for training.|
     |**Submit or Submit &amp; Train**|Create your solution definition record and submit it, or submit and train it.|
 
-5.  If you submitted the solution for training, click **OK** on the **Training Activation** window to confirm.
+5.  If you submitted the solution for training, select **OK** on the **Training Activation** window to confirm.
 
     The system schedules the solution for training with the nearest training service. The system sends you a notification when the training completes, including any errors that may have occurred in the training. Any other users can subscribe to the Predictive Intelligence Notifications category. When training completes, the system uploads the solution as an Attachment record.
 
@@ -182,7 +182,7 @@ On the Solution Statistics tab, review the Point Estimate and Range \(prediction
 
 \[Omitted image "create-regression-solution-stats.png"\] Alt text: The prediction statistics for the solution you created and trained.
 
-On the Test Solutions tab of your solution, you can test the prediction output for the records you used as input to the prediction by entering values for the input fields, such as the **Source datacenter**, **Target datacenter**, and **Database size**. You can also use the default prediction confidence level of `95`, or enter a different level between `0` and `100`. Using 95 as the value means that the system is 95% confident that the actual prediction falls within the prediction interval. Click the **Run Test** button to find the prediction output.
+On the Test Solutions tab of your solution, you can test the prediction output for the records you used as input to the prediction by entering values for the input fields, such as the **Source datacenter**, **Target datacenter**, and **Database size**. You can also use the default prediction confidence level of `95`, or enter a different level between `0` and `100`. Using 95 as the value means that the system is 95% confident that the actual prediction falls within the prediction interval. Select the **Run Test** button to find the prediction output.
 
 \[Omitted image "create-regression-solution-stats1.png"\] Alt text: The values you need to enter in order to run a prediction output test.
 

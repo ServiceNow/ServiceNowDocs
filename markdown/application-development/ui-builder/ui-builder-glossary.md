@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # UI Builder glossary
@@ -111,7 +111,7 @@ A page overlay that enables users to continue using the rest of the page. Popove
 
 ## repeater
 
-In UI Builder, a repeater is a component that acts as a basic loop that repeats the data that you provide in multiple components. Repeaters use an array or an array of objects. Repeaters bind values to a data array property. For example, \[\{"task": "A"\},\{"task": "B"\}\], repeats the content inside it two times.
+In UI Builder, a repeater is a component that acts as a basic loop that repeats the data you provide in multiple components. Repeaters use an array or an array of objects. Repeaters bind values to a data array property. For example, \[\{"task": "A"\},\{"task": "B"\}\], repeats the content inside it two times.
 
 ## UI Builder \(UIB\)
 

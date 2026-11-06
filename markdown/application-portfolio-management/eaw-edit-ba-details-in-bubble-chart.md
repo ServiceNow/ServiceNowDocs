@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-edit-ba-details-in-bubble-chart.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-07"
-reading_time_minutes: 1
-breadcrumb: [Bubble chart view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Edit business application details in bubble chart view
@@ -28,23 +28,25 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select the business application that you want to edit details for.
 
-<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d26773e87">
+<table id="choicetable_ebc_3mq_fhc"><thead><tr><th align="left" id="d28442e90">
 
 Bubble type
 
-</th><th align="left" id="d26773e90">
+</th><th align="left" id="d28442e93">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d26773e96">
+</th></tr></thead><tbody><tr><td id="d28442e99">
 
 **Single bubble**
 
 </td><td>
 
-Select a single bubble. The side panel appears and the business application details are displayed.**Note:** Select **Full details** to view more details about the business application.
+Select a single bubble. The side panel appears and the business application details are displayed. To edit the business application, select the **Details** tab.**Note:** Select **Full details** to view more details about the business application.
 
-</td></tr><tr><td id="d26773e110">
+If the trigger type of the ServiceNow Otto Business application insights skill is set to **Automatic**, the side panel opens on the **Insights** tab instead. For information on the trigger type, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md).
+
+</td></tr><tr><td id="d28442e143">
 
 **Grouped bubble**
 
@@ -52,6 +54,11 @@ Select a single bubble. The side panel appears and the business application deta
 
 1.  Select a grouped bubble. The side panel appears, displaying the list of individual business applications that are part of the grouped bubble.
 2.  Select a business application. The business application details are displayed.
+    -   To edit the business application, select the **Details** tab.
+    -   If the trigger type of the ServiceNow Otto Business application insights skill is set to **Automatic**, the side panel opens on the **Insights** tab instead.
+
+For information on the trigger type, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md).
+
  **Note:** Select **Full details** to view more details about the business application.
 
 </td></tr></tbody>
@@ -62,10 +69,12 @@ Select a single bubble. The side panel appears and the business application deta
 6.  Select **Update**.
 
 
-**Parent Topic:**[Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
 **Related topics**  
 
+
+[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 
 [Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bubble-chart-view.md)
 

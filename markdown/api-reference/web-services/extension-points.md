@@ -7,7 +7,7 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Additional integration resources, Web services, API implementation, API implementation and reference]
 ---
@@ -72,7 +72,7 @@ The term application code refers to:
 
     |Application|Extension point topic|
     |-----------|---------------------|
-    |Coaching|[Coaching troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/coaching-troubleshooting.md)|
+    |Coaching|[Coaching troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cf-coaching-troubleshooting.md)|
     |Continual Improvement Management|[Improvement with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cim-integration.md)|
     |Customer Service Management|[Extension points in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/extension-points-customer-service.md)|
     |[Creating custom user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/creating-custom-csm-user-roles.md)|
@@ -107,9 +107,6 @@ To create extension points and embed them in the application code, perform the f
 
 2.  Designate specific places in the application code where data or objects can be sent to a customization, and where data is returned.
 3.  Create an artifact, such as a script include, UI macro, or UI script, that calls the [GlideScriptedExtensionPoint - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideScriptedExtPtScopedAPI.md) method. This method identifies the extension point at which registered custom artifacts execute in the application code.
-
-    \[Omitted image "Extension\_point\_script\_include\_example.png"\] Alt text: Base application code script include with getExtensions command.
-
 
 ## Enabling debugging and logging
 

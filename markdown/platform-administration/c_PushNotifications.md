@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_PushNotifications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -38,6 +38,8 @@ Push notification setup differs depending on the mobile or push application that
 The push notification system involves several key elements that manage the delivery of push messages and push notification responses.
 -   **[Activate push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_ActivatePushNotifications.md)**  
 Several plugins must be activated to use push notifications. If you have the Mobile UI \(com.glide.ui.m\) plugin active, push notification plugins are automatically activated.
+-   **[Enable push notifications for logged-out users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/enable-notifications-logged-out-users.md)**  
+Enable push notifications for users when they're logged out to deliver timely critical updates.
 -   **[Installed with push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_InstalledWithPushNotifications.md)**  
 Several types of components are installed with the push notifications plugins.
 -   **[Push notification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_PushNotificationProperties.md)**  

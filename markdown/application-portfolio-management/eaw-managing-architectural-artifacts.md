@@ -1,16 +1,16 @@
 ---
-title: Manage architectural artifacts
+title: Exploring architectural artifacts
 description: Architectural artifacts are created to describe a system, solution, or state of an enterprise. The goal of architectural artifacts in Enterprise Architecture is to enable enterprise architects to create and manage artifacts in their organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-managing-architectural-artifacts.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the information portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage architectural artifacts
+# Exploring architectural artifacts
 
 Architectural artifacts are created to describe a system, solution, or state of an enterprise. The goal of architectural artifacts in Enterprise Architecture is to enable enterprise architects to create and manage artifacts in their organization.
 
@@ -25,24 +25,26 @@ As an enterprise architect, you can use architectural artifacts to perform the f
 
 The architectural artifacts feature extends the functionality of the ServiceNow® Document Management plugin \(com.snc.platform\_document\_management\) and can create a relationship with ServiceNow® objects: business applications, business capabilities, digital integrations, or digital interfaces.
 
--   **[View all architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-architectural-artifacts.md)**  
-You can view the list of all architectural artifacts in the Enterprise Architecture Workspace.
--   **[Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-architectural-artifact.md)**  
-Create an architectural artifact to align it with your business requirements.
--   **[Add an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-architectural-artifact-version.md)**  
-Create multiple versions of architectural artifacts in the Enterprise Architecture Workspace.
--   **[Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)**  
-Associate an architectural artifact to existing entities such as business capabilities, business applications, digital integrations, and digital interfaces. The association creates a relationship between the artifact and related entities.
--   **[Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-share--archi-artft-with-users-groups.md)**  
-You can share architectural artifacts with users or groups for enhanced and effective collaboration with all relevant stakeholders, in the Enterprise Architecture Workspace.
--   **[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)**  
-You can manage the user or group access to specific architectural artifacts from the Enterprise Architecture Workspace.
--   **[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-req-approval-artifact-version.md)**  
-You can request approval for architectural artifacts of the type **URL** or **Attachment** from users who are part of the Enterprise Architect user group. The user reviews and approves the request.
--   **[Download an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-download-artifact-version.md)**  
-Download a version of an architectural artifact that has the file type defined as **Attachment**.
--   **[Delete an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-delete-an-architectural-artifact-version.md)**  
-Delete an architectural artifact version that is in **Draft** state from the Enterprise Architecture Workspace.
+**Parent Topic:**[Exploring the information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-portfolio.md)
 
-**Parent Topic:**[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-portfolio.md)
+**Related topics**  
+
+
+[View all architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-architectural-artifacts.md)
+
+[Create or edit an architectural artifact from Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-architectural-artifact.md)
+
+[eaw-add-an-architectural-artifact-version]
+
+[Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
+
+[Share an architectural artifact with users or groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-share--archi-artft-with-users-groups.md)
+
+[Manage access to architectural artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-access-to-architectural-artifacts.md)
+
+[Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-req-approval-artifact-version.md)
+
+[Download an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-download-artifact-version.md)
+
+[Delete an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-delete-an-architectural-artifact-version.md)
 

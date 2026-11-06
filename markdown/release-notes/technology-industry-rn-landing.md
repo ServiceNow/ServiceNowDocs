@@ -1,18 +1,18 @@
 ---
 title: Telecommunications, Media, and Technology release notes
-description: ServiceNow Telecommunications, Media, and Technology has new and updated applications and features in the Yokohama release.
+description: ServiceNow Telecommunications, Media, and Technology has new and updated applications and features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/technology-industry-rn-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Telecommunications, Media, and Technology release notes
 
-ServiceNow® Telecommunications, Media, and Technology has new and updated applications and features in the Yokohama release.
+ServiceNow® Telecommunications, Media, and Technology has new and updated applications and features in the Brazil release.
 
 ## Telecommunications products and applications
 
@@ -20,8 +20,8 @@ The Telecommunications industry solution includes the following applications:
 
 -   Telecommunications Service Management connects your entire telecommunications operations, from network to customer, with one platform to deliver proactive care and maximize the availability and quality of service. It includes the following applications:
     -   Service Exchange
-    -   Proactive Service Experience Workflows
-    -   Account Lifecycle Events
+    -   Product Support for Technology
+    -   Customer Success Management
     -   Customer Service Problem Management
 -   Sales CRM for Telecommunications. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md).
 -   Telecommunications Network Inventory
@@ -36,26 +36,31 @@ The Technology industry solution includes the following applications:
 
 -   Technology Service Management connects your entire technology operations, from network to customer, with one platform to deliver proactive care and maximize the availability and quality of service. It includes the following applications:
     -   Service Exchange
-    -   Proactive Service Experience Workflows
-    -   Account Lifecycle Events
-    -   Technology Product Support Case
+    -   Product Support for Technology
+    -   Customer Success Management
 -   Sales and Order ManagementSales CRM for Technology Providers. See [Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md).
 -   ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
--   **[Account Lifecycle Events release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/account-lifecycle-rn.md)**  
-The ServiceNow® Account Lifecycle Events application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. Account Lifecycle Events was enhanced and updated in the Yokohama release.
--   **[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) release notes]()**  
-The ServiceNow® ServiceNow Otto for TMT application enriches purpose-built industry workflows with generative AI to supercharge insights, actions, and self-service experiences. ServiceNow Otto for TMT was enhanced and updated in the Yokohama release.
--   **[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/proactive-service-experience-workflows-rn.md)**  
-The ServiceNow® Proactive Service Experience Workflows helps your technical support teams identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. Proactive Service Experience Workflows was enhanced and updated in the Yokohama release.
--   **[Service Exchange release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-bridge-rn.md)**  
-ServiceNow® Service Exchange will be renamed for the 2026 Australia release and will maintain the same functionality. This application enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. Service Exchange was enhanced and updated in the Yokohama release.
--   **[Strategic Portfolio Management for Telecom release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/strategic-portfolio-management-for-tmt-rn.md)**  
-The ServiceNow® Strategic Portfolio Management for Telecom is a product that inherits all features of Strategic Portfolio Management with the addition of two templates for Fiber Rollout and 5G Projects. Strategic Portfolio Management for Telecommunications is a new application in the Yokohama release.
--   **[Telecommunications Network Inventory release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/telecommunications-network-inventory-rn.md)**  
-The ServiceNow® Telecommunications Network Inventory application enables a network planner to model the physical, logical, or virtual network and perform design and assign services based on those network models. Telecommunications Network Inventory was enhanced and updated in the Yokohama release.
+-   **[Customer Service Problem Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-problem-management-rn.md)**  
+The ServiceNow® Customer Service Problem Management application helps customer to identify and resolve service problems. See the following sections for release notes by version.
+-   **[Customer Success Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/account-lifecycle-rn.md)**  
+The ServiceNow® Customer Success Management application helps you to streamline your onboarding process, define and track objectives and outcomes, identify and mitigate risks, and increase renewal rates. See the following sections for release notes by version.
+-   **[Product Support for Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/product-support-for-technology-rn.md)**  
+The ServiceNow® Product Support for Technology application helps to identify your impacted customers, communicate directly with them, escalate a case if needed, and auto-generate cases for faster issue resolution. See the following sections for release notes by version.
+-   **[Sales CRM for Telecommunications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-customer-relationship-management-rn.md)**  
+The ServiceNow® Sales Customer Relationship Management application manages the sales and order lifecycle, from product catalog definition through order capture, fulfillment orchestration, and AI-assisted task templating. See the following sections for release notes by version.
+-   **[Service Exchange \(formerly Service Bridge\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-exchange-rn.md)**  
+The ServiceNow® Service Exchange application, formerly known as Service Bridge, enables providers and consumers to connect and track services directly between instances without having to configure and maintain custom integrations. See the following sections for release notes by version.
+-   **[Service Test Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-test-management-rn.md)**  
+The ServiceNow® Service Test Management application helps to define, run, and monitor service tests in real time. See the following sections for release notes by version.
+-   **[Telecommunication Network Inventory release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/telecommunication-network-inventory-rn.md)**  
+The ServiceNow® Telecommunications Network Inventory application enables network planners to model physical, logical, or virtual networks, support datacenter infrastructure management, and perform design and assign services. See the following sections for release notes by version.
+-   **[Data Center and Network Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/data-center-and-network-asset-management-release-notes-rn.md)**  
+The ServiceNow® Data Center and Network Asset Management application provides end-to-end lifecycle management of data center assets. See the following sections for release notes by version.
 -   **[Telecommunications Service Operations Management \(TSOM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/telecommunications-service-operations-management-rn.md)**  
-The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
+The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application empowers communication service providers to proactively monitor, analyze, and resolve network and service issues before they impact customers. See the following sections for release notes by version.
+-   **[Telecommunications Customer 360 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/telecom-customer-360-rn.md)**  
+The ServiceNow® Telecommunications Customer 360 application provides a unified interface that aggregates data from multiple systems into a single platform. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Template integration with Docusign, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Configure document templates to enable signing using the Docusign application.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_dt\_docusign.admin
 
 ## Procedure
 

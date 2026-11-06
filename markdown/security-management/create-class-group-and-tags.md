@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-class-group-and-tags.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
 
@@ -17,6 +17,8 @@ You can assign tags to security incidents, response tasks, vulnerable items, obs
 ## Before you begin
 
 -   Manual security tags are preserved when automatic tags are applied to security incidents to avoid any analyst-curated information loss. The Source column in the Applied Security Tags table tracks whether tags are added manually or automatically by rules.
+-   Automatic tag application is available only for security incidents and observables/IoCs. For response tasks, vulnerable items, and security cases, you can create a security tag rule. However, tags aren't applied automatically unless the owning application adds a business rule or scheduler job to invoke the rule.
+-   Security tag rules apply only to records created or updated after the rule is activated. Records that already exist and match the rule's conditions aren't tagged retroactively.
 -   Role required: sn\_si.admin
 
 ## Procedure
@@ -35,7 +37,7 @@ You can assign tags to security incidents, response tasks, vulnerable items, obs
         -   **TLP: RED:** All observables, regardless of their TLP tag, can be shared with a TLP: RED profile since TLP: RED is the highest ranked TLP tag.
         **Note:** You can add other TLP colors, but any in addition to the four colors included are considered not valid by the Forum for Incident Response and Security Teams \([FIRST](https://www.first.org/)\).
 
-2.  Select **New**.
+2.  Select **New Group**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -84,7 +86,7 @@ Description
 Brief description of this group.
 
 </td></tr></tbody>
-</table>4.  Select and hold \(or right-click\) the form header and select **Save**.
+</table>4.  Select **Save**.
 
     The Security Tags related list appears.
 
@@ -106,13 +108,13 @@ Brief description of this group.
 
 7.  Repeat as needed to create more security tags.
 
-8.  Select **Update**.
+8.  Select **Save**.
 
-    **Note:** You can also create tags by navigating to **Security Operations** &gt; **Security Tags** &gt; **Tags**. The procedure is the same.
+    **Note:** You can also create tags by selecting **New** button on the list view. The procedure is the same.
 
 
 -   **[Create security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-security-tag-rules.md)**  
-Security tag rules automatically apply tags to security incidents when specified conditions are met to provide security incident filtering for security analysts.
+Security tag rules provide filtering for security tag access.
 -   **[Import security tag rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/import-security-tag-rules.md)**  
 You can import security tag rules from other tables in your deployment.
 

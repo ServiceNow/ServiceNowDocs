@@ -7,9 +7,9 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Marketplace, Talent Development, Employee Service Management]
+breadcrumb: [Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Install and configure Opportunity Marketplace
@@ -34,5 +34,5 @@ Role applicants are employees who have applied to a role that is part of an oppo
 -   **[Creating custom opportunity types in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-custom-oppt-type.md)**  
 Opportunity Marketplace comes with 3 base system **Opportunity types**. If you need a different opportunity type, you can create custom opportunity types to meet the needs of your organization. You can also create custom user criteria, opportunity details, and roles and requirements.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hiring-experiences-landing.md)
 

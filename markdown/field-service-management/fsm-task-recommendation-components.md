@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/fsm-task-recommendation-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Intelligent Task Recommendations components
@@ -120,6 +120,17 @@ Prevents the deletion of a policy if the policy is specified in the **Default ta
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
+
+**Related topics**  
+
+
+[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-task-recommendation.md)
+
+[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/administer-task-recommendations.md)
+
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+
+[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
 
 ## Intelligent Task Recommendations system properties
 

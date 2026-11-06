@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # View the number of portal bot-based sessions
@@ -18,7 +18,7 @@ Ensure customers are not incorrectly billed by viewing the number of bot-based s
 
 ## Before you begin
 
-Role required: admin, usage\_admin
+Role required: usage\_admin
 
 ## About this task
 
@@ -34,4 +34,9 @@ For all new portals you create, bot sessions are captured in the Service Portal 
 
     The report shows the session count for all sessions and a separate count of sessions generated due to bots, crawlers, and DDoS attacks.
 
+
+**Related topics**  
+
+
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

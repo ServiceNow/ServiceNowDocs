@@ -6,9 +6,9 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/ai-da
 release: yokohama
 topic_type: concept
 last_updated: "2026-03-25"
-reading_time_minutes: 1
+reading_time_minutes: 3
 keywords: [AI Data Explorer, implementation, semantic layer, query generation]
-breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # AI Data Explorer implementation checklist
@@ -19,18 +19,22 @@ Use this checklist to verify that AI Data Explorer is properly configured and re
 
 ## Prerequisites and configuration
 
+-   Verify that the AI Data Explorer application is installed. For more information, see [Install AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/install-aide.md).
 -   Verify that required AI skills are activated.
--   Enable Record Level Analysis in the Analytics Exploration skill to get better insights.
--   Check the base health of Query Generation using the Health page.
+-   Verify that the AI Data Explorer skills are activated. For more information, see [Activate AI Data Explorer skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/activate-aide-explorer.md).
+-   Enable Record Level Analysis in the Analytics Exploration skill to get better insights. For more information, see [Configure record level analysis in AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/record-level-analysis.md).
+-   Check the base health of Query Generation using the [Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-health-page.md).
 -   Confirm that AI Search is active.
--   Verify that the Semantic Layer is built. Entities and dimensions should not be 0.
+-   Verify that the Semantic Layer is built. Entities and dimensions should not be 0. For more information, see [Tables installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/tables-sched-jobs-query-gen.md).
 
 ## Testing and validation
 
 1.  Navigate to **AI Data Explorer** from the main menu.
 2.  Try a simple question such as "Open incidents" to verify end-to-end functionality.
-3.  Verify that tables you want to use are added to the semantic layer. Task extended tables and some base tables are added by default, but custom tables that are not task-based might need to be added manually.
-4.  To check if a table is already in the semantic layer, navigate to **Query generation** &gt; **Entities**. If the table is in the list and marked as active, it is already configured.
+3.  Force indicator or table selection with a few questions, such as "What do indicators show us about the number of open incidents for the last 60 days" or "What is the current number of incidents?"
+4.  Verify that tables you want to use are added to the semantic layer and that semantic generation is turned on for them. Task extended tables and some base tables are added by default, but custom tables that are not task-based might have to be added manually.
+5.  To check if a table is already in the semantic layer, navigate to **Query generation** &gt; **Entities**. If the table is in the list and marked as active, it is already configured.
+6.  If you want to access data in a protected scope, configure ACLs and Restricted Caller Access \(RCA\) records to grant access to the scope to AI Data Explorer.
 
 ## User access
 
@@ -41,7 +45,18 @@ Grant users who need access to AI Data Explorer the **now-assist-explorer-user**
 -   Use short, simple questions for best results.
 -   Only simple analytical questions are supported. Questions should be answerable with a single chart or single data source.
 -   AI Data Explorer cannot answer general definition questions or questions requiring comparison across multiple data sources. Break down complex analysis into multiple questions.
--   When asking follow-up questions, use words like "these" to ensure filters are not dropped. For example, "Of these incidents, how many are critical?"
+-   When asking follow-up questions, use words like "these" to ensure that filters are not dropped. For example, "Of these incidents, how many are critical?"
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-aide-explorer.md)
+
+**Related topics**  
+
+
+[Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-table-semantic-layer.md)
+
+[Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/enable-aide-secure-scope-apps.md)
+
+[Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-health-page.md)
+
+[Roles, tables, and scheduled jobs included with Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/tables-sched-jobs-query-gen.md)
 

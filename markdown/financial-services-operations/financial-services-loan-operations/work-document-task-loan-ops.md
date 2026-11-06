@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Financial Services Loan Operations, Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a document task to verify documents
@@ -31,7 +31,7 @@ The Document Processor service determines which documents \(inbound and outbound
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
@@ -47,15 +47,15 @@ The Document Processor service determines which documents \(inbound and outbound
     -   For a list of outbound documents, click the **Outbound Documents** tab.
 6.  Verify the completeness of all documents that the customer has submitted \(inbound\) or the bank should share with the customer \(outbound\).
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d49973e156">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d58055e171">
 
 Task
 
-</th><th align="left" id="d49973e159">
+</th><th align="left" id="d58055e174">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d49973e165">
+</th></tr></thead><tbody><tr><td id="d58055e180">
 
 **Verify an inbound or outbound document**
 
@@ -65,7 +65,7 @@ Action
 2.  Check the document details and click **Verify**.
 
 
-</td></tr><tr><td id="d49973e186">
+</td></tr><tr><td id="d58055e201">
 
 **Defer an inbound document**
 
@@ -75,7 +75,7 @@ If the customer can't submit a document and has requested to submit it at a futu
 2.  Click **Request Deferment**.
  **Note:** This option is available only if a deferment is enabled for the document category.
 
-</td></tr><tr><td id="d49973e210">
+</td></tr><tr><td id="d58055e225">
 
 **Request exception for an inbound document**
 

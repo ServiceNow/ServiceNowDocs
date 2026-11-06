@@ -1,52 +1,60 @@
 ---
-title: Enable communication channels
+title: Configure omnichannel
 description: Set up multiple communication channels so that customers can contact you through their preferred methods.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-comm-channels.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure, Customer Service Management]
 ---
 
-# Enable communication channels
+# Configure omnichannel
 
 Set up multiple communication channels so that customers can contact you through their preferred methods.
 
 <table id="table_mhz_4gb_l1c" class="nav-card"><tbody><tr><td>
 
-[Communication channels\[Omitted image "bus-customer-service.svg"\] Alt text:Configure communication channels, such as email, call, chat, or social media.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/set-up-communication-channels.md)
+[Consumer messaging apps\[Omitted image "bus-customer-service.svg"\] Alt text:Integrate Customer Service Management with consumer messaging apps to deliver a conversational mobile messaging experience for consumers and customer contacts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/consumer-messaging-apps.md)
 
 </td><td>
 
-[Chat Zoom Connector\[Omitted image "bus-try-a-demo.svg"\] Alt text:Use Chat Zoom Connector to enable customers to engage better using video and screen sharing options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-chat-zoom-connector.md)
+[Chat\[Omitted image "bus-chat.svg"\] Alt text:Configure Chat to enable and use Virtual Agent to create or use predefined chatbot topics \(conversations\) for your users, and give them the option to switch to a live agent at any time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_ChatFeature.md)
 
 </td></tr><tr><td>
 
-[Omnichannel Callback\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Set up Omnichannel Callback for Customer Service Management to enable your customers to request a voice or video callback.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-omni-callback.md)
+[Email\[Omitted image "bus-email.svg"\] Alt text:Configure an email channel to either create interactions or cases from incoming emails.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CustomerServiceEmailCommunication.md)
 
 </td><td>
 
-[Engagement Messenger\[Omitted image "bus-chat.svg"\] Alt text:Set up Engagement Messenger to enable your users to find the information or service that they need from third-party web applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-engagement-messenger.md)
+[Voice\[Omitted image "bus-customer-service-agent.svg"\] Alt text:Configure voice call support by using OpenFrame and Interaction Controls Component \(ICC\). Integrate with a third-party telephony system through CCaaS integration to handle calls in the Workspace. Alternatively, enable WebRTC voice calls directly from portal pages or Engagement Messenger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_PhoneCommunication.md)
 
 </td></tr></tbody>
-</table>\[Omitted image "workflow-communication-channels.png"\] Alt text: overview showing the different topics in communication channels and how they relate to each other
+</table>## Communication channels overview
 
--   **[Communication channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/set-up-communication-channels.md)**
+Configure communication channels for users to email, call, or chat, and integrate social media channels. This helps users reach your team through their preferred method for assistance.
 
-    Configure communication channels for users to email, call, or chat, and integrate social media channels. This ensures users can reach your team through their preferred method for assistance.
+-   **[Consumer messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/messg-integrate-channels.md)**
 
--   **[Chat Zoom connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-chat-zoom-connector.md)**
+    Integrate Customer Service Management with consumer messaging apps to deliver a conversational mobile messaging experience for consumers and customer contacts. Customers can message your company using their preferred app to start a conversation with a virtual or live agent. The following consumer messaging apps can be integrated with Customer Service Management: WhatsApp, LINE, Facebook Messenger, and Apple Messages for Business.
 
-    Install and set up the Chat Zoom Connector to enhance customer engagement with video and screen sharing options. This application enables you to start Zoom meetings directly from a chat for more effective communication.
+-   **[Chat channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_ChatFeature.md)**
 
--   **[Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-engagement-messenger.md)**
+    The chat communication channel uses the Connect Support feature to provide chat capability from the Customer Service and Consumer Service Portals. You can also enable Virtual Agent to create or use predefined chatbot topics \(conversations\) for your users.
 
-    Learn about the stages to set up Engagement Messenger, then install and configure it to access information and services from third-party web applications via your customer portal. This setup helps streamline your workflow and enhance your experience.
+-   **[Email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CustomerServiceEmailCommunication.md)**
 
--   **[Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-omni-callback.md)**
+    Customers can send emails to create cases and update current cases, and receive email updates from agents as cases progress. Customer Service Management uses the ServiceNow email accounts feature to create and maintain email accounts.
 
-    Set up and configure Omnichannel Callback for Customer Service Management to enable customers to request voice or video callbacks. Customize the feature to meet your organization’s needs, enhancing customer experience and optimizing case resolution efficiency.
+-   **[Phone channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_PhoneCommunication.md)**
+
+    Computer Telephony Integration \(CTI\) helps integrate a third-party telephony system to your ServiceNow Workspace via OpenFrame and Interaction Controls Component \(ICC\). Any third-party Contact Center as a Service \(CCaaS\) platform \(like Amazon Connect, Genesys, and others\) can integrate to the ServiceNow CRM Platform. CCaaS can integrate their voice call controls and workflows into their provisioned instance to enable agents to handle phone calls directly within their Workspace.
+
+    You can also use voice call widgets using WebRTC to make calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
+
+    [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-omni-callback.md)
+
+    Set up and configure Omnichannel Callback for Customer Service Management to enable customers to request voice or video callbacks. Customize the feature to meet your organization's needs, enhancing customer experience and optimizing case resolution efficiency.
 
 

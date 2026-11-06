@@ -7,16 +7,15 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [App Engine, App Engine ServiceNow, App Engine Studio, low code development, ServiceNow App Engine, performance review template, app template, app engine studio in servicenow]
+breadcrumb: [Developing your application, Classic app development, Building applications]
 ---
 
 # Build apps using App Engine Studio
 
 ServiceNow® App Engine Studio \(AES\) is a guided, low-code tool for developing rich web applications to store information, automate business processes, and solve business problems. Work that was once assigned to administrators can now be delegated to employees with little to no training using AES.
-
-This video shows a visual overview of the app creation process using App Engine Studio.
 
 ## Get started
 
@@ -44,7 +43,7 @@ By delegating development to citizen developers in your organization, administra
 
 </td><td>
 
-[Deploy \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Deploy applications to the instances in your pipeline, from development to production.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md)
+[Deploy \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Deploy applications to the instances in your pipeline, from development to production using App Engine Management Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/app-engine-management-center.md)
 
 </td><td>
 
@@ -80,7 +79,7 @@ App Engine Studio is a guided, low-code tool for developing rich web application
 </td></tr></tbody>
 </table>## Request AES on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Before you can use AES, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 

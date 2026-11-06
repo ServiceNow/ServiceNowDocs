@@ -1,16 +1,16 @@
 ---
-title: Enable AI Guardian in AI agents
+title: Enable AI Guardian for AI agents
 description: Identify and block offensive messages that are sent by human agents automatically by enabling AI Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/enable-aia-na-guardian.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Enable AI Guardian in AI agents
+# Enable AI Guardian for AI agents
 
 Identify and block offensive messages that are sent by human agents automatically by enabling AI Guardian in AI agents. With this capability, you can help reduce your agentic workflow or test from being exposed to harmful content.
 
@@ -20,13 +20,13 @@ Role required: admin
 
 ## About this task
 
-The AI Guardian, which is a ServiceNow AI Platform capability in the Now Assist panel, is a set of guardrails that are designed to intercept and mitigate offensive, sensitive, or security-related issues that may arise during interactions with the Now Assist application.
+The AI Guardian, which is a ServiceNow AI Platform capability in the ServiceNow Otto panel, is a set of guardrails that are designed to intercept and mitigate offensive, sensitive, or security-related issues that may arise during interactions with the ServiceNow Otto application.
 
 For example, let's say that AI Guardian detects an offensive message in the execution plan of an agentic workflow. When you try to trigger the plan or test it, AI Guardian can step in to terminate the plan or test because it detected harmful content at the first step of the execution plan.
 
 \[Omitted image "aia-offnsv-msg-dtctn-exction-trmntn.png"\] Alt text: Offensive message is detected during the execution plan and the execution of the agentic workflow is terminated.
 
-For more information about the different guardrails, see [Now Assist Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md).
+For more information about the different guardrails, see AI Guardian.
 
 ## Procedure
 
@@ -65,7 +65,7 @@ For more information about the different guardrails, see [Now Assist Guardian](h
 
         \[Omitted image "aia-prompt-injection-new.png"\] Alt text: Prompt Injection page in AI Agent Studio.
 
-        **Note:** For more information about configuring the Prompt Injection, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-prompt-injection-attack-protection.md).
+        **Note:** For more information about configuring the Prompt Injection, see .
 
         When you configure the Prompt Injection for an agentic workflow by using the required instructions, the system is designed to detect harmful content and block the conversation.
 

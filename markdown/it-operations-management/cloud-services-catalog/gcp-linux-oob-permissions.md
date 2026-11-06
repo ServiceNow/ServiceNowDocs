@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Google Cloud Platform Linux Out Of Box Catalog items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [GCP Linux items, Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Google Cloud Platform Linux Out Of Box permissions

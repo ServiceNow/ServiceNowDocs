@@ -1,18 +1,18 @@
 ---
-title: View account onboarding cases in the Customer Service Portal
-description: View Account Lifecycle Events onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
+title: View account onboarding cases in the CSM portal
+description: View the account onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-view-csm-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using account onboarding, Account onboarding, Account Lifecycle Events]
+breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
 
-# View account onboarding cases in the Customer Service Portal
+# View account onboarding cases in the CSM portal
 
-View Account Lifecycle Events onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
+View the account onboarding case records or case task records on the Customer Service Management \(CSM\) portal.
 
 ## Before you begin
 
@@ -60,9 +60,11 @@ Role required:
 
     The following details are displayed for each case task:
 
-    -   Header section that provides information about the case task including case number, parent onboarding case, account name, and task status.
+    -   Header section that provides information about the case task including case number, parent, associated onboarding case, the account name, and status of the task.
     -   The left-hand section provides the following details:
         -   General instructions: Provides a short description and a detailed case description. Select **View More** to view all the details related to the case.
         -   Shared articles: Shows articles that have been shared with you. Select the article link to view details.
     -   All the activities related to the case task are displayed.
+
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-06-12"
-reading_time_minutes: 3
-breadcrumb: [Aha! Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Aha! Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up a bi-directional webhook for the Aha! spoke
@@ -19,60 +19,6 @@ Configure a webhook to subscribe to events in the Aha! account with a ServiceNow
 ## Before you begin
 
 Role required: admin
-
-## Procedure
-
-1.  Generate the webhook callback URL from your ServiceNow instance.
-
-    1.  Log in to your ServiceNow instance as an admin.
-
-    2.  Navigate to **Aha! Spoke** &gt; **Webhook** &gt; **Webhook Registries**.
-
-    3.  Open the record **Aha Webhook**.
-
-    4.  Click **Callback URL**.
-
-        Webhook callback URL is generated and displayed.
-
-        \[Omitted image "aha-webhoook-registry.png"\] Alt text: Webhook callback URL.
-
-    5.  Copy and record the webhook callback URL.
-
-2.  Specify the webhook routing policies in your ServiceNow instance.
-
-    1.  Log in to your ServiceNow instance as an admin.
-
-    2.  Navigate to **Aha! Spoke** &gt; **Webhook** &gt; **Webhook Routing Policies**.
-
-    3.  Open the Aha! webhook routing policy record.
-
-    4.  Specify **Condition** that must be met.
-
-    5.  For **Answer**, select the required subflow that must be triggered when the specified condition is met.
-
-        In the default routing policy record, the Process Aha webhooks subflow is selected as **Answer**.
-
-    6.  Click **Update**.
-
-3.  Register the webhook callback URL in Aha! account.
-
-    1.  Log in to your Aha! account as an admin.
-
-    2.  Navigate to **Settings** &gt; **Account**.
-
-    3.  Create an activity webhook by clicking **+** beside **Integrations**.
-
-    4.  Click **+ Activity webhook** in the **Activity webhook** tile.
-
-    5.  On the form, fill these values.
-
-        |Field|Description|
-        |-----|-----------|
-        |Hook URL|Webhook callback URL you had copied from the ServiceNow instance.|
-        |Selected Activities|Activities or events for which you want to subscribe.|
-
-    6.  Click **Add activity**.
-
 
 ## Create a Token
 

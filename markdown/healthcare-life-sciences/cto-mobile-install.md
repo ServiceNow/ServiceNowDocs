@@ -1,0 +1,38 @@
+---
+title: Activate Care Team Mobile
+description: Activate the Care Team Mobile plugin \[com.sn\_cto\_mobile\] if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-mobile-install.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure Care Team Mobile, Care Team Mobile, Healthcare Operations, Healthcare and Life Sciences]
+---
+
+# Activate Care Team Mobile
+
+Activate the Care Team Mobile plugin \[com.sn\_cto\_mobile\] if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
+
+## Before you begin
+
+Role required: admin
+
+The following plugins are activated with Care Team Mobile:
+
+-   com.sn\_mab
+-   sn\_mab\_api
+
+To complete care team tasks from a mobile device, Field Service Management Mobile \[sn\_fsm\_mobile\] version 29.2.3 must be installed. For more information, see [Complete care team tasks in Care Team Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/cto-mobile-complete-care-team-tasks.md).
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
+
+2.  Find the \[com.sn\_cto\_mobile\] plugin using the filter criteria and search bar.
+
+3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
+
+4.  Select **Install**.
+
+

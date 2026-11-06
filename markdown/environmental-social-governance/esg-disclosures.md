@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-disclosures.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -40,7 +40,7 @@ Operational Sustainability Management disclosures are important for several reas
 
 ## Narrative disclosures
 
-Starting with version 18.0.3, all new users of ESG Management have access to only narrative disclosures. Narrative disclosures refer to disclosures that are created using the Microsoft 365 for ServiceNow Reporting add in. When you create a narrative disclosure, you have the option to store the disclosure either on Microsoft SharePoint or on your local system. Microsoft SharePoint integration in narrative disclosures is available for ESG Management version 18.0.3 and the Yokohama release. The document that is generated when you create a narrative disclosure can be opened using Microsoft Word and the data points that are configured can be inserted in the document using the ServiceNow Reporting add-in. If there is any change in the data that is inserted, an email is automatically sent to the owners of the disclosure data notifying them that the data has changed and that they must refresh the Microsoft Word document.
+Starting with version 18.0.3, all new users of Operational Sustainability Management have access to only narrative disclosures. Narrative disclosures refer to disclosures that are created using the Microsoft 365 for ServiceNow Reporting add in. When you create a narrative disclosure, you have the option to store the disclosure either on Microsoft SharePoint or on your local system. Microsoft SharePoint integration in narrative disclosures is available for Operational Sustainability Management version 18.0.3 and the Brazil release. The document that is generated when you create a narrative disclosure can be opened using Microsoft Word and the data points that are configured can be inserted in the document using the ServiceNow Reporting add-in. If there is any change in the data that is inserted, an email is automatically sent to the owners of the disclosure data notifying them that the data has changed and that they must refresh the Microsoft Word document.
 
 In a narrative disclosure, multiple collaborators can contribute to create the disclosure. You can also define templates for each type of disclosure report. Refer to [Types of disclosure reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/types-of-disclosure-reports.md) to understand each report type. Each disclosure can be approved by one or more approvers.
 
@@ -60,15 +60,15 @@ You can download the disclosures in an Excel format from the overview tab in the
 The following list provides detailed information about disclosures.
 
 -   **[Types of disclosure reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/types-of-disclosure-reports.md)**  
-The ESG Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
+The Operational Sustainability Management application provides the multiple types of disclosures reports and each type is used for a specific purpose.
 -   **[Approval workflow of a disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/approval-workflow-of-a-disclosure.md)**  
 If a narrative disclosure specifies a single approver or multiple approvers during its creation, it is mandatory for those designated approvers to grant approval before the disclosure can transition to the next state.
 -   **[Create a disclosure template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-a-disclosure-template.md)**  
 Create your own unique Microsoft Word disclosure templates tailored to different types of disclosures. Utilize these templates that you create when you generate specific disclosures. The templates help to streamline the disclosure process by implementing customized templates for efficiency and consistency.
 -   **[Create a narrative disclosure on remote storage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-disclosure.md)**  
-Create an ESG Management narrative disclosure for your organization and store it on remote storage such as Microsoft SharePoint. Disclosures can be of several types such as ESG report, annual report, and so on.
+Create an Operational Sustainability Management narrative disclosure for your organization and store it on remote storage such as Microsoft SharePoint. Disclosures can be of several types such as ESG report, annual report, and so on.
 -   **[Create a narrative disclosure on local system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-a-disclosure-on-local.md)**  
-Create an ESG Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the ESG Management instance.
+Create an Operational Sustainability Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the Operational Sustainability Management instance.
 -   **[Add disclosure documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/add-disclosure-related-docs.md)**  
 Add secondary related or supporting documents to any disclosure you create. Supporting documents may include sustainability reports, corporate governance documents, third-party certifications, and relevant policies such as those on ethics and supply chain practices. These documents provide additional context and validation for environmental, social, and governance disclosures.
 -   **[Add metrics to a disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/add-related-metric-to-a-disclosure.md)**  

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 13
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a Hardware Asset Refresh
@@ -102,6 +102,10 @@ Aged Hardware assets that you want to replace. You can use a filter to search fo
 
         You can’t create multiple rows for the same aged hardware asset that you want to replace.
 
+        The single-model and multi-model refresh flows apply different default filters. In the single-model flow, a default **Eligible for refresh = true** filter is applied, which you can clear or modify. In the multi-model flow, this default eligibility filter isn't applied.
+
+        If an asset appears in the multi-model flow but not in the single-model flow, check whether the asset is marked **Eligible for refresh** in the Hardware \[alm\_hardware\] table.
+
 5.  Select **Order Now**.
 
     You can't view an excluded asset. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
@@ -113,72 +117,28 @@ The aged assets are set to get refreshed. In the Hardware table under the Dispos
 
 An Order status page appears and it displays the details of the order. A request is created to source the new hardware assets and to replace the aged hardware assets. The Request form shows the total price of all the new hardware asset models.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization]()
-
-[Manage asset bundles from your inventory]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Use a hardware asset request flow]()
-
-[Audit hardware asset inventory]()
+[Manage refresh of assets using Zero Touch Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[View RFID information of assets]()
+[Create a disposal order]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+[Donate assets to charity organizations]()
 
-[Receive asset warranty details from Lenovo]()
+[Calculate the active lifecycle phase for a model]()
 
-[Manage stockrooms]()
+[Manage asset bundles from your inventory]()
 
-[Track shipments using the integration framework]()
+[Manage obligations in the Hardware Asset Workspace]()
 
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage and monitor hardware asset performance]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
-
-[Manage asset put away using the Hardware Asset Workspace]()
-
-[Manage hardware asset tasks using the Mobile Agent application]()
-
-[Audit your hardware assets by using Asset Attestation]()
-
-[Acknowledge receipt of assets on the Employee Center portal]()
-
-[Update associated Decision tables for HAM flows]()
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
 
 ## Use Hardware Asset Refresh Lines tasks to replace the aged assets
 
@@ -206,15 +166,15 @@ After sourcing the new assets, the asset refresh is completed through the follow
 
 1.  Select the hardware asset refresh request.
 
-<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d267680e752">
+<table id="choicetable_upl_qst_ywb"><thead><tr><th align="left" id="d340457e558">
 
 Interface
 
-</th><th align="left" id="d267680e755">
+</th><th align="left" id="d340457e561">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d267680e761">
+</th></tr></thead><tbody><tr><td id="d340457e567">
 
 **Core UI**
 
@@ -224,7 +184,7 @@ Action
 2.  Select the request number of the hardware asset refresh request that you want to fulfill.
 
 
-</td></tr><tr><td id="d267680e794">
+</td></tr><tr><td id="d340457e600">
 
 **Hardware Asset Workspace**
 
@@ -256,6 +216,8 @@ Action
 4.  Select the hardware asset refresh line.
 
 5.  Select the **Refresh line tasks** tab.
+
+    **Note:** The **Asset** field on refresh line task records is not populated. The task record uses the **refreshing\_asset** field for the asset being replaced and the **replacement\_asset** field for the new asset being deployed.
 
 6.  Complete the Asset pick task by using the Mobile Agent application.
 
@@ -321,4 +283,6 @@ After the aged hardware asset is reclaimed, the following changes happen on the 
 
 -   The state of the aged asset changes to In stock.
 -   The substate changes to Pending disposal.
+
+When the refresh workflow completes and the asset transitions to **In stock** and **Pending disposal** state, the system clears the **Refresh request line** field on the aged asset record. This field displays only active refresh processes.
 

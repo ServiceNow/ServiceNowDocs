@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Return Merchandise Authorization
@@ -33,6 +33,8 @@ On the Assessment task from, when you select on-site repair, the flow designer t
 After attempting an on-site repair, if the faulty asset couldn't be repaired, then you can send the product for an off-site repair. If you want to send the faulty product for an off-site repair, then the Asset RMA Off-site flow is triggered and the RMA process is completed through the Asset RMA Off-site Flow RMA tasks.
 
 You can cancel an RMA request as long none of the assessment tasks are closed for any of the RMA request lines. After an RMA request is canceled, all the associated RMA request lines and RMA tasks are canceled. If you submit RMA for an asset that is part of an existing RMA, the RMA request lines of the existing RMA request are automatically canceled. If an RMA task is canceled, the associated RMA request line is also canceled. If you have the inventory user or itil role, you can cancel an Assessment task, Internal repair task, or a Shipping task.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -20,7 +20,7 @@ The methods in this class parse a specified string into a [GlideCurrencyValue](h
 
 Setting the locale is optional. If you do not set it through the GlideCurrencyParser.setLocale\(\) method, the currency amount passed into GlideCurrencyParser.parse\(\) must be unformatted.
 
-This class runs is in the `sn_currency` namespace.
+This API is provided within the `sn_currency` namespace.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 

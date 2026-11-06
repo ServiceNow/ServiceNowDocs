@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-ai-system-in-aict-from-ba.html
 release: yokohama
 topic_type: task
-last_updated: "2026-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View AI system details from a business application
@@ -23,7 +23,7 @@ Role required:
 
 ## About this task
 
-The **AI Systems** tab on a business application record shows a summary of each associated AI system, including its lifecycle phase, state, lifecycle status, and risk classification. To review the complete governance details of an AI system — such as its related models, datasets, prompts, approval history, and lifecycle tasks— you can open the full AI system record in the AI Control Tower workspace.
+The **AI Systems** tab on a business application record shows a summary of each associated AI system, including its lifecycle phase, state, lifecycle status, and risk classification. You can open the full AI system record in the AI Control Tower workspace to review complete governance details. These details include related models, datasets, prompts, approval history, and lifecycle tasks.
 
 ## Procedure
 
@@ -39,10 +39,10 @@ The **AI Systems** tab on a business application record shows a summary of each 
 
 6.  In the **Managed** or **Unmanaged** section, select the display name of the AI system you want to view details for.
 
-    The AI system record opens in the AI Control Tower workspace, displaying the full governance details for that AI system. The record includes tabs for details, KPIs and metrics, and requests, along with related assets such as sub AI systems, AI models, tools, prompts, evaluation datasets, and business applications.
+    The AI system record opens in the AI Control Tower workspace, displaying the full governance details for that AI system. The record includes tabs for details, KPIs and metrics, and requests. Related assets include sub AI systems, AI models, tools, prompts, evaluation datasets, and business applications.
 
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 

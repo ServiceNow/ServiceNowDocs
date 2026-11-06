@@ -1,20 +1,20 @@
 ---
 title: Create requested allocations for a resource plan
-description: Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, resource requesters can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
+description: Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/request-allocation.html
 release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create requested allocations for a resource plan
 
-Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, resource requesters can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
+Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
 
 ## Before you begin
 

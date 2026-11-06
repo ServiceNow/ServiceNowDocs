@@ -1,24 +1,24 @@
 ---
-title: Use an enterprise asset request flow
-description: Use an enterprise asset request flow for requesting, sourcing, and deploying catalog items from the Service Catalog application.
+title: Manually fulfill enterprise asset requests by using the enterprise asset request flow
+description: Use the enterprise asset request flow to request, source, and deploy catalog items from the Service Catalog application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-eam-assetrequest.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Fulfilling enterprise asset requests, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
-# Use an enterprise asset request flow
+# Manually fulfill enterprise asset requests by using the enterprise asset request flow
 
-Use an enterprise asset request flow for requesting, sourcing, and deploying catalog items from the Service Catalog application.
+Use the enterprise asset request flow to request, source, and deploy catalog items from the Service Catalog application.
 
 ## Before you begin
 
-Before requesting for an enterprise asset, ensure that you have already created a model for that asset in the Enterprise Asset Workspace and published that model to the Service Catalog application.
+Before requesting for an enterprise asset, confirm that you have already created a model for that asset in the Enterprise Asset Workspace and published that model to the Service Catalog application.
 
 Role required:
 
@@ -49,7 +49,7 @@ The Workflow Studio application is used to create the Standard Enterprise Asset 
 
 5.  Login with credentials for the role of sys \_admin role and add the **Enterprise Assets** catalog.
 
-    The **Enterprise Assets** catalog is not on the Service Catalog page by default. To add this catalog, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: Add Content icon \) beside the search catalog bar and then select **Enterprise Assets**
+    The **Enterprise Assets** catalog is not on the Service Catalog page by default. To add this catalog, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: beside the search catalog bar and then select **Enterprise Assets**
 
 6.  Login with credentials for the role of sn\_eam.enterptrise\_asset\_manager and select the **Enterprise Assets** catalog.
 
@@ -91,4 +91,6 @@ The Workflow Studio application is used to create the Standard Enterprise Asset 
 
     If it's a serialized asset, it's marked as **In use** state. If it’s a consumable asset, it’s marked as **Consumed** state. In the Standard Enterprise Asset Request flow, the action that is associated with deploying the assets is now complete.
 
+
+**Parent Topic:**[Fulfilling enterprise asset requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/fulfilling-enterprise-asset-requests.md)
 

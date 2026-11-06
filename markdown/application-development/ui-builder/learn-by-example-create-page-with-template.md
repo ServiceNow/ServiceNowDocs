@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a record page using a template
@@ -24,15 +24,15 @@ Role required: ui\_builder\_admin
 
 1.  Open the main page for your demo experience.
 
-    \[Omitted image "demo-experience.png"\] Alt text: Demo Experience
+    \[Omitted image "demo-experience.png"\] Alt text: Demo Experience.
 
-2.  From the main page for your experience, select the plus \(**+**\) sign next to **Pages and variants**.
+2.  From the main page for your experience, select the plus \(**+**\) sign next to **Pages**.
 
     \[Omitted image "create-new-or-variant.png"\] Alt text: Create new page or variant
 
 3.  Select **Create a new page** to create a page that resides at a different URL.
 
-4.  On the **First, select a template** screen, locate the **Standard record** template and select **Use template**.
+4.  On the **First, select a template** screen, locate the **Standard record** template and hover over **Use template**.
 
     **Note:** Optionally, you could select **Learn more** to read about the template before selecting it.
 
@@ -40,9 +40,11 @@ Role required: ui\_builder\_admin
 
 5.  In the **Name** field of the Page details screen, type `Task record page`, and select **Continue**.
 
-6.  Select **Looks good** on the next screen.
+6.  Select a URL page type in the **Type** drop-down list. UI Builder automatically assigns a page type based on the template you select, but you can change this value if needed.
 
-7.  On the **Tell us about your variant** screen, enter a condition to determine when the page is visible.
+7.  Select **Looks good** on the next screen.
+
+8.  On the **Tell us about your variant** screen, enter a condition to determine when the page is visible.
 
     1.  In the **Parameter** field, select **table**.
 
@@ -54,15 +56,13 @@ Role required: ui\_builder\_admin
 
     This page is visible to users accessing a record from the Task table.
 
-8.  Select **Create**.
+9.  Select **Create**.
 
     The visual editor opens. Here, you can begin editing your new page.
 
-    \[Omitted image "new-page-from-standard-record-template.png"\] Alt text: New page created from template.
-
     **Note:** The new page includes LOTS of layout, preconfigured components, data, and modals. Additionally, it includes test values you can modify for your own particular use cases. Using templates can be a significant time-saver when creating new pages.
 
-9.  You can select the area above the Page content pane to view information about test values included in the template.
+10. You can select the area above the Page content pane to view information about test values included in the template.
 
     \[Omitted image "edit-test-values.png"\] Alt text: Edit test values included in the template.
 

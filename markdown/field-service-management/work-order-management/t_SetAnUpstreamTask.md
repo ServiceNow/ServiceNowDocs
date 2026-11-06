@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Create dependencies between work order tasks
@@ -142,7 +142,7 @@ Enter the minimum delay or waiting time between tasks.Minimum lag time is the mi
 
 ## Server Installation and Configuration
 
-Consider you have a work order for setting up a new server. There are three work order tasks involved: "Install Server", "Configure Server", and "Administer Server".
+Consider you have a work order for setting up a new server. There are three work order tasks involved: "Install Server", "Configure Server", and "Administer Server".\[Omitted image "task-dependencies.png"\] Alt text: task dependency form
 
 -   Install Server \(Predecessor or Upstream Task\): This task involves physically installing the server hardware.
 -   Configure Server \(Successor or Downstream Task\): This task involves configuring the server software after the installation is complete.
@@ -162,6 +162,4 @@ To set up dependencies:
 10. Click "Submit".
 
 With this work order tasks dependency, the system requires the "Install Server" task to be completed before the "Configure Server" task can begin and start the "Administer Server" task after the configuration is complete.
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

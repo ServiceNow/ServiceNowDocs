@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Out Of Box Catalogs using Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -86,7 +86,7 @@ CSC Content- Post Provisioning- Retrieve Windows Password
 All windows catalogs have a retrieve password action, which emails the Administrator, the password of the provisioned windows VM to the requester. The password is obtained from AWS after the deployment is complete using a ssh key \('pem'\) file to decrypt the password. Follow these pre-requisite steps to set up this pem file on the Terraform Linux server:
 
  1.  Ensure that the SSH Private Key credential to the VM with Terraform CLI installed, is associated with the credential alias named 'TFO Server Credential Alias'. This alias is already created with installation of CSC Content pack. This alias is used to SSH into the terraform server to get the windows password from output variable.
-2.  Ensure that in the Catalog’s Provision variable set, the variable called 'keypath'. Set the default value to the path of the management key on the terraform VM. This key decrypts the password.
+2.  Ensure that in the Catalog’s Provision variable set, set the 'keypath' variable default value to the management key path on the terraform VM. This key decrypts the password.
 3.  Ensure that the requester has set up the email
 
  **Note:** For custom catalogs, this operation is available for use only, with Terraform Opensource- Linux based catalog items.

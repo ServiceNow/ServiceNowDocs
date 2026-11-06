@@ -7,7 +7,7 @@ release: yokohama
 product: ATF Test Generator and Cloud Runner
 classification: atf-test-generator-and-cloud-runner
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ATF Test Generator and Cloud Runner, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,8 +39,6 @@ Role required: admin
     If the admin user is selected successfully, the following message shows up:
 
     \[Omitted image "atf-app-credentials-success.png"\] Alt text: Image showing user selection success message
-
-    **Note:** You can see the number of entitled concurrent cloud runner browsers.
 
     If the selected user is not an admin, an error message shows up. The following message is an example of one of the possible error messages. The error messages vary depending on the reason of the error.
 

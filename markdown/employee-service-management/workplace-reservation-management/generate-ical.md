@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ For example, assume that your calendar provider is Microsoft Outlook. After you 
 
 1.  Navigate to **My Reservations** page from any of the following starting points.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d396417e66">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d427003e66">
 
 Location
 
-</th><th align="left" id="d396417e69">
+</th><th align="left" id="d427003e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d396417e75">
+</th></tr></thead><tbody><tr><td id="d427003e75">
 
 **From the application navigator**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **My Reservations**.
 
-</td></tr><tr><td id="d396417e96">
+</td></tr><tr><td id="d427003e96">
 
 **Employee Center**
 
@@ -99,23 +99,25 @@ The reservation is added to your calendar.
 
 [Create a reservation]()
 
+[Auto-resolve recurring reservations]()
+
 [Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Reserve a space near your colleague]()
 
-[Create neighborhood reservations]()
+[Create a multi-day reservation]()
 
 [Create multi-building reservations]()
 
-[Create a multi-day reservation]()
+[Create neighborhood reservations]()
 
 [Create reservation for multiple workplace items]()
 
-[Create a reservation along with a shared reservation]()
+[Enable shift-based reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Create a reservation along with a shared reservation]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -126,4 +128,6 @@ The reservation is added to your calendar.
 [Share, modify, or cancel a reservation]()
 
 [Reserve a workplace using the Quick Reservation widget]()
+
+[Manage and configure reservation waitlist]()
 

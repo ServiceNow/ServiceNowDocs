@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Run migration scheduled job
@@ -26,23 +26,10 @@ Role required: sn\_irm\_cont\_auth.admin
 
 2.  Enter **Migrate to CAM Workflow Configurator** in the **Name** filter search bar to search for the CAM workflow migration-scheduled jobs.
 
-    \[Omitted image "WF-migration1.png"\] Alt text: Searching workflow configurator.
-
 3.  Select **Migrate to CAM Workflow Configurator** from the scheduled job search list.
-
-    \[Omitted image "WF-migration2.png"\] Alt text: Selecting workflow configuration.
 
 4.  Verify the scheduled job details.
 
-    \[Omitted image "WF-migration3.png"\] Alt text: Verifying workflow configuration scheduled jobs.
-
 5.  Select **Execute Now** to confirm execution.
 
-
-**Related topics**  
-
-
-[GRC state model configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-create-state-model.md)
-
-[Workflow configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/work-configuration.md)
 

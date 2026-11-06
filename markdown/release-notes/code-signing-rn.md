@@ -1,22 +1,26 @@
 ---
 title: Code Signing release notes
-description: The Code Signing application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Yokohama release.The Code Signing application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Yokohama release.
+description: The ServiceNow Code Signing application validates scripts and code that run on your instance to prevent unauthorized or tampered records from being processed. See the following sections for release notes by version.Generate Code Signing signatures automatically during a source control commit, and review a change audit trail for the records that Code Signing protects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/code-signing-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+keywords: [Code Signing, source control, commit, signature generation, ServiceNow Studio, audit trail, change tracking]
+breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Code Signing release notes
 
-The Code Signing application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Yokohama release.
+The ServiceNow® Code Signing application validates scripts and code that run on your instance to prevent unauthorized or tampered records from being processed. See the following sections for release notes by version.
 
 ## About Code Signing
 
-Use Code Signing Guardrails to improve checks during the signing process to create more secure workflows.
+-   Prevent unauthorized code execution by enabling cryptographic verification of all scripts on your MID Servers.
+-   Detect tampering instantly by identifying modifications to signed records and automatically blocking compromised code.
+-   Streamline security enforcement by automating signature verification across integrations without requiring manual intervention.
+-   Support compliance needs by maintaining comprehensive audit records of all signature verification events.
 
 See [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/code-signing-landing.md) for more information.
 
@@ -24,29 +28,23 @@ See [Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/y
 
 -   **Activation information**
 
-    Code Signing is a ServiceNow AI Platform feature that is available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. For details, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/config-code-signing.md).
+    Code Signing is a ServiceNow AI Platform feature available with activation of the Code Signing \(com.glide.code\_signing\_enterprise\) plugin. Installing this plugin automatically installs the Code Signing OOB App Signatures plugin \(com.glide.code\_signing.oob\_apps\_signatures\). For details, see [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/config-code-signing.md).
 
 
 **Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-security-rn-landing.md)
 
-## Yokohama
+## Brazil Early Availability
 
-The Code Signing application validates scripts and code that runs on your instance. Code Signing was enhanced and updated in the Yokohama release.
+Generate Code Signing signatures automatically during a source control commit, and review a change audit trail for the records that Code Signing protects.
 
-### What's changed
+### What's new
 
--   **[Enhancements to the guardrails check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/cse-ppi-config.md)**
+-   **Signature generation during source control commit**
 
-    The Code Signing Guardrails check has been improved to enhance signature verification, resulting in more secure workflows. In addition, multiple optimizations have been implemented to improve the performance benchmarks of the Guardrails scan, and log files now feature a more intuitive naming convention, which simplifies file identification within your system.
+    Generate Code Signing signatures automatically when you commit application files to source control from a trusted instance. Signatures are created for eligible records during the commit and pushed to the remote repository in the same update set as their source records, so a protected instance can validate the records it receives.
 
+-   **Code Signing change audit data**
 
--   **[Generate update sets with a maximum size of 10,000 records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/cse-turn-on-cse.md)**
-
-    Code Signing now enforces limits on large update sets to improve the user experience. The maximum size for an update set is 10,000 records.
-
-
--   **[Naming updates for trusted and production instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/code-signing-landing.md)**
-
-    The trusted non-production instance has been renamed to trusted instance, and the protected production instance has been renamed to protected instance. These naming updates have been made to better align with customer usage.
+    Review the create, update, and delete operations that users perform on records protected by Code Signing. Each audit record identifies the changed record, the user who changed it, the operation type, and the date and time of the change. Audit data is recorded by default on production instances when Code Signing is active, and users with the codesigning\_auditor role can view and report on it. A scheduled job manages the size of the audit data based on a configurable retention period and maximum record count.
 
 

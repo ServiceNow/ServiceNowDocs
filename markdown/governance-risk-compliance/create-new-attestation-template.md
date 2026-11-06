@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-attestation-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -70,7 +70,7 @@ You can update the questions according to your business requirements as shown in
 
     3.  On the Assessment Metric Type New Record form, enter the name for the attestation template and select **Submit**.
 
-        For a description of the field values on the form, see [Assessment Metric Type New Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/attestation-template-reference.md).
+        For a description of the field values on the form, see [Assessment Metric Type Record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/attestation-template-reference.md).
 
         The attestation template is displayed in the templates list view as shown in the following example.
 

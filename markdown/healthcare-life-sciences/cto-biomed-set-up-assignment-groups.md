@@ -1,18 +1,18 @@
 ---
 title: Set up assignment groups for Care Team Operations for Biomed
-description: Associate assignment groups with your healthcare organizations to determine which user groups are associated with specific healthcare organizations.
+description: Associate assignment groups within your healthcare biomed organizations so work orders can be fulfilled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-set-up-assignment-groups.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Set up work order synchronization, Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Set up assignment groups for Care Team Operations for Biomed
 
-Associate assignment groups with your healthcare organizations to determine which user groups are associated with specific healthcare organizations.
+Associate assignment groups within your healthcare biomed organizations so work orders can be fulfilled.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ For both of the above roles, the **Locations Covered** related list displays all
 
 2.  Select the healthcare organization you want to associate an assignment group with.
 
-3.  In the Assignment Groups related list, select **New**. 
+3.  In the Assignment Groups related list, select **New**.
 
 4.  On the Service Organization Assignment Group form, fill in the fields.
 

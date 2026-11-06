@@ -1,16 +1,16 @@
 ---
-title: Review and approve a post case review document
+title: Review and approve a post case review
 description: Review and approve a post case review document for a resolved case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/approve-case-review-document.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Review and approve a post case review document
+# Review and approve a post case review
 
 Review and approve a post case review document for a resolved case.
 

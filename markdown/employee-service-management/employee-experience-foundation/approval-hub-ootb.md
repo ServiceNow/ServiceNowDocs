@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Approvals experience reference
@@ -99,52 +99,66 @@ Use the out-of-the-box **Approvals action group** to display the actions such as
 -   Click the URLs for additional information and context.
 -   Allow BUs to add non-task tables easily to the list in the To-dos or Task configuration reference tables by passing non-task tables as an array in the **Scripted Extension Points**. **sn\_hr\_sp.TodoNonTaskTables**, and **sn\_ex\_sp.RefNonTaskTables**.
 
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
+**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-reference.md)
 
 **Related topics**  
 
 
-[Block content form]()
+[Activity Configuration form]()
 
-[Campaign overview and Campaign analytics dashboards]()
+[Activity Configuration Detail form]()
 
-[Components installed with Employee Center Pro]()
+[Connected Content form]()
 
-[Components installed with Content engagement]()
+[Default Employee Profile Header Configuration record]()
 
-[Components installed with Content Experiences]()
+[Employee Center widgets]()
 
-[Components installed with Content Publishing]()
+[Employee Profile form]()
 
-[Components installed with Content Governance]()
+[Employee Profile Header Configuration form]()
 
-[Components installed with Content Analytics]()
+[Employee Profile portal configuration form]()
 
-[Content Analytics dashboards]()
+[Employee Profile upgrade scenarios]()
 
-[Content engagement dashboard]()
+[Enhanced Requests Experience forms]()
 
-[Content Library Overview dashboard]()
+[External Link form]()
 
-[Employee Center Pro widgets]()
+[Featured Content form]()
 
-[Feedback Analytics dashboard]()
+[Footer form]()
 
-[Feedback configuration form]()
+[Footer Menus form]()
 
-[Feedback definition form]()
+[Guided Self-Service reference]()
 
-[Link content form]()
+[Menu Item form]()
+
+[Overview section form]()
+
+[Portal notification configuration form]()
+
+[Portal notification content form]()
+
+[Trigger conditions form]()
+
+[Quick Link form]()
+
+[Tab widget mapping form]()
+
+[Taxonomy form]()
+
+[Topic form]()
+
+[User Criteria form]()
+
+[User Criteria output]()
+
+[Schedule appointment form]()
 
 [Location Consent form]()
 
-[Notification content form]()
-
-[Properties installed with Content Experiences]()
-
-[Properties installed with Content Governance]()
-
-[Properties installed with Content Publishing]()
-
-[Schedule appointment form]()
+[Website configuration form]()
 

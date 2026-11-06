@@ -1,5 +1,5 @@
 ---
-title: Associate an item in application table to a control objective
+title: Map PaCE policy to a control objective
 description: Use the Policy as Code Engine \(PaCE\) policy related list in the Compliance Workspace to map the control objective with a PaCE policy. Compliance managers have the ability to map the control objectives with PaCE policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/generate-controls-entities-pace.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Policy as Code Engine for Preventive compliance management, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy as Code Engine for Preventive compliance management, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Associate an item in application table to a control objective
+# Map PaCE policy to a control objective
 
 Use the Policy as Code Engine \(PaCE\) policy related list in the Compliance Workspace to map the control objective with a PaCE policy. Compliance managers have the ability to map the control objectives with PaCE policies.
 
@@ -30,7 +30,7 @@ When a PaCE policy is mapped to a deployable instance, and if the policy is not 
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List.\).
+2.  In the Compliance Workspace, click the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Compliance library** &gt; **Control objectives**.
 

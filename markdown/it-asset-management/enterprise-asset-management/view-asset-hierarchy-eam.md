@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # View the asset hierarchy in the Enterprise Asset Workspace
@@ -34,7 +34,7 @@ The asset hierarchy shows consumable assets associated with a parent asset.
 
 2.  Select the asset record.
 
-3.  Select the Asset hierarchy icon \(\[Omitted image "asset-hierarchy-icon-eam.png"\] Alt text: Asset hierarchy icon\) on the contextual sidebar.
+3.  Select the Asset hierarchy icon \[Omitted image "asset-hierarchy-icon-eam.png"\] Alt text: on the contextual sidebar.
 
     -   The asset hierarchy is shown in a tree-like format.
 

@@ -1,5 +1,5 @@
 ---
-title: Mobile SDK API reference - iOS
+title: Mobile SDK - iOS
 description: The Mobile SDK for iOS provides the classes necessary to interface iOS-based devices with the ServiceNow platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.html
@@ -7,55 +7,16 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# Mobile SDK API reference - iOS
+# Mobile SDK - iOS
 
 The Mobile SDK for iOS provides the classes necessary to interface iOS-based devices with the ServiceNow platform.
 
-It provides classes that enable you to create feature services such as chat, REST API interface, GraphQL, and web access, that allow you to create interactive applications on any iOS device.
-
-For additional information on how to implement specific use cases using this API, see the [Mobile SDK Developer Guide - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/developer-guides/mobsdk-ios-overview.md).
-
-<table id="table_qgj_tg2_vpb" class="returns"><thead><tr><th>
-
-Type
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr id="mobile_SDK_ios-NowAttachmentMetadata_State"><td>
-
-NowAttachmentMetadata.State
-
-</td><td>
-
-Attachment metadata state.Possible values:
-
--   available
--   conditionally
--   none
--   pending
--   unavailable
-
-</td></tr><tr id="mobile_SDK_ios-NowSDKError"><td>
-
-NowSDKError
-
-</td><td>
-
-Errors that can be thrown from the NowSDK module.Values
-
--   configurationError
--   missingAuthorizationProvider
--   missingPermissionDelegate
-
-</td></tr></tbody>
-</table>-   **[FetchConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/FetchConfigiOSStructure.md)**  
+-   **[FetchConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/FetchConfigiOSStructure.md)**  
 The FetchConfiguration structure provides the ability to define the configuration for fetching records from your ServiceNow instance.
 -   **[FieldReadConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/FieldReadConfigurationiOSStruct.md)**  
 The FieldReadConfiguration structure enables you to configure which fields to fetch from a ServiceNow instance table and in which format.
@@ -79,8 +40,8 @@ The NowAttachmentUploadConfiguration structure enables you to define the configu
 The NowChat API is a top-level global API that enables users to instantiate a NowChat service instance.
 -   **[NowChatColoring protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatColoringiOSProtocol.md)**  
 The NowChatColoring protocol defines default colors for the elements in the Live Agent and Virtual Agent chat UI.
--   **[NowChatConfiguration - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)**  
-The NowChatConfiguration class enables you to configure options on a chat session, such as showing a prompt before closing a chat window, disabling features while using chat, applying different conversation options when using chat, and configuring UI components in NowChat.
+-   **[NowChatConfiguration class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)**  
+Configures options on a chat session.
 -   **[NowChatService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatServiceiOSAPI.md)**  
 The NowChatService class provides Virtual and Live Agent chat capabilities.
 -   **[NowChatServiceDelegate protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatServiceDelegateiOSProtocol.md)**  
@@ -113,6 +74,22 @@ The NowService protocol provides a single interface to the NowSDK for all featur
 The NowServiceConfiguration structure defines configuration information for a feature service.
 -   **[NowTableService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowTableServiceiOSAPI.md)**  
 The NowTableService class provides functions that enable you to perform create, read, update, and delete operations on records of existing ServiceNow tables.
+-   **[NowVoice API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceiOSAPI.md)**  
+NowVoice is a top-level global API for embedding voice agent sessions in iOS applications.
+-   **[NowVoiceCallbacks structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)**  
+Specifies callbacks for voice session lifecycle and content events.
+-   **[NowVoiceDefaultTheme structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NVoiceDefThemeiOSStruct.md)**  
+The default implementation of NowVoiceThemeable.
+-   **[NowVoiceEndpoint structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)**  
+Describes a voice agent endpoint.
+-   **[NowVoiceService class - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceServiceiOSAPI.md)**  
+The NowVoiceService class manages voice agent sessions for a single ServiceNow instance.
+-   **[NowVoiceThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NVoiceThemeableiOSProtocol.md)**  
+Sets the colors to apply to NowVoice UI elements.
+-   **[NowVoiceTranscriptMessage typealias - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NVoiceTrnstMsgiOSta.md)**  
+Represents a single message in the voice session transcript.
+-   **[NowVoiceUIConfiguration structure - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)**  
+Specifies presentation options for the voice agent UI.
 -   **[NowWeb API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowWebiOSAPI.md)**  
 The NowWeb API is a top-level global API that enables uses to instantiate a NowWeb service instance.
 -   **[NowWebColoring protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowWebColoringiOSProtocol.md)**  
@@ -127,8 +104,6 @@ The NowWebViewController class provides functions that enable you to manage a we
 The NowWebViewControllerDelegate protocol provides callbacks for notification of issues within the NowWebViewController processing such as when a flow ends or a navigation fails.
 -   **[Paginator API - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/PaginatorIOSAPI.md)**  
 The Paginator class provides methods for iterating through a record set returned by a call to the ServiceNow Table API through the NowTableService. It is the object that is returned by the NowTableService paginator\(\) methods. Do not call this method outside of that environment.
--   **[SNMobileAnalytics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/SNMobileAnalytics.md)**  
-The SNMobileAnalytics API provides methods that you can call within a WebView using JavaScript. These methods enable you to push custom analytics data \(events, pages, and user properties\) to the User Experience Analytics for Service Portal dashboard.
 
 **Parent Topic:**[Mobile SDK API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/api-mobile_sdk.md)
 

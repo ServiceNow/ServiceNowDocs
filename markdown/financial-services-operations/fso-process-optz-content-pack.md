@@ -5,18 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-process-optz-content-pack.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and reporting solutions, Financial Services Operations \(FSO\)]
+breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
 
 # Process Mining for Financial Services Operations
 
 The Financial Services Operations Process Mining Content Pack has preconfigured Process Mining models for Financial Services Operations processes that help analysts and process owners analyze how effective their business processes are.
 
-**Important:** Starting with the Vancouver release, the Process Optimization application has been renamed to Process Mining.
-
-For information about enabling the FSO Process Mining Content Pack, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/po-content-pack.md).
+For information about enabling the FSO Process Mining Content Pack, see [Content pack for Financial Services Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/integration-fso-process-opt.md).
 
 ## Optimization projects
 
@@ -62,5 +60,5 @@ Based on the Financial Services Operations application that you're using the Pro
 |Group Life Servicing|sn\_ins\_group\_life.manager and sn\_process\_optimization\_analyst|
 |Intelligent Servicing for Fraud|sn\_bom\_fraud.manager and sn\_process\_optimization\_analyst|
 
-**Parent Topic:**[Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
 

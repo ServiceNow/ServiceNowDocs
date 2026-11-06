@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and test your credentials, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # CIM credentials
@@ -72,7 +72,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.To use the credential for discovering CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs, for example cmdb\_ci\_apache\_web\_server.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.To discover CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs. For example, enter `cmdb_ci_apache_web_server`.
 
 </td></tr><tr><td>
 

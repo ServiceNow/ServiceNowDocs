@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Transfer, LINE, chat, conversations, Live Agent, AWA, Advanced Work Assignment, Conversational, Messaging, Integration]
-breadcrumb: [Configure Conversational Integration with LINE, Integrating Virtual Agent with LINE, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use, LINE, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Transfer LINE chat conversations to live agents
@@ -21,10 +21,10 @@ Configure the Advanced Work Assignment application to transfer a LINE chat conve
 
 Your administrator must have completed the following tasks:
 
--   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+-   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-activate.md).
 -   [Install Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-install.md).
 -   Set the application scope to Conversational Integration with LINE using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/activate-messaging-actions.md).
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
@@ -44,7 +44,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
 2.  Automatically route work items for LINE chat conversations to agents by configuring the queue for the Line service channel.
 
@@ -58,7 +58,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **Line - Most Capacity** assignment rule is associated with the Agent Line Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-queues.md).
+    **Note:** By default, the **Line - Most Capacity** assignment rule is associated with the Agent Line Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
 3.  Configure agent presence states for the Line service channel.
 
@@ -66,14 +66,16 @@ Role required: admin
 
     2.  In the **Name** column of the Presence States list, select an existing state.
 
-    3.  On the Presence State form, in the Service channels section, select the add icon &gt; to move the Line service channel from the Available column to the Selected column.
+    3.  On the Presence State form, in the Service channels section, select the add icon &gt; to move the **Line** service channel from the **Available** column to the **Selected** column.
 
-    4.  In the Apply to groups section of the Presence State form, select the add icon &gt; to move the Agent Line Group group from the Available column to the Selected column.
+    4.  In the Apply to groups section of the Presence State form, select the add icon &gt; to move the **Agent Line Group** group from the **Available** column to the **Selected** column.
 
         **Note:** You can ignore this step if you have selected the **Apply to all groups** check box.
 
     5.  Select **Update**.
 
-    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-configure-agent-presence.md).
+    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
+
+**Parent Topic:**[Using Conversational Integration with LINE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-line-using.md)
 

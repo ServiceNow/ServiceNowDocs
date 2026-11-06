@@ -1,5 +1,5 @@
 ---
-title: Add planning items to Prioritization page of Strategic Planning Workspace
+title: Add planning items to Prioritization
 description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Add new planning items to your portfolio plan's work backlog in Strategic Planning Workspace and ensure that the work pipeline is current.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/add-new-items-to-backlog-alignment-planner-workspace.html
@@ -7,26 +7,26 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Add planning items to Prioritization page of Strategic Planning Workspace
+# Add planning items to Prioritization
 
 Add new planning items to your portfolio plan's work backlog in Strategic Planning Workspace and ensure that the work pipeline is current.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Use the Prioritization page of your portfolio plan to add new planning items or import them from other ServiceNow execution system such as PPM, Agile Development 2.0, or SAFe.
+Use the Prioritization tab of your portfolio plan to add new planning items or import them from other ServiceNow execution system such as PPM, Agile Development 2.0, or SAFe.
 
-You can use the List, Kanban, or the Hierarchy views while you perform this task.
+You can use the Prioritization, Kanban, or the Hierarchy tabs while you perform this task.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ You can use the List, Kanban, or the Hierarchy views while you perform this task
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the Prioritization page, add a new planning item for your portfolio plan.
+3.  From the Prioritization tab, add a new planning item for your portfolio plan.
 
     Use the More options drop-down to select the planning item that you want to create.
 
@@ -57,16 +57,16 @@ You can use the List, Kanban, or the Hierarchy views while you perform this task
 
 The new item is created with its **Planning state** field is set to **New** and the position of the item is based on the view that you are in.
 
--   List view: Added to the bottom of the list.
--   Kanban view: Added to the **4-Low priority** horizontal lane.
--   Hierarchy view: Added to the appropriate grouping.
+-   Prioritization tab: Added to the bottom of the list.
+-   Kanban tab: Added to the **4-Low priority** horizontal lane.
+-   Hierarchy tab: Added to the appropriate grouping.
 
     For example, your selected lens is Organization. Then, the new item is added to the grouping of its department.
 
 
 ## What to do next
 
--   [Rank planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md).
--   [Update planning item details from Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
--   Learn about [Personalizing Prioritization page views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+-   [Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.md).
+-   [Update planning item details from Prioritization tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.md).
+-   Learn about [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

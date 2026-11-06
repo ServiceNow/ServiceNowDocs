@@ -7,7 +7,7 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2025-12-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ Improve visibility from strategy to execution with Jira Integration. This integr
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/spw-jira-integrations-reference.md)\[Omitted image "bus-learn.svg"\] Alt text:More informations on roles, tables, and forms used in SPW Jira integration.
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/spw-jira-integrations-reference.md)\[Omitted image "bus-learn.svg"\] Alt text:More information on roles, tables, and forms used in SPW Jira integration.
 
 </td></tr></tbody>
 </table>

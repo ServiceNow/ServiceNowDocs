@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Large language models on the ServiceNow AI Platform, Enable AI experiences]
+breadcrumb: [Large language models, Large language models and providers, Enable AI Experiences]
 ---
 
 # Discrepancies when using different AI search tools

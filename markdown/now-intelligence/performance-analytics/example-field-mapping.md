@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a breakdown mapping on a breakdown record, Automated breakdowns, Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Create a breakdown mapping on a breakdown record, Automated breakdowns, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Example: Field mapping
@@ -20,15 +20,15 @@ In the first image, you see the Category breakdown with the Incident.Category br
 
 \[Omitted image "assignment-group-breakdown.png"\] Alt text: Category breakdown form showing breakdown source of Incident.Category and mapping to the category field on the incident table
 
-The Incident.Category breakdown source uses records in the Choices\[sys\_choice\_list\] table.
+The Incident.Category breakdown source uses records in the Choice \[sys\_choice\_list\] table.
 
 \[Omitted image "CreatingBreakdownSourcesExample.png"\] Alt text: The filled out breakdown source form for Incident.Category, showing facts table, field, and conditions
 
-The next image shows the Choice \[sys\_choice\] table records that meet the conditions that are specified in the Incident.Category breakdown source. Note the Label field values.
+On the Choice \[sys\_choice\] table, the records with the values inquiry, software, hardware, network, and database meet the conditions that are specified in the Incident.Category breakdown source. Note the Label field values.
 
 \[Omitted image "choices-table-category-element.png"\] Alt text: Filtered choice table records corresponding to breakdown source example.
 
-Finally, you see the Category field of some records on the Incidents table. This field is mapped to the Category breakdown. The field values match the Label fields of the records of the Choices\[sys\_choice\_list\] table that the Incident.Category breakdown source filters for.
+Finally, you see the Category field of some records on the Incident table. This field is mapped to the Category breakdown. The field values match the Label fields of the records of the Choice \[sys\_choice\_list\] table that the Incident.Category breakdown source filters for.
 
 \[Omitted image "incident-table-category.png"\] Alt text: Category fields of Incident records. Field values match the Label field on the Choices table, to which the Category field is mapped.
 

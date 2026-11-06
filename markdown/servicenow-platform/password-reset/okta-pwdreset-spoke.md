@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Setting up Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set up Password Reset integration with Okta
@@ -18,7 +18,7 @@ Enables end users to reset or change their Okta passwords using Password Reset a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -66,7 +66,7 @@ Customize the default credential store records and password reset processes to i
 -   Activate Password Reset
 -   Activate and set up the Okta spoke.
 -   Activate Password Reset integration with Okta.
--   Role required: admin
+-   Role required: password\_reset\_admin
 
 ### Procedure
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-customer-contact\_EaaI.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Engaging with the customer using email interaction, Using Email Interaction for Customer Service Management, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Engage via email interactions, Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a customer contact
@@ -33,7 +33,7 @@ Agents can use the contact lookup component to search for contacts. If an agent 
 
 4.  In the My Interactions page, select an email interaction.
 
-5.  In the Contact card section, select the Create new icon \(\[Omitted image "Add\_contact\_eaaI.png"\] Alt text: Create new icon\).
+5.  In the Contact card section, select the Create new icon \(\[Omitted image "Add\_contact\_eaaI.png"\] Alt text: Add Contact Card\).
 
 6.  On the Contact form, fill in the fields.
 

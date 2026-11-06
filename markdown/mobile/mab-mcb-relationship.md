@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mab-mcb-relationship.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Access Mobile Card Builder within Mobile App Builder
@@ -32,15 +32,15 @@ When using Mobile App Builder, you can access the Mobile Card Builder to edit ca
 
 2.  Access the Mobile Card Builder within the Mobile App Builder in one of the following ways.
 
-<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d71571e113">
+<table id="choicetable_wtv_bgm_pqb"><thead><tr><th align="left" id="d76899e119">
 
 Location
 
-</th><th align="left" id="d71571e116">
+</th><th align="left" id="d76899e122">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d71571e122">
+</th></tr></thead><tbody><tr><td id="d76899e128">
 
 **From the Mobile App Builder home page**
 
@@ -48,7 +48,7 @@ Action
 
 Select **Open Mobile Card Builder** from the home page.
 
-</td></tr><tr><td id="d71571e137">
+</td></tr><tr><td id="d76899e143">
 
 **From the Mobile App Builder Cards and icons menu section**
 
@@ -65,7 +65,7 @@ The card or icon option that you selected is displayed.
 4.  Customize your card or icon by selecting the **Open in Mobile Card Builder** button.
 
 
-</td></tr><tr><td id="d71571e184">
+</td></tr><tr><td id="d76899e190">
 
 **From the Mobile App Builder configuration pane**
 

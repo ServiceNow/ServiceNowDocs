@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -46,7 +46,7 @@ The Mobile Time Sheets app provides the following capabilities to resource or pr
 Install the Mobile Time Sheets application from the ServiceNow Store website.
 -   **[Create a time sheet from your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/create-timesheet-mobile.md)**  
 Create a time sheet to group all your time cards for the given week and submit them in a single step from the Now Mobile application.
--   **[Add a time card and log time through the Mobile Time Sheets application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/create-timecard-mobile.md)**  
+-   **[Add and log time through the Mobile Time Sheets application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/create-timecard-mobile.md)**  
 Create time cards to log time from your mobile application for the work you have done.
 -   **[Manage your time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/manage-timecard.md)**  
 View, edit, or delete your time cards from your mobile device.

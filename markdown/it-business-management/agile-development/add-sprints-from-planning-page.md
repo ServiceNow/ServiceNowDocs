@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scrum program planning board, Scrum Programs, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum program planning board, Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Add sprints from the program planning board
@@ -85,4 +85,6 @@ Number of sprints that you want to add to the team.For example, if you want to a
 
     You can see new sprints for the team on the program planning board.
 
+
+**Parent Topic:**[Scrum program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/planning-scrum-program-overview.md)
 

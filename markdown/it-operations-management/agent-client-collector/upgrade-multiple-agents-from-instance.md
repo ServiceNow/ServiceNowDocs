@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector upgrade overview, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Upgrade multiple agents in an instance
@@ -42,6 +42,8 @@ Role required: agent\_client\_collector\_admin
 
 You can select up to 50 agents at a time for upgrade. To upgrade large numbers of agents, incorporate the Agent Client Collector into your software deployment tools.
 
+Selective upgrade doesn't support Agent Client Collector to MID Server communication via mTLS.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Agents**.
@@ -54,6 +56,8 @@ You can select up to 50 agents at a time for upgrade. To upgrade large numbers o
 
 4.  In the confirmation dialog box, select **Upgrade**.
 
+
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 
 **Related topics**  
 

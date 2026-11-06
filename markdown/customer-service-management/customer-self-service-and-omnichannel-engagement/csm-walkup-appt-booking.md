@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Walk-up Experience appointment booking
@@ -31,5 +31,5 @@ A service configuration is required for each of the walk-up queue locations with
 
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
-For detailed information about the **Appointment Booking** application, see [Manage appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/managing-appointments.md).
+For detailed information about the **Appointment Booking** application, see [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/managing-appointments.md).
 

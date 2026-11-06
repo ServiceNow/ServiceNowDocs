@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure alert correlation logic order
@@ -26,13 +26,12 @@ Role required: admin
 
 2.  Search for the property **sa\_analytics.agg.query.group\_logic\_order**.
 
-    Default value is “CMDB,NETWORK\_TRAFFIC,TAG\_BASED,PATTERN,TEXTBASE". This is a comma separated list of the grouping types in the order of their execution.
+    Default value is “MIXED,NETWORK\_TRAFFIC,PATTERN,GENERALIZED\_PATTERNS,TEXTBASE". This is a comma separated list of the grouping types in the order of their execution.
 
     **Note:** If one of the grouping types is not specified in the property, it needs to be added manually. Alert correlation rules are trigger-based and applied immediately when an alert is created or updated, before other grouping algorithms.
 
-    -   CMDB: CMDB grouping
+    -   MIXED: Combination of 2 or more grouping criteria
     -   NETWORK\_TRAFFIC: Network traffic grouping
-    -   TAG\_BASED: Tag cluster grouping
     -   PATTERN: Automated CI-based patterns grouping
     -   TEXTBASE: Text-based grouping
 3.  Use the property **sa\_analytics.agg.query.group\_logic\_order** to define or modify the order of correlation methods based on your preferences.

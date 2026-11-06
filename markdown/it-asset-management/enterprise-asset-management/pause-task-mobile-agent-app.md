@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Record time worked on a task using the Mobile Agent application, Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Record time worked on a task using the Mobile Agent application, Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Pause a task using the Mobile Agent application
@@ -37,11 +37,11 @@ Role required:
 
 4.  Filter or sort the task view.
 
-    -   To filter your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\) and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
-    -   To sort your tasks, tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\), tap **Sort by**, and select the fields by which to sort your tasks.
+    -   To filter your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text: and enter the values to use as a filter in the **Due Date**, **Asset**, **Location**, or **Priority** fields.
+    -   To sort your tasks, tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:, tap **Sort by**, and select the fields by which to sort your tasks.
 5.  Tap the task record that you want to pause.
 
-6.  Tap the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) at the top right corner of the screen and then tap **Pause work**.
+6.  Tap the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: at the top right corner of the screen and then tap **Pause work**.
 
     On the **Details** tab, the **Close complete** option changes to **Resume work**.
 

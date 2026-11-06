@@ -7,14 +7,18 @@ release: yokohama
 product: Customer Experience for Field Service Management
 classification: customer-experience-for-field-service-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Customer self service, Using Field Service Management, Field Service Management]
+breadcrumb: [Customer or Consumer Service Portal, Customer self service, Use, Field Service Management]
 ---
 
 # Track the current location of agents from email or SMS notifications
 
 Track the current location of agents and their estimated time of arrival through email or SMS notifications.
+
+## About this task
+
+Customers may see multiple geolocation records for a Field Service agent, showing different coordinates but the same timestamp. This is caused when the customer’s mobile device caches location requests and sends multiple at once. This happens when battery save mode is active on the customer’s device.
 
 ## Before you begin
 
@@ -36,6 +40,4 @@ A link is sent through email or SMS notifications to track the current location 
 ## Result
 
 The agent tracking map for the related work order task opens for you to track the agent.
-
-**Parent Topic:**[Customer self service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/customer-experience-for-field-service-management/customer-self-service.md)
 

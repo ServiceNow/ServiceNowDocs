@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/data-sources-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---

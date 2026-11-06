@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage Workplace Central, Workplace Central, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve a scenario
@@ -37,11 +37,11 @@ As a workplace manager, you can approve a scenario. The Workplace Core Approval 
 
     You can also use filter options to view only those approvals that are in the **Requested** state.
 
-3.  To view the scenario before approving, in the **Approving** field, click the Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon\).
+3.  To view the scenario before approving, in the **Approving** field, select Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon\).
 
-4.  Click **Open Record**.
+4.  Select the **Open Record** tab from the preview window.
 
-5.  On the Scenario Plan form, click **Open scenario plan**.
+5.  On the Scenario Plan form, select **Open scenario plan**.
 
     The scenario stack plan opens in a read-only mode.
 
@@ -51,7 +51,7 @@ As a workplace manager, you can approve a scenario. The Workplace Core Approval 
 
 8.  On the form, do any one of the following:
 
-    -   To approve the scenario, click **Approve**.
+    -   To approve the scenario, select **Approve**.
 
         The scenario is approved.
 
@@ -60,8 +60,8 @@ As a workplace manager, you can approve a scenario. The Workplace Core Approval 
 
             If you want to suggest any changes in the scenario, briefly details the changes.
 
-        2.  Click **Post** after entering you comments.
-        3.  Click **Reject**.
+        2.  Select **Post** after entering you comments.
+        3.  Select **Reject**.
 
             The scenario is rejected.
 

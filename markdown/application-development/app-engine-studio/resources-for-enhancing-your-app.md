@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Resources for enhancing your app
@@ -37,7 +37,6 @@ Add security
 Add data to your application in App Engine Studio.-   [Create a data model for your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-data.md)
 -   [Create a blank table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/use-existing-table.md)
 -   [Use a spreadsheet to add data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/upload-multi-sheets.md)
--   [Use a PDF to create data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/pdf-extractor.md)
 -   [Create a data integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/import-map-data-existing-table.md)
 -   [Modify application data tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/edit-data.md)
 
@@ -46,8 +45,7 @@ Add data to your application in App Engine Studio.-   [Create a data model for y
 Work in App Engine Studio to add experiences to your application.-   [Add an application experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-experience.md)
 -   [Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-a-record-producer.md)
 -   [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-standard-catalog-item.md)
--   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
--   [Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-portal.md)
+-   -   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-workspace.md)[Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-portal.md)
 -   [Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-mobile.md)
 -   [Editing an experience in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/edit-experience.md)
 
@@ -79,8 +77,8 @@ Seamlessly transition to using Table Builder to enhance your application's data.
 
 </td><td>
 
-Use Workspace Builder and UI Builder to further enhance experiences in your application.-   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
--   [Configure a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-builder.md)
+Use Workspace Builder and UI Builder to further enhance experiences in your application.-   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-workspace.md)
+-   [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-builder.md)
 -   [UI Builder and configurable workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-csm-workspace.md)
 -   [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md)
 -   [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-components.md)
@@ -88,8 +86,8 @@ Use Workspace Builder and UI Builder to further enhance experiences in your appl
 </td><td>
 
 Use Decision Builder to easily manage business logic for your application.-   [Create decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-decision-table-in-decision-designer.md)
--   
--   Modify decision table structure in Workflow Studio
+-   [Manage decision tables in Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/manage-decision-tables-ms-excel.md)
+-   [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/format-decision-table-in-decision-designer.md)
 -   [Modify decision table rules in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/modify-decision-table-rules.md)
 
 </td><td>
@@ -98,8 +96,8 @@ Configure and manage roles for your organization and application using the Servi
 -   [Configure users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-csm-users-groups.md)
 -   [Add users to the App Engine Admin group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-users-to-admin-grp.md)
 -   [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md)
--   [Managing developers using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-developers-using-aemc.md)
--   [Manage collaboration requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-collaboration-requests.md)
+-   [Managing developers using AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-developers-using-aemc.md)
+-   [Manage collaboration requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-collaboration-requests.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enhance your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/customize-application.md)

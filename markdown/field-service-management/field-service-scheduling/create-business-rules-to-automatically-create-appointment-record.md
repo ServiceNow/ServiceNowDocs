@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create a business rule to automatically generate appointment records from catalog item variables
@@ -45,7 +45,7 @@ By creating a business rule, you can:
 
     This ensures your rule runs before new records are inserted into the table.
 
-7.  On the Advanced tab, specify your condition in the **Condition** field.
+7.  On the Advanced tab, add your condition in the **Condition** field.
 
     For example, add `current.variables.sn_appointment` in the **Condition** field.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Continual Improvement Management reference, Continual Improvement Management, IT Service Management]
+breadcrumb: [Reference, Continual Improvement Management, IT Service Management]
 ---
 
 # Updates after improvement initiative creation from integrated applications

@@ -1,0 +1,41 @@
+---
+title: Edit already published catalog items using AI
+description: You can edit published catalog items conversationally using AI. If you’ve already started editing a published catalog item, you can still use AI to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/edit-already-published-catalog-items-using-now-assist.html
+release: yokohama
+product: Service Catalog
+classification: service-catalog
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Using AI conversation to create and edit catalog items, AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Edit already published catalog items using AI
+
+You can edit published catalog items conversationally using AI. If you’ve already started editing a published catalog item, you can still use AI to edit the draft of that published catalog item. You can edit variables and UI policies in this mode.
+
+## Before you begin
+
+Role required: catalog\_builder\_editor
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Builder**.
+
+2.  Select the Catalog items tab.
+
+3.  Select a published catalog item that you want to edit.
+
+4.  Select **Edit**.
+
+5.  Select **Edit with AI**.
+
+6.  Give prompts in the AI conversation, you can generate the catalog item.
+
+7.  After you’ve completed your edits, publish the catalog item.
+
+
+**Parent Topic:**[Using AI conversation to create and edit catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/use-now-assist-conversation-to-create-and-edit-catalog-items.md)
+

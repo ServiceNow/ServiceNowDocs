@@ -1,20 +1,20 @@
 ---
 title: Knowledge blocks
-description: Simplify knowledge authoring for writers and knowledge consumption for readers with knowledge blocks. Knowledge blocks are reusable pieces of content secured by user criteria that you can add to knowledge articles in a knowledge base. The user criteria controls which users can read or not read the block content in an article or search, enabling users to more easily view content that is relevant to them.
+description: Knowledge blocks are reusable pieces of content secured by customizable user criteria that you can add to knowledge articles in a knowledge base. The user criteria determine which user roles can or can’t read the block content in an article, enabling only relevant content to be visible to that user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/knowledge-management/knowledge-blocks.html
 release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Knowledge blocks
 
-Simplify knowledge authoring for writers and knowledge consumption for readers with knowledge blocks. Knowledge blocks are reusable pieces of content secured by user criteria that you can add to knowledge articles in a knowledge base. The user criteria controls which users can read or not read the block content in an article or search, enabling users to more easily view content that is relevant to them.
+Knowledge blocks are reusable pieces of content secured by customizable user criteria that you can add to knowledge articles in a knowledge base. The user criteria determine which user roles can or can’t read the block content in an article, enabling only relevant content to be visible to that user.
 
 Knowledge blocks are available for use in ServiceNow AI Platform only.
 

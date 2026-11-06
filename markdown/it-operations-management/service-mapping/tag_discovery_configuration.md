@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping
 
 You can refine the default configuration to control which CIs Service Mapping includes in application services during the tag-based discovery process.
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 Service Mapping provides preconfigured CI relationships which can participate in tag-based discovery. You have the ability to customize these CI relationships and refine the default configuration using one of the following methods:
 

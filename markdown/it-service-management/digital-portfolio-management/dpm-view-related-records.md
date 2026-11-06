@@ -1,22 +1,22 @@
 ---
-title: View relationships of business applications and application services in the DPM Admin Center
-description: In the DPM Admin Center, you can see a comprehensive view of your business applications and application services. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your application services.
+title: View relationships of business applications and service instances in the DPM Admin Center
+description: In the DPM Admin Center, you can see a comprehensive view of your business applications and service instances. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your service instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-view-related-records.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use the Admin Center in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
-# View relationships of business applications and application services in the DPM Admin Center
+# View relationships of business applications and service instances in the DPM Admin Center
 
-In the DPM Admin Center, you can see a comprehensive view of your business applications and application services. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your application services.
+In the DPM Admin Center, you can see a comprehensive view of your business applications and service instances. You can see incidents, problems, and changes that are related to your business applications and incidents and changes that are related to your service instances.
 
-The relationships of business applications and application services enable you to see a full picture of your solutions. For example, business applications consume multiple application services. So if you set a configuration item \(CI\) for an incident, you must select the application service that the incident belongs to. After that CI is set up, the incident rolls up to the business application that consumes that application service. You can see all the relationships from the DPM Admin Center.
+The relationships of business applications and service instances enable you to see a full picture of your solutions. For example, business applications consume multiple service instances. So if you set a configuration item \(CI\) for an incident, you must select the service instance that the incident belongs to. After that CI is set up, the incident rolls up to the business application that consumes that service instance. You can see all the relationships from the DPM Admin Center.
 
 **Important:** To access the DPM Admin Center, you must have the DPM admin \[sn\_dpm.dpm\_admin\] role.
 
@@ -56,11 +56,11 @@ The relationships of business applications and application services enable you t
 
 ## View applications services related to incidents and changes for operational metrics
 
--   Access the **Overview** tab in the DPM Admin Center, and then select **Configure** in the Application services card.
+-   Access the **Overview** tab in the DPM Admin Center, and then select **Configure** in the Service instances card.
 -   Select **3 Map KPI groups** in the navigation bar.
 -   View the cards under the **Map KPI groups** heading. Each card shows the following with numbered items.
-    -   Application services related to incidents
-    -   Application services related to changes
+    -   Service instances related to incidents
+    -   Service instances related to changes
 -   Select a numbered item in either of the cards to see the business applications related to incidents or changes through the following criteria.
 
     -   The configuration item field
@@ -68,7 +68,7 @@ The relationships of business applications and application services enable you t
     -   The impacted services
     **Note:** A card is set to **Ready for DPM** when any one of the listed criteria is greater than zero. If you select zero \(0\) on a card, then an empty state displays.
 
-    After you select a numbered item on the card, another tab opens and displays all the application services related to your selected criterion. For example, you could see all application services related to incidents through affected CIs. In this example, you can drill down to see the source incident record.
+    After you select a numbered item on the card, another tab opens and displays all the service instances related to your selected criterion. For example, you could see all service instances related to incidents through affected CIs. In this example, you can drill down to see the source incident record.
 
 
 **Parent Topic:**[Use the Admin Center in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-admin-center.md)

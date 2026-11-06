@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2026-02-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 
 Integrate DevOps Change Velocity with JFrog AppTrust applications to automate change request creation, approval, and evidence collection as application versions are promoted through life-cycle stages.
 
-Install the JFrog plugin \(x\_snc\_jfrog\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the JFrog plugin \(x\_snc\_jfrog\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## JFrog AppTrust overview
 
@@ -75,7 +75,7 @@ Once the change request is reviewed and approved in ServiceNow, the approval is 
 
 You can add change approval policies to the model you created for JFrog change requests. For information on creating change approval policies, see [Creating change approval policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/using-change-approval-policies-cf.md).
 
-In the change policy, to retrieve the evidence associated with a JFrog change request, you can use the JFrog Fetch evidences flow action. This flow action collects the relevant evidence data such as artifact promotion details from JFrog and attaches it to the corresponding change request. You can incorporate this flow action into your change policy's approval workflow to ensure that the required evidence is available before the change request is approved or moved forward.
+In the change policy, to retrieve the evidence associated with a JFrog change request, you can use the JFrog Fetch evidences flow action. This flow action collects the relevant evidence data such as artifact promotion details from JFrog and attaches it to the corresponding change request. You can incorporate this flow action into your change policy's approval workflow. This ensures that the required evidence is available before the change request is approved or moved forward.
 
 ## Digital signature verification
 

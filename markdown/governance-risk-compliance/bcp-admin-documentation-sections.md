@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcp-admin-documentation-sections.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -27,7 +27,9 @@ The Business Continuity Management application provides the documentation sectio
 -   SN-BCP Checklist
 -   SN-Overview
 
-A sample **Business Continuity Plan template** with the **SN-Overview** and **SN-Checklist** document sections is shown in the following example. \[Omitted image "business-continuity-plan-template.png"\] Alt text: Demo data template.
+A sample **Business Continuity Plan template** with the **SN-Overview** and **SN-Checklist** document sections is shown in the example.
+
+\[Omitted image "business-continuity-plan-template.png"\] Alt text: Demo data template.
 
 ## Creating a documentation section for your business requirement
 
@@ -35,7 +37,7 @@ If you have the BCM administrator role, you can use the documentation section te
 
 **Note:** When you create a documentation section in the **Documentation** tab without using the plan template, the **Reset to template** UI action is not available for that documentation section.
 
-You can also create a documentation section on the **Documentation** tab in the Business Continuity Workspace. You can use the **Create new section** UI action for creating a documentation section as shown in the following example.\[Omitted image "create-new-section-ui-action-documentation-form.png"\] Alt text: Create new section UI action.
+You can also create a documentation section on the **Documentation** tab in the Business Continuity Workspace. You can use the **Create new section** UI action for creating a documentation section as shown in the example.\[Omitted image "create-new-section-ui-action-documentation-form.png"\] Alt text: Create new section UI action.
 
 For more information on creating a documentation section for your business plan in the Business Continuity Workspace, see [Create documentation sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-documentation-section-bcp.md).
 

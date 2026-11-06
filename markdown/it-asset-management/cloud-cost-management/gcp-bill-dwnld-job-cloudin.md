@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Google Cloud billing and usage data, Configure Cloud Cost Management for Google Cloud, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule and manage the jobs that download Google Cloud billing data
@@ -29,8 +29,6 @@ Roles required:
 
 ## About this task
 
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
-
 During the billing download, all the resources are pulled into the system. GCP SQL databases are placed in the \[cmdb\_ci\] table.
 
 **Note:** From Cloud Cost Management version 8.1 onwards, the default time for billing download jobs has changed from 12 a.m. to 1 a.m. \(UTC\). Also, schedule or run Cloud Cost Management jobs only during off-business hours and when there's no other heavy operations or jobs running on the ServiceNow instance.
@@ -44,9 +42,9 @@ If you have installed the Cloud Cost Management Infra Stack application, then to
 -   The CI placement process associates downloaded cost and usage data with the appropriate CIs in the CMDB. See [Add a Google Cloud CI class type to ensure accurate billing data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/gcp-class-type-add-cloudin.md) for details.
 -   Billing Download jobs can’t be in the Global scope.
 -   You can create only one Billing Download job for each account.
--   To ensure accurate reporting and recommendations for some providers, make sure that Discovery runs before the scheduled execution.
--   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Reservation/saving plans, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
--   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. To apply the latest tag category definitions to cost data without running a Billing Download job, select **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories** and then select **Re-Apply Categories**.
+-   To ensure accurate reporting and recommendations for some providers, make sure that the Discovery application runs before the scheduled execution.
+-   Each successful execution of a Billing Download job triggers the Budget Forecast, Business hours, Commitments, Rightsizing, and Unused resources jobs to analyze spend and usage data and to update the actionable recommendations in reports.
+-   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. You can apply the latest tag category definitions to cost data without running a Billing Download job, by selecting **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Cost usage tags** &gt; **Tag categories** and then selecting **Re-Apply Categories**.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   Cost categories are updated with new cost tag values each time billing data is downloaded. \(You define cost tags in the provider portal to associate usage data with a particular business entity. For example, the Cost Center category might include the tags `development`, `testing`, and `QA`. The User category might include the names of your users.\)
 -   Billing data is downloaded in reverse chronological order by month. For example, if the range is from March to June, data for June is downloaded first.

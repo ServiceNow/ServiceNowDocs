@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Viewing or editing a scenario, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -53,15 +53,15 @@ Role required: sn\_wsd\_spcmgmt.space\_planner, sn\_wsd\_spcmgmt.scenario\_reade
 
 5.  Edit the scenario by using the floor map.
 
-<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d676339e217">
+<table id="choicetable_y3x_khj_3vb"><thead><tr><th align="left" id="d730578e217">
 
 Action
 
-</th><th align="left" id="d676339e220">
+</th><th align="left" id="d730578e220">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d676339e226">
+</th></tr></thead><tbody><tr><td id="d730578e226">
 
 **Zoom in or out on the map**
 
@@ -69,7 +69,7 @@ Description
 
 Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom options.\) on the map.
 
-</td></tr><tr><td id="d676339e241">
+</td></tr><tr><td id="d730578e241">
 
 **Change the map to a different floor and building**
 
@@ -77,7 +77,7 @@ Use the zoom options \(\[Omitted image "zoom-options.png"\] Alt text: Zoom optio
 
 Select a building and floor from the **Building** and **Floor** list options.
 
-</td></tr><tr><td id="d676339e256">
+</td></tr><tr><td id="d730578e256">
 
 **Share a floor**
 
@@ -90,11 +90,11 @@ A link to the floor is copied and can be shared with other space planners. Make 
 
  **Note:**
 
--   Sharing is disabled for scenarios that are in the `Draft` state.
+-   Sharing a floor option is not available for scenarios that are in the `Draft` state.
 -   You can only share floors from scenario planning.
 
 
-</td></tr><tr><td id="d676339e297">
+</td></tr><tr><td id="d730578e297">
 
 **Select spaces based on a filter query**
 
@@ -111,7 +111,7 @@ Spaces on the map are selected based on the conditions that you added.
 
  **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d676339e342">
+</td></tr><tr><td id="d730578e342">
 
 **View the details of a space**
 
@@ -123,7 +123,7 @@ The details of the selected spaces are displayed on the Space details panel sect
 
 **Note:** You can select spaces only while editing a scenario.
 
-</td></tr><tr><td id="d676339e358">
+</td></tr><tr><td id="d730578e358">
 
 **Edit the allocation of a space**
 
@@ -145,7 +145,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 5.  Select **Apply**, then save the scenario.
  **Note:** For Workplace Entities, if you add a parent and child entity as allocations, only the child entity is displayed on the map legend.
 
-</td></tr><tr><td id="d676339e439">
+</td></tr><tr><td id="d730578e439">
 
 **Edit the assignment type of a space**
 
@@ -160,7 +160,7 @@ You can select multiple spaces by holding the Shift key. You can also hold the S
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d676339e477">
+</td></tr><tr><td id="d730578e477">
 
 **Assign a user to a space**
 
@@ -178,7 +178,7 @@ You can also select multiple users.
 4.  Select **Apply**, then save the scenario.
 
 
-</td></tr><tr><td id="d676339e517">
+</td></tr><tr><td id="d730578e517">
 
 **Remove a user assigned to a space**
 
@@ -188,39 +188,39 @@ You can also select multiple users.
 
 You can select only a single space to remove a user.
 
-2.  On the Space details panel, on the **Assignment** card, remove a user by selecting the remove assignment icon \(\[Omitted image "remove-assignment.png"\] Alt text: Remove assignment icon.\).
+2.  On the Space details panel, on the **Assignment** card, remove a user by selecting the remove assignment option.
 
 
-</td></tr><tr><td id="d676339e546">
+</td></tr><tr><td id="d730578e540">
 
 **Edit the display of user assignment and assignment type on the map**
 
 </td><td>
 
-1.  On the Space details panel, select the Map settings icon \(\[Omitted image "map-settings-icon.png"\] Alt text: Map settings icon.\).
+1.  On the Space details panel, select the Map settings option.
 2.  Based on what changes you want to make, enable, or disable any of the following options:
     -   **Assigned to**: Option to display the users assigned to a space.
     -   **Assignment type**: Option to display the type of assignment, that is, flexible or permanent.
 
 
-</td></tr><tr><td id="d676339e586">
+</td></tr><tr><td id="d730578e574">
 
-**View the map without color-coded spaces**
+**View the map as defined in the Map Studio**
 
 </td><td>
 
-1.  On the Space details panel, select the Map settings icon \(\[Omitted image "map-settings-icon.png"\] Alt text: Map settings icon.\).
+1.  On the Space details panel, select the Map settings option.
 2.  Select **Show base map**.
 
-The map displays color-coded spaces as defined in Map Studio.
+The map displays spaces as defined in the Map Studio.
 
-</td></tr><tr><td id="d676339e615">
+</td></tr><tr><td id="d730578e597">
 
 **Change the opacity of colored spaces**
 
 </td><td>
 
-You can change the opacity of the spaces that are colored based on the group by or view by options. Changing the opacity is helpful if some elements on the map are hidden due to the color.1.  On the Space details panel, select the Map settings icon \(\[Omitted image "map-settings-icon.png"\] Alt text: Map settings icon.\).
+You can change the opacity of the spaces that are colored based on the group by or view by options. Changing the opacity is helpful if some elements on the map are hidden due to the color.1.  On the Space details panel, select the Map settings option.
 2.  In the **Opacity** field, enter the percentage value that you want for the highlighted spaces.
 3.  Select **Apply**.
 

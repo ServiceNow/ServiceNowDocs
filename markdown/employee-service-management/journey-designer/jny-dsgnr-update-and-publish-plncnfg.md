@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Journey designer plan configuration owners, Journey designer plan configuration template process, owners, and maintenance, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Journey designer plan configuration owners, Plan configuration components, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Update and publish changes to plan configurations
@@ -43,7 +43,7 @@ Plan configuration owners can:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Journeys**.
+1.  From the Employee Center service portal, navigate to **Journeys** page.
 
 2.  Select the **Journey templates** tab.
 

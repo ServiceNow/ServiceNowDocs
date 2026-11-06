@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-10-20"
 reading_time_minutes: 3
-breadcrumb: [Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Create a service in Service Portfolio Management
@@ -88,7 +88,7 @@ Short Description
 
 </td><td>
 
-Type of service. Available values are: **Business Service**, **Technical Service**, and **Application Service**.
+Short description of the service.
 
 </td></tr><tr><td>
 
@@ -116,7 +116,7 @@ Relationship manager for this service.
 
 </td></tr><tr><td colspan="2">
 
-**Important:** The following two fields only appear if you're using the deprecated Service Owner Workspace plugin. For more information on the deprecation of Service Owner Workspace, see .
+**Important:** The following two fields only appear if you're using the deprecated Service Owner Workspace plugin.
 
 </td></tr><tr><td>
 
@@ -220,7 +220,7 @@ The date the service was last reviewed.
 
     |Field|Description|
     |-----|-----------|
-    |Delegate|A person authorized to manage the service on behalf of the service owner.|
+    |Delegate|A person authorized to manage the service on behalf of the service owner. You may select more than one delegate.|
     |Business contact|Person to contact for issues related to this service.|
     |Vendor|The vendor providing this service.|
     |Stakeholders|People with an interest or concern regarding this service.|

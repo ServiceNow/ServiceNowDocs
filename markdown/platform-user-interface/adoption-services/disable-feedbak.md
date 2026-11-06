@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Provide feedback to ServiceNow, Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-properties.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mobile properties
@@ -83,6 +83,10 @@ Use a combination of system properties and mobile properties to enable different
 Use the **preventAppKillOnAuth** property on your ServiceNow instance to help prevent Android devices from killing the mobile app when put to background during login. Use this configuration to allow for a smoother authentication experience by keeping the app active until users complete or cancel the login process.
 -   **[Turn off the Zero Trust Access banner on mobile apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/turn-off-zta-banner.md)**  
 Learn how to turn off the banner on mobile app screens where Zero Trust Access \(ZTA\) is enabled.
+-   **[PIN timeout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/pin-timeout.md)**  
+Configure the PINIdleTimeout property to define the PIN timeout for different ServiceNow mobile apps. You can use this property to enhance security by controlling how long users are allowed to remain inactive before being required to reenter their PIN.
+-   **[Asynchronous attachment uploads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/asynchronous-attachment-uploads.md)**  
+Set the `AsyncAttachmentsUploadEnabled` mobile property to true to turn on background file uploads in the ServiceNow mobile app.
 
 **Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/imp-considerations.md)
 

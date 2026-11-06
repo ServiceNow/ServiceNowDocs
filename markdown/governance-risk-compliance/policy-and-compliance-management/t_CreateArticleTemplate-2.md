@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a GRC article template
@@ -88,9 +88,7 @@ Is default
 Option to indicate that this template is used as the default template for all KB articles.
 
 </td></tr></tbody>
-</table>    \[Omitted image "sample-xml-script.png"\] Alt text: A model of XML script.
-
-4.  Click **Submit**.
+</table>4.  Click **Submit**.
 
 
 **Parent Topic:**[Policy and Compliance Management enhancement steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/policy-compliance-optional-steps.md)

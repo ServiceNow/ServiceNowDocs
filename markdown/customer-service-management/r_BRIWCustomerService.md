@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_BRIWCustomerService.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Components installed with Customer Service Management, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
 # Business rules installed with Customer Service Management

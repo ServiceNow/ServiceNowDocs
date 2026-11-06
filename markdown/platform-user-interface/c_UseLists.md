@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_UseLists.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Users can search, sort, filter, and edit data in lists. Lists may be embedded in
 
 The list interface consists of a title bar, filters and breadcrumbs, columns of data, and a footer. Each column in a list corresponds to a field on the table.
 
-A [Response time indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_ResponseTimeIndicator.md) \(\[Omitted image "Response\_time\_indicator\_UI15.png"\] Alt text: Response time indicator\) may appear at the bottom right of some lists to indicate the processing time required to display the list.
+A [Response time indicator icon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_ResponseTimeIndicator.md) \(\[Omitted image "Response\_time\_indicator\_UI15.png"\] Alt text: Response time indicator\) may appear at the bottom right of some lists to indicate the processing time required to display the list.
 
 \[Omitted image "800px-UI16\_list\_view.png"\] Alt text: Record list
 
@@ -38,7 +38,7 @@ Lists can have sublists in a hierarchy that can also be accessed in list view. T
 
 \[Omitted image "HierarchicalList.png"\] Alt text: Hierarchical list
 
-Administrators can enable hierarchical lists for a table. For more information, see [Enable a hierarchical list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_EnableAHierarchicalList.md) .
+Administrators can enable hierarchical lists for a table. For more information, see Enable a hierarchical list .
 
 ## Detail rows
 
@@ -48,7 +48,7 @@ Detail rows, when enabled, appear below the field row for each record and displa
 
 \[Omitted image "400px-Detail\_rows.png"\] Alt text: Detail rows
 
-Administrators can enable detail rows and add them to lists. For more information, see [Administer detail rows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_EnableDetailRows.md).
+Administrators can enable detail rows and add them to lists. For more information, see Administer detail rows.
 
 -   **[List fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_Fields.md)**  
 Fields display data and provide certain functions.

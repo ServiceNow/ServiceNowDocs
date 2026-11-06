@@ -1,20 +1,20 @@
 ---
 title: Configure compliance data source registry
-description: Set up the Compliance Data Source Registry \(CDSR\) that provides the ability to associate policies in other ServiceNow products with control objectives in Policy and Compliance to inform an organization’s overall compliance stand, and to perform policy exceptions when required.
+description: Set up the Compliance Data Source Registry \(CDSR\) that provides the ability to associate policies in other ServiceNow products with control objectives in Policy and Compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/configure-pace-policy-target-table.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Policy as Code Engine for Preventive compliance management, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy as Code Engine for Preventive compliance management, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Configure compliance data source registry
 
-Set up the Compliance Data Source Registry \(CDSR\) that provides the ability to associate policies in other ServiceNow products with control objectives in Policy and Compliance to inform an organization’s overall compliance stand, and to perform policy exceptions when required.
+Set up the Compliance Data Source Registry \(CDSR\) that provides the ability to associate policies in other ServiceNow products with control objectives in Policy and Compliance.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_compliance.admin
 
 ## About this task
 
-Based on the association, entities are generated for the associated assessed objects from the target application table and controls are generated automatically. CDSR facilitates easy integrations between GRC and other ServiceNow products such as DevOps, HR, SecOps, and others to meet the customers’ compliance validation and management needs across the enterprise.
+Based on the association, entities are generated for the assessed objects from the target application table. Controls are also generated automatically. CDSR facilitates easy integrations between GRC and other ServiceNow products. This enables compliance validation and management needs across the enterprise.
 
 Select the application table that is linked to the assessed object table. Establish a relationship between an item in the application table and a control objective in a target table. To do this, the items must first be configured and mapped to the control objective. Secondly, establish a relationship between the target table and the entities in the entity table.
 
@@ -78,8 +78,8 @@ Relationship to application table
 
 </td><td>
 
-Relationship between the item table and the target table. The choices are:-   One to many: One record in the application table is linked to multiple records in the assessed object table, and one record in the assessed object table is linked to only one record in the application table.
--   Many to many: One record in the application table is linked to multiple records in the assessed object table, and one record in the assessed object table is linked to multiple records in the application table.
+Relationship between the item table and the target table. The choices are:-   One to many: One record in the application table is linked to multiple records in the assessed object table. Also, when one record in the assessed object table is linked to only one record in the application table.
+-   Many to many: One record in the application table is linked to multiple records in the assessed object table. Also, when one record in the assessed object table is linked to multiple records in the application table.
 
 
 </td></tr><tr><td>
@@ -121,7 +121,7 @@ Entity relationship to assessed object table
 </td><td>
 
 Relationship between the item table and the entity table. The choices are:-   One to one: When one record in the assessed object table is linked to only one record in the entity table.
--   Many to many: When one record in the entity table is linked to multiple records in the assessed object table, and when one record in the assessed object table is linked to multiple records in the entity table.
+-   Many to many: When one record in the entity table is linked to multiple records in the assessed object table. Also, when one record in the assessed object table is linked to multiple records in the entity table.
 
 
 </td></tr><tr><td>
@@ -157,10 +157,6 @@ Entity owner field
 Owner of the entity in the entity table.
 
 </td></tr></tbody>
-</table>    For more detailed information on the set up of generic framework compliance data source registry, see the [Set up of generic framework compliance data source registry \[KB1112478\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1112478) article in the Now Support Knowledge Base.
-
-    **Note:** You must log in to Now Support to view the articles.
-
-4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 

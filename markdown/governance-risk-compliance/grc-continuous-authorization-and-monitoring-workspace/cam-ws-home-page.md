@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
-last_updated: "2025-07-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Monitoring and managing security from the CAM Workspace Home page
@@ -18,7 +18,7 @@ The CAM Workspace is a centralized hub where you can continuously monitor and ma
 
 ## Accessing the Home page
 
-Navigate to **All** &gt; **CAM Workspace**.
+Navigate to **Workspaces** &gt; **CAM Workspace**.
 
 \[Omitted image "cam-ws-home-page.png"\] Alt text: CAM home page displaying the overall status of the CAM objects.
 

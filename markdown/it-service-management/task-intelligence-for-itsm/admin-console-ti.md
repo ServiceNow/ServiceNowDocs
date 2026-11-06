@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Task Intelligence for ITSM, Task Intelligence for ITSM, IT Service Management]
+breadcrumb: [Explore, Task Intelligence for ITSM, IT Service Management]
 ---
 
 # Task Intelligence for ITSM Admin Console

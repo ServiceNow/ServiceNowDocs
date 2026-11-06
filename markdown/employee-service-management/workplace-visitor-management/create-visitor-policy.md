@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -44,12 +44,14 @@ The visitor policy is added.
 
 ## What to do next
 
-Assign the visitor policy to workplace locations.
+For Workplace Visitor Management version 2.0.0 or later, create a visit requirement and assign a policy as a requirement. For more information, see [Configure visit requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visit-requirements.md).
+
+For earlier versions of Workplace Visitor management, you must assign the visitor policy to workplace locations. For more information, see [Assign visitor policy to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.md).
 
 -   **[Assign visitor policy to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/assign-visitor-policy-to-workplace-location.md)**  
 Add one or more workplace location to a visitor policy. Visitors who are registered to arrive at that locations will receive an email notification in prior to accept the policy.
 
-**Parent Topic:**[Configure Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
@@ -58,7 +60,13 @@ Add one or more workplace location to a visitor policy. Visitors who are registe
 
 [Create a record producer for visitor management]()
 
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
 [Create a visitor badge template]()
+
+[Configure the frequency of email notifications]()
 
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

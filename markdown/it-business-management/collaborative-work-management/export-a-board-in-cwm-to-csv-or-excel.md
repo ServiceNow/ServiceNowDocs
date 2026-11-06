@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage work using Boards, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -34,15 +34,15 @@ Role required: sn\_cwm.cwm\_user
 
 4.  In the Export dialog, select the Board view that you want to export and the file type.
 
-<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d207421e128">
+<table id="choicetable_jqy_k2k_bdc"><thead><tr><th align="left" id="d267237e128">
 
 Option
 
-</th><th align="left" id="d207421e131">
+</th><th align="left" id="d267237e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d207421e137">
+</th></tr></thead><tbody><tr><td id="d267237e137">
 
 **Current board view**
 
@@ -52,7 +52,7 @@ Description
 -   From the File type drop-down list, select **CSV** or **Excel**.
 
 
-</td></tr><tr><td id="d207421e163">
+</td></tr><tr><td id="d267237e163">
 
 **Complete board view**
 

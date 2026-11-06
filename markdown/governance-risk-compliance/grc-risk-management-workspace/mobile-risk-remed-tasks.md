@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -48,15 +48,15 @@ Edit or assign an unassigned remediation task directly from the list of records.
 
 5.  In the menu that is displayed, choose one to continue.
 
-<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d93151e178">
+<table id="choicetable_x5p_j3z_xhb"><thead><tr><th align="left" id="d271453e175">
 
 Option
 
-</th><th align="left" id="d93151e181">
+</th><th align="left" id="d271453e178">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d93151e187">
+</th></tr></thead><tbody><tr><td id="d271453e184">
 
 **Edit**
 
@@ -66,7 +66,7 @@ In the Extend by days field on the Edit Remediation Task screen that is displaye
 
 Tap the Send icon \(\[Omitted image "mobile\_instances\_send\_droid.png"\] Alt text: Send icon.\) or **Submit** to save and submit your changes.
 
-</td></tr><tr><td id="d93151e211">
+</td></tr><tr><td id="d271453e208">
 
 **Assign**
 
@@ -81,15 +81,15 @@ On the Issue Assignment screen that is displayed, tap the **Assignment Group** a
 
     \[Omitted image "mobile-remediation-task-record.jpg"\] Alt text: Remediation task record.
 
-<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d93151e254">
+<table id="choicetable_sjk_w3z_xhb"><thead><tr><th align="left" id="d271453e251">
 
 Option
 
-</th><th align="left" id="d93151e257">
+</th><th align="left" id="d271453e254">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d93151e263">
+</th></tr></thead><tbody><tr><td id="d271453e260">
 
 **Details tab**
 
@@ -102,7 +102,7 @@ Tap the **Issue** field to expand it. On the Issue screen, a list of records is 
 -   Navigate back to the Remediation Task record and tap the menu icon \(\[Omitted image "mobile-top-menu.png"\] Alt text: Top menu icon.\) to assign or edit the remediation task. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d93151e292">
+</td></tr><tr><td id="d271453e289">
 
 **Activity Stream tab**
 
@@ -112,7 +112,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and assign the remediation task. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d93151e322">
+</td></tr><tr><td id="d271453e319">
 
 **Tap a screen icon at the bottom of the screen.**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Working with CMDB Data Manager
@@ -32,13 +32,7 @@ You can apply CMDB Data Manager policies only to classes that extend the Configu
 
 ## CMDB Data Manager experience in CMDB Workspace
 
-You can use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and its views to fully administer CMDB Data Manager, access high-level analytic and counts for its policies and tasks, and review your tasks. For information about using the CMDB Data Manager in CMDB Workspace, see [CMDB Data Manager experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
-
-## CMDB Data Manager on Core UI \(UI 16\)
-
-Starting with the Washington DC release, CMDB Data Manager on Core UI \(UI 16\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. CMDB Workspace provides the latest experience for this functionality.
-
-CMDB Data Manager built on Core UI \(UI 16\) is available by navigating to **All** &gt; **Configuration** &gt; **CMDB Data Manager**. For information about using the CMDB Data Manager legacy build on Core UI, see [CMDB Data Manager \(Core UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-manager-legacy.md).
+You can use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and its views to fully administer CMDB Data Manager, access high-level analytic and counts for its policies and tasks, and review your tasks. For more information, see [CMDB Data Manager experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
 
 ## Terms
 

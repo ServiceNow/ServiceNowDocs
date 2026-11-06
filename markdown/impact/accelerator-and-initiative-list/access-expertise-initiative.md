@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Initiatives catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Access to Expertise
@@ -23,6 +23,8 @@ Access to Experts sessions offer specialized guidance on various ServiceNow prod
 Receive prescriptive and actionable guidance on effective strategies to address platform obstacles, processes, and workflows.
 
 An intelligent intake experience matches Impact Customers with suitable experts for tailored sessions aligned with your needs and platform lifecycle stage. Each request focuses on addressing one specific topic or application area per session.
+
+## Package Availability
 
 This initiative is available for packages such as Impact Advanced and Impact Total along with the Impact Guided package and Strategic Value or Platform Governance, as add-on.
 
@@ -89,5 +91,5 @@ Implementation Guidance
 How do you set up the workflow for Mobile barcode scanning upon initiation of a request?
 
 </td></tr></tbody>
-</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
+</table>Submit queries with detailed information using an intake form. See [Request Access to Expertise Initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/access-expertise.md) for details on entering the request.
 

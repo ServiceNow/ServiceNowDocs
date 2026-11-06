@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report a compliance case from the Employee Center, Reporting a compliance case in GRC: Compliance Case Management, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Employee Center, Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Report a Compliance Case form

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-identity-access-mgmt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Identity and access management, Device security for ServiceNow Mobile apps, Mobile security, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Identity &amp; access, Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # User authentication for ServiceNow mobile apps

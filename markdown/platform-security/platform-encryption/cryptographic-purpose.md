@@ -1,5 +1,5 @@
 ---
-title: Cryptographic specification
+title: Cryptographic specification overview
 description: The Cryptographic specification is the component that defines aspects of your cryptographic module, including its cryptographic purpose and which encryption algorithm to use.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/platform-encryption/cryptographic-purpose.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring the Key Management Framework, Key Management Framework, Encryption]
 ---
 
-# Cryptographic specification
+# Cryptographic specification overview
 
 The Cryptographic specification is the component that defines aspects of your cryptographic module, including its cryptographic purpose and which encryption algorithm to use.
 

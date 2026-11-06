@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work on a claim with an internal refund, Managing payment claims and debit approvals, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Work on a claim with an internal refund, Managing payment claims and debit approvals, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a debit approval case for an internal refund
@@ -24,7 +24,7 @@ Role required: sn\_bom\_payment.claim\_agent or sn\_bom\_payment.claim\_agent\_c
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Claims**, click **Assigned to me**.
 

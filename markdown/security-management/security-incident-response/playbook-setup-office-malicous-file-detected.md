@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for Office 365 - Malicious File Detected, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -33,9 +33,7 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 3.  You can create a copy of the Office 365 - Malicious File Detected playbook flow and make the necessary modifications.
 
-    To create a copy of the playbook's flow, click the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
-
-    \[Omitted image "playbook-office365.png"\] Alt text: Overview of the Office 365 - Malicious File Detected playbook
+    To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
 4.  Activate the playbooks.
 
@@ -44,8 +42,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 5.  Set a **Trigger Condition** for the playbook.
 
     This playbook is triggered and associated with the security incident when the **Category** is **Malicious code activity**.
-
-    \[Omitted image "playbook-office365-trigger.png"\] Alt text: Trigger condition for Office 365 - Malicious File Detected playbook.
 
 
 **Parent Topic:**[Playbook for Office 365 - Malicious File Detected](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-office-malicious-file-detected-.md)

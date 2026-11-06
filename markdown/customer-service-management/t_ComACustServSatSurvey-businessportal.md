@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ComACustServSatSurvey-businessportal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Complete a customer service satisfaction survey
@@ -22,10 +22,19 @@ When a customer accepts a proposed solution for a case by clicking **Accept Solu
 
 To complete the survey:
 
+## About this task
+
+Customer satisfaction surveys are sent after a case solution is accepted or a case is closed. Your feedback helps your service team identify areas for improvement and maintain high service quality.
+
 ## Procedure
 
 1.  Answer each of the survey questions.
 
 2.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Close a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-close-case-from-businessportal.md)
 

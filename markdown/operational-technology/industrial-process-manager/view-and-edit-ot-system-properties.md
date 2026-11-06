@@ -7,9 +7,9 @@ release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Industrial Process Manager, Operational Technology]
+breadcrumb: [Configure the Industrial Process Manager, Industrial Process Manager, Operational Technology]
 ---
 
 # View and edit OT system properties
@@ -18,7 +18,7 @@ View and edit all of the Operational Technology \(OT\) related system properties
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or cmdb\_ot\_isa\_admin
 
 ## About this task
 
@@ -44,5 +44,5 @@ You can modify the system properties for the following OT applications from **Al
 4.  Select **Update**.
 
 
-**Parent Topic:**[Configuring the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
+**Parent Topic:**[Configure the Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/configuring-manufacturing-process-mgr.md)
 

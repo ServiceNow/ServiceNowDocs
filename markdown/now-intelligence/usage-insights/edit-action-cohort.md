@@ -7,9 +7,9 @@ release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cohort analysis, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Cohort analysis, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Edit a cohort
@@ -22,7 +22,7 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 
 ## Procedure
 
-1.  Navigate to **Platform Analytics** &gt; **User Experience Analytics**.
+1.  Navigate to **Platform Analytics** &gt; **Usage Insights**.
 
 2.  From the Applications list, select the application with the cohort you want to edit.
 
@@ -37,5 +37,5 @@ Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobi
 6.  Select **Save** to update the cohort configuration.
 
 
-**Parent Topic:**[Cohort analysis in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-cohorts.md)
+**Parent Topic:**[Cohort analysis in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-cohorts.md)
 

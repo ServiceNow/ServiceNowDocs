@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Domain configurations, Domain separation, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Domain configurations, Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Associate a domain configuration with a dashboard
@@ -24,15 +24,19 @@ The Performance Analytics - Domain Support plugin \(com.snc.pa.domain\_support\)
 
 ## About this task
 
+**Important:** This procedure applies only to Core UI dashboards. On a Platform Analytics dashboard, create a domain filter that uses a Performance Analytics domain configuration. For more information, see [Create a domain filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-domain-filter.md).
+
 A user must have visibility into all domains in the domain configuration to view domain-specific scores on a dashboard.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Dashboard Administration**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Core UI Artifacts** &gt; **Dashboards**.
+
+    You cannot use this feature with Platform Analytics dashboards.
 
 2.  Select a dashboard.
 
-3.  In the **Domain Configurations** related list click **Edit**.
+3.  In the **Domain Configurations** related list, select **Edit**.
 
 4.  Select the domain configurations you want to associate with this dashboard.
 

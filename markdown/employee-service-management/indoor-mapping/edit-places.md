@@ -7,9 +7,9 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Configure CAD objects using the Map Configuration tab, AutoCAD import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure CAD objects using the Map Configuration tab, Autocad import tool, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure places
@@ -22,7 +22,9 @@ You can also configure shapes, names, and titles for a place type.
 
 ## Before you begin
 
-Role required: admin
+\[Omitted video\] Description: Configure places in the Indoor Mapping application.
+
+Role required: sn\_map\_core.map\_admin
 
 ## Procedure
 

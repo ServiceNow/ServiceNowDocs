@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage unused resources, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Manage unused resources, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule unused resources to be powered off or terminated
@@ -37,9 +37,11 @@ When you change the resources that are included in a job, the app checks for the
 
 If either condition is met, the app sends an email notification to the owner of the resource or the creator of the job.
 
+**Important:** Starting with Cloud Cost Management v11.0.0, the `sn_change_write` role is no longer inherited by the insights\_admin and insights\_owner roles. Both roles now inherit the `sn_change_read` role instead. As a result, users with these roles can view change requests that are created when a recommendation is scheduled, but they can't create change requests directly. To schedule recommendations, configure a change creator user before using the Recommendations module. For more information, see.
+
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Unused resources**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Unused resources**.
 
 2.  In the list on the appropriate tab, select the check boxes for the resources to terminate.
 

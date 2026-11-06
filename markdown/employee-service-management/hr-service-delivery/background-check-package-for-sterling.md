@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating with the Sterling Talent Solutions service, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Integrating with the Sterling Talent Solutions service, HR Integrat
 Add one or more background check packages to your instance so they can be accessed when a request for a background check by Sterling is made. For example, you can add a package for a background check only and a package for both a background check and drug screening.
 
 ## Before you begin
-
-**Important:** Integrating with the Sterling Talent Solutions service is being prepared for deprecation. It will be hidden and unavailable for activation from Zurich, but will continue to be supported till Brazil. If you have an active subscription, you can still activate the plugin by submitting a [plugin activation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_RequestAPlugin.md). For more details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 A background check package is a set of activities that are defined by the third-party system to be included in a background check. You can have a package for a background check only, a package for both a background check and drug screening, and so on. For each background check package, you must provide:
 
@@ -54,7 +52,7 @@ Role required: sn\_hr\_integrations.admin
 
 **Previous topic:**[Verify integration for the Sterling service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/verify-base-integration-for-sterling.md)
 
-**Next topic:**[Integrating with the DocuSign service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/docusign-integration-for-hr.md)
+**Next topic:**[Integrating with the CIC Plus service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/integrating-with-cic-plus-service.md)
 
 **Related topics**  
 

@@ -1,141 +1,49 @@
 ---
 title: ITOM Visibility release notes
-description: The ServiceNow ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.The ServiceNow ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.The ServiceNow ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.The ServiceNow ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.The ServiceNow ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
+description: The ServiceNow ITOM Visibility applications provide a unified, connected view of your entire IT infrastructure and the services that it supports. See the following sections for release notes by version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/itom-visibility-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [IT Operations Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # ITOM Visibility release notes
 
-The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
+The ServiceNow® ITOM Visibility applications provide a unified, connected view of your entire IT infrastructure and the services that it supports. See the following sections for release notes by version.
 
 ## About ITOM Visibility
 
--   Discovery and Service Mapping Patterns: Gain enhanced visibility into your AWS cloud services with 27 additional patterns starting with store version 1.25.0.
--   Starting with store version 1.1.0, ACC for Visibility has been renamed Agent Client Collector for Visibility Content. The CNO for Visibility feature has been extracted from Agent Client Collector for Visibility Content and is now a separate application.
--   Starting with Service Graph Connector for GCP store release 1.8, Service Graph Connector for AWS store release 2.9, and Service Graph Connector for Microsoft Azure store release 1.11, you can use Service Graph Connectors to ingest data into the Configuration Management Database \(CMDB\) from third-party sources.
--   Starting with store version 1.8.0, Discovery admins gain improved visibility into discovery issues and can address root causes using anomaly detection in the Discovery Admin Workspace.
+-   AI-powered features in ITOM Visibility help administrators automate service map creation, diagnose discovery issues, manage certificates, and request firewall rules, using generative AI, AI agents, and agentic workflows.
+-   Administrators can use the Discovery Admin Workspace, Service Mapping Workspace, and Firewall Admin Workspace to automate workflows and monitor process statuses.
+-   Discover, monitor, and renew TLS/SSL certificates with a centralized inventory, and automate certificate requests, renewals, and revocations through supported certificate authorities with Certificate Inventory and Management.
+-   Cryptographic Asset Compliance helps you manage cryptographic assets across cloud and on-premises environments to support post-quantum cryptography \(PQC\) readiness and help maintain security compliance.
 
 See [ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-visibility-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Discovery and Service Mapping Patterns is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) and [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateServiceMappingPlugin.md). For full ITOM Visibility functionality, install the latest ITOM Visibility out-of-band applications from the ServiceNow Store. For cumulative release note information for all released apps, see the ServiceNow Store version history release notes.
+    ITOM Visibility is available with activation of the Discovery \(com.snc.discovery\) plugin and the Service Mapping \(com.snc.service-mapping\) plugin, which require an ITOM Visibility subscription. For details, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md) and [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateServiceMappingPlugin.md). For full ITOM Visibility functionality, install the latest ITOM Visibility applications from the ServiceNow Store. ITOM Visibility installation is also available in the ITOM Product Hub for ServiceNow Otto users.For more information, see 
 
--   **Upgrade information**
 
-    3DES support is planned for permanent removal from the MID Server for MID Servers with SSH-based Discovery or SSH-based integrations. For more information, see [3DES deprecation in SSH from Xanadu \[KB1644950\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1644950).
-
-    After upgrading to Yokohama, a Fix Script named "Add Explicit Public SNMP Credential" might create a public SNMP credential in Production instances. This could lead to unnecessary records via Discovery. The Fix Script is present in Yokohama instances, including OOB. Before applying the upgrade of Discovery core, Yokohama version, verify the fix script behavior in a sandbox environment. Remove the public SNMP credentials if not required.
-
+-   **[Certificate Inventory and Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cim-rn.md)**  
+The ServiceNow® Certificate Inventory and Management application discovers, inventories, and manages the life cycle of TLS certificates across your infrastructure. See the following sections for release notes by version.
+-   **[Discovery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/discovery-rn.md)**  
+The ServiceNow® Discovery application automatically identifies and maps IT infrastructure across on-premises and cloud environments. It helps organizations maintain an accurate Configuration Management Database \(CMDB\), improve operational visibility, and reduce manual data collection efforts.
+-   **[Discovery store applications release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/discovery-store-apps-rn.md)**  
+The ServiceNow® Discovery store applications provide a unified, connected view of your entire IT infrastructure. See the following sections for release notes by version.
+-   **[Firewall Audits and Reporting release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/firewall-audits-reporting-rn.md)**  
+The ServiceNow® Firewall Audits and Reporting application helps administrators streamline firewall rule management and compliance auditing. See the following sections for release notes by version.
+-   **[Kubernetes Visibility Agent \(KVA\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/kubernetes-visibility-agent-rn.md)**  
+The ServiceNow® Kubernetes Visibility Agent \(KVA\) provides comprehensive discovery and monitoring of Kubernetes resources in your environment. See the following sections for release notes by version.
+-   **[LEAP release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/leap-rn.md)**  
+The ServiceNow® LEAP application uses AI driven insights to create standard and dynamic playbooks for quick incident resolution management. See the following sections for release notes by version.
+-   **[Service Mapping release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-mapping-rn.md)**  
+The ServiceNow® Service Mapping application discovers all application services in your organization and builds a comprehensive map of all configuration items used in these application services. See the following sections for release notes by version.
 
 **Parent Topic:**[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-operations-management-rn-landing.md)
-
-## June 2025
-
-The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Configure Discovery to use Event Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ConfigureDiscoveryEventFramework.md)**
-
-    Starting with version 1.9.0, Discovery jobs can be configured to use an event-based system, reducing database activity by queuing and processing events at regular intervals with priority and memory monitoring.
-
-
-## May 2025
-
-The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Discover products with Discovery and Service Mapping Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/available-patterns.md)**
-
-    Discover the following products using Discovery and Service Mapping Patterns version 1.27.0:
-
-    -   [NVIDIA GPUs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/nvidia-gpu-discovery-pattern.md)
-    -   [Microsoft SQL Always On availability groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/mssql-data-collected-pattern.md)
-    -   [Azure tenants and management groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/azure-cloud-discovery-patterns.md)
-    -   [AWS Application Load Balancer targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/data-discovered-aws-patterns.md)
-    -   [AWS web ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/data-discovered-aws-patterns.md)
-    -   [AWS Systems Manager \(SSM\) agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/data-discovered-aws-patterns.md)
-    -   [Tag collection for Azure VM instance - Uniform scale set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/AzureVMScaleSetInstance.md)
--   **[Detect anomalies in Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery-admin-workspace-diagnostics.md)**
-
-    Starting with Discovery Admin Workspace version 1.8.0, machine learning \(ML\) or statistical methods can detect anomalies in Discovery schedules and display this data in dashboards for admins. It identifies unusual behaviors like failed runs, significant deviations from user-defined thresholds for high error counts, longer discovery status duration, and fewer discovered Configuration Items \(CIs\) or Cloud resources. The ML-based approach to this feature is enabled by default. Thresholds are configurable via the new Settings page, and the results will be shown throughout the workspace.
-
--   **[Cloud-based Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/discovery-admin-workspace-schedules.md)**
-
-    Starting with version 1.8.0, Cloud-based discovery scheduling and reporting is available in Discovery Admin Workspace.
-
-
-### What's changed
-
--   **[Limits in tag-based Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/components-installed-with-service-mapping-plus.md)**
-
-    Starting with version 1.15.2, experience improved performance in Service Mapping. A new property limits the creation of tag-based service candidates to 200 per service family.
-
-
-## Yokohama Early Availability
-
-The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Discover additional AWS Services using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/available-patterns.md)**
-    -   Starting with store version 1.25.0, Discovery and Service Mapping Patterns discovers 27 additional AWS cloud services.
-    -   Starting with store version 1.27.0, Discovery and Service Mapping Patterns discovers 7 additional AWS cloud services.
-
-### What's changed
-
--   **[Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/app-services-name-suggestions.md)**
-
-    Experience more accurate name suggestions for application service candidates based on Service Fingerprints in Service Mapping Plus store version 1.15.0.
-
-
-## Yokohama
-
-The ServiceNow® ITOM Visibility application provides a unified, connected view of your entire IT infrastructure and the services that it supports. ITOM Visibility was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Automatically generate a Certificate Signing Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/request-new-csr-automated.md)**
-
-    Generate a Certificate Signing Request and a private key with the Employee Center experience, starting with version 3.6.0 of Certificate Inventory and Management.
-
--   **[Use Service Graph Connectors for extended discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-sgc-available.md)**
-
-    Service Graph Connectors are a collection of predefined integrations that ingest data into the Configuration Management Database \(CMDB\) from third-party sources.
-
-    -   Discover device details from Chromebook and ingest them into the CMDB by using Service Graph Connector for Google Chromebooks store version 1.8.
-    -   Discover data from public cloud instances and resources in AWS, Azure, and GCP environments and ingest them into the CMDB by using Service Graph Connector for Wiz. 
-
-### What's changed
-
--   **[Limits in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/components-installed-with-service-mapping.md)**
-
-    Limits in Service Mapping prevent the disabling or deletion of jobs scheduled for the Checkpoint Reaper or the Service Model's Blob Reaper.
-
--   **[Name update in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md)**
-    -   Application Services in the navigation menu has been renamed Service Instances.
-    -   The label for the \[cmdb\_ci\_service\_auto\] table has been changed from Application Service to Service Instance.
--   **[Discovery status monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_DiscoveryStatus.md)**
-
-    Discovery schedules that have no status updates for over a defined number of minutes are analyzed automatically by the Discovery Status Monitor job. By default, this job applies to Discovery schedules that discover configuration items.
-
-
-### What's deprecated or removed
-
--   **[Application/Plugin Deprecation Process \[KB0867184\]Discovery CLI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)**
-
-    Starting with version 3.5.0, Discovery CLI is no longer available in the Pattern Designer Enhancements Store App.
-
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -88,7 +88,7 @@ An optional approval workflow is available for isolating host machines, restorin
 
 1.  Navigate to **User Administration** &gt; **Groups**.
 
-2.  Click **New** in the Groups list.
+2.  Select **New** in the Groups list.
 
 3.  Fill the form with the following details:
 
@@ -101,7 +101,7 @@ An optional approval workflow is available for isolating host machines, restorin
     |Hourly rate|\(Optional\) The amount paid for every hour worked.|
     |Description|\(Optional\) Additional information about the group.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     \[Omitted image "fireeye-users.png"\] Alt text: Group list
 

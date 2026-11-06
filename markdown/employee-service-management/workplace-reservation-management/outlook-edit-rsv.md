@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Use, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Edit reservation details in Microsoft Outlook

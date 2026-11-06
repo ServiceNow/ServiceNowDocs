@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_ModifyTheBanner.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a company profile, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -25,8 +25,6 @@ For more information, see [Configure Next Experience banner announcements](https
 The DIV that contains the **glide.product.name** property is only shown if the property contains a value, otherwise, it is not used when rendering the banner. Also, the property **glide.banner.image.title** controls the tooltip that appears when the cursor is over the banner.
 
 **Note:** The My Company record overrides the properties.
-
-\[Omitted image "Banner.png"\] Alt text: Classic environment banner.
 
 ## Window title
 

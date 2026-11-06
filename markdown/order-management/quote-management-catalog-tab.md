@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-catalog-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add products to a quote
@@ -26,7 +26,7 @@ You can use the Catalog tab to search for and select product offerings from cata
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** view \[Omitted image "Lists.png"\].
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select the quote that you want to work with.
 
@@ -45,4 +45,6 @@ You can use the Catalog tab to search for and select product offerings from cata
 
     The product offering is added to the quote as a line item.
 
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

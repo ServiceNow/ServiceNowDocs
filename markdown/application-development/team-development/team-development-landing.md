@@ -7,9 +7,9 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Planning your application, Building applications]
+breadcrumb: [Planning your application, Classic app development, Building applications]
 ---
 
 # Team Development
@@ -26,15 +26,15 @@ Team Development provides the following features:
 
 <table id="table_jxv_thb_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Exploring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/exploring-team-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Team Development features and concepts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/exploring-team-development.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configuring Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/configuring-team-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up and configure Team Development.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/configuring-team-development.md)
 
 </td><td>
 
-[Using\[Omitted image "bus-person.svg"\] Alt text:Use Team Development to support parallel development in your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/using-team-development.md)
+[Administer\[Omitted image "bus-person.svg"\] Alt text:Perform administrative duties in Team Development to support parallel development in your instances.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/administer-team-development.md)
 
 </td></tr></tbody>
 </table>

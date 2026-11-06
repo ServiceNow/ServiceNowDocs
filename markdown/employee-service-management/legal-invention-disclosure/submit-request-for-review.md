@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Respond to a request for clarification for a Legal Invention Disclosure request

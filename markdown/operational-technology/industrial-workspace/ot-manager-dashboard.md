@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dashboard Library in the Industrial Workspace, Explore, Industrial Workspace, Operational Technology]
 ---
@@ -70,7 +70,7 @@ Total CMDB OT devices
 
 </td><td>
 
- 
+Number of the OT devices in your OT network.
 
 </td></tr><tr><td>
 

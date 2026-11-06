@@ -1,5 +1,5 @@
 ---
-title: Create remote record producers in a remote catalog in Service Exchange for Providers
+title: Create a remote record producers in a remote catalog in Service Exchange for Providers
 description: Create remote record producers as part of creating a Remote Catalog in Service Exchange for Providers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-create-remote-rec-prod.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Remote record producers in Service Exchange, Create remote catalogs in Service Exchange for providers, Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
-# Create remote record producers in a remote catalog in Service Exchange for Providers
+# Create a remote record producers in a remote catalog in Service Exchange for Providers
 
 Create remote record producers as part of creating a Remote Catalog in Service Exchange for Providers.
 

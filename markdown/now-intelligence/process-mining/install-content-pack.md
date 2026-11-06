@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [With content pack templates, Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [With content pack templates, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Install Process Mining content pack
@@ -18,7 +18,7 @@ Install the content pack to copy the process configurations set for the content 
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -29,6 +29,10 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
 3.  Select the **Content pack templates** tab.
 
 4.  Select **Browse content packs** if you want to install a content pack template.
+
+    **Important:**
+
+    Starting with the Brazil release, the ITSM, Customer Service Management, HR Service Delivery, SPM, Security Incident Response, and Field Service Management content packs load automatically and don't require the steps in this topic. For more information, see [Automatic delivery of content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-mining-content-pack-delivery.md). The steps in this topic still apply to the Financial Services Operations and Telecommunications content packs.
 
     \[Omitted image "conten-pack-install.png"\] Alt text: Install content pack templates
 

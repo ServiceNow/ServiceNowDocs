@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced data input configuration, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Advanced manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure advanced settings for Rsyslog, Splunk, TCP data inputs
@@ -24,7 +24,7 @@ Role required: evt\_mgmt\_admin
 
 You can set system parameters for reading log data that determine the actions that the system performs on log data arriving on the MID Server. For example, you can set the time zone to use if a log lacks a timestamp. If no advanced settings are configured, the system uses the default values.
 
-For information about how to change settings that were configured when the data input was created, see [Modify data input configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-modify.md).
+For information about how to change settings that were configured when the data input was created, see [Modify a data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-modify.md).
 
 ## Procedure
 
@@ -34,7 +34,7 @@ For information about how to change settings that were configured when the data 
 
     The data input configuration displays.
 
-    **Note:** The number of log sources that the data input has created is shown in the **Sources count** field. For more information about data input sources, see [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
+    **Note:** The number of log sources that the data input has created is shown in the **Sources count** field. For more information about data input sources, see [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md).
 
     **Note:** If the HLA engine is down and data has stopped streaming, a notification appears at the top of the data input configuration page. When this happens, contact ServiceNow support.
 
@@ -46,7 +46,7 @@ For information about how to change settings that were configured when the data 
 
 5.  In the Streaming Sources related list, verify that this data input is streaming log data from all relevant endpoint devices.
 
-    For more information about streaming sources, see [Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
+    For more information about streaming sources, see [Identify and resolve a log streaming issue in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-streaming.md).
 
 6.  Select **Save**.
 
@@ -68,5 +68,5 @@ For information about how to change settings that were configured when the data 
 8.  Select **Publish** to publish the data input to the MID Server.
 
 
-**Parent Topic:**[Advanced data input configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
+**Parent Topic:**[Advanced data input configuration in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-configuration.md)
 

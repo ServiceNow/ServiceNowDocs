@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,7 +32,7 @@ For details on the catalog variable types that AI Search can index content from,
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

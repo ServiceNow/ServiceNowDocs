@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [PPM Collaboration, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Archiving your project collaboration channel or team
@@ -39,4 +39,9 @@ If the channel is deleted in the Slack application, or the team is deleted in th
 If the project manager wants to create a channel or team again for this project, administrator must manually delete the project's reference from the Entity Channel table. Then, the related link to enable collaboration appears on the project form.
 
 **Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/using-project-management.md)
+
+**Related topics**  
+
+
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-collab-overview.md)
 

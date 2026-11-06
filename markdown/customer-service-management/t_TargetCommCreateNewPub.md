@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_TargetCommCreateNewPub.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a publication
@@ -107,6 +107,26 @@ Select the expiration date. This date must be at least one day after the **Publi
 
 </td></tr><tr><td>
 
+Skip Notification
+
+</td><td>
+
+Select the **Skip Notification** checkbox if you wish to skip notification after creating publication.
+
+**Note:**
+
+On selecting Skip Notification checkbox, the **Email Template** field gets disabled and **Include Attach Links** filed disappears.
+
+</td></tr><tr><td>
+
+Email Template
+
+</td><td>
+
+Search and add an email template from the list or add new email template to send articles to the customers.
+
+</td></tr><tr><td>
+
 Include Attach Links
 
 </td><td>
@@ -132,7 +152,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 </td></tr></tbody>
 </table>3.  Click one of the following options.
 
-<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d79159e296">
+<table id="choicetable_wk1_4th_t5"><tbody><tr><td id="d93863e332">
 
 **Submit**
 
@@ -140,7 +160,7 @@ This field appears when you select **Wiki** as the **Content Type**. Click the W
 
 The stage is set to **Author** and the publication record is saved.
 
-</td></tr><tr><td id="d79159e308">
+</td></tr><tr><td id="d93863e344">
 
 **Send for Review**
 

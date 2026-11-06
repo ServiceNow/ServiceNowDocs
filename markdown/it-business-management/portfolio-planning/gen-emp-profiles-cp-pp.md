@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure capacity planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Employee Profile** &gt; **Employee Definition**.
 
-2.  Filter the name to locate and open the **sys\_user** table.
+2.  Filter the name to locate and open the sys\_user table.
 
 3.  In the Employee Definition page, select **User** from the Table list.
 

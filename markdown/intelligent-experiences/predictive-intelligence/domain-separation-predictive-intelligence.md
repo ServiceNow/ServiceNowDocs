@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence references, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Domain separation and Predictive Intelligence
@@ -29,7 +29,9 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Overview of domain separation and Predictive Intelligence
 
-With Predictive Intelligence, you can create machine learning solutions using historic datasets. A machine learning solution definition can be configured in Predictive Intelligence per domain, which ensures that the data used by the solution is domain-specific data. After a solution is trained within a domain, the solution's predictions can be applied within that domain.
+With Predictive Intelligence, you can create machine learning solutions using historic datasets. A machine learning solution is created and trained in the global domain, and that solution's predictions can be applied in any domain on the instance.
+
+Similarity solutions are domain-aware when applied in your forms and flows, so records from other domains on the instance are not displayed to users. For more information, see KB article [Similarity prediction behavior in domain separated environment](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2035643) on Now Support.
 
 ## How domain separation works in Predictive Intelligence
 

@@ -1,5 +1,5 @@
 ---
-title: Creating an inventory template for a logical composite
+title: Create an inventory template for a logical composite
 description: Create an inventory template for the logical composite in the Telecommunications Network Inventory application. You can use this template to instantiate a logical composite record and its related equipment and rack records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-template-logical-composite.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating inventory template relationship, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
 
-# Creating an inventory template for a logical composite
+# Create an inventory template for a logical composite
 
 Create an inventory template for the logical composite in the Telecommunications Network Inventory application. You can use this template to instantiate a logical composite record and its related equipment and rack records.
 
@@ -46,9 +46,9 @@ You can edit the **Name Pattern** field.
 
 Use a this template to instantiate logical composites and related equipment and rack records using design and assign. To learn more, see [Create an equipment record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.md).
 
-**Parent Topic:**[Creating inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
+**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Creating an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
+**Previous topic:**[Create an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
 
 **Next topic:**[Import Models and Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/import-models-and-templates.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View related items for a CI
@@ -21,8 +21,8 @@ Open the **Related items** panel in Unified Map to show all related items \(typi
 Role required:
 
 -   To access maps: sn\_cmdb\_user, sn\_cmdb\_editor or sn\_cmdb\_admin
--   To access maps with operational application services: app\_service\_user, and sm\_user or sm\_admin
--   To access maps with operational and non-operational application services: app\_service\_admin, and sm\_user or sm\_admin
+-   To access maps with operational service instances: app\_service\_user, and sm\_user or sm\_admin
+-   To access maps with operational and non-operational service instances: app\_service\_admin, and sm\_user or sm\_admin
 -   To access and view related items: itil
 
 ## About this task
@@ -38,6 +38,10 @@ Role required:
     \[Omitted image "um-related-items-panel.png"\] Alt text: Related items for the selected CI.
 
     To specify which related item categories should appear on the **Related items** panel, see [Configure the Related items panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-configure-rel-items.md).
+
+2.  Select an arrow to view the details of the related item record.
+
+    Details of the change, incident, or problem appear on a card in the Related items panel. Select a card to highlight the associated CI on the map.
 
 
 ## What to do next

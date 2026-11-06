@@ -1,0 +1,34 @@
+---
+title: AWA integration user \[awa\_integration\_user\]
+description: The AWA integration user uses the AWA integration APIs.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/advanced-work-assignment/awa-roles-3.html
+release: yokohama
+product: Advanced Work Assignment
+classification: advanced-work-assignment
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Advanced Work Assignment roles, Reference, Advanced Work Assignment, Manage people and work, Conversational Interfaces]
+---
+
+# AWA integration user \[awa\_integration\_user\]
+
+The AWA integration user uses the AWA integration APIs.
+
+## Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+## Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+## Special considerations
+
+None.
+

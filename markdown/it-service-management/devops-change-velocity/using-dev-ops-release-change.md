@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -175,7 +175,7 @@ When artifacts and packages are registered from a source tool into ServiceNow, t
 
 Most of the times, these staging records are processed within a few seconds. But there may be cases where the necessary data is never received, so these records may be left idle. The **Description** field on the table below contains a summary of the details missing in such cases to help in easier monitoring.
 
-**Note:** It is recommended to have unique artifact names for release builds, that is, different artifact names for builds running on different branch builds.
+**Note:** You must have unique artifact names for release builds, that is, different artifact names for builds running on different branch builds.
 
 <table id="table_gf4_kd4_d1c"><thead><tr><th>
 

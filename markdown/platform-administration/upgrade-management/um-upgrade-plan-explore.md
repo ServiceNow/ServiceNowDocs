@@ -1,5 +1,5 @@
 ---
-title: Explore Upgrade Plan in Upgrade Management
+title: Explore Upgrade Plan in Upgrade Console
 description: The Upgrade Plan automates the installation of applications during upgrades, providing a seamless upgrade experience. Define applications and target versions to be installed in your instance and accelerate your upgrade process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-upgrade-plan-explore.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Upgrade Plan in Upgrade Management
+# Explore Upgrade Plan in Upgrade Console
 
 The Upgrade Plan automates the installation of applications during upgrades, providing a seamless upgrade experience. Define applications and target versions to be installed in your instance and accelerate your upgrade process.
 
@@ -20,8 +20,8 @@ Navigate to Upgrade Plan using one of the following ways.
 
 |Option|Navigation|
 |------|----------|
-|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade Plan**.|
-|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade Plan**.|
+|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console** &gt; **Upgrade Plan**.|
+|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Console** &gt; **Upgrade Plan**.|
 
 You will need the following instances to use Upgrade Plan.
 
@@ -116,5 +116,5 @@ During the consumption of the upgrade plan, the following operations are done in
 
 -   Auto-generation of the preview for the upgrade plan.
 
-See [Upgrade Plans tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
+See [Upgrade Plans tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-plans-tool.md) for more information.
 

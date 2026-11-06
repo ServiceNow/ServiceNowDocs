@@ -1,35 +1,43 @@
 ---
-title: Now Assist for App Engine
-description: Use Now Assist for App Engine to apply AI enhancements, such as developing custom skills and agents for custom applications,
+title: ServiceNow Otto for App Engine
+description: Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.html
 release: yokohama
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: reference
-last_updated: "2025-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-keywords: [now assist, app engine]
-breadcrumb: [Use AI capabilities in custom applications, Developing your application, Building applications]
+keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app]
+breadcrumb: [Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Now Assist for App Engine
+# ServiceNow Otto for App Engine
 
-Use Now Assist for App Engine to apply AI enhancements, such as developing custom skills and agents for custom applications,
+Use ServiceNow Otto for App Engine to supercharge custom applications with AI agents and skills.
 
 ## Get started
 
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
+
+For more information, see .
+
 <table id="table_wjh_cz5_bfc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Now Assist for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about ServiceNow Otto for App Engine concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)
 
 </td><td>
 
-[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
+[Install\[Omitted image "bus-cloud-download.svg"\] Alt text:Install ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/install-now-assist-for-app-engine.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use Now Assist for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
+[Use\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use ServiceNow Otto for App Engine.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)
 
 </td><td>
 
@@ -38,14 +46,14 @@ Use Now Assist for App Engine to apply AI enhancements, such as developing custo
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
 
--   [Ask questions and explore other resources for Now Assist for App Engine in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Ask questions and explore other resources for ServiceNow Otto for App Engine in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 
@@ -60,4 +68,15 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
+
+-   **[Exploring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/exploring-now-assist-for-app-generation-enterprise.md)**  
+Explore the AI capabilities, users, benefits, and workflow for using ServiceNow Otto for App Engine to enhance your custom applications with AI.
+-   **[Configuring ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/configuring-now-assist-for-app-engine.md)**  
+Learn about the configuration process for ServiceNow Otto for App Engine.
+-   **[Using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**  
+Enhance custom applications with generative and agentic AI capabilities.
+
+**Parent Topic:**[Run](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/run-ai-workflow-factory-prime.md)
 

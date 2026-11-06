@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Part requirements, Manage inventory in Field Service Management, Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Part requirements, Manage inventory in FSM, Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Source parts for work order tasks
@@ -57,6 +57,4 @@ You can source parts for the work order task either manually or automatically.
 ## What to do next
 
 Complete the transfer orders: If the agent sources parts from other stockrooms or assignment groups, a transfer order line is created automatically. You can then complete the transfer order, ensuring the parts are moved to the designated location.
-
-**Parent Topic:**[Part requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_PartRequirements.md)
 

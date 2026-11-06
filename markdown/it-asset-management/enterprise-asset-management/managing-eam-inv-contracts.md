@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
 # Managing enterprise asset inventory and contracts
@@ -55,7 +55,7 @@ Manage asset picking within your stockroom
 
 </td><td>
 
-[Manage picking enterprise assets within your stockroom for Enterprise Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
+[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
 
 </td></tr><tr><td>
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC health instance scan, agent client collector scan checks, ACC instance scan suite]
-breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector health instance scan checks

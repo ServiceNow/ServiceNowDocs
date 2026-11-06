@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Logic, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Business Logic, Hardening settings, Platform Security]
 
 Set the property to true to prevent bad actors from using internal port scanning in your network.
 
-If the **glide.update\_set.remote.check\_host** property is not set to the recommended value of **true**, then the [Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_TeamDevelopment.md) remote instance test feature will allow internal port scanning which is a method bad actors can use to discover vulnerabilities in a network. It is then possible to enumerate all open ports on a given host, and in some cases pull response data which could lead to information leakage or unauthorized data access.
+If the **glide.update\_set.remote.check\_host** system property is not set to **true**, then the Team Development Remote Instance test feature allows an internal network port scanning through error messages.
+
+Ensure that the property **glide.update\_set.remote.check\_host** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -52,7 +54,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -65,6 +67,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -86,7 +96,15 @@ Security risk
 
 -   Severity score: 6.3
 -   CVSS score: Medium
--   Security risk details: Not setting property to the recommended value of **true** could enable bad actors to use internal port scanning to gain access to unauthorized data.
+-   Security risk details: An attacker may enumerate all open ports on a given host or pull response data, leading to information leak or unauthorized data access.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -95,16 +113,6 @@ Dependencies and prerequisites
 </td><td>
 
 None
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0755132](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0755132)
-
- [Define a remote instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/t_DefineARemoteInstance.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Business Logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-business-logic.md)

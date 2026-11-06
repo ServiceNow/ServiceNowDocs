@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,7 +22,7 @@ Role required: timecard\_user
 
 ## About this task
 
-Starting Yokohama release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
+Starting Brazil release, users can select a resource assignment to associate it with time cards to calculate the actual efforts and tag them to the respective projects.
 
 The **Allow time card reporting on** field on the [project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProject.md) determines the level at which the time cards for the project tasks can be created.
 
@@ -52,15 +52,15 @@ Time cards can be created automatically or manually.
 
 1.  Create the time card using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d146235e207">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d182230e216">
 
 Option
 
-</th><th align="left" id="d146235e210">
+</th><th align="left" id="d182230e219">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d146235e216">
+</th></tr></thead><tbody><tr><td id="d182230e225">
 
 **From the Time Sheet Portal**
 
@@ -70,7 +70,7 @@ Steps
 2.  Open the week on the **Calendar** for which you want to create the time card.
 
 
-</td></tr><tr><td id="d146235e246">
+</td></tr><tr><td id="d182230e255">
 
 **From a Time sheet related list**
 
@@ -80,7 +80,7 @@ Steps
 2.  In the **Time Cards** related list, click **New**.
 
 
-</td></tr><tr><td id="d146235e270">
+</td></tr><tr><td id="d182230e279">
 
 **From a Time sheet related link**
 
@@ -208,7 +208,7 @@ Select a resource assignment assigned to the user. When the time card is approve
 After the time card is created, the hours for that task can be incremented automatically from the **Time worked** field in the task record. The time sheet policy **Auto fill time card with time worked entries** controls the way the time is updated in time cards. The policy is set to false by default. If automatic updates for time worked are not configured, the user must manually update the time card.
 
 -   **[Copy time cards from a previous time sheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/copy-time-sheet.md)**  
-Another option for creating time cards is to copy them from an existing timesheet, which copies all the time cards \(for project as well as non-project tasks\) from a selected time sheet.
+You can copy time cards from an existing time sheet, which copies all the time cards \(for project and non-project tasks\) from a selected time sheet.
 -   **[Auto-generate time cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/auto-generate-time-cards.md)**  
 As an admin, you can configure a scheduled job to generate time cards automatically for project tasks assigned to time card users.
 

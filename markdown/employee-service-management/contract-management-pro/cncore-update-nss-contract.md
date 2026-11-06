@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use non-self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify a non-self-served contract request
@@ -31,11 +31,11 @@ Role required: sn\_cm\_core.contract\_user
     |Action|Steps|
     |------|-----|
     |**Modify the request details**|Modify the fields of the non-self-served review request.|
-    |**Add and classify documents**|For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md) and [Reclassify contract documents in third-party contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)|
+    |**Add and classify documents**|For more information, see [Add contract documents to non-self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-add-cont-doc.md) and [Reclassify contract documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.md)|
     |**Delete documents**|In the Documents section, select the Delete icon \(\[Omitted image "lsd-tpc-delete.png"\] Alt text: Delete icon\) next to the document you want to delete.|
 
 3.  Select **Save** to update the record.
 
 
-**Parent Topic:**[Use non-self-served contract request]()
+**Parent Topic:**[Third-Party paper contract request]()
 

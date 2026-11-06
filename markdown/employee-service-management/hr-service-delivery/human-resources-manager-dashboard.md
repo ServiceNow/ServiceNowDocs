@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [HR Performance Analytics Dashboards, Performance Analytics for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
+breadcrumb: [Dashboards, Performance Analytics for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
 # Human Resources manager dashboard
@@ -18,11 +18,11 @@ The dashboard for HR Managers provides insights on how HR teams are meeting expe
 
 **Note:** This dashboard is available in the Human Resources Scoped App content pack.
 
-\[Omitted image "hr-manager-dshbrd-overview.png"\] Alt text: The Overview tab of the HR Manager dashboard that is included in the Performance Analytics Human Resources Scoped App out of the box solution \[Omitted image "hr-manager-dshbrd-overview-btm.png"\] Alt text: Bottom of the Overview tab
 
-\[Omitted image "hr-manager-operational-tab.png"\] Alt text: The Operational tabl of the HR Manager dashboard
 
-\[Omitted image "hr-manager-backlog-tab.png"\] Alt text: The Backlog Monitor tab of the HR Manager dashboard
+
+
+
 
 ## End users and roles
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/schedule-monthly-health-assessment-scans.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monthly Health Assessment, HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Monthly Health Assessment, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Schedule Monthly Health Assessment scans
@@ -38,4 +38,6 @@ Role required: impact\_permission\_authorizer
     -   The scans are conducted monthly as long as the consent is active.
 5.  Access the Monthly HealthScan reports in the [Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/health-assessment-dashboard.md).
 
+
+**Parent Topic:**[Monthly Health Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/monthly-health-assessment.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Modify planning items from the roadmap view in Strategic Planning Workspace
+title: Modify planning items from the roadmap view
 description: Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/manage-planning-items-from-the-roadmap-view.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Create planning items from the roadmap view in Strategic Planning Workspace, Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create planning items, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Modify planning items from the roadmap view in Strategic Planning Workspace
+# Modify planning items from the roadmap view
 
 Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 
@@ -29,15 +29,15 @@ Edit the details of planning items from a side panel view, or the full details v
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d267163e102">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d340598e105">
 
 Roadmap type
 
-</th><th align="left" id="d267163e105">
+</th><th align="left" id="d340598e108">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d267163e111">
+</th></tr></thead><tbody><tr><td id="d340598e114">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d267163e132">
+</td></tr><tr><td id="d340598e135">
 
 **Free-form roadmap**
 
@@ -76,12 +76,12 @@ From the Free-form Roadmaps tab, select a roadmap.
         1.  On the full details page, click the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
         2.  Click **OK** to confirm.
 
-**Parent Topic:**[Create planning items from the roadmap view in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
+**Parent Topic:**[Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md)
 
 **Related topics**  
 
 
-[Add milestones for roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md)
+[Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md)
 
-[Add dependencies for roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md)
 

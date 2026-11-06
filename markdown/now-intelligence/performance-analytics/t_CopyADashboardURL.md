@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Copy a responsive dashboard URL
@@ -28,7 +28,7 @@ Role required: You must be able to access the dashboard.
 
 3.  Select a tab, breakdown, and breakdown element.
 
-4.  Select the context menu \(\[Omitted image "ToggleMenu.png"\] Alt text: Context menu icon\) and select **Copy Dashboard URL**.
+4.  From the context menu \[Omitted image "ContextMenu.png"\] Alt text: context menu icon select **Copy Dashboard URL**.
 
 
 ## Result

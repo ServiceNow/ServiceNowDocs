@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Creator Studio reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio glossary
@@ -106,7 +106,7 @@ Someone requesting something, like a piece of equipment or permission to do some
 
 ## target table
 
-The table where apps created in Creator Studio store their requests.Administrators can change the table that an app saves its data to. For more information, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md).
+The table where apps created in Creator Studio store their requests. Admininstrators can change the table that an app saves its data to. For more information, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md).
 
 ## trigger
 
@@ -116,7 +116,7 @@ The event that makes an automated playbook begin running. For example, submittin
 
 A number assigned to the app that increases with each subsequent time it's deployed.
 
-## Workflow
+## workflow
 
-A sequence of activities to automate processes in applications.
+Defined sequence of steps automating processes in Sales Customer Relationship Management.
 

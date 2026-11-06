@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# FetchConfiguration class - Android
+# FetchConfiguration class- Android
 
 The FetchConfiguration class provides the ability to define the configuration for fetching records from the associatedServiceNow table.
 
@@ -25,7 +25,7 @@ This class only contains a single function \(constructor\), [FetchConfiguration\
 |queryParams|QueryParams|Iterable structure that contains name-value pairs of request query parameters.|
 |readConfiguration|[FieldReadConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/FieldReadConfigAndroidAPI.md)|Configuration for the fields to return in the response.|
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## FetchConfiguration - FetchConfiguration\(filter: Filter? = null, limit: Int? = null, readConfiguration: FieldReadConfiguration? = null\)
 

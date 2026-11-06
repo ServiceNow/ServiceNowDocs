@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_SelectATheme.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: admin
 
 Themes are user-specific. Each user can select a different theme and the selection is stored as a [user preference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_UserPreferences.md).
 
-This topic applies to the Core UI. For information about selecting a theme with Next Experience, see [Select a theme in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/select-a-theme-in-next-experience.md).
+This topic applies only when the Next Experience is not enabled. For information about selecting a theme with Next Experience, see [Select a theme in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/select-a-theme-in-next-experience.md).
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,8 +31,6 @@ If you are the team administrator, you can manage membership requests.
 2.  Click **Teams** and select the team name.
 
     If one or more users have been invited to the team, the **Pending members** tab shows the number of invitations sent.
-
-    \[Omitted image "PendingMembers.png"\] Alt text: Pending members
 
 3.  Click **Pending members**.
 

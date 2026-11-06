@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing complaint requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on a legal matter for a complaint
@@ -26,7 +26,7 @@ Role required: sn\_lg\_investigate.fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **Matters**, click **All**.
 

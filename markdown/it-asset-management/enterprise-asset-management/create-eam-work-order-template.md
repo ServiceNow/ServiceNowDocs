@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a template for your Enterprise Asset Management work orders
@@ -24,7 +24,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
 Work order templates are added to the Field Service Catalog, which is part of the ServiceNow® Field Service Management application. You can access the Field Service Catalog by navigating to **All** &gt; **Field Service** &gt; **Catalog and Knowledge**. See [Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md) for more information on the Field Service Management application.
 
-**Note:** The Field Service Management application is automatically activated when you request and install the Enterprise Asset Management application from the ServiceNow Store. See [Install Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/request-enterprise-asset-management.md) for more details.
+**Note:** The Field Service Management application is automatically activated when you request and install the Enterprise Asset Management application from the ServiceNow Store.
 
 ## Procedure
 
@@ -78,7 +78,7 @@ Checklist template of all items that you must complete as part of a work order.
 
 </td></tr><tr><td>
 
-Workflow**Note:** This field appears only if you select the Add icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add icon.\) next to the **Name** field.
+Workflow**Note:** This field appears only if you select the Add icon \[Omitted image "add\_content\_icon.png"\] Alt text: next to the **Name** field.
 
 </td><td>
 
@@ -172,7 +172,7 @@ Type of work that an agent must perform to complete the task. The options includ
 
     1.  In the Model Knowledges related list, select **New**.
 
-    2.  On the Model Knowledge form, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **Knowledge** field to search for and select the knowledge base article that you want to attach to the work order template.
+    2.  On the Model Knowledge form, select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: in the **Knowledge** field to search for and select the knowledge base article that you want to attach to the work order template.
 
     3.  Select **Submit** in the Model Knowledge form header.
 

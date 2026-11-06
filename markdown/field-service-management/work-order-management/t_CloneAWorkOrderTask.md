@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Clone a work order task
@@ -43,6 +43,4 @@ In the cloning process, the following information is copied from the source task
 
     An entry in the **Work Notes** field contains the original task number and text stating that the task is a clone.
 
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

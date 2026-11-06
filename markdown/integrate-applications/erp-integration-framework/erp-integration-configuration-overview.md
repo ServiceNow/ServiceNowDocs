@@ -1,0 +1,27 @@
+---
+title: Configuring Zero Copy Connector for ERP
+description: Install Zero Copy Connector for ERP \(Enterprise Resource Planning\) to configure connections to ERP systems.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/erp-integration-configuration-overview.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: concept
+last_updated: "2026-08-05"
+reading_time_minutes: 1
+keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, configuration, connection]
+breadcrumb: [Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Configuring Zero Copy Connector for ERP
+
+Install Zero Copy Connector for ERP \(Enterprise Resource Planning\) to configure connections to ERP systems.
+
+## Connecting to an instance
+
+Zero Copy Connector for ERP uses basic authentication. After you configure a connection, you can read and update the ERP system and create records with Zero Copy Connector for ERP using ERP models. You can also create remote tables and extraction tables.
+
+## Connecting to multiple instances
+
+The number of ERP connections you can have per ServiceNow instance depends on your license.
+

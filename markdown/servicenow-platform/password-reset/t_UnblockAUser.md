@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reset a password or unlock a user account with service desk assistance, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reset a password or unlock a user account with service desk assistance, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Unblock a Password Reset user
@@ -62,7 +62,7 @@ If the number of blocked or locked users exceeds the limit within a defined time
 
 [Password Reset and Password Change reports and logs]()
 
-[Configuring Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_SetPwdResetProps.md)
+[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_SetPwdResetProps.md)
 
 [Password Reset and Password Change reports and logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/c_MonitorPasswordResetActivity.md)
 

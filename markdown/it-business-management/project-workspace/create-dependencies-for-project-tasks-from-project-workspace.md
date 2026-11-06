@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add internal project task dependencies from Project Workspace
@@ -18,7 +18,7 @@ Create dependencies between project tasks using the interactive UI of Project Wo
 
 ## Before you begin
 
-Ensure that you have the Dependency Lines toggle enabled on the settings of the timeline. For information on how to update the settings, see [Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md).
+Verify that you have the Dependency Lines toggle enabled on the settings of the timeline. For information on how to update the settings, see [Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md).
 
 Role required: it\_project\_manager
 
@@ -26,19 +26,19 @@ Role required: it\_project\_manager
 
 1.  Select a project to open it from the planning page.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Create task dependencies in one of the following ways.
 
-<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d166174e86">
+<table id="choicetable_qhm_kty_hsb"><thead><tr><th align="left" id="d209365e86">
 
 Option
 
-</th><th align="left" id="d166174e89">
+</th><th align="left" id="d209365e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d166174e95">
+</th></tr></thead><tbody><tr><td id="d209365e95">
 
 **From the data grid**
 
@@ -46,13 +46,13 @@ Action
 
 Use the dependency type-ahead feature.
 
-1.  Double-click the dependency cell of the project task.
+1.  Double-click \(or use the keyboard shortcut\) the dependency cell of the project task.
 2.  Select the task to set as a dependency to this task.
 3.  Select the type of dependency to be applied.
 4.  Select the lag period to be applied to the dependency.
 
 
-</td></tr><tr><td id="d166174e121">
+</td></tr><tr><td id="d209365e121">
 
 **From the timeline view**
 
@@ -63,7 +63,6 @@ Draw a dependency line.
 1.  Place the cursor on the task bar for which you want to create the dependency.
 2.  Draw a line from the circle on one end of the bar and drop it on the circle of the dependent task bar.
 
-\[Omitted image "workspace-create-dependencies.gif"\] Alt text: Draw dependency lines.
 
 </td></tr></tbody>
 </table>    The created dependency is shown as a line between the two task bars, on the timeline view.
@@ -71,9 +70,9 @@ Draw a dependency line.
 
 ## What to do next
 
-You can edit the dependency. For more information, see [Update dependency details for tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md).
+You can edit the dependency. For more information, see [Update task dependency details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md).
 
--   **[Update dependency details for tasks from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md)**  
+-   **[Update task dependency details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.md)**  
 Update the details of the dependency including its type and lag time from Project Workspace.
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/setting-up-a-remote-table-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Integration use cases, Using the developer guide, Financial Services Operations \(FSO\)]
+breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
 
 # Setting up a remote table integration

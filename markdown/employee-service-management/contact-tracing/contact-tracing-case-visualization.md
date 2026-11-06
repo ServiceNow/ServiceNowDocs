@@ -7,7 +7,7 @@ release: yokohama
 product: Contact Tracing
 classification: contact-tracing
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Managing cases to follow up with potentially exposed contacts, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---

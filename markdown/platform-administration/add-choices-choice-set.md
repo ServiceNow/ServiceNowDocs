@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/add-choices-choice-set.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic Schema, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create a dynamic choice set, Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add choices to a dynamic choice set
@@ -16,11 +16,7 @@ Build out a dynamic choice set by defining the choices that belong to it.
 
 ## Before you begin
 
-Role required: admin
-
-## About this task
-
-After you create a dynamic choice set, define each of the choices that comprise the dynamic choice set.
+Role required: dynamic\_schema\_writer
 
 ## Procedure
 
@@ -36,16 +32,31 @@ After you create a dynamic choice set, define each of the choices that comprise 
     |-----|-----------|
     |Choice Set|The dynamic choice set that contains this choice.|
     |Label|Label used for displaying the dynamic choice.|
-    |Name|Internal name for the dynamic choice.|
+    |Value|Internal name for the dynamic choice.|
     |Order|Value that determines the choice's order in a list.|
     |Active|Option to activate the choice in the dynamic choice set.|
 
-5.  Select **Submit**.
+5.  Limit the availability of the choice that you want to add.
 
+    -   Restrict the choice to a specific namespace by selecting that namespace in **Within Namespace**.
+    -   Restrict the choice to attributes in a specific category by selecting a namespace in **Within Namespace** and the category in **Within Category**.
+    -   Restrict the choice to one attribute in a namespace by selecting the namespace in **Within Namespace** and selecting the attribute in **For attribute**.
+    The choice is only available in the dynamic attribute store field that belongs to the namespace you selected in **Within Namespace**. Further restrictions might apply if you selected a category or a specific attribute.
+
+6.  Select **Submit**.
+
+
+## Result
+
+A dynamic choice is added to the dynamic choice set.
 
 ## Add a dynamic choice to a dynamic choice set
 
 \[Omitted image "dynamic-choice-example.png"\] Alt text: Add a choice to the screen type choice set.
+
+## Define a specific choice in the Televisions category
+
+\[Omitted image "dynamic-choice-limited-example.png"\] Alt text: Add a choice that's limited to a specific attribute in a specific category.
 
 ## Choices defined in choice set
 

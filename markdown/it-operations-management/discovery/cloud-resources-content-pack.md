@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -27,7 +27,7 @@ The Performance Analytics Content Pack for Cloud Resources works with Discovery 
 -   VMware vCenter
 -   Google Cloud Platform \(GCP\) \(Supported with Performance Analytics Content Pack for Cloud Resources version 1.2.1 and higher\).
 
-The aggregate count of each cloud resource and the latest Cloud Discovery error logs are displayed on the dashboard. You can filter the cloud resources by the service account, datacenter, or resource group \(only for Microsoft Azure\) under a specific provider and view the resource count and the resources.
+The aggregate count of each cloud resource and the latest Cloud Discovery error logs are displayed on the dashboard. You can filter the cloud resources by the service account, datacenter, or resource group \(only for Microsoft Azure\) under a specific provider. Filter results show the resource count and the resources.
 
 The base-system Performance Analytics Content Pack for Cloud Resources dashboard doesn’t contain any widget for the GCP resources. You can create the reports and widgets by consuming data from the appropriate tables. For more information on the tables that contain the GCP resources data, see [Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cloud-resources-dashboard.md). Alternatively, you can install the Cloud Discovery Workspace application to view the GCP reports and widgets. For more information, see [Cloud Discovery Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-discovery-workspace/cow-landing-page.md).
 
@@ -45,9 +45,4 @@ The following roles and tasks are associated with this solution:
 -   Performance Analytics administrator \(pa\_admin\): Review the indicators, breakdowns, widgets, and dashboards. Set up and start data collection and share the dashboards with appropriate stakeholders.
 -   Cloud Dashboard user \(sn\_disco\_cd.user\): Crew the cloud resource widgets in the Cloud Dashboard and has read-only access on the Cloud Resource analytics tables and the dashboard reports.
 -   Cloud Dashboard administrator \(sn\_disco\_cd.admin\): View, add, or edit the dashboard widgets and reports and has read-only access on the Cloud Resource analytics tables. By default \(sn\_disco\_cd.admin\) contains the \(sn\_disco\_cd.user\) role and \(discovery\_admin\) contains the \(sn\_disco\_cd.admin\) role.
-
-**Related topics**  
-
-
-[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

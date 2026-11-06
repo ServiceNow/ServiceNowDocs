@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a page variant
@@ -26,8 +26,6 @@ Role required: ui\_builder\_admin
 
 Learn how to create a page variant in UI Builder. A page variant is based on your page with content targeted for a different audience. For example, you can create a homepage for agents, and a variant of that page for managers of those agents. The variant exists at the same URL.
 
-\[Omitted image "page-variant-graphic.png"\] Alt text: Graphic show one URL pointing to three different pages based on the user accessing the page.
-
 -   When someone who is part of the application admins audience accesses the page URL, the user sees a version of the page that has application admin-specific details, such as application metrics and usage details. For the Special Occasions application the page would show how many users have birthdays and work anniversaries and how many do not. The page would also show how many issues have been reported with special occasions.
 
 -   When someone who is part of the department managers audience accesses the page URL, the user sees department-related information for the application, such as people in their department with upcoming birthdays and work anniversaries, and whether or not those people are okay with their special occasions being shared.
@@ -41,13 +39,11 @@ Learn how to create a page variant in UI Builder. A page variant is based on you
 
 2.  Open the experience with the page for which you want to create a variant.
 
-3.  Select the **+** icon in the **Pages and variants** section.
+3.  Select the **+** icon in the **Pages** section.
 
     \[Omitted image "create-page-icon.png"\] Alt text: Create page button on the experience view page.
 
 4.  Select **Add a variant to a page**.
-
-    \[Omitted image "page-create-popup.png"\] Alt text: Page type selection modal.
 
 5.  Click **+ Add variant**.
 

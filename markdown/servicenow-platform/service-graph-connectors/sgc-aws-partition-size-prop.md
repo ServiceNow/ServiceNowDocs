@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [SGC-AWS, SGC AWS, SGC for AWS, AWS SGC, Service Graph Connector for AWS, AWS data sources, SG-AWS data sources, SG-AWS, AWS parallel loading, AWS partition size, aws\_account\_partition\_size]
 breadcrumb: [Additional features, AWS, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

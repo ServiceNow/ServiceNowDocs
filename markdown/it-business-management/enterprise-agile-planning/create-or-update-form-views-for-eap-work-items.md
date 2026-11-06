@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -42,22 +42,22 @@ Configuration for form views of work item tables determines the fields that are 
 
 5.  Create form views or update them.
 
-<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d87440e129">
+<table id="choicetable_xcm_cz1_f1c"><thead><tr><th align="left" id="d107196e129">
 
 Option
 
-</th><th align="left" id="d87440e132">
+</th><th align="left" id="d107196e132">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87440e138">
+</th></tr></thead><tbody><tr><td id="d107196e138">
 
 **Create form views**
 
 </td><td>
 
 1.  From the **View name** field, select **New**.
-2.  In the **Create New View** window, enter one of the following names in the **View name** field:
+2.  In the **Create New View** window, enter one of the following names in the **View name** field.
     -   To create the EAP Preview view, enter **Workspace EAP Preview**
     -   To create the EAP Default view, enter **Workspace EAP Default**
     -   To create the EAP New view, enter **Workspace EAP New**
@@ -69,7 +69,7 @@ You can also rearrange them in the order of your choice.
 5.  Repeat the steps to complete creating the other two form views.
 
 
-</td></tr><tr><td id="d87440e209">
+</td></tr><tr><td id="d107196e211">
 
 **Edit existing form views**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Viewing your SaaS and SSO subscriptions, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Viewing SSO subscription information
@@ -139,6 +139,14 @@ Reclamation Candidates
 </td><td>
 
 Subscriptions that don't meet the usage requirements that are defined by the reclamation rule for the application.
+
+</td></tr><tr><td>
+
+SSO Group Software Model Mappings
+
+</td><td>
+
+SSO groups that are mapped to specific software models for managing licenses at the group level.
 
 </td></tr></tbody>
 </table>## Data synchronization with SSO providers

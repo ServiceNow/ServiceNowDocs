@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,13 +18,11 @@ Resource plans are the key element in resource management.
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged to work on resource assignments which offers more flexibility [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged to work on resource assignments which offers more flexibility [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Resource requesters, such as project managers, [create resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_CreateResourcePlanProjectTask.md) to ask for resources, track effort, and track costs. Resource managers modify and approve resource plans before the plans are used.
 
 All resource plans for a task appear on the **Resource Plan** related list of the Project task form, where resource requesters can access them.
-
-\[Omitted image "ProjectResourcePlanOnTheProjectForm.png"\] Alt text: Resource Plan tab on a Project form
 
 Resource plans progress through several states.
 
@@ -103,9 +101,7 @@ Canceled
 A plan can be canceled if the allocations are no longer required. This removes all past and future allocations. A canceled resource plan can be brought back to the Planning state if it has no past allocations.Resource plans in Planning, Requested, Confirmed, or Allocated state can be canceled.
 
 </td></tr></tbody>
-</table>\[Omitted image "rm\_states.png"\] Alt text: States of a resource plan
-
-**Note:** When a resource requester wants to change a plan that was already submitted for review \(in Requested or Confirmed state but not yet allocated\), the requester can [request a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_RequestAChangeToAResourcePlan.md). The plan then moves back to the Planning state.
+</table>**Note:** When a resource requester wants to change a plan that was already submitted for review \(in Requested or Confirmed state but not yet allocated\), the requester can [request a change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_RequestAChangeToAResourcePlan.md). The plan then moves back to the Planning state.
 
 Resource Management supports time zones, which are important in the My Calendar and Resource Workbench modules.
 
@@ -175,7 +171,7 @@ As a resource manager, you can confirm or block the resources after a resource p
 After the resource plan is requested, as a resource manager, you can directly allocate the resources. To confirm and allocate, the resource plan must be in the Requested state.
 -   **[Request a change to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_RequestAChangeToAResourcePlan.md)**  
 Request a change to the resource plan to modify a resource plan after you’ve submitted it for review.
--   **[Recalculate costs of a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/recalculate-resource-costs.md)**  
+-   **[Recalculate costs of a resource plan of a project or demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/recalculate-resource-costs.md)**  
 Recalculate the resource costs of an individual resource plan for a project or demand whenever the hourly rates change in the associated rate model.
 -   **[Update cost plan related to a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_UpdateRelatedCostPlan.md)**  
 If a resource plan is associated to a project, project task, or demand and has a related cost plan. Then, a requester or a resource manager can update the related cost plan after updating the resource plan.

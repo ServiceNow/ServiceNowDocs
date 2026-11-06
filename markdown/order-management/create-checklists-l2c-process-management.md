@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-checklists-l2c-process-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lead-to-Cash Process Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create and manage task checklists
@@ -20,7 +20,7 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
@@ -54,4 +54,13 @@ Role required: sales process manager \[sn\_l2c\_cockpit.sales\_process\_manager\
         -   To add an item, select **Add item** and provide the task name.
     4.  Select **Save**.
 
+
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
+
+**Related topics**  
+
+
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-lead-cash-process-management.md)
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-lead-cash-process-management.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcl-cto-it-case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Care Team Operations for Healthcare IT, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Explore, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Healthcare IT case overview
@@ -22,7 +22,7 @@ Any updates, comments, or status changes made to the incident are reflected in t
 
 ## Incident auto-creation
 
-\[Omitted image "cto-it-incident-auto-create.png"\] Alt text:
+\[Omitted image "cto-it-incident-auto-create.png"\] Alt text: Incident auto creation.
 
 Incidents are created automatically in synchronization with Healthcare IT cases. All information from the Healthcare case is carried over into the incident.
 
@@ -51,4 +51,6 @@ In cases where an incident is set to **On hold** by the support agent with a rea
 \[Omitted image "cto-it-on-hold.png"\] Alt text: On hold message occurring when a case needs more information in Care Team Operations for Healthcare IT.
 
 This triggers an alert on the case in the Care Team Portal, where the state is changed to **Awaiting info**.
+
+**Note:** Care team members can also create these cases conversationally, by chat in Care Team Portal or Care Team Mobile, or by phone, using ServiceNow Otto. For more information, see [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
 

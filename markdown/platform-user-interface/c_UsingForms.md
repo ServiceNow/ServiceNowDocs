@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_UsingForms.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-05-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -103,9 +103,11 @@ Related lists appear on forms and show records in tables that have relationships
 You can edit a record in the form view. You can also insert a record, apply a template, and cancel changes to the record.
 -   **[Personalize a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_PersonalizeAForm.md)**  
 When the form personalization feature is activated, users can personalize fields to appear on a specific form view according to individual preferences. Form personalization is available in Core UI.
+-   **[Add users to a watch list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_UseAWatchList.md)**  
+Watch lists enable you and others to subscribe to notifications of a task.
 -   **[Add and manage attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_AddingAnAttachment.md)**  
 You can upload a file as an attachment to an incident, a knowledge article, a change request, or to another type of record.
--   **[Configure the Next Experience email client for the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/enable-next-experience-email-client-core-ui.md)**  
+-   **[Set up the Next Experience email client in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/enable-next-experience-email-client-core-ui.md)**  
 Access email features from the Next Experience in the Core UI.
 -   **[Document Viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/Documentviewer.md)**  
 Document Viewer enables you to view documents directly in the ServiceNow AI Platform rather than having to download them.
@@ -117,5 +119,5 @@ Checklists provide a simple way to track the progress of tasks without creating 
 **Related topics**  
 
 
-[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UIActions.md)
+[bundle-platadm.c_UIActions]
 

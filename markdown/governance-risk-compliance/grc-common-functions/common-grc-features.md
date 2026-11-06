@@ -7,8 +7,8 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Governance, Risk, and Compliance]
 ---
 
@@ -27,7 +27,7 @@ By using the Governance, Risk, and Compliance recommendations framework, you can
 -   **[Mobile experience for Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/mobile-grc-ovrvw.md)**  
 Manage your work, task assignments, requests, approvals, and other follow-up actions for GRC applications directly from your mobile device. Receive timely notifications for current alerts, as well as risk and compliance status for your critical assets, vendors, and impacted essential business services.
 -   **[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)**  
-When you receive notifications for GRC records, you are directed to either the workspace view or classic view based on your access permissions and role. This feature enables you to work directly in the appropriate interface without manual navigation.
+When you receive notifications for GRC records, you're directed to either the workspace view or classic view based on your access permissions and role. This feature enables you to work directly in the appropriate interface without manual navigation.
 -   **[Governance, Risk, and Compliance application nomenclature updates and industry terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-terms.md)**  
 The following terms are used within GRC applications and/or within the GRC industry.
 -   **[Governance, Risk, and Compliance content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-content-packs.md)**  
@@ -52,14 +52,22 @@ With a user hierarchy, your managers can see the records of those users who repo
 You can allow a set of users to access only specific records by creating user groups on the GRC tables. When you have created the user groups, you can segregate your data based on a specific criteria and allow only those users who belong to a user group to view the data.
 -   **[Content references in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/content-references.md)**  
 You can add tags to virtually any type of record defined in GRC applications that reference GRC content packs, integrations, use case accelerators, or any new regulations that use those records. After the records have been tagged, you can filter the content reference tags to identify which records are used within each application.
+-   **[Unified Content Management \(UCM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/ucm-shared-architecture.md)**  
+Unified Content Management \(UCM\) is the shared foundation that your risk and compliance applications use to organize, version, and deliver regulatory content.
 -   **[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/entity-based-access.md)**  
 The Entity Based Access \(EBA\) application enables you to segregate data on the records that are based on entities. Entity-based access administrators can use this tool to set up secure, controlled access to various objects.
 -   **[Manage issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/manage-issues-common-core.md)**  
 You can measure the effectiveness of your company's risk management program by how quickly and completely it identifies and reacts to risk and compliance issues.
+-   **[Issue workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-workflows.md)**  
+Issue workflows define the lifecycle, layout, guided activities, approval requirements, and routing rules for different types of issues.
+-   **[Complete a playbook activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/complete-a-playbook-activity.md)**  
+Complete playbook activities to progress an issue through the stages defined in its workflow.
+-   **[Issue approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-approval-flows.md)**  
+Issue approval flows require review and approval before an issue or remediation task moves past a specific state, or before its due date is extended.
 -   **[Domain separation in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-domain-separation.md)**  
 This is an overview of domain separation and the Governance, Risk, and Compliance applications. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)**  
-The ServiceNow® Yokohama release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
+The ServiceNow® Brazil release supports breadcrumb navigation for all GRC modules including workspaces. Breadcrumbs provide a browser path to navigate a hierarchy of linked pages with related content.
 -   **[Taxonomy management in GRC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/taxonomy-management.md)**  
 Taxonomy is used to organize, classify, and label the elements of the unstructured content. The content is organized into granular elements that provide more information about the context of the content.
 -   **[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)**  
@@ -68,6 +76,8 @@ GRC administrators can now configure the Tasks and Issues overview landing pages
 GRC administrators can configure the tasks for the individual users and user groups in the GRC Landing Page Configurations module. Based on these configurations, the workspace users can view the individual user tasks, user group tasks, my items, and watchlist on the Tasks page in the workspace view.
 -   **[Exploring the entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/exploring-the-entities.md)**  
 Entities are one of the most fundamental and crucial elements for using Governance, Risk, and Compliance. Entities can be people, processes, departments, applications, or objects that are examined for risks.
+-   **[Entity lifecycle management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/entity-change-management.md)**  
+Review entity changes and their impact on associated risks and controls before the changes take effect.
 -   **[Viewing and updating Governance, Risk, and Compliance exceptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/viewing-and-updating-grc-exceptions.md)**  
 Report exceptions as it is critical for businesses to quickly identify and address key business process issues before they become a problem. Using exceptions to manage errors has advantages over traditional error-management techniques.
 -   **[Cybersecurity Executive dashboard for Chief Information Security Officers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-ced-ciso-db.md)**  
@@ -78,6 +88,8 @@ The GRC **Application Risk and Compliance Overview Dashboard** provides the late
 Use the GRC licensing summary dashboard to track license usage trends and next month's projected usage. You can see the aggregated counts of license consumption across different product families. You can also search for roles to identify their combined GRC license treatment when these roles are assigned to a user.
 -   **[Microsoft Word based audit report templates using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/document-designer-template.md)**  
 The Microsoft Word based audit report is accessible and user-friendly for audit administrators. Even users without technical expertise can easily configure the template to meet their specific needs.
+-   **[AI for document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/ai-reporting-assistant.md)**  
+The AI for document designer uses prompts to generate reports from ServiceNow instance data directly in a Microsoft Word document.
 -   **[Workspace page configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/workspace-page-configuration.md)**  
 A common record page can be used and configured within all the GRC applications.
 -   **[Governance, Risk, and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-reference.md)**  

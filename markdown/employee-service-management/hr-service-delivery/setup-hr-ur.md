@@ -7,8 +7,8 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Universal Request for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-If you have created COEs \(Center of Excellence\), then create service configurations, state mappings, and transfer configurations as well. In case you have activated the Predictive Intelligence plugin, configure the service assignment groups by referring to Department Setup for UR.
+If you have created COEs \(Center of Excellence\), then create service configurations, state mappings, and transfer configurations as well. In case you have activated the Predictive Intelligence plugin, configure the service assignment groups by referring to [Train the classification solution to predict the assignment group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/train-ur-classification-soln.md).
 
 ## Procedure
 

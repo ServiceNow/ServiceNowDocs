@@ -7,7 +7,7 @@ release: yokohama
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Admin Center, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -41,7 +41,7 @@ Admin Center offers easy access to a number of key applications administrators n
 
     **Note:** Configuration Hub store application is available by default with instance upgrade of Vancouver patch 2 and above.
 
--   Upgrade Management: Leverage ServiceNow Upgrade Management for a comprehensive and efficient upgrade experience. Streamline your upgrade process by accessing all necessary tools and insights in one place. See [Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md) for more information.
+-   Upgrade Management: Leverage ServiceNow Upgrade Management for a comprehensive and efficient upgrade experience. Streamline your upgrade process by accessing all necessary tools and insights in one place. See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md) for more information.
 
 You can also access the [Admin Experience](https://www.servicenow.com/community/admin-experience/ct-p/admin-experience) Product Hub on the ServiceNow Community for additional resources about Admin Center and the applications.
 

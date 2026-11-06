@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internal review, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on internal review task
@@ -24,15 +24,15 @@ Role required: sn\_cm\_core.contract\_reviewer
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d74508e55">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d78212e55">
 
 Method
 
-</th><th align="left" id="d74508e58">
+</th><th align="left" id="d78212e58">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d74508e64">
+</th></tr></thead><tbody><tr><td id="d78212e64">
 
 **Contract Workspace Review tasks listing**
 
@@ -45,7 +45,7 @@ Steps
 5.  Open the review task from the list
 
 
-</td></tr><tr><td id="d74508e114">
+</td></tr><tr><td id="d78212e114">
 
 **Contract Workspace landing page**
 
@@ -56,7 +56,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d74508e147">
+</td></tr><tr><td id="d78212e147">
 
 **Workspace used by your application**
 
@@ -67,7 +67,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d74508e168">
+</td></tr><tr><td id="d78212e168">
 
 **Contract Request Reviews tab**
 
@@ -104,15 +104,15 @@ Steps
 
     The reviewer edits the document, suggest changes through comments, and approve or reject any redlines.
 
-<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d74508e294">
+<table id="choicetable_qqw_xjr_5bc"><thead><tr><th align="left" id="d78212e294">
 
 Type of storage
 
-</th><th align="left" id="d74508e297">
+</th><th align="left" id="d78212e297">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d74508e303">
+</th></tr></thead><tbody><tr><td id="d78212e303">
 
 **Internal storage**
 
@@ -123,12 +123,12 @@ Steps
 
 **Note:** If you do not have modified contract document to share, select **No** and enter work notes in the Comments field
 
-3.  Select **Attach file** link and select a file
+3.  Select **Attach file** link and select a file.
 4.  In the Comments field, enter work notes.
 5.  Select **Submit**.
 
 
-</td></tr><tr><td id="d74508e347">
+</td></tr><tr><td id="d78212e347">
 
 **External storage**
 
@@ -145,8 +145,12 @@ The attach file option is not available as the contract document is directly edi
 
 
 </td></tr></tbody>
-</table>    The review task will be closed, work notes are added to the Activity stream, and the State changes to Closed Complete.
+</table>    The review task will be closed, work notes are added to the Activity stream, and the State changes to Closed Complete. The attached document will be available in Reviewed document field of the Details tab of the review task.
 
 
-**Parent Topic:**[Internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
+## What to do next
+
+After the completing the review task, the fulfiller will have to create a revision of the finalzed contract document.
+
+**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

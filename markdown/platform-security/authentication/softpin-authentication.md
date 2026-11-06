@@ -1,39 +1,75 @@
 ---
-title: SoftPIN authentication
-description: Soft PIN is an authentication method that verifies a user's identity through a personal numeric PIN set up in advance, specifically designed to support AI Voice Agent authentication.
+title: Soft PIN authentication
+description: Soft PIN is a six-digit numeric PIN that verifies a caller's identity during an AI voice agent session.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/softpin-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-11-13"
-reading_time_minutes: 1
-keywords: [SoftPIN Authentication, ServiceNow, low-risk scenarios, self-service features, security risks]
-breadcrumb: [Configure authentication factors, Authentication factors, Authentication, Access Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Soft PIN Authentication, ServiceNow, low-risk scenarios, self-service features, security risks]
+breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
-# SoftPIN authentication
+# Soft PIN authentication
 
-Soft PIN is an authentication method that verifies a user's identity through a personal numeric PIN set up in advance, specifically designed to support AI Voice Agent authentication.
+Soft PIN is a six-digit numeric PIN that verifies a caller's identity during an AI voice agent session.
 
-## Use case
+## When to use Soft PIN
 
-Soft PIN is ideal for low-risk scenarios, such as verifying returning users accessing self-service features. It isn’t recommended for high-risk or privileged actions.
+Soft PIN is appropriate for low-risk caller verification, such as confirming a returning user before granting access to self-service tasks.
 
-## Key strengths
+Soft PIN can be configured as a single factor, the first factor in a multi-factor authentication flow, or a second factor.
 
-The SoftPIN method offers the following advantages:
+Soft PIN is a medium-assurance factor and is not suitable as the only authentication factor for sensitive operations. For those flows, combine Soft PIN with a higher-assurance factor such as Push notification - Okta Verify or a time-based one-time password \(TOTP\). For guidance on combining factors, see [Authentication factors for AI voice agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-authentication-factors.md).
 
--   Fast and straightforward user experience.
--   Functions without internet or device-specific requirements.
+## How Soft PIN works
 
-## Important considerations
+Each user enrolls a Soft PIN before it can be used for authentication. Users can change their PIN by re-enrolling at any time.
 
-While SoftPIN is a secure and convenient authentication method, there are several considerations to keep in mind:
+When Soft PIN is selected as an authentication factor for an AI voice agent service, the agent prompts the caller for the PIN during the session. The platform validates the response against the user's enrolled PIN and returns the result to the orchestrator.
 
--   Susceptible to reuse, observation, and social engineering.
--   Not suitable as the sole authentication method for sensitive or privileged operations.
+**Note:**
 
-Soft PIN can be used for your specific use case. For detailed configuration instructions, see [Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-soft-pin.md).
+-   Soft PIN supports both text and voice input.
+-   Soft PIN factor isn’t supported for step-up authentication.
+
+## Enrollment rules
+
+The system enforces the following rules on the chosen PIN.
+
+|Rule|Behavior|
+|----|--------|
+|Length|Exactly six digits.|
+|Repetition|No single digit can repeat more than twice consecutively. For example, `111234` is rejected.|
+|Sequences|Ascending or descending numeric sequences longer than two digits aren't allowed. For example, `123456` and `987654` are rejected.|
+|History|The new PIN can't match any of the user's previous five PINs.|
+
+## Limitations
+
+A six-digit numeric PIN provides lower assurance than time-based codes or push notifications. PINs are vulnerable to reuse, observation, and social engineering.
+
+## Availability
+
+The administrator manages the following conditions on the instance. Soft PIN enrollment is available when both are met:
+
+-   Install Now Assist for Platform `sn_genai_platform` for activating AI voice agents.
+-   The system property `glide.auth_factors.Soft PIN.enrollment.enabled` is set to `true` \(default\).
+
+When the plugin is not installed, no Soft PIN module exists on the instance and the enrollment URL is not available. When the plugin is installed but the property is set to false, the enrollment option is hidden from the user profile, the navigation menu, and the Service Portal. Users who navigate directly to the enrollment URL see the following message:
+
+`Soft PIN enrollment is not available at this time. Please contact your administrator for more details.`
+
+|Property|Description|Default state|
+|--------|-----------|-------------|
+|`glide.auth_factors.Soft PIN.enrollment.enabled`|Controls whether the Soft PIN enrollment option appears in the user profile, the navigation menu, and the Service Portal. Requires the AI Voice Agents plugin.|true|
+
+**Related topics**  
+
+
+[Configure Soft PIN](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-soft-pin.md)
+
+[Authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/authentication-factors.md)
 

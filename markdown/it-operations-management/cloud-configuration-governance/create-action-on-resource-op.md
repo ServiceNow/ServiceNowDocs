@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create an action for an 'on Resource operation' policy
@@ -153,7 +153,7 @@ Action Name
 
 </td><td>
 
-Enter a descriptive name for the action. In subsequent policy actions for the same policy, you can reference this name in a **Value** field. It refers to the JSON payload that is received from the cloud provider after an API call. For example, to reference an allocated IP address that was returned by the action that is named RefAction, you can use the following expression in the **Value** field of another policy action: `$(parameter.RefAction.Allocated_IP}`.
+Enter a descriptive name for the action. In subsequent policy actions for the same policy, you can reference this name in a **Value** field. It refers to the JSON payload that is received from the cloud provider after an API call. For example, to reference an allocated IP address returned by the action named RefAction, use the following expression in the **Value** field of another policy action: `$(parameter.RefAction.Allocated_IP}`.
 
 </td></tr><tr><td>
 

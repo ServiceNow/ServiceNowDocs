@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,6 +18,8 @@ Reference topics provide additional information about the lists, forms, roles, t
 
 -   **[Components installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.md)**  
 Several types of components are installed with Enterprise Agile Planning when you install the Strategic Planning applications, including tables and user roles.
+-   **[Properties installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/properties-installed-with-enterprise-agile-planning.md)**  
+System properties that you can configure to modify the way your product manager or scrum team members view their work in the Enterprise Agile Planning \(EAP\) workspace.
 -   **[Integration between EAP and Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/sync-eap-and-agile-2.md)**  
 While setting up a configuration in Enterprise Agile Planning, you can establish an integration with Agile Development 2.0. Learn more about the tables connected and the way you access the information.
 -   **[Team type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/team-type-form-in-eap.md)**  

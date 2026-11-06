@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Credential stores for Password Reset
@@ -97,6 +97,8 @@ Important: Before you delete the connection to a credential store, check all Pas
 **Related topics**  
 
 
+[Calculating the security score for password reset process]()
+
 [Configure password expiration reminder]()
 
 [Password Reset verifications]()
@@ -105,7 +107,7 @@ Important: Before you delete the connection to a credential store, check all Pas
 
 [Enable users to enroll for Password Reset]()
 
-[Configuring Password Reset properties]()
+[Configure Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

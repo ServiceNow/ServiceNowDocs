@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/automate-the-recovery-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,7 +16,7 @@ Automate the manual recovery task within the business continuity plan. You can c
 
 ## Before you begin
 
-Role required: admin for the Workflow Studio, sn\_bcm.admin, sn\_bcm.program\_manager, or sn\_bcm.planner
+Role required: sn\_bcm.core\_manager, sn\_bcp.plan\_manager, sn\_recovery.event\_manager
 
 ## About this task
 
@@ -28,7 +28,7 @@ The flow setup involves these steps:
 2.  User then defines the inputs to provide necessary information for the automation flow.
 3.  The automation process includes actions to automate the manual task and update its completion status.
 
-Automated tasks are executed sequentially until a manual task is encountered. If an automated task fails, manual intervention is required to trigger it again. In case of a failure in the automation process,you can retrigger it and verify its completion. If a task fails, the backup assignee is notified via email and must perform the necessary manual actions to address the failure. This confirms that the recovery process continues smoothly even in the event of automation issues.
+Automated tasks are executed sequentially until a manual task is encountered. If an automated task fails, manual intervention is required to trigger it again. In case of a failure in the automation process, you can retrigger it and verify its completion. If a task fails, the backup assignee is notified via email and must perform the necessary manual actions to address the failure. This confirms that the recovery process continues smoothly even in the event of automation issues.
 
 ## Procedure
 
@@ -54,7 +54,7 @@ Automated tasks are executed sequentially until a manual task is encountered. If
 
 6.  Create the subflow inputs to specify the data available to the subflow when it starts running.
 
-    To establish a reference to the record linked to the task, you can specify the name and type for the input in the Inputs &amp; Outputs section of the subflow. By defining the inputs, you can create a reference to the task responsible for executing the automation.
+    To reference the record linked to the task, specify the input name and type in the Inputs &amp; Outputs section of the subflow. By defining the inputs, you can create a reference to the task responsible for executing the automation.
 
     \[Omitted image "automated-tasks-input.png"\] Alt text: Reference to the task.
 

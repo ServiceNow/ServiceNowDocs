@@ -1,20 +1,20 @@
 ---
-title: Create an application file from the Metadata Explorer
-description: Create an application file in an embedded ServiceNow AI Platform user interface from the Metadata Explorer in the ServiceNow IDE.
+title: Create an application file from the File Categories view
+description: Create an application file in an embedded ServiceNow AI Platform user interface from the File Categories view in the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.html
 release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
-# Create an application file from the Metadata Explorer
+# Create an application file from the File Categories view
 
-Create an application file in an embedded ServiceNow AI Platform user interface from the Metadata Explorer in the ServiceNow IDE.
+Create an application file in an embedded ServiceNow AI Platform user interface from the File Categories view in the ServiceNow IDE.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-If you need to create some application metadata outside of source code, you can create application files from the Metadata Explorer within the ServiceNow IDE. To create an application file from the ServiceNow IDE, an embedded ServiceNow AI Platform user interface opens in the editor.
+If you need to create some application metadata outside of source code, you can create application files from the File Categories view within the ServiceNow IDE. To create an application file from the ServiceNow IDE, an embedded ServiceNow AI Platform user interface opens in the editor.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ If you need to create some application metadata outside of source code, you can 
 
 2.  Open a workspace with an application.
 
-3.  From the Activity Bar, select the Metadata Explorer view \(\[Omitted image "servicenow-ide-metadata-explorer-icon.png"\] Alt text: Metadata Explorer\).
+3.  From the Activity Bar, select the File Categories view or Apps view.
 
 4.  Select the Create New File icon \(\[Omitted image "add-record-button.png"\] Alt text: Create New File\).
 
@@ -44,7 +44,7 @@ If you need to create some application metadata outside of source code, you can 
 
     **Tip:** Search for a file type or select a category to find the file type you need.
 
-    \[Omitted image "servicenow-ide-create-file.png"\] Alt text: Create an application file from the Metadata Explorer view
+    \[Omitted image "servicenow-ide-create-file.png"\] Alt text: Create an application file from the File Categories view
 
 7.  Select **Continue**.
 

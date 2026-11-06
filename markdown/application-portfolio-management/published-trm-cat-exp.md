@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/published-trm-cat-exp.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-03-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with the publishing center, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Published TRM catalog experience
@@ -64,7 +64,7 @@ This synchronization ensures that published technology standards remain current 
 **Related topics**  
 
 
-[Create a new configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/config-trm-data-to-publish.md)
+[Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/config-trm-data-to-publish.md)
 
 [Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/publish-trm-cat-to-kb.md)
 
@@ -72,5 +72,5 @@ This synchronization ensures that published technology standards remain current 
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-the-published-kb.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/understand-publishing-output.md)
 

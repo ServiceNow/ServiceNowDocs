@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-06-14"
-reading_time_minutes: 3
-breadcrumb: [Setup continuous improvement, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Setup continuous improvement, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Content Analytics
@@ -22,7 +22,7 @@ Content Analytics collects data and generates visualizations on employee engagem
 
 ## Content Analytics dashboards
 
-Dashboards display data visualizations in widgets. Each widget displays data for specific parameters, such as user interactions with content. Content Analytics includes four dashboards:
+Dashboards display data visualizations in widgets. Each widget displays data for specific parameters, such as user interactions with content. Content Analytics includes the following dashboards:
 
 |Dashboard|Description of data visualizations|
 |---------|----------------------------------|
@@ -43,6 +43,9 @@ Dashboards display data visualizations in widgets. Each widget displays data for
     For more information on tracking profiles, see the section below.
 
 3.  To track analytics for a custom widget or page, you must add the tracking profile to the header: [Set up Content Analytics tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-analytics-tracking-setup.md)
+
+    **Important:** A new **Enable Tracking** field has been introduced to content notifications, designed specifically for email content. Existing notification records will have this field disabled by default, in line with prior system settings and by default, existing email content will have tracking turned off. However, for new email notification contents, the **Enable Tracking**option will be available for your selection and will be automatically enabled on new record creation. This feature provides greater flexibility, allowing you to determine whether tracking should be applied to specific email content record.
+
 
 ## Tracking profiles
 

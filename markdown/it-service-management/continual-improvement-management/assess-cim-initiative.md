@@ -7,7 +7,7 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -21,8 +21,6 @@ Once accepted and set to assess, Approver group members evaluate the improvement
 Role required: None \(must be a member of the Approver group\)
 
 ## About this task
-
-\[Omitted image "cim-assess.png"\] Alt text: Assess process flow
 
 **Note:** Only one Approver group member needs to approve the improvement before moving to the next state. To require additional approvers, configure the CIM Approval workflow in [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
 

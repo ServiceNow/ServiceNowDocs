@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cs-fdih.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Code Signing, Code Signing, Platform Security]
 ---
@@ -63,7 +63,7 @@ Role required: sn\_kmf.cryptographic\_manager
 
     2.  Click the **Import Update Set from XML** related link to import the update set that is exported from the trusted instance.
 
-        For more information, see 
+        For more information, see Import and commit the quick-start update set.
 
         The update set is committed successfully.
 

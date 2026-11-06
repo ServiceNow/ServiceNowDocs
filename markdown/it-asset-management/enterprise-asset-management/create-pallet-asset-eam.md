@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create pallet assets in the Enterprise Asset Workspace
@@ -152,7 +152,7 @@ If you set the location to a specific place and then set the **sn\_itam\_common.
 
 This map is still included in the pallet asset record when you open the record from an associated work order task or stockroom record.
 
-The map does not display by default. To display the map, select the Location map icon \(\[Omitted image "asset-indoor-location-icon.png"\] Alt text: Location map icon.\) on the sidebar of the pallet asset record.
+The map does not display by default. To display the map, select the Location map icon \[Omitted image "asset-indoor-location-icon.png"\] Alt text: on the sidebar of the pallet asset record.
 
 </td></tr><tr><td colspan="2">
 

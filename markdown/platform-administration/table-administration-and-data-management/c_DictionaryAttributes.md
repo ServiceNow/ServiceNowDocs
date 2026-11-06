@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 26
-breadcrumb: [Manage tables and indexes, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 27
+breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Altering tables and fields using dictionary attributes
@@ -393,6 +393,23 @@ If present or true, causes an icon \(an envelope\) to appear in the more options
 
 </td></tr><tr><td>
 
+enforce\_dot\_walk\_cross\_scope\_access
+
+</td><td>
+
+true/false
+
+</td><td>
+
+any table
+
+</td><td>
+
+This attribute enforces dot-walk cross-scope access restrictions for individual tables. The attribute must be added to the dictionary record for the table \(the record in sys\_dictionary with Type = “Collection” for the specific table\).-   To enable enforcement, add **enforce\_dot\_walk\_cross\_scope\_access** or **enforce\_dot\_walk\_cross\_scope\_access=true**.
+-   To turn off enforcement, add **enforce\_dot\_walk\_cross\_scope\_access=false**.
+
+</td></tr><tr><td>
+
 exclude\_auto\_recovery
 
 </td><td>
@@ -572,6 +589,22 @@ Instructs the workflow engine to listen for changes to the table and fires event
 
 </td></tr><tr><td>
 
+hide\_email\_icon
+
+</td><td>
+
+true/false
+
+</td><td>
+
+email field
+
+</td><td>
+
+If true, the default email icon does not display. The default value is false.
+
+</td></tr><tr><td>
+
 html\_sanitize
 
 </td><td>
@@ -604,6 +637,22 @@ If present, performs sanitization using the specified configuration file instead
 
 </td></tr><tr><td>
 
+i18n\_locale\_text\_match
+
+</td><td>
+
+true/false
+
+</td><td>
+
+any string field
+
+</td><td>
+
+If true, enables case and accent \(diacritic\) sensitivity for text search of the column. If false, text search of the column is case and accent insensitive. The default behavior is false. This attribute can't be set to true when i18n\_session\_language\_sortable is true on the same column. To learn more see [Set case and accent sensitivity on a per-column basis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/sl-locale-text-match.md).
+
+</td></tr><tr><td>
+
 i18n\_session\_language\_sortable
 
 </td><td>
@@ -616,7 +665,7 @@ any string field
 
 </td><td>
 
-If true, enables sorting the column by the user's session language. If false, sorting by the user's session language is disabled and the column is sorted according to the English alphabet.
+If true, enables sorting the column by the user's session language. If false, sorting by the user's session language is disabled and the column is sorted according to the English alphabet. This attribute can't be set to true when i18n\_locale\_text\_match is true on the same column. To learn more see [Sorting according to the session language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/sorting-session-language.md)
 
 </td></tr><tr><td>
 
@@ -926,7 +975,7 @@ positive integer
 
 </td><td>
 
-any table affected by the table cleaner.
+any table affected by the table cleaner
 
 </td><td>
 
@@ -942,7 +991,7 @@ true/false
 
 </td><td>
 
-any table affected by the table cleaner.
+any table affected by the table cleaner
 
 </td><td>
 
@@ -1909,6 +1958,22 @@ If present or true, enables the production of time dimension data for use by OLA
 
 </td></tr><tr><td>
 
+track\_record\_for\_unauthenticated\_user
+
+</td><td>
+
+true/false
+
+</td><td>
+
+any table
+
+</td><td>
+
+Enables record tracking within Web Embeddables components. This attribute is set as needed through the Web Embeddables capability.For more information about how Web Embeddables are configured and used, see .
+
+</td></tr><tr><td>
+
 tree\_picker
 
 </td><td>
@@ -2034,6 +2099,22 @@ any field
 </td><td>
 
 If present or true, causes any user preferences to be used instead of the normal default value.
+
+</td></tr><tr><td>
+
+vertical\_layout
+
+</td><td>
+
+true/false
+
+</td><td>
+
+radio buttons
+
+</td><td>
+
+If true, displays the radio buttons vertically.
 
 </td></tr></tbody>
 </table>-   **[Modify the Glide durations format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_ModifyTheGlideDurationsFormat.md)**  

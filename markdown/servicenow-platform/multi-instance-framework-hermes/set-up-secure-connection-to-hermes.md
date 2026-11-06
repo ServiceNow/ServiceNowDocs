@@ -7,7 +7,7 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Setting up the Hermes Messaging Service requires coordination with your network 
 
 Make sure the following setup is in place:
 
--   The Hermes Messaging Service is activated. See [Hermes Messaging Service activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
+-   The Hermes Messaging Service is activated. See [Activating the Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
 -   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
@@ -37,15 +37,15 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d383590e128">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d391059e128">
 
 Option
 
-</th><th align="left" id="d383590e131">
+</th><th align="left" id="d391059e131">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d383590e137">
+</th></tr></thead><tbody><tr><td id="d391059e137">
 
 **Apply ACLs to namespaces**
 
@@ -58,7 +58,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d383590e179">
+</td></tr><tr><td id="d391059e179">
 
 **Apply ACLs to defined topics**
 
@@ -113,7 +113,11 @@ You can now create a secure connection to the Hermes Messaging Service.
 **Related topics**  
 
 
-[Hermes Messaging Service activation]()
+[Activating the Hermes Messaging Service]()
 
 [Revoke a Hermes certificate]()
+
+[Restricting access to Hermes]()
+
+[Enable encryption at rest for a Hermes topic]()
 

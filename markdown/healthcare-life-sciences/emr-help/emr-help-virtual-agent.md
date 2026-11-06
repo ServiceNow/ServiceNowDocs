@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating requests within your EMR, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Create requests within your EMR system, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Virtual Agent in EMR Help
@@ -19,8 +19,6 @@ Virtual Agent, ServiceNow’s conversational bot platform, is available when cre
 Virtual Agent can be used to quickly obtain information, make decisions, and perform common work tasks.
 
 To interact with Virtual Agent, simply click the chat window icon on the bottom right-hand corner of the screen.
-
-\[Omitted image "hcls-emr-help-virtual-agent.png"\] Alt text: Virtual Agent in EMR Help portal.
 
 For more information on Virtual Agent, see [Virtual Agent as an application design element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/virtual-agent.md).
 

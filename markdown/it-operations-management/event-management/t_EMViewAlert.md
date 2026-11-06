@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Using Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View alert information
@@ -292,7 +292,7 @@ You can respond to the alert in the following ways:
 |------|-----------|
 |Submit|Save the modifications that were made to the form and return to the **Alerts** list.|
 |Acknowledge the alert.|Click **Acknowledge**. If the alert is reopened, this button reappears so you can reacknowledge the alert.|
-|Create an incident.|Click **Create incident**. For more information, see [Create an incident or security incident from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMCreateIncidentfromAlert.md).|
+|Create an incident.|Click **Create incident**.|
 |If Security Incident Response is activated, create a security incident response.|Click **Create Security Incident**.|
 |Designate that the alert is in maintenance.|Select the **Maintenance** check box. For more information, see [View all alerts by the maintenance status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMViewAlertmaintenance.md).|
 |Close the alert.|Click **Close**. For more information, see [Close an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMCloseAlert.md).|
@@ -307,8 +307,6 @@ You can view alerts that are specifically in the flapping state.
 The **Maintenance** status indicates that the CI is under maintenance. For example, there is a software upgrade, and the issues can result from that activity, therefore all maintenance alerts are discarded.
 -   **[Collaborate from within an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/em-collaborate-from-alert.md)**  
 You can collaborate with colleagues and write work notes while working in an alert.
--   **[Create an incident or security incident from an alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMCreateIncidentfromAlert.md)**  
-When an alert must be escalated and assigned to someone who can resolve the underlying issue, you can open an incident.
 -   **[Place an alert into maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMPutAnAlertIntoMaintenance.md)**  
 You can manually place any alert into maintenance to hide it from the Alerts list and Agent Workspace.
 -   **[Alert insight information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-insight-information.md)**  

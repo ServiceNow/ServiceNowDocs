@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,19 +28,25 @@ You must create a catalog item using one of the available catalog item templates
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Builder**.
 
-2.  Select the **Dashboard** tab and click **Create a new catalog item**.
+2.  Select the **Dashboard** tab and select **Create a new catalog item**.
 
-3.  Review the steps involved in the creation process and click **Continue**.
+3.  Review the steps involved in the creation process and select **Continue**.
 
-4.  Select a template from the list and click **Use this item template**.
+4.  Select a template from the list and select **Use this item template**.
 
     **Note:**
 
     -   After you select the template, the preview of this template is available.
     -   You can only view templates assigned to you.
-    -   Based on the template configuration, during the item creation or editing, few attributes have pre-specified values, are not editable, have limited options to select, and are mandatory.
+    -   Based on the template configuration, during the item creation or editing, few attributes have pre-specified values, aren't editable, have limited options to select, and are mandatory.
     -   When selecting a record submission table for record producers, you can only select tables in that scope.
-5.  Based on how each step is defined in the template, specify the required information.
+5.  Select **Build on your own**.
+
+    By default, the **Build with ServiceNow Otto** option is selected, enabling you to use automated assistance for catalog generation. Alternatively, you can choose to create the item manually from scratch if you prefer a hands-on approach.
+
+6.  Select **Build**.
+
+7.  Based on how each step is defined in the template, specify the required information.
 
 <table id="table_z5l_ck2_g4b"><thead><tr><th>
 
@@ -96,12 +102,28 @@ Question sets \(variable sets\) or questions for the item. By default, the quest
 
  **Note:**
 
--   The questions within a question set cannot be edited. The question sets can be reordered by dragging and dropping them.
--   Question sets specified in the template cannot be removed, while the ones added by the user can be removed.
+-   The questions within a question set can't be edited. The question sets can be reordered by dragging and dropping them.
+-   Question sets specified in the template can't be removed, while the ones added by the user can be removed.
 -   Removal of question sets simply removes the association with the item and does not delete the question set.
 -   A single-column question set can be added to a single-column or a two-column container. Two-column question set cannot be added to a container.
 -   The questions for a catalog item are available as options on which a condition can be applied for a step when you create service fulfillment steps for that catalog item.
 
+
+</td></tr><tr><td>
+
+UI Policy
+
+</td><td>
+
+Configure catalog UI policies with scripts and multiple catalog UI policy actions in Catalog Builder to facilitate the creation of complex catalog items.
+
+</td></tr><tr><td>
+
+Client Script
+
+</td><td>
+
+Use catalog client scripts to control the behavior of the catalog items after publishing them for catalog item requesters.
 
 </td></tr><tr><td>
 
@@ -112,6 +134,10 @@ Settings
 Settings to configure the catalog item behavior in portals, such as Employee Center and Service Portal based on the request method.
 
  For example, you can determine whether to display buttons or options for adding attachments, making them mandatory, or saving the draft of the items while requesting them.
+
+ If you want more people to edit a catalog item, then you can use this field. You can provide a user criteria to this field, and a user who matches with this user criteria, would be able to edit the item.
+
+**Note:** Only catalog admin or owner of the item can modify the value in the field.
 
 </td></tr><tr><td>
 
@@ -146,11 +172,11 @@ Review the item and submit it.
 </td></tr></tbody>
 </table>    **Note:** A dot beside the step name indicates it has a mandatory field.
 
-6.  To save your changes in each step, click **Save**.
+8.  To save your changes in each step, click **Save**.
 
     All edits to the item attributes are automatically saved when you navigate to the next step.
 
-7.  To preview a catalog item in Portal, Now Mobile, or a Virtual Agent conversation, click **Preview**.
+9.  To preview a catalog item in Portal, Now Mobile, or a Virtual Agent conversation, click **Preview**.
 
     **Note:** When you preview an item, you can interact with it but not submit it.
 
@@ -175,11 +201,11 @@ Review the item and submit it.
 
         **Note:** When you make any changes to the item and save it, the preview is dynamically refreshed in the opened tab.
 
-8.  To delete an unpublished draft item, click **Delete**.
+10. To delete an unpublished draft item, click **Delete**.
 
     **Note:** You cannot delete a published item but can make it inactive.
 
-9.  Click **Submit**.
+11. Click **Submit**.
 
     **Note:** Until you submit the item, it is in the Draft state and is not available in the catalog.
 
@@ -190,4 +216,9 @@ Define how a catalog item request should be fulfilled by creating simple service
 From the catalog builder, a user can preview a catalog item in a Virtual Agent conversation.
 
 **Parent Topic:**[Creating or editing catalog item template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-cat-item-template-cat-builder.md)
+
+**Related topics**  
+
+
+[Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/edit-question-cat-builder.md)
 

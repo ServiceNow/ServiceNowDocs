@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/using-lead-cash-process-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Order operations apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using Lead-to-Cash Process Management
@@ -40,7 +40,7 @@ Access the Lead-to-Cash Process Management application from the CRM Workspace to
 
 -   [View and send emails in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-send-emails-sales-process.md)
 
-    View consolidated emails for all hard-linked entities monitored within a sales process record and compose emails from the sales process dashboard.
+    View consolidated emails for all hard-linked entities monitored in a sales process record and compose emails from the sales process dashboard.
 
 -   [Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/conditions-link-delink-toggle-records.md)
 
@@ -50,4 +50,32 @@ Access the Lead-to-Cash Process Management application from the CRM Workspace to
 
     Create business process tasks to track miscellaneous tasks at the sales process record-level.
 
+
+-   **[Create a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-sales-process-record.md)**  
+Monitor and track sales activities for a customer account by creating a sales process record in Lead-to-Cash Process Management.
+-   **[Navigating the sales process dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/navigating-sales-process-dashboard.md)**  
+Become familiar with the various elements that make up the sales process dashboard in the Lead-to-Cash Process Management application.
+-   **[Monitoring and tracking sales activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/monitor-track-sales-activities.md)**  
+Monitor and track sales activities for a customer account after you have created a sales process record.
+-   **[Create and manage task checklists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-checklists-l2c-process-management.md)**  
+Create and manage checklists to track progress on completing routine or repetitive tasks and processes such as fulfilling orders.
+-   **[Add attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/add-attachments-sales-process.md)**  
+Attach files, documents, or images such as implementation plans, customer-provided specifications, or finalized quotes related to a customer account you're monitoring with a sales process record.
+-   **[Manage attachments for a sales process record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/manage-attachments-l2c-process-management.md)**  
+Rename, download, or delete files, documents, or images such as implementation plans, customer-provided specifications, or finalized quotes related to a customer account you're monitoring with a sales process record.
+-   **[View and send emails in Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-send-emails-sales-process.md)**  
+View consolidated emails for all hard-linked entities monitored in a sales process record and compose emails from the sales process dashboard.
+-   **[Linking, delinking, and link conversion conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/conditions-link-delink-toggle-records.md)**  
+Several conditions can enable or disable you from linking, delinking, and hard or soft-linking records in Lead-to-Cash Process Management.
+-   **[Create business process tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-business-process-tasks.md)**  
+Track tasks for sales process records in Lead-to-Cash Process Management such as the closure of all linked opportunities or generating orders.
+
+**Parent Topic:**[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-operations.md)
+
+**Related topics**  
+
+
+[Configuring Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-lead-cash-process-management.md)
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-lead-cash-process-management.md)
 

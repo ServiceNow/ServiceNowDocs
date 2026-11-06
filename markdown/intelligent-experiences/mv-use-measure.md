@@ -1,0 +1,16 @@
+---
+title: Use
+description: Use Dashboards to review and analyze the productivity gains, AI costs, and the net return on AI investment.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/mv-use-measure.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Measure AI system, Measure AI systems, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+---
+
+# Use
+
+Use Dashboards to review and analyze the productivity gains, AI costs, and the net return on AI investment.
+

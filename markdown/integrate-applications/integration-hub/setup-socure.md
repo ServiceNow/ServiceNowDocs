@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Socure Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Socure Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Socure spoke
@@ -30,8 +30,6 @@ Integrate the ServiceNow instance and Socure account using an API key to authent
     1.  Log in to [ServiceNow - NOW Support](https://support.servicenow.com/now).
 
     2.  Search for the **My IP Information** service catalog item.
-
-        \[Omitted image "socure-ip-instance.png"\] Alt text: Search for the service catalog item.
 
     3.  Click the service catalog item.
 

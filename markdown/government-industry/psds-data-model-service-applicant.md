@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-data-model-service-applicant.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Public Sector Data Model, Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Service Applicant Data Model
@@ -16,12 +16,12 @@ This section outlines the Service Applicant data model and the Service Applicant
 
 The following logical diagram shows the tables and their relationships that build the Service Applicant Information and Service Applicant Program Management data model.
 
-\[Omitted image "psds-datamodel-sa.png"\] Alt text: Public Sector Digital Services Service Applicant Data Model
+\[Omitted image "psds-datamodel-sa-q2-2026.png"\] Alt text: Public Sector Digital Services Service Applicant Data Model
 
 -   **[Tables installed with Service Applicant Information Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-data-model-svc-app-in-tables.md)**  
 This section describes the tables installed with the Service Applicant Information plugin and shows how they store and manage information. The Service Applicant Information plugin tables focus on capturing detailed applicant data for eligibility assessments, and enable the addition of any supplementary applicants \(either constituents or business contacts\) to a case or application.
 -   **[Tables installed with Service Applicant Program Management Plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-data-model-svc-app-prog-man-tables.md)**  
 This section describes the tables installed with the Service Applicant Program Management plugin and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
 

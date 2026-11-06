@@ -7,14 +7,14 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Telecommunications Network Inventory function catalog, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Create IP subnetwork function
 
-The Create IP Subnetwork function enables you to create an IP subnetwork record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Create IP Subnetwork function enables you to create an IP subnetwork record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 
 You can use this action as a flow designer action in the Telecommunications Network Inventory workflow. Here, either CIDR or, first IP and last IP, or first IP and total host are required inputs to create a subnetwork. If the parent IP pool is provided in input, then the function validates and ensures that the subnetwork that is being created is under the provided IP pool.
 

@@ -1,18 +1,18 @@
 ---
 title: Advanced Part Sourcing components
-description: Several types of components are installed with the Advanced Part Sourcing feature, including tables, scripts and business rules.
+description: Several types of components are installed with the Advanced Part Sourcing feature, including tables, script includes and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/advanced-part-souring-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Advanced Part Sourcing components
 
-Several types of components are installed with the Advanced Part Sourcing feature, including tables, scripts and business rules.
+Several types of components are installed with the Advanced Part Sourcing feature, including tables, script includes and business rules.
 
 ## Plugin
 
@@ -148,7 +148,7 @@ Validate Maximum Part Search Radius
 
 </td><td>
 
-Work parameters \[wm\_agent\_work\_configuration\]
+Resource Schedule Attributes\[wm\_agent\_schedule\_attribute\_plan\]
 
 </td><td>
 

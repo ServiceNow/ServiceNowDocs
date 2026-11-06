@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,6 +22,8 @@ Several types of components are installed with activation of the Workplace Case 
 Customize the properties available with Workplace Case Management.
 -   **[Workplace Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-service-form.md)**  
 Use the Workplace Service form to specify details such as the case table, default template, and record producers.
+-   **[Workplace Location Assignment service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/location-assignment-service.md)**  
+The Workplace Location Assignment service automatically assigns a workplace location to an employee.
 
 **Parent Topic:**[Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-feat.md)
 

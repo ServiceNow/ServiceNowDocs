@@ -1,5 +1,5 @@
 ---
-title: Identification and Reconciliation engine \(IRE\)
+title: Identification and Reconciliation Engine \(IRE\)
 description: IRE is an underlying key component in Identification and Reconciliation, providing a centralized framework to perform identification and reconciliation processes across different data sources. IRE uses identification rules, reconciliation rules, and IRE data source rules when processing incoming data before inserting that data to the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-breadcrumb: [Components and process of Identification and Reconciliation, Exploring CMDB Identification and Reconciliation, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Components and process of Identification and Reconciliation, Explore, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Identification and Reconciliation engine \(IRE\)
+# Identification and Reconciliation Engine \(IRE\)
 
 IRE is an underlying key component in Identification and Reconciliation, providing a centralized framework to perform identification and reconciliation processes across different data sources. IRE uses identification rules, reconciliation rules, and IRE data source rules when processing incoming data before inserting that data to the CMDB.
 
@@ -34,6 +34,8 @@ Additional information:
 ## CI identification
 
 The CMDB identification process relies on identification rules to uniquely identify CIs. When possible, CIs can also be uniquely identified using **source\_name** and **source\_native\_key** values provided in the **sys\_object\_source\_info** section of the payload, and the Source \[sys\_object\_source\] table. If identification is successful using that method, then it is not necessary to apply matching algorithms that rely on identification rules, which is a slower identification method.
+
+You can configure the system to prioritize the use of IRE identification rules, even when **source\_name** and **source\_native\_key** are provided and can be used for unique identification. For more information about using the **glide.identification\_engine.skip\_sys\_object\_source\_matching** system property to manage this behavior, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
 A unique CI identifier can be provided in the optional **sys\_object\_source\_info** object in the IRE payload.
 

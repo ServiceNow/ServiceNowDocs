@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing Password Reset processes, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a custom identification type for Password Reset
@@ -18,7 +18,7 @@ A custom identification type enables the user to enter alternative verification 
 
 ## Before you begin
 
-Role required: password\_reset\_admin or admin
+Role required: password\_reset\_admin
 
 ## About this task
 

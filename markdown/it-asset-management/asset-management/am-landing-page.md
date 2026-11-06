@@ -1,34 +1,30 @@
 ---
-title: Asset Management
-description: The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
+title: Base Asset Management
+description: The Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Base Asset Management focuses on the financial tracking of company property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/am-landing-page.html
 release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Asset Management]
+breadcrumb: [Common applications, Asset Management]
 ---
 
-# Asset Management
+# Base Asset Management
 
-The Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Asset Management focuses on the financial tracking of company property.
+The Base Asset Management application integrates the physical, technological, contractual, and financial aspects of information technology assets. Base Asset Management focuses on the financial tracking of company property.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Asset Management offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/exploring-asset-management.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the key features and business value that the Base Asset Management offers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/exploring-asset-management.md)
 
 </td><td>
 
-[Use \[Omitted image "bus-manage.svg"\] Alt text:Use the Asset Management to efficiently manage your assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
-
-</td><td>
-
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about the roles, domain separation, lists and forms in the Asset Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/references-asset-management.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text:Use the Base Asset Management to efficiently manage your assets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help
@@ -36,4 +32,13 @@ The Asset Management application integrates the physical, technological, contrac
 -   [Ask or answer questions in the Asset Management ServiceNow Community](https://www.servicenow.com/community/asset-management/ct-p/asset-management)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+
+-   **[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/exploring-asset-management.md)**  
+The user interface of the Base Asset Management application is enhanced to make it more user-friendly and intuitive, enabling you to manage your hardware installations better.
+-   **[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)**  
+Use the Base Asset Management application to manage your assets efficiently.
+-   **[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/references-asset-management.md)**  
+Reference topics provide additional information about the lists and forms that you use to configure and administer Asset Management.
+
+**Parent Topic:**[Common applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/asset-management-related-apps-landing-page.md)
 

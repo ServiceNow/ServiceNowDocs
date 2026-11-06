@@ -1,5 +1,5 @@
 ---
-title: Modify planning items from roadmap in Portfolio Planning Workspace
+title: Modify planning items from roadmap
 description: Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/modify-planning-items-from-roadmap-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Create planning items from roadmap view in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Create planning items, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Modify planning items from roadmap in Portfolio Planning Workspace
+# Modify planning items from roadmap
 
 Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 
@@ -29,15 +29,15 @@ Edit the details of planning items from a side panel view, or the full details v
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d187733e93">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d237862e99">
 
 Roadmap type
 
-</th><th align="left" id="d187733e96">
+</th><th align="left" id="d237862e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d187733e102">
+</th></tr></thead><tbody><tr><td id="d237862e108">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d187733e123">
+</td></tr><tr><td id="d237862e129">
 
 **Free-form roadmap**
 
@@ -56,23 +56,23 @@ Navigation
 From the Free-form Roadmaps tab, select a roadmap.
 
 </td></tr></tbody>
-</table>2.  From the roadmap view, click a planning item that you want to update or delete.
+</table>2.  From the roadmap view, select a planning item that you want to update or delete.
 
     The side panel opens with the Details tab.
 
-    Further, you can click **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Demand planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-form-portfolio-planning.md) or [Project planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/project-form-portfolio-planning.md).
+    Further, you can select **Full details** and open the item's record page. On the full details page, you can also view related lists such as Milestones, Dependencies, and others. For field information, see [Demand planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-form-portfolio-planning.md) or [Project planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/project-form-portfolio-planning.md).
 
     **Note:** If your free-form roadmap was built on one of the PPM tables, such as project \[pm\_project\] or demand \[dmn\_demand\], you can only make updates from the full details page.
 
 3.  Update the details or delete the item.
 
-    -   To update, edit the field details and click **Update**.
+    -   To update, edit the field details and select **Update**.
 
-        If you're on the full details page, click **Save**.
+        If you're on the full details page, select **Save**.
 
     -   To delete, do the following:
-        1.  On the full details page, click the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
-        2.  Click **OK** to confirm.
+        1.  On the full details page, select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.\) and select **Delete**.
+        2.  Select **OK** to confirm.
 
-**Parent Topic:**[Create planning items from roadmap view in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.md)
+**Parent Topic:**[Create planning items from roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-planning-items-from-roadmap-view-portfolio-planning-workspace.md)
 

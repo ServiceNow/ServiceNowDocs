@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development setup, Configuring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Configure, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Define a remote instance
 
 For each instance, define other instances in the hierarchy as remote instances.
+
+## Before you begin
+
+Role required: none
 
 ## About this task
 

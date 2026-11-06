@@ -7,8 +7,8 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Exploring the entities, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,14 @@ The primary benefit of creating entities is that you can maintain accountability
 
 Having defined entities ensures that the entity owners can be identified and that appropriate controls can be applied to those entities. It also helps in tracking the entities that are non-compliant. Any entity that has child entities can be said to have downstream entities. Any entity that has parent entities can be said to have upstream entities.
 
-When a source record linked to an entity filter is created, an entity is automatically generated in GRC. If the source record name changes after the entity is created, the entity name updates to match the source record name. This behavior is controlled by the Sync Entity name with source record check box. When selected, the Name field becomes read only and stays in synchronization with the source record. Clearing the check box enables you to manually override the entity name.
+When a source record linked to an entity filter is created, an entity is automatically generated in GRC. If the source record name or owner changes after the entity is created, the entity name and owner can update to match the source record.
+
+You can control this synchronization at the entity level using the Sync entity name and entity owner with source record check box. When selected, the Name and Owner fields become read only and stay in synchronization with the source record. Clearing the check box enables you to manually override the entity name and owner.
+
+The actual synchronization work is performed by a scheduled job called Sync entity name and entity owner with source record. When an entity is first created, the synchronization happens automatically. For continuous synchronization of future changes to source records, this scheduled job must be active. The job syncs entity names and owners based on GRC properties that control its behavior:
+
+-   Frequency of syncing the entity name and entity owner with the source record: Determines how often the job runs \(options: daily, weekly, monthly\). Based on the selected frequency, the synchronization occurs at regular intervals.
+-   Maximum batch size while syncing the entity name and entity owner with the source record: Controls the number of records processed in each batch.
 
 After creating entities, you can tag the similar entities by defining the entity class for them individually or you can link them to an existing entity class.
 

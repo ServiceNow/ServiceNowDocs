@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -205,4 +205,6 @@ This task is optional.
 [Classic assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ongoing-config.md)
 
 [Smart assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-sae-assessment-config.md)
+
+[Configure AI capabilities in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/configure-now-assist-for-tprm.md)
 

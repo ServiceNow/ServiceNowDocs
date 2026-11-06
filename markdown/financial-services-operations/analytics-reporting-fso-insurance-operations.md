@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/analytics-reporting-fso-insurance-operations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Analytics and reporting for Personal Lines Servicing
@@ -16,7 +16,7 @@ Personal Lines Servicing contains preconfigured dashboards with actionable data 
 
 Use the Performance Analytics widgets on a dashboard to visualize data over time, analyze your business processes, and identify areas of improvement.
 
-The following dashboards are available for Personal Lines Servicing.
+The [Personal Lines Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/personal-lines-servicing-dashboard.md) is available for Personal Lines Servicing.
 
-[Personal Lines Servicing dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/personal-lines-servicing-dashboard.md)
+**Parent Topic:**[Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-ins-personal-policy-ops-landing-page.md)
 

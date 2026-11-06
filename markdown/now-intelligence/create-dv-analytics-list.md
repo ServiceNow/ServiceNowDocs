@@ -1,22 +1,22 @@
 ---
-title: Create a list visualization in the Visualization Designer
+title: Create a Platform Analytics list visualization
 description: Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-dv-analytics-list.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-28"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create a list visualization in the Visualization Designer
+# Create a Platform Analytics list visualization
 
 Create a list of table records that can be drilled down to from chart interactions. List visualizations display table data in columns. By default, the columns match the default list view of the table.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -32,9 +32,9 @@ In the Zurich release, this List replaces the simple list visualization. On migr
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-2.  Select **New**.
+2.  Select **Create data visualization**.
 
 3.  Select the List \(\[Omitted image "list-outline-24.svg"\] Alt text: List visualization icon\) visualization type from the category labeled **Other**.
 
@@ -54,7 +54,7 @@ In the Zurich release, this List replaces the simple list visualization. On migr
     |Show header separator|Option to display a line separating the header from the rest of the component.|
     |Chart title|Title of the visualization.|
     |Title alignment|Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.|
-    |Description|A short overview about the visualization that the end user sees.|
+    |Description|A short overview about the visualization that the end user sees. Descriptions help users find the visualization.|
     |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
     |Line of truncation|Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.|
     |Show border|Option to display a line around the component.|
@@ -82,10 +82,12 @@ Group by \(optional\)
 
 </td><td>
 
-The field to group by. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. You can group by any field in the table including list fields.For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.
+
+**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportRanges.md).
+-   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportRanges.md).
 
 
 </td></tr><tr id="alternative-group-by"><td>
@@ -155,6 +157,10 @@ Header text of the message that describes why no data was returned.
 </td></tr><tr id="empty-state-heading-level"><td>
 
 Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
 
 </td></tr><tr id="empty-state-content"><td>
 
@@ -267,7 +273,7 @@ Show column filtering
 
 </td><td>
 
-Enable users to apply filters from column headings at runtime.
+Enable users to apply filters from column headings at runtime. For more information, see [Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/column-filters-in-lists.md).
 
 </td></tr><tr><td>
 
@@ -336,10 +342,28 @@ Allow list pagination
 
 Enables the list to be divided across multiple pages. When cleared, list pagination is hidden.
 
+</td></tr><tr><td>
+
+Fetch highlighted values
+
+</td><td>
+
+Render highlighted values in the list based on a predefined configuration.
+
+</td></tr><tr><td>
+
+Highlighted value configuration
+
+</td><td>
+
+Because different configurations can highlight values with different colors, select the configuration to use to render highlighted values. For more information, see [Set up a highlighted value in a form header in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/config-ws-highlight-value.md).
+
 </td></tr></tbody>
 </table>
--   **[Create a list visualization with variable columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-list-dv-with-var-col.md)**  
-You can create a list visualization with variables columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list report that has a column for the values in this variable.
+-   **[Add variable or question columns to a Platform Analytics list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-list-dv-with-var-col.md)**  
+You can create a list data visualization with variables or questions as columns based on a data source or table that has variables associated with it. For example, if an item has a variable called **Storage**, you can create a list that has a column for the values in this variable.
+-   **[Column filters in list components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/column-filters-in-lists.md)**  
+If column filters are activated, viewers of a List can filter the list by the contents of individual columns. Filter options depend on the column type.
 
 **Parent Topic:**[Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/creating-data-visualizations.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/define-attack-pattern.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Attack patterns, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d241993e83">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d249608e80">
 
 Field
 
-</th><th align="left" id="d241993e86">
+</th><th align="left" id="d249608e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d241993e92">
+</th></tr></thead><tbody><tr><td id="d249608e89">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Enter a descriptive name for this attack pattern.
 
-</td></tr><tr><td id="d241993e101">
+</td></tr><tr><td id="d249608e98">
 
 **Spec Version**
 
@@ -50,7 +50,7 @@ Enter a descriptive name for this attack pattern.
 
 The version of the STIX specification used to represent this object.The value of this property must be 2.1 for STIX Objects defined according to this specification.
 
-</td></tr><tr><td id="d241993e113">
+</td></tr><tr><td id="d249608e110">
 
 **Source**
 
@@ -58,7 +58,7 @@ The version of the STIX specification used to represent this object.The value of
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d241993e122">
+</td></tr><tr><td id="d249608e119">
 
 **Description**
 
@@ -66,7 +66,7 @@ Specifies the threat source from which this record is created.
 
 Enter a description of the attack pattern.
 
-</td></tr><tr><td id="d241993e132">
+</td></tr><tr><td id="d249608e129">
 
 **Aliases**
 
@@ -74,7 +74,7 @@ Enter a description of the attack pattern.
 
 Alternative names to identify this attack pattern.
 
-</td></tr><tr><td id="d241993e141">
+</td></tr><tr><td id="d249608e138">
 
 **Source ID**
 
@@ -82,7 +82,7 @@ Alternative names to identify this attack pattern.
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d241993e150">
+</td></tr><tr><td id="d249608e147">
 
 **Created Time in Source**
 
@@ -90,7 +90,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d241993e159">
+</td></tr><tr><td id="d249608e156">
 
 **Modified Time in Source**
 

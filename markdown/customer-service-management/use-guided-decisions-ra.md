@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/use-guided-decisions-ra.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Automate and optimize, Use, Customer Service Management]
 ---
 
 # Use Guided Decisions in recommended actions to resolve cases

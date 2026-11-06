@@ -1,30 +1,44 @@
 ---
-title: Reclamation rules
-description: Reclamation rules define the minimum amount of time for which a subscription must be used. If the subscription doesn't have any activity within a specified time limit, it's added to the list of reclamation candidates.
+title: Reclamation rules for SaaS and SSO applications
+description: Reclaim unused SaaS and Single sign-on \(SSO\) subscriptions to reduce your total software costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/reclamation-rules.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 7
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Reclamation rules
+# Reclamation rules for SaaS and SSO applications
+
+Reclaim unused SaaS and Single sign-on \(SSO\) subscriptions to reduce your total software costs.
 
 Reclamation rules define the minimum amount of time for which a subscription must be used. If the subscription doesn't have any activity within a specified time limit, it's added to the list of reclamation candidates.
 
 For each direct integration, the user activity is defined differently. Only one of the listed activities is required to occur within the specified time limit, not all of them.
 
-<table id="table_zbp_nxp_zhb"><thead><tr><th>
+**Warning:** Make sure that users don't lose access to their files when their account is reclaimed. Users can't stop their account from being reclaimed unless the **Notify user** check box is selected on the reclamation rule.
 
-Direct integration
+Automatic reclamation is unavailable for some SaaS applications. For these applications, update or remove licenses manually from the application's admin portal.
+
+<table id="table_reclamation-saas-sso"><thead><tr><th>
+
+Application
 
 </th><th>
 
-Activity
+Activity considered for reclamation
+
+</th><th class="filter">
+
+Is reclamation automated?
+
+</th><th>
+
+What happens after auto-reclamation?
 
 </th></tr></thead><tbody><tr><td>
 
@@ -34,6 +48,39 @@ Activity
 
 Any user activity
 
+</td><td>
+
+No
+
+</td><td>
+
+NA
+
+</td></tr><tr><td>
+
+[Adobe Workfront](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-workfront.md)
+
+</td><td>
+
+-   Create or update projects
+-   Create or update tasks
+-   Create or update issues
+-   Create or update portfolios
+-   Create or update programs
+-   Create or update reports
+-   Create or update filters
+-   Create or update documents
+-   Create or update templates
+-   Create or update expenses
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user's access to the Workfront application. The user is no longer allowed to sign in.
+
 </td></tr><tr><td>
 
 [Aha!](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-aha.md)
@@ -41,6 +88,14 @@ Any user activity
 </td><td>
 
 User login**Note:** The analysis period is 60 days.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Deactivates the account. The user can’t log in to the Aha! portal.
 
 </td></tr><tr><td>
 
@@ -57,6 +112,14 @@ User login**Note:** The analysis period is 60 days.
 -   Comments added to tasks or subtasks
 -   Story created
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Deletes the user account. The user can no longer access Asana projects or workspace. Content created by the user remains accessible to other users and the admin can reassign tasks from the Asana dashboard.
+
 </td></tr><tr><td>
 
 [Box](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-box.md)
@@ -66,6 +129,14 @@ User login**Note:** The analysis period is 60 days.
 -   User login
 -   Any file activity, including 60 actions such as create, edit, delete, share, upload, or download
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Deletes the user account. All files are moved into a folder in the Box admin account that authenticated the integration.
+
 </td></tr><tr><td>
 
 [Calendly](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-calendly.md)
@@ -73,6 +144,14 @@ User login**Note:** The analysis period is 60 days.
 </td><td>
 
 Schedule an event
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the account from your organization.
 
 </td></tr><tr><td>
 
@@ -82,13 +161,45 @@ Schedule an event
 
 Create or update a space, page, blog post, comment, or attachment
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user from all associated Confluence groups. The user can no longer access the Confluence site, but the content created by the user remains accessible to other users.
+
 </td></tr><tr><td>
 
-Docusign
+[Docusign Account level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-account.md)
 
 </td><td>
 
 Subscription assigned date
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Deletes the account. Docusign admin can access user's files via the Docusign admin portal.
+
+</td></tr><tr><td>
+
+[Docusign Organization level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-docusign-org.md)
+
+</td><td>
+
+Subscription assigned date
+
+</td><td>
+
+No
+
+</td><td>
+
+NA
 
 </td></tr><tr><td>
 
@@ -99,6 +210,14 @@ Subscription assigned date
 -   User login
 -   Any file activity, including 60 actions such as create, edit, delete, share, upload, or download
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Deletes the account. All files are moved into a folder \(named after deleted user's email\) in the Dropbox admin account that authenticated the integration.
+
 </td></tr><tr><td>
 
 [Google Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-gsuite.md)
@@ -107,12 +226,20 @@ Subscription assigned date
 
 -   **Google Drive and Google Docs**
 
-Any file activity, such as create, edit, delete, upload, download, or sync
+Any file activity, such as create, edit, delete, upload, download, or synchronize
 
 -   **Gmail**
 
 Any email activity, such as read, create, edit, send, or delete
 
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Deletes the account. All files are moved from Google Drive into a folder \(named after deleted user's email\) in the Google Workspace admin account. All email messages are deleted when the account is reclaimed. To transfer email messages, use the Google data migration service before reclaiming the account.
 
 </td></tr><tr><td>
 
@@ -124,7 +251,7 @@ Any email activity, such as read, create, edit, send, or delete
 -   Create a Git branch or tag
 -   Delete a Git branch or tag
 -   Fork a repository
--   Create or update a Wiki page
+-   Create or update a wiki page
 -   Any issue comment activity, such as create, edit, or delete
 -   Any issue activity, such as open, close, reopen, assign, unassign, label, or unlabel
 -   Any repository collaborator activity, such as editing the collaborator access permissions
@@ -135,6 +262,21 @@ Any email activity, such as read, create, edit, send, or delete
 -   Any release activity, such as publish or edit
 -   Any sponsorship listing activity
 -   Star a repository
+
+</td><td>
+
+Yes
+
+</td><td>
+
+-   **GitHub Enterprise Server**
+
+Suspends the account. All issues, comments, repositories, gists, and other data created by the user are preserved.
+
+-   **GitHub Enterprise Cloud**
+
+Removes the account from all enterprise organizations. Restoring membership within three months of reclamation restores the user access to private forks of your organization.
+
 
 </td></tr><tr><td>
 
@@ -152,8 +294,16 @@ Host a webinar or meeting
 
 -   **GoToConnect**
 
-Make a call using a GoToConnect line
+Call using a GoToConnect line
 
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Reclaiming a product license from a GoTo user account removes the user's access to that product. Without a license, users can't sign in to the product. If all product licenses are reclaimed, the account is automatically suspended, preventing sign-in to any products.
 
 </td></tr><tr><td>
 
@@ -173,6 +323,14 @@ Make a call using a GoToConnect line
     -   Custom field changes
     -   Advanced Roadmaps changes
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user from all associated Jira groups. The user can no longer access the Jira site, but the content created by the user remains accessible to other users.
+
 </td></tr><tr><td>
 
 [Looker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-looker.md)
@@ -181,6 +339,14 @@ Make a call using a GoToConnect line
 
 User's last login
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user's access to Looker, preventing sign-in. Usage history and personal content are retained.
+
 </td></tr><tr><td>
 
 [Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/integrate-with-microsoft.md)
@@ -188,6 +354,14 @@ User's last login
 </td><td>
 
 Any user activity
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user's access to the application, associated plans, and services. If a user has access to an application through a group membership, reclaiming the subscription removes the user from the group. Also, it revokes access to the subscription and its associated plans.
 
 </td></tr><tr><td>
 
@@ -208,7 +382,7 @@ Create or update the following records in Dynamics 365:-   Common entities
     -   Appointment
     -   Fax
     -   Custom Activities
--   Sale related entities
+-   Sale-related entities
     -   Competitor
     -   Opportunity
     -   Invoice
@@ -225,6 +399,14 @@ Create or update the following records in Dynamics 365:-   Common entities
     -   Service entity activity
     -   Incident
 
+</td><td>
+
+No
+
+</td><td>
+
+NA
+
 </td></tr><tr><td>
 
 [Miro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-miro-enterprise.md)
@@ -232,6 +414,14 @@ Create or update the following records in Dynamics 365:-   Common entities
 </td><td>
 
 Access or update a board
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes user's access to Miro, preventing sign-in.
 
 </td></tr><tr><td>
 
@@ -243,6 +433,14 @@ Access or update a board
 -   Any item activity, such as add, edit, duplicate, and delete
 -   User's last login
 
+</td><td>
+
+No
+
+</td><td>
+
+NA
+
 </td></tr><tr><td>
 
 [PagerDuty](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-pagerduty.md)
@@ -250,6 +448,14 @@ Access or update a board
 </td><td>
 
 Be on an on-call schedule
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Deletes the account.
 
 </td></tr><tr><td>
 
@@ -260,6 +466,14 @@ Be on an on-call schedule
 -   User's last login
 -   Last activity time
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user's access to Rally, preventing sign-in.
+
 </td></tr><tr><td>
 
 [Roadmunk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-roadmunk.md)
@@ -268,6 +482,14 @@ Be on an on-call schedule
 
 -   User login
 -   Archive or restore roadmaps
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Deactivates the user.
 
 </td></tr><tr><td>
 
@@ -278,6 +500,14 @@ Be on an on-call schedule
 
 Last activity
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Deactivates the user.
+
 </td></tr><tr><td>
 
 [SAP Ariba](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-ariba.md)
@@ -285,6 +515,14 @@ Last activity
 </td><td>
 
 User's last login
+
+</td><td>
+
+No
+
+</td><td>
+
+NA
 
 </td></tr><tr><td>
 
@@ -294,6 +532,30 @@ User's last login
 
 User login
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Deactivates the account.
+
+</td></tr><tr><td>
+
+[SAP S/4HANA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-hana.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+No
+
+</td><td>
+
+NA
+
 </td></tr><tr><td>
 
 [Slack Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-slack.md)
@@ -301,6 +563,14 @@ User login
 </td><td>
 
 User login
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Deactivates the user. Messages and files are saved, but the user is removed from all channels and signed out of workspaces, and can't sign back in.
 
 </td></tr><tr><td>
 
@@ -310,13 +580,50 @@ User login
 
 Any user activity, such as create a job or a job ad.
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes access to the application. For example, you might want to reclaim the accounts of users who aren't actively using the application or who have quit the organization.
+
 </td></tr><tr><td>
 
 [Smartsheet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-smartsheet.md)
 
 </td><td>
 
-User's last activityFor the list of activities, see [Event Reporting Reference](https://smartsheet-platform.github.io/event-reporting-docs/).
+User loginIf event reporting add-on is available on the user's account, the integration tracks user's last activity. For the list of activities, see [Event Reporting Reference](https://smartsheet-platform.github.io/event-reporting-docs/).
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Based on the Smartsheet licensing model in use:-   Legacy model: Removes the user from your organization account.
+-   User-based subscription model \(USM\): Downgrades the user from a paid Member seat to a free seat type:
+    -   Users whose domain matches your organization's domain are downgraded to contributor.
+    -   Users whose domain doesn't match your organization's domain are downgraded to guest.
+
+Downgrading a user preserves their data and sheet access on the Smartsheet portal. If a downgraded user does not own any sheets and has no sheets shared with them, Smartsheet automatically deactivates that user.
+
+</td></tr><tr><td>
+
+[Single Sign-on \(SSO\) subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/saas-sso-integration.md)
+
+</td><td>
+
+Unused subscriptions or subscriptions with limited to no activity.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Depends on the specific application's integration and configuration.
 
 </td></tr><tr><td>
 
@@ -337,6 +644,14 @@ User's last activityFor the list of activities, see [Event Reporting Reference](
 -   Any survey information activity, such as create, delete, copy, update, and transfer
 -   Any collector information activity, such as create, delete, and update
 
+</td><td>
+
+No
+
+</td><td>
+
+NA
+
 </td></tr><tr><td>
 
 [Tableau Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-tableau-cloud.md)
@@ -345,6 +660,14 @@ User's last activityFor the list of activities, see [Event Reporting Reference](
 
 User login
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user from a site only if they don't own content. If they own content, their site role changes to Unlicensed and they are removed from groups, but not completely from the site.
+
 </td></tr><tr><td>
 
 [Trello](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-trello.md)
@@ -352,6 +675,14 @@ User login
 </td><td>
 
 User login**Note:** The analysis period is 60 days.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes user's access to enterprise content or features. You can log in but can't access previously accessed boards and cards.
 
 </td></tr><tr><td>
 
@@ -380,26 +711,17 @@ Host a meeting
     -   Upload a file
     -   Create or update team space memberships
 
-</td></tr><tr><td>
+</td><td>
 
-[Workfront](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-workfront.md)
+Yes
 
 </td><td>
 
--   Create or update projects
--   Create or update tasks
--   Create or update issues
--   Create or update portfolios
--   Create or update programs
--   Create or update reports
--   Create or update filters
--   Create or update documents
--   Create or update templates
--   Create or update expenses
+Removes the user's access to the specific product. The user can still access other Cisco Webex products and free licenses.
 
 </td></tr><tr><td>
 
-Workplace from Facebook
+[Workplace from Facebook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-workplace.md)
 
 </td><td>
 
@@ -410,6 +732,14 @@ Workplace from Facebook
 -   Comment on a Workplace Knowledge Library category.
 -   Create a public event in the Workplace community.
 
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes the user's access to Workplace. Account is deactivated, preventing login. Posts, comments, and messages remain available.
+
 </td></tr><tr><td>
 
 [Zendesk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zendesk.md)
@@ -417,6 +747,14 @@ Workplace from Facebook
 </td><td>
 
 User login
+
+</td><td>
+
+Yes
+
+</td><td>
+
+Removes user's access to the Zendesk application, preventing sign-in.
 
 </td></tr><tr><td>
 
@@ -427,11 +765,23 @@ User login
 -   Host a meeting
 -   Host a webinar
 
+</td><td>
+
+Yes
+
+</td><td>
+
+-   If the user has Zoom Pro account, they're downgraded to Zoom Basic.
+-   If the user has Zoom Basic account, their license is removed. All cloud-recorded meetings are deleted, but the locally saved recordings aren't affected.
+-   If the user has Zoom Webinar, the Zoom Webinar license is removed.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)
 
 **Related topics**  
 
 
-[Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-integration-profile.md)
+[Reclamation rules for Adobe integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules-adobe.md)
+
+[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-reclamation-rules.md)
 

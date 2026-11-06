@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace Dashboard
 classification: safe-workplace-dashboard
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Safe Workplace Dashboard, Safe Workplace, Health and Safety, Employee Service Management]
 ---

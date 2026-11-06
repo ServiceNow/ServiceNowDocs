@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage attachments for a legal request, Work on a legal request, Managing legal requests, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Manage attachments for a legal request, Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Document access in a legal request

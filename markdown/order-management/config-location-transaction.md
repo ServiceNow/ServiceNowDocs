@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/config-location-transaction.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configuring agent tools in Sales CRM, Configure, Sales Customer Relationship Management]
 ---
 
@@ -47,7 +47,6 @@ When the product offerings and services available to customers vary based on loc
     -   [Filter catalogs by location in a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-using-product-location.md).
     -   [Copy locations for quote line items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgt-copy-quote-item-location.md).
     -   [Filter product catalog by location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-filter-catalog-by-location.md).
-    -   [Update product locations at the order line level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-copy-order-line-location.md).
 
 ## Setting up location-based transactions
 
@@ -58,4 +57,16 @@ Admins and product catalog admins complete the following configuration tasks to 
 |[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-activate-location-filter.md)|Enable the **sn\_sales\_common.enable\_location\_based\_transactions** system property.|Admin|
 |[Create rule entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-rule-entity-filter.md)|Define the rule entity filters that make catalogs, categories, and product offerings either eligible or ineligible for display.|Product catalog admin|
 |[Define product eligibility rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-define-eligibility-rules.md)|Set the product eligibility rules by selecting the context variables, such as the service location context variables, that control the display of product catalog, category, or offerings.|Product catalog admin|
+
+-   **[Activate location-based transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-activate-location-filter.md)**  
+Turn on location-based transactions for opportunities, quotes, and orders by using the **sn\_sales\_common.enable\_location\_based\_transactions** system property.
+
+**Parent Topic:**[Configuring agent tools in Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-agent-tools.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)
 

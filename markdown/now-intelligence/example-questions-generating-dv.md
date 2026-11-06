@@ -1,20 +1,20 @@
 ---
 title: Guidelines and example questions
-description: This section shows guidelines and some typical questions that you could ask in the Now Assist panel to generate data visualizations.
+description: This section shows guidelines and some typical questions that you could ask in the ServiceNow Otto panel to generate data visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/example-questions-generating-dv.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generate visualizations, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Generate visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Guidelines and example questions
 
-This section shows guidelines and some typical questions that you could ask in the Now Assist panel to generate data visualizations.
+This section shows guidelines and some typical questions that you could ask in the ServiceNow Otto panel to generate data visualizations.
 
-Follow these guidelines when asking Now Assist to generate a data visualization:
+Follow these guidelines when asking ServiceNow Otto to generate a data visualization:
 
 -   **Be precise in your questions**
     -   Use the correct term for the subject of the data you want, such as 'incident' or 'change request.' If you know the name of the table, include that name in the question.
@@ -31,11 +31,11 @@ When you generate a data visualization, look it over carefully. Check whether it
 
 -   **Show me the number of open incidents by priority**
 
-    Gives you a chart of records on the Incident table grouped according to the Priority column value.
+    Gives you a visualization of records on the Incident table grouped according to the Priority column value.
 
 -   **Show task sla as pie**
 
-    Here you are asking for a pie chart of Task SLA records, but you have not specified the field by which to group the records. Now Assist gives you a list of fields to choose from, and then it shows you a pie chart based on your selection.
+    Here you are asking for a pie visualization of Task SLA records, but you have not specified the field by which to group the records. ServiceNow Otto gives you a list of fields to choose from, and then it shows you a pie visualization based on your selection.
 
 -   **Show unresolved problems where Assignment group is not empty**
 
@@ -43,12 +43,12 @@ When you generate a data visualization, look it over carefully. Check whether it
 
 -   **Show me the total number of tasks with high priority**
 
-    Gives you a single score chart with the number of unique records \(Count Distinct aggregation\) on the Task table with a priority of 2 \(High\).
+    Gives you a single score visualization with the number of unique records \(Count Distinct aggregation\) on the Task table with a priority of 2 \(High\).
 
 -   **Tasks created this month, grouped by priority**
 
-    Gives you a bar chart of records on the Task table that were created this month, grouped by the value of the Priority field.
+    Gives you a bar visualization of records on the Task table that were created this month, grouped by the value of the Priority field.
 
 
-**Parent Topic:**[Generate visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-dv-generation.md)
+**Parent Topic:**[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-dv-generation.md)
 

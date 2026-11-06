@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Generate AI-powered release notes, Digital Product Release AI release notes generator, AI-driven release notes generator, Now Assist skill, Now Assist for ITSM, Now Assist]
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
@@ -31,7 +31,7 @@ Generate structured release notes for a release using AI-driven summarization, r
 -   **Configuration:**
     -   The Generate Release Notes skill must be active.
 
-        For more information about activating a Now Assist skill for ITSM, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
+        For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 
     -   The release phase set as the release readiness must be in progress or completed.
 

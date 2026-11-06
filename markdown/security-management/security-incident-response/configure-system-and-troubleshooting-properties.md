@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -131,7 +131,7 @@ In addition to the directly mapped fields from the pulled alarm values, and the 
 Copy an existing profile and its associated settings instead of creating a new alarm profile. If you are creating multiple alarm profiles for different types of alarms and you want to reuse the settings of an existing profile, you can copy alarm profiles to save time. This process is optional.
 -   **[Disable automated alarm closure for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/disable-auto-alarm-logrhythm.md)**  
 Disable the automated alarm closure capability if you no longer want to view the security incident closure information on the LogRhythm Web Console. Once deactivated, the ServiceNow AI Platform no longer closes alarms within the LogRhythm Web Console. This process is optional.
--   **[View LogRhythm drilldown events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-events.md)**  
+-   **[View LogRhythm drill down events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-events.md)**  
 View the related raw or base events for a LogRhythm alarm in the security incident.
 
 **Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ovrview-logrhythm.md)

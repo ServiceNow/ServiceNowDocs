@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Entity scoping to plan a privacy program, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -61,7 +61,7 @@ You can also create your own queries. This procedure demonstrates using the defa
 
 ## Example
 
-\[Omitted image "entity-filters-io.jpg"\] Alt text: Predefined queries with associated information objects.
+\[Omitted image "entity-filters-io.png"\] Alt text: Predefined queries with associated information objects.
 
 **Parent Topic:**[Entity scoping to plan a privacy program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/entity-scoping-in-privacy-mgmt.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Create an NLU model from a CSV file
+title: \(Legacy\) Create an NLU model from a CSV file
 description: Upload a CSV or XLSX \(Excel Workbook\) file containing utterances and their intents to create a Natural Language Understanding \(NLU\) model. Use this method to quickly create models from your data or other exported models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-nlu-model-csv.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create an NLU model from a CSV file
+# \(Legacy\) Create an NLU model from a CSV file
 
 Upload a CSV or XLSX \(Excel Workbook\) file containing utterances and their intents to create a Natural Language Understanding \(NLU\) model. Use this method to quickly create models from your data or other exported models.
 
@@ -28,7 +28,16 @@ In this example procedure, you're building an NLU model to help Virtual Agent un
 
 In a CSV file, you've listed the intents and utterances in two columns.
 
-\[Omitted image "create-nlu-model-csv3.png"\] Alt text: Intent and utterance formatting in a CSV file.
+|Intent|Utterance|
+|------|---------|
+|schedule|when is my next meeting|
+|schedule|what time is my next meeting|
+|schedule|schedule a meeting for 11am|
+|schedule|cancel my 4:30 meeting|
+|holiday|when is the next holiday|
+|holiday|do we get Black Friday off|
+|timeoff|request friday off|
+|timeoff|how many PTO days do i have|
 
 Note the following for creating NLU models by CSV import:
 
@@ -60,9 +69,9 @@ Note the following for creating NLU models by CSV import:
 
     In this example scenario, you select `English` and `Virtual Agent`.
 
-8.  Click **Next**.
+8.  Select **Next**.
 
-9.  On the **Import CSV screen**, click **Select file**.
+9.  On the **Import CSV screen**, select **Select file**.
 
     \[Omitted image "create-nlu-model-csv2.png"\] Alt text: Import CSV screen for importing data from CSV.
 
@@ -75,9 +84,7 @@ Note the following for creating NLU models by CSV import:
 
 ## What to do next
 
-Add intents and training utterances to continue building the model. Add entities and vocabulary to help the model understand inputs from your users. For more information, see [Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md).
+Add intents and training utterances to continue building the model. Add entities and vocabulary to help the model understand inputs from your users. For more information, see [\(Legacy\) Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md).
 
-Add test utterances and intents to build the model's default test set. For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
-
-**Parent Topic:**[Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/creating-models.md)
+Add test utterances and intents to build the model's default test set. For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 

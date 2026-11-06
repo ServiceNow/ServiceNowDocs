@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [CI relationships in the CMDB, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CI relations formatter
@@ -51,7 +51,7 @@ Definition
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "FormatterAddCIRelationship.png"\] Alt text: Add CI relationship icon. Add CI relationship
+Add CI relationship
 
 </td><td>
 
@@ -59,7 +59,7 @@ Starts the relationship editor to manually create CI relationships. For more inf
 
 </td></tr><tr><td>
 
-\[Omitted image "FormatterShowBSMView.png"\] Alt text: Show dependency views icon. Show dependency views
+Show dependency views
 
 </td><td>
 
@@ -74,7 +74,7 @@ Search for CI
 Filters the CIs included in the display.
 
 </td></tr></tbody>
-</table>Click the Settings icon \(\[Omitted image "FormatterSettings.png"\] Alt text: Settings icon.\) to configure additional view settings that filter the data displayed. Settings are preserved through logging out and logging back in.
+</table>Select the Settings icon to configure additional view settings that filter the data displayed. Settings are preserved through logging out and logging back in.
 
 <table id="table_zsl_qw4_ms"><thead><tr><th>
 
@@ -135,16 +135,16 @@ Filter by tables specified in CMDB views, if any relationship filters exist.
 </td></tr></tbody>
 </table>The relations formatter uses the following icons to provide additional information about changes, problems, and outages related to CIs in the relationship:
 
-|Icon|Description|
-|----|-----------|
-|\[Omitted image "FormatterRelationshipClosedChange.png"\] Alt text: Recently closed changes icon.|Recently closed changes|
-|\[Omitted image "FormatterRelationshipClosedChange.png"\] Alt text: Planned changes icon.|Planned changes|
-|\[Omitted image "FormatterRelationshipOpenChange.png"\] Alt text: Currently open changes icon.|Currently open changes|
-|\[Omitted image "FormatterRelationshipClosedOutage.png"\] Alt text: Recently closed outages icon.|Recently closed outages|
-|\[Omitted image "FormatterRelationshipProblem.png"\] Alt text: Problems icon.|Problems|
-|\[Omitted image "FormatterRelationshipIncident.png"\] Alt text: Incidents icon.|Incidents|
-|\[Omitted image "FormatterRelationshipPlannedOutage.png"\] Alt text: Planned outages icon.|Planned outages|
-|\[Omitted image "FormatterRelationshipOpenOutage.png"\] Alt text: Currently open outages icon.|Currently open outages|
+|Icon|
+|----|
+|Recently closed changes|
+|Planned changes|
+|Currently open changes|
+|Recently closed outages|
+|Problems|
+|Incidents|
+|Planned outages|
+|Currently open outages|
 
 In large networks, a list of related CIs might be excessively long, which can slow performance when a CI form is rendered. You can configure these properties to control the amount of data that is displayed. To find a property, enter `sys_properties.list` in the left navigation filter and search for the property.
 
@@ -186,7 +186,7 @@ Specifies the maximum number of related CIs to display.
 -   Flat layout reverts to the tree layout view.
 
 </td></tr></tbody>
-</table>-   **[Domain separation and the relations formatter and the CI relationship editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)**  
+</table>-   **[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/domain-separation-relationship-formatter-editor.md)**  
 Domain separation is supported in the relations formatter and the CI relationship editor. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Create or edit a relationship filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateRelationshipFilter.md)**  
 Create a custom relationship filter to display CI relationships from selected tables in the CI relations formatter.

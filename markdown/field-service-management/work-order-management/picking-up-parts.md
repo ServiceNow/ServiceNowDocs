@@ -7,16 +7,14 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Picking up parts
 
 You can view a summarized list of transfer orders for all the assets that are waiting to be picked up physically.
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 
 ## Pick up parts for your part requests
 
@@ -30,7 +28,7 @@ Role required: wm\_agent
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **Inventory**.
 
@@ -59,7 +57,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **Parts to receive**.
 

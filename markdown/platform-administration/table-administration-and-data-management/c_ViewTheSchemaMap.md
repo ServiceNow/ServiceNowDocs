@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Viewing table references and extensions, Manage tables and indexes, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [View table refs and extensions, Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Analyzing table relationships

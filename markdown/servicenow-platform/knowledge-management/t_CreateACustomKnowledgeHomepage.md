@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,7 +36,7 @@ Role required: admin
 
 5.  In the **Arguments** field, append one or more of the following values to `$knowledge.do#/search?`.
 
-<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d450819e115">
+<table id="choicetable_c4x_2q1_5r"><tbody><tr><td id="d457870e115">
 
 **sysparm\_kb=&lt;knowledge base sys\_id&gt;**
 
@@ -46,7 +46,7 @@ Enter the sys\_id of a knowledge base to show knowledge articles from that knowl
 
  If the specified knowledge base does not exist, the default knowledge homepage appears when accessing the custom homepage module.
 
-</td></tr><tr><td id="d450819e130">
+</td></tr><tr><td id="d457870e130">
 
 **sysparm\_category=&lt;knowledge category sys\_id&gt;**
 
@@ -58,7 +58,7 @@ Enter the sys\_id of a knowledge category to show knowledge articles from that c
 
 **Note:** The category passed in this parameter must belong to the knowledge base passed in the **sysparm\_kb** parameter.
 
-</td></tr><tr><td id="d450819e150">
+</td></tr><tr><td id="d457870e150">
 
 **sysparm\_order=&lt;view\_count, last\_modified, or relevancy&gt;**
 
@@ -71,6 +71,8 @@ Enter the default sort order for articles to appear in.
 ## Example
 
 To create a homepage for a Facilities knowledge base with a **sys\_id** of d582764047022100158b949b6c9a7145 and sorting by last modified date, enter `$knowledge.do#/search?sysparm_kb=d582764047022100158b949b6c9a7145&sysparm_order=last_modified` in the **Arguments** field on the Module form.
+
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 

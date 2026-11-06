@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-subflow-for-bcm.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automate recovery tasks, Structured workflows for BCPs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -85,7 +85,7 @@ Subflow annotation
 
 </td><td>
 
-Annotation for the subflow. The help text under the subflow title in Workflow Studio helps the flow designers to understand the function of the subflow does when it is used in a flow.
+Annotation for the subflow. The help text under the subflow title in Workflow Studio helps the flow designers to understand what the subflow does when it is used in a flow.
 
 </td></tr><tr><td>
 

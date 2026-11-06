@@ -1,5 +1,5 @@
 ---
-title: CMDB 360/Multisource CMDB
+title: CMDB 360
 description: CMDB 360 retains complete history about discovery sources and proposed values, involved in updates of CI attributes. Use CMDB 360 data to track how the CMDB is populated by various discovery sources at the CI attribute level. Also, to revert CI updates from a specific discovery source, or to recompute attribute values using updated reconciliation rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB 360/Multisource CMDB
+# CMDB 360
 
 CMDB 360 retains complete history about discovery sources and proposed values, involved in updates of CI attributes. Use CMDB 360 data to track how the CMDB is populated by various discovery sources at the CI attribute level. Also, to revert CI updates from a specific discovery source, or to recompute attribute values using updated reconciliation rules.
 
-Starting with the Utah release, the Multisource CMDB feature is part of the CMDB 360 feature. CMDB 360 provides all the functionality of Multisource CMDB and additional capabilities such as an analytics dashboard, and new query functionality. You can access all of the CMDB 360 capabilities in the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md).
+CMDB 360 provides all the functionality of the legacy Multisource CMDB feature with additional capabilities such as an analytics dashboard, and new query functionality. You can access all of the CMDB 360 capabilities in the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)or in the [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md).
 
 ## How CMDB 360 works
 
@@ -42,7 +42,7 @@ Use CMDB 360 to:
 -   Modify reconciliation rules and then recompute CMDB data, reflecting the updated reconciliation rules.
 -   Revert CMDB data integration from a specific discovery source, if, for example, you realize that the discovery source is not reliable. Recompute CI attribute values, while excluding the discovery source that you want to ignore.
 -   Validate a new discovery source by comparing its data to data from other discovery sources, which are known to be valid.
--   Improve data management, data quality, and operational insights, by querying on CMDB 360 data. Use the CMDB 360 query builder in CMDB Workspace to create queries for CMDB 360 records, discovery sources, and CI records.
+-   Improve data management, data quality, and operational insights, by querying on CMDB 360 data. Use the CMDB 360 query builder in CMDB Workspaceor in Service Graph Workspace to create queries for CMDB 360 records, discovery sources, and CI records.
 
 ## Enable and configure CMDB 360
 
@@ -53,19 +53,17 @@ Use CMDB 360 to:
 By default, CMDB 360 tracks discovery source information for CIs from CMDB classes and doesn't collect data for non-CMDB tables. You can independently enable or disable tracking data for CMDB and for non-CMDB classes, using these system properties: ​
 
 -   [glide.identification\_engine.multisource\_cmdb\_ci\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) \(Enables capturing CMDB 360 data for CIs from CMDB classes\)​
--   [glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) \(Enables capturing CMDB 360 data for CIs from non-CMDB classes
+-   [glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md) \(Enables capturing CMDB 360 data for CIs from non-CMDB classes\)
 
 ## Report on CMDB 360 data
 
-Use the [CMDB 360 view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-cmdb360-view.md) to gain insights into the CMDB 360 data store. Build reports that, for example, do the followings:
+Use the or [CMDB 360 insights dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-insights-cmdb360.md) to gain insights into the CMDB 360 data store. Build reports that, for example, do the followings:
 
 -   Find CIs not reported by any discovery source.
 -   Find discovery sources populating data in your CMDB.
 -   Compare attribute values across discovery sources.
 -   Compare attribute values between CMDB and other discovery source.
 -   Limit reports for CMDB 360 data, to a specific application service, technical service, or a CMDB group.
-
-See [Sample CMDB 360/Multisource CMDB queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/multisource-data-report-builder.md) for more details.
 
 ## Visualize CMDB 360 data
 

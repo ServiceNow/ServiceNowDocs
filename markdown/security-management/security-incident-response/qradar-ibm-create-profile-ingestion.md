@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Map offense fields, Setup IBM QRadar profile, Set up instance, IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 ## Procedure
 
-1.  If the mapping form is not displayed, click **Mapping** on the progress bar.
+1.  If the mapping form is not displayed, select **Mapping** on the progress bar.
 
 2.  You can either pull the three most recent sample offenses or provide the unique offense IDs for the specific offenses that you want to use for your mapping experience.
 
@@ -32,16 +32,14 @@ Role required: sn\_si.admin
     -   Select offenses based on offenses ID: Specify the offense ID for the offenses to be retrieved. You can specify a maximum of 3 offense ids separated by commas.
     \[Omitted image "ibm-qradar-profile-mapping-default.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Default
 
-3.  Click **Fetch Sample Data** to pull the latest sample offense data from the IBM QRadar console for the selected offense rules.
+3.  Select **Fetch Sample Data** to pull the latest sample offense data from the IBM QRadar console for the selected offense rules.
 
     The offense fields and values results are displayed as individual tabs. An offense can be triggered by three types of rules:
 
     -   Event: In this rule, event logs are checked and if the specified criteria is met, an offense is created.
     -   Flow: Network data and traffic is checked and if certain conditions are met, an offense is created.
     -   Common: In this case, you can specify conditions for events or flows and either or both conditions are met, an offense is created.
-    The pull for sample offenses may take a few moments. A message indicating that the transaction is working is displayed at the top of the screen. Depending on the rule or rules that triggered the offense, along with the offense fields, the event or flow fields are populated as shown in the figure below:
-
-    \[Omitted image "ibm-qradar-profile-mapping-mixed.png"\] Alt text: IBM QRadar Mapping Sample offense and Events
+    The pull for sample offenses may take a few moments. A message indicating that the transaction is working is displayed at the top of the screen. Depending on the rule or rules that triggered the offense, along with the offense fields, the event or flow fields are populated.
 
     **Note:** The event or flow fields displayed belong to the first event or flow field that triggered the offense based on the corresponding event or flow rule.
 
@@ -81,13 +79,9 @@ Role required: sn\_si.admin
 
     \[Omitted image "ibm-qradar-profile-mapping-custom1.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Custom
 
-    Click **Fetch Sample Data**. The specified event or flow fields along with their values \(if available\) are appended to the Event or Flow section as shown below:
-
-    \[Omitted image "ibm-qradar-profile-mapping-custom2.png"\] Alt text: IBM QRadar: Create Profile: Mapping: Custom: Result
+    Select **Fetch Sample Data**.
 
     After you fetch the sample data, the corresponding values for these fields are populated on the left side of the form.
-
-    \[Omitted image "ibm-qradar-profile-ingest.png"\] Alt text: IBM QRadar: Create Profile: Populated Offenses
 
 
 ## What to do next

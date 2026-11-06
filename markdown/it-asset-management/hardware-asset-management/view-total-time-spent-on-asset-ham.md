@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage and monitor hardware asset performance, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage and monitor hardware asset performance, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View the total time worked on all tasks related to a hardware asset
@@ -17,8 +17,6 @@ breadcrumb: [Manage and monitor hardware asset performance, Using Hardware Asset
 Use the Asset task time summary report to see the details of the time spent on all tasks for an asset and its child assets, grouped by task category.
 
 ## Before you begin
-
-**Important:** The Asset task summary report is available with Hardware Asset Management version 13.0.0 and later.
 
 Role required: asset
 
@@ -45,7 +43,7 @@ The total time spent is grouped by the following task categories:
     -   All tasks in the Zero touch refresh flow
     -   Replacement task in the Return Merchandise Authorization \(RMA\) flow
     -   Replacement task in the Recall flow
--   Labor - Maintenance
+-   **Labor - Maintenance**
 -   **Labor - Repair**: Includes tasks in the following workflows:
     -   Repair order
     -   RMA order
@@ -74,11 +72,11 @@ The total time spent is grouped by the following task categories:
 
 3.  Select the asset record for which you want to view the details of the total time spent on the tasks.
 
-4.  On the contextual sidebar, select the Asset task time summary icon \[\[Omitted image "asset-task-summary-icon.png"\] Alt text: Asset task summary icon\].
+4.  On the contextual sidebar, select the Asset task time summary icon \[Omitted image "asset-task-summary-icon.png"\] Alt text:.
 
     **Total time spent by task category** report is displayed.
 
-    \[Omitted image "asset-task-summary-report.png"\] Alt text: Asset task time summary
+    \[Omitted image "asset-task-summary-ham.png"\] Alt text: Asset task time summary
 
     The Asset task time summary report includes the following details:
 
@@ -101,6 +99,4 @@ The total time spent is grouped by the following task categories:
     -   **Short description**: A brief description of the task.
     -   **Closed**: The date and time when the asset task was closed.
     -   **Task category**: Category to which the task belongs.
-
-**Parent Topic:**[Manage and monitor hardware asset performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-and-monitor-hardware-asset-performance.md)
 

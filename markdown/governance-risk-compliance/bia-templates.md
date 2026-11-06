@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bia-templates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Business impact analysis, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ The Business Continuity Management application provides pre-configured business 
 
 ## Advantages of using a BIA template
 
-The BIA templates store information such as the impact categories and dependency groups that a business process depends on. Using a BIA template offers the following advantages:
+The BIA templates store information such as the impact categories and dependency groups that a business process depends on. Using a BIA template offers these advantages:
 
 -   Simplifies the process of creating a business impact analysis.
 -   Saves time and resources by pre-populating the templates.
@@ -26,13 +26,13 @@ The BIA templates store information such as the impact categories and dependency
 
 ## BIA templates in BCM
 
-If you have the sn\_bcm.admin role, you can view the BIA templates that are installed with demo data when you install the application or configure a BIA template in the **BIA Templates** module. The following example shows the BIA templates that are installed with demo data in the Business Continuity Management application.
+If you have the sn\_bcm.admin role, you can view or configure BIA templates in the **BIA Templates** module. The example shows the BIA templates that are installed with demo data in the Business Continuity Management application.
 
 \[Omitted image "bia-templates.png"\] Alt text: BIA templates that are installed with demo data.
 
 ## BIA template configuration
 
-With the sn\_bcm.admin role, you can configure the following details in the BIA template:
+With the sn\_bcm.admin role, you can configure these details in the BIA template:
 
 -   **Name and Description**
 
@@ -55,7 +55,7 @@ With the sn\_bcm.admin role, you can configure the following details in the BIA 
     Include CIA \(Confidentiality, Integrity, Availability\) information in your business impact analysis if the primary element being analyzed has critical data.
 
 
-The following example shows the sample configuration of a BIA template in an instance.
+The example shows the sample configuration of a BIA template in an instance.
 
 \[Omitted image "bia-template.png"\] Alt text: Configuration of a BIA template.
 
@@ -65,11 +65,9 @@ For more information on how to configure a BIA template with the sn\_bcm.admin r
 
 ## Impact dependency groups
 
-The BIA template used for creating a business impact analysis has dependency groups associated to it. When conducting an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others, each in its own container depending on how many of these groups are associated to the template.
+The BIA template used for creating a business impact analysis has dependency groups associated with it. When conducting an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others. Each appears in its own container depending on how many groups are associated to the template.
 
 \[Omitted image "impact-dep-groups.png"\] Alt text: Dependency groups.
 
 Each of them is a dependency group and you can add or remove items that belong to each group within its container.
-
-**Parent Topic:**[Business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bia-uib.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add tasks to a quote
@@ -20,7 +20,7 @@ Role required: sales\_manager
 
 ## Procedure
 
-1.  In the CSM Configurable Workspace, navigate to the **List** view \[Omitted image "Lists.png"\] Alt text: and select **Quotes** &gt; **All**.
+1.  In the CRM Workspace, navigate to the **List** view \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you want to work with and select the **Tasks** tab.
 
@@ -42,4 +42,6 @@ Role required: sales\_manager
 
     The quote task is added to the main quote.
 
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

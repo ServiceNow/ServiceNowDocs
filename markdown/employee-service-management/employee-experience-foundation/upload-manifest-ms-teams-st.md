@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integration for Employee Experience, Setup for integrating self-configured apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Upload manifest file in Microsoft Teams
@@ -38,23 +38,15 @@ Role required: admin
 
     The **ServiceNow for Teams** appears in the **Apps** screen.
 
-    \[Omitted image "sn-ms-teams.png"\] Alt text: ServiceNow for Teams app.
-
 5.  Select the **ServiceNow for Teams** app.
 
 6.  Select **Add**.
-
-    \[Omitted image "sn-ms-teams-app-1.png"\] Alt text: ServiceNow for Teams app in Microsoft Teams.
 
     The ServiceNow for Teams app appears in Microsoft Teams.
 
     -   **Chat**: Begin your conversation with the Virtual Agent to get help.
 
-        \[Omitted image "chat-tab-ms-teams02.png"\] Alt text: Chat tab in Microsoft Teams.
-
     -   **Employee Center**: Select the **Employee Center** tab to view the organization updates and the status on your tasks and requests.
-
-        \[Omitted image "emp-center-ms-teams02.png"\] Alt text: Employee Center tab in Microsoft Teams.
 
     **Note:** If you don't want to create a manifest file, you can edit an existing manifest file as required. After updating the existing manifest file, you can download and upload the manifest file in Microsoft Teams to make the changes effective.
 

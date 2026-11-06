@@ -1,20 +1,20 @@
 ---
-title: Multi-factor authentication for Business Portal
-description: Enable multi-factor authentication for business portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
+title: Multi-factor authentication for Business and Consumer Portal
+description: Enable multi-factor authentication for Business and Consumer portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Business Portal, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Multi-factor authentication for Business Portal
+# Multi-factor authentication for Business and Consumer Portal
 
-Enable multi-factor authentication for business portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
+Enable multi-factor authentication for Business and Consumer portal users so that access to the self-service web portals is more secure from potential vulnerabilities.
 
 Multi-factor authentication, also known as two-step verification, is a security requirement that asserts a user enter more than one set of credentials. For more information, see [Multi-factor authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/mfa-landing.md).
 

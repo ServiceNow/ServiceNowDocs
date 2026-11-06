@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -36,7 +36,7 @@ The lane field is the field on the underlying table that defines the lanes. For 
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d121768e77">
+<table id="choicetable_uxv_q2g_pv"><tbody><tr><td id="d127560e77">
 
 **Edit the board query**
 
@@ -47,15 +47,15 @@ The lane field is the field on the underlying table that defines the lanes. For 
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d121768e107">
+</td></tr><tr><td id="d127560e107">
 
 **Change the lane field**
 
 </td><td>
 
-1.  Select the **Lane Field** picker and select a field or the **None** option.
+1.  Select the **Vertical Lane Field** picker and select a field or the **None** option.
 
-Guided boards have the **Lane Field** set to a field, such as **State**. Flexible boards have the **Lane Field** set to **None**. You can change the **Lane Field** value accordingly to change the board type.
+Guided boards have the **Vertical Lane Field** set to a field, such as **State**. Flexible boards have the **Vertical Lane Field** set to **None**. You can change the **Vertical Lane Field** value accordingly to change the board type.
 
 2.  In the confirmation dialog, select **OK**.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -88,7 +88,7 @@ Active Stories By State
 
 </td><td>
 
-Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -100,7 +100,7 @@ Time in State
 
 </td><td>
 
-Stacked bar chart\[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar chart
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -112,7 +112,7 @@ Average Cycle Time per State
 
 </td><td>
 
-Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -139,7 +139,7 @@ Velocity History
 
 Grouped bar chart
 
- \[Omitted image "column-icon.png"\] Alt text: Grouped bar chart
+ \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -161,7 +161,7 @@ Velocity by Type
 
 Stacked bar chart
 
- \[Omitted image "bar-stacked.svg"\] Alt text: Stacked bar chart
+ \[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -186,7 +186,7 @@ Sprint Variance
 
 Grouped bar chart
 
- \[Omitted image "column-icon.png"\] Alt text: Grouped bar chart
+ \[Omitted image "inline-data-vis-96px-bar-column.png"\] Alt text:
 
 </td><td>
 
@@ -216,7 +216,7 @@ Team Members
 
 </td><td>
 
-List
+List\[Omitted image "inline-data-vis-96px-list.png"\] Alt text:
 
 </td><td>
 
@@ -241,13 +241,13 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
 Identify the time taken for each story, which the team has worked on, to move from an in-progress state to completion.Each bubble on the graph represents a story. The height of the bubble from the x-axis shows how long that story took to move from an in-progress state to completion. The size of the story bubbles are relative to each other based on their story points.
 
- You can compare the cycle times of stories with different story points and analyze the trend in the time taken by the team to complete them. Identify the stories that took longer to complete and analyze the reasons so that you can chart an action plan to reduce the team's cycle time in the future.
+ You can compare the cycle times of stories with different story points and analyze the trend in the time taken by the team to complete them. Identify the stories that took longer to complete. Analyze the reasons so that you can plan how to reduce the team's cycle time.
 
  Pointing your cursor over a bubble displays the following details about that story:
 
@@ -260,7 +260,7 @@ Identify the time taken for each story, which the team has worked on, to move fr
 
  From the Story State section toward the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area for a clearer view.
+ If the bubbles appear crowded in an area of the chart, zoom in on that area for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
@@ -285,7 +285,7 @@ Team: Program Predictability
 
 </td><td>
 
-Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 

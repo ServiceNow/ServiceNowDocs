@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Using the Test Activity Sets tool for a lifecycle event activity set
@@ -38,12 +38,12 @@ The lifecycle event test tool provides different views of a lifecycle event. The
     A subject person is considered indeterminate when there is not enough information to determine if the subject person is part of the audience.
 
 
--   **[Preview and test a Lifecycle Events case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/test-lifecycle-event.md)**  
-Preview and test a Lifecycle Events case for different audience types. You can preview a Lifecycle Events case to validate the activities that trigger for a particular audience. You can then create a test Lifecycle Events case for different users and select which activities to include or exclude in your test.
+-   **[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/test-lifecycle-event.md)**  
+Preview and test a lifecycle event for different audience types. You can preview a lifecycle event to validate which activities will trigger or not for a particular audience. You can then create a test lifecycle event case for different users and select which activities to include or exclude in your test.
 
 **Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
 **Previous topic:**[Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
 
-**Next topic:**[Preview and test a Lifecycle Events case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/test-lifecycle-event.md)
+**Next topic:**[Preview and test a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/test-lifecycle-event.md)
 

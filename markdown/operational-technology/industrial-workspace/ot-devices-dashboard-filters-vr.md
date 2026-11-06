@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -34,7 +34,7 @@ The site filter lets you do the following actions:
 
 
 -   **[Use the site filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
-Use the site in the Operational Technology \(OT\) Visibility dashboard, the Operational Technology Vulnerability Response \(PA\) dashboard, and the OT Vulnerability Risk Rollup dashboard to filter the data by the selected site or sites.
+Filter dashboard data by site in the Operational Technology \(OT\) Visibility, Operational Technology Vulnerability Response \(PA\), and the Operational Technology \(OT\) Risk Rollup dashboards.
 
 **Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

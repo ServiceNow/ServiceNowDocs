@@ -7,7 +7,7 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,6 +26,8 @@ On-premise customers should ensure that the URLs are accessible from the Interne
 Several types of components are installed with the Twilio Direct driver for integration with Notify.
 -   **[Numbers and number groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/c_NumberGroups.md)**  
 Number groups allow you to group Notify phone numbers and share workflows across grouped numbers.
+-   **[Notify flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/notify-flow-designer.md)**  
+Use Notify flows to manage the calls and SMS messages.
 -   **[Notify workflow activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/c_NotifyActivities.md)**  
 Notify workflow activities manage calls and SMS messages in Notify.
 -   **[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/installed-with-notify2.md)**  

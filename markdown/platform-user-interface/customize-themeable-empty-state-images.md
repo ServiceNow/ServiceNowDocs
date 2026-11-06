@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/customize-themeable-empty-state-images.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with theme-able empty state images, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Theme-able empty state images, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Customize theme-able empty state images for your theme

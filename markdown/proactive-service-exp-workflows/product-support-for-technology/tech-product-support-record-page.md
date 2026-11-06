@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Technology Product Support record page
@@ -109,7 +109,7 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
+Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_Tags.md).
 
 </td></tr><tr><td>
 
@@ -434,10 +434,7 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the following:-   recipients \(email addresses in the To, Cc, and Bcc fields\)
--   sender
--   subject of the email
--   text to include in the message body
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the email subject, and text included in the message body.
 
 </td></tr></tbody>
 </table>## Recommended Actions search component
@@ -504,9 +501,9 @@ The system creates the case and displays the new case record.
 
 **Note:** This action is active by default for the Technology product support record page.
 
-## Using Now Assist for CSM to generate resolution notes for a case
+## Using Servicenow Otto for CSM to generate resolution notes for a case
 
-Agents can automatically generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record. This is done by using the resolution notes generation skill in the Now Assist for Customer Service Management \(CSM\) application.
+Agents can automatically generate the resolution notes for a case, propose the resolution to the customer, and add the resolution information to the case record.
 
 Selecting the **Propose Solution** UI action on a case record displays the Propose Solution modal. If the **Resolution notes** field on the case record is empty, the resolution notes that generation skill adds the information to this field in the modal. For more information, see [Generate the resolution notes for a case by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-generate-resolution.md).
 

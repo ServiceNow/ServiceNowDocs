@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Map offense fields, Setup IBM QRadar profile, Set up instance, IBM QRadar Offense Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -29,8 +29,6 @@ As a user with the sn\_si.admin role, use the fields from the Sample Offenses se
 
     **Note:** If you enter the event or flow field name manually in the Input Expression section, you must add a prefix as `${Event:eventfield}$` or `${Flow:flowfield}$` before the name of the field being mapped.
 
-    \[Omitted image "ibm-qradar-profile-mapping-sir2.png"\] Alt text: IBM QRadar: Create Profile: Mapping: SIR2
-
     To help you ensure that no offense, event, or flow fields are overlooked or duplicated in the mapping process, fields are color-coded. Color-coding of the offense fields helps you keep track of the offense values that you have already mapped as they become greyed out while all remaining unmapped fields appear in blue. This helps you better visualize which field values have been added to the security incident and if any remaining important offense information remains unmapped.
 
     Light blue fields on the left indicate that an offense field is not yet selected and mapped on the security incident. You may prefer to associate an incoming offense, event, or flow field with more than one field on a security incident. A gray field indicates that a field has been selected and mapped to a field on the security incident. This color-coding helps you track the mapping.
@@ -38,10 +36,6 @@ As a user with the sn\_si.admin role, use the fields from the Sample Offenses se
 3.  To add fields to the default fields displayed on the security incident on the right side of the form, follow these steps:
     1.  On the right of the form in the SIR Incident Field Mapping section, at the bottom of the grid, click the plus \(+\) icon. A new field is displayed.
     2.  In the Security Incident column, expand the choice list that is displayed, and select a field.
-
-        In the expanded choice list for the new field, some fields are shaded. In the following figure, Category has a gray background, because it has been mapped in the security incident. Similar to the color-coding for the offense fields on the left side of the form, this color-coding for the security incident fields on the right helps you track the already mapped SIR incident fields.
-
-        \[Omitted image "ibm-qradar-mapping-sir3.png"\] Alt text: IBM QRadar: Create Profile: Mapping: SIR3
 
         **Note:** As multiple observables can be displayed on the same security incident, the Observable field can be mapped multiple times with different values. Similarly, the Configuration Item and Work notes fields support multiple values. If you try to map two values to a field that cannot support multiple values, when you preview the incident, an error message is displayed that there is no value for the field. Similarly, if a field on a security incident has a choice list from which you can choose multiple options, and you try to map an option to that field that is not displayed on the choice list, the field is not populated on the security incident.
 
@@ -71,11 +65,11 @@ As a user with the sn\_si.admin role, use the fields from the Sample Offenses se
 
 In certain cases, offense field values in IBM QRadar may not translate directly to the fields on the SIR security incident. For these values, you can use a script editor to format field values on the security incident during the mapping step. Use the script editor if you want to format values that are similar, but not identical. For example, with the script editor, a category value of Malware Alert and Virus Infection may have different field values for the source category but both values can be translated to a common Malicious Code Activity in the Category field on the SIR security incident using the Format Field Translation functionality.
 
-To use the script editor, click the \[Omitted image "ibm-qradar-mapping-script-icon.png"\] Alt text: IBM QRadar: Create Profile: script icon. The script editor is displayed.
+To use the script editor, select the \[Omitted image "ibm-qradar-mapping-script-icon.png"\] Alt text: IBM QRadar: Create Profile: script icon. The script editor is displayed.
 
 \[Omitted image "ibm-qradar-mapping-script-editor.png"\] Alt text: IBM QRadar: Create Profile: Script Editor
 
-Enter any changes to the script and click **Update** to save the changes and return to the Mapping page.
+Enter any changes to the script and select **Update** to save the changes and return to the Mapping page.
 
 ## Incident generation conditions
 
@@ -126,5 +120,5 @@ Define additional offense aggregation criteria that aggregates an incoming offen
 
     You have successfully mapped values from an IBM QRadar offense to fields on a security incident. Also, you have configured additional conditions to limit the creation of security incidents with incident generation filtering criteria. You also appended offenses to existing security incidents when offense field values match the configured aggregation criteria.
 
-4.  Click **Continue** to continue with the profile configuration. The next step is to preview the fields you mapped on a SIR security incident
+4.  Select **Continue** to continue with the profile configuration. The next step is to preview the fields you mapped on a SIR security incident
 

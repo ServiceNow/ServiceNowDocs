@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employees view and complete journeys, Journey view for an employee, Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employees view and complete journeys, Journey view for an employee, Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # View and update your next tasks

@@ -7,7 +7,7 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request ITSM Roles — Incident Management, Incident Management plugins, Reference, Incident Management, IT Service Management]
 ---
@@ -38,7 +38,7 @@ Incident read\[sn\_incident\_read\]
 
 </td><td>
 
-Read access to the Incident Management application and related records.**Note:** An ESS user \(user with no role\) can view only those incidents that they create or someone else creates on their behalf. A user with the sn\_incident\_read role can view all incidents as well as the major incident workbench.
+Read access to the Incident Management application and related records.**Note:** An employee self-service \(ESS\) user \(user with no role\) can view only those incidents that they create or someone else creates on their behalf. A user with the sn\_incident\_read role can view all incidents and the Major Incident Workbench.
 
 </td><td>
 
@@ -67,7 +67,7 @@ Service desk agent\[sn\_service\_desk\_agent\]
 
 </td><td>
 
-Enables gathering, and verifying information, as well as delivering quick resolutions for tier 1 service desk agents. This user role is available when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
+Enables tier 1 service desk agents to gather and verify information and deliver quick resolutions. This user role is available when the ITSM Roles plugin \(com.snc.itsm.roles\) is installed.
 
 </td><td>
 
@@ -81,6 +81,44 @@ Enables gathering, and verifying information, as well as delivering quick resolu
 
 -   knowledge\_user
 -   now\_assist\_panel\_user
+
+</td></tr><tr><td>
+
+Incident Manager \[incident\_manager\]
+
+\(Existing role with added responsibilities\)
+
+</td><td>
+
+-   Manages incident properties and major incident trigger rules.
+-   Creates and edits Communication Plan Definitions.
+
+</td><td>
+
+-   ia\_admin
+-   sn\_comm\_management.comm\_plan\_admin
+-   itil
+
+**Note:** This role is only available for existing or upgrade instances.
+
+-   sn\_incident\_write
+
+**Note:** For zBoot instances, starting with the Brazil release, the itil role is replaced with sn\_incident\_write.
+
+
+</td></tr><tr><td>
+
+Incident Admin\[sn\_incident\_admin\]
+
+</td><td>
+
+Configures all Incident Management features, including incident management properties.
+
+</td><td>
+
+-   incident\_manager
+-   sn\_sow\_inc.sn\_incident\_sow\_admin
+-   sn\_bm\_client\_benchmark\_data\_viewer
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Request ITSM Roles — Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/req-itsm-roles-inci-mgmt.md)

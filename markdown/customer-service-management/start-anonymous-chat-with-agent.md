@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/start-anonymous-chat-with-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Chat anonymously with an agent from the Consumer Service Portal
@@ -20,14 +20,21 @@ Role required: none
 
 ## Procedure
 
-1.  Click the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Service Portal to start a conversation.
+1.  Select the Chat icon \( \[Omitted image "chat-icon.png"\] Alt text: Chat icon.\) in the Consumer Service Portal to start a conversation.
 
-2.  Fill in the information and click **Submit**.
+2.  Fill in the information and select **Submit**.
 
     A virtual agent or a customer service agent responds.
 
-3.  To talk to a person instead of a virtual agent, click \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
+3.  To talk to a person instead of a virtual agent, select \[Omitted image "contact-support-icon.png"\] Alt text: Connect Support icon. and then **Contact Support**.
 
-4.  When you are finished with the chat, click **End Conversation**.
+4.  When you are finished with the chat, select **End Conversation**.
 
+
+**Related topics**  
+
+
+[Chat with an agent from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/start-chat-agent-consumer-portal.md)
+
+[Pre-chat from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-pre-chat.md)
 

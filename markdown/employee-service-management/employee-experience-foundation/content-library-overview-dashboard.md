@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Content Library Overview dashboard
@@ -68,8 +68,6 @@ Content Analytics tracks the following user interactions \(depending on content 
 **Related topics**  
 
 
-[Approvals experience reference]()
-
 [Block content form]()
 
 [Campaign overview and Campaign analytics dashboards]()
@@ -92,15 +90,11 @@ Content Analytics tracks the following user interactions \(depending on content 
 
 [Employee Center Pro widgets]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -110,5 +104,7 @@ Content Analytics tracks the following user interactions \(depending on content 
 
 [Properties installed with Content Publishing]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

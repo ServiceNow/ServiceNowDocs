@@ -1,20 +1,20 @@
 ---
 title: Install Cloud Cost Management Infra Stack
-description: You can install the Cloud Cost Management Infra Stack application \(sn\_cld\_infra\_stack\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Cloud Cost Management Infra Stack application \(sn\_cld\_infra\_stack\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/install-ccm-infra.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Install Cloud Cost Management Infra Stack
 
-You can install the Cloud Cost Management Infra Stack application \(sn\_cld\_infra\_stack\) if you have the admin role.The application includes installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Cloud Cost Management Infra Stack application \(sn\_cld\_infra\_stack\) if you have the admin role. The application includes related ServiceNow® Store applications and plugins if they aren’t already installed.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ The tables, scheduled jobs, and system properties aren't installed with the Clou
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 
-    In the list next to the **Install** button, the versions that are available to you are displayed.
+    The list next to the **Install** button displays the versions that are available to you.
 
 3.  Select a version from the list and select **Install**.
 
@@ -48,14 +48,6 @@ The tables, scheduled jobs, and system properties aren't installed with the Clou
 
 4.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
 
-5.  If demo data is available and you want to install it, select the **Load demo data** check box.
-
-    Demo data comprises the sample records that describe application features for the common use cases. Load the demo data when you first install the application on a development or test instance.
-
-    **Important:**
-
-    -   If you don't load the demo data during installation, it's unavailable to load later.
-    -   If you install demo data, Cloud Cost Management features might not work properly.
-6.  Select **Install**.
+5.  Select **Install**.
 
 

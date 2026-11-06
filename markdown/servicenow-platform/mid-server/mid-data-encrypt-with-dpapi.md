@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [MID Server configuration file security, Securing and encrypting MID Server data, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -57,5 +57,5 @@ DPAPI encryption provides another level of security for data such as credentials
         The data is re-encrypted by the operating system, based the new MID Server user account.
 
 
-**Parent Topic:**[MID Server configuration file security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/mid-server-encrypter-api.md)
+**Parent Topic:**[MID Server configuration file security]()
 

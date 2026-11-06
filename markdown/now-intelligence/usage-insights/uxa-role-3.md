@@ -1,20 +1,20 @@
 ---
 title: Web analytics admin\[web\_analytics\_admin\]
-description: View the settings under User Experience Analytics in the application navigator and control the User Experience Analytics settings for each web application. Assigned users have admin role permissions to create funnel and cohort reports from within the User Experience Analytics application.
+description: View the settings under Usage Insights in the application navigator and control the Usage Insights settings for each web application. Assigned users have admin role permissions to create funnel and cohort reports from within the Usage Insights application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-role-3.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Roles installed with User Experience Analytics, User Experience Analytics reference, User Experience Analytics, Platform Analytics]
+breadcrumb: [Roles installed with Usage Insights, Usage Insights reference, Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Web analytics admin\[web\_analytics\_admin\]
 
-View the settings under User Experience Analytics in the application navigator and control the User Experience Analytics settings for each web application. Assigned users have admin role permissions to create funnel and cohort reports from within the User Experience Analytics application.
+View the settings under Usage Insights in the application navigator and control the Usage Insights settings for each web application. Assigned users have admin role permissions to create funnel and cohort reports from within the Usage Insights application.
 
 ## Contains Roles
 
@@ -35,5 +35,5 @@ None.
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-**Parent Topic:**[Roles installed with User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
+**Parent Topic:**[Roles installed with Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/components-installed-user-exp-analytics.md)
 

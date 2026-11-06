@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# FieldWriteOptions class - iOS
+# FieldWriteOptions class- iOS
 
 The FieldWriteOptions class provides functions that set the options for updating or creating fields in a record on a ServiceNow instance.
 
@@ -75,5 +75,5 @@ Flag that indicates whether to set field values using their display value rather
 Default: false
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

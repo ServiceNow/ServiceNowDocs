@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Manager Hub, Manager Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate a scheduled job
@@ -18,7 +18,7 @@ Activate and run the Add Manager Hub user role scheduled job to assign the Manag
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: sn\_mh.admin
 -   An administrator must review the criteria before assigning the Manager Hub user role to managers. Default criteria: The manager field of sys\_user table is considered for assigning the Manager Hub user role.
 
 ## Procedure

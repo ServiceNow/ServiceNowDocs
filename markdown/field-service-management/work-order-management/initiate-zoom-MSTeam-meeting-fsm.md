@@ -1,20 +1,20 @@
 ---
-title: Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application
-description: Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application to resolve customer issues by assisting them virtually while out of the office or away from your desktop computer.
+title: Start a Zoom or Microsoft Teams meeting from ServiceNow Agent
+description: Initiate a Zoom or Microsoft Teams meeting from the ServiceNow Agent application to resolve customer issues by assisting them virtually while out of the office or away from your desktop computer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Virtual Conferencing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Virtual Conferencing, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application
+# Start a Zoom or Microsoft Teams meeting from ServiceNow Agent
 
-Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application to resolve customer issues by assisting them virtually while out of the office or away from your desktop computer.
+Initiate a Zoom or Microsoft Teams meeting from the ServiceNow Agent application to resolve customer issues by assisting them virtually while out of the office or away from your desktop computer.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: wm\_agent
 
 ## About this task
 
-You can host a Zoom or Microsoft Teams meeting to do video conferencing and screen sharing with your customers from the Now Agent mobile application. You can invite multiple participants to the meeting when initiating a conference call or add a new participant after the call is initiated.
+You can host a Zoom or Microsoft Teams meeting to do video conferencing and screen sharing with your customers from the ServiceNow Agent application. You can invite multiple participants to the meeting when initiating a conference call or add a new participant after the call is initiated.
 
 On initiating the meeting, participants receive an email and SMS notification that includes work order task number, a short description of the issue, and the meeting link.
 
@@ -30,7 +30,7 @@ On initiating the meeting, participants receive an email and SMS notification th
 
 ## Procedure
 
-1.  Navigate to the Field Service mobile application.
+1.  Navigate to the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -105,6 +105,4 @@ For Zoom calls, you can add a customer mentioned in the work order task.You must
 
     The recording of the meeting is added to the Conference form page in the Now Agent mobile application.
 
-
-**Parent Topic:**[Virtual Conferencing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/using-vci-fsm.md)
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -33,6 +33,7 @@ CWM integrates with the broader ServiceNow AI Platform, connecting to other Serv
 |Knowledge worker/Team member|Creates and manages tasks on Boards, collaborates on Docs, and tracks personal work in My Space. Uses [ServiceNow Otto for Collaborative Work Management \(CWM\) \(CWM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-collaborative-work-management-cwm/now-assist-for-cwm-landing.md) to reduce manual overhead in task creation and formula building.|
 |Project manager|Organizes work into Spaces and Boards, tracks progress across teams, and connects work to business goals and the Strategic Planning workspace.|
 |Agile practitioner|Plans and runs sprints, manages backlogs, generates scrum tasks from user stories, and tracks cross-team dependencies.|
+|SPM team member|Views and updates project and demand tasks from Project Workspace and Next Experience for Demand Management directly in CWM using the team member read or team member read-write role.|
 
 ## Collaborative Work Management benefits
 
@@ -64,10 +65,10 @@ All users
 
 </td></tr><tr><td>
 
-Get up and running without admin involvement by configuring your own workflow and organizing work the way your team needs it.
+Get started without admin involvement by configuring your own workflow and organizing work the way your team needs it.
 
 -   Create custom fields for task records.
--   Switch between List, Gantt, and Kanban views.
+-   Switch between Dashboard, List, Gantt, and Kanban views.
 -   Create custom work item types.
 -   Add a list of additional assignees to a task.
 
@@ -81,10 +82,35 @@ All users
 
 </td></tr><tr><td>
 
+Bring in tasks, Stories, or Epics from existing files such as Excel, Word, or PDF without recreating them row by row. ServiceNow Otto proposes the column mapping, you adjust it, preview the result, and confirm the import.
+
+</td><td>
+
+[Import tasks into Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/importing-tasks-cwm-boards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Create CWM tasks and stories from open prompts or documents with ServiceNow Otto. Review the generated tasks and add them to your Board.
+
+</td><td>
+
+[Create CWM tasks or stories from files or open prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/generate-tasks-cwm-boards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
 Create and collaborate on meeting notes, technical specifications, or feature requirements directly within your workspace, keeping documentation connected to the work it supports.
 
  -   Create rich text docs and add action items to users from within and outside the team.
--   Collaborate on docs in real time with multiple concurrent editors.
+-   Collaborate on docs in real-time with multiple concurrent editors.
+-   Use AI to summarize page content for quick insights. You can also generate and refine content using custom prompts, or generate tasks directly from the information in your Doc and add them to Boards.
 
 </td><td>
 
@@ -120,7 +146,9 @@ Agile practitioner
 
 </td></tr><tr><td>
 
-Break user stories into granular scrum tasks to improve sprint execution and estimation. Assign tasks to team members and track daily progress through a sprint. Generate an initial set of scrum tasks automatically using Now Assist, or add them manually from the story form.
+Break user stories into granular scrum tasks to improve sprint execution and estimation. Assign tasks to team members and track daily progress through a sprint.
+
+ Using Now Assist to accelerate sprint preparation, you can generate acceptance criteria for your stories from the story description. Then, generate an initial set of scrum tasks based on that description and criteria. Review and refine both before adding them to your sprint, or create scrum tasks manually from the story form.
 
 </td><td>
 
@@ -144,7 +172,31 @@ Agile practitioner
 
 </td></tr><tr><td>
 
-Switch between List, Gantt, and Kanban views to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
+Visualize task and sprint progress at a glance with configurable widgets, such as charts, dials, and score cards, on a dedicated Dashboard view. Choose from a set of predefined widgets or build your own custom widgets bound to any column on the Board.
+
+</td><td>
+
+[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/cwm-board-dashboards.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Save and reuse filtered views of records from any table. Default lists such as My Epics, Stories, and Active Sprints are also available for quick access.
+
+</td><td>
+
+[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/cwm-lists.md)
+
+</td><td>
+
+All users
+
+</td></tr><tr><td>
+
+Switch between Dashboard, List, Gantt, and Kanban view modes to visualize work in the format that fits your team's workflow. Save personalized views or create shared views to give the whole team a consistent starting point.
 
 </td><td>
 
@@ -153,6 +205,20 @@ Switch between List, Gantt, and Kanban views to visualize work in the format tha
 </td><td>
 
 All users
+
+</td></tr><tr><td>
+
+Add calculated columns to the List view that automatically compute values from your task data, such as totaling story points, calculating date differences, or deriving custom metrics. Build formulas manually using the Formula Builder panel.
+
+ You can also describe your calculation in plain language and let AI generate the formula for you.
+
+</td><td>
+
+[Formula columns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/add-formula-column-cwm-boards.md)
+
+</td><td>
+
+Knowledge worker/team member, Project manager
 
 </td></tr><tr><td>
 
@@ -176,7 +242,19 @@ Bring work from across your ServiceNow AI Platform applications onto a single CW
 
 </td><td>
 
-Project manager
+Project manager, SPM team member
+
+</td></tr><tr><td>
+
+Access and update project and demand tasks directly in CWM without requiring access to Project Workspace or Next Experience for Demand Management. View assigned work in **My Work** or pull tasks into a Board using **Connected Work**.
+
+</td><td>
+
+[Team member roles for project work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/cwm-team-member-roles.md)
+
+</td><td>
+
+SPM team member
 
 </td></tr><tr><td>
 
@@ -227,7 +305,9 @@ Share Doc content with stakeholders who don't have access to CWM by exporting pa
 Knowledge worker
 
 </td></tr></tbody>
-</table>## What to explore next
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
+## What to explore next
 
 To learn more about configuring and using Collaborative Work Management, see:
 

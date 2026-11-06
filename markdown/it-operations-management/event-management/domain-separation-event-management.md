@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Domain separation and Event Management
@@ -39,11 +39,6 @@ A domain column is present for Event Management tables that are provided in the 
 If the domain column does not display in the list, click \[Omitted image "update-personalized-list.png"\] Alt text: Update Personalized List \(Update Personalized List\) and add the required column. In addition, you can add a column that displays the domain path.
 
 For information about domain separation limitations in Event Management, see [Configure Event Management domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigureDomainSeparation.md).
-
--   **[Configure Event Management domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigureDomainSeparation.md)**  
-You can configure Event Management for **domain separation** to create logically defined domains that limit unauthorized access to data. When domains are separated in Event Management, users can only see and manage alerts and events in their own \(tenant\) domain.
-
-**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
 
 **Related topics**  
 

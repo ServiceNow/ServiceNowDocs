@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up labor unions, Labor unions, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a labor union
@@ -18,7 +18,7 @@ Create a union with details that identify it.
 
 ## Before you begin
 
-Role required: admin
+Role required: HR admin \[sn\_hr\_core.admin\]
 
 **Note:** You must create a union before you can create local chapters and union contacts.
 
@@ -40,8 +40,11 @@ Role required: admin
 
     If you select **Save**, the **Local Union Chapters** and **Labor Union Contacts** tabs appear.
 
-    **Note:** For more information on **Local Union Chapters**, see [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md). For more information on **Labor Union Contacts**, see [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-contacts.md).
 
+## What to do next
 
-**Parent Topic:**[Setting up labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
+-   [Create a local chapter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-local-chapter.md)
+-   [Create union contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-union-contacts.md)
+
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)
 

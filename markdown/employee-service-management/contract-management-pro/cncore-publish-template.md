@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Publish a contract template
@@ -38,6 +38,8 @@ Role required: sn\_cm\_core.contract\_config
 
 4.  On finalizing the content of the contract document, select **Publish**.
 
+    \[Omitted image "cmpro-ct-publish.png"\] Alt text: Publish contract template
+
 
 ## Result
 
@@ -45,7 +47,7 @@ The contract template is published.
 
 **Note:** If the contract type associated with the contract template is deactivated when the contract template is in the Draft or Editing state, an error is displayed when you try to publish the template.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 
@@ -53,8 +55,6 @@ The contract template is published.
 [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts]()
 
 [Create contract template by manually adding content controls]()
-
-[Enable keyword search for contract templates]()
 
 [Configure dynamic clauses for contract templates]()
 

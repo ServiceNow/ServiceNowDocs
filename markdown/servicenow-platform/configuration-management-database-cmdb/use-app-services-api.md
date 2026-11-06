@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use application services APIs
@@ -34,7 +34,7 @@ Before creating an application service, ensure that:
 
 The Mapped Application Service \[cmdb\_ci\_service\_discovered\] table contains every service instance including services you create using APIs.
 
-You can also manually create an service instance using the user interface as described in [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+You can also manually create an service instance using the user interface as described in [Create a Service instance \(application service\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 ## Retrieve content from an application service
 

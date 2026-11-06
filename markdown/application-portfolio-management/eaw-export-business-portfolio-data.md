@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-export-business-portfolio-data.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage a business portfolio, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Export business portfolio data to Excel or CSV
@@ -38,4 +38,6 @@ Role required: sn\_apm.apm\_user
 A file with the selected format is downloaded and saved in your local system.
 
 **Note:** You can also include the business applications data associated with the business capabilities, in the downloaded file. You must select the Expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon.\) next to a business capability to ensure that the associated business applications for that capability are displayed onscreen and then follow the export process. Doing this ensures that the business application data is also included in the downloaded file.
+
+**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
 

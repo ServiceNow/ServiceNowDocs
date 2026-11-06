@@ -7,9 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
+keywords: [features list, feature settings, feature descriptions, feature state, activate features, deactivate features, Health Log Analytics Administration, features form, system operations, feature configuration]
+breadcrumb: [Viewing system features and health alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # View the settings of Health Log Analytics system features
@@ -22,9 +23,9 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Health Predictive AI Ops Administration** &gt; **Features**.
+1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Health Log Analytics Administration** &gt; **Features**.
 
-    A full definition of the feature appears in the **Description** field.
+    A full definition of each feature appears in its **Description** field.
 
     By default, the table shows the system features that administrators modify most commonly. To view the complete list of features, use the filtering options.
 

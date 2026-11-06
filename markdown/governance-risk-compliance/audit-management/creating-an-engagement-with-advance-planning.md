@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Audit plan overview, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit plan overview, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an engagement with advanced planning

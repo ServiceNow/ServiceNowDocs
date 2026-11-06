@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/actionable-push-notification-2.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure actionable push notifications, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configure actionable push notifications, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Add a push action category
@@ -20,7 +20,9 @@ Role required: admin
 
 ## Procedure
 
-1.  In the **Push Notification** record, select a category in the **Category** field. There are 12 base system categories to choose from on your instance.
+1.  In the **Push Notification** record, select a category in the **Category** field.
+
+    There are 12 base system categories to choose from on your instance.
 
     |Action|Description|
     |------|-----------|

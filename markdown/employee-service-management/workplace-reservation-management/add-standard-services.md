@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -36,7 +36,7 @@ A Standard service is a basic provision available with a reservable workplace it
     |-----|-----------|
     |Name|Enter the name of the standard service|
     |Active|Select active to make it available in reservations.|
-    |**Service Configuration**|
+    |**Service Configuration** section|Specify the field details in the Service Configuration section.|
     |Short description|Enter a short description about the service.|
     |Font awesome icon|A font awesome icon in the 'fa-\(name\)' format. Currently, the **Font Awesome** library of version 4.7 is supported.|
 
@@ -49,7 +49,7 @@ The standard service is added to the application.
 
 ## What to do next
 
-Add the standard service to a workplace room or space. For more information, see[Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md).
+Add the standard service to a workplace room or space. For more information, see [Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md).
 
 -   **[Add a standard service to workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/add-std-service-to-workplaceitem.md)**  
 Add a standard service to a workplace space or room based on where it is made available.

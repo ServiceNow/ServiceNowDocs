@@ -7,26 +7,33 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Automated Testing
 
 Prescriptive guidance on enabling and utilizing Automated Test Framework
 
-## Overview
+## Accelerator Overview
 
 Jumpstart Your Automated Testing provides Impact customers with an introduction to Automated Test Framework \(ATF\) and how it can be leveraged to accelerate upgrades and increase quality. It includes an applied demonstration of leading practices around getting started with ATF as well as its features and benefits via a temporary cloned instance.
 
-Offered pursuant to the applicable Impact Accelerator Description available at [Impact Upgrade Schedules.](https://www.servicenow.com/legal/servicenow-impact.html)
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 
 -   **Automated Testing Framework Setup**
-    -   Provisioning of a temporary instance
-    -   Enabling and configuring of Automated Test Framework and related tools
+
+    The Technical Consultant:
+
+    -   Provisions of a temporary instance
+    -   Enables and configures Automated Test Framework and related tools
 -   **Enabling and configuring of Automated Test Framework and related tools**
 
     Review of

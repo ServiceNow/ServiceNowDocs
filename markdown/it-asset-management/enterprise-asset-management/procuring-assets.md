@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management, Asset Management]
 ---
 
 # Procuring enterprise assets
@@ -26,9 +26,4 @@ With the Procurement application, you can
 -   and receive assets.
 
 See [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_Procurement.md) for more information on procuring assets.
-
--   **[Source requests from Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/source-requests-from-workspace.md)**  
-You can create a request in the Service Catalog application and source that request from the Enterprise Asset Workspace.
-
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/it-asset-management.md)
 

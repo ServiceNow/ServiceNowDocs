@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Identification and Reconciliation \(IRE\)
@@ -61,24 +61,22 @@ The Identification and Reconciliation module provides a centralized framework fo
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 
--   **[Exploring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-ire.md)**  
+-   **[Exploring CMDB Identification and Reconciliation \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-ire.md)**  
 The Identification and Reconciliation \(IRE\) module provides a centralized framework for identifying and reconciling data from different data sources. It helps maintain the integrity of the CMDB and some non-CMDB tables when multiple data sources are used to create and update CI records.
 -   **[Configuring CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-ire.md)**  
 Configure the necessary rules for CMDB Identification and Reconciliation \(IRE\) to function effectively.
--   **[Applying CI Identification and Reconciliation to Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.md)**  
-You can apply CMDB Identification and Reconciliation processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
+-   **[Applying IRE to Import Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.md)**  
+You can apply CMDB Identification and Reconciliation Engine \(IRE\) processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
 -   **[Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md)**  
 When IRE identification process detects duplicate CIs, it groups each set of duplicate CIs into a de-duplication task for review and remediation. A large number of duplicate CIs might be due to weak identification rules. You can configure the identification engine to reconcile duplicate CIs.
--   **[Generating and simulating payload execution using identification simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/identification-simulation.md)**  
-Identification simulation is a central location for automatically constructing a payload that is guaranteed to be complete and valid. You can then simulate the processing of the payload by the identification and reconciliation engine \(IRE\) and examine the results before actually submitting it for execution by IRE.
+-   **[Using identification simulation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/identification-simulation.md)**  
+Identification simulation is a central location for automatically constructing a payload that is guaranteed to be complete and valid. You can then simulate the processing of the payload by the Identification and Reconciliation Engine \(IRE\) and examine the results before actually submitting it for execution by IRE.
 -   **[View a reclassification task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewReclassificationTask.md)**  
 Reclassification tasks are created for CIs that couldn't be automatically reclassified during the identification process. Review these tasks to locate the CIs and decide if to reclassify them.
 -   **[IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md)**  
 Apply Identification and Reconciliation Engine \(IRE\) processes to supported non-CMDB tables to ensure data integrity and health of those tables.
--   **[CMDB Identification and Reconciliation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire-reference.md)**  
+-   **[CMDB IRE reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire-reference.md)**  
 Reference topics provide property settings, domain separation, and other reference content for the CMDB Identification and Reconciliation Engine \(IRE\).
 
-**Parent Topic:**[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
-
-**Parent Topic:**[Exploring CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

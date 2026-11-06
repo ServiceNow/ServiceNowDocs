@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Discovery monitoring and issue resolution, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Home page
@@ -18,7 +18,7 @@ The Discovery Home page provides a summary of discoveries that were triggered by
 
 To open the Discovery Home page, navigate to **Discovery** &gt; **Home**. The Home page shows the Discovery totals for each of the following categories. Select a tile to view details for that category.
 
-**Note:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-home.md).
+**Tip:** Discovery Admin Workspace provides an updated experience for monitoring discoveries, managing schedules, and resolving errors. For more information, see [Discovery Admin Workspace Home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-home.md).
 
 \[Omitted image "DiscoHomeSummary.png"\] Alt text: Discovery Home page
 
@@ -38,7 +38,7 @@ Schedules
 
 The number of Discovery schedules that are configured to find cloud resources and virtual machines \(IP addresses\).
 
- Select **View Schedules** to open the configuration schedule view, where you can see specific details about each CI schedule separately. View the results of your cloud or IP address schedules and create schedules.
+ Select **View Active Schedules** to open the configuration item \(CI\) schedule view, where you can see specific details about each CI schedule separately. View the results of your cloud or IP address schedules and create schedules.
 
 </td></tr><tr><td id="entry_item2">
 
@@ -166,7 +166,7 @@ View and resolve Discovery errors from the ServiceNow Home page. Get suggestions
 
 Role required: discovery\_admin
 
-**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-diagnostics.md).
+**Note:** You can also investigate and resolve Discovery errors in Discovery Admin Workspace. For more information, see [Discovery Admin Workspace Error Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-error-details.md).
 
 ### Procedure
 
@@ -240,7 +240,7 @@ Role required: discovery\_admin
 
 [Review the logs for horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryLog.md)
 
-[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
+[ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
-[Create discovery schedules for cloud resources]()
+[Create Discovery schedules for cloud resources]()
 

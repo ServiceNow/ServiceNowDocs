@@ -1,22 +1,22 @@
 ---
 title: Configuring planning dependency updates
-description: The BCM administrators configure the Planning dependency update configuration record so that an auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
+description: The BCM administrators configure the Planning dependency update configuration record. An auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/confi-planning-dep-updates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configuring planning dependency updates
 
-The BCM administrators configure the Planning dependency update configuration record so that an auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
+The BCM administrators configure the Planning dependency update configuration record. An auto-update of the related assets in the plans can be scheduled based on the source data and relationships in the CMDB and BIA.
 
 ## Planning dependency update configuration record
 
-The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record as shown in the following example.
+The BCM administrators configure details of the plan record, its target records, sources, and notification preferences in the Planning dependency update configuration record. The following example shows the configuration.
 
 \[Omitted image "plan-dep-update-config.png"\] Alt text: Updating the plan dependencies.
 
@@ -26,15 +26,15 @@ The BCM administrators configure the sources for fetching the latest dependencie
 
 **Note:** In the plans, the dependencies are fetched for all primary scope assets.
 
+Assets that don't match an active element definition, including its filter, aren't added to the plan. Existing plan assets that no longer match are flagged as invalid when you update dependencies, and related assets are removed from the plan.
+
 ## Auto-update the dependencies
 
-The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record to schedule an auto-update of the related assets in the plans.
+The BCM administrators can select the **Auto-update dependencies** option in the Target tab of the Planning dependency update configuration record. This option schedules an auto-update of the related assets in the plans.
 
 ## Set the notification preferences
 
-The BCM administrators select the **Send notification** option to set the notification preferences for the plan owners. For every planning dependency update, an automated email is sent to the plan owners about the planning dependency updates and links to the updated snapshot records as shown in the example.
-
-\[Omitted image "bia-preview-email.png"\] Alt text: Email notification.
+The BCM administrators select the **Send notification** option to set the notification preferences for the plan owners. For every planning dependency update, an automated email is sent to the plan owners about the planning dependency updates and links to the updated snapshot records.
 
 The plan owner and BCM lead reviews the dependency updates from the snapshot record. The delta snapshot record displays the updated dependencies such as Added, Updated, and Deleted assets for the selected plan record.
 

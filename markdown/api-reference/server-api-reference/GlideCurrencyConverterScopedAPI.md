@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -18,12 +18,12 @@ The GlideCurrencyConverter API provides methods to convert one currency value to
 
 You can instantiate the GlideCurrencyConverter object and define the source and destination currencies during instantiation using GlideCurrencyConverter\(from, to\). You can also instantiate the object without these values and define them later using the setFromCurrency\(\) and setToCurrency\(\) methods. These values and the amount to convert must be set before calling the convert\(\) method to perform the currency conversion. To set the amount to convert, use the setAmount\(\) method.
 
-The GlideCurrencyConverter\(\) API also provides optional methods that enable you to:
+The GlideCurrencyConverter API also provides optional methods that enable you to:
 
 -   Set the date and time for which to perform the conversion, setDateTime\(\). By setting the date and time, the rate that is used in the conversion calculation is that for the specified date and time, instead of the default of the current date and time.
 -   Set the rate table to use in the conversion, setRateTable\(\). By default the conversion uses the fx\_system\_rate table however, you can define custom rate tables for your instance. For additional information on creating rate tables, see [Add conversion rates using a custom rate table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/custom-rate-table.md).
 
-This class runs is in the `sn_currency` namespace.
+This API is provided within the `sn_currency` namespace.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
@@ -76,32 +76,70 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Object
+[GlideCurrencyExchangeValue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyExchangeValueScopedAPI.md) object
 
 </td><td>
 
-If the conversion is successful, returns CurrencyExchangeValue object. If unsuccessful, returns "null".```
-CurrencyExchangeValue {
-Rate: Number,
-OriginalAmount: Number,
-Amount: Number,
-fromCurrency: String,
-toCurrency: String,
-rateSysId: String
+GlideCurrencyExchangeValue object containing details about the conversion.```
+CurrencyExchangeValue{
+  fAmount: Number,
+  fCurrency: "String",
+  fOriginalAmount: Number,
+  fOriginalCurrency: "String",
+  fRate: Number,
+  fRateSysId: "String"
 }
 ```
 
- **Rate**: Number. Exchange rate used in the conversion.
+</td></tr><tr><td>
 
- **OriginalAmount**: Number. Source currency amount.
+CurrencyExchangeValue.fAmount
 
- **Amount**: Number. Converted amount \(**OriginalAmount** \* **Rate**\).
+</td><td>
 
- **fromCurrency**: String. Three-letter ISO 3166 country code of the source currency.
+Converted amount \(**fOriginalAmount** \* **fRate**\).Data type: Number
 
- **toCurrency**: String. Three-letter ISO 3166 country code of the converted currency.
+</td></tr><tr><td>
 
- **rateSysId**: String. Sys\_id of the rate table record used to calculate the conversion.
+CurrencyExchangeValue.fCurrency
+
+</td><td>
+
+ISO 4217 alphabetic currency code for the converted currency.Data type: String
+
+</td></tr><tr><td>
+
+CurrencyExchangeValue.fOriginalAmount
+
+</td><td>
+
+Original currency amount.Data type: Number
+
+</td></tr><tr><td>
+
+CurrencyExchangeValue.fOriginalCurrency
+
+</td><td>
+
+ISO 4217 alphabetic currency code for the original currency.Data type: String
+
+</td></tr><tr><td>
+
+CurrencyExchangeValue.fRate
+
+</td><td>
+
+Exchange rate used in the conversion.Data type: Number
+
+</td></tr><tr><td>
+
+CurrencyExchangeValue.fRateSysId
+
+</td><td>
+
+Sys\_id of the exchange rate used in the conversion.Table: Currency Conversion Rate \[fx\_conversion\_rate\]
+
+Data type: String
 
 </td></tr></tbody>
 </table>This example shows how to call the method.
@@ -115,7 +153,7 @@ gs.info(conv.convert());
 Output:
 
 ```
-CurrencyExchangeValue{Rate = 1.0777, OriginalAmount = 100, Amount = 107.7700, fromCurrency = 'EUR', toCurrency = 'USD', rateSysId = '2ed537fcb271937adb'}
+CurrencyExchangeValue{fOriginalAmount=100, fOriginalCurrency='EUR', fRate=1.1604, fAmount=116.04, fCurrency='USD', fRateSysId='4555525f5553445f3230323530383036'}
 ```
 
 ## GlideCurrencyConverter - setAmount\(String amount\)

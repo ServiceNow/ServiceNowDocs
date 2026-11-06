@@ -1,30 +1,32 @@
 ---
 title: LSD Maturity Assessment
-description: This Accelerator provides guidance on fine-tuning your Legal Service Delivery \(LSD\) on the ServiceNow platform.
+description: This Accelerator assesses your current Legal Service Delivery \(LSD\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/lsd-maturity-assessment.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # LSD Maturity Assessment
 
-This Accelerator provides guidance on fine-tuning your Legal Service Delivery \(LSD\) on the ServiceNow platform.
+This Accelerator assesses your current Legal Service Delivery \(LSD\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 
 ## Accelerator overview
 
-Legal Service Delivery Maturity Assessment provides Impact Advanced and Total Customers with prescriptive guidance, leading practices content, and a maturity analysis of their ServiceNow instance. The Accelerator provides a base-level understanding of maturity tied to business outcomes being driven. The Accelerator aims to assess gaps with your LSD product implementation based on your company’s use cases with targeted recommendations on what to tackle next to unlock further value in the platform.
+Legal Service Delivery Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer's business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this Accelerator helps maximize the value of their ServiceNow investment.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What You Get
 
--   **LSD Maturity Assessment kickoff session \(up to 120 minutes\)**
+-   **LSD Maturity Assessment kickoff session \(up to 1.5 hours\)**
     -   Set expectations on the process and depth of deliverable
     -   Communicate expectations for customer participation
     -   Request data and any other inputs
@@ -47,32 +49,96 @@ Legal Service Delivery Maturity Assessment provides Impact Advanced and Total Cu
     -   The top five recommendations of unadopted product features for LSD
     -   Additional initiatives or Impact Accelerators to conduct, or specific recommendations to achieve outcomes
     -   A complete list of recommendations observed
--   **Customer readout session \(up to 120 minutes\)**
+-   **Customer readout session \(up to 1.5 hours\)**
     -   Deliver the LSD Maturity Assessment report
     -   Review the LSD Maturity Assessment report:
         -   Present the assessment results
         -   Discuss targeted recommendations
         -   Provide a suggested plan and resources to help you decide which recommendations to implement
--   **Follow-up Session \(up to 60 minutes\)**
+-   **Follow-up Session \(up to 1 hour\)**
     -   Opportunity for Q&amp;A related to the LSD Maturity Assessment
     -   Provide additional guidance on leading practices, as needed
 
 ## Requested customer resources
 
-One or more customer resource is requested. The specific number of resources provided is Accelerator and customer specific.
+One or more customer resources are requested. The specific number of resources provided is accelerator and customer specific.
 
-|Customer resource|Responsibilities|Required|Optional|
-|-----------------|----------------|--------|--------|
-|Platform Owner|Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.|✓| |
-|System Administrators|Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.| |✓|
+<table id="table_v4t_s4z_wgc"><thead><tr><th>
 
-## Requested information / access
+Customer resource
 
-Refer to the applicable Impact Accelerator description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+</th><th>
 
-## Exceptions
+Responsibilities
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments, or to managed service providers, except for their internal use.
+</th><th>
 
-ServiceNow resources are not responsible for implementing LSD recommendations on Customer’s non-production or production instances.
+Required
+
+</th><th>
+
+Optional
+
+</th></tr></thead><tbody><tr><td>
+
+Main Customer Contact, PMO
+
+</td><td>
+
+This individual is the primary contact for the duration of the engagement and carries out the following responsibilities:-   Gathers and shares the list of assessment participants
+-   Ensures completion of the assessment by participants
+-   Provides sponsorship for outputs based on the recommendations
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Assessment Participants
+
+</td><td>
+
+These are the people within your organization that will be completing the assessment. Their responsibilities are:-   Complete the assessment by the agreed deadline
+-   Raise any questions or concerns as soon as possible
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Process Owner
+
+</td><td>
+
+Owns the process being assessed
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>## Requested information / access
+
+We request that the LSD Maturity questionnaire is completed by the Customer virtually a minimum of two weeks prior to the Customer readout session.
+
+## Exclusions
+
+-   This Impact Accelerator does not include a technical review of LSD.
+
+-   ServiceNow resources are not responsible for implementing LSD recommendations on Customer’s non-production or production instances.
+
 

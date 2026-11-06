@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up and configure CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set a CI attribute to be mandatory
@@ -20,12 +20,12 @@ Configure a CI attribute as mandatory so it is included in the CMDB Health tests
 
 Role required:
 
--   Itil\_admin and personalize\_dictionary: For editing the dictionary table
--   itil has read access
+-   sn\_cmdb\_admin or Itil\_admin, and personalize\_dictionary: For editing the dictionary table
+-   sn\_cmdb\_editor and itil have read access
 
 ## About this task
 
-When a field is configured as mandatory, then if the **required** metric is enabled, the CMDB health tests check whether that field is populated or not. The CMDB Health dashboard shows the aggregated report of the percentage of CIs for which one or more required fields is empty.
+When a field is configured as mandatory, then if the **required** metric is enabled, the CMDB health tests check whether that field is populated or not. The CMDB Health Dashboard shows the aggregated report of the percentage of CIs for which one or more required fields is empty.
 
 ## Procedure
 

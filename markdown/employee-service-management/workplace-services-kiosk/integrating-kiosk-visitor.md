@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate Workplace Services Kiosk, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Integrate, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Integrating Workplace Services Kiosk with Workplace Visitor Management
@@ -38,9 +38,9 @@ Integrate Workplace Services Kiosk with Workplace Visitor Management to create a
 5.  Create a kiosk configuration, assign the homepage configuration, and link the kiosk module you created. For more information, see [Create a kiosk configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/create-kiosk-device-config.md).
 6.  Assign the kiosk configuration to a kiosk device. For more information, see [Setting up a kiosk device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/setting-up-kiosk-device.md).
 
-After integrating Workplace Services Kiosk with Workplace Visitor Management, visitors can use the kiosk to check-in, check-out, or self-register. For more information, see [Use Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md).
+After integrating Workplace Services Kiosk with Workplace Visitor Management, visitors can use the kiosk to check-in, check-out, or self-register. For more information, see [Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md).
 
 If an error occurs on the kiosk at run time, a generic error page is displayed to the user. As an admin, you can find information about the errors in the system logs. For more information about error scenarios, see [Workplace Services Kiosk error scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/wsd-kiosk-errors.md).
 
-**Parent Topic:**[Integrate Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/integrating-workplace-services-kiosk.md)
+**Parent Topic:**[Integrating Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/integrating-workplace-services-kiosk.md)
 

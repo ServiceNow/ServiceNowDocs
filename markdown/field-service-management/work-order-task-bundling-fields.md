@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-task-bundling-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Task Bundling components, Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Field Service Task Bundling fields
@@ -313,5 +313,5 @@ Actual work duration
 Total amount of time spent on the bundle after the agent starts the work and before the agent closes the work on the last subtask. This amount excludes the time paused on the work.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
+</table>**Parent Topic:**[Field Service Task Bundling components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/task-bundling-components.md)
 

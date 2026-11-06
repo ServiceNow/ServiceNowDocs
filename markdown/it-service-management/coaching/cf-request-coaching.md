@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Coaching, Coaching, IT Service Management]
+breadcrumb: [Configure, Coaching, IT Service Management]
 ---
 
 # Request Coaching
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_vgp_3dq_n4b"><thead><tr><th>
 
@@ -40,7 +40,7 @@ Coaching
 
 </td><td>
 
-Activates the Coaching application. This plugin includes demo data and activates related plugins if they are not already active. The Coaching application is available with the ITSM Professional subscription only. Please contact your account manager for more information.
+Activates the Coaching application. This plugin includes demo data and activates related plugins if they are not already active. The Coaching application is available with the ITSM Professional subscription only. Contact your account manager for more information.
 
 </td></tr><tr><td>
 

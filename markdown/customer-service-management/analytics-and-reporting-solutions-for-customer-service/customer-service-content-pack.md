@@ -7,9 +7,9 @@ release: yokohama
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2025-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics and reporting for Customer Service Management, Customer Service Management]
+breadcrumb: [Analytics and reporting, Customer Service Management]
 ---
 
 # Customer Service Platform Analytics Solutions
@@ -73,8 +73,6 @@ To enable Performance Analytics for Customer Service Management, a user with the
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/spotlight.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_StartAChatWithAnAgent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Chat with an agent from the Customer Service Portal
@@ -32,4 +32,11 @@ Role required: sn\_customerservice.customer, sn\_customerservice.customer\_admin
 ## What to do next
 
 If the agent creates a new case or links the discussion to an existing case, you can view these cases from the customer portal by selecting **My Cases** and displaying the case list.
+
+**Related topics**  
+
+
+[Get help using virtual agent conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-virtual-agent-conversation.md)
+
+[Create a product case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateACaseFromCustPortal.md)
 

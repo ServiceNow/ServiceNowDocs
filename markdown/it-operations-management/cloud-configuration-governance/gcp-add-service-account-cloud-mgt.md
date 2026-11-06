@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # \(Optional\) Add a Google Cloud Platform service account to the cloud account
@@ -60,7 +60,7 @@ Discovery credentials
 
 </td><td>
 
-Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that Cloud Provisioning and Governance: Google Cloud Connector uses to access Google Cloud Platform data]().
+Select the appropriate credentials for the service account For information on generating or obtaining the credentials, see [Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data]().
 
 </td></tr><tr><td>
 

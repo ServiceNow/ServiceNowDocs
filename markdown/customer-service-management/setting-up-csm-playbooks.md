@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/setting-up-csm-playbooks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Playbooks in Customer Service Management
@@ -27,7 +27,7 @@ Playbooks include:
 -   A series of steps that a user must complete in order to achieve a particular goal and the necessary guidance for completing those steps.
 -   One or more stages, or groups of tasks, and sequences of activities within each stage.
 
-Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) application. Agents use playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
+Playbooks are created in the [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md) application. Pages that display playbooks in a workspace are created in the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) application. Agents use playbooks in [CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspaces-configure.md) to complete activities. End users can also use playbooks from service portals to create requests and provide information. For more information, see the following sections in this topic:
 
 -   [Playbook users and tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-csm-playbooks.md)
 -   [Configuring and configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-csm-playbooks.md)
@@ -58,7 +58,7 @@ Playbook experience admin\[playbook\_experience.admin\]
 
 </td><td>
 
-Uses the Playbook Experience application to create playbook experience records. These records define how playbook activities appear within a playbook.
+Uses the [Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-agents-and-fulfillers.md) application to create playbook experience records. These records define how playbook activities appear within a playbook.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ UI Builder admin\[ui\_builder\_admin\]
 
 </td><td>
 
-Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) application to create or customize pages that display playbooks in [CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
+Uses the [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md) application to create or customize pages that display playbooks in [CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspaces-configure.md).UI Builder is a web user interface builder. Users with the UI Builder admin role use the tool to create pages, which are collections of components that make up a workspace user interface.
 
 **Note:** [Playbook page templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbook-templates.md) are available for UI Builder admins to use as a starting point for creating playbook pages.
 
@@ -110,7 +110,7 @@ Workflow Studio is the design environment where playbook owners \(users with the
 
 </td></tr><tr><td>
 
-Playbook Experience
+[Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-agents-and-fulfillers.md)
 
 </td><td>
 
@@ -158,7 +158,7 @@ Several applications are available that enable you to create and use playbooks w
 
 The Playbooks for Customer Service Management plugin \(sn\_csm\_playbook\) is available from the ServiceNow Store. This plugin requires the following plugins:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   Dynamic Related Records \(com.snc.uib.sn\_dyn\_rel\_rec\)
 -   Playbook Experience \(com.playbook\_experience\)
 
@@ -175,14 +175,12 @@ These playbooks require the following plugins:
 
 ## Request apps from the ServiceNow Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 
 
-[bundle-platux.set-up-playbook]
-
-[Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-ui.md)
+[Interact with Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-agents-and-fulfillers.md)
 
 [Configure Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-playbooks-configuring.md)
 

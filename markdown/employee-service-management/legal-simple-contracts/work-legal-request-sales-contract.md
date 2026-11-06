@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Sales contract review requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Sales contract review requests, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on a sales contract review request
@@ -30,19 +30,19 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d580449e109">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d629367e109">
 
 Option
 
-</th><th align="left" id="d580449e112">
+</th><th align="left" id="d629367e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d580449e118">
+</th></tr></thead><tbody><tr><td id="d629367e118">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d580449e147">
+</td></tr><tr><td id="d629367e147">
 
 **As a collaborator**
 

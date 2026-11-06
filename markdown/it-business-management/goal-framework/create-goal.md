@@ -7,7 +7,7 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage goals, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Create goals and set targets to measure overall goal progress and evaluate them 
 
 ## Before you begin
 
-Role required: sn\_gf.goal\_user
+Role required: sn\_gf.goal\_user or sn\_gf.goal\_admin
 
 ## About this task
 

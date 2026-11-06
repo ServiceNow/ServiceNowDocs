@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/business-stakeholder-for-csm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Customer Service Management reference, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Roles installed with Customer Service Management, Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
 # Business Stakeholder for Customer Service Management
@@ -59,7 +59,7 @@ sn\_customerservice.case\_contributor\_creator
 
 </td><td>
 
-CSM Contributor User \(com.snc.csm\_contributor\_user\)
+CSM Contributor User \(com.snc.csm\_contributor\_user\)**Note:** This plugin is moved to App Store beginning with Australia release.
 
 </td><td>
 
@@ -73,7 +73,6 @@ Case authorized contributor\[sn\_customerservice.case\_authorized\_contributor\]
 
 This role enables users, when added to an individual case as a related party, to: -   Add additional comments and attachments
 -   Receive notifications on case updates
--   Update case tasks
 -   Accept or reject a solution
 -   Close a case
 
@@ -84,7 +83,7 @@ This role enables users, when added to an individual case as a related party, to
 
 </td><td>
 
-CSM Contributor User \(com.snc.csm\_contributor\_user\)
+CSM Contributor User \(com.snc.csm\_contributor\_user\)**Note:** This plugin is available in the App Store.
 
 </td><td>
 
@@ -104,7 +103,7 @@ sn\_customerservice.case\_contributor\_creator
 
 </td><td>
 
-CSM Contributor User \(com.snc.csm\_contributor\_user\)
+CSM Contributor User \(com.snc.csm\_contributor\_user\)**Note:** This plugin is available in the App Store.
 
 </td><td>
 
@@ -192,7 +191,7 @@ User type
 
 </th></tr></thead><tbody><tr><td>
 
-Proxy contact \[sn\_customerservice.proxy\_contact\]
+Proxy contact \[sn\_csm\_proxy\_cont\]
 
 </td><td>
 
@@ -200,7 +199,7 @@ This role enables employees to create cases for customer accounts and contacts.
 
 </td><td>
 
-CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
 
 </td><td>
 
@@ -405,7 +404,7 @@ This role provides read-only access to all households.**Note:** This role provid
 
 </td><td>
 
-Customer Service Household \(com.snc.household\)
+Customer Household Data Model \(com.snc.household\)
 
 </td><td>
 

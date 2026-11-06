@@ -1,20 +1,20 @@
 ---
 title: Collaborate with stakeholders from Project Workspace
-description: Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and ensure that your project is in line with your organizational priorities.
+description: Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and verify that your project is in line with your organizational priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Collaborate with stakeholders from Project Workspace
 
-Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and ensure that your project is in line with your organizational priorities.
+Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and verify that your project is in line with your organizational priorities.
 
 ## Before you begin
 
@@ -26,36 +26,36 @@ Browse and upload files from your computer. Add comments and tag stakeholders fo
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Attach files to your project or project task.
 
-<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d118964e82">
+<table id="choicetable_sj5_5hz_hsb"><thead><tr><th align="left" id="d148230e82">
 
 Option
 
-</th><th align="left" id="d118964e85">
+</th><th align="left" id="d148230e85">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d118964e91">
+</th></tr></thead><tbody><tr><td id="d148230e91">
 
 **Project**
 
 </td><td>
 
-1.  Select the Attachments icon \(\[Omitted image "icon-attachments.png"\] Alt text: Attachments icon.\) from the planning console header.
+1.  Select the Attachments icon \(\[Omitted image "icon-attachments.png"\] Alt text: Attachments icon.\) from the planning header.
 2.  Upload a file from your computer.
-    1.  Select **Browse** if this is the first attachment for the project.
+    1.  Select **Select file**.
 
-Else, select the Add File icon \(\[Omitted image "icon-add-file.png"\] Alt text: Add File icon.\).
+If you have attachment, select the Add file icon \(\[Omitted image "icon-add-file.png"\] Alt text: Add File icon.\).
 
     2.  Browse and upload a file.
 
 
-</td></tr><tr><td id="d118964e135">
+</td></tr><tr><td id="d148230e135">
 
 **Project task**
 
@@ -64,9 +64,9 @@ Else, select the Add File icon \(\[Omitted image "icon-add-file.png"\] Alt text:
 1.  Select a project task to open its details in the side panel.
 2.  Navigate to the Attachment tab.
 3.  Upload a file from your computer.
-    1.  Select **Browse** if this is the first attachment for the project.
+    1.  Select **Select file**.
 
-Else, select the Add File icon \(\[Omitted image "icon-add-file.png"\] Alt text: Add File icon.\).
+If you have attachment, select the Add File icon \(\[Omitted image "icon-add-file.png"\] Alt text: Add File icon.\).
 
     2.  Browse and upload a file.
 
@@ -76,15 +76,15 @@ Else, select the Add File icon \(\[Omitted image "icon-add-file.png"\] Alt text:
 
     You can add comments directly at the project level or for a project task.
 
-<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d118964e188">
+<table id="choicetable_fx3_gjz_hsb"><thead><tr><th align="left" id="d148230e188">
 
 Option
 
-</th><th align="left" id="d118964e191">
+</th><th align="left" id="d148230e191">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d118964e197">
+</th></tr></thead><tbody><tr><td id="d148230e197">
 
 **Project**
 
@@ -98,7 +98,7 @@ If you want to address your comments to a user, @-mention their name in the comm
 3.  Select **Post Comments**.
 
 
-</td></tr><tr><td id="d118964e230">
+</td></tr><tr><td id="d148230e230">
 
 **Project task**
 

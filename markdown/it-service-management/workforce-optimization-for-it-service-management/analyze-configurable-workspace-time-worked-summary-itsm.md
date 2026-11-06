@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Schedule Adherence in Workforce Optimization for ITSM, Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Schedule Adherence, Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Use time-worked summary to analyze agent schedule adherence and conformance
@@ -17,6 +17,8 @@ breadcrumb: [Schedule Adherence in Workforce Optimization for ITSM, Scheduling i
 Analyze if your teams are adhering to planned schedules. Use historical adherence to see how well your agents have followed their schedules in the past.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.admin
 

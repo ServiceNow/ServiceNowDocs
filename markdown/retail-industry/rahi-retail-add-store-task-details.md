@@ -1,0 +1,63 @@
+---
+title: Add store task details
+description: Log the store task details to the new HQ communications plan.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-add-store-task-details.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Manage store plans to generate cases and tasks, Manage store plans, Retail]
+---
+
+# Add store task details
+
+Log the store task details to the new HQ communications plan.
+
+## Before you begin
+
+Role required: sn\_rtl\_hq\_ops.agent, sn\_rtl\_hq\_ops.agent\_manager, sn\_rtl\_hq\_ops.location\_manager
+
+## Procedure
+
+1.  Select **Add**.
+
+    A new Store Task form appears where you must add the store task details.
+
+2.  On the Store task form, select the required option from the **Priority** drop-down list.
+
+3.  Enter the short description in the **Short Description**.
+
+4.  Enter the description in the **Description**.
+
+5.  Select a questionnaire template in the **Questionnaire template** or select **Create new questionnaire**.
+
+    Once you create and fulfill the questionnaire, you can view the smart assessment instance through View Questionnaire on mobile app and the list of smart assessment templates through the Retail Questionnaire list on the workspace.
+
+6.  Select the **Add file** in the Attachments, if any.
+
+7.  Select **Save** to save the details.
+
+8.  Select **Continue**.
+
+    A new prompt Continue without saving appears.
+
+    1.  Select **Yes** to continue without saving the details.
+
+    2.  Select **No** to remain in the same form.
+
+9.  Select **Cancel** to discard the details.
+
+10. Select **Save** to save the details.
+
+    The new store task added appears.
+
+    1.  Select \[Omitted image "Form\_DeleteIcon.png"\] Alt text: to delete the new store task.
+
+    2.  Select \[Omitted image "icon-pencil-ac.png"\] Alt text: to edit the store task details.
+
+    3.  Select **Continue** to go next step.
+
+
+**Parent Topic:**[Manage store plans to generate cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-manage-store-plan-authoring.md)
+

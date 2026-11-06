@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Asset Management references, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Installed with Model Management
@@ -19,17 +19,6 @@ Several types of components are installed with Model Management.
 Demo data is available with Model Management.
 
 **Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/references-asset-management.md)
-
-**Related topics**  
-
-
-[Domain separation and Asset Management]()
-
-[Quick start test for Asset Management]()
-
-[Installed with Asset Management]()
-
-[Transfer order line fields]()
 
 ## Business rules installed with Model Management
 
@@ -121,7 +110,7 @@ Model Management includes numerous tables.
 |Product model \[cmdb\_model\]|Describes all kinds of product models.|
 |Software License Calculation \[cmdb\_sw\_license\_calculation\]|Defines commonly used software licensing patterns.|
 |Software Model \[cmdb\_software\_product\_model\]|Describes software product models.|
-|Software Suite \[cmdb\_m2m\_suite\_model\]|Stores many-to-many relationship between two models that defines elements of a software suite.|
+|Software Suite \[cmdb\_m2m\_suite\_model|Stores many-to-many relationship between two models that defines elements of a software suite.|
 |Software Upgrade and Downgrades \[cmdb\_m2m\_downgrade\_model\]|Stores many-to-many relationship between two models signifying that being licensed for one model grants rights to the other as well.|
 
 ## UI policies installed with Model Management

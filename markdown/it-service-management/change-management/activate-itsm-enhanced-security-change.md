@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITSM Enhanced Security Features for Change Management, Reference section for Change Management, Change Management, IT Service Management]
+breadcrumb: [ITSM Enhanced Security Features for Change Management, Reference, Change Management, IT Service Management]
 ---
 
 # Activate ITSM Enhanced Security Features for Change Management
@@ -20,7 +20,7 @@ Prevent unauthorized access to change-related tables using deny-unless ACLs by a
 
 Role required: admin
 
-**Note:** An admin can install and activate this plugin via support request.
+**Note:** A user with the admin role can install and activate this plugin through a support request.
 
 ## Procedure
 

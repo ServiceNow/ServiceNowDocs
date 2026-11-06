@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management publisher pack for VMware, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for VMware, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Publisher Analytics dashboard for VMware in Software Asset Management classic
@@ -28,8 +28,6 @@ Information from VMware vCenter software is discovered and used for VMware recon
 
 -   [vCenter probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/vcenter-probes.md) VMware — vCenter ESX Hosts License
 -   VMware Discovered License Key \[samp\_vmware\_license\_key\] and VMware Discovered License Key Consumption \[samp\_vmware\_license\_key\_usage\] tables
-
-For more information, see [vCenter discovery with Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_VCenterDataCollected.md).
 
 **Note:** The add-on VMware publisher pack \(com.sn\_samp\_vmware\) plugin must be installed to view the VMware dashboard tab.
 

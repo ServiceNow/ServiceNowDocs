@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/commercial-lines-servicing-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Analytics and reporting for Group Life Servicing, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
 
 # Commercial Lines Servicing dashboard
@@ -116,5 +116,5 @@ Needs to be able to customize views.
 -   Policy Reject Reason
 -   Policy Service
 
-**Parent Topic:**[Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
 

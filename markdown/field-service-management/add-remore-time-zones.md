@@ -1,16 +1,16 @@
 ---
-title: Configure time zones for dispatchers
+title: Configure multiple time zones for dispatchers
 description: Add time zones for dispatchers to choose from and make it easier for dispatchers to see what time zones agents are located in. If there are too many time zones, you can also remove time zone options from a dispatcher's options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/add-remore-time-zones.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Time Zones, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
-# Configure time zones for dispatchers
+# Configure multiple time zones for dispatchers
 
 Add time zones for dispatchers to choose from and make it easier for dispatchers to see what time zones agents are located in. If there are too many time zones, you can also remove time zone options from a dispatcher's options.
 

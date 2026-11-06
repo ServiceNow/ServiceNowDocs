@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/add-armis-early-warning-risk-rule.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Armis Early Warning, risk rule, risk scoring criteria, Default Risk Calculator]
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]

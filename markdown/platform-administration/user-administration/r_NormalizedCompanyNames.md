@@ -7,10 +7,10 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [data]
-breadcrumb: [Normalization data services, Creating users, companies, and departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Normalization data services, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Normalized company names table

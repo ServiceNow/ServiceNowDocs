@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery Employee Relations case restrictions
+title: Employee Relations case restrictions
 description: Use Case Restriction Configuration to determine what groups and agents can access or restrict ER cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-case-restriction.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery Employee Relations case restrictions
+# Employee Relations case restrictions
 
 Use Case Restriction Configuration to determine what groups and agents can access or restrict ER cases.
 
@@ -56,11 +56,11 @@ Collaborators and the COE for the HR case can conflict. The basic rules are:
 
 Use ER assignment rules to assign a group to an ER case.
 
-For more information, see [HR Service Delivery Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
+For more information, see [Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
 
 ## ER matching rules
 
 Use ER matching rules to assign an agent that has the least number of cases, the required skills, and matches the location.
 
-For more information, see [HR Service Delivery Employee Relations matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-matching-rules.md).
+For more information, see [Employee Relations matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-matching-rules.md).
 

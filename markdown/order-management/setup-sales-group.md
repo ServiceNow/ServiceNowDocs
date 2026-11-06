@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/setup-sales-group.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Forecasting, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up a sales team for forecast hierarchy
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Once the users, teams, and opportunity data are added, along with selection of category, you can view the sales forecast for any group or specific sales team on the Sales Forecast dashboard on the CSM workspace.
+Once the users, teams, category, and opportunity data are added, you can view the sales forecast for any group or specific sales team on the Sales Forecast dashboard.
 
 ## Procedure
 
@@ -45,4 +45,11 @@ Once the users, teams, and opportunity data are added, along with selection of c
 
     The new team is created and added on the Groups page.
 
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-forecasting.md)
 

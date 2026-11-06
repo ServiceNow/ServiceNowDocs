@@ -5,17 +5,37 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/administer-lists-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Administering lists for Configurable Workspace
 
 Administer list features that aren't configured in UI Builder with components.
 
--   **[Fetch your list record count asynchronously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/fetch-list-record-count-asynchronously.md)**
+-   **[Configure live updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/live-list-updates-configurable-workspace.md)**
 
-    Users with large lists created from large tables can use the `glide.ui.fetch.list.record.count.asynchronously` property to continue interacting with their list, while the total record count loads.
+    Configure live updates for lists by adding the **glide.lists.live\_list\_enabled** system property.
+
+-   **[Configure live updates for a list page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/live-list-updates-page-level.md)**
+
+    Configure live updates at the list page level without affecting other lists in your Configurable Workspace.
+
+-   **[Export to Google Sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/exporting-lists-google-spreadsheets.md)**
+
+    Configure lists in Configurable Workspace to export directly to Google Sheets.
+
+-   **[Configure record count background loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/fetch-list-record-count-asynchronously.md)**
+
+    Configure lists created from large tables to load the list record count in the background by using the **glide.ui.fetch.list.record.count.asynchronously** property.
+
+-   **[Configure related list background loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-up-asynchronous-record-addition.md)**
+
+    Configure large selections of records added to a related list to load in the background for your entire workspace experience.
+
+-   **[Group a related list by a field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-related-list-grouping.md)**
+
+    Configure a related list to group by a field.
 
 

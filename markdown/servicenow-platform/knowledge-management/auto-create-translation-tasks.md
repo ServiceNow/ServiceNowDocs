@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use translation management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,4 +38,6 @@ Role required: knowledge\_admin or admin
 ## What to do next
 
 Open a knowledge article and access the Knowledge Translation Tasks related list to view the associated translation tasks.
+
+**Parent Topic:**[Use translation management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-translation-management.md)
 

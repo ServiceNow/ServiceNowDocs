@@ -1,5 +1,5 @@
 ---
-title: Configure custom Risk rank and Risk value
+title: Configure a custom Risk rank and Risk value
 description: Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/risk-value-lookup.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Add risks for a demand, RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Configure custom Risk rank and Risk value
+# Configure a custom Risk rank and Risk value
 
 Configure custom risk rank and value scores \(such as High-Medium, Medium-Low, or Absolute-Low\) to rate the impact and probability factors for a risk.
 
@@ -41,19 +41,19 @@ For example, a risk might have high probability and medium impact but you might 
 -   Probability Number = 1
 -   Risk Value = 3 Low
 
-The following image illustrates the results of this example on the Risk form.\[Omitted image "risk-value-matcher.png"\] Alt text: Risk rank and risk value in the Risk form
+The following image illustrates a Risk form.\[Omitted image "risk-value-form-color.png"\] Alt text: Risk rank and risk value in the Risk form
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Project Administration** &gt; **Settings** &gt; **Risk Value Lookup**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the risk value matcher form, fill in the fields.
 
     For a description of the field names, see [Risk value matcher form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/risk-value-matcher-form.md).
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 **Parent Topic:**[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/add-risks-for-demand.md)

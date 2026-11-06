@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
@@ -116,7 +116,7 @@ Security risk
 -   If an the instance does not have a CDN/proxy setup, either value should be fine.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

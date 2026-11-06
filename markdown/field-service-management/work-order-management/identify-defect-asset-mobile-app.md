@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Analyze all work orders for a selected asset
@@ -22,7 +22,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  In the **My Work** tab, tap **Asset Lookup** at the top.
 
@@ -32,15 +32,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 5.  Do one of the following.
 
-<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d108509e93">
+<table id="choicetable_xjd_bdv_khb"><thead><tr><th align="left" id="d121934e99">
 
 To
 
-</th><th align="left" id="d108509e96">
+</th><th align="left" id="d121934e102">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d108509e102">
+</th></tr></thead><tbody><tr><td id="d121934e108">
 
 **View all work orders related to this asset**
 
@@ -52,7 +52,7 @@ Do this
     -   To view all upcoming work orders, click **Upcoming Work Orders**.
 
 
-</td></tr><tr><td id="d108509e137">
+</td></tr><tr><td id="d121934e143">
 
 **Create a work order for this asset**
 
@@ -68,5 +68,3 @@ Do the following:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
-

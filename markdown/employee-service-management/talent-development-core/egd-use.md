@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Using the Talent Development Core application
@@ -35,5 +35,5 @@ Create Aspirations to define and track professional and personal interests.
 -   **[View Credly badges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/view-credly-badges.md)**  
 As an employee, sync external badges into your organization’s Credly account and view them on your career profile.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

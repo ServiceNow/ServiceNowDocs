@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Taxonomy and connected content, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Taxonomy and connected content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Manage outdated connected content
@@ -32,7 +32,7 @@ Outdated content refers to obsolete, invalid, or stale content that is no longed
 -   Manage content integrity and improve system performance.
 -   Gain visibility and optimize content operations.
 
-\[Omitted image "image.outdated-connected-content-ui"\] Alt text: See how the outdated connected content tab and interface looks
+\[Omitted image "outdated-connected-content-ui.png"\] Alt text: See how the outdated connected content tab and interface looks
 
 ## Procedure
 
@@ -55,7 +55,7 @@ Outdated content refers to obsolete, invalid, or stale content that is no longed
 
 4.  Go to the **Outdated Connected Content** tab to use the default conditions.
 
-    \[Omitted image "image.outdated-connected-content"\] Alt text: Outdated connected content count and default filters
+    \[Omitted image "outdated-connected-content.png"\] Alt text: Outdated connected content count and default filters
 
 5.  Customize the filter conditions to suit your requirements.
 

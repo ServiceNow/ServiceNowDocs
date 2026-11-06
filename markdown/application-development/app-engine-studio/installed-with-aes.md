@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Installing App Engine Studio, Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Installing, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Components installed with AES
@@ -136,7 +136,7 @@ Deployment Request
 
 </td><td>
 
-Requests to review and publish an application that a developer created in App Engine Studio. From the deployment request form, a reviewer can deploy the application to different environments, accept or reject an application, and send feedback to a developer. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
+Requests to review and publish an application that a developer created in App Engine Studio. From the deployment request form, a reviewer can deploy the application to different environments, accept or reject an application, and send feedback to a developer. For more information, see [Deployment Request form in the Pipelines and Deployments app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/deployment-req-form-d-and-p.md).
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ Pipeline
 
 </td><td>
 
-Configurations for deploying applications to different environments. There can be only one active pipeline at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md).
+Configurations for deploying applications to different environments. There can be only one active pipeline at a time. You update this table as you create a pipeline for the deployment of applications from App Engine Studio. For more information, see [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
 </td></tr><tr><td>
 
@@ -216,7 +216,7 @@ Details about application files that a developer creates in App Engine Studio. T
 -   Pipeline Environment Order
 -   Pipeline Types
 
-The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-new-clone-preserver.md).
+The data preservers prevent records in these tables from being overwritten during cloning on a non-production instance. For more information, see Data preservation on cloning target instances.
 
 **Parent Topic:**[Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/install-aes.md)
 

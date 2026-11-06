@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-case-action-status.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure case action status
@@ -16,7 +16,7 @@ The case action status feature displays the status of cases in the Cases list. C
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user and admin
 
 ## About this task
 

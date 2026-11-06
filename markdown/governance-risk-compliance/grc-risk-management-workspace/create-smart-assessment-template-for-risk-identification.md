@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application risk assessment using Advanced Risk Assessment, Integrate, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -66,9 +66,9 @@ Assessment template categories
 
 Category that the new assessment template should be a member of. You must select `Risk identification category`.
 
-Template categories that enforce the data segregation for templates. A category controls which users can view a template. Each assessment template is associated with one or more template categories. To view a template in a category, you must have a category role that is associated with the category.
+Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**Note:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
+See [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)**Note:** You can create an assessment only from a published assessment template.
 
 </td></tr><tr><td>
 

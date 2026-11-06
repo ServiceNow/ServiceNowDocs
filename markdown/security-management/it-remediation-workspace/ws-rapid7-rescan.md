@@ -7,9 +7,9 @@ release: yokohama
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Rescan vulnerable items and remediation tasks in the IT Remediation Workspace, Using the IT Remediation Workspace, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Rescan vulnerable items and remediation tasks in the IT Remediation Workspace, Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
 
 # Rescan Rapid7 vulnerable items from the Vulnerability Response workspaces

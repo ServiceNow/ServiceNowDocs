@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/adding-related-party-config-to-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create related party configurations
@@ -16,7 +16,11 @@ Related party configurations define the title of a relationship between an entit
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_customer\_access\_management\_admin
+-   sn\_crm\_foundation\_admin
+-   admin
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Manual indicators
@@ -31,10 +31,8 @@ Manual indicators are not associated with an indicator source. Scores for manual
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Manual Indicators** and select **New**.
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Indicators** &gt; **Manual Indicators** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Manual Indicators** and select **New**.
 2.  In the **Name** field, give the indicator a descriptive name, such as Number of Critical Incidents.
 
 3.  In the **Frequency** field, select the frequency at which scores are set.
@@ -174,8 +172,12 @@ When selected, the Analytics Hub and KPI Details show unbroken data lines for th
  Continuous lines aren’t rendered when a time series is set on the indicator or the Analytics Hub or KPI Details.
 
 </td></tr></tbody>
-</table>9.  In the **Forecasting** tab, set the forecast method, the number of data collection periods to forecast, the amount of historical data to base the forecast on, and the upper and lower limits of forecast values.
+</table>9.  In the **Forecasting** tab, set the following fields:
 
+    -   Forecast method
+    -   The number of data collection periods to forecast
+    -   The amount of historical data to base the forecast on
+    -   The upper and lower limits of forecast values
     For more information, see [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ForecastingData.md).
 
 

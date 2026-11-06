@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/disable-sn-rot.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Change your Root of Trust configuration, Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Root of Trust Settings, Configure, Code Signing, Platform Security]
 ---
 
 # Disable ServiceNow Root of Trust

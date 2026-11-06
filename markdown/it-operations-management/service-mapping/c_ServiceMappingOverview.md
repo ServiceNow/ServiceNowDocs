@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [ITOM Visibility, IT Operations Management]
 # Service Mapping
 
 The ServiceNow® Service Mapping application discovers all application services in your organization and builds a comprehensive map of all devices, applications, and configuration profiles used in these application services.
+
+\[Omitted image "sm-landing-page.png"\] Alt text: CIs mapped to service instances or a unified map, therefore adding service context.
 
 Service Mapping is available as a separate subscription and requires activation by Service Mapping personnel.
 

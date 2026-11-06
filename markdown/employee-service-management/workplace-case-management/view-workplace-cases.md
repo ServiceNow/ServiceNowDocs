@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -209,6 +209,14 @@ For more information about retaining or discarding services while updating a res
 
 [Create a reservation]().
 
+</td></tr><tr><td>
+
+Time worked
+
+</td><td>
+
+Tracks the total time spent on a case or task. The timer starts at zero, tracks time until the record is saved or closed, and resumes when revisited. You can also manually adjust, pause, or resume the timer.
+
 </td></tr></tbody>
 </table>5.  Select the gear icon \(Gear icon \[Omitted image "gear-icon.png"\] Alt text: Gear settings icon.\) to add the additional fields that you require.
 
@@ -244,12 +252,12 @@ For more information about retaining or discarding services while updating a res
     -   **Tasks**: In related tasks and cases, cost is shown as price per item, quantity, and the total costs.
 10. To retain services while making a reservation using the Workplace Reservations for Microsoft Outlook Add-in, employees must open the reservation and open the plugin to change the date, time, or locations.
 
-11. To ensure that services are retained, select **Save reservation**.
+11. Select **Save reservation** to confirm that the services are retained,
 
     **Note:** Only updating the reservation in Workplace Reservations for Microsoft Outlook Add-in cancels the services.
 
 
-**Parent Topic:**[Manage Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/manage-workplace-cases.md)
+**Parent Topic:**[Managing Workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/manage-workplace-cases.md)
 
 **Related topics**  
 
@@ -257,4 +265,8 @@ For more information about retaining or discarding services while updating a res
 [View emergency maintenance case details]()
 
 [View change event reservation case details]()
+
+[Print workplace cases]()
+
+[Managing print cases]()
 

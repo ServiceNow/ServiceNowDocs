@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Modify email notification layout
@@ -39,13 +39,7 @@ The Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) plugin is shipped
 View the following examples to understand how the notification looks with and without the Email notification layout.
 
 -   **With layout**
-
-    \[Omitted image "request-with-layout.jpg"\] Alt text: Notification with Email notification layout and template applied
-
 -   **Without the layout**
-
-    \[Omitted image "request-without-layout.jpg"\] Alt text: Notification without the Email notification layout and template
-
 
 **Note:** If you are an upgrade customer, to use the latest email layout, install the Employee Experience Foundation \(com.snc.sn\_ex\_emp\_fd\) app from ServiceNow® Store.
 
@@ -59,11 +53,17 @@ View the following examples to understand how the notification looks with and wi
 
 4.  On the **What it will contain** tab, select search and apply the `Email notification template` for **Email template**.
 
-    \[Omitted image "apply-template-notification.jpg"\] Alt text: Apply template to notification.
+    To modify the template body, logo or any other details follow the steps.
+
+    1.  Navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Templates**
+
+    2.  Open the **Email layout** record to modify it.
+
+    3.  Make your changes and **Save** or **Update** the record.
 
 5.  Modify the email body or use it as given.
 
-6.  Preview the notification and click **Update**.
+6.  **Preview Notification** and click **Update**.
 
 
 ## What to do next

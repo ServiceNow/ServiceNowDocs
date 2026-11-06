@@ -1,18 +1,18 @@
 ---
-title: Enable asynchronous record addition for the multi-record associator
-description: Enable large selections of records added to a related list by the multi-record associator to load in the background.
+title: Configure related list background loading
+description: Configure large selections of records added to a related list to load in the background for your entire workspace experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-up-asynchronous-record-addition.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Lists, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Enable asynchronous record addition for the multi-record associator
+# Configure related list background loading
 
-Enable large selections of records added to a related list by the multi-record associator to load in the background.
+Configure large selections of records added to a related list to load in the background for your entire workspace experience.
 
 ## Before you begin
 
@@ -20,37 +20,33 @@ Role required: admin
 
 ## About this task
 
-When you add a large number of records to a related list, you can focus on other tasks while the record addition loads in the background.
+When you select a large number of records to add to a related list, you can focus on other tasks while the records are added in the background.
 
-If asynchronous record addition isn't required for all multi-record associator modals, use declarative actions to enable asynchronous record addition for select modals. For instructions, see [Set up asynchronous record addition for select modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.md).
+If background loading isn’t required for all modals, configure individual modals to load related list records in the background using declarative actions. For instructions, see [Configure background loading for a modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.md).
 
 ## Procedure
 
 1.  Navigate to `sys_properties.list`.
 
+    The entire list of properties in the System Properties \[sys\_properties\] table opens.
+
 2.  Add the **glide.ui.mra.async** system property.
 
     For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-    1.  Select **New**.
+    1.  Set the Value to **true**.
 
-    2.  Add a system property named **glide.ui.mra.async**.
-
-    3.  Set the Value to **true**.
-
-    4.  Select **Submit**.
+    2.  Select **Submit**.
 
 3.  Add the **glide.ui.mra.threshold** system property.
 
-    1.  Select **New**.
+    For more information on adding system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
-    2.  Add a system property named **glide.ui.mra.threshold**.
-
-    3.  Specify how many records can be added before asynchronous record addition occurs.
+    1.  Specify how many records can be added before asynchronous record addition occurs.
 
         The default is 100 records.
 
-    4.  Select **Submit**.
+    2.  Select **Submit**.
 
 
 ## Result

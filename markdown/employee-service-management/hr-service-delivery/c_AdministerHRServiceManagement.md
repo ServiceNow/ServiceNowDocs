@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Administration
@@ -18,8 +18,6 @@ Administer the Case and Knowledge Management application to improve HR efficienc
 
 **Note:** To use guided setup to help configure HR Service Delivery on your instance, navigate to **HR Administration** &gt; **Guided Setup**. For further information on how to use the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 
--   **[Guided setup for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/guided-set-up-hr.md)**  
-Run the guided setup to complete the relevant tasks for getting started with the HR Scoped application.
 -   **[HR properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_HRProperties.md)**  
 HR properties control the behavior of HR Service Delivery.
 -   **[Configure how HR cases are created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/CreateModCaseCreationConfig.md)**  
@@ -47,7 +45,7 @@ HR cases can be automatically assigned to your agents via an HR case template, a
 -   **[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)**  
 Use Labor Unions to define the details about unions within your company.
 -   **[Configure an HR badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/CreateModHRBadges.md)**  
-Use **Badges** to create or modify existing identification badges used to quickly identify the organization of the **Assigned to** person for the **Activity** on the **HR Ticket** page.
+Use **Badges** to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the **HR Ticket** page.
 -   **[Response templates for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-templated-snippets.md)**  
 You can use response templates with HR Service Delivery to resolve cases faster and more efficiently.
 -   **[HR synonym dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-synonym-dictionary.md)**  
@@ -62,8 +60,6 @@ Capture multiple job records for a user with the new Jobs \(sn\_hr\_core\_job\) 
 Configure your HR services to use the Standard Ticket page to provide a consistent user experience for your employees.
 -   **[Translations for HR cases and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/translation-of-hr-cases-and-tasks.md)**  
 Enable translations on HR case and task templates so that employees can view the short descriptions and descriptions of their HR cases and tasks in their preferred language.
--   **[Employee Profile table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/employee-profile.md)**  
-The Employee Profile \(sn\_employee\) plugin provides an Employee Profile \(sn\_employee\_profile\) table that makes the employment start date and employment end date fields available outside of HR Service Delivery. For example, the table can be used with Strategic Portfolio Management to update the resource capacity of users.
 -   **[Link generator for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/HRLinkGenerator.md)**  
 Use the Link Generator to create a link on an HR case form that accesses information outside of the application to help fulfill the case.
 -   **[HR flows and triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-flows-and-triggers.md)**  
@@ -71,5 +67,5 @@ HR flows created in Workflow Studio use natural language to automate approvals, 
 -   **[Employee passport](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/employee-passport.md)**  
 Enable employee's data export, which can be used by any other agency or department for tracking, compliance, and regulatory purposes.
 
-**Parent Topic:**[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
+**Parent Topic:**[Configuring Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configuring-ckm.md)
 

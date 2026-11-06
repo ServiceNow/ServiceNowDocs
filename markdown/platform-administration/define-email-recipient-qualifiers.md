@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/define-email-recipient-qualifiers.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Email client configurations, Configure email client, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email client configurations, Configure, Email client, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Define email client recipient qualifiers

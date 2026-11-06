@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [GCP AlloyDB for PostgreSQL, AlloyDB for PostgreSQL, Google Cloud Platform \(GCP\) AlloyDB for PostgreSQL, AlloyDB]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Google Cloud Platform \(GCP\) AlloyDB for PostgreSQL discovery using patterns
@@ -19,7 +19,7 @@ Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - 
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -229,5 +229,5 @@ The Google Cloud Platform \(GCP\) - AlloyDB for PostgreSQL pattern collects tags
 |Configuration item \[configuration\_item\]|References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table|
 |Configuration item \[configuration\_item\]|References the Cloud DataBase Cluster \[cmdb\_ci\_cloud\_db\_cluster\] table|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

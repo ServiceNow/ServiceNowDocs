@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Compliance case workflow
@@ -53,7 +53,7 @@ After all the analysis for the reported case is completed, the case analyst init
 
 ## Post case review and closure
 
-The case analyst analyzes the causes and consequences of the case. Then, the case analyst​ conduct​s a root-cause analysis to remove the cause of the case. The case analyst can review the case to identify and manage the issues that are related to the impacted areas. For more information, see [Add or create an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md). Finally, the compliance analyst works closely with the various teams to review and close the compliance case.
+The case analyst analyzes the causes and consequences of the case. Then, the case analyst​ conduct​s a root-cause analysis to remove the cause of the case. The case analyst can review the case to identify and manage the issues that are related to the impacted areas. For more information, see [Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md). Finally, the compliance analyst works closely with the various teams to review and close the compliance case.
 
 **Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/ccm-overview.md)
 

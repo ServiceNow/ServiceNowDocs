@@ -1,0 +1,65 @@
+---
+title: Provide immediate final credit
+description: Issue immediate final credit to the Visa card holder.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/provide-immediate-final-credit-visa.html
+release: yokohama
+product: Dispute Management
+classification: dispute-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Provide immediate final credit
+
+Issue immediate final credit to the Visa card holder.
+
+## Before you begin
+
+Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
+
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-combine-csm-industry-roles.md).
+
+## About this task
+
+Based on business rules, the bank can make a determination to issue immediate final credit to the card holder. Immediate final credit can be issued during the Investigation stage.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
+
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
+
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+
+5.  In the open task tab, select the dispute transaction.
+
+    The transaction opens in the **Dispute workspace**.
+
+6.  Select the **Immediate final credit** task from the **Dispute workspace**.
+
+7.  Select the immediate final credit task that you want to complete.
+
+8.  Fill in the required fields in the form, and any other related information that you have gathered.
+
+9.  In the **Work notes** field, enter any comments.
+
+10. After you have entered the details in the task, select **Update**.
+
+11. Close the task from the playbook.
+
+
+## Result
+
+The task state updates to Closed Complete. The dispute transaction moves to the Chargeback stage.
+
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-stage.md)
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsd-integration-indoor-mapping.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ Install the dependent plugins for Indoor Mapping.
 -   **[Create a new Indoor Mapping space](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/create-new-ind-mapping-space.md)**  
 Create a Indoor Mapping space in Workplace Indoor Mapping.
 
-**Parent Topic:**[Configure Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
+**Parent Topic:**[Configuring Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
 
 **Related topics**  
 

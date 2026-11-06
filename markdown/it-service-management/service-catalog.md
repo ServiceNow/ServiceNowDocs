@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-catalog.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics KPIs and dashboards, Platform Analytics ITSM Dashboards, IT Service Management]
 ---
@@ -20,8 +20,6 @@ KPIs for Service Catalog.
 |------------------|-----------|
 |Catalog Item best practice deviations|Number of deviations from the best practices for active catalog items.|
 |Catalog item VA render type|Catalog items distributed by how they will be rendered on a Virtual Agent bot.|
-|Catalog item fulfillment automation level distribution|Distribution of the catalog items that are fulfilled automatically.|
+|Catalog item fulfilment automation level distribution|Distribution of the catalog items that are fulfilled automatically.|
 |Catalog item translation coverage|Language wise distribution of the catalog items that are translated.|
-
-For more information on Service Catalog KPIs see, [Monitoring aggregated catalog item data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/monitor-aggregated-catalog-item-data.md).
 

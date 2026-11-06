@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-process-form-header.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize the page header for a playbook page
@@ -26,7 +26,7 @@ Overview information for a record is available in the page header.
 
 1.  Navigate to **All** &gt; **Now Experience Framework ** &gt; **Configuration Settings** &gt; **UX Header Configurations**.
 
-2.  Select the **CSM/FSM Configurable Workspace Header Config** header configuration.
+2.  Select the CRM Workspace header configuration.
 
 3.  Select a table from the UX Form Headers list.
 

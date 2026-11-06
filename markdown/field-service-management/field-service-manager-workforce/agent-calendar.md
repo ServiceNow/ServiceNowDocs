@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing agent skills, schedules and tasks in Field Service Agent Management, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing agent skills,schedules, and tasks, Managing workforce, Use, Field Service Management]
 ---
 
 # Managing agent calendar
@@ -137,9 +137,7 @@ Agent schedule user\[agent\_schedule\_user\]
 Allows customer service agents and field service technicians to access and update their personal calendars.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Managing agent skills, schedules and tasks in Field Service Agent Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/field-service-agent-management.md)
-
-**Related topics**  
+</table>**Related topics**  
 
 
 [Creating and using schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UseSchedules.md)

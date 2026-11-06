@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Time off balances in Employee Center Pro Kiosk
@@ -36,4 +36,9 @@ The **Time off** tab displays:
 The display title of the **Time off** tab is customizable. For more information, see [Customize the time off widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/widget-mapping-time.md).
 
 For more information on customizing the data display in Kiosks, see [Customize data display in Kiosks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-implementation-kiosk.md).
+
+-   **[Customize the time off widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/widget-mapping-time.md)**  
+Customize the time off widget on the Employee Profile to display it to your preference.
+
+**Parent Topic:**[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
 

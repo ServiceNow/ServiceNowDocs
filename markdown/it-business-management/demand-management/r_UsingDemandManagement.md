@@ -7,14 +7,25 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Use Demand Management
 
 Users with the demand manager role can create, view, and modify demands using the Demand Management application.
+
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
 
 You can also approve demands and create the following artifacts from the approved demands:
 
@@ -156,6 +167,10 @@ The demand is moved to the completed state.After reviewing the record, select on
 The Demand Management application comes with two demand visualization tools that can aid decision makers with demand assessment.
 -   **[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)**  
 Create demands to capture your strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
+-   **[Identify similar records using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/identify-similar-demands.md)**  
+Use the identify similar records skill to find demand records with similar names, descriptions, or business case content.
+-   **[Summarize demands with the demand summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/demand-summary-demand-classic.md)**  
+Summarize demand records using the demand summarization skill. The skill reviews the demand fields and related lists and helps create a clear summary of the demand.
 -   **[View demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_ViewDemands.md)**  
 You can view existing demands at any time.
 -   **[Add details to demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_EnhancingDemands.md)**  
@@ -163,17 +178,19 @@ The demand manager typically works with a business relationship manager to ident
 -   **[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ridac-entries-for-demand.md)**  
 RIDAC is an acronym for Risk, Issue, Decision, Action, and Request Changes records. Create a risk for your demand that you can convert to other records during the demand life cycle. Track issues and avoid manual copying of relevant details in related records.
 -   **[Reset a demand to Draft state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reset-demand-to-draft-state.md)**  
-A demand can be moved back to Draft state, if required.
+A demand can be moved back to the Draft state, if necessary.
 -   **[Delete demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_DeletingDemands.md)**  
 Demands can be deleted only while in the Pending state.
 -   **[Move and resize a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_MoveAndResizeADemand.md)**  
 As the demand manager, you can move and resize bubbles in the bubble chart.
 -   **[Train the similarity solution for Demand Management to find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/train-similarity-solution-dm.md)**  
-Train the Similar Demands solution definition included within the Predictive Intelligence for PPM capability to find related demands when creating a demand.
+Train the Similar Demands solution definition is included within the Predictive Intelligence for PPM capability to find related demands when creating a demand.
 -   **[PPM PIWB template - Find similar demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ppm-piwb-demand.md)**  
 Use a guided template that walks you through training the Similar Demands solution definition for finding similar demands.
--   **[Identify similar records using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/identify-similar-demands.md)**  
-Detect similar demand records using the identify similar records Now Assist skill. This skill detects similar demand records based on contextual similarity in the name, description, and business case content.
+-   **[Associate AI systems with demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/associate-ai-systems-with-demands.md)**  
+Add and manage AI system associations directly from the **AI Associations** tab in Demand Management.
+-   **[Work with demands in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/my-demands-widget-ppm.md)**  
+The My Demands widget and conversational experience in Employee Slate brings demand creation and tracking into a single, conversation-first workspace. Requesters can create demands through the conversational experience and track them using widgets.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandManagement.md)
 

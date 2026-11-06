@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring components for responsive authoring
@@ -52,17 +52,11 @@ A method of increasing page usability is to tailor the look and feel of componen
 
 10. View the page at the desktop form factor.
 
-    \[Omitted image "responsive-author-config1.png"\] Alt text: Page showing list component at desktop form factor with icons, multiple columns displayed, and pagination information.
-
-    Note the elements displayed, including the icons at the top, the number of columns, and the pagination information at the bottom.
-
 11. Select the mobile form factor icon.
 
     \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
 
     At the mobile form factor, the list component is crowded and contains both vertical and horizontal scroll bars.
-
-    \[Omitted image "responsive-author-layout13.png"\] Alt text: Page displayed at mobile form factor with list component.
 
     Make some simple configuration changes to improve the usability and appearance for the mobile form factor.
 
@@ -99,8 +93,6 @@ A method of increasing page usability is to tailor the look and feel of componen
     4.  Select **Save**.
 
     The range, row count, and rows per page selector were removed. \(The row count is still available at the top of the mobile screen\).
-
-    \[Omitted image "responsive-author-layout14.png"\] Alt text: Page displayed at mobile form factor with configured list component.
 
     In the configuration panel, the options and fields you edited are marked with the mobile cascade icon.
 

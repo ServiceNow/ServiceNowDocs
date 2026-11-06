@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Operational Technology Incident Management, Operational Technology]
 ---
@@ -16,6 +16,10 @@ breadcrumb: [Operational Technology Incident Management, Operational Technology]
 
 After you complete all required set up tasks for the Operational Technology Incident Management application, you can begin managing OT incidents.
 
+-   **[Using ServiceNow Otto for Operational Technology \(OT\) Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/using-now-assist-otsm.md)**  
+You can summarize an Operational Technology \(OT\) incident and generate OT resolution notes by using the ServiceNow Otto for OT Service Management application.
+-   **[Agentic AI for Operational Technology Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/now-assist-otsm-use-cases.md)**  
+Use the Operational Technology Service Management \(OTSM\) AI agent collection to complete tasks autonomously.
 -   **[Managing OT incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/managing-ot-incidents.md)**  
 Depending on your assigned user role, you can manage OT incidents in the Industrial Workspace.
 -   **[Access control for incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/access-control-ot-incidents.md)**  
@@ -24,7 +28,7 @@ To help separate Operational Technology \(OT\) and Information Technology \(IT\)
 Create an Operational Technology \(OT\) incident record to report a deviation from an expected standard of operation.
 -   **[Create an Operational Technology incident from an Operational Technology change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/create-ot-incident-from-ot-change.md)**  
 Create an Operational Technology \(OT\) incident related to an OT change request directly from the OT change record in the Industrial Workspace.
--   **[Create tasks to fulfill an incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/create-ot-incident-task.md)**  
+-   **[Create tasks to fulfill an OT incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/create-ot-incident-task.md)**  
 Create a set of incident tasks to fulfill an Operational Technology \(OT\) incident. Incident tasks help you to split up and categorize the work that is needed to resolve an incident.
 -   **[Create a child incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-incident-management/create-a-child-ot-incident.md)**  
 Create a child Operational Technology \(OT\) incident record to capture part of the deviation reported so that it can be worked on separately. Creating child incidents can help you organize multiple incidents related to the same parent.

@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System Events, Build workflows]
 ---
@@ -29,5 +29,5 @@ You can use script actions to create server-side scripts that perform a variety 
 -   **[Sample scripts from the change events business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/r_ChangeEventsSampleScripts.md)**  
 Several scripts are found in the baseline change events business rule.
 
-**Parent Topic:**[Build workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/build-workflows.md)
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/system-events-landing.md)
 

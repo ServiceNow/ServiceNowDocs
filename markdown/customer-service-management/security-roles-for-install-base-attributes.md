@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/security-roles-for-install-base-attributes.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install base characteristics, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Install base characteristics, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Security roles for the install base characteristics
@@ -44,7 +44,7 @@ sn\_install\_base.install\_base\_viewer
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core\] \[sn\_prd\_pm plugin
+Customer Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core\] \[sn\_prd\_pm plugin
 
 </td><td>
 
@@ -66,7 +66,7 @@ sn\_install\_base.customer\_install\_base\_viewer
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core \[sn\_prd\_pm plugin\]
+Customer Install Base Management \[com.snc.install\_base\_characteristics\] and Product Catalog Management Core \[sn\_prd\_pm plugin\]
 
 </td><td>
 
@@ -88,7 +88,7 @@ sn\_install\_base.install\_base\_manager
 
 </td><td>
 
-Customer Service Install Base Management \[com.snc.install\_base\_characteristics\]
+Customer Install Base Management \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
@@ -131,7 +131,7 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_read\_granular
 
 </td><td>
 
-Customer Service Install Base Characteristics \[com.snc.install\_base\_characteristics\]
+Customer Install Base Characteristics \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
@@ -154,7 +154,7 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_create\_granular
 
 </td><td>
 
-Customer Service Install Base Characteristics \[com.snc.install\_base\_characteristics\]
+Customer Install Base Characteristics \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
@@ -174,7 +174,7 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_write\_granular
 
 </td><td>
 
-Customer Service Install Base Characteristics \[com.snc.install\_base\_characteristics\]
+Customer Install Base Characteristics \[com.snc.install\_base\_characteristics\]
 
 </td><td>
 
@@ -189,4 +189,9 @@ sn\_ib\_chars.install\_base\_item\_characteristics\_read\_granular
 sn\_install\_base.install\_base\_manager
 
 </td></tr></tbody>
-</table>
+</table>|Role title|Required Plugin|Description|Contains roles|Added to role|
+|----------|---------------|-----------|--------------|-------------|
+|sn\_customerservice.customer|Case Management Core \[com.sn\_customerservice\]|This role provides access to research and manage install base items and their associated characteristics. Users with this role can view install base items, including all related characteristics and assets associated with their accounts. This role is intended for external users only.|sn\_esm\_user,snc\_external|None|
+
+For more information on the customer roles, see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
+

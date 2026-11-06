@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Duplicate CIs remediation, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components installed for duplicate CI remediation
@@ -66,6 +66,18 @@ De-duplication template suggested task\[sn\_cmdb\_ws\_reconcile\_duplicate\_temp
 
 Mappings of de-duplication tasks to templates.
 
+</td></tr><tr><td>
+
+De-duplication Related Table Configurations\[reconcile\_duplicate\_related\_table\_config\]
+
+</td><td>
+
+Settings per related table \(table that references CIs\) to disable workflows \(for example, skip business rules\) and/or ignore database errors during remediation. Disabling workflows such as skipping those business rules, that block the update of referenced CIs to the main CI, allows de-duplication tasks that otherwise fail, to complete.
+
+ In the base system, this table contains records for the Change \[change\_request\] and the Task CI \[task\_ci\] related tables, which are configured to disable workflow and to proceed with errors.
+
+ For more information about how to use this table, see [Turn off workflows of related tables during remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dedup-ci-disable-workflow.md).
+
 </td></tr></tbody>
 </table>## Scheduled jobs installed
 
@@ -115,6 +127,4 @@ Runs hourly to count the number of tasks that match each published template and 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
-
-**Parent Topic:**[Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md)
 

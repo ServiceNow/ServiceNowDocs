@@ -7,7 +7,7 @@ release: yokohama
 product: Search Administration
 classification: search-administration
 topic_type: reference
-last_updated: "2025-02-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -69,9 +69,5 @@ These are search fields and widgets offered in the ServiceNow AI Platform UI or 
 -   **[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-landing-page.md)**
 
     The Virtual Agent platform uses search to help parse user statements and intents in chats.
-
--   **[Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist.md)**
-
-    The Agent assist feature in Workspace automatically displays possible solutions for records that agents open.
 
 

@@ -7,7 +7,7 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2026-02-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,10 +35,11 @@ Assignment Rules
 -   `admin`
 -   `snc_read_only`
 -   `impersonator`
+-   `snc_required_script_writer_permission`
 
 </td><td>
 
--   Maximum of three concurrent time-limited roles per user can be assigned
+-   Maximum of four concurrent time-limited roles per user can be assigned
 -   Time-limited role can be maximum of 5 days per user.
 -   Time-limited assignments can handle more than one role assignment to a user, even if the total duration across assignments is less than five days.
 

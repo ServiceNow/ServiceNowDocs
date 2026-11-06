@@ -1,44 +1,30 @@
 ---
-title: Day 2 operations using workflows
-description: Take advantage of the workflows framework to automate your Day 2 operations. Quickly write a workflow that communicates with a Cloud API or a particular resource. Use SSH, PowerShell, or a similar tool, to access and then extend the workflow capabilities.
+title: Day 2 operations using Workflow Studio subflow
+description: Take advantage of the flow designer to automate your Day 2 operations. Quickly write a subflow that communicates with a Cloud API or a particular resource.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/day-2-ops-using-workflows.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Day 2 operations using workflows
+# Day 2 operations using Workflow Studio subflow
 
-Take advantage of the workflows framework to automate your Day 2 operations. Quickly write a workflow that communicates with a Cloud API or a particular resource. Use SSH, PowerShell, or a similar tool, to access and then extend the workflow capabilities.
+Take advantage of the flow designer to automate your Day 2 operations. Quickly write a subflow that communicates with a Cloud API or a particular resource.
 
 Day 1 operations provision resources in a cloud as part of ordering from the ServiceNow catalog or the cloud catalog. These operations result in a stack that contains a list of provisioned resources. Day 2 operations can be carried out on the resources that are part of the stack or the resources discovered by the system.
 
-Previously, to execute Day 2 operations in Cloud Provisioning and Governance, you had to interact directly with the Cloud API \(CAPI\), which frequently meant that you had to write new APIs to support a new operation. With the ability to map Day 2 operations to workflows, you can now more easily use base-system workflow capabilities.
+Previously, to execute Day 2 operations in Cloud Provisioning and Governance, you had to interact directly with the Cloud API \(CAPI\). This frequently meant that you had to write new APIs to support a new operation. You can now use subflows to map Day 2 operations and create REST endpoints that call cloud providers and trigger platform-specific actions.
 
-Capabilities include:
+## Learn more
 
--   SSH/PowerShell to connect to a VM.
--   Use REST end points to call various Cloud Providers.
--   Invoke platform-specific features.
+To learn about flows, subflows, and actions in general, see:
 
-Rules with workflows
-
-Cloud Provisioning and Governance supports using ServiceNow AI Platform rules with workflows. Rules are collections of conditions and actions. ​If all conditions of a rule evaluate to true, the system performs the actions. If any condition evaluates to false, the system does not perform the actions. Creating rules helps you track activities and more quickly respond to and resolve issues.
-
-Learn more
-
-To learn about workflows in general, see:
-
--   [Workflow overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/c_WorkflowOverview.md)
--   [Create a workflow from a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/t_CreateAWorkflowFromATable.md)
-
-To learn about how to work with variables in workflows, see:
-
--   [Workflow input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/c_UsingVariablesInAWorkflow.md)
--   [Using variables in a workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/c_UsingVariablesInAWorkflow.md)
+-   [Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)
+-   [Exploring subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-subflows.md)
+-   [Exploring actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-actions.md).
 

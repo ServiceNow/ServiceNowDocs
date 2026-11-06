@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -22,16 +22,14 @@ The Application Risk Dashboard is useful for the Chief Information Officer \(CIO
 
 The Application Risk and Compliance Overview dashboard provides you a detailed report of the risk and compliance posture of all the business applications in an organization.
 
-\[Omitted image "advanced-grc-dashboard.png"\] Alt text: Advanced GRC application risk dashboard
-
-This dashboard highlights the following:
+The dashboard highlights the following:
 
 -   The compliance impact of applications in use.
 -   The risk posture of applications.
 -   The state of remediation and exceptions activity of the issues.
 -   The audit activity around applications and status.
 
-This dashboard provides answers to the following questions that are of interest to the CIO and the application owner:
+The dashboard provides answers to the following questions that are of interest to the CIO and the application owner:
 
 1.  What are the key applications, and are they all operational and delivering the required services optimally?
 2.  What are the policies and authority documents that the applications must be compliant to? Are the applications compliant to them?

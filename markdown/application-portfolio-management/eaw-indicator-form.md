@@ -1,16 +1,16 @@
 ---
-title: New Indicator form
+title: Indicator form
 description: Application indicators are business metrics that assess the applications across dimensions such as cost, quality, technical risk, investments, user satisfaction, and business value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-indicator-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# New Indicator form
+# Indicator form
 
 Application indicators are business metrics that assess the applications across dimensions such as cost, quality, technical risk, investments, user satisfaction, and business value.
 
@@ -106,8 +106,6 @@ Frequency
 
 Frequency determines the interval at which the data for the indicator source should be collected.The **Frequency** field isn’t available when **Performance Analytics** is selected from the **Data source** list.
 
-The indicator frequency must match the fiscal period being scored for the **Target maximum** and **Target minimum** values to be applied during normalization. If the frequencies don’t match, the system uses dynamic normalization instead.
-
 </td></tr><tr><td>
 
 Target maximum
@@ -148,10 +146,6 @@ Consider Absolute Values
 
 Option to consider values from the **Target maximum** and **Target minimum** fields. This field is available only when values are entered in the **Target maximum** and **Target minimum** fields.
 
- When the check box is cleared, values for target maximum and target minimum are considered based on the [intelligent logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/application-score-profile.md).
-
-The target maximum and target minimum values are applied only when the indicator frequency matches the fiscal period being scored. If the frequencies don’t match, the system uses dynamic normalization regardless of whether this check box is selected.
-
 </td></tr></tbody>
 </table><table id="table_xmb_fst_ncc"><thead><tr><th>
 
@@ -170,10 +164,10 @@ Data source
 Defines the location from which the indicator receives data.
 
  -   **Performance Analytics**: Collects scores from indicators created in Performance Analytics. See [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_Indicators.md).
--   **Custom Script**: Enables you to write a script that collects data from another application. Beneath the **Data Source** field, a sample script appears. Customize the script as needed.
--   **Query Condition**: Enables you to select a table to run filters on to obtain data.
--   **Assessments**: Enables you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md). To view results of survey assessments within Enterprise Architecture, see [Generate survey assessments and view results within APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-survey-assessments-results-apm.md).
--   **Indicators**: Enables you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
+-   **Custom Script**: Allows you to write a script that collects data from another application. Beneath the **Data Source** field, a sample script appears. Customize the script as needed.
+-   **Query Condition**: Allows you to select a table to run filters on to obtain data.
+-   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md).
+-   **Indicators**: Allows you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
 
 For example, if the parent indicator is number of issues, the dependent indicators can be number of incident counts, number of problems, and changes. These dependent indicators are child indicators and the number of incidents, problems, and changes recorded are consolidated up to the parent indicator as the number of issues.
 
@@ -186,7 +180,7 @@ Indicator
 
 The **Indicator** field appears when **Performance Analytics** is selected from the **Data source** list.Indicators are statistics that are used to measure current conditions and forecast trends.
 
- **Note:** If the collection frequency of the application indicator is not greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`. For more information, see [Collection of PA indicator score data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/pa-indicators-jobs.md).
+ **Note:** If the collection frequency of the application indicator is not greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`.
 
 </td></tr><tr><td>
 
@@ -238,7 +232,7 @@ Category of the metric.
 |Click through URL navigation type|Select whether to view the application or capability indicator details in a new window, in the same window, or in a dialog box.|
 |Click through URL script|The script associated with an indicator that allows users to select a URL and view the indicator data in a related application or dashboard. This enables quick access to relevant information, or actions related to the indicator data.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

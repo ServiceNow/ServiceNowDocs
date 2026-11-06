@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [OAuth Inbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [Old inbound integrations experience, OAuth inbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Configure an OAuth OIDC provider for accepting third-party token
@@ -24,7 +24,7 @@ Role required: oauth\_admin
 
 The ServiceNow AI Platform supports OpenID Connect \(OIDC\) through the external Single Sign-On \(SSO\) implementation in addition to inbound API calls.
 
-For an example of an OIDC provider configuration, see [Set up Microsoft Entra ID spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-azure.md). For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-OIDC-configuration-SSO.md).
+For an example of an OIDC provider configuration, see . For an SSO-specific example of an OIDC provider configuration, see [Create an OpenID Connect \(OIDC\) configuration for Single Sign-On \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-OIDC-configuration-SSO.md).
 
 ## Procedure
 
@@ -111,7 +111,7 @@ Client Type
 Choose the client type, based on the type of your client. Options:-   **Iframe Embedded**
 -   **Integration as a User**
 -   **Integration as a Service**
-To learn more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-type.md).
+To learn more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>3.  Select **Submit**.
@@ -130,7 +130,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 6.  Go to the related list on the record User Provisioning to enable automatic user provisioning.
 
-<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d221448e308">
+<table id="choicetable_wzq_2cc_l2b"><tbody><tr><td id="d284952e307">
 
 **Automatically provision users**
 
@@ -138,7 +138,7 @@ To learn more, see [Configure client type for OAuth and SSO records](https://raw
 
 Option to enable force authentication for users.
 
-</td></tr><tr><td id="d221448e317">
+</td></tr><tr><td id="d284952e316">
 
 **Provision data source**
 
@@ -146,7 +146,7 @@ Option to enable force authentication for users.
 
 The data source to use to transform an OIDC token to a ServiceNow user. Use the **Lookup list** to select the predefined data source template, then open the record to configure the Transformed table mapping. When configuring the Transform mapping, the source fields are from the **JWT token**, the target fields are from the **sys\_user** table.
 
-</td></tr><tr><td id="d221448e338">
+</td></tr><tr><td id="d284952e337">
 
 **User roles applied to provisioned users**
 

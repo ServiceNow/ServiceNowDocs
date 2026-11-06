@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # Create an outbound REST message
@@ -18,7 +18,7 @@ Create outbound rest message to authorize instance as authorization server.
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 ## Procedure
 

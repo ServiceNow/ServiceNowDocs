@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/reviewing-customer-accounts.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Reviewing customer or partner accounts
 
 Learn how your order entry and fulfillment agents, managers, and fulfillers can use the 360 View in the Order Management application to get a better perspective about the activity that is associated with a customer's or partner's account.
-
-## Overview
 
 As an order agent, manager, or fulfiller, you can use your customer's or partner's account Information to gain a clear understanding of the contact, order, customer service, product inventory, and installed base item activity for an account. With this information, you can track the following types of information:
 
@@ -25,8 +23,15 @@ As an order agent, manager, or fulfiller, you can use your customer's or partner
 
 **Note:** To learn how to create new customer accounts, see [Configure accounts and contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-csm-accounts-contacts.md) in Customer Service Management \(CSM\).
 
--   **[Review an account by using the 360 View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/review-customer-account-360-view.md)**  
+-   **[Review an account using the 360 View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/review-customer-account-360-view.md)**  
 Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reviewing-approving-fulfilling-orders.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

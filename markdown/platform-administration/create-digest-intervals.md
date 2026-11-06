@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/create-digest-intervals.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ Before adding an email digest interval, review the base system digest intervals 
 
     |Action|Description|
     |------|-----------|
-    |To add an interval|Click **New**.|
+    |To add an interval|Select **New**.|
     |To modify an interval|Select the interval to be changed.|
 
 2.  Enter the new or changed interval information:
@@ -38,13 +38,11 @@ Before adding an email digest interval, review the base system digest intervals 
     |Name|Interval name that describes the interval length of time, for example: Every 2 hours.|
     |Interval|Length of the interval, either number of **Days** or **Hours** \(hours, minutes, and seconds\). The minimum time length allowed is one hour, and the maximum time length allowed is seven days \(one week\).|
 
-3.  If you created an interval, click **Submit**, or if you changed an interval, click **Update**.
+3.  If you created an interval, select **Submit**, or if you changed an interval, select **Update**.
 
-    The system updates the Digest Intervals \[sys\_email\_digest\_interval\] table with the new or modified interval. The digest interval is listed as an option in the notification preferences \(**Notifications** tab in the System Settings window\) when a user enables a digest for the notification. For example:
+    The system updates the Digest Intervals \[sys\_email\_digest\_interval\] table with the new or modified interval. The digest interval is listed as an option in the notification preferences \(From your user profile, navigate to **Preferences &gt; Notifications** when a user enables a digest for the notification.
 
-    \[Omitted image "NotifPrefEnableDigest.png"\] Alt text: Example notification settings for a notification with the email digest enabled
-
-4.  To delete an interval, select the interval to be deleted in the Digest Intervals \[sys\_email\_digest\_interval\] table and click **Delete**.
+4.  To delete an interval, select the interval to be deleted in the Digest Intervals \[sys\_email\_digest\_interval\] table and select **Delete**.
 
     **Note:** If the interval is in use, the system does not remove the interval.
 

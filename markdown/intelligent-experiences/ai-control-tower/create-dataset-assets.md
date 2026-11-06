@@ -7,10 +7,10 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Creating AI assets, Using AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Creating AI assets, Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create dataset assets
@@ -19,7 +19,7 @@ Create AI assets to track and manage the life cycles of your datasets.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance\_ai\_steward\] or Asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\]
+Role required: sn\_ai\_governance\_ai\_steward or sn\_ai\_asset\_mgmt.ai\_asset\_owner
 
 ## About this task
 
@@ -31,7 +31,7 @@ A dataset is a collection of structured or unstructured data that you can use to
 
 2.  From the AI Control Tower, open the AI assets view.
 
-3.  From the navigation menu of the AI assets view, navigate to **AI asset inventory** &gt; **Datasets**.
+3.  From the navigation menu of the AI assets view, navigate to either **AI asset inventory - Managed** &gt; **Datasets** or **AI asset inventory - Unmanaged** &gt; **Datasets**.
 
 4.  Select **Add dataset**.
 
@@ -107,7 +107,7 @@ Managed by
 
 </td><td>
 
-User who is assigned to manage the dataset. This field is automatically set to the user who creates the dataset asset.**Note:** This field is editable only if you have the AI steward \[sn\_ai\_governance\_ai\_steward\] role. If you have the AI asset owner \[sn\_ai\_asset\_mgmt.ai\_asset\_owner\] role, this field is read-only.
+User who is assigned to manage the dataset. This field is automatically set to the user who creates the dataset asset.**Note:** This field is editable only if you have the AI steward \(sn\_ai\_governance\_ai\_steward\) role. If you have the AI asset owner \(sn\_ai\_asset\_mgmt.ai\_asset\_owner\) role, this field is read-only.
 
 </td></tr><tr><td>
 
@@ -163,7 +163,7 @@ Brief document that describes important information about the dataset, including
 </td></tr></tbody>
 </table>6.  Select **Submit for review**.
 
-    **Note:** If you aren’t ready to submit the dataset for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the dataset from the list. When the AI asset record opens, select **Edit** to continue editing the dataset details.
+    **Note:** If you aren’t ready to submit the dataset for review, select **Save** instead. You can then edit it and submit it for review later by navigating to **AI assets** &gt; **Lifecycle** &gt; **Onboard** and then selecting the dataset from the list. When the AI asset record opens, continue editing the dataset details.
 
 
 ## Result

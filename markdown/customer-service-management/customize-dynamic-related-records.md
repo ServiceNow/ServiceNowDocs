@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-dynamic-related-records.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Playbook pages, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize the dynamic related records for a playbook page
@@ -22,9 +22,9 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 The definitions for the related records aren't active by default. You must activate these definitions if you want them to appear in the related records.
 
-Any change made to the customer service case dynamic related record context applies to all extensions of the customer service case. For creating custom context, see [Configure related record contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-related-record-contexts.md).
+Any change made to the customer service case dynamic related record context will also be applicable to all extensions of the customer service case. For creating custom context, see [Configure related record contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-related-record-contexts.md).
 
-You must define an EVAM \(Entity View Action Mapper\) view configuration for the tables in addition to setting up Dynamic Related Records. For more information, see [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/define-csm-evam-view-config.md).
+You must define an EVAM view configuration for the tables in addition to setting up Dynamic Related Records. For more information, see [Define an EVAM view configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/define-csm-evam-view-config.md).
 
 ## Procedure
 

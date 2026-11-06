@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project financials and Source-to-Pay Operations integration
@@ -18,7 +18,7 @@ Request, track, and manage procurement requests of assets for your projects.
 
 ## Before you begin
 
-[Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/activate-finance-spend-central.md)
+Install Sourcing and Procurement Operations
 
 Role required: it\_project\_manager
 

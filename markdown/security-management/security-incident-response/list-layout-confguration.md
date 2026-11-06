@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -27,10 +27,7 @@ The list layout configurations were already shipped for existing known tables sh
 **Note:**
 
 -   If you want to render the custom view for the existing tables, you can update respective table record in list layout configuration with custom list view.
--   For new task tables, you can create a new List Layout configuration to render the custom list view and labels. For more detailed procedure, see on how to [Step 4. Create a view for a new Linked Record Tab for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/creating-a-view-for-the-new-linked-record-tab.md)
-
-    \[Omitted image "list-layout-label.png"\] Alt text: List layout label
-
+-   For new task tables, you can create List Layout configuration to render the custom list view and labels. For more detailed procedure, see on how to [Step 4. Create a view for a new Linked Record Tab for a Security Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/creating-a-view-for-the-new-linked-record-tab.md)
 
 **Parent Topic:**[Rollup Framework for MSIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/roll-up-framework-for-major-security-incident-management.md)
 

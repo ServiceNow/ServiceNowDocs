@@ -1,5 +1,5 @@
 ---
-title: Using the IT Service Management Now Assist Voice AI agents
+title: Agentic AI in the Voice application
 description: Use the Voice AI agents to create and manage tickets for any IT service-related issues such as troubleshooting WiFi connections with voice calls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-voice.html
@@ -7,15 +7,19 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Using the IT Service Management Now Assist Voice AI agents
+# Agentic AI in the Voice application
 
 Use the Voice AI agents to create and manage tickets for any IT service-related issues such as troubleshooting WiFi connections with voice calls.
+
+Here is an example of how Voice AI agents work.\[Omitted video\] Description: AI Voice Agent Overview
+
+The Request catalog item with Voice AI agent video is an example that shows how to use a demo Voice AI agent.\[Omitted video\] Description: Demo Request catalog item with Voice AI agent
 
 ## Managing IT-related issues using Voice AI agents
 
@@ -34,16 +38,48 @@ To modify the Voice AI agents, duplicate it, and adjust the settings according t
 
 **Note:** The Voice AI agents are installed with the IT Service Management AI voice agent collection application \(sn\_itsm\_voice\_aia\).
 
-|Voice AI agent|Voice AI agent role|
-|--------------|-------------------|
-|Create incidents with voice AI agent|Creates an incident using voice.|
-|Manage tickets with voice AI agent|Manages tickets using voice.|
+<table id="table_abj_5lk_j2c"><thead><tr><th>
 
-**Note:** When you install the IT Service Management AI voice agent collection application \(sn\_itsm\_voice\_aia\) along with the demo data, you can activate the demo agents.
+Voice AI agent
+
+</th><th>
+
+Voice AI agent role
+
+</th></tr></thead><tbody><tr><td>
+
+Create incidents with voice AI agent
+
+</td><td>
+
+Creates an incident using voice.
+
+</td></tr><tr><td>
+
+Manage tickets with voice AI agent
+
+</td><td>
+
+Manages tickets using voice.
+
+</td></tr><tr><td>
+
+Password reset with voice AI agent
+
+</td><td>
+
+Fetches the information to reset your password in one of the following ways:**Note:** You can get the knowledge article when you install the demo data from the ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) application or you can create your own knowledge article with the password reset instructions.
+
+-   Provides the instructions from the knowledge article to reset the password in an email.
+-   Provide the reset password link by SMS.
+-   Reads out the URL for the reset password by voice.
+
+</td></tr></tbody>
+</table>**Note:** When you install the IT Service Management AI voice agent collection application \(sn\_itsm\_voice\_aia\) along with the demo data, you can activate the agents that are primers equipped with the essentials that you can expand on for your use cases.
 
 <table id="table_idk_bcm_vgc"><thead><tr><th>
 
-Voice AI agent
+Voice AI agent primers
 
 </th><th>
 
@@ -60,21 +96,19 @@ Request catalog item with voice AI agent
 
 </td></tr><tr><td>
 
-Password reset with voice AI agent
-
-</td><td>
-
-Fetches the information to reset your password in one of the following ways:-   Provides the instructions from the knowledge article to reset the password in an email.
--   Provide the reset password link by SMS.
--   Reads out the URL for the reset password by voice.
-
-</td></tr><tr><td>
-
 Troubleshoot Outlook issue with voice AI agent
 
 </td><td>
 
-Searches the knowledge base to troubleshoot outlook issues.
+Searches the knowledge base to troubleshoot outlook issues. The AI agent can also email relevant links to troubleshooting articles and instructions to users.
+
+</td></tr><tr><td>
+
+Submit account unlock catalog with voice AI agent
+
+</td><td>
+
+Creates and submits a catalog item when a user requests their account to be unlocked.
 
 </td></tr></tbody>
 </table>## Creating Voice AI agents to search knowledge articles

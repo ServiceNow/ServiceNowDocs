@@ -1,5 +1,5 @@
 ---
-title: Example WS-Security SOAP envelope header
+title: Example: WS-Security SOAP envelope header
 description: An example of a valid WS-Security SOAP envelope header.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/r\_SmplWSSecSOAPEnvHeader.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
-# Example WS-Security SOAP envelope header
+# Example: WS-Security SOAP envelope header
 
 An example of a valid WS-Security SOAP envelope header.
 

@@ -1,20 +1,20 @@
 ---
 title: Cross-channel favorites
-description: A cross-channel favorites provides quick access to the content the employees use frequently and offers extensibility for BUs.
+description: Cross-channel favorites capability provides quick access to the content the employees use frequently and offers extensibility for BUs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/app-launcher-usability.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Cross-channel favorites
 
-A cross-channel favorites provides quick access to the content the employees use frequently and offers extensibility for BUs.
+Cross-channel **favorites** capability provides quick access to the content the employees use frequently and offers extensibility for BUs.
 
 Employees can view and access their favorited content directly from the **My Favorites** widget on the Employee Center home page or from the **My Favorites** link on the global navigation bar.​
 

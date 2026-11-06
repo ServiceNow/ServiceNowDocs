@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Defining fiscal calendars, Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defining fiscal calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # View, modify, and validate fiscal periods - Legacy

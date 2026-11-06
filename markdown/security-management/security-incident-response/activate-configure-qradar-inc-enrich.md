@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [IBM QRadar - Incident Enrichment Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,8 +31,6 @@ Role required: sn\_si\_admin
     The available security integrations appear as a series of cards.
 
 4.  In the IBM QRadar - Incident Enrichment card, click **New**.
-
-    \[Omitted image "QRadar-config.png"\] Alt text: IBM QRadar - Incident Enrichment Configuration
 
 5.  Fill in the fields, as needed.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Define consent policies according to country
@@ -22,27 +22,27 @@ Role required: analytics\_admin
 
 ## About this task
 
-This task details how to set the various tracking consent policy options you have in the User Experience Analytics Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md).
+This task details how to set the various tracking consent policy options you have in the Usage Insights Consent Policies page. You have an option to return the policies to the default values. By default, all countries are set to No Consent Required. For a detailed explanation about the types of consent policies available, see [Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **UX Analytics Settings** &gt; **Consent Policies**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage Insights Settings** &gt; **Consent Policies**.
 
-    The User Experience Analytics Consent Policies page displays.
+    The Usage Insights Consent Policies page displays.
 
     **Note:** Select a policy to view a list of all countries associated with the selected policy.
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d62489e96">
+<table id="choicetable_dgs_bbb_gyb"><thead><tr><th align="left" id="d71851e99">
 
 User consent policy options
 
-</th><th align="left" id="d62489e99">
+</th><th align="left" id="d71851e102">
 
  
 
-</th></tr></thead><tbody><tr><td id="d62489e104">
+</th></tr></thead><tbody><tr><td id="d71851e107">
 
 **Action**
 
@@ -50,7 +50,7 @@ User consent policy options
 
 Procedure
 
-</td></tr><tr><td id="d62489e113">
+</td></tr><tr><td id="d71851e116">
 
 **Apply the same tracking consent policy to all countries.
 
@@ -63,7 +63,7 @@ Procedure
 3.  Select the confirmation check box and then select **Apply**.
 
 
-</td></tr><tr><td id="d62489e140">
+</td></tr><tr><td id="d71851e143">
 
 **Return to the default settings.
 
@@ -71,11 +71,11 @@ Procedure
 
 </td><td>
 
-1.  Select the **Reset to Default** button in the User Experience Analytics Consent Policies page. An alert message displays.
+1.  Select the **Reset to Default** button in the Usage Insights Consent Policies page. An alert message displays.
 2.  Select the confirmation check box, and then select **Reset**.
 
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

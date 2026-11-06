@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/optimization.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Customer Service Management, Customer Service Management]
+breadcrumb: [Explore, Customer Service Management]
 ---
 
 # Optimization
@@ -56,7 +56,7 @@ Key Features of process mining include:
 
 For more information about enabling the Process Mining content pack, see the following topics:
 
--   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/po-content-pack.md).
+-   [Activate Process Mining Content Packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/activate-po-content-pack.md).
 -   [Integrating with Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/process-opt-csm.md).
 
 ## Workforce Optimization
@@ -74,5 +74,5 @@ The advantages of Workforce Optimization for Customer Service include:
 -   Focus on all engagement channels and provide real-time help to your team members so that they can provide a better customer experience.
 -   Capture all the relevant data and apply these insights and guidance to your team.
 
-To learn more about the Workforce Optimization for Customer Service application, see [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/workforce-optimization-for-customer-service/configurable-wfo-cs.md).
+To learn more about the Workforce Optimization for Customer Service application, see [Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configurable-wfo-cs.md).
 

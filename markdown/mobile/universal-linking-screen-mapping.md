@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/universal-linking-screen-mapping.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile universal linking for supported URLs, Universal linking for mobile, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Supported URLs, Universal linking, Mobile URLs, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mapping specific mobile screens for universal linking

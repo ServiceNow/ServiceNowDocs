@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Notify Cisco Webex Connector, Configure, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure Notify Cisco Webex Connector, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a connection and credential alias for Notify connector for Cisco Webex Spoke
@@ -18,7 +18,7 @@ Create a credential record for the Notify connector for Cisco Webex account. The
 
 ## Before you begin
 
-Role required: admin
+Role required: notify\_setup\_admin
 
 ## Procedure
 

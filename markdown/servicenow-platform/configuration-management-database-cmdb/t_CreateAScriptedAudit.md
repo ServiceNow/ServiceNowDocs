@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Scripted audits, CMDB Compliance, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Scripted audits, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a scripted audit
@@ -163,7 +163,7 @@ The specific user this audit assigns to follow-on tasks. This field is available
 
 -   Assignment type is set to Specific User.
 -   Assign to empty is set to Create Assigned Task, and Assignment type is set to User Field.
- **Note:** Ensure that the specified user has the [certification role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/r_InstalledWithDataCertification.md).
+ **Note:** Ensure that the specified user has the certification role.
 
 </td></tr><tr><td>
 

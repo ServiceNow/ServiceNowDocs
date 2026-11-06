@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Redact sensitive data from documents, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,7 @@ Role required: none
 
 ## Procedure
 
-1.  From to the required record \(for example, Incident\).
+1.  From the workspace, navigate to the required record \(for example, Incident\).
 
 2.  Select the **Documents** tab.
 

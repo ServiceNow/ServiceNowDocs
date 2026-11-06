@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [DevOps Config reference, DevOps Config, IT Service Management]
 
 The CDM data model is a standardized data structure that supports the broader life cycle of software delivery — automation, quality validation, and CSDM. CDM imports existing config data, validates it using policies that you define, and exports valid config data to your organization's existing DevOps pipeline to implement applications, services, and infrastructure.
 
-**Important:** Starting with the Washington DC release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 ## CDM data model overview
 

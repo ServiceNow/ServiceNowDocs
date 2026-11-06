@@ -1,18 +1,18 @@
 ---
 title: Add additional contacts for the sold product
-description: Add additional contacts for the B2B \(accounts or contacts\) or B2B2C sold product by defining the type and responsibility. Once added, additional contacts have the same access to the contact associated to the sold product and the related entities.
+description: Add additional contacts for the B2B \(accounts or contacts\) or B2B2C sold product by defining the type and responsibility. Once added, additional contacts have the same access to the contact associated with the sold product and the related entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/adding-additional-contacts-soldproduct.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Adding related parties to a sold product, Using customer access management, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Adding related parties to a sold product, Using customer access management, Customer management, Use, Customer Service Management]
 ---
 
 # Add additional contacts for the sold product
 
-Add additional contacts for the B2B \(accounts or contacts\) or B2B2C sold product by defining the type and responsibility. Once added, additional contacts have the same access to the contact associated to the sold product and the related entities.
+Add additional contacts for the B2B \(accounts or contacts\) or B2B2C sold product by defining the type and responsibility. Once added, additional contacts have the same access to the contact associated with the sold product and the related entities.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin and sn\_customerservice\_manager
 
 ## About this task
 
-The responsibility assigned to the additional contact that is associated to a sold product gets access to the sold product and the related entities, which include installed products, install base items, and cases associated to sold products.
+The responsibility assigned to the additional contact that is associated with a sold product gets access to the sold product and the related entities, which include installed products, install base items, and cases associated with sold products.
 
 ## Procedure
 
@@ -76,7 +76,7 @@ Responsibility
 
 Access level to the sold product and related information.Additional contact with Authorized Representative responsibility requires the sn\_install\_base.sold\_product\_authorized\_contact role to get access to associated sold product and related entities. For details, see [Roles installed with customer access management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_rolesinstalledwithcustaccessmgmt.md).
 
- **Note:** If the **Responsibility** field is left empty, contacts will not have any access to the sold product and associated case.
+ **Note:** If the **Responsibility** field is empty, contacts won’t have any access to the sold product and associated case.
 
 </td></tr><tr><td>
 
@@ -102,7 +102,7 @@ Once additional contacts are added to the sold product with a proper functional 
 -   Create cases by selecting sold products or install bases.
 -   View the list of cases related to the sold products or affected install bases.
 -   View the list of installed products.
--   Access cases associated to the sold product.
+-   Access cases associated with the sold product.
 -   Manage service catalog requests from the sold product.
 
 **Note:**

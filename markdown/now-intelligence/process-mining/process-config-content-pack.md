@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [With content pack templates, Creating process configuration, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [With content pack templates, Creating process configuration, Use, Process Mining, Platform Analytics]
 ---
 
 # Create process configurations using content packs
@@ -18,7 +18,7 @@ Create process configurations using content packs to use the configuration alrea
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 

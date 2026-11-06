@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Workspace, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset operations overview for Enterprise Asset Workspace
@@ -20,7 +20,6 @@ Use the Asset operations view to perform the following tasks:
 
 -   View and create shipments
 -   Create shipment notifications
--   View the list of all import records that were performed in any stockroom. For more details, see [Import and receive assets in bulk at your stockroom in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/import-assets-for-receive-eam.md).
 -   View onboarding requests and tasks
 -   Create and view move orders.
 -   Create onboarding orders to onboard multiple enterprise assets at one go. For more details, see [Onboarding multiple enterprise assets in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/onboarding-multi-asset-from-ws.md).

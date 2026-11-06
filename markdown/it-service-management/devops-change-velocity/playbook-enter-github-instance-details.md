@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [GitHub, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -74,6 +74,18 @@ GitHub Enterprise
 
 `https://<your-instance-hostname>` **Note:** Self-hosted instance must be your own server.
 
+</td></tr><tr><td>
+
+GitHub Enterprise Cloud with data residency
+
+</td><td>
+
+GitHub
+
+</td><td>
+
+`https://uniqa.ghe.com`
+
 </td></tr></tbody>
 </table>**Note:**
 
@@ -90,15 +102,15 @@ Only enter a different hostname if you run a self-hosted GitHub Enterprise Serve
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard GitHub.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d360855e238">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d243833e254">
 
 Option
 
-</th><th align="left" id="d360855e241">
+</th><th align="left" id="d243833e257">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d360855e247">
+</th></tr></thead><tbody><tr><td id="d243833e263">
 
 **Homepage**
 
@@ -108,7 +120,7 @@ Steps
 2.  From the Connect to a tool modal, select the tool from the appropriate category \(Orchestration, Code, Plan, or Software quality\). For example, if you want to connect to GitHub as coding tool, you'd select the **Coding tools** category.
 
 
-</td></tr><tr><td id="d360855e274">
+</td></tr><tr><td id="d243833e290">
 
 **Applications module**
 
@@ -120,7 +132,7 @@ Steps
 4.  From the Connect to a tool modal, select the tool from the appropriate category. For example, if you want to connect to GitHub as coding tool, select GitHub under the **Code** category.
 
 
-</td></tr><tr><td id="d360855e329">
+</td></tr><tr><td id="d243833e345">
 
 **Tools module**
 
@@ -214,6 +226,8 @@ For the installation id, go to Install App section in your GitHub App configurat
 
     3.  Enter a value in the **GitHub app slug name** field to check the permission requirements of the tool before connecting if you have created your Oauth 2.0 credentials using GitHub Apps.
 
+        **Note:** If you are connecting to GitHub Enterprise Server with data residency controls, select your **username + app slug name** in the **GitHub app slug name** field.
+
         You can find the app slug name on the settings page of your app.
 
     4.  If your GitHub instance is attached to a MID Server, select the **MID Server** option and enter its details.
@@ -276,7 +290,7 @@ For the installation id, go to Install App section in your GitHub App configurat
     -   If you're connecting from the Applications module, then repositories and pipelines available are discovered. You can track and import historical data from them.
 7.  Select the plans to track.
 
-    1.  Select the plans for which you want to track updates and associate to the application.
+    1.  Select the plans for which you want to track updates and associate with the application.
 
         After the tool onboarding is complete, the work items only for these selected plans are automatically imported.
 
@@ -286,14 +300,18 @@ For the installation id, go to Install App section in your GitHub App configurat
 
 8.  Select the repositories to track.
 
-    1.  Select the repositories for which you want to track updates and associate to the application.
+    1.  Select the repositories for which you want to track updates and associate with the application.
     2.  Select **Next**.
 
         \[Omitted image "github-plybk-08.png"\] Alt text: Select repositories for tracking.
 
+        **Note:** If you want the automatic pipeline discovery \(scheduled job\) to process untracked repositories as well, set the **sn\_devops.discover.tracked\_repos\_only** system property to false.
+
     3.  If you want to import repository data, select the date range and select **Submit**.
 
         You can import up to 90 days of data. Workflows associated with the repositories will also be imported.
+
+    **Note:** You can't import commits from forked repositories. This limitation exists because the GitHub REST API does not return commit data for forked repositories.
 
 9.  Select the pipelines to track.
 

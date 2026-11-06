@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Discovery can run on a regular, configurable schedule, or can be launched manual
 
 ## Discovery configuration procedures
 
-Use the following links to configure Discovery for your environment. You don't need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, you can use Guided Setup, which expedites the setup of a basic Discovery.
+Use the following links to configure Discovery for your environment. You don't need to perform all these procedures to run a Discovery. The platform provides many defaults you can use to explore your network that are suitable for most discoveries. To get started quickly with Discovery, use the ITOM Configuration Console. The Configuration Console offers a faster way to install and update apps, with interactive configuration pages, task assignment, and automated implementation by ServiceNow Otto. For more information, see [ITOM Configuration Console for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/itom-conf-console.md).
 
 <table id="table_c4r_ztp_2cb"><tbody><tr><td>
 
@@ -38,7 +38,7 @@ Use the following links to configure Discovery for your environment. You don't n
 
 </td></tr><tr><td>
 
-[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
+[Domain separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 
 </td><td>
 

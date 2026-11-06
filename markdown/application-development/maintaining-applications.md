@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/maintaining-applications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Building applications]
+breadcrumb: [Classic app development, Building applications]
 ---
 
 # Maintaining your application
@@ -18,7 +18,7 @@ Use your app builder tool to update and modify your application. Use your testin
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Performance Analytics Reporting \[Omitted image "icon-par.png"\] Alt text: Performance Analytics Reporting Integrate data visualization and analytics functionality into the workspace experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-performance-analytics-reporting.md)
+[Performance Analytics Reporting \[Omitted image "icon-par.png"\] Alt text: Performance Analytics Reporting Integrate data visualization and analytics functionality into the workspace experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting-landing-page.md)
 
 </td><td>
 
@@ -81,7 +81,7 @@ Use your app builder tool to update and modify your application. Use your testin
 
     Your associates can get relevant, personalized insight by clicking a button instead of exporting data from databases and spreadsheets. You no longer manually create reports that quickly become stale and outdated.
 
--   **[Performance Analytics Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/workspace-performance-analytics-reporting.md)**
+-   **[Performance Analytics Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/reporting-landing-page.md)**
 
     Explore KPIs, and get answers and insights on analytics. Within the Platform Analytics Workspace, you can ask a natural language question and be shown the relevant analytics in an on-the-fly visualization, view any Next Experience dashboard that you own or has been shared with you, and create dashboards and data visualizations from your workspace runtime.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/access-customer-central.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Central for FSO, Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [Customer Central for FSO, Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Access Customer Central
@@ -26,7 +26,7 @@ Use Customer Central to get a quick insight into key customer information. You c
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  On the **Lists** tab, select **Customer** or **Interaction**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/domain-separation-field-service.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Planning your Field Service Management implementation, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Plan implementation, Configure, Field Service Management]
 ---
 
 # Domain separation and Field Service Management
@@ -26,7 +26,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Domain separation and Field Service Management overview
+## Field Service Management domain separation overview
 
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data. In the Field Service Management application, you can use the Company entity to drive domain separation. Assign a domain to each company and then any work orders and tasks created for a company are created within the company domain. Other entities and tasks related to work orders, such as dispatcher and assignment groups, part requirements, and transfer orders, are driven by the company and work order domains.
 

@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowGraphQLService interface - Android
+# NowGraphQLService interface- Android
 
 The NowGraphQLService interface provides functions that allow you to make GraphQL requests to your ServiceNow through its GraphQL API.
 
@@ -24,7 +24,7 @@ For more details on the ServiceNow GraphQL API, see [Query record data using the
 |----|----|-----------|
 |configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration to associate with the service.|
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowGraphQLService - graphQLRequest\(String query\)
 

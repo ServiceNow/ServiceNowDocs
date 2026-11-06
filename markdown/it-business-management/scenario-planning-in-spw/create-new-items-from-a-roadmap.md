@@ -1,5 +1,5 @@
 ---
-title: Create planning items from the roadmap view in Strategic Planning Workspace
+title: Create planning items from the roadmap view
 description: Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, edit free-form roadmap]
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create planning items from the roadmap view in Strategic Planning Workspace
+# Create planning items from the roadmap view
 
 Create and add new planning items to your portfolio roadmap or free-form roadmap directly from the roadmap view.
 
@@ -25,15 +25,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d115780e87">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d144024e93">
 
 Roadmap type
 
-</th><th align="left" id="d115780e90">
+</th><th align="left" id="d144024e96">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d115780e96">
+</th></tr></thead><tbody><tr><td id="d144024e102">
 
 **Portfolio plan roadmap**
 
@@ -43,7 +43,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d115780e117">
+</td></tr><tr><td id="d144024e123">
 
 **Free-form roadmap**
 
@@ -88,9 +88,9 @@ Multiple planning item types
 
 The new item appears on the roadmap, at a place based on its approved start and end dates.
 
-If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into a roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.md).
+If you don’t fill both the approved start and end date fields, the item that you created would be moved to the list of unscheduled items. You can add them to your roadmap plan later. For more information, see [Plan unscheduled items into a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.md).
 
--   **[Modify planning items from the roadmap view in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/manage-planning-items-from-the-roadmap-view.md)**  
+-   **[Modify planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/manage-planning-items-from-the-roadmap-view.md)**  
 Update the details of planning items or delete them from a portfolio plan or free-form roadmap so that your roadmap reflects the latest plans.
 
 **Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)

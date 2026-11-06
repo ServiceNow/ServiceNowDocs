@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-map-application-scope.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,15 +20,11 @@ Role required: admin
 
 ## Procedure
 
-1.  In the banner, click the gear icon \(\[Omitted image "SettingsIcon.png"\] Alt text: Settings\).
+1.  In the banner, select the Application scope icon \(\[Omitted image "polaris-scope-selector-icon.png"\] Alt text: Scope selector icon.\).
 
-2.  From the System Settings list, select **Developer**.
+2.  Select **Application scope: Global**.
 
-3.  From the Application list, select the application.
-
-4.  Toggle **Show application picker in header**.
-
-    An application picker appears in the header, enabling you to choose applications.
+3.  From the Application list, select the required application.
 
 
 **Parent Topic:**[Map pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_MapPages.md)

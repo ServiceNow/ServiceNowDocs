@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: concept
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
@@ -31,7 +31,7 @@ The dashboard contains a calendar section with a personalized week view that dis
 -   Calendar insights about collaborators and reservations on a specific day
 -   Personal insights that inform employees about being in office
 
-\[Omitted image "workplaceConcei-EmpPresForm.png"\] Alt text: Presence dashboard showing the Insights and calendar sections.
+
 
 **Note:**
 
@@ -42,13 +42,9 @@ The dashboard contains a calendar section with a personalized week view that dis
 
 The Workplace Concierge application enables employees to set their expected presence in the office. An employee can set the days of a week that they’re present at the office. An employee can also add their colleagues, managers, or stakeholders as collaborators to make them aware of their expected in-office presence during the week. By adding collaborators, employees can coordinate their in-office presence for better interaction, planning a meeting, or socializing.
 
-\[Omitted image "workplaceConcei-EmpPres.png"\] Alt text: Add routines window showing the in-office days set, added collaborators, and privacy settings.
-
 With the help of collaboration, employees can add each other as collaborators to be aware of each other's expected in-office days. They can plan their routines based on their work progress, meetings, plannings, and more. At any time, an employee can modify their in-office routine or set an exception for better interaction with the collaborators, boosting in-person interactions and performance.
 
 An employee can set their in-office days using the Workplace Service Portal, the Employee Center, and also the Now Mobile app.
-
-\[Omitted image "workplaceConcei-EmpPresMobile.png"\] Alt text: Setting the employee presence routine using the Now Mobile app.
 
 As an admin using the Employee Presence module in the Workplace Concierge application, you can perform the following:
 

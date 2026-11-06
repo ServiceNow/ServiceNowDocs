@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/predictive-intelligence-for-csm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Predictive Intelligence for CSM solution definitions
@@ -163,7 +163,7 @@ These business rules apply only to the CSM Case Assignment, CSM Case Categorizat
 
 **Upgrade Information**
 
-If your instance is running on the Kingston release and you are upgrading to the Yokohama release:
+If your instance is running on the Kingston release and you are upgrading to the Brazil release:
 
 -   Use the Default Case Based Prediction business rule template to create a new business rule. This rule includes a Solution variable that gets all active solutions retrieved by the findActiveSolution\(solutionName\) method.
 -   In a global domain environment, use the solutionNames array variable which requires that you explicitly provide the solutions that are called by the business rule.

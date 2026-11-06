@@ -1,24 +1,24 @@
 ---
-title: Use a view with a guided tour
-description: You can assign a list or form view to a guided tour step if you are changing from the Default view view to a different view, such as Self-Service.
+title: Assign a view to Guided Tours
+description: You can assign a list or form view to a step in a guided tour.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/use-view-guided-tour.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Guided Tours, Guided Tours, Adoption services, Configure user experiences]
+breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
 
-# Use a view with a guided tour
+# Assign a view to Guided Tours
 
-You can assign a list or form view to a guided tour step if you are changing from the **Default view** view to a different view, such as **Self-Service**.
+You can assign a list or form view to a step in a guided tour.
 
 ## Before you begin
 
-Role required: guided\_tour\_admin or admin
+Role required: guided\_tour\_admin
 
 ## About this task
 
@@ -26,38 +26,40 @@ To assign a view to a tour step, you must know the view name. The name you see i
 
 \[Omitted image "context-menu-view-titles.png"\] Alt text: Context menu view options
 
-**Note:** You can add a view to only one tour step in a guided tour, and only if the step starts on the default view. When the tour is played and the step is executed, the UI page refreshes with the new view.
+**Note:** You can add a view to only one step in a guided tour, and this is only possible if the step begins in the default view. When the tour is played and that step is executed, the user interface refreshes to display the new view.
 
 ## Procedure
 
-1.  Complete the following steps to locate the view name:
+1.  Complete the following steps to find the view name:
 
-    1.  Navigate to **System UI** &gt; **Views**.
+    1.  Navigate to **All** &gt; **System UI** &gt; **Views**.
 
         The first two columns are **Name** and **Title**.
 
     2.  Locate the view by its **Title**, and note the value in the **Name** column.
 
-2.  Navigate to **Guided Tours Designer** &gt; **Guided Tours**.
+2.  Navigate to **All** &gt; **Guided Tours Designer** &gt; **Guided Tours**.
 
-3.  Open the tour to be modified with a view.
+3.  Open the tour to be modified.
 
-4.  In the **Guided Tour Steps** related list, select the step you wish to add a tour for.
+4.  Under Related Links, from the Guided Tour Steps, select the step you want to add a view.
 
     \[Omitted image "guided-tour-steps-related-list.png"\] Alt text: Guided Tour Steps related list
 
-5.  In the Tour Step form section, enter the view name in the **View** field.
+5.  In the Tour Step tab, enter the view name in the **View** field.
 
-    \[Omitted image "gtd-tour-step-form.png"\] Alt text: Tour Step form
+    \[Omitted image "gtd-tour-step-form.png"\] Alt text: In the Tour Step tab enter a view name.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
-7.  Complete the following steps to test the tour with the view.
+7.  Complete the following steps to test the tour with the view:
 
-    1.  In the Guided Tour form, click **Edit with Designer**.
+    1.  In the Guided Tours form, select **Edit with Designer**.
 
-    2.  In the Guided Tour Designer tab or window, click **Play** below the list of steps.
+    2.  In the Guided Tour Designer tab or window, select **Play**.
 
     3.  Verify that the step you modified displays the correct view.
 
+
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/configure-guided-tours.md)
 

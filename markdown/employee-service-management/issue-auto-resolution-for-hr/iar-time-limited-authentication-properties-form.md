@@ -7,9 +7,9 @@ release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Simplifying the authentication experience for your remote employees, Using Issue Auto Resolution for HR to handle cases, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
+breadcrumb: [Simplifying authentication experience, Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
 
 # Time Limited Authentication Properties form

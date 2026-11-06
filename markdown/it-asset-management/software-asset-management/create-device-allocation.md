@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-10-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create device allocation
@@ -55,9 +55,9 @@ Role required: sam\_admin or sam\_user
 **Related topics**  
 
 
-[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md)
-
 [Copy user or device allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/copy-allocations.md)
+
+[Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md)
 
 [Allocation management on Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/allocation-management-sam.md)
 

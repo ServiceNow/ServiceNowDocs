@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/field-administration-landing-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---

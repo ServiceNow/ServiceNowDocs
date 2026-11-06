@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/les-roles.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Log Export Service \(LES\) references, Log Export Service \(LES\), Platform Security]
+breadcrumb: [Reference, Log Export Service \(LES\), Platform Security]
 ---
 
 # Log Export Service roles
@@ -16,7 +16,7 @@ Log Export Service is installed with these roles.
 
 ## Application admin \[sn\_logstoanalytics.admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 This role is installed along with the LES application and allows a non-admin to use the application.
 
@@ -45,7 +45,7 @@ This role is installed along with the LES application and allows a non-admin to 
 
 ## System administrator \[admin\]
 
-To learn more about managing per-user subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing per-user subscriptions, see  and contact your account representative.
 
 Admin role is required for the setup of the LES store application.
 
@@ -76,4 +76,11 @@ Admin role is required for the setup of the LES store application.
 
 
 **Parent Topic:**[Log Export Service \(LES\) references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/les-references.md)
+
+**Related topics**  
+
+
+[Log Export Service actions and required roles]()
+
+[Properties installed with Log Export Service]()
 

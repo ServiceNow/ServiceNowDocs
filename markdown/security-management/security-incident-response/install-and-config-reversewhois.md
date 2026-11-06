@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reverse Whois integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Before you run the integration on your instance, complete the installation and c
 
 ## Before you begin
 
-Complete the following setup checklist prior to installation. These setup tasks are required for a smooth installation and configuration.
+Complete the following setup checklist before installation. These setup tasks are required for a smooth installation and configuration.
 
 <table id="table_ywj_yls_ycb"><thead><tr><th>
 
@@ -74,13 +74,13 @@ Madrid and later release requirements
 
     1.  Delete the existing configuration.
 
-    2.  Install and create a new configuration using the API key that you have obtained.
+    2.  Install and create the configuration using the API key that you have obtained.
 
 2.  If you have not installed the application for the integration, see [Install a Security Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/install-non-core-apps.md) and follow the steps to install it.
 
 3.  After the installation completes, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Reverse Whois API tile.
 
-4.  Click **Configure**.
+4.  Select **Configure**.
 
     \[Omitted image "reverse-whois-config-tile.png"\] Alt text: A description of the app and the button used to initiate the configuration.
 
@@ -99,7 +99,7 @@ Madrid and later release requirements
 
     \[Omitted image "reverse-config-9-4.png"\] Alt text: Reverse Whois API Configuration completed configuration.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
     Configuration is successfully completed unless an error message is displayed.
 

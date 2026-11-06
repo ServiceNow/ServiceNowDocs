@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Dashboards &amp; Reports, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -44,10 +44,10 @@ Use HR reports to improve overall efficiency and effectiveness. For example, you
 
 ## What to do next
 
-If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them. For more information, see [Create a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/t_CreateYourOwnReport.md).
+If you want to create additional HR reports, click **Create a report** above the Reports list. After you create reports, share them with the HR report group. Once on the Reports list, the group can view them.
 
 -   **[Available HR reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/r_AvailableReports.md)**  
-Predefined HR reports are available in the **HR Dashboards &amp; Reports** &gt; **Reports** list.
+Predefined HR reports are available in the **HR Case Management** &gt; **Reports** list.
 
 **Parent Topic:**[HR Dashboards &amp; Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRDashboardsReports.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Submit a treasury service case for fulfilment
-description: Collect all required information about the customer and submit the case to back-office agents for fulfilment.
+title: Submit a treasury service case for fulfillment
+description: Collect all required information about the customer and submit the case to back-office agents for fulfillment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-treasury-operations/submit-treasury-service-application.html
 release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Treasury Operations, Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Submit a treasury service case for fulfilment
+# Submit a treasury service case for fulfillment
 
-Collect all required information about the customer and submit the case to back-office agents for fulfilment.
+Collect all required information about the customer and submit the case to back-office agents for fulfillment.
 
 ## Before you begin
 
@@ -30,7 +30,7 @@ Fill in the customer data in the Initiate stage of the case playbook and submit 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Treasury Service Cases**, click **All**.
 
@@ -53,7 +53,7 @@ Fill in the customer data in the Initiate stage of the case playbook and submit 
 
 ## Result
 
--   The treasury case is submitted for fulfilment.
+-   The treasury case is submitted for fulfillment.
 -   The Initiate stage in the case playbook shows as complete and the case automatically advances to the next stage.
 -   The associated treasury tasks are assigned to an assignment group or an agent in the treasury service. Any document tasks are assigned to a group or an agent in the document service. The assignment group or user that the task is assigned to is based on the assignment rules.
 

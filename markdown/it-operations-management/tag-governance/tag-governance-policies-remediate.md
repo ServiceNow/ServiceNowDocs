@@ -7,7 +7,7 @@ release: yokohama
 product: Tag Governance
 classification: tag-governance
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -80,7 +80,7 @@ The Assume Role must have the following permissions \(policy\) for remediation t
 
 While performing tag remediation, if it is found that Discovery is credential-less, MID Server with Tag Management capability is picked. Hence, add Tag Management capability to the correct MID Server with service account IAM role attached. This action is essential because there might be several accounts that IAM role MID Servers must choose from.
 
-For more information, see [contact Customer Service and Support.](https://www.servicenow.com/support/contact-support.html)
+**Note:** You must have the ITOM Visibility entitlements to run remediation on CIs in the CMDB. For more information, [contact Customer Service and Support.](https://www.servicenow.com/support/contact-support.html)
 
 **Parent Topic:**[Tag Governance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/reference-tag-governance.md)
 

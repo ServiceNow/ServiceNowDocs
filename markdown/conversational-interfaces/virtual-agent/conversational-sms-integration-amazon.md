@@ -1,34 +1,37 @@
 ---
-title: Integrating Conversational SMS with AWS End User Messaging
-description: Install the Conversational SMS with AWS End User Messaging \(sn\_sms\_aws\_adapter\) plugin from the ServiceNow store to enable users to connect to customer support agents via SMS using the Amazon End User Messaging as the SMS provider.
+title: Conversational SMS Integration with AWS End User Messaging
+description: Install the Conversational SMS with AWS End User Messaging \(sn\_sms\_aws\_adapter\) plugin from the ServiceNow Store to enable users to connect to customer support agents via SMS using the Amazon End User Messaging as the SMS provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/conversational-sms-integration-amazon.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrating Conversational SMS with AWS End User Messaging
+# Conversational SMS Integration with AWS End User Messaging
 
-Install the Conversational SMS with AWS End User Messaging \(sn\_sms\_aws\_adapter\) plugin from the ServiceNow store to enable users to connect to customer support agents via SMS using the Amazon End User Messaging as the SMS provider.
+Install the Conversational SMS with AWS End User Messaging \(sn\_sms\_aws\_adapter\) plugin from the ServiceNow Store to enable users to connect to customer support agents via SMS using the Amazon End User Messaging as the SMS provider.
 
-To use conversational SMS with AWS End User Messaging, complete the following setup tasks.
+## Get started with Conversational SMS Integration with AWS End User Messaging
 
-|Task|Description|
-|----|-----------|
-|[Install the Conversational SMS Integration with AWS End User Messaging application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/install-conversational-sms-integration-with-amazon.md)|Install the plugin to host conversations with virtual or live agents.|
-|[Set up and configure the conversational SMS Integration with AWS End User Messaging application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/set-up-conversational-sms-integration-with-amazon.md)|Set up the integration on both AWS and ServiceNow platform to engage in SMS bot conversations and address customer queries.|
-|[Using conversational SMS integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/using-conversational-sms-integration-with-amazon.md)|Enable customers to interact with agents using the SMS integration with Amazon End User Messaging.|
+Select a tile to get started.
 
--   **[Install the Conversational SMS Integration with AWS End User Messaging application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/install-conversational-sms-integration-with-amazon.md)**  
-You can install the Conversational SMS Integration with AWS End User Messaging application \(sn\_sms\_aws\_adapter\) from the ServiceNow store and integrate it with AWS End User Messaging to enable customer support agent conversations via an SMS channel.
--   **[Set up and configure the conversational SMS Integration with AWS End User Messaging application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/set-up-conversational-sms-integration-with-amazon.md)**  
-Integrate Conversational SMS with AWS End User Messaging to enable customers to chat with live or virtual agents
--   **[Using conversational SMS integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/using-conversational-sms-integration-with-amazon.md)**  
+<table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational SMS Integration with AWS End User Messaging implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
+
+</td><td>
+
+[Use\[Omitted image "bus-chat.svg"\] Alt text:Agents and requesters can use Conversational SMS Integration with AWS End User Messaging in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/using-conversational-sms-integration-with-amazon.md)
+
+</td></tr></tbody>
+</table>-   **[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)**  
+Install and set up the Conversational SMS Integration with AWS End User Messaging application to enable requesters to interact with virtual and live agents.
+-   **[Using Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/using-conversational-sms-integration-with-amazon.md)**  
 Enable a customer to converse with a live or virtual agent using the SMS integration with AWS End User Messaging.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)

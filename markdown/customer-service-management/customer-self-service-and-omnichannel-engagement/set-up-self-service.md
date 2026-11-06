@@ -1,24 +1,24 @@
 ---
 title: Set up self-service
-description: Creating a self-service portal helps customers resolve issues independently. You can integrate features like knowledge bases, chatbots, and appointment booking for easy access to information.
+description: Create a self-service portal to help customers resolve issues independently and access information through integrated knowledge bases, chatbots, and appointment booking features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/set-up-self-service.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure, Customer Service Management]
 ---
 
 # Set up self-service
 
-Creating a self-service portal helps customers resolve issues independently. You can integrate features like knowledge bases, chatbots, and appointment booking for easy access to information.
+Create a self-service portal to help customers resolve issues independently and access information through integrated knowledge bases, chatbots, and appointment booking features.
 
 <table id="table_gg4_j41_l1c" class="nav-card"><tbody><tr><td>
 
-[Customer and Consumer Service Portals\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Set up the Customer and Consumer Service Portals to provide information and support to your customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md)
+[Portals\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Set up and customize self-service portals to provide customers with access to knowledge bases, service catalogs, and other essential features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-portals.md)
 
 </td><td>
 
@@ -30,22 +30,20 @@ Creating a self-service portal helps customers resolve issues independently. You
 
 </td></tr><tr><td>
 
-[Communities\[Omitted image "bus-community.svg"\] Alt text:Use Communities to interact, learn, share knowledge, troubleshoot issues, and stay informed about the latest developments and innovations within the Customer Service Management ecosystem.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md)
+[Configurable Portal Widgets\[Omitted image "config-portal-widgets-icon.png"\] Alt text:Configure the behavior, content, and layout of a portal by configuring instance options on Configurable Portal widgets.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.md)
 
 </td><td>
 
-[Knowledge Management\[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text:Create and share knowledge bases containing articles that provide users with information such as self-help, troubleshooting, and task resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management.md)
+[Web Embeddables\[Omitted image "we-ss-landing-page.svg"\] Alt text:Embed ServiceNow components into external websites to interact with the ServiceNow platform without requiring users to access the ServiceNow instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md)
 
 </td><td>
 
-[Service catalog\[Omitted image "bus-service-catalog.svg"\] Alt text:Create service catalogs to provide your customers with self-service opportunities to request items such as service and product offerings.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog.md)
+
 
 </td></tr></tbody>
-</table>\[Omitted image "workflow-self-service.png"\] Alt text: Overview of self-service topics and how they relate to each other
+</table>-   **[Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-portals.md)**
 
--   **[Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-csm-service-portals.md)**
-
-    Create and enable self-service portals for your customers to support their needs efficiently. Integrate these portals with knowledge bases, communities, service catalogs, and chatbots. Additionally, provide features like walk-up experiences and appointment booking to enhance their self-service options.
+    Set up and customize self-service portals to provide customers with access to knowledge bases, service catalogs, case management, and other essential features through configurable interfaces. Choose from Customer and Consumer Service Portals or Business and Consumer Portal based on your organizational needs.
 
 -   **[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-walk-up-csm.md)**
 
@@ -55,16 +53,16 @@ Creating a self-service portal helps customers resolve issues independently. You
 
     Install and set up the Conversational Appointment Booking application to enable customers to book, reschedule, or cancel appointments through Virtual Agent conversations.
 
--   **[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md)**
+-   **[Configurable Portal Widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-configurable-portal-widget.md)**
 
-    With the Communities application, you can engage with your employees, customers, partners, and prospects. Share knowledge and troubleshoot issues, and stay informed about the latest developments in the Customer Service Management ecosystem. Get quick responses by posting questions, reviewing blogs or videos, and searching previous discussions.
+    Use Configurable Portal widgets to configure widget behavior, visual appearance, and content. Update the information presented on widgets through instance options to reduce the work required to implement and maintain widgets for your users.
 
--   **[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management.md)**
+-   **[Web Embeddables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/using-web-embeddables.md)**
 
-    Create and share knowledge bases using the Knowledge Management application. Use the knowledge base to share articles that provide your users with information such as self-help, problem-solving, and task resolution.
+    Use Web Embeddables to embed ServiceNow components into external websites outside of the ServiceNow environment. Use the default components or create custom components to interact with the ServiceNow platform through dedicated APIs that enable real-time data exchange without requiring users to directly access the ServiceNow instance.
 
--   **[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/service-catalog.md)**
+-   **[Set up Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/setting-up-engagement-messenger.md)**
 
-    Use the Service Catalog application to create and customize service catalogs so that your customers can request items such as services and product offerings. Additionally, you can standardize request fulfillment to maintain the accuracy and availability of the items in the catalogs.
+    With the [Engagement Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md) web application, your customers can easily access the information or services they need from your third-party web applications, even if they're located outside of the ServiceNow environment.
 
 

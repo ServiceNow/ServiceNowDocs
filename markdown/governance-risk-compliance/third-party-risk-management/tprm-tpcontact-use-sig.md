@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the SIG questionnaire for a risk assessment, Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -24,9 +24,9 @@ Role required: vendor\_contact
 
 TPRM supports the current SIG version and prior versions up to 2021. The following SIG versions are supported:
 
--   SIG Full 2025, 2024, 2023, 2022, and 2021
--   SIG Core 2025, 2023, 2022, and 2021
--   SIG Lite 2025, 2023, 2022, and 2021
+-   SIG Full 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Core 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Lite 2026, 2025, 2024, 2023, 2022, and 2021
 
 **Note:** SIG 2020 versions are available for reactivation. SIG 2020 versions are deactivated by default.
 
@@ -40,15 +40,15 @@ If you upload a version prior to the earliest supported SIG, all responses for m
 
 2.  Upload a completed questionnaire or complete the questionnaire.
 
-<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d103484e92">
+<table id="choicetable_fqs_r3c_jfb"><thead><tr><th align="left" id="d74124e92">
 
 Action
 
-</th><th align="left" id="d103484e95">
+</th><th align="left" id="d74124e95">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d103484e101">
+</th></tr></thead><tbody><tr><td id="d74124e101">
 
 **Upload a completed SIG questionnaire**
 
@@ -58,7 +58,7 @@ Select **Import**, navigate to the file, and then select **Open**.
 
  \[Omitted image "import-sig.png"\] Alt text: Import SIG questionnaire widget.
 
-</td></tr><tr><td id="d103484e135">
+</td></tr><tr><td id="d74124e135">
 
 **Complete the questionnaire**
 
@@ -71,4 +71,13 @@ Select the questionnaire and fill it out.
 
     The complete SIG questionnaire is now available for review by the requester.
 
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
 

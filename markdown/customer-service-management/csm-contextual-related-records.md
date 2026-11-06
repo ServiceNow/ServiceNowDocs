@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-contextual-related-records.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure dynamic related records, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Dynamic related records
@@ -23,8 +23,6 @@ Different types of agents can use dynamic related records to see different infor
 -   A back-office agent can view emails for a selected playbook activity.
 
 To view related records, click the Related Records tab in the Contextual side panel in CRM Workspace. Records appear in the Related Records list as read-only cards.
-
-\[Omitted image "csm-playbook-related-records-tab.png"\] Alt text: Tab that displays record cards with brief descriptions of recent cases relevant to the current record or playbook task.
 
 ## Configuring dynamic related records
 
@@ -46,7 +44,7 @@ For more information about these agent actions, see [Using the Related Records t
 
 The Dynamic Related Records for Configurable Workspace plugin \(com.snc.uib.sn\_dyn\_rel\_rec\) is available from the ServiceNow Store.
 
-Install any ServiceNow Store applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install any ServiceNow Store applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 This plugin provide agents with access to related information based on the context of the current record or playbook activity. System administrators can configure related record definitions that make data available in context to the action that the agent is performing.
 

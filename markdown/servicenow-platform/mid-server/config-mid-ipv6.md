@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,16 +40,16 @@ When using Discovery over IPv6, the following requirements apply:
 
 -   **Windows Discovery**
 
-    Only WinRM is supported as of the Yokohama release. The requirements for WinRM over IPv6 are the same as IPv4. WinRM must be running on both the MID Server host and target, and the target must be configured as a trusted host on that MID Server.
+    Only WinRM is supported as of the Brazil release. The requirements for WinRM over IPv6 are the same as IPv4. WinRM must be running on both the MID Server host and target, and the target must be configured as a trusted host on that MID Server.
 
 -   **Unix Discovery**
 
-    Only SNC SSH is supported as of the Yokohama release. No additional configuration is needed to use SNC SSH over IPv6. J2SSH and Maverick are not supported but, if their protocols are used over IPv6, the command is executed without guaranteeing the correct results. In that case, the following error message is reported in the MID Server logs: `IPv6 is currently not supported for MID Server using Maverick (J2SSH), however the command will be executed.`
+    Only SNC SSH is supported as of the Brazil release. No additional configuration is needed to use SNC SSH over IPv6. J2SSH and Maverick are not supported but, if their protocols are used over IPv6, the command is executed without guaranteeing the correct results. In that case, the following error message is reported in the MID Server logs: `IPv6 is currently not supported for MID Server using Maverick (J2SSH), however the command will be executed.`
 
 
 ## Procedure
 
-1.  Navigate to the Java VM configuration wrapper in `agent/conf/wrapper-override.conf`.
+1.  Navigate to the Java VM configuration wrapper in `agent/conf/wrapper.override.conf`.
 
 2.  Open the file, then uncomment and change the following line of code to true:
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspaces-use.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Using CRM Workspace in Customer Service Management
@@ -165,7 +165,7 @@ Use the step-by-step guidance provided by playbooks to complete tasks and resolv
 
 </td><td>
 
-[Interact with playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-ui.md)
+Interact with playbooks
 
 </td></tr><tr><td>
 

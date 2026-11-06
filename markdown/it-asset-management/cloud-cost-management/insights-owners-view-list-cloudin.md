@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign service accounts to an insights\_owner, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Assign service accounts to an insights\_owner, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # View the service accounts owned by an insights\_owner

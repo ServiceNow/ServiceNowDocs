@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_TargetedCommunications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Targeted communications
@@ -24,7 +24,7 @@ When creating an article, publication authors specify a publish date and an expi
 
 The process of publishing articles is based on workflows and two default workflows are provided: one to publish articles instantly and one that requires approval prior to publishing. Publication administrators can update workflows and add users with the publications approver \(sn\_publications.approver\) role to perform reviews. Both authors and administrators can monitor publications and see which users have received and viewed the information.
 
-Customer contacts and consumers can view publications by logging in to the Customer Service Portal or the Consumer Service Portal and selecting the **Publications** link in the portal header. Employees can view these publications by navigating to **Targeted Communications** &gt; **Publications** in the application navigator.
+Customer contacts and consumers can view publications by logging in to the Customer Service Portal or the Consumer Service Portal and clicking the **Publications** link in the portal header. Employees can view these publications by navigating to **Targeted Communications** &gt; **Publications** in the application navigator.
 
 **Note:** For more info see, [Components installed with additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/inst-wi-cust-serv-addtl-plugins.md)
 
@@ -37,9 +37,9 @@ Publication articles progress through several stages which are displayed in a pr
 |Author|The initial state of the publication creation process.|
 |Review|Publications that are waiting for review. A publication cannot be updated when it is in the **Review** stage.|
 |Ready To Publish|Publications that have been reviewed and are ready to be published.|
-|Published|Publications that have reached their **Publish Date**.|
+|Published|Publications that that have reached their **Publish Date**.|
 |Expired|Publications that have reached their **Expiry Date** or that have been manually expired.|
-|Canceled|Pending publications that have been canceled.|
+|Cancelled|Pending publications that have been cancelled.|
 
 States are shown in a process flow formatter at the top of the Publication form. The current state is indicated by a blue underline. States that have been completed are indicated by a blue check mark.
 
@@ -83,4 +83,13 @@ Expired Publications
 Includes publications that have reached their **Expiry Date** or have been set to **Expired**.
 
 </td></tr></tbody>
-</table>
+</table>## Targeted communications workflows
+
+Starting with the Zurich release, legacy publication workflows for the Targeted Communications \(com.sn\_publications\) application have been migrated to low code flows in [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md). The functionality of the flows remains the same.
+
+If customers have customized the legacy workflows, a fix script deactivates the new flows and activates the legacy workflows during instance upgrade.
+
+**Note:** The new flows are only activated if the legacy workflows have not been customized.
+
+For more information, see [Targeted communications publication workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/targeted-comm-publication-workflows.md).
+

@@ -7,17 +7,15 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center Pro reference
 
 Reference topics provide additional information about the lists and forms that you use to configure and manage Employee Center Pro.
 
--   **[Approvals experience reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/approval-hub-ootb.md)**  
-Use the following reference information for better approval experience.
 -   **[Block content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/block-content-form.md)**  
 Block content form
 -   **[Campaign overview and Campaign analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-automation-content-pack.md)**  
@@ -42,16 +40,12 @@ Content analytics displays data visualizations of engagement metrics for content
 Content analytics displays data visualizations of performance metrics for content published to the portal or Now mobile app in the Content Library Overview dashboard.
 -   **[Employee Center Pro widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-center-pro-widgets-list.md)**  
 You can use base system widgets as-is in the portal or clone them to suit your own business needs.
--   **[Feedback Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ex-fdback-board.md)**  
-Track all your feedback responses with the Feedback Analytics for portals, email, Virtual Agent, kiosks, and Now Mobile®.
 -   **[Feedback configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ex-feedback-new-record.md)**  
 Description of the feedback configuration form fields to target a portal for feedback responses.
 -   **[Feedback definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/fdbck-dfnition-record.md)**  
 Description of the feedback definition form fields to curate the experience and service feedback widgets in the portal pages.
 -   **[Link content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/link-content-form.md)**  
 Link content form.
--   **[Location Consent form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/location-consent-form.md)**  
-The location consent form helps you configure the communication channels for appointment bookings.
 -   **[Notification content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/notification-content-form.md)**  
 Notification content form
 -   **[Properties installed with Content Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/properties-installed-with-content-auto.md)**  
@@ -60,8 +54,10 @@ The Content Experiences \[sn\_ca\] plugin adds properties that determine how a c
 The Content Governance \[sn\_cg\] plugin adds properties that determine how many records to show in the Content Operations dashboard.
 -   **[Properties installed with Content Publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/properties-with-content-delivery.md)**  
 The Content Publishing \[com.sn\_content\_delivery\] plugin adds the following properties that are designed to control how scheduled jobs work in relation to notifications, to-dos, and communities.
--   **[Schedule appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/schedule-appointment-form.md)**  
-Use the Schedule appointment form to select a reason and provide contact information for your appointment.
+-   **[Standard banner and icon sizes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-portal-images-size.md)**  
+Use the following sizes for the banner and icons for optimal portal performance.
+-   **[To-do content form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/to-do-content-form.md)**  
+Use the To-do content form to add to-dos to your portal page.
 
 **Parent Topic:**[Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-center-pro-landing.md)
 

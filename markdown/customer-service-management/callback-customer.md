@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/callback-customer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with callback requests from an agent, Using Omnichannel Callback for Customer Service Management, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Callback requests from customers, Use omnichannel callback, Customer communication, Use, Customer Service Management]
 ---
 
 # Address a callback request from a customer

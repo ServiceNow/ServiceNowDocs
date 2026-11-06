@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Integrating ServiceNow with Microsoft 365 applications for Employee Experience
@@ -129,18 +129,4 @@ Microsoft Outlook mobile application
     For more information on how to generate and download the manifest file, see [Create and download manifest file for Employee Center and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/download-manifest-ms365.md).
 
 4.  [Upload manifest file in Microsoft Teams for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-ms365.md).
-
--   **[Create and download manifest file for Employee Center and Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/download-manifest-ms365.md)**  
-Create and download the manifest file from your instance to make Employee Center available in Microsoft 365 applications.
--   **[Upload manifest file in Microsoft Teams for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/upload-manifest-ms-teams-ms365.md)**  
-Upload the manifest file in Microsoft Teams to integrate Microsoft 365 with your ServiceNow instance.
-
-**Parent Topic:**[Configure integrations for Microsoft Teams and Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrations-all-snteams.md)
-
-**Related topics**  
-
-
-[Integrating ServiceNow with Microsoft Teams and Microsoft 365]()
-
-[Integrating ServiceNow with Microsoft Teams for GCC-H or DoD]()
 

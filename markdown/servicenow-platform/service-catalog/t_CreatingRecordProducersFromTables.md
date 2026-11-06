@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record Producer, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Record Producer, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create record producers from tables
@@ -30,7 +30,7 @@ To create a record producer from a table record:
 
     **Note:** When using a workflow with a Record producer, set the condition to Run the workflow.
 
-2.  Under **Related Links**, click **Add to Service Catalog**.
+2.  Under **Related Links**, select **Add to Service Catalog**.
 
 3.  Complete the **Name**, **Short Description**, and **Category** fields as you would for service catalog items.
 
@@ -38,11 +38,9 @@ To create a record producer from a table record:
 
 5.  To use container variables, select **\|- container start -\|** and **\|- container end -\|**.
 
-    \[Omitted image "CreateRecordProducersFromTables.png"\] Alt text:
+6.  Select **Save and Open** to open the record producer and define additional options.
 
-6.  Click **Save and Open** to open the record producer and define additional options.
-
-    Alternatively, click **Save** to return to the table record.
+    Alternatively, select **Save** to return to the table record.
 
     -   A record producer is created with these values:
         -   **Table name**: table record opened in step 1

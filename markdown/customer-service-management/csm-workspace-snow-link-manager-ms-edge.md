@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-snow-link-manager-ms-edge.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Organize records tabs with ServiceNow Link Manager, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Organize records tabs with ServiceNow Link Manager, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Open new cases in the same tab with ServiceNow Link Manager for Microsoft Edge
@@ -35,7 +35,7 @@ Role required: admin
 1.  Select **Settings and more** icon in the top-right corner and then **Extensions**.
 2.  Locate the **ServiceNow Link Manager** toggle switch and turn it on.
 
-**Note:** The ServiceNow Link Manager extension turns on automatically in CSM and ITSM Workspace. It doesn't run in other ServiceNow workspaces.
+**Note:** The ServiceNow Link Manager extension turns on automatically in CRM Workspace and ITSM Workspace. It doesn't run in other ServiceNow workspaces.
 
 ## Using ServiceNow Link Manager
 

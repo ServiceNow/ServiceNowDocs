@@ -1,20 +1,20 @@
 ---
 title: View relationships health
-description: View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health dashboard.
+description: View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health Dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/t\_ViewRelationshipsHealth.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View relationships health
 
-View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health dashboard.
+View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health Dashboard.
 
 ## Before you begin
 
@@ -22,13 +22,13 @@ The CMDB Health Dashboard - Relationship Compliance Processor dashboard job must
 
 **Note:** As a general guideline, activate this job only if you need the relationship reports as this job can affect performance.
 
-Role required: itil or asset
+Role required: sn\_cmdb\_editor, asset, or itil
 
 ## About this task
 
-The Relationship Health dashboard shows various scorecards for health indicators of CI relationships in your CMDB. It contains donut reports for duplicate, orphan or stale relationships, broken down by relationship type. You can drill down these charts for further details.
+The Relationship Health Dashboard shows various scorecards for health indicators of CI relationships in your CMDB. It contains donut reports for duplicate, orphan or stale relationships, broken down by relationship type. You can drill down these charts for further details.
 
-The \[Omitted image "MaxFailuresCMDBHealth.png"\] Alt text: Warning that max failure is reached. icon indicates that the maximum failure threshold for the metric has been reached. The tests for the metric are halted for this cycle, and all associated aggregated summaries show 0%. Review the scorecard rules which might be ineffective, or the CMDB might be in an unstable state.
+The warning that max failure is reached icon, indicates that the maximum failure threshold for the metric has been reached. The tests for the metric are halted for this cycle, and all associated aggregated summaries show 0%. Review the scorecard rules which might be ineffective, or the CMDB might be in an unstable state.
 
 CMDB Health reports for the following metrics:
 
@@ -89,11 +89,11 @@ For troubleshooting information, see the [How to identify and delete duplicate C
 **Related topics**  
 
 
-[Explore CMDB Health]()
+[Exploring CMDB Health]()
 
-[CMDB Health experience in CMDB Workspace]()
+[CMDB Health experience in CMDB Workspace and in Service Graph Workspace]()
 
-[View CMDB Health dashboard]()
+[View CMDB Health Dashboard]()
 
 [View CI health]()
 

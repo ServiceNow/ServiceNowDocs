@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Components installed with Content Experiences
@@ -238,8 +238,6 @@ Reevaluates the audience for a campaign and removes employees that no longer sat
 **Related topics**  
 
 
-[Approvals experience reference]()
-
 [Block content form]()
 
 [Campaign overview and Campaign analytics dashboards]()
@@ -262,15 +260,11 @@ Reevaluates the audience for a campaign and removes employees that no longer sat
 
 [Employee Center Pro widgets]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -280,5 +274,7 @@ Reevaluates the audience for a campaign and removes employees that no longer sat
 
 [Properties installed with Content Publishing]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

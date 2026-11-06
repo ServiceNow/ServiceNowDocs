@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/configure-knowbe4-integration-vr.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Knowbe4 integration, phishing integrations, how to configure Knowbe4 inetgration, cybersecurity awareness training]
 breadcrumb: [Security Simulation and Training Integration for Security Operations, Cybersecurity Executive Dashboard, Security Operations]

@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Get started with Change Management mobile tasks, Mobile experience for Change Management, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Get started with Change Management mobile tasks, Mobile experience for Change Management, Use, Change Management, IT Service Management]
 ---
 
 # Resolve or close a change task
@@ -22,7 +22,7 @@ Role required: itil or sn\_change\_write
 
 ## Procedure
 
-1.  Tap **My Work** tab.
+1.  Tap the**My Work** tab.
 
 2.  Tap **Change tasks** to open the list of change tasks.
 

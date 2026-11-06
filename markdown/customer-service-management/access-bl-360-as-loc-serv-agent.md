@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/access-bl-360-as-loc-serv-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Business Location 360, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Business Location 360, Manage cases, Use, Customer Service Management]
 ---
 
 # Access Business Location 360 as a location service agent

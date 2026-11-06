@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Financial Services Payment Operations, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Financial Services Payment Operations
@@ -41,6 +41,4 @@ Role required: sn\_bom\_payment.admin and admin
     |**Configure assignment rules**|[Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.|
     |**Configure properties**|[Configure properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/properties-installed-with-payment-operations.md) for payment operations.|
 
-
-**Parent Topic:**[Setting up Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/configuring-fso-payment-operations.md)
 

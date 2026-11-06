@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_dpm.dpm\_manager
 
 ## About this task
 
-Use the **List** tab in Digital Portfolio Management \(DPM\), to view lists of services, service offerings, business applications, application services, demands, projects, and contracts. You can view the solutions that you own as well as the solutions that you don't own. You can also create custom lists to see any items that interest you like services, incidents, and users. The table column names in lists change depending on the type of list that you create. You can also send a link to a specific list item and add or hide columns from your list view.
+Use the **List** tab in Digital Portfolio Management \(DPM\), to view lists of services, service offerings, business applications, service instances, demands, projects, and contracts. You can view the solutions that you own as well as the solutions that you don't own. You can also create custom lists to see any items that interest you like services, incidents, and users. The table column names in lists change depending on the type of list that you create. You can also send a link to a specific list item and add or hide columns from your list view.
 
 ## Procedure
 

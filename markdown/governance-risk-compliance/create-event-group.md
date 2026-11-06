@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-event-group.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -38,6 +38,6 @@ Classify the events of a similar type into an event group for your scenario. For
 
 5.  In the **Order** field, enter the order for the event group and click **Submit**.
 
-    For more information on the fields in the Event group form, see [GRC Choice New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/event-group-reference.md).
+    For more information on the fields in the Event group form, see [GRC Choice record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/event-group-reference.md).
 
 

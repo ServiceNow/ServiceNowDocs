@@ -7,9 +7,9 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
-breadcrumb: [Prerequisites for performing top-down discovery using Service Mapping, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Prerequisites for performing top-down discovery, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping commands not requiring a privileged user
@@ -391,7 +391,7 @@ Various options
 
 </td><td>
 
-Shows the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.
+Shows the current time, how long the system has been running, and how many users are currently logged on. It also shows the system load averages for the past 1, 5, and 15 minutes.
 
 </td></tr><tr><td>
 
@@ -2742,11 +2742,11 @@ Gets the version.
 
 **--user=\[username\] --password=\[password\] --port=\[jdbc\_port\] --skip-column-names --silent --execute="SHOW ENGINE NDB STATUS;;”**
 
- and
+and
 
- **--user=\[username\] --password=\[password\] --port=\[jdbc\_port\] --skip-column-names --silent --execute="SHOW SLAVE STATUS;;”**
+**--user=\[username\] --password=\[password\] --port=\[jdbc\_port\] --skip-column-names --silent --execute="SHOW SLAVE STATUS;;”**
 
- and
+and
 
 **--user=\[username\] --password=\[password\] --port=\[jdbc\_port\] --skip-column-names --silent --execute="select host from information\_schema.processlist where command like '%%binlog%%';;”**
 
@@ -2811,7 +2811,7 @@ Lists open ports.
 
 **-V**
 
- and
+and
 
 **-e show**
 
@@ -3008,7 +3008,7 @@ This command is used only for getting the advance queue information. Gets the in
 
 **version**
 
- And
+And
 
 **services**
 

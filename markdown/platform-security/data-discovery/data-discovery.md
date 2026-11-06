@@ -1,5 +1,5 @@
 ---
-title: Exploring Data Discovery
+title: Exploring Data Discovery \(Classic\)
 description: Use Data Discovery to identify sensitive data within an instance, such as credit card information, emails, or social security numbers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/data-discovery/data-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Data Discovery
 classification: data-discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Discovery, Platform Privacy]
 ---
 
-# Exploring Data Discovery
+# Exploring Data Discovery \(Classic\)
 
 Use Data Discovery to identify sensitive data within an instance, such as credit card information, emails, or social security numbers.
 

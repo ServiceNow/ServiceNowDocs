@@ -7,8 +7,8 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -18,7 +18,7 @@ Use update sets to migrate your translations to another instance. Configure prop
 
 Update sets enable you to transfer your artifact translations to other instances. For background information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md).
 
-For localization tasks, the default has been to create a dedicated update set per task in the scope of the artifact. In the Yokohama release, you can specify your update set strategy to control whether translations are bundled into one update set, or distributed into granular update sets.
+For localization tasks, previously the default was to create a dedicated update set per task in the scope of the artifact. Alternatively, with sys properties you can specify your update set strategy: bundle translations into one update set, or distribute into granular update sets.
 
 The settings for update set strategies vary according to the type of translation, defined as follows:
 
@@ -26,9 +26,13 @@ The settings for update set strategies vary according to the type of translation
 
     Part of workflows that often include approval processes. These are based on tasks.
 
+    Property name: com.glide.sn\_lf.update\_set.strategy.request\_translations.
+
 -   **adhoc**
 
     Edited and published directly by the localization editor, from the artifact record \(such as a catalog item\). The **Edit translation** button is visible to the editor, and it opens a UI page for translation. Adhoc translations are processed in the user context.
+
+    Property name: com.glide.sn\_lf.update\_set.strategy.edit\_translations.
 
 
 <table id="table_r15_kxt_d1c"><thead><tr><th>

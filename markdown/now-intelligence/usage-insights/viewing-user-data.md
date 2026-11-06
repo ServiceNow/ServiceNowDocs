@@ -7,16 +7,16 @@ release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Viewing user analytics
 
 The Users page within the Data Foundation module enables views of individual user journeys through your applications, from their first session to the most recent within the defined date range.
 
-View user analytics and behavior, including taps and swipes, and other timeline actions. Select the users you want to see, set filters, and drill down into individual user sessions for closer insights.
+View user analytics and behavior, including taps and swipes, and other timeline actions. Select the users that you want to see, set filters, and drill down into individual user sessions for closer insights.
 
 \[Omitted image "uxa-user-analytics.png"\] Alt text: Users analysis screen
 
@@ -34,7 +34,7 @@ User ID
 
 </td><td>
 
-Automatically generated number assigned to each unique user tracked by User Experience Analytics. Select the User ID to view the user's sessions and Activity timeline.
+Automatically generated number assigned to each unique user tracked by Usage Insights. Select the User ID to view the user's sessions and Activity timeline.
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Hashed User ID
 
 </td><td>
 
-Generated hashed `sys_id` value for each user. Actual user IDs are not displayed. Instead they are automatically hashed via the SHA-256 hash function.**Note:** Users not logged into the portal are displayed as “Anonymous”.
+Generated hashed `sys_id` value for each user. **Note:** Users not logged in to the portal are displayed as “Anonymous.”
 
 </td></tr><tr><td>
 
@@ -95,11 +95,15 @@ The number of locations the user has accessed the application from.
 </td></tr></tbody>
 </table>**Note:** Users lists can only be reordered by user index.
 
+## Active users breakdown analysis
+
+You can view a breakdown analysis of active users by grouping them according to country, state, device type, hourly usage, and so on. The Geographic Analytics visualization, which was available until the Xanadu release, has been replaced by this analysis Breakdown.
+
 ## Filter options
 
 You can filter the Users list by date range, User type, and Country by default. Using the **Add filter** option, you can filter on Locale, Department, Role, Group, and Manager, as well as by your custom User filters.
 
-**Note:** The Add filter options use a logical AND operator, meaning that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
+**Note:** The Add filter options use a logical AND operator. Meaning that the results must meet both the criteria in the default filters AND the criteria in the additional filters to be included in the visualizations.
 
-**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

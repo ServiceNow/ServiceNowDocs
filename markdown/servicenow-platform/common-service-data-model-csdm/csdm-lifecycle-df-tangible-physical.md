@@ -1,22 +1,24 @@
 ---
-title: Life cycle value definitions for tangible/physical entities
-description: The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physical life-cycle process are visible only in Asset and CMDB tables for tangible/physical models and assets.
+title: Definitions of life-cycle values for tangible/physical CIs
+description: The tangible/physical life-cycle states represent the overall life cycle of physical assets and CIs as related to their products. Tangible/physical assets are physical items that are stocked, for example computers, monitors, and keyboards. The stages and statuses for the tangible/physical life-cycle process are visible only in hardware-related tables in Asset Management and the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-tangible-physical.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-05-07"
-reading_time_minutes: 4
-breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Tangible/physical life cycle, Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Life cycle value definitions for tangible/physical entities
+# Definitions of life-cycle values for tangible/physical CIs
 
-The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physical life-cycle process are visible only in Asset and CMDB tables for tangible/physical models and assets.
+The tangible/physical life-cycle states represent the overall life cycle of physical assets and CIs as related to their products. Tangible/physical assets are physical items that are stocked, for example computers, monitors, and keyboards. The stages and statuses for the tangible/physical life-cycle process are visible only in hardware-related tables in Asset Management and the CMDB.
 
 ## Definitions of tangible/physical life cycle stage and life cycle stage status values
+
+**Note:** The CI label tangible/physical includes and supersedes the "Hardware" label that had been used in earlier releases.
 
 \[Omitted image "csdm-lifecycle-vp-tangible-physical.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
@@ -24,14 +26,21 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
 
     New tangible or physical models in this stage are being assessed for potential use in the organization.
 
-    -   **Under Evaluation**: The hardware model is being reviewed for compatibility, functionality, and business fit before approval. 
-    -   **Pilot**: The hardware model is in a limited deployment for real-world testing before broader adoption. 
+    -   **Under Evaluation**: The model is being reviewed for compatibility, functionality, and business fit before approval. 
+    -   **Pilot**: The model is in a limited deployment for real-world testing before broader adoption. 
 -   **Purchase life cycle stage**
 
     After a tangible or physical model is approved, the organization proceeds with procurement.
 
     -   **On Order**: The asset has been ordered from a vendor but has not yet been received. 
     -   **Preallocated**: The asset is already assigned to a specific purpose or user before its arrival. 
+-   **Design life cycle stage**
+
+    The item is in the initial planning and setup phase.
+
+    -   **Design**: The layout and system requirements are being defined.
+    -   **Chartered**: The item is approved for development, but no physical item has yet been created.
+    -   **Build**: The item is under construction, setup, or is being prepared for operational use.
 -   **Inventory life cycle stage**
 
     The asset is received and stored in inventory before deployment.
@@ -40,8 +49,8 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
     -   **Reserved**: The asset is set aside for a specific request but is not yet deployed. 
     -   **Preallocated**: The asset is assigned to a request but is not yet physically allocated. 
     -   **Pending Repair \(CI\)**: The asset is in stock but requires repairs before being usable such as on-site visit from manufacturer or RMA swap. 
-    -   **Legal Hold \(CI\)**: The asset cannot be deployed due to legal restrictions or compliance reasons. 
-    -   **Quarantine \(CI\)**: The asset is isolated due to potential security risks, failures, or non-compliance. 
+    -   **Legal Hold \(CI\)**: The asset cannot be deployed due to legal restrictions or conformance reasons. 
+    -   **Quarantine \(CI\)**: The asset is isolated due to potential security risks, failures, or non-conformance. 
 -   **Deploy life cycle stage**
 
     The asset is prepared and moved to operational use.
@@ -50,11 +59,12 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
     -   **Reserved**: The asset is assigned to a user or department but has not been physically moved. 
     -   **Pending Transfer**: The asset is scheduled for relocation to another facility or user. 
     -   **In Transit**: The asset is currently being moved between locations. 
-    -   **Test**: The asset has been identified as part of a deployment activity, has been built, and is ready for testing prior to operational usage .
+    -   **Test**: The asset has been identified as part of a deployment activity, has been built, and is ready for testing before operational usage .
 -   **Operational life cycle stage**
 
     The asset is actively in use or is undergoing maintenance.
 
+    -   **Pending Fulfillment**: The asset is put/placed into its operational environment/location but needs to be configured/provisioned before it can be used.
     -   **In Use**: The asset is deployed and functioning in a live environment. 
     -   **In Maintenance**: The asset is being serviced or is undergoing repairs while still considered operational. 
     -   **End of Support**: The asset has reached the end of vendor or internal support but is still in use. 
@@ -64,12 +74,12 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
     End of Operation is an intermediate stage between Operational and the next stage. Operation of the product have ended, but the product instance is transitioning to a new life cycle stage and life cycle stage status.
 
     -   **Pending Evaluation**: Non-operational intermediate status in which a product is evaluated to determine its next stage and stage status.
-    -   **Pending Return**: Non-operational status before the asset is returned and/or the provider received the returned asset in an end of life stage: **RMA**, **Vendor Credit**, **Buyout** or **Lease Return**. 
-    -   **In Transit**: Non-operational, transitional status to support repurposing the asset and/or true end-of-life.
-    -   **Pending Resale**: Intermediate status prior to selling the asset to a third-party entity .
-    -   **Pending Certificate**: Intermediate status prior to receiving a certificate of disposal.
-    -   **Pending Disposal**: Intermediate status prior to the **Disposed** end of life stage.
-    -   **Pending Donation**: Intermediate status prior to the **Donated** end of life stage.
+    -   **Pending Return**: Non-operational status before the asset is returned and the provider received the returned asset in an end of life stage: **RMA**, **Vendor Credit**, **Buyout** or **Lease Return**. 
+    -   **In Transit**: Non-operational, transitional status to support repurposing the asset and true end-of-life.
+    -   **Pending Resale**: Intermediate status before selling the asset to a third-party entity .
+    -   **Pending Certificate**: Intermediate status before receiving a certificate of disposal.
+    -   **Pending Disposal**: Intermediate status before the **Disposed** end of life stage.
+    -   **Pending Donation**: Intermediate status before the **Donated** end of life stage.
     -   **On Hold**: Operation of the asset is halted for one of the following reasons:
         -   Suspended: service, subscription, and so on.
         -   Blocked: credit card, account, and so on.
@@ -101,5 +111,5 @@ The Life Cycle Stage and Life Cycle Stage Status values for the tangible/physica
     -   **Buyout**: The asset was leased and has been purchased instead of returned. 
     -   **Lease Return**: The leased asset has been returned to the vendor at the end of its lease period.
 
-**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+**Parent Topic:**[Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
 

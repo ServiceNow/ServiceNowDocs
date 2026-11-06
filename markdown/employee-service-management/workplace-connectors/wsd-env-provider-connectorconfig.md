@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Setup Workplace Connectors for environmental data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -50,14 +50,6 @@ Name of the environmental sensor data provider. This field is auto-filled when t
 
 </td></tr><tr><td>
 
-Connector Configuration
-
-</td><td>
-
-Option to select required sensor items from the Connector Configuration table. For example, Occupancy And Environment.
-
-</td></tr><tr><td>
-
 Source Type
 
 </td><td>
@@ -78,6 +70,14 @@ Option to select active provider connector configuration data. Only active recor
 
 </td></tr><tr><td>
 
+Connector Configuration
+
+</td><td>
+
+Option to select required sensor items from the Connector Configuration table. For example, environmental.
+
+</td></tr><tr><td>
+
 Auto-refresh locations
 
 </td><td>
@@ -87,14 +87,6 @@ Option to auto-refresh locations when spaces are added or when some spaces are r
 The scheduled Job **Refresh Provider Space Mapping records** runs daily and reads the **Auto Refresh Location** field in the Provider Connector Configuration table. It reads all records in the Provider Connector Configuration records and updates the Provider Space Mapping table with the latest data.
 
 For example, if a new floor or a space is added to a location, then they're automatically added to a selected location.
-
-</td></tr><tr><td>
-
-Metrics
-
-</td><td>
-
-Option to select the event data for supported metrics.
 
 </td></tr></tbody>
 </table>3.  Filter spaces using the **Space Filter Condition**.

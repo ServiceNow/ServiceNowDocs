@@ -1,20 +1,20 @@
 ---
-title: Explore authentication factors for AI voice agents
-description: Authentication factors are the elements used for caller identification and authentication. In secure voice agent environments, the process begins with identifying the caller, followed by authenticating their identity before granting access. A robust security strategy combines multiple factors to confirm that only authorized users interact with AI voice agents.
+title: Authentication factors for AI voice agents
+description: Authentication factors verify caller identity before granting access to AI voice agents. Combining multiple factors helps confirm that only authorized users interact with AI voice agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/explore-authentication-factors.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-12-03"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Authentication factors, Authentication, Access Management]
 ---
 
-# Explore authentication factors for AI voice agents
+# Authentication factors for AI voice agents
 
-Authentication factors are the elements used for caller identification and authentication. In secure voice agent environments, the process begins with identifying the caller, followed by authenticating their identity before granting access. A robust security strategy combines multiple factors to confirm that only authorized users interact with AI voice agents.
+Authentication factors verify caller identity before granting access to AI voice agents. Combining multiple factors helps confirm that only authorized users interact with AI voice agents.
 
 When configuring an AI voice service to support natural, conversational exchanges, it’s crucial to select authentication factors that reliably verify a user's identity. Caller access to specific voice agents is determined by the authentication types and methods configured by the administrator.
 
@@ -22,41 +22,69 @@ In this context, two categories of authentication mechanisms are supported:
 
 ## Single-factor authentication
 
-Single-factor authentication requires the user to confirm the identity through a single verification method. Within the ServiceNow AI Platform voice agent configuration, you can select from three supported authentication factors:
-
--   Knowledge-based authentication \(KBA\)
--   Soft PIN
--   Time-based one-time Password \(TOTP\)
-
-Each method offers a distinct approach to user verification, enabling for secure access tailored to the needs of the service.
+Single-factor authentication requires the caller to verify their identity through one method. Any of the six supported factors can be configured as a standalone factor.
 
 ## Multi-factor authentication
 
-Multi-factor authentication \(MFA\) requires users to verify their identity with two methods, such as a PIN and an authenticator app code. This approach enhances security and user confidence by making accounts and voice services harder for attackers to compromise.
+Multi-factor authentication \(MFA\) requires callers to pass two verification methods in sequence. This raises the assurance level of the session and restricts access to sensitive data and actions.
 
--   Primary factor: Initial verification method \(such as Soft PIN, TOTP\).
--   Secondary factor: An additional verification method that strengthens security \(such as sending push notifications through **Okta Verify**\).
+-   Primary factor: The initial verification method \(for example, Soft PIN or TOTP\).
+-   Secondary factor: An additional verification method that increases confidence in the caller’s identity \(for example, SMS OTP or Push notification - Okta Verify\).
 
-    **Note:** Multi-factor authentication is selected as the primary factor by default, you can change the default behavior by setting the **glide.voice.authenticate.mfa\_mandatory** property to `false`.
+    **Note:** MFA is enabled by default. To make single-factor authentication the default behavior, set the `glide.voice.authenticate.mfa_mandatory` system property to false.
 
 
-## Overview of the supported authentication factors
+## Step-up authentication
+
+You can also combine the factors with step-up authentication. Step-up authentication requires a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request. For more information, see [Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/step-up-authentication.md).
+
+## Supported authentication factors
 
 -   **[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/totp-authenticator-apps.md)**
-    -   TOTP is a temporary numeric code generated by apps like **Okta Verify** on the user's registered device.
-    -   TOTP is recommended for users needing stronger protection, as codes are generated locally and are resistant to interception.
--   **[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/push-notification-okta-verify.md)**
-    -   Users approve authentication requests via a push notification on their registered mobile device.
-    -   The factor is fast, convenient, and offers high security as a second factor, but requires an internet connection and secure device management.
--   **[SoftPIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/softpin-authentication.md)**
-    -   Soft PIN is a 6-digit personal numeric the user is enrolled.
-    -   The factor is suitable for verifying returning users in low-risk, self-service scenarios. It’s quick to use and device-independent but can be vulnerable to observation or reuse.
--   **[SMS One-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/sms-otp-authentication.md)**
-    -   SMS OTP is a temporary numeric code sent to the user's registered mobile phone.
-    -   SMS OTP is easy to deploy and familiar. However, it’s susceptible to SIM-swapping and delivery issues and shouldn’t be the only factor for critical operations.
--   **[Knowledge-based authentication \(Security Questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/knowledge-based-authentication.md)**
-    -   Knowledge-based authentication \(KBA\) are pre-set security questions configured by the admin, such as “`What are the last four digits of your SSN?`”
-    -   Mostly used for low-risk operations, KBA requires no additional device but isn’t secure and shouldn’t standalone for sensitive actions.
 
-To learn more about voice service and how to create them, see [Create an AI voice assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-an-ai-voice-service.md).
+    TOTP is a temporary numeric code generated by an authenticator app, such as Okta Verify, on the caller's registered device. Codes are generated locally and are resistant to interception, making TOTP well-suited for both single-factor and MFA configurations. The admin chooses keypad or voice for this factor. Callers can't switch at run time.
+
+-   **[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/push-notification-okta-verify.md)**
+
+    Callers approve an authentication request through a push notification sent to their registered mobile device. This factor requires no code entry and is low-friction. It is effective as both a primary and secondary factor. An internet connection and a registered device with Okta Verify installed are required.
+
+-   **[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/softpin-authentication.md)**
+
+    Soft PIN is a 6-digit numeric code the caller enrolls in advance. It is device-independent and quick to use across conversational AI channels, such as AI voice agents. The admin chooses keypad or voice for this factor. Callers can't switch at run time. Because a PIN can be observed or shared, Soft PIN is best used alongside a second factor for sensitive actions.
+
+-   **[SMS one-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/sms-otp-authentication.md)**
+
+    SMS OTP delivers a temporary numeric code to the caller's registered mobile number. It is widely recognized and requires no app installation. The admin chooses keypad or voice for this factor. Callers can't switch at run time. SMS OTP is susceptible to SIM-swapping and delivery delays and should not be the sole factor for critical operations.
+
+-   **[Email one-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/email-otp-authentication.md)**
+
+    Email OTP delivers a temporary numeric code to the caller’s registered email address. It requires no app installation. The admin chooses keypad or voice for this factor. Callers can't switch at run time. Email OTP is susceptible to email account compromise and phishing, and should not be used as a standalone factor for sensitive operations.
+
+-   **[Knowledge-based authentication \(security questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/knowledge-based-authentication.md)**
+
+    KBA presents the caller with pre-configured questions, such as `"What are the last four digits of your employee ID?"`. The answers can be validated against ServiceNow AI Platform tables or external systems via custom scripts. KBA is used primarily for caller identification and low-risk authentication scenarios. Because answers can be social-engineered, KBA should not be used as a standalone factor for sensitive actions. The admin chooses keypad or voice for this factor. Callers can't switch at run time.
+
+-   **[Step-up authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/step-up-authentication.md)**
+
+    Step-up authentication requires a caller who is already authenticated to complete an additional challenge before reaching an AI voice agent that handles a sensitive request.
+
+
+For details on configuring voice input for authentication factors, see [Configure voice input for authentication factors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-voice-authentication-factors.md).
+
+To learn more about voice services and how to create them, see .
+
+**Related topics**  
+
+
+[Time-based one-time password \(TOTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/totp-authenticator-apps.md)
+
+[Push notification - Okta Verify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/push-notification-okta-verify.md)
+
+[Soft PIN authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/softpin-authentication.md)
+
+[SMS one-time passcode \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/sms-otp-authentication.md)
+
+[Email one-time passwords \(OTP\) authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/email-otp-authentication.md)
+
+[Knowledge-based authentication \(security questions\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/knowledge-based-authentication.md)
 

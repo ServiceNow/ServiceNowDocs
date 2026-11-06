@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Palo Alto Networks - Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,17 +24,15 @@ Role required: sn\_si.analyst
 
 During flow execution, firewall configuration information is retrieved from the database and the API Key is retrieved from the firewall. The Get Log action queues up a search query on the firewall. When the query runs, it returns a Job ID that is used to retrieve threat logs data from the firewall. It attaches the log data as an XML file to the security incident.
 
-\[Omitted image "get-log-data.png"\] Alt text: Get Log Data flow
-
 ## Procedure
 
 1.  Navigate to a security incident that contains observables.
 
-2.  Click the **Security Incident Observables** tab.
+2.  Select the **Security Incident Observables** tab.
 
 3.  In **Source IP**, add or modify the IP address.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     The **Security Operations Palo Alto Networks - Get Log Data** flow executes and enriched threat log data is attached to the security incident. The information is also parsed and displayed in the **Firewall Logs** section under the **Enrichment Data** tab.
 

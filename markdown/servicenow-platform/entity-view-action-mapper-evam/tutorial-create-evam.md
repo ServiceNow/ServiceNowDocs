@@ -1,20 +1,20 @@
 ---
 title: Create a multi-data source list display in Entity View Action Mapper
-description: Use the Entity View Action Mapper \(EVAM\) to take in different data sources, configure views, and show them in a card display view.
+description: Use EVAM to take in different datasources, configure views, and show them in a card display view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/entity-view-action-mapper-evam/tutorial-create-evam.html
 release: yokohama
 product: Entity View Action Mapper \(EVAM\)
 classification: entity-view-action-mapper-evam
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Managing Entity View Action Mapper, EVAM, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Managing Entity View Action Mapper, Entity view action mapper, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a multi-data source list display in Entity View Action Mapper
 
-Use the Entity View Action Mapper \(EVAM\) to take in different data sources, configure views, and show them in a card display view.
+Use EVAM to take in different datasources, configure views, and show them in a card display view.
 
 ## Before you begin
 

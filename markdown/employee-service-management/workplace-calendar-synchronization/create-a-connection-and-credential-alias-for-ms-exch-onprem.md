@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a normal mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---

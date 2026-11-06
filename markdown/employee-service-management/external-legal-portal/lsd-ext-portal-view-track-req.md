@@ -7,9 +7,9 @@ release: yokohama
 product: External Legal Portal
 classification: external-legal-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using External Legal Service Center, External Legal Service Center, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Using External Legal Service Center, External Legal Service Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # View and track requests submitted in External Legal Service Center

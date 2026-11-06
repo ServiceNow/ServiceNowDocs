@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage licenses for Microsoft Visual Studio
@@ -58,7 +58,7 @@ First, set up software models and entitlements to track your Visual Studio subsc
 
     For more information, see [Import sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/import-sets-landing-page.md).
 
-    Additionally, you can change the inference percent of the Visual Studio software models. The inference percent specifies what percentage of the components must be installed for the suite. It can be 0% in most cases. Also, verify that the Visual Studio community edition is free. For more details on adding inference percent and product licensability at the edition level, see [Create software models in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md).
+    Additionally, you can change the inference percent of the Visual Studio software models. The inference percent specifies what percentage of the components must be installed for the suite. It can be 0% in most cases. Also, verify that the Visual Studio community edition is free. For more details on adding inference percent and product licensability at the edition level, see [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md).
 
 
 ## What to do next

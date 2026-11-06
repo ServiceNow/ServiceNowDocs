@@ -1,0 +1,39 @@
+---
+title: Install the Data Collection Pack for Security Operations
+description: To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/dc-secops-install.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Impact Value Management Data Collection Content Pack for Security Operations, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
+---
+
+# Install the Data Collection Pack for Security Operations
+
+To enable the Data Collection Pack, you must install dependent plugins and activate Data Collection jobs.
+
+## Before you begin
+
+The Security Operations Success Metric Definitions in this application rely on another applications. confirm that the required plugins are installed if they are not already installed. For more information, see [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/dc-install-plugins.md).
+
+Role required: Impact users
+
+## Procedure
+
+1.  Navigate to the Impact workspace on your instance.
+
+2.  Navigate to **All** &gt; **Impact** &gt; **Configuration** &gt; **Value PA Data Collection Jobs**.
+
+3.  Select **Value PA Data Collection jobs**.
+
+4.  Search for and select the following:
+
+    -   **Impact VM - SecOps - Monthly Data Collection**
+    -   **Impact VM - SecOps - Historical Data Collection**
+    If you're having trouble finding the data collection jobs, check whether the required data collection-dependent plugins are installed correctly. See [Install Impact Value Management Data Collection Content Pack Apps dependent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/dc-install-plugins.md).
+
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/data-collection-secops.md)
+

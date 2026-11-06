@@ -1,0 +1,68 @@
+---
+title: Configuring Agentic Playbooks
+description: As a playbook author in Workflow Studio, configure AI Agents to perform a playbook activity.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/configure-agentic-playbooks.html
+release: yokohama
+product: Workflow Studio
+classification: workflow-studio
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Agentic Playbooks, Playbooks, Workflow Studio, Build workflows]
+---
+
+# Configuring Agentic Playbooks
+
+As a playbook author in Workflow Studio, configure AI Agents to perform a playbook activity.
+
+## Before you begin
+
+Role required: admin, playbook.admin, pd\_author, or playbook.write
+
+## About this task
+
+Agentic Playbooks come preconfigured with AI Agents that are integral to the Playbook Activity Assist agentic workflow. The workflow works seamlessly with the preconfigured AI Agents, without adding any additional agents. However, you can also add your custom agent to the activity according to your requirements. To make a playbook agentic, simply enable the AI Agents for your playbook activity and provide clear instructions for the AI Agents to perform the tasks.
+
+You can set up AI Agents to automatically complete activities or provide recommendations for you to review, edit, and approve.
+
+## Procedure
+
+1.  In Workflow Studio, open the playbook that you want to use AI Agents for.
+
+2.  Select and open the side panel for the activity that you want AI Agents to perform.
+
+3.  On the **AI Agents** tab, select how you want to use the AI Agents.
+
+    \[Omitted image "agentic-playbook-configure.png"\] Alt text: Enable and configure AI agents for the activity.
+
+    |Option|Description|
+    |------|-----------|
+    |**Collaborative**|The AI Agents generate and fill the values, then wait until a human reviews and approves the AI-generated value.|
+    |**Autonomous**|The AI Agents update the record, complete the activity, and automatically move the playbook to the next activity.|
+    |**No AI Agents**|AI Agents are turned off for the activity.|
+
+    **Note:** Test the playbook extensively to make sure that the AI Agents can complete the activities independently. Select **View progress** while testing the playbook to see the agent activities on the ServiceNow Otto® panel.
+
+    For activities that can't be completed independently by the AI Agents, the system saves the data. The activity is completed if the data matches any Wait for condition in your playbook.
+
+4.  In the **Run as** field, select whether you want the activity to run on behalf of the user who triggered the playbook or the user who completed the previous activity.
+
+5.  In the **AI Agents** field, select a custom agent that you want to add to the activity.
+
+    If you have custom agents that are specifically built for your use case, add the custom agents to the activity. To maintain accuracy, add a maximum of 5-6 custom agents.
+
+6.  In the **AI Agent Instructions** field, enter instructions for the task that you want the AI Agent to perform.
+
+    For guidelines about how to write instructions for AI Agents, see [Guidelines for writing AI agent instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/guidelines-agent-instruction.md).
+
+7.  Select **Save and close**.
+
+
+## What to do next
+
+Repeat as needed for any other activities that you want an AI Agent to help perform.
+
+After the playbook is complete, test the playbook. For information, see [Test a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/test-process.md).
+

@@ -1,20 +1,20 @@
 ---
 title: Configure third-party discovery sources for Software Asset Management
-description: Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with software found in your environment.
+description: Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with the software found in your environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/configure-third-party-discovery.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configure third-party discovery sources for Software Asset Management
 
-Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with software found in your environment.
+Set up a third-party discovery source for Software Asset Management to populate the Software Installation \[cmdb\_sam\_sw\_install\] table with the software found in your environment.
 
 ## Before you begin
 

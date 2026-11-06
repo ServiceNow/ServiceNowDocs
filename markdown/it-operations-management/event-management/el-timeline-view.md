@@ -1,0 +1,50 @@
+---
+title: View a timeline of the alerts in an alert group
+description: Gain insight into the sequence of events relating to an issue by viewing chronological information of the alerts in an alert group in Express List.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/el-timeline-view.html
+release: yokohama
+product: Event Management
+classification: event-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore chronological alert data for an alert group, Working with alert groups in Express List, Express List, Event Management, ITOM AIOps, IT Operations Management]
+---
+
+# View a timeline of the alerts in an alert group
+
+Gain insight into the sequence of events relating to an issue by viewing chronological information of the alerts in an alert group in Express List.
+
+## Before you begin
+
+Role required: evt\_mgmt\_operator, evt\_mgmt\_admin
+
+## About this task
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
+
+2.  In the primary navigation, select the Express List icon \(\[Omitted image "express-list1.png"\] Alt text: Express List icon.\).
+
+3.  In the Active alerts list, select the information icon \(\[Omitted image "info.png"\] Alt text: Information icon. for an alert.
+
+4.  On the preview panel Alerts tab, select **Timeline view**.
+
+5.  Analyze the information provided in the Timeline view.
+
+6.  Sort the displayed alerts by ascending or descending time or by severity.
+
+    1.  Select the sorting icon \(\[Omitted image "el-timeline-sort.png"\] Alt text: Sorting icon in Timeline view.\).
+
+    2.  Select the preferred sorting option from the pop-up menu.
+
+7.  Show or hide closed alerts by toggling the **Hide closed alerts** slider.
+
+
+**Related topics**  
+
+
+[Chronological alert data in an alert group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/el-timeline-view-concept.md)
+

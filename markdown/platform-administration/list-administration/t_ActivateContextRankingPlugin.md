@@ -7,9 +7,9 @@ release: yokohama
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Context ranking, Administering lists, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Context ranking, Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate context ranking
@@ -17,8 +17,6 @@ breadcrumb: [Context ranking, Administering lists, List administration, Forms, f
 If you have the admin role, you can activate the Context Ranking plugin \(com.glide.sorting\). This plugin activates related plugins if they are not already active.
 
 ## Before you begin
-
-Role required: admin.
 
 ## Procedure
 

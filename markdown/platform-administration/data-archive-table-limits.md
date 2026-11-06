@@ -1,16 +1,16 @@
 ---
-title: Data archive table size limits
+title: Archive table size limits
 description: There are constraints to the size of the table you use to archive your instance data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/data-archive-table-limits.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Data archive table size limits
+# Archive table size limits
 
 There are constraints to the size of the table you use to archive your instance data.
 

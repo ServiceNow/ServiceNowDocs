@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/button-emphasis.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legacy mobile theming, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Button emphasis considerations

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---

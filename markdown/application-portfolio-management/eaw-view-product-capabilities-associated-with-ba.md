@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-product-capabilities-associated-with-ba.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View product capabilities for a business application
@@ -18,7 +18,7 @@ You can view the list of product capabilities associated with business applicati
 
 The Product capabilities tab is displayed only when the Model ID detail is also available for the business application.
 
-When the **Model ID** field for a business application is initially empty and later populated, all product capabilities associated with that model ID will automatically appear in the **Product capabilities** related list of the corresponding business application.
+When the **Model ID** field for a business application is initially empty and later populated, product capabilities are automatically linked. All product capabilities associated with that model ID appear in the **Product capabilities** related list.
 
 Role required: sn\_apm.apm\_user
 
@@ -41,7 +41,7 @@ Role required: sn\_apm.apm\_user
 
 A list of product capabilities associated with the business application is displayed.
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 

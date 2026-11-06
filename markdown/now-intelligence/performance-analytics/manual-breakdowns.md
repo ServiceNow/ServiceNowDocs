@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Manual breakdowns
@@ -35,9 +35,9 @@ Roles required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Manual Breakdowns**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Manual Breakdowns**.
 
-2.  Click **New**.
+2.  Select **New**.
 
     The **Type** is set to **Manual** automatically.
 
@@ -76,7 +76,7 @@ Role required: pa\_data\_collector, pa\_power\_user, pa\_admin, or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Manual Breakdowns**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Breakdowns** &gt; **Manual Breakdowns**.
 
 2.  Select a breakdown record.
 

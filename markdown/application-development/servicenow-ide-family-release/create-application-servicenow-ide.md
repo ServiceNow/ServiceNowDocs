@@ -1,24 +1,26 @@
 ---
 title: Create an application with the ServiceNow IDE
-description: Create a scoped application to develop in source code with the ServiceNow IDE.
+description: Create an application to develop in source code with the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-ide-family-release/create-application-servicenow-ide.html
 release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Add applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create an application with the ServiceNow IDE
 
-Create a scoped application to develop in source code with the ServiceNow IDE.
+Create an application to develop in source code with the ServiceNow IDE.
 
 ## Before you begin
 
 Create a workspace for your applications. For more information, see [Create a workspace in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-workspace-servicenow-ide.md).
+
+**Note:** You can use Build Agent to help you create and edit applications in the ServiceNow IDE. For more information, see [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent.md).
 
 Role required: admin
 
@@ -34,26 +36,30 @@ Role required: admin
     -   Mac: Cmd-Shift-P
 4.  Enter `Fluent: Create Fluent App` and press Enter.
 
-5.  Enter a name for the application and press Enter.
+5.  Select the type of application.
 
-6.  Enter a description for the application and press Enter.
+    -   Scoped: Create a scoped application that is protected by identifying and restricting access to application files and data.
+    -   Global: Create an application in the global scope to allow it to be accessible to other global applications.
+6.  Enter a name for the application and press Enter.
 
-7.  Enter a scope for the application and press Enter.
+7.  Enter a description for the application and press Enter.
+
+8.  For scoped applications, enter a scope name and press Enter.
 
     The scope name must be unique on the instance, begin with x\_&lt;prefix&gt;, and be 18 characters or fewer. For more information, see [Namespace identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/c_NamespaceIdentifier.md).
 
-8.  Enter a package name for the application and press Enter.
+9.  Enter a package name for the application and press Enter.
 
     The package name must adhere to Node Package Manager \(npm\) package naming standards.
 
-9.  Select a template that defines the default application structure.
+10. Select a template that defines the default application structure.
 
-10. Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
+11. Build and install your application to compile source code into application metadata and make your changes available across the instance. For more information, see [Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md).
 
 
 ## Result
 
-A scoped application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
+An application with the default application structure is added to the instance and open in your workspace. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 \[Omitted image "servicenow-ide-create-app.png"\] Alt text: An application open in the File Explorer view.
 

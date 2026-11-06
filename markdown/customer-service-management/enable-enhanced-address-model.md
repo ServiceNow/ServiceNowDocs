@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/enable-enhanced-address-model.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Enable enhanced address model for accounts
@@ -16,7 +16,7 @@ Use the Account Address table in the enhanced address data model feature to link
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_crm\_foundation\_admin, script\_include\_admin, and script\_fix\_admin
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Role required: admin
 
 3.  Update the custom code that references the Account Address table.
 
-    The custom code can include elements that fetch the address of accounts in the Account Address table. Such elements can be reference qualifiers, script includes, business rules, and ACLs referencing to the Location table.
+    The custom code can include elements that fetch the address of accounts in the Account Address table. Such elements can be reference qualifiers, script includes, business rules, and access control lists \(ACLs\) referencing to the Location table.
 
 4.  Move the account-related data from the Location table to the Account Address table.
 
@@ -45,7 +45,7 @@ Role required: admin
     new sn_cs_base.CSDataFix().migrateLocationDataToAccountAddress(customRelationshipFields, account, migrateChildAccountLocations);​
     ```
 
-    Performing a rerun of the script if there’s a difference between the number of records that must be migrated and the number of records already migrated. In the event of a rerun, already migrated locations won’t be migrated again. To rerun migration for already migrated locations, delete the corresponding records in the account address table.
+    Performing a rerun of the script if there’s a difference between the number of records that must be migrated and the number of records already migrated. In there’s a rerun, already migrated locations aren't migrated again. To rerun the migration for already migrated locations, delete the corresponding records in the account address table.
 
 6.  Avoid accidental data entry by deactivating the Account and Custom Relationship fields from the Location table.
 

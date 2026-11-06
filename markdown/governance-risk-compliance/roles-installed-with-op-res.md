@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/roles-installed-with-op-res.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ Operational Resilience administrator\[sn\_oper\_res.admin\]
 </td><td>
 
 The Operational Resilience administrator is responsible for:-   Configuring scenarios
--   Setting up entity types, entity filters, and reporting pillars based on dashboard requests from the business teams.
+-   Setting up entity types, reporting pillars, and entity filters \(including deleting entity filters\) based on dashboard requests from the business teams.
 -   Customizing reports on the Operational Resilience dashboard.
 
  The Operational Resilience administrator should have the ITIL role to add the CMDB relationship between the service and the process.
@@ -52,6 +52,7 @@ Operational Resilience Manager\[sn\_oper\_res.manager\]
 
 The Operational Resilience Manager is responsible for:-   Ensuring operational resilience in the organization using the dashboards and reports
 -   Reviewing reports on the Operational Resilience dashboard, as well as supporting data.
+-   Creating and editing entity types and entity filters, and adding existing business services to Operational Resilience reporting.
 
 The Operational Resilience Manager role contains the following roles:
 
@@ -308,7 +309,7 @@ A user with one of the following roles can access the Risk Workspace:
 
 -   sn\_risk\_workspace.business\_op\_risk\_manager​
 -   sn\_risk\_workspace.IT\_risk\_manager​
--   sn\_risk\_workspace.operatonal\_risk\_manager​
+-   sn\_risk\_workspace.operational\_risk\_manager​
 
 A user with one of the following roles can access the Compliance Workspace:
 

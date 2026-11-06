@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Check for updated content in categories, Manage connected content from topic pages, Taxonomy and connected content, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Manage connected content from topic pages, Taxonomy and connected content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Enable connected content autosync system property
@@ -23,8 +23,6 @@ Role required: admin
 ## About this task
 
 By enabling this property, you can gain visibility into new and outdated content and manage content life cycle through automation for performance improvement.
-
-**Note:** The connected content autosync system property is available from Zurich and above.
 
 -   Auto-sync content additions and removals on topic pages in bulk.
 -   Eliminate the need to manually update the content additions and deletions. For more information, see [Run the scheduled job for content association](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/schduld-job-link-cntnt.md).
@@ -48,5 +46,5 @@ The system property syncs updates automatically.
 
 However, to check the updated content in categories manually, see [Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md).
 
-**Parent Topic:**[Check for updated content in categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/may-associate-updated-content-categories-topics.md)
+**Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

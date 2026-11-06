@@ -1,5 +1,5 @@
 ---
-title: Adding slots to the equipment inventory template
+title: Add slots to the equipment inventory template
 description: In the equipment inventory template that you created in the Network Inventory Workspace Lists view, use the Related Templates tab to create the associations for the slots. The following example shows how you add a related inventory template for an equipment model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/adding-slot-equipment-model.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating inventory template relationship, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Create inventory template relationship, Use, Telecommunications Network Inventory]
 ---
 
-# Adding slots to the equipment inventory template
+# Add slots to the equipment inventory template
 
 In the equipment inventory template that you created in the Network Inventory Workspace Lists view, use the Related Templates tab to create the associations for the slots. The following example shows how you add a related inventory template for an equipment model.
 
@@ -38,16 +38,16 @@ After you create all the associated slots, they all appear in the **Related Temp
 
 ## What's next
 
-Next, add a network interface to the equipment template. To learn more, see [Adding a network interface to the equipment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/adding-interface-cards-associated-equipment-model.md).
+Next, add a network interface to the equipment template. To learn more, see [Add a network interface to the equipment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/adding-interface-cards-associated-equipment-model.md).
 
-**Parent Topic:**[Creating inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
+**Parent Topic:**[Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md)
 
-**Previous topic:**[Creating inventory templates for related network interface models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-related-network-interface-models.md)
+**Previous topic:**[Create inventory templates for related network interface models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-related-network-interface-models.md)
 
-**Next topic:**[Adding a network interface to the equipment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/adding-interface-cards-associated-equipment-model.md)
+**Next topic:**[Add a network interface to the equipment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/adding-interface-cards-associated-equipment-model.md)
 
 **Related topics**  
 
 
-[Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+[Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 

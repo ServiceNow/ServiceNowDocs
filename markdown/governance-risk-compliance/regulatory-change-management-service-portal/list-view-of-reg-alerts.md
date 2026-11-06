@@ -7,7 +7,7 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -64,11 +64,11 @@ The overview page displays the following:
 
 -   Option to generate recommendations for impacted areas
 
-    You can generate recommendations from the Overview page or from the Recommendations tab. For more information, see [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/create-recommendation-reg-alert.md).
+    You can generate recommendations from the Overview page or from the Recommendations tab. For more information, see [Generate recommendations for regulatory alert impacted citations, control objectives, controls, and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/create-recommendation-reg-alert.md).
 
 -   Option to summarize the regulatory alert
 
-    The summarization option is available for regulatory alerts in the **New** state. For more information, see [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/create-a-summary-of-a-reg-alert.md).
+    The summarization option is available for regulatory alerts in the **New** state. For more information, see [Generate a regulatory alert summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/create-a-summary-of-a-reg-alert.md).
 
 -   Description of the regulatory alert
 -   Stage: Visual component that guides through a sequence of stages of a regulatory event alert

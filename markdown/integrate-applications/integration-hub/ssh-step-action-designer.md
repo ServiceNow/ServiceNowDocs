@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-05-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Integration steps, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration steps, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SSH step

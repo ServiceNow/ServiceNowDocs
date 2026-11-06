@@ -1,58 +1,41 @@
 ---
-title: Proactive Service Experience Workflows
-description: The Proactive Service Experience Workflows application enables service providers to deliver comprehensive support while understanding customer impact and maintaining transparent communication with all parties involved in the support process.
+title: Product Support for Technology
+description: ServiceNow Product Support for Technology provides telecom and technology service providers to deliver end-to-end support while understanding customer impact, and offering transparent communication to all parties involved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 ---
 
-# Proactive Service Experience Workflows
+# Product Support for Technology
 
-The Proactive Service Experience Workflows application enables service providers to deliver comprehensive support while understanding customer impact and maintaining transparent communication with all parties involved in the support process.
+ServiceNow® Product Support for Technology provides telecom and technology service providers to deliver end-to-end support while understanding customer impact, and offering transparent communication to all parties involved.
 
-<table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
+## Applications and features
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+<table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
 
- [\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
-
- [Learn about how service providers and customers use Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
+[Proactive Service Experience Workflow\[Omitted image "ind-bus.svg"\] Alt text:Deliver end-to-end workflows to resolve network related incidents, and proactively notify impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-landing-page.md)
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
-
- [\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
-
- [Plan and customize Proactive Service Experience Workflows to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/configure-assurance-workflows.md)
-
-</td></tr><tr><td>
-
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
-
- [\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
-
- [Use Proactive Service Experience Workflows to resolve the network-initiated incidents and notify the impacted customers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
+[Technology Product Support Case\[Omitted image "rtw-work-from-home.svg"\] Alt text:Resolve the customer issues faster using guided, step‑by‑step playbooks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/tpsc-landing-page.md)
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
-
- [\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
-
- [Learn about user roles, main components, and domain separation in Proactive Service Experience Workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/assurance-workflows-reference.md)
+[API Notification Management\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Notify third‑party systems of proactive or reactive cases in real time.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/api-notif-landing-page.md)
 
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/proactive-service-experience-workflows-rn.md).
--   Log in to your ServiceNow® account and find additional information about implementing and deploying Proactive Service Experience Workflow features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
+-   Learn more about what's new and changed, see the .
+-   Review the multiple TM Forum \(TMF\) Open APIs supported for the product, see .
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying Product Support for Technology features at the [Best Practices Library](https://mynow.servicenow.com/now/best-practices/home).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=proactive%20service%20experience%20workflows&spa=1)
 -   Find useful resources related to your role and explore best practices at [ServiceNow Impact](https://www.servicenow.com/success.html).
--   Connect with other Proactive Service Experience Workflow users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
+-   Connect with other Product Support for Technology users at [Now Community](https://www.servicenow.com/community/technology-provider/ct-p/technology).
 

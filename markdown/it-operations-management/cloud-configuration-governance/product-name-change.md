@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Product Name Change
@@ -27,7 +27,6 @@ Product name references throughout the product documentation and the graphical u
 |com.snc.cloud.core|Cloud Management Core plugin|Cloud Provisioning and Governance Core plugin|
 |Application Context \(**Settings** &gt; **Developer** &gt; **Application** &gt; **Cloud Provisioning and Governance**\)|Cloud Management|Cloud Provisioning and Governance|
 |com.sn\_cmp\_ibm|Cloud Management: IBM Cloud Connector|Cloud Provisioning and Governance: IBM Cloud Connector|
-|com.sn\_cmp\_gcp|Cloud Management: Google Cloud Connector|Cloud Provisioning and Governance: Google Cloud Connector|
 |MID Server Capability &gt; Cloud Management|MID Server Capability &gt; Cloud Management|Cloud Provisioning and Governance|
 |Unchanged component names|
 |MID Server Application &gt; Cloud Management|MID Server Application &gt; Cloud Management|Unchanged|

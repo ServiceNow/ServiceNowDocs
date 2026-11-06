@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Integration for Employee Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Integration for Employee Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # User Presence Indicator
@@ -18,9 +18,7 @@ User presence indicator helps the agents to know the status of the users in Micr
 
 By default, the agents can view the status of the users when they launch the Start chat modal in the ServiceNow instance.
 
-When you are upgrading the application, you must reauthorize the **Request Based Chat** from **Install Azure Apps** page. For more information on installing the Azure apps, refer [Grant permissions to required Microsoft Azure apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.md).
-
-\[Omitted image "install-azure-apps-0011.png"\] Alt text: Install Azure apps
+When you are upgrading the application, you must reauthorize the **Request Based Chat** from **Install Azure Apps** page. For more information on installing the Azure apps, refer [Grant permissions to required Microsoft Azure apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.md). Navigate to **All** &gt; **ServiceNow for Microsoft Teams** &gt; **Install Azure apps** and select **Reauthorize** option next to **Request Based Chat**.
 
 The system takes 60 minutes to display the user presence status in the start chat modal for the first use when you upgrade to IT Service Management integration with Microsoft Teams v2.5.0 or Collaboration Services v3.5 applications.
 

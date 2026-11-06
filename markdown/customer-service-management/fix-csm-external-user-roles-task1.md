@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/fix-csm-external-user-roles-task1.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Fix roles for external users with possible non-intentional internal role assignments
@@ -16,11 +16,11 @@ Review and fix roles for external users that may have non-intentional internal r
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user, user\_admin, sn\_crm\_foundation\_admin, and system\_scheduler\_admin
 
 ## About this task
 
-It is recommended that you do not assign internal roles to external users. Use this procedure to review and fix the contacts and consumers that may have the following role assignments:
+You must not assign internal roles to external users. Use this procedure to review and fix the contacts and consumers that may have the following role assignments:
 
 -   snc\_internal role only
 -   snc\_internal role and one or more external roles
@@ -29,15 +29,15 @@ It is recommended that you do not assign internal roles to external users. Use t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**.
 
-2.  In the Fix External User Role Assignment category, click **Get Started** and then click **External users with possible non-intentional internal role assignment**.
+2.  In the Fix External User Role Assignment category, select **Get Started** and then select **External users with possible non-intentional internal role assignment**.
 
 3.  Run the scheduled job to tag users that may have non-intentional user role assignments.
 
     Users are tagged with the **Ext-user-non-intentional** tag.
 
-4.  Review the list of tagged users and remove the tag from any users for which you do not need to fix role assignments.
+4.  Review the list of tagged users and remove the tag from any users for which you don’t need to fix role assignments.
 
     If necessary, configure the list to display the Tag column.
 
@@ -47,6 +47,6 @@ It is recommended that you do not assign internal roles to external users. Use t
 
     -   For users with the snc\_internal role only, it removes the snc\_internal role and adds the snc\_external role.
     -   For users with the snc\_internal role and one or more external roles, it removes the snc\_internal role.
-    This scheduled job runs all of the insert/delete business rules on the User Role \[sys\_user\_has\_role\] table.
+    This scheduled job runs all the insert/deleted business rules on the User Role \[sys\_user\_has\_role\] table.
 
 

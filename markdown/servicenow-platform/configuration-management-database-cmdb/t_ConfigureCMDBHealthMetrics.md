@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up and configure CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure KPI and metrics preferences
@@ -18,9 +18,9 @@ Include or exclude KPIs and metrics as needed in your organization, and configur
 
 ## Before you begin
 
-To start collecting and reporting CMDB health KPIs and metrics, you must first [enable and configure the CMDB health dashboard jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
+To start collecting and reporting CMDB health KPIs and metrics, you must first [enable and configure the CMDB Health Dashboard jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
 
-Role required: itil\_admin \(on top of itil\)
+Role required: sn\_cmdb\_admin or itil\_admin \(on top of sn\_cmdb\_editor or itil\)
 
 ## About this task
 
@@ -70,7 +70,7 @@ Create Task
 
 </td><td>
 
-If a CI fails the metric test, create a task with details about the failure. You can then view any generated tasks in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md), and configure remediation for the task.
+If a CI fails the metric test, create a task with details about the failure. You can then view any generated tasks in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in , and configure remediation for the task.
 
 </td></tr><tr><td>
 

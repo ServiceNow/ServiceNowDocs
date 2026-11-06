@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using an attribute pack for a CI record, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Attribute pack for CI records, Use, Telecommunications Network Inventory]
 ---
 
 # Use an attribute pack in the CI record
@@ -41,7 +41,7 @@ The attribute pack tables are added on the **Packs** tab.
 
 You can update the fields in the pack table that you’ve added. To learn more, see [Review and update a pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/review-update-pack-table.md).
 
-**Parent Topic:**[Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
+**Parent Topic:**[Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md)
 
 **Related topics**  
 

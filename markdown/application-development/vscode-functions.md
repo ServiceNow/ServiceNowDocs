@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/vscode-functions.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Functions of ServiceNow Extensions for VS Code
@@ -48,7 +48,7 @@ Create Now Project
 
 </td><td>
 
-Import existing ServiceNow applications to a Visual Studio Code project. See [Create a project in VS Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/create-project.md).
+Import existing ServiceNow applications to a Visual Studio Code project. See [Create a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/process-mining/create-project.md).
 
 </td></tr><tr><td>
 

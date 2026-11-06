@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-phase-2.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade to the Yokohama release, Yokohama release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 2 - Prepare for the development instance upgrade

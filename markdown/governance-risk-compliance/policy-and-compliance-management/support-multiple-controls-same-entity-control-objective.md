@@ -1,5 +1,5 @@
 ---
-title: Multiple controls for a unique entity–control objective combination
+title: Multiple controls for compliance management
 description: You can create multiple controls for a unique combination of an entity and a control objective to get granular control information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/support-multiple-controls-same-entity-control-objective.html
@@ -7,23 +7,33 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage controls, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage controls, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Multiple controls for a unique entity–control objective combination
+# Multiple controls for compliance management
 
 You can create multiple controls for a unique combination of an entity and a control objective to get granular control information.
 
-For an organization that handles multiple products, operational lines, and practices, having a single control for an entity and a control objective combination is ineffective. Multiple levels of control objectives, controlled and managed centrally helps to get the granular control information.
+Controls can be created through the item generation process or inherited directly from the control objective. By default, only one control can be inherited from a control objective.
 
-The benefits of creating multiple controls for the same entity and control objective combinations are:
+For organizations that manage multiple products, operational lines, or practices, a single control per entity–control objective combination may not provide sufficient granularity.
 
--   You can create high-level control objectives and more granular controls.
--   The control owner, compliance manager, and compliance user can manage the compliance library more efficiently.
+Creating multiple controls for the same entity and control objective combination lets you:
 
-You can create multiple controls for the same combination of entity and control objective by enabling the **Inherit from control objective** option in the [Control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md). Controls can be created either through item generation process or, by default, inherited from the control objective. Such controls have a unique name as they are unique to the entity–control objective combination. By default, only one control can be inherited from the control objective. However, if you want to create multiple controls for the same combination of entity and control objective you have to do it manually and the name of the control must be unique.
+-   Define high-level control objectives with more detailed and specific controls.
+-   Give control owners, compliance managers, and compliance users more precise visibility into the compliance library.
 
-When you select the **Inherit from control objective** option in the Control form, the control automatically inherits the name and description of the control objective. However, when the option is not selected, then you must enter the name of the control manually.
+To create multiple controls for the same entity and control objective combination, disable the Inherit from control objective option in the Control form.
+
+For more information, see [Control form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/t_CreateAControl.md).
+
+When Inherit from control objective is enabled, the control automatically inherits the name and description from the control objective.
+
+> **Note:** Beyond the first inherited control, additional controls for the same combination must be created manually.
+
+**Note:** Suppose multiple products or systems in your organization fulfill the same control objective through a shared mechanism. For example, two Single Sign On products that both satisfy the same requirement . Consider converting the control to a common control instead of creating multiple controls manually. A common control can be associated with multiple reliant entities without requiring a separate control for each.
+
+For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 

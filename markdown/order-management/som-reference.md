@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sales Customer Relationship Management]
 ---
@@ -14,16 +14,24 @@ breadcrumb: [Sales Customer Relationship Management]
 
 Reference topics provide additional information about the Sales Customer Relationship Management applications.
 
--   **[Components installed with Sales Cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/components-installed-with-sales-cart-plugin.md)**  
-Several types of components are installed with activation of Sales Cart including tables, user roles, and scheduled jobs.
--   **[Lead-to-Cash Process Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-cash-process-management-reference.md)**  
-Reference topics provide additional information about Lead-to-Cash Process Management.
--   **[Components installed with Customer Engagement Sequences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/components-installed-customer-engagement-sequences.md)**  
-Several types of components are installed with activation of the Customer Engagement Sequences plugin, including tables and user roles.
--   **[Partner Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-relationship-management-reference.md)**  
+-   **[Sales Customer Relationship Management REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-rest-apis.md)**  
+Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to create and manage Sales CRM entities such as pricing, leads, quotes, and orders from external systems.
+-   **[Sales automation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reference-lead-opportunity-mgt.md)**  
+Reference for sales automation applications.
+-   **[Configure, price, quote reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reference-cpq.md)**  
+Reference for configure, price, and quote applications.
+-   **[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-reference.md)**  
+Reference topics provide additional information about Order Management.
+-   **[Order operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reference-order-operations.md)**  
+Reference for order operations applications.
+-   **[Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-relationship-management-reference.md)**  
 Reference topics provide additional information about Partner Relationship Management.
--   **[Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/return-merchandise-authorization-case-management-reference.md)**  
-Reference topic provides additional information about lists and forms that you can use to configure Return Merchandise Authorization \(RMA\) Case Management.
+-   **[Lead-to-cash foundation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reference-lead-cash-foundation.md)**  
+Reference for lead-to-cash foundation applications.
+-   **[Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-business-portal-reference.md)**  
+Reference topics provide additional information about the components such as roles and tables that are installed with various Business Portal plugins.
+-   **[Sales Customer Relationship Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-glossary.md)**  
+Learn about terms and concepts that are unique to Sales Customer Relationship Management.
 
 **Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-overview.md)
 

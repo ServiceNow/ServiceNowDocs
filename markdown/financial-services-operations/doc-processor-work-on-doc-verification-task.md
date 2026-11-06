@@ -1,30 +1,30 @@
 ---
 title: Work on a document verification task
-description: A document agent can review and approve or reject a document submitted for verification via Financial Services Operations applications.
+description: A document agent can review and approve or reject a document submitted for verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/doc-processor-work-on-doc-verification-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Document Processor, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a document verification task
 
-A document agent can review and approve or reject a document submitted for verification via Financial Services Operations applications.
+A document agent can review and approve or reject a document submitted for verification.
 
 ## Before you begin
 
 **Note:** An OCR-processed document can be automatically reviewed and approved. For information on OCR-processed documents, see [Integrating with Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/integration-with-document-intelligence.md).
 
-Role required: admin
+Role required: sn\_doc\_processor.agent​
 
 ## Procedure
 
 1.  Navigate to **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Document verification**, open the task list.
 
@@ -42,15 +42,15 @@ Role required: admin
 
 7.  Select one of the following options.
 
-<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d114510e171">
+<table id="choicetable_t3f_5r1_wnb"><thead><tr><th align="left" id="d140048e195">
 
 Task
 
-</th><th align="left" id="d114510e174">
+</th><th align="left" id="d140048e198">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d114510e180">
+</th></tr></thead><tbody><tr><td id="d140048e204">
 
 **Verify**
 
@@ -58,7 +58,7 @@ Action
 
 Select **Verify** if the document details are sufficient.
 
-</td></tr><tr><td id="d114510e192">
+</td></tr><tr><td id="d140048e216">
 
 **Reject**
 

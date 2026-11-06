@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_AssocMultCatUsrsToOneAssessRec.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Category users and stakeholders, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,8 +31,6 @@ You can also edit or delete stakeholders from the form.
 3.  In the **Category users** related list, click **Edit**.
 
     These category users are the stakeholders for this assessable record.
-
-    \[Omitted image "StakeholdersForThisAssessableRecord.png"\] Alt text: Stakeholders for this assessable record
 
 4.  Add category users to create stakeholders or remove category users to delete stakeholders.
 

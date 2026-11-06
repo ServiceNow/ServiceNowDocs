@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve employee workplace reservation requests
@@ -26,15 +26,15 @@ Role required: approver\_user
 
 1.  Navigate to a reservation approval task.
 
-<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d457311e71">
+<table id="choicetable_dpt_bjp_zlb"><thead><tr><th align="left" id="d492474e71">
 
 Application
 
-</th><th align="left" id="d457311e74">
+</th><th align="left" id="d492474e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d457311e80">
+</th></tr></thead><tbody><tr><td id="d492474e80">
 
 **Now Mobile**
 
@@ -65,6 +65,8 @@ In the Now Mobile app, open a task from the My Tasks section.
 
 [Configure Workplace entity and entity types]()
 
+[Managing Neighborhoods]()
+
 [Enable favorites option for Workplace Service Portal]()
 
 [Create a workplace performer criteria]()
@@ -89,5 +91,5 @@ In the Now Mobile app, open a task from the My Tasks section.
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

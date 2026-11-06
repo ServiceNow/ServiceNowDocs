@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowServiceConfiguration structure - iOS
+# NowServiceConfiguration structure- iOS
 
 The NowServiceConfiguration structure defines configuration information for a feature service.
 
@@ -21,7 +21,7 @@ The NowServiceConfiguration structure defines configuration information for a fe
 |appBundleId|String|Bundle ID of the application integrating with the NowSDK.|
 |instanceUrl|String|URL of the ServiceNow instance that the feature service will access. For example: `https://instance.servicenow.com`.|
 
-**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowServiceConfiguration - init\(instanceUrl: URL, appBundleId: String\)
 

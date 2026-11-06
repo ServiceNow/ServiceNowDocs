@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/cloud-availability.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Availability, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [View instance-level availability, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
 # Cloud availability
@@ -22,9 +22,11 @@ The cloud availability is displayed in a world map view with colored status indi
 
 \[Omitted image "data-center-status-map.png"\] Alt text: Display of the world map with colored status indicators representing the availability of each data center.
 
-See which data center is available and if there is an outage or a specific trend of actvity. Select a specific data center from the map to expand the details.
+See which data center is available and if there is an outage or a specific trend of activity. Select a specific data center from the map to expand the details.
 
 \[Omitted image "data-center-details.png"\] Alt text: Shows the data center details page after expanding from the cloud map.
 
 Go directly to Instance Observer, view summaries of the availability, and details of the last 90 days service issues.
+
+**Parent Topic:**[View instance-level availability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-availability.md)
 

@@ -1,26 +1,26 @@
 ---
-title: Managing the CSDM framework
-description: The CSDM is the data framework that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform products, apps, and features.
+title: Access CSDM features
+description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-using.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Managing the CSDM framework
+# Access CSDM features
 
-The CSDM is the data framework that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform products, apps, and features.
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
 ## CSDM modules
 
 Navigate to the modules that assist you in implementing and managing the CSDM domains and their components.
 
-\[Omitted image "nav-pane.png"\] Alt text: Navigating to CSDM modules.
+\[Omitted image "csdm-nav-pane-v5.png"\] Alt text: Navigating to CSDM modules.
 
 -   **CSDM Data Foundations Dashboard**
 
@@ -28,33 +28,33 @@ Navigate to the modules that assist you in implementing and managing the CSDM do
 
 -   **Getting Started**
 
-    Select **Getting Started** to open the library of CSDM user documentation — the documentation you are viewing now.
+    Select **Getting Started** to open the library of CSDM user documentation — the documentation you're viewing now.
 
 -   **Service Instance Settings**
 
-    Use the Service Instance Settings module to specify the attributes and relationships that are required when a user creates a service instance. See [Specifying attributes and relationships for service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-settings.md).
+    Use the Service Instance Settings module to specify the attributes and relationships that are required when a user creates a service instance. For more information, see [Modify the attributes and relationships required for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/modify-req-fields-appservice.md).
 
-    See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 -   **Service instances Dashboard**
 
-    The Service Instances dashboard \(formerly Application Services\) enables you to monitor and manage service instances to ensure that they are fully configured and are populated in the CMDB. See [Monitoring and managing service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md).
+    The Service instance dashboard enables you to monitor and manage service instances \(service instances were formerly called application services\) to confirm that they are fully configured and are populated in the CMDB. See [Monitoring and managing service instance settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md).
 
 -   **Life Cycle Mapping**
 
-    Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(**life cycle stage** and **life cycle stage status**\). You map both asset and CI legacy status values to life-cycle value pairs. See [Enabling CSDM life-cycle sync between legacy fields and related assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
+    Use the Life Cycle Mapping module to specify how existing legacy status values should be converted to CSDM life-cycle value pairs \(**life cycle stage** and **life cycle stage status**\). You map both asset and CI legacy status values to life-cycle value pairs. See [Enabling life-cycle synchronization from legacy to asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
 
 -   **Design**
 
-    Work in the tables that are referenced in the Design domain of the CSDM. See [Design domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md).
+    Work in the tables that are referenced in the Design &amp; Planning domain of the CSDM. See [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
--   **Manage Technology Management Services**
+-   **Service Delivery**
 
-    Work in the tables that are referenced in the Manage Technology Management Services domain of the CSDM. See [Manage Technology Management Services domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
+    Work in the tables that are referenced in the Service Delivery domain of the CSDM. See [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
 
 -   **Sell and Consume**
 
-    Work in the tables that are referenced in the Sell/Consume domain of the CSDM. See [Sell/Consume domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md).
+    Work in the tables that are referenced in the Service Consumption domain of the CSDM. See [Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md).
 
 
 ## Synchronize data for 'Managed by' and 'Change' groups
@@ -67,12 +67,8 @@ Navigate to the modules that assist you in implementing and managing the CSDM do
 
 -   **[CSDM Data Foundations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-data-foundations-dashboard.md)**  
 The CSDM Data Foundations dashboard displays key CSDM indicators on a single page to help you get the full benefit from your ServiceNow AI Platform products.
--   **[Specifying attributes and relationships for service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-settings.md)**  
-Use the Service Instance Settings module to specify the attributes and relationships that are required when a user creates a service instance.
--   **[Monitoring and managing service instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md)**  
-The Service Instances dashboard \(formerly Application Services\) enables you to monitor and manage service instances to ensure that they are fully configured and are populated in the CMDB.
--   **[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)**  
-The type of service determines how you use dynamic CI groups.
+-   **[Monitoring and managing service instance settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-module-app-service-dashboard.md)**  
+The Service instance dashboard enables you to monitor and manage service instances \(service instances were formerly called application services\) to confirm that they are fully configured and are populated in the CMDB.
 
 **Parent Topic:**[Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-landing-page.md)
 

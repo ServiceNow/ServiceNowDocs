@@ -1,5 +1,5 @@
 ---
-title: Create cross-scope access privileges for topic blocks and custom controls
+title: Configure cross-scope access privileges for topic blocks and custom controls
 description: Enable topic authors and developers to access Virtual Agent topic blocks and custom controls from other scoped applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/configure-cross-scope-privileges.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, Cross-scope, privileges, topic block, custom control]
-breadcrumb: [Configuring Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
 
-# Create cross-scope access privileges for topic blocks and custom controls
+# Configure cross-scope access privileges for topic blocks and custom controls
 
 Enable topic authors and developers to access Virtual Agent topic blocks and custom controls from other scoped applications.
 
@@ -50,6 +50,4 @@ Developers and topic authors may need to access [topic blocks](https://raw.githu
 ## Result
 
 The cross-scope privilege is listed in the Cross scope privileges \[sys\_scope\_privilege\] table. Topic authors or developers can access the topic blocks or custom controls from the target scope.
-
-**Parent Topic:**[Configuring Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-virtual-agent.md)
 

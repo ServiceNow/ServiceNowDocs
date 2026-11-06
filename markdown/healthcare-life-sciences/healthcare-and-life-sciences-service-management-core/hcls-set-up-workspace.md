@@ -1,20 +1,20 @@
 ---
-title: Setting up Workspace for addressing healthcare-related requests
-description: Set up Healthcare workspace to enable healthcare agents to view patient information and manage healthcare-related cases.
+title: Set up Workspace for addressing healthcare-related requests
+description: Set up Healthcare Workspace to enable healthcare agents to view patient information and manage healthcare-related cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-set-up-workspace.html
 release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Setting up Workspace for addressing healthcare-related requests
+# Set up Workspace for addressing healthcare-related requests
 
-Set up Healthcare workspace to enable healthcare agents to view patient information and manage healthcare-related cases.
+Set up Healthcare Workspace to enable healthcare agents to view patient information and manage healthcare-related cases.
 
 <table id="table_ksw_gpr_4nb"><thead><tr><th>
 

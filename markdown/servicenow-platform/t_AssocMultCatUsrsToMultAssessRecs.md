@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_AssocMultCatUsrsToMultAssessRecs.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Category users and stakeholders, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,8 +29,6 @@ You can select category users from one category at a time.
 1.  Navigate to **All** &gt; **Assessments** &gt; **Advanced** &gt; **Create Stakeholders**.
 
     The stakeholder list helper appears.
-
-    \[Omitted image "StakeholderListHelper.png"\] Alt text: Stakeholder list helper
 
 2.  Select a metric type from the list of available types.
 

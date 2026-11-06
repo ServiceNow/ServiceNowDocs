@@ -1,20 +1,20 @@
 ---
 title: Exploring Recommended Actions for Operational Technology Service Management \(OTSM\)
-description: Recommended Actions for Operational Technology Service Management \(OTSM\) allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the including Operational Technology \(OT\) incidents.
+description: Recommended Actions for Operational Technology Service Management \(OTSM\) allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records, including Operational Technology \(OT\) incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/recommended-actions-for-otsm/exploring-recommended-actions-otsm.html
 release: yokohama
 product: Recommended Actions for OTSM
 classification: recommended-actions-for-otsm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Recommended Actions for OTSM, Operational Technology]
 ---
 
 # Exploring Recommended Actions for Operational Technology Service Management \(OTSM\)
 
-Recommended Actions for Operational Technology Service Management \(OTSM\) allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the including Operational Technology \(OT\) incidents.
+Recommended Actions for Operational Technology Service Management \(OTSM\) allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records, including Operational Technology \(OT\) incidents.
 
 ## Recommended Actions for OTSM overview
 

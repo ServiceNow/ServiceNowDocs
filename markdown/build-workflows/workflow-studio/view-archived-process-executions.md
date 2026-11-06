@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Archive process contexts, Administering playbooks, Configuring playbooks, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # View archived process contexts

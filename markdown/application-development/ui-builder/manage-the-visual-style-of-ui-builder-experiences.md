@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage the visual style of UI Builder experiences
@@ -32,8 +32,14 @@ If you are an admin user comfortable working in style records and JSON code, you
 
 If you are interested in dark theme, see [Working with the dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-working-in-dark-theme.md).
 
+## Create custom style classes and rules
+
+Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes, see [Create custom style classes and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/custom-style-classes-rules.md).
+
 -   **[View experience theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/view-experience-theme.md)**  
 View the theme applied to your experience. The theme sets the visual style of the experience and provides a consistent look and feel across all pages.
+-   **[Create custom style classes and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/custom-style-classes-rules.md)**  
+Use style classes rules in UI Builder to apply custom visual styling to UI elements by referencing CSS classes.
 
 **Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/using-ui-builder.md)
 

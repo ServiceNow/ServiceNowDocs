@@ -7,7 +7,7 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 # Coaching in Workforce Optimization for ITSM
 
 Learn how you can review and assess the quality of the interactions and tasks completed by your teams. You can enhance the skills set of your teams by assigning training that is based on those assessments. You can also add skills to the profiles of your teams after they get trained.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Initiate a skill review process to have your teams assess their own skill set and approve or reject the skills. After it's approved, they’ll automatically be added to the skill set of the team member.
 
@@ -147,7 +149,7 @@ After you create coaching assessments manually or automatically, you can do any 
 
 ## Coaching opportunity
 
-A coaching opportunity is a critical moment in a process where coaching assessments get triggered based on conditions set in the coaching opportunity record. A coaching opportunity can be generated at any time during the life cycle of any task record. These records could include any task such as an incident, problem, change request, or request item. For example, you can set conditions to trigger a coaching opportunity when an incident reassigned or escalated. For examples on identifying coaching opportunities, see [Identifying coaching opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-overview.md).
+A coaching opportunity is a critical moment in a process where coaching assessments get triggered based on conditions set in the coaching opportunity record. A coaching opportunity can be generated at any time during the life cycle of any task record. These records could include any task such as an incident, problem, change request, or request item. For example, you can set conditions to trigger a coaching opportunity when an incident reassigned or escalated. For examples on identifying coaching opportunities, see [About Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-overview.md).
 
 You can do the following in a coaching opportunity record:
 
@@ -159,7 +161,7 @@ You can do the following in a coaching opportunity record:
 
     -   All virtual coach records have a coaching opportunity associated with it but not all coaching opportunities have an associated virtual coach record.
     -   A virtual coach can’t be associated with a manually generated assessment.
-    For information on virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md).
+    For information on virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-identify-learning-content.md).
 
 
 ## Example of assessment triggers
@@ -219,7 +221,7 @@ You can create a manual assessment and complete the following tasks manually:-  
 -   Associate coaching surveys to the assessment
 
 </td></tr></tbody>
-</table>You can use Coaching for any task-based process for such as Change Management, Customer Service Management or Incident Management to set up Coaching. You can also use Coaching for a non-task or custom table source by [configuring a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-reference.md).
+</table>You can use Coaching for any task-based process for such as Change Management, Customer Service Management or Incident Management to set up Coaching. You can also use Coaching for a non-task or custom table source by [configuring a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-reference.md).
 
 As a coach, you can:
 

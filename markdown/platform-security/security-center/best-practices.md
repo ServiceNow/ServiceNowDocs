@@ -7,7 +7,7 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: reference
-last_updated: "2025-08-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
 breadcrumb: [Security Best Practices, Security posture console, Security Center, Platform Security]
 ---
@@ -56,7 +56,7 @@ Change the default login credentials
 
 Change the passwords on your instance's built-in user accounts, such as admin, ITIL, and employee. These accounts are provisioned with default passwords, unique to your instance, but should be changed as soon as possible.
 
- For details on how to change the passwords for user accounts on your instance, see [Configuring password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/reset-your-password.md).
+ For details on how to change the passwords for user accounts on your instance, see [Configure password for a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/reset-your-password.md).
 
 </td></tr><tr><td>
 
@@ -86,9 +86,9 @@ Consider limiting file attachments, uploads, and downloads
 
 </td><td>
 
-Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and then delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and prevent image access by unauthenticated users.
+Restrict attachment uploads by role, file extension, MIME type, or size to help prevent potentially malicious files being stored and delivered from your instance. You can also control which file types can be downloaded, including by MIME type, and prevent image access by unauthenticated users.
 
- These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see [Configure attachment system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_DisablingTheDragAndDropFeature.md).
+ These attachment restrictions are controlled by system properties on your instance. For details on their configuration, see .
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Disable browser SQL messages
 
 Prevent SQL error messages from being presented in the web browser. Though useful to users and developers, these messages can be used by attackers to learn information about your system or to help guide their attempts to access your data. These messages can be turned off using a system property.
 
- For details on this system property, see [Disable SQL Error Messages \[Updated in Security Center 1.3 and 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md).
+ For details on this system property, see [Disable SQL error messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disabling-sql-error-messages.md).
 
 </td></tr><tr><td>
 
@@ -108,7 +108,7 @@ Disable password-less authentication
 
 Help ensure strong authentication by disabling password-less authentication when possible. Without disabling password-less authentication, potential attackers could gain access to your instance by correctly guessing a user name \(such as firstname.lastname or a role title\).
 
- You can disable password-less authentication on your instance using a system property. For details on this property see [Disable password-less authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disable-password-less-authentication.md).
+ You can disable password-less authentication on your instance using a system property. For details on this property see .
 
 </td></tr><tr><td>
 
@@ -144,7 +144,7 @@ Use password policies to enforce the length, complexity, expiration, uniqueness,
 
  You can retain your existing policies for any external authentication services you have integrated, such as LDAP or SAML.
 
- For details on password policy configuration, see [Configuring your password policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-your-password-policy.md).
+ For details on password policy configuration, see [Configure your password policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-your-password-policy.md).
 
 </td></tr><tr><td>
 
@@ -154,7 +154,7 @@ Ensure automatic account creation
 
 Use this feature to create user accounts by email dynamically. Activate this feature only if necessary for your business needs, only after you have defined a list of trusted domains from which accounts can be created. You can also control how passwords are assigned to new accounts created this way.
 
- For details on automatic user creation, see [Enable automatic user creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_EnablingAutomaticUserCreation.md).
+ For details on automatic user creation, see .
 
 </td></tr><tr><td>
 
@@ -176,7 +176,7 @@ Use the High Security plugin \(HSP\) to enhance security management and applying
 
  HSP is installed and enabled by default on all new instances. You can request HSP activation for older instances, including instances that have had upgrades from an older version. Enabling HSP should be done only after careful testing in a non-production environment, as activation changes some fundamental properties and behaviors.
 
- For more details on the High Security plugin, see [Enable High Security Plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
+ For more details on the High Security plugin, see [Enable High Security plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-high-security-plugin.md).
 
 </td></tr><tr><td>
 
@@ -234,7 +234,7 @@ Limit accepted email sender domains
 
 Control which domains and users your instance can communicate with via email by using system address filters. These filters can be customized to your requirements.
 
- Learn how to configure trusted domains at [Designate email domains as untrusted or trusted](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/designate-untrusted-trusted-email-domains.md).
+ Learn how to configure trusted domains at .
 
 </td></tr><tr><td>
 
@@ -282,7 +282,7 @@ Monitor login failure rates and create alerts
 
 Monitor for unusual activity such as high numbers of failed logins, especially within short time frames. You can create alerts to send emails when a threshold you define is exceeded.
 
- Learn how to configure these thresholds at [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-threshold.md).
+ Learn how to configure these thresholds at .
 
 </td></tr><tr><td>
 
@@ -341,7 +341,7 @@ Restrict access to your instance from unknown IP addresses
 
 Help prevent unauthorized access to your instance by restricting access from IP addresses unrelated to your organization. Anyone trying to access the instance from an unauthorized IP address are denied. If using this approach, consider allowing only your gateway or web proxy external addresses, as well as addresses from which your users access the instance from, including remote users. You can restrict both outbound and inbound access by IP address.
 
- Learn how to restrict access to your instance by IP address in [Restrict access to specific IP ranges plugin \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md).
+ Learn how to restrict access to your instance by IP address in [Restrict access to specific IP ranges plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-access-to-specific-ip-ranges-plugin.md).
 
 </td></tr><tr><td>
 
@@ -396,7 +396,7 @@ Use of certificate-based authentication with integration providers
 
 Configure traffic to your integration providers using REST/SOAP connections to use certificate-based authentication. Secure Socket Layer \(SSL\) certificate authentication encrypts data in transit, helping to prevent it from being read as it is sent.
 
- Learn more about this configuration in [Configuring mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_MutualAuthentication.md).
+ Learn more about this configuration in [Configure mutual authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_MutualAuthentication.md).
 
 </td></tr><tr><td>
 
@@ -429,7 +429,7 @@ Create email filters to filter out messages marked as suspicious by ServiceNow A
 
  Learn more about ServiceNow's antivirus feature at [Antivirus Scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/antivirus-protection.md).
 
- Learn how to configure email filters on your instance at [Email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_EmailFilters.md).
+ Learn how to configure email filters on your instance at .
 
 </td></tr><tr><td>
 
@@ -439,7 +439,7 @@ Use the Syslog Probe to send logs to your SIEM
 
 Use the ServiceNow syslog probe to send log messages from your instance to a Security Information and Event Manager \(SIEM\). An SIEM is third-party software or service that can be used for activity monitoring and identifying security events.
 
- Learn more about ServiceNow syslog probe configuration at [Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_SyslogProbe.md).
+ Learn more about ServiceNow syslog probe configuration at .
 
 </td></tr><tr><td>
 
@@ -461,7 +461,7 @@ Validate access using Access Analyzer
 
 Use the ServiceNow Access Analyzer tool to help you compare and analyze permissions for selected users, roles, or groups. You can use this information to troubleshoot access issues, identify who has access to your sensitive data, and determine the correct level of access for users on your instance.
 
- Learn more about the benefits of Access Analyzer at [Exploring Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/explore-access-analyzer.md).
+ Learn more about the benefits of Access Analyzer at [Exploring Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/explore-access-analyzer.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Security Best Practices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/security-best-practices-manager.md)

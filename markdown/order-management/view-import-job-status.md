@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/view-import-job-status.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # View import job status
@@ -30,4 +30,11 @@ Role required: product\_catalog\_admin for catalog entities and sn\_csm\_pricing
     -   Loaded Data - View the newly imported data for catalog entities in the Catalog Import Data Source table \[sn\_prd\_pm\_catalog\_import\_data\_source\] or for pricing entities in the Pricing Import Data Source \[ sn\_csm\_pricing\_import\_data\_source\] or sn\_csm\_ctxrul\_mgt\_import\_data\_source staging tables.
     -   Run Robust Transform - Transforms a loaded import set using a robust transform.
     -   Import Log - Opens the import log.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

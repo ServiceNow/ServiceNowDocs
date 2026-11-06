@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Install Event Management
@@ -35,7 +35,7 @@ For more information, see [Components installed with Event Management](https://r
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the ITOM Health application using the filter criteria and search bar.
+2.  Find the ITOM AIOps application using the filter criteria and search bar.
 
     If you cannot find the application, request it from the ServiceNow Store.
 
@@ -51,6 +51,4 @@ For more information, see [Components installed with Event Management](https://r
 
 5.  Select **Install**.
 
-
-**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
 

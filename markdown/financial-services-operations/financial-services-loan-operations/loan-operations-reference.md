@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Loan Operations reference
@@ -20,6 +20,8 @@ Learn about the components, such as the roles, tables, plugins, and store applic
 Several types of components are installed with the installation of the Financial Services Business Loan Operations application, including tables and user roles. The application also installs related plugins and store applications if they aren’t already installed.
 -   **[Components installed with Financial Services Personal Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/installed-with-personal-loan-operations.md)**  
 Several types of components are installed with the installation of the Financial Services Personal Loan Operations application, including tables and user roles. The application also installs related plugins and store applications if they are not already installed.
+-   **[Domain separation and Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/fso-loan-domain-separation.md)**  
+Domain separation is unsupported for the Financial Services Loan Operations application. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 **Parent Topic:**[Financial Services Loan Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/loan-ops-landing-page.md)
 

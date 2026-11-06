@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/doc-processor-define-document-list.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Financial Services Document Processor, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Create a document list definition
@@ -40,4 +40,6 @@ Role required: sn\_doc\_processor.admin
 ## What to do next
 
 [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/doc-processor-associate-document-list-items-to-category.md)
+
+**Parent Topic:**[Configuring Financial Services Operations Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-fso-document-processor.md)
 

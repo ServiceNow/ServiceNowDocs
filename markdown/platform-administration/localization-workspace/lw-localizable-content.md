@@ -1,27 +1,28 @@
 ---
 title: Types of Localizable content in Localization Workspace
-description: Localization Workspace collects available translatable content from across your instance when you create a translation request. Content becomes available when its table has an artifact record and permissions configured.
+description: Localization Workspace collects available translatable content from across your instance when you create a translation request. You can make your content available by configuring permissions and creating an artifact record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/localization-workspace/lw-localizable-content.html
 release: yokohama
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2026-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Types of Localizable content in Localization Workspace
 
-Localization Workspace collects available translatable content from across your instance when you create a translation request. Content becomes available when its table has an artifact record and permissions configured.
+Localization Workspace collects available translatable content from across your instance when you create a translation request. You can make your content available by configuring permissions and creating an artifact record.
 
 ## Prerequisites for availability
 
 The availability of a content type is subject to its table and application scope permissions. Localization Workspace retrieves untranslated or partially translated documents when the following prerequisites are fulfilled.
 
--   If the target tables are restricted, set Restricted Caller Access privileges to ensure that a content type can be selected in Localization Workspace. For more information see 
--   For Content Publishing artifacts, add the role sn\_cd.content\_admin to your Localization Workspace group in the sys\_user\_group table. This role is needed to see artifacts related to Content Publishing from Localization Workspace.
+-   If you have created a custom artifact, set cross-scope privileges to ensure that the corresponding content type can be selected in Localization Workspace. For more information see [Cross-scope privileges for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-cross-scope-privilege.md).
+-   If the target tables are restricted, set Restricted Caller Access privileges to ensure that a content type can be selected in Localization Workspace. For more information see [Restricted Caller Access for Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-restricted-caller-access.md)
+-   For Content Publishing material, add the role sn\_cd.content\_admin to your Localization Workspace group in the sys\_user\_group table. This role is needed to access Content Publishing items from Localization Workspace.
 
 ## Translatable content
 
@@ -29,9 +30,9 @@ A document may be considered partially translated when its original is updated a
 
 ## Content available by default
 
-The following table lists the artifact types that are available by default when you install Localization Workspace. These are preconfigured with artifact records and permissions.
+The following table lists the content types that are available by default when you install Localization Workspace. These are preconfigured with artifact records and cross-scope permissions.
 
-You can also configure your own custom artifacts.
+You can also configure your own custom artifacts. For more information, see [Create and configure a custom artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/create-configure-custom-artifact.md).
 
 In this table the **Filter** column shows the query used to retrieve untranslated or partially translated content.
 
@@ -213,7 +214,7 @@ asmt\_metric\_type
 
 </td><td>
 
-active=true **Note:** For Localization Workspace, surveys are an available content type from the Yokohama Patch 7 release.
+active=true **Note:** Surveys are an available content type for Localization Workspace from the Yokohama Patch 7 release.
 
 </td></tr><tr><td>
 
@@ -232,6 +233,8 @@ active=true
 
 **Related topics**  
 
+
+[Dynamic artifact detection in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-dynamic-artifact-detection.md)
 
 [Supported artifacts in Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/supported-artifacts-lf.md)
 

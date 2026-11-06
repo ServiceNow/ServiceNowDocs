@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Voice with Workforce Optimization for ITSM, Routing work items using Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Using Voice, Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Analyze transcripts and sentiments for the Amazon Connect phone channel
@@ -32,15 +32,15 @@ When an agent interacts with an external caller, the call gets recorded and tran
 
 2.  Select an interaction record for analysis.
 
-<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d68174e97">
+<table id="choicetable_icf_qv5_1nb"><thead><tr><th align="left" id="d85940e97">
 
 To analyze call transcripts and sentiments
 
-</th><th align="left" id="d68174e100">
+</th><th align="left" id="d85940e100">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d68174e106">
+</th></tr></thead><tbody><tr><td id="d85940e106">
 
 **From Channels**
 
@@ -52,7 +52,7 @@ Do this
 2.  From the **All Interaction** tab, select an interaction record.
 
 
-</td></tr><tr><td id="d68174e133">
+</td></tr><tr><td id="d85940e133">
 
 **From Teams**
 
@@ -64,7 +64,7 @@ Do this
 4.  Select an interaction record.
 
 
-</td></tr><tr><td id="d68174e160">
+</td></tr><tr><td id="d85940e160">
 
 **From Coaching**
 

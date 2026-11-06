@@ -1,17 +1,17 @@
 ---
-title: Manage large language models
+title: Manage AI models
 description: Access and select the LLM \(large language model\) provider used for various Now Assist skills. The selection impacts all the skills within the capability.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/manage-large-language-models.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Manage, LLM, Large language model]
-breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Manage large language models
+# Manage AI models
 
 Access and select the LLM \(large language model\) provider used for various Now Assist skills. The selection impacts all the skills within the capability.
 
@@ -42,13 +42,17 @@ As per the AI Control Tower settings, the model provider selection is available 
 
     -   Policy Summary set by your organization about skills using non-compliant model providers.
 
-        **Note:** Note the routing and fallback exception details. These details are also derived from the AI Control Tower configurations. See [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-model-providers.md) to learn more about Fallback exception and other controls set by the AI steward.
+        **Note:** Note the routing and fallback exception details. These details are also derived from the AI Control Tower configurations.
 
     -   Model providers assigned to the Now Assist skills and skill groups.
     -   Policy and skill updates by the AI steward in AI Control Tower under the **Change History** tab.
 
--   **[Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md)**  
-Edit the model provider at skill, skill group or at the instance level from the list of supported third party model providers, including the default Now LLM Service.
+-   **[Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md)**  
+Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
+-   **[Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-integration.md)**  
+Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can either select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
+-   **[Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-version.md)**  
+Manage the version of the model providers across skills and instance levels. You can change and update versions for the out-of-box and custom skills.
 
-**Parent Topic:**[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Headless Browser setup for Microsoft Windows, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Headless Browser setup for Microsoft Windows, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Configure Docker for Headless Browser setup in Microsoft Windows

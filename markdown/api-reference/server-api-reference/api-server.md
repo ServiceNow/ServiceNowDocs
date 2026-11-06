@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 47
+last_updated: "2026-09-10"
+reading_time_minutes: 49
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -56,6 +56,8 @@ The BusinessServiceManager API provides methods that unify service management by
 The CatalogJS API provides methods to check and retrieve catalog-specific properties.
 -   **[CatalogSearch - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CatalogSearchScoped.md)**  
 The CatalogSearch API provides methods that enable you to search catalog items.
+-   **[CatalogSearchAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CatalogSearchAPI-scoped_global.md)**  
+CatalogSearchAPI is a script include used to search and retrieve product catalog data from all application scopes.
 -   **[CatalogItemVariable - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CatalogItemVariable.md)**  
 The CatalogItemVariable API provides methods that enable you to create and modify service catalog item variables using scripts.
 -   **[CatalogClientScript - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CatalogClientScriptScoped.md)**  
@@ -152,8 +154,12 @@ The ConnectionInfo API enables you to get connection attribute information throu
 The ConnectionInfoProvider API provides methods to select connection information through the connection alias.
 -   **[Console - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ConsoleAPI.md)**  
 The Console API provides methods to log messages to the system log, create and stop timers, create and log counters, log stack traces, and group/organize related content.
+-   **[ConsolidationService - Scoped, Gobal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ConsolidationServiceAPI.md)**  
+The ConsolidationServiceSNC API is a script include with methods for merging and de-duplicating complex, hierarchical business data \(such as contracts, quotes, line items, and entitlements\) using custom logic.
 -   **[Conversation - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_ConversationScopedAPI.md)**  
 The Conversation API enables you to create or modify Connect conversations.
+-   **[CopyDynamicSchemaAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CopyDynamicSchemaAPI.md)**  
+The CopyDynamicSchemaAPI class provides methods and extension points for duplicating dynamic schema metadata.
 -   **[CostPlanBatchOperations - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/CostPlanBatchOperationsAPI.md)**  
 The CostPlanBatchOperations script include provides methods that enable the creation of a large number of cost plan records for demands and projects using batch processing. Use this script include instead of GlideRecord to more efficiently create multiple cost plan records.
 -   **[CriteriaEvaluator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_CriteriaEvaluatorAPI.md)**  
@@ -272,6 +278,8 @@ The GlideCalendarDateTime class provides methods for performing operations on Gl
 The GlideCertificateEncryption API provides methods for encrypting certificates.
 -   **[GlideConversation - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideConversationAPI.md)**  
 The GlideConversation API provides methods to access information in a Connect message.
+-   **[GlideCurrencyCode - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyCodeBothAPI.md)**  
+The GlideCurrencyCode API provides methods to convert between ISO 4217 alphabetic and numeric codes for a currency.
 -   **[GlideCurrencyConfig - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyConfigScopedAPI.md)**  
 The GlideCurrencyConfig API provides methods to retrieve various configuration information for FX Currency fields.
 -   **[GlideCurrencyConverter - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.md)**  
@@ -282,6 +290,8 @@ The GlideCurrencyExchangeValue API provides methods to access information relate
 The GlideCurrencyFormatter API provides methods to format FX Currency strings.
 -   **[GlideCurrencyParser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyParserScopedAPI.md)**  
 The GlideCurrencyParser API provides methods to parse FX Currency values to detect locale-based formatting.
+-   **[GlideCurrencySymbol - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencySymbolBothAPI.md)**  
+The GlideCurrencySymbol API provides methods to retrieve currency symbols.
 -   **[GlideCurrencyValue - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyValueScopedAPI.md)**  
 The GlideCurrencyValue API provides methods that return the currency code and original currency from an associated GlideCurrencyParser.parse\(\) call.
 -   **[GlideDate - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDateAPI.md)**  
@@ -303,7 +313,9 @@ The GlideDuration class provides methods for working with spans of time known as
 -   **[GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)**  
 The GlideDynamicAttribute API provides access to dynamic attribute metadata.
 -   **[GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)**  
-The GlideDynamicAttributeStore API provides access to a dynamic attribute store data type, similar to other data types such as string, date, or date/time.
+Use the GlideDynamicAttributeStore API to create objects for working with dynamic attributes independently of a table or field.
+-   **[GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)**  
+The GlideDynamicNamespace API provides access to dynamic namespace metadata.
 -   **[GlideElement - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementAPI.md)**  
 The GlideElement API provides a number of convenient script methods for dealing with fields and their values. GlideElement methods are available for the fields of the current glide record.
 -   **[GlideElement - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementScopedAPI.md)**  
@@ -317,7 +329,7 @@ The GlideElementDynamicAttributeStore API provides convenient script methods for
 -   **[GlideEmailOutbound - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideEmailOutboundScopedAPI.md)**  
 The scoped GlideEmailOutbound API implements the email object for scoped applications. You can use the GlideEmailOutbound methods with the email global object available in mail scripts. The email object behaves identically for global and scoped applications.
 -   **[GlideEncrypter - Global \(deprecated\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideEncrypterAPI.md)**  
-The GlideEncrypter API provides methods to encrypt and decrypt strings using the Triple DES algorithm.
+The GlideEncrypter API provides methods to encrypt and decrypt strings using the Key Management Framework \(KMF\).
 -   **[GlideEventManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideEventManagerGlobalAPI.md)**  
 The GlideEventManager API provides methods to process events.
 -   **[GlideScopedEvaluator - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideEvaluatorAPI.md)**  
@@ -348,6 +360,8 @@ The GlideImportSetTransformer API provides methods to create an Import Set Trans
 The GlideImportSetTransformMap API provides methods to create transform maps and transform entries.
 -   **[GlideJsonPath - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideJsonPathAPI.md)**  
 The GlideJsonPath API retrieves values from a JSON document using a query path string.
+-   **[GlideJWTAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideJWTScopedAPI.md)**  
+Use the GlideJWT API to create a JSON Web Token \(JWT\) for representing claims securely between two parties on the ServiceNow AI Platform.
 -   **[GlideListProperties - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideListPropertiesAPI.md)**  
 The GlideListProperties API provides methods to create a list and set list properties. For example, you can define whether a list has a filter, breadcrumbs, and search.
 -   **[GlideLocale - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideLocaleScopedAPI.md)**  
@@ -367,9 +381,9 @@ The scoped GlidePluginManager API provides a method for determining if a plugin 
 -   **[GlideQuery - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideQueryGlobalAPI.md)**  
 The GlideQuery script include is an alternative to the GlideRecord API for performing CRUD operations on record data from server-side scripts.
 -   **[GlideQueryCondition - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)**  
-The GlideQueryCondition API provides additional `AND` or `OR` conditions that can be added to the current condition, allowing you to build complex queries.
+This API provides `AND` or `OR` conditions that can be added to the current condition, allowing you to build complex queries.
 -   **[GlideQueryCondition - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)**  
-The scoped GlideQueryCondition API provides additional `AND` or `OR` conditions that can be added to the current condition, allowing you to build complex queries.
+This API provides `AND` or `OR` conditions that can be added to the current condition, allowing you to build complex queries.
 -   **[GlideRecord - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)**  
 The GlideRecord API is used for database operations.
 -   **[GlideRecord - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)**  
@@ -430,8 +444,6 @@ The GlideTimeline API provides the core implementation for configuring and displ
 The GlideTimelineItem API extends the abstract ScheduleItem class to define additional properties that are specific to the time line.
 -   **[GlideTransformLog - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransformLogAPI.md)**  
 The GlideTransformLog API provides methods to create a GlideTransformLog object to log messages to localhost logs.
--   **[GlideTransientDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideTransientDynamicAttributeAPI.md)**  
-The GlideTransientDynamicAttribute API provides access to transient dynamic attribute metadata.
 -   **[GlideUICompatibility - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideUICompatibilityScopedAPI.md)**  
 The GlideUICompatibility API provides the ability for scoped applications to define their own minimum browser versions. This is done by creating system properties for the scoped application.
 -   **[GlideURI - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideURIGlobalAPI.md)**  
@@ -500,6 +512,8 @@ Build a large streaming JSON payload to use in a REST or SOAP request to send bu
 Create a builder object used to build a large streaming JSON payload to use in a REST or SOAP request to send bulk data to a third-party API. You can also create the payload as a JSON string for a non-streaming option.
 -   **[JSUtil - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_JSUtilAPI.md)**  
 The JSUtil script include provides shortcuts for common JavaScript routines.
+-   **[KafkaProducerAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/KafkaProducerAPIScoped.md)**  
+The KafkaProducerAPI provides a method to produce messages from server-side scripts to an Apache Kafka topic.
 -   **[KMFCryptoOperation - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/KMFCryptoOperationBothAPI.md)**  
 The KMFCryptoOperation class provides methods for performing cryptographic operations using a Key Management Framework \(KMF\) cryptographic module or a Field Encryption encryption module.
 -   **[LeadAPIHelperOOB - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadAPIHelperOOBAPI.md)**  
@@ -518,10 +532,16 @@ The LinterCheckAstNode API provides methods for getting abstract syntax tree \(A
 The logger API provides inbound email actions that append messages to the email log.
 -   **[LSOFParser - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_LSOFParserAPI.md)**  
 The LSOFParser script include provides methods to parse the output of the `lsof` command: `lsof -i4TCP -n -P -F pcnfT`.
+-   **[MCPClient - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/MCPClientAPI.md)**  
+The MCPClient script include is the entry point for interacting with approved Model Context Protocol \(MCP\) servers. It provides methods for discovering approved servers, listing and inspecting the tools they expose, and invoking those tools.
+-   **[Message - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/sn_i18n.messageAPI.md)**  
+The Message Server API allows you to retrieve localized messages from the Message \[sys\_ui\_message\] table for an entry with code equal to the code parameter, key equal to the message parameter, and language equal to the language of the session \(or fallback language\).
 -   **[Messaging - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/MessagingScopedAPI.md)**  
 The Messaging API provides methods to perform actions in a third-party messaging application.
 -   **[MetricInfo - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/MetricInfoBoth.md)**  
 The MetricInfo API provides methods to check if a metric is in the MetricBase database, and if so, to report its retention policy. Retention policies are reported in minutes.
+-   **[MIDHermesProducer - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/MIDHermesProducerAPI.md)**  
+The MIDHermesProducer API provides a method to send data from the MID Server to a Hermes topic.
 -   **[MIDServer - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_MIDServerAPI.md)**  
 The MIDServer script include provides methods to encapsulate the notion of a MID Server.
 -   **[MIDServerAjax - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_MIDServerAjaxAPI.md)**  
@@ -724,6 +744,12 @@ Creates a builder object used to define parameters for flow, subflow, and action
 Captures the result of using ScriptableFlowRunner to execute a flow, subflow, or action. Includes data such as the context ID, domain, and any outputs from the flow execution.
 -   **[ScriptableUriMatcher - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/ScriptableUriMatcherBothAPI.md)**  
 Use the ScriptableUriMatcher API to verify URI matches.
+-   **[SecretsAPI - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SecretsAPI.md)**  
+The SecretsAPI provides an entry point for delivering credentials to a MID Server without requiring the caller to know the underlying storage mechanism. This scoped API enforces a comprehensive authorization chain before decrypting and returning secret values.
+-   **[SegmentHandle API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SegmentHandleAPIScoped.md)**  
+Methods for handling a single instance of a segment, such as a header or item. This class is defined in the SegmentHandler script include.
+-   **[SegmentHandler API - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SegmentHandlerAPIScoped.md)**  
+Script include providing a chainable API for building an IDoc payload for a specific operation.
 -   **[SentimentAnalyser - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SentimentAnalyserScoped.md)**  
 The SentimentAnalyser script include provides methods to perform sentiment analysis on a string value.
 -   **[SerialNumberManager - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_SerialNumberManagerAPI.md)**  
@@ -750,6 +776,8 @@ The SLARepair script include provides methods that delete the existing SLAs and 
 The SLPServiceRegistryQuery script include provides methods to map Shazzam! SLP query results to port probes.
 -   **[SMSPreferenceHandlerSNC - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SMSPreferenceHandlerAPI.md)**  
 The SMSPreferenceHandler script include provides methods to manage short message service \(SMS\) configurations.
+-   **[sn\_erp\_integration API - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/sn_erp_integrationBothAPI.md)**  
+Script include providing a chainable API for interacting with Zero Copy Connector for ERP \(Enterprise Resource Planning\) models.
 -   **[SNEventSenderProvider - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/SNEventSenderProviderAPI.md)**  
 The SNEventSenderProvider API provides a method to instantiate an IEventSender instance.
 -   **[SNMPGatherDocParts - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_SNMPGatherDocPartsAPI.md)**  

@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [ITOM Visibility and CSDM reference, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [ITOM Visibility and CSDM reference, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # ITOM Visibility use case
@@ -39,7 +39,7 @@ You can create application services manually, using an API, or by having Service
 
 ## Results of the Service Mapping use case
 
-Service Mapping automates a critical aspect of CSDM. It provides a consistent, automated approach to connect the logical layer of the CSDM model to the physical model CIs in the CMDB. This approach lets you more effectively manage your business applications. It also enables you to automate modeling of your business applications for impact assessment and analysis. For impact assessments and analysis, you can use a number of ServiceNow products including Change Management, Incident Management, or the CMDB Query Builder.
+Service Mapping automates a critical aspect of CSDM. It provides a consistent, automated approach to connect the logical layer of the CSDM model to the physical model CIs in the CMDB. This approach lets you more effectively manage your business applications. You can automate modeling of your business applications for impact assessment and analysis. For impact assessments and analysis, you can use a number of ServiceNow products including Change Management, Incident Management, or the CMDB Query Builder.
 
 \[Omitted image "itom-visibility-flow.png"\] Alt text: Application Services flow.
 
@@ -56,6 +56,8 @@ You can view information about the services, such as the criticality, in the Ope
 The Service Map tab displays a visual representation of the service.
 
 \[Omitted image "service-map-diagram.png"\] Alt text: Service map diagram.
+
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Project workbench - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project workbench - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Access the project workbench
@@ -24,15 +24,15 @@ Role required: it\_project\_manager
 
 -   Access the project workbench in one of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d250976e62">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d320687e62">
 
 Option
 
-</th><th align="left" id="d250976e65">
+</th><th align="left" id="d320687e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d250976e71">
+</th></tr></thead><tbody><tr><td id="d320687e71">
 
 **From Planning Console**
 
@@ -43,7 +43,7 @@ Steps
 3.  Select the **Planning Console** selection arrow on the banner and select **Project Workbench**.
 
 
-</td></tr><tr><td id="d250976e108">
+</td></tr><tr><td id="d320687e108">
 
 **From a project record**
 

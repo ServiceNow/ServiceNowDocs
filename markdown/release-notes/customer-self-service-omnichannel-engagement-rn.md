@@ -1,120 +1,111 @@
 ---
 title: Self-service and omnichannel engagement for CSM release notes
-description: With ServiceNow Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow Omnichannel and self-service applications were enhanced and updated in the Yokohama release.With ServiceNow Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow Omnichannel and self-service applications were enhanced and updated in the Yokohama release.With ServiceNow Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow Omnichannel and self-service applications were enhanced and updated in the Yokohama release.With ServiceNow Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow Omnichannel and self-service applications were enhanced and updated in the Yokohama release.
+description: The ServiceNow Customer Service Management \(CSM\) application enables customers to connect with your organization through chat on self-service portals, consumer messaging apps, email, phone calls, and WebRTC voice widgets. See the following sections for release notes by version.The ServiceNow Customer Self-Service and Omnichannel Engagement application helps customers resolve issues through self-service portals and omnichannel interactions. This release adds work order visibility in the Consumer Portal and WebRTC voice calling from portal pages and the Engagement Messenger. It also includes AI Voice Agent integration with Amazon Connect for inbound call routing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/customer-self-service-omnichannel-engagement-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [consumer portal, work orders, portal analytics, communities deprecation, customer self-service]
+breadcrumb: [Customer Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Self-service and omnichannel engagement for CSM release notes
 
-With ServiceNow® Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow® Omnichannel and self-service applications were enhanced and updated in the Yokohama release.
+The ServiceNow® Customer Service Management \(CSM\) application enables customers to connect with your organization through chat on self-service portals, consumer messaging apps, email, phone calls, and WebRTC voice widgets. See the following sections for release notes by version.
 
-## About Self-service and omnichannel engagement for CSM release notes
+## About Self-service and omnichannel engagement for CSM
 
--   Integrate with contact centers using Contact Center Integration Core to import data from a third party contact center as a service \(CCaaS\) application.
--   Better integrate with contact centers by adding call controls to Agent Workspace with Interaction Controls Component \(ICC\).
--   Enhance B2B customer support through ServiceNow® self-service capabilities with the new Business Portal.
--   Provide a consistent experience for agents handling omnichannel interactions through email interactions, which preserve the context for agents by associating the email conversation between the agent and the customer.
--   Improve contact center efficiency by helping avoid the creation of duplicate cases through the use of the Email as an Interaction feature.
+-   Handle inbound calls intelligently by configuring AI Voice Agents with ServiceNow Voice and Amazon Connect.
+-   Initiate WebRTC voice calls from portal pages or engagement messenger with a widget that maintains call state and context across page navigation.
 
-See [Omnichannels for communicating with customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/omnichannels-communicating-customers.md), [Self-service for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/self-service-options-csm-customers.md), and [Playbooks for Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/playbooks-for-portals.md) for more information.
+See , and  for more information.
+
+**Note:** Self-service and omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Activation and other requirements
 
-**Important:** Engagement Messenger, Playbooks for Portals, and Omnichannel applications are available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install the Engagement Messenger, Playbook for Portals, and Omnichannel applications by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install self-service and omnichannel applications, such as OpenFrame and Interaction Controls Component \(ICC\), by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **Upgrade information**
+
+    Introduced dynamic resizing to the Active Call Interaction Control toolbar. Buttons adapt to container width at runtime while keyboard navigation and focus order remain consistent.
 
 -   **Browser requirements**
 
-    Internet Explorer isn't supported.
+    The WebRTC voice call widget is not supported on mobile browsers.
+
+-   **Additional requirements**
+
+    Microphone permission is required for WebRTC calls on mobile devices.
 
 
 **Parent Topic:**[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)
 
-## May 2025
+## Version 1.0
 
-With ServiceNow® Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow® Omnichannel and self-service applications were enhanced and updated in the Yokohama release.
+The ServiceNow® Customer Self-Service and Omnichannel Engagement application helps customers resolve issues through self-service portals and omnichannel interactions. This release adds work order visibility in the Consumer Portal and WebRTC voice calling from portal pages and the Engagement Messenger. It also includes AI Voice Agent integration with Amazon Connect for inbound call routing.
 
 ### What's new
 
--   **[Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/contact-center-integration-with-icc.md)**
+-   ****
 
-    As an agent, manage calls, such as muting, holding, and transferring, directly within the Configurable Workspace. As a part of the new Voice interaction page experience, the ICC framework helps improve workflow efficiency and promotes a consistent agent experience across all channels.
+    View and track work orders directly in the Consumer Portal \(B2C\) using the new Work Orders page.
 
-    **Note:** ICC must be integrated with your specific Contact Center as a Service \(CCaaS\) plugin to establish the telephony connection.
+-   ****
 
-    Connect customers with field agents or third-party support teams in the embedded call interface. Choose between the following transfer options:
+    Customers can now make voice calls directly from portal pages or the Engagement Messenger. Call context stays intact as customers navigate between pages. These calls connect to AI Voice Agents to deliver conversational voice experiences without relying on contact center platforms.
 
-    -   Consult transfer: Share the call context with the external contact before transferring the customer.
-    -   Blind transfer: Immediately transfer the call to the external contact.
+-   **[Integrate ServiceNow Voice with Amazon Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/integrate-ccc-amazonconnect.md)**
+
+    Use ServiceNow AI Voice Agents to build conversational voice experiences by routing calls from Amazon Connect, Five9, or NICE contact center channels to deliver natural, conversational customer interactions.
+
 
 ### What's changed
 
--   **[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-email-interaction-page.md)**
+-   ****
 
-    The following UI elements have been added to the Email Interaction page:
-
-    -   A **Contact** card to simplify the process of adding and viewing customer information.
-    -   A **Customer History** tab that displays the details of previous conversations between the customer and the agent.
-
--   **[Using the email interaction page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-email-interaction-page.md)**
-
-    Manage and view customer-related information and past conversations while interacting with customers via email.
-
--   **[Now Assist conversational experience in self-service portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/nass-portal.md)**
-
-    Receive comprehensive and detailed answers with intelligent search and conversational experiences using Now Assist in Virtual Agent. The search results are synthesized from Knowledge Base articles, Virtual Agent articles, and catalog items with links to the sources. The agent retains conversation context across multi-turn questions, promoting continuity and relevance in responses.
+    Get more accurate portal usage data with an updated analytics definition that eliminates double-counting of guest user sessions.
 
 
-## Yokohama Early Availability
+### What's deprecated or removed
 
-With ServiceNow® Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow® Omnichannel and self-service applications were enhanced and updated in the Yokohama release.
+-   **Communities**
 
-### What's new
-
--   **[Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md)**
-
-    Support your customers through the Business Portal self-service capabilities, such as knowledge articles, service catalogs, case management, Virtual Agent, and others. Help reduce maintenance effort through low-code configurations on pages with configurable widgets.
-
--   **[Email as an Interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/omnichannels-communicating-customers.md)**
-
-    Enhance case management with the Email as an Interaction feature.
-
-    -   Transform emails into interactions, enabling customer communication to be tracked in a central location and help avoid unnecessary case creation.
-    -   Manage straightforward customer inquiries via email, create cases for more complex issues, or link emails to existing cases.
-    -   Notify agents on email responses received from customers.
--   **[Integrating Conversational SMS with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversational-sms-integration-amazon.md)**
-
-    Integrate the ServiceNow SMS channel with AWS end-user messaging to engage in conversations with Now Virtual Agent and live agents to address and resolve any customer queries or issues.
+    Communities is no longer deployed, enhanced, or supported. The Communities plugins are set to planned deprecation status, which prevents new customer installations. Existing customers who have Communities installed can continue to use it, but new activations are no longer available. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 
-## Yokohama
+### Plugin information
 
-With ServiceNow® Omnichannel support, your customers can use chat on self-service portals or consumer messaging apps to connect with your organization, or connect using email or phone. ServiceNow® Omnichannel and self-service applications were enhanced and updated in the Yokohama release.
+-   **New plugins**
 
-### What's new
+    WebRTC Voice \(sn-webrtc\): The WebRTC voice feature for self-service enables users to make voice calls directly from the portal interface or Engagement Messenger.
 
--   **[Contact Center Integration Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/contactcenter-integration.md)**
+-   **Deprecated plugins**
 
-    As an admin, import data automatically from a third-party contact center as a service \(CCaaS\) application to facilitate external routing and third-party telephony integration in their ServiceNow® instance.
+    Communities \(com.sn\_communities\): There is no replacement for this plugin.
 
-    **Note:** The Contact Center Integration Core is a framework that includes voice call features, which doesn't work unless CCaaS implements it.
+    Customer Communities \(com.sn\_customer\_communities\): There is no replacement for this plugin.
 
-    -   Import records such as queues, skills, and wrap-up codes from a third party into your ServiceNow instance.
-    -   Maintain data consistency between your ServiceNow instance and third-party systems. Verify that chats and cases are routed to the correct agent and that the correct wrap-up codes are available when dispositioning an interaction.
--   **[OpenFrame Integration to Interaction Controls Component \(ICC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/interaction-controls-component.md)**
+    Communities Contextual Search \(com.sn\_communities\_contextual\_search\): There is no replacement for this plugin.
 
-    ICC is a new component for a native call controls interface embedded in Agent Workspace. With the ICC component, you can do the following:
+    Communities Demo Data \(com.sn\_communities\_demo\): There is no replacement for this plugin.
 
-    -   Create the state context in OpenFrame to read the state of idle and active call state, and the state of the transfer.
-    -   Provide iframe sandbox parameters to allow iframe access to security features and to enable additional iframe restrictions.
-    -   Create an extension point implementation to create and get phone log segments.
+    Communities Global Entities \(com.sn\_communities\_global\): There is no replacement for this plugin.
+
+    Performance Analytics - Content Pack - Communities \(com.snc.pa.communities\): There is no replacement for this plugin.
+
+    Gamification Core Framework \(com.snc.gamification\): There is no replacement for this plugin.
+
+-   **Plugins planned for deprecation**
+
+    No plugins are planned for deprecation beyond those listed above.
+
+-   **Renamed or changed plugins**
+
+    No plugins were renamed or changed in this release.
+
 

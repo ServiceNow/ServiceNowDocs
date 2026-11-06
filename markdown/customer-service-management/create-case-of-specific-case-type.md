@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-of-specific-case-type.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Create a customer service case of a specific type
@@ -34,6 +34,10 @@ In CRM Workspace, agents use the [Case type selector](https://raw.githubusercont
 
 1.  Create a case by selecting one of the following actions.
 
+    The case type selector appears by default with the options the agent has for creating a case in the context of the record.
+
+    **Note:** The `sn_csm_case_types.enable_service_selector` property which enables the case type selector is set to true for zBoot customers, and can be enabled for upgrade customers.
+
 <table id="table_ulq_m3j_yxb"><thead><tr><th>
 
 Agent action
@@ -48,7 +52,12 @@ Select **New**
 
 </td><td>
 
-Select this action from case lists and case type lists such as My Cases or My Complaint Cases.
+Select this action from case lists and case type lists including the following:
+
+ -   Related lists: child case, case task
+-   List view
+-   Case task list view
+
 
 </td></tr><tr><td>
 

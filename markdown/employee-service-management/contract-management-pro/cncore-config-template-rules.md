@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure contract template rules
@@ -22,7 +22,7 @@ Role required: sn\_cm\_core.contract\_config
 
 ## About this task
 
-If you want the variables related to contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Provide access to contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
+If you want the variables related to contract request to be available in condition builder, add the contract request reference to your application table. For more information, see [Enable contract request fields in condition builders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-cmr-condtion-build.md)
 
 ## Procedure
 
@@ -62,7 +62,11 @@ Requested table
 
 </td><td>
 
-Table in which the contract requests are saved.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve and reusability across product lines. You can choose to configure the template rules on a different table.
+Table in which the contract requests are saved.**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve and reusability across product lines. You can choose to configure the template rules on a different table.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 
@@ -94,7 +98,7 @@ Request type
 
 </td><td>
 
-Type of request the template rule is applicable to.For contract requests, select **New Contract**; for amendment requests, select **Amendment**.
+Type of request the template rule is applicable to.For contract requests, select **New Contract**; for amendment requests, select **Amendment**; and for renewal requests, select **Renewal**.
 
 </td></tr><tr><td>
 

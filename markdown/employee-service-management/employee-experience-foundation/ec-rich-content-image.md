@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add an Image with the Rich Content Editor
@@ -39,6 +39,9 @@ The Rich Content Editor supports the following types of images:
 -   .ico
 -   .svg
 
+    **Note:** Content Managers and Admins have the option to apply background colors to selected canvas elements, including images. Available features include the use of solid and gradient colors, as well as adjustments for color opacity. These settings can be accessed in the right-hand panel under the Settings Styling tab when adding rich content to a canvas element.
+
+
 ## Procedure
 
 1.  Navigate to the canvas by selecting the **Open editor** button from the **Design** tab of the **New content** form.
@@ -52,6 +55,8 @@ The Rich Content Editor supports the following types of images:
 4.  Navigate to **Settings** tab.
 
 5.  Configure the following settings:
+
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacities and shadows, improved cells and buttons allow additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -114,6 +119,14 @@ Margin
 </td><td>
 
 Margin is the space between a row and another element/the canvas boundary. Specify the value for top, bottom, right, or left padding by entering a number.
+
+</td></tr><tr><td>
+
+Background Color
+
+</td><td>
+
+Background color to canvas element shows the background options for gradient, color and image. Toggle on and then select background options. **Note:** Color Opacity shows the gradient and color layer options. Since background image layer is first, opacity isn’t relevant. Gradient is **FFFFFF** and **OOOOOO** by default.
 
 </td></tr><tr><td colspan="2">
 

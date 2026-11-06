@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_AssocOneCatUsrToOneAssessRec.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Category users and stakeholders, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,8 +38,6 @@ Associate any category user to any assessable record.
 ## Result
 
 The selected category user becomes a stakeholder for the selected assessable record. To verify the association, navigate to the assessable record and note that the selected category user is on the Category users related list.
-
-\[Omitted image "AssessmentStakeholders.png"\] Alt text: Assessment stakeholders
 
 **Note:** Do not create stakeholders from category users and assessable records of different metric types.
 

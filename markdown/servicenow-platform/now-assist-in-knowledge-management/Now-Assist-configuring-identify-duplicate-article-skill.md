@@ -1,26 +1,26 @@
 ---
-title: Configure and activate the Now Assist Identify duplicate articles skill
-description: Configure the Knowledge content management skill to enable admins and managers to activate the Now Assist Identify duplicate articles skill.
+title: Configure and activate the identify duplicate articles skill
+description: Configure the Knowledge content management skill to enable admins and managers to activate the identify duplicate articles skill in ServiceNow Otto.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.html
 release: yokohama
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2025-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure and activate the Now Assist Identify duplicate articles skill
+# Configure and activate the identify duplicate articles skill
 
-Configure the Knowledge content management skill to enable admins and managers to activate the Now Assist Identify duplicate articles skill.
+Configure the Knowledge content management skill to enable admins and managers to activate the identify duplicate articles skill in ServiceNow Otto.
 
 ## Before you begin
 
-Role required: knowledge\_admin and knowledge\_manager
+A data set of at least 2000 articles is necessary for the AI duplicate feature to work reliably.
 
-Now Assist Identify duplicate articles skill supports third-party AI model providers. For configuring these settings, see [Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/edit-model-providers.md). In the Edit model provider settings, select **Knowledge duplicate topic** as the skill.
+Role required: knowledge\_admin and knowledge\_manager
 
 ## About this task
 
@@ -28,13 +28,15 @@ This skill enables admins and managers to identify and review duplicate content.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Platform**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin**.
 
-2.  In the Now Assist Skills for Platform list view, scroll down to the Identify duplicate articles skill.
+2.  Locate and select **Platform** under AI skills for knowledge, and then select **Knowledge** to open the AI skills for knowledge view.
 
-3.  Navigate to the skill configuration page by selecting **Activate**.
+3.  In the AI skills for knowledge window, locate the **Identify duplicate articles** skill card.
 
-4.  In the Choose input section, select **Switch scope** and specify the following fields.
+4.  Select **Activate** to navigate to the skill configuration page.
+
+5.  In the **Choose input** section, select **Switch scope** using the toggle button, and specify the following fields.
 
 <table id="table_erk_jmw_gfc"><thead><tr><th>
 
@@ -58,7 +60,7 @@ Fields
 
 </td><td>
 
-Specify the fields which will be used to identify duplicate articles. To run this job on OOB templates, select**Configure custom template**. After configuration, this becomes a read-only field.
+Specify the fields which will be used to identify duplicate articles. To run this job on OOB templates, select **Configure custom template**. After configuration, this becomes a read-only field.
 
 </td></tr><tr><td>
 
@@ -89,14 +91,19 @@ Configure custom template
 Use the template to specify all the fields that will be used in the identify duplicate articles job. Fields specified in this template will be used to configure the job runs.
 
 </td></tr></tbody>
-</table>5.  Select **Save and continue**.
+</table>6.  Select **Save and continue**.
 
-6.  Review your inputs in the Review and activate section and select **Done**.
+7.  Review your inputs in the Review and activate section and select **Done**.
 
 
 ## Result
 
-The Now Assist Identify duplicate articles skill is configured.
+The identify duplicate articles skill is configured.
 
-**Parent Topic:**[Configuring Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+**Parent Topic:**[Configuring ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configuring-now-assist-km.md)
+
+**Related topics**  
+
+
+[Identify and resolve duplicate articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/identify-duplicate-articles.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Creating campaigns, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating campaigns, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create content for a campaign
@@ -196,7 +196,7 @@ Mobile Content
 
 </td><td>
 
-Announcement banners you can send to your employee's mobile devices. The banner can be an image that links to content of your Employee Center or Service Portal.**Note:** For information on creating mobile content, see [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/ecpro-content-delivery-mobile.md).
+Announcement banners you can send to your employee's mobile devices. The banner can be an image that links to content of your Employee Center or Service Portal.**Note:** For information on creating mobile content, see [Configure mobile content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecpro-content-delivery-mobile.md).
 
 </td></tr><tr><td>
 

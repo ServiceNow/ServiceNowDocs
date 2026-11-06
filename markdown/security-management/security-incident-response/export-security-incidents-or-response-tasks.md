@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,13 +24,13 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Click the list \[Omitted image "listview-icon.png"\] Alt text: list view icon icon.
+2.  Select the list \[Omitted image "listview-icon.png"\] Alt text: icon.
 
-3.  Click **Lists**.
+3.  Select **Lists**.
 
 4.  Go to **Security Incidents or Response Tasks** &gt; **All Open**.
 
-5.  View the list and click **Export**.
+5.  View the list and select **Export**.
 
     \[Omitted image "export-list.png"\] Alt text: Export list
 
@@ -38,9 +38,9 @@ Role required: sn\_si.analyst
 
     For example, **Excel** and either **Download** or **Email** the list.
 
-7.  Click **Export**.
+7.  Select **Export**.
 
-    The file will be downloaded or emailed as per the option chosen.
+    The file will be downloaded or emailed according to the option chosen.
 
 
 **Parent Topic:**[List view in SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/setting-up-list-view-in-analyst-workspace.md)

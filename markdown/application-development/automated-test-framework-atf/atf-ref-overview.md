@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Automated Test Framework \(ATF\) reference
@@ -36,6 +36,8 @@ Open the Suites Schedules table. You can drill down to see details about the res
 Start a client test runner and view information about test runners and test runs.
 -   **[Automated Test Framework use case examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-use-cases.md)**  
 Use cases can help you construct tests for common scenarios.
+-   **[Testable Configurable Workspace components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-conf-ws-components.md)**  
+Learn about the components and its associated actions in the configurable workspace.
 -   **[Automated Test Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-roles.md)**  
 Automated Test Framework is installed with these roles.
 -   **[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-admin-module.md)**  

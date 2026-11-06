@@ -7,9 +7,9 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Access control through organizational structure, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Set Entity based record access rules
@@ -22,7 +22,7 @@ Role required: sn\_privacy.admin
 
 ## About this task
 
-This task explains how to activate entity-based record access rules for continuous monitoring in ServiceNow. By enabling these rules for specific record types, you ensure that access restrictions are applied automatically to new or updated records, reducing manual intervention and maintaining compliance.
+This task explains how to activate entity-based record access rules for continuous monitoring. By enabling these rules for specific record types, you ensure that access restrictions are applied automatically to new or updated records, reducing manual intervention and maintaining compliance.
 
 ## Procedure
 
@@ -36,12 +36,12 @@ This task explains how to activate entity-based record access rules for continuo
 
     3.  In the configuration page, select **Apply entity based access restriction on new records** and then select **Update**.
 
-    The sn\_privacy\_privacy\_task and sn\_privacy\_processing\_activity record types turn active.
+    The sn\_privacy\_privacy\_task and sn\_privacy\_processing\_activity record types are activated.
 
 
 ## Result
 
 EBA rules are automatically applied to records whenever changes occur in the entity structure.
 
-**Parent Topic:**[Access control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

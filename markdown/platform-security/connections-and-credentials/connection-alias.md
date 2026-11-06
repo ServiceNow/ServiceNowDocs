@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Create a Connection &amp; Credential alias
@@ -77,8 +77,8 @@ Application
 
 Application scope against which the Connection &amp; Credentials alias is assigned. The current session scope you last selected in the application picker appears. -   For example, **Global** appears if it is the current scope for this session.
 -   You can change the scope in the application picker before creating an alias. To learn more application scopes and how to select them, see:
-    -   [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md)
-    -   [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md)
+    -   Application scope
+    -   
 
 
 </td></tr><tr><td>
@@ -95,7 +95,7 @@ Support Multiple Active Connections
 
 </td><td>
 
-Designator that indicates whether the alias supports multiple active connections. Add connections using the Connections table and associated them to the alias using the Connections related list.
+Designator that indicates whether the alias supports multiple active connections. Add connections using the Connections table and associated them to the alias using the Connections related list. This setting is not supported for IntegrationHub integrations.
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Configuration template to use to create a connection and credential record.
 
     The Connections and Connection Attributes related list appears.
 
-    |Related list|Description|
+    |Related List|Description|
     |------------|-----------|
     |Connections|Related connection records associated with this alias. After creating the alias, you can define connection records and associate them with the alias. If **Support Multiple Active Connections** is selected, you can associate more than one connection with an alias.|
     |Connection Attributes|Attributes for the connection. Define data specific to a connection and use it in an Integration Hub integration step. For more information, see [Create connection attributes for IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/create-connection-attributes.md).|
@@ -137,5 +137,5 @@ Configuration template to use to create a connection and credential record.
 
 ## What to do next
 
-Create one or more connection records to associate with the alias or child aliases. For more information about creating connections, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-information.md). Add connection attributes to the alias to make connection meta data available to flows in Workflow Studio.
+Create one or more connection records to associate with the alias or child aliases. For more information about creating connections, see [Get started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/connection-information.md). Add connection attributes to the alias to make connection meta data available to flows in Workflow Studio.
 

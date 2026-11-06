@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Deploying your Creator Studio app, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Deploying apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Request deployment for your app from Creator Studio to production
@@ -94,7 +94,7 @@ Woohoo! Your app is ready to be reviewed for deployment.
 
 Your admin uses Pipelines and Deployments to deploy the app to production. You can still make changes to the app after it's been deployed, you'll just need to request re-deployment when it's ready.
 
-If you're an admin, check out [Managing deployments using pipelines in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-deployments-using-aemc.md) for the scoop on deploying apps.
+If you're an admin, check out [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md) for the scoop on deploying apps.
 
 **Parent Topic:**[Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-publishing-apps.md)
 

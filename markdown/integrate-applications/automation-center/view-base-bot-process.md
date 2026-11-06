@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Using Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Review the bot processes
@@ -20,7 +20,7 @@ Review a list of available bot processes in Automation Center, so that you can m
 
 Roles required: sn\_ac.automation\_business\_user, sn\_ac.automation\_technical\_user, or sn\_ac.automation\_admin.
 
-In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/rpa-hub/installed-with-rpa-hub.md).
+In addition to the Automation Center roles, you will also need the Robotic Process Automation \(RPA\) roles. For more information on RPA roles, see [Components installed with RPA Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/installed-with-rpa-hub.md).
 
 ## About this task
 

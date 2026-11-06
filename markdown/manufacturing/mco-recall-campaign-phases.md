@@ -1,33 +1,46 @@
 ---
 title: Recall a campaign phase
-description: Agents workspace enables the manufacturers to create a recall campaigns for a specific geography or a dealership.
+description: Create a recall campaign for a specific geography or a dealership.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-recall-campaign-phases.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Related lists for my campaigns, My campaigns, Recall management, Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Recall a campaign phase
 
-Agents workspace enables the manufacturers to create a recall campaigns for a specific geography or a dealership.
+Create a recall campaign for a specific geography or a dealership.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_rcl\_claim\_mgmt.recall\_manager and sn\_rcl\_claim\_mgmt.recall\_phase\_owner
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Recall Campaign Phases**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Recall Campaign Phases**.
 
-2.  Select **New**.
+2.  Select **Create phase**.
 
 3.  On the required recall campaign form, fill in the fields.
 
-    For a description of the field values, see [Recall campaign phases form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-phases-form.md).
+    For a description of the field values, see [Recall campaign phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-phases-form.md).
 
 4.  Select **Save**.
 
+
+-   **[Assign an impacted asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco_assign_impacted_asset.md)**  
+Assign an impacted asset to the recall campaign.
+-   **[Adding a phase task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-phase-task.md)**  
+Agents workspace enables the manufacturers to add the phase task details for the recall campaigns.
+-   **[Adding a sub-phase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco_recall_campaign_phases.md)**  
+Create a sub-phase for a parent phase.
+-   **[Create a phase and sub-phase in a recall campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco_phases_sub-phases.md)**  
+Create a set of phases and sub-phase within a recall campaign to enable detailed segmentation, improving tracking, and management at each stage of the process.
+-   **[Create a phase part allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-phase-part-allocations.md)**  
+Create an allocation entry for a required part.
+
+**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)
 

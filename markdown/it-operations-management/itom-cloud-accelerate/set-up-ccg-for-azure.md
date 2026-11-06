@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Cloud Configuration Governance, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Cloud Configuration Governance for Microsoft Azure
@@ -18,15 +18,17 @@ Set up access to the Microsoft Azure cloud accounts in Cloud Configuration Gover
 
 ## Before you begin
 
+Make sure the follow tasks are complete:
+
+1.  You have migrated from CAPI to patterns. For more details, see [Migrate from CAPI to Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/migrate-from-capi-to-pattern.md).
+2.  The Microsoft Azure credentials to access the Microsoft Azure account have been created. For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-azure-cloud-credentials.md).
+3.  Your Azure service accounts have been configured. For more information, see [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-azure-service-accounts.md).
+
 Role required: sn\_itom\_ccg.scheduling\_admin
 
 ## Procedure
 
-1.  Create Microsoft Azure credentials that can access the Microsoft Azure account.
-
-    For more information, see [Create Azure cloud credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-azure-cloud-credentials.md).
-
-2.  Create an Integration Hub connection for Microsoft Azure.
+1.  Create an Integration Hub connection for Microsoft Azure.
 
     1.  Navigate to **Process Automation** &gt; **Flow Designer**, and select the **Integrations** tab.
 
@@ -77,7 +79,7 @@ Tenant ID of the Microsoft Azure account.Replace `{tenant}` with the Microsoft A
 </td></tr></tbody>
 </table>    4.  Select **Create and Get OAuth Token**.
 
-3.  Run datacenter discovery to identify the datacenters attached with the service accounts.
+2.  Run datacenter discovery to identify the datacenters attached with the service accounts.
 
     For more information, see [Run datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/disco-datacntrs-in-srv-acct.md).
 

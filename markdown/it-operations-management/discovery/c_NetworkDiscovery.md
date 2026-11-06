@@ -7,16 +7,16 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-10-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Running discoveries in your network, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Network discovery
 
 Network Discovery discovers the internal IP networks and subnets within your organization.
 
-**Note:** If you already know the IP address ranges in your network, it's not necessary to run Network Discovery. It is intended for organizations that don't have complete knowledge of the IP addresses available for Discovery in their networks.
+**Note:** If you already know the IP address ranges in your network, it's not necessary to run Network Discovery. It's intended for organizations that don't have complete knowledge of the IP addresses available for Discovery in their networks.
 
 ## How network discovery works
 
@@ -42,7 +42,7 @@ glide.discovery.bgp\_router\_disable
 
 </td><td>
 
-BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. Normally such exploration IS inactive because of the huge size of BGP routing tables, and because generally such routers are only operating at the edge of large networks where further network discovery would be irrelevant. This value could be set to false if your organization only uses BGP routers as edge routers between relatively small networks \(such as between buildings on a single campus\).
+BGP router exploration disable: Disables running the SNMP – Routing probe or pattern when discovering a router running the BGP protocol. This exploration is inactive by default because BGP routing tables are large. These routers typically operate at the edge of large networks, where further network discovery is not relevant. Set this value to false if your organization uses BGP routers as edge routers between relatively small networks. For example, between buildings on a single campus.
 
  If you must populate the \[discovery\_device\_neighbors\] table during horizontal layer 2 discovery of the bgp-enabled devices, set the **BGP router exploration disable** property to **No**. Notice that enabling this property can cause performance issues including out-of-memory issues on the MID Server.
 
@@ -118,7 +118,7 @@ Configure network Discovery from a Discovery schedule.
 
 ### Before you begin
 
-Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_SNMPCredentials.md). Port 161 must be open for SNMP access.
+Configure [SNMP credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_SNMPCredentials.md), and keep port 161 open for SNMP access.
 
 Role required: none
 
@@ -181,9 +181,9 @@ Role required: agent\_admin or admin
 
         \[Omitted image "IPNetworkForm.png"\] Alt text: IP network form
 
-4.  Click **Update** to return to the list of IP Networks.
+4.  Select **Submit** to return to the list of IP Networks.
 
-5.  In **Related Links**, click **Create Range Sets**.
+5.  In **Related Links**, select **Create Range Sets**.
 
     Use this feature to convert all the IP networks in the list into range sets.
 

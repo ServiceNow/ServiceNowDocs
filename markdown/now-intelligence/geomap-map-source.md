@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/geomap-map-source.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Geomap visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Geomap visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Map sources for geomap data visualizations
@@ -30,7 +30,7 @@ Map sources for geomaps point directly to location tables. They don’t referenc
 
 \[Omitted image "dv-map-sources.png"\] Alt text: Reusable set of map sources for all geomap data visualizations on an instance.
 
-**Parent Topic:**[Create a geomap visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-geomap-ac.md)
+**Parent Topic:**[Create a geomap data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-geomap-ac.md)
 
 ## Create a data visualization map source
 

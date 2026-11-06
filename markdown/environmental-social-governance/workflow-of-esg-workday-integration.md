@@ -1,18 +1,18 @@
 ---
 title: Workflow of Operational Sustainability Integration with Workday
-description: To import data from Workday into ESG Management, you must perform a sequence of tasks and configure the system properly.
+description: To import data from Workday into Operational Sustainability Management, you must perform a sequence of tasks and configure the system properly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/workflow-of-esg-workday-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Workday, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Workflow of Operational Sustainability Integration with Workday
 
-To import data from Workday into ESG Management, you must perform a sequence of tasks and configure the system properly.
+To import data from Workday into Operational Sustainability Management, you must perform a sequence of tasks and configure the system properly.
 
 The workflow of the integration is described as follows.
 

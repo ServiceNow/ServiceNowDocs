@@ -7,7 +7,7 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Privacy]
 ---
@@ -18,7 +18,7 @@ Use Data Privacy to classify sensitive data and to remove personally identifiabl
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore Data Privacy \[Omitted image "icon-explore.png"\] Alt text: Exploring Data privacy Learn about Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/data-privacy.md)
+[Explore Data Privacy \[Omitted image "icon-explore.png"\] Alt text: Exploring Data privacy Learn about Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy.md)
 
 </td><td>
 
@@ -30,7 +30,7 @@ Use Data Privacy to classify sensitive data and to remove personally identifiabl
 
 </td><td>
 
-[Data Privacy Store \[Omitted image "icon-workspace.png"\] Alt text: Advanced Learn about the store version of Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/dps-data-privacy-overview.md)
+[Data Privacy Advanced Features \[Omitted image "icon-workspace.png"\] Alt text: Advanced Learn about the advanced features of Data Privacy.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/dps-data-privacy-overview.md)
 
 </td></tr></tbody>
 </table>

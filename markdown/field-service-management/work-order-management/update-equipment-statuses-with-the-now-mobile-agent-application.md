@@ -1,26 +1,24 @@
 ---
-title: Equipment on Mobile Agent
-description: Check in, check out, or report broken equipment using the My Equipment applet in the Mobile Agent.Check out or check back in equipment assigned to your work order tasks or crew through the Mobile Agent.Report breakdowns of equipment assigned to your work order tasks or crew through the Mobile Agent.
+title: Equipment on ServiceNow Agent
+description: Check in, check out, or report broken equipment using the My Equipment applet in the ServiceNow Agent mobile app.Check out or check back in equipment assigned to your work order tasks or crew through the ServiceNow Agent mobile app.Report breakdowns of equipment assigned to your work order tasks or crew through the ServiceNow Agent mobile app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Equipment on Mobile Agent
+# Equipment on ServiceNow Agent
 
-Check in, check out, or report broken equipment using the **My Equipment** applet in the Mobile Agent.
+Check in, check out, or report broken equipment using the **My Equipment** applet in the ServiceNow Agent mobile app.
 
-**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
+## Check equipment out or in
 
-## Check equipment out or in with the Mobile Agent
-
-Check out or check back in equipment assigned to your work order tasks or crew through the Mobile Agent.
+Check out or check back in equipment assigned to your work order tasks or crew through the ServiceNow Agent mobile app.
 
 ### Before you begin
 
@@ -43,9 +41,9 @@ Role required: wm\_agent
         The equipment status changes to **Available**. If the assigned work order task is complete, the equipment instance can no longer be checked out for that task.
 
 
-## Report broken equipment with the Mobile Agent
+## Report broken equipment
 
-Report breakdowns of equipment assigned to your work order tasks or crew through the Mobile Agent.
+Report breakdowns of equipment assigned to your work order tasks or crew through the ServiceNow Agent mobile app.
 
 ### Before you begin
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-ai-system-to-ba.html
 release: yokohama
 topic_type: task
-last_updated: "2026-04-16"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [AI system, business application, associate, AI Control Tower, enterprise architecture workspace, portfolio management, governance]
-breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add an existing AI system to a business application
@@ -16,6 +16,8 @@ breadcrumb: [Working with an application portfolio, Portfolio list view, Enterpr
 Associate an existing AI Control Tower AI system with a business application from the Enterprise Architecture Workspace.
 
 ## Before you begin
+
+\[Omitted video\] Description: Add an existing AI system to a business application
 
 Role required:
 
@@ -63,7 +65,7 @@ You can also add a business application to a new AI System. For information, see
     The association also appears under **Workspaces** &gt; **AI Control Tower** &gt; **AI Assets** &gt; **AI systems** &gt; **Select an AI system** &gt; **Details** &gt; **Business applications**.
 
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 

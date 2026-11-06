@@ -7,16 +7,16 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
 # NowPushPayload protocol
 
 NowPushPayload is a generic protocol you can use to define a push notification protocol within the `NowSDK` framework.
 
-<table class="parameters"><thead><tr><th>
+<table id="table_g3x_ksb_qgc" class="parameters"><thead><tr><th>
 
 Name
 
@@ -55,5 +55,5 @@ Type of push notification.Possible values:
 -   launchVirtualAgent
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

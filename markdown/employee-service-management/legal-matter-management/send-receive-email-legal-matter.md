@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Communicate using emails from Legal Counsel Center
@@ -28,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d618575e110">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d668630e110">
 
 Option
 
-</th><th align="left" id="d618575e113">
+</th><th align="left" id="d668630e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d618575e119">
+</th></tr></thead><tbody><tr><td id="d668630e119">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d618575e148">
+</td></tr><tr><td id="d668630e148">
 
 **As a collaborator**
 
@@ -75,4 +75,8 @@ The state of the legal matter updates to Work in Progress.
 ## Result
 
 After the email is sent, it is added to the activity stream on the legal matter form. Emails you receive from others are also added to the activity stream.
+
+Legal matters marked as Privileged and Confidential, contain confidentiality markers to comply with legal requirements. This applies to both system-generated notifications and fulfiller-initiated outbound emails.
+
+**Parent Topic:**[Work on a legal matter]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [AI release notes generation in Digital Product Release, Now Assist, AI-powered release notes, Now Assist skill]
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
@@ -40,7 +40,7 @@ Using AI to generate release notes gives you clear, well-structured release note
 
 ## How it works
 
-The release notes are generated using a Now Assist summarization skill called Generate Release Notes. This skill is available when the [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md) plugin is installed. The skill is inactive by default, and you must activate it to use this feature.
+The release notes are generated using a Now Assist summarization skill called Generate Release Notes. This skill is available when the [ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm.md) plugin is installed.
 
 1.  When your release is in the readiness phase, select the option to generate release notes.
 2.  The system creates a draft using AI summarization.

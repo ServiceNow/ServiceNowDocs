@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure knowledge generation
@@ -20,8 +20,8 @@ Configure the Knowledge Generation skill to draft knowledge articles on resolvin
 
 Verify that the following is set up before you activate the skill:
 
-1.  Install the Required Plugin- Now Assist for CSM plugin.
-2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI UI.
+1.  Install the Required Plugin- ServiceNow Otto for CSM
+2.  Enable KCS system properties: The visibility of the **Create Knowledge** action in CRM Workspace depends on specific system properties and differs from its implementation in the Core UI.
 
     -   In Core UI, the action is implemented as a UI Action.
     -   In CRM Workspace, it is implemented as a Declarative Action.
@@ -40,7 +40,7 @@ Verify that the following is set up before you activate the skill:
 
         **Important:**
 
-        -   -   For Now Assist panel, if property sn\_customerservice.enable\_knowledge\_kcs and KCS Article Template is not enabled then it will create article using standard template for cases.
+        -   -   For ServiceNow Otto panel, if property sn\_customerservice.enable\_knowledge\_kcs and KCS Article Template is not enabled then it will create article using standard template for cases.
 -   For Core UI / Workspace, if sn\_customerservice.enable\_knowledge\_kcs and KCS Article Template is not enabled then it will not show **Create Knowledge** button on case form.
 
 Role required: admin
@@ -55,14 +55,16 @@ The knowledge generation skill incorporates information that you enter in the fo
 
 Any modifications to the names or labels of these fields can affect the generation and quality of knowledge generation articles. So, don't change field names or labels after you select them as the skill won't recognize the changes.
 
-**Note:** It is preferable to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, verify a copy of the skill has been created, as not all fields are removable/configurable. Additionally, verify that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
+**Note:**
+
+It is preferable to revert to the default field name and field label for the affected fields. To remove incompatible fields from generation, confirm a copy of the skill has been created, as not all fields are removable/configurable. Additionally, confirm that the Knowledge Management advanced installer plugin is enabled and the following system properties are set to TRUE:
 
 -   sn\_customerservice.enable\_knowledge\_kcs
--   kcs.enable\_template\_on\_case\_workspace
+-   sn\_custoemrservice.kcs.enable\_template\_on\_case\_workspace
 
 ## Procedure
 
-1.  Navigate to **Admin &gt; Now Assist Admin &gt;Skills**.
+1.  Navigate to **Admin &gt; AI Admin Hub&gt;AI Skills**.
 
 2.  Select the **Customer** workflow, and **CSM** as the product.
 
@@ -70,7 +72,7 @@ Any modifications to the names or labels of these fields can affect the generati
 
     Each skill has a guided setup with multiple steps. A check symbol next to each step indicates whether its setup is complete, partially complete, or incomplete. After configuring a step, select **Save and continue** to move forward, or **Back** to return to a previous step.
 
-4.  Select **Choose Input** and review the tables and fields to create prompts that determines where data is pulled from.
+4.  Select **Choose Input** and review the tables and fields to create prompts that determine where data is pulled from.
 
     **Note:** You can't modify the input data source.
 
@@ -98,13 +100,15 @@ Input fields
 
 -   Short description
 -   Description
--   Resolution notes \(for cases and incidents\)
+-   Resolution notes \(for cases\)
 -   Work notes
 -   Comments
 
 
 </td></tr></tbody>
-</table>5.  Select **Define Availability** to customize how and when the skill capability is active and accessible.
+</table>    **Note:** When you select **Run Test**, a new task record input window appears where the user can select an input record from the drop-down through which the system automatically resolves and populates all the required fields.
+
+5.  Select **Define Availability** to customize how and when the skill capability is active and accessible.
 
     -   Select **Skill is always available** so no restrictions are placed on when a skill is available.
     -   Select **Customize skill availability** to define conditions and use the condition builder to configure fields and values.
@@ -114,23 +118,18 @@ Input fields
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_esm\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
+    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
         **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 7.  Select **Display** to determine where the KB generation appears.
 
-    -   Select In-product desktop to display Now Assist skills on forms and workspaces.
-    -   Select Now Assist panel to display Now Assist skills in the Now Assist panel.
+    -   Select In-product desktop to display AI skills on forms and workspaces.
+    -   Select ServiceNow Otto panel to display AI skills in the panel.
 8.  After selecting **Review and Activate** to examine changes, select **Done** to close the KB generation settings.
 
 9.  Select **Activate** to turn on the skill for agents and complete the configuration.
 
-
-To check if KB generation skill is working:
-
-1.  Confirm **Knowledge content recommendation** is active under **Now Assist Skills** &gt; **Platform**.
-2.  Verify that **Knowledge content recommendation** status is **Active** under**Now Assist Experiences** &gt; **Configurations**.
 

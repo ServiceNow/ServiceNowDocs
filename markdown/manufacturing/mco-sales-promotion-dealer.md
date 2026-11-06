@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-sales-promotion-dealer.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dealer management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
 # Sales promotion for the dealer
@@ -16,6 +16,6 @@ The dealer portal enables the dealers to view the sales promotions campaign crea
 
 |Task|Description|
 |----|-----------|
-|[Submit a sales promotion single claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sales-promotion-single-claim.md)|Submit a single sales promotion claim case.|
-|[Upload a bulk sales promotion claim request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sales-promotion-bulk-upload.md)|Bulk upload the sales promotion claims.|
+|[Submit a sales promotion claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sales-promotion-single-claim.md)|Submit a single sales promotion claim case.|
+|[Upload a bulk sales promotion claim](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-sales-promotion-bulk-upload.md)|Bulk upload the sales promotion claims.|
 

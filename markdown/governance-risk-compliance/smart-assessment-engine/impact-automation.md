@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ Action sets help you automate tasks by setting conditions and corresponding acti
 
 ## Automated actions
 
-Automated actions, also known as subflows, are predefined sequences of actions or processes that can be executed automatically based on certain conditions. The subflows are mapped to an action category, and the action category is mapped to a template assessment category. During the runtime of the subflow, the conditions are evaluated, and the corresponding subflows are executed. For example, if a response to a question meets a defined condition, a subflow can be triggered to create or update records, send notifications, or perform other automated tasks.
+Automated actions, also known as subflows, are predefined sequences of actions or processes that can be executed automatically based on certain conditions. The subflows are mapped to an action category, and the action category is mapped to a template assessment category. During the runtime of the subflow, the conditions are evaluated, and the corresponding subflows are executed. For example, if a response to a question meets a defined condition, a subflow is triggered. The subflow can then create or update records, send notifications, or perform other automated tasks.
 
 ## Trigger conditions
 

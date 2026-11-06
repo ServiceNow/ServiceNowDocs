@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Service Exchange for providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Use for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Using the Scratchpad for Service Exchange tasks
@@ -28,17 +28,13 @@ The CSBScratchpadUtil API allows consumers to share extra information that is ou
 -   Each task can have a maximum of 50 scratchpad entries.
 -   Data in the scratchpad cannot exceed 4000 characters.
 
-The following diagram shows how the scratchpad data is synced between the instances.
-
-\[Omitted image "service-bridge-v2-scratchpad.jpg"\] Alt text: Shows data transfer and sync between the provider and the consumer instances
-
 **Example Scratchpad use case:** This example shows how data in the Scratchpad is synced between the consumer and provider instances.
 
 -   A consumer orders a laptop from the local catalog. The local catalog in this case is a [Remote Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-remote-record.md).
 -   This request is immediately forwarded the provider and appears as a Provider Task on the provider's instance.
--   The provider then selects a laptop from the inventory, sets it up and adds relevant information like the serial number, model, configuration to the Scratchpad which is automatically sent to the consumer.
+-   The provider then selects a laptop from the inventory, sets it up and adds relevant information like the serial number, model, configuration to the Scratchpad . These details are automatically sent to the consumer.
 -   On the consumer's instance, the Scratchpad data is retrieved and updated on the local database.
 -   The laptop is then assigned to the consumer.
 
-\[Omitted image "service-bridge-v2-scratchpad-example.jpg"\] Alt text: Sample Scratchpad use case showing the flow of data between consumer and provider instances.
+**Parent Topic:**[Using Service Exchange for providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-administer.md)
 

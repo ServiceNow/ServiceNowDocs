@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Summarize a safety incident by using ServiceNow Otto for Health and Safety
@@ -17,6 +17,8 @@ breadcrumb: [Use, ServiceNow Otto for Health and Safety, Health and Safety, Empl
 Generate a summary from the fields that you selected on the safety incident and quickly understand the incident context by using the Health and Safety incident summarization skill in the ServiceNow Otto for Health and Safety application.
 
 ## Before you begin
+
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Verify that the Health and Safety incident summarization skill is enabled. For more information, see [Activate a ServiceNow Otto for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
 
@@ -30,7 +32,7 @@ The incident summarization skill is available in Health and Safety Workspace and
 
 -   In Health and Safety Workspace, use the Health and Safety incident summary by Now Assist component to generate a summary. This component appears above the activity stream.
 
-    **Note:** You can also generate a summary on demand from the Now Assist panel. For more information, see .
+    **Note:** You can also generate a summary on demand from the ServiceNow Otto panel. For more information, see [Standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-standard.md).
 
 -   In the Core UI, select the **Summarize** button on the incident record to generate a summary.
 
@@ -44,19 +46,19 @@ The incident summarization skill is available in Health and Safety Workspace and
 
     **Note:** Generating and displaying the summary may take several seconds.
 
-    \[Omitted image "na-hs-incident-summarize.png"\] Alt text: AI-generated summary for a Health and Safety incident.
+    \[Omitted image "na-hs-incident-summarization.png"\] Alt text: AI-generated incident summarization
 
 4.  When you're finished summarizing an incident, you can add it to the incident work notes, expand or collapse it, provide feedback, copy it, or view information about the incident.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d291741e219">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d314187e226">
 
 Option
 
-</th><th align="left" id="d291741e222">
+</th><th align="left" id="d314187e229">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d291741e228">
+</th></tr></thead><tbody><tr><td id="d314187e235">
 
 **Save the summary information by adding it to the work notes**
 
@@ -67,7 +69,7 @@ Procedure
 3.  Select **Save to work notes**.
 
 
-</td></tr><tr><td id="d291741e255">
+</td></tr><tr><td id="d314187e262">
 
 **Expand or collapse the summary**
 
@@ -75,7 +77,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expand card icon.\) or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: Collapse card icon.\) to see more details or fewer summary details.
 
-</td></tr><tr><td id="d291741e276">
+</td></tr><tr><td id="d314187e283">
 
 **Provide feedback for the summary**
 
@@ -83,7 +85,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: Expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill. The system gathers the feedback on each generated summary and stores it in the generative AI logs \(sys\_generative\_ai\_log\_list.do\).
 
-</td></tr><tr><td id="d291741e299">
+</td></tr><tr><td id="d314187e306">
 
 **Copy the case summary**
 
@@ -91,7 +93,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d291741e315">
+</td></tr><tr><td id="d314187e322">
 
 **Refresh the summary**
 
@@ -99,7 +101,7 @@ Select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: 
 
 Select the refresh icon \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh icon.\) to summarize the request again.
 
-</td></tr><tr><td id="d291741e330">
+</td></tr><tr><td id="d314187e337">
 
 **View the information about the case summary**
 
@@ -114,4 +116,6 @@ If you want to check details about the summary, select the more info icon \(\[Om
 
     -   The email client is enabled for the Health and Safety incident \[sn\_ohs\_im\_incident\] table on your ServiceNow instance. For more information, see [Enable the email client for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-email-client.md).
     -   The user sending the email has the Email composer \[email\_composer\] role. For more information, see [Email composer \[email\_composer\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/email-client-roles-2.md).
+
+**Parent Topic:**[Use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-use-generative-ai.md)
 

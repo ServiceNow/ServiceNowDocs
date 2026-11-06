@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Using Troubleshooting steps identification AI agent

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Execute and track external work order tasks
@@ -35,7 +35,7 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 
     -   To perform any task related activities before starting work, click **Check-In**
 
-        **Note:** At this stage, a notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Configuring-cust-exp.md). The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
+        **Note:** At this stage, a notification is sent to the customer, informing them that the agent has arrived on-site and is ready to begin the work. For more information, see [Customer notifications for work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Customer-notification-work-order-tasks.md). The substate **Onsite Arrival** is automatically set, indicating that you have reached your travel destination for the work order task.
 
     -   To by-pass the check-in option and start work directly, click **Start Work**.
     -   The **Actual work start** field is automatically updated with the current system time, marking the beginning of the task.
@@ -61,6 +61,4 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 ## Result
 
 The cumulative amount of time worked on the task is captured in the **Actual Work Duration** field. This total includes the time you started working on the task until you closed work on the task, excluding any time paused on the work.
-
-**Parent Topic:**[Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 

@@ -1,0 +1,56 @@
+---
+title: Manage touchpoints on an opportunity
+description: View, create, and delete touchpoints associated with an opportunity from the touchpoints related list.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/manage-touchpoints-opportunity.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
+---
+
+# Manage touchpoints on an opportunity
+
+View, create, and delete touchpoints associated with an opportunity from the touchpoints related list.
+
+## Before you begin
+
+The CRM Touchpoints plugin \(sn\_crm\_touchpoint\) must be installed.
+
+Role required: sn\_crm\_touchpoint.admin or sn\_crm\_touchpoint.touchpoint\_writer
+
+## About this task
+
+The **Touchpoints** tab on an opportunity record displays all touchpoints associated with that opportunity. You can create new touchpoints or delete existing ones directly from this list.
+
+## Procedure
+
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
+
+2.  In the **Opportunity - All** list, open the opportunity record and select the **Touchpoints** tab.
+
+    The list displays all touchpoints associated with the opportunity.
+
+3.  To create a touchpoint, select **New** in the related list or select **Create Touchpoint** from the opportunity header.
+
+4.  To delete one or more touchpoints, select the checkbox next to each touchpoint and then select **Delete**.
+
+    **Note:** A confirmation prompt appears before the deletion completes.
+
+    The selected touchpoints are removed from the opportunity.
+
+
+## Result
+
+Changes are saved to the opportunity. The Touchpoints tab reflects the current state of all linked touchpoints.
+
+**Related topics**  
+
+
+[Schedule a meeting from an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/schedule-meeting-opportunity.md)
+
+[Manage touchpoints on a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/manage-touchpoints-lead.md)
+
+[CRM Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-crm-touchpoints.md)
+

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Integration with SuccessFactors reference, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---

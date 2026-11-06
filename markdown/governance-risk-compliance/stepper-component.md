@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/stepper-component.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC record page template for BCM records, Reference, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,11 +14,11 @@ breadcrumb: [GRC record page template for BCM records, Reference, Business Conti
 
 The stepper component on the **Overview** tab shows the progression of the states for the record.
 
-The numerical value of the current state of the record is highlighted in the stepper component for reference as shown in the following example.
+The numerical value of the current state of the record is highlighted in the stepper component for reference as shown in the example.
 
 \[Omitted image "bcm-record-with-record-template.png"\] Alt text: Highlighted state in the stepper component.
 
-A typical record moves through the following progression of the states:
+A typical record moves through progression of these states:
 
 -   **Draft**
 -   **In review**

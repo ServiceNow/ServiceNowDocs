@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Machine learning solutions for Knowledge Management, Exploring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -105,7 +105,7 @@ Compares similarity of incidents with knowledge bases and identifies similar clo
 
 [Train the similarity solution for Knowledge Management to find related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/train-similarity-solution-km.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
 [Knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-demand-insights.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -93,16 +93,16 @@ None
 **List Threat Events**
 
 </td></tr></tbody>
-</table>-   **[Create a capability profile for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-create-profile.md)**  
+</table>-   **[Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-create-profile.md)**  
 Create a profile and select the McAfee ePO capabilities that you want the profile to run.
--   **[Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md)**  
+-   **[Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md)**  
 After you create a profile and select the McAfee ePO capabilities that you want the profile to run, you configure the settings of the profile so that it runs only when a set of specific conditions are met.
--   **[Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md)**  
+-   **[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md)**  
 After you create a profile and select the McAfee ePO capabilities that you want the profile to run, configure the settings so that the profile is invoked only under the specific conditions that you define.
 
 **Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
 **Previous topic:**[Create an approval group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-approval-group-mcafee.md)
 
-**Next topic:**[Create a capability profile for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-create-profile.md)
+**Next topic:**[Create a capability profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-create-profile.md)
 

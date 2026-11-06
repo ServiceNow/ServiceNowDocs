@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 30
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
     \[Omitted image "wsd-rsv-home-page-quick-rsv.png"\] Alt text: Make reservations using the Make Reservation and Quick Reservation Widget on the portal.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d486637e104">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d524788e104">
 
 Location
 
-</th><th align="left" id="d486637e107">
+</th><th align="left" id="d524788e107">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d486637e113">
+</th></tr></thead><tbody><tr><td id="d524788e113">
 
 **Application navigation filter**
 
@@ -48,7 +48,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d486637e137">
+</td></tr><tr><td id="d524788e137">
 
 **From Employee Center Portal**
 
@@ -333,11 +333,11 @@ Option to add the meeting note to a reservation using the rich text editor. The 
 
 This option is available only if you have selected the **Allow reservation message** option on the Reservation widget configuration. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/config-reservable-module.md).
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td>
 
-Add invitees to this reservation
+**Add invitees to this reservation** section
 
-</td></tr><tr><td colspan="2">
+</td><td>
 
 **Note:** This section appears only if your administrator has enabled the configuration to invite attendees to this workplace location. This option will not appear if the **Number of attendees** option is displayed for the workplace location.
 
@@ -613,21 +613,23 @@ Review your reservation details on the Reservation summary page.
 
 [Create a reservation]()
 
+[Auto-resolve recurring reservations]()
+
 [Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Reserve a space near your colleague]()
 
-[Create neighborhood reservations]()
-
 [Create multi-building reservations]()
+
+[Create neighborhood reservations]()
 
 [Create reservation for multiple workplace items]()
 
-[Create a reservation along with a shared reservation]()
+[Enable shift-based reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Create a reservation along with a shared reservation]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -640,4 +642,6 @@ Review your reservation details on the Reservation summary page.
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

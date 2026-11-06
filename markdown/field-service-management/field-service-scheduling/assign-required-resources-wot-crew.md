@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign required resources to the task-specific crews
@@ -36,12 +36,10 @@ Role required: wm\_dispatcher
 
 5.  Select **Edit crew**.
 
-6.  Select the **Members** list, add the required agents.
+6.  Select the **Members** list and add the required agents.
 
-7.  Select the **Equipment** list, add the required equipment.
+7.  Select the **Equipment** list and add the required equipment.
 
 8.  Select **Update**.
 
-
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

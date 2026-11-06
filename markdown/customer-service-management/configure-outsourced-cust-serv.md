@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-outsourced-cust-serv.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Outsourced Customer Service, Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Outsourced Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Configure Outsourced Customer Service
@@ -20,7 +20,7 @@ Configure various aspects of Outsourced Customer Service based on the specific r
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_csm\_ocs.csm\_ocs\_admin
 
 ### About this task
 
@@ -123,15 +123,15 @@ Role required: admin
 
 5.  Fill in the fields on the new record form, as appropriate.
 
-<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d104074e379">
+<table id="choicetable_nmd_nql_mlb"><thead><tr><th align="left" id="d125230e388">
 
 Option
 
-</th><th align="left" id="d104074e382">
+</th><th align="left" id="d125230e391">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d104074e388">
+</th></tr></thead><tbody><tr><td id="d125230e397">
 
 **Description**
 
@@ -139,7 +139,7 @@ Description
 
 Description for the outsourcing criteria.
 
-</td></tr><tr><td id="d104074e397">
+</td></tr><tr><td id="d125230e406">
 
 **Table**
 
@@ -147,7 +147,7 @@ Description for the outsourcing criteria.
 
 The table that stores the task for which the outsourcing criteria is created. Select either **Account**, **Asset**, **Consumer**, or **Sold Product** tables.
 
-</td></tr><tr><td id="d104074e418">
+</td></tr><tr><td id="d125230e427">
 
 **Condition**
 
@@ -206,7 +206,7 @@ An administrator creates Outsourced Service Providers \(OSPs\) after which OSP m
 
 ### Before you begin
 
-Role required: admin
+Role required: user\_admin
 
 ### Procedure
 
@@ -230,7 +230,7 @@ Role required: admin
     |**Business Phone**|The OSP manager or agent's business phone number.|
     |**Assignment Group**|Select the group that was created while creating an OSP.|
 
-    **Note:** A new OSP staff member record is created and the OSP is created in the **Service Organization** field of the service organization external staff \[sn\_csm\_service\_organization\_external\_staff\] table. Additionally, the same change applies to other related lists, including Onboard Agent, ​Onboard Manager, ​Create Group​, Transfer Case, ​Register Staff​, and Register Member.
+    **Note:** A new OSP staff member record is created and the OSP is created in the **Organization** field of the external organization staff \(formerly service organization external staff\) \[sn\_csm\_service\_organization\_external\_staff\] table. Additionally, the same including Onboard Agent, ​Onboard Manager, ​Create Group​, Transfer Case, ​Register Staff​, and Register Member.
 
 5.  Select **Submit**.
 
@@ -255,15 +255,15 @@ Role required: admin
 
 3.  Fill in the fields on the Outsourced Service Provider form, as appropriate.
 
-<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d104074e934">
+<table id="choicetable_ckq_svb_hlb"><thead><tr><th align="left" id="d125230e970">
 
 Option
 
-</th><th align="left" id="d104074e937">
+</th><th align="left" id="d125230e973">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d104074e943">
+</th></tr></thead><tbody><tr><td id="d125230e979">
 
 **Name**
 
@@ -271,7 +271,7 @@ Description
 
 The OSP's name.
 
-</td></tr><tr><td id="d104074e952">
+</td></tr><tr><td id="d125230e988">
 
 **Service Provider Type**
 
@@ -279,7 +279,7 @@ The OSP's name.
 
 Customer or Field service provider.
 
-</td></tr><tr><td id="d104074e961">
+</td></tr><tr><td id="d125230e997">
 
 **Manager**
 
@@ -287,7 +287,7 @@ Customer or Field service provider.
 
 The OSP's manager name.
 
-</td></tr><tr><td id="d104074e970">
+</td></tr><tr><td id="d125230e1006">
 
 **Website**
 
@@ -295,7 +295,7 @@ The OSP's manager name.
 
 The web address for the internal business location.
 
-</td></tr><tr><td id="d104074e980">
+</td></tr><tr><td id="d125230e1016">
 
 **Notes**
 
@@ -303,7 +303,7 @@ The web address for the internal business location.
 
 Any note regarding the OSP.
 
-</td></tr><tr><td id="d104074e989">
+</td></tr><tr><td id="d125230e1025">
 
 **Company**
 
@@ -311,7 +311,7 @@ Any note regarding the OSP.
 
 The company or organization to which the OSP belongs.**Note:** The **Company** field is a read-only field. Additionally, there’s a 1:1 relationship between an OSP and a company. It means that only one company record can be mapped to an OSP record at any given time.
 
-</td></tr><tr><td id="d104074e1003">
+</td></tr><tr><td id="d125230e1039">
 
 **Active**
 
@@ -319,7 +319,7 @@ The company or organization to which the OSP belongs.**Note:** The **Company** f
 
 Enables the OSP. The default value is set to **True**.
 
-</td></tr><tr><td id="d104074e1015">
+</td></tr><tr><td id="d125230e1051">
 
 **Contact**
 
@@ -327,7 +327,7 @@ Enables the OSP. The default value is set to **True**.
 
 Enter **Phone** or **Fax phone** number.
 
-</td></tr><tr><td id="d104074e1030">
+</td></tr><tr><td id="d125230e1066">
 
 **Address**
 
@@ -342,7 +342,7 @@ The OSP's postal address. The following address fields are available by default:
 -   Country
 
 
-</td></tr><tr><td id="d104074e1058">
+</td></tr><tr><td id="d125230e1094">
 
 **Case Transfer**
 
@@ -379,7 +379,7 @@ Define outsourcing criteria so that cases matching the criteria are visible to t
 
 [Outsourced Service Provider manager tasks]()
 
-## Configure the Performance Analytics components for the Outsourced Customer Service dashboard
+## Configure the Performance Analytics for the Outsourced Customer Service
 
 Run diagnostics, review and customize components, and start collecting data.
 
@@ -419,24 +419,16 @@ Role required: pa\_admin
 
 7.  If you changed the time field stamps in any indicator sources, also change any related Performance Analytics scripts.
 
-    For more information, see [Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/update-pa-scripts.md).
-
 8.  Open the Breakdown Sources tab.
 
 9.  For each dashboard included in this Platform Analytics Solution:
 
     1.  Filter the breakdown sources on the dashboard name.
 
-    2.  Review the conditions on the breakdown source as described in [Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/review-breakdown-sources.md).
-
 10. Navigate to **Performance Analytics** &gt; **Jobs**.
 
 11. Set up and run the historical job for this Platform Analytics Solution, &lt;name of historical job&gt;.
 
-    Follow the procedure in [Run historical data collection for an Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/historical-data-nowintel-solution.md)
-
 12. Edit and activate the scheduled data collection job for this Platform Analytics Solution, &lt;name of scheduled job&gt;
-
-    Follow the procedure in [Schedule data collection for an Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/schedule-job-nowintel-solution.md).
 
 

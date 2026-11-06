@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-layout.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -113,7 +113,7 @@ Tap to list additional settings. For example, languages, enable push notificatio
     -   Language: Tap to display the Language page, where you can select a language for your ServiceNow mobile app. For more information, see [Languages on your mobile device](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/display-language.md).
     -   Notification: Option to enable push notifications on your mobile device. For more information, see [Enable notification settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/notification-preference-settings.md).
     -   Security: Tap to display the option to set up an app PIN. For more information, see [App PIN settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-app-pin-settings.md).
-    -   Theme: Option to enable the dark theme or the default theme on your mobile app. For more information. see [Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/enable-dark-theme.md).
+    -   Theme: Option to enable the dark theme or the default theme on your mobile app. For more information. see [Theme settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/enable-dark-theme.md).
     -   Start my week: Option to select which day to allocate as the start of your week.
     -   Analytics: Enable analytics tracking for your mobile app journey. For more information about analytics settings, see [Analytics settings for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-analytics-settings.md).
     -   Banners: Tap to open the Banners page. Within the page, select the number of seconds a banner displays. You can also select whether to group multiple messages. For more information, see [Define notification banner display time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/banner-display.md).
@@ -149,7 +149,7 @@ The notifications page is accessed from the **Notifications** tab on the navigat
 
  You can mark all notifications as read or delete all notifications by tapping on the more menu \(\[Omitted image "IconAppMenuAndroid.png"\] Alt text: More icon.\) and selecting the appropriate option.
 
- For more information on notifications, see [Mobile notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-notifications.md), [Handling mobile alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-alerts-using.md), and [Enabling critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/critical-alert-enable.md).
+ For more information on notifications, see [Mobile notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-notifications.md), [Handling mobile alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-alerts-using.md), and [Critical alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/critical-alert-enable.md).
 
  For information on mobile notification configuration, see [Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-push-notifications.md).
 

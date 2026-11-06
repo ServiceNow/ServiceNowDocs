@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cluster analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Cluster analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # View a cluster analysis
@@ -20,7 +20,7 @@ View a completed cluster analysis one of these ways.
 
 -   Select a connection or activity from the process map which has had a cluster analysis performed on it. In the metrics box, select **View**.
 -   From the Scheduled tasks panel, select **View result** for the selected cluster task.
--   From the Summary and Insights page, select **Requestor intent \(cluster\) View results** in the box for the insight you want to view.
+-   From the Summary and insights page, select **Requestor intent \(cluster\) View results** in the box for the insight you want to view.
 
 ## Cluster analysis results
 

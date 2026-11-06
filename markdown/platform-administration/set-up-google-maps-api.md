@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/set-up-google-maps-api.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,8 +22,6 @@ Role required: admin
 
 You can generate maps using basic JavaScript, and they are flexible enough to display even the most complicated of queries. These maps use standard Google Maps API for Business or Google Maps JavaScript API Key mapping features, including various link types to records in your instance. Use of this feature requires installation of the Google Maps plugin.
 
-\[Omitted image "MapPage.jpg"\] Alt text: Map page
-
 **Important:** Starting May 2026, Google is deprecating the use of Client ID for authenticating requests to Google Maps. From this date onward, API keys will be the only supported authentication method. If your application continues to use client-id \(for example, via the **google.maps.method property**\), Google Maps requests will fail. For more information, see [Client ID Migration Guide](https://developers.google.com/maps/premium/migrate-client-id).
 
 Update your configuration to authenticate using an API key only \(that is, set **google.maps.method** to `key`\). Refer to the descriptions of **google.maps.key** and **google.maps.key.geocoding** properties for more information on API key–based authentication.
@@ -34,15 +32,15 @@ Update your configuration to authenticate using an API key only \(that is, set *
 
     **Note:** You are required to use your own Google Maps JavaScript API Key from Google and not use any ServiceNow AI Platform® generated key.
 
-<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d106443e127">
+<table id="choicetable_okq_vnj_smb"><thead><tr><th align="left" id="d114274e112">
 
 Existing Google Maps API for Business license available?
 
-</th><th align="left" id="d106443e133">
+</th><th align="left" id="d114274e118">
 
 Tasks
 
-</th></tr></thead><tbody><tr><td id="d106443e139">
+</th></tr></thead><tbody><tr><td id="d114274e124">
 
 **Existing license available**
 
@@ -57,7 +55,7 @@ Tasks
 
 The Google Maps Client ID–based configuration is being deprecated. Client ID authentication will not be supported starting May 2026, and configurations relying on it will no longer work.
 
-</td></tr><tr><td id="d106443e213">
+</td></tr><tr><td id="d114274e198">
 
 **No license available**
 
@@ -117,6 +115,17 @@ google.maps.client
 
 Client ID for Google Maps API for Business.-   Type: string
 -   Default value: gme-servicenow
+-   Location: **System Properties** &gt; **Google Maps**
+
+
+</td></tr><tr><td>
+
+google.maps.map\_id
+
+</td><td>
+
+Map ID for Google Maps used for the cloud-based maps styling, vector maps, and advanced markers. To obtain your Map ID, see [How to create map IDs](http://developers.google.com/maps/documentation/javascript/map-ids/get-map-id).-   Type: string
+-   Default value: empty
 -   Location: **System Properties** &gt; **Google Maps**
 
 

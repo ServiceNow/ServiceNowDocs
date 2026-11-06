@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Engage with outside counsel, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject outside counsel engagement request
@@ -24,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open the outside counsel engagement approval request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d588734e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d637468e51">
 
 Method
 
-</th><th align="left" id="d588734e54">
+</th><th align="left" id="d637468e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d588734e60">
+</th></tr></thead><tbody><tr><td id="d637468e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -43,7 +43,7 @@ Action
 3.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d588734e98">
+</td></tr><tr><td id="d637468e98">
 
 **Using Legal Counsel Center lists**
 
@@ -55,7 +55,7 @@ Action
 4.  From the list, open the record for approval.
 
 
-</td></tr><tr><td id="d588734e151">
+</td></tr><tr><td id="d637468e151">
 
 **Using platform view**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Requesting improvements, Continual Improvement Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
 
 # Create an improvement request
@@ -19,10 +19,6 @@ Create an improvement request for improvement opportunities you identify in your
 ## Before you begin
 
 Role required: sn\_cim.improvement\_requester
-
-## About this task
-
-\[Omitted image "cim-new.png"\] Alt text: CIM new process flow
 
 ## Procedure
 
@@ -40,7 +36,7 @@ Role required: sn\_cim.improvement\_requester
 
         A CIM phase is automatically created when you create the initiative, if the **sn\_cim.create\_default\_phase** system property is enabled. For more information, see [Properties installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-components.md).
 
-    2.  Fill in the short description and the business justification, and click **Submit**.
+    2.  Fill in the short description and the business justification, and select **Submit**.
 
         The improvement request is created and set to **New** for the Improvement Manager to accept or reject based on alignment with strategic objectives.
 
@@ -59,11 +55,18 @@ As part of the improvement identification process, the incident manager analyzed
 |Business service|IT Services|
 |Business process|Incident Management|
 |Short description|\(Required\) Improve average time to resolve an incident by 25%|
-|Business justification|Average time to resolve an incident time is bad compared to Industry average. I compared our value with global values from companies in the same industry using the Benchmarks application.|
+|Business justification|A comparison with global values from companies in the same industry using the Benchmarks application shows that average incident resolution time is lower than the industry average.|
 |State|New|
 |Priority|4 - Low \(default\)|
 
-**Parent Topic:**[Requesting improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-improvement-request.md)
+-   **[Create improvement initiatives from integrated applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/create-improvmt-from-apps.md)**  
+Create improvement initiatives from applications integrated with Continual Improvement Management to enable planning, implementation, monitoring, and impact assessment of improvements in a centralized framework.
+-   **[Create application records from improvement initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/create-app-records.md)**  
+Create records for integrated applications from improvement initiatives or CIM tasks to transform improvement initiatives into broader, actionable efforts to enable improvements across teams and processes.
+-   **[Configure CIM integration property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/configure-cim-int-property.md)**  
+Configure the CIM sn\_cim.initiative\_copy\_attributes integration property to define field values to be copied from an improvement initiative to application records that you create from the initiative.
+
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 

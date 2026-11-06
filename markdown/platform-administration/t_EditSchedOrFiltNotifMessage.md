@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_EditSchedOrFiltNotifMessage.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a notification filter, Subscription-based notifications, Setting notification preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create a notification filter, Subscription-based notifications, Preferences in Core UI, Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Edit the schedule or filter of an existing notification message
@@ -24,13 +24,13 @@ To edit the schedule or filter of an existing notification message:
 
 ## Procedure
 
-1.  In the Notification Preferences screen, click the message to edit.
+1.  In the Notification Preferences screen, select the notification message to edit.
 
     You cannot edit any attributes of a mandatory message.
 
 2.  Make the appropriate changes in the form.
 
-3.  Click **Update**.
+3.  Select **Update**.
 
 
 **Parent Topic:**[Create a notification filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_NotificationFilters.md)

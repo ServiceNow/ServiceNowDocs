@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CI relationship editor, CI relationships in the CMDB, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CI relationship editor, CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Delete a CI relationship
@@ -18,11 +18,11 @@ Maintain the integrity of the CMDB by deleting any CI relationships that are no 
 
 ## About this task
 
-As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-edit-connection.md).
+As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in  provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-edit-connection.md).
 
 ## Before you begin
 
-Role required: ITIL or asset
+Role required: sn\_cmdb\_editor, itil, or asset
 
 **Note:** Deleting a relationship to a dependent CI can result in identification problems as the dependent CI will no longer have a relationship to the CI it depends on.
 

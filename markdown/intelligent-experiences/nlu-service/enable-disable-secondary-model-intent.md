@@ -1,5 +1,5 @@
 ---
-title: Enable or disable a secondary model intent
+title: \(Legacy\) Enable or disable a secondary model intent
 description: Enable and disable intents in your Natural Language Understanding \(NLU\) models to make them active or inactive. Disable intents while editors or admins edit, review, or update its content and translations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/enable-disable-secondary-model-intent.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [\(Legacy\) Multilingual model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Enable or disable a secondary model intent
+# \(Legacy\) Enable or disable a secondary model intent
 
 Enable and disable intents in your Natural Language Understanding \(NLU\) models to make them active or inactive. Disable intents while editors or admins edit, review, or update its content and translations.
 
@@ -90,6 +90,4 @@ In this example procedure, you're reviewing the intents in a model one at a time
 ## What to do next
 
 Repeat Steps 1 through 6 for the four remaining intents in the list. As each intent review completes and is marked with the Reviewed state, the running count in the intents reviewed box increases toward 5 of 5.
-
-**Parent Topic:**[Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/multilingual-model-managent.md)
 

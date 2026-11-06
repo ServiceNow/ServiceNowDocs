@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2025-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Legal Hold Notification, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure a restricted caller access privilege
@@ -47,5 +47,5 @@ Role required: admin
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Domain separation in User Experience Analytics
-description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is not supported for the User Experience Analytics application.
+title: Domain separation in Usage Insights
+description: If any conkeyrefs are broken, re-add them from the doc/source/reuse/domain-separation/domain-separation-overview.dita file.In the short description, edit the first sentence to state whether domain separation is supported or not and add the application name. Keep the conkeyref at the end that describes domain separation.Domain separation is not supported for the Usage Insights application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/user-experience-analytics-domain-separation.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User Experience Analytics reference, User Experience Analytics, Platform Analytics]
+breadcrumb: [Usage Insights reference, Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Domain separation in User Experience Analytics
+# Domain separation in Usage Insights
 
-Domain separation is not supported for the User Experience Analytics application.
+Domain separation is not supported for the Usage Insights application.
 
 ## Support level: No support
 
@@ -23,7 +23,7 @@ Domain separation is not supported for the User Experience Analytics application
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[User Experience Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)
+**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 
 **Related topics**  
 

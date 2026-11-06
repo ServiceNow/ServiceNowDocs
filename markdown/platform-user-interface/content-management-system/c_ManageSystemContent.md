@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content Management design, Content Management System, Configure UIs and portals, Configure user experiences]
 ---

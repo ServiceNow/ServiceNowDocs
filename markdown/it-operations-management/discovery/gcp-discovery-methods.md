@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [Patterns, Azure, Cloud, Discovery, Visibility, CMDB]
 breadcrumb: [Cloud discovery solutions comparison, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
@@ -63,7 +63,7 @@ Service Graph Connector for GCP
 
 The CI class, in most cases, is applicable to both solutions. If it's not applicable to one of the solutions, the solution is marked "N/A".
 
-If an entry is marked with one asterisk, the resource type is supported by Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md).
+If an entry is marked with one asterisk, the resource type is supported by Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md).
 
 If an entry is marked with two asterisks, the resource type is supported by Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 
@@ -111,7 +111,7 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |compute.googleapis.com/ForwardingRule|Yes|Yes|cmdb\_ci\_lb\_service|
 |compute.googleapis.com/HttpHealthCheck|Yes|Yes|cmdb\_ci\_lb\_health\_service|
 |compute.googleapis.com/Image|Yes|No|cmdb\_ci\_os\_template|
-|compute.googleapis.com/Instance|Yes|N,A|cmdb\_ci\_lb\_pool\_member|
+|compute.googleapis.com/Instance|Yes|N/A|cmdb\_ci\_lb\_pool\_member|
 |compute.googleapis.com/Instance|N/A|Yes|cmdb\_ci\_server|
 |compute.googleapis.com/Instance|Yes|Yes|cmdb\_ci\_vm\_instance|
 |compute.googleapis.com/Instance/networkInterfaces|Yes|No|cmdb\_ci\_endpoint\_vnic|
@@ -207,7 +207,7 @@ If an entry is marked with two asterisks, the resource type is supported by Serv
 |storage.googleapis.com/Bucket|Yes|N/A|cmdb\_ci\_cmp\_resource|
 |storage.k8s.io/storageclass|Yes\*|Yes\*\*|cmdb\_ci\_cmp\_resource|
 
-\* These resource types are supported in Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md).
+\* These resource types are supported in Patterns only by utilizing the **Google Asset inventory** pattern's inclusion list. For more information, see [Google Cloud Platform \(GCP\) resource inventory discovery with Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-resource-inventory-discovery.md).
 
 \*\* These resource types are supported in Service Graph Connecters only by utilizing the \[sn\_cmdb\_int\_util\_service\_graph\_resource\_inclusion\_whitelist\] table.
 

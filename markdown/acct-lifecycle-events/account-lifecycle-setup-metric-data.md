@@ -1,32 +1,31 @@
 ---
-title: Setup the data context engine
-description: Define and measure metrics to calculate the health score or generate risk signals for one or more engagements.
+title: Data Context Engine
+description: The Data Context Engine aggregates data from multiple sources—both internal and external—collecting it in one place to support configuration decisions based on aggregated data .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Customer success, Explore, Customer Success Management]
 ---
 
-# Setup the data context engine
+# Data Context Engine
 
-Define and measure metrics to calculate the health score or generate risk signals for one or more engagements.
+The Data Context Engine aggregates data from multiple sources—both internal and external—collecting it in one place to support configuration decisions based on aggregated data .
 
-Data is collected from performance indicators or external sources as defined in the data source. This data is used to calculate the health score, generate risk signals, or create success outcomes. The following diagram shows the high-level data model.
+The insights gained from analyzing operational data can be used to deliver proactive service, mitigate risks, trigger configured customer plays, and enhance overall engagement strategies. With the Data Context Engine, you can:
 
-\[Omitted image "account-lifecycle-data-context-engine.png"\] Alt text: Data context engine flow
+-   Collect Data: Gather information from multiple sources including Performance Analytics \(PA\) indicators and external systems.
+-   Analyze Information: Process and categorize data using customizable breakdowns and associations, and generate insights.
+-   Visualize Results: Present findings through comprehensive dashboards and reports.
 
-To collect and use the data, you must setup the data source to specify whether data is being collected from PA indicators or external sources. In the context table, you must associate the data source with an engagement or success outcome table. Based on the context, you must specify the record in the context table for which this data is applicable. Data is stored in the Context Engine Data table and when the scheduled jobs are run, the heath score, risk signals, and success outcomes are updated.
+Data collected by the Data Context Engine is used to calculate and maintain:
 
-To setup the data context engine, follow these steps:
+-   Health scores: Calculate health scores for customer engagements.
+-   Product usage and adoption scores: Generate scores to measure product usage and adoption.
+-   Risk signals: Identify and generate risk signals.
+-   Success outcomes: Create success outcomes based on the collected data
 
--   [Define the data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-define-data-source.md)
--   [Set up the context engine mapper](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.md)
-
-After the data context engine has been set up, you can configure the health and risk definitions:
-
--   [Setup the engagement health definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-health-defn.md)
--   [Setup the engagement risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md)
+To collect and use data, you must set up a data source and link it to the appropriate context table \(engagement, success outcome, or product usage\). The Context Engine Data table stores this information and updates health scores, adoption metrics, risk signals, and success outcomes when scheduled jobs run. For more details, see [Configure the Data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-dce.md).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-planning-checklist.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Prepare your upgrade, Yokohama release notes]
+breadcrumb: [Prepare your upgrade, Brazil release notes]
 ---
 
 # Upgrade planning checklist
@@ -75,9 +75,9 @@ Phase 1 - Read the release notes and plan your upgrade
 
 </td><td>
 
-Review the [Yokohama release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) for the target ServiceNow feature release and patch, in addition to product and release documentation.
+Review the [Brazil release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) for the target ServiceNow feature release and patch, in addition to product and release documentation.
 
- For Yokohama -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade-and-migration-tasks.md).
+ For Brazil -specific upgrade considerations, see [Pre- and post-upgrade tasks for various products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/upgrade-and-migration-tasks.md).
 
 </td><td>
 
@@ -141,7 +141,7 @@ Confirm the instance hosting model. For example, ServiceNow cloud, on-premise, o
 
 </td><td>
 
-Based on the [Yokohama release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.
+Based on the [Brazil release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/family-release-notes.md) and other release materials, determine new functionality or notable changes that need to be validated after the upgrade.
 
 </td><td>
 

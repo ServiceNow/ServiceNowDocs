@@ -1,24 +1,24 @@
 ---
 title: Create union contacts
-description: Use Union Contacts to create and track the people who work for a union or local chapter organization.
+description: Union Contacts track the people who work for a union or local chapter organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/labor-union-contacts.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up labor unions, Labor unions, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create union contacts
 
-Use Union Contacts to create and track the people who work for a union or local chapter organization.
+Union Contacts track the people who work for a union or local chapter organization.
 
 ## Before you begin
 
-Role required: admin
+Role required: HR admin \[sn\_hr\_core.admin\]
 
 **Note:** Creating a union contact does not create a user record.
 
@@ -90,5 +90,5 @@ The contact person's role within the labor union.
 </table>4.  Select **Save** or **Submit**.
 
 
-**Parent Topic:**[Setting up labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-setting-up.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)
 

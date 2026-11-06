@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2024-09-19"
+last_updated: "2026-10-26"
 reading_time_minutes: 2
-breadcrumb: [Create a Profile for Proofpoint DLP integration, Data Loss Prevention Incident Response Integration with Proofpoint, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Create a Profile for Proofpoint DLP integration, Data Loss Prevention Incident Response Integration with Proofpoint, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Email remediation actions
@@ -25,7 +25,7 @@ Proofpoint provides four remediation actions:
 3.  Release Encrypted Email with Scan
 4.  Delete Email
 
-By default, **Release Email with Scan**, **Release Email without Scan, Release Encrypted Email with Scan**, and **Delete Email response options** and **Proofpoint Remediation Action Rule** to perform the remediation action on the email. These response options also have the **Proofpoint Email Release Approval Rule** configured with it to leverage the approval functionality for these actions. These remediation actions are available to the End Users, Analysts, Escalated Incident Reviewers for execution.
+By default, **Release Email with Scan**, **Release Email without Scan, Release Encrypted Email with Scan**, and **Delete Email response options** and **Proofpoint Remediation Action Rule** to perform the remediation action on the email. These response options also have the **Proofpoint Remediation Action Approval Rule** configured with it to leverage the approval functionality for these actions. These remediation actions are available to the End Users, Analysts, Escalated Incident Reviewers for execution.
 
 For more information, see [Set up incident response option rules for your DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-end-user-action.md), [Configure response option for your DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-response-option-mapping.md), and [Configure Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-approval-rules.md).
 
@@ -52,7 +52,7 @@ Role required:
 6.  Click **Submit**.
 
 7.  The following procedure explains how to submit the remediation action from the DLP User Workspace. As an end user, you can:
-8.  Navigate to **All** &gt; **DLP Incident Management** &gt; **DLP Analyst Workspace**.
+8.  Navigate to **All** &gt; **DLP Incident Management** &gt; **DLP User Workspace**.
 
 9.  Open any Proofpoint DLP incident with **Scan source** as Email SMTP.
 

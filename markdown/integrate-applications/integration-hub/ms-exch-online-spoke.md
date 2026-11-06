@@ -7,10 +7,10 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-22"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Exchange Online Spoke
@@ -21,7 +21,7 @@ The Microsoft Exchange Online spoke creates and manages calendar and mail in Mic
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -29,7 +29,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Exchange Online spoke v4.1.0 is the latest version.
+Microsoft Exchange Online spoke v4.1.3 is the latest version. For version history of the spoke, see [Microsoft Exchange Online Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-exchange-online.html).
 
 ## Spoke dependencies
 
@@ -328,12 +328,9 @@ Available AI agents include:
 |Microsoft Exchange Online room management AI agent|Automates workflows related to the room management within Microsoft Exchange Online such as 'Look up Rooms Stream'.|
 |Microsoft Exchange Online metadata retrieval management AI agent|Automates workflows related to the room metadata management within Microsoft Exchange Online such as looking up room metadata and time zone metadata.|
 |Microsoft Exchange Online meeting scheduler AI agent|Automates calendar management tasks within Microsoft Exchange Online. It enables users to find the available meeting time slots and create the meetings accordingly.|
-|Microsoft Exchange Online mail manager|Automates mail management tasks within Microsoft Exchange Online such as look up mail folders and messages, delete messages, and set mailbox auto-replies.|
+|Microsoft Exchange Online mail management AI agent|Automates mail management tasks within Microsoft Exchange Online such as look up mail folders and messages, delete messages, and set mailbox auto-replies.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

@@ -1,120 +1,56 @@
 ---
-title: Create AI connection for Azure Foundry
-description: Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+title: AI Service Graph Connector for Microsoft
+description: Use the  AI Service Graph Connector for Microsoft  plugin to create AI connections for Azure Foundry and Copilot to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/microsoft.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
-topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Create AI connection for Azure Foundry
+# AI Service Graph Connector for Microsoft
 
-Create an AI connection for Azure Foundry in AI Control Tower using the  AI Service Graph Connector for Microsoft.
+Use the  AI Service Graph Connector for Microsoft  plugin to create AI connections for Azure Foundry and Copilot to discover AI assets such as AI systems, models, prompts, and tools as well as usage data for these AI agents in AI Control Tower. This usage information is consumed by the AI Control Tower value dashboard.
 
-## Before you begin
+## Download apps from the store
 
-Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
+Visit the  [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to download the AI Service Graph Connector for Microsoft app.
 
-Account &amp; Resource Hierarchy
+## Supported ServiceNow versions
 
-The connector supports three Azure service variants, each with its own resource hierarchy:
+-   Australia
+-   Zurich patch 7
+-   Yokohama patch 11
 
--   ML Services \(AI Hub\) Subscriptions → Resource Groups → ML Workspaces → Agents
--   AI Services/Old Foundry \(Cognitive Services\) Subscriptions → Resource Groups → Cognitive Services Accounts → Projects → Agents
--   New Foundry Subscriptions → Resource Groups → Accounts → Projects → Agents → Agent Versions
+## User roles
 
-The key distinction with New Foundry is that each agent version is treated as a distinct entity, which the other two variants don't support.
+Roles required in the ServiceNow environment:
 
-Discovered per agent
+-   sn\_ai\_disc.discovery\_admin
+-   sn\_cmdb\_int\_util.sgc\_admin
 
-For each agent discovered across all three variants, the connector collects:
+## Prerequisites from Azure Foundry environment
 
--   **AI Agents \(assistants\)**- The primary entity.
--   **AI Models**- Deployed models \(GPT-4o, Llama, Claude, etc.\) via deployment enrichment.
--   **AI Prompts**- System instructions attached to agents.
--   **AI Tools**- With type coverage varying by variant:
-    -   ML &amp; AI Services: `functions`, `connected_agent`, others
-    -   New Foundry adds: `mcp`, `openapi`, `a2a_preview`
--   **Sub-component Relationships**- M2M links between agents and their sub agents/tools
--   **Usage/Execution Metrics**- Aggregated run counts by agent, date, and session.
+**Setting up Azure Foundry:**
 
-## Procedure
+-   To get the OAuth credentials, refer to the [Azure documentation](https://learn.microsoft.com/en-us/rest/api/azure/#register-your-client-application-with-azure-ad).
+-   The Azure client application needs at least 'User. Contributor' role on AI Hub \(ML services\) API. Refer [documentation for Azure Hub roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/hub-rbac-foundry?view=foundry-classic#default-roles-for-the-hub) It also requires a workspace to be created.
+-   The Azure client application needs at least an 'Azure AI User' role on the Azure Foundry \(Cognitive Services\) API. Refer [documentation for Azure Foundry roles.](https://learn.microsoft.com/en-us/azure/ai-foundry/concepts/rbac-foundry?view=foundry&preserve-view=true#built-in-roles) It also requires an account \(resource name\) to be created.
+-   Enable both Discovery and Execution import schedules to discover agents and retrieve execution data.
 
-1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
+## Prerequisites from Copilot environment
 
-2.  Select **Add**.
+**Setting up Copilot**
 
-3.  Select **AI connector for Microsoft** from all the available connectors.
+-   Register an application in Microsoft Entra ID and [Register](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app) to obtain the Client ID and Client secret.
+-   Open the Power Platform Admin Center, select your Copilot environment, then go to Settings &gt; Users+permissions &gt; Application users, add a new app user using the Client ID and assign Basic user and System administrator roles.
+-   Find the Organization ID, Tenant ID under Settings &gt; Session details.
+-   Usage is tracked only in non-developer environments.
+-   Enable both Discovery and Executions to discover agents and retrieve execution data.
 
-4.  Select **Create connection**.
-
-5.  Select Azure Foundry check box.
-
-6.  Review setup instructions page displays.
-
-    **Note:** Verify to follow all the prerequisite steps.
-
-7.  Select **Continue**.
-
-8.  Setup page appears
-
-9.  **Configure and test ML services connection**
-
-    1.  Enter the **Connection Name**.
-
-    2.  Enter the **Connection URL** \(https://&lt;region&gt;api.azureml.ms\).
-
-        **Note:** The region is available under project details.
-
-    3.  Enter the **OAuth client ID**OAuth client ID.
-
-    4.  Enter the **OAuth client secret**.
-
-    5.  Enter the **OAuth token URL** \([https://login.microsoftonline.com/&lt;tenantid&gt;/oauth2/v2.0/token](https://login.microsoftonline.com/%3ctenantid%3e/oauth2/v2.0/token)\).
-
-        The tenant id can be found in the URL of every page. It’s abbreviated as tid.
-
-    6.  Select **Update and test connection**
-
-    7.  Select **Continue**.
-
-10. **Configure and test AI services connection**
-
-    1.  Enter the **Connection Name**.
-
-    2.  Enter the **Connection URL** \(https://&lt;resource-name&gt;services.ai.azure.com\)
-
-        **Note:** To obtain the resource name, make sure that you're on New Foundry \(Enable the New Foundry toggle\) and select the project. Once you're on the home page, look for the Project endpoint to view the resource name.
-
-        Starting from March 2026 onwards, ServiceNow provides support to the New Foundry along with the old Foundry.
-
-    3.  Enter the **OAuth client ID**.
-
-    4.  Enter the **OAuth client secret**.
-
-    5.  Enter the **OAuth token URL**.
-
-11. **Configure import schedule**
-
-    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive.
-
-        Verify to execute the Discovery-scheduled job first.
-
-    2.  Select **Execute now** to run.
-
-        **Note:** This is an optional step as the schedule imports run according to the schedule.
-
-    3.  Select **Continue**.
-
-    4.  Select **View all connections** to view the newly created connection.
-
-
-## Result
-
-The AI connection for Azure Foundry is created and configured.
+**Note:** For Microsoft, OAuth authentication is supported.
 

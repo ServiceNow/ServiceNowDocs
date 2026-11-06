@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Rotate event tables and alert table cleanup, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Modify event table rotation
@@ -37,7 +37,7 @@ Each table rotation has a schedule, according to which new data is written to on
 4.  Select **Update**.
 
 
-**Parent Topic:**[Rotate event tables and alert table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
+**Parent Topic:**[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
 
 **Related topics**  
 
@@ -46,5 +46,5 @@ Each table rotation has a schedule, according to which new data is written to on
 
 [Apply table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ApplyTableRotation.md)
 
-[Rotate event tables and alert table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
+[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/grandfathered-and-exempt-tables-v2.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing custom tables and apps, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -22,11 +22,11 @@ Grandfathered custom tables can't be transferred, reused, or otherwise classifie
 
 To view your grandfathered tables, enter `ua_custom_table_inventory.list` in the filter navigator, and then add a filter with the condition **\[Allotment type\] \[is\] \[Grandfather\]**.
 
-If you have a combination of custom tables and grandfathered tables in one application, the grandfathered tables must be mapped to a grandfathered table subscription and the remaining custom tables to one other subscription. Reach out to Customer Service and Support for help mapping a grandfathered table to a grandfather table subscription.
+If you have a combination of custom and grandfathered tables in one application, the grandfathered tables must be mapped to a grandfathered table subscription. The remaining custom tables to one other subscription. Reach out to Customer Service and Support for help mapping a grandfathered table to a grandfather table subscription.
 
 ## Grandfathered tables on an instance
 
-Scenario: Your organization purchases three new subscriptions with entitlements for a total of 55 App Engine Starter custom tables \(formerly Bundled Custom Tables\). To ensure your organization doesn't lose the previous custom table entitlements, a grandfather subscription with an entitlement for 25 grandfathered tables is allotted to your instance. This subscription requires the admin to identify and map the existing 25 tables. These subscriptions result in a total custom table entitlement of 80. Once a custom table has been assigned to the grandfather subscription there is no option to revert this.
+Scenario: Your organization purchases three new subscriptions with entitlements for a total of 55 App Engine Starter custom tables \(formerly Bundled Custom Tables\). To ensure your organization doesn't lose the previous custom table entitlements, a grandfather subscription with an entitlement for 25 grandfathered tables is allotted to your instance. This subscription requires support to identify and map the existing 25 tables. These subscriptions result in a total custom table entitlement of 80. Once a custom table has been assigned to the grandfather subscription there is no option to revert this.
 
 |Subscription|Number of custom table entitlements|Number of mappable tables|
 |------------|-----------------------------------|-------------------------|
@@ -37,7 +37,7 @@ Scenario: Your organization purchases three new subscriptions with entitlements 
 
 ## Exempted tables
 
-Exempted tables are custom tables that do not count towards your subscription entitlements. These tables consist mostly of custom extensions of certain system-related tables, such as sys\_portal\_page and sys\_user\_preference, that you extend for operational improvements in your production instance.
+Exempted tables are custom tables that don't count toward your subscription entitlements. These tables consist mostly of custom extensions of certain system-related tables, such as sys\_portal\_page and sys\_user\_preference, that you extend for operational improvements in your production instance.
 
 To view a list of exempted tables, enter `ua_exempted_table_inventory.list` in the filter navigator.
 

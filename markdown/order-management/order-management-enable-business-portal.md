@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-management-enable-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Business Portal, Configure, Sales Customer Relationship Management]
+breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Enable the Business Portal
@@ -15,6 +15,8 @@ breadcrumb: [Configuring the Business Portal, Configure, Sales Customer Relation
 Admins can enable the Business Portal \(sn\_b2b\_portal\) so customers can browse products and create orders.
 
 ## Before you begin
+
+The application scope must be set to Business Portal. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
 Role required: admin
 
@@ -26,9 +28,9 @@ See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceN
 
 ## Procedure
 
-1.  In the CRM Workspace, select **All** &gt; **Portals**.
+1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals**.
 
-2.  Select **Business Portals**.
+2.  Select **Business Portal**.
 
 3.  Clear the **Inactive** box.
 
@@ -36,4 +38,15 @@ See [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceN
 
     The Business Portal is enabled.
 
+
+## What to do next
+
+Customize the Business Portal to match your organization's branding and user experience requirements. For more information, see [Setup the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customize-business-portals.md).
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-self-service-business-portal.md)
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
 

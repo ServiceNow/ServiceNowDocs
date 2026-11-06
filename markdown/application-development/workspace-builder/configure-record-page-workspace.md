@@ -1,24 +1,27 @@
 ---
-title: Configure a record page for a workspace in Workspace Builder
-description: Configure a record page for a workspace in App Engine Studio \(AES\). Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
+title: Add a record page for a workspace in Workspace Builder
+description: Configure a record page for a workspace in Workspace Builder. Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/workspace-builder/configure-record-page-workspace.html
 release: yokohama
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Add a workspace, Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
-# Configure a record page for a workspace in Workspace Builder
+# Add a record page for a workspace in Workspace Builder
 
-Configure a record page for a workspace in App Engine Studio \(AES\). Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
+Configure a record page for a workspace in Workspace Builder. Use containers and components to guide a user through an experience. Each record page is linked to only one data table.
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required:
+
+-   admin or Guided Application Creator for ServiceNow Studio.
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -32,19 +35,11 @@ If you don't see the record page for a table you configured for the workspace, s
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **App Engine** &gt; **App Engine Studio**.
+1.  Navigate to Workspace Builder.
 
-2.  From the My Apps page, open your application.
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
-3.  Next to the workspace you created, select the additional actions icon \(\[Omitted image "additional-actions-icon-purple.png"\] Alt text: Additional actions icon\) and then select **Edit**.
-
-    You can also select the bar that lists the workspace in the Experience section of your app.
-
-    \[Omitted image "wb-edit-worspace-experience-purple.png"\] Alt text: Select to edit a workspace
-
-    The workspace appears in Workspace Builder.
-
-4.  Create a record page.
+2.  Create a record page.
 
     AES automatically generates record pages for the tables that you selected when you created the workspace.
 
@@ -87,7 +82,7 @@ You can select from two sections: Tables that are already available in your app,
 
     The page appears in the preview panel. You can select the page from the **Record pages** menu.
 
-5.  Edit the record details for the record page.
+3.  Edit the record details for the record page.
 
     1.  In the navigation panel, select **Record details**.
 
@@ -124,7 +119,7 @@ Activity stream
 Option to enable the Activity stream for the record page. The Activity stream enables your workspace users to communicate with requesters and make internal notes about the work done on a record. For more information on the Activity stream, see [Activity streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_activity-streams.md).
 
 </td></tr></tbody>
-</table>6.  Configure the related information in the Related information section of the configuration panel for the record page.
+</table>4.  Configure the related information in the Related information section of the configuration panel for the record page.
 
     Related information includes tables that are related to the record, which appear as tabs, such as Child Incidents. For more information on configuring related information, see [Related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_RelatedLists.md).
 
@@ -146,9 +141,7 @@ Option to enable the Activity stream for the record page. The Activity stream en
 
     Each related information component has an information icon \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) that, when selected, displays its related table.
 
-7.  Provide fulfillers with visibility into cross-business workflows and the actionable tasks used to complete these workflows by specifying the playbook.
-
-    For more information on playbooks, see [About Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-ui.md).
+5.  Provide fulfillers with visibility into cross-business workflows and the actionable tasks used to complete these workflows by specifying the playbook.
 
     **Note:** You must have the Playbook Experience plugin installed.If you used a template to create the app, you can't add a playbook to the record page. For details on how to add a playbook for workspaces created from templates, see [this knowledgebase article](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=13fd98de1bfd6510a4de35df034bcbce).
 
@@ -189,9 +182,9 @@ Existing playbook to add to the record.**Note:** You can choose only from the pl
 
     5.  Delete a playbook from the workspace by selecting its delete icon \(\[Omitted image "wb-delete-icon-2.png"\] Alt text: Icon to delete a playbook from a workspace\) and selecting **Delete** on the confirmation dialog.
 
-8.  Configure the contextual side panel for the record page, which contains the icons for the tools that appear on the right side of the page.
+6.  Configure the contextual side panel for the record page, which contains the icons for the tools that appear on the right side of the page.
 
-    The contextual side panel contains icons that enable agents to research and resolve issues using various ServiceNow AI Platform tools. If your organization created any custom right tab components in UI Builder, you can add them as well. For more information, see [Tabs sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/contextual-sidebar-configurable-workspace.md).
+    The contextual side panel contains icons that enable agents to research and resolve issues using various ServiceNow AI Platform tools. If your organization created any custom right tab components in UI Builder, you can add them as well..
 
     **Note:** If you used a template to create the app, you can't add a contextual side panel to the record page.
 
@@ -243,22 +236,6 @@ Display active Service License Agreements \(SLAs\) for the case, including time 
 
 </td></tr><tr><td>
 
-Agent assist
-
-</td><td>
-
-Component
-
-</td><td>
-
-Display automatic search results that show possible solutions for records that agents open.
-
-</td><td>
-
-[Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist-configurable-workspace.md)
-
-</td></tr><tr><td>
-
 Attachment
 
 </td><td>
@@ -271,7 +248,7 @@ Add attachments to the record, such as images and PDFs.
 
 </td><td>
 
-
+[Attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/attachments.md)
 
 </td></tr><tr><td>
 
@@ -321,22 +298,6 @@ Display the contextual side panel ribbon, which contains tools to help agents re
 
 [Viewing ribbon information in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-playbooks-viewing-ribbon-info.md)
 
-</td></tr><tr><td>
-
-Template
-
-</td><td>
-
-Component
-
-</td><td>
-
-Display templates that help reduce the time agents spend responding to requesters by automatically filling in record fields.
-
-</td><td>
-
-[Form templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/form-templates-configurable-workspace.md)
-
 </td></tr></tbody>
 </table>        The selected tools appear in the record page preview canvas.
 
@@ -348,9 +309,9 @@ Display templates that help reduce the time agents spend responding to requester
 
     Workspace Builder automatically saves the changes to the contextual side panel.
 
-9.  Complete any additional changes and configurations.
+7.  Complete any additional changes and configurations.
 
-<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d245993e973">
+<table id="choicetable_f3l_vjr_dvb"><tbody><tr><td id="d200642e921">
 
 **Update the name of the record page**
 
@@ -367,7 +328,7 @@ A preview of the record page appears.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d245993e1008">
+</td></tr><tr><td id="d200642e956">
 
 **Preview the record page in a new browser tab**
 
@@ -375,7 +336,7 @@ A preview of the record page appears.
 
 Select **Preview** in the Workspace Builder header.The record page appears in the workspace. If no data exists for the table, AES displays a page where you can add data to the table.
 
-</td></tr><tr><td id="d245993e1029">
+</td></tr><tr><td id="d200642e977">
 
 **Delete a record page**
 
@@ -389,5 +350,3 @@ Select **Preview** in the Workspace Builder header.The record page appears in th
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
-

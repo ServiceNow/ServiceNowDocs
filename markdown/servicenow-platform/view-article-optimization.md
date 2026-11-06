@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/view-article-optimization.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---

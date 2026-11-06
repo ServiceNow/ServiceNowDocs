@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Firewall Audits and Reporting reference, Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Reference, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall Audits and Reporting calibration

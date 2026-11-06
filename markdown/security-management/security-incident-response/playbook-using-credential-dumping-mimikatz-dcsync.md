@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for T1003 - Credential Dumping - Mimikatz DCSync, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -37,8 +37,6 @@ Role required:
 
 5.  In Action 5, if the server/endpoint/VM wasn’t used for credential dumping, perform the following actions:
 
-    \[Omitted image "playbook-mimikatz-dcsync-overview.png"\] Alt text: Response task to check whether the server/endpoint/VM was used for credential dumping.
-
     1.  In Action 6, update the alert query if necessary.
 
     2.  In Action 7, update the allow list if necessary.
@@ -50,8 +48,6 @@ Role required:
         In Action 10, the flow ends.
 
 6.  If the server/endpoint/VM was used for credential dumping, then in Action 11, reach out the user.
-
-    \[Omitted image "playbook-mimikatz-dcsync-investigate.png"\] Alt text: Response tasks when the server/endpoint/VM was used for credential dumping
 
 7.  In Action 12, reach out to the user to validate the business justification.
 

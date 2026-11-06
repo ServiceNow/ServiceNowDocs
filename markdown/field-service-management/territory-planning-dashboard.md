@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/territory-planning-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics and reporting for Field Service Management, Field Service Management]
+breadcrumb: [Analytics and reporting, Field Service Management]
 ---
 
 # Field Service Territory Performance Analytics dashboard

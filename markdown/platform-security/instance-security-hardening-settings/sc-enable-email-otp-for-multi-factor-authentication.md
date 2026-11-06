@@ -1,5 +1,5 @@
 ---
-title: Enable email OTP for multi-factor authentication
+title: Disable email OTP for multi-factor authentication
 description: Manage how two-factor authentication is applied on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-email-otp-for-multi-factor-authentication.html
@@ -7,16 +7,24 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Enable email OTP for multi-factor authentication
+# Disable email OTP for multi-factor authentication
 
 Manage how two-factor authentication is applied on your instance.
 
-Use the **glide.authenticate.multifactor.email.otp.enabled** property to control whether a token for two-factor authentication is sent using email. Email is considered a weak MFA factor which an attacker is more likely to gain access into for bypassing MFA. By setting this property to **false**, the risk of an attacker bypassing MFA when they compromised a user's password is reduced.
+The **glide.authenticate.multifactor.email.otp.enabled** property controls whether a token for the second authentication factor can be sent via email. Email is considered a weak multi-factor authentication \(MFA\) factor which an attacker is more likely to gain access into for defeating MFA.
+
+If the property is set to **false**, the user doesn't see the email OTP option on the MFA validation screen.
+
+If the property is **true**:
+
+-   The email factor is shown in cases where the email factor policy is inactive and no other 2fa registered.
+-   The email factor is shown if the email factor policy is active and evaluated to **true**.
+-   The email factor is not shown if the email factor policy is active and evaluated to **false**.
 
 ## More information
 
@@ -50,7 +58,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -84,7 +92,15 @@ Security risk
 
 -   Severity score: 3.1
 -   CVSS score: Low
--   Security risk details: Setting this property to **false** reduces the risk of a bad actor bypassing two-factor authentication.
+-   Security risk details: An attacker may successfully bypass MFA when they have the user's password.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+Users who rely solely on the email one time passcode as their multi-factor authentication method will no longer see that option on the MFA validation screen. They must enroll an alternative factor such as an authenticator app, a hardware security key, or SMS before this property is turned off, otherwise they may be unable to complete login until an administrator enrolls an alternative factor for them.
 
 </td></tr><tr><td>
 
@@ -100,7 +116,7 @@ References
 
 </td><td>
 
-[Multi-factor authentication with Email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-with-email.md)
+[Email as an MFA factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-with-email.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)

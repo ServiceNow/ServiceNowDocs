@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcls-redox-supported-dm.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Redox Inbound Integration reference, Redox Inbound Integration, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Reference, Redox Inbound Integration, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Supported data models and event types for Redox Inbound Integration

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/set-up-the-emission-factor-library.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -15,11 +15,11 @@ breadcrumb: [Configure, Operational Sustainability Management \(formerly Environ
 To calculate your emissions accurately, you must set up your emission factor library. The emission factor library consists of emission factors, emission activities, activity sources and factor locations.
 
 -   **[Create a new emission activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-an-emission-activity.md)**  
-Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the ESG content accelerator application.
+Create new emission activities to track the activity that leads to emissions if you do not want to use the standard emission activities provided through the Unified content management application.
 -   **[Import emission activities and map their locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/import-emission-activities-and-map-locations.md)**  
-Use the ESG content accelerator application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
+Use the Unified content management application to import the standard emission activities and add their locations. These emission factors identify which activities within your organization are producing specific amounts of pollution. The reason you must add locations to a factor is that an organization may have different locations and each location may have a different factor value for different periods.
 -   **[Create an emission factor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-an-emission-factor.md)**  
-Create your own custom emission factors if you don’t want to use the standard emission factors provided by the ESG content accelerator application. An emission factor is a representative value that relates the quantity of a pollutant released to the atmosphere with the activity associated with the release of that pollutant.
+Create your own custom emission factors if you don’t want to use the standard emission factors provided by the Unified content management application. An emission factor is a representative value that relates the quantity of a pollutant released to the atmosphere with the activity associated with the release of that pollutant.
 
 **Parent Topic:**[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configuring-esg.md)
 

@@ -1,41 +1,43 @@
 ---
-title: Close or cancel a success case
-description: You can close or cancel a success case and all the related tasks.
+title: Close or cancel a customer play
+description: You can close or cancel a customer play and all the related tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-cancel-success-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a success case playbook, Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Create a customer play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
-# Close or cancel a success case
+# Close or cancel a customer play
 
-You can close or cancel a success case and all the related tasks.
+You can close or cancel a customer play and all the related tasks.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and click the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Success Cases** and open the success case you want to cancel.
+2.  Navigate to the **Customer Success** &gt; **All Customer Plays** and open the customer play you want to cancel.
 
-3.  Click the **Record details** to view the success case form.
+3.  Select the **Record details** to view the customer play form.
 
 4.  Depending on your requirement, change the State to **Canceled** or **Closed**.
 
     The Closure code is automatically updated to reflect the State change.
 
-5.  Ensure that all the mandatory fields are filled out and click **Save**.
+5.  Confirm that all the required fields are filled out and select **Save**.
 
-6.  Click **Yes** in the confirmation window to continue.
+6.  Select **Yes** in the confirmation window to continue.
 
-    The success case along with all associated child success case tasks will be canceled or closed and the Progress is set to **Finished**.
+    The customer play along with all associated child customer play tasks will be canceled or closed and the Progress is set to **Canceled** or **Closed**.
 
-    **Note:** Before you close a success case, you must close or cancel all the associated child tasks. If an associated child task is still open, a warning message is displayed. You must first close or cancel the child tasks and then proceed with closing the success case.
+    **Note:** Before you close a customer play, you must close or cancel all the associated child tasks. If an associated child task is still open, a warning message is displayed. You must first close or cancel the child tasks and then proceed with closing the customer play.
 
+
+**Parent Topic:**[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
 

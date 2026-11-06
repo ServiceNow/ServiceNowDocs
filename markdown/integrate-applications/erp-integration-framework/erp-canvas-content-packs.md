@@ -1,0 +1,51 @@
+---
+title: Accelerating SAP integrations with Zero Copy Connector for ERP content packs
+description: Zero Copy Connector for ERP content packs provide predefined SAP models and process extensions that you can copy and customize, so that you can build SAP integrations without deep SAP expertise.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/erp-canvas-content-packs.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: concept
+last_updated: "2026-10-22"
+reading_time_minutes: 2
+keywords: [content pack, sap, zero copy connector for erp, erp content pack, process extension, predefined sap model, copy content pack model, install content pack, servicenow store]
+breadcrumb: [Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Accelerating SAP integrations with Zero Copy Connector for ERP content packs
+
+Zero Copy Connector for ERP content packs provide predefined SAP models and process extensions that you can copy and customize, so that you can build SAP integrations without deep SAP expertise.
+
+## Content packs
+
+**Note:** Currently, content packs work only with SAP systems.
+
+Zero Copy Connector for ERP \(Enterprise Resource Planning\) content packs are sets of predefined models and process extensions that are useful examples for developers with little or no SAP domain knowledge. For example, you're integrating a ServiceNow application with SAP, but it's taking a long time because of the complexity of the SAP data. Content packs accelerate the work so that building use cases involving SAP data becomes a faster process that more developers can accomplish.
+
+After installing a content pack, the models it contains appear on the Zero Copy Connector for ERP models page with a prefix of **CP**. The process extensions in the content pack appear on the **Subflows** tab in Workflow Studio with a prefix of **ERP CP**.
+
+Content pack models and process extensions are examples. Use them as accelerators that can be tailored to your requirements. You can view the models and process extensions, but you can't edit them. If you see a model similar to the integration you're trying to create, copy the model, give it a unique name, and edit it as needed. If you find a process extension to use, copy, rename, and edit the models it contains as needed.
+
+## Process extensions
+
+Process extensions are subflows that can use one or more models. Process extensions enable you to use a model without needing to understand the model details. The process extensions are another abstraction layer on top of the models inside the content pack to make the models easier to use.
+
+Process extensions in a content pack are read-only examples. To use a process extension, make a copy and edit it within Workflow Studio. For the steps to copy a process extension and add cloned models, see [Using Zero Copy Connector for ERP process extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-canvas-using-process-extensions.md).
+
+\[Omitted image "erpc-process-extensions-list-ws.png"\] Alt text: Workflow Studio subflows list showing content pack process extensions.
+
+As an example for how to use process extensions, consider a scenario where there is a model for reading a sales order. You want to determine the sales orders that are blocked, but you don't know the SAP field that indicates whether an order is blocked. Instead of researching to get the field name or asking the SAP experts in your organization, use the process extension named **ERP CP: Read Blocked Sales Orders** to do the work. A process extension can filter or add data when reading, using the model to find exactly what you are looking for based on the process extension description. So, in this example, instead of reading all sales orders, the process extension finds only the blocked sales orders.
+
+## Content pack prerequisites
+
+You must have:
+
+-   Zero Copy Connector for ERP installed
+-   A linked SAP system from which to pull data
+-   The sn\_erp\_integration.erp\_admin role
+
+## Installation from the ServiceNow Store
+
+For detailed information about buying and installing Zero Copy Connector for ERP content packs, see the [ServiceNow Store Help](https://store.servicenow.com/$appstore.do#!/store/helpcenter) page.
+

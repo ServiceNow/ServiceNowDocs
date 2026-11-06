@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-action-status-csm-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case action status
@@ -95,9 +95,9 @@ When a blocking task is resolved:
 
 Agents can receive notifications on their preferred channel when a blocking task for an assigned case is resolved. Agents can also receive notifications when the **Needs Attention** field for an assigned case is enabled.
 
-**Note:** Notifications are not sent to the user who updated the record.
+**Note:** Notifications aren't sent to the user who updated the record.
 
-Users with the admin role can configure notification triggers by navigating to **Agent Workspace** &gt; **Notification Triggers** &gt; **Case Action Status Trigger**.
+Users with the admin role can configure notification triggers by navigating to **Workspace Experience** &gt; **Administration** &gt; **Notification Triggers** and selecting **Case Action Status** from the list.
 
 **Related topics**  
 

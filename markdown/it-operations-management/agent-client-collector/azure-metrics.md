@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [ACC-M default checks and policies, Agent Client Collector Monitoring reference, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M default checks and policies, ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Azure metrics
@@ -47,6 +47,14 @@ cluster\_autoscaler\_scale\_down\_in\_cooldown
 </td><td>
 
 Determines if the scale down is in cooldown; no nodes are removed during this timeframe.
+
+</td></tr><tr><td>
+
+cluster\_autoscaler\_unneeded\_nodes\_count
+
+</td><td>
+
+Number of nodes that are currently not needed and can be removed by the autoscaler.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset bundles
@@ -39,7 +39,9 @@ You can retire an asset bundle and release all the assets belonging to the bundl
 
 Assets belonging to a bundle are excluded from sourcing, transfer orders, and disposal orders flows.
 
+**Important:** Asset reclamation supports hardware and consumable assets. Asset bundles and pallets aren't supported by default and require customization of the reclamation flow and request to handle these asset classes.
+
 For more information on creating asset bundles, see [Manage asset bundles from your inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/create-bundled-assets.md).
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 

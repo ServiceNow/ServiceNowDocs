@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response Orchestration workflows and activities, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,8 +35,6 @@ Workflow activities include:
 -   [Get Running Services - WMI Enrichment activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/get-running-services-via-pwrshell-activity.md)
 -   [Create Enrichment Data records Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-enrich-data-records.md)
 
-\[Omitted image "get-running-services-workflow.png"\] Alt text: Security Incident Response - Get Running Services workflow diagram
-
 ## Procedure
 
 1.  Open a security incident.
@@ -45,7 +43,7 @@ Workflow activities include:
 
 3.  Add a Windows-based configuration item \(server, laptop, or similar\).
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     Security Incident Response provides running services information in the **Related Links** &gt; **Security Incident Enrichments**tab. For more information, see [Security Operations enrichment data mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/enrichment-data-mapping.md).
 
@@ -62,7 +60,7 @@ The **Security Incident Response - Get Running Services** workflow gathers runni
 
 [Create Lookup Request for IoC Changes workflow]()
 
-[Security Incident Response- Get Network Statistics Flow]()
+[Security Incident Response- Get Network Statistics flow]()
 
 [Run procdump flow]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/port-browse-taxo-widget-inst-options.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configurable Portal widgets instance options, Customer Service Management reference, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
 # Portal Browse Taxonomy widget instance options form
@@ -114,6 +114,14 @@ Display icon for topics
 </td><td>
 
 Option to display an icon for the taxonomy topics.
+
+</td></tr><tr><td>
+
+Catalog Order Guide Page
+
+</td><td>
+
+The Catalog Order Guide page that opens when the catalog order guide is accessed. For details, see [Order guides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ServiceCatalogOrderGuides.md)By default, this field is set to the Order guide \[sc\_cat\_item\_guide\] table.
 
 </td></tr></tbody>
 </table>**Related topics**  

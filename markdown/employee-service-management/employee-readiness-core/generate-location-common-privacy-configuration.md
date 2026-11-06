@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up privacy consent settings, Maintaining privacy consent in Employee Readiness Core, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -36,15 +36,15 @@ You can generate a location-based, default privacy configuration for each countr
 
 4.  Configure the privacy consent text if necessary.
 
-<table id="choicetable_kwk_52b_ynb"><thead><tr><th align="left" id="d501055e99">
+<table id="choicetable_kwk_52b_ynb"><thead><tr><th align="left" id="d541672e99">
 
 Privacy consent status
 
-</th><th align="left" id="d501055e102">
+</th><th align="left" id="d541672e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d501055e108">
+</th></tr></thead><tbody><tr><td id="d541672e108">
 
 **Consent is not required for the location**
 
@@ -52,7 +52,7 @@ Action
 
 Clear the **Needs privacy consent** check box.
 
-</td></tr><tr><td id="d501055e120">
+</td></tr><tr><td id="d541672e120">
 
 **Consent is required for the location**
 

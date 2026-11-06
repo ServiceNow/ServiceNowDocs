@@ -1,0 +1,94 @@
+---
+title: Review scores for an AI system
+description: Determine whether a specific AI system is meeting quality and safety targets by reviewing its scores, identifying which metrics are affecting performance, and checking for regressions over time.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/mon-ai-review-ai-system-scores.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Monitoring an AI system, Working with AI asset records, Discover and manage AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+---
+
+# Review scores for an AI system
+
+Determine whether a specific AI system is meeting quality and safety targets by reviewing its scores, identifying which metrics are affecting performance, and checking for regressions over time.
+
+## Before you begin
+
+Role required: sn\_ai\_asset\_mgmt.ai\_asset\_owner or sn\_ai\_governance.ai\_steward
+
+## About this task
+
+When a specific AI system needs attention, determine which metrics are affecting its scores and whether performance is trending in the right direction. Review the **Monitor** tab on the AI system asset record after spotting a low-scoring system on the monitoring overview, receiving an AI-generated insight about a specific system, or being assigned a task related to an underperforming asset.
+
+## Procedure
+
+1.  Navigate to the **Monitor** tab for the AI system that you want to review in one of the following ways:
+
+    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Inventory**. Select the AI system asset and then select the **Monitor** tab.
+    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** and select a system name in the **AI systems ranked by score** widget.
+    -   Navigate to **All** &gt; **AI Control Tower** &gt; **Home** &gt; **Insights** &gt; **Monitor** &gt; **Evaluated sessions** and select the AI system name in the **AI system** column.
+2.  Set the date range for the data you want to review.
+
+    Select the date range picker and choose a time period. The default is **Last 30 days**. Select **Custom range** to specify an exact start and end date, up to 18 months apart.
+
+    All score cards, trends, and session data on the page update to reflect the selected range.
+
+3.  Assess overall quality performance by reviewing the **Average overall Quality score** card.
+
+    For example, if the quality score is 88%, the data sources table might show that Task completion \(weight 40%\) scored 88% while Answer completeness \(weight 35%\) scored 86%. A low score on a heavily weighted metric has a larger impact on the composite.
+
+4.  Assess overall safety performance by reviewing the **Average overall Safety score** card.
+
+    For example, if the Instruction adherence score is lower than Secrets detection or Sexism detection, the agent may be handling sensitive data and language correctly but still straying from its approved response guidance. Reviewing the traces where Instruction adherence dipped lowest will show which specific exchanges the judge flagged and why.
+
+5.  Confirm which metrics are scoring this AI system by reviewing the **Metrics evaluated** card.
+
+    This card lists every metric currently scoring this AI system, whether the metric comes from your organization's global metric configuration or was added specifically for this system. To change which metrics are evaluated, see [Configure metrics evaluated for an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/mon-ai-configure-ai-system-metrics.md).
+
+6.  View the full scoring formula by selecting the side panel icon on a score card.
+
+    1.  View a stacked bar visualization of how each metric contributes to the composite score in the **How is this score calculated?** section.
+
+    2.  Learn how the average score is derived and how different scoring formats affect the calculation in the **Nuances to consider** section.
+
+7.  Assess the AI system's operational performance by reviewing its performance cards, such as latency and token usage.
+
+    1.  Determine whether recent agent activity or another change is affecting response times by reviewing the **Avg latency per session** card.
+
+    2.  Estimate the cost of running this AI system by reviewing the **Avg tokens per sessions** card.
+
+    3.  Understand how much the AI system relies on external tools by reviewing the **Avg tool call per trace** card.
+
+    Each card shows its change from the prior period. For the **Avg latency per session** card, select the expand icon to open a chart of total latency by day, summed across all sessions evaluated that day.
+
+8.  Check performance over time by reviewing the **Monitor agent activity** trend chart.
+
+    |Option|Description|
+    |------|-----------|
+    |**__Lowest performing metrics__**|View the top five metrics with the largest decline in quality and safety over time.|
+    |**Highest performing metrics**|View the top five metrics with the largest increase in quality and safety over time.|
+    |**Quality metrics**|View the performance of quality metrics over time.|
+    |**Safety metrics**|View the performance of safety metrics over time.|
+    |**All metrics**|View the performance of all metrics over time.|
+    |**Select a specific metric**|View the performance for a specific metric by selecting it from the list.|
+
+    Solid lines represent metrics that contribute to this AI system's overall quality or safety score. Dotted lines represent metrics that are collected but don't contribute to those scores. You can point to a data point on the chart to see the exact score for that date.
+
+    For example, a gradual decline in Task completion from 90% to 72% over three weeks indicates a quality regression for this AI system that warrants session-level investigation.
+
+    To add a dotted-line metric to your scoring formula, see [Configure an evaluation metric template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/mon-ai-configure-metric-templates.md).
+
+9.  Identify sessions that need investigation by reviewing the **Recent evaluated sessions** table.
+
+    1.  Sort sessions by **Quality score** or **Safety score** to surface the lowest-scoring sessions.
+
+    2.  Select a session name to open the session detail page and begin investigating its traces and spans.
+
+    For example, a session with a red safety score \(below 50%\) warrants immediate investigation. For details on investigating sessions, see [Investigate a low-scoring session](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/mon-ai-investigate-session-task.md).
+
+
+**Parent Topic:**[Monitoring an AI system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/mon-ai-asset-monitor.md)
+

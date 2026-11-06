@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Use these minimum system requirements to allocate resources for computers hostin
 Upgrade MID Servers manually, or automatically through the instance. MID Server automatic upgrade is triggered when the instance upgrades and the MID Server no longer has the same version. The new MID Server package is downloaded from install.service-now.com, replaces the old one, and the MID Server starts with the new version.
 -   **[Resolving MID Server issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/r_MIDServerTroubleshooting.md)**  
 Troubleshoot problems with the MID Server to find solutions. Monitor the MID Server to receive alerts about issues as they occur. Troubleshooting procedures exist to resolve specific problems with the MID Server. The Knowledge Base on Hi contains several articles to help you troubleshoot MID Server issues.
--   **[MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/c_MIDServerDashboard.md)**  
+-   **[MID Server dashboard]()**  
 The MID Server dashboard is a central place for MID Server users to monitor ongoing operations. The dashboard consists of reports and gauges that display information from the MID Server Status table.
 -   **[MID Server properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/r_MIDServerProperties.md)**  
 Properties control the behavior of all MID Servers or a particular MID Server.
@@ -39,7 +39,7 @@ To discover certain information on a host server, the MID Server must run SSH co
 -   **[MIDSystem methods](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/r_MIDSystemMethods.md)**  
 MIDSystem variables \(referred to by the variable name ms.\) provide a variety of methods to get information about the MID Server.
 -   **[Manually start, stop, and restart a MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/t_InstallMIDServerAsWinService.md)**  
-If you did not start the MID Server at the end of the installation procedure, you can manually start the MID Server.
+Start, stop, or restart a MID Server manually when needed.
 -   **[MID Server heartbeat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/r_MIDServerHeartbeat.md)**  
 The instance checks the MID Server for a response every 5 minutes, using a synthetic transaction monitoring system.
 -   **[Set the MID Server JVM memory size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/t_MIDServerOptionalConfiguration.md)**  

@@ -7,7 +7,7 @@ release: yokohama
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Testing using Test Management 2.0, Test Management 2.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_test\_management.tester or sn\_test\_management.test\_manager
 
 1.  Create a test using either of the following options.
 
-<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d244886e61">
+<table id="choicetable_fmy_53j_5cb"><thead><tr><th align="left" id="d313845e61">
 
 Option
 
-</th><th align="left" id="d244886e64">
+</th><th align="left" id="d313845e64">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d244886e70">
+</th></tr></thead><tbody><tr><td id="d313845e70">
 
 **From Test Management 2.0**
 
@@ -42,7 +42,7 @@ Description
 2.  To create a test, click **New**.
 
 
-</td></tr><tr><td id="d244886e100">
+</td></tr><tr><td id="d313845e100">
 
 **From Agile Development 2.0**
 

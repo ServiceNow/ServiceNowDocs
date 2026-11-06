@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Activity executions
@@ -46,6 +46,4 @@ Activity execution states indicate the status of an activity in a triggered play
 |Skipped|The playbook triggered, but a user chose to skip this activity execution and move on to the next activity. Also, if the activity contains a condition that evaluates to false, the system skips the activity.|
 |Error|The playbook triggered, but an error with the activity's automation plan or activity experience occurred. Errors can occur when the underlying action or subflow in the activity's automation plan fails to run.|
 |Cancelled|A user with the admin, flow\_designer, or action\_designer role explicitly canceled the underlying action or subflow in the activity's automation plan.|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

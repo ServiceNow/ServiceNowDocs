@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create checklist items for a project task
@@ -24,17 +24,19 @@ Role required: it\_project\_user, it\_project\_manager
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Navigate to a project task.
 
-3.  From the Planning page, select **Add items** in the **Checklist** section and enter a name for the item.
+3.  Select project tasks and then select the checklist icon \(\[Omitted image "task-checklist-icon.png"\] Alt text: checklist-icon.\) from the side panel to add checklist items.
 
-    You can also add checklist items from Details page. Select project tasks and then select the checklist icon \(\[Omitted image "task-checklist-icon.png"\] Alt text: checklist-icon.\) from the side panel to add checklist items. You can add, edit, organize, or remove checklist items as needed.
+    You can add, edit, organize, or remove checklist items as needed.
 
-4.  Select **Save** to save the checklist items.
+4.  Create a checklist item by entering the checklist name and press enter.
 
-    To edit a checklist item for a task, select **Edit** in the checklist section. This option appears when there is at least one checklist in the **Checklist** section. To remove a checklist from the project task, select the **Edit** and select remove item icon \(\[Omitted image "remove-checklist-item-icon.png"\] Alt text: remove-icon.\).
+5.  Select **Save** to save the checklist items.
+
+    To edit a checklist item for a task, select edit item icon \(\[Omitted image "icon-edit-item-checklist.png"\] Alt text: edit-item-checklist-icon.\) in the checklist section. This option appears when there is at least one checklist in the Checklist side panel. To remove a checklist from the project task, select remove item icon \(\[Omitted image "remove-checklist-item-icon.png"\] Alt text: remove-icon.\).
 
 
 **Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)

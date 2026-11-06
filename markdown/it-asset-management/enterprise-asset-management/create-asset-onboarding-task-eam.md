@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an asset onboarding process
@@ -18,7 +18,7 @@ Create an asset onboarding process to walk you through the process of entering i
 
 ## Before you begin
 
-The asset onboarding process is a playbook experience that provides an interactive user interface to complete a process. The asset onboarding process is triggered after an onboarding task is created. An onboarding task can be automatically created from the asset request flow or manually created from an asset record. For an overview of the asset onboarding playbook, see [Playbooks for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/asset-onboarding-eam.md).
+The asset onboarding process is a playbook experience that provides an interactive user interface to complete a process. The asset onboarding process is triggered after an onboarding task is created. An onboarding task can be automatically created from the asset request flow or manually created from an asset record.
 
 Onboarding is available only for preassembled and simple assets. Also, only the parent preassembled asset can be onboarded; not the child preassembled assets.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2026-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Dell Remote Assistant Card discovery

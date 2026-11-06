@@ -7,10 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Contract requests, Related list, Uptake steps for CM Pro, BU configuration]
-breadcrumb: [Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add amendment tabs to contract repository record
@@ -67,19 +67,21 @@ For more information on contract amendment, see [Contract amendments](https://ra
 
 [Add a workspace action button for initiating a contract request]()
 
-[Add Contract requests tab to your workspace]()
+[Add Contract requests tab to the contract request record]()
 
-[Display contract documents in a contract repository record]()
+[Add Contract documents tab to the contract repository record]()
 
 [Copy fields from parent request to contract request]()
 
-[Group contract documents by contract type in the contract request form]()
+[Group contract documents by contract type in a contract request]()
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
-[Provide permissions to configure default contract document information]()
+[Assign a role for configuring template mappings]()
 
-[Provide access to contract request fields in condition builders]()
+[Enable contract request fields in condition builders]()
+
+[Configuring the Playbook tab on contract repository records]()
 

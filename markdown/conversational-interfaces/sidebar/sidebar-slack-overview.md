@@ -7,7 +7,7 @@ release: yokohama
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
@@ -57,6 +57,8 @@ After Sidebar and Slack are integrated, you can send these types of messages bet
 -   Messages with URLs
 -   Messages with attachments
 -   Messages with links to ServiceNow records
+
+Replies made to messages in Slack are displayed as replies to the corresponding message\(s\) in Sidebar.
 
 ## Removing users from a discussion
 

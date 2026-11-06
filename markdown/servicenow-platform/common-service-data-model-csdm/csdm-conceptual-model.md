@@ -1,73 +1,87 @@
 ---
-title: Common Service Data Model — conceptual model
-description: The CSDM is the data framework that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform products, apps, and features.
+title: CSDM data domains
+description: The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Common Service Data Model — conceptual model
+# CSDM data domains
 
-The CSDM is the data framework that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB ensure that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform products, apps, and features.
+The CSDM is the data model that admins should follow when they set up ServiceNow products and applications. The standards for defining configuration items \(CIs\) and relationships between CIs in the CMDB help to promote that your data resides in the appropriate CMDB tables. The result is maximum value from ServiceNow AI Platform applications.
 
-## CSDM domains
+## CSDM data domains
 
-Each domain is associated with one or more products, services, or service types, each of which you can extend as needed. Every box in the diagram \(except Request Catalog Item\) represents CIs in the CMDB. Roles and user types appear next to their area of responsibility.
+As described in [Exploring the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md), each domain is associated with one or more products, services, or service types, each of which you can extend as needed. Every box in the diagram \(except Catalog Item\) represents tables that hold CIs in the CMDB. Each connecting line represents a relationship between CI classes. Roles and user types appear next to their area of responsibility.
 
-\[Omitted image "csdm-model-40.png"\] Alt text: CSDM conceptual model.
+\[Omitted image "csdm-model-v5.png"\] Alt text: CSDM conceptual model.
 
-\[Omitted image "csdm-high-level-domain-desc.png"\] Alt text: CSDM domains with standard color-coding as described in the following list.
+\[Omitted image "csdm-high-level-domain-desc-v5.png"\] Alt text: CSDM domains with standard color-coding as described in the following list.
 
 -   **Foundation domain**
 
-    The Foundation domain involves tables that contain base data that is referenced from or to objects in the other CSDM domains. Foundation data is required before you can use ServiceNow products or add data to the CMDB. See [Foundation domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md)
+    Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data. For more information, see [Foundation domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md)
 
--   **Design domain**
+-   **Ideation &amp; Strategy domain**
 
-    The Design domain supports the design and planning of digital products. CIs in the Design domain aren’t operational, so you can’t select them for Incident Management, Problem Management, or Change Management. Enterprise architects and application owners are the typical users of tables in this domain. See [Design domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md).
+    The Ideation &amp; Strategy domain represents the ideas, concepts, and considerations for both the creation of new or additional services as well as improvements and enhancements to existing services. These capabilities are part of Strategic Portfolio Management \(SPM\). For more information, see [Ideation &amp; Strategy domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/ideation-strategy-domain.md).
 
--   **Build domain**
+-   **Design &amp; Planning domain**
 
-    The Build domain involves the tables that are used in the build effort \(systems development life cycle — SDLC or Agile Development\) of digital products like DevOps. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by the business. These are not operational CIs. See [Build domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/build-domain.md).
+    Enterprise architects and digital product owners work on the design and planning of digital products that your organization can either buy or build. For more information, see [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
--   **Manage Technology Management Services domain**
+-   **Build &amp; Integration domain**
 
-    The Manage Technology Management Services domain involves the tables used by IT Operations Management \(ITOM\) products such as Service Mapping and Discovery. These are deployed instances of digital products and their related and discoverable components and documentation of the services that provide and support the deployed instances. See [Manage Technology Management Services domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
+    Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — Agile development\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs. For more information, see [Build &amp; Integration domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/build-domain.md).
 
--   **Sell / Consume domain**
+-   **Service Delivery domain**
 
-    The Sell/Consume domain involves the tables used by Service Portfolio Management \(Service Portfolio Management\) and Customer Service Management \(CSM\). This is the portfolio and request catalog of business service offerings that depend on the deployed digital products. See [Sell/Consume domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md).
+    The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations. For more information, see [Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
+
+-   **Service Consumption domain**
+
+    Internal or external consumers can request business services through the request catalogs in the Service Consumption domain. The business service offerings in the request catalogs are the deployed digital products in the Service Delivery domain. Business relationship managers and customer service managers might sell or even consume elements of the Service Delivery domain. For more information, see [Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md).
 
 -   **Manage Portfolio domain**
 
-    The Manage Portfolio domain is a layer on top of the CSDM conceptual model that interacts with the other CSDM domains. The typical user, a service owner, might be responsible for services in more than one domain. See [Manage Portfolio domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
+    The Manage Portfolio domain is a layer on top of the CSDM conceptual model that interacts with the other CSDM domains. The typical user, a service owner, might be responsible for services in more than one domain. For more information, see [Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
 
 
 ## Services and service types
 
-A service enables you to achieve the outcomes that you want with minimal risks and without ownership of specific costs and risks. This definition is consistent with the base definition of service in ITIL v3 and IT4IT. Services typically have three components: the interaction, the offering, and the service system.
+A service enables you to achieve the outcomes that you want with minimal risks and without ownership of specific costs and risks. \(This definition is consistent with the base definition of “service” in ITIL v3 and IT4IT.\) Services typically have three components: the interaction, the offering, and the service system.
 
 The ServiceNow AI Platform includes the following base-system service types that you can extend to align with the service types in your organization.
 
--   **Service Instances \[cmdb\_ci\_service\_auto\] table \(formerly Application Service table\)**
+-   **Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\)**
 
-    A service instances is a logical representation of a deployed application stack. Because service instances are logical in nature, they should use the Logical life-cycle value pairs. Service instances follow the same life-cycle guidance as any other logical CI.
+    Technology management services are the systems associated with the admins of CIs in the Service Delivery domain. Service instance owners, Technology management service owners, and Technology service owners. Technology management services are typically lower-level leaf nodes of one or more business services or business service instances in a structured hierarchy.
+
+    -   Technology management services are operational CIs.
+    -   A Technology management service must be a one-level service and not a hierarchy of Technology management services.
+    -   Technology management services are used for impact in Incident Management, Problem Management, and Change Management. Also used for approvals for Change Management.
+    -   Technology management services must be provider-focused and include the technology provided for the business to consume or sell.
+    For more information, see [Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
+
+-   **Service Instances — Service Instance \(called application service before CSDM v5\) \[cmdb\_ci\_service\_auto\] table**
+
+    A service instance is a logical representation of a deployed application stack. Because service instances are logical in nature, they should use the Logical life-cycle value pairs. Service instances follow the same life-cycle guidance as any other logical CI.
 
     -   A service instance is an operational CI and a unique instance of an application.
     -   Used in Incident Management, Problem Management, and Change Management.
     -   Can be created for each region and each environment \(Development, QA, and Production\).
     -   Can be created via manual mapping, service mapping with entry point, and dynamic query.
-    For more information about leaf nodes and structured hierarchies, see [Design domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md).
+    For more information about leaf nodes and structured hierarchies, see [Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md).
 
-    You can monitor service instances \(formerly application services — renamed in CSDM v5\) on the Application Services dashboard. See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+    You can monitor service instances \(called application service before CSDM v5\) on the Application Services dashboard. For more information, see [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
--   **Business services \[cmdb\_ci\_service\_business\]**
+-   **Business services \(cmdb\_ci\_service\_business\)**
 
     A business service is a service type that is published to business users. A business service typically implements one or more business capabilities.
 
@@ -75,37 +89,29 @@ The ServiceNow AI Platform includes the following base-system service types that
 
     -   A business service is an operational CI.
     -   A business service must be a one-level service and not a hierarchy of business services.
-    -   A business service can be used for impact in Incident, Problem, and Change and for approvals for Change.
+    -   A business service can be used for impact in Incident Management, Problem Management, and Change Management and for approvals for Change.
     -   A business service must be focused on the consumer or seller.
-    See [Sell/Consume domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md).
-
--   **Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\)**
-
-    Technology management services are the systems associated with the admins of CIs in the Manage Technology Management Services domain: Service instance owners, Technology management service owners, and Technology service owners\). Technology management services are typically lower-level leaf nodes of one or more business services or service instances in a structured hierarchy.
-
-    -   Technology management services are operational CIs.
-    -   A technology management service must be a one-level service and not a hierarchy of technology management services.
-    -   Technology management services are used for impact in Incident Management, Problem Management, and Change Management. Also used for approvals for Change Management.
-    -   Technology management services must be provider-focused and include the technology provided for the business to consume or sell.
-    See [Manage Technology Management Services domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
+    For more information, see [Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md).
 
 
 ## CSDM videos in the ServiceNow Community
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
--   **[Foundation domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md)**  
-The Foundation domain involves tables that contain base data that is referenced from or to objects in the other CSDM domains. Foundation data is required before you can use ServiceNow products or add data to the CMDB.
--   **[Design domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md)**  
-The Design domain supports the design and planning of digital products. CIs in the Design domain aren’t operational, so you can’t select them for Incident Management, Problem Management, or Change Management. Enterprise architects and application owners are the typical users of tables in this domain.
--   **[Build domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/build-domain.md)**  
-The Build domain involves the tables that are used in the build effort \(systems development life cycle — SDLC or Agile Development\) of digital products like DevOps. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by the business. These are not operational CIs.
--   **[Manage Technology Management Services domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)**  
-The Manage Technology Management Services domain involves the tables used by IT Operations Management \(ITOM\) products such as Service Mapping and Discovery. These are deployed instances of digital products and their related and discoverable components and documentation of the services that provide and support the deployed instances.
--   **[Sell/Consume domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)**  
-The Sell and Consume domain represents the portfolio of business services that may sell or consume elements of the Manage Technology Management Services domain. The Sell/Consume domain involves the tables used by Service Portfolio Management \(Service Portfolio Management\) and Customer Service Management \(CSM\). This is the portfolio and request catalog of business service offerings that depend on the deployed digital products.
--   **[Manage Portfolio domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md)**  
+-   **[Foundation domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md)**  
+Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data.
+-   **[Ideation &amp; Strategy domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/ideation-strategy-domain.md)**  
+The Ideation &amp; Strategy domain represents the ideas, concepts, and considerations for both the creation of new or additional services as well as improvements and enhancements to existing services. These capabilities are part of Strategic Portfolio Management \(SPM\).
+-   **[Design &amp; Planning domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md)**  
+Enterprise architects and digital product owners work on the design and planning of digital products that your organization can either buy or build.
+-   **[Build &amp; Integration domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/build-domain.md)**  
+Development teams use the tables in the Build &amp; Integration domain during the build effort \(systems development life cycle — Agile development\) of digital products. The tables represent the logical development details of the enterprise applications \(digital products\) to be deployed and used by your organization. These are not operational CIs.
+-   **[Service Delivery domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)**  
+The Service Delivery domain represents the overall end-to-end service delivery system that includes the infrastructure, technologies, integration patterns \(infrastructure, systems, data, processes, dependency models\), service delivery networks, and operational models. Together, these items deliver the services that conform to CSDM to internal and external users and organizations.
+-   **[Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)**  
+Internal or external consumers can request business services through the request catalogs in the Service Consumption domain. The business service offerings in the request catalogs are the deployed digital products in the Service Delivery domain. Business relationship managers and customer service managers might sell or even consume elements of the Service Delivery domain.
+-   **[Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md)**  
 The Manage Portfolio domain is a layer on top of the CSDM conceptual model that interacts with the other CSDM domains. The typical user, a service owner, might be responsible for services in more than one domain.
 
-**Parent Topic:**[Exploring the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md)
+**Parent Topic:**[Exploring the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-exploring.md)
 

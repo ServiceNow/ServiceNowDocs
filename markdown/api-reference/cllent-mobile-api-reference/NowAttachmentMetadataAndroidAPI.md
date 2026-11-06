@@ -1,18 +1,18 @@
 ---
 title: NowAttachmentMetadata class - Android
-description: The NowAttachmentMetadata class provides functions that enable you to encode and manage attachment metadata.Class returned by NowAttachement class. This object is Parcelable.
+description: The NowAttachmentMetadata class provides functions that enable you to encode and manage attachment metadata.Class returned by NowAttachment class. This object is Parcelable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowAttachmentMetadataAndroidAPI.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowAttachmentMetadata class - Android
+# NowAttachmentMetadata class- Android
 
 The NowAttachmentMetadata class provides functions that enable you to encode and manage attachment metadata.
 
@@ -289,11 +289,11 @@ String
 Entity that updated the attachment.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowAttachmentMetadata - NowAttachmentMetadata\(sysId: String, fileName: String, mimeType: String, \_isCompressed: String, \_sizeInBytes: String, \_compressedSizeInBytes: String, \_chunkSizeInBytes: String, \_modificationCount: String, created: Date, createdBy: String, updated: Date, updatedBy: String, download: String?, hash: String, state: NowAttachmentMetadata.State, averageImageColor: String, \_imageWidth: String, \_imageHeight: String, sourceTableName: String, sourceSysId: String, tags: String\)
 
-Class returned by NowAttachement class. This object is Parcelable.
+Class returned by NowAttachment class. This object is Parcelable.
 
 <table id="table_fdd_ynv_wpb" class="parameters"><thead><tr><th>
 
@@ -571,8 +571,4 @@ List of tags associated with the attachment.
 </table>|Type|Description|
 |----|-----------|
 |sysId \(SysIdentifiable\)|Unique 32-character GUID of the associated metadata record.|
-
-```
-
-```
 

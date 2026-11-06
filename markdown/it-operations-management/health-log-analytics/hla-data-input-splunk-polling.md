@@ -1,21 +1,21 @@
 ---
-title: Configure Splunk Polling data inputs
-description: Configure a data input that periodically pulls log data from Splunk by using a query.
+title: Configure a Splunk Polling data input in Health Log Analytics manually
+description: Set up a data input that periodically pulls log data from Splunk by using a query.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-splunk-polling.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow, Health Log Analytics, HLA, Splunk, polling, query, data input, configuration]
-breadcrumb: [Configuring data inputs for Health Log Analytics manually, Set up data inputs for Health Log Analytics manually, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Manual data input configuration, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure Splunk Polling data inputs
+# Configure a Splunk Polling data input in Health Log Analytics manually
 
-Configure a data input that periodically pulls log data from Splunk by using a query.
+Set up a data input that periodically pulls log data from Splunk by using a query.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Configure a data input that periodically pulls log data from Splunk by using a q
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
--   Unless the MID Server and external clients are on the same network, the MID Server must have a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses are not routable over the internet. Without a public IP, external clients cannot connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
+-   Unless the MID Server and external clients are on the same network, verify that the MID Server has a public IP address. This is required when its IP is exposed through network address translation \(NAT\), a load balancer, or a similar device. The public IP address enables external clients, such as Filebeat agents located outside its network, to reach the MID Server. Private IP addresses aren't routable over the internet. Without a public IP, external clients can't connect to the MID Server even if they are configured with its address. In the MID Server properties, add a property named **mid.public\_ip** with the public IP address as the value. For more information, see [Create a MID Server property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerProperties.md). If the MID Server and external clients are on the same network, connections can be made using the private IP address.
 -   For shipping your logs encrypted using SSL TLS, see the [Streaming Data With Rsyslog &amp; Filebeat Using SSL \[KB0866319\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0866319) article in the Now Support Knowledge Base.
 
 Role required: evt\_mgmt\_admin
@@ -50,7 +50,7 @@ Role required: evt\_mgmt\_admin
 
     Health Log Analytics adds the data input record to the Data Inputs table.
 
-7.  Ensure that the data input is configured correctly by selecting **Test connection**.
+7.  Verify that the data input is configured correctly by selecting **Test connection**.
 
     Health Log Analytics tries to connect the MID Server to the data repository. If the data input is configured to run on a MID Server cluster, the system tries to connect all the MID Servers contained in the cluster to the repository. The cluster passes the test if at least one of its MID Servers gets connected.
 

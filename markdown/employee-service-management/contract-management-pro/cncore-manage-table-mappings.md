@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Edit a contract template using Microsoft Word add-in for ServiceNow Contracts, Manage clauses, tables, and contract templates, Managing Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Edit a contract template in Microsoft Word, Manage clauses, tables, and contract templates, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Edit or delete table mappings in a contract template using Microsoft Word add-in
@@ -40,15 +40,15 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 6.  Either modify or delete the table mapping.
 
-<table id="choicetable_rvj_4rw_bcc"><thead><tr><th align="left" id="d133429e140">
+<table id="choicetable_rvj_4rw_bcc"><thead><tr><th align="left" id="d139882e140">
 
 Action
 
-</th><th align="left" id="d133429e143">
+</th><th align="left" id="d139882e143">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d133429e149">
+</th></tr></thead><tbody><tr><td id="d139882e149">
 
 **Delete the table mapping**
 
@@ -59,7 +59,7 @@ Steps
 
 The content controls related to the table mapping are removed from the Microsoft Word document.
 
-</td></tr><tr><td id="d133429e181">
+</td></tr><tr><td id="d139882e181">
 
 **Modify the table mapping**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: concept
-last_updated: "2025-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Procurement, IT Asset Management]
+breadcrumb: [Procurement, Common applications, Asset Management]
 ---
 
 # Sourcing items in a service catalog request
@@ -43,7 +43,7 @@ When a source stockroom doesn’t have enough items in stock, you can specify mu
 To source a requested software license, you must assign the rights of the software license to a user or a device so that they’re authorized to use the software.
 
 -   **[Create a purchase order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/t_CreatingPurchOrderFromRequest.md)**  
-You can create a purchase order directly from a request. This enables procurement managers to obtain items and fulfill requests from the Service Catalog. You can create multiple purchase orders from a request.
+You can create a purchase order directly from a request. This approach enables procurement managers to obtain items and fulfill requests from the Service Catalog. You can create multiple purchase orders from a request.
 -   **[Create a transfer order from a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/t_CreatingTransferOrderFromReq.md)**  
 You can create a transfer order directly from a request to source hardware items and consumables from stockrooms.
 -   **[Source requests from local stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/consume-local-asset-stock.md)**  

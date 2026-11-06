@@ -1,30 +1,30 @@
 ---
 title: Change success score
-description: Use team historical data for insights into team performance. The score value helps you to determine how likely the team is to complete your change request without issues.
+description: Use team historical data for insights into team performance. The score value helps you determine how likely the team is to complete your change request without issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/change-success-score.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
 # Change success score
 
-Use team historical data for insights into team performance. The score value helps you to determine how likely the team is to complete your change request without issues.
+Use team historical data for insights into team performance. The score value helps you determine how likely the team is to complete your change request without issues.
 
-**Note:** The change success score feature is installed after you activate the Change Management - change success score plugin available with the ITSM Professional subscription only. Contact your account manager for more information.
+**Note:** The change success score feature is installed after you activate the Change Management - Change Success Score plugin, which is available only with the ITSM Professional subscription. Contact your account manager for more information.
 
 The change success score can help you evaluate a team's success in handling prior change requests.
 
-\[Omitted image "change-success-score-card-t2.png"\] Alt text: Change Success Score card
-
-When the Change Management - Change success score plugin is activated, a **Change success score metrics \(Daily\)** performance analytic \(PA\) job is added. The PA job is a daily job that collects the first set of change success scores until the next job run time that is 02.00 UTC. After the first job run, a **Change Success Score** card \[Omitted image "change-score-card-icon.png"\] Alt text: Change Success Score icon icon appears next to the **Assignment group** field on the change request form. On a click of this icon, you can view the score card details of the assignment group.
+When you activate the Change Management - Change Success Score plugin, a **Change success score metrics \(Daily\)** Performance Analytics job is added. The PA job is a daily job that collects the first set of change success scores until the next job run time that is 02:00 UTC. After the first job run, a **Change Success Score** card \[Omitted image "change-score-card-icon.png"\] Alt text: icon appears next to the **Assignment group** field on the Change Request form. Select this icon to view the score card details of the assignment group.
 
 ## Change Success Score dashboard
+
+\[Omitted image "change-success-score-card.png"\] Alt text: Change success score card
 
 Use the data on this dashboard to see trends in the resolution efficiency of a team over time based on the same parameters used to calculate the overall score. To view the trends of all the assignment groups, clear the selected element.
 
@@ -40,14 +40,14 @@ This dashboard displays trends in the resolution efficiency for change types. To
 
 ## Change Model Success dashboard
 
-This dashboard displays trends in the resolution efficiency for the change model over time based on the same parameters used to calculate the overall score. To view the trends of all the change model, clear the selected model.
+This dashboard displays trends in the resolution efficiency for the change model over time based on the same parameters used to calculate the overall score. To view the trends of all change models, clear the selected model.
 
 -   **[Success score indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score-indicator.md)**  
-Change Success score uses Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
+Change Success score contains Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
 -   **[Success score calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-score-calculation.md)**  
 To calculate the success score, formula indicators are provided. These indicators apply the multiplication operation to the data collected by the automated indicators to arrive at the final score.
 -   **[Configure success score rating](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score-rating.md)**  
-Based on the change success score rating, a color and text is associated that is displayed as part of the Change Success Score card. By default, four success score ratings are available with a specific score range.
+Configure the score ranges, colors, and text that the Change Success Score card displays for each success score rating.
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/configure-change-management.md)
 

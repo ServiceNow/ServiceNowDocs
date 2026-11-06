@@ -1,5 +1,5 @@
 ---
-title: Import records to Strategic Planning
+title: Import records to Strategic Planning Workspace
 description: Import records from Agile Development 2.0, after the relevant table maps, fields maps, and choice maps are configured.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/import-planning-items-to-apw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute work in PPM, Agile 2.0, and SAFe, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Execute work in PPM, Agile 2.0, and SAFe, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Import records to Strategic Planning
+# Import records to Strategic Planning Workspace
 
 Import records from Agile Development 2.0, after the relevant table maps, fields maps, and choice maps are configured.
 

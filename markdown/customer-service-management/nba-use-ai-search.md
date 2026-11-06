@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/nba-use-ai-search.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using the Recommended Actions application, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using the Recommended Actions application, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Use AI search in Recommended Actions to resolve cases
@@ -39,6 +39,7 @@ Role required: sn\_nb\_action.next\_best\_action\_user
     -   Default guidance for search results
     -   Attach and share article
     -   Share KB in chat interactions
+    -   Case resolution guidance
     -   All no-code guidances \(Link incident to current case, Link problem to current case, and Link change request to current case\).
     **Note:** The relevancy score displays only when the **Show relevancy score for results** check box is enabled in the Context form. For more information, see [Create a context in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-contexts-create.md).
 

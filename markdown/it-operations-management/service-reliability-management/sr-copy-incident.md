@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Copy an SRM incident
@@ -18,7 +18,7 @@ Copy an incident, if you have a similar issue.
 
 ## Before you begin
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## Procedure
 
@@ -39,5 +39,5 @@ Role required: Responder, Manager, or Administrator
     After the incident is copied, the **Activity** timeline of the new incident is updated with the original incident as a work note.
 
 
-**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

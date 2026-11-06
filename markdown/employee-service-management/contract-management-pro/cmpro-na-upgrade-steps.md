@@ -1,20 +1,21 @@
 ---
-title: Post-upgrade steps for Now Assist in Contract Management
-description: If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
+title: Post-upgrade steps for ServiceNow Otto for Contract Management Pro
+description: If you are upgrading to ServiceNow Otto for Contract Management Pro from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-upgrade-steps.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [script to migrate data for Now Assist in Contract Management, post-upgrade steps for Now Assist in Contract Management, post upgrade steps for Now Assist in Contract Management, script to migrate data for ServiceNow Otto for Contract Management, post-upgrade steps for ServiceNow Otto for Contract Management, post upgrade steps for ServiceNow Otto for Contract Management]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Post-upgrade steps for Now Assist in Contract Management
+# Post-upgrade steps for ServiceNow Otto for Contract Management Pro
 
-If you are upgrading to Now Assist in Contract Management starting with Yokohama \(Patch 3\) from a previous version and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
+If you are upgrading to ServiceNow Otto for Contract Management Pro from Yokohama \(Patch 2 and lower\) or Xanadu \(Patch 8 and lower\), and you have customized use cases, run a fix script to migrate the existing data to the AI Admin Hub console.
 
 ## Before you begin
 
@@ -33,14 +34,18 @@ Role required: admin
 4.  Select **Run Fix Script**.
 
 
-**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+## Result
+
+Your customized use cases are migrated to the AI Admin Hub console.
+
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Select large language models for use cases in Now Assist in Contract Management]()
+[Configure data permissions for AI skills]()
 
-[Configure data permissions for Now Assist skills]()
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro]()
 
 [Configuring contract metadata extraction]()
 
@@ -48,5 +53,9 @@ Role required: admin
 
 [Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management]()
+[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro]()
+
+[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
+
+[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Validate assets on the MID Server
-description: Validate assets on your MID Server to ensure that they match the assets on your ServiceNow instance. Validating assets ensures that the instance provides accurate data on all of your MID Server assets.
+title: Validate plugins on the MID Server
+description: Validate plugins on your MID Server to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your MID Server plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/validate-assets-mid-server.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enabling Agent Client Collector data collection, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Validate assets on the MID Server
+# Validate plugins on the MID Server
 
-Validate assets on your MID Server to ensure that they match the assets on your ServiceNow instance. Validating assets ensures that the instance provides accurate data on all of your MID Server assets.
+Validate plugins on your MID Server to ensure that they match the plugins on your ServiceNow instance. Validating plugins ensures that the instance provides accurate data on all of your MID Server plugins.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: agent\_client\_collector\_admin
 
 2.  Select a MID Server entry on the MID Servers page.
 
-3.  Select the **Validate Assets** link.
+3.  Select the **Validate ACC Plugins** link.
 
     The **Queues** page appears, displaying the ECC queue.
 
@@ -36,8 +36,8 @@ Role required: agent\_client\_collector\_admin
 
     Validation status is visible in the **Payload** section of the form.
 
-    If assets aren't validated, restart the MID Server. Assets sync automatically when the MID Server restarts.
+    If plugins aren't validated, restart the MID Server. Plugins sync automatically when the MID Server restarts.
 
 
-**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collection-enabling.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

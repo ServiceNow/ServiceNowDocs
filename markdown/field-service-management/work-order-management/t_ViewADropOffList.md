@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use drop off lists, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Using drop off lists, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View a drop off list
@@ -26,6 +26,6 @@ Role required: wm\_agent
 
 2.  Expand a group by clicking the arrow beside the group name.
 
+    \[Omitted image "all-dropoff-lists.png"\] Alt text: drop off lists
 
-**Parent Topic:**[Use drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseDropOffLists.md)
 

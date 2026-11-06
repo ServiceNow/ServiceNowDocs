@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-servicebridge-config-activate-sbconsumers.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Bridge, Case Management, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Exchange, Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configuring Service Exchange for Consumers for Public Sector Digital Services
@@ -17,5 +17,5 @@ You can do the following configuration tasks to customize your Service Bridge fo
 **Related topics**  
 
 
-[Activate remote catalog item entitlements for Service Exchange for Consumers in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-servicebridge-config-activate-entitlements.md)
+[Activate remote catalog item entitlements for Service Exchange Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-servicebridge-config-activate-entitlements.md)
 

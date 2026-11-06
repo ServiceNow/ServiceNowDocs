@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HR Case Management, Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR cases for VIPs
@@ -34,5 +34,5 @@ You can identify VIP HR cases in the following ways:
 -   **HR Case** form: The employee name in the **Opened for** and/or **Subject person** fields is red.
 -   HR catalog items: When the form is submitted, a message appears at the top identifying the submitter as a VIP.
 
-**Parent Topic:**[HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
+**Parent Topic:**[Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 

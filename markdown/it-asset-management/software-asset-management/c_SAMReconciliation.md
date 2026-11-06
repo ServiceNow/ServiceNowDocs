@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software reconciliation for compliance
@@ -38,6 +38,8 @@ When upgrading to Yokohama, if you have made customizations to reconciliation sc
 
 -   **[Software reconciliation results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-reconciliation-results.md)**  
 Software reconciliation results show the compliance status of software products concerning discovery and entitlements. Users with the sam\_user role can view the reconciliation results.
+-   **[Effective License Position \(ELP\) report for grouping by consumption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/elp-grouping-byconsumption.md)**  
+Get a comprehensive overview of your software license position across various organizational levels by generating an ELP report.
 -   **[Accurately reporting your software true-up cost](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/accurate-trueup-cost.md)**  
 Accurately report your software true-up costs to avoid compliance issues.
 -   **[Software license compliance position](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-license-position-report.md)**  

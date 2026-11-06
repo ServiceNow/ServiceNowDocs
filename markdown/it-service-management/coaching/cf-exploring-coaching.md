@@ -7,7 +7,7 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Coaching, IT Service Management]
 ---
@@ -60,7 +60,7 @@ Able to read and write coaching assessments assigned to the coach group to which
 
  Able to assign a training and virtual coaches to a coaching opportunity.
 
-**Note:** The Coaching coach is not able to create a new coaching opportunity.
+**Note:** The Coaching coach is not able to create a coaching opportunity.
 
 </td><td>
 
@@ -100,8 +100,6 @@ Grants administrative rights to create, read, or update learning libraries based
 </table>## Coaching workflow
 
 The image shows a high-level workflow on how coaching admins set up Coaching, and how managers and agents use Coaching.
-
-**Note:** You can use Predictive Intelligence when you use Coaching with [Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/workforce-optimization-itsm-landing-page.md).
 
 \[Omitted image "coaching-workflow.png"\] Alt text: Coaching workflow
 
@@ -170,7 +168,7 @@ Coaching trainee
 
 To learn more about configuring and using Coaching, see:
 
--   [Understanding Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-overview.md)
+-   [About Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-overview.md)
 -   [Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-setting-up-coaching.md)
 -   [Managing your coaching assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-getting-coached.md)
 -   [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-reference.md)

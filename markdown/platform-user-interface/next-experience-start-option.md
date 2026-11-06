@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-start-option.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [next experience start page options]
-breadcrumb: [Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configuring Next Experience start page options
@@ -23,7 +23,7 @@ Any page can have redirect rules as the page is loading to take the user to a di
 
 -   **Next Experience default landing page**
 
-    The default landing page provides information to help orient you to your tasks in an instance enabled with Next Experience. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/exploring-your-next-experience-homepage.md).
+    The default landing page provides information to help orient you to your tasks. Variants of this page are available, depending on your setup. For more information, see [Exploring your Next Experience default landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/exploring-your-next-experience-homepage.md).
 
 -   **Configurable workspace home**
 
@@ -37,15 +37,15 @@ Any page can have redirect rules as the page is loading to take the user to a di
 
     This option can be any page inside a workspace, but also a classic dashboard. The admin can include role-based logic to direct users to configurable workspaces. For more information, see
 
-    -   [Configure a Core UI global landing page in Next Experience-enabled instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/use-ui16-landing-page-in-next-experience.md)
+    -   [Configure a Core UI global landing page in Next Experience enabled instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/use-ui16-landing-page-in-next-experience.md)
     -   [Configure per-user landing pages in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-per-user-ui16-landing-page-in-next-experience.md)
 -   **Responsive dashboards**
 
-    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/t_SetDashboardsAsHome.md).
+    You can start with a responsive dashboard created in the classic environment to use an existing dashboard that isn't available in a configurable workspace. For more information, see .
 
 -   **Homepages**
 
-    Homepages are a deprecated feature. Homepages from earlier releases are read-only from the Tokyo release. For information on converting homepages to Responsive dashboards, see [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/homepage-deprecation-help-tool.md).
+    Homepages are a deprecated feature. Homepages from earlier releases are read-only from the Tokyo release. For information on converting homepages to Responsive dashboards, see .
 
 
 ## How to choose a start page
@@ -54,5 +54,12 @@ The different options for start pages serve different purposes. For example, cho
 
 ## Upgrade considerations
 
-When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. Homepages are turned off by default when Next Experience is enabled. For more information, see [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/homepage-deprecation-help-tool.md).
+When you upgrade to an instance with Next Experience enabled, it's best to convert homepages to responsive dashboards, so that you don't lose editing capabilities. In instances using Next Experience, legacy Homepages are turned off by default. For more information, see .
+
+-   **[Next Experience administrator start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/ne-start-options-admin.md)**  
+As an administrator, you can configure where users start when they log in to ServiceNow.
+-   **[Next Experience user start options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/ne-start-options-user.md)**  
+As a user, you can specify where you want to start when you log in to ServiceNow.
+
+**Parent Topic:**[Configuring the Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-ui-admin.md)
 

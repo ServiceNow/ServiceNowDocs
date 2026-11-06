@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-escalation-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case and account escalation, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure escalation management
@@ -16,7 +16,7 @@ Escalating a case or account raises awareness about important customer issues, f
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user, sn\_crm\_escalation\_admin, sn\_crm\_foundation\_admin or admin
 
 ## About this task
 
@@ -30,12 +30,35 @@ An escalation provides increased attention to a customer issue and provides a wa
 
 3.  In the Case Management category, view the list of tasks to configure the feature.
 
-    |Task|Description|
-    |----|-----------|
-    |Create escalation templates|An escalation template determines how an escalation request is processed and includes the type of escalation \(case or account\), an approval list or workflow \(if approval is required\), and an escalation watch list.|
-    |Create escalation severity definitions|The escalation severity defines the type of escalation and the color used to represent the cases and accounts of this escalation severity in the user interface.|
+<table id="table_pz1_qqv_llb"><thead><tr><th>
 
-4.  To perform a task, click **Configure**.
+Task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Create escalation templates
+
+</td><td>
+
+An escalation template defines how an escalation request is processed and includes: -   Type of escalation request \(case or account\).
+-   Approval group and subflow, required when the request goes through an approval process. This triggers the default escalation approval flow.
+-   Escalation watch list.
+
+
+</td></tr><tr><td>
+
+Create escalation severity definitions
+
+</td><td>
+
+The escalation severity defines the type of escalation and the color used to represent the cases and accounts of this escalation severity in the user interface.
+
+</td></tr></tbody>
+</table>4.  To perform a task, click **Configure**.
 
     The page in your instance where the configuration is completed is opened.
 

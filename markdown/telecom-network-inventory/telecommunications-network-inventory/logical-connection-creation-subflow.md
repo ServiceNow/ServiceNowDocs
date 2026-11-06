@@ -1,20 +1,20 @@
 ---
 title: Logical Connection Creation subflow
-description: The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+description: The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/logical-connection-creation-subflow.html
 release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Telecommunications Network Inventory subflows, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
 
 # Logical Connection Creation subflow
 
-The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application based on the input that you receive when you instantiate an inventory.
+The Logical Connection Creation subflow enables you to create a logical connection record in the Telecommunications Network Inventory application. The record is based on the input that you receive when you instantiate an inventory.
 
 You can use the Logical Connection subflow to create a logical connection on your network interface cards.
 
@@ -59,25 +59,25 @@ The following table lists the information about the subflow's output.
 
 [Physical Connection Creation subflow]()
 
-[TNI Design Assign Connection Element Creation subflow]()
+[Design Assign Connection Element Creation subflow]()
 
-[TNI Design Assign Protected Path Assignment subflow]()
+[Design Assign Protected Path Assignment subflow]()
 
-[TNI Design Assign IP Address Creation subflow]()
+[Design Assign IP Address Creation subflow]()
 
-[TNI Design assign Logical Connection Creation subflow]()
+[Design assign Logical Connection Creation subflow]()
 
-[TNI Design Assign Number Element Creation subflow]()
+[Design Assign Number Element Creation subflow]()
 
-[TNI Design Assign Set Attributes subflow]()
+[Design Assign Set Attributes subflow]()
 
-[TNI Design Assign Request Details Update subflow]()
+[Design Assign Request Details Update subflow]()
 
-[TNI Design Assign Connection Element Validation subflow]()
+[Design Assign Connection Element Validation subflow]()
 
-[TNI Design Assign IP Address Validation subflow]()
+[Design Assign IP Address Validation subflow]()
 
-[TNI Design Assign Number Element Validation subflow]()
+[Design Assign Number Element Validation subflow]()
 
-[Telecommunication Network Inventory workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
+[Workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
 

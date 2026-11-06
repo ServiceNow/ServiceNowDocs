@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/install-config-3rd-party-integs.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Integration Configurations, ServiceNow Security Operations integration development guidelines, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -26,21 +26,21 @@ Role required: sn\_sec\_cmn.admin
 
     \[Omitted image "tiles.png"\] Alt text: Sample third-party integrations
 
-2.  To install the plugin for a given integration, click **Install Plugin**.
+2.  To install the plugin for a given integration, select **Install Plugin**.
 
-    1.  On the System Plugin form, review the plugin details and click the **Activate/Upgrade** related link.
+    1.  On the System Plugin form, review the plugin details and select the **Activate/Upgrade** related link.
 
-    2.  Click **Activate**.
+    2.  Select **Activate**.
 
         When the activation is complete, the Security Integration screen reopens and the button for the integration you activated is labeled **Configure**.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
     **Note:** If you are configuring the Qualys Vulnerability Integration, see [Installation of Vulnerability Response and supported applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/cj-vr-setup.md).
 
 4.  Enter the **API Key**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Security Operations Integration Configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/third-party-integrations.md)

@@ -1,21 +1,21 @@
 ---
-title: Personalize Prioritization Hierarchy view in Portfolio Planning Workspace
-description: Personalize the Hierarchy view in the Prioritization page of Portfolio Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
+title: Personalize Hierarchy view
+description: Personalize the Hierarchy view in the Planning page of Portfolio Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/personalize-prioritization-hierarchy-view-portfolio-planning-workspace.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Personalizing Prioritization page views in Portfolio Planning Workspace, Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Personalize Prioritization Hierarchy view in Portfolio Planning Workspace
+# Personalize Hierarchy view
 
-Personalize the Hierarchy view in the Prioritization page of Portfolio Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
+Personalize the Hierarchy view in the Planning page of Portfolio Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 
 ## Before you begin
 

@@ -1,98 +1,145 @@
 ---
 title: Create a playbook
-description: Enable playbook owners to configure and organize multiple instances of Workflow Studio content into an automated business process on the ServiceNow AI Platform.
+description: Create a playbook to set up an automated business process. Use Playbook builder in Workflow Studio to add stages, activities, triggers, and runtime permissions, then activate the playbook to make it available to agents and fulfillers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-process-definition.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a playbook
 
-Enable playbook owners to configure and organize multiple instances of Workflow Studio content into an automated business process on the ServiceNow AI Platform®.
+Create a playbook to set up an automated business process. Use Playbook builder in Workflow Studio to add stages, activities, triggers, and runtime permissions, then activate the playbook to make it available to agents and fulfillers.
 
 ## Before you begin
 
--   [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md) for your appropriate application.
+-   Activate the Playbook application for your instance. See [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md).
 -   Familiarize yourself with the tables and relationships that your application uses for the playbook that you want to create.
--   Make sure to familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-actions.md).
--   Learn how to [get started with ServiceNow® Process Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-process-automation.md).
+-   Familiarize yourself with any features that your business uses to automate operations on the ServiceNow AI Platform, such as [flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md), [subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-subflows.md), and [actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-actions.md).
 -   Role required: admin, playbook.admin, or playbook.write.
 
 ## About this task
+
+Use this procedure to build a new playbook from scratch. You can create a playbook with no trigger, a single trigger, or multiple triggers. If you change a playbook after activating it, the system saves your changes but deactivates the playbook. You must activate the playbook again to publish any new changes.
+
+Fluent support for playbooks lets developers build, edit, and manage playbooks as code with the Fluent domain-specific language \(DSL\) in the ServiceNow IDE or a local SDK. For more information, see [https://servicenow.github.io/sdk/guides/playbook-guide](https://servicenow.github.io/sdk/guides/playbook-guide).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workflow Studio** &gt; **Playbooks**.
 
-    The Workflow Studio landing page appears. Playbooks are shown by default, but you can toggle to flows, subflows, actions, and decisions.
+    The Workflow Studio landing page opens with the Playbooks list displayed by default.
 
-2.  In the upper right corner, click **New** and select **Playbook** from the drop-down menu.
-
-    The Playbooks builder details screen for a new playbook opens in a new tab.
+2.  In the upper-right corner, under **New**, select **Playbook**.
 
 3.  Fill in the following fields.
 
-    |Field|Action|
-    |-----|------|
-    |**Playbook name**|Enter a unique, user-facing name for your playbook. This name appears to agents and fulfillers during runtime of your playbook.|
-    |**Description**|Optionally, enter some descriptive details about your playbook.|
-    |**Application**|Choose an application scope that you want your playbook to run in. Selecting **Global** lets your playbook run in any application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).|
+    |Field|Description|
+    |-----|-----------|
+    |**Playbook name**|Unique, user-facing name for the playbook. Appears to agents and fulfillers at runtime.|
+    |**Application**|Application scope for the playbook. Select **Global** to run the playbook in any application scope.|
+    |**Description**|Descriptive details about the playbook.|
 
-    The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
+4.  Select **Build playbook**.
+
+    The builder displays in **Diagram view** by default, but you can select **Board view** to switch between views anytime as you build your playbook.
 
     \[Omitted image "board-view.png"\] Alt text: Diagram and Board view toggle
 
-4.  [Configure your trigger.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-trigger.md)
+5.  Select the **Start** node.
 
-5.  [Add a stage.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-stage.md)
+    The Playbook properties side panel opens.
 
-6.  [Add an activity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-activity.md)
+6.  Under the **Details** tab, fill in the fields.
 
-7.  Keep adding stages and activities according to your manual playbook.
+    You can also update the Playbook name and Description.
 
-    For an example of how to design an entire digitized process with Playbooks, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
+<table id="table_lhw_frm_njc"><thead><tr><th>
 
-8.  If you don't see the activity you need to add in the activity picker, [create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-activity-definition.md).
+Field
 
-9.  [Add a decision activity.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-a-decision-activity.md)
+</th><th>
 
-10. [Add parallel activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-parallel-activity.md)
+Description
 
-11. [Add optional activities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/optional-activities.md)
+</th></tr></thead><tbody><tr><td>
 
-12. After you've added all appropriate stages and activities to your playbook, select **Activate** in the header.
+**Limit playbook executions for each parent record to**
 
-    Activating your playbook publishes it so that it runs when triggered.
+</td><td>
 
-    **Note:** If you change your playbook after activating it, the system saves your changes but deactivates your playbook. You must click **Activate** again to publish any new changes to your playbook. For more information, see [Playbook statuses and activation states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-status-activation-state.md).
+Maximum number of times the playbook can run for a single parent record.
+
+</td></tr><tr><td>
+
+**Execution type**
+
+</td><td>
+
+Type of playbook to create.-   **Record driven:** Playbook tied to a record. Triggered on demand or automatically based on record operations. Data from the playbook is stored on that record.
+-   **Standalone:** Single-session playbook that does not store data to a record. Must be manually triggered or called from another playbook.
+
+
+</td></tr><tr><td>
+
+**Parent table**
+
+</td><td>
+
+Table that provides trigger records and other playbook inputs. Required for Knowledge and Email activities.
+
+</td></tr><tr><td>
+
+**Allow this playbook to be restarted during runtime**
+
+</td><td>
+
+When selected, runtime users can restart the entire playbook during a run.
+
+</td></tr></tbody>
+</table>7.  Under the **Inputs** tab, add inputs for a playbook to launch with.
+
+    Inputs defined here are accessible throughout the playbook via dot-walking and dot notation, for example `inputs.inputName`, and can be used in activity fields, conditions, and UI elements.
+
+    **Tip:** To trigger a playbook with API inputs instead of trigger records, use the `triggerPlaybook(String scopedName, GlideRecord parentRecord)` API to trigger a playbook. For more information about the API, search `triggerplaybook` on the ServiceNow Developer Site: [Playbook Experience APIs](https://developer.servicenow.com/dev.do#!/reference/api/zurich/server/sn_playbook-namespace/PlaybookExperienceScopedAPI).
+
+8.  Under the **Runtime permissions** tab, configure permissions for users, user groups, user criteria, and roles.
+
+9.  Configure a trigger for the playbook.
+
+    You can create a playbook with no trigger, a single trigger, or multiple triggers. For more information, see [Add and configure a trigger in a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-trigger.md).
+
+10. Add activities, stages, decision nodes, and parallel branches as required to automate your process.
+
+    Continue adding stages and activities until your playbook reflects the full business process. For more information, see [Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md).
+
+11. Preview activities to confirm the activity's appearance to end users and adjust their configuration.
+
+    For more information about previewing activities, see [Preview an activity's runtime UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/preview-playbook-runtime-ui.md).
+
+12. Add a variant to your playbook.
+
+    You can use one playbook in multiple use cases by using variants. For more information, see [Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-variants.md).
+
+13. After adding all stages and activities, test the playbook.
+
+14. After testing the playbook, select **Activate** in the header.
+
+    The playbook is published and runs when its trigger conditions are met.
 
 
 ## Result
 
-When your playbook's trigger conditions are met, your playbook runs. As a result, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process that renders as a playbook, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
+When the trigger conditions of the playbook are met, the system creates a Process Execution record and renders user-facing configurations for Playbook Experience. For an example of how to digitize a manual business process, see [Create a sample playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/design-automated-process.md).
 
 ## What to do next
 
 Set up the Playbook Experience for your agents and fulfillers.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Playbook variants]()
-
-[Test a playbook]()
-
-[Restart]()
-
-[Duplicate Playbooks]()
-
-[Add translations for playbooks]()
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

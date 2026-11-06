@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Standard Record Page in Service Operations Workspace, Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring standard record pages in Service Operations Workspace, Configuring record pages in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Modify the Record Page in the Service Operations Workspace using the Standard Record Page
@@ -99,5 +99,5 @@ SRP also provides ways to add screen condition mappings when a page appears.
     6.  Select **Update**.
 
 
-**Parent Topic:**[Configuring Standard Record Page in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
+**Parent Topic:**[Configuring standard record pages in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/srp-service-operations-workspace.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a self-health monitor
@@ -81,7 +81,7 @@ The values in the modified monitoring configuration record are compared to the a
 
 ## What to do next
 
-Create a customized monitor. A template is provided to assist you to create script that can monitor the specified components. For more information, see [Create a self-health monitor to use custom health monitor script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
+Create a customized monitor. A template is provided to assist you to create script that can monitor the specified components. For more information, see [Create a self-health monitor with a custom script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/custom-configure-threshold-monitoring.md).
 
 **Parent Topic:**[Self-health monitors for Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/self-monitoring.md)
 

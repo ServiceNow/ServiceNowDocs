@@ -7,7 +7,7 @@ release: yokohama
 product: Admin Center
 classification: admin-center
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Select your adoption blueprint, Adoption blueprints, Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -44,7 +44,7 @@ Enhance the experience
 
 </td><td>
 
-[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-application-landing-page.md)
+
 
 </td><td>
 
@@ -52,7 +52,7 @@ Use Advanced Work Assignment to automatically assign work items to your qualifie
 
 </td><td>
 
-[Roles installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-roles.md)
+Roles installed with Advanced Work Assignment
 
 </td><td>
 

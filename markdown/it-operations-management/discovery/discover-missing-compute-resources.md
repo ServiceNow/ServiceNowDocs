@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discover missing compute resources
@@ -71,6 +71,4 @@ By default, the report provides the following information:
 ## Result
 
 If the quick discovery was successful, the instance redirects to the **Discovery status** dashboard. When the resource is discovered, it's removed from the **Missing compute resources** report and is listed in the Server \[cmdb\_ci\_server\] table.
-
-**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed UI overview, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,13 +24,11 @@ Role required: none
 
 1.  Navigate to a homepage.
 
-2.  Click the add content icon \(\[Omitted image "Addcontent.png"\] Alt text: Add content icon\) in top left corner of the homepage.
+2.  Click the add content icon \(\) in top left corner of the homepage.
 
 3.  Select Live Feed in the left panel.
 
 4.  On the bottom of the window, click **Add here** in the appropriate layout position, then close the window.
-
-    \[Omitted image "Homepage1.png"\] Alt text: Homepage
 
     **Note:** Administrators can add Live Feed to a global homepage to make it available for all homepage users by default. Users with any role can add Live Feed to their homepage; however, administrators can restrict this ability.
 

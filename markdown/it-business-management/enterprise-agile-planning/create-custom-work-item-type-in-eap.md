@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -40,4 +40,6 @@ Role required: sn\_apw\_advanced.eap\_admin
 ## What to do next
 
 For any new work item type tables, create relevant form views and list views. See [Create or update form views for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.md) and [Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md).
+
+If the work item type uses custom state choices as columns on the Planning board, map the custom states to state buckets. This mapping ensures that cards display correctly after a page reload. For more information, see [Configure state bucket mapping for custom story states in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configure-state-buckets-for-custom-story-states-in-eap.md).
 

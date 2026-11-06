@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,7 +35,7 @@ Refer to the following table and verify that you have completed all the listed t
 
         The \(sn\_sec\_splunk\_v2.api\_account\_access\) role is not required for the integration if you are ingesting alerts automatically from Splunk Enterprise into your ServiceNow AI Platform® instance.
 
-    -   A user with the sn\_si.admin role oversees the following tasks in the ServiceNow AI Platform®:
+    -   A user with the **sn\_si.ingestion\_profile\_admin** role oversees the following tasks in the ServiceNow AI Platform®:
         -   Names, creates, and edits alert and event profiles.
         -   Selects and maps values from alerts and events to ServiceNow AI Platform® security incidents.
         -   Previews security incident details for accuracy prior to finalizing the configuration.

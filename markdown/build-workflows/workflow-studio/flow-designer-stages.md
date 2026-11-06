@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow and subflow stages
@@ -141,6 +141,12 @@ This stage has reached an error condition.
 </td></tr></tbody>
 </table>Each stage can have its own custom state labels. For example, suppose that you have a flow with two stages. Stage 1 could have the Pending state with the label Waiting, and Stage 2 could have a Pending state with a label of Not yet started. Workflow Studio provides options to generate either the default states or approval states.
 
+## Seeing subflow stages in a parent flow
+
+\[Omitted image "example-subflow-stages-05-parent-flow-stages.png"\] Alt text: List of parent flow stages including the Manager Approval, Fulfillment Subflow stages, and Completed stages.
+
+The Flow Stages dialog box can display subflow stages from a parent flow. Use the **Show Subflow Stages** option when configuring a subflow to include subflow stages in the parent flow.
+
 ## System properties
 
 You can use these system properties to configure how a flow or subflow displays approval details.
@@ -191,6 +197,8 @@ Follow these general guidelines when creating flows or subflows with stages.
 
 -   **[Configure stages and add them to a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-stages.md)**  
 Configure when stages display to a user, define stage state labels, and add stages to a flow or subflows within Workflow Studio.
+-   **[Show subflow stages in a parent flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/show-subflow-stages-in-a-parent-flow.md)**  
+Show subflow stages as part of the execution details of a parent flow.
 
 **Parent Topic:**[Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flows.md)
 

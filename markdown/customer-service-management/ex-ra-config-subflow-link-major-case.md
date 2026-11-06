@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ex-ra-config-subflow-link-major-case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example: Link the similar major case to the current case, Example configurations of recommended actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Example: Link the similar major case to the current case, Example configurations, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Configuring a subflow for the guidance action automation

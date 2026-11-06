@@ -7,16 +7,16 @@ release: yokohama
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Developing applications with the ServiceNow SDK
 
 Create and develop applications in source code locally in Visual Studio Code Desktop with the ServiceNow SDK. Build and install applications to make your changes available on an instance.
 
-After installing the ServiceNow SDK, you can authenticate to an instance to create scoped applications or convert existing applications using the ServiceNow SDK command-line interface \(CLI\).
+After installing the ServiceNow SDK, you can authenticate to an instance to create applications or convert existing applications using the ServiceNow SDK command-line interface \(CLI\).
 
 In Visual Studio Code, start developing your application in source code with ServiceNow Fluent, writing custom JavaScript modules, or adding third-party libraries.
 

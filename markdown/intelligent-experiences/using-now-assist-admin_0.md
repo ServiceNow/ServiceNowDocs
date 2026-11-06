@@ -1,0 +1,29 @@
+---
+title: Using AI Admin Hub
+description: Use AI Admin Hub to explore the AI plugins and skills available to you. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/using-now-assist-admin\_0.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-10-21"
+reading_time_minutes: 1
+breadcrumb: [AI Admin Hub, Generative AI skills, Enable AI Experiences]
+---
+
+# Using AI Admin Hub
+
+Use AI Admin Hub to explore the AI plugins and skills available to you. Starting with the Brazil release, AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center.
+
+**Note:** Starting with the Brazil release, AI Admin Hub is being prepared for future deprecation and replacement by [AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md). Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md)**  
+Activate AI skills by configuring settings such as display locations. After the skills have been activated, they can be used across the ServiceNow AI Platform based on the availability and display settings you choose.
+-   **[Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md)**  
+Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
+-   **[Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md)**  
+Create a copy of an AI skill using the **Make a copy** function in AI Admin Hub. With a copy of the skill, you can experiment with skill settings and tailor the skill to fit your business needs.
+-   **[Analyzing Now Assist usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics-and-monitoring.md)**  
+Use the Now Assist analytics and monitoring tools in the Overview page to review the summaries, skill usage information, and issues that need your attention.
+
+**Parent Topic:**[AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platform-now-assist-landing.md)
+

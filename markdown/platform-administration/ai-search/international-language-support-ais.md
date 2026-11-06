@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-05-21"
+last_updated: "2026-09-28"
 reading_time_minutes: 9
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,6 +32,7 @@ Language settings determine how AI Search separates the text of indexed content 
 |August 2025|Finnish|
 |December 2025|Polish|
 |June 2026|Arabic, Czech, Danish, Hebrew, Hungarian, Norwegian \(Bokmål\), Russian, Turkish|
+|September 2026|Finnish|
 
 ## Indexing behavior in supported languages
 
@@ -98,7 +99,7 @@ Language dependence and supported languages
 
 </td><td>
 
-AI Search only evaluates Genius Result configurations with NLU triggers if the linked NLU model has the same language as the search query.Genius Results configurations that use an LLM or a heuristic model, such as Now Assist Multi-Content Response or Q&amp;A, are limited to languages supported by the model.
+AI Search only evaluates Genius Result configurations with NLU triggers if the linked NLU model has the same language as the search query.Genius Result configurations that use an LLM or a heuristic model, such as Summary or Q&amp;A, are limited to languages supported by the model.
 
 Supported languages: Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French, French - Canada, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish.
 
@@ -118,11 +119,11 @@ During indexing, AI Search identifies supported languages in Task table records 
 
 AI Search performs language-specific lemma normalization for terms in indexed content and search queries. Supported languages: Arabic, Brazilian Portuguese, Czech, Danish, Dutch, English, Finnish, French, French - Canada, German, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian \(Bokmål\), Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swedish, Traditional Chinese, and Turkish.
 
-**Note:** For German, Danish, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search performs term decompounding in addition to lemma normalization. For Finnish, AI Search uses algorithmic stemming to identify lemmas.
+**Note:** For Danish, Finnish, German, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search performs term decompounding in addition to lemma normalization.
 
- AI Search performs Unicode normalization for all terms in indexed content and search queries.
+AI Search performs Unicode normalization for all terms in indexed content and search queries.
 
- For more information on normalization of lemmas and Unicode forms in indexed content and search queries, see [Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/lemma-unicode-normalization-ais.md).
+For more information on normalization of lemmas and Unicode forms in indexed content and search queries, see [Lemma and Unicode normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/lemma-unicode-normalization-ais.md).
 
 </td></tr><tr><td>
 
@@ -169,6 +170,8 @@ Specify whether facets should display knowledge article reference field values i
 When a fallback language is configured for the user's session language, AI Search searches translated documents in both languages. Search uses the appropriate stop word, synonym, and typo handling dictionaries for the fallback language.
 -   **[Enable a global fallback locale for translated content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/enable-global-fallback-lang-ais.md)**  
 Configure AI Search to match translated documents in a global fallback locale's language as well as the user's session language.
+-   **[Language filtering for external content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/language-filtering-external-content.md)**  
+AI Search filters search results from external content connectors, showing only results in the user's session language, fallback language, and global fallback locale language.
 
 **Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/administer-ais.md)
 

@@ -1,17 +1,17 @@
 ---
-title: Use popular alerts to receive notifications – Advanced and Total users
+title: Use popular alerts for notifications \(Advanced and Total users\)
 description: Get started with the popular alerts that are most widely used to receive notifications about your instance performance if you’re new to the Instance Observer \(IO\) alerting system. The most popular alerts appear on the first page of your Configure Alerts page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/io-alerts-popular-total-adv-cust.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Popular alerts]
-breadcrumb: [Alerts in Instance Observer, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Use popular alerts to receive notifications – Advanced and Total users
+# Use popular alerts for notifications \(Advanced and Total users\)
 
 Get started with the popular alerts that are most widely used to receive notifications about your instance performance if you’re new to the Instance Observer \(IO\) alerting system. The most popular alerts appear on the first page of your Configure Alerts page.
 
@@ -43,4 +43,6 @@ Out of the 45 or more alerts that are available, the most popular ones are liste
 
 4.  Hover over \[Omitted image "io-popular-alert-icon.png"\] Alt text: most used alert by customers icon., which indicates that it’s a popular alert, and select to customize your alert and notification preferences.
 
+
+**Parent Topic:**[Use alerts to monitor your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-alerts-intro.md)
 

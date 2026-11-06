@@ -1,20 +1,20 @@
 ---
-title: Applying CI Identification and Reconciliation to Import Sets
-description: You can apply CMDB Identification and Reconciliation processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
+title: Applying IRE to Import Sets
+description: You can apply CMDB Identification and Reconciliation Engine \(IRE\) processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/identification-import-sets.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Applying CI Identification and Reconciliation to Import Sets
+# Applying IRE to Import Sets
 
-You can apply CMDB Identification and Reconciliation processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
+You can apply CMDB Identification and Reconciliation Engine \(IRE\) processes when Import Sets are used to import CIs into the CMDB. CI identification can prevent duplicate CIs in the CMDB, which Import Sets might otherwise cause.
 
 Populating CMDB tables using Import Sets can inadvertently result in duplicate CIs when multiple imported records are identical to an existing CI. To minimize this duplication, you can apply CMDB Identification and Reconciliation processes to Import Sets when importing new records into CMDB tables.
 

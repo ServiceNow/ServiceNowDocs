@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent availability and calendars, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
 
 # Run the Populate Agents Daily Schedule Table
@@ -36,8 +36,6 @@ By default the Populate Agents Daily Schedule Table runs once a day at midnight 
 
     The Populate agents daily schedule starts running and should be complete within 30 minutes.
 
-
-**Parent Topic:**[Agent availability and calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/agent-availability-and-calendars.md)
 
 **Related topics**  
 

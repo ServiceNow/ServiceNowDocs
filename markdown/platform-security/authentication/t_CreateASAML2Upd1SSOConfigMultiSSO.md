@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # SAML 2.0 configuration using Multi-Provider SSO
@@ -18,11 +18,16 @@ You can create or update a SAML 2.0 SSO configuration from the Multi-Provider SS
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
+
+**Note:** Banner alerts are displayed on the instance when SAML SP signing or encryption keystores are approaching or past their expiry date. There are two separate banners — one for signing certificates and one for encryption certificates — each linking to a dedicated customer action in Security Center.
 
 ## About this task
 
-**Note:** New to the Jakarta release, you must validate your configuration by using the Test Connection functionality before you can activate your IdP configuration. You can still use the Update functionality to save your configuration data, but it is not an active configuration without a successful test connection.
+**Note:**
+
+-   Banner alerts are displayed on the instance when SAML SP signing or encryption keystores are approaching or past their expiry date. There are two separate banners — one for signing certificates and one for encryption certificates — each linking to a dedicated customer action in Security Center. To know more, see [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sec-center-v2.md).
+-   New to the Jakarta release, you must validate your configuration by using the Test Connection functionality before you can activate your IdP configuration. You can still use the Update functionality to save your configuration data, but it is not an active configuration without a successful test connection.
 
 ## Procedure
 
@@ -30,33 +35,33 @@ Role required: admin
 
 2.  Do one of the following options.
 
-    -   To update a configuration, click an SSO configuration record.
-    -   To create a new configuration, click **New** &gt; **SAML**.
+    -   To update a configuration, select an SSO configuration record.
+    -   To create configuration, select **New** &gt; **SAML**.
 3.  Enter the IdP information by one of the following methods.
 
-<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d189358e116">
+<table id="choicetable_okg_pdd_4z"><tbody><tr><td id="d242372e140">
 
 **Using a metadata descriptor URL**
 
 </td><td>
 
-Click the URL check box and enter the URL of the IdP that you are using.
+Select the URL check box and enter the URL of the IdP that you're using.
 
-</td></tr><tr><td id="d189358e125">
+</td></tr><tr><td id="d242372e149">
 
 **Using metadata descriptor XML file**
 
 </td><td>
 
-Click the XML check box and paste in the XML data generated from the IdP you are using.
+Select the XML check box and paste in the XML data generated from the IdP you're using.
 
-</td></tr><tr><td id="d189358e134">
+</td></tr><tr><td id="d242372e158">
 
 **Entering metadata manually**
 
 </td><td>
 
-Close the popup window and manually enter the data in the property fields.
+Close the pop-up window and manually enter the data in the property fields.
 
 </td></tr></tbody>
 </table>    **Note:** All required fields must be filled-in on the Identity Provider form.
@@ -239,7 +244,7 @@ No
 
 </td><td>
 
-Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Configure client type for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-type.md).
+Choose the client type, based on the type of your client. Options:**Iframe Embedded**.**Note:** If client type field is required for your configuration, you can edit the form and add the field. To know more, see [Client type configuration for OAuth and SSO records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-type.md).
 
 </td></tr></tbody>
 </table>4.  Encryption And Signing tab
@@ -273,12 +278,42 @@ Choose the client type, based on the type of your client. Options:**Iframe Embed
 
 5.  User Provisioning tab
 
-    |Property|Description|
-    |--------|-----------|
-    |Auto Provisioning User|Enable automatic user provisioning, creates the users when user doesn't exists in the instance User Table based on the information provided by the IdP.|
-    |Update User Record Upon Each Login|Updates user information in the instance User table with the information in the IdP each time the user logs in using SAML.|
+<table id="table_bfv_frd_4z"><thead><tr><th>
 
-6.  Advanced tab
+Property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Auto Provisioning User
+
+</td><td>
+
+Enable automatic user provisioning, creates the users when user doesn't exists in the instance User Table based on the information provided by the IdP.
+
+</td></tr><tr><td>
+
+Update User Record Upon Each Login
+
+</td><td>
+
+Updates user information in the instance User table with the information in the IdP each time the user logs in using SAML.
+
+</td></tr><tr><td>
+
+User groups applied to provisioned users
+
+</td><td>
+
+Specifies the user groups that are automatically assigned to users created through SAML user provisioning.
+
+ When a user is provisioned from the SAML identity provider, the instance adds the user to each group listed in this field, so provisioned users receive consistent group membership — and any roles or access those groups grant — without manual assignment.
+
+</td></tr></tbody>
+</table>6.  Advanced tab
 
     \[Omitted image "advanced.png"\] Alt text: Advanced tab
 
@@ -304,7 +339,7 @@ NameID Attribute
 
 </td><td>
 
-Leave this field blank unless you configure a new NameID policy. If you configure a new policy, the system requires the User table it must use to identify the user logging in. The system matches the NameID token to the name of that User table field here.
+Leave this field empty unless you configure a new NameID policy. If you configure a new policy, the system requires the User table it must use to identify the user logging in. The system matches the NameID token to the name of that User table field here.
 
 </td></tr><tr><td>
 
@@ -384,7 +419,7 @@ Request
 
 </td><td>
 
-An unique id as part of request, the id can be user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information see, [Testing IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
+An unique id as part of request, the id can be user name, employee id, and so on.**Note:** Both redirect and post binding is supported for request. The option to set this field only appears after a successful test connection. For more information see, [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr><tr><td>
 
@@ -392,7 +427,7 @@ Response
 
 </td><td>
 
-An unique id as part of response, the id can be user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information see, [Testing IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
+An unique id as part of response, the id can be user name, employee id, and so on. **Note:** Both redirect and post binding is supported for response. The option to set this field only appears after a successful test connection. For more information see, [Test IdP connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_TestIdPConnections.md).
 
 </td></tr></tbody>
 </table>7.  On the Continuous Authentication tab, configure the following fields:
@@ -400,7 +435,7 @@ An unique id as part of response, the id can be user name, employee id, and so o
     **Note:**
 
     -   The Continuous Authentication tab appears only when you install the **Zero Trust - Continuous Authentication** \(`com.snc.zero_trust_continuous_authentication`\) plugin that requires license.
-    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/ca-homepage.md).
+    -   If you're using continuous authentication policy to protect access to table or data class, see [Continuous Authentication \(CA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/ca-homepage.md).
     \[Omitted image "ca-tab.png"\] Alt text: Continuous Authentication - tab information
 
 <table id="table_vvj_d5x_4dc"><thead><tr><th>

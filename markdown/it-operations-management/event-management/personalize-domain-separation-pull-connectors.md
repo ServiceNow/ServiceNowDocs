@@ -1,5 +1,5 @@
 ---
-title: Personalize domains for pull connector events to use in event creation
+title: Configure domain separation for pull connector events
 description: Configure pull connectors to personalize domain separation of events so you can use them to create events in domains other than the user's currently logged-in or MID Server domain.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/personalize-domain-separation-pull-connectors.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Event Management Connectors domain personalization, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Connector domain personalization, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Personalize domains for pull connector events to use in event creation
+# Configure domain separation for pull connector events
 
 Configure pull connectors to personalize domain separation of events so you can use them to create events in domains other than the user's currently logged-in or MID Server domain.
 
@@ -62,15 +62,15 @@ Role required: evt\_mgmt\_admin
 
 9.  In the Connector Instance Values list, provide a value in the **Value** field of the parameters.
 
-<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d646739e323">
+<table id="choicetable_bfv_4yr_3zb"><thead><tr><th align="left" id="d804670e292">
 
 Parameter
 
-</th><th align="left" id="d646739e326">
+</th><th align="left" id="d804670e295">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d646739e332">
+</th></tr></thead><tbody><tr><td id="d804670e301">
 
 **__payloadDomainInfoFieldValue__**
 
@@ -78,7 +78,7 @@ Value
 
 The value that will be used to match the domain record. For example, ServiceNow.
 
-</td></tr><tr><td id="d646739e342">
+</td></tr><tr><td id="d804670e311">
 
 **__payloadDomainInfoFieldName__**
 
@@ -128,12 +128,12 @@ The key in the payload that has the domain identifier. For example, if the paylo
     -   **connectorDomainPathColumnName** - sys\_domain\_path
     For more information, see [Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/connector-domain-metadata.md).
 
-    ||||
+    | | | |
     |---|---|---|
-    ||||
-    ||||
-    ||||
-    ||||
+    | | | |
+    | | | |
+    | | | |
+    | | | |
 
 
 ## Result

@@ -1,5 +1,5 @@
 ---
-title: Set up GRC Virtual Agent for requesting an exception to a policy or a control objective
+title: Set up GRC Virtual Agent
 description: Set up the Governance, Risk, and Compliance Virtual Agent to request an exception to a policy or a control objective from the Service Portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Set up GRC Virtual Agent for requesting an exception to a policy or a control objective
+# Set up GRC Virtual Agent
 
 Set up the Governance, Risk, and Compliance Virtual Agent to request an exception to a policy or a control objective from the Service Portal.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Device as a Service, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Device as a Service, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring DaaS
@@ -42,7 +42,7 @@ Get the Hardware Asset Management application from the [ServiceNow Store](https:
 
 </td><td>
 
-[Install Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/install-ham.md)
+[Install Hardware Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/install-ham.md)
 
 </td></tr><tr><td>
 
@@ -94,4 +94,8 @@ Use Hardware Asset Management for DaaS to offer assets and asset management serv
 -   [Managing RMA response orders for DaaS assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-rma-orders.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Install Hardware Asset Management for DaaS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/install-daas.md)**  
+You can install the Hardware Asset Management for DaaS application \(com.sn\_daas\_ham\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+
+**Parent Topic:**[Device as a Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-daas.md)
+

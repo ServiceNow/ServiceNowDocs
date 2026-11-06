@@ -1,20 +1,21 @@
 ---
-title: Work on a fraud case for Card fraud
-description: Use Card fraud to work on a fraud case that is created for reviewing alerts that are flagged by customers or from external sources, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
+title: Work on a fraud case for card fraud
+description: Use card fraud to work on a fraud case that is created for reviewing alerts that are flagged by customers or from external sources, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/intelligent-servicing-for-fraud/work-on-a-fraud-case-for-card-fraud.html
 release: yokohama
 product: Intelligent Servicing for Fraud
 classification: intelligent-servicing-for-fraud
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Intelligent Servicing for Fraud, Intelligent Servicing for Fraud, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [work on a fraud case, card fraud case, investigate fraud cases, resolve fraud cases, fraud case playbook, initiate fraud case, fraud investigation stage, case disposition, fraud write-off, manager approval for fraud, verify fraud transactions, collect fraud documents, sn\_bom\_fraud.agent]
+breadcrumb: [Use, Intelligent Servicing for Fraud, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Work on a fraud case for Card fraud
+# Work on a fraud case for card fraud
 
-Use Card fraud to work on a fraud case that is created for reviewing alerts that are flagged by customers or from external sources, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
+Use card fraud to work on a fraud case that is created for reviewing alerts that are flagged by customers or from external sources, ensure that any outstanding tasks are completed, and the cases are investigated and resolved.
 
 ## Before you begin
 
@@ -26,19 +27,17 @@ Role required: sn\_bom\_fraud.agent or sn\_bom\_fraud.agent\_connector
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Fraud cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all fraud cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
-
-    The case playbook guides fulfillers through the steps that are involved in resolving a case.
 
 6.  Use the activities and tasks under the following playbook stages to fulfill the request and resolve the case:
 

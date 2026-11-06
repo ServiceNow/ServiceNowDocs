@@ -1,13 +1,13 @@
 ---
 title: Set up custom Playbooks for Portals
-description: Create custom Playbooks for Portals to provide end users with the playbook experience on your service portal.
+description: Create custom Playbooks for Portals to provide end users with the playbook experience on your service portal.Create a content item of Playbook type on portal so that users can navigate to the playbook experience. These content items are specifically configured to enable the playbook experience on portals.You can set up a widget to reroute the user to the csm\_ticket page once the record state changes from draft to new, indicating that the user has completed the intake process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-playbooks-for-portals.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set up custom Playbooks for Portals
@@ -34,11 +34,131 @@ Plugins are available from the ServiceNow® Store. For more information, see [Pl
 You can set up Playbooks for Portals using the following high level steps.
 
 1.  Define your process using Workflow Studio. See [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-process-definition.md) for more information.
-2.  Activate the record generator. For more information, see [Activate the Record Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-the-record-generator.md).
+2.  Activate the record generator. For more information, see [Activate the record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-the-record-generator.md).
 3.  Set up ACLs \(Access Control Lists\) to provide the appropriate read, write, and create permissions for users. See [Explicit Roles in CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/explicit-roles-in-csm.md) for more information.
 
     **Note:** Add write and create roles with a condition based on "State=draft" so that users can only edit the fields in the draft state.
 
-4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-content-item.md) for more information.
-5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/set-up-redirection-widget.md) for more information.
+4.  Create a Playbook Content Item so that users can navigate to the Playbook experience. See [Create a Playbook Content Item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-playbooks-for-portals.md) for more information.
+5.  Set up a redirection widget so that users are redirected to the playbook intake experience once the state changes from "draft" to "new." See [Set up a redirection widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-playbooks-for-portals.md) for more information.
+
+## Create a Playbook Content Item
+
+Create a content item of Playbook type on portal so that users can navigate to the playbook experience. These content items are specifically configured to enable the playbook experience on portals.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Playbook Content Items** &gt; **New**.
+
+    \[Omitted image "playbook-content-item.png"\] Alt text: content item form showing all fields
+
+2.  In the form, fill out the fields.
+
+<table id="table_bpj_hvr_1fc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Definition
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+The name of the content item you are creating
+
+</td></tr><tr><td>
+
+Table
+
+</td><td>
+
+Map your table here
+
+</td></tr><tr><td>
+
+Record ID
+
+</td><td>
+
+Always enter -1
+
+</td></tr><tr><td>
+
+Playbook experience
+
+</td><td>
+
+The name of your playbook experience
+
+</td></tr><tr><td>
+
+Playbook experience record generator
+
+</td><td>
+
+Map your record generator
+
+</td></tr><tr><td>
+
+Portal page
+
+</td><td>
+
+`csm_intake` standard with the Playbooks for Customer Service Management application.**Note:** You can clone the `csm_intake` page and modify it per your requirements.
+
+</td></tr><tr><td>
+
+Title
+
+</td><td>
+
+Title that appears at the top of the page.
+
+</td></tr></tbody>
+</table>3.  Select **Submit**.
+
+
+### What to do next
+
+After completing this step, you can navigate to the portal where the catalog is mapped and execute the content item. The playbook intake experience opens, with the record generator mapped as the first activity.
+
+## Set up a redirection widget
+
+You can set up a widget to reroute the user to the `csm_ticket` page once the record state changes from draft to new, indicating that the user has completed the intake process.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Service Portal** &gt; **Widgets**.
+
+2.  Open the widget **CSM Intake Redirect**.
+
+3.  Add the following code the in the client controller section.
+
+    **Note:** As a best practice, clone the **CSM Intake Redirect** widget to modify and replace it on the `csm_intake` page, or on your custom page.
+
+    ```
+    spUtil.recordWatch($scope, 'sn_customerservice_case', c.data.filter, function(response) { //replace sn_customerservice_case with your table.
+    
+            if (response.data.operation == "update" && response.data.record.state && response.data.record.state.value != "0") { //checking if the state is not draft
+    
+                if (($window.location.href).indexOf('?id=csm_ticket&') == -1);
+                $window.location = "?id=csm_ticket&table=" + c.data.table + "&sys_id=" + c.data.sys_id;
+            }
+        });
+    ```
+
+4.  Select **Update**.
+
 

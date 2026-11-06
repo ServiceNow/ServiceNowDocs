@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring the auto-population of access hours in a work order task, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Auto-population of access hours, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Activate Field Service Management Access Hours Management

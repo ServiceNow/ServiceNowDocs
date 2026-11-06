@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-model-to-predict-similar-cases.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Task Intelligence for Customer Service, Task Intelligence for Customer Service, Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure, Task Intelligence for Customer Service, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Create a model to predict similar cases
@@ -25,12 +25,12 @@ Test and edit the pre-trained similar cases model for predicting similarity in c
     -   Major Case identifier
     -   Similar Open Cases
     -   Similar Resolved Cases
-    To get recommendations for a major case identifier that includes propose major cases and similar major cases, install the [Major Issue Management plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-major-issue-mgmt.md) plugin and activate the feature as needed to get recommendations. When you install the Task Intelligence for CSM plugin in your production instance, the plugin automatically installs and trains the similar open cases, similar resolved cases, and major case identifier models using your data. These models are then auto-deployed. The similar open case and similar resolved case models show predictions on recommended actions on case form. However, recommendations aren’t enabled for the major case identifier model in the base system.
+    To get recommendations for a major case identifier that includes propose major cases and similar major cases, install the major issue management plugin. Activate the feature as needed to get recommendations. When you install the Task Intelligence for CSM plugin in your production instance, the plugin automatically installs and trains three models using your data: similar open cases, similar resolved cases, and major case identifier. These models are then auto-deployed. The similar open case and similar resolved case models show predictions on recommended actions on case form. However, recommendations aren’t enabled for the major case identifier model in the base system.
 
 
 ## Steps to activate Major Case identifier recommendation
 
-1.  Navigate to **All** &gt; **Recommended Actions** &gt; **Recommendations.**.
+1.  Navigate to **All** &gt; **Recommended Actions** &gt; **Recommendations**.
 2.  Select **Propose major issue** under the Application scope **Task Intelligence for Customer Service**.
 3.  Check the **Active** check box.
 

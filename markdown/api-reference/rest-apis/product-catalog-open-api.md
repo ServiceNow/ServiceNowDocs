@@ -1,14 +1,14 @@
 ---
 title: Product Catalog Open API
-description: The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.Deletes the specified product offering.Inactivates, but doesn't delete, a price list line with a specific sys\_id.Deletes or archives the specified product specification.Retrieves a list of all product offering catalogs.Retrieves a product offering catalog.Retrieves all product offerings or a subset of product offerings, based on specified filter settings.Retrieves a product offering.Retrieves all price list line records in the instance.Retrieve details about a specific price list line.Retrieves all product specification records.Retrieves a specified product specification record.Updates the specified product offering.Updates a price list line record with a given sys\_id in the Price list line \[sn\_csm\_pricing\_price\_list\_line\] table.Updates the specified product specification.Creates a product offering catalog.Creates a product offering and associated product offering bundles.Creates a new price list line record in the Price List Line \[sn\_csm\_pricing\_price\_list\_line\] table.Creates a product specification record with the specified values.
+description: The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.Deletes the specified product offering.Inactivates, but doesn't delete, a price list line with a specific sys\_id.Deletes or archives the specified product specification.Retrieves a list of all product offering catalogs.Retrieves a product offering catalog.Retrieves all product offerings or a subset of product offerings, based on specified filter settings.Retrieves a specific product offering.Retrieves all price list line records in the instance.Retrieve details about a specific price list line.Retrieves all product specification records.Retrieves a specified product specification record.Updates the specified product offering.Updates a price list line record with a given sys\_id in the Price list line \[sn\_csm\_pricing\_price\_list\_line\] table.Updates the specified product specification.Creates a product offering catalog.Creates a product offering and associated product offering bundles.Creates a new price list line record in the Price List Line \[sn\_csm\_pricing\_price\_list\_line\] table.Creates a product specification record with the specified values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/product-catalog-open-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 147
+last_updated: "2026-09-10"
+reading_time_minutes: 163
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -16,9 +16,11 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.
 
-Use this API to manage product catalog information between external systems and the ServiceNow AI Platform. The Product Catalog Open API is a ServiceNow® implementation of the TM Forum Product Catalog Management API REST specification. This implementation is based on the [TMF620 Product Catalog Management API REST Specification Version 4](https://www.tmforum.org/resources/standard/tmf620-product-catalog-management-api-user-guide-v4-1-0/), April 2021.
+Use this API to manage product catalog information between external systems and the ServiceNow AI Platform. The Product Catalog Open API is a ServiceNow® implementation of the TM Forum Product Catalog Management API REST specification. This implementation is based on the [TMF620 Product Catalog Management API User Guide v5.0.0](https://www.tmforum.org/resources/specifications/tmf620-product-catalog-management-api-user-guide-v5-0-0/), September 2024.
 
-This API is included in the Product Catalog Advanced application, which is available on the ServiceNow Store and runs in the `sn_tmf_api` namespace.
+This API is included in the Product Catalog Advanced application, which is available on the ServiceNow Store.
+
+This API is provided within the `sn_tmf_api` namespace.
 
 The calling user must have the sn\_prd\_pm\_adv.catalog\_integrator role.
 
@@ -390,6 +392,20 @@ Default: All fields returned.
 
 </td></tr><tr><td>
 
+name
+
+</td><td>
+
+Filter catalogs on the name value. Combine the filter with the Accept-Language header to both filter on and return translated values.Default: Returns the name value in the language preference of your instance user.
+
+If using Accept-Language header, returns the translated name value according to the language set for the name field in the sys\_translated\_text table.
+
+For example, if a French translation exists for a product offering's name, you can filter on either the English name or the French name value.
+
+Data type: String
+
+</td></tr><tr><td>
+
 limit
 
 </td><td>
@@ -419,11 +435,40 @@ Default: 0
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
+<table id="table_kqy_wgy_fsb" class="rest_api_request_headers"><thead><tr><th>
 
-<table id="table_nww_xgm_lsb" class="rest_api_response_headers"><thead><tr><th>
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-JSON-only-entry-RESTAPI">
+
+Data format of the response body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table><table id="table_nww_xgm_lsb" class="rest_api_response_headers"><thead><tr><th>
 
 Header
 
@@ -535,6 +580,16 @@ Description of the product offering catalog. Only returned if the field contains
 
 </td></tr><tr><td>
 
+externalSystem
+
+</td><td>
+
+External system of the product offering catalog, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
+
+</td></tr><tr><td>
+
 id
 
 </td><td>
@@ -594,14 +649,41 @@ Response body.
     "id": "341f4953b71a9910ff00f203ae11a9bb",
     "name": "Home Internet Plan",
     "lifecycleStatus": "Active",
-    "status": "published"
+    "status": "published",
+    "externalSystem": "Salesforce-TMF641"
   },
   {
     "id": "69f494792b11525047f3f3e30391bf66",
     "name": "Chemical Processing",
     "lifecycleStatus": "Active",
     "description": " Catalog for Chemical Processing Industry",
-    "status": "published"
+    "status": "published",
+    "externalSystem": "Salesforce-TMF620"
+  }
+]
+```
+
+### cURL request
+
+This example retrieves the product offering catalogs whose translated name matches the specified value, and returns the results in French.
+
+```
+curl --location --request GET "https://instance.servicenow.com/api/sn_tmf_api/catalogmanagement/catalog?name=Forfait%20Internet%20%C3%A0%20domicile" \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+[
+  {
+    "id": "341f4953b71a9910ff00f203ae11a9bb",
+    "name": "Forfait Internet à domicile",
+    "lifecycleStatus": "Active",
+    "description": "Catalog for residential internet offerings",
+    "status": "published",
+    "externalSystem": "Salesforce-TMF641"
   }
 ]
 ```
@@ -654,11 +736,40 @@ List of fields to return in the response. Invalid fields are ignored.Data type: 
 Default: All fields.
 
 </td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
+</table><table id="table_gld_vkz_gsb" class="rest_api_request_body"><thead><tr><th>
 
-### Headers
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="content_type-JSON-only-entry-RESTAPI">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table>### Headers
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
@@ -730,11 +841,21 @@ Description of the product offering catalog.Data type: String
 
 </td></tr><tr><td>
 
+externalSystem
+
+</td><td>
+
+External system of the product offering catalog, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
+
+</td></tr><tr><td>
+
 id
 
 </td><td>
 
-Sys\_id of the product offering catalog .Data type: String
+Sys\_id of the product offering catalog.Data type: String
 
 Table: Product Offering Catalog \[sn\_prd\_pm\_product\_offering\_catalog\]
 
@@ -777,7 +898,30 @@ Response body.
   "id": "69f494792b11525047f3f3e30391bf66",
   "name": "Chemical Processing",
   "lifecycleStatus": "Active",
-  "description": " Catalog for Chemical Processing Industry"
+  "description": " Catalog for Chemical Processing Industry",
+  "externalSystem": "Salesforce-TMF620"
+}
+```
+
+### cURL request
+
+This example retrieves a product offering catalog and returns the translated field values in French.
+
+```
+curl --location --request GET "https://instance.servicenow.com/api/sn_tmf_api/catalogmanagement/catalog/69f494792b11525047f3f3e30391bf66" \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "id": "69f494792b11525047f3f3e30391bf66",
+  "name": "Traitement chimique",
+  "lifecycleStatus": "Active",
+  "description": " Catalog for Chemical Processing Industry",
+  "externalSystem": "Salesforce-TMF620"
 }
 ```
 
@@ -795,7 +939,7 @@ Default URL: `/api/sn_tmf_api/catalogmanagement/productOffering`
 |----|-----------|
 |None| |
 
-<table id="table_pfr_vgy_fsb" class="rest_api_query_parameters"><thead><tr><th>
+<table id="table_enn_t1g_5tb"><thead><tr><th>
 
 Name
 
@@ -803,7 +947,56 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr id="prod-cat-fields"><td>
+
+fields
+
+</td><td>
+
+List of fields to return in the response. Invalid fields are ignored.Valid fields:
+
+-   description
+-   externalId
+-   id
+-   internalId
+-   internalVersion
+-   lastUpdate
+-   name
+-   productSpecCharacteristic
+-   productSpecificationRelationship
+-   resourceSpecification
+-   serviceSpecification
+-   validFor
+-   version
+
+Data type: String
+
+Default: All fields are returned.
+
+</td></tr><tr id="prod-cat-externalId-query-param"><td>
+
+externalID
+
+</td><td>
+
+Filter product offerings by external identifier. Only offerings with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
+
+</td></tr><tr id="prod-cat-isSellable-query-param"><td>
+
+isSellable
+
+</td><td>
+
+Filter product offerings by sellable status. Only offerings with an isSellable value matching the specified value are returned in the response.-   true: Offering is sellable.
+-   false: Offering isn't sellable.
+
+Data type: Boolean
+
+Default: Don't filter by isSellable
+
+</td></tr><tr id="prod-cat-fields-offering"><td>
 
 fields
 
@@ -834,27 +1027,19 @@ Default: All fields are returned.
 
 </td></tr><tr><td>
 
-limit
+name
 
 </td><td>
 
-Maximum number of records to return. For requests that exceed this number of records, use the **offset** parameter to paginate record retrieval. Data type: Number
+Filter on the name of a product offering in the Product Offering \[sn\_prd\_pm\_product\_offering\] table. Combine the filter with the Accept-Language header to both filter on and return translated values.Default: Returns the name value in the language preference of your instance user.
 
-Default: 20
+If using Accept-Language header, returns the translated name value according to the language set for the name field in the sys\_translated\_text table.
 
-Maximum: 100
+For example, if a French translation exists for a product offering's name, you can filter on either the English name or the French name value.
 
-</td></tr><tr><td>
+Data type: String
 
-offset
-
-</td><td>
-
-Starting index at which to begin retrieving records. Use this value to paginate record retrieval. This functionality enables the retrieval of all records, regardless of the number of records, in small manageable chunks.Data type: Number
-
-Default: 0
-
-</td></tr><tr><td>
+</td></tr><tr id="prod-cat-spec-offering"><td>
 
 specification
 
@@ -864,7 +1049,7 @@ Filter product offerings by product specification sys\_id. Only product offering
 
 Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
 
-</td></tr><tr><td>
+</td></tr><tr id="prod-cat-state-offering"><td>
 
 state
 
@@ -888,11 +1073,40 @@ Data type: String
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Header|Description|
-|------|-----------|
-|Content-Type|Data format of the request body. Only supports **application/json**.|
+<table id="table_kqy_wgy_fsb" class="rest_api_request_headers"><thead><tr><th>
 
-<table id="table_ug4_sgm_lsb" class="rest_api_response_headers"><thead><tr><th>
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="content_type-JSON-only-entry-RESTAPI">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table><table id="table_ug4_sgm_lsb" class="rest_api_response_headers"><thead><tr><th>
 
 Header
 
@@ -1282,9 +1496,19 @@ externalId
 
 </td><td>
 
-External ID of the product offering.Data type: String
+External ID of the product offering. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.Data type: String
 
-Table: In the external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, external\_id field
+
+</td></tr><tr><td>
+
+externalSystem
+
+</td><td>
+
+External system of the product offering, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
 
 </td></tr><tr><td>
 
@@ -1304,7 +1528,7 @@ id
 
 Required. Initial version or external ID of the product offering.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version or external\_id field
 
 </td></tr><tr><td>
 
@@ -1314,7 +1538,7 @@ internalId
 
 Sys\_id or internal ID of the product offering record.Data type: String
 
-Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version field
 
 </td></tr><tr><td>
 
@@ -1537,13 +1761,27 @@ prodSpecCharValueUse.​valueType
 
 </td><td id="prodCat-offering-prodSpecCharValueUse_valueType-entry">
 
-Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
+Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   `address`
+-   `array.date`
+-   `array.datetime`
+-   `array.decimal`
+-   `array.integer`
+-   `array.object`
+-   `array.single_line_text`
+-   `attachment`
+-   `checkbox`
+-   `choice`
+-   `date`
+-   `date_time`
+-   `decimal`
+-   `duration`
+-   `email`
+-   `integer`
+-   `object`
+-   `single_line_text`
+-   `yes_no`
 
 Data type: String
 
@@ -1685,11 +1923,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   Array.Date
+-   Array.Datetime
+-   Array.Decimal
+-   Array.Integer
+-   Array.Object
+-   Array.Single Line Test
+-   Checkbox
+-   Choice
+-   Date,Address
+-   Email
+-   Integer,Date/Time
+-   Object
+-   Single Line Text
+-   Yes/No
 
 Data type: String
 
@@ -1919,6 +2166,7 @@ Response body:
     "id": "7b012c4d41ea7910f8771355f12634a4",
     "externalId": "7b012c4d41ea7910f8771355f12634a4",
     "href": "/api/sn_tmf_api/catalogmanagement/productOffering/0361dd9fd0a63110f8770dbf976be16f",
+    "externalSystem": "Salesforce-TMF620",
     "name": "Ultimate internet - 1Gbps Plan",
     "displayName": "Ultimate internet - 1Gbps Plan",
     "description": "Ultimate internet - 1Gbps Plan",
@@ -2128,9 +2376,79 @@ Response body:
 ]
 ```
 
+The following code example retrieves the product offerings whose translated name matches the specified value, and returns the results in French.
+
+```
+curl --location --request GET "https://instance.service-now.com/api/sn_tmf_api/catalogmanagement/productOffering?name=Forfait%20Internet%20Ultime%20-%201%20Gbps" \
+--header "Accept:application/json" \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body:
+
+```
+[
+  {
+    "id": "7b012c4d41ea7910f8771355f12634a4",
+    "externalId": "7b012c4d41ea7910f8771355f12634a4",
+    "href": "/api/sn_tmf_api/catalogmanagement/productOffering/0361dd9fd0a63110f8770dbf976be16f",
+    "externalSystem": "Salesforce-TMF620",
+    "name": "Forfait Internet Ultime - 1 Gbps",
+    "displayName": "Ultimate internet - 1Gbps Plan",
+    "description": "Ultimate internet - 1Gbps Plan",
+    "isSellable": true,
+    "lifecycleStatus": "Active",
+    "isBundle": false,
+    "lastUpdate": "2025-03-08 02:07:04",
+    "version": "",
+    "internalVersion": "1",
+    "internalId": "0361dd9fd0a63110f8770dbf976be16f",
+    "validFor": {
+      "startDateTime": "2023-11-14",
+      "endDateTime": ""
+    },
+    "productOfferingTerm": "not_applicable",
+    "productOfferingPrice": [
+      {
+        "priceType": "recurring",
+        "price": {
+          "taxIncludedAmount": {
+            "unit": "USD",
+            "value": 0
+          }
+        }
+      },
+      {
+        "priceType": "nonRecurring",
+        "price": {
+          "taxIncludedAmount": {
+            "unit": "USD",
+            "value": 0
+          }
+        }
+      }
+    ],
+    "productOfferingCharacteristic": "",
+    "bundledProductOffering": [],
+    "bundledGroupProductOffering": [],
+    "productSpecification": {},
+    "prodSpecCharValueUse": [],
+    "channel": "",
+    "category": [
+      {
+        "id": "e6f0159fd0a63110f8770dbf976be18c",
+        "name": "Internet"
+      }
+    ],
+    "status": "published"
+  }
+]
+```
+
 ## Product Catalog Open API - GET /sn\_tmf\_api/catalogmanagement/productOffering/\{id\}
 
-Retrieves a product offering.
+Retrieves a specific product offering.
 
 ### URL format
 
@@ -2157,7 +2475,7 @@ Initial version of the product offering to retrieve.Data type: String
 Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
 
 </td></tr></tbody>
-</table><table id="table_pfr_vgy_fsb" class="rest_api_query_parameters"><thead><tr><th>
+</table><table id="table_enn_t1g_5tb"><thead><tr><th>
 
 Name
 
@@ -2165,7 +2483,17 @@ Name
 
 Description
 
-</th></tr></thead><tbody><tr><td>
+</th></tr></thead><tbody><tr id="prod-cat-externalId-query-param"><td>
+
+externalID
+
+</td><td>
+
+Filter product offerings by external identifier. Only offerings with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
+
+</td></tr><tr id="prod-cat-fields-offering"><td>
 
 fields
 
@@ -2194,7 +2522,34 @@ Data type: String
 
 Default: All fields are returned.
 
+</td></tr><tr id="prod-cat-isSellable-query-param"><td>
+
+isSellable
+
+</td><td>
+
+Filter product offerings by sellable status. Only offerings with an isSellable value matching the specified value are returned in the response.-   true: Offering is sellable.
+-   false: Offering isn't sellable.
+
+Data type: Boolean
+
+Default: Don't filter by isSellable
+
 </td></tr><tr><td>
+
+name
+
+</td><td>
+
+Filter on the name of a product offering in the Product Offering \[sn\_prd\_pm\_product\_offering\] table. Combine the filter with the Accept-Language header to both filter on and return translated values.Default: Returns the name value in the language preference of your instance user.
+
+If using Accept-Language header, returns the translated name value according to the language set for the name field in the sys\_translated\_text table.
+
+For example, if a French translation exists for a product offering's name, you can filter on either the English name or the French name value.
+
+Data type: String
+
+</td></tr><tr id="prod-cat-spec-offering"><td>
 
 specification
 
@@ -2204,7 +2559,7 @@ Filter product offerings by product specification sys\_id. Only product offering
 
 Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
 
-</td></tr><tr><td>
+</td></tr><tr id="prod-cat-state-offering"><td>
 
 state
 
@@ -2228,13 +2583,42 @@ Data type: String
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
+<table id="table_kqy_wgy_fsb" class="rest_api_request_headers"><thead><tr><th>
 
-|Header|Description|
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="content_type-JSON-only-entry-RESTAPI">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table>|Header|Description|
 |------|-----------|
-|Content-Type|Data format of the request body. Only supports **application/json**.|
+|None| |
 
 ### Status codes
 
@@ -2574,9 +2958,19 @@ externalId
 
 </td><td>
 
-External ID of the product offering.Data type: String
+External ID of the product offering. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.Data type: String
 
-Table: In the external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, external\_id field
+
+</td></tr><tr><td>
+
+externalSystem
+
+</td><td>
+
+External system of the product offering, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
 
 </td></tr><tr><td>
 
@@ -2596,7 +2990,7 @@ id
 
 Required. Initial version or external ID of the product offering.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version or external\_id field
 
 </td></tr><tr><td>
 
@@ -2606,7 +3000,7 @@ internalId
 
 Sys\_id or internal ID of the product offering record.Data type: String
 
-Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version field
 
 </td></tr><tr><td>
 
@@ -2831,13 +3225,27 @@ prodSpecCharValueUse.​valueType
 
 </td><td id="prodCat-offering-prodSpecCharValueUse_valueType-entry">
 
-Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
+Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   `address`
+-   `array.date`
+-   `array.datetime`
+-   `array.decimal`
+-   `array.integer`
+-   `array.object`
+-   `array.single_line_text`
+-   `attachment`
+-   `checkbox`
+-   `choice`
+-   `date`
+-   `date_time`
+-   `decimal`
+-   `duration`
+-   `email`
+-   `integer`
+-   `object`
+-   `single_line_text`
+-   `yes_no`
 
 Data type: String
 
@@ -2979,11 +3387,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   Array.Date
+-   Array.Datetime
+-   Array.Decimal
+-   Array.Integer
+-   Array.Object
+-   Array.Single Line Test
+-   Checkbox
+-   Choice
+-   Date,Address
+-   Email
+-   Integer,Date/Time
+-   Object
+-   Single Line Text
+-   Yes/No
 
 Data type: String
 
@@ -3213,7 +3630,181 @@ Response body:
   "id": "313b917843235210a82ed6085bb8f2c7",
   "externalId": "313b917843235210a82ed6085bb8f2c7",
   "href": "/api/sn_tmf_api/catalogmanagement/productOffering/03c99cb53bf066509b48d69a04e45a11",
+  "externalSystem": "Salesforce-TMF620",
   "name": "Internet bundle",
+  "displayName": "Internet bundle",
+  "description": "Internet bundle",
+  "isSellable": false,
+  "lifecycleStatus": "Draft",
+  "isBundle": true,
+  "lastUpdate": "2025-04-09 15:59:09",
+  "version": "",
+  "internalVersion": "1",
+  "internalId": "03c99cb53bf066509b48d69a04e45a11",
+  "validFor": {
+    "startDateTime": "2028-12-15",
+    "endDateTime": "2034-01-14"
+  },
+  "productOfferingTerm": "not_applicable",
+  "productOfferingPrice": [
+    {
+      "priceType": "recurring",
+      "price": {
+        "taxIncludedAmount": {
+          "unit": "USD",
+          "value": 0
+        }
+      }
+    },
+    {
+      "priceType": "nonRecurring",
+      "price": {
+        "taxIncludedAmount": {
+          "unit": "USD",
+          "value": 0
+        }
+      }
+    }
+  ],
+  "productOfferingCharacteristic": [
+    {
+      "name": "Connectivity need",
+      "valueType": "choice",
+      "characteristicValueSpecification": [
+        {
+          "isMandatory": false,
+          "isDefault": false,
+          "value": "When in use"
+        }
+      ]
+    },
+    {
+      "name": "Firewall Security",
+      "valueType": "choice",
+      "characteristicValueSpecification": [
+        {
+          "isMandatory": false,
+          "isDefault": true,
+          "value": "Premium"
+        }
+      ]
+    }
+  ],
+  "bundledProductOffering": [
+    {
+      "href": "/api/sn_tmf_api/catalogmanagement/productOffering/57c99cb53bf066509b48d69a04e45a17",
+      "id": "0f61dd9fd0a63110f8770dbf976be168",
+      "externalId": "EXT-123",
+      "name": "Solana Sports streaming channel",
+      "version": "1",
+      "bundledProductOfferingOption": {
+        "numberRelOfferDefault": "1",
+        "numberRelOfferLowerLimit": "1",
+        "numberRelOfferUpperLimit": "1"
+      }
+    }
+  ],
+  "bundledGroupProductOffering": [
+    {
+      "id": "063b957843235210a82ed6085bb8f205",
+      "name": "Streaming Channel",
+      "bundledProductOffering": [
+        {
+          "href": "/api/sn_tmf_api/catalogmanagement/productOffering/5bc99cb53bf066509b48d69a04e45a1a",
+          "id": "62619d9fd0a63110f8770dbf976be180",
+          "externalId": "EXT-345",
+          "name": "Solana Movie streaming channel",
+          "version": "1",
+          "bundledProductOfferingOption": {
+            "numberRelOfferDefault": "1",
+            "numberRelOfferLowerLimit": "1",
+            "numberRelOfferUpperLimit": "1"
+          }
+        }
+      ],
+      "bundledGroupProductOfferingOption": {
+        "numberRelOfferLowerLimit": "1",
+        "numberRelOfferUpperLimit": "1"
+      }
+    }
+  ],
+  "productSpecification": {
+    "id": "cfe5ef6a53702010cd6dddeeff7b12f6",
+    "name": "SD-WAN Service Package",
+    "version": "",
+    "internalVersion": "3",
+    "internalId": "cfe5ef6a53702010cd6dddeeff7b12f6"
+  },
+  "prodSpecCharValueUse": [
+    {
+      "name": "Tenancy",
+      "description": "Tenancy",
+      "valueType": "choice",
+      "validFor": {
+        "startDatetime": "2025-02-27 21:04:24"
+      },
+      "productSpecCharacteristicValue": [
+        {
+          "value": "Premium (>50 sites)",
+          "validFor": {
+            "startDateTime": ""
+          },
+          "isDefault": false,
+          "isMandatory": false
+        },
+        {
+          "value": "Base (10 site)",
+          "validFor": {
+            "startDateTime": ""
+          },
+          "isDefault": false,
+          "isMandatory": false
+        }
+      ],
+      "productSpecification": {
+        "id": "216663aa53702010cd6dddeeff7b12b5",
+        "name": "SD-WAN Controller",
+        "version": "",
+        "internalVersion": "1",
+        "internalId": "216663aa53702010cd6dddeeff7b12b5"
+      }
+    }
+  ],
+  "channel": [
+    {
+      "id": "58ad5522c3702010df4773ce3640ddb2",
+      "name": "Agent Assist"
+    }
+  ],
+  "category": [
+    {
+      "id": "13e305a143b631105029d1529ab8f267",
+      "name": "SD-WAN_all_offers"
+    }
+  ],
+  "status": "draft"
+}
+```
+
+### cURL request
+
+This example retrieves the specified product offering and returns the translated field values in French.
+
+```
+curl --location --request GET "https://instance.service-now.com/api/sn_tmf_api/catalogmanagement/productOffering/03c99cb53bf066509b48d69a04e45a11" \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body:
+
+```
+{
+  "id": "313b917843235210a82ed6085bb8f2c7",
+  "externalId": "313b917843235210a82ed6085bb8f2c7",
+  "href": "/api/sn_tmf_api/catalogmanagement/productOffering/03c99cb53bf066509b48d69a04e45a11",
+  "externalSystem": "Salesforce-TMF620",
+  "name": "Offre groupée Internet",
   "displayName": "Internet bundle",
   "description": "Internet bundle",
   "isSellable": false,
@@ -3382,7 +3973,7 @@ Default URL: `/api/sn_tmf_api/catalogmanagement/productOfferingPrice`
 |----|-----------|
 |none| |
 
-<table id="id_nzv_ycw_22c" class="rest_api_query_parameters"><thead><tr><th>
+<table id="query-table-prodofferprice" class="rest_api_query_parameters"><thead><tr><th>
 
 Name
 
@@ -3406,9 +3997,13 @@ name
 
 </td><td>
 
-Filter price list lines that belong to the name of a given price list.Table: Price Lists \[sn\_csm\_pricing\_price\_list\]
+Filter on name of a given price list in the Price Lists \[sn\_csm\_pricing\_price\_list\] table. Combine the filter with the Accept-Language header to both filter on and return translated values.If using Accept-Language header, returns the translated name value according to the language set for the name field in the sys\_translated\_text table.
+
+For example, if a French translation exists for a product offering's name, you can filter on either the English name or the French name value.
 
 Data type: String
+
+Default: Returns the name value in the language preference of your instance user.
 
 </td></tr><tr><td>
 
@@ -3490,11 +4085,40 @@ Data type: String
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
+<table id="table_ppp_j5w_22c" class="rest_api_request_headers"><thead><tr><th>
 
-|Header|Description|
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="content_type-JSON-only-entry-RESTAPI">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table>|Header|Description|
 |------|-----------|
 |Content-Type|Data format of the response body. Only supports **application/json**.|
 
@@ -3660,6 +4284,14 @@ Price list information associated with the price list line.Data type: Object
 }
 ```
 
+</td></tr><tr id="prodOfferingPrice-response-priceList.type"><td>
+
+priceList.@type
+
+</td><td>
+
+The type of price list. When sub-classing, this defines the sub-class extensible name. Always has a value of `priceList`.Data type: String
+
 </td></tr><tr id="prodOfferingPrice-response-priceList.id"><td>
 
 priceList.id
@@ -3675,14 +4307,6 @@ priceList.name
 </td><td>
 
 Name of the price list.Data type: String
-
-</td></tr><tr id="prodOfferingPrice-response-priceList.type"><td>
-
-priceList.@type
-
-</td><td>
-
-The type of price list. When sub-classing, this defines the sub-class extensible name. Always has a value of `priceList`.Data type: String
 
 </td></tr><tr id="prodOfferingPrice-response-priceType"><td>
 
@@ -3909,6 +4533,92 @@ Response body.
 ]
 ```
 
+### cURL request
+
+The following example returns the price list lines whose translated name matches the specified value, and returns the results in French.
+
+```
+curl "http://instance.servicenow.com/api/sn_tmf_api/catalogmanagement/productOfferingPrice?name=Nouvelle%20liste%20de%20prix" \
+--request GET \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+[
+  {
+    "id": "2c4628ac7f4f9e50f8994fa63c86653c",
+    "name": "Nouvelle liste de prix",
+    "lastUpdate": "2025-01-08 19:57:28",
+    "isBundle": false,
+    "lifecycleStatus": "Draft",
+    "href": "/api/sn_tmf_api/catalogmanagement/productOfferingPrice/2c4628ac7f4f9e50f8994fa63c86653c",
+    "validFor": {
+      "startDateTime": "2027-03-22 22:15:58",
+      "endDateTime": ""
+    },
+    "productOffering": {
+      "id": "f2c92ac6a5260210f8774c9b4be6ce56",
+      "name": "Managed Connectivity Services Supreme Bundle",
+      "internalVersion": "1"
+    },
+    "priceType": "one_time",
+    "recurringChargePeriodType": "",
+    "unitOfMeasure": {
+      "id": "9a7a119953020110286eddeeff7b1238",
+      "amount": 1,
+      "units": "Month"
+    },
+    "price": {
+      "units": "USD",
+      "value": "800"
+    },
+    "priceList": {
+      "id": "d653246c7f4f9e50f8994fa63c86655a",
+      "name": "new Price list",
+      "@type": "priceList"
+    },
+    "@type": "ProductOfferingPrice"
+  },
+  {
+    "id": "dfb7ec607f8f9e50f8994fa63c866569",
+    "name": "Nouvelle liste de prix",
+    "lastUpdate": "2025-01-08 19:57:46",
+    "isBundle": false,
+    "lifecycleStatus": "Draft",
+    "href": "/api/sn_tmf_api/catalogmanagement/productOfferingPrice/dfb7ec607f8f9e50f8994fa63c866569",
+    "validFor": {
+      "startDateTime": "2026-05-28 22:15:58",
+      "endDateTime": ""
+    },
+    "productOffering": {
+      "id": "f2c92ac6a5260210f8774c9b4be6ce56",
+      "name": "Managed Connectivity Services Supreme Bundle",
+      "internalVersion": "1"
+    },
+    "priceType": "one_time",
+    "recurringChargePeriodType": "",
+    "unitOfMeasure": {
+      "id": "1eaa559953020110286eddeeff7b12c7",
+      "amount": 1,
+      "units": "Year"
+    },
+    "price": {
+      "units": "USD",
+      "value": "800"
+    },
+    "priceList": {
+      "id": "d653246c7f4f9e50f8994fa63c86655a",
+      "name": "new Price list",
+      "@type": "priceList"
+    },
+    "@type": "ProductOfferingPrice"
+  }
+]
+```
+
 ## Product Catalog Open API - GET /sn\_tmf\_api/catalogmanagement/productOfferingPrice/\{id\}
 
 Retrieve details about a specific price list line.
@@ -4038,19 +4748,77 @@ Filter price list line by a given start date and time.Format: YYYY-MM-DD HH:mm:s
 Data type: String
 
 </td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
+</table><table class="rest_api_request_body"><thead><tr><th>
 
-### Headers
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="content_type-JSON-only-entry-RESTAPI">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table>### Headers
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
+<table id="table_frt_35w_22c" class="rest_api_request_headers"><thead><tr><th>
 
-|Header|Description|
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="d2805e217">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table>|Header|Description|
 |------|-----------|
 |Content-Type|Data format of the response body. Only supports **application/json**.|
 
@@ -4216,6 +4984,14 @@ Price list information associated with the price list line.Data type: Object
 }
 ```
 
+</td></tr><tr id="prodOfferingPrice-response-priceList.type"><td>
+
+priceList.@type
+
+</td><td>
+
+The type of price list. When sub-classing, this defines the sub-class extensible name. Always has a value of `priceList`.Data type: String
+
 </td></tr><tr id="prodOfferingPrice-response-priceList.id"><td>
 
 priceList.id
@@ -4231,14 +5007,6 @@ priceList.name
 </td><td>
 
 Name of the price list.Data type: String
-
-</td></tr><tr id="prodOfferingPrice-response-priceList.type"><td>
-
-priceList.@type
-
-</td><td>
-
-The type of price list. When sub-classing, this defines the sub-class extensible name. Always has a value of `priceList`.Data type: String
 
 </td></tr><tr id="prodOfferingPrice-response-priceType"><td>
 
@@ -4429,6 +5197,56 @@ Response.
 }
 ```
 
+### cURL request
+
+The following example returns details of the product offering price with ID dfb7ec60..., with the translated field values returned in French.
+
+```
+curl "http://instance.servicenow.com/api/sn_tmf_api/catalogmanagement/productOfferingPrice/dfb7ec607f8f9e50f8994fa63c866569" \
+--request GET \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response.
+
+```
+{
+  "id": "dfb7ec607f8f9e50f8994fa63c866569",
+  "name": "Nouvelle liste de prix",
+  "lastUpdate": "2025-01-08 19:57:46",
+  "isBundle": false,
+  "lifecycleStatus": "Draft",
+  "href": "/api/sn_tmf_api/catalogmanagement/productOfferingPrice/dfb7ec607f8f9e50f8994fa63c866569",
+  "validFor": {
+    "startDateTime": "2026-05-28 22:15:58",
+    "endDateTime": ""
+  },
+  "productOffering": {
+    "id": "f2c92ac6a5260210f8774c9b4be6ce56",
+    "name": "Managed Connectivity Services Supreme Bundle",
+    "internalVersion": "1"
+  },
+  "priceType": "one_time",
+  "recurringChargePeriodType": "",
+  "unitOfMeasure": {
+    "id": "1eaa559953020110286eddeeff7b12c7",
+    "amount": 1,
+    "units": "Year"
+  },
+  "price": {
+    "units": "USD",
+    "value": "800"
+  },
+  "priceList": {
+    "id": "d653246c7f4f9e50f8994fa63c86655a",
+    "name": "new Price list",
+    "@type": "priceList"
+  },
+  "@type": "ProductOfferingPrice"
+}
+```
+
 ## Product Catalog Open API - GET /sn\_tmf\_api/catalogmanagement/productSpecification
 
 Retrieves all product specification records.
@@ -4505,12 +5323,19 @@ state
 
 </td><td>
 
-Filter product specifications by state. Only product specifications in the specified state are returned in the response.Accepted values:
+Current state of the order. For this endpoint, this value is always new.Data type: String
 
--   archived
--   draft
--   published
--   retired
+</td></tr><tr><td>
+
+name
+
+</td><td>
+
+Filter product specifications on the name value. Combine the filter with the Accept-Language header to both filter on and return translated values.Default: Returns the name value in the language preference of your instance user.
+
+If using Accept-Language header, returns the translated name value according to the language set for the name field in the sys\_translated\_text table.
+
+For example, if a French translation exists for a product offering's name, you can filter on either the English name or the French name value.
 
 Data type: String
 
@@ -4533,11 +5358,27 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Accept
+Content-Type
 
-</td><td id="accept-entry-RESTAPI">
+</td><td id="content_type-JSON-only-entry-RESTAPI">
 
-Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
 
 </td></tr></tbody>
 </table><table id="table_pkr_rgm_lsb" class="rest_api_response_headers"><thead><tr><th>
@@ -4664,7 +5505,7 @@ externalId
 
 </td><td>
 
-External ID of the product specification.
+External ID of the product specification. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.
 
 Data type: String
 
@@ -4679,6 +5520,16 @@ href
 Relative link to the resource record.Data type: String
 
 Default: Blank string
+
+</td></tr><tr><td>
+
+externalSystem
+
+</td><td>
+
+External system of the product specification, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
 
 </td></tr><tr><td>
 
@@ -4902,7 +5753,24 @@ productSpecCharacteristic.​valueType
 
 </td><td>
 
-Value type of the characteristic, such as choice or email.Data type: String
+Value type of the characteristic, such as choice or email. Can be of complex or non-complex type.Data type: String
+
+Accepted values:
+
+-   Date,Address
+-   Integer,Date/Time
+-   Array.Integer
+-   Array.Single Line Test
+-   Single Line Test
+-   Array.Object
+-   Array.Date
+-   Array.Decimal
+-   Yes/No
+-   Object
+-   Array.Datetime
+-   Checkbox
+-   Email
+-   Choice
 
 </td></tr><tr><td>
 
@@ -5273,6 +6141,7 @@ Response body:
   {
     "id": "0435b48a742e4a10f877468e695efa3c",
     "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/0435b48a742e4a10f877468e695efa3c",
+    "externalSystem": "Salesforce-TMF620",
     "name": "Managed PoS PS",
     "displayName": "Managed PoS PS",
     "version": "",
@@ -5386,6 +6255,46 @@ Response body:
 ]
 ```
 
+### cURL request
+
+This example retrieves the product specifications whose translated name matches the specified value, and returns the results in French.
+
+```
+curl --location --request GET "https://instance.service-now.com/api/sn_tmf_api/catalogmanagement/productSpecification?name=Service%20de%20configuration%20Wi-Fi%20PS" \
+--header "Accept:application/json" \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body:
+
+```
+[
+  {
+    "id": "1a0936f840102610f87798b149fd435d",
+    "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/1a0936f840102610f87798b149fd435d",
+    "name": "Service de configuration Wi-Fi PS",
+    "displayName": "Wi-Fi Configuration Setup Service PS",
+    "version": "",
+    "internalVersion": "1",
+    "internalId": "1a0936f840102610f87798b149fd435d",
+    "description": "Wi-Fi Configuration Setup Service PS",
+    "lastUpdate": "2025-03-13 21:01:14",
+    "lifecycleStatus": "Active",
+    "isBundle": false,
+    "validFor": {
+      "startDateTime": "2025-03-12",
+      "endDateTime": ""
+    },
+    "serviceSpecification": [],
+    "productSpecificationRelationship": [],
+    "resourceSpecification": [],
+    "productSpecCharacteristic": [],
+    "status": "published"
+  }
+]
+```
+
 ## Product Catalog Open API - GET /sn\_tmf\_api/catalogmanagement/productSpecification/\{id\}
 
 Retrieves a specified product specification record.
@@ -5406,7 +6315,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Id
+id
 
 </td><td>
 
@@ -5455,14 +6364,7 @@ state
 
 </td><td>
 
-Filter product specifications by state. Only product specifications in the specified state are returned in the response.Accepted values:
-
--   archived
--   draft
--   published
--   retired
-
-Data type: String
+State of the service order. For more information, see.Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -5473,11 +6375,40 @@ Data type: String
 
 The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
+<table id="table_kqy_wgy_fsb" class="rest_api_request_headers"><thead><tr><th>
 
-|Header|Description|
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Content-Type
+
+</td><td id="content_type-JSON-only-entry-RESTAPI">
+
+Data format of the request body. Only supports **application/json**.
+
+</td></tr><tr><td>
+
+Accept-Language
+
+</td><td>
+
+Specify the language to translate a specific field into. The following fields support translation:
+
+-   name
+-   displayName
+-   description
+
+The field to translate must match an existing record in the sys\_translated\_text table for that field and language. Each field requires its own record. A record for name does not translate displayName or description.
+
+If you don't include the header, the API returns values in the instance language preference. The request does not fail.
+
+</td></tr></tbody>
+</table>|Header|Description|
 |------|-----------|
 |Content-Type|Data format of the response body. Only supports **application/json**.|
 
@@ -5553,11 +6484,21 @@ externalId
 
 </td><td>
 
-External ID of the product specification.
+External ID of the product specification. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.
 
 Data type: String
 
 Table: In the external\_id field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+
+</td></tr><tr><td>
+
+externalSystem
+
+</td><td>
+
+External system of the product specification, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
 
 </td></tr><tr><td>
 
@@ -5791,7 +6732,24 @@ productSpecCharacteristic.​valueType
 
 </td><td>
 
-Value type of the characteristic, such as choice or email.Data type: String
+Value type of the characteristic. Can be of complex or non-complex type, such as choice or email.Accepted values:
+
+-   Date,Address
+-   Integer,Date/Time
+-   Array.Integer
+-   Array.Single Line Test
+-   Single Line Test
+-   Array.Object
+-   Array.Date
+-   Array.Decimal
+-   Yes/No
+-   Object
+-   Array.Datetime
+-   Checkbox
+-   Email
+-   Choice
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -6153,7 +7111,8 @@ Response body:
 ```
 {
   "id": "cfe5ef6a53702010cd6dddeeff7b12f6",
-  "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/497a39a7c3d312105acc9e62b540dd14",
+  "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/497a39a7c3d312105acc9e62b540dd14",,
+  "externalSystem": "Salesforce-TMF620",
   "name": "SD-WAN Service Package",
   "displayName": "SD-WAN Service Package v4",
   "version": "",
@@ -6455,6 +7414,136 @@ Response body:
       "valueType": "yes_no",
       "validFor": {
         "startDatetime": "2027-12-13 02:30:39"
+      }
+    }
+  ],
+  "status": "published"
+}
+```
+
+This example retrieves the specified product specification record, with the translated field values returned in French.
+
+```
+curl --location --request GET "https://instance.service-now.com/api/sn_tmf_api/catalogmanagement/productSpecification/cfe5ef6a53702010cd6dddeeff7b12f6" \
+--header "Accept:application/json" \
+--header "Accept-Language:fr" \
+--user 'username':'password'
+```
+
+Response body:
+
+```
+{
+  "id": "cfe5ef6a53702010cd6dddeeff7b12f6",
+  "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/497a39a7c3d312105acc9e62b540dd14",
+  "externalSystem": "Salesforce-TMF620",
+  "name": "Forfait de service SD-WAN",
+  "displayName": "SD-WAN Service Package v4",
+  "version": "",
+  "internalVersion": "4",
+  "internalId": "cfe5ef6a53702010cd6dddeeff7b12f6",
+  "description": "SD WAN Service Package",
+  "lastUpdate": "2029-04-15 20:05:37",
+  "lifecycleStatus": "Active",
+  "isBundle": true,
+  "validFor": {
+    "startDateTime": "2033-04-15",
+    "endDateTime": ""
+  },
+  "serviceSpecification": [],
+  "productSpecificationRelationship": [
+    {
+      "id": "a6514bd3534560102f18ddeeff7b1247",
+      "name": "SD-WAN Security",
+      "version": "",
+      "internalVersion": "2",
+      "internalId": "a6514bd3534560102f18ddeeff7b1247",
+      "type": "Service",
+      "compatibilityRelationshipType": "",
+      "validFor": {
+        "startDateTime": "2030-09-25",
+        "endDateTime": "2035-10-27"
+      }
+    },
+    {
+      "id": "39b627aa53702010cd6dddeeff7b1202",
+      "name": "SD-WAN Edge Device",
+      "version": "",
+      "internalVersion": "2",
+      "internalId": "39b627aa53702010cd6dddeeff7b1202",
+      "type": "Service",
+      "compatibilityRelationshipType": "",
+      "validFor": {
+        "startDateTime": "2030-09-27",
+        "endDateTime": "2035-10-27"
+      }
+    },
+    {
+      "id": "216663aa53702010cd6dddeeff7b12b5",
+      "name": "SD-WAN Controller",
+      "version": "",
+      "internalVersion": "2",
+      "internalId": "216663aa53702010cd6dddeeff7b12b5",
+      "type": "Service",
+      "compatibilityRelationshipType": "",
+      "validFor": {
+        "startDateTime": "2029-04-03",
+        "endDateTime": ""
+      }
+    }
+  ],
+  "resourceSpecification": [],
+  "productSpecCharacteristic": [
+    {
+      "productSpecCharacteristicValue": [
+        {
+          "value": "0.01",
+          "validFor": {
+            "startDateTime": ""
+          },
+          "isDefault": false,
+          "isMandatory": false
+        },
+        {
+          "value": "1",
+          "validFor": {
+            "startDateTime": ""
+          },
+          "isDefault": false,
+          "isMandatory": false
+        }
+      ],
+      "name": "Down Time",
+      "description": "Down Time",
+      "valueType": "choice",
+      "validFor": {
+        "startDatetime": "2027-12-13 02:36:15"
+      }
+    },
+    {
+      "productSpecCharacteristicValue": [
+        {
+          "value": "1 Gbps",
+          "validFor": {
+            "startDateTime": ""
+          },
+          "isDefault": false,
+          "isMandatory": false
+        },
+        {
+          "value": "5 Gbps",
+          "validFor": {
+            "startDateTime": ""
+          },
+          "isDefault": false,
+          "isMandatory": false
+        }
+      ],
+      "name": "Bandwidth",
+      "description": "Bandwidth",
+      "valueType": "choice",
+      "validFor": {
+        "startDatetime": "2027-12-13 02:32:11"
       }
     }
   ],
@@ -6780,6 +7869,16 @@ Required. Description of the product offering.Data type: String
 
 </td></tr><tr><td>
 
+externalSystem
+
+</td><td>
+
+External system of the product offering, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
+
+</td></tr><tr><td>
+
 displayName
 
 </td><td id="prodCat-offering-displayName-entry">
@@ -6792,9 +7891,9 @@ externalId
 
 </td><td>
 
-External ID of the product offering.Data type: String
+External ID of the product offering. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.Data type: String
 
-Table: In the external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, external\_id field
 
 </td></tr><tr><td>
 
@@ -6804,7 +7903,7 @@ id
 
 Required. Initial version or external ID of the product offering.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version or external\_id field
 
 </td></tr><tr><td>
 
@@ -6814,7 +7913,7 @@ internalId
 
 Sys\_id or internal ID of the product offering record.Data type: String
 
-Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version field
 
 </td></tr><tr><td>
 
@@ -7039,13 +8138,27 @@ prodSpecCharValueUse.​valueType
 
 </td><td id="prodCat-offering-prodSpecCharValueUse_valueType-entry">
 
-Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
+Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   `address`
+-   `array.date`
+-   `array.datetime`
+-   `array.decimal`
+-   `array.integer`
+-   `array.object`
+-   `array.single_line_text`
+-   `attachment`
+-   `checkbox`
+-   `choice`
+-   `date`
+-   `date_time`
+-   `decimal`
+-   `duration`
+-   `email`
+-   `integer`
+-   `object`
+-   `single_line_text`
+-   `yes_no`
 
 Data type: String
 
@@ -7191,11 +8304,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   Array.Date
+-   Array.Datetime
+-   Array.Decimal
+-   Array.Integer
+-   Array.Object
+-   Array.Single Line Test
+-   Checkbox
+-   Choice
+-   Date,Address
+-   Email
+-   Integer,Date/Time
+-   Object
+-   Single Line Text
+-   Yes/No
 
 Data type: String
 
@@ -7454,7 +8576,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d3179e285">
+</td><td id="d3752e293">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -7473,7 +8595,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d3179e298">
+</td><td id="d3752e306">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -7488,7 +8610,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3179e314">
+</td><td id="d3752e319">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -7496,7 +8618,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3179e325">
+</td><td id="d3752e330">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -7504,7 +8626,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d3179e336">
+</td><td id="d3752e341">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -7512,7 +8634,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d3179e390">
+</td><td id="d3752e395">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -7522,7 +8644,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d3179e403">
+</td><td id="d3752e408">
 
 Name of the group of child product offerings.Data type: String
 
@@ -7550,7 +8672,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d3179e428">
+</td><td id="d3752e433">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -7566,7 +8688,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d3179e441">
+</td><td id="d3752e446">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -7576,7 +8698,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3179e454">
+</td><td id="d3752e459">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -7586,7 +8708,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3179e467">
+</td><td id="d3752e472">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -7594,19 +8716,9 @@ Possible values: 0 to unbound.
 
 </td></tr><tr><td>
 
-bundledProductOffering.​id
-
-</td><td id="d3179e508">
-
-Sys\_id or external ID of the bundled product offering.Data type: String
-
-Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
-
-</td></tr><tr><td>
-
 bundledProductOffering.​externalId
 
-</td><td id="d3179e480">
+</td><td id="d3752e485">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -7614,9 +8726,19 @@ Data type: String
 
 </td></tr><tr><td>
 
+bundledProductOffering.​id
+
+</td><td id="d3752e513">
+
+Sys\_id or external ID of the bundled product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+</td></tr><tr><td>
+
 bundledProductOffering.​name
 
-</td><td id="d3179e521">
+</td><td id="d3752e526">
 
 Name of the product offering bundle.Data type: String
 
@@ -7624,7 +8746,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d3179e532">
+</td><td id="d3752e537">
 
 Catalog version of the product offering. Data type: String
 
@@ -7719,7 +8841,7 @@ Description of the product offering.Data type: String
 
 displayName
 
-</td><td id="d3179e545">
+</td><td id="d3752e550">
 
 Display name of the product offering.Data type: String
 
@@ -7729,9 +8851,19 @@ externalId
 
 </td><td>
 
-External ID of the product offering.Data type: String
+External ID of the product offering. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.Data type: String
 
-Table: In the external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, external\_id field
+
+</td></tr><tr><td>
+
+externalSystem
+
+</td><td>
+
+External system of the product offering, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
 
 </td></tr><tr><td>
 
@@ -7751,7 +8883,7 @@ id
 
 Required. Initial version or external ID of the product offering.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version or external\_id field
 
 </td></tr><tr><td>
 
@@ -7761,7 +8893,7 @@ internalId
 
 Sys\_id or internal ID of the product offering record.Data type: String
 
-Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version field
 
 </td></tr><tr><td>
 
@@ -7777,7 +8909,7 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d3179e622">
+</td><td id="d3752e627">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
@@ -7792,7 +8924,7 @@ Default: false
 
 isSellable
 
-</td><td id="d3179e645">
+</td><td id="d3752e650">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
@@ -7837,7 +8969,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d3179e695">
+</td><td id="d3752e700">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -7857,7 +8989,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d3179e708">
+</td><td id="d3752e713">
 
 Description of the characteristic.Data type: String
 
@@ -7875,7 +9007,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d3179e733">
+</td><td id="d3752e738">
 
 List of the possible values of the characteristic.
 
@@ -7896,7 +9028,7 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d3179e749">
+</td><td id="d3752e754">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
@@ -7909,7 +9041,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d3179e770">
+</td><td id="d3752e775">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
@@ -7922,7 +9054,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d3179e792">
+</td><td id="d3752e797">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -7936,7 +9068,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d3179e805">
+</td><td id="d3752e810">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -7946,7 +9078,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d3179e818">
+</td><td id="d3752e823">
 
 Value of the characteristic.
 
@@ -7956,7 +9088,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d3179e832">
+</td><td id="d3752e837">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -7970,7 +9102,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d3179e845">
+</td><td id="d3752e850">
 
 Start date of the characteristic.Data type: String
 
@@ -7980,15 +9112,29 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d3179e858">
+</td><td id="d3752e863">
 
-Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
+Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   `address`
+-   `array.date`
+-   `array.datetime`
+-   `array.decimal`
+-   `array.integer`
+-   `array.object`
+-   `array.single_line_text`
+-   `attachment`
+-   `checkbox`
+-   `choice`
+-   `date`
+-   `date_time`
+-   `decimal`
+-   `duration`
+-   `email`
+-   `integer`
+-   `object`
+-   `single_line_text`
+-   `yes_no`
 
 Data type: String
 
@@ -8029,7 +9175,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d3179e892">
+</td><td id="d3752e961">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -8049,7 +9195,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d3179e910">
+</td><td id="d3752e979">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -8067,7 +9213,7 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d3179e923">
+</td><td id="d3752e992">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
@@ -8082,7 +9228,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d3179e946">
+</td><td id="d3752e1015">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
@@ -8097,7 +9243,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d3179e969">
+</td><td id="d3752e1038">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -8118,7 +9264,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d3179e984">
+</td><td id="d3752e1053">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -8126,15 +9272,24 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d3179e996">
+</td><td id="d3752e1065">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   Array.Date
+-   Array.Datetime
+-   Array.Decimal
+-   Array.Integer
+-   Array.Object
+-   Array.Single Line Test
+-   Checkbox
+-   Choice
+-   Date,Address
+-   Email
+-   Integer,Date/Time
+-   Object
+-   Single Line Text
+-   Yes/No
 
 Data type: String
 
@@ -8303,7 +9458,7 @@ Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_pro
 
 status
 
-</td><td id="d3179e1108">
+</td><td id="d3752e1206">
 
 Status of the product offering.Possible values:
 
@@ -8366,6 +9521,7 @@ curl "http://instance.servicenow.com/api/sn_tmf_api/catalogmanagement/productOff
   "name": "Internet bundle",
   "displayName": "Internet bundle",
   "description": "Internet bundle",
+  "externalSystem": "Salesforce-TMF620",
   "isSellable": false,
   "lifecycleStatus": "Draft",
   "isBundle": true,
@@ -8524,7 +9680,8 @@ Response body:
 {
   "id": "313b917843235210a82ed6085bb8f2c7",
   "href": "/api/sn_tmf_api/catalogmanagement/productOffering/313b917843235210a82ed6085bb8f2c7",
- "name": "Internet",
+  "externalSystem": "Salesforce-TMF620"
+  "name": "Internet",
   "displayName": "Internet",
   "description": "Internet bundle",
   "isSellable": false,
@@ -9502,7 +10659,7 @@ externalId
 
 </td><td>
 
-Required. External ID of the product specification.
+Required. External ID of the product specification. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.
 
 Data type: String
 
@@ -9731,7 +10888,26 @@ productSpecCharacteristic.​valueType
 
 </td><td>
 
-Value type of the characteristic, such as choice or email.Data type: String
+Value type of the characteristic, such as choice or email. Can be of complex or non-complex type.Data type: String
+
+Accepted values:
+
+-   Date,Address
+-   Integer,Date/Time
+-   Array.Integer
+-   Array.Single Line Test
+-   Single Line Test
+-   Array.Object
+-   Array.Date
+-   Array.Decimal
+-   Yes/No
+-   Object
+-   Array.Datetime
+-   Checkbox
+-   Email
+-   Choice
+
+Default value: empty string
 
 </td></tr><tr><td>
 
@@ -10277,7 +11453,24 @@ productSpecCharacteristic.​valueType
 
 </td><td>
 
-Value type of the characteristic, such as choice or email.Data type: String
+Value type of the characteristic, such as choice or email. Can be of complex or non-complex type.Data type: String
+
+Accepted values:
+
+-   Date,Address
+-   Integer,Date/Time
+-   Array.Integer
+-   Array.Single Line Test
+-   Single Line Test
+-   Array.Object
+-   Array.Date
+-   Array.Decimal
+-   Yes/No
+-   Object
+-   Array.Datetime
+-   Checkbox
+-   Email
+-   Choice
 
 </td></tr><tr><td>
 
@@ -11643,6 +12836,16 @@ Unique identifier for the product offering from the external system.Data type: S
 
 </td></tr><tr><td>
 
+externalSystem
+
+</td><td>
+
+External system of the product offering, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -11667,7 +12870,7 @@ internalId
 
 Sys\_id or internal ID of the product offering record.Data type: String
 
-Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version field
 
 </td></tr><tr><td>
 
@@ -11890,13 +13093,27 @@ prodSpecCharValueUse.​valueType
 
 </td><td id="prodCat-offering-prodSpecCharValueUse_valueType-entry">
 
-Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
+Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   `address`
+-   `array.date`
+-   `array.datetime`
+-   `array.decimal`
+-   `array.integer`
+-   `array.object`
+-   `array.single_line_text`
+-   `attachment`
+-   `checkbox`
+-   `choice`
+-   `date`
+-   `date_time`
+-   `decimal`
+-   `duration`
+-   `email`
+-   `integer`
+-   `object`
+-   `single_line_text`
+-   `yes_no`
 
 Data type: String
 
@@ -12038,11 +13255,20 @@ productOfferingCharacteristic.​valueType
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   Array.Date
+-   Array.Datetime
+-   Array.Decimal
+-   Array.Integer
+-   Array.Object
+-   Array.Single Line Test
+-   Checkbox
+-   Choice
+-   Date,Address
+-   Email
+-   Integer,Date/Time
+-   Object
+-   Single Line Text
+-   Yes/No
 
 Data type: String
 
@@ -12302,7 +13528,7 @@ Description
 
 bundledGroupProductOffering
 
-</td><td id="d3179e285">
+</td><td id="d3752e293">
 
 Child groups of product offerings. These show hierarchical sub-grouping.Data type: Array of Objects
 
@@ -12321,7 +13547,7 @@ Child groups of product offerings. These show hierarchical sub-grouping.Data typ
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption
 
-</td><td id="d3179e298">
+</td><td id="d3752e306">
 
 A range of numbers that specifies the lower and upper limits of the number of the associated product offering that can be procured as part of the related bundled product offering.Data type: Object
 
@@ -12336,7 +13562,7 @@ A range of numbers that specifies the lower and upper limits of the number of th
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3179e314">
+</td><td id="d3752e319">
 
 Lower limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -12344,7 +13570,7 @@ Lower limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledGroupProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3179e325">
+</td><td id="d3752e330">
 
 Upper limit for a product offering that can be procured as part of the related bundled product offering. Data type: String
 
@@ -12352,7 +13578,7 @@ Upper limit for a product offering that can be procured as part of the related b
 
 bundledGroupProductOffering.​bundledProductOffering
 
-</td><td id="d3179e336">
+</td><td id="d3752e341">
 
 Child groups of product offerings associated with the bundle. Same format as **bundledProductOffering** specified below.Data type: Array of Objects
 
@@ -12360,7 +13586,7 @@ Child groups of product offerings associated with the bundle. Same format as **b
 
 bundledGroupProductOffering.​id
 
-</td><td id="d3179e390">
+</td><td id="d3752e395">
 
 Sys\_id of the bundled group record. Useful in cases where the parent product offering or group includes multiple groups.Data type: String
 
@@ -12370,7 +13596,7 @@ Table: Product Offering Relationship Group \[sn\_prd\_pm\_product\_offering\_rel
 
 bundledGroupProductOffering.​name
 
-</td><td id="d3179e403">
+</td><td id="d3752e408">
 
 Name of the group of child product offerings.Data type: String
 
@@ -12378,7 +13604,7 @@ Name of the group of child product offerings.Data type: String
 
 bundledProductOffering
 
-</td><td id="d3179e414">
+</td><td id="d3752e419">
 
 List of product offerings included in the product offering bundle. The product offering bundle inherits all of the attributes of the included product offerings.Data type: Array of Objects
 
@@ -12399,7 +13625,7 @@ List of product offerings included in the product offering bundle. The product o
 
 bundledProductOffering.​bundledProductOfferingOption
 
-</td><td id="d3179e428">
+</td><td id="d3752e433">
 
 Product bundle options such as the default number of product offerings and any upper and lower product offering procurement constraints.Data type: Object
 
@@ -12415,7 +13641,7 @@ Product bundle options such as the default number of product offerings and any u
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferDefault
 
-</td><td id="d3179e441">
+</td><td id="d3752e446">
 
 Default number of product offerings that should be procured as part of the related bundled product offering.Data type: String
 
@@ -12425,7 +13651,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferLowerLimit
 
-</td><td id="d3179e454">
+</td><td id="d3752e459">
 
 Lower limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -12435,7 +13661,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​bundledProductOfferingOption.​numberRelOfferUpperLimit
 
-</td><td id="d3179e467">
+</td><td id="d3752e472">
 
 Upper limit of the number of the associated product offerings that can be procured as part of the related bundled product offering.Data type: String
 
@@ -12445,7 +13671,7 @@ Possible values: 0 to unbound.
 
 bundledProductOffering.​externalId
 
-</td><td id="d3179e480">
+</td><td id="d3752e485">
 
 External ID of the product offering   relationship.For additional information on product offering relationships, see [Create product offering relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-offering-relationships.md).
 
@@ -12463,7 +13689,7 @@ Relative link to the associated product offering.Data type: String
 
 bundledProductOffering.​id
 
-</td><td id="d3179e508">
+</td><td id="d3752e513">
 
 Sys\_id or external ID of the bundled product offering.Data type: String
 
@@ -12473,7 +13699,7 @@ Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
 
 bundledProductOffering.​name
 
-</td><td id="d3179e521">
+</td><td id="d3752e526">
 
 Name of the product offering bundle.Data type: String
 
@@ -12481,7 +13707,7 @@ Name of the product offering bundle.Data type: String
 
 bundledProductOffering.​version
 
-</td><td id="d3179e532">
+</td><td id="d3752e537">
 
 Catalog version of the product offering. Data type: String
 
@@ -12578,9 +13804,19 @@ externalId
 
 </td><td>
 
-External ID of the product offering.Data type: String
+External ID of the product offering. If multiple versions are published, returns the highest published version among them. If no versions are published, returns the highest version regardless of state.Data type: String
 
-Table: In the external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, external\_id field
+
+</td></tr><tr><td>
+
+externalSystem
+
+</td><td>
+
+External system of the product offering, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
 
 </td></tr><tr><td>
 
@@ -12600,7 +13836,7 @@ id
 
 Required. Initial version or external ID of the product offering.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version or external\_id field
 
 </td></tr><tr><td>
 
@@ -12610,7 +13846,7 @@ internalId
 
 Sys\_id or internal ID of the product offering record.Data type: String
 
-Table: In the initial\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\] table, initial\_version field
 
 </td></tr><tr><td>
 
@@ -12626,7 +13862,7 @@ Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offe
 
 isBundle
 
-</td><td id="d3179e622">
+</td><td id="d3752e627">
 
 Flag that indicates whether the product offering is a bundle.Possible values:
 
@@ -12641,7 +13877,7 @@ Default: false
 
 isSellable
 
-</td><td id="d3179e645">
+</td><td id="d3752e650">
 
 Flag that indicates whether the associated product offering can be sold by itself or must be part of a product offering bundle.Possible values:
 
@@ -12688,7 +13924,7 @@ Name of the product offering.Data type: String
 
 prodSpecCharValueUse
 
-</td><td id="d3179e695">
+</td><td id="d3752e700">
 
 Product offering characteristics.Data type: Array of Objects
 
@@ -12708,7 +13944,7 @@ Product offering characteristics.Data type: Array of Objects
 
 prodSpecCharValueUse.​description
 
-</td><td id="d3179e708">
+</td><td id="d3752e713">
 
 Description of the characteristic.Data type: String
 
@@ -12716,7 +13952,7 @@ Description of the characteristic.Data type: String
 
 prodSpecCharValueUse.​name
 
-</td><td id="d3179e719">
+</td><td id="d3752e724">
 
 Name of the characteristic.
 
@@ -12726,7 +13962,7 @@ Data type: String
 
 prodSpecCharValueUse.​productSpecCharacteristicValue
 
-</td><td id="d3179e733">
+</td><td id="d3752e738">
 
 List of the possible values of the characteristic.
 
@@ -12747,7 +13983,7 @@ Data type: Array of Objects
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isDefault
 
-</td><td id="d3179e749">
+</td><td id="d3752e754">
 
 Flag that indicates whether the associated characteristic value is the default value for the characteristic.Possible values:
 
@@ -12760,7 +13996,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​isMandatory
 
-</td><td id="d3179e770">
+</td><td id="d3752e775">
 
 Flag that indicates whether the associated characteristic value is a mandatory value for the characteristic.Possible values:
 
@@ -12773,7 +14009,7 @@ Default: false
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor
 
-</td><td id="d3179e792">
+</td><td id="d3752e797">
 
 Date and time of when the characteristic is valid.Data type: Object
 
@@ -12787,7 +14023,7 @@ Date and time of when the characteristic is valid.Data type: Object
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​validFor.​startDateTime
 
-</td><td id="d3179e805">
+</td><td id="d3752e810">
 
 Start date and time of when the characteristic value is valid.Data type: String
 
@@ -12797,7 +14033,7 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​productSpecCharacteristicValue.​value
 
-</td><td id="d3179e818">
+</td><td id="d3752e823">
 
 Value of the characteristic.
 
@@ -12807,7 +14043,7 @@ Data type: String
 
 prodSpecCharValueUse.​validFor
 
-</td><td id="d3179e832">
+</td><td id="d3752e837">
 
 Date range the characteristic is valid for.Data type: Object
 
@@ -12821,7 +14057,7 @@ Date range the characteristic is valid for.Data type: Object
 
 prodSpecCharValueUse.​validFor.​startDateTime
 
-</td><td id="d3179e845">
+</td><td id="d3752e850">
 
 Start date of the characteristic.Data type: String
 
@@ -12831,15 +14067,29 @@ Format: YYYY-MM-DD HH:mm:SS
 
 prodSpecCharValueUse.​valueType
 
-</td><td id="d3179e858">
+</td><td id="d3752e863">
 
-Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Possible values:
+Data type of the **prodSpecCharValueUse.productSpecCharacteristicValue.value** parameter.Accepted values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   `address`
+-   `array.date`
+-   `array.datetime`
+-   `array.decimal`
+-   `array.integer`
+-   `array.object`
+-   `array.single_line_text`
+-   `attachment`
+-   `checkbox`
+-   `choice`
+-   `date`
+-   `date_time`
+-   `decimal`
+-   `duration`
+-   `email`
+-   `integer`
+-   `object`
+-   `single_line_text`
+-   `yes_no`
 
 Data type: String
 
@@ -12880,7 +14130,7 @@ Value of the characteristic.Data type: String
 
 productOfferingCharacteristic
 
-</td><td id="d3179e892">
+</td><td id="d3752e961">
 
 Characteristic quality or distinctive feature of a product offering. Characteristics can take on a discrete value that is fixed at design time \(catalog authoring\), such as Mobile Plan Rank. These characteristics are not generally modifiable at inventory level.For additional information on product offering characteristics, see [Create product characteristics and characteristic options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-product-config-add-characteristics.md).
 
@@ -12900,7 +14150,7 @@ productOfferingCharacteristic": [ 
 
 productOfferingCharacteristic.​characteristicValueSpecification
 
-</td><td id="d3179e910">
+</td><td id="d3752e979">
 
 List of characteristic values associated with the product offering characteristic.Data type: Array of Objects
 
@@ -12918,7 +14168,7 @@ List of characteristic values associated with the product offering characteristi
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isDefault
 
-</td><td id="d3179e923">
+</td><td id="d3752e992">
 
 Flag that indicates whether the associated characteristic value is the default value for the associated characteristic.Possible values:
 
@@ -12933,7 +14183,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​isMandatory
 
-</td><td id="d3179e946">
+</td><td id="d3752e1015">
 
 Flag that indicates whether the associated characteristic value is mandatory for the associated characteristic.Possible values:
 
@@ -12948,7 +14198,7 @@ Default: false
 
 productOfferingCharacteristic.​characteristicValueSpecification.​value
 
-</td><td id="d3179e969">
+</td><td id="d3752e1038">
 
 Number or text assigned to the associated product specification characteristic .For example:
 
@@ -12969,7 +14219,7 @@ Data type: String
 
 productOfferingCharacteristic.​name
 
-</td><td id="d3179e984">
+</td><td id="d3752e1053">
 
 Name of the associated product offering characteristic.Data type: String
 
@@ -12977,15 +14227,24 @@ Name of the associated product offering characteristic.Data type: String
 
 productOfferingCharacteristic.​valueType
 
-</td><td id="d3179e996">
+</td><td id="d3752e1065">
 
 Data type of the **productOfferingCharacteristic.​characteristicValueSpecification.​value** parameter.Possible values:
 
--   choice
--   email
--   number
--   text
--   yes/no
+-   Array.Date
+-   Array.Datetime
+-   Array.Decimal
+-   Array.Integer
+-   Array.Object
+-   Array.Single Line Test
+-   Checkbox
+-   Choice
+-   Date,Address
+-   Email
+-   Integer,Date/Time
+-   Object
+-   Single Line Text
+-   Yes/No
 
 Data type: String
 
@@ -13192,7 +14451,8 @@ curl --location --request POST "https://instance.service-now.com/api/sn_tmf_api/
 --header "Content-Type: application/json" \
 --header "Accept:application/json" \
 --data-raw '{
-  "id": "313b917843235210a82ed6085bb8f2c7",
+  "id": "313b917843235210a82ed6085bb8f2c7",,
+  "externalSystem": "Salesforce-TMF620",
   "name": "Internet bundle",
   "displayName": "Internet bundle",
   "description": "Internet bundle",
@@ -13357,6 +14617,7 @@ Response body:
 {
   "id": "313b917843235210a82ed6085bb8f2c7",
   "name": "Internet bundle",
+  "externalSystem": "Salesforce-TMF620",
   "displayName": "Internet bundle",
   "description": "Internet bundle",
   "isSellable": false,
@@ -14324,6 +15585,16 @@ Default: Blank string
 
 </td></tr><tr><td>
 
+externalSystem
+
+</td><td>
+
+External system of the product specification, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
+
+</td></tr><tr><td>
+
 id
 
 </td><td>
@@ -14548,7 +15819,24 @@ productSpecCharacteristic.​valueType
 
 </td><td>
 
-Value type of the characteristic, such as choice or email.Data type: String
+Value type of the characteristic, such as choice or email. Can be of complex or non-complex type.Data type: String
+
+Accepted values:
+
+-   Date,Address
+-   Integer,Date/Time
+-   Array.Integer
+-   Array.Single Line Test
+-   Single Line Test
+-   Array.Object
+-   Array.Date
+-   Array.Decimal
+-   Yes/No
+-   Object
+-   Array.Datetime
+-   Checkbox
+-   Email
+-   Choice
 
 Default: Blank string
 
@@ -14885,6 +16173,16 @@ Description of the specification.Data type: String
 
 </td></tr><tr><td>
 
+externalSystem
+
+</td><td>
+
+External system of the product specification, appended with `TMF620`. For example, if the external system is ABC then the value is `ABC-TMF620`.
+
+Data Type: String
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -15132,7 +16430,24 @@ productSpecCharacteristic.​valueType
 
 </td><td>
 
-Value type of the characteristic, such as choice or email.Data type: String
+Value type of the characteristic, such as choice or email. Can be of complex or non-complex type.Data type: String
+
+Accepted values:
+
+-   Date,Address
+-   Integer,Date/Time
+-   Array.Integer
+-   Array.Single Line Test
+-   Single Line Test
+-   Array.Object
+-   Array.Date
+-   Array.Decimal
+-   Yes/No
+-   Object
+-   Array.Datetime
+-   Checkbox
+-   Email
+-   Choice
 
 </td></tr><tr><td>
 
@@ -15397,6 +16712,7 @@ curl --location --request POST "https://instance.service-now.com/api/sn_tmf_api/
 --data-raw '{
   "id": "cfe5ef6a53702010cd6dddeeff7b12f6",
   "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/cfe5ef6a53702010cd6dddeeff7b12f6",
+  "externalSystem": "Salesforce-TMF620",
   "name": "SD-WAN Service Package",
   "displayName": "SD-WAN Service Package v3",
   "version": "",
@@ -15716,6 +17032,7 @@ Response body.
 {
   "id": "cfe5ef6a53702010cd6dddeeff7b12f6",
   "href": "/api/sn_tmf_api/catalogmanagement/productSpecification/cfe5ef6a53702010cd6dddeeff7b12f6",
+  "externalSystem": "Salesforce-TMF620",
   "name": "SD-WAN Service Package",
   "displayName": "SD-WAN Service Package v3",
   "version": "",

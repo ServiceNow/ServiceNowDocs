@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -69,7 +69,7 @@ Role required: sn\_si.analyst.
 
 4.  Enter the details such as Configuration Item, Impact, Urgency, Location, Priority, and Short Description.
 
-5.  Click **Create**.\[Omitted image "incident-created.png"\] Alt text: Created incident
+5.  Click **Create**.
 
 6.  An incident gets created.
 
@@ -119,15 +119,11 @@ Role required: sn\_si.analyst
 
 2.  Open any incident record.
 
-3.  Click **Create Problem**.
-
-    \[Omitted image "create-problem.png"\] Alt text: Create problem
+3.  Select **Create Problem**.
 
 4.  Fill in the details such as Configuration Item, Location, Impact, Urgency, Priority, and Short description.
 
-5.  Click **Create**.
-
-    \[Omitted image "problem-creted.png"\] Alt text: Created problem
+5.  Select **Create**.
 
 6.  A problem task gets created.
 
@@ -148,13 +144,9 @@ Role required: sn\_si.analyst.
 
 3.  Click **Create Change Request**.
 
-    \[Omitted image "create-change-request.png"\] Alt text: Create change request
-
 4.  Enter the details such as Configuration Item, Location, Priority, and Short description.
 
 5.  Click **Create**.
-
-    \[Omitted image "created-change-request.png"\] Alt text: Created change request
 
 6.  A change request gets created.
 
@@ -175,13 +167,9 @@ Role required: sn\_si.analyst
 
 3.  Click **Create outage**.
 
-    \[Omitted image "create-outage.png"\] Alt text: Create outage for a configuration item
-
 4.  Enter the details such as Configuration Item, Begin date, End date, Type, and Short description.
 
 5.  Click **Create**.
-
-    \[Omitted image "created-outage.png"\] Alt text: Create Outage
 
 
 ## Compose Emails
@@ -204,8 +192,6 @@ Role required: sn\_si.analyst
 
 4.  Enter the **To** and **CC** field.
 
-    \[Omitted image "compose-email.png"\] Alt text: Compose email
-
 5.  **Add** attachments, if any.
 
 6.  Within the Email form, click **Quick Messages** to view the quick messages which is displayed on the right side of the **Compose Emails** section.
@@ -220,9 +206,9 @@ Role required: sn\_si.analyst
 
     **How to configure Quick Messages:**
 
-    1.  Navigate to **System Definitions** &gt; **Tables**.
+    1.  Navigate to **All** &gt; **System Definitions** &gt; **Tables**.
 
-    2.  Search for **Quick Message \(sys\_email\_canned\_message**\) table.
+    2.  Search for **Quick Message \(sys\_email\_canned\_message\)** table.
 
         \[Omitted image "quick-messages-table.png"\] Alt text: System Definitions
 
@@ -253,8 +239,6 @@ Role required: sn\_si.analyst
     3.  Go to **Related Links** &gt; **Show List**.
 
     4.  Create **New**.
-
-        \[Omitted image "create-new-response-template.png"\] Alt text: Creating a New template and viewing available Response Templates.
 
     5.  Enter the **Name**, **Short Name**, select the **Table: Security Incident \(sn\_si\_incident\)** and **Template body**.
 

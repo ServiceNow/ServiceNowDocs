@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Respond to assessments, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,9 @@ You must have the assessment actor role to complete and submit the assessment. T
 
 ## Before you begin
 
-Role required: sn\_smart\_asmt.reassign
+Role required: sn\_smart\_asmt.actor
+
+An active delegate of the primary responder can also submit the assessment, if the delegate has the Assessment actor \[sn\_smart\_asmt.actor\] role. For more information, see [Delegation in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/delegation-in-sae.md).
 
 ## About this task
 
@@ -30,12 +32,13 @@ A lock icon next to the submit button indicates the number of required questions
 
     Here’s an example of how to navigate to this list in the Compliance Workspace.
 
-    1.  Navigate to **Workspaces** &gt; **Compliance Workspace**
-    2.  Select the list icon \(\[Omitted image "icon-tprm-ws-list.png"\] Alt text: List icon.\).
-    3.  Navigate to **Control attestations** &gt; **Smart Assessments**.
+    1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
+    2.  Select the tasks icon \[Omitted image "list-icon.png"\] Alt text:.
+    3.  Select the **Control attestations** &gt; **Smart Assessments** on the left panel.
+    4.  The smart assessments list is displayed.
 2.  Select the assessments that you want to submit.
 
-3.  To submit the assessment, on the top pane select **Submit**.
+3.  To submit the assessment, select **Submit**.
 
     The submit dialog box appears.
 

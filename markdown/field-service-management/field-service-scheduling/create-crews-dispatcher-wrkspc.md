@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Create crews
@@ -24,11 +24,11 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
+2.  Select the **List** icon \(\[Omitted image "list-icon-black.png"\] Alt text: List icon.\).
 
 3.  In the Lists panel, navigate to **Dispatching** &gt; **My Crews**
 
-4.  Click **New**.
+4.  Select **New**.
 
 5.  |Field|Description|
 |-----|-----------|
@@ -44,12 +44,10 @@ Role required: wm\_dispatcher
 |Distance Unit|Unit of distance covered in miles or kilometers.|
 |Active|Option to indicate whether the crew is available for selection when assigning to a work order task.|
 
-6.  Click **Save**.
+6.  Select **Save**.
 
 
 ## Result
 
 The crew is created along with the related list records, such as Details, Groups, Skills, and Task Assignees.
-
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

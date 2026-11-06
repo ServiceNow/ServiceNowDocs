@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Manage Hardware Asset Management subscriptions, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management license exclusion, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Opt-in or opt-out of HAM license resource categories
@@ -58,12 +58,8 @@ The resource category is opted in or opted out. A one time run job execution exe
 -   Sets the exclusion flag on the assets of these models. For more information, see [Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/ham-license-exclusion.md).
 -   A normalization job is triggered for the models that are associated with the resource category.
 
-**Parent Topic:**[Manage Hardware Asset Management subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/managing-ham-subscriptions.md)
+-   **[Exclude assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exclude-assets.md)**  
+Exclude an asset for which you don't want to use Hardware Asset Management licensed features.
 
-**Related topics**  
-
-
-[View the license report for the Hardware Asset Management application]()
-
-[Exclude assets]()
+**Parent Topic:**[Hardware Asset Management license exclusion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/ham-license-exclusion.md)
 

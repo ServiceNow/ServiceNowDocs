@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API Key and HMAC Authentication for inbound REST APIs, Token-based authentication, API Authentication, Authentication, Access Management]
+breadcrumb: [API key and HMAC authentication for inbound REST APIs, Token-based authentication, API authentication, Authentication, Access Management]
 ---
 
 # Activate API Key and HMAC Authentication
@@ -17,8 +17,6 @@ breadcrumb: [API Key and HMAC Authentication for inbound REST APIs, Token-based 
 You can activate the plugin API Key and HMAC Authentication \(`com.glide.tokenbased_auth`\) in your ServiceNow® instance.
 
 ## Before you begin
-
-Role required: admin.
 
 ## Procedure
 

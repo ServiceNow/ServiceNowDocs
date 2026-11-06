@@ -7,24 +7,26 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [TuneUp Your Virtual Agent, Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [TuneUp Your Virtual Agent, Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\)
 
 TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\) Accelerator provides guidance on fine-tuning NLU models to optimize value.
 
-## Overview
+## Accelerator Overview
 
 The TuneUp Your Virtual Agent – NLU Accelerator provides Impact customers with an assessment of Model design and performance with prescriptive guidance to address and improved the Virtual Agent experience. An assessment of the current state of Virtual Agent NLU models, an overview of leading practices, a deep-dive into NLU features, and recommendations on how best to continuously improve performance are included.
 
 See [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-landing-page.md) for additional information on Virtual Agent.
 
-**Note:** This Accelerator is available in Advanced, and Total packages.
+## Package Availability
 
-Offered pursuant to the applicable [ServiceNow Impact Package and Accelerator descriptions](https://www.servicenow.com/legal/servicenow-impact.html).
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
+
+Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
 ## What You Get
 
@@ -93,7 +95,7 @@ Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leadin
 </td></tr></tbody>
 </table>## Requested Information
 
-Please refer to the applicable Impact Accelerator Description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
+Please refer to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
 ## Exceptions
 

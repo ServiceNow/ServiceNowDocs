@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/testpubnu-andapp-privdist.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Request a new branded Android app for private distribution, Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Request private Android app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Test and publish a new branded Android app for private distribution
@@ -71,10 +71,6 @@ After you have tested your app, set it up, and customize its workflows, you are 
 -   **Google Play Console:**
 
     To publish your private branded Android app from the Google Play Console, see [Google documentation](https://support.google.com/a/answer/2494992?hl=en).
-
--   **BlackBerry Portal:**
-
-    To publish your private branded Android app to the BlackBerry Portal if you are using BlackBerry mobile application management \(MAM\), see [KB0813295](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0813295).
 
 -   **Microsoft Intune:**
 

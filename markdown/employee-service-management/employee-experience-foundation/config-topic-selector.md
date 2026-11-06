@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic topic pages, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Dynamic topic pages, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Connect content to topic pages with the topic list selector
@@ -26,7 +26,7 @@ User criteria required: Taxonomy Manager, Taxonomy Contributor, Topic Manager, T
 
 You can associate any Service Catalog item to multiple topic pages using the topic selector component. The feature enables easy content-to-topic association for the Catalog Builder.
 
-**Note:** The topic list selector feature is available for customers starting with Yokohama release.
+**Note:** The topic list selector feature is available for customers starting with Brazil release.
 
 ## Procedure
 

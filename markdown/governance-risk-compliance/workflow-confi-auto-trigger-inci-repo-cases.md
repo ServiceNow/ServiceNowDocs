@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/workflow-confi-auto-trigger-inci-repo-cases.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
@@ -23,6 +23,12 @@ Operational Resilience administrators set up Word templates, Template configurat
 Configure Word Templates and Template Configurations for generating reports in Microsoft Word format. For more information, see [Generating Microsoft Word reports using Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/gen-word-reports.md).
 
 The Digital Resilience Incident Case module lists all Digital Resilience Incident Cases associated with an incident or security incident. A new 'Regulation Mappings' related list is now available in each Digital Resilience Incident Case record. It displays the relationships between entities related to the cases and their corresponding regulations.
+
+## Prerequisite data setup for DRI questionnaires
+
+Several reference questions in the DRI Initial report, Intermediate report, and Final report templates use the legal-entity and third-party tables from the Digital Resilience Third-Party Registers application. These tables are sn\_dora\_accel\_entity and sn\_dora\_accel\_third\_party. Populate these tables before generating an initial report, either manually or via the Excel upload request. Populating these tables allows the responder to fill in fields. Examples include 'Name of the entity submitting the report', 'LEI code of the financial entity affected', and 'Name of the third party provider'.
+
+For details, see [Maintaining Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/digi-resi-third-party-registers.md), [Create a third party and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-drtp-reg-third-party.md), and [Create a legal entity and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-legal-entity.md).
 
 ## Conditions for setting up the Workflow
 
@@ -62,12 +68,14 @@ The Digital Resilience Incident Flow and Digital Resilience SIR Flow are prebuil
 
 -   **Insert condition**
 
-    Conditions such as the priority of the incident is Critical, the urgency is High, and the incident has been open for more than 24 hours, are prebuilt in the flow. When all these conditions are met, it’s automatically reported in the Digital resilience incident reporting application.
+    The flow includes prebuilt conditions: the incident priority is Critical, the urgency is High, and the incident has been open for more than 24 hours. When all these conditions are met, it’s automatically reported in the Digital resilience incident reporting application.
 
 -   **Update condition**
 
     When an incident is reopened or updated, that classification condition is also defined in the flow. When the configured conditions are met, the incident is reported in the Digital resilience incident reporting application.
 
+
+**Note:** The Digital resilience incident reporting application is licensed under the Integrated Risk Management \(IRM\) application family.
 
 ## Required and optional plugins
 

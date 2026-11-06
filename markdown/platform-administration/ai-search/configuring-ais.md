@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -93,22 +93,24 @@ For more information about using the guided setup interface, see [Using guided s
 
 -   **[Assign roles to AI Search administrators and users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/assign-ais-admin-role.md)**  
 Grant users the ais\_admin, ais\_external\_content, ais\_high\_security\_admin, and search\_application\_admin roles so they can configure and manage settings and content for AI Search and search applications.
+-   **[Activate the Platform Multimodal Service plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-platform-multimodal-service-plugin.md)**  
+Enable automatic generation of searchable descriptive captions for images, tables, charts, and other visual elements found in indexed attachments.
 -   **[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/indexed-sources-ais.md)**  
 Indexed sources designate ServiceNow AI Platform® tables and external document sets with alphanumeric text and string field content that you want to make searchable. AI Search ingests text and string fields from table records or external documents and stores their searchable alphanumeric content in its search index.
 -   **[Search sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/search-sources-ais.md)**  
-Define search sources to make your searchable content available in search experiences. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
+Define search sources to make your indexed content searchable in AI Search search applications. Choose an indexed source and configure optional filter conditions to limit the content that users can search.
 -   **[Search profiles in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/defining-search-profiles-ais.md)**  
 Search profiles contain settings for a search experience, including synonyms, stop words, typo handling, Genius Results, and result improvement rules. Define a search profile for each unique search experience that you want to offer in a ServiceNow AI Platform® application. Publish search profiles to make them available in your search applications.
 -   **[Search application configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/defining-search-app-cfgs-ais.md)**  
 A search application configuration specifies the search engine and settings to use for search in a ServiceNow AI Platform® application. When you choose AI Search as an application's search engine, you can select a search profile for the application and configure its search result display and refinement settings.
 -   **[Activate fuzzy numeric search in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-fuzzy-numeric-search-ais.md)**  
 Activate fuzzy numeric search to let users find indexed records by their Number field values without needing to enter alphabetic prefixes or leading zeroes.
+-   **[Allow source facet filters to trigger query resubmission for multi-term search queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/allow-src-facet-filters-trigger-query-resubmission.md)**  
+Allow source facet filter selections to reduce the search result count used by the system when checking whether to resubmit multi-term search queries using the OR operator.
 -   **[Configure EVAM display settings for search results in AI Search applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-search-result-card-opts.md)**  
 Customize display settings for Search Result EVAM \(Entity View Action Mapping\) cards in portal and non-portal AI Search applications.
--   **[Show borders between search result cards in portal search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/show-borders-search-result-cards-portal-search.md)**  
-Display borders between search result cards on the search results page for portal search applications.
--   **[Show borders between search result cards in global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/show-borders-search-result-cards-global-search.md)**  
-Display borders between search result cards on the global search results page.
+-   **[Show borders between search result cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/show-borders-search-result-cards.md)**  
+Display borders between search result cards in portal search and in global and workspace search.
 -   **[Enabling and configuring AI Search in ServiceNow AI Platform applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/enable-configure-apps-ais.md)**  
 Configure and use the AI Search engine in the Customer Service Management, Now Mobile, Service Portal, and Virtual Agent applications.
 -   **[Create a custom search matcher for global search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-search-matcher-ais.md)**  

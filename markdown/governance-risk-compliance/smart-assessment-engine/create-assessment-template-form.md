@@ -1,20 +1,20 @@
 ---
 title: Create assessment template form
-description: Learn about the fields of the Create Assessment Template form. Use this form to create a new assessment template.
+description: Learn about the fields of the Create Assessment Template form. Use this form to create an assessment template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/create-assessment-template-form.html
 release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an assessment template, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
 # Create assessment template form
 
-Learn about the fields of the **Create Assessment Template** form. Use this form to create a new assessment template.
+Learn about the fields of the **Create Assessment Template** form. Use this form to create an assessment template.
 
 <table id="table_krg_p53_2yb"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Assessment name
 
 </td><td>
 
-Add text icon \[Omitted image "sae-add-text.png"\] Alt text: Add text icon. that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
+Add separate assessment name \[Omitted image "separate-assessment-name.png"\] Alt text: Separate assessment name icon.icon that includes an optional alternative name for generated assessments. The respondent sees this name rather than the template name.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Purpose
 
 Purpose that the new assessment template should be a member of. For example, Risk, Performance, Security, and so on.
 
-Template categories that enforce the data segregation for templates. A category controls which users can view a template. Each assessment template is associated with one or more template categories. To view a template in a category, you must have a category role that is associated with the category.
+Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
 For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md)
 
@@ -66,8 +66,7 @@ Assessment target
 
 </td><td>
 
-Table records that are selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target, which makes the scope a combination of records from each table.
+Table records that are selected to be assessed — the assessment's scope items. For an explanation of scope items, including how they are set and where responders see them, see [Scope items in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-scope-items.md).**Note:** Assessment targets \(context items\) are configured after the template is created, not during initial creation. Adding assessment targets requires the sn\_smart\_asmt.assessment\_admin role and can only be done while the template is in draft state. This is because assessment targets define the scope records that questions operate on, and the template structure must be finalized before they can be attached.
 
 </td></tr></tbody>
-</table>**Note:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
-
+</table>

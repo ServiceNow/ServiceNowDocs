@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-update-bp-map.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-25"
-reading_time_minutes: 2
-breadcrumb: [Business process modeling, Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Working with business process map, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Update a business process map
@@ -30,25 +30,33 @@ Role required: sn\_apm.apm\_user
 
 4.  Add the required shapes and connections.
 
-    For BPMN Activity shapes you can select the Open the Side panel icon \(\[Omitted image "icon-open-side-panel.png"\] Alt text: Open side panel\) to update the details of a record.
+    Drag shapes from the **Shapes** palette to the canvas. BPMN shapes are organized into sub-categories — **Gateway**, **Event**, **Activity**, and **General**. For a full list of available shapes, see [Business Process Modeling Notation \(BPMN\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bpmn-shapes.md).
 
-5.  Select the More Actions context menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu\) to see options for deleting a shape from the canvas.
+    For activity shapes such as user task or service task, select the Open the side panel icon \(\[Omitted image "icon-open-side-panel.png"\] Alt text: Open side panel\) to update the details of the associated record.
 
-6.  Select **Share** to share the diagram with individuals or groups.
+    To change the style of a connector, select the relationship line and choose a line type from the drop-down that appears directly on the line. BPMN shapes and general shapes have their own sets of line types.
+
+5.  To swap a shape with a different one, select the shape and use the **Shape type** option in the right panel.
+
+    The replacement shape retains the original shape's label and connectors.
+
+6.  Select the More Actions context menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu\) to see options for deleting a shape from the canvas.
+
+7.  Select **Share** to share the diagram with individuals or groups.
 
     For more information, see [Share a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-share-diagram.md).
 
-7.  Select the More Actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) to perform the following actions:
+8.  Select the More Actions menu \(\[Omitted image "icon-three-dot-menu-eaw.png"\] Alt text: More actions menu.\) to perform the following actions:
 
-    -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md).
+    -   **Save as new version**: Select this option to create a version for the selected diagram. The version number is automatically added in the Version number field, and it isn’t editable. For more information, see [Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md).
     -   **Duplicate**: Select this option to duplicate the diagram. For more information, see [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-duplicate.md).
     -   **Submit for approval**: Select this option to submit the diagram for approval. The approval process can be done through a configured workflow. By default, the approval request is submitted to the Enterprise Architect group. For more information, see [Submit a modeling diagram for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-submit-for-approval.md).
-8.  Select **Commit changes** to synchronize the diagram to the database.
+9.  Select **Commit changes** to synchronize the diagram to the database.
 
     This option is available only when the diagram is approved. For more information, see [Synchronize a shape to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-sync-shape.md).
 
 
-**Parent Topic:**[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/business-process-modeling.md)
+**Parent Topic:**[Working with business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-bp-map.md)
 
 **Related topics**  
 
@@ -56,4 +64,8 @@ Role required: sn\_apm.apm\_user
 [Create a diagram for a business process map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bp-map.md)
 
 [View all shape libraries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-shape-libraries.md)
+
+[Business Process Modeling Notation \(BPMN\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bpmn-shapes.md)
+
+[Business process modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/business-process-modeling.md)
 

@@ -7,14 +7,17 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [AI assets, AI system, AI model, dataset]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # AI assets
 
 An AI asset is a digital resource that leverages artificial intelligence technologies to perform specific functions or address defined business needs.
+
+## Overview of AI assets
 
 AI assets encompass datasets, machine learning models, virtual agents, natural language processing systems, and computer vision applications used within digital environments. These technologies represent critical elements of an organization’s digital infrastructure and contribute to AI-driven capabilities across various operational domains.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Use the ServiceNow® My Safe Workplace page to view all of your information and 
 
 To view My Safe Workplace, navigate to **Employee Health and Safety Status** &gt; **My Safe Workplace**.
 
-\[Omitted image "my-safe-workplace.png"\] Alt text: My Safe Workplace.
+
 
 <table id="table_vyf_1dp_pnb"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -19,6 +19,8 @@ With the ServiceNow Otto for Health and Safety application, safety agents and ma
 ## Skills
 
 The ServiceNow Otto for Health and Safety application includes the skills and features of generative AI to support safety teams working on resolving safety issues.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 Use the following skill provided by the ServiceNow Otto for Health and Safety application.
 
@@ -35,7 +37,7 @@ Use the following skill provided by the ServiceNow Otto for Health and Safety ap
     -   Action
     The following example shows an AI-generated incident summary.
 
-    \[Omitted image "na-hs-incident-summarize.png"\] Alt text: AI-generated summary for a Health and Safety incident.
+    \[Omitted image "na-hs-incident-summarization.png"\] Alt text: AI-generated summary for a Health and Safety incident.
 
 
 For information on activating the Health and Safety incident summarization skill, see [Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md). For information on how to use this skill on Health and Safety Workspace, see [Summarize a safety incident by using ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-summarize-safety-incident.md).

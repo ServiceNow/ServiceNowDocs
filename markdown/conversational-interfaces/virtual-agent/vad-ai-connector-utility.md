@@ -1,21 +1,23 @@
 ---
 title: AI Connector utility
-description: Use this utility to link generative AI to custom skills for improved performance.
+description: Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/vad-ai-connector-utility.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, Designer, AI Connector, utility, LLM, GenAI, Generative AI, Now Assist, Custom skills]
-breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # AI Connector utility
 
-Use this utility to link generative AI to custom skills for improved performance.
+Use this utility to link generative AI to custom skills for added versatility in your Virtual Agent LLM \(large language model\) conversations.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## AI Connector utility properties
 
@@ -53,13 +55,13 @@ Wait for response
 
 Activate this toggle switch to wait for a response from the action before continuing the conversation.
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td>
 
 Input and Output mappings
 
-</td></tr><tr><td colspan="2">
+</td><td>
 
-All input and output mappings are based on the custom skill you select. For more information on custom skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md), [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/managing-custom-skills.md), and [Using AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md).
+All input and output mappings are based on the custom skill you select. For more information on custom skills, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md), [Managing custom skills in Assistant Designer Asset library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/managing-custom-skills.md), and [AI agents in Virtual Agent topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/ai-agent-custom-skill.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -84,5 +86,5 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 \[Omitted image "vad-ai-connector-utility-properties-with-skill.png"\] Alt text: AI Connector utility with Web Search skill selected. All input and output mappings derive from the custom skill.
 
-**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
 

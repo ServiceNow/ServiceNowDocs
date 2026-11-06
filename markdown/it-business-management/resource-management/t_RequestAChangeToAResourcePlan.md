@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -29,8 +29,6 @@ You can change the resource plans that are in the Requested or Confirmed state. 
 1.  Navigate to **All** &gt; **Resource** &gt; **Resource Plans** &gt; **All**.
 
 2.  Open a resource plan that is in the Requested or Confirmed and select **Request Change**.
-
-    You can also request change from the [Allocation Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md).
 
 
 ## Result
@@ -54,7 +52,7 @@ The resource plan moves back to the Planning state and has the form fields enabl
 
 [Confirm and allocate a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

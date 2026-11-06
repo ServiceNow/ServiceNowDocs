@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-06-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Portal content, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Portal content, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create video content
@@ -32,9 +32,6 @@ The Content Library supports the following types of video:
 
 -   YouTube
 -   Vimeo
-
-    **Note:** If you upload a video to the db\_video table, you can use the video's name in the URL field to reference the local video, which allows you to use additional video types outside of YouTube or Vimeo.
-
 
 ## Procedure
 

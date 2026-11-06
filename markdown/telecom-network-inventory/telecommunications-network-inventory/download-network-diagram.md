@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the network diagram, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network diagram, Use, Telecommunications Network Inventory]
 ---
 
 # Download a network diagram
@@ -43,7 +43,7 @@ You can download the entire canvas of a network diagram in the PNG format and sa
 
 The image is downloaded in PNG format.
 
-**Parent Topic:**[Using the network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
+**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
 
 **Related topics**  
 
@@ -52,5 +52,5 @@ The image is downloaded in PNG format.
 
 [Create a protection path]()
 
-[Visualization of circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

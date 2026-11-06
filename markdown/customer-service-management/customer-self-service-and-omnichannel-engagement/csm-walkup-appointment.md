@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-05-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure appointment booking
@@ -18,15 +18,15 @@ Create or modify appointment booking configurations for Walk-up Experience servi
 
 ## Before you begin
 
-Role required: admin or sn\_csm\_walkup.walkup\_admin
+Role required: sn\_csm\_walkup.walkup\_admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **CSM Walk-up Experience** &gt; **Administration** &gt; **Appointment Configurations**.
 
-2.  Select **New** to create a service configuration.
+2.  Click **New** to create a new service configuration.
 
-    Alternatively, you can select an existing service configuration to modify data.
+    Alternatively, you can click an existing service configuration to modify data.
 
 3.  In the Appointment Booking Service Configuration form, fill in the following fields as needed.
 
@@ -80,7 +80,7 @@ Holiday Schedule
 
 </td><td>
 
-The holiday schedule to use when determining availability. Appointment booking evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. Select the lookup icon and select a schedule from the Schedules list. **Note:** Holiday schedules are useful when you set the assignment method for tasks to **manually**, which does not consider agent schedules.
+The holiday schedule to use when determining availability. Appointment booking evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. Click the lookup icon and select a schedule from the Schedules list. **Note:** Holiday schedules are useful when you set the assignment method for tasks to **manually**, which does not consider agent schedules.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -92,7 +92,7 @@ Catalog item
 
 </td><td>
 
-The service in the service catalog for which you are creating this appointment booking configuration. Select the lookup icon and select the associated service from the Record Producers list.
+The service in the service catalog for which you are creating this appointment booking configuration. Click the lookup icon and select the associated service from the Record Producers list.
 
  You must create a record producer for each walk-up service location.
 
@@ -106,7 +106,7 @@ Location
 
 </td><td>
 
-The field on the record provider that determines the appointment location. **Note:** Verify the **Location** field on both this form and the Walk-up Location Queue \(wu\_location\_queue\) form are configured in alignment. Walk-up Experience contains the *location* reference variable, which is a Location \(cmn\_location\) record. Selecting **Location** from the search list \[Omitted image "List\_SearchIcon.png"\] Alt text: search list icon icon confirms you are aligning with the same time zone as the walk-up location you are configuring for. When you select **Location**, the online appointment scheduling calendar displays in the user time zone. If you leave this field empty or if you have not configured the user preference for the instance to have an associated time zone, the appointment scheduling calendar defaults to display in the user time zone.
+The field on the record provider that determines the appointment location. **Note:** Ensure the **Location** field on both this form and the Walk-up Location Queue \(wu\_location\_queue\) form are configured in alignment. Walk-up Experience contains the *location* reference variable, which is a Location \(cmn\_location\) record. Selecting **Location** from the search list \[Omitted image "List\_SearchIcon.png"\] Alt text: search list icon icon ensures you are aligning with the same time zone as the walk-up location you are configuring for. When you select **Location**, the online appointment scheduling calendar displays in the user time zone. If you leave this field empty or if you have not configured the user preference for the instance to have an associated time zone, the appointment scheduling calendar defaults to display in the user time zone.
 
 If a user in Europe has User preferences for **Time zone** configured for **Europe/Brussels** and the Appointment Booking Configuration for the **Location** field is set to a cmn\_location with the time zone **US/Pacific**, then the appointment scheduling calendar displays in the US/Pacific time zone.
 
@@ -119,7 +119,7 @@ Appointment is mandatory
 </td><td>
 
 Enable this check box if it is required for a customer to create an appointment when requesting this service. -   If enabled, the **Appointment** field appears on the record producer and the user must select an available appointment before submitting the service request.
--   If inactive, the user can submit the service request without selecting an appointment.
+-   If disabled, the user can submit the service request without selecting an appointment.
 
 
 </td></tr><tr><td>
@@ -164,7 +164,7 @@ Reschedule / Cancel by time
 
 </td><td>
 
-The number of hours or days prior to an appointment start time that are required for canceling an appointment or rescheduled. If a user attempts to cancel or reschedule an appointment within this number of hours, the **Cancel** button is not available. Define the time in hours or days. The default is 4 hours.
+The number of hours or days prior to an appointment start time that are required for cancelling an appointment or rescheduled. If a user attempts to cancel or reschedule an appointment within this number of hours, the **Cancel** button is not available. Define the time in hours or days. The default is 4 hours.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -176,7 +176,7 @@ Appointment window
 
 </td><td>
 
-The length or duration of the appointment window. **Note:** Ensure enough time to start and complete the work within this window.
+The length or duration of the appointment window. **Note:** Allow enough time to start and complete the work within this window.
 
 </td></tr><tr><td>
 
@@ -239,6 +239,6 @@ Appointment booking preview
 Provides a preview of the appointment windows and times based on the selected start and end times, break time, and appointment window.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  Click **Submit**.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Proofpoint integration for Security Operations, Proofpoint integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Configure, Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # View the Proofpoint Analytics Dashboard
@@ -31,8 +31,6 @@ Role required: sn\_si\_admin
 2.  Select **SIR Dashboards**.
 
 3.  Select **Proofpoint Analytics Dashboard** from the drop-down list.
-
-    \[Omitted image "proofpoint-analyst-dashboard-sir.png"\] Alt text: Proofpoint Analytics Dashboard
 
 4.  View information about VAP users.
 

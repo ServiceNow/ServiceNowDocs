@@ -1,59 +1,84 @@
 ---
-title: Understand the AIOps LEAP value dashboard
-description: Learn how to use the AIOps LEAP value dashboard to view the analysis of automation opportunities and cost and time savings achieved using automation for IT operations management.
+title: Monitor automation outcomes using the LEAP value dashboard
+description: Use the LEAP value dashboard to monitor automation outcomes across ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/understand-the-aiops-leap-value-dashboard.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2025-12-29"
-reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [LEAP dashboard, automation opportunities, cost savings, operational efficiency, LEAP artifacts metrics, Ansible playbooks, KB articles, problem records]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# Understand the AIOps LEAP value dashboard
+# Monitor automation outcomes using the LEAP value dashboard
 
-Learn how to use the AIOps LEAP value dashboard to view the analysis of automation opportunities and cost and time savings achieved using automation for IT operations management.
+Use the LEAP value dashboard to monitor automation outcomes across ServiceNow playbooks, Ansible playbooks, KB articles, and problem records.
 
 ## Before you begin
 
-Role required: admin
+Role required: LEAP admin
+
+## About this task
+
+The LEAP value dashboard tracks automation outcomes across all outcome types that LEAP produces. Use the **Overview** tab to monitor cross-outcome metrics and identify high-value automation opportunities.
 
 ## Procedure
 
-1.  Select the AIOps LEAP dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text: to view records analyzed and grouped into automation opportunities.
+1.  Navigate to the LEAP dashboard by selecting the dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text:.
 
-    The dashboard provides a comprehensive overview of estimated time and cost savings achievable with automation.
+    The **Default - LEAP value dashboard** page opens. To view a different automation project dashboard, select **Switch project** in the upper-right corner.
 
-    \[Omitted image "leap-value-dashboard.png"\] Alt text: LEAP value dashboard
+    \[Omitted image "leap-value-dashboard.png"\] Alt text: LEAP value dashboard showing the Overview tab with Grouping value, LEAP artifacts metrics, Outcome by type, and Savings by playbooks sections
 
-2.  Review the Grouping statistics section.
+    The **Overview** tab opens by default, displaying grouping statistics and a summary of all automation outcomes.
 
-    1.  Check the total number of records analyzed.
+2.  Review the **Grouping value** section to understand the scope and results of the analysis.
 
-    2.  View the number of groups created and the average group size.
+    This section displays key grouping metrics and analysis metadata:
 
-    3.  Identify large groups \(those exceeding the designated threshold for automation opportunities\).
+    -   **Records analyzed** - total number of records that LEAP processed in the current analysis run.
+    -   **Total groups** and **Average group size** - clusters of similar incidents that LEAP identified as candidates for automation.
+    -   **Large groups** - groups that exceed the automation threshold and represent high-value automation opportunities.
+    -   **Table analyzed** - the ServiceNow table that LEAP used as the data source, for example, Incident.
+    -   **Last run** - the date of the most recent GAF analysis run.
+    -   **Record date range** - date range of records included in the analysis.
+3.  Review the **LEAP artifacts metrics** section.
 
-    4.  Refer to the duration of the records used to present the statistics along with the last GAF run.
+    Use the **Time Period** list in the upper-right of this section to filter all artifact counts by a time range. The default is **Last 6 months**.
 
-        This section helps you understand how incidents are grouped for automation.
+    1.  Review the four artifact summary cards: **ServiceNow playbooks**, **Ansible playbooks**, **KB articles created**, and **Problem records created**.
 
-3.  Review the Automation Value section.
+        Each card shows the total count of that artifact type that LEAP created in the selected time period.
 
-    1.  Check the predicted cost and time savings from automation.
+    You can see a cross-outcome summary of all artifacts that LEAP generated.
 
-    2.  View the number of playbooks created and tickets resolved.
+4.  Review the **Outcome by type** section.
 
-    This section demonstrates the impact of automation on operational efficiency.
+    1.  Review the **Playbooks** donut chart.
 
-4.  If required, contact your LEAP administrator to modify LEAP settings for tailored savings based on organizational requirements.
+        The chart breaks down total playbooks by type: **ServiceNow playbooks** and **Ansible playbooks**. The center value shows the combined total.
 
-    LEAP administrators can adjust dashboard settings to align with business goals.
+    2.  Review the **Automated Opportunities** donut chart.
+
+        The chart shows the proportion of automation opportunities that are automated compared to those that are not automated. The center value shows the total number of groups.
+
+5.  Review the **Savings by playbooks** section.
+
+    1.  Check **Total savings by playbooks** and **Total agent-hours saved by playbooks**.
+
+        These values show realized savings from ServiceNow and Ansible playbook executions.
+
+    2.  Review the **Savings distribution** chart.
+
+        The chart shows how total savings are distributed across playbook types.
+
+    You can see quantified savings from playbook-driven automation for the selected time period.
 
 
 ## Result
 
-By following these steps, administrators can effectively use the AIOps LEAP value dashboard to monitor automation opportunities, analyze grouping and automation values, and optimize cost and time savings for your IT operations.
+The **Overview** tab provides a cross-outcome snapshot of all artifacts that LEAP generated and the total savings from playbook automation. To review detailed metrics for a specific outcome type, see the related tasks: [Review ServiceNow playbook metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-servicenow-playbook-metrics.md), [Review Ansible playbook metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-ansible-playbook-metrics.md), [Review KB article metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-kb-article-metrics.md), and [Review problem record metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/review-problem-record-metrics.md).
 

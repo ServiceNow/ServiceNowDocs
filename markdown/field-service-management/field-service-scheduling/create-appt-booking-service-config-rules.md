@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create service configuration rules for a service configuration
@@ -18,11 +18,11 @@ Configure appointment booking rules for a service configuration, for example, Po
 
 ## Before you begin
 
-Role required: admin
+Role required: appointment\_booking\_admin
 
 ## About this task
 
-Service Configuration Rules are used to define which advanced configuration applies for which specific use case of the service.
+Service Configuration Rules determine which advanced configuration is applied to a specific service use case. Using advanced configuration, you can define location-specific or day-specific appointment windows and slot settings. These advanced configurations are applied when the defined conditions are met.
 
 ## Procedure
 
@@ -30,11 +30,11 @@ Service Configuration Rules are used to define which advanced configuration appl
 
 2.  Select the desired configuration.
 
-    -   Select **Field Service Order Configuration** to create appointment booking service configuration rules for **work orders**.
-    -   Select **Field Service Task Configuration** to create appointment booking service configuration rules for **work order tasks**.
+    -   To create appointment booking service configuration rules for work orders, select **Field Service Order Configuration**
+    -   To create appointment booking service configuration rules for work order tasks, select **Field Service Task Configuration**
 3.  In the Appointment Booking Service Configuration related list, select a service configuration to which you want to add rules.
 
-4.  Select **Enable advanced configurations** check box if not already selected.
+4.  Select either **Enable advanced configurations** or **Use appointment schedule** check box if not already selected.
 
 5.  In the Service Configuration Rules related list, click **New**.
 
@@ -114,6 +114,14 @@ An option to make it mandatory to include a certain number of appointments in ea
 
 </td></tr><tr><td>
 
+Holiday Schedule
+
+</td><td>
+
+The holiday schedule to use when this rule is applied to determine availability. Appointment booking evaluates the holiday schedule when determining the number of available appointments and excludes any day in the schedule that is set to **Exclude**. Click the lookup icon and select a schedule from the Schedules list. **Note:** Holiday schedules are useful when the assignment method for tasks is set to **manually**, which does not consider agent schedules.
+
+</td></tr><tr><td>
+
 Active
 
 </td><td>
@@ -134,7 +142,7 @@ Max bookable days in future
 
 </td><td>
 
-Number of days in advance of the current day for which an appointment can be booked for this service. The default is 14 days.
+The maximum number of days into the future, starting from the current day for which an appointment can be booked for this service. The default is 14 days.
 
 </td></tr><tr><td>
 
@@ -142,7 +150,7 @@ Appointments per window
 
 </td><td>
 
-Number of available appointments for each configured appointment time slot. This number determines the number of available appointments that are displayed on the Select Appointment window. Enter a number in this field if the assignment method for tasks is set to manually. If set to either using auto-assignment or using dynamic scheduling, this setting does not apply, unless a location is not provided. Then the configuration defaults to the number of appointments per window.
+Number of available appointments for each configured appointment time slot. This number determines the number of available appointments that are displayed on the **Select Appointment** window. Enter a number in this field if the assignment method for tasks is set to manually. If assignment method is set to either using auto-assignment or using dynamic scheduling, this setting does not apply, unless a location is not provided. Then the configuration defaults to the number of appointments per window.
 
 </td></tr></tbody>
 </table>7.  Click **Submit**.

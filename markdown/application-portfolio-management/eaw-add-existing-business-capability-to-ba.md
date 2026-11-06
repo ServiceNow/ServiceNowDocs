@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-existing-business-capability-to-ba.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-26"
-reading_time_minutes: 1
-breadcrumb: [Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a business capability to a business application
@@ -36,15 +36,15 @@ Role required: sn\_apm.apm\_user
 
 8.  In the Add business capabilities window, add the relevant business capabilities or particular sub capabilities.
 
-<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d104582e142">
+<table id="choicetable_dsh_sns_dfc"><thead><tr><th align="left" id="d116164e146">
 
 Options
 
-</th><th align="left" id="d104582e145">
+</th><th align="left" id="d116164e149">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104582e151">
+</th></tr></thead><tbody><tr><td id="d116164e155">
 
 **Add parent business capabilities to the business application**
 
@@ -56,7 +56,7 @@ In the **Available items** box, select the check box next to a business capabili
 
  \[Omitted image "business-capability-added-to-ba.png"\] Alt text: Selected business capabilities that are to be added to the business application.
 
-</td></tr><tr><td id="d104582e179">
+</td></tr><tr><td id="d116164e183">
 
 **Add specific sub capabilities to the business application**
 
@@ -65,16 +65,44 @@ In the **Available items** box, select the check box next to a business capabili
 1.  In the **Available items** box, select the open item icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to a business capability.
 2.  In the sub capabilities box, select the check box next to the sub capability that you want to the business application.
 
-You can again select the open item icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to a sub capability to view more sub capabilities that are lower in the business capability hierarchy.\[Omitted image "business-sub-capability-added-to-ba.png"\] Alt text: Selected subcapabilities that are to be added to the business application.
+You can again select the open item icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to a sub-capability to view more sub-capabilities that are lower in the business capability hierarchy.\[Omitted image "business-sub-capability-added-to-ba.png"\] Alt text: Selected subcapabilities that are to be added to the business application.
 
 </td></tr></tbody>
 </table>9.  Select **Save**.
 
 
-**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-app-portfolio.md)
+**Parent Topic:**[Working with an application portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-application-portfolio.md)
 
 **Related topics**  
 
+
+[View roadmap of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-roadmap-ba.md)
+
+[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)
+
+[Add or edit a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-business-app.md)
+
+[Manage information objects in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-associate-info-obj-ba.md)
+
+[Remove architectural artifacts from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-unassign-archi-artfct-assoc-ba.md)
+
+[Associate an architectural artifact with a business app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoicate-artifact-ba.md)
+
+[View architectural artifacts for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-archi-artfct-assoc-with-ba.md)
+
+[Remove business capabilities from a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-unassign-business-capabilities-from-ba.md)
+
+[Open business application form in Core UI from EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-ba-form-in-coreui.md)
+
+[View all business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-all-business-apps.md)
+
+[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-open-map-ba.md)
+
+[Create a Lucidchart diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-lucid-diagram-ba.md)
+
+[Add an architectural artifact to a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add--existing-archi-artfct-to-a-ba.md)
+
+[Create a diagram for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-diagram-ba.md)
 
 [View all business capabilities on the Portfolio page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-capabilities-on-the-portfolio-page.md)
 

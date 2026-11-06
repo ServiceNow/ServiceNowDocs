@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure Journey designer features
@@ -93,9 +93,9 @@ Manage journey headers or customize journey headers for different journey types 
 Create plan types to manage the top-level classification for stages and tasks for Journey types, as well as the header views for users.
 -   **[Create and manage plan types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-create-manage-plans.md)**  
 Create plan types to manage the top-level classification for stages and tasks in a Journey designer plan.
--   **[Create and manage plan configurations in Journey designer version 1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-create-manage-plan-configuration.md)**  
+-   **[Create and manage plan configurations in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-create-manage-plan-configuration.md)**  
 Create and manage plan configurations that are based on a plan type. Plan configurations are customized for specific employee audiences.
--   **[Setup the Journey designer version 2 plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
+-   **[Setup the Journey designer plan configuration review and approval process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.md)**  
 ServiceNow administrators configure the Journey designer plan configuration feature and process.
 -   **[Enable the Now Assist Journey generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/enable-jny-gen.md)**  
 Enable the Journey generation skill in ServiceNow Otto for HRSD using the AI Admin Hub console.
@@ -109,6 +109,10 @@ A satisfaction score action triggers a widget to appear to the employee, contain
 Administrators can develop Journey Accelerator templates for customized plans with stages that include user tasks for different audiences.
 -   **[Recommended learning in journey configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-ml-learning-recom.md)**  
 Administrators add relevant learning recommendations to a journey configuration.
+-   **[Configure Journeys for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/configure-journeys-now-mobile.md)**  
+Configure Journey designer in Now Mobile to enable managers, mentors, and employees to interact with their journeys from their mobile devices.
+-   **[Initiate a learning task from a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/ln-task-pst.md)**  
+When a lifecycle event is triggered, a learning task is created and assigned to the subject person of the case. The task is displayed in the To-dos page in Employee Center.
 -   **[Employee Center \(EC\) homepage journey tabs widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-ec-hp-widget.md)**  
 The Service Portal Designer contains a library of widgets to add to a service portal. The **EC homepage journey tabs widget** displays key details related to users' journeys.
 

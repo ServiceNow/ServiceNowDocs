@@ -1,5 +1,5 @@
 ---
-title: Populate application services using tags
+title: Use tags to populate application services
 description: Use tags that help categorize and organize configuration items \(CIs\) in your organization to populate an service instance. Tag-based mapping doesn't require configuring credentials or providing users with elevated rights. Tag-based population method requires the Service Mapping feature of ITOM Visibility.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an application service, Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create a Service instance, Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Populate application services using tags
+# Use tags to populate application services
 
 Use tags that help categorize and organize configuration items \(CIs\) in your organization to populate an service instance. Tag-based mapping doesn't require configuring credentials or providing users with elevated rights. Tag-based population method requires the Service Mapping feature of ITOM Visibility.
 
@@ -33,7 +33,7 @@ If you have [configured tag-based service families and tag categories](https://r
 
 Alternatively, you can define tag keys and their values while choosing the tag-based population method for a new application service. Define up to three tag keys and tag values for the population criteria. CIs that have discovered tag keys and tag values, become part of an service instance.
 
-For information about the different types of application services and the different methods you can use to populate application services, including using tags, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
+For information about the different types of application services and the different methods you can use to populate application services, including using tags, see [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md).
 
 **Note:** Service Mapping includes CIs that are part of CI relationships even if these CIs do not have tags assigned to them. For more information, see [Tag-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/tag-based-mapping.md).
 
@@ -53,8 +53,6 @@ For information about the different types of application services and the differ
 
     3.  Click the plus icon and add another tag key and tag value.
 
-        \[Omitted image "app-service-wizard-tag-list.png"\] Alt text: Define tag keys and values if you selected the list of tags option.
-
     4.  Click **Preview Result** to see the list of CIs that match the defined criteria.
 
         **Note:** If necessary, refine the tag definitions. You can add no more than three tag key-value pairs for one application service.
@@ -63,17 +61,15 @@ For information about the different types of application services and the differ
 
     1.  Select **Use a candidate from a tag-based service family**.
 
-    2.  To see the tag definitions for this tag-based service family, click the **Preview** button \[Omitted image "preview-button.png"\] Alt text: Preview button
+    2.  To see the tag definitions for this tag-based service family, populate the **Preview** button
 
     3.  From the **Tag-Based Service Family** list, select the relevant family.
 
     4.  Review the tag categories and values assigned to the service family.
 
-        \[Omitted image "app-service-wizard-tag-family.png"\] Alt text: Select the tag-based service family and then select the relevant candidate.
-
     5.  From the **Service Candidate** list, select the relevant candidate.
 
-    6.  To review the service candidate form, click the **Preview** button \[Omitted image "preview-button.png"\] Alt text: Preview button.
+    6.  To review the service candidate form, select the **Preview** button .
 
 4.  Add free-text comment that may provide useful information for handling this application service later.
 

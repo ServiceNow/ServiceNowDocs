@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-advanced-filter.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configuring advanced resource filters for Dispatcher Workspace
@@ -24,25 +24,32 @@ Advanced resource filtering allows dispatchers to create their own filtered view
 
 Advanced resource filtering also allows administrators to create their own advanced filter and apply it to Dispatcher Workspace for all dispatchers to use.
 
-**Warning:**
-
-Advanced resource filtering is only available for filtering agents and crews. If you currently use contractors or equipment you should continue to use the default filter in the contextual side panel.
-
 ## The advanced resource filter system property
 
-When you enable the advanced resource filter system property you turn on two data base views. Database views are collections of tables. These two database views contain tables with values that dispatchers can use to create their advanced resource filters. The database views are called the agent filter configuration database view and the crew filter configuration database view.
+When you enable the advanced resource filter system property you turn on four data base views. Database views are collections of tables. These four database views contain tables with values that dispatchers can use to create their advanced resource filters. The four database views are the:
+
+-   agent filter configuration database view
+-   crew filter configuration database view
+-   equipment filter configuration view
+-   contractor filter configuration view
 
 The advanced resource filter system property also turns on a control which allows administrators to create any custom filter and add it to Dispatcher Workspace for all dispatchers to use. This control is called the Resource Filter configuration.
 
-You must have the calendar collapsed system property \(`sn_fsm_disp_wrkspc.calendarCollapsedBehavior`\) enabled to use advanced resource filters. The calendar collapsed system property is only available for new customers that installed Field Service Management with Xanadu or a later version. If you installed Field Service Management with Washington DC or an earlier version, then you must create the calendar collapsed system property \(`sn_fsm_disp_wrkspc.calendarCollapsedBehavior`\) and set it to true.
+You must have the calendar collapsed system property \(`sn_fsm_disp_wrkspc.calendarCollapsedBehavior`\) enabled to use advanced resource filters.
 
 ## Database views
 
-The agent filter configuration database view and the crew agent filter configuration database view contain a list of tables. By default, dispatchers can create advanced filters based off of username and user skill in the agent tab, or crew name and crew skill in the crew tab.
+The four database views contain a list of tables. By default, dispatchers can create advanced filters based off of:
+
+-   Username or user skill in the **Agents** tab.
+-   Crew name or crew skill in the **Crews** tab.
+-   Equipment category or resource type in the **Equipment** tab.
+-   Contractor name in the **Contractor** tab.
+
+    **Note:** In the **Contractor** tab the field that you select to filter a contractor is labeled Assignment Group, even though you are filtering on contractors.
+
 
 If you want dispatchers to be able to use more values to create advanced filters with, then you must indicate what values in the tables are available.
-
-**Note:** You access the database views by selecting Agent Filter Configuration or Crew Filter Configuration from the All menu.
 
 The tables are different if you have assignment groups or territories configured. For a list of the tables that contain the values administrators must enable for dispatchers to use to create resource filters, see [Advanced resource filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/advanced-filter-tables.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -21,8 +21,6 @@ The following enhancements are available for the entities:
 -   Email notification: When you update the entity owner value or when you assign a new owner to an entity, an email notification is sent to the entity owner about the assignment of the entity.
 -   Auto-update the entity owner: You can select the **Auto-update owner** option to keep the entity owner in synchronization with the value from its reference \(source\) field. See the following example.
 
-    \[Omitted image "auto-update-owner.png"\] Alt text: Auto-update the entity owner.
-
     The **Auto-update owner** option is visible only for those entities that you have created by using the entity filter and that you have enabled by using the **Use owner field** option in the filter.
 
     You can also view the **Auto-update owner** option on the entity form in the workspace view. See the following example.
@@ -31,26 +29,11 @@ The following enhancements are available for the entities:
 
 -   Form design changes: The following form design changes are introduced in the entity and entity filter forms.
     -   You must fill in the **Entity class** and **Default owner** fields in the form as shown in the following example.
-
-        \[Omitted image "entity-class-owner-fields.png"\] Alt text: Class and owner fields in the entity form.
-
-    -   You must fill in the **Default owner** field even if you have cleared the **Use owner field** as shown in the following example. This update ensures that every entity that has been created has an owner assigned to it.
-
-        \[Omitted image "default-owner-mandatory.png"\] Alt text: Default owner field.
-
+    -   You must fill in the **Default owner** field even if you have cleared the **Use owner field**. This update ensures that every entity that has been created has an owner assigned to it.
     -   The **Department** field is added to the entity form. You can add context to an entity by selecting the department, location, and class fields.
-    -   The **Auto-update owner** and **Source field for owner** fields are displayed in the form. The **Source field for owner** is visible only if you have enabled the **Auto-update owner** field as shown in the following example.
-
-        \[Omitted image "entity-sync-owner-with-source-field.png"\] Alt text: Source field for owner.
-
+    -   The **Auto-update owner** and **Source field for owner** fields are displayed in the form. The **Source field for owner** is visible only if you have enabled the **Auto-update owner**.
     -   The Activity journal displays the log of the changes that are made to the fields as shown in the following example.
-
-        \[Omitted image "entity-form-activity-journal.png"\] Alt text: Activity journal.
-
     -   The new **Sync owner with source field** related link is displayed in the entity form as shown in the following example. It synchronizes the owner of an entity with its source record's field value. It is visible on the form only if the value of the source field and the owner of an entity are not in synchronization.
-
-        \[Omitted image "sync-owner-with-source-field-ui-action.png"\] Alt text: Sync owner with source field related link.
-
     -   Activate the job that synchronizes the entity owner before enabling the property. You can enable the **Frequency of syncing the entity owner with the source record** property under GRC properties to synchronize the entity owner with its source record on a daily, weekly, or monthly basis.
 
         Activate the job that synchronizes the entity owner before enabling the property. You can enable the **Maximum batch size while syncing the entity owner with that of its source record** property under GRC properties to set the maximum batch size to an integer value. By doing this action, you synchronize the entity owner with its source record value.

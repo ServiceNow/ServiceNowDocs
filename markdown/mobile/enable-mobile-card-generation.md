@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/enable-mobile-card-generation.html
 release: yokohama
 topic_type: task
-last_updated: "2026-04-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [web to mobile, component conversion]
-breadcrumb: [Web to mobile component conversion, Using the Mobile App Builder, Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Web to mobile component conversion, Using the Mobile App Builder, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Enable the mobile card generation skill

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-enable-disable-imports-qualys.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Enable or disable the import of test results for a Qualys test group in the Vulnerability Manager Workspace]
 breadcrumb: [Use, Unified Security Exposure Management, Security Operations]
@@ -38,6 +38,4 @@ Role required:
 
 4.  Enable the import of the test results by selecting the **Enable import** button.
 
-
-**Parent Topic:**[Using Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-unified-security-exposure-management.md)
 

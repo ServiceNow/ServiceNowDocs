@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Supported software publisher licenses
@@ -78,7 +78,7 @@ Software Asset Management Professional for Oracle \(com.snc.samp.oracle\)
 
 </td><td>
 
-Provides additional capabilities to reconcile Oracle software, such as Oracle DB Server.
+Provides additional capabilities to reconcile Oracle software, such as Oracle Database.
 
 </td></tr><tr><td>
 
@@ -128,9 +128,7 @@ Use the Software Asset Management publisher pack for Oracle to track and optimiz
 -   **[Software Asset Management publisher pack for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sap-publisher-pack.md)**  
 Use the Software Asset Management publisher pack for SAP to manage and optimize your SAP licenses. Get comprehensive visibility into your SAP license compliance and uncover potential savings.
 -   **[Software Asset Management publisher pack for VMware](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/vmware-publisher-pack.md)**  
-Use the Software Asset Management publisher pack for VMware to create software entitlements, software models, and track your licensing positions using VMware-specific licensing metrics.
--   **[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/concurrent-licenses.md)**  
-Get visibility into your license position and usage of your engineering applications to eliminate audit risks, inefficient usage of licenses, inaccurate forecasting, and to help prevent denials.
+Use the Software Asset Management publisher pack for VMware to track and optimize licensing for your VMware software products.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

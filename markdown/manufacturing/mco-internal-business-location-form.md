@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-internal-business-location-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Internal business location form
@@ -174,4 +174,5 @@ Description
 Description of the business location.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
+

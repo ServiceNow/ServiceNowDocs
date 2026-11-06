@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage safety knowledge articles, Use, Health and Safety Core, Health and Safety, Employee Service Management]
 ---

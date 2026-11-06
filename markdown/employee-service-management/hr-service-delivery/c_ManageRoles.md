@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Manage HR roles
@@ -102,7 +102,7 @@ User with HR role
 There are specific HR roles that allow users access to specific areas of the system. For example, the HR profile reviewer \[sn\_hr\_core.profile\_reader\] role can read profiles, but not edit them.
 
 </td></tr></tbody>
-</table>After system configuration, to help prevent the System Administrator from accessing sensitive information:
+</table>After system configuration, to ensure that only HR Administrator has access to sensitive information and prevent the System Administrator from accessing sensitive information:
 
 -   Remove the HR Administrator \[sn\_hr\_core.admin\] role from System Administrator \[admin\].
     -   The base system requires a user with the System Administrator role to run scheduled jobs. For details on HR scheduled jobs, see [Components installed with Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/components-installed-with-case-and-knowledge-management.md).
@@ -142,7 +142,7 @@ There are specific HR roles that allow users access to specific areas of the sys
 
 
 -   **[Remove HR Administrator role from IT System Administrators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_HRRemoveAdminRole.md)**  
-After system configuration, remove the HR Administrator role \(sn\_hr\_core.admin\) from IT System Administrator role \(admin\) to help prevent IT System Administrators from viewing sensitive HR information via forms, lists and UI.
+Remove the HR Administrator role from IT System Administrator to prevent access to sensitive HR information.
 -   **[Add Delegated Developer to HR Administrator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_HRAdminRoles.md)**  
 For an HR Administrator \[sn\_hr\_core.admin\] to perform some platform duties, the delegated developer role must be added.
 -   **[Manage HR Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_ManageHRGroups.md)**  

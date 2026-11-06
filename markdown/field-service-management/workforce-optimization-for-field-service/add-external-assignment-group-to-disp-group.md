@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Contractor Management, Configuring contractor capabilities, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Contractor Management, Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
 
 # Add external assignment groups to the dispatch group
@@ -18,7 +18,7 @@ Add external vendor assignment groups to the dispatch group to assign work order
 
 ## Before you begin
 
-Role required: admin, wm\_admin
+Role required: wm\_admin
 
 ## Procedure
 

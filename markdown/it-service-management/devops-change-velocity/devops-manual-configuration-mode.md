@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Manage, DevOps Change Velocity, IT Service Management]
 
 As an alternative to making a connection using the standard setup process, you can use manual configuration mode to set up a webhook manually.
 
-For example, if you do not have admin privileges for a tool \(to allow automatic configuration the webhook URL\), you can send an email to the admin of the tool requesting the ServiceNow instance be added to the webhook. Once the instance is added, you can **Enter Manual Configuration Mode** and change the **Connection state** field to Connected \(to connect manually\).
+For example, if you don't have admin privileges for a tool \(to allow automatic configuration the webhook URL\), you can send an email to the admin of the tool requesting the ServiceNow instance be added to the webhook. Once the instance is added, you can **Enter Manual Configuration Mode** and change the **Connection state** field to Connected \(to connect manually\).
 
 This way you only need read-only permission to the tool. Once the connection is made, click **Exit Manual Configuration Mode**.
 

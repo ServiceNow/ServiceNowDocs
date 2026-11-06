@@ -1,20 +1,20 @@
 ---
 title: Create quick crews in Dispatcher Workspace
-description: Create planned or ad hoc crews faster and more efficiently using a single interface in Dispatcher Workspace. This helps dispatchers to view the agent schedule and availability while creating crews and adding crew members.
+description: Create planned or ad hoc crews faster and more efficiently using a single interface in Dispatcher Workspace. The single interface helps dispatchers view the agent schedule and availability while creating crews and adding crew members.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/create-quick-crews-disp-wrkspc.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Create quick crews in Dispatcher Workspace
 
-Create planned or ad hoc crews faster and more efficiently using a single interface in Dispatcher Workspace. This helps dispatchers to view the agent schedule and availability while creating crews and adding crew members.
+Create planned or ad hoc crews faster and more efficiently using a single interface in Dispatcher Workspace. The single interface helps dispatchers view the agent schedule and availability while creating crews and adding crew members.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ When creating a crew, you can simultaneously view the availability of agents and
 
 1.  Navigate to **All** &gt; **Field Service Management** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Select **Dispatcher Workspace** in the left navigation.
+2.  Select **Dispatcher Workspace**.
 
 3.  Create a regular crew or an ad hoc \(task-specific\) crew.
 
@@ -113,18 +113,16 @@ End date until when the crew is active to work on the task.
 
 6.  Add crew members.
 
-    1.  In the Members section of the crew pane, click in the **Members** field.
+    1.  In the Members section of the crew pane, select in the **Members** field.
 
     2.  Select the names of members to add to the crew from the list.
 
 7.  Add equipment to the crew.
 
-    1.  In the Equipment pane of the crew listing, click in the **Equipment** field.
+    1.  In the Equipment pane of the crew listing, select in the **Equipment** field.
 
     2.  Select the equipment items to assign to the crew.
 
 8.  Select **Update**.
 
-
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

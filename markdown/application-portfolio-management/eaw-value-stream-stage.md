@@ -1,16 +1,16 @@
 ---
-title: Manage value stream stages
+title: Exploring value stream stages
 description: Value stream stages are a specific section within the overall value stream, encompassing a specific set of activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-value-stream-stage.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage value stream stages
+# Exploring value stream stages
 
 Value stream stages are a specific section within the overall value stream, encompassing a specific set of activities.
 
@@ -24,16 +24,7 @@ The following relationships define the value stream stage model in Enterprise Ar
 
 In the Hire to Retire value stream, onboarding of new employees is a value stream stage.
 
--   **[View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-value-stream-stages.md)**  
-You can view the list of all available value streams stages in the Enterprise Architecture Workspace.
--   **[Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)**  
-Create or edit a value stream stage to improve the efficiency of a value stream and verify each step adds value to the output of the value stream.
--   **[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)**  
-You can add an existing business process to a value stream stage to map your enterprise architecture workflows to the stages of your value streams. You can also remove associated business processes if they are no longer relevant for the value stream stage.
--   **[Add or remove business capabilities from a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.md)**  
-You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
-
-**Parent Topic:**[Working with business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)
 
 **Related topics**  
 

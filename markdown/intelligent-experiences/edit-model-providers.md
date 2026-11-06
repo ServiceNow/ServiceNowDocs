@@ -1,35 +1,45 @@
 ---
-title: Edit model providers
-description: Edit the model provider at skill, skill group or at the instance level from the list of supported third party model providers, including the default Now LLM Service.
+title: Manage model providers
+description: Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/edit-model-providers.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
-reading_time_minutes: 2
+last_updated: "2026-09-16"
+reading_time_minutes: 3
 keywords: [Edit LLM provider, web search]
-breadcrumb: [Manage large language models, Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Manage AI models, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Edit model providers
+# Manage model providers
 
-Edit the model provider at skill, skill group or at the instance level from the list of supported third party model providers, including the default Now LLM Service.
+Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers, including the default Now LLM Service. You can also review the model policy set by your organization, and view the change history here.
 
 ## Before you begin
 
+Confirm that network access to the provider endpoint is allowed by your instance's proxy or firewall rules.
+
 Role required: admin
+
+## About this task
+
+The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+Starting with the September 2026 release, Now LLM Service is being prepared for future deprecation. The Now LLM Service is no longer the default model provider for new or inactive AI assets, and it is no longer selected by default in AI Control Tower. A third-party LLM is now selected by default for AI assets, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Let's take an example of editing the model provider for skill group.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **AI Admin Hub**.
 
-2.  Navigate to **Settings** &gt; **Manage model providers**.
+2.  Navigate to **Settings** &gt; **Manage AI models**.
 
-3.  Select **Edit LLM Provider** the Now Assist skill for which you want to update the LLM.
+3.  Select **Manage model providers**.
 
-    \[Omitted image "na-admin-edit-model-providers.png"\] Alt text: Edit model provider
+    \[Omitted image "na-admin-edit-model-providers.png"\] Alt text: Manage model providers
 
-4.  You can edit the model provider for the instance or customize it to update it at the skill or skill group level.
+4.  Select **Edit model provider** to edit the model provider for the instance or customize it to update it at the skill or skill group level.
 
 5.  Select **Instance** scope to update the model provider for all the skills and skill groups in the instance.
 
@@ -45,7 +55,7 @@ Role required: admin
 
 6.  Edit the model provider for a skill or skill group, after selecting the instance level model provider.
 
-    This customization will override the instance level selection.
+    This customization will override the instance level selection and update all capabilities associated with that group.
 
 7.  Select **Customize** to select the model provider for a particular skill or skill group.
 
@@ -65,16 +75,18 @@ Role required: admin
 
 9.  Review and accept the consent modal message to accept the terms for changing the region scope of the selected model provider.
 
-    \[Omitted image "na-edit-llm-data-routing-confirm.png"\] Alt text: Data routing confirmation
-
     There are certain market regions restricted for particular model providers. The region scope must be changed to global location for the skills to be able to use the selected model provider.
 
-10. Select **I agree** to accept and apply the selection.
+10. Select **Yes, activate** to accept and apply the selection.
 
     You receive a message confirming model provider selection. The selection will also notify if any of the skills within that capability are not updated with the selection.
 
     **Note:** The skill and skill level customizations are overwritten once you update the model providers at the instance level.
 
+    You can also select **Cancel, go back** to review or reject the changes.
 
-**Parent Topic:**[Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md)
+11. Follow similar steps for editing the model provider for a particular skill.
+
+
+**Parent Topic:**[Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md)
 

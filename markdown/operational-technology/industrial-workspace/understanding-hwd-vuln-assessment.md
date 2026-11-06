@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Explore, Industrial Workspace, Operational Technology]
 ---
@@ -18,13 +18,13 @@ The Operational Technology \(OT\) Hardware Vulnerability Assessment \(HVA\) appl
 
 ## Hardware Vulnerability Assessment overview
 
-Hardware Vulnerability Assessment uses normalized content for firmware discovery model to perform assessments. The normalized content contains OT device data, such as manufacturer, firmware version, and product model. It's based on the normalization process available in Enterprise Asset Management. The normalized content for OT devices is mapped according to the Common Platform Enumeration \(CPE\) format provided by the National Vulnerability Database \(NVD\). An OT device is considered at risk when the Common Vulnerabilities and Exposures \(CVEs\) data available in the NVD database matches the OT device data available in the CPE-mapped normalized content. The Hardware Vulnerability Assessment menu available in the Industrial Workspace displays the OT devices that are at risk.
+Hardware Vulnerability Assessment uses normalized content for firmware discovery model to perform assessments. The normalized content contains OT device data, such as manufacturer, firmware version, and product model. It's based on the normalization process available in Enterprise Asset Management. The normalized content for OT devices is mapped according to the Common Platform Enumeration \(CPE\) format provided by the National Vulnerability Database \(NVD\). An OT device is considered at risk, when the Common Vulnerabilities and Exposures \(CVEs\) data available in the NVD database, matches the OT device data available in the CPE-mapped normalized content. The Hardware Vulnerability Assessment menu available in the Industrial Workspace displays the OT devices that are at risk.
 
 HVA can assess firmware discovery models, which don’t have normalized content and they haven’t been CPE-mapped yet. HVA uses a matching score algorithm to compare CPE values with existing firmware discovery values. The matching algorithm searches for CPEs that matches OT devices with the same discovery publisher name, model name, and version. The HVA matching algorithm compares the data from CPEs and unmapped firmware discovery model. Based on the comparison, the matching algorithm evaluates the best possible CPE match for unmapped firmware discovery models. Even though the results may not be fully accurate, it helps in vulnerability assessments until CPE-mapped normalized content is available.
 
 Also, HVA uses the range information provided by NVD to assess vulnerabilities more accurately. For example:
 
--   In case there’s version information unavailable for a CPE, the range information available for a specific OT device publisher and model is used to perform a hardware vulnerability assessment.
+-   In case there’s a version information unavailable for a CPE, the range information available for a specific OT device publisher and model is used to perform a hardware vulnerability assessment.
 -   For versions, a comparison algorithm is used to determine if the input version is in range.
 
 **Important:** If you’re already using HVA, rerun the NVD Integrations to use the range information feature. For more information, see [Run NVD Integrations for Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/jobs-hwd-nvd-integration.md).
@@ -41,7 +41,7 @@ You must have the following roles to use the Hardware Vulnerability Assessment \
 -   sn\_vul.manage\_exposure\_assessment: Assign roles to admin users or user groups as needed, which enables them to view or edit properties for HVA.
 -   sn\_otvr.vul\_event\_manager \(OT Vulnerability Event Manager\): Assign roles to HVA users  or user groups as needed, which enables them to view assessment records and act accordingly.
 
-## Use case
+## Use Case
 
 OT hardware vulnerability analysts can use HVA to:
 

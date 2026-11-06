@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/json-param-search-option-banner-widget.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Management reference, Customer Service Management]
+breadcrumb: [Portal Banner widget JSON parameters, JSON parameter in Configurable Portal Widgets, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
 # Script parameters for the search option in the Portal Banner widget
@@ -19,4 +19,11 @@ Description of the JSON parameters for the search option in the Portal Banner wi
 |Title|Text to appear in the search field before a user starts typing.|
 |Size|Determines the font size and height of the widget. The permitted values are xs, sm, md, and lg.|
 |Color|Color of the search button provided in hex code. The default value is \#FFFFFF \(white\).|
+
+**Related topics**  
+
+
+[Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-banner-widget.md)
+
+[Add and configure the Portal Banner widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-banner-widget-inst-opt.md)
 

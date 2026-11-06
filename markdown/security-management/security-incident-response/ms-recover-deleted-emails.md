@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ Role required: Microsoft Exchange Online administrator or Microsoft Global admin
 
 Role required: sn\_si.admin in the ServiceNow AI Platform to enable the Recover Deleted Emails option.
 
-Role required: sn\_si.analyst in the ServiceNow AI Platform for completing a successful search for emails and verifying that emails are successfully deleted prior to recovery.
+Role required: sn\_si.analyst in the ServiceNow AI Platform for completing a successful search for emails and verifying that emails are successfully deleted before recovery.
 
 ## Procedure
 
@@ -42,27 +42,21 @@ Role required: sn\_si.analyst in the ServiceNow AI Platform for completing a suc
 
     2.  Locate the Microsoft Exchange Online tile.
 
-    3.  Click **Configure**.
+    3.  Select **Configure**.
 
         \[Omitted image "ms-7-24-config.png"\] Alt text: Microsoft Exchange Online configuration tile.
 
-    4.  In the Microsoft Exchange Online Configuration dialog box that is displayed, click **Configure Exchange Online**.
+    4.  In the Microsoft Exchange Online Configuration dialog box that is displayed, select **Configure Exchange Online**.
 
         \[Omitted image "ms-configure-tile.png"\] Alt text: Configure Exchange Online link highlighted on Microsoft Exchange Online Configuration dialog.
 
     5.  On the `Additional Settings` tab under `Recover Deleted Emails`, select the **Enable** check box.
 
-
-
-        \[Omitted image "ms-settings-recover-deleted.png"\] Alt text: Recover deleted emails on the Microsoft Exchange Online service
-
-    6.  Verify any other settings and click **Submit**.
+    6.  Verify any other settings and select **Submit**.
 
     7.  To verify that a search and delete of email messages are successfully completed for the email messages you want to recover, navigate to the security incident that logged the email search and delete workflows.
 
     8.  Locate the work notes and verify that the system successfully deleted the messages.
-
-        \[Omitted image "ms-924-work-notes-system.png"\] Alt text: Work notes confirming emails were successfully deleted.
 
     9.  As a Microsoft Exchange Online administrator or Global administrator, log in to your Microsoft Office 365 account.
 

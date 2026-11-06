@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Install Contract Management Pro for Legal Service Delivery
@@ -18,7 +18,11 @@ Install the Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) a
 
 ## Before you begin
 
-Review the Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   For new customers adopting CM Pro for LSD, the base system legal intake forms—Non Disclosure Agreement, Third-Party Contract Review, and Contract Amendment and Renewal request intake forms—are hidden by default. If administrators enable these forms, they are available under **Home** &gt; **Legal Services** &gt; **Legal Agreements**.
+
+    For existing customers, intake form behavior is preserved after upgrade. Whether the intake forms were enabled or disabled before the upgrade, that configuration remains unchanged.
+
 
 Role required: admin
 

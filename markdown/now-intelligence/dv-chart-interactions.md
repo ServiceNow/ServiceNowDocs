@@ -1,25 +1,25 @@
 ---
 title: Chart interactions in a data visualization
-description: You can set what occurs when a user interacts with a chart, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
+description: You can set what occurs when a user interacts with a visualization, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-chart-interactions.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [How to filter all visualizations on a dashboard by selected value, How to configure URL navigation in data visualization, drilldown]
 breadcrumb: [Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Chart interactions in a data visualization
 
-You can set what occurs when a user interacts with a chart, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
+You can set what occurs when a user interacts with a visualization, such as by selecting a bar column. Possibilities include navigating to a URL, opening another data visualization, and filtering all visualizations on the dashboard by the selected value.
 
-\[Omitted video\] Description: Adding a Drill down to chart interaction to a data visualization
+\[Omitted video\] Description: Adding a Drill down to visualization interaction to a data visualization
 
-The configuration panel of a data visualization includes a section labeled Chart interaction. In this section, you set what is called "on-click behavior." This term refers to what happens when a user interacts with a segment of the chart that represents a value. Examples include selecting a point on a time series or a segment of a pie or donut. You can also disable chart interactions for the visualization.
+The configuration panel of a data visualization includes a section labeled Chart interaction. In this section, you set the on-click behavior. On-click behavior defines what happens when a user interacts with a visualization segment that represents a value. Examples include selecting a point on a time series or a segment of a pie or donut. You can also disable chart interactions for the visualization.
 
-**Important:** You cannot configure chart interactions for data visualizations on technical dashboards or other UI Builder pages. You can turn chart interactions on or off with the **Enable drilldowns** toggle, but you cannot otherwise change them. Instead, you have to configure handlers for on-click events. For information about configuring drilldowns from data visualizations on a technical dashboard, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-custom-drilldown-event.md).
+**Important:** You cannot configure chart interactions for data visualizations on technical dashboards or other UI Builder pages. You can only enable and configure custom on-click events. Turn on-click events on or off with the **Enable drilldowns** toggle, then configure handlers for them. For information about configuring on-click events from data visualizations on a technical dashboard, see [Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-custom-drilldown-event.md).
 
 The following actions are available for a chart interaction:
 
@@ -27,11 +27,11 @@ The following actions are available for a chart interaction:
 
     Opens a view of the data appropriate to the data type. For information about the views for each data source, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/visualization-drilldown-in-config-ws.md).
 
-    **Note:** Go to data view is the default interaction for all supported data sources. User Experience Analytics data is not supported.
+    **Note:** Go to data view is the default interaction for all supported data sources.
 
 -   **Go to URL**
 
-    Opens the URL you specify. This URL can be on the instance or external to it. Where relevant, you can specify the name of the page that is opened in a tooltip. Go to URL is the default interaction for User Experience Analytics data sources.
+    Opens the URL you specify. This URL can be on the instance or external to it. Where relevant, you can specify the name of the page that is opened in a tooltip. Go to URL is the default interaction for Usage Insights data sources.
 
 -   **Apply as filter**
 
@@ -47,7 +47,7 @@ The following actions are available for a chart interaction:
     -   Drill down to chart is available only for table data sources.
     -   You cannot set drill down to chart from the Calendar, Geomap, Indicator scorecard, or List visualizations. However, you can drill down from supported visualizations to any visualization that can display table data.
 
-Different chart interactions support different data sources and data visualization types. The following table shows the matrix of support.
+Different visualization interactions support different data sources and data visualization types. The following table shows the matrix of support.
 
 <table id="table_c4f_plr_d1c"><thead><tr><th>
 
@@ -71,7 +71,7 @@ All
 
 </td><td>
 
-All that the visualization supports except User Experience Analytics
+All that the visualization supports
 
 </td></tr><tr><td>
 
@@ -111,10 +111,10 @@ All except Calendar, Indicator scorecard, List, and Geomap
 Table
 
 </td></tr></tbody>
-</table>-   **[Configure chart interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-go-data.md)**  
-Select what happens when a viewer interacts with a section of the chart for a data visualization that you are editing.
+</table>-   **[Configure visualization interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-go-data.md)**  
+Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 -   **[Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/visualization-drilldown-in-config-ws.md)**  
-When the chart interaction for a data visualization is set to Go to data, interacting with a data value on the chart opens different pages depending on the data source.
+Set the chart interaction for a data visualization to **Go to data** to open a data view. The page that opens depends on the data source.
 
 **Parent Topic:**[Configure data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-data-visualizations.md)
 

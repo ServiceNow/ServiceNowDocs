@@ -1,5 +1,5 @@
 ---
-title: Explore Talent Development Core
+title: Exploring Talent Development Core
 description: The Talent Development Core application provides employees and managers with an intuitive and streamlined process for managing career growth and development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-explore.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Explore Talent Development Core
+# Exploring Talent Development Core
 
 The Talent Development Core application provides employees and managers with an intuitive and streamlined process for managing career growth and development.
 
@@ -31,5 +31,5 @@ Identify, manage, and complete all your learning goals from the Learning tab in 
 -   **[Opportunity Marketplace overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-opportunity-marketplace-ovrvw.md)**  
 The Opportunity Marketplace is a single, unified space where individuals and organizations can share opportunities that are discoverable by employees.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-12-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore Workplace Reservation, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---

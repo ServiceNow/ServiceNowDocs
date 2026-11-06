@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using Design and Assign function, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Design and Assign function, Use, Telecommunications Network Inventory]
 ---
 
 # Create a logical connection record using the Design and Assign function
@@ -424,10 +424,10 @@ Free-form operation note text for this network asset. For example, `Check diesel
 
 The change tasks are created and executed for each activity. The logical connection record is created with the associated Configuration items \(CI\).
 
-**Parent Topic:**[Using Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
+**Parent Topic:**[Design and Assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.md)
 
 **Related topics**  
 
 
-[Design and Assign function for logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md)
+[Logical connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.md)
 

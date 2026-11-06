@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
@@ -41,5 +41,5 @@ Starting with Visibility Content version 6.28.0, activating or deactivating a pa
 
 **Previous topic:**[Compare pattern versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/compare-pattern-versions.md)
 
-**Next topic:**[Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)
+**Next topic:**[Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)
 

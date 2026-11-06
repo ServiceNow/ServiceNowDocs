@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 22
 breadcrumb: [Manage Workplace Reservations for Microsoft Outlook Add-in, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -74,7 +74,7 @@ Role required: admin
 
 4.  Select the **Reservable Table Configuration** tab to configure locations for reservation.
 
-    \[Omitted image "reservable-module-table.png"\] Alt text: Reservable Module Configuration form showing space type configuration as Desk.
+    \[Omitted image "Reservable-module-table.png"\] Alt text: Reservable Table Configuration form.
 
     On the form, fill in the fields.
 

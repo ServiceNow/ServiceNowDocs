@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -170,7 +170,7 @@ Make an item available in service catalog for catalog item requests.
 -   **[Create a question for a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-question-cat-builder.md)**  
 Specify a question that the requester should answer before submitting the catalog item.
 -   **[Edit a question in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/edit-question-cat-builder.md)**  
-Edit an existing question if you want to improve it by adding dynamic form behavior.
+Edit an existing question if you want to improve it by adding UI policies.
 -   **[Edit a catalog item in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/edit-cat-item-cat-builder.md)**  
 Make changes to an existing catalog item if you have permissions to edit the item.
 -   **[Transfer catalog items using update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/transfer-catalog-items-using-update-sets.md)**  

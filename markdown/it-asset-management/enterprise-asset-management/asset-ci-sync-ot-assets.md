@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [OT Asset Management, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets
@@ -55,7 +55,7 @@ Whenever there are updates to **Serial number** or **MAC address** fields, the C
 -   The Discovery source is **SNassetmanagement**, which means that the CI is created from an asset.
 -   CI name hasn't been modified by CMDB.
 
-**Note:** The **sn\_itam\_common.mac\_address\_sync** system property enables you to synchronize MAC address from the CI \(Network Adapter \[cmdb\_ci\_network\_adapter\] table\) to the Asset \[alm\_asset\] table. By default, this system property is set to **false**. To enable synchronization of MAC address, set the value of this system property to **true** by navigating to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Other configuration**. After this property is set to true, a scheduled job will run daily to synchronize the MAC addresses for all enterprise assets.
+**Note:** The **sn\_itam\_common.mac\_address\_sync** system property enables you to synchronize asset and CI using the Mac address. By default, this system property is set to **false**. To enable synchronization through the Mac address, set this system property to **true** by navigating to **Enterprise Asset Workspace** &gt; **Admin center** &gt; **Other configuration**.
 
 ## OT entity synchronization between asset and CI
 
@@ -71,9 +71,11 @@ The CI \[cmdb\_ci\] table has the **OT entity** \[cmdb\_ot\_entity\] field. Also
 **Related topics**  
 
 
-[OT Asset Management licensing]()
+[Installing OT Asset Management]()
 
-[View the license report for the OT Asset Management application]()
+[Installed with OT Asset Management]()
 
 [OT Asset Workspace]()
+
+[OT Asset Management licensing]()
 

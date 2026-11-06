@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Multicurrency in Project Management, Explore, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Multicurrency in Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Updates in cost plan and recalculation of cost in project currency

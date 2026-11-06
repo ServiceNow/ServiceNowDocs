@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [External applications for Contract Management Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Configure external applications, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure an external storage system
@@ -18,7 +18,7 @@ As a contract configurator, configure an external storage system to store signed
 
 ## About this task
 
-The following video walks you through the process of configuring your external storage for Contract Management Pro.\[Omitted video\] Description: Video explaining how to configure external storage for Contract Management Pro, approximately two minutes long.
+The following video walks you through the process of configuring external storage for Contract Management Pro.\[Omitted video\] Description: Video explaining how to configure external storage for Contract Management Pro, approximately two minutes long.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Ensure that the administrator has installed and set up spokes for the external s
 
 -   **[Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/onedrive-spoke.md) v2.1.0 or later version**
 
-    For more information on the setup and creating the Google Drive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-msonedrive.md) .
+    For more information on the setup and creating the Microsoft OneDrive account, see [Set up Microsoft OneDrive spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-msonedrive.md).
 
 
 Role required: sn\_cm\_core.contract\_config
@@ -49,7 +49,7 @@ Write permission is granted to the following user roles when the contract reques
 -   Assignment Group Manager
 -   Collaborator
 
-Access permissions set on the parent request folder are automatically inherited by all subfolders and documents within it.
+Access permissions set on the parent request folder are automatically inherited by all sub folders and documents within it.
 
 ## Procedure
 
@@ -60,6 +60,8 @@ Access permissions set on the parent request folder are automatically inherited 
     -   To create an external app configuration, click **New**.
     -   To modify an existing external app configuration, open the existing external app configuration from the list.
 3.  On the Contract Integration Type page, click the **External Storage** link.
+
+    \[Omitted image "cmpro-external-storage.png"\] Alt text: External storage form
 
 4.  On the form, fill in the fields.
 
@@ -103,8 +105,10 @@ Table
 
 Table configured to store the request details for your application. All the documents attached to the records created in the selected table are stored in the external storage you are configuring.For example, if you configure Google Drive as the external storage and select Contract Request table \[sn\_cm\_core\_contract\_request\], then all the documents attached to the records created in the Contract Request table will be automatically stored in Google Drive.
 
-**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure external storage.
+**Note:**
 
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure external storage.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 **Note:** If you select a different table, you must associate a corresponding flow.
 
 </td></tr><tr><td>
@@ -156,11 +160,13 @@ These field variables are dynamically replaced by the values in each field while
 
 ## Result
 
-The configuration for the external storage system is ready to be used for storing contract documents.
+The external storage system is configured and ready to be used for storing contract documents.
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-**Parent Topic:**[External applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
+For information on configuring electronic signature provider, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
+
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 
 **Related topics**  
 

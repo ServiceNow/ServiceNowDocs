@@ -1,20 +1,20 @@
 ---
 title: Identity Metrics for administrators
-description: View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
+description: View trends of the users, privileged users, active sessions, and integrated accounts on your ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/identity-center-for-admin.html
 release: yokohama
 product: Identity
 classification: identity
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Identity Center, Identity]
 ---
 
 # Identity Metrics for administrators
 
-View trends of the users, privileged users, active sessions, and integrated account on your ServiceNow instance.
+View trends of the users, privileged users, active sessions, and integrated accounts on your ServiceNow instance.
 
 Identity Metrics for administrators has the trends for the following:
 
@@ -23,6 +23,9 @@ Identity Metrics for administrators has the trends for the following:
 -   Integration or non-human accounts
 -   Active sessions
 -   Inactive sessions
+-   Identity types
 
-To learn more, see the Security Center Metrics.
+**Note:** You need the `privileged_role_config_admind` to manage role configurations in the Identity Center, including adding, deleting, creating, reading, and viewing reports in the **sys\_icenter\_role\_config** table.
+
+To learn more, see the [Security Center Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sc-metrics.md).
 

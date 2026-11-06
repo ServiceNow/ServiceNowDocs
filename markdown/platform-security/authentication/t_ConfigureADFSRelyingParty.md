@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ADFS integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [ADFS integration with SAML 2.0, Integrating SAML 2.0 with other features, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Configure an ADFS relying party
@@ -18,7 +18,7 @@ Take the instance metadata and import it into your ADFS server. However, manual 
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## Procedure
 

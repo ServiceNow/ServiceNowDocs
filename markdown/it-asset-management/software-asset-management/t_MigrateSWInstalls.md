@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Migrate software installations
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-If you are running Discovery and have used a version of Software Asset Management previously, there is no need to run this script.
+If you are running Discovery and have used a version of Software Asset Management previously, there is no need to run this script. After the initial migration, Discovery writes new records directly to \[cmdb\_sam\_sw\_install\] — re-running this script is not needed for new data.
 
 When running the Migrate Software Installs script, allow enough time for the process to complete.
 

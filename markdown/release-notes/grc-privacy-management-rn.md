@@ -1,77 +1,111 @@
 ---
 title: Privacy Management release notes
-description: The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Yokohama release.The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. See the following sections for release notes by version.Privacy Management, version 23.0.1, introduces data transfers to record the movement of personal data, transfer mechanisms to associate legal safeguards with those movements, AI-recommended control objectives and risk statements during privacy assessment reviews, and multi-language support for the Personal Data Rights \(PDR\) external-facing form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/grc-privacy-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [privacy management, data transfer, personal data rights, reviewer assist]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Privacy Management release notes
 
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. See the following sections for release notes by version.
 
 ## About Privacy Management
 
--   Integrate criticality factors into assessments and processing activities thereby simplifying the assessment process, and reducing the workload for privacy teams.
--   Use the Smart Assessment Engine to capture details regarding information objects and hierarchies, updating all details within the assessments and eliminating the need to separately update processing activities.
--   Implement information Object \(IO\) categories such as biometric data, to align with regulatory classifications and bridge the gap between requirements and user understanding.
--   Empower privacy case analysts to perform assessments on privacy cases using the Smart Assessment Engine
+-   Identify, assess, and mitigate privacy risk across your organization's processing activities.
+-   Maintain a central record of processing activities, entities, and privacy elements such as information objects and data subjects.
+-   Maintain a library of authority documents, citations, control objectives, and risk statements with Privacy content accelerator.
+-   Manage data subject rights requests from intake through fulfillment with Personal Data Rights.
+-   Track and resolve privacy issues from assessments, processing activities, and incidents with Privacy Case Management.
 
 See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Privacy Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Privacy Management is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Privacy Management by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 
-## Yokohama
+## Version 23.0.1
 
-The ServiceNow® Privacy Management application enables you to manage your organization's privacy risks and compliance to protect your customers, employees, and suppliers. Privacy Management was enhanced and updated in the Yokohama release.
+Privacy Management, version 23.0.1, introduces data transfers to record the movement of personal data, transfer mechanisms to associate legal safeguards with those movements, AI-recommended control objectives and risk statements during privacy assessment reviews, and multi-language support for the Personal Data Rights \(PDR\) external-facing form.
 
 ### What's new
 
--   ****
+-   **AI-reviewer assist for control objective and risk statement recommendations**
 
-    Leverage criticality factors to evaluate the initial risks associated with processing activities. Integrate these factors into privacy assessments and automatically generate a criticality score upon assessment approval. These factors are also added to processing activities, enabling you to make updates at any time. Integrating these factors in a privacy assessment eliminates the need for a separate criticality assessment. This consolidation reduces the workload for the privacy teams.
+    When a privacy assessment task moves to the Review state, the assigned reviewer can generate AI-recommended control objectives and risk statements for the associated processing activity.
 
--   ****
+    The Control Objective Recommender and Risk Statement Recommender skills analyze completed assessment responses and surface relevant records from the privacy library. Each recommendation includes an AI suggestion guide that explains why the record was suggested, citing the specific response or record detail that triggered it.
 
-    Use the new and improved assessment experience that enables:
+    Each risk statement recommendation also surfaces related control objectives that serve as mitigating controls for the identified risks. When you accept a risk statement, this control-to-risk mapping is carried over to the processing activity.
 
-    -   capturing the data elements, the information object attributes, hierarchies
-    -   building the assessment questionnaire
-    This new experience enables responders to update all the necessary details within the assessments, eliminating the need to update the processing activity separately.
+    Accepted records are automatically added to the Applicable scope tab on the assessment task. After you close the task, the corresponding controls and risks are automatically scoped to the processing activity.
 
--   ****
+-   **Record data transfers in processing activities**
 
-    Implement Information object categories to tag and classify information objects effectively. For example, attributes like iris scans and fingerprints are often referred to as biometric data, or email addresses and phone numbers can be tagged as contact information. Information object categories enable you to categorize these information objects under these broader classifications. This approach is useful in the following ways:
+    Data transfer records capture the movement of personal data between hierarchy nodes in a processing activity. These records are generated automatically from a privacy assessment when a business user defines relationships that send or receive personal data. Adding data subject types and their locations to these relationships generates additional transfer records, which capture each distinct movement between nodes and data subject locations.
 
-    -   Enhances compliance with regulations such as GDPR, CCPA, and so on by accurately capturing and tracking required data categories.
-    -   Improves clarity for business users, ensuring they can easily identify and work with terms they’re familiar with while adhering to regulatory standards.
-    -   Streamlines data governance by creating a structured framework that supports both regulatory needs and business operations.
--   **Smart assessment for privacy case management action tasks**
+    You can review the records in the Data transfers tab of the privacy assessment task and remove those that don't apply. After you close the assessment task, the remaining transfer records appear in the **Regulatory details** &gt; **Data transfers** tab of a processing activity. You can also manually add or remove data transfers from this tab.
 
-    Use the new assessment experience of Smart Assessment Engine for privacy case action tasks. Only when an action task moves from the **Draft** to the **Assigned** state, the assessment can be sent. To use the smart assessment, a new property called enable\_smart\_assessments \(sn\_grc\_case\_mgmt.enable\_smart\_assessments\) is introduced with the default value as **true**.
+-   **Transfer mechanisms for data transfers**
+    -   Privacy analysts can add a transfer mechanism to a data transfer record to associate the legal safeguard that regulate the movement of personal data.
+    -   Privacy managers can add new transfer mechanisms in the Privacy Workspace or update existing ones.
+-   **Multi-language support in the Personal Data Rights \(PDR\) external-facing form**
+
+    The external-facing PDR form now supports translations in multiple languages. The selected language drives the form text, including labels, instructions, options, and error messages.
+
+-   **Mandatory fields in the Personal Data Rights \(PDR\) external-facing form**
+
+    Configure mandatory and optional fields for each request type. Requesters must complete all mandatory fields on the external-facing PDR form to submit their request.
 
 
 ### What's changed
 
--   **Tagging of information object tags**
+-   **Data lineage map UI**
 
-    Use the **Data classification** field to tag information objects instead of using the tag icon.
+    When you select the relationship line between two nodes in the data lineage map, a side pane opens with the relationship details, where you can edit or remove a relationship.
 
--   **Initiating privacy assessment**
+-   **Node location fields in the hierarchy modal**
 
-    When you initiate a privacy assessment from either an entity or a processing activity, you’re no longer redirected to the **Create new privacy assessment form**, instead, a new pop-up window appears where you can specify all the assessment details.
+    The hierarchy modal now includes node location fields. The Define relationship step includes a **Primary node location** field, and the Relationship details step includes a **Related node location** field.
+
+-   **Data subject selection in hierarchy relationships**
+
+    Privacy admins can enable data subject selection for custom relationship types in a hierarchy by modifying the sn\_privacy.relationship\_involving\_data\_subjects system property.
+
+-   **Applicable scope tab in a privacy assessment task**
+
+    The Applicable scope tab on the assessment task record replaces the former Outcomes tab. It lists the control objectives and risk statements that have been scoped to the processing activity through manual addition, automation rules, or AI-assisted recommendations.
+
+-   **External-facing Personal Data Rights \(PDR\) form layout**
+
+    The external-facing PDR form layout is updated to support mobile screens.
+
+
+### What's deprecated or removed
+
+-   **Now LLM service deprecation**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    AI Data Explorer \(sn\_pa\_ai\_canvas\): Install the plugin to enable privacy managers and analysts to analyze privacy data, explore trends across sources, and surface actionable recommendations using natural language queries. Use the **Explore** button on the home pages of the Privacy Workspace and Personal Data Rights Workspace to open AI Data Explorer. For information on installing, configuring and using it, see .
+
+    GRC Issue Management \(sn\_grc\_issue\_mgmt\): Install the plugin to enable a redesigned issue management experience with configurable workflows, custom state models, issue approvals, and centralized administration. For more information, see .
 
 

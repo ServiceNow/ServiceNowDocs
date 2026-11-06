@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Agentic AI in the ITSM application, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
+breadcrumb: [ITSM, Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # IT Service Management AI agent collection Triage and categorize ITSM incidents agentic workflow
@@ -154,15 +154,15 @@ In the agentic workflow record:
 
 **Example of Triage and categorize ITSM incidents agentic workflow output in the ServiceNow AI Agent Studio**\[Omitted image "now-assist-itsm-aiagents-inc-triage-classify.png"\] Alt text: Triage and categorize ITSM incidents agentic workflow output.
 
-In the AI Agent Studio, the human agent gets notified as soon as the category recommendation is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
+In the AI Agent Studio, the human agent gets notified as soon as the category recommendation is generated so that they can follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in ITSM by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/request-gen-ai-capabilities-itsm-now-assist-panel.md).
 
-## Automate the categorizing an incident, then automatically link them to major incidents or known problems in the Now Assist panel
+## Automate the categorizing an incident, then automatically link them to major incidents or known problems in the Otto panel
 
 When an incident is updated and the trigger conditions are met, an execution plan is created. The incident fields are updated based the execution by each AI agent.
 
-As a user, do the following in the Now Assist panel:
+As a user, do the following in the Otto panel:
 
-1.  Enter a message in the Now Assist panel, such as, "triage incident INC0010010".
+1.  Enter a message in the Otto panel, such as, "triage incident INC0010010".
 
     All executions are autonomous and the AI agent does need user inputs in any of the steps during the execution.
 
@@ -174,7 +174,7 @@ As a user, do the following in the Now Assist panel:
 
         The orchestrator then moves to the next available agent.
 
-        \[Omitted image "now-assist-itsm-inc-cat-nap.png"\] Alt text:
+        \[Omitted image "now-assist-itsm-inc-cat-nap.png"\] Alt text: Orchestrator then moves to the next available agent
 
 3.  The second agent, which is the Classify Service and CI AI agent updates the following fields in the incident record after the execution:
 

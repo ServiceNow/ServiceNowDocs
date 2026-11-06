@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Manage loaner assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a loaner asset
@@ -20,7 +20,7 @@ Request a temporary or loaner asset or consumable and use it for a short period.
 
 Role required: None
 
-While requesting a loaner asset, ensure that the start date is within three months from the date of submission, and the end date is within six months from the start date.
+While requesting a loaner asset, confirm that the start date is within three months from the date of submission, and the end date is within six months from the start date.
 
 ## About this task
 
@@ -32,7 +32,7 @@ You can submit a loaner order even if the product isn’t available at the momen
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Asset Lifecycle**.
 
-    The **Asset Lifecycle** category isn't on the Service Catalog page by default. To add this category, log in with admin credentials, select the add content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add content icon.\) beside the search catalog bar and then select **Asset Lifecycle**.
+    The **Asset Lifecycle** category isn't on the Service Catalog page by default. To add this category, log in with admin credentials, select the add content icon \[Omitted image "add\_content\_icon.png"\] Alt text: Add content icon. next to the search catalog bar and then select **Asset Lifecycle**.
 
 2.  Select **Loaner Asset Request**.
 
@@ -52,7 +52,7 @@ Requested for
 
 </td><td>
 
-Person for whom you are requesting the asset. You can make a request for yourself, for another employee of your organization, or for a third-party vendor.
+Person for whom you're requesting the asset. You can make a request for yourself, for another employee of your organization, or for a third party vendor.
 
 </td></tr><tr><td>
 
@@ -116,5 +116,18 @@ To view your request, navigate to **Self-Service** &gt; **My Requests**. You can
 
 Before you receive your loaner asset, you can cancel the loaner asset request by selecting **Cancel**. After you receive your loaner asset, the **Cancel** button doesn't appear anymore. You can also return your loaner asset before the specified **Return date**.
 
-**Parent Topic:**[Manage loaner assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-loaner-asset.md)
+**Parent Topic:**[Employee self-service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/employee-self-sevice-ham.md)
+
+**Related topics**  
+
+
+[Request and receive assets using the Zero Touch request flow]()
+
+[Request and receive assets using the Zero Touch Refresh flow]()
+
+[Acknowledge receipt of assets on the Employee Center portal]()
+
+[Confirming the assigned serialized hardware assets]()
+
+[Raise issue related to your asset on the Employee Center portal]()
 

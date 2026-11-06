@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Copy a project
@@ -18,7 +18,7 @@ Copy an existing definition to apply its related configurations to a new project
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -38,6 +38,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
     -   activity definitions
     -   breakdown definitions
     -   child table definitions
+    -   improvement opportunities
 5.  Change the name, description, filter conditions, or definitions as needed, and select **Update**.
 
 

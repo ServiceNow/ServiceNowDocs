@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -26,14 +26,14 @@ Create a privacy assessment template using the Smart Assessment Engine as a base
 Create privacy assessment templates using the Smart Assessment Engine as a base for sending privacy impact assessments and using them to detect the privacy risks and mitigate those risks.
 -   **[Create a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-assessment-template.md)**  
 Create various types of assessments and send those assessments to the business process or business application owners to collect their responses. The responses help you to understand how personal information \(PI\) is being used or stored in a processing activity.
--   **[Configure inbound email to enable privacy case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-inbound-email-configuration.md)**  
-This configuration allows administrators to set up a designated email address that employees can use to report privacy cases through email.
--   **[Configure Record Type Area](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-record-type-area.md)**  
-The Record Type Area Configuration feature allows privacy case managers or analysts to add additional relevant business area types in impacted and related areas.
 -   **[Create and validate an assessment configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-an-assessment-configuration.md)**  
 Create your assessment configurations to determine when a processing activity must be automatically created.
+-   **[Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md)**  
+Publish a new version of a smart assessment template to revise its questionnaire, response options, or automations. Each version maintains a change history of templates used in privacy screening, impact, and breach assessments.
 -   **[Map a table with a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/map-business-app-with-pa.md)**  
 Keep your processing activity updated and in sync with any table in ServiceNow® by mapping the entity fields with the processing activity.
+-   **[Configure data subject selection in hierarchy relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/config-ds-sys-property-hierarchy.md)**  
+Enable data subject selection in custom relationship types by configuring the sn\_privacy.relationship\_involving\_data\_subjects system property.
 
 **Parent Topic:**[Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-management.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Cloning instances with AES
@@ -20,7 +20,7 @@ Learn how to protect the data, tables, and templates you've created in App Engin
 
 The following are requirements for cloning instances with AES:
 
-1.  Ensure that all of your AES plugins are installed across all instances.
+1.  Verify that all of your AES plugins are installed across all instances.
 2.  If you're cloning a production instance, verify that you've set up a data preserver on the target instances to preserve the Automated Test Framework \(ATF\) and Instance Scan properties. For more information about data preservers, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-new-clone-preserver.md) and [Create a data preserver \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateADataPreserver.md).
 
     **Important:** By default, the ATF system property is disabled to prevent you from accidentally running these tests on a production system. Running ATF on a production instance is neither recommended nor supported due to the potential for data corruption or outages.
@@ -82,7 +82,7 @@ To protect app templates on your non-production instances, follow the process in
 
 See the following topics for more information on cloning and data preservation:
 
--   For more information on using the System Clone tool, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-clone-landing.md).
+-   For more information on using the System Clone tool, see .
 -   For more information on data preservation, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-new-clone-preserver.md).
 -   For more details on cloning instances with AES, see the App Engine Studio System Administrator Guide on [ServiceNow University](https://learning.servicenow.com/).
 

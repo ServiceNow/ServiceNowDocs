@@ -1,5 +1,5 @@
 ---
-title: Create an engagement from Audit Workbench
+title: Create an engagement from the Audit Engagement Workbench
 description: The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement. Audit managers create engagements directly from the Workbench to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/create-engagement-from-workbench.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-08-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use the Audit Engagement Workbench to visually manage engagements, Manage engagements, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Use the Audit Engagement, Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Create an engagement from Audit Workbench
+# Create an engagement from the Audit Engagement Workbench
 
 The Engagement Workbench provides a timeline view from which you can select an audit engagement to view details or create a new engagement. Audit managers create engagements directly from the Workbench to manage audit information and collect entities, controls, and control tests that are relevant to the audit.
 
@@ -44,5 +44,5 @@ Role required: sn\_audit.admin or sn\_audit.manager
 4.  Click **Create**.
 
 
-**Parent Topic:**[Use the Audit Engagement Workbench to visually manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/c_AuditEngagementWorkbench.md)
+**Parent Topic:**[Manage Audit Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/c_AuditEngagementWorkbench.md)
 

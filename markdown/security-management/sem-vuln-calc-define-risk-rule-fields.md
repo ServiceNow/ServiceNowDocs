@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-vuln-calc-define-risk-rule-fields.html
 release: yokohama
 topic_type: task
-last_updated: "2026-07-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---

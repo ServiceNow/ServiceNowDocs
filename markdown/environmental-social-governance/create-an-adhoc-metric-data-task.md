@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-an-adhoc-metric-data-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -42,6 +42,13 @@ However, for calculated metric definitions that have the **Calculation level** f
 
 6.  Select **Submit**.
 
+
+## What to do next
+
+For information about features that are not supported for ad hoc metric data tasks, see [Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/ad-hoc-metric-data-task-limitations.md).
+
+-   **[Ad hoc metric data task limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/ad-hoc-metric-data-task-limitations.md)**  
+Ad hoc metric data tasks don't support certain features that are available for scheduled metric data tasks.
 
 **Parent Topic:**[Using GRC: Metrics to provide data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-grc-metrics.md)
 

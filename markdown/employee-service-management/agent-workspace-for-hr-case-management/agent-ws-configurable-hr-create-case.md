@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a case in Agent Workspace for HR Case Management
@@ -18,7 +18,7 @@ Create a new HR case in Agent Workspace for HR Case Management.
 
 ## Before you begin
 
-Role required: sn\_hr\_core.case\_writer
+Role required: sn\_hr\_core.case\_writer\[Omitted video\] Description: Create a case in Agent Workspace
 
 ## Procedure
 
@@ -33,12 +33,12 @@ Role required: sn\_hr\_core.case\_writer
     **Note:**
 
     -   You can search for or create cases for inactive users in Agent Workspace for HR Case Management.
-    -   If your company uses **Employee Relations**, you can select the **Skip verification** link to create an ER case without identifying an Opened for person. For more information on Employee Relations, see [Create an HR Service Delivery Employee Relations case using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-hr-employee-relations.md).
+    -   If your company uses **Employee Relations**, you can select the **Skip verification** link to create an ER case without identifying an Opened for person. For more information on Employee Relations, see [Create an Employee Relations case in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-hr-employee-relations.md).
 4.  Select **Next**.
 
 5.  On the form, fill in the fields.
 
-    For more information, see [Create a new case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
+    For more information, see [Create a case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/case-creation-form-aws.md).
 
 6.  Select **Create case**.
 

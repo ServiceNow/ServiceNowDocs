@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data input configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Data input configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # UDP data input configuration fields
@@ -135,7 +135,7 @@ The streaming error.This field is populated automatically. It displays only when
 |Rate limit|Limitation on the number of events per second that the data input processes.|-1|
 |Max length in bytes|The maximum length of log messages, in bytes.|32,766|
 |Character encoding|The character encoding for this data input.|UTF-8|
-|Drop if queue is full|Option for selecting to discard logs if many processes are waiting in the queue to access the MID Server.|false|
+|Drop if queue is full|Option to discard logs if many processes are waiting in the queue to access the MID Server.|false|
 
-**Parent Topic:**[Data input configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
+**Parent Topic:**[Data input configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-config-fields.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -58,7 +58,7 @@ Save time by submitting requests to your ServiceNow instance directly from an EM
 
 </td><td>
 
-[Creating requests within your EMR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.md)
+[Create requests within your EMR system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.md)
 
 </td><td>
 
@@ -78,23 +78,11 @@ Service Desk Agent
 
 </td></tr><tr><td>
 
-Provide encryption support to secure sensitive information.
-
-</td><td>
-
-[Encryption options in EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)
-
-</td><td>
-
-Administrator
-
-</td></tr><tr><td>
-
 Automatically transmit instance information to hospital service desk agents.
 
 </td><td>
 
-[Resolving EMR Help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/resolving-emr-help-requests.md)
+[Resolve EMR Help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/resolving-emr-help-requests.md)
 
 </td><td>
 
@@ -106,7 +94,7 @@ Service Desk Agent
 To learn more about configuring and using EMR Help, see:
 
 -   [Configuring EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/configuring-emr-help.md)
--   [Creating requests within your EMR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.md)
--   [Resolving EMR Help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/resolving-emr-help-requests.md)
+-   [Create requests within your EMR system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.md)
+-   [Resolve EMR Help requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/resolving-emr-help-requests.md)
 -   [EMR Help reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/emr-reference.md)
 

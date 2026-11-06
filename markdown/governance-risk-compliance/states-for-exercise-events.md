@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/states-for-exercise-events.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -84,7 +84,7 @@ When all tasks are complete, the event moves from the **Work in progress** to th
 
 Approved state of the event. When an event is approved, the state is set to the **Approved** state.
 
- You can perform the following additional UI actions:
+ You can perform additional UI actions:
 
 -   **Generate PDF**
 
@@ -124,7 +124,7 @@ Save an exercise or crisis event.
 Closed state of the event.
 
 </td></tr></tbody>
-</table>See the following state transitions of an event task.
+</table>The state transitions of an event task are described in the table.
 
 <table id="table_zz5_w5p_cyb"><thead><tr><th>
 

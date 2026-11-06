@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cs-new-rest-soap.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sign the REST and SOAP messages in the production instance, Using Code Signing, Code Signing, Platform Security]
+breadcrumb: [REST and SOAP Signing, Using Code Signing, Code Signing, Platform Security]
 ---
 
 # Sign new REST and SOAP messages

@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Training agents using Coaching With Learning, Coaching, IT Service Management]
+breadcrumb: [Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
 
 # Coaching your trainee
@@ -110,5 +110,5 @@ Coaching opportunities assigned to you in the past 6 months.
 </table>-   **[Assess a trainee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-assess-trainee.md)**  
 Use a coaching assessment to review the work of a trainee and to provide training and feedback.
 
-**Parent Topic:**[Training agents using Coaching With Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-train-your-agents.md)
+**Parent Topic:**[Training agents using Coaching with Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-train-your-agents.md)
 

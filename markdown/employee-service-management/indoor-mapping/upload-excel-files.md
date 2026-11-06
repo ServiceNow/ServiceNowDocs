@@ -7,8 +7,8 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-10-09"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Bulk hierarchy upload, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -41,7 +41,7 @@ The Upload Excel files feature uses Import Sets to import the information from t
 
 4.  On the Load Data form, fill in the fields; make sure that you import the campus file first.
 
-    For a description of the field values, see .
+    For a description of the field values, see [Load data form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/import-set-table.md).
 
     **Note:** You can select a file from your instance by selecting **Data source** as the source of the import.
 

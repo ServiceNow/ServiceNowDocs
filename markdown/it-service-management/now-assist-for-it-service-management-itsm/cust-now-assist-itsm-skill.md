@@ -7,8 +7,8 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -27,9 +27,9 @@ From the AI Admin Hub console, you can select the input tables, related lists, a
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **AI Skills** tab.
 
 3.  In the **Technology** feature group, select **ITSM** from the product list.
 
@@ -125,7 +125,7 @@ Description of the base input field value.
 
         \[Omitted image "now-assist-itsm-input2.png"\] Alt text: Choose additional input data screen that contains the input tables and fields to define the prompt.
 
-        The following table lists the data sources that you can add to the input data.
+        The following table lists the data sources you can add to the input data.
 
 <table id="table_wc1_wt5_dbc"><thead><tr><th>
 
@@ -162,7 +162,7 @@ Activity: Attachment
 
 </td><td>
 
-Summarizes attachments in the Incident summarization skill record using Document Intelligence. For supported types, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.md)
+Summarizes attachments in the Incident summarization skill record using Document Intelligence. For supported types, see [Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Save and continue** to go to the next step.
@@ -189,10 +189,23 @@ Summarizes attachments in the Incident summarization skill record using Document
 
 8.  Cluster incidents
 
-    If you’re using the Suggested steps generation skill, select **Launch clustering** in the **Record clustering** screen to group records based on similar past closed incidents.
+    -   **Important:** Starting with the Brazil release, the Suggested steps skill is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. This feature is being replaced with [AIOps Learning Enhanced Automation Playbook \(LEAP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/aiops-leap.md). For information on how to get started see, [How to get started with LEAP](https://www.servicenow.com/community/itom-articles/leap-learning-enhanced-automation-platform-how-to-get-started/ta-p/3555322).
 
-    **Note:**
+To transition to LEAP:
 
+1.  Install the LEAP \(sn\_itom\_leap\) plugin.
+2.  Activate the LEAP installer skill.
+
+    **Note:** You must be in LEAP scope to activate this skill.
+
+    1.  Go to **Admin** &gt; **AI Admin Hub**.
+    2.  Select **AI Skills**.
+    3.  In **Technology**, select **ITOM**.
+    4.  Activate the LEAP installer plugin.
+3.  Add the itil role to access LEAP.
+    1.  In the LEAP installer, in the Define access screen, add the itil role in the **Roles** field.
+    2.  Select **Save and continue**.
+    -   If you’re using the Suggested steps generation skill, select **Launch clustering** in the **Record clustering** screen to group records based on similar past closed incidents.
     -   You should have at least 2000 records for successful clustering. If you get an error that there aren’t enough records to cluster, broaden your filter criteria. You can perform this action by setting the rule conditions to include more records or add more data.
     -   For information on troubleshooting steps to resolve issues with the Suggested steps generation skill, see [Troubleshoot Suggested steps generation skill set up](https://www.servicenow.com/community/itsm-articles/troubleshooting-steps-for-now-assist-for-itsm-suggested-steps/ta-p/3256267).
     -   Domain separation is not supported for the Suggested steps generation skill.
@@ -204,7 +217,7 @@ Summarizes attachments in the Incident summarization skill record using Document
 
     2.  Change the conditions as needed and select **Set**.
 
-        The updates you make are displayed in the **GAF Suggested Steps ITSM grouping** in Now Assist Skill Config record.
+        The updates you make are displayed in the **GAF Suggested Steps ITSM grouping** in AI Skill Config record.
 
 9.  Customize the prompt.
 
@@ -280,13 +293,9 @@ Closed
 
     3.  Select the incident record in the Test response section, and test the prompt response output format by selecting **Run Test**.
 
-        \[Omitted image "now-assist-itsm-cust-prompt.png"\] Alt text: Customize prompt screen that shows the input template states and the Edit prompt button to modify prompts in the Now Assist skill kit.
-
         The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-    4.  Select **Edit prompt in Now Assist Skill Kit** to make necessary changes to the prompt in the Now Assist Skill Kit.
-
-        \[Omitted image "now-assist-itsm-edit-prompt.png"\] Alt text: Edit prompt screen to modify prompts in the Now Assist Skill Kit.
+    4.  Select **Edit prompt in AI Skill Kit** to make necessary changes to the prompt in the AI Skill Kit.
 
     5.  Select **Save and continue** to go to the next step.
 
@@ -298,27 +307,45 @@ Closed
 
         Selecting **Customize skill availability** displays a condition builder to filter the data further.
 
+        **Note:** For the **KB generation** skill:
+
+        -   When the incident is in resolved or closed state, the **Create Knowledge** button appears.
+        -   To enable the **Create Knowledge** button for other states, add the **com.snc.incident.create\_knowledge.multistate.enable** system property and then set it for the incident states you want the **Create Knowledge** button to appear. In the value column, enter the corresponding number for the incident state. The incident state numbers are as follows:
+
+            -   1-New
+            -   2-In Progress
+            -   3-On Hold
+            -   6-Resolved
+            -   7-Closed
+            -   8-Canceled
+            You can create a custom state and add a number for that state.
+
+        -   To create knowledge articles using Otto in any incident state, in the condition builder for the **KB generation** skill, select the **\[State\]\[is one of\]\[New, Resolved, In Progress, Closed, Canceled\]** filter condition.
     2.  Select **Save and continue** to go to the next step.
 
 11. Select display.
 
     Configure where to display the incident summarization.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
-        -   **In-product**: When selected, Now Assist skills are displayed in all ITSM products \(on forms and in workspaces\).
+        -   **In-product**: When selected, AI skills are displayed in all ITSM products \(on forms and in workspaces\).
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, Now Assist skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
-12. Review and activate.
+12. Define access.
+
+    The **Define access** screen defines the roles required to execute a skill. The script include, **NowAssistitsmGenAIUtilsSNC,** contains functions related to multiple skills. The itil or sn\_incident\_read roles that are set in the Access Control List \(ACL\) for this client-callable script include and are necessary to call any function in it.
+
+13. Review and activate.
 
     Review your choices and select **Activate** to complete the skill customization.
 

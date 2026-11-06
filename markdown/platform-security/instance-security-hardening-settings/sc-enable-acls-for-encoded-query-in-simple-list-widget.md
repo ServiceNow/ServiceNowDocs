@@ -1,5 +1,5 @@
 ---
-title: Enable ACLs for Encoded Query in Simple List Widget \[New in Security Center 2.0\]
+title: Enable ACLs for Encoded Query in Simple List Widget
 description: Learn how to set the glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list property to the secure value to prevent users from bypassing access control list \(ACL\) evaluations on a query condition in the Simple List Widget.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-acls-for-encoded-query-in-simple-list-widget.html
@@ -7,20 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable ACLs for Encoded Query in Simple List Widget \[New in Security Center 2.0\]
+# Enable ACLs for Encoded Query in Simple List Widget
 
 Learn how to set the **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** property to the secure value to prevent users from bypassing access control list \(ACL\) evaluations on a query condition in the Simple List Widget.
 
-When the **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** property is not set to the secure value of true, a user may be able to bypass access control list \(ACL\) evaluations on a query condition in the Simple List Widget. If the property is set to false, it reverts to previous behavior, enforcing ACL checks for an encoded query based on the enforce\_acl checkbox value.
+When the **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** system property is not set to **true**, a user may be able to bypass ACLs evaluation on a query condition in Simple List Widget.
 
-It is a best practice to evaluate ACLs within queries to ensure that a user has access to the fields being queried, thereby preventing unauthorized data leakage.
-
-Ensure that the glide property **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** is set to true. If the property does not exist in the sys\_properties table, the default value is true.
+Ensure that the glide property **glide.service\_portal.enable\_acls\_for\_encoded\_query\_in\_list** is set to **true**. If the property does not exist in the System Properties \[sys\_properties\] table, the default value is **true**.
 
 ## More information
 
@@ -74,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -88,7 +94,7 @@ Security risk
 
 -   Severity score: 4.3
 -   CVSS score: Medium
--   Security risk details: Not setting this property to the recommended value of true.
+-   Security risk details: It is general guideline to evaluate ACLs within queries to confirm a user has access to the fields being queried to prevent unauthorized data leakage.
 
 </td></tr><tr><td>
 
@@ -104,7 +110,7 @@ Functional impact
 
 </td><td>
 
-The Simple List Widget may not display any data depending on the user's role and the underlying ACLs. Additionally, users might encounter security warnings if the Simple List query contains filter conditions with properties that are not accessible to the current user.
+The Simple List Widget may not display any data depending on the user's role and the underlying ACLs. Additionally, users might encounter security warnings if the Simple List query contains filter conditions with properties that aren't accessible to the current user.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)

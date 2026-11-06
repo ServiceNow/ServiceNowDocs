@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Database Management
@@ -20,7 +20,9 @@ The Jumpstart Your Database Management Accelerator provides a demonstration of t
 
 Jumpstart Your Database Management provides Impact customers with a comprehensive overview and practical demonstration of effective database management. It focuses on how to properly purge and archive data, initiating discussions on customer database management enablement. This Accelerator demonstrates the possibilities and capabilities of database management and provides key resources and leading practices to help efficiently manage your database footprint and alleviate performance issues.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 
@@ -30,7 +32,7 @@ Offered pursuant to the applicable Impact Accelerator Description available at�
     -   Provision a temporary instance
     -   Activate related plugins
     -   Review customer database growth report using Instance Observer
--   **Customer coaching session \#1 \(up to 60 minutes\)**
+-   **Customer coaching session \#1 \(up to 90 minutes\)**
 
     Includes the following:
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Cloud Functions, GCP Cloud Functions, Google Cloud Platform Cloud Functions, Google Cloud Platform \(GCP\) Cloud Functions, Cloud Functions pattern, GCP Cloud Functions pattern, Google Cloud Platform Cloud Functions pattern, Google Cloud Platform \(GCP\) Cloud Functions pattern]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Google Cloud Platform \(GCP\) Cloud Functions discovery using patterns
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns uses the Google Cloud Platform \(GCP\) - 
 
 -   **Verify the GCP discovery prerequisites**
 
-    For more information, see the prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns]().
+    For more information, see the prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns]().
 
 -   **Enable the relevant pattern**
 
@@ -149,5 +149,5 @@ The Google Cloud Platform \(GCP\) - Cloud Functions pattern collects tags and po
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Function \[cmdb\_ci\_cloud\_function\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

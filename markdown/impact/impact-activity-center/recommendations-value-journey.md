@@ -7,9 +7,9 @@ release: yokohama
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activity Center, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Activity Center, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Activity Center All Recommendations
@@ -26,4 +26,6 @@ View AI driven and expert suggested recommendations for training, content, and e
     -   Provide feedback on the recommended content.​
 
 Filter for specific recommendations and publish contextual recommendations or clean-up unused recommendations.
+
+**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/impact-activity-center.md)
 

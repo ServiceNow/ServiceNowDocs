@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure scenario planning in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -37,5 +37,5 @@ Scenario planning is enabled by default. Use the following steps to disable or e
 
 ## What to do next
 
-[Create a scenario in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md)
+[Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md)
 

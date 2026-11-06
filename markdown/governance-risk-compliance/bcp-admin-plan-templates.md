@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcp-admin-plan-templates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Setup for a BCP, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,25 +22,25 @@ Creating a plan helps an organization to identify processes, locations, and asse
 
 ## Using business continuity plan templates
 
-The Business Continuity Management application provides the following business continuity plan templates that are installed with demo data:
+The Business Continuity Management application provides these business continuity plan templates that are installed with demo data:
 
 -   **Application DR Plan**
 -   **Business Continuity Plan**
 -   **Datacenter Recovery Plan**
 -   **Workplace Recovery Plan**
 
-The business continuity plan templates that are installed with demo data are shown in the following example.
+The business continuity plan templates that are installed with demo data are shown in the example.
 
 \[Omitted image "bcm-plan-templates.png"\] Alt text: Demo data.
 
-See the following table for more information on different types of demo data plan templates that you can use in the Business Continuity Management application.
+See the table for more information on different types of demo data plan templates that you can use in the Business Continuity Management application.
 
 |Name|Primary element recovered|Description|
 |----|-------------------------|-----------|
-|Application DR Plan|Applications|Plan to recover an IT application following a disruptive event. A sample Application DR Plan template is shown in the following example.\[Omitted image "application-dr-plan-template.png"\] Alt text: Application DR Plan template.|
-|Business Continuity Plan|Business Processes|Plan to continue operations of a core business process or processes during a disruption to workplaces, applications, or critical vendors. A sample Business Continuity Plan template is shown in the following example. \[Omitted image "business-continuity-plan-template.png"\] Alt text: Business Continuity Plan template.|
-|Datacenter Recovery Plan|Datacenters|Plan to recover a datacenter following a natural disaster or significant event that impacts the availability of a datacenter. A sample Datacenter Recovery Plan template is shown in the following example.\[Omitted image "datacenter-recovery-plan-template.png"\] Alt text: Datacenter Recovery Plan template.|
-|Workplace Recovery Plan|Locations|Plan to recover a workplace in the event that one of them becomes unusable or uninhabitable. A sample Workplace Recovery Plan template is shown in the following example.\[Omitted image "workplace-recovery-plan-template.png"\] Alt text: Workplace Recovery Plan template.|
+|Application DR Plan|Applications|Plan to recover an IT application following a disruptive event. A sample Application DR Plan template is shown in the example.\[Omitted image "application-dr-plan-template.png"\] Alt text: Application DR Plan template.|
+|Business Continuity Plan|Business Processes|Plan to continue operations of a core business process or processes during a disruption to workplaces, applications, or critical vendors. A sample Business Continuity Plan template is shown in the example. \[Omitted image "business-continuity-plan-template.png"\] Alt text: Business Continuity Plan template.|
+|Datacenter Recovery Plan|Datacenters|Plan to recover a datacenter following a natural disaster or significant event that impacts the availability of a datacenter. A sample Datacenter Recovery Plan template is shown in the example.\[Omitted image "datacenter-recovery-plan-template.png"\] Alt text: Datacenter Recovery Plan template.|
+|Workplace Recovery Plan|Locations|Plan to recover a workplace in the event that one of them becomes unusable or uninhabitable. A sample Workplace Recovery Plan template is shown in the example.\[Omitted image "workplace-recovery-plan-template.png"\] Alt text: Workplace Recovery Plan template.|
 
 ## Creating a plan template for your business requirement
 
@@ -48,6 +48,8 @@ Instead of using the demo data templates, you can create a template for your spe
 
 -   **[Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-a-bcp-template-uib-ws.md)**  
 Configure the business continuity plan template in the Business Continuity Management application for your business. You can use the plan template to recover a specific primary element such as Employees or Web Servers. Similarly, you can create a plan template for different plan authoring types such as documentation, loss scenarios, and recovery tasks.
+-   **[Configure Task templates and Task template groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-task-temp-temp-groups.md)**  
+Create task templates and task template groups to save individual tasks or groups of tasks for reuse. Add templates to new plans or insert them into existing ones.
 
 **Parent Topic:**[Setup for a business continuity plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcp-admin-tasks.md)
 

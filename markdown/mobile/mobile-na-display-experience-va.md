@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-na-display-experience-va.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [Now Assist, generative AI, Virtual Agent]
 breadcrumb: [Otto in Virtual Agent, Exploring Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Configure Now Assist in Virtual Agent for Workplace Service Delivery
+title: Configure ServiceNow Otto for Virtual Agent for Workplace Service Delivery
 description: Enable your employees to submit a reservation request using a conversational experience based on generative AI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/config-now-assist-va-wsd.html
@@ -7,26 +7,26 @@ release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Configure Now Assist in Virtual Agent for Workplace Service Delivery
+# Configure ServiceNow Otto for Virtual Agent for Workplace Service Delivery
 
 Enable your employees to submit a reservation request using a conversational experience based on generative AI.
 
 ## About this task
 
-Workplace users can leverage the Now Assist in Virtual Agent by configuring the Now Assist for WSD. Now Assist for WSD can be configured to reserve workplace items, invite visitors, and add extra services. The Now Assist in Virtual Agent application provides conversational experiences for Workplace Service Delivery flows.
+Workplace users can use the ServiceNow Otto for Virtual Agent by configuring the ServiceNow Otto for WSD. ServiceNow Otto for Workplace Service Delivery \(WSD\) can be configured to reserve workplace items, invite visitors, and add extra services. The ServiceNow Otto for Virtual Agent in application provides conversational experiences for Workplace Service Delivery flows.
 
-For more information about Now Assist in Virtual Agent, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md).
+For more information, see [Now Assist in Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/now-assist-in-va-landing.md).
 
 ## Before you begin
 
 Make sure that you have installed the following applications from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home):
 
--   Installing Now Assist for WSD activates and installs Now Assist for Platform \(sn\_genai\_platform\)
+-   Installing ServiceNow Otto for Workplace Service Delivery \(WSD\) activates and installs ServiceNow Otto for Platform \(sn\_genai\_platform\)
 -   Workplace Reservation Management
 -   Workplace Visitor Management
 
@@ -51,13 +51,13 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-2.  From the **LLM Assistant** list, select **Now Assist in Virtual Agent**.
+2.  From the **LLM Assistant** list, select ServiceNow Otto for Virtual Agent.
 
 3.  Publish the **Reserve Space** topic.
 
     For more information about publishing a topic, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
 
-    The Reserve Space topic is published and can be used from the Virtual Agent.
+    The Reserve Space topic is published and can be used from the Now Virtual Agent.
 
 
 ## What to do next
@@ -65,16 +65,9 @@ Role required: admin
 -   Create a reservable module to group similar workplace items into a category. For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/config-reservable-module.md).
     -   Enable virtual meeting links for your reservation by configuring a virtual meeting provider. For more information, see [Configure virtual meeting providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/configure-virtual-meeting-providers.md).
     -   Provide extra services, such as catering, for the reservations by creating workplace services and adding them to workplace locations. For more information, see [Create a workplace service to provide an extra service for a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-workplace-service-to-provide-extra-service.md).
--   Select the portals and channels that the Virtual Agent is displayed on. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
+-   Select the portals and channels that the ServiceNow Otto for Virtual Agent is displayed on. For more information, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
 
-    **Note:** Selecting the Workplace Service Portal for Now Assist in Virtual Agent replaces the existing NLU experience.
+    **Note:** Selecting the Workplace Service Portal for ServiceNow Otto for Virtual Agent replaces the existing NLU experience.
 
--   Use the Virtual Agent to reserve a workplace item, add services, and invite visitors.
-
-**Parent Topic:**[Configuring Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.md)
-
-**Related topics**  
-
-
-[Install Now Assist for WSD]()
+-   Use the ServiceNow Otto for Virtual Agent to reserve a workplace item, add services, and invite visitors.
 

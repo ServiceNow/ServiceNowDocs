@@ -1,20 +1,20 @@
 ---
-title: JS Code Coverage Debug
-description: The JS Code Coverage Debug application allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.The JS Code Coverage application highlights script fields to indicate whether the system ran or skipped each line.You can activate the JS Code Coverage Debug plugin \(com.glide.js.coverage\) if you have the admin role.Use JS Code Coverage Debug to record a user session and then review which server-side scripts and lines of code the system ran.
+title: JS Code Coverage Debug utility
+description: JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.The JS Code Coverage application highlights script fields to indicate whether the system ran or skipped each line.You can activate the JS Code Coverage Debug plugin \(com.glide.js.coverage\) if you have the admin role.Use JS Code Coverage Debug to record a user session and then review which server-side scripts and lines of code the system ran.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/js-code-coverage-debug.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# JS Code Coverage Debug
+# JS Code Coverage Debug utility
 
-The JS Code Coverage Debug application allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.
+JS Code Coverage Debug allows administrators and application developers to log the server-side scripts triggered during a user session and then review which lines of code the system ran.
 
 Users with the js\_coverage\_debugger role can debug server-side scripts without having to set breakpoints or review onscreen debug messages. Instead, the system saves script usage data in the JavaScript Code Coverage \[sys\_js\_code\_coverage\] table. Each JavaScript Code Coverage record contains:
 
@@ -27,25 +27,23 @@ Users with the js\_coverage\_debugger role can debug server-side scripts without
 
 **Note:** The JS Code Coverage Debug application doesn't log information for client-side scripts.
 
-\[Omitted image "js-code-coverage-highlighting.png"\] Alt text: Sample code coverage highlighting
-
 **Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debug-overview.md)
 
 ## JS Code Coverage highlighting
 
 The JS Code Coverage application highlights script fields to indicate whether the system ran or skipped each line.
 
-\[Omitted image "js-code-coverage-highlighting.png"\] Alt text: Sample code highlighting
-
 The color of the highlight indicates how the system evaluated the code line.
 
-|Highlight color|Meaning|
-|---------------|-------|
+Administrators and application developers can use this information to conduct more targeted debugging activities such as using the Script Debugger to determine why script conditions are not being met.
+
+\[Omitted image "js-code-coverage-highlighting.png"\] Alt text: Sample code highlighting
+
+|Highlight color|Description|
+|---------------|-----------|
 |Green|This is an executable line of code that the system ran during the session.|
 |Red|This is an executable line of code that the system skipped for some reason. The system may have skipped an executable line of code because the necessary script conditions were not met or because the script function was never called. You may want to use the Script Debugger to determine why the system skipped the line of executable code.|
 |Gray|This is a non-executable line of code such as white space, code comment, or a portion of an expression split across multiple lines that cannot run on its own.|
-
-Administrators and application developers can use this information to conduct more targeted debugging activities such as using the Script Debugger to determine why script conditions are not being met.
 
 **Related topics**  
 
@@ -82,7 +80,7 @@ To see the components the plugin installed, refresh the plugin form and select t
 **Related topics**  
 
 
-[List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 
 ## Debug with JS Code Coverage Debug
 
@@ -106,7 +104,7 @@ Role required: js\_coverage\_debugger or admin
 
 3.  Trigger the server-side script or scripts you want to test.
 
-    For example, create an incident with an associate CI item to test several business rules.
+    For example, create an incident with an associated configuration item to test several business rules.
 
 4.  When you have completed testing, navigate to **JS Code Coverage Debug** &gt; **Disable Coverage**.
 
@@ -116,17 +114,13 @@ Role required: js\_coverage\_debugger or admin
 
     The system displays the list of coverage data associated with the current user session.
 
-    \[Omitted image "sample-js-code-coverage-list.png"\] Alt text: Sample JavaScript Code Coverage records
-
 6.  Select the script or transaction you want to review.
 
-    |Field|Description|
-    |-----|-----------|
+    |Column|Description|
+    |------|-----------|
     |Script Name|Displays the script run by table name, sys\_id value, and script field.|
     |Script Reference|Displays the script run by script type and name.|
     |Transaction Name|Displays the transaction that called the script by thread ID and URI.|
-
-    For example, select the **Script Reference** Business Rule: incident events.
 
     The system displays the JS Code Coverage Debug record.
 
@@ -134,14 +128,8 @@ Role required: js\_coverage\_debugger or admin
 
 7.  Review the **Script** field to determine which lines of code the system ran.
 
-    For example, the business rule added the incident.inserted event to the event queue.
-
-
-### Result
-
-You determine which lines of code the system ran.
 
 ### What to do next
 
-Use the code coverage information to do more targeted debugging activities such as set breakpoints and review variable values with the Script Debugger.
+Use the code coverage information to do more targeted debugging activities such as set breakpoints and review variable values with the Script Debugger. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger.md).
 

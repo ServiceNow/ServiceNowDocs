@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Evaluation tab, AI Control Tower Home, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Human feedback for evaluations

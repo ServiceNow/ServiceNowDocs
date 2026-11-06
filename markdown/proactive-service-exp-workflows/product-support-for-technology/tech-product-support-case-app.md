@@ -1,33 +1,20 @@
 ---
-title: Product Support for Technology application
-description: The Product Support for Technology application enables technology companies to provide support for digital products and services.STRY61560936 Updated name throughout the document.
+title: Exploring Technology Product Support Case
+description: The Technology Product Support Case feature in the Product Support for Technology application enables technology companies to provide support for digital products and services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-app.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Technology Product Support Case, Product Support for Technology]
 ---
 
-# Product Support for Technology application
+# Exploring Technology Product Support Case
 
-The Product Support for Technology application enables technology companies to provide support for digital products and services.
-
--   Role required: admin
--   Plugins required: The following plugins must have been installed:
-    -   Customer Service Case Types \(com.snc.csm\_case\_types\)
-    -   Customer Service Install Base Management \(com.snc.install\_base\)
-    -   Customer Service Case Action Status\(com.snc.csm\_action\_status\)
-    -   playbook for Customer Service Problem Management \(com.sn\_csm\_playbook\)
-    -   Customer Service Problem Management agent workspace \(com.snc.uib.csm\_agent\_workspace\)
-    -   Customer Service with Service Management\(com.sn\_cs\_sm\)
-    -   Customer Service with Request Management\(com.sn\_cs\_sm\_request\)
-    -   Customer Service Case Digest \(com.sn\_csm\_case\_digest\)
-    -   Product Catalog Management Core \(com.sn\_prd\_pm\)
-    -   Service Test Management \(com.sn\_st\_mgmt\)
+The Technology Product Support Case feature in the Product Support for Technology application enables technology companies to provide support for digital products and services.
 
 The Technology Product Support Case application includes the following features:
 
@@ -43,11 +30,7 @@ The Technology Product Support Case application includes the following features:
 |[Playbook stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.md)|The Technology Product Support playbook includes stages and activities that assist agents in researching and resolving technology cases.|
 |[Record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-case-type.md)|The Technology Product Support Case application includes a record producer that customers can use to create cases from the Customer Service Portal.|
 
-## Application information
+## Activation information
 
-The Technology Product Support Case application \(sn\_tech\_product\_support\) is available from the ServiceNow Store.
-
-## Request apps on the Store
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+To learn more about how to install and configure Technology Product Support Case application, see [Configuring Product Support for Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/configure-technology-product-support-case.md).
 

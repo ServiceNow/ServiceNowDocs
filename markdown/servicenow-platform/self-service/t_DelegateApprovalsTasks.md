@@ -7,7 +7,7 @@ release: yokohama
 product: Self-service
 classification: self-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Delegation, Exploring Self-service, Self-service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,15 @@ If you're out of the office, you can delegate responsibilities to another active
 
 ## Before you begin
 
-Role required: none
+Role required: none to delegate approvals to another user
+
+Ensure that the Delegates related list displays on the form. If the Delegates related list is not visible, do one of the following:
+
+-   Select a different view, such as the ITIL or Default view, by selecting the **Additional actions menu** &gt; **View** &gt; **\(name of view\)**.
+
+    \[Omitted image "Additional\_actions\_menu.jpg"\] Alt text: The Additional actions menu highlighted
+
+-   Configure the form to add the Delegates related list. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md).
 
 ## Procedure
 
@@ -26,14 +34,9 @@ Role required: none
 
 2.  In the **Delegates** related list, click **New**.
 
-    If the Delegates related list is not visible, do one of the following:
+3.  Select an active user as your delegate.
 
-    -   Select a different view, such as the ITIL or Default view, by selecting the **Additional actions menu** &gt; **View** &gt; **\(name of view\)**.
-
-        \[Omitted image "Additional\_actions\_menu.jpg"\] Alt text: The Additional actions menu highlighted
-
-    -   Configure the form to add the Delegates related list. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md).
-3.  Select an active user as your Delegate.
+    **Note:** For a delegate to approve on your behalf from a Service Portal, they must have the approval\_admin or approver\_user role.
 
 4.  Select date values from the **Starts** and **Ends** fields to set the period of time during which a delegate can work on your behalf.
 

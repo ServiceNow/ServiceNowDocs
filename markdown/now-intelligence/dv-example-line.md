@@ -1,25 +1,22 @@
 ---
-title: Time series visualization example
+title: Time series data visualization example
 description: Time series visualizations show the changes in data over time. This example starts with a single indicator data source and adds more complexity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-line.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Time series visualization example
+# Time series data visualization example
 
 Time series visualizations show the changes in data over time. This example starts with a single indicator data source and adds more complexity.
 
 In this example you start wanting to show the change in the number of open incidents over time. Then you want to show the trend, and then the number of open incidents broken down by priority. Finally you want to compare the number of open incidents against the number of new incidents.
 
-1.  First you search for **Data Visualizations** in the Unified Navigation and select **New.**
-
-    \[Omitted image "ts-dv-nav-new-dv.png"\] Alt text: Opening Data Visualizations in the Platform Analytics library and selecting New.
-
+1.  First you search for **Data Visualizations** in the Unified Navigation and select **Create data visualization**
 2.  In the empty new data visualization, you select **Add data source**.
 
     \[Omitted image "ts-add-data-source.png"\] Alt text: The Add Data Source button in the middle of a new data visualization.
@@ -28,7 +25,7 @@ In this example you start wanting to show the change in the number of open incid
 
     \[Omitted image "ts-select-indicator.png"\] Alt text: The Number of Open Incidents indicator in the Add Data Source modal.
 
-4.  You return to the visualization and see that the Line type has been selected by default. Line is the most common type of time series, and a time series is the usual visualization for an indicator. You also have an open Configuration panel for this data visualization, next to the line chart. The chart changes in real time as you configure the visualization.
+4.  You return to the visualization and see that the Line type has been selected by default. Line is the most common type of time series, and a time series is the usual visualization for an indicator. You also have an open Configuration panel for this data visualization, next to the line visualization. The visualization changes in real time as you configure it.
 
     \[Omitted image "ts-new-line-chart.png"\] Alt text: The new line visualization for the Number of open incidents.
 
@@ -36,7 +33,7 @@ In this example you start wanting to show the change in the number of open incid
 
     \[Omitted image "ts-set-date-range.png"\] Alt text: Setting the date range.
 
-6.  You would also like to see what more information you can give about this data, so you expand the **Additional settings** section. For indicators, these settings are the same as the KPI Details chart options. For more information, see[Chart options in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options.md) under the KPI Details documentation. If you have the necessary roles, you can set [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) and [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) for an indicator in KPI Details.
+6.  You would also like to see what more information you can give about this data, so you expand the **Additional settings** section. For indicators, these settings are the same as the KPI Details chart options. For more information, see [Chart options in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options.md) under the KPI Details documentation. If you have the necessary roles, you can set [targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) and [thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) for an indicator in KPI Details.
 
     \[Omitted image "ts-additional-settings.png"\] Alt text: Additional settings for a time series with a single data source and no Group By value.
 
@@ -64,7 +61,7 @@ In this example you start wanting to show the change in the number of open incid
 
     \[Omitted image "ts-line-chart-2-sources.png"\] Alt text: Line visualization with 2 data sources, one of which is broken down by group.
 
-12. You find this difficult to read and aren't sure that this is the best visualization to use. After reading [Time series visualization type use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/time-series-visualization-types.md), you decide to change the visualization to a column display.
+12. You find this difficult to read and aren't sure that this is the best visualization to use. After reading [Use cases for different time series visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/time-series-visualization-types.md), you decide to change the visualization to a column display.
 
     \[Omitted image "ts-change-type-column.png"\] Alt text: Changing visualization type to column.
 
@@ -95,5 +92,5 @@ In this example you start wanting to show the change in the number of open incid
     \[Omitted image "ts-on-dashboard.png"\] Alt text: Your new data visualization on a dashboard.
 
 
-**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

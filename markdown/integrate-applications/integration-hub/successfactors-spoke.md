@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-10-05"
 reading_time_minutes: 18
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SuccessFactors Spoke
@@ -18,7 +18,7 @@ The SuccessFactors spoke is built by Bristlecone, Inc. Manage data and entities 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## IntegrationHub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SuccessFactors spoke v4.11.1 is the latest version.
+SuccessFactors spoke v4.12.0 is the latest version. For version history of the spoke, see [SuccessFactors spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-successfactors.html).
 
 ## Supported versions
 
@@ -115,6 +115,14 @@ Retrieves the department data from SuccessFactors and stores it in SuccessFactor
 
 </td></tr><tr><td>
 
+Look Up Employee Compensation Using Personal Authentication
+
+</td><td>
+
+Retrieves an employee’s compensation details based on their Personal External ID.
+
+</td></tr><tr><td>
+
 Retrieve Effective Worker Profiles
 
 </td><td>
@@ -123,7 +131,7 @@ Retrieves the Effective Worker Profiles data from SuccessFactors and stores it i
 
 </td></tr><tr><td>
 
-Retrieve Full Job History Including Secondary Assignments
+Retrieve Job History Including Secondary Assignments
 
 </td><td>
 
@@ -183,7 +191,7 @@ Retrieve Worker Profile by Company Territory Code
 
 </td><td>
 
-Retrieves the data of worker profile from SAP SuccessFactors based on company territory code, and stores it in the 'SuccessFactors Worker Profiles Staging Table'**Note:** Worker profiles without employment or job information will not be retrieved, as the subflow fetches data based on the company territory code, which is assigned only after employment is assigned to the worker.
+Retrieves the data of worker profile from SAP SuccessFactors based on company territory code, and stores it in the 'SuccessFactors Worker Profiles Staging Table'.**Note:** Worker profiles without employment or job information will not be retrieved, as the subflow fetches data based on the company territory code, which is assigned only after employment is assigned to the worker.
 
 </td></tr></tbody>
 </table>## Spoke actions
@@ -207,7 +215,7 @@ Action
 
 Description
 
-</th></tr></thead><tbody><tr><td rowspan="24">
+</th></tr></thead><tbody><tr><td rowspan="25">
 
 Employee Management
 
@@ -301,7 +309,7 @@ Manages the recurring component of a specified employee's compensation.
 
 </td></tr><tr><td>
 
-Get Employee Benefit Enrollments
+Look up Employee Benefit Enrollments by User ID
 
 </td><td>
 
@@ -354,6 +362,14 @@ Update Employee Address
 </td><td>
 
 Updates the address of the specified employee.
+
+</td></tr><tr><td>
+
+Update Employee Recurring Compensations
+
+</td><td>
+
+Updates the recurring component of a specified employee's compensation.
 
 </td></tr><tr><td>
 
@@ -1121,10 +1137,7 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 |SuccessFactors jobs management AI agent|Retrieves candidate information based on the ID.|
 |SuccessFactors employee management AI agent|Retrieves and manages employee-related information such as, benefit information and time off details.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

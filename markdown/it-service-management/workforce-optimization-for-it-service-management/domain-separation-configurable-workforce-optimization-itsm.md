@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Domain separation and Workforce Optimization for ITSM
 
 Domain separation is supported in Workforce Optimization for ITSM. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Support level: Basic
 
@@ -32,16 +34,16 @@ For more information on support levels, see [Application support for domain sepa
 
 Domain separation is supported in Workforce Optimization for ITSM and does not require any setup or configuration.
 
-## Domain separation for Channels Workforce Optimization for ITSM
+## Domain separation for Channels in Workforce Optimization for ITSM
 
-For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to [Domain separation and Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-domain-separation.md)
+For information on how domain separation works in Channel Management for Workforce Optimization for Customer Service, refer to .
 
 Domain separated tables for Channel Management
 
 -   sn\_customerservice\_case
 -   interaction
 
-## Domain separation for Scheduling Workforce Optimization for ITSM
+## Domain separation for Scheduling in Workforce Optimization for ITSM
 
 When an agent schedule is generated and assigned to an agent, the schedule is only available in the domain to which that agent belongs.
 
@@ -71,7 +73,7 @@ Domain separated tables for Skill Recommendation
 
 ## Domain separation for Coaching in Workforce Optimization for ITSM
 
-For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/domain-separation-coaching.md)
+For information on how domain separation works in Coaching for Workforce Optimization for ITSM, refer to [Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-domain-separation-coaching.md).
 
 **Parent Topic:**[Advanced configurations for Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/advanced-configuration-workforce-optimization-itsm.md)
 

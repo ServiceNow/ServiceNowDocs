@@ -7,9 +7,9 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring System events, System Events, Build workflows]
+breadcrumb: [Configuring system events, System Events, Build workflows]
 ---
 
 # Implement automated job scheduling
@@ -149,4 +149,6 @@ Optional field to describe about this queue related information
 
     If any queue with your suggested queue name already exists in the manual jobs scheduling configuration, the configurations of the existing queue are retrieved. You can then validate and update them as required.
 
+
+**Parent Topic:**[Configuring System events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/configuring-system-events.md)
 

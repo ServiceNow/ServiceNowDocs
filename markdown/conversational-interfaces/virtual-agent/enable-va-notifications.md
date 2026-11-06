@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Virtual Agent, notifications, channels]
-breadcrumb: [Configuring Virtual Agent notifications, Configuring Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring Virtual Agent notifications, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Enable Virtual Agent notifications
@@ -57,17 +57,6 @@ Chat widget \(mweb\)
 
 </td></tr><tr><td>
 
-Slack, Microsoft Teams, or Workplace messaging integrations
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Channels and Integrations**.
-2.  For the appropriate messaging integration, select **Enable notifications for all users**.
-
-\[Omitted image "va-enable-notif-adapter.png"\] Alt text: Messaging Apps Integration page with the Enable notifications for all users field for Microsoft Teams option highlighted.
-
-</td></tr><tr><td>
-
 Custom chat integration
 
 </td><td>
@@ -81,6 +70,4 @@ Custom chat integration
 </td></tr></tbody>
 </table>    Notifications are sent to recipients via the Virtual Agent bot in the channels that you enabled.
 
-
-**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

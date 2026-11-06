@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/add-an-api-key-mcp-server.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add an MCP Server with API Key

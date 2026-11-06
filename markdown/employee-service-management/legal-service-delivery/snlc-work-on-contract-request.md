@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on NDA legal requests
@@ -38,27 +38,27 @@ As a collaborator added to a request, you can access and work on the request jus
 
     2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
-    3.  Select **Legal requests** option.
+    3.  Select **Legal requests**.
 
     4.  Select **Assign to me**.
 
     5.  Open the legal request from the list.
 
-    6.  Select **Start work**
+    6.  Select **Start work**.
 
     The state of the legal request updates to Work in progress.
 
 3.  In the **Lists** tab, navigate to **Legal Requests** or **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d524254e172">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d567829e176">
 
 Option
 
-</th><th align="left" id="d524254e175">
+</th><th align="left" id="d567829e179">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d524254e181">
+</th></tr></thead><tbody><tr><td id="d567829e185">
 
 **As an assignee**
 
@@ -68,7 +68,7 @@ Steps
 2.  Select a contract request to work on.
 
 
-</td></tr><tr><td id="d524254e202">
+</td></tr><tr><td id="d567829e206">
 
 **As a collaborator**
 
@@ -101,17 +101,17 @@ Steps
 
 9.  Add internal or external signatories to the contract request by accessing the **Signatories** tab and selecting **Add**.
 
-    **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
+    **Note:** You can add signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks.
 
-<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d524254e342">
+<table id="choicetable_v3x_kwb_5bc"><thead><tr><th align="left" id="d567829e348">
 
 Option
 
-</th><th align="left" id="d524254e345">
+</th><th align="left" id="d567829e351">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d524254e351">
+</th></tr></thead><tbody><tr><td id="d567829e357">
 
 **Internal**
 
@@ -121,11 +121,22 @@ Steps
 
 The fields **Authorized signatory name**, **Signatory**, and **Signatory email** are automatically populated.
 
-2.  In the **Order** field, enter the order in which the contract should be sent to the signer. The order value should be unique
-3.  Select **Add**.
+2.  In the **Signatory order** field, enter the order in which the contract should be sent to signers for an e-signature. The system starts sending the contract to the external signer with the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
+3.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+4.  Select **Add**.
 
 
-</td></tr><tr><td id="d524254e392">
+</td></tr><tr><td id="d567829e447">
 
 **External**
 
@@ -134,14 +145,25 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 1.  In the **Authorized signatory name** field, enter the external signer's name.
 2.  In the **Signatory** field, enter the external signer's title.
 3.  In the **Signatory email** field, enter the external signer's email address.
-4.  In the **Order** field, enter the order in which the contract should be sent to signers for an e-signature. The order value should be unique.
-5.  Select **Add**.
+4.  In the **Signatory order** field, enter the order in which the contract should be sent to signers for an e-signature. The system starts sending the contract to the external signer with the lowest number.
+
+**Note:** You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time.
+
+5.  In the **Signatory Role** field, select the role for the signatory.
+
+**Note:** The field is enabled only for Docusign electronic signature. For wet signature and offline signature, the field is inactive and the default value is set to **Signer**.
+
+The **Signatory Role** field is visible only when the **sn\_cm\_core.enable\_docusign\_signature\_roles** system property is set to `true`.
+
+To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information about signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+6.  Select **Add**.
 
 
 </td></tr></tbody>
 </table>10. Remove the signatories from the contract request by accessing the **Signatories** tab, selecting the signatory, and selecting **Remove**.
 
-    **Note:** You can remove signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks
+    **Note:** You can remove signatories in NDA legal requests only when the contract is generated from a template configured with signature blocks.
 
 11. In the **Signatories** tab, select **Sync signatories** to update the contract document with the latest signatory details.
 
@@ -159,17 +181,17 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
         -   **Computer**
 
-            Select this option to upload a file from your system. The **Attachment** field appears upon selecting this option. Select **Attach File** and upload the updated contract from your system.
+            Select this option to upload a file from your system. The **Attachment** field appears. Select **Attach File** and upload the updated contract from your system.
 
         -   **Activity stream**
 
-            Select this option to select a document from the activity stream. The **Document** field appears upon selecting this option. Select the document in the activity stream.
+            Select this option to select a document from the activity stream. The **Document** field appears. Select the document in the activity stream.
 
             The activity stream includes documents attached while requesting changes for a contract or documents received through email.
 
         -   **External storage**
 
-            Select this option if external storage is enabled. The **Document** field appears upon selecting this option. Select the updated contract from external storage.
+            Select this option if external storage is enabled. The **Document** field appears. Select the updated contract from external storage.
 
     3.  Add work notes to provide any information on the attached document.
 
@@ -181,11 +203,11 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
     For more information, see [Synchronize a non-disclosure agreement document after modifying a self-served contract request \(Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-sync-doc.md).
 
-    **Note:** This option is available on Contract Management Pro starting version 1.2.1
+    **Note:** This option is available on Contract Management Pro starting with version 1.2.1.
 
-15. For any changes in legal request, select **Regenerate** option to create a new version of the contract document with updated metadata and signatories, and discard the changes in the previous version.
+15. For any changes in legal request, select **Regenerate**.
 
-    For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlcregen-contract-doc.md).
+    This creates a new version of the contract document with updated metadata and signatories, and discard the changes in the previous version. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlcregen-contract-doc.md).
 
 16. Set up an email to stakeholders to request to have the completed contract document reviewed and the changes confirmed.
 
@@ -203,15 +225,13 @@ The fields **Authorized signatory name**, **Signatory**, and **Signatory email**
 
     5.  Select whether the file source is your computer or an attachment to a record and select the file to be attached.
 
-        If you’ve marked a contract document revision as Ready, it’s attached to the email by default.
+        If you've marked a contract document revision as Ready, it's attached to the email by default.
 
     6.  Either enter your own message in the email body or copy and paste the content from an email response template into the email body.
 
         Using response templates, you can insert predefined content into the email body. Select the response template icon \(\[Omitted image "response-template-email-icon.png"\] Alt text: Response template icon.\) and find an appropriate response template based on the subject of your email. Copy and paste the template's content into the email body.
 
         **Note:** Only response templates configured for the email channel are available to use. For more information, see [Response templates configured for email channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/create-lsd-response-template.md).
-
-        For more information, see [Communicating via email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/using-email.md).
 
     7.  Either send the email immediately or indicate that it should be sent later.
 
@@ -232,9 +252,7 @@ Review and finalize the contract document generated after the self-serve contrac
 -   **[Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-initiate-approval-cr.md)**  
 Initiate an ad hoc approval for a contract document revision from a user or a user group.
 -   **[Send a non-disclosure agreement document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-send-doc-sign-nda.md)**  
-After a non-disclosure agreement contract document has been reviewed and finalized, send the document for signature.
--   **[Signature workflow for a request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.md)**  
-Contract Management Pro for Legal Service Delivery supports electronic signature or wet \(manual\) signature for a contract request.
+Send a finalized non-disclosure agreement contract document to the specified signatories for signature.
 
 **Parent Topic:**[Non-disclosure agreement requests]()
 

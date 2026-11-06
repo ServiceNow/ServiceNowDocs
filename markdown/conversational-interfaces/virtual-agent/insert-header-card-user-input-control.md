@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Insert a header card in a Static Choice or Dynamic Choice control
@@ -22,17 +22,21 @@ Role required: virtual\_agent\_admin or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer** and open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the Flow tab, drag a Static Choice or a Dynamic Choice user input control onto the canvas.
+2.  Select the **Asset library** tab.
 
-3.  On the Properties sheet, go to **Advanced \(optional\)**, and then expand the **Header card** section.
+3.  Open a topic or [create a new one](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md).
 
-4.  Slide the **Insert** toggle switch to enable it.
+4.  On the Flow tab, drag a Static Choice or a Dynamic Choice user input control onto the canvas.
+
+5.  On the Properties sheet, go to **Advanced \(optional\)**, and then expand the **Header card** section.
+
+6.  Slide the **Insert** toggle switch to enable it.
 
     \[Omitted image "va-insert-header-help-yes.png"\] Alt text: Header card section of Dynamic Choice user input control, with Insert toggle and Would you like help radio button enabled.
 
-5.  Under **Would you like help?**, select either **Yes** or **No, I will use a script**.
+7.  Under **Would you like help?**, select either **Yes** or **No, I will use a script**.
 
     -   If you selected **Yes**, select **Add card** and complete the following form fields.
 
@@ -53,7 +57,7 @@ Card type
 Type of header card:-   Large image with text
 -   Small image with text
 -   Youtube Video Card
- The fields in the dialog box change according to your choice.
+The fields in the dialog box change according to your choice.
 
 </td></tr><tr><td>
 
@@ -106,8 +110,6 @@ The alphanumeric string at the end of the YouTube URL. For example, in the URL `
 </td></tr></tbody>
 </table>    -   If you selected **No, I will use Script**, select **Add script** to input a script to display your desired media, following the example in the script dialog box.
 
-        **Header Card script example**
-
         ```
         function() {
             /*
@@ -131,8 +133,8 @@ The alphanumeric string at the end of the YouTube URL. For example, in the URL `
             }
         ```
 
-6.  Select **Save**.
+8.  Select **Save**.
 
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

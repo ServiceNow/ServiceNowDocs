@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -56,7 +56,7 @@ When you copy a scenario, the copy is created with the same name, but appended w
 
 ## Result
 
-After a few seconds of copying process, the scenario copy is created. To view the copy, refresh the list by selecting the Refresh list icon \(\[Omitted image "refresh-icon.png"\] Alt text: Refresh list icon.\). The scenario copy is named with the same name as the copied scenario but appended with a '- Copy 2'. For example, Scenario ABC- Copy 2. When you create a copy of an existing scenario, the scenario opens directly in the stack plan view and in the scenario mode of the copied scenario.
+After a few seconds of copying process, the scenario copy is created. To view the copy, refresh the list by selecting the Refresh list icon \(\[Omitted image "refresh-icon.png"\] Alt text:\). The scenario copy is named with the same name as the copied scenario but appended with a '- Copy 2'. For example, Scenario ABC- Copy 2. When you create a copy of an existing scenario, the scenario opens directly in the stack plan view and in the scenario mode of the copied scenario.
 
 ## What to do next
 

@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/monthly-health-assessment.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Monthly Health Assessment
 
 The Monthly Health Assessment feature provides Impact Guided customers with a self-service capability that automates Health Assessment scans and reports to provide details that can help you to improve the health of your ServiceNow platform implementation.
 
-## Overview
+## Overview of health scan
 
 Using the Impact Delivery Instance \(IDI\) portal, customers provide consent to allow ServiceNow HealthScan to run the monthly health scans on a specified instance and receive automated reports and recommendations.
 
@@ -26,6 +26,8 @@ Using the Impact Delivery Instance \(IDI\) portal, customers provide consent to 
 -   Conduct a scan to provide additional analysis when potential health  issue s are identified
 
 **Important:** Prior to beginning monthly health assessments, your consent is required in order for ServiceNow resources to scan your instance. You are prompted for consent when you schedule monthly health assessments.
+
+## Package Availability
 
 **Note:** This feature is available in the Impact Guided package.
 
@@ -52,4 +54,9 @@ For customer agreements and terms, refer to the applicable Impact Accelerator de
 ## Exceptions
 
 ServiceNow resources are not responsible for implementation or management of the Monthly Health Assessment.  However, your Impact squad may assist with instance switching and cancellation of the service.
+
+-   **[Schedule Monthly Health Assessment scans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/schedule-monthly-health-assessment-scans.md)**  
+Automate monthly Health Assessment scans and reports to help improve the health of your ServiceNow platform implementation.
+
+**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-tech-kpis.md)
 

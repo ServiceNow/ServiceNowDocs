@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # Create community Terms and Conditions
@@ -19,6 +19,10 @@ Community members must follow the community rules of conduct. Create community T
 ## Before you begin
 
 Role required: sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -38,15 +42,15 @@ You can disable Terms and Conditions using the **sn\_communities.disable\_terms\
 
 2.  Complete one of the following actions to save the Terms and Conditions.
 
-<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d62064e154">
+<table id="choicetable_dq1_gnp_t1b"><thead><tr><th align="left" id="d71722e173">
 
 To
 
-</th><th align="left" id="d62064e157">
+</th><th align="left" id="d71722e176">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d62064e163">
+</th></tr></thead><tbody><tr><td id="d71722e182">
 
 **Submit**
 
@@ -54,7 +58,7 @@ Do this
 
 Click **Submit** to save your Terms and Conditions.
 
-</td></tr><tr><td id="d62064e175">
+</td></tr><tr><td id="d71722e194">
 
 **Activate**
 
@@ -70,5 +74,48 @@ Click **Submit** to save your Terms and Conditions.
 </table>    You can view which community users have accepted the Terms and Conditions and when. Navigate to **Community** &gt; **User Profile** &gt; **Community Profiles**. View or add, if necessary, the **Accepted TC**, **Accepted TC Date**, and **Accepted TC Number** fields.
 
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community content types]()
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[Migrate Social Q&amp;A data to Communities]()
+
+[View community logs]()
+
+[View community feedback and bookmarks tables]()
+
+[Create a case from a discussion]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure video sources for a community]()
+
+[Configure community forums]()
+
+[Forum and user permissions management]()
+
+[Configure the community profile]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/noti-add-additional-recipients.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and update a provider notification for all users, Create provider notification, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Provider notification for all users, Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create and add additional recipients

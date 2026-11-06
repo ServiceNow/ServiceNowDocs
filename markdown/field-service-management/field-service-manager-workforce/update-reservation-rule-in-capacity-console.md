@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [View territory and demand channel summary in the contextual side panel, Using the Capacity Console, Capacity, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [View territory and demand channel summary, Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
 
 # Update capacity value and reservation for a territory in capacity console
@@ -82,6 +82,4 @@ The following snapshots showcases the actions performed in the contextual side p
 \[Omitted image "reservation-rule-update.png"\] Alt text: Capacity console contextual side panel showcasing the options to open the reservation record and override reservation.
 
 \[Omitted image "copy-reservation.png"\] Alt text: Capacity console contextual side panel showcasing the option to copy and modify the reservation.
-
-**Parent Topic:**[View territory and demand channel summary in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/view-territory-summary-in-capacity-console.md)
 

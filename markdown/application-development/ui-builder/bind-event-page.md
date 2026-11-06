@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Bind events to add actions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Bind events to add actions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Bind an event to a page
@@ -49,19 +49,17 @@ You can bind an event to a page by using the following types of events:
 
 5.  In the configuration panel, select the **Events** tab.
 
-    \[Omitted image "events-tab-page.png"\] Alt text: Configuration panel with the Events tab.
-
 6.  Add an event handler in one of the following ways.
 
-<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d112607e182">
+<table id="choicetable_tqw_v1s_znb"><thead><tr><th align="left" id="d116436e178">
 
 To add this event handler
 
-</th><th align="left" id="d112607e185">
+</th><th align="left" id="d116436e181">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d112607e191">
+</th></tr></thead><tbody><tr><td id="d116436e187">
 
 **Page event mappings**
 
@@ -75,7 +73,7 @@ Do this
 3.  To add the event handler to your page, click **Add**.
 
 
-</td></tr><tr><td id="d112607e261">
+</td></tr><tr><td id="d116436e257">
 
 **Variant event mappings**
 
@@ -95,7 +93,7 @@ Do this
 -   These mappings are automatically created on a page save when you have mapped a component's dispatched event to another event. For example, when you map a **Button clicked** event to the **Link to destination** event, the event creates a dispatched relay event and a variant event mapping after you save the page.
 
 
-</td></tr><tr><td id="d112607e334">
+</td></tr><tr><td id="d116436e330">
 
 **Dispatched events**
 
@@ -122,7 +120,7 @@ Do this
 
 -   These events are often used to create relay event mappings. You can select a **Target parent event handler** to model the payload fields after the selected event. You can also manually create payload fields for your dispatched event.
 
-</td></tr><tr><td id="d112607e433">
+</td></tr><tr><td id="d116436e437">
 
 **Handled events**
 

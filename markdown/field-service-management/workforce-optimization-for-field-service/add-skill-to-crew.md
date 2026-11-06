@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Crew Operations, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
 
 # Add skills to a crew
@@ -42,4 +42,9 @@ Role required: wm\_crew\_moderator
 
 8.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/skills-table-fields.md)
 

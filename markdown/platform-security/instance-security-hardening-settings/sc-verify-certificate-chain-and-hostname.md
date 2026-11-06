@@ -1,5 +1,5 @@
 ---
-title: Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]
+title: Verify certificate chain and hostname
 description: Configure the com.glide.communications.httpclient.verify\_hostname property to prevent man-in-the-middle-attacks by ensuring that the certification verification process is executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-verify-certificate-chain-and-hostname.html
@@ -7,16 +7,20 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Communications, Hardening settings, Platform Security]
 ---
 
-# Verify certificate chain and hostname \[New in Security Center 1.3 and updated in 2.0\]
+# Verify certificate chain and hostname
 
 Configure the **com.glide.communications.httpclient.verify\_hostname** property to prevent man-in-the-middle-attacks by ensuring that the certification verification process is executed.
 
-When the Glide Property **com.glide.communications.httpclient.verify\_hostname** is not set to the secure value of true, the hostname and certificate chain presented by remote hosts during a TLS connection initiated from the ServiceNow instance are not validated. This could compromise the security of the TLS connection and allow person-in-the-middle attacks, where communications between two parties are intercepted. This may lead to sensitive data disclosure.
+When the **com.glide.communications.httpclient.verify\_hostname** property is not set to the secure value of **true**, the hostname and certificate chain presented by remote hosts during a TLS connection initiated from the ServiceNow instance are not validated.
+
+This vulnerability compromises the security of the TLS connection and allows person-in-the-middle attacks, where communications between two parties are intercepted. This may lead to sensitive data disclosure.
+
+Ensure that the **com.glide.communications.httpclient.verify\_hostname** system property is set to the secure value of **true**.
 
 ## More information
 
@@ -50,7 +54,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +67,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +96,7 @@ Security risk
 
 -   Severity score: High
 -   CVSS score: 7.4
--   Security risk details: Not setting **com.glide.communications.httpclient.verify\_hostname** to the recommended value of true could make your instance vulnerable to man-in-the-middle-attacks.
+-   Security risk details: This vulnerability compromises the security of the TLS connection and allows person-in-the-middle attacks, where communications between two parties are intercepted. This may lead to sensitive data disclosure.
 
 </td></tr><tr><td>
 
@@ -92,7 +104,7 @@ Dependencies and prerequisites
 
 </td><td>
 
-None
+The **com.glide.communications.httpclient.verify\_hostname** property governs hostname and certificate chain validation independently of the **com.glide.communications.httpclient.verify\_revoked\_certificate** property, the overall gate for certificate revocation checking.
 
 </td></tr><tr><td>
 
@@ -100,7 +112,7 @@ Functional impact
 
 </td><td>
 
-Verifies hostname and certificate chain presented by remote secure socket layer \(SSL\) hosts. Set this property to true to secure against Man-in-the-middle \(MITM\) attacks.**Note:** This property overrides the **com.glide.communications.trustmanager\_trust\_all**, property.
+When the **com.glide.communications.httpclient.verify\_hostname** property is set to **true**, an outbound HTTPS connection is rejected if the remote host's certificate does not match the requested hostname or its certificate chain can't be validated. Outbound integrations to hosts with a mismatched or misconfigured certificate will fail to connect once this property is set to true.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-communications.md)

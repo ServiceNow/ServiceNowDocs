@@ -1,20 +1,20 @@
 ---
 title: Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
-description: When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
+description: When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-sync-document.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)
 
-When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
+When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 
 ## About this task
 
@@ -38,10 +38,12 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_user
 
 4.  Select **Sync document**.
 
+    \[Omitted image "cmpro-sync-doc.png"\] Alt text: Sync document to update the contract.
+
 
 ## Result
 
 A new contract document revision is created with the updated metadata and signatories. The changes made in the previous revision are retained.
 
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

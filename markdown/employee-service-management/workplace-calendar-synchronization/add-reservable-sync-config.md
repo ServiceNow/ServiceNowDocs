@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -76,17 +76,13 @@ Active
 
 Option to activate the workplace item for synchronization.**Important:** The **Active** field is read-only and inactive if you are adding the reservable sync config record to the Microsoft Exchange Online or Microsoft Exchange On-Premises calendar provider. To activate the reservable sync config record, you must select the **Activate** option after you save the form.
 
-</td></tr><tr><td colspan="2">
-
-**Provider Configuration**
-
 </td></tr><tr><td>
 
 Provider
 
 </td><td>
 
-Calendar provider that you want to synchronize with the workplace item.
+Calendar provider that you want to synchronize with the workplace item from **Provider Configuration**.
 
 </td></tr><tr><td>
 
@@ -94,7 +90,7 @@ No request
 
 </td><td>
 
-Option to test synchronization. Select this option to test if a reservation is synchronized or not when the workplace item is active. Validate the configuration and events to ensure that everything is set up correctly. Selecting this option will only generate events and not send them to the calendar service.
+Option to test synchronization from **Provider Configuration**. Select this option to test if a reservation is synchronized or not when the workplace item is active. Validate the configuration and events to ensure that everything is set up correctly. Selecting this option will only generate events and not send them to the calendar service.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

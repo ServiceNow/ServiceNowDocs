@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up the Operational Technology Progress Scorecard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -18,15 +18,15 @@ Review the indicator sources if you need a large number of records. You can over
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or pa\_admin
 
 ## About this task
 
-Due to the migration with Performance Analytics, each indicator of the OT Progress Scorecard can only show 1 million records by default. If you have the admin role and the records exceed 1 million after running the \[PA OTPSC\] Monthly Data Collection, an error message directs you to the job logs.
+Due to the migration with Performance Analytics, each indicator of the OT Progress Scorecard can only show 1 million records by default. If you have the admin or pa\_admin role and the records exceed 1 million after running the \[PA OTPSC\] Monthly Data Collection, an error message directs you to the job logs.
 
-**Note:** If you don't have the admin role and the records exceed 1 million after running the \[PA OTPSC\] Monthly Data Collection job, an error message directs you to contact an administrator for help.
+**Note:** If you don't have the admin or pa\_admin role and the records exceed 1 million after running the \[PA OTPSC\] Monthly Data Collection job, an error message directs you to contact an administrator for help.
 
-If you have the admin role, you can check the job logs related list from the link in the error message and filter out the information to see which indicator source has the error. After you find the indicator source with the error, you can change the indicator sources for a larger number of records and override the indicator source data. Then, an error message no longer appears for the other users and the data is shown for the indicator source. For more information about the indicator sources, see [Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_IndicatorSources.md).
+If you have the admin or pa\_admin role, you can check the job logs related list from the link in the error message and filter out the information to see which indicator source has the error. After you find the indicator source with the error, you can change the indicator sources for a larger number of records and override the indicator source data. Then, an error message no longer appears for the other users and the data is shown for the indicator source. For more information about the indicator sources, see [Indicator sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_IndicatorSources.md).
 
 **Note:** If you need to create new indicators, you must use the site breakdown included in the Industrial Workspace Common. The site breakdown part of the Operational Technology Manager application is deprecated.
 

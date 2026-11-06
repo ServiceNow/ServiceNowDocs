@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create a task for a legal matter
@@ -28,19 +28,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d537198e105">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d582203e105">
 
 Option
 
-</th><th align="left" id="d537198e108">
+</th><th align="left" id="d582203e108">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d537198e114">
+</th></tr></thead><tbody><tr><td id="d582203e114">
 
 **As an assignee**
 
@@ -52,7 +52,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d537198e143">
+</td></tr><tr><td id="d582203e143">
 
 **As a collaborator**
 
@@ -115,4 +115,13 @@ The state of the legal matter updates to Work in Progress.
 A legal matter task is created and is listed in the matter's **Tasks** tab. If the task was added in a phase record, then the task is also listed in the phase's **Legal Matter Tasks** tab.
 
 **Tip:** If the new task doesn't appear in the list, click the refresh list button \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.\).
+
+-   **[Complete a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/complete-matter-task.md)**  
+When you finish working on an assigned matter task, mark the task as complete.
+-   **[Approve or reject a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/approve-reject-matter-task.md)**  
+As a matter owner, you can review and approve or reject matter tasks that are marked as complete by the task owners.
+-   **[Cancel a legal matter task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/cancel-matter-task.md)**  
+You can cancel a matter task if it no longer requires any action.
+
+**Parent Topic:**[Work on a legal matter]()
 

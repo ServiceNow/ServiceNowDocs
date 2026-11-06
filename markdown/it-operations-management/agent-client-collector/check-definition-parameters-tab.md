@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector check definition page, Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC check definition page, ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Check definition form parameters tab

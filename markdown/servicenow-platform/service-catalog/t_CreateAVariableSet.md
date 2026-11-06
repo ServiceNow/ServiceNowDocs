@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service catalog variable sets, Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -123,7 +123,7 @@ Description
 
 </td><td>
 
-Description of variable set.
+Description of the variable set.
 
 </td></tr></tbody>
 </table>5.  Right-click and select **Save**.

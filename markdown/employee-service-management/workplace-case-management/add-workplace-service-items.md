@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -159,7 +159,7 @@ Quantity enabled
 
 </td><td>
 
-Option to enable users to specify their required quantity from **Default Configuration**.
+Option to enable specify their required quantity from **Default Configuration**.
 
 </td></tr><tr><td>
 
@@ -175,7 +175,7 @@ Cost
 
 </td><td>
 
-Cost of the workplace item. To specify the currency of the cost, select the currency icon \(\[Omitted image "currency-icon.png"\] Alt text: Currency icon.\) from **Default Configuration**.
+Cost of the workplace item. To specify the currency of the cost, select the currency from **Default Configuration**.
 
 </td></tr><tr><td>
 

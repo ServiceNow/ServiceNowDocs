@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add document content controls using Microsoft Word add-in for ServiceNow Contracts
@@ -21,7 +21,10 @@ The Microsoft Word add-in for ServiceNow Contracts enables you to add content co
 -   Metadata: View and add metadata for fields, variable, and variable sets to pre-fill the information in the contract document.
 -   Signatory: View and add signatories to add their signatures in the contract document.
 -   Clauses: View and add clause and clause variations to a contract document.
--   Table: Determine the data that will be added from a data source table in your ServiceNow instance to a table in a contract document\[Omitted image "cmpro-word-addin-view.png"\] Alt text: The image shows the components of the Microsoft Word add-in for ServiceNow Contracts
+-   Table: Determine the data that will be added from a data source table in your ServiceNow instance to a table in a contract document
+
+    \[Omitted image "cmpro-word-addin-view.png"\] Alt text: The image shows the components of the Microsoft Word add-in for ServiceNow Contracts
+
 
 You can also switch application scope and log out using the following options:
 
@@ -35,10 +38,10 @@ You can also switch application scope and log out using the following options:
 As a contract configurator, add and configure metadata for fields, variable, and variable sets to pre-fill the information in the contract document.
 -   **[Configuring signatories in Contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-sign-addin.md)**  
 For signatories to add their signatures in the contract document, you can either create signature blocks or configure participants in a contract template with placeholders.
--   **[Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)**  
+-   **[Map clauses and clause variations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-add-clauses.md)**  
 As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
 -   **[Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-table.md)**  
-Use the Microsoft Word add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
+Use the ServiceNow Contracts add-in to map a contract table to a source table in your ServiceNow instance to determine the data that will be added in a contract document. When a contract document is generated from the template, the rows and columns are dynamically added in the mapped table of the contract document.
 
 **Parent Topic:**[Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md)
 
@@ -47,7 +50,7 @@ Use the Microsoft Word add-in to map a contract table to a source table in your 
 
 [Create a contract template to contain content controls]()
 
-[Upload and parse a Microsoft Word document that includes content controls]()
+[Complete mapping and upload Microsoft Word document that includes content controls]()
 
 [Complete clause mapping to build a clause library]()
 

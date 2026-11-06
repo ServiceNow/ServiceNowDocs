@@ -1,18 +1,18 @@
 ---
-title: Modify a service contract
-description: Modify a service contract so that you can update its existing configurations.
+title: Modify a customer contract
+description: Modify a customer contract so that you can update its existing configurations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-modify-service-contract.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contracts and Entitlements, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
-# Modify a service contract
+# Modify a customer contract
 
-Modify a service contract so that you can update its existing configurations.
+Modify a customer contract so that you can update its existing configurations.
 
 ## Before you begin
 
@@ -23,28 +23,28 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  In the Contracts and Entitlements list, select **Service Contracts**.
+2.  In the Contracts and Entitlements list, select **Customer Contracts**.
 
-3.  In the Contracts and Entitlements - Service Contracts list, select the service contract.
+3.  In the Contracts and Entitlements - Customer Contracts list, select the customer contract.
 
-4.  Select **Modify all lines** to modify the service contract.
+4.  Select **Modify all lines** to modify the customer contract.
 
-5.  On the Configurator UI, modify the existing configurations for the service contract line.
+5.  On the Configurator UI, modify the existing configurations for the customer contract line.
 
     To learn more about the Configurator UI, see [Exploring Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-exploring.md).
 
-    **Note:** The Configurator UI is displayed only if the service contract has a single service contract line. For multiple service contract lines, a quote or an order will be created with contract lines in Draft or Active state.
+    **Note:** The Configurator UI is displayed only if the customer contract has a single customer contract line. For multiple customer contract lines, a quote or an order will be created with contract lines in Draft or Active state.
 
 6.  Select **Update**.
 
     An order or a quote will be created depending on the rules set in the Customer Life Cycle Workflows Policy decision table. For more info, see [Configuring Customer Life Cycle Workflows Policy decision table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-cont-ent-workflows-csm.md).
 
-    -   If the selected target entity is a quote, a quote to modify the service contract is created. You can select the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
-    -   If the selected target entity is an order, an order to modify the service contract is created. You can click the order number from the confirmation message to view the modified order line items.
+    -   If the selected target entity is a quote, a quote to modify the customer contract is created. You can select the quote number from the confirmation message to view the modified quote line items. The quote is approved and the status changes to **Complete** to create an order.
+    -   If the selected target entity is an order, an order to modify the customer contract is created. You can click the order number from the confirmation message to view the modified order line items.
 7.  In the Order Line Items related list, double-click the State value of the parent order line and set it to **Completed**.
 
-    The modifications are visible on the service contract.
+    The modifications are visible on the customer contract.
 
 

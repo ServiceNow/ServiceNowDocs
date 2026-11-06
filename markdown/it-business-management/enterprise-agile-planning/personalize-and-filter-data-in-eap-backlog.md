@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -51,8 +51,6 @@ Role required: sn\_apw\_advanced.eap\_user
     3.  Select **Save filter** so that you need not recreate the same conditions to apply them to a different set of data.
 
     4.  Select **Apply**.
-
-        \[Omitted image "eap-backlog-add-filter.png"\] Alt text: Baclog filters in EAP.
 
 5.  For an ART, you can personalize the grouping of the work items by Planning Interval or Team.
 

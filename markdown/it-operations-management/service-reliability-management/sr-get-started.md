@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Exploring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Get started with Service Reliability Management
@@ -44,7 +44,7 @@ See this
 
 </th></tr></thead><tbody><tr><td>
 
-Manage an application or technical service in SRM
+Manage a service instance or technology management service in SRM
 
 </td><td>
 
@@ -100,7 +100,7 @@ Set up a third-party integration, such as Datadog or ServiceNow Cloud Observabil
 
 </td><td>
 
-[Working with SRM integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)
+[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)
 
 </td></tr><tr><td>
 

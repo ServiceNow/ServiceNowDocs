@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-household-entitlements.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring households, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create entitlements for a household
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_manager, admin
 
 ## About this task
 
-System administrators and customer service managers can create entitlements for a household. These entitlements apply to the current members of that household.
+Administrators and customer service managers can create entitlements for a household. These entitlements apply to the current members of that household.
 
 When a case is created for a household or a consumer, the **Entitlement** field on the Case form lists the available entitlements:
 
@@ -34,13 +34,13 @@ When a case is created for a household or a consumer, the **Entitlement** field 
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Contracts** &gt; **Entitlements**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Select a household in the **Household** field.
 
     When you select a household, the head of household is automatically added to the **Consumer** field.
 
-    **Note:** You may need to configure the form layout and add the **Household** field.
+    **Note:** You must configure the form layout and add the **Household** field.
 
 4.  If desired, select a different household member in the **Consumer** field.
 
@@ -48,7 +48,7 @@ When a case is created for a household or a consumer, the **Entitlement** field 
 
     For more information, see [Create entitlements for CSM entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CreateAnEntitlement.md).
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The entitlement is added to the Entitlements related list on the Household form.
 

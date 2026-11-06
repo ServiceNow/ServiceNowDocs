@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-ded-instance-decision-tree.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service provider reference architecture, Domain separation recommended practices for service providers, Domain separation for service providers, Access Management]
+breadcrumb: [Service provider reference architecture, Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
 
 # Service provider reference architecture decision trees
@@ -23,8 +23,6 @@ Use these decision trees to help your customers decide whether to use a managed 
 \[Omitted image "bp-dedicated-vs-shared.png"\] Alt text: SP reference architecture decision tree
 
 ## SP reference architecture comparison
-
-\[Omitted image "bp-dedicated-ds-hybrid-siam.png"\] Alt text: Service provider reference architecture comparison chart
 
 **Parent Topic:**[Service provider reference architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/bp-sp-reference-arch-ds.md)
 

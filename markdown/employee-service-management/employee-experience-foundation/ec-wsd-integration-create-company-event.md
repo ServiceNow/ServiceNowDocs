@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workplace Service Delivery Integration, Company events, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Workplace Service Delivery Integration, Company events, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create Company Event with Workplace Service Management

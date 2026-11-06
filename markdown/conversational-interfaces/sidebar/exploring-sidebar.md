@@ -7,8 +7,8 @@ release: yokohama
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [Virtual Agent, sidebar, workspace, discussion panel, activity stream]
 breadcrumb: [Sidebar, Conversational Interfaces]
 ---
@@ -60,7 +60,7 @@ Description
 
 </td><td>
 
-Display Sidebar discussions dialog. If a number in a blue square appears, the number indicates the number of Sidebar discussions that are currently active.
+This is the magnifying glass. Display Sidebar discussions dialog. If a number in a blue square appears, the number indicates the number of Sidebar discussions that are currently active.
 
 </td></tr><tr><td>
 
@@ -249,6 +249,32 @@ Send the message.
 </td></tr></tbody>
 </table>    If you minimize a docked window, it appears as a tab in the overflow menu at the bottom of the screen. Hovering over a minimized docked window shows the record number and chat title to help identify the content. You can select any tab to access that discussion again. The overflow menu can hold up to 25 docked windows and this limit is configurable. If there are more docked windows than can be displayed as tabs in the overflow menu, a tab with a number indicates how many extra docked windows aren't displayed.
 
+
+## Threaded replies
+
+Use threaded replies to keep related messages grouped within Sidebar discussions. When you respond using a threaded reply, your message is added to the specific message you're replying to, rather than the main discussion.
+
+To start a threaded reply to a message:
+
+1.  Select reply arrow \(\[Omitted image "threaded-reply-arrow.png"\] Alt text: Reply arrow icon.\) next to the message you want to reply to:
+
+    \[Omitted image "sidebar-threaded-1.png"\] Alt text: Start of a threaded reply in a Sidebar discussion.
+
+2.  The panel displays "Thread" followed by the discussion subject. Type your message in the text input box:
+
+    \[Omitted image "sidebar-threaded-2.png"\] Alt text: Typing the text of a threaded reply.
+
+3.  Select the send arrow \(\[Omitted image "threaded-send-arrow.png"\] Alt text: Send arrow icon.\).
+4.  Your messages appear under the parent message:
+
+    \[Omitted image "sidebar-threaded-3.png"\] Alt text: Typing the text of a threaded reply.
+
+5.  If threaded reply has multiple messages, you can expand them to view all of the messages or you can collapse them and the number of messages displays instead.
+
+    \[Omitted image "sidebar-threaded-4.png"\] Alt text: Multiple messages collapsed in a threaded reply.
+
+
+**Note:** If you delete a message with threaded replies, a warning appears letting you know that all its threaded replies will also be deleted.
 
 ## Activity stream and Sidebar
 

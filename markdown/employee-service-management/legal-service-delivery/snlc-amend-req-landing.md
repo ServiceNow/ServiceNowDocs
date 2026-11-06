@@ -7,10 +7,10 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-10-19"
+last_updated: "2026-05-19"
 reading_time_minutes: 5
 keywords: [Amendment request, Amend contract, Amendment workflow, Contract amendment, Amendment]
-breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract amendments
@@ -19,20 +19,20 @@ The contract amendment workflow enhances contract lifecycle management by enabli
 
 Amendments can be made by adding, removing, or updating terms, without the need to replace the entire contract.
 
-You can use the **Amendment request** intake form available in the Employee Center to submit an amendment request.
+You can use the **Contract Amendment and Renewal request** intake form available in the Employee Center to submit an amendment request.
 
-\[Omitted image "lsd-amend-rp.png"\] Alt text: Use the Amendment request record producer from Employee Center to submit an contract amendment request
+\[Omitted image "lsd-renew-rp.png"\] Alt text: Use the Amendment request record producer from Employee Center to submit an contract amendment request
 
-## Distinguish contract and amendment request
+## Distinguish request types
 
-The field, **Request type**, differentiates contract and amendment requests. For amendment request, the value is **Amendment** and for contract request its **New contract**.
+The **Request type** field differentiates contract, amendment, and renewal requests. For an amendment request, the value is **Amendment**; for a new contract request, it is **New contract**; and for a renewal request, it is **Renewal**.
 
-The Request type field is displayed in the contract details secondary header, and list pages making it easy to differentiate between the two request types.
+The Request type field is displayed in the contract details secondary header, and list pages making it easy to differentiate the request types.
 
-This field is also available in the following base system configurations \(when demo data is installed\) to indicate whether the configuration applies to a contract or an amendment request:
+This field is also available in the following base system configurations \(when demo data is installed\) to indicate the request type the configuration is applicable to:
 
--   Contract template rules
--   Contract configurations
+-   Contract Template Rules
+-   Contract Configurations
 
 \[Omitted image "lsd-amend-field-request-type.png"\] Alt text: Request type field to differentiate between contract and amendment request
 
@@ -50,7 +50,7 @@ While submitting an amendment request, you can select the **Type of paper** from
 
 The intake form and record producer for an amendment are available in the base system, enabling you to submit an amendment requests.
 
-\[Omitted image "lsd-amend-OOB-intakeform.png"\] Alt text: Amendment intake from and record producer in the base sytem \(OOB\)
+\[Omitted image "lsd-amend-OOB-intakeform.png"\] Alt text: Amendment intake from and record producer in the base system \(OOB\)
 
 You can also create a customized record producer by copying a base system \(OOB\) record producer to reuse its existing configuration settings. For more information on how to create record producer, see [Create a legal contract intake workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-create-legal-contract.md).
 
@@ -93,13 +93,13 @@ The contract amendment workflow might progress as follows:
     7.  Finalizes the contract amendment using the review, approval, and signature workflow.
 3.  After all signatories have approved the document, the signed amendment is attached to the contract repository record.
 4.  The contract repository record displays the amendment details in the Contract Documents, Contract Requests, and Amendment Field Changes tabs.
-5.  The signed amendment is stored on the ServiceNow instance or an external storage system and referenced in the contract repository. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and manage all related documents from a single location. The field values that have been modified is updated in the amendment according to the contract configuration mapping.
+5.  The signed amendment is stored in the ServiceNow instance or an external storage system and referenced in the contract repository. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and management. The field values that have been modified is updated in the amendment according to the contract configuration mapping.
 
-## Now Assist in Contract Management features for amendment documents
+## AI for amendment documents
 
-For amendment documents, Now Assist in Contract Management features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling users to review and analyze amendments effectively.
+For amendment documents, ServiceNow Otto for Contract Management Pro features of obligation extraction or metadata extraction aren’t supported. However, Contract Analysis is supported when all the configurations are complete and valid, enabling users to review and analyze amendments effectively.
 
-For more information, see [Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-now-assit-landing.md).
+For more information, see [AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md).
 
 -   **[Submit amendment request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-amend-inititate-req.md)**  
 Submit an amendment request from the Employee Center.
@@ -119,15 +119,17 @@ View the amendment details in the contract repository record.
 
 [Third-party contract review requests]()
 
+[Contract renewals]()
+
 [Linking parent-child contracts]()
 
 [Internal review overview]()
 
+[Signature workflow for a request]()
+
 [Cancel a legal request]()
 
 [View and download a signed contract document]()
-
-[View contract requests]()
 
 [Manage Contract Management Pro for Legal Service Delivery]()
 

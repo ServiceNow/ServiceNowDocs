@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Copy user or device allocations
@@ -52,8 +52,6 @@ Role required: sam\_admin or sam\_user.
 
 6.  Select the Source allocations related list and select the allocations.
 
-    Allocations can only be copied one at a time. Repeat the process for each allocation.
-
 7.  Select **Submit**.
 
     If the copy allocation process is successful, then **Submit** gets disabled. A message informs you that the copy of allocations is being processed. You can check the status by clicking the link in the message.
@@ -62,4 +60,9 @@ Role required: sam\_admin or sam\_user.
 
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
+
+**Related topics**  
+
+
+[Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-device-allocation.md)
 

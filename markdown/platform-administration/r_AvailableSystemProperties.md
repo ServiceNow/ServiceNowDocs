@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_AvailableSystemProperties.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 139
+last_updated: "2026-09-10"
+reading_time_minutes: 146
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -14,7 +14,7 @@ breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow 
 
 Some properties are available on a system properties form, but some lesser-used properties are available only from the System Property \[sys\_properties\] table. Sometimes, the property does not exist in a base instance, but can be added if you change the value.
 
-**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/update-security-hardening-params.md).
+**Note:** The Instance Security Hardening Settings content contains detailed descriptions, and compliance values, for the security-related system properties and plugins in the ServiceNow AI Platform. To learn more about each of these properties, see [Instance Security Hardening Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/security-hardening-settings.md).
 
 -   **cdu.record.watcher.timeout**
 
@@ -30,6 +30,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: 100
     -   Location: **Configuration** &gt; **CMDB Properties** &gt; **Baseline Properties**
+-   **com.glide.acl\_check\_all\_filter\_on\_new**
+
+    Enforce ACL checks when a user creates a new record from a list in ui16/workspace.
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **com.glide.attachment.max\_size**
 
     Sets the maximum file attachment size in megabytes. An empty value in this field allows attachments up to a maximum of 1 KB.
@@ -103,6 +110,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default: true
     -   Location: System Property \[sys\_properties\] table
+-   **com.glide.csp.self\_script\_src\_svg**
+
+    WHen enabled, prevents malicious file attachments that store cross site scripting \(XSS\) attacks from running in an instance. For more information, see [Set safe content security policy for svg files \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-set-safe-content-security-policy-for-svg-files.md).
+
+    -   Type: true \| false
+    -   Default: true
+    -   Location: System Properties \[sys\_properties\] table
 -   **com.glide.csv.loader.ignore\_non\_parseable\_lines**
 
     Enables \(`true`\) or disables \(`false`\) ignoring one or more lines \(rows\) in an import set that contains bad data, such as a row that is missing a column of data.
@@ -146,6 +160,33 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **com.glide.par.coreui\_single\_migration.enabled**
+
+    Allows users with the sys\_admin role to hide the banner on Core UI dashboards that enables dashboard owners to migrate their dashboards to Next Experience.
+
+    -   Type: true \| false
+    -   Default value: true
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **com.glide.par.coreui.migration.admin\_redirection.enabled**
+
+    Migrated responsive dashboards automatically redirect to the Platform Analytics experience library. Set this property to specify redirection for sys\_admins. Set the value to false to enable users with the sys\_admin role to open responsive dashboards in the Core UI experience. If Active Experience=Next for dashboards in the bridging tables, redirection is to the migrated version of the dashboard.
+
+    -   Type: true \| false
+    -   Default value: true
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **com.glide.par.pae.drilldown\_to\_core\_ui**
+
+    Applies only to Platform Analytics experience:
+
+    When true, **Go to data** chart interactions for visualizations of tables open the Core UI list of table records. Redirections in general that open lists or charts open Core UI lists and charts.
+
+    When false, **Go to data** chart interactions for visualizations of tables open the Platform Analytics list of table records. Redirections in general that open lists or charts open Platform Analytics lists and charts.
+
+    For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/dv-chart-interactions.md).
+
+    -   Type: true \| false \(Boolean\)
+    -   Default value: true
+    -   Location: System Property \[sys\_properties\] table
 -   **com.glide.script.fencing.secure\_child\_tables**
 
     Controls whether to apply cross-scope access rules when querying application-administered child tables with GlideRecord from a parent table. When false, administrators can view child table data from the parent table, even if the child table scoping configuration is set to avoid this. If you set this property to true, you can change it back to false only by contacting Customer Service and Support.
@@ -573,6 +614,20 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: color
     -   Default value: \#ffffff
     -   Location: **System Properties** &gt; **Tablet UI Properties**
+-   **glide.activity.last\_viewed\_timestamp.local\_storage\_limit**
+
+    Specify the maximum number of last viewed timestamps to be stored in local storage.
+
+    -   Type: integer
+    -   Default value: 1000
+    -   Location: System Property \[sys\_properties\] table
+-   **glide.activity.last\_viewed\_timestamp.local\_storage\_retention\_days**
+
+    Specify the number of days for which the last viewed timestamps data should be retained in local storage.
+
+    -   Type: integer
+    -   Default value: 30
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.allow.new.cert\_follow\_on\_task**
 
     Allow Desired State audit to create a new follow-on task for the same failure at each audit run. Applies only to audits that aren't scripted.
@@ -583,8 +638,6 @@ Some properties are available on a system properties form, but some lesser-used 
 -   **glide.amb.session.logout.overlay.style**
 
     Specifies a cascading style sheet \(css\) that defines an overlay. The overlay masks all onscreen data on timeout, and the login screen appears on top of the overlay.
-
-    \[Omitted image "screen-w-overlay.png"\] Alt text: Overlay
 
     Limited to core ServiceNow AI Platform functions, not applications.
 
@@ -1058,7 +1111,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: System Property \[sys\_properties\] table
 -   **glide.db.forced.chunk.threshold**
 
-    Sets the threshold above which to forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. Use this property to set a force chunk threshold when using the [GlideRecord – DeleteMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) and [GlideRecord – UpdateMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) methods.
+    Sets the threshold above which to forces chunk record deletions and updates. Chunking helps to prevent non-primary key deletions on huge tables from causing replication problems. Use this property to set a force chunk threshold when using the [GlideRecord – UpdateMultiple](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) methods.
 
     -   Type: integer
     -   Default value: 100000000 \(100 million\)
@@ -1088,7 +1141,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.loguser**
 
-    Display \(**true**\) or suppress display \(**false**\) of database errors \(such as `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name') to user.)` to logged-in user.
+    Display \(**true**\) or suppress display \(**false**\) of database errors such as `Unique Key violation detected by database (Duplicate entry 'ABC' for key 'name').` to logged-in user.
 
     -   Type: true \| false
     -   Default value: none
@@ -1098,7 +1151,7 @@ Some properties are available on a system properties form, but some lesser-used 
     Sets the maximum number of groups that a grouped report or list renders. Larger values may affect system performance.
 
     -   Type: integer
-    -   Default value: 100
+    -   Default value: 20
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.db.max\_view\_records**
 
@@ -1575,7 +1628,7 @@ Some properties are available on a system properties form, but some lesser-used 
     Determines whether journal field values in history sets are retrieved from the journal table \(**true**\) or the audit table \(**false**\). If auditing is disabled for a GlideRecord by setting `setWorkflow(false)`, journal entries will be missing from history sets unless set to **true**.
 
     -   Type: true \| false
-    -   Default value: false
+    -   Default value: true
     -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.home.page**
 
@@ -1600,7 +1653,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
     **Important:**
 
-    The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality.
+    The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality.
 
     Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
 
@@ -2094,6 +2147,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.log.off\_glide\_ingestion.enabled**
+
+    Enables logging MCP server activities in the System Logs. The logs don't include activity that occurs before you enable the system property. For more information, see .
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.login.no\_blank\_password**
 
     Prevents \(**true**\) or allows \(**false**\) logins from users with blank passwords. Often, importing lists of users creates many users with blank passwords. By default, this property is set to **true** on production instances.
@@ -2270,7 +2330,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.par.export.ppt.max\_visualizations\_allowed**
 
-    For the Now Assist Platform skill "dashboard and visualization export," this property sets the maximum number of visualizations, and thus slides, that you can export from a Platform Analytics dashboard to Microsoft PowerPoint.
+    For the ServiceNow Otto Data and Analytics skill "dashboard and visualization export," this property sets the maximum number of visualizations, and thus slides, that you can export from a Platform Analytics dashboard to Microsoft PowerPoint.
 
     -   Type: integer
     -   Default value: 150
@@ -2450,9 +2510,7 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Location: **System Properties** &gt; **System**
 -   **glide.product.name**
 
-    Specifies text to use in place of Service-now.com in the browser top title bar \(and in browser tabs\). This text is duplicated in the banner to the right of the logo unless you add display: none; to the end of the value field within the glide.product.name.style property.
-
-    \[Omitted image "GlideProductName1.png"\] Alt text: Glide Product Name
+    Specifies text to use in place of Service-now.com in the browser top title bar \(and in browser tabs\). This text is duplicated in the banner to the right of the logo unless you add `display: none`; to the end of the value field within the glide.product.name.style property.
 
     -   Type: string
     -   Default value: ServiceNow
@@ -2582,16 +2640,16 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.rest.sampling.enabled**
-
-    Enables request sampling from scripted REST API resources. REquest samples can be used to automatically generate definitions for request headers, query parameters, and schemas. General guidance to help limit performance problems is to only enable this property in non-production instances.
-
-    -   Type: true \| false
-    -   Default value: false
-    -   Location: System Property \[sys\_properties\] table
 -   **glide.rest.replace\_request\_host\_with\_property**
 
     Ensures that generated links in an API payload, such as links to more pages and reference fields, are based off of the instance address not the request host address.
+
+    -   Type: true \| false
+    -   Default value: true
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.rest.serialize.disable\_response\_stream\_buffering**
+
+    Enables streaming multipart responses immediately rather than buffering responses until complete. This property applies to only REST APIs that support multipart requests, such as the Batch API, and instances configured with Application Delivery Controller, version 2 \(ADCv2\).
 
     -   Type: true \| false
     -   Default value: true
@@ -2638,12 +2696,64 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.script.dot\_walk.enforce\_cross\_scope\_access\_all\_tables**
+
+    Used to enforce dot-walk cross-scope access checks on tables where the associated dictionary attribute **enforce\_dot\_walk\_cross\_scope\_access** is not set.
+
+    **Important:** If **glide.script.dot\_walk.log\_and\_allow\_violations** is set to **true**, the value of this property is ignored.
+
+    See [KB2793170: Dot-Walk Scoping Security Enhancement](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) for more information.
+
+    -   Type: boolean
+    -   Default value: true for new and zBooted Instances on Australia; not present for instances upgraded to Australia
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+
+        **Note:** To help prevent insecure configurations, this property cannot be manually added and set to **false**. For assistance, contact customer support.
+
+-   **glide.script.dot\_walk.log\_and\_allow\_violations**
+
+    Allows dot-walk cross-scope access to unauthorized tables and logs the violation.
+
+    When set to **true**:
+
+    -   JavaScript accessing a caller restricted table without the proper Cross-Scope Privilege \(CSP\) or Restricted Caller Access \(RCA\) records via dot-walk will be allowed to proceed
+    -   A log message will be written to the application node log file
+    -   The message may be displayed to the end user if the session is interactive
+    When set to **false**, system behavior is determined by the **glide.script.dot\_walk.enforce\_cross\_scope\_access\_all\_tables** property and the presence and value of the table attribute **enforce\_dot\_walk\_cross\_scope\_access** on an individual table.
+
+    See [KB2793170: Dot-Walk Scoping Security Enhancement](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) for more information.
+
+    -   Type: boolean
+    -   Default value: false
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.script.enforce\_scope\_checks\_on\_get\_ref\_record**
+
+    Used to enhance cross-scope access controls for the**getRefRecord\(\)** JavaScript API method to ensure authorization rules are followed consistently when retrieving information from other another application scope via the JavaScript method **getRefRecord\(\)**.
+
+    For more information, see [KB3142985: Cross-Scope Access Security Enhancement \(Glide Element API: getRefRecord\(\)\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3142985)
+
+    -   Type: Boolean \(true \| false\)
+    -   Default value: True for new instances, starting with the Brazil release. False for upgraded instances \(meaning customers must “opt-in”\).
+    -   Location: To help prevent insecure configurations, this property cannot be manually added and with the value set to false. For assistance, contact customer support.
 -   **glide.script.log\_level**
 
     Controls the behavior of gs.log. Set this property to **none** to disable Glide script logging, or to **print** to save log data to the file system instead of the database. Use the default value **all** to save all Glide script logs to the database.
 
     -   Type: string
     -   Default value: all
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.script.dot\_walk.log\_stack\_trace\_when\_blocked**
+
+    When conditions prevent access to a protected table, a brief info message is displayed in the following format: "An attempt to dot-walk to table \{0\} present in \{1\} scope from \{2\} scope..." where appropriate values for \{0\}, \{1\}, and \{2\} are inserted.
+
+    When this property is set to **true**, a full stack trace is included with the log message.
+
+    When this property is set to **false**, no stack trace is included with the log message.
+
+    See [KB2793170: Dot-Walk Scoping Security Enhancement](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2793170) for more information.
+
+    -   Type: boolean
+    -   Default value: true
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.script\_processor.admin**
 
@@ -2652,6 +2762,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: string
     -   Default value: admin
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.script.use.sandbox**
+
+    Enables the "script sandbox" feature. The script sandbox is mainly used when executing client-generated scripts such as query conditions and GlideAjax expressions. For more information, see [Enable script sandbox \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-client-generated-scripts-sandbox.md).
+
+    -   Type: true \| false
+    -   Default: true
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.script.vtable.log.debug**
 
     Enables use of debug logs for remote table script definitions. Set this property to **true**. Prolonged use of this property can affect performance, so it is best to set its value to **false** when you finish a debugging session.
@@ -2667,8 +2784,10 @@ Some properties are available on a system properties form, but some lesser-used 
 
     Controls whether a secondary sort using sys\_id as a sort key is automatically applied when sorting requested database records on a list. This property is useful when sorting records that have multiple records found for a single value of the primary sort key. Use this property to ensure that the **Next / Previous** buttons on forms display the proper record. If **false**, there is no secondary sort, therefore records with the same primary sort value are returned as they are found in the database and may be inconsistent.
 
-    **Note:** Setting this property to **true** may impact the load and sort processes. It is not supported by the Elasticsearch document store plugin.
+    **Note:**
 
+    -   Setting this property to **true** may impact the load and sort processes.
+    -   Secondary sorting using the sys\_id is not supported by Document Tables and the ElasticSearch integration in Health Log Analytics. Primary sorting is used instead.
     -   Type: true \| false
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
@@ -2716,19 +2835,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.security.mime\_type.aliasset**
-
-    Creates customized mime type alias sets. For example, `image/png=image/x-png`.
-
-    -   Type: string
-    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
--   **glide.security.granular.create**
-
-    Requires users to have write access on all individual fields on a table before they can create a record in that table.
-
-    -   Type: true \| false
-    -   Default value: true
-    -   Location: System Property \[sys\_properties\] table
 -   **glide.security.file.mime\_type.validation**
 
     Enables \(**true**\) or disables \(**false**\) MIME type validation for file attachments.
@@ -2737,6 +2843,26 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
     -   Instance Security Hardening Settings: [Restrict uploaded MIME types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-upload-mime-type-restriction.md)
+-   **glide.security.granular.create**
+
+    Requires users to have write access on all individual fields on a table before they can create a record in that table.
+
+    -   Type: true \| false
+    -   Default value: true
+    -   Location: System Property \[sys\_properties\] table
+-   **glide.security.manager**
+
+    Enables more advanced contextual security manager compared with role-based simple security manager. Contextual security manager is aware of system table hierarchy and record context. It better protects data by controlling CRUD via ACL rules on table and field levels. For more information, see [Enable the hardened java security manager \[New in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-enable-the-hardened-java-security-manager.md)
+
+    -   Type: string
+    -   Default: com.glide.sys.security.ContextualSecurityManager
+    -   Location: System Property \[sys\_properties\] table
+-   **glide.security.mime\_type.aliasset**
+
+    Creates customized mime type alias sets. For example, `image/png=image/x-png`.
+
+    -   Type: string
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.security.strict\_elevate\_privilege**
 
     Forces all elevated roles to be treated equally for users with the administrator role. When enabled, administrators must explicitly, manually elevate themselves to any roles that are marked as elevated.
@@ -2746,6 +2872,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: **true** for new instances, **false** for upgraded instances
     -   Location: For new instances, this property is available on the System Property \[sys\_properties\] table. For upgrades, [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.security.use\_csrf\_token**
+
+    Enables usage or a secure token to identify and validate incoming requests. This token is used to prevent Cross Site Request Forgery \(CSRF\) attacks. For more information, see [Enable Anti-CSRF token \[New in Security Center 1.3, updated in 1.5, and removed in 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-anti-csrf-token.md).
+
+    -   Type: true \| false
+    -   Default: true
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.service\_portal.search\_as\_you\_type\_behavior**
 
     Select search suggestions \(Suggestions\) or type-ahead functionality \(Typeahead\). For more information about search suggestions, see [Enable search suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/enable-search-suggestions.md).
@@ -2881,6 +3014,20 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.stax.allow\_entity\_resolution**
+
+    Determines whether XML entities can be expanded during parsing by the streaming parser. For more information, see [Disable Entity Expansion within the XMLDocument2 Streaming Parser \[Updated in Security Center 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-disable-entity-expansion.md).
+
+    -   Type: true \| false
+    -   Default: false
+    -   Location: System Property \[sys\_properties\] table
+-   **glide.stax.whitelist\_enabled**
+
+    Enables definition of allowed external entities when entity expansion is needed for customizations. If **glide.stax.allow\_entity\_resolution** is set to true, set **glide.stax.whitelist\_enabled** to true and define a listing of comma-delimited FQDN in the **glide.xml.entity.whitelist** property. For more information, see [Require XMLdoc2 entity validation with allowlistDisable entity expansion \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-xmldoc2-entity-validation-with-entity-expansion.md).
+
+    -   Type: true \| false
+    -   Default: true
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.sys.activity\_using\_audit\_direct**
 
     \[Not Supported\] Controls whether the record's history is generated using the Audit table \(**true**\) or not \(**false**\).
@@ -2939,6 +3086,16 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: false
     -   Location: System Property \[sys\_properties\] table
+-   **glide.sys.fencing.restricted\_caller\_access.invalidation\_mode**
+
+    Controls how the system invalidates Restricted Caller Access records when a source code record, such as a script include, in a cross-scope access table is committed in an update set. For more information about RCA privileges, see [Restricted caller access privilege settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/restricted-caller-access-privilege.md).
+
+    -   Type: string
+    -   Default value: SCRIPT\_ENGINE
+    -   Valid values:
+        -   DB\_LISTENER: Enables a database listener that monitors update set commits on source code tables and invalidates RCA records at the time of the commits so that cross-scope access is based on the latest source code updates.
+        -   SCRIPT\_ENGINE: If an update set contains a script with changes, the script engine doesn't invalidate associated RCA records.
+    -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 -   **glide.sys.time\_format**
 
     System time format for all users unless overridden in the user's record.
@@ -3197,6 +3354,13 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: 8
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.ui.choice.display\_none**
+
+    Controls the label displayed for the empty option in choice fields. Set to **true** to display **None**. When set to **false**, displays the default **--None--** label.
+
+    -   Type: true \| false
+    -   Default value: false
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.clickthrough.popup**
 
     -   For reference fields, enables \(**true**\) or disables \(**false**\) display of the pop-up diamond icon for reference fields, and opening a new window when clicking the icon.
@@ -3347,8 +3511,6 @@ Some properties are available on a system properties form, but some lesser-used 
 
     Enables \(**true**\) or disables \(**false**\) displaying the preview icon for lists on the homepage.
 
-    \[Omitted image "HomepagePreviewIcon.png"\] Alt text: Preview icon
-
     -   Type: true \| false
     -   Default value: true
     -   Location: System Property \[sys\_properties\] table
@@ -3434,6 +3596,20 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: string
     -   Default value: opened\_by, work\_notes, comments, severity, estd\_distruption\_time, actual\_disruption\_time
     -   Location: System Property \[sys\_properties\] table
+-   **glide.ui.jelly.js\_interpolation.protect**
+
+    Enables or disables interpolation protection. If enabled, potentially dangerous Jelly expressions are wrapped with a filter that escapes the results or generates a SecurityException for possible security issues. For more information, see [Enable Jelly JS Interpolation Protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-enable-jelly-js-interpolation-protection.md).
+
+    -   Type: true \| false
+    -   Default value: true
+    -   Location: **System Properties** &gt; **All Properties**
+-   **glide.ui.jelly.js\_interpolation.protect\_nested\_expressions**
+
+    Enables or disables interpolation protection specifically for nested Jelly expressions. For more information, see [Enable Jelly JS interpolation protection for nested expressions \[Updated in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sc-enable-jelly-js-interpolation-protection-for-nested-expressions.md).
+
+    -   Type: true \| false
+    -   Default: true
+    -   Location: System Properties \[sys\_properties\] table
 -   **glide.ui.journal.use\_html**
 
     Specifies whether TinyMCE is available for journal fields \(**true**\) or not \(**false**\).
@@ -3511,6 +3687,20 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: integer
     -   Default value: none
     -   Location: [Add the property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
+-   **glide.ui.personalize\_form**
+
+    Enables the Personalize Form menu.
+
+    -   Type: true \| false
+    -   Default value: true
+    -   Location: System Property \[sys\_properties\] table
+-   **glide.ui.personalize\_form\_role**
+
+    Determines which roles can access the Personalize Form menu.
+
+    -   Type: string
+    -   Default value: none
+    -   Location: System Property \[sys\_properties\] table
 -   **glide.ui.polaris.experience**
 
     Enables the Next Experience user interface, landing page, and Unified Navigation. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-landing-page.md).
@@ -4238,10 +4428,21 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Default value: true
 -   **sn\_acc\_vis\_content.persist\_sam\_usage\_metrics**
 
-    Enable to leverage the SAM Basic metering functionality. If this flag is set to True, after fetching details about all the software installed, including the last accessed time via osquery, the information goes into the Software Usage \[samp\_sw\_usage\] table. The SAM plugin also needs to be enabled to persist the information.
+    Controls how SAM usage metrics are stored based on reclamation rules. If **true**, store usage according to defined reclamation rules and store usage for all licensable software for which no reclamation rule is defined. If **false**, store SAM usage only according to defined reclamation rules.
 
     -   Type: Boolean
     -   Default value: true
+-   **sn\_analytics\_list.pagination\_max\_value**
+
+    Maximum number of records per page in a List visualization in Platform Analytics experience.
+
+    **Danger**
+
+    Raising this property above 100 might lead to memory issues.
+
+    -   Type: integer
+    -   Default value: 100
+    -   Location: System Property \[sys\_properties\] table
 -   **sn\_app\_insights.minutes\_between\_triggers**
 
     How many minutes to wait before sending out a notification for an identical metric trigger.
@@ -4314,13 +4515,6 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: Integer
     -   Default value: 30
     -   Location: System Property \[sys\_properties\] table
--   **sn\_devstudio.servicenow\_studio\_banner.enable**
-
-    Shows the banner for navigating to ServiceNow Studio from App Engine Studio or legacy Studio. Change this property to false to hide the banner.
-
-    -   Type: true \| false
-    -   Default value: true
-    -   Location: System Properties \[sys\_properties\] table
 -   **sn\_disco\_cd.scheduled\_job\_time\_out\_in\_mins**
 
     This property sets the value for the maximum run time of the scheduled job for Cloud Resources in minutes.
@@ -4374,13 +4568,14 @@ Some properties are available on a system properties form, but some lesser-used 
     -   Type: true \| false
     -   Default value: true
     -   Location: System Property \[sys\_properties\] table
--   **sn\_nowassist\_va.synthesized\_autostart\_items**
+-   **sn\_query\_gen.default\_source\_type**
 
-    When synthesized response only returns a singular action, configure whether to automatically launch the action. By default, only Virtual Agent topics automatically launch. You can configure this for whenever synthesized response returns a single conversational catalog item, a single Virtual Agent topic along with Knowledge Base information, or a single conversational catalog item along with Knowledge Base information.
+    The data source type that AI Data Explorer uses in responses—table or indicator—when there are no query keywords or explicit context to determine this. Does not apply in agentic mode.
 
-    -   Type: string
-    -   Default value: topic
+    -   Type: Choice \(table \| indicator\)
+    -   Default value: table
     -   Location: System Property \[sys\_properties\] table
+    -   Learn more: 
 -   **sn\_query\_gen.hidden\_insights.groupby.min\_fields**
 
     The target number of group-by fields for extended analysis in AI Data Explorer. These group-by fields are taken from the default list view of the relevant table. When this list view contains fewer eligible fields than the property value, the system looks for more eligible fields on the table to try to reach this count.

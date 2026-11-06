@@ -7,14 +7,20 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Monitoring topics in the Hermes Kafka cluster
 
 Monitor message processing and view topics in the Hermes Kafka cluster that belong to you using the Hermes Messaging Service topic inspector.
+
+## Topics partitions
+
+Events are stored in one or more partitions within a topic. Dividing a topic into partitions helps distribute the processing load across multiple brokers in the Hermes Kafka cluster. Each broker can handle messages from different partitions of the same topic, ensuring that no single broker is responsible for processing all the messages for a single topic. This distribution improves scalability and fault tolerance.
+
+Events in a partition are immutable. One event can't overwrite another event in the same partition. If the same event is sent to a partition more than once, it is appended to the list of events in the partition.
 
 ## Tracking messages in partitions
 
@@ -35,7 +41,7 @@ You can track the progress of processing messages for each consumer by viewing c
 
 You can detect problems with consuming messages using the topic inspector. For example, if a message that you produced isn't consumed from the Hermes Kafka cluster, you can validate the payload and message key by inspecting the topic. You can also download the full payload and save it as a file on your local machine.
 
-You can view messages as binary data in base-64 encoding instead of UTF8 strings by adding a system property. See [Hermes Messaging Service properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md).
+You can view messages as binary data in base-64 encoding instead of UTF8 strings by adding a system property. See [Hermes Messaging Service system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/hermes-messaging-service-properties.md).
 
 -   **[View a message in a Hermes topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/multi-instance-framework-hermes/view-messages-hermes-topic.md)**  
 View the payload of a message in a Hermes topic using the Hermes Messaging Service topic inspector.

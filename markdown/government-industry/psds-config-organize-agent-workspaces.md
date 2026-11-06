@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-organize-agent-workspaces.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure Agent Workspaces in Public Sector Digital Services
@@ -16,7 +16,7 @@ Configure agent workspaces and boost efficiency by optimizing interfaces, config
 
 <table id="table_mhz_4gb_l1c" class="nav-card"><tbody><tr><td>
 
-[Playbooks\[Omitted image "bus-service-catalog.svg"\] Alt text:Configure playbooks to help guide government agents through the lifecycle of a public service case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-playbooks.md)
+[Playbooks\[Omitted image "bus-service-catalog.svg"\] Alt text:Configure playbooks to help guide government agents through the lifecycle of a public service case.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-playbooks-solutions.md)
 
 </td><td>
 
@@ -33,9 +33,9 @@ Configure agent workspaces and boost efficiency by optimizing interfaces, config
 </td></tr></tbody>
 </table>\[Omitted image "psds-workflow\_agent-workspace.png"\] Alt text: overview showing the different topics in agent workspaces and how they relate to each other
 
--   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-playbooks.md)**
+-   **[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-playbooks-solutions.md)**
 
-    Install one or more playbook applications with Public Sector Digital Services. These tools provide an end-to-end workflow for handling public service requests submitted by consitutuents, enabling agents to resolve cases quickly and efficiently.
+    Install one or more playbook applications with Public Sector Digital Services. These tools provide an end-to-end workflow for handling public service requests submitted by constituents, enabling agents to resolve cases quickly and efficiently.
 
 -   **[CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)**
 

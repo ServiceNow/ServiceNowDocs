@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Configuring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request Software Asset Management
@@ -34,7 +34,7 @@ For the list of Software Asset Management Professional plugins, see [Components 
 
 Only ServiceNow personnel can activate the Software Asset Management Professional \(com.snc.samp\) plugin and other related plugins. The plugins are not visible in the plugin list, even after activation.
 
-**Warning:** After installing the Software Asset Management application for the first time, or upgrading from the Software Asset Management Foundation plugin, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process. See [Revert Software Asset Management customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/revert-sam-customizations.md)
+**Warning:** After installing the Software Asset Management application for the first time, or upgrading from the Basic Software Asset Management, you need to revert customizations for all features work. The Revert Customizations module in the Software Asset Management application can revert customized files related to Software Asset Management back to the base configurations that were skipped during the installation or upgrade process. See [Revert Software Asset Management customizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/revert-sam-customizations.md)
 
 ## Procedure
 

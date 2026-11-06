@@ -1,36 +1,49 @@
 ---
 title: Modeless dialogs
-description: Modeless dialogs are windows that overlay the main window content. Modeless dialogs enable for creating and posting comments and work notes to the activity stream, as well as composing and sending emails.
+description: Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-11"
-reading_time_minutes: 12
-breadcrumb: [Front-line case page, CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Modeless dialogs
 
-Modeless dialogs are windows that overlay the main window content. Modeless dialogs enable for creating and posting comments and work notes to the activity stream, as well as composing and sending emails.
+Modeless dialogs are windows that overlay the main window content in CRM Workspace. Customer service agents can use modeless dialogs to create and post comments and work notes to the activity stream and to compose and send emails.
 
-A modeless dialog is a window that appears in a workspace as an overlay on top of the main window content. This overlay enables users to interact with the window content and the overlay content at the same time. Agents can use modeless dialogs to do the following:
+A modeless dialog is a window that appears in a workspace as an overlay on top of the main window content. This overlay enables agents to interact with the window content and the overlay content at the same time. Agents can use modeless dialogs to do the following:
 
 -   Create comments and work notes to post to the activity stream.
 -   Create and send emails and reply to or forward emails.
 
 After opening a modeless dialog, agents can move it around the screen and put it where they need it. This feature enables agents to reference information from the main window while drafting text in the overlay window.
 
-The Front-line case page includes the following modeless dialogs:
+## Thin compose modeless dialogs
 
--   Compose Activity - for creating and posting comments and work notes
--   Compose Email - for creating and sending emails
+The thin compose modeless dialog feature incorporates modeless dialogs into the activity stream. It enables agents to initiate a comment, work note, or email from the activity stream in a modeless dialog. Thin compose modeless dialogs:
 
-## Create comments and work notes
+-   Auto expand to accommodate the text.
+-   Can be manually resized.
+-   Can be minimized after they are opened.
+-   Have the rich text editor enabled even when the **glide.ui.journal.use\_html** system property is set to false.
 
-Agents can use the Compose Activity modeless dialog to create comments and work notes and post them to the activity stream. See the following table for more information about creating these activities.
+Thin compose modeless dialogs are available on the following record pages:
 
-**Note:** This feature is available with the Front-line case page in CSM Configurable Workspace.
+-   [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md)
+-   [CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-default-record-page.md)
+-   [CSM Interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-interaction-record-page.md)
+-   [CSM centered chat interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-centered-chat-interaction-page.md)
+-   [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-native-voice-record-page.md)
+-   [Email interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-email-interaction-record-page.md)
+
+**Note:** The thin compose modeless dialog feature has the Rich Text Editor enabled, which can add HTML tags along with the text to the **Additional comments** and **Work notes** fields on the case record. To remove these tags, see [Updating the glide.ui.journal.use\_html property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.md).
+
+## Creating comments and work notes
+
+Use modeless dialogs to create comments and work notes and post them to the activity stream.
 
 <table id="table_ikh_tsd_w1c"><thead><tr><th>
 
@@ -46,15 +59,10 @@ Create a comment or work note
 
 </td><td>
 
-To create a comment or a work note:1.  Select one of the following actions from the action bar to open a Compose window:
-    -   **Compose** &gt; **Compose Comments**
-    -   **Compose** &gt; **Compose Work notes \(Private\)**
+To create a comment or a work note:1.  Select one of the following tabs at the top of the activity stream:
+    -   **Comments**
+    -   **Work notes**
 2.  Add the text to the Compose window.
-
-When creating comments and work notes:
-
--   Agents can create one draft comment and one draft work note at a time before posting the text to the activity stream.
--   Agents can open one Compose window at a time. If an agent opens a second window, the previously opened window is minimized.
 
 </td></tr><tr><td>
 
@@ -62,34 +70,45 @@ Post a comment or work note to the activity stream
 
 </td><td>
 
-To post a comment or work note, select one of the following actions from the Compose window:-   **Post Comment**
--   **Post Work Notes \(Private\)**
+To post a comment or work note, select one of the following actions from the Compose window:-   **Post Comments**
+-   **Post Work notes**
 
-The Compose window automatically closes after the text is posted to the activity stream.
-
-Saving the case record also posts the comment or work note to the activity stream and closes the Compose window.
+The system posts the comment or work note to the activity stream. Saving the case record also posts the comment or work note to the activity stream.
 
 </td></tr><tr><td>
 
-Minimize a Compose window
+Open a comment or work note in a modeless dialog
 
 </td><td>
 
-Composed windows can be minimized and moved to the In-process Actions menu in the action bar. Minimized comments and work notes appear in a list in the In-process Actions menu. Compose windows can be minimized in the following ways.
+Select the pop out \(\[Omitted image "modeless-dialog-pop-out-icon.png"\] Alt text: modeless dialog pop out icon which is a smaller solid square within a larger square\) icon to open a comment or work note in a modeless dialog.You can open a modeless dialog before or after you start entering text in the Compose window.
 
--   Select the Minimize button in the Compose window header.
--   One Compose window can be open at a time. If an agent opens another Compose window, the first window is minimized.
+**Note:** You can have one modeless dialog of each type \(comments, work notes, and email\) open at a time.
 
 </td></tr><tr><td>
 
-Open a minimized Compose window
+Return a comment or work note to the Compose window
 
 </td><td>
 
-Select the In-progress Actions menu in the action bar and then select an item from the list to open the window.Items in the In-process Actions menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
+After opening a comment or work note in a modeless dialog, you can return the text to the Compose window in the activity stream in the following ways:-   Select the Continue editing in compose \(\[Omitted image "modeless-dialog-continue-editing-icon.png"\] Alt text: square icon with down arrow\) button at the top of the modeless dialog.
+-   Select the **Pop in** link in the Compose window in the activity stream.
 
--   For email, the title is the email subject.
--   For comments and work notes, the title is the first line of text.
+</td></tr><tr><td>
+
+Minimize a modeless dialog
+
+</td><td>
+
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-bottom-utility-bar.md).
+
+</td></tr><tr><td>
+
+Open a minimized modeless dialog
+
+</td><td>
+
+Select a minimized modeless dialog from the dock to restore it. Items in the dock appear with the action type \(email, comment, or work note\) and an abbreviated title.
 
 </td></tr><tr><td>
 
@@ -97,25 +116,21 @@ Discard a comment or work note
 
 </td><td>
 
-To discard a comment or work note:1.  Select the Close button in the Compose window header.
-2.  Confirm the Discard action by selecting **Discard** in the confirmation pop-up window.
-
-The system closes the Compose window and discards the comment or work note.
+To discard a comment or work note:1.  Select the Close dialog \(\[Omitted image "modeless-dialog-close-icon.png"\] Alt text: close icon is a white X on a black background\) button in the modeless dialog header.
+2.  Confirm the Close Dialog action by selecting **Continue** in the confirmation pop-up window.
 
 </td></tr></tbody>
-</table>The following guidelines apply to Compose windows:
+</table>The following guidelines apply to Compose windows for comments and work notes:
 
--   Draft comments and work notes are local to the browser. If the browser page is reloaded, they are cleared.
+-   Draft comments and work notes are local to the browser. If the browser page is reloaded, the draft text is cleared.
 -   Comments and work notes stay synchronized on the form and in the modeless dialogs.
 -   The Compose window can be resized.
 
-## Create emails
+## Creating emails
 
-Agents can use the Compose Email modeless dialog to create and save email drafts and to send emails. This feature increases the speed of drafting emails while referencing record information.
+Use modeless dialogs to create and save email drafts and to send emails.
 
-Emails that are sent from a Compose Email window are posted to the activity stream. Agents can reply to and forward emails from the activity stream. See the following table for more information about creating and sending emails.
-
-**Note:** This feature is available with the Front-line case page in CSM Configurable Workspace.
+Emails that are sent from a modeless dialog are posted to the activity stream. Agents can reply to and forward emails from the activity stream.
 
 <table id="table_bmb_hzd_w1c"><thead><tr><th>
 
@@ -131,8 +146,8 @@ Create and send an email
 
 </td><td>
 
-To create and send an email:1.  Select **Compose** &gt; **Compose Email** from the action bar to open a Compose Email window.
-2.  Fill out the fields:
+To create and send an email:1.  Select the **Email** tab at the top of the activity stream.
+2.  Fill out the fields on the email form:
     1.  To, Cc, Bcc
     2.  Subject
     3.  Email body
@@ -140,8 +155,43 @@ To create and send an email:1.  Select **Compose** &gt; **Compose Email** from t
 
 When creating emails and sending emails:
 
--   The Compose Email window automatically closes after the email is sent.
+-   The Compose window automatically closes after the email is sent.
 -   The email is posted to the activity stream.
+
+</td></tr><tr><td>
+
+Open an email in a modeless dialog
+
+</td><td>
+
+Select the pop out \(\[Omitted image "modeless-dialog-pop-out-icon.png"\] Alt text: modeless dialog pop out icon which is a smaller solid square within a larger square\) icon to open an email in a modeless dialog.You can open a modeless dialog either before or after you start entering text in the Compose window.
+
+**Note:** You can have one modeless dialog of each type \(comments, work notes, and email\) open at a time.
+
+</td></tr><tr><td>
+
+Return an email to the Compose window
+
+</td><td>
+
+After opening an email in a modeless dialog, you can return the email to the Compose window in the activity stream in the following ways:-   Select the Continue editing in compose \(\[Omitted image "modeless-dialog-continue-editing-icon.png"\] Alt text: square icon with down arrow\) button at the top of the modeless dialog.
+-   Select the **Pop in** link in the Compose window in the activity stream.
+
+</td></tr><tr><td>
+
+Minimize a modeless dialog
+
+</td><td>
+
+To minimize a modeless dialog, select the Minimize dialog \(\[Omitted image "modeless-dialog-minimize-icon.png"\] Alt text: minimize icon is a flat white line at the bottom of a black box\) button in the window header. Minimized modeless dialogs appear in the dock at the bottom of the workspace. For more information, see [Workspace dock](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-bottom-utility-bar.md).
+
+</td></tr><tr><td>
+
+Open a minimized modeless dialog
+
+</td><td>
+
+Select a minimized modeless dialog from the dock to restore it. Items in the dock appear with the action type \(email, comment, or work note\) and an abbreviated title.
 
 </td></tr><tr><td>
 
@@ -157,7 +207,7 @@ To reply to or forward an email:1.  Expand an email in the activity stream.
 3.  Add the desired text.
 4.  Select **Send email**.
 
-The Compose Email window automatically closes after the email is posted to the activity stream.
+The Compose window automatically closes after the email is posted to the activity stream.
 
 </td></tr><tr><td>
 
@@ -165,12 +215,12 @@ Add a link to a knowledge article
 
 </td><td>
 
-To add a link to a knowledge article:1.  Select the Agent Assist tab in the contextual side panel.
+To add a link to a knowledge article:1.  Select the Recommended Actions tab in the contextual side panel.
 2.  View the list of knowledge articles or search for an article.
 3.  Select the More Actions menu on the knowledge article card.
-4.  Select **Add link in email**.
+4.  Select **Attach and add link in email**.
 
-The system adds the title of the article with a link in the body of the email.
+The system adds a link to the knowledge article in the body of the email.
 
 </td></tr><tr><td>
 
@@ -180,7 +230,7 @@ Apply a template to an email
 
 To apply a template to an email:
 
-1.  Select the Apply templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Compose email apply templates icon\) in the Compose email modeless dialog footer to display a list of available templates.
+1.  Select the Apply templates icon \(\[Omitted image "csm-email-modeless-dialog-apply-template.png"\] Alt text: Apply templates icon\) in the Compose email modeless dialog footer to display a list of available templates.
 
 The Template preview modal displays the available email templates. It does not display quick messages or response templates.
 
@@ -192,46 +242,11 @@ The system adds the contents of the template to the body of the email.
 
 </td></tr><tr><td>
 
-Minimize a Compose Email window
-
-</td><td>
-
-Minimized emails appear in a list in the In-process Actions menu in the action bar.Select the Minimize icon \(\[Omitted image "csm-email-modeless-dialog-minimize.png"\] Alt text: Compose email minimize icon\) in the Compose Email window header to move the email draft to the In-progress Actions menu.
-
-</td></tr><tr><td>
-
-Open a minimized Compose Email window
-
-</td><td>
-
-Select an item from the In-progress Actions menu to open the Compose Email window.Items in the In-process Actions menu appear in a list with the action type \(email, comment, or work note\) and an abbreviated title.
-
--   For email, the title is the email subject.
--   For comments and work notes, the title is the first line of text.
-
-</td></tr><tr><td>
-
-Maximize a Compose Email window
-
-</td><td>
-
-Select the Maximize icon \(\[Omitted image "csm-email-modeless-dialog-maximize.png"\] Alt text: Compose email maximize icon\) in the Compose Email window header to expand the Compose Email window to the full screen.Select the Maximize icon again to exit the Maximize mode.
-
-</td></tr><tr><td>
-
 Open a draft email in a subtab
 
 </td><td>
 
-Select the Pop out icon \(\[Omitted image "csm-email-modeless-dialog-pop-out.png"\] Alt text: Compose email pop out icon\) in the Compose Email window header to open the draft email in a subtab.The Compose Email window closes when the email opens in the subtab.
-
-</td></tr><tr><td>
-
-Close a Compose Email window
-
-</td><td>
-
-Select the Close icon \(\[Omitted image "csm-email-modeless-dialog-close.png"\] Alt text: Compose email close icon\) in the Compose Email window header.The system saves the text as a draft email and closes the Compose Email window.
+Select the Pop out icon \(\[Omitted image "modeless-dialog-pop-out-icon.png"\] Alt text: modeless dialog pop out icon which is a smaller solid square within a larger square\) in the Compose Email window header to open the draft email in a subtab.The Compose Email window closes when the email opens in the subtab.
 
 </td></tr><tr><td>
 
@@ -295,11 +310,10 @@ Delete an email draft from the Manage drafts pop-up window
 5.  Confirm the action by selecting **Delete** again.
 
 </td></tr></tbody>
-</table>The following guidelines apply to the Compose Email window:
+</table>The following guidelines apply to Compose windows for emails:
 
 -   An agent can create multiple email drafts.
--   An agent can have one Compose Email window open at a time. The system displays a message if an agent tries to open another Compose Email window while the first Compose Email window is still open.
--   An agent must manually close a Compose Email window before opening a new window.
+-   An agent can have one Compose window open at a time.
 -   The Compose Email window can be resized.
 
 ## Collapsing and expanding the email header
@@ -322,6 +336,14 @@ When the email header is expanded, you can edit the information in these fields.
 When you create a new email or forward an email, the header is expanded by default and displays the **To** and **Subject** fields. If you expand the **Cc** and **Bcc** fields, the collapse header icon is displayed.
 
 When you reply to an email, the header is collapsed by default. Expanding the header shows all the fields that contain information.
+
+## Draft indicators
+
+When a draft exists, visual indicators appear on composer tabs to show unsaved content:
+
+-   Email tab: Displays "Email \(Draft\)" text next to the tab name.
+-   Work notes tab: Displays a dot indicator next to the tab name.
+-   Comments tab: If the Comments tab is configured on a page, it also displays a dot indicator next to the tab name when a draft exists.
 
 ## Compose Email modeless dialog footer icons
 
@@ -373,18 +395,7 @@ Attach file \(\[Omitted image "csm-email-modeless-dialog-attach-file.png"\] Alt 
 Select this icon to attach files to an email draft **From computer** or **From record**. After attaching one or more files, you can hide or show the attachments.
 
 </td></tr></tbody>
-</table>## Auto-loading the latest email draft
-
-The Compose Email modeless dialog opens with the last saved email draft. When a user selects **Compose** &gt; **Compose Email**, the Compose Email modeless dialog opens and displays this latest draft. If there are no recent drafts for the current case, the system loads a new draft. This feature is enabled by default.
-
-**Note:** This feature is controlled by component properties in UI Builder. These properties are located in the Configure tab in the Advanced section:
-
--   **Load latest draft**: When enabled, the system loads the latest email draft.
--   **sys ID**: Set this property to -1.
-
-When the property is enabled and a specific sys\_id is passed to the email client, the system can load the email draft in the Email Compose modeless dialog.
-
-## Using form templates to create comments and work notes
+</table>## Using form templates to create comments and work notes
 
 You can create and use form templates that add content to the **Additional comments** and **Work notes** fields on a case record and then post that content to the activity stream.
 
@@ -434,4 +445,34 @@ Selecting **Post Work Notes** adds the content to the **Work notes** field on th
 
 </td></tr></tbody>
 </table>If text already exists in the **Additional comments** or **Work notes** fields, applying a template opens a modeless dialog and adds the template content. Selecting **Undo** removes the template content from the modeless dialog and replaces it with the existing text from the fields on the Case record.
+
+## Viewing attachments in modeless dialogs
+
+Agents can view attachments in modeless dialogs rather than a full-screen view. This feature enables agents to view attachments while referencing the underlying case or interaction pages.
+
+The **Open attachment preview in modeless window** UI Builder property controls the attachment display. This property is available at the workspace level and is set to true by default. When enabled, agents can do the following:
+
+-   Select an attachment to open the file in a modeless dialog.
+
+    When an attachment is already open in a modeless dialog and a second attachment is opened, the second attachment opens in the same modeless dialog.
+
+-   Navigate through multiple attachments using a carousal.
+-   Download and delete attachments.
+
+**Note:** Agents can view attachments in modeless dialogs when the attachments are available in the contextual side panel or in the activity stream. Viewing attachments from other locations such as the email composer or forms continues to use the full-page preview.
+
+## Updating the glide.ui.journal.use\_html property
+
+The Rich Text Editor \(RTE\) is enabled for modeless dialogs and the thin compose modeless dialog feature. It is not enabled for the instance unless the **glide.ui.journal.use\_html** system property is set to true.
+
+When you enter text in a comment or work note modeless dialog, the system adds that same text to the **Additional comments** and **Work notes** fields on the case record. HTML tags can appear along with the text in these fields.
+
+To remove the HTML tags, enable the **glide.ui.journal.use\_html** system property:
+
+1.  In the navigation filter, enter **sys\_properties.list** to display a list of the properties stored in the System Properties \[sys\_properties\] table.
+2.  Search for the **glide.ui.journal.use\_html** property in the **Name** column.
+3.  Set the **Value** field to true and select **Update**.
+4.  Return to CRM Workspace and refresh the page.
+
+Setting this property to true enables the Rich Text Editor for the **Additional comments** and **Work notes** fields on the case record and removes the HTML tags.
 

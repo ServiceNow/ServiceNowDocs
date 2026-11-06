@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/input-form-screen-input-actions.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -34,5 +34,5 @@ This button can include any variety of action items: comment, attachment, and na
 
 For input actions script examples, refer to the following [Script code for storing user-selected attachments in the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/input-actions-script-attachments.md) and [Script code for comment type and updates for input actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/input-actions-script-comments.md).
 
-\[Omitted image "icon-ifs-input-action-more.png"\] Alt text: Image showing a pop-up that displays after a user taps the more menu button.
+\[Omitted image "icon-ifs-input-action-more.png"\] Alt text: Two images illustrating how a menu opens from the bottom of the screen after you select the input form action button.
 

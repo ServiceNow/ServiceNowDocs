@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Planning for Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -31,7 +31,7 @@ You can encrypt only the following field types:
 -   String
 -   URL
 
-You cannot encrypt the following field types:
+You can't encrypt the following field types:
 
 -   Choice fields
 -   HTML
@@ -47,7 +47,7 @@ Additional restrictions:
 -   Encrypted fields aren’t available in **Go to** and header filter boxes.
 -   When encrypting fields used as an index, you can use only order-preserving and equality-preserving encryption types. Indexed fields can’t be encrypted using the standard encryption type.
 
-For more information, see [Field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+For more information, see Field types.
 
 ## Filtering and searching restrictions
 
@@ -77,9 +77,13 @@ For more information, see [Field types](https://raw.githubusercontent.com/Servic
     -   **before or on**
 -   **Date and Date/Time pickers**
 
-    For Date fields, use the date picker to specify the date: \[Omitted image "date-picker.png"\] Alt text: Date picker
+    For Date fields, use the date picker to specify the date:
 
-    For Date/Time fields, use the date and time picker to specify the date and time:\[Omitted image "date-time-picker.png"\] Alt text: Date/Time picker
+    \[Omitted image "date-picker.png"\] Alt text: Date picker
+
+    For Date/Time fields, use the date and time picker to specify the date and time:
+
+    \[Omitted image "date-time-picker.png"\] Alt text: Date/Time picker
 
 -   **List condition filters**
 

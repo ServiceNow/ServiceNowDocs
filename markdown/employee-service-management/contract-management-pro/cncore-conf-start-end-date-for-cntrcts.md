@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+keywords: [Auto-populate dates in contract]
+breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Auto-populate the start date and end date for contract requests
@@ -32,6 +33,8 @@ Role required: admin
 
 5.  On the Script Include form, fill in the fields.
 
+    \[Omitted image "cmpro-extension-point.png"\] Alt text: Extension point to add scripts.
+
     For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
 6.  In the **Script** field, add a method `populateDataForInitiateContractModal` to define the fields from which the values will be automatically added in the **Start date** and **End date** fields of a contract request.
@@ -41,14 +44,22 @@ Role required: admin
 7.  Select **Update**.
 
 
+## Result
+
+The **Start date** and **End date** fields in the Initial contract window are automatically updated from the parent record while creating a contract request.
+
+For more information on initiating a contract request, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+
 **Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace with UI Builder components]()
+[Configuring Contract Workspace]()
 
 [Configure signature pause duration when modifying signatories]()
+
+[Enable signatory roles]()
 
 [Activate a system property to generate a certificate of completion]()
 

@@ -1,20 +1,20 @@
 ---
 title: Alert grouping and use cases
-description: Alert grouping methods range from user-defined approaches, like Manual, Rule-based, and Tag-cluster, to advanced, fine-tunable algorithms, including Automatic, CMDB, Text-based, Log Analytics, and Network Traffic-based grouping.
+description: Alert grouping methods range from user-defined approaches, like Manual and Rule-based to advanced, fine-tunable algorithms, including Automatic, Mixed, Text-based, Log Analytics, and Network Traffic-based grouping.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/alert-group-use-cases.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert grouping and use cases
 
-Alert grouping methods range from user-defined approaches, like Manual, Rule-based, and Tag-cluster, to advanced, fine-tunable algorithms, including Automatic, CMDB, Text-based, Log Analytics, and Network Traffic-based grouping.
+Alert grouping methods range from user-defined approaches, like Manual and Rule-based to advanced, fine-tunable algorithms, including Automatic, Mixed, Text-based, Log Analytics, and Network Traffic-based grouping.
 
 <table id="table_dwb_r55_hcc"><thead><tr><th>
 
@@ -79,15 +79,24 @@ A large financial institution uses machine learning to manage alerts from numero
 
 </td></tr><tr><td>
 
-CMDB-based Grouping
+Mixed Grouping
 
 </td><td>
 
-Alerts are grouped based on Configuration Item \(CI\) relationships and dependencies from the Configuration Management Database \(CMDB\). This approach ensures that alerts related to specific infrastructure components or services are grouped together, providing context-aware alert management.
+Mixed Grouping method combines alerts using multiple grouping strategies, such as CMDB-based grouping and tag-based grouping, into a single, cohesive group. It leverages the strengths of each strategy to reduce alert noise, improve alert correlation, and highlight the true root cause of incidents.-   CMDB-based Grouping: Alerts are grouped based on Configuration Item \(CI\) relationships and dependencies from the Configuration Management Database \(CMDB\). This approach ensures that alerts related to specific infrastructure components or services are grouped together, providing context-aware alert management.
+-   Tag Cluster Grouping: Alerts are categorized and grouped using tags or labels that represent common attributes, such as application, server type, or geographic location. This method allows for flexible and dynamic grouping based on evolving tagging strategies.
 
 </td><td>
 
-A telecommunications company uses CMDB data to manage alerts related to their network infrastructure. Alerts related to a specific network router and its connected devices are grouped together based on their CMDB relationships, enabling the network team to see all related issues and address the root cause efficiently.
+Use case for CMDB-based grouping:
+
+ A telecommunications company uses CMDB data to manage alerts related to their network infrastructure. Alerts related to a specific network router and its connected devices are grouped together based on their CMDB relationships, enabling the network team to see all related issues and address the root cause efficiently.
+
+ Use case for tag cluster grouping:
+
+ An organization without a CMDB manages a Linux server running various services. The IT team uses a **Node** field in each alert to identify the server, and they group all events related to services on the same server based on this node value. For example, they cluster alerts like Service A down and Service B high CPU usage together if they share the same node value.
+
+ This approach helps the IT team address server-related issues more efficiently. By clustering alerts for the same node, application, or IP address, the team streamlines their response efforts and resolves issues more effectively, even without a CMDB.
 
 </td></tr><tr><td>
 
@@ -119,20 +128,6 @@ In an organization that uses Zoom rooms for virtual meetings, the IT team receiv
 
 </td></tr><tr><td>
 
-Tag Cluster Grouping
-
-</td><td>
-
-Alerts are categorized and grouped using tags or labels that represent common attributes, such as application, server type, or geographic location. This method allows for flexible and dynamic grouping based on evolving tagging strategies.
-
-</td><td>
-
-An organization without a CMDB manages a Linux server running various services. The IT team uses a **Node** field in each alert to identify the server, and they group all events related to services on the same server based on this node value. For example, they cluster alerts like Service A down and Service B high CPU usage together if they share the same node value.
-
- This approach helps the IT team address server-related issues more efficiently. By clustering alerts for the same node, application, or IP address, the team streamlines their response efforts and resolves issues more effectively, even without a CMDB.
-
-</td></tr><tr><td>
-
 Manual Grouping
 
 </td><td>
@@ -141,10 +136,14 @@ Users manually select and group related alerts based on their expertise and unde
 
 </td><td>
 
-A system administrator receives multiple alerts about different services failing on a single server. The admin manually groups these alerts, recognizing that they are all related to a single hardware failure on that server, and prioritizes fixing the hardware issue to restore all services.
+A system administrator receives multiple alerts about different services failing on a single server. The admin manually groups these alerts, identifying them as related to a single hardware failure on that server.
+
+ The admin then prioritizes fixing the hardware issue to restore all services.
 
 </td></tr></tbody>
 </table>Manual and rule-based alert grouping differs from algorithm-based grouping mainly in how the parent alert is chosen. In manual, rule-based, or log analytics grouping, one of the real alerts is designated as the parent alert. In Automatic, CMDB, Text-based, Tag Cluster modes, and Network Traffic, a virtual alert, representing the oldest and most severe alert in the group, is created as the parent alert.
+
+By default, the main alert of the group is the oldest and the alert with the highest severity. There is a script include, GroupingProduceGroupMainAlertHook, using which we can change the main alert selection logic. The method that you should customize is getMainAlert.
 
 **Note:** In domain-separated environments, alert groups are created only for alerts within the same domain.
 

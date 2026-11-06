@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/les-hermes-cert.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Log Export Service \(LES\), Log Export Service \(LES\), Platform Security]
+breadcrumb: [Configure, Log Export Service \(LES\), Platform Security]
 ---
 
 # Set up a secure connection to the Hermes Messaging Service for LES
@@ -23,6 +23,7 @@ Make sure the following setup is in place:
 -   The Hermes Messaging Service is activated. See [Hermes Messaging Service activation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/hermes-messaging-service-activation.md).
 -   The Key Management Framework plugin \(com.glide.kmf.global\) is activated.
 -   The Certificates \[sys\_kmf\_certificate\] table contains a ServiceNow instance root CA certificate.
+-   The instance isn't configured with a Custom URL. Custom URLs are not supported with the Instance PKI Certificate Generator.
 
 Role required: hermes\_admin, sn\_kmf.cryptographic\_manager, or admin
 
@@ -32,25 +33,17 @@ For details on assigning KMF roles, see [Roles installed with Key Management Fra
 
 1.  Navigate to **All** &gt; **Certificate Generator** &gt; **Instance PKI Certificate Generator**.
 
-2.  Approve restricted caller access.
+2.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
 
-    1.  In the message about approving restricted caller access, select **View record**.
-
-    2.  In the Restricted Caller Access Privilege record form, change the **Status** field to Approved.
-
-    3.  Select **Save**.
-
-3.  Control access to topics by configuring Access Control Lists \(ACLs\) at the namespace or topic-level.
-
-<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d110793e162">
+<table id="choicetable_ebz_1jn_zyb"><thead><tr><th align="left" id="d131660e135">
 
 Option
 
-</th><th align="left" id="d110793e165">
+</th><th align="left" id="d131660e138">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d110793e171">
+</th></tr></thead><tbody><tr><td id="d131660e144">
 
 **Apply ACLs to namespaces**
 
@@ -63,7 +56,7 @@ Description
 5.  Select **Add**.
 
 
-</td></tr><tr><td id="d110793e213">
+</td></tr><tr><td id="d131660e186">
 
 **Apply ACLs to defined topics**
 
@@ -79,7 +72,7 @@ Description
 </td></tr></tbody>
 </table>    The bearer of the certificate is granted read or read/write access to the topics in the namespace or the existing topic that you selected.
 
-4.  Set up security for the Hermes Messaging Service.
+3.  Set up security for the Hermes Messaging Service.
 
     1.  Navigate back to the Instance PKI Certificate Generator page.
 
@@ -89,11 +82,13 @@ Description
 
     The system generates an instance-signed certificate in the Certificates \[sys\_kmf\_certificate\] table, creates a keystore, and creates a truststore.
 
-5.  Save a copy of the keystore by selecting **Download Keystore**.
+    If Restricted Caller Access isn't allowed for the IPKI Certificate Generator, a cross scope access error appears. Contact Customer Service and Support for assistance with allowing Restricted Caller Access. To resolve this issue, Customer Service and Support can reference source\_scope=76f9d51369115083f4ea77aab1677cc0 in the Restricted Caller Access Privileges \[sys\_restricted\_caller\_access\] table.
 
-6.  Save a copy of the truststore by selecting **Download Truststore**.
+4.  Save a copy of the keystore by selecting **Download Keystore**.
 
-7.  Copy the keystore and truststore files to each producer and consumer client that will connect to the Hermes Messaging Service.
+5.  Save a copy of the truststore by selecting **Download Truststore**.
+
+6.  Copy the keystore and truststore files to each producer and consumer client that will connect to the Hermes Messaging Service.
 
 
 ## Result
@@ -101,6 +96,10 @@ Description
 You can now create a secure connection to the Hermes Messaging Service.
 
 **Note:** You must use the keystore that you generated using the Instance PKI Certificate Generator to connect to Hermes. Custom-generated keystores that aren't created according to the ServiceNow documentation aren't supported.
+
+## What to do next
+
+[Check the status of and connection to the Hermes Kafka cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/run-hermes-messaging-service-diagnostics.md).
 
 **Parent Topic:**[Configuring Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/les-configure.md)
 

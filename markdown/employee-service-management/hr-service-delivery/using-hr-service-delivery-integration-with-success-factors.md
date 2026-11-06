@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -24,8 +24,8 @@ View details of the tasks that are pulled from HR Service Delivery Integration w
 Transform maps specify data relationships between source table and target table.
 -   **[Field mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/field-mappings-sf.md)**  
 The Trigger SAP SuccessFactors Integration Flow maps the entity profile fields from SuccessFactors to the HR profile fields in the ServiceNow® platform.
--   **[Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/na-va-sf.md)**  
-You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
+-   **[ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/na-va-sf.md)**  
+You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
 -   **[Use HCM AI agents for HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/conversational-agents-sf.md)**  
 Place requests to the SuccessFactors system using the HR Service Delivery AI agent collection.
 

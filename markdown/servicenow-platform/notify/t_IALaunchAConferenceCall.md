@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify with Incident Communications Management, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with Incident Communications Management, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Initiate a conference call from incident communication plan
@@ -18,7 +18,7 @@ Use Notify to initiate a conference call from an incident communication plan by 
 
 ## Before you begin
 
-Role required: notify\_view, or admin
+Role required: notify\_view, or notify\_setup\_admin
 
 ## Procedure
 

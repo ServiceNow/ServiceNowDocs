@@ -1,26 +1,26 @@
 ---
-title: Upgrade Management
-description: Leverage ServiceNow Upgrade Management for a comprehensive and efficient upgrade experience. Streamline your upgrade process by accessing all necessary tools and insights in one place.
+title: Upgrade Console
+description: Leverage ServiceNow Upgrade Console for a comprehensive and efficient upgrade experience. Streamline your upgrade process by accessing all necessary tools and insights from within the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-landing-page.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Upgrade Management
+# Upgrade Console
 
-Leverage ServiceNow Upgrade Management for a comprehensive and efficient upgrade experience. Streamline your upgrade process by accessing all necessary tools and insights in one place.
+Leverage ServiceNow Upgrade Console for a comprehensive and efficient upgrade experience. Streamline your upgrade process by accessing all necessary tools and insights from within the instance.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text:Learn about Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-explore.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text:Learn about Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-explore.md)
 
 </td><td>
 
@@ -28,23 +28,25 @@ Leverage ServiceNow Upgrade Management for a comprehensive and efficient upgrade
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-configure.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-configure.md)
 
 </td></tr><tr><td>
 
-[Administer\[Omitted image "uc-administer-icon.png"\] Alt text:Administering Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-administer.md)
+[Administer\[Omitted image "uc-administer-icon.png"\] Alt text:Administering Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-administer.md)
 
 </td><td>
 
-[Reference\[Omitted image "uc-reference-icon.png"\] Alt text: Learn miscellaneous information about Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-references.md)
+[Reference\[Omitted image "uc-reference-icon.png"\] Alt text: Learn miscellaneous information about Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-references.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>**Note:** Starting Brazil release, the Upgrade Console store app can be installed from the ServiceNow® store.
 
--   [Ask or answer questions about Upgrade Management in the ServiceNow Community](https://www.servicenow.com/community/)
+## Troubleshoot and get help
+
+-   [Ask or answer questions about Upgrade Console in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Explore, On-Call Scheduling, IT Service Management]
+breadcrumb: [Exploring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # On-Call Scheduling new schedule engine
@@ -28,8 +28,6 @@ The new On-call schedule engine is more efficient with the following enhanced fe
 -   New shift will automatically work with the new schedule engine.
 -   For existing shifts, you can go to the shift record page and manually migrate using the **Migrate Now** option.
 -   To migrate all the existing shifts in bulk, run **On-Call Upgrade shifts to 2024 schedule engine** schedule job.
-
-**Important:** The shift rotation may change after switching to the new schedule engine. In that case, you can always create a new shift rotation from the current or future date with the new schedule engine which works as expected
 
 **Parent Topic:**[Exploring On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/exploring-on-call-scheduling.md)
 

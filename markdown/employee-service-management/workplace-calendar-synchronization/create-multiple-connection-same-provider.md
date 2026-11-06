@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Exchange Online - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ Role required: admin
 
     1.  [Configure Connection and credential alias for Microsoft Exchange Online using the default credentials and connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/create-connection-and-credential-alias-for-msexchange-.md) or [Create your own connection and credential alias for Microsoft Exchange Online](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/create-own-connection-and-credential-alias-normalmode.md).
 
-    2.  Create multiple calendar providers and specify the alias.[Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md)
+    2.  Create multiple calendar providers and specify the alias. [Configure Microsoft Exchange Online calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/configure-xsex-calendar-provider-in-normal-mode.md)
 
 2.  For delegated user:
 

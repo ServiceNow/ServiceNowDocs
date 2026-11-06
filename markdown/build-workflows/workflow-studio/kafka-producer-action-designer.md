@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workflow Studio steps, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Kafka Producer step
@@ -36,13 +36,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Topic
+Topic Alias
 
 </td><td>
 
-Name of the topic to publish the message to. A topic stores messages of the same type. For example, a topic named Payments might store messages about recent payments.
+Name of the topic alias for the topic you want to publish messages to.
 
- Select a topic from the drop-down list.
+ A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
+
+ Select a topic alias from the drop-down list.
 
 </td></tr><tr><td>
 

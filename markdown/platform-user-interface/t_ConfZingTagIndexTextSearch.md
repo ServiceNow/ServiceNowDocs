@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_ConfZingTagIndexTextSearch.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tags, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ Zing text indexing is available for tags on records.
 
 ## Before you begin
 
-Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see [Configure a table for indexing and searching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-single-table-for-indexing.md).
+Text indexing must be enabled for the table that you want to index tags for. For instructions for this procedure, see .
 
 Role required: admin
 

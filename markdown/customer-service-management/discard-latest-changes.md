@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/discard-latest-changes.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring decision trees in Decision Tree Builder, Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Revert to the previous activated decision tree version
@@ -26,7 +26,7 @@ Role required: admin, sn\_gd\_core.decision\_tree\_author
 
 3.  Select **Open in Builder**.
 
-4.  Select the More options icon \(\[Omitted image "more\_vertical\_icon.png"\] Alt text: More options icon\) and select **Discard latest version**.
+4.  Select the More options icon and select **Discard latest version**.
 
 
 ## Result

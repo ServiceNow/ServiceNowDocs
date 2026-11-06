@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create entitlements in Software Asset Management classic
@@ -52,7 +52,7 @@ If you installed the Citrix publisher pack, see [Record software rights for Citr
 
 5.  To specify users and devices that have software rights allocated to them, select the **User Allocations** or **Device Allocations** section.
 
-    The **Device Allocations** section is not visible for the IBM Resource Value Unit \(RVU\) license metric. The Resource Value Unit \(RVU\) license metric is licensed at the product level and so rights are not used by individual devices. When you upgrade from a prior release, that had device allocations, to the Yokohama release, the existing device relocations are removed.
+    The **Device Allocations** section is not visible for the IBM Resource Value Unit \(RVU\) license metric. The Resource Value Unit \(RVU\) license metric is licensed at the product level and so rights are not used by individual devices. When you upgrade from a prior release, that had device allocations, to the Brazil release, the existing device relocations are removed.
 
 6.  To track your software downgrade rights, select the [Downgrade Rights related list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-entitlement-fields.md) and specify the version.
 
@@ -87,7 +87,7 @@ Define license details for Microsoft Software Assurance \(SA\) to manage your co
 
 [Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-entitlement-fields.md)
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 [Software license metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMLicenseMetrics.md)
 

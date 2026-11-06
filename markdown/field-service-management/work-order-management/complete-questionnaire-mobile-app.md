@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Complete a questionnaire for work order task
@@ -48,6 +48,8 @@ Role required: wm\_agent or wm\_dispatcher
 
 7.  Tap **Get Started** and answer each question in the questionnaire.
 
+    **Note:** In the Now Mobile Agent application, you can edit only the questionnaires on a work order task that are assigned to you. Questionnaires assigned to other users are view-only.
+
 8.  Perform one of the following actions.
 
     |To|Complete these steps|
@@ -57,6 +59,4 @@ Role required: wm\_agent or wm\_dispatcher
 
     The submitted questionnaire appears in the **Completed** tab.
 
-
-**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

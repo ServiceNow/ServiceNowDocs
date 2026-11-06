@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add tabbed content to UI Builder pages
@@ -17,8 +17,6 @@ breadcrumb: [Customize UI Builder pages using components, Working in UI Builder,
 Use the Tabs component to add tabbed content to pages in UI Builder.
 
 Create additional navigation on your UI Builder page by adding a Tabs component to your page. Use the Tabs component to nest components within tabs on your page. Tabs can be configured as either horizontal tabs at the top of the content, or as vertical tabs on the left or right side of the content.
-
-\[Omitted image "uib-tabs-demo.gif"\] Alt text: Tabs being selected in a UI Builder page preview.
 
 Tabs can be organized in the configuration panel to reorder how they are displayed on the UI Builder page. Add custom labels and icons to tabs to provide unique visual identifiers for navigating across tabs. These changes can be viewed in real-time as you edit the Tabs component.
 
@@ -265,7 +263,7 @@ Role required: admin
 
 ### About this task
 
-A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/page-collections.md).
+A page collection is a group of prebuilt globally available pages. Use page collection tabs to render each page in a page collection as a tab. You can select an existing page collection or can create your own. A controller is required to add a page collection. For more information about page collections, see [Lux Page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/page-collections.md).
 
 ### Procedure
 

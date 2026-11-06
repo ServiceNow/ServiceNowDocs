@@ -7,8 +7,8 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
 
@@ -34,8 +34,6 @@ For example, let's say that a user has stored credit card information in a file 
 ## Procedure
 
 1.  Navigate to **All** &gt; **DLP Administration** &gt; **Default Configuration**.
-
-    \[Omitted image "dlp-default-config.png"\] Alt text: Configure DLP Incident Response policies to set up the notifications for end users
 
 2.  On the form, fill in the fields.
 
@@ -169,7 +167,7 @@ Option to reapply assignment rules to existing Active DLP incidents. You can sel
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

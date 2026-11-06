@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Schedule Planning, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---

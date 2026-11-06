@@ -7,10 +7,10 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2026-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Performance Analytics widgets, add Performance Analytics widgets, reports, add reports to dashboard, add a report to dashboard, add CMDB widgets to dashboards, CMDB widgets, risk assessment heatmaps, add risk assessment heatmaps to dashboards, Top Searches widgets, text search widgets, add Top Searches, delete a widget personal dashboard, edit a dashboard, add an interactive filter to a dashboard, remove a widget from a dashboard]
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Edit a responsive dashboard
@@ -21,15 +21,19 @@ You can edit the contents of a dashboard, including Performance Analytics widget
 
 **Note:** This topic refers to Dashboards in the Core UI. If your instance is migrated to Platform Analytics experience, see [Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-db-in-ac.md).
 
-Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see .
+Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-migration-migrate-dbs-you-own.md).
 
 If Platform Analytics experience is enabled, the dashboard picker shows both Core UI and Platform Analytics experience dashboards.
 
 Core UI dashboard backgrounds are not themeable with custom colors.
 
-Role required: Users can edit dashboards that they own, or ones that they have the right to edit. See [Dashboard permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_DashboardRoles.md) for more information about viewing and editing rights on dashboards.
+Role required: Any user with an internal role can create dashboards with the inline editor. The system property **com.snc.par.coreui.dashboard\_create.enabled** must be set to true.
 
 **Note:** Responsive dashboards do not support the Sticky Notes widget.
+
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 
@@ -39,15 +43,15 @@ Role required: Users can edit dashboards that they own, or ones that they have t
 
 3.  Perform any of the following actions.
 
-<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d207815e191">
+<table id="choicetable_gv3_q3r_g5"><thead><tr><th align="left" id="d240886e221">
 
 Action
 
-</th><th align="left" id="d207815e194">
+</th><th align="left" id="d240886e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d207815e200">
+</th></tr></thead><tbody><tr><td id="d240886e230">
 
 **Add a widget**
 
@@ -60,7 +64,7 @@ Steps
 5.  Drag to move the widget or resize it.
  **Note:** Data visualization titles are not automatically translated on localized ServiceNow instances.
 
-</td></tr><tr><td id="d207815e242">
+</td></tr><tr><td id="d240886e272">
 
 **Delete a widget from the dashboard**
 
@@ -70,7 +74,7 @@ Steps
 2.  Point to the top of the widget, then click the X icon \(\[Omitted image "RemoveWidgetButton.png"\] Alt text: X icon\) that appears.
  **Note:** There is no confirmation message. The widget disappears from the dashboard.
 
-</td></tr><tr><td id="d207815e276">
+</td></tr><tr><td id="d240886e306">
 
 **Configure widget layouts**
 
@@ -78,7 +82,7 @@ Steps
 
 To change widget appearance and layouts, and show and hide widget headers, see [Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/configure-widget-layouts.md).
 
-</td></tr><tr><td id="d207815e292">
+</td></tr><tr><td id="d240886e322">
 
 **Edit a widget**
 
@@ -91,7 +95,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
  The widget opens in the tool where it was created. For example, when you edit a report widget, the source report opens in the Report Designer.
 
-</td></tr><tr><td id="d207815e332">
+</td></tr><tr><td id="d240886e362">
 
 **Apply a quick layout to a dashboard**
 
@@ -99,7 +103,7 @@ To change widget appearance and layouts, and show and hide widget headers, see [
 
 Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] Alt text: Configuration icon\) to open the Configuration pane, then click a layout to snap the widgets against. Modify the layout as desired.
 
-</td></tr><tr><td id="d207815e347">
+</td></tr><tr><td id="d240886e377">
 
 **Add a tab to a dashboard**
 
@@ -107,7 +111,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 
 Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] Alt text: Configuration icon\) to open the Configuration pane, then click **Create Tab**. The panel created with the dashboard becomes the dashboard's first tab. The default names of the tabs are the name of the dashboard followed by New Tab and New Tab 2. To change the default names, see Rename a tab in this table.**Note:** You cannot link an existing tab into a dashboard.
 
-</td></tr><tr><td id="d207815e368">
+</td></tr><tr><td id="d240886e398">
 
 **Reorder a dashboard tab**
 
@@ -121,7 +125,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 2.  On the **Dashboard Tabs** related list, enter numbers in the **Order** column to specify the tab order. Tabs display from left to right with lower numbers appearing first.
 
 
-</td></tr><tr><td id="d207815e419">
+</td></tr><tr><td id="d240886e449">
 
 **Delete a dashboard tab**
 
@@ -129,7 +133,7 @@ Click the configuration icon \(\[Omitted image "ConfigurationPaneButton.png"\] A
 
 Click the tab to make it active. Point to the tab name and click the trash icon that appears.**Note:** The dashboard tab no longer appears on any dashboards where it appeared. Dashboards may have tabs that appear in multiple dashboards.
 
-</td></tr><tr><td id="d207815e431">
+</td></tr><tr><td id="d240886e461">
 
 **Rename a tab**
 
@@ -145,7 +149,7 @@ Click the tab to make it active. Point to the tab name and click the trash icon 
 3.  On the translated dashboard, rename the tab with the translation of its new name.
 
 
-</td></tr><tr><td id="d207815e478">
+</td></tr><tr><td id="d240886e508">
 
 **Enable filtering of data for report widgets**
 
@@ -157,7 +161,7 @@ Interactive filters let users filter data for all report widgets on a dashboard 
 4.  Click **Add**.
 For more information, see [Interactive Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/c_HomepagePublishers.md).
 
-</td></tr><tr><td id="d207815e523">
+</td></tr><tr><td id="d240886e553">
 
 **Configure a report widget to follow interactive filters**
 
@@ -168,7 +172,7 @@ For more information, see [Interactive Filters](https://raw.githubusercontent.co
 3.  To show a filter icon \(\[Omitted image "InteractiveFilterFilteringIcon.png"\] Alt text: Filter icon\) on the report when it is following an interactive filter, select the **Show when following** check box.
  **Note:** Performance Analytics widgets cannot follow interactive filters.
 
-</td></tr><tr><td id="d207815e565">
+</td></tr><tr><td id="d240886e595">
 
 **Enable filtering of data for Performance Analytics widgets**
 
@@ -176,9 +180,9 @@ For more information, see [Interactive Filters](https://raw.githubusercontent.co
 
 1.  Click the plus sign \(\[Omitted image "AddWidgetButton.png"\] Alt text: Plus sign button\) to put the dashboard in edit mode.
 2.  Add a breakdown to a dashboard so that users can filter data for all Performance Analytics widgets on that dashboard. Only users with the pa\_admin or pa\_power user roles can work with breakdowns.
- See [Add breakdown sources to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md).
+ See [Add breakdown sources to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md).
 
-</td></tr><tr><td id="d207815e599">
+</td></tr><tr><td id="d240886e632">
 
 **View the description of a widget**
 
@@ -191,7 +195,7 @@ Point to the widget, then click the question mark \(\[Omitted image "QuestionMar
 -   **[Configure the layout of a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/configure-widget-layouts.md)**  
 You can change the appearance of widgets; change widget layouts; change the colors of the widget title, header, and background; and show or hide widget headers.
 
-**Parent Topic:**[Create and use dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
+**Parent Topic:**[Create and use Core UI dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-and-edit-dashboards.md)
 
 **Related topics**  
 

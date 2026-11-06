@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Document Management
 classification: employee-document-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Document Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Document Management, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Reference - Employee Document Management

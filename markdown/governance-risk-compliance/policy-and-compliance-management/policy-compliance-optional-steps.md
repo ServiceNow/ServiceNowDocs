@@ -7,7 +7,7 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -22,12 +22,12 @@ Policy and Compliance managers can create templates for policy article publishin
 Usually, authority documents, citations, and control objectives are downloaded from a third-party provider. However, citations can be created manually from an authority document. The **Active** option in a citation indicates whether the citation is active or inactive.
 -   **[Set notification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/policy-compliance-properties.md)**  
 After an acknowledgement request has been sent to an audience, different reminder notifications are sent based on the timeliness and state of the response. Properties allow you to configure the notifications.
--   **[Set up GRC Virtual Agent for requesting an exception to a policy or a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.md)**  
+-   **[Set up GRC Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.md)**  
 Set up the Governance, Risk, and Compliance Virtual Agent to request an exception to a policy or a control objective from the Service Portal.
 -   **[Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)**  
 Starting with Version 10.1, you can leverage new policy exception capabilities in Policy and Compliance Management from within other applications.
--   **[Define policy exceptions and extensions with the GRC Approval Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/define-policy-exceptions-and-extensions-with-the-grc-approval-configurator.md)**  
-If you're a compliance manager, you can define the policy exceptions and extensions for granular, multi-level approval workflows by using the GRC Approval Configurator. The GRC Approval Configurator is a tool within the Governance, Risk, and Compliance application.
+-   **[GRC Approval Configurator for approving policy exceptions and extensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-approval-configurator-for-policy-extension-and-exception.md)**  
+Users can now manage policy exceptions and extensions with granular, multi-level approval flows using the GRC Approval Configurator.
 
 **Parent Topic:**[Implementing Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/policy-compliance-impl-overview.md)
 
@@ -42,7 +42,7 @@ If you're a compliance manager, you can define the policy exceptions and extensi
 
 [Set notification properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/policy-compliance-properties.md)
 
-[Set up GRC Virtual Agent for requesting an exception to a policy or a control objective](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.md)
+[Set up GRC Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-virtual-agent-for-policy-exception.md)
 
 [Allow policy exception requests from other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/allow-other-app-policy-except.md)
 

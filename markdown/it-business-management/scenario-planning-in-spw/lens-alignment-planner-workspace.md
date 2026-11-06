@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Lenses in Strategic Planning
@@ -26,7 +26,7 @@ Each lens in Strategic Planning consists of a structure that is made up of entit
 
 The planning item types associated with the bottom entity of a lens represent the type of work that can be planned using these portfolio plans.
 
-\[Omitted image "lens-structure.png"\] Alt text: Lens structure
+\[Omitted image "lens-structure-pp.png"\] Alt text: Lens structure
 
 For example, the Organization lens has a Company, Business Unit, and Department as its entities. As the head of the Support department, you can create a portfolio plan at the department level. Then, you can prioritize the work that is assigned to the department and plan a roadmap for the prioritized work. This work can be in the form of epics, projects, demands, or any other custom type.
 
@@ -34,7 +34,7 @@ Get started with one of the pre-defined lenses, or build a custom lens structure
 
 ## Pre-defined lenses and their structure
 
-Strategic Planning provides nine pre-defined lenses to get you started with building your portfolio plans - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability. Planning managers can use these lenses based on their role at the company.
+Strategic Planning provides ten pre-defined lenses to get you started with building your portfolio plans - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, Project Program, and Business Capability. Planning managers can use these lenses based on their role at the company.
 
 \[Omitted image "predefined-lenses-sp.png"\] Alt text: Predefined lenses - Project Portfolio, Project Program, Organization, Strategic Investments, Product, Digital Product, Value Stream, Goals, and Business Capability.
 
@@ -220,6 +220,23 @@ Project Program
 </td><td>
 
 Plan, prioritize, and roadmap the work in your programs.
+
+</td></tr><tr><td>
+
+Planning item
+
+</td><td>
+
+Planning items
+
+</td><td>
+
+-   Portfolio manager
+-   Program manager
+
+</td><td>
+
+Plan, prioritize, and roadmap the work directly with planning items, without configuring organization structure, programs, portfolios, or products.
 
 </td></tr></tbody>
 </table>-   If you're an admin, you can modify the structure for these pre-defined lenses or configure a new lens altogether based on your planning manager's requirements. For more information, see [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).

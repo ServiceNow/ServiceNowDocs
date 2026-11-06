@@ -7,9 +7,9 @@ release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configuring Generative AI Controller
@@ -24,13 +24,14 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   OpenAI
 -   Google AI Studio
 -   Google Vertex AI
--   Aleph Alpha
 -   IBM watsonx
 -   Amazon Bedrock
 
+After you configure Generative AI Controller, activate and manage generative AI skills through the AI Admin Hub console to deliver generative AI capabilities to your users. For more information, see [Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platai-generative-ai-skills.md).
+
 -   **[Configure API credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configuring-api-credentials-for-generative-ai-capabilities.md)**
 
-    Configure your large language model \(LLM\) credentials to use third-party integrations with OpenAI, Azure OpenAI, Google Cloud, Aleph Alpha, IBM watsonx, Amazon Bedrock, and generic models to control the third-party integration.
+    Configure your large language model \(LLM\) credentials to use third-party integrations with OpenAI, Azure OpenAI, Google Cloud, IBM watsonx, Amazon Bedrock, and generic models to control the third-party integration.
 
 -   **[Configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)**
 
@@ -39,10 +40,6 @@ Generative AI Controller enables you to choose between several AI providers or a
 -   **[Configure an AI service provider for a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md)**
 
     Set your preferred AI service provider for each capability and tailor generative AI content to suit your business needs.
-
--   **Enable generative AI capabilities in Virtual Agent Designer**
-
-    Enable generative AI capabilities in Virtual Agent Designer to build custom topics and topic blocks with content created by AI.
 
 -   **[Enable recursive summarization for large inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/enable-recursive-summarization.md)**
 

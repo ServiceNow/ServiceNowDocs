@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing gifts and entertainment disclosure requests, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject a gifts and entertainment disclosure request
@@ -30,15 +30,15 @@ The **Gifts Approval** flow available in the base system, automatically routes y
 
 1.  Open the approval request
 
-<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d523629e66">
+<table id="choicetable_jkn_bmj_fdc"><thead><tr><th align="left" id="d567033e81">
 
 Method
 
-</th><th align="left" id="d523629e69">
+</th><th align="left" id="d567033e84">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d523629e75">
+</th></tr></thead><tbody><tr><td id="d567033e90">
 
 **From Legal Counsel Center list**
 
@@ -50,7 +50,7 @@ Steps
 4.  In the Items Pending Approval list, open a request by clicking the request number in the **Approving** column.
 
 
-</td></tr><tr><td id="d523629e129">
+</td></tr><tr><td id="d567033e144">
 
 **From Legal Counsel Center landing page**
 
@@ -61,7 +61,7 @@ Steps
 3.  Select the request for approval.
 
 
-</td></tr><tr><td id="d523629e165">
+</td></tr><tr><td id="d567033e180">
 
 **From Employee Center**
 

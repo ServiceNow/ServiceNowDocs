@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 92
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -1269,7 +1269,7 @@ output
 
 Description of the uploaded data or if an error occurred during the upload, an error message describing the error that was encountered.Data type: Array of String
 
- ```
+```
 "output": {
   "auto_validate": "String",
   "cdm_application": "String",
@@ -1396,7 +1396,7 @@ State of the upload content.Possible values:
 -   committed
 -   open
 
- Data type: String
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1433,7 +1433,7 @@ Current processing state of the upload request.Possible values:
 -   NOT\_PROCESSED
 -   PROCESSED
 
- Data type: String
+Data type: String
 
 </td></tr><tr><td>
 

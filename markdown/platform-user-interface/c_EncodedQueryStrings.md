@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_EncodedQueryStrings.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Filters and breadcrumbs, Lists in the classic environment, Working 
 
 An encoded query string represents a complex filter on a list of records.
 
-Use encoded query strings to include a filter as part of a URL parameter, such as the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/navigate-using-url.md), or as a [reference qualifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ReferenceQualifiers.md) to restrict the data that is selectable for a reference field.
+Use encoded query strings to include a filter as part of a URL parameter, such as the [Navigate to a record or module using a URL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/navigate-using-url.md), or as a reference qualifier to restrict the data that is selectable for a reference field.
 
 To construct an encoded query string, generate a list query and then [copy it from the list filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_GenEncodQueryStringFilter.md). This is the preferred method because the alternative is to create the string manually.
 
@@ -64,7 +64,7 @@ To create a query string that refers to a [choice list](https://raw.githubuserco
 install_status=1
 ```
 
- See [Values to associate with choice labels for scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DetermValsAssocWChoicesScripting.md) to find the options for the values.
+ See Values to associate with choice labels for scripting to find the options for the values.
 
 </td></tr><tr><td>
 

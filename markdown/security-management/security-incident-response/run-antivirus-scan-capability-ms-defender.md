@@ -1,20 +1,20 @@
 ---
 title: Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint
-description: Remotely initiate an antivirus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
+description: Remotely initiate an anti virus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/run-antivirus-scan-capability-ms-defender.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint
 
-Remotely initiate an antivirus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
+Remotely initiate an anti virus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
 
 ## Before you begin
 
@@ -31,24 +31,22 @@ Role required: sn\_si.admin or sn\_si.analyst
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-    1.  In the related links section, click **Run Additional Actions on Endpoint**.
+    1.  In the related links section, select **Run Additional Actions on Endpoint**.
 
     2.  Browse and select the required capability.
 
-        For example, click **Run Antivirus Scan** capability.
-
-    \[Omitted image "run\_antivirus.png"\] Alt text: Run Antivirus scan capability implementation
+        For example, select **Run Antivirus Scan** capability.
 
     Alternatively, you can perform the following steps:
 
-    1.  In the related lists section, click **Show All Related Lists**.
-    2.  Click the **Configuration Item** related list.
+    1.  In the related lists section, select **Show All Related Lists**.
+    2.  Select the **Configuration Item** related list.
     3.  Select the added configuration items, and from the Actions on selected rows, select **Run Additional Actions on Endpoint**.
     After you select the **Run Antivirus Scan** capability implementation, the **Additional Scan Type** and **Comment input** fields are displayed.
 
 3.  Select the **Scan type** that you want to run \(Quick or Full\), and add a comment before executing the scan.
 
-4.  To initiate the antivirus scan, click **Run Additional Action**.
+4.  To initiate the anti virus scan, select **Run Additional Action**.
 
 5.  View the automation activities of the execution, and validate them.
 

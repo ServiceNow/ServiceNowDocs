@@ -1,20 +1,20 @@
 ---
 title: Change owner of a scenario
-description: Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A can switch a scenario between multiple owners one at a time.
+description: Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A scenario can switch between multiple owners one at a time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-central/change-owner-of-a-scenario.html
 release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Change owner of a scenario
 
-Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A can switch a scenario between multiple owners one at a time.
+Change the ownership of a scenario that is published and is in the Ready state. Enable other space planners also to make their changes to the scenario that you created. A scenario can switch between multiple owners one at a time.
 
 ## Before you begin
 
@@ -47,15 +47,15 @@ Change the ownership of a published scenario to enable other space planners to i
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d394056e157">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d424183e157">
 
 Path
 
-</th><th align="left" id="d394056e160">
+</th><th align="left" id="d424183e160">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d394056e166">
+</th></tr></thead><tbody><tr><td id="d424183e166">
 
 **From the Scenarios list section**
 
@@ -69,7 +69,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d394056e191">
+</td></tr><tr><td id="d424183e191">
 
 **From the Buildings list section**
 

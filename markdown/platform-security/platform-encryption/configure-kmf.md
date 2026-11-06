@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [Key Management Framework, Encryption]
 
 Create and maintain Key Management components to customize and manage how cryptographic operations are performed on your ServiceNow instance.
 
+-   **[Assign Key Management Framework roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/assign-kmf-roles.md)**  
+Administrators with the security\_admin role can assign Key Management Framework \(KMF\) admins, who in turn can assign other Key Management Framework roles.
 -   **[Configure field encryption settings to select key type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/configure-field-encryption-settings.md)**  
 Configure your field encryption settings to use ServiceNow supplied keys or your own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform.
 -   **[Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/create-cryptographic-module.md)**  

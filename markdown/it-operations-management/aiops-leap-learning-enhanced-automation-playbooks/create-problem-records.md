@@ -1,28 +1,28 @@
 ---
-title: Create AIOps LEAP problem records
-description: Create problem records for AIOps LEAP from available incident clusters, also known as automation opportunities, for further analysis.
+title: Create LEAP problem records
+description: Create problem records for LEAP from available incident clusters, also known as automation opportunities, for further analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/create-problem-records.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [Use, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# Create AIOps LEAP problem records
+# Create LEAP problem records
 
-Create problem records for AIOps LEAP from available incident clusters, also known as automation opportunities, for further analysis.
+Create problem records for LEAP from available incident clusters, also known as automation opportunities, for further analysis.
 
 ## Before you begin
 
-Role required: AIOps LEAP admin
+Role required: LEAP admin
 
 ## About this task
 
-The problem record creation process automatically transfers critical information from incidents to problem records. When a problem record is created, AIOps LEAP includes all relevant information. This information includes:
+The problem record creation process automatically transfers critical information from incidents to problem records. When a problem record is created, LEAP includes all relevant information. This information includes:
 
 -   incident group description
 -   incident group link
@@ -32,7 +32,7 @@ The automated data transfer is characterized with:
 
 -   **Root cause documentation**
 
-    AIOps LEAP populates the cause notes section of the problem record with the same details as available in existing incident records.
+    LEAP populates the cause notes section of the problem record with the same details as available in existing incident records.
 
 -   **Incident attachment**
 
@@ -45,16 +45,16 @@ The automated data transfer is characterized with:
 
 ## Procedure
 
-1.  Select **Workspaces** &gt; **AIOps LEAP**.
+1.  Select **Workspaces** &gt; **LEAP**.
 
-2.  On the AIOps LEAP landing page, select an automation opportunity.
+2.  On the LEAP landing page, select an automation opportunity.
 
 3.  If resolution steps don't appear in the Overview section, select **Generate resolution steps**.
 
 4.  Select **Actions** &gt; ******Create problem record** button to create a record for further in-depth analysis.
 
-    \[Omitted image "updated-create-problem-record.png"\] Alt text: Create problem record
+    \[Omitted image "create-leap-problem-record-updated.png"\] Alt text: Create problem records
 
-    Another option is to invoke the LEAP AI agent by selecting the Explore button \[Omitted image "explore-button.png"\] Alt text: Explore button and creating problem record.
+    Another option is to invoke the LEAP AI agent by selecting the \[Omitted image "ask-Otto-button.png"\] Alt text: Ask Otto Ask Otto button and creating problem record.
 
 

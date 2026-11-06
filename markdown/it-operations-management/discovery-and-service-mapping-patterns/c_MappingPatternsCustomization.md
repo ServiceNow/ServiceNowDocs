@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-10-09"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 keywords: [Discovery role, Pattern role]
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -21,7 +21,7 @@ ServiceNow applications refer to devices and applications that comprise a servic
 
 ## What discovery patterns are
 
-A pattern is a sequence of commands whose purpose it is to detect attributes of a CI and its outbound connections. Service Mapping and Discovery share a set of preconfigured patterns that cover most of the commonly used devices and applications. Patterns can be of the infrastructure or application type. Infrastructure patterns are used only by Discovery for creating lists of devices. Application patterns serve both Service Mapping and Discovery, which use the same application patterns for their purposes. For example, Discovery runs the horizontal discovery with the Apache Web Server pattern to find and list all Apache Web Servers in your organization. Service Mapping runs the top-down discovery using the same pattern to discover a specific Apache Web Server and place it on a service instance map.
+A pattern is a sequence of commands designed to detect attributes of a CI and its outbound connections. Service Mapping and Discovery share a set of preconfigured patterns that cover most of the commonly used devices and applications. Patterns can be of the infrastructure or application type. Infrastructure patterns are used only by Discovery for creating lists of devices. Application patterns serve both Service Mapping and Discovery, which use the same application patterns for their purposes. For example, Discovery runs the horizontal discovery with the Apache Web Server pattern to find and list all Apache Web Servers in your organization. Service Mapping runs the top-down discovery using the same pattern to discover a specific Apache Web Server and place it on a service instance map.
 
 **Note:** Currently, pattern operations do not support multi-languages. If values returned from pattern operations are not in English, the returned data cannot be parsed properly and the pattern discovery will fail.
 
@@ -105,6 +105,14 @@ Can view, create, edit, and publish patterns. The role enables users to run disc
 
 </td></tr><tr><td>
 
+PD user
+
+</td><td>
+
+Has read-only access to **Discovery Pattern Log**.
+
+</td></tr><tr><td>
+
 PD admin
 
 </td><td>
@@ -137,6 +145,14 @@ Not assigned to a user directly but to the MID Server record or the user under w
 
 </td></tr><tr><td>
 
+Discovery operator
+
+</td><td>
+
+Can run or cancel existing discovery schedules and view discovery-related data, including logs, ECC queue payloads, device history, and MID Server logs. Can't create, edit, or delete records.Starting with Discovery Admin Workspace v1.22.0, has read-only access to the workspace and can run existing schedules with **Discover now**. For more information, see Discovery Operator role access.
+
+</td></tr><tr><td>
+
 MID Server
 
 </td><td>
@@ -162,36 +178,42 @@ If you’re creating a pattern for applications and devices that aren’t suppor
 
 \[Omitted image "PatternCreationFlow.png"\] Alt text: Flow describing pattern creation and modification
 
-1.  [Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)  
+1.  [Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)  
 ITOM Visibility comes with an extensive library of patterns.
-2.  [Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)  
+2.  [Available cloud discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns-cloud.md)  
+ITOM Visibility comes with an extensive library of patterns that can discover your cloud environment: AWS, Azure, GCP, IBM, and OCI.
+3.  [Configuring Pattern Designer and related applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/configuring-pattern-designer-plugins.md)  
 Install the latest available versions of the ServiceNow applications to use the latest discovery patterns.
-3.  [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md)  
+4.  [Create CI types for Service Mapping and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_CreateCITypeForSM.md)  
 Create CI types \(or CI classes\) for applications and devices, which Service Mapping and Discovery do not support by default.
-4.  [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)  
+5.  [Create entry point types for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_CreateEntryPoint.md)  
 An entry point is a point where clients access a service instance. Service Mapping starts the mapping process for every application service from the entry point you define for it. Service Mapping includes a wide range of preconfigured entry point types that cover most commonly used applications. If your organization uses a less known or proprietary application that does not have a corresponding entry point type in Service Mapping, you must create it.
-5.  [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md)  
+6.  [Create or customize patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_CreatePatternPatDef.md)  
 Create or modify a discovery pattern and define its basic attributes.
-6.  [Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md)  
+7.  [Discover related items together with the main CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/add-related-cis-to-the-main-ci-pattern.md)  
 Add related items to the patterns to perform horizontal discovery of configuration items with all their related items: CIs or non-CIs, like ports or serial numbers.
-7.  [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)  
+8.  [Enhance patterns without modifying identification sections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/modify-pattern-using-extensions.md)  
 Enable patterns to search for additional attributes and modify pattern discovery logic defined in identification sections by using extension sections. Each extension section contains a preconfigured set of discovery steps referred to as a shared library.
-8.  [Fine-tune patterns using traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/connection-section-traffic-based.md)  
-As an alternative to customizing the pattern from the Pattern Designer side, improve existing patterns so that Service Mapping can use them to find configuration item \(CI\) connections previously found using traffic-based discovery.
-9.  [Finalize a pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_FinalizePatternPatDef.md)  
+9.  [Fine-tune patterns using traffic-based discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/connection-section-traffic-based.md)  
+Improve existing patterns so that Service Mapping can find configuration item \(CI\) connections previously found using traffic-based discovery.
+10. [Finalize a pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_FinalizePatternPatDef.md)  
 After you finish defining your pattern, make it ready for use by Service Mapping and Discovery.
-10. [Copy patterns from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/export-patterns.md)  
+11. [Copy patterns from one instance to another](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/export-patterns.md)  
 To copy patterns from one instance to another, create an update set containing new or modified patterns with their related items in your development instance. Then, import the update set into your production instance.
-11. [Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)  
+12. [Choose the pattern version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/t_ChoosePatternVersionPatDef.md)  
 Every time you modify and save a pattern, you create a version of this pattern. Choose which pattern version Service Mapping and Discovery use for discovery.
-12. [Activate a disabled pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.md)  
+13. [Activate a disabled pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/activate-disabled-pattern.md)  
 If you want to use a pattern for discovery that's disabled by default, activate it manually.
-13. [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)  
+14. [Discover datacenters only for new cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/discover-datacenter-only-new-account.md)  
+If you have multiple cloud accounts and datacenters in AWS and Azure, you can discover datacenters for new cloud accounts only, instead of refreshing the entire list.
+15. [Improved query performance with direct field population in CI tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/query-service-account-ldc-fields.md)  
 The **Populate Service Account and LDC IN CMDB** scheduled job populates the Service Account and Logical Datacenter fields in cloud configuration item \(CI\) tables, and the Virtual Machine Object field in the Hardware \[cmdb\_ci\_hardware\] table. This direct population reduces query complexity and improves query performance.
-14. [Server CI population during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.md)  
+16. [Server CI population during cloud discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/server-ci-cloud-discovery.md)  
 Cloud discovery can populate Server CIs without running IP-based discovery, reducing discovery time in large environments.
-15. [Enable Oracle Wallet authentication for discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-oracle-wallet-authentication.md)  
-Enable Oracle Wallet authentication to use credentials stored on the target server during Oracle database discovery on UNIX systems.
+17. [Oracle Wallet authentication for database discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/oracle-wallet-authentication.md)  
+With Oracle Wallet authentication, Discovery reads database credentials directly from the target server. This approach keeps credentials within the target environment instead of storing them on the ServiceNow AI Platform.
+18. [Reference the main CI on discovered IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/populate-owned-by-field-ip-address.md)  
+Populate the **Owned By Configuration Item** field on discovered IP address records with a direct reference to the main CI, instead of requiring a dot-walk through the network adapter. Populating the reference is supported only for AIX Server discovery.
 
 **Parent Topic:**[ITOM Visibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-landing-page.md)
 

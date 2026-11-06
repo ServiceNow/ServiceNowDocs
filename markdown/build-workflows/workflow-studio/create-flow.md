@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow in Workflow Studio
@@ -37,7 +37,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 3.  Select whether to build the flow with Now Assist or to build the flow from scratch.
 
-    To build a flow with Now Assist, see [Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow-now-assist.md).
+    To build a flow with Now Assist, see [Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow-now-assist.md).
 
     To build a flow from scratch, continue to the next step.
 
@@ -112,25 +112,9 @@ Priority level at which you want the system to run this flow by default. Options
 
     The system displays the Workflow Studio design environment.
 
-7.  Add a saved trigger to the flow.
+7.  Create a trigger for the flow.
 
-    **Note:** You can either create a trigger for the flow or use a saved trigger. To create a trigger, proceed to the next step. For information about creating a saved trigger, see [Create a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md).
-
-    1.  Under the TRIGGER section, select **Add a trigger**.
-
-    2.  From the Trigger list, under INSTALLED SPOKES, select the application under which the trigger was created.
-
-        For example, Global.
-
-        Workflow Studio displays a list of triggers that are in the selected application.
-
-    3.  Select the trigger.
-
-        Depending on how the trigger is configured, you may be able to view the trigger properties or add additional conditions to the trigger.
-
-    4.  Select **Done**.
-
-8.  If you want to create a trigger for the flow, perform the following steps:
+    **Tip:** You can either create a trigger for the flow or use a saved trigger. To use a saved trigger, proceed to the next step.To learn more about saved triggers, see [Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-triggers.md)
 
     1.  Under the TRIGGER section, select **Add a trigger**.
 
@@ -145,6 +129,24 @@ Priority level at which you want the system to run this flow by default. Options
         For a record-based trigger, for example, select a table and set field conditions that, when met, will start running your flow.
 
     4.  Click **Done**.
+
+8.  Select a saved trigger for the flow.
+
+    Skip this step if you have already created a trigger in the previous step.
+
+    1.  Under the TRIGGER section, select **Add a trigger**.
+
+    2.  From the Trigger list, under INSTALLED SPOKES, select the application under which the trigger was created.
+
+        For example, Global.
+
+        Workflow Studio displays a list of triggers that are in the selected application.
+
+    3.  Select the trigger.
+
+        Depending on how the trigger is configured, you may be able to view the trigger properties or add additional conditions to the trigger.
+
+    4.  Select **Done**.
 
 9.  To add actions, flows, subflows, or flow logic, select **Add an Action, Flow Logic, or Subflow**.
 
@@ -214,10 +216,8 @@ Select a published subflow and define the input values. In addition to adding a 
     -   [Deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_SharingApplications.md) your flow from the application repository when your application is complete and ready for release.
     -   [Transfer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/update-set-transfers.md) your flow from an update set XML file when you want to test the flow on another instance. When you save a flow, Workflow Studio generates a single update set file containing its subflows and actions.
 
--   **[Create a flow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow-now-assist.md)**  
+-   **[Create a flow with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow-now-assist.md)**  
 Use generative AI to create a flow from text directionsand images.
--   **[Create a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md)**  
-Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
 -   **[Create a flow with an inbound email trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-inbound-email-flow.md)**  
 Start a flow when your instance receives an email.
 -   **[Create a flow with a Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow-kafka.md)**  
@@ -248,18 +248,10 @@ Before activating a flow so other users can access it, test to make certain it w
 Activate a flow to make it available to run.
 -   **[Change a flow or action's default title](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/manage-natural-language-title.md)**  
 Change the default title for a flow, subflow, or action by adding styled and dynamic text.
--   **[Edit a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/edit-saved-trigger.md)**  
-Edit a saved trigger in Workflow Studio to update the trigger definitions or other options according to your business needs.
--   **[Detach a saved trigger from a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/detach-saved-trigger.md)**  
-View a list of flows that are associated with a saved trigger, and detach it from any of the flows. Detach a saved trigger before you specify different start conditions for your flow or before you delete the trigger.
 -   **[Edit a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-edit.md)**  
 Edit an existing flow.
--   **[Delete a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/delete-saved-trigger.md)**  
-Delete a saved trigger that you no longer need.
 -   **[Delete a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-delete.md)**  
 Delete a flow that you no longer need.
--   **[Summarize a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/summarize-a-flow.md)**  
-Generate a summary of a flow with ServiceNow Otto for Creator.
 -   **[View activated flows for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/view-activated-flows.md)**  
 View flows with record-based triggers that run on a specific table.
 

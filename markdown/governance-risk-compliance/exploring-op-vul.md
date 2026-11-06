@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/exploring-op-vul.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -86,5 +86,5 @@ Consider a vital financial institution situated in a distant location. If a near
  This serves as another example of a non-IT related vulnerability that necessitates manual intervention.
 
 </td></tr></tbody>
-</table>To tackle these operational vulnerabilities, an organization could investigate various approaches such as diversifying third parties across multiple regions or moving financial facilities. To implement these solutions, an organization would usually perform a cost-benefit analysis, weighing factors like the cost of mitigating the operational vulnerability and whether the solution is a one-time fix, temporary measure, or permanent solution.
+</table>To tackle these operational vulnerabilities, an organization could investigate various approaches such as diversifying third parties across multiple regions or moving financial facilities. To implement these solutions, an organization would usually perform a cost-benefit analysis. This analysis weighs factors like the cost of mitigation and whether the solution is a one-time fix, temporary measure, or permanent solution.
 

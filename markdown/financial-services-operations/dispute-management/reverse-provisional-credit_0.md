@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration dispute workflow, Chargeback stage, Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Reverse provisional credit
@@ -24,25 +24,25 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
-4.  In the list, select the case that you want to work on.
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the  **Reverse provisional credit** task.
 
-8.  Select the  **Reverse provisional credit** activity.
+7.  On the form, fill in the required fields and any other related information that you have gathered.
 
-9.  On the form, fill in the required fields and any other related information that you've gathered.
-
-10. Select **Close task**.
+8.  Select **Close task**.
 
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)

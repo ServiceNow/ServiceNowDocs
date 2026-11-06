@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure Twilio to send notifications in SRM
@@ -22,7 +22,7 @@ Before you begin, you must have a String Identifier \(SID\) and an authenticatio
 
 **Note:** Performing this action requires ServiceNow expertise.
 
-Role required: admin
+Role required: srm\_admin or admin
 
 ## About this task
 
@@ -38,8 +38,6 @@ You can adjust what gets sent from Twilio by editing the on-call workflow in the
 
 4.  In the new window, select **here** to edit the record.
 
-    \[Omitted image "sr-twilio-edit.png"\] Alt text: The here link appears in a banner.
-
 5.  Enter the **Account SID** value.
 
 6.  Enter a **Validity Period** value.
@@ -49,7 +47,7 @@ You can adjust what gets sent from Twilio by editing the on-call workflow in the
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Approve a change request for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-approve-change-req.md)
+**Previous topic:**[Configure fields for escalation triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/srm-configure-trigger-fields.md)
 
 **Next topic:**[Install the Alert Automation application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-aa-store-app.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ For more information about creating the security tag names in your McAfee ePO co
 
 1.  Navigate to **All** &gt; **McAfee ePO Integration** &gt; **Default Settings**.
 
-2.  To edit the security tag name of the McAfee ePO integration, click **Default Configuration**.
+2.  To edit the security tag name of the McAfee ePO integration, select **Default Configuration**.
 
     **Note:** Makes sure you perform this configuration after you install the McAfee ePO integration.
 
@@ -44,25 +44,25 @@ For more information about creating the security tag names in your McAfee ePO co
 
     For example, ServiceNow - Isolate Host
 
-5.  If you want to do not wish to use the CI trigger field upon incident creation, select the **Define Alternate field** check box.
+5.  If you want to don't want to use the CI trigger field on incident creation, select the **Define Alternate field** check box.
 
     When this option is enabled, the Alternate CI trigger field choice list is displayed.
 
     \[Omitted image "mcafee-default-config.png"\] Alt text: Edit security tags in the ServiceNow AI Platform for the McAfee integration
 
-6.  Choose an alternate field from the choice list to check for your CI search criteria.
+6.  Choose an alternate field from the list to check for your CI search criteria.
 
-    For this example, as a user with the sn\_si.admin role, you believe that the CI field will not be populated on the security incident upon incident creation. Alternatively, you think CI information for a FQDN, host name, or IP address will be populated in the `Identified CI` field on the security incident, and you select the Identified CI field as an alternate. The Identified CI is selected for this example, but you can use any field on the security incident for the alternate CI.
+    For this example, as a user with the sn\_si.admin role, you believe that the CI field will not be populated on the security incident on incident creation. Alternatively, you think CI information for a FQDN, host name, or IP address will be populated in the `Identified CI` field on the security incident, and you select the Identified CI field as an alternate. The Identified CI is selected for this example, but you can use any field on the security incident for the alternate CI.
 
 7.  In the Domain field, select a domain or group for this configuration using the search option.
 
     For example, global.
 
-8.  In the Require Approval field, select the **Require Approval** check box if you are using Isolate Host and Remove isolation capabilities.
+8.  In the Require Approval field, select the **Require Approval** check box if you're using Isolate Host and Remove isolation capabilities.
 
     **Note:** The Initiate Malware Scan, List Threat Events, and Get System Details capabilities do not need approval.
 
-9.  Click **Update**.
+9.  Select **Update**.
 
     The EPO Tag Name is updated and displayed on the McAfee ePO Default Configurations list. The security tag name for the malware scan action in your ServiceNow AI Platform instance matches the name for the scan in your McAfee ePO console.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, On-Call Scheduling, IT Service Management]
+breadcrumb: [Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # Domain separation and On-Call Scheduling

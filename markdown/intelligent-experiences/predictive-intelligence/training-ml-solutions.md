@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Creating and training solutions
@@ -36,7 +36,7 @@ Select the best framework for your desired prediction:
 
 -   Regression solutions:
 
-    **Important:** With the Yokohama release, support for creating new regression solutions was removed. You can still edit and train existing regression solutions, but you won't be able to create new ones.
+    **Note:** From the Washington DC release, support for creating new regression solutions was removed. You can still edit and train existing regression solutions, but you won't be able to initiate new ones.
 
     Uses historic data to predict numeric outputs, such as estimating the time it takes to resolve an incident or case. See [Create and train a regression solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/create-regression-solution.md).
 
@@ -53,9 +53,7 @@ A solution is only as good as the record data you use to train it. In general, a
 
 ## Exporting your solution for training
 
-\[Omitted image "predictive-intelligence-training-flow.png"\] Alt text: Predictive Intelligence training flow
-
-To train a solution, you export its solution definition and associated records to a centralized training server within the same datacenter. When the training completes, the training server exports the solution back to your instance and deletes all of your training data from the server. As every datacenter has its own dedicated training server and the data doesn't leave the datacenter, this service is also available to customers who have data sovereignty requirements.
+To train a solution, you export its solution definition and associated records to a centralized training server within the same datacenter. When the training completes, the training server exports the solution back to your instance and deletes all of your training data from the server. Each datacenter has its own dedicated training server and the data doesn't leave the datacenter. Confirm that your configuration aligns with your compliance requirements.
 
 Predictions occur on a centralized prediction server within the same datacenter as the instance. The trained model artifacts are sent from the instance server to the prediction server when the prediction is invoked for the first time. After that, the trained model artifacts are cached on the prediction server for subsequent predictions.
 

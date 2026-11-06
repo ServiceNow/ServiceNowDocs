@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Catalog customization
@@ -38,7 +38,7 @@ A catalog item can have a recurring price in addition to an initial price.
 The pricing model is useful if you want the price or recurring price to be dynamically calculated based on how a user completes the ordering form. You can extend the pricing model of a catalog item by editing the item price or the recurring price.
 -   **[Hiding prices in the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/c_HidingPricesInTheServiceCatalog.md)**  
 Administrators can configure options to hide catalog item prices in the service catalog for listings of specific items, for specific types of items, or for all items.
--   **[Clone requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_EnablingBulkRequests.md)**  
+-   **[Create up to ten copies of Service Catalog request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_EnablingBulkRequests.md)**  
 Clone a request to create up to ten copies \(clones\) of the same Service Catalog request, for different users, without having to enter the same information multiple times. For example, you can request a new piece of equipment for several specified people, generating multiple individual requests quickly from a single initial request.
 -   **[Create scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/r_ServiceCatalogScriptingExtensn.md)**  
 Service Catalog enables you to use certain scripts.
@@ -48,6 +48,8 @@ The home page for a service catalog provides the primary front end for ordering 
 When you configure Service Catalog on a Classic Mobile device, you can define the layout and presentation of catalogs. You can then perform actions such as ordering products and services, submit incidents and problems using record producers.
 -   **[Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/p_ConfigureContentManagementSystem.md)**  
 Use the content management system \(CMS\) to create a custom interface for the service catalog.
+-   **[Customization vs configuration]()**  
+There are important differences between customizing and configuring ServiceNow applications. The ServiceNow platform is built to embrace customization and configuration but how you do so can have significant impacts on ServiceNow support, upgrading to future ServiceNow platform versions, and the functionality of the ServiceNow platform.
 
 **Parent Topic:**[Types of catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/r_ExtendedCatalogItemFunctions.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-features.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Benefits &amp; Usage
@@ -15,8 +15,6 @@ breadcrumb: [Impact Delivery Instance \(formerly Impact Digital Experience\), Im
 Impact Benefits &amp; Usage allows you to quickly access and review the powerful tools available in your Impact subscription.
 
 ## Impact benefits
-
-\[Omitted image "benefits-usage2.png"\] Alt text: Shows the Benefits &amp; Usage page.
 
 The Impact program has many benefits that are included with the subscription.
 
@@ -34,9 +32,9 @@ Impact Core
 
 </td><td>
 
--   [Impact Delivery Instance \(formerly Impact Digital Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-digital-experience.md)
--   [Impact Squad](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-squad.md)
--   [Impact operating model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-operating-model.md)
+-   [Get started with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/getting_started_with_impact_concept.md)
+-   [Work with experts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-squad.md)
+-   [Impact packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-packages1.md)
 
 </td></tr><tr><td>
 
@@ -44,7 +42,7 @@ Experts on Demand
 
 </td><td>
 
--   [Initiatives &amp; Accelerators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/impact-initiatives.md)
+-   [Accelerators and Initiatives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/impact-initiatives.md)
 -   Advisory sessions
 -   Expert services discount
 
@@ -55,7 +53,7 @@ Platform Health and Monitoring
 </td><td>
 
 -   HealthScan
--   [Impact Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
+-   [Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 
 </td></tr><tr><td>
 
@@ -80,4 +78,5 @@ Premium Technical Support
 -   Enhanced case response time
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/idi-reference.md)
+

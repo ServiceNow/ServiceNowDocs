@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Timeline pages, Viewing record information over time, Time configuration references, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Timeline pages, Viewing record information over time, Reference, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Make a timeline visible to a selected user

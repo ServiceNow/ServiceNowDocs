@@ -1,22 +1,24 @@
 ---
 title: Configure descriptive elements for input form screens
-description: Add descriptive elements, such as simple text, rich text, or an image, before an input field within an input form screen. This additional on-screen information provides a context to your users, enabling them to better understand what is required as they enter data into an input form.
+description: Add descriptive elements, such as an image, simple text, rich text, or a mobile card, before an input field within an input form screen. This additional on-screen information provides a context to your users, enabling them to better understand what is required as they enter data into an input form.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/descriptive-elements-script.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-05"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Data sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure descriptive elements for input form screens
 
-Add descriptive elements, such as simple text, rich text, or an image, before an input field within an input form screen. This additional on-screen information provides a context to your users, enabling them to better understand what is required as they enter data into an input form.
+Add descriptive elements, such as an image, simple text, rich text, or a mobile card, before an input field within an input form screen. This additional on-screen information provides a context to your users, enabling them to better understand what is required as they enter data into an input form.
 
 ## Before you begin
 
 Role required: admin
+
+**Note:** Image, text, and rich text descriptive elements are configured in the Mobile App Builder, whereas card descriptive elements are configured in the ServiceNow AI Platform. For the configuration of card descriptive elements see, [Configure a card descriptive element for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/descriptive-elements-card.md).
 
 ## About this task
 
@@ -91,7 +93,9 @@ Descriptive element types
 
 </td><td>
 
-Three descriptive elements are available:-   **Rich text**: Supports HTML tags such as, bold, underline, italic, bullets, numbered lists, and font color.
+Three descriptive elements are available with this Mobile App Builder configuration:**Note:** Card descriptive elements are configured in the ServiceNow AI Platform. For the configuration of card descriptive elements see, [Configure a card descriptive element for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/descriptive-elements-card.md).
+
+-   **Rich text**: Supports HTML tags such as, bold, underline, italic, bullets, numbered lists, and font color.
 -   **Text**: Plain text without any rich text elements.
 -   **Image**: A single image to accompany the descriptive element.
 **Note:** Attributes available with the **Descriptive elements attributes** field differ according to the descriptive element that you select.

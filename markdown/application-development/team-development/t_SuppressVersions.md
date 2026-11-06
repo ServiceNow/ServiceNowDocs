@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Versions, Using Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Suppress versions
 
 Administrators can configure a table so that it does not track customizations in the Versions `[sys_update_version]` table.
+
+## Before you begin
+
+Role required: none.
 
 ## About this task
 

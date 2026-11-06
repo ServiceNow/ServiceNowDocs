@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-06-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a contract type, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+keywords: [Contract request linking, Configure parent-child contract linking, Configure parent-child field mapping, Contract request parent-child field mapping, Contract parent-child field mapping]
+breadcrumb: [Create a contract type, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure field mapping for parent-child contract linking

@@ -1,19 +1,19 @@
 ---
 title: Map a skill to a dashboard
-description: Map a Now Assist skill to a dashboard to view skill performance indicators and skill details.
+description: Map an AI skill to a dashboard to view skill performance indicators and skill details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/map-a-skill-to-a-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, map, skill, dashboard, performance indicator, sn\_na\_analytics\_admin, sn\_na\_analytics\_configuration, genAI, Generative AI]
-breadcrumb: [Configuring AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Map a skill to a dashboard
 
-Map a Now Assist skill to a dashboard to view skill performance indicators and skill details.
+Map an AI skill to a dashboard to view skill performance indicators and skill details.
 
 ## Before you begin
 

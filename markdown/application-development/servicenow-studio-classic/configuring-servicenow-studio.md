@@ -1,31 +1,37 @@
 ---
 title: Configuring ServiceNow Studio
-description: ServiceNow Studio is available by default on the ServiceNow AI Platform. ServiceNow Studio leverages existing platform development tools. No additional configuration is required to use these tools in ServiceNow Studio.
+description: ServiceNow Studio is available by default on the ServiceNow AI Platform and requires no additional configuration. It uses the platform's existing development tools, so you can start building immediately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/configuring-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Configuring ServiceNow Studio
 
-ServiceNow Studio is available by default on the ServiceNow AI Platform. ServiceNow Studio leverages existing platform development tools. No additional configuration is required to use these tools in ServiceNow Studio.
+ServiceNow Studio is available by default on the ServiceNow AI Platform and requires no additional configuration. It uses the platform's existing development tools, so you can start building immediately.
 
 -   **[Domain separation and ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sn-studio-domain-separation.md)**  
 Domain separation is not supported for ServiceNow Studio. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Installing ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/installing-servicenow-studio.md)**  
 ServiceNow Studio is available for you to use on the ServiceNow AI Platform. You can also access premium features with an App Engine Enterprise license.
 -   **[Managing access to ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/manage-access-to-servicenow-studio.md)**  
-Admins, delegated developers, and users with Guided Application Creator \(GAC\) roles have access to work in ServiceNow Studio. Manage access to develop apps and app files in ServiceNow Studio by assigning delegated development permissions.
+Manage access to ServiceNow Studio by assigning delegated development permissions. Admins, delegated developers, and users with Guided Application Creator \(GAC\) roles can develop apps and app files in ServiceNow Studio.
 -   **[Managing access to the experience switcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/managing-access-experience-switcher.md)**  
 The experience switcher can provide access to Creator Studio, ServiceNow Studio, ServiceNow IDE. However, whether you can see and select all of those depends on your role or access level.
 -   **[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)**  
-You can collaborate, or share app development in ServiceNow Studio with other people in your company.
+Collaborate with other developers on app development in ServiceNow Studio by inviting them to co-create and develop apps with you.
+-   **[ServiceNow Studio settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-settings.md)**  
+Personalize settings and preferences in ServiceNow Studio to get the most out of the application development experience.
+-   **[Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/link-app-to-source-control.md)**  
+Link an application or application customization to a Git repository in ServiceNow Studio so application developers can manage changes directly from the platform.
+-   **[Import an app from source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-sc-import-app-source-control.md)**  
+Import an application from a Git repository into ServiceNow Studio to create a local copy of the app on your non-production instance. The repository must contain a valid ServiceNow application, and your credentials must have read access.
 
-**Parent Topic:**[Building applications with ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+**Parent Topic:**[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-07-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Task attributes in Add Equipment to Rack or Cabinet form
@@ -76,7 +76,7 @@ Exclusively Used
 By default, it is selected as **Yes**. Select **No** if you want to use the rack unit for multiple pieces of equipment. Also, on not selecting this field, you can place equipments in both the front and rear sides of the rack.**Note:**
 
 -   On selecting yes, the selected equipment occupies both front and rear of rack units.
--   You can place multiple pieces of equipment only on a **Shelf** equipment holder type. To learn more, see [2caa2ce394bb5b862e115716272080423ea5d70b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
+-   You can place multiple pieces of equipment only on a **Shelf** equipment holder type. To learn more, see [d6b4311e9e6d20e437a90859e72d01fe91da2ee8.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Telecommunications Network Inventory reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-reference.md)

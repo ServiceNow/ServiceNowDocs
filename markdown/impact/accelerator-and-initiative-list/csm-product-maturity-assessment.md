@@ -1,61 +1,70 @@
 ---
-title: Customer Service Management Product Maturity Assessment
-description: The Customer Service Management \(CSM\) Product Maturity Assessment Accelerator provides insight into your current ServiceNow CSM maturity level and targeted recommendations based on the current maturity level.
+title: CSM - Maturity Assessment
+description: This Accelerator assesses your current Customer Service Management \(CSM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/csm-product-maturity-assessment.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
-# Customer Service Management Product Maturity Assessment
+# CSM - Maturity Assessment
 
-The Customer Service Management \(CSM\) Product Maturity Assessment Accelerator provides insight into your current ServiceNow CSM maturity level and targeted recommendations based on the current maturity level.
+This Accelerator assesses your current Customer Service Management \(CSM\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 
-## Overview
+## Accelerator Overview
 
-Customer Service Management \(CSM\) Product Maturity Assessment provides Impact customers with insight into the maturity of CSM adoption and value with their ServiceNow platform. See [Exploring Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/exploring-csm.md) for information on CSM.
+Customer Service Management \(CSM\) Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this Accelerator helps maximize the value of their ServiceNow investment.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What you get
 
--   **CSM maturity assessment kick off session \(up to 2 hours\)**
+-   **CSM Maturity Assessment kick off session \(up to 1.5 hours\)**
+    -   Set expectations on the process and depth of deliverable
+    -   Communicate expectations for customer participation
+    -   Request data and any other inputs
+-   **CSM Maturity Assessment questionnaire**
 
-    Provides the following:
-
-    -   An overview of the CSM maturity assessment
-    -   Engagement expectations and activities
-    -   Key roles and responsibilities overview
-    -   Guidance to choose assessment participants
--   **CSM maturity assessment questionnaire**
-
-    Assessment participants will complete the CSM maturity questionnaire independently.
+    Your assessment participants will each be asked to independently fill out a pre-built CSM Maturity Assessment Questionnaire that asks them to grade targeted statements to assess gaps and opportunities with your CSM deployment.
 
 -   **Questionnaire results analysis \(time as needed per Impact Squad\)**
 
-    The Impact squad will:
+    The Impact squad performs the following:
 
-    -   Review and analyze the questionnaire scores
-    -   Compile tailored recommendations and leading practices
-    -   Schedule a Readout session to discuss the results and recommendations
--   **CSM maturity assessment recommendations readout session \(up to 2 hours\)**
+    -   Reviews and analyzes the questionnaire scores
+    -   Compiles tailored recommendations and leading practices
+    -   Provides guidance that will help you understand how to best maximize your CSM investment
+-   **CSM Maturity Assessment report**
 
-    The Impact Squad will:
+    The assessment report is compiled from the responses to the questionnaire and includes the following:
 
-    -   Presentation of the assessment results
-    -   Discussion of the targeted recommendations
-    -   Provide a suggested plan and resources
+    -   Maturity score
+    -   The top five recommendations grounded in ServiceNow leading practices 
+    -   Content, accelerators, and next steps where applicable
+    -   A complete list of recommendations observed
+-   **Customer read-out session \(up to 1.5 hours\)**
+    -   Deliver CSM Maturity Assessment report
+    -   Review CSM Maturity Assessment report:
+        -   Present the assessment results
+        -   Discuss targeted recommendations
+        -   Provide a suggested plan and resources to help you decide which recommendations to implement
+-   **Follow-up customer session \(optional on Customer request– up to 1 hour\)**
+    -   Review Customer progress
+    -   Identify additional resources to achieve Customer goals
+    -   Provide additional guidance on leading practices
 
 ## Requested customer resources
 
 One or more customer resources are requested. The specific number of resources provided is Accelerator and customer specific.
 
-<table id="table_kh2_jrq_dsb"><thead><tr><th>
+<table id="table_rz4_31b_fhc"><thead><tr><th>
 
 Customer Resource 
 
@@ -63,35 +72,73 @@ Customer Resource 
 
 Responsibilities 
 
+</th><th>
+
+ 
+
+</th><th>
+
+ 
+
 </th></tr></thead><tbody><tr><td>
 
-Platform owner \(Required\)
+Main Customer Contact, PMO
 
 </td><td>
 
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.Specific to the CSM Maturity Assessment, this individual is the primary contact for the duration of the engagement and carries out the following responsibilities:
+Primary contact for the duration of the engagement and carries out the following responsibilities:-   Gather and share the list of assessment participants.
+-   Ensure completion of the assessment by participants.
+-   Provide sponsorship for outputs based on the recommendations.
 
--   Gathers and shares the list of assessment participants
--   Ensures completion of the assessment by participants
--   Provides sponsorship for outputs based on the recommendations
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-Subject matter experts \(Required\)
+Assessment Participants
 
 </td><td>
 
-Includes the people within your organization that will be completing the assessment. Their responsibilities are: -   Complete the assessment by the agreed deadline
--   Raise any questions or concerns as soon as possible
+People within your organization who complete the assessment. Their responsibilities are:-   Complete the assessment by the agreed deadline.
+-   Raise any questions or concerns as soon as possible.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Process Owner
+
+</td><td>
+
+Owns the process being assessed.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Requested Information / Access
 
-N/A
+We request that the CSM Maturity questionnaire is completed by the customer virtually at least two weeks prior to the customer readout session.
 
-## Exceptions
+## Exclusions
 
-This Impact Accelerator in its entirety or portions of the Impact Accelerator Activities may not be available to customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, to self-hosted customers, or in other restricted environments, or to managed service providers \(except for their internal use\).
-
-ServiceNow resources aren't responsible for implementing CSM recommendations on the customer’s sub-production or production instances.
+-   This Impact Accelerator does not include a technical review of CSM.
+-   Assessment of other EWF capabilities beyond CSM is not included.
+-   ServiceNow is not responsible for implementing the recommendations made based on the CSM Maturity Assessment.
 

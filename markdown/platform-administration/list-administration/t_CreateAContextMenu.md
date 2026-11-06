@@ -7,9 +7,9 @@ release: yokohama
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering lists, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Customize list context menus
@@ -28,7 +28,7 @@ For example, you might add an option to the list column heading menu for a speci
 
 1.  Navigate to **All** &gt; **System UI** &gt; **UI Context Menus**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Complete the form.
 
@@ -151,8 +151,6 @@ onShow script
 The onShow script runs before the context menu is displayed, to determine which options appear in the context menu. For more information, see [onShow script for list context menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-administration/r_OnShowScript.md).
 
 </td></tr></tbody>
-</table>    \[Omitted image "ContextMenuForm.png"\] Alt text: Context menu form
-
-4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/domain-sep-now-assist-explorer.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Domain separation support for AI Data Explorer
@@ -28,7 +28,7 @@ For more information on support levels, see [Application support for domain sepa
 
 ## Overview of domain separation in AI Data Explorer
 
-The goal of AI Data Explorer is to provide shared spaces, called "explorations," where collaborators can ask for and discuss AI-generated data visualizations with summaries. The AI also suggests follow-up questions. AI Data Explorer shows data only from domains that collaborators can access.
+The goal of AI Data Explorer is to provide shared spaces, called "[explorations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md)," where collaborators can ask for and discuss AI-generated data visualizations with summaries. The AI also suggests follow-up questions. AI Data Explorer shows data only from domains that collaborators can access.
 
 ## How domain separation works in AI Data Explorer
 
@@ -36,7 +36,7 @@ When a user in an exploration asks a question of the AI, the answer is limited t
 
 All AI Data Explorer tables have domain fields to associate explorations to domains and restrict access accordingly.
 
-**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-explorer-reference.md)
+**Parent Topic:**[AI Data Explorer reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/aide-reference.md)
 
 **Related topics**  
 

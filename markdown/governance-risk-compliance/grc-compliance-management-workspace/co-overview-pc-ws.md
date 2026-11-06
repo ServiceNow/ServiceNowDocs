@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a control objective using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage a control objective from the overview page
@@ -25,14 +25,4 @@ The control assurance section helps you to know if different attestations are in
 For more contextual information about the control objective, select the sidebar icon \(\[Omitted image "pc-ws-sidebar-icon.png"\] Alt text: Sidebar icon.\). For a given control objective record, you can view the hierarchy of mappings back to the authority documents and policies that show why you do the actions indicated in the control objective.
 
 A control objective record has many related lists that come from different applications such as Advanced Risk, GRC Metric, PaCE, and others, which are listed next to the Overview. You can map or associate any of these available related list item with the control objective. For example, if you would like to add an entity type to the control objective, you can navigate to the Entity types related list, select the **Add** button, and map the required entity type.
-
-## Control objective requirements
-
-A control objective requirement is a granular layer under a control objective that specifies a distinct compliance condition or expectation. Each control objective can have multiple statements, and each statement becomes a control objective requirement.
-
-When control objectives are imported, if any control objective requirements are available in the source, they will also be imported with the control objective.
-
-Control objective requirements can also be manually added or selected from existing requirements when configuring a control objective.
-
-When controls are generated under an entity, the control objective requirements help create corresponding control requirements.
 

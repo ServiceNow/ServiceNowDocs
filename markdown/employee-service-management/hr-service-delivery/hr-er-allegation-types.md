@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery employee relations allegation types and subtypes
+title: Employee relations allegation types and subtypes
 description: Allegation types and subtypes help you further define an employee relations case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-allegation-types.html
@@ -7,20 +7,22 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery employee relations allegation types and subtypes
+# Employee relations allegation types and subtypes
 
 Allegation types and subtypes help you further define an employee relations case.
 
-Allegation types and subtypes are attached to an HR Service Delivery ER case and are the foundation for the case.
-
-When creating an allegation type, you directly associate subtypes.
-
-Subtypes further define an allegation and provide flexibility to categorize an employee relation case and provide specific details.
+An allegation is a high-level category and allegation subtype provide more details about the allegation. For example, **Allegation** can be **Fraud and Theft** and **Allegation Subtype** can be **Forgery**. Allegation types and subtypes are attached to an HR Service Delivery ER case and are the foundation for the case.
 
 The base system provides allegation types and subtypes that you can use immediately.
+
+\[Omitted image "er-allegation-types.png"\] Alt text: Default Allegation types
+
+\[Omitted image "er-allegation-subtypes.png"\] Alt text: Default Allegation Subtypes
+
+You can also create allegation types and subtypes based on your business needs. See [Configure an employee relations allegation type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-allegation-type.md).
 

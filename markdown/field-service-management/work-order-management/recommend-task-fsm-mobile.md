@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Assign tasks to yourself based on Intelligent Task Recommendation
@@ -47,5 +47,12 @@ As an agent, you can log in to the Now® Mobile Agent application to view the re
 
 The task with the highest recommendation score is automatically assigned to you.
 
-**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
+**Related topics**  
+
+
+[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-task-recommendation.md)
+
+[Configuring Intelligent Task Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/administer-task-recommendations.md)
+
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 

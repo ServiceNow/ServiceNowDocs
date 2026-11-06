@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Notify, Reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Components installed with Notify, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Roles installed with Notify
@@ -24,7 +24,7 @@ To learn more about managing subscriptions, see [Managing per-user subscriptions
 
 **Parent Topic:**[Components installed with Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/notify/installed-with-notify2.md)
 
-## Notify administrator \[notify\_admin\]
+## Notify administrator \[notify\_setup\_admin\]
 
 Administrator with privileges for Notify 2 functionality.
 
@@ -32,6 +32,8 @@ Administrator with privileges for Notify 2 functionality.
 
 List of roles contained within the role.
 
+-   notify\_admin
+-   sn\_twilio\_direct.admin
 -   workflow\_admin
 -   workflow\_creator
 -   workflow\_publisher

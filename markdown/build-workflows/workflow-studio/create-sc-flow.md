@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow with a Service Catalog trigger
@@ -41,6 +41,8 @@ Unlike a record trigger which runs on all records in a table, the Service Catalo
         For a detailed description of catalog item fields, see [Catalog Item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/catalog-item-form.md).
 
         **Note:** If you plan to add stages to your flow, verify that there is not an existing workflow associated with the item that also has stages. Clear the values of the **Workflow** and **Execution Plan** fields to prevent conflicting stages from reporting to the requested item stage field.
+
+    4.  Clear any existing values in the **Workflow** and **Execution Plan** fields.
 
 2.  Create the flow to associate with the catalog item.
 

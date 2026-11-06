@@ -1,0 +1,196 @@
+---
+title: Connecting Zero Copy Connector for ERP to ERP using OData
+description: Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/erp-canvas-use-odata-and-http-connection.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: concept
+last_updated: "2026-08-05"
+reading_time_minutes: 3
+keywords: [erp, canvas, erp canvas, model, integration, data hub, zero, copy, connector, sap, odata, connection]
+breadcrumb: [Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Connecting Zero Copy Connector for ERP to ERP using OData
+
+Extract data securely from ERP OData v2 APIs for use in remote tables and extraction tables.
+
+**Important:**
+
+OData v2 doesn't use snapshot isolation, so you might experience some data consistency issues when retrieving data from an external ERP source.
+
+## Providing OData access to users
+
+You must have an ERP system enabled for OData connections.
+
+To give users OData access, see the following instructions on the SAP help site: [Back-End Server: Assign OData Service Authorization to Users](https://help.sap.com/doc/saphelp_ssb/1.0/en-US/6f/0e415370107d77e10000000a441470/content.htm?no_cache=true).
+
+## Enabling download of XML files
+
+The glide.attachment.extensions system property restricts the file types that can be downloaded. This property is empty by default. Check that the xml file extension hasn't been added to this property. For more information, see .
+
+## System properties
+
+The following are properties related to OData.
+
+<table id="table_qkj_xs4_bdc"><thead><tr><th>
+
+Property
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th><th>
+
+Create manually?
+
+</th><th>
+
+Role needed to edit property
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_erp\_integration.catalog\_service\_path
+
+</td><td>
+
+string
+
+</td><td>
+
+After the hostname and port, this path is used to connect with the SAP catalog service on every ERP system in the instance. The default is `/sap/opu/odata/iwfnd/CATALOGSERVICE;v=2/ServiceCollection`.
+
+ The value must be the address of the OData Service Catalog. This property applies to all ERP systems in the instance. You can't set a different catalog service path for each system. If an ERP system exposes its catalog service at a different path, its services aren't retrieved. To use those services, add them manually. For more information, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
+
+ After creating the property and setting its value to the catalog service path, a list of all services is retrieved from SAP. The information is stored in an XML file and attached to the system record. The XML can be used later. For example, parse the XML while offline with no connection to SAP.
+
+ **Note:** To update the table catalog information after the catalog service changes, first remove the attachment displayed on the ERP Systems page. Then, run the retrieval process again to refresh the list.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+admin
+
+</td></tr><tr><td>
+
+sn\_erp\_integration.odata\_max\_record\_fetch\_limit
+
+</td><td>
+
+integer
+
+</td><td>
+
+Limits the number of records fetched for GET calls by adding the $top parameter to the OData calls. This reduces the number of records read from the OData endpoint.
+
+</td><td>
+
+No
+
+</td><td>
+
+admin
+
+</td></tr><tr><td>
+
+sn\_erp\_integration.odata\_service\_path
+
+</td><td>
+
+string
+
+</td><td>
+
+After the hostname and port, this path is used to connect with any SAP OData service. Add a URL in **Value** to specify the OData service. The value is a single path, not a list of paths. The default is `/sap/opu/odata/sap`.
+
+</td><td>
+
+Yes
+
+</td><td>
+
+admin
+
+</td></tr><tr><td>
+
+sn\_erp\_integration.response\_timeout
+
+</td><td>
+
+integer
+
+</td><td>
+
+Specifies the timeout value for OData response. If OData calls time out frequently, increase the timeout value. Specify the value in seconds. The default is 100 seconds. This value is used for responses both from external web and from a MID Server.
+
+</td><td>
+
+No
+
+</td><td>
+
+admin or sn\_erp\_integration.erp\_admin
+
+</td></tr><tr><td>
+
+sn\_erp\_integration.use\_cookies
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+Specifies whether to use cookies for an OData connection.
+
+</td><td>
+
+No
+
+</td><td>
+
+admin or sn\_erp\_integration.erp\_admin
+
+</td></tr><tr><td>
+
+sn\_erp\_integration.use\_csrf\_token
+
+</td><td>
+
+true \| false
+
+</td><td>
+
+Indicates whether a CSRF token is sent for OData calls in Zero Copy Connector for ERP operations.
+
+</td><td>
+
+No
+
+</td><td>
+
+admin or sn\_erp\_integration.erp\_admin
+
+</td></tr></tbody>
+</table>**Note:** To add a property manually, verify that your scope is set to Zero Copy Connector for ERP, then navigate to sys\_properties.list and select **New**.
+
+## Heartbeat information
+
+For an ERP system, there are separate heartbeat indicators for RFC and HTTP. When a system is established, the heartbeats are set to active and the status is updated, including any errors. If the heartbeat calls are successful, BAPI and OData retrieval is triggered in parallel and the status appears on the system record.
+
+\[Omitted image "erpc-system-heartbeats.png"\] Alt text: System record with OData retrieval status of completed.
+
+## More information
+
+For more information about using OData in Zero Copy Connector for ERP, see [Create an OData connection in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/create-an-odata-connection.md) and [OData capabilities supported by Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-data-hub-odata-query-capabilities.md).
+

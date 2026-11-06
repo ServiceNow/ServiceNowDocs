@@ -7,7 +7,7 @@ release: yokohama
 product: e-Signature
 classification: e-signature
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [E-signature, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,6 +28,8 @@ You can then use the e-signature template in task forms to request electronic si
 
 -   **[Create or modify an e-signature template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/e-signature/configure-e-signature-configuration.md)**  
 Create or modify an e-signature template to define an electronic document and signature configuration for use in task forms.
+-   **[Using e-signature template for non-HR tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/e-signature/configure-e-signature-non-hr.md)**  
+Create or modify an e-signature template to define an electronic document and signature configuration for use in non-HR task forms.
 
 **Parent Topic:**[E-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/e-signature/e-signature.md)
 

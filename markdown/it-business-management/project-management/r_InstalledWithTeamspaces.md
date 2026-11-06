@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Teamspaces in Project Management, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Teamspaces in Project Management, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Installed with teamspaces

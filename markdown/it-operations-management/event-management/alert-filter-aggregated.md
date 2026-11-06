@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure filters for automatic alert groups, Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure filters for automatic alert groups, Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Apply alert group filters to aggregated groups
@@ -42,11 +42,11 @@ Role required: evt\_mgmt\_admin
 
     **Note:** If the value of the **Automated** field changes, the value of the **Aggregated** field also changes. You can change the value of the **Aggregated** field only if the value of the **Automated** field is true.
 
-4.  Select **true** for the specified filter to apply to groups with identical CIs and pattern identifiers or select **false** to ignore the filter and create aggregated groups for all alerts in the system.
+4.  Select **true** to apply the filter to groups with identical CIs and pattern identifiers, or **false** to create aggregated groups for all alerts.
 
 
 **Related topics**  
 
 
-[Specify and manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md)
+[Manage pattern identifier attributes for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.md)
 

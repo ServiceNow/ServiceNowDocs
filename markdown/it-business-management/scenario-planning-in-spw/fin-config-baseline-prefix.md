@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for planning items in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configure financials for planning items Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Create a custom prefix for baseline
@@ -22,7 +22,7 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
+1.  Navigate to **All** and type in **sys\_properties.list** in the filter box.
 
 2.  Filter the name filed to locate and open **sn\_invst\_pln.baseline\_prefix**.
 

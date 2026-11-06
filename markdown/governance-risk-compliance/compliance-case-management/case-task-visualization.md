@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # 360° Relationship Visualization of a compliance case
@@ -34,9 +34,7 @@ The 360º view of a compliance case record offers a comprehensive and detailed p
 
 The 360º view enables you to access information about the source from which the compliance case has been raised.
 
-The following example shows the entities linked to a compliance case:
-
-\[Omitted image "compliance-case-visualization.png"\] Alt text: Entities linked to compliance case.
+The following example shows the entities linked to a compliance case:\[Omitted image "compliance-case-visualization.png"\] Alt text: Entities linked to compliance case.
 
 **Parent Topic:**[Exploring Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/ccm-overview.md)
 

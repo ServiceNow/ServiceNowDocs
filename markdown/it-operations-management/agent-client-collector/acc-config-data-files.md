@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-09-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector configuration data files
@@ -20,7 +20,7 @@ Configuration data files store dynamic instance data, such as virtual machine de
 
 -   Attachment based: A configuration data file contains a single attachment with instance data, such as Azure VM details.
 -   Synchronization: When an attachment is added or deleted, the data file is synchronized across all MID Servers configured with the Agent Client Collector. If a file or its attachment is deleted, it is also removed from the MID Server.
--   Access point: The configuration data files can be accessed on the MID Server at `\static\acc_config`.
+-   Access point: The configuration data files can be accessed on the MID Server at `static/cache/config-files`.
 -   Size: Configuration data files cannot be larger than 10MB.
 
 ## Check definitions used by configuration data files
@@ -43,5 +43,5 @@ Configuration data files serve as a repository for dynamic instance data that is
 -   Execute with updated data: During execution, the Agent Client Collector agent downloads the relevant configuration data file from the MID Server. The agent uses this data to execute the check, ensuring access to the most current and accurate instance information.
 -   Store and access data: Configuration data files are stored on the MID Server in the `static/cache/config-files` directory. This storage location facilitates easy access and management, ensuring the necessary data for checks is always available when needed.
 
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
+**Parent Topic:**[Deploying Agent Client Collector on both servers and endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-shared-deployment.md)
 

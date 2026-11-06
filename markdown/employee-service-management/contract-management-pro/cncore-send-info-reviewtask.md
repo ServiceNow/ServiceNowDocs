@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Internal review, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Share requested information for internal review
@@ -28,15 +28,15 @@ The work notes added when requesting information are available in the Activity s
 
 1.  Open the review task from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d147190e61">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d154801e61">
 
 Method
 
-</th><th align="left" id="d147190e64">
+</th><th align="left" id="d154801e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d147190e70">
+</th></tr></thead><tbody><tr><td id="d154801e70">
 
 **Contract Workspace listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Open the review task from the list
 
 
-</td></tr><tr><td id="d147190e117">
+</td></tr><tr><td id="d154801e117">
 
 **Contract Workspace landing page**
 
@@ -59,7 +59,7 @@ Steps
 3.  Open the review task from the list
 
 
-</td></tr><tr><td id="d147190e150">
+</td></tr><tr><td id="d154801e150">
 
 **Workspace used by your application**
 
@@ -70,7 +70,7 @@ Steps
 3.  Open the review task from the list.
 
 
-</td></tr><tr><td id="d147190e171">
+</td></tr><tr><td id="d154801e171">
 
 **Reviews tab**
 
@@ -98,5 +98,5 @@ Steps
 
 The information is shared with reviewer and the review task State changes to Work in progress.
 
-**Parent Topic:**[Internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
+**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

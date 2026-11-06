@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2026-02-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---

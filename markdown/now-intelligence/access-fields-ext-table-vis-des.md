@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/access-fields-ext-table-vis-des.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [extended table]
 breadcrumb: [Dot-walking from reference fields, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -25,9 +25,9 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-2.  Select **New**.
+2.  Select **Create data visualization**.
 
 3.  Create any of the data visualizations listed under [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/creating-data-visualizations.md), selecting a table data source.
 

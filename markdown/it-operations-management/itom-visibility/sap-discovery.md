@@ -1,15 +1,15 @@
 ---
 title: SAP products discovery
-description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map an service instance containing an SAP applications and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
+description: ITOM Visibility can discover SAP applications, SAP HANA Database, and SAP HANA DB Catalog. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.Map a service instance containing an SAP application and verify that Service Mapping discovered all SAP components correctly.Fix basic discovery issues based on the symptoms and discovery messages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/sap-discovery.html
 release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-12-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Software discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # SAP products discovery
@@ -225,7 +225,7 @@ The SAP HANA DB Catalog pattern can only run on UNIX.
 
 ## Map application services containing SAP applications
 
-Map an service instance containing an SAP applications and verify that Service Mapping discovered all SAP components correctly.
+Map a service instance containing an SAP application and verify that Service Mapping discovered all SAP components correctly.
 
 ### Before you begin
 
@@ -237,7 +237,7 @@ Role required: service\_mapping\_admin
 
     1.  Navigate to **All** &gt; **Service Mapping** &gt; **Service Instances**.
 
-    2.  Click **New**.
+    2.  Select **New**.
 
         The **Discoverable by Service Mapping** option is selected by default.
 
@@ -259,17 +259,17 @@ Role required: service\_mapping\_admin
              http://<hostname>:<port>/sap/bc/srt/scs/sap/z_servicenow_read?sap-client=003
             ```
 
-    3.  Click **Add**.
+    3.  Select **Add**.
 
-    4.  Click **Save**.
+    4.  Select **Save**.
 
-3.  Click **Additional Info** on the left and clear the **Traffic based discovery** check box.
+3.  Select **Additional Info** on the left and clear the **Traffic based discovery** check box.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 5.  Verify that the mapping result is satisfactory:
 
-    1.  Click **View Map** and wait until the mapping is complete.
+    1.  Select **View Map** and wait until the mapping is complete.
 
         It may take a few minutes.
 
@@ -366,7 +366,7 @@ The pattern fails at the EVAL function for identifying the web service, because 
 
 ### Cause 3
 
-The pattern fails at the EVAL function for identifying the web service, because the URL configured in the entry point is not correct or because the MID Server cannot access this URL.
+The pattern fails at the EVAL function for identifying the web service. This occurs because the URL configured in the entry point is not correct or because the MID Server cannot access this URL.
 
 ### Solution 3
 

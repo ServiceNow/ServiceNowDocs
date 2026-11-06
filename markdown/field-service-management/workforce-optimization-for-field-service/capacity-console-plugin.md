@@ -1,5 +1,5 @@
 ---
-title: Activate Field Service Capacity console
+title: Activate Field Service Advanced Capacity and Reservations management
 description: You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Field Service Capacity and Reservations Management, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Capacity and Reservations Management, Set up workforce, Configure, Field Service Management]
 ---
 
-# ActivateField Service Capacity console
+# ActivateField Service Advanced Capacity and Reservations management
 
 You can activate the Field Service Advanced Capacity and Reservations management \(com.snc.fsm\_advanced\_capacity\_management\) for Field Service Management if you have the admin role.
 
@@ -25,6 +25,7 @@ You can activate the Field Service Advanced Capacity and Reservations management
 
         -   Field Service Capacity and Reservations Management \(com.snc.fsm\_capacity\_management\) plugin.
         -   Field Service Territory Planning \(com.snc.fsm\_territory\_planning\) plugin.
+        -   Enable territory model. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
 Role required: admin.
 

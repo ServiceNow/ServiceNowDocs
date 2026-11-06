@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/question-property-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Quizzes reference, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -134,7 +134,7 @@ Choices
 
 </td><td>
 
-Options for a question with a data type of **Choice** or **Scale**. The system automatically adds text and values that you can edit for each option. Click the **+** icon to add an option, or click the **X** icon to delete an option. By default, the system arranges options in the order established by their values. To change the order, drag and drop the options. \[Omitted image "QuizDesignerChoiceValue.png"\] Alt text: Choice values
+Options for a question with a data type of **Choice** or **Scale**. The system automatically adds text and values that you can edit for each option. Click the **+** icon to add an option, or click the **X** icon to delete an option. By default, the system arranges options in the order established by their values. To change the order, drag and drop the options.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

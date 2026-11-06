@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-details-chat-zoom.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Chat Zoom Connector, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Chat Zoom Connector, Customer communication, Use, Customer Service Management]
 ---
 
 # View details for Zoom meetings initiated from chats

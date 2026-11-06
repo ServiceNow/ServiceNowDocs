@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Lifecycle Operations workflows, Using Financial Services Customer Lifecycle Operations, Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Workflows, Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Onboard new accounts, contacts, or consumer workflows
@@ -42,10 +42,8 @@ In the Financial Services Customer Lifecycle Operations application, agents foll
 4.  Evaluation:
     -   The KYC, Credit, and Tax Agents assess the applicant for any adverse records or negative history.
     -   If the applicant meets the financial institution's standards, the agents mark their respective tasks as complete.
-5.  Account Creation and Fulfillment:
-    -   Once all previous tasks are completed, the Fulfillment Agent creates the account and closes the fulfillment CLO task.
-6.  Case Completion:
-    -   The case is considered complete, and the state and stage of the case are set to Closed Complete.
+5.  Account Creation and Fulfillment: Once all previous tasks are completed, the Fulfillment Agent creates the account and closes the fulfillment CLO task.
+6.  Case Completion: The case is considered complete, and the state and stage of the case are set to Closed Complete.
 
 By following this general onboarding workflow, agents ensure a smooth and efficient onboarding process for new accounts, contacts, and consumers in the Financial Services Customer Lifecycle Operations application.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring 
 The Sample Footer widget is an example of a footer you can use in your portal. You can use this base system widget as-is in your portal or clone it to suit your own business needs.
 
 Unlike other widgets in Service Portal, you add a footer to your portal by configuring it in the Theme form. For more information on adding a footer to a portal, see [Add a header or footer to a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-header-menu.md).
-
-\[Omitted image "WidgetSampleFooter.png"\] Alt text: Sample Footer widget with a SerivceNow copyright as an example
 
 ## Instance options
 

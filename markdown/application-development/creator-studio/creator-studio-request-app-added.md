@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [App creation in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [App creation, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Ask an admin to create an app for you in Creator Studio
@@ -30,7 +30,7 @@ Here’s how to ask an admin to create an app for you.
 
 1.  Let's open Creator Studio. On your instance, select the **All** tab.
 
-    \[Omitted image "cs-all-menu.png"\] Alt text: All tab in your instance
+    \[Omitted image "cs-all-menu.png"\] Alt text: Interface showing All, Favorites, and History tabs with a Filter field.
 
     This tab lets you see all the apps installed on your instance.
 
@@ -67,7 +67,7 @@ To learn all the things you can do as the app owner when building the app, see [
 
 **For admins:**
 
--   Every app built in Creator Studio adds a record in the Request App Config table. The table’s name follows the format of scope\_request, for example, x\_snc\_02\_03\_request.However, you can change the table for an app after you create it. For more details, check out [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md).
+-   Every app built in Creator Studio adds a record in the Request App Config table. The table’s name follows the format of scope\_request, for example, x\_snc\_02\_03\_request.However, your admin can change the table for an app after you create it. For more details, check out [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md).
 -   You’ll review and approve app requests in the Application Tasks table of the Request App Administration app.
 
 **Parent Topic:**[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-creating-apps.md)

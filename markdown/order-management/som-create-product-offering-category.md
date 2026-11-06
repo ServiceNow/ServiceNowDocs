@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-product-offering-category.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering category
@@ -16,11 +16,15 @@ Define a product offering category used to organize similar product offerings in
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
+
+## About this task
+
+**Note:** Creating a product offering category and associating it to the product offering is required for validating product offerings before publishing them using the In Test and Staged intermediate life cycle states. For more information on the life cycle states, see [Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/extended-product-lifecycle-states.md).
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Categories**.
 
@@ -128,7 +132,13 @@ Product code for the category. The system automatically generates a code based o
 
     1.  In the Catalogs tab, select **New**.
 
-    2.  In the Catalog Category form, select the published Catalog to which this category belongs and select **Save**.
+    2.  In the Catalog Category form, select the published Catalog to which this category belongs.
+
+    3.  Control where the category appears relative to the catalog's other categories by entering a value in the **Order** field.
+
+        If left empty, the categories are sorted alphabetically with other unordered categories in this catalog.
+
+    4.  Select **Save**.
 
 7.  In the Details tab for the category, select **Publish**.
 
@@ -140,4 +150,11 @@ Product code for the category. The system automatically generates a code based o
 ## What to do next
 
 [Create product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-offering.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

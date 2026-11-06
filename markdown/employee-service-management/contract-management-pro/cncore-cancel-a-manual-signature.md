@@ -1,20 +1,20 @@
 ---
 title: Cancel the signature process
-description: Cancel a wet signature process for contract documents that have been sent to signatories.
+description: Cancel a signature process for contract documents that have been sent to signatories.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-cancel-a-manual-signature.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Signature workflow for a contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Signature workflow for a contract request, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Cancel the signature process
 
-Cancel a wet signature process for contract documents that have been sent to signatories.
+Cancel a signature process for contract documents that have been sent to signatories.
 
 ## Before you begin
 
@@ -37,7 +37,7 @@ The state of the contract request should be Awaiting signature.
 
 ## Result
 
-The contract status updates to Signature cancelled, and a notification email is sent to all signatories.
+The contract status updates to Signature cancelled. For wet signature and electronic signature, a notification email is sent to all signatories. For offline signature, no notification email is sent to the signatories.
 
 **Parent Topic:**[Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signature-workflow.md)
 

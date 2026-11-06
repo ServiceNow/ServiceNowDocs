@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -62,7 +62,7 @@ Impact
 
 </td><td>
 
-The impact on the outcome of the demand if you do not implement the action.
+The impact on the outcome of the demand if you don’t implement the action.
 
 </td></tr><tr><td>
 
@@ -102,9 +102,7 @@ Short description
 
 </td><td>
 
-Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome.As you start typing the title for your action, the related actions that potentially match your action title appear.
-
- Click the Suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: suggestion icon\) to select a description from the list of predefined actions.
+Brief description of the action such as what the action entails, how to implement the action, who it affects, and the action outcome. Select the Suggestion icon \[Omitted image "demand-suggestion-icon.png"\] Alt text: to select a description from the list of predefined actions.
 
 </td></tr><tr><td>
 

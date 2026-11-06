@@ -1,20 +1,20 @@
 ---
 title: SAFe ART Dashboard
-description: Visualize how the ART members are progressing on features and program increments \(PIs\) over a given period using the SAFe ART dashboard. Gain insight on the overall velocity of the ART members, historical performance of the ART on the PI objectives so that you can plan the work accordingly for the upcoming program increments.
+description: Visualize how the ART members are progressing on features and program increments \(PIs\) over a given period using the SAFe ART dashboard. Gain insight on the overall velocity of the ART members, historical performance of the ART on the PI objectives. Use this information to plan the work for the upcoming program increments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scaled-agile-framework-safe/safe-art-dashboard.html
 release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
 
 # SAFe ART Dashboard
 
-Visualize how the ART members are progressing on features and program increments \(PIs\) over a given period using the SAFe ART dashboard. Gain insight on the overall velocity of the ART members, historical performance of the ART on the PI objectives so that you can plan the work accordingly for the upcoming program increments.
+Visualize how the ART members are progressing on features and program increments \(PIs\) over a given period using the SAFe ART dashboard. Gain insight on the overall velocity of the ART members, historical performance of the ART on the PI objectives. Use this information to plan the work for the upcoming program increments.
 
 \[Omitted image "safe-ART-summary.png"\] Alt text: SAFe ART Summary tab
 
@@ -30,7 +30,7 @@ Visualize how the ART members are progressing on features and program increments
 
 ## Data visualizations
 
-If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Essential SAFe, then install this dashboard from Solution Library to upgrade its layout and access the Story Cycle Time report. For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
+If you are upgrading from version 1.0.2 or earlier of Performance Analytics Content Pack for Essential SAFe, then install this dashboard from Solution Library. This upgrades its layout and provides access to the Story Cycle Time report. For more information, see [Using Solution Library for Essential SAFe dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/using-solution-library-for-essential-safe-dashboards.md).
 
 <table id="table_xvt_hl4_2fb"><thead><tr><th>
 
@@ -50,7 +50,7 @@ Feature Progress
 
 </td><td>
 
-Horizontal bar chart\[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart
+Horizontal bar chart\[Omitted image "inline-data-vis-96px-bar-horizontal.png"\] Alt text:
 
 </td><td>
 
@@ -62,7 +62,7 @@ Velocity by PI
 
 </td><td>
 
-Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -87,7 +87,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -104,7 +104,7 @@ Identify the time taken for each story in the ART to move from an in-progress st
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
+ If the bubbles appear crowded in an area of the chart, zoom in on that area for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 
@@ -127,7 +127,7 @@ ART: Program Predictability
 
 </td><td>
 
-Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 

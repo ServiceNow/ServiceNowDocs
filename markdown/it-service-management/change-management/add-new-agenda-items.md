@@ -1,5 +1,5 @@
 ---
-title: Add new CAB meeting agenda items
+title: Add CAB meeting agenda items
 description: You can add an agenda item to your CAB meeting to customize the agenda and make the meeting more effective.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/add-new-agenda-items.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the CAB Workbench, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
-# Add new CAB meeting agenda items
+# Add CAB meeting agenda items
 
 You can add an agenda item to your CAB meeting to customize the agenda and make the meeting more effective.
 
@@ -20,15 +20,21 @@ You can add an agenda item to your CAB meeting to customize the agenda and make 
 
 Role required: admin
 
+## About this task
+
+The **Agenda Items** related list connects a change request \(RFC\) to the CAB meetings where the change is reviewed. Each agenda item record uses the fields described in the **CAB Agenda Item form** table.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Change** &gt; **Change Advisory Board** &gt; **All CAB Meetings**.
 
-    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see .
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
 2.  Select the CAB meeting record that you want to add an agenda item to.
 
-3.  In the **Agenda Items** context menu, select **New**.
+3.  In the **Agenda Items** related list, select **New**.
+
+    The **Agenda Items** related list is on the CAB meeting record.
 
     **Note:** If the **New** button does not appear on the **Agenda Items** related list, confirm that you have a required role and that the CAB meeting is in a state that allows adding agenda items.
 
@@ -56,7 +62,7 @@ Task
 
 </td><td>
 
-Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Yokohama .
+Lookup list to select the change request or standard change proposal.**Note:** The standard change proposal is available for selection only from Brazil.
 
 </td></tr><tr><td>
 
@@ -64,7 +70,7 @@ Order
 
 </td><td>
 
-Order that the agenda items will be reviewed during the CAB meeting.
+Order that the agenda items are reviewed during the CAB meeting.
 
 </td></tr><tr><td>
 

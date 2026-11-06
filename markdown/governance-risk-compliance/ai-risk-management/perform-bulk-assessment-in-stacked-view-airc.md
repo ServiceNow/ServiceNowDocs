@@ -7,8 +7,9 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-11-27"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [stacked view, bulk risk assessment, risk assessment project]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -48,15 +49,15 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
     If more than one assessor is defined in the Stakeholder section, the assessor who opens the assessment first becomes the current assessor of the risk assessment project.
 
-5.  To reassign the project, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions., and select **Reassign**.
+5.  To reassign the project, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Reassign**.
 
 6.  To add risks to the project, you can do the following:
 
-    1.  To create risks from the risk statement, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Create from risk statements**.
+    1.  To create risks from the risk statement, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Create from risk statements**.
 
-    2.  To add a risk that is not in the library, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Create ad hoc risk**.
+    2.  To add a risk that is not in the library, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Create ad hoc risk**.
 
-    3.  To add any underlying risks that have been removed, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Add risk**.
+    3.  To add any underlying risks that have been removed, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Add risk**.
 
     The risks with an in-progress assessment can't be added as part of the risk assessment project.
 
@@ -82,7 +83,7 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
 
 9.  To view the complete summary of the assessment, select **View summary**.
 
-10. To check for any errors in the assessment before you submit the assessment, select the \[Omitted image "more-actions-vertical-icon.png"\] Alt text: more actions. icon, and select **Validate**.
+10. To check for any errors in the assessment before you submit the assessment, select the more actions icon \[Omitted image "more-actions-vertical-icon.png"\] Alt text:, and select **Validate**.
 
     You can see the list of errors, if any, that must be resolved in the side panel for the selected risk.
 
@@ -95,5 +96,22 @@ You can perform the bulk risk assessment either from the Employee Center or AI C
     Assessments are validated again in this stage. Review the assessment summary before you submit. You can’t make any changes after submission.
 
 
+## Result
+
+The bulk risk assessment is submitted for approval. The project moves to the **Approval** stage. If any risk has a High inherent rating, the approval request is sent to the project owner. Once approved, the project moves to **Completed**.
+
+## What to do next
+
+After submission, the project moves to the Approval stage. If any risk has a High inherent rating, the approval is sent to the project owner. Once approved, the project moves to Completed. For an alternative assessment interface, see [Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md).
+
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
+
+[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)
+
+[Risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.md)
 

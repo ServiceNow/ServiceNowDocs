@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building actions, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create an action in Workflow Studio
@@ -18,7 +18,6 @@ Create a reusable component to automate one or more steps of a process.
 
 ## Before you begin
 
--   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/set-up-app.md) to store Workflow Studio content.
 -   Role required: flow\_designer, action\_designer or admin
 
 ## About this task
@@ -33,7 +32,7 @@ Creating a custom application to contain your Workflow Studio content enables yo
 
 2.  Select **New** &gt; **Action**.
 
-3.  Fill in the Action Properties and click **Submit**.
+3.  Fill in the Action Properties and select **Submit**.
 
     |Field|Description|
     |-----|-----------|
@@ -103,14 +102,14 @@ Advanced options
 
 Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring an action to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
 
- Click \[Omitted image "icon-advanced-input.png"\] Alt text: Open icon to view the advanced options and define values.
+ Select \[Omitted image "icon-advanced-input.png"\] Alt text: Open icon to view the advanced options and define values.
 
 </td></tr></tbody>
 </table>        Inputs are represented as data pills in the right-hand pane. You can add inputs to steps and outputs in the flow by dragging and dropping data pills.
 
 5.  Add an action step to perform an operation on the action inputs.
 
-    1.  Click the **+** underneath Inputs in the Action Outline.
+    1.  Select the **+** underneath Inputs in the Action Outline.
 
     2.  Select the step you would like to perform.
 
@@ -160,7 +159,7 @@ Value
 Data used previously in the action either in a step or input. Adding a variable to the output makes the value available to the flow.
 
 </td></tr></tbody>
-</table>8.  Click **Save**.
+</table>8.  Select **Save**.
 
     Workflow Studio saves a draft of the action.
 

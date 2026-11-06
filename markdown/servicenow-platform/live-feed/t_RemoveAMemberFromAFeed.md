@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,10 +29,6 @@ Role required: none
 3.  Click the **Members** tab.
 
 4.  Locate the member you want to remove and click **Remove**.
-
-    \[Omitted image "RemoveMember.png"\] Alt text: Remove member
-
-    **Note:** You can remove members regardless of their current state. That is, you can remove members who have already joined the feed or whose membership is pending.
 
 
 **Parent Topic:**[Use feeds in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseFeedsInLiveFeed.md)

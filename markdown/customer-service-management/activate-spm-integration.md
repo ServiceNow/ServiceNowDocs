@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-spm-integration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Service Portfolio Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Service Portfolio Management, Integrate, Customer Service Management]
 ---
 
 # Activate Customer Service Management with Service Portfolio Management

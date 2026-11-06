@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Select and assign multiple tasks, Assigning work order tasks to agents using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Choose tasks to run, Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Confirm Assignment pop-up window
@@ -70,6 +70,4 @@ Clicking **Save** confirms the task assignment recommendations listed in the Con
 ## Task assignment debug log
 
 System administrators can also view task assignment debug logs in the Confirm Assignment pop-up window by enabling the **com.snc.dynamic.scheduling.showlogs** system property. This information is displayed below each task in the pop-up window. Collapse or expand the debug log by clicking on the task.
-
-**Parent Topic:**[Select and assign multiple tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/select-tasks-for-bulk-assignment.md)
 

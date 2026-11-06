@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-use-list-functions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Lists in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -68,7 +68,7 @@ To sort a list, use one of the following methods:
 
 [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ChoiceLists.md)
 
-[Integer values for default choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_IntValsForDfltChoiceList.md)
+[bundle-platadm.c_IntValsForDfltChoiceList]
 
 ## Configure field status indicators
 

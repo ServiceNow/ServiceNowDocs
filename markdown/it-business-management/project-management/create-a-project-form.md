@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 20
-breadcrumb: [Form field information for Project Management, Reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Project Management, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project form
@@ -46,7 +46,10 @@ Status
 
 </td><td>
 
-Current status of the project. This information is retrieved from the **Overall health** field in the most recent project status report of the project.
+Current status of the project. This information is retrieved from the **Overall health** field in the most recent project status report of the project.-   **No status**: This is unset state indicating that a project has not been assigned a status value or status has not been determined.
+-   **Green**: The planned end date for the project task is more than the offset working days that you defined.
+-   **Yellow**: The planned end date for the project task is less than the offset working days that you defined.
+-   **Red**: The planned end date for the project task is past the offset working days that you defined.
 
 </td></tr><tr><td>
 
@@ -149,7 +152,7 @@ The start date of the project tasks within the project. This date is rolled up f
 
  **Note:**
 
--   When you [change the planned start date of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/change-planned-start-date-of-project.md), the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
+-   When you change the planned start date of a project, the associated cost plans and resource plan also change. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** controls the behavior for project start date change.
 -   This field is not available when creating a project by default. Use the **Approved start date** field to specify the project start date. Configure the form to display this field. However, this field is available for existing projects and projects converted from a demand.
 
 </td></tr><tr><td>
@@ -329,7 +332,7 @@ Business Capabilities
 
 </td><td>
 
-If the project is to change, enhance, or add one or more business capabilities, those capabilities can be associated with the project. [Business capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/business-capability.md) are defined in the Application Portfolio Management module.
+If the project is to change, enhance, or add one or more business capabilities, those capabilities can be associated with the project. Business capabilities are defined in the Application Portfolio Management module.
 
 </td></tr><tr><td>
 
@@ -337,7 +340,7 @@ Business Applications
 
 </td><td>
 
-If the project is to change, enhance, or add one or more business applications, those applications can be associated with the project. [Business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/application-portfolio-management.md) are defined in the Application Portfolio Management module.You can select any business application in your enterprise regardless of whether it is related to the capability selected in the **Business Capabilities** field.
+If the project is to change, enhance, or add one or more business applications, those applications can be associated with the project. Business capabilities are defined in the Application Portfolio Management module.You can select any business application in your enterprise regardless of whether it is related to the capability selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
 </table><table id="table_fk5_bkz_fdc"><thead><tr><th>
@@ -449,7 +452,7 @@ Rate model assigned to the project. The [rate model](https://raw.githubuserconte
 
  The subprojects in a project derive their resource plan calculations from the rate model associated with the top task.
 
- If the assigned rate model is removed or replaced or the hourly rates in the rate model are changed, the cost fields on the associated resource plans are not recalculated automatically. You must [update costs of all resource plans in the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) using the **Recalculate Resource Costs** menu option to reflect new rates from the rate model.
+ If the assigned rate model is removed or replaced or the hourly rates in the rate model change, the cost fields associated to resource plans aren't recalculated automatically. You must [update costs of all resource plans in the project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/recalculate-resource-costs-of-a-project.md) using the **Recalculate Resource Costs** menu option to reflect new rates from the rate model.
 
  You can also [update costs of a single resource plan one at a time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/recalculate-resource-costs.md).
 
@@ -459,11 +462,11 @@ Total planned cost
 
 </td><td>
 
-Estimated cost of the project. If an operational expenditure, capital expenditure, or both are associated with the project, then the planned cost is the sum of the operational expenditure and capital expenditure, which is in the selected currency for the project.
+Estimated cost of the project. If an operational expenditure, capital expenditure, or both are associated with the project, the planned cost is the sum of the two. The planned cost is displayed in the selected currency for the project.
 
- For Agile and Hybrid projects, the planned cost for stories is considered when the resource plan is created for Agile assignment group.
+For Agile and Hybrid projects, the planned cost for stories is considered when the resource plan is created for Agile assignment group.
 
- **Note:** To create a resource plan for Agile assignment group, you must assign the pps\_resource role to the group.
+**Note:** To create a resource plan for Agile assignment group, you must assign the pps\_resource role to the group.
 
 </td></tr><tr><td>
 
@@ -505,7 +508,7 @@ Estimate at completion
 
 Sum of all actuals for past fiscal periods added to the planned cost for future fiscal periods.**Note:** The current month is considered as a future month for EAC calculation purposes.
 
- For example, if the duration of a project is from January 01 to December 31 and you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of planned cost from May to December`.
+Consider the duration of a project from January 01 to December 31 and you check the Estimate at Completion in the month of May, it is calculated as: `Sum of actuals from Jan to April + Sum of planned cost from May to December`.
 
 </td></tr><tr><td>
 
@@ -725,6 +728,8 @@ Determines whether the time component in the actual start and end dates should b
 |Residual risk|Score of residual risk automatically calculated from risk assessment.|
 |Inherent Heatmap|Heatmap of the inherent risks.|
 |Residual Heatmap|Heatmap of the residual risks.|
+
+**Parent Topic:**[Form field information for Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/form-field-information-for-project-management.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-02-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up Azure cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up suspension of a subscription using Azure policy

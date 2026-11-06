@@ -1,47 +1,51 @@
 ---
-title: Hide global form actions from a page layout
-description: Exclude global form actions from a page or experience by using action layouts.
+title: Hide a global form action from a page layout
+description: Configure a global form action to exclude a specified page or experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/hide-global-actions-from-a-page-layout.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing Configurable Workspace with declarative actions, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Manage action visibility, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Hide global form actions from a page layout
+# Hide a global form action from a page layout
 
-Exclude global form actions from a page or experience by using action layouts.
+Configure a global form action to exclude a specified page or experience.
 
 ## Before you begin
+
+Add a UX Form Actions Layout to a workspace page in UI Builder. The UX Form Action Layout record configured on the workspace page must contain the form action you want to hide from the page. For instructions, see [Configure an action layout for a workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-da-action-layout.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  In the navigation filter, navigate to **All** &gt; **Declarative Actions** &gt; **Form Action Layouts**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Form Actions**.
 
-2.  Open an existing layout.
+2.  Select the form action you want to hide.
 
-    Your scope must match the application of the record.
+    An Action Assignment record opens.
 
-    **Important:** Any form action layouts created in Washington DC or later are unified automatically. You will need to associate any new form actions including global form actions manually.
+3.  Select the **Form Action Layouts** related list tab.
 
-3.  Use the related list to control the display of the actions in this layout.
+4.  Select the layout configured on the workspace page.
 
-4.  Open your record page in UI Builder.
+    The scope must match the application of the record.
 
-5.  Open the data module.
+    **Important:** Any UX Form Actions Layout records created in Washington DC or later are unified automatically. You will need to manually associate any form actions created in releases earlier than Washington DC.
 
-6.  Select the record controller or data broker.
+    A UX Form Actions Layout record opens.
 
-7.  Select the existing layout from the Action layout property list and select **Save**.
+5.  Select the **UX Form Action Layout Items** related list tab.
 
-8.  View the page at runtime.
+6.  Locate the form action you want to hide and change the Active field to **false**.
+
+7.  Select **Update**.
 
 
 ## Result
 
-The actions match the layout specified. Not all of the actions might be visible in the layout. Only actions that meet the requirements appear.
+When the UX Form Actions Layout is configured on a workspace page in UI Builder, only enabled actions will appear on the page.
 

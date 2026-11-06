@@ -1,5 +1,5 @@
 ---
-title: Loan Operations workflows
+title: Financial Services Loan Operations workflows
 description: The Financial Services Loan Operations application installs automated workflows for loan servicing. These workflows enable routing of cases and tasks to different departments, including the loan, document, and credit agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-loan-operations/loan-operations-workflows.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Loan Operations, Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Loan Operations workflows
+# Financial Services Loan Operations workflows
 
 The Financial Services Loan Operations application installs automated workflows for loan servicing. These workflows enable routing of cases and tasks to different departments, including the loan, document, and credit agents.
 

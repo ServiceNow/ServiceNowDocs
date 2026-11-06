@@ -1,20 +1,20 @@
 ---
 title: Read the inserted incident
-description: Use the Location header from the POST response to run a GET request.
+description: Use a GET request to view a record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-api-explorer/t\_GetStartedReadInt.html
 release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use the REST API Explorer, REST APIs, Web services, API implementation, API implementation and reference]
 ---
 
 # Read the inserted incident
 
-Use the Location header from the POST response to run a GET request.
+Use a GET request to view a record.
 
 ## Before you begin
 
@@ -25,6 +25,8 @@ Role required: admin, web\_service\_admin, or rest\_api\_explorer
 Use the REST API Explorer to send the following request:
 
 `GET https://instance.service-now.com/api/now/v1/table/incident/{sys_id}`
+
+Use the sys\_id from the POST response Location header to run a GET request.
 
 ## Procedure
 

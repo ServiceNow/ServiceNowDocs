@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2026-03-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [dependencies, relationships, prerequisite, dependent, related to, CWM, work items, link]
 breadcrumb: [Task dependencies and relationships, Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
@@ -37,7 +37,7 @@ Relationships are added from the **Relationships** tab on the work item form in 
 
 5.  From the **Prerequisite**, **Dependent**, or **Related to** section, select **Add more**.
 
-6.  Search for the work item by name and select it.
+6.  Search for the work item by nameor number and select it.
 
     \[Omitted image "cwm-relationships-add-prereq.png"\] Alt text: Search results showing a work item being selected to add as a relationship in CWM.
 
@@ -46,7 +46,7 @@ Relationships are added from the **Relationships** tab on the work item form in 
 
 ## What to do next
 
-After adding a relationship, a relationships indicator icon appears on the work item's Kanban card. Select the icon to view all relationships for that work item from the board.\[Omitted image "cwm-relationships-kanban.png"\] Alt text: A Kanban card showing the relationships indicator, and the right side panel open listing the related work items and their relationship types.
+After adding a relationship, a relationships indicator icon appears on the work item's Kanban card. Select the icon to view all relationships for that work item from the board.\[Omitted image "cwm-relationships-kanban.png"\] Alt text: A Kanban card showing the relationships indicator, and the side panel open listing the related work items and their relationship types.
 
 If a relationship doesn't apply to your task anymore, you can remove it. For more information, see [Remove a dependency from a work item in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/remove-a-dependency-from-a-work-item-cwm.md).
 

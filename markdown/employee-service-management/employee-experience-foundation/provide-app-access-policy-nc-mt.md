@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate Notify connector pre-published app with Microsoft Teams, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrate, Integration for Agent Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Create a Service user to make calls from Microsoft Teams
@@ -18,7 +18,7 @@ Configure Notify connector for Microsoft Teams in your environment by creating a
 
 ## Before you begin
 
-Role required: admin
+Role required: Microsoft Azure admin
 
 **Note:** You must create a service user role, which will be able to start online meetings on behalf of users.
 
@@ -124,7 +124,7 @@ Role required: admin
 
         \[Omitted image "powershell-user-permissions.png"\] Alt text: User permissions
 
-6.  Configure Microsoft Teams.
+6.  As a user with sn\_notify\_msteams.admin role, configure Microsoft Teams.
 
     1.  Open your ServiceNow instance.
 

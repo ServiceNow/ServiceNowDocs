@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setting-up-services-in-ws.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ A service performs a business-level function, such as email, IT services, e-comm
 
 ## Setup of entity types and pillars
 
-Before proceeding, ensure that entity types and pillars are properly configured; refer to the [Set up pillars, entity types, and generate entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/manage-entity-types-pillars-from-ws.md) for setup instructions.
+Before proceeding, ensure that entity types and pillars are properly configured; refer to the [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setting-up-hierarchy.md) for setup instructions.
 
 ## Vertical layout for Service records
 
@@ -52,9 +52,9 @@ To add or remove services and processes in the Operational Resilience Workspace,
 
 You can add a service to Operational Resilience reporting by selecting the **Add to OpRes reporting** UI action as shown in the following example.
 
-**Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Configure entity types and entity filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/set-up-entity-types.md).
+**Note:** Instead of adding services directly to Operational Resilience reporting, set up the entity filters for the desired services. For instructions on setting up the entity filters, see [Setting up pillars, entity types, and entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setting-up-hierarchy.md).
 
-\[Omitted image "opres-reporting.png"\] Alt text: Add a\\ service to OpRes reporting.
+\[Omitted image "opres-reporting.png"\] Alt text: Add a service to OpRes reporting.
 
 **Note:** After adding a service to Operational Resilience reporting in the Operational Resilience Workspace, the **Add to OpRes reporting** option is no longer displayed in the UI for that service.
 
@@ -82,7 +82,7 @@ When you add a service to Operational Resilience reporting, you can view and con
 
 ## Reporting data for an object without a business service as the parent entity
 
-When you have a business service or service as the parent entity, any red flags or dependencies roll up to that business service or service. Even if an object like a service offering \(SO\) or business process \(BP\) does not have a business service or service as the parent entity, running the scheduled job still fetches its dependencies and integrates them with the red flags.
+When you have a business service or service as the parent entity, any red flags or dependencies roll up to that business service or service. Objects like a service offering \(SO\) or business process \(BP\) may not have a business service or service as the parent entity. Running the scheduled job still fetches their dependencies and integrates them with the red flags.
 
 ## Other related lists in the Service form
 

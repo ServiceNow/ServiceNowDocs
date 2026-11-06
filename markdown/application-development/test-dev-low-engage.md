@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-dev-low-engage.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Low-code and no-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Low-code and no-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Engage with customers with low-code tools
@@ -18,11 +18,7 @@ Engage with your customers using ServiceNow apps.
 
 <table id="table_qfw_3zf_2vb" class="nav-card"><tbody><tr><td>
 
-Virtual Agent Designer \[Omitted image "icon-va.png"\] Alt text: Virtual Agent Designer. Create and manage virtual agent topics using the ServiceNow platform.
-
-</td><td>
-
-Virtual Agent Dashboard \[Omitted image "icon-workspace-builder.png"\] Alt text: Virtual Agent Dashboard The Conversational Analytics Dashboard helps you improve Virtual Agent interactions with users by providing deep insights into conversational data.
+[Virtual Agent Designer \[Omitted image "icon-va.png"\] Alt text: Virtual Agent Designer. Create and manage virtual agent topics using the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)
 
 </td></tr></tbody>
 </table>## Artificial intelligence

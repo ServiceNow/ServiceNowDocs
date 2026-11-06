@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Chemical management, Use, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -48,7 +48,7 @@ The status of the chemical request changes to Approved or Rejected based on the 
 To view the state of the request as a chemical manager on the Health and Safety Workspace,
 
 1.  Navigate to **All** &gt; **Health and Safety** &gt; **Health and Safety Workspace**.
-2.  In the primary navigation, select **Environmental Management** \[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management icon.
+2.  In the primary navigation, select **Environmental Management** \(\[Omitted image "icon-hs-envt-mgmt.png"\] Alt text: environmental management\) icon.
 3.  In the **Chemical requests** list, select the **Approved** section.
 
 **Parent Topic:**[Chemical management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-using-chemical-management.md)

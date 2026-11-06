@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
 # Digest token authentication
@@ -18,13 +18,13 @@ The digest token authentication passes user credentials and a digest token withi
 
 <table id="table_j5l_5hy_zyb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-digest-token.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-digest-token.md)
 
  [Learn the features and business value of Digest token authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-digest-token.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnterDigestPropsMultiProviderSSO.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnterDigestPropsMultiProviderSSO.md)
 
  [Understand how to configure Digest token authentication.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnterDigestPropsMultiProviderSSO.md)
 

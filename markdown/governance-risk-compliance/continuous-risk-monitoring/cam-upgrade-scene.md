@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Implementing controls and assessment objectives in CAM, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Implement controls and assessment objectives, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Control requirement generation and upgrade steps
@@ -41,7 +41,7 @@ If the authorization package moves from the Implement to Select state, then all 
 
 ## Required upgrade steps
 
-The following actions happen when you upgrade to the Yokohama release:
+The following actions happen when you upgrade to the Brazil release:
 
 1.  The **Authorization package** field and **Control allocation** field in the Control form are newly added. The values in these fields are populated for existing CAM controls.
 2.  For all NIST 800-53-revision 5 control objectives, the **Create control requirements** option is set to **True** by default in the Control objective form.

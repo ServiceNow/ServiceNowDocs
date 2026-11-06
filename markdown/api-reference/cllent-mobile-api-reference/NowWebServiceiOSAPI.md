@@ -7,20 +7,22 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowWebService class - iOS
+# NowWebService class- iOS
 
 The NowWebService class provides functions that enable the browsing of web pages on a ServiceNow instance.
+
+\[Omitted image "mobsdk-web-start-flow.png"\] Alt text: Web page load flow
 
 |Name|Type|Description|
 |----|----|-----------|
 |configuration|[NowServiceConfiguration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowServiceConfigurationiOSStruct.md)|Configuration parameters to use when initializing the NowWebService instance.|
 
-**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowWebService - init\(configuration: NowServiceConfiguration, coreServiceProvider: NowCoreServiceProviding? = nil\)
 
@@ -127,7 +129,7 @@ theme
 
 </td><td>
 
-NowWebThemeable
+[NowWebThemeable protocol - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowWebThemeableiOSProtocol.md)
 
 </td><td>
 

@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Q&amp;A Genius Results, Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,7 +30,7 @@ As a search administrator, you can specify the factoid extraction mode for Q&amp
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 
@@ -40,9 +40,9 @@ As a search administrator, you can specify the factoid extraction mode for Q&amp
     -   If no system property record with this name exists, select **New**, then enter `glide.ais.genius_result.qna_mode` in the System Property form's **Name** field.
 3.  In the System Property form's **Value** field, enter one of the following values:
 
-    -   **none** if you want to disable factoid extraction and highlighting for Q&amp;A Genius Results.
-    -   **sentence** if you want Q&amp;A Genius Result answer cards to display only the sentence containing the factoid \(and to highlight the factoid\).
-    -   **snippet** if you want Q&amp;A Genius Result answer cards to display the full extracted text snippet containing the factoid \(and to highlight the factoid\).
+    -   **none** to disable factoid extraction and highlighting for Q&amp;A Genius Results.
+    -   **sentence** to make Q&amp;A Genius Result answer cards display only the sentence containing the factoid \(and to highlight the factoid\).
+    -   **snippet** to make Q&amp;A Genius Result answer cards display the full extracted text snippet containing the factoid \(and to highlight the factoid\).
     For details on these system property values, see the [System properties for factoid extraction in Q&amp;A Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/sys-props-factoid-extract-qna-gr.md) section.
 
 4.  Save the modified System Property record by selecting **Submit** or **Update**.

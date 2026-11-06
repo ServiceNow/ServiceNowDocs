@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Technology Change Management, Operational Technology]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Reference, Operational Technology Change Management, Operational Te
 By categorizing the Operational Technology \(OT\) change requests, you can group and narrow the search for specific OT change requests. Categories also help stakeholders know what the change is about.
 
 When you can create an OT change request, you can choose from the categories listed in the following table.
+
+**Note:** You can also configure categories if you have the **admin** or **sn\_ot\_change\_admin** role.
 
 |Category|Description|
 |--------|-----------|

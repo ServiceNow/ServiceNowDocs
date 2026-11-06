@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Docs for planning items in Strategic Planning
@@ -58,7 +58,7 @@ Use Now Assist capabilities to elaborate, shorten, and summarize selected conten
 
 **Note:**
 
--   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+-   Now Assist for Docs requires an SPM Pro + license. For more information, see [Configure AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configuring-na-spm.md).
 -   If there is more content to summarize, you can remove some content and retry.
 -   Because the information in these fields is AI generated, it's a good idea to review the text and make sure it's accurate.
 

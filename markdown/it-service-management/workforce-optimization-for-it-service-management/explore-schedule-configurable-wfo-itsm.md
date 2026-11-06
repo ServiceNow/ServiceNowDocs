@@ -7,7 +7,7 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-05-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 # Scheduling in Workforce Optimization for ITSM
 
 Learn how you can plan shifts with automatically staggered break times for your agents to manage their schedule effectively in Workforce Optimization for ITSM. Publish schedules for the next scheduling period to get a snapshot of which agent is lined up to solve issues for that time period.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Shift planning
 

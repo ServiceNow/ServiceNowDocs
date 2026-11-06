@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Configure filters for ITSM Manager Workspace
@@ -17,6 +17,8 @@ breadcrumb: [Advanced configurations for Workforce Optimization for ITSM, Workfo
 Define filter configurations for Schedule, Coaching, and Channels applications. You can use these filters to refine your search and view targeted results.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_cfg\_ws.admin
 

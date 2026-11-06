@@ -1,5 +1,5 @@
 ---
-title: Enable Jelly JS Interpolation Protection
+title: Enable Jelly JS interpolation protection
 description: Use the glide.ui.jelly.js\_interpolation.protect property to ensure that any JavaScript about to be executed on a Jelly page is protected from injection with the help of Jelly interpolation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-jelly-js-interpolation-protection.html
@@ -7,19 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable Jelly JS Interpolation Protection
+# Enable Jelly JS interpolation protection
 
 Use the **glide.ui.jelly.js\_interpolation.protect** property to ensure that any JavaScript about to be executed on a Jelly page is protected from injection with the help of Jelly interpolation.
 
-When you set property to **true**, an application goes through a Jelly script tree \(nested\). It wraps potentially dangerous Jelly expressions with a filter that:
+The **glide.ui.jelly.js\_interpolation.protect** system property allows you to turn on or off interpolation protection. Interpolation protection ensures that when Jelly expressions are used in JavaScript, they must be deemed safe by either falling under certain categories OR being marked as SAFE in the expression itself. Without this mitigation enabled, a malicious actor can send a crafted GET parameter to a Jelly page and cause the contents of that parameter to be evaluated as server-side JavaScript with admin privileges.
 
--   Escapes their results to be safe, or
--   If their safety can't be guaranteed, generates a SecurityException because the expression that was going to be evaluated represents a possible security issue.
+Ensure that the property **glide.ui.jelly.js\_interpolation.protect** is set to **true**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -35,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
@@ -51,19 +50,11 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
-Category
+Data type
 
 </td><td>
 
-[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
-
-</td></tr><tr><td>
-
-Purpose
-
-</td><td>
-
-To mitigate against malicious code execution attacks that can occur using Jelly Injection.
+Boolean
 
 </td></tr><tr><td>
 
@@ -79,23 +70,23 @@ Default value
 
 </td><td>
 
-false
+true in Australia and newer, false prior
 
 </td></tr><tr><td>
 
-Security risk rating
+Fallback value
 
 </td><td>
 
-9
+true in Australia and newer, false prior
 
 </td></tr><tr><td>
 
-Functional impact
+Category
 
 </td><td>
 
-This property makes a best guess at whether an expression is quoted. It may wrongly quote legitimate expression. In that case manually marking an expression as safe may be necessary.
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 
 </td></tr><tr><td>
 
@@ -103,33 +94,26 @@ Security risk
 
 </td><td>
 
-\(Moderate\) JEXL injection is a form of input injection unique to the ServiceNow AI Platform that can lead to both cross-site request forgery and code execution. Completely turning off the protection may potentially open many P1 security vulnerabilities.
+-   Severity score: 9.0
+-   CVSS rating: Critical
+-   Security risk details: Dangerous jelly expressions interpolated in JavaScript are allowed and user can execute code using jelly template.
 
 </td></tr><tr><td>
 
-Workaround
+Functional impact
 
 </td><td>
 
-To manually mark an expression as safe add SAFE prefix to Jelly expression:
-
- `${SAFE:sysparm_input};`
-
- Blindly adding SAFE to each expression is the wrong way to approach the problem, because it may open a security vulnerability.
-
--   Only add SAFE to an expression if you can guarantee that the expression does not contain input from the client.
--   If it does, it's possible for a malicious client to cause evaluation of privileged JavaScript.
+Enabling this property causes the platform to reject Jelly JavaScript expressions that aren't explicitly recognized as safe or marked as SAFE. Instance owners should test custom UI pages, macros, and portal widgets that use Jelly-interpolated JavaScript expressions after making this change. Confirm that legitimate expressions continue to render as expected. Custom Jelly content that relies on dynamic, unmarked expressions require updates to use the SAFE designation to continue functioning.
 
 </td></tr><tr><td>
 
-References
+Dependencies and prerequisites
 
 </td><td>
 
-[Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_JellyTags.md) [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_HighSecuritySettings.md)
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+</table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

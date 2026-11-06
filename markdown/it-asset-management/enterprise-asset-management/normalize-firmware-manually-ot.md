@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Normalizing firmware for your operational technology \(OT\) assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Normalizing firmware for OT assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Normalize the firmware embedded into your Operational Technology \(OT\) assets manually
@@ -18,7 +18,7 @@ Standardize the publisher, product, and version details of the firmware that is 
 
 ## Before you begin
 
-**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/install-otam.md).
+**Important:** The OT Asset Management application must be activated to access the OT Asset Workspace. For details, see [Install OT Asset Management from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/install-otam.md).
 
 The firmware product and the firmware version details of the discovered firmware model that you want to normalize should be available in the Enterprise Asset Management Content Service. If not, you can also create the firmware product and the firmware version for your firmware model. For more details, see [Create a custom firmware product for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-custom-firmware-product-ot-assets.md) and [Create a custom firmware version for your operational technology \(OT\) assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-custom-firmware-version-ot-assets.md).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-business-application-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business application form
@@ -266,7 +266,7 @@ Description
 
 </td><td>
 
-Unique description of the application.
+Unique description of the application.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
 </td></tr><tr><td>
 
@@ -327,7 +327,7 @@ Reasoning
 
 </td><td>
 
-Reason for the planned disposition decision.
+Reason for the planned disposition decision.You can also generate, elaborate, or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
 
 </td></tr></tbody>
 </table><table id="table_t2q_xvt_ncc"><thead><tr><th>
@@ -452,7 +452,7 @@ Status of the application that it meets requirements or complies with the polici
 |-----|-----------|
 |Work notes|Work notes entered by you.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

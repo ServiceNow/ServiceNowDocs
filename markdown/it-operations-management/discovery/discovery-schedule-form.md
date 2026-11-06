@@ -1,20 +1,20 @@
 ---
 title: Discovery Schedule form reference
-description: The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
+description: The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for the discovery run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/discovery-schedule-form.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 10
+last_updated: "2026-11-06"
+reading_time_minutes: 11
 breadcrumb: [Discovery reference, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Schedule form reference
 
-The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for when and how the discovery runs.
+The Discovery Schedule form provides details about the configuration items \(CIs\) targeted for discovery, the associated MID Server, and the schedule settings for the discovery run.
 
 For instructions on this procedure, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
@@ -74,7 +74,7 @@ Select the method that Discovery uses to select a MID Server:-   **Auto-Select M
 
  **Note:** The discovery schedule enforces domain separation. The MID Servers that are available for selection are limited to the same domain of the user who is configuring the schedule.
 
- See [MID Server selection sequence for Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c-MIDServerSelectionSequence.md) for additional information.
+ See [MID Server selection sequence for Discovery schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md) for additional information.
 
 </td></tr><tr><td>
 
@@ -158,6 +158,17 @@ Enter the number of IP addresses that each Shazzam probe can scan. Dividing the 
 
 </td></tr><tr><td>
 
+Discovery Agent
+
+</td><td>
+
+Select the agent to perform this discovery:-   **AWS MID**: Use AWS SSM to perform discovery.
+-   **MID**: Use the MID Server to perform discovery.
+
+By default, the Discovery Agent is set to MID. This field is available only when the system property **glide.discovery.enable\_ssm** is enabled, the **Discover** type is set to **Configuration Items**, and the **Run after** field is configured to follow a Cloud Resources schedule.
+
+</td></tr><tr><td>
+
 Shazzam cluster support
 
 </td><td>
@@ -170,7 +181,7 @@ Use SNMP Version
 
 </td><td>
 
-Use this field to designate the SNMP version to use for this discovery. The default value is **ALL**. You can change this to **v1**, **v2c**, or **v3**.
+Use this field to designate the SNMP version to use for this discovery. The default value is **ALL**. You can change this value to **v1**, **v2c**, or **v3**.
 
 </td></tr><tr><td>
 
@@ -223,6 +234,22 @@ Discovery Status
 </td><td>
 
 This related list displays the results of current and past schedule runs.
+
+</td></tr><tr><td>
+
+Global IP Exclusion
+
+</td><td>
+
+This related list displays the global IP exclusion records that apply to this schedule. Active global IP exclusions prevent Discovery from scanning the specified IP addresses across all schedules that discover configuration items, IP addresses, or networks. Global IP exclusion records are managed from **Global IP Exclusion** &gt; **IP Exclusion**. For more information, see [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/global-exlude-list.md).
+
+</td></tr><tr><td>
+
+Discovery Attributes
+
+</td><td>
+
+This related list defines the attributes to apply to CIs discovered within this schedule. Use attributes to set CI field values such as location or asset tag at the schedule, range set, or IP address range level. For more information, see [Discovery generic attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/disco-generic-attributes.md).
 
 </td></tr><tr><td>
 

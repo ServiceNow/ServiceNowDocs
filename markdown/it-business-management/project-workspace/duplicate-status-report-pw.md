@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-12"
 reading_time_minutes: 2
-breadcrumb: [Create a status report in Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Duplicate a status report in Project Workspace
@@ -28,11 +28,11 @@ Role required: it\_project\_manager
 
 2.  Make changes to the report by editing the data, formatting, organizing the content, and entering additional data.
 
-    The changes you make to the status report here are saved to the status report in the project workspace and also get saved to the underlying status report record, which you access from the status report related list in Projects form.
+    The changes you make to the status report here are saved to the status report in the Project Workspace. The changes also get saved to the underlying status report record, which you access from the status report related list in Projects form.
 
-3.  Select the **More actions** icon and select **Duplicate status report** to create a copy of status report.
+3.  Select the More actions icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon.\) of the status report that you want to copy and then select **Duplicate status report**.
 
-    -   The duplicated report reflects the latest project status and metrics.
+    -   The duplicated report displays the latest project status and metrics.
     -   Any static or manually added information from the original report is retained in the duplicated version.
     -   The dynamic data refreshes to the current date and shows the latest information.
     The new status report is added to the same location as the original status report.
@@ -49,7 +49,7 @@ Role required: it\_project\_manager
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
-[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 

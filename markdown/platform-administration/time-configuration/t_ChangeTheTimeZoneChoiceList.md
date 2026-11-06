@@ -7,18 +7,14 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Change the time zone choice list
 
 Wherever users have a choice of time zone, the choices are populated using the **Time Zone** choice list on the `User [sys_user]` table. Not all time zones appear by default.
-
-## Before you begin
-
-Role required: admin
 
 ## About this task
 

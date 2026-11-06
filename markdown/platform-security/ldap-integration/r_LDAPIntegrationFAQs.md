@@ -1,5 +1,5 @@
 ---
-title: Understanding LDAP integration
+title: Understand LDAP integration
 description: An LDAP integration allows your instance to use your existing LDAP server as the primary source of user data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/ldap-integration/r\_LDAPIntegrationFAQs.html
@@ -7,12 +7,12 @@ release: yokohama
 product: LDAP integration
 classification: ldap-integration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [LDAP integration, Authentication, Access Management]
 ---
 
-# Understanding LDAP integration
+# Understand LDAP integration
 
 An LDAP integration allows your instance to use your existing LDAP server as the primary source of user data.
 

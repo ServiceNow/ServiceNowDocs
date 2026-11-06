@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automation Center Workspace, Exploring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Workspace, Explore, Automation Center, Workflow Data Fabric]
 ---
 
 # Automation Center Executions dashboard

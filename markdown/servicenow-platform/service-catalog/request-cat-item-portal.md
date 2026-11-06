@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,15 +38,15 @@ For information about the SC Catalog Item widget, see [SC Catalog Item widget](h
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d653315e133">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d666511e136">
 
 **Add attachments**
 
 </td><td>
 
-To add attachments to the catalog item, click the add attachments icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: Icon to add attachment\).You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
+To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d653315e150">
+</td></tr><tr><td id="d666511e151">
 
 **Add to Cart**
 
@@ -54,7 +54,7 @@ To add attachments to the catalog item, click the add attachments icon \(\[Omitt
 
 To add the catalog item to the shopping cart, click the Add to Cart icon \(\[Omitted image "IconAddTocart.png"\] Alt text: Icon to add to the cart\).
 
-</td></tr><tr><td id="d653315e165">
+</td></tr><tr><td id="d666511e166">
 
 **Add to Wish List**
 
@@ -113,7 +113,7 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(\[Om
 
         **Note:**
 
-        -   The logged in user should be specified in the **List of roles \(comma-separated\) that can use bulk ordering functionality. Blank means all users** \(**glide.sc.allow.clone.roles**\)\) property.
+        -   The logged in user should be specified in the **List of roles \(comma-separated\) that can use bulk ordering functionality. Blank means all users** \(**glide.sc.allow.clone.roles**\) property.
         -   You can clone the request for multiple users.
         -   When you clone a request that contains a multi-row variable set, the information that is specified in the multi-row variable set is available in all cloned requests. All UI policies and client scripts on the multi-row variable set are also cloned.
         -   A separate request is created for each specified user and that user is displayed in the **Requested For** field of the request.
@@ -132,8 +132,6 @@ To add the catalog item to the wish list, click the Add to Wish List icon \(\[Om
 [Add a catalog item to the shopping cart]()
 
 [Request an order guide from Service Portal]()
-
-[Standard ticket page for a requested item]()
 
 [Service Catalog request screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/c_RequestingAServiceCatalogItem.md)
 

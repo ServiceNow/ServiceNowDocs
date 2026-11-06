@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Agile Development use cases, Explore, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development use cases, Exploring Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Release-based development use case in Agile Development
@@ -28,10 +28,6 @@ The usual activities involved in a release-based agile development are:
 
     In Agile Development 2.0, navigate to **Agile Development** &gt; **Agile Board** &gt; **Sprint Planning**.
 
-
-The following illustration provides a high-level overview of the workflow in a release-based Agile Development environment.
-
-\[Omitted image "ReleaseBasedAgileUseCase.png"\] Alt text: Steps of release-based agile development, which starts with maintaining a product backlog. Stories from the product backlog are assigned to the teams, assigned to a release, and scheduled for sprints.
 
 **Parent Topic:**[Agile Development use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-workflow-use-cases.md)
 

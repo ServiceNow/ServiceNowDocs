@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Importing data using import sets, Import sets, Imports, Data and Automation]
+breadcrumb: [Importing data using import sets, Import sets, Imports, Workflow Data Fabric]
 ---
 
 # Monitor concurrent import set jobs
@@ -26,7 +26,7 @@ Role required: import\_admin
 
 2.  Review the **Type** and **State** of each parent import set job.
 
-<table id="choicetable_x4w_hjd_vfb"><tbody><tr><td id="d508885e76">
+<table id="choicetable_x4w_hjd_vfb"><tbody><tr><td id="d330819e73">
 
 **Type**
 
@@ -37,7 +37,7 @@ Type of concurrent import set job:-   **Regular** if you are running the schedul
 -   **Resuming** if you are resuming a scheduled import that had an error
 
 
-</td></tr><tr><td id="d508885e103">
+</td></tr><tr><td id="d330819e100">
 
 **State**
 

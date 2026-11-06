@@ -1,5 +1,5 @@
 ---
-title: Class-specific criteria for the Cloud vs Non-cloud resources chart
+title: Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/criteria-cloud-resources-chart.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [CMDB Workspace reference, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Class-specific criteria for the Cloud vs Non-cloud resources chart
+# Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace
 
 The Cloud vs Non-cloud resources chart provides counts for several key classes. The chart uses different classes and relationship criteria for each class to determine which resources count as cloud and which count as non-cloud.
 
@@ -82,15 +82,15 @@ Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\]:
 
 -   Cloud:
 
-Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster -&gt; \(Hosted on::Hosts\) -&gt; Datacenter \(cloud logical data center\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
+Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] -&gt; \(Hosted on::Hosts\) -&gt; Datacenter \(cloud logical data center\) -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\]
 
 -   Non-Cloud:
 
-Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster -&gt; Datacenter \(non-cloud logical datacenter\)
+Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] -&gt; Datacenter \(non-cloud logical datacenter\)
 
 OR
 
-Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster -&gt; no relationship with -&gt; Datacenter
+Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] -&gt; no relationship with -&gt; Datacenter
 
 -   Total: Equals the record count in the Kubernetes Cluster \[cmdb\_ci\_kubernetes\_cluster\] table \(unless there are Kubernetes Cluster records without any relationships\)
 
@@ -139,7 +139,7 @@ Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\]:
 
 -   Cloud:
 
-Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\] \(requires [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)\)
+Cloud Object Storage \[cmdb\_ci\_cloud\_object\_storage\] -&gt; \(Hosted on::Hosts\) -&gt; Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] -&gt; \(Hosted on::Hosts\) -&gt; Cloud Service Account \[cmdb\_ci\_cloud\_service-account\] \(requires [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md)\)
 
 -   Non-Cloud:
 

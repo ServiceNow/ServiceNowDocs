@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Management Access Hours Management, Assigning work order tasks to agents using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Access hours, Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assigning work order task with defined access hours
@@ -22,6 +22,4 @@ Dynamic scheduling uses the following filter criteria to schedule the tasks with
 -   Estimated work duration
 -   Window start and window end dates
 -   Access hours
-
-**Parent Topic:**[Field Service Management Access Hours Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/access-hour-mngmnt-fsm.md)
 

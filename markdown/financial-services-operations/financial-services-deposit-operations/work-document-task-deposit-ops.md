@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a document task to verify documents for a deposit case
@@ -31,15 +31,15 @@ The Document Management Service determines which documents are required in a wor
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Document Service**, open the task list.
 
     -   For your assigned tasks, click **Assigned to me**.
     -   For all document tasks, click **All**.
-4.  In the list, select the task that you want to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a task that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  In the **Inbound Documents** tab, choose a document.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Notify workflow activities, Reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Notify workflow activities, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Creating Notify activities

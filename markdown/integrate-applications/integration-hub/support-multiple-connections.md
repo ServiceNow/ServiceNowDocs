@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Managing connections in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Manage connections, Integration Hub, Workflow Data Fabric]
 ---
 
 # Supporting multiple connections
@@ -59,7 +59,9 @@ View which connection your flow ran with by examining the Step Configuration sec
 
 You can select connections for individual integration actions within a flow. This functionality is useful if a flow must interact with multiple configurations of the same provider. For example, downloading a file from one configuration of a file storage provider then uploading the file to a different configuration of the same file storage provider.
 
-Integration actions have one or more connection fields in the Action Properties section where you can edit or configure a connection. In the following example, the Create Remote Incident action has a connection field called **ServiceNow Connection**. The default connection hasn’t been configured yet, so a `Connection not configured` message appears below the connection field. This message appears whenever the connection for the selected alias is not configured
+Integration actions have one or more connection fields in the Action Properties section where you can edit or configure a connection. If the connection alias is using a configuration template with a test action, you can also test the connection from here. For details, see [Create a test action to test a connection alias from a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/test-alias-configuration-template.md).
+
+In the following example, the Create Remote Incident action has a connection field called **ServiceNow Connection**. The default connection hasn’t been configured yet, so a `Connection not configured` message appears below the connection field. This message appears whenever the connection for the selected alias is not configured
 
 \[Omitted image "integration-action-connection.png"\] Alt text: Integration action showing the connection field in the Action Properties section.
 
@@ -68,7 +70,9 @@ Use the gear icon \(\[Omitted image "gear-icon.png"\] Alt text: gear icon\) to c
 -   For connections using a [configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/spoke-configuration-template.md), the gear icon opens a window where you can create or configure a connection.
 -   For connections without a configuration template, the gear icon opens the platform form for [creating a connection and credential alias.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-alias.md)
 
-Use the plus icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: plus icon\) to add a new child connection alias. Use the pencil icon \(\[Omitted image "pencil-outline-24.svg"\] Alt text: pencil icon, not shown in the image\) to edit the selected connection.
+Use the plus icon \(\[Omitted image "plus-outline-24.svg"\] Alt text: plus icon\) to add a new child connection alias.
+
+The pencil icon \(\[Omitted image "pencil-outline-24.svg"\] Alt text: pencil icon, not shown in the image\) opens the Edit Connection window where you can edit the selected connection. If the connection is using a configuration template with a test action, you can test the connection by using the **Save and Test** button.
 
 ## Dynamic inputs
 

@@ -1,5 +1,5 @@
 ---
-title: AWS OpenSearch discovery
+title: AWS OpenSearch discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon OpenSearch discovery pattern to find Amazon OpenSearch service domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/amazon-opensearch-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# AWS OpenSearch discovery
+# AWS OpenSearch discovery with Patterns
 
 The ServiceNow® Discovery application uses the Amazon OpenSearch discovery pattern to find Amazon OpenSearch service domains.
 
@@ -26,7 +26,7 @@ OpenSearch is an open-source search and analytics engine for use cases such as l
     -   `https://es.{region}.amazonaws.com/2021-01-01/opernsearch/domain-info{"DomainNames":[]}`
     -   `https://tagging.{region}.amazonaws.com {"ResourceTypeFilters":[]}`
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -41,5 +41,5 @@ OpenSearch service domains are stored in Cloud Databases \[cmdb\_ci\_cloud\_data
 |Amazon resource name|Name of the service domain.|
 |FQDN|Fully qualified domain name of the region where the keyspace is located.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-01-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [download disposal assets, bulk update resale value, hardware asset resale]
-breadcrumb: [Create a disposal order, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Create a disposal order, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Perform bulk update of resale value for the assets
@@ -22,8 +22,6 @@ Update the resale values for assets planned for disposal, and indicate that you 
 Role required: admin
 
 ## About this task
-
-**Important:** The asset resale feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 Download the list of the planned assets from the Disposal Documentation task and bulk update whether you want to resell or dispose of the assets. For the assets planned for resale, provide the resale value and save it. Import the updated sheet into the Hardware Asset Workspace. After successful import of the resale sheet, on the Disposal Documentation task, in **Planned Asset** tab, the Resold value column data is auto populated. You can proceed with the asset resale for these planned assets.
 

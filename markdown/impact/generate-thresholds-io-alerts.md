@@ -1,16 +1,16 @@
 ---
-title: Generate thresholds for Key Alerts
+title: Generate thresholds for key alerts
 description: For an instance where critical alerts have already been configured you can obtain improved thresholds to receive enhanced or minimal alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/generate-thresholds-io-alerts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Key alerts – activation and notifications, Alerts in Instance Observer, Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Key alerts and notifications, Use alerts to monitor your instance, Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Generate thresholds for Key Alerts
+# Generate thresholds for key alerts
 
 For an instance where critical alerts have already been configured you can obtain improved thresholds to receive enhanced or minimal alerts.
 
@@ -24,11 +24,9 @@ Role required: admin
 
     \[Omitted image "threshold-banner-io.png"\] Alt text: Shows the Generate Threshold button in the Configure Alerts banner.
 
-    A notification banner displays. If the banner prompts to configure alerts, see [Configure Key Alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-io-alerts.md).
+    A notification banner displays. If the banner prompts to configure alerts, see [Set notifications for configured key alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-io-alerts.md).
 
 2.  Select **Generate Threshold**.
-
-    The Alert Configuration screen displays.
 
 3.  Select up to five alerts from the **Max alerts per day / per metric** drop-down to receive for each metric per day.
 
@@ -69,4 +67,6 @@ Role required: admin
 
     **Note:** If you choose three max alerts per day, then you may receive up to three Alerts notification per day for that specific metric. The alert count resets daily at 00:00 UTC.
 
+
+**Parent Topic:**[Key alerts and notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-alerts.md)
 

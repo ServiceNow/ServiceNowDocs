@@ -7,8 +7,8 @@ release: yokohama
 product: Application Manager
 classification: application-manager
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
 
@@ -37,6 +37,8 @@ For more information about contact roles and notifications in the ServiceNow AI 
 
 -   **[Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/application-manager/update-application-app-mgr.md)**  
 Update an application or plugin to get the latest features that are compatible with your instance version.
+-   **[Auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/application-manager/um-auto-upgrade.md)**  
+The auto-upgrade mechanism automatically upgrades ServiceNow-managed applications and plugins across your instances on a regular schedule without requiring manual intervention. Auto-upgrade applies exclusively to ServiceNow-managed applications and plugins; third-party applications aren't included in automatic upgrades.
 
 **Parent Topic:**[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/administering-applications.md)
 

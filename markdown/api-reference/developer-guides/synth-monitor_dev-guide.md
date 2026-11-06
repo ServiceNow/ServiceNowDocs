@@ -1,13 +1,13 @@
 ---
 title: Synthetic Monitoring Developer Guide
-description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the Bulk Monitor Creation API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the Bulk Monitor Creation API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.The JSON file should contain an array of monitor objects, either directly or wrapped in a checks or monitors property.CSV files must include a header row followed by data rows.This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
+description: Use Synthetic Monitoring APIs create multiple synthetic monitors in a single operation.Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.Use Postman to create multiple synthetic monitors simultaneously by importing JSON files through the SyntheticsAsyncBulkCreate API.The JSON file should contain an array of monitor objects, either directly or wrapped in a checks or monitors property.CSV files must include a header row followed by data rows.This is an example of using a CSV file wrapped in a JSON object to create bulk monitors using terminal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/developer-guides/synth-monitor\_dev-guide.html
 release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Developer guides, API implementation and reference]
 ---
@@ -22,7 +22,7 @@ For more information about monitors, see [Synthetic monitoring](https://raw.gith
 
 ## Import and create synthetic monitors in bulk using API
 
-Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the Bulk Monitor Creation API.
+Create multiple synthetic monitors simultaneously by importing raw JSON or CSV files through the SyntheticsAsyncBulkCreate API.
 
 ### Before you begin
 
@@ -45,7 +45,7 @@ One of the following tools: Terminal \(with curl command\), Postman, or scriptin
 
 ### About this task
 
-The Bulk Monitor Creation API uses a two-step process:
+The SyntheticsAsyncBulkCreate API uses a two-step process:
 
 1.  Creates a job ID by uploading your monitor data file.
 2.  Checks job status to verify monitor creation status.
@@ -96,7 +96,7 @@ Monitors are created in the ServiceNow instance. The API response indicates:
 
 ### Create monitors in bulk using Terminal
 
-Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the Bulk Monitor Creation API.
+Use curl commands in Terminal to create multiple synthetic monitors simultaneously by importing JSON or CSV files through the SyntheticsAsyncBulkCreate API.
 
 #### Before you begin
 
@@ -117,7 +117,7 @@ Role required: sn\_sow\_synthetics.synthetics\_admin or sn\_sow\_synthetics.synt
 
 #### About this task
 
-The Bulk Monitor Creation API uses a two-step process when accessed through Terminal. First, upload your monitor data file using a curl command to generate a job ID. Then, check the job status to verify monitor creation. The API processes records asynchronously and provides detailed feedback on successful creations and errors.
+The SyntheticsAsyncBulkCreate API uses a two-step process when accessed through Terminal. First, upload your monitor data file using a curl command to generate a job ID. Then, check the job status to verify monitor creation. The API processes records asynchronously and provides detailed feedback on successful creations and errors.
 
 Different curl commands are required depending on whether you are uploading a JSON or CSV file.
 

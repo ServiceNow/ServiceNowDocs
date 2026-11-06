@@ -1,5 +1,5 @@
 ---
-title: Update details of free-form roadmap in Portfolio Planning Workspace
+title: Update details of free-form roadmap
 description: Update the details of a free-form roadmap to reflect the changes in priorities or the timeline of the roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/update-details-of-free-form-roadmap.html
@@ -7,19 +7,19 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, edit free-form roadmap]
-breadcrumb: [Create a free-form roadmap in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Update details of free-form roadmap in Portfolio Planning Workspace
+# Update details of free-form roadmap
 
 Update the details of a free-form roadmap to reflect the changes in priorities or the timeline of the roadmap.
 
 ## Before you begin
 
-[Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
+[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -40,5 +40,5 @@ Role required: sn\_align\_core.apw\_user
 
 The roadmap is updated and the roadmap items are displayed according to the latest changes.
 
-**Parent Topic:**[Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
+**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
 

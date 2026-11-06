@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Project workbench, Using Project workbench - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Managing Project workbench, Using Project workbench - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a project task in the project workbench
@@ -24,10 +24,10 @@ Role required: it\_project\_manager
 
 While creating a project task in the project workbench, the time constraint type is defaulted based on the project type.
 
--   For a manual project, the default constraint is Start On and cannot be changed.
+-   For a manual project, the default constraint is Start On and can't be changed.
 -   For an automatic project, the default constraint is Start ASAP and can be changed to Start On if required.
 -   When the constraint is Start ASAP, the **Planned start date** is disabled.
--   When you create an agile phase and associate a sprint, the start date of the task is set from the sprint start date and the constraint becomes Start On automatically.
+-   When you create an agile phase and associate a sprint, the task start date is set from the sprint start date. The constraint is set to Start On automatically.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-02-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Explore, Digital Product Release, IT Service Management]
 
 You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
 
-The following example of a release shows how holiday schedules affect its overall timeline to keep important dates on working days.
+The following example of a release shows how holiday schedules affect its overall timeline to keep important dates on working days. When a release is retargeted, planned start and end dates for phases are adjusted by the retarget days.
 
-Let's say a release has four phases: Planning, Development, Testing, and Implementation, with durations of 10, 25, 15, and 10 days, respectively, totaling 60 working days. The release readiness target date is set to Sep 5, 2025, and has a public and weekend holiday schedule \(U.S. Federal + Weekend holidays in 2025\) associated. So, the start and end dates of each phase are adjusted to account for non-working days \(holidays and weekends on the schedule\), to keep the phase durations intact. Key dates also follow the same adjustment rule.
+Let's say a release has 4 phases: Planning, Development, Testing, and Implementation, with durations of 10, 25, 15, and 10 days, respectively, totaling 60 working days. The release readiness target date is set to Sep 5, 2025, and has a public and weekend holiday schedule \(U.S. Federal + Weekend holidays in 2025\) associated. So, the start and end dates of each phase are adjusted to account for non-working days \(holidays and weekends on the schedule\), to keep the phase durations intact. Key dates also follow the same adjustment rule.
 
 -   **Considerations:**
 
@@ -33,7 +33,7 @@ Let's say a release has four phases: Planning, Development, Testing, and Impleme
             -   Jul 4: Independence Day \(Fri\).
             -   Sep 1: Labour Day \(Mon\).
     -   Adjustment rules:
-        -   The original end date of the last phase is the release readiness target date, usually a working day so no adjustment needed. All remaining phases prior to the last phase get their original end and start dates by counting all calendar days, including both working and non-working. Their adjusted end and start dates are the actual dates on a working day, skipping non-working days.
+        -   The original end date of the last phase is the release readiness target date, usually a working day so no adjustment needed. For all phases before the last, original start and end dates are derived by counting consecutive calendar days, regardless of whether they fall on working or non-working days. Their adjusted end and start dates are the actual dates on a working day, skipping non-working days.
         -   The original start date is determined by counting all calendar days backward from the adjusted end date. The adjusted start date is the actual start date on a working day, skipping non-working days.
         -   If a key date or the phase start or end date falls on a holiday or weekend, shift to the previous working day.
         -   The duration of each phase \(in days\) remains fixed, but holidays and weekends within the phase period extend the calendar span.
@@ -95,7 +95,7 @@ Key dates
 
 </td><td>
 
-Deployment preparation: On 5th day from the phase's adjusted start – Aug 28 \(Thu\)\(Excludes weekends and holidays. Falls on a working day, no adjustment needed\)
+Deployment preparation: On fifth day from the phase's adjusted start – Aug 28 \(Thu\)\(Excludes weekends and holidays. Falls on a working day, no adjustment needed\)
 
 </td></tr><tr><td>
 
@@ -183,7 +183,7 @@ Key dates
 
 </td><td>
 
-Test plan approval: On 5th day from the phase's adjusted start – Aug 7 \(Tue\)\(Excludes weekends and holidays. A working day, no adjustment needed\)
+Test plan approval: On fifth day from the phase's adjusted start – Aug 7 \(Tue\)\(Excludes weekends and holidays. A working day, no adjustment needed\)
 
 </td></tr><tr><td>
 
@@ -363,7 +363,7 @@ Key dates
 
 </td><td>
 
-Midpoint: On 5th working day from the phase's adjusted start – Jun 17 \(Tue\)\(a working day, no adjustment needed\)
+Midpoint: On fifth working day from the phase's adjusted start – Jun 17 \(Tue\)\(a working day, no adjustment needed\)
 
 </td></tr><tr><td>
 

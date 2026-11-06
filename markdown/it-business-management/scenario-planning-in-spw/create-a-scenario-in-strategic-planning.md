@@ -1,5 +1,5 @@
 ---
-title: Create a scenario in Strategic Planning
+title: Create a scenario
 description: Create a scenario from a live plan or another scenario in a simulated environment to compare the scenario with the live plan and other scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Optimize planning with scenario planning, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a scenario in Strategic Planning
+# Create a scenario
 
 Create a scenario from a live plan or another scenario in a simulated environment to compare the scenario with the live plan and other scenarios.
 
@@ -92,6 +92,6 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
 ## What to do next
 
 -   Create more scenarios, if necessary.
--   [Compare scenarios in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
--   [Approve a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
+-   [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
+-   [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md)
 

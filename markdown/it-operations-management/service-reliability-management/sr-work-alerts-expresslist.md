@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Working with alerts in SRM
@@ -20,17 +20,17 @@ The Event Management Express List feature provides a customizable, sortable view
 
 \[Omitted image "sr-express-list.png"\] Alt text: Express List shows several sample alerts and options for filtering them by fields such as state, severity, and priority.
 
-As a Service Reliability Management \(SRM\) user, you automatically have the evt\_team\_operator role, which lets you access the Express List feature \(\[Omitted image "express-list1.png"\] Alt text: Express list icon\). To learn more about that role, see [Roles used by Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/roles-used-by-express-list.md).
+As a Service Reliability Management \(SRM\) user, you automatically have the evt\_team\_operator role, which lets you access the Express List feature \(\[Omitted image "express-list1.png"\] Alt text: Express list icon\). To learn more about that role, see [Roles used by Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/roles-used-by-express-list.md).
 
 Visit the following to work with alerts in the Express List feature:
 
--   [Acknowledge viewed alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/acknowledge-alerts.md)
--   [Assign alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/assign-alerts.md)
--   [Close an alert in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/close-alert.md)
--   [Create an incident from an alert in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/open-incident.md)
--   [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/t_EMUseAlertConsole.md)
--   [Place an alert in the Acknowledged state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/alert-acknowledged-status.md)
--   [Place an alert in the Maintenance state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/alert-maintenance-state.md)
+-   [Acknowledge viewed alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/acknowledge-alerts.md)
+-   [Assign alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/assign-alerts.md)
+-   [Close an alert in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/close-alert.md)
+-   [Create an incident from an alert in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/open-incident.md)
+-   [Monitor incoming alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMUseAlertConsole.md)
+-   [Place an alert in the Acknowledged state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-acknowledged-status.md)
+-   [Place an alert in the Maintenance state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-maintenance-state.md)
 
 In SRM, integrations create alerts or you create alerts manually. Visit the following link to learn how to create an alert from the **Services** page:
 

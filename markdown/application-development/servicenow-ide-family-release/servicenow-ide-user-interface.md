@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE user interface
@@ -48,7 +48,7 @@ Learn about features of the ServiceNow IDE user interface.
     -   [File Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Navigate through applications in your workspace and their code.
     -   [Search view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Find content within files.
     -   [Source Control view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Integrate with a Git repository for version control of your code.
-    -   [Metadata Explorer view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Create, update, and view application metadata.
+    -   [File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Create, update, and view application metadata.
     -   [Now SDK view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Synchronize changes to application metadata or build and install applications.
     -   [Manage menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Access and configure various aspects of the user interface.
 3.  [Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-user-interface.md): Write source code and view application metadata through embedded ServiceNow AI Platform user interfaces.
@@ -89,11 +89,11 @@ To search for files by name, open the search box with the following keyboard sho
 
 See changes to files grouped by application and the type of change. Stage, commit, and push changes to a remote repository and pull changes into your local repository. Create and checkout branches for your applications. In the Commits section, see the commit history for branches in the repository. To get started integrating with source control providers, see [Integrating source control with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/integrating-source-control-servicenow-ide.md).
 
-### Metadata Explorer view
+### File Categories view
 
-\[Omitted image "servicenow-ide-create-file.png"\] Alt text: Metadata Explorer view
+\[Omitted image "servicenow-ide-create-file.png"\] Alt text: File Categories view
 
-Create, update, and view application metadata in the most applicable embedded ServiceNow AI Platform user interface in the editor. If you need to create some application metadata outside of source code, you can create application files from the Metadata Explorer. For more information, see [Create an application file from the Metadata Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md).
+Create, update, and view application metadata in the most applicable embedded ServiceNow AI Platform user interface in the editor. If you need to create some application metadata outside of source code, you can create application files from the File Categories view. For more information, see [Create an application file from the File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md).
 
 ### Now SDK view
 
@@ -113,7 +113,7 @@ Access and configure various aspects of the ServiceNow IDE user interface from t
 
 Write and edit code using IntelliSense, custom language processing and validation for ServiceNow Fluent, side-by-side editing, and more.
 
-After building an application, review changes to ServiceNow Fluent source code as application metadata in embedded ServiceNow AI Platform user interfaces without leaving the ServiceNow IDE. Application metadata opens in the most applicable embedded ServiceNow AI Platform user interface. From links in the editor, you can open the Metadata Explorer view for metadata defined with a dedicated ServiceNow Fluent API.
+After building an application, review changes to ServiceNow Fluent source code as application metadata in embedded ServiceNow AI Platform user interfaces without leaving the ServiceNow IDE. Application metadata opens in the most applicable embedded ServiceNow AI Platform user interface. From links in the editor, you can open the File Categories view for metadata defined with a dedicated ServiceNow Fluent API.
 
 \[Omitted image "servicenow-ide-code-lens.png"\] Alt text: Code Lens link in the Editor
 

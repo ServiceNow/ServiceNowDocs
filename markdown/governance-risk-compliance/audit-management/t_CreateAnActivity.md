@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage engagements, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage engagements, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audit task activity
@@ -18,7 +18,14 @@ After defining a control, audit managers create activities that explore and prov
 
 ## Before you begin
 
-Role required: sn\_audit.admin and sn\_audit.manager
+Role required: The roles required for Audit Management are sn\_audit.admin and sn\_audit.manager.
+
+Following are the roles required for Lite Audit:
+
+-   sn\_grc\_advanced.evidence\_reader
+-   sn\_grc\_advanced.evidence\_requester
+-   sn\_grc\_advanced.evidence\_responder
+-   sn\_grc\_advanced.evidence\_admin
 
 ## Procedure
 
@@ -168,7 +175,7 @@ Work notes
 
 </td><td>
 
-Comments that are viewable by the audit manager and audit manager.
+Comments that are viewable by the audit administrator and audit manager.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

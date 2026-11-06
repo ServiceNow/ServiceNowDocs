@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -100,15 +100,15 @@ safe\_scrum\_user
 
 -   **Percent Completed**
 
-    Indicates the percentage of work that has been completed in the sprint using story points. This widget lets you see at a glance how much work has been completed in the sprint. Together with the adjacent Time Elapsed widget, these widgets lets you easily see whether you are completing work at a rate consistent with achieving the sprint goal on schedule.
+    Indicates the percentage of work that has been completed in the sprint using story points. This widget lets you see at a glance how much work has been completed in the sprint. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate that meets the sprint goal on schedule.
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the sprint. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the sprint goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the sprint. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate that meets the sprint goal on schedule.
 
 -   **Committed Points**
 
-    Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets let you see difference between the scope committed at the start of the sprint and the current scope of the sprint.
+    Indicates the committed scope \(in number of story points\) of the sprint. Together with the adjacent Scope widget, these widgets let you see the difference between the scope committed at the start and the current scope of the sprint.
 
     **Note:** This widget is not visible by default. You can add it from Reports to your dashboard. For more information, see [Edit a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/t_EditADashboard.md).
 
@@ -150,7 +150,7 @@ Sprint Burndown
 
 </td><td>
 
-Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -171,7 +171,7 @@ Sprint Burnup
 
 </td><td>
 
-Line chart \[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart \[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -190,7 +190,7 @@ Sprint Cumulative Flow Diagram
 
 </td><td>
 
-Area chart\[Omitted image "icon-area-report.png"\] Alt text: Area chart
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 

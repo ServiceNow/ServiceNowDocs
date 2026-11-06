@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -20,7 +20,7 @@ Create drafts of knowledge articles from multiple cases with the ServiceNow Otto
 
 -   Install the following plugins:
     -   Knowledge Management Advanced plugin \[com.snc.knowledge\_advanced.installer\]; This is not a mandatory plugin and it cannot be uninstalled.
-    -   Now Assist in Knowledge Management \[sn\_km\_gen\_ai\]
+    -   ServiceNow Otto for Knowledge Management \[sn\_km\_gen\_ai\]
     -   Human Resources Scoped App: Core \[com.sn\_hr\_core\]
     -   Latest version of Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\]
     -   Human Resources Scoped App: Lifecycle Events \[com.sn\_hr\_lifecycle\_events\]
@@ -40,7 +40,7 @@ Role required:
 
 You can use the KB generation skill in either Core UI or Agent Workspace. The fields that are used as inputs for generating knowledge articles are the Short description, description, close notes, work notes, and additional comments fields. You can also use up to five additional relevant tasks to help you create knowledge articles.
 
-**Note:** The KB generation skill is supported in the Now Assist panel for the HR Case records \[sn\_hr\_core\_case\] table, but not on its extended table records.
+**Note:** The KB generation skill is supported in the ServiceNow Otto panel for the HR Case records \[sn\_hr\_core\_case\] table, but not on its extended table records.
 
 You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -56,16 +56,16 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
     **Note:** You can now select what type of article that you want to create.
 
-5.  If displayed, select a **Knowledge base** and an **Article template** .
+5.  If displayed, select a **Knowledge base** and an **Article template**.
 
     **Note:**
 
     -   If your admin installed the Knowledge Management Advanced plugin \[com.snc.knowledge\_advanced.installer\] and enabled at least one article template, a modal is displayed so that you can select the knowledge base and article template. Otherwise, the article is created with the standard template.
-    -   Disable the Use Now Assist to draft an article toggle if you don't want the AI to generate a knowldege article.
+    -   Disable the Use ServiceNow Otto to draft an article toggle if you don't want the AI to generate a knowledge article.
     -   Additional tasks that are relevant to your case can be used to draft your article. You can select up to five relevant tasks to help you create your article.
 6.  Select **Create Article**.
 
-7.  Select **Draft article** with **Now Assist**.
+7.  Select **Draft article**.
 
     **Note:** You see the message "We have found additional relevant tasks-select up to 5 to help in the creation of article." You also see a list of relevant tasks that you can select from.
 
@@ -73,29 +73,33 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 9.  If you don't need any other tasks to help you create your article, select **Continue without more tasks**.
 
-10. **Note:** Now Assist starts to generate a draft of a an knowledge article and you see the "Drafting article" message box. After Now Assist finishes the draft and loadsing the article successfully, the article gets a unique ID number.
+10. **Note:** ServiceNow Otto starts to generate a draft of a an knowledge article and you see the "Drafting article" message box. After ServiceNow Otto finishes the draft and loading the article successfully, the article gets a unique ID number.
 
 11. View, edit, or publish the article by using the UI actions on the screen.
 
-    Now Assist has generated your article from multiple cases.
+    ServiceNow Otto has generated your article from multiple cases.
 
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HRSD]()
 
-[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist]()
+[Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD]()
 
-[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -105,15 +109,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
 
 [Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
-[Use Galileo Inside to answer HR-related questions]()
+[Use ServiceNow Otto for HRSD – Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in Agent Workspace for HR Case Management]()
+[Use the ServiceNow Otto panel in HR Agent Workspace]()
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

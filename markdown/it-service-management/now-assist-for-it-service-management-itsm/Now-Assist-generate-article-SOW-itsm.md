@@ -1,41 +1,45 @@
 ---
-title: Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist
-description: As an agent or knowledge writer, quickly generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the Now Assist application.
+title: Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto
+description: As an agent or knowledge writer, generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/Now-Assist-generate-article-SOW-itsm.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using Now Assist
+# Generate a knowledge article from the Service Operations Workspace for ITSM and classic environment by using ServiceNow Otto
 
-As an agent or knowledge writer, quickly generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the Now Assist application.
+As an agent or knowledge writer, generate knowledge articles from resolved and closed incidents within the Service Operations Workspace for ITSM application and classic environment by using the ServiceNow Otto application.
 
 ## Before you begin
 
-\[Omitted video\] Description: Generate a KB article from similar incidents by using Now Assist
+You can generate a knowledge article in any incident state that is set by your administrator using the **com.snc.incident.create\_knowledge.multistate.enable** system property. The incident must also not have an existing knowledge article that is associated with it.
 
-To generate a knowledge article for an incident, the incident must be in the resolved or closed state. The incident also must not have an existing knowledge article that is associated with it.
+**Note:** KB generation applies to incident records only. The **Create Knowledge** option does not appear on catalog items or other task table types.
+
+The Knowledge generation skill is turned on by default. The skill will be automatically available to appropriate role users for the application. When new customers install a ServiceNow Otto product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+The knowledge base referenced by the system property glide.knowman.task\_kb must be active. If the specified knowledge base is inactive, the **Create Knowledge** option does not appear on resolved incidents.
 
 **Important:**
 
 -   Install the applications and plugins listed in the tables below and update them to the corresponding store app version before configuring the Knowledge Generation skill.
--   For information on the plugin version numbers that correspond to the release you are installing, see [https://store.servicenow.com/store/app/2c09636e1be06a50a85b16db234bcb74\#versionSummary](https://store.servicenow.com/store/app/2c09636e1be06a50a85b16db234bcb74#versionSummary)
+-   For information on the plugin version numbers that correspond to the release you’re installing, see [https://store.servicenow.com/store/app/2c09636e1be06a50a85b16db234bcb74\#versionSummary](https://store.servicenow.com/store/app/2c09636e1be06a50a85b16db234bcb74#versionSummary)
 
--   For knowledge management, you must install and update the following store apps to the corresponding application version.
+-   For Knowledge Management, you must install and update the following store apps to the corresponding application version.
 
     |Store application name|Plugin ID|
     |----------------------|---------|
-    |Now Assist in Knowledge Management \[app-knowledge-gen-ai\]|com.sn.km.gen.ai, sn\_km\_gen\_ai|
-    |Knowledge Capabilities in UI Builder \[app-knowledge-uib\]|com.snc.uib.knowledge, sn\_km\_uib|
+    |ServiceNow® Otto for Knowledge Management \[app-knowledge-gen-ai\]|sn\_km\_gen\_ai|
+    |Knowledge Capabilities in UI Builder \[app-knowledge-uib\]|sn\_km\_uib|
 
--   For ITSM Service Operations Workspace,you must install and update the following store apps to the corresponding application version.
+-   For ITSM Service Operations Workspace, you must install and update the following store apps to the corresponding application version.
 
     |Application name|Plugin ID|
     |----------------|---------|
@@ -47,24 +51,20 @@ To generate a knowledge article for an incident, the incident must be in the res
     |Incident Management for Service Operations Workspace|sn\_sow\_inc|
     |Interaction Management for Service Operations Workspace|sn\_sow\_interaction|
 
--   To use the Knowledge Centered Services \(KCS\) template \(Incident-KCS article - HTML\) in the Service Operations Workspace ITSM application, you must install the KCS Integration for Incident Management plugin. Otherwise, Now Assist uses the Standard article.
 
-To enable an agent to see the Now Assist experience on the Create Article page, configure the following knowledge base generation criteria:
+To enable an agent to see the ServiceNow Otto experience on the Create Article page, configure the following knowledge base generation criteria:
 
 -   Install the knowledge skills. For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/configure-now-assist-for-itsm.md).
 -   Make sure that the following criteria are in place in the AI Admin Hub console:
     -   Specify the table record and input fields.
     -   Specify the conditions for the skill availability from the list of attributes.
-    -   Specify that the knowledge base generation feature for the In-product or Now Assist panel is displayed.
+    -   Specify that the knowledge base generation feature for the In-product or ServiceNow Otto panel is displayed.
 -   Configure the Create Article feature to apply the supported template, Incident-KCS article - HTML, or Standard article.
 
+-   Activate the Knowledge Content Recommendation skill. In Otto Admin, navigate to **Otto Experiences** &gt; **Otto Context Menu** and activate the Knowledge Content Recommendation skill. Activating the Otto Context Menu alone does not enable this skill.
 -   Currently, only the Create Article experience is available.
 
 Role required: itil
-
-## About this task
-
-In the Service Operations Workspace for ITSM and classic environment, you can generate the knowledge article information for an incident by selecting **Create Knowledge** on the incident record. This UI action displays the Use Al to draft this article modal. By using this modal, you can choose to write the article yourself or draft an article and then you can review and edit the knowledge article text.
 
 ## Procedure
 
@@ -76,53 +76,144 @@ In the Service Operations Workspace for ITSM and classic environment, you can 
 
 3.  Create the article by selecting the **Create knowledge** option from the UI action drop-down menu in the incident.
 
-    \[Omitted image "now-assist-itsm-knowledge-option.png"\] Alt text: Now Assist in ITSM knowledge article option.
+    \[Omitted image "now-assist-itsm-knowledge-option.png"\] Alt text: ServiceNow Otto in ITSM knowledge article option.
 
     **Note:**
 
-    -   The Create knowledge UI action is only visible when an incident doesn't have an existing knowledge article that is associated with it.
-    -   In the classic environment, the Create article modal is not supported.
-4.  In the Create article modal, select a Knowledge Base and an Article template, if displayed.
+    -   The **Create knowledge** UI action is only visible when an incident doesn't have an existing knowledge article that is associated with it.
+    -   If the popup modal does not appear, see the [KB Generation Otto popup modal is not visible in the ServiceNow Operations Workspace](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3061335) knowledge article for the resolution.
 
-    **Note:** Using the templates to create the articles is optional. Your system administrator must enable the **sn\_sow\_inc.enable\_kb\_template** system property and you must have at least one active template to see the modal. For information on available templates, see [Knowledge article templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-article-templates.md).
+        When the **Create knowledge** action is initiated, it gets redirected to an interceptor page. The Knowledge article interceptor page displays only when the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is not installed.
 
-    The KCS template \(Incident-KCS article - HTML\) is used to generate the article only if the KCS plugin is installed. If the plugin isn’t installed, the article is generated by using the Standard article.
+        **Important:** If the KCS integration for incident management \(com.snc.incident.knowledge\) plugin is installed, then the interceptor page is skipped.
 
-    \[Omitted image "itsm-now-assist-create-article-modal.png"\] Alt text: Now Assist in ITSM create article modal
+        A series of steps is then executed within the [Knowledge Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/knowledge-management.md).
 
-    **Note:** When you use the standard template:
+        This includes determining if the following actions must be done:
 
-    -   In the **Core UI**, the content from the incident's **Additional comments** field is populated in the article body of the standard template.
-    -   In the **Service Operations Workspace**, if the UI action does not include a template popup picker, the content from the incident's **Description** and **Resolution notes** fields are populated in the article body of the standard template.
-    -   In the **Service Operations Workspace**, if the UI action includes a template popup picker, the content from the incident's **Description**, **Resolution notes**, and **Additional comments** fields are populated in the article body of the standard template.
-    The Knowledge Base is selected based on your administrator's configuration in the AI Admin Hub console.
+        -   Display the write option using ServiceNow Otto.
+        -   Present a list of similar records.
+        -   Generate a submission record if the **glide.knowman.submission.workflow** property is enabled.
+    -   If you encounter a duplicate **Create Knowledge** button, see the [Resolving duplicate Create Knowledge actions](https://www.servicenow.com/community/itsm-articles/issue-and-resolution-two-quot-create-knowledge-quot-actions-in/ta-p/3418702) community article for the resolution.
+4.  In the Knowledge article interceptor page, select a knowledge base and an article template.
 
-5.  Select **Create article**.
+    |Knowledge article interceptor page|UI display|
+    |----------------------------------|----------|
+    |**In Service Operation Workspace**|\[Omitted image "now-assist-itsm-kb-interceptor-sow.png"\] Alt text: The knowledge article interceptor page in Service Operations Workspace|
+    |**In Core UI**|\[Omitted image "now-assist-itsm-kb-interceptor-ui16.png"\] Alt text: The knowledge article interceptor page for core UI.|
 
-6.  In the Use AI to draft this article? modal, choose to write the article yourself, or draft an article with Now Assist.
+5.  Select **Next**.
 
-    \[Omitted image "now-assist-itsm-kb-gen-modal.png"\] Alt text: Now Assist in ITSM knowledge article choice modal.
+    **Note:** When you use the standard template, the content from the incident's **Description**, **Resolution**, and **Additional comments** fields are populated in the respective fields in the article body of the standard template.
 
-7.  If you are drafting the article with Now Assist, you can choose up to five relevant tasks for the creation of the article, and select **Use selected tasks to help draft new article**; otherwise, select **Cancel**.
+6.  To add or update the knowledge article, follow the instructions in the table below.
 
-    \[Omitted image "now-assist-itsm-similar-incidents.png"\] Alt text: Now Assist in ITSM knowledge article related incidents modal.
+<table><thead><tr><th align="left" id="d191562e563">
 
-    When creating an article that includes information that spans multiple similar incidents, a single article is created containing the details from the selected incidents.
+To add or update the knowledge article
 
-    The article appears in a new tab, has a unique ID number for the knowledge article, and is attached to the parent record.
+</th><th align="left" id="d191562e566">
 
-8.  Review the article and edit it if necessary.
+Do this
 
-    \[Omitted image "now-assist-itsm-kb-gen-art.png"\] Alt text: Now Assist in ITSM knowledge article.
+</th></tr></thead><tbody><tr><td id="d191562e572">
+
+**In Service Operation Workspace**
+
+</td><td>
+
+-   In the main article editor, select the ServiceNow Otto icon and make changes as needed.
+
+\[Omitted image "now-assist-itsm-sow-create-new-knowledge.png"\] Alt text: Create a KCS article for an incident in SOW-Article body sections populated from fields in the corresponding incident
+
+-   Click **Save**.
+
+
+</td></tr><tr><td id="d191562e607">
+
+**In Core UI**
+
+</td><td>
+
+You can update the knowledge article manually or use Generative AI to update it.\[Omitted image "now-assist-itsm-coreui-create-new-knowledge.png"\] Alt text: Create a KCS article for an incident in CoreUI
+
+To update it:
+
+-   Manually, select **No, write it myself** and updated the contents in the fields manually.
+-   Using ServiceNow Otto, select **Yes, draft with AI** . ServiceNow Otto adds content to the **Issue** and **Resolution** fields.
+-   Select **Submit** after you make the changes.
+**Note:** Select **Edit using improved editor**. The new Knowledge Article Advanced Editor page opens in the Knowledge Center where you can edit the content and click **Save** to save the edits.
+
+</td></tr></tbody>
+</table>7.  If you’re creating a draft of the article with ServiceNow Otto, you can select more than one incident to create the article .
+
+    **Note:** Make sure that AI Search is activated.
+
+    To verify, go to **All** &gt; **AI Search** &gt; **AI Search Status** and verify that AI Search is active.
+
+    \[Omitted image "now-assist-itsm-ai-search.png"\] Alt text: AI Search activated
+
+<table id="choicetable_d3l_scz_23c"><thead><tr><th align="left" id="d191562e705">
+
+Type of UI
+
+</th><th align="left" id="d191562e708">
+
+Procedure
+
+</th></tr></thead><tbody><tr><td id="d191562e714">
+
+**In Service Operation Workspace**
+
+</td><td>
+
+1.  Open an incident.
+2.  Select **Create Knowledge**.
+3.  Select the Delete icon and select **Clear Canvas**.
+
+The 'Write about \(incident number\)' displays.
+
+4.  Enter an incident number or an incident short description and press the arrow icon\[Omitted image "now-assist-itsm-arrow-icon.png"\] Alt text:.
+\[Omitted image "now-assist-itsm-sow-clear-canvas.png"\] Alt text: Clear the canvas to view incidents with similar tasks-   When an incident number is provided, ServiceNow Otto generates the article based on the incident number.
+-   When an incident short description is copied and pasted, ServiceNow Otto searches the top three similar incidents to generate the article.
+The Knowledge article is created and attached to all selected similar incidents.
+
+\[Omitted image "now-assist-itsm-sow-similar-inc-knowledge.png"\] Alt text: Knowledge created for similar incidentsSelect **Save** to save the article.
+
+</td></tr><tr><td id="d191562e783">
+
+**In Core UI**
+
+</td><td>
+
+1.  In CoreUI, open an incident with similar incidents.
+2.  Select **Create Knowledge**.
+3.  Select **Yes, draft with Otto** .
+
+A popup displays similar incidents. You can select up to 5 incidents.
+
+4.  Select **Continue without more tasks**.
+
+The knowledge article is created.
+
+5.  Select **Save**.
+
+The knowledge article is attached to all similar incidents.
+
+ \[Omitted image "now-assist-itsm-coreui-multiple-inc-knowledge.png"\] Alt text: Multiple related incidents in CoreUI
+
+</td></tr></tbody>
+</table>8.  Review the article and edit it if necessary.
 
 9.  Select **Save** or **Publish**.
 
-    The Now Assist success message disappears indicating that it’s no longer a Now Assist generated article.
+    -   The ServiceNow Otto success message disappears indicating that it’s no longer a ServiceNow Otto generated article.
+    -   If Now LLM Service fails to generate a result, you see an error message.
+    -   When creating an article using ServiceNow Otto, the process once triggered can’t be stopped. ServiceNow Otto continues to generate the article even if you close the dialog box.
+    -   **Note:** You can edit a knowledge article in an incident using the **Edit knowledge article** button. This button displays under the following conditions:
 
-    If Now LLM Service fails to generate a result, you see an error message.
-
-    When creating an article using Now Assist, the process once triggered can’t be stopped. Now Assist continues to generate the article even if you close the dialog box.
-
+-   When the incident is in resolved or closed state or for any state your system administrator has enabled the **com.snc.incident.create\_knowledge.multistate.enable** system property.
+-   If you have only one article attached to the incident and you have write access to the article.
 
 **Related topics**  
 

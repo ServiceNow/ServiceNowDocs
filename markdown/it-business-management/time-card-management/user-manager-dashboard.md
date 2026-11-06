@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -42,8 +42,6 @@ The Time sheet exceptions report lists the users who did not submit/create their
 
 The report is generated from the time\_sheet\_exception table. It requires the schedule job **Time Sheet Exceptions** to be running to get the up-to date information.
 
-\[Omitted image "TimeSheetExceptions.png"\] Alt text: Screenshot for Time Sheet Exceptions report
-
 ## Total approved hours
 
 It displays the total approved hours in all categories displayed in **Time by category** report.
@@ -53,8 +51,6 @@ It displays the total approved hours in all categories displayed in **Time by ca
 ## Time by category report
 
 The bar chart report displays the time approved against each category for the selected users whose manager in User profile is the current user.
-
-\[Omitted image "TimeByCategory.png"\] Alt text: Screenshot for Time by Category report
 
 **Parent Topic:**[Time Card Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/time-card-management/time-card-management.md)
 

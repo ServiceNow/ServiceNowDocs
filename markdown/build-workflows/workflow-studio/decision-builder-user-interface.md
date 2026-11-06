@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Exploring Decision Tables, Exploring Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision Builder user interface
@@ -62,17 +62,15 @@ On a saved decision table, you can do the following:
 -   Edit the decision rows again in the Decision Builder interface.
 -   Edit the inputs, condition columns, or result columns.
 -   Export to Excel, edit the decision rows again, and import into Decision Builder to update the decision table.
--   Test your decision table to make sure that the rules provide the desired outcome for a given set of input data.
+-   Test your decision table to make sure the rules provide the desired outcome for a given set of input data.
 
 ## Pagination
 
-Pagination is a method used to present large datasets by breaking them down into smaller, more manageable sections called pages. This feature helps you to switch between pages by selecting the page you would like to see.
+Pagination is a method used to present large data sets by breaking them down into smaller, more manageable sections called pages. This feature helps you to switch between pages by selecting the page you would like to see.
 
 **Note:**
 
 -   You must save changes before leaving the current view, when reordering, adding, deleting rows, or modifying the table.
 -   If a new row is added at the end of the page, the added row moves to the next page after saving.
 -   Post export/import, filtering, or when changing the number of rows in the page, you’re redirected to the first page.
-
-**Parent Topic:**[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/decision-designer-overview.md)
 

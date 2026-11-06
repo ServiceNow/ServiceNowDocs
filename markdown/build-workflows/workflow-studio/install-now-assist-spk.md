@@ -1,20 +1,20 @@
 ---
-title: Install Now Assist for Creator
-description: Install the Now Assist for Creator application to use the spoke generation skill.
+title: Install ServiceNow Otto for Creator
+description: Install the ServiceNow Otto for Creator application to use the spoke generation skill.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/install-now-assist-spk.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist to create spokes and build actions, Building spokes using Spoke Generator, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
-# Install Now Assist for Creator
+# Install ServiceNow Otto for Creator
 
-Install the Now Assist for Creator application to use the spoke generation skill.
+Install the ServiceNow Otto for Creator application to use the spoke generation skill.
 
 ## Before you begin
 
@@ -42,6 +42,4 @@ Role required: admin
 ## What to do next
 
 Configure ServiceNow Otto for Creator to turn on the spoke generation skill.
-
-**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

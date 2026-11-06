@@ -1,18 +1,21 @@
 ---
-title: Integrating Virtual Agent with other channels
-description: Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are. They are engaged in web portals, Now Mobile apps, and collaboration tools such as Slack, Microsoft Teams, Facebook Messenger consumer app, Workplace enterprise messaging app, and any other popular chat or messaging app.
+title: Conversational Integration apps for Virtual Agent
+description: Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are. They are engaged in web portals, Now Mobile apps, and collaboration tools such as Slack, Microsoft Teams, and any other popular chat or messaging app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/integrate-virtual-agent.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent, Conversational Interfaces]
+breadcrumb: [Conversational Interfaces]
 ---
 
-# Integrating Virtual Agent with other channels
+# Conversational Integration apps for Virtual Agent
 
-Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are. They are engaged in web portals, Now® Mobile apps, and collaboration tools such as Slack, Microsoft Teams, Facebook Messenger consumer app, Workplace enterprise messaging app, and any other popular chat or messaging app.
+Integrate and extend the capabilities of Virtual Agent by connecting to your employees and customers where they already are. They are engaged in web portals, Now® Mobile apps, and collaboration tools such as Slack, Microsoft Teams, and any other popular chat or messaging app.
+
+-   **[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)**  
+Enable users to run Virtual Agent bot conversations in supported third-party messaging apps. Use the Conversational Integration apps for Slack, Microsoft Teams, and Workplace that are available from the ServiceNow Store to configure these messaging apps on your ServiceNow instance.
 

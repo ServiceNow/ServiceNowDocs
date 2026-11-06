@@ -1,30 +1,30 @@
 ---
-title: Configure Now Assist AI Helper – Galileo Inside
-description: Enable users to access functionality and benefits of the Now Assist AI Helper – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
+title: Configure ServiceNow Otto for HRSD – Galileo Inside
+description: Enable users to access functionality and benefits of the ServiceNow Otto for HRSD – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/configuring-galileo-inside.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-04-28"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Configure Now Assist AI Helper – Galileo Inside
+# Configure ServiceNow Otto for HRSD – Galileo Inside
 
-Enable users to access functionality and benefits of the Now Assist AI Helper – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
+Enable users to access functionality and benefits of the ServiceNow Otto for HRSD – Galileo Inside \[sn\_hr\_na\_galileo\] plugin by completing a short installation and configuration process.
 
 ## Before you begin
 
 Obtain the API key from The Josh Bersin Company.
 
-Role required: admin
+Role required: sn\_hr\_na\_galileo.admin
 
 ## Procedure
 
-1.  Install the Now Assist AI Helper – Galileo Inside plugin \(sn\_hr\_na\_galileo\).
+1.  Install the ServiceNow Otto for HRSD – Galileo Inside \(sn\_hr\_na\_galileo\).
 
     For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
@@ -53,32 +53,12 @@ Role required: admin
 
 ## What to do next
 
-Next, assign the `sn_hr_na_galileo.read` role to users to enable them to interact with Now Assist AI Helper – Galileo Inside.
+Next, assign the `sn_hr_na_galileo.read` role to users to enable them to interact with ServiceNow Otto for HRSD – Galileo Inside.
 
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[Restrict Now Assist capabilities for employee relations cases]()
-
-[Customize the ServiceNow Otto for HRSD skills]()
-
-[Configure attachment summary]()
-
-[Configure resolution notes generation for ServiceNow Otto for HRSD]()
-
-[Configure sensitivity detection]()
-
-[Configure Gen AI Virtual Agent for HRSD]()
-
-[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
-
-[Configure HCM agents for HR Service Delivery AI Agent Collection]()
-
-[Use Galileo Inside to answer HR-related questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-galileo-inside.md)
+[Use ServiceNow Otto for HRSD – Galileo Inside to answer HR-related questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-galileo-inside.md)
 

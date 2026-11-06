@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r-port-faq-inst-options.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configurable Portal widgets instance options, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
 # Portal FAQ widget instance options form
@@ -24,7 +24,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Table
+Knowledge Table
 
 </td><td>
 

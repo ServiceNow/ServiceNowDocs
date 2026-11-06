@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete an event handler
@@ -36,23 +36,15 @@ Role required: admin
 
 5.  Select the **Events** tab in the configuration panel.
 
-    \[Omitted image "delete-event-mapping-events-tab.png"\] Alt text: Arrow pointing to the Events tab in the configuration panel.
-
 6.  Select the event handler that you want to delete.
 
-    \[Omitted image "delete-event-select-event.png"\] Alt text: Arrow pointing to an event handler in the events tab.
-
 7.  Select **Delete**.
-
-    \[Omitted image "delete-event-mapping-delete-button.png"\] Alt text: Arrow pointing to the delete button to delete an event handler.
 
 8.  Select **Delete** in the confirmation modal.
 
 9.  The event handler is removed from the associated event mapping.
 
     If you would like to delete the event mapping, see [Delete an event mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/delete-event-mapping.md).
-
-    \[Omitted image "delete-event-handler-result.png"\] Alt text: Event handler removed from the event mapping.
 
 
 **Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md)

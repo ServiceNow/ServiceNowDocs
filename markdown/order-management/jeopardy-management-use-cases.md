@@ -1,22 +1,22 @@
 ---
 title: Jeopardy Management use cases
-description: Jeopardy Management use cases help you explore and understand how Jeopardy Management works in different scenarios in Order Management for Telecommunications.
+description: Jeopardy Management use cases help you explore and understand how Jeopardy Management works in different scenarios in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/jeopardy-management-use-cases.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Jeopardy Management, Order Management, Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Jeopardy Management, Order management, Configure, Sales Customer Relationship Management]
 ---
 
 # Jeopardy Management use cases
 
-Jeopardy Management use cases help you explore and understand how Jeopardy Management works in different scenarios in Order Management for Telecommunications.
+Jeopardy Management use cases help you explore and understand how Jeopardy Management works in different scenarios in Order Management.
 
 ## Design-time use cases
 
-Design-time use cases explain some of the scenarios around configuring and setting up Jeopardy Management for Order Management for Telecommunications.
+Design-time use cases explain some of the scenarios around configuring and setting up Jeopardy Management for Order Management.
 
 **Use case: Configure business logic and workflows**
 
@@ -33,7 +33,7 @@ Define jeopardy logic using Workflow Studio to links product specifications and 
 
 ## Run-time use cases
 
-Run-time use cases explain some of the scenarios around running and monitoring Jeopardy Management for Order Management for Telecommunications.
+Run-time use cases explain some of the scenarios around running and monitoring Jeopardy Management for Order Management.
 
 **Use Case: Support predictive jeopardy that monitors customer orders**
 
@@ -61,4 +61,11 @@ Fulfillment managers and agent want Jeopardy Management to pause orders. When th
 -   Jeopardy logic recalculates dates: planned dates and estimated or expected dates​.
 -   Dates are benchmarked​.
 -   Date roll up logic run and reflects the new start and end dates for planned and estimated dates.
+
+**Related topics**  
+
+
+[Jeopardy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/jeopardy-management.md)
+
+[Monitoring order jeopardy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/monitoring-jeopardy-management.md)
 

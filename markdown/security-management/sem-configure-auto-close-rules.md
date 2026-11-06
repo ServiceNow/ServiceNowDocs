@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-configure-auto-close-rules.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-04-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/order-case-line-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order Operations Case Management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Order case line item form
@@ -106,7 +106,7 @@ The state of the order case line item record: -   Draft
 -   Awaiting Info
 -   Resolved - Accepted
 -   Resolved - Denied
--   Canceled
+-   Cancelled
 
 </td></tr><tr><td>
 

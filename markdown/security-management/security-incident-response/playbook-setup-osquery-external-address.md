@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Playbook for OSquery of External Address in /etc/hosts file, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,8 +35,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
     To create a copy of the playbook's flow, select the \[Omitted image "more-action-menu.png"\] Alt text: More actions menu icon and select **Copy flow**. Perform this step only if you plan to customize or make specific changes to the flow.
 
-    \[Omitted image "playbook-osquery-overview.png"\] Alt text: Overview of the OSquery of External Address in /etc/hosts playbook.
-
 4.  Activate the playbooks.
 
     1.  Activate the main flow to use the playbook available in the base system.
@@ -46,8 +44,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 5.  Set a **Trigger Condition** for the playbook.
 
     This playbook is triggered and associated with the security incident when the **Category** is **Insider Breach**.
-
-    \[Omitted image "playbook-osquery-trigger.png"\] Alt text: Trigger condition for OSquery of External Address in /etc/hosts playbook
 
 
 **Parent Topic:**[Playbook for OSquery of External Address in /etc/hosts file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-osquery-external-address.md)

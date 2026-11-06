@@ -1,55 +1,118 @@
 ---
 title: Customer self-service for Sales Customer Relationship Management
-description: Support your business-to-business customers by enabling self-service capabilities through the Business Portal to create and manage orders and submit order issues and requests.
+description: Support your business-to-business \(B2B\) customers by enabling self-service capabilities through the Business Portal to create and manage orders, invoices, and requests for quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-self-service-business-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Sales Customer Relationship Management]
 ---
 
 # Customer self-service for Sales Customer Relationship Management
 
-Support your business-to-business customers by enabling self-service capabilities through the Business Portal to create and manage orders and submit order issues and requests.
+Support your business-to-business \(B2B\) customers by enabling self-service capabilities through the Business Portal to create and manage orders, invoices, and requests for quotes.
 
 ## Business Portal overview
 
-The Business Portal is a self-service web portal that supports your business-to-business \(B2B\) customers by providing integrated access to knowledge articles, community forums, service catalogs, and chatbots. It’s based on Customer Service Management \(CSM\) and built using configurable widgets.
+The Business Portal is a self‑service, customer‑facing web interface in Sales Customer Relationship Management that enables B2B customers to discover products, configure offerings, and place orders directly through a secure, web‑based experience. The portal complements internal sales workflows, enabling your customers to engage with the sales process independently while remaining fully integrated with core CRM data and processes. The Business Portal, which is based on Customer Service Management, streamlines order placement, reduces dependency on manual sales interactions, and accelerates revenue generation. It also provides integrated access to knowledge articles, community forums, service catalogs, and chatbots.
 
-B2B customers can perform the following order management tasks using the Business Portal:
+## Business Portal benefits
 
--   Browse products and create orders.
--   Create and view cases for their orders.
--   View order and order case details, such as the order status.
--   View and track the list of product inventories associated with your account.
--   Manage products or services using service catalogs.
+The Business Portal provides benefits for administrators and B2B customers. Administrators can easily manage and administer the portal and install plugins to enable new features. The following table lists the benefits for B2B customers.
 
-## Key benefits
+<table id="table_scx_yvl_zfc"><thead><tr><th>
 
--   Make order management features that your sales agents use available directly to your B2B customers
--   Reduce customer dependency on customer service agents for routine order inquiries and for raising order issues such as quantity or address disputes
--   Improve issue resolution time and customer satisfaction
--   Preserve items and configurations added to the cart
--   Add order instructions while placing an order
--   Download cart summary in PDF format for stakeholder review
--   Review terms and conditions, specify shipping and billing addresses before placing an order
+Benefit
 
-## Business Portal users
+</th><th>
 
-|User|Description|
-|----|-----------|
-|Admin|Manages and administers the Business Portal, installs new plugins to enable new features.|
-|Customers|B2B customers browse products catalog, order products, create, order cases to request changes to orders and order line items, view order case details.|
+Feature
+
+</th></tr></thead><tbody><tr><td>
+
+Enable customers to place orders independently, reducing sales cycle time and accelerating revenue realization.
+
+</td><td>
+
+[Create orders from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-create-an-order-using-customer-portal.md)
+
+</td></tr><tr><td>
+
+Accelerate pricing and proposal turnaround by enabling customers to request quotes directly within the portal.
+
+</td><td>
+
+[Submit a request for quote from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-rfq-business-portal.md)
+
+</td></tr><tr><td>
+
+Enable customers to view quotes generated from requests for quotes \(RFQs\) or quotes created offline by a sales agent.
+
+</td><td>
+
+[View quotes from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-quotes-business-portal.md)
+
+</td></tr><tr><td>
+
+Reduce customer dependency on customer service agents for routine order inquiries or raising order issues such as quantity or address disputes.
+
+</td><td>
+
+[Request updates for one or more orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-order-case-for-multiple-orders.md)
+
+ [Request updates for items in a single order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-order-case-specific-order-lines.md)
+
+</td></tr><tr><td>
+
+Provide customers access to their invoice and invoice line details so they can track billing information and identify discrepancies.
+
+</td><td>
+
+[View invoices on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-invoices-business-portal.md)
+
+</td></tr><tr><td>
+
+Simplify invoice inquiries and dispute management through a direct, trackable self‑service support channel.
+
+</td><td>
+
+[Dispute a specific line item on an invoice against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-invoice-case-single.md)
+
+ [Dispute multiple invoices against your account using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-invoice-case-multiple.md)
+
+</td></tr></tbody>
+</table>## Generative and agentic AI applications for enabling customer self-service
+
+The ServiceNow Otto for Order Management includes the following applications that enable business-to-business \(B2B\) customers to submit order and invoice cases autonomously in simple conversational format from the Business Portal.
+
+-   **Manage Order Operations**
+
+    The Manage Order Operations application \(com.sn\_ord\_ops\_aias\) includes the following AI agents:
+
+    -   Manage order operations AI agent: Enables B2B customers to submit order cases autonomously from the Business Portal using natural language.
+    -   Order exception AI voice agent: Enables B2B customers to submit order cases using voice calls.
+-   **Manage Invoice Operations**
+
+    The Manage Invoice Operations application \(com.sn\_inv\_ops\_aias\) includes the following AI agents and agentic workflow:
+
+    -   Invoice dispute intake assistant AI agent: Enables B2B customers to submit invoice dispute cases autonomously from the Business Portal using natural language.
+    -   Invoice dispute AI voice agent: Enables customers to submit invoice dispute cases using voice calls.
+    -   Invoice dispute assist agentic workflow: Enables finance agents to validate and resolve invoice disputes using a guided experience from the Now Assist panel in the CRM Workspace. Internally, it uses the invoice dispute support assistant AI agent to validate invoice information, trigger API calls to check quantity discrepancies and provide resolutions.
+
+## Business Portal and sales agents
+
+Sales agents don’t directly use the Business Portal, but work on orders, order cases, invoice cases, and RFQs submitted through the Business Portal from the CRM Workspace. Depending on the process for orders, order cases, invoice cases, and RFQs, the agents work on their assignments and work with the customers to provide resolution. For example, reviewing RFQs, converting RFQs to quotes, applying price adjustments, and returning the quote to the customer for approval.
 
 ## What to explore next
 
 The following topics provide more information about configuring and using the Business Portal:
 
--   Getting started with the Business Portal: [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md)
--   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/use-the-business-portal.md) \(All features and capabilities\)
 -   [Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-management-configure-business-portal.md)
--   [Customer self-service using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
+-   [Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
+-   Getting started with the Business Portal: [Configure Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-business-portal.md)
+-   [Business Portal reference for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-business-portal-reference.md)
+-   [Using the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/use-the-business-portal.md)
 -   [Business Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_BusinessPortalUserRoles.md)
 

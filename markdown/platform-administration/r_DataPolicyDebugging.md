@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_DataPolicyDebugging.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data policy, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Data policy, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Data policy debugging
@@ -15,8 +15,4 @@ breadcrumb: [Data policy, Administering fields, Field administration, Forms, fie
 Debug messages can help administrators identify and resolve data policy problems.
 
 Debug messages can help you identify and resolve data policy problems. To view data policy debugging messages at the bottom of the screen, navigate to **System Diagnostics** &gt; **Session Debug** &gt; **Debug Data Policies**.
-
-In the example, a data policy is in place to prevent the short description on an incident from being changed when the incident state is set to Open. A user edited the short description while the incident was open and tried to save the changes, but the data policy was enforced.
-
-\[Omitted image "DebuggingDataPolicy.png"\] Alt text:
 

@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrations for Leader Hub

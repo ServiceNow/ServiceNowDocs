@@ -1,22 +1,22 @@
 ---
 title: Ask for Approval step
-description: Request approval for a record with an approval field. You can configure a rule set for an approval, rejection, or cancellation. If a due date is added to an approval, the approval is automatically approved, rejected, or canceled if the approvers have not responded by the designated time.
+description: Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/ask-approval-action-designer.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-02-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Workflow Studio steps, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Ask for Approval step
 
-Request approval for a record with an approval field. You can configure a rule set for an approval, rejection, or cancellation. If a due date is added to an approval, the approval is automatically approved, rejected, or canceled if the approvers have not responded by the designated time.
+Request approval for a record. Configure a set of rules to automatically approve, reject, or cancel an approval request without having to write script. Add a due date to automatically approve, reject, or cancel when a decision has not been made by a designated time.
 
-[Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/approvals/r_Approvals.md) is a platform feature that enables users or groups to approve or reject a task.
+Approvals play a central role in controlling workflow progression. They ensure that the right people review and authorize work before it moves forward, which is essential in incident handling, change requests, catalog fulfillment, and any process where structured governance and compliance matter. For more information about approvals, see [Classic approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/approvals/r_Approvals.md).
 
 ## Roles and availability
 
@@ -60,16 +60,16 @@ Provide a value for each input that your action needs. To add dynamic values, yo
 
     Data type: **Approval Rules**
 
-    Approval and rejection rules to determine which users can approve or reject requests, and what happens after approval or rejection.
+    Configure which users can approve or reject requests, and what happens after the record is approved or rejected.
 
-    Approval or rejection rules include:
+    Approval or rejection user rules include:
 
-    -   Anyone approves
-    -   All users approve
-    -   All responded and anyone approves
-    -   % of users approve
-    -   \# of users approve
-    In the field beside the approval rule, add the desired approvers. To add approvers:
+    -   Anyone approves. Use this option when any user listed can approve.
+    -   All users approve. Use this option when every user listed must approve.
+    -   All responded and anyone approves. Use this option when every user must respond, but only one user must approve.
+    -   % of users approve. Use this option when a majority of users is needed to approve.
+    -   \# of users approve. Use this option when a specific number of users need to approve.
+    In the field beside the approval rule, add the desired approval users. To add approval users:
 
     -   Select individual users or groups.
     -   Drag or select a field from a record.

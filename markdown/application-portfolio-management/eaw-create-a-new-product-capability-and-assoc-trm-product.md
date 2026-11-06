@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-a-new-product-capability-and-assoc-trm-product.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing the Technology Reference Model in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create product capabilities and associate it with a Technology Reference Model product
@@ -36,7 +36,7 @@ Role required: sn\_apm.apm\_user
 
 8.  In the Create New Product Capability page, fill in the form fields.
 
-    For field information, see [Create new product capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-product-capability-form.md).
+    For field information, see [Create product capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-product-capability-form.md).
 
 9.  Select **Save**.\[Omitted image "trm-product-capability-related-list-items.png"\] Alt text: Product Capability Maps and Capability Relationship Maps tabs associated with a product capability.
 
@@ -45,7 +45,7 @@ Role required: sn\_apm.apm\_user
 
 The product capability is added to the TRM product.
 
-**Parent Topic:**[Managing the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a scheduling attribute for Schedule Optimization, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Create a scheduling attribute, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Setting up a travel estimate provider
@@ -18,10 +18,13 @@ Set up a travel estimate provider in Schedule Optimization for each of your tech
 
 ## Travel estimate providers
 
-Efficient allocation of work order tasks depends on accurately estimating travel time, considering both the technician's location and the task's location. The technician's starting location is determined using either their home location or the location of their most recently completed task. Schedule Optimization uses travel estimate providers, which calculate distances between technicians and task and are assigned by admins to groups. The two supported travel estimate providers are straight-line or Beans.ai.
+Efficient allocation of work order tasks depends on accurately estimating travel time, considering both the technician's location and the task's location. The technician's starting location is determined using either their home location or the location of their most recently completed task. Schedule Optimization uses travel estimate providers, which calculate distances between technicians and task and are assigned by admins to groups.
 
--   Straight-line: This default configuration serves as a backup when a primary configuration isn’t available and a secondary configuration hasn’t been selected. This provider can be modified but it can’t be deleted.
+You can use third-party map providers in Schedule Optimization to expand your mapping service options beyond the default provider. The supported travel estimate providers are straight-line, Beans.ai, and other third-party providers.
+
+-   Straight-line: This default configuration serves as a backup when a primary configuration isn’t available and a secondary configuration hasn’t been selected. This provider can be modified but it cannot be deleted.
 -   Beans.ai: This map provider provides more accurate travel time estimates. Locations that are deemed invalid through geocoding or aren’t reachable by road are excluded from task assignments
+-   Third-party map providers: Schedule Optimization supports integration with third-party providers. To configure a third-party provider, you must already have a connection and credential established for that provider.
 
 For more information, see [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
 
@@ -32,18 +35,21 @@ Property: **map\_vendor\_call\_types property**
 -   Sync: Default value.
 -   Async: Changing the default value to async can improve performance and may result in more outbound requests.
 
-For more information on properties, see [Schedule optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md).
+For more information on properties, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md).
 
 ## Travel band modifiers
 
 Travel band modifiers adjust travel times based on the time of day, such as during rush hour. You can add these modifiers to either straight-line or Beans.ai configurations. A multiplier is a number used in the configuration to adjust travel time based on expected traffic conditions. When traffic is expected to be heavier than usual, a multiplier greater than 1 increases the travel time. For example, a multiplier of 1.2 adds extra time to account for delays. When traffic is lighter, such as during off-peak hours, a multiplier less than 1 reduces the travel time. For instance, a multiplier of 0.8 shortens the estimated travel time to reflect faster travel.
 
-Travel band details:
+-   Purpose: Adjust travel times during certain times of day, such as rush hour.
+-   Configuration:
+    -   Add travel band modifiers to your straight-line or Beans.ai configuration.
+    -   Modify travel time results using a multiplier or the time-of-day feature provided by a travel time provider.
+    -   **Travel Band Details**:
+        -   Range: 30 minutes to four hours.
+        -   Can’t overlap.
+        -   Set different start and end times for each travel band.
 
--   Range: 30 minutes to four hours.
--   Can’t overlap.
--   Each travel band must have a different start and end time.
-
-    **Note:** For example, to increase travel time during rush hour to simulate traffic not capture by the baseline values, you could set a travel band for your straight-line configuration between noon and 15:00 Monday through Friday with a multiplier of 1.2.
+            **Note:** For example, to increase travel time during rush hour to simulate traffic not capture by the baseline values, you could set a travel band for your straight-line configuration between noon and 15:00 Monday through Friday with a multiplier of 1.2.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order guides, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Order guides, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Avoid enforcement of a mandatory field
@@ -23,8 +23,6 @@ Role required: admin
 ## About this task
 
 By default, mandatory fields must be filled in before switching tabs in the **Choose Options** section of order guides.
-
-\[Omitted image "AvoidEnforceMandFieldTabG.png"\] Alt text: Order guide mandatory fields
 
 In this example, if the customer attempts to select another tab without filling in the Street Address field, a warning prompt appears. The customer cannot switch tabs without entering this information.
 

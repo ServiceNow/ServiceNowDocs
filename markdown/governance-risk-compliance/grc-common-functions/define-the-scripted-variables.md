@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure document templates using Document Designer, Microsoft Word based audit report templates using Document designer, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,11 +28,11 @@ Role required: sn\_grc\_doc\_design.developer
 
 3.  Select the **Scripted variables** tab.
 
-    \[Omitted image "scripted-variable.png"\] Alt text:
+    \[Omitted image "scripted-variable.png"\] Alt text: Scripted variables tab.
 
 4.  In the Scripted variables related list, select **New** to create a scripted variable.
 
-    \[Omitted image "new-scripted-variable.png"\] Alt text:
+    \[Omitted image "new-scripted-variable.png"\] Alt text: New scripted variable form.
 
 5.  In the **Name** field, provide a descriptive name for the template.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Outbound web services: Logging, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Logging, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Configure outbound logging

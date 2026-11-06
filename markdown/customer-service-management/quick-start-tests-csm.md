@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/quick-start-tests-csm.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 13
-breadcrumb: [Administer Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Quick start tests for Customer Service Management
@@ -45,8 +45,8 @@ All Customer Service Management quick start tests require activating the Custome
 -   Case Playbook for Onboarding \(sn\_onboarding\)
 -   Consumer Service Portal \(com.glide.service-portal.consumer-portal\)
 -   CSM Contributor User \(com.snc\_csm\_contributor\_user\)
--   CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
--   Customer Service Household \(com.snc.household\)
+-   Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\)
+-   Customer Household Data Model \(com.snc.household\)
 -   Customer Service Management for Orders \(com.snc.csm.order\)
 -   Customer Service Portal \(com.glide.service-portal.customer-portal\)
 -   Customer Service with Request Management \(com.sn\_cs\_sm\_request\)
@@ -241,6 +241,224 @@ Madrid
 
 </td></tr><tr><td>
 
+CSM: Create Major Case and its Child Cases
+
+</td><td>
+
+Create a major case and the associated child cases for the customer accounts in the recipient list. **Note:** Requires Major Issue Management.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Agent Creating Request for Customer
+
+</td><td>
+
+As a customer service agent, create a request for a customer. **Note:** Requires Customer Service Request Integration.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Register New Case Type
+
+</td><td>
+
+Register a case type and verify the record is created.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Create Project for an Account
+
+</td><td>
+
+Project Manager creates project for an account.**Note:** Requires Customer Project Management.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Identify Project Contact
+
+</td><td>
+
+Project manager identifies customers to a project.**Note:** Requires Customer Project Management.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Create Case from Project
+
+</td><td>
+
+Create a case from a project.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Advanced Type Skill Determination Rule Test
+
+</td><td>
+
+Create an advanced type skill determination rule.
+
+ **Note:** Requires Skill Determination.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM - Create Case from Project Task
+
+</td><td>
+
+Create a case from a project task.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Create Task from Case
+
+</td><td>
+
+Create a case task from a case.
+
+</td><td>
+
+Orlando
+
+</td></tr><tr><td>
+
+CSM: Assign Case Task to Case Task Agent
+
+</td><td>
+
+The customer service agent creates and assigns a case task to a case task agent.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Case Task Agent views assigned Case Task
+
+</td><td>
+
+Verifies that the case task agent can view an assigned case task.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Case Task Agent Completes Assigned Task
+
+</td><td>
+
+The case task agent completes an assigned case task.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM-Create a case using 'Create a case \(POST\)' API
+
+</td><td>
+
+Create a case using 'Create a case \(POST\)' API.**Note:** Requires a user authentication record assigned to the **Basic authentication** field in step 1 of the ATF.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM-Query a case using 'Query a case \(GET\)' API
+
+</td><td>
+
+Query a case using 'Query a case \(GET\)' API.**Note:** Requires a user authentication record assigned to the **Basic authentication** field in step 1 of the ATF.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Address sharing across Accounts
+
+</td><td>
+
+Implement reusable addresses for accounts to support complex customer operations and business models.
+
+</td><td>
+
+Washington DC
+
+</td></tr><tr><td>
+
+CSM: Manage Consumer Profile Locations
+
+</td><td>
+
+Create and manage consumer locations, and map them to consumer profiles.
+
+</td><td>
+
+Washington DC
+
+</td></tr><tr><td>
+
+CSM: OCS Manager creating New OSP
+
+</td><td>
+
+Verify that a new Outsourced Service Provider \(OSP\) is created by the OCS internal manager. **Note:** Requires Outsourced Customer Service.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
+CSM: Case Creation by OCS Agent
+
+</td><td>
+
+Verify that an Outsourced Customer Service agent is able to create a case. **Note:** Requires Outsourced Customer Service.
+
+</td><td>
+
+Rome
+
+</td></tr><tr><td>
+
 CSM - Create Proactive Case by NOC Operator
 
 </td><td>
@@ -257,7 +475,7 @@ CSM - Employee creating case OBO customer
 
 </td><td>
 
-As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the CSM Extension for Proxy Contacts.
+As an employee with the proxy contact role \(sn\_customerservice\_proxy\_contact\), create a case from the self-service portal on behalf of a customer. **Note:** Requires the Customer Proxy Contacts.
 
 </td><td>
 
@@ -301,95 +519,11 @@ New York
 
 </td></tr><tr><td>
 
-CSM: Register New Case Type
-
-</td><td>
-
-Register a case type and verify the record is created.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Project Manager create Project for an Account
-
-</td><td>
-
-Project Manager creates project for an account.**Note:** Requires Customer Project Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Project Manager identify Project Contact
-
-</td><td>
-
-Project manager identifies customers to a project.**Note:** Requires Customer Project Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
 CSM - Project Manager create project task and assign to a customer
 
 </td><td>
 
 Project manager creates project task and assigns to a customer.**Note:** Requires Customer Project Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Create Case from Project
-
-</td><td>
-
-Create a case from a project.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM - Create Case from Project Task
-
-</td><td>
-
-Create a case from a project task.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Create Task from Case
-
-</td><td>
-
-Create a case task from a case.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Agent Creating Request for Customer
-
-</td><td>
-
-As a customer service agent, create a request for a customer. **Note:** Requires Customer Service Request Integration.
 
 </td><td>
 
@@ -426,32 +560,6 @@ CSM - Agent Create Change Requests for a project
 </td><td>
 
 As a customer service agent, create a change request for a project.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Create Major Case and its Child Cases
-
-</td><td>
-
-Create a major case and the associated child cases for the customer accounts in the recipient list. **Note:** Requires Major Issue Management.
-
-</td><td>
-
-Orlando
-
-</td></tr><tr><td>
-
-CSM: Advanced Type Skill Determination Rule Test
-
-</td><td>
-
-Create an advanced type skill determination rule.
-
- **Note:** Requires Skill Determination.
 
 </td><td>
 
@@ -513,7 +621,7 @@ CSM: Create Sold Product on Household
 
 </td><td>
 
-Create a sold product on a household and its member. **Note:** Requires Customer Service Install Base Management and Customer Service Household with **Load demo data** enabled.
+Create a sold product on a household and its member. **Note:** Requires Customer Service Install Base Management and Customer Household Data Model with **Load demo data** enabled.
 
 </td><td>
 
@@ -530,42 +638,6 @@ Validates the functionality of the **Refresh Install Base Health** button on the
 </td><td>
 
 Quebec
-
-</td></tr><tr><td>
-
-CSM: Assign Case Task to Case Task Agent
-
-</td><td>
-
-The customer service agent creates and assigns a case task to a case task agent.
-
-</td><td>
-
-Rome
-
-</td></tr><tr><td>
-
-CSM: Case Task Agent views assigned Case Task
-
-</td><td>
-
-Verifies that the case task agent can view an assigned case task.
-
-</td><td>
-
-Rome
-
-</td></tr><tr><td>
-
-CSM: Case Task Agent Completes Assigned Task
-
-</td><td>
-
-The case task agent completes an assigned case task.
-
-</td><td>
-
-Rome
 
 </td></tr><tr><td>
 
@@ -674,6 +746,18 @@ Verifies the creation of a business location and onboarding a member to it.
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+CSM: Escalate or de-escalate account workflow
+
+</td><td>
+
+Escalate or de-escalate account workflow
+
+</td><td>
+
+Zurich
 
 </td></tr></tbody>
 </table>|Test|Description|Release version|
@@ -855,7 +939,7 @@ CSM - Create case from Portal as Consumer Contributor
 
 </td><td>
 
-Creates a customer case from the portal by a user with the consumer contributor user role \(sn\_customerservice.consumer\_contributor\).**Note:** Requires Business Location, Customer Service Household, and CSM Contributor User.
+Creates a customer case from the portal by a user with the consumer contributor user role \(sn\_customerservice.consumer\_contributor\).**Note:** Requires Business Location, Customer Household Data Model, and CSM Contributor User.
 
 </td><td>
 
@@ -867,7 +951,7 @@ CSM - Create case from Portal as Account Contributor
 
 </td><td>
 
-Creates a customer case from the portal by a user with the account contributor user role \(sn\_customerservice.account\_contributor\).**Note:** Requires Business Location, Customer Service Household, and CSM Contributor User.
+Creates a customer case from the portal by a user with the account contributor user role \(sn\_customerservice.account\_contributor\).**Note:** Requires Business Location, Customer Household Data Model, and CSM Contributor User.
 
 </td><td>
 
@@ -875,7 +959,7 @@ Rome
 
 </td></tr><tr><td>
 
-CSM - Add Related parties on Case and perform action on case as Related party
+CSM - Add related parties on Case and perform action on case as Related party
 
 </td><td>
 
@@ -884,6 +968,18 @@ Verify the ability to add related parties to the case and perform actions on the
 </td><td>
 
 Rome
+
+</td></tr><tr><td>
+
+CSM - Create product case as an account consumer from the CSM Portal
+
+</td><td>
+
+Create a product case as an account from the customer service portal.**Note:** Requires Customer Service Portal. Also requires that the test be run as admin.
+
+</td><td>
+
+Australia
 
 </td></tr></tbody>
 </table><table id="table_lss_wlb_4jb"><thead><tr><th>
@@ -900,7 +996,7 @@ Release version
 
 </th></tr></thead><tbody><tr><td>
 
-CSP - Create Product Case as Consumer from CSP Portal
+CSP - Create product case as consumer from CSP Portal
 
 </td><td>
 
@@ -912,7 +1008,7 @@ Madrid
 
 </td></tr><tr><td>
 
-CSP - Search on Homepage
+CSP - Search on homepage
 
 </td><td>
 
@@ -924,7 +1020,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Update Support Profile
+CSP - Update support profile
 
 </td><td>
 
@@ -936,7 +1032,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Register Your Product
+CSP - Register your product
 
 </td><td>
 
@@ -960,7 +1056,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Accept Proposed Solution On Case
+CSP - Accept proposed solution on case
 
 </td><td>
 
@@ -972,7 +1068,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - Provide Feedback on Survey
+CSP - Provide feedback on Survey
 
 </td><td>
 
@@ -984,7 +1080,7 @@ New York
 
 </td></tr><tr><td>
 
-CSP - View Publications on CSP Portal
+CSP - View publications on CSP Portal
 
 </td><td>
 
@@ -996,11 +1092,11 @@ Orlando
 
 </td></tr><tr><td>
 
-CSP - Create Product Case as an internal unified consumer from CSP Portal
+CSP - Create product case as an internal unified consumer from CSP Portal
 
 </td><td>
 
-Verify creating a product case as an internal unified consumer from the CSP portal using the Customer Service and Consumer Service Portal plugins.
+Verifies creating a product case as an internal unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
@@ -1008,15 +1104,27 @@ Yokohama
 
 </td></tr><tr><td>
 
-CSP - Create Product Case as an external unified consumer from CSP Portal
+CSP - Create product case as an external unified consumer from CSP Portal
 
 </td><td>
 
-This test verifies creating a product case as an external unified consumer from the CSP portal with the Customer Service and Consumer Service Portal plugins.
+Verifies creating a product case as an external unified consumer from the CSP portal. Requires the Customer Service and Consumer Service Portal plugins with the Customer Service Management \(CSM\) demo data plugin.
 
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+CSP - Create household member as an account consumer from the CSM Portal
+
+</td><td>
+
+Create a household member as an account from the customer service portal.**Note:** Requires Customer Service Portal. Also requires that the test be run as admin.
+
+</td><td>
+
+Australia
 
 </td></tr></tbody>
 </table>|Test|Description|Release version|

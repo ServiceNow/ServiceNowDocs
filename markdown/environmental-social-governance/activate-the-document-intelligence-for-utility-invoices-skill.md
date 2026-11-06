@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/activate-the-document-intelligence-for-utility-invoices-skill.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -18,13 +18,9 @@ Activate and then configure document intelligence for utility invoices skill fro
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
-## About this task
-
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI admin console**.
 
 2.  On the **Now Assist Skills** tab, under the **Technology** workflow group, select **Risk and Sustainability**.
 

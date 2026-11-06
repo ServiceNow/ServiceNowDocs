@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
@@ -29,6 +29,4 @@ You can select a feature from the tab to access the feature page for more inform
 \[Omitted image "whats-new-details-page.png"\] Alt text: Catalog builder details page.
 
 The feature page displays information on all new features for the application. Features are tagged to notify you of their availability state. In this example, Configure the Catalog Builder experience for catalog item editors, is a feature that is not available. This could be either due to an upgrade requirement, or due to the required plugins for the feature not being installed on the instance. For most features, links are provided to expand information or to navigate to the documentation site.
-
-**Parent Topic:**[Using Help Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/using-help-center.md)
 

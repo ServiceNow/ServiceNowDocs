@@ -1,26 +1,28 @@
 ---
 title: Custom control utility
-description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Virtual Agent Designer.
+description: Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-custom-control-util.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-10-24"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Custom control utility
 
-Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Virtual Agent Designer.
+Use the Custom Control utility in a Virtual Agent topic or topic block to reference a custom input control or a custom response control. Custom controls complement the controls provided in Assistant Designer.
 
 ## Custom control utility properties
 
-Specify the properties of the custom input control or custom response control that you are adding to a topic or topic block. For more information about custom controls and their use, see [Customizing Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/custom-controls.md).
+Specify the properties of the custom input control or custom response control that you're adding to a topic or topic block. For more information about custom controls and their use, see [Customizing Virtual Agent with custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/custom-controls.md).
 
-**Note:** Custom controls do not work on Internet Explorer version 11.
+\[Omitted image "custom-control-utility-properties.png"\] Alt text: Custom control utility properties sheet for an input control.
+
+**Note:** Custom controls don't work on Internet Explorer version 11.
 
 <table id="id_dst_y5v_1tb"><thead><tr><th>
 
@@ -36,7 +38,7 @@ Custom control
 
 </td><td>
 
-The name of a custom control asset that has been published in Virtual Agent Designer.
+The name of a custom control asset that has been published in the Assistant Designer Asset library.
 
 </td></tr><tr><td>
 
@@ -87,9 +89,5 @@ Conditionally use this node if
 A no-code condition statement or low-code script that specifies a condition for presenting this node in the conversation. The condition must evaluate to true.
 
 </td></tr></tbody>
-</table>## Example custom control utility
-
-\[Omitted image "custom-control-utility-properties.png"\] Alt text: Custom control utility properties sheet for an input control.
-
-**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
+</table>**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
 

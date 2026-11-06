@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/setup-checklist-esg.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -34,7 +34,7 @@ Checklist
 
 </td><td>
 
-A user with the sn\_esg.program\_manager role, can download and install the ESG Management application. For details, see [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/install-esg.md).
+A user with the sn\_esg.program\_manager role, can download and install the Operational Sustainability Management application. For details, see [Install Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/install-esg.md).
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ A user with the sn\_esg.data\_owner role can provide data for the manual metrics
 
 </td><td>
 
-A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager roles can create disclosure. Disclosures enable the investors to make informed decisions about the companies, their risk posture, sustainability standards, and ESG Management compliance.
+A user with the sn\_esg.reporting\_disclosure\_manager, sn\_esg.program\_manager roles can create disclosure. Disclosures enable the investors to make informed decisions about the companies, their risk posture, sustainability standards, and Operational Sustainability Management compliance.
 
 </td></tr><tr><td>
 

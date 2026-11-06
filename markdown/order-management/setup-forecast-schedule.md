@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/setup-forecast-schedule.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Forecasting, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up forecast schedule
@@ -40,4 +40,11 @@ Role required: admin
 
     You can copy the script provided in the Run this script field to create your own scheduler.
 
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-forecasting.md)
 

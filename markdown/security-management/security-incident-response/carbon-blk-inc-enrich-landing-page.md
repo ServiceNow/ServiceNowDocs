@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -25,8 +25,7 @@ Use the Carbon Black integration to investigate and respond to security incident
 
 ## Understand integration concepts
 
--   [Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/c_TypesOfIntegrationsProv.md)
--   [Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/workflow-triggers.md)
+[Types of ServiceNow integrations provided](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/c_TypesOfIntegrationsProv.md)
 
 ## Get help from ServiceNow resources
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Routing work items using Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Override channel capacity for an agent
@@ -17,6 +17,8 @@ breadcrumb: [Routing work items using Channels in Workforce Optimization for ITS
 Change the default number of work items that an agent can handle for a service channel.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_cfg\_ws.manager
 
@@ -32,15 +34,15 @@ By default, the override capacity is valid for 12 hours. Administrator can chang
 
 2.  Navigate to an agent's profile.
 
-<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d228651e87">
+<table id="choicetable_yv3_zcw_knb"><thead><tr><th align="left" id="d404029e103">
 
 To set the override capacity
 
-</th><th align="left" id="d228651e90">
+</th><th align="left" id="d404029e106">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d228651e96">
+</th></tr></thead><tbody><tr><td id="d404029e112">
 
 **From Channels**
 
@@ -51,7 +53,7 @@ Do this
 3.  Click an agent's record.
 
 
-</td></tr><tr><td id="d228651e120">
+</td></tr><tr><td id="d404029e136">
 
 **From Teams**
 

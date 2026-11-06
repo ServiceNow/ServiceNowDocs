@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/build-form-and-business-logic.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Build your application, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Build form and business logic
@@ -16,7 +16,7 @@ The next step in designing an application is to build logic. Logic includes form
 
 ## Agentic AI
 
-Create applications with help from agentic AI. For more information, see [Use agentic AI to build and edit applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-to-use-agentic-ai.md).
+Create applications with help from agentic AI. For more information, see [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-ai-workflow-factory-prime.md).
 
 ## Scripting and modifications
 

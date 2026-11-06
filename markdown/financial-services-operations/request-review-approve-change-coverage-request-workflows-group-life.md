@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/request-review-approve-change-coverage-request-workflows-group-life.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Group Life Servicing, Group Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Group Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Request, review, and approve change membership request workflows

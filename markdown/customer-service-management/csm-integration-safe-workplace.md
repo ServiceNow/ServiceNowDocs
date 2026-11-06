@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-safe-workplace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrate, Customer Service Management]
 ---
 
 # Integrating with Safe Workplace applications

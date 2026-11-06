@@ -1,137 +1,125 @@
 ---
 title: View SRM reliability metrics
-description: View a service level objective \(SLO\) and service level indicator \(SLI\) that your or your team owns.
+description: Learn about an existing service level objective \(SLO\) and service level indicator \(SLI\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-level-objective-management/sr-view-slo.html
 release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View SRM reliability metrics
 
-View a service level objective \(SLO\) and service level indicator \(SLI\) that your or your team owns.
+Learn about an existing service level objective \(SLO\) and service level indicator \(SLI\).
 
 ## Before you begin
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
-**Note:** Administrators can view any SRM SLO.
+**Note:** Administrators can view any Service Reliability Management \(SRM\) SLO.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-    You're taken to your SRM Home page.
-
-    **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
-
 2.  From the primary navigation, select the **Services** icon \(\[Omitted image "icon-sr-services.png"\] Alt text: Services icon\).
 
-3.  Select the **Reliability metrics** tab.
+3.  Select a service, select the **Reliability metrics** tab, and then open an SLO.
 
-4.  Open a **Service level objective**.
+4.  View the SLO header to get key information about the SLO, SLI, and state.
 
-5.  View the SLO header.
+<table id="table_hft_kxd_hhc"><thead><tr><th>
 
-    The top header contains service information for:
+Header element
 
-    -   **SLI type**:
+</th><th>
 
-        Type of the SLI based on which the metrics are calculated. The available types of SLI are as follows:
+Description
 
-        -   **Availability**: Percentage of time your service is available. \(Default\)
-        -   **Errors**: Measurement of how frequently service error occurs.
-        -   **Latency**: Time taken to service a request. The actual amount of time that elapsed.
-        -   **Saturation**: Measurement of your system fraction, emphasizing the resources that are most constrained.
-        .
+</th></tr></thead><tbody><tr><td>
 
-    -   **SLO Type**:
+SLI type
 
-        Type of SLO based on which metric you choose. The available types of SLO are as follows:
+</td><td>
 
-        -   **Duration**: The amount of time the service spends without breaching. It’s the only value available.
+-   **Availability**: Percentage of time the service is available.
+-   **Errors**: Frequency of service errors.
+-   **Latency**: Time taken to service a request.
+-   **Saturation**: Fullness of the system, focusing on resource use.
 
-            Metrics for **Duration** are as follows:
 
-            -   **Objective \(percentage\)**: Percentage of the desired SLI performance.
-            -   **Error budget**: Displays, in days and time, how much error budget is left.
-        -   **Count**: Number of occurrences in a given compliance period.
+</td></tr><tr><td>
 
-            Metrics for **Count** are as follows:
+SLO type
 
-            -   **Limit \(occurrences\)**: Number of occurrences after which a breach has occurred.
-            -   **Remaining breach occurrences**: Number of occurrences left.
-    -   **State**:
+</td><td>
 
-        State of the SLO. Choices are:
+-   **Duration**: Measures the time that the service spends without breaching. The associated metrics are:
+    -   **Objective \(percentage\)**: The target percentage of the SLI that the service is expected to meet.
+    -   **Error budget**: The remaining error budget, shown in days and time, before the objective is breached.
+-   **Count**: Measures the number of occurrences during a compliance period. The associated metrics are:
+    -   **Limit \(occurrences\)**: The number of occurrences that triggers a breach.
+    -   **Remaining breach occurrences**: The number of occurrences left before a breach occurs.
 
-        -   Draft: The SLO isn't running in your instance yet. You can add new SLIs or update existing SLIs and you can delete the SLO.
-        -   Running: The SLO is active in your instance. You can edit, retire, or delete the SLO.
 
-            **Note:** Editing an SLO in the running state retires it and a new copy is created.
+</td></tr><tr><td>
 
-        -   Retired: The SLO is no longer running in your instance. You can reactivate it.
-    -   **Service**: Service associated with the SLO.
-    -   **Reliability**: How reliable the service is.
+State
 
-        -   **Stable**: All SLOs in this Service have more than 25% of the error budget still available.
-        -   **At RISK**: All SLOs in this Service Have EB left, and at least one SLO for this Service has less than 25% of the error budget left.
-        -   **Critical**: Any one SLOs in this Service has burnt through its error budget
-    From the header you can **Delete SLO**, **Retire**, or **Edit**.
+</td><td>
 
-    If you delete an SLO any associated SLIs are deleted as well.
+-   **Draft**: The SLO isn't active yet. You can add new SLIs, update existing ones, or delete the SLO.
+-   **Running**: The SLO is active. You can edit, retire, or delete the SLO. Editing a running SLO automatically retires it and creates a new copy. See [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md) for more information.
+-   **Retired**: The SLO is no longer active. You can reactivate it if needed.
 
-    If you retire an SLO, it changes the state. You can **Re-activate** it from the SLO page or later from the **Reliability metrics** tab.
 
-    **Note:** If you edit an SLO, it changes the state, retires the SLO record, and opens a new copy for editing. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more information. You can reactivate the original SLO by returning to the **Reliability metrics** tab.
+</td></tr><tr><td>
 
-6.  View the **Overview** tab and select a Historic period from the list menu.
+Service
 
-    The periods listed are from the date that the SLO was created to the present in the selected increments.
+</td><td>
 
-7.  View **Summary** metric cards for the SLO.
+The service associated with the SLO.
 
-    The metrics show aggregate or average values depending on the type of SLIs chosen and error policy thresholds chosen. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for more detailed information.
+</td></tr><tr><td>
 
-8.  View the **Service level indicators** section.
+Reliability
 
-    This section lists your indicators by name.
+</td><td>
 
-9.  View the **Service level objective \(SLO\) history** section.
+-   **Stable**: All SLOs have more than 25% of their error budget remaining.
+-   **At risk**: All SLOs have some error budget remaining, but at least one SLO has less than 25% left.
+-   **Critical**: At least one SLO has fully used its error budget.
 
-    Depending on your **SLO type**, this section displays the following in bar graph reports:
 
-    For **Duration**:
+</td></tr></tbody>
+</table>    **Note:** From the header, you can delete, retire, or edit the SLO. Deleting an SLO also deletes the associated SLIs. Retiring an SLO changes its state, but you can reactivate it later from the SLO page or the Reliability metrics tab.
 
-    -   Error budget used
-    -   Error budget remaining
-    -   Burn rate
-    For **Count**, **Count by periods**, or **Count by occurrences**:
+5.  Select the **Overview** tab to view summary metrics and performance charts for the SLO.
 
-    -   Cumulative breach occurrences
-    -   Burn rate
-    -   Alerts, incidents &amp; changes impacting this service
-    Selecting into one of the analytics line chart reports shows the values on that day.
+    -   Historic periods: Select a time range. The available periods span from the SLO creation date to the present in defined increments.
+    -   Summary metrics: View details about SLO performance depending on the configured SLIs and error budget policy thresholds.
+    -   Service level indicators: View the SLIs associated with the SLO.
+    -   Service level objective \(SLO\) history:
 
-10. View the **Details** tab.
+        -   For duration SLOs, view charts for error budget used, error budget remaining, and burn rate.
+        -   For count SLOs, view charts for cumulative breach occurrences, burn rate, and alerts, incidents &amp; changes impacting this service.
+        You can point to the charts to view daily values.
 
-    The fields in this tab are auto-populated and uneditable. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) for detailed information on the fields.
+6.  Select the **Details**, **Service level indicators**, and **Error budget policy** tabs to view key configuration details.
 
-11. View the **Service level indicators** tab.
+    For information about the details shown, see [Create SLO form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli-form.md), [Create SLI form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-sli-form.md), and [Add an error budget policy form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-error-budget-form.md). On the Error budget policies tab, you can select **Add policy** to define actions based on performance data.
 
-    This tab lists the SLIs associated with this SLO.
+    The Details tab also includes a Work notes field and Activity panel to record and track changes to the reliability metric.
 
-12. View the **Error budget policy** tab.
 
-    In this tab, you can add more thresholds and edit or delete existing ones.
+## What to do next
 
-    \[Omitted image "sr-slo-error-budget-policy.png"\] Alt text: Error budget policy page.
-
+To learn how to create or edit SLOs, see [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md) and [Edit a reliability metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-edit-sli-slo.md).
 
 **Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

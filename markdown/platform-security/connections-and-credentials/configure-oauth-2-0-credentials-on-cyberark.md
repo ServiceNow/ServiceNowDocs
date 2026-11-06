@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Configure CyberArk, OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Configure CyberArk, OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Configure OAuth 2.0 credentials on CyberArk

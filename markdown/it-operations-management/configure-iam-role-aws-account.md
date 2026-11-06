@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/configure-iam-role-aws-account.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Set up AWS service accounts, Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Configure temporary credential access for trusted AWS accounts
@@ -84,15 +84,15 @@ During this configuration, you create an IAM role for the trusting account, and 
 
 4.  On the ServiceNow AI Platform, assign the AWS IAM role to the trusting account, using the relevant form, based on the relationship to the trusted account.
 
-<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d537537e424">
+<table id="choicetable_g1z_335_zfc"><thead><tr><th align="left" id="d730792e424">
 
 Trusted account type
 
-</th><th align="left" id="d537537e427">
+</th><th align="left" id="d730792e427">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d537537e433">
+</th></tr></thead><tbody><tr><td id="d730792e433">
 
 **Management account**
 
@@ -137,7 +137,7 @@ Name of the trusting account for which you are providing access using the IAM ro
 </table>4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d537537e550">
+</td></tr><tr><td id="d730792e550">
 
 **Member or discrete account**
 
@@ -168,5 +168,5 @@ Verify that ServiceNow applications can access the trusting service account usin
     -   If the connection is successful, a message displays indicating the account validation is successful.
     -   If the connection isn't successful, an error message displays indicating the cause of failure.
 
-**Parent Topic:**[Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
 

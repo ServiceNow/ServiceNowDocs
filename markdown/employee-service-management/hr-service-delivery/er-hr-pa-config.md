@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Analytics and Reporting Solutions for Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Analytics and Reporting Solutions for Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the Analytics and Reporting Solution for Employee Relations
@@ -26,7 +26,7 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/self-diagnostics.md).
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables.
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 
@@ -56,24 +56,18 @@ Role required: pa\_admin
 
 7.  If you changed the time field stamps in any indicator sources, then change any related Performance Analytics scripts.
 
-    For more information, see [Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/update-pa-scripts.md).
-
 8.  Open the Breakdown Sources tab.
 
 9.  For each dashboard included in this Platform Analytics Solution:
 
     1.  Filter the breakdown sources on the dashboard name.
 
-    2.  Review the conditions on the breakdown source as described in [Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/review-breakdown-sources.md).
+    2.  Review the conditions on the breakdown source.
 
 10. Navigate to **All** &gt; **Performance Analytics** &gt; **Jobs**.
 
 11. Set up and run the historical job for this Analytics and Reporting Solution, **ERCases.HistoricalDataCollection**.
 
-    Follow the procedure in [Run historical data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/historical-data-nowintel-solution.md).
-
 12. Edit and activate the scheduled data collection job for this Analytics and Reporting Solution, **ERCases.DailyCollection**.
-
-    Follow the procedure in [Schedule data collection for a Platform Analytics Solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/schedule-job-nowintel-solution.md).
 
 

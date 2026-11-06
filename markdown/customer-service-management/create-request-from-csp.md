@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-request-from-csp.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # Create a request from the Customer and Consumer Service Portals
@@ -16,7 +16,7 @@ As customers, you can create and submit requests from the Customer and Consumer 
 
 ## Before you begin
 
-Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.customer\_admin, sn\_customerservice.partner, sn\_customerservice.customer\_case\_manager, sn\_customerservice.customer, sn\_customerservice.consumer, sn\_csm\_proxy\_cont
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Models, Product Catalog, IT Asset Management]
+breadcrumb: [Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Models created for VMware support and Amazon EC2

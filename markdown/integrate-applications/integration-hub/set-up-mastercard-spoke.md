@@ -1,15 +1,15 @@
 ---
 title: Set up Mastercard spoke
-description: Integrate the ServiceNow instance with the Mastercard account using the OAuth protocol \(version 1.0a\) for secure authorization to authenticate ServiceNow requests.Use the certificate generated during the Mastercard account configuration to sign the request and payloads.Create a connection record for your Mastercard account configuration. The Mastercard spoke connection and credential aliases use these connections to perform actions in Mastercard.Create a credential record for your Mastercard account configuration. The Mastercard spoke connection and the credential alias uses these credentials to authorize actions.
+description: Integrate the ServiceNow instance with the Mastercard account using the OAuth protocol \(version 1.0a\) for secure authorization to authenticate ServiceNow requests.Use the certificate generated during the Mastercard account configuration to sign the request and payloads.Create a credential record for your Mastercard account configuration. The Mastercard spoke connection and the credential alias uses these credentials to authorize actions.Create a connection record for your Mastercard account configuration. The Mastercard spoke connection and credential aliases use these connections to perform actions in Mastercard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/set-up-mastercard-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Mastercard Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Mastercard Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up Mastercard spoke
@@ -54,56 +54,6 @@ Use the certificate generated during the Mastercard account configuration to sig
 5.  Select **Validate Stores/Certificates** to validate the certificate.
 
 6.  Select **Submit**.
-
-
-## Create a connection record for Mastercard spoke
-
-Create a connection record for your Mastercard account configuration. The Mastercard spoke connection and credential aliases use these connections to perform actions in Mastercard.
-
-### Before you begin
-
-Role required: admin
-
-### Procedure
-
-1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
-
-2.  Open for the record for **Mastercard**.
-
-3.  On the **Connections** tab, select **New**.
-
-4.  On the form, fill these values.
-
-<table id="table_f1b_mkr_ylb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Value required
-
-</th></tr></thead><tbody><tr><td>
-
-Connection URL
-
-</td><td>
-
-Base URL to connect to your Mastercard instance. For example:-   `https://sandbox.api.mastercard.com` for Mastercom
--   `https://sandbox.dispute.mastercard.com` for Mastercom Extended
-
-
-</td></tr><tr><td>
-
-Credential
-
-</td><td>
-
-Credential record you that created for Mastercard.
-
-</td></tr></tbody>
-</table>5.  Right-click the form header and select **Save**.
-
-6.  For Mastercom, ensure that **api\_version** is set `V6` in the Attributes related list.
 
 
 ## Create a credential record for Mastercard spoke
@@ -190,9 +140,37 @@ Authentication Algorithm
 
 </td><td>
 
-Custom authentication algorithm for outbound signing requests. Select **Mastercard**.**Note:** You are cautioned against directly modifying the default authentication algorithm.
+Custom authentication algorithm for outbound signing requests. Select **Mastercard algorithm**.**Note:** You are cautioned against directly modifying the default authentication algorithm.
 
 </td></tr></tbody>
 </table>5.  Select **Submit**.
+
+
+## Create a connection record for Mastercard spoke
+
+Create a connection record for your Mastercard account configuration. The Mastercard spoke connection and credential aliases use these connections to perform actions in Mastercard.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
+
+2.  Open the record for **Mastercard Connection**.
+
+3.  On the **Connections** tab, select **New**.
+
+4.  On the form, fill these values.
+
+    |Field|Value required|
+    |-----|--------------|
+    |Connection URL|Base URL to connect to your Mastercard instance. For example, `https://sandbox.api.mastercard.com`.|
+    |Credential|Credential record you that created for Mastercard.|
+
+5.  Right-click the form header and select **Save**.
+
+6.  Ensure that **api\_version** is set `V6` in the Attributes related list.
 
 

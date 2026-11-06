@@ -1,30 +1,31 @@
 ---
 title: Cloud Cost Management roles
-description: You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
+description: Roles are installed with the activation of the Cloud Cost Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/cloud-cost-management/cloud-insights-roles.html
 release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Cloud Cost Management roles
 
-You assign Cloud Cost Management roles to user groups and to individual users based on user activities and responsibilities.
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
+Roles are installed with the activation of the Cloud Cost Management application.
 
 ## Role relationships in Cloud Cost Management
 
 \[Omitted image "role-permissions-cloud-in.png"\] Alt text: Role relationships in Cloud Cost Management
 
-## Primary Roles
+**Note:** Starting with Cloud Cost Management 10.1.0, the discovery\_admin role has been removed from the insights\_admin, spend\_admin, and cloud\_integrations\_admin roles. As a result, the following roles that are inherited through discovery\_admin are also no longer included:
 
-<table id="table_avl_std_mgb"><thead><tr><th>
+-   credential\_admin
+-   sn\_capi.cloud\_developer
+
+<table id="primary-roles"><thead><tr><th>
 
 Role title \[name\]
 
@@ -38,30 +39,34 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Cloud Insights Admin \[sn\_clin\_core.insights\_admin\]
+Insights Admin
+
+ \[sn\_clin\_core.insights\_admin\]
 
 </td><td>
 
-The role is in the Cloud Cost Management Core plugin. You typically assign the role to the person who is financially responsible.-   Assign ownership of one or more service accounts and, optionally, the related CIs to users that have the insights\_owner role.
+The role is in the Cloud Cost Management Core plugin. You typically assign the role to the person who is financially responsible.-   View service accounts and all the related information.
 -   Define Business hours and Unassigned resources policies.
 -   Define and view Budget plans.
 -   View spend optimization reports.
 -   Add report extensions.
--   Perform the actions that Cloud Cost Management recommends.
+-   Perform the required actions in the Cloud Cost Management application.
 
 </td><td>
 
 -   insights\_owner
 -   spend\_admin
+-   insights\_user
 -   cloud\_integrations\_admin
 -   budget\_viewer
--   \[pa\_admin\]
--   \[schedule\_admin\]
--   \[itil\]
+-   spend\_owner
+-   spend\_user
 
 </td></tr><tr><td>
 
-Cloud Insights Owner \[sn\_clin\_core.insights\_owner\]
+Insights Owner
+
+ \[sn\_clin\_core.insights\_owner\]
 
 </td><td>
 
@@ -70,7 +75,7 @@ The role is in the Cloud Cost Management Core plugin. The role spans only the Cl
  -   Define jobs and policies.
 -   View data for owned service accounts.
 
- For more information, see [Assign service accounts to an insights\_owner]().
+ For more information, see [Assign service accounts to an insights\_owner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/insights-owner-new-cloudin.md).
 
 </td><td>
 
@@ -78,7 +83,7 @@ insights\_user
 
 </td></tr><tr><td>
 
-Cloud Insights User
+Insights User
 
  \[sn\_clin\_core.insights\_user\]
 
@@ -92,12 +97,24 @@ The role is in the Cloud Cost Management Core plugin. The role spans only the Cl
 
 — none —
 
+</td></tr><tr><td>
+
+Spend Admin
+
+ \[sn\_clin\_core.spend\_owner\]
+
+</td><td>
+
+The role is in the Cloud Cost Management Core plugin. The role spans only the Cloud Cost Management application.
+
+ Access the spend data for owned service accounts in the Cloud Cost Management application.
+
+</td><td>
+
+cloud\_integrations\_admin
+
 </td></tr></tbody>
-</table>## Secondary roles
-
-The roles in this section are contained in the insights\_admin role. These roles enable integration with platform \(Performance Analytics, MetricBase/Clotho\) to execute Cloud Cost Management flows.
-
-<table id="table_t2t_5qv_4lb"><thead><tr><th>
+</table><table id="secondary-roles"><thead><tr><th>
 
 Role title \[name\]
 
@@ -105,24 +122,7 @@ Role title \[name\]
 
 Permissions
 
-</th><th>
-
-Contains roles
-
 </th></tr></thead><tbody><tr><td>
-
-Cloud Spend Admin \[sn\_cld\_spend\_core.spend\_admin\]
-
-</td><td>
-
-The role is in the Cloud Spend Reports Core plugin.Edit the Cloud Billing dashboards.
-
-</td><td>
-
--   cloud\_integrations\_admin
--   \[sn\_capi.cloud\_developer\]
-
-</td></tr><tr><td>
 
 Cloud Integrations Admin\[sn\_cld\_intg\_core.cloud\_integrations\_admin\]
 
@@ -130,27 +130,17 @@ Cloud Integrations Admin\[sn\_cld\_intg\_core.cloud\_integrations\_admin\]
 
 The role is in the Cloud Integrations Core plugin.Configure Billing Download jobs and Price Sheet Download jobs.
 
+</td></tr><tr><td>
+
+Spend Owner\[sn\_clin\_core.spend\_owner\]
+
 </td><td>
 
--   \[api\_integrator\]
--   \[discovery\_admin\]
--   \[flow\_operator\]
+The role is in the Cloud Integrations Core plugin.Access all the spend data for owned service accounts in the Cloud Cost Management application.
 
 </td></tr><tr><td>
 
-API Integrator\[sn\_cld\_intg\_core.api\_integrator\]
-
-</td><td>
-
-The role is in the Cloud Integrations Core plugin.Used by the MID Server to access REST endpoints that are related to the Cloud Integrations, Cloud Integrations AWS applications, and Cloud Integrations Azure applications.
-
-</td><td>
-
-\[clotho\_rest\_put\]
-
-</td></tr><tr><td>
-
-Cloud Budget Viewer \[sn\_clin\_core.budget\_viewer\]
+Budget Viewer\[sn\_clin\_core.budget\_viewer\]
 
 </td><td>
 
@@ -158,33 +148,15 @@ The role is in the Cloud Cost Management Core plugin. The role spans only the Cl
 
  View Budget Forecast reports and policies.
 
-</td><td>
-
-— none —
-
 </td></tr><tr><td>
 
-PA Admin\[pa\_admin\]
+Spend User\[sn\_cld\_spend\_core.spend\_user\]
 
 </td><td>
 
-See [Performance Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/r_PARoles.md).
+The role is in the Cloud Cost Management Core plugin.
 
-</td><td>
-
-— none —
-
-</td></tr><tr><td>
-
-Clotho Put\[clotho\_rest\_put\]
-
-</td><td>
-
-Role that is used by the MID Server to send the billing data to the instance and store the data in MetricBase / Clotho.
-
-</td><td>
-
-— none —
+ Access Spend dashboards and tables.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Cloud Cost Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/reference-cloudinsights.md)

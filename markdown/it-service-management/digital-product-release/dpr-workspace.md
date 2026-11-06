@@ -7,8 +7,8 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
 
@@ -20,7 +20,15 @@ The Digital Product Release Workspace provides a single location for release adm
 
 The following users can use the Digital Product Release Workspace. The workspace is personalized for different roles.
 
-<table id="table_cdy_h3z_qqb"><tbody><tr><td>
+<table id="table_cdy_h3z_qqb"><thead><tr><th>
+
+Persona
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
 
 Release manager
 
@@ -68,11 +76,11 @@ To open the workspace, navigate to **Workspaces** &gt; **Digital Product Release
 
 ## Landing page
 
-On the workspace landing page, get a quick overview of the active releases, open approval tasks, and policies compliance status.
+On the workspace landing page, get a quick overview of the active releases, open approval tasks, and policies compliance status. The widgets and the data that are displayed in the widgets depend on your role. The numbers show only from releases where you're either the release owner or a release team member.
+
+**Note:** Counts and charts reflect only tasks, policies, approvals, and other items mapped to active phases. Items associated with a cancelled or superseded phase \(for example, after a phase restart\) aren't included.
 
 As a release manager, you can use the onboarding tool to create and manage release processes.
-
-**Note:** The widgets and the data that are displayed in the widgets depend on your role.
 
 The following is an example of the workspace landing page for the Digital Product Release application.
 

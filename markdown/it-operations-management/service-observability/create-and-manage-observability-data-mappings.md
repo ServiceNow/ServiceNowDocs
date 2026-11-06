@@ -1,84 +1,88 @@
 ---
 title: Create and manage data mappings
-description: Map your services to the data from a connected external application performance management \(APM\) instance, and view it in charts for the service.
+description: Map your services to the data from a connected external observability vendor instance, and view it in charts for the service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.html
 release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Service Observability, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Create and manage data mappings
 
-Map your services to the data from a connected external application performance management \(APM\) instance, and view it in charts for the service.
+Map your services to the data from a connected external observability vendor instance, and view it in charts for the service.
 
 ## Before you begin
 
--   If you are on version 1.5.0, activate the services that have data from an external APM instance. For instructions on how to activate the services, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/activate-teams-and-services.md). For later versions, you don't need to activate services. You can map any of the following service types:
-    -   Application
-    -   Mapped application
-    -   Calculated application
+-   You can map any of the following service types:
+    -   Service instance
+    -   Mapped application service
+    -   Calculated application service
     -   Dynamic CI group
-    -   Technical
-    -   Tag-based
-    -   Service offerings
-    -   Business services
+    -   Technology management service
+    -   Tag-based service
+    -   Offerings
+    -   Business service
 -   [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/connect-an-observability-data-source.md)
 
 Role required: sn\_sow\_svcobs.admin
 
 ## About this task
 
-When a service CI is mapped to specific APM metric tag key/value pairs, Service Observability displays metrics containing those tags for that service. These metrics are grouped by the following entity types:
+**Tip:**
 
--   Application metrics: Metrics associated with the selected service
--   Compute metrics: Metrics associated with the hosts the service is run on
+If you want to use MetricBase as your data source, follow the procedure described in [Create and manage MetricBase data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-metricbase-data-mappings.md) instead.
+
+When a service CI is mapped to specific observability vendor metric tag key/value pairs, Service Observability displays metrics containing those tags for that service. These metrics are grouped by the following entity types:
+
+-   Application: Metrics associated with the selected service
+-   Compute: Metrics associated with the hosts the service is run on
 -   Databases: Metrics associated with databases used by the service
+-   Networking: Metrics associated with network devices used by the service.
 
-For example, say you have metrics from New Relic that are used to monitor services, databases, and hosts. On those metrics, you have used the tag `service_name`. Say you have also mapped the `checkout` service CI to the APM metadata key/value pair `service_name = checkout`. Service Observability shows you all the database and host metrics tagged with `service_name = checkout` in the context of the `checkout` service CI.
+For example, say you have metrics from New Relic that are used to monitor services, databases, and hosts. On those metrics, you have used the tag `service_name`. Say you have also mapped the `checkout` service CI to the observability metadata key/value pair `service_name = checkout`. Service Observability shows you all the database and host metrics tagged with `service_name = checkout` in the context of the `checkout` service CI.
 
 If some of your metrics on different entities use a different key name or a different key value, you can create exceptions. For example, if your host metrics use `service` instead of `service_name`, you can create an exception to include those metrics.
 
 Each entity type has its own dashboard and each metric or related CI has its own default chart. You can customize the templates used for the dashboards and charts. See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
-**Note:** To understand how Service Observability creates these mappings, see [APM vendor entity mappings for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/apm-vendor-entity-mappings.md).
+**Note:** To understand how Service Observability creates these mappings, see [Observability vendor entity mappings for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/apm-vendor-entity-mappings.md).
 
 For a description of the field values, see [Service Observability data mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/observability-data-mapping-form.md).
 
 ## Procedure
 
-1.  Navigate to the Data mappings page, following the procedures for your version of Service Observability.
+1.  Navigate to **All** &gt; **Service Observability** &gt; **Configure Data mappings**.
 
-    -   Version 1.5.0: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability Management** &gt; **Manage Observability** &gt; **Data mappings**
-    -   Version 1.6.x or later: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data mappings**.
 2.  Select **Create your first mapping** or **Create mapping**.
 
 3.  On the Observability data mapping page, enter a name for the mapping.
 
 4.  Choose the services that should use this mapping.
 
-    -   For version 1.5.0: Enter the names of the activated services that you want to map. For information about activating services, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/activate-teams-and-services.md)
-    -   For version 1.6.x and later:
-        1.  Choose **Select services**.
-        2.  Use the navigation to narrow down the list to the type of service you're searching for.
-        3.  Select the services to add to the mapping. You can add services from any combination of service type.
+    1.  Choose **Select services**.
 
-            **Note:** Use the filter to narrow down the service list.
+        The top 30 recommended services display in dialog. These are services that would most benefit from using Service Observability based on business criticality and frequency of alerts, incidents, and SLOs over the past 90 days.
 
-        4.  Select **Add services** to add them to the mapping.
+        You can instead manually choose services by choosing **All Services** from the left navigation.
+
+        **Note:** Use the filter to narrow down the service list.
+
+    2.  Select the services to add to the mapping. You can add services from any combination of service type.
+    3.  Select **Add services** to add them to the mapping.
     The Mapping preview pane updates to show the selected service, or the first service in a list of services.
 
-5.  Create a rule to determine how Service Observability should map internal services to the APM entities using tag keys and values.
+5.  Create a rule to determine how Service Observability should map internal services to the observability entities using tag keys and values.
 
     1.  Select the data source for this map.
 
-    2.  Enter the tag key that you want to use to map the APM data to the service.
+    2.  Enter the tag key that you want to use to map the observability data to the service.
 
-        The key can be any tag you use on your APM metadata, for example `service`. The entered key must match the tag you use in the APM metadata and is case-sensitive.
+        The key can be any tag you use on your observability metadata, for example `service`. The entered key must match the tag you use in the observability metadata and is case-sensitive.
 
         **Note:** If you use more than one tag to represent a service, you can create an exception. For example, if most tags use `service` except for database metrics, which use `service_name`, you can create an exception for the database metrics.
 
@@ -86,7 +90,7 @@ For a description of the field values, see [Service Observability data mapping f
 
         **Note:** Values are case-sensitive.
 
-        Values can be strings that are from your APM metadata, like a service name, or they can be a variable used to represent multiple instances, for example `$(service)`. When your key represents a service, a drop-down menu shows fields from the corresponding CI that can be used as a variable. If you choose to use a variable, be sure that the values resolve to values sent in the APM data.
+        Values can be strings that are from your observability metadata, like a service name, or they can be a variable used to represent multiple instances, for example `$(service)`. When your key represents a service, a drop-down menu shows fields from the corresponding CI that can be used as a variable. If you choose to use a variable, be sure that the values resolve to values sent in the observability data.
 
         **Note:** If you selected more than one service to map, the drop-down displays only the fields that are common to all selected services.
 
@@ -105,7 +109,7 @@ For a description of the field values, see [Service Observability data mapping f
 
 ## Result
 
-On the **Observability** tab of the Service details page, dashboards and charts appear for the entities found from the mapping.
+On the **Observability** tab of the Service details page, dashboards and charts show metrics for the entities found from the mapping.
 
 **Parent Topic:**[Configuring Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/configuring-service-observability.md)
 

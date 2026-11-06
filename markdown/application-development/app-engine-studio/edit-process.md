@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add logic and automation, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a process
@@ -20,7 +20,7 @@ To update or change an existing process for an app built in App Engine Studio \(
 
 Before you edit a process, you must add a process in Playbooks. For more information, see [Create a process definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/create-process-definition.md).
 
-You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see .
+You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/activate-process-automation-designer.md).
 
 Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
@@ -41,7 +41,7 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 ## What to do next
 
-Test a process to make certain it works the way you expect. For more information on testing processes, see Test a process.
+Test a process to make certain it works the way you expect. For more information on testing processes, see [Test a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/test-process.md).
 
 **Parent Topic:**[Add logic and automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-automation.md)
 

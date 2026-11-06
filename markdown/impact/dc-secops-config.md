@@ -1,0 +1,37 @@
+---
+title: Configure Data Collection for Security Operations
+description: Configure Data Collection for Security Operations.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/dc-secops-config.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Impact Value Management Data Collection Content Pack for Security Operations, Enable data collection for Value Management, Guided Setup \(Legacy\), Configuring Impact, Impact]
+---
+
+# Configure Data Collection for Security Operations
+
+Configure Data Collection for Security Operations.
+
+## Before you begin
+
+You don't need to assign Group Types to configure Data Collection for Security Operations, but you do need to enter manual data points.
+
+For the Manual Indicators, you must add data point every month. For example, given the fixed nature of the Impact VM - Legacy SecOps Systems Annual Run-Rate indicator, you only need to enter this data point once.
+
+**Important:** If you don't have full access to Performance/Platform Analytics through a Pro or Enterprise subscription, you're required to enter this data point every month.
+
+Role required: admin, pa\_power\_user, pa\_admin, or pa\_data\_collector
+
+## Procedure
+
+1.  Navigate to **Performance/PlatformAnalytics** &gt; **Scoresheet**, and then select **Impact VM - Legacy SecOps Systems Monthly Run-Rate**.
+
+2.  Enter the data point in the relevant month cell.
+
+    \[Omitted image "dct\_config\_secops.png"\] Alt text: Example with Mar 2024 cell selected.
+
+
+**Parent Topic:**[Impact Value Management Data Collection Content Pack for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/data-collection-secops.md)
+

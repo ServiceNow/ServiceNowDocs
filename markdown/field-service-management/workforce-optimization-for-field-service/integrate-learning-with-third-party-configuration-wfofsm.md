@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Setting up coaching in Workforce Optimization for Field Service, Configuring Workforce Optimization for Field Service, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up coaching, Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
 
 # Integrate third-party learning management systems with the Coaching with Learning application
@@ -128,15 +128,15 @@ Configuration set to push a record if the previous push fails.**Note:** This fie
 </table>    7.  Click **Submit**.
 2.  Integrate your ServiceNow instance with your third-party learning source accounts.
 
-<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d95165e313">
+<table id="choicetable_bzs_wvn_rpb"><thead><tr><th align="left" id="d106424e319">
 
 To integrate with this third-party learning source
 
-</th><th align="left" id="d95165e316">
+</th><th align="left" id="d106424e322">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d95165e322">
+</th></tr></thead><tbody><tr><td id="d106424e328">
 
 **Pluralsight Skills account**
 
@@ -144,7 +144,7 @@ Do this
 
 Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set up the Pluralsight spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-pluralsight-spk.md) to perform the integration.
 
-</td></tr><tr><td id="d95165e335">
+</td></tr><tr><td id="d106424e341">
 
 **Cornerstone application**
 
@@ -152,7 +152,7 @@ Use an API key to authenticate the ServiceNow requests. Follow the steps in [Set
 
 Register an OAuth application in Cornerstone and authenticate requests from ServiceNow. Follow the steps in [Set up the Cornerstone spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-cornerstone.md) to perform the integration.
 
-</td></tr><tr><td id="d95165e351">
+</td></tr><tr><td id="d106424e357">
 
 **Udemy application**
 

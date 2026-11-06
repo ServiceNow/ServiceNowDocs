@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure dynamic tables in contract template, Add document content controls using Microsoft Word add-in for ServiceNow Contracts, Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure dynamic tables, Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure mapped columns to append or add fields from related tables
@@ -23,7 +23,7 @@ As a contract configurator, you can add scripts for configuring the mapped table
 ## Before you begin
 
 -   Map tables in Microsoft Word document using the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-table.md).
--   Upload and parse the document with the content controls. For more information, see [Upload and parse a Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md).
+-   Upload and parse the document with the content controls. For more information, see [Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md).
 -   Role required: sn\_cm\_core.contract\_config
 
 ## Procedure

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Digital Portfolio Management reference, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
 
 # Digital Portfolio Management views
@@ -24,7 +24,7 @@ On the DPM homepage, see the status of all your solutions. For information, see 
 
 **Personal portfolios**
 
-Create your own collections of services and applications with data surfaced from other ServiceNow products. DPM supports dedicated service tables so you can fill your personal portfolios with business services, application services, and any other services in the base CMDB service table. For more information, see [Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md).
+Create your own collections of services and applications with data surfaced from other ServiceNow products. DPM supports dedicated service tables so you can fill your personal portfolios with business services, service instances, and any other services in the base CMDB service table. For more information, see [Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md).
 
 \[Omitted image "dpm-personal-portfolio-landing-details.png"\] Alt text: DPM personal portfolio details.
 
@@ -40,7 +40,7 @@ Drill down into each portfolio to analyze the details in the context of the plan
 
 **Enterprise portfolios**
 
-Create enterprise portfolios for business applications and application services. You can also view service portfolios that are shared with you. You can't alter service portfolios because they’re created in Service Portfolio Management tables. However, you can still see the overall IT structure in the context of the services that you own. For more information, see [Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md).
+Create enterprise portfolios for business applications and service instances. You can also view service portfolios that are shared with you. You can't alter service portfolios because they’re created in Service Portfolio Management tables. However, you can still see the overall IT structure in the context of the services that you own. For more information, see [Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md).
 
 \[Omitted image "dpm-enterprise-portfolio-landing.png"\] Alt text: Enterprise portfolio.
 

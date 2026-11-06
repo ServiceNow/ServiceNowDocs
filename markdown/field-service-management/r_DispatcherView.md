@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/r\_DispatcherView.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Field Service Management reference, Field Service Management]
+breadcrumb: [Reference, Field Service Management]
 ---
 
 # Map iconography in Dispatcher Workspace
@@ -40,6 +40,8 @@ Unique map pins and icons in the dispatch map that mark the location of tasks an
 |\[Omitted image "home-location-multi.png"\] Alt text: Home location task.|Multiple tasks are assigned at the agent's home location.|
 |\[Omitted image "colocated-multi.png"\] Alt text: Co-located multiple.|More than one task, agent, or crew is at this location.|
 |\[Omitted image "colocted-P1.png"\] Alt text: Co-located P1.|More than one task, agent, or crew is at this location. At least one of the tasks at this location is a priority-1 task.|
+|\[Omitted image "personal-event.png"\] Alt text: Personal event|Indicates the location that a meeting or training personal event is located.|
+|\[Omitted image "colocated-event.png"\] Alt text: Co-located event|Indicates the location that more than one meeting or training personal event is located.|
 |\[Omitted image "completed-route.png"\] Alt text: Completed route.|The lighter-colored line on the dispatch map shows the route that a Field Service agent has completed.|
 |\[Omitted image "pending-route.png"\] Alt text: Pending route.|The darker-colored line on the dispatch map shows the route that a Field Service agent is planning to complete.|
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Virtual Agent, delete, topic, designer, confirm]
-breadcrumb: [Getting started with Virtual Agent Designer, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Delete a Virtual Agent topic
@@ -21,11 +21,9 @@ Delete a Virtual Agent topic that is no longer needed.
 
 Role required: virtual\_agent\_admin or admin
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
-
 ## About this task
 
-You can delete a topic using the **Delete** option in the Assistant Designer Asset library or in the topic header bar.
+You can delete a topic using the **Delete** option in the Assistant Designer Asset library or in the header bar for the topic.
 
 **Note:**
 
@@ -35,19 +33,21 @@ If you want to remove a topic from your Virtual Agent clients but don't want to 
 
 ## Procedure
 
-1.  If you're not working on the topic, navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  Use one of the following methods based on either a record on the home page or the header inside a topic.
+2.  Select the **Asset library** tab.
 
-<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d120676e154">
+3.  Use one of the following methods based on either a record on the home page or the header inside a topic.
+
+<table id="choicetable_brb_vgj_jcc"><thead><tr><th align="left" id="d143297e127">
 
 Method
 
-</th><th align="left" id="d120676e157">
+</th><th align="left" id="d143297e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120676e163">
+</th></tr></thead><tbody><tr><td id="d143297e136">
 
 **Asset library - single topic**
 
@@ -55,7 +55,7 @@ Description
 
 Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt text: Show actions for this row icon. on the row for the topic that you want to delete, then select **Delete**.
 
-</td></tr><tr><td id="d120676e183">
+</td></tr><tr><td id="d143297e154">
 
 **Asset library - multiple topics**
 
@@ -65,7 +65,7 @@ Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt
 2.  Select **Delete**.
  **Note:** If one or more of the selected assets are subflows or actions, the delete option is disabled.
 
-</td></tr><tr><td id="d120676e209">
+</td></tr><tr><td id="d143297e178">
 
 **Topic header bar**
 
@@ -76,7 +76,7 @@ Select the show actions for this row icon \[Omitted image "kebab-menu.png"\] Alt
 
 
 </td></tr></tbody>
-</table>3.  In the Confirm delete dialog box, select **Delete**.
+</table>4.  In the Confirm delete dialog box, select **Delete**.
 
     The tab closes and returns you to the home page.
 
@@ -87,5 +87,5 @@ A toast message also appears for 4 seconds, confirming the topic has been delete
 
 If the topic was active and is no longer listed in the home page, the topic is immediately removed from Virtual Agent clients.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

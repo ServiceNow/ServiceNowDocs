@@ -4,9 +4,9 @@ description: Use Platform Analytics dashboards to access, organize, and share da
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/ac-elements.html
 release: yokohama
-topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -14,58 +14,191 @@ breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 
 Use Platform Analytics dashboards to access, organize, and share data in a visual format.
 
-## Finding dashboards
+## Dashboards library overview
 
-You can find the dashboards by opening the **All** tab to access Unified Navigation and entering `Dashboard` in the search bar. For more information, see [Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/find-dashboard-library.md).
+You can find all the [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md) that you have permission to access by navigating to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**. You can filter what dashboards are listed, for example seeing only dashboards you own or you have bookmarked. You can also directly access Dashboards from the filter navigation in Platform Analytics library pages.
 
-## Dashboard components
+Library pages like this one include a navigation pane that provides access to the other libraries and the Usage Insights page. Use it to navigate between the libraries without interrupting your workflow.
 
-When the dashboard is being viewed, rather than edited, it has the following components.\[Omitted image "inline-db-components3.png"\] Alt text: Section of a dashboard with each of its components numbered. The explanation of each number is in the list that follows.
+For information on role-based access for the filter navigation pane and Platform Analytics overview page, see [Roles applicable for Platform Analytics overview page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center.md).
 
-1.  Dashboard title
-2.  Refresh information
+For more information on Dashboards library, see [Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/find-dashboard-library.md).
 
-    Indicates how long ago the dashboard was refreshed. Admins can configure refresh intervals. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-ac-db-settings.md).
+## Dashboards for analytics admins
 
-3.  Certification badge
+The configuration of the Dashboards page and the data access depends on the user roles. Users without admin roles have limited capabilities, as compared to the analytics admins. The analytics admins can perform actions such as deactivating, activating, deleting, or creating categories. For Dashboards, the applicable roles are dashboard\_admin, platform\_analytics\_admin, and admin. The lowest role required is dashboard\_admin. For more information on all dashboard roles, see table [Dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
-    Certification indicates that the dashboard is company-approved and recommended for use.
+On Brazil instances, you can find both Core UI dashboards and Platform Analytics experience dashboards in the Dashboards library.
 
-4.  Category badge
+For more information, see [Dashboards for analytics admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-for-admin-users.md). For more information on the types of admin roles in Platform Analytics, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
-    Categories are terms or phrases describing one ore more dashboards provided by its creator or the analytics\_categories\_admin.
+## Dashboards components
 
-5.  Refresh button
+When you open a dashboard, you can view the components.
 
-    Select to refresh all of the visualizations on the dashboard.
+\[Omitted image "inline-db-components3.png"\] Alt text: Section of a dashboard. Refer to the following list for the descriptions of the components.
 
-6.  Details button
+<table id="table_exj_dht_k3c"><thead><tr><th>
 
-    Select to show ownership and sharing information about the dashboard. To learn more, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md).
+ 
 
-7.  Insights button
+</th><th>
 
-    Shows configured insights cards. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/proactive-analytics/proactive-analytics.md).
+Field / component name
 
-8.  Edit button
+</th><th>
 
-    Enables users who own or who have been given edit rights to edit the content on the dashboard.
+Description
 
-9.  More actions button
+</th></tr></thead><tbody><tr><td>
 
-    Opens menu to create a dashboard, duplicate, share, and print the dashboard, clear the filters, as well as bookmark, and delete the dashboard.
+1
 
-10. Top stage
+</td><td>
 
-    Elements in this section are visible no matter which tab has focus. Filters in this section apply to visualizations on all of the tabs.
+Open library
 
-11. Tabs
+</td><td>
 
-    Tabs help you to manage information on your dashboard and keep related information in the same place.
+Returns the viewer to the Dashboard library
 
+</td></tr><tr><td>
 
--   **[Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/find-dashboard-library.md)**  
-To find dashboards in Platform Analytics, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
+2
+
+</td><td>
+
+Dashboard title
+
+</td><td>
+
+Displays the dashboard title. Select the arrow to choose a different dashboard.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+[Certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md)
+
+</td><td>
+
+Whether the dashboard is company-approved and recommended for use.
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+Category badge
+
+</td><td>
+
+Terms or phrases that describe one or more dashboard categories. This information is provided by the dashboard creator or the analytics\_categories\_admin.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+Refresh button
+
+</td><td>
+
+Button for refreshing all the visualizations on the dashboard. In the dashboard settings, an admin user can set whether to display the last refresh near the title. They can also set up automatic dashboard refreshes. For more information, see [Configure Platform Analytics dashboard settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-ac-db-settings.md).
+
+</td></tr><tr><td>
+
+6
+
+</td><td>
+
+Details button
+
+</td><td>
+
+Button for displaying the ownership and sharing information about the dashboard. You can view the user, groups, roles, and access permissions. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md).
+
+</td></tr><tr><td>
+
+7
+
+</td><td>
+
+Insights button
+
+</td><td>
+
+Button for viewing the insights cards. For more information, see [Proactive analytics insights on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/proactive-analytics/proactive-analytics.md).
+
+</td></tr><tr><td>
+
+8
+
+</td><td>
+
+Edit button
+
+</td><td>
+
+Button for editing the dashboard. Only users with admin roles, edit permissions, and ownership of the dashboard can edit the contents of the dashboard.
+
+</td></tr><tr><td>
+
+9
+
+</td><td>
+
+More actions button
+
+</td><td>
+
+Button for creating, duplicating, sharing, printing, bookmarking, clearing the filters for, or deleting the dashboard. For more information on sharing the dashboard information, see [Share a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-db-in-ac.md).
+
+</td></tr><tr><td>
+
+10
+
+</td><td>
+
+Collapse/Expand container
+
+</td><td>
+
+Some dashboard elements, typically filters, can be in a container above or below the tabs. This control hides or shows that container and its contents.
+
+</td></tr><tr><td>
+
+11
+
+</td><td>
+
+Filter
+
+</td><td>
+
+In this example dashboard, there is a filter in a container above the tabs. Because it is outside the tabs, it applies to the contents of all tabs. For more information, see [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-workspace-filter-type.md).
+
+</td></tr><tr><td>
+
+12
+
+</td><td>
+
+[Tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md)
+
+</td><td>
+
+Tabs for managing information on your dashboard and keeping related information in the same place.
+
+</td></tr></tbody>
+</table>-   **[Dashboards in the library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/find-dashboard-library.md)**  
+Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
+-   **[Dashboards for analytics admins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-for-admin-users.md)**  
+Use Platform Analytics dashboards to access, organize, and share data in a visual format. Dashboards contain data visualizations, filters, and other visual elements.
 -   **[Dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboard-elements.md)**  
 Elements refer to the visual objects you can place on a dashboard, including filters.
 -   **[Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/differences-between-core-ui-ne-dbs.md)**  
@@ -78,7 +211,7 @@ Depending on your needs, you have four different ways to present a collection of
 **Related topics**  
 
 
-[Creating dashboards and other common dashboard tasks]()
+[Common dashboard tasks in the in-line editor]()
 
 [Configuring dashboards]()
 

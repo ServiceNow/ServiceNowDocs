@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/view-mitre-collection.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -41,10 +41,6 @@ Role required:
 6.  Under the **MITRE ATT&amp;CK Techniques** tab, select a technique.
 
 7.  Under the related lists, view the associations that are available for the technique that you selected.
-
-    In the following illustration, you can see the navigational path from the Enterprise ATT&amp;CK matrix, to the Initial Access \(TA0001\) tactic, and then to the Phishing \(T1566\) technique. On the Attack Pattern - Phishing technique page, you can view the related list - Tactic, Sub Technique, Group, Mitigation, External References, Malware, and Tools.
-
-    \[Omitted image "enterprise-matrice-view.gif"\] Alt text: Threat Intelligence: MITRE ATT&amp;CK matrix.
 
 
 ## What to do next

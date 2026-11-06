@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/quick-start-tests-fsm.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Activate Field Service Management, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Activate, Configure, Field Service Management]
 ---
 
 # Quick start tests for Field Service Management
@@ -410,6 +410,36 @@ Clone a work order task
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+Create a time worked entry as a dispatcher or qualifier
+
+</td><td>
+
+-   From the CSM/FSM Configurable workspace, go to the List view and create a new work order.
+-   Qualify the work order and verify that a work order task is created.
+-   Select **Record Time**, then fill in the time worked entry and select **Save**.
+-   Verify that the time worked entry is created successfully.
+
+</td><td>
+
+Brazil
+
+</td></tr><tr><td>
+
+Flag a work order task from CSM/FSM Configurable workspace
+
+</td><td>
+
+-   From the CSM/FSM Configurable workspace, as a user with the Dispatcher or Qualifier role, go to the List view and create a new work order.
+-   Qualify the Work order and verify if a Work order task is created.
+-   Go to the Work order task you created and select **Flag**. Verify the work order task is flagged and you see a **Unflag** button.
+-   Select **Unflag** and verify work order task is now unflagged, and the **Flag** button is available.
+
+</td><td>
+
+Brazil
 
 </td></tr></tbody>
 </table>**Related topics**  

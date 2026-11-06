@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -32,8 +32,10 @@ For more information, refer to [Event Planner](https://raw.githubusercontent.com
 View or update reservation requests submitted through the Reservation portal. You can view the current day's reservations and the ones made by you for the others.
 -   **[Approve a reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/approve-res-req.md)**  
 Review employee reservations raised using Workplace Reservation Management and approve or reject them.
--   **[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)**  
-A reservation waitlist lets employees queue for a preferred space when all spaces in a Reservable module configuration are fully booked. The waitlist record is held until the preferred space is available.
+-   **[Print workplace reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/print-workplace-reservations.md)**  
+Using the Reservation Overview, workplace managers and reservation desk executives can print the reservations created and scheduled for a location.
+-   **[Reservation Waitlist data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/waitlist-configuration.md)**  
+The Reservation Waitlist data model describes the tables and configuration options that support waitlist requests, space allocation, and reservation fulfillment for employees.
 
 **Parent Topic:**[Workplace Reservation Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/workplace-rsv-mgmt-feat.md)
 

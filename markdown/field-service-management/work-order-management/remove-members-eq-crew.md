@@ -1,29 +1,20 @@
 ---
 title: Remove or release members and equipment from your crew
-description: Remove or release crew members and equipment from your crews on the Now Mobile Agent application.Remove members or equipment from your planned crew so they can be assigned to other crews or tasks.Remove members or equipment from a task crew so they can be assigned to other crews or tasks.Release task crew members from work order tasks that are in the Work in Progress state.
+description: Remove or release crew members and equipment from your crews on the ServiceNow Agent application.Remove members or equipment from your planned crew so they can be assigned to other crews or tasks.Remove members or equipment from a task crew so they can be assigned to other crews or tasks.Release task crew members from work order tasks that are in the Work in Progress state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/remove-members-eq-crew.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Crew on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Remove or release members and equipment from your crew
 
-Remove or release crew members and equipment from your crews on the Now Mobile Agent application.
-
-**Parent Topic:**[Crew on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-crew-mobile-agent-app.md)
-
-**Related topics**  
-
-
-[Add members or equipment to your crew]()
-
-[Edit member or equipment details]()
+Remove or release crew members and equipment from your crews on the ServiceNow Agent application.
 
 ## Remove members or equipment from your planned crew
 

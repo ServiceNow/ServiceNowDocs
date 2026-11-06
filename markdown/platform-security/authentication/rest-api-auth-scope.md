@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [REST API access policies, API access policy, Authentication, Access Management]
 ---
@@ -23,6 +23,8 @@ After creating REST API Auth Scope record, to access this REST API you must asso
 **Note:** Unless you have REST API Auth Scope record, the REST API can be accessed by any valid OAuth Entities.
 
 You must manually link the Auth scope within the OAuth Entity. The `useraccount` is a special scope, if it’s associated with an OAuth Entity it can access any API even if you have created a REST API Auth Scope record with a different auth scope.
+
+To learn more about how to use the API Auth Scope in the new Inbound integration experience, see [Inbound integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/inbound-integrations.md).
 
 **Note:**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Multi-day scheduling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Multi-day scheduling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Activate Field Service Multi-Day Task Scheduling

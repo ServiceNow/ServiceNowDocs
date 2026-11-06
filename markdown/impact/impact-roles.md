@@ -1,140 +1,383 @@
 ---
-title: User roles in Impact
+title: Roles installed with Impact
 description: Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-roles.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Impact]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [General reference, Impact reference, Impact]
 ---
 
-# User roles in Impact
+# Roles installed with Impact
 
 Impact offers many roles to assign to fit your business needs. When you log in to Impact, you’ll see a personalized view of your objectives, metrics, and recommendations tied directly to your role.
 
-There are different Impact roles for the Impact Delivery Instance and the Impact Store Application.
+Impact platform roles control access across administration, development support, code scanning, system monitoring, and user engagement. Assign roles based on user responsibilities and access requirements.
 
-<table id="table_o2s_fql_ntb"><thead><tr><th>
+<table><thead><tr><th>
+
+Category
+
+</th><th>
 
 Role
 
 </th><th>
 
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Impact User
-
-</td><td>
-
--   Has general access to Impact.
--   Impact users can create and update conversations.
-
-</td></tr><tr><td>
-
-Impact Permissions Authorizer
-
-</td><td>
-
-Allows users to grant permissions for Impact features that require consent.
-
-</td></tr><tr><td>
-
-Impact Executive
-
-</td><td>
-
--   Has read access to view overall Impact status and business value reporting.
--   Responsible for defining the long-term technology strategies for their organization.
--   Executive users can create and update conversations.
--   Owns the overall ServiceNow roadmap.
-
-</td></tr><tr><td>
-
-Impact Platform Owner
-
-</td><td>
-
--   Has full access to all Impact features.
--   Can request services like Accelerators and advisory sessions
--   Responsible for the overall accountability of the ServiceNow platform.
--   Provides leadership and oversight to the System Administrators.
--   Ensures team alignment to business strategy and the ServiceNow roadmap.
--   Actively involved in the overarching governance of the ServiceNow platform.
-
-</td></tr><tr><td>
-
-Impact Admin
-
-</td><td>
-
--   Provides user account management. \(This is a key differentiator from the Impact Executive role.\)
--   Responsible for the day-to-day administration of the ServiceNow platform.
--   Manages premium access, such as Instance Observer and Developer Support.
--   Has full access to all Impact features.
-
-</td></tr></tbody>
-</table><table id="table_q5r_1s5_rcc"><thead><tr><th>
-
-Role
+API Role Name
 
 </th><th>
 
-Description
+Key Capabilities
 
 </th></tr></thead><tbody><tr><td>
 
-Impact App Admin
+Administrative
 
 </td><td>
-
--   Responsible for configuring the Impact application
--   Sets up integration with the Impact IDI
--    Assigns roles to users and groups
--   Has full create, read, update, and delete access to all tables within Impact applications
-
-</td></tr><tr><td>
 
 Impact Platform Owner
 
 </td><td>
 
--   Has full create, read, update, and delete access to all tables within Impact applications
--   Cannot configure, setup integration or assign roles to users or groups
--   Can request services like accelerators and advisory sessions
+sn\_impact\_common.Impact Platform Owner
+
+</td><td>
+
+-   Full access to all Impact features
+-   Premium access management for Instance Observer and Developer Support
+-   Access Platform Owner dashboard
+-   Request Accelerators and advisory sessions
+-   Can't assign or configure roles to users or groups \(See Impact App Admin\)
 
 </td></tr><tr><td>
+
+Administrative
+
+</td><td>
 
 Impact Portfolio Owner
 
 </td><td>
 
--   Has full create, read, update, and delete access to all tables within Impact applications
--   Cannot configure, setup integration or assign roles to users or groups
--   Can request services like Accelerators and advisory sessions
+sn\_impact\_common.Impact Portfolio Owner
+
+</td><td>
+
+-   Full CRUD on Impact tables
+-   Access Platform Owner dashboard
+-   Request Accelerators and advisory sessions
 
 </td></tr><tr><td>
+
+Administrative
+
+</td><td>
+
+Impact Permissions Authorizer
+
+</td><td>
+
+Impact Permissions Authorizer
+
+</td><td>
+
+-   Approve permissions for Impact features requiring consent
+-   Manage initiative permissions
+-   Manage group permissions
+-   Approve pending activity requests
+-   Decline pending activity requests
+
+</td></tr><tr><td>
+
+Administrative
+
+</td><td>
+
+Impact Admin
+
+</td><td>
+
+sn\_impact\_common.Impact Admin \(BDA\)
+
+</td><td>
+
+-   Full access to all Impact features
+-   Premium access management for Instance Observer and Developer Support
+-   User account management
+-   Day-to-day platform administration
+
+</td></tr><tr><td>
+
+Administrative and Scan Engine
+
+</td><td>
+
+Impact App Admin
+
+</td><td>
+
+sn\_impact\_common.Impact App Admin
+
+</td><td>
+
+-   Full CRUD access to Impact tables
+-   Assign and configure roles to users or groups
+-   Configure Platform Health
+-   Scan Engine capabilities:
+    -   Manage scan settings
+    -   Manage exception reasons
+    -   Initiate scans
+    -   Execute scans
+
+</td></tr><tr><td>
+
+Development and Scan Engine
+
+</td><td>
+
+Impact Developer
+
+</td><td>
+
+sn\_impact\_common.Impact Developer
+
+</td><td>
+
+-   Access Scan Engine findings and developer workflows
+-   View personal technical debt and findings
+-   Perform on-demand scans excluding scheduled scans
+-   Access developer dashboard
+-   View Scan Engine results
+-   Submit exception requests
+
+</td></tr><tr><td>
+
+Development and Scan Engine
+
+</td><td>
+
+Development Team Lead
+
+</td><td>
+
+sn\_impact\_common.Impact Development Team Lead
+
+</td><td>
+
+-   View all team findings and scan results
+-   Manage team members
+-   Access Development Team Lead dashboard
+-   Perform on-demand scans excluding scheduled scans
+
+</td></tr><tr><td>
+
+Development and Support
+
+</td><td>
+
+Impact Developer Support
+
+</td><td>
+
+Impact Developer Support
+
+</td><td>
+
+-   Submit Developer Support cases for break-fix troubleshooting for Advanced and Total packages
+-   Request custom development work
+
+</td></tr><tr><td>
+
+Scan Engine
+
+</td><td>
+
+Scan Engine Admin
+
+</td><td>
+
+sn\_se.scan\_engine\_admin
+
+</td><td>
+
+-   Full access to all Scan Engine functions and results
+-   Configure and manage Scan Engine
+-   Manage exception reasons
+-   Manage approval workflows
+-   Enable AI-generated code fix capabilities
+-   View all scan results and findings
+-   Initiate scans
+
+</td></tr><tr><td>
+
+Scan Engine
+
+</td><td>
+
+Scan Engine User
+
+</td><td>
+
+sn\_se.scan\_engine\_user
+
+</td><td>
+
+-   Access Scan Engine findings
+-   View scan initiation buttons without initiation functions
+-   View Scan Engine results
+
+</td></tr><tr><td>
+
+Scan Engine
+
+</td><td>
+
+Exception Approver
+
+</td><td>
+
+sn\_se.scan\_engine\_exception\_approver
+
+</td><td>
+
+-   Approve and reject exception reason requests
+-   Receive and triage exception notifications
+
+</td></tr><tr><td>
+
+Scan Engine
+
+</td><td>
+
+AI Fix User
+
+</td><td>
+
+sn\_impact\_gen\_ai\_ai\_fix\_user
+
+</td><td>
+
+-   Access AI-generated code fix capabilities
+-   View code fix suggestions from Now Assist
+-   Apply AI-generated remediation code
+
+</td></tr><tr><td>
+
+Scan Engine
+
+</td><td>
+
+Internal REST Integration
+
+</td><td>
+
+sn\_iu\_internal\_rest\_integration
+
+</td><td>
+
+-   Enable REST API integration for Scan Engine
+-   Sync Scan Engine definitions
+-   Sync exception reasons
+-   Sync Update Set scanning data
+-   Perform automated data synchronization
+
+</td></tr><tr><td>
+
+Instance Observer
+
+</td><td>
+
+IO Standard
+
+</td><td>
+
+io\_standard
+
+</td><td>
+
+-   Full access to all Instance Observer features
+-   Create alert rules, manage alert rules, manage alert groups
+-   Access performance dashboards, generate reports, manage dashboards, triage alerts
+-   Schedule reports
+-   Access availability insights
+
+</td></tr><tr><td>
+
+Instance Observer
+
+</td><td>
+
+IO Read Only
+
+</td><td>
+
+io\_readonly
+
+</td><td>
+
+-   View alerts
+-   View rules
+-   View integrations
+-   View reports
+
+</td></tr><tr><td>
+
+User-Level
+
+</td><td>
 
 Impact Executive
 
 </td><td>
 
--   Responsible for defining the long-term technology strategies for their organization
--   Has read access to all Impact functionalities
--   Has read access to view Capabilities Maps, Product Adoption Roadmaps,Objectives and outcomes, Accelerators, and advisory sessions
--   Can create and update conversations.
+sn\_impact\_common.Impact Executive
+
+</td><td>
+
+-   Read access to all Impact features
+-   Access Executive Dashboards, Scan Engine
+-   Access strategic documents, capability maps, adoption roadmaps, objectives, and value journey
+-   Create and update conversations
 
 </td></tr><tr><td>
+
+User-Level
+
+</td><td>
 
 Impact User
 
 </td><td>
 
--   Has general access to Impact.
--   Impact users can create and update conversations.
+sn\_impact\_common.Impact User
+
+</td><td>
+
+-   Read-only access to Impact
+-   Read-only access to all tables
+-   Create and update conversations
+
+</td></tr><tr><td>
+
+User-Level
+
+</td><td>
+
+Impact Partner
+
+</td><td>
+
+sn\_impact\_common.Impact Partner
+
+</td><td>
+
+-   Read-only access to Impact
+-   Read access to Capabilities Maps, Product Adoption Roadmaps, Objectives, and Accelerators
+-   Request advisory sessions
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/general-reference.md)
+

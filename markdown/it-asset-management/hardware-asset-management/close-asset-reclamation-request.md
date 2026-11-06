@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Reclaim hardware assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reclaim hardware assets, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close an asset reclamation request

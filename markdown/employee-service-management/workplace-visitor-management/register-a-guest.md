@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Registering a visitor, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -28,7 +28,7 @@ Submit this request to register a guest. Specify if there are any additional req
 
 Workplace Visitor Management admin and reception staff can also register visitors directly from the application. Navigate to **Workplace Visitor Management** &gt; **Reception Staff** &gt; **Register Visitors**.
 
-You can also register a visitor using the Virtual agent chat support. Navigate to **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home** and select the chat icon \(\[Omitted image "chat-icon.png"\] Alt text: Chat icon.\). Enter your question or select **Show Me Everything** to select from a list of available options to register a visitor.
+You can also register a visitor using the Virtual agent chat support. Navigate to **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home** and select the chat icon . Enter your question or select **Show Me Everything** to select from a list of available options to register a visitor.
 
 ## Procedure
 
@@ -74,7 +74,7 @@ Location
 
 </td><td>
 
-The location of the visit.
+The location of the visit. **Note:** In Workplace Visitor Management version 2.0.0 or later, this field references the **workplace\_location** field. Verify that all field references and dot-walk expressions in your configuration resolve to **workplace\_location**.
 
 </td></tr><tr><td>
 
@@ -82,7 +82,7 @@ Host
 
 </td><td>
 
-The name of the host of the visitor. By default, the field is set to **System Administrator**.
+The name of the host of the visitor. By default, the field is set to your name.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Arrival date and time
 
 </td><td>
 
-Date and arrival time of the visit, shown as the arrival date and time icon \(\[Omitted image "date-time-icon.png"\] Alt text: Arrival date and time icon.\).
+Date and arrival time of the visit, shown as the arrival date and time icon .
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ Departure date and time
 
 </td><td>
 
-This field is automatically set to one hour after the arrival date and time. You can change this field by selecting your own time using the departure date and time icon \(\[Omitted image "date-time-icon.png"\] Alt text: Departure date and time icon.\).
+This field is automatically set to one hour after the arrival date and time. You can change this field by selecting your own time using the departure date and time icon \(\).
 
 </td></tr><tr><td>
 
@@ -162,7 +162,7 @@ Co-hosts for the visitor. The co-hosts and the main host are notified about the 
 
     3.  Select **Add**.
 
-    You can edit or remove a row from the form table using the add-remove row icon \(\[Omitted image "add-remove-sp-icon.png"\] Alt text: Add-remove row icon.\).
+    You can edit or remove a row from the form table using the add-remove row icon \).
 
 6.  Select **Add a company employee**, to add a colleague.
 
@@ -184,7 +184,7 @@ Select a colleague
 
 </td><td>
 
-The name of your colleague. The **First name**, **Last name**, and **Email** fields are automatically set. To edit any details, select the preview record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview record icon.\) and **Save** the changes.
+The name of your colleague. The **First name**, **Last name**, and **Email** fields are automatically set. To edit any details, select the preview record icon and **Save** the changes.
 
 </td></tr><tr><td>
 
@@ -213,7 +213,7 @@ The colleague's license plate details.
 </td></tr></tbody>
 </table>    3.  Select **Add**.
 
-    You can edit or remove a row from the form table using the Add-remove row icon \(\[Omitted image "add-remove-sp-icon.png"\] Alt text: Add-remove row icon.\).
+    You can edit or remove a row from the form table using the Add-remove row icon .
 
 7.  Bulk upload a list of visitors by using an Excel or CSV file.
 
@@ -223,7 +223,9 @@ The colleague's license plate details.
 
     3.  In the downloaded file, fill in the visitor information.
 
-        The columns in the file correspond to the fields in the **Add an external visitor** form. The visitor email column is required. If the visitor email is empty for any row, it’s skipped.
+        The columns in the file correspond to the fields in the **Add an external visitor** form. First name, Last name, and Email are required columns. If the visitor email is empty for any row, it’s skipped.
+
+        **Warning:** In Workplace Visitor Management version 2.0.0 or later, Visitor type is optional on bulk upload. In version 1.19 or earlier, Visitor type was a required column.
 
         **Note:** You can only add 50 internal visitors and 50 external visitors in one file. If you want to increase the number of rows that can be imported, configure the global property glide.sc.multirow\_set.rows.size and set it to the desired value which will apply to all portals. For more information, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0818277](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0818277).
 
@@ -231,7 +233,7 @@ The colleague's license plate details.
 
         The system displays invalid information in the **Invalid values** column. Ensure that you fix the issues before submitting the request.
 
-        You can edit or remove a row from the form table using the add-remove row icon \(\[Omitted image "add-remove-sp-icon.png"\] Alt text: Add-remove row icon.\).
+        You can edit or remove a row from the form table using the add-remove row icon.
 
 8.  In the **Notification preferences** section, select the channel to be notified on when the visitor checks into the building.
 
@@ -244,7 +246,11 @@ The colleague's license plate details.
 
 Your visitor registration is submitted and you can view your requests. The details about the visit are sent to the visitor's email address. The visitors also receive a reminder email with the invite code on the day before the registered date. For recurring invitations, only one email is sent for the visit details, but reminder emails are sent a day before every visit.
 
+**Note:** For Workplace Visitor Management version 2.0.0 or later, visitor emails include the full address of the campus and building locations along with time-zone based date and time.
+
 If any visitor policies are applicable for the visit, the email sent to the visitor contains options to accept or decline the policies. If the visitor declines the policies in the email, they can still accept them while checking in through the Workplace Services Kiosk. For more information about the kiosk check-in process, see [Check in using an invite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/visitor-check-in.md).
+
+**Warning:** In Workplace Visitor Management version 2.0.0 or later, the accept and decline policy buttons have been removed from visitor emails. Visitors can acknowledge policies on the visitor portal, or during the check-in process on a kiosk.
 
 ## What to do next
 
@@ -261,6 +267,10 @@ You can check the details of your request. You can also edit or cancel the reque
 
 **Related topics**  
 
+
+[Use the host portal]()
+
+[Adding visitors]()
 
 [Review visitor policies]()
 

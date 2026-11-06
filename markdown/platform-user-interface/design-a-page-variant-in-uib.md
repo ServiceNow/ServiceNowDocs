@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/design-a-page-variant-in-uib.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring an action button to open a custom modal, Customizing Configurable Workspace with declarative actions, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure a custom form modal, Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Design a page variant in UIB
@@ -19,14 +19,13 @@ Configure a UI Builder page variant to pass from a workspace modal into the vari
 Complete the following actions:
 
 -   [Create a form action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-form-action.md)
--   [Activate Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_ActivateCustomerService.md)
 -   Open your record page in UIB or create a page variant in UIB
 
 Role required: admin
 
 ## Procedure
 
-1.  Open your page variant.
+1.  Open a page variant in UI Builder.
 
 2.  Add components to display on the page by selecting **+Add component** under the Body element.
 

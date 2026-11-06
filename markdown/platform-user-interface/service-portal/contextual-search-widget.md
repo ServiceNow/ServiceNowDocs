@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -18,7 +18,7 @@ Contextual Search is an embedded widget that can be added to a record producer a
 
 By default, the widget is included in the **Create Incident** record producer form to display items based on keywords entered in the description. These items can be knowledge articles or Service Catalog items. These search results appear as the user types the information.
 
-To use this widget with other record producers, see [Define contextual search for the record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CntxtSearchRP.md).
+To use this widget with other record producers, see Define contextual search for the record producer.
 
 \[Omitted image "contextual-search-widget.png"\] Alt text: Contextual Search widget
 
@@ -33,5 +33,5 @@ To use this widget with other record producers, see [Define contextual search fo
 
 [Clone a widget]()
 
-[Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ContextualSearch.md)
+[bundle-platadm.c_ContextualSearch]
 

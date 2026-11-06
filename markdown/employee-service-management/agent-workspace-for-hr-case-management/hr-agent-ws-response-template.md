@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Response templates in Agent Workspace for HR Case Management

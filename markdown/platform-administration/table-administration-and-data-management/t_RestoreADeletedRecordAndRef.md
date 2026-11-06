@@ -7,7 +7,7 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Roll back and delete recovery, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -39,7 +39,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 3.  Do one of the following to restore the record.
 
-<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d238346e126">
+<table id="choicetable_rxr_mx3_jdb"><tbody><tr><td id="d258063e126">
 
 **Undelete With Related**
 
@@ -47,7 +47,7 @@ The instance can track deletions on any table, and references on audited tables,
 
 Recovers the record and all cascaded deletes and other database actions that resulted from the delete.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d238346e138">
+</td></tr><tr><td id="d258063e138">
 
 **Recover entire operation**
 
@@ -55,7 +55,7 @@ Recovers the record and all cascaded deletes and other database actions that res
 
 If this record was deleted as part of another delete, all records from the parent delete are recovered including all cascaded deletes and other database actions that resulted from the parent delete. If this is the top level delete, then this is the same as **Undelete with Related**.This option appears when a rollback context is available for the delete.
 
-</td></tr><tr><td id="d238346e153">
+</td></tr><tr><td id="d258063e153">
 
 **Undelete Record**
 

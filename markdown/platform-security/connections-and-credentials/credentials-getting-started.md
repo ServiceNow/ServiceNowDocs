@@ -1,5 +1,5 @@
 ---
-title: Getting started with credentials
+title: Get started with credentials
 description: The MID Server uses the credentials you create in the Credentials \[discovery\_credentials\] table to access resources for Discovery, Orchestration, Service Mapping, and Cloud Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/connections-and-credentials/credentials-getting-started.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Connections and Credentials, Access Management]
 ---
 
-# Getting started with credentials
+# Get started with credentials
 
 The MID Server uses the credentials you create in the Credentials \[discovery\_credentials\] table to access resources for Discovery, Orchestration, Service Mapping, and Cloud Management.
 

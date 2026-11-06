@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the network site details
@@ -22,9 +22,9 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-Your network sites are those physical locations where you keep your network equipment. Network site records enable you to view all your equipment at a specific location. You can filter the locations by their assigned type, role, and function categories. To learn more, see [Viewing your network inventory configuration items with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md).
+Your network sites are those physical locations where you keep your network equipment. Network site records enable you to view all your equipment at a specific location. You can filter the locations by their assigned type, role, and function categories. To learn more, see [Viewing your network inventory configuration items with CMDB or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/viewing-network-inventory-using-cmdb-workspace.md).
 
-When you create a network site record, it creates a corresponding configuration item \(CI\) record in the Network Site \[cmdb\_ci\_ni\_site\] table. To learn more, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you create a network site record, it creates a corresponding configuration item \(CI\) record in the Network Site \[cmdb\_ci\_ni\_site\] table. To learn more, see [or Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 The Telecommunications Network Inventory application stores the physical network connections, the logical network connections, and the resources that contain the overall network and the services provisioned on the network. The TNI data model adheres to a hierarchical structure. The foundation is the Network Site \(referred to here as a network site\).
 
@@ -141,7 +141,7 @@ Altitude of the network site that is measured in meters.
 
 12. Select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Add Packs** to capture the attributes for a configuration item \(CI\) record.
 
-    To learn more, see [Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
+    To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 
 13. To view the Dependency views map, select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Dependency View**.
 
@@ -167,5 +167,5 @@ Altitude of the network site that is measured in meters.
 **Related topics**  
 
 
-[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

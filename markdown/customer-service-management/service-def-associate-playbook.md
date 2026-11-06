@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/service-def-associate-playbook.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring service definitions, Service definitions, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Associate a playbook with a service definition
@@ -36,7 +36,7 @@ When the agent selects **Create Case** on the [case type selector screen](https:
 
 3.  Select a playbook record generator in the **Playbook record generator** field.
 
-    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see Playbook record generator
+    This field is a reference to the Playbook Experience Record Generator table \(sys\_playbook\_experience\_record\_generator\). For more information, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-record-generator-overview.md)
 
 4.  Select **Update**.
 

@@ -1,20 +1,20 @@
 ---
 title: Digital Product Release Policy Content Pack
-description: The Digital Product Release Policy Content Pack includes data collectors and policies for automating the verification of phase gate in Digital Product Release.
+description: The Digital Product Release Policy Content Pack includes data collectors and policies for automating the verification of phase gate in product and service releases in Digital Product Release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-policy-content-pack.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital Product Release, IT Service Management]
 ---
 
 # Digital Product Release Policy Content Pack
 
-The Digital Product Release Policy Content Pack includes data collectors and policies for automating the verification of phase gate in Digital Product Release.
+The Digital Product Release Policy Content Pack includes data collectors and policies for automating the verification of phase gate in product and service releases in Digital Product Release.
 
 -   Data collectors enable you to create low-code policies for the DevOps data model application.
 

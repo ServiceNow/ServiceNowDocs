@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Test a decision table in Workflow Studio
@@ -22,7 +22,7 @@ You can only test saved decision tables. You can either create a table with at l
 
 Role required: admin, decision\_table\_admin, decision\_table\_reader, Change manager, or delegated developer
 
-**Note:** Test decision table inputs within the specified character limits. For example, if the limit is 40 characters, ensure inputs do not exceed this length to avoid incorrect results.
+**Note:** Test decision table inputs within the specified max input limits. For example, if the limit is 40 characters, ensure maximum length of the inputs do not exceed this length to avoid incorrect results.
 
 ## Procedure
 

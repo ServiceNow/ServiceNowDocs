@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_UseSlushbuckets.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -48,8 +48,6 @@ Information fields for the highlighted available item appear beneath some list c
 
     The list of available items is filtered as you type.
 
-    \[Omitted image "SlushbucketRelatedList.png"\] Alt text: List collector with a search for "Bo" that is showing search results for items containing "bo"
-
 -   To move items one position, select the items and click the up or down icon.
 
 -   To move an item multiple positions, select consecutive items above or below the item then click the up or down icon. In this example, to move **Assigned to** to the top of the selections order, complete the following steps.
@@ -57,8 +55,6 @@ Information fields for the highlighted available item appear beneath some list c
     1.  Hold the Shift key and click **Short description** then **Number**.
 
     2.  Click the down icon.
-
-        \[Omitted image "PersonalizeListLayout.png"\] Alt text: Arrange items
 
 
 -   **[Set the number of list collector items visible in the available column](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_SetNumSlushbucketItemsVisible.md)**  

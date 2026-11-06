@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-manag
 release: yokohama
 topic_type: concept
 last_updated: "2023-08-03"
-reading_time_minutes: 2
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+reading_time_minutes: 1
+breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
 # Using Chat Zoom Connector
@@ -16,7 +16,7 @@ Initiate a Zoom meeting directly from a chat by using the Chat Zoom Connector ap
 
 As an agent you can initiate a Zoom meeting from a chat to understand and resolve customer issues faster through live interactions. For more information, see [Initiate Zoom meetings from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/initiate-chat-zoom.md).
 
-By default, for each interaction record for a Zoom meeting, a Notify conference call number is also generated. As an agent, you or the agent manager can access the recording URL of the Zoom meeting from the activity stream of the interaction record. For more information, see [Interaction records in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/interaction-message-agent-workspace.md).
+By default, for each interaction record for a Zoom meeting, a Notify conference call number is also generated. As an agent, you or the agent manager can access the recording URL of the Zoom meeting from the activity stream of the interaction record.
 
 As an agent manager, you can access the details of Zoom meetings initiated from a customer chat using the Zoom interaction record. The meeting recordings are available in the interaction record created for Zoom. For more information, see [View details for Zoom meetings initiated from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-details-chat-zoom.md).
 

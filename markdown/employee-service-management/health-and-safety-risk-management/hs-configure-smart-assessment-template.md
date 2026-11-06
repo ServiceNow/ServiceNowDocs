@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2026-01-12"
-reading_time_minutes: 1
-breadcrumb: [Configure settings, Health and Safety Risk Management, Health and Safety, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
 
 # Configure the smart assessment template for safety inspections and audits
@@ -39,11 +39,23 @@ You can also convert your existing Survey templates related to Health and Safety
 
     You can also configure a category role for a specific purpose. For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-asmnt-template-category-create.md).
 
-4.  In the **Assessment target** field on the **Smart assessment template** form,
+4.  In the **Assessment target** field, select the target table where this smart assessment is needed.
 
     -   For smart assessment for inspections, select the Inspection \[sn\_hs\_rm\_inspection\] table
     -   For smart assessment for audits, select the Audit survey \[sn\_hs\_rm\_audit\_survey\] table.
 5.  Select **Create**.
+
+6.  In the template designer, add instructions and questions.
+
+    For more information, see [Add instructions and questions to an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/sae-asmnt-template-populate.md).
+
+7.  In the template designer, add the assessment role to access the smart assessment.
+
+    1.  Select the **General** tab and then select **Settings**.
+
+    2.  In the **Assessment reader role** field, select \[sn\_smart\_asmt.assessment\_reader\] role or any role that contains this role.
+
+        **Important:** Only the role selected here can access the smart assessments that uses this template. This role can complete the smart assessment, assign it, and create actions or findings for the smart assessment questionnaire.
 
 
 ## What to do next

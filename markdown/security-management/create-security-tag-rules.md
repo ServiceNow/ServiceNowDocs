@@ -1,18 +1,18 @@
 ---
 title: Create security tag rules
-description: Security tag rules automatically apply tags to security incidents when specified conditions are met to provide security incident filtering for security analysts.
+description: Security tag rules provide filtering for security tag access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-security-tag-rules.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Set up security tag groups and tags, Security Operations common functionality, Security Operations]
 ---
 
 # Create security tag rules
 
-Security tag rules automatically apply tags to security incidents when specified conditions are met to provide security incident filtering for security analysts.
+Security tag rules provide filtering for security tag access.
 
 ## Before you begin
 
@@ -23,13 +23,19 @@ Security tag rules automatically apply tags to security incidents when specified
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Security Operations** &gt; **Security Tags** &gt; **Tags**.
+1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
 
-2.  Choose or [create a security tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-class-group-and-tags.md).
+2.  Select **Administration** in the navigation pane.
 
-3.  In the **Security Tag Rules** related tab, select **New**.
+3.  Select **Review** on the **Security tags** tile.
 
-4.  Fill in the fields on the form, as appropriate.
+4.  Security tags will be displayed in a list grouped by Security tag groups.
+
+5.  Choose or [create a security tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-class-group-and-tags.md).
+
+6.  In the **Security Tag Rules** related tab, select **New**.
+
+7.  Fill in the fields on the form, as appropriate.
 
     |Field|Description|
     |-----|-----------|
@@ -38,9 +44,9 @@ Security tag rules automatically apply tags to security incidents when specified
     |Active|Option to turn the security tag on or off.|
     |Description|A description of this rule.|
 
-5.  Determine **Record Filtering.**
+8.  Determine **Record Filtering.**
 
-6.  Fill in the fields on the form, as appropriate.
+9.  Fill in the fields on the form, as appropriate.
 
     |Field|Description|
     |-----|-----------|
@@ -48,7 +54,7 @@ Security tag rules automatically apply tags to security incidents when specified
     |Table|The table to contain the rule.|
     |Condition|Option to add one or more filter conditions.|
 
-7.  Select **Submit**
+10. Select **Submit**.
 
 
 **Parent Topic:**[Set up security tag groups and tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-class-group-and-tags.md)

@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -80,15 +80,7 @@ RISKIQ WHOISIQ API
 Manual lookup is run from the Observables table.Results are displayed on the **Observable Enrichment Results** tab on the Observable record.
 
 </td></tr></tbody>
-</table>## Example of a file hash and certificate serial number
-
-This figure shows an example of the file hash and certificate serial number observables used for the SSL certificate lookups for this integration. The file hash refers to a SHA-1fingerprint. This value is displayed in your ServiceNow AI Platform instance without the colon separators. For example, `646D4B7A0C59A66656E94DDADD6C798027EFC10F`.
-
-The certificate serial number observable refers to the unique ID or serial number for the entity. This value is also displayed without the colon separators. For example, `00EA0F74B56D44BBBE0000000050DE1DFD`.
-
-\[Omitted image "riskiq-sha-cert-callout.png"\] Alt text: SHA1 and certificate serial number examples
-
-**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
+</table>**Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 
 **Previous topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 

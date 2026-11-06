@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/create-choice-set.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic Schema, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a dynamic choice set
@@ -16,11 +16,15 @@ Define a fixed set of values for an attribute.
 
 ## Before you begin
 
-Role required: admin
+Role required: dynamic\_schema\_writer
 
 ## About this task
 
 For some dynamic attributes, you might want to limit the possible values that are accepted. You can define a choice set that holds a fixed set of choices, and then create a dynamic attribute whose values are limited to the choices defined in the choice set.
+
+Dynamic choice sets aren't associated with a specific namespace. After you define a dynamic choice set, you can use it in any dynamic namespace.
+
+For example, you can define a choice set for colors, with red, blue, and green as the choices. You can select this choice set in the bike\_color dynamic attribute in one namespace and use it again in the paint\_color dynamic attribute in a different namespace.
 
 ## Procedure
 

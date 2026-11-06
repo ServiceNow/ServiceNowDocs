@@ -7,7 +7,7 @@ release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
@@ -82,7 +82,7 @@ Virtual agent actions
 
 </td><td>
 
-The Virtual Agent actions \(both NLU and LLM type\) from the Signal action \[ \[sn\_pp\_signal\_action\] table that can be performed by the end user. For more information, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).**Note:** A maximum of three NLU based Virtual Agent actions and three LLM based Virtual Agent actions can only be selected for each channel configuration record.
+The Virtual Agent actions \(both NLU and LLM type\) from the Signal action \[sn\_pp\_signal\_action\] table that can be performed by the end user. For more information, see [Configure signal actions for Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/proactive-prompts/proactive-prompts-signal-actions.md).**Note:** A maximum of three NLU based Virtual Agent actions and three LLM based Virtual Agent actions can only be selected for each channel configuration record.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

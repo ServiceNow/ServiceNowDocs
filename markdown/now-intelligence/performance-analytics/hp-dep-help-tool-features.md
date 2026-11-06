@@ -1,5 +1,5 @@
 ---
-title: Homepage deprecation help tool features
+title: Homepage deprecation help tool
 description: Use the Homepage deprecation help tool to find all of your homepages in one place and convert them to dashboards, retire them, and restore retired homepages as dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/hp-dep-help-tool-features.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Homepage deprecation help tool, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Homepage deprecation, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Homepage deprecation help tool features
+# Homepage deprecation help tool
 
 Use the Homepage deprecation help tool to find all of your homepages in one place and convert them to dashboards, retire them, and restore retired homepages as dashboards.
 

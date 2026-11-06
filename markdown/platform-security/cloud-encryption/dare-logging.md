@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Encryption with Key Management, Encryption]
 ---

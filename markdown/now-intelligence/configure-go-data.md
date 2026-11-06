@@ -1,18 +1,19 @@
 ---
-title: Configure chart interactions
-description: Select what happens when a viewer interacts with a section of the chart for a data visualization that you are editing.
+title: Configure visualization interactions
+description: Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/configure-go-data.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-29"
 reading_time_minutes: 2
+keywords: [drilldown, drill down]
 breadcrumb: [Chart interactions in a data visualization, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Configure chart interactions
+# Configure visualization interactions
 
-Select what happens when a viewer interacts with a section of the chart for a data visualization that you are editing.
+Select what happens when a viewer interacts with a section of a data visualization that you're editing.
 
 ## Before you begin
 
@@ -28,15 +29,21 @@ You can configure chart interactions only in the Visualization Designer or the i
 
 2.  Select or create the visualization you want to configure.
 
-3.  Under Chart interaction, turn on **Allow chart interaction**.
+3.  Under Chart interaction, enable on **Allow chart interaction**.
 
 4.  Under Action, select from the available chart interactions.
 
     The possible interactions are:
 
     -   Go to data view
+
+        Applicable for visualizations based on table data. List views provide a subset of the table's columns that are applicable for different functions. Select a list view for the drilldown. If you don't choose a drilldown view, the last one used is applied.
+
     -   Go to URL
-    -   Drill down to chart \(available from within the Visualization Designer\): Lets you add multiple layers of charts to drill down to from each metric in the visualization.
+
+        Specify the URL and the name of the page that the URL opens.
+
+    -   Drill down to chart \(available from within the Visualization Designer\): Lets you add multiple layers of visualizations to drill down to from each metric in the visualization.
     -   Apply as filter \(available only when editing within a dashboard\)
     The interactions are described in [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md).
 
@@ -47,7 +54,7 @@ You can configure chart interactions only in the Visualization Designer or the i
 
 ## Drill down to chart
 
-Consider a horizontal bar data visualization of the number of incidents on the Incident table grouped by Priority. You decide that users should drill down from a value on this chart to a single-score chart showing the total number of incidents.
+Consider a horizontal bar data visualization of the number of incidents on the Incident table grouped by Priority. You decide that users should drill down from a value on this visualization to a single-score visualization showing the total number of incidents.
 
 \[Omitted image "dv-c2c-incident-by-priority.png"\] Alt text: Incident by Priority visualization in the Visualization Designer.
 
@@ -55,15 +62,15 @@ Consider a horizontal bar data visualization of the number of incidents on the I
 
     \[Omitted image "dv-c2c-select-c2c.png"\] Alt text: Chart interaction configuration options with Drill down to chart selected.
 
-2.  You select **+ Add drilldown** for the Incident metric. A configuration panel for a new chart called Drill down 1 opens.
-3.  You configure the chart to show a single score representing the number of incident records on the Incident table and save the chart.
+2.  You select **+ Add drilldown** for the Incident metric. A configuration panel for a new visualization called Drill down 1 opens.
+3.  You configure the visualization to show a single score representing the number of incident records on the Incident table and save the visualization.
 
-    \[Omitted image "dv-c2c-configure-drilldown.png"\] Alt text: The first level of chart you can drill down to on the Incident by Priority visualization.
+    \[Omitted image "dv-c2c-configure-drilldown.png"\] Alt text: The first level of visualization that you can drill down to on the Incident by Priority visualization.
 
-4.  You could add another chart to drill down to from the single score chart that you created, but you don't think this is necessary.
-5.  Now, when a viewer interacts with this visualization on a dashboard, they can drill down from the bar chart to the single score chart and navigate back up. Similarly, you or another editor of the visualization can move between the parent and child charts to edit the configuration of either one.
+4.  You could add another visualization to drill down to from the single score visualization that you created, but you don't think this is necessary.
+5.  Now, when a viewer interacts with this visualization on a dashboard, they can drill down from the bar visualization to the single score and navigate back up. Similarly, you or another editor of the visualization can move between the parent and child visualizations to edit the configuration of either one.
 
-    \[Omitted image "dv-c2c-incident-by-priority.gif"\] Alt text: Drilling down from parent chart to child and navigating back up to parent.
+    \[Omitted image "dv-c2c-incident-by-priority-gif.gif"\] Alt text: Drilling down from parent visualization to child and navigating back up to parent.
 
 
 **Parent Topic:**[Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md)

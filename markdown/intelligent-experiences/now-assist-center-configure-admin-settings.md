@@ -1,0 +1,241 @@
+---
+title: Configure AI settings in AI Admin Center \(Next Experience UI\)
+description: Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-center-configure-admin-settings.html
+release: yokohama
+topic_type: task
+last_updated: "2026-10-02"
+reading_time_minutes: 6
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [Using other AI applications from AI Admin Center, Setting up AI capabilities and configurations, AI Admin Center, Getting started with AI, Enable AI Experiences]
+---
+
+# Configure AI settings in AI Admin Center\(Next Experience UI\)
+
+Use AI Admin Hub configuration features on the AI Admin Hub page in the AI Admin Center workspace.
+
+## Before you begin
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
+
+Role required: sn\_na\_center.nac\_admin
+
+## About this task
+
+Follow these steps to configure AI settings.
+
+AI Admin Hub features from the Experiences and Settings sections are accessible on the AI Admin Hub page. The features are regrouped in AI Admin Center based on the type of action to perform.
+
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
+
+2.  Select **Admin** \(\[Omitted image "icon-now-assist-center-nav-admin.png"\] Alt text: Admin icon. \) in the side navigation bar.
+
+    The AI Admin Hub page opens.
+
+    \[Omitted image "ai-admin-center-admin-hub.png"\] Alt text: AI Admin Hub page in AI Admin Center.
+
+3.  Select one of the options to on the AI Admin Hub page.
+
+    The selection opens in a new tab in the AI Admin Center workspace.
+
+    The following table lists the options on the AI Admin Hub page.
+
+<table id="table_m2x_x3b_1jc"><thead><tr><th>
+
+Option
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Account
+
+</td><td>
+
+Opens the Account page from AI Admin Hub.
+
+ Review your ServiceNow AI license details to make sure that you're up to date on what's available to you.
+
+ For more information, see [Review your AI Admin Hub account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/review-now-assist-account-information.md).
+
+</td></tr><tr><td>
+
+Automation opportunities
+
+</td><td>
+
+Opens the Automation opportunities settings page.
+
+ Configure the data source, filters, schedule, and cost profile that AI Agent Advisor uses to identify automation opportunities and provide savings estimates for them.
+
+ For more information, see [Set up a data source for analysis \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-admin-center-set-up-data-source.md).
+
+</td></tr><tr><td>
+
+Multilingual Service
+
+</td><td>
+
+Opens the Multilingual Service page from AI Admin Hub.
+
+ Turn on multilingual service for user-entered text with native translation or Dynamic Translation in AI applications.
+
+ For more information, see [Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+
+</td></tr><tr><td>
+
+AI Plugins
+
+</td><td>
+
+Opens the Plugins page from AI Admin Hub.
+
+ Install AI plugins to enable generative AI on your instance.
+
+ For more information, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+</td></tr><tr><td>
+
+Prompt Injection
+
+</td><td>
+
+Opens the Prompt Injection page from AI Admin Hub.
+
+ Activate or deactivate prompt injection attack detection to protect all generative AI applications and AI-generated text and conversations on your instance from malicious inputs and unintended model behaviors.
+
+ For more information, see [Configure prompt injection attack protection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-prompt-injection-attack-protection.md).
+
+</td></tr><tr><td>
+
+Offensiveness
+
+</td><td>
+
+Opens the Offensiveness page from AI Admin Hub.
+
+ Activate offensiveness detection to log or block offensive content generated by AI skills and workflows.
+
+ For more information, see [Activate offensiveness protection for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-offensiveness-protection-for-generative-ai.md).
+
+</td></tr><tr><td>
+
+Sensitive Filters
+
+</td><td>
+
+Opens the Filters page from AI Admin Hub.
+
+ Set up filters in AI Guardian to redirect Virtual Agent users to a live agent or HR case when a sensitive subject is detected in a conversation.
+
+ For more information, see [Configure sensitive topic filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-sensitive-topic-filters.md).
+
+</td></tr><tr><td>
+
+Model Providers
+
+</td><td>
+
+Opens the Manage model providers page from AI Admin Hub.
+
+ Edit or customize the model provider for a skill or skill group at the instance level from the list of supported third-party model providers. You can also review the model policy set by your organization and view the change history.
+
+ For more information, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md).
+
+</td></tr><tr><td>
+
+Model Versions
+
+</td><td>
+
+Opens the Manage model versions page from AI Admin Hub.
+
+ Manage the version of the model providers across skills and instance levels. You can change and update versions for the base system and custom skills.
+
+ For more information, see [Manage version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-version.md).
+
+</td></tr><tr><td>
+
+Manage Integrations
+
+</td><td>
+
+Opens the Manage Integration tab on the Manage model providers page from AI Admin Hub.
+
+ Choose the preferred integration type for configuring the available model providers. There are two ways to configure a model provider in AI Admin Hub. You can select Original Equipment Manufacturer \(OEM\) or Bring Your Own Key \(BYOK\).
+
+ For more information, see [Manage Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-integration.md).
+
+</td></tr><tr><td>
+
+Data Privacy Policies
+
+</td><td>
+
+Opens the Privacy policies page from AI Admin Hub.
+
+ Configure privacy policies to anonymize data in AI applications.
+
+ For more information, see [Configure Now Assist privacy policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-privacy-policies.md).
+
+</td></tr><tr><td>
+
+Data Sharing
+
+</td><td>
+
+Opens the Data sharing page from AI Admin Hub.
+
+ Data sharing improves ServiceNow AI products. You can opt out of data sharing from this page.
+
+ For more information, see [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+</td></tr><tr><td>
+
+Data Processing
+
+</td><td>
+
+Opens the Data overflow processing page from AI Admin Hub.
+
+ Configure where AI data is processed during periods of high traffic.
+
+ For more information, see [Configure Now Assist data overflow processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-na-data-overflow.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto Panel
+
+</td><td>
+
+Opens the ServiceNow Otto Panel page from AI Admin Hub.
+
+ With the ServiceNow Otto panel, you can get assistance from generative AI experiences to solve customer issues faster. Use this conversational interface to summarize a chat, case, or incident, get help, or generate resolution notes so that you can get the context of this information more quickly.
+
+ For more information, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto Context Menu
+
+</td><td>
+
+Opens the ServiceNow Otto Context Menu page from AI Admin Hub.
+
+ The ServiceNow Otto context menu uses generative AI to help agents summarize, create, and edit written content, thus streamlining their writing tasks.
+
+ For more information, see [ServiceNow Otto context menu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-write-overview.md).
+
+</td></tr></tbody>
+</table>

@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -118,14 +118,48 @@ String
 
 </td><td>
 
-Sys\_id of the schema record.
-
- Required if you're using a schema to convert plain-text messages to Avro messages and back. Schemas are stored in the Stream Connect Schemas \[stream\_connect\_schema\] table. For more information, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/schema-management.md).
+Sys\_id of the schema record.Required if you're using a schema to convert plain-text messages to Avro messages and back. Schemas are stored in the Stream Connect Schemas \[stream\_connect\_schema\] table. For more information, see [Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/schema-management.md).
 
 </td></tr></tbody>
-</table>|Type|Description|
-|----|-----------|
-|None| |
+</table><table id="table_wn5_c3f_nvb" class="returns"><thead><tr><th>
+
+Object property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+delivery
+
+</td><td>
+
+Kafka producer delivery. Reflects the value set for the **isSync** parameter.Possible values:
+
+-   async - Asynchronous delivery
+-   sync - Synchronous delivery
+
+Data type: String
+
+</td></tr><tr><td>
+
+offset
+
+</td><td>
+
+The offset of the message in the partition of the topic in Hermes Kafka. This value is only returned for synchronous delivery.Data type: Number
+
+</td></tr><tr><td>
+
+partition
+
+</td><td>
+
+Partition of the topic in which the message is stored. This value is only returned for synchronous delivery.Data type: Number
+
+</td></tr></tbody>
+</table>### Asynchronous delivery
 
 This example shows how to send changed incident information to the Kafka topic with a sys\_id of 75135aa2ff0311105cf343d0653bf155, using a schema with a sys\_id of f9d083f3ff610210ef7343d3653bf12e.
 
@@ -145,5 +179,28 @@ var headers = {
 var producer = new sn_ih_kafka.ProducerV2();
 producer.send('75135aa2ff0311105cf343d0653bf155', gs.generateGUID(), JSON.stringify(message), false, headers, 'f9d083f3ff610210ef7343d3653bf12e');
 
+```
+
+### Synchronous delivery
+
+This example shows how get the return values of a Kafka message.
+
+```
+var message = "Defect fix";
+ 
+var producer = new sn_ih_kafka.ProducerV2();
+ 
+var response = producer.send('63820c0e1b492210dcff64e5604bcb93', gs.generateGUID(), JSON.stringify(message), true, null);
+gs.log("Partition was "+response.partition);
+gs.log("Offset was :"+response.offset);
+gs.log("Delivery was :"+response.delivery);
+```
+
+Output:
+
+```
+*** Script: Partition was 1
+*** Script: Offset was :258072
+*** Script: Delivery was :sync
 ```
 

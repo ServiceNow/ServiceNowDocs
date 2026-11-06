@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-agent-assist.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Agent assist
@@ -18,8 +18,5 @@ Agent assist provides agents with automatic search results that show possible so
 
 **Note:** You may need to log in to the Developer Site to see the content.
 
-For more information about using contextual search for Agent Assist, see the following topics:
-
--   [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ContextualSearch.md)
--   
+For more information about using contextual search for Agent Assist, see [Contextual search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ContextualSearch.md).
 

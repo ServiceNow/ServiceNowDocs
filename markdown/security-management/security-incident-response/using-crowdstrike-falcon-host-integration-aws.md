@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -43,37 +43,31 @@ The CrowdStrike Falcon Insight integration enables analysts to use the following
 
 2.  You can use the CrowdStrike Falcon Insight capabilities on the Business Impact related list for analysis.
 
-    1.  Select a **Configuration Item**, and choose a capability from the dropdown list.
+    1.  Select a **Configuration Item**, and choose a capability from the drop down list.
 
-        \[Omitted image "falcon-insight-workspace-ci.png"\] Alt text: CrowdStrike Falcon Insight for CI
+    2.  Select the **CrowdStrike Falcon Insight** implementation, and select **Submit**.
 
-    2.  Select the **CrowdStrike Falcon Insight** implementation, and click **Submit**.
-
-        The Get Network Statistics capability is invoked on the CI. You can view the worknotes for the results and findings.
+        The Get Network Statistics capability is invoked on the CI. You can view the work notes for the results and findings.
 
 3.  You can use the CrowdStrike Falcon Insight capabilities on the **Endpoint Detection and Reponse \(EDR\)** related list for analysis.
 
     1.  In the Endpoint Detection and Reponse \(EDR\) related list, choose an EDR from the list.
 
-    2.  Click on a particular Running Process to view the CrowdStrike Falcon Insight running process details.
+    2.  Select on a particular Running Process to view the CrowdStrike Falcon Insight running process details.
 
-    3.  To run a CrowdStrike Falcon Sighting Search on a particular running process, select the running process and click **Run CrowdStrike Sighting**.
+    3.  To run a CrowdStrike Falcon Sighting Search on a particular running process, select the running process and select **Run CrowdStrike Sighting Search**.
 
-        \[Omitted image "falcon-insight-workspace-edr.png"\] Alt text: CrowdStrike Falcon Insight for Endpoint Detection and Response
-
-    4.  Select the **CrowdStrike Falcon Insight** implementation, and click **Run Search**.
+    4.  Select the **CrowdStrike Falcon Insight** implementation, and select **Run Search**.
 
         Then a hash sighting search is run on the selected running process. You can view the worknotes for the results and findings.
 
 4.  You can use the CrowdStrike Falcon Insight capabilities on the **Threat Intel** for analysis.
 
-    1.  In the Threat Intel group, select an **Observable**, and choose a CrowdStrike Falcon Insight capability from the dropdown list.
+    1.  In the Threat Intel group, select an **Observable**, and choose a CrowdStrike Falcon Insight capability from the drop down list.
 
-    2.  Select the **CrowdStrike Falcon Insight** implementation, and click **Next**.
+    2.  Select the **CrowdStrike Falcon Insight** implementation, and select **Next**.
 
-        \[Omitted image "falcon-insight-workspace-ti.png"\] Alt text: CrowdStrike Falcon Insight for Threat Intel
-
-    3.  In the Select Date/Time pop-up, select a random value and click **Submit**.
+    3.  In the Select Date/Time pop-up, select a random value and select **Submit**.
 
         Then a sighting search is run on the selected observable. You can view the worknotes for the results and findings.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_UI16.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -35,8 +35,8 @@ Banner frame
 </td><td>
 
 Runs across the top of every page and contains a logo and the following information, controls, and tools.-   User menu provides options to access your profile and preferences. Administrators can impersonate users and elevate their security role.
--   [Connect sidebar icon](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_CollaborationOverlay.md) \(\[Omitted image "IconUI16ToggleConnectSidebar.png"\] Alt text: Connect sidebar icon\): Lets you begin or continue conversations. This icon is available if Connect is enabled.
--   [Global text search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_GlobalTextSearch.md) icon \(\[Omitted image "IconUI16Search.png"\] Alt text: Global text search icon\): Finds records from multiple tables.
+-   Connect sidebar icon \(\[Omitted image "IconUI16ToggleConnectSidebar.png"\] Alt text: Connect sidebar icon\): Lets you begin or continue conversations. This icon is available if Connect is enabled.
+-   Global text search icon \(\[Omitted image "IconUI16Search.png"\] Alt text: Global text search icon\): Finds records from multiple tables.
 -   Help icon \(\[Omitted image "IconUI16Help.png"\] Alt text: Help icon\): Opens the help panel with embedded help, where available. If there is no embedded help, it offers help search options.
 -   Gear icon \(\[Omitted image "IconUI16Gear.png"\] Alt text: Gear icon\): Opens the [System settings for the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_UI16BannerFrame.md).
 
@@ -65,9 +65,7 @@ The Edge
 The Edge is removed in Core UI. The collapsed view of the Core UI application navigator is similar to the Edge.
 
 </td></tr></tbody>
-</table>-   **[Activate Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_ActivateUI16.md)**  
-Core UI can be activated with the Core UI plugin \(com.glide.ui.ui16\) if you have the admin role.
--   **[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_UI16ApplicationNavigator.md)**  
+</table>-   **[Core UI application navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_UI16ApplicationNavigator.md)**  
 The Core UI application navigator appears at the left of the interface and provides access to all available applications and modules, favorites, and recently viewed items.
 -   **[System settings for the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_UI16BannerFrame.md)**  
 You can define system settings to customize the Core UI for yourself. The gear icon, located within the banner frame, displays the system settings window.

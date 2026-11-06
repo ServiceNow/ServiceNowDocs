@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configuring Document Templates, Document Templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [Document Templates of type PDF \(Advanced forms\), Configuring Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a PDF document template
@@ -22,7 +22,12 @@ Role required: sn\_hr\_core.admin and Delegated developer
 
 **Note:**
 
-For legally binding e-signatures and digital signatures use the following signing types: [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/digital-signature.md).
+-   For legally binding e-signatures and digital signatures use the following signing types: [DocuSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/docusign-doc.md), [AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/adobe-sign-doc.md), [Digital Signature - Smart Cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/digital-signature.md).
+-   Update sets do not support large attachments. If your template includes large documents, manually export the PDF template record XML from the source instance and import it into the target instance.
+
+## About this task
+
+\[Omitted video\] Description: How to configure a PDF document template
 
 ## Procedure
 
@@ -99,7 +104,7 @@ User criteria
 
 </td><td>
 
-Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+Audience criteria for this document. For example, you can create a letter intended for only Canadian employees.**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr><tr><td>
 

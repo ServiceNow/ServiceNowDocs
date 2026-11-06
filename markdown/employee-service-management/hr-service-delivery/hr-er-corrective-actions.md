@@ -1,5 +1,5 @@
 ---
-title: Create a corrective action in HR Service Delivery Employee Relations in the legacy UI or Agent Workspace
+title: Create a corrective action
 description: Create a corrective action record for an ER case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-corrective-actions.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Create a corrective action in HR Service Delivery Employee Relations in the legacy UI or Agent Workspace
+# Create a corrective action
 
 Create a corrective action record for an ER case.
 
@@ -34,7 +34,7 @@ Steps
 
 </th></tr></thead><tbody><tr><td>
 
-From the legacy UI
+From Core UI
 
 </td><td>
 
@@ -52,12 +52,10 @@ From the Agent Workspace for HR Case Management UI
 
 1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 2.  Click the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: HR Workspace Lists icon\).
-3.  Select **Other**.
-4.  Select **Employee Relations Cases**.
-5.  Select an ER case.
-6.  Select **More tabs**.
-7.  Select the **Corrective Actions** tab.
-8.  Click **New**.
+3.  In the ER category, select an ER case.
+4.  Select **More tabs**.
+5.  Select the **Corrective Actions** tab.
+6.  Click **New**.
 
 
 </td></tr></tbody>

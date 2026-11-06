@@ -1,5 +1,5 @@
 ---
-title: Set up baseline controls to generate controls and implement requirements
+title: Set up baseline controls
 description: Use the baseline controls to inherit a control, mark a control as common, or create a hybrid control. Create a hybrid control to inherit requirements partially from common controls and the remaining requirements are created for the control that was generated from the baseline control.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-hybrid-controls.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [RMF step 2 - Select controls for an authorization package, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 2 - Select controls for an authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
-# Set up baseline controls to generate controls and implement requirements
+# Set up baseline controls
 
 Use the baseline controls to inherit a control, mark a control as common, or create a hybrid control. Create a hybrid control to inherit requirements partially from common controls and the remaining requirements are created for the control that was generated from the baseline control.
 
@@ -52,7 +52,7 @@ In CAM there are two ways to inherit controls from the control objectives source
 
 3.  To assign baseline controls from a common control provider as common controls, select the control objectives in the Baseline Controls tab that you want to assign as common controls.
 
-    1.  Select **Mark as Common** and then select **OK** in the Confirmation popup.
+    1.  Select **Mark as Common** and then select **OK** in the Confirmation popup.\[Omitted image "Baseline-control-mark-common.png"\] Alt text: Common baseline controls.
 
     2.  Select **Request approval** to request approval.
 
@@ -84,9 +84,9 @@ In CAM there are two ways to inherit controls from the control objectives source
 
         **Note:** Only common control providers with control requirements can be used to create hybrid controls.
 
-5.  To inherit controls from a common provider, select a control objective from the Baseline Controls related list.
+5.  To inherit controls from a single provider, select a control objective from the Baseline Controls related list.
 
-    1.  Select **Inherit from Provider** and then select the Common control list in the Inherit from Common Control popup.
+    1.  Select **Inherit from Single Provider** and then select the Common control list in the Inherit from Common Control popup.
 
     2.  Select the controls that you want to inherit from and then select **Confirm**.
 
@@ -94,7 +94,17 @@ In CAM there are two ways to inherit controls from the control objectives source
 
         **Note:** To inherit from a provider, which is a direct inheritance, there might not be any requirement for the control.
 
-6.  To mark a particular baseline control as not applicable so that it is out of the work flow and not allow controls to be generated, select a baseline control
+6.  To inherit controls from multiple providers, select a control objective from the Baseline Controls related list.
+
+    1.  Select **Inherit from Multiple Providers**.
+
+    2.  Select the requirements and then select **Add**.
+
+    Unlike inherited controls from a single provider, fully inherited controls generate a control instance and test templates, so Security Control Assessors \(SCAs\) can test the controls within their engagements. All requirements are inherited from provider packages.
+
+    Fully inherited controls differ from hybrid controls in one key way: in a hybrid control, at least one requirement is self-implemented by the current package. In a fully inherited control, all requirements must be inherited.
+
+7.  To mark a particular baseline control as not applicable so that it is out of the work flow and not allow controls to be generated, select a baseline control
 
     1.  Select **Not Applicable**.
 
@@ -104,7 +114,7 @@ In CAM there are two ways to inherit controls from the control objectives source
 
     In the **Select** state, you did the setup for the type of controls to be generated. After the setup is complete, you can approve the authorization package.
 
-7.  Select **Request approval**.
+8.  Select **Request approval**.
 
     The authorization package then moves to the **Implement** state. In this state, based on the setup, controls are created.
 

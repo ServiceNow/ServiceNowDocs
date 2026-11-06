@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Installing Edge Encryption, Edge Encryption, Encryption]
 ---

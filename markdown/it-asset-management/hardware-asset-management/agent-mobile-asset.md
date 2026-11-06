@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Mobile app for Hardware Asset Management, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Mobile app for Hardware Asset Management, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # ServiceNow Agent app
@@ -90,8 +90,6 @@ Role required: procurement\_admin or procurement\_user
 3.  Tap **Related list**.
 
 4.  Tap the **PO Line Items** asset that you ordered and swipe **Receive** to receive the asset.
-
-    \[Omitted image "receive-asset.png"\] Alt text: Swipe Receive on the Purchase Order Line Items page
 
 5.  If you only need to receive a single purchase, on the Receive form, scan the QR code for either the asset tag or serial number.
 

@@ -1,5 +1,5 @@
 ---
-title: Configure auto-launch for guided tours
+title: Configure auto-launch for Guided Tours
 description: Configure one or more tours to launch automatically when a user lands on a page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/auto-launch-guided-tours.html
@@ -7,52 +7,52 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configuring Guided Tours, Guided Tours, Adoption services, Configure user experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
 
-# Configure auto-launch for guided tours
+# Configure auto-launch for Guided Tours
 
 Configure one or more tours to launch automatically when a user lands on a page.
 
 ## Before you begin
 
-Role required: guided\_tour\_admin and embedded\_help\_admin, or admin
+Role required: guided\_tour\_admin and embedded\_help\_admin
 
-**Note:** Guided tours are only available for logged in users.
+**Note:** Guided tours are only available for logged-in users.
 
 ## About this task
 
-You can choose to configure auto-launch for any guided tour starting page. Choose this option if you want to ensure that users take the tour on their first page visit.
+You can set auto-launch for any guided tour starting page. Select this option if you want users to take the tour on their first visit.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Guided Tour Designer** &gt; **Configure Auto Launch**.
 
-    The Configure Auto Launch page appears, showing tiles for each page on which one or more tours are configured. You can filter the tiles by part or all of the page name, and sort the tiles by name, or by the most recently edited tours.
+    The Configure Auto Launch page shows tiles for each page that has one or more configured tours. You can filter the tiles by part of or the entire page name, and sort them by name or by the most recently edited tours.
 
-2.  Select a tile that represents the page where you want a tour to launch automatically.
+2.  Select a tile that represents the page where you want the tour to launch automatically.
 
     \[Omitted image "configure-autolaunch-L.png"\] Alt text: Configure the auto-launch page with filtered and sorted results
 
-    The tour for the page appears as a row on the Configure Auto Launch screen.
+    A list of tours available for the page is shown on the Configure Auto Launch screen.
 
     \[Omitted image "configure-autolaunch-graydraft-L.png"\] Alt text: Show users a tour in draft status with auto-launch disabled
 
     You can enable or disable auto-launch on the tour whether it is in draft or published status. When you enable auto-launch:
 
     -   Tours in published status launch automatically when users access the starting page associated with the tour.
-    -   Tours in draft status do not launch automatically. When a tour in draft state is configured for auto-launch and is published later on, it starts auto-launching.
-3.  Click the **Auto Launch** toggle so it switches to the right.
+    -   Tours in draft status don’t launch automatically. When a tour in draft state is configured for auto-launch and is published later on, it starts to launch automatically.
+3.  Select the **Auto Launch** toggle.
 
     \[Omitted image "configure-autolaunch-greendraft-L.png"\] Alt text: Show users a tour in draft status with auto-launch enabled
 
-    The toggle color changes to green, indicating auto-launch is enabled on the tour. If you want to disable auto-launch, switch the toggle to the left.
+    The toggle color changes to green, indicating auto-launch is enabled on the tour.
 
 4.  Configure auto-launch for more than one tour on a page.
 
-    If you have more than one tour enabled on a page, they appear as additional rows. For further context on multiple pages, see [Designing guided tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-advice.md).
+    If you have more than one tour enabled on a page, they appear as additional rows.
 
     \[Omitted image "configure-autolaunch-draftnpub-L.png"\] Alt text: Show users tours with auto-launch enabled, disabled, published, and in draft
 
@@ -64,26 +64,28 @@ You can choose to configure auto-launch for any guided tour starting page. Choos
 
         For example, the first tour may provide an overview of a page while the second tour guides the user through a specific task.
 
-    When users access a page that has a guided tour enabled for auto-launch, the tour begins immediately. If they stop the tour by clicking the **X** icon on a tour step, a message appears that provides them the option to stop both the current tour and other tours from auto-launching the next time they access the page.
+    When users access a page that has a guided tour enabled for auto-launch, the tour begins immediately. If they stop the tour by selecting the **X** icon on a tour step, a message appears that provides them with the option to stop both the current tour and other tours from auto-launching the next time they access the page.
 
     \[Omitted image "configure-autolaunch-stoptour-L.png"\] Alt text: Show how end users can stop a tour from launching on a page
 
     \[Omitted image "configure-autolaunch-stopalltours-L.png"\] Alt text: Show how end users can stop all tours from launching on a page
 
-5.  **Note:** After you’ve gone through a tour on a page, the tour doesn't get triggered automatically if you revisit the same page. To reset an auto-launch tour for the page, do the following.
+5.  Reset an auto-launch tour for the page.
 
-    Navigate to **All** &gt; **Guided Tours**.
+    After you’ve gone through a tour on a page, the tour doesn't get triggered automatically if you revisit the same page. Reset an auto-launch tour for the page by performing the following steps:
 
-    1.  Open the tour that you want to reset.
+    1.  Navigate to **All** &gt; **Guided Tours**.
 
-    2.  Under **Related Links**, click **Override tour Auto Launch Preferences**.
+    2.  Open the tour that you want to reset.
+
+    3.  Under **Related Links**, select **Override tour Auto Launch Preferences**.
 
         A list of records shows each user who has used the tour already.
 
-    3.  Deselect the **Disable Autolaunch** check box to reset the tour.
+    4.  Deselect the **Disable Autolaunch** check box to reset the tour.
 
-    4.  Click **Submit**.
+    5.  Select **Submit**.
 
 
-**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/configuring-guided-tours.md)
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/configure-guided-tours.md)
 

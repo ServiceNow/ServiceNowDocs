@@ -1,5 +1,5 @@
 ---
-title: Supporting information for ServiceNow Otto for HR Service Delivery \(HRSD\)
+title: Supporting information for ServiceNow Otto for HRSD
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/support-info-hr-assist.html
@@ -7,18 +7,26 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Supporting information for ServiceNow Otto for HR Service Delivery \(HRSD\)
+# Supporting information for ServiceNow Otto for HRSD
 
 Get a quick overview of the important information that is related to the ServiceNow Otto for HR Service Delivery \(HRSD\) application.
 
 ## Supported versions
 
 ServiceNow Otto for HRSD is supported starting with Vancouver Patch 2.
+
+## Supported language models
+
+Use the Now LLM Service or any of the following supported third-party small or large language model with any generative AI skill or AI agent:
+
+-   Azure OpenAI
+-   AWS Anthropic
+-   Google Gemini
 
 ## Supported user interfaces
 
@@ -63,6 +71,6 @@ Activate the ServiceNow Otto for HRSD store app \(sn\_hr\_gen\_ai\) to use the c
 The ServiceNow Otto for HRSD application has the following dependencies:
 
 -   Human Resources Scoped App: Core \(com.sn\_hr\_core\)
--   Now Assist Platform \(com.sn.now.platform\)
+-   ServiceNow Otto for Platform \(com.sn.now.platform\)
 -   NA-TD and NA-TA are dependent apps for NA-HR and should be installed for every NA-HR installation \(talent-core: sn\_egd\_core and interview-scheduling sn\_int\_schedule\)
 

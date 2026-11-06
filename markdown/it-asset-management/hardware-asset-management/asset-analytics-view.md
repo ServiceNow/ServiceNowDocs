@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Hardware Asset Workspace, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset analytics view
@@ -110,8 +110,6 @@ Monthly initial and operational costs of your assets over the last 12 months.
 
 ## Asset performance
 
-**Important:** The Asset performance tab is available with Hardware Asset Management version 13.0.0 and later.
-
 The Asset performance tab provides details on the average values of the following key performance indicators \(KPIs\):
 
 -   Availability
@@ -139,4 +137,6 @@ When you select any KPI report, the **KPI Details** page appears. This page enab
 |MTBF|Average MTBF of all hardware assets that are tracked, calculated by dividing the total Asset MTBF by the number of assets listed in the Asset availability report.|
 |MTTR|Average MTTR of all hardware assets that are tracked, calculated by dividing the total Asset MTTR by the number of assets listed in the Asset availability report.|
 |Asset availability|Report that lists the availability and other related KPIs of all hardware assets that are tracked.|
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

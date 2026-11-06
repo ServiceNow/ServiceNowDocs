@@ -1,51 +1,28 @@
 ---
-title: Agentic conversations in Virtual Agent
-description: When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you.
+title: Configuring agentic conversations in Virtual Agent
+description: When you query a Virtual Agent, it reasons, plans, and executes across a wide variety of options. The Virtual Agent can use AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/agentic-conversations-vad.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-06-20"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [AI agent]
-breadcrumb: [Exploring Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, Virtual Agent, Conversational Interfaces]
 ---
 
-# Agentic conversations in Virtual Agent
+# Configuring agentic conversations in Virtual Agent
 
-When you ask a question to the virtual agent, the agent understands the query. It can reason, plan, and execute across AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any Now Assist in Virtual Agent supported skills to help you.
+When you query a Virtual Agent, it reasons, plans, and executes across a wide variety of options. The Virtual Agent can use AI agents, virtual agent topics, conversational actions and subflows, catalogs, KB articles, custom skills, and any ServiceNow Otto for Virtual Agent supported skills to help you.
 
--   If for the given assistant, specific agents are available to perform user tasks or sub tasks, they’re used.
--   If a specific agent isn’t available for the task or sub task, the system automatically employs the Search Agent to discover answers or appropriate skills within the system \(again based on the assistant scope\).
+-   If specific agents are available for the assistant to perform user tasks or subtasks, they are used.
+-   If no specific agent is available for the task or subtask, the system automatically employs the Search Agent to discover answers or appropriate skills within the system. This is based on the assistant's scope.
 -   If skill execution is required, the system automatically executes the discovered skills.
--   The system can plan and orchestrate execution among multiple agents, skills, and QnA to accomplish complex tasks.
+-   The system plans and orchestrates execution among multiple agents, skills, and QnA to accomplish complex tasks.
 
-## Enable AI agents in Virtual Agent
-
-Role required: admin or virtual\_agent\_admin
-
-To enable AI agents in Virtual Agent:
-
-1.  Create and configure multiple assistants with specific scope and map the assistants to one or more portals.
-
-    The configuration consists of the following:
-
-    -   Creating an assistant in Virtual Agent or using the default. To create an assistant, see [Create a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/create-assistant.md)
-    -   Assigning specific assistants to a specific portal or portals. For more information, see [Display your chat assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/now-assist-in-virtual-agent/display-assistant-portal-channel.md).
-    \[Omitted image "assistants.png"\] Alt text: Assistants in CI.
-
-2.  Ensure that the **AI agents** skill is added to the assistant.
-
-    \[Omitted image "assistant-skill.png"\] Alt text: AI agents skill.
-
-3.  Map or publish an agent to one or more assistants on AI Agent Studio to make the agent available within a specific assistant. For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md).
-
-    \[Omitted image "va-card-ai-agent.png"\] Alt text: Adding VA assistants to AI agent.
-
-
-During execution, only the configured AI agents are considered for the current assistant and dynamically makes them available to the Orchestrator for planning.
+**Note:** When a Virtual Agent conversation is triggered, any updates or comments in the record's work notes display as the AI agent rather than the user who initiated the conversation.
 
 ## Examples of AI agent behavior for user utterances
 
@@ -143,4 +120,34 @@ Utterance: `What is the maximum contribution amount for espp? Send an email to R
 ## Halting and restarting agentic conversations
 
 If you want to stop an agentic conversation mid-query, hover over the send icon \[Omitted image "vad-send-icon.png"\] Alt text: Send icon. while the agent is researching a query. The icon becomes an interrupt flow icon \[Omitted image "vad-interrupt-flow-icon.png"\] Alt text: Interrupt flow icon.. Select the icon and the conversation stops. A message appears: `The current conversation has been stopped, but you can begin again`. Enter a new query to restart the agentic conversation.
+
+## Error handling and fallback options
+
+When the AI agent can't understand a request, encounters a system error, or a session becomes inactive, it displays a message and presents options to help you continue.
+
+-   When ServiceNow Otto can't find an answer, it will provide options based on how the assistant was configured. Options may include:
+
+    -   Requesting a live agent
+    -   Creating a support request
+    -   Viewing office hours
+    For example, if you ask about a topic the AI agent can't find information on, you might see a message such as: “I can’t find anything on that directly but I can help you explore other options.” Select one of the displayed options to continue.
+
+-   Session timeout due to inactivity:
+
+    If you stop responding during a conversation, the AI agent waits for a set period before ending the session. When a session is about to time out, you will receive a warning message. For example: “Looks like you’ve left this conversation. Would you like to keep going?”. If you want to continue, respond to resume the conversation.
+
+    If there is no response to the warning, the session ends with a session end message. For example, “Our chat has timed out due to inactivity. Just start a new conversation whenever you’re ready. I’ll be here to help!”. You can start a new chat to continue getting help.
+
+-   Technical errors and system timeout:
+
+    If the AI agent encounters a backend error or can't complete a request due to a technical issue, it displays a message and presents fallback options. For example: “It looks like I’m having trouble completing your request right now because of a technical failure. But I can help you explore other options.” You can select one of the available fallback options to continue.
+
+-   Errors during agentic tasks:
+
+    When you ask the AI agent to complete a multi-step task on your behalf, it plans and carries out the steps automatically. If a step in the plan can't be completed, it lets you know and offers fallback options so you can decide how to proceed.
+
+    For example, if the AI agent is creating an expense report and encounters a problem, it displays a message such as: “Unfortunately that didn’t work. But I can help you explore other options.” The fallback options available depend on your configuration.
+
+
+**Note:** Review AI generated responses for accuracy before taking action.
 

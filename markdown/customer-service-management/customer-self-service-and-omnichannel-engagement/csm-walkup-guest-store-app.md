@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Walk-up Experience for Customer Service Management, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Walk-up Experience for Customer Service Management, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Walk-up Experience for guest users
@@ -18,13 +18,13 @@ The Walk-up Experience application can enable guest users to manage walk-up appo
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Requirements to use Walk-up Experience for guest users
 
 Note the following requirements for guest users to be able to use Walk-up Experience:
 
--   The Guest Walk-up Experience for Customer Service store app must be installed. For more information on installing the store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+-   The Guest Walk-up Experience for Customer Service store app must be installed. For more information on installing the store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 -   The com.snc.walkup\_for\_csm plugin must be activated. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateAPlugin.md).
 -   The Walk-up Check-in widget must be configured. For more information, see [Add a Walk-up Experience online check-in link on the Service Portal home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-add-checkin-icon.md).
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub ETL
 classification: integration-hub-etl
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
 breadcrumb: [IntegrationHub ETL, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -519,15 +519,15 @@ ITOM Visibility, if available, uses enhanced discovery patterns to identify and 
 
 3.  To add relationships, select **Add Relationship** or **Add Conditional Relationship** if you want to specify attribute conditions that must be met before adding a relationship. Then, complete the following actions as needed.
 
-<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d484443e1742">
+<table id="choicetable_rvq_52s_2nb"><thead><tr><th align="left" id="d491265e1742">
 
 Option
 
-</th><th align="left" id="d484443e1745">
+</th><th align="left" id="d491265e1745">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d484443e1751">
+</th></tr></thead><tbody><tr><td id="d491265e1751">
 
 **Add Relationship**
 
@@ -537,7 +537,7 @@ Description
 2.  Click **Add**.
 
 
-</td></tr><tr><td id="d484443e1781">
+</td></tr><tr><td id="d491265e1781">
 
 **Add Conditional Relationship**
 
@@ -586,7 +586,7 @@ After you view the details in the summary page, you can return to any step to ma
 
 3.  On the Test and Rollback Integration Results page, click **Run Integration**.
 
-4.  View the summary page and click the various tabs to see the integration run results for the affected CMDB classes. You can click \[Omitted image "preview-button.png"\] Alt text: preview icon to open CI forms and view information.
+4.  View the summary page and click the various tabs to see the integration run results for the affected CMDB classes. You can select the preview icon to open CI forms and view information.
 
     **Note:** The order of the attribute columns follows the default columns list for the class in the platform. First, the default columns for the class appear from left to right, followed by the rest of the attribute columns organized in alphabetical order. For example, to see the default columns list for the Computers class, navigate to **All** &gt; **Configuration** &gt; **Computers**.
 

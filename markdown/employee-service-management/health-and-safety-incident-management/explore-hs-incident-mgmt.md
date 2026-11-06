@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
@@ -37,6 +37,8 @@ Health and Safety Incident Management enables the safety department to receive i
     -   Schedule and track health and safety related meetings and attendees
     -   Log meeting minutes and actions.
     -   Flag meetings and minutes as sensitive
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Personas
 

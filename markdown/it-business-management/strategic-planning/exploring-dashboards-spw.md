@@ -7,7 +7,7 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -37,13 +37,13 @@ You can use the default dashboards or create your own dashboards to monitor perf
 
 For guidance on using and managing dashboards in the Strategic Planning Workspace, see [Using Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/using-dashboards-spw.md).
 
--   **[Feedback Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/feedback-dashboard-spw.md)**  
+-   **[Feedback Dashboard in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/feedback-dashboard-spw.md)**  
 The Feedback Dashboard helps product managers track feedback volume and stakeholder trends to surface recurring pain points, inform prioritization decisions, and demonstrate responsiveness.
--   **[Product Idea Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/product-idea-dashboard-spw.md)**  
+-   **[Product Idea Dashboard in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/product-idea-dashboard-spw.md)**  
 The Product Idea Dashboard helps product managers understand the health, flow, and maturity of submitted ideas, helping innovations progress and helping prevent backlog bottlenecks.
 -   **[Execution Dashboard in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/execution-dashboard-spw.md)**  
 The Execution Dashboard helps portfolio and product managers gain real-time visibility into delivery progress across work items, enabling portfolio leads to detect delays, course-correct early, and keep the strategy on track.
--   **[Strategy Execution Dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/strategic-execution-dashboard-spw.md)**  
+-   **[Strategy Execution Dashboard in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/strategic-execution-dashboard-spw.md)**  
 The Strategy Execution Dashboard helps portfolio managers monitor the alignment between strategy and business outcomes, and quickly assess goal progress to ensure high-impact delivery.
 
 **Parent Topic:**[Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/dashboards-in-spw.md)

@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,6 +19,8 @@ The events registry lists the events the system recognizes. Use registered event
 After you create a new event and a business rule that uses the event, you must register it.
 
 Registration lets other parts of the system, such as [Email and SMS notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_EmailNotifications.md) and Script Actions, see the event in their list of available events and react to the event when it occurs.
+
+**Parent Topic:**[Exploring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-events/exploring-system-events.md)
 
 **Related topics**  
 

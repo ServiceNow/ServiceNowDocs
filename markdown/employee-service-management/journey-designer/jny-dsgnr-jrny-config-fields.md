@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Journey designer reference, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey designer Journey Configuration fields reference
@@ -103,7 +103,7 @@ Option to enable a change in manager. Selecting this option will update the jour
 
 </td><td>
 
-The image that appears at the top of the Journey when viewed in the mobile app. See, [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/journeys-mobile-now.md).
+The image that appears at the top of the Journey when viewed in the mobile app. See, [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/journeys-mobile-now.md).
 
 </td></tr><tr><td>
 
@@ -152,22 +152,6 @@ Enables journey owners to add mentors to a journey. Mentors can have tasks assig
 </td><td>
 
 Enables journey owners to edit and add Journey Accelerator tasks and stages in a journey.**Note:** Journey owners and mentors can't modify stages, cases, or tasks coming from the **Lifecycle Event**.
-
-</td></tr><tr><td>
-
-**Can view satisfaction score**
-
-</td><td>
-
-Enables journey owners to see the pulse survey results tied to this journey.**Note:** This feature requires integration with Listening Posts. See, [Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/integrating-li-with-jny.md).
-
-</td></tr><tr><td>
-
-**Can add recommended learning**
-
-</td><td>
-
-Enables journey owners to add courses that are related to training or learning. This permission depends on your organization’s implantation of Journey designer app and features.**Note:** This feature requires integration with Learning Posts. See, [Integrating Learning Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-intgrt-lrnng-pst.md).
 
 </td></tr><tr><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Exploring ServiceNow for Microsoft Teams and Microsoft 365
+title: Exploring ServiceNow for Microsoft 365
 description: The ServiceNow for Microsoft Teams or Microsoft 365 applications extend the integration of the application to different business units. You can enable employees to more effectively request and receive service from within Microsoft Teams by using this integration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/explore-sn-teams.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
-# Exploring ServiceNow for Microsoft Teams and Microsoft 365
+# Exploring ServiceNow for Microsoft 365
 
 The ServiceNow® for Microsoft Teams or Microsoft 365 applications extend the integration of the application to different business units. You can enable employees to more effectively request and receive service from within Microsoft Teams by using this integration.
 
@@ -27,9 +27,9 @@ ServiceNow for Microsoft 365 is available with IT Service Management and HR Serv
 
 For upgrading existing Microsoft Teams capabilities to Microsoft 365 applications, see [Integrating ServiceNow with Microsoft 365 applications for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/setup-sn-ms-teams-ms365.md).
 
-## ServiceNow for Microsoft Teams integrations
+## ServiceNow for Microsoft 365 integrations
 
-ServiceNow for Microsoft Teams integration features are as follows:
+ServiceNow for Microsoft 365 integration features are as follows:
 
 -   Allows agents and employees to collaborate to resolve a ticket.
 -   Enables agents to initiate a Microsoft Teams chat with an employee from a task record.

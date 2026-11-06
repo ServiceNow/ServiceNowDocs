@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/scenario-synch-omt-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management integration with Field Service Management, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Integrating Order Management with FSM, Integrate, Sales Customer Relationship Management]
 ---
 
 # Synchronization of information between Order Management and Field Service Management - Workflow scenario

@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-07-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring the Service Graph Connector for Microsoft Excel, Service Graph Connector for Microsoft Excel, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -81,9 +81,9 @@ Roles required:
 
 18. Map the column to the target class and attribute.
 
-    For example, the **Comments** field is present on the Hardware \[cmdb\_ci\_hardware\] class. After the field is mapped, the **Comments** field on Hardware child classes is updated if the value for the Comments column in the staging table for that row isn’t empty.
+    For example, the **Comments** field is present on the Hardware \[cmdb\_ci\_hardware\] class. After the field is mapped, the **Comments** field on Hardware child classes is updated. The update occurs if the value for the Comments column in the staging table for that row isn’t empty.
 
-    If you're adding a mapping for a new field that isn't present, or for a field that isn't specific to the Hardware cmdb\_ci\_hardware class and instead is a field in the Operational Technology \(cmdb\_ci\_ot\) class, you can add the field mapping in the Operational Technology \(OT\) 1 stub.
+    If you're adding a mapping for a new field that isn't present, or for a field that isn't specific to the Hardware cmdb\_ci\_hardware class. Instead it is a field in the Operational Technology \(cmdb\_ci\_ot\) class, you can add the field mapping in the Operational Technology \(OT\) 1 stub.
 
     1.  Add a field mapping to the Hardware 1 class.
 

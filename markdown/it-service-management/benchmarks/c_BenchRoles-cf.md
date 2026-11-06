@@ -7,9 +7,9 @@ release: yokohama
 product: Benchmarks
 classification: benchmarks
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Benchmarks, Benchmarks, IT Service Management]
+breadcrumb: [Explore, Benchmarks, IT Service Management]
 ---
 
 # Benchmarks roles

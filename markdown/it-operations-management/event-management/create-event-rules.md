@@ -7,18 +7,20 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event rules
 
 Use event rules to generate alerts for tracking and remediation. Event rules are stored in the Event Rule \[em\_match\_rule\] table. Configure and customize event rules to manage events and alert generation.
 
+**Note:** Use [Ignore automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-ignore-automation-sow-itom.md) and [Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/enrich-alert-sow-itom.md) in Service Operations Workspace, the updated way to automatically filter out irrelevant alerts, or to transform and standardize alert data for better response.
+
 Event rules do not change the event records in the Event table. Changes to event data are stored in the ServiceNow instance memory.
 
-For a workspace-based interface for Event Management automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/sow-itom-alert-automation.md).
+For a workspace-based interface for Event Management automation, see [Alert automation in Service Operations Workspace for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/sow-itom-alert-automation.md).
 
 \[Omitted image "event-rule-designer.png"\] Alt text: Event Management rule
 
@@ -53,7 +55,7 @@ Manually update event rules to reflect current event information because once an
 -   **[Find rules that will be applied to an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMViewRuleApply.md)**  
 View the rules that will be applied on an event to determine how this event will be processed.
 -   **[Simulate event processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/simulate-event-processing.md)**  
-You can simulate event processing logic on events and display the resulting alert. This helps you understand which rules are executed and how event fields change.
+Simulate event processing logic to understand which rules execute on an event and how event fields change.
 
-**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
+**Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EM.md)
 

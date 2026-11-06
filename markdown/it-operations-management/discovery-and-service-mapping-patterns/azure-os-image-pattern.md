@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Azure - Image \(LP\), Azure - Cloud OS Image \(LP\), Azure Image, Azure Cloud OS Image, Azure discovery, Azure patterns]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Microsoft Azure discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Azure OS image pattern-based discovery
@@ -25,7 +25,7 @@ When using the Image \[cmdb\_ci\_os\_template\] table to store Cloud OS images, 
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
+Verify the Azure discovery prerequisites section in [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -100,5 +100,5 @@ The Azure OS image patterns collect tags and populate them in the Key Value \[cm
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Image \[cmdb\_ci\_os\_template\] table or the Cloud Image \[cmdb\_ci\_cloud\_os\_image\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
 

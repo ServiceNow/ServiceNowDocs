@@ -1,51 +1,47 @@
 ---
 title: Legal Conflict of Interest
-description: Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties.
+description: Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-conflict-of-interest/legal-conflict-of-interest-landing-page.html
 release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Conflict of Interest
 
-Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties.
+Legal Conflict of Interest enables you to manage the disclosure, approval, and registry of conflict of interest that might arise from employees having competing interests or loyalties. Employees can submit disclosures using the conversational interface of ServiceNow Otto in Virtual Agent or intake form available in the Employee Center.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore icon. Learn about how employees, paralegal staff, and lawyers use Legal Conflict of Interest.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, paralegal staff, and lawyers use Legal Conflict of Interest.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/conflict-of-interest-overview.md)
 
 </td><td>
 
-[Set up \[Omitted image "icon-configure.png"\] Alt text: Setup icon. Set up approver groups, flows, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up approver groups, flows, and notifications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 
 </td><td>
 
-[Request \[Omitted image "request.png"\] Alt text: Request icon. Request legal clearance for conflict of interests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/submitting-legal-coi-request.md)
+[Submit COI request form Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/submit-coi-disclosure-request.md)Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Use Legal Conflict of Interest
 
 </td></tr><tr><td>
 
-[Manage \[Omitted image "icon-workspace.png"\] Alt text: Manage icon. Manage conflict of interest disclosure requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/managing-legal-coi-request.md)
+[Analytics and Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Coordinate work and improve processes with preconfigured dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting icon. Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Reference icon. Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)
+ 
 
 </td></tr></tbody>
-</table>## Request apps on the Store
-
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-## Troubleshoot and get help
+</table>## Troubleshoot and get help
 
 -   [Ask or answer questions in the Legal Service Delivery community forum](https://community.servicenow.com/community)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)

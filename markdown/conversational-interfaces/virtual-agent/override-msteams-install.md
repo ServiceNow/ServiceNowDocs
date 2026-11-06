@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating ServiceNow Virtual Agent with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Override Microsoft Teams integration
@@ -40,10 +40,8 @@ Starting from Tokyo release, if you intend to associate your Microsoft Teams ten
 
     **Note:** By default, the value of the system property is **false**.
 
-4.  Select **Override** to associate the instance with a new tenant.
-
-    \[Omitted image "msteams-new-override.png"\] Alt text: Microsoft Teams override installation.
+4.  Select **Override** to associate the instance with a new tenant.\[Omitted image "msteams-new-override.png"\] Alt text: Microsoft Teams override installation.
 
 
-**Parent Topic:**[Integrating ServiceNow Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -26,6 +26,8 @@ Managers, employees, and mentors access journeys from the Employee Center \(EC\)
 Dashboards are configurable graphic displays of key metrics, reports, and other widgets on a single screen.
 -   **[Now Assist Virtual Agent topics for Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jd-va-topic.md)**  
 Complete the Journey designer related tasks from Employee Center using the Now Assist Virtual Agent topics.
+-   **[AI in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/agentic-wf-jny-dsgnr-na-hrsd.md)**  
+Use agentic workflows and ServiceNow Otto for HRSD to facilitate and manage employee journeys throughout the different stages of the employee's career. These workflows, powered by a single or team of AI agents, help your organization by automating procedures for managers while simultaneously curating custom experiences for employees.
 
 **Parent Topic:**[Journey designer]()
 

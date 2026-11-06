@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure settings, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Activate a ServiceNow Otto for Health and Safety skill
@@ -28,17 +28,17 @@ The following table lists the skill that you can access from the AI Admin Hub co
 
 |Health and Safety feature|Skill|
 |-------------------------|-----|
-|Now Assist skills for Health and Safety|Health and Safety incident summarization|
+|AI skills for Health and Safety|Health and Safety incident summarization|
 
 The Health and Safety incident summarization skill is available in the base system with the required configurations.
 
 **Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
+Now LLM Service is currently the only provider for this application's skills.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  From the workflow list, select **Employee** and then select **Health and Safety**.
 
@@ -58,9 +58,9 @@ Now LLM Service is currently the only provider for this Now Assist application's
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+    -   **ServiceNow Otto panel**: When selected, AI skills are available in the ServiceNow Otto panel. If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-        For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+        For the skills that appear in the panel, select the down arrow to identify the roles that can use the skill.
 
 8.  Select **Save and continue**.
 

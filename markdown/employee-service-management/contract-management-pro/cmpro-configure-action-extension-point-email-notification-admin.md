@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage notifications in Contract Management Pro, Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage notifications in Contract Management Pro, Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure extension point for notifications
@@ -21,7 +21,9 @@ Add or modify an Action and its functionality on the Standard ticket page for a 
 Role required: Admin
 
 -   Review the configuration of the script include, scripted extension points, and widgets.
--   For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/scripts/c_ScriptIncludes.md).
+
+    For more information about using and customizing the script includes, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md).
+
 -   Ensure that you've set the application scope to this application.
 
 ## About this task
@@ -35,6 +37,8 @@ The base system `ApprovalNotificationWorkspaceURLExt` script provides the config
     1.  Navigate to **All** &gt; **System Extension Points** &gt; **Scripted Extension Points**.
 
     2.  Search and select the **ApprovalNotificationWorkspaceURLExt** extension point.
+
+        \[Omitted image "cmpro-aprval-ext-point.png"\] Alt text: Extension point for approval notification.
 
     3.  Add or modify an implementation for a practice area.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreatingADocumentIDField.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Document ID field
@@ -53,8 +53,6 @@ You can select the document ID type when creating a new field.
 11. Click **Update**.When users click the reference lookup for the document ID field, a dialog appears that allows them to select the table and then the record. The sys\_id of the selected record is stored in the document ID field and the table name is stored in the table reference field.
 
 12. [Configure the form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configure-form-layout.md) to remove the table reference field.
-
-    \[Omitted image "DocumentID1.png"\] Alt text: Document ID
 
 
 **Related topics**  

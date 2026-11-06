@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-review-document-mim.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Service case digests, Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a post case review for a major case
@@ -32,15 +32,15 @@ You can create a post case review document for a resolved major case if the **sn
 
 3.  Select one of the following options.
 
-<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d79944e87">
+<table id="choicetable_mg3_nhq_23b"><thead><tr><th align="left" id="d94863e87">
 
 Option
 
-</th><th align="left" id="d79944e90">
+</th><th align="left" id="d94863e90">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d79944e96">
+</th></tr></thead><tbody><tr><td id="d94863e96">
 
 **Publish to Case**
 
@@ -63,7 +63,7 @@ The system performs the following actions:1.  Syncs the child case PCR record wi
 3.  Adds a link to the PCR document to the **Additional Comments** field on the child case form.
 
 
-</td></tr><tr><td id="d79944e160">
+</td></tr><tr><td id="d94863e160">
 
 **Copy to Child Cases**
 

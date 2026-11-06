@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using My Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [Using My Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Skill sensing for learning content

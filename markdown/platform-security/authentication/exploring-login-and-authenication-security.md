@@ -1,5 +1,5 @@
 ---
-title: Exploring Login and authentication security
+title: Explore login and authentication security
 description: Configure login security options to control access to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/exploring-login-and-authenication-security.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Login and authentication security, Local Authentication, Authentication, Access Management]
+breadcrumb: [Login and authentication security, Local authentication, Authentication, Access Management]
 ---
 
-# Exploring Login and authentication security
+# Explore login and authentication security
 
 Configure login security options to control access to your instance.
 
@@ -43,7 +43,7 @@ Control several dimensions of the log in and log out process for users, such as 
 </td><td>
 
 -   [Define login scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LoginScenarios.md)
--   [Configuring the logout confirmation prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnableTheLogoutConfirmPrompt.md)
+-   [Configure the logout confirmation prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_EnableTheLogoutConfirmPrompt.md)
 -   [Installation exits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/r_InstallationExits.md)
 -   [Specify lockout for failed login attempts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_LockoutForFailedLogins.md)
 
@@ -57,11 +57,11 @@ Control the password reset process and features like the Remember Me option. You
 
 </td><td>
 
--   [Configuring your password policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-your-password-policy.md)
+-   [Configure your password policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-your-password-policy.md)
 -   [Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_SelfServicePasswordReset.md)
 -   [Remember me](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_ChSetRemMeChkbxCookie.md)
 -   [IP range based authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_IPRangeBasedAuthentication.md)
--   [Implementing a nonce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_ImplementingANonce.md)
+-   [Implement a nonce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_ImplementingANonce.md)
 
 </td></tr></tbody>
 </table>

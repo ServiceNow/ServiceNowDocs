@@ -7,8 +7,8 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Universal Request, Employee Service Management]
 ---
 
@@ -28,6 +28,8 @@ Use the guided tour to navigate a sequence of interactive steps that provides an
 A universal request can have multiple child requests, such as an IT ticket or an HR case. An active child request is called the primary ticket. At a given time, a universal request can have only one primary ticket.
 -   **[Create associated ticket for primary ticket of UR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/create-associated-ticket.md)**  
 Agent, working on the primary ticket, requests other departments for assistance in resolving a universal request \(UR\) by creating associated tickets for the UR. Multiple departments can work simultaneously on these associated tickets. These associated tickets are independent of the UR state flow.
+-   **[Improve inter-departmental communication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/discuss-routing-agents.md)**  
+Enable agents to effectively collaborate on associated tickets using the Sidebar discussion and Discuss options.
 -   **[Universal Request sensitive information security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/universal-request-security.md)**  
 Universal Request security capability provides flexibility to protect information by controlling the view and edit authorization.
 -   **[Transfer a primary ticket](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/route-primarytask-to-ur.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-skills.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CCaaS Admin Console, Integrating with contact centers, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---
 
 # Import skills

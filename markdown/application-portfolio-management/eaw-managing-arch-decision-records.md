@@ -1,22 +1,22 @@
 ---
-title: Manage architectural decision records \(ADR\)
+title: Exploring architectural decision records \(ADR\)
 description: Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the information portfolio, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage architectural decision records \(ADR\)
+# Exploring architectural decision records \(ADR\)
 
 Use the Architectural Decision Records \(ADR\) to explain your infrastructure. ADR is a type of artifact that helps you to understand the background of a specific architectural decision.
 
 ## ADR Overview
 
-An ADR can have multiple doc pages associated with it to help you organize key architectural artifact details. Predefined ServiceNow Docs component \(sn\_docs\) templates are available. You can create ADR pages using one of these templates or start with a blank page.
+An ADR can have multiple doc pages associated with it to help you organize key architectural artifact details. Predefined ServiceNow Docs component \(sn\_docs\) templates are available. You can create ADR pages using one of these templates or start with a empty page.
 
 **Note:** The ADR feature in Enterprise Architecture Workspace uses the ServiceNow Docs component \(sn\_docs\) to create pages in the Artifacts section. Docs component v6.0.0 is automatically installed with Enterprise Architecture Workspace v3.4.0.
 
@@ -45,25 +45,24 @@ Some features of ADR are:
 
 Use Now Assist capabilities to elaborate, shorten, and summarize selected content in ADRs, or to get a summary of the whole ADR. For more information, see [Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)
 
--   **[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-edit-adr.md)**  
-Create or update an artifact of the type architectural decision record \(ADR\) to align it with your business requirements.
--   **[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)**  
-Flexibly organize information for your architectural decision records \(ADR\) by creating, duplicating, and deleting pages and subpages in the Enterprise Architecture Workspace.
--   **[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)**  
-You can tag users or records in architectural decision records \(ADR\) in the Enterprise Architecture Workspace.
--   **[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)**  
-You can customize the default values of the **sn\_apm\_ws.record\_mention\_config** system property to enable the tagging of additional record tables in an architectural decision record \(ADR\).
--   **[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-adr-version.md)**  
-Create multiple versions of architectural decision records \(ADR\) in the Enterprise Architecture Workspace. Creating multiple ADR versions enable you to capture the evolution of architectural decisions over time or capture details of alternatives to existing architectural decisions.
--   **[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-approval-adr.md)**  
-Send a version of architectural artifacts of the type Architectural Decision Record \(ADR\) for approval to an Enterprise Architect user. The user reviews and approves the request.
-
-**Parent Topic:**[Working with information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-portfolio.md)
+**Parent Topic:**[Exploring the information portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-information-portfolio.md)
 
 **Related topics**  
 
 
+[Add or edit an architectural decision record \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-edit-adr.md)
+
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+
+[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
+
+[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
+
+[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-adr-version.md)
+
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-approval-adr.md)
+
 [Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
 
-[Create new related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-artifact-releated-entity-form.md)
+[Create related entities form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-artifact-releated-entity-form.md)
 

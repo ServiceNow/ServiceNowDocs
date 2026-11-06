@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Optional activities
@@ -29,29 +29,6 @@ The flow of working with optional activities:
 3.  Agents add optional activities in Playbook Experience.
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Automation Assets]()
-
-[Start with delay input properties]()
-
-[Decision activities]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 
 ## Add an Optional Activity to a playbook
 

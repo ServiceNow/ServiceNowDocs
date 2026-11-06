@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create entitlements in workspace
@@ -63,4 +63,11 @@ Define license details, for all publishers other than Microsoft in the Software 
 Define license details for Microsoft Software Assurance \(SA\) in the Software Asset Workspace to manage your contracts start and end dates, software upgrades, and related software entitlements.
 
 **Parent Topic:**[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)
+
+**Related topics**  
+
+
+[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-entitlement-fields.md)
+
+[Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-device-allocation.md)
 

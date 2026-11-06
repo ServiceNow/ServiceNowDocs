@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Configuring Service Operations Workspace for ITSM to improve your experience, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Specify the refresh duration for user presence in Service Operations Workspace
@@ -39,7 +39,7 @@ In this case, the value specified for the **sn\_tcm\_collab\_hook.teams.presence
 
 3.  In the **Value** field, specify the duration after which you want the user presence to refresh.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Parent Topic:**[Configuring Service Operations Workspace for ITSM to improve your experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-sow-to-improve-experience.md)

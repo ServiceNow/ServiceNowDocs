@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/r\_ApplicationDesignAndRuntimeSettings.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Application design and runtime settings
@@ -16,7 +16,7 @@ The application design and runtime settings determine whether an application can
 
 |Field|Description|
 |-----|-----------|
-|JavaScript Mode|The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/scripts/set-javascript-mode-application.md).|
+|JavaScript Mode|The JavaScript standard that the application supports. Select **ECMAScript 2021 \(ES12\)** to support features in ECMAScript 12th edition or **ES5 Standards Mode** to support features in ECMAScript 5th edition. Select **Compatibility Mode** to support earlier ECMAScript editions. For more information, see [Set the JavaScript mode for an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/set-javascript-mode-application.md).|
 |Runtime Access Tracking|The application's handling of script access requests to resources in other applications. Select **None** to authorize all access requests to cross-scope resources without logging them. Select **Tracking** to log and authorize all access requests to cross-scope resources. Select **Enforcing** to log access requests to cross-scope resources but require an administrator to authorize each request.|
 |Restrict Table Choices|The availability of cross-scope tables when designing the application. Clear the option to allow the application to see tables from other application scopes. Select the option to restrict design choices to only tables in the same application.|
 

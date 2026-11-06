@@ -1,54 +1,152 @@
 ---
-title: Set up the context engine mapper
-description: After you have defined the data source, the next step is to specify the record in the context table for which it is applicable.
+title: Configure the Context Engine Mapper
+description: After you have defined the data source, use the Context Engine Mapper to specify the record in the context table for which it is applicable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-define-context-engine-mapper.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Setup the data context engine, Configure customer success, Customer success, Account Lifecycle Events]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Data context engine, Customer success, Configure, Customer Success Management]
 ---
 
-# Set up the context engine mapper
+# Configure the Context Engine Mapper
 
-After you have defined the data source, the next step is to specify the record in the context table for which it is applicable.
+After you have defined the data source, use the Context Engine Mapper to specify the record in the context table for which it is applicable.
 
-1.  Login as a user with the `sn_acct_lc.ale_success_agent` role.
+The Context Engine Mapper is a framework that establishes mappings between source entities and their corresponding context entities. It enables the resolution of context-specific records based on given sources, such as resolving engagements from customer accounts.
+
+You can use the Context Engine Mapper to determine which fields will be used to categorize data collected by the [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md). This mapping ensures that data is organized and analyzed based on designated breakdown fields such as account type, engagement status, or sold products.
+
+**Note:** You can set up the context engine to map the source and target tables using one of the following methods:
+
+-   Related table: Use the mapping rule `related table[query_field] = source table[source_field]`. In every record in the **Source table**, the **Source field** value is matched with the `Query field` in the Related table.
+-   Script: If a script is defined, it takes precedence over the table based mapping. The script checks the **Source Field** and the ID of the record to determine the appropriate context based on the resolving context table.
+-   Metric based: Mapping logic can vary depending on the data source used for metrics and measurements. Can be used for more granular and context specific mappings.
+
+1.  Login as a user with the `sn_acct_lc.customer_success_agent` role.
 2.  Navigate to **All** &gt; **Data Context Engine** &gt; **Context Engine Mappers** &gt; **Create New**.
 3.  Enter the following details:
 
-    |Field|Description|
-    |-----|-----------|
-    |Source table|Select the source table to which the data source is to be mapped. This table is related to the attribute selected in the Breakdown field in the Data Source table. For example, if you selected `Account` in the Breakdown field, select the Customer Account table here.|
-    |Source field|The specific field in the source table that contains the data to be mapped.|
-    |Supporting related table|The related table that will be used to connect the source and context tables.|
-    |Query field|Select the field that is used to query or dot walk the `Supporting related table` to map data from the `Source table` to the `Context table`.|
-    |Resolving context table|The target table for mapping the data source.|
-    |Resolving context field|The target field where the mapped data will be stored.|
-    |Script|If you cannot query the context table through dot walking, you can define a script that uses the Source field and returns an array of possible context fields.|
+<table id="table_oxx_g3l_ydc"><thead><tr><th>
 
-    **Note:** You can set up the context engine to map the source and target tables using one of the following methods:
+Field
 
-    -   Related table: Use the mapping rule `related table[query_field] = source table[source_field]`. In every record in the **Source table**, the **Source field** value is matched with the `Query field` in the Related table.
-    -   Script: The script checks the **Source Field** and the ID of the record to determine the appropriate context based on the resolving context table.
-    The following examples show how you can set up the mapping.
+</th><th>
 
-    -   **Example with Related table**
+Description
 
-        \[Omitted image "account-lifecycle-context-engine-mapping-1.png"\] Alt text: Context engine mapping with related table
+</th></tr></thead><tbody><tr><td>
 
-    -   **Example with script**
+Type
 
-        \[Omitted image "account-lifecycle-context-engine-mapping-2.png"\] Alt text: Context engine mapping with script
+</td><td>
 
-4.  Click **Submit** to save the context mapping.
+This can be:-   Global: For each record in the source table, the source field value is matched against the query field in the supporting related table. If a match is found, the associated values from the resolving context field are returned as mapped context records.
+-   Metric based: This type is used to enable mapping specific to certain data sources or conditions. The mapping logic can vary depending on the data source used and provides enhanced filtering and flexibility.
+
+
+</td></tr><tr><td>
+
+Source table
+
+</td><td>
+
+Select the source table to which the data source is to be mapped. This table is related to the attribute selected in the Breakdown field in the Data Source table. For example, if you selected `Account` in the Breakdown field, select the Customer Account table here.
+
+</td></tr><tr><td>
+
+Source field
+
+</td><td>
+
+The specific field in the source table that contains the data to be mapped.
+
+</td></tr><tr><td>
+
+Supporting related table
+
+</td><td>
+
+The related table that will be used to connect the source and context tables.
+
+</td></tr><tr><td>
+
+Query field
+
+</td><td>
+
+Select the field that is used to query or dot walk the `Supporting related table` to map data from the `Source table` to the `Context table`.
+
+</td></tr><tr><td>
+
+Metric list
+
+</td><td>
+
+If **Type** is **Metric based**, select a data source from the list. If a data source listed here is used for a specific source or target table, this mapping takes precedence over the Global mapping.
+
+</td></tr><tr><td>
+
+Resolving context table
+
+</td><td>
+
+The target table where resolved context records are stored.
+
+</td></tr><tr><td>
+
+Resolving context field
+
+</td><td>
+
+The target field where the mapped data will be stored.
+
+</td></tr><tr><td>
+
+Resolving table conditions \(Optional\)
+
+</td><td>
+
+You can use additional conditions, such as field level filters, to narrow down the results from the resolving context table based on specific criteria.
+
+</td></tr><tr><td>
+
+Script
+
+</td><td>
+
+If you cannot query the context table through dot walking, you can define a script that uses the Source field and returns an array of possible context fields.
+
+</td></tr></tbody>
+</table>    **Note:** If a script is defined for a **Metric based** mapper, it overrides:
+
+    -   Supporting related table
+    -   Resolving table conditions
+    The script returns an array of context record IDs based on the conditions defined.
+
+4.  Select **Submit** to save the context mapping.
 5.  Navigate to **All** &gt; **Data Context Engine** &gt; **Data Sources**.
 
     \[Omitted image "account-lifecycle-data-source.png"\] Alt text: Metric data collection data source
 
-6.  Open the data source you had created earlier and click **Publish**.
+6.  Open the data source you had created earlier and select **Publish**.
 
-    Data will now be collected as per the defined schedule and the context engine data record is created and stored in the **Context Engine Data** table.
+    Data will now be collected according to the defined schedule and the context engine data record is created and stored in the **Context Engine Data** table.
+
+
+The following examples show how to set up the different types of mapping:
+
+-   **Related table \(Global\)**
+
+    \[Omitted image "account-lifecycle-context-engine-mapping-1.png"\] Alt text: Context engine mapping with related table
+
+-   **Metric Based Type**
+
+    \[Omitted image "account-lifecycle-context-engine-mapping-3.png"\] Alt text: Metric based mapping
+
+-   **Script**
+
+    \[Omitted image "account-lifecycle-context-engine-mapping-2.png"\] Alt text: Context engine mapping with script
 
 

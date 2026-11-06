@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-case-forms.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Public Sector forms, Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Forms, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Public Sector Digital Services Core Case Forms
@@ -35,5 +35,5 @@ A government service agent can create a case using the Service Request case form
 -   **[Information Request case form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/information-request-case-form.md)**  
 A government agent can create a case by using the Information Request case form to capture detailed information about public record requests that constituents, business stakeholders, or other agents have. Constituents, business stakeholders, or agents can also view the form to see the status of their information requests.
 
-**Parent Topic:**[Public Sector forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-forms.md)
+**Parent Topic:**[Public Sector Digital Services forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-forms.md)
 

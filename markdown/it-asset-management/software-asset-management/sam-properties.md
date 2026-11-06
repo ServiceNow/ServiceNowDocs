@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 12
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management properties
@@ -19,6 +19,8 @@ You can set default reconciliation properties such as grouping and reconciliatio
 These properties are available for the Software Asset Management application.
 
 To access these properties, navigate to **All** &gt; **Software Asset** &gt; **Administration** &gt; **Properties**.
+
+You can also access the SAM properties using the Configuration Console for Software Asset Management. For more details about the Configuration Console for Software Asset Management, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/config-console-sam.md).
 
 <table id="table_ygc_2lb_dbb"><thead><tr><th>
 
@@ -44,7 +46,15 @@ Determines how rights and software installations are grouped during reconciliati
 -   **Department**
 -   **Region**
 
- The Reconciliation Group \[samp\_group\] table stores the list of mappings for each of these group values.
+</td></tr><tr><td>
+
+com.snc.sam.auto\_suite\_inference
+
+</td><td>
+
+Automatically infers the parent software model suite for a software model based on its child software models.
+
+ Default value is **false**. When enabled, individual software installations get mapped to the appropriate suite entitlement for accurate license compliance calculations.
 
 </td></tr><tr><td>
 
@@ -52,7 +62,7 @@ SAM Workspace License operations list count limitsn\_sam\_workspace.sam\_license
 
 </td><td>
 
-Enables setting up a threshold limit to show the count of software asset records in the License operations view in the Software Asset Workspace. SAM administrator can set the value of the threshold limit as required.Value is set to **5000000**. If there are less than five million records, the exact count of software installation records is shown. If there are more than five million records, the count is shown as 5000000+.
+Enables setting up a threshold limit to show the count of software asset records on the License operations view. SAM administrator can set the value of the threshold limit as required.Value is set to **5000000**. If there are less than five million records, then the exact count of software installation records is shown. If there are more than five million records, then the count is shown as 5000000+.
 
 </td></tr><tr><td>
 
@@ -71,8 +81,6 @@ Determines the secondary grouping for rights and software installations during r
 -   **Country**
 -   **Department**
 -   **Region**
-
- The Reconciliation Group \[samp\_group\] table stores the list of mappings for each of these subgroup values.
 
 </td></tr><tr><td>
 
@@ -96,15 +104,23 @@ Automatically create software models for all 'licensable' productscom.snc.samp.a
 
 </td><td>
 
-Automatically creates a software model, in a non-compliant state, for any unlicensed installations, subscriptions, or options \(of licensable products\) in the Product Results list that do not have an entitlement.The new software model and results are used to show the unlicensed count in the License Position Report.
+Automatically creates a software model, in a non-compliant state, for any unlicensed installations, subscriptions, or options \(of licensable products\) in the Product Results list that don’t have an entitlement.The new software model and results are used to show the unlicensed count in the License Position Report.
 
  **Note:** For more information on automatically creating software models, see [Automatic creation of software models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/duplicate-sw-models.md).
 
 </td></tr><tr><td>
 
+Automatically create software model results for unlicensed products during software asset reconciliationcom.snc.samp.unlicensed\_smr\_creation
+
+</td><td>
+
+Disables software model result creation for unlicensed software models. Software model results continue to be created for software models that have valid entitlements. The default value is **False**. You can modify the value using system properties configuration. When the property is set to **True**, the software model results get created for software models that don’t have entitlements or have installs requiring action.
+
+</td></tr><tr><td>
+
 Select the level of aggregation for reconciling licenses for Oracle databases and WebLogic servers on VMware com.snc.samp.oracle.reconlevel
 
- **Note:** This property is available only if you've activated the Software Asset Management publisher pack for Oracle.
+ **Note:** This property is available only if you have activated the Software Asset Management publisher pack for Oracle.
 
  **Note:** This property supports domain separation using the domain separation application properties for Software Asset Management. See [Set up domain-specific reconciliation properties for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/define-application-properties-oracle.md) for more details.
 
@@ -114,14 +130,14 @@ Level of aggregation that is used for reconciling Oracle Database and WebLogic S
 -   **ESX cluster** \(default value\): The **ESX cluster** aggregation level considers all processors on every ESX server within a cluster.
 -   **vCenter\(s\)**: The **vCenter\(s\)** aggregation level considers all processor cores on every ESX server.
 
-If you select this aggregation level, licensing calculations are based on the ESXi version that you are using in your VMware virtual environment. See [Oracle Database and WebLogic Server licensing in soft-partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/oracle-licensing-soft-partitioned-environments.md) for more information on the supported ESXi versions.
+If you select this aggregation level, licensing calculations are based on the ESXi version that you’re using in your VMware virtual environment. See [Oracle Database and WebLogic Server licensing in soft-partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/oracle-licensing-soft-partitioned-environments.md) for more information on the supported ESXi versions.
 
 
 </td></tr><tr><td>
 
 Use host affinity for reconciling licenses for Oracle databases and WebLogic servers on VMware at the vCenter\(s\) aggregation levelcom.snc.samp.oracle.hostaffinityenabled
 
- **Note:** This property is available only if you've activated the Software Asset Management publisher pack for Oracle.
+ **Note:** This property is available only if you have activated the Software Asset Management publisher pack for Oracle.
 
  **Note:** This property supports domain separation by using the domain separation application properties for Software Asset Management. See [Set up domain-specific reconciliation properties for Oracle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/define-application-properties-oracle.md) for more details.
 
@@ -151,11 +167,19 @@ Excludes the software installed on devices \(from the Software Asset Management 
 
 Enter the license period \(in days\) to be considered during reconciliation, for applications published on Citrix environmentcom.snc.samp.citrix.app.license.period
 
- **Note:** This property is available only if you've activated the Software Asset Management publisher pack for Citrix.
+ **Note:** This property is available only if you have activated the Software Asset Management publisher pack for Citrix.
 
 </td><td>
 
 Indicates the license period \(in days\) for Citrix applications to be considered during reconciliation. Default is 90 days.
+
+</td></tr><tr><td>
+
+Enter the timeout period \(in days\) to resolve reclamation errors before the reclamation flow moves to the Closed canceled statesam\_reclamation\_flow\_error\_timeout
+
+</td><td>
+
+Indicates the timeout period \(in days\) to resolve reclamation errors before the reclamation flow moves to the Closed canceled state.The default value is 30 days.
 
 </td></tr><tr><td>
 
@@ -175,11 +199,11 @@ Indicates the number of scheduled jobs that run in parallel to reconciliation. S
 
 </td></tr><tr><td>
 
-Indicates whether Wide-Net Normalization is enabled on the instance. If enabled, Wide-Net Normalization rules/patterns will be applied on discovery models which have not been fully-normalized by regular package normalization rulescom.snc.samp.wide\_net\_normalization.enabled
+Indicates whether Wide-Net Normalization is enabled on the instance. If enabled, Wide-Net Normalization rules/patterns are applied on discovery models that haven’t been fully normalized by regular package normalization rules.com.snc.samp.wide\_net\_normalization.enabled
 
 </td><td>
 
-Enables wide-net normalization to be performed on discovery models. This property is enabled by default. Wide-net normalization is performed only on discovery models that could not be normalized using content rules.
+Enables wide-net normalization to be performed on discovery models. This property is enabled by default. Wide-net normalization is performed only on discovery models that couldn’t be normalized using content rules.
 
  Only users with an admin role can modify the property.
 
@@ -189,7 +213,7 @@ Enable ML Normalization for discovered software.com.snc.samp.enable.ml\_normaliz
 
 </td><td>
 
-Enables machine learning normalization to be performed on discovery models. This property is enabled by default. Machine learning normalization is performed only on discovery models that could not be normalized using content rules.
+Enables machine learning normalization to be performed on discovery models. This property is enabled by default. Machine learning normalization is performed only on discovery models that couldn’t be normalized using content rules.
 
  Only users with an admin role can modify the property.
 
@@ -199,11 +223,11 @@ Enter the threshold period \(in days\) after which billing data pulled from Clou
 
 </td><td>
 
-Indicates the threshold period, based on the number of days, after which the billing data that is pulled from Cloud Insights is considered old. Cloud Insights is used to determine the license type for SQL Server installed on AWS.​ The default value is 30 days and this property is activated by default.
+Indicates the threshold period, based on the number of days after which the billing data that is pulled from Cloud Insights is considered old. Cloud Insights is used to determine the license type for SQL Server installed on AWS.​ The default value is 30 days and this property is activated by default.
 
 </td></tr><tr><td>
 
-Red Hat Enterprise Linux Server for Virtual Datacenters license cost optimization threshold**Note:** This property is available only if you've activated the Software Asset Management publisher pack for IBM.
+Red Hat Enterprise Linux Server for Virtual Datacenters license cost optimization threshold**Note:** This property is available only if you have activated the Software Asset Management publisher pack for IBM.
 
 </td><td>
 
@@ -217,11 +241,11 @@ Determines whether you should use RHEL Server or RHEL for Virtual Datacenters li
 
 Microsoft Windows Server for Datacenter license cost optimization threshold com.snc.samp.windowserver.license.threshold
 
-**Note:** This property is available only if you've activated the Software Asset Management publisher pack for Microsoft.
+**Note:** This property is available only if you have activated the Software Asset Management publisher pack for Microsoft.
 
 </td><td>
 
-Determines whether it is more cost-effective to license the physical hosts or virtual machines \(VMs\) within your Microsoft Windows Server clusters based on the cost ratio between Microsoft Windows Server Datacenter Edition licenses and Microsoft Windows Server Standard Edition licenses.
+Determines whether it’s more cost-effective to license the physical hosts or virtual machines \(VMs\) within your Microsoft Windows Server clusters based on the cost ratio between Microsoft Windows Server Datacenter Edition licenses and Microsoft Windows Server Standard Edition licenses.
 
  Based on the current list price of each license type, the default cost ratio value is 4.59. If your entitlements contain different pricing for these license types, you can modify this value by dividing the average price of your Microsoft Windows Server Datacenter Edition licenses by the average price of your Microsoft Windows Server Standard Edition licenses.
 
@@ -229,11 +253,11 @@ Determines whether it is more cost-effective to license the physical hosts or vi
 
 Default Region for IBM Devicessn\_samp\_ibm\_lic.default\_region
 
-**Note:** This property is available only if you've activated the Software Asset Management publisher pack for IBM and installed the IBM License Compliance for Software Asset Management application. For details on how to install the application, see [Request the IBM License Compliance for Software Asset Management application for authorized Software Asset Management provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md).
+**Note:** This property is available only if you have activated the Software Asset Management publisher pack for IBM and installed the IBM License Compliance for Software Asset Management application. For details on how to install the application, see [Request the IBM License Compliance for Software Asset Management application for Authorized Software Asset Management Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md).
 
 </td><td>
 
-Automatically associates physical hosts with a default region if they are not already associated with one. IBM license usage can be calculated only for physical hosts that are associated with a region.
+Automatically associates physical hosts with a default region if they aren’t already associated with one. IBM license usage can be calculated only for physical hosts that are associated with a region.
 
  The default value is **North America and South America**.
 
@@ -241,21 +265,21 @@ Automatically associates physical hosts with a default region if they are not al
 
 Connect to ILMT usingsn\_samp\_ibm\_lic.ilmt\_api\_version
 
-**Note:** This property is available only if you've activated the Software Asset Management publisher pack for IBM.
+**Note:** This property is available only if you have activated the Software Asset Management publisher pack for IBM.
 
 </td><td>
 
-Indicates which version of the IBM License Metric Tool \(ILMT\) or BigFix Inventory integration APIs you are using to create a connection between your IBM servers and the ServiceNow AI Platform platform.
+Indicates which version of the IBM License Metric Tool \(ILMT\) or BigFix Inventory integration APIs you’re using to create a connection between your IBM servers and the ServiceNow AI Platform platform.
 
 </td></tr><tr><td>
 
 Ratio of the entitlement cost of a Microsoft SQL Server Standard with Software Assurance to the cost of Microsoft SQL Server Enterprise with Software Assurancecom.snc.samp.sqlserver.standard\_sa.to.enterprise\_sa.cost.ratio
 
-**Note:** This property is available only if you've activated the Software Asset Management publisher pack for Microsoft.
+**Note:** This property is available only if you have activated the Software Asset Management publisher pack for Microsoft.
 
 </td><td>
 
-Determines whether it is more cost-effective to license the physical hosts or virtual machines \(VMs\) within your Microsoft SQL Server clusters based on the cost ratio between Microsoft SQL Server Standard Edition licenses with Software Assurance and Microsoft SQL Server Enterprise Edition licenses with Software Assurance.
+Determines whether it’s more cost-effective to license the physical hosts or virtual machines \(VMs\) within your Microsoft SQL Server clusters based on the cost ratio between Microsoft SQL Server Standard Edition licenses with Software Assurance and Microsoft SQL Server Enterprise Edition licenses with Software Assurance.
 
  Based on the current list price of each license type, the default cost ratio value is 0.25. If your entitlements contain different pricing for these license types, you can modify this value by dividing the price of your Microsoft SQL Server Standard Edition licenses with Software Assurance by the price of your Microsoft SQL Server Enterprise Edition licenses with Software Assurance.
 
@@ -263,11 +287,11 @@ Determines whether it is more cost-effective to license the physical hosts or vi
 
 Ratio of the entitlement cost of a Microsoft Software Assurance entitlement to the cost of a Microsoft Non-Software Assurance entitlementcom.snc.samp.ms.sa.to.nonsa.cost.ratio
 
-**Note:** This property is available only if you've activated the Software Asset Management publisher pack for Microsoft.
+**Note:** This property is available only if you have activated the Software Asset Management publisher pack for Microsoft.
 
 </td><td>
 
-Determines whether it is more cost effective to use licenses with or without Microsoft Software Assurance on your Microsoft SQL Server clusters. The Software Asset Management application makes this determination based on the cost ratio between Microsoft SQL Server licenses with Software Assurance and without Software Assurance.
+Determines whether it’s more cost effective to use licenses with or without Microsoft Software Assurance on your Microsoft SQL Server clusters. The Software Asset Management application makes this determination based on the cost ratio between Microsoft SQL Server licenses with Software Assurance and without Software Assurance.
 
  Based on the current list price of each license type, the default cost ratio value is 1.25. If your entitlements contain different pricing for these license types, you can modify this value by dividing the price of your Microsoft SQL Server licenses with Software Assurance by the price of your Microsoft SQL Server licenses without Software Assurance.
 
@@ -279,7 +303,17 @@ com.snc.samp.use\_lifecycle\_approximation
 
 Determines whether to include approximate life cycle dates when generating the life cycle report. This property is enabled by default.
 
- When selected, this property enables generating automatic life cycle dates based on approximation logic that is built on top of publisher provided General Availability dates, publicly available information, and industry averages.
+ When selected, this property includes Software Product Lifecycle records that have the **Lifecycle Code** field populated when the Software Lifecycle Report is generated.
+
+</td></tr><tr><td>
+
+com.snc.samp.generate.calculated.lifecycles
+
+</td><td>
+
+Creates calculated lifecyles. To enhance lifecycle coverage beyond approximated lifecycle data, the system calculates EOS, EOES, and EOL dates by applying software lifecycle averages, measured in months, from the GA dates.
+
+ When selected, this property enables generating calculated lifecycle dates based on Lifecycle averages defined for either the product, publisher, or industry averages.
 
 </td></tr><tr><td>
 
@@ -290,6 +324,23 @@ com.snc.samp.manage.published.products
 Enables you to publish software products in the phase-wise Software Asset Management implementation and also remove the published software products. The default value of this property is **false**. By setting the value of this property to **true**, you can view reports and dashboards only related to the software products that you manage in a phase-wise implementation of Software Asset Management in the following views of the Software Asset Workspace:-   [Software asset overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-landing.md)
 -   [License usage view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-workspace-workbench.md)
 
+</td></tr><tr><td>
+
+samp.spend\_prediction\_service.max\_label\_attempts
+
+</td><td>
+
+Sets the maximum number of times the **SAM - Label Spend Transactions** scheduled job attempts to label a pending spend transaction. The default value is 3.
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -89,15 +89,15 @@ Additional information for this risk framework.
 
 6.  To add risk statements, click the Risk Statements related list and do one of the following.
 
-<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d223425e222">
+<table id="choicetable_tsm_t3y_qpb"><thead><tr><th align="left" id="d355398e219">
 
 Choice
 
-</th><th align="left" id="d223425e225">
+</th><th align="left" id="d355398e222">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d223425e231">
+</th></tr></thead><tbody><tr><td id="d355398e228">
 
 **To add an existing risk statement**
 
@@ -108,7 +108,7 @@ Steps
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d223425e257">
+</td></tr><tr><td id="d355398e254">
 
 **To create a risk statement**
 

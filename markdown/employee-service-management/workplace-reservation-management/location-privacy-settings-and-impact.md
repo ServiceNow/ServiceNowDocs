@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -50,9 +50,12 @@ In a building record, specify your location privacy preferences in the following
     -   **Reservations only**: Select this option to set privacy on workplace reservations.
     -   **Reservations and workplace profiles**: Select this option to set privacy on both workplace profiles and workplace reservations.
 -   **Allow employees to override location privacy on reservations**: Use this field to specify if you want to let employees override the location privacy while reserving spaces that belong to this building. The field provides the following override options:
+
     -   **None**: Select this option if you don’t have any particular privacy requirement. When you set this option, the location privacy override preference that is set in the Workplace Reservation Management system property **sn\_wsd\_core.OVERRIDE\_RESERVATION\_PRIVACY** is considered. The field is set to **None** by default.
     -   **Yes**: Select this option if you want to let employees override the privacy preference that is configured for the location that they want to reserve.
     -   **No**: Select this option if you want to restrict employees from overriding the privacy preference that is set on the location that they want to reserve.
+    To specify privacy on a building, refer to [Add a building using Workplace Space Management]().
+
 
 ## Workplace profile setting
 

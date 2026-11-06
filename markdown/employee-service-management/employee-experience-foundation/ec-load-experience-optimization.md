@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Portal performance optimization
@@ -38,6 +38,8 @@ Admins can select regular or light modes by configuring your widget instances.
 
 -   Skeleton loaders are not applicable to the customized widgets.
 -   Defer load configuration at the SP Portal level overrides the instance-level configurations.
+
+**Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/improve-manage.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/enable-keyboard-shortcuts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Core UI keyboard shortcuts, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,11 +22,13 @@ For a list of available keyboard shortcuts, see [Core UI keyboard shortcuts](htt
 
 ## Procedure
 
-1.  Select the gear icon \(\[Omitted image "IconUI16Gear.png"\] Alt text: Gear icon\) in the banner frame to open the System Settings window.
+1.  Select the user menu, and then select **Preferences**.
 
-2.  In the General tab, select or clear the **Keyboard shortcuts enabled** option.
+2.  Select **Accessibility**.
 
-3.  Close the system settings window.
+3.  Select or clear the **Enable keyboard shortcuts** option.
+
+4.  Close the Preferences window.
 
 
 **Parent Topic:**[Core UI keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_KeyboardShortcuts.md)

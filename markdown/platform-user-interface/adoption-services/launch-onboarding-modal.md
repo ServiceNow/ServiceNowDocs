@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---
@@ -42,4 +42,6 @@ Role required: admin
 
 10. Select **Save**.
 
+
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

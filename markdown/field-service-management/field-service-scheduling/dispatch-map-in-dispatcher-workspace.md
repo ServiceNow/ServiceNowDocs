@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Viewing agents and tasks in the Dispatcher Workspace map
@@ -21,13 +21,13 @@ You can manage tasks and routing from the map, filter the view, and determine wh
 -   The Dispatcher Workspace map view centers based on the map pin clusters. Map pin clusters group the map pins near one another into a single cluster. You can zoom in, zoom out, and view the map in full screen. Select the map cluster to zoom the map to show the map markers of work order tasks and agents.
 -   Map pins in the Dispatcher Workspace map mark the location of tasks and agents in the dispatcher's area. The icons serve as access points to corresponding records. Unique task pins are displayed based on the state of the work order task.
 -   Map pins corresponding to a single task or agent show in the contextual side panel with scheduling information.
--   The map shows individual markers, not every task on the map. This is important because multiple tasks or agents might be at a single location, but only indicated by a single map marker.
--   In order to optimize performance, the map only renders current tasks that are loaded on the calendar, not every single task that’s available. You can change this setting so that more tasks are loaded on the page, which will cause more markers to show on the map. For more information, see [Determine the tasks to appear in the task panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configuring-filters-for-taskpanel.md).
+-   The map shows individual markers, not every task on the map. Showing individual markers is important because multiple tasks or agents might be at a single location, but only indicated by a single map marker.
+-   To optimize performance, the map only renders current tasks that are loaded on the calendar, not every task that’s available. You can change this setting so that more tasks are loaded on the page, which causes more markers to show on the map. For more information, see [Determine the tasks to appear in the task panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configuring-filters-for-taskpanel.md).
 -   If you want to change each cluster to show the total count of tasks and agents, see the sn\_fsm\_disp\_wrkspc.dispatcher\_workspace.cluster\_label property here: [Configure the appearance of the map in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configuring-map-settings.md).
 
--   If an agent has a closed task today or a work in progress task, then the map pin shows the agent at the task location of whichever is latest: the task work end time for a closed task, or task work start time for a work in progress task. Otherwise, the map pin will show the agent's location in user record \(the default location\).
+-   If an agent has a closed task today or a work in progress task, then the map pin shows the agent at the task location of whichever is latest: the task work end time for a closed task, or task work start time for a work in progress task. Otherwise, the map pin shows the agent's location in user record \(the default location\).
 
-**Note:** The map can load at most 2000 records from the task panel and the scheduler. When more than 2000 records, the map displays a message to refine the query to ensure that all records are displayed on the map.
+**Note:** The map can load at most 2000 records from the task panel and the scheduler. When more than 2000 records load, the map displays a message to refine the query to confirm that all records are displayed on the map.
 
 \[Omitted image "agent-location-map.png"\] Alt text: Map with tasks located in San Diego.
 

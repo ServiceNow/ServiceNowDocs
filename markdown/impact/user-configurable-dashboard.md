@@ -1,29 +1,43 @@
 ---
-title: Instance Observer user configurable dashboard
-description: Users can create their own dashboard according to their preferences of metrics that help users to analyze the health of their system in a snapshot.
+title: All Instances summary dashboard – snapshot of overall health
+description: The All Instances Summary Dashboard is the home page that provides a snapshot of the overall health of your instances. You can create your own dashboard according to your preferences for metrics that help you to analyze the health of your system in a snapshot.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/user-configurable-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Instance Observer, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Monitor instance performance, Platform Health, Using Impact, Impact]
 ---
 
-# Instance Observer user configurable dashboard
+# All Instances summary dashboard – snapshot of overall health
 
-Users can create their own dashboard according to their preferences of metrics that help users to analyze the health of their system in a snapshot.
+The All Instances Summary Dashboard is the home page that provides a snapshot of the overall health of your instances. You can create your own dashboard according to your preferences for metrics that help you to analyze the health of your system in a snapshot.
 
-The default base system dashboard, the All instance health dashboard, is the Instance Observer default homepage that provides a snapshot of the overall health of your instances with key insights, such as performance, reliability, and availability at a glance with the following widgets:
+Navigate to **Impact** &gt; **Platform Health** &gt; **Monitor** &gt; **Instance Observer**.
 
--   Alerts: The alerts for that account for the last 24 hours
--   Instance availability: The availability across all instances
+## All Instances Summary Dashboard
+
+The default base system dashboard, the All instance health dashboard, is the Instance Observer default home page that provides a snapshot of the overall health of your instances with key insights, such as performance, reliability, and availability at a glance with the following widgets:
+
+\[Omitted image "io-user-conf-dashboard.png"\] Alt text: All Instances Summary Dashboard.
+
+-   Instance availability: The availability across all instances.
+-   Alerts: The **Monitoring Alerts** display alerts that ServiceNow is proactively monitoring on behalf of customers. The **Self-Service Alerts** are your self configured alerts.
 -   Open cases: All open cases for that account
+-   Performance insights: The customizable widget gives the performance insights that are updated every 15 minutes.
 -   Known Issues \(ePRBs\): All known issues with ServiceNow
+-   Instance KPIs: Important KPIs for all instances of the account
 -   Clusters: Cluster details of all instances in the account
--   KPIs: Important KPIs for all instances of the account
 
-Users can select the auto-refresh frequency for the dashboard.
+You can select the auto-refresh frequency for the dashboard.
 
-**Note:** The All Instance health dashboard dashboard is not editable, deletable, or cloneable. Create a new dashboard to explore configuration options. See [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/customize-instance-observer-dashboard.md) for details.
+**Note:** The All Instance health dashboard isn’t editable, deletable, or cloneable. Create a fresh dashboard to explore configuration options. See [Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/customize-instance-observer-dashboard.md) for more information.
+
+-   **[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/customize-instance-observer-dashboard.md)**  
+Create a dashboard that serves as a home page to assess the health of your instances at a glance.
+-   **[Performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-performance-insights.md)**  
+The Performance insights widget in the user-configurable dashboard displays the total production instances, their count, and the status of their performance score in a dial component.
+
+**Parent Topic:**[Monitor instance performance with Instance Observer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/io-overview.md)
 

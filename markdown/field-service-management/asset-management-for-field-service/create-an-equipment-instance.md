@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Resource Scheduling, Setting up inventory and asset management, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Resource Scheduling, Inventory and asset management, Configure, Field Service Management]
 ---
 
 # Create an equipment instance
@@ -128,5 +128,5 @@ Equipment instance is created. If active and available, you can assign the insta
 
 [Assign equipment to a planned crew](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/add-equipment-to-a-planned-crew.md)
 
-[Equipment on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.md)
+[Equipment on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/update-equipment-statuses-with-the-now-mobile-agent-application.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---

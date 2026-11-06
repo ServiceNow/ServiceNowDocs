@@ -1,5 +1,5 @@
 ---
-title: Service Mapping query example — Linux servers in services
+title: Service Mapping — Linux servers in services
 description: Use this example to build a Service Mapping query to find all Linux servers in services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/service-mapping-query-tutorial.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example queries, CMDB Query Builder reference, CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Example queries, Reference, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Service Mapping query example — Linux servers in services
+# Service Mapping — Linux servers in services
 
 Use this example to build a Service Mapping query to find all Linux servers in services.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Health and Safety Core, Health and Safety, Employee Service Managem
 # Working with the Health and Safety dashboard
 
 With the Health and Safety dashboard, you can actively monitor and manage workplace safety performance across different locations in your organization and identify areas needing attention.
+
+When you have the Generative AI plugin installed, you can view the incident pattern analysis tab on the dashboard. For more information, see [Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md).
 
 \[Omitted image "hs-health-safety-dashboard.gif"\] Alt text: Health and Safety dashboard showing safety incidents metrics in the Highlights, Incident Management, and Risk Management tabs.
 
@@ -31,6 +33,10 @@ The dashboard features several tabs to enable you to navigate between different 
 -   **Highlights**
 
     This tab features a selection of key cards from the Incident Management and Risk Management tabs, to provide a high-level summary of key safety metrics such as the total incidents, recordable injuries, and open risk assessments.
+
+-   **Incident Patterns**
+
+    This tab provides safety managers with an automated, real-time overview of the recurring patterns across their safety incident data. For more information, see [Incident pattern analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-incident-pattern-analysis.md).
 
 -   **Incident Management**
 

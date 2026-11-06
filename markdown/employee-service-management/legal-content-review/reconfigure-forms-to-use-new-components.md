@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Content Review
 classification: legal-content-review
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Legal Content Review, Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Reconfigure forms to use new components
@@ -35,7 +35,7 @@ The content review request, that was part of Legal Request Management, has been 
 
     2.  From the list, select Legal Content Review.
 
-    3.  In the **Request record producer** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\)
+    3.  In the **Request record producer** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\)
 
     4.  If you aren’t able to edit the form in the current application scope, select the word **here** in the message at the top of the page.
 
@@ -61,7 +61,7 @@ The content review request, that was part of Legal Request Management, has been 
 
     3.  Select **Open Record**.
 
-    4.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\).
+    4.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
         If you are unable to edit the record, select **here** in the access message at the top of the form.
 
@@ -85,7 +85,7 @@ The content review request, that was part of Legal Request Management, has been 
 
         The Connected Content Catalog Item: Content Review form is displayed.
 
-    2.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: Lookup using list icon\).
+    2.  In the **Catalog item** field, select the Lookup using list icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Lookup using list icon\).
 
     3.  In the catalog items list, select the show/hide filter icon \(\[Omitted image "LSD-filter-icon.png"\] Alt text: Show/hide filter icon\).
 
@@ -102,5 +102,5 @@ The content review request, that was part of Legal Request Management, has been 
     9.  Select **Update**.
 
 
-**Parent Topic:**[Setting up Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-content-review/setting-up-legal-content-review.md)
+**Parent Topic:**[Configure Legal Content Review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-content-review/setting-up-legal-content-review.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-price-list.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create and publish a price list
@@ -24,7 +24,7 @@ You can create various types of price lists for your organization, such as price
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Prices** &gt; **Price Lists.**
 
@@ -122,7 +122,7 @@ Start Date
 
 </td><td>
 
-Starting date and time that the price list is effective. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: Calendar icon. to choose the start date and time, then select **OK**. **Note:** If this is a default price list, the start date must be either the current date or a date that is earlier than the current date.
+Starting date and time that the price list is effective. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**. **Note:** If this is a default price list, the start date must be either the current date or a date that is earlier than the current date.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ End Date
 
 </td><td>
 
-Ending date and time of the price list. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: Calendar icon. to choose the end date and time, then select **OK**. After the ending time, the price list is no longer active.**Note:** If this is a default price list, the end date is ignored.
+Ending date and time of the price list. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the end date and time, then select **OK**. After the ending time, the price list is no longer active.**Note:** If this is a default price list, the end date is ignored.
 
 </td></tr></tbody>
 </table>5.  Select **Save**.

@@ -1,22 +1,22 @@
 ---
 title: BIA states and UI actions
-description: When you create a business impact analysis, certain UI actions are associated with each state.
+description: When you create a business impact analysis \(BIA\), certain UI actions are associated with each state.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/states-ui-actions-bia.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # BIA states and UI actions
 
-When you create a business impact analysis, certain UI actions are associated with each state.
+When you create a business impact analysis \(BIA\), certain UI actions are associated with each state.
 
-## States and their UI associated actions in a business impact analysis
+## States and associated UI actions in BIA
 
-The states and their UI associated actions in a business impact analysis are described in the following table.
+The states and their UI associated actions in a business impact analysis are described in the table.
 
 <table id="table_amh_4kb_cv"><thead><tr><th>
 
@@ -38,7 +38,7 @@ Description of the action
 
 In the Business Impact Analysis record Lists view, select **New**.
 
- **Note:** You can also navigate to the **Business Impact Analysis** section of the Home page and select **Create BIA**.
+ **Note:** You can also navigate to the Business Impact Analysis section of the Home page and select **Create BIA**.
 
 </td><td>
 
@@ -80,7 +80,7 @@ Select **Approve**.
 
 </td><td>
 
-When you select **Approve** in the Create New Impact analysis form, the state of the business impact analysis is updated to **Approved**. The **Overview** tab displays the progression of the states as shown in the following example.
+When you select **Approve** in the Create New Impact analysis form, the state of the business impact analysis is updated to **Approved**. The **Overview** tab displays the progression of the states as shown in the example.
 
  \[Omitted image "bia-analysis-approved-overview-tab-states-progression.png"\] Alt text: BIA in the Approved state.
 
@@ -96,13 +96,13 @@ In the Create New Impact analysis form, select **Archive**.
 
 </td><td>
 
-When you select **Archive** in the Create New Impact analysis form, the state of the business impact analysis is updated to **Archived** as shown in the following example.
+When you select **Archive** in the Create New Impact analysis form, the state of the business impact analysis is updated to **Archived** as shown in the example.
 
  \[Omitted image "bia-archived.png"\] Alt text: Archived BIA.
 
  Starting with BCM release 9.0.x, you can revert an archived business impact analysis \(BIA\) to the **Draft** state by selecting the **Edit** button on the form.
 
- You can perform the following additional UI actions in the Create New Impact analysis form:
+ You can perform additional UI actions in the Create New Impact analysis form:
 
 -   **Generate PDF**
 

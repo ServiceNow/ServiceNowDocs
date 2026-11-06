@@ -1,5 +1,5 @@
 ---
-title: Hide News Center from the Mega Menu
+title: Hide News and Events from the Mega Menu
 description: The News Center menu option appears in the primary navigation menu by default, however, a portal admin can remove it from the menu.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/hide-news-center-mega-menu.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [News articles, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [News articles, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
-# Hide News Center from the Mega Menu
+# Hide News and Events from the Mega Menu
 
 The News Center menu option appears in the primary navigation menu by default, however, a portal admin can remove it from the menu.
 
@@ -30,6 +30,6 @@ Role required: admin
 
 4.  Click in the **Active** column to change the value to `False`.
 
-    The News Center menu option no longer appears in the primary navigation menu.
+    The News and Events menu option no longer appears in the primary navigation menu.
 
 

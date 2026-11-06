@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Schedule discovery of all resources in a service account
@@ -44,7 +44,7 @@ Role required: sn\_cmp.cloud\_admin
 
 5.  On the Select Datacenters page, specify which datacenters to discover.
 
-    Move datacenters into the **Selected** list, or select **Discover all datacenters listed below**.
+    Move individual datacenters to the **Selected** list, or select **Discover all datacenters listed below** to move all datacenters.
 
 6.  Click **Next**.
 
@@ -182,6 +182,4 @@ Open a datacenter record to see the relationships between the datacenter and the
 
 -   To view discovery status, discovery logs, discovered devices, and the ECC queue, click **Advanced View**.
 -   If Discovery fails, check the Cloud Discovery results on the [Discovery Home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-home-page.md).
-
-**Parent Topic:**[Additional Cloud Provisioning and Governance setup on day 2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cloud-mgt-general-setup-day-2.md)
 

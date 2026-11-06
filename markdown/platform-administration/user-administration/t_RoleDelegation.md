@@ -7,7 +7,7 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Delegating roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -35,8 +35,6 @@ Delegators can assign roles that they inherit from a group. They can also assign
 4.  Select **Submit**.
 
     A change request for the role delegator request is created and automatically approved.
-
-    \[Omitted image "RoleDelegatorChange.png"\] Alt text: Role delegator change request
 
 
 **Parent Topic:**[Delegating roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/c_DelegateRoles.md)

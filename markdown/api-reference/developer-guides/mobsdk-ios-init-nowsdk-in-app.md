@@ -7,7 +7,7 @@ release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Mobile SDK Developer Guide - iOS, Developer guides, API implementation and reference]
 ---
@@ -17,10 +17,6 @@ breadcrumb: [Mobile SDK Developer Guide - iOS, Developer guides, API implementat
 To access the functionality provided by the NowSDK, you must first initialize the NowSDK in your application.
 
 The Mobile SDK initialization is asynchronous. It is a good practice to start the initialization process as early as possible, such as in the application delegate’s `application(application:didFinishLaunchingWithOptions:)` function. Initialization only needs to occur once per application launch. There is no need to reinitialize when foregrounded or when a new scene is detected.
-
-The following diagram shows the initialization sequence for NowSDK and feature services:
-
-\[Omitted image "mobsdk-init-diagram.png"\] Alt text: MobileSDK integration flow diagram
 
 To initialize the ServiceNow Mobile SDK in your iOS application you’ll need an authorization provider conforming to `NowSDKAuthorizationProviding`, which uses your JWT provider information, and a delegate conforming to `DevicePermissionDelegate`.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/healthscan-definitions-may-store.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 8
-breadcrumb: [HealthScan definitions, HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Healthscan definitions updates: May 2025 store
@@ -593,6 +593,8 @@ User Experience​
 -   Updated to relevant documentation url​
 -   Added defensive scripting
 
+​ ​
+
 </td></tr><tr><td>
 
 HSD0002151
@@ -1046,4 +1048,5 @@ Security
 -   Altered documentation link to be more specific to this issue​
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/healthscan-definitions.md)
+

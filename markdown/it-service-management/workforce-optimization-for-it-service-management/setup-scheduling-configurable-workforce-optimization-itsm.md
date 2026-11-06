@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Scheduling, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Setting up Scheduling in Workforce Optimization for ITSM
 
 Manage events using the team calendar. You can create different types of event categories and use scripted extension points to customize the event types.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **[Configure the due date logic for shift approval flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/configure-time-off-shift-swap-approval-flows.md)**  
 As an administrator, you can configure the due date logic for the time-off request and shift-swap request approval flows.

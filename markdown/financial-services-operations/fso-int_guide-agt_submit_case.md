@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-int\_guide-agt\_submit\_case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integration use cases, Using the developer guide, Financial Services Operations \(FSO\)]
+breadcrumb: [Integration use cases, Developer resources, Financial Services Operations \(FSO\)]
 ---
 
 # Agent submitting a case

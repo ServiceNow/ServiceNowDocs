@@ -5,17 +5,17 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-sp-bulk-upload-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Sales promotion bulk upload form
 
 Bulk sales promotion upload form.
 
-|Fields|Description|
-|------|-----------|
+|Field|Description|
+|-----|-----------|
 |Sales promotion number|Sales promotion campaign number.|
 |External id|ID of sales promotion in third-party system.|
 |Sold product cost|Price of the product sold.|
@@ -23,4 +23,6 @@ Bulk sales promotion upload form.
 |Currency|Currency type.|
 |Promotion value|Discount given for a promotion.|
 |Sold product serial number|Serial number of the sold product.|
+
+**Parent Topic:**[Sales promotion form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/sales-promotion-form.md)
 

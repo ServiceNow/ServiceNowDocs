@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Reference, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -172,6 +172,8 @@ Can submit Health and Safety incidents, observations, and questions from Employe
 -   sn\_ohs\_im.observation\_reporter
 -   sn\_ohs\_im.meeting\_minute\_reader
 -   sn\_ohs\_im.meeting\_reader
+
+ **Note:** For more information on upgraded instances, see .
 
 </td></tr><tr><td>
 
@@ -445,6 +447,8 @@ Can view Health and Safety incidents
 -   sn\_hs\_rm.risk\_category\_reader
 -   sn\_hs\_rm.hazard\_reader
 -   sn\_hs\_rm.template\_reader
+
+ **Note:** For more information on upgraded instances, see .
 
 </td></tr><tr><td>
 

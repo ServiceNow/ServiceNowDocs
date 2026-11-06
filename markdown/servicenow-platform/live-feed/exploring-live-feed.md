@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,8 +32,6 @@ Live Feed content forms a searchable knowledge source for sharing information wi
 -   Users who take advantage of the accessibility options in the platform can tab through a Live Feed to navigate.
 
 Live Feed includes different types of feeds, including company feeds, group feeds, individual feeds, and record feeds.
-
-\[Omitted image "MyLiveFeeds.png"\] Alt text: The My Live Feeds page groups feeds by favorites, company feed, group feeds, record feeds, people, teams, and hashtags.
 
 **Note:** Live Feed v2 is active for all new instances by default. If you are upgrading from an earlier version of ServiceNow®, you need to activate Live Feed v2 to use these features.
 

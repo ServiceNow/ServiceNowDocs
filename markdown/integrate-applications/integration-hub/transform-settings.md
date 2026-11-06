@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integration Hub - Import, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub - Import, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
 # Transform settings

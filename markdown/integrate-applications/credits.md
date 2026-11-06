@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/credits.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Workflow Data Fabric]
 ---
 
 # Workflow Data Fabric Credits
 
 Workflow Data Fabric Credits let you monitor and track Workflow Data Fabric product usage through a dashboard showing credit usage, usage measurements, and thresholds that trigger alerts.
 
-For more information about Workflow Data Fabric benefits, the workflow for the solution, and requirements for integrating the solution, see [Accelerating and automating your repetitive tasks by using Workflow Data Fabric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/accelerate-automate-engine-rpa.md).
+For more information about Workflow Data Fabric benefits, the workflow for the solution, and requirements for integrating the solution, see .
 
 ## Exploring Workflow Data Fabric Credits
 
@@ -52,7 +52,7 @@ Role required: admin
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

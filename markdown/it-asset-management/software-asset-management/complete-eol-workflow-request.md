@@ -1,30 +1,32 @@
 ---
 title: Complete the end of life workflow request for your software product
-description: Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory. If you set the Action field to Remove EOL Software in the Decide on IT strategy task, you must perform these software EOL tasks.
+description: Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/complete-eol-workflow-request.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete the end of life workflow request for your software product
 
-Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory. If you set the **Action** field to **Remove EOL Software** in the Decide on IT strategy task, you must perform these software EOL tasks.
+Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory.
 
 ## Before you begin
 
 Before you proceed with removing the EOL software, you must start an EOL workflow request. For details, see [Create an end of life workflow request for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-eol-risk.md).
 
+If you set the **Action** field to **Remove EOL Software** in the Decide on IT strategy task, you must perform these software EOL tasks.
+
 Role required: sam\_user, users with an itil role to whom a task is assigned
 
 ## About this task
 
-To close an EOL request, you have to close and complete all the tasks required to complete the workflow. The following procedure explains how to close the EOL request, when you set the **Action** field to **Remove EOL Software** in the Decide on IT strategy task. You can apply the same approach to close the EOL request for the following possible values in the **Action** field in the Decide on IT strategy task:
+To close an EOL request, you must complete and close all the tasks required to complete the workflow. The following procedure explains how to close the EOL request, when you set the **Action** field to **Remove EOL Software** in the Decide on IT strategy task. You can apply the same approach to close the EOL request for the following possible values in the **Action** field in the Decide on IT strategy task:
 
 -   Upgrade
 -   Purchase support

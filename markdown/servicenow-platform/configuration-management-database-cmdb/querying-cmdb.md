@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Exploring CMDB Query Builder
@@ -44,29 +44,33 @@ NLQ Genius Results for [AI Search](https://raw.githubusercontent.com/ServiceNow/
 
 **Note:** AI Search is a complementary search experience that allows you to surface CMDB records in your normal flow of work, without having to access the CMDB Query Builder. It doesn't replace intelligent Search for CMDB, which is purpose-built and integrated into CMDB Query Builder.
 
-## CMDB Query
+## Query types
 
-A query type that queries the infrastructure for CI classes and the relationships and references that connect them. You can optionally add the context of non-CMDB tables to a CMDB query.
+There are several types of CMDB queries:
 
-You can include [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md) in a CMDB query, to find, for example:
+-   **CMDB Query**
 
--   All critical application services in your database.
--   All infrastructure in a particular application service.
--   All incidents for a particular CI in an application service, or all incidents for all the CIs of an application service.
--   All application services with a pattern of a service connected to a database, and where the database has incidents.
+    A query type that queries the infrastructure for CI classes and the relationships and references that connect them. You can optionally add the context of non-CMDB tables to a CMDB query.
 
-The list of available non-CMDB tables includes a subset of tables within the system, which have a reference to the Configuration Item \[cmdb\_ci\] class or its children. The list of non-CMDB tables, includes tables such as Asset, Task, and Problem. You can use the system property [glide.cmdb.query.non\_cmdb.black\_listed\_tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) to narrow down the list of non-CMDB tables to choose from.
+    You can include [Service instances \(Application services\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/application-services.md) in a CMDB query, to find, for example:
 
-## Service Mapping Query
+    -   All critical application services in your database.
+    -   All infrastructure in a particular application service.
+    -   All incidents for a particular CI in an application service, or all incidents for all the CIs of an application service.
+    -   All application services with a pattern of a service connected to a database, and where the database has incidents.
+    The list of available non-CMDB tables includes a subset of tables within the system, which have a reference to the Configuration Item \[cmdb\_ci\] class or its children. The list of non-CMDB tables, includes tables such as Asset, Task, and Problem. You can use the system property [glide.cmdb.query.non\_cmdb.black\_listed\_tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) to narrow down the list of non-CMDB tables to choose from.
 
-A query type that queries application services. The query is framed within an application service map. You define a pattern, and query for application service maps that have that pattern in their definition. The relationships in Service Mapping queries are matched by single-level direct relationships which is similar to the CMDB queries, and in addition, they are also matched by multi-level indirect relationships if they exist. A query for a relationship between two CI classes is satisfied even if the two CI classes are connected by intermediate CI classes that are not specified in the query.
+-   **Service Mapping Query**
 
-## Combination Query
+    A query type that queries application services. The query is framed within an application service map. You define a pattern, and query for application service maps that have that pattern in their definition. The relationships in Service Mapping queries are matched by single-level direct relationships which is similar to the CMDB queries, and in addition, they are also matched by multi-level indirect relationships if they exist. A query for a relationship between two CI classes is satisfied even if the two CI classes are connected by intermediate CI classes that are not specified in the query.
 
-You can combine the two query types by incorporating a saved Service Mapping query into a CMDB query. For example, create a CMDB query for Windows Servers that are connected to Tomcat WAR. Then connect the Tomcat WAR CI class to a Service Mapping query. The query changes to find Windows Servers that are connected to Tomcat WAR which is included in the services that returned by the Service Mapping query. You can inverse that query by choosing **Does Not Belong To Service**. This changes the query to find Windows Servers that are connected to Tomcat WAR that is not included in services returned by the Service Mapping query.
+-   **Combination Query**
+
+    You can combine the two query types by incorporating a saved Service Mapping query into a CMDB query. For example, create a CMDB query for Windows Servers that are connected to Tomcat WAR. Then connect the Tomcat WAR CI class to a Service Mapping query. The query changes to find Windows Servers that are connected to Tomcat WAR which is included in the services that returned by the Service Mapping query. You can inverse that query by choosing **Does Not Belong To Service**. This changes the query to find Windows Servers that are connected to Tomcat WAR that is not included in services returned by the Service Mapping query.
+
 
 **Related topics**  
 
 
-[CMDB groups]()
+[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
 

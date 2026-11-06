@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/build-needs-decision-tree.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Build a needs decision tree
@@ -52,15 +52,15 @@ As you build your decision tree, for example after adding a decision node or a p
 
 5.  Continue building your decision tree in Decision Tree Builder.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d34524e173">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d128241e173">
 
 Option
 
-</th><th align="left" id="d34524e176">
+</th><th align="left" id="d128241e176">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d34524e182">
+</th></tr></thead><tbody><tr><td id="d128241e182">
 
 **[Determine the next node displayed in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-path-in-gdb.md)**
 
@@ -68,7 +68,7 @@ Steps
 
 Configure a path to set the conditions for when the next question is displayed in a decision tree.
 
-</td></tr><tr><td id="d34524e193">
+</td></tr><tr><td id="d128241e193">
 
 **[Add a follow-up set of questions or instructions in a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-decision-node-in-gdb.md)**
 
@@ -76,7 +76,7 @@ Configure a path to set the conditions for when the next question is displayed i
 
 Configure a question node to add follow-up questions or instructions. An answer to these questions either leads to a guidance or a further set of questions.
 
-</td></tr><tr><td id="d34524e204">
+</td></tr><tr><td id="d128241e204">
 
 **Add a guidance node for the product recommendation questionnaire**
 
@@ -91,7 +91,7 @@ Configure a guidance node, which identifies the product recommendation displayed
 7.  Select **Save and close**.
 
 
-</td></tr><tr><td id="d34524e255">
+</td></tr><tr><td id="d128241e255">
 
 **[Activate a decision tree](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-guided-decision-tree.md)**
 
@@ -104,4 +104,11 @@ When your decision tree is complete, select **Activate** in Decision Tree Builde
 ## What to do next
 
 [Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-publish-needs-template.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

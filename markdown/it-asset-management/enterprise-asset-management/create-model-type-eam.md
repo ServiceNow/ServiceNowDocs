@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Normalizing enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Normalizing enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create custom enterprise model type

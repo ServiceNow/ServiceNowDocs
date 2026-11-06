@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mab-concept.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Mobile App Builder

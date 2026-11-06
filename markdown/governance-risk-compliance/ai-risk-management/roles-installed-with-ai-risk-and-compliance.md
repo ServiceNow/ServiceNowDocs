@@ -1,20 +1,21 @@
 ---
-title: Roles installed with AI Risk and Compliance
-description: The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI systems across the enterprise.
+title: Roles and responsibilities
+description: The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI assets across the enterprise.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/roles-installed-with-ai-risk-and-compliance.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [roles installed, AI Risk and Compliance roles, user roles]
 breadcrumb: [Reference, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Roles installed with AI Risk and Compliance
+# Roles and responsibilities
 
-The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI systems across the enterprise.
+The AI Risk and Compliance installs the essential roles to perform respective day-to-day operational tasks for managing AI assets across the enterprise.
 
 <table id="table_m2t_czq_mqb"><thead><tr><th>
 
@@ -47,19 +48,18 @@ AI Risk and Compliance Admin
 
 </td><td>
 
--   sn\_risk.admin
 -   sn\_smart\_asmt.template\_manager
 -   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
 -   sn\_smart\_asmt.assessment\_admin
 -   sn\_grc\_workspace.state\_model\_admin
 -   sn\_smart\_asmt.template\_contributor
--   sn\_compliance.admin
--   sn\_compliance.control\_framework\_admin\*
--   sn\_compliance.library\_admin\*
--   sn\_compliance.policy\_admin\*
+-   sn\_ai\_case\_mgmt.ai\_case\_admin
+-   sn\_reg\_body\_mgmt.writer
+-   sn\_risk\_advanced.ara\_admin
+-   sn\_rec\_pg\_vertical.admin
 -   sn\_grc\_ent\_access.admin
 
-**Note:** GRC: Entity Based Access application must be installed.
+**Note:** GRC: Entity Based Access application must be installed for this role to be available.
 
 
 </td></tr><tr><td>
@@ -71,7 +71,7 @@ AI Risk and Compliance Manager
 </td><td>
 
 ​The AI Risk and Compliance Manager can access all AI systems on the system and perform the following tasks:​-   Initiate impact assessments.
--   Manage the lifecycle of an AI system.
+-   Manage the life cycle of an AI system.
 -   Initiate risk assessments.
 -   Initiate control attestations.
 -   Write and update access to the bulk access update configuration.
@@ -84,13 +84,11 @@ AI Risk and Compliance Manager
 -   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst
 -   sn\_smart\_asmt.template\_contributor
 -   sn\_smart\_asmt.template\_manager
--   sn\_risk.manager
--   sn\_compliance.control\_framework\_manager\*
--   sn\_compliance.library\_manager\*
--   sn\_compliance.policy\_manager\*
+-   sn\_risk\_advanced.risk\_asmt\_project\_manager
+-   sn\_ai\_case\_mgmt.ai\_case\_manager
 -   sn\_grc\_ent\_access.bulk\_access\_config\_admin
 
-**Note:** GRC: Entity Based Access application must be installed.
+**Note:** GRC: Entity Based Access application must be installed for this role to be available.
 
 
 ​
@@ -104,7 +102,7 @@ AI Risk and Compliance Analyst
 </td><td>
 
 The AI Risk and Compliance Analyst can access all AI systems assigned to them in the system and perform the following tasks only on the assigned records:-   Initiate impact assessments.
--   Manage the lifecycle of an AI system.
+-   Manage the life cycle of an AI system.
 -   Initiate risk assessments.
 -   Initiate control attestations.
 
@@ -112,22 +110,19 @@ The AI Risk and Compliance Analyst can access all AI systems assigned to them in
 
 -   sn\_ai\_case\_mgmt.ai\_case\_analyst
 -   sn\_smart\_asmt.assessment\_reader
--   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user
 -   sn\_smart\_asmt.template\_reader
--   sn\_risk\_advanced.ara\_approver
--   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_​reader
+-   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user
+-   sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_reader
 -   sn\_grc\_workspace.user
--   sn\_risk.user
+-   sn\_grc\_workspace.state\_model\_reader
+-   sn\_risk\_advanced.ara\_creator
 -   sn\_risk\_advanced.ara\_assessor
--   sn\_compliance.library\_user\*
--   sn\_compliance.control\_framework\_user\*
--   sn\_compliance.policy\_user\*
-
-​
+-   sn\_risk\_advanced.ara\_approver
+-   sn\_risk\_advanced.risk\_asmt\_project\_user
 
 </td></tr><tr><td>
 
-AI Risk and Compliance User
+AI Risk and Compliance Business User
 
  \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\]
 
@@ -141,12 +136,11 @@ The ​AI Risk and Compliance User can perform the following tasks:-   Create AI
 
 ​-   sn\_grc\_workspace.assessment\_template\_configuration\_reader
 -   sn\_smart\_asmt.actor
--   sn\_grc.business\_user
 -   sn\_grc\_workspace.user
 -   sn\_smart\_asmt.assessment\_reader
--   sn\_compliance.control\_framework\_business\_user\*
--   sn\_compliance.library\_business\_user\*
--   sn\_compliance.policy\_business\_user\*
+-   sn\_risk\_advanced.risk\_asmt\_project\_reader
+
+**Note:** For more information on AI Control Tower roles, see [AI Control Tower roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/roles-installed-with-ai-control-tower.md).
 
 </td></tr><tr><td>
 
@@ -160,13 +154,8 @@ AI Risk and Compliance Reader
 
 </td><td>
 
--   sn\_risk.reader
 -   sn\_grc\_workspace.user
--   sn\_compliance.library\_reader\*
--   sn\_compliance.control\_framework\_reader\*
--   sn\_compliance.policy\_reader\*
-
-​
+-   sn\_grc\_workspace.state\_model\_reader
 
 </td></tr><tr><td>
 
@@ -204,7 +193,7 @@ AI Case Analyst
 
 </td><td>
 
-The AI Case Analyst can review the AI cases and AI inquiries assigned to them in the system and perform the following tasks only on the assigned records:-   Identify and manage impacted and related areas such as policies, regulations, and enterprise wide compliance risks.
+The AI Case Analyst can review the AI cases and AI inquiries assigned to them in the system and perform the following tasks only on the assigned records:-   Identify and manage impacted and related areas such as policies, regulations, and enterprise-wide compliance risks.
 -   Identify and manage issues related to impacted areas to eliminate the root causes.
 
 </td><td>
@@ -241,6 +230,55 @@ The AI Case Admin can manage type profiles to segregate AI cases. They can set u
 
 -   sn\_grc\_case\_mgmt.grc\_case\_admin
 -   sn\_ai\_case\_mgmt.ai\_case\_manager
+
+</td></tr><tr><td>
+
+AI Risk and Compliance AI Agent User
+
+ \[sn\_airc\_gen\_ai.airc\_ai\_agent\_user\]
+
+</td><td>
+
+The AI Risk and Compliance Agent User can report issues and execute and orchestrate the AI agents as part of the lifecycle. The user can perform the following tasks:-   Report a GRC issue.
+-   Perform issue summarization.
+-   Perform risk assessment summarization
+-   Respond to smart assessments with Now Assist
+-   Perform common control objective creation
+-   Act on recommendation for similar control objectives
+
+**Note:** This role must be manually assigned to an user.
+
+</td><td>
+
+-   sn\_airc\_gen\_ai.airc\_ai\_user
+-   now\_assist\_panel\_user
+-   sn\_grc\_genai.issue\_ai\_agent\_user
+
+ **Note:** This role is applicable only for AICT Foundation.
+
+</td></tr><tr><td>
+
+AI Risk and Compliance AI User
+
+ \[sn\_airc\_gen\_ai.airc\_ai\_user\]
+
+</td><td>
+
+The AI Risk and Compliance User can execute GenAI skills for the following tasks:-   Perform issue summarization.
+-   Perform risk assessment summarization
+-   Respond to smart assessments with Now Assist
+-   Perform common control objective creation
+-   Act on recommendation for similar control objectives
+
+**Note:** This role must be manually assigned to an user.
+
+</td><td>
+
+-   sn\_grc\_sharegenai.compliance\_library\_gen\_ai\_user.
+-   sn\_grc\_genai.issue\_user
+-   sn\_grc\_sharegenai.risk\_asmt\_user
+
+ **Note:** This role is applicable only for AICT Foundation.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[AI Risk and Compliance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-reference.md)

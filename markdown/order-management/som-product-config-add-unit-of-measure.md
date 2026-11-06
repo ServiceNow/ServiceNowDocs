@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-product-config-add-unit-of-measure.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add a unit of measure to a product offering
@@ -20,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you’re working with from the list.
 
@@ -35,7 +35,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
     |Product offering|Name of the selected product offering.|
     |Unit of measure|Option for selecting an existing unit of measure or select **New** to add a new unit of measure.|
     |Default|Option indicating the selected UOM is the default.|
-    |Active|Option indicated the selected UOM is active.|
+    |Active|Option indicating the selected UOM is active.|
 
 6.  Select **Save**.
 
@@ -49,4 +49,11 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 -   [Add related contracts to product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-related-contracts.md)
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-relationship-groups.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

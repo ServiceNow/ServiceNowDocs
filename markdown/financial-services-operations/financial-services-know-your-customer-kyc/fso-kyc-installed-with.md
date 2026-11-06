@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Know Your Customer \(KYC\)
 classification: financial-services-know-your-customer-kyc
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Know Your Customer, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Know Your Customer, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Know Your Customer

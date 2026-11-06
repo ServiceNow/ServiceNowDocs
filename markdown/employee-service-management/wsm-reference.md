@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsm-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -17,7 +17,7 @@ Learn more about Workplace Space Mapping and the components installed with it, s
 -   **[Components installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-mappedin-components.md)**  
 Several types of components are installed with Workplace Space Mapping, including tables and user roles.
 -   **[Properties installed with Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsd-space-mapping-properties.md)**  
-The following properties are installed with Workplace Space Mapping. Navigate to **All** &gt; **Workplace Space Mapping** &gt; **Properties** or enter sys\_properties.list in the context menu and search for Workplace Space Mapping properites.
+The following properties are installed with Workplace Space Mapping.
 
 **Parent Topic:**[Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-mappedin-admin.md)
 

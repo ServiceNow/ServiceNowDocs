@@ -7,9 +7,9 @@ release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Import areas, teams, and iterations from Azure DevOps
@@ -27,7 +27,7 @@ Import areas, teams, and iterations of your Azure DevOps projects. These details
 
 2.  Open your Azure DevOps instance record.
 
-3.  From the Azure DevOps Projects related list, open a project record.
+3.  From the Azure DevOps Projects releated list, open a project record.
 
 4.  Click **Import Areas, Iterations and Teams**.
 

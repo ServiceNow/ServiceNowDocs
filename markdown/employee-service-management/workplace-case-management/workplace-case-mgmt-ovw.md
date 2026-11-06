@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Ser
 # Exploring Workplace Case Management
 
 Fulfilling employee workplace requests involves multiple, complex back-end processes, including analyzing the requests for type and routing them to human or automated responses, approvals, or other tasks. The ServiceNow® Workplace Case Management application makes these processes simpler and more efficient by letting you create pre-defined steps to fulfill requests.
-
-\[Omitted image "covid.workplacecasemanagement.png"\] Alt text: Workplace Case Management overview
 
 ## Request a workplace service
 

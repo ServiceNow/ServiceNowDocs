@@ -5,18 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-use-case-tables.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer Service Management and the CSDM guidelines, Getting started with Customer Service Management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CSDM guidelines, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Customer Service Management and CSDM tables
 
 Customer Service Management manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Customer Service Management.
-
-## CSM tables managed by CSDM
-
-\[Omitted image "csdm-tables-managed-by-csm.png"\] Alt text: CSDM tables managed by CSM.
 
 CSM references the following CSDM tables:
 
@@ -48,12 +44,10 @@ CSM references the following CSDM tables:
 
 ## CSDM tables used by CSM
 
-\[Omitted image "csdm-tables-used-by-csm.png"\] Alt text: CSDM tables used by CSM.
-
 1.  Company \[core\_company\], Business Unit \[business\_unit\], Department \[cmn\_department\], Location \[cmn\_location\], Groups \[sys\_user\_group\], Users \[sys\_user\]
 2.  Product Model tables \[cmdb\_model\], and \[cmdb\_service\_product\_model\]
 3.  Contract table \[ast\_contract\]
-4.  Mapped Application Service table \[cmdb\_ci\_service\_discovered\]
+4.  Mapped service instance table \(formerly application service\) \[cmdb\_ci\_service\_discovered\]
 5.  Configuration Item table \[cmdb\_ci\_\*\]
 6.  Business Service table \[cmdb\_ci\_service\_business\]
 7.  Business Service Offering table \[service\_offering\]

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-06-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Workspace, Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Workspace, Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Identify the supply for open demands in the Hardware Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage stockrooms with inventory reports in the Hardware Asset Work
 Use the Open demands report to determine available stock within local stockrooms and distribution channels to fulfill sourcing requests that are open.
 
 ## Before you begin
-
-**Important:** The Open demands report is available with Hardware Asset Management version 13.0.0 and later.
 
 Role required: asset
 

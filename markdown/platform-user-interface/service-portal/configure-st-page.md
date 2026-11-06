@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Standard ticket page, Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,13 +24,13 @@ Role required: admin or sp\_admin
 
 You can add a standard ticket configuration only for a task-extended table.
 
-Widgets containing **Date/Time** values display the date and time only in the **Time Ago** \(for example, 11 minutes ago\) format, and user preferences for such widgets are not considered. For example, the **Created date** and the **Updated date** values are always displayed in the **Time Ago** format.
+Widgets containing **Date/Time** values display the date and time only in the **Time Ago** \(for example, 11 minutes ago\) format, and user preferences for such widgets aren’t considered. For example, the **Created date** and the **Updated date** values are displayed in the **Time Ago** format.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Standard Ticket** &gt; **Standard Ticket Configuration**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -72,7 +72,7 @@ State field
 
 </td><td>
 
-Any field of the task-extended table. By default, this field is mapped to the **State** field of the task-extended table. You have to configure the form to add this field.**Note:** You cannot add fields for any of the following information:
+Any field of the task-extended table. By default, this field is mapped to the **State** field of the task-extended table. You have to configure the form to add this field.**Note:** You can’t add fields for any of the following information:
 
 -   Number
 -   Short description
@@ -96,6 +96,14 @@ Scenario when the request description should be displayed. Possible options are:
 -   Always
 -   When no variables
  **Note:** When displayed, you can expand and collapse the description.
+
+</td></tr><tr><td>
+
+Description field
+
+</td><td>
+
+A field that the sp\_admin can select from the fields of the ticket record \(for example, sc\_req\_item, incident\), which is displayed as description on the Standard Ticket Page.
 
 </td></tr><tr><td>
 
@@ -129,7 +137,7 @@ Info fields
 
 Fields that should be displayed in the info region. This field disappears when you select the **Advanced** check box.**Note:**
 
--   You cannot add fields for any of the following information:
+-   You can’t add fields for any of the following information:
     -   Number
     -   Short description
     -   Created date
@@ -137,7 +145,7 @@ Fields that should be displayed in the info region. This field disappears when y
     -   Watch list
     -   State
     -   Any user input such as comments and work notes
--   A field of the Workflow type is not supported for any table. Only for the Requested Item \[sc\_req\_item\] table, the Workflow type field is supported, for example, the **Stage** field. This field is displayed at the last irrespective of the field position in the configuration.
+-   A field of the workflow type isn’t supported for any table. Only for the Requested Item \[sc\_req\_item\] table, the workflow type field is supported, for example, the **Stage** field. This field is displayed at the last irrespective of the field position in the configuration.
 
 
 </td></tr><tr><td class="sub-head" colspan="2">
@@ -150,7 +158,9 @@ Action widget
 
 </td><td>
 
-Widget to specify the actions available in the Action region.
+Widget to specify the actions available in the Action region.**Note:**
+
+If the field is configured, it takes precedence over the standard ticket actions.
 
 </td></tr><tr><td>
 
@@ -160,115 +170,41 @@ Action widget parameters
 
 Name value pair of action widget parameters.
 
-</td></tr></tbody>
-</table>4.  Right-click the header menu and click **Save**.
+</td></tr><tr><td colspan="2">
 
-5.  From the Tab Configurations related list, click **New**.
-
-    **Note:**
-
-    -   By default, the Activity and Attachments type tab configurations are available for all standard configurations. Other default tab configurations may vary based on the task-extended table. For example, for the sc\_req\_item configuration, the Variable Editor \(Read-Only\) type is also available.
-    -   You cannot duplicate any tab type other than Custom.
-    -   You can configure a maximum of six tabs.
-    -   You can add either Variable Editor \(Read-Only\) or the Variable Summarizer tab type.
-6.  On the form, fill in the fields.
-
-<table id="id_kl3_yk2_g5b"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Type
-
-</td><td>
-
-Tab type based on which a widget is displayed. Possible options are:-   Activity
--   Associated Requests
--   Attachments
--   Custom
--   Variable Editor \(Read-Only\)
--   Variable Summarizer
-
+Summarization
 
 </td></tr><tr><td>
 
-Tab name
+Summary fields
 
 </td><td>
 
-Name of the tab.
-
-</td></tr><tr><td>
-
-Application
-
-</td><td>
-
-Application associated with the ticket configuration.
-
-</td></tr><tr><td>
-
-Order
-
-</td><td>
-
-Order in which the tab should be displayed in the tabs section. The tab with the least order is the tab selected on the page load.
-
-</td></tr><tr><td>
-
-Advanced
-
-</td><td>
-
-Option to enable adding a script for the tab visibility. By default, this check box is cleared.
-
-</td></tr><tr><td>
-
-Visible\(Script\)
-
-</td><td>
-
-Script for the tab visibility.-   If the script returns true, the tab is visible on the standard ticket page.
--   If the script returns false, the tab is not visible on the standard ticket page.
- **Note:** This field appears only when the **Advanced** check box is selected.
-
-</td></tr><tr><td>
-
-Visible
-
-</td><td>
-
-Conditions for the tab visibility. This is not displayed if the **Advanced** check box is selected.
-
-</td></tr><tr><td>
-
-Widget
-
-</td><td>
-
-Widget that should be displayed in the tabs section. This field appears only when **Custom** is selected from **Type**.
-
-</td></tr><tr><td>
-
-Widget parameters
-
-</td><td>
-
-Comma-separated list of tab widget parameters. This field appears only when **Custom** is selected from **Type**.
+Standard ticket page fields that are included in the summary generated by Now Assist.
 
 </td></tr></tbody>
-</table>7.  Click **Submit**.
+</table>4.  Select and hold \(or right-click\) the header menu and select **Save**.
 
-8.  On the Ticket Configuration form, click **Update**.
+5.  After you make all the required changes, select **Submit**.
 
 
 -   **[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/enable-instanceop-activity.md)**  
 Format the work notes and add @mentions in the Activity tab on a standard ticket page.
+-   **[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)**  
+You can configure the tabs for the standard ticket page.
+-   **[Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)**  
+You can configure specific actions to be directly available on the standard ticket page. Requesters are able to initiate these actions. Scriptable APIs can also trigger these actions.
 
 **Parent Topic:**[Standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/standard-ticket-page.md)
+
+**Related topics**  
+
+
+[Enable instance options for the Activity tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/enable-instanceop-activity.md)
+
+[Configure tabs for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-tabs-for-standard-ticket-page.md)
+
+[Configure actions for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-actions-for-standard-ticket-page.md)
+
+[bundle-platai.now-assist-in-standard-ticket-page]
 

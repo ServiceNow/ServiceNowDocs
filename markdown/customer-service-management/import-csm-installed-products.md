@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-csm-installed-products.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installed products, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Installed products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Import installed products with guided setup
@@ -16,7 +16,7 @@ Installed products provide information on the sold products and how they are dep
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## Procedure
 

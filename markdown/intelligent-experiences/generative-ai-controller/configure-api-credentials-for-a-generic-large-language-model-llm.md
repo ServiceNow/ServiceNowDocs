@@ -1,24 +1,24 @@
 ---
 title: Configure API credentials for a generic large language model \(LLM\) connector
-description: Use a generic LLM connector to connect the ServiceNow AI Platform with an external AI provider to use generative AI capabilities in custom Virtual Agent topics, Flows, or scripts, like background and business rule scripts.
+description: Use a generic LLM connector to connect an external AI provider to Generative AI Controller to use generative AI capabilities in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/generative-ai-controller/configure-api-credentials-for-a-generic-large-language-model-llm.html
 release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring API credentials for generative AI capabilities, Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure API credentials for a generic large language model \(LLM\) connector
 
-Use a generic LLM connector to connect the ServiceNow AI Platform with an external AI provider to use generative AI capabilities in custom Virtual Agent topics, Flows, or scripts, like background and business rule scripts.
+Use a generic LLM connector to connect an external AI provider to Generative AI Controller to use generative AI capabilities in your instance.
 
 ## Before you begin
 
-You must have access to the API of an external LLM in order to configure the credentials.
+You must have access to the API of an external LLM to configure the credentials.
 
 Role required: admin
 
@@ -80,4 +80,8 @@ You have the connection and credential alias to use for connecting a generic LLM
 ## What to do next
 
 For more information on configuring a generic LLM, see [configure a generic LLM connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
+
+To build custom skills with this LLM, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
+
+Activate generative AI skills in the AI Admin Hub console for your workflow. For more information, see [AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platform-now-assist-landing.md).
 

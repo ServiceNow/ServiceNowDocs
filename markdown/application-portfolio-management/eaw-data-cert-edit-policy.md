@@ -1,22 +1,26 @@
 ---
 title: Edit a certification policy
-description: Update an certification existing policy details. You can edit the draft or inactive certification policies.
+description: Update an existing certification policy details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-data-cert-edit-policy.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data certification in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Edit a certification policy
 
-Update an certification existing policy details. You can edit the draft or inactive certification policies.
+Update an existing certification policy details.
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst
+Role required: sn\_cmdb\_admin + sn\_apm.apm\_analyst
+
+## About this task
+
+You can edit the draft or inactive certification policies.
 
 ## Procedure
 
@@ -35,7 +39,7 @@ Role required: System admin, cmdb admin + analyst
 6.  Select **Save &amp; Exit** to save the policy as draft or select **Publish Policy** to publish the draft policy.
 
 
-**Parent Topic:**[Data certification in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-explore-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-data-cert.md)
 
 **Related topics**  
 

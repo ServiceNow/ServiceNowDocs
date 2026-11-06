@@ -7,7 +7,7 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time Sheet Portal, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,7 +26,7 @@ Role required: admin or sp\_admin
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Widget Instances**.
 
-2.  Search the Widget column for **Time Card Portal Main Container** and open the record.
+2.  Click the preview time card header icon \(\[Omitted image "preview-record-icon.png"\] Alt text: Preview Time card header icon\) to open the Time Card Portal Main Container widget instance.
 
 3.  On the Instance form, update the code by providing values for the following column configurations in the **Additional options, JSON format** field.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/change-hide-off-shift.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Change the number of days that dispatchers can hide off shift agents
@@ -15,6 +15,8 @@ breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable W
 Increase the amount of time that the hide off-shift agent shows on the calendar in Dispatcher Workspace so dispatchers can plan around agent schedules farther in advance.
 
 ## Before you begin
+
+\[Omitted video\] Description: Change the number of days that dispatchers can hide off shift agents
 
 Role required: admin
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/agent-create-request-for-customer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Create a request on behalf of a customer or consumer
@@ -39,15 +39,15 @@ Customer service agents can browse the catalog and make a selection to create a 
 
 5.  To complete the request, do one of the following.
 
-<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d106058e118">
+<table id="choicetable_vjq_k4q_g3b"><thead><tr><th align="left" id="d127438e118">
 
 Interface
 
-</th><th align="left" id="d106058e121">
+</th><th align="left" id="d127438e121">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d106058e127">
+</th></tr></thead><tbody><tr><td id="d127438e127">
 
 **CRM Workspace**
 
@@ -60,7 +60,7 @@ Complete these steps:
 3.  Click **Checkout**.
  The system creates the request and displays the request number. Click **View Details** to open the request record.
 
-</td></tr><tr><td id="d106058e172">
+</td></tr><tr><td id="d127438e172">
 
 **Platform interface**
 

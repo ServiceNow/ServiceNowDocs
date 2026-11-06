@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Commercial Lines Claims
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 

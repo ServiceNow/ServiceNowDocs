@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
-last_updated: "2025-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -162,9 +162,4 @@ For example, if your **Due day of week** is next week Monday and your lead time 
 **Previous topic:**[Maintenance plan calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/cal-view-overview.md)
 
 **Next topic:**[Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)
-
-**Related topics**  
-
-
-[Workplace maintenance cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/create-maint-cases.md)
 

@@ -7,14 +7,18 @@ release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a default profile
 
 Create a connection profile that the ServiceNow CLI uses by default. You must create a default profile to set up the CLI's initial connection with an instance.
+
+## Before you begin
+
+Role required: none.
 
 ## About this task
 

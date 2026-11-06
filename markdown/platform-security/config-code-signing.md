@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/config-code-signing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Code Signing, Platform Security]
 ---
 
@@ -57,10 +57,20 @@ Upload the configuration file generated on your trusted instance.
 Turn on and configure Code Signing on your protected instance.
 -   **[Turn on certificate validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cse-turn-on-cert-validation.md)**  
 Protect your instance with certificate based validation.
--   **[Create Code Signing key pairs and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-key-pairs-and-certs.md)**  
-Create two key pairs to signed certificates to establish trust between your protected and trusted instances.
+-   **[Quorum Controlled Certificate Revocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/certificate-revocation.md)**  
+The quorum-controlled certificate revocation for Code Signing certificates provides a secure mechanism for a Code Signing admin to revoke Code Signing certificates. The revocation process involves submitting a request that requires approval from multiple stakeholders. This workflow helps to prevent accidental or unauthorized revocations.
 -   **[Turn off Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cse-turn-off-cse.md)**  
 Disable code signing on your protected instance.
+-   **[Load required key pairs and certificates for Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/circle-trust-setup.md)**  
+Establish the relationship in a designated trusted instance using Code Signing. This first step loads two cryptographic keys into the trusted environment to establish a trusted source for updates to the production instance.
+-   **[Prepare Circle of Trust certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-updateset-nonprod.md)**  
+Create an update set in the trusted environment to export the trusted certificate to the production environment.
+-   **[Import and install certificates for Circle of Trust](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/retrieve-updateset-prod.md)**  
+Retrieve the update set in production to establish the trust relationship between the two instances. The certificates that have been created to represent trust in the trusted instance must be accepted into the protected instance.
+-   **[Turn on Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/enable-codesiging.md)**  
+Turn on Code Signing in your trusted non-production instance to identify the trusted instances linking to your production instance.
+-   **[Create Code Signing key pairs and certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-key-pairs-and-certs.md)**  
+Create two key pairs to signed certificates to establish trust between your protected and trusted instances.
 -   **[Specify custom rules in ECC firewall](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/custom-yaml-conf.md)**  
 Configure the External Communication Channel \(ECC\) firewall in your MID Server by specifying the custom rules to selectively allow or reject the incoming message and override the Code Signing configuration.
 -   **[Change your Root of Trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/change-rot-overview.md)**  

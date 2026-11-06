@@ -1,38 +1,40 @@
 ---
-title: Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
-description: If you have the admin role, you can install and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
+title: Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+description: If you have the admin role, you can configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in Public Sector Workspace and in Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-configuring.html
 release: yokohama
-topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Install and configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
+# Configure ServiceNow Otto for Public Sector Digital Services \(PSDS\)
 
-If you have the admin role, you can install and configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents can use the generative AI skills in CRM Workspace and in Core UI.
+If you have the admin role, you can configure the ServiceNow Otto for Public Sector Digital Services \(PSDS\) application so that your agents and managers can use the generative-AI skills in Public Sector Workspace and in Core UI.
 
-## Before you begin
+Use the AI Admin Hub console to configure ServiceNow Otto for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the available ServiceNow Otto plugins and configure generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-Role required: admin
+The following table lists the features and skills that are available for use with ServiceNow Otto for Public Sector Digital Services \(PSDS\) and are accessible through the AI Admin Hub console.
 
-## About this task
+<table id="table_vbs_4wm_m3c"><thead><tr><th>
 
-Use the AI Admin Hub console to configure ServiceNow Otto for Public Sector Digital Services \(PSDS\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
-
-The following table lists the features and skills that you can access from the AI Admin Hub console.
-
-<table id="table_ipf_bbd_wyb"><thead><tr><th>
-
-PSDS features
+Available Features
 
 </th><th>
 
 Skills
 
 </th></tr></thead><tbody><tr><td>
+
+Document
+
+</td><td>
+
+Document screening
+
+</td></tr><tr><td>
 
 Chat
 
@@ -48,8 +50,8 @@ Case
 
 </td><td>
 
--   Case summarization
--   Resolution notes generation
+-   Investigative case summarization
+-   Government case summarization
 
 </td></tr><tr><td>
 
@@ -61,61 +63,8 @@ Search
 -   Search summarization
 -   Extract Q&amp;A answers from knowledge base articles upon search
 
-</td></tr><tr><td>
-
-AI Agent Collection for Public Sector Digital Services
-
-</td><td>
-
-Info Request Fee Estimation and Waiver Review workflow
-
 </td></tr></tbody>
 </table>**Note:**
 
-Now LLM Service is currently the only provider for this Now Assist application's skills.
-
-To get started with Now Assist, you must install at least one Now Assist application on your instance. The AI Admin Hub console can guide your implementation, starting with installation. Check out the [Now Assist Journey Checklist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md)
-
-The following plug-ins and store apps are required for use of ServiceNow Otto for Public Sector Digital Services \(PSDS\) and its features, such as AI Search and summarization skills:
-
--   AI Admin Hub Console \(sn\_nowassist\_admin\)
--   ServiceNow Otto for Public Sector Digital Services \(PSDS\) \(sn\_psds\_gen\_ai\)
--   ServiceNow Otto for Customer Service Management \(CSM\) \(sn\_csm\_gen\_ai\)
--   Glide Virtual Agent \(com.glide.cs.chatbot\)
--   Glide Conversation Generative Al \(com.glide.cs.genai\)
-
-## Procedure
-
-1.  Install the ServiceNow Otto for Public Sector Digital Services \(PSDS\) plugin \(com.sn\_psds\_gen\_ai\).
-
-2.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
-
-    If you’re already in AI Admin Hub, select the **Settings** tab.
-
-3.  On the **Settings** page, select **Plugins**.
-
-    Plugins appear as cards. Review all Now Assist plugins on the **Available for you** tab. Plugins that you have already installed appear on the **Installed** tab.
-
-    \[Omitted image "na-psds-plugin-card-config.png"\] Alt text: Example plugin card reads "ServiceNow Otto for Public Sector Digital Services \(PSDS\): GenAl related features for Public Sector Digital Services that are powered by Now Assist." Select Get plugins on the card to install it.
-
-4.  Select **Get plugins** on the ServiceNow Otto for Customer Service Management \(CSM\) and ServiceNow Otto for Public Sector Digital Services \(PSDS\) cards.
-
-5.  In the confirmation window, select **Install Plugin** to open the ServiceNow Store page for the plugin in a new browser tab.
-
-6.  Install the plugin from the ServiceNow Store page.
-
-    Some applications may require you to request the app from the ServiceNow® Store first. After you've requested the application from the ServiceNow® Store page, navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All** to finish the installation.
-
-7.  Return to the AI Admin Hub console.
-
-8.  In the dialog box, select **Refresh**.
-
-
-## Result
-
-Your AI Admin Hub console is successfully configured with the necessary plug-ins. Select **View all \(Plugin\) Assists and Skills** to review the features of your new plugin, or close the dialog box to return to the AI Admin Hub console.
-
-## What to do next
-
-[Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md)or [Activate a Now Assist Skill.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configure-skill.md)
+Now LLM Service is currently the only provider for this application's skills.
 

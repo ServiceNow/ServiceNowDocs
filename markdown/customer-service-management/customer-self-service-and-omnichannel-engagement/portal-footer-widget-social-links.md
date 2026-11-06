@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Polaris Footer widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Portal Polaris Footer widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure social media links in the Portal Polaris Footer widget
@@ -20,9 +20,9 @@ Configure links to your organization's social media accounts in the footer of th
 
 The Portal Next Experience theme should have been activated.
 
-The Portal Polaris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md).
+The Portal Poalris Footer widget must have been configured. For more information, see [Configure the Portal Polaris Footer widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/config-portal-footer-widget.md).
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

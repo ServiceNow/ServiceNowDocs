@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/translation-for-now-assist.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Translation, Now Assist, Generative AI, GenAI, Native translation]
-breadcrumb: [Exploring Now Assist, Now Assist, Enable AI experiences]
+breadcrumb: [Configure multilingual service for ServiceNow Otto applications, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Multilingual service for Now Assist
@@ -19,7 +19,7 @@ Now Assist applications use the multilingual capabilities of large language mode
 
 You can configure the multilingual services for Now Assist applications to communicate with your users in their preferred languages. The LLM detects the language used based on the user's language choice in their Language &amp; Region preferences or the contents of the text, such as a conversation message.
 
-Multilingual support is enabled for multiple LLM providers, such as Now LLM Service, Microsoft Azure OpenAI, Anthropic Claude on AWS, and Google Gemini. Azure OpenAI offers the most language support on the ServiceNow AI Platform.
+Multilingual support is enabled for multiple LLM providers, such as Now LLM Service, Microsoft Azure OpenAI, Anthropic Claude, and Google Gemini. Azure OpenAI offers the most language support on the ServiceNow AI Platform.
 
 ## How the different multilingual services work
 
@@ -41,7 +41,7 @@ P1 languages have the strongest native support across most model providers, mean
 
 P2 languages are supported natively by smaller ServiceNow models and most external providers, but not always by every model \(e.g., some exceptions for Canadian French and Dutch\). Accuracy is good, but there may be occasional gaps in nuanced understanding compared to P1 languages.
 
-P3 languages include a broader set of languages supported by major providers like Microsoft Azure OpenAI, Google Gemini, and Anthropic Claude on AWS, but not natively by ServiceNow’s own large models. While coverage is comprehensive, these languages generally have less training depth, so subtle tone or idiomatic expressions may be harder to capture perfectly.
+P3 languages include a broader set of languages supported by major providers like Microsoft Azure OpenAI, Google Gemini, and Anthropic Claude, but not natively by ServiceNow’s own large models. While coverage is comprehensive, these languages generally have less training depth, so subtle tone or idiomatic expressions may be harder to capture perfectly.
 
 -   P1
     -   English
@@ -109,26 +109,10 @@ Some providers, such as Azure OpenAI, offer additional language support beyond t
 
 ## Dynamic Translation
 
-Dynamic Translation for Now Assist uses the Microsoft Azure OEM translation service through ServiceNow. Every language available as a language pack on the ServiceNow platform is supported by Microsoft Azure OEM. These languages are:
+Dynamic Translation for Now Assist uses the Microsoft Azure OEM translation service through ServiceNow. Most languages available as a language pack on the ServiceNow platform are supported by Microsoft Azure OEM. Self-localized languages \(languages other than the default language packs\) aren't supported.
 
--   Swedish
--   Finnish
--   Czech
--   Hebrew
--   Hungarian
--   Korean
--   Norwegian
--   Polish
--   Portuguese
--   Russian
--   Simplified Chinese
--   Traditional Chinese
--   Thai
--   Turkish
--   Arabic
--   Danish
-
-For more information, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
+-   For the list of available language packs, see [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateALanguage.md).
+-   For more information about Microsoft Azure OEM, see [Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md).
 
 ## Choosing a translation service
 
@@ -141,4 +125,6 @@ For more information on tracking Now Assist usage, see [Monitoring Now Assist us
 ## Enabling translation for Now Assist
 
 For more information on turning on multilingual services for Now Assist applications, see [Enable translation for Now Assist applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md).
+
+**Parent Topic:**[Configure multilingual service for ServiceNow Otto applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.md)
 

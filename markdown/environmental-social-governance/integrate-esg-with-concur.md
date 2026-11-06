@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/integrate-esg-with-concur.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -24,7 +24,7 @@ To track the emissions, by default, the following metric definitions are provide
 -   Total distance travelled by all employees by train
 -   Total distance travelled by all employees by airplane
 
-You must activate those metric definitions that you require. After you create the necessary connections and credentials and subscribe to the webhook registry, the scheduled jobs that are provided run and every time there is a trip created or updated in Concur, the data gets imported into ESG Management.
+You must activate those metric definitions that you require. After you create the necessary connections and credentials and subscribe to the webhook registry, the scheduled jobs that are provided run and every time there is a trip created or updated in Concur, the data gets imported into Operational Sustainability Management.
 
 -   **[Install the Operational Sustainability Integration with Concur](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/install-the-esg-integration-with-concur.md)**  
 You can install the Operational Sustainability Integration with Concur application \(sn\_esg\_concur\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.

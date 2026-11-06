@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: concept
 last_updated: "2026-07-02"
 reading_time_minutes: 5
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # ServiceNow Remote Instance Spoke
@@ -18,7 +18,7 @@ Integrate your local and remote ServiceNow instances to export, import, and mana
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription on the local instance where 
 
 ## Spoke version
 
-ServiceNow Remote Instance spoke v2.3.2 is the latest version.
+ServiceNow Remote Instance spoke v2.3.2 is the latest version. For version history of the spoke, see [ServiceNow Remote Instance spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sn-remote-instance.html).
 
 ## Supported versions
 

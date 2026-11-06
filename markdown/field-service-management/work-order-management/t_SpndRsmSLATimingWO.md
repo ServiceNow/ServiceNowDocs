@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SLAs for Field Service Management, Configuring work order templates, Configuring work orders, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [SLAs, Templates, Work orders, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Suspend and resume SLA timing from a work order
@@ -38,6 +38,8 @@ This is useful if a qualifier or dispatcher is waiting for information from the 
 3.  On the work order record, add a work note explaining why the work order is suspended.
 
 4.  Select **Suspend**.
+
+    \[Omitted image "suspend-order.png"\] Alt text: suspend work order button
 
     The system sets the **Stage** of the SLA to **Paused**.
 

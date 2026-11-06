@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response integration with Zscaler, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,28 +28,24 @@ You submit observable entries by using the allow or block request action from th
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**.
 
-    In this example, you see how to select a security incident and an observable, and how to add an allow list.
-
-    \[Omitted image "zscaler-submit-observable.gif"\] Alt text: Selecting a security incident and an observable, and adding to an allow list.
-
 2.  Select the security incident that you want to associate with the Zscaler allow or block request.
 
-3.  Click **Show All Related Lists** and the **Associated Observables** tab.
+3.  Select **Show All Related Lists** and the **Associated Observables** tab.
 
-    If you do not find any observables, click **New**.
+    If you do not find any observables, Select **New**.
 
-4.  Select an observable and then from the actions menu, click **Allow/Block Request**.
+4.  Select an observable and then from the actions menu, select **Allow/Block Request**.
 
 5.  In the Allow/Block Request dialog box, select whether to perform the allow or block request on the observable.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 7.  View the Work notes to see the status of your submission and the security tags.
 
-    Click the links in the Work notes for more information about the status or to analyze the details on the Workflow Studio. Security tags are metadata on the responding record and define who should have access to specific types of security content.
+    Select the links in the Work notes for more information about the status or to analyze the details on the Workflow Studio. Security tags are metadata on the responding record and define who should have access to specific types of security content.
 
 8.  To view the status of the observable that you selected, navigate to **Zscaler Integration** &gt; **Zscaler URL Category List Entries**.
 
-9.  In the Zscaler URL Category List Entries page, click the observable to view the record.
+9.  In the Zscaler URL Category List Entries page, select the observable to view the record.
 
 

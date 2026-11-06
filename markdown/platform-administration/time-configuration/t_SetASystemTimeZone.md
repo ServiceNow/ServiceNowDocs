@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Set a system time zone
@@ -30,11 +30,9 @@ The ServiceNow AI Platform stores time values in Universal Coordinated Time. Tim
 
 2.  Locate the property **System timezone for all users unless overridden in the user's record** \[glide.sys.default.tz\].
 
-    \[Omitted image "system-timezone-property.png"\] Alt text: system time zone property to specify default for company
-
     By default, the field is empty. If you have not defined a time zone for this property, America/Los Angeles is the default.
 
-    For more information on setting the default time, see: [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-language-preferences.md).
+    For more information on setting the default time, see [Configure Next Experience language and region preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-language-preferences.md).
 
 3.  Add a time zone in the format Country/City or using the name of a time zone \(for example, GMT\) and select **Save**.
 

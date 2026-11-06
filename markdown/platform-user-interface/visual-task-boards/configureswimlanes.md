@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -56,7 +56,7 @@ When you select swimlanes in Visual Task Boards, you can do the following:
         2.  Click **Next** and slide the toggle under the **Info** tab to the right.
 <table id="table_pww_dwv_hhb"><tbody><tr><td>
 
-\[Omitted image "flexibleswimlanes.png"\] Alt text: Activate swimlanes for a data driven flexible board
+\[Omitted image "flexibleboard.png"\] Alt text: Activate swimlanes for a data driven flexible board
 
 </td><td>
 
@@ -73,7 +73,7 @@ When you select swimlanes in Visual Task Boards, you can do the following:
 
 <table id="table_qsc_2yv_hhb"><tbody><tr><td>
 
-\[Omitted image "swimlanesdatadriven.png"\] Alt text: Activate a data driven guided board with swimlanes
+\[Omitted image "swimlanedata.png"\] Alt text: Activate swimlanes for a data driven flexible board
 
 </td><td>
 

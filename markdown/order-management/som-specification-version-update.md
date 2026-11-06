@@ -1,18 +1,18 @@
 ---
 title: Updating specification versions
-description: Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow. Failure to update the product specifications can lead to difficulties with MACD \(Move, Add, Change, Delete\) operation when orders enter fulfillment.
+description: Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow. Failure to update the product specifications can lead to difficulties with MACD \(Modify, Add, Change, Delete\) operation when orders enter fulfillment.OM content revamp - Check with Judy if this and sub-topics are covered in configuring product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-specification-version-update.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Specifications and product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Updating specification versions
 
-Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow®. Failure to update the product specifications can lead to difficulties with MACD \(Move, Add, Change, Delete\) operation when orders enter fulfillment.
+Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow®. Failure to update the product specifications can lead to difficulties with MACD \(Modify, Add, Change, Delete\) operation when orders enter fulfillment.
 
 Updating specification versions helps with:
 
@@ -52,5 +52,5 @@ Use the inventory batch update job to update product specifications when changes
 -   **[View upgrade inventory job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-view-upgrade-inventory-job-status.md)**  
 View the status of a specification upgrade job using the upgrade inventory Job status list form.
 
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
+**Parent Topic:**[Setting up specifications and product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-product-catalog.md)
 

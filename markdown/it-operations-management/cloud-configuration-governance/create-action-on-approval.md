@@ -1,26 +1,26 @@
 ---
-title: Create an action for an 'approval' policy
-description: A policy that is triggered by one of the approval triggers can start approval workflows. The approval triggers are \( on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation .
+title: Create an action for an approval policy
+description: A policy that is triggered by one of the approval triggers can start approval subflows. The approval triggers are \( on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-action-on-approval.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Create an action for an 'approval' policy
+# Create an action for an approval policy
 
-A policy that is triggered by one of the approval triggers can start approval workflows. The approval triggers are \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation.
+A policy that is triggered by one of the approval triggers can start approval subflows. The approval triggers are \(on Blueprint provision \(approval\), on Stack operation \(approval\), on Stack resource operation \(approval\), and on Task remediation.
 
 ## Before you begin
 
-Optional: [Create one or more cloud policy groups]().
+Optional: [Create one or more cloud policy groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-cloud-policy-group.md).
 
-[Configure a cloud policy rule]() and associated conditions.
+[Configure a cloud policy rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/configure-cloud-policy-rule.md) and associated conditions.
 
 Role required: sn\_cmp.cloud\_governor or admin
 
@@ -47,7 +47,7 @@ When multiple "approval" policies apply, the policies are applied in the followi
 
 5.  Select any of the following actions.
 
-    -   **Custom Approval** runs the workflow that you specify. The workflow should return a value of **approved** to complete the operation. Follow **Service Now Approval** for use case.
+    -   **Custom Approval** runs the subflow that you specify. The subflow should return a value of **approved** to complete the operation. Follow **Service Now Approval** for use case.
     -   **Service Now Approval** supports differing approvers based on the trigger for the policy:
 
 <table id="table_y1w_fz4_31c"><thead><tr><th>
@@ -56,7 +56,7 @@ Trigger
 
 </th><th>
 
-Workflow
+Subflow
 
 </th><th>
 
@@ -68,7 +68,7 @@ on Blueprint provision \(approval\)
 
 </td><td>
 
-Cloud Approval Workflow
+Cloud Approval Subflow
 
 </td><td>
 
@@ -83,7 +83,7 @@ on Stack operation \(approval\)
 
 </td><td>
 
-Cloud Operation Change Request Workflow
+Cloud Operation Change Request Subflow
 
 </td><td>
 
@@ -95,7 +95,7 @@ on Stack resource operation \(approval\)
 
 </td><td>
 
-Cloud Operation Change Request Workflow
+Cloud Operation Change Request Subflow
 
 </td><td>
 
@@ -106,7 +106,7 @@ Assignment Group
 
     \[Omitted image "service-now-approval.png"\] Alt text: Approval policy action
 
-7.  If you select **Custom Approval**, specify the workflow and then click **Submit** and if you select **ServiceNow Approval**, specify who should approve the cloud activity.
+7.  If you select **Custom Approval**, specify the subflow and then click **Submit** and if you select **ServiceNow Approval**, specify who should approve the cloud activity.
 
 <table id="table_fdg_nr4_sfb"><thead><tr><th>
 
@@ -122,7 +122,7 @@ Manager Approval
 
 </td><td>
 
-One or all of the following:-   Select the **Manager Approval** check box to require the manager of the approver to also approve the request. The default approval workflow goes to the manager first, then to the group, and finally to the user.
+One or all of the following:-   Select the **Manager Approval** check box to require the manager of the approver to also approve the request. The default approval subflow goes to the manager first, then to the group, and finally to the user.
 -   Select a user group from the **Assignment Group** list.
 -   Unlock the **User** lock, select a user from the list, then close the lock.
 
@@ -133,7 +133,7 @@ Assignment group
 
 </td><td>
 
-Select the assignment group that can approve the request. Any user in the group can approve the action using the default workflow. The approval then goes to the users in the **User** field.**Note:** Users in an assignment group that do not have the itil role still receive an approval record and notification by default, but they cannot perform the approval. Assign the itil role to any users or user groups that must make operational and provisioning approvals.
+Select the assignment group that can approve the request. Any user in the group can approve the action using the default subflow. The approval then goes to the users in the **User** field.**Note:** Users in an assignment group that do not have the itil role still receive an approval record and notification by default, but they cannot perform the approval. Assign the itil role to any users or user groups that must make operational and provisioning approvals.
 
 </td></tr><tr><td>
 
@@ -141,7 +141,9 @@ User
 
 </td><td>
 
-Select one or more users to whom the approval action applies. All selected users must approve the action using the default workflow.
+Select one or more users to whom the approval action applies. All selected users must approve the action using the default subflow.
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
+

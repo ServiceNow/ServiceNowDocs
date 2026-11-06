@@ -1,35 +1,111 @@
 ---
-title: Create new business capability form
+title: Create business capability form
 description: Business Capability is a common table used within the Enterprise Architecture application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-cap-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new business capability form
+# Create business capability form
 
 Business Capability is a common table used within the Enterprise Architecture application.
 
-## Create new business capability form fields
+## Create business capability form fields
 
-|Field|Description|
-|-----|-----------|
-|Name|Name of the business capability.|
-|Parent|Name of the parent capability for the capability that you’re creating.|
-|Level|Level at which the capability is in the hierarchy. This field is auto-populated and can't be edited.|
-|Business Unit|Name of the business unit in the organizational structure.|
-|Order|Position of the capability in the sequential order of all other business capabilities in that capability hierarchy.|
-|Department|Name of the department in the organizational structure.|
-|Owned by|User who owns the business capability.|
-|Leaf Node|Option to select if the capability doesn’t have a child capability.|
-|Hierarchy ID|Hierarchy ID of the capability. This field is auto-populated based on the order.|
-|Description|A short description of the business capability.|
+<table id="table_cpz_5cm_2yb"><thead><tr><th>
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the business capability.
+
+</td></tr><tr><td>
+
+Parent
+
+</td><td>
+
+Name of the parent capability for the capability that you’re creating.
+
+</td></tr><tr><td>
+
+Level
+
+</td><td>
+
+Level at which the capability is in the hierarchy. This field is auto-populated and can't be edited.
+
+</td></tr><tr><td>
+
+Business Unit
+
+</td><td>
+
+Name of the business unit in the organizational structure.Before Australia Patch 5, this field was the only way to associate a business unit with a business capability, and accepted a single value. This field has been removed from the default form view and replaced with the **Related business units** related list, which lets you associate multiple business units. The field still exists on the table — administrators can add it back to the form from Form Layout if needed. Associations that existed before the upgrade are not automatically migrated; you must explicitly add the business unit to the Related business units related list.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Position of the capability in the sequential order of all other business capabilities in that capability hierarchy.
+
+</td></tr><tr><td>
+
+Department
+
+</td><td>
+
+Name of the department in the organizational structure.
+
+</td></tr><tr><td>
+
+Owned by
+
+</td><td>
+
+User who owns the business capability.
+
+</td></tr><tr><td>
+
+Leaf Node
+
+</td><td>
+
+Option to select if the capability doesn’t have a child capability.
+
+</td></tr><tr><td>
+
+Hierarchy ID
+
+</td><td>
+
+Hierarchy ID of the capability. This field is auto-populated based on the order.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+A short description of the business capability.You can also elaborate or shorten the content in this field using Now Assist. For details, see [Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/elaborate-or-shorten-content-form-fields.md).
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

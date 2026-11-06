@@ -1,5 +1,5 @@
 ---
-title: Create a pattern vocabulary item
+title: \(Legacy\) Create a pattern vocabulary item
 description: Use regular expression \(regex\) encoding to establish a pattern format for vocabulary items such as email addresses, phone numbers, and record naming conventions. You can create your own patterns for the vocabulary data in your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-pattern-vocabulary-item.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU vocabulary, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a pattern vocabulary item
+# \(Legacy\) Create a pattern vocabulary item
 
 Use regular expression \(regex\) encoding to establish a pattern format for vocabulary items such as email addresses, phone numbers, and record naming conventions. You can create your own patterns for the vocabulary data in your instance.
 
@@ -28,7 +28,7 @@ Pattern vocabulary items use regular expressions \(regex\) to find variations of
 
 In this example scenario, you've created an NLU Virtual Agent model for requests related to authentication. To refer to multi-factor authentication, your users often use "MFA", "mfa", or "mfa authentication". You can provide a pattern to cover these variations. They are replaced with the matching synonym multi-factor authentication when predicting an intent.
 
-See [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md) for further details on regular expressions.
+See [\(Legacy\) Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md) for further details on regular expressions.
 
 ## Procedure
 
@@ -57,12 +57,10 @@ See [Using regular expressions in entities](https://raw.githubusercontent.com/Se
     **Result:** Your pattern vocabulary item appears in the Vocabulary section of your Model screen. Each time a user's utterance contains one of the spelling variations, the system recognizes the meaning as multi-factor authentication, in this example.
 
 
-**Parent Topic:**[NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)
-
 **Related topics**  
 
 
-[NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)
+[\(Legacy\) NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)
 
-[Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md)
+[\(Legacy\) Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md)
 

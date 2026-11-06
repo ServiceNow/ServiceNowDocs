@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify with tasks, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with tasks, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Manage conference calls on task
@@ -18,7 +18,7 @@ Add and manage multiple participants on the conference including self-joining in
 
 ## Before you begin
 
--   Role required: notify\_view, itil, itil\_admin, or admin
+-   Role required: notify\_view, itil, itil\_admin, or notify\_setup\_admin
 -   A conference call is already initiated.
 
 ## About this task

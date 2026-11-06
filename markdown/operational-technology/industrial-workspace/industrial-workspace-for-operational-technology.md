@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Technology]
 ---
@@ -24,9 +24,17 @@ The Industrial Workspace is a user interface that provides Operational Technolog
 
 [Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/configuring-industrial-workspace.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Use\[Omitted image "bus-management-console.svg"\] Alt text:Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/using-industrial-workspace.md)
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td><td>
 

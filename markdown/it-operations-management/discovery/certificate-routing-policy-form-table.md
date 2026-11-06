@@ -1,20 +1,20 @@
 ---
-title: Certificate routing policy form table
-description: To automate the processes of your certificate life- cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
+title: Certificate routing policy form for EJBCA ACME
+description: To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/certificate-routing-policy-form-table.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-07-20"
-reading_time_minutes: 2
-breadcrumb: [ACME reference, Automated Certificate Management Environment, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Certificate routing policy form table
+# Certificate routing policy form for EJBCA ACME
 
-To automate the processes of your certificate life- cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
+To automate the processes of your certificate life cycle, you must fill out a routing policy form that populates your Certificate Signing Requests. This table shows you the required fields and values.
 
 <table id="table_lhb_ppz_wfc"><thead><tr><th>
 
@@ -46,7 +46,7 @@ Environment
 
 </td><td>
 
-The environment you want your certificate for. Options are:-   Development
+The environment that you want your certificate for. Options are:-   Development
 -   Disaster recovery
 -   Production
 -   Sub-Production
@@ -79,12 +79,52 @@ Credential alias. Your options are based on the aliases that you create in the C
 
 </td></tr><tr><td>
 
+Vault Type
+
+</td><td>
+
+External vault provider to use for private key storage with this routing policy. When set, the system stores private keys in the specified vault during automated certificate operations.The available options are:
+
+-   HashiCorp Vault
+-   Azure Key Vault
+-   CyberArk PVWA
+
+</td></tr><tr><td>
+
 Certification Purpose
 
 </td><td>
 
 Certification Purpose. Options are:-   Internal
 -   External
+
+</td></tr><tr><td>
+
+Certificate Format
+
+</td><td>
+
+Format in which the certificate is generated. The available options are: PEM, DER, and PKCS12. The default value is PEM.
+
+</td></tr><tr><td>
+
+PKCS12 Password Vault Reference
+
+</td><td>
+
+Reference to the PKCS\#12 key store password stored in your external vault. The format depends on your vault type: -   For HashiCorp Vault, enter the full path to the secret
+-   For Azure Key Vault, enter the secret name
+-   For CyberArk PVWA, enter the account name
+
+This field is required when the Certificate Format field is set to PKCS12.
+
+</td></tr><tr><td>
+
+PKCS12 Password Vault Key
+
+</td><td>
+
+Name of the key within the vault secret that holds the PKCS\#12 key store password. This field is required when the Certificate Format field is set to PKCS12 and the Vault Type field is set to HashiCorp Vault.
 
 </td></tr><tr><td>
 
@@ -124,7 +164,7 @@ DNS Task Assignment Group
 
 </td><td>
 
-DNS Task Assignment Group. Select **Certificate Inventory and Management**
+DNS Task Assignment Group. Select **Certificate Inventory and Management**.
 
 </td></tr><tr><td>
 
@@ -132,7 +172,7 @@ Domain
 
 </td><td>
 
-Domain of the policy. This field is automatically set to **global**
+Domain of the policy. This field is automatically set to **global**.
 
 </td></tr><tr><td>
 
@@ -207,4 +247,5 @@ Email Address
 Email address of the administrator in the organization making the certificate signing request for the given Subject Common Name. Enter an email address or `*`.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Certificate Inventory and Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-invt-mgmt-references.md)
+

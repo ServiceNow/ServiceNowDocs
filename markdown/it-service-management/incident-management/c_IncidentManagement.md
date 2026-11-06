@@ -7,8 +7,8 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [IT Service Management]
 ---
 
@@ -18,9 +18,11 @@ Incident Management restores normal service operation while minimizing impact to
 
 ## Incident Management overview
 
+\[Omitted video\] Description: Introduction to incident management
+
 ## Get started
 
-<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+<table id="table_iwv_lpv_klb" class="nav-card presentation"><tbody><tr><td>
 
 [Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Incident Management concepts and features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-management-process.md)
 
@@ -44,10 +46,47 @@ Incident Management restores normal service operation while minimizing impact to
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Incident Management components such as roles and dependent applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/reference-section-for-incident-management.md)
 
-</td></tr></tbody>
-</table>## Troubleshoot and get help
+</td></tr><tr><td>
 
--   [Ask or answer questions in the Incident Management community](https://community.servicenow.com/community/it-service-management/content?filterID=contentstatus%5Bpublished%5D%7Ecategory%5Bincident-management%5D)
--   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
--   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
+ 
+
+</td><td>
+
+[Use agentic AI\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the ITSM Incident Management agentic workflow to manage, resolve and close incidents and incident tasks autonomously.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/im-using-agentic-workflow.md)
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>## Helpful resources
+
+Some ServiceNow resources that can provide you with helpful information are:
+
+-   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
+
+    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/incident-management-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/incident-management-rn.md).
+
+-   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
+
+    Access real-time courses, self-paced training, and career resources, such as [Incident Management Overview](https://learning.servicenow.com/lxp/en/incident-management-overview-english-zurich?id=learning_course_prev&course_id=edb4fa9787a50350cfa68519dabb3581&s=1&ssa=3) and more, from [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow).
+
+-   **\[Omitted image "dcx-icon.svg"\] Best Practices**
+
+    Explore the Best Practices content library to access resources and proven guidance that help accelerate the implementation of Incident Management features, such as [Incident Management - Process Guide](https://mynow.servicenow.com/now/best-practices/assets/incident-management-process-guide) and more, from [ServiceNow - Best Practice Library](https://mynow.servicenow.com/now/mynow/my-home/home).
+
+-   **\[Omitted image "icon-youtube.svg"\] YouTube**
+
+    Learn more about Incident Management and related ITSM features. Watch [Incident management \| Overview](https://www.youtube.com/watch?v=UH20khV4wvc) on YouTube.
+
+-   **\[Omitted image "dcx-icon-support.svg"\] Support**
+
+    Search the Known Error portal for Known Error articles and get support for issues related to Incident Management:
+
+    -   [Customer Service and Support](https://support.servicenow.com/now)
+    -   [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal)
+-   **\[Omitted image "dcx-icon-community.svg"\] ServiceNow Community**
+
+    Connect with other Incident Management users at [ServiceNow Incident Management Community](https://www.servicenow.com/community/incident-management-forum/bd-p/incident).
+
 

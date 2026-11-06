@@ -1,5 +1,5 @@
 ---
-title: Automated Test Framework \(ATF\) tests types and testing ways
+title: Automated Test Framework \(ATF\) test types and techniques
 description: Experience the different types of ATF tests and testing techniques.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
-# Automated Test Framework \(ATF\) tests types and testing ways
+# Automated Test Framework \(ATF\) test types and techniques
 
 Experience the different types of ATF tests and testing techniques.
 
@@ -24,8 +24,12 @@ Prevent conflicting tests from running in parallel by marking them as mutually e
 Copy and customize quick start tests provided by the ServiceNow AI Platform® to validate that your instance works after you make any configuration changes. For example, if you apply an upgrade or develop an application.
 -   **[Parallel testing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/parallel-testing.md)**  
 Reduce test design time by running multiple tests and test suites in parallel. Design tests to run in parallel by avoiding resource conflicts and data dependencies.
+-   **[Accelerate ATF tests failure resolution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-triage.md)**  
+Resolve ATF test failures faster using the actionable support provided by the new ATF failure insights feature. You can achieve it by accessing the Find changes since last successful run related link.
 -   **[Performance profiling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-perf-prof.md)**  
 Performance profiling allows you to do performance testing on your instances.
+-   **[ATF Health Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-health-check-suites.md)**  
+ATF Health Check detects ATF misconfiguration that may lead to support cases by scanning your instance for 14 known issues and providing findings you can resolve proactively.
 
 **Parent Topic:**[Automated Test Framework \(ATF\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-landing-page.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2023-08-03"
 reading_time_minutes: 6
-breadcrumb: [Integrating with Adobe Experience Manager, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Service Management]
 ---
 
 # Display ServiceNow cases on an Adobe Experience Manager page
@@ -16,7 +16,7 @@ Use case components available within Adobe Experience Manager \(AEM\) to access 
 
 ## Before you begin
 
-Define the cross-origin resource sharing \(CORS\) rule to access the Case API and CSM Attachment API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/aem-integration-setup.md).
+Define the cross-origin resource sharing \(CORS\) rule to access the Case API and CSM Attachment API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/aem-integration-setup.md).
 
 Role required: AEM author
 

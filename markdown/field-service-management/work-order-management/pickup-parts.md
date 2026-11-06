@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Requesting and receiving required parts, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Requesting and receiving required parts, Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Track part pickups on the Field Service Contractor Portal
@@ -47,6 +47,4 @@ The agents can physically pick up the assets and then record them as delivered. 
 ## Result
 
 The part is delivered successfully to the agent.
-
-**Parent Topic:**[Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
 

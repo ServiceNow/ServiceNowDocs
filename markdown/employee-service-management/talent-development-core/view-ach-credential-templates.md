@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Achievements and Credentials in Talent Development Core, Administer and maintain the Talent Development Core app, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Achievements and Credentials in Talent Development Core, Administer and maintain the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View achievement credential templates
@@ -18,7 +18,7 @@ View achievement credential templates in Achievements and Credentials.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_lep.achievement\_manager
 
 ## Procedure
 
@@ -35,7 +35,7 @@ Role required: admin
     |Source|Source of the credential. For example: Credly.|
     |Issuer|Details of the issuer of the credential template.|
     |Image URL|URL of the credential source.|
-    |Achievement template skills|Skills attached to the template. To attach a new skill to the template, see [Add skill to an achievement template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/add-skill-achievement.md).|
+    |Achievement template skills|Skills attached to the template. To attach a new skill to the template, see .|
 
 
 -   **[Add skill to an achievement template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/add-skill-achievement.md)**  

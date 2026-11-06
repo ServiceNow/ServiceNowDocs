@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Scheduling in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Add events to the team calendar
@@ -36,15 +36,15 @@ You can create custom event types and add or remove fields. For more information
 
 5.  Create an event.
 
-<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d55933e116">
+<table id="choicetable_yff_2rw_1nb"><thead><tr><th align="left" id="d61614e122">
 
 To
 
-</th><th align="left" id="d55933e119">
+</th><th align="left" id="d61614e125">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d55933e125">
+</th></tr></thead><tbody><tr><td id="d61614e131">
 
 **Create a meeting, training, or time-off request.**
 
@@ -69,7 +69,7 @@ In the **Attendees** field, start typing the name of each of the attendees for t
     6.  In the **Description** field, enter a description for the meeting.
 
 
-</td></tr><tr><td id="d55933e231">
+</td></tr><tr><td id="d61614e237">
 
 **Create a work shift**
 
@@ -85,6 +85,4 @@ In the **Attendees** field, start typing the name of each of the attendees for t
 </td></tr></tbody>
 </table>6.  Click **Save**.
 
-
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
 

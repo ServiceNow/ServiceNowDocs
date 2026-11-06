@@ -1,26 +1,26 @@
 ---
 title: Create and train a similarity solution
-description: Create and train a machine-learning solution to collect and compare your existing records to new similar records. For example, you can compare the text in an open Incident record to a resolved Incident record to reuse its resolution.
+description: Create and train a machine learning solution to collect and compare your existing records to new similar records. For example, you can compare the text in an open Incident record to a resolved Incident record to reuse its resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/create-similarity-solution.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-07-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Create and train a similarity solution
 
-Create and train a machine-learning solution to collect and compare your existing records to new similar records. For example, you can compare the text in an open Incident record to a resolved Incident record to reuse its resolution.
+Create and train a machine learning solution to collect and compare your existing records to new similar records. For example, you can compare the text in an open Incident record to a resolved Incident record to reuse its resolution.
 
 ## Before you begin
 
 -   Role required: ml\_admin or admin
 
-**Important:** In the Yokohama release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
+**Important:** From the Washington DC release, models in the classification, clustering, and similarity frameworks use Workflow solutions. These are pre-trained, so a word corpus isn't needed for your new solutions. When your existing solutions with a word corpus are re-trained after upgrading, they become Workflow solutions, and the Word Corpus field is removed from the form.
 
 ## About this task
 
@@ -176,10 +176,10 @@ However, for KB Knowledge article records, which are typically not created often
 ## Result
 
 -   The system schedules the solution definition for processing with the nearest training service and sends you a notification when the training completes. The notification includes any errors that may have occurred during the training. Other users can subscribe to the Predictive Intelligence Notifications category.
--   The trained solution updates your Solution Definition form, where it delivers paired solution examples ranked by their degree of similarity.
+-   The trained solution delivers paired example records ranked by their degree of similarity. The list of examples is available from **Similarity Examples** under Related Links on your solution's form.
 -   When training completes, the system uploads the solution as an Attachment record.
 
 ## What to do next
 
-Review the trained similarity solution examples on the Related Links section of your Solution Definition form. See [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
+Review the similarity examples on the Related Links section of your Solution form. See [Review solution similarity examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/review-similarity-examples.md).
 

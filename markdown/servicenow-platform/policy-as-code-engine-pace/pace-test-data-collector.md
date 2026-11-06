@@ -7,7 +7,7 @@ release: yokohama
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Passing parameters to PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -33,8 +33,6 @@ Role required: sn\_pace.code\_editor
 4.  Select the **Build** tab.
 
 5.  In the contextual sidebar, select the Test playground icon \[Omitted image "pace-test-playground-icon.jpg"\] Alt text: Test playground icon..
-
-    \[Omitted image "pace-data-collector-test-pg.jpg"\] Alt text: Test data collector test playground.
 
 6.  Add the parameters in the inputs you want to test in the data collector, then select **Run test**.
 

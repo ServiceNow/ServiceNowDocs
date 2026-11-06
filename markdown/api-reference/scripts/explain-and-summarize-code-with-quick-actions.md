@@ -1,5 +1,5 @@
 ---
-title: Explain and summarize code with Quick Actions
+title: Explain and summarize code
 description: Get a summary of the code or a comprehensive explanation of its functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/explain-and-summarize-code-with-quick-actions.html
@@ -7,18 +7,16 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2025-02-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for code generation, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Explain and summarize code with Quick Actions
+# Explain and summarize code
 
 Get a summary of the code or a comprehensive explanation of its functionality.
 
 ## Before you begin
-
-The summarize and explain features are only available with Azure OpenAI model provider. Make sure you turn them on. For more information, see [Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/enable-code-explain-and-summarize.md).
 
 Role required: now.assist.creator
 
@@ -26,16 +24,18 @@ Role required: now.assist.creator
 
 1.  Navigate to any script editor enabled with ServiceNow Otto for Code.
 
-2.  In the script editor, select a code and then select the **Quick Actions** button.
+    For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
 
-    \[Omitted image "now-assist-code-quick-actions.png"\] Alt text: Selecting Quick Actions button displays the Summarize code and Explain code options.
+2.  In the script editor, select a code and then select the **Otto**.
 
-3.  Understand the purpose of the code by selecting **Summarize code**.
+    \[Omitted image "soc-otto-menu.png"\] Alt text: Select Summarize code to understand code.
 
-    \[Omitted image "now-assist-code-summarize.png"\] Alt text: A summary of the code is displayed in the script editor.
+3.  To understand the purpose of the code, select **Summarize code**.
 
-4.  Get a comprehensive explanation of the code’s functionality by selecting **Explain code in detail**.
+    \[Omitted image "soc-summarize-code.png"\] Alt text: Select Summarize code to get a short explanation of the code.
 
-    \[Omitted image "now-assist-code-explain.png"\] Alt text: A detailed explanation of the code is displayed in the script editor.
+4.  From the **Use Otto to** list, select **Explain code in detail** to get a comprehensive explanation of the code’s functionality.
+
+    \[Omitted image "soc-summarize-code-detail.png"\] Alt text: Select Explain code in detail to get a detailed explanation of the code.
 
 

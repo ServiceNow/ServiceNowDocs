@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -190,9 +190,13 @@ Managed by
 
 Workplace manager who manages all the workplace-related operations.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
 **Measurement Details**
+
+</td><td>
+
+ 
 
 </td></tr><tr id="measuring-unit-field"><td>
 
@@ -276,6 +280,8 @@ You can add an allocation if there is none. For more information on how to add a
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
+
+[]()
 
 [Reviewing allocation changes]()
 

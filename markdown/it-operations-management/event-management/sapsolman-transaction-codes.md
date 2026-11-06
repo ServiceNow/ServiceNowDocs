@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAP configurations enabling the SAP Solution Manager connector, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Enable SAP connector configurations, Configure SAP Solution Manager connector, Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # SAP Solution Manager transaction codes
@@ -27,5 +27,5 @@ The transaction code abbreviations that you can use in the SAP interface when wo
 |MAI\_TOOLS|Displays the alarm tool.|
 |SE16|Displays the interface debugging table \(ZSNOW\).|
 
-**Parent Topic:**[SAP configurations enabling the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/sap-manager-connector.md)
+**Parent Topic:**[SAP configurations for the SAP Solution Manager connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/sap-manager-connector.md)
 

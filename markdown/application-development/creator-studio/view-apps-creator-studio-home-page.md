@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Find existing apps in Creator Studio
@@ -48,7 +48,7 @@ There could be a lot of apps listed on the Creator Studio home page. Here’s ho
 
     \[Omitted image "crs-homepage-all-apps-srch.png"\] Alt text: Creator Studio home page with all apps seen in a card view
 
-2.  Would you prefer to see the apps in a list instead of displayed as cards? Select the view icon \(\[Omitted image "cs-view-icon.png"\] Alt text: view icon\) and switch to **List View**.
+2.  Would you prefer to see the apps in a list instead of displayed as cards? Select the view icon \[Omitted image "cs-view-icon.png"\] Alt text: view icon and switch to **List View**.
 
     \[Omitted image "crs-homepage-all-apps-list-srch.png"\] Alt text: Creator Studio home page with all apps shown in a list
 
@@ -74,7 +74,7 @@ There could be a lot of apps listed on the Creator Studio home page. Here’s ho
     -   **A-Z** or **Z-A**: Lists the displayed apps alphabetically in the order you choose.
     **Note:** If you've entered text in the search bar, sorting respects the filtered search criteria.
 
-6.  5. Select an app to open it in Creator Studio or select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text: More options enable you to take action on an app\) and select one of the following:
+6.  5. Select an app to open it in Creator Studio or select the more actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text: More options enable you to take action on an app and select one of the following:
 
     -   **Open in new tab**: Open the app in a different browser tab.
     -   **Open in ServiceNow Studio**: Open the app in ServiceNow Studio to make more advanced edits.

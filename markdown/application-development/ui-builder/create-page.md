@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a page in UI Builder
@@ -23,8 +23,6 @@ Role required: ui\_builder\_admin
 ## About this task
 
 A page has a collection of components that make up a workspace, portal, or custom application user interface \(UI\).
-
-\[Omitted image "uib-full-app.png"\] Alt text: UI Builder screen.
 
 ## Procedure
 
@@ -50,13 +48,17 @@ A page has a collection of components that make up a workspace, portal, or custo
 
     A default path is added based on your page name. You can also create your own path. The path is required and must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, `"~"`\), with the words separated by a forward slash or hyphen. The **URL preview** shows the path of your page.
 
-    \[Omitted image "create-page-details.png"\] Alt text: Page details screen with name and URL path fields.
-
     **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/security-roles.md).
 
-7.  Select **Continue**.
+7.  Select a URL page type in the **Type** drop-down list.
 
-8.  Add required parameters to your page URL.
+    URL page types help you categorize and find important pages in the experience view. Select from **None**, **Dashboard**, **Knowledge base**, **List**, and **Record** page types. Pages assigned a type other than **None** are filtered more effectively in the experience view.
+
+    **Note:** A landing page is assigned a **Landing** URL type by default.
+
+8.  Select **Continue**.
+
+9.  Add required parameters to your page URL.
 
     1.  Click **+ Add**.
 
@@ -68,7 +70,7 @@ A page has a collection of components that make up a workspace, portal, or custo
 
         For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md).
 
-9.  Add optional parameters to the URL of your page.
+10. Add optional parameters to the URL of your page.
 
     1.  Click **+ Add**.
 
@@ -80,29 +82,29 @@ A page has a collection of components that make up a workspace, portal, or custo
 
         For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md).
 
-10. Select **Looks good**.
+11. Select **Looks good**.
 
-11. Enter a name for the page variant.
+12. Enter a name for the page variant.
 
     The form automatically contains **Default** but you can edit the page variant name.
 
-12. Add one or more audiences for this page.
+13. Add one or more audiences for this page.
 
     If an audience you need is not listed, you can choose the Open audiences in platform link to create one.
 
-13. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
+14. Declare conditions for when to display the page by either using the provided dropdown menus or writing an encoded query string.
 
     For more information on writing encoded queries, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
-14. Select **Continue**.
+15. Select **Continue**.
 
-15. Select the **Build responsive** option \(default\) for greater control of how the page appears at different screen form factors or select **Build without responsive** for automatic adjustment.
+16. Select the **Build responsive** option \(default\) for greater control of how the page appears at different screen form factors or select **Build without responsive** for automatic adjustment.
 
     \[Omitted image "responsive-author-create-page.png"\] Alt text: Step showing responsive authoring and reflow options when creating a page from scratch.
 
     For more information, see [Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/responsive-authoring.md).
 
-16. Select **Create** to create your blank page.
+17. Select **Create** to create your blank page.
 
     The page opens in Editor view so you can start adding content such as layouts and components. For more information, see [Customize UI Builder pages using components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-components.md).
 

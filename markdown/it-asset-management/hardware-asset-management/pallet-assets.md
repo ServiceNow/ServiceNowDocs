@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Pallet assets
@@ -36,4 +36,6 @@ Note the following when you plan to use pallet assets for inventory management:
 -   Pallet assets can't be a part of asset bundles.
 
 For more details on pallet assets, see [Manage your inventory through pallet assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/pallets-for-inventory-management.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 

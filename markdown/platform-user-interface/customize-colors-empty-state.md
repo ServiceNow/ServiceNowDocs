@@ -1,35 +1,35 @@
 ---
-title: Customize the colors for empty state illustrations and custom images
-description: Customize and control the colors automatically applied to empty state illustrations and your custom images to keep your visual experience engaging while maintaining brand recognition.
+title: Configure the colors for empty state illustrations
+description: Configure and control the colors automatically applied to empty state illustrations to keep your visual experience engaging while maintaining brand recognition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/customize-colors-empty-state.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [theme builder, customize colors, empty state illustrations]
-breadcrumb: [Working with Image styles, Manage or edit a theme with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Empty state illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Customize the colors for empty state illustrations and custom images
+# Configure the colors for empty state illustrations
 
-Customize and control the colors automatically applied to empty state illustrations and your custom images to keep your visual experience engaging while maintaining brand recognition.
+Configure and control the colors automatically applied to empty state illustrations to keep your visual experience engaging while maintaining brand recognition.
 
 ## Before you begin
 
-Before you can edit the colors of your custom image, you must append two design tokens to your image code before uploading the image to Theme Builder. For information, see [Override empty state illustrations with custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/override-empty-state-illustrations.md).
+Role required: ui\_builder\_admin
 
-Role required: admin
+For information on granular roles, see .
 
 ## About this task
 
 As a category, all empty state illustrations share color hook mappings. As a result, the colors that you apply to one empty state illustration type are also applied to the entire empty state illustration category.
 
-**Important:** Customization of empty state illustration colors applies to Workspaces and is not supported in the Core UI.
+**Important:** Configuring empty state illustration colors applies to Workspaces and isn’t supported in the Core UI.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
     The Theme Builder landing page opens in a new tab and is displayed in the Home page view.
 
@@ -39,7 +39,7 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
 3.  From the Theme drop-down list, select the theme that you want to edit.
 
-4.  Select the **Image styles** tab from the general styles panel.
+4.  Select the **Image styles** tab from the general styles panel and expand **Empty States**.
 
     The empty state illustrations available for editing are displayed on the main stage and grouped by type.
 
@@ -47,11 +47,13 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
 5.  Select any empty state illustration type from the main stage.
 
-    **Note:** Customizing the colors of any empty state illustration type will apply the color change to the entire empty state category, regardless of which type you select.
+    **Note:** Customizing the colors of any empty state illustration type applies the color change to the entire empty state category, regardless of which type you select.
 
     The property panel opens automatically.
 
 6.  From the property panel, select the **Colors** tab.
+
+    **Note:** The number of leading or supporting colors differs depending on the illustration category. For example, banner illustrations have one leading color, while empty state illustrations have two leading colors. Leading colors are the main colors in the illustration and supporting colors are accents. They’re listed from most prominent to least.
 
     \[Omitted image "tb-property-panel-colors.png"\] Alt text: Property panel with Colors tab selected.
 
@@ -59,7 +61,7 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
     \[Omitted image "tb-color-picker.png"\] Alt text: Color picker.
 
-    **Note:** By default, the My Colors tab shows all of the available colors for the illustration. You can also use the Custom tab to select a new color.
+    **Note:** By default, the My Colors tab shows all the available colors for the illustration. You can also use the Custom tab to select a new color.
 
 8.  When you have completed your changes, select **Save changes**.
 
@@ -70,9 +72,9 @@ As a category, all empty state illustrations share color hook mappings. As a res
 
 ## Result
 
-The new colors are applied to all empty state illustration types including any custom images you've previously uploaded with design tokens applied.
+The new colors are applied to all empty state illustration types.
 
-If your theme is published, your empty state illustration edits are visible to users who have your theme applied upon refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md).
+If your theme is published, your empty state illustration edits are visible to users who have your theme applied on refresh. For information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md).
 
-**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/working-with-image-styles.md)
+**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/empty-state-illustrations.md)
 

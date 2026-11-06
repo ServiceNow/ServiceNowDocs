@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Log Analytics setup
@@ -25,4 +25,17 @@ For more information about using the guided setup interface, see [Using guided s
 ## Agent Client Collector Log Analytics setup without using guided setup
 
 If you are not using guided setup, you must perform several configuration steps manually. For more information, see [Set up Agent Client Collector Log Analytics without using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-enable-hla.md).
+
+-   **[Set up Agent Client Collector Log Analytics using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-guided-setup-use.md)**  
+Configure Agent Client Collector Log Analytics on your ServiceNow instance using guided setup.
+-   **[Set up Agent Client Collector Log Analytics without using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-enable-hla.md)**  
+Configure the Agent Client Collector to stream log data from Linux and Windows hosts to a ServiceNow instance without using guided setup.
+-   **[Identify and resolve log streaming issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-verify-log-streaming.md)**  
+Make sure that your ACC data inputs are streaming data properly by identifying and resolving log streaming issues.
+-   **[View log shipper alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-log-shipper-alerts.md)**  
+View all log shipper check alerts for Agent Client Collector Log Analytics \(ACC-L\) agents.
+-   **[View log shipper events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-log-shipper-events.md)**  
+View all log shipper events with all severity levels for Agent Client Collector Log Analytics \(ACC-L\) agents.
+
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

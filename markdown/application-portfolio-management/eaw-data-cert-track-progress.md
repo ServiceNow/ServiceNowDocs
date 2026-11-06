@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-data-cert-track-progress.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data certification in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with data certification, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Track progress of a certification policy
@@ -16,7 +16,7 @@ Monitor and review the certification policy status to track completion progress 
 
 ## Before you begin
 
-Role required: System admin, cmdb admin + analyst
+Role required: sn\_apm.apm\_analyst
 
 ## Procedure
 
@@ -33,5 +33,5 @@ Role required: System admin, cmdb admin + analyst
     **Note:** You can select each link under the Certification instance column to see associated policy tasks.
 
 
-**Parent Topic:**[Data certification in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-explore-data-cert.md)
+**Parent Topic:**[Working with data certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-data-cert.md)
 

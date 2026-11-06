@@ -1,5 +1,5 @@
 ---
-title: Create a Software Asset Management Foundation plugin entitlement allocation in classic
+title: Create a SAM Foundation entitlement allocation
 description: A user or device allocation can be added to a software entitlement to specify a user or device to which rights have been allocated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/t\_AddAnEntitlementAllocationSAMF.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Create a Software Asset Management Foundation plugin entitlement in classic, Configuring Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Create an entitlement, Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Create a Software Asset Management Foundation plugin entitlement allocation in classic
+# Create a SAM Foundation entitlement allocation
 
 A user or device allocation can be added to a software entitlement to specify a user or device to which rights have been allocated.
 
@@ -116,5 +116,5 @@ License key of the software.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a Software Asset Management Foundation plugin entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)
+**Parent Topic:**[Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md)
 

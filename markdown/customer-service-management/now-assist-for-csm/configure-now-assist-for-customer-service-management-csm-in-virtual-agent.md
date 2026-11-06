@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure ServiceNow Otto for Customer Service Management \(CSM\) in Virtual Agent
@@ -21,28 +21,32 @@ Use ServiceNow Otto for CSM in Virtual Agent to provide users a content-driven g
 
 Role required: admin
 
-To ensure LLM-based appointment booking works in Customer Service Management, the following apps are required:
+To confirm LLM-based appointment booking works in Customer Service Management, the following apps are required:
+
+-   ServiceNow Otto for Customer Service Management \(CSM\)
+-   Walk-Up for CSM \(com.snc.walkup\_for\_csm\)
+-   Conversational Appointment Booking \(sn\_va\_appt\_schedul\)
 
 ## About this task
 
 There are 6 main steps to configure ServiceNow Otto for CSM in Virtual Agent:
 
-1.  [Activate Virtual Agent for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-virtual-agent-csm.md)
-2.  [Configure Now Assist in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)
+1.  [Activate Virtual Agent for Customer Service Management \(CSM\).](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-virtual-agent-csm.md)
+2.  [Configure AI in Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md)
 3.  [Install Conversational Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/conv_appt_booking_install.md)
 4.  [Enable Walk-up Experience Appointment Booking.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-appt-booking.md)
-5.  [Configure API credentials for OpenAI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-api-credentials-for-openai.md).
+5.  [Configure API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
 6.  Enable Schedule a Walk-up Appointment topic in the Virtual Agent.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational interfaces** &gt; **Virtual Agent** &gt; **Designer.**.
+1.  Navigate to **All** &gt; **Conversational interfaces** &gt; **Virtual Agent** &gt; **Designer**.
 
-2.  Locate and select **Schedule a Walk-up Appointment** topic under Now LLM
+2.  Locate and select **Schedule a Walk-up Appointment** topic under LLM.
 
 3.  Select the **Properties** tab.
 
-4.  Locate the check box labeled Now Assist for Virtual Agent under Select LLM assistant to make topic available.
+4.  Locate the check box labeled AI for Virtual Agent under Select LLM assistant to make topic available.
 
 5.  Select **Save**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an insight trigger, Create an insight rule, Working with automations, Using Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Create an insight trigger, Create an insight rule, Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
 # Map an insight rule to a new scheduled script

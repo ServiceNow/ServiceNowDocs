@@ -1,5 +1,5 @@
 ---
-title: Exclude Sensitive Tables and Fields from Data Generation
+title: Exclude Sensitive Tables and Fields from Data Generation \[New in Security Center 7.0\]
 description: Use system properties to exclude tables and fields from Data Generation, which is used to generate fake data sets based on existing data. Tables and fields that are added to these exclusion lists can't be used for Data Generation feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-exclude-sensitive-tables-and-fields-from-data-generation.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Exclude Sensitive Tables and Fields from Data Generation
+# Exclude Sensitive Tables and Fields from Data Generation \[New in Security Center 7.0\]
 
 Use system properties to exclude tables and fields from Data Generation, which is used to generate fake data sets based on existing data. Tables and fields that are added to these exclusion lists can't be used for Data Generation feature.
 

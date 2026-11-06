@@ -1,0 +1,22 @@
+---
+title: Kubernetes Visibility Agent \(KVA\) Performance Benchmark
+description: Performance tests help you estimate the load, memory, and CPU on the Instance and Kubernetes cluster.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/kva-p-benchmark.html
+release: yokohama
+product: Discovery
+classification: discovery
+topic_type: reference
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Kubernetes Visibility Agent support matrix, Reference, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+---
+
+# Kubernetes Visibility Agent \(KVA\) Performance Benchmark
+
+Performance tests help you estimate the load, memory, and CPU on the Instance and Kubernetes cluster.
+
+For the performance results from multiple scenarios that are tested, see the [Performance results for Kubernetes Visibility Agent \[KB1555851\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1555851) article in the Now Support knowledge base.
+
+**Parent Topic:**[Kubernetes Visibility Agent support matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-support-matrix.md)
+

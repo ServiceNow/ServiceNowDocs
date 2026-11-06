@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -24,7 +24,7 @@ Using Health and Safety Contractor Management, contract coordinators can manage 
 
     1.  [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md)
 
-        Keep track of all contractor companies' details including their name, address, their primary contact, and overall rating. Additionally, list all the contractor workers including their areas of expertise and contact details.
+        Add and keep track of all contractor companies' details including their name, address, their primary contact, and overall rating. Additionally, list all the contractor workers including their areas of expertise and contact details.
 
         Employees or Line managers can also register contractor companies from the Employee Center to initiate their health and safety pre-qualification process. For more information, see [Register a contractor company through Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-register-contractor-company-emp-center.md).
 

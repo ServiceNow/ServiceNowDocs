@@ -1,20 +1,20 @@
 ---
 title: Compliance score calculation for a citation
-description: Two methodologies determine a citation's compliance score. The previous method \(which averaged child citations and associated control objectives\) and the current method \(which averages child citations and directly linked controls\)
+description: Two methodologies determine a citation's compliance score. The previous method averaged child citations and associated control objectives. The current method averages child citations and directly linked controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/compliance-score-calculation-for-a-citation.html
 release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Association of citations to controls, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Association of citations to controls, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Compliance score calculation for a citation
 
-Two methodologies determine a citation's compliance score. The previous method \(which averaged child citations and associated control objectives\) and the current method \(which averages child citations and directly linked controls\)
+Two methodologies determine a citation's compliance score. The previous method averaged child citations and associated control objectives. The current method averages child citations and directly linked controls.
 
 ## Old formula \(before enabling property\)
 
@@ -30,18 +30,17 @@ Under the old calculation method, a citation’s compliance score is based on th
 
 Example 1:
 
-If a citation has no child citations and is associated with one control objective that has a compliance score of 42%, then the citation’s compliance score is 42%.
-
-The control objective’s score \(42%\) comes from averaging its own controls \(50%\) and its child control objective’s score \(33%\).
+-   If a citation has no child citations and is associated with one control objective that has a compliance score of 42%, then the citation’s compliance score is 42%.
+-   The control objective’s score \(42%\) comes from averaging its own controls \(50%\) and its child control objective’s score \(33%\).
 
 Example 2:
 
-If a citation has one child citation with a compliance score of 70% and one associated control objective with a compliance score of 42%, then the compliance score is 56%, which comes from averaging 70% and 42%.
-
-```
+-   If a citation has one child citation with a compliance score of 70% and one associated control objective with a compliance score of 42%, then the compliance score is 56%, which comes from averaging 70% and 42%.
+-   ```
 Compliance Score = (70% + 40%) ÷ 2 = 56%
 
 ```
+
 
 ## New formula \(after enabling property\)
 

@@ -1,15 +1,15 @@
 ---
 title: Report ranges
-description: Use a report range to define intervals that break up continuous timespan data in table fields. It is necessary to break this data into discreet chunks for presentation.Report ranges work with elements that hold only dates, lists, or integers.To view all currently configured report ranges, navigate to All Reports Administration Report Ranges . If your instance is migrated to Platform Analytics experience, navigate instead to All Platform Analytics Administration Color Settings Report ranges .Create a report range to define data intervals that are used in bar and pie charts.To use report ranges in your Core UI bar and pie visualizations, you must enable the report range module.
+description: Use a report range to define intervals that break up continuous timespan data in table fields. It is necessary to break this data into discreet chunks for presentation.Report ranges work with elements that hold only dates, lists, or integers.To view all currently configured report ranges, navigate to All Platform Analytics Administration Color Settings Report ranges .Create a report range to define data intervals that are used in bar and pie charts.To use report ranges in your Core UI bar and pie visualizations, you must enable the report range module.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/c\_ReportRanges.html
 release: yokohama
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Administering reports, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Administering Core UI reports, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report ranges
@@ -27,7 +27,7 @@ Example use case: There is a significant cost involved to a business each time a
 
 \[Omitted image "IncidentsCreatedDateWRanges06032013.png"\] Alt text: Vertical bar report with configured report ranges highlighted
 
-**Parent Topic:**[Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
+**Parent Topic:**[Administering Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdminsteringReports.md)
 
 ## How report ranges work
 
@@ -43,19 +43,62 @@ Report ranges can be globally applied to all date type fields \(date, due date, 
 
 ## View all report ranges
 
-To view all currently configured report ranges, navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Ranges**. If your instance is migrated to Platform Analytics experience, navigate instead to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Report ranges**.
+To view all currently configured report ranges, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Report ranges**.
 
 \[Omitted image "ReportRangesK-L.png"\] Alt text: Report ranges list
 
 The following are important columns and their associated data types:
 
-|Field|Corresponding data type|
-|-----|-----------------------|
-|Upper value duration|Date - works with elements that store dates.|
-|Upper value int|Integer - works with elements that store numbers.|
-|Value list|List - works with elements that store a list item.|
+<table id="table_nr4_rcc_zp"><thead><tr><th>
 
-## Create a report range
+Field
+
+</th><th>
+
+Corresponding data type
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the table if specified, or Global. Global ranges apply to all applicable fields on the instance.
+
+</td></tr><tr><td>
+
+Element
+
+</td><td>
+
+If a table is specified, the field on the table that the report range applies to.
+
+</td></tr><tr><td>
+
+Upper value duration
+
+</td><td>
+
+Date - works with elements that store dates.
+
+</td></tr><tr><td>
+
+Upper value int
+
+</td><td>
+
+Integer - works with elements that store numbers.
+
+</td></tr><tr><td>
+
+Value list
+
+</td><td>
+
+Value list - works with elements that store a list of table sysIds.
+
+</td></tr></tbody>
+</table>## Create a report range
 
 Create a report range to define data intervals that are used in bar and pie charts.
 
@@ -65,9 +108,7 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Report Ranges**.
-
-    If your instance is migrated to Platform Analytics experience, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Report ranges**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Report ranges**.
 
 2.  Select **New**.
 
@@ -91,7 +132,7 @@ Name
 
 </td><td>
 
-The name of the table to draw the values from. **Note:** This field is required before you can select from the **Element** list.
+The name of the table to draw the values from, or Global \[global\] to apply to all relevant fields on all tables. **Note:** This field is required before you can select from the **Element** list.
 
 </td></tr><tr id="drrElement"><td>
 
@@ -99,7 +140,7 @@ Element
 
 </td><td>
 
-The table field to draw the values from.
+The table field to draw the values from. Cannot be specified for Global \[global\] ranges.
 
 </td></tr><tr id="drrLabel"><td>
 

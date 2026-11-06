@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-composite-metric-definition.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -26,13 +26,13 @@ You can create calculated metric definitions which can be a combination of other
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Metrics** &gt; **Calculated metric definitions**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
     For a detailed explanation of the fields, see [Calculated metric definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/calculated-metric-definition-reuse.md).
 
-4.  Click **Save**.
+4.  Select **Save**.
 
 5.  To aggregate the data, select **Aggregate**.
 

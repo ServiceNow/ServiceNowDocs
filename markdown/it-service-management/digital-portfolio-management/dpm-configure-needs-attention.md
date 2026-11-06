@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure Needs attention panels in Digital Portfolio Management
@@ -24,7 +24,7 @@ Role required: sn\_dpm.dpm\_admin
 
 Configurable Needs attention panels and its attributes table were introduced in the Utah Store release, November 2023. The following are general guidelines but for more Admin configuration steps, see [KB1519343](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1519343).
 
-Default thresholds apply to the DPM Workspace homepage. Solutions use the default attributes and thresholds from the attributes table until users decide to personalize their DPM Workspace homepage experience. See [Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+Default thresholds apply to the DPM Workspace homepage. Solutions use the default attributes and thresholds from the attributes table until users decide to personalize their DPM Workspace homepage experience. See [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 
 ## Procedure
 

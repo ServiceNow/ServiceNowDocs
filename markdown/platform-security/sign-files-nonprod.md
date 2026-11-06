@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/sign-files-nonprod.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Sign specific records or attachments, Using Code Signing, Code Signing, Platform Security]
+breadcrumb: [Sign Records and Files, Using Code Signing, Code Signing, Platform Security]
 ---
 
 # Create a job to sign specific records or attachments on a trusted instance

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Choose the right method for discovery and mapping application services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Pattern-based discovery in Service Mapping
@@ -18,7 +18,7 @@ Pattern-based discovery is the main method of Service Mapping collecting data ab
 
 ServiceNow applications refer to devices and applications that comprise a service instance as configuration items \(CIs\).
 
-Service Mapping uses patterns to discover and map CIs. A pattern is a sequence of commands whose purpose it is to detect attributes of a CI and its outbound connections. A typical Service Mapping pattern consists of two types of algorithms for identifying CIs and finding CI connections.
+Service Mapping uses patterns to discover and map CIs. A pattern is a sequence of commands designed to detect attributes of a CI and its outbound connections. A typical Service Mapping pattern consists of two types of algorithms for identifying CIs and finding CI connections.
 
 The starting point of any discovery process is an entry point. An entry point is a point where clients access a service instance. For example, to map your electronic mailing service instance, define an IP address or host name of the email server as an entry point. The discovery and mapping process begins from Discovery performing the horizontal discovery to identify the host. Once the host discovery is complete, Service Mapping starts the top-down discovery to find and map applications running on this host.
 
@@ -39,7 +39,7 @@ The discovery and mapping process consists of the following interactions:
 
         \[Omitted image "DiscoDiscoveryFlowStage1.png"\] Alt text: Service Mapping checks the CMDB and triggers the horizontal discovery.
 
-    3.  Discovery creates the first set of probes for port discovery, referred to as Shazzam probes, and places them as a discovery request in the External Communication Channel \(ECC\) queue.
+    3.  Discovery creates the first set of probes for port discovery, referred to as Shazzam probes. It places them as a discovery request in the External Communication Channel \(ECC\) queue.
     4.  The MID Server checks the ECC queue and retrieves the discovery request assigned to it.
     5.  The MID Server runs the probes against the host and discovers open ports.
 
@@ -83,7 +83,7 @@ The discovery and mapping process consists of the following interactions:
 
 [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/application-services.md)
 
-[The ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
+[ECC queue for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_DiscoveryStatusECCQueue.md)
 
 [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoProcessFlows.md)
 

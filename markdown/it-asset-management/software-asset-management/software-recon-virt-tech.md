@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software reconciliation for compliance, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software reconciliation for compliance, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Determining license compliance through Virtualization Adapter
@@ -21,7 +21,7 @@ The following are the software products for which Software Asset Management Virt
 -   Microsoft SQL Server
 -   Windows Server
 -   Red Hat Enterprise Linux Server \(RHEL\)
--   Oracle Database Server, Options, and WebLogic Server
+-   Oracle Database, Options, and WebLogic Server
 
 Virtualization is a process of simulating hardware functionality and creating a virtual environment in which you can run more than one virtual machine on a single server in a clustered environment. For more information on Oracle Database and WebLogic Server licensing support on VMware vSphere and Nutanix virtualization technology, see [Oracle Database and WebLogic Server licensing in soft-partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/oracle-licensing-soft-partitioned-environments.md).
 

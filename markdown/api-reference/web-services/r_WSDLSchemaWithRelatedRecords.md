@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Insert related records using SOAP, SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Insert related records, SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # WSDL Schema with related records

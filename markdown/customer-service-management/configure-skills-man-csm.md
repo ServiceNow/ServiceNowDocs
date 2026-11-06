@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-skills-man-csm.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure Skills Management
@@ -16,7 +16,7 @@ Manage skill data in a central location for customer service agents and work ite
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: reference
-last_updated: "2026-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [HAM advisor dashboard indicators, hardware CI normalization status, assets missing CI, CI install status vs asset state mismatch, hardware asset data quality indicators]
-breadcrumb: [Use HAM advisor, Asset and CI management, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Use HAM advisor, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Indicators used in the CMDB success advisor for HAM dashboard

@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Navigate the UI Builder application, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Navigate the UI Builder application, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Guided tours in UI Builder
@@ -31,8 +31,6 @@ When a guided tour starts automatically, an introduction is displayed. Select **
 \[Omitted image "guided-tour-in-uib3.png"\] Alt text: Introduction for navigating UI Builder homepage guided tour.
 
 To begin a tour manually from the homepage, navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder** and select a tour in the **Getting started** section. If no guided tours appear by default in the section, select **View more** and then select a tour on the **Find relevant resources to get you unstuck** pop-up.
-
-\[Omitted image "guided-tour-in-uib1.png"\] Alt text: UI Builder homepage with view more link selected and pop-up expanded to show options including tours.
 
 Alternatively, select **Help** and then select a tour on the **Find relevant resources to get you unstuck** pop-up.
 

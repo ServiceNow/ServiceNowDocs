@@ -1,0 +1,41 @@
+---
+title: Agentic AI in Incident Management
+description: Use the ITSM Incident Management agentic workflows to manage, resolve and close incidents and incident tasks autonomously.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/im-using-agentic-workflow.html
+release: yokohama
+product: Incident Management
+classification: incident-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Now Assist, agentic AI, generative AI, Gen AI]
+breadcrumb: [Incident Management, IT Service Management]
+---
+
+# Agentic AI in Incident Management
+
+Use the ITSM Incident Management agentic workflows to manage, resolve and close incidents and incident tasks autonomously.
+
+**Important:**
+
+To access the agentic workflow for Incident Management, make sure that you install the following applications:
+
+1.  ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\) plugin.
+2.  Incident Management application. For more information, see [Configuring Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-configuration.md).
+
+**Note:**
+
+-   Before you begin, review these [Important considerations for using ServiceNow Otto for IT Service Management \(ITSM\) agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/important-considerations-itsm-agentic-ai.md).
+-   For all available ITSM agentic AI applications, see [Use agentic AI in ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-ai-agents-use-cases.md).
+
+The Wrap-up and resolve incident agentic workflow enables users to generate resolution notes and select a resolution code to resolve an incident. The workflow can also attach a Knowledge Base \(KB\) article or create a draft Knowledge article, attach a known error \(KE\) article when the resolution code is Known Error, and update duplicate incident information when the resolution code is Duplicate.
+
+The agentic workflow uses the following AI agents:
+
+-   Incident resolution details AI agent
+-   Incident knowledge article AI agent
+-   Incident known error article AI agent
+
+For more information, see [ITSM Wrap-up and resolve incident agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-wrap-up-resolve-incident-aw.md).
+

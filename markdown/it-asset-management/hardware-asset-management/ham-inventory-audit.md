@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-01-05"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [audit inventory, inventory audit, hardware asset inventory audit]
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Audit hardware asset inventory
@@ -31,7 +31,7 @@ When an inventory audit record is created, it’s saved in the Asset Audits tabl
 
 **Note:** Starting with Hardware Asset Management version 15.0.0, the audit inventory has been enhanced to store audit records in the common Asset Audits \[sn\_itam\_common\_asset\_audit\] table. Before enabling audit enhancements and switching to the common Asset Audits table, you must complete all audit records that are in either **In progress** or **New** status.
 
-Using the ServiceNow Agent app, you can scan the assets in the inventory and complete the audit process. The Hardware Asset Management application reconciles scanned assets with ServiceNow records to generate audit results. For more information about scanning assets, see [Complete a single scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/scan-assets-agent-app.md) and [Complete multi scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/complete-multi-scan-inventory-audit-using-mobile-app.md).
+Using the ServiceNow Agent app, you can scan the assets in the inventory and complete the audit process. The Hardware Asset Management application reconciles scanned assets with ServiceNow records to generate audit results. For more information about scanning assets, see [Complete a single scan inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/scan-assets-agent-app.md).
 
 -   **[Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-your-inventory.md)**  
 Create an audit record to audit your inventory to determine the accuracy of your hardware and consumable assets and to optimize the inventory.
@@ -50,70 +50,22 @@ View the audit results after you audit your inventory. The Audit Results section
 -   **[View deprecated audit records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/view-deprecated-audit-records.md)**  
 View the deprecated asset audit records that are created before switching to the common Asset Audits \[sn\_itam\_common\_asset\_audit\] table and stored in the Asset Audits \[sn\_hamp\_asset\_audit\] table.
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Inventory and stockroom operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization]()
-
-[Manage asset bundles from your inventory]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Use a hardware asset request flow]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[View RFID information of assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage and monitor hardware asset performance]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace]()
 
 [Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
 [Manage asset put away using the Hardware Asset Workspace]()
 
-[Manage hardware asset tasks using the Mobile Agent application]()
+[View RFID information of assets]()
 
-[Audit your hardware assets by using Asset Attestation]()
+[Track asset location using indoor maps]()
 
-[Acknowledge receipt of assets on the Employee Center portal]()
+[Manage your inventory through pallet assets]()
 
-[Update associated Decision tables for HAM flows]()
+[View stockroom details]()
 

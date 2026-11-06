@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the network topology, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network topology, Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
 # Viewing a network topology
@@ -39,5 +39,5 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 6.  In the details pane, select **View Details** to redirect to the CI record \(optional\).
 
 
-**Parent Topic:**[Using the network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
+**Parent Topic:**[Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-topology.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Walk-up Experience portal
@@ -47,7 +47,7 @@ There are several ways to configure the Walk-up service portal:
 
 6.  In the form designer header drop-down list select or search for any of the configurable walk-up forms to customize your portal appearance.
 
-<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d274891e156">
+<table id="choicetable_egv_2gp_ldb"><tbody><tr><td id="d339741e156">
 
 **Walk-up context \[wu\_context\]**
 
@@ -55,7 +55,7 @@ There are several ways to configure the Walk-up service portal:
 
 Configure an online check-in channel for users to join a walk-up queue before physically arriving at the walk-up location. Identifies a walk-up user and the description of the associated interaction.
 
-</td></tr><tr><td id="d274891e165">
+</td></tr><tr><td id="d339741e165">
 
 **Walk-up Location Queue \[wu\_location\_queue\]**
 
@@ -63,7 +63,7 @@ Configure an online check-in channel for users to join a walk-up queue before ph
 
 Configure the physical walk-up location interaction queue to manage and administer the service center. You can establish walk-up locations, set hours of operation, enable online check-in, determine assignment groups, associate stockrooms, as well as design the queue time display and position notification system.
 
-</td></tr><tr><td id="d274891e174">
+</td></tr><tr><td id="d339741e174">
 
 **Walk-up Reason \[wu\_m2m\_location\_queue\_reason\]**
 
@@ -71,7 +71,7 @@ Configure the physical walk-up location interaction queue to manage and administ
 
 Define various common reasons why a user needs walk-up support.
 
-</td></tr><tr><td id="d274891e183">
+</td></tr><tr><td id="d339741e183">
 
 **Walk-up Reason for Visit \[wu\_reason\]**
 

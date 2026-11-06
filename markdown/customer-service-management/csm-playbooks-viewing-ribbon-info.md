@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbooks-viewing-ribbon-info.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Playbooks for Customer Service Management, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Viewing ribbon information in the contextual side panel

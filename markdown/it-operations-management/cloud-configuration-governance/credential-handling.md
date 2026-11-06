@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Day 2 operations using workflows, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Day 2 operations using Workflow Studio subflow, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Credential handling
@@ -24,9 +24,5 @@ Cloud Provisioning and Governance now generates SSH private key credentials and 
 
 ## Delete credentials
 
-When you deprovision or delete a VM, all associated credentials are deleted, including the node credential and SSH private key credentials/Windows credentials, as well as the credentials alias tag.
-
-## Use the credentials
-
-See [Use credentials with SSH workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/use-credentials-with-workflows.md) for details.
+When you deprovision or delete a VM, all associated credentials are deleted. This includes the node credential, SSH private key credentials, Windows credentials, and the credentials alias tag.
 

@@ -7,14 +7,16 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on service catalog variables
 
 Create reports grouped by a variable on a selected service catalog item. You can also create filters on the same variable.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 Reporting on variables can be helpful in determining if certain catalog items are useful on an instance, for example.
 
@@ -35,5 +37,5 @@ You can create reports grouped by variable on a selected service catalog item. I
 -   **[Add additional group by variables to a service catalog report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/add-addl-group-svc-cat-var-report.md)**  
 You can create reports grouped by any field with an additional group by variable on a selected service catalog item. In addition, you can create filters on the same variable. For example, if a mobile phone item has a storage variable, you can create a report that only shows those phones with 32 GB of storage.
 
-**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 

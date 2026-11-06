@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Field Service Management, Field Service Management]
+breadcrumb: [Use, Field Service Management]
 ---
 
 # Prepare work orders
@@ -18,14 +18,22 @@ Create work orders, and work order tasks using templates that integrate the righ
 
 Create, approve, qualify, or close work orders and manage SLAs using the Field Service Management application.
 
--   **[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)**  
-Work orders are requests for off-site work. Users with the appropriate roles create the work orders and provide the necessary information needed for the work order tasks. Then other users qualify those work orders and create the tasks necessary to complete the work order.
--   **[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)**  
-Use work order tasks to define separate activities that must be done to complete a work order.
--   **[Assign ad-hoc Service Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-with-service-locations.md)**  
-The Field Service with Service Locations feature enables you to add and verify service locations on demand.
+## Using overview
 
-**Parent Topic:**[Using Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/use-fsm.md)
+The steps for preparing work orders are:
+
+1.  [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
+
+    Managing work orders includes the creation, assignment, and tracking of work orders through their completion.
+
+2.  [Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
+
+    Work order tasks are an integral part of work orders, they define the activities that must be completed in the work order. Each work order has at least one work order task.
+
+3.  \(Optional\) [Assign ad-hoc Service Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-with-service-locations.md)
+
+    These locations allows administrators to configure service locations on demand. These ad-hoc locations are not part of a predefined Field Service location, giving greater flexibility to where a Field Service technician might be working on a day-to-day basis.
+
 
 **Related topics**  
 

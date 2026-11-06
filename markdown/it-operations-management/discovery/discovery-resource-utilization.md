@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery resource utilization
@@ -69,4 +69,12 @@ This table shows discovery of different OS types using patterns. This measures, 
 | |Update|0.178|0.126|0.282|0.479|1.065|
 
 **Note:** These measurements were taken with base operating configurations. Your local system results may vary.
+
+## CPU Usage examples
+
+Examples from CPU Usage will vary among the matrix of thousands of combinations of Operating Systems, chip sets and specific loads for each system.
+
+Your mix of these variables will determine your unique level of CPU consumption.
+
+Use internal templates to identify unique builds. Monitor the performance impact that Discovery has on your system.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Server-side scripting, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script includes
@@ -20,9 +20,9 @@ Create script includes to store JavaScript functions and classes for use by serv
 
 Consider using script includes instead of global business rules because script includes are only loaded on request. See [Privacy settings on Glide AJAX enabled script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_ScriptIncludes.md) and [Discovery script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_ScriptIncludes.md) for more information.
 
-For additional examples of scripts, see [Useful scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/usefulScripts.md).
+For additional examples of scripts, see [Example scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/usefulScripts.md).
 
-**Parent Topic:**[Server-side scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_ServerScripting.md)
+**Parent Topic:**[Writing server-side scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/server-side-scripting-overview.md)
 
 ## Script include form
 
@@ -76,9 +76,9 @@ Sandbox enabled
 
 </td><td>
 
-The script include is available to scripts invoked from the script sandbox, such as a query condition. **Important:** Script includes should only be made available to the script sandbox if necessary.
+The script include is available to scripts invoked from the script sandbox, such as a query condition.**Important:** Script includes should only be made available to the script sandbox if necessary.
 
- For more information about the sandbox, see [Configuring Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_ScriptSandboxing.md).
+For information about the script sandbox, see [Script sandbox evaluator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-sandbox.md).
 
 </td></tr><tr><td>
 
@@ -312,8 +312,6 @@ When creating a Glide AJAX enabled script include, the system displays the follo
 
 -   Add or define an Access Control, unless the script include has public access.
 -   Use GlideRecordSecure instead of GlideRecord API for better security, if the script queries the database.
-
-    \[Omitted image "ccsi-security-recommendations.png"\] Alt text: Glide AJAX enabled security recommendations.
 
     **Note:** To disable the security recommendation messages, set the property glide.script.ccsi.customer\_scoped.security\_msgs\_enabled to **false** in the sys\_properties table. The default value is set to **true**.
 

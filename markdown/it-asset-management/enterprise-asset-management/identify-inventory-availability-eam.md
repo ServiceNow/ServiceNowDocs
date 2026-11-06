@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Identify suitable replacement options for assets in the Enterprise Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Wo
 Use the Inventory availability report to determine suitable replacement options for your assets and their child components that are in use, in maintenance, pending repair, or defective. The report also helps you to determine the quantity of available substitute models that can be used locally, moved through the distribution channels, and estimate the lead time for new purchases.
 
 ## Before you begin
-
-**Important:** The Inventory availability report is available with Enterprise Asset Management version 9.0 and later.
 
 The Inventory availability report is available only for enterprise, consumable, and bundle assets that are in use, in maintenance, pending repair, or defective.
 

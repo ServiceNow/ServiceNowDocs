@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/c\_Certificates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption]
 ---
@@ -16,19 +16,19 @@ Your instance requires certificates to establish secure connections and validate
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-certificates.md)
+[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-certificates.md)
 
  [Learn the key features and business value of Certificates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-certificates.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_GenerateAnLDAPClientCertificate.md)
+[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_GenerateAnLDAPClientCertificate.md)
 
  [Plan your core configurations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_GenerateAnLDAPClientCertificate.md)
 
 </td></tr><tr><td>
 
-[Upload \[Omitted image "icon-manage.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_UploadACertificateToAnInstance.md)
+[Upload \[Omitted image "icon-manage.png"\] Alt text: Upload](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_UploadACertificateToAnInstance.md)
 
  [Plan and set-up the application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_UploadACertificateToAnInstance.md)
 

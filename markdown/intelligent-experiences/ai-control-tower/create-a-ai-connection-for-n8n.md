@@ -1,20 +1,20 @@
 ---
 title: Create an AI connection for n8n
-description: Create an AI connection for n8n in AI Control Tower using the  n8n connector.
+description: Use the  AI Service Graph Connector for n8n  to discover AI assets such as AI systems, models, prompts, and tools well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-a-ai-connection-for-n8n.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an AI connection for n8n
 
-Create an AI connection for n8n in AI Control Tower using the  n8n connector.
+Use the  AI Service Graph Connector for n8n  to discover AI assets such as AI systems, models, prompts, and tools well as usage data for these AI agents. This usage information is consumed by the AI Control Tower value dashboard.
 
 ## Before you begin
 
@@ -22,56 +22,58 @@ Role required: sn\_ai\_disc.discovery\_admin and sn\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **AI Control Tower** &gt; **Configuration** &gt; **AI connection**.
+1.  Navigate to **Service Graph connectors** &gt; **n8n** &gt; **Setup**.
 
-2.  Click **Add**.
+2.  Select **SGC Central** tab.
 
-3.  Select **n8n** from all the available connectors.
+3.  Select **Add**.
 
-4.  Click **Create connection**.
+4.  Select **n8n** from all the available connectors.
+
+5.  Click **Create connection**.
 
     Setup page appears
 
-5.  Configure and test connection.
+6.  Configure and test connection.
 
-    1.  Enter the **Connection Name**
+    1.  Enter the **Connection Name**.
 
     2.  Enter the **Connection URL**\(https://&lt;n8n-instance&gt;\)
 
-    3.  Enter the **API Key**
+    3.  Enter the **API Key**.
 
-    4.  Select **Create and test connection**
+    4.  Click **Create and test connection**.
 
-    5.  Select **Continue**
+    5.  Click **Continue**.
 
         Setup page appears
 
-6.  Configure import schedule
+7.  Configure import schedule
 
-    1.  Select a parent import schedule job
+    1.  Select a parent import schedule job.
 
-    2.  Select the Active check box
+    2.  Select the Active check box.
 
-    3.  Select run and time to schedule the job
+    3.  Select run and time to schedule the job.
 
-    4.  Select all the additional settings if necessary
+    4.  Select all the additional settings if necessary.
 
-    5.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out inactive
+    5.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out of the box inactive.
 
         **Note:** Ensure to execute the Discovery-scheduled job first.
 
     6.  To run frequency by demand, select **Execute now**
 
-        **Note:** This is an optional step as the schedule imports run according to the schedule
+        **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    7.  Select **Save**
+    7.  Select **Save**.
 
-    8.  Select **Continue**
+    8.  Click **Continue**.
 
-7.  Select **View all connections** to view the newly created connection.
+8.  Select **View all connections** to view the newly created connection.
 
 
 ## Result
 
-The AI connection for n8n is created and configured.
+AI connection is created for n8n.
 

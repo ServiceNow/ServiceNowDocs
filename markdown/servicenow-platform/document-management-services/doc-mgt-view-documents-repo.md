@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,9 +29,11 @@ In the ServiceNow® Document Management application, documents display as versio
 -   **[Download a document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/downloading-a-document.md)**  
 Download an attached document version based on the selected default version.
 -   **[Share a document link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/share-document-link.md)**  
-Create a shared link with public access to share and download a document for collaboration.
+Create and control document sharing based on classification for shared links with public access.
 -   **[Modify a shared link access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/modify-access-shared-link.md)**  
 Modify the document shared link access to make the link inactive or change the expiration date.
+-   **[Configure document permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/document-configuration.md)**  
+Set sharing permissions on external cloud files using document configuration.
 -   **[Delete a document link](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/delete-document-link.md)**  
 Delete a shared link to remove existing user access to the document.
 -   **[Delete documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/delete-a-doc.md)**  

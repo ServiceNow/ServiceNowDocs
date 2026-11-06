@@ -7,9 +7,9 @@ release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Issue Auto Resolution for HR to handle cases, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Issue Auto Resolution for HR, HR Service Delivery, Employee Service Management]
 ---
 
 # Enhanced search results in IAR with Virtual Agent
@@ -24,22 +24,14 @@ In the previous version of Issue Auto Resolution for HR, all the noncritical HR 
 
 When an employee submits a human resource \(HR\) case via an email or portal, the Issue Auto Resolution first checks whether the **sn\_iar\_hr.hr\_intent\_solution\_enable** property value is set to **True**. If the property value is **True**, the Issue Auto Resolution checks if the corresponding intent for the topic map is active or not in the **Auto-resolution configuration** record. When the property value is **False**, then Issue Auto Resolution continues to perform the normal AI search.
 
-The following example shows how an employee receives a Virtual Agent topic recommendation when the employee submits an HR case via email.
-
-\[Omitted image "iar-new-va-flow.png"\] Alt text: New Virtual Agent topic introduced in IAR flow.
-
-The process is as follows:
+The Virtual Agent process is as follows:
 
 1.  An HR case is submitted by the employee through an email.
 2.  The employee receives an email with the Virtual Agent topic recommendation in it.
 3.  The employee selects **Go to portal** to access the details of the case on the portal.
-4.  The employee accesses the Virtual Agent topic, by selecting the Virtual Agent chat icon \[Omitted image "icon-chat-va.png"\] Alt text: VA chat icon. on the portal and selecting the case recommendation notification.
+4.  The employee accesses the Virtual Agent topic, by selecting the Virtual Agent chat icon \[Omitted image "chat-icon.png"\] Alt text: Chat icon. on the portal and selecting the case recommendation notification.
 
 ## Enhanced recommendations preview on email for AI search flow
 
-The new recommendations section displays the titles of the knowledge articles and catalog items in the email. The \[Omitted image "iar-knowledge-article.png"\] Alt text: IAR knowledge article icon. icon indicates that the recommendation title is a catalog item. The \[Omitted image "iar-catalog-item.png"\] Alt text: IAR catalog item icon. icon indicates that the recommendation title is a knowledge article.
-
-The following example shows how the new recommendations preview section looks in the email you receive when the HR case gets AI search results as recommendations.
-
-\[Omitted image "iar-new-email-preview.png"\] Alt text:
+The new recommendations section displays the titles of the knowledge articles and catalog items in the email. If the recommendation title is a catalog item, it's indicated by the paper icon \(\[Omitted image "iar-catalog-item.png"\]\). If the recommendation title is a knowledge article, it's indicated by pen on paper icon \(\[Omitted image "iar-knowledge-article.png"\]\).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Document access in a legal matter, Create an artifact for a legal matter, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Document access in a legal matter, Create an artifact for a legal matter, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Request document access for a legal matter
@@ -26,7 +26,7 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, under **Matters**, click **All**.
 
@@ -40,4 +40,6 @@ Role required: sn\_lg\_ops.legal\_user or sn\_lg\_ops.legal\_fulfiller
 ## Result
 
 The system processes the user's permissions and grants access to the documents in the matter artifact.
+
+**Parent Topic:**[Document access in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/document-access-legal-matter.md)
 

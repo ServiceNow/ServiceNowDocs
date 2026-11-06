@@ -1,14 +1,14 @@
 ---
 title: GlideDate - Scoped
-description: The scoped GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.Creates a GlideDate object with the current date time.Gets the date in the specified date format.Gets the day of the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date and time field value in the UTC time zone.Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.Returns the date value in the user's locale according to a specified language and date style.Gets the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date in the internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).Gets the year stored by the GlideDate object, expressed in the UTC time zone.Sets a date value using the current user's display format and time zone.Sets a date using a specified style and format according to the current user's locale.Sets a date using a specified style, language, and format according to the current user's locale.Sets the date of the current GlideDate object in internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).Gets the duration difference between two GlideDate values.
+description: The scoped GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.Creates a GlideDate object with the current date time.Gets the date in the specified date format.Gets the day of the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date and time field value in the UTC time zone.Returns the date using the current user's timezone and a specified format.Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.Returns the date value in the user's locale according to a specified language and date style.Gets the month stored by the GlideDate object, expressed in the UTC time zone.Gets the date in the internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).Gets the year stored by the GlideDate object, expressed in the UTC time zone.Sets a date value using the current user's display format and time zone.Sets the date using a specified format.Sets a date using a specified style and format according to the current user's locale.Sets a date using a specified style, language, and format according to the current user's locale.Sets the date of the current GlideDate object in internal format \(yyyy-MM-dd\) and the system time zone \(UTC by default\).Gets the duration difference between two GlideDate values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideDateScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -16,7 +16,7 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The scoped GlideDate class provides methods for performing operations on GlideDate objects, such as instantiating GlideDate objects or working with GlideDate fields.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/p_GlideServerAPIs.md).
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
 
 See also [GlideDateTime - Scoped](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideDateTimeScoped.md).
 
@@ -116,11 +116,70 @@ Output:
 2025-04-21
 ```
 
+## Scoped GlideDate - getDisplayValueEx\(String style\)
+
+Returns the date using the current user's timezone and a specified format.
+
+<table id="table_tg4_ckc_b3c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+style
+
+</td><td>
+
+String
+
+</td><td>
+
+Format to use for the date.Valid values \(case insensitive\):
+
+-   `short`: M/D/YY or D/M/YY depending on the current user's language. For example, 1/27/26 or 27/1/26.
+-   `medium`: Includes abbreviated month, day, and year. For example, Jan 27, 2026.
+-   `long`: Includes month, day, and year. For example, January 27, 2026.
+-   `full`: Includes day of the week, month, day, and year. For example, Tuesday, January 27, 2026.
+
+The date is returned in the current user's language. The language determines the order of month and day in the date.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|String|The date in the specified format.|
+
+This example returns the date using the current user's timezone and each formatting option.
+
+```
+var gd = new GlideDate();
+gs.info(gd.getDisplayValueEx("short"));
+gs.info(gd.getDisplayValueEx("medium"));
+gs.info(gd.getDisplayValueEx("long"));
+gs.info(gd.getDisplayValueEx("full"));
+```
+
+Output:
+
+```
+1/27/26  //short
+Jan 27, 2026  //medium
+January 27, 2026  //long
+Tuesday, January 27, 2026  //full
+```
+
 ## Scoped GlideDate - getDisplayValueInternal\(\)
 
 Gets the date in the internal format \(yyyy-MM-dd\) and current user's timezone.
 
-See also [getDisplayValue\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
+See also [Scoped GlideDate - getDisplayValueInternal\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideDateScopedAPI.md)
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -359,6 +418,79 @@ Output:
 
 ```
 2011-01-01
+```
+
+## Scoped GlideDate - setDisplayValueEx\(String date, String style\)
+
+Sets the date using a specified format.
+
+<table id="table_zb5_3kc_b3c" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+date
+
+</td><td>
+
+String
+
+</td><td>
+
+Value to set for the date. The [getDisplayValueEx\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideDateScopedAPI.md) method returns dates in a valid format, or dates can be formatted as shown below.
+
+-   M/D/YY or D/M/YY depending on the current user's language. For example, 1/27/26 or 27/1/26.
+-   Abbreviated month, day, and year. For example, Jan 27, 2026.
+-   Month, day, and year. For example, January 27, 2026.
+-   Day of the week, month, day, and year. For example, Tuesday, January 27, 2026.
+
+The current user's language determines the accepted order of month and day in the date. For example, if the current user's language is English `3/21/26` and `March 21, 2026` are valid values while `21/3/26` and ``21 March, 2026`` are not.
+
+</td></tr><tr><td>
+
+style
+
+</td><td>
+
+String
+
+</td><td>
+
+Format to use for the date.You must use the same format as the provided **date** value.
+
+Valid values \(case insensitive\):
+
+-   `short`: M/D/YY or D/M/YY depending on the current user's language. For example, 1/27/26 or 27/1/26.
+-   `medium`: Abbreviated month, day, and year. For example, Jan 27, 2026.
+-   `long`: Month, day, and year. For example, January 27, 2026.
+-   `full`: Day of the week, month, day, and year. For example, Tuesday, January 27, 2026.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example sets the date using a specified format.
+
+```
+gd = new GlideDate();
+gd.setDisplayValueEx("Jan 28, 2026", "medium");
+gs.info(gd.getDisplayValueEx("full"));
+```
+
+Output:
+
+```
+Wednesday, January 28, 2026
 ```
 
 ## Scoped GlideDate - setDisplayValueLang\(String date, String style\)

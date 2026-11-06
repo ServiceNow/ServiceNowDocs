@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/mif-conf-manager-instance.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cross-instance application trust configuration, Multi-instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Cross-instance application trust configuration, Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Configure Manager Instances
@@ -16,7 +16,7 @@ Implement the following steps to configure the Manager Instances in Multi-Instan
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or sn\_mif.mif\_admin.
 
 ## Procedure
 
@@ -36,15 +36,15 @@ Role required: admin
 
 4.  On the Manager Instances form, fill up the following.
 
-<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d279298e94">
+<table id="choicetable_sps_q3z_42c"><thead><tr><th align="left" id="d302682e94">
 
 Entry
 
-</th><th align="left" id="d279298e97">
+</th><th align="left" id="d302682e97">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d279298e103">
+</th></tr></thead><tbody><tr><td id="d302682e103">
 
 **Manager Instance**
 
@@ -52,7 +52,7 @@ Description
 
 Select a manager instance from the list of instance names using the lookup option.**Note:** Only production instances should be designated as the primary managers for both production and sub-production instances. Sub-production instances may manage other sub-production instances under specific, defined conditions.
 
-</td></tr><tr><td id="d279298e114">
+</td></tr><tr><td id="d302682e114">
 
 **Application**
 

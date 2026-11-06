@@ -1,18 +1,18 @@
 ---
 title: View an assessment metric category
-description: View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to visually assess the demands.
+description: View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to assess the demands visually.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreateAnAssessmentCategory.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View an assessment metric category
 
-View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to visually assess the demands.
+View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to assess the demands visually.
 
 ## Before you begin
 

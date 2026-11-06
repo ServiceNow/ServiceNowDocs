@@ -1,20 +1,20 @@
 ---
 title: Setup for Everbridge notifications
-description: The setup steps help you to establish a consistent connection and successful notification delivery workflow with Everbridge notifications system. The BCM administrators and application users must configure certain pre-requisite data so that you can set up emergency notifications in BCM UIB Workspace.
+description: The setup steps help you to establish a consistent connection and successful notification delivery workflow with Everbridge notifications system. BCM administrators and application users must configure certain pre-requisite data so that you can set up emergency notifications in BCM UIB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Setup for Everbridge notifications
 
-The setup steps help you to establish a consistent connection and successful notification delivery workflow with Everbridge notifications system. The BCM administrators and application users must configure certain pre-requisite data so that you can set up emergency notifications in BCM UIB Workspace.
+The setup steps help you to establish a consistent connection and successful notification delivery workflow with Everbridge notifications system. BCM administrators and application users must configure certain pre-requisite data so that you can set up emergency notifications in BCM UIB Workspace.
 
-The following pre-requisite configurations are required to be set up for sending an emergency notification and monitoring the notification workflow:
+These pre-requisite configurations must be set up for sending an emergency notification and monitoring the notification workflow:
 
 -   To create a connection and authenticate your credentials with Everbridge, see [Create connections and authenticate their credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-conn-auth-cred-Everbridge-uib-ws.md).
 -   To get the delivery details of the contacts from Everbridge and use them to send a notification, see [Import the delivery channels from Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/import-delivery-channels-from-everbridge-uib-ws.md).

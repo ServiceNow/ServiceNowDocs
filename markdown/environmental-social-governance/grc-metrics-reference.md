@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/grc-metrics-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -15,9 +15,11 @@ breadcrumb: [GRC: Metrics, Operational Sustainability Management \(formerly Envi
 Several properties, tables, and roles are installed with the GRC: Metrics application.
 
 -   **[Components installed with the GRC: Metrics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/tables-installed-with-metrics.md)**  
-When the ESG Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
+When the Operational Sustainability Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
 -   **[Metric Threshold form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/metric-threshold-form-fields.md)**  
 Describes the fields in the Metric Threshold form.
+-   **[Campaign fields and states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/campaign-fields-and-states.md)**  
+Fields and states for campaigns and campaign cycles, used to define a metric set and track it through collection, approval, and closure.
 
 **Parent Topic:**[Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-landing-page.md)
 

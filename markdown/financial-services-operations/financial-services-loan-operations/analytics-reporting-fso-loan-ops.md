@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Analytics and reporting for Financial Services Loan Operations
@@ -20,6 +20,6 @@ Use the Performance Analytics widgets on a dashboard to visualize data over time
 
 The following dashboards are available for Financial Services Loan Operations:
 
--   [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/business-loan-operations-dashboard.md)
--   [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/personal-loan-operations-dashboard.md)
+-   [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/business-loan-operations-dashboard.md)
+-   [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/personal-loan-operations-dashboard.md)
 

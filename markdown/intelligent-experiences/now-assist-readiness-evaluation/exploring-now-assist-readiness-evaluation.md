@@ -1,27 +1,29 @@
 ---
-title: Exploring Now Assist Readiness Evaluation
-description: The Now Assist Readiness Evaluation app automates assessment processes, evaluates data readiness impacting implementation, and provides actionable insights to promote adopting Now Assist quickly. The app enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
+title: Exploring AI Readiness Evaluation
+description: The AI Readiness Evaluation app automates assessment processes, evaluates data readiness impacting implementation, and provides actionable insights to promote adopting AI quickly. The app enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-readiness-evaluation/exploring-now-assist-readiness-evaluation.html
 release: yokohama
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-18"
+last_updated: "2026-10-06"
 reading_time_minutes: 6
 keywords: [explore, Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Now Assist Readiness Evaluation, Enable AI experiences]
+breadcrumb: [AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
-# Exploring Now Assist Readiness Evaluation
+# Exploring AI Readiness Evaluation
 
-The Now Assist Readiness Evaluation app automates assessment processes, evaluates data readiness impacting implementation, and provides actionable insights to promote adopting Now Assist quickly. The app enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
+The AI Readiness Evaluation app automates assessment processes, evaluates data readiness impacting implementation, and provides actionable insights to promote adopting AI quickly. The app enables you to assess whether updates, installations, or customizations of your instance could affect implementation. The assessments provide direct hyperlinks to improve any issues found.
 
-## Now Assist Readiness Evaluation overview
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md).
 
-The Now Assist Readiness Evaluation app is a solution designed to simplify and automate the agentic AI and Now Assist implementation assessment process. The app helps to determine whether your organization's instance is ready to implement generative and agentic AI features in Now Assist. Previously, manually assessing your organization's instance readiness was time consuming and took significant effort. Now, you can use the Now Assist Readiness Evaluation app to automate gathering, processing, and analyzing instance data so that you can review your instance readiness more quickly. The app provides results within seconds, helping to reduce manual effort and promoting rapid and reliable assessments. The app includes assessment information for Now Assist by separating agentic AI solutions and generative AI solutions by tabs. Agentic AI solution information appears in the agentic\_AI \[Omitted image "agentic-ai-icon.png"\] Alt text: tab and generative AI solution information appears in the \[Omitted image "na-assessment-icon.png"\] Alt text: tab.
+## AI Readiness Evaluation overview
 
-The following list details what agentic solutions for Now Assist are evaluated and assessed after the necessary scheduled jobs have run.
+The AI Readiness Evaluation app is a solution designed to simplify and automate the agentic AI and Now Assist implementation assessment process. The app helps to determine whether your organization's instance is ready to implement generative and agentic AI features in Now Assist. Previously, manually assessing your organization's instance readiness was time consuming and took significant effort. Now, you can use the AI Readiness Evaluation app to automate gathering, processing, and analyzing instance data so that you can review your instance readiness more quickly. The app provides results within seconds, helping to reduce manual effort and promoting rapid and reliable assessments. The app includes assessment information for AI by separating agentic AI solutions and generative AI solutions by tabs. Agentic AI solution information appears in the agentic\_AI \[Omitted image "agentic-ai-icon.png"\] Alt text: tab and generative AI solution information appears in the \[Omitted image "na-assessment-icon.png"\] Alt text: tab.
+
+The following list details what agentic solutions are evaluated and assessed after the necessary scheduled jobs have run.
 
 -   **Agentic AI for ServiceNow Otto for IT Service Management \(ITSM\)**
 
@@ -34,11 +36,11 @@ The following list details what agentic solutions for Now Assist are evaluated a
 
 The following list details what generative AI Now Assist products are evaluated and assessed after the necessary scheduled jobs have run.
 
--   **Now Assist for AI Search**
+-   **ServiceNow Otto for AI Search**
 
     This feature provides insights into the status and configuration of AI Search, such as active or inactive profiles, widget versions, and estimated remediation efforts. The assessment also evaluates Knowledge Management by assessing article counts, categories, group restrictions, and top searches or articles viewed. Additionally, the assessment highlights areas for improvement, offering actionable feedback to enhance knowledge quality and hygiene.
 
--   **Now Assist for Virtual Agent \(VA\)**
+-   **ServiceNow Otto for Virtual Agent**
 
     This feature checks if Virtual Agent is live, tracks active topics and catalog items, and identifies barriers to conversational functionality. The assessment highlights opportunities to convert non-conversational items to conversational ones and tracks automation in catalog items, along with estimated remediation efforts.
 
@@ -54,30 +56,30 @@ The following list details what generative AI Now Assist products are evaluated 
 
     This feature analyzes customizations in the HR Core Case and Task tables, tracking field-level changes and promoting data completeness for critical fields. The assessment provides insights into historical HR Core cases, including field population percentages, to enhance data accuracy in HRSD processes. Additionally, the feature identifies estimated remediation efforts required and reports the languages used within the instance.
 
-    **Note:** Additional configuration is needed to run the HRSD assessment successfully. For more information, see [Configure the Now Assist Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
+    **Note:** Additional configuration is needed to run the HRSD assessment successfully. For more information, see [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md).
 
 
-## Now Assist Readiness Evaluation users
+## AI Readiness Evaluation users
 
 |User|Description|
 |----|-----------|
-|Admin|Admins use the Now Assist Readiness Evaluation app to prepare for implementing generative and agentic AI features in Now Assist.|
+|Admin|Admins use the AI Readiness Evaluation app to prepare for implementing generative and agentic AI features.|
 
-## Now Assist Readiness Evaluation benefits
+## AI Readiness Evaluation benefits
 
 |Benefit|Feature|Users|
 |-------|-------|-----|
-|Run scheduled jobs for applicable agentic and generative AI Now Assist products from a single assessment job.|[Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md)|Admins|
-|Review an overall dashboard of your issues before implementing agentic and generative AI Now Assist.|[Using Now Assist Readiness Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation-dashboard.md)|Admins|
-|View your overall go or no-go status to implement Now Assist generative AI skills or agentic AI agents, and view the go or no-go status' issues categorized by percentage.|[Assessing go or no-go](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.md)|Admins|
-|Review summary information of overall implementation readiness.|[Reviewing your Now Assist assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
-|Improve the gaps for implementation by using the hyperlinks found in the assessments to fix issues. Direct hyperlinks to records and tables make it easier to validate, investigate, or act without switching contexts.|[Reviewing your Now Assist assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
-|Receive an estimated remediation effort of development work days to fix issues before implementation.|[Reviewing your Now Assist assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
+|Run scheduled jobs for applicable agentic and generative AI products from a single assessment job.|[Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md)|Admins|
+|Review an overall dashboard of your issues before implementing agentic and generative AI.|[Using AI Readiness Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation-dashboard.md)|Admins|
+|View your overall go or no-go status to implement generative AI skills or agentic AI agents, and view the go or no-go status' issues categorized by percentage.|[Assessing readiness status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.md)|Admins|
+|Review summary information of overall implementation readiness.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
+|Improve the gaps for implementation by using the hyperlinks found in the assessments to fix issues. Direct hyperlinks to records and tables make it easier to validate, investigate, or act without switching contexts.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
+|Receive an estimated remediation effort of development work days to fix issues before implementation.|[Reviewing your AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-now-assist-assessment.md) and [Reviewing your Agentic AI assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/reviewing-agentic-ai-assesment.md)|Admins|
 
 ## What to explore next
 
 To learn more about configuring and using the Now Assist Readiness Evaluation app, see:
 
--   [Configuring Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
--   [Using Now Assist Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
+-   [Configuring AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.md)
+-   [Using AI Readiness Evaluation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/using-now-assist-readiness-evaluation.md)
 

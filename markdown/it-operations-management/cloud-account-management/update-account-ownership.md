@@ -7,10 +7,10 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Cloud Workspace Account Details, Cloud Workspace Ownership]
-breadcrumb: [Managing cloud accounts, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Managing cloud accounts, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Update cloud account details
@@ -23,15 +23,15 @@ Role required: sn\_itom\_cam.cw\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **View accounts**.
+1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **Manage and Configure** &gt; **Cloud accounts** &gt; **Accounts**.
 
-2.  Under **All cloud accounts**, select an account.
+2.  Select an account.
 
     The **Overview** tab displays General details, Ownership details, and Certification details.
 
-3.  Update account information if necessary.
+3.  Update account information in the **Account details** section if necessary.
 
-    1.  Select the Edit icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit\).
+    1.  Select the Edit icon \(\[Omitted image "edit-icon-workspace.png"\] Alt text: edit icon\).
 
     2.  Update the information.
 
@@ -42,15 +42,17 @@ Role required: sn\_itom\_cam.cw\_admin
         |Application service|The project or application to associate with this account.|
         |Department|Department name to associate with this account.|
 
-4.  Update the account owner details if necessary.
+    3.  Select the save icon.
 
-    1.  Select the Edit icon \(\[Omitted image "workspace-icon-edit.png"\] Alt text: Edit\).
+4.  Update the account owner details in the **People responsible for the account** section if necessary.
+
+    1.  Select the Edit icon \(\[Omitted image "edit-icon-workspace.png"\] Alt text: Edit icon\).
 
     2.  Select the account owner from the **Account Owner** from the drop-down list.
 
-    3.  Select the primary teams from the**Primary Teams** from the drop-down list.
+    3.  Select the primary teams from the**Primary Teams** drop-down list.
 
-    4.  Select the secondary teams from the**Secondary Teams** from the drop-down list.
+    4.  Select the secondary teams from the**Secondary Teams** drop-down list.
 
 5.  Propagate the name change to associated cloud assets or stop propagation.
 
@@ -66,6 +68,8 @@ Role required: sn\_itom\_cam.cw\_admin
 
     If you have a large number of CIs, the propagation might take some time and changes might not be reflected immediately. You can check the progress by accessing the sn\_itom\_cam\_subscription\_account\_batch\_job\_list table and checking the status of "owner\_name" jobs listed in the **Parameters** column.
 
-6.  Select the Save icon \(\[Omitted image "save-outline-24.svg"\] Alt text: Save\).
+6.  Select the Save icon \(\[Omitted image "save-icon-workspace.png"\] Alt text: save icon\).
 
+
+**Parent Topic:**[Managing cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/managing-an-account.md)
 

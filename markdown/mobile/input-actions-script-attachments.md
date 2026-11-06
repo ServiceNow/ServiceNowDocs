@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/input-actions-script-attachments.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure input form actions in an input form screen, Input form actions in an input form screen, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
+breadcrumb: [Configure input form actions, Input form actions, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Script code for storing user-selected attachments in the database

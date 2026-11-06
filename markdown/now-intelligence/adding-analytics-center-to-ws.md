@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/adding-analytics-center-to-ws.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
@@ -22,11 +22,13 @@ Choose from the following ways to add Platform Analytics to your workspace. Thes
 -   **[Create a Platform Analytics workspace from App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-analytics-ws-aes.md)**  
 The App Engine Studio includes a prebuilt workspace that you can add to an application. This workspace includes an Analytics Center page, along with the pages that the Analytics Center links to.
 -   **[Add Platform Analytics pages to a configurable workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-analytics-center-to-experience.md)**  
-Add an Analytics Center and its related pages to your own workspace/experience through page templates.
+Add an Analytics Overview and its related pages to your own workspace/experience through page templates.
 -   **[Add a dashboard to a Dashboards page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-dashboard-to-workspace.md)**  
 You can add either a technical dashboard or one made in the inline editor to a page you built from the Dashboards page template. Configure the dashboard component on that page.
 -   **[Configure custom redirection from a dashboard component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-custom-redirection-from-db.md)**  
 If you have created a page in your workspace from the Dashboard page template, you can customize the on-click redirection from the dashboard component on that page. The inline dashboard that this component displays will follow the custom redirection.
+-   **[Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboard-url-parameter-delegation.md)**  
+The Delegate URL params property enables UIB pages containing dashboard components to control how URL parameter updates are handled. Doing so enables custom navigation logic for embedded or workspace scenarios.
 -   **[Pass global filters to the dashboard page template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/pass-global-filters-to-db.md)**  
 Global filters are sent to the dashboard to serve as filters for the visualizations within the dashboard. These filters are merged with existing filters in the dashboard.
 -   **[Configure dashboard data broker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-dashboard-data-broker.md)**  

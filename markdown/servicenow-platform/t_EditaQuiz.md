@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_EditaQuiz.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -31,15 +31,15 @@ You can only edit a quiz that has the same application scope as that of your cur
 
 1.  Open the quiz: Group the Service Details form with one of the following options.
 
-<table id="choicetable_zxq_kwh_br"><thead><tr><th align="left" id="d484237e84">
+<table id="choicetable_zxq_kwh_br"><thead><tr><th align="left" id="d490766e84">
 
 Option
 
-</th><th align="left" id="d484237e87">
+</th><th align="left" id="d490766e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d484237e93">
+</th></tr></thead><tbody><tr><td id="d490766e93">
 
 **__Quizzes__ &gt; __Quiz Designer__**
 
@@ -47,7 +47,7 @@ Action
 
 Point to the menu icon in the quiz header bar and select **Load Quiz**.
 
-</td></tr><tr><td id="d484237e117">
+</td></tr><tr><td id="d490766e117">
 
 **__Quizzes__ &gt; __Quizzes__**
 
@@ -55,7 +55,7 @@ Point to the menu icon in the quiz header bar and select **Load Quiz**.
 
 Right-click a quiz in the list and select **Quiz Designer**.
 
-</td></tr><tr><td id="d484237e141">
+</td></tr><tr><td id="d490766e141">
 
 **__Quizzes__ &gt; __Quizzes__**
 

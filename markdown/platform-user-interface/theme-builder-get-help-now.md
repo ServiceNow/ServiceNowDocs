@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/theme-builder-get-help-now.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Get help with Theme Builder

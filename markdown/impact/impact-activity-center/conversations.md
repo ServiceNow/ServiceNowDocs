@@ -7,9 +7,9 @@ release: yokohama
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activity Center, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Activity Center, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Activity Center Conversations
@@ -23,8 +23,13 @@ Conversations is customizable by either the Kanban view or a List View. Several 
 -   Your conversations or all conversations
 -   State of conversation, either open or closed
 
--   Rearrange the order of the conversation subject the action menu for that lane.
--   Search by Subject or Reference Number.
--   Filter by All conversations or by My conversations.
--   View the state by Open or Closed.
+-   Rearrange the order of the conversation subject the action menu for that lane
+-   Search by Subject or Reference Number
+-   Filter by All conversations or by My conversations
+-   View the state by Open or Closed
+
+-   **[Create and manage conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/create-manage-conversations.md)**  
+Create new Impact conversations or manage existing conversations.
+
+**Parent Topic:**[Activity Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/impact-activity-center.md)
 

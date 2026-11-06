@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/de-escalate-csm-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case and account escalation, Configure escalation management, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case and account escalation, Manage cases, Use, Customer Service Management]
 ---
 
 # De-escalate a case or an account
@@ -16,7 +16,12 @@ The de-escalation requester can de-escalate cases or accounts when the cause of 
 
 ## Before you begin
 
-Role required: sn\_customerservice.deescalation\_requester
+Role required:
+
+-   sn\_customerservice.deescalation\_requester or sn\_crm\_escalation\_admin to escalate a case.
+-   sn\_customerservice.deescalation\_requester or sn\_crm\_escalation\_admin or sn\_crm\_account\_data\_manager to escalate an account.
+
+sn\_customerservice.deescalation\_requester
 
 ## About this task
 
@@ -27,8 +32,6 @@ Role required: sn\_customerservice.deescalation\_requester
 2.  Select **De-escalate** in the form header.
 
     This opens the De-escalate Case pop-up window.
-
-    \[Omitted image "escalated-case-form.png"\] Alt text: Escalation case form with the De-escalate UI action in the form header
 
 3.  Enter the necessary information in the **De-escalation Justification** field.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # UI Builder quick start
@@ -32,21 +32,17 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-    \[Omitted image "UIB-start-UIBuilder-video.gif"\] Alt text: Starting UI Builder.
-
 2.  Select an experience that you want to work in from the UI Builder home page.
 
     If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience, or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md).
 
 3.  Create a page.
 
-    1.  Select the **+** icon in the **Pages and variants** section.
+    1.  Select the **+** icon in the **Pages** section.
 
         \[Omitted image "create-page-icon.png"\] Alt text: Create page button on the experience view page.
 
     2.  Select **Create a new page**.
-
-        \[Omitted image "page-create-popup.png"\] Alt text: Page type selection modal.
 
     3.  Select **→ Create from scratch instead**.
 
@@ -60,35 +56,39 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
         A default path is added based on your page name. You can also create your own path. The path is required and must be unique. The path can include digits \(0-9\), letters \(A-Z, a-z\), and a few special characters \(`"-"`, `"."`, `"_"`, `"~"`\), with the words separated by a forward slash or hyphen. The **URL preview** shows the path of your page.
 
-        \[Omitted image "create-page-details.png"\] Alt text: Page name and path name fields.
-
         **Note:** The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about the application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/security-roles.md).
 
-    6.  Select **Continue**.
+    6.  Select a URL page type in the **Type** drop-down list.
 
-    7.  Add parameters to your page URL by selecting **+ Add**.
+        URL page types help you categorize and find important pages in the experience view. Select from **None**, **Dashboard**, **Knowledge base**, **List**, and **Record** page types. Pages assigned a type other than **None** are filtered more effectively in the experience view.
+
+        **Note:** A landing page is assigned a **Landing** URL type by default.
+
+    7.  Select **Continue**.
+
+    8.  Add parameters to your page URL by selecting **+ Add**.
 
         For more information, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md).
 
-    8.  Select **Looks good**.
+    9.  Select **Looks good**.
 
-    9.  Enter `Manager Start Page` as the name for the page variant.
+    10. Enter `Manager Start Page` as the name for the page variant.
 
-    10. Add one or more audiences for this page.
+    11. Add one or more audiences for this page.
 
         If an audience you need isn’t listed, you can choose the **Open audiences in the platform** link to create one.
 
-    11. Add conditions for when to display the page or tab.
+    12. Add conditions for when to display the page or tab.
 
-    12. Select **Continue**.
+    13. Select **Continue**.
 
-    13. On the next screen, select **Build responsive**.
+    14. On the next screen, select **Build responsive**.
 
-    14. Select **Create** to create your blank page.
+    15. Select **Create** to create your blank page.
 
     Congratulations! You’ve created your first page! The page is empty of content. You add components to the page to build functionality to it. Components are the building blocks of a page. UI Builder comes with many components ready for you to add to your page. Components can be as simple as a **Heading**, or as complex as a **List**.
 
-4.  Select **Editor** to start adding customizing your page.
+4.  Select the pencil icon \[Omitted image "crs-edit-pencil-icon-purple.png"\] to start customizing your page.
 
     \[Omitted image "select-page-editor.png"\] Alt text: Arrow pointing to the page editor link.
 
@@ -222,13 +222,9 @@ In this UI Builder quick start, you perform the following tasks to build your fi
 
     You added an image component to your page.
 
-    \[Omitted image "qs-image-component-added.png"\] Alt text: UI Builder page showing the image component added to the column layout.
-
 10. Select **Preview** in the UI Builder header to preview your page.
 
     Congratulations! You completed the UI Builder quick start. Your page generates a preview of how it looks in your Workspace or portal experience.
-
-    \[Omitted image "qs-page-preview.png"\] Alt text: Preview of the page created in the UI Builder quick start procedure.
 
 
 ## Result

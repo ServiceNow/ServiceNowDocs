@@ -1,22 +1,22 @@
 ---
-title: AutoCAD import tool
-description: The AutoCAD import tool in Indoor Mapping v 1.8.0 provides the ability to configure, optimize, improve the quality and level of design and details in your CAD file.
+title: Autocad import tool
+description: The Autocad import tool in Indoor Mapping v 1.8.0 provides the ability to configure, optimize, improve the quality and level of design and details in your CAD file.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.html
 release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
-# AutoCAD import tool
+# Autocad import tool
 
-The AutoCAD import tool in Indoor Mapping v 1.8.0 provides the ability to configure, optimize, improve the quality and level of design and details in your CAD file.
+The Autocad import tool in Indoor Mapping v 1.8.0 provides the ability to configure, optimize, improve the quality and level of design and details in your CAD file.
 
-Upload your CAD source file using the latest AutoCAD import tool. It imports the named objects, blocks, and layers in your CAD file.
+Upload your CAD source file using the latest Autocad import tool. It imports the named objects, blocks, and layers in your CAD file.
 
 1.  [Configure the AutoCAD import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/enable-autocad-v2.md)  
 Configure and import your CAD source file to Map Studio.

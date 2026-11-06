@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Explore, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -22,7 +22,7 @@ When you create a workplace service, you can configure the steps based on the ty
 
 -   **Manual**: The Manual option enables you to configure a workplace service with human response. This works for services like general inquiries or complaints, and similar requests. Following is an example of how a manual workplace service is configured and displayed in the Workplace Service Portal.
 
-    Manual Workplace Service created as 'General Workplace Enquiry' in the Workplace Case Management application:\[Omitted image "wcasemgmt-manual-workplace-service.png"\] Alt text: Manual Workplace Service created as 'General Workplace Enquiry' in the Workplace Case Management application.
+    Manual Workplace Service created as 'General Workplace Enquiry' in the Workplace Case Management application:
 
     The workplace service 'General Enquiry' displayed as 'Submit a general request' in the Workplace Service Portal:\[Omitted image "wcasemgmt-general-request-wsportal.png"\] Alt text: The workplace service 'General Enquiry' displayed as 'Submit a general request' in the Workplace Service Portal.
 

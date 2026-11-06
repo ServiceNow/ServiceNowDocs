@@ -1,18 +1,18 @@
 ---
-title: Outbound mail configuration
-description: The Outbound Mail Configuration section of the Email Properties page contains properties for sending email.
+title: Outbound email configuration
+description: The Outbound Email Configuration section of the Email Properties page contains properties for sending email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_OutboundMailConfiguration.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Email properties, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Outbound mail configuration
+# Outbound email configuration
 
-The **Outbound Mail Configuration** section of the Email Properties page contains properties for sending email.
+The **Outbound Email Configuration** section of the Email Properties page contains properties for sending email.
 
 \[Omitted image "outbound\_email\_configuration.png"\] Alt text:
 
@@ -152,7 +152,7 @@ Specifies the number of entries from a journal field, such as Additional comment
 **Related topics**  
 
 
-[Inbound mail configuration]()
+[Inbound email configuration]()
 
 [Email image filtering properties]()
 

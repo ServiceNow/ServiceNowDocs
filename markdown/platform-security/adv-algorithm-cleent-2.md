@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/adv-algorithm-cleent-2.html
 release: yokohama
 topic_type: task
-last_updated: "2026-01-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Column Level Encryption, Column Level Encryption, Encryption]
 ---
@@ -99,7 +99,7 @@ Option to provide Integrity in GCM operation and does not apply for Column Level
 </td></tr></tbody>
 </table>3.  Click **Submit**.
 
-    The following example shows AES CBC-256 encryption. When Column Level Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES CBC-256 applies as the crypto purpose. See [Cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
+    The following example shows AES CBC-256 encryption. When Column Level Encryption Enterprise is active and the parent module is column\_level\_encryption, only Symmetric Data Encryption/Decryption AES CBC-256 applies as the crypto purpose. See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
     \[Omitted image "algorithm-definition.png"\] Alt text: Shows the AES-CBC-256 encryption configuration options.
 

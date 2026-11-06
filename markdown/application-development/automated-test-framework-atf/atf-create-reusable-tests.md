@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reusable tests, Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Reusable tests, Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Create a reusable test
@@ -18,7 +18,7 @@ Create a reusable test to avoid redundancy, ensuring better test maintenance and
 
 ## Before you begin
 
-Role required: admin, atf\_test\_admin, atf\_test\_designer or atf\_ws\_designer
+Role required: atf\_test\_admin or atf\_test\_designer
 
 ## Procedure
 
@@ -95,7 +95,7 @@ See [Reusable Tests category](https://raw.githubusercontent.com/ServiceNow/Servi
 
     The reusable test shows up.
 
-    **Note:** Reusable tests can’t run independently. They can run only when it becomes a part of another test. They also can’t be added to a test suite independently. They must be invoked in another test within a test suite. See [Invoke a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-invoke-reusable-tests.md) for more information.
+    **Note:** Reusable tests can’t run independently. They can run only when it becomes a part of another test. They also can’t be added to a test suite independently. They must be invoked in another test within a test suite.
 
 
 **Parent Topic:**[Reusable tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-reuse-tests.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Access policy for System/Export Processors, API access policy, Authentication, Access Management]
+breadcrumb: [System or Export Processors, API access policy, Authentication, Access Management]
 ---
 
 # Activate Processor access policy
@@ -44,7 +44,5 @@ The following items are installed with Processor Access Policy:
 
 ## What to do next
 
-.
-
-Configure authentication profile for the processors, for more information see, [Configure Authentication profile for Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-auth-profile-processor.md).
+Configure authentication profile for the processors, for more information, see [Configure Authentication profile for Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-auth-profile-processor.md).
 

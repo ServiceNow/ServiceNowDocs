@@ -1,5 +1,5 @@
 ---
-title: Add the Career tab and enable the Skills widget in the Employee Profile
+title: Add the Career tab in the Employee Profile
 description: Add the Career tab and enable the Skills widget in the Career tab to upload your resume/LinkedIn profile and work with skills-related data in your Employee Profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/add-career-tab.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Configuring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Add the Career tab and enable the Skills widget in the Employee Profile
+# Add the Career tab in the Employee Profile
 
 Add the **Career** tab and enable the Skills widget in the Career tab to upload your resume/LinkedIn profile and work with skills-related data in your Employee Profile.
 

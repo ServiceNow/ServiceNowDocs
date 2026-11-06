@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate an EDL for Palo Alto Networks Next-Generation Firewall, Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,21 +30,15 @@ As the ServiceNow AI Platform security incident administrator, you are notified 
 
 1.  Navigate to **All** &gt; **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Configuration**.
 
-    \[Omitted image "4-30-fedl-nav.png"\] Alt text: Select Firewall EDL Configuration.
-
 2.  Select the **Firewall EDL Configuration** module.
 
-3.  In the Palo Alto Networks Firewall External Dynamic Lists list, click an item in the **Name** column to open it.
+3.  In the Palo Alto Networks Firewall External Dynamic Lists list, select an item in the **Name** column to open it.
 
 4.  On the record that opens, select the **Active** check box.
 
-    \[Omitted image "4-30-active-edl.png"\] Alt text: Select Active check box.
-
-5.  Click **Update**.
+5.  Select **Update**.
 
     In the **Active** column of the Palo Alto Networks Firewall External Dynamic Lists list, `true` is displayed for the state of the EDL.
-
-    \[Omitted image "4-30-edl-list-active.png"\] Alt text: EDL activated \(true\) in Active column.
 
 
 ## Result

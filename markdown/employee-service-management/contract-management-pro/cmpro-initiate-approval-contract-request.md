@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Initiate an ad hoc approval for a contract document revision
@@ -28,7 +28,7 @@ You can request for approval of a revision for contract documents from stakehold
 -   When you initiate an approval, the approvers receive an email notification and can act on the approval.
 -   An approver who does not have access to the contract revision is granted read-only access to the record until the assigned approval record is completed.
 
-**Note:** Only latest revision of specific contract type is sent for approval. If an approval of specific revision is pending, you cannot initiate another approval for the same.
+**Note:** Only latest revision of specific contract type is sent for approval. If an approval of revision is pending, you cannot initiate another approval for the same contract type.
 
 ## Procedure
 
@@ -38,15 +38,15 @@ You can request for approval of a revision for contract documents from stakehold
 
 3.  In the **Lists** tab, open a request by selecting an option under **Contract Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d84781e100">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d88866e106">
 
 Option
 
-</th><th align="left" id="d84781e103">
+</th><th align="left" id="d88866e109">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d84781e109">
+</th></tr></thead><tbody><tr><td id="d88866e115">
 
 **As an assignee**
 
@@ -58,7 +58,7 @@ Steps
 
 The state of the request is Work in progress and the contract status is also work in progress.
 
-</td></tr><tr><td id="d84781e138">
+</td></tr><tr><td id="d88866e144">
 
 **As a collaborator**
 
@@ -156,5 +156,5 @@ Review a contract request or attachment and approve or reject it.
 -   **[Cancel an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-cancel-approval-request.md)**  
 Cancel an ad hoc approval for a contract document revision if it no longer requires any action.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

@@ -5,14 +5,18 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/mcp-platform-manager-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-08-08"
-reading_time_minutes: 2
-breadcrumb: [Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # MCP Server Console
 
 MCP Server Console enables secure and governed access to functionality on a ServiceNow instance for AI applications with Model Context Protocol \(MCP\) servers. MCP servers extend ServiceNow AI Platform® functionality into any external MCP client and employee experience over the Model Context Protocol.
+
+You don't need specific licences to use the platform MCP Server Console. However, individual business unit servers will need matching entitlements. For more information, see [ServiceNow product tiers](https://www.servicenow.com/docs/r/UBGwc5glUUjVANqQeiJeZA/QCGkmpN33vownhxo8L1ecg) or contact the account team.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-native-sku-overview.md).
 
 \[Omitted video\] Description: MCP Server Console overview
 
@@ -30,14 +34,23 @@ In this video, learn about the Model Context Protocol and how to create and use 
 
 </td></tr><tr><td>
 
-[Connect\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Call an MCP server from an MCP client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/connect-mcp-server-client.md)
+[Connect\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Call an MCP server from an MCP client.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-client-connect-server.md)
 
 </td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components installed with MCP Server Console.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/mcp-server-console-reference.md)
 
 </td></tr></tbody>
-</table>## AI limitations
+</table>## Helpful resources
+
+Some ServiceNow resources that can provide you with helpful information are:
+
+-   [Model Context Protocol Server listing](https://store.servicenow.com/store/app/6e521bf447713e9482f632c4f16d434e#versionSummary) in the ServiceNow Store
+-   [MCP Server Console FAQ](https://www.servicenow.com/community/now-assist-articles/mcp-server-console-faq/ta-p/3550125) article in the ServiceNow Community
+-   [Designing your first custom ServiceNow MCP server with MCP Server Console](https://www.servicenow.com/community/now-assist-articles/designing-your-first-custom-servicenow-mcp-server-with-mcp/ta-p/3566757) article in the ServiceNow Community
+-   [Action Fabric: MCP Server, MCP Client, and A2A explained](https://www.servicenow.com/community/now-assist-articles/action-fabric-mcp-server-mcp-client-and-a2a-explained/ta-p/3557794) article in the ServiceNow Community
+
+## AI limitations
 
 This application uses artificial intelligence \(AI\) and machine learning, which are rapidly evolving fields of study that generate predictions based on patterns in data. As a result, this application may not always produce accurate, complete, or appropriate information. Furthermore, there is no guarantee that this application has been fully trained or tested for your use case. To mitigate these issues, it is your responsibility to test and evaluate your use of this application for accuracy, harm, and appropriateness for your use case, employ human oversight of output, and refrain from relying solely on AI-generated outputs for decision-making purposes. This is especially important if you choose to deploy this application in areas with consequential impacts such as healthcare, finance, legal, employment, security, or infrastructure. You agree to abide by [ServiceNow’s AI Acceptable Use Policy](https://www.servicenow.com/ai-acceptable-use-policy.html), which may be updated by ServiceNow.
 
@@ -47,7 +60,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md).
 

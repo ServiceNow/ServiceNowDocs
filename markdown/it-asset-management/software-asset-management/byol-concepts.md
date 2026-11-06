@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Bring your own license or subscription to the public cloud
@@ -19,6 +19,8 @@ Bring your own license \(BYOL\) support enables you to determine the license com
 When organizations move to the public cloud, existing on-premise perpetual licenses are carried over to the cloud using BYOL. Existing on-premise subscription licenses are also carried over to the cloud using BYOS. BYOL and BYOS help improve license optimization, as organizations must pay only for infrastructure costs.
 
 The Software Asset Management application supports BYOL for Microsoft and Oracle software products and BYOS for RHEL software products as follows:
+
+**Note:** `The Supported infrastructure type column in the following table applies to Infrastructure as a Service (IaaS) models only.`
 
 <table id="table_dh3_w2x_cbc"><thead><tr><th>
 
@@ -42,7 +44,7 @@ Supported service model
 
 </th><th>
 
-Supported infrastructure type**Note:** This column applies to Infrastructure as a Service \(IaaS\) models only.
+Supported infrastructure type
 
 </th></tr></thead><tbody><tr><td>
 
@@ -130,12 +132,13 @@ Shared and dedicated
 
 </td></tr><tr><td>
 
-Oracle Weblogic Server
+Oracle WebLogic Server
 
 </td><td>
 
 -   Oracle WebLogic Server Standard Edition
 -   Oracle WebLogic Server Enterprise Edition
+-   Oracle WebLogic Server Suite Edition
 
 </td><td>
 
@@ -188,7 +191,7 @@ Shared
     -   Microsoft SQL Server
     -   Microsoft Windows Server
     -   Oracle Database
-    -   Oracle WebLogic Server
+    -   Oracle WebLogic Server \(Standard, Enterprise, and Suite Editions\)
     -   Red Hat Enterprise Linux Server
 -   Provide advanced support for optimization through Cloud Special Rights, such as dual use rights, edition flexibility, and unlimited virtualization.
 -   Perform remediation when your software is out of compliance.
@@ -235,23 +238,34 @@ With BYOL and BYOS, the ServiceNow® Discovery application locates and identifie
 
 Resources for your discovered software are populated and stored in corresponding Configuration Management Database \(CMDB\) tables, including the Host \[cmdb\_ci\_cloud\_host\] and Serverless Hardware \[cmdb\_ci\_serverless\_hardware\] tables, on your ServiceNow instance.
 
-The Software Asset Management application then determines the license types of your discovered software either independently or with the Discovery or Cloud Cost Management application.
+The Software Asset Management application then determines the license types of your discovered software by using Discovery or Cloud Cost Management \(CCM\) data, depending on the software product and cloud provider.
 
--   For Microsoft Windows Server and Oracle Database on AWS, Microsoft Azure, and Google Cloud Platform \(GCP\), the Software Asset Management application determines license types independently.
--   For Microsoft SQL Server on AWS, the Software Asset Management application determines license types using billing records from the Cloud Cost Management application.
--   For
+License type determination varies by product and cloud environment, as shown in the following table.
 
-    -   Microsoft SQL Server on Microsoft Azure and Google Cloud Platform \(GCP\)
-    -   and Red Hat Enterprise Linux Server on AWS, Microsoft Azure, and Google Cloud Platform \(GCP\),
-    the Software Asset Management application determines license types using resources that are discovered through the Discovery application.
+|Product|AWS|Microsoft Azure|GCP|
+|-------|---|---------------|---|
+|Microsoft Windows Server|Automatic|Automatic|Automatic|
+|Microsoft SQL Server|CCM or manual|Automatic|Automatic|
+|Oracle Database|Automatic|Manual|None|
+|Oracle WebLogic Server|Manual|Manual|None|
+|Red Hat Enterprise Linux Server|Automatic|Automatic|Automatic|
 
--   For Oracle WebLogic Server on AWS and Microsoft Azure, you must specify license types manually.
+The Software Asset Management application identifies and applies license types by using the following methods.
 
-For all software products except Oracle WebLogic Server, license types are applied to associated configuration items \(CIs\) using automatically generated key-value pairs. The key-value pairs are stored in the Key Values \[cmdb\_key\_value\] table. Each key-value pair consists of a **Key** in the **&lt;_software-product_&gt;\_License\_Type\_automatic** format and a **Value** of either **License Included**, **BYOL**, or **BYOS**.
+-   **Automatic determination using key-value pairs**
 
-For Oracle WebLogic Server, you must specify license types manually by creating key-value pairs. The key-value pairs must have a **Key** of `Oracle_WebLogic_Server_License_Type` and a **Value** of either `License Included` or `BYOL`. After you create these key-value pairs, the specified license types can be applied to the associated CIs.
+    For supported products, the Software Asset Management application automatically determines license types by generating key-value pairs. These key-value pairs are stored in the Key Values \[cmdb\_key\_value\] table. Each key-value pair consists of a **Key** in the **&lt;_software-product_&gt;\_License\_Type\_automatic** format and a **Value** of either **License Included**, **BYOL**, or **BYOS**.
 
-**Note:** If the license type is not manually specified for a software product, the Software Asset Management application won't license the installation due to insufficient information.
+-   **Manual specification using key-value pairs**
+
+    When automatic determination isn't supported, you must manually specify license types by creating key-value pairs in the Key Values \[cmdb\_key\_value\] table with a **Key** of `*software-product*_Server_License_Type` and a **Value** of either `License Included` or `BYOL`. For example, Oracle WebLogic Server requires a key of `Oracle_WebLogic_Server_License_Type`. After you create the key-value pairs, the specified license types apply to the associated configuration items \(CIs\).
+
+-   **Cloud Cost Management–based determination**
+
+    For Microsoft SQL Server on AWS, the Software Asset Management application can determine license types by using billing records from the Cloud Cost Management application.
+
+
+**Note:** If you do not manually specify a license type for a software product when required, the Software Asset Management application does not license the installation due to insufficient information.
 
 You can use these key-value pairs to determine whether the associated software licenses are using the BYOL, BYOS, or License Included licensing model. The BYOL and BYOS licensing models include license purchasing options such as Azure Hybrid Benefit. The License Included licensing model includes license purchasing options such as Pay As You Go \(PAYG\), SPOT, and On Demand. With the License Included licensing model, the cloud provider is responsible for managing licenses.
 
@@ -270,7 +284,7 @@ BYOL and BYOS licensing rules can differ for the same software products across d
 The Software Asset Management application automatically reconciles these rules and provides an accurate license position report that can be viewed in the License usage view of the Software Asset Workspace.
 
 -   You can view BYOL license rights for your Microsoft software products in the Microsoft publisher overview of the Software Asset Workspace. For more information on the Microsoft publisher overview, see [Publisher overview for Microsoft in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-overview-microsoft.md).
--   You can view BYOL license rights for your Oracle software products in the Oracle publisher overview of the Software Asset Workspace. You can also view information about your Oracle Database server deployments across hybrid infrastructures, based on the agreement type, in the Oracle DB Server Deployments per Agreement report. For more information on the Oracle publisher overview, see [Publisher overview for Oracle in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-overview-oracle.md). For more information on the Oracle DB Server Deployments per Agreement report, see the [Oracle DB Server Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/oracle-server-agreement.md).
+-   You can view BYOL license rights for your Oracle software products in the Oracle publisher overview of the Software Asset Workspace. You can also view information about your Oracle Database deployments across hybrid infrastructures, based on the agreement type, in the Oracle Database Deployments per Agreement report. For more information on the Oracle publisher overview, see [Publisher overview for Oracle in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-overview-oracle.md). For more information on the Oracle Database Deployments per Agreement report, see the [Oracle Database Deployments per Agreement report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/oracle-server-agreement.md).
 -   You can view BYOS license rights for your RHEL software products in the Red Hat publisher overview of the Software Asset Workspace. For more information on the Red Hat publisher overview, see [Publisher overview for Red Hat in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-overview-red-hat.md).
 
 ## Cloud-based remediation options

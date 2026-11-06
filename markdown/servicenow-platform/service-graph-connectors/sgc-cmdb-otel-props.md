@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2026-02-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OpenTelemetry, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

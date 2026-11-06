@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-mobile-agent-mgr-task.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Get started with the Customer Service mobile application, Mobile experience for Customer Service Management, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Getting started mobile application, Mobile experience for CSM, Schedules and sites, Use, Customer Service Management]
 ---
 
 # Use mobile application to perform agent and manager tasks

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Workflow for creating indicators
@@ -19,8 +19,6 @@ Start with ServiceNow AI Platform tables and work your way up to a completed ind
 ## Before you begin
 
 Design your KPIs before trying to create them. Using KPI Composer, start by deciding on the business goals you want to achieve with Performance Analytics. For each business goal, determine the critical success factors for that goal. Finally, decide what measurements you need to make to see your progress on those critical success factors. These measurements correspond to the KPIs you need to implement. For more information about designing your Performance Analytics Solution, see [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/designing-pa-solution.md).
-
-Once you have your PA indicators designed, check whether one of the prepackaged Platform Analytics Solutions available from ServiceNow meets your needs. Generally speaking, it is a lot easier to customize one of these prepackaged Solutions than to build one from scratch. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/content-packs-in-form-analytics.md).
 
 Role required: none
 

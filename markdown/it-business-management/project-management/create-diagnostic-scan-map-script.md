@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Project Diagnostics, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Diagnostics, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create Diagnostic scans and map related scripts
@@ -30,30 +30,28 @@ You can map multiple scripts with each diagnostic scan and define the order of t
 
 1.  Navigate to **All** &gt; **Application Diagnostics Tool** &gt; **Diagnostics**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name of the diagnostic scan. This name appears in the application to which this diagnostic scan belongs.\[Omitted image "diagnostic\_scan\_name.png"\] Alt text: Diagnostic scan name in the application|
-    |Active|Option for activating the diagnostic scan.|
-    |Order|Order in which this diagnostic scan appears in the application.|
-    |Feature|Diagnostic feature with which you want to associate this diagnostic scan.|
-    |Roles|Option for adding or removing user roles that can access the diagnostic scan.|
-    |Description|Details of the diagnostic scan. The description is displayed in the application to which the diagnostic scan belongs.\[Omitted image "diagonstic\_scan\_description.png"\] Alt text: Diagnostic scan description in application|
+    For more information, see [Diagnostics form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/diagnostics-form.md).
 
-4.  Click the Roles icon \(\[Omitted image "edit\_user\_roles\_icon.png"\] Alt text: Edit user roles icon\) and move the desired roles to the Selected list.
+4.  Select the Roles icon \(\[Omitted image "edit\_user\_roles\_icon.png"\] Alt text: Edit user roles icon\) and move the desired roles to the Selected list.
 
     The users with the selected roles can access the diagnostic script.
 
 5.  Search for and select diagnostic scripts to map with the diagnostic scan in the **Diagnostics and Script Mappings** section.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 ## What to do next
 
 -   Create related link for navigating to the diagnostic features and scans in the application. For more information, see [Create a UI action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_EditingAUIAction.md).
 -   Run diagnostic scan and view results. For an example of how the diagnostics scan work, see [Use Project Diagnostics to detect corrupt project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/project-diagnostics.md).
+
+**Related topics**  
+
+
+[Diagnostics form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/diagnostics-form.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-03-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a Discovery process classification, Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---

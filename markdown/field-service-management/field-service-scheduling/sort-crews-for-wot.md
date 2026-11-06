@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Identify crews and agents for crew tasks on Dispatcher Workspace
@@ -30,7 +30,7 @@ Crews are sorted in alphabetic order by default. Agents are recommended based on
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Click **Dispatcher Workspace**.
+2.  Select **Dispatcher Workspace**.
 
 3.  Search for and select work order tasks that need a crew in the task panel.
 
@@ -48,12 +48,10 @@ Crews are sorted in alphabetic order by default. Agents are recommended based on
 
 5.  Sort the crew list based on distance or skills.
 
-    -   To sort crews based on the crew distance from the task, click **Distance**.
-    -   To sort crews based on the skills mentioned in the task, click **Skills**.
+    -   To sort crews based on the crew distance from the task, select **Distance**.
+    -   To sort crews based on the skills mentioned in the task, select **Skills**.
 
 ## Result
 
 The crews and agents are sorted based on the selected filter criterion.
-
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

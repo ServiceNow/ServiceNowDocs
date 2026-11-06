@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/explore-mobile-platform-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile Platform]
 ---
@@ -27,13 +27,17 @@ Select one of the tiles to learn about these ServiceNow mobile apps and how you 
 [Mobile Agent \[Omitted image "bus-work-order.svg"\] Alt text: Use the Mobile Agent app to support agents and help them work from anywhere with purpose-built mobile workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-experience.md)
 
 </td></tr></tbody>
-</table>For more information, see [Getting Started with Mobile FAQ](https://www.servicenow.com/community/mobile-apps-platform-articles/getting-started-with-mobile-faq/ta-p/2301723) on the ServiceNow Community website.
+</table>For more information, refer to the following resources:
+
+-   [Getting Started with Mobile FAQ](https://www.servicenow.com/community/mobile-apps-platform-articles/getting-started-with-mobile-faq/ta-p/2301723) on the ServiceNow Community website.
+-   For design considerations and user experience general guidelines when building your mobile app, see the [Native mobile](https://horizon.servicenow.com/native-mobile/overview) section in the Horizon design system website.
+-   For design and layout considerations for ServiceNow mobile apps, see the [Structure](https://horizon.servicenow.com/native-mobile/basics/structure) section in the Horizon design system website.
 
 ## Now Mobile
 
 Now Mobile is used by general employees or the requester persona. This app enables employees to work with requests, find information or people across the organization, and interacts with Virtual Agent.
 
-Now Mobile includes workflows for [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ITServiceManagement.md), [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-service-management-overview.md), [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/it-asset-management.md), [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ITBusinessManagement.md), [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md), [Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/workplace-service-delivery-suite-landing-page.md), [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-management-overview.md), and [Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/safe-workplace.md). Navigate to these documentation sets for information about using Now Mobile for these workflows. The Mobile Platform documentation provides information about configuring Now Mobile to use your ServiceNow instance.
+Now Mobile includes workflows for [IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ITServiceManagement.md), [Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-service-management-overview.md), [IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/it-asset-management.md), [Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ITBusinessManagement.md), [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md), , [Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-management-overview.md), and [Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/safe-workplace.md). Navigate to these documentation sets for information about using Now Mobile for these workflows. The Mobile Platform documentation provides information about configuring Now Mobile to use your ServiceNow instance.
 
 \[Omitted image "homepage-alp.png"\] Alt text: Now mobile applet launcher
 

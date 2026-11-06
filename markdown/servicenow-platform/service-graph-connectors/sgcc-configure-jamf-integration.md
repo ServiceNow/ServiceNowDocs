@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Jamf, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Use the playbook available with the SGC Central application to set up the Servic
 
 ## Before you begin
 
-Install Service Graph Connector for Jamf version 2.13.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+Install Service Graph Connector for Jamf version 2.13.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 When using client credentials for authentication, obtain the OAuth credentials from your Jamf administrator. Make a note of the following details:
 

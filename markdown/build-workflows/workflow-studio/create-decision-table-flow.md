@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a decision table in a flow
@@ -38,7 +38,7 @@ Creating a decision table in-line in a flow creates only the structure of the ta
 
 6.  In the **Decision Label** field, enter a unique label for the decision.
 
-7.  In the **Decision Table** field, select the Create new record icon \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\).
+7.  In the **Decision Table** field, select the Create new record \(\[Omitted image "create-new-record-icon.png"\] Alt text: Create new record icon\) icon.
 
     In the Create decision table modal, on the Set Properties page, two editable fields are populated from your flow.
 

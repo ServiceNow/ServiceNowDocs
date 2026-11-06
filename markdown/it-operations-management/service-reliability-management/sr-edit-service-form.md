@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Reliability Management reference, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Service Reliability Management reference, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Edit service details form
@@ -18,7 +18,7 @@ Edit an existing service owned by your team.
 
 ## Service Details form
 
-For more information, see [Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md).
+For more information, see [Edit service details in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md).
 
 <table id="id_yty_w2n_zyb"><thead><tr><th>
 

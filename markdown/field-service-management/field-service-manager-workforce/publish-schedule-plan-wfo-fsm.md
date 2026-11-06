@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling in Workforce Optimization for Field Service, Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Scheduling, Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Publish a schedule plan for visibility into team coverage
@@ -59,6 +59,4 @@ You can also unpublish a schedule make updates, and then publish it again.
 ## Result
 
 All the schedules that are in Draft state move to the Published state. You can view the published schedule in the team calendar.
-
-**Parent Topic:**[Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md)
 

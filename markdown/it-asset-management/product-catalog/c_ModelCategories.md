@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Product Catalog, IT Asset Management]
+breadcrumb: [Product Catalog, Common applications, Asset Management]
 ---
 
 # Model categories
@@ -57,5 +57,5 @@ If a model category is no longer needed, you can delete it.
 
 [CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_CMDBClassifications.md)
 
-[Create license assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreatingLicenseAssets.md)
+[Create an asset class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreateAnAssetClass.md)
 

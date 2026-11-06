@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Triggers, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Triggers, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add and configure a trigger in a playbook
@@ -22,44 +22,73 @@ Role required: playbook.admin or pd\_author
 
 Review [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-triggers.md).
 
-[Create a trigger definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-trigger-definition.md) if needed.
+## About this task
+
+You can add one or multiple triggers to your playbook. The triggers can either be record based or scheduled. Record based triggers start your playbook when a record is created, updated, or both. The scheduled triggers give you the option to run the playbook at the time you need. You can also add an existing trigger that matches the conditions for your playbook.
+
+**Note:** You can create up to 10 triggers of any type. It can be record-based triggers, scheduled triggers, or a combination of both.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks** &gt; ****.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio** &gt; **Playbooks**.
 
-2.  Select the view you want to build in.
+2.  Open the playbook that you want to configure or create a playbook.
 
-    The builder displays in **Diagram view** by default, but you can select **Board view** to switch views. Switch between views anytime as you build your playbook.
+3.  On the left sidebar, select **Triggers** \(\[Omitted image "triggers-icon.png"\] Alt text: Icon to open the triggers.\)\).
 
-    \[Omitted image "board-view.png"\] Alt text: View toggle button
+    **Note:** You can't open triggers until the parent table is specified for the playbook. To specify a parent table, edit **Start** in the diagram view, or open the **More actions menu** \(\[Omitted image "icon-horizontal-menu.png"\] Alt text: More actions menu\) and select **Properties**.
 
-3.  Open the configuration modal for the trigger.
+    \[Omitted image "triggers-playbook.png"\] Alt text: Triggers in playbooks with options to edit, delete, or create triggers.
 
-    |View|Steps|
-    |----|-----|
-    |**Diagram**|Select **Start** to choose the record operation that triggers this playbook.|
-    |**Board**|Open the **More actions menu** \(\[Omitted image "icon-horizontal-menu.png"\] Alt text: More actions menu\) and select **Properties**.|
+    If triggers are already added to the playbook, the **Triggers** screen displays a list of the associated triggers. You can edit, delete, or add a trigger.
 
-4.  **Note:** The playbook cannot be activated without a trigger, and you will see an error in the notification tray.
+4.  Select an existing trigger to edit, or add a trigger.
 
-    Under the **Schedule** tab, choose how you want the playbook to be triggered.
+<table id="table_d5r_w4z_zfc"><thead><tr><th>
 
-    -   **Define your own conditions for when your process runs**: If you want to create your own custom conditions for when your playbook should run, select this option, choose a trigger type, and then select **Set your trigger conditions**. On the next screen, select a **Table** to trigger your playbook and the **Conditions** that cause your playbook to run. Finally, you can choose to run your trigger on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-extension-and-classes.md). When you're done adding conditions to your trigger, click **Done**.
-    -   **Choose an existing trigger**: If you want to use a trigger that has all the conditions you need for your playbook, select this option. Then, choose an existing trigger from the list and select **Done**.
-    **Note:** Playbooks can be triggered off of any table that the customer is entitled to use.
+Trigger type
 
-    The trigger is configured.
+</th><th>
 
+Actions
+
+</th></tr></thead><tbody><tr><td>
+
+Record based
+
+</td><td>
+
+Go to **Add trigger** &gt; **Record based** and select when you want the playbook to run:-   When record is created
+-   When record is updated
+-   When record is created or updated
+Specify the following settings and select **Save and close**.1.  If required, specify a different table for the trigger than the parent table.
+2.  Select **Run this trigger on extended tables** if you want the playbook to run on [Table extension and classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/table-extension-and-classes.md).
+3.  Select **Trigger on unique values** if you want the playbook to run only on unique changes of the record values.
+
+If you edit and reactivate an existing playbook, the playbook may run automatically for a fulfilled trigger. To prevent the playbook from running again for the same trigger, select the trigger to run on unique values.
+
+4.  Specify any additional conditions that should start the playbook.
+If you want to use a trigger that has all the conditions you need for your playbook, select **Choose existing playbook trigger**. Then, choose an existing trigger from the list and select **Save and close**.
+
+</td></tr><tr><td>
+
+Scheduled
+
+</td><td>
+
+1.  Select **Add trigger** &gt; **Scheduled**.
+2.  Specify the scheduling details and the conditions for the trigger and select **Save and close**.
+For more information about scheduling a trigger, see [Create a scheduled trigger for Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-scheduled-trigger-definition.md)
+
+</td></tr></tbody>
+</table>
+## Result
+
+The trigger is configured.
 
 ## What to do next
 
 [Add and configure your stages.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/add-configure-stage.md)
 
 **Parent Topic:**[Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-triggers.md)
-
-**Related topics**  
-
-
-[Create a trigger definition]()
 

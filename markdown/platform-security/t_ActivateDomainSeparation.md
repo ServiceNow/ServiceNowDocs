@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/t\_ActivateDomainSeparation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Domain separation setup and administration, Domain separation for service providers, Access Management]
+breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
 
 # Request domain separation
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-If the Domain Support \(com.glide.domain\) plugin is already active, content in the Domain Support - Domain Extensions Installer and Domain Support - Domain Extensions plugins will not be installed to avoid potential conflict with an existing implementation.
+If the Domain Support - Domain Extensions Installer plugin is already active, content in the Domain Support - Domain Extensions Installer plugin will not be installed to avoid potential conflict with an existing implementation.
 
 Domain separation replaces Company Separation. Starting with the Helsinki release, the Company Separation plugin can no longer be activated. However, if company separation is already active when you activate domain separation, both plugins are active at the same time. You can control the company separation activation status with the **glide.db.separation.field** property.
 
@@ -35,8 +35,6 @@ Domain separation replaces Company Separation. Starting with the Helsinki releas
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
-
-    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -76,8 +74,6 @@ Select the date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 

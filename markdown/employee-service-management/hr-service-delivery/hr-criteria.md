@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR criteria
@@ -38,7 +38,7 @@ For Lifecycle Events, activities have associated HR criteria that determines whe
 
 **Note:** For HR Catalog Items \(record producers\), ensure **Use "User Criteria" to define access to catalog items and categories** is set to **Yes** under **Service Catalog** &gt; **Catalog Administration** &gt; **Properties**. Verify that this field is checked **Yes**.
 
-You can use user criteria for Knowledge and Service catalog access. Add a reference column to the User Criteria \[user\_criteria\) table when columns are required for the criteria query.
+You can use user criteria for Knowledge and Service catalog access. Add a reference column to the User Criteria \[user\_criteria\] table when columns are required for the criteria query.
 
 If you use HR criteria for Knowledge and Service catalog access, ensure:
 
@@ -46,7 +46,7 @@ If you use HR criteria for Knowledge and Service catalog access, ensure:
 -   Conditions that can cause performance issues \(starts with\) are not used.
 -   Knowledge document searches and use cases are performance tested with instances that are similar to what is used in production.
 
-When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 **Parent Topic:**[HR Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
@@ -186,7 +186,7 @@ This condition selects all employees who have a home country of the United State
 
  **Note:** When you use multiple conditions, only the records that match all of the conditions are used.
 
- When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+ When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 **Note:** For more information, see [Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_Filters.md).
 

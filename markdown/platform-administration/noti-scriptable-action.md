@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/noti-scriptable-action.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Select provider notification action capabilities, Create provider notification, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Select provider notification action capabilities, Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a scriptable notification action
@@ -37,7 +37,7 @@ Before performing this task, you must complete [Select provider notification act
     |Script|Script to implement the notification action.|
     |Acknowledgement|Acknowledgement message after an action is selected from a notification.|
 
-3.  Click **Submit**.
+3.  Select **Submit**.
 
 
 **Parent Topic:**[Select provider notification action capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/noti-provider-action-capabilities.md)

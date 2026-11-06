@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Browse Taxonomy widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Portal Browse Taxonomy widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Browse Taxonomy widget
@@ -28,10 +28,7 @@ You must have the following setup in order to add, update, and use this widget:
 -   At least one topic associated with the taxonomy. For more information, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/create-topics-for-taxonomy.md).
 -   Topics associated with knowledge categories and catalog categories. For more information, see [Associate content categories to topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/associate-knowledge-categories-to-topics-in-bulk.md) and [Associate content from catalog categories to a topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/associate-catalog-categories-to-topics-in-bulk.md).
 
-    **Note:** Topics cannot be associated with quick links. The Portal Browse Taxonomy widget does not support quick link configuration.
-
-
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

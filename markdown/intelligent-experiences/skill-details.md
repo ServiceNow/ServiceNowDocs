@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/skill-details.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Analytics, skills details, dashboard, generative AI, Gen AI, sn\_na\_analytics\_viewer]
-breadcrumb: [Skills performance, Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Skills performance, Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Skill details

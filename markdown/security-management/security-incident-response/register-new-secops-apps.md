@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define new on-demand orchestrations, Manage on-demand orchestration, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Define new on-demand orchestrations, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Register new Security Operations applications for on-demand orchestration
@@ -22,19 +22,19 @@ Role required: sn\_si.write
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **SecOps Application Registry**, and click **Register Application**.
+1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **SecOps Application Registry**, and select **Register Application**.
 
     The Security Operations Application screen appears.
 
     \[Omitted image "secops-apps.png"\] Alt text: Security Operations application registration
 
-2.  In the **Application** field, click the lookups \(magnifying glass\) icon.
+2.  In the **Application** field, select the lookups \(magnifying glass\) icon.
 
     The Applications screen appears.
 
     \[Omitted image "applications.png"\] Alt text: Applications screen
 
-3.  Click **New**.
+3.  Select **New**.
 
     The Application Creator screen appears.
 

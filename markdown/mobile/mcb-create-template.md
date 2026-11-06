@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mcb-create-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile Card Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Create a card template with Mobile Card Builder

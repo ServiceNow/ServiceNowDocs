@@ -7,10 +7,10 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-10-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [configure]
-breadcrumb: [Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Configure ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -25,7 +25,9 @@ Use the AI Admin Hub console to configure ServiceNow Otto for IRM. This console 
 
 For earlier versions, go to [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) to upgrade it to a later version.
 
-For information about configuring generative AI skills and prompts, see [General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/capabilities-bundle-landingpage.md).
+For information about configuring generative AI skills and prompts, see [Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-na-landing.md).
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## ServiceNow Otto for IRM plugins
 

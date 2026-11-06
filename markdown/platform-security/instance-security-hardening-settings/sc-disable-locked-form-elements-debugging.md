@@ -1,38 +1,117 @@
 ---
 title: Disable locked form elements debugging
-description: Here's the description for glide.security.explain.write.locks.
+description: Use a system property to prevent the display of explanation of locked form elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-disable-locked-form-elements-debugging.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
 # Disable locked form elements debugging
 
-Here's the description for **glide.security.explain.write.locks**.
+Use a system property to prevent the display of explanation of locked form elements.
 
-Set **glide.security.explain.write.locks** to the recommended value of **false** to prevent the display of explanation of locked form elements. Set the value to **true** to display the explanation of locked form elements.
+If the **glide.security.explain.write.locks** system property is not set to the recommended value of **false**, then additional debug information is displayed on locked form elements.
+
+Ensure that the property **glide.security.explain.write.locks** is set to **false**.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.security.explain.write.locks**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)|
-|Purpose|Limits display behavior of SecurityDebugger without dependence on other properties.|
-|Recommended value|false|
-|Default value|false|
-|Configuration type|Boolean|
-|Security risk|\(Low\) Will prevent the display of the explanation on locked form elements. This makes the application slightly more secure, as less information is being provided by the security debugger.|
-|Security risk rating|3.5|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
 
-**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.security.explain.write.locks**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 3.3
+-   CVSS rating: Low
+-   Security risk details: Displaying debug information on locked form elements could lead to information disclosure.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

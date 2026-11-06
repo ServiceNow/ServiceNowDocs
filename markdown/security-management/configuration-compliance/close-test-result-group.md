@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Remediation, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Close a remediation task

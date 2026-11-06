@@ -7,9 +7,9 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Level Objective Management, ITOM Health, IT Operations Management]
+breadcrumb: [Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # SLO Management reference
@@ -24,6 +24,8 @@ Learn about the available fields for adding a service level objective \(SLO\) to
 Learn about the available fields for adding a service level indicator \(SLI\) to a service level objective \(SLO\).
 -   **[Notifications for breached error budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/srm-notifications-messages.md)**  
 Details about the notifications that teams receive for breached error budget policies.
+-   **[SLO creator agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/slo-creator-agent-system-properties.md)**  
+Configure how the SLO creator agent generates and activates SLOs.
 -   **[Visualizations in the Service reliability dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-service-dashboard-visualizations.md)**  
 List of visualizations and options on the Service reliability dashboard in Service Reliability Management \(SRM\).
 

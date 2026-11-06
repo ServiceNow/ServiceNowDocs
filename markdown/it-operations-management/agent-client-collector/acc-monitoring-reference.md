@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring reference
@@ -20,6 +20,8 @@ Reference topics provide additional information about Agent Client Collector Mon
 The following table describes Agent Client Collector resource consumption. We supply performance testing values to specific customers upon request.
 -   **[Agent Client Collector Monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-policies-checks.md)**  
 Agent Client Collector Monitoring provides various default checks and policies.
+-   **[Agent Client Collector checks – credential and permission requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-monitoring-checks-credential-and-permission-requirements.md)**  
+Agent Client Collector checks require specific credentials and permissions to execute successfully. The following sections outline the application-level \(DB grants, API roles\) and OS-level access required for each check.
 -   **[Azure metrics script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/azure-metrics-script.md)**  
 When creating a new policy for Azure cloud metrics, create a .json script to determine the metrics to be monitored. The format for the script appears below, followed by a table explaining the script contents.
 -   **[Windows event log filter parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/windows-event-log-parameters-tab.md)**  
@@ -34,6 +36,8 @@ Several types of components are installed with activation of the Metric Intellig
 Validate that Metric Intelligence still works after you make any configuration change such as apply an upgrade or develop an application. Copy and configure these quick start tests to pass when using your instance-specific data.
 -   **[Event severities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/event-severities.md)**  
 The event severity numbers correspond to actual severities on the Metric Anomaly Score to Event Severity Maps page.
+-   **[Agent Client Collector Monitoring system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-monitoring-system-properties.md)**  
+Lists the Agent Client Collector Monitoring system properties that control monitoring behavior.
 
-**Parent Topic:**[Agent Client Collector Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-monitoring-landing-page.md)
+**Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-reference.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring lists, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Omit record count in a list
@@ -26,7 +26,7 @@ Calculating the total number of records included in a list that's filtered from 
 
 \[Omitted image "pagination-calculation.jpg"\] Alt text: Record calculation
 
-To load lists faster, you can remove the page calculation for all or only specified filtered lists. When you remove the calculation, the total record count is not displayed and the double arrow icon \(\[Omitted image "double-arrow-forward.jpg"\] Alt text: Forward arrows\) is grayed out.
+To load lists faster, you can remove the page calculation for all or only specified filtered lists. When you remove the calculation, the total record count is not displayed and the Last Page icon \(\[Omitted image "double-arrow-forward.jpg"\] Alt text: Forward arrows\) is grayed out.
 
 \[Omitted image "no-pagination.jpg"\] Alt text: No pagination
 
@@ -42,7 +42,7 @@ To load lists faster, you can remove the page calculation for all or only specif
 
     1.  Select **Remove pagination count for specific views**.
 
-    2.  Beside Specific list of views prevented from getting full record count, click the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\).
+    2.  Beside **Specific list of views prevented from getting full record count**, select the lock icon \(\[Omitted image "icon-lock.png"\] Alt text: Lock icon\).
 
     3.  Select the search icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Search icon\) and select the view where platform omits the page count.
 

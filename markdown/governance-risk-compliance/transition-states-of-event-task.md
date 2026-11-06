@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/transition-states-of-event-task.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Grouping similar event tasks in events, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Creating similar tasks groups, Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # State changes for event tasks in groups
 
 The original and duplicate event tasks in the Similar tasks group move through different states until the original task is closed.
 
-The state transitions of the original and duplicate event tasks are explained in the following table.
+The state transitions of the original and duplicate event tasks are explained in the table.
 
 <table id="table_uvn_s3x_zfc"><thead><tr><th>
 
@@ -50,7 +50,7 @@ After an event is started, the original task is auto-assigned.
 
 </td><td>
 
-The first task of the event, such as t4 \(EVNTSK0010020\) of group 2 in the example, becomes the original task of the Similar tasks group. The following example shows that task 4 \(t4\) does not have any dependency.
+The first task of the event, such as t4 \(EVNTSK0010020\) of group 2 in the example, becomes the original task of the Similar tasks group. The example shows that task 4 \(t4\) does not have any dependency.
 
 \[Omitted image "event-ori-task-open.png"\] Alt text: Original task Open.\[Omitted image "event-starts-ori-task-updated.png"\] Alt text: Original task updated.
 
@@ -115,5 +115,5 @@ The duplicate task \(t3\) moves to the **Closed duplicate** state automatically.
 
 You can re-trigger an original task as a manual task and complete its workflow like a regular event task by selecting the **Re-trigger as a manual task** UI action in the event task. It moves the original task to the **Open** state, but its duplicate task stays in the **Closed duplicate** state.
 
-**Parent Topic:**[Grouping similar event tasks in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identifying-running-dup-tasks-once.md)
+**Parent Topic:**[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identifying-running-dup-tasks-once.md)
 

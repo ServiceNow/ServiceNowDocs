@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreatingAnInboundEmailAction.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Use, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an inbound email action

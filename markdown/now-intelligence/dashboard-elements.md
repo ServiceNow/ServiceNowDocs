@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dashboard-elements.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-20"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -14,13 +14,9 @@ breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analyt
 
 Elements refer to the visual objects you can place on a dashboard, including filters.
 
-Dashboards contain a combination of visual elements to show data.
+Dashboards contain a combination of visual [elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md) or funnels to show data. Available elements include Data visualization, Divider, Filter, Filter Group, Heading, Image, List, Process Mining - Map, Rich Text, Workbench, and Usage Insights funnel.
 
-\[Omitted image "inline-db-elements.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
-
--   **Analytics list**
-
-    TBD
+\[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: Untitled dashboard with the Add new element menu expanded to show elements you can add to the dashboard
 
 -   **[Data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md)**
 
@@ -34,27 +30,39 @@ Dashboards contain a combination of visual elements to show data.
 
 -   **[Filter group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-filter-group.md)**
 
-    A set of filters that you can apply simultaneously. Use when you have multiple filters that can apply to multiple visualizations.
+    A set of [filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md) that you can apply simultaneously. Use when you have multiple filters that can apply to multiple visualizations.
 
 -   **[Heading](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-heading/usage)**
 
     Headings provide a place for text at the top of a dashboard or section of a dashboard. Formatting for headings is limited to six heading levels.
 
+    You can align headers from the start, end, or center of the allotted space. Select **Justify** to align the text across the entire allotted space.
+
 -   **[Image](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/now-components/now-image/uib-config)**
 
     Image elements hold static or animated images on the dashboard.
-
--   **[List - Simple](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/now-record-list-connected-snapshot/usage)**
-
-    Simple lists show table data that you can customize for the dashboard audience.
 
 -   **[Process Mining - Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-po-map.md)**
 
     Map the different states that are part of your process and the transitions between those states. See which states the objects of the process are in and the speed with which they change state. Requires an existing Process Mining project.
 
+-   **[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-analytics-list.md)**
+
+    Lists show table records. They support Platform Analytics filters and drilling down from data visualizations by default.
+
 -   **Rich text**
 
-    Rich text elements hold text that you can format either as text or as html, including font selection, text size, highlighting, and hyperlinks. To edit HTML markup, open the HTML editor from the Configuration panel and select the Code tags &lt; &gt; icon.
+    Rich text elements hold text that you can format either as text or as HTML, including font selection, text size, highlighting, and hyperlinks. Note that to edit in HTML markup, you open the HTML editor in the Configuration panel, and select the code tag icon &lt; &gt;.
+
+    Select **Allow translation** to add the content of a rich text element to the platform translation pipeline. Users will see the element in their session language if a translation record exists.
+
+-   **Workbench**
+
+    The workbench option is available if the property com.snc.pae.workbench\_enabled is set to true. Workbench elements are migrated from Core UI in iframes. Choose from existing workbench elements.They can only be created in Core UI and are added to Platform Analytics experience in iframes.
+
+-   **Funnel**
+
+    Dashboards can display [funnels that you created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/create-funnel.md) in Usage Insights. Funnels can show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
 
 
 ## Default element dimensions
@@ -63,7 +71,7 @@ Each element has a default height and width when you place it on the stage to co
 
 -   **Filter**
 
-    six columns by three rows
+    Six columns by three rows
 
 -   **List, Multipivot, and Indicator Scorecard visualizations**
 
@@ -75,4 +83,9 @@ Each element has a default height and width when you place it on the stage to co
 
 
 **Parent Topic:**[Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ac-elements.md)
+
+**Related topics**  
+
+
+[Add visual elements to an in-line dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-elements-to-a-dashboard.md)
 

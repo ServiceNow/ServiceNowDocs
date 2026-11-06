@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Google Chromebooks, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,7 +23,7 @@ To use this Service Graph Connector, you need a subscription to a Subscription U
 Dependencies and requirements:
 
 -   The Integration Commons for CMDB store app, which is automatically installed. See [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md).
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   ITOM Licensing plugin \(com.snc.itom.license\). See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 
 Role required: admin

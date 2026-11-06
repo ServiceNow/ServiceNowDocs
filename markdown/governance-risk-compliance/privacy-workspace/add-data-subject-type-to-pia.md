@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -37,6 +37,8 @@ The data subject types you add are automatically added to the processing activit
 5.  Open the PIA to which you want to add data subject types.
 
 6.  On the **Data subject types** related list, select **Add**.
+
+    **Note:** You may have to select **Resume** to view **Data subject types**.
 
 7.  On the Add a new data subject type dialog box, fill the fields.
 

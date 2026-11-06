@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Service Delivery reference, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery reference, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Service Delivery glossary
@@ -54,9 +54,9 @@ A technology that uses large language model \(LLM\) to generate text, summaries,
 
 Ideas and creations like inventions, designs, or artworks that are legally protected from being copied or used without permission.
 
-### integration
+### Integration
 
-The ability to connect ServiceNow’s legal tools with other apps so they work together.
+A process by which the ServiceNow platform can be made to work with a third-party application or web service.
 
 ## L
 
@@ -152,7 +152,7 @@ A conversational bot platform that provides user assistance through conversation
 
 ## W
 
-### Workflow
+### workflow
 
-A sequence of activities to automate processes in applications.
+Defined sequence of steps automating processes in Sales Customer Relationship Management.
 

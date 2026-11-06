@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ The Privacy Case Management solution provides you a framework to manage any priv
 
 The following image shows the workflow of the Privacy Case Management application.
 
-\[Omitted image "privacy-case-mgmt-workflow.jpg"\] Alt text: Life cycle of a privacy case after it is created.
+\[Omitted image "privacy-case-mgmt-workflow.png"\] Alt text: Life cycle of a privacy case after it is created.
 
 The life cycle of a privacy case is explained as follows:
 

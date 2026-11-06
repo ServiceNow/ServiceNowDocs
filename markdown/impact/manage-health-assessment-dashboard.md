@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/manage-health-assessment-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Assessment Dashboard, HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Health Assessment Dashboard, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Manage Health Assessment Dashboard
@@ -26,12 +26,10 @@ Role required: impact\_admin
 
 2.  Select to view the assessment by list view or summary view.
 
-    \[Omitted image "health-assmt-summary.png"\] Alt text: Shows the Health Assessment summary view per product and category of findings with actionable hyperlinks.
+3.  Select a link to the findings to access the instance and directly address the issues.
 
-    Select a link to the findings to access the instance and directly address the issues.
+4.  Filter the findings by new, rating, or by category.
 
-3.  Filter the findings by new, rating, or by category.
 
-    \[Omitted image "health-assmt-filter.png"\] Alt text: Shows the filter options.
-
+**Parent Topic:**[Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/health-assessment-dashboard.md)
 

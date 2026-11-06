@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrades-phase-6.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Upgrade to the Yokohama release, Yokohama release notes]
+breadcrumb: [Upgrade to the Brazil release, Brazil release notes]
 ---
 
 # Phase 6 - Prepare to upgrade the production instance

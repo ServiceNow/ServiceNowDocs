@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring credentials, connections, and aliases, Connections and Credentials, Access Management]
+breadcrumb: [Explore credentials, connections, and aliases, Connections and Credentials, Access Management]
 ---
 
 # Connection &amp; Credential configuration templates
@@ -53,6 +53,10 @@ You can create configuration templates for integrations with these credential ty
 
     Pre-populates the custom fields in the **Additional Information** section when you edit an existing connection. Pre-populating the custom fields enables you to view the current value associated to the custom field.
 
+-   **Test Action**
+
+    Enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see .
+
 
 ## Demo data
 
@@ -63,5 +67,5 @@ This example configuration template sets up Credential and Connection records us
 -   **[Create a configuration template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/create-template.md)**  
 Create a template that defines the inputs required to set up a spoke. Set static key-value pairs to create records and set values that apply to every integration. Set dynamic key-value pairs to gather user input and set field values that may vary. Using this template, admins and flow designers can set up the spoke from a single form.
 
-**Parent Topic:**[Exploring credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/credentials-connections-alias.md)
+**Parent Topic:**[Explore credentials, connections, and aliases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/credentials-connections-alias.md)
 

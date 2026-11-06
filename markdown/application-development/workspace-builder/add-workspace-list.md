@@ -1,24 +1,27 @@
 ---
-title: Configure lists for a workspace in Workspace Builder
-description: Create list categories in App Engine Studio \(AES\) to add pages that list table records. You can add filter conditions and change columns to create variations on the list.
+title: Create lists for a workspace in Workspace Builder
+description: Create list categories in Workspace Builder to add pages that list table records. You can add filter conditions and change columns to create variations on the list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/workspace-builder/add-workspace-list.html
 release: yokohama
 product: Workspace Builder
 classification: workspace-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Add a workspace, Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Use, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
-# Configure lists for a workspace in Workspace Builder
+# Create lists for a workspace in Workspace Builder
 
-Create list categories in App Engine Studio \(AES\) to add pages that list table records. You can add filter conditions and change columns to create variations on the list.
+Create list categories in Workspace Builder to add pages that list table records. You can add filter conditions and change columns to create variations on the list.
 
 ## Before you begin
 
-Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
+Role required:
+
+-   admin or Guided Application Creator for ServiceNow Studio.
+-   sn\_app\_eng\_studio.user or delegated\_developer for AES. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 ## About this task
 
@@ -30,17 +33,11 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **App Engine** &gt; **App Engine Studio**.
+1.  Navigate to Workspace Builder.
 
-2.  From the My Apps page, open your application.
+    For details on how to open Workspace Builder in ServiceNow Studio or AES, see [Accessing Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/accessing-workspace-builder-aes-crs.md).
 
-3.  Next to the workspace you created, select the additional actions icon \(\[Omitted image "additional-actions-icon-purple.png"\] Alt text: Additional actions icon\) and then select **Edit**.
-
-    You can also select the bar that lists the workspace in the Experience section of your app.
-
-    \[Omitted image "wb-edit-worspace-experience-purple.png"\] Alt text: Select to edit a workspace
-
-4.  If they aren't already activated, activate lists to enable them for the workspace.
+2.  If they aren't already activated, activate lists to enable them for the workspace.
 
     You must be in the **Navigation configuration** tab. If you're already in the **Navigation configuration** tab, you can't select it.
 
@@ -52,7 +49,7 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
     \[Omitted image "wb-list-example-purple.png"\] Alt text: Workspace list view with lists activated
 
-5.  Add a list category.
+3.  Add a list category.
 
     1.  In the navigation panel, select **Add list category**.
 
@@ -87,9 +84,9 @@ Brief description of the contents of the list category to help developers unders
 </td></tr></tbody>
 </table>    3.  Select **Add**.
 
-6.  To rearrange the order in which list categories appear, drag them to a new position.
+4.  To rearrange the order in which list categories appear, drag them to a new position.
 
-7.  Add a filtered list to a list category.
+5.  Add a filtered list to a list category.
 
     For example, in the list category for the Task table, you could create separate filtered lists for Opened, Unassigned, and Closed tasks.
 
@@ -108,7 +105,7 @@ Brief description of the contents of the list category to help developers unders
 
     The preview canvas displays the contents of the filtered list.
 
-8.  Refine how the filtered list displays its content by adding filter conditions to narrow what it displays.
+6.  Refine how the filtered list displays its content by adding filter conditions to narrow what it displays.
 
     You can make additional configurations to the filtered list.
 
@@ -162,9 +159,9 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
     4.  In the configuration panel, select **Save**.
 
-9.  Complete any additional actions on the list.
+7.  Complete any additional actions on the list.
 
-<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d266494e592">
+<table id="choicetable_uch_4kg_cvb"><tbody><tr><td id="d211137e590">
 
 **Edit a list category**
 
@@ -175,7 +172,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d266494e619">
+</td></tr><tr><td id="d211137e617">
 
 **Change how the filtered list appears by selecting the list in the navigation panel**
 
@@ -186,7 +183,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  Refresh the canvas preview by selecting the refresh icon \(\[Omitted image "workspace-list-refresh-icon-purple.png"\] Alt text: Refresh icon on preview canvas\) in the canvas header.
 
 
-</td></tr><tr><td id="d266494e658">
+</td></tr><tr><td id="d211137e656">
 
 **Delete a list category**
 
@@ -197,7 +194,7 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 3.  In the confirmation dialog, select **Delete**.
 
 
-</td></tr><tr><td id="d266494e685">
+</td></tr><tr><td id="d211137e683">
 
 **Delete a filtered list**
 
@@ -210,5 +207,3 @@ Option to add a filter condition to the list. In the dialog box that appears, yo
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
-

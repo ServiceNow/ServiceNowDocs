@@ -1,0 +1,45 @@
+---
+title: Configure Now Assist privacy policies
+description: Configure privacy policies to anonymize data in Now Assist.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-privacy-policies.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Data sharing and processes, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
+---
+
+# Configure Now Assist privacy policies
+
+Configure privacy policies to anonymize data in Now Assist.
+
+## Before you begin
+
+You must have the following applications installed on your instance:
+
+If you do not have a data steward, see [Assign the data steward role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/assign-data-steward-role.md) documentation.
+
+Role required: sn\_generative\_ai.data\_steward
+
+## About this task
+
+The Now Assist **Privacy Policies** enables you to review and configure how personally identifiable information \(PII\) is de-identified in Now Assist.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+
+2.  In the navigation pane, go to **Data sharing and processing** &gt; **Privacy policies**.
+
+3.  Select **View detail** of the privacy polic you want to review.
+
+    Review the policy details and current active patterns in the pop-up window.
+
+4.  Select **Edit in Data Privacy**.
+
+    See [Configuring Data Privacy for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-now-assist-data-privacy.md) for more information on configuring Now Assist policies.
+
+
+**Parent Topic:**[Data sharing and processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-sharing-and-processes.md)
+

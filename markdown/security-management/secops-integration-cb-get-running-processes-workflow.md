@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/secops-integration-cb-get-running-processes-workflow.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Operations Integration- Get Running Processes capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -36,7 +36,7 @@ The Create Command Process flow action create a Carbon Black command process to 
 Checks the Carbon Black command status and retrieves processes to use in the flow.
 -   **[Map Processes Data Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/map-processes-data-activity.md)**  
 The Map Processes Data flow action maps Carbon Black process data within the flow.
--   **[Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-complete.md)**  
+-   **[Legacy: Capability Execution Tracking - Complete Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/capability-execution-tracking-complete.md)**  
 The Capability Execution Tracking - Complete flow action updates the audit record when the flow is complete.
 -   **[Close Session Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/close-session-activity.md)**  
 Closes a Carbon Black session within the flow.

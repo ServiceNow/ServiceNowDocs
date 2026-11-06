@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Summarize a call by using ServiceNow Otto for Customer Service Management \(CSM\)
@@ -27,16 +27,16 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, 
 
 The call summarization skill enables you to do the following actions:
 
--   Summarize the call between a live agent and a caller when either the caller or the agent wraps up the conversation and ends the interaction.
--   Generate a call summary on demand from the Now Assist panel. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
+-   Summarize calls between live agents and callers when either party ends the interaction.
+-   Generate a call summary on demand from the ServiceNow Otto panel. For more information, see [Request the generative AI capabilities in Customer Service Management by using the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/request-gen-ai-capabilities-csm-now-assist-panel.md).
 -   When real-time transcription is enabled, agents can see a transcript of the voice calls while interacting with the customers. With real-time transcription, an agent gets a better understanding of the customer issues, and a manager gains insights into the customer trends and agent training gaps.
--   When real-time transcription is disabled, agents don't see the conversation panel. Once the transcripts are ready, agents can see a Now Assist banner showing field predictions being generated. Then, another banner shows up with the predicted fields.
+-   When real-time transcription is turned off, agents don't see the conversation panel. Once the transcripts are ready, agents can see a ServiceNow Otto banner showing field predictions being generated. Then, another banner shows up with the predicted fields.
 -   A call summary is available for both outbound and inbound calls. For more information, see [Real time transcriptions for ServiceNow Voice for Customer Service Management](https://www.servicenow.com/docs/access?context=using-voice-rtt).
 -   Dynamic translation is supported for call summarization.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  Set your status as Available in CRM Workspace so that you can receive a call request when a customer calls in and requests to speak to an agent.
 
@@ -50,7 +50,7 @@ The call summarization skill enables you to do the following actions:
 
 4.  If enabled, transfer a call to another agent after accepting an incoming call and do the following actions:
 
-    You need to have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see [advanced work assignment setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installing-awa.md).
+    You must have Advanced Work Assignment set up for an agent-to-agent transfer. For more information, see advanced work assignment setup.
 
     1.  From the keypad, select **Quick connects** while you’re still connected to the customer.
 
@@ -60,7 +60,7 @@ The call summarization skill enables you to do the following actions:
 
         -   If the second agent selects **Join**, the second agent joins the conversation with both the first agent and the customer. The customer can have a conversation with both agents.
         -   If the second agent selects **Swap**, the second agent joins the conversation while the first agent is put on hold. The customer is in a conversation with the second agent only.
-        -   The **Assigned to** field is updated with the new agent’s name and a summary card of the call is created in the conversation thread when the call is transferred from one live agent to another.
+        -   The **Assigned to** field is updated with the new agent’s name when the call is transferred from one live agent to another. A summary card of the call is created in the conversation thread.
 5.  End the conversation by selecting **End call**.
 
     The call summarization skill updates the **Short description** and **Chat Summary** fields on the interaction record when you end the call.
@@ -82,7 +82,7 @@ The call summarization skill enables you to do the following actions:
 
 If necessary, you can create a case from an interaction record. The system uses the information from the **Short description** and **Chat Summary** fields in the interaction record to populate the **Short description** and **Description** fields in the case record.
 
-The system displays the Now Assist icon \(\[Omitted image "icon-ai-sparkle.png"\] Alt text: Sparkle icon for Now Assist.\) next to these fields and removes the icon if the agent changes the fields and saves the record.
+The system displays the AI icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: AI icon.\) next to these fields and removes the icon if the agent changes the fields and saves the record.
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)
 

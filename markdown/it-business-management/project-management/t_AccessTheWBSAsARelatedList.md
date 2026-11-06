@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Work breakdown structure \(WBS\) - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Work breakdown structure \(WBS\) - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Access the WBS as a related list

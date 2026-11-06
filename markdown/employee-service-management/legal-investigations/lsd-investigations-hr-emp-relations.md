@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Exploring Legal Investigations, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Better together solution: Legal Investigations and HR Service Delivery Employee Relations
@@ -33,7 +33,7 @@ Complete the following configurations to integrate Legal Investigations with HR 
 
 ## Data mapping
 
-When information related to HR [Employee Relations cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-case-employee-relations.md) and related legal ethics matters is transferred between HR and the Legal departments, a complete data copy with appropriate data mapping is performed. For the Legal to HR transfer, activate the `HRERDepartmentTransferPostProcessor` script to enable copying. For more information, see [Data mapping fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-investigations/deep-data-copy-mapping.md).
+When information related to HR [Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-case-employee-relations.md) and related legal ethics matters is transferred between HR and the Legal departments, a complete data copy with appropriate data mapping is performed. For the Legal to HR transfer, activate the `HRERDepartmentTransferPostProcessor` script to enable copying. For more information, see [Data mapping fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-investigations/deep-data-copy-mapping.md).
 
 To perform additional customizations for deep copying, edit the following scripts:
 

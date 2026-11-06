@@ -7,7 +7,7 @@ release: yokohama
 product: Cost Management
 classification: cost-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Strategic Portfolio Management]
 ---
@@ -41,8 +41,6 @@ Use the following cost management options to plan and control business costs.
 Activate the Cost Management plugin \(com.snc.cost\_management\) using the admin role.
 -   **[Cost Management Demo Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/c_CostManagementDemoData.md)**  
 The demo data available with Cost Management provides samples of the data types to illustrate its use.
--   **[Cost overview module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/c_CostOverviewModule.md)**  
-The Cost Overview module displays various cost management reports.
 -   **[CI rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/c_CIRateCards.md)**  
 A configuration item \(CI\) rate card is a group of recurring configuration item costs associated with multiple configuration items. Rate cards make it easier to enter and track costs that are the same across multiple configuration items.
 -   **[Task and labor rate cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/c_TaskAndLaborRateCards.md)**  

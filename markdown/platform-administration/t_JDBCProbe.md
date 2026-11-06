@@ -1,24 +1,26 @@
 ---
 title: JDBCProbe
-description: A JDBC probe runs on the MID Server to query an external database via \[JDBC\] and returns results to ServiceNow.
+description: A JDBC probe runs on the MID Server to query an external database via JDBC and returns results to ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_JDBCProbe.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # JDBCProbe
 
-A JDBC probe runs on the MID Server to query an external database via \[JDBC\] and returns results to ServiceNow.
+A JDBC probe runs on the MID Server to query an external database via JDBC and returns results to ServiceNow.
+
+## Before you begin
+
+Role required: admin
 
 ## About this task
 
-Probes interact with the MID Server via the ECC Queue, therefore the response of a JDBC probe returns as an XML payload in an "input" ECC Queue record. By default, each response payload will contain up to 200 returned rows, this value can be modified by setting the probe parameter **jdbcprobe\_result\_set\_rows** to the desired number.
-
-**Activating the Plugin**
+Probes interact with the MID Server through the ECC Queue. The JDBC probe response returns as an XML payload in an input ECC Queue record. By default, each response payload contains up to 200 rows. To change this limit, set the **jdbcprobe\_result\_set\_rows** probe parameter to the desired number.
 
 Contact Customer Service and Support to activate the **Integration - JDBC** \(com.snc.integration.jdbc\) plugin.
 
@@ -34,7 +36,7 @@ Contact Customer Service and Support to activate the **Integration - JDBC** \(co
 
     Some plugins include demo data—sample records that are designed to illustrate plugin features for common use cases. Loading demo data is a good policy when first activating the plugin on a development or test instance. You can load demo data after the plugin is activated by repeating this process and selecting the check box.
 
-4.  Click **Activate**.
+4.  Select **Activate**.
 
 
 -   **[Direct JDBC Probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DirectJDBCProbe.md)**  

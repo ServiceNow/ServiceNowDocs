@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Coaching in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Example for using Coaching in Workforce Optimization for ITSM
 
 Understand how you can assess your agents performance, identify skill gaps, and train them to enhance their skills sets with Coaching.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 An IT manager manages IT operations for a large organization that has 12 teams reporting to the manager. Each of the manager's teams has anywhere from 20 through 50 agents. This manager is also added as a manager of other teams where they need visibility.
 

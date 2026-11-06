@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Content filtering for Workflow Studio flows, User access to flows, Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Content filtering, User access to flows, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure content filtering definitions
@@ -49,6 +49,4 @@ Workflow Studio includes several content definitions and filtering rules by defa
 
 4.  Click **Submit**.
 
-
-**Parent Topic:**[Content filtering for Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/content-filtering-flow-designer.md)
 

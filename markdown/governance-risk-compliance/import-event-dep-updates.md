@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/import-event-dep-updates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,13 +16,13 @@ You can add the dependencies of the impacted assets in the events and exercises 
 
 ## Configuring the sources in the Event dependency source configuration module
 
-The BCM administrators can configure the sources to get the event dependencies in the Event dependency source configuration module. You can access the auto-update configuration module by navigating to **Business Continuity Workspace** &gt; **General Administration** &gt; **Event dependency source configuration**.
+The BCM administrators can configure the sources to get the event dependencies in the Event dependency source configuration module. You can access the Event dependency source configuration module from the Administration menu in the Core UI.
 
-The Event dependency source configuration module is shown in the following example.\[Omitted image "event-dep-update-config.png"\] Alt text: Updating the Event dependencies.
+The Event dependency source configuration module is shown in the example.\[Omitted image "event-dep-update-config.png"\] Alt text: Updating the Event dependencies.
 
 When the BCM administrators can update the target records, filter condition for the records, and sources to fetch the event dependency.
 
-Dependencies are added in the events only when the user selects the **Update dependencies** UI action. Dependencies are fetched from the following sources for the events:
+Dependencies are added in the events only when the user selects the **Update dependencies** UI action. Dependencies are fetched from these sources for the events:
 
 -   BIA upstream dependency
 -   BIA downstream dependencies
@@ -38,7 +38,7 @@ For more information on setting up the Event dependency source configuration mod
 
 ## Roles associated with event dependency updates
 
-Users with the following roles typically check for the dependency updates in an event:
+Users with these roles check for the dependency updates in an event:
 
 -   The BCM program managers, BCM planners, and BCM managers can update the latest dependencies​.
 -   BCM administrators can configure the Event dependency source configuration module.
@@ -47,7 +47,7 @@ Users with the following roles typically check for the dependency updates in an 
 
 As the BCM application user, when you select the **Update dependencies** UI action in the Event record, the dependencies of all assets are added manually where the source is Manual.
 
-The BCM application executes a workflow to update the impacted assets in the events and exercises as shown in the following example.
+The BCM application executes a workflow to update the impacted assets in the events and exercises as shown in the example.
 
 \[Omitted image "update-dep-manually-f-events.png"\] Alt text: Updating the dependencies manually in the events and exercises.
 
@@ -55,14 +55,14 @@ The BCM application executes a workflow to update the impacted assets in the eve
 2.  The BCM planner selects the **Update dependencies** UI action to add the assets manually.
 3.  The application checks if the event record matches any configuration filter.
 
-4.  If the event record matches any configuration filter, the system gets the dependencies of the added assets in real-time according to the sources defined in the configuration \(Event dependency source configuration module\).
+4.  If the event record matches any configuration filter, the system gets the dependencies of the added assets in real time according to the defined sources.
 5.  If the event record does not match any configuration filter, the events workflow then continues for the next steps.
 
 For more information on updating the event dependencies manually, see [Update the event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/update-event-dep-manually.md).
 
 ## Data Relationships Framework
 
-Beginning with the Yokohama release, the Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\) application supports the BCM application with the underlying framework to add the dependencies of the impacted assets in the events and exercises. The Data Relationships Framework application is installed with the BCM application by default.
+The Data Relationships Framework \(com.sn\_app\_grc\_relationship\_config\) application supports the BCM application with the underlying framework to add the dependencies of the impacted assets in the events and exercises. The Data Relationships Framework application is installed with the BCM application by default.
 
 For more information on the Data Relationships Framework, see [Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/data-relationship-framework.md).
 

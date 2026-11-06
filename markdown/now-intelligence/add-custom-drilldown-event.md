@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-custom-drilldown-event.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Add a drilldown event to a data visualization in UI Builder, Add a drilldown event to a report in UI Builder]
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -18,6 +18,8 @@ Technical dashboards do not support preconfigured destinations for drilling down
 ## Before you begin
 
 This procedure assumes that you have already created a technical dashboard and populated it with a data visualization component.
+
+**Warning:** This procedure does not apply to Saved Visualization components.
 
 Role required: ui\_builder\_admin, rights to edit a technical dashboard
 
@@ -33,30 +35,42 @@ Role required: ui\_builder\_admin, rights to edit a technical dashboard
 
 5.  In the configuration panel for the data visualization, open the **Events** tab.
 
-6.  Select **+ Add event mapping**.
+6.  If your only option is to add an event mapping, do so.
 
-    The Select an event dialog opens.
+    \[Omitted image "add-event-mapping.png"\] Alt text: Making a data visualization component interactive.
 
-    \[Omitted image "db-events-vis-clicked.png"\] Alt text: The Select an event dialog in a data visualization.
+    1.  Select **Add event mapping**.
 
-7.  Select the **Visualization Clicked** event.
+    2.  In the list of events, select **Visualization Clicked**.
 
-    A dialog opens with a list of available event handlers.
+        \[Omitted image "visualization-clicked.png"\] Alt text: Selecting the Visualization Clicked event.
 
-8.  Select the **Advanced dashboards - Redirect** event handler.
+    3.  Select **Continue**.
 
-    The configuration fields for this event handler appear.
+7.  If the **Visualization Clicked** event is already listed on the Events tab, select **Add handler** for it.
 
-    \[Omitted image "db-adv-db-redirect.png"\] Alt text: Dialog for configuring the Advanced dashboards - Redirect event handler.
+    \[Omitted image "techdash-add-handler.png"\] Alt text: Adding a handler to the Visualization Clicked event.
+
+8.  Search for and select the **Advanced dashboards - Redirect** event handler and **Continue**.
+
+    \[Omitted image "db-adv-db-redirect.png"\] Alt text: Selecting the Advanced dashboards - Redirect event handler.
 
 9.  Configure the event handler as follows.
 
-    |Field|Description|
-    |-----|-----------|
-    |Context|The path of the experience where the destination page resides.|
-    |Route|The route name of the destination page.|
-    |Route fields|Required parameters for the destination page.|
-    |Optional parameters|Optional parameters for the destination page.|
+    |Field|JSON types|Description|
+    |-----|----------|-----------|
+    |Context|object, with a string property named path|The path of the experience where the destination page resides.|
+    |Route|none|The route name of the destination page.|
+    |Route fields|object, with all parameters as strings|Required parameters for the destination page.|
+    |Optional parameters| |Optional parameters for the destination page.|
+
+    The required and optional parameters for common targets follows:
+
+    |Target|Route fields \(required parameters\)|Optional parameters|
+    |------|------------------------------------|-------------------|
+    |List|\{table:@payload.params.table\}|\{query:@payload.params.query\}|
+    |Record|\{table: @payload.params.table, sysId: @payload.parms.row.sys\_id.value\}|None|
+    |KPI Details|\{uuid:@payload.params.indicatorSysid\}|None|
 
 10. Select **Add**.
 
@@ -64,6 +78,8 @@ Role required: ui\_builder\_admin, rights to edit a technical dashboard
 ## Drilldown for a table data source
 
 You have a vertical data visualization that shows the number of records on the Incident \[incident\] table grouped by Priority. When a viewer interacts with this visualization, you want it to open a list of Incident records in the Platform Analytics experience.
+
+**Note:** This example uses the Context of the Platform Analytics experience and default Route names to components therein.
 
 1.  You follow Steps 1-8 in the general procedure, so you now have the configuration open for the Advanced dashboards - Redirect event handler for your vertical bar visualization.
 2.  In the Context field, you select **Edit**.
@@ -82,7 +98,7 @@ You have a vertical data visualization that shows the number of records on the I
 6.  In the Route field, you enter `simplelist`. This route leads to the simplelist page in the Platform Analytics experience.
 7.  For the Route fields, you first choose to bind data. \[Omitted image "bind-data.png"\] Alt text: Selecting to bind data.
 8.  Then you add the property `{table: @payload.params.table}` to the field. This property passes the name of the table in your visualization to the simplelist page of the Platform Analytics experience.
-    1.  You select the Event payload property `@payload.params.table`.
+    1.  You select the Event payload property `params` and then `table`.
 
         \[Omitted image "db-tech-adv-redirect-table-param.png"\] Alt text: Selecting the payload.params.table property in the data binding editor.
 
@@ -91,19 +107,12 @@ You have a vertical data visualization that shows the number of records on the I
 
         \[Omitted image "db-adv-event-edit-prop.gif"\] Alt text: Double-clicking the property pill to open it for editing.
 
-    4.  You surround the `@payload.params.table`property with curly brackets and add the `table:` property.
+    4.  You surround the `@payload.params.table` property with curly brackets and add the `table:` property.
 
         \[Omitted image "db-tech-event-complete-parm.gif"\] Alt text: Completing the table property.
 
     5.  You select **Apply**.
-9.  Similarly, you choose to bind data for the Optional parameters field and set the values `{query: @payload.params.query, listTitle: @payload.title}`.
-    1.  In the Optionals Parameters field, add `{query: @payload.params.query}` as you did for `{table: @payload.params.table}`, but do not select **Apply**.
-    2.  Select the **Add another input** \(+\) button.
-    3.  Add `listTitle: @payload.title` inside the curly brackets.
-
-        \[Omitted image "db-tech-event-2-props.gif"\] Alt text: Adding a second optional property.
-
-    4.  You select **Apply**.
+9.  Similarly, you choose to bind data for the Optional parameters field and set the value `{query:@payload.params.concatenatedQuery}`.
 
 The properties of your Advanced dashboards - Redirect event handler now appear as follows:
 
@@ -112,7 +121,7 @@ The properties of your Advanced dashboards - Redirect event handler now appear a
 |Context|\{path:now/platform-analytics-workspace\}|
 |Route|simplelist|
 |Route fields|\{table:@payload.params.table\}|
-|Optional parameters|\{query:@payload.params.query, listTitle:@payload.title\}|
+|Optional parameters|\{query:@payload.params.query\}|
 
 In runtime, a user can interact with the visualization to open a list of Incident records.
 
@@ -143,4 +152,9 @@ In runtime, a viewer can interact with the visualization to open KPI Details for
 \[Omitted image "db-adv-ex-ddown-indicator.gif"\] Alt text: Opening KPI Details by clicking a Line visualization on a technical dashboard.
 
 **Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/technical-dashboards.md)
+
+**Related topics**  
+
+
+[More examples and information are available in KB2663434](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2663434)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure a push connector
@@ -21,6 +21,12 @@ Event Management receives external events through a push connector or script. If
 After event collection configuration, Event Management can collect events that are sent directly to the instance, or via the MID Server, SNMP trap, or email.
 
 **Note:** Integrating with push connectors is only available by installing the Event Management Connector plugin from the ServiceNow Store.
+
+## Create integration user
+
+Follow the steps in [Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ua-creating-users.md) to create a user and grant the \[evt\_mgmt\_integration\] role to the user.
+
+**Note:** Verify that the **Identify Type** of the user is **Machine**.
 
 ## Standard event form
 

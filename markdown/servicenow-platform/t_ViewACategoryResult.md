@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_ViewACategoryResult.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [View a quiz designer scorecard, View a quiz result, Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,9 +26,7 @@ Role required: assessment\_admin or admin
 
 1.  Navigate to **All** &gt; **Assessments** &gt; **Results** &gt; **Category Results**.
 
-2.  Click the reference icon \(\[Omitted image "ReferenceIcon.png"\] Alt text: Reference icon\) next to an assessment group number to open the category result record.
-
-    \[Omitted image "Rating\_AssessmentCategoryResults.png"\] Alt text:
+2.  Click the reference icon next to an assessment group number to open the category result record.
 
 3.  View the Assessment Category Result form.
 
@@ -69,8 +67,6 @@ Rating is used on scorecards and decision matrixes. Rating is updated dynamicall
 ```
 (5.14+5.14+1.43+5.71+5.14+4.29+4.29+4.29) / 4 = 8.86
 ```
-
- \[Omitted image "MetricResultsTable.png"\] Alt text:
 
 </td></tr><tr><td>
 

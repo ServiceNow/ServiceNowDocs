@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Generate an audit report for an engagement using Microsoft Word template, Audit Workspace, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Generate an audit report for an engagement using Microsoft Word template, Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a Microsoft Word template record for an audit report

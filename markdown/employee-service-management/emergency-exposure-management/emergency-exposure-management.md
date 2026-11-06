@@ -7,7 +7,7 @@ release: yokohama
 product: Emergency Exposure Management
 classification: emergency-exposure-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---

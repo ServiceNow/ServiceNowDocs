@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/agent-efficiency.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Field Service Management, Field Service Management]
+breadcrumb: [Explore, Field Service Management]
 ---
 
 # Field Service Agent Efficiency
@@ -25,6 +25,8 @@ Field Service Agent Efficiency provides the following benefits:
 -   Efficient agents can be deployed where they’re most needed, optimizing workforce utilization.
 -   Integrating Field Service Agent Efficiency with Dynamic Scheduling ensures that the agent with the appropriate efficiency is auto-assigned to the work order task.
 -   Incorporating Field Service Agent Efficiency with Intelligent Task Recommendation helps dispatchers to improve agent utilization by recommending the appropriate tasks for agents based on their efficiency.
+-   Leveraging Field Service Agent Efficiency with Schedule Optimization helps to identify, schedule, and assign tasks to the most appropriate agent based on the agent efficiency and an accurate estimated duration.
+
 
 **Related topics**  
 

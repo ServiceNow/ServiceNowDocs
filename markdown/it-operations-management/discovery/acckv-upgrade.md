@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Agent Client Collector, Kubernetes, Visibility, upgrading, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Upgrade Kubernetes Visibility Agent
@@ -87,5 +87,5 @@ You can also upgrade Kubernetes Visibility Agent Informer pods in Kubernetes clu
 
 For information about Kubernetes Visibility Agent administration and troubleshooting, see the [Administrating and Troubleshooting Kubernetes Visibility Agent \(formerly CNO for Visibility\) \[KB1532614\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1532614) article in the Now Support Knowledge Base.
 
-**Parent Topic:**[Install Kubernetes Visibility Agent \(KVA\) Informer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-deploy-install.md)
+**Parent Topic:**[Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-configuring.md)
 

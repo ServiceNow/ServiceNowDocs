@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Global Search in Workforce Optimization for ITSM
 
 Locate what you're looking for quickly using the global search in Workforce Optimization for ITSM.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 As an agent or a manager, easily find the information you need by searching users, groups, shifts, schedules, or tasks using the search icon \[Omitted image "search-icon.png"\] Alt text: Search icon.
 

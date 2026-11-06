@@ -7,9 +7,9 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using SLO Management, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Edit a reliability metric
@@ -18,30 +18,21 @@ Update a reliability metric to keep it relevant and aligned with your team's goa
 
 ## Before you begin
 
-Role required: srm\_admin, srm\_manager, or srm\_responder
-
 Updating reliability metrics, such as Service Level Objectives \(SLOs\) or Service Level Indicators \(SLIs\), during active measurement periods can result in graph inconsistencies.
+
+Role required: srm\_admin, srm\_manager, or srm\_responder
 
 ## About this task
 
 To help you manage reliability-metric history, Service Reliability Management \(SRM\) follows specific naming conventions. When you edit a reliability metric, SRM does the following:
 
 -   Retires the existing SLO.
--   Creates a copy of the SLO with your edits in a draft state. You can either:
-    -   Save the copy as a draft.
-    -   Activate the copy.
--   Appends a number to the copy's name, for example, Uptime \(2\) or Uptime \(3\).
--   Displays all SLO versions in the **Reliability metrics** tab.
-
-**Note:** In the **Reliability metrics** tab, SLO headers have two numbers, for example, HTTP response time \(2\) \(3\). The first number is its version. The second is the number of SLIs associated with the SLO.
+-   Creates a copy of the SLO with your edits in a draft state, which you can either save as a draft or activate.
+-   Appends a number to the copy name, for example, Uptime \(2\) or Uptime \(3\).
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
-
-    You're taken to your SRM Home page.
-
-    **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
 2.  Follow these steps to access the **Reliability metrics** tab:
 
@@ -53,16 +44,24 @@ To help you manage reliability-metric history, Service Reliability Management \(
 
 3.  To edit a reliability metric, select the relevant reliability metric, and then select **Edit** and **Continue to edit**.
 
-4.  To save and implement your changes, select **Activate**.
+4.  Make your changes in the Details, Service level indicators, or Error budget policies tabs.
 
-    Your edited reliability metric appears in the **Reliability metrics** tab. SRM sets the state to running and includes a version number in its name, for example, Uptime \(3\).
+    **Note:** If you change the SLI data source, all existing SLIs for the SLO are removed and you must create new ones. An SLO can use only one data source type, and each data source has unique settings that can’t be preserved or automatically converted.
+
+    While you can’t recover the removed SLIs while editing the SLO, you can view the earlier versions in the Reliability metrics tab.
+
+5.  To save and implement your changes, select **Activate**.
+
+    Your edited reliability metric appears in the Reliability metrics tab. SRM sets the state to running and includes a version number in its name, for example, Uptime \(3\).
+
+    The Activity panel on the Details tab records changes, providing a history of updates to the reliability metric.
 
 
 ## What to do next
 
-Managing SLOs requires ongoing updates to make sure they reflect your reliability goals. You can edit or retire existing SLOs and, if needed, reactivate retired SLOs.
+Managing SLOs requires ongoing updates to make sure that they reflect your reliability goals. You can edit or retire existing SLOs and, if needed, reactivate retired SLOs.
 
-**Note:** If you reactivate a retired SLO, SRM creates and activates a new copy of it. For example: If there are two versions of an SLO, Uptime \(1\) and Uptime \(2\), and you reactivate Uptime \(1\), SRM leaves it in the retired state and creates an active version called Uptime \(3\).
+**Note:** If you reactivate a retired SLO, SRM creates and activates a new copy of it. For example: If there are two versions of an SLO, Uptime \(1\) and Uptime \(2\), and you reactivate Uptime \(1\), SRM creates an active version called Uptime \(3\).
 
 **Parent Topic:**[Using SLO Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
 

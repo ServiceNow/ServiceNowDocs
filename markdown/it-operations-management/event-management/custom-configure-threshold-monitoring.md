@@ -1,5 +1,5 @@
 ---
-title: Create a self-health monitor to use custom health monitor script
+title: Create a self-health monitor with a custom script
 description: You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/custom-configure-threshold-monitoring.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Self-health monitors for Event Management, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Create a self-health monitor to use custom health monitor script
+# Create a self-health monitor with a custom script
 
 You can create a self-health monitor to use custom health monitor script to monitor specified Event Management components.
 
@@ -226,11 +226,9 @@ Additional information
 Further information about the monitor.
 
 </td></tr></tbody>
-</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon.
+</table>3.  On the Monitoring Configuration form, next to the **Script** field, click the search icon to open the Health Monitor Scripts form.
 
     To create a custom health monitor script, click **New**.
-
-    The Health Monitor Scripts form opens.
 
 4.  On the form, fill in the fields.
 
@@ -289,7 +287,9 @@ Ensure that the custom script includes:Run the monitor function, which is called
 
 
 </td></tr></tbody>
-</table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts. Use the Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor. These are initialized inside **runInsertHealthMonitorScripts**.
+</table>    You can use the Monitoring Configurations \[em\_monitor\_conf\] table for self-health monitoring configuration, the Health Monitor Scripts \[em\_monitor\_scripts\] table for scripts. Use the Monitoring States \[em\_monitor\_state\] table for displaying the results of the monitor.
+
+    These tables are initialized inside **runInsertHealthMonitorScripts**.
 
     For more information about script includes and APIs, see:Script includes that are [installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/r_InstalledWithEventManagement.md)
 

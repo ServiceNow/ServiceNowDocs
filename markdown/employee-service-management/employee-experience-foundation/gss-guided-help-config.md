@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Guided Self-Service in Employee Center, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Guided Self-Service in Employee Center, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Guided Self-Service
@@ -109,7 +109,7 @@ Option to make the GSS unavailable for.
 
     **Note:** By default, only sn\_hr\_sp.esc\_admin user role can add GSS to the topics and topic persona users \(such as Topic Managers and Contributors\) can't add GSS to the assigned topics.
 
-    \[Omitted image "gss-guided-helpconfig.png"\] Alt text: gss-guided-self-service-process-topic-selection
+
 
 5.  On the Assign Topics tab, click **Add**, select the topic, and click **OK**.
 

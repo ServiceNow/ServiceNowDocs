@@ -1,5 +1,5 @@
 ---
-title: Modeling your network inventory relationships
+title: Model relationships
 description: You model your network inventory relationships in the Telecommunications Network Inventory application so that you can use them in the inventory template relationships to create your network inventory records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Modeling your Telecommunications Network Inventory workflow, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
-# Modeling your network inventory relationships
+# Model relationships
 
 You model your network inventory relationships in the Telecommunications Network Inventory application so that you can use them in the inventory template relationships to create your network inventory records.
 
@@ -48,7 +48,7 @@ This process ensures that all models and model relationships are created accordi
 **Related topics**  
 
 
-[Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
+[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 
 [Define a network model relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-network-model-relationships.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Filtering project data, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Filtering project data, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Apply metrics
@@ -18,7 +18,7 @@ Refine your project visualization to show the KPIs and metrics that are more rel
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 **Note:** Duration metrics do not apply to activities, so aren't displayed for them.
 

@@ -1,5 +1,5 @@
 ---
-title: Solving issues on translated dashboards
+title: Solving issues on translated Core UI dashboards
 description: Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/solving-issues-translated-dashboards.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Solving issues on translated dashboards
+# Solving issues on translated Core UI dashboards
 
 Users can only find translated dashboards under certain configurations. You can translate the dashboard name to make it searchable.
 
@@ -23,6 +23,10 @@ On instances with language plugins enabled, the application first determines the
 The search function only works for translated dashboards when the instance uses the MySQL database and the dashboard translation is provided.
 
 Role required: admin
+
+## About this task
+
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 
@@ -40,9 +44,9 @@ Role required: admin
 
     Extra languages are available when there are enabled language plugins on the instance.
 
-7.  From the context menu \(\[Omitted image "icon-context-p.png"\] Alt text:\), select **Dashboard Properties**.
+7.  From the context menu \[Omitted image "ContextMenu.png"\] Alt text: context menu icon, select **Dashboard Properties**.
 
-8.  Translate the dashboard name into the target language and click **Update**.
+8.  Translate the dashboard name into the target language and select **Update**.
 
 
 ## Result

@@ -1,18 +1,20 @@
 ---
-title: Proactive Code Check scan suite matrix
+title: Proactive Code Check scan suite matrix for the Impact Store Application
 description: Refer to the Proactive Code Check \(PCC\) scan suite matrix for details on the checks performed during a PCC scan.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/proactive-code-check-scan-suite.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-06"
-reading_time_minutes: 14
-breadcrumb: [Impact Proactive Code Check, Impact Platform Health, Using Impact Store Application, Impact Store Application, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
-# Proactive Code Check scan suite matrix
+# Proactive Code Check scan suite matrix for the Impact Store Application
 
 Refer to the Proactive Code Check \(PCC\) scan suite matrix for details on the checks performed during a PCC scan.
+
+**Note:** Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 <table id="table_agy_hml_m2c"><thead><tr><th>
 
@@ -1034,5 +1036,5 @@ Detecting hard-coded strings in addWarningMessage\(\) usage
 Hard-coded messages/strings in the code will not be localized. Detecting such occurrences in addWarningMessage\(\) on both the client and server side.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
+</table>**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
 

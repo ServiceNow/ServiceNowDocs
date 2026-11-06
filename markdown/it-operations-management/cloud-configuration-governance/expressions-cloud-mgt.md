@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Using expressions in Cloud Provisioning and Governance
@@ -90,7 +90,7 @@ Allowable syntax uses a dollar sign and parenthesis. These types are available:
 |-------|-----------|
 |`$(ci.cmdb_ci_cloud_subnet[ sys_id=12231231231231231231].cidr)`|This expression dot walks to the Cloud Subnet table, finds the specific record with the given sys\_id, and takes the value from the `cidr` column.|
 |`$(ci.sn_cmp _ip_pool[subnet=${parameter.formData.Subnet Id}])`|This expression combines runtime and definition type expressions. The equal sign = is used to evaluate a value for a match. The expression dot-walks to the IP Pool table and looks for the subnet that has the subnet ID that the user submitted.|
-|`$(ci.cmdb_ci_cloud_subnet[${parameter.formData.SubnetId}].cidr)`|This expression combines runtime and definition type expressions. The expression takes the value of the **cidr** field from a subnet that the user chose during provisioning. The square brackets `[]` indicate that the expression dot-walks to the Cloud Subnet table and then looks at the subnet value that the user submitted on a blueprint provision. The expression grabs the **cidr** field value and then walks to the value in the **cidr** field of the sys\_id of the subnet.|
+|`$(ci.cmdb_ci_cloud_subnet[${parameter.formData.SubnetId}].cidr)`|This expression combines runtime and definition type expressions. The expression takes the value of the **cidr** field from a subnet that the user chose during provisioning. The square brackets `[]` indicate that the expression dot-walks to the Cloud Subnet table and looks at the subnet value that the user submitted on a blueprint provision. The expression then grabs the **cidr** field value and walks to the value in the **cidr** field of the sys\_id of the subnet.|
 |$\(Stack.items\[Virtual Server\].attributes\[sys\_id\]\)|As in the definition expression example, this expression takes the sys\_id of a virtual server that is apart of a stack.|
 
 ## Example expression
@@ -164,7 +164,7 @@ In scripts, you can assign values as follows:
 
 `this.parameter.userData.userId == 'servicenowuserId';`
 
--   See also [Create a policy action script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-policy-script.md).
+-   See also [Create a policy action script]().
 
 </td></tr><tr><td>
 
@@ -267,5 +267,4 @@ To read the output attributes \(where `VM1.Provision` is the operation whose out
     -   Mixed Expression \(Constant + Expression\): `"ram$(context.order.sc_req_item.number)"`
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)
-
+</table>

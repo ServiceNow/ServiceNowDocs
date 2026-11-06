@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with WhatsApp, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Configure Conversational Integration with WhatsApp \(powered by Twilio\)
@@ -34,6 +34,6 @@ This task provides the general steps to integrate the WhatsApp messaging app wit
 
 4.  [Close idle WhatsApp chat conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-open-conv.md).
 
-5.  [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md).
+5.  [Integrate WhatsApp with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-integrating-apps.md).
 
 

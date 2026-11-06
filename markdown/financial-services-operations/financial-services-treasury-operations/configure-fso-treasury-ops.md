@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Setting up Financial Services Treasury Operations, Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Financial Services Treasury Operations
@@ -32,15 +32,15 @@ Role required: sn\_bom\_treasury.admin and admin
 
     Modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d93971e107">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d113763e127">
 
 Task
 
-</th><th align="left" id="d93971e110">
+</th><th align="left" id="d113763e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d93971e116">
+</th></tr></thead><tbody><tr><td id="d113763e136">
 
 **Configure service definitions**
 
@@ -48,7 +48,7 @@ Description
 
 [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for treasury service cases and tasks. You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d93971e138">
+</td></tr><tr><td id="d113763e158">
 
 **Edit or create flows**
 
@@ -56,7 +56,7 @@ Description
 
 [Edit or create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d93971e160">
+</td></tr><tr><td id="d113763e180">
 
 **Configure playbook**
 
@@ -64,7 +64,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d93971e182">
+</td></tr><tr><td id="d113763e202">
 
 **Configure CRM Workspace**
 
@@ -72,7 +72,7 @@ Description
 
 [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable agents to interact with customers and create and work on cases.
 
-</td></tr><tr><td id="d93971e210">
+</td></tr><tr><td id="d113763e230">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -80,7 +80,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for treasury service cases and tasks.
 
-</td></tr><tr><td id="d93971e229">
+</td></tr><tr><td id="d113763e249">
 
 **Configure user groups**
 
@@ -88,7 +88,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d93971e248">
+</td></tr><tr><td id="d113763e268">
 
 **Configure assignment rules**
 
@@ -96,7 +96,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d93971e264">
+</td></tr><tr><td id="d113763e284">
 
 **Configure Document Processor**
 
@@ -106,5 +106,3 @@ Description
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Setting up Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/setting-up-fso-treasury-operations.md)
-

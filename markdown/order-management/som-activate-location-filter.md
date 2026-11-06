@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-activate-location-filter.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring location-based product transactions, Configuring agent tools in Sales CRM, Configure, Sales Customer Relationship Management]
+breadcrumb: [Location-based product transactions, Configuring agent tools in Sales CRM, Configure, Sales Customer Relationship Management]
 ---
 
 # Activate location-based transactions
@@ -38,4 +38,13 @@ The **sn\_sales\_common.enable\_location\_based\_transactions** system property 
 ## What to do next
 
 Define the [product eligibility rule filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-rule-entity-filter.md) and [matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-define-eligibility-rules.md) that control the product offerings displayed by location.
+
+**Parent Topic:**[Configuring location-based product transactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/config-location-transaction.md)
+
+**Related topics**  
+
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
+
+[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)
 

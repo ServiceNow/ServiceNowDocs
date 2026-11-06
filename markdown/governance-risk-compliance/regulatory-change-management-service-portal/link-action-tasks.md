@@ -7,7 +7,7 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change tasks, Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -38,12 +38,14 @@ Role required: sn\_grc\_reg\_change.user
 
 8.  Select **Add**.
 
-    \[Omitted image "link-action-tasks.png"\] Alt text: Create action tasks.
+    \[Omitted image "link-action-tasks.png"\] Alt text: Create action tasks for impacted areas.
 
 
 ## Result
 
 An action task is created for each of the selected impacted areas within the specific regulatory task.
+
+Impacted areas such as a citation, control objective, control, or policy, displays the linked action task in its **Regulatory action tasks** tab.
 
 Linking action tasks automates task assignment for each impacted area, ensuring accountability and streamlined execution of regulatory requirements across the organization.
 

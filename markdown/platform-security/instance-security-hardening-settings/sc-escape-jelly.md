@@ -1,5 +1,5 @@
 ---
-title: Escape jelly script \[Updated in Security Center 1.3 and 1.5\]
+title: Escape jelly script
 description: Use the glide.ui.escape\_all\_script property to force escape of all scripts injected into Jelly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-escape-jelly.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-02-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Escape jelly script \[Updated in Security Center 1.3 and 1.5\]
+# Escape jelly script
 
 Use the **glide.ui.escape\_all\_script** property to force escape of all scripts injected into Jelly.
 
@@ -52,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ References
  [Jelly tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_JellyTags.md)
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

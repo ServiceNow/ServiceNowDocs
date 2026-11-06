@@ -1,5 +1,5 @@
 ---
-title: Import entities
+title: \(Legacy\) Import entities
 description: Reuse entities that you have created across your other Natural Language Understanding \(NLU\) models. Importing entities saves time and helps improve the intents in your model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/import-common-entities-nlu.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Import entities
+# \(Legacy\) Import entities
 
 Reuse entities that you have created across your other Natural Language Understanding \(NLU\) models. Importing entities saves time and helps improve the intents in your model.
 
@@ -64,22 +64,8 @@ In this example procedure, you are importing several entities to a new model.
 
 Use the imported entities to annotate the utterances of the model. Train your model to save your changes.
 
-**Parent Topic:**[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)
-
 **Related topics**  
 
 
-[Create a simple entity]()
-
-[Create a mapped entity]()
-
-[Create a pattern entity]()
-
-[Create a system-derived entity]()
-
-[Create an open-ended entity]()
-
-[Using regular expressions in entities]()
-
-[Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/import-nlu-intent.md)
+[\(Legacy\) Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/import-nlu-intent.md)
 

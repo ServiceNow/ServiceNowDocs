@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Show and optimize the agent task route in Dispatcher Workspace
@@ -33,11 +33,11 @@ You can also optimize the task route for an agent to reorder the tasks as effici
 -   Respects the agent personal time-off and reroutes the tasks before or after the break.
 -   Doesn’t reorder the work order tasks that are scheduled lock.
 -   Controls the scheduling of overflow tasks to avoid conflicts by selecting any one of the behavioral methods, such as stop route optimization, unassign overflow tasks, or adjust the overflow task by assigning it toward the end of the agent's schedule.
--   Considers the agent's start of the day and end of the day locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
+-   Considers the agent's start of the day and end of the day locations from the **Resource Schedule Attributes** table.
 
 **Note:**
 
-If your organization uses schedule attribute plans with territories and your agents have a temporary home location set, then the temporary home location will show for the duration on the map in Dispatcher Workspace. For more information, see [Change start and end locations for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md).
+If your organization uses schedule attribute plans with territories and your agents have a temporary home location set, then the temporary home location shows for the duration on the map in Dispatcher Workspace. For more information, see [Change schedule attributes for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md).
 
 ## Procedure
 
@@ -51,13 +51,13 @@ If your organization uses schedule attribute plans with territories and your age
 
 4.  Select **Map** or **Hybrid** from the **Schedule** drop-down list.
 
-5.  Right-click on an agent pin and do one of the following:
+5.  Select and hold \(or right-click\) on an agent pin and do one of the following:
 
     -   **Show/ hide route**- shows the route if the route is hidden, hides the route if the route is shown.
 
         **Note:**
 
-        If you’re showing a route then you’ll also see the agent’s completed route. Completed routes are lighter in color, only show as straight-line, and don’t necessarily match the exact route the agent actually took.
+        If you’re showing a route then you see the agent’s completed route. Completed routes are lighter in color, only show as straight line, and don’t necessarily match the exact route the agent actually took.
 
     -   **Optimize route**- opens the route optimization window. In the Optimize Route dialog box, select **Optimize**.
     If you chose **Optimize route**, then the following happens:

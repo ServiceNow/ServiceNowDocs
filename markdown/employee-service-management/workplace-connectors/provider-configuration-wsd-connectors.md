@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Provider connector configuration, Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Register details for a new provider, configure a badging table and import data f
 
 ## Before you begin
 
-The Source Badging Table is the source table and the Badging Data table is the target table. The badging data from the source table is imported from a badging provider \(for example, the attendance data from badge readers\).
+The Badging data table is the source table and the Employee Attendance Data table is the target table. The badging data from the source table is imported from a badging provider \(for example, the attendance data from badge readers\).
 
 Role required: sn\_wsd\_wc.admin
 
@@ -50,29 +50,13 @@ Name of badging data provider.
 
 </td></tr><tr><td>
 
-Connector Configuration
-
-</td><td>
-
-Select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) and select **Badging**. For more information, see [Configure connector configuration for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
-
-</td></tr><tr><td>
-
 Source Type
 
 </td><td>
 
-Source from where the badging data is collected and loaded into the target Badging Data table. From the drop-down list, select **Table**.
+Source from where the badging data is collected and loaded into the target Employee attendance table. From the drop-down list, select **Table**.
 
 **Note:** If you’re an existing user and have selected the **Import from table** option in an earlier release to retrieve badging data in your Workplace Connectors instance, the **Source Type** field is defaulted to **Table**. If the **Import from table** option wasn’t selected in your Workplace Connectors instance, then the **Source Type** field is defaulted to **External**. The **Import from table** option isn’t supported in the November ServiceNow Store release.
-
-</td></tr><tr><td>
-
-Source table
-
-</td><td>
-
-Source table from where the badging data is collected and loaded into the target Badging Data table. From the drop-down list, select **Source Badging Table**.
 
 </td></tr><tr><td>
 
@@ -92,19 +76,11 @@ Option to indicate that the provider configuration is active.
 
 </td></tr><tr><td>
 
-Auto Refresh Location
+Connector Configuration
 
 </td><td>
 
-Option to auto-refresh locations when spaces are added or when some spaces are removed from a selected location.The scheduled Job **Refresh Provider Space Mapping records** runs daily and reads the **Auto Refresh Location** field in the Provider Connector Configuration table. It reads all records in the Provider Connector Configuration records and updates the Provider Space Mapping table with the latest data. For example, if a new floor or a space is added to a location, then they're automatically added to a selected location.
-
-</td></tr><tr><td>
-
-Metrics
-
-</td><td>
-
-Option to select target record for supported metrics. Select Event Data.
+Select the lookup list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup list icon.\) and select **Badging**. For more information, see [Configure connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/workplace-connector-configuration.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

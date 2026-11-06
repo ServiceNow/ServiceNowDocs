@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating business calendars, Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating business calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Define business calendar entries
@@ -141,9 +141,9 @@ Calendar
 
 Name of the business calendar that you want the business calendar entry to belong to. This entry creates the relationship between a business calendar and the business calendar entries that define each individual time span with it. For example, if you’re creating a business calendar entry for the January fiscal period, you select FY20 to associate it with Fiscal Year 2020. To select an existing business calendar:
 
-1.  Select \[Omitted image "SearchIcon.png"\] Alt text: Search button or
+1.  Select the **Lookup using list** icon \(\[Omitted image "icon-search.png"\] Alt text:\) or
 2.  Select inside the **Calendar** field to view and select from a listing of recent business calendars that are created in **Business Calendar** &gt; **Business Calendars**.
-**Note:** If you attempt to use the \[Omitted image "SearchIcon.png"\] Alt text: Search button and see a dialog box with **Cancel** and **Leave** options, select **Cancel** and then select inside the **Calendar** field to select from a listing of recent business calendars.
+**Note:** If you attempt to use the **Lookup using list** icon \(\[Omitted image "icon-search.png"\] Alt text:\) and see a dialog box with **Cancel** and **Leave** options, select **Cancel** and then select inside the **Calendar** field to select from a listing of recent business calendars.
 
 </td></tr><tr><td>
 

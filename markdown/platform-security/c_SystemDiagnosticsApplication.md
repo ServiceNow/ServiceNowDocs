@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/c\_SystemDiagnosticsApplication.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---
@@ -22,6 +22,6 @@ These logs are available:
 
 -   **Slow Queries**
 
-    Provides insight into how queries affect platform performance. See [Use a slow query log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_UseASlowQueryLog.md).
+    Provides insight into how queries affect platform performance. See Use a slow query log.
 
 

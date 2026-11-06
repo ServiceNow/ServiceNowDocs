@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Explore, Portfolio Planning, Strategic Portfolio Management]
@@ -48,13 +48,13 @@ By creating a flexible portfolio plan using lenses, you can prioritize and roadm
 
 Free-form roadmaps provide you the flexibility of planning and tracking work from different units of your company, such as work across multiple portfolios.
 
-Using a filter condition, you can define what kind of work items you want on your roadmap. If you want to have a roadmap dedicated to just the projects of your department, define a roadmap for projects to start tracking the progress of current projects and create plans for new ones. See [Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
+Using a filter condition, you can define what kind of work items you want on your roadmap. If you want to have a roadmap dedicated to just the projects of your department, define a roadmap for projects to start tracking the progress of current projects and create plans for new ones. See [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
 
 Free-form roadmaps provide you the flexibility of planning and tracking work from different units of your company, such as work across multiple portfolios.
 
 Using a filter condition, you can define what kind of work items you want on your roadmap. If you want to have a roadmap dedicated to just the projects of your department, define a roadmap for projects to start tracking the progress of current projects and create plans for new ones.
 
-See [Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
+See [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md).
 
 \[Omitted image "free-form-roadmap.png"\] Alt text: Free-form roadmap
 
@@ -68,7 +68,7 @@ You can create milestones for your roadmap, or for each planning item on the roa
 
 -   **Roadmap-level or portfolio-level milestones**
 
-    The milestones created at the roadmap level can help with tracking launch dates or key events during that roadmap's timeline. To learn how to create roadmap milestones, see [Add milestones for roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md).
+    The milestones created at the roadmap level can help with tracking launch dates or key events during that roadmap's timeline. To learn how to create roadmap milestones, see [Add milestones for roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.md).
 
     \[Omitted image "roadmap-level-milestones.png"\] Alt text: Roadmap milestones
 
@@ -78,7 +78,7 @@ You can create milestones for your roadmap, or for each planning item on the roa
 
     You can create and update milestones for all types of planning items from the roadmap, but the project milestones are read-only. As any changes to project milestones may impact the associated project plans, it is recommended to create or update project milestones using Project Workspace in Project Portfolio Management \(PPM\).
 
-    To learn how to create item-level milestones on a roadmap, see [Add milestones for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.md).
+    To learn how to create item-level milestones on a roadmap, see [Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-items-portfolio-planning.md).
 
     \[Omitted image "roadmap-item-milestones.png"\] Alt text: Planning item-level milestones.
 
@@ -93,7 +93,7 @@ In Portfolio Planning, you can create simple or hybrid dependencies. For example
 
 The dependency lines help you easily identify the items that may have to be prioritized together. Such easy identification of relationships between planning items provides better collaboration and facilitates enhanced decision making in the planning process.
 
-To learn about creating and managing dependencies, see [Add dependencies for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md).
+To learn about creating and managing dependencies, see [Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md).
 
 \[Omitted image "dependencies-roadmap.png"\] Alt text: Item dependencies on the roadmap.
 
@@ -101,7 +101,7 @@ To learn about creating and managing dependencies, see [Add dependencies for roa
 
 Track status, progress, and metrics for each item on the roadmap. Using the status indicators and the percentage complete score on the planning item bars, make informed decisions ahead of time and easily communicate your work progress to the stakeholders.
 
-See [Track roadmap item progress in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/track-roadmap-item-progress-portfolio-planning.md).
+See [Track the progress of roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/track-roadmap-item-progress-portfolio-planning.md).
 
 \[Omitted image "roadmap-tracking-mode.png"\] Alt text: Roadmap tracking mode
 

@@ -1,5 +1,5 @@
 ---
-title: Create or modify a Walk-up Experience appointment booking service configuration
+title: Create a Walk-up Experience appointment booking configuration for a service
 description: Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-config-appts.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Walk-up Experience appointment booking configuration, Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Appointment booking configuration, Walk-up Experience appointment booking, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Create or modify a Walk-up Experience appointment booking service configuration
+# Create a Walk-up Experience appointment booking configuration for a service
 
 Create or modify appointment booking configurations for Walk-up Experience services. A service is defined as the actual physical location of a walk-up queue. The information stored in the Walk-up Experience application configuration applies to all services,or queue locations, within the application.
 
 ## Before you begin
 
-Role required: admin or sn\_apptmnt\_booking.appointment\_booking\_admin
+Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
 ## About this task
 

@@ -1,89 +1,51 @@
 ---
-title: Employee Relations cases
-description: Because of the sensitive nature of employee relations \(ER\) cases, there are expectations for tighter security to protect privacy. These aspects make employee relations cases different from standard HR cases.
+title: Employee Relations
+description: With Employee Relations \(ER\), handle a sensitive complaint with tighter security. Maintain complete confidentiality and protect the privacy of the user who has raised the complaint.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-case-employee-relations.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Employee Relations cases
+# Employee Relations
 
-Because of the sensitive nature of employee relations \(ER\) cases, there are expectations for tighter security to protect privacy. These aspects make employee relations cases different from standard HR cases.
+With Employee Relations \(ER\), handle a sensitive complaint with tighter security. Maintain complete confidentiality and protect the privacy of the user who has raised the complaint.
 
-When ER cases are handled correctly, there is less risk to your company. Features are:
+## Get started
 
--   You can create ER cases without an Opened for or Subject person.
--   You can create related records for allegations, interviews, and corrective actions.
+<table id="table_nyp_yyr_qbc" class="nav-card"><tbody><tr><td>
 
-ER covers a large area within HR and includes different types of cases, situations, and scope.
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/explore-er.md)
 
-## Investigations
+</td><td>
 
-Currently, HR Service Delivery supports one type of ER case:
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-setting-up.md)
 
--   Report Misconduct
--   Track people not in the ServiceNow® system to receive a full view of an investigation
+</td><td>
 
-    Related records that support this type of ER case are:
+[Reporting\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Use historical trends and data comparisons for Employee Relations to assess organizational performance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/er-hr-par.md)
 
-    -   Allegations
-    -   Involved parties
-    -   Interviews
-    -   Accommodations
-    -   Evidence
-    -   Corrective actions
+</td></tr><tr><td>
 
-## Security
+[Use\[Omitted image "bus-manage.svg"\] Alt text:Use Employee relations to efficiently handle and resolve sensitive cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-using.md)
 
-Confidentiality and securing employee relations cases is the utmost importance.
+</td><td>
 
-HR Service Delivery employee relations uses the following to ensure that the correct people have visibility:
+[Integration\[Omitted image "bus-learn.svg"\] Alt text:Integrate with different applications to expand the capabilities and effectiveness of Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/emp-relations-legal.md)
 
--   Roles
--   Groups
--   Assignment rules
+</td><td>
 
-## Intake
+ 
 
-HR Service Delivery employee relations provides:
+</td></tr></tbody>
+</table>## Troubleshoot and get help
 
--   Catalog item \(Report misconduct\)
--   Sample KB articles
--   Record forms for:
-    -   Allegations
-    -   Involved Parties
-    -   Interviews
-    -   Corrective Actions
-
-## Fulfillment
-
-To work and close an ER case:
-
--   COE and HR service: Report Misconduct
--   HR case template
--   Case form
--   Fulfillment instructions and checklist
-
-## Reports
-
-The following reports are provided:
-
--   Case volume by month
--   Case volume by allegation type
--   Case volume by location
--   Case volume by department
-
-For more information on reports, see [HR Service Delivery Employee Relations dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-dashboards.md).
-
-## Next Experience UI
-
-You can optionally use the ServiceNow® Next Experience UI for Employee Relations. Next Experience provides an intuitive, personalized experience to drive productivity, improve engagement, and surface insights across Employee Relations. For more information, see [Next Experience UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-landing-page.md).
-
-For information on installing a store application, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+-   [Ask questions and explore other resources for Employee Relations in the ServiceNow Community](https://www.servicenow.com/community/)
+-   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
+-   [Contact Customer Service and Support](https://support.servicenow.com/now)
 

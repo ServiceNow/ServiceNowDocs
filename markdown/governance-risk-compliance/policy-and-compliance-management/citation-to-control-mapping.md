@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Association of citations to controls
@@ -20,9 +20,9 @@ In many compliance frameworks, a single control objective may be referenced by m
 
 ## Direct citation-to-control mapping for accurate compliance scoring
 
-The new Citation to Control Mapping feature remedies this by introducing an association table called sn\_compliance\_mtm\_citation\_control, which allows direct mapping between citations and controls. This enhancement enables users to manually associate or disassociate controls with citations, ensuring flexibility and accuracy. It also improves compliance score calculations by basing them on controls rather than indirect relationships through control objectives.
+The new Citation to Control Mapping feature remedies this by introducing an association table called \[sn\_compliance\_mtm\_citation\_control\], which allows direct mapping between citations and controls. This enhancement enables users to manually associate or disassociate controls with citations, ensuring flexibility and accuracy. It also improves compliance score calculations by basing them on controls rather than indirect relationships through control objectives.
 
-To enable this feature, a property named Association of Citations to Controls Mapping is added. This property is disabled by default. To enable this feature, see [Enable associations of citation to controls mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/enable-citation-to-control-mapping.md).
+To enable this feature, a property named **Association of Citations to Controls Mapping** is added. This property is disabled by default. To enable this feature, see [Enable associations of citation to controls mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/enable-citation-to-control-mapping.md).
 
 ## New compliance score formula
 
@@ -36,10 +36,10 @@ This shift ensures that the compliance scores reflect only the relevant controls
 
 ## UI changes to Citation page
 
-When the Enable association of Citations to Controls Mapping property is set to Yes, the following changes appear in the Citation page:
+When the **Enable association of Citations to Controls Mapping** property is set to true, the following changes appear in the Citation page:
 
 -   You will see a related list of controls that are currently associated with that citation.
--   When you click Add to associate more controls, the system does not show all the available controls. Instead, it applies hierarchy-based eligibility rules.
+-   When you click **Add** to associate more controls, the system does not show all the available controls. Instead, it applies hierarchy-based eligibility rules.
 -   The Add list displays the following eligible controls:
     -   All controls from control objectives directly associated with the citation.
     -   Controls from child control objectives of those directly associated control objectives \(traverse downward in the hierarchy\).
@@ -55,7 +55,7 @@ When the Enable association of Citations to Controls Mapping property is set to 
 When the Enable association of Citations to Controls Mapping property is set to Yes, the following changes appear in the Control page:
 
 -   You will see a related list of citations that are currently associated with that control.
--   When you click Add to associate more citations, the system does not show all citations in the instance. Instead, it applies hierarchy-based eligibility rules.
+-   When you click **Add** to associate more citations, the system does not show all citations in the instance. Instead, it applies hierarchy-based eligibility rules.
 -   The Add list displays the following citations:
     -   All citations directly associated with the control objective linked to the control.
     -   Citations associated with parent control objectives \(traverse upward in the hierarchy\).

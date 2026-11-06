@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Policy and Compliance Management mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Mandatory setup, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage control indicators
@@ -61,7 +61,7 @@ You can create citations or import them from UCF authority documents and then cr
 
 **Note:** You can [add content reference tags to citations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/content-references.md). Content reference tags allow you to filter records in order to more easily identify the content packs, integrations, and use case accelerators associated with the citations.
 
-**Parent Topic:**[Use the Classic user interface for Policy and Compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 
 ## Create a control indicator
 
@@ -373,7 +373,7 @@ Type
 
 </td><td>
 
-The method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data that cannot be retrieved from a ServiceNow instance because it comes from an external system, such as customer data from a third-party sales system.
+The method used to determine the type of indicator template. The choices are as follows:-   **Manual**: Manual indicators are used for data from external systems. Use this type when data cannot be retrieved from a ServiceNow instance, such as customer data from a third-party sales system.
 -   **Basic**: Basic indicators are automated indicators based on an indicator source. The indicator source specifies a table and a frequency at which the scores from this table are saved.
 -   **Script**: Scripted indicators use a custom script to collect the data.
 

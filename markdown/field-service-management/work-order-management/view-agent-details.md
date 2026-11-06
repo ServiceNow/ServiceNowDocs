@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View an agent profile on the Field Service Contractor Portal
@@ -34,6 +34,4 @@ Agents can view and edit only their own profile information.
 
 4.  Review the agent profile information.
 
-
-**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

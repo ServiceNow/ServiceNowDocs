@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Field Service Crew operations, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Crew operations, Managing workforce, Use, Field Service Management]
 ---
 
 # Assign work order tasks to crews
@@ -53,15 +53,15 @@ Task assignment methods:
 
 5.  Assign the task either manually or through auto-assignment.
 
-<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d42394e141">
+<table id="choicetable_urr_4n2_yrb"><thead><tr><th align="left" id="d46169e150">
 
 Option
 
-</th><th align="left" id="d42394e144">
+</th><th align="left" id="d46169e153">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42394e150">
+</th></tr></thead><tbody><tr><td id="d46169e159">
 
 **To assign a task manually**
 
@@ -71,7 +71,7 @@ Description
 2.  Select **Update**.
 
 
-</td></tr><tr><td id="d42394e174">
+</td></tr><tr><td id="d46169e183">
 
 **To auto-assign a task**
 
@@ -89,6 +89,4 @@ The Confirm Assignment dialog box is displayed.
 ## Result
 
 The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees table is added to the work order task for more information see, [Task assignees table for crew members or equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/task-assignees-table.md).
-
-**Parent Topic:**[Using Field Service Crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/Using-crew-operations-fsm.md)
 

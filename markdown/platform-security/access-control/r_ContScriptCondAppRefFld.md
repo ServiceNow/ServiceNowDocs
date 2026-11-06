@@ -7,9 +7,9 @@ release: yokohama
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced ACL configuration, Access Control List Rules, Access Management]
+breadcrumb: [Advanced ACL configuration, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Apply ACL script conditions to reference fields
@@ -18,7 +18,7 @@ Use the **glide.sys\_reference\_row\_check** system property to enable scripted 
 
 The default behavior is intended to improve instance performance. If you want to enable script conditions for reference fields, add the following system property.
 
-**Note:** For more information on creating system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+**Note:** For more information on creating system properties, see .
 
 <table id="table_vf1_5ff_2r"><thead><tr><th>
 
@@ -36,7 +36,7 @@ glide.sys\_reference\_row\_check
 
 Controls whether the script conditions of Access Control Rules apply to a table's reference fields.-   Type: true \| false
 -   Default value: **false**
--   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Properties \[sys\_properties\] table
+-   Location: Add a system property to the System Properties \[sys\_properties\] table
 
 </td></tr></tbody>
 </table>**Note:** If the **glide.sys\_reference\_row\_check** system property is not present, or has been set to false, script conditions for Access Control Rules are not applied. This means an ACL containing scripted conditions will pass it's check as long as the other ACL criteria are met \(such as role requirements\).

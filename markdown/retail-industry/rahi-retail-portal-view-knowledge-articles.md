@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-portal-view-knowledge-articles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Track cases and tasks from Retail portal, Retail]
+breadcrumb: [Track cases and tasks from the Retail portal, Retail]
 ---
 
 # View your organization's knowledge articles from the Retail portal

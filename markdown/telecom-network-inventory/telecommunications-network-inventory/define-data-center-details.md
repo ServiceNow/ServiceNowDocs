@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-05-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the datacenter details
@@ -131,7 +131,7 @@ Altitude of the network site that is measured in meters.
 
 12. Select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Add Packs** to capture the attributes for a configuration item \(CI\) record.
 
-    To learn more, see [Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
+    To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 
 13. To view the Dependency views map, select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Dependency View**.
 

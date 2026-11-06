@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/major-issue-management-form-view.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Major issue management overview, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Configure major issue management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Major Case form view
@@ -37,7 +37,7 @@ Major case state
 A major case can be in one of these states:-   **Proposed**: the initial state when a candidate case is created or proposed by an agent or manager.
 -   **Accepted**: the Initial state when a major case is created by a manager or when a candidate case is promoted by a manager.
 -   **Rejected**: the candidate case is rejected by a manager.
--   **Canceled**: the case is canceled.
+-   **Cancelled**: the case is cancelled.
 
 </td></tr><tr><td>
 
@@ -70,7 +70,14 @@ The **Work notes** field on the major case form is updated when a major case is 
 
 When a major issue manager rejects a candidate case, the **Major Case State** field is set to Rejected and the **Work notes** field is updated with the case state. The candidate case reverts to a regular case.
 
-## Child Cases related list
+## Related lists
 
-Major issue management adds the **Child Cases** related list to the Customer Service Case form. All child cases associated with a major case are added to this list. Child cases are created automatically from the recipients list and can also be added or removed manually.
+-   **Child cases**
+
+    All child cases associated with a major case are added to this list. Child cases are created automatically from the recipients list and can also be added or removed manually.
+
+-   **Suggested child cases**
+
+    Cases that have been identified by the AI detection workflow as potential members of the major case group are located in this list. The major issue manager can add these cases as child cases on the major case, or remove them.
+
 

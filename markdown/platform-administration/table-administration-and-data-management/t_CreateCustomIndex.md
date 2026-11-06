@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage tables and indexes, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Managing tables and indexes, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create a table index
@@ -30,15 +30,15 @@ Creating an index on a large table can significantly affect system performance. 
 
 1.  Access the Index creator in one of the following ways.
 
-<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d268344e60">
+<table id="choicetable_vmm_bj2_kyb"><thead><tr><th align="left" id="d291525e69">
 
 Option
 
-</th><th align="left" id="d268344e63">
+</th><th align="left" id="d291525e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d268344e69">
+</th></tr></thead><tbody><tr><td id="d291525e78">
 
 **Tables &amp; Columns module**
 
@@ -49,7 +49,7 @@ Steps
 3.  Navigate to the Index creator.
 
 
-</td></tr><tr><td id="d268344e102">
+</td></tr><tr><td id="d291525e111">
 
 **Database Indexes related list**
 

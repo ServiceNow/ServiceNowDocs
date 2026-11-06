@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -24,7 +24,7 @@ Role required: admin
 
 Configure the age of obsolete or expired assessments to be cleaned.
 
--   Obsolete assessments: Invalid assessments, which have been ignored or the associated vulnerable items \(VITs\) that are closed for more than two years.
+-   Obsolete assessments: Invalid assessments, which have been ignored or the associated vulnerable items \(VITs\) are closed for more than two years.
 -   Expired assessments: If you update the firmware version of a device, the existing assessments based on the previous firmware version become invalid and are considered as expired assessments. You can delete expired assessments, which are older than a month. However, you must perform new vulnerability assessments for the devices with an updated firmware version.
 
 ## Procedure
@@ -37,9 +37,9 @@ Configure the age of obsolete or expired assessments to be cleaned.
 
     Configure the age in clean-up rules 1, 2, and 3, after which the obsolete and expired assessments are deleted:
 
-    -   Rule 1: Delete the firmware vulnerabilities assessment whose associated Vulnerability Item \(VIT\) was closed more than two years ago, based on the last update date of the associated VIT
-    -   Rule 2: Delete the firmware vulnerabilities assessments that have been ignored for a period exceeding two years, based on the creation date.
-    -   Rule 3: Delete firmware assessments that have been expired over 30 days, based on the last update date.
+    -   Rule 1: Delete firmware vulnerabilities assessment whose VIT is closed since 2 years\(based on last update date on VIT associated\).
+    -   Rule 2: Delete firmware vulnerabilities assessment which are ignored since 2 years \(based on created date\).
+    -   Rule 3: Delete firmware vulnerabilities assessment which are expired since 1 month \(based on last update date\).
 4.  Select **Update**.
 
 

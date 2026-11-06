@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a Divider with the Rich Content Editor
@@ -32,8 +32,6 @@ Create the page layout using modules or columns.
 1.  Navigate to the canvas by selecting the **Open editor** button from the **Design** tab of the **New content** form.
 
 2.  From the **Rich Content Editor** canvas, you can use a drag-and-drop method to add dividers.
-
-    \[Omitted image "ec-rich-content-divider.png"\] Alt text: Rich Content Editor - Divider
 
 3.  Navigate to **Settings** tab.
 

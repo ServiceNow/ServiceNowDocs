@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall Audits and Reporting

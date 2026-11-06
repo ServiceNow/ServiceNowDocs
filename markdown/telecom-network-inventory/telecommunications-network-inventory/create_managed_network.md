@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Inventory number allocation, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Inventory number allocation, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Create Managed Network
@@ -18,7 +18,7 @@ Create a managed network to manage all your networks and IP addresses using the 
 
 ## Before you begin
 
--   Install network discovery plugins. To learn more, see Network discovery.
+-   Install network discovery plugins. To learn more, see [Network discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_NetworkDiscovery.md).
 -   Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\_ni\_core.inventory\_template\_manager, sn\_ni\_core.telco\_inventory\_catalog\_manager.
 
 ## About this task

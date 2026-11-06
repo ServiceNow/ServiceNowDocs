@@ -7,9 +7,9 @@ release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Walk-up Experience queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # View Walk-up Experience location stockroom and assets
@@ -43,7 +43,7 @@ The agents can view associated walk-up location stockrooms in following ways:
 
     For example, you can select **Consumables** to see a list of all available consumables. The inventory list tabs include the following.
 
-<table id="choicetable_u5y_21l_f2b"><tbody><tr><td id="d372738e155">
+<table id="choicetable_u5y_21l_f2b"><tbody><tr><td id="d265482e152">
 
 **Hardware**
 
@@ -51,15 +51,15 @@ The agents can view associated walk-up location stockrooms in following ways:
 
 Cables, connectors, batteries, and more.
 
-</td></tr><tr><td id="d372738e164">
+</td></tr><tr><td id="d265482e161">
 
 **Consumables**
 
 </td><td>
 
-Computer monitors, video equipment, computer mouse, and more.
+Computer monitors, video equipment, tablets, laptops, computer mouse, and more.
 
-</td></tr><tr><td id="d372738e173">
+</td></tr><tr><td id="d265482e170">
 
 **Software Licenses**
 
@@ -67,7 +67,7 @@ Computer monitors, video equipment, computer mouse, and more.
 
 Available software programs and tools.
 
-</td></tr><tr><td id="d372738e182">
+</td></tr><tr><td id="d265482e179">
 
 **Other Assets**
 
@@ -82,7 +82,7 @@ Miscellaneous other assets.
 -   **[Use platform view to fulfill a Walk-up Experience request from a stockroom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/fulfill-walkup-stockroom-request.md)**  
 Walk-up Experience agents can access an associated stockroom and fulfill user requests directly from an interaction in platform view.
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 
 **Related topics**  
 

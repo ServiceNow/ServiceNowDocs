@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-db-in-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Create, share, edit, and more, Dashboards, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-11-02"
+reading_time_minutes: 4
+breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Create a dashboard with the in-line editor
@@ -16,7 +16,7 @@ In the Platform Analytics experience, you can create shareable dashboards with d
 
 ## Before you begin
 
-Save your work regularly.
+The dashboard inline editor doesn’t automatically save your dashboard when you’re creating it. Be sure to save your work regularly.
 
 Role required: Any user with an internal role can create dashboards with the inline editor.
 
@@ -26,52 +26,58 @@ Role required: Any user with an internal role can create dashboards with the inl
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
-2.  Select **Create new dashboard**.
+2.  Select **Create dashboard**.
 
-3.  Select the **inline editor** tile and give the dashboard a name and a description.
+3.  Select the **In-line editor** tile and give the dashboard a name and a description.
 
-    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(ui\_builder\_admin role\). If you do not have this role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/technical-dashboards.md).
+    If you want to use scripting, data binding, and other advanced capabilities, select the **Technical editor** tile to continue in UI Builder. This editor is available only to users who can access UI Builder \(ui\_builder\_admin role\). If you don't have this role, go to step 6. For more information about the technical editor, see [Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/technical-dashboards.md).
 
-4.  Select **Create new dashboard**.
+    \[Omitted image "create-new-inline-ed-db-modal.png"\] Alt text: Create inline dashboard modal
 
-    \[Omitted image "create-new-inline-ed-db-modal.png"\] Alt text: Create new inline dashboard modal
+4.  Select **Create dashboard**.
 
-5.  Choose **inline editor**.
+    On migrated instances, you have the choice to create the dashboard in Next Experience or in Core UI if you require legacy features. See [Create or configure a responsive dashboard in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_CreateADashboard.md).
 
-    The Technical editor option opens a page in UI Builder that is treated as a dashboard, with a list of available components. Creating dashboards in UI Builder is recommended for developers. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md)and [Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-tech-db-in-ac.md).
+    \[Omitted image "create-core-ui-db-from-library.png"\] Alt text: Create Core UI dashboard on migrated instance
 
-6.  Give the dashboard a meaningful name and description.
+5.  In the Dashboard Designer, select **Add new element** to add content to the dashboard.
 
-7.  Select **Add new element** to add content to the dashboard.
+    See [Dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboard-elements.md) for information about what you can add to a dashboard.
 
-    See [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ac-elements.md) for information about what you can add to a dashboard.
+    When you add a data visualization, select **New visualization** to create a visualization from scratch or **Saved visualization** to choose one or more from the library. When you add a filter, select **New filter** to create the filter without preconfigured data or **Saved filter** to reuse an existing filter. For more information, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
-    When you add a data visualization, select **New data visualization** to create a visualization from scratch or **Saved data visualization** to choose one from the library. When you add a filter, select **New filter** to create the filter without preconfigured data or **Saved filter** to reuse an existing filter.
+    \[Omitted image "add-dv-modal.png"\] Alt text: Add data visualization dialogue box with options to add a New visualization or a Saved visualization
 
-    \[Omitted image "add-dv-modal.png"\] Alt text: Add data visualization dialogue box with options to add a New data visualization or a Saved data visualization
+6.  When you select saved visualizations, choose from the **Select a Visualization from library** window.
 
-8.  Select the information icon \(\[Omitted image "icon-info.png"\] Alt text: information icon\) to open the Details panel and provide a name and description for your dashboard.
+    Only the visualizations on the current page of the modal are added when you select Add to Dashboard. Select a larger number of records per page to choose more at the same time.
 
-9.  Arrange the data on the canvas to make it useful.
+    \[Omitted image "add-saved-dv-inline-db.png"\] Alt text: Select a Visualization from library modal with two visualizations selected and the Records per page list expanded.
 
-    You can click and drag from the corners of the elements to resize them on the canvas.
+7.  Select the information icon \[Omitted image "icon-info.png"\] Alt text: information icon to open the Details panel and edit the name and description of your dashboard.
 
-10. Select **Add a tab** to create room for more information on additional tabs.
+    You can also edit the dashboard's certification, visibility, and category. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md).
 
-11. Select **Save** early and often.
+8.  Arrange the elements on the canvas so that it tells the story you want to tell with your data.
 
-    The dashboard inline editor doesn’t automatically save your dashboard when you’re creating it. Be sure to save your work regularly.
+    You can also click and drag from the corners of the elements to resize them on the canvas.
+
+9.  Select **Add a tab** to create room for more information on additional tabs.
+
+10. Select **Save**
 
 
 ## What to do next
 
--   [Edit Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-db-elements-in-ac.md)
+-   [Edit in-line Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-db-elements-in-ac.md)
 -   [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
 
-**Parent Topic:**[Creating dashboards and other common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

@@ -1,20 +1,20 @@
 ---
 title: Create an improvement initiative from Digital Portfolio Management
-description: Create an improvement initiative using the Digital Portfolio Management \(DPM\) application. DPM enables you to create an improvement initiative for any business or technical services that you own.
+description: Create an improvement initiative using the Digital Portfolio Management \(DPM\) application. DPM enables you to create an improvement initiative for any business or technology management services that you own.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-create-initiative.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
 
 # Create an improvement initiative from Digital Portfolio Management
 
-Create an improvement initiative using the Digital Portfolio Management \(DPM\) application. DPM enables you to create an improvement initiative for any business or technical services that you own.
+Create an improvement initiative using the Digital Portfolio Management \(DPM\) application. DPM enables you to create an improvement initiative for any business or technology management services that you own.
 
 ## Before you begin
 

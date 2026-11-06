@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2025-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resolving slow queries, Resolving platform performance issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Drop a slow query index

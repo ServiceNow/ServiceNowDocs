@@ -1,67 +1,79 @@
 ---
-title: Activate data snapshots
-description: Enable data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When data snapshots are enabled, you can apply multiple breakdown levels to an indicator.
+title: Activate Data snapshots
+description: Enable Data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When Data snapshots are enabled, you can apply multiple breakdown levels to an indicator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/activate-unlimited-breakdowns.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Data snapshots and multiple breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Data snapshots and multiple breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
-# Activate data snapshots
+# Activate Data snapshots
 
-Enable data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When data snapshots are enabled, you can apply multiple breakdown levels to an indicator.
+Enable Data snapshots on an instance as a whole and on individual existing indicators \(KPIs\) on the instance. When Data snapshots are enabled, you can apply multiple breakdown levels to an indicator.
 
 ## Before you begin
 
-The Data Snapshots \(com.snc.pa.mlb\) plugin must be activated on the instance. You also must have a subscription to Performance Analytics to use data snapshots on a production instance, as described in [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md). On a non-production instance, activate any of the Performance Analytics Premium plugins.
+You have to meet the following requirements:
+
+-   Your instance must be running the RaptorDB Professional database.
+-   The Data Snapshots \(com.snc.pa.mlb\) plugin must be activated on the instance. If the instance is eligible, this plugin is installed automatically.
+-   To use Data snapshots on a production instance, you must have a subscription to Performance Analytics as described in [Activating your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_PremiumPerformanceAnalytics.md). On a non-production instance, activate any of the Performance Analytics Premium plugins.
+-   Your instance must not be domain-separated.
+
+**Warning:** Data snapshots is deactivated on the instance if the Data Snapshots plugin is deactivated or domain separation is activated. If you want to re-activate Data snapshots on such an instance, contact Now Support.
 
 Role required: pa\_data\_collector or higher
 
 ## About this task
 
-Certain indicators support more than two levels of breakdown. This feature is called multiple breakdowns, and is one of the features of data snapshots. This feature is not available for all indicators. For a list of restrictions, see [Limitations and requirements for data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/limitations-mlb.md).
+Certain indicators support more than two levels of breakdown. This feature is called multiple breakdowns, and is one of the features of Data snapshots. This feature is not available for all indicators. For a list of restrictions, see [Limitations and requirements for Data snapshots](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/limitations-mlb.md). Activate Data snapshots for each eligible indicator, either one-at-a-time or in bulk.
 
-You have to activate data snapshots for the instance by enabling the Data Snapshots \(com.snc.pa.mlb\) plugin. You then have to activate data snapshots for each indicator, either one-at-a-time or in bulk.
-
-**Important:** Classic Performance Analytics data collection jobs continue to run in parallel on indicators that have data snapshots enabled. The scores that the classic job collects are not used while data snapshots are enabled. Parallel job collection ensures smooth rollback if necessary.
+**Important:** Classic Performance Analytics data collection jobs continue to run in parallel on indicators that have Data snapshots enabled. The scores that the classic job collects are not used while Data snapshots are enabled. Parallel job collection provides smooth rollback if necessary.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Indicators**.
 
-2.  Press **Check instance eligibility** to see if your instance is eligible for data snapshots and, if not, why.
+2.  Press **Check instance eligibility** to see if your instance is eligible for Data snapshots and, if not, why.
 
-    When your instance is eligible for data snapshots, you have a banner announcing this fact and two new tiles, Data snapshots enabled and Data snapshots supported.
+    When your instance is eligible for Data snapshots, you have a banner announcing this fact and two new tiles, Data snapshots enabled and Data snapshots supported.
 
-    \[Omitted image "kpis-ds-enabled.png"\] Alt text: Indicator library with data snapshots eligible on the instance.
+    \[Omitted image "kpis-ds-enabled.png"\] Alt text: Indicator library with Data snapshots eligible on the instance.
 
-3.  To set an individual indicator to support more than two levels of breakdown, perform the following actions:
+3.  Expand **Edit list columns** \[Omitted image "edit-list-columns.png"\] Alt text: Edit list columns button and tooltip. and add the Data snapshots status and Fact table row count columns.
 
-    1.  Open the indicator record.
+    If the number of table rows exceeds the license limit, the column Fact table row count has the value `true`.
 
-    2.  Select **Enable Data Snapshots**.
+    \[Omitted image "edit-columns.png"\] Alt text: Adding the Data snapshots status column to the Indicator library.
 
-        \[Omitted image "indicator-top-right-buttons.png"\] Alt text: The enable data snapshots button on an indicator record.
+4.  To filter the list, you can select the **Data snapshots supported** tile.
 
-        A modal opens explaining the process of enabling data snapshots:
+5.  Select one or more indicators in the list and press **Enable Data Snapshots \(quantity of indicators selected\)**.
 
-        -   That the indicator will be linked to an appropriate [data snapshots source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/tables-unlimited-breakdowns.md) if one exists
-        -   That if no suitable data snapshots source exists, one will be created
-        -   Which of the requirements for data snapshots are met or not met
-        -   Whether the record volume is within the allowed threshold for your license
-    3.  If you meet all the requirements and agree with the process, select **Continue**.
+    If an indicator source table size exceeds either the number of rows restricted by your license or technical storage limitations, you receive a warning.
 
+    \[Omitted image "ds-table-size-modal.png"\] Alt text: Modal that your facts table has exceeded size limitations for activating Data snapshots.
+
+
+## Result
+
+All eligible selected indicators now have Data snapshots enabled and thus support multiple levels of breakdown.
 
 ## What to do next
 
-The scheduled conversion process runs hourly and synchronizes any changes to existing indicators. The job also converts any newly created indicators. To trigger the conversion process and sync changes manually, select **Update Data Snapshots status**. For example, manually synchronize changes after you have fixed an unsupported indicator configuration and you now want to enable data snapshots for that indicator.
+To see why a specific indicator does not support Data snapshots \(Data snapshots status = unsupported\), you can examine its indicator record. Select the Edit icon \[Omitted image "edit-icon.png"\] Alt text: Edit icon for that indicator to open its record. Decide whether to alter the indicator and try to activate Data snapshots for it.
 
-If data snapshots were not enabled on some of the indicators, the indicator record contains a message giving the reasons why that indicator was not compatible. You also get suggestions about how to make the indicator compatible.
+On automated indicators that have successfully had Data snapshots enabled, check the Data snapshots source. \(The source might not be available until the first Data snapshots job runs.\) If the source is for **All activity** and not only **Daily**, adjust the calendar and calendar frequency. For more information, see [Sources and records for enabled Data snapshots indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/ds-score-collection-enabled-indicators.md).
+
+-   **[Activate Data snapshots for a single indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/activate-ds-single-indicator.md)**  
+You can edit an indicator record so the indicator is eligible for Data snapshots, then activate Data snapshots for that indicator from the record.
+-   **[Sources and records for enabled Data snapshots indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/ds-score-collection-enabled-indicators.md)**  
+When you enable Data snapshots for an existing automated indicator, that indicator is associated with a Data snapshots source. The indicator follows the source's time zone. You might need to change the calendar frequency.
 
 **Parent Topic:**[Data snapshots and multiple breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/multi-level-breakdowns.md)
 
@@ -71,4 +83,8 @@ If data snapshots were not enabled on some of the indicators, the indicator reco
 [Create an automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_CreateAnAutomatedIndicator.md)
 
 [Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)
+
+[Create a Data snapshots automated indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-ds-automated-indicator.md)
+
+[Create a Data snapshots formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-ds-formula-ind.md)
 

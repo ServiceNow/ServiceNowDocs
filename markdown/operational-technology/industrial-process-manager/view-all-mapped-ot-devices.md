@@ -7,9 +7,9 @@ release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated mapping of OT devices to the Equipment Model, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
+breadcrumb: [Automated Mapping Across Zone-based IP Network Groups, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
 ---
 
 # View all mapped OT devices
@@ -42,5 +42,5 @@ When you open a parent record in the CI Relationships table, you can view the Ma
     In this list, you can use the **Mapped Equipment Model Entity** column to identify the equipment model entity the device is mapped to. For more information on how to add a column to a list, see [Personalize a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_PersonalLists.md).
 
 
-**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+**Parent Topic:**[Automated Mapping Across Zone-based IP Network Groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
 

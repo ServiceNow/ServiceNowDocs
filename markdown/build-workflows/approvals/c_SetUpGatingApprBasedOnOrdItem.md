@@ -7,7 +7,7 @@ release: yokohama
 product: Approvals
 classification: approvals
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gating approvals, Approval rules, Classic approvals, Build workflows]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Gating approvals, Approval rules, Classic approvals, Build workflow
 # Set up a gating approval based on the item being ordered
 
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered.
+
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 In addition to adding approvals via approval rules, you can also add approvals based on what kind of item is being ordered. We can, for example, specify that all Blackberrys need to be approved by David Loo.
 

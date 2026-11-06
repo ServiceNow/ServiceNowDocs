@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-use-needs-analysis.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lead Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Get product recommendations for leads using needs analysis
@@ -24,15 +24,15 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All** and select the lead that you want to work on.
 
-    The product catalog displays in the Catalog tab of the lead.
+    The product catalog appears on the Catalog tab of the lead.
 
 3.  In the Catalog tab, select **Product selection guide** in the catalog hierarchy.
 
-    The needs template cards for the guide are displayed.
+    The needs template cards for the guide appear.
 
 4.  In the needs template card that best matches what your customer wants, select **Capture Needs**.
 
@@ -42,10 +42,21 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 6.  After replying to the last question, review or select the recommendations:
 
-    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] icon. You can change your responses if needed.
-    -   To view product recommendations, choose **Select Recommendations**. The Catalog tab displays the recommended products.
-7.  Choose a recommendation by selecting **Add** in the tile for the product that best matches your customer needs.
+    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] Alt text: icon. You can change your responses if needed.
+    -   To view product recommendations, select **Select Recommendations**. The Catalog tab displays the recommended products.
+7.  Select **Add** in the tile for the product that best matches your customer needs.
 
-    The selected product is added to the lead. The Needs tab displays the needs template that you selected. You can review the needs template and if needed, change your answers, which might result in different product recommendations.
+    The selected product is added to the lead. The Needs tab displays the needs template that you selected. You can review the needs template and, if needed, change your answers. Different answers might produce different product recommendations.
 
+
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Create a needs template and set the catalog relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-publish-needs-template.md)
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

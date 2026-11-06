@@ -7,8 +7,8 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Use, Operational Technology Manager, Operational Technology]
 ---
 
@@ -18,7 +18,7 @@ Create a scheduled job that automatically converts your IT hardware to Operation
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or cmdb\_ot\_admin
 
 ## About this task
 
@@ -37,15 +37,17 @@ You can also manually convert the IT hardware to the OT devices. For more inform
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **OT Manager Admin** &gt; **Automated IT OT Bulk Conversion**.
+1.  Navigate to **All** &gt; **Industrial Workspace Admin** &gt; **OT Manager Admin** &gt; **Automated IT OT Bulk Contextualization**.
 
 2.  Select **New**.
 
 3.  On the **Filter Criteria - OT Devices** tab, set the source table and filter criteria to identify the CIs that you need to convert.
 
-    For example, if you want to add the OT entity details for all computers that are imported into the system that have a prefix of COMP, select the source table as **cmdb\_ci\_computer** and then add the filter criteria as **\[Name\] \[starts with\] \[COMP\]**, **\[Class\] \[is\] \[Computer\]**, and **\[OT device details\] \[is empty\]**.\[Omitted image "filter-criteria-ot-devices.png"\] Alt text: Filter criteria for OT devices.
+    For example, if you want to add the OT entity details for all computers that are imported into the system with a prefix of COMP, select the source table as **cmdb\_ci\_computer** and then add the filter criteria as **\[Name\] \[starts with\] \[COMP\]**, **\[Class\] \[is\] \[Computer\]**, and **\[OT device details\] \[is empty\]**.
 
     You can also use CMDB groups to group IT CIs based on additional information, such as Software Installed, so that you can convert them to OT devices. For more information, see [Use CMDB groups to add OT context to IT CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/use-cmdb-groups-it-ot-conversion.md).
+
+    **Note:** If you're using a CMDB group, the **Filter Criteria - OT Devices** tab shown in this step isn't visible.
 
 4.  Verify the number of records that were chosen from the filter condition you set by selecting the **Preview** button.
 
@@ -115,6 +117,14 @@ Top-level parent entity, or industrial site, where the device is located or assi
 7.  Select the check box next to the **Active** field.
 
 8.  Select **Submit**.
+
+9.  To run the job immediately, select **Execute Now** in the record.
+
+    When you select **Execute Now**, a confirmation modal is shown to ensure you want to create OT entity records from the table specified in the **Filter Criteria - OT Devices** tab. For example if you're creating a scheduled job for the source table cmdb\_ci\_computer, you will see the following message:
+
+    This action will trigger the scheduled job which creates OT entity records for 3 records from "cmdb\_ci\_computer" table as per the query condition. Are you sure to want to proceed?
+
+10. Select **Proceed**.
 
 
 **Parent Topic:**[Using the Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/using-operational-technology-manager.md)

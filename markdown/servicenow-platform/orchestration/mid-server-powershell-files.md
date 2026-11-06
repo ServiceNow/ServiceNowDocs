@@ -7,7 +7,7 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [PowerShell protocols and troubleshooting, PowerShell activity pack, Orchestration activity packs, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -120,7 +120,7 @@ This diagram illustrates the dependency of the credential selection behavior on 
 
 ## ActiveDirectory.psm1
 
-This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/c_OrchActiveDirectoryActivities.md) activity pack.
+This module file stores the functions used by the PowerShell scripts shipped with the [Active Directory]() activity pack.
 
 ## Exchange.psm1
 

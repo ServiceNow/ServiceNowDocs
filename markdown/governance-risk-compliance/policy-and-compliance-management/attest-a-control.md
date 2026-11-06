@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage controls, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage controls, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Attest a control
@@ -32,7 +32,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
 2.  Open the attestation and review the details.
 
-<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d364596e92">
+<table id="choicetable_ehk_qqs_dw"><tbody><tr><td id="d438721e101">
 
 **If you are unable to answer the questions**
 
@@ -44,7 +44,7 @@ When controls are attested, a new questionnaire is created. As a result, attesta
 
  The list of attestations refreshes when you reassign an attestation to another user.
 
-</td></tr><tr><td id="d364596e123">
+</td></tr><tr><td id="d438721e132">
 
 **If you are able to answer the questions**
 

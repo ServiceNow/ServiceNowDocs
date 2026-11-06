@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Receive assets, Procurement, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Receive assets, Procurement, Common applications, Asset Management]
 ---
 
 # Receive an asset
@@ -32,15 +32,15 @@ When you receive assets:
 
 1.  View purchase orders.
 
-<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d272332e71">
+<table id="choicetable_jg3_j33_4xb"><thead><tr><th align="left" id="d165520e71">
 
 UI
 
-</th><th align="left" id="d272332e74">
+</th><th align="left" id="d165520e74">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d272332e80">
+</th></tr></thead><tbody><tr><td id="d165520e80">
 
 **Core UI**
 
@@ -48,7 +48,7 @@ Action
 
 Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders**.
 
-</td></tr><tr><td id="d272332e104">
+</td></tr><tr><td id="d165520e104">
 
 **Hardware Asset Workspace**
 
@@ -58,7 +58,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d272332e137">
+</td></tr><tr><td id="d165520e137">
 
 **Enterprise Asset WorkWorkspace**
 
@@ -68,7 +68,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 2.  Select the **Purchase orders** tab.
 
 
-</td></tr><tr><td id="d272332e170">
+</td></tr><tr><td id="d165520e170">
 
 **OT Asset Workspace**
 
@@ -105,7 +105,7 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 
     6.  Enter the asset tag, serial number, rights, and License key.
 
-6.  To receive hardware and consumables assets:
+6.  To receive hardware, consumables, and enterprise assets:
 
     1.  Edit the **Receiving Stockroom** if the items arrived at a different stockroom than the one specified on the purchase order.
 
@@ -125,17 +125,27 @@ Navigate to **All** &gt; **Procurement** &gt; **Orders** &gt; **Purchase Orders*
 
         You can add multiple users in the **Capture Asset tags** dialog box.
 
-    5.  Select **Capture Asset tags** to enter asset details.
+    5.  Select **Capture asset tags** to enter asset details.
 
         You can’t enter details for assets more than the received quantity. You can also reserve assets for a user.
 
         **Note:** If you’ve pre-created the assets, you must select the ones you want to receive.
 
-    6.  On the **Capture Asset Tag** dialog box, select **Insert a new row**.
+        The **Capture asset tags** dialog box appears with the following fields to be filled in:
 
-    7.  Enter the asset tag and serial number.
+        -   **Asset Tag**
+        -   **Serial number**
+        -   **MAC address**
+        -   **Reserved for**
+        If you have activated the Enterprise Asset Management or OT Asset Management application, then the **MAC address** field is also displayed.
 
-        If you have activated the Enterprise Asset Management or OT Asset Management application, then the **MAC address** fields is also displayed.
+    6.  In the **Capture asset tags** dialog box, select **Insert a new row**.
+
+    7.  Enter the asset details that are required to proceed with receiving the assets.
+
+        If the assets that you are receiving belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you should provide details for at least one of these fields. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields to proceed. The Capture asset tags dialog box will display a message indicating the specific field values you should provide.
+
+        The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
 
     8.  From the **Reserved for** list, select the user for whom the item was ordered.
 

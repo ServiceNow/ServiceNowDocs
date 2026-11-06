@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_DistributeAQuiz.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create quizzes with forms, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,8 +39,6 @@ You can send the quiz to all the category users configured for the quiz or to a 
     -   Send the quiz to one category user by clicking **Assign Quiz**.
     -   Send the quiz to all of its category users by clicking **Send Quizzes**.
     **Note:** These buttons are hidden if there are no category users defined for the quiz.
-
-    \[Omitted image "Quiz\_Distribute.png"\] Alt text:
 
 
 **Parent Topic:**[Create quizzes with forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/c_CreateQuizzesWithForms.md)

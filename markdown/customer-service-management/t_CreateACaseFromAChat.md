@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateACaseFromAChat.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Create a customer service case from a chat
@@ -24,7 +24,7 @@ When you create a customer service case from a support conversation, the system 
 
 **Important:**
 
-Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+Starting in Utah, Connect Support has been deprecated and is no longer supported or available for new activation. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 ## Procedure
 

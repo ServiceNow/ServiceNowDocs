@@ -1,0 +1,61 @@
+---
+title: Submitting a forecast
+description: Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/submitting-a-forecast.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Sales Forecasting, Sales automation apps, Use, Sales Customer Relationship Management]
+---
+
+# Submitting a forecast
+
+Sales agents and managers can finalize and submit forecasts in defined periods to ensure accurate projections. Agents can adjust forecast values, lock them, and submit the forecasts in the specified time frame.
+
+## Before you begin
+
+Role required: sn\_sales\_forecast.submission\_writer
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
+
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+
+3.  Navigate to **My lists** **&gt; Sales Forecast** **&gt; My Forecast Submissions**.
+
+4.  Select **New**.
+
+    The Create New Submitted Forecast page is displayed.
+
+5.  From the **Forecast** list, select the forecast record that you want to submit.
+
+6.  Check the values in the following fields that are automatically populated:
+
+    -   Owner
+    -   Sales Team
+    -   Period
+    -   Currency
+    -   State
+7.  From the **Submission Window** list, select the time period for which you want to submit the forecast.
+
+8.  Select **Save**.
+
+    The Submission Entry page for that forecast is displayed.
+
+9.  Select **Submit Forecast** to submit your forecast.
+
+    The forecast has been submitted and the state changes to Completed. The forecast values have been locked and cannot be changed. If your forecast model allows resubmission, you can reopen the submitted forecast and modify values within the current submission window. For more info, see [Configure Forecast Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-forecast-model.md).
+
+
+**Parent Topic:**[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-sales-forecasting.md)
+
+**Related topics**  
+
+
+[Configure Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-forecasting.md)
+

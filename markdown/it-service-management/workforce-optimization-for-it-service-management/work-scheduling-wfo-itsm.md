@@ -7,7 +7,7 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 # Work scheduler in Workforce Optimization for ITSM
 
 Manage the work of all your teams from a central location. You can get visibility into your entire teams’ workload. You can assess the complexity level of your teams' tasks, their capacity to take on the work, and assign or reassign work—all from a calendar interface.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Here's an overview of Work scheduler.
 

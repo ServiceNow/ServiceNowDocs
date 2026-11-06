@@ -7,22 +7,22 @@ release: yokohama
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [CMDB CI Class Models, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # API extension classes
 
 The CMDB CI Class Models ServiceNow Store app adds or updates classes for APIs \(application programming interface\).
 
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the full release notes for all CMDB CI Class Models.
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## APIs
 
@@ -35,7 +35,7 @@ The classes added in this release extend the CMDB data model and provide a found
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. For additional detail, see the [Community article titled "New Data Model in CMDB for APIs"](https://www.servicenow.com/community/cmdb-articles/new-data-model-in-cmdb-for-apis/ta-p/2688843).
+This section lists the classes that the CMDB CI Class Models app adds or updates. For additional detail, see the [Community article titled "New Data Model in CMDB for APIs"](https://www.servicenow.com/community/cmdb-articles/new-data-model-in-cmdb-for-apis/ta-p/2688843).
 
 CMDB CI Class Models: The following classes for API are available. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
@@ -57,7 +57,7 @@ API\[cmdb\_ci\_api\]
 
 </td><td>
 
-Configuration Item\[cmdb\_ci\]
+Configuration item\[cmdb\_ci\]
 
 </td><td>
 
@@ -69,7 +69,7 @@ API Component\[cmdb\_ci\_api\_component\]
 
 </td><td>
 
-Configuration Item\[cmdb\_ci\]
+Configuration item\[cmdb\_ci\]
 
 </td><td>
 
@@ -85,7 +85,7 @@ API Component\[cmdb\_ci\_api\_component\]
 
 </td><td>
 
-The part of an API from which a client or user interacts or makes requests. Example: GET https://\[apiID\].execute-api.us-east-2.amazonaws.com/\{proxy+\}.
+The part of an API from that a client or user interacts or makes requests. Example: GET https://\[apiID\].execute-api.us-east-2.amazonaws.com/\{proxy+\}.
 
 </td></tr><tr><td>
 
@@ -117,7 +117,7 @@ Managed API\[cmdb\_ci\_managed\_api\]
 
 </td><td>
 
-Configuration Item\[cmdb\_ci\_api\]
+Configuration item\[cmdb\_ci\_api\]
 
 </td><td>
 
@@ -170,7 +170,7 @@ Type
 
 </td><td>
 
-Choice list
+List
 
 </td><td>
 
@@ -428,12 +428,14 @@ The API Gateway \[cmdb\_ci\_api\_gateway\] class supports mapping of tags and la
 The following marker classes are available for API gateways. These classes inherit all attributes from the API Gateway \[cmdb\_ci\_api\_gateway\] parent class.
 
 -   Anypoint API Gateway \[cmdb\_ci\_api\_gateway\_anypoint\] \(provided by MuleSoft\)
--   Tyk API Gateway \[cmdb\_ci\_api\_gateway\_tyk\]
--   Boomi API Gateway \[cmdb\_ci\_api\_gateway\_boomi\]
+-   Tyk API Gateway \[cmdb\_ci\_api\_gateway\_tyk\] \(provided by Tyk\)
+-   Boomi API Gateway \[cmdb\_ci\_api\_gateway\_boomi\] \(provided by Boomi\)
 
 The marker classes follow the existing class structure and do not require changes to Identification and Reconciliation engine \(IRE\) rules.
 
 **Note:** The Managed API \[cmdb\_ci\_managed\_api\] class is specific to APIs discovered from gateways and other managed services, and does not introduce new attributes.
+
+In API gateways and developer portals, an API product bundle is a collection of one or more APIs for consumption by developers and applications. Some platforms use the term for an API product alone.
 
 |Attribute|Data type|Description|
 |---------|---------|-----------|
@@ -444,6 +446,8 @@ The marker classes follow the existing class structure and do not require change
 |Last Modified Date|Date/Time|Date and time of the most recent update to the API product bundle.|
 |Discovered State|String|Current state of the product bundle as reported by the source. For example, published or deprecated.|
 
+To access one or more API product bundles, a developer can register for an API consumer subscription on a developer portal. The subscription registers with one or more bundles and provides a key for access to the APIs in the bundles.
+
 |Attribute|Data type|Description|
 |---------|---------|-----------|
 |Discovered Scope|String|Scope of access as discovered from the source system. For example, all APIs or specific APIs.|
@@ -452,6 +456,8 @@ The marker classes follow the existing class structure and do not require change
 |Discovered State|String|Subscription status as discovered from the source system. For example, active or inactive.|
 |Creation Date|Date/Time|Date and time when the API consumer subscription was created in the source system.|
 |Last Modified Date|Date/Time|Date and time of the most recent update to the API consumer subscription.|
+
+The WebACL class \[cmdb\_ci\_web\_acl\] represents ACLs for CloudFront, API gateway REST APIs, application load balancers, AppSync GraphQL APIs, Cognito user pools, App Runner services, AWS Verified Access, and the Azure Front Door application gateway.
 
 ## Key relationship structures
 
@@ -613,7 +619,7 @@ CMDB CI Class Models v 1.49.0 introduces the following non-CMDB tables as relate
     |Name|String \(100\)|Name of the API deployment.|
     |API|Reference|Reference to the deployed API \(cmdb\_ci\_api\).|
     |Unmatched API Endpoint|Reference|Reference to the unmatched API endpoint, if the API doesn't match an existing API \(cmdb\_ci\_unmatched\_api\_endpoint\).|
-    |Configuration Item|Reference|Reference to the Configuration Item. This is typically manually specified as a reference, if you know what CI the API is deployed to.|
+    |Configuration item|Reference|Reference to the Configuration item. This is typically manually specified as a reference, if you know what CI the API is deployed to.|
 
     **Note:** The API Deployment non-CMDB table relates to both the API \[cmdb\_ci\_api\] and Unmatched API Endpoint \[cmdb\_ci\_unmatched\_api\_endpoint\] classes.
 
@@ -695,7 +701,7 @@ API Consumer Type
 
 </td><td>
 
-Choice list
+List
 
 </td><td>
 
@@ -808,7 +814,7 @@ Reference
 
 </td><td>
 
-Reference to the API Frontend \(cmdb\_ci\_api\_frontend\).
+Reference to the API Front end \(cmdb\_ci\_api\_frontend\).
 
 </td></tr><tr><td>
 

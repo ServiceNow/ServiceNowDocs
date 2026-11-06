@@ -1,64 +1,37 @@
 ---
 title: PDF generation and accessibility
-description: Export an individual record or list of records into a PDF format that supports accessibility. When this feature is enabled, accessibility tags will be available in the PDF tag tree to help users who rely on screen readers to navigate, understand, and interact with the generated PDF documents.
+description: PDF generation settings support accessibility features such as accessibility tags for screen readers, customizable export formats, and image retrieval timeouts for optimized HTML to PDF conversion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/document-management-services/pdf-generation-accessibility.html
 release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # PDF generation and accessibility
 
-Export an individual record or list of records into a PDF format that supports accessibility. When this feature is enabled, accessibility tags will be available in the PDF tag tree to help users who rely on screen readers to navigate, understand, and interact with the generated PDF documents.
+PDF generation settings support accessibility features such as accessibility tags for screen readers, customizable export formats, and image retrieval timeouts for optimized HTML to PDF conversion.
 
-**Note:** PDF generation with accessibility is unavailable for regulated markets and on-premise customers.
+**Note:** PDF generation with accessibility is unavailable for on-premise customers.
 
 ## Accessible PDF
 
-To enable accessibility for PDF generation, add the accessibility property **com.snc.pdf.generation.accessibility** and set the value to `true`. Only users with admin roles can set the property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+To enable accessibility for PDF generation, add the accessibility property **com.snc.pdf.generation.accessibility** and set the value to `true`. Only users with admin roles can set the property. For more information, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
 For PDF generation API, see [PDFGenerationAPI - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/PDFGenerationAPIBothAPI.md)
 
-## Export to PDF for list of records
+## Image retrieval timeout in HTML to PDF conversation
 
-Export a list of records in a variety of formats. The **Export** option is available in the column heading context menu in List v2. In List v3, it’s available in the list title menu.
+To specific the time out duration for HTML to PDF conversion update the timeout value for the system property **com.snc.pdf.html2pdf.image\_retrieval\_timeout**. This property enables you to specify an image retrieval timeout in seconds.
 
-PDF export orientation includes:
+-   **[Export to PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/export-to-pdf.md)**  
+Export an individual record or list of records into a PDF format that supports accessibility. When this feature is enabled, accessibility tags are available in the PDF tag tree to help users who rely on-screen readers to navigate, understand, and interact with the generated PDF documents.
+-   **[Guardrails for PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/guardrails-pdf-generation-accessibility.md)**  
+Static and dynamic guardrails are safeguards that help maintain stability during PDF generation. Static guardrails enforce fixed limits like maximum PDF size, while dynamic guardrails monitor real-time memory usage and terminate exports when memory pressure exceeds a defined threshold.
 
--   Portrait
--   Landscape
--   Detailed Portrait \(exports the list and the associated form for each record\).
--   Detailed Landscape \(exports the list and the associated form for each record\).
-
-When the accessibility property is enabled, users will get a pop-up when they export to PDF where they can specify whether to create an accessible PDF or not.
-
-\[Omitted image "accessible-pdf.png"\] Alt text: Check box to enable accessible PDF
-
-To enable accessibility, select the **Accessible PDF** check box.
-
-**Note:** Adding accessibility tags to a PDF increases the file size.
-
-To export a PDF list, see [Export data from a list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/export-list-data.md).
-
-## Export to PDF for a single record
-
-To export an individual record from a form, select and hold \(or right-click\) a form header bar and select the export type.
-
-PDF export orientations include:
-
--   Portrait
--   Landscape
-
-When the accessibility property is enabled, users will get a pop-up when they export to PDF where they can specify whether to create an accessible PDF or not.
-
-To enable accessibility, select the **Accessible PDF** check box.
-
-**Note:** Adding accessibility tags to a PDF increases the file size.
-
-To generate a single PDF record, see [Export data from a record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/export-form-data.md).
+**Parent Topic:**[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/document-services-landing-page.md)
 

@@ -1,24 +1,24 @@
 ---
 title: Add a taxonomy to your portal
-description: Create a taxonomy to organize knowledge articles and catalog items under topics which are relevant to your user. Associate a taxonomy to your portal to display the relevant topics on the widgets.
+description: Create a taxonomy to organise knowledge articles and catalog items under topics which are relevant to your user. Associate a taxonomy to your portal to display the relevant topics on the widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/add-taxo-to-portal.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal Browse Taxonomy widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Portal Browse Taxonomy widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add a taxonomy to your portal
 
-Create a taxonomy to organize knowledge articles and catalog items under topics which are relevant to your user. Associate a taxonomy to your portal to display the relevant topics on the widgets.
+Create a taxonomy to organise knowledge articles and catalog items under topics which are relevant to your user. Associate a taxonomy to your portal to display the relevant topics on the widgets.
 
 ## Before you begin
 
-Role required: admin or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

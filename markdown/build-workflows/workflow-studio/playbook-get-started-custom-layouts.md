@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Customize the Playbook Experience, Designing playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Customize a playbook in UI Builder
@@ -18,7 +18,7 @@ Use UI Builder pages and modular components for custom playbook layouts to custo
 
 ## Before you begin
 
--   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md).
+-   If you don't have a playbook to apply custom layouts to, build a playbook. To learn more, see [Building Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-a-process.md).
 -   Install the latest version of the Playbook Experience and Playbook Experience Component apps from the ServiceNow Store. See [Playbook Experience apps](https://store.servicenow.com/sn_appstore_store.do#!/store/product/e4cecaf0db2be81079279ee4db9619f2).
 
 Role required: ui\_builder\_admin, admin
@@ -33,7 +33,7 @@ After creating a UI Builder page, you can customize Playbook Experience pages to
 
 2.  Open the **UI Builder** experience that you want to work in, or create a new experience.
 
-    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-experiences.md).
+    The **Playbook Experience Builder** experience was built for you to customize Playbook Experience. For more information on how to create an experience, see[Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-experiences.md)
 
 3.  In your **UI Builder** experience, you can:
 
@@ -184,7 +184,9 @@ Conditions that determine when the page variant is shown.
 
     4.  If you want to hard-code the test values instead, navigate back to **Data** &gt; **Data resources panel** &gt; **Local data resource instances**, and select **UI Controller Record Page**.
 
-    5.  Under the **Config** tab of the controller, add the **Parent SysID** or **Parent Table**. In the test values popover, these are the **sysID** and **table** fields.
+    5.  Under the **Config** tab of the controller, add the **Parent SysID** or **Parent Table**.
+
+        In the test values popover, these are the **sysID** and **table** fields.
 
         You can enter **context.props.table** in the **Parent Table** field, and **context.props.sysId** for the **Parent SysID** field.
 
@@ -297,8 +299,6 @@ Optional context ID of selected activity for deep linking
 
     19. Navigate back to your stage picker in the component tree, and determine the orientation of your stage picker in the panel that opens on the right.
 
-
-**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
 
 **Related topics**  
 

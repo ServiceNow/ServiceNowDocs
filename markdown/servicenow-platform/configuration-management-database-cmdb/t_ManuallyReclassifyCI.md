@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Reclassify a CI
@@ -18,7 +18,7 @@ You can upgrade, downgrade, or switch the class of a CI by modifying its **Class
 
 ## Before you begin
 
-Role required: itil or asset \(In general, the roles required to update a CI\)
+Role required: sn\_cmdb\_editor, asset, or itil \(In general, the roles required to update a CI\)
 
 ## About this task
 
@@ -73,19 +73,17 @@ For information about CI reclassification by the Identification and Reconciliati
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
-[Create a CI class]()
+[Principal Class]()
 
-[Delete CIs]()
+[Dependent CIs management]()
+
+[Create a CI class]()
 
 [View and edit class definitions and metadata]()
 
-[Principal Class]()
-
-[Update the list of classes in the Principal Class filter]()
+[Delete CIs]()
 

@@ -7,14 +7,20 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring signatories in Contract template using Microsoft Word add-in, Add document content controls using Microsoft Word add-in for ServiceNow Contracts, Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure signatories, Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add and configure signature blocks using Microsoft Word add-in for ServiceNow Contracts
 
 Add and configure signature blocks in contract templates to define signatories, placeholders for signatures, and other metadata in the contract document. Signature blocks are automatically added in the contract document based on the number of signatories specified in the contract request.
+
+## About this task
+
+The following video walks you through the process of adding signature blocks using Microsoft Word add-in for ServiceNow Contracts.
+
+\[Omitted video\] Description: The video walks you through the process of adding signature blocks using Microsoft Word add-in for ServiceNow Contracts.
 
 ## Before you begin
 
@@ -38,6 +44,8 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 5.  In the **Signatory** tab, select **Add signatory**.
 
+    \[Omitted image "cmprowaddin-add-signblk.png"\] Alt text: Use ServiceNow Contracts add-in to add signatory block
+
 6.  In the Signatory type section, set the signature type as internal or external, and select **Next**.
 
     **Note:** You can create one internal signature block and one external signature block.
@@ -52,11 +60,17 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 8.  Insert the items you want to display in the signature block.
 
-    When adding content controls for a signature block, set the font color of the content control tags to match the document’s background color.
-
     1.  Place the cursor within the signature block.
 
-    2.  Select the tag for the metadata you want to add.
+    2.  Add placeholder text at the locations where you want to place the content controls.
+
+        \[Omitted image "cmpro-waddin-sigblock.png"\] Alt text: Add placeholder text for the signature content control
+
+    3.  Set the font color of the placeholder text to match the document’s background color.
+
+    4.  Select the tag for the metadata you want to add.
+
+        \[Omitted image "cmpro-sign-blk-select-ccntrl.png"\] Alt text: Use ServiceNow Contracts add-in to add signatory block
 
         You can add the following metadata:
 
@@ -65,9 +79,12 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
         -   Title
         -   Date
         -   Email
+        -   Initials
 9.  Select **Complete**.
 
-    The signatory fields—such as Name, Title, and Email—are not pre-filled in the contract document before it is sent for signature. These fields will be populated by the electronic signature provider when the signatory access the document to sign it.
+    \[Omitted image "cmpro-waddin-signblk-result.png"\] Alt text: Signatory block added using ServiceNow Contracts add-in
+
+    The signatory fields—such as Name, Title, and Email—are not pre-filled in the contract document before it is sent for signature. These fields will be populated by the electronic signature provider when the signatory accesses the document to sign it.
 
 10. View the signatory details by navigating to the **Template Mappings** related list of the Contract template form.
 

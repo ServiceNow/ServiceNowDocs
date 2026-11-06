@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-12-07"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Configure, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -45,7 +45,7 @@ Role required: admin
 
     On the form, fill in the information.
 
-    \[Omitted image "image.Reservable-module-table"\] Alt text: Reseravable Table Configuration form.
+    \[Omitted image "Reservable-module-table.png"\] Alt text: Reseravable Table Configuration form.
 
 <table id="table_zkf_5wr_wfc"><thead><tr><th>
 
@@ -225,5 +225,5 @@ Option to specify the status of the reservation shown on the employee's calendar
     For more information, see [Make workplace reservations on the kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/rsv-space-kiosk-map.md).
 
 
-**Parent Topic:**[Configure Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
+**Parent Topic:**[Configuring Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/configure-workplace-services-kiosk.md)
 

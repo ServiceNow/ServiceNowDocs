@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring Field Service Quality Management
@@ -23,7 +23,7 @@ Field Service Quality Management allows organizations to review work order tasks
 
 [Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/review-send-task-back.md)
 
-[Respond to a reviewed task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/close-wo-wot-mobile.md)
+[Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/close-wo-wot-mobile.md)
 
 [Field Service Quality Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/quality-mgmt-components.md)
 

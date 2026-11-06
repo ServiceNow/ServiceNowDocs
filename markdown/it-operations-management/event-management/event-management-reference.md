@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management reference
@@ -28,14 +28,14 @@ Fields in the dialog box for editing a Performance Analytics dashboard widget.
 Fields in the form for creating or modifying a MID Web Server extension.
 -   **[Event Management tag based alert clustering tag form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/tag-based-alert-clustering-tag-form.md)**  
 The form for creating or modifying a tag based alert clustering tag displays detailed information about the tag.
--   **[List of predefined alert clustering tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-clustering-predefined-tag-list.md)**  
+-   **[List of predefined alert grouping tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-clustering-predefined-tag-list.md)**  
 A list of the predefined alert clustering tags provided with the Tag Based Alert Clustering Engine  application.
--   **[Event Management tag based alert clustering definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/tag-based-alert-clustering-definition-form.md)**  
+-   **[Event Management tag based alert grouping definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/tag-based-alert-clustering-definition-form.md)**  
 The form for creating or modifying a tag based alert clustering definition displays detailed information about the definition.
--   **[List of predefined tag-based alert clustering definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-clustering-predefined-definition-list.md)**  
+-   **[List of predefined tag-based alert grouping definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-clustering-predefined-definition-list.md)**  
 A list of the predefined alert clustering definitions provided with the Tag Based Alert Clustering Engine  application.
 -   **[Domain properties installed with Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/installed-domain-properties.md)**  
-Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain for event creation.
+Use the domain properties installed with Event Management to provide metadata that identifies the appropriate domain table for event creation.
 -   **[Connector domain metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/connector-domain-metadata.md)**  
 Override push connector default domain metadata values installed with Event Management with the values in the event HTTP request, including the URL, headers, request body \(payload\), and connector parameters. Override pull connector domain metadata values with connector parameters only.
 -   **[Dynatrace connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/dynatrace-connector-instance-form.md)**  
@@ -54,12 +54,12 @@ The Zabbix connector instance form displays the fields you must fill in when cre
 The following table displays the Zabbix connector instance value parameters that you can fill in, as needed, when creating a Zabbix connector instance.
 -   **[SCOM connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/scom-connector-instance-form.md)**  
 The SCOM connector instance form displays the fields you must fill in when creating a SCOM connector instance.
--   **[Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-properties-em.md)**  
-Several system properties enable you to customize an event forwarding job.
--   **[Solarwinds connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/solarwinds-connector-instance-value-parameters.md)**  
-The following table displays the Solarwinds connector instance value parameters that you can fill in, as needed, when creating a Solarwinds connector instance.
 -   **[Solarwinds connector instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/solarwinds-connector-instance-form.md)**  
 The Solarwinds connector instance form displays the fields you must fill in when creating a Solarwinds connector instance.
+-   **[Solarwinds connector instance value parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/solarwinds-connector-instance-value-parameters.md)**  
+The following table displays the Solarwinds connector instance value parameters that you can fill in, as needed, when creating a Solarwinds connector instance.
+-   **[Event forwarding properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-properties-em.md)**  
+Several system properties enable you to customize an event forwarding job.
 -   **[Team-based integration properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/team-based-integrations-properties.md)**  
 Team-based integration system properties enable you to customize the assignment group functionality for existing and new customers for event rules and event field mapping.
 -   **[Alert Query form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-query-form.md)**  

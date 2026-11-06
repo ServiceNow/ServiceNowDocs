@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [MID Server configuration for Service Mapping, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -52,7 +52,7 @@ By default, Service Mapping uses the legacy algorithm in all deployments upgrade
 
     3.  Configure MID Server selection criteria as described in [MID Server configuration for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/configure-mid-service-mapping.md).
 
-3.  To enable the legacy algorithm for the Yokohama deployment:
+3.  To enable the legacy algorithm for the Brazil deployment:
 
     1.  Select the **Enable Legacy MID selection algorithm** check box.
 

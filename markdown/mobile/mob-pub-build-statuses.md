@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mob-pub-build-statuses.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mobile Publishing build statuses

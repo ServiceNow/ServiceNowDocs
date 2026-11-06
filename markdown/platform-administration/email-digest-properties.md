@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-digest-properties.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email properties, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email digest properties
@@ -53,9 +53,9 @@ The maximum number of email digest intervals that can be defined. -   **Type**: 
 **Related topics**  
 
 
-[Outbound mail configuration]()
+[Outbound email configuration]()
 
-[Inbound mail configuration]()
+[Inbound email configuration]()
 
 [Email image filtering properties]()
 

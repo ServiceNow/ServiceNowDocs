@@ -7,8 +7,8 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Operational Technology Manager, Operational Technology]
 ---
 
@@ -70,7 +70,7 @@ Upload your Operational Technology data to the Configuration Management Database
 
 </td><td>
 
-Discover Operational Technology \(OT\) devices in the designated Purdue levels in your Industrial Control System \(ICS\) networks.For more information about Discovery for Operational Technology, see [IT Discovery for OT Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/discovery-for-operational-technology.md).
+Discover Operational Technology \(OT\) devices in the designated Purdue levels in your Industrial Control System \(ICS\) networks.For more information about Discovery for Operational Technology, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/discovery-for-operational-technology.md).
 
 </td></tr><tr><td>
 
@@ -91,14 +91,16 @@ Edit or view detailed information for the OT devices in your enterprise, after y
 </td></tr></tbody>
 </table>-   **[Implementing the CSDM framework for Operational Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/ot-use-case-product-view.md)**  
 Following the CSDM framework ensures that you meet your primary goal of consistent accuracy in reporting and analytics so that you can effectively manage your Operational Technology \(OT\) environment.
+-   **[Configuring the OT Manager Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/configuring-na-otm.md)**  
+Configure the features and agentic workflows available for the Operational Technology \(OT\) Manager Foundation.
 -   **[Operational Technology \(OT\) extension classes installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/install-operation-technology-ot-extension-classes.md)**  
 You must install the Operational Technology \(OT\) extension classes that are the foundation of the Operational Technology Manager.
 -   **[Install Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/install-operational-technology-manager.md)**  
 If you have the admin role, you can install the Operational Technology Manager application. The application includes demo data and installs that are related ServiceNow® Store applications and plugins, if they are not already installed.
--   **[Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md)**  
-The Operational Technology Manager plugin installs the following script includes.
 -   **[Assign Operational Technology Manager roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/assign-operational-technology-manager-roles.md)**  
 Assign roles to your users so that you can control their access to the features, capabilities, and data in the Operational Technology Manager application.
+-   **[Script includes installed with Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/script_includes_installed_with_operational_technology_manager.md)**  
+The Operational Technology Manager plugin installs the following script includes.
 
 **Parent Topic:**[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/operational-technology-manager.md)
 

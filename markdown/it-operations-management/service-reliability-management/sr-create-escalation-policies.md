@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with SRM teams, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Set up escalation policies for your team in SRM
@@ -22,7 +22,7 @@ Before creating an escalation policy, you must create an on-call shift for your 
 
 **Note:** Only the responder who created the team or the manager of the team can set up an escalation policy for that team.
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## About this task
 
@@ -38,7 +38,7 @@ An escalation policy is a set of guidelines that outlines how and when incidents
 
     **Note:** If you use other Service Operations Workspace \(SOW\) applications, you may see the SOW Home page instead of the SRM Home page. The SOW Home page includes SRM alerts and incidents in its metrics.
 
-2.  From the primary navigation, select the **Teams** icon \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
+2.  From the primary navigation, select **Teams** \(\[Omitted image "icon-sr-teams.png"\] Alt text: Teams.\).
 
 3.  Select the **Escalation triggers and policies** tab.
 
@@ -58,7 +58,7 @@ An escalation policy is a set of guidelines that outlines how and when incidents
 
 
 -   **[Create an escalation trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-trigger-escalation-policy.md)**  
-Define conditions that trigger a team's escalation policy in Service Reliability Management \(SRM\).
+To address issues promptly, define the conditions that trigger a team's escalation policy in Service Reliability Management \(SRM\).
 
 **Parent Topic:**[Working with SRM teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-teams.md)
 

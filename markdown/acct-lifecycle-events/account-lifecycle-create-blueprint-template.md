@@ -1,62 +1,66 @@
 ---
-title: Create a success blueprint template
-description: Create a success blueprint template with predefined success objectives and outcomes.
+title: Define a success blueprint template
+description: Create a success blueprint template with predefined success objectives and outcomes for a product model that helps your organization scale its customer success operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-blueprint-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Success blueprints, Customer success, Configure, Customer Success Management]
 ---
 
-# Create a success blueprint template
+# Define a success blueprint template
 
-Create a success blueprint template with predefined success objectives and outcomes.
+Create a success blueprint template with predefined success objectives and outcomes for a product model that helps your organization scale its customer success operations.
 
 ## Before you begin
 
 -   Role required: sn\_acct\_lc.success\_template\_owner, sn\_acct\_lc.success\_template\_approver
 -   The **sn\_acct\_lc.enableApprovalForSuccessTemplate** system property must be set to **True**.
 
+## About this task
+
+A success blueprint template defines a reusable set of objectives and outcomes for a specific product. After a template is published, customer success managers can apply it when creating success blueprints for an engagement. See [Create a success blueprint from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-blueprint.md) for details.
+
 ## Procedure
 
-1.  Login as a user with the template owner \( sn\_acct\_lc.success\_template\_owner\) role.
+1.  Login as a user with the template owner \(sn\_acct\_lc.success\_template\_owner\) role.
 
-2.  Navigate to **All** &gt; **Customer Success** &gt; **Success Objective Templates**.
+2.  Navigate to **All** &gt; **Customer Success Management** &gt; **Success Objective Templates** and select **New**.
 
-3.  Enter a name and title for the template.
+3.  Enter a title and description for the template.
 
-4.  In the Product drop down list, from the CMDB model list, select the product for this success objective will be applicable.
+4.  In the Product drop down list, select the product for which this success objective will be applicable.
 
 5.  In the Objective Framework section, you can do the following:
 
-    -   Select the `Mandatory` checkbox to set this as a mandatory objective for your engagement.
-    -   Click the \[Omitted image "icon-lock.png"\] Alt text: icon next to the Driver field to add the key drivers for this template. The drivers you select will be used to calculate the health and risk score for the associated product.
-    **Note:** If a success objective is marked as mandatory, it will be automatically be selected when you create an engagement for the associated product.
+    -   Select the `Mandatory` check box to set this as a required objective for this product model.
+    -   Select the \[Omitted image "icon-lock.png"\] Alt text: icon next to the Driver field to add the key drivers for this template.
+    **Note:** If a success objective is marked as required, it’s automatically be selected when you create an engagement for the associated product.
 
-6.  Click **Save**.
+6.  Select **Save**.
 
     The next step is to create a success outcome template.
 
-7.  Navigate to the **Success Outcome Templates** related list and click **New**.
+7.  Navigate to the **Success Outcome Templates** related list and select **New**.
 
 8.  Enter a title and description for the outcome template.
 
 9.  In the Outcome Measurement section, you can specify the following:
 
-    -   Tracking method: Select `Metric` or `Manual` from the drop down list.
+    -   Tracking method: Select `Metric` or `Manual` from the drop-down list.
     -   Units: Select the measurement unit for this outcome.
-    -   Mandatory: Select the `Mandatory` checkbox to set this as a mandatory outcome for your engagement.
-10. Click **Save** the success outcome template.
+    -   Mandatory: Select the `Mandatory` check box to set this as a required outcome for your engagement.
+10. Select **Save** the success outcome template.
 
-    -   You can modify the template and make changes if it is in a `Draft` state. After you have made the changes, click **Update** to update and save the changes.
+    -   You can modify the template and change if it is in a `Draft` state. After you have made the changes, select **Update** to update and save the changes.
     -   You can follow this process to add multiple success outcome templates.
-11. Click **Publish** to publish the success outcome template and click **Update**.
+11. Select **Publish** to publish the success outcome template and select **Update**.
 
-    -   You cannot modify a success outcome template that is in the `Published` State.
-    -   Click **Cancel** to cancel a success outcome template that has not been approved. You will see a message indicating that all associated tasks will be canceled and any progress is lost. Click **Yes** if you no longer want to use this template.
-12. After you have created and published all the success outcome templates, click **Request for approval**.
+    -   You can’t modify a success outcome template that is in the `Published` State.
+    -   Select **Delete** to cancel a success outcome template that hasn’t been approved. Select **Yes** if you no longer want to use this template.
+12. After you have created and published all the success outcome templates, select **Request for approval**.
 
     \[Omitted image "account-lifecycle-success-obj-temp.png"\] Alt text: Success Objective Template
 
@@ -80,14 +84,30 @@ To approve a success blueprint template request, follow these steps:
 
     \[Omitted image "account-lifecycle-success-obj-temp-appr.png"\] Alt text: Success Objective Template - Approve
 
-4.  Click **Approve** to approve the template. The State is updated to `Approved`.
+4.  Select **Approve** to approve the template. The State is changed to `Approved`.
 
-    If you don't want to approve the template, you can click **Cancel** or **Reject** to cancel the process. The State is updated to `Draft` if canceled or rejected.
+    If you don't want to approve the template, you can select **Cancel** or **Reject** to cancel the process. The State is changed to `Draft` if canceled or rejected. The user with template approver role can only approve or reject the template.
 
-5.  After the template has been approved, click **Publish** to publish the template.
+5.  After the template has been approved, select **Publish** to publish the template.
 
     **Note:**
 
     -   After a template has been published, it can longer be modified.
-    -   Click **Retire** to retire a template. A retired template can no longer be used to define objectives and outcomes for an engagement.
+    -   Select **Retire** to retire a template. A retired template can no longer be used to define objectives and outcomes for an engagement.
+
+The Success outcome record page shows metric and tracking method.
+
+In the decision table, success outcome template is mapped to success initiative creation subflow to automate the success initiative creation.
+
+To configure the success initiatives decision table, follow these steps:
+
+1.  Navigate to **All** &gt; **Decision Management** &gt; **Decision Builder**.
+2.  Select the **Success Initiative Blueprints** decision table.
+3.  In the Success initiative creation subflow column, add multiple subflows for the Success outcome template.
+
+    \[Omitted image "ale-success-initiative-blueprints.png"\] Alt text: Success Initiative Blueprints.
+
+4.  Select **Save**.
+
+**Parent Topic:**[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)
 

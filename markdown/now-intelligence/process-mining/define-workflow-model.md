@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Create a project or template using Project Builder
@@ -18,7 +18,7 @@ Create and mine a project using the Project Builder to analyze and optimize your
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 To mine a project, ensure that you have enabled [Audit Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_EnableAuditingForATable.md) for the parent table of the project.
 
@@ -32,13 +32,11 @@ To mine a project, ensure that you have enabled [Audit Log](https://raw.githubus
 
     \[Omitted image "set-obj.png"\] Alt text: Project setup page
 
+    Select **Manage templates** to create or map templates. For more information, see [Create a Process Mining template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-template.md) and [Map a template to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/map_template_to_table.md).
 
-## What to do next
 
-Perform the following steps.
-
--   **[Set objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-objectives.md)**  
-Define the kind of data or process that you want to view and analyse in your graph. You must select a specific table \(parent table\) that has the data that you want to analyse.
+-   **[Set objectives for Process Mining projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/set-objectives.md)**  
+Define the kind of data or process that you want to view and analyze in your graph. You must select a specific table \(parent table\) that has the data that you want to analyze.
 -   **[Scoping your analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/scope-analysis.md)**  
 Define the data that you want to view in the graph.
 -   **[Set improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/improve-opportunities.md)**  

@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use article versioning, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,4 +44,6 @@ When you check out an article, attachments from the article's base version are c
 
     The new version of the article is added to the Knowledge list and to the **Article Versions** related list on the Knowledge form.
 
+
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

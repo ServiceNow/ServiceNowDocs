@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Applying CSDM guidelines to Change Management, Configure, Change Management, IT Service Management]
 ---
@@ -28,16 +28,16 @@ Configuration items \(CIs\) tables \[cmdb\_ci\_\*\]:
 
 The following figure highlights the CSDM tables managed by Change Management.
 
-\[Omitted image "change-mgmt-elements-1.png"\] Alt text: CSDM elements in Change Management.
+\[Omitted image "csdm-v5-tables-mngd-by-change-mgmt.png"\] Alt text: CSDM elements in Change Management.
 
 ## CSDM tables used by Change Management
 
-1.  Application Service table \[cmdb\_ci\_service\_discovered\] or any infrastructure CI.
+1.  Service instance table \[cmdb\_ci\_discovered\_service\] \(the table was formerly labeled application service\) or any infrastructure CI.
 2.  Configuration Item tables \[cmdb\_ci\*\]
 3.  Business Service \[cmdb\_ci\_service\_business\] table and Technology Management Service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\): Uses the service classification attribute to identify business services, technical services, and application services as types of services.
 4.  Service Offering \[service\_offering\] table: Uses the service classification attribute to identify business services, Technology Management Offerings \(formerly Technical service offerings\), and application services as types of service offerings.
 
-\[Omitted image "change-mgmt-elements-2.png"\] Alt text: CSDM elements used by Change Management.
+\[Omitted image "csdm-v5-tables-used-by-change-mgmt.png"\] Alt text: CSDM elements used by Change Management.
 
 ## Products that add value to Change Management
 
@@ -54,7 +54,7 @@ When you use Change Management with other ServiceNow products, you increase the 
 
 ## Products that benefit from Change Management
 
--   **Service Portfolio Management \(Service Portfolio Management\)**
+-   **Service Portfolio Management \(\)**
 
     Services have the context of the business and applications, along with the information and technologies that underpin them.
 

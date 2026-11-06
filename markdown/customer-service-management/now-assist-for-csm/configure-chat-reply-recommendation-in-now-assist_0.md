@@ -1,20 +1,20 @@
 ---
 title: Configure chat recommendation
-description: Use the guided setup in the Now Assist Admin console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
+description: Use the guided setup in the AI Admin Hub console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/configure-chat-reply-recommendation-in-now-assist\_0.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Activate Now Assist Skills, Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Activate ServiceNow Otto Skills, Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Configure chat recommendation
 
-Use the guided setup in the Now Assist Admin console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
+Use the guided setup in the AI Admin Hub console to configure chat recommendation by defining triggers, specifying inputs, setting the display location, and activating the feature.
 
 \[Omitted video\] Description: Configure chat recommendation skill
 
@@ -29,9 +29,9 @@ Using the chat recommendation skill, you have the options to:
 
 ## Procedure
 
-1.  Navigate to **All &gt; Now Assist Admin &gt; Skills**.
+1.  Navigate to **All &gt; AI Admin Hub&gt; AI Skills**.
 
-    If you’re already in the AI Admin Hub, select the Now Assist Skills tab.
+    If you're already in the AI Admin Hub, select the AI Skills tab.
 
 2.  On the navigation panel, select **Customer**.
 
@@ -45,19 +45,21 @@ Using the chat recommendation skill, you have the options to:
 
 5.  Go to **Define Triggers**, the first step in the guided setup.
 
-    By default, many of the options in the setup are configured for the most common use cases. You might need to select the step in the guided setup navigation to go back and change the configurations in previous steps. You can also use Back to navigate through the steps.
+    By default, many of the options in the setup are configured for the most common use cases. You select the step in the guided setup navigation to go back and change the configurations in previous steps. You can also use Back to navigate through the steps.
 
-6.  Using the toggles, select the actions trigger for the Chat Recommendation skill.
+6.  Using the toggles, select the triggers that determine when a chat recommendation is generated.
 
-7.  Select **Choose Input** and review the portal and channel selections that determines where data is pulled from.
+    User triggered: When the agent manually triggers the skill to recommend a response.
 
-    **Note:** You cannot modify or deselect default skill input data sources.
+7.  Select **Choose Input** and review the portal and channel selections that determine where data is pulled from.
 
-8.  Select any additional data sources that you want the Large Language Model \(LLM\) to take into account when generating a recommendation.
+    **Note:** You can't modify or deselect default skill input data sources.
 
-9.  Select a portal for the data source to allow chat recommendation to be generated for the conversation occurring on that portal.
+8.  Select any additional data sources that you want the Large language model \(LLM\) to take into account when generating a recommendation.
 
-    This is a mandatory step. The admin must specify a portal and enable a specific channel on the Choose Input page to enable the skill for chats sent in the selected portal or channel. Otherwise, the agent will receive an error message: “Chat summaries won’t appear until your IT administrator completes all the required steps involved in the setup".
+9.  Select a portal for the data source for chat recommendation to be generated for the conversation occurring on that portal.
+
+    This is a mandatory step. Specify a portal and enable a specific channel on the Choose Input page. This enables the skill for chats sent in the selected portal or channel.
 
 10. Select **Define Availability** to customize how and when the skill capability will exist and be available.
 
@@ -69,20 +71,18 @@ Using the chat recommendation skill, you have the options to:
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_esm\_agent will automatically appear in **Define Access** and **Select Display**.
-    -   If custom roles were added before the upgrade, they’ll be updated automatically by a script.
-    -   If new roles are created after the upgrade, you’ll need to manually add them in both the **Define Access** and **Select Display**.
+    -   If no changes are made, the default role sn\_customerservice\_agent or sn\_customerservice.consumer\_agent will automatically appear in **Define Access** and **Select Display**.
+    -   If custom roles were added before the upgrade, they are updated automatically by a script.
+    -   If new roles are created after the upgrade, you must manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 12. Go to **Select display**, the last step, and select where you would like to display the skill.
 
-    You can select both in-product, Now Assist panel, or both.
+    **Note:** Chat recommendation is not available in the panel.
 
-    **Note:** Chat recommendation is not available in the Now Assist panel.
-
-    -   **In-product desktop**: When selected, Now Assist skills are displayed on forms and workspaces.
-    -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel. Select the down arrow to identify the roles that can use the skill. Select the arrow next to toggle, to select roles who can access the skill. You can add roles by entering the name of the role in the **User roles** field. You can remove existing roles by selecting the X icon in the role bubble. You must have at least one role specified, but you can add as many roles as you like.
+    -   **In-product desktop**: When selected, AI skills are displayed on forms and workspaces.
+    -   **ServiceNow Otto panel**: When selected, AI skills are available in the panel. Select the down arrow to identify the roles that can use the skill. You can add roles by entering the name of the role in the **User roles** field. You can remove existing roles by selecting the X icon in the role bubble. You must have at least one role specified, but you can add as many roles as you like.
 13. Review your choices and complete the configuration by selecting **Activate**.
 
 

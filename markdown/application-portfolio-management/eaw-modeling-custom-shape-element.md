@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-custom-shape-element.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Custom shapes support in the Enterprise Modeling and Visualization, Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with custom shapes, Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a shape library element for a custom shape
@@ -41,5 +41,16 @@ Role required: sn\_apm.apm\_admin
 9.  Select **Save**.
 
 
-**Parent Topic:**[Custom shapes support in the Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shapes.md)
+**Parent Topic:**[Working with custom shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-working-custom-shapes.md)
+
+**Related topics**  
+
+
+[Custom shapes example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-custom-shape-example.md)
+
+[Add a custom shape library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-custom-shape-library.md)
+
+[Create a diagram action for a custom shape](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-action-custom-shape.md)
+
+[Storing shapes or images to the database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-store-image-databse.md)
 

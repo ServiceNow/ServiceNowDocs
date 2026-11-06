@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-04-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Creating custom lists on Workplace Central, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Creating custom lists on Workplace Central, Use, Workplace Central,
 # Create a custom list based on a system table
 
 Create a custom list on Workplace Central based on a system table.
+
+## About this task
+
+The following video explains how to create a custom list based on a system table:\[Omitted video\] Description: Create and customize a new list in Workplace Central
 
 ## Before you begin
 
@@ -71,15 +75,15 @@ Columns that are picked from the selected system table and displayed on the cust
 </td></tr></tbody>
 </table>6.  In the Add filters section, use the following options to filter and sort the records in your custom list.
 
-<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d320960e196">
+<table id="choicetable_gj5_lfs_z2c"><thead><tr><th align="left" id="d344534e209">
 
 Option
 
-</th><th align="left" id="d320960e199">
+</th><th align="left" id="d344534e212">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d320960e205">
+</th></tr></thead><tbody><tr><td id="d344534e218">
 
 **Use existing filter**
 
@@ -87,7 +91,7 @@ Description
 
 Use an existing filter that is available with the selected Workplace Central list.
 
-</td></tr><tr><td id="d320960e217">
+</td></tr><tr><td id="d344534e230">
 
 **Save filter**
 
@@ -95,7 +99,7 @@ Use an existing filter that is available with the selected Workplace Central lis
 
 Save the current filter criteria.You can use saved filters for other custom lists. You can also grant permissions to other users to use the filter for their custom lists.
 
-</td></tr><tr><td id="d320960e228">
+</td></tr><tr><td id="d344534e241">
 
 **Refresh \(Update count\)**
 
@@ -103,7 +107,7 @@ Save the current filter criteria.You can use saved filters for other custom list
 
 Update the number of records based on the current filter criteria.
 
-</td></tr><tr><td id="d320960e237">
+</td></tr><tr><td id="d344534e250">
 
 **Editor**
 
@@ -111,7 +115,7 @@ Update the number of records based on the current filter criteria.
 
 Create condition sets for the filter criteria.
 
-</td></tr><tr><td id="d320960e247">
+</td></tr><tr><td id="d344534e260">
 
 **Sort by**
 

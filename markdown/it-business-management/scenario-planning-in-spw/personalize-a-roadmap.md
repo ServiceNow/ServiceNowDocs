@@ -1,5 +1,5 @@
 ---
-title: Personalize your roadmap Timeline view in Strategic Planning Workspace
+title: Personalize roadmap Timeline view
 description: Customize the way that your roadmap is displayed in the Timeline view. Group the roadmap items, color them by a category, add numerical data points, and display milestones and dependencies to analyze your roadmap efficiently and take informed decisions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/personalize-a-roadmap.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Personalize your roadmap Timeline view in Strategic Planning Workspace
+# Personalize roadmap Timeline view
 
 Customize the way that your roadmap is displayed in the Timeline view. Group the roadmap items, color them by a category, add numerical data points, and display milestones and dependencies to analyze your roadmap efficiently and take informed decisions.
 
@@ -30,15 +30,15 @@ Any settings that you apply here are saved as preferences per roadmap. All users
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d260632e76">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d332731e79">
 
 Roadmap type
 
-</th><th align="left" id="d260632e79">
+</th><th align="left" id="d332731e82">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d260632e85">
+</th></tr></thead><tbody><tr><td id="d332731e88">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d260632e106">
+</td></tr><tr><td id="d332731e109">
 
 **Free-form roadmap**
 

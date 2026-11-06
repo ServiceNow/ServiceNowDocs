@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Total Cost of Ownership of assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure the Total Cost of Ownership of assets, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a task rate card in Hardware Asset Workspace

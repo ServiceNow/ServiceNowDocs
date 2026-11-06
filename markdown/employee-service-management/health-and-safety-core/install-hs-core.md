@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure settings, Health and Safety Core, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
 
 # Install Health and Safety Core
@@ -96,7 +96,7 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
@@ -106,15 +106,13 @@ Installs Learning Core to enable learning content in Health and Safety actions.F
 **Related topics**  
 
 
-[Set up your workplace location data]()
+[Workplace location data]()
 
 [Enable a Health and Safety table for configuring report field mapping]()
 
 [Create a safety report field mapping for generating reports]()
 
 [Configure groups for Health and Safety]()
-
-[Configure scheduled job to generate frequency rates]()
 
 [Assign Health and Safety profile to a user]()
 

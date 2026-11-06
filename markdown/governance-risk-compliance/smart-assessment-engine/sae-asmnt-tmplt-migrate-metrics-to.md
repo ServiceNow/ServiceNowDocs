@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating an assessment template from legacy assessment metric types, Configure, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -64,7 +64,7 @@ Purpose
 
 Purpose that the new assessment template should be a member of. For example, Risk, Performance, Security, Personal data, and so on.
 
- Template categories that enforce the data segregation for templates. A category controls which users can view a template. Each assessment template is associated with one or more template categories. To view a template in a category, you must have a category role that is associated with the category.
+ Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
  By default, newly defined template categories are active.
 

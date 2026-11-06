@@ -1,20 +1,20 @@
 ---
 title: Workflow configuration
-description: Define workflow, framework, regulation, and its associated versions, impacts, and view rules. CAM ships National Institute of Standards and Technology \(NIST\) workflow configuration by default, but you can create additional workflows for other frameworks such as Protective Security Policy Framework \(PSPF\) or custom internal frameworks.
+description: Define workflow, framework, regulation, and its associated versions, impacts, and view rules. CAM ships National Institute of Standards and Technology \(NIST\) workflow configuration by default. However, you can create additional workflows for other frameworks such as Protective Security Policy Framework \(PSPF\) or custom internal frameworks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/continuous-risk-monitoring/work-configuration.html
 release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Workflow configuration
 
-Define workflow, framework, regulation, and its associated versions, impacts, and view rules. CAM ships National Institute of Standards and Technology \(NIST\) workflow configuration by default, but you can create additional workflows for other frameworks such as Protective Security Policy Framework \(PSPF\) or custom internal frameworks.
+Define workflow, framework, regulation, and its associated versions, impacts, and view rules. CAM ships National Institute of Standards and Technology \(NIST\) workflow configuration by default. However, you can create additional workflows for other frameworks such as Protective Security Policy Framework \(PSPF\) or custom internal frameworks.
 
 ## Before you begin
 

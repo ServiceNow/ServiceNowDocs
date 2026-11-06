@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2026-05-25"
-reading_time_minutes: 3
-breadcrumb: [Talent Development Core, Talent Development, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrate with the Talent Development Core application
@@ -66,5 +66,5 @@ There are several applications developed to extend and improve your experience w
     Opportunity Marketplace enhances career mobility. It provides employees an intuitive experience to explore career opportunities. Customizable match preferences are seamlessly integrated with your Applicant Tracking System \(ATS\) to enhance employee engagement with transparent and efficient career development.
 
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

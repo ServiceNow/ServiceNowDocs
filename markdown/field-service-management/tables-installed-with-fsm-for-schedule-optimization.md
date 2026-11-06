@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/tables-installed-with-fsm-for-schedule-optimization.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Schedule Optimization components, Field Service Management reference, Field Service Management]
+breadcrumb: [Schedule Optimization components, Reference, Field Service Management]
 ---
 
 # Tables installed with FSM for Schedule Optimization
@@ -52,4 +52,11 @@ Relates a group or territory to an intraday job
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-components.md)
+
+**Related topics**  
+
+
+[Optimizing technician schedules at set intervals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md)
+
+[Configure intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/configure-intraday-optimization.md)
 

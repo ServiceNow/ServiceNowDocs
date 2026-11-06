@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up and configure CMDB Health, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a CMDB Health staleness rule
@@ -18,7 +18,7 @@ If the staleness metric is in effect, then staleness rules are used to determine
 
 ## Before you begin
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access.
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
 ## About this task
 
@@ -69,5 +69,5 @@ The time period that is used for the staleness test.If the CI was not updated \(
 **Related topics**  
 
 
-[CMDB Health Dashboard for Helsinki \| Overview](https://youtu.be/CvMRT3NExIo)
+[CMDB Health Dashboard overview](https://www.youtube.com/watch?v=aPHxWoVdD1c)
 

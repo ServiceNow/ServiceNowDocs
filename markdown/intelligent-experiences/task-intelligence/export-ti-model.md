@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence
 classification: task-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Enable AI experiences]
+breadcrumb: [Manage machine learning models with Task Intelligence, Task Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Export a Task Intelligence model
@@ -41,5 +41,5 @@ The XML file downloads to your browser.
 
 ## What to do next
 
-You can use the XML file to easily transfer the model to another instance using update sets. To learn more, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md).
+You can use the XML file to easily transfer the model to another instance using update sets. To learn more, see System update sets.
 

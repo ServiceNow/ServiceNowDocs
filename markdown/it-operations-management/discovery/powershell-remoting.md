@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [PowerShell for Discovery and Service Mapping, Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [PowerShell for Discovery and Service Mapping, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # PowerShell remoting for Discovery
@@ -21,8 +21,8 @@ Probe developers can use the PowerShell remote execution framework to automatica
 To use PowerShell remote execution framework, the following requirements must be met:
 
 -   The MID Server must be able to write to and read from the network share of the target.
--   The remote target must have PowerShell 3 or higher \(up to 5.1\).
--   For MID Servers using WinRM or WMI which choose to copy the script to the remote target, the MachinePolicy and UserPolicy scopes must be set to Undefined. If the script is not copied, the execution policy can be any other setting up to Restrictive.
+-   The remote target must have PowerShell 3 or higher \(up to 7\).
+-   For MID Servers using WinRM or WMI that choose to copy the script to the remote target, the MachinePolicy and UserPolicy scopes must be set to Undefined. If the script isn’t copied, the execution policy can be any other setting up to Restrictive.
 
 See [Set up MID Servers to use PowerShell](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_SetUpAMIDServerToUsePowerShell.md) for more information.
 

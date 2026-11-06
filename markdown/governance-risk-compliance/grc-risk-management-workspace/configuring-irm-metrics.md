@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -49,7 +49,7 @@ Update a metric to add goals, metric data, and targets. Associate citations to t
 -   **[Update a manually created metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/t_update-manual-metric.md)**  
 Update a manually created manual metric to add goals, metric data, and targets. Associate citations to the metric.
 -   **[Create a threshold for a metric definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/t_create-threshold-for-metrics.md)**  
-Evaluate the performance of your quantitative metric definition by defining threshold for your metric definitions.
+Evaluate the performance of your quantitative metric definition by defining a threshold for your metric definitions.
 -   **[Copy thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/copy-thresholds-irm.md)**  
 Copy existing thresholds to quickly create similar threshold configurations for the same metric or metric definition.
 -   **[Customize threshold colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/customize-threshold-colors-irm.md)**  

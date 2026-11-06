@@ -7,9 +7,9 @@ release: yokohama
 product: Currency Administration
 classification: currency-administration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring currency administration, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Explore, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Standard currency fields

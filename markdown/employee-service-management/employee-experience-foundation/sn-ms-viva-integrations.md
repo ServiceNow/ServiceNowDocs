@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center for Microsoft Viva Connections
@@ -119,19 +119,29 @@ Microsoft SharePoint administrator
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Integrate\[Omitted image "icon-integrate.png"\] Alt text: IntegrateIntegrate your Viva experience with Microsoft Teams and Employee Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-viva.md)
+[IntegrateIntegrate your Viva experience with Microsoft Teams and Employee Center.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-viva.md)
 
 </td><td>
 
-[Configure\[Omitted image "icon-set-up.png"\] Alt text: ConfigurePlan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-viva.md)
+[ConfigurePlan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-viva.md)
 
 </td></tr><tr><td>
 
-[Manage\[Omitted image "icon-manage.png"\] Alt text: ManageManage app access to deploy the Viva connections card.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/manage-viva.md)
+[ManageManage app access to deploy the Viva connections card.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/manage-viva.md)
 
 </td><td>
 
-[Reference\[Omitted image "icon-reference.png"\] Alt text: UseReference content for Viva connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-viva.md)
+[ReferenceReference content for Viva connections.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-viva.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Integrating Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-viva.md)**  
+Integrate Employee Center with Microsoft Viva Connections to enable an employee experience that allows users to manage tasks and navigate to Employee Center from Microsoft Teams.
+-   **[Configuring Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-viva.md)**  
+Configure your ServiceNow instance and Microsoft Teams application to enable the ServiceNow card in the Microsoft Viva dashboard.
+-   **[Managing Employee Center for Microsoft Viva Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/manage-viva.md)**  
+Download and deploy the Microsoft Viva solution package.
+-   **[Employee Center for Microsoft Viva Connections reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-viva.md)**  
+Reference topics provide additional information about components and forms required for Employee Center for Microsoft Viva Connections integrations.
+
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-ec.md)
+

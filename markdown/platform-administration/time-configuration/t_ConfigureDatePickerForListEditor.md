@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Date and Date/Time fields, Exploring time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Date and Date/Time fields, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure the date picker for the list editor
@@ -24,36 +24,16 @@ Role required: admin
 
 1.  Navigate to `sys_properties.list`.
 
-2.  Search for the property named **glide.ui.list\_edit.show\_calendar\_only**.
+2.  Search for the property **glide.ui.list\_edit.show\_calendar\_only**.
 
 3.  Set the property **Value** to either of the following options.
 
-<table id="simpletable_kld_1xs_zs"><thead><tr><th>
+    |Value|Description|
+    |-----|-----------|
+    |false|Calendar as well as a field appears for a date picker for manual date entry.|
+    |true|Calendar only appears for a date picker, which is the default behavior in Core UI.|
 
-Value
 
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-false
-
-</td><td>
-
-Calendar as well as a field appears for a date picker for manual date entry.\[Omitted image "DatePickerFieldAndCalendar.png"\] Alt text: Date picker with field and calendar
-
-</td></tr><tr><td>
-
-true
-
-</td><td>
-
-Calendar only appears for a date picker, which is the default behavior in Core UI and UI15.\[Omitted image "DatePickerCalendarOnly.png"\] Alt text: Date picker with calendar only
-
-</td></tr></tbody>
-</table>
 **Parent Topic:**[Date and Date/Time fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/r_UseDateAndTimeFields.md)
 
 **Related topics**  

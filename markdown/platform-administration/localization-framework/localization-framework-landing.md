@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: reference
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Translation and localization, Configure core features, Administer t
 The ServiceNow® Localization Framework application standardizes and enhances the translation process of artifacts across the platform through configurable workflows. Such artifacts include ServiceNow® Service Catalog items, Virtual Agent topics, Natural Language Understanding models, and Document Templates of ServiceNow® HR Service Delivery.
 
 ## Get started
-
-**Note:** From the Yokohama Patch 3 release, Localization Workspace offers the most updated localization management experience. Localization Workspace is available with a Pro or Pro+ subscription. For more information, see [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace.md).
 
 <table id="table_zmk_3kf_3yb" class="nav-card"><tbody><tr><td>
 

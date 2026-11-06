@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-custom-redirection-from-db.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -38,7 +38,7 @@ Role required: ui\_builder\_admin
 
     \[Omitted image "db-turnoff-redirections.png"\] Alt text: Turning off default redirections.
 
-    You have turned off redirections. Clicking on a chart during runtime does not trigger any actions.
+    You have turned off redirections. Clicking on a visualization at runtime does not trigger any actions.
 
 5.  In the events panel, look whether there is a "Dashboard widget clicked" event handler.
 
@@ -73,6 +73,8 @@ All redirections from data visualizations on that dashboard open your specified 
 [Add Platform Analytics pages to a configurable workspace]()
 
 [Add a dashboard to a Dashboards page]()
+
+[Dashboard URL parameter delegation]()
 
 [Pass global filters to the dashboard page template]()
 

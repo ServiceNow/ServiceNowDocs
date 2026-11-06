@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-record-from-workspace-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Create a record in CSM Configurable Workspace
@@ -20,7 +20,7 @@ Role required: sn\_customerservice\_agent,sn\_customerservice.consumer\_agent
 
 ## About this task
 
-You can create records from the Add tab in CSM Configurable workspace by selecting the plus sign \(**+**\) icon. This displays a list of records that you can create.
+You can create records from the Add tab in CSM Configurable workspace. Select the plus sign \(**+**\) icon on the Add tab to see the list of records that can be created.
 
 \[Omitted image "record-creation-from-add-tab-workspace.png"\] Alt text: Select the plus sign on the Add tab in the session tabs to see the records that can be created.
 

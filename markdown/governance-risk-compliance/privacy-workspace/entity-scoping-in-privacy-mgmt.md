@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -36,7 +36,7 @@ Both these methods are explained in the following sections.
 
     The following image shows a business process with information objects associated with it. To identify such business applications or processes associated with information objects, the enhanced entity filter capability in the entity scoping functionality is used. For more information, see [Scope entities to discover processing activities with personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/scope-entities-with-pi.md).
 
-    \[Omitted image "business-process-with-io.jpg"\] Alt text: Business process with information objects associated with it.
+    \[Omitted image "business-process-with-io.png"\] Alt text: Business process with information objects associated with it.
 
 -   **Identify potential entities and sending initial privacy assessments**
 
@@ -46,7 +46,7 @@ Both these methods are explained in the following sections.
     2.  Identify entities using Entity Type you created.
     3.  Select the relevant entities and send privacy screening assessments to the respective entity owners.
     4.  Based on the responses, processing activities are created automatically when relevant questions are answered.
-    \[Omitted image "send-privacy-asmt-entities.jpg"\] Alt text: Send privacy assessments to entities to determine personal data.
+    \[Omitted image "send-privacy-asmt-entities.png"\] Alt text: Send privacy assessments to entities to determine personal data.
 
 
 After the entities are scoped, then, in the applications, only those entities appear that contain personal information.

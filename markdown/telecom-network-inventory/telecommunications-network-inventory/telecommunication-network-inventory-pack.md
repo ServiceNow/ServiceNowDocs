@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
 # Attribute packs
@@ -30,8 +30,8 @@ Use an attribute pack to customize the attributes according to the requirements 
 
 To use an attribute pack in an inventory form, you, as the administrator, must perform the following tasks:
 
--   Create a pack table with the attributes that you define. To learn more, see [Create an attribute pack table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md).
+-   Create a pack table with the attributes that you define. To learn more, see [Create table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.md).
 -   Configure the mapping between the pack table and the inventory object that you want to use it with. To learn more, see [Configure an attribute pack table against a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-packs-for-a-ci-form.md).
 
-After you create and configure a pack table, you can use it in a CI record. To learn more, see [Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
+After you create and configure a pack table, you can use it in a CI record. To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 

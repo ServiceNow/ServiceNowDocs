@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -43,6 +43,12 @@ Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Microsoft Word b
 </td></tr></tbody>
 </table>-   **[Exploring the Microsoft Word based audit report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/exploring-document-designer-template.md)**  
 Create and customize audit report templates using a Word template. You can configure this template to match your specific needs. Once the template is set up, it can be applied to one or more audit engagements, automatically generating audit reports in Word format.
+-   **[Install the ServiceNow Document Designer add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/install-document-designer.md)**  
+Install the ServiceNow Document designer add-in to your Microsoft Word document to create audit and CAM report templates and generate report content using the AI Reporting Assistant.
+-   **[Create a business domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/create-a-business-domain.md)**  
+Create a business domain to define the context in which data is imported into a Microsoft Word document using Document designer.
+-   **[Configure business domain roles for Document designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-business-domain-roles-for-document-designer.md)**  
+Configure role mappings on a business domain to control which users can select the domain when importing data into a Microsoft Word document.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

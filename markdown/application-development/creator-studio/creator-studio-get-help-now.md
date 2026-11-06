@@ -1,20 +1,20 @@
 ---
 title: Get help with Creator Studio
-description: To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
+description: To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company. You can also check some helpful resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-get-help-now.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Get help with Creator Studio
 
-To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company.
+To get help with Creator Studio, your ServiceNow instance, plugins, permissions, and more, watch a short video to contact the ServiceNow admin who works in your company. You can also check some helpful resources.
 
 ## Get help now from your Now Support administrator
 
@@ -38,10 +38,4 @@ Some ServiceNow resources that can provide you with helpful information are:
 
     [Creator Studio FAQs](https://www.servicenow.com/community/creator-studio-blogs/creator-studio-faqs/ba-p/2947282)
 
--   **\[Omitted image "dcx-icon-support.svg"\] Support**
-
-
-
-
-**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Resource plans, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,7 +20,7 @@ As a resource manager, you can confirm or block the resources after a resource p
 
 **Important:** Resource plans in Resource Management will no longer be available for new customers from future releases.
 
-You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and [Create resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
+You're encouraged [migrate your existing resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md) to work on resource assignments which offers more flexibility and [Create resource assignments and operation resource assignments in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-rmw.md) using Resource Management Workspace or Project Workspace.
 
 Resource managers can [view and assign the unassigned resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/allocate-resources-rmw.md) using Resource Management Workspace.
 
@@ -31,8 +31,6 @@ Role required: resource\_manager
 You can modify or [cancel a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/t_CancelAResourcePlan.md) that is in the Confirmed state.
 
 For a resource plan with the resource type as group, you can confirm resources only if the specified group has active members.
-
-**Note:** You can also confirm resource plans from the [Allocation Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/manage-resources-allocation-workbench.md).
 
 ## Procedure
 
@@ -62,7 +60,7 @@ The resource plan moves to the Confirmed state and [soft allocations](https://ra
 
 [Request a change to a resource plan]()
 
-[Recalculate costs of a resource plan]()
+[Recalculate costs of a resource plan of a project or demand]()
 
 [Update cost plan related to a resource plan]()
 

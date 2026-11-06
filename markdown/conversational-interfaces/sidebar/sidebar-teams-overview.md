@@ -7,9 +7,9 @@ release: yokohama
 product: Sidebar
 classification: sidebar
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-keywords: [Virtual Agent, Microsoft Teams, MS Teams, Sidebar, integration, monetization]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [Virtual Agent, Microsoft Teams, MSTeams, Sidebar, integration, monetization]
 breadcrumb: [Configuring Sidebar, Sidebar, Conversational Interfaces]
 ---
 
@@ -74,6 +74,8 @@ Errors messages appear in these situations:
     \[Omitted image "sidebar-not-updated-message.png"\] Alt text: Message window displaying Not updated in Teams message
 
 
+Replies made to messages in Microsoft Teams are displayed as replies to the corresponding message\(s\) in Sidebar.
+
 ## Removing users from a discussion
 
 Sidebar users can remove a Microsoft Teams user from a Sidebar discussion. When a Microsoft Teams user is removed from a discussion, Sidebar and Microsoft Teams users see a message that the user has been removed from the discussion. After a Microsoft Teams user is removed from the discussion, that user can still access the group chat on Microsoft Teams and view older messages, but they can no longer participate in the discussion. If a Microsoft Teams user leaves a discussion on their own, both Sidebar and Microsoft Teams users see a message that the Microsoft Teams user has left the discussion.
@@ -90,9 +92,14 @@ ServiceNow's access to Microsoft Teams group chats and messages is restricted to
 
 The discussion participants aren’t synchronized if the integration between Sidebar and Microsoft Teams is changed multiple times.
 
-\[Omitted image "sidebar-teams-on-off.png"\] Alt text: What happens if you turn the Sidebar-Teams configuration off and on.
+Synchronizing example:
+
+1.  A Sidebar group has User A, B, and C, while a Microsoft Teams user has User 1, 2, and 3.
+2.  When an admin activates the Microsoft Teams integration, users A, B, and C can communicate with users 1, 2, and 3.
+3.  An admin deactivates the integration, and users are removed or added on both sides \(User A is removed from Sidebar, and User 4 is added to Microsoft Teams\).
+4.  When the admin reactivates the Microsoft Teams integration, the discussion groups do not update. Instead, they remain as they were before the integration was deactivated: the Sidebar group has User A, B, and C, while a Microsoft Teams user has User 1, 2, and 3.
 
 ## Domain separation with Sidebar-Microsoft Teams integration
 
-If Sidebar is integrated with Microsoft Teams, domain separation isn’t supported on the Microsoft Teams instance. As a result, the **Set up** button for Microsoft Teams is disabled on the Settings page. For example, if you’ve configured two domains on ServiceNow but use only one Microsoft Teams instance, you can't partition the Microsoft Teams instance to have part of it point to one domain and the other part to another domain.
+If Sidebar is integrated with Microsoft Teams, domain separation is not supported on the Microsoft Teams instance. As a result, the **Set up** button for Microsoft Teams is disabled on the Settings page. For example, if you’ve configured two domains on ServiceNow but use only one Microsoft Teams instance, you can't partition the Microsoft Teams instance to have part of it point to one domain and the other part to another domain.
 

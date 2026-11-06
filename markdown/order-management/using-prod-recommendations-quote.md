@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/using-prod-recommendations-quote.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Using product offering recommendations in quotes
@@ -18,7 +18,7 @@ As a sales agent, you can use recommended product offerings to upsell or cross-s
 
 Product recommendations appear as cards in the contextual side panel in the CRM Workspace when you're adding, updating, or viewing quote line items using the Catalog or Line items tab. Each card provides a recommendation to either upsell or cross-sell a product.
 
-\[Omitted image "prod-recommendations-quote.png"\] Alt text: Contextual side panel in the CSM Configurable Workspace that displays product offering recommendation cards, which are described in the next section
+\[Omitted image "prod-recommendations-quote.png"\] Alt text: Contextual side panel in the CRM Workspace that displays product offering recommendation cards, which are described in the next section
 
 Product recommendation cards display the following information:
 
@@ -34,5 +34,10 @@ When multiple cards are displayed, they're arranged in the order value that was 
 
 ## Recommendation process
 
-When you add a product recommendation, the recommended product offering is added as a line item to your quote. For more information, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-get-product-offer.md). After you add or dismiss recommendations, they’re moved to the recommendation history. Use the History \(\[Omitted image "history-prod-recommendations-icon.png"\]\) icon in the Recommended products panel to view the recommendation history.
+When you add a product recommendation, the recommended product offering is added as a line item to your quote. For more information, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-get-product-offer.md). After you add or dismiss recommendations, they’re moved to the recommendation history. Use the History \[Omitted image "history-prod-recommendations-icon.png"\] Alt text: icon in the Recommended products panel to view the recommendation history.
+
+-   **[Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-get-product-offer.md)**  
+Get product offering recommendations to upsell or cross-sell additional products in quotes.
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

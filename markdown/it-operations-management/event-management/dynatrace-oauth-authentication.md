@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Integrate Dynatrace platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Dynatrace with OAuth authentication
@@ -35,8 +35,11 @@ Dynatrace integration with OAuth authentication is available starting from the W
 1.  Configuration on the ServiceNow instance.
 
     1.  Create **glide.oauth.inbound.client.credential.grant\_type.enabled** system property to use Client Credentials grant type for OAuth inbound integrations.
+
         -   Type: true\|false
         -   Value: true
+        **Note:** An administrator must create this system property because the evt\_mgmt\_admin role lacks permission to do so.
+
     2.  Create an OAuth Entity endpoint for clients to access the instance.
         1.  Navigate to **All** &gt; **System OAuth** &gt; **Application Registry** and then select **New**.
         2.  On the interceptor page, select **Create an OAuth API endpoint for external clients** and then fill in the form.

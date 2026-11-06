@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-insurance-policy-operations-business-lines-servicing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Commercial Lines Servicing reference, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Commercial Lines Servicing
@@ -28,7 +28,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 
@@ -42,7 +42,7 @@ Enables the extension of tables from the Customer Service Management application
 |Financial Services Operations Core|Stores the customer data that is needed to make policy service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Commercial Lines Underwriting|Enables management of commercial underwriting services tasks that are used in insurance policy service cases. For more information, see [Components installed with Commercial Lines Underwriting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-insurance-commercial-underwriting-operations.md).|
 |Document Processor|Enables the management of document services tasks that are used in insurance operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/integrating-with-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-case-playbooks.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see .|
 
 ## Roles installed
 
@@ -203,5 +203,5 @@ Policy Coverage Info\[sn\_ins\_policy\_b2b\_policy\_coverage\_info\]
 This is an Info table which stores the changes to policy coverages which can take place as part of servicing a case against a policy.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
+</table>**Parent Topic:**[Commercial Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/commercial-lines-servicing-reference.md)
 

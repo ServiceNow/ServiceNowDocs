@@ -1,5 +1,5 @@
 ---
-title: Edit a dashboard in Strategic Planning
+title: Edit a dashboard
 description: Customize or edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/edit-dashboard-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2025-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a dashboard in Strategic Planning, Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create a dashboard, Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Edit a dashboard in Strategic Planning
+# Edit a dashboard
 
 Customize or edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 
@@ -55,15 +55,15 @@ You can use the following elements to create or edit your dashboard.
 
 3.  From the dashboard header, select **Edit**.
 
-<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d100576e226">
+<table id="choicetable_qzs_rly_zbc"><thead><tr><th align="left" id="d123439e230">
 
 For this
 
-</th><th align="left" id="d100576e229">
+</th><th align="left" id="d123439e233">
 
 Perform these steps
 
-</th></tr></thead><tbody><tr><td id="d100576e235">
+</th></tr></thead><tbody><tr><td id="d123439e239">
 
 **Add a tab**
 
@@ -77,7 +77,7 @@ A new tab appears with the default name New Tab.
 3.  Press Enter to update the name of the tab.
 
 
-</td></tr><tr><td id="d100576e261">
+</td></tr><tr><td id="d123439e265">
 
 **Add a dashboard element**
 
@@ -119,13 +119,13 @@ The dashboard is updated with the latest changes.
 **Related topics**  
 
 
-[View a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/view-dashboard-spw.md)
+[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/view-dashboard-spw.md)
 
-[Create a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-dashboard-spw.md)
+[Create a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/create-dashboard-spw.md)
 
-[Duplicate a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)
 
-[Share a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)
 
-[Add a Platform Analytics dashboard to Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
 

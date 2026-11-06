@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Goals
 classification: employee-goals
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Employee Goals, Employee Goals, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Employee Goals, Employee Goals, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Goals overview
@@ -63,6 +63,4 @@ The Employee Goals app imports the data from your HCM system to the Employee Goa
 
     Employees can create a growth plan based on an active goal. The Growth plans app displays the three most recent goals when an employee initiates the growth plan creation process. Similar to the process of creating a growth plan that originates from an aspiration or conversation, employees can select a goal that they want to develop into a growth plan. The Employee Goals app enables employees to use a goal as context to start a growth plan.
 
-
-**Parent Topic:**[Exploring Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-explore.md)
 

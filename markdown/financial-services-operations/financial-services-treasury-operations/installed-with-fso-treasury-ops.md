@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Financial Services Treasury Operations reference, Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Treasury Operations
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 
@@ -43,7 +43,7 @@ Enables the extension of tables from the Customer Service Management application
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the customer data that is needed to make treasury service requests. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Document Processor|Enables the management of document services tasks that are used in Financial Services Treasury Operations operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/integrating-with-document-processor.md).|
-|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-case-playbooks.md).|
+|Playbooks for Customer Service Management|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations. For more information, see [Playbooks in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/setting-up-csm-playbooks.md).|
 |CSM Contributor User|Enables middle office teams to create cases for customer requests. For more information, see [CSM Contributor User](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/config-contributor-user.md).|
 
 ## Roles installed

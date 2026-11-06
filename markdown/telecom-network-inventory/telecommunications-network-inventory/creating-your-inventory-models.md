@@ -1,5 +1,5 @@
 ---
-title: Creating your inventory models
+title: Create inventory models
 description: As an inventory catalog manager, you can use a series of forms to define the metadata for each network model in the Telecommunications Network Inventory. During this process, you also specify the relationships between each of these models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
-# Creating your inventory models
+# Create inventory models
 
 As an inventory catalog manager, you can use a series of forms to define the metadata for each network model in the Telecommunications Network Inventory. During this process, you also specify the relationships between each of these models.
 
@@ -25,7 +25,7 @@ The metadata that you define in an inventory model serves an important purpose w
 
 **Note:** To learn more about creating templates and generating network assets from your model and template records, see
 
--   [Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
+-   [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md)
 -   [Instantiating your network inventory by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/instantiate-asset-using-template-relationship-model.md)
 
 To create a comprehensive digital model of your telecommunications network, do the following tasks:

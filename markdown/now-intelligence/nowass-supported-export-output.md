@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/nowass-supported-export-output.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Export dashboards and visualizations, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Supported export output types
@@ -18,13 +18,12 @@ You can export dashboards as Microsoft PowerPoint or PDF files, but not all dash
 
 |Data visualization or dashboard element|Supported dashboard export formats|Supported data visualization export formats|
 |---------------------------------------|----------------------------------|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Geomap|None|None|
-|Pivot tables|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
-|Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST|
+|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|None|
+|Lists|PDF|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|None|Not applicable|
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

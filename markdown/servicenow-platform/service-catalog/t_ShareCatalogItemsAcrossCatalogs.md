@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a catalog item, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Add a catalog item, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Share catalog items across catalogs
@@ -31,10 +31,6 @@ To share a catalog item across several catalogs:
 2.  Open the item to share.
 
 3.  Select the additional catalogs for that item in the **Catalogs** field.
-
-    \[Omitted image "ShareCatalogItemsAcrossCatalogs1.png"\] Alt text:
-
-    \[Omitted image "ShareCatalogItemsAcrossCatalogs2.png"\] Alt text:
 
 4.  Select **Update**.
 

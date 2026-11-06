@@ -1,5 +1,5 @@
 ---
-title: Advanced reporting topics
+title: Advanced Core UI reporting topics
 description: Learn how to customize report visualizations and the data you report on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/c\_AdvancedReporting.html
@@ -7,28 +7,28 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Advanced reporting topics
+# Advanced Core UI reporting topics
 
 Learn how to customize report visualizations and the data you report on.
 
 Topics in this section are appropriate for users who are already familiar with the basics of report creation. However you do not need to be an admin or a report\_admin to configure reports as described in this section.
 
--   **[Drilling down within reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DrillingDownWithinReports.md)**  
+-   **[Drilling down within Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DrillingDownWithinReports.md)**  
 You can drill down within a report to visualize a subset of its data. For example, you can click on the critical section of a report sorted by priority to view the categories of those critical incidents.
--   **[Set the on-click behavior of a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/set-report-on-click.md)**  
+-   **[Set the on-click behavior of a Core UI report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/set-report-on-click.md)**  
 You can configure a URL to open when you select a section of a report.
 -   **[Add an additional group by or stack by](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/add-additional-group-by-stack-by.md)**  
 You can configure a report to let users adjust its grouping and stacking.
--   **[Using multiple datasets in a report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_MultipleDataSets.md)**  
+-   **[Using multiple datasets in Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_MultipleDataSets.md)**  
 You can create reports that use datasets from up to five tables in a single report.
--   **[Create a report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-imported-data-source.md)**  
+-   **[Create a Core UI report from an imported Microsoft Excel document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-imported-data-source.md)**  
 You can import Excel spreadsheets \(`.xlsx` files\) of data maintained outside of your instance and create reports from those files.
--   **[Create reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-metricbase-data.md)**  
+-   **[Create Core UI reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-metricbase-data.md)**  
 Use the MetricBase application to create time-series reports from MetricBase data.
 -   **[Configure charts on forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/configure-reports-on-forms.md)**  
 You can add reports to forms such as change requests, and configure the report visualizations to display information relevant to the user of the form. The configuration is specific to the current view.
@@ -51,5 +51,5 @@ When editing a report from a different application scope than the current scope,
 -   **[Value formatting in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/value-formatting-reports.md)**  
 In most reports, you can configure how numerical values look when you publish the report.
 
-**Parent Topic:**[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/reporting-landing-page.md)
+**Parent Topic:**[Core UI Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/reporting-landing-page.md)
 

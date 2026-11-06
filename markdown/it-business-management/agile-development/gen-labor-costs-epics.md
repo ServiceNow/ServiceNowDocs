@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an epic in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Create an epic in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Generate labor costs for epics

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/observable-enrichment-in-misp.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Using MISP to investigate and analyze threats, MISP integration for Security Operations, Threat Intelligence integrations, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -306,7 +306,7 @@ Distribution
 
 Distribution option controls, such as who can view this event after it is published. This option also controls whether the event is synchronized to other servers. The distribution is inherited by the attributes, and the most restrictive setting wins. The distribution options are as follows: -   Your organization only: Enables only members of your organization to view this event. The event can be pulled to another instance by one of your organization members where only your organization has the access to view it. Events with this setting are not synchronized.
 -   This community only: Enables users that are part of your MISP community to view the event, including your own organization, organizations on this MISP server, and organizations that run MISP servers that synchronize with this server. Any other organizations that are connected to these linked servers are restricted from viewing the event.
--   Connected communities: Enables users that are part of your MISP community to view the event, including all organizations on this MISP server, all organizations on MISP servers that synchronize with this server, and the hosting organizations of servers that connect to any server that is two hops away\). Any other organizations that are connected to the linked servers that are two hops away are restricted from viewing the event.
+-   Connected communities: Enables users that are part of your MISP community to view the event, including all organizations on this MISP server, all organizations on MISP servers that synchronize with this server, and the hosting organizations of servers that connect to any server that is two hops away. Any other organizations that are connected to the linked servers that are two hops away are restricted from viewing the event.
 -   All communities: Shares the event with all MISP communities, which allows the event to be freely available.
 
 

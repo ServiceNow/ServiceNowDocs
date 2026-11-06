@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage notifications in Contract Management Pro, Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage notifications in Contract Management Pro, Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure email notifications for approval workflow in Contract Management Pro
@@ -72,7 +72,7 @@ You can activate the notifications specific to Contract Management Pro approval 
 
 ## Result
 
-The Contract Management Pro specific approval notifications are activated and the default system notifications are stopped for contract revision approval.
+The approval notifications for Contract Management Pro are activated and the default system notifications are stopped for contract revision approval.
 
 **Parent Topic:**[Manage notifications in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-manage-notifications.md)
 

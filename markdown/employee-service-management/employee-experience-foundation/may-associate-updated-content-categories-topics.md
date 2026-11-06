@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage connected content from topic pages, Taxonomy and connected content, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Manage connected content from topic pages, Taxonomy and connected content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Check for updated content in categories
@@ -42,9 +42,6 @@ For manual checking of updates, follow these steps.
 
 5.  Click **OK**.
 
-
--   **[Enable connected content autosync system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/may-system-properties-taxonomy-autosync.md)**  
-Content updates are automatically synced when you enable the autosync system property.
 
 **Parent Topic:**[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

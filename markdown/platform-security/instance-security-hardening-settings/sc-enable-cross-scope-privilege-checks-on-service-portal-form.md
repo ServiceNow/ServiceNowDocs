@@ -1,5 +1,5 @@
 ---
-title: Enable Cross Scope Privilege Checks on Service Portal Form
+title: Enable Cross Scope Privilege Checks on Service Portal Form \[New in Security Center 7.0\]
 description: Use a system property to enforce cross scope privilege checks on the Service Portal form widget and prevent unauthorized retrieval of forms and table data between scopes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-cross-scope-privilege-checks-on-service-portal-form.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable Cross Scope Privilege Checks on Service Portal Form
+# Enable Cross Scope Privilege Checks on Service Portal Form \[New in Security Center 7.0\]
 
 Use a system property to enforce cross scope privilege checks on the Service Portal form widget and prevent unauthorized retrieval of forms and table data between scopes.
 
@@ -88,7 +88,7 @@ Security risk
 
 -   Severity score: 3.1
 -   CVSS score: Low
--   Security risk details: A lack of cross-scope privilege checks could lead to unauthorized retrieval of forms and table data between scopes.
+-   Security risk details: A lack of cross scope privilege checks could lead to unauthorized retrieval of forms and table data between scopes.
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
-title: Configuring Tables and Fields
-description: Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
+title: Configure tables and fields
+description: Configure tables and fields for Identity and Access Audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/identity/configure-tables-and-fields.html
 release: yokohama
 product: Identity
 classification: identity
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Security Auditable Fields, Identity and Access Audit, Identity]
+breadcrumb: [Security auditable fields, Identity and Access Audit, Identity]
 ---
 
-# Configuring Tables and Fields
+# Configure tables and fields
 
-Identity and Access Audit to understand the changes made for a user, group, role, and ACL.
+Configure tables and fields for Identity and Access Audit.
 
 ## Before you begin
 
@@ -34,19 +34,19 @@ The following tables can be configured for auditing​:
 -   Contained Role \[sys\_user\_role\_contains\]​
 -   Group Member \[sys\_user\_grmember\]​
 
-**Note:** To understand which fields can be configured for the tables, see [Fields supported and not supported for Identity Access and Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/allowed-fields-for-audit.md).
+**Note:** To understand which fields can be configured for the tables, see [Supported and unsupported fields in Identity and Access Audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/allowed-fields-for-audit.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Security** &gt; **Identity and Access Audit** &gt; **Configure Tables &amp; Fields**.
 
-2.  Select the table that you want to audit a field from.
+2.  Select the table that you need to audit.
 
     For example, **sys\_user**.
 
     \[Omitted image "configure-fields.png"\] Alt text: Sys user table
 
-3.  Add the field to be audited.
+3.  Add one or more fields to be audited.
 
     For example, **Password**.
 
@@ -56,7 +56,7 @@ The following tables can be configured for auditing​:
 
     -   Adding more fields from the available field list for audit.
     -   Enabling additional operations such as create, update, or delete.
-4.  Update the record.
+4.  Select **Update**.
 
     Any changes to the password field add a new record to the Security Table Audits. In this example, the audit shows a changed password field for the user **Abel Tuter**.
 

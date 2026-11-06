@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Integrate with the UKG spoke, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Receive employee data from UKG to the Employee Center Pro Kiosk
@@ -34,4 +34,6 @@ Map the **Person Number** from the UKG system to the **Employee number** in the 
 ## Result
 
 You have mapped the employee data flow from the UKG system to the Employee Center Pro Kiosk.
+
+**Parent Topic:**[Integrate with the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-kiosk-kronos.md)
 

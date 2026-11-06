@@ -1,35 +1,180 @@
 ---
-title: Analytics Center
-description: The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics.
+title: Platform Analytics overview
+description: Provides a role-specific, quick direct view of the Dashboards, Data Visualizations, Indicators, Filters, and Scheduled exports from the Platform Analytics library. Also provides a direct link to the Usage Insights page for the Platform Analytics library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/analytics-center.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-10-05"
+reading_time_minutes: 3
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
 
-# Analytics Center
+# Platform Analytics overview
 
-The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics.
+Provides a role-specific, quick direct view of the Dashboards, Data Visualizations, Indicators, Filters, and Scheduled exports from the Platform Analytics library. Also provides a direct link to the Usage Insights page for the Platform Analytics library.
 
-\[Omitted image "your-analytics.png"\] Alt text: The Analytics Q&amp;A, Dashboards, and Data Visualizations sections of the Analytics Center.
+To find Platform Analytics Overview, navigate to **All** &gt; **Platform Analytics** &gt; **Analytics Overview**.
 
-Access the Analytics Center by navigating to **All** &gt; **Platform Analytics** &gt; **Analytics Center**. It contains the following components:
+## User roles applicable for Platform Analytics overview
 
--   **\[Omitted image "step-a.png"\] Alt text: Image section A- Analytics Q&amp;A Analytics Q&amp;A**
+Users with the following roles can access/create artifacts on the Platform Analytics overview page:
 
-    A field where you can ask natural language questions about the trends and health of your processes. \(The Natural Language Query feature is required.\) For information about configuring and using this component, see the [Analytics Q&amp;A reference](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/sn-nlq-analytics/overview) on the Developer Site.
+|Role|Dashboards|Data visualizations|Filters|Scheduled export|Indicators|
+|----|----------|-------------------|-------|----------------|----------|
+|platform\_analytics\_admin|Access enabled|Access enabled|Access enabled|Access enabled|Access enabled|
+|pa-admin|Access enabled|Access enabled|Access enabled|Access enabled|Access enabled|
+|dashboard\_admin|Access enabled|Access enabled|Access enabled|Access enabled|No access|
+|viz\_admin|Access enabled|Access enabled|Access enabled|Access enabled|No access|
+|par\_scheduler|Access enabled|Access enabled|No access|Access enabled|No access|
+|report\_admin|Access enabled|Access enabled|Access enabled|Access enabled|No access|
+|Users with all roles|Access enabled|Access enabled|Access enabled|Access enabled|Access enabled|
 
--   **\[Omitted image "step-b.png"\] Alt text: Image section B- Dashboards Dashboards**
+## Platform Analytics library navigation
 
-    A set of tiles for each dashboard that you have bookmarked or that an administrator has certified. Click a tile to open that dashboard. To see all the dashboards you have access to, select **View all**. This action opens the Dashboards library. To start creating a new dashboard immediately, select **Create new dashboard**. This action opens either the inline dashboard editor or a dialog where you can select the inline editor or the technical editor, depending on your roles. For information about configuring and using this component, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
+Library pages like this one include a navigation pane that provides access to the other libraries and the Usage Insights page. Use it to navigate between the libraries without interrupting your workflow.
 
--   **\[Omitted image "step-c.png"\] Alt text: Image section C- Data Visualizations Data Visualizations**
+\[Omitted image "overview-left-nav-admin.png"\] Alt text: Left navigation pane in PA library for analytics admin users
 
-    A list of the saved visualizations that you can access based on your roles. You can select visualizations that you have bookmarked or that an administrator has certified. This action opens the Data Visualizations library. To start creating a new data visualization immediately, select **Create new visualization**. This action opens the visualization designer. For more information, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md).
+**Note:** Users with non-admin roles \(roles other than analytics admin category\) can only access Dashboards, Data Visualizations, and Indicators in the left navigation pane. For more information on role-based access and enabled actions, see [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+
+\[Omitted image "overview-left-nav-non-admin.png"\] Alt text: Left navigation pane in PA library for users with non-admin roles
+
+## Platform Analytics overview elements
+
+\[Omitted image "analytics-overview-admin.png"\] Alt text: Platform analytics overview page for analytics admin users
+
+\[Omitted image "analytics-overview-non-admin.png"\] Alt text: Platform analytics overview page for users with non-admin roles
+
+The following table shows the elements that users can view in the Analytics Overview page. Refer to the numbered call-outs in the screenshots and their descriptions in the table.
+
+<table id="table_avg_rs2_yhc"><thead><tr><th>
+
+No
+
+</th><th>
+
+Field \(or\) Element Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+1
+
+</td><td>
+
+-   **Create Dashboard**
+-   **Create Data Visualization**
+-   **Create Filter**
+-   **Create Scheduled Export**
+-   **Create Indicator**
+
+</td><td>
+
+Button \(with drop-down options\)
+
+</td><td>
+
+-   Creates dashboard using Inline editor or Technical editor.
+-   Creates data visualization using Visualization designer.
+-   Creates filter.
+-   Creates new scheduled export.
+-   Creates indicator.
+
+**Note:** This option is enabled only if the Performance analytics - premium \(com.snc.pa.premium\) plugin is installed.
 
 
-You can add an Analytics Center to another experience or configurable workspace. For more information, see [Creating Platform Analytics pages in your own workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/adding-analytics-center-to-ws.md).
+</td></tr><tr><td>
 
+2
+
+</td><td>
+
+**Search**
+
+</td><td>
+
+Search bar
+
+</td><td>
+
+Type name and search for any platform analytics artifact such as dashboard, data visualization, filter, or indicator across multiple libraries. The **Search** option uses AI search functionality if enabled in the instance. Otherwise, it uses Zing search functionality.
+
+</td></tr><tr><td>
+
+3
+
+</td><td>
+
+Data Collection Metrics for classic indicators
+
+</td><td>
+
+Single score filter
+
+</td><td>
+
+Consists of single score visualizations for the following data collection filters:-   Latest data collection jobs with errors
+-   Latest data collection jobs with warnings
+-   Latest data collection jobs running over 1 hour
+
+**Note:** Users with pa\_admin, pa\_data\_collector, and pa\_power\_user roles can view the single score visualizations related to job logs.
+
+Users with dashboard\_admin role can only view the single score visualizations related to dashboards.
+
+Users with platform\_analytics\_admin can view all the single score visualizations on this overview.
+
+Users with the viz\_admin or reports\_admin roles don't see any of the single score visualizations on this overview.
+
+</td></tr><tr><td>
+
+4
+
+</td><td>
+
+Usage and performance metrics
+
+</td><td>
+
+Single score filter
+
+</td><td>
+
+This section has three visualizations:-   Usage of recently created dashboards
+
+**Note:** This time series visualization shows the usage of dashboards created by the logged in user with the platform\_analytics\_admin role.
+
+-   Dashboards with load time less than 5 secs \(Single score visible to the dashboard\_admin user - this user can select the visualization to view the underlying list.\)
+-   Dashboards with load time greater than 5 secs \(Single score visible to the dashboard\_admin user - this user can select the visualization to view the underlying list.\)
+
+**Note:** The visualization **Usage of recently created dashboards** requires Usage Insights to be enabled for your instance and corresponding Usage Insights data. Only users with the platform\_analytics\_admin role can see this visualization.
+
+</td></tr><tr><td>
+
+5
+
+</td><td>
+
+Quick access
+
+</td><td>
+
+List
+
+</td><td>
+
+-   Bookmarked: This tab lists the bookmarked Dashboards, Data Visualizations, and Indicators from the Usage Insights library.
+-   Created by me: This tab lists the Dashboards, Data Visualizations, and Indicators you created in the Usage Insights library.
+-   Certified: This tab lists the certified Dashboards, Data Visualizations, and Indicators from the Usage Insights library.
+
+ **Note:** You can see Dashboards, Data Visualizations, and Indicators \(only in the Active state\) from both Core UI and Next Experience libraries listed in the same table.
+
+</td></tr></tbody>
+</table>

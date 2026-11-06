@@ -1,20 +1,20 @@
 ---
 title: Create variables for remote record producers in Service Exchange for Providers
-description: Create the variables for a remote record producer in Service Exchange for Providers application.
+description: Create variables for a remote record producer \(RRP\) in Service Exchange for Providers application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-assign-variables-ser-defn.html
 release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Remote record producers in Service Exchange, Create remote catalogs in Service Exchange for providers, Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create variables for remote record producers in Service Exchange for Providers
 
-Create the variables for a remote record producer in Service Exchange for Providers application.
+Create variables for a remote record producer \(RRP\) in Service Exchange for Providers application.
 
 ## Before you begin
 

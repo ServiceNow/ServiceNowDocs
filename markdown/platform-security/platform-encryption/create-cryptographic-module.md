@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Key Management Framework, Key Management Framework, Encryption]
 ---
@@ -24,7 +24,7 @@ Role required: sn\_kmf.cryptographic\_manager
 
 ## About this task
 
-This procedure describes options that are available with KMF in the ServiceNow platform base system. Field Encryption Enterprise functionality is available only when the com.glide.now.platform.encryption plugin is active. See [Activate Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise. See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-PE-cryptographic-module.md).
+This procedure describes options that are available with KMF in the ServiceNow platform base system. Field Encryption Enterprise functionality is available only when the com.glide.now.platform.encryption plugin is active. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md) for more information on obtaining Field Encryption Enterprise. See [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-PE-cryptographic-module.md).
 
 **Note:** Cryptographic module \[sys\_kmf\_crypto\_module\] records can't be deleted.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-agentic-workflow.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Use agentic workflows in emails, Now Assist in Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Use agentic workflows in emails, Notification agent and agentic workflows in Notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email Intent to Action Agentic Workflow

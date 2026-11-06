@@ -7,7 +7,7 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API reference, API implementation and reference]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [API reference, API implementation and reference]
 
 Use the ServiceNow Mobile SDK to leverage the functionality and resources of the ServiceNow platform within your standalone mobile Android and iOS applications.
 
--   **[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)**  
+-   **[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)**  
 The Mobile SDK for Android provides the classes necessary to interface Android devices with the ServiceNow platform.
--   **[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)**  
+-   **[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)**  
 The Mobile SDK for iOS provides the classes necessary to interface iOS-based devices with the ServiceNow platform.
 
 **Parent Topic:**[API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-reference.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-06-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Modify signatories, Signature workflow for a contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Modify signatories, Signature workflow for a contract request, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Resume signature process

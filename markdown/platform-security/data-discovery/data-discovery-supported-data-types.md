@@ -7,9 +7,9 @@ release: yokohama
 product: Data Discovery
 classification: data-discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Discovery, Platform Privacy]
+breadcrumb: [Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
 # Data Discovery supported data types
@@ -18,7 +18,7 @@ Check which field types are supported when using Data Discovery.
 
 **Note:** Not all field types that have been classified are available for Data Discovery.
 
-Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see [Field Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see Field Types.
 
 |Field type|Available by default|
 |----------|--------------------|

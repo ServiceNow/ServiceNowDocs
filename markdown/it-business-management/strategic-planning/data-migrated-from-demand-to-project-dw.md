@@ -1,0 +1,130 @@
+---
+title: Data migrated from a demand to a created project
+description: Data fields are migrated from a demand to a project when the project is created from the demand.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/data-migrated-from-demand-to-project-dw.html
+release: yokohama
+product: Strategic Planning
+classification: strategic-planning
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Data migrated from demands to created entities, Reference, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Data migrated from a demand to a created project
+
+Data fields are migrated from a demand to a project when the project is created from the demand.
+
+<table id="table_ujx_fxg_vfc"><thead><tr><th>
+
+Field type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Demand
+
+</td><td>
+
+The following demand fields are migrated to a project:-   Description
+-   Business case
+-   Investment Class
+-   Investment Type
+-   Risk of performing
+-   Risk of not performing
+-   Enablers
+-   Barriers
+-   In scope
+-   Out of scope
+-   Assumptions
+-   Business Unit
+-   Department
+-   Impacted Business Units
+-   Business Capabilities
+-   Priority
+-   Impact
+-   Rate Model
+-   Approved start date
+-   Approved end date
+-   Short description
+-   Program
+-   Domain
+-   Goals
+-   Strategies
+-   Impacted Business Applications
+-   Configuration item
+-   Company
+-   Urgency
+-   Project Manager
+-   Project currency
+-   Project calculation
+
+</td></tr><tr><td>
+
+Resource assignments
+
+</td><td>
+
+Resource assignments are migrated to a project by updating the task reference from the demand to the project. Resource assignments are migrated to a project by updating the task and planning item, if applicable, reference from the demand to the project.
+
+ The start and end dates of the resource assignments are retained. The **Offset** of each assignment is the number of days between the start date of the task and the start date of the assignment. The offset is recalculated based on the project schedule. A demand does not have a schedule, so all days, including weekends, are counted in the offset. For a project, the offset for the associated resource assignments is calculated based on the working days defined in the project schedule. For more information about project schedules, see [Project scheduling in Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/project-scheduling.md).
+
+ If actual hours are captured on a resource assignment, its offset is not recalculated, and a warning is added to the resource plan logs.
+
+</td></tr><tr><td>
+
+Requirements
+
+</td><td>
+
+Demand requirements.
+
+</td></tr><tr><td>
+
+Financial records
+
+</td><td>
+
+Financial records such as cost plans and breakdowns, benefit plans and breakdowns \(monetary and non-monetary\), and demand budgets are migrated to a project. This process updates the task reference from demand to project.
+
+</td></tr><tr><td>
+
+RIDAC
+
+</td><td>
+
+RIDAC entities are migrated to a project by updating the task reference from demand to project. The migrated entities include the risks, issues, decisions, project actions, request changes, and RIDAC\_m2m records.
+
+</td></tr><tr><td>
+
+Assessment
+
+</td><td>
+
+The following assessment data fields are migrated to a project:-   Risk
+-   Value
+-   Score
+-   T-Shirt size
+
+</td></tr><tr><td>
+
+Stakeholders
+
+</td><td>
+
+Stakeholder records.
+
+</td></tr><tr><td>
+
+Project Currency Financial
+
+</td><td>
+
+If the multicurrency feature is active, the project financial fields are calculated according to the project currency and reference rate.
+
+</td></tr></tbody>
+</table>

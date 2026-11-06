@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-migration-evaluate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Perform full data migration, Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
@@ -33,8 +33,6 @@ As soon as your data has been migrated, you see the results of the migration. Re
     \[Omitted image "data-mig-core-migrated-db-buttons.png"\] Alt text: Top of migrated dashboard Compare window featuring buttons labeled Migrated dashboard and Core UI dashboard
 
 3.  Select the **Compatibility mode** tab to compare content in the Core UI dashboard and the content migrated in compatibility mode.
-
-    Pay close attention to the dashboards with content blocks and **Other** content. These are likely to need further changes in the migrated dashboard to support those widgets.
 
 4.  Select View Logs links to review issues associated with each migrated element.
 

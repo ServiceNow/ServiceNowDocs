@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Linux, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Linux, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Omit network adapter secondary IP addresses in Linux discovery
@@ -47,7 +47,7 @@ Role required: admin
 
 ## Result
 
-When the predefined schedule triggers the Linux server discovery or a scheduled horizontal discovery runs, only the specific network adapters and their primary IP addresses are included in the discovery process.
+When the predefined schedule triggers the Linux server discovery or a scheduled horizontal discovery runs, only the specific network adapters and their primary IP addresses are included in the discovery process. Secondary IP addresses are automatically omitted.
 
 For more information, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 

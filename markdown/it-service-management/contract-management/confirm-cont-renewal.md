@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Review contract renewal details
@@ -34,15 +34,15 @@ This task must be completed before the contract renewal request is eligible for 
 
 4.  Determine whether to close this task.
 
-<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d405791e80">
+<table id="choicetable_vzl_j1k_25b"><thead><tr><th align="left" id="d330225e77">
 
 Result of review
 
-</th><th align="left" id="d405791e83">
+</th><th align="left" id="d330225e80">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d405791e89">
+</th></tr></thead><tbody><tr><td id="d330225e86">
 
 **The details are accurate**
 
@@ -50,7 +50,7 @@ Action
 
 Select **Yes**.
 
-</td></tr><tr><td id="d405791e104">
+</td></tr><tr><td id="d330225e101">
 
 **The details are not accurate**
 

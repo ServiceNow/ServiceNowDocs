@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create software models in Software Asset Management classic
@@ -90,7 +90,7 @@ If you've installed the SAP publisher pack, see [Record publisher details for SA
 
 [Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-publisher-packs.md)
 
-[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
 
 [Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-model-fields.md)
 

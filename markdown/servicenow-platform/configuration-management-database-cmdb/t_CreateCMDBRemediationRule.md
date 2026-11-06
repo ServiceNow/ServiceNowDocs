@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a CMDB remediation rule
@@ -25,7 +25,7 @@ You must first create and publish a remediation workflow that addresses the CI i
 
 For more information about using Classic Workflows, see [Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/c_WorkflowOverview.md).
 
-Role required: itil\_admin \(on top of itil\)
+Role required: sn\_cmdb\_admin or itil\_admin \(on top of sn\_cmdb\_editor or itil\)
 
 ## Procedure
 
@@ -107,11 +107,11 @@ Manually initiate a workflow to remediate a CI that failed a CMDB health test. F
 **Related topics**  
 
 
-[Explore CMDB Health]()
+[Exploring CMDB Health]()
 
-[CMDB Health experience in CMDB Workspace]()
+[CMDB Health experience in CMDB Workspace and in Service Graph Workspace]()
 
-[View CMDB Health dashboard]()
+[View CMDB Health Dashboard]()
 
 [View relationships health]()
 

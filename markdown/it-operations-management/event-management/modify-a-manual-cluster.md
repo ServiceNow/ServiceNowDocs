@@ -1,20 +1,20 @@
 ---
 title: Modify a manual cluster
-description: Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description in case of an incorrect initial configuration, changes in the network, or other issues.
+description: Modify an existing manual cluster by changing the service, CI, CI class, or description.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/modify-a-manual-cluster.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring CIs in a manual service as a manual cluster, Application services in Event Management, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure CIs as manual cluster, Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Modify a manual cluster
 
-Modify an existing manual cluster by changing the service, the specific CI, the generic CI class, or the description in case of an incorrect initial configuration, changes in the network, or other issues.
+Modify an existing manual cluster by changing the service, CI, CI class, or description.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: evt\_mgmt\_admin
 
     3.  Preview the record by selecting the Preview this record icon \(\[Omitted image "info.png"\] Alt text: Preview this record icon\).
 
-4.  In the **Select a Specific CI or generic CI class** section in the **Defined As** field, modify the manual cluster either as a specific CI of a manual cluster or as a generic CI class of a manual cluster that will be applied to all CIs of this class.
+4.  In the **Select a Specific CI or generic CI class** section, use the **Defined As** field to modify the manual cluster.
 
     -   Specific CI - In the **Configuration item** field, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon\) and select the configuration item.
     -   Generic CI class – In the **Configuration item class** field, select the configuration item class.

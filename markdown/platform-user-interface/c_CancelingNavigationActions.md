@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_CancelingNavigationActions.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ One of the following conditions must be true for the Request Manager to cancel a
 
 The Request Manager uses the following workflow to determine whether to cancel a transaction.
 
-\[Omitted image "Cancelation\_workflow.png"\] Alt text:
+\[Omitted image "Cancelation\_workflow.png"\] Alt text: Workflow diagram of the cancellation flow
 
 <table id="table_fn3_kkq_n4"><thead><tr><th>
 

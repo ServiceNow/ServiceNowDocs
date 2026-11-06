@@ -1,5 +1,5 @@
 ---
-title: Visualization of geo map
+title: Geo map
 description: Use the geo map in Telecommunications Network Inventory to view the geographical location of your network sites and datacenters. You can use the geo map to get the details of the network site and datacenters such as site details, connectivity, and capacity information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-map.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Visualization of your network infrastructure, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
 
-# Visualization of geo map
+# Geo map
 
 Use the geo map in Telecommunications Network Inventory to view the geographical location of your network sites and datacenters. You can use the geo map to get the details of the network site and datacenters such as site details, connectivity, and capacity information.
 
@@ -153,5 +153,5 @@ To learn more about how to use the geo map, see [View details of the geo map](ht
 **Related topics**  
 
 
-[Using the geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
+[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 

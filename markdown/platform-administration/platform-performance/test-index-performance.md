@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: task
-last_updated: "2025-05-12"
-reading_time_minutes: 2
-breadcrumb: [Resolving slow queries, Resolving platform performance issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Resolving slow queries, Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Test index performance for slow queries
@@ -38,13 +38,7 @@ This test is an optional assessment of the index. The test isn’t part of the 1
 
 3.  When the Test Index Suggestion progress indicator shows that testing is complete, select **Go to Result**.
 
-    \[Omitted image "IndexSuggTestPerfProgress.png"\] Alt text: Progress indicator window that shows the Query Execution Timer
-
 4.  In the Query Performance Test Results form, compare the **Average with index** and **Average without index** fields to see if the index improved the query time.
-
-    In the following example, the index improved the query time. The **Forced** check box is cleared, indicating that the database is using the index. If the check box is selected, the database is forced to use the index during the test, but not outside of the test.
-
-    \[Omitted image "QueryPerfTestResults.png"\] Alt text: Test results of the Test Performance option, which checks the average query time with and without the index.
 
     |Field|Description|
     |-----|-----------|

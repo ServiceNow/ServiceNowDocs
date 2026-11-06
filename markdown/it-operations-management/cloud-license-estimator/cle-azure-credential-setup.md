@@ -1,0 +1,76 @@
+---
+title: Configure Azure Credentials for Cloud License Estimator
+description: Configure Azure Service Principal credentials for Cloud License Estimator. If credentials are already configured in the ServiceNow instance, those credentials can be used. Create an Azure account configuration to estimate the cloud resource count for licensing. Management accounts include all subscriptions under that account.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.html
+release: yokohama
+product: Cloud License Estimator
+classification: cloud-license-estimator
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure Cloud License Estimator, Cloud License Estimator, ITOM Visibility, IT Operations Management]
+---
+
+# Configure Azure Credentials for Cloud License Estimator
+
+Configure Azure Service Principal credentials for Cloud License Estimator. If credentials are already configured in the ServiceNow instance, those credentials can be used.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **Filter Navigation** &gt; **All** &gt; **ITOM Cloud License Estimator** &gt; **Home**.
+
+2.  On the Home page, select **Go to Credentials** to open the **Credentials \(discovery\_credentials\)** page.
+
+3.  Select **New** &gt; **Azure Service Principal** and enter the Azure Service Principal Account details.
+
+
+## Result
+
+A **Credential ID** is generated, which is required when creating configurations.
+
+**Parent Topic:**[Configure Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-license-estimator/configure-cloud-license-estimator.md)
+
+**Related topics**  
+
+
+[Configure AWS credentials for Cloud License Estimator]()
+
+## Create an Azure account configuration and generate CLE reports
+
+Create an Azure account configuration to estimate the cloud resource count for licensing. Management accounts include all subscriptions under that account.
+
+### Before you begin
+
+Role required: admin
+
+### Procedure
+
+1.  Navigate to **Filter Navigation** &gt; **All** &gt; **ITOM Cloud License Estimator** &gt; **Home**.
+
+2.  On the Home page, select **Create Configuration** to open the Create Configuration dialog.
+
+3.  Enter the following details:
+
+    -   **Name**: Enter a name for the configuration.
+    -   **Cloud Provider**: Choose **Azure** from the list. Fill in the additional fields that appear.
+    -   **Account ID**: Enter the management account ID or subscription ID.
+    -   **Management group**: Select this checkbox if the Account ID is a management account.
+    -   **Credentials**: Select the Azure Service principle credentials configured in [Configure Azure Credentials for Cloud License Estimator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-license-estimator/cle-azure-credential-setup.md).
+    -   **Activate**: Enable this option.
+4.  Select **Save and run license estimator**.
+
+    The configuration is saved and the tool generates the report. You are redirected to the **Report** page where the status of the report generation can be tracked.
+
+5.  From the **Report** page, select **Download resource report** to download a PDF of the report.
+
+
+**Related topics**  
+
+
+[Generate Cloud License Estimator reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-license-estimator/cle-generate-reports.md)
+

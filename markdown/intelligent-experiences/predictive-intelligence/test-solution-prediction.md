@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Testing and monitoring predictions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Test a classification solution prediction
@@ -106,10 +106,12 @@ Result: When the form refreshes, an information message appears with the inciden
 
 **Note:** For some short descriptions, the prediction might not process because the solution does not have enough confidence in predicting the value for this input.
 
+**Parent Topic:**[Testing and monitoring predictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/testing-reviewing-ml-solutions.md)
+
 **Related topics**  
 
 
-[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/agent-intelligence-api.md)
+[bundle-crapiref.agent-intelligence-api]
 
-[MLPredictor - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_MLPredictorAPI.md)
+[bundle-crapiref.c_MLPredictorAPI]
 

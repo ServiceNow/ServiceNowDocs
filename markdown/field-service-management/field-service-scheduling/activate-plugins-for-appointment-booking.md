@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Activate Appointment Booking
@@ -38,7 +38,7 @@ For more information on the components installed with Appointment Booking see, [
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the plugins using the filter criteria and search bar.
+2.  Find the plugins \(com.snc.appointment\_booking\) using the filter criteria and search bar.
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 

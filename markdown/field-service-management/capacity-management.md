@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/capacity-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Field Service Management, Field Service Management]
+breadcrumb: [Explore, Field Service Management]
 ---
 
 # Capacity and Reservations Management
@@ -26,14 +26,8 @@ Field Service Capacity and Reservations Management provides the following benefi
 -   Better management of workloads by assigning the appropriate amount of work to the Field Service agents and contractor companies.
 -   Stay compliant with contractor company requirements by adhering to their stated capacity.
 
-The image below is an example of the different states that agent capacities go through, starting with defining the agent's work capacity, and the reservation of a percentage of agent's time. Then ending with the release of the allocated capacity based on the agent's schedule.
-
-\[Omitted image "capacity-management.png"\] Alt text: example flow of capacity and reservation management
-
 **Related topics**  
 
-
-[Field Service Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/capacity-management-components.md)
 
 [Configuring Field Service Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configuring-capacity-management.md)
 
@@ -42,4 +36,6 @@ The image below is an example of the different states that agent capacities go t
 [Field Service Territory Capacity Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/capacity-dashboard.md)
 
 [Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/capacity-console.md)
+
+[Field Service Capacity and Reservations Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/capacity-management-components.md)
 

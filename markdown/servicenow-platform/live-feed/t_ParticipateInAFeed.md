@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,8 +35,6 @@ Feed members can do the following:
 1.  Navigate to **Live Feed** &gt; **Live Feed**.
 
 2.  Click either **Group Feeds** or **Record Feeds**, and then click **All Feeds**.
-
-    \[Omitted image "AllFeeds.png"\] Alt text: All feeds
 
     -   If you received an invitation, click **Accept**. You can **Decline** the invitation if you do not want to join the feed.
     -   If the feed is public, click **Join**.

@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-12-09"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery Admin Workspace Schedules, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Create an IP-based Discovery schedule in Discovery Admin Workspace
@@ -27,7 +27,7 @@ Role required: discovery\_admin
 
 1.  Navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Schedules**.
 
-2.  In any tab header, select **New Discovery**.
+2.  Select **New Discovery** from the header of any tab on the Schedules page.
 
 3.  Select **IP-based discovery** and select **Continue**.
 
@@ -57,7 +57,7 @@ Role required: discovery\_admin
 
     |Option|Description|
     |------|-----------|
-    |**Run on demand**|The schedule only runs when triggered manually. Trigger the schedule by selecting **Finish and run** at the end of this setupsetting up the schedule or by navigating to the schedule in the Schedules table and selecting **Discover Now**.|
+    |**Run on demand**|The schedule only runs when triggered manually. Trigger the schedule by selecting **Finish and run** at the end of this setup, or by navigating to the schedule in the Schedules table and selecting **Discover Now**.|
     |**Run at a scheduled time**|The schedule runs at a scheduled date and time. Use the fields to define when the schedule runs.|
     |**Run after series**|The schedule runs after another existing Discovery schedule completes, staggering or chaining them together. Selecting an existing schedule displays a relationship map of all the other associated schedules.|
     |**Cancel discovery if longer than maximum runtime**|If the schedule exceeds the maximum runtime, it's canceled. After toggled, configure the runtime threshold.|
@@ -65,5 +65,10 @@ Role required: discovery\_admin
     |**Finish**|After being selected, all the information provided is validated. A Discovery schedule is created and you're redirected to its entry in the Discovery Schedules \[discovery\_schedule\] table. You can edit the schedule information or run it by selecting **Discover Now**.|
 
 
-**Parent Topic:**[Discovery Admin Workspace Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-schedules.md)
+## What to do next
+
+After you create and save a Discovery schedule, you can optionally configure the following settings:
+
+-   Define IP addresses or ranges to exclude from all Discovery schedules. See [Use Global Excludes List for IP addresses and ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/global-exlude-list.md).
+-   Define Discovery schedule attributes to automatically set CI field values such as location or asset tag on discovered CIs. You can define attributes at the schedule, range set, or IP address range level. See [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/define-ci-attributes.md).
 

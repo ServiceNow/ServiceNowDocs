@@ -7,9 +7,9 @@ release: yokohama
 product: Industrial Process Manager
 classification: industrial-process-manager
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated mapping of OT devices to the Equipment Model, Managing equipment models, Use, Industrial Process Manager, Operational Technology]
+breadcrumb: [Reference, Industrial Process Manager, Operational Technology]
 ---
 
 # System properties used by the OT subnet mapping feature
@@ -59,5 +59,5 @@ Automatically assigns all OT control modules to equipment model entities based o
 Override location of an OT device with subnet's location. If checked, the location of the subnet takes precedence over OT device's location when it's mapped with the subnet. Default is Yes.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Automated mapping of OT devices to the Equipment Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/automate-mappings-between-ot-assets-and-equipment-model-entity.md)
+</table>**Parent Topic:**[Industrial Process Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/manufacturing-process-mgr-reference.md)
 

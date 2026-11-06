@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Stockrooms, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Stockrooms, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Stock rules
@@ -76,7 +76,9 @@ Vendor
 
 </td><td>
 
-When the Procurement plugin \(com.snc.procurement\) is activated, a purchase order and corresponding purchase order line items are created.Purchase orders and purchase order line items are created when the inventory in a stockroom reaches the defined threshold and needs replenishment directly from the vendor.
+When the Procurement plugin \(com.snc.procurement\) is activated, a purchase order and corresponding purchase order line items are created.**Important:** The automatic purchase order action works only for hardware models that are published as vendor catalog items. If a model isn't published as a vendor catalog item, the stock rule still triggers when stock falls below the minimum quantity, but it can't generate a purchase order. To publish a hardware model as a vendor catalog item, see [Publish an item to the hardware catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/product-catalog/t_PublishAnItemToTheHardwareCatalog.md).
+
+Purchase orders and purchase order line items are created when the inventory in a stockroom reaches the defined threshold and needs replenishment directly from the vendor.
 
 **Note:** You must have a procurement\_user role to access the purchase order and purchase order line item.
 

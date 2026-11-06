@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Port probes, List of Discovery probes, Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Port probes, List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Shazzam probe, port probes, and protocols

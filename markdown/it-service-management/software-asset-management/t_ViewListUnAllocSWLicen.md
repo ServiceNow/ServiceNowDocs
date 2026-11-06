@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software licenses in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Software licenses in the legacy Software Asset Management plugin, Legacy Software Asset Management plugin, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # View a list of unallocated software licenses for the legacy Software Asset Management plugin
@@ -42,7 +42,7 @@ You can allocate the licenses to users or devices. If no one needs the unallocat
 **Related topics**  
 
 
-[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_StockRules.md)
-
 [Create a stock rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/t_CreateAStockRule.md)
+
+[Stock rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_StockRules.md)
 

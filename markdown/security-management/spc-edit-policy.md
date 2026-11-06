@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-edit-policy.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -137,7 +137,7 @@ Configure findings
 
 </td><td>
 
-Select **Yes** in the modal to generate findings for the policy. See [View findings for Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-view-findings.md).
+Select **Yes** in the modal to generate findings for the policy. See [Security Posture Control: Configuring and viewing your findings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-view-findings.md).
 
 </td></tr><tr><td>
 

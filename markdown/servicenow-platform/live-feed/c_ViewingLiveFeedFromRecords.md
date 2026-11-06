@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Live Feed to work on records, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,9 +25,6 @@ To access a record feed from the form, do one of the following:
 -   Scroll down to the activity formatter area on the form. Click one of the following tabs:
     -   **Live Feed**: click to show a text box to type in the feed.
     -   **Activity**: click to show the activity summary. The activity filter determines the content in the activity summary.
-
-        \[Omitted image "LiveFeedPopupFuji.png"\] Alt text: Live Feed Popup
-
 
 If the activity formatter or the **Live Feed** and **Activity** tabs are not visible, administrators can do the following:
 

@@ -1,0 +1,158 @@
+---
+title: Jumpstart Your Strategic Portfolio Management - Project Workspace
+description: This Accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/jumpstart-your-SPM-project-workspace.html
+release: yokohama
+product: Accelerator and Initiative List
+classification: accelerator-and-initiative-list
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
+---
+
+# Jumpstart Your Strategic Portfolio Management - Project Workspace
+
+This Accelerator provides a demonstration of the possibilities and capabilities of Project Workspaces within Strategic Portfolio Management \(SPM\).
+
+## Accelerator Overview
+
+Jumpstart Your SPM – Project Workspace provides Impact customers with an applied overview of Project Workspace within SPM, demonstrating how to centralize project data and manage projects and associated information from a single, unified view. This Accelerator also equips customers with key resources and leading practices to help them get started quickly.
+
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
+
+## What you get
+
+-   **Session Preparation**
+
+    The Technical Accelerator Consultant:
+
+    -   Provisions a temporary instance
+    -   Activates and configures the applicable components of Project Workspaces within SPM
+-   **Customer Coaching Session \#1 \(up to 1.5 hrs\)**
+
+    Includes the following:
+
+    -   Overview &amp; demonstration of Project Workspaces
+    -   Review setting Project Workspaces within SPM up for success:
+        -   Installation &amp; configuration
+        -   High-level discussion on Foundation data
+    -   Walk-through of key capabilities
+-   **Customer Coaching Session \#2 \(Optional up on Customer request – up to 1 hr\)**
+
+    Opportunity for Q&amp;A related to the Project Workspaces within SPM.
+
+-   **Outputs**
+    -   30-day access to the temporary instance and Technical Accelerator Consultant with whom you met for any further questions or in-depth explorations
+    -   Copy of the Coaching session deck
+
+## Requested customer resources
+
+<table id="table_wqw_dyd_fsb"><thead><tr><th>
+
+Customer Resource 
+
+</th><th>
+
+Responsibilities 
+
+</th><th>
+
+Required
+
+</th><th>
+
+Recommended
+
+</th></tr></thead><tbody><tr><td>
+
+Platform Owner
+
+</td><td>
+
+Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+System Administrator\(s\)
+
+</td><td>
+
+Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Other Customer Role\(s\)
+
+</td><td>
+
+Primary stakeholders responsible for Project Management. Example: Project Manager/Resource Manager – Individuals who are responsible for making requests for resources and collaborate on the allocation and planning of resources.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Developer\(s\)
+
+</td><td>
+
+Writes code for the ServiceNow platform.
+
+</td><td>
+
+ 
+
+</td><td>
+
+✓
+
+</td></tr><tr><td>
+
+Trusted Service Partner\(s\)
+
+</td><td>
+
+Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.
+
+</td><td>
+
+ 
+
+</td><td>
+
+✓
+
+</td></tr></tbody>
+</table>## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
+
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
+

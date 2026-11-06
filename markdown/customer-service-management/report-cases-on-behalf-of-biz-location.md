@@ -1,30 +1,32 @@
 ---
-title: Create cases for a business location in the Business Location Service Portal
-description: As a staff member with the location agent role, create and manage cases for your business locations.
+title: Create cases for a business organization in the Business Organization Support Portal
+description: As a staff member with the location agent role, create and manage cases for your business organizations \(formerly business locations\) from the Business Organization Support Portal \(formerly Business Location Service Portal\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/report-cases-on-behalf-of-biz-location.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using the Business Location Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Create cases for a business location in the Business Location Service Portal
+# Create cases for a business organization in the Business Organization Support Portal
 
-As a staff member with the location agent role, create and manage cases for your business locations.
+As a staff member with the location agent role, create and manage cases for your business organizations \(formerly business locations\) from the Business Organization Support Portal \(formerly Business Location Service Portal\).
 
 ## Before you begin
 
 Role required: admin, sn\_customerservice.svc\_location\_agent, and sn\_customerservice.svc\_location\_manager
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 ## About this task
 
 Staff members with the location agent role can do the following:
 
 -   View information for the customers at their location.
--   Create cases for an account, consumer, business location, and themselves.
--   Register staff members at an external business location.
+-   Create cases for an account, consumer, business organization, and themselves.
+-   Register staff members at an external organization.
 -   Track and update cases created at their location.
 
 ## Procedure
@@ -47,11 +49,19 @@ Who are you creating this case for?
 
 </td><td>
 
-The record producer used for creating a case for the contributor user. When the contributor user selects an option, depending on the roles assigned to the logged-in user, additional fields related to that customer type are displayed.-   **Account**: The logged-in user with the account contributor role.
+The record producer used for to create a case for the contributor user. When the contributor user selects an option, depending on the roles assigned to the logged-in user, additional fields related to that customer type are displayed.-   **Account**: The logged-in user with the account contributor role.
 -   **Consumer**: The logged-in user with the consumer contributor role.
 -   **Business Location**: The logged-in user with the service organization contributor role.
 -   **Myself**: The logged-in user with the self-contributor role.
 
+
+</td></tr><tr><td>
+
+Reported By
+
+</td><td>
+
+Auto-populated with the logged-in user.
 
 </td></tr><tr><td>
 
@@ -163,15 +173,15 @@ Description
 Brief description of the customer question, issue, or problem.
 
 </td></tr></tbody>
-</table>3.  Click **Submit**.
+</table>3.  Select **Submit**.
 
 
 ## What to do next
 
-Similarly, you can report cases on behalf of a business location, against sold products deployed at a business location, or against installed base items deployed at a business location.
+Similarly, you can report cases on behalf of a business location, against sold products deployed at a business organization, or installed base items deployed at a business organization.
 
 **Related topics**  
 
 
-[Track cases on the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/track-cases-for-blsp-portal.md)
+[Track cases on the Business Organization Support Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/track-cases-for-blsp-portal.md)
 

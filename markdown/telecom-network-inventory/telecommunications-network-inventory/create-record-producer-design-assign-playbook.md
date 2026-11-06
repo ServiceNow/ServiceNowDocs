@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Design and Assign function for your network services, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Create a record producer for the Design and Assign function
@@ -52,7 +52,7 @@ A record producer is created.
 **Related topics**  
 
 
-[bundle-platcap.c_RecordProducer]
+[Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_RecordProducer.md)
 
 [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

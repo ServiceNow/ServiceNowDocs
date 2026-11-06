@@ -7,7 +7,7 @@ release: yokohama
 product: Integration Hub ETL
 classification: integration-hub-etl
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IntegrationHub ETL, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,17 +30,15 @@ Role required: cmdb\_inst\_admin
 
 3.  On the CMDB Integration Studio Application form, in the CMDB Integration Studio Application Data Sources related list, open the data source record for the CMDB integration.
 
-4.  On the CMDB Integration Studio Application Data Source form, check **Execute Before Script** or **Execute After Script**.
-
-5.  Review the **Before Script** and **After Script** comments and enter your custom scripts at the bottom of the script field.
+4.  On the CMDB Integration Studio Application Data Source form, check **Execute Before Script** or **Execute After Script**. Review the **Before Script** and **After Script** comments and enter your custom scripts at the bottom of the script field.
 
     The comments in the script fields provide details for the before and after scripts. Use those guidelines, explanations such as what operations are supported, and examples when creating your custom script.
 
-6.  Click **Update**.
+5.  Click **Update**.
 
 
 **Related topics**  
 
 
-[Identification and Reconciliation engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
+[Identification and Reconciliation Engine \(IRE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire.md)
 

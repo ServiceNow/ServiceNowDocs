@@ -1,5 +1,5 @@
 ---
-title: Schedule a growth conversation
+title: Schedule a growth conversation in Career Conversations
 description: Use the Career Conversations app to simultaneously create and schedule a one-time or recurring conversation with your employee or manager. For each conversation you schedule, discuss the employee's growth and development as a professional within your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/career-conversations/egd-act-schd-growth-conversation.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Career Conversations application, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Schedule a growth conversation
+# Schedule a growth conversation in Career Conversations
 
 Use the Career Conversations app to simultaneously create and schedule a one-time or recurring conversation with your employee or manager. For each conversation you schedule, discuss the employee's growth and development as a professional within your organization.
 

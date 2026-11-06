@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -82,6 +82,8 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
     -   If any errors occur during the upload, a pop-up window displays the error.
     -   If the **Publish** check box is activated, knowledge articles go into **Review** or **Published** state, depending on the workflow attached to the knowledge base.
     -   If the **Publish** check box is not activated, the knowledge articles go into **Draft** state and are then reviewed before publishing.
+
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/using-knowledge-management.md)
 
 **Related topics**  
 

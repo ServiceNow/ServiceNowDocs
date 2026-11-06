@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-facet-customer-central.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create facets for activity contexts
@@ -21,21 +21,19 @@ Learn more about configuring facets from the following video tutorial.
 -   Role required: admin
 -   Ensure that the application scope is set to Customer Central.
 
-**Note:** Customer Activity has been renamed to Customer History, with no changes to its functionality. References to the previous name will be updated in a future release.
-
 ## About this task
 
 An activity context is the person or user who is interacting with the customer service agent. There are two predefined activity contexts: consumer and contact. Facets group the data, which enables customer service agents to filter and display the data they want to see in the activity feed. Each facet represents an activity group.
 
-Facets are displayed in the Customer History view in Agent Workspace. Dynamic facets display record details associated with the facet.
+Facets are displayed in the Customer History view in CRM Workspace. Dynamic facets display record details associated with the facet.
 
-\[Omitted image "dynamic-facet.png"\] Alt text: Customer Activity tab displaying Cases facet with list of cases and with a brief description.
+\[Omitted image "dynamic-facet.png"\] Alt text: Customer History tab displaying Cases facet with list of cases and with a brief description.
 
-Static facets display a subcategorization of the facets without any record details. \[Omitted image "static-facet.png"\] Alt text: Customer Activity tab with the Interactions facet highlighted.
+Static facets display a subcategorization of the facets without any record details. \[Omitted image "static-facet.png"\] Alt text: Customer History tab with the Interactions facet highlighted.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer Activity** &gt; **Guided Setup**.
+1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer History** &gt; **Guided Setup**.
 
 2.  Select **Get Started** under Activity Contexts.
 
@@ -65,7 +63,7 @@ Name
 
 </td><td>
 
-Enter a Name for the facet. This is the name of the facet that appears on the Customer Activity view.
+Enter a Name for the facet. This is the name of the facet that appears on the Customer History view.
 
 </td></tr><tr><td>
 

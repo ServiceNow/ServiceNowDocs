@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AES and the ServiceNow Store, Installing App Engine Studio, Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Get entitlement for AES apps
@@ -32,13 +32,9 @@ Role required: admin
 
 2.  Select **Sign In** and log in using your Now Support credentials.
 
-    \[Omitted image "servicenow-store-products-login-2.jpg"\] Alt text: ServiceNow Store products and login
-
     Integrations and other types of content appear on the **Certified Apps** tab.
 
 3.  Select the **ServiceNow Products** tab to view all available ServiceNow products.
-
-    \[Omitted image "store-aes-product.jpg"\] Alt text: ServiceNow Store App Engine Studio installation link
 
 4.  Select **App Engine Studio**.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use knowledge subscriptions, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,4 +40,6 @@ Users can subscribe to a knowledge article from either the Knowledge Management 
 
     The system shows an information message about the article subscription and the button toggles to **Subscribed**. If the email notification contains an article link, the link points to the Knowledge Management Service Portal. The email notification for a subscribed article includes the knowledge article ID, short description, and link to the article.
 
+
+**Parent Topic:**[Use knowledge subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-knowledge-subscriptions.md)
 

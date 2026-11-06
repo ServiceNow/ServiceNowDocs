@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [EMR Help data model tables, EMR Help reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Request configuration mapping table

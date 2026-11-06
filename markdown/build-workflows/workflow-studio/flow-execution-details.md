@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-05-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Exploring flows, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow execution details
@@ -205,13 +205,13 @@ The calling source lists what started a flow, subflow, or action.
 
 Workflow Studio displays large text-based configuration and runtime output records, such as email output, XML payloads, or script steps using an embedded text viewer. The embedded text viewer can format text as HTML, plain text, or color-coded JavaScript. For script steps, the text viewer highlights code lines containing errors.
 
-\[Omitted image "execution-details-embedded-editors.png"\] Alt text: Sample script
+\[Omitted image "flow-statistics-script-view.png"\] Alt text: Sample script
 
 ## Viewing results for each item in flow logic
 
 Workflow Studio displays a selector control to view the configuration and runtime results for each item processed by flow logic. Select a record number to see its configuration and runtime details.
 
-\[Omitted image "example-flow-logic-for-each.png"\] Alt text: For Each flow logic
+\[Omitted image "flow-runtime-statistics.png"\] Alt text: Flow runtime statistics.
 
 ## Subflow execution details
 
@@ -282,6 +282,4 @@ fd\_read\_operations
 </table>## Run with roles support
 
 When a flow runs with one or more privileged roles, a user must also have these privileged roles to see the flow execution details. For example, if a flow runs as System, then a user must have the admin role to view its flow execution details. In addition, if a flow runs with a role that can access field encryption, then a user must also have that role in order to view its flow execution details. For more information about field encryption and roles, see [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/field-encryption.md).
-
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)
 

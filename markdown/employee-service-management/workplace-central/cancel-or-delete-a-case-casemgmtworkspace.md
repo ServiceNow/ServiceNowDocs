@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -55,9 +55,9 @@ Role required: admin \(to delete a case\) and sn\_wsd\_case.manager \(to cancel 
 
     **Important:** Only an admin can delete a case. A case admin can delete only a workplace case, a move admin can delete only a move case and, a maintenance admin can delete only a maintenance case.
 
-    1.  On the case details page, select More actions \(\).
+    1.  On the case details page, select the Delete icon \(\).
 
-        **Note:** The option appears only if you are an admin.
+        **Note:** These option appears only for workplace users with admin rights.
 
     2.  Select **Delete**.
 
@@ -78,4 +78,8 @@ Role required: admin \(to delete a case\) and sn\_wsd\_case.manager \(to cancel 
 [Create a workplace service case]()
 
 [Create a child case and a child task]()
+
+[Print a workplace case]()
+
+[Managing print case]()
 

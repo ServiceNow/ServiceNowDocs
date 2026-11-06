@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Request a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Submit a change event request for a reservation
@@ -53,7 +53,7 @@ Role required: sn\_wsd\_core.workplace\_user
     For more information, see [View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/view-case-change-event-reservation.md) and [Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md).
 
 
-**Parent Topic:**[Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

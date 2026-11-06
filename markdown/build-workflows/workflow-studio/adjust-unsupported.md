@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using decision tables, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify Decision Tables in the Classic UI
@@ -36,14 +36,14 @@ Some decision rules may not be supported in Workflow Studio. These decisions are
 
 ## Decision tables with unsupported input data types
 
-If an input has an unsupported data type, you can change only the input label and the **Mandatory** toggle switch. The input data type is read-only, and you can’t add new condition columns.
+If an input has an unsupported data type, you can change only the input label and the **Mandatory** toggle switch. The input data type is read-only, and you cannot add new condition columns.
 
 ## Decision tables with unsupported conditions
 
 If a condition column has an unsupported data type, you can still change the label and description. The input and default operator are read-only.
 
--   In an unsupported condition column, cells without values are inactive. Users must use the decision rule view to enter a value.
--   When a value is entered for an unsupported condition column, the resulting decision row is an unsupported decision.
+-   In an unsupported condition column, cells without values are inactive. Users must use decision rule view to enter a value.
+-   When a value is entered for an unsupported condition column, the resulting decision row will be an unsupported decision.
 
 **Parent Topic:**[Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/using-decision-builder.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
 # Instantiating your network inventory by using design and assign
@@ -40,6 +40,8 @@ The record producers capture the data that you must enter to perform the invento
 
 -   **[Create a change request from Network Inventory Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_in_tni.md)**  
 Create, review, update, or close a change request for a change model from the network inventory workspace of the Telecommunications Network Inventory application. You can also analyze the instantiation details of the network instance.
+-   **[Create and execute a change task in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md)**  
+Create a change task after you create a change request in the Telecommunications Network Inventory application. By creating a change task, you can complete the requested change.
 -   **[Create a Link Aggregation Group using design and assign function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create_a_change_request_by_using_the_design_assign_link_aggregation_group.md)**  
 Design and assign a Link Aggregation Group \(LAG\) with the creation of Ethernet connections in the Telecommunications Network Inventory application. By creating a LAG connection, you can fulfill an order request from the customer.
 -   **[Add or remove a member to Link Aggregation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-a-change-request-to-add-or-remove-member-to-link-aggregation.md)**  
@@ -58,8 +60,6 @@ Modify a network topology record using the design and assign function in the Tel
 Create a cable record using the design and assign function in the Telecommunications Network Inventory application. By creating the cable and related strand records, you can fulfill an order request for a fiber optical cable record.
 -   **[Create an equipment record by using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-equipment-record-design-and-assign.md)**  
 Create an equipment record using the design and assign function in the Telecommunications Network Inventory application. By creating the equipment and its related inventory records, you can fulfill an order request for an equipment record.
--   **[Create and execute a change task in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-change-task-in-tni.md)**  
-Create a change task after you create a change request in the Telecommunications Network Inventory application. By creating a change task, you can complete the requested change.
 -   **[Add a card to equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/add-card-equipment-design-assign-function.md)**  
 Add a card to equipment record using design and assign function in the Telecommunications Network Inventory application. By adding a card, you can fulfill an order request for a customer requirement.
 -   **[Add an equipment or rack to logical composite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/add-equipment-rack-logical-composite.md)**  
@@ -70,6 +70,8 @@ Remove a rack or equipment from a logical composite using design and assign.
 Add equipment to a rack or cabinet using design and assign function in the Telecommunications Network Inventory application. By adding the equipment to rack, you can fulfill a customer order request.
 -   **[Remove an equipment or shelf from a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/remove-equipment-shelf-rack-cabinet.md)**  
 Remove an equipment or shelf from a rack or cabinet using design and assign function in the Telecommunications Network Inventory application. By removing the equipment from rack, you can fulfill a customer order request.
+-   **[Data center infrastructure rack allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-rack-allocation.md)**  
+Data center infrastructure allocation reserves rack unit space in a data center. The allocation is based on the requirements specified in a change request and the placement policies that you have configured.
 -   **[Create logical connection record using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-record-using-design-assign.md)**  
 Create a logical connection record using the design and assign function in the Telecommunications Network Inventory application. By creating the logical connection and its related inventory records, you can fulfill an order request for an equipment record.
 -   **[Create physical connection using design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-design-assign.md)**  
@@ -78,6 +80,8 @@ Create an physical connection record using the design and assign function in the
 Revise a CI \(Configuration Item\) of the connection to update a CI in the Telecommunications Network Inventory application.
 -   **[Operationalize a configuration item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/operationalize-a-configuration-item.md)**  
 Operationalize a Configuration Item so that you can finalize the changes and apply them on the original CI.
+-   **[Allocate phone number](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/allocate-phone-number.md)**  
+The phone number allocation change model enables you to design and assign the required telephone number from a pool or standalone telephone number format.
 
 **Parent Topic:**[Using Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-telecom-network-inventory.md)
 

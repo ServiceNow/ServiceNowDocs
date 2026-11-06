@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-workspace-personas.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -32,7 +32,7 @@ ESG Administrator
 
 </td><td>
 
-Set up the ESG Management application so that it can be used by the users. -   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-material-topics.md)
+Set up the Operational Sustainability Management application so that it can be used by the users. -   [Create material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-material-topics.md)
 -   [Create an Operational Sustainability Management \(formerly ESG Management\) goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-esg-goal.md)
 -   [Set targets for goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/create-esg-target.md)
 -   [Add a goal to a material topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/associate-a-goal-to-mt.md)

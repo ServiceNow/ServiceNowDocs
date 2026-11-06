@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/adm-additional-resources.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer the ServiceNow AI Platform]
 ---
@@ -598,18 +598,6 @@ Upgrade Center
 
 </td><td>
 
-Release notes
-
-</td><td>
-
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/upgrade-center-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/upgrade-center-rn.md)
-
-</td></tr><tr><td>
-
-Upgrade Center
-
-</td><td>
-
 Training
 
 </td><td>
@@ -617,6 +605,18 @@ Training
 [Upgrade Center overview](https://learning.servicenow.com/lxp/en/now-platform/upgrade-center-overview?id=learning_course_prev&course_id=3c16fd09db3e8150a87c2d3d56961968)
 
  [Upgrade Skipped Records](https://learning.servicenow.com/lxp/en/now-platform/upgrade-skipped-records?id=learning_course_prev&course_id=0e2e91cddbba8150a87c2d3d569619fa)
+
+</td></tr><tr><td>
+
+Upgrade Management
+
+</td><td>
+
+Release notes
+
+</td><td>
+
+
 
 </td></tr><tr><td>
 

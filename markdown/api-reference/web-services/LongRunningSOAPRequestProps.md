@@ -1,5 +1,5 @@
 ---
-title: LongRunningSOAPRequestProps
+title: Long-running SOAP request properties
 description: The following properties are available for long-running SOAP requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/LongRunningSOAPRequestProps.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
-# LongRunningSOAPRequestProps
+# Long-running SOAP request properties
 
 The following properties are available for long-running SOAP requests.
 

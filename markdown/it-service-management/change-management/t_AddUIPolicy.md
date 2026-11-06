@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tutorial: add a new change management state, Reference section for Change Management, Change Management, IT Service Management]
+breadcrumb: [Tutorial: Add a new change management state, Reference, Change Management, IT Service Management]
 ---
 
 # Add a UI policy
@@ -18,17 +18,21 @@ Add a UI policy to display the **Needs review** field for **Normal** change requ
 
 ## Before you begin
 
+The **Needs review** field must exist on the Change Request \[change\_request\] table.
+
+**Note:** A UI policy action can reference only a field that exists on the table. If the field does not exist, create it before configuring the UI policy action. For more information, see [Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateCustomField.md).
+
 Role required: admin
 
 ## Procedure
 
-1.  Open the **Change Request** form.
+1.  Open the Change Request form.
 
 2.  Open the form context menu and select **Configure** &gt; **UI Policies**.
 
 3.  Select **New**.
 
-4.  Enter the following values on the **UI Policy** form.
+4.  On the UI Policy form, enter the following values.
 
 <table id="table_ecg_y2m_b1b"><thead><tr><th>
 
@@ -60,14 +64,14 @@ Conditions
 
 </td><td>
 
-\[Type\] \[is\] \[Normal\]\[State\] \[is one of\] \[Review, Complete, Closed\]
+\[**Type**\] \[**is**\] \[**Normal**\]\[**State**\] \[**is one of**\] \[**Review, Complete, Closed**\]
 
 </td></tr></tbody>
 </table>5.  Open the form context menu and select **Save** to create the UI Policy record and stay on the form.
 
     The **UI Policy Actions** related list appears.
 
-6.  Select **New** in the **UI Policy Actions** related list.
+6.  In the UI Policy Actions related list, select **New**.
 
 7.  Enter the following values.
 
@@ -77,10 +81,10 @@ Conditions
     |Mandatory|True|
     |Visible|True|
 
-8.  Select **Submit** to create the UI Policy action and return to the **UI Policy** form.
+8.  Select **Submit** to create the UI Policy action and return to the UI Policy form.
 
 
-**Parent Topic:**[Tutorial: add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)
+**Parent Topic:**[Tutorial: Add a new change management state](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddNewStateTutorial.md)
 
 **Previous topic:**[Create a custom field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateCustomField.md)
 

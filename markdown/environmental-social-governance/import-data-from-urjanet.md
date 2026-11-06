@@ -1,18 +1,18 @@
 ---
 title: Import meter details from Urjanet
-description: Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the ESG Management application for reporting purposes. The details are imported in the form of entities.
+description: Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the Operational Sustainability Management application for reporting purposes. The details are imported in the form of entities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/import-data-from-urjanet.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Import meter details from Urjanet
 
-Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the ESG Management application for reporting purposes. The details are imported in the form of entities.
+Using scheduled jobs, import meter details such as meter number, meter ID, and so on from Urjanet into the Operational Sustainability Management application for reporting purposes. The details are imported in the form of entities.
 
 ## Before you begin
 

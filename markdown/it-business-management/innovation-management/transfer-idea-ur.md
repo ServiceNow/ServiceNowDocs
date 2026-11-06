@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrate, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Integrating Innovation Management with Universal Request, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Transfer an Idea to another department
@@ -18,7 +18,7 @@ Transfer an idea to another department with or without resolution if the idea is
 
 ## Before you begin
 
-Ensure that the following requirements are met:
+Confirm that the following requirements are met:
 
 -   The idea is created from a universal request.
 -   The idea is associated with a category.
@@ -30,9 +30,9 @@ Role required: Agent to whom the idea is assigned or is a part of the assigned w
 
 ## About this task
 
-If the idea is rejected or cannot be implemented, transfer the idea to another department as an HRC, incident, or a custom task.
+If the idea is rejected or can't be implemented, transfer the idea to another department as an HRC, incident, or a custom task.
 
-When an idea is transferred to another department, the idea is closed and a new record is created. For example, a universal request related to HR process improvement can be converted to an idea and then transferred to the HR department as an HRC when the idea is deemed not feasible.
+When an idea is transferred to another department, the idea is closed and a new record is created. A HR process improvement request can be converted to an idea and transferred to the HR department as an HRC when the idea is deemed not feasible.
 
 ## Procedure
 
@@ -40,7 +40,7 @@ When an idea is transferred to another department, the idea is closed and a new 
 
 2.  Select the title of an idea to view its details.
 
-3.  Select the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon\), and then click the **Open in platform** option to open the idea in the form view.
+3.  Select the more options icon \(\[Omitted image "more-options-icon.png"\] Alt text: More options icon\), and then select the **Open in platform** option to open the idea in the form view.
 
 4.  Select **Transfer**.
 

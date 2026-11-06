@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-ppm-configuration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrating with Customer Project Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---
 
 # Integrate with Customer Project Management using Guided Setup
@@ -16,7 +16,7 @@ Use the Customer Service Management Guided Setup to configure Customer Project M
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/view-sightings-search-results.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create sightings search configuration records, Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -28,8 +28,6 @@ Role required: sn\_si.analyst
 
 2.  Select the **Sightings Search Results** tab from **Show IoC** Related List group to view the list of sightings searches.
 
-    \[Omitted image "ViewSIghtingsSearchResults.png"\] Alt text: View Sightings Search Results
-
     **Note:** This data can be shared with Trusted Security Circle.
 
     |Result|Description|
@@ -45,11 +43,9 @@ Role required: sn\_si.analyst
 
     To view the details of a single search:
 
-3.  Click on a Sightings Search in the **Sightings Search Results** list.
+3.  Select a Sightings Search reult in the **Sightings Search Results** list.
 
     The Sightings Search Result form displays.
-
-    \[Omitted image "SightingsSearchResultDetails.png"\] Alt text: Sightings Search Result details
 
     |Detail|Description|
     |------|-----------|

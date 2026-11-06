@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-07-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Minimum records needed for label to include it
@@ -66,6 +66,8 @@ The setting appears as a row on the **Advanced Solution Setting** tab on your so
 ## What to do next
 
 Retrain your solution.
+
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 

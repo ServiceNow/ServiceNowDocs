@@ -7,7 +7,7 @@ release: yokohama
 product: Tag Governance
 classification: tag-governance
 topic_type: concept
-last_updated: "2026-02-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Tag Governance Insights dashboard, Tag policy coverage, Overall compliance status, CI compliance by infrastructures, Compliance trends, Most used tags, Least used tags]
 breadcrumb: [Explore, Tag Governance, ITOM Visibility, IT Operations Management]
@@ -22,9 +22,8 @@ View metrics like tag policy coverage, compliance status, and usage trends on th
 Verify the following:
 
 -   To be able to configure reports, log in as a Tag Governance admin \(sn\_itom\_tag.tag\_governance\_admin\).
-
 -   To be able to view reports, log in as a report viewer \(sn\_itom\_tag.tag\_reports\_viewer\).
--   Tag policies must be configured and audits must be run to populate data. For more information, see [Configure a tag policy for Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/configure-tag-governance-policy.md).
+-   Tag policies must be configured and audits must be run to populate data. For more information, see [Configure tag policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/configure-tag-governance-policy.md).
 
 ## Access the dashboard
 

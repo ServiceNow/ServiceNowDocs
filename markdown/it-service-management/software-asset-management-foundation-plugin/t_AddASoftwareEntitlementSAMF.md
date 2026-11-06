@@ -1,5 +1,5 @@
 ---
-title: Create a Software Asset Management Foundation plugin entitlement in classic
+title: Create a SAM Foundation entitlement
 description: Software entitlements enable you to define license details that are matched to software models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/t\_AddASoftwareEntitlementSAMF.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 5
-breadcrumb: [Configuring Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Create a Software Asset Management Foundation plugin entitlement in classic
+# Create a SAM Foundation entitlement
 
 Software entitlements enable you to define license details that are matched to software models.
 
@@ -24,7 +24,7 @@ Role required: sam\_user
 
 Software entitlements are stored in the Software Entitlement \[alm\_license\] table.
 
-**Note:** Entitlements are assigned to [Create a Software Asset Management Foundation plugin software model in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md), which are different than software discovery models.
+**Note:** Entitlements are assigned to [Create a SAM Foundation software model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareModelSAMF.md), which are different than software discovery models.
 
 ## Procedure
 
@@ -285,8 +285,8 @@ Number of rights to upgrade.
         |Software entitlement|Software entitlement associated with the license key.|
 
 
--   **[Create a Software Asset Management Foundation plugin entitlement allocation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddAnEntitlementAllocationSAMF.md)**  
+-   **[Create a SAM Foundation entitlement allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddAnEntitlementAllocationSAMF.md)**  
 A user or device allocation can be added to a software entitlement to specify a user or device to which rights have been allocated.
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

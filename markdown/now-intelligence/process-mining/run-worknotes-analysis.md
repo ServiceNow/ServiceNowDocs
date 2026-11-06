@@ -1,33 +1,28 @@
 ---
-title: Run work notes analysis
-description: Generate a work notes analysis on a transition. 50 transition records are required to trigger work notes analysis, and 25 work notes must be eligible.
+title: Run transition work notes analysis
+description: Generate a transition work notes analysis on a transition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/run-worknotes-analysis.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist for Process Mining, Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
-# Run work notes analysis
+# Run transition work notes analysis
 
-Generate a work notes analysis on a transition. 50 transition records are required to trigger work notes analysis, and 25 work notes must be eligible.
+Generate a transition work notes analysis on a transition.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin and you must have the `now.assist.creator` role.
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
-**Note:** Work notes with more than 5 words and fewer than 100 words are considered for the analysis.
+**Note:** Transition work notes with more than 5 words and fewer than 100 words are considered for the analysis.
 
-Now assists are charged dynamically.
-
-**Important:**
-
--   250 Now assists are charged per request. There is no limitation of work notes per request. You can load more results for the same request with no extra charge.
--   If results are not displayed, then Now assists are not charged.
+You can use AI for work notes analysis even with 5-50 eligible work notes. If there are less than 25 eligible work notes, the system will not run clustering, but will put all the work notes into one LLM call, otherwise clustering will be performed before calling the LLM.
 
 ## Procedure
 
@@ -35,7 +30,7 @@ Now assists are charged dynamically.
 
 2.  From the list of projects, select a project.
 
-3.  Select any transition.
+3.  Select any transition or node on the Analyst workbench.
 
     A window is displayed with all the details.
 
@@ -49,10 +44,10 @@ Now assists are charged dynamically.
 
     The result is displayed.
 
-    \[Omitted image "na-worknotes-result.png"\] Alt text: Work notes analysis result using Now Assist
+    \[Omitted image "na-worknotes-result.png"\] Alt text: Work notes analysis result using ServiceNow Otto
 
     Use the thumbs up and thumbs down icons to provide feedback for the result that you have received.
 
 
-**Parent Topic:**[Using Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/use-na-process-mining.md)
+**Parent Topic:**[Using ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/use-na-process-mining.md)
 

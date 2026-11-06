@@ -7,8 +7,9 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [Risk and compliance tab, compliance dashboard, AI risk classification]
 breadcrumb: [AI Risk and Compliance workspace, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -24,13 +25,15 @@ AI assets refer to the various components and resources that are essential for t
 
 Understanding and managing these AI assets is crucial for ensuring that AI systems are effective, reliable, and compliant with regulatory and ethical standards as defined by your organization.
 
-The Risk &amp; compliance dashboard has the following sections. You can drill-down into the data on each widget in any section.
+The Risk &amp; compliance dashboard has the following sections. You can drill down into the data on each widget in any section.
+
+**Note:** Dashboards in the AI Risk and Compliance Workspace \(Risk and Compliance, Operations, and AI Cases\) display data for **Managed** AI assets only. AI assets that are marked as **Unmanaged** are excluded from dashboard widgets, metrics, and summary counts, but remain visible in inventory and list views. If you have the AI steward \[sn\_ai\_governance.ai\_steward\] role, you can mark assets as Managed or Unmanaged. For more information, see .
 
 ## Compliance overview
 
 -   **Regulatory risk classification**
 
-    This section displays the risk classifications of AI systems, AI models, Datasets using donut charts. The risks are qualitatively classified as **High**, **Low**, **Medium**, and **Unacceptable**. These classifications are based on the risk assessments of the AI assets.
+    This section displays the risk classifications of AI systems, AI models, Datasets using donut charts. The risks are qualitatively classified as **Low**, **Medium**, **High**, **Unacceptable**, **Critical**, and **To be determined**. These classifications are based on the risk assessments of the AI assets.
 
 -   **Compliance by authority documents and policies**
 
@@ -40,7 +43,7 @@ The Risk &amp; compliance dashboard has the following sections. You can drill-do
     -   EU Artificial Intelligence Act: This framework has multiple chapters that are displayed as citations and child citations. Each citation is mapped to a control objective to provide you with a compliance percentage score.
     You can choose to view compliance data by selecting one of two options: **Authority Documents** or **Policies**. Additionally, you can view the overall compliance score percentage, along with the number of compliant and non-compliant authority documents and policies, by using the drop-down filter to select specific authority documents or policies. You can also see all the issues that require immediate attention and AI cases related to each authority document or policy.
 
-    The authority documents are provided solely for informational and guidance purposes to assist with the initial setup of AI Risk and Compliance frameworks. It does not constitute legal advice or assurance of regulatory compliance. You are solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions.
+    The authority documents are provided solely for informational and guidance purposes to assist with the initial setup of AI Risk and Compliance frameworks. It doesn’t constitute legal advice or assurance of regulatory compliance. You’re solely responsible for ensuring that all use of the content complies with applicable laws, regulations, directives, and industry standards in their jurisdictions.
 
     **Note:** You can configure which authority documents and policies you want to display on the home page. For more information, see [Set up properties for compliance posture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-properties.md).
 
@@ -51,11 +54,11 @@ This section monitors and tracks the risk posture of the AI assets in your organ
 
 -   **AI systems by aggregated risk score**
 
-    This section displays the classifications of AI systems by aggregated risk score using donut chart. The risk scores are qualitatively classified as **High** and **Low**.
+    This section displays the classifications of AI systems by aggregated risk score using donut chart. The risk scores are qualitatively classified as **Low**, **Medium**, and **High**.
 
 -   **Risk heatmap**
 
-    The Risk heatmap widget displays the visualization of all identified risks within the AI assets. By default, residual risk filter is applied, but you can filter it based on inherent risk level. The heatmap is segmented, and the segmentation changes based on the filter. The activities fall under the respective combination of risk and control effectiveness, or impact and likelihood. The combination is based on the selected risk classification filter. You can filter the risk heatmap by Risk Assessment Methodology \(RAM\), if you have more than one risk RAMs published.
+    The Risk heatmap widget displays the visualization of all identified risks within the AI assets. By default, a residual risk filter is applied, but you can filter it based on inherent risk level. The heatmap is segmented, and the segmentation changes based on the filter. The activities fall under the respective combination of risk and control effectiveness, or impact and likelihood. The combination is based on the selected risk classification filter. You can filter the risk heatmap by Risk Assessment Methodology \(RAM\), if you have more than one risk RAMs published.
 
 
 ## Regulatory landscape overview
@@ -65,18 +68,27 @@ You need to install GRC: Regulatory Change Management application to see this se
 -   **Overview**
     -   Alerts
 
-        This section displays the distribution of regulatory alerts by workflow state or lifecycle phase using a donut chart.
+        This section displays the distribution of regulatory alerts by workflow state or life cycle phase using a donut chart.
 
     -   Change tasks
 
-        This section displays the distribution of regulatory change tasks by workflow state or lifecycle phase using a donut chart.
+        This section displays the distribution of regulatory change tasks by workflow state or life cycle phase using a donut chart.
 
 -   **Assessments**
 
-    This section displays the regulatory impact assessments and risk assessments linked to regulatory changes using a donut chart. By default, regulatory assessments filter is applied, but you can change it to risk assessments.
+    This section displays the regulatory impact assessments and risk assessments linked to regulatory changes using a donut chart. By default, the regulatory assessments filter is applied, but you can change it to risk assessments.
 
 
 The following image shows the Risk &amp; compliance dashboard.
 
 \[Omitted image "ai-risk-compliance-workspace.png"\] Alt text: The dashboard monitors and manages the risk and compliance posture of the AI assets in your organization.
+
+**Related topics**  
+
+
+[AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md)
+
+[Set up AI Risk and Compliance properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/configure-airc-properties.md)
+
+[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
 

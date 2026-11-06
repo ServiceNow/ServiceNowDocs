@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install the Edge Encryption proxy server using the interactive installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -26,9 +26,7 @@ Role required: admin
 
 2.  If an issue is detected, or to check the status of your proxy server, you can click **Check Status** to verify that the proxy is running.
 
-    A message displays the proxy status.
-
-    \[Omitted image "Madrid-Edge-Installer-End.png"\] Alt text: Proxy status
+    A message displays the proxy status.\[Omitted image "Madrid-Edge-Installer-End-2.png"\] Alt text: Proxy status
 
 
 ## What to do next

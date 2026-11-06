@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,7 +40,7 @@ Steps to create profiles for scheduled alert ingestion
 
 ## Procedure
 
-1.  To create an event profile for an alert, in your ServiceNow AI Platform instance, navigate to **Splunk Integration** &gt; **Splunk Event Profile**.
+1.  To create an event profile for an alert, in your ServiceNow AI Platform instance, navigate to **Splunk ES Integration** &gt; **Splunk ES Event Profiles**.
 
 2.  If the Splunk Event Profile form is not displayed, click **Name** in the Progress bar.
 
@@ -199,7 +199,7 @@ Text to help you distinguish this profile from other profiles.
 
         For a profile with an existing field mapping, refer to the following figure and table for more information.
 
-        \[Omitted image "copy\_mapping.png"\] Alt text: Search icon highlighted for copy existing mapping option.
+        \[Omitted image "copy\_mapping.png"\] Alt text: Copy an existing mapping option.
 
 <table id="table_epm_wqf_dhb"><thead><tr><th>
 

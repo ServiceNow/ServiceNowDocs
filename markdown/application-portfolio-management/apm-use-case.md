@@ -1,16 +1,16 @@
 ---
-title: Enterprise Architecture \(formerly Application Portfolio Management\) and CSDM tables
+title: Enterprise Architecture and CSDM tables
 description: Enterprise Architecture manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Enterprise Architecture.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/apm-use-case.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework, Configure, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Enterprise Architecture and CSDM framework, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Architecture \(formerly Application Portfolio Management\) and CSDM tables
+# Enterprise Architecture and CSDM tables
 
 Enterprise Architecture manages and uses CSDM tables. Several ServiceNow products benefit from and add value to Enterprise Architecture.
 
@@ -26,16 +26,6 @@ Enterprise Architecture manages and uses CSDM tables. Several ServiceNow product
     The relationship connects the record of the business application that is used in planning and design with where and how it’s realized operationally, represented by application services. The relationship accounts for each use of a business application in the development, test, and production environments \(dev, test, and prod application service instances\). Often there are multiple production deployments. For example, a large retailer uses a business application that runs a cash register in each of its 1,000 stores. There are therefore 1,000 production instances of the application service — one per store — for that one business application. [See the "CSDM in a nutshell" video](https://www.youtube.com/watch?v=EnlhMhP2FsM&list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK&index=34) for additional discussion of the relationship.
 
 3.  Information Object table \[cmdb\_ci\_information\_object\]
-
-\[Omitted image "apm-magaged-tables-csdm4.0.png"\] Alt text: CSDM tables managed by APM.
-
-## CSDM tables used by Enterprise Architecture
-
--   Mapped Application Service table \[cmdb\_ci\_service\_discovered\]
--   Business Capability table \[cmdb\_ci\_business\_capability\]
--   Business Application table \[cmdb\_ci\_business\_app\]
--   Information object table \[cmdb\_ci\_information\_object\]
--   SDLC Component table \[cmdb\_ci\_sdlc\_component\]
 
 ## Products that add value to Enterprise Architecture
 
@@ -56,5 +46,10 @@ The following ServiceNow products gain value from Enterprise Architecture:
 -   Governance, Risk, and Compliance \(GRC\): Auditors can leverage the business applications and related information objects. This helps auditors understand the design-time data sensitivity for scoping audits, measuring risks, and managing audit activities.
 -   Asset Management: Manages the software and hardware life cycles for business applications and business services.
 
-**Parent Topic:**[Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-use-case-product-view.md)
+
+**Related topics**  
+
+
+[Exploring the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-content-frame-exploring.md)
 

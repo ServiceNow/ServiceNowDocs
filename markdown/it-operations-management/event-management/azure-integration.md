@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Azure Monitor as an authenticated data source
@@ -29,6 +29,7 @@ Once the endpoint is configured, when an Azure Monitor alert message arrives, Ev
 There are two methods of authentication:
 
 -   OAuth authentication: Provides enterprise-grade authentication to keep your enterprise environment safe. Authentication is performed using Azure Monitor V1 or V2 access tokens. For more information, see [Integrate Azure Monitor with OAuth authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/azure-events-authentication.md).
+-   API key authentication: Integrate using API key to secure communication between Azure and ServiceNow. For more information, see [Integrate Azure with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/integrate-azure-api-key.md).
 -   Basic webhook authentication: Provides a basic standard of authentication, without the need for Azure Active Directory. This authentication can be especially useful for distributed small teams, such as SRE or DevOps teams. For more information, see [Integrate Azure Monitor with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/azure-events-webhook.md).
 
 ## What to know before you begin
@@ -37,7 +38,7 @@ You can use your integrated Azure Monitor as a data source only after you have v
 
 -   For both methods of authentication, the relevant ServiceNow sys\_user is assigned the evt\_mgmt\_integration role.
 -   The Event Management Connectors plugin is installed in the ServiceNow AI Platform instance. You can download the plugin from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
--   Azure Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Discovery for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md).
+-   Azure Cloud Discovery must be performed to ensure that the created alerts are bound to the configuration items in the ServiceNow AI Platform. For more information, see [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md).
 
 ## Event Rules and Event Field mappings
 
@@ -58,7 +59,7 @@ Starting from the Xanadu release, the OOTB \(Out-Of-The-Box\) rules provided wit
 
 **Note:** This feature applies only to active event rules.
 
-If you want to send alert state changes on the ServiceNow instance from the ServiceNow alerts to the Azure Portal, you need to enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
+To send alert state changes from the ServiceNow instance to the Azure Portal, enable the Azure Monitor Bi-directional connector. For more information, see [Configure Azure Monitor Bi-directional connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-azure-bi-directional-connector.md).
 
 ## Severity mapping from Azure severity to ServiceNow event severity
 
@@ -72,6 +73,8 @@ If you want to send alert state changes on the ServiceNow instance from the Serv
 |When an Azure alert monitorCondition is resolved|
 |Any Azure severity|ServiceNow CLEAR \(severity "0"\)|
 
+-   **[Azure Monitor Issue integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/azure-monitor-issue-integration.md)**  
+An Azure Issue is a unified case that aggregates related alerts and signals from Azure Monitor into a single, trackable operational problem. It preserves investigation context and serves as a durable record for incident management Incident Management, so you can resolve problems faster instead of tracking scattered alerts.
 -   **[Integrate Azure Monitor with basic authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/azure-events-webhook.md)**  
 Integrate Microsoft Azure with Event Management by adding a standard webhook in Azure Monitor.
 -   **[Integrate Azure with REST API key token](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/integrate-azure-api-key.md)**  

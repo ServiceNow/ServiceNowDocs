@@ -7,20 +7,20 @@ release: yokohama
 product: Access Control
 classification: access-control
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Access Control Lists, Access Control List Rules, Access Management]
+breadcrumb: [Explore Access Control Lists, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # ACL control of function fields
 
 When evaluating access to a function field, in addition to checking access to the function field itself, the system also checks access to the function's contributing fields. Contributing fields are those used as the arguments in a given function definition.
 
-For more information about function fields, see [Function field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/platform-support-functions.md).
+For more information about function fields, see Function field.
 
 In Rome and earlier, the system simply checks access to the function field itself \(as with any other field\). If the ACLs on that field allow access, the user receives the resulting value, regardless of whether the user has access to the contributing fields.
 
-In Yokohama and later, the system also requires access to all contributing fields in order to allow access to the function field. If one or more of the contributing field ACLs refuse access, the function field also refuses access.
+In Brazil and later, the system also requires access to all contributing fields in order to allow access to the function field. If one or more of the contributing field ACLs refuse access, the function field also refuses access.
 
 The only operations affected by the new requirement are read and report\_view. Report\_view has its own additional requirements.
 

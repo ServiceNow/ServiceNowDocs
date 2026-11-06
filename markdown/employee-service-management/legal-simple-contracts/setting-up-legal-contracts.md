@@ -1,5 +1,5 @@
 ---
-title: Setting up Legal Simple Contracts
+title: Configure Legal Simple Contracts
 description: Set up the foundation data for legal simple contracts so employees can use them to submit a legal request to the legal department.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-simple-contracts/setting-up-legal-contracts.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Setting up Legal Simple Contracts
+# Configure Legal Simple Contracts
 
 Set up the foundation data for legal simple contracts so employees can use them to submit a legal request to the legal department.
 

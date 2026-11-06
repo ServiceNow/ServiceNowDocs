@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Qualify a work order, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Qualify a work order, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Request additional information to qualify a work order
@@ -32,6 +32,4 @@ Role required: wm\_dispatcher or wm\_admin
 
     The task state changes to **Draft** and the work order state changes to **Awaiting Qualification**. If Field Service Management is configured for [automatic qualification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_QualifyWorkOrders.md), the work order state remains at **Qualified**.
 
-
-**Parent Topic:**[Qualify a work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_QualifyWorkOrders.md)
 

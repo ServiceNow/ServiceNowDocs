@@ -1,20 +1,20 @@
 ---
 title: Configure Gen AI Virtual Agent for HRSD
-description: Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can increase self-service and reduce operating costs.
+description: Requesters can use a conversational, generative AI experience to submit catalog item requests in Virtual Agent. This streamlined experience increases self-service and reduces operating costs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/use-genai-ec.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure Gen AI Virtual Agent for HRSD
 
-Enable your requesters to have a streamlined, conversational experience that is based on generative AI as they submit a catalog item request in Virtual Agent. By offering this generative AI experience, your organization can increase self-service and reduce operating costs.
+Requesters can use a conversational, generative AI experience to submit catalog item requests in Virtual Agent. This streamlined experience increases self-service and reduces operating costs.
 
 ## Before you begin
 
@@ -42,7 +42,7 @@ When the generative AI experience is configured for catalog item request submiss
 
 1.  Turn on the required Virtual Agent Skills: **Multi-Assist Multi-turn Catalog Ordering** and/or **Now-Assist Q&amp;A Genius Results**.
 
-2.  Set up Now Assist in Virtual Agent.
+2.  Set up ServiceNow Otto in Virtual Agent.
 
     For complete details on how to turn on the skills and set up Gen AI Virtual Agent, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
 
@@ -52,27 +52,4 @@ When the generative AI experience is configured for catalog item request submiss
     -   HR Service Delivery Virtual Agent will be replaced with the Gen AI Virtual Agent.
 
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
-
-**Related topics**  
-
-
-[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[Restrict Now Assist capabilities for employee relations cases]()
-
-[Customize the ServiceNow Otto for HRSD skills]()
-
-[Configure attachment summary]()
-
-[Configure resolution notes generation for ServiceNow Otto for HRSD]()
-
-[Configure sensitivity detection]()
-
-[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
-
-[Configure HCM agents for HR Service Delivery AI Agent Collection]()
-
-[Configure Now Assist AI Helper – Galileo Inside]()
 

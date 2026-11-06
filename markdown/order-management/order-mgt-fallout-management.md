@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-fallout-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
 # Fallout Management data model
 
 Manage and fix the processing issues that occur during the fulfillment of a customer or service order. With Fallout Management, you can identify the order processing exceptions and create a fallout record to investigate and resolve the underlying processing issue. Fallout Management enables a customer or service order to continue until it's completed.
 
-The Fallout Management data model extends the Task table. The following table lists the attributes that apply to order fallout processing.
+The Fallout Management data model extends the Task \[task\] table. The following table lists the attributes that apply to order fallout processing.
 
 <table id="table_as2_qdv_t4b"><thead><tr><th>
 
@@ -68,15 +68,15 @@ Indicator of the current processing state for the fallout record. Unless otherwi
 
 Fallout record that is new and not currently assigned to a person to work on.
 
--   **In Progress**
+-   **In progress**
 
 Fallout record that is assigned and currently being worked on.
 
--   **On Hold**
+-   **On hold**
 
 Fallout record that is on hold. No further fallout processing can take place until you release the hold.
 
--   **Awaiting Information**
+-   **Awaiting information**
 
 Fallout record that is on hold and waiting for more information before processing can proceed.
 
@@ -84,7 +84,7 @@ Fallout record that is on hold and waiting for more information before processin
 
 Fallout issue that has a resolution but you have not formally closed it.
 
--   **Closed Completed**
+-   **Closed complete**
 
 Fallout record that is complete and closed.
 
@@ -109,11 +109,9 @@ Activity
 
 Listing of the processing activities and changes in the field values that have taken place for the fallout record. To expand, collapse, or filter by activity stream:
 
--   Click the activity stream filter icon \(\[Omitted image "activity-stream-filter.png"\] Alt text: Activity stream filter icon.\) to filter by additional comments, attachments, or state.
--   Click the more options icon \(\[Omitted image "more-options.png"\] Alt text: More options icon.\), and then select the appropriate one:
-
-\[Omitted image "more-options-filter.png"\] Alt text: More options selection.
-
+-   Select the activity stream filter icon \[Omitted image "activity-stream-filter.png"\] Alt text: to filter by post types, field changes, or flagged items.
+-   Select the search icon \[Omitted image "field-search.png"\] Alt text: to search the required information in the activity stream.
+-   Select the sort descending icon \[Omitted image "sort-descending-outline-24.svg"\] Alt text: to sort the activity from oldest to newest or select the sort ascending icon \[Omitted image "sort-ascending-fill-24.svg"\] Alt text: for the opposite action.
 
 </td></tr><tr><td>
 
@@ -121,15 +119,17 @@ Attachments
 
 </td><td>
 
-File attachments for the fallout record. Click **Browse** to add the file as an attachment.
+File attachments for the fallout record. Select **Browse** to add the file as an attachment.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-reference.md)
+
+**Related topics**  
 
 
 [Managing order fallout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/fallout-management-overview.md)
 
-[Create automated and manual fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/creating-automated-manual-fallout-records.md)
+[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/creating-automated-manual-fallout-records.md)
 
 [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md)
 

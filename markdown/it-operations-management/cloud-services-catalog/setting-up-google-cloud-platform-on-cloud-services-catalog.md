@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Services Catalog
 classification: cloud-services-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Cloud Services Catalog setup for the Day 1 configuration task, Configuring Cloud Services Catalog, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setup for the Day 1 configuration task, Configure, Cloud Services Catalog, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Setting up Google Cloud Platform on Cloud Services Catalog

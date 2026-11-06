@@ -7,9 +7,9 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data classification, Data privacy \(Store\), Data Privacy, Platform Privacy]
+breadcrumb: [Data classification, Data privacy, Data Privacy, Platform Privacy]
 ---
 
 # Classify data

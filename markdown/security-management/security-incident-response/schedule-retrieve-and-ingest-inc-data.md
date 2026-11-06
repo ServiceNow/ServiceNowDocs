@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -93,7 +93,7 @@ Since date
 The date since historical detections were ingested from CrowdStrike Next-Gen SIEM.
 
 </td></tr></tbody>
-</table>3.  Complete this section of the profile by selecting **Continue**.
+</table>3.  Select **Continue**.
 
 
 ## What to do next

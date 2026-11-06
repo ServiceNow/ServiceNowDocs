@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -167,6 +167,8 @@ The Risk Score Calculator is provisioned with one risk-scoring rule as part of t
 
 **Related topics**  
 
+
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()
 

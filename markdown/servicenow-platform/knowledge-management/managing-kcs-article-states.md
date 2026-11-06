@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -80,10 +80,12 @@ Archived
 
 The governance state of an article indicates which users can manage articles specific to a regulatory requirement, either experience based or compliance based. Users with contribute access to a knowledge article can modify the value of the **Governance** field.
 
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/using-knowledge-management.md)
+
 **Related topics**  
 
 
 [Create a knowledge article from an incident in ITSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 

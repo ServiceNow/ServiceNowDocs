@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-consumer-household.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring households, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring households, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create or update a household
@@ -16,25 +16,32 @@ Create or update a household.
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager, admin
+Role required: One of the following roles:
+
+-   sn\_crm\_consumer\_data\_manager
+-   sn\_crm\_household\_data\_manager
+-   sn\_crm\_household\_relationship\_data\_manager
+-   sn\_crm\_consumer\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 
-A household is made up of a group of consumers who live at a common address and share products and services.
+A household is made up of a group of consumers who live at a common address and share products and services. A household can have a designated head of household and multiple current members. The head of household has access to all the cases and information for the other household members.
 
-A household can have a designated head of household and multiple current members. The head of household has access to all of the cases and information for the other household members.
-
-A user with the system administrator role can create a household. This user can also delete a household. When a household is deleted, the system clears the references and associations to the household, including members, sold products, cases, and work orders, but does not delete these associated entities.
+A user with the administrator role can create a household. This user can also delete a household. When a household is deleted, the system removes its references and associations—including members, sold products, cases, and work orders—but doesn’t delete the associated entities.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Customers** &gt; **Households**.
 
-2.  Click **New** on the Households list.
+2.  Select **New** on the Households list.
 
 3.  Fill in the fields on the [Household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/data-model-household-form.md) form.
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     The household is added to the Households list.
 

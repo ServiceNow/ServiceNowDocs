@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Collect knowledge usage metrics, User criteria diagnostics for Knowledge Management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,4 +38,6 @@ Activating the data retention policy for the kb\_usage\_metrics table deletes re
 
 5.  Click **Update**.
 
+
+**Parent Topic:**[Collect knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/Guest-user-diagnostic.md)
 

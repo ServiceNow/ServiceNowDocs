@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -40,7 +40,7 @@ If the new model outperforms the original model in both the historical search-ma
 
 These relevancy model tuning processes occur separately for each search profile. Changes made to the relevancy model in one search profile don't affect relevancy models in other search profiles.
 
-**Note:** When you upgrade to Yokohama from a previous release, the default relevancy scores for your search results may change. Relevancy models trained in the previous release should continue to produce the same result ordering. Models trained more than one release ago may revert to the default relevancy model.
+**Note:** When you upgrade to Brazil from a previous release, the default relevancy scores for your search results may change. Relevancy models trained in the previous release should continue to produce the same result ordering. Models trained more than one release ago may revert to the default relevancy model.
 
 Successful relevancy tuning requires at least 10,000 stored search event signals for a search profile. If the search profile has fewer than 10,000 signals stored, relevancy tuning fails with an error message and AI Search continues to use the original relevancy model for that search profile.
 
@@ -50,7 +50,7 @@ AI Search uses a dedicated relevancy model to rank records for display as auto-c
 
 ## Viewing relevancy scores for search results
 
-Search administrators can view the scores for search results in the Search Preview UI from the Advanced AI Search Management Tools ServiceNow® Store application. For details on using this feature to investigate search behavior, see [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ai-search-preview.md).
+Search administrators can view the scores for search results in the Search Preview UI from the Advanced AI Search Management Tools ServiceNow® Store application. For details on using this feature to investigate search behavior, see [Search Preview UI for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/ai-search-preview.md).
 
 **Parent Topic:**[Administering AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/administer-ais.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Create neighborhood reservations, Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Enable shift-based reservation
@@ -74,5 +74,42 @@ The users and spaces are assigned to the shift. When an employee wants to make a
 -   The shifts for which the employee can make a reservation.
 -   The spaces that are available for reservation in the selected shift.
 
-**Parent Topic:**[Create neighborhood reservations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-neighborhood-reservations.md)
+**Parent Topic:**[Reserve workplace items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/reserve-workplace-items.md)
+
+**Related topics**  
+
+
+[Create a reservation]()
+
+[Auto-resolve recurring reservations]()
+
+[Add invitees as collaborators and create a reservation]()
+
+[Set a location as favorite using the Space details page]()
+
+[Reserve a space near your colleague]()
+
+[Create a multi-day reservation]()
+
+[Create multi-building reservations]()
+
+[Create neighborhood reservations]()
+
+[Create reservation for multiple workplace items]()
+
+[Create a reservation along with a shared reservation]()
+
+[Create a reservation including a virtual meeting link]()
+
+[Create a shift reservation]()
+
+[Create a group reservation]()
+
+[Share, modify, or cancel a reservation]()
+
+[Reserve a workplace using the Quick Reservation widget]()
+
+[Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

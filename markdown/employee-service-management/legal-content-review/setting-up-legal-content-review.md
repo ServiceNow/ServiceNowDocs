@@ -1,5 +1,5 @@
 ---
-title: Setting up Legal Content Review
+title: Configure Legal Content Review
 description: Configure the foundation data to provide Legal Content Review request services to employees who can use these services to submit requests to the legal department.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-content-review/setting-up-legal-content-review.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Content Review
 classification: legal-content-review
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Content Review, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Setting up Legal Content Review
+# Configure Legal Content Review
 
 Configure the foundation data to provide Legal Content Review request services to employees who can use these services to submit requests to the legal department.
 

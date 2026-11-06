@@ -1,25 +1,25 @@
 ---
 title: Operational Sustainability Management \(formerly ESG\) reference
-description: The following sections show the roles, tables, and properties installed with the ESG Management application.
+description: The following sections show the roles, tables, and properties installed with the Operational Sustainability Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/reference-data-esg.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Operational Sustainability Management \(formerly ESG\) reference
 
-The following sections show the roles, tables, and properties installed with the ESG Management application.
+The following sections show the roles, tables, and properties installed with the Operational Sustainability Management application.
 
 -   **[Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/components-installed-with-esg.md)**  
-Several types of components such as roles, tables, and properties are installed with the ESG Management application and the GRC: Metrics application.
+Several types of components such as roles, tables, and properties are installed with the Operational Sustainability Management application and the GRC: Metrics application.
 -   **[Roles installed with the Goal Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/tables-installed-with-goals.md)**  
 Several roles are installed with activation of the Goal Framework plugin.
 -   **[Domain separation and Operational Sustainability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-domain-separation.md)**  
-Domain separation is supported for ESG Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported for Operational Sustainability Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Socialsuite material topic fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/socialsuite-material-topic-fields.md)**  
 Fields added to the Material Topic \(sn\_esg\_material\_topic\) table for Socialsuite integration.
 -   **[Socialsuite import log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/socialsuite-import-log.md)**  

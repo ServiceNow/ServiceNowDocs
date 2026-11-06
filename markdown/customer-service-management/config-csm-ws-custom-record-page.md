@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-ws-custom-record-page.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customize a record page
@@ -22,7 +22,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the CRM Workspace experience.
 
 3.  Select the desired page in the **Page** list.
 
@@ -30,7 +30,7 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 4.  Select the desired default record page from the Variants list.
 
-    For example, select **CSM default record page**.
+    For example, select CSM default record page.
 
 5.  Select the additional actions menu for this page and then select **Duplicate** to create a copy of the page variant.
 

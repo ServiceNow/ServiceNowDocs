@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reverse Whois integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,15 +22,13 @@ Role required: sn\_si.analyst
 
 ## Procedure
 
-1.  If not open, navigate to **Security Incident** &gt; **Incidents** &gt; **Show All Incidents** and open the security incident you are working with.
+1.  If not open, navigate to **Security Incident** &gt; **Incidents** &gt; **Show All Incidents** and open the security incident you're working with.
 
-2.  At the bottom of the record, click the **Show IoC** related link to display the Observables tab.
+2.  At the bottom of the record, select the **Show IoC** related link to display the Observables tab.
 
-    **Note:** The figures in the following steps are shown with the **Tabbed forms** setting active in the System Settings. If you do not see tabs on the security incident, in the upper-right corner of the banner frame, click the **Settings** gear icon. In the **System Settings** dialog box that is displayed, click **Forms** and verify that **Tabbed forms** and **With the Form** are selected.
+    **Note:** If you don't see tabs on the security incident, in the upper-right corner of the banner frame, select the **Settings** gear icon. In the **System Settings** dialog box that is displayed, select **Forms** and verify that **Tabbed forms** and **With the Form** are selected.
 
-    \[Omitted image "reverse-whois-new-observable.png"\] Alt text: The Observables tab on the Security Incident Form.
-
-3.  On the Observables tab, click **New**.
+3.  On the Observables tab, select **New**.
 
 4.  Fill in the fields.
 
@@ -40,11 +38,9 @@ Role required: sn\_si.analyst
     |Observable type|This field is automatically cleared.|
     |Finding|This field is automatically set to **Unknown**.|
 
-    \[Omitted image "reverse-observable-mitchell-new.png"\] Alt text: Required fields on the new observable record.
+5.  Select **Submit**.
 
-5.  Click **Submit**.
-
-    You are returned to the security incident record and the flow initiates the lookup.
+    You're returned to the security incident record and the flow initiates the lookup.
 
 
 ## What to do next

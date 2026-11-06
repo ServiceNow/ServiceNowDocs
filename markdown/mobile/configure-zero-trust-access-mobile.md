@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/configure-zero-trust-access-mobile.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Securing your ServiceNow mobile instance with Zero Trust Access, Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Zero Trust Access, Mobile authentication, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure Zero Trust Access for mobile

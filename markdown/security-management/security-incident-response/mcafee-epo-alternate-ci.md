@@ -1,5 +1,5 @@
 ---
-title: Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile
+title: Defining triggering conditions with a Configuration item \(CI\) field
 description: After you create a profile and select the McAfee ePO capabilities that you want the profile to run, you configure the settings of the profile so that it runs only when a set of specific conditions are met.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [McAfee ePO integration capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile
+# Defining triggering conditions with a Configuration item \(CI\) field
 
 After you create a profile and select the McAfee ePO capabilities that you want the profile to run, you configure the settings of the profile so that it runs only when a set of specific conditions are met.
 
@@ -38,7 +38,7 @@ The following figure illustrates how the first search of the workflow scans for 
 
 If matching IDs are not found for the CI field or the alternate CI field, a work note is logged and a message is displayed on the security incident. When no matches are found, no enrichment data are populated on the security incidents related to the event.
 
-You enable the alternate CI trigger field and select the field you want to display the matching ID during the configuration step for a profile. This step for enabling the alternate CI field is described along with the other profile configuration requirements in [Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md).
+You enable the alternate CI trigger field and select the field you want to display the matching ID during the configuration step for a profile. This step for enabling the alternate CI field is described along with the other profile configuration requirements in [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md).
 
 **Parent Topic:**[McAfee ePO integration capability profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-creating-profiles.md)
 

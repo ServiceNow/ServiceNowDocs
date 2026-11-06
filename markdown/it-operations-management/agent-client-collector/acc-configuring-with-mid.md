@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configuring Agent Client Collector with a MID Server
@@ -21,7 +21,7 @@ Use a single-line command to set up an Agent Client Collector with a MID Server.
 -   **[Configure the websocket server on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configure-web-server.md)**  
 Configure the websocket server on MID Servers to enable connections from agents to the MID Server. You can configure only one websocket server per MID Server.
 -   **[Configure a websocket endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-configure-websocket-endpoint.md)**  
-Configure a websocket endpoint to provide web access from the MID Server to the Agent Client Collector \(ACC\).
+Configure a websocket to enable the endpoint to provide web access from the MID Server to the Agent Client Collector \(ACC\).
 -   **[Configure the frequency of updating the agent MID Server list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-update-mid-server-list.md)**  
 By default, the list of MID servers connected to agents is updated once daily. If you have a dynamic environment that adds MID servers frequently, you may want to schedule updates more often, or execute the job on demand.
 -   **[Enable Agent Client Collector monitoring on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-monitoring-setup.md)**  
@@ -29,5 +29,5 @@ Enable Agent Client Collector monitoring on the MID Server by configuring the Ag
 -   **[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)**  
 Automatic selection of MID Servers ensures that each agent uses the most efficient available MID Server.
 
-**Parent Topic:**[Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-framework-landing-page.md)
+**Parent Topic:**[Deploying Agent Client Collector on servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-server-deployment.md)
 

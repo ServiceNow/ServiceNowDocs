@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Encryption
 classification: cloud-encryption
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Cloud Encryption with Key Management, Encryption]
 ---
@@ -26,15 +26,15 @@ When enabled, tamper detection validates your quorum control settings by checkin
 
 -   **Tamper detection runs daily on your instance**
 
-    Tamper detection checks your settings for tampering using a daily scheduled job, and reports validation failures in your node and security logs. Tamper detection send a notification to Security and KMF admins for validation failures.
+    Tamper detection checks your settings for tampering using a daily scheduled job, and reports validation failures in your node and security logs. Tamper detection sends a notification to Security and KMF admins for validation failures.
 
-    \[Omitted image "tamper-job-flow.png"\] Alt text: flowchart displaying tamper detection job
+    \[Omitted image "tamper-resolve-flow-2.png"\] Alt text: Tamper detection daily scheduled job
 
 -   **Tamper detection runs before executing a key withdrawal**
 
     Tamper detection also validates your properties when you request a key withdrawal. If your settings do not pass validation, the key withdrawal does not execute. In this case, you must resolve any validation issues before key withdrawal can compete.
 
-    \[Omitted image "tamper-withdraw-flow.png"\] Alt text: flowchart displaying tamper detection during key withdrawal
+    \[Omitted image "tamper-withdraw-flow-2.png"\] Alt text: Tamper detection key withdrawal process
 
 
 ## Identifying tampering
@@ -49,7 +49,7 @@ When enabled, tamper detection validates your quorum control settings by checkin
     2022-06-28 13:47:35 (264) Default-thread-8 B6FAC1F6C3D01110CF37169D7940DD6E txid=8e8cc972c310 SEVERE HMAC_VALIDATION_FAILED:The dare_property record with sys_id: 758b3200c3210110900b169d7940dd76 failed HMAC validation
     ```
 
-    Logging displays information similar to these examples when validation fails. Successful validations do not appear in the logs.
+    Logging displays information similar to these examples when validation fails. Successful validations don't appear in the logs.
 
 -   **Tamper detection displays a warning message on your quorum control settings page**
 
@@ -68,7 +68,7 @@ When enabled, tamper detection validates your quorum control settings by checkin
 
 **Important:** Tamper detection validation failures can only be resolved with assistance of ServiceNow support.
 
-\[Omitted image "tamper-resolve-flow.png"\] Alt text: flowchart displaying tamper detection during key withdrawal
+\[Omitted image "tamper-resolve-flow-2.png"\] Alt text: Tamper detection ServiceNow support resolution process
 
 If tamper detection fails to validate any of your quorum control settings, contact ServiceNow support for assistance in resolving the issue. After a support agent has resolved the validation failure, security and KMF admins receive a notification indicating that the issue has been resolved.
 

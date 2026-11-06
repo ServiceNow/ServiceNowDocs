@@ -1,20 +1,20 @@
 ---
 title: Summary of transfer order line tasks
-description: As assets move through the transfer process, the stage of a transfer order is always based on the individual transfer order lines tasks.
+description: As assets move through the transfer process, the stage of a transfer order is updated based on the individual transfer order lines tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/r\_SummaryOfTransferOrderStages.html
 release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Transfer orders for Asset Management, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Summary of transfer order line tasks
 
-As assets move through the transfer process, the stage of a transfer order is always based on the individual transfer order lines tasks.
+As assets move through the transfer process, the stage of a transfer order is updated based on the individual transfer order lines tasks.
 
 <table id="table_zyp_pwb_fr"><thead><tr><th>
 
@@ -30,7 +30,7 @@ Draft
 
 </td><td>
 
-When a transfer order line is created.On the asset form, the **State** field value remains **In stock**, and the **Substate** field value is updated to **Pending transfer**.
+When a transfer order line is created for the asset.On the asset form, the **State** field value remains **In stock**, and the **Substate** field value is updated to **Pending transfer**.
 
 </td></tr><tr><td>
 
@@ -46,7 +46,7 @@ Shipment Preparation
 
 </td><td>
 
-After the **Requested** task is closed, this task is created. This task deals with preparing the transfer order line for shipment. Specify the values for the shipment tracking fields such as **Shipping carrier**, **Vendor**, **Tracking number**, and **Ship date**.On the asset form, the **State** field value remains **In stock**, and the **Substate** field value remains **Pending transfer**.
+After the **Requested** task is closed, this task is created. This task deals with preparing the transfer order line for shipment. Specify the values for the shipment tracking fields such as **Shipping carrier**, **Vendor**, **Tracking number**, and **Ship date**. On the asset form, the **State** field value remains **In stock**, and the **Substate** field value remains **Pending transfer**.
 
 </td></tr><tr><td>
 
@@ -62,7 +62,7 @@ Received
 
 </td><td>
 
-After the **In Transit** task is closed, this task is created.On the asset form, the **State** field value changes to **In stock**, and the **Substate** field value is updated to **Available**. The **Stockroom** field value is updated as the asset is received in the destination stockroom.
+After the **In Transit** task is closed, this task is created. On the asset form, the **State** field value changes to **In stock**, and the **Substate** field value is updated to **Available**. The **Stockroom** field value is updated as the asset is received in the destination stockroom.
 
 </td></tr><tr><td>
 
@@ -70,10 +70,10 @@ Delivered
 
 </td><td>
 
-After the **Received** task is closed, this task is created. After you close the **Delivered** task, the transfer order line is completed.On the asset form, the **State** field value remains **In stock** and the **Substate** field value is updated to **Reserved**.
+After the **Received** task is closed, this task is created. After you close the **Delivered** task, the transfer order line is completed. On the asset form, the **State** field value remains **In stock** and the **Substate** field value is updated to **Reserved**.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-orders-for-am.md)
+</table>**Parent Topic:**[Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/references-asset-management.md)
 
 **Related topics**  
 
@@ -83,4 +83,6 @@ After the **Received** task is closed, this task is created. After you close the
 [Transfer order line asset tracking of non-consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackNonConsum.md)
 
 [Transfer order line asset tracking consumables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/r_TrsferOrderLneAssetTrackConsum.md)
+
+[Transfer order flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-order-flows.md)
 

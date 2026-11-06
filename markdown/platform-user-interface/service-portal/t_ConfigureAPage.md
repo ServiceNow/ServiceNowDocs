@@ -7,8 +7,8 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Creating portal pages, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -235,6 +235,16 @@ The semantic HTML tag that includes the container. Options include:-   None: All
 -   Main: The **&lt;main&gt;** tag includes only the container and its contents. The **&lt;main&gt;** tag is a semantic HTML element that contains the main content of the page. It should be applied to content that is unique to the page and should be configured for only one element on the page.
 
 **Note:** The **&lt;main&gt;** tag can be applied to a container, row, or column. For more information, see [Configure the main tag on a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-main-tag-on-page.md).
+
+-   Header: The &lt;header&gt; tag is used as introductory content. It can be used multiple times per page, including inside an &lt;article&gt; tag.
+-   Nav: The &lt;nav&gt; tag is used in page-level navigation. It can be used multiple times in each page.
+-   Section: The &lt;section&gt; tag groups related content under a common heading or theme.
+-   Article: The &lt;article&gt; tag is self-contained content that can stand alone or be reused.
+-   Details: The &lt;details&gt; tag can be used in expand/collapse sections, and intended for FAQs.
+-   Summary: &lt;summary&gt; tag is the first child of &lt;details&gt; and acts as the clickable label.
+-   Time: &lt;time&gt; tag is for dates, times, and durations. Add for machine-readable values.
+-   Fig caption: &lt;figcaption&gt; tag is only valid as a child of &lt;figure&gt; and provides the caption for a figure.
+
 
 </td></tr><tr><td>
 

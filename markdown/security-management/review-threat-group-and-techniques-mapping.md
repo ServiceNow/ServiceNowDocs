@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/review-threat-group-and-techniques-mapping.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -26,10 +26,6 @@ Role required:
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Threat Group-MITRE ATT&amp;CK Techniques**.
 
 2.  Right click the **Source Object** and select **Group By Source Object** to view all the attack patterns associated with a threat group.
-
-    The following illustration shows the threat group admin@338 and the various attack patterns adopted by this threat group which are part of the enterprise attack source.
-
-    \[Omitted image "mitre-threat-group-technique.gif"\] Alt text: Illustration showing the threat group and technique mapping.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/mitre-att-ck-administration.md)

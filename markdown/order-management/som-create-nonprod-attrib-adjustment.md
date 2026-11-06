@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-nonprod-attrib-adjustment.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a non-product attribute pricing adjustment
@@ -16,7 +16,7 @@ Create a pricing adjustment for a product offering based on non-product characte
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## About this task
 
@@ -26,13 +26,13 @@ However, if you have a non-product attribute that is not available as a default 
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Matrices**.
 
 3.  In the Pricing Matrices list, select Standard Price Adjustment Matrix.
 
-4.  If you want to remove any of the context variables in the Content variables section In the Rule Matrix Standard Price Adjustment Matrix record, delete the pills that represent context variables for non-product attributes.
+4.  If you want to remove any of the context variables in the Context variables section In the Rule Matrix Standard Price Adjustment Matrix record, delete the pills that represent context variables for non-product attributes.
 
 5.  If you have a large number of rows in the decision table and you want to optimize rule matrix performance, in **Query optimization variables**, select one or more context variables that the system uses to filter the pricing decision table rows that are evaluated.
 
@@ -60,6 +60,8 @@ However, if you have a non-product attribute that is not available as a default 
 
     6.  Select **Save**.
 
-        The adjustments are available to sales or order agents when working on quotes or orders.
+    7.  Select **Publish**.
+
+        The adjustments are available to agents when working on Sales Customer Relationship Management transactions, such as quotes or orders and to customers using the Business Portal.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SAP Concur Spoke
@@ -18,7 +18,7 @@ The SAP Concur spoke is built by Bristlecone, Inc. Manage expenses, payments, pu
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -30,7 +30,7 @@ This spoke was built for SAP Concur API versions v3.0 and v4.0, but may be compa
 
 ## Spoke version
 
-SAP Concur spoke v2.3.3 is the latest version.
+SAP Concur spoke v2.3.3 is the latest version. For version history of the spoke, see [SAP Concur spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-concur.html).
 
 ## Spoke requirements
 
@@ -370,6 +370,8 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 -   You can create a clone of the required spoke AI agent and customize it as per your requirement. See [Duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-ai-agent.md) for more information about creating a clone.
 -   See [Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-ai-agents.md) for information about AI agents.
 
+Available AI agents include:
+
 |AI agent|Description|
 |--------|-----------|
 |SAP Concur payment request management AI agent|Manages and retrieves payment request details.|
@@ -379,10 +381,7 @@ This spoke provides standalone AI agents that mimic human-like intelligence to p
 |SAP Concur receipt management AI agent|Manages receipts by enabling users to perform tasks such as uploading receipt images to expense reports, retrieving URLs for expense entry receipt images, and obtaining URLs for expense report receipt images.|
 |SAP Concur itinerary management AI agent|Manages itineraries and expenses, and retrieves the required itinerary information.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
@@ -394,7 +393,7 @@ In the ServiceNow agentic system, you can create an agentic workflow that compri
 
 Available sample agentic workflow includes:
 
-<table id="table_bsx_xhx_c3c"><thead><tr><th>
+<table id="table_chb_l90v_c3c"><thead><tr><th>
 
 Sample agentic workflow
 

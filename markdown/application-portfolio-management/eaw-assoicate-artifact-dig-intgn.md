@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-assoicate-artifact-dig-intgn.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Digital integrations in Enterprise Architecture Workspace, Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with digital integrations, Working with digital integration management in Enterprise Architecture Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Manage architectural artifacts of a digital integration in EA Workspace
@@ -44,10 +44,19 @@ Role required: sn\_apm.apm\_user
     -   To remove an existing architectural artifact, select the artifact and then select **Remove**.
 9.  Fill in the form fields.
 
-    For field information, see [Create new architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/architectural-artifact-form.md).
+    For field information, see [Create architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-new-arch-artifact-form.md).
 
 10. Select **Save**.
 
 
-**Parent Topic:**[Digital integrations in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-digital-integration.md)
+**Parent Topic:**[Working with digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-digital-integrations.md)
+
+**Related topics**  
+
+
+[Associate an information object to a digital integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-dig-integ-add-info-object.md)
+
+[Add or edit a digital integration in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-digital-integ.md)
+
+[View all digital integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-dig-integ.md)
 

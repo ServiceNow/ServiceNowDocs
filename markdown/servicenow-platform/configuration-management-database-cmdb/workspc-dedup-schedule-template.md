@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CI de-duplication experience in CMDB Workspace, Duplicate CIs remediation, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Schedule a de-duplication template
@@ -20,20 +20,18 @@ Create a schedule, such as a monthly schedule, for a published de-duplication te
 
 The de-duplication template that you want to create a schedule for, must be in a published state. For information about publishing a template, see [Publish or unpublish a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-unpublish-template.md).
 
-This functionality requires CMDB Workspace version 7.5 or later.
-
 Role required:
 
--   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
 2.  Select the **De-duplication Dashboard** link in Management tools, in the Manage section.
 
-3.  On the De-duplication templates pane, select the More options icon \(\[Omitted image "MoreActionsVertical.png"\] Alt text: More options\) for the template that you want to create a schedule, and then select **Create schedule**.
+3.  On the De-duplication templates pane, select the More options icon for the template that you want to create a schedule, and then select **Create schedule**.
 
 4.  On the Schedule &lt;template&gt; dialog box, fill in the scheduling details.
 
@@ -56,16 +54,14 @@ Track the state and details of templates:
     -   Select **Cancel** to stop a template's run. The details for the cancelled template are added in the **Completed** tab with the state of Cancel Requested. Upon completing the cancellation, the state changes to Cancelled.
     After a template run completes, its details no longer appear under the **Running** tab, but are available in the **Completed** tab. Also, the completed template is available again for running in the **Ready** tab.
 
--   Select the **Completed** tab to view general counts per template, such as erroneous and skipped tasks, and general run time. The templates are sorted by their completion time, with the template that completed most recently at the top of the list. Select **Details** for a template to access a list view of the template's assigned de-duplication tasks. This list view shows details for each de-duplication task, such as its state\(color coded\) and error message if applicable. You can drill down a de-duplication task for further details.
+-   Select the **Completed** tab to view general counts per template, such as erroneous and skipped tasks, and general run time. The templates are sorted by their completion time, with the template that completed most recently at the top of the list. Select **Details** for a template to access a list view of the template's assigned de-duplication tasks. This list view shows details for each de-duplication task, such as its state \(color coded\) and error message if applicable. You can drill down a de-duplication task for further details.
 -   Select **View de-duplication tasks that need your attention** in the De-duplication tasks completed with errors card in the De-duplication insights pane on the right. The De-duplication tasks with errors list view shows de-duplication tasks that didn't complete successfully along with an error message. You can drill down de-duplication tasks in the list for more details.
 
-On the De-duplication templates pane, select the More options icon \(\[Omitted image "MoreActionsVertical.png"\] Alt text: More options\) for a template with a schedule. Some of the following options appear, according to the state of the schedule:
+On the De-duplication templates pane, select the More options icon for a template with a schedule. Some of the following options appear, according to the state of the schedule:
 
 -   Select **Edit schedule** to modify the schedule.
 -   Select **Deactivate schedule** to halt temporarily the automatic runs of the template, while preserving the schedule settings.
 -   Select **Activate schedule** to resume automatic runs of the template according to the schedule settings.
-
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 
 **Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

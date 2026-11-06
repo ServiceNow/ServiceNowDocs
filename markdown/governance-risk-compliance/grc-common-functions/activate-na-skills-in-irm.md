@@ -7,10 +7,10 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Activate Now Assist skills in ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -27,9 +27,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
 
-2.  On the **Now Assist Skills** tab, under the **Technology** workflow group, select **Risk &amp; Sustainability**.
+2.  On the **Now Assist Skills** tab, under the **Technology** workflow group, select **IRM**.
 
-3.  On the Now Assist skills for Risk &amp; Sustainability page, activate a skill by selecting **Activate skill**.
+3.  On the Now Assist skills for IRM page, activate a skill by selecting **Activate skill**.
 
 4.  Review the details of the skills on each tab, configure the skills, and select **Save and continue**.
 

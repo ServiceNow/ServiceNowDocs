@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Teams Spoke
@@ -20,13 +20,13 @@ The Microsoft Teams spoke provides actions which post messages and ServiceNow in
 
 This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
-**Important:** Starting with the Yokohama release, Microsoft Teams Spoke is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. [Microsoft Teams Graph Spoke]()provides the latest experience for this functionality.
+**Important:** Starting with the Yokohama release, Microsoft Teams Spoke is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Microsoft Teams Graph Spoke provides the latest experience for this functionality.
 
 For more information, search for the term `Microsoft Teams Spoke for ServiceNow IntegrationHub` in [Plugins planned for deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/plugin-changes.md).
 
 ## Spoke version
 
-Microsoft Teams spoke v1.1.3 is the latest version .
+Microsoft Teams spoke v1.1.3 is the latest version.
 
 ## Microsoft Teams actions
 

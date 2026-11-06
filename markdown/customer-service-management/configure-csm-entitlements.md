@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-csm-entitlements.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure entitlements
@@ -20,9 +20,9 @@ Role required: sn\_customerservice\_manager or admin
 
 ## About this task
 
-You can associate an entitlement with a product, an asset, an account, or a contract. An entitlement check is performed when a case is opened. This check considers the existing cases for the specific account, product, asset, and service contract. Entitlements can also have associated workflows that drive recommended activities for a case.
+You can associate an entitlement with a product, an asset, an account, or a contract. An entitlement check is performed when a case is opened. This check takes into consideration the existing cases for the specific account, product, asset, and service contract. Entitlements can also have associated workflows that drive recommended activities for a case.
 
-Entitlements are counted on a per-unit basis. The **Unit** field on the Service Entitlement form defines the unit type, either cases or hours.
+Entitlements are counted on a per unit basis. The **Unit** field on the Service Entitlement form defines the unit type, either cases or hours.
 
 The **Total Units** field defines the total number of cases or hours available for this entitlement and the **Remaining Units** field tracks the number of units remaining. These counters are active if the **Per Unit** field is enabled.
 
@@ -33,9 +33,9 @@ The **Remaining Units** field is updated using business rules.
 
 Keep these guidelines in mind as you create entitlements.
 
--   Product entitlements: When creating an entitlement for a product, select the product from the **Product** field and then select an account or a consumer.
--   Asset entitlements: When creating an entitlement for an asset, first select a company. The only assets then shown belong to that company.
--   Contract entitlements: When creating an entitlement for a contract, select the contract and then the assets that are covered as a contract line item. The resulting contract entitlement is valid for the assets listed within that contract.
+-   Product entitlements: when creating an entitlement for a product, select the product from the **Product** field and then select an account or a consumer.
+-   Asset entitlements: when creating an entitlement for an asset, select a company first and then the only assets that are shown are those belonging to that company.
+-   Contract entitlements: when creating an entitlement for a contract, select the contract and then the assets that are covered as a contract line item. The resulting contract entitlement is valid for the assets listed within that contract.
 
 ## Procedure
 

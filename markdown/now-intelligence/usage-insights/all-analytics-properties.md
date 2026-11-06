@@ -1,22 +1,22 @@
 ---
-title: User Experience Analytics related properties
-description: Use system properties to configure User Experience Analytics in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
+title: Usage Insights related properties
+description: Use system properties to configure Usage Insights in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/all-analytics-properties.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User Experience Analytics reference, User Experience Analytics, Platform Analytics]
+breadcrumb: [Usage Insights reference, Access analytics overlay, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# User Experience Analytics related properties
+# Usage Insights related properties
 
-Use system properties to configure User Experience Analytics in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
+Use system properties to configure Usage Insights in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 
-## General User Experience Analytics related properties
+## General Usage Insights related properties
 
 Use the following system properties in Platform Analytics, ServiceNow Mobile Platform, Service Portal, and the Conversational Analytics area of Virtual Agent.
 
@@ -28,12 +28,12 @@ Use the following system properties in Platform Analytics, ServiceNow Mobile Pla
     -   Default value: false
 -   **__glide.analytics.user.consent.script\_timeout__**
 
-    Maximum time in milliseconds that a script can run during the User Experience Analytics consent policy mechanism, when triggering the provider's custom script. The minimum value is 100 ms. The maximum value is 5000 ms.
+    Maximum time in milliseconds that a script can run during the Usage Insights consent policy mechanism, when triggering the provider's custom script. The minimum value is 100 ms. The maximum value is 5000 ms.
 
     -   Type: string
     -   Default value: 2000
 
-## User Experience Analytics related properties for Service Portal
+## Usage Insights related properties for Service Portal
 
 Use the following system properties in the Service Portal only.
 
@@ -60,5 +60,5 @@ Use the following system properties in the Service Portal only.
 
 **Note:** If you make certain key changes to portals, such as changing the sys\_id, data is not carried over and you see a different dashboard.
 
-**Parent Topic:**[User Experience Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)
+**Parent Topic:**[Usage Insights reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-experience-analytics-reference.md)
 

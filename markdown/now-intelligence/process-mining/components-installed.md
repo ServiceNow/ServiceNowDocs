@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
 
 # Components installed with Process Mining
@@ -301,13 +301,13 @@ Roles control access to features and capabilities in applications and modules.
 
 After access has been granted to a role, all the groups or users assigned to the role are granted the access. Roles can contain other roles, and any access granted to a role is granted to any role that contains it.
 
-### Process mining administrator \[sn\_process\_optimization\_admin\]
+### Process mining administrator \[sn\_process\_mining\_admin\]
 
 Access all projects and manage all project settings and configurations and schedule background and jobs.
 
 #### Contains Roles
 
-The Process mining administrator \[sn\_process\_optimization\_admin\] role contains the sn\_process\_optimization\_power\_user role.
+The Process mining administrator \[sn\_process\_mining\_admin\] role contains the sn\_process\_mining\_power\_user role.
 
 #### Groups
 
@@ -319,7 +319,7 @@ None.
 
 **Note:** Avoid granting an admin role when more specialized roles are available.
 
-### Process mining power user \[sn\_process\_optimization\_power\_user\]
+### Process Mining power user \[sn\_process\_mining\_power\_user\]
 
 Perform the following actions when assigned to this role.
 
@@ -330,7 +330,7 @@ Perform the following actions when assigned to this role.
 
 #### Contains Roles
 
-The Process optimization power user \[sn\_process\_optimization\_power\_user\] role contains the sn\_process\_optimization\_analyst role.
+The Process optimization power user \[sn\_process\_mining\_power\_user\] role contains the sn\_process\_mining\_analyst role.
 
 #### Groups
 
@@ -342,7 +342,7 @@ None.
 
 None.
 
-### Process Mining Analyst \[sn\_process\_optimization\_analyst\]
+### Process Mining Analyst \[sn\_process\_mining\_analyst\]
 
 Perform the following actions when assigned to this role.
 
@@ -429,7 +429,7 @@ promin.primary\_metric
 
 </td><td>
 
-Primary metric used in the Analyst Workbench.-   Type: Choice List
+Primary metric used in Analyst workbench.-   Type: Choice List
 -   Default value: caseFreq
 -   Available values
     -   Avg duration=avgDuration
@@ -474,7 +474,7 @@ promin.secondary\_metric
 
 </td><td>
 
-Secondary metric used in the Analyst Workbench.-   Type: Choice List
+Secondary metric used in Analyst workbench.-   Type: Choice List
 -   Default value: avgDuration
 -   Available values
     -   Avg duration=avgDuration
@@ -493,6 +493,92 @@ promin.perf.result\_page\_size
 </td><td>
 
 Configures the mining result pageThe default value is 700.
+
+</td></tr><tr><td>
+
+promin.pa\_integration\_required\_roles
+
+</td><td>
+
+Define the roles that can launch Process Mining from Platform Analytics Dashboard/Indicator.Type: String
+
+Default: The default roles added to the property are:
+
+-   itil
+-   sn\_sd.success\_dashboard\_read
+-   sn\_sd.success\_dashboard\_details\_read
+-   business\_stakeholder
+-   sn\_process\_mining\_analyst
+-   sn\_customerservice\_manager
+-   sn\_customerservice\_agent
+-   pa\_threshold\_admin
+-   sn\_hr\_pa.admin
+-   sn\_hr\_core.report\_creator
+-   sn\_hr\_core.manager
+-   sn\_hr\_core.admin
+-   sn\_hr\_onboarding.admin
+
+</td></tr><tr><td>
+
+sn\_po\_extdata.cancel\_job\_after\_seconds
+
+</td><td>
+
+Specifies the number of seconds the external data import runs before getting cancelled automatically. Type: integer
+
+Default: 86400
+
+</td></tr><tr><td>
+
+sn\_promin\_sf.salesforce\_data\_chunk\_size
+
+</td><td>
+
+This is applicable only for Process Mining for SalesforceSpecifies the number of records that are processed in a single batch during an import.
+
+Type: integer
+
+Default: 200
+
+</td></tr><tr><td>
+
+promin.metered\_usage.allow\_unrestricted
+
+</td><td>
+
+Disables all metered-usage guardrail checks when set to true, allowing users to mine without pre-mining blocks. Users who exceed their entitlement will be overcharged.Type: true \| false
+
+Default: false
+
+</td></tr><tr><td>
+
+promin.metered\_usage.warning\_limit
+
+</td><td>
+
+Specifies the number of records at which the process mining metered usage warning is shown to the user. A default value of -1 means no warning is shown to the customer at all.Type: integer
+
+Default: -1
+
+</td></tr><tr><td>
+
+promin.workspace.hide\_from\_navigation
+
+</td><td>
+
+Hides Process Mining Workspace in Unified Navigation from users who don't have the Process Mining roles.Type: true \| false
+
+Default: false
+
+</td></tr><tr><td>
+
+promin.feature.enable\_evaluation
+
+</td><td>
+
+Enables or disables the evaluation feature.Type: true \| false
+
+Default: true
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -23,7 +23,7 @@ Isolate the host from accessing the network in Microsoft Defender for Endpoint b
 -   **[Configure Remove Host Isolation capability in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/remove-isolation-ms-defender-for-endpoint.md)**  
 If needed, remove the isolation of a host that was previously isolated from the network in Microsoft Defender for Endpoint. You can prevent any other malicious activities or potential attacks on other hosts.
 -   **[Configure Run Antivirus Scan capability in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/run-antivirus-scan-capability-ms-defender.md)**  
-Remotely initiate an antivirus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
+Remotely initiate an anti virus scan to help identify and remediate malware that might be present on a compromised device. Run the scan as part of the investigation or response process.
 -   **[Configure Restrict App Execution capability in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/restrict-app-execution-capability-ms-defender.md)**  
 To contain an attack, restrict or lock a device and prevent subsequent attempts of potentially malicious programs from running.
 -   **[Configure Remove App Restriction capability in Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/remove-app-restriction-capability-ms-defender.md)**  

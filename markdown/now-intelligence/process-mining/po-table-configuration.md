@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Set up a table configuration
@@ -18,7 +18,7 @@ Define the kind of data or process that you want to view and analyse in your gra
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user
 
 ## Procedure
 
@@ -91,8 +91,6 @@ Select **Preview** to see the number of records available for the set filter.
 Use multi-dimensional mining to identify inefficiencies and improve performance by evaluating data from multiple related tables.
 -   **[Configure advanced conditions: crop process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/po-advanced-conditions.md)**  
 Configure custom start and end conditions for your table configuration to define which part of the process should be included in the Process Mining project and made available for analysis.
--   **[Configure advanced conditions: transition filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/transition-filter.md)**  
-Activity transitions filtering enables you to get closer views of the different routes that records go through.
 
 **Parent Topic:**[Create a project using Classic view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-proj.md)
 

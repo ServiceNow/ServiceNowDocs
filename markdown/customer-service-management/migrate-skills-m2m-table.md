@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migrate-skills-m2m-table.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Migrate skills to the Task Skill table
@@ -30,15 +30,15 @@ In the Field Service Management application, the work order task assignments don
 
 1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) with the following settings.
 
-<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d187384e85">
+<table id="choicetable_i5b_yht_wcb"><thead><tr><th align="left" id="d229962e84">
 
 Option
 
-</th><th align="left" id="d187384e88">
+</th><th align="left" id="d229962e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d187384e94">
+</th></tr></thead><tbody><tr><td id="d229962e93">
 
 **Create a system property for a table in the Customer Service Management application.**
 
@@ -50,7 +50,7 @@ Make sure that you are logged in to the Customer Service Management application.
 
 In the **Suffix** field, enter the name of the system property as follows:**com.snc.skills\_management.&lt;table\_name&gt;\_migrate\_skills**, where &lt;table\_name&gt; is the name of a case task table from which the skills need to be copied.
 
-</td></tr><tr><td id="d187384e119">
+</td></tr><tr><td id="d229962e118">
 
 **Create a system property for a table in the Field Service Management application.**
 

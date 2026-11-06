@@ -1,18 +1,18 @@
 ---
-title: Configure Customer Data Models for B2B2C
-description: Configure the Customer Data Models for B2B2C application to enable business customers to support their end consumers by creating cases and tracking the services for products and services consumers use.
+title: Configure customer data models for B2B2C
+description: Enable business customers to support their end consumers by creating cases and tracking services for products and offerings, using the business-to-business-to-consumer \(B2B2C\) data model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-customer-data-model-b2b2c.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Configure Customer Data Models for B2B2C
+# Configure customer data models for B2B2C
 
-Configure the Customer Data Models for B2B2C application to enable business customers to support their end consumers by creating cases and tracking the services for products and services consumers use.
+Enable business customers to support their end consumers by creating cases and tracking services for products and offerings, using the business-to-business-to-consumer \(B2B2C\) data model.
 
 Role required: admin
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Reverse Whois integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -22,35 +22,21 @@ Role required: sn\_si.analyst
 
 ## Procedure
 
-1.  If not already open, navigate to **Security Incidents** &gt; **Incidents** &gt; **Show All Incidents** and locate the security incident you are working with.
-
-    \[Omitted image "flows-worknotes-start.png"\] Alt text: Work notes for the successful flow.
+1.  If not already open, navigate to **Security Incidents** &gt; **Incidents** &gt; **Show All Incidents** and locate the security incident you're working with.
 
     After the application is configured and you have attached an observable, the flow launches automatically. The work notes on the security incident record display the execution and completion status of the lookup.
 
-    \[Omitted image "flows-worknotes-end.png"\] Alt text: Work notes for the successful flow completion.
+2.  If you can't verify that the lookup ran successfully, review the work notes for more information on how to proceed.
 
-2.  If you cannot verify that the lookup ran successfully, review the work notes for more information on how to proceed.
-
-    \[Omitted image "flows-reversewhois-error.png"\] Alt text: Work notes for an error.
-
-3.  Navigate to the bottom of the security incident and click the **Show All Related Lists** related link.
-
-    **Note:** For the filtered lookup results shown in the following figure, the configuration settings in the Reverse Whois API configuration tile were saved with **1991-06-01** entered in the **Since date** field.
-
-    \[Omitted image "reverse-386-results.png"\] Alt text: Domain lookup results.
+3.  Navigate to the bottom of the security incident and select **Show All Related Lists** related link.
 
     Enrichment results are displayed on the **ReverseWhois Domains** tab. The active domains for this observable are displayed in the **Domain** column.
 
-4.  Click the blue information icon next to an item then click **Open record** in the dialog box that is displayed.
-
-    \[Omitted image "reverse-raw-data.png"\] Alt text: Raw data on an observable.
+4.  Select the blue information icon next to an item then select **Open record** in the dialog box that is displayed.
 
     The record is displayed with enrichment details, including the raw data.
 
 5.  Navigate back to the security incident, and with the **ReverseWhois Domains** tab selected, click an observable in the **Observable** column to open a record.
-
-    \[Omitted image "reverse-child-observables.png"\] Alt text: Child observables tab with results.
 
     The child observables are displayed on the **Child Observables** tab on the Observable record. The child observables are generated only if the Reverse Whois application has returned domains.
 

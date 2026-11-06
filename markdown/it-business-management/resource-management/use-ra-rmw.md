@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -64,6 +64,8 @@ Delete a resource assignment from Project Workspace. Deleting an assignment also
 Use the allocation heatmap capability in Project Workspace to view and update the resource allocation.
 -   **[Realign resource assignment to project task using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/realign-ra-pws-rmw.md)**  
 Realign or synchronize the resource assignment dates with the project task dates. This synchronization helps to schedule and align the resource assignments with the timeline of project task.
+-   **[Resource dashboard widget details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rmw-dashboard-widget-details.md)**  
+Descriptions of dashboard widgets available in Resource Management Workspace for tracking resource allocation, utilization, and assignment status.
 
 **Parent Topic:**[Use resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/use-resource-assignment.md)
 

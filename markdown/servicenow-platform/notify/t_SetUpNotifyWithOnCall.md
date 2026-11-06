@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Notify with On-Call Scheduling, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with On-Call Scheduling, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set up Notify with On-Call Scheduling
@@ -20,7 +20,7 @@ You can configure on-call scheduling to use Notify functionality to send SMS ale
 
 Ensure that the Notify and On-Call Scheduling plugins on your instance are activated.
 
-Role required: notify\_view, or admin
+Role required: notify\_view, or notify\_setup\_admin
 
 ## About this task
 

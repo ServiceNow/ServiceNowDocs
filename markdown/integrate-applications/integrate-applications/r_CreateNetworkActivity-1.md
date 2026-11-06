@@ -4,7 +4,7 @@ description: The Create Network activity creates new networks on a specified Inf
 locale: en-US
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 

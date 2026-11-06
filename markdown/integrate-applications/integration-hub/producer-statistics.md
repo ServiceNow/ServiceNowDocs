@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using Stream Connect for Apache Kafka, Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Using Stream Connect for Apache Kafka, Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
 # Viewing producer statistics
@@ -26,6 +26,14 @@ Producer details and statistics are covered in two tables.
 -   Kafka Producer Statistics \[sys\_kafka\_producer\_statistics\] table
 
 Both tables require the Kafka Admin \[kafka\_admin\] role to view. These tables are read only and the records in them can't be manually created, updated, or deleted.
+
+## Stream Connect logs
+
+Producer logs are stored in the Consumer Logs \[sys\_consumer\_log\] table. Each log entry shows when it was created; its level, message, and source; and links to any related Alert.
+
+You can enable more detailed logging by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
+
+Use the **glide.ih.kafka.producer.message\_bytes\_to\_log** property to specify how many bytes of a message to display in the logs. This property only impacts logging for producers. The default value is 0, meaning no message content is logged.
 
 ## Kafka Producers table
 
@@ -84,6 +92,14 @@ Reference to the record that produces the messages.
 
 </td></tr><tr><td>
 
+Topic Alias
+
+</td><td>
+
+The topic alias for the topic associated with the producer. A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
+
+</td></tr><tr><td>
+
 Topic
 
 </td><td>
@@ -98,6 +114,30 @@ Domain
 
 Name of the domain for the record producing the event.
 
+</td></tr><tr><td>
+
+Created
+
+</td><td>
+
+Date the producer was created. Formatted as YYYY-MM-DD hh:mm:ss.
+
+</td></tr><tr><td>
+
+Created by
+
+</td><td>
+
+Name of the person that created the producer.
+
+</td></tr><tr><td>
+
+Updated
+
+</td><td>
+
+Date the producer was update. Formatted as YYYY-MM-DD hh:mm:ss.
+
 </td></tr></tbody>
 </table>## Kafka Producer Statistics
 
@@ -105,10 +145,10 @@ The Kafka Producer Statistics \[sys\_kafka\_producer\_statistics\] table capture
 
 |Field|Description|
 |-----|-----------|
-|Topic|Reference to the topic record for the producer.|
 |Collection Time|Time the producer statistics were collected. Statistics are collected and reported every hour.|
 |Produced bytes|Total number of bytes produced during the collection period.|
 |Produced messages|Total number of messages produced during the collection period.|
+|Producer|Reference to the producer record.|
 |Domain|Name of the domain for the producer.|
 
 You can also view the statistics for a specific producer by selecting the producer's record from the table.

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Monitor service health, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View discovered service history
@@ -40,7 +40,7 @@ The discovered services history appears only when there are multiple discovered 
 
     \[Omitted image "EMTimeline.png"\] Alt text: Discovered services history
 
-    The displayed color corresponds to the discovered services severity, and the length of the bar in each color corresponds to how long the discovered services stayed at that severity.
+    The displayed color corresponds to the discovered services severity. The length of the bar in each color corresponds to how long the discovered services stayed at that severity.
 
     The following table explains the severity colors:
 

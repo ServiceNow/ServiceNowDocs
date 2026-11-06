@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Automated root cause analysis
@@ -20,7 +20,7 @@ Automated root cause analysis finds why and where a particular process performan
 
 **Note:** Automated root cause analysis is available only with more than 100 records.
 
-Run root cause analysis from your Insights or on specific map connections within the Analyst Workbench.
+Run root cause analysis from your Insights or on specific map connections within Analyst workbench.
 
 Process owners and admins can customize automated root cause analysis to specify which fields are analysed, and optionally configure the analysis to run automatically.
 

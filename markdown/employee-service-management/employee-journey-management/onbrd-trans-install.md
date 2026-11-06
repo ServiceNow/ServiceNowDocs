@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Journey Management
 classification: employee-journey-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Lifecyle events for enterprise, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -22,10 +22,14 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **All Applications** and select Lifecyle events for enterprise.
+1.  Navigate to **All** &gt; **All Applications** and select **Enterprise Onboarding and Transitions**.
 
 2.  Select **Install**.
 
+    Two apps are installed with Enterprise Onboarding and Transitions:
+
+    -   Human Resources Scoped App: Lifecycle Events for Enterprise \[com.sn\_hr\_lifecycle\_ent\]
+    -   Performance Analytics - Content Pack - Human Resources Lifecycle Events Enterprise Scoped App \[com.sn\_hr\_lifecycle\_pa\]
 
 **Related topics**  
 

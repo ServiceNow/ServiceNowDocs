@@ -7,9 +7,9 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM Health, IT Operations Management]
+breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Visualizations in the Service reliability dashboard
@@ -59,7 +59,7 @@ Shows the number of SLOs with a burn rate &gt;= 1 over time. A high burn rate in
 -   Find risks early by seeing when services begin consuming error budgets too quickly.
 -   Identify emerging or recurring reliability issues by tracking burn rates over time.
 -   Point to the chart to see the number and percentage of SLOs with a high burn rate at that time.
--   Select the chart to view SLO details, including measured reliability, burn rate, and percentage of error budget remaining.
+-   Select the chart to view SLO details, adjust the time range, and access additional chart options.
 
 </td></tr><tr><td>
 

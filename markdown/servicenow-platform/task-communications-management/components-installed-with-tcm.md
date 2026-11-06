@@ -1,13 +1,13 @@
 ---
 title: Components installed with Task Communications Management
-description: Several types of components are installed with the Task Communications Management plugin, including tables and user roles.Provides overall accountability of Task Communications Management.This role has read access to Task Communications Management tables.This role has create and edit access to Task Communications Management instance tables such as Communication Plans, Communication Tasks. Users with this role can send impromptu communications.
+description: Several types of components are installed with the Task Communications Management plugin, including tables and user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/task-communications-management/components-installed-with-tcm.html
 release: yokohama
 product: Task Communications Management
 classification: task-communications-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Task Communications Management, Task Communications Management plugins, Task Communications Management, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -171,69 +171,71 @@ Lists specific handlers for various task types. Example: For incident, Communica
 </td></tr></tbody>
 </table>## Roles installed
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+<table id="table_u1t_gb1_wdb"><thead><tr><th>
+
+Role title
+
+</th><th>
+
+Description
+
+</th><th>
+
+Contains roles
+
+</th></tr></thead><tbody><tr><td>
+
+Communication Plan Viewer \[sn\_comm\_management.comm\_plan\_viewer\]
+
+</td><td>
+
+Provides read access to Task Communications Management tables.
+
+</td><td>
+
+-   notify\_view
+-   sn\_publications\_recipients\_list\_user
+
+</td></tr><tr><td>
+
+Communication Plan Admin \[sn\_comm\_management.comm\_plan\_admin\]
+
+</td><td>
+
+Provides create and edit access to Task Communications Management tables including Communication Plan Definitions and other related records.
+
+</td><td>
+
+-   notify\_admin
+-   sn\_publications\_recipients\_list\_user
+
+</td></tr><tr><td>
+
+Communication Plan Manager \[sn\_comm\_management.comm\_plan\_mgr\]
+
+</td><td>
+
+Provides create and edit access to Task Communications Management instance tables such as Communication Plans, Communication Tasks. Users with this role can send impromptu communications.
+
+</td><td>
+
+sn\_comm\_management.comm\_plan\_viewer
+
+</td></tr><tr><td>
+
+Task communication management admin\[sn\_tcm\_admin\]
+
+</td><td>
+
+Configure all Task Communications Management features including communication plans and tasks.
+
+</td><td>
+
+-   sn\_comm\_management.comm\_plan\_admin
+-   sn\_comm\_management.comm\_plan\_mgr
+
+</td></tr></tbody>
+</table>To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Activate Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/task-communications-management/activate-tcm-plugin.md)
-
-## Communication Plan Admin \[sn\_comm\_management.comm\_plan\_admin\]
-
-Provides overall accountability of Task Communications Management.
-
-### Contains Roles
-
-List of roles contained within the role.
-
--   Notifications administrator \[notify\_admin\]
--   Publications recipients list user \[sn\_publications\_recipients\_list\_user\]
-
-### Groups
-
-List of groups this role is assigned to by default.
-
-None.
-
-### Special considerations
-
-**Important:** Avoid granting an admin role when more specialized roles are available.
-
-This role has create and edit access to Task Communications Management tables including Communication Plan Definitions and other related records.
-
-## Communication Plan Viewer \[sn\_comm\_management.comm\_plan\_viewer\]
-
-This role has read access to Task Communications Management tables.
-
-### Contains Roles
-
-List of roles contained within the role.
-
--   Notification viewer \[notify\_view\]
--   Publications recipients list user \[sn\_publications\_recipients\_list\_user\]
-
-### Groups
-
-List of groups this role is assigned to by default.
-
-None.
-
-### Special considerations
-
-None.
-
-## Communication Plan Manager \[sn\_comm\_management.comm\_plan\_manager\]
-
-This role has create and edit access to Task Communications Management instance tables such as Communication Plans, Communication Tasks. Users with this role can send impromptu communications.
-
-### Contains Roles
-
-The Communication Plan Manager \[sn\_comm\_management.comm\_plan\_manager\] role contains the Communication Plan Viewer \[sn\_comm\_management.comm\_plan\_viewer\] role.
-
-### Groups
-
-List of groups this role is assigned to by default.
-
-None.
-
-### Special considerations
-
-None.
 

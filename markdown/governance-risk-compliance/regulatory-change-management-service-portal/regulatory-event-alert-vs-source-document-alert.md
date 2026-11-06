@@ -1,5 +1,5 @@
 ---
-title: Differences between regulatory event alert and source document alert
+title: Regulatory event alerts vs. source document alerts
 description: A regulatory event alert informs you of a regulatory change, while a source document alert signals the release or update of the related official document.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/regulatory-event-alert-vs-source-document-alert.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Regulatory alerts, Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Differences between regulatory event alert and source document alert
+# Regulatory event alerts vs. source document alerts
 
 A regulatory event alert informs you of a regulatory change, while a source document alert signals the release or update of the related official document.
 
@@ -26,4 +26,15 @@ The following table outlines the key differences between a regulatory event aler
 |Nature of information|Summarized and contextual insights about a regulatory event.|Original, unaltered content from official sources such as laws, guidance, or notices.|
 |Use case|Helps assess impact and determine compliance actions or next steps.|Serves as a reference for legal interpretation, policy updates, and audit traceability.|
 |Example|Alert about a change in data privacy regulations in the EU.|Alert linking to the official EU regulation amendment document published by the authority.|
+
+**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
+
+**Related topics**  
+
+
+[Regulatory Change Management application in the Compliance Workspace]()
+
+[Regulatory process flow and tasks]()
+
+[Next Experience Discuss and Chat Collaboration]()
 

@@ -1,16 +1,16 @@
 ---
-title: Configure a Core UI global landing page in Next Experience-enabled instances
+title: Configure a Core UI global landing page in Next Experience enabled instances
 description: Set a Core UI landing page for all users so users on instances with Next Experience enabled see the same landing page as users on upgraded instances. Upgraded users see the landing pages they had before in the Next Experience UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/use-ui16-landing-page-in-next-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Next Experience landing pages, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Landing pages, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure a Core UI global landing page in Next Experience-enabled instances
+# Configure a Core UI global landing page in Next Experience enabled instances
 
 Set a Core UI landing page for all users so users on instances with Next Experience enabled see the same landing page as users on upgraded instances. Upgraded users see the landing pages they had before in the Next Experience UI.
 

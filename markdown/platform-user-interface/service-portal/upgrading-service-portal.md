@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -23,5 +23,5 @@ If upgrading from a previous release, take advantage of the latest article view 
 -   **[Activate Service Portal validation scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/activate-sp-validation-scripts.md)**  
 Validate user input in a specific field type using a validation script. In new instances, Service Portal includes XML, Script, Script \(Plain\), Email, and Version validation scripts by default. If upgrading from a previous release, the Mobile and Service Portal version is not active by default. You must activate the Mobile and Service Portal version of the validation script to validate user input in the Service Portal.
 
-**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_ServicePortal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configuring-service-portal.md)
 

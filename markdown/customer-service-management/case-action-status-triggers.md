@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-action-status-triggers.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering case action status, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Actionable case flows
@@ -44,7 +44,7 @@ The case action status feature provides the following flows for customer service
 -   Resolve blocked by record if Problem is closed or Fix/Workaround is communicated
 -   Resolve blocked by record if SC Request is closed
 -   Resolve blocked by record if user information is provided for case
--   Resolve blocked by record if Work Order is closed or canceled
+-   Resolve blocked by record if Work Order is closed or cancelled
 -   Set Needs Attention if additional comments are added by others
 -   Update case when blocked by record is created
 -   Update case when Needs attention field is toggled
@@ -60,9 +60,7 @@ The case action status feature provides the following flows for customer service
 
 ## Flows for problem records associated with a case
 
-If a problem is associated with a case with the **Need task resolution** blocking reason, a case flow is provided to resolve the blocking task when a fix is communicated or the problem record is closed or canceled.
+If a problem is associated with a case with the **Need task resolution** blocking reason, a case flow is provided to resolve the blocking task when a fix is communicated or the problem record is closed or cancelled.
 
-If a problem is associated with a case with the **Need PRB workaround** blocking reason, a case flow is provided to resolve the blocking task when a workaround is provided or the problem record is closed or canceled.
-
-**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-case-action-status.md)
+If a problem is associated with a case with the **Need PRB workaround** blocking reason, a case flow is provided to resolve the blocking task when a workaround is provided or the problem record is closed or cancelled.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workforce Optimization for HR Overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Configuring Workforce Optimization for HR
@@ -17,7 +17,7 @@ breadcrumb: [Workforce Optimization for HR Overview, HR Service Delivery, Employ
 Enable Workforce Optimization for HR and configure settings to use Scheduling, Teams, and Coaching applications.
 
 -   **[Activate Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/activate-wfo-hr.md)**  
-Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\_workspa\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
+Workforce Optimization for HR solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Manager Workspace. Configurable Workspace \(sn\_hr\_wfo\) plugin activates all other dependent plugins to enable users to access Scheduling, Coaching, and Teams applications in Workforce Optimization for HR.
 -   **[Workforce Optimization for HR Domain Separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/wfo-hr-domain-separation.md)**  
  Domain separation is supported for Workforce Optimization for HR. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Setting up Scheduling for Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workforce-optimization-for-hr/setup-scheduling-wfo-hr.md)**  

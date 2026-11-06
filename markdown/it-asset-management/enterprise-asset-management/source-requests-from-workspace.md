@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Procuring enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Procuring enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Source requests from Enterprise Asset workspace
@@ -45,6 +45,4 @@ Role required: proc\_user
 
     A task for transfer order line or purchase order line is created if you selected **Transfer** or **Purchase**. You can open the request to view the task.
 
-
-**Parent Topic:**[Procuring enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/procuring-assets.md)
 

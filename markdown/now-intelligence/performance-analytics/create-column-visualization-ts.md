@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Time series widgets, Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,13 +18,13 @@ To emphasize the indicator scores over time instead of the trend in scores, crea
 
 ## Before you begin
 
-Role required: pa\_power\_user or admin
+Role required: pa\_admin or admin
 
 ## About this task
 
 **Note:** This feature is part of the Core UI front end. It is not supported on Platform Analytics dashboards or UI Builder pages, except to a limited extent when migrated in compatibility mode. To build Platform Analytics components, see [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md) or [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
-This feature is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
+This feature is deprecated, meaning it is in maintenance mode and is no longer being augmented or changed. Only security fixes to this feature will be addressed.
 
 If you want to emphasize indicator scores instead of the trend in scores over time, use a column visualization. Column visualizations are also useful for comparing the scores of several indicators. To compare indicators, add indicators to the widget, or place several widgets with column visualization next to each other in a dashboard.
 
@@ -139,7 +139,7 @@ A spectrum of colors for the scores for all indicators. If only one indicator is
 
     3.  In **Show multiple elements as**, select whether to show each element separately or to show an aggregate of elements based on the indicator aggregation.
 
-        Neither all widget visualizations nor all indicators support both aggregate and separate views. For automated and external indicators, only COUNT, SUM, MAX, and MIN data aggregations support aggregate views. COUNT DISTINCT and AVG do not. For more information, see [Showing multiple elements separately or aggregated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
+        Neither all widget visualizations nor all indicators support both aggregate and separate views. For automated and external indicators, only COUNT, SUM, MAX, and MIN data aggregations support aggregate views. COUNT DISTINCT and AVG do not. For more information, see [Showing multiple elements separately or aggregated in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/multi-element-select-indicator-views.md).
 
     **Important:** Do not specify a breakdown and element on the widget record when you want the elements for that breakdown to be selected on a breakdown dashboard. The element on the widget record overrides any elements selected on the breakdown dashboard for that breakdown.
 

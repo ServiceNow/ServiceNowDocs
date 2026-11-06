@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-additional-resources.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-06-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Additional resources, AI features, AI products, resource type, solutions, Now Assist, GenAI, Generative AI]
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Enable AI Experiences]
 ---
 
 # Additional resources for AI products and solutions
@@ -77,7 +77,7 @@ Glossary
 
 </td><td>
 
-[Now Assist and Agentic AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-glossary.md).
+[AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-glossary.md)
 
 </td></tr><tr><td>
 
@@ -111,7 +111,7 @@ Release notes
 
 </td><td>
 
- 
+
 
 </td></tr><tr><td>
 
@@ -124,20 +124,6 @@ Getting started
 </td><td>
 
 [Overview of Advanced AI and Data Products](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584490)
-
-</td></tr><tr><td>
-
-AI Control Tower
-
-</td><td>
-
-Training
-
-</td><td>
-
-[AI Control Tower Basics](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=ai%20control%20tower&spa=1#:~:text=AI%20Control%20Tower%20(AICT)%20Basics)
-
- [AI Control Tower learning path](https://learning.servicenow.com/lxp/en/pages/lxp-search?id=search&q=ai%20control%20tower&spa=1#:~:text=AI%20Control%20Tower%20(AICT)%20Learning%20Path)
 
 </td></tr><tr><td>
 
@@ -299,7 +285,29 @@ Release notes
 
 </td><td>
 
-[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-rn-landing.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-creator-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-creator-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-csm-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-csm-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-document-intelligence-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-document-intelligence-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-ea-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-ea-rn.md)
+
+ 
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-itsm-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-itsm-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/secops-now-assist-security-operations-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/secops-now-assist-security-operations-rn.md)
+
+ 
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-spm-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-for-spm-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-va-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/now-assist-va-rn.md)
+
+ [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/generative-ai-controller-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/generative-ai-controller-rn.md)
 
 </td></tr><tr><td>
 
@@ -339,9 +347,7 @@ Best practices
 
 </td><td>
 
-[Now Assist best practices](https://mynow.servicenow.com/now/best-practices/collections/now-assist-best-practices)
-
- [Now Assist best practices \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219)
+[Now Assist best practices \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219)
 
  [Knowledge article best practices \(ServiceNow Community\)](https://www.servicenow.com/community/knowledge-management-articles/best-practices-to-use-your-knowledge-articles-with-now-assist/ta-p/2824219)
 
@@ -381,18 +387,6 @@ Now Assist
 
 </td><td>
 
-Glossary
-
-</td><td>
-
-[Now Assist and Agentic AI glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-glossary.md).
-
-</td></tr><tr><td>
-
-Now Assist
-
-</td><td>
-
 Training
 
 </td><td>
@@ -401,11 +395,13 @@ Training
 
  [Introduction to Generative AI](https://learning.servicenow.com/lxp/en/now-platform/introduction-to-generative-ai?id=learning_course_prev&course_id=647909738794b110f40fc95d0ebb35c7)
 
- [Now Assist Essentials \(2025 Q2 Store Release\)](https://learning.servicenow.com/lxp/en/now-platform/now-assist-essentials?id=learning_course_prev&course_id=379833b8531aea50c2245a01a0490e5a&s=1&ssa=3)
-
  [Now Assist Essentials \(November 2024 Store Release\)](https://learning.servicenow.com/lxp/en/now-platform/now-assist-essentials?id=learning_course_prev&course_id=a07697f247df1290ca332a81736d43db)
 
+ [Now Assist in Virtual Agent Implementation \(November 2023 Store Release\)](https://learning.servicenow.com/lxp/en/now-platform/now-assist-for-virtual-agent-implementation?id=learning_course_prev&course_id=17601dc387abbd105aa9ca2d0ebb35d6)
+
  [Now Assist in Virtual Agent Implementation \(August 2024 Store Release\)](https://learning.servicenow.com/lxp/en/now-platform/now-assist-for-virtual-agent-implementation?id=learning_course_prev&course_id=2d6f9385935d5e14fb94b4886cba1016)
+
+ [Now Assist in Search Implementation \(Nov 2023 Store Release\)](https://learning.servicenow.com/lxp/en/now-platform/now-assist-for-search-implementation?id=learning_course_prev&course_id=7543f1d947fbb1d0123f3975d36d43c1)
 
  [Now Assist in Search Implementation \(Feb 2024 Store Release\)](https://learning.servicenow.com/lxp/en/now-platform/now-assist-for-search-implementation?id=learning_course_prev&course_id=cf07133b970ac2947f7070871153af0c)
 

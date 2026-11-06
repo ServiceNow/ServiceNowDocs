@@ -1,21 +1,21 @@
 ---
-title: Modify data input configurations
-description: Modify the configuration of a data input for Health Log Analytics by adding a new path to an existing data input configuration or changing the data input's MID Server destination and port.
+title: Modify a data input configuration in Health Log Analytics
+description: Change the configuration of a data input for Health Log Analytics. You can add a new path to an existing configuration or modify the MID Server destination and port.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-modify.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, configuration, change MID Server port, add new path]
-breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Modify data input configurations
+# Modify a data input configuration in Health Log Analytics
 
-Modify the configuration of a data input for Health Log Analytics by adding a new path to an existing data input configuration or changing the data input's MID Server destination and port.
+Change the configuration of a data input for Health Log Analytics. You can add a new path to an existing configuration or modify the MID Server destination and port.
 
 ## Before you begin
 
@@ -203,12 +203,12 @@ Windows using Beats \(Filebeat or Winlogbeat\):
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Additional data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 
 **Related topics**  
 
 
 [Configure advanced settings for Rsyslog, Splunk, TCP data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-rsyslog-splunk.md)
 
-[Configure advanced settings for Beats data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)
+[Configure advanced settings for Beats data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-adv-beats.md)
 

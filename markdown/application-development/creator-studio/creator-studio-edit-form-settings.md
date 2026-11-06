@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with forms in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit the settings for a form in Creator Studio
@@ -50,7 +50,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
 7.  Select the **Location** tab to update where the form appears in a catalog, how it's categorized, and which topics it appears for.
 
-    1.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) for the **Catalogs and categories** card.
+    1.  Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: for the **Catalogs and categories** card.
 
     2.  Select the catalog that represents the business area the app will use.
 
@@ -62,7 +62,7 @@ To edit the settings for a form, you must be given permission to work on the app
 
     5.  Select the **Apply** button to save your changes.
 
-    6.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) for the **Topics** card.
+    6.  Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: for the **Topics** card.
 
     7.  Choose the **Taxonomy** page where you want the form to appear, such as **Employee**.
 
@@ -78,13 +78,13 @@ To edit the settings for a form, you must be given permission to work on the app
 
 8.  Select the **Access** tab to change which roles and groups can view and submit the form.
 
-    1.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) to edit users that the form should be **Available for**.
+    1.  Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: to edit users that the form should be **Available for**.
 
     2.  Select the roles and groups that should have access to the form.
 
     3.  Select the **Apply** button to save your changes.
 
-    4.  Select the edit icon \(\[Omitted image "cs-edit-form-location.png"\] Alt text:\) to edit users that the form should be **Not available for**.
+    4.  Select the edit icon \[Omitted image "cs-edit-form-location.png"\] Alt text: to edit users that the form should be **Not available for**.
 
     5.  Select the roles and groups that shouldn’t have access to the form.
 

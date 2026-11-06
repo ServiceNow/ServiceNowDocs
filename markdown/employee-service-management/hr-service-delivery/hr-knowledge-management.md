@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # HR Knowledge Management
@@ -39,7 +39,7 @@ You can also attach or link HR knowledge articles to an HR case or HR catalog it
 
 ## HR knowledge blocks
 
-You can use knowledge blocks with HR knowledge management to simplify knowledge authoring for writers and knowledge consumption for readers. Knowledge blocks are reusable pieces of content secured by user criteria that you can add to knowledge articles in a knowledge base. The user criteria controls which users can read or not read the block content in an article or search, enabling users to more easily view content that is relevant to them.
+Knowledge blocks are reusable pieces of content secured by user criteria that you can add to knowledge articles. User criteria controls who can read each block, helping users view content relevant to them while simplifying authoring and consumption.
 
 For more information, see [Knowledge blocks for HR knowledge management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/knowledge-blocks-for-hr-knowledge-management.md).
 

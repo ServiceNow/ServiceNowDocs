@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace knowledge management, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_wsd\_core.workplace\_user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center** &gt; **Workplace Services** &gt; **Browse Workplace Services**.
+1.  Navigate to **All** &gt; **Workplace Service Portal** &gt; **Workplace Service Portal Home**.
 
 2.  Open the knowledge base page.
 

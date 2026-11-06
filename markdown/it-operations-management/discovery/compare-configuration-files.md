@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-11-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configuration file tracking, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Compare versions of CI configuration files
@@ -35,15 +35,15 @@ Changes to configuration files are associated with CIs to which these files belo
 
 1.  Compare two versions of the CI configuration file from Service Mapping or Discovery.
 
-<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d463804e145">
+<table id="choicetable_c2k_pxd_bhc"><thead><tr><th align="left" id="d314640e145">
 
 Product
 
-</th><th align="left" id="d463804e148">
+</th><th align="left" id="d314640e148">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d463804e154">
+</th></tr></thead><tbody><tr><td id="d314640e154">
 
 **Service Mapping**
 
@@ -61,7 +61,7 @@ Steps
 
 The Tracked Configuration File Comparison tab opens, displaying the most recent and the previous versions of the configuration file.
 
-</td></tr><tr><td id="d463804e218">
+</td></tr><tr><td id="d314640e218">
 
 **Discovery**
 

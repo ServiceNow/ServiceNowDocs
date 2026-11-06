@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-26"
-reading_time_minutes: 1
-breadcrumb: [Configure the Playbook tab, Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure the Playbook tab, Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure obligation review for the playbook
@@ -48,7 +48,7 @@ Role required: admin
 
     For more information on adding a viewport, see [Add a viewport component to your page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-with-viewport-components.md).
 
-    1.  In the configuration panel, select **+ Add** to attach the **Now Assist in Contract Management** page collection.
+    1.  In the configuration panel, select **+ Add** to attach the **ServiceNow Otto for Contract Management Pro** page collection.
 
     2.  Select **Apply default configuration with added URL parameters** and then select done.
 
@@ -108,4 +108,6 @@ Role required: admin
 
     If the parameters are not available, add them manually. For more information on modifying the page settings, see [Edit page variant settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/edit-variant-settings.md).
 
+
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

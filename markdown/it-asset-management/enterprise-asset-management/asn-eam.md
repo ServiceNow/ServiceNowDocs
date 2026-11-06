@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Use Advanced Shipment Notification in Enterprise Asset Management
@@ -26,6 +26,10 @@ Role required: sn\_eam.enterprise\_admin
 
 Creating enterprise asset records manually is time consuming and can lead to errors. Use ASN to reduce the risk of shipment going missing or misplaced and increase inventory accuracy.
 
+If the asset records that you want to create belong to model categories linked to a CI class with identification rules defined for fields like the Asset tag, Serial number, or MAC address, you must provide details for at least one of these fields in the ASN template. Otherwise, the asset record won't be created. For example, if identification rules are defined for the Serial number and MAC address, you should provide a value for either of these fields.
+
+The identification rules for a CI class are defined in the CMDB Identification and Reconciliation engine \(IRE\). For more details, see [Identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_IdentificationRules.md) and [Create a CI identification rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_CreateCIIdentificationRule.md). These rules help to uniquely identify the asset through these required fields and maintain accurate asset records.
+
 ## Procedure
 
 1.  Navigate to **Enterprise Asset Workspace** &gt; **Procurement** &gt; **Advance shipment**.
@@ -38,9 +42,11 @@ Creating enterprise asset records manually is time consuming and can lead to err
 
 4.  Select **Attach File** to upload a spreadsheet \(.xlxs\).
 
-    The spreadsheet should be in the format of the download template. If you do not have a sample spreadsheet, select **Download template** to download a sample spreadsheet, fill in the details in the spreadsheet, and then select **Attach File**to upload the spreadsheet. Ensure that in the spreadsheet the format for **Ship date**, **Order date**, and **Warranty end date** fields is `month/date/year`.
+    The spreadsheet should be in the format of the download template. If you do not have a sample spreadsheet, select **Download template** to download a sample spreadsheet, fill in the details in the spreadsheet, and then select **Attach File** to upload the spreadsheet. Ensure that in the spreadsheet the format for **Ship date**, **Order date**, and **Warranty end date** fields is `month/date/year`.
 
     **Note:** From the Yokohama release onward, the Download template for Advanced Shipment Notification includes the **MAC address** field. After a successful import, the MAC address that you provided in the template is added to the **MAC address** \[mac\_addr\] field in the Asset \[alm\_asset\] table.
+
+    Starting with the Zurich release, the Download template for Advanced Shipment Notification includes the **OT entity** column. When this column is set to **TRUE** for hardware models, it creates OT hardware assets in the OT Asset Workspace.
 
     The upload may take some time. Once the file is uploaded, the name of the spreadsheet appears in the **File** field.
 
@@ -61,5 +67,5 @@ Creating enterprise asset records manually is time consuming and can lead to err
     Serialized assets do not have duplicate enterprise import records created, but consumables do have duplicate entries.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

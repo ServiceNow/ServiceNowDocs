@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/sce-event-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a scenario event, Adding a scenario event to the analysis, Conducting a scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Add a scenario event, Adding a scenario event to the analysis, Enable the legacy scenario analysis flow, Legacy scenario analysis, Scenario analysis, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Scenario event form

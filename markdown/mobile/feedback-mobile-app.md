@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/feedback-mobile-app.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ ServiceNow strives to continuously improve the Mobile Platform, and therefore it
 
 Starting with version 11.3 of the native client, anyone using a ServiceNow® mobile app can provide feedback regarding their in-app experience.
 
-**Note:** This functionality only exists for ServiceNow General Availability applications. This functionality is not available in ServiceNow MAM \(Intune and BlackBerry\) apps.
+**Note:** This functionality only exists for ServiceNow General Availability applications. This functionality is not available in ServiceNow MAM \(Intune\) apps.
 
 ## Providing feedback
 

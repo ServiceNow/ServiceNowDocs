@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Using Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Validate skills in Manager Hub
@@ -24,13 +24,13 @@ Role required: sn\_skills\_int.manager
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  In the Employee Center home page, navigate to **Your team** &gt; **Conversations**.
+2.  In the Employee Center home page, navigate to **Your team** &gt; **Manager Hub** &gt; **Conversations**.
 
-3.  Open a conversation that is scheduled with your employee.
+3.  Open the conversation that is scheduled with your employee.
 
-4.  On the **Attendee details** panel, select the **Skills** widget.
+4.  On the **Employee details** tab, select the **Skills** tab.
 
-    \[Omitted image "skills-validated-skills.png"\] Alt text: Skill validation section in Manager Hub.
+    \[Omitted image "skills-validated-skills.png"\] Alt text: Skills tab showing Validate skills button, list of skills needing validation, and detailed activity view for selected Agentic skill with completed credentials
 
 5.  Select the **Validate skills** button, and then select the skills that you want to validate.
 
@@ -39,10 +39,6 @@ Role required: sn\_skills\_int.manager
 6.  Additionally, select any skill to review activities related to the skill that your employee has made progress on before you can validate it.
 
 7.  Select **Validate selected skills**.
-
-8.  On the Skill pill, select the menu icon \(\[Omitted image "menu-icon.png"\] Alt text: Actions icon.\) and select **View related activities** to see the activity details of the skill.
-
-    Any credentials obtained by the employee to gain the skill are displayed as activities. You can also see Other contributions towards gaining the skill.
 
 
 ## Result

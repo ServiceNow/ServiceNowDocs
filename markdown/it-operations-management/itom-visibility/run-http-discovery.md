@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [HTTP device, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [HTTP device, Network device discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Run discovery through an HTTP or HTTPS REST call
@@ -30,9 +30,9 @@ Role required: discovery\_admin
 
     In most cases, you can use Basic Auth Credentials to access a device through an HTTP or HTTPS REST call.
 
-    **Important:** Starting in YP7, the HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
+    **Important:** The HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
 
-4.  Add the user name and password you need to access the device.
+4.  Add the user name and password that you need to access the device.
 
 5.  Select **Submit**.
 

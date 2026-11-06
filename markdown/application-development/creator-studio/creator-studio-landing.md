@@ -1,31 +1,32 @@
 ---
 title: Creator Studio
-description: If you've ever wanted to create an application but you don't know how to code, then Creator Studio was designed for you!
+description: Creator Studio is a no-code application builder on the ServiceNow AI Platform that lets non-developers create request-fulfillment apps without writing code. Use Creator Studio to build apps that manage employee requests, approvals, and fulfillments, such as equipment requests or travel approvals, directly on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-landing.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-keywords: [creator studio, no code, no-code, request app, citizen development, delegated development, delegate development, request app, request fulfill app, fulfllment app, fulfillment, visual development]
-breadcrumb: [Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [creator studio, servicenow creator studio, creator studio srvicenow, creatorstudio, creator studio app, creater studio, cretor studio, creter studio, servicenow customization, studio creator, no code, no-code, request app, citizen development, delegated development, delegate development, request app, request fulfill app, fulfllment app, fulfillment, visual development]
+breadcrumb: [Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio
 
-If you've ever wanted to create an application but you don't know how to code, then Creator Studio was designed for you!
+Creator Studio is a no-code application builder on the ServiceNow AI Platform that lets non-developers create request-fulfillment apps without writing code. Use Creator Studio to build apps that manage employee requests, approvals, and fulfillments, such as equipment requests or travel approvals, directly on the ServiceNow AI Platform.
 
 \[Omitted video\] Description: Creator Studio introduction video
 
-Creator Studio specializes in helping you craft request-fulfillment applications, such as for your company's service desk. Service Desk apps enable users to submit requests, report issues, and access support related to services within your company. In these types of apps, one person makes a request, such as for a new keyboard, and another person fulfills the request by providing them with one.
+Creator Studio specializes in Service Desk request-fulfillment applications, where one person submits a request and another person fulfills it. Service Desk apps enable users to submit requests, report issues, and access support related to services within your company. Use ServiceNow AI Platform to build apps that handle common workplace requests, so your team can submit, review, approve, and fulfill them in one place.
 
-Keyboards, auto parts, recognition gift cards — imagine all the items employees use and ask for at your company. Your app could handle requests to approve travel, receive new equipment, make purchases, or get permission to take vacations. Your app would also enable someone to review, approve, and reject the requests.
+ServiceNow AI Platform supports apps for requests, such as:
 
-Okay, so Creator Studio won't let you write an application for the next lunar landing module, but for what it's designed to do, it can do a lot!
-
-Don't worry if you're new to creating applications. We're here to guide you every step of the way. Are you ready to dive in and start creating?
+-   Ordering equipment, such as keyboards or monitors
+-   Approving travel or purchase requests
+-   Granting permissions, such as vacation approvals
+-   Distributing recognition gifts or awards
 
 ## Get started
 
@@ -54,29 +55,50 @@ Don't worry if you're new to creating applications. We're here to guide you ever
  
 
 </td></tr></tbody>
-</table>## Which builder should I use to create an app?
+</table>## Which app builder should I use?
 
-\[Omitted image "mmasset0020724-appengine-landing.svg"\] Alt text: Different builders available for different skill levels
+Use the following table to choose the app building experience that matches your role and technical background.
 
-**Want to build an app easily, without code?**
+<table id="app-builders-table"><thead><tr><th>
 
-Creator Studio specializes in helping you craft request-fulfillment applications without writing code. For example, an application to request office supplies by filling out a form, and someone approves or denies your request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md).
+Tool
 
-**Need a more general app but still want low-code options?**
+</th><th>
 
-App Engine Studio lets you build a broader range of apps than Creator Studio without being a programming pro. For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/exploring-aes.md).
+Users
 
-**Are you a developer who wants more control in a centralized user interface?**
+</th><th>
 
-Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+Features
 
-**Are you a developer who wants to use industry-standard development tools and processes?**
+</th></tr></thead><tbody><tr><td>
 
-The ServiceNow IDE and ServiceNow SDK support developing applications in source code with ServiceNow Fluent, creating JavaScript modules, and using third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code.
+Build Agent: Build an app using natural language prompts.
 
-The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK uses Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md).
+</td><td>
 
-## What apps are in ServiceNow
+Developers of all experience levels \(from low-code to Platform and source code\)
+
+</td><td>
+
+Build full-stack applications via a conversational interface.You can use Build Agent in ServiceNow Studio and the ServiceNow IDE to generate a complete ServiceNow scoped or global application. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md).
+
+</td></tr><tr><td>
+
+ServiceNow Studio: Build and deliver apps in a unified environment.
+
+</td><td>
+
+Citizen developers, Platform developers
+
+</td><td>
+
+Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
+
+For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+
+</td></tr></tbody>
+</table>## What apps are in ServiceNow
 
 A ServiceNow app is a package that performs a specific task for a specified group of users. Think of an app as a container with a set of rules around who can access and edit it. For example, ServiceNow apps can include an API, a table, a workspace, a form, a flow, or any combination of those things.
 
@@ -84,9 +106,12 @@ A Creator Studio app uses forms and automation to enable users to request someth
 
 ## What you can do after you build an app in Creator Studio
 
-If you build a simple app in Creator Studio and later decide that you want to make it more complex, you can open the app in any of the other ServiceNow builders.
+After you build an app in Creator Studio, you can open the app in any other ServiceNow builder so that you can add more advanced functionality without rebuilding from scratch.
 
-For example, you can add more complex [automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md) in Workflow Studio or different interfaces in ServiceNow Studio.You can quickly open an app by selecting **Open in ServiceNow Studio** from the app's tile on the Creator Studio home page.
+For example:
+
+-   Open the app in Workflow Studio to add complex [automations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md).
+-   Open the app in ServiceNow Studio to add different interfaces.Select **Open in ServiceNow Studio** from the app's tile on the Creator Studio home page to open the app directly.
 
 ## Give Creator Studio a try
 

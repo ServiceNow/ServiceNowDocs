@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, IT Asset Management]
+breadcrumb: [Create a purchase order, Procurement purchase order management for assets, Procurement, Common applications, Asset Management]
 ---
 
 # Create a purchase order line item

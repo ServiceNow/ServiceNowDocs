@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -166,6 +166,30 @@ Has permissions to create and edit records in the Workplace Entity \[sn\_wsd\_co
 </td><td>
 
 sn\_wsd\_core.workplace\_entity\_reader
+
+</td></tr><tr><td>
+
+Workplace core neighborhood readersn\_wsd\_core\_neighborhood\_reader
+
+</td><td>
+
+Any user with workplace manager role and space planner role has permission to read neighborhood.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Workplace core neighborhood writersn\_wsd\_core\_neighborhood\_writer
+
+</td><td>
+
+Any user with workplace manager role and space planner role has permission to read and write neighborhood.
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>## Tables
@@ -448,6 +472,30 @@ Stores information about Workplace space types that are referenced to Indoor Map
 
 </td></tr><tr><td>
 
+Workplace core neighborhood\[sn\_wsd\_core\_neighborhood\]
+
+</td><td>
+
+Stores information about neighborhood.
+
+</td></tr><tr><td>
+
+Workplace core neighborhood space association\[sn\_wsd\_core\_neighborhood\_m2m\_space\]
+
+</td><td>
+
+Stores information about neighborhood space association.
+
+</td></tr><tr><td>
+
+Workplace core neighborhood space user assignment\[sn\_wsd\_core\_neighborhood\_user\_assignment\]
+
+</td><td>
+
+Stores information about neighborhood user assignment rule.
+
+</td></tr><tr><td>
+
 Workplace Card Configuration\[sn\_wsd\_core\_card\_configuration\]
 
 </td><td>
@@ -467,4 +515,6 @@ Stores configurations for the cards that are used across Workplace applications.
 [Workplace location assignment anomaly types]()
 
 [Reserve a space form]()
+
+[Card Configuration examples]()
 

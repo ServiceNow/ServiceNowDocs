@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a profile for Secureworks CTP ticket ingestion integration, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Create a profile, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Define schedule for the Secureworks CTP Ticket ingestion
@@ -30,15 +30,15 @@ You also choose how often you will poll for future tickets that match the ticket
 
 2.  Choose one to schedule how and when tickets are pulled from the Secureworks CTP portal.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d481219e71">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d491244e68">
 
 Option
 
-</th><th align="left" id="d481219e74">
+</th><th align="left" id="d491244e71">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d481219e80">
+</th></tr></thead><tbody><tr><td id="d491244e77">
 
 **Ongoing ticket ingestion selected**
 
@@ -46,7 +46,7 @@ Description
 
 Based on the default setting, the ServiceNow AI Platform instance pulls from the Secureworks CTP portal for new tickets every five minutes. Security incidents are created if tickets are found and incident generation filtering criteria are matched. To balance ticket ingestion against server load, and to pull the most current data, five minutes is the setting you may prefer. However, this value can be modified as needed.
 
-</td></tr><tr><td id="d481219e98">
+</td></tr><tr><td id="d491244e95">
 
 **-   Ongoing ticket ingestion selected
 -   Set initial ticket ingestion time
@@ -73,8 +73,6 @@ Initial ingestion timeIf you want to schedule the initial ingestion at a specifi
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "secureworks-create-profile-schedule.gif"\] Alt text: Secureworks CTP: Create Profile: Schedule
-
-3.  Click **Continue** to navigate to the Additional Options page.
+</table>3.  Select **Continue** to navigate to the Additional Options page.
 
 

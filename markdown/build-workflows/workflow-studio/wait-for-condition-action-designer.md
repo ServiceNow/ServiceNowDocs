@@ -1,87 +1,97 @@
 ---
 title: Wait For Condition step
-description: Pause a flow until record values match a specific set of conditions.
+description: Pause an action until record values match a specific set of conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/wait-for-condition-action-designer.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Workflow Studio steps, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Wait For Condition step
 
-Pause a flow until record values match a specific set of conditions.
+Pause an action until record values match a specific set of conditions.
 
 ## Roles and availability
 
 Available as an Workflow Studio action step. Users with the action\_designer role can create a custom action with one or more action steps.
 
-## Fields
+Provide a value for each input that your action needs. To add dynamic values, you can also drag and drop pills from the Data panel or select them from the pill picker.
 
-<table id="table_qlx_ccf_kcb"><thead><tr><th>
+-   **Record**
 
-Field
+    Data type: **Record**
 
-</th><th>
+    The record whose field values the step monitors for changes. This record can come from an action input or the output of a previous action step.
 
-Description
+    **Note:** If this record is deleted, the action stops waiting and continues running.
 
-</th></tr></thead><tbody><tr><td>
+-   **Table**
 
-Record
+    Data type: **Table Name**
 
-</td><td>
+    The table associated with the record to monitor. This read-only value is set to the table associated with the record you selected. Confirm that the system supports Wait for Condition for your selected table. For a list of unsupported tables, see the Unsupported tables section.
 
-Drag an input record or a record from a previous step.**Note:** If this record is deleted, the flow stops waiting and continues running.
+-   **Conditions**
 
-</td></tr><tr><td>
+    Data type: **Conditions**
 
-Table
+    The record values necessary to resume running the action. For example, if the condition is **\[State\]** **\[is\]** **\[Closed\]**, the action pauses until the condition is met. Once met, the action moves on to the next action step. Only select conditions that apply to field values in the table to which the record belongs. See Condition evaluation for more information about creating valid conditions.
 
-</td><td>
+    **Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) instead.
 
-Read-only. Set to the table associated with the record. Confirm that the system supports Wait for Condition for your selected table. For a list of unsupported tables, see the Unsupported tables section.
+-   **Enable Timeout**
 
-</td></tr><tr><td>
+    Data type: **True/False**
 
-Conditions
+    Option to limit the amount of time that the action waits for the step to be completed before continuing.
 
-</td><td>
+    **Note:** Use the **Enable timeout** option to prevent this step from continuing to run indefinitely. If the condition to continue is never met, a timeout value specifies when the system skips the Wait for Condition step and goes to the next step in the action. You must set a Duration value to enable a timeout. You can also select a Schedule if you want to compute the duration end date based on a specific work schedule.
 
-Select the record values necessary to resume running the flow. For example, if the condition is **\[State\]** **\[is\]** **\[Closed\]**, the flow pauses until the condition is met. Once met, the flow moves on to the next step or action. Set static or dynamic conditions to filter records. To define a static condition applied each time the action runs, define the conditions with the condition builder. To enable flow designers to dynamically apply conditions, define an input of type Conditions and drag-and-drop the input data pill into the **Conditions** field.**Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) instead.
+-   **Duration**
 
-</td></tr><tr><td>
+    Data type: **Duration**
 
-Enable timeout
+    Amount of time that the step waits before continuing when the **Enable timeout** option is selected. Enter the time to wait in hours, minutes, and seconds. If you leave this field empty, the step does not wait.
 
-</td><td>
+-   **Schedule**
 
-Option to limit the amount of time that the flow waits for the action to be completed before continuing.
+    Data type: **Choice**
 
-**Note:** Use the **Enable timeout** option to prevent this action from continuing to run. If the condition to continue is never met, a timeout value specifies when the system skips the Wait for Condition action and go to the next item in the flow. You must set a Duration value to enable a timeout. You can also select a Schedule if you want to compute the duration end date based on a specific work schedule.
+    Schedule used to compute the timeout duration when the **Enable timeout** option is selected. For example, waiting for 10 hours as part of an 8-5 weekdays schedule causes the flow to wait for one or more business days. If you leave this field empty, the timeout runs without a schedule.
 
-</td></tr><tr><td>
 
-Duration
+## Outputs
 
-</td><td>
+These outputs appear in the Data panel. You can use them as inputs elsewhere in your flow.
 
-Amount of time that the flow waits before continuing when the **Enable timeout** option is selected. Enter the time to wait in hours, minutes, and seconds. If you leave this field empty, the flow does not wait.
+-   **State**
 
-</td></tr><tr><td>
+    Data type: **Choice**
 
-Schedule
+    The completion status of the step as a numeric value.
 
-</td><td>
+    -   0 \(success\)
+    -   1 \(error\)
 
-Schedule used to compute the timeout duration when the **Enable timeout** option is selected. For example, waiting for 10 hours as part of an 8-5 weekdays schedule causes the flow to wait for one or more business days. If you leave this field empty, the timeout runs without a schedule.
+## Condition evaluation
 
-</td></tr></tbody>
-</table>## Action error evaluation
+The Wait for Condition step only evaluates the wait condition when there are changes to fields in the **Record** you select. A valid wait condition meets these criteria.
+
+-   Each condition evaluates a field from the table to which the record belongs.
+
+    **Note:** Don't create conditions that dot-walk to another table or depend upon catalog item variables from a related record.
+
+-   Each condition specifies a field value change rather than a relative time period.
+
+    **Note:** For conditions that depend on a specific duration, consider using [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md) instead.
+
+
+## Action error evaluation
 
 -   **If this step fails**
 
@@ -125,33 +135,7 @@ The system does not support Wait for Condition for the following tables.
 
 \[Omitted image "wait-for-condition-action-example.png"\] Alt text: Wait for Condition step example in Action Designer
 
-## Output
+This example action takes n Incident record as an input value. The action waits for the state of the Incident to be resolved and then sends an email message to the incident caller to notify them of the state change.
 
-<table id="table_u4g_2js_qlb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th><th>
-
-Data Type
-
-</th></tr></thead><tbody><tr><td>
-
-State
-
-</td><td>
-
-The completion status of the action as a numeric value.-   0 \(success\)
--   1 \(error\)
-
-</td><td>
-
-Choice
-
-</td></tr></tbody>
-</table>**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/steps.md)
+**Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/steps.md)
 

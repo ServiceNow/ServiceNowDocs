@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [View project analytics in classic Project Workspace, Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---

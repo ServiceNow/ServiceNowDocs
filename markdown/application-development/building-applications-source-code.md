@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/building-applications-source-code.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Building applications in source code
@@ -16,15 +16,13 @@ Create and develop custom applications in source code using familiar development
 
 ## Overview of development in source code
 
-You can create scoped applications in code using the ServiceNow IDE on the ServiceNow AI Platform or locally in Visual Studio Code Desktop with the ServiceNow SDK.
+You can create applications in code using the ServiceNow IDE on the ServiceNow AI Platform or locally in Visual Studio Code Desktop with the ServiceNow SDK.
 
 In either development environment, you use ServiceNow Fluent, a domain-specific programming language, to define the metadata that makes up applications. ServiceNow Fluent includes APIs for defining the different types of metadata.
 
-With the ServiceNow IDE or ServiceNow SDK, you can also create JavaScript modules and use third-party libraries in your application to optimize code reuse in scripts within a scoped application.
+With the ServiceNow IDE or ServiceNow SDK, you can also create JavaScript modules and use third-party libraries in your application to optimize code reuse in scripts within an application scope.
 
 Developing and maintaining applications in source code enables you to work in familiar development environments, create and modify complex applications, manage code in source control more easily, and catch errors at build time.
-
-**Note:** The ServiceNow IDE and ServiceNow SDK don't support the Global scope or global applications in the Yokohama release.
 
 <table id="table_hmf_wtt_3bc" class="nav-card"><tbody><tr><td>
 
@@ -79,7 +77,7 @@ Collaboration
 
 </td><td>
 
-View any user's changes in real time in code or embedded ServiceNow AI Platform user interfaces from the Metadata Explorer.Collaborate with other developers on applications in source control.
+View any user's changes in real time in code or embedded ServiceNow AI Platform user interfaces.Collaborate with other developers on applications in source control.
 
 </td><td>
 
@@ -103,11 +101,11 @@ Application conversion
 
 </td><td>
 
-Support for converting existing scoped applications not created with the ServiceNow IDE or ServiceNow SDK.
+Support for converting existing applications not created with the ServiceNow IDE or ServiceNow SDK.
 
 </td><td>
 
-Support for converting existing scoped applications not created with the ServiceNow IDE or ServiceNow SDK.
+Support for converting existing applications not created with the ServiceNow IDE or ServiceNow SDK.
 
 </td></tr><tr><td>
 
@@ -139,7 +137,7 @@ ServiceNow Otto for Code
 
 </td><td>
 
-Code auto-complete support for scripts.For information about activation, see .
+Code auto-complete support for scripts.For information about activation, see [Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/now-assist-code-landing.md).
 
 </td><td>
 
@@ -160,7 +158,7 @@ Build Agent skills are available beginning with ServiceNow SDK version 4.6.0.
 </td></tr></tbody>
 </table>## Application structure
 
-Custom scoped applications created with the ServiceNow IDE or ServiceNow SDK include source code files and metadata XML files. The `package.json` and `now.config.json` files define the application structure, which is similar to that of Node.js applications or Node Package Manager \(npm\) packages.
+Applications created or converted with the ServiceNow IDE or ServiceNow SDK include source code files and metadata XML files. The `package.json` and `now.config.json` files define the application structure, which is similar to that of Node.js applications or Node Package Manager \(npm\) packages.
 
 \[Omitted image "servicenow-ide-app-structure.png"\] Alt text: Structure of an application created in the ServiceNow IDE
 
@@ -278,7 +276,7 @@ File containing information about your application and custom or third-party mod
 </td></tr></tbody>
 </table>## Related applications and features
 
--   **JavaScript APIs**
+-   **[JavaScript APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-reference.md)**
 
     Use JavaScript APIs in scripts that you write to change the functionality of applications or when you create applications.
 

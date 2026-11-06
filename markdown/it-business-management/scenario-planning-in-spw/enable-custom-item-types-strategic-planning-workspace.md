@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Planning item configuration for lenses and portfolio plans, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Enable custom item types in Strategic Planning
@@ -44,5 +44,5 @@ Add the table that you want to allow for planning in Portfolio plans and free-fo
 ## What to do next
 
 -   For portfolio plans: Add your custom planning item type to the lens that your planning managers want to use. See [Lens form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/lens-form-alignment-planner-workspace.md).
--   For free-form roadmaps: [Create planning items from the roadmap view in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md).
+-   For free-form roadmaps: [Create planning items from the roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-new-items-from-a-roadmap.md).
 

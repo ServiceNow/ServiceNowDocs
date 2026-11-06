@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a hardware or consumable model
@@ -142,5 +142,5 @@ The End of Life lifecycle is added to the record and both lifecycle phases are d
 
 After you've added your hardware or consumable models, you can [normalize the data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/normalize-hardware-consumable-models.md).
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

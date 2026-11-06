@@ -1,20 +1,20 @@
 ---
-title: Create new architectural artifact form
+title: Create architectural artifact form
 description: Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in the Enterprise Architecture Workspace enable Enterprise Architects to create and manage the artifacts used in their organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-new-arch-artifact-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new architectural artifact form
+# Create architectural artifact form
 
 Architectural artifacts describe a system, solution, or state of an enterprise. The architectural artifacts in the Enterprise Architecture Workspace enable Enterprise Architects to create and manage the artifacts used in their organization.
 
-## Create new architectural artifact form fields
+## Create architectural artifact form fields
 
 |Field|Description|
 |-----|-----------|
@@ -37,7 +37,7 @@ By referenced records
 
 </td><td>
 
-Option to provide access to the Enterprise Architecture Workspace users to access the artifacts by referenced records. When an artifact is associated to a business capability or business application, any Enterprise Architecture Workspace user who can access those business entities can also have access to the artifacts associated with those business entities.
+Option to provide access to the Enterprise Architecture Workspace users to access the artifacts by referenced records. When an artifact is associated to a business capability or business application, any Enterprise Architecture Workspace user who can access those business entities can also access the associated artifacts.
 
 </td></tr><tr><td>
 
@@ -59,7 +59,7 @@ Option to provide access to share documents with other users and groups. You can
 -   Group Permissions
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 

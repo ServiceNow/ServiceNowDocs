@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Form field information for Innovation Management, Reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Form field information for Innovation Management, Innovation Management reference, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create an Idea form

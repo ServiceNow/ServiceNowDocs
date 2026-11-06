@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -26,28 +26,20 @@ Create an observable for a manual lookup using the WHOISIQ API. For more informa
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **IoC Repository** &gt; **Observables** and locate the observable in the list you are working with.
+1.  Navigate to **All** &gt; **IoC Repository** &gt; **Observables** and locate the observable in the list you're working with.
 
-2.  Click your observable in the **Value** column to open the record.
+2.  Select your observable in the **Value** column to open the record.
 
-    \[Omitted image "riskiq-test1email-select.png"\] Alt text: Click the observable you want to lookup.
-
-3.  Click the **Run Observable Enrichment** related link to run the lookup.
-
-    \[Omitted image "riskiq-new-obsv-b4-run.png"\] Alt text: Run Observable Enrichment in Related Links.
+3.  Select the **Run Observable Enrichment** related link to run the lookup.
 
 4.  In the **Run Observable Enrichment** window, move **RiskIQ Whois** to the Selected list.
 
-    \[Omitted image "riskiq-run-whois.png"\] Alt text: Move RsikIQ Whois to Selected.
-
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     Lookup results are displayed on the **Observable Enrichment Results** tab on the observable record.
 
-    \[Omitted image "riskiq-test1gmail-rslts.png"\] Alt text: Observable Enrichment Results tab and lookup results.
 
-
-If no results are returned for the observable, a message is displayed in the **Summary** column. If you do not see results, verify the observable is supported by the API.
+If no results are returned for the observable, a message is displayed in the **Summary** column. If you don't see results, verify the observable is supported by the API.
 
 **Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 

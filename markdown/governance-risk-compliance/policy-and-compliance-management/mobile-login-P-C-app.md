@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Managing mobile experience for GRC Policy and Compliance, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Log in to the GRC Mobile application
@@ -20,8 +20,6 @@ Open the GRC Mobile application and add a ServiceNow AI Platform® instance with
 
 Verify that you have completed the setup steps described in [Setup checklist for the GRC Mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/mobile-setup-plcy_cmply-app.md).
 
-\[Omitted image "mobile\_Policy\_and\_Compliance\_overview-app\_rd.png"\] Alt text: Policy and Compliance navigation map.
-
 Role required: GRC Compliance manager \(sn\_compliance.manager\)
 
 ## About this task
@@ -31,8 +29,6 @@ Time to complete this task: 5-7 minutes.
 ## Procedure
 
 1.  On your mobile device, tap the **ServiceNow Agent** app.
-
-    \[Omitted image "mobile-agentapp-NY.png"\] Alt text: Now Agent app icon.
 
     If you are not already logged in to a ServiceNow AI Platform instance, the Instances screen is displayed.
 

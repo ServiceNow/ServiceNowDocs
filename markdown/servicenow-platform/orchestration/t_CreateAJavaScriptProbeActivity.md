@@ -7,7 +7,7 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Orchestration custom activity templates, Orchestration activity designer, Classic Orchestration, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 2.  After setting up [general properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/General-Flds-Templates.md) and [creating input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/CreateInputVariables.md), configure the JavaScript probe activity Execution Command.
 
-<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d210117e112">
+<table id="choicetable_jlf_3tp_vz"><tbody><tr><td id="d212544e112">
 
 **[Map the input variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/orchestration/CreateInputVariables.md)**
 
@@ -40,7 +40,7 @@ The JavascriptProbe activity has the same functionality as making ‘Packages’
 
 Use the variables you created to configure the command that Orchestration executes on the MID server.
 
-</td></tr><tr><td id="d210117e128">
+</td></tr><tr><td id="d212544e128">
 
 **Script type**
 
@@ -50,7 +50,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 -   MID Server script include
 
 
-</td></tr><tr><td id="d210117e146">
+</td></tr><tr><td id="d212544e146">
 
 **Script**
 
@@ -58,7 +58,7 @@ Select the type of script to include. Available options are:-   Custom JavaScrip
 
 Custom JavaScript to run with this probe. **Note:** This field is available when the **Script type** selected is **Custom JavaScript**.
 
-</td></tr><tr><td id="d210117e164">
+</td></tr><tr><td id="d212544e164">
 
 **MID Server script include**
 
@@ -66,7 +66,7 @@ Custom JavaScript to run with this probe. **Note:** This field is available when
 
 Script for the MID Server to run with this probe. **Note:** This field is available when the **Script type** selected is **MID Server script include**.
 
-</td></tr><tr><td id="d210117e182">
+</td></tr><tr><td id="d212544e182">
 
 **Select MID Server by host**
 
@@ -74,7 +74,7 @@ Script for the MID Server to run with this probe. **Note:** This field is availa
 
 MID Server on which the probe runs.
 
-</td></tr><tr><td id="d210117e192">
+</td></tr><tr><td id="d212544e192">
 
 **Required MID Server capabilities**
 
@@ -82,7 +82,7 @@ MID Server on which the probe runs.
 
 MID Server to use, by capabilities.
 
-</td></tr><tr><td id="d210117e201">
+</td></tr><tr><td id="d212544e201">
 
 **Parameters**
 

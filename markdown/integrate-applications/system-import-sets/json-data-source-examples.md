@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [File type data sources, Data sources, Import sets, Imports, Data and Automation]
+breadcrumb: [File type data sources, Data sources, Import sets, Imports, Workflow Data Fabric]
 ---
 
 # JSON file import examples

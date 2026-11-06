@@ -1,5 +1,5 @@
 ---
-title: Group assessments for similar assessments in Employee Center
+title: Group similar assessments in Employee Center
 description: Group the assessments that have the same entity or control objective based on metric type, and additionally the same entity, control objective, or category to provide response to similar assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/group-attestations-ec-pol-comp.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage GRC tasks from Employee Center, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Group assessments for similar assessments in Employee Center
+# Group similar assessments in Employee Center
 
 Group the assessments that have the same entity or control objective based on metric type, and additionally the same entity, control objective, or category to provide response to similar assessments.
 
@@ -30,7 +30,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 2.  Select **GRC tasks** in the **My active items** pane of the Home page.
 
-3.  Select the Tasks \[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. icon on the left pane.
+3.  Select the Tasks \[Omitted image "icon-tprm-ws-tasks.png"\] Alt text: Electronic signature icon on the left pane.
 
 4.  Select the attestation records in the list view of the Tasks page that you'd like to group.
 
@@ -40,7 +40,7 @@ In Configurable Workspace, you can only group control attestations, and not risk
 
 6.  Select a **Response type** in the Group assessments pop-up.
 
-    For more information on the response types, see [Consolidate control attestations using the Same Response feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
+    For more information on the response types, see [Group attestations using Same Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/c_Attestations.md).
 
 7.  Select a criterion to group the assessments in the **Group by** list.
 

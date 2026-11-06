@@ -1,20 +1,20 @@
 ---
 title: Install Field Service Management Virtual Conferencing Integration
-description: You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they aren’t already installed.
+description: You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-integrations/install-virtual-conferencing-fsm.html
 release: yokohama
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Install Field Service Management Virtual Conferencing Integration
 
-You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+You can install the Field Service Management Virtual Conferencing Integration application \(com.snc.fsm\_vci\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
@@ -29,20 +29,20 @@ You can install the Field Service Management Virtual Conferencing Integration ap
     -   **Required ServiceNow Store applications to integrate Zoom**
         -   **Zoom Spoke**
 
-            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+            Integrate the Zoom account of your company with your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
         -   **Notify Zoom Connector**
 
-            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+            Associates the Notify communication channel with Zoom meetings. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Required ServiceNow Store applications to integrate Microsoft Teams**
         -   **Notify Connector for Microsoft Teams**
 
-            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+            Manage and initiate a Microsoft Teams meeting directly from a task. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
         -   **Microsoft Teams Communication Spoke**
 
-            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+            Manage groups calls and meetings in Microsoft Communications account from your ServiceNow instance. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 Role required: admin
@@ -55,7 +55,7 @@ Role required: admin
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 

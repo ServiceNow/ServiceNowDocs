@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery for mobile, HR Service Delivery, Employee Service Management]
 ---
@@ -20,14 +20,10 @@ Configure the different media sections to provide relevant content to new hires 
 
 The following video provides an overview on how to configure the mobile onboarding.
 
--   **[Select a Lifecycle Event for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/select-lifecycle-event-for-mobile-onboarding.md)**  
-Select the Lifecycle Event that you want to use with Now Mobile. When an onboarding case for that event type is created, the new hire completes the to-dos that are associated with that case.
 -   **[Configure a media section for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/configure-mobile-onboarding-media-section.md)**  
 Configure one or more of the media sections for Now Mobile to provide relevant content to new hires at different stages of the onboarding process.
 -   **[Enable Agent Chat in Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/enable-agent-chat-in-mobile-onboarding-app.md)**  
 Activate the Chat quick action so that your new hires can chat with a live or virtual agent.
--   **[Configure Journeys for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/configure-journeys-now-mobile.md)**  
-Configure Journey designer in Now Mobile to enable managers, mentors, and employees to interact with their journeys from their mobile devices.
 
-**Parent Topic:**[HR Service Delivery for mobile]()
+**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md)
 

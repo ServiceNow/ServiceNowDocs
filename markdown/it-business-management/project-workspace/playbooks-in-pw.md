@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project planning in Project Workspace, Explore, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -39,14 +39,16 @@ Use playbooks in Project Workspace to guide project teams through standard proje
 
 Project default playbook is a free-form playbook where all stages and tasks are visible and accessible to the project manager. The project manager can navigate to any stage or task at any time. It serves as a standard framework playbook for managing project activities.
 
-In a Stage gate playbook, the stages and tasks must be completed in a linear order. Each stage must be finished before moving to the next one. The stages are visible only when all activities in the previous stage are completed or skipped. After completing a stage, project managers can still return to previous stages if needed. This playbook is commonly used in research and development projects.
+In a Stage-gate playbook, the stages and tasks must be completed in a linear order. Each stage must be finished before moving to the next one. The stages are visible only when all activities in the previous stage are completed or skipped. After completing a stage, project managers can still return to previous stages if needed. This playbook is commonly used in research and development projects.
 
 **Parent Topic:**[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-planning-in-pw.md)
 
 **Related topics**  
 
 
+[bundle-crworkflow.workflow-studio-playbooks-landing]
+
 [Playbooks configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configure-playbooks-pw.md)
 
-[Use Playbooks in Project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)
+[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)
 

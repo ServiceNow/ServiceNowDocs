@@ -1,5 +1,5 @@
 ---
-title: Normalizing firmware for your operational technology \(OT\) assets
+title: Normalizing firmware for operational technology \(OT\) assets
 description: To standardize the publisher, product, and version of the firmware that is embedded into your OT assets, you must normalize the corresponding data in the associated firmware discovery models. By standardizing this information, you can track and manage your firmware more accurately and efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/normalizing-firmware-ot-assets.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
-# Normalizing firmware for your operational technology \(OT\) assets
+# Normalizing firmware for operational technology \(OT\) assets
 
 To standardize the publisher, product, and version of the firmware that is embedded into your OT assets, you must normalize the corresponding data in the associated firmware discovery models. By standardizing this information, you can track and manage your firmware more accurately and efficiently.
 

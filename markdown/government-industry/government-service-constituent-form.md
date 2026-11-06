@@ -1,20 +1,20 @@
 ---
-title: Agency Service Constituent Profile form
-description: Use the Agency Service Constituent Profile form in the Public Sector Digital Services application to display detailed information about a constituent, such as the name and address, date of birth, contact information, and language choice.
+title: Constituent Profile form
+description: Use the Constituent Profile form in the Public Sector Digital Services application to display detailed information about a constituent, such as the name and address, date of birth, contact information, and language choice.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/government-service-constituent-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Public Service Profile Forms, Public Sector forms, Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Public Service Profile Forms, Forms, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Agency Service Constituent Profile form
+# Constituent Profile form
 
-Use the Agency Service Constituent Profile form in the Public Sector Digital Services application to display detailed information about a constituent, such as the name and address, date of birth, contact information, and language choice.
+Use the Constituent Profile form in the Public Sector Digital Services application to display detailed information about a constituent, such as the name and address, date of birth, contact information, and language choice.
 
-The following table describes the detailed information that you can add to the Agency Service Constituent form.
+The following table describes the detailed information that you can add to the Constituent form.
 
 <table id="table_ut3_b5r_crb"><thead><tr><th>
 

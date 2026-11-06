@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/r\_OpAvailableFiltersQueries.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
 breadcrumb: [Create a condition statement using the condition builder, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -724,6 +724,46 @@ caller\_idDYNAMIC54635e965f510100a9ad2572f2b4774c
 </td><td>
 
 All records in which your user record populates the **Caller** field.
+
+</td></tr><tr><td>
+
+is in hierarchy
+
+</td><td>
+
+\[Manager\]\[is in hierarchy\]\[Manager Hierarchy\] starting at \[Don Goodliffe\] which is \[Included\]
+
+</td><td>
+
+IN\_HIERARCHY
+
+</td><td>
+
+managerIN\_HIERARCHYfdd0fa0f93f5d2505bd0bd886cba1015%409ee1b13dc6112271007f9d0efdb69cd0
+
+</td><td>
+
+All records throughout the Manager hierarchy in which the manager is Don Goodliffe or a user reporting up to Don Goodliffe.
+
+</td></tr><tr><td>
+
+is in hierarchy \(dynamic\)
+
+</td><td>
+
+\[Manager\]\[is in hierarchy \(dynamic\)\]\[Manager Hierarchy\] starting at \[Me\] which is \[Included\]
+
+</td><td>
+
+IN\_HIERARCHY\_DYNAMIC
+
+</td><td>
+
+managerIN\_HIERARCHY\_DYNAMICfdd0fa0f93f5d2505bd0bd886cba1015%4090d1921e5f510100a9ad2572f2b477fe
+
+</td><td>
+
+All records throughout the Manager hierarchy in which the manager is you or a user reporting up to you.**Note:** A record hierarchy between related records in the same table must be established before you can use this operator. See .
 
 </td></tr></tbody>
 </table>**Note:** Not all operators are available for all reference types. Depending on the reference you select, you may see a shorter list of operators.

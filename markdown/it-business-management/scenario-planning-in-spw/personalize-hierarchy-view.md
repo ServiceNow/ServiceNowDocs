@@ -1,25 +1,25 @@
 ---
-title: Personalize Hierarchy view in the Prioritization page of Strategic Planning Workspace
-description: Personalize the Hierarchy view in the Prioritization page of Strategic Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
+title: Personalize Hierarchy view
+description: Personalize the Hierarchy tab view in the Planning page of Strategic Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/personalize-hierarchy-view.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Personalizing Prioritization page views in Strategic Planning, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Personalize Hierarchy view in the Prioritization page of Strategic Planning Workspace
+# Personalize Hierarchy view
 
-Personalize the Hierarchy view in the Prioritization page of Strategic Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
+Personalize the Hierarchy tab view in the Planning page of Strategic Planning Workspace so that you can view the information that is most relevant to you and your stakeholders.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -58,5 +58,5 @@ Personalization preferences are saved as the portfolio plan's settings in Strate
 5.  Apply filters to the data shown in Prioritization.
 
 
-**Parent Topic:**[Personalizing Prioritization page views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+**Parent Topic:**[Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

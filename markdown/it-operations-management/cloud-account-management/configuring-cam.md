@@ -7,8 +7,8 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [Configure Cloud Account Management, Configure Cloud Workspace, Configure CAM, setup Cloud Account Management]
 breadcrumb: [Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -57,7 +57,7 @@ Purpose
 
 </td><td>
 
-Email admin
+Email Admin
 
 </td><td>
 
@@ -85,7 +85,7 @@ A single AD email across multiple AWS accounts streamlines management, enhances 
 
 </td><td>
 
-AWS admin
+AWS Admin
 
 </td><td>
 
@@ -115,7 +115,7 @@ A centralized IAM user in the management account efficiently manages multiple AW
 
 </td><td>
 
-AWS admin
+AWS Admin
 
 </td><td>
 
@@ -145,9 +145,9 @@ Adding an account number to the AWS organization's Service Control Policy blocks
 
 </td><td>
 
-Terraform admin
+Terraform Admin
 
- DevOps admin
+ DevOps Admin
 
 </td><td>
 
@@ -187,7 +187,7 @@ GitHub templates deployed to Terraform Cloud or Enterprise streamline account cr
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -213,9 +213,12 @@ No additional procedure is needed for cloud native interface. You can proceed to
 
 \[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-account-details.md)
 
+1.  [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/create-service-account.md)
+2.  [Define and run discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/define-run-discovery-schedule.md)
+
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -250,7 +253,7 @@ Cloud Discovery or Service Graph Connector for AWS to import cloud organization 
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -286,7 +289,7 @@ Streamline provisioning with flexible modes like Terraform and cloud native inte
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -314,7 +317,7 @@ Data visualization requires scanning all account violations based on the policy 
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -342,7 +345,7 @@ Confirm that members are assigned to the correct group for them to perform the a
 
 </td><td>
 
-Cloud Workspace admin
+Cloud Workspace Admin
 
 </td><td>
 
@@ -370,7 +373,7 @@ Configure before creating, suspending, or scanning accounts.
 
 </td><td>
 
-Cloud Workspace admin
+Cloud Workspace Admin
 
 </td><td>
 
@@ -398,7 +401,7 @@ Certify all cloud service accounts either created or boarded after discovery can
 
 </td><td>
 
-Cloud Workspace admin
+Cloud Workspace Admin
 
 </td><td>
 
@@ -455,7 +458,7 @@ Purpose
 
 </td><td>
 
-Azure admin
+Azure Admin
 
 </td><td>
 
@@ -487,7 +490,7 @@ Configure the permission and assign the permission to a user who suspends or rea
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -521,7 +524,7 @@ Provide the Azure credentials obtained from your Azure administrator. These cred
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -547,9 +550,12 @@ No additional procedure is needed for cloud native interface. You can proceed to
 
 \[Omitted image "bus-work-order.svg"\] Alt text:[Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-account-details.md)
 
+1.  [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/create-service-account.md)
+2.  [Define and run discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/define-run-discovery-schedule.md)
+
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -581,7 +587,7 @@ Cloud Discovery import cloud organization structures and create subscription acc
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -609,7 +615,7 @@ Data visualization requires scanning all account violations based on the policy 
 
 </td><td>
 
-ServiceNow AI Platform admin
+ServiceNow AI Platform Admin
 
 </td><td>
 
@@ -637,7 +643,7 @@ Confirm that members are assigned to the correct group for them to perform the a
 
 </td><td>
 
-Cloud Workspace admin
+Cloud Workspace Admin
 
 </td><td>
 
@@ -665,7 +671,7 @@ Configure before creating, suspending, or scanning accounts.
 
 </td><td>
 
-Cloud Workspace admin
+Cloud Workspace Admin
 
 </td><td>
 

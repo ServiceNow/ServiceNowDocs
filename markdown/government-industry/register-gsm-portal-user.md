@@ -1,18 +1,19 @@
 ---
-title: Register for the Government Service Portal
-description: Register for the Public Sector Digital Services Government Service Portal so that you can search for information, request assistance from a government service agent, or track the status of your request.
+title: Register for the Government Service Portal as a constituent, business contact, or user
+description: Register for the Public Sector Digital Services Government Service Portal so that you can search for information, request assistance from a government service agent, apply for a grant, license, or permit, or track the status of your request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/register-gsm-portal-user.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+keywords: [How to Register for the Government Service Portal, Register for the Government Service Portal]
+breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Register for the Government Service Portal
+# Register for the Government Service Portal as a constituent, business contact, or user
 
-Register for the Public Sector Digital Services Government Service Portal so that you can search for information, request assistance from a government service agent, or track the status of your request.
+Register for the Public Sector Digital Services Government Service Portal so that you can search for information, request assistance from a government service agent, apply for a grant, license, or permit, or track the status of your request.
 
 ## Before you begin
 
@@ -20,7 +21,7 @@ Role required: none
 
 ## Procedure
 
-1.  Navigate to the Government Service Portal
+1.  Navigate to the Government Service Portal.
 
 2.  In the portal header, select **Register**.
 

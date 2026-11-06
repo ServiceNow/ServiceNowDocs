@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with incidents in SRM, Working with SRM reliability tasks, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Reassign an SRM incident
@@ -20,7 +20,7 @@ Reassign an incident to a responder when the incident tasks should be addressed 
 
 This action is available when the **Assigned to** field in the incident is populated.
 
-Role required: Responder, Manager, or Administrator
+Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Role required: Responder, Manager, or Administrator
 
 4.  You have two options.
 
-<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d709812e110">
+<table id="choicetable_llb_1fq_vyb"><tbody><tr><td id="d444295e110">
 
 **Option**
 
@@ -44,7 +44,7 @@ Role required: Responder, Manager, or Administrator
 
 Description
 
-</td></tr><tr><td id="d709812e119">
+</td></tr><tr><td id="d444295e119">
 
 **In the incident list view**
 
@@ -52,7 +52,7 @@ Description
 
 Double-click the **Assigned to** field for the incident and replace the team member from the list menu.
 
-</td></tr><tr><td id="d709812e131">
+</td></tr><tr><td id="d444295e131">
 
 **In the __Details__ tab of incident form**
 
@@ -64,5 +64,5 @@ Delete the name in the **Assigned to** field and reassign. Select **Save**.
 </table>    The incident is now assigned to the new responder and an email notification sent. The assignee is displayed in the list view and on the form.
 
 
-**Parent Topic:**[Working with Incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
+**Parent Topic:**[Working with incidents in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-incidents.md)
 

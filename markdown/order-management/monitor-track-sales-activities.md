@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/monitor-track-sales-activities.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Lead-to-Cash Process Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Use, Sales Customer Relationship Management]
 ---
 
 # Monitoring and tracking sales activities
@@ -32,6 +32,8 @@ The **Details**, **Activity**, and **Tasks** tabs provide the following informat
 Related lists configured in the Sales cockpit view in Next Experience UI govern the tabs that are displayed for a sales entity on the sales dashboard. For example, you can display tabs such as **Line Items for an Opportunity** and **Line Characteristics for Opportunity Line** containing the respective record details.
 
 By accessing the sales data and using integrated communication channels such as sidebar discussions and emails, you can promote record completeness and accuracy, and support downstream processes such as order fulfillment, revenue recognition, and reporting.
+
+**Parent Topic:**[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
 
 **Related topics**  
 

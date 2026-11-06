@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Administer and maintain the Talent Development Core app
@@ -57,10 +57,10 @@ As a Talent Development Core admin, you can add **Interests** that help employee
 Talent Development Core uses the Employee Profile licensing feature to license user.
 -   **[View Talent Development Core licensed profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-view-licensed-profiles.md)**  
 You can view a list of profiles that are licensed for Talent Development.
--   **[Achievements and Credentials in Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/achievements-and-credentials-in-td.md)**  
-View all types of user credentials acquired outside the current organization \(currently populated from Credly\) in Achievements and Credentials.
 -   **[View Growth plans related information in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/gp-now-assist-view-graphs.md)**  
 From the Now Assist Admin console, view related information for Growth plans created with the help of Now Assist.
+-   **[Achievements and Credentials in Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/achievements-and-credentials-in-td.md)**  
+View all types of user credentials acquired outside the current organization \(currently populated from Credly\) in Achievements and Credentials.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

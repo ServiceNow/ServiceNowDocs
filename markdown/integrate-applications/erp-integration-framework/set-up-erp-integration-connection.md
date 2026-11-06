@@ -1,0 +1,57 @@
+---
+title: Connect to SAP with RFC or BAPI
+description: Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to SAP directly or using a load balancer to enable access to the ERP system.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/set-up-erp-integration-connection.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: task
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, connect, configure, system, load, balancer, connect, credential]
+breadcrumb: [Connecting Zero Copy Connector for ERP to SAP ECC and SAP S/4HANA, Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Connect to SAP with RFC or BAPI
+
+Connect Zero Copy Connector for ERP \(Enterprise Resource Planning\) to SAP directly or using a load balancer to enable access to the ERP system.
+
+## Before you begin
+
+Role required: sn\_erp\_integration.erp\_admin
+
+Identify an existing connection to use or create a connection. For more information, see [Getting started with connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/connection-information.md) and [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-https-connection.md).
+
+Note the following:
+
+-   You must specify a connection and login credential to be used simultaneously. That is, the connection you configure uses the defined login credentials for the connection.
+-   The credentials you specify for the Zero Copy Connector for ERP connection must match the service user credentials in the ERP system.
+
+The following SAP systems are supported:
+
+-   SAP ECC
+-   SAP S/4HANA
+-   SAP S/4HANA Cloud
+
+## About this task
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Zero Copy Connector for ERP** &gt; **Zero Copy Connector for ERP Home**.
+
+2.  Open the ERP systems list by selecting the systems icon \[Omitted image "erp-systems-icon-sidebar.png"\] Alt text: in the side panel.
+
+3.  Open a system record.
+
+4.  Add the configured connection.
+
+    To see a list of all available RFC or HTTP connections, select the search for record icon \(magnifying glass\) in the field.
+
+    \[Omitted image "erp-set-up-connection1.png"\] Alt text: New system record with filled in fields.
+
+5.  Select **Save**.
+
+    For more information, see [Zero Copy Connector for ERP system details field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-canvas-create-new-system-descriptions.md).
+
+

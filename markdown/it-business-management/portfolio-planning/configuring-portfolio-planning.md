@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
@@ -42,12 +42,12 @@ Use the following steps as guidelines to set up Portfolio Planning. Some of thes
 
 6.  Enable financial planning for epics and customise the Financials screen view.
 
-    See [Configure financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/config-fin-pp.md).
+    See [Configure financials for Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/config-fin-pp.md).
 
 
 ## Guided Setup to configure Portfolio Planning
 
 Guided Setup provides a sequence of tasks to help you with the required configuration on your ServiceNow instances. After installing Portfolio Planning, navigate to **All** &gt; **** &gt; **Portfolio Planning** &gt; **Guided Setup**.
 
-When you’re configuring a task from the Guided Setup, you can launch the in-app help for additional guidance by clicking the Show Help icon \(\[Omitted image "help-icon.png"\] Alt text: Show Help.\).
+When you’re configuring a task from the Guided Setup, you can launch the in-app help for additional guidance by clicking the Show Help icon \(\[Omitted image "Banner\_HelpIcon.png"\] Alt text: Show Help.\).
 

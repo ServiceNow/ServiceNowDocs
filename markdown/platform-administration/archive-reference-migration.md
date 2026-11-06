@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/archive-reference-migration.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Archiving records, Manage data growth, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Migrating non-reference fields to reference fields
@@ -89,5 +89,5 @@ trigger.setValue('trigger_class', 'com.glide.db.auxiliary.job.ArchiveRefJob');
 trigger.insert();
 ```
 
-**Parent Topic:**[Archiving records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/archiving-older-records.md)
+**Parent Topic:**[Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/data-management-policies.md)
 

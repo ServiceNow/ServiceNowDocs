@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/retire-product-offer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
 
 # Retire a remote catalog item
@@ -20,7 +20,7 @@ Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_cata
 
 ## Procedure
 
-1.  In the CRM Workspace on the provider instance, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace on the provider instance, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to the published product offering or service specification to be retired.
 

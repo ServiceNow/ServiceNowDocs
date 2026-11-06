@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Journey Management
 classification: employee-journey-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Okta integration for new hire onboarding, Lifecyle events for enterprise integrations, Lifecyle events for enterprise, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---

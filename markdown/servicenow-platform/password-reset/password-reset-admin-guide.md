@@ -7,7 +7,7 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -75,8 +75,6 @@ The Password Change application extends the Password Reset application by lettin
 
 -   **[Plan your Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_PlanPasswordReset.md)**  
 To ensure security and efficiency, take the time to plan your Password Reset implementation.
--   **[Calculating the security score for password reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/pwd-reset-process-recommend.md)**  
-The security score of the password reset process is a critical metric for the password reset administrators to assess the strength and configuration of the password reset process.
 -   **[Configure your Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_CreateAPasswordResetProcess.md)**  
 To implement the process, you configure credentials, verification methods and settings, and enrollment settings. You also specify to which users the process applies.
 -   **[Customizing Password Reset processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/customizing-password-reset.md)**  
@@ -87,10 +85,6 @@ Reset a password or unlock a user account by requesting the assistance of a serv
 You can enable a Password Reset process in a Service Portal page by adding a widget that opens the password reset pages inside the portal.
 -   **[Integrate Password Reset with a CMS integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_PasswordResetCMSIntegration.md)**  
 You can configure a site in the ServiceNow content management \(CMS\) application to define a single-site access point that includes the Password Reset service. For example, you can create an employee self-service site that provides Password Reset service.
--   **[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)**  
-Request the Password Reset Windows App \(Password Reset Orchestration\) \(com.glideapp.password\_reset\_desktop\) plugin that enables connections to the Active Directory \(AD\) credential store types.
--   **[Enrolling in the Password Reset application to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/c_EnrollInPasswordReset.md)**  
-The self-service process is a typical process that you might follow to reset your password. Your experience might differ.
 
 **Parent Topic:**[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-landing-page.md)
 

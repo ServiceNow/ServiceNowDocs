@@ -1,39 +1,41 @@
 ---
-title: Assessing go or no-go
-description: The Now Assist Readiness Evaluation app shows you a high-level overview of your go or no-go status for your organization's readiness to implement agentic AI, generative AI, or both in Now Assist.
+title: Assessing readiness status
+description: The AI Readiness Evaluation app shows you a high-level overview of your go or no-go status for your organization's readiness to implement agentic AI, generative AI, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-readiness-evaluation/assessing-go-no-go.html
 release: yokohama
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-18"
+last_updated: "2026-10-06"
 reading_time_minutes: 1
 keywords: [Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Use, Now Assist Readiness Evaluation, Enable AI experiences]
+breadcrumb: [Use, AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
-# Assessing go or no-go
+# Assessing readiness status
 
-The Now Assist Readiness Evaluation app shows you a high-level overview of your go or no-go status for your organization's readiness to implement agentic AI, generative AI, or both in Now Assist.
+The AI Readiness Evaluation app shows you a high-level overview of your go or no-go status for your organization's readiness to implement agentic AI, generative AI, or both.
 
-Navigate to **Workspaces** &gt; **Now Assist Readiness Evaluation** and select the Home icon \[Omitted image "home-icon.png"\] Alt text: to review your assessments' home page.
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md).
 
-An overall go or no-go status is determined by percentage rules. A green **Go** button appears if over 75% of your instance is ready to implement agentic AI, generative AI, or both in Now Assist. A yellow **No-go** button appears if 75% or less of your instance is determined to be ready to implement agentic AI, generative AI, or both in Now Assist. Each finding is broken down and automatically tagged as a product, data, or configuration issue. Having issues categorized lets you know whether you should open a Now Support case, cleanse data, or adjust platform settings.
+Navigate to **Workspaces** &gt; **AI Readiness Evaluation** and select the Home icon \[Omitted image "home-icon.png"\] Alt text: to review your assessments' home page.
 
-The Agentic AI Assessment Home Page tab details the go or no-go status for Now Assist agentic AI in ITSM and CSM.
+An overall ready or action-required status is determined by percentage rules. A green **Ready** button appears if over 75% of your instance is ready to implement agentic AI, generative AI, or both.A yellow **Action Required** button appears if 75% or less of your instance is determined to be ready to implement agentic AI, generative AI, or both. Each finding is broken down and automatically tagged as a product, data, or configuration issue. Having issues categorized lets you know whether you should open a Now Support case, cleanse data, or adjust platform settings.
 
-\[Omitted image "nare-agentic-ai-assessment-home-page.png"\] Alt text: Agentic AI Assessment Home Page showing green Go buttons for agentic AI in ITSM and CSM.
+The AI Assessment Home Page tab details the Ready or Action Required for agentic AI in ITSM and CSM.
 
-The Now Assist Assessment Home Page tab details the go or no-go status for Now Assist products and features, including:
+\[Omitted image "nare-agentic-ai-assessment-home-page.png"\] Alt text: Agentic AI Assessment Home Page tab showing a green Ready button for agentic AI in ITSM and yellow Action Required buttons for CSM and HRSD.
 
--   Now Assist for AI Search
--   Now Assist for Virtual Agent
+The AI Assessment Home Page tab details the go or no-go status for AI products and features, including:
+
+-   ServiceNow Otto for AI Search
+-   ServiceNow Otto for Virtual Agent
 -   ServiceNow Otto for IT Service Management \(ITSM\)
 -   ServiceNow Otto for Customer Service Management \(CSM\)
 -   ServiceNow Otto for HR Service Delivery \(HRSD\)
 
-\[Omitted image "nare-home-na-assessment-home-page.png"\] Alt text: Now Assist Assessment Home Page showing green Go buttons for all five supported Now Assist products.
+\[Omitted image "nare-home-na-assessment-home-page.png"\] Alt text: AI Assessment Home Page tab showing Ready buttons and an Action Required button for supported Now Assist products.
 
 Select the assessment feature's tile on the home page to be redirected to that assessment tab's report results.
 

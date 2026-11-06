@@ -1,5 +1,5 @@
 ---
-title: CMDB query example — critical application services
+title: CMDB — Critical application services
 description: Use this example to build a CMDB query to find all critical application services, and their owner.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-query-builder-sample1-app-ser.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Example queries, CMDB Query Builder reference, CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Example queries, Reference, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB query example — critical application services
+# CMDB — Critical application services
 
 Use this example to build a CMDB query to find all critical application services, and their owner.
 

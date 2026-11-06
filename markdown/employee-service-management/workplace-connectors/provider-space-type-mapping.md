@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---

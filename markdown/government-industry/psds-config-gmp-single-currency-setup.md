@@ -1,22 +1,28 @@
 ---
-title: Configure a single currency in Grants Management
-description: Grants Management only support single-currency mode.
+title: Configure a currency in Grants Management
+description: Grants Management currently only supports single-currency mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-gmp-single-currency-setup.html
 release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Grants Management, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Foundation, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure a single currency in Grants Management
+# Configure a currency in Grants Management
 
-Grants Management only support single-currency mode.
+Grants Management currently only supports single-currency mode.
+
+## About this task
+
+Without this configuration, if a grant applicant uses a different currency from the program it applies to, and it will result in incorrect currency calculation like budget calculation.
 
 ## Before you begin
 
 Role required: admin
+
+**Note:** This may have configuration implications across all ServiceNow applications in your instance. Verify the RCA settings of other applications after completing this procedure.
 
 ## Procedure
 
@@ -46,4 +52,10 @@ Role required: admin
 
 11. Open the record of each currency that you wish to deselect, and unselect the checkbox for **Active**.
 
+
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-foundation.md)
+
+**Previous topic:**[Configure a retention policy for grant cases in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-setup-retention-policy.md)
+
+**Next topic:**[Configure export application functionality in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-export-pdf.md)
 

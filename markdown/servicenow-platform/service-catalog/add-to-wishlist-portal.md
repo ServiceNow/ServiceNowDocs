@@ -7,8 +7,8 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -38,7 +38,7 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d274013e122">
+<table id="choicetable_nzw_4vd_5bb"><tbody><tr><td id="d278692e122">
 
 **Remove Item**
 
@@ -46,7 +46,7 @@ Role required: requester
 
 To remove an item from the wish list, click the Remove Item icon \( \[Omitted image "RemoveIcn.png"\] Alt text: Icon to remove item\).
 
-</td></tr><tr><td id="d274013e137">
+</td></tr><tr><td id="d278692e137">
 
 **Clear Wish List**
 
@@ -54,7 +54,7 @@ To remove an item from the wish list, click the Remove Item icon \( \[Omitted im
 
 To clear the wish list, click **Clear Wish List**.
 
-</td></tr><tr><td id="d274013e149">
+</td></tr><tr><td id="d278692e149">
 
 **View the Catalog**
 
@@ -80,8 +80,6 @@ To navigate to the Service Catalog landing page, click **View the Catalog**.
 [Request a catalog item from Service Portal]()
 
 [Request an order guide from Service Portal]()
-
-[Standard ticket page for a requested item]()
 
 [SC Wish List Cart widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/sc-wish-list.md)
 

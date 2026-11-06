@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Search in Legal Service Delivery
@@ -50,7 +50,7 @@ Enabled by default for the following when AI Search is activated:-   Global sear
 
 </td></tr><tr><td>
 
-Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search results from Knowledge article.
+Q&amp;A Genius Results - Provides concise, actionable answers search results from Knowledge article.
 
 </td><td>
 
@@ -63,5 +63,5 @@ Now Assist Q&amp;A Genius Results - Provides concise, actionable answers search 
 
 -   [Zing text indexing and search engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ZingTextSearch.md)
 -   [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/overview-ais.md)
--   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-legal-service-delivery/now-assist-lsd-landing.md)
+-   [ServiceNow Otto for Legal Service Delivery \(LSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/now-assist-lsd-exploring.md)
 

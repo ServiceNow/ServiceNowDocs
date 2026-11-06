@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Portfolio Management, IT Service Management]
 ---
@@ -26,6 +26,8 @@ You can create a single service portfolio or multiple service portfolios, each w
 Create services that benefit and add value to your internal organization and external customers and users.
 -   **[Apply scope to a service in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-apply-scope-to-service.md)**  
 Define the limits of a service with scope details to grant or deny specific service views. Out of Scope items define what a service cannot provide and In Scope items define what a service provides. For example, nightly backups may be In Scope for the Desktop Support service, but Out of Scope for the Disaster Recovery service.
+-   **[Service Portfolio Management Premium notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-premium-notifications.md)**  
+Notifications are added with Service Portfolio Management Premium to manage your service offering to catalog item relationships.
 -   **[Edit and manage service portfolios in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-edit-manage-portfolios.md)**  
 Manage the CSDM life cycle fields of your portfolio taxonomy nodes in the Service Portfolio Management application. You can move taxonomy nodes easily from one portfolio to another to confirm that your portfolios are synchronized. You can also decide to show or hide the life cycle fields in the complimentary Digital Portfolio Management \(DPM\) Workspace.
 -   **[Service offerings in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-service-offerings.md)**  
@@ -36,8 +38,6 @@ Log outages to adjust your business or technical service commitment availability
 View availability calculations for commitments on service offerings and application services. After the commitments are set up in Service Portfolio Management, you can view the results by an automated report that you set up.
 -   **[Set the time zone for availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
 By default, the time zone to calculate availability for services and commitments is set to the global \(system\) time zone. You can change the global time zone or you can set the time zone for service commitments. With either option, you can recalculate the availability results based on the time zone that you set.
--   **[Service Portfolio Management Premium notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-premium-notifications.md)**  
-Notifications are added with Service Portfolio Management Premium to manage your service offering to catalog item relationships.
 -   **[Convert services in bulk in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-migrate-bulk-services.md)**  
 Convert multiple services from the Configuration Management Database \(CMDB\) service table to one of the dedicated child tables. You can convert to a business service or to a technical service.
 -   **[View Service Level Agreement \(SLA\) results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-view-sla-result.md)**  

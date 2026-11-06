@@ -1,5 +1,5 @@
 ---
-title: Using a Response template in an HR case or HR task record
+title: Use response templates in HR cases or tasks
 description: Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case or task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-using-response-template.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Response templates in Agent Workspace for HR Case Management, Agent Workspace for HR Case Management contextual side panel, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Response templates in Agent Workspace for HR Case Management, Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
-# Using a Response template in an HR case or HR task record
+# Use response templates in HR cases or tasks
 
 Use response templates as reusable messages that you can copy and paste into the comments or work notes for an HR case or task.
 
@@ -28,15 +28,15 @@ Role required: sn\_hr\_core.case\_writer
 
 3.  Select an HR case or task.
 
-<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d291605e85">
+<table id="choicetable_a5l_fjh_1cc"><thead><tr><th align="left" id="d314051e83">
 
 Item
 
-</th><th align="left" id="d291605e88">
+</th><th align="left" id="d314051e86">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d291605e94">
+</th></tr></thead><tbody><tr><td id="d314051e92">
 
 **HR case**
 
@@ -46,7 +46,7 @@ Steps
 2.  Select the HR case.
 
 
-</td></tr><tr><td id="d291605e121">
+</td></tr><tr><td id="d314051e119">
 
 **HR task**
 

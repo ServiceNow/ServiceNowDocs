@@ -1,34 +1,23 @@
 ---
-title: Customer success
+title: Use Customer Success Management
 description: Define and track objectives, outcomes, milestones, and plans to achieve shared goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-customer-success-landing-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Account Lifecycle Events]
+breadcrumb: [Customer Success Management]
 ---
 
-# Customer success
+# Use Customer Success Management
 
 Define and track objectives, outcomes, milestones, and plans to achieve shared goals.
 
-<table id="table_ggl_tml_ccc" class="nav-card presentation"><tbody><tr><td>
+-   **[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use.md)**  
+With the account onboarding solution, service providers can repeatedly define, measure, and collaborate with customers on the activities needed to onboard rapidly.
+-   **[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-cust-success.md)**  
+Learn how your organization can use the customer success solution to engage with your customers, mitigate risks by running success plays, and identify opportunities for expansion and renewals.
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text:Learn about the customer success solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-events-customer-success-about.md)
+**Parent Topic:**[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-events-landing.md)
 
-</td><td>
-
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Configure the customer success objects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-config-cust-success.md)
-
-</td></tr><tr><td>
-
-[Use \[Omitted image "bus-integration-and-apis.svg"\] Alt text:View detailed information and status about the engagement lifecycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
-
-</td><td>
-
-[Reference \[Omitted image "bus-learn.svg"\] Alt text:Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
-
-</td></tr></tbody>
-</table>

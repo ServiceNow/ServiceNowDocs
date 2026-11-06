@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure the MID Web Server extension, MID Web Server, Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure MID Web Server API key authentication
@@ -30,7 +30,7 @@ When working in the global domain while Domain Separation is enabled, API keys a
 
 You can configure API keys to expire on a specified date.
 
-When creating a new extension with API key authentication \(or updating an existing one to use API key authentication\), the system checks for an available API key for the extension. If there is no available API key, the system creates one.
+When creating or updating an extension to use API key authentication, the system checks for an available API key. If none is available, the system creates one.
 
 ## Procedure
 
@@ -93,13 +93,11 @@ Option for setting an expiration date for the API key.Expired, deactivated, or d
         3.  In the **Related Links** section, select **View API Key**.
         4.  Copy the API key that appears in the MID Web Server dialog box.
 
-            When connecting to a MID Web Server extension configured with API Key authentication, place an API key that the extension has access to in the Authorization header of the request in the following format:
+            When connecting to a MID Web Server extension configured with API Key authentication, place an API key in the Authorization header. The API key must be one that the extension has access to. Use the following format:
 
             `Key <API_KEY>`
 
             where `<API_KEY>` is the value of the API key displayed after selecting **View API Key**.
 
         5.  Select **Submit**.
-
-**Parent Topic:**[Configure the MID Web Server extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-mid-web-server-extension.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [archive file scanning, File-Based Discovery, ZIP, JAR, agent client collector, ACC-VC]
-breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Archive file scanning filtering rules and limits
@@ -43,4 +43,6 @@ The following limits are enforced to prevent archive scanning from affecting age
 |Corrupt or password-protected archives|Not applicable|Detected automatically, logged, and skipped|
 |Nested archives \(archive inside an archive\)|Not applicable|Not scanned. Only top-level archives on disk are inspected|
 |Global file limit \(**maxFiles**\)|Configured per policy|Archive entries count toward the global file limit; scanning stops when the limit is reached|
+
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

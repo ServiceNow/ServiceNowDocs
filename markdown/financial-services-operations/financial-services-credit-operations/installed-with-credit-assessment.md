@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Credit Operations
 classification: financial-services-credit-operations
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Credit Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Credit Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Credit Operations

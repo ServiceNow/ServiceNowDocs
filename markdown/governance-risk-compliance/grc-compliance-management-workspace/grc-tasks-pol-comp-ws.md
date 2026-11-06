@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Performing compliance tasks in Compliance Workspace
@@ -20,7 +20,7 @@ Starting with Version 13.0.0, a new workspace has been introduced for the GRC: P
 
 To know more about Compliance Workspace, see [GRC Compliance Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/grc-unified-compliance-workspace.md). For persona-based Compliance Workspace pages, see:
 
--   [Compliance Home page for the compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md)
--   [Compliance Home page for the compliance analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md)
+-   [Compliance Home page for the Compliance Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/compliance-manager-compliance-ws.md)
+-   [Compliance Home page for the Compliance Analyst](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/compliance-analyst-compliance-ws.md)
 -   [Compliance Home page for the IT compliance manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/it-compliance-manager-compliance-ws.md)
 

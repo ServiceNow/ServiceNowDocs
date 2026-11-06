@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Catalog and CSDM, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -40,6 +40,8 @@ The Catalog Item form includes the following tabs.
 -   Picture: Picture used to represent the catalog item when it appears in the catalog.
 -   Pricing: Pricing details for the catalog item.
 -   Portal Settings: Provides specific settings on how you interact with the catalog item in the catalog portal.
+
+\[Omitted image "catalog-items.png"\] Alt text: Catalog Item form with numbered fields.
 
 ## Product Catalog use case
 

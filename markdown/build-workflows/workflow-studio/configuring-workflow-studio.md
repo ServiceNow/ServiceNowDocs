@@ -7,8 +7,8 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Workflow Studio, Build workflows]
 ---
 
@@ -22,7 +22,7 @@ Each workflow application within Workflow Studio has its own installation and su
 
 -   **Playbooks**
 
-    Playbooks are included with Workflow Studio, which is a ServiceNow AI Platform feature that is active by default, and that is available for installation and update from the ServiceNow Store. However, you can only trigger playbooks off of platform and application tables that you have access to. For activation information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md).
+    Playbooks are included with Workflow Studio, which is a ServiceNow AI Platform feature that is active by default, and that is available for installation and update from the ServiceNow Store. However, you can only trigger playbooks off of platform and application tables that you have access to. For activation information, see [Activate Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md).
 
 -   **Flows and subflows**
 
@@ -41,12 +41,6 @@ Each workflow application within Workflow Studio has its own installation and su
     Decision Builder is a ServiceNow AI Platform feature that is available for installation and update from the ServiceNow Store. For installation and update information, see [Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-decision-builder.md).
 
 
--   **[Configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/setting-up-process-automation-designer.md)**  
-Set up and monitor playbooks and Playbook Experience.
--   **[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-flow-designer.md)**  
-Configure user access, API access, and properties for Workflow Studio flows.
--   **[Configuring decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-decision-builder.md)**  
-Workflow Studio is installed automatically with each family upgrade. By updating to the latest version of Workflow Studio, you have the latest updates to Decision Tables. Configure Decision Tables and assign roles to your staff based on the permission level they require.
 -   **[Update to the latest version of Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.md)**  
 Workflow Studio is automatically installed on your instance. However, Workflow Studio is a ServiceNow Store application, so to get the latest features, you must update your version manually to the most recent version.
 

@@ -1,20 +1,20 @@
 ---
 title: Create to-do content
-description: You can assign tasks to your employees that prompts your employees to take action. You can also have the to-do as part of a campagin or trigger additional content once a task is completed. To-dos can also be sent via email.
+description: You can assign tasks to your employees that prompts your employees to take action. You can also have the to-do as part of a campaign or trigger additional content once a task is completed. To-dos can also be sent via email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/ecpro-manage-content-to-do.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [To-do content, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [To-do content, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create to-do content
 
-You can assign tasks to your employees that prompts your employees to take action. You can also have the to-do as part of a campagin or trigger additional content once a task is completed. To-dos can also be sent via email.
+You can assign tasks to your employees that prompts your employees to take action. You can also have the to-do as part of a campaign or trigger additional content once a task is completed. To-dos can also be sent via email.
 
 ## Before you begin
 

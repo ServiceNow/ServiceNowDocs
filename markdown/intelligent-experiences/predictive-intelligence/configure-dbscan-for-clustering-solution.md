@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-02-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configuring advanced settings for your ML solutions, Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Configure DBSCAN for a clustering solution
@@ -63,6 +63,8 @@ In this example scenario, you apply DBSCAN to a clustering solution.
 
     \[Omitted image "configure-dbscan-clustering5.png"\] Alt text: When you submit the record you created, the DBSCAN solution parameter appears on your clustering solution definition form.
 
+
+**Parent Topic:**[Configuring advanced settings for your ML solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configuring-advanced-settings-ml-solutions.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Add a cause and consequence to a compliance case
@@ -28,7 +28,7 @@ You can add multiple causes to a compliance case or event and define a primary c
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon. icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  From the list, select **All Cases**.
 

@@ -1,20 +1,20 @@
 ---
 title: Create a service in Service Builder
-description: Create a service in Service Builder to model, map, and document your own business and technical services and offerings that relate to your data in Service Portfolio Management.
+description: Create a service in Service Builder to model, map, and document your own business and technology management services and offerings that relate to your data in Service Portfolio Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-builder/create-service.html
 release: yokohama
 product: Service Builder
 classification: service-builder
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Service Builder, IT Service Management]
 ---
 
 # Create a service in Service Builder
 
-Create a service in Service Builder to model, map, and document your own business and technical services and offerings that relate to your data in Service Portfolio Management.
+Create a service in Service Builder to model, map, and document your own business and technology management services and offerings that relate to your data in Service Portfolio Management.
 
 ## Before you begin
 
@@ -22,12 +22,13 @@ Role required: service\_admin, service\_author, portfolio\_admin, or portfolio\_
 
 ## About this task
 
-The Service Builder framework offers you the option to create a business service or a technical service. Once you select the type of service that you want to create, the workflow guides you through the process of adding information in a logical order:
+The Service Builder framework offers you the option to create a business service or a technology management service. Once you select the type of service that you want to create, the workflow guides you through the process of adding information in a logical order:
 
 1.  **Details**
 2.  **Team**
-3.  **Manage Offerings**
-4.  **Review and Publish**
+3.  **Service Performance**
+4.  **Manage Offerings**
+5.  **Review &amp; Submit**
 
 **Tip:** You can cancel out of creating a service anytime by selecting the **Cancel** button \(next to the **Save** button\). Also, to return to the home page at any time while creating or editing a service, select \[Omitted image "home-polaris-primary2x.png"\] Alt text: Home icon..
 
@@ -35,7 +36,7 @@ The Service Builder framework offers you the option to create a business service
 
 1.  Navigate to **All** &gt; **Service Portfolio Management** &gt; **Service Builder**.
 
-2.  From the landing page, select the type of service that you want to create - **Business** or **Technical**.
+2.  From the landing page, select the type of service that you want to create: **Business** or **Technical**.
 
 3.  Review the Getting Started screen, and then select **Continue**.
 
@@ -133,21 +134,32 @@ The business justification for the service. Some examples are how it reduces cos
 8.  |Field|Description|
 |-----|-----------|
 |Owned by|Person accountable for the service and can edit this service at any time. This person is the service owner. Service owners must have the service\_author role.|
+|Managed by|Person responsible for the day-to-day management of this service.|
 |Delegate|Person that can edit this service and who can act on behalf of the service owner. Delegates must have the service\_editor role.|
-|Delivery manager|Person that has responsibility for the day-to-day management and delivery of this service.|
+|Delivery manager|Person that has responsibility for the delivery of this service.|
 |Business relationship manager|Person that provides business requirements to the service owner. This person helps to define the vision, strategy, and desired outcomes for the service and works closely with the service owner.|
 |Business contact|Person that contributes business requirements to the service, or who has a vested interest in the service performance.|
 |Vendor|Vendor that may help deliver and support this service or may provide the required tooling or technology to deliver this service.|
+|Department|Department that is accountable for the management of this service.|
+|Company|Company that is accountable for the management and delivery of this service \(could be a vendor\).|
 |Stakeholders|Individuals that have a vested interest in this service.|
 
-9.  Select the **Manage Offerings** tab or **Continue to Manage Offerings**.
+9.  Select the **Additional Details** tab or **Continue to Additional Details**.
+
+10. In the field, provide relevant details about your service.
+
+11. Select the **Service Performance** tab or **Continue to Service Performance**.
+
+12. In the field, select the KPI group that you want to measure this service by.
+
+13. Select the **Manage Offerings** tab or **Continue to Manage Offerings**.
 
     The **Manage Offerings tab** displays those offerings that this service is provided for and how it’s provided to them. Here you can edit an offering or create a new offering. It contains tabs for the offering's details, team, operations, financials, and performance. A service must have at least one offering to be published. Select a tooltip \(\[Omitted image "icon-information.png"\] Alt text: Information icon\) to see a description for each tab's field entry.
 
-10. Select **Continue to Review and Submit**.
+14. Select **Continue to Review and Submit**.
 
-11. Scroll down the page to review all your entries and if needed, make edits to any of your entries.
+15. Scroll down the page to review all your entries and if needed, make edits to any of your entries.
 
-12. Select **Submit**.
+16. Select **Submit**.
 
 

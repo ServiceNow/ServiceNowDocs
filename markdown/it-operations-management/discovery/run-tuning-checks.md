@@ -7,9 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Discovery Admin Workspace Tuning, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+keywords: [Discovery, Admin, Workspace]
+breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Run Tuning checks
@@ -44,9 +45,7 @@ The configured checks are listed under the following tabs:
 
     **Note:**
 
-    -   To understand the issue, select the Show check description link.
-    -   To know more details on the issue, select the Documentation on the check link.
-    -   To view the definition page, select the Check definition page link. To edit a check, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/edit-an-existing-check.md).
-
-**Parent Topic:**[Discovery Admin Workspace Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-tuning.md)
+    -   To understand the issue, select the **Show check description** link.
+    -   To know more details on the issue, select the **Documentation on the check** link.
+    -   To view the definition page, select the **Check definition page** link. To edit a check, see [Edit an existing check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/edit-an-existing-check.md).
 

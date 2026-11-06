@@ -1,0 +1,96 @@
+---
+title: Renewal pricing for products with price and quantity ramps
+description: You can control how renewal uplift pricing for product offerings with price and quantity ramps is calculated by the pricing engine. A renewal uplift is a price increase applied to a product when a contract is renewed.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/renewal-pricing-ramped-products.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+---
+
+# Renewal pricing for products with price and quantity ramps
+
+You can control how renewal uplift pricing for product offerings with price and quantity ramps is calculated by the pricing engine. A renewal uplift is a price increase applied to a product when a contract is renewed.
+
+## Overview of renewal pricing for products with ramps
+
+When a product offering with ramps is up for renewal, determining the renewal unit price for the offering can be complex because a ramp may have multiple segments with different prices and quantities.
+
+Ramp deals may also have standard \(yearly or quarterly\) and custom segment durations, making it difficult to choose which segment price to use as the price basis and the term for determining the renewal unit price used in uplift calculations. For non-ramped products, the uplift is calculated by taking the unit price and applying the uplift percentage over the renewal term.
+
+-   **Price basis for calculating renewal unit prices**
+
+    The renewal unit price is the starting price for a contract renewal line. The pricing engine supports two ways to calculate the renewal unit price using the segment and term. By default, the pricing engine uses the unit price basis from the last segment and the duration of the last segment for the term.
+
+    However, the pricing engine can use the first segment as the price basis and apply the uplift across the entire ramp term \(total ramp duration\). You can set the first segment as the price basis and entire ramp term by using the pricing system properties **sn\_csm\_pricing.ramp\_renewal\_price\_segment** and **sn\_csm\_pricing.ramp\_renewal\_term\_basis**. You set these properties by using the Customization Properties for Pricing form \(navigate to **All** &gt; **Pricing** &gt; **Administration** &gt; **Properties**\).
+
+    \[Omitted image "customization-properties-pricing.png"\] Alt text: System properties for pricing, including properties for setting renewal uplift term and renewal pricing for products with price and quantity ramps
+
+    The following table shows the price basis and terms that you can control.
+
+    |Basis option|Price|Term|
+    |------------|-----|----|
+    |Last segment \(Default used by pricing engine\)|Unit price from the last ramp segment|Duration of the last segment only.|
+    |First segment|Unit price from the first ramp segment|Total ramp duration \(all segments combined; apply the uplift across the entire ramp term\)|
+
+-   **Example of uplift calculations**
+
+    The following example shows how the pricing engine uses the different price basis and term values to calculate the unit price:
+
+    |Price basis and term|Calculation|
+    |--------------------|-----------|
+    |Last segment + Segment term|Last segment price: $220. Last segment = 1 year. Effective uplift = 10%. Renewal price = $220 + $22 = $242|
+    |First segment + Full term|First segment price: $240. Full ramp = 3 years. Effective uplift = 10% x 3 = 30%. Renewal price = $240 + $72 = $312|
+
+    **Note:** Quantity is always sourced from the last segment regardless of which price basis method is selected. The price basis configuration affects only the unit price and term for the uplift calculation.
+
+-   **Non-standard segment durations**
+
+    When a ramp has non-standard segment lengths \(for example, a segment that spans 18 months rather than 12\), the pricing engine rounds up the segment duration to the nearest full year before computing the renewal price. This provides consistent year-over-year uplift behavior even when segment lengths do not align with calendar years.
+
+
+## Overriding default renewal uplift calculations
+
+You can override the default renewal uplift calculations for ramped products made by the pricing engine by using the **sn\_csm\_pricing.RampRenewalUpliftCalculationExtensionPoint**. You can use this extension point to customize the logic for calculating renewal uplift pricing. Your inputs can include segment data, unit price, and term for each ramp segment.
+
+For example, calculate the price basis and term for both the last and first segments to determine which price basis provides the maximum uplift amount. You could have the pricing engine choose the higher value of the two calculated renewal prices to use as the renewal price.
+
+Using the uplift calculation example from the previous section, the pricing engine determines that the first segment price and full ramp term amount \($312\) is higher than the last segment and segment term price \($242\).
+
+|Price basis and term|Calculation|
+|--------------------|-----------|
+|Last segment + Segment term|Last segment price: $220. Last segment = 1 year. Effective uplift = 10%. Renewal price = $220 + $22 = $242|
+|First segment + Full term|First segment price: $240. Full ramp = 3 years. Effective uplift = 10% x 3 = 30%. Renewal price = $240 + $72 = $312|
+|Value selected by pricing engine|Max \($312, $242\) = $312. The pricing engine uses the First segment price basis and Segment term to calculate the renewal price.|
+
+## Renewal pricing for contract lines with upsells and downsells
+
+When a contract line item is upsold or downsold during its term, the changed quantities are consolidated into a single renewal quote line rather than renewed as separate lines. Consolidation rolls multiple product changes across different terms, quantities, and pricing from the prior contract into a single line.
+
+The pricing engine calculates the delta price amount on the consolidated renewal quote line from following values:
+
+-   The prior contract value, which includes the effect of every upsell and downsell applied to the contract line item.
+-   The new renewal price, which includes the renewal uplift.
+
+Because the prior contract value accounts for the upsells and downsells, the delta price reflects the change against what the customer was paying at the end of the term, not against the value of the original contract line.
+
+For example, Boxeo has one contract line for Product A, originally 200 units at a $15 unit net price on a 3-year term. Partway through the term, Boxeo downsells to 150 units, then later upsells to 220 units. At renewal, the pricing engine consolidates the original line and both changes into a single renewal quote line and calculates the delta price as follows:
+
+|Value|Amount|
+|-----|------|
+|Prior contract value \(blended unit net price across the original line, the downsell, and the upsell, applied over the full 3-year term\)|$9,900|
+|New renewal price \(220 units at the renewed unit net price, including the renewal uplift\)|$11,352|
+|Delta price \(new renewal price minus prior contract value\)|$1,452|
+
+The consolidated renewal quote line carries the delta price, not the full new renewal price, because the prior contract value already reflects the downsell and the upsell. Charging the full new renewal price on top of what Boxeo already paid for those changes would double-count them.
+
+## Controlling renewal uplift pricing for ramped products
+
+Manage how the pricing engine calculates renewal uplift pricing for ramped products by using the following properties and extension point:
+
+-   Uplift renewal multiplier: To set the uplift renewal multiplier, use the **renewal\_uplift\_term** system property. For more information, see [Set properties to control pricing processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-set-pricing-properties.md).
+-   Segment basis and term used by the pricing engine: Use the system properties **sn\_csm\_pricing.ramp\_renewal\_price\_segment** and **sn\_csm\_pricing.ramp\_renewal\_term\_basis**. To learn more, see [Set properties to control pricing processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-set-pricing-properties.md).
+-   Override the default renewal uplift calculations for ramped products: Use the **RampRenewalUpliftCalculationExtensionPoint** to customize the uplift calculation logic. Access the extension point by navigating to **All** &gt; **Pricing** &gt; **Administration** &gt; **Scripted Extension Points** and in the Extension Points list, select **sn\_csm\_pricing.RampRenewalUpliftCalculationExtensionPoint**. Your inputs can include data such as the unit price and term for each ramp segment.
+

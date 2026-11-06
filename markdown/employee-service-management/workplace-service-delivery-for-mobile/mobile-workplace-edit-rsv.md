@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-07-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Review and edit your reservations in Workplace
@@ -91,15 +91,4 @@ Role required: sn\_wsd\_core.workplace\_user
 
 9.  Select **Update reservation** to update your reservation.
 
-
-**Parent Topic:**[Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md)
-
-**Related topics**  
-
-
-[Manage your in-office presence preferences]()
-
-[Create a reservation for a day in Workplace]()
-
-[Create bulk reservations in Workplace]()
 

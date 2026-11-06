@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [GCP Load Balancer, Google Cloud Platform Load Balancer, GCP discovery, GCP patterns, HTTP load balancer, HTTPS load balancer, TCP load balancer, UDP load balancer]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [GCP discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # GCP Load Balancer pattern-based discovery
@@ -26,7 +26,7 @@ Both patterns populate the same CMDB tables.
 
 ## Pattern-based discovery and mapping requirements
 
-Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud components discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
+Verify the GCP discovery prerequisites section in [Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md).
 
 ## Data collected by Discovery during horizontal discovery
 
@@ -301,5 +301,5 @@ The Google Cloud Platform \(GCP\) - Load Balancer - TCP - UDP pattern creates re
 |Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\]|Uses::Used by|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
 |Cloud Load Balancer Health Service \[cmdb\_ci\_lb\_health\_service\]|Used by::Uses|Load Balancer Pool \[cmdb\_ci\_lb\_pool\]|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Google Cloud Platform \(GCP\) Cloud discovery using Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/gcp-cloud-discovery-patterns.md)
 

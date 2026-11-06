@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Setup the Customer and Consumer Service Portals
@@ -18,7 +18,7 @@ Customize the Customer and Consumer Service Portals to meet your needs.
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
 
 ## Procedure
 
@@ -31,4 +31,9 @@ Role required: admin
     -   Homepage: [Assign a homepage to the portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/assign-portal-homepage.md).
     -   Widgets: Use [Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/service-portal-widgets.md) to define the content in your portal.
     -   Roles: [Configure page security by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-page-security.md) to either set up pages to be public \(no login required\) or to filter them by user role.
+
+**Related topics**  
+
+
+[Consumer Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/consumer-service-portal-properties.md)
 

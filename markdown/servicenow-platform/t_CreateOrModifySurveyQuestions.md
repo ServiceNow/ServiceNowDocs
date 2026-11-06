@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreateOrModifySurveyQuestions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Survey questions, Survey administration, Using surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Survey questions, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create or modify survey questions
@@ -20,7 +20,7 @@ Role required: admin or survey\_admin
 
 ## About this task
 
-Changes to a survey, such as the addition of questions or the modification of question templates, do not apply immediately to the existing survey instances. However, the changes apply immediately to any new survey instances that are created after the changes are saved.
+Changes to a survey, such as the addition of questions or the modification of question templates, do not apply to the existing survey instances. However, the changes apply to any new survey instances that are created after the changes are saved.
 
 ## Procedure
 

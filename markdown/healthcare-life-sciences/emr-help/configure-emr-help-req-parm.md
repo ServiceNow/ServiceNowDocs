@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring EMR Help, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Configure request parameters for EMR systems
@@ -83,7 +83,7 @@ EMR system to which the parameter is mapped.
 -   **Epic**: Epic EMR system.
 -   **Cerner**: Cerner EMR system.
 -   **Any system**: Any type of EMR system, including an Epic EMR system or a Cerner EMR system.
-**Note:** To add more source system entries, you can modify the dictionary entry of the **Source system** column of the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table. For more information, see [Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ModifyADictionaryEntryFromAForm.md).
+**Note:** To add more source system entries, you can modify the dictionary entry of the **Source system** column of the Remote Request Parameter \[sn\_ind\_rmt\_help\_request\_param\] table.
 
 </td></tr><tr><td>
 

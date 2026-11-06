@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the network diagram, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network diagram, Use, Telecommunications Network Inventory]
 ---
 
 # Create a protection path
@@ -45,7 +45,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 You can view the protection path in the network diagram. To learn more, see [View the details of a network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/show-a-ci-related-details-network-diagram.md).
 
-**Parent Topic:**[Using the network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
+**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Add logic and automation, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add an email notification
@@ -74,7 +74,7 @@ Situation where a notification is sent, such as after something happens or when 
 -   **When event is fired**
  This field is automatically set to **When a record is created or updated**.
 
- After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see Notification step.
+ After you create an email notification with a [Flow Action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/noti-flow-action.md) as the trigger, you specify the notification when creating a flow in Workflow Studio. For more information, see [Notification step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/trigger-notification-action-designer.md).
 
 </td></tr><tr><td>
 

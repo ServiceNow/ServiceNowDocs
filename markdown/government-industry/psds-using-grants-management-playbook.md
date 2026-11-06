@@ -1,97 +1,98 @@
 ---
 title: Using Grants Management
-description: If you're a government agency, you can use Grants Management for Public Sector Digital Services to set up and award grants, apply for them, or both​.
+description: Use Grants Management for Public Sector Digital Services to set up and award grants, and screen proposals for them​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-grants-management-playbook.html
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+reading_time_minutes: 7
+keywords: [Using grants management, setup grants, configure grants]
+breadcrumb: [Solutions, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Grants Management
 
-If you're a government agency, you can use Grants Management for Public Sector Digital Services to set up and award grants, apply for them, or both​.
+Use Grants Management for Public Sector Digital Services to set up and award grants, and screen proposals for them​.
 
-Grants are financial funding provided to individuals or organizations for a particular purpose, usually to fund initiatives that serve the public good.
+The Grants Application Workflow in the Public Sector Digital Services \(PSDS\) Grants Management Playbook provides a structured process for managing grant applications from submission for the pre-award phase. It begins with application intake, where applicants submit required forms and eligibility is verified. The review and evaluation phase involves initial screening, technical assessments, and scoring to determine funding recommendations. Once selections are made, agencies proceed with award decisions and notifications, followed by grant agreement execution, where terms, reporting requirements, and disbursement schedules are established. Grants are financial funding provided to individuals or organizations for a particular purpose, usually to fund initiatives that serve the public good.
 
-Grants Management is a packaged application, with playbooks and workflows built in to support an agency's grant portfolio at multiple levels.​
+## Grants Management Landing Page
 
-The workflows for a type of case and the activities that you must complete to resolve these cases are outlined in the playbook. By using a playbook, you can visualize the entire life cycle of the Grants Management setup workflow.
+The Grants Management experience begins on the Grants Management landing page for grants agents and grants program managers. Grants organizations may customize their landing pages with branding colors or other display changes, but the components may remain the same.
 
-## Grants Management Program Setup Playbook stages
+The following is an example of how the default landing page appears in the Public Sector Workspace Grants Management workspace for a grant agents or grant program manager.
 
-A grant announcement is a formal solicitation issued by a funding organization. It details the objectives, eligibility criteria, funding amounts, and application procedures for a specific funding opportunity. Grants Management Program Setup Playbook walks grants program managers through the process of creating and building out a grant program announcement.
+\[Omitted image "psds\_gmp\_landing\_page.png"\] Alt text: grants management landing page view for agents or managers
 
-Grants Management Program Set Up allows you to set up and manage grant programs with guided steps to create, publish, and, manage different grant programs under your agency, making sure to protect sensitive information with role-based access management.
+Here, you can see your workload at a glance, showing active cases, shared cases, upcoming deadlines and events, recent activity, and pending tasks. You can customize this view to your preferences, sorting cases and tasks with custom filters. You can create a grant program directly from this view, or you can navigate to the Lists menu to create it from there.
 
-Like other Public Sector Digital Services playbooks, this playbook contains four stages, and several activities in each stage. However, since this playbook is designed specifically for grant program managers create net new grant programs, it guides the program manager through the process of creating a grants program, from defining key details, to defining budget and milestones, to publishing it to the agency's Grants Portal.
+## Grants Management Program Setup Playbook
 
-Each grant program creates a product model record.
+This is the first step in creating a grant program for applicants to submit to.
 
-Grants Management Program Setup stages are listed in the following table.
+The process begins with program definition, where agencies establish milestones, internal program team members, eligibility criteria, budgets, and key performance metrics. Next, agencies configure the application process, defining required forms, terms and conditions, required budget categories, and review teams. Once the grant program is configured, it is reviewed, approved, and then published.
 
-<table id="table_old_mdf_xfc"><thead><tr><th>
+\[Omitted image "psds\_gmp\_program\_setup\_playbook\_initial\_view.png"\] Alt text: grants management playbook setup initial view for agents or managers
 
-Task
+This playbook contains four stages, and several activities in each stage. It guides the program manager through the process of creating a grants program. The process includes defining key details, creating the announcement, defining budget and milestones, defining eligibility, and publishing it to the agency's Grants Management Portal. For more information on using the PSP to create a GP, see [Using the Grant Program Setup Playbook in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-gmp-grant-pgr-setup.md).
 
-</th><th>
+Once you create a Grant program and publish it using the Program Setup Playbook, you can view the details on the program information record page.
 
-Description
+## Grants Management Program Record page
 
-</th></tr></thead><tbody><tr><td>
+After grant program set-up is complete, you can see every case detail \(narrative, evidence, entities, tasks, and case team\) organized into a single grant program record. This view is available even before you publish the opportunity to the portal for applicants to submit. After you publish the opportunity, the state displays as **Accepting Proposals** in this view. You can see all active proposals for the grant program by selecting the **Proposal** tab, and edit some program details by selecting the corresponding tabs.
 
-Define program
+\[Omitted image "psds\_gmp-case-view-workspace.png"\] Alt text: case record view for agent
 
-</td><td>
+For grants managers and agents, the grants program information record page aims to be a one-stop shop. For more information on configuring the page collection, see [Configure grants program record tabs in Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-gpp-tabs.md)
 
-Define key details regarding the grant program. Agencies establish milestones, internal program team members, eligibility criteria, budgets, and key performance metrics.Grants program managers define merit review due dates, review framework, scoring rubric, and the internal review team.
+## Grants Management Application Intake​
 
-</td></tr><tr><td>
+For applicants, the application intake experience happens entirely on the Grants Management Portal, separate from the grants program manager/agent view. This feature improves self-service with a Grants Management Portal that simplifies finding, applying for, and tracking grants. Reduce applicant effort with guided intake, including save, resume, and export functionality​. Increase agent productivity with tools to make screening submissions easy​. This is where applicants will submit proposals for a grant program that was published by a grants program manager using the setup step. They can then be screened in the agent portion of the intake and screening feature. With a guided intake setup, including save, resume, and export functionality, Grants Management Intake aims to simplify the process of finding, applying for, and tracking grants for applicants.
 
-Create program announcement
+\[Omitted image "psds-gmp-applicant-view.png"\] Alt text: entity record view
 
-</td><td>
+An applicant submitting a proposal is the first stage of the grants proposal playbook. The playbook is in the screen stage by the time it arrives to the agent. An agent cannot submit an application on behalf of an agent.
 
-Build the program announcement. Define the required forms, terms and conditions, required budget categories, and external-facing point of contact. Provides you with an opportunity to review the grant details.
+For more information on how applicants can use the Grants Management to view grants opportunities, submit applications, and view results, see [Using the Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-gmp-using-grants-mgmt-portal.md).
 
-</td></tr><tr><td>
+## Grants Management Application Screening
 
-Configure application
+For grants program managers \(case agents\) and directors, the application screening feature provides visibility across all proposal and submission details related to the grant program, once an applicant submits a proposal for an active grant program created by the grant program manager. Tools for agents to streamline the screening of submissions. The Grants Proposal Workflow in Public Sector Digital Services Grants Management provides a structured process for managing grant proposals from submission for the pre-award phase.
 
-</td><td>
+Using the Grants Management Screening feature, managers can:
 
-A grants program manager puts together an application, which includes eligibility and screening criteria, the collection of applicant information data, budget limitations, and other crucial information.
+-   Review the proposal
+-   Confirm eligibility
+-   Approve new contacts
+-   Verifying documents submitted by the applicants
 
-</td></tr><tr><td>
+\[Omitted image "psds-gmp-rev-prop-details.png"\] Alt text: Enter Applicant information view
 
-Publish opportunity
+For more information on how grants managers can use the Application Screening feature, and [Screen a grant proposal in the Grants Proposal Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-gmp-grant-proposal-screen.md).
 
-</td><td>
+## Grants Management Application Evaluation
 
-Define announcement removal and proposal close dates and publish the program announcement to the Grants Management Portal.
+Grant proposals that pass the screening stage enter the evaluation phase, where the grants program manager creates and assigns proposal evaluation tasks to a group of external evaluators known as merit reviewers. Once all evaluation tasks are completed, the application is ready for the funding proposal phase, where certain grant applications will be selected for approval.
 
-</td></tr></tbody>
-</table>## Grants Management Intake and Screening Playbook stages
+\[Omitted image "psds\_gmp\_proposal-playbook\_evaluation\_view.png"\] Alt text: GM evaluation agent view
 
-The Grants Proposal Workflow in Public Sector Digital Services Grants Management provides a structured process for managing grant proposals from submission for the pre-award phase.
+The funding proposal workflow involves the assessment of the evaluations conducted by the merit reviewers, and the definition of a proposal which will be sent to the Grant Program Director \(GPD\) for final approval. The funding proposal contains the individual grant applications which the grants program manager has selected for approval, and the proposed award amount for each.
 
-Grants Management proposal flow contains four stages, and several activities in each stage. With a guided intake setup, including save, resume, and export functionality, Grants Management Intake and Screening aims to simplify finding, applying for, and tracking grants, with tools for agents to streamline the screening of submissions.
+**Note:** A grants program director can only approve or decline the entire funding proposal, not the individual grant proposals \(applications\) contained within it. A decline involves the creation of a new funding proposal which must be submitted again for approval.
 
-The Grants Management Intake and Screening stages are listed in the following table.
+## Grants Management Merit Review
 
-|Task|Description|
-|----|-----------|
-|Intake|Define key details regarding the grant program. Applicants submit required forms and eligibility is verified.|
-|Screen|Build the program announcement. Acts as a checkpoint for eligibility verification and provides you with an opportunity to review the grant details.|
+For external reviewers, the Merit Review experience happens on the reviewer service portal, separate from the grants program manager/agent view. This allows external reviewers to review and score proposals, all within a dedicated portal.
 
-## Grants Proposal Playbook stages
+\[Omitted image "psds-rsp-mrev-case-details-view.png"\] Alt text: reviewer portal grant program review task record view
 
-A grant proposal is the formal submission prepared by an individual, non-profit, or organization seeking funding for a specific project or initiative. The Grants Management workflow provides agents with a playbook that guides them step-by-step through reviewing, scoring, and deciding on proposals submitted by individuals to a specific grant program that is has been made available. Grants "proposal" and grants "application" are used interchangeably.
+For more information on using the Reviewer Service Portal as an external merit reviewer, see [Using the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-gmp-using-merit-review-portal-agent.md).
 
-|Task|Description|
-|----|-----------|
-|Intake|Define key details regarding the grant program. Applicants submit required forms and eligibility is verified.|
-|Screen|Build the program announcement. Acts as a checkpoint for eligibility verification and provides you with an opportunity to review the grant details.|
+## Grants Management Application Decision
+
+The final stage of the workflow is the decision phase. Based on the funding decisions made by the Grant Program Management team, a corresponding result letter is generated for each application. When all result letters across all applications are prepared, they are released, and the process awaits the acceptance of the outcome by the respective applicants. Applicants can access the results letter on the portal and either acknowledge or decline the award, and managers can capture the outcome of the proposal and close the record.
+
+\[Omitted image "psds-gmp-create-res-letter.png"\] Alt text: decision view grants program manager
 

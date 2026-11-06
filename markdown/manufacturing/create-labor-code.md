@@ -1,16 +1,16 @@
 ---
-title: Create a labor code
+title: Create labor code
 description: Define a labor code for the different tasks or work performed by the service agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/create-labor-code.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a warranty contract, Set up Manufacturing Commercial Operations, Configuring Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Set up MCO, Configure, Manufacturing Commercial Operations]
 ---
 
-# Create a labor code
+# Create labor code
 
 Define a labor code for the different tasks or work performed by the service agents.
 
@@ -20,18 +20,26 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **MCO Setup** &gt; **Labor code**.
+1.  Navigate to **All** &gt; **Workspaces** &gt; **CRM Workspace**.
 
-2.  Select **New**.
+2.  Select the List icon.
 
-3.  On the form, fill in the fields.
+3.  Navigate to **MCO Setup** &gt; **Labor code**.
+
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Name|Labor code name.|
-    |Active|Option to indicate if the labor code is active or not...|
+    |Active|Option to indicate if the labor code is active or not.|
     |Description|Description for the labor code.|
 
-4.  Select **Save**.
+6.  Select **Save**.
 
+
+## Result
+
+The labor code is generated.
 

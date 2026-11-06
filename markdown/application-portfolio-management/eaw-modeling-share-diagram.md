@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-share-diagram.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Share a modeling diagram
@@ -24,7 +24,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Modeling icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Modeling\).
+2.  Open the Modeling page by selecting the Modeling Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization\).
 
 3.  Select an existing diagram that you created and you want to share with others.
 
@@ -35,12 +35,12 @@ Role required: sn\_apm.apm\_user
     You can provide the following access levels to the members and groups:
 
     -   **Owner**: With this access, you can edit the diagram, share the diagram, and modify access levels for other users \(except for the actual owner of the diagram\).
-    -   **Editor**: With this access, you can edit the diagram, share the diagram with Editor or Viewer access for other users, and modify access levels for the users added by you.
+    -   **Editor**: You can edit the diagram, share the diagram with Editor or Viewer access for other users, and modify access levels for the users added by you.
     -   **Viewer**: With this access, you can only view the diagram, and can’t perform any other actions for the diagram.
     \[Omitted image "modeling-share-diagram.png"\] Alt text: Share a digram
 
 
-**Parent Topic:**[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
@@ -57,7 +57,7 @@ Role required: sn\_apm.apm\_user
 
 [Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
 
 [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-duplicate.md)
 

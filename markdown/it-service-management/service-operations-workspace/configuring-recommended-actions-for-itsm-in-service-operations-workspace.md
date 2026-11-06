@@ -1,20 +1,21 @@
 ---
 title: Configuring Recommended Actions for ITSM in Service Operations Workspace
-description: IT Service Management \(ITSM\) includes the following base system components used to configure Recommended Actions for various records in the Service Operations Workspace, including Incident, Incident Tasks, Problem, Problem Tasks, Change Request, Change Request Task, Interaction, and Request.
+description: Configure contexts, rules, recommendations, and resource generators to provide agents with AI-powered suggestions when working with incidents, problems, change requests, and other records in Service Operations Workspace in ITSM.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/configuring-recommended-actions-for-itsm-in-service-operations-workspace.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+keywords: [recommended actions, ITSM, Service Operations Workspace, AI-powered suggestions, incident management, problem management, change management, contexts, rules, recommendations, resource generators, guidance-based recommendations, field-level recommendations, AI search, Task Intelligence, Predictive Intelligence, major incident, similar incidents, knowledge articles, agent productivity]
+breadcrumb: [Contextual side panel configurations in Service Operations Workspace for ITSM, Getting started with Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configuring Recommended Actions for ITSM in Service Operations Workspace
 
-IT Service Management \(ITSM\) includes the following base system components used to configure Recommended Actions for various records in the Service Operations Workspace, including Incident, Incident Tasks, Problem, Problem Tasks, Change Request, Change Request Task, Interaction, and Request.
+Configure contexts, rules, recommendations, and resource generators to provide agents with AI-powered suggestions when working with incidents, problems, change requests, and other records in Service Operations Workspace in ITSM.
 
 ## Contexts in Recommended Actions for ITSM
 
@@ -33,7 +34,7 @@ The ITSM base system ships the following contexts:
 
 For more information about the field description of this context, see [Contexts in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/contexts-in-recommended-actions-for-itsm.md).
 
-**Note:** Recommended Actions have now introduced a context for the Interaction table.
+**Note:** Recommended Actions include a context for the Interaction table.
 
 To get the correct Recommended Actions context, you must set up the **Context Sys ID** property in the Recommended Actions record page of UI Builder in Service Operations Workspace.
 
@@ -58,13 +59,11 @@ For more information about the field descriptions of these rules, see [Rules in 
 
 ## Recommendations in Recommended Actions for ITSM
 
-A recommendation is a way to suggest a helpful action to an agent. A recommendation includes the action and any relevant resources and inputs. For more information, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-recommendations.md).
-
-For more information about recommendation types, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-recommendations.md).
+A recommendation is a way to suggest a helpful action to an agent. A recommendation includes the action and any relevant resources and inputs. For more information about recommendations and types, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-recommendations.md).
 
 **Note:** To create a recommendation, see [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-recommendations-create.md).
 
-The ITSM base system includes Guidance-based recommendations and Field-level recommendation types.
+The ITSM base system includes guidance-based recommendations and field-level recommendation types.
 
 ## Guidance-based recommendations
 
@@ -100,14 +99,16 @@ The ITSM base system includes the following field-level recommendations:
 
 For more information about the field-level recommendations field descriptions, see [Field level recommendations in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/field-level-recommendations-in-recommended-actions-for-itsm.md).
 
-**Note:** To create a guidance and field recommendations, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-config-recommendations.md).
+**Note:** To create a recommendation, see [Create a recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-recommendations-create.md).
+
+To create a guidance and field recommendations, see [Creating guidance and field recommendation in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-config-recommendations.md).
 
 ## Resource generators in Recommended Actions for ITSM
 
 The ITSM base system includes the following resource generators:
 
 -   AI Search Resource Generator
--   Assignment group using Classification.
+-   Assignment group using Classification
 -   Configuration item using Classification
 -   Incident Fields predictions TI
 -   Similar Open Incidents with same CI &amp; Service
@@ -121,7 +122,7 @@ The ITSM base system includes the following resource generators:
 -   Similar incidents using TI similarity
 -   Similar PRBs using similarity
 -   Resolved Incidents with same CI &amp; Service
--   Similar resolved incidents using similarity.
+-   Similar resolved incidents using similarity
 
 For more information about the field descriptions of resource generators, see [Resource generators in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/resource-generators-in-recommended-actions-for-itsm.md).
 
@@ -131,49 +132,117 @@ For more information about the types of resource generator, see [Resource genera
 
 ## Guidances
 
-The ITSM base system includes the following guidance:
-
--   Link to major incident
--   Propose Major Incident
--   Review and attach article for incident
--   Show Change request \[No Action\]
--   Show genius result \[No Action\]
--   Show Problem \[No Action\]
--   \[Incident\] Attach KB
--   \[Incident\] Copy resolution
--   \[Incident\] Link open incident
--   \[Incident\] Link open problem
--   \[Interaction\] Review and attach article
--   \[ Non-ML\] Copy resolution
--   \[ Non-ML\] Create Problem
--   \[ Non-ML\] Link open incident
--   \[ Non-ML\] Link open problem
--   \[Task\] Link change request
--   \[Task\] Link incident
--   \[Task\] Link outage
--   \[Task\] Link problem
--   \[Task\] Order item
-
 For more information about the field descriptions of the guidance, see [Guidances in Recommended Actions for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/guidances-in-recommended-actions-for-itsm.md).
 
 **Note:** To create guidance, see [Create a guidance in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/ra-csm-guidances-create.md).
 
 ## Search result mappings
 
-The search result mappings appear in AI search results for various records in the Service Operations Workspace, including Incident, Incident Tasks, Problem, Problem Tasks, Change Request, Change Request Task, Interaction, and Request.
+The search result mappings appear in AI search results for various records in the Service Operations Workspace.
 
-The IT Service Management base system includes the following search result mappings based on context type:
+The IT Service Management base system includes the following search result mappings based on context type.
 
--   Incident: Outage \[cmdb\_ci\_outage\], Knowledge \[kb\_knowledge\], Change Request \[change\_request\], Incident \[incident\], Catalog item \[sc\_cat\_item\], Incident \[incident\]- Genius result for Pro plus users, Problem \[problem\]
--   Incident task: Knowledge \[kb\_knowledge\], Incident \[incident\], Catalog item \[sc\_cat\_item\], Problem \[problem\]
--   Problem: Outage \[cmdb\_ci\_outage\], Knowledge \[kb\_knowledge\], Change Request \[change\_request\], Incident \[incident\], Catalog item \[sc\_cat\_item\], Problem \[problem\]
--   Problem task: Knowledge \[kb\_knowledge\]
--   Change request: Knowledge \[kb\_knowledge\], Change Request \[change\_request\], Incident \[incident\], Catalog item \[sc\_cat\_item\], Problem \[problem\]
--   Change task: Knowledge \[kb\_knowledge\], Change Request \[change\_request\], Incident \[incident\], Catalog item \[sc\_cat\_item\], Problem \[problem\]
--   Interaction: Knowledge \[kb\_knowledge\], Catalog item \[sc\_cat\_item\]
--   Request: Knowledge \[kb\_knowledge\], Catalog item \[sc\_cat\_item\]
+<table id="table_o3z_l2b_gkc"><thead><tr><th>
 
-## Search Application Configuration
+Context type
+
+</th><th>
+
+Search result mappings
+
+</th></tr></thead><tbody><tr><td>
+
+Incident
+
+</td><td>
+
+-   Outage \[cmdb\_ci\_outage\]
+-   Knowledge \[kb\_knowledge\]
+-   Change Request \[change\_request\]
+-   Incident \[incident\]
+-   Incident \[incident\]- Genius result for Pro plus users
+
+**Note:** Genius result uses ServiceNow Otto Multi-Content Response.
+
+-   Catalog item \[sc\_cat\_item\]
+-   Problem \[problem\]
+
+</td></tr><tr><td>
+
+Incident task
+
+</td><td>
+
+-   Knowledge \[kb\_knowledge\]
+-   Incident \[incident\]
+-   Catalog item \[sc\_cat\_item\]
+-   Problem \[problem\]
+
+</td></tr><tr><td>
+
+Problem
+
+</td><td>
+
+-   Outage \[cmdb\_ci\_outage\]
+-   Knowledge \[kb\_knowledge\]
+-   Change Request \[change\_request\]
+-   Incident \[incident\]
+-   Catalog item \[sc\_cat\_item\]
+-   Problem \[problem\]
+
+</td></tr><tr><td>
+
+Problem task
+
+</td><td>
+
+Knowledge \[kb\_knowledge\]
+
+</td></tr><tr><td>
+
+Change request
+
+</td><td>
+
+-   Knowledge \[kb\_knowledge\]
+-   Change Request \[change\_request\]
+-   Incident \[incident\]
+-   Catalog item \[sc\_cat\_item\]
+-   Problem \[problem\]
+
+</td></tr><tr><td>
+
+Change task
+
+</td><td>
+
+-   Knowledge \[kb\_knowledge\]
+-   Change Request \[change\_request\]
+-   Incident \[incident\]
+-   Catalog item \[sc\_cat\_item\]
+-   Problem \[problem\]
+
+</td></tr><tr><td>
+
+Interaction
+
+</td><td>
+
+-   Knowledge \[kb\_knowledge\]
+-   Catalog item \[sc\_cat\_item\]
+
+</td></tr><tr><td>
+
+Request
+
+</td><td>
+
+-   Knowledge \[kb\_knowledge\]
+-   Catalog item \[sc\_cat\_item\]
+
+</td></tr></tbody>
+</table>## Search application configuration
 
 The IT Service Management base system includes the **\[AIS\] Recommended Actions for ITSM Search Config**. This application supports the AI search for various records in the Service Operations Workspace, including Incident, Incident Tasks, Problem, Problem Tasks, Change Request, Change Request Task, Interaction, and Request.
 
@@ -206,7 +275,7 @@ To use recommendations powered by Predictive Intelligence, install the following
 
     -   Propose major incident \(Trend\)
     -   Similar major incident \(Trend\)
-    For information about this plugin installation, see [Request Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-pred-intelli-mim.md).
+    For information about this plugin installation, see [Activate Predictive Intelligence for Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-pred-intelli-mim.md).
 
 -   Install the Predictive Intelligence for Incident Management \(com.snc.incident.ml\_solution\) plugin to install the following IT Service Management solution definitions.
 
@@ -223,7 +292,12 @@ To use recommendations powered by Predictive Intelligence, install the following
     For more information, see [Request Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-pred-intelli-inc-mgmt.md).
 
 
-Train solution definitions to predict recommendations for an incident. For information about training solution definitions, see [Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-for-incident.md)
+Train solution definitions to predict recommendations for an incident. For information about training solution definitions, see [Predictive Intelligence for Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/predictive-intelligence-for-incident.md).
+
+-   **[Recommended Actions for ITSM Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/sow-itsm-ra-workflow.md)**  
+Configure AI-driven recommendations for ITSM records by creating contexts, setting rules, and defining resource generators with action types. Use this workflow to enable guidance-based and field-level recommendations in Service Operations Workspace.
+-   **[Accessing Recommended Actions for ITSM panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/sow-itsm-access-ra-panel.md)**  
+Agents access recommended actions in Service Operations Workspace to view a list of recommendations that help resolve incidents. They can also manually search for AI-powered recommendations to quickly find solutions.
 
 **Parent Topic:**[Contextual side panel configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/contextual-side-panel-configurations-sow-itsm.md)
 

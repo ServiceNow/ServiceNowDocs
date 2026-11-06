@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Recommended Actions application with Automation Center, Configuring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Configuring Recommended Actions, Configure, Automation Center, Workflow Data Fabric]
 ---
 
 # Set the Recommended Actions application system properties

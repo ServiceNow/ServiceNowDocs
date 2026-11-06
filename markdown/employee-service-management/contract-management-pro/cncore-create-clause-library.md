@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Configure dynamic clauses for contract templates, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure dynamic clauses for contract templates, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create or edit a contract clause
@@ -68,8 +68,10 @@ Table
 
 </td><td>
 
-Table to which you want to associate the clause.**Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the clause library on a different table.
+Table to which you want to associate the clause.**Note:**
 
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the clause library on a different table.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 Example: If you select Legal Contract Request table, the clause will appear only for the templates associated to that table.
 
 </td></tr><tr><td>
@@ -105,6 +107,8 @@ Option to make the clause active and available for use. **Note:** While editing 
 
     -   To save a new clause, select **Submit**.
     -   To save the changes to an existing clause, select **Update**.
+    \[Omitted image "cmpro-cls-mgmt-new.png"\] Alt text: Create a clause and clause variations
+
 
 ## What to do next
 

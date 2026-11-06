@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-new-opportunity.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create an opportunity
@@ -20,30 +20,122 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List icon view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
-2.  In the **Opportunity** &gt; **ALL** list, select **New**.
+2.  In the **Opportunity - All** list, select **New**.
 
     The **Create new opportunity** dialog box opens.
 
 3.  Use the following table to fill in the information.
 
-    |Fields|Description|
-    |------|-----------|
-    |**Short Description**|Fill in a short description for the opportunity.|
-    |**Account**|Provide account information.|
-    |**Stage**|Enter a stage of the opportunity. For example: Qualify, Develop, Propose, Negotiate, Closed- Won, or Closed- Lost.|
-    |**Deal Size**|Provide an approximate value of the deal.|
-    |**Sales Cycle Type**|Enter the type of sales cycle during the creation of the opportunity. For example: NEWCUST, RENEW, or UPSELL.|
-    |**Consumer**|Select a consumer.|
-    |**Contact**|Fill in the contact information.|
+<table id="choicetable_urq_rxt_c1c"><thead><tr><th align="left" id="d63126e88">
 
-4.  Select **Save** to save the opportunity and **Close** to return to the main Opportunities window.
+Fields
 
-5.  Select Refresh \[Omitted image "icon-refresh.png"\] to see the new opportunity in the list.
+</th><th align="left" id="d63126e91">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d63126e97">
+
+**Short Description**
+
+</td><td>
+
+Fill in a short description for the opportunity.
+
+</td></tr><tr><td id="d63126e106">
+
+**Estimated Deal Size**
+
+</td><td>
+
+Amount of potential opportunity.
+
+</td></tr><tr><td id="d63126e115">
+
+**Account**
+
+</td><td>
+
+Provide account information.
+
+</td></tr><tr><td id="d63126e124">
+
+**Consumer**
+
+</td><td>
+
+Select a consumer.
+
+</td></tr><tr><td id="d63126e134">
+
+**Deal type**
+
+</td><td>
+
+Indicates the type of deal associated with the opportunity:-   Direct: The seller engages directly with the customer, with no intermediary partner involved.
+-   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
+
+
+</td></tr><tr><td id="d63126e151">
+
+**Stage**
+
+</td><td>
+
+Enter a stage of the opportunity. For example: Qualify, Develop, Propose, Negotiate, Closed- Won, or Closed- Lost.
+
+</td></tr><tr><td id="d63126e160">
+
+**Route to market**
+
+</td><td>
+
+Identifies the exact sales channel used to execute the deal:-   Direct
+-   Reseller
+-   Service Provider
+-   Distributor
+
+
+</td></tr><tr><td id="d63126e183">
+
+**Sales Cycle Type**
+
+</td><td>
+
+Enter the type of sales cycle during the creation of the opportunity. For example: NEWCUST, RENEW, or UPSELL.
+
+</td></tr><tr><td id="d63126e192">
+
+**Contact**
+
+</td><td>
+
+Fill in the primary contact information associated with the opportunity.
+
+</td></tr><tr><td id="d63126e201">
+
+**Channel partner**
+
+</td><td>
+
+An external organization involved in selling, influencing, or supporting an opportunity as part of an indirect sales.
+
+</td></tr></tbody>
+</table>4.  Select **Save** to save the opportunity and **Close** to return to the main Opportunities window.
+
+5.  Select Refresh \[Omitted image "icon-refresh.png"\] Alt text: to see the new opportunity in the list.
 
 
 ## What to do next
 
 Start adding more information to your opportunity. To learn more, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-details-tab.md).
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

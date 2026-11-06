@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Process Mining, Activating Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
 
 # Integration with Benchmarks
@@ -50,7 +50,7 @@ Understand how you can analyze a process relevant to a KPI. Create or view the s
 
 An IT analyst looks at their monthly Benchmarks report. They notice that the ‘MTTR for high priority incident’ KPI is performing negatively compared to industry peers. Their CIO wants to understand the reasons why.
 
-The analyst selects the **Go to Process Mining** icon from a Benchmarks KPI. The action navigates them to the Process Mining Analyst Workbench in a new tab. They quickly discover an area needing improvement, and submit a CIM initiative. Once the CIM initiative is completed, they can see the improvement on the Benchmarks industry peer comparison chart.
+The analyst selects the **Go to Process Mining** icon from a Benchmarks KPI. The action navigates them to the Process Mining Analyst workbench in a new tab. They quickly discover an area needing improvement, and submit a CIM initiative. Once the CIM initiative is completed, they can see the improvement on the Benchmarks industry peer comparison chart.
 
 \[Omitted image "example-benchmarks.png"\] Alt text: Example: Benchmarks using Process Mining
 

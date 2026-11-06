@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Solve the challenge of adoption with Proactive Prompts, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Proactive Prompts for Skills Foundation
@@ -28,5 +28,5 @@ Make sure that the signals are configured and scheduled to deliver the prompts. 
 |Skills Update Reminder Prompt to Employees|Signal configuration to trigger prompt for employees to either add new skills or update proficiencies for the existing skills.|
 |Review Skills Profile Prompt to Employees|Signal configuration to trigger prompt for employee to update their profile based on the recent activities.|
 
-**Parent Topic:**[Using Skills Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/using-skills-intelligence.md)
+**Parent Topic:**[Solve the challenge of adoption with Proactive Prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/drive-adoption-proactive-prompts.md)
 

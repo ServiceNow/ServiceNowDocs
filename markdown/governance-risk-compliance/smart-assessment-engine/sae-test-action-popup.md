@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -42,7 +42,7 @@ Assessors
 
 Persons who are notified of the assessment and typically respond to the assessment or assign it to another user. One assessment instance is assigned to each assessor.
 
- Assessors have the Assessment actor \[sn\_smart\_asmt.actor\] role. See [Roles in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
+ Assessors have the Assessment actor \[sn\_smart\_asmt.actor\] role. See [Roles installed in Smart Assessment Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.md).
 
 </td></tr><tr><td>
 
@@ -68,9 +68,9 @@ Template category
 
 Category that the assessment template should be a member of. For example, Risk, Performance, Security, Personal data, and so on.
 
-Template categories that enforce the data segregation for templates. A category controls which users can view a template. Each assessment template is associated with one or more template categories. To view a template in a category, you must have a category role that is associated with the category.
+Template purposes enforce data segregation for templates. A purpose controls which users can view a template. Each assessment template is associated with a purpose. To view a template within a specific purpose, you must have a category role associated with that purpose.
 
-For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).**Note:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
+For more information, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).**Note:** You can create an assessment only from a published assessment template.
 
 </td></tr><tr><td>
 
@@ -78,7 +78,7 @@ Assessment target
 
 </td><td>
 
-Table records that are selected to be assessed, otherwise known as the assessment scope. Multiple tables can be added as the assessment target, which makes the scope a combination of records from each table.
+Table records that are selected to be assessed — the assessment's scope items. For an explanation of scope items, including how they are set and where responders see them, see [Scope items in an assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-scope-items.md).
 
 </td></tr></tbody>
 </table>

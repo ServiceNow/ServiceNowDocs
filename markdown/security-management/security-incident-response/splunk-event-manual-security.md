@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -64,7 +64,7 @@ Set up your Splunk environment for manual ingestion
 
 </td><td>
 
-See [Setup ServiceNow Security Operations Event Ingestion Addon for Splunk ES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-es-addon.md)
+[Create a profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-create-profile-manual-security.md)
 
 </td></tr><tr><td>
 

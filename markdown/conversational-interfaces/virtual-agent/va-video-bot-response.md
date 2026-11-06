@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, Video, bot response, control, node]
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Video bot response control
@@ -47,7 +47,7 @@ Card type
 
 </td><td>
 
-Type of card. Select **YouTube Video Card**.**Note:** In the Yokohama release, only YouTube video cards are supported.
+Type of card. Select **YouTube Video Card**.**Note:** In the Brazil release, only YouTube video cards are supported.
 
 </td></tr><tr><td>
 
@@ -131,42 +131,6 @@ Constraints
 
 </th></tr></thead><tbody><tr><td>
 
-Web UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Mobile UI
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Now Assist panel
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
 Microsoft Teams
 
 </td><td>
@@ -191,43 +155,7 @@ Conversational Integration with Slack version 2.0.0 and later.The video control 
 
 </td></tr><tr><td>
 
-Workplace
-
-</td><td>
-
-Supported
-
-</td><td>
-
-None
-
-</td></tr><tr><td>
-
-Facebook Messenger
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
 SMS Twilio
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
-
-</td></tr><tr><td>
-
-LINE
 
 </td><td>
 
@@ -251,32 +179,20 @@ Not applicable
 
 </td></tr><tr><td>
 
-Apple Messages for Business
+Google Chat
 
 </td><td>
 
-Not supported
+Supported
 
 </td><td>
 
-Not applicable
-
-</td></tr><tr><td>
-
-Alexa \(Voice\)
-
-</td><td>
-
-Not supported
-
-</td><td>
-
-Not applicable
+None
 
 </td></tr></tbody>
 </table>## Example Video bot response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="id_irz_szc_54b"><thead><tr><th>
 
@@ -292,12 +208,12 @@ Card output
 
 </td><td>
 
-\[Omitted image "va-video-with-nav-button-2.png"\] Alt text: Video card with the header "Returning to work using Safe Workplace Suite," a description, and a "Continue" navigation button.
+\[Omitted image "va-video-with-nav-button.png"\] Alt text: Video card with the header "Returning to work using Safe Workplace Suite," a description, and a "Continue" navigation button.
 
 </td></tr><tr><td>
 
-\[Omitted image "va-video-without-nav-button-2.png"\] Alt text: Video card with the header, "Returning to work using Safe Workplace Suite" and a description.
+\[Omitted image "va-video-without-nav-button.png"\] Alt text: Video card with the header, "Returning to work using Safe Workplace Suite" and a description.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

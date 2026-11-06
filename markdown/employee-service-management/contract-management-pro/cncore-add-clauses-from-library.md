@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add clauses during authoring or negotiation
@@ -22,7 +22,7 @@ Role required: sn\_cm\_core.contract\_fulfiller or sn\_cm\_core.contract\_review
 
 ## About this task
 
-When working on own-paper or third party paper based contract document, you can use the clause library to check the document for missing or non-compliant clauses. You can also add clause content from the clause library to the document.
+When working on own-paper or third-party paper based contract document, you can use the clause library to check the document for missing or non-compliant clauses. You can also add clause content from the clause library to the document.
 
 The clause library is available under the following conditions:
 
@@ -54,5 +54,5 @@ The clause library is available under the following conditions:
     The clause is added to the document. When a valid metadata mapping exists within clause content, the metadata gets auto-populated. Otherwise, a content control tag name is added and the metadata has to be manually updated. For more information, see [Configure metadata for fields, variables, and variables sets in a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-addin-add-metadata.md).
 
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Proactive Analytics
 classification: proactive-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -112,7 +112,7 @@ Multiple insights of the same type are aggregated into a single card. If more in
 
 ## Limitations and requirements
 
-The Yokohama version of Proactive analytics applies only to Performance Analytics indicators.
+The Brazil version of Proactive analytics applies only to Performance Analytics indicators.
 
 Target and threshold events are shown only when a target or threshold has been set on the indicator. For more information, see [Performance Analytics targets and thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/pa-targets-thresholds.md).
 

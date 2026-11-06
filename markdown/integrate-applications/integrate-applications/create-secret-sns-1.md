@@ -4,7 +4,7 @@ description: Create a client secret to authorize requests from Amazon SNS.
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 ---
 

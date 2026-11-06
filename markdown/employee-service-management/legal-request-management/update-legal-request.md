@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Update a submitted legal request
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
 2.  Select **My Requests** from the header.
 
@@ -32,15 +32,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 4.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d702518e96">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d758283e102">
 
 Action
 
-</th><th align="left" id="d702518e99">
+</th><th align="left" id="d758283e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d702518e105">
+</th></tr></thead><tbody><tr><td id="d758283e111">
 
 **Modify the request details**
 
@@ -54,7 +54,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The legal request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-</td></tr><tr><td id="d702518e141">
+</td></tr><tr><td id="d758283e147">
 
 **Cancel the request**
 
@@ -72,15 +72,15 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 6.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d702518e192">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d758283e198">
 
 Option
 
-</th><th align="left" id="d702518e195">
+</th><th align="left" id="d758283e201">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d702518e201">
+</th></tr></thead><tbody><tr><td id="d758283e207">
 
 **If the Attachments tab is visible**
 
@@ -91,7 +91,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d702518e240">
+</td></tr><tr><td id="d758283e246">
 
 **If the Documents tab is visible**
 

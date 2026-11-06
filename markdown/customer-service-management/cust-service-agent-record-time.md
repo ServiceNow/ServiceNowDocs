@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cust-service-agent-record-time.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Time recording for Customer Service Management, Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Time recording for Customer Service Management, Agent management, Use, Customer Service Management]
 ---
 
 # Record time worked for a case or activity
@@ -28,7 +28,7 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 1.  To record time worked from a Case form or Case Task form.
 
-<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d103908e84">
+<table id="choicetable_wwf_xcz_jjb"><tbody><tr><td id="d125064e90">
 
 **Platform interface**
 
@@ -36,7 +36,7 @@ When an agent creates a time worked record, a time card and time sheet are autom
 
 Navigate to a case or task and select **Record Time**.
 
-</td></tr><tr><td id="d103908e96">
+</td></tr><tr><td id="d125064e102">
 
 **Agent Workspace**
 
@@ -65,7 +65,7 @@ Navigate to a case or task, select the more UI actions icon \(\[Omitted image "a
 
 7.  Select one of the following actions.
 
-<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d103908e214">
+<table id="choicetable_lzj_xhz_acm"><tbody><tr><td id="d125064e220">
 
 **Platform interface**
 
@@ -73,7 +73,7 @@ Navigate to a case or task, select the more UI actions icon \(\[Omitted image "a
 
 Select **Submit**.
 
-</td></tr><tr><td id="d103908e226">
+</td></tr><tr><td id="d125064e232">
 
 **Agent Workspace**
 

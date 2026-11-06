@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing Problems, Problem Management, IT Service Management]
 ---
@@ -33,7 +33,7 @@ If you do not have Problem Management Best Practice — Madrid plugin \(com.snc.
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d336798e77">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d201303e77">
 
 **From the Problem module**
 
@@ -41,7 +41,7 @@ If you do not have Problem Management Best Practice — Madrid plugin \(com.snc.
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d336798e95">
+</td></tr><tr><td id="d201303e95">
 
 **From an incident**
 

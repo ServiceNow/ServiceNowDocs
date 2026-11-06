@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage various assets through asset classes, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Manage various assets through asset classes, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create an asset class

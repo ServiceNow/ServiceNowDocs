@@ -1,18 +1,18 @@
 ---
-title: Accessibility information for all Yokohama features and products
-description: Cumulative release notes summary on accessibility information for Yokohama features and products. Some products have specific accessibility information or exceptions.
+title: Accessibility information for all Brazil features and products
+description: Cumulative release notes summary on accessibility information for Brazil features and products. Some products have specific accessibility information or exceptions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-accessibility.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 11
-breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-11-04"
+reading_time_minutes: 6
+breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Accessibility information for all Yokohama features and products
+# Accessibility information for all Brazil features and products
 
-Cumulative release notes summary on accessibility information for Yokohama features and products. Some products have specific accessibility information or exceptions.
+Cumulative release notes summary on accessibility information for Brazil features and products. Some products have specific accessibility information or exceptions.
 
 **Important:**
 
@@ -30,109 +30,99 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Agent Studio
+
+</td><td>
+
+-   **[Voice Input for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
+
+Administrators can enable an optional voice input setting for the ServiceNow Otto panel in the AI Admin Hub. This feature gives users a voice-to-text input option to access the generative AI skills in the panel in any supported language. For more information, see [Enable voice input for ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
+
+After enabled, the Enable voice input for the ServiceNow Otto panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
+
+Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
+
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
-The AI Control Tower application supports all the platform accessibility features.
+-   ****
+    -   AI asset security score details, AI agent containment, and configuration pages on the Security tab are fully navigable by keyboard and compatible with screen readers.
 
 </td></tr><tr><td>
 
-AI Skill Kit
+Access Management
 
 </td><td>
 
-Admins can enable an optional Voice Input setting for the Now Assist panel that enables users to interact with the panel using their voice or in voice assist mode.
+-   ****
 
-</td></tr><tr><td>
-
-Audit Management
-
-</td><td>
-
--   **Accessibility improvements**
-
-Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md).
+Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
 
-Business Continuity Management
+Agent experience for CSM
 
 </td><td>
 
-Various accessibility issues in the Crisis map application have been resolved with the implementation of the Geomap \[sn\_geo\_map\] component, which has replaced the FAM Map \[sn-fam-map\] component.
+-   ****
+    -   Accessibility improvements were made to the following CRM Workspace components: Special Handling Notes, Account Hierarchy, and Resolution Shaper. Updates include keyboard navigation, color contrast, and screen reader compatibility. These improvements help users who rely on screen readers, keyboard-only users, and users with low vision.
+    -   Reflow support for CRM Workspace components: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Cloud Account Management
+Authentication
 
 </td><td>
 
-Implemented zoom functionality in all screens offering zoom levels of 110%, 125%, 150%, 175%, 200%, 250%, 300%, and 400%.
+-   ****
+    -   **Coral theme**
 
-</td></tr><tr><td>
-
-Collaborative Work Management
-
-</td><td>
-
--   **Accessibility improvements**
-
-Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-The CWM Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
-
-See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
 
-Compliance Case Management
+Change Management
 
 </td><td>
 
--   **Accessibility improvements**
+-   ****
 
-Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+Reflow support for the Create a change request page: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages.
 
 
 </td></tr><tr><td>
 
-Configuration Management Database \(CMDB\)
+Cloud Cost Management
 
 </td><td>
 
--   **Accessibility improvements**
+-   ****
 
-Accessibility improvements were completed to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
-
--   **Reflow**
-
-The Configurable Workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to the monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for the details.
+Accessibility improvements were completed across the Cloud Cost Management Workspace, including the homepage, Spend, Optimization, Operations, Admin, and Budget pages. Updates include corrected heading structure and improved drag-and-drop interaction support. These updates benefit screen reader users, keyboard-only users, and low-vision users navigating the Cloud Cost Management Workspace.
 
 
 </td></tr><tr><td>
 
-Document Services
+Digital End-User Experience
 
 </td><td>
 
-Added accessibility support for PDF document generation. PDF accessibility tags are now available to help users who rely on screen readers to navigate, understand, and interact with these generated PDF documents. For more information, see [PDF generation and accessibility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pdf-generation-accessibility.md).
+Localization is applicable to DEX in all languages supported by the ServiceNow AI Platform.
+
+</td></tr><tr><td>
+
+Employee Center
+
+</td><td>
+
+-   ****
+    -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
 
 </td></tr><tr><td>
 
@@ -140,35 +130,17 @@ Enterprise Asset Management
 
 </td><td>
 
--   **Accessibility improvements**
-
-Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
-
+-   ****
+    -   Reflow support for Enterprise Asset Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Flows, subflows, and actions in Workflow Studio
+Firewall Audits and Reporting
 
 </td><td>
 
--   **ARIA label improvements**
-
-Added and updated ARIA labels to support screen readers.
-
--   **Keyboard navigation improvements**
-
-Improved keyboard navigation with working with actions, flows, and subflows in Workflow Studio.
-
--   **Reflow improvements of canvas headers and footers**
-
-Added support for the reflow of canvas headers and footer content in Workflow Studio actions, flows, and subflows. These components can be zoomed up to 400% through your browser settings without loss of content or functionality.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations.
-
+-   ****
+    -   The application interface is navigable by keyboard and compatible with screen readers including JAWS and NVDA.
 
 </td></tr><tr><td>
 
@@ -176,77 +148,50 @@ Hardware Asset Management
 
 </td><td>
 
--   **Accessibility improvements**
+-   ****
+    -   Reflow support for Hardware Asset Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
-Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
+</td></tr><tr><td>
 
+Identity
 
--   **Reflow**
+</td><td>
 
-The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
+-   ****
+    -   **Coral theme**
+
+Coral is now the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme provides a fresh look and feel, featuring brand-neutral illustrations to enhance your user experience. A dark theme option is available for web and mobile experiences.
 
 
 </td></tr><tr><td>
 
-ITOM AIOps
+Incident Management
 
 </td><td>
 
--   **Support for reflow**
-
-The Service Dashboard and Log Viewer component was updated to support reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels.
-
-This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
-
+-   ****
+    -   Accessibility improvements were made to the Incident Management UI16 form across the full form lifecycle, including keyboard navigation, voice-over support, color contrast, and minimum target sizes. These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+    -   Accessibility improvements were made to the Major Incident Management UI List component, record pages and Major Incident workbench tabs, including keyboard navigation and screen reader support. These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+    -   Reflow support for Incident Management and Major Incident Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Knowledge Management
+Kubernetes Visibility Agent \(KVA\)
 
 </td><td>
 
-Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a Knowledge article. See [Accessibility checker in the toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/accessibility-checker.md) for more information.
+-   ****
+    -   The Kubernetes explorer dashboard is navigable by keyboard and compatible with screen readers including JAWS and NVDA.
 
 </td></tr><tr><td>
 
-Mobile Platform
+Live Connect
 
 </td><td>
 
-The following accessibility updates are available in Mobile Card Builder:
-
--   Updated alternative text on key images to better support users who rely on screen readers.
--   Enhanced the focus indicator on the Mobile Card Builder home page to improve navigation for users relying on keyboards or Assistive Technology \(AT\).
--   Improved accessible names to provide clear and descriptive labels for interactive elements to support screen readers and other AT.
-
-</td></tr><tr><td>
-
-Next Experience
-
-</td><td>
-
--   **[Customize Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/customize-keyboard-shortcuts.md)**
-
-Create your own keyboard shortcuts for frequently used actions.
-
--   **[Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md)**
-
-**Keyboard shortcuts categorized**: Keyboard shortcuts for each page are now organized into categories: Page Action, Page Navigation, Global Navigation, and General.
-
-**New keyboard shortcuts**: Two new Next Experience keyboard shortcuts are available, one shortcut to open and close the Now Assist panel and another to enable voice input for Now Assist.
-
-**Accessibility improvements for keyboard interactions**: Use the right and left arrow keys to expand and collapse rows.
-
--   **[Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md)**
-
-**Voice input for Now Assist**
-
-A new user preference activates voice-to-text input in the Now Assist panel. With this feature, you can use your voice to access Now Assist skills in the Now Assist panel in any supported language.
-
-This preference appears only if your system administrator has enabled the voice input for the Now Assist feature for your instance. For more information, see [Enable voice input for the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
-
-Once your system administrator has enabled voice input for your instance, the "Enable voice input for the Now Assist panel" user preference is displayed.
-
+-   ****
+    -   Live Connect is a backend connectivity layer with no direct user interface.
+    -   Accessibility of query results depends on the third-party client tools used to connect to Live Connect.
 
 </td></tr><tr><td>
 
@@ -254,143 +199,67 @@ Next Experience Components
 
 </td><td>
 
-For Next Experience Components accessibility conformance, refer to the ServiceNow [Horizon site Components section](https://horizon.servicenow.com/workspace/components).
+To view Next Experience Components accessibility conformance information, refer to the components section of the [Horizon site Components section](https://horizon.servicenow.com/workspace/components). The Overview for each component contains accessibility \(A11y\) information.
 
 </td></tr><tr><td>
 
-Now Assist
+Notify
 
 </td><td>
 
--   **Voice Input for Now Assist**
-
-Administrators can enable an optional voice input setting for the Now Assist panel in the AI Admin Hub console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
-
-Once enabled, the Enable voice input for the Now Assist panel option are available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
-
-Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
-
+-   ****
+    -   Reflow support for Notify: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Now Assist AI agents
+Password Reset
 
 </td><td>
 
--   **[Voice Input for Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md)**
-
-Administrators can enable an optional voice input setting for the Now Assist panel in the AI Admin Hub console. This feature gives users a voice-to-text input option to access the Now Assist skills in the panel in any supported language. For more information, see [Enable voice input for Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/enable-voice-input-for-now-assist-panel.md).
-
-Once enabled, the Enable voice input for the Now Assist panel option is available in individual user accessibility preferences. See [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-accessibility-preferences.md) for more information.
-
-Voice-to-text input can help users with mobility impairments access generative AI skills without using a keyboard. This feature can also be useful to blind or low-vision users, neurodivergent users, non-native language speakers, or mobile users on the go, such as field service agents.
-
+-   ****
+    -   Reflow support for Password Reset: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Platform Analytics experience
+Request Management
 
 </td><td>
 
-Dashboard overview and Filter components now support Reflow at 400% zoom.
+-   ****
+    -   Reflow support for Request Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Playbooks in Workflow Studio
+Sales CRM for Telecommunications
 
 </td><td>
 
+-   ****
+
+Sales Customer Relationship Management follows standard ServiceNow platform accessibility support, including keyboard navigation and compatibility with screen readers.
 
 
 </td></tr><tr><td>
 
-RPA Hub
+Service Operations Workspace for ITSM
 
 </td><td>
 
--   **Accessibility improvements**
-
-Accessibility improvements were completed to support WCAG 2.1 Level AA conformance.
-
+-   ****
+    -   Accessibility improvements were made to the Major Incident Management in Service Operations Workspace for ITSM in UI List component, record pages and Major Incident workbench tabs, including keyboard navigation and screen reader support. These updates benefit users who rely on screen readers or other Assistive Technology \(AT\), keyboard-only users, and users with low vision.
+    -   Reflow support for Major Incident Management in Service Operations Workspace for ITSM: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 </td></tr><tr><td>
 
-Service Catalog
+ServiceNow Quote Experience
 
 </td><td>
 
-Accessibility checker in the TinyMCE toolbar enables you to identify and resolve accessibility related issues when creating a catalog item in Service Catalog. See [Accessibility checker in the toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_DefineACatalogItem.md) for more information.
+-   ****
 
-</td></tr><tr><td>
-
-Smart Assessment Engine
-
-</td><td>
-
--   **Accessibility improvements**
-
-Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
-
-</td></tr><tr><td>
-
-Software Asset Management
-
-</td><td>
-
--   **Accessibility improvements**
-
-Accessibility improvements were completed to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
-
--   **Reflow**
-
-The configurable workspace supports reflow, which enables pages and content to be zoomed up to 400% through your browser settings without loss of content or functionality. Additionally, content can be enlarged without scrolling in two dimensions at a width equivalent to 320 CSS pixels or a height equivalent to 256 CSS pixels. Page layouts are transformed into a vertical, stacked view automatically when users increase browser zoom to 400%. This enhancement helps users with low vision or who have trouble seeing web content in a browser due to monitor size, device type, poor lighting, or other situations. Reflow can be turned off with a system property for instances, experiences, and pages. See [Reflow for Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/auto-reflow.md) for details.
-
-
-</td></tr><tr><td>
-
-Theme Builder
-
-</td><td>
-
--   **[Adjust the Unified Navigation component to meet accessibility standards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/tb-adjust-component-wcag.md)**
-
-The Accessibility Inspector, which detects and guides you through fixing contrast issues in your theme, now includes accessibility errors for the Unified Navigation component and subcomponents.
-
-
-</td></tr><tr><td>
-
-Usage Insights
-
-</td><td>
-
-User Experience Analytics supports the Web Content Accessibility Guidelines \(WCAG\) 2.1 AA accessibility standard except for these aspects:
-
--   Voiceover for navigation paths
--   Color patterns for time series and pie visualizations
--   Data table for time series and pie visualizations
-
-</td></tr><tr><td>
-
-Workforce Optimization for Customer Service CSM
-
-</td><td>
-
-Screen reader support has been extended to ARIA labels for buttons in CSM Workforce Optimization for Customer Service. The support provides users who rely on assistive technology with an explanation of button actions, such as the toggle button.
-
-</td></tr><tr><td>
-
-Workspace
-
-</td><td>
-
--   **[Screen Summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/use-screen-summarization.md)**
-
-Screen Summarization is a feature that supports visually impaired and low-vision users by providing AI-generated summaries of workspace pages and their sections. The summaries can be read aloud with a screen reader to help reduce navigation and comprehension time.
-
-Install Screen Summarization by requesting it from the ServiceNow® Store. Visit the [ServiceNow® Store](https://store.servicenow.com/store) to view all the available apps and information about submitting requests to the store.
+Color contrast in ServiceNow Quote Experience was updated to display all interface elements clearly in dark-themed environments. This update helps users view and interact with all interface elements clearly in a dark-themed environment.
 
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

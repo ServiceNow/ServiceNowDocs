@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Create an epic in Agile Development 2.0
@@ -212,5 +212,5 @@ Associate monetary and non-monetary benefit plans, so that you can capture the p
 -   **[Generate labor costs for epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/gen-labor-costs-epics.md)**  
 View the labor cost expenses based on the resource assignments for your epics.
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
 

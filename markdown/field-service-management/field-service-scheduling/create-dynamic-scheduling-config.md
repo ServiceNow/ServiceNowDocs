@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 21
-breadcrumb: [Configuring Dynamic Scheduling, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 22
+breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configure dynamic scheduling

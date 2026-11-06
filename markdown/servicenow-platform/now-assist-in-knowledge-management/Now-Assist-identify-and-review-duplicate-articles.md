@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist in Knowledge Management
 classification: now-assist-in-knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Now Assist in Knowledge Management, Now Assist in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use ServiceNow Otto in Knowledge Management, ServiceNow Otto in Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Identify and review duplicate Knowledge articles
@@ -20,7 +20,7 @@ Review duplicate Knowledge articles using the identify and review duplicate arti
 
 Role required: knowledge\_admin and knowledge\_manager
 
-The ServiceNow Otto knowledge skill required to enable the identify duplicate articles feature is activated by the admin. To configure the skill, see [Configure and activate the Now Assist Identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
+The ServiceNow Otto knowledge skill required to enable the identify duplicate articles feature is activated by the admin. To configure the skill, see [Configure and activate the identify duplicate articles skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/Now-Assist-configuring-identify-duplicate-article-skill.md).
 
 ## Procedure
 
@@ -41,5 +41,5 @@ The ServiceNow Otto knowledge skill required to enable the identify duplicate ar
     This feature does not work for non-English articles.
 
 
-**Parent Topic:**[Using Now Assist in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
+**Parent Topic:**[Using ServiceNow Otto in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/using-now-assist-in-km.md)
 

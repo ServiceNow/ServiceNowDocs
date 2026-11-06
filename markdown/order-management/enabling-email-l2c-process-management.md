@@ -1,18 +1,18 @@
 ---
 title: Setting conditions for enabling email access in Lead-to-Cash Process Management
-description: Sales process managers must be granted access to compose emails for the sales entity records that are monitored within a sales process record.
+description: Sales process managers must be granted access to compose emails for the sales entity records that are monitored in a sales process record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/enabling-email-l2c-process-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Lead-to-Cash Process Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting conditions for enabling email access in Lead-to-Cash Process Management
 
-Sales process managers must be granted access to compose emails for the sales entity records that are monitored within a sales process record.
+Sales process managers must be granted access to compose emails for the sales entity records that are monitored in a sales process record.
 
 Sales process managers can compose and send emails related to a sales process record by default. Enable sales process managers to compose emails for the related sales entities by setting the value of the **email\_client** dictionary attribute to **true** and using either of the following methods:
 

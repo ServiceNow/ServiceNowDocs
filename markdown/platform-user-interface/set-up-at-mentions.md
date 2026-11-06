@@ -1,18 +1,18 @@
 ---
-title: Set up suggestions for mentions based on record access
-description: Set up @mentions that display suggestions based on recipients with access to view the record.
+title: Configure mention suggestions
+description: Configure @mentions that display suggestions based on recipients with access to view the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-up-at-mentions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering forms for Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Forms, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Set up suggestions for mentions based on record access
+# Configure mention suggestions
 
-Set up @mentions that display suggestions based on recipients with access to view the record.
+Configure @mentions that display suggestions based on recipients with access to view the record.
 
 ## Before you begin
 
@@ -27,6 +27,8 @@ When you use @mentions, context-based suggestions display a list of recipients w
 ## Procedure
 
 1.  Navigate to `sys_properties.list`.
+
+    The entire list of properties in the System Properties \[sys\_properties\] table opens.
 
 2.  Add a system property named **glide.ui.mentions.check\_record\_visibility**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integration with Customer Service Management, Integrating Field Service Management with other applications, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Integration with Customer Service Management, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Map case fields with work order table

@@ -1,74 +1,69 @@
 ---
-title: Content not migrated or migrated in compatibility mode
-description: Most dashboard content is migrated to the new Platform Analytics experience. However, some visualizations, aspects of visualizations, and filters are inserted in the migrated dashboard as embedded content \(iframes\), also known as compatibility mode. Some configurations are not migrated at all.
+title: Unmigrated content and compatibility mode migrations
+description: Most dashboard content is migrated to the new Platform Analytics experience. However, some visualizations, aspects of visualizations, filters, and configurations can't be migrated. Dashboards with this content are migrated as embedded content \(iframes\), also known as compatibility mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-mig-unmigrated-content.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-15"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Analytics Migration Center, Platform Analytics experience, Platform Analytics]
 ---
 
-# Content not migrated or migrated in compatibility mode
+# Unmigrated content and compatibility mode migrations
 
-Most dashboard content is migrated to the new Platform Analytics experience. However, some visualizations, aspects of visualizations, and filters are inserted in the migrated dashboard as embedded content \(iframes\), also known as compatibility mode. Some configurations are not migrated at all.
+Most dashboard content is migrated to the new Platform Analytics experience. However, some visualizations, aspects of visualizations, filters, and configurations can't be migrated. Dashboards with this content are migrated as embedded content \(iframes\), also known as compatibility mode.
 
 **Note:** If you have already migrated to Platform Analytics experience, the Migration Center automatically migrates any previously incompatible content that is now compatible when you upgrade releases.
 
 ## Not migrated
 
-Generic dashboard configurations that are not migrated:
+The only generic dashboard configuration that is not migrated is widget title alignment. Dashboards that contain unsupported content, including dynamic content blocks aren't migrated. The Core UI versions of these dashboards remain available in the dashboard library.
 
--   Widget header and title colors
--   Widget title alignment
+These filters aren't migrated:
 
-Filters that are not migrated
-
--   Group filter
 -   Debug filter
 -   Filter user preferences from dashboards
--   Cascading filters that support the Choice &gt; Choice configuration
+-   Cascading filters that support the Choice to Choice configuration
 -   Filtered list content. For more information on List filters, see [Create a filter in List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_CreatingFilters.md).
 
-Visualization configurations that are not migrated:
+Visualization configurations that aren't migrated:
 
--   Export to PNG/JPEG on the chart itself from dashboard.
--   Report drilldown into another report on partial migrations.
-
-    Report drilldown into another report is supported on full migration.
-
--   Progress bars for Percent Complete fields in Simple list visualizations.
 -   Restriction of dashboard access to specific roles.
+-   Group edit rights.
 
-Indicators/Breakdown Scorecard elements that are not migrated:
+    Reports that are shared to groups with edit rights only retain view rights when migrated. Open the migrated visualization in the library and share it with the group again. For more information, see [Share a data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-dv-ac.md).
+
+-   In the context of bulk migration, visualizations that are used in one or more dashboards lose their header and color configurations. \(In Core UI, these are configured at the dashboard level; in Platform Analytics experience, they are configured at the visualization level.\)
+
+    In the context of partial migration, visualizations that are used in a single dashboard are migrated with their header and color configurations. Visualizations that are used in multiple dashboards lose their header and color configurations.
+
+
+Indicator and Breakdown Scorecard elements that aren't migrated:
 
 -   Show Distribution
 -   Show Bullet chart
 
-Calendar component elements that are not migrated:
+The Calendar year view component isn't migrated.
 
--   Year view
--   Highlighting based on
+## Dashboards with breakdown source dropdowns
+
+Platform Analytics dashboards do not support a configurable list of Performance Analytics breakdown sources by which to filter the dashboard \(see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md)\). Such dashboards are migrated, but the breakdown source filter list is replaced by a Platform Analytics filter for each breakdown. Instead of a dropdown list, you have a pill for each filter. For more information, see [Configure a Single/Multiple select or cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-select-filter-workspace.md).
 
 ## Compatibility mode migrations
 
-Migration in compatibility mode means that the original artifacts are inserted into the migrated dashboard in iframes. The original content is not changed or moved.
+Migration in compatibility mode means that all of the dashboard's original artifacts are inserted into the migrated dashboard in iframes. The original content isn't changed or moved.
 
-All custom interactive filters, custom content blocks, gauges, and gadgets are migrated in compatibility mode, as iframes.
+Dashboards with any content that is not a Performance Analytics widget, report, or interactive filter, including all custom interactive filters, custom content blocks, gauges, and gadgets, are migrated in compatibility mode, as iframes.
 
-All other content that is not a Performance Analytics widget, report, or interactive filter is migrated in compatibility mode, as iframes.
-
-**Note:** Dashboards with visualizations or other widgets migrated in compatibility mode may experience performance issues.
-
-Custom interactive filters are migrated in compatibility mode, but may not work on the migrated dashboard. If the custom functionality is required, roll the dashboard back to the Core UI version.
+**Note:** Dashboards migrated in compatibility mode can experience performance issues.
 
 ## Generic configurations
 
 Generic visualization configurations migrated in compatibility mode:
 
 -   Sort by dot-walked fields
--   Reporting on variables/questions
+-   Reporting on variables and questions
 -   List default drilldown view configured in Report Designer
 -   [Breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) = empty for breakdowns based on choice field
 -   Sort by Performance Analytics breakdown based on choice field order
@@ -99,7 +94,6 @@ Reports migrated in compatibility mode:
 -   Histogram
 -   Funnel
 -   Pyramid
--   Geomap
 
 ## Performance Analytics widgets
 

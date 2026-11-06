@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, data input, stream log data, stop, restart]
-breadcrumb: [Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Stop or restart a data input in Health Log Analytics
@@ -25,7 +25,7 @@ Role required: evt\_mgmt\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Data Input** &gt; **Data Inputs**.
+1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Data Input** &gt; **Log Data Inputs**.
 
 2.  Open a data input record from the Data Inputs table.
 
@@ -36,5 +36,5 @@ Role required: evt\_mgmt\_admin
 4.  To start using the data input again, select **Start Data Input**.
 
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md)
 

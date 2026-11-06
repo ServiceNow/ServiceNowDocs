@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-dv-new-db.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Add a visualization to a dashboard]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -17,7 +17,7 @@ Add a visualization from the Visualization Designer to a new dashboard or to an 
 
 ## Before you begin
 
-Role required: Your must have a role that allows access to the data in the visualization. You must own the visualization, or it must be shared with you. You must have the right to edit the dashboard in which you want to add the visualization.
+Role required: You must have a role that allows access to the data in the visualization. You must own the visualization, or it must be shared with you. You must have the right to edit the dashboard in which you want to add the visualization.
 
 ## Procedure
 
@@ -29,15 +29,15 @@ Role required: Your must have a role that allows access to the data in the visua
 
     \[Omitted image "dv-add-viz-to-db.png"\] Alt text: The Add to Dashboard menu on a data visualization.
 
-<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d67981e102">
+<table id="choicetable_u1x_qwv_c1c"><thead><tr><th align="left" id="d77661e102">
 
 Option
 
-</th><th align="left" id="d67981e105">
+</th><th align="left" id="d77661e105">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d67981e111">
+</th></tr></thead><tbody><tr><td id="d77661e111">
 
 **Add to new dashboard**
 
@@ -45,13 +45,13 @@ Result
 
 A new, untitled dashboard opens in the inline dashboard editor. The data visualization is already on this dashboard. Complete the dashboard, adding any more desired elements and naming it. For more information, see [Create a dashboard with the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-db-in-ac.md).
 
-</td></tr><tr><td id="d67981e130">
+</td></tr><tr><td id="d77661e130">
 
 **Add to existing dashboard**
 
 </td><td>
 
-The Select dashboard dialog box opens. To open a list of dashboards in which you can add the data visualization, click or begin typing in the **Select dashboard** field. Only dashboards that you can edit are available. Technical dashboards are not available.When you have made your choice, select **Add to dashboard**. The dashboard opens in the inline editor for further editing. The visualization is the last element in the dashboard.
+The Select dashboard dialog box opens. To open a list of dashboards in which you can add the data visualization, click or begin entering in the **Select dashboard** field. Only dashboards that you can edit are available. Technical dashboards are not available.When you have made your choice, select **Add to dashboard**. The dashboard opens in the inline editor for further editing. The visualization is the last element in the dashboard.
 
 **Tip:** If you don't see your data visualization, refresh the browser page.
 
@@ -73,7 +73,7 @@ You have just completed creating the data visualization Open incidents - Priorit
 
     \[Omitted image "dv-to-db-ex-select-db.png"\] Alt text: The Select dashboard dialog box.
 
-4.  You type `Inc` into the **Select dashboard** field, and you see the Incidents Overview dashboard listed.
+4.  You enter `Inc` into the **Select dashboard** field, and you see the Incidents Overview dashboard listed.
 
     \[Omitted image "dv-to-db-ex-typeahead.png"\] Alt text: Typeahead in the Select dashboard field revealing the Incident Overview dashboard.
 

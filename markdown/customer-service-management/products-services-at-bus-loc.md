@@ -1,18 +1,20 @@
 ---
 title: Setting up products and available services at a business location
-description: By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can then address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
+description: By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/products-services-at-bus-loc.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Setting up products and available services at a business location
 
-By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can then address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
+By setting up the relationships between organizations and users in the Customer Service Management \(CSM\) application, your organization can associate the products and services with the service organization \(SO\). The SO staff can address the customer queries about the products and services at a business location and even raise a case on the behalf of their customers.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 <table id="table_wlp_2jn_byb"><thead><tr><th>
 
@@ -36,7 +38,7 @@ Create a service definition record.
 
 </td><td>
 
-Specify how a service organization provides its services by configuring the **Service Organizations offering Service** field in the sn\_case\_type\_selection table.
+Specify how a service organization provides its services by configuring the **Organizations offering Service** field in the sn\_case\_type\_selection table.
 
 </td></tr><tr><td>
 
@@ -52,7 +54,8 @@ Associate one or more products with a service definition.
 
 </td><td>
 
-Establish an association between products and available services to service organizations by defining the service organization criteria.
+Establish an association between products and available services to service organizations. This association can be done by defining the organization criteria.
 
 </td></tr></tbody>
-</table>
+</table>**Note:** The service-related capabilities are available only after activating the Customer Service Case Types \(sn\_csm\_case\_types\) plugin. The plugin is optional and must be enabled if you want to use these capabilities with business locations.
+

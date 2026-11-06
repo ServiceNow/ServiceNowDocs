@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduled jobs, System scheduler, Exploring time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # View a schedule item
@@ -38,5 +38,9 @@ Role required: admin
 
 [Scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/c_ScheduledJobs.md)
 
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
+
 [Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_CreateAScheduledJob.md)
+
+[Enable run types for scheduled job child tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/customize-run-times-for-scheduled-jobs.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Capacity, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Capacity, Managing workforce, Use, Field Service Management]
 ---
 
 # View Capacity Usages information
@@ -84,8 +84,6 @@ Date until which the capacity definition and reservations should applied.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/capacity.md)
-
 **Related topics**  
 
 

@@ -1,5 +1,5 @@
 ---
-title: Minimize reset password request success window duration \[Updated in Securty Center 1.3\]
+title: Minimize reset password request success window duration
 description: The password\_reset.request.success\_window property controls the number of minutes a user must wait to reset or change their password again after successfully resetting the password. The user will be blocked to reset the password again for the specified duration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-success-window.html
@@ -7,31 +7,111 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Minimize reset password request success window duration \[Updated in Securty Center 1.3\]
+# Minimize reset password request success window duration
 
 The **password\_reset.request.success\_window** property controls the number of minutes a user must wait to reset or change their password again after successfully resetting the password. The user will be blocked to reset the password again for the specified duration.
 
+If the **password\_reset.request.success\_window** system property isn't set to the recommended value of `1440` or less, then the opportunity of someone else abusing the password reset functionality to gain unauthorized access to a user account is increased.
+
+Ensure the property **password\_reset.request.success\_window** is set to `1440` or less.
+
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**password\_reset.request.success\_window**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)|
-|Purpose|It denotes the time period in minutes that a user must wait after successfully resetting the password to reset the password again.|
-|Recommended value|1440|
-|Default value|1440|
-|Configuration type|Positive integer values|
-|Security risk|\(High\) If the property is not set to the recommended value of 1440 or less,then it increases the opportunity of someone else abusing the password reset functionality to gain unauthorized access to a user account.|
-|Security risk rating|4.9|
-|References|[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_SetPwdResetProps.md)|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
 
-**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**password\_reset.request.success\_window**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Integer
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+An integer less than or equal to 1440
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+1440
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+1440
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score:
+-   CVSS rating:
+-   Security risk details:
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

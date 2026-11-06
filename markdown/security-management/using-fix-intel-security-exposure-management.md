@@ -1,19 +1,19 @@
 ---
 title: Using Fix Intelligence for Security Exposure Management
-description: Once Fix Intelligence for SEM is installed and configured, use Fix records to review the remediation actions available in your instance. Prioritize work by the risk each fix removes, and move between a fix and the findings and assets it resolves.
+description: Review the remediation actions available in your instance. Prioritize work by the risk each fix removes, and move between a fix and the findings and assets it resolves.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/using-fix-intel-security-exposure-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [use]
 breadcrumb: [Fix Intelligence for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
 
 # Using Fix Intelligence for Security Exposure Management
 
-Once Fix Intelligence for SEM is installed and configured, use Fix records to review the remediation actions available in your instance. Prioritize work by the risk each fix removes, and move between a fix and the findings and assets it resolves.
+Review the remediation actions available in your instance. Prioritize work by the risk each fix removes, and move between a fix and the findings and assets it resolves.
 
 ## Overview of using Fix records
 
@@ -31,17 +31,13 @@ After Fix Intelligence for SEM is installed and configured, use the following ca
 
     Group the findings that share a fix into a single remediation task.
 
--   [Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/fix-links-on-findings.md)
+-   
 
     See which fix resolves a finding directly from the finding or vulnerable item.
 
 
--   **[Understanding Fix records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/understanding-fix-records.md)**  
-A Fix record represents a single remediation action that resolves one or more findings. Understanding its key fields helps you interpret what a fix does and how much risk it removes.
 -   **[View fixes in USEM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-fixes-in-workspace.md)**  
-Open the Fix list and form in Unified Security Exposure Management Workspace to review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves.
+Review the fixes that Fix Intelligence for SEM has identified, and see the findings and assets each one resolves. A Fix record represents a single remediation action that resolves one or more findings.
 -   **[Group findings by fix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/group-findings-by-fix.md)**  
 Use a remediation task rule to group the findings that share a fix, so your team can remediate them together as a single unit of work.
--   **[Fix links on findings and vulnerabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/fix-links-on-findings.md)**  
-Fix Intelligence for SEM adds a read-only Fix reference to vulnerable items and vulnerabilities, so you can see which fix resolves a given finding directly from the finding.
 

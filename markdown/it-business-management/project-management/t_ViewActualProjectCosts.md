@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a project cost plan, Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a project cost plan, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # View actual project costs
@@ -32,8 +32,13 @@ Actual costs for projects also roll up to portfolios in the same way.
 
 2.  Open the project for which you want to view the actual costs.
 
-3.  Click the **Cost Plans** related list.
+3.  Select the **Cost Plans** related list.
 
 
 **Parent Topic:**[Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProjectCostPlan.md)
+
+**Related topics**  
+
+
+[Actual project costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/actual-project-costs.md)
 

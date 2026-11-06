@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring ATO artifacts report templates using the Document Designer with Word add-in, CAM reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Configuring ATO artifacts report templates, Reference, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Create content configurations for CAM
@@ -54,5 +54,5 @@ Role required: sn\_grc\_doc\_design.admin and sn\_irm\_cont\_auth.admin
 9.  Select **Update**.
 
 
-**Parent Topic:**[Configuring ATO artifacts report templates using the Document Designer with Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
+**Parent Topic:**[Configuring ATO artifacts report templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-configure-word-based-template.md)
 

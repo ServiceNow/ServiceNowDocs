@@ -1,24 +1,25 @@
 ---
-title: Uninstall the Agent Client Collector from macOS machine manually
-description: Uninstall the Agent Client Collector from macOS machine manually instead of using the single-line procedure when the specific agent is not connected to the instance.
+title: Uninstall the Agent Client Collector from a macOS machine manually
+description: Uninstall the Agent Client Collector from a macOS machine manually instead of using the single-line procedure when the specific agent is not connected to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-uninstall-mac-manual.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector installation on macOS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a macOS system, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Uninstall the Agent Client Collector from macOS machine manually
+# Uninstall the Agent Client Collector from a macOS machine manually
 
-Uninstall the Agent Client Collector from macOS machine manually instead of using the single-line procedure when the specific agent is not connected to the instance.
+Uninstall the Agent Client Collector from a macOS machine manually instead of using the single-line procedure when the specific agent is not connected to the instance.
 
 ## Before you begin
 
-Role required: agent\_client\_collector\_admin
+-   The upgrade procedure is the same for both MID Server and MID-less deployments.
+-   Role required: agent\_client\_collector\_admin
 
 ## Procedure
 
@@ -49,5 +50,5 @@ Role required: agent\_client\_collector\_admin
     ```
 
 
-**Parent Topic:**[Agent Client Collector installation on macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
+**Parent Topic:**[Agent Client Collector installation on a macOS system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-install-mac-os.md)
 

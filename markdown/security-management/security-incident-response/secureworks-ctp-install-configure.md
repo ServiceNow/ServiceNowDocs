@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up your ServiceNow AI Platform instance for the Secureworks CTP ticket ingestion integration, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Setup instance, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Install and configure the ServiceNow application for the Secureworks CTP ticket ingestion integration
@@ -26,23 +26,21 @@ Role required: sn\_si.admin
 
 2.  After you have successfully installed the application, navigate to **Integrations** &gt; **Integrations Configurations** and locate the Secureworks CTP Ticket Ingestion Integration tile.
 
-    \[Omitted image "secureworks-config.gif"\] Alt text: Secureworks CTP: Configure
+3.  To configure the application, select **New**.
 
-3.  To configure the application, click **New**.
-
-4.  Alternatively, if a **Configure** button is displayed on a tile, click it to edit an existing configuration.
+4.  Alternatively, if a **Configure** button is displayed on a tile, select it to edit an existing configuration.
 
 5.  In the dialog that is displayed, fill in the fields.
 
-<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d281688e142">
+<table id="choicetable_rrp_bwk_kdb"><thead><tr><th align="left" id="d290294e144">
 
 Field
 
-</th><th align="left" id="d281688e145">
+</th><th align="left" id="d290294e147">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d281688e151">
+</th></tr></thead><tbody><tr><td id="d290294e153">
 
 **Name**
 
@@ -50,7 +48,7 @@ Description
 
 Name of the Secureworks CTP instance used for the integration. You can enter only alphanumeric values and hyphens \(-\) in this field.
 
-</td></tr><tr><td id="d281688e166">
+</td></tr><tr><td id="d290294e168">
 
 **Description**
 
@@ -58,7 +56,7 @@ Name of the Secureworks CTP instance used for the integration. You can enter onl
 
 Enter a description for the user account.
 
-</td></tr><tr><td id="d281688e175">
+</td></tr><tr><td id="d290294e177">
 
 **Username**
 
@@ -70,7 +68,7 @@ Enter the username for the Secureworks CTP API account. Note that the username i
 -   Navigate to **Account** &gt; **Account Management** &gt; **API Credentials**. The username is displayed on the API Credential page.
 
 
-</td></tr><tr><td id="d281688e213">
+</td></tr><tr><td id="d290294e215">
 
 **API Password**
 
@@ -83,12 +81,12 @@ Enter the Secureworks CTP API Password. To find the API Password, follow these s
 For more information on how to obtain the username and API password, follow the steps in the Generating a Persistent API Key section of the Secureworks Ticketing API Guide.
 
 </td></tr></tbody>
-</table>6.  Click **Submit**.
+</table>6.  Select **Submit**.
 
     After it is successfully validated and submitted, each configuration is saved on the Security Integrations page as a tile.
 
 
 ## Result
 
-If your saved configuration tiles are not displayed on the Security Integrations page. On the top right corner of the page, from the **Show Configurations** choice list, click **Yes**.
+If your saved configuration tiles are not displayed on the Security Integrations page. On the top right corner of the page, from the **Show Configurations** list, select **Yes**.
 

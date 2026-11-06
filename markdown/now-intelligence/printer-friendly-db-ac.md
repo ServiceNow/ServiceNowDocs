@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/printer-friendly-db-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-01"
-reading_time_minutes: 1
-breadcrumb: [Create, share, edit, and more, Dashboards, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Print a Platform Analytics dashboard
@@ -37,12 +37,14 @@ Role required: Any
 4.  Use your browser functionality to export or print the printer-friendly dashboard copy.
 
 
-**Parent Topic:**[Creating dashboards and other common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

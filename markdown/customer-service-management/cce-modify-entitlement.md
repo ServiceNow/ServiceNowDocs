@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-modify-entitlement.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contracts and Entitlements, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
 # Modify an entitlement
@@ -23,7 +23,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 
@@ -33,7 +33,7 @@ Role required:
 
 5.  Select **Modify**.
 
-    **Note:** You can only modify entitlements associated with an account. You cannot modify entitlements associated to service contract lines.
+    **Note:** You can only modify entitlements associated with an account. You cannot modify entitlements associated to customer contract lines.
 
 6.  On the Configurator UI, modify the existing configurations for the selected entitlement.
 

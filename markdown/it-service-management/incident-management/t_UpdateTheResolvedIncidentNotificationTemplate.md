@@ -1,20 +1,20 @@
 ---
 title: Update the resolved incident notification template
-description: Modify the content of the email template that is sent to the user when you resolve an incident.
+description: Modify the email template for the notification that the caller receives when an incident is resolved.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/t\_UpdateTheResolvedIncidentNotificationTemplate.html
 release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Incident Management, IT Service Management]
+breadcrumb: [Managing incidents, Incident Management, IT Service Management]
 ---
 
 # Update the resolved incident notification template
 
-Modify the content of the email template that is sent to the user when you resolve an incident.
+Modify the email template for the notification that the caller receives when an incident is resolved.
 
 ## Before you begin
 
@@ -26,8 +26,8 @@ Role required: admin
 
 2.  Open the **incident.ess.resolve** template.
 
-3.  Manually update the template content.
+3.  Update the template content.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 

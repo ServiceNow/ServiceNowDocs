@@ -1,29 +1,20 @@
 ---
 title: Edit member or equipment details
-description: Edit the details of an individual planned crew member or equipment, as well as an entire crew on the Now Mobile Agent application. Mark members, equipment, and crews as active or inactive, or add details for task crew members.Edit the details of an individual planned crew member or an entire planned crew. Mark members and crews as active or inactive.Adjust the actual work start, actual work end, or resource requirement of a task assignee in a task crew.
+description: Edit the details of an individual planned crew member or equipment, as well as an entire crew on the ServiceNow Agent application. Mark members, equipment, and crews as active or inactive, or add details for task crew members.Edit the details of an individual planned crew member or an entire planned crew. Mark members and crews as active or inactive.Adjust the actual work start, actual work end, or resource requirement of a task assignee in a task crew.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/edit-member-eq-details.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Crew on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Edit member or equipment details
 
-Edit the details of an individual planned crew member or equipment, as well as an entire crew on the Now Mobile Agent application. Mark members, equipment, and crews as active or inactive, or add details for task crew members.
-
-**Parent Topic:**[Crew on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-crew-mobile-agent-app.md)
-
-**Related topics**  
-
-
-[Add members or equipment to your crew]()
-
-[Remove or release members and equipment from your crew]()
+Edit the details of an individual planned crew member or equipment, as well as an entire crew on the ServiceNow Agent application. Mark members, equipment, and crews as active or inactive, or add details for task crew members.
 
 ## Edit planned crew details
 

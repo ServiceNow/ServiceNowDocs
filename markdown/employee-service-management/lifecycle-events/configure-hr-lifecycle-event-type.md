@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure a lifecycle event
@@ -99,7 +99,7 @@ Onboarding
 
 </td><td>
 
-Lifecycle event to use with mobile onboarding.**Note:** You must also make sure that the **Display activity sets to subject person** option on the lifecycle event form and the **Show case to subject person** option on the corresponding HR service form are selected. See [Select a Lifecycle Event for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/select-lifecycle-event-for-mobile-onboarding.md) for more information.
+Lifecycle event to use with mobile onboarding.**Note:** You must also make sure that the **Display activity sets to subject person** option on the lifecycle event form and the **Show case to subject person** option on the corresponding HR service form are selected. See [Select a Lifecycle Event for Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/select-lifecycle-event-for-mobile-onboarding.md) for more information.
 
 </td></tr><tr><td>
 
@@ -132,8 +132,6 @@ HR Services
 
     -   [Configure a lifecycle event activity set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity-set.md)
     -   [Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)
-    \[Omitted image "lifecycle-event-builder-ui.gif"\] Alt text: Click the Activity Sets tab to configure the activity sets and activities for the lifecycle event.
-
 5.  Click **Submit** or **Update**.
 
 
@@ -143,8 +141,8 @@ Create or modify a lifecycle event activity set to define a container for a grou
 There is a mechanism available to ensure timers within a workflow trigger automatically rather than wait for the evaluation interval to trigger.
 -   **[Configure a lifecycle event activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-lifecycle-event-activity.md)**  
 Create or modify a lifecycle event activity. Lifecycle Events activities can be approvals, employee tasks, fulfiller activities, notifications, flows, content, or activity containers.
--   **[Configure the rescind process for a Lifecycle Events activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md)**  
-Cancel and revert work done in a Lifecycle Events case with the rescind process. Rescind activities can be defined to notify employees and departments when a case is rescinded, trigger automated flows, and revert work already completed, such as the provisioning of equipment or the setting up of a workplace.
+-   **[Configure the rescind process for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md)**  
+Cancel and revert work done in a lifecycle event case with the rescind process. Rescind activities can be defined to notify employees and departments when a case is rescinded, trigger automated flows, and revert work already completed, such as the provisioning of equipment or the setting up of a workplace.
 
 **Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Initiate an ad hoc approval for a contract document revision, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Initiate ad hoc approval, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject a contract document
@@ -26,15 +26,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the approval record from the email notification, Self-Service, or Employee Center portal.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d193396e54">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d209306e54">
 
 Options
 
-</th><th align="left" id="d193396e57">
+</th><th align="left" id="d209306e57">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d193396e63">
+</th></tr></thead><tbody><tr><td id="d209306e63">
 
 **From the email notification**
 
@@ -42,7 +42,7 @@ Steps
 
 Click the link in the email to open the record that needs approval.
 
-</td></tr><tr><td id="d193396e72">
+</td></tr><tr><td id="d209306e72">
 
 **From Self-Service**
 
@@ -52,7 +52,7 @@ Click the link in the email to open the record that needs approval.
 2.  In the My Approvals list, click a record to open for approval.
 
 
-</td></tr><tr><td id="d193396e102">
+</td></tr><tr><td id="d209306e102">
 
 **From Employee Center**
 

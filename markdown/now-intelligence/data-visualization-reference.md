@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-visualization-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -22,7 +22,7 @@ Indicator data sources are created and managed through the architecture of the P
 There are several roles associated with the Visualization Designer and Visualization Library. Roles limit what users can do with visualizations.
 -   **[Data Visualization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-visualization-properties.md)**  
 Several properties that limit what can be displayed in data visualizations.
--   **[Platform Analytics data visualization tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/par-dv-tables.md)**  
+-   **[Data visualization tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/par-dv-tables.md)**  
 The following tables relate to Platform Analytics data visualizations and can be accessed through scripts.
 
 **Parent Topic:**[Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md)
@@ -30,7 +30,7 @@ The following tables relate to Platform Analytics data visualizations and can be
 **Related topics**  
 
 
-[Exploring the data visualization library]()
+[Exploring the Data Visualizations library]()
 
 [Creating data visualizations]()
 

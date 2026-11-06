@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/copy\_opportunity\_line\_items\_to\_a\_location.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Location-based transactions for Opportunity Management, Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Location-based transactions, Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Copy opportunity line items to a location
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List**\[Omitted image "Lists.png"\] Alt text: list icon view and select **Opportunity-All**.
+1.  Navigate to the **List**\[Omitted image "list-outline-24.svg"\] Alt text: view and select **Opportunity-All**.
 
 2.  From the **Opportunity List** view, select the opportunity you want to work with and select the **Line Items** tab.
 
@@ -30,15 +30,15 @@ Role required: sales\_agent
 
 5.  In the **Copy line items** dialog box, choose one of the options.
 
-<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d48388e89">
+<table id="choicetable_cdb_2hf_zcc"><thead><tr><th align="left" id="d150453e99">
 
 Option
 
-</th><th align="left" id="d48388e92">
+</th><th align="left" id="d150453e102">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48388e98">
+</th></tr></thead><tbody><tr><td id="d150453e108">
 
 **Keep original location**
 
@@ -46,7 +46,7 @@ Description
 
 New line items for the selected opportunity are created and the source location is retained.
 
-</td></tr><tr><td id="d48388e107">
+</td></tr><tr><td id="d150453e117">
 
 **Choose new location**
 
@@ -61,4 +61,11 @@ This copies the line items to a new location.In the **Service location** filter,
 
 6.  Select **Copy**.
 
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

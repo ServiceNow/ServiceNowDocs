@@ -7,9 +7,9 @@ release: yokohama
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Data in Table Builder
@@ -40,7 +40,7 @@ Modify table properties and table structure in **Fields** view, where you can pe
 -   Delete a table column. See [Delete a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).
 -   Edit table properties. See [Edit table properties in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/edit-table-props-fb.md).
 -   Change a column label. See [Change a column label in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).
--   Change a column name. See [Changing a table column name in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).
+-   Change a column name. See [Change a table column name in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).
 -   Change a column type. See [Change a column type in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).
 -   Add a default value to a table. See [Add a default value to a table column in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).
 -   Select a column as table display name. See [Select a column as the table display value in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/modify-table-properties.md).

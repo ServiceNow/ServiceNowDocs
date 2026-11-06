@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Bundling work order tasks
@@ -108,6 +108,6 @@ Like work order tasks, work order task bundles can be optimized by route, schedu
 
 -   **Territory Planning**
 
-    Task bundling considers the agent's start and end locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Activate Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/Activate-fsm-territory-planning.md).
+    Task bundling considers the agent's start and end locations from the **Resource Schedule Attributes** table for the given day.
 
 

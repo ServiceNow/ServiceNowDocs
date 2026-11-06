@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify assignment rule for contract requests
@@ -106,6 +106,8 @@ User group to which the contract request is assigned.
 [Manage clauses, tables, and contract templates]()
 
 [Manage contract records]()
+
+[Manage AI skills]()
 
 [Platform Analytics Solutions for Contract Management Pro]()
 

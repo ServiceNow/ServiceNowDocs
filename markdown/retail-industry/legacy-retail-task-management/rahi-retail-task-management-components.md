@@ -7,9 +7,9 @@ release: yokohama
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Retail Task Management reference, Retail Task Management, Retail]
+breadcrumb: [Reference, Retail Task Management, Retail]
 ---
 
 # Components installed with Retail Task Management
@@ -50,4 +50,6 @@ Provides the framework for multi-store case creation.
 </table>**Note:**
 
 If Retail Core is already installed, then only the **com.sn\_multi\_case\_creation** plugin installs with Retail Task Management Core.
+
+**Parent Topic:**[Retail Task Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/legacy-retail-task-management/rahi-retail-task-management-reference.md)
 

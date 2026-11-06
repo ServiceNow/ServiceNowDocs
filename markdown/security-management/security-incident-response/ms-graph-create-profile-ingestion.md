@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mapping of alert fields for Microsoft Graph Security API alert ingestion integration, Create a profile for the Microsoft Graph Security API alert ingestion integration, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Map alert fields, Create a profile, Microsoft Graph Security API alert ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Ingest sample Microsoft Graph Security API alerts
@@ -24,17 +24,15 @@ Role required: sn\_si.admin
 
 1.  You can either pull the 5 most recent sample alerts or provide the unique alert IDs for the specific alerts that you want to use for your mapping experience.
 
-    From the **Ingestion Preference** choice list, select one of the following:
+    From the **Ingestion Preference** list, select one of the following:
 
     -   Retrieve most recent alerts: The 5 most recent alerts are retrieved.
     -   Select alerts based on alerts ID: Specify the alert ID for the alerts to be retrieved. You can specify a maximum of 5 alert ids separated by commas.
-2.  Click **Fetch Sample Data** to pull the latest sample alert data from the Microsoft Azure tenant.
+2.  Select **Fetch Sample Data** to pull the latest sample alert data from the Microsoft Azure tenant.
 
     The pull for sample alerts may take a few moments.
 
     The sample alert field values are populated on the left side of the form when sample alerts are ingested by the profile. These are the alerts that you map to the SIR security incident fields. The alert fields and values results are displayed as individual tabs.
-
-    \[Omitted image "ms-graph-create-profile-2.png"\] Alt text: Microsoft Graph Security API: ingest alerts
 
 
 ## What to do next

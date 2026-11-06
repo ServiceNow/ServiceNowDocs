@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [CMDB Identification and Reconciliation reference, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components installed with Identification and Reconciliation
@@ -199,6 +199,16 @@ Reclassification Restrictions\[cmdb\_ire\_reclassification\_restriction\]
 </td><td>
 
 Reclassification restriction rules. These rules prevent switch and downgrade reclassification updates for specific source and target classes. For more information, see [Configure CI reclassification during IRE processing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CIReclassification.md).
+
+</td></tr><tr><td>
+
+CMDB Deduplication Task Lookup or Related item allowed classes \[cmdb\_duplicate\_lookup\_related\_allowed\_class\]
+
+</td><td>
+
+Configuration table \(typically included in a CI Class Models app\) with entries for related and lookup tables for which you want IRE to generate de-duplication tasks during identification. You can then process those de-duplication tasks to remediate the duplication.
+
+ For more information about using this table, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
 
 </td></tr></tbody>
 </table>## User roles installed

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Center for Microsoft Viva Connections, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Employee Center for Microsoft Viva Connections, Employee Center for Microsoft Viva Connections, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Update the Microsoft Teams application ID
@@ -35,7 +35,7 @@ Role required:
 
     3.  Select the ServiceNow for Microsoft 365 app.
 
-    4.  Copy the App ID.\[Omitted image "app-id.png"\] Alt text: App ID of the ServiceNow for Teams app
+    4.  Copy the App ID.
 
 2.  Update the App ID.
 

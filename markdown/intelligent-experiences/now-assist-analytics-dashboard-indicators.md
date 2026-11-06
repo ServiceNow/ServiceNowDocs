@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics-dashboard-indicators.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 keywords: [Now Assist Analytics, indicators, Platform Analytics Administration, GenAI, Generative AI]
-breadcrumb: [AI Analytics reference, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [AI Analytics reference, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Analytics dashboard indicator details
@@ -27,15 +27,15 @@ These indicators collect data at a daily frequency. Data is only available for d
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Total Now Assist actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of all actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
-|Daily Now Assist actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
-|Average daily unique users engaging with Now Assist|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Average of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
-|Daily unique users engaging with Now Assist|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
+|Total AI actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of all actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
+|Daily AI actions|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily actions|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
+|Average daily unique users engaging with AI skills|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Average of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
+|Daily unique users engaging with AI skills|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily unique users|By Gen AI Feature, By Skills Config, By Skill Family, By Generative AI Skill Execution Modality|Daily|\#|0|
 |Skill group distribution|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of daily skill executions grouped By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
 |Daily usage comparison by workflow|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by workflows|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
 |Skill engagement trend|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by skill|By Gen AI Feature, By Generative AI Skill Execution Modality, By Skill Family, By Skills Config, By Skills Config, By Workflow|Daily|\#|0|
 |Departments with highest usage|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by user department and sorted by descending order|By Department, By Skills Config|Daily|\#|0|
-|Now Assist actions comparison by user department|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by user department|By Department, By Skills Config|Daily|\#|0|
+|AI actions comparison by user department|Automated|Generative AI Usage Log\[sys\_gen\_ai\_usage\_log\]|Count of actions grouped by user department|By Department, By Skills Config|Daily|\#|0|
 |Feedback details|Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of actions grouped by Skill Family|By Skill Family, By Skills Config|Daily|\#|0|
 |Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of actions with feedback grouped by Skill Family|By Feedback, By Skill Family, By Skills Config|Daily|\#|0|
 |Formula|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|\(Count of actions with feedback/Total count of actions\) x 100 grouped by Skill Family|By Skill Family, By Skills Config|Daily|%|2|
@@ -44,17 +44,6 @@ These indicators collect data at a daily frequency. Data is only available for d
 |Error details|Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of actions grouped by Skill Family|By Skill Family, By Skills Config|Daily|\#|0|
 |Automated|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|Count of actions with error status grouped by Skill Family|By Gen AI Log Metadata Status , By Skill Family, By Skills Config|Daily|\#|0|
 |Formula|Gen AI Log Metadata\[sys\_gen\_ai\_log\_metadata\]|\(Count of actions with error status/Total count of generative AI metadata records\) x 100 grouped by Skill Family|By Skill Family, By Skills Config|Daily|%|2|
-
-## Self-Service performance indicator details
-
-|Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
-|-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Total number of queries|Automated|Now Assist Analytics Deflection Event\[sn\_na\_def\_event\]|Count of queries|By Deflection Source, By Deflection Event Outcome, By Deflection Event Outcome Type, By Query Resolution Status, By Deflection Log Source|Daily|\#|0|
-|Total number of query responses|Automated|Now Assist Analytics Deflection Event Activity\[sn\_na\_def\_event\_activity\]|Count of responses|By Deflection Event Activity Feedback, By Deflection Event Activity Type, By Deflection Event Activity Direction, By Deflection Source, By Deflection Log Source|Daily|\#|0|
-|Query resolution status|Automated|Now Assist Analytics Deflection Event\[sn\_na\_def\_event\]|Count of queries where Query Resolution Status is Resolved|By Deflection Source, By Deflection Event Outcome, By Deflection Event Outcome Type, By Query Resolution Status, By Deflection Log Source|Daily|\#|0|
-|Resolution rate|Formula| |\(Count of deflection events where Query Resolution Status is Resolved/Count of deflection events\)x100| |Daily|%|0|
-|User-initiated events|Automated|Now Assist Analytics Deflection Event\[sn\_na\_def\_event\]|Count of queries grouped by Deflection Source|By Deflection Source, By Deflection Event Outcome, By Deflection Event Outcome Type, By Query Resolution Status, By Deflection Log Source|Daily|\#|0|
-|Successful conversations by capability|Automated|Now Assist Analytics Deflection Event\[sn\_na\_def\_event\]|Count of queries where Query Resolution Status is Resolved grouped by Deflection Source|By Deflection Source, By Deflection Event Outcome, By Deflection Event Outcome Type, By Query Resolution Status, By Deflection Log Source|Daily|\#|0|
 
 ## Skill performance indicator details
 
@@ -109,46 +98,25 @@ These indicators collect data at a daily frequency. Data is only available for d
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Total search queries|Automated|Value\[sys\_variable\_value\]|Count of search queries|Not applicable|Daily|\#|0|
-|Queries with genius results|Automated|Value\[sys\_variable\_value\]|Count of genius results displayed|Not applicable|Daily|\#|0|
-|Queries with KB articles as genius results|Automated|Value\[sys\_variable\_value\]|Count of queries where search term Id is KB|Search Term|Daily|\#|0|
-|Queries with catalog items as genius results|Automated|Value\[sys\_variable\_value\]|Count of queries where search term Id is Catalog|Search Term|Daily|\#|0|
-|Queries without genius results|Automated|Value\[sys\_variable\_value\]|Count of queries where search term Id is No Result|Search Term|Daily|\#|0|
-|Search queries per source/channel|Automated|Value\[sys\_variable\_value\]|Count of queries grouped by source|By Deflection Source|Daily|\#|0|
-|Top 5 queries|Automated|Value\[sys\_variable\_value\]|Count of queries|Search Term|Daily|\#|0|
-|Top 5 queries without results|Automated|Value\[sys\_variable\_value\]|Count of queries where Search Term Id is No Result|Search Term|Daily|\#|0|
-|Top 5 queries resulting in knowledge articles as genius results|Automated|Value\[sys\_variable\_value\]|Count of queries where Search Term Id is KB|Search Term|Daily|\#|0|
-|Top 5 queries resulting in catalog items as genius results|Automated|Value\[sys\_variable\_value\]|Count of queries where Search Term Id is Catalog|Search Term|Daily|\#|0|
+|Queries with Genius Results|Automated|Search Event\[sys\_search\_event\]|Count of search queries where Genius Result Displayed = true|AIS Search Application|Daily|\#|0|
+|Genius Result engagement|Automated|Genius Result Event Action\[sys\_search\_genius\_result\_event\_action\]|Count of genius results where Card Type = Now Assist Multi-Content Response and Action Type = Show Full Answer or Action Type = Ask a Follow Up or Action Type = uxf\_client\_action|AIS Search Application|Daily|\#|0|
+|Genius Result response time|Automated|Search Signal Event\[sys\_search\_signal\_event\]|Average \(Genius Result Response Time in Seconds\)|AIS Search Application|Daily|Seconds|0|
+|Genius Result to chat handoff|Automated|Genius Result Event Action\[sys\_search\_genius\_result\_event\_action\]|Count of queries where Card Type = Now Assist Multi-Content Response and Action Type = Ask a Follow Up|AIS Search Application|Daily|\#|0|
+|Genius Results citation engagement|Automated|Genius Result Event Action\[sys\_search\_genius\_result\_event\_action\]|Count of queries where Card Type = Now Assist Multi-Content Response and Action Type = uxf\_client\_action|AIS Search Application|Daily|\#|0|
+|Feedback \(Thumbs up\)|Automated|Genius Result Event Action\[sys\_search\_genius\_result\_event\_action\]|Count of queries where Card Type = Now Assist Multi-Content Response and Action Type = Feedback and Action Value = Helpful|AIS Search Application|Daily|\#|0|
+|Feedback \(Thumbs down\)|Automated|Genius Result Event Action\[sys\_search\_genius\_result\_event\_action\]|Count of queries where Card Type = Now Assist Multi-Content Response and Action Type = Feedback and Action Value = Not Helpful|AIS Search Application|Daily|\#|0|
+|Genius Results with KB|Automated|Search Signal Genius Result Triggered Event\[sys\_search\_signal\_genius\_result\_triggered\_event\]|Count of queries where Source Table = kb\_knowledge|AIS Search Application|Daily|\#|0|
+|Genius Results with Catalog Item|Automated|Search Signal Genius Result Triggered Event\[sys\_search\_signal\_genius\_result\_triggered\_event\]|Count of queries where Source Table = sc\_cat\_item|AIS Search Application|Daily|\#|0|
+|Top 10 queries with KB Genius Result|Automated|Search Signal Genius Result Triggered Event \[sys\_search\_signal\_genius\_result\_triggered\_event\]|Top 10 queries with count of genius results where Source Table = kb\_knowledge|Not Applicable|Daily|Not Applicable|Not Applicable|
+|Top 10 queries with Catalog Item Genius Result|Automated|Search Signal Genius Result Triggered Event \[sys\_search\_signal\_genius\_result\_triggered\_event\]|Top 10 queries with count of genius results where Source Table = sc\_cat\_item|Not Applicable|Daily|Not Applicable|Not Applicable|
 
-## Now Assist context menu analytics indicator details
+## ServiceNow Otto context menu analytics indicator details
 
 |Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
 |-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Usage in this period|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where Source is Now Assist context menu|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-|Acceptance distribution|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where content generated by Now Assist context menu grouped by Accepted or Not Accepted|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-|Usage trend by skill|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of context menu actions grouped by Now Assist skills|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Usage in this period|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where Source is ServiceNow Otto context menu|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Acceptance distribution|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where content generated by ServiceNow Otto context menu grouped by Accepted or Not Accepted|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
+|Usage trend by skill|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of context menu actions grouped by AI skills|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
 |Capability distribution|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of context menu actions grouped by capability|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-|Responses by feedback|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where feedback for the content generated by Now Assist context menu grouped by Accepted or Rejected.|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
-
-## Now Assist value insights writing time saved indicator details
-
-|Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
-|-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Total generated content|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Sum of skill executions that contributed to write time savings|By Skill Family, By Skills Config|Daily|\#|0|
-|Average unique records to generate content per day|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Sum of unique records with content generated per day/Number of days|By Skill Family, By Skills Config|Daily|\#|0|
-|Total writing time saved|Formula|Generative AI Log\[sys\_generative\_ai\_log\]|Total write time saved in minutes converted to hours|By Skill Family, By Skills Config|Daily|Hours|2|
-|Average writing time saved per day|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Total write time saved per day/Number of days|By Skill Family, By Skills Config|Daily|Minutes|2|
-|Average writing time saved trend per record|Formula|Generative AI Log\[sys\_generative\_ai\_log\]|Total write time saved per day/Total number of unique records with content generated per day|By Skill Family, By Skills Config|Daily|Minutes|2|
-|Average writing time saved trend per user|Formula|Generative AI Log\[sys\_generative\_ai\_log\]|Total write time saved per day/Total number of unique users who executed the skills that contributed to write time savings per day|By Skill Family, By Skills Config|Daily|Minutes|2|
-
-## Now Assist value insights reading time saved indicator details
-
-|Visualization|Indicator type|Indicator source table|Calculation|Available breakdowns|Frequency|Unit|Precision|
-|-------------|--------------|----------------------|-----------|--------------------|---------|----|---------|
-|Total generated summaries|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Sum of skill executions that contributed to read time savings|By Skill Family, By Skills Config|Daily|\#|0|
-|Average unique records summarized per day|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Sum of unique records summarized per day/Number of days|By Skill Family, By Skills Config|Daily|\#|0|
-|Total reading time saved|Formula|Generative AI Log\[sys\_generative\_ai\_log\]|Total read time saved in minutes converted to hours|By Skill Family, By Skills Config|Daily|Hours|2|
-|Average reading time saved per day|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Total read time saved per day/Number of days|By Skill Family, By Skills Config|Daily|Minutes|2|
-|Average reading time saved trend per record|Formula|Generative AI Log\[sys\_generative\_ai\_log\]|Total read time saved per day/Total number of unique records summarized per day|By Skill Family, By Skills Config|Daily|Minutes|2|
-|Average reading time saved trend per user|Formula|Generative AI Log\[sys\_generative\_ai\_log\]|Total read time saved per day/Total number of unique users who executed the skills that contributed to read time savings per day|By Skill Family, By Skills Config|Daily|Minutes|2|
+|Responses by feedback|Automated|Generative AI Log\[sys\_generative\_ai\_log\]|Count of actions where feedback for the content generated by ServiceNow Otto context menu grouped by Accepted or Rejected.|By NAcm implicit feedback, By Skills Config, By Feedback, By Status, By Skill Capability|Daily|\#|0|
 

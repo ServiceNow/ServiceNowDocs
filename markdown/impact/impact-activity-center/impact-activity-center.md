@@ -7,9 +7,9 @@ release: yokohama
 product: Impact Activity Center
 classification: impact-activity-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Activity Center
@@ -17,8 +17,6 @@ breadcrumb: [Impact Delivery Instance \(formerly Impact Digital Experience\), Im
 The Activity Center provides a comprehensive view of all the activities supporting your day to day journey with Impact.
 
 Review outstanding notifications for your key Impact activities and deliverables that need your attention, such as tasks, recommendations, and communications. You can go directly to the record and take action. Sort by upcoming activities or view a report, such as a capability map or HealthScan report. Access your Value Journey snapshot, view your overview of Impact feature usage, and your learning credit balance.
-
-\[Omitted image "key-activities.png"\] Alt text: Shows the Key Activities homescreen.
 
 |Section|Use|
 |-------|---|
@@ -30,4 +28,11 @@ Review outstanding notifications for your key Impact activities and deliverables
 |Files|Access Impact related documents in one place. View, edit, and upload files for you and your team.|
 
 **Note:** Activities available may differ between Impact subscription levels.
+
+-   **[Activity Center Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/conversations.md)**  
+Scan all conversations you are included in. Start a conversation any time to ask a question or get advice from your Impact squad.
+-   **[Activity Center All Recommendations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-activity-center/recommendations-value-journey.md)**  
+View AI driven and expert suggested recommendations for training, content, and experts-on-demand offerings.
+
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/idi-reference.md)
 

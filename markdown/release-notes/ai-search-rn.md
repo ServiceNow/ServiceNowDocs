@@ -1,13 +1,14 @@
 ---
 title: AI Search release notes
-description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Yokohama release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Yokohama release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Yokohama release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Yokohama release.The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. AI Search was enhanced and updated in the Yokohama release.
+description: The ServiceNow AI Search application provides a consumer-grade search experience for ServiceNow AI Platform users. See the following sections for release notes by version.The Brazil Patch 2 release adds the ability to exclude high-churn fields from indexing.The Brazil Early Availability 2 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs, expands hybrid search to support all indexed sources configured for semantic vector indexing, and updates the list of LLMs supported by the Now LLM Service.the option to open Summary Genius Results citations in new browser tabsthe ability to use separate search application configurations for portal search and ServiceNow Otto for Virtual Agent enhanced chat
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/ai-search-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2026-09-03"
-reading_time_minutes: 6
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-10-19"
+reading_time_minutes: 2
+keywords: [AI Search, AI Search]
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # AI Search release notes
@@ -44,102 +45,43 @@ See [AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yoko
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)
 
-## January 2026
+## Brazil Patch 2
 
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Yokohama release.
+The Brazil Patch 2 release adds the ability to exclude high-churn fields from indexing.
 
 ### What's new
 
--   **[Improve search precision and contextual relevance with hybrid search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/hybrid-search-ais.md)**
+-   **Exclude high-churn fields from indexing**
 
-    Beginning with Now Assist in AI Search 15.0, customers with Now Assist in AI Search installed can enable the new hybrid search mode. Hybrid search combines keyword-based search with semantic understanding to deliver more accurate and relevant search results, with fewer zero-result searches.
+    Reduce the frequency and duration of indexing operations and improve search performance by excluding frequently updated fields from the index. Excluding these high-churn fields avoids needless reindexing and reduces the size of your index, making search more efficient.
+
+
+## Brazil Early Availability 2
+
+The Brazil Early Availability 2 release adds the option to display search suggestions and search result titles as links that you can open in new browser tabs, expands hybrid search to support all indexed sources configured for semantic vector indexing, and updates the list of LLMs supported by the Now LLM Service.
+
+### What's new
+
+-   **Display search suggestion links as standard HTML anchors**
+
+    Preserve your search state in portal search and global/workspace search by configuring display of search suggestion links as standard HTML anchors. With this setting configured, you can open search suggestions in new browser tabs using your browser's native right-click or long-press functionality.
+
+-   **Display search result title links as standard HTML anchors**
+
+    Preserve your search state in portal search and global/workspace search by configuring display of search result title links as standard HTML anchors. With this setting configured, you can open search results in new browser tabs using your browser's native right-click or long-press functionality.
 
 
 ### What's changed
 
--   **[Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md)**
+-   **[Expanded support for hybrid search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/hybrid-search-ais.md)**
 
-    If you have Now Assist in AI Search installed, Now Assist Multi-Content Response Genius Results are supported in global and workspace search. Activating Now Assist Multi-Content Response Genius Results in global or workspace search profiles overrides all other Genius Result configurations, so that global and workspace searches only display Genius Result answers from Now Assist Multi-Content Response Genius Results. Virtual Agent topic citations from Now Assist Multi-Content Response Genius Result answers in global or workspace search open the selected topic in the Now Assist panel so the user can continue their conversation on that topic.
+    Hybrid search now supports all indexed sources that have semantic vector indexing configured.
 
--   **[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-suggestions-overview.md)**
-
-    Search administrators with the ais\_admin granular admin role can access all Search Suggestions tables. Assign search administrators this role to eliminate needless propagation of full admin access.
-
--   **[Gain insights into search behavior with a refreshed and updated Search Preview UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-preview-ui-new.md)**
-
-    Preview search query results using settings from a search application configuration or a search profile. Choose between keyword and hybrid search modes. Display search results as individual EVAM cards or as a JSON-format search query response object, with search and syntax highlighting. Review search query behavior and results and specify search query settings with the new Summary, Genius Results, Details, and Profile admin tools.
-
-
-## August 2025
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Yokohama release.
-
-### What's changed
-
--   **[Consumer-grade search experience for search portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/viewing-search-results-ais.md)**
-
-    The search results page for search portals has been revised to offer a more intuitive and consistent experience. Navigation tabs have been replaced with source facet buckets. All search results now open in a new browser tab, preserving your search in the existing browser tab. Facet buckets now show minimum search result counts, reflecting results removed by late binding content security. Search terms are no longer highlighted in search results.
-
--   **[Consumer-grade search experience for global search and workspace search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-ais-next-experience-app.md)**
-
-    The search results page for global search and workspace search has been revised to offer a more intuitive and consistent experience. Navigation tabs have been replaced with source facet buckets. All search results now open in a new browser tab, preserving your search in the existing browser tab. Facet buckets now show minimum search result counts, reflecting results removed by late binding content security. A new **glide.ui.ais.show\_all\_facets** system property enables you to display facets from all sources when no source is selected. \(The default behavior is to hide facets until a source is selected.\) Search terms are no longer highlighted in search results.
-
--   **[Sort facet buckets alphabetically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-facet-ais.md)**
-
-    Override the default sorting of facet buckets by their search result counts and display them sorted alphabetically by their labels.
-
--   **[Improved display for grouped attachment search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/grouping-attachment-srch-results-ais.md)**
-
-    When grouped with their parent search results, attachment search results now appear in collapsed form to save space. If a parent search result includes more than three grouped attachments, you can use the new **Show more** and **Show less** links to control how many attachments are visible.
-
-
-## May 2025
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Improve semantic search with third-party embedding models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ais-rag.md)**
-
-    Use custom and third-party embedding models supported by the AI Search RAG application to generate more accurate and relevant semantic search results.
-
-
-## Yokohama General Availability
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Limit the number of Task and Alert records indexed with indexed source guardrails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/indexed-source-guardrails-ais.md)**
-
-    Index guardrail settings restrict index size and increase search performance by limiting the number of Task and Alert table records indexed for search.
-
--   **[Exclude search sources in a search profile from search result or Genius Result generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/genius-results-ais.md)**
-
-    Tune your search results by configuring search source exclusion settings in your search profiles. You can exclude a search source from being used to generate regular search results, Genius Result answers, or both. When excluding a search source's records from Genius Result answer generation, you can also choose to exclude its attachments.
-
--   **[Knowledge block content indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/exclude-know-blocks-ais-index.md)**
-
-    When you index knowledge articles for search, AI Search now includes content from knowledge blocks to improve search recall. Administrators can disable indexing of knowledge block content if desired.
-
--   **[Boost relevancy for search results that match synonyms from a synonym dictionary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/boost-results-ais.md)**
-
-    Define synonyms in a synonym dictionary and configure a result improvement rule to apply relevancy boosts \(positive or negative\) to search results that match any of those synonyms.
-
--   **[Customize semantic indexing settings for indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/semantic-index-cfg-ais.md)**
-
-    Customize semantic indexing settings for your indexed sources.
-
--   **[Fuzzy numeric search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/fuzzy-numeric-search.md)**
-
-    Find records by their Number using numeric search terms like `23583`, with no need to match alphabetical prefixes or leading zeroes.
-
-
-## Yokohama
-
-The ServiceNow® AI Search application provides a consumer-grade search experience for ServiceNow AI Platform® users. AI Search was enhanced and updated in the Yokohama release.
 
 ### What's deprecated or removed
 
-Starting with the Now Assist in AI Search 8.0 release, the External Content Q&amp;A Genius Results feature is being prepared for future deprecation. It will continue to be supported until it is deprecated. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Now LLM Service**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 

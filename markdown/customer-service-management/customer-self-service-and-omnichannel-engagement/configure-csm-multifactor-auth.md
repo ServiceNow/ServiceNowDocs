@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Multi-factor authentication for Customer and Consumer Service Portals
@@ -79,4 +79,11 @@ Add the following external roles to the multi-factor roles:
 -   sn\_customerservice.consumer
 
 Users with these roles are required to use multi-factor authentication. For more information, see [Configure user-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_RequireMultifactorAuthForAUser.md).
+
+**Related topics**  
+
+
+[Multi-factor authentication for Business and Consumer Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal-multifactor-auth.md)
+
+[Customer Service Portal user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_CustomerServicePortalUserRoles.md)
 

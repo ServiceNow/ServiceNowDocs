@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable automatic action plan creation, Creating and managing audience-specific Journey Accelerator templates, Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Enable automatic action plan creation, Creating and managing audience-specific Journey Accelerator templates, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Activate the Create a new action plan for your employee activity

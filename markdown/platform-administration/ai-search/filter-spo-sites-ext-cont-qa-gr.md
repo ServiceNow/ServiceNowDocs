@@ -7,10 +7,10 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, AI Agents, generative AI, agentic AI]
-breadcrumb: [External Content Q&amp;A Genius Results, Configuring Now Assist in AI Search, Now Assist in AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [External Content Q&amp;A Genius Results, Configuring ServiceNow Otto for AI Search, ServiceNow Otto for AI Search, ServiceNow Store applications and integrations, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Restrict the Microsoft SharePoint Online sites that External Content Q&amp;A Genius Results can search
@@ -19,7 +19,7 @@ Define a Microsoft Keyword Query Language \(KQL\) query to restrict the set of M
 
 ## Before you begin
 
-The Now Assist in AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/install-now-assist-ais.md).
+The ServiceNow Otto for AI Search ServiceNow® Store application must be installed on your instance. For details on installing this application, see [Install ServiceNow Otto for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/install-now-assist-ais.md).
 
 Role required: admin
 
@@ -35,7 +35,7 @@ To learn more about KQL property restriction queries and the operators they supp
 
     1.  Select **All**.
 
-    2.  In the **Filter** field, enter `sys_properties.list`.
+    2.  In the navigation field, enter `sys_properties.list`.
 
     3.  Press Enter.
 

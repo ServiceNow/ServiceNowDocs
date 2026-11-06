@@ -7,19 +7,19 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2026-02-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Service Mapping, Kubernetes, hybrid environments, container discovery, application dependencies, topology-mapping, cloud native]
-breadcrumb: [Choose the right method for discovery and mapping application services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Service Mapping for containerized environments using KVA
 
 Kubernetes Visibility Agent \(KVA\) and Service Mapping discover and visualize application dependencies across Kubernetes clusters and related resources, providing complete visibility into containerized environments.
 
-Service Mapping for containerized environments provides automated discovery and visualization of application dependencies across your entire technology stack. Whether your applications run entirely within Kubernetes clusters or span multiple environments including cloud databases, API gateways, and traditional servers, Service Mapping creates comprehensive topology maps that show how services connect and depend on each other.
+Service Mapping for containerized environments provides automated discovery and visualization of application dependencies across your entire technology stack. Service Mapping creates comprehensive topology maps that show how services connect and depend on each other. This applies whether your applications run entirely within Kubernetes clusters or span multiple environments including cloud databases, API gateways, and traditional servers.
 
-Service Mapping and KVA combined capabilities transform complex architectures into clear, actionable service maps that help teams troubleshoot faster, assess change impact more accurately, and optimize application performance across environments.
+Service Mapping and KVA combined capabilities transform complex architectures into clear, actionable service maps. Teams can troubleshoot faster, assess change impact more accurately, and optimize application performance across environments.
 
 ## Key capabilities
 
@@ -70,7 +70,7 @@ To begin discovering and mapping Kubernetes services, install Kubernetes Visibil
 -   [Configuring Kubernetes Visibility Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cnov-configuring.md)
 -   [Configuring Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/service-mapping-setup.md)
 
-[Create hybrid application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-hybrid-application-service-maps.md)
+[Create hybrid service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-hybrid-application-service-maps.md)
 
 Enter an application entry point into Service Mapping. KVA automatically identifies whether this entry point connects to Kubernetes resources and initiates comprehensive topology discovery.
 

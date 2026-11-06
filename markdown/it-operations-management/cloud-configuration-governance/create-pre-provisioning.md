@@ -1,20 +1,20 @@
 ---
 title: Create pre-provisioning operations
-description: Pre-provisioning operations streamline catalog item deployment by automating tasks like notifications, workflows, or scripts before provisioning. Configuring these operations eliminates manual steps, saving time and effort as the system automatically executes specified actions when a provisioning request is submitted, such as notifying users about the impending item provisioning process.
+description: Pre-provisioning operations streamline catalog item deployment by automating tasks like notifications, workflows, or scripts before provisioning. Configuring these operations eliminates manual steps and saves time. The system automatically executes specified actions when a provisioning request is submitted, such as notifying users about the impending item provisioning process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-pre-provisioning.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create pre-provisioning operations
 
-Pre-provisioning operations streamline catalog item deployment by automating tasks like notifications, workflows, or scripts before provisioning. Configuring these operations eliminates manual steps, saving time and effort as the system automatically executes specified actions when a provisioning request is submitted, such as notifying users about the impending item provisioning process.
+Pre-provisioning operations streamline catalog item deployment by automating tasks like notifications, workflows, or scripts before provisioning. Configuring these operations eliminates manual steps and saves time. The system automatically executes specified actions when a provisioning request is submitted, such as notifying users about the impending item provisioning process.
 
 ## Before you begin
 
@@ -55,10 +55,6 @@ Script: Enter the name of the script.
 -   Resource:
     -   Resource Interface
     -   Interface Operation
--   Workflow:
-
-Flow: Select a workflow. All workflows created in the instance are listed.
-
 -   Flow: Select a subflow. All active s in the instance are listed.
 
 **Note:** For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md).

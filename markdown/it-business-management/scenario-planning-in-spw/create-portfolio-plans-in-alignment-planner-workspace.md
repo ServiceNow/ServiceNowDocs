@@ -1,5 +1,5 @@
 ---
-title: Create a portfolio plan in Strategic Planning
+title: Create a portfolio plan
 description: Use lens and build a personalized portfolio plan in Strategic Planning Workspace so that you can start to prioritize and align work.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [alignment planner workspace, strategic planner, portfolio planning workspace, strategic planning workspace, portfolio planner]
-breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a portfolio plan in Strategic Planning
+# Create a portfolio plan
 
 Use lens and build a personalized portfolio plan in Strategic Planning Workspace so that you can start to prioritize and align work.
 
@@ -89,7 +89,7 @@ Planning items that meet the following criteria appear in the portfolio plan:
 
 ## What to do next
 
--   Define goals for your portfolio plan and align your work to them. See [Managing goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+-   Define goals for your portfolio plan and align your work to them. See [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
 -   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
 -   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md).
 

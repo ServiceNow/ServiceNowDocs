@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Non-disclosure agreement requests in Legal Simple Contracts
@@ -65,5 +65,5 @@ You can require either an electronic or a wet \(manual\) signature for a legal r
 -   **[Add a manually signed contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/upload-contract-document-for-wet-signature.md)**  
 As a legal requester, on receiving the signed contract document from the signatories, add the digital version to the legal request record.
 
-**Parent Topic:**[Legal Simple Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/legal-simple-contracts-landing-page.md)
+**Parent Topic:**[Submitting Legal Simple Contracts requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-contracts/sub-lg-sim-conts-reqs.md)
 

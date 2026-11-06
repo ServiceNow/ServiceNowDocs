@@ -1,20 +1,20 @@
 ---
 title: DLP Incident Response Administration
-description: You can set up and assign rules, configure due date rules, use email templates, configure end-user response actions, and much more to manage the Data Loss Prevention Incident Response \(DLP IR\) incidents on the ServiceNow AI Platform.
+description: Create rules, email templates, configure end-user response actions, and more to manage the Data Loss Prevention Incident Response \(DLP IR\) incidents on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/data-loss-prevention/data-loss-prevention-administration.html
 release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # DLP Incident Response Administration
 
-You can set up and assign rules, configure due date rules, use email templates, configure end-user response actions, and much more to manage the Data Loss Prevention Incident Response \(DLP IR\) incidents on the ServiceNow AI Platform.
+Create rules, email templates, configure end-user response actions, and more to manage the Data Loss Prevention Incident Response \(DLP IR\) incidents on the ServiceNow AI Platform.
 
 The Data Loss Prevention Incident Response application enables you to perform the following configurations.
 
@@ -29,7 +29,7 @@ Create incident consolidation rule to consolidate multiple incidents of similar 
 -   **[Create response due date rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/setup-response-due-date-rules.md)**  
 Set up the response due date rules to determine the time you want to give your end users to respond to the assigned Data Loss Prevention Incident Response \(DLP IR\) incidents.
 -   **[Create Approval Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-approval-rules.md)**  
-Configure approval rules that require one or more approvers to authorize an advanced response option before it is applied to a DLP incident.
+Create approval rules to take approval from various levels of approver users whenever an advanced type of response option is selected.
 -   **[Create user instructions templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.md)**  
 Create and manage user instructions template for DLP incidents to help the users understand the instructions involved incident resolution and the next steps involved in the resolution process.
 -   **[Create email templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-and-manage-email-templates.md)**  
@@ -50,8 +50,8 @@ Configure the age chart that appears in the Data Loss Prevention Incident Respon
 Prevent certain executives in the organization from receiving notifications about the incidents assigned or escalated to them.
 -   **[Create repeat offender identification rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/repeat-offender-identification-rules.md)**  
 Create repeat offender identification rules to identify users who repeat the same issue multiple times.
--   **[Create additional incident data fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-custom-fields-dlp.md)**  
-Create Additional Incident Data Fields for the DLP incidents. You can create different types of fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
+-   **[Create Additional Incident Data Fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-custom-fields-dlp.md)**  
+Create your Additional Incident Data Fields for the DLP incidents. You can create different types of Additional Incident Data Fields such as string, number, check box, choice, date and time, and use them in the DLP incident forms.
 -   **[DLP SLA Definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/dlp-sla-def-properties.md)**  
 Field descriptions for the DLP SLA Definition form used to create an SLA record.
 -   **[Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-advanced-settings-dlp.md)**  

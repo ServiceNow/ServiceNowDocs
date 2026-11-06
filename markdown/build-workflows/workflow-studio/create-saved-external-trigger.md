@@ -1,24 +1,31 @@
 ---
 title: Create a saved external trigger
-description: Save a set of trigger definitions as a reusable trigger that responds to an external event through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
+description: Save a set of trigger definitions as a reusable trigger that responds to external events through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-saved-external-trigger.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Create a saved trigger, Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a saved external trigger
 
-Save a set of trigger definitions as a reusable trigger that responds to an external event through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
+Save a set of trigger definitions as a reusable trigger that responds to external events through webhooks. When an event occurs in the configured third-party application that meets the specified conditions, the trigger is activated.
 
 ## About this task
 
-Create a saved trigger that responds to events occurring in a supported third-party spoke that is already configured in Workflow Studio. The third-party spoke sends the event payload to Workflow Studio whenever an event occurs. In the trigger definition, specify the event payload in JSON format and the conditions to start the trigger. Obtain the event payload JSON from the third-party spoke that you configure.
+Create a saved trigger that responds to events occurring in a supported third-party spoke that is already configured in Workflow Studio. When an event occurs, the third-party spoke sends the event payload to Workflow Studio.
+
+In the trigger definition, you specify:
+
+-   The event payload structure in JSON format
+-   The conditions that determine when the trigger starts
+
+Obtain the event payload JSON from the third-party spoke that you configure.
 
 ## Before you begin
 
@@ -35,15 +42,16 @@ Plugins required: Install the following Integration Hub plugins:
 
 **Note:** For information about what is included with different Integration Hub subscriptions, see [Legal schedules - Integration Hub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf)
 
-Ensure that you've configured the external trigger endpoints for the third-party application spoke. The supported spokes are:
+Create the required event sources in the Event source builder, or use the existing event sources from these spokes.
 
 -   Jira Spoke
 -   GitHub Spoke
 -   Docusign eSignature Spoke
+-   Microsoft Azure DevOps Boards Spoke
 
-For more information about configuring the third-party spoke, see [Set up external trigger endpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-external-webhook-endpoints.md).
+For more information about creating an event source, see [Create an external event source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/manage-external-event-sources.md).
 
-**Important:** Keep the event payload JSON of the third-party application handy. Refer to the third-party webhook documentation to learn about from where you can copy the payload JSON. For example, see the following link that shows different payload shapes for Jira events: [Executing a webhook](https://developer.atlassian.com/server/jira/platform/webhooks/#executing-a-webhook).
+**Important:** Keep the event payload JSON of the third-party application handy. Refer to the third-party webhook documentation to identify where you can copy the event payload JSON. For example, see the following link for Jira event payloads: [Executing a webhook](https://developer.atlassian.com/server/jira/platform/webhooks/#executing-a-webhook).
 
 ## Procedure
 
@@ -59,6 +67,8 @@ For more information about configuring the third-party spoke, see [Set up extern
     |Trigger type|The type of the trigger to start your flow. Under External, select **Event \(Webhook\)**.|
     |Description|Description of the trigger.|
     |Application|Application scope to create the trigger. Workflow Studio displays the configured spokes that are supported.|
+    |Event source|The third party system that will send the events to ServiceNow.|
+    |Domain|Domain scope of the flow. For more information about domain separation, see [Domain separation explained](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/bp-what-is-domain-separation.md).|
 
 4.  Select **Show additional properties** and fill in the fields.
 
@@ -70,7 +80,7 @@ For more information about configuring the third-party spoke, see [Set up extern
 
 5.  Select **Build trigger**.
 
-    Workflow Studio displays the Trigger definition page. In the Event source preview area, you can view information about how the external trigger endpoint is configured.
+    Workflow Studio displays the Trigger definition page. In the Event source preview area, you can view information about how the external trigger endpoint is configured. Configurations you make to the trigger are auto-saved.
 
 6.  Under **Parser**, fill in the fields.
 
@@ -90,14 +100,21 @@ For more information about configuring the third-party spoke, see [Set up extern
 
 9.  In **Condition editor**, drag and drop the data pills to create a condition set.
 
-    Use \[or\] or \[and\] operators to add more conditions to the condition set. \[Omitted image "condition-editor.jpg"\] Alt text: Example data pill value in a condition.
+    Use **and** or **or** operator to add more conditions to the condition set.
 
-10. Select **+New condition set** to add additional condition sets as per your requirement.
+10. Select **+New condition set** to add additional condition sets, as required.
 
-11. Select **Publish** to make the trigger available for others to use.
+11. Select **Publish** to make the trigger available for use.
 
-    **Note:** You can’t edit a saved external trigger after you publish.
+    **Note:** Once the trigger is published, you can edit only the output **Label** fields.
 
 
-**Parent Topic:**[Create a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md)
+## Result
+
+The trigger is created and published. You can use the trigger in any of your flows. For information about adding a trigger to a flow, see [Use a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/use-saved-trigger.md)
+
+-   **[Managing external event sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/manage-external-event-sources.md)**  
+Create and manage external event sources for a spoke or a scoped application that listen to events occurring in an application outside ServiceNow. Then, you can create external trigger definitions and associate them with the external event sources. When the event that you specify in the external trigger definition occurs, it starts one or more flows on your ServiceNow instance.
+
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-triggers.md)
 

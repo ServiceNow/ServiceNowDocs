@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring mentoring, Mentoring, Talent Development, Employee Service Management]
+breadcrumb: [Configure, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a Mentoring relationship
@@ -32,6 +32,4 @@ Role required: sn\_ecn.mentoring\_admin
 
 4.  Select **Save**.
 
-
-**Parent Topic:**[Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/configuring-mentoring-egd.md)
 

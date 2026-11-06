@@ -1,67 +1,63 @@
 ---
-title: Activate Now Assist panel standard chat
-description: Activate the Now Assist panel standard chat to enable your agents to use Now Assist skills, such as task summarization or navigation, in a side panel on the user interface.
+title: Activate the ServiceNow Otto panel standard chat
+description: Activate the ServiceNow Otto panel standard chat to enable your agents to use AI skills, such as task summarization or navigation, in a side panel on the user interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/activate-now-assist-panel.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Activate, Now Assist, panel, skills, admin, experiences]
-breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+keywords: [Activate, Now Assist, ServiceNow, Otto, panel, skills, admin, experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Activate Now Assist panel standard chat
+# Activate the ServiceNow Otto panel standard chat
 
-Activate the Now Assist panel standard chat to enable your agents to use Now Assist skills, such as task summarization or navigation, in a side panel on the user interface.
+Activate the ServiceNow Otto panel standard chat to enable your agents to use AI skills, such as task summarization or navigation, in a side panel on the user interface.
 
 ## Before you begin
 
-You must install at least one Now Assist application before you can turn on the Now Assist panel.
+You must install at least one AI application before you can turn on the ServiceNow Otto panel.
 
-Role required: sn\_nowassist\_admin.nsa\_admin
+Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-You must have the now\_assist\_panel\_user role to have access to the Now Assist panel once you turn it on.
+You must have the now\_assist\_panel\_user role to have access to the ServiceNow Otto panel once you turn it on.
 
-To learn more about the Now Assist panel, and how it can assist your agents, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md).
+To learn more about the ServiceNow Otto panel, and how it can assist your agents, see [ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-overview.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Experiences**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
-    If you’re already in AI Admin Hub, select the **Now Assist Experiences** tab.
+    If you’re already in AI Admin Hub, select the **AI Experiences** tab.
 
-2.  Select **Now Assist panel**.
+2.  Select **ServiceNow Otto panel**.
 
-3.  Enable the Now Assist panel on your instance by selecting **Turn On**.
+3.  Select **Turn On**.
 
-    \[Omitted image "config-now-assist-2.png"\] Alt text: Now Assist panel screenshot.
+    **Note:** If **Turn On** is unavailable, verify that at least one ServiceNow Otto application is installed on your instance and that you have the sn\_generative\_ai.nsa\_admin role. If you have the role but **Turn On** remains unavailable, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-install-config-checklist.md).
 
-4.  In the Turn on Now Assist panel dialog box, select **Turn on**.
+    \[Omitted image "config-now-assist-2.png"\] Alt text: On the Settings tab, select ServiceNow Otto panel, and then select Turn on.
 
-    \[Omitted image "config-now-assist-3.png"\] Alt text: Select Turn on in the Turn on Now Assist panel dialog box to confirm your choice.
+4.  In the Turn on ServiceNow Otto Panel dialog box, select **Turn on**.
 
-5.  Select **CI Admin Console** to manage LLM Virtual Agent or create a new one on the Assistants page.
+5.  If you want to use assistants, you must activate them.
 
-6.  Select Now Assist default assistant to turn on the Now Assist panel.
-
-7.  If you want to use assistants, you must activate them.
-
-    See [Activate Now Assist panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
+    See [Activate ServiceNow Otto panel assistants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-panel-activate-assistant.md) for information on activating assistants.
 
 
 ## What to do next
 
-For help with installation, see [Solving installation and configuration issues with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-install-config-checklist.md).
+For help with installation, see [Solving installation and configuration issues with ServiceNow AI features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-install-config-checklist.md).
 
-To see Now Assist panel in action for Now Assist applications, see the following topics:
+For examples of the ServiceNow Otto panel in action for ServiceNow Otto applications, see the following topics:
 
 -   [Summarize a chat conversation by using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm-summarize-chat.md)
 -   [Summarize a Sidebar discussion by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/now-assist-itsm-sidebar-discussion.md)
--   [Summarize an issue using ServiceNow Otto for Integrated Risk Management \(IRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/summarize-an-issue.md)
--   [Generate a knowledge article from HR Agent Workspace with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/gen-kb-now-assisthr.md)
+-   
+-   
 
-**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
 

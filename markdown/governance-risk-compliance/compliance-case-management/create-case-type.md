@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Create a case type
@@ -22,7 +22,7 @@ Role required: sn\_compliance\_case\_admin
 
 ## About this task
 
-You can set up a case type to categorize the compliance cases by the type of occurrence. After you define the case type, the compliance analyst and compliance manager can select the case type on the case form. A case type is mapped with a state model that specifies the workflow states and transition conditions for the compliance case. To define the workflow states and transitions, see [Create a state model to define the workflow states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).
+You can set up a case type to categorize the compliance cases by the type of occurrence. After you define the case type, the compliance analyst and compliance manager can select the case type on the case form. A case type is mapped with a state model that specifies the workflow states and transition conditions for the compliance case. To define the workflow states and transitions, see [Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).
 
 ## Procedure
 
@@ -52,14 +52,14 @@ You can set up a case type to categorize the compliance cases by the type of occ
 
 7.  Select **Submit**.
 
-8.  To create a view rule instead of using the default one, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md).
+8.  To create a view rule instead of using the default one, see [Create view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md).
 
 9.  To create an assignment rule instead of using the default one, see [Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-assignment-rule.md).
 
 
 -   **[Case Type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/case-type-form.md)**  
 Use the Case Type form in the Compliance Case Management application to categorize the compliance cases by their type.
--   **[Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md)**  
+-   **[Create view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md)**  
 Define the view rules for the workspace and default view in the GRC: Compliance Case Management application. By defining the rules, you can control how the compliance case or request form appears.
 -   **[Create an assignment rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-assignment-rule.md)**  
 Create an assignment rule and apply it to a compliance case type or request type by using the Compliance Case Management application. By using an assignment rule, you can determine the appropriate person or group to handle a compliance case.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/explore-ne-theming.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring the Mobile Platform, Mobile Platform]
 ---
@@ -56,11 +56,17 @@ Whether your instance enables Next Experience theming depends on your existing c
 
 -   **New customers**
 
-    For new customers in the Utah and later releases, Next Experience is active by default, with the **Polaris** theme applied. This setting can be changed using a system property. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md)
+    For new customers in the Utah and later releases, Next Experience is active by default.
+
+    -   For versions Utah to Yokohama, Polaris is the applied default theme.
+    -   For versions Zurich and above, Coral is the applied default theme.
+    These setting can be changed using a system property. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md)
 
 -   **Existing customers with no theme customizations**
 
     Existing customers upgrading to Utah and later releases have Next Experience active by default unless they have opted-out of Next Experience in a previous release. If you've opted out, you can enable Next Experience theming manually. For details see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
+
+    **Note:** Existing customers upgrading to Zurich who use Polaris as their default Next Experience theme will retain Polaris as their mobile theme unless a different theme is selected. For configuration instruction to change the theme, see [Configure Next Experience theming for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/config-ne-theming.md).
 
 -   **Existing customers with custom themes**
 

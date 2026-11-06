@@ -7,9 +7,9 @@ release: yokohama
 product: Currency Administration
 classification: currency-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up defaults required for FX Currency use, Configuring currency fields, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defaults required for FX Currency use, Configure, Currency administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add an FX Currency field to a table

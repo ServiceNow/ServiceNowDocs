@@ -1,16 +1,16 @@
 ---
-title: Install and configure Quote Management
+title: Configuring Quote Management
 description: Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-quote-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
-# Install and configure Quote Management
+# Configuring Quote Management
 
 Learn how to set up Quote Management so that your sales agents can create and manage customer quotes.
 
@@ -30,7 +30,7 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Install Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/installing-quote-management.md)
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/installing-quote-management.md)
 
 </td><td>
 
@@ -38,18 +38,6 @@ Install Quote Management from the ServiceNow® Store Store. It provides these ke
 -   Use the product configurator to select simple and configurable product offerings.
 -   Add pricing adjustments to products.
 -   Convert quotes to product orders once customers have approved.
-
-</td><td>
-
-Admin
-
-</td></tr><tr><td>
-
-[Assign user roles in Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-SOM-roles.md)
-
-</td><td>
-
-Set the roles for Quote Management users and your product catalog and pricing administrators.
 
 </td><td>
 
@@ -106,7 +94,7 @@ Admin
 
 </td></tr><tr><td>
 
-[Configuring quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-configure-pdf-documents.md)
+[Configure quote PDF documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-configure-pdf-documents.md)
 
 </td><td>
 
@@ -119,4 +107,27 @@ Set up PDF template, signers, and Docusign.-   [Create PDF templates](https://ra
 sales\_operations\_specialists
 
 </td></tr></tbody>
-</table>
+</table>## What to do next
+
+After completing the configuration tasks, you can start using Quote Management to build and manage customer quotes. See [Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md).
+
+Optionally, configure [Configuring Advanced Approval Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-advanced-approval-management.md) to build automated approval workflows for customer quotes and other Sales Customer Relationship Management entities.
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/installing-quote-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/installing-quote-management.md)**  
+
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-reference.md)
+
+**Related topics**  
+
+
+[ServiceNow Quote Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quoting-experiences-overview.md)
+
+[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
+
+[Approving or rejecting quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/approving-or-rejecting-quotes.md)
+
+[Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-prod-recommendations-quote.md)
+
+[Sync quote and opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/synchronise_quote_and_opportunity.md)
+

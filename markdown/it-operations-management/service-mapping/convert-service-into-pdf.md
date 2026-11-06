@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Application service analysis and maintenance using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -34,9 +34,9 @@ The PDF of an application service map shows the name of the application service 
 
     3.  On the service instance page, select **View Map**.
 
-2.  Click the **Additional actions** menu.
+2.  Select the **Additional actions** menu.
 
-    \[Omitted image "MapAdditionalActionsButton.png"\] Alt text: Click the Additional actions menu on the Map page.
+    \[Omitted image "MapAdditionalActionsButton.png"\] Alt text: Select the Additional actions menu on the Map page.
 
 3.  Click the button next to the **Export to PDF**option.
 

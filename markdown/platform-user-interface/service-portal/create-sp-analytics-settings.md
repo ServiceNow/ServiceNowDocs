@@ -1,20 +1,20 @@
 ---
-title: Track User Experience Analytics in Service Portal
-description: Track User Experience Analytics for Service Portal to monitor key performance indicators with the User Experience Analytics application.
+title: Track Usage Insights in Service Portal
+description: Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/service-portal/create-sp-analytics-settings.html
 release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [User Experience Analytics for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Usage Insights for Service Portal, Analytics and Reporting Solutions for Service Portal, Analyzing portal performance and usage, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
-# Track User Experience Analytics in Service Portal
+# Track Usage Insights in Service Portal
 
-Track User Experience Analytics for Service Portal to monitor key performance indicators with the User Experience Analytics application.
+Track Usage Insights for Service Portal to monitor key performance indicators with the Usage Insights application.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: portal\_analytics\_admin
 
 By default, tracking is not enabled for portals. You need to enable tracking for a specific portal only if you enabled tracking for some portals but not others in a previous version.
 
-Portals that have been configured for tracking are listed in the User Experience Analytics settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see [Configure User Experience Analytics Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-analytics-settings.md).
+Portals that have been configured for tracking are listed in the Usage Insights settings \[sys\_analytics\_bucket\] table. For information about managing existing analytics settings for a portal, see Configure Usage Insights Settings.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Portals that have been configured for tracking are listed in the User Experience
 
     **Note:** If a portal has already been configured for tracking, the button name will be **View Analytics Settings**.
 
-4.  On the User Experience Analytics Settings form, specify which users to track.
+4.  On the Usage Insights Settings form, specify which users to track.
 
     -   To track analytics only for authenticated users, clear the **Enable Unauthenticated User Tracking** check box.
     -   To track analytics for both unauthenticated and authenticated users, select the **Enable Unauthenticated User Tracking** check box.
@@ -47,12 +47,12 @@ Portals that have been configured for tracking are listed in the User Experience
 
 ## Result
 
-You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **User Experience Analytics**. For more information on using the User Experience Analytics application, see [Overview of the User Experience Analytics application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-dashboard.md).
+You can now view user analytics tracking for the selected portal by navigating to **All** &gt; **Platform Analytics** &gt; **Usage Insights**. For more information on using the Usage Insights application, see Overview of the Usage Insights application.
 
-**Parent Topic:**[User Experience Analytics for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
+**Parent Topic:**[Usage Insights for Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-analytics.md)
 
 **Related topics**  
 
 
-[bundle-par.disable-tracking-mobile-app]
+[bundle-par.enable-user-experience-analytics]
 

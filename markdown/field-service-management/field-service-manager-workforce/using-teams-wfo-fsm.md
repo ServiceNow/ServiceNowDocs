@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Teams in Workforce Optimization
@@ -25,8 +25,6 @@ With Teams, you can do the following:
 -   Drill down into a Team level KPI to view the split of KPIs across all individual team members.
 -   View the KPI trend to analyze the future forecasts for each of the KPIs, if the date range has the latest values.
 -   Drill down to the individual agent level to view a 360-degree view of the current work, historical KPIs, presence history, channel capacity utilization, skills, and upcoming agent time-offs.
-
-**Parent Topic:**[Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)
 
 ## Analyze the performance trends for your teams
 

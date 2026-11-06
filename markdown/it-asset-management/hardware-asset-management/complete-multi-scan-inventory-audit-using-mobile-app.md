@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2026-01-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [scan assets, scan multiple assets, multi scan inventory audit]
-breadcrumb: [Audit hardware asset inventory, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit hardware asset inventory, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Complete multi scan inventory audit using the ServiceNow Agent app
@@ -28,7 +28,7 @@ Role required: asset, sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_common.
 
 ## Procedure
 
-1.  From your mobile device, launch the Mobile Agent application.
+1.  From your mobile device, launch the ServiceNow Agent application.
 
 2.  Tap **Asset**.
 

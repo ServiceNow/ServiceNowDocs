@@ -1,5 +1,5 @@
 ---
-title: Configure source type capabilities
+title: Configure source type capabilities in Health Log Analytics
 description: Health Log Analytics extracts source types automatically in the mapping process. You can add timestamp formats and specify, delete, or exclude keywords for individual source types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-source-types.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ServiceNow, Health Log Analytics, HLA, extract, source type, log message, mapping, AI engine]
-breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Configure source type capabilities
+# Configure source type capabilities in Health Log Analytics
 
 Health Log Analytics extracts source types automatically in the mapping process. You can add timestamp formats and specify, delete, or exclude keywords for individual source types.
 
@@ -133,5 +133,5 @@ Boolean value. If selected, Health Log Analytics looks for a case-sensitive matc
 7.  Select **Update**.
 
 
-**Parent Topic:**[Additional data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile experience for GRC Risk Management, Use, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -59,15 +59,15 @@ Edit or reassign a task directly from the list of records. Alternatively, add a 
 
     \[Omitted image "mobile\_risk\_OD\_issue\_record.jpg"\] Alt text: Overdue issue record details.
 
-<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d70470e251">
+<table id="choicetable_adf_df2_yhb"><thead><tr><th align="left" id="d255467e248">
 
 Option
 
-</th><th align="left" id="d70470e254">
+</th><th align="left" id="d255467e251">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d70470e260">
+</th></tr></thead><tbody><tr><td id="d255467e257">
 
 **Details tab**
 
@@ -81,7 +81,7 @@ Tap the **Control Objective/Risk Statement** field to expand it. A list of recor
 -   At the top right of the screen with the Issue record displayed, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d70470e301">
+</td></tr><tr><td id="d255467e298">
 
 **Activity Stream tab**
 
@@ -91,7 +91,7 @@ With the Activity Stream tab selected, choose one to continue.-   View work note
 -   At the top right of the screen, tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to edit and reassign the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d70470e331">
+</td></tr><tr><td id="d255467e328">
 
 **Tap the Related List tab.**
 
@@ -103,7 +103,7 @@ With the Related List tab selected, follow these steps.
 2.  After your review, navigate back to the open record on the Issue screen and tap the menu icon \( \[Omitted image "mobile-top-menu.png"\] Alt text: Menu icon.\) to reassign or edit the issue. Follow the steps described in the preceding table.
 
 
-</td></tr><tr><td id="d70470e361">
+</td></tr><tr><td id="d255467e358">
 
 **Tap a screen icon at the bottom of the screen.**
 

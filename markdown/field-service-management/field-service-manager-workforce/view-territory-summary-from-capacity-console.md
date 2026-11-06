@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Capacity Console, Capacity, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
 
 # View data in capacity console
@@ -42,6 +42,8 @@ When you open the Capacity Console, the calendar appears to present the capacity
 
 5.  Use the unit filter to choose between **Hours** for hour-based capacity assignments \(for example, agent schedules and hour-type definitions\) or **Tasks** for task-based capacity assignments, focusing on task distribution.
 
+    **Note:** When unit is set to **Hours**, you can view Hour and Agent schedule capacity definitions based assignments only. Task-based capacity assignments aren't available when **Hours** is selected. When unit is set to **Tasks**, only task-based capacity assignments are displayed.
+
 6.  Use the advanced filter to view data specific to territories and demand channels based on performance.
 
     Choose either of the following.
@@ -65,8 +67,6 @@ When you open the Capacity Console, the calendar appears to present the capacity
 
 The capacity data appears in the calendar based on the applied filters.
 
-**Parent Topic:**[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
-
 **Related topics**  
 
 
@@ -76,5 +76,5 @@ The capacity data appears in the calendar based on the applied filters.
 
 [Update capacity value and reservation for a territory in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.md)
 
-[Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
+[Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md)
 

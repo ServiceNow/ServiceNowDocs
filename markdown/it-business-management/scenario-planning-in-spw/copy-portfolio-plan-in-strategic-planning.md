@@ -1,5 +1,5 @@
 ---
-title: Duplicate a portfolio plan in Strategic Planning
+title: Duplicate a portfolio plan
 description: Create a portfolio plan with the data of an existing portfolio plan. If the portfolio plan you want to create is similar to an existing portfolio plan, duplicating the existing portfolio plan saves your time. You can also duplicate portfolio plans that were shared with you either with view or edit access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/copy-portfolio-plan-in-strategic-planning.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Duplicate a portfolio plan in Strategic Planning
+# Duplicate a portfolio plan
 
 Create a portfolio plan with the data of an existing portfolio plan. If the portfolio plan you want to create is similar to an existing portfolio plan, duplicating the existing portfolio plan saves your time. You can also duplicate portfolio plans that were shared with you either with view or edit access.
 
@@ -51,7 +51,7 @@ The new portfolio plan is created and a link is generated on the screen to acces
 
 ## What to do next
 
--   View or update the goals for your portfolio plan according to the new portfolio plan. See [Managing goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+-   View or update the goals for your portfolio plan according to the new portfolio plan. See [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
 -   Analyze the backlog and prioritize work for your portfolio plan. See [Prioritizing portfolio plan work in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-backlog-alignment-planner-workspace.md).
 -   Show or hide features for your portfolio plan according to your requirement while sharing a portfolio plan with your stakeholders. See, [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md).
 

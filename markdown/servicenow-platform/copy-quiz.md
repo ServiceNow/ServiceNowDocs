@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/copy-quiz.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a quiz, Quiz designer, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,15 +30,15 @@ All associated questions \(type\), configurations, categories, metrics, domain s
 
 3.  Perform any of the following steps.
 
-<table id="choicetable_jtx_2dl_l2b"><thead><tr><th align="left" id="d230519e84">
+<table id="choicetable_jtx_2dl_l2b"><thead><tr><th align="left" id="d234118e84">
 
 Option
 
-</th><th align="left" id="d230519e87">
+</th><th align="left" id="d234118e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d230519e93">
+</th></tr></thead><tbody><tr><td id="d234118e93">
 
 **From Platform**
 
@@ -46,7 +46,7 @@ Description
 
 In the title bar, click **Copy**.
 
-</td></tr><tr><td id="d230519e105">
+</td></tr><tr><td id="d234118e105">
 
 **From Platform**
 
@@ -54,7 +54,7 @@ In the title bar, click **Copy**.
 
 In the title bar, select **Copy** from the context menu.
 
-</td></tr><tr><td id="d230519e117">
+</td></tr><tr><td id="d234118e117">
 
 **From quiz designer**
 

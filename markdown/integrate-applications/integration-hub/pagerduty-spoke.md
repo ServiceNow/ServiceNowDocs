@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-14"
+last_updated: "2026-03-12"
 reading_time_minutes: 7
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # PagerDuty Spoke
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-PagerDuty spoke v1.6.0 is the latest version.
+PagerDuty spoke v1.6.1 is the latest version. For version history of the spoke, see [PagerDuty spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pagerduty.html).
 
 ## Supported versions
 
@@ -182,10 +182,7 @@ Available AI agents include:
 |PagerDuty escalation policy management AI agent|Creates, updates, deletes, and retrieves escalation policies, as well as stream policy data for integration into workflows|
 |PagerDuty tag management AI agent|Creates tags, retrieves details of the required tag, retrieves tag streams, deletes tags, and assigns tags.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

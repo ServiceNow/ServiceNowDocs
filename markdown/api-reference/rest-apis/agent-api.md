@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The AWA \(Advanced Work Assignment\) Agent API provides endpoints to manage agent presence, channel availability, and workload.
 
-This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md).
+This API requires the Advanced Work Assignment \(com.glide.awa\) plugin and the awa\_integration\_user role. For more information, refer to Advanced Work Assignment.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
@@ -190,7 +190,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -307,7 +307,7 @@ List of objects that describe the available channels of communication with the a
 
 presence.channels.available
 
-</td><td id="d3997e337">
+</td><td id="d3474e337">
 
 Flag that indicates whether the channel is available. Possible values:
 
@@ -349,7 +349,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3997e405">
+</td><td id="d3474e405">
 
 Channel sys\_id. Data type: String
 
@@ -385,7 +385,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3997e467">
+</td><td id="d3474e467">
 
 Presence state sys\_id. Data type: String
 
@@ -497,7 +497,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/transfer-chat-queue.md).Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-agent-chat-using.md).Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -546,9 +546,9 @@ Use the [AWA Agent - PUT /now/awa/agents/\{user\_id\}/capacities](https://raw.gi
 
 See also:
 
--   [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channel-capacity.md)
--   [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-service-channel.md)
--   [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-universal-capacity.md)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 
@@ -665,7 +665,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -948,7 +948,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1106,7 +1106,7 @@ Flag that indicates whether to check for inactivity of this presence state.Valid
 
  Default: false
 
- For information on how to modify this setting, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-configure-agent-presence.md).
+ For information on how to modify this setting, see Configure agent presence states.
 
 </td></tr><tr><td>
 
@@ -1399,7 +1399,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 
@@ -1556,7 +1556,7 @@ Service channel type, such as chat. Possible values vary depending on plugins in
 
 presence.channels.sys\_id
 
-</td><td id="d3997e405">
+</td><td id="d3474e405">
 
 Channel sys\_id. Data type: String
 
@@ -1592,7 +1592,7 @@ Data type: Boolean
 
 presence.sys\_id
 
-</td><td id="d3997e467">
+</td><td id="d3474e467">
 
 Presence state sys\_id. Data type: String
 
@@ -1704,7 +1704,7 @@ workItem.isQueueTransferred
 
 </td><td>
 
-**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/transfer-chat-queue.md).Data type: Boolean
+**workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-agent-chat-using.md).Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1758,9 +1758,9 @@ Use the [AWA Agent - GET /now/awa/agents/\{user\_id\}/capacities](https://raw.gi
 
 See also:
 
--   [Service channel capacity and utilization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channel-capacity.md)
--   [Create or configure a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-service-channel.md)
--   [Configure an agent's maximum universal capacity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-universal-capacity.md)
+-   Service channel capacity and utilization
+-   Create or configure a service channel
+-   Configure an agent's maximum universal capacity
 
 ### URL format
 

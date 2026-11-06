@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing record producers for legal services, Configure, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Managing record producers for legal services, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create or modify a record producer for legal services through Catalog Builder
@@ -33,15 +33,15 @@ For more information about catalog item templates and catalog items, see [Catalo
 
 1.  Open Catalog Builder from the application navigator or from an intake form.
 
-<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d564265e82">
+<table id="choicetable_umx_jtg_cvb"><thead><tr><th align="left" id="d611384e97">
 
 Option
 
-</th><th align="left" id="d564265e85">
+</th><th align="left" id="d611384e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d564265e91">
+</th></tr></thead><tbody><tr><td id="d611384e106">
 
 **From an Intake form**
 
@@ -51,7 +51,7 @@ Steps
 2.  Click the **Edit in Catalog Builder** related link.
 
 
-</td></tr><tr><td id="d564265e118">
+</td></tr><tr><td id="d611384e133">
 
 **From the application navigator**
 

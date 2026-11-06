@@ -1,21 +1,21 @@
 ---
-title: Customize Now Assist context menu for skills
-description: If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+title: Customize ServiceNow Otto context menu for skills
+description: Customize the ServiceNow Otto context menu for CSM case fields to configure AI-powered actions like generating resolution notes, shortening, and elaborating on content.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/customize-now-assist-context-menu-for-skills.html
 release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Customize Now Assist context menu for skills
+# Customize ServiceNow Otto context menu for skills
 
-If you have the admin role, you can customize a ServiceNow Otto for Customer Service Management \(CSM\) skill so that agents can use the generative AI skills in CRM Workspace and in Core UI.
+Customize the ServiceNow Otto context menu for CSM case fields to configure AI-powered actions like generating resolution notes, shortening, and elaborating on content.
 
 ## Before you begin
 
@@ -23,15 +23,15 @@ Role required: admin
 
 **Note:**
 
-The Now Assist context menu configuration is accessible through the Now Assist Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config however, in the base system , configuration is already active. By default, it is configured to utilize extended tables for the resolution notes and activity response generation skill that is provided in the base system.
+The context menu configuration is accessible through the AI Experiences in AI Admin Hub console. After activating the relevant skills, users are prompted to visit the Case NACM Config. However, in the base system, configuration is already active. By default, it is configured to use extended tables for the resolution notes and activity response generation skill that is provided in the base system.
 
 Case NACM Config is currently only available for resolution notes and activity response generation skill.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Experiences**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Experiences**.
 
-2.  Select Now Assist context menu.
+2.  Select ServiceNow Otto context menu.
 
 3.  Open the **Configuration** tab to view all the existing configurations.
 
@@ -56,26 +56,32 @@ Case NACM Config is currently only available for resolution notes and activity r
     1.  Configure the **Actions** to **Generate resolution notes**, **Shorten** and **Elaborate**.
     2.  Configure the **Refinement actions** to **Shorten** and **Elaborate**.
     3.  Configure the **Actions for generated content** to **Insert**.
-    In the preview you can see how the Now Assist context menu button will look like after configuration.
+    In the preview you can see how the context menu button will look like after configuration.
 
-    By default, the **Enable support for extended tables** toggle is turned on and this configuration is shipped as active in the base system. This is to support sparkle on extended table on same field. Once the skill is active, this experience is available.
+    By default, the **Enable support for extended tables** toggle is turned on and this configuration is shipped as active in the base system. When the skill is active, this experience is available.
 
 11. Select **Define access** to determine who can access this skill.
 
-    By selecting specific roles, you are controlling who can use it. The roles you choose will also be available in the next step **Select display**.
+    By selecting specific roles, you're controlling who can use it. The roles you choose will also be available in the next step **Select display**.
 
     Default and Custom Roles:
 
-    -   If no changes are made, the default role sn\_esm\_agent automatically appear in **Define Access** and **Select Display**.
+    -   If no changes are made, the default roles sn\_customerservice\_agent and sn\_customerservice.consumer\_agent automatically appear in **Define Access** and **Select Display**.
     -   If custom roles were added before the upgrade, they are updated automatically by a script.
     -   If new roles are created after the upgrade, you can manually add them in both the **Define Access** and **Select Display**.
 
-        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still need to manually select it in **Select Display** to make it active.
+        **Note:** In the **Select Display** step, you can only choose roles that were added in the **Define Access** step. If you add a role in **Define Access**, you still must manually select it in **Select Display** to make it active.
 
 12. **Select Display** to determine where to display the Case NACM Config.
 
     -   Select In-product desktop to show Case NACM Config in all customer products on forms and workspaces.
     -   Select roles for whom NACM config will be displayed.
-13. After selecting **Review and Activate** to examine changes, select **Done** to close the Case NACM Config settings.
+13. In **Review and Activate** select **Activate** to activate the context menu for the skill.
+
+    A record with the specific usage conditions can be selected from the drop down to test the configuration.
+
+    The context menu has been successfully activated.
+
+14. Select **Return to Customer** to complete and save this section.
 
 

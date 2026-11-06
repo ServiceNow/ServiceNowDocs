@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-guidance-configure-preview.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating guidance and field recommendation in Recommended Actions, Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Creating guidance and field recommendation in Recommended Actions, Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Configure a guidance preview experience
@@ -55,12 +55,12 @@ You must configure at least one of these elements to save the guidance preview. 
 
     3.  Use the up and down arrows to arrange the selected fields.
 
-    4.  Click the lock icon again to lock the field.
+    4.  Select the lock icon again to lock the field.
 
 6.  In the **Message** field, create a message for the guidance preview.
 
     You can use the tools available in the rich text editor to create and format the message. This field can include text and HTML content like images, videos, and links.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 

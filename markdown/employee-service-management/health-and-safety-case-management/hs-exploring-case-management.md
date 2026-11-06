@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Health and Safety Case Management, Health and Safety, Employee Service Management]
 ---
@@ -19,6 +19,8 @@ Learn more about Health and Safety Case Management and review the benefits it ca
 ## Health and Safety Case Management overview
 
 With Health and Safety Case Management, employees can ask health and safety questions, line managers can plan employees' returning to work after an injury or illness, and the safety team can work on these health and safety cases to resolve them.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Health and Safety Case Management users
 

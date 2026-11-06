@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # How alerts work with CIs in maintenance
@@ -54,7 +54,7 @@ OR
 
 **Note:**
 
-The [**Maintenance**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMViewAlertmaintenance.md) check box for an alert is selected when the **Install Status** field on the CI record is **In Maintenance**. This **Maintenance** check box indicates that the alert must be hidden from the **Alerts** tab. When the maintenance job updates this field, the **Updated** field \(sys\_updated\_on\) changes for open alerts, but not for closed alerts.
+The [**Maintenance**](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMViewAlertmaintenance.md) check box for an alert is selected when the **Install Status** field on the CI record is **In Maintenance**. This **Maintenance** check box indicates that the alert must be hidden from the **Alerts** tab. When the maintenance job updates this field, the Updated field \(sys\_updated\_on\) changes for open alerts, but not for closed alerts.
 
 </td></tr><tr><td>
 

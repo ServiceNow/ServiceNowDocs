@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/rolesforb2b2c.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Management reference, Customer Service Management]
+breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Roles required for B2B2C data models
 
 With the B2B2C model, organizations across industries can easily configure multi-level customer relationships and support business customers who, in turn, support their end consumers.
 
-Role required: There are various different roles required for Customer Data Models for B2B2C based on the tasks that you perform.
+Customer data models for B2B2C require different roles, depending on the tasks you perform.
 
 <table id="table_nkn_3tg_4qb"><thead><tr><th>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-new-quote.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a quote
@@ -27,59 +27,83 @@ When you start a quote, a dialog box prompts you for quote information. You can 
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: List view icon. view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select **New**.
 
-3.  In the Create new quote window, fill in the fields.
+3.  On the **Create new quote** form, fill in the fields.
 
-<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d56940e105">
+<table id="choicetable_wss_lcm_11c"><thead><tr><th align="left" id="d172939e114">
 
 To
 
-</th><th align="left" id="d56940e108">
+</th><th align="left" id="d172939e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d56940e114">
+</th></tr></thead><tbody><tr><td id="d172939e123">
 
 **Create quote for an account**
 
 </td><td>
 
-Select the **Account** and enter the following:-   Contact: Name of the primary customer contact.
+Select the **Account** and enter the following:-   Expiration date: Date and time that the quote expires.
+-   Contact: Name of the primary customer contact.
+-   Route to market: Identifies the exact sales channel used to execute the deal:
+    -   Direct
+    -   Reseller
+    -   Distributor
+-   Deal type: Indicates the type of deal associated with the quote:
+    -   Direct: The seller engages directly with the customer, with no intermediary partner involved.
+    -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
+-   Channel partner: \(Optional\) The name of the organization selling a product or service.
 -   Short description: Brief description of the quote for this account.
--   Expiration date: Date and time that the quote expires.
 
 
-</td></tr><tr><td id="d56940e137">
+</td></tr><tr><td id="d172939e175">
 
 **Create quote for a consumer**
 
 </td><td>
 
-Select the **Consumer** name and enter the following:-   Short description: Brief description of the quote for this consumer.
+Select the **Consumer** name and enter the following:-   Deal type: Indicates the type of deal associated with the quote:
+    -   Direct: The seller engages directly with the customer, with no intermediary partner involved.
+    -   Indirect: The seller engages the customer through an intermediary, such as a reseller, service provider, or distributor.
+-   Channel partner: \(Optional\) The name of the organization selling a product or service.
 -   Expiration date: Date and time that the quote expires.
+-   Route to market: Identifies the exact sales channel used to execute the deal:
+    -   Direct
+    -   Reseller
+    -   Distributor
+-   Short description: Brief description of the quote for this consumer.
+
+
+</td></tr><tr><td id="d172939e223">
+
+**Create quote for a buyer organization**
+
+</td><td>
+
+Select the **Buyer Organization** and enter the following:-   Buyer organization member: Name of the buyer organization for which the quote is created.
+-   Channel partner: \(Optional\) The name of the organization selling a product or service.
+-   Short description: Brief description of the quote for this organization.
+-   Start Date: Start date of the quote.
+-   End Date: End date of the quote.
 
 
 </td></tr></tbody>
-</table>4.  You can either:
+</table>4.  Select **Save and close**.
 
-    1.  Select **Add Line Items** to save the quote and continue adding products to the quote; or
+    The quote is saved and you return to the **Quotes** list view.
 
-    2.  Select **Save and close** to add products at a later time.
+5.  Select refresh \[Omitted image "icon-refresh.png"\] Alt text: to see the new quote in the list.
 
-        The quote is saved and you return to the **Quotes** list view.
-
-5.  Select refresh \[Omitted image "icon-refresh.png"\] to see the new quote in the list.
+6.  Select **Add Line Items** to save the quote and begin adding quote line items.
 
 
 ## What to do next
 
 [Add and view details of a quote](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-details-tab.md).
 
-The follow scenarios are possible when a user starts a quote:
-
--   The system defaults sales agreement on the quote to the latest active sales agreement available for the customer, if one exists.
--   The sales agreement can be changed or cleared when appropriate.
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

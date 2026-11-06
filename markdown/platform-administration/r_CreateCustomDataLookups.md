@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_CreateCustomDataLookups.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Data lookup and record matching support, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Data lookup and record matching support, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create custom data lookups
@@ -32,6 +32,10 @@ The custom table must extend the Data Lookup Matcher Rules `[dl_matcher]` table.
 
 The columns of a data lookup table contain both matcher and setter field data.
 
+### Before you begin
+
+Role required: admin
+
 ### About this task
 
 Each data lookup is a query that searches for a row containing values that match the matcher fields. The data lookup then returns the value listed in the setter fields. For example, this Priority Data Lookup \[dl\_u\_priority\] table lists the combinations of impact and urgency \(matcher fields\) that produce a particular priority value \(setter field\).
@@ -53,7 +57,7 @@ Each data lookup is a query that searches for a row containing values that match
 
 1.  In the navigation filter, enter the name of the new custom lookup table.
 
-    For example, u\_vip\_caller\_lookup.list.
+    For example, `u_vip_caller_lookup.list`.
 
 2.  Configure the list and create new fields.
 
@@ -67,7 +71,7 @@ Each data lookup is a query that searches for a row containing values that match
 
     For more information, see [Configuring lists on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-administration/c_ListConfiguration.md).
 
-3.  From the table list, click **New** and enter appropriate matcher and setter field values.
+3.  From the table list, select **New** and enter appropriate matcher and setter field values.
 
     For example:
 
@@ -76,8 +80,6 @@ Each data lookup is a query that searches for a row containing values that match
     |Caller|Priority|Assignment Group|
     |Beth Anglin|2|VIP Issues|
     |Fred Luddy|1|VIP Issues|
-
-    \[Omitted image "CustomLookupValues.png"\] Alt text: Custom lookup values
 
     **Note:** Each row in a data lookup table must be unique.
 
@@ -88,7 +90,7 @@ Data lookup requires a definition record that specifies how to set one or more f
 
 ### Before you begin
 
-Role required: Admin
+Role required: admin
 
 ### Procedure
 
@@ -122,7 +124,7 @@ Source Table
 
 </td><td>
 
-Select the table containing the fields you want to automatically update with lookup values. Data Lookup Definitions are not inherited by extension tables. For example, a Data Lookup Definition on the Task table cannot match values on the Incident incident table.
+Select the table containing the fields you want to automatically update with lookup values. Data Lookup Definitions are not inherited by extension tables. For example, a Data Lookup Definition on the Task table cannot match values on the Incident table.
 
 </td></tr><tr><td>
 
@@ -167,7 +169,7 @@ Run on update
 Select this check box to automatically look up values whenever a user saves or updates a record.
 
 </td></tr></tbody>
-</table>5.  Right-click the form header and select **Save**.
+</table>5.  Select and hold \(or right-click\) the form header and select **Save**.
 
 6.  From the **Matcher Field Definitions** related list, click **New**.
 
@@ -213,9 +215,9 @@ Exact lookup match
 
 </td><td>
 
-Select this check box to require the matcher table to contain a matching row for every possible combination of values \(including blank values\). Clearing this check box means that any blank values in the matcher table match any value. For example, suppose the Priority field is blank in the matcher table. When this check box is selected, there is a match only when the Priority value is blank in the source table row. When this check box is cleared, the blank matcher field value matches any value in the source table field.
+Select this check box to require the matcher table to contain a matching row for every possible combination of values \(including empty values\). Clearing this check box means that any empty values in the matcher table match any value. For example, suppose the Priority field is empty in the matcher table. When this check box is selected, there is a match only when the Priority value is empty in the source table row. When this check box is cleared, the empty matcher field value matches any value in the source table field.
 
- **Note:** If the lookup does not require an exact match, matcher table rows containing blank values are treated as wild cards, matching all values.
+ **Note:** If the lookup does not require an exact match, matcher table rows containing empty values are treated as wild cards, matching all values.
 
 </td></tr></tbody>
 </table>8.  Select **Submit**.
@@ -235,20 +237,20 @@ Select this check box to require the matcher table to contain a matching row for
 
 12. Select **Update**.
 
-    For example, the following data lookup definition assigns incidents to the VIP Issues group based on the **Caller** field. In addition, the incidents are set to critical or high priority based on the caller.
-
-    \[Omitted image "DataLookupDefinition.png"\] Alt text: Data lookup definition
-
 
 ## Create a data lookup module
 
 You can create a module for data lookup so it appears in the instance application navigator.
 
+### Before you begin
+
+Role required: admin
+
 ### Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Application Menus**, then select an application to add the module to.
 
-2.  In the Modules related list, click **New**.
+2.  In the Modules related list, select **New**.
 
 3.  Configure a module for the data lookup table you created using the following properties.
 
@@ -257,7 +259,7 @@ You can create a module for data lookup so it appears in the instance applicatio
     |Table|Select the data lookup table you created in Step 2. For example u\_vip\_caller\_lookup.|
     |Link type|List of Records|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ## Troubleshooting data lookup

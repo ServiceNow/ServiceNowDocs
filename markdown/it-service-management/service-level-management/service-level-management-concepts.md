@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exploring Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -46,7 +46,7 @@ Use the SLA Definition record to define a specific set of criteria that would re
 
 When an SLA definition is triggered against a particular task, the task SLA record is generated and contains all the tracking data for the specific SLA on that record. For example, if an SLA definition exists for P1 incidents a task SLA record attaches to the P1 incident record and captures all the data associated with it. Often there are multiple task SLA records against a single task because many definitions apply.
 
-**Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activate.
+**Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activated.
 
 On the Task SLA form, you can also select the target for the SLA: **Response**, **Resolution**, or **None**.
 

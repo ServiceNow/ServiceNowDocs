@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2026-09-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow University Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [ServiceNow University Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the ServiceNow University spoke
@@ -55,12 +55,12 @@ To delete the existing connection and credential record:
 
     -   To configure the default connection and credential alias record that is shipped along with the ServiceNow University spoke, click **View Details**.
 
-        \[Omitted image "image.now-learning-conf-temp"\] Alt text:
+        \[Omitted image "now-learning-conf-temp.png"\] Alt text:
 
     -   To manage more than one ServiceNow University spoke connection records, you should create a new child alias record by clicking **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/support-multiple-connections.md).
     If you are configuring the spoke for the first time, click **Configure**. Otherwise, click **Edit**.
 
-    \[Omitted image "image.now-learning-conf-temp2"\] Alt text:
+    \[Omitted image "now-learning-conf-temp2.png"\] Alt text:
 
 5.  On the form, fill in these fields:
 
@@ -145,7 +145,7 @@ Client Secret
 The Client Secret of the application registered in the third-party OAuth server. Contact [nowlearningapi@servicenow.com](mailto:nowlearningapi_servicenow.com) to get your client secret.
 
 </td></tr></tbody>
-</table>    \[Omitted image "image.now-learning-temp"\] Alt text:
+</table>    \[Omitted image "now-learning-temp.png"\] Alt text:
 
 6.  Click **Save and Get OAuth Token**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Specialized Virtual Agent integrations for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Create and integrate a self-configured bot for a single tenant page
@@ -34,7 +34,7 @@ Creating and integrating a single tenant bot is similar to creating a GCC-H or D
 
     3.  Follow the remaining steps as normal.
 
-2.  Follow the instructions in [Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/link-msteams-bot-snow.md), with the following changes.
+2.  Follow the instructions in [Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/link-msteams-bot-snow.md), with the following changes.
 
     1.  Follow steps 1 through 6 as normal.
 

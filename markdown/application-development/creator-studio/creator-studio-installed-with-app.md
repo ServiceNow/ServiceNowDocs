@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Artifacts that Creator Studio generates when users create an app
@@ -35,7 +35,7 @@ New table that extends from the base Request Task table
 -   Name: \[scope\]\_request \(for example, x\_snc\_marketing\_request\)
 -   Label: \[App name\] + Requests \(for example, Marketing Request\)
 
- **Note:** All of the form questions are stored as catalog variables in the app's Request Task table. However, admins can change the underlying table for an app, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.
+ **Note:** All of the form questions are stored as catalog variables in the app's Request Task table. However, admins can change the associated table for an app, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.
 
 </td></tr><tr><td>
 
@@ -52,7 +52,7 @@ Access Control Lists \(ACLs\)
 
 </td><td>
 
-Provides CRUD access to the new table for the fulfiller and requester roles.
+Provides CRUD \(create, read, update, and delete\) access to the new table for the fulfiller and requester roles.
 
 </td></tr><tr><td>
 

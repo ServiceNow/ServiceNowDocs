@@ -1,33 +1,99 @@
 ---
-title: Now Assist AI agents reference
-description: Find more information about user roles, tables, and the different properties that are installed in Now Assist AI agents.
+title: ServiceNow Otto AI agents reference
+description: Find more information about user roles, tables, and the different properties that are installed in ServiceNow Otto AI agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/na-aia-reference.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-10-27"
-reading_time_minutes: 8
-breadcrumb: [Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Now Assist AI agents reference
+# ServiceNow Otto AI agents reference
 
-Find more information about user roles, tables, and the different properties that are installed in Now Assist AI agents.
+Find more information about user roles, tables, and the different properties that are installed in ServiceNow Otto AI agents.
 
-## Now Assist AI agents roles
+## AI agents roles
 
-The following roles are installed with Now Assist AI agents with a compatible Now Assist application.
+The following roles are installed with ServiceNow Otto AI agents with a compatible ServiceNow Otto application.
 
-|Role|Description|
-|----|-----------|
-|AI Agent admin \[sn\_aia.admin\]|Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.|
-|AI Agent Viewer \[sn\_aia.viewer\]|Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables.|
-|agent\_role\_config\_admin|With this role, user can access and modify Agent role configurations with AI Agent Admin \[sn\_aia\_admin\] being the parent role.|
-|agent\_role\_config\_viewer|Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.|
+<table id="table_pxl_trr_k2c"><thead><tr><th>
 
-**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
+Role
 
-## Now Assist AI agents system properties
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+AI Agent admin \[sn\_aia.admin\]
+
+</td><td>
+
+Administrator of the application. A user with the sn\_aia\_admin role can create, read, update, and delete records.
+
+</td></tr><tr><td>
+
+AI Agent Viewer \[sn\_aia.viewer\]
+
+</td><td>
+
+Read-only access to the application. A user with the sn\_aia\_viewer role has read and report access on all tables. **Note:** The sn\_aia.admin and the sn\_aia.viewer roles should not be given to the same user. If a user has both roles, then AI Agent Studio will only be accessible in read-only mode for that user.
+
+</td></tr><tr><td>
+
+agent\_role\_config\_admin
+
+</td><td>
+
+With this role, user can access and modify Agent role configurations with AI Agent admin \[sn\_aia\_admin\] being the parent role.
+
+</td></tr><tr><td>
+
+agent\_role\_config\_viewer
+
+</td><td>
+
+Can view the Agent role configurations with AI Agent Viewer \[sn\_aia\_viewer\] being the parent role.
+
+</td></tr><tr><td>
+
+itil\_admin or itil
+
+</td><td>
+
+Access to ITSM tables and workflows. Agents working with incident, Request, Change, Problem, CMDB records.
+
+</td></tr><tr><td>
+
+knowledge\_admin
+
+</td><td>
+
+Access to Knowledge Management tables and tools - Knowledge agents; KB article retrieval tools.
+
+</td></tr><tr><td>
+
+Custom role \(e.g., custom\_table.admin\)
+
+</td><td>
+
+Access to custom tables and fields. Agents accessing tables outside ITSM, Knowledge, or other standard modules.
+
+</td></tr><tr><td>
+
+snc\_internal
+
+</td><td>
+
+Overly permissive system role, use only if agent requires true system-level privileges \(rare\).**Note:** Don't use as fallback.
+
+</td></tr></tbody>
+</table>**Note:** The roles can be assigned manually through the user record directly. For the assigned roles to take effect, logout and login back to the application.
+
+## AI agents system properties
 
 The following are system properties that define default values and behavior.
 
@@ -40,6 +106,20 @@ Property
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+glide.ai\_record\_activity.validation.feature.enabled
+
+</td><td>
+
+Enables UI validation for agentic AI and skills at the instance level. If this feature is enabled, then any UI validation, such as required fields, must be met before the AI process is completed. The following properties are context-specific gates that determine where validation is done when the feature is enabled:
+
+ -   glide.ai\_record\_activity.ai\_detection.nap.enabled: ServiceNow Otto panel executions
+-   glide.ai\_record\_activity.ai\_detection.skill.enabled: generative AI skill execution with UI actions or in Virtual Agent
+-   glide.ai\_record\_activity.ai\_agent.validation.enabled: agentic AI-initiated record updates with UI actions or in Virtual Agent
+
+ If you want to enable these gates of the UI validation feature, you must create the system property and set the value to **true**. You don't need to enable this feature for individual skills or agentic AI assets.
+
+</td></tr><tr><td>
 
 sn\_aia.agent\_llm\_provider
 
@@ -169,7 +249,7 @@ sn\_aia.follow\_up\_message
 
 </td><td>
 
-Defines a follow-up message sent after execution is completed.Default Value: **How else can I help you?**
+Defines a follow-up message sent after execution is completed.Default Value: **How otherwise can I help you?**
 
 </td></tr><tr><td>
 
@@ -201,7 +281,7 @@ sn\_aia.enable\_agent\_tool\_input\_value\_overrides
 
 </td><td>
 
-Enables you to override the agent tool input value.Default Value: **true**.
+Enables you to override the agent tool description.Default Value: **true**.
 
 </td></tr><tr><td>
 
@@ -276,13 +356,54 @@ Specifies the maximum number of cursor-based pagination iterations to perform wh
 
 </td></tr><tr><td>
 
-mcp\_guardian\_check
+com.glide.agentic\_processes\_view.enabled
 
 </td><td>
 
-Determines whether Now Assist Guardian runs on MCP tool executions.You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
+Enables the in-product experience for agentic workflows in the AI Workflows panel. Verify that this is set to `true` if you plan on using UI actions to run agentic workflows.
 
-**Note:** To enable guardian check for MCP Client, ensure that you enable Now Assist guardian on **AI Agent Studio** &gt; **Settings** page.
+</td></tr><tr><td>
+
+sys\_generative\_ai\_prompt\_config
+
+</td><td>
+
+References a config record via the generative AI Config field.
+
+</td></tr></tbody>
+</table><table id="table_zsw_hkd_m3c"><thead><tr><th>
+
+System property
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_aia.enable\_episodic\_memory
+
+</td><td>
+
+Enables episodic memory. When enabled, episodic memories from past interactions are collected and stored in sn\_aia\_memory and utilized in future interactions to enhance the overall experienceDefault value: **true**.
+
+.
+
+</td></tr><tr><td>
+
+sn\_aia.enable\_memory\_limit
+
+</td><td>
+
+Maximum number of episodic memories to inject into prompt when an agent is invoked. **Note:** The maximum number of values allowed is less than or equal to 5.
+
+</td></tr><tr><td>
+
+sn\_aia.use\_episodic\_memory\_for\_ai\_agent
+
+</td><td>
+
+Enables episodic memory injection for AI agent interactions. When enabled, stored user memories are utilized in AI agent interactions.Default value: **true**.
 
 </td></tr></tbody>
 </table>## Properties on the Agent Properties table
@@ -432,11 +553,86 @@ show\_citations
 
 </td><td>
 
-Determines whether agentic AI-generated responses in Now Assist panel or Now Assist in Virtual Agent add citations for their output
+Determines whether agentic AI-generated responses in ServiceNow Otto panel or in Virtual Agent add citations for their output.
 
 </td><td>
 
 false
+
+</td></tr><tr><td>
+
+mcp\_guardian\_check
+
+</td><td>
+
+Determines whether AI Guardian runs on MCP tool executions.**Note:** To enable guardian check for MCP Client, ensure that you enable AI Guardian on **AI Agent Studio** &gt; **Settings** page.
+
+</td><td>
+
+You can enable guardian check for MCP Client when the value is set to **true**. The default value is **false**.
+
+</td></tr><tr><td>
+
+kill\_switch.mode
+
+</td><td>
+
+Controls how the feature responds to a detected breach.
+
+</td><td>
+
+warn\_onlyOther values include:
+
+-   off
+-   enforce
+
+</td></tr><tr><td>
+
+kill\_switch.consecutive\_windows\_duration
+
+</td><td>
+
+The total look back span.
+
+</td><td>
+
+4320
+
+</td></tr><tr><td>
+
+kill\_switch.max\_fires\_per\_window
+
+</td><td>
+
+Fires per record that mark it as breaching.
+
+</td><td>
+
+5
+
+</td></tr><tr><td>
+
+kill\_switch.min\_distinct\_records
+
+</td><td>
+
+Breaching records needed for the window to count as runaway.
+
+</td><td>
+
+25
+
+</td></tr><tr><td>
+
+kill\_switch.window\_size
+
+</td><td>
+
+Length of one observation window.
+
+</td><td>
+
+1440
 
 </td></tr></tbody>
 </table>The following properties are used to detect and avoid infinite recursion or execution loops. If you reach the max executions that match the query within the time window, any new executions matching the query will abort. You can adjust these values if you want to lower the threshold for detecting recursion.
@@ -514,9 +710,9 @@ Time window, in minutes, for checking for matching execution updates
 15
 
 </td></tr></tbody>
-</table>## Now Assist AI agents tables installed
+</table>## AI agents tables installed
 
-The following tables are installed so Now Assist AI agents works as expected:
+The following tables are installed so AI agents work as expected:
 
 <table id="table_trq_gvx_k2c"><thead><tr><th>
 
@@ -612,7 +808,7 @@ Tools Executions \[sn\_aia\_tools\_execution\]
 
 </td><td>
 
-List of tools executed by the plan ID.**Note:** The records in the Tools Executions table expire and become unavailable after a period of 13 months.
+List of tools executed by the plan ID.**Note:** The records in the Tools Executions table expire and is set to unavailable after a period of 13 months.
 
 </td></tr><tr><td>
 
@@ -668,15 +864,31 @@ Agent Access Role Configurations \[sys\_agent\_access\_role\_configuration\]
 
 </td><td>
 
-List of agent access roles. You can also create new agent access roles from this table.
+List of agent access roles. You can also create agent access roles from this table.
 
 </td></tr><tr><td>
 
-Sys\_generative\_ai\_configuration
+generative AI Configurations \[sys\_generative\_ai\_config\]
 
 </td><td>
 
- 
+Record that points to the actual model.
+
+</td></tr><tr><td>
+
+Invocation Sources \[sn\_aia\_invocation\_source\]
+
+</td><td>
+
+Functions as a registry of entry points and helps track and define the different contexts or surfaces from which an AI agent can be invoked or triggered.
+
+</td></tr><tr><td>
+
+generative AI Log \[sys\_generative\_ai\_log\]
+
+</td><td>
+
+Used for logging and auditing generative AI activity.
 
 </td></tr></tbody>
 </table>|Table|Description|

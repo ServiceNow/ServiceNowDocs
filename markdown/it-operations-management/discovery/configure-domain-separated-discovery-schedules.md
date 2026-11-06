@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Domain Separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Domain separation and Discovery, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure domain-separated Discovery schedules
@@ -22,7 +22,7 @@ Role required: discovery\_admin
 
 ## About this task
 
-In domain-separated environments, the domain of the user who creates a Discovery schedule typically determines where the discovered data is stored. Assigning a "Run as" user enables the discovery process to run under a different user’s domain and permissions, enabling administrators to control which domain stores the data and what resources the discovery process can access, regardless of who created the schedule.
+In domain-separated environments, the domain of the user who creates a Discovery schedule typically determines where the discovered data is stored. Assigning a "Run as" user enables the discovery process to run under a different user’s domain and permissions. This enables administrators to control which domain stores the data and what resources the discovery process can access, regardless of who created the schedule.
 
 **Note:** This procedure applies only to existing Discovery schedules. For information about creating a Discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
@@ -41,5 +41,5 @@ In domain-separated environments, the domain of the user who creates a Discovery
 5.  Select the check mark \(\[Omitted image "icon-check-mark.png"\] Alt text: check mark icon\) icon.
 
 
-**Parent Topic:**[Domain Separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
+**Parent Topic:**[Domain separation and Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryDomainSeparation.md)
 

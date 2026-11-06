@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -50,11 +50,7 @@ Requester type
 
 </td><td>
 
-Type of personal data stored. The choices are:-   **Customer**
--   **Employee**
--   **Ex-Employee**
--   **Prospect**
-
+Type of personal data stored. Select one or more from the active data subject types configured for the application.
 
 </td></tr><tr><td>
 

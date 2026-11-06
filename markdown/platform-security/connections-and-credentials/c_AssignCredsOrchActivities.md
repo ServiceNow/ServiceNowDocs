@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Credential aliases for Orchestration activities

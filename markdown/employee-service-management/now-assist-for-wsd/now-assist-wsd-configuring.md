@@ -1,30 +1,23 @@
 ---
-title: Configuring Now Assist for WSD
-description: Install and configure Now Assist for WSD. As a system administrator configure the Now Assist for WSD application so that workplace reservation requesters can use the Now Assist generative AI capabilities.
+title: Configuring ServiceNow Otto for WSD
+description: Install and configure ServiceNow Otto for Workplace Service Delivery \(WSD\). As a system administrator configure the ServiceNow Otto for WSD application so that employees can use the ServiceNow Otto generative AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-configuring.html
 release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Configuring Now Assist for WSD
+# Configuring ServiceNow Otto for WSD
 
-Install and configure Now Assist for WSD. As a system administrator configure the Now Assist for WSD application so that workplace reservation requesters can use the Now Assist generative AI capabilities.
+Install and configure ServiceNow Otto for Workplace Service Delivery \(WSD\). As a system administrator configure the ServiceNow Otto for WSD application so that employees can use the ServiceNow Otto generative AI capabilities.
 
 ## Configuration overview
 
-1.  [Install Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-install.md)
-2.  [Configure Now Assist in Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/config-now-assist-va-wsd.md)
-
--   **[Install Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-install.md)**  
-install and activate Now Assist for WSD from ServiceNow® Store.
--   **[Configure Now Assist in Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/config-now-assist-va-wsd.md)**  
-Enable your employees to submit a reservation request using a conversational experience based on generative AI.
-
-**Parent Topic:**[Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
+1.  [Install ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-install.md)
+2.  [Configure ServiceNow Otto for Virtual Agent for Workplace Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/config-now-assist-va-wsd.md)
 

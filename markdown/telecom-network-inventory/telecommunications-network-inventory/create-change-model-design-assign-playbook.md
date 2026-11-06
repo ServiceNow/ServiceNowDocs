@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Design and Assign function for your network services, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Configure Design and Assign function, Configure, Telecommunications Network Inventory]
 ---
 
 # Create a Change Model for Design and Assign function
@@ -75,7 +75,7 @@ The change request is approved.
 
 The change request is closed.
 
-You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see add multi-layer model states.
+You can also add a new model state to the Change model based on the requirements of your Design and Assign function. To learn more, see [add multi-layer model states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_AddANewState.md).
 
 </td></tr><tr><td>
 
@@ -88,7 +88,9 @@ Option to enable this state as the initial state for your model. This field is a
 </td></tr></tbody>
 </table>7.  To save the state and return to the Change Model form, select **Submit**.
 
-8.  To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text: Hide/display hierarchical Lists Icon\) for the model state that you want to apply the transition to.
+8.  Select the icon for the model state that you want to apply the transition to.
+
+    To add a transition between the states, select the display/hide hierarchical lists icon \(\[Omitted image "icon-display-hide-hierarchial.png"\] Alt text:\).
 
     The Model State Transitions context menu appears.
 
@@ -122,7 +124,7 @@ Create a record producer to configure an activity in the playbook. To learn more
 
 [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-a-change-model.md)
 
-[bundle-itsm.c_ChangeStateModel]
+[State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ChangeStateModel.md)
 
 [Configuring Design and Assign function for your network services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/configure-playbooks-design-assign-function.md)
 

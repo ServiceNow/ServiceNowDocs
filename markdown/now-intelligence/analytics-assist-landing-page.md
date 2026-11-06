@@ -1,25 +1,25 @@
 ---
-title: Generate or export dashboards and data visualizations in the Now Assist panel
-description: Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the Now Assist panel.
+title: Dashboards and data visualizations in the ServiceNow Otto panel
+description: Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/analytics-assist-landing-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [generative AI, chat skills]
-breadcrumb: [Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
-# Generate or export dashboards and data visualizations in the Now Assist panel
+# Dashboards and data visualizations in the ServiceNow Otto panel
 
-Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the Now Assist panel.
+Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
 
 ## Get started
 
 <table id="table_yj4_1lk_12c" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about how you can work with Platform Analytics in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/exploring-analytics-assist.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about how you can work with Platform Analytics in the Generate or export dashboards and data visualizations in the ServiceNow Otto panel panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/exploring-analytics-assist.md)
 
 </td><td>
 
@@ -27,11 +27,11 @@ Generate and export Platform Analytics artifacts from conversational interaction
 
 </td><td>
 
-[Generate data visualizations\[Omitted image "bus-app-creator.svg"\] Alt text:How to create data visualizations conversationally in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-dv-generation.md)
+[Generate data visualizations\[Omitted image "bus-app-creator.svg"\] Alt text:How to create data visualizations conversationally in the Generate or export dashboards and data visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-dv-generation.md)
 
 </td></tr><tr><td>
 
-[Export dashboards and data visualizations\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use AI to export dashboards and data visualizations conversationally in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
+[Export dashboards and data visualizations\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use AI to export dashboards and data visualizations conversationally in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
 
 </td><td>
 
@@ -44,9 +44,9 @@ Generate and export Platform Analytics artifacts from conversational interaction
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## AI limitations
@@ -59,20 +59,20 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tables and indicators that will be used to generate analytics. For example, information from the Incident table or the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information from tables and indicators that will be used to generate analytics. For example, information from the Incident table or the Number of open incidents indicator could be collected for requests for incident data visualizations. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 
--   **[Explore generating or exporting dashboards and visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/exploring-analytics-assist.md)**  
-Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the Now Assist panel.
--   **[Configuring Now Assist panel skills for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configuring-now-ass-skills-pa.md)**  
-Activate the skills for generating and exporting Platform Analytics dashboards and data visualizations from conversations in the Now Assist panel.
--   **[Generate visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-dv-generation.md)**  
+-   **[Explore generating or exporting dashboards and visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/exploring-analytics-assist.md)**  
+Generate and export Platform Analytics artifacts from conversational interactions. For example, ask for information about the number of open incidents and get a single-score data visualization. Then export that visualization as a PDF file, all in the ServiceNow Otto panel.
+-   **[Configuring skills for Platform Analytics for the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configuring-now-ass-skills-pa.md)**  
+Activate the skills for generating and exporting Platform Analytics dashboards and data visualizations from conversations in the ServiceNow Otto panel.
+-   **[Generate visualizations in the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/use-dv-generation.md)**  
 Request generative AI to create a visualization of data that you want to see. If you are on a dashboard that you can edit, you can add the visualization to that dashboard.
--   **[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)**  
+-   **[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)**  
 Export or schedule the export of dashboards and data visualizations conversationally through AI instead of going through the Platform Analytics user interface.
 -   **[Reference for dashboard and visualization skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analgen-reference.md)**  
 Information about the roles, tables, and scheduled jobs included with the data visualization generation and dashboard and visualization export skills.
 
-**Parent Topic:**[Now Assist in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-in-platform-analytics.md)
+**Parent Topic:**[ServiceNow Otto for Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics.md)
 

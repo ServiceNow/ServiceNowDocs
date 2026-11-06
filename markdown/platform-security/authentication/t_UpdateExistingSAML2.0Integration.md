@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Update your existing SAML 2.0 integration
@@ -18,7 +18,7 @@ Update your existing SAML 2.0 integration.
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 
@@ -47,7 +47,7 @@ Test the Update.
 
 ## Procedure
 
-1.  [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) called glide.authenticate.sso.saml2.debug with a value of true.
+1.  Add a system property called glide.authenticate.sso.saml2.debug with a value of true.
 
 2.  Attempt SAML 2.0 login.
 

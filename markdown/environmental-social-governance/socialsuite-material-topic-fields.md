@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/socialsuite-material-topic-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly ESG\) reference, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -36,9 +36,9 @@ Assessment Methodology
 
 </td><td>
 
-Methodology used for the materiality assessment in Socialsuite. The possible values are:-   • Double Materiality: Assesses both impact and financial materiality.
--   • Financial Materiality: Assesses financial impacts only.
--   • Impact Materiality: Assesses impact on society and environment only.
+Methodology used for the materiality assessment in Socialsuite. The possible values are:-   Double Materiality: Assesses both impact and financial materiality.
+-   Financial Materiality: Assesses financial impacts only.
+-   Impact Materiality: Assesses impact on society and environment only.
 
 </td></tr><tr><td>
 

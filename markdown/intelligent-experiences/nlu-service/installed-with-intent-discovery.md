@@ -1,5 +1,5 @@
 ---
-title: Components installed with Intent Discovery
+title: \(Legacy\) Components installed with Intent Discovery
 description: Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/installed-with-intent-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install Intent Discovery, Intent Discovery, NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Install Intent Discovery, \(Legacy\) Intent Discovery, \(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Components installed with Intent Discovery
+# \(Legacy\) Components installed with Intent Discovery
 
 Several types of components are installed with activation of the sn\_nlu\_discovery plugin, including tables.
 
@@ -77,5 +77,4 @@ Discovery Report Definition\[sn\_nlu\_discovery\_report\_definition\]
 Includes the necessary information for generating reports.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.md)
-
+</table>

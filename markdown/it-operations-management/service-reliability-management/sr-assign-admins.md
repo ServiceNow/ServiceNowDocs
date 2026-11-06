@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Assign an administrator to Service Reliability Management
@@ -34,12 +34,14 @@ The SRM admin can add and create teams. They can also manage data across all SRM
 
 4.  Enter user names in the field.
 
+    Users must have an email address associated with their user record to appear in the search results.
+
 5.  Select **Save**.
 
 
 **Parent Topic:**[Configuring Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/configuring-service-reliability-management.md)
 
-**Previous topic:**[Install Service Reliability Management from Admin Center or ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)
+**Previous topic:**[Install Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.md)
 
 **Next topic:**[Activate teams and services in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-activate-teams-and-services-in-srm.md)
 

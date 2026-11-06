@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Create a signed PDF summary for a work order
@@ -44,8 +44,6 @@ When a work order is closed, you are notified with a link to the work order. Ope
 ## Result
 
 The signed PDF summary is generated and attached to the Work Order form.
-
-**Parent Topic:**[Updating task status in web interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/updating-task-status-in-web-interface.md)
 
 **Related topics**  
 

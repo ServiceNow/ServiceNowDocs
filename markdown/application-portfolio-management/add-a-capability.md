@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/add-a-capability.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage a business portfolio, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the business portfolio module, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add a business capability
@@ -16,7 +16,7 @@ Add a business capability to the capability hierarchy map.
 
 ## Before you begin
 
-Role required: sn\_apm.apm\_analyst
+Role required: sn\_apm.apm\_user
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Role required: sn\_apm.apm\_analyst
 
 4.  On the form, fill in the fields.
 
-    For a description of field values, see [Business capability new record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/business-capability-new-record-form.md).
+    For a description of field values, see [Create business capability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-cap-form.md).
 
 5.  Select **Create**.
 
@@ -39,5 +39,22 @@ Role required: sn\_apm.apm\_analyst
     2.  Select **Create sub-capability**.
 
 
-**Parent Topic:**[Managing a business portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/manage-business-portfolio.md)
+**Parent Topic:**[Working with the business portfolio module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-business-portfolio-mod.md)
+
+**Related topics**  
+
+
+[Create a demand towards achievement of a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-demand-towards-achievement-of-capability.md)
+
+[Update the hierarchy of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/update-hierarchy.md)
+
+[Create a sub-capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-sub-capability.md)
+
+[Assign a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/assign-a-business-application.md)
+
+[Unassign a business application from a capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/unassign-a-business-application-from-a-capability.md)
+
+[Delete a capability from the hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/delete-a-capability.md)
+
+[View a roadmap of a business capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-roadmap-bc.md)
 

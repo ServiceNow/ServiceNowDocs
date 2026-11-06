@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-08-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework Reference, Key Management Framework, Encryption]
 ---

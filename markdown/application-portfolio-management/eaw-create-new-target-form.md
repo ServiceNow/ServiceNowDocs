@@ -1,18 +1,18 @@
 ---
-title: Create new target form
-description: Use the Create new target form to create a quantitative or qualitative target for your goal.
+title: Create target form
+description: Use the Create target form to create a quantitative or qualitative target for your goal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-new-target-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new target form
+# Create target form
 
-Use the Create new target form to create a quantitative or qualitative target for your goal.
+Use the Create target form to create a quantitative or qualitative target for your goal.
 
 <table id="table_eh1_4f1_ybc"><thead><tr><th>
 
@@ -206,12 +206,12 @@ Review date
 The date on which the target is to be reviewed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Manage goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-goals.md)
+[Exploring goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-goals.md)
 
 [Add a quantitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-quantitative-target-to-a-goal.md)
 

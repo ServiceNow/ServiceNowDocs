@@ -7,9 +7,9 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Preview tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Preview tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # View previewed upgrade
@@ -97,5 +97,5 @@ Date and time on which the preview completed
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Upgrade Preview tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
+**Parent Topic:**[Upgrade Preview tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-preview-tool.md)
 

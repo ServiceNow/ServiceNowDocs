@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Add an Azure service account
@@ -46,7 +46,7 @@ Description
 
 The Azure **Subscription ID** value that you copied from the Azure Portal into the text file.
 
- See [Discovery for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md) to learn Management Groups subscription IDs.
+ See [Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md) to learn Management Groups subscription IDs.
 
 </td></tr><tr><td>
 
@@ -107,5 +107,5 @@ If you are on a domain separated instance, only those events that are updated to
 **Related topics**  
 
 
-[Discovery for Microsoft Azure Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md)
+[Discovery for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-cloud-discovery.md)
 

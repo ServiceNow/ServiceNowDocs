@@ -1,18 +1,18 @@
 ---
 title: Getting started with Customer Service Management
-description: Activate the Customer Service plugin and plan your Customer Service Management implementation by installing additional plugins.
+description: Activate the Case Management Core plugin and plan your Customer Service Management implementation by installing additional plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/data-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up your environment, Configure, Customer Service Management]
 ---
 
 # Getting started with Customer Service Management
 
-Activate the Customer Service plugin and plan your Customer Service Management implementation by installing additional plugins.
+Activate the Case Management Core plugin and plan your Customer Service Management implementation by installing additional plugins.
 
 <table id="table_h5y_mp5_41c"><thead><tr><th>
 
@@ -28,23 +28,7 @@ Description
 
 </td><td>
 
-As an admin, activate the Customer Service plugin \(com.sn\_customerservice\). This plugin includes demo data and activates related plugins.
-
-</td></tr><tr><td>
-
-[Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/plugins-activated-with-csm.md)
-
-</td><td>
-
-Refer the list of related CSM plugins that are activated after activating the Customer Service plugin.
-
-</td></tr><tr><td>
-
-[Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_CustServMgmtAddtlPluginsTable.md)
-
-</td><td>
-
-Refer the list of additional CSM plugins that you can activate after activating the Customer Service plugin.
+As an admin, activate the Case Management Core plugin \(com.sn\_customerservice\). This plugin includes demo data and activate related plugins.
 
 </td></tr><tr><td>
 
@@ -60,7 +44,7 @@ Customize settings for several different features, including email communication
 
 </td><td>
 
-Import customer information including names, addresses, and phone numbers; accounts, contacts, consumers, users, groups, group members, product models and assets.Assign roles to groups or to individual users. Create service contracts and entitlements. Create customer relationships, asset relationships, and account teams.
+Import customer information including names, addresses, and phone numbers; accounts, contacts, consumers, users, groups, group members, product models, and assets.Assign roles to groups or to individual users. Create service contracts and entitlements. Create customer relationships, asset relationships, and account teams.
 
 </td></tr></tbody>
 </table>

@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 12
-breadcrumb: [OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [OAuth 2.0 authentication via MID Server using external credential storage, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Configure a connection to send OAuth request via the MID Server using external vault
@@ -23,7 +23,7 @@ Verify the following items.
 -   Confirm that you have subscribed to the ServiceNow IntegrationHub Standard Pack Installer. For more information, see [https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 -   You have created a JAR file that enables the MID Server to resolve credentials with the CyberArk external vault. See [Create a JAR file to resolve credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/external_cred_storage_configuration.md).
 -   You have imported the JAR file to the MID Server.
--   The MID Server is set up for CyberArk. See [Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md).
+-   The MID Server is set up for CyberArk. See [Configure the MID Server for CyberArk AIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md).
 -   OAuth 2.0 are configured on the CyberArk external storage. See [Configure OAuth 2.0 credentials on CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/configure-oauth-2-0-credentials-on-cyberark.md).
 
 Role required: none

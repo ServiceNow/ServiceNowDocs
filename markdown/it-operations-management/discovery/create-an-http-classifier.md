@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery classifiers, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -24,7 +24,7 @@ Role required: discovery\_admin
 
 If you want to classify devices via HTTP/REST, you can create additional HTTP classifications, rather than by another protocol. Use HTTP classification for device discovery only, not for application discovery.
 
-**Important:** Starting in YP7, the HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
+**Important:** The HTTP Classify probe no longer attempts credentials over the HTTP protocol by default. To override this behavior, you can enable **mid.http\_classy.allow\_credentials\_over\_http**. However, enabling this setting can expose credentials to man-in-the-middle \(MitM\) attacks. Therefore, it’s strongly recommended to keep this property set to **false** and use HTTPS whenever possible.
 
 By default, the [F5 HTTP classifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_LoadBalancerF5BIGIP.md) is provided to classify F5 load balancers using REST. The **F5 LB REST** pattern is also provided to explore the device. You don’t need to create an HTTP classifier for F5 load balancers.
 

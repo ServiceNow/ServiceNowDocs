@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Employee Center Pro Kiosk
@@ -86,8 +86,10 @@ Role required: sn\_hr\_sp.esc\_admin
 
 Your employees can now use the configured Kiosk portal. Kiosk app displays the portal, theme, header, footer, and others based on your configuration.
 
-**Related topics**  
+-   **[Schedule in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/shift-time-kiosk-ec.md)**  
+The schedule details in Employee Center Pro Kiosk is a one-stop destination to check the shift scheduling details for the deskless workers.
+-   **[Time off balances in Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/kiosk-timeoff-ec.md)**  
+The time off balances details in the Employee Center Pro Kiosk is the source of truth for the time off or leave details of the deskless workers.
 
-
-[Employee Center Pro Kiosk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
+**Parent Topic:**[Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md)
 

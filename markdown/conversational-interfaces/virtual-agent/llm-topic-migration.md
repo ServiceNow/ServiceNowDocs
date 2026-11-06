@@ -7,16 +7,18 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Getting started with Virtual Agent Designer, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Migrating NLU/keyword Virtual Agent topics to LLM topics
 
 The topic migration workflow enables you to migrate your existing Natural Language Understanding \(NLU\)/keyword topics into new large language model \(LLM\) topics.
 
-Now Assist capabilities bring generative AI to Virtual Agent using LLM topics. With topic migration, there’s no need to manually recreate all your NLU and keyword topics to be LLM topics. You can select the topics that you want to migrate into LLM topics from your existing NLU and keyword topics. Migrating NLU and keyword topics doesn’t change the original NLU or keyword topics. A copy of the existing topic is created during topic migration, but the new topic's **Model Type** field is set to LLM and includes LLM-compatible nodes and descriptions.
+Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. For migration guidance, see [KB3159779: Virtual Agent NLU and Keyword Feature Deprecation Migration Guide](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3159779).
+
+ServiceNow Otto capabilities bring generative AI to Virtual Agent using LLM topics. With topic migration, there’s no need to manually recreate all your NLU and keyword topics to be LLM topics. You can select the topics that you want to migrate into LLM topics from your existing NLU and keyword topics. Migrating NLU and keyword topics doesn’t change the original NLU or keyword topics. A copy of the existing topic is created during topic migration, but the new topic's **Model Type** field is set to LLM and includes LLM-compatible nodes and descriptions.
 
 All types of topics can be migrated from the NLU/Keyword model type to the LLM model type during topic migration, including the following asset types:
 
@@ -31,11 +33,9 @@ If no migration issues occur, the preceding asset types can all optionally be pu
 
 ## Roles and accessibility
 
-Users with the virtual\_agent\_admin role or sn\_vad\_genai.topic\_migration\_admin role can work with topic migration. Topic migration is accessible through Assistant Designer in the **Migrate Topics to LLM** option.
+Users with the virtual\_agent\_admin role or sn\_vad\_genai.topic\_migration\_admin role can work with topic migration. Topic migration is accessible through Virtual Agent Assistant Designer in the **Migrate Topics to LLM** option.
 
-**Note:** An updated Assistant Designer Asset library user interface is available when you install Now Assist in Virtual Agent and turn on the Now Assist Topics skill. This content assumes that you have activated this skill and can see the list view. If this skill is not activated, you see the legacy UI and topics page. For more information, see [Virtual Agent Designer legacy topics page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-prev-topics-page.md).
-
-\[Omitted image "llm-topic-migration-vad.png"\] Alt text: Migrate Topics to LLM is an option in the Assistant Designer Asset library Resources sidebar.
+\[Omitted image "llm-topic-migration-vad.png"\] Alt text: Migrate Topics to LLM is an option in the Assistant Designer Asset library resources sidebar.
 
 ## System properties
 
@@ -94,7 +94,7 @@ If an NLU node is mapped to an entity, those utterances' entities are added to t
 -   `[Prior NLU Prompt field value]` if the value was text-only and not a script or data pill.
 -   `[Additional instructions: For this input, the data should be extracted from the user input if it has a value from this list of words: [simple entity word list].`
 
-\[Omitted image "nlu-llm-node-prompt-detail-desc-example-2.png"\] Alt text: Prompt field values migrate to the Detail description field values along with NLU entities.
+\[Omitted image "nlu-llm-node-prompt-detail-desc-example.png"\] Alt text: Prompt field values migrate to the Detail description field values along with NLU entities.
 
 If you had vocabulary sources established in your NLU topic's text nodes, the list and table vocabulary sources migrate into LLM nodes. Text nodes with list vocabulary sources are migrated into static choice nodes. The vocab source selections appear in the LLM static choice node's **Detail description** field under an `Additional instructions:` make-shift header value. Text nodes with table vocabulary sources are migrated into dynamic choice nodes. The vocabulary source's table is migrated into the LLM dynamic choice node's **Table** field. The vocabulary source selections are migrated into a script and appear in the LLM dynamic choice node's **Detail description** field under an `Additional instructions:` make-shift header value.
 
@@ -107,5 +107,5 @@ Migrate one or more of your existing Natural Language Understanding \(NLU\) or k
 -   **[NLU to LLM migration log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/llm-topic-migration-error-log.md)**  
 The Topic Migration Execution Items \[topic\_migration\_execution\_item.list\] table includes data when migrating Natural Language Understanding \(NLU\) topics to large language model \(LLM\) topics such as the migration status, migration issues, and migrated or published topic information.
 
-**Parent Topic:**[Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

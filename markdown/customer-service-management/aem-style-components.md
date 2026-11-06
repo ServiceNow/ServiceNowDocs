@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/aem-style-components.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrating with Adobe Experience Manager, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Service Management]
 ---
 
 # Customizing the colors of ServiceNow components in AEM
@@ -87,7 +87,7 @@ Role required: AEM administrator
 
 ### About this task
 
-The color variables specified in the `variables.less` file are applied to all ServiceNow components in AEM. You can override the default colors for a particular component by setting the color variables for the component in the initializeCSS function.
+The color variables you specify in the `variables.less` file are applied to all ServiceNow components in AEM. You can override the default colors for a particular component by setting the color variables for the component in the initializeCSS function.
 
 **Note:** By default, the ServiceNow components are configured using the Bootstrap v4.4.1 CSS styles. If your AEM page uses a different Bootstrap version, the ServiceNow components style is overridden by the page style.
 
@@ -105,7 +105,7 @@ The color variables specified in the `variables.less` file are applied to all Se
 
     -   component\_type: The type of the component on which you want to apply the custom color theme, for example, articlelist, articleview, casecards, and so on.
     -   class\_name: The Custom CSS class you enter in the **Custom CSS class** property of your component.
-    -   color\_variable\_1, color\_variable\_2, color\_variable\_n: The color variables that you specify for the HTML elements in a component. For more information, see the [Color variable settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/aem-style-components.md) table.
+    -   color\_variable\_1, color\_variable\_2, color\_variable\_n: The color variables you specify for the HTML elements in a component. For more information, see the [Color variable settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/aem-style-components.md) table.
     Use the following sample code as a reference for color styling at the component level.
 
     ```
@@ -119,6 +119,6 @@ The color variables specified in the `variables.less` file are applied to all Se
     .initialize(@componentType:createcase;@className:now-create-case;@text-color:red;@link-color:orange;@primary-color:green;@secondary-color:indigo;@primary-btn-text-color:blue;@primary-btn-bkg-color:white;@secondary-btn-text-color:white;@secondary-btn-bkg-color:blue;)
     ```
 
-5.  From the CRXDE Lite menu, select **Save All** to save the changes on the AEM server.
+5.  From the CRXDE Lite menu, click **Save All** to save the changes on the AEM server.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage UI Builder pages and page variants
@@ -44,13 +44,11 @@ See [Customize UI Builder pages using components](https://raw.githubusercontent.
 
 Create a UI Builder page to build a page experience from scratch or use a page template. Build a page one component at a time. If you use one of the pre-defined page templates, you start from a base structure and can customize it to meet your needs.
 
-Name your UI Builder page. Set the path \(or keep the default path that is automatically added based on your page name\). A default path is added based on your page name. You can also create your own path, but the path must be unique. The **URL preview** shows the path of your page.
+Name your UI Builder page. Set the path \(or keep the default path that is automatically added based on your page name\). A default path is added based on your page name. You can also create your own path, but the path must be unique. The **URL preview** shows the path of your page. Set the page URL type. URL types help you categorize and find important pages in the experience view.
 
 The application scope protects applications by identifying and restricting access to application files and data. The application scope defaults to the scope that the user is currently in within the ServiceNow AI Platform®. For more information about application scope, see [Learn about security and roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/security-roles.md).
 
 Use a UI Builder page template to create a page based on a pre-defined page template, and then customize the page to your needs. You can reference or copy a page template. For more information, see [Create a page from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/reuse-page-definitions.md).
-
-\[Omitted image "create-page-details.png"\] Alt text: Create page screen where you enter a page name and path. It also shows application scope setting.
 
 ## Create a UI Builder page: Advanced settings
 
@@ -76,8 +74,6 @@ Add a test value to your UI Builder page as a way to bring test data into the pa
 
 To get test values to show data, add a data resource, then configure the data resource to bind a record to the test value in the URL. For example, you could add `incident` as a test value. Then add a data resource named **Look up a single record**. In the **Table field**, dynamically bind the incident test value to a `context.props.table` table, as shown in the following image.
 
-\[Omitted image "test-value-bind-data.png"\] Alt text: Bind incident to table.
-
 ## View an existing UI Builder page
 
 You can work in any UI Builder page in your experience based on your role settings. Click on the name of the page you want to work in while in the experience view of your experience.
@@ -98,9 +94,9 @@ See [Create a page variant](https://raw.githubusercontent.com/ServiceNow/Service
 
 ## Edit UI Builder page settings
 
-Change the settings of your UI Builder page at any time by selecting **Settings** in the UI Builder experience view. You can change the name, path, and parameters of your page after you create a page.
+Change the settings of your UI Builder page at any time by selecting the More actions icon \[Omitted image "MoreActionsIcon.png"\] Alt text: then **View settings** in the UI Builder experience view. You can change the name, path, and parameters of your page after you create a page.
 
-\[Omitted image "edit-page-settings-link.png"\] Alt text: Arrow pointing to settings link to edit page settings.
+\[Omitted image "edit-page-settings-link.png"\] Alt text: Settings link selected from More actions menu to edit page settings.
 
 See [Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/edit-page.md) for more information.
 
@@ -120,8 +116,6 @@ It’s important to add a component label when you add a component to your page.
 
 Use the UI Builder toolbox to add layouts and components to your page. Access the UI Builder toolbox by selecting **+ Add content** or the **+** icon in the stage.
 
-\[Omitted image "toolbox-layouts.png"\] Alt text: UI Builder toolbox showing basic and advanced layout options.
-
 Search the toolbox to find layouts and components that you want to add to a UI Builder page.
 
 View a brief description of a layout or component by selecting the information icon \[Omitted image "uib-info-icon.png"\] Alt text: Information icon. to view the tooltip. The components tab displays different colors if a component can use a preset or is bundled with multiple components.
@@ -131,8 +125,6 @@ View a brief description of a layout or component by selecting the information i
 ## UI Builder Stage
 
 The stage is the largest area in the UI Builder editor and is used for building pages. Add your column layouts and components here by either selecting a + button, or dragging from the Component pane to the page.
-
-\[Omitted image "stage-ui-builder.png"\] Alt text: The stage of UI Builder where you build your pages.
 
 On the stage, the body, column layouts, and columns are outlined in magenta. Components are outlined in blue.
 
@@ -151,8 +143,6 @@ Changes made on the stage are reflected in the Styles panel at right. Changes ma
 ## Scale the size of the stage in UI Builder
 
 Adjust the size of the stage in the UI Builder editor by selecting the Width drop-down.
-
-\[Omitted image "stage-resize.png"\] Alt text: Width drop-down to resize the page builder window to a specific number of pixels.
 
 ## Undo and Redo in UI Builder
 
@@ -210,17 +200,21 @@ From the Menu, edit the UI Builder page as a developer on the platform. This opt
 -   **[Create a page in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-page.md)**  
 Create a page in UI Builder for a portal, workspace, or custom application so that you can build a web experience for your users.
 -   **[Edit a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/edit-page.md)**  
-Edit a page to change the page name, path, and parameters.
+Edit a page to change the page name, path, type, and parameters.
 -   **[Add an audience to your UI Builder page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/configure-audiences.md)**  
 Add one or more audiences to your page or page variant.
 -   **[Test values in a page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/test-value.md)**  
 Add test values to your URL as a way to bring test data into a page.
 -   **[Create a page variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/create-variant.md)**  
 A page variant in UI Builder is a variation of a page that exists at the same path that targets different audiences using user criteria.
+-   **[Use pages across experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/use-across-pages.md)**  
+Use pages created in one in experience in another without needing to rebuild the page.
 -   **[Responsive authoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/responsive-authoring.md)**  
 Use responsive authoring to create UI Builder pages that adjust smoothly to different form factors \(sizes\), such as desktop, tablet, and mobile.
 -   **[Learn how to view and test your UI Builder experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/preview-page-ui-builder.md)**  
 Preview your experience in UI Builder to see how it looks and functions while building an experience. Previewing helps ensure that your experience works as expected, that the data resources are available, and that the layouts are set up correctly.
+-   **[Resolve a missing page definition in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/resolve-missing-page-definition.md)**  
+Fix UI Builder page render errors by linking a page definition in the variant record.
 
 **Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/using-ui-builder.md)
 

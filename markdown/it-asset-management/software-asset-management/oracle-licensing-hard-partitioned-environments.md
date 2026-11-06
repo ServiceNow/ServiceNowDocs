@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Oracle Database and WebLogic Server licensing in partitioned environments, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Oracle licensing in partitioned environments, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Oracle Database and WebLogic Server licensing in hard-partitioned environments
@@ -17,6 +17,8 @@ breadcrumb: [Oracle Database and WebLogic Server licensing in partitioned enviro
 The Software Asset Management application supports Oracle hard-partitioning licensing rules for IBM AIX Logical Partition \(LPAR\), Solaris Logical Domain \(LDOM\), and Solaris Zone.
 
 When you hard partition a server, the server is divided into smaller systems that run independently from each other. Each system contains its own processors, network resources, operating system, memory, and more. For more information on Oracle licensing and hard partitioning, refer to [Oracle Partitioning Policy](https://www.oracle.com/assets/partitioning-070609.pdf).
+
+When you install or run an Oracle Database or WebLogic Server in hard-partitioned environments, you can license it using either the Named User Plus or Per Processor license metric. In addition, the WebLogic Server licensing support covers the entire WebLogic product family that includes the Standard, Enterprise, and Suite editions. For more information, refer to this knowledge base article [KB2630167](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2630167).
 
 ## IBM LPAR
 
@@ -95,7 +97,7 @@ A logical domain \(LDOM\) is a distinct logical unit within a single computer sy
 
 The ServiceNow Discovery application uses the Solaris LDOM infrastructure pattern and Solaris LDOM shared library pattern to find all LDOM data. For information on Solaris LDOM discovery, see [Oracle Solaris LDOM discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/solaris-ldom-discovery.md).
 
-The Software Asset Management application supports licensing of Oracle Database Server and WebLogic Server installed on the Solaris LDOM, version 2.0 and above, for Per Processor and Named User Plus \(NUP\) license metrics. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical server that runs the Solaris LDOM configuration. For details on the licensing of Oracle products, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sw-metric-attributes.md).
+The Software Asset Management application supports licensing of Oracle Database and WebLogic Server installed on the Solaris LDOM, version 2.0 and above, for Per Processor and Named User Plus \(NUP\) license metrics. To license your Oracle Database or WebLogic server installations, rights should be allocated to the physical server that runs the Solaris LDOM configuration. For details on the licensing of Oracle products, see [Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sw-metric-attributes.md).
 
 ## Solaris zones
 

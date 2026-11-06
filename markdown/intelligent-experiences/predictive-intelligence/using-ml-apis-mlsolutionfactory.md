@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Using Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Using MLSolutionFactory scriptable objects
@@ -24,15 +24,13 @@ Here's the high-level process for creating a custom usage scenario.
 
 1.  Developers customize a MLSolutionUtil scripted extension point implementation using the MLSolutionFactory scriptable object.
     -   Listed as global.MLSolutionUtil in the Extension Point \[sys\_extension\_point\] table
-    -   See [Register a custom script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/impl-client-ext-pts-base-code.md)
+    -   See Register a custom script include
 2.  The MLSolutionUtil scripted extension point implementation uses MLSolutionFactory to get the scriptable object, and invokes prediction methods on that object.
 3.  The Predictive Intelligence REST API - Prediction for multiple solutions \(GET\) method invokes the MLSolutionUtil extension point implementation, depending on the scope of the request.
 4.  Applications call the Predictive Intelligence REST API - Prediction for multiple solutions \(GET\) end point from a script include form.
 
-\[Omitted image "ml-api-request-flow.png"\] Alt text: The basic process the applications can use to invoke prediction APIs using a scripted extension point implementation using MLSolutionFactory scriptable objects.
-
 For more information, see
 
--   [Predictive Intelligence REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/agent-intelligence-api.md)
--   [MLSolutionFactory - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/MLSolutionFactoryAPI.md)
+-   Predictive Intelligence REST API
+-   MLSolutionFactory - Global
 

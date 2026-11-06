@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-sm-problem.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CSM integration with IT Service Management overview, Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Overview, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # CSM integration with Problem Management
@@ -44,7 +44,7 @@ With the Problem Management Best Practice – Madrid plugin activated, customer 
 -   When **Communicate Workaround** is selected from the related problem, the workaround text is copied to the case work notes.
 -   When **Communicate Fix** is selected from the related problem, the fix text is copied to the case work notes.
 -   When the problem is resolved or closed with a specific resolution code:
-    -   State is Closed and Resolution Code is Canceled. The Canceled Reason text is copied to the case work notes.
+    -   State is Closed and Resolution Code is Cancelled. The Cancelled Reason text is copied to the case work notes.
     -   State is Closed and Resolution Code is Risk Accepted, the Cause notes, Risk accepted reason, and Fix notes are copied to the case work notes.
     -   State is Resolved and Resolution Code is Fix Applied, the Cause notes, and Fix notes are copied to the case work notes.
     -   State is Closed and the Resolution Code is Fix Applied, the Cause notes, and Fix notes are copied to the case work notes.

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-landing-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -30,53 +30,53 @@ By managing sustainability operationally, organizations can drive measurable imp
 
 The following image shows how different departments collaborate for operational sustainability reporting.
 
-\[Omitted image "osm-overview.png"\] Alt text: Operational Sustainability Management application usage with metrics and integrations.
+\[Omitted image "osm-workflow.png"\] Alt text: Operational Sustainability Management application usage with metrics and integrations.
 
 ## Get started
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how Operational Sustainability program managers use the ESG Management application for addressing their sustainability commitments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-new-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how Operational Sustainability program managers use the Operational Sustainability Management application for addressing their sustainability commitments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-new-explore.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure your ESG Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configuring-esg.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure your Operational Sustainability Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configuring-esg.md)
 
 </td><td>
 
-[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate your ESG Management application with other applications such as Project Portfolio Management, Integrated Risk Management and Watershed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrate-esg.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Integrate your Operational Sustainability Management application with other applications such as Project Portfolio Management, Integrated Risk Management and Watershed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrate-esg.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "bus-manage.svg"\] Alt text: Use the ESG Management application for tasks such as importing citations, creating disclosures, updating disclosures, and so on.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-esg.md)
+[Use \[Omitted image "bus-manage.svg"\] Alt text: Use the Operational Sustainability Management application for tasks such as importing citations, creating disclosures, updating disclosures, and so on.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-esg.md)
 
 </td><td>
 
-[Overview pages \[Omitted image "bus-infographic.svg"\] Alt text: View the ESG Management workspace overview pages for various reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-analytics-reporting.md)
+[Overview pages \[Omitted image "bus-infographic.svg"\] Alt text: View the Operational Sustainability Management workspace overview pages for various reports.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-analytics-reporting.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-profile.svg"\] Alt text: Get details about components like fields, tables, roles, and properties installed with ESG Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/reference-data-esg.md)
+[Reference \[Omitted image "bus-profile.svg"\] Alt text: Get details about components like fields, tables, roles, and properties installed with Operational Sustainability Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/reference-data-esg.md)
 
 </td></tr></tbody>
 </table>## Implement Operational Sustainability Management
 
-Use the [Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/setup-checklist-esg.md) to quickly implement the ESG Management application.
+Use the [Setup checklist for the Operational Sustainability Management \(formerly ESG Management\) application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/setup-checklist-esg.md) to quickly implement the Operational Sustainability Management application.
 
 ## Learn
 
 [What is Environmental, Social, and Governance \(ESG\)?](https://www.servicenow.com/products/risk-management/what-is-esg.html)
 
 -   **[Exploring Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-new-explore.md)**  
-The ServiceNow® ESG Management application helps you to manage your sustainability commitments.
+The ServiceNow® Operational Sustainability Management application helps you to manage your sustainability commitments.
 -   **[Configure Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/configuring-esg.md)**  
-As an administrator, use this section to set up the ESG Management application. You must first create your material topics, your goals and targets, emission activities, and emission factors. You can then create entities and entity types for which you want to report the metrics and measure the sustainability performance of your organization.
+As an administrator, use this section to set up the Operational Sustainability Management application. You must first create your material topics, your goals and targets, emission activities, and emission factors. You can then create entities and entity types for which you want to report the metrics and measure the sustainability performance of your organization.
 -   **[Using Operational Sustainability Management \(formerly Environmental, Social, and Governance\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/using-esg.md)**  
-By using the ESG Management application, you can import citations from various frameworks and create disclosures.
+By using the Operational Sustainability Management application, you can import citations from various frameworks and create disclosures.
 -   **[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrate-esg.md)**  
-You can integrate ESG Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
+You can integrate Operational Sustainability Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
 -   **[Overview pages in the Operational Sustainability Workspace \(formerly ESG Workspace\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-analytics-reporting.md)**  
 In the Operational Sustainability Workspace, you can view various dashboards and relevant data based on the overview pages of records. The data displayed is based on the user role of the users.
 -   **[Operational Sustainability Management \(formerly ESG\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/reference-data-esg.md)**  
-The following sections show the roles, tables, and properties installed with the ESG Management application.
+The following sections show the roles, tables, and properties installed with the Operational Sustainability Management application.
 

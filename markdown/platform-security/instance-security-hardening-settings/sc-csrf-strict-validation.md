@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -28,7 +28,7 @@ If the anti-CSRF token is instead tied to one of the user's other active session
 |Configuration type|System Properties \(/sys\_properties\_list.do\)|
 |Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)|
 |Purpose|To enforce strict validation of CSRF token, and prevents its reuse.|
-|Data type|boolean|
+|Data type|Boolean|
 |Recommended value|true|
 |Default value|true|
 |Security risk rating|\(Medium\) Cross site Request Forgery is a significant security risk that violates the integrity of the instance data. An attacker can launch the CSRF attack on any instance user by abusing the trust of the instance user. With the help of social engineering attacks, a user can submit a malformed request to the instance on behalf of the attacker.|

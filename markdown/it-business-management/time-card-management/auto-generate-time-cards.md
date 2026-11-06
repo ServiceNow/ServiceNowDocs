@@ -7,9 +7,9 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a time card, Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create time card, Time cards, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Auto-generate time cards

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record the time worked on a work order task, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Recording time worked, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Modify or delete time worked entries
@@ -36,6 +36,4 @@ Modifying or deleting entries updates existing time cards and generates an updat
 
     -   To modify the entry, make changes to the desired fields and select **Update**.
     -   To delete the entry, select **Delete**.
-
-**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

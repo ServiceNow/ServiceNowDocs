@@ -1,26 +1,22 @@
 ---
 title: Activate Customer Service Management
-description: You can activate the Customer Service plugin \(com.sn\_customerservice\) if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
+description: You can activate the Case Management Core \(com.sn\_customerservice\) plugin, if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ActivateCustomerService.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Activate Customer Service Management
 
-You can activate the Customer Service plugin \(com.sn\_customerservice\) if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
+You can activate the Case Management Core \(com.sn\_customerservice\) plugin, if you have the admin role. This plugin includes demo data and activates related plugins if they aren’t already active.
 
 ## Before you begin
 
 Role required: admin
-
-## About this task
-
-The Customer Service Management plugin activates several related plugins if they aren’t already active. For more information, see [Plugins activated with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/plugins-activated-with-csm.md).
 
 ## Procedure
 
@@ -36,10 +32,6 @@ The Customer Service Management plugin activates several related plugins if they
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
-
-## What to do next
-
-You can activate several related plugins after activating the Customer Service Management plugin \(com.sn\_customerservice\). For details, see [Additional plugins for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
 
 **Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CustomerServiceManagement.md)
 

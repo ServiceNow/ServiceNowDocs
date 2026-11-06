@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage resource assignments from Project Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,13 +24,17 @@ Role required: it\_project\_manager
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Project Workspace** and open a project.
 
-2.  From the project planning pane, double-click the **Planned start date** or **Actual start date** of a project task.
+2.  From the project planning pane, double-click the **Planned start date** or **Planned end date** of a project task to edit the field.
 
-3.  Edit the field and select **Ok**.
+    Use the Resources not synced icon \[Omitted image "resources-not-synced-icon.png"\] Alt text: to synchronize the resource assignments dates with the project dates at a project level.
 
-4.  From the project task row, select the row context menu and then select **Realign assignments to task**.
+3.  Select **Ok**.
 
-    Alternatively, use the Resources not synced icon to synchronize the resource assignments dates with the project dates at a project level. Realign assignments to task related link is available to perform the same action while using forms.
+    If the **sn\_pw.resource\_assignment\_auto\_sync\_enabled** system property is set to true, then the resources sync automatically in the background. The bottom resource pane updates without any action, and the manual sync icon \(resources not synced icon\) is hidden since it's no longer needed. The default value is true. When the property is set to false, manual sync via the icon is still required and resources not synced icon is visible. You must have the pps\_admin role to enable this property.
+
+    Extending a project task does not automatically update the resource assignment end date. The property applies only when the task end date extends beyond the resource assignment date range. In that case, the resource assignment end date updates to match the task end date.
+
+    Alternatively, select more actions context menu and select Realign resource assignments to synchronize the resource assignments dates with the project dates at a project level.
 
 
 ## Result

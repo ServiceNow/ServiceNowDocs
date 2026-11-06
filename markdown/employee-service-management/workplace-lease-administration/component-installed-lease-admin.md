@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Several types of components are installed with activation of the Workplace Lease
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
-## User roles installed with Workplace Lease Administration
+## Roles
 
 <table id="table_lqh_3b4_wvb"><thead><tr><th>
 
@@ -84,7 +84,7 @@ Enables users to access the Workplace Lease Administration application in Workpl
 None
 
 </td></tr></tbody>
-</table>## Tables installed with Workplace Lease Administration
+</table>## Tables
 
 <table id="table_x31_wb4_wvb"><thead><tr><th>
 

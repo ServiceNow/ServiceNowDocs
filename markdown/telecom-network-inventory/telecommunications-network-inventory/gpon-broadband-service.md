@@ -1,5 +1,5 @@
 ---
-title: Designing and assigning a GPON broadband service
+title: Design and assign GPON broadband service
 description: With the Gigabyte Passive Optical Network \(GPON\) Broadband Service change model, you can create an automated set of tasks to fulfill a GPON broadband order request.Needs review and comment by Jijesh.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
-# Designing and assigning a GPON broadband service
+# Design and assign GPON broadband service
 
 With the Gigabyte Passive Optical Network \(GPON\) Broadband Service change model, you can create an automated set of tasks to fulfill a GPON broadband order request.
 
@@ -70,8 +70,8 @@ The following scenarios are handled in the path computation when you execute the
 
 The path computation uses record producers in each change task that is associated with the GPON Broadband Service change model to collect the required data. It collects most of its connection data when you complete the Compute and Create logical connection change task that you created from a GPON Broadband Service change model.
 
-1.  The path search is between the equipment model that you specified for the A connection end of the connection and the equipment model that you specified in the Z end connection.
-2.  The path search is between the equipment model that you specified for the A connection end of the connection and the equipment type that you specified in the Z end connection.
+1.  The path search is between the equipment model specified for the A connection end and the equipment model specified for the Z end connection.
+2.  The path search is between the equipment model specified for the A connection end and the equipment type specified for the Z end connection.
     -   The logical connection model indicates what model of logical connection must be created after the path computation.
     -   The bandwidth refers to the bandwidth table.
     -   The allowed physical connection model captures the physical connection CI model, which can be used to find a path and is added in the path element.

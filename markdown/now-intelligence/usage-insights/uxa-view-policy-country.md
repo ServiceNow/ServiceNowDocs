@@ -1,20 +1,20 @@
 ---
-title: View and update User Experience Analytics consent tracking policies for individual countries
-description: View the consent tracking policy for all countries or select a country to update its existing policy.
+title: View and update an individual country’s consent policy
+description: View a list of all countries with their assigned consent policies and select a country to update its existing policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-view-policy-country.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define how to detect your user's location, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# View and update User Experience Analytics consent tracking policies for individual countries
+# View and update an individual country’s consent policy
 
-View the consent tracking policy for all countries or select a country to update its existing policy.
+View a list of all countries with their assigned consent policies and select a country to update its existing policy.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ Role required: admin
 
     The Countries page displays.
 
-2.  In the page header, right-click to display a menu and select **View** &gt; **User Experience Analytics**
+2.  In the page header, right-click to display a menu and select **View** &gt; **Usage Insights**
 
-    \[Omitted image "uxa-countries-view.png"\] Alt text: How to view User Experience Analytics polices according to country.
+    \[Omitted image "uxa-countries-view.png"\] Alt text: How to view Usage Insights polices according to country.
 
     The selected view displays all countries and their allocated consent tracking policies.
 
@@ -41,5 +41,5 @@ Role required: admin
 6.  Select **Update**.
 
 
-**Parent Topic:**[Define how to detect your user's location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-define-detect-location.md)
+**Parent Topic:**[Types of tracking consent policies in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
 

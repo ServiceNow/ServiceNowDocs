@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity scoping, Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -35,7 +35,7 @@ Role required:
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_cyx_ljg_lw"><tbody><tr><td id="d292020e131">
+<table id="choicetable_cyx_ljg_lw"><tbody><tr><td id="d395434e128">
 
 **To specify that the current entity is downstream of another entity**
 
@@ -43,7 +43,7 @@ Role required:
 
 Click the **Add** button in the **Upstream entities** related list.
 
-</td></tr><tr><td id="d292020e146">
+</td></tr><tr><td id="d395434e143">
 
 **To specify that the current entity is upstream of another entity**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cse-turn-on-cse.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
 # Configure Code Signing Enterprise on your trusted instance
@@ -32,7 +32,7 @@ You must have at least one cryptographic key pair and certificate \(p12 file ext
 
 ## Procedure
 
-1.  On your trusted instance, navigate to **All** &gt; **Code Signing** &gt; **Code Signing Configuration** to open the Code Signing configuration page.
+1.  On your trusted instance, navigate to **All** &gt; **Code Signing** &gt; **Configuration** &gt; **Guided Setup** to open the Code Signing configuration page.
 
 2.  In the **Instance type** field, select **trusted instance**.
 
@@ -58,15 +58,7 @@ You must have at least one cryptographic key pair and certificate \(p12 file ext
 
 12. Select **Continue** to move to the next section.
 
-13. In the **Perform trusted tasks** section, wait for all tasks to be completed.
-
-    Your instance generates and executes these tasks automatically. If you used Code Signing prior to the Vancouver release, tasks are created and executed to update your signatures.
-
-    In some cases, no tasks are needed. **No tasks needed** displays on this page.
-
-14. Select **Continue** to move to the next section.
-
-15. On the **Export Configuration** file page, select **Export** to create and download a configuration file used to turn on Code Signing on your protected instance.
+13. On the **Export Configuration** file page, select **Export** to create and download a configuration file used to turn on Code Signing on your protected instance.
 
     The export process downloads an XML file to your local machine for use in the steps details in [Configure Code Signing Enterprise on your protected instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cse-ppi-config.md).
 

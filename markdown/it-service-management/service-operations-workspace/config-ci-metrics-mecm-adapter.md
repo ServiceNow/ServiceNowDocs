@@ -7,18 +7,22 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation, Setting up Investigation Framework in Service Operations Workspace, Setting up integrations in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Configuring CI metrics for Microsoft Endpoint Configuration Manager for Investigation
 
 Configure the display of the metrics for Microsoft Endpoint Configuration Manager for Investigation.
 
+**Important:**
+
+Starting with the Brazil release, Microsoft Endpoint Configuration Manager for Investigation is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 You must ensure the following requirements:
 
--   Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application must be installed along with the investigation framework applications. For more information, see [Install Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/install-mecm-adapter.md) and [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
+-   Microsoft Endpoint Configuration Manager for Investigation \(sn\_mecm\_adapter\) application must be installed along with the investigation framework applications. For more information, see [Install Microsoft Endpoint Configuration Manager\(MECM\) for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/install-mecm-adapter.md) and [Components installed with Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/components-installed-mecm-adapter.md).
 -   Microsoft Endpoint Configuration Manager Spoke \[sn\_ms\_epcfgmgr\_spk\] must be installed and configured. For more information, see [Microsoft Endpoint Configuration Manager spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/ms-endpoint.md) and [Microsoft SCCM integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_MicrosoftSCCMIntegration.md).
 -   Microsoft Endpoint Configuration Manager server must be logged in using the Microsoft remote desktop.
 
@@ -34,9 +38,9 @@ Configure the display of the asset utilization metrics for Microsoft Endpoint Co
 Configure the top processes by CPU and top processes by memory metrics for Microsoft Endpoint Configuration Manager for Investigation.
 -   **[Configure services metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-services-metrics.md)**  
 Configure the services metrics for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
--   **[Configure logged in users metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-logged-in-users-metrics.md)**  
-Configure the display of the logged in users metrics for Microsoft Endpoint Configuration Manager for Investigation.
--   **[Configure Installed application metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-install-app-metrics.md)**  
+-   **[Configure logged-in users metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-logged-in-users-metrics.md)**  
+Configure the display of the logged-in users metrics for Microsoft Endpoint Configuration Manager for Investigation.
+-   **[Configure installed application metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-install-app-metrics.md)**  
 Configure the display of the installed application metrics for Microsoft Endpoint Configuration Manager for Investigation.
 -   **[Configure remedial action - Restart Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-ra-restart-service.md)**  
 Configure the Restart Service remedial action for Microsoft Endpoint Configuration Manager for Investigation \(MECM\).
@@ -49,5 +53,5 @@ Extend the hardware inventory to add the CMPivot entity on the CMPivot entity li
 -   **[Verify a CMPivot entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-cmpivot-entity.md)**  
 Verify a CMPivot entity and its attributes to configure the display of the CI metrics information on the Investigation tab of the Incident record.
 
-**Parent Topic:**[Setting up investigation framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
+**Parent Topic:**[Setting up Investigation Framework using Microsoft Endpoint Configuration Manager for Investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/set-up-investigate-fw-mecm.md)
 

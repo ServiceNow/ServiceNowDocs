@@ -1,18 +1,18 @@
 ---
 title: Real time transcriptions for ServiceNow Voice for IT Service Management
-description: Agents can see a transcript of voice calls while interacting with customers. Real time transcription enable agents to better understand caller issues, and managers to gain insights into caller trends and agent training gaps.
+description: Agents can see a transcript of voice calls while interacting with customers. Real time transcription allows agents to better understand caller issues, and allows managers to gain insights into caller trends and agent training gaps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/using-voice-rtt-itsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating ServiceNow Voice with ITSM, Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Real time transcriptions for ServiceNow Voice for IT Service Management
 
-Agents can see a transcript of voice calls while interacting with customers. Real time transcription enable agents to better understand caller issues, and managers to gain insights into caller trends and agent training gaps.
+Agents can see a transcript of voice calls while interacting with customers. Real time transcription allows agents to better understand caller issues, and allows managers to gain insights into caller trends and agent training gaps.
 
 ## Inbound call example flow for customers and agents
 

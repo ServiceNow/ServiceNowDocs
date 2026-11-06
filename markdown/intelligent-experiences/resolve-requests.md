@@ -1,38 +1,41 @@
 ---
 title: Platform Generate resolution plan agentic workflow
-description: Use the Platform Generate resolution plan AI agents agentic workflow to fetch task record details, generate resolution summary steps, and update comments or work notes.
+description: Use the Platform Generate resolution plan agentic workflow to fetch task record details, generate resolution summary steps, and update comments or work notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/resolve-requests.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-18"
-reading_time_minutes: 7
-breadcrumb: [Platform agentic workflows, Now Assist agentic workflows, Now Assist AI assets, Enable AI experiences]
+last_updated: "2026-10-27"
+reading_time_minutes: 8
+keywords: [generate resolution plan]
+breadcrumb: [Platform agentic workflows, Agentic workflows, AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Platform Generate resolution plan agentic workflow
 
-Use the Platform Generate resolution plan AI agents agentic workflow to fetch task record details, generate resolution summary steps, and update comments or work notes.
+Use the Platform Generate resolution plan agentic workflow to fetch task record details, generate resolution summary steps, and update comments or work notes.
 
 ## Generate resolution plan overview
 
 The Generate resolution plan agentic workflow can help resolve tasks by collecting record details and generating resolution summaries that can be added to comments or work notes. Due to the dynamic nature of AI agents, this agentic workflow can be used for tasks that require complex logic even when provided with minimal details.
 
-The agents, tools, and triggers that are associated with the Generate resolution plan agentic workflow are provided by Now Assist applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the Now Assist panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+The agents, tools, and triggers that are associated with the Generate resolution plan agentic workflow are provided by AI applications. You can [activate the agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/activate-aia-use-case.md) by making triggers active and setting the display settings to include the ServiceNow Otto panel. If you want to change this agentic workflow's instructions, you must [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/clone-aia-usecase.md), adjust the settings to suit your specific needs, and activate the duplicated version of the agentic workflow instead.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-native-sku-overview.md).
 
 ## Prerequisites and setup
 
-To access this workflow, you must have Now Assist for Platform installed on your instance, which you can get if you install any other Now Assist application, such as ServiceNow Otto for IT Service Management \(ITSM\).
+To access this workflow, you must have ServiceNow Otto for Platform installed on your instance, which you can get if you install any other AI application.
 
 For this agentic workflow to behave as expected, you must also configure Group Action Framework \(GAF\). See [Set up AI Search for Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/setup-ai-search-gaf.md) and [Configure Group Action Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-gaf.md) for more information on getting started with GAF.
 
-## Role masking
+## Role filtering
 
 Required role: sn\_uxc\_gen\_ai.platform\_ai\_grp\_workflow.
 
-[Role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/aia-role-masking.md) enables users to limit the roles and privileges of agentic workflows during tool execution. Agentic workflows and their AI agents that get installed with Now Assist applications are assigned pre-defined roles. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. Data access settings must also include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/define-sec-controls-aw.md).
+Agentic workflows and their AI agents use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/aia-role-masking.md) to determine which users can access them. Ones installed with your applications have specific roles that come included with the application. If you select **Users with specific roles** for user access, you must configure the security controls to include these roles. For the instructions to change the security controls, see [Define security controls for an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/define-sec-controls-aw.md).
 
-In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access for potential resolution plans. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
+In the data access settings, you must also add the necessary roles to enable reading of the tables for the records you want to access. For example, you can add the itil role to the agentic workflow's list of approved roles so that it can access Incident records.
 
 ## Additional configuration
 
@@ -93,14 +96,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-script\_to\_run
-
-</td><td>
-
-Optional script to run when the Next Best Action Recommender executes
-
-</td></tr><tr><td>
-
 Search Mode
 
 </td><td>
@@ -111,11 +106,51 @@ Options include Keyword, Semantic, or Hybrid. Keyword-based searches look at ind
 
 </td></tr><tr><td>
 
+Include Decomposition Agent in the workflow
+
+</td><td>
+
+Determines whether the Decomposition Agent, one of the agents in the workflow, is used. If this is unselected, the Next best action recommendation AI agent still runs.
+
+</td></tr><tr><td>
+
+use\_websearch
+
+</td><td>
+
+Enables the agentic workflow to use web searches to help collect relevant information for generating the resolution plan
+
+</td></tr><tr><td>
+
+AIS Semantic Indexed Names
+
+</td><td>
+
+???A
+
+</td></tr><tr><td>
+
+script\_to\_run
+
+</td><td>
+
+Optional script to run when the Next best action recommendation AI agent executes
+
+</td></tr><tr><td>
+
+save\_activity
+
+</td><td>
+
+Determines whether a tool creates an activity record on the sys\_aia\_agent\_execution\_activity table when saving resolution notes
+
+</td></tr><tr><td>
+
 AIS Search Profile
 
 </td><td>
 
-Profile for AI search, such as Now Assist in Virtual Agent.
+Profile for AI search, such as ServiceNow Otto for Virtual Agent.
 
 </td></tr><tr><td>
 
@@ -143,14 +178,6 @@ Fields used by AI Search to determine what work a user has
 
 </td></tr><tr><td>
 
-use\_websearch
-
-</td><td>
-
-Enables the agentic workflow to use web searches to help collect relevant information for generating the resolution plan
-
-</td></tr><tr><td>
-
 AI Search Matching Threshold
 
 </td><td>
@@ -165,35 +192,24 @@ Table
 
 Table which has the records you want to generate resolution plans for
 
-</td></tr></tbody>
-</table><table><thead><tr><th>
-
-Config field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-agent
-
-</td><td>
-
-Name of the AI agent to use for generating resolution actions
-
 </td></tr><tr><td>
 
-tablesinfo
+Related List Tables
 
 </td><td>
 
-Table information for providing context for generated action steps
+Tables which contain related records that you want the AI agent to explore before generating resolution plans
 
 </td></tr></tbody>
 </table>## Accessing the Generate resolution plan agentic workflow
 
-To access the agentic workflow:
+To access the agentic workflow in AI Agent Studio:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Agentic Solutions**.
+2.  Select the **Agentic workflows** tab.
+3.  Select **Generate Resolution Plan**.
+
+To access the agentic workflow in the legacy AI Agent Studio:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
 2.  Select **Generate Resolution Plan**.
@@ -202,11 +218,11 @@ The first step of the guided setup includes a complete list of included AI agent
 
 ## In-product agentic AI and UI actions
 
-Agentic workflows can be accessed in the Core UI and in workspaces in the AI Workflows panel. From there, you can track their progress, provide or review input, and see the results of the work performed. For more information, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/in-product-agentic-ai.md) for more details about the AI Workflows panel.
+Agentic workflows can be accessed in the Core UI and in workspaces in the AI Activity panel. From there, you can track their progress, provide or review input, and see the results of the work performed. For more information, see [In-product agentic AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/in-product-agentic-ai.md) for more details about the AI Activity panel.
 
 To enable users to access agentic workflows with UI actions, you can open the agentic workflow in AI Agent Studio and navigate to the **Select channels and access** step. You can select a UI action as a possible way to access the workflow
 
-If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`.
+If you don't see your UI actions after configuring it in AI Agent Studio, ensure that the property **com.glide.agentic\_processes\_view.enabled** is set to `true`. See [Enable the in-product experience for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/enable-inproduct-aia.md).
 
 ## Testing the Generate Resolution Plan agentic workflow
 
@@ -216,11 +232,21 @@ If you want to evaluate the agentic workflow over many different execution logs,
 
 ## Sample utterance
 
-After the workflow has been activated in AI Agent Studio, enter these or similar phrases in the Now Assist panel to trigger the workflow. You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
+After the workflow has been activated in AI Agent Studio, enter these or similar phrases in the ServiceNow Otto panel to trigger the workflow. You must have the sn.now\_assist\_panel\_user role to run the workflow. You can also run this workflow on the Testing page of AI Agent Studio with the same utterance in the Task field if you have the sn.aia\_admin role.
 
 -   Generate resolution plan for INC0001
 -   Create detailed resolution steps for INC0001
 -   Resolve INC0001
+
+## UI action
+
+After upgrading to the latest version of the Generate resolution plan agentic workflow, previous UI actions associated with the workflow may need to be recreated.
+
+1.  Find the UI action in the UI Action \[sys\_ui\_action\] table by searching for "Generate Resolution Plan".
+2.  Deactivate the existing UI action.
+3.  Repair the sn-ai-engagement-experience plugin.
+4.  Ensure that the **com.glide.agentic\_processes\_view.enabled** system property is enabled.
+5.  Open the agentic workflow in AI Agent Studio, scroll down to the **Channels** section, and add a new UI action.
 
 ## AI agents used in the Generate resolution plan agentic workflow
 
@@ -231,7 +257,7 @@ The following table lists the agents that are used in the Generate resolution pl
 |AI agent name|AI agent description|Role required|
 |-------------|--------------------|-------------|
 |Next best action recommendation AI agent|Identifies the steps for resolving tasks by referencing the similar task details and reviewing knowledge articles.|sn\_uxc\_gen\_ai.platform\_ai\_next\_best\_action|
-|Resolution Action AI Agent|Analyzes and breaks down each previous resolution step into smaller, actionable substeps, then creates records|sn\_uxc\_gen\_ai.platform\_ai\_resolution\_action\_ai\_agent|
+|Resolution Task Generation AI agent|Analyzes and breaks down each previous resolution step into smaller, actionable substeps, then creates records|sn\_uxc\_gen\_ai.platform\_ai\_resolution\_action\_ai\_agent|
 
 ## Other Platform agentic workflows
 

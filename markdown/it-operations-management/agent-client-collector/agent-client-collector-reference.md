@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Framework reference
@@ -20,6 +20,8 @@ Reference topics provide additional information about mapping and fine-tuning ap
 Administrators can assign user roles to grant access to the Agent Client Collector. The following standard roles for the Agent Client Collector Framework \(ACC-F\) are included in the ServiceNow system with the Agent Client Collector installed on it.
 -   **[Agent Client Collector Framework default checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-framework-checks-policies.md)**  
 Agent Client Collector Framework provides default checks with the base system.
+-   **[Agent Client Collector diagnostic self tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-agent-self-tests.md)**  
+The following table describes each diagnostic self-test that runs in the Agent Self Test Run \(`sn_agent_self_test_run`\) table.
 -   **[Agent Client Collector performance and footprint for URL monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-footprint-url-monitoring.md)**  
 The following tables display the agent performance KPIs and its footprint on the host during URL monitoring data collection execution on different operation systems.
 -   **[Agent Client Collector certificate revocation reasons](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/certificate-revocation-reasons.md)**  
@@ -42,8 +44,6 @@ Call the AgentNowHandler.hasAgent API to determine if the CI is associated with 
 Options available in the `acc.yml` configuration file.
 -   **[Synchronization properties for validating Agent Client Collector plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/plugin-validation-reference.md)**  
 Use the following properties when synchronizing public certificates from the MID Server to the Agent Client Collector.
--   **[ACC Error Task page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/error-task-page.md)**  
-The fields to be configured on the ACC Error Task page.
 -   **[Agent Client Collector statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-statuses.md)**  
 The following table lists and describes the Agent Client Collector statuses.
 -   **[Agent Client Collector log levels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-logs-reference.md)**  
@@ -66,6 +66,8 @@ System properties that control Agent Client Collector upgrade behavior, includin
 Error codes generated during Agent Client Collector upgrades, with descriptions and resolution steps.
 -   **[Supported platforms for Agent Client Collector auto-upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-agent-upgrade-platforms.md)**  
 Operating systems and package types supported for Agent Client Collector auto-upgrade, and the minimum agent version required.
+-   **[MSI installation parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/msi-installation-parameters.md)**  
+The following table describes the MSI parameters used when preparing an agent for installation on a gold image and used with a non-persistent virtual desktop infrastructure \(NPVDI\) machine.
 
-**Parent Topic:**[Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-framework-landing-page.md)
+**Parent Topic:**[Agent Client Collector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-reference.md)
 

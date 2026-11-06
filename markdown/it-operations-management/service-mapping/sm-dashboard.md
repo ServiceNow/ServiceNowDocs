@@ -7,8 +7,8 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -20,19 +20,43 @@ The Service Mapping workspace provides a central location to streamline the proc
 
 Navigate to **Workspaces** &gt; **Service Mapping**.
 
+## Required roles
+
+|Role|Description|
+|----|-----------|
+|service\_mapping\_admin|Required to access the Service Mapping Workspace.|
+
 ## Key features and capabilities
 
--   **Machine Learning \(ML\) readiness** - Confirm that your Machine Learning environment is prepared before you start to map application services.
--   **Detailed service maps** - Drill down for detailed information on service maps across various categories.
--   **Automated Service Suggestions** - Leverage Automated Service Suggestions to evaluate suggested application service candidates, using them to create application services or enhance existing ones.
--   **Improved resource utilization** - Use unmapped servers linked to an application service candidate to create application services.
--   **Tag-based service mapping** - Use the Tag-based mapping dashboard to map your organization's configuration items \(CIs\) into application services.
+-   **Machine Learning \(ML\) readiness**
+
+    Confirm that your Machine Learning environment is prepared before you start to map application services.
+
+-   **Detailed service maps**
+
+    Drill down for detailed information on service maps across various categories.
+
+-   **Automated Service Suggestions**
+
+    Leverage Automated Service Suggestions to evaluate suggested application service candidates, using them to create application services or enhance existing ones.
+
+-   **Improved resource utilization**
+
+    Use unmapped servers linked to an application service candidate to create application services.
+
+-   **Tag-based service mapping**
+
+    Use the Tag-based mapping dashboard to map your organization's configuration items \(CIs\) into application services.
+
+-   **Create a service instance or a unified service**
+    -   Create a service instance to leverage your resources in unmapped services.
+    -   Create a unified service from various sources. For more information, see: [Multi-source service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/multi-source-service-mapping.md).
 
 **Important:**
 
 Access to tag-based service mapping in the Service Mapping workspace requires the installation of Service Mapping Plus version 1.16.3. For more information, see [Install Service Mapping Plus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/install-service-mapping-plus.md).
 
-## Key Metrics
+## Key metrics
 
 -   **Mapped application services**
 
@@ -42,10 +66,24 @@ Access to tag-based service mapping in the Service Mapping workspace requires th
 
     The number of application service candidates identified using the Automated Service Suggestions feature.
 
+    **Note:** Starting with Service Mapping Plus version 1.16.3, the filtering process has been updated to include only the most relevant candidates, excluding any ignored or irrelevant ones. This enhancement requires the installation of ITOM Content Service.
+
 -   **Mapped servers**
 
-    The number of servers currently linked to an application service. Select to view information such as operational status and owner.
+    The number of servers currently linked to an application service. Select the tile to view information such as operational status and owner. The **Mapped servers** tile is replaced with ServiceNow Otto metrics, once ServiceNow Otto is installed.
 
+-   **Maps created by ServiceNow Otto**
+
+    The number of service maps created by ServiceNow Otto. Select the tile to view the [Service Mapping AI Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md). This tile is available only when ServiceNow Otto is installed.
+
+-   **Business app linked to service instance**
+
+    The number of business applications with a CSDM relationship linked to a service instance. Select to view the [Business App Map Agent activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)This tile is available only when ServiceNow Otto is installed.
+
+
+## Service Mapping AI Agents
+
+When ServiceNow Otto is installed, the **Service Mapping home** page displays the AI Agent activation panel. Use this panel to activate or deactivate AI agents that automate service mapping tasks. For more information, see [AI Agents for Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/service-mapping-ai-agents.md).
 
 ## Reports
 
@@ -79,7 +117,7 @@ Bar report
 
 </td><td>
 
-cmdb\_ci\_service\_discovered
+Mapped Application Service \[cmdb\_ci\_service\_discovered\]
 
 </td><td>
 
@@ -97,7 +135,7 @@ Pie report
 
 </td><td>
 
-cmdb\_ci\_service\_discovered
+Mapped Application Service \[cmdb\_ci\_service\_discovered\]
 
 </td><td>
 
@@ -115,7 +153,7 @@ Bar report
 
 </td><td>
 
-cmdb\_ci\_service\_discovered
+Mapped Application Service \[cmdb\_ci\_service\_discovered\]
 
 </td><td>
 
@@ -143,27 +181,54 @@ Server \[cmdb\_ci\_server\]
 
 A bar report that presents unmapped servers that have been matched to an application service candidate as well as those servers with no candidate.
 
- Select **Unmapped servers with candidate** to view servers you can use to create an application service. For more information, see [Create an application service for unmapped servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/unmapped-servers.md).
+ Select **Unmapped servers with candidate** to view servers you can map to an application service. For more information, see [Create an application service for unmapped servers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/unmapped-servers.md).
+
+</td></tr><tr><td>
+
+Unmapped servers**Note:** This view is available starting with Service Mapping Plus version 1.16.3.
+
+</td><td>
+
+Bar report
+
+ \[Omitted image "icon-bar-report-p.png"\] Alt text:
+
+</td><td>
+
+Server \[cmdb\_ci\_server\]
+
+ Service Configuration Item Association \[svc\_ci\_assoc\]
+
+ Application service candidate \[sa\_ml\_application\_service\_candidate\]
+
+</td><td>
+
+A bar report that presents the number of unmapped servers, divided into two categories:
+
+-   **Unmapped servers with candidate** - servers that have been matched to an application service candidate.
+-   **Unmapped servers without relevant candidate** - servers that have no candidate.
+
+ **Note:** Starting with Service Mapping Plus version 1.16.3, the filtering process has been updated to include only the most relevant candidates, excluding any ignored or irrelevant ones. This enhancement requires the installation of ITOM Content Service.
 
 </td></tr></tbody>
 </table>## Additional components
 
--   **Populate data**
+-   **Refresh icon**
 
     You can select this button to refresh the page and update the displayed information to reflect the most recent data.
 
 -   **Search for server**
 
-    You can locate a specific server using this field by entering the server name to see a list of options. Selecting the server you want from the list, and then **Search**, takes you to the **Mapped Server** page. Select the server name for more detailed information.
+    You can use this field to locate a specific server and review it's detailed information.
 
 
 ## Tag-based service mapping
 
-Select the Tag-based service mapping icon \[Omitted image "tag-outline-24.svg"\] to access the Tag-based service mapping dashboard. Here you can categorize and map your organizaton's on-prem and cloud resources into application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md).
+Select the Tag-based service mapping icon \[Omitted image "tag-outline-24.svg"\] Alt text: to access the Tag-based service mapping dashboard. Here you can categorize and map your organizaton's on-prem and cloud resources into application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md).
 
 ## Application service readiness dashboard
 
-Select the Application service readiness icon \[Omitted image "icon-clipboard-check.png"\] to access the Application service readiness dashboard.
+Select the Application service readiness icon \[Omitted image "icon-clipboard-check.png"\] Alt text: to access the Application service readiness dashboard.
 
 Use this dashboard to ensure you have enabled Predictive Intelligence, verify Machine Learning readiness, and confirm that your data has been trained.
 
@@ -179,4 +244,6 @@ For more information about application readiness, see [Application service readi
 [Map application services based on Automated Service Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/map-application-suggestion.md)
 
 [Name suggestions for application service candidates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/app-services-name-suggestions.md)
+
+[Map your application services using tags in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/map-tag-based-services-workspace.md)
 

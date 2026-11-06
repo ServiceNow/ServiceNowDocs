@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a contract for your leased enterprise assets
@@ -42,7 +42,7 @@ The following steps describe how to create contracts for leased enterprise asset
 
     Before you can build terms and conditions for a lease contract, you must create a terms and conditions record and add it to the contract. For detailed instructions on how to create a terms and conditions record, see [Create a terms and conditions record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_CreateATermsAndConditionsRecord.md). For detailed instructions on how to add a terms and conditions record to a contract, see [Add terms and conditions to a contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_AddTermsAndConditionsToAContract.md).
 
-    1.  On the lease contract record header, select the More Actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions icon.\).
+    1.  On the lease contract record header, select the More Actions icon \[Omitted image "more-actions-icon.png"\] Alt text:.
 
     2.  When prompted, select **Build Terms and Conditions**.
 

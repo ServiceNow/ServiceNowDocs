@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/testpub-updat-ios-app-priv.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Update a branded app, Request, test, and publish a branded mobile app, Publish mobile apps with custom branding, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Update a branded app, Request, test, &amp; publish, Custom branded apps, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Test and publish an updated iOS app for private distribution

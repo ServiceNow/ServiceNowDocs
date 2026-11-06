@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Components installed with Software Asset Management Professional
@@ -42,7 +42,7 @@ Software Asset Management administrator \[sam\_admin\]
 
 </td><td>
 
-This role has full access to the Software Asset Management application. This role is required to import entitlements, manage reclamation rules, run reconciliation, create custom products and pattern normalization rules, set up Content Service, and other administrative features.
+Granular admin role that has full access to the Software Asset Management application. This role is required to import entitlements, manage reclamation rules, run reconciliation, create custom products and pattern normalization rules, set up Content Service, and other administrative features.
 
 </td><td>
 
@@ -87,7 +87,7 @@ SaaS License Management integration administrator\[sam\_integrator\]
 
 </td><td>
 
-Role required to create and manage SaaS integration profiles.
+Granular admin role required to create and manage SaaS integration profiles.
 
 </td><td>
 
@@ -134,8 +134,8 @@ Now Support Service Portal
 
 </td><td>
 
-Requires subscription. Provides the capability to normalize software discovery information, reconcile entitlements with installs, and reclaiming unused software. Provides additional capabilities to reconcile publisher products. Loads the following plugins in one step:-   Software Asset Management Professional \(com.sn\_samp\_master\) plugin
--   Software Asset Workspace \(com.sn\_sam\_workspace\)
+Requires subscription. Provides the capability to normalize software discovery information, reconcile entitlements with installs, and reclaiming unused software. Provides additional capabilities to reconcile publisher products. Loads the following plugin and store application in one step:-   Software Asset Management Professional \(com.sn\_samp\_master\) plugin
+-   Software Asset Workspace \(sn\_sam\_workspace\) store application.
 
 </td></tr><tr><td>
 
@@ -147,25 +147,13 @@ Now Support Service Portal
 
 </td><td>
 
-This plugin is for releases prior to Yokohama. Loads the following Software Asset Management Professional plugins in one step:
+This plugin is for releases prior to Brazil. Loads the following Software Asset Management Professional plugins in one step:
 
  -   Software Asset Management Professional \(com.snc.samp\) plugin
 -   All publisher pack add-on plugins
 -   Software Asset Management UI Components \(com.sn\_samp\_workbench\)
 
  **Note:** To enable SaaS License Management, you must request the Software Asset Management — SaaS License Management \(sn\_sam\_saas\_int\) plugin separately from the ServiceNow Store. See [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md) for information on how to request and activate this plugin.
-
-</td></tr><tr><td>
-
-Software Asset Workspace \(com.sn\_sam\_workspace\)
-
-</td><td>
-
-Now Support Service Portal
-
-</td><td>
-
-This plugin is for releases prior to Yokohama. Required to use the Software Asset Workspace, the new user interface of the Software Asset Management application.
 
 </td></tr><tr><td>
 
@@ -333,7 +321,7 @@ Now Support Service Portal
 
 </td><td>
 
-Provides additional capabilities to reconcile Oracle software, such as Oracle DB Server.
+Provides additional capabilities to reconcile Oracle software, such as Oracle Database.
 
 </td></tr><tr><td>
 

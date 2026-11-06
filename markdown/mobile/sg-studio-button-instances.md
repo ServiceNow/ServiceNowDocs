@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-studio-button-instances.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -158,7 +158,7 @@ The top icon function is a button location on the record screen top app bar. Use
 
 </td><td>
 
-\[Omitted image "top-icon-function-button-instance.png"\] Alt text: Image of top icon function mobile screen
+\[Omitted image "top-icon-function-button-instance.png"\] Alt text: Image of top icon function displaying in a mobile screen
 
 </td></tr></tbody>
 </table>## Custom map bottom drawer functions

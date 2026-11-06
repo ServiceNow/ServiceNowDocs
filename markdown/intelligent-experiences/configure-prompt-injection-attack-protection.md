@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configure-prompt-injection-attack-protection.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, prompt injection attck prevention, Generative AI, GenAI, Guardian, Admin, Detection impact]
-breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [AI Guardian, AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure prompt injection attack protection
@@ -44,5 +44,5 @@ You can export logs for review. For more information, see [Export Now Assist Gua
 
 Prompt injection detection is configured on your instance. When enabled, you see a standard error message when an attack is detected.
 
-**Parent Topic:**[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Guardian](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-guardian.md)
 

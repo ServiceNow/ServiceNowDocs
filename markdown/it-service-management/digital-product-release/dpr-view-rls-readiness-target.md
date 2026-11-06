@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -38,15 +38,15 @@ Role required: sn\_dpr\_model.release\_admin
 
 5.  Select a release readiness target from the calendar, list view, or agenda view pane, to open.
 
-<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d114451e101">
+<table id="choicetable_n1l_1nq_d1c"><thead><tr><th align="left" id="d181148e101">
 
 Option
 
-</th><th align="left" id="d114451e104">
+</th><th align="left" id="d181148e104">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114451e110">
+</th></tr></thead><tbody><tr><td id="d181148e110">
 
 **From the calendar view**
 
@@ -56,7 +56,7 @@ Steps
 2.  On the calendar, select the release target item on a date.
 
 
-</td></tr><tr><td id="d114451e134">
+</td></tr><tr><td id="d181148e134">
 
 **From the List view**
 
@@ -66,7 +66,7 @@ Steps
 2.  Select a release target from the list.
 
 
-</td></tr><tr><td id="d114451e158">
+</td></tr><tr><td id="d181148e158">
 
 **From the Agenda View pane**
 

@@ -1,16 +1,16 @@
 ---
-title: Submit a sales promotion single claim
+title: Submit a sales promotion claim
 description: As a dealer, submit a single sales promotion claim request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-sales-promotion-single-claim.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales promotion for the dealer, Dealer management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Sales promotion for the dealer, Dealer portal, Use, Manufacturing Commercial Operations]
 ---
 
-# Submit a sales promotion single claim
+# Submit a sales promotion claim
 
 As a dealer, submit a single sales promotion claim request.
 
@@ -38,7 +38,7 @@ Role required: manufacturing operations admin \(sn\_mfg\_cmn.manufacturing\_oper
 
 4.  Select the incentives.
 
-5.  Fill in the required fields.
+5.  Enter the incentive percentage.
 
 6.  Select **Submit**.
 

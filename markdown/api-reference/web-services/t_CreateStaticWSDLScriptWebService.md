@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a scripted SOAP web service using a static WSDL, Scripted SOAP web services, SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Creating with static WSDLs, Scripted Services, SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Create a scripted web service using a static WSDL

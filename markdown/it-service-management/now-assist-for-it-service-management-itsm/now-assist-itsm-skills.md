@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
@@ -21,7 +21,7 @@ Get a quick overview of the skill inputs and triggers for ServiceNow Otto for IT
 
 Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an incident summary. A trigger initiates an action, such as when the system generates a chat summary.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Incident sentiment analysis skill
 
@@ -174,7 +174,7 @@ Additional fields
 -   Resolution notes
 
 </td></tr></tbody>
-</table>In addition to the tables and fields listed in the table above, the tables and fields listed in the following table are also used as inputs for prompts to generate Major Incident email content recommendation.
+</table>In addition to the tables and fields listed in the table above, the tables and fields listed in the table below are also used as inputs for prompts to generate Major Incident email content recommendation.
 
 <table id="table_gwr_21v_rfc"><thead><tr><th>
 
@@ -192,9 +192,9 @@ Task SLA \[task\_sla\]
 
 -   Target
 -   Stage
--   Actual time left
--   Business time left
--   Has breached
+-   Actual Time left
+-   Business Time left
+-   Has Breached
 -   Pause duration
 -   Pause time
 
@@ -831,6 +831,305 @@ Input fields
 -   Model type
 -   Similar change requests and the incidents caused by those changes
 -   Risk condition that was met
+
+</td></tr></tbody>
+</table>## Change risk assessment answer generator skill
+
+The change risk assessment answer generator skill includes the triggers and inputs that identify when and how a suggested answer is generated for a change risk assessment question. For more information, see [Generate change risk assessment answers by using ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/generate-change-risk-assessment-answers-now-assist.md).
+
+You can customize this skill's input data sources and the change request fields it reads. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+
+The following table lists the triggers for the change risk assessment answer generator skill.
+
+|Trigger|Description|
+|-------|-----------|
+|Generate Answers|Selected in the **Generate Risk Assessment Using Otto** dialog. Open the dialog by selecting **Risk Assessment** under **Related Links** in Core UI, or by selecting **Assess Risk** in the **Risk Evaluation** section in Service Operations Workspace for ITSM \(version 9.2 or later\).|
+
+The following table lists the inputs for the change risk assessment answer generator skill.
+
+<table id="table_change_risk_answer_generator_inputs"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+change\_request
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+A fixed set of fields from the change request record. To view or change which fields are included, update the `sn_itsm_gen_ai.com.snc.asmt_answer_generator.change_request_fields` system property. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+
+</td></tr><tr><td>
+
+Related data sources
+
+</td><td>
+
+Records from the following default **AI Risk Data Sources**: -   Related Affected CIs for change request
+-   Related Impacted Services for change request
+-   Related Impacted Business Applications for change request
+-   Related Service Offerings for change request
+-   Active change tasks linked to change request
+-   Outages linked to change request
+
+ You can create, modify, or deactivate data sources. For more information, see [Customize the change risk assessment answer generator skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-assessment-skill.md).
+
+</td></tr></tbody>
+</table>## Request summarization skill
+
+The request summarization skill includes the inputs that identify the table and fields that are used when a request summary is generated.
+
+<table id="table_xcm_qp3_g3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Request \[sc\_request\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Number
+-   Description
+-   Short description
+-   Opened
+-   Due date
+-   Additional comments
+-   Work notes
+-   Priority
+-   Urgency
+-   Approval
+-   State
+-   Opened by
+-   Requested for
+-   Requested for → Department
+-   Parent
+-   Price
+-   Request state
+
+</td></tr></tbody>
+</table>## Request activity response generation skill
+
+The request activity response generation skill includes the inputs that identify the table and fields that are used when the request activity response is generated.
+
+In this release, you can't modify the input data source. The data source contains the tables and fields that the skill relies on.
+
+The following table lists the inputs for the request activity response generation skill.
+
+<table id="table_imm_rs3_g3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Request \[sc\_request\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Short description
+-   Description
+-   Priority
+-   Work notes
+-   Additional comments
+-   Updated
+
+</td></tr></tbody>
+</table>## Requested item summarization skill
+
+The requested item summarization skill includes the inputs that identify the table and fields that are used when a requested item summary is generated.
+
+<table id="table_hnp_tt3_g3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Requested item \[sc\_req\_item\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Item → Name
+-   Item → Description
+-   Requested for → Name
+-   Requested for → Department
+-   Stage
+-   State
+-   Urgency
+-   Priority
+-   Quantity
+-   Price
+-   Recurring price
+-   Recurring price frequency
+-   Due date
+-   Work notes
+-   Additional comments
+
+</td></tr></tbody>
+</table>## Requested item activity response generation skill
+
+The requested item activity response generation skill includes the inputs that identify the table and fields that are used when the requested item activity response is generated.
+
+In this release, you can't modify the input data source. The data source contains the tables and fields that the skill relies on.
+
+The following table lists the inputs for the requested item activity response generation skill.
+
+<table id="table_em5_353_g3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Requested item \[sc\_req\_item\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Short description
+-   Description
+-   Priority
+-   Work notes
+-   Additional comments
+-   Updated
+
+</td></tr></tbody>
+</table>## Catalog task summarization skill
+
+The catalog task summarization skill includes the inputs that identify the table and fields that are used when a catalog task summary is generated.
+
+<table id="table_lp3_x53_g3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Catalog task \[sc\_task\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Number
+-   Short description
+-   Description
+-   Assignment group
+-   Assigned to
+-   State
+-   Due date
+-   Priority
+-   Request item → Number
+-   Request item → Item
+-   Request item → Requested for
+-   Request item → Opened by
+-   Additional comments
+-   Work notes
+-   Approval
+
+</td></tr></tbody>
+</table>## Catalog task activity response generation skill
+
+The catalog task activity response generation skill includes the inputs that identify the table and fields that are used when the catalog task activity response is generated.
+
+In this release, you can't modify the input data source. The data source contains the tables and fields that the skill relies on.
+
+The following table lists the inputs for the catalog task activity response generation skill.
+
+<table id="table_rvy_lx5_y3c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Catalog task \[sc\_task\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Short description
+-   Description
+-   Priority
+-   Work notes
+-   Additional comments
+-   Updated
 
 </td></tr></tbody>
 </table>

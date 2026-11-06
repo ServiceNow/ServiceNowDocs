@@ -7,8 +7,8 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
@@ -32,7 +32,7 @@ Complete all configuration tasks to ensure that Vaccine Administration Managemen
 -   [Mass book vaccine appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vaccine-mass-booking.md)
 -   [Cancel appointments in a given date range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/cancel-appointment-over-date-range.md)
 -   [Vaccine Administration Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vam-system-properties.md)
--   [Configuring the Patient Portal for Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-configure-patient-portal.md)
+-   [Configure the Patient Portal for Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-configure-patient-portal.md)
 -   [Turn off automatic email notifications for mass booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/turn-off-automatic-email-notifications-for-mass-booking.md)
 -   [Configure an appointment reminder and pre-appointment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/configure-vaccine-user-questionnaire.md)
 -   [Virtual Agent conversations for Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/va-vaccine-admin-mgmt.md)
@@ -56,8 +56,6 @@ Create vaccination programs to track and manage vaccinations.
 Configure the eligibility criteria that users must meet to be eligible for a vaccination program.
 -   **[Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md)**  
 Configure advanced appointment scheduling for a center. Advanced appointment scheduling enables you to configure different vaccination schedules, weekly, daily, and more, and the capacity to meet the changing needs of different location centers and programs.
--   **[Guidance for configuring advanced appointment scheduling for a vaccination center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/recommendation-on-vaccination-appointment-configuration.md)**  
-Advanced appointment scheduling configuration enables administrators to configure appointment durations, daily schedule, holiday schedule, and so on. The configuration is used to identify the available slots as well as a location’s capacity for a given day. The configuration enables users to select appointment slots based on the parameters that you configure.
 -   **[Configure inventory-based scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/configure-scheduling-by-inventory.md)**  
 Configure scheduling based on available inventory for a center.
 -   **[Configure vaccine appointment scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-appt-booking.md)**  
@@ -74,16 +72,12 @@ Customize the vaccination notification emails that are sent to users about vacci
 Schedule appointments for multiple users at the same time instead of having users individually request appointments in the self-service portal.
 -   **[Cancel appointments in a given date range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/cancel-appointment-over-date-range.md)**  
 Cancel multiple appointment bookings at a location in a given date range.
--   **[Vaccine Administration Management system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vam-system-properties.md)**  
-Vaccine Administration Management booking uses the following system properties. Users with the admin role can access the property settings by navigating to **All** &gt; **Vaccine Administration Management** &gt; **Administration** &gt; **Properties**.
--   **[Configuring the Patient Portal for Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-configure-patient-portal.md)**  
+-   **[Configure the Patient Portal for Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-configure-patient-portal.md)**  
 Complete all configuration tasks to confirm that the Vaccine Administration Management \(VAM\) Patient Portal is set up correctly for the user.
 -   **[Turn off automatic email notifications for mass booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/turn-off-automatic-email-notifications-for-mass-booking.md)**  
 Turn off automatic email notifications by first turning off the default notification for the appointment configuration, then turn off the corresponding business rule. By default, email notifications are automatically sent to users when the appointments are scheduled as part of mass booking.
 -   **[Configure an appointment reminder and pre-appointment questionnaire](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/configure-vaccine-user-questionnaire.md)**  
 By default, appointment reminders aren’t sent to the user. To enable appointment reminders, you must configure the appointment reminder in the appointment configuration record. You can also configure the pre-appointment questionnaire for users.
--   **[Virtual Agent conversations for Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/va-vaccine-admin-mgmt.md)**  
-Virtual Agent conversations enable users to get help with the vaccination process.
 -   **[Retry booking for skipped appointment records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/Retry-process-booking.md)**  
 Book vaccination requests for skipped appointment records for users whose appointments were unsuccessful or skipped due to missing data.
 -   **[Encrypt search fields to appear in search assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/Configure-fields-for-search-assist.md)**  
@@ -96,8 +90,6 @@ Manage multiple parallel queues to help process vaccine events run in a parallel
 Configure the questionnaire text that is displayed in the user and clinician portals for Vaccine Administration Management.
 -   **[Configure VAM property to enable scoped caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-enable-scoped-cache.md)**  
 Use a scoped cache instead of a global cache in Vaccine Administration Management to improve application performance.
--   **[Encryption options in Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vam-encryption-support.md)**  
-Vaccine Administration Management provides encryption support to secure sensitive information.
 
 **Parent Topic:**[Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam.md)
 

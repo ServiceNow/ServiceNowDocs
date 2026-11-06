@@ -1,26 +1,26 @@
 ---
 title: Wrap Up API
-description: Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.Retrieves details for a specified wrap-up code.Retrieves details for a specified wrap-up segment.Retrieves details for a wrap-up segment based on a specified agent and interaction.Creates or updates wrap-up codes.Opens a wrap-up segment for an interaction.Updates and closes a wrap-up segment for an interaction.
+description: The Wrap Up API provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.Retrieves details for a specified wrap-up code.Retrieves details for a specified wrap-up segment.Retrieves details for a wrap-up segment based on a specified agent and interaction.Creates or updates wrap-up codes.Opens a wrap-up segment for an interaction.Updates and closes a wrap-up segment for an interaction.Updates an existing open wrap-up segment with AI-recommended wrap-up codes and notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/wrap-up-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-02-19"
-reading_time_minutes: 34
+last_updated: "2026-09-10"
+reading_time_minutes: 44
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
 # Wrap Up API
 
-Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
+The Wrap Up API provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
 
-This API requires the Interactions Management \(com.glide.interaction.awa\) plugin. To call this API, you must have the interaction\_integration\_user role.
+This API requires the Interactions Management \(com.glide.interaction\) plugin. To call this API, you must have the interaction\_integration\_user role.
 
-When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see [Wrap up overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/wrap-up-overview.md).
+When agents close an interaction, the wrap-up feature enables them to enter closing details and wrap-up codes for future reference. For more information about wrap-up functionality, see .
 
-To use this API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_OpenFrameOverview.md), the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
+To use the Wrap Up API for segmented wrap-up of interactions from external systems, you must implement the InteractionSegment scripted extension point to create and retrieve segment records in your chosen table. If you're using [OpenFrame](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_OpenFrameOverview.md), the extension point has an existing implementation to create and retrieve segment records in the Phone Log \[sn\_openframe\_phone\_log\] table.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
@@ -402,6 +402,10 @@ Object containing data about the interaction and wrap-up segment.Data type: Obje
 ```
 "segment": {
   "agent": "String",
+  "ai_code_defined_at": "String",
+  "ai_notes": "String",
+  "ai_notes_defined_at": "String",
+  "ai_wrap_up_code": "String",
   "awaiting_confirmation": Boolean,
   "confirmed_on": "String",
   "external": Boolean,
@@ -426,6 +430,42 @@ segment.agent
 Sys\_id of the agent assigned to the interaction.Data type: String
 
 Table: User \[sys\_user\]
+
+</td></tr><tr><td>
+
+segment.ai\_code\_defined\_at
+
+</td><td>
+
+Timestamp when AI code was stored.Format: Unix epoch milliseconds \(e.g., "1752252703000"\)
+
+Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_notes
+
+</td><td>
+
+AI-generated notes stored on the segment.Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_notes\_defined\_at
+
+</td><td>
+
+Timestamp when AI notes were stored.Format: Unix epoch milliseconds
+
+Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_wrap\_up\_code
+
+</td><td>
+
+AI-recommended code stored on the segment.Data type: String
 
 </td></tr><tr><td>
 
@@ -550,7 +590,11 @@ Object containing details about the wrap-up configuration used for the wrap-up s
 "wrap_up_configuration": {  
   "allowed_codes": [Array],
   "default_code": {Object},
-  "enable_codes": Boolean
+  "enable_ai_code": Boolean,
+  "enable_ai_notes": Boolean,
+  "enable_codes": Boolean,
+  "use_ai_as_default": Boolean,
+  "use_third_party_ai": Boolean
 }
 ```
 
@@ -738,6 +782,32 @@ A translation of the wrap-up code description.Data type: String
 
 </td></tr><tr><td>
 
+segment.wrap\_up\_configuration.enable\_ai\_code
+
+</td><td>
+
+Flag that indicates whether AI code generation is enabled for this configuration.Valid values:
+
+-   true: AI code generation is enabled for this configuration.
+-   false: AI code generation is not enabled for this configuration.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.enable\_ai\_notes
+
+</td><td>
+
+Flag that indicates whether AI notes generation is enabled for this configuration.Valid values:
+
+-   true: AI notes generation is enabled for this configuration.
+-   false: AI notes generation is not enabled for this configuration.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
 segment.wrap\_up\_configuration.enable\_codes
 
 </td><td>
@@ -750,6 +820,32 @@ Flag that indicates whether the agent must select a wrap-up code.Valid values:
 Data type: Boolean
 
 Default: false
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.use\_ai\_as\_default
+
+</td><td>
+
+Flag that indicates whether AI code is automatically set as the default wrap-up code for this configuration.Valid values:
+
+-   true: AI code is automatically set as the default wrap-up code.
+-   false: AI code is not automatically set as the default wrap-up code.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.use\_third\_party\_ai
+
+</td><td>
+
+Flag that indicates if the AI content source is from a third-party external system.Valid values:
+
+-   true: AI content source is from a third-party external system.
+-   false: Now Assist is the AI content source.
+
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -838,6 +934,39 @@ Response body.
     "submitted_on": "2024-09-16 18:51:59",
     "confirmed_on": "2024-09-16 18:52:01",
     "awaiting_confirmation": false
+  }
+}
+```
+
+This example retrieves details for a specified wrap-up segment configured for AI recommendations.
+
+```
+curl "https://instance.service-now.com/api/now/v1/wrapup/segment/abcd1234abcd1234abcd1234abcd1234" \
+--request GET \
+--header "Accept:application/json" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "success": true,
+  "message": "Segment retrieved.",
+  "segment_id": "abcd1234abcd1234abcd1234abcd1234",
+  "segment": {
+    "agent": "123412345678567890ab90abcdefcdef",
+    "state": "closed",
+    "ai_wrap_up_code": "Billing Issue",
+    "ai_notes": "Customer called about an incorrect charge.",
+    "ai_code_defined_at": "1752252703000",
+    "ai_notes_defined_at": "1752252703000",
+    "wrap_up_configuration": {
+      "enable_ai_code": true,
+      "enable_ai_notes": true,
+      "use_ai_as_default": true,
+      "use_third_party_ai": false
+    }
   }
 }
 ```
@@ -964,6 +1093,10 @@ Object containing data about the interaction and wrap-up segment.Data type: Obje
 ```
 "segment": {
   "agent": "String",
+  "ai_code_defined_at": "String",
+  "ai_notes": "String",
+  "ai_notes_defined_at": "String",
+  "ai_wrap_up_code": "String",
   "awaiting_confirmation": Boolean,
   "confirmed_on": "String",
   "external": Boolean,
@@ -988,6 +1121,52 @@ segment.agent
 Sys\_id of the agent assigned to the interaction.Data type: String
 
 Table: User \[sys\_user\]
+
+</td></tr><tr><td>
+
+segment.agent
+
+</td><td id="d5460e468">
+
+Sys\_id of the agent assigned to the interaction.Data type: String
+
+Table: User \[sys\_user\]
+
+</td></tr><tr><td>
+
+segment.ai\_code\_defined\_at
+
+</td><td>
+
+Timestamp when AI code was stored.Format: Unix epoch milliseconds \(e.g., "1752252703000"\)
+
+Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_notes
+
+</td><td>
+
+AI-generated notes stored on the segment.Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_notes\_defined\_at
+
+</td><td>
+
+Timestamp when AI notes were stored.Format: Unix epoch milliseconds
+
+Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_wrap\_up\_code
+
+</td><td>
+
+AI-recommended code stored on the segment.Data type: String
 
 </td></tr><tr><td>
 
@@ -1300,6 +1479,32 @@ A translation of the wrap-up code description.Data type: String
 
 </td></tr><tr><td>
 
+segment.wrap\_up\_configuration.enable\_ai\_code
+
+</td><td>
+
+Flag that indicates whether AI code generation is enabled for this configuration.Valid values:
+
+-   true: AI code generation is enabled for this configuration.
+-   false: AI code generation is not enabled for this configuration.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.enable\_ai\_notes
+
+</td><td>
+
+Flag that indicates whether AI notes generation is enabled for this configuration.Valid values:
+
+-   true: AI notes generation is enabled for this configuration.
+-   false: AI notes generation is not enabled for this configuration.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
 segment.wrap\_up\_configuration.enable\_codes
 
 </td><td>
@@ -1312,6 +1517,32 @@ Flag that indicates whether the agent must select a wrap-up code.Valid values:
 Data type: Boolean
 
 Default: false
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.use\_ai\_as\_default
+
+</td><td>
+
+Flag that indicates whether AI code is automatically set as the default wrap-up code for this configuration.Valid values:
+
+-   true: AI code is automatically set as the default wrap-up code.
+-   false: AI code is not automatically set as the default wrap-up code.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.use\_third\_party\_ai
+
+</td><td>
+
+Flag that indicates if the AI content source is from a third-party external system.Valid values:
+
+-   true: AI content source is from a third-party external system.
+-   false: Now Assist is the AI content source.
+
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -1400,6 +1631,37 @@ Response body.
     "submitted_on": "2024-09-16 18:51:59",
     "confirmed_on": "2024-09-16 18:52:01",
     "awaiting_confirmation": false
+  }
+}
+```
+
+### cURL request
+
+This example retrieves details for a wrap-up segment configured for AI recommendations.
+
+```
+curl "https://instance.service-now.com/api/now/v1/wrapup/segment/agent/987698761234123456xy12ghijklmnoqrst/interaction/879065432198432109xy34mnopqrstuv" \
+--request GET \
+--header "Accept:application/json" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "success": true,
+  "segment": {
+    "ai_wrap_up_code": "Billing Issue",
+    "ai_notes": "Customer called about incorrect charge.",
+    "ai_code_defined_at": "1752252703000",
+    "ai_notes_defined_at": "1752252703000",
+    "wrap_up_configuration": {
+      "enable_ai_code": true,
+      "enable_ai_notes": true,
+      "use_ai_as_default": true,
+      "use_third_party_ai": false
+    }
   }
 }
 ```
@@ -1794,7 +2056,9 @@ Response body.
 
 Opens a wrap-up segment for an interaction.
 
-Wrap-ups are created in the Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\] table.
+Wrap-ups are created in the Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\] table. Call this endpoint at the start of the wrap‑up period.
+
+This endpoint supports AI-generated wrap‑up codes and notes directly in the request payload, and it saves the AI configuration flags on the wrap‑up configuration. If **external** is set to `false` and AI codes or notes are enabled on the configuration, a synchronous business rule runs after the segment is created. This endpoint calls the internal CSM \(NowAssist\) API and automatically fills in the AI fields. No extra action is required from the caller.
 
 ### URL format
 
@@ -1845,6 +2109,33 @@ Table: User \[sys\_user\]
 
 </td></tr><tr><td>
 
+ai\_wrap\_up\_code
+
+</td><td>
+
+AI-suggested wrap-up code label. Populated automatically by Now Assist if the value of **use\_third\_party\_ai** is `false` or the field is absent from configuration.See also:
+
+-   [GET /now/wrapup/segment/\{segment\_id\}](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wrap-up-api.md)
+-   [PUT /api/now/wrapup/segment/update/ai](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wrap-up-api.md)
+
+Table: Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\]
+
+Data type: String
+
+</td></tr><tr><td>
+
+ai\_notes
+
+</td><td>
+
+AI-generated notes.Maximum length: 4000 characters
+
+Table: Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\]
+
+Data type: String
+
+</td></tr><tr><td>
+
 configuration
 
 </td><td>
@@ -1857,7 +2148,10 @@ Object containing the code and duration details for an external wrap-up. Require
    "default_code": "String", 
    "duration": "String", 
    "enable_codes": Boolean,
-   "show_timer": Boolean
+   "enable_ai_code": Boolean,
+   "enable_ai_notes": Boolean,
+   "show_timer": Boolean,
+   "use_ai_as_default": Boolean
 }
 ```
 
@@ -1951,6 +2245,57 @@ Flag that indicates whether the agent must select a wrap-up code.Valid values:
 
 -   true: Agent must select a wrap-up code.
 -   false: Agent isn't required to select a wrap-up code.
+
+Data type: Boolean
+
+Default: false
+
+</td></tr><tr><td>
+
+configuration.enable\_ai\_code
+
+</td><td>
+
+Flag that indicates whether AI code generation is enabled for this configuration.Valid values:
+
+-   true: AI code generation is enabled for this configuration.
+-   false: AI code generation is not enabled for this configuration.
+
+Table: Interaction Wrap Up Configuration \[interaction\_wrap\_up\_configuration\]
+
+Data type: Boolean
+
+Default: false
+
+</td></tr><tr><td>
+
+configuration.enable\_ai\_notes
+
+</td><td>
+
+Flag that indicates whether AI notes generation is enabled for this configuration.Valid values:
+
+-   true: AI notes generation is enabled for this configuration.
+-   false: AI notes generation is not enabled for this configuration.
+
+Table: Interaction Wrap Up Configuration \[interaction\_wrap\_up\_configuration\]
+
+Data type: Boolean
+
+Default: false
+
+</td></tr><tr><td>
+
+configuration.use\_ai\_as\_default
+
+</td><td>
+
+Flag that indicates whether AI code is automatically set as the default wrap-up code for this configuration.Valid values:
+
+-   true: AI code is automatically set as the default wrap-up code.
+-   false: AI code is not automatically set as the default wrap-up code.
+
+Table: Interaction Wrap Up Configuration \[interaction\_wrap\_up\_configuration\]
 
 Data type: Boolean
 
@@ -2245,7 +2590,11 @@ Object containing details about the wrap-up configuration used for the wrap-up s
 "wrap_up_configuration": {  
   "allowed_codes": [Array],
   "default_code": {Object},
-  "enable_codes": Boolean
+  "enable_ai_code": Boolean,
+  "enable_ai_notes": Boolean,
+  "enable_codes": Boolean,
+  "use_ai_as_default": Boolean,
+  "use_third_party_ai": Boolean
 }
 ```
 
@@ -2433,6 +2782,32 @@ A translation of the wrap-up code description.Data type: String
 
 </td></tr><tr><td>
 
+segment.wrap\_up\_configuration.enable\_ai\_code
+
+</td><td>
+
+Flag that indicates whether AI code generation is enabled for this configuration.Valid values:
+
+-   true: AI code generation is enabled for this configuration.
+-   false: AI code generation is not enabled for this configuration.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.enable\_ai\_notes
+
+</td><td>
+
+Flag that indicates whether AI notes generation is enabled for this configuration.Valid values:
+
+-   true: AI notes generation is enabled for this configuration.
+-   false: AI notes generation is not enabled for this configuration.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
 segment.wrap\_up\_configuration.enable\_codes
 
 </td><td>
@@ -2445,6 +2820,32 @@ Flag that indicates whether the agent must select a wrap-up code.Valid values:
 Data type: Boolean
 
 Default: false
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.use\_ai\_as\_default
+
+</td><td>
+
+Flag that indicates whether AI code is automatically set as the default wrap-up code for this configuration.Valid values:
+
+-   true: AI code is automatically set as the default wrap-up code.
+-   false: AI code is not automatically set as the default wrap-up code.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+segment.wrap\_up\_configuration.use\_third\_party\_ai
+
+</td><td>
+
+Flag that indicates if the AI content source is from a third-party external system.Valid values:
+
+-   true: AI content source is from a third-party external system.
+-   false: Now Assist is the AI content source.
+
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -2475,42 +2876,28 @@ Table: Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\]
 This example opens a wrap-up segment for an interaction.
 
 ```
-curl "https://instance.service-now.com/api/now/v1/wrapup/segment/create" \
---request POST \
---header "Accept:application/json" \
---header "Content-Type:application/json" \
---data "{
-  \"agent_sys_id\": \"123412345678567890ab90abcdefcdef\",
-  \"interaction_sys_id\": \"213412345678567890ab90abcdefcdef\",
-  \"external\": \"true\",
-  \"segmented\": \"true\",
-  \"segment_table\": \"sn_openframe_phone_log\",
-  \"segment_id\": \"dgajbcef12345678defdbxef123435678\",
-  \"external_segment_id\": \"PL_402548\",
-  \"configuration\": {
-    \"enable_codes\": true,
-    \"allowed_codes\": [
-      {
-        \"code\": \"Billing Issue\",
-        \"translation\": {
-          \"language\": \"de\",
-          \"code\": \"Abrechnungsproblem\"
-        }
-      },
-      {
-        \"code\": \"Store Issue\",
-        \"translation\": {
-          \"language\": \"de\",
-          \"code\": \"Einkaufsproblem\"
-        }
-      }
-    ],
-    \"default_code\": \"Billing Issue\",
-    \"duration\": \"30\",
-    \"show_timer\": true
-  },
-  \"opened_on\": \"2024-09-16 17:52:01\"
-}" \
+curl --request POST \
+  --url 'https://instance.servicenow.com/api/now/wrapup/segment/create' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --user 'username:password' \
+  --data '{
+    "agent_sys_id": "123412345678567890ab90abcdefcdef",
+    "interaction_sys_id": "213412345678567890ab90abcdefcdef",
+    "external": true,
+    "external_segment_id": "EXT-SEG-001",
+    "ai_wrap_up_code": "Billing Issue",
+    "ai_notes": "Customer called about an incorrect charge on their invoice.",
+    "configuration": {
+      "enable_codes": true,
+      "enable_ai_code": true,
+      "enable_ai_notes": true,
+      "use_ai_as_default": true,
+      "allowed_codes": [{"code": "Billing Issue"}, {"code": "Store Issue"}],
+      "default_code": "Billing Issue"
+    }
+  }'
+
 --user 'username':'password'
 ```
 
@@ -2519,50 +2906,75 @@ Response body.
 ```
 {
   "success": true,
-  "message": "Open wrap-up segment successfully created.",
-  "sys_id": "98769876543254321fed1fedcba0cba0",
+  "message": "Wrap-up segment created successfully.",
+  "sys_id": "abcd1234abcd1234abcd1234abcd1234",
   "segment": {
     "agent": "123412345678567890ab90abcdefcdef",
-    "segment_table": "sn_openframe_phone_log",
-    "segment_id": "dgajbcef12345678defdbxef123435678",
     "external": true,
     "interaction": "213412345678567890ab90abcdefcdef",
     "state": "open",
+    "sys_id": "abcd1234abcd1234abcd1234abcd1234",
     "wrap_up_configuration": {
       "enable_codes": true,
-      "allowed_codes": [
-        {
-          "code": "Billing Issue",
-          "description": "",
-          "active": true,
-          "external": true,
-          "sys_id": "49c27b679f201210c89656effa0a1cd7",
-          "translated_code": "Abrechnungsproblem",
-          "translated_description": ""
-        },
-        {
-          "code": "Store Issue",
-          "description": "",
-          "active": true,
-          "external": true,
-          "sys_id": "54327b679f201210c89656effa0a1cd7",
-          "translated_code": " Einkaufsproblem",
-          "translated_description": ""
-        }
-      ],
-      "default_code": {
-        "code": "Billing Issue",
-        "description": "",
-        "active": true,
-        "external": true,
-        "sys_id": "49c27b679f201210c89656effa0a1cd7",
-        "translated_code": "Abrechnungsproblem",
-        "translated_description": ""
-      }
-    },
-    "segmented": true,
-    "sys_id": "98769876543254321fed1fedcba0cba0",
-    "opened_on": "2024-09-16 17:52:01"
+      "enable_ai_code": true,
+      "enable_ai_notes": true,
+      "use_ai_as_default": true,
+      "allowed_codes": [...],
+      "default_code": {...}
+    }
+  }
+}
+```
+
+### cURL request
+
+This example opens a wrap-up segment configured for AI recommendations.
+
+```
+curl --request POST \
+  --url 'https://instance.servicenow.com/api/now/wrapup/segment/create' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --user 'username:password' \
+  --data '{
+    "agent_sys_id": "123412345678567890ab90abcdefcdef",
+    "interaction_sys_id": "213412345678567890ab90abcdefcdef",
+    "external": true,
+    "external_segment_id": "EXT-SEG-001",
+    "ai_wrap_up_code": "Billing Issue",
+    "ai_notes": "Customer called about an incorrect charge on their invoice.",
+    "configuration": {
+      "enable_codes": true,
+      "enable_ai_code": true,
+      "enable_ai_notes": true,
+      "use_ai_as_default": true,
+      "allowed_codes": [{"code": "Billing Issue"}, {"code": "Store Issue"}],
+      "default_code": "Billing Issue"
+    }
+  }'
+```
+
+Response body.
+
+```
+{
+  "success": true,
+  "message": "Wrap-up segment created successfully.",
+  "sys_id": "abcd1234abcd1234abcd1234abcd1234",
+  "segment": {
+    "agent": "123412345678567890ab90abcdefcdef",
+    "external": true,
+    "interaction": "213412345678567890ab90abcdefcdef",
+    "state": "open",
+    "sys_id": "abcd1234abcd1234abcd1234abcd1234",
+    "wrap_up_configuration": {
+      "enable_codes": true,
+      "enable_ai_code": true,
+      "enable_ai_notes": true,
+      "use_ai_as_default": true,
+      "allowed_codes": [...],
+      "default_code": {...}
+    }
   }
 }
 ```
@@ -3305,6 +3717,316 @@ Response body.
     "submitted_on": "2024-09-16 18:51:59",
     "confirmed_on": "2024-09-16 18:52:01",
     "awaiting_confirmation": false
+  }
+}
+```
+
+## Wrap Up - PUT /now/wrapup/segment/update/ai
+
+Updates an existing open wrap-up segment with AI-recommended wrap-up codes and notes.
+
+This endpoint is intended for external CCaaS systems that generate AI content independently and push it into the ServiceNow platform after segment creation. The **use\_third\_party\_ai** property must be `true` on the wrap-up configuration.
+
+If the **enable\_ai\_code** or **enable\_ai\_notes** is `false` in the configuration, the corresponding AI fields are saved, even if they’re included in the request payload. The **ai\_code\_defined\_at** and **ai\_notes\_defined\_at** timestamps are automatically set at the time of storage.
+
+-   **AI wrap-up recommendations**
+
+    AI wrap-up recommendations can come from two sources:
+
+    -   Internal \(Now Assist\): When **use\_third\_party\_ai** is false, a business rule triggers automatically after segment creation to call the CSM API and populate **ai\_wrap\_up\_code** and **ai\_notes**.
+    -   External \(third-party / CCaaS\): When **use\_third\_party\_ai** is true, the external system pushes AI data via the new PUT `/api/now/wrapup/segment/update/ai` endpoint.
+-   **Use cases**
+    -   Reduce agent handle time by providing wrap-up codes and notes with AI suggestions.
+    -   Enable CCaaS platforms to push AI-generated content into ServiceNow AI Platform after an interaction ends.
+    -   Give supervisors cleaner, more consistent wrap-up data for reporting and analytics.
+-   **Endpoint call order for an AI-assisted wrap-up flow**
+    1.  POST `/api/now/wrapup/segment/create` — Open a segment or pass **ai\_wrap\_up\_code** / **ai\_notes** and AI config flags.
+    2.  PUT `/api/now/wrapup/segment/update/ai` — \(External AI only\) Push AI recommendations onto the open segment.
+    3.  PUT `/api/now/wrapup/segment/update` — Agent finalizes and closes the segment.
+    4.  GET `/api/now/wrapup/segment/{segment_id}` — Retrieve segment including stored AI fields.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/wrapup/segment/update/ai`
+
+Default URL: `/api/now/wrapup/segment/update/ai`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+agent\_sys\_id
+
+</td><td>
+
+Sys\_id of the agent assigned to the interaction. Required with **interaction\_sys\_id** if neither **segment\_sys\_id** nor **external\_segment\_id** are provided.Data type: String
+
+Table: User \[sys\_user\]
+
+</td></tr><tr><td>
+
+ai\_wrap\_up\_code
+
+</td><td>
+
+AI-recommended wrap-up code label. Stored only if the **enable\_ai\_code** property is `true` in the configuration.[Wrap Up - POST /now/wrapup/segment/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wrap-up-api.md)Data type: String
+
+</td></tr><tr><td>
+
+ai\_notes
+
+</td><td>
+
+AI-generated notes. . Stored only if enable\_ai\_notes is true on the configuration.[Wrap Up - POST /now/wrapup/segment/create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wrap-up-api.md)Max length: 4000 characters
+
+Data type: String
+
+</td></tr><tr><td>
+
+interaction\_sys\_id
+
+</td><td>
+
+Sys\_id of the interaction. Required with **agent\_sys\_id** if neither **segment\_sys\_id** nor **external\_segment\_id** are provided.Data type: String
+
+Table: Interaction \[interaction\]
+
+</td></tr><tr><td>
+
+segment\_sys\_id
+
+</td><td>
+
+Sys\_id of the wrap-up segment.Data type: String
+
+Table: Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\]
+
+</td></tr></tbody>
+</table>### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table id="table_ubl_j1f_42c" class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr><tr><td>
+
+Content-Type
+
+</td><td id="content_type-entry-RESTAPI">
+
+Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|401|Unauthorized. The user credentials are incorrect or have not been passed.|
+|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
+
+### Response body parameters \(JSON or XML\)
+
+<table id="table_xpr_b42_42c"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+message
+
+</td><td>
+
+Message that describes the outcome of the API request.Data type: String
+
+</td></tr><tr><td>
+
+segment
+
+</td><td>
+
+Object containing data about the interaction and wrap-up segment.Data type: Object
+
+```
+"segment": {
+  "agent": "String",
+  "ai_code_defined_at": "String",
+  "ai_notes": "String",
+  "ai_notes_defined_at": "String",
+  "ai_wrap_up_code": "String",
+  "interaction": "String",
+  "sys_id": "String"
+}
+```
+
+</td></tr><tr><td>
+
+segment.agent
+
+</td><td id="segment-agent">
+
+Sys\_id of the agent assigned to the interaction.Data type: String
+
+Table: User \[sys\_user\]
+
+</td></tr><tr><td>
+
+segment.ai\_code\_defined\_at
+
+</td><td>
+
+Timestamp when AI code was stored.Format: Unix epoch milliseconds \(e.g., "1752252703000"\)
+
+Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_notes
+
+</td><td>
+
+AI-generated notes stored on the segment.Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_notes\_defined\_at
+
+</td><td>
+
+Timestamp when AI notes were stored.Format: Unix epoch milliseconds
+
+Data type: String
+
+</td></tr><tr><td>
+
+segment.ai\_wrap\_up\_code
+
+</td><td>
+
+AI-recommended code stored on the segment.Data type: String
+
+</td></tr><tr><td>
+
+segment.interaction
+
+</td><td id="interaction-id">
+
+Sys\_id of the interaction.Data type: String
+
+Table: Interaction \[interaction\]
+
+</td></tr><tr><td>
+
+segment.sys\_id
+
+</td><td>
+
+Sys\_id of the wrap-up segment.Data type: String
+
+Table: Interaction Wrap Up Segment \[interaction\_wrap\_up\_segment\]
+
+</td></tr><tr><td>
+
+success
+
+</td><td>
+
+Flag that indicates whether the API request was successfully processed.Valid values:
+
+-   true: The API request was successful.
+-   false: The API request failed.
+
+Data type: Boolean
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example updates and closes a wrap-up segment for an interaction.
+
+```
+curl --request PUT \
+  --url 'https://instance.servicenow.com/api/now/wrapup/segment/update/ai' \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --user 'username:password' \
+  --data '{
+    "segment_sys_id": "abcd1234abcd1234abcd1234abcd1234",
+    "agent_sys_id": "123412345678567890ab90abcdefcdef",
+    "interaction_sys_id": "213412345678567890ab90abcdefcdef",
+    "ai_wrap_up_code": "Plan Update",
+    "ai_notes": "Customer requested an upgrade to the Premium plan."
+  }' \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "success": true,
+  "message": "AI wrap-up data updated successfully.",
+  "segment": {
+    "sys_id": "abcd1234abcd1234abcd1234abcd1234",
+    "agent": "123412345678567890ab90abcdefcdef",
+    "interaction": "213412345678567890ab90abcdefcdef",
+    "ai_wrap_up_code": "Plan Update",
+    "ai_notes": "Customer requested an upgrade to the Premium plan.",
+    "ai_code_defined_at": "1752252703000",
+    "ai_notes_defined_at": "1752252703000"
   }
 }
 ```

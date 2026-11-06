@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Search for appropriate Field Service agents
@@ -20,6 +20,10 @@ Search for agents with specific attributes in Dispatcher Workspace so you can ma
 
 Role required: wm\_dispatcher
 
+## About this task
+
+**Note:** Distance, Skills, and Parts sort options are only available for selection after you select a task in the task panel. These options are enabled based on the selected task.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
@@ -28,33 +32,33 @@ Role required: wm\_dispatcher
 
 3.  Search for field service agents or skills.
 
-<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d128176e88">
+<table id="choicetable_pwx_2tw_nnb"><thead><tr><th align="left" id="d145221e108">
 
 Search criteria
 
-</th><th align="left" id="d128176e91">
+</th><th align="left" id="d145221e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128176e97">
+</th></tr></thead><tbody><tr><td id="d145221e117">
 
 **Agent name**
 
 </td><td>
 
-Type an agent name in the **Search resources** field and click the Search \(\[Omitted image "search\_icon.png"\] Alt text: Search.\) icon.
+Type an agent name in the **Search resources** field and select the Search \(\[Omitted image "search\_icon.png"\] Alt text: Search.\) icon.
 
-</td></tr><tr><td id="d128176e115">
+</td></tr><tr><td id="d145221e135">
 
 **Rank Resources**
 
 </td><td>
 
-Rank resources by level of importance.1.  Select the Rank Resources \(\[Omitted image "rank-resources-icon-fsm.png"\] Alt text: Rank resources.\) icon
+Rank resources by level of importance.1.  Select the Rank Resources \[Omitted image "rank-resources-icon-fsm.png"\] Alt text: Rank resources. icon
 2.  Select a sort option to view the agents who meet the specific attributes and are available: **Default**, **Distance**, **Skills**, **Parts**, **Auto Assign Rules**. For more information, see [Activate dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/activate-dynamic-scheduling-plugin.md).
 
 
-</td></tr><tr><td id="d128176e164">
+</td></tr><tr><td id="d145221e184">
 
 **Date**
 
@@ -66,7 +70,7 @@ Select a date from the calendar to view agents who are available on the selected
 </table>
 ## Result
 
-Field service agents are listed based on the filter criteria. If agents are not available for the time period mentioned in the work order task, a message displays.
+Field service agents are listed based on the filter criteria. If agents aren’t available for the time period mentioned in the work order task, a message displays.
 
 **Related topics**  
 

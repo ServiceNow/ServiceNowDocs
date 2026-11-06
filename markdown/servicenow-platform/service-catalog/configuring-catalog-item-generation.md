@@ -1,30 +1,25 @@
 ---
-title: Configuring Now Assist in Catalog Builder
-description: Install and configure Now Assist in Catalog Builder.
+title: Configuring AI in Catalog Builder
+description: Install and configure AI in Catalog Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/configuring-catalog-item-generation.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [generative AI, Now Assist in Catalog Builder]
-breadcrumb: [Now Assist in Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+keywords: [generative AI, AI Authoring for Catalog Builder]
+breadcrumb: [AI Authoring for Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configuring Now Assist in Catalog Builder
+# Configuring AI in Catalog Builder
 
-Install and configure Now Assist in Catalog Builder.
+Install and configure AI in Catalog Builder.
 
-## Configuration overview
+You must activate the Catalog item generation skill.
 
-Along with the installation of Now Assist in Catalog Builder application, you must activate the Catalog item generation skill.
-
--   **[Install Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/install-now-assist-catalog-generation.md)**  
-Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get Now Assist in Catalog Builder.
-
-**Parent Topic:**[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
+**Parent Topic:**[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)
 
 **Related topics**  
 

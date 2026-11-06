@@ -7,9 +7,9 @@ release: yokohama
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Test a Knowledge Graph schema
@@ -26,7 +26,7 @@ Role required: kg\_admin
 
     The UI displays a list of all the Knowledge Graph schema on the landing page.
 
-2.  From the list of Knowledge Graph schemas, select the Knowledge Graph that you want to test.
+2.  From the list of Knowledge Graph schema, select the Knowledge Graph that you want to test.
 
     The Knowledge Graph schema​ opens in the canvas.
 

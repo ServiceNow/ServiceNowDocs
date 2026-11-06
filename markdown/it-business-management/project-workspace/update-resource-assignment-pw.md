@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Update resource assignment from Project Workspace
@@ -45,7 +45,7 @@ Before updating a resource assignment, verify the following for accurate and eff
 
     The resource assignment is updated in the resource assignment pane.
 
-    **Note:** When a resource is added on an empty resource assignment, which has more than one Full-time equivalent \(FTE\) effort, then an additional row is created automatically and the resource assignment is auto-updated in both the rows.
+    When a resource is added on an empty resource assignment, which has more than one Full-time equivalent \(FTE\) effort, then an additional row is created automatically. The resource assignment is auto-updated in both the rows.
 
     Extend, edit, or delete the resource assignments using the row context menu in resource assignment pane.
 

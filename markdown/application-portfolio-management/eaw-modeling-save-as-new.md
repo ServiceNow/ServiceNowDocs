@@ -1,16 +1,16 @@
 ---
-title: Save as a new version
+title: Save as a version
 description: Copy an existing diagram and create a version for it within the selected architectural artifact. You can update the new version as required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-save-as-new.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Save as a new version
+# Save as a version
 
 Copy an existing diagram and create a version for it within the selected architectural artifact. You can update the new version as required.
 
@@ -24,7 +24,7 @@ Role required: sn\_apm.apm\_user
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Architecture Workspace**.
 
-2.  Open the Modeling page by selecting the Modeling icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Modeling\).
+2.  Open the Modeling page by selecting the Enterprise Modeling and Visualization icon \(\[Omitted image "icon-modeling-logo.png"\] Alt text: Enterprise Modeling and Visualization\).
 
 3.  Select an existing diagram from the Diagrams page.
 
@@ -41,7 +41,7 @@ Role required: sn\_apm.apm\_user
 
 This action saves the diagram as a new version within the existing architectural artifact. The Version drop-down shows the newly created version.
 
-**Parent Topic:**[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
@@ -60,7 +60,7 @@ This action saves the diagram as a new version within the existing architectural
 
 [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-duplicate.md)
 
-[Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
 
 [Add related records in the modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-add-related-records.md)
 

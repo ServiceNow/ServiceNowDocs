@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -47,7 +47,7 @@ When using patterns, the clear text never leaves your network. When the proxy se
 
 3.  Define the **Edge pattern input type**.
 
-<table id="choicetable_nkx_mdv_s1b"><tbody><tr><td id="d35214e129">
+<table id="choicetable_nkx_mdv_s1b"><tbody><tr><td id="d39137e126">
 
 **Basic**
 
@@ -59,7 +59,7 @@ A series of character types. In the **Basic Pattern Input** tab, click **Add** a
 
  Click **X** to delete the last character in the pattern.
 
-</td></tr><tr><td id="d35214e162">
+</td></tr><tr><td id="d39137e159">
 
 **Advanced**
 

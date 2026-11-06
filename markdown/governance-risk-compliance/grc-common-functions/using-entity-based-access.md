@@ -7,8 +7,8 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -36,6 +36,8 @@ Configure an entity type by using the Entity Based Access application. You can s
 Set access restrictions for the existing records in bulk by using the Entity based record access update utility guided-experience. Use the workflow to enable or disable access to record types.
 -   **[Configure entity-based record access rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-continuous-eba-monitoring-on-record-types.md)**  
 Configure entity-based record access rules on record types to apply access restrictions to new records automatically.
+-   **[Deactivate entity-based access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/deactivate-entity-based-access-configuration.md)**  
+Deactivate an entity-based access \(EBA\) configuration to disable access restrictions from associated records, confirming only active and relevant configurations control data access.
 
 **Parent Topic:**[Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/entity-based-access.md)
 

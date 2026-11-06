@@ -7,9 +7,9 @@ release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Discover and import Azure DevOps projects, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Discover and import Azure DevOps projects, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Default map configuration for Azure DevOps integration with Agile Development 2.0

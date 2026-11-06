@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -37,7 +37,7 @@ Enforce multi-factor authentication based on the roles assigned to the user. If 
 |Security risk|\(Moderate\) If this property is not enabled, there is a risk of unauthorized access to sensitive data.|
 |References|[Configure role-based multi-factor criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/mfa-role-criteria.md)|
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work notes analysis, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Work notes analysis, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
 # Perform work notes analysis
@@ -18,7 +18,7 @@ Generate a work notes analysis on a transition.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 **Note:** Work notes with more than 5 words and fewer than 50 words are considered for the analysis.
 
@@ -28,7 +28,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 2.  From the list of projects, select a project.
 
-3.  Select any transition.
+3.  Select any transition or node.
 
     A window is displayed with all the details.
 

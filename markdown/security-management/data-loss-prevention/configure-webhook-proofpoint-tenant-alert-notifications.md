@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure the Proofpoint integration for Data Loss Prevention, Data Loss Prevention Incident Response Integration with Proofpoint, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Install and configure the Proofpoint integration for Data Loss Prevention, Data Loss Prevention Incident Response Integration with Proofpoint, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Configure the Webhook on the Proofpoint DLP tenant for alert notifications to ServiceNow

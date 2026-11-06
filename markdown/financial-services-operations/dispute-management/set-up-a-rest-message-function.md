@@ -1,0 +1,48 @@
+---
+title: Set up tokenized REST message record
+description: To use tokenized data with a Third-Party System, update the endpoint URL for the Third-Party System's REST message entry in ServiceNow.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/set-up-a-rest-message-function.html
+release: yokohama
+product: Dispute Management
+classification: dispute-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [set up rest message record, tokenized rest message, rest message endpoint, update endpoint url, visa resolve online rest message, mastercom rest message, system web services outbound, tokenizer connection base uri, rest message function setup]
+breadcrumb: [Configure, Card Data Security, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Set up tokenized REST message record
+
+To use tokenized data with a Third-Party System, update the endpoint URL for the Third-Party System's REST message entry in ServiceNow.
+
+## Before you begin
+
+Set up your Third-Party System connections in our tokenizer service. For more information, see [Initial setup for Vault schema, Connections and Service Account for Card data security \(KB2830577\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2830577).
+
+Install and set up integrations to the Third-Party Systems \(such as Visa Spoke or Mastercard Spoke\). Card Data Security requires these integrations to function correctly. For more information, see [Integrating with spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/spokes.md).
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Web Services** &gt; **Outbound** &gt; **REST Message**.
+
+2.  Open the Visa Resolve Online or Mastercom record.
+
+    Create a new REST Message record if you don't see one for your Third-Party System. For more information, see [Create a REST message](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_ConfiguringARESTMessage.md).
+
+3.  For the **Endpoint** field in the REST message form, enter the connection's base URI from the tokenizer service.
+
+    \[Omitted image "rest-message-endpoint.png"\] Alt text: Image showing the Endpoint field containing the connection base URL from the tokenizer service.
+
+    The connection's base path can be viewed in the tokenizer service administration website by navigating to **Connections**, expanding the connection, and selecting **Sample Request** on a route. The base URL is the domain name of the value in the **Path** field.
+
+    \[Omitted image "connection-base-path.png"\] Alt text: Image showing the location of the base URL.
+
+
+## What to do next
+
+Repeat these steps for each REST message entry you need to set up.
+

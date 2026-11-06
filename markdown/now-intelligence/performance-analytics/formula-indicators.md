@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Formula indicators
@@ -29,7 +29,7 @@ Create a formula indicator in these cases:
 **Tip:** Training is available for creating and using formula indicators. See the course [Formula Indicators Overview](https://learning.servicenow.com/lxp/en/now-intelligence/formula-indicators-overview?id=learning_course_prev&course_id=11419783871cb1105aa9ca2d0ebb35b3) in the NOW Learning Center.
 
 -   **[Create a formula indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_CreateAFormulaIndicator.md)**  
-Create a formula indicator to produce a new computed score from one or more other indicators. Besides indicator scores, the formula can include calculations such as the gap between an indicator score and the indicator target.
+Calculate scores from the scores of one or more other indicators. Apply mathematical operations or a preset method, such as the method to calculate the gap between an indicator score and the indicator target.
 -   **[Get analytics methods in formulas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/get-indicator-analytics.md)**  
 To insert a calculated value from the Analytics Hub into a formula, use a method in the formula.
 -   **[Prevent a contributing indicator in a formula from following breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ExcludingBreakdownsFromFormulas.md)**  

@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administration tasks in Learning Core, Configuring Learning Core, Learning Core, HR Service Delivery, Employee Service Management]
+breadcrumb: [Administration tasks in Learning Core, Configure, Learning Core, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a source for a learning system

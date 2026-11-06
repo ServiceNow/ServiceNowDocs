@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -40,7 +40,7 @@ Users who have access and who are named in the record continue to have access to
 
 Consider the following examples for different roles:
 
--   You are a risk user and you were given access to a risk record earlier. Now, you are part of the allowed users list for the same record. Therefore, even if you don't have the sn\_grc.confidential\_user role, you can access the record because you had access to this record earlier and your name is now listed on the allowed users list.
+-   You're a risk user and you were given access to a risk record earlier. Now, you're part of the allowed users list for the same record. Therefore, even if you don't have the sn\_grc.confidential\_user role, you can access the record because you had access to this record earlier and your name is now listed on the allowed users list.
 -   Your name is listed on the record, but you don't have the sn\_grc.confidential\_user role. You must have the sn\_grc.confidential\_user role first to access the record.
 
 When a record is marked as confidential, an email notification is sent out to the users and the user group members informing them about the assignment and the roles that are required to access the record. Every user that is listed in the Allowed users and Allowed groups list gets an email notification about the assignment of the record.
@@ -51,7 +51,7 @@ The **Confidentiality** tab on the form displays the following lists and options
 
 -   Confidential option: Enabling the **Confidential** option on the Confidentiality tab displays the Allowed users and Allowed groups lists as shown in the following figure.
 
-    **Note:** A user with write access to the record can enable the **Confidential** option on the Confidentiality tab.
+    **Note:** A user with write access to the record can enable the **Confidential** option.
 
     \[Omitted image "confidential-record-risk-event1.png"\] Alt text: Confidential tab on a form.
 
@@ -77,16 +77,16 @@ Confidentiality is supported on the following tables.
 |Evidence request task|sn\_grc\_advanced\_evidence\_response|GRC: Advanced Core|Requester, Assigned To, Approvers, Watchlist, Requested on behalf of|Assignment Group|
 |Issue|sn\_grc\_issue|GRC: Profiles|Assigned to, Issue Manager, Opened by|Issue Manager Group,Assignment Group|
 |Observation|sn\_audit\_advanced\_observation|GRC: Advanced audit|Owner, Respondent, Peer Reviewer, Reviewer, Watch list Users, Engagement lead, Engineering auditor, Engineering approver|Assignment Group|
-|Policy exception|sn\_compliance\_policy\_exception|GRC: Policy and Compliance Management|Requester, Approver, Watch list|Approval Group|
+|Policy exception|sn\_compliance\_policy\_exception|GRC: Policy and Conformance Management|Requester, Approver, Watch list|Approval Group|
 |Remediation task|sn\_grc\_task|GRC: Profiles|Assigned to, Watch list, Issue Manager, Issue Assigned To|Not applicable|
 |Risk events|sn\_risk\_advanced\_event|GRC: Advanced Risk|Current logged in user, Owner, Approver|Owning group, Approval groups|
-|Disclosure|sn\_esg\_disclosure|ESG Management and Reporting|Logged in user, reviewer, assigned to|Not applicable|
-|Material topic|sn\_esg\_material\_topic|ESG Management and Reporting|Logged in user, reviewer|Not applicable|
-|Metrics|sn\_grc\_metric|ESG Management and Reporting|Logged in user, enterprise owner, data owner|Enterprise owner group, data owner group|
-|Metric definitions|sn\_grc\_metric\_definition|ESG Management and Reporting|Logged in user, enterprise owner, data owner|Enterprise owner group, data owner group|
-|Composite metric definitions|sn\_grc\_composite\_metric\_definition|ESG Management and Reporting|Logged in user, enterprise owner|Enterprise owner group|
+|Disclosure|sn\_esg\_disclosure|Operational Sustainability Management|Logged in user, reviewer, assigned to|Not applicable|
+|Material topic|sn\_esg\_material\_topic|Operational Sustainability Management|Logged in user, reviewer|Not applicable|
+|Metrics|sn\_grc\_metric|Operational Sustainability Management|Logged in user, enterprise owner, data owner|Enterprise owner group, data owner group|
+|Metric definitions|sn\_grc\_metric\_definition|Operational Sustainability Management|Logged in user, enterprise owner, data owner|Enterprise owner group, data owner group|
+|Composite metric definitions|sn\_grc\_composite\_metric\_definition|Operational Sustainability Management|Logged in user, enterprise owner|Enterprise owner group|
 
-Starting with Utah, confidential configuration for all the Out Of the Box confidentiality enabled GRC tables except sn\_esg\_material\_topic, sn\_grc\_metric, sn\_grc\_metric\_definition, sn\_grc\_composite\_metric\_definition, are shipped to sn\_grc\_confidentiality\_configuration table. You can update and remove the user and group fields that are auto-populated into allowed users and groups of a record from this configuration.
+Starting with Utah, confidential configuration for all the default confidentiality enabled GRC tables except sn\_esg\_material\_topic, sn\_grc\_metric, sn\_grc\_metric\_definition, sn\_grc\_composite\_metric\_definition, are shipped to sn\_grc\_confidentiality\_configuration table. You can update and remove the user and group fields that are auto-populated into allowed users and groups of a record from this configuration.
 
 To know more about the confidentiality feature, see [KB1218856](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1218856).
 

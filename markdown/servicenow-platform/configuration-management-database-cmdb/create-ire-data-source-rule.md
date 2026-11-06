@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring CMDB Identification and Reconciliation, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create an IRE data source rule
@@ -18,7 +18,7 @@ When using Identification and Reconciliation Engine \(IRE\), you can prevent a s
 
 ## Before you begin
 
-Role required: itil\_admin
+Role required: sn\_cmdb\_admin or itil\_admin
 
 ## About this task
 

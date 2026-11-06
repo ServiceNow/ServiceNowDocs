@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/setup-mitre-profile.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_ti.admin
 
 ## About this task
 
-Structured Threat Information Expression \(STIX™\) is a language for describing cyberthreat information in a standardized and structured manner. Using STIX data and Trusted Automated Exchange of Indicator Information \(TAXII™\) profiles, security teams can use shared cyberthreat information to isolate threats that have been previously identified by your company and from other sources.
+Structured Threat Information Expression \(STIX™\) is a language for describing cyberthreat information in a standardized and structured manner. Using STIX data and Trusted Automated Exchange of Indicator Information \(TAXII™\) profiles, security teams can use shared cyberthreat information. This helps the security teams to isolate threats that have been previously identified by your company and from other sources.
 
 ## Procedure
 
@@ -28,7 +28,7 @@ Structured Threat Information Expression \(STIX™\) is a language for describin
 
     You see the available TAXII profiles.
 
-2.  Click the **MITRE ATT&amp;CK** profile that is provided with the base system.
+2.  Select the **MITRE ATT&amp;CK** profile that is provided with the base system.
 
     \[Omitted image "mitre-attack-profile.png"\] Alt text: Threat Intelligence: MITRE ATT&amp;CK profile.
 

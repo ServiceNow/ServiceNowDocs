@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Asset performance reports, Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Monitor enterprise asset performance with Asset KPIs report
@@ -17,8 +17,6 @@ breadcrumb: [Create and manage enterprise assets, Managing enterprise models and
 Track the asset availability and related KPI values in the report to see how well an enterprise asset is performing.
 
 ## Before you begin
-
-**Important:** The Asset KPIs report is available with Enterprise Asset Management version 9.0 and later.
 
 Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technician
 
@@ -44,7 +42,7 @@ The Asset KPIs report is available for an enterprise asset under the following c
 
     The Asset KPIs report is displayed.
 
-    \[Omitted image "asset-kpis-report-sidebar.png"\] Alt text: Asset KPIs report
+    \[Omitted image "asset-kpis-report-sidebar-eam.png"\] Alt text: Asset KPIs report
 
 5.  To view the details of the report, select any section on the report.
 
@@ -55,5 +53,5 @@ The Asset KPIs report is available for an enterprise asset under the following c
     -   **End**: The date and time when the asset KPI values were last calculated.
     -   **Outages During Interval** tab: A list of outages with details like start and end time of the outage and the duration of the outage. For more details on outage record creation and handling, see [Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md).
 
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
+**Parent Topic:**[Asset performance reports in the Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/asset-performance-reports-eam.md)
 

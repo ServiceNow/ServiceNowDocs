@@ -1,18 +1,18 @@
 ---
 title: Material topic workflow and states
-description: Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success.The workflow states for a material topic depend on how the material topic was created.
+description: Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success. The workflow states for a material topic depend on how the material topic was created.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/material-topic-workflow-and-states.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Material topic workflow and states
 
-Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success.The workflow states for a material topic depend on how the material topic was created.
+Material topics are the point of origin for sustainability initiatives. A material topic must be identified before it can be tracked and measured for success. The workflow states for a material topic depend on how the material topic was created.
 
 ## Default workflow
 

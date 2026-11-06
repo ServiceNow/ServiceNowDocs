@@ -1,82 +1,61 @@
 ---
 title: Configuring Schedule Optimization
-description: Schedule Optimization enables you to optimize task scheduling, auto-assign tasks, and adapt to changing conditions. By applying policies, you can create the best possible schedule that maximizes task assignment and minimizes travel time.
+description: Use Schedule Optimization to automate task assignment, create efficient schedules, and respond to changing conditions as they occur throughout the day.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/schedule-optimization-engine.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configuring Schedule Optimization
 
-Schedule Optimization enables you to optimize task scheduling, auto-assign tasks, and adapt to changing conditions. By applying policies, you can create the best possible schedule that maximizes task assignment and minimizes travel time.
+Use Schedule Optimization to automate task assignment, create efficient schedules, and respond to changing conditions as they occur throughout the day.
 
 ## Configuration overview
 
-The Schedule Optimization configuration comprises four main elements: Policies, Scheduling attributes, Batches, and Scopes. The workflow involves configuring policies and scheduling attributes, creating batches to execute optimizations, and scopes optimized by the appropriate method. There are additional configurations that will trigger optimization to run throughout the day as scheduling conditions change.
+The Schedule Optimization configuration comprises four main elements: Properties, Policies, Scheduling attributes, and Batches with their associated Scopes. The workflow involves configuring properties to control system-wide behavior, policies to define the rules and priorities that guide optimization, and scheduling attributes to describe the tasks and technicians included in a run. You then create batches and scopes to define what gets optimized, when, and by which method. Additional configurations support intraday and on-demand optimization, allowing scheduling updates in response to changing conditions throughout the day.
+
+## How Schedule Optimization works
+
+Schedule Optimization evaluates available tasks and technicians against configured policies to produce optimized schedules. Each optimization run is associated with a scope, which specifies the scheduling attribute configuration and qualifiers. Qualifiers, such as assignment groups or territories, determine which technicians are included in the run. Assignment groups organize technicians by skill or role, while territories define geographic service areas. Qualifiers support overlapping technicians only when optimizing by territory, not by assignment groups.
+
+Schedule Optimization can be configured to run in three modes:
+
+-   **Batch optimization** runs on a scheduled basis to create optimized schedules for upcoming work. It evaluates all available tasks and technicians within a specified time window and produces a complete schedule based on your configured objectives and constraints.
+-   **Intraday optimization** runs throughout the day in response to schedule disruptions such as canceled tasks, new high-priority tasks, or technicians running late or calling in sick. Prioritized event optimization is a focused mode of intraday optimization that triggers shortly after a critical event occurs, targeting only the affected technicians and tasks.
+-   **On-demand optimization** allows dispatchers to trigger optimization manually from Dispatcher Workspace at any time.
+
+## Schedule Optimization workflow diagram
+
+The following figure illustrates the high-level workflow of Schedule Optimization in batch mode.
+
+\[Omitted image "sched-opt-flow.png"\] Alt text: Schedule Optimization flow diagram showing how batches, scopes, and policies work together. See the previous text description for more information.
+
+## Steps to setup Schedule Optimization
 
 The steps to set up Schedule Optimization are:
 
 1.  Activate the Schedule Optimization plugin. For more information, see [Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md).
-2.  [Set the properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md) of the schedule optimization engine to tailor its behavior and functionality to your organization's specific needs.
-3.  Create policies to determine how to optimize agent schedules based on defined objectives or constraints. For instance, if a company has 20 technicians with appointments in a city, you can configure a policy to minimize driving time. By running a batch the night before, the system evaluates all tasks and generate an optimized schedule that minimizes agents' driving time. For more information, see [Create a policy for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md).
-4.  Configure the scheduling attributes to create reusable sets of common optimization settings like the default travel estimate provider and task conditions to consider when optimization runs. For more information, see [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
-5.  Create optimization batches with the desired schedules and settings. For more information, see [Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-an-optimization-batch.md).
-6.  Create optimization scopes to associate batches with existing scheduling attribute configurations, optimizing either by assignment groups or territories. For more information, see [Create a scope for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-an-optimization-job-soe.md)
-7.  Schedule batches to run automatically to assign tasks to agents and optimize schedules.
-8.  Optionally, create intraday configurations to automatically update agents schedules in response to events, such as an agent running late.
+2.  [Set the properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md) to control optimization behavior and performance in your instance.
+3.  Optionally, you can set up [Territory-Based Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/territory-based-optimization.md), [Schedule Optimization with Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/schedule-optimization-with-workforce-optimization-for-field-service.md), and [Schedule Optimization for Planned Crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/schedule-optimization-for-planned-crews.md) depending on your specific needs.
+4.  Create policies that define optimization goals through objectives and constraints. Objectives prioritize how tasks are assigned, such as minimizing travel time or maximizing task assignments. Constraints set rules that must be met before assigning tasks, such as required skills or availability. For more information, see [Create a policy for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-policies-schedule-optimization.md).
+5.  Configure scheduling attributes to define reusable optimization settings, including the default policy, travel estimate provider, and applicable qualifiers. For more information, see [Create a scheduling attribute for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/configure-scheduling-attributes.md).
+6.  Create scopes that define the scheduling attribute configuration and qualifiers for an optimization run. Scopes are required for batches to run. For more information, see [Create a scope for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-an-optimization-job-soe.md)
+7.  Create batches that define when optimization runs, including start date, run frequency, and start and end times. For more information, see [Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-an-optimization-batch.md).
+8.  Optionally, create intraday configurations to trigger optimization in response to schedule disruptions or enable on-demand optimization for dispatchers. For more information, see [Intraday optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/optimize-your-schedules-intraday.md).
+9.  Optionally, for large workloads or growing organizations, configure split qualifiers to distribute optimization across multiple parallel jobs and improve processing time. For more information, see [Running Schedule Optimization jobs for large workloads](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/splitting-territories-or-technicians.md).
 
-## Schedule Optimization based on territories
-
-Consider the following points while implementing Schedule Optimization based on territories.
-
--   **Plugin dependencies**
-
-    Optimize tasks based on territories with Schedule Optimization when the Territory Planning plugin is installed.
-
-    -   If the Territory Planning plugin isn't installed or the Territory Model is inactive, the optimization seamlessly continues relying on assignment groups.
-    -   If both the Field Service Territory Planning and Schedule Optimization plugins are installed, but the Territory Model is inactive, tasks are optimized based on assignment groups. Keep territory-related batches inactive until the Territory Planning plugin is activated.
-    -   If both the Territory Planning and Schedule Optimization plugins are installed and the Territory Model is active, tasks are exclusively optimized based on territories. You can create scopes specifically for territories.
--   **Activation prerequisite**
-
-    Before activating the Field Service Territory Model, ensure batches optimized by assignment groups are inactive, and batches optimized by territories are active.
-
--   **Post-activation**
-
-    After activating the Field Service Territory Model, tasks need territories selected for Schedule Optimization to assign them to agents.
-
--   **Territory-Centric optimization**
-
-    With both plugins active and the Field Service Territory Model enabled, tasks are exclusively optimized based on territories.
-
--   **Intraday efficiency**
-
-    Resolves complexities of agents handling multiple territories in a day, especially during multiple shifts.
-
--   **Overlapping Territories management**
-
-    In the Field Service Territory Model, territories can overlap either in geography or with shared agents. Machine learning-driven capabilities consider these overlaps for effective assignment and management in task optimization.
-
--   **Agent start location**
-
-    When utilizing the Field Service Territory Model, the agents' start locations can be temporarily adjusted to a different location, with a specified start and end date. This temporary start location is utilized when assigning tasks, ensuring that logistics are optimized based on the agent's temporarily set start location. If a temporary start location is not set, or after the specified end date, the agent's location will revert to their home location. Additionally, during the agent relocation process, you can customize attributes related to agent membership and availability, allowing for flexible and efficient management of resources. For more information, see [Move agents between territories in the Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/relocate-agents-territories.md).
-
-
-## Schedule Optimization with Workforce Optimization for Field Service
-
-Schedule Optimization considers an agent's schedule and events from the Workforce Optimization for Field Service application to auto-assign tasks only when the **Enable Shift Scheduling for FSM to Determine Availability** option is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/t_ConfigureFieldService.md) and [Activate Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/activate-wfo-fsm.md).
-
-## Schedule Optimization for Planned Crews
-
-Use Schedule Optimization to optimize task assignments to planned crews. There are two types of crews: planned crews, which are pre-created, and dynamic crews, which are dynamically created as needed. Schedule optimization only supports planned crews. To ensure effective Schedule Optimization, the Field Service Crew Operations plugin must be active, planned crews must be created in the system, and each planned crew should have a designated location and schedule.
+By default, Schedule Optimization processes up to 50 optimization requests across all optimization methods every 24 hours. Schedule Optimization handles high volumes of scheduling tasks within each request. If you need higher capacity, you can contact support or submit a change control request to adjust the configuration.
 
 **Related topics**  
 
 
-[Activate Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/schedule-optimization-engine-plugin.md)
+[Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization.md)
+
+[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-components.md)
 

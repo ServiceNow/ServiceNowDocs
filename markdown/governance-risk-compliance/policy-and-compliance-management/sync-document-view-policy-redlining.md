@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Sync document and view policy text
@@ -28,7 +28,7 @@ Contextually, Cloud refers to documents that reside in Microsoft OneDrive, Micro
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: List\).
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 

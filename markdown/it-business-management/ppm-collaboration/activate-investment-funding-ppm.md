@@ -7,9 +7,9 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [PPM Standard \(Project Portfolio Management\), Explore, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [PPM Standard \(Project Portfolio Management\), Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Activate Investment Funding for projects and demands
@@ -57,5 +57,5 @@ The plugin activates the related plugins if they are not already active. It also
 
 [Install Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/investment-funding/activate-investment-funding.md)
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

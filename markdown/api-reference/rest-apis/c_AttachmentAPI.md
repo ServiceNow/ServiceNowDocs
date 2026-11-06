@@ -1,14 +1,14 @@
 ---
 title: Attachment API
-description: The Attachment API provides endpoints that allow you to upload and query file attachments.This method deletes the attachment with a specific sys\_id value.Returns the metadata for multiple attachments.Returns the binary file attachment with a specific sys\_id value.Returns the metadata for the attachment file with a specific sys\_id value.Uploads a specified binary file as an attachment to a specified record.Uploads a multipart file attachment.
+description: The Attachment API provides endpoints that allow you to upload and query file attachments.Deletes a specified attachment.Deletes all attributes for an attachment.Deletes a specified attribute from an attachment.Returns the metadata for multiple attachments.Returns the metadata for the attachment file with a specific sys\_id value.Retrieves all attributes for an attachment.Retrieves a specified attribute from an attachment.Returns the binary file attachment with a specific sys\_id value.Renames an attachment.Adds an attribute to a specified attachment.Uploads a specified binary file as an attachment to a specified record.Uploads a multipart file attachment.Updates the value of an existing attribute for an attachment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/c\_AttachmentAPI.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 18
+last_updated: "2026-09-10"
+reading_time_minutes: 31
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -34,7 +34,7 @@ By default there is no single role allowing a user to add attachments. You can c
 
 ## Attachment - DELETE /now/attachment/\{sys\_id\}
 
-This method deletes the attachment with a specific sys\_id value.
+Deletes a specified attachment.
 
 ### URL format
 
@@ -60,7 +60,9 @@ sys\_id
 
 </td><td>
 
-Sys\_id value of the attachment to delete.Data type: String
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -108,6 +110,204 @@ curl "https://instance.servicenow.com/api/now/attachment/615ea769c0a80166001cf5f
 --user 'username':'password'
 
 ```
+
+```
+""
+```
+
+## Attachment - DELETE /now/attachment/\{sys\_id\}/attributes
+
+Deletes all attributes for an attachment.
+
+Attributes are deleted from the Attachment Attributes \[sys\_attachment\_attribute\] table.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}/attributes`
+
+Default URL: `/api/now/attachment/{sys_id}/attributes`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|204|No Content. The attributes were successfully deleted and no content was returned in the response body.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON or XML\)
+
+|Name|Description|
+|----|-----------|
+|None||
+
+### cURL request
+
+This example deletes all attributes from an attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0/attributes" \
+--request DELETE \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+""
+```
+
+## Attachment - DELETE /now/attachment/\{sys\_id\}/attributes/\{attribute\_key\}
+
+Deletes a specified attribute from an attachment.
+
+Attributes are deleted from the Attachment Attributes \[sys\_attachment\_attribute\] table.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}/attributes/{attribute_key}`
+
+Default URL: `/api/now/attachment/{sys_id}/attributes/{attribute_key}`
+
+### Supported request parameters
+
+<table id="table_oxc_cqh_g3c" class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
+
+</td></tr><tr><td>
+
+attribute\_key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|204|No Content. The attribute was successfully deleted and no content was returned in the response body.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON or XML\)
+
+|Name|Description|
+|----|-----------|
+|None||
+
+### cURL request
+
+This example deletes a specified attribute from an attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0/attributes/example_key" \
+--request DELETE \
+--user 'username':'password'
+```
+
+Response body.
 
 ```
 ""
@@ -257,87 +457,6 @@ curl "https://instance.servicenow.com/api/now/attachment?sysparm_limit=1" \
 }
 ```
 
-## Attachment - GET /now/attachment/\{sys\_id\}/file
-
-Returns the binary file attachment with a specific sys\_id value.
-
-### URL format
-
-Versioned URL: `/api/now/v1/attachment/{sys_id}/file`
-
-Default URL: `/api/now/attachment/{sys_id}/file`
-
-**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
-
-### Supported request parameters
-
-|Name|Description|
-|----|-----------|
-|sys\_id|Sys\_id of the attachment record from which to return binary data.|
-
-|Name|Description|
-|----|-----------|
-|None| |
-
-|Name|Description|
-|----|-----------|
-|None| |
-
-### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-<table class="rest_api_request_headers"><thead><tr><th>
-
-Header
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Accept
-
-</td><td>
-
-Data format of the response body. For example, use `image/jpeg` or `image/png` to accept JPEG or PNG image files exclusively. To allow all image types, specify `image/*`; to allow any file type, specify `*/*`.Default: \*/\*
-
-</td></tr></tbody>
-</table>|Header|Description|
-|------|-----------|
-|X-Attachment-Metadata|Metadata about the returned file, such as size, name, and file type.|
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Status code|Description|
-|-----------|-----------|
-|200|Successful. The request was successfully processed.|
-|400|Bad Request. A bad request type or malformed request was detected.|
-|401|Unauthorized. The user credentials are incorrect or have not been passed.|
-|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
-
-### Response body parameters \(JSON or XML\)
-
-|Name|Description|
-|----|-----------|
-|Binary file attachment||
-
-### cURL request
-
-```
-curl "https://instance.servicenow.com/api/now/attachment/615ea769c0a80166001cf5f2367302f5/file" \
---request GET \
---header "Accept:*/*" \
---user "username":"password"
-```
-
-```
-Binary response not shown.
-```
-
 ## Attachment - GET /now/attachment/\{sys\_id\}
 
 Returns the metadata for the attachment file with a specific sys\_id value.
@@ -436,6 +555,785 @@ curl "https://instance.servicenow.com/api/now/attachment/615ea769c0a80166001cf5f
     "sys_mod_count": "0",
     "content_type": "application/x-shockwave-flash",
     "size_compressed": "485"
+  }
+}
+```
+
+## Attachment - GET /now/attachment/\{sys\_id\}/attributes
+
+Retrieves all attributes for an attachment.
+
+Attributes are retrieved from the Attachment Attributes \[sys\_attachment\_attribute\] table.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}/attributes`
+
+Default URL: `/api/now/attachment/{sys_id}/attributes`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON or XML\)
+
+<table id="table_ykm_12b_g3c"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+result
+
+</td><td>
+
+Array of objects containing a key-value pair for each attribute.Data type: Array
+
+```
+"result": [
+  {
+    "key": "example_key",
+    "value": "example_value"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+result.key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr><tr><td>
+
+result.value
+
+</td><td>
+
+Attribute value.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Value
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example retrieves all attributes for the specified attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0/attributes" \
+--request GET \
+--header "Accept:application/json" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "result": [
+    {
+      "key": "example_key",
+      "value": "example_value"
+    },
+    {
+      "key": "another_key",
+      "value": "another_value"
+    }
+  ]
+}
+```
+
+## Attachment - GET /now/attachment/\{sys\_id\}/attributes/\{attribute\_key\}
+
+Retrieves a specified attribute from an attachment.
+
+Attributes are retrieved from the Attachment Attributes \[sys\_attachment\_attribute\] table.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}/attributes/{attribute_key}`
+
+Default URL: `/api/now/attachment/{sys_id}/attributes/{attribute_key}`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
+
+</td></tr><tr><td>
+
+attribute\_key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON or XML\)
+
+<table id="table_fvb_gw3_g3c"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+result
+
+</td><td>
+
+Object containing the key-value pair for the attribute.Data type: Object
+
+```
+"result": { 
+   "key": "String",  
+   "value": "String"
+}
+```
+
+</td></tr><tr><td>
+
+result.key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr><tr><td>
+
+result.value
+
+</td><td>
+
+Attribute value.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Value
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example retrieves a specified attribute from an attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0/attributes/example_key" \
+--request GET \
+--header "Accept:application/json" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "result": {
+    "key": "example_key",
+    "value": "example_value"
+  }
+}
+```
+
+## Attachment - GET /now/attachment/\{sys\_id\}/file
+
+Returns the binary file attachment with a specific sys\_id value.
+
+### URL format
+
+Versioned URL: `/api/now/v1/attachment/{sys_id}/file`
+
+Default URL: `/api/now/attachment/{sys_id}/file`
+
+**Note:** Available versions are specified in the [REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/use-REST-API-Explorer.md). For scripted REST APIs there is additional version information on the [Scripted REST Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_CustomWebServices.md).
+
+### Supported request parameters
+
+|Name|Description|
+|----|-----------|
+|sys\_id|Sys\_id of the attachment record from which to return binary data.|
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td>
+
+Data format of the response body. For example, use `image/jpeg` or `image/png` to accept JPEG or PNG image files exclusively. To allow all image types, specify `image/*`; to allow any file type, specify `*/*`.Default: \*/\*
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|X-Attachment-Metadata|Metadata about the returned file, such as size, name, and file type.|
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|401|Unauthorized. The user credentials are incorrect or have not been passed.|
+|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
+
+### Response body parameters \(JSON or XML\)
+
+|Name|Description|
+|----|-----------|
+|Binary file attachment||
+
+### cURL request
+
+```
+curl "https://instance.servicenow.com/api/now/attachment/615ea769c0a80166001cf5f2367302f5/file" \
+--request GET \
+--header "Accept:*/*" \
+--user "username":"password"
+```
+
+```
+Binary response not shown.
+```
+
+## Attachment - PATCH /now/attachment/\{sys\_id\}
+
+Renames an attachment.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}`
+
+Default URL: `/api/now/attachment/{sys_id}`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Table: Attachment \[sys\_attachment\]
+
+Data type: String
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+file\_name
+
+</td><td>
+
+Required. New name for the attachment.Data type: String
+
+</td></tr></tbody>
+</table>### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr><tr><td>
+
+Content-Type
+
+</td><td id="content_type-entry-RESTAPI">
+
+Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|204|No Content. The attachment was successfully renamed and no content was returned in the response body.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|401|Unauthorized. The user credentials are incorrect or have not been passed.|
+
+### Response body parameters \(JSON or XML\)
+
+<table><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+error
+
+</td><td>
+
+Error information. This parameter is only returned if the request failed.Data type: Object
+
+```
+"error": {   
+   "detail": "String",
+   "message": "String"
+}
+```
+
+</td></tr><tr><td>
+
+error.detail
+
+</td><td>
+
+Additional details about why the request failed.Data type: String
+
+</td></tr><tr><td>
+
+error.message
+
+</td><td>
+
+Error message containing the reason the request failed.Data type: String
+
+</td></tr><tr><td>
+
+status
+
+</td><td>
+
+Status of the API request. This parameter is only returned if the request failed so the only possible value is `failure`.Data type: String
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example renames an attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0" \
+--request PATCH \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+  \"file_name\": \"new_attachment_name\"        
+}" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+""
+```
+
+## Attachment - POST /now/attachment/\{sys\_id\}/attributes
+
+Adds an attribute to a specified attachment.
+
+Attributes are added in the Attachment Attributes \[sys\_attachment\_attribute\] table.
+
+This endpoint can be used to add alt text to an attachment.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}/attributes`
+
+Default URL: `/api/now/attachment/{sys_id}/attributes`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+key
+
+</td><td>
+
+Required. Key to use for the attribute.Data type: String
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Required. Value to use for the attribute.Data type: String
+
+</td></tr></tbody>
+</table>### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table id="table_fnw_xy1_g3c" class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr><tr><td>
+
+Content-Type
+
+</td><td id="content_type-entry-RESTAPI">
+
+Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|201|Created. The attribute was successfully created.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON or XML\)
+
+<table><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+result
+
+</td><td>
+
+Object containing the key-value pair for the attribute.Data type: Object
+
+```
+"result": { 
+   "key": "String",  
+   "value": "String"
+}
+```
+
+</td></tr><tr><td>
+
+result.key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr><tr><td>
+
+result.value
+
+</td><td>
+
+Attribute value.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Value
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example adds an attribute to an attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0/attributes" \
+--request POST \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+  \"key\": \"example_key\",  
+  \"value\": \"example_value\"
+}" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "result": {
+    "key": "example_key",
+    "value": "example_value"
   }
 }
 ```
@@ -556,14 +1454,56 @@ Content type of the file to attach, such as image/jpeg or \*/\*. This header is 
 
 The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
 
-|Status code|Description|
-|-----------|-----------|
-|201|Indicates the query ran successfully.|
-|400|Indicates that one or more mandatory parameters were missing from the request.|
-|404|Indicates the record specified by the **table\_name** and **table\_sys\_id** parameters does not exist or is not accessible to the current user.|
-|500|Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.|
+<table><thead><tr><th>
 
-### Response body parameters \(JSON or XML\)
+Status code
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+201
+
+</td><td>
+
+Indicates the query ran successfully.
+
+</td></tr><tr><td>
+
+400
+
+</td><td>
+
+Indicates that one or more mandatory parameters were missing from the request.
+
+</td></tr><tr><td>
+
+403
+
+</td><td>
+
+Forbidden. The user doesn't have access rights to the specified record.**Note:** To authenticate with this API, use OAuth 2.0 or enable preemptive authentication on the REST client. For more information, see [KB3054410](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3054410).
+
+</td></tr><tr><td>
+
+404
+
+</td><td>
+
+Indicates the record specified by the **table\_name** and **table\_sys\_id** parameters does not exist or is not accessible to the current user.
+
+</td></tr><tr><td>
+
+500
+
+</td><td id="entry-500-status-code">
+
+Internal server error. An unexpected error occurred while processing the request. The response contains additional information about the error.
+
+</td></tr></tbody>
+</table>### Response body parameters \(JSON or XML\)
 
 <table id="table_kbr_qck_llb"><thead><tr><th>
 
@@ -1186,6 +2126,199 @@ curl "https://instance.servicenow.com/api/now/attachment/upload" \
     "sys_mod_count": "0",
     "content_type": "image/jpeg",
     "size_compressed": "25130"
+  }
+}
+```
+
+## Attachment - PUT /now/attachment/\{sys\_id\}/attributes/\{attribute\_key\}
+
+Updates the value of an existing attribute for an attachment.
+
+Attributes are updated in the Attachment Attributes \[sys\_attachment\_attribute\] table.
+
+### URL format
+
+Versioned URL: `/api/now/{api_version}/attachment/{sys_id}/attributes/{attribute_key}`
+
+Default URL: `/api/now/attachment/{sys_id}/attributes/{attribute_key}`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+api\_version
+
+</td><td id="version-entry-RESTAPI">
+
+Optional. Version of the endpoint to access. For example, `v1` or `v2`. Only specify this value to use an endpoint version other than the latest. Data type: String
+
+</td></tr><tr><td>
+
+sys\_id
+
+</td><td>
+
+Sys\_id of the attachment.Data type: String
+
+Table: Attachment \[sys\_attachment\]
+
+</td></tr><tr><td>
+
+attribute\_key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+value
+
+</td><td>
+
+Required. New value for the attribute.Data type: String
+
+</td></tr></tbody>
+</table>### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+<table id="table_fnw_xy1_g3c" class="rest_api_request_headers"><thead><tr><th>
+
+Header
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Accept
+
+</td><td id="accept-entry-RESTAPI">
+
+Data format of the response body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr><tr><td>
+
+Content-Type
+
+</td><td id="content_type-entry-RESTAPI">
+
+Data format of the request body. Supported types: **application/json** or **application/xml**. Default: **application/json**
+
+</td></tr></tbody>
+</table>|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON or XML\)
+
+<table id="table_tmm_qw3_g3c"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+result
+
+</td><td>
+
+Object containing the key-value pair for the attribute.Data type: Object
+
+```
+"result": { 
+   "key": "String",  
+   "value": "String"
+}
+```
+
+</td></tr><tr><td>
+
+result.key
+
+</td><td>
+
+Attribute key.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Key
+
+</td></tr><tr><td>
+
+result.value
+
+</td><td>
+
+Attribute value.Data type: String
+
+Table: Attachment Attributes \[sys\_attachment\_attribute\]
+
+Column: Value
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example updates the value of the `example_key` attribute for the specified attachment.
+
+```
+curl "https://instance.service-now.com/api/now/attachment/a3af695b0a0006871b657c200acf62e0/attributes/example_key" \
+--request PUT \
+--header "Accept:application/json" \
+--header "Content-Type:application/json" \
+--data "{
+  \"value\": \"new_value\"
+}" \
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+  "result": {
+    "key": "example_key",
+    "value": "new_value"
   }
 }
 ```

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Working with SRM teams
@@ -38,7 +38,7 @@ Choices are:
 
 The Your team requests section contains team cards for any pending requests, if there are any.
 
-The Your teams section contains cards that provide information about a specific team, such as the status of the team, name of the team, manager, team email, current shift name and duration, and primary responder. See [Manage your SRM team details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-manage-team-details.md) for more information.
+The Your teams section contains cards that provide information about a specific team, such as team status, name, manager, email, current shift name and duration, and primary responder. See [Manage your SRM team details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-manage-team-details.md) for more information.
 
 -   **[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-team.md)**  
 Request to create a team to start monitoring your services. Teams are responsible for the issues that occur in the associated services.
@@ -49,7 +49,7 @@ Set up an escalation policy for your team to ensure that alerts or incidents are
 
 **Parent Topic:**[Using Service Reliability Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/using-service-reliability-management.md)
 
-**Previous topic:**[Edit SRM service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-edit-service.md)
+**Previous topic:**[Working with integrations in SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-work-integrations.md)
 
 **Next topic:**[Add an SRM team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/sr-create-team.md)
 

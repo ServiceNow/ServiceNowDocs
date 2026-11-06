@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,7 +26,7 @@ Approve a consumer's request to access replication data in Instance Data Replica
 Find missing or mismatched records by comparing replication data between instances in Instance Data Replication \(IDR\).
 -   **[Deploying a replication configuration from one instance to another in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/copying-replication-configuration.md)**  
 Copy a replication configuration from one instance to another through an update set in Instance Data Replication \(IDR\).
--   **[Cloning with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/cloning-with-instance-data-replicaton.md)**  
+-   **[Cloning options with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/cloning-with-instance-data-replicaton.md)**  
 Ensure that certain tables are preserved or excluded to clone your database from one instance to another successfully with Instance Data Replication \(IDR\).
 -   **[Monitoring replication status in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/instance-data-replication-dashboard.md)**  
 Monitor the status of active producer and consumer replication sets, scheduled jobs, seeding requests, license usage, or scheduled replication through the Instance Data Replication \(IDR\) Monitoring Dashboard.

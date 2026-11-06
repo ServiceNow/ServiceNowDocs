@@ -1,132 +1,103 @@
 ---
-title: Account 360 Analytics dashboards
-description: The Analytics dashboards provided by Operations Account 360 view displays charts and summary data on metrics like proactive cases, account escalations, SLAs, channels used, core KPIs, and more.
+title: Service delivery overview
+description: Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Reviewing customer or partner accounts in Proactive Service Experience Workflows, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [analytics dashboard, service delivery overview, SLA performance, account metrics, account 360]
+breadcrumb: [Explore, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
-# Account 360 Analytics dashboards
+# Service delivery overview
 
-The Analytics dashboards provided by Operations Account 360 view displays charts and summary data on metrics like proactive cases, account escalations, SLAs, channels used, core KPIs, and more.
+Use the Service delivery overview to view the Analytics dashboards of the customer accounts. You can explore the details about the operational status of the accounts.
 
-To view the Analytics dashboards, navigate to **Workspaces** &gt; **Service Operations Workspace** &gt; **Lists** &gt; **Accounts** &gt; **All**. Open a customer account from the list and then select the **Analytics** tab.
+Service delivery overview displays the Analytics dashboards of the customer accounts. This dashboard contains diagrams, charts, and summary data on metrics such as proactive cases, account escalations, Service Level Agreements \(SLAs\), Core Key Performance Index \(KPI\), and so on.
 
-The Analytics tab contains the additional tabs for each dashboard.
+The Service delivery overview contains the following tabs for each dashboard.
 
--   Analytics Snapshot
--   Core KPIs
--   Service Level
--   Proactive Service
+-   Overview
+-   SLA performance
+-   Service Management
 
-## End users and roles
+\[Omitted image "service-delivery-overview.png"\] Alt text: Service delivery overview page view of the current operational status metrics.
 
-|End user and goal|Required role|
-|-----------------|-------------|
-|Customer service agent: View case metrics like proactive cases, account escalations, SLA, channels used, core KPIs to understand the current performance of customer service at your organization.|sn\_ind\_tsm\_core\_noc\_agent|
-|Content administrator: Can edit the dashboard and manage users, groups, and roles for the dashboard.|pa\_admin|
-|Content creator: Can view the dashboard.|pa\_viewer|
+## Access
 
-## Analytics breakdown
+You can access the Service delivery overview page as follows:
 
-The Analytics dashboards use the Account selection breakdown. Select an account to exclusively view its data.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** or **CSM/FSM Configurable Workspace**.
+2.  Select the service delivery overview \(\[Omitted image "icon-service-delivery-overview.png"\] Alt text: Service Deliver Overview Icon.\) icon.
 
-## Analytics Snapshot dashboard
+## Account selection
 
-The Analytics Snapshot dashboard offers a comprehensive overview of key performance metrics and service-related indicators, presenting essential data at a glance.
+Select **Accounts**, and then select the customer account that you want to view the data. You can also select more than one account.
 
-## Analytics Snapshot indicators
+## Overview tab
+
+The Overview tab provides a comprehensive overview of key performance metrics and service-related indicators, presenting essential data at a glance.
 
 |Indicator|Description|
 |---------|-----------|
-|% Overall SLA achievement|Total percentage of SLAs met out of the total number of SLAs.|
-|Total proactive cases created|Total proactive cases initiated by changes and incidents.|
-|Number of open account escalation|Total number of account-related issues that have been escalated and are currently unresolved.|
-|Outage duration – Type-wise distribution|Sum of the total duration of outages, categorized by their types. This visualization helps in understanding which types of outages are most frequent or have the longest durations, enabling targeted improvements and resource allocation.|
-|% of cases created proactively|Percentage of customer service or support cases that were initiated proactively by the organization itself, rather than in response to customer inquiries or complaints.|
-|CI vs Cases|Comparison of Configuration Items \(CI\) involved in service cases versus the total number of cases reported. Configuration Items can include any component essential for the delivery of IT services such as software, hardware, and network infrastructure.|
-|Preferred channel used for communication|Identification of the most commonly used method of communication by customers within a given system or service. For example, incidents.|
-
-## Core KPIs dashboard
-
-The Core KPIs dashboard delivers actionable insights, enabling users to track and enhance the efficiency and quality of their services.
-
-## Core KPIs indicators
-
-|Indicator|Description|
-|---------|-----------|
-|% First contact rate|Percentage of customer inquiries or issues that are resolved during the first interaction with a service or support team.|
-|% Incident re-open rate|Percentage of incidents that were initially marked as resolved but later required reopening due to unresolved issues or the emergence of related problems.|
-|Closed case with breached SLAs|Number of cases that were closed but failed to meet the predefined service level agreements \(SLAs\).|
-|Avg re-assignment count for resolved incidents|Average number of times an incident is reassigned to different team members or teams before it is finally resolved.|
-|Avg active case age|Average duration that cases remain open or active before they are resolved or closed.|
-|Avg time to resolve case|Average amount of time taken to fully resolve a case from the moment it is opened until it is officially closed.|
-|Avg time to fulfill|Average duration taken to completely fulfill a request from the time it is initiated until it is fully completed or closed.|
-|Number of open incidents not updated in last 5 days|Number of incidents marked as New, In Progress, or On Hold, that have not received any updates or modifications within the past five days.|
-|Number of open cases not updated in last 5 days|Number of active cases marked as New, Open, or Awaiting Info, that have not been updated or modified within the past five days.|
-|Number of catalog tasks not updated in the last 5 days|Number of catalog tasks in an Open, Pending, or Work in Progress state that have not been updated in over five days.|
-|Cases|Number of cases in a New, Open, or Awaiting Info state that have not been updated for more than seven days since their creation.|
-|Incidents|Number of incidents in a New, In Progress, or On Hold state that have not been updated for more than seven days since their creation.|
-|Request Items|Number of requested items in a Open, Pending, or Work in Progress state that have not been updated for more than seven days since their creation.|
-|Approvals|Number of approvals in a Requested or More Information Required state that have remained unchanged for more than seven days since their creation.|
-|Catalog Tasks|Number of catalog tasks in an Open, Pending, or Work in Progress state that were created more than seven days ago and have not been updated since.|
-
-## Service Level dashboard
-
-This dashboard displays metrics that provide users a summary of the effectiveness with which the managed services adhere to their Service Level Agreements \(SLAs\).
-
-## Service Level indicators
-
-|indicator|Description|
-|---------|-----------|
-|% Overall SLA achieved|Percentage of service level agreements \(SLAs\) that have been successfully met by a service provider.|
-|% Incident SLA achieved|Percentage of incident-related service level agreements \(SLAs\) that have been successfully met by a service provider.|
-|% Case SLA achieved|Percentage of case-related service level agreements \(SLAs\) that have been successfully met by a service provider.|
-|% Request SLA achieved|Percentage of request-related service level agreements \(SLAs\) that have been successfully met by a service provider.|
-|% Overall SLA breached|Percentage of service level agreements \(SLAs\) that were not met by a service provider. It assesses the instances where the agreed-upon time lines outlined in the SLAs were violated.|
-|% Incident SLA breached|Percentage of incident-related service level agreements \(SLAs\) that were not met by a service provider.|
-|% Case SLA breached|Percentage of case-related service level agreements \(SLAs\) that were not met by a service provider.|
-|% Request SLA breached|Percentage of request-related service level agreements \(SLAs\) that were not met by a service provider.|
-|% My team Overall SLA achieved|Percentage of service level agreements \(SLAs\) successfully met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Incident SLA achieved|Percentage of incident-related service level agreements \(SLAs\) successfully met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Case SLA achieved|Percentage of case-related service level agreements \(SLAs\) successfully met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Request SLA achieved|Percentage of request-related service level agreements \(SLAs\) successfully met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Overall SLA breached|Percentage of service level agreements \(SLAs\) that were not met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Incident SLA breached|Percentage of incident-related service level agreements \(SLAs\) that were not met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Case SLA breached|Percentage of case-related service level agreements \(SLAs\) that were not met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|% My team Request SLA breached|Percentage of request-related service level agreements \(SLAs\) that were not met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
-|Average SLAs age|Average time span from start\_time to end\_time for all SLAs that are marked as either achieved or completed.|
-|Opened SLAs|Total number of service level agreements \(SLAs\) that are in In progress or paused state.|
-|Overdue SLAs|Number of open service level agreements \(SLAs\) with the **Has breached** field activated.|
-|SLAs expiring today|Number of service level agreements \(SLAs\) that are scheduled to reach their deadline or expiration on the current day.|
-|My team Average SLAs age|Average duration between start\_time and end\_time for all SLAs marked as achieved or completed within a specific team, filtered by the assignment groups associated with the logged-in user.|
-|My team Opened SLAs|Total number of SLAs that are either in progress or paused, specific to a team and filtered according to the assignment groups of the logged-in user.|
-|My team overdue SLAs|Total number of service level agreements \(SLAs\) marked as breached within a specific team, filtered based on the assignment groups linked to the logged-in user.|
-|My team SLAs expiring today|Total number of SLAs within a specific team scheduled to reach their deadline or expire today, filtered based on the assignment groups linked to the logged-in user.|
-
-## Proactive Service dashboard
-
-The Proactive Service dashboard offers a detailed overview of the influence of incidents, changes, and key records on organizational operations. It also shows the extent to which the organization has transitioned towards a mature service delivery model.
-
-## Proactive Service indicators
-
-|Indicator|Description|
-|---------|-----------|
-|Proactive cases triggered by the incident|Number of cases where the proactive field is set to true and the Incident field is populated.|
-|Proactive cases triggered by change|Number of cases where the proactive field is set to true and the Caused by Change field is populated.|
-|Major cases triggered by the incident|Number of cases where the Major case state is set to Accepted and the Incident field is populated.|
-|Total outage duration caused by change|Total duration of all outages associated with tasks identified by a task number starting with CHG.|
-|Unplanned outages caused by the incident|Total number of outages classified as Outage with task numbers labeled as "Incident" type.|
-|Planned outages caused by change|Total number of planned outages associated with task numbers categorized as Change Request.|
+|Overall SLA achievement|Total percentage of SLAs met out of the total number of SLAs.|
+|Open account escalations|Total number of account-related issues that have been escalated and are currently unresolved.|
+|Unplanned outages caused by changes|Total number of outages classified as Outage with task numbers labeled as Change type.|
+|Configuration items involved in cases|Total number of configuration items \(CI\) involved in cases.|
+|Total outage duration by type \(hours\)|Sum of the total duration of outages, categorized by their types. This visualization helps which types of outages are most frequent or have the longest durations, enabling targeted improvements and resource allocation.|
+|Total outage duration caused by changes \(hours\)|Total duration of all outages associated with tasks identified by a task number starting with CHG.|
+|First contact rate|Percentage of customer inquiries or issues that are resolved during the first interaction with a service or support team.|
+|Average time to resolve case|Average amount of time taken to resolve a case from the moment it’s opened until it’s officially closed.|
+|Average time to fulfill|Average duration taken to fulfill a request from the time it’s initiated until it’s fully completed or closed.|
+|Percent of cases created proactively|Percentage of customer service or support cases that were initiated proactively by the organization itself, rather than in response to customer inquiries or complaints.|
+|Proactive cases by incident|Number of cases where the proactive field is set to true and the Caused by Incident field is populated.|
+|Proactive cases by change|Number of cases where the proactive field is set to true and the Caused by Change field is populated.|
+|Major cases triggered by incident|Number of cases where the proactive field is set to true and the Incident field is populated.|
 |Number of missed major case record SLAs|All breached SLAs associated with tasks labeled as Case and having an Accepted status in the major case state.|
-|Number of problems created by case|All problems initially reported with the task type labeled as Case.|
-|Number of problems created by the incident|All problems initially reported with the task type labeled as incident.|
 
-**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+## SLA performance tab
+
+The SLA performance tab displays metrics that provide you with a summary of the effectiveness with which the managed services adhere to their SLAs.
+
+|Indicator|Description|
+|---------|-----------|
+|Team overdue SLAs|Total number of SLAs marked as breached within a specific team, filtered based on the assignment groups linked to the logged-in user.|
+|Team opened SLAs|Total number of SLAs that are either in progress or paused, specific to a team and filtered according to the assignment groups of the logged-in user.|
+|Team SLA analysis achieved|Percentage of SLAs successfully met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
+|Team SLAs expiring today|Total number of SLAs within a specific team scheduled to reach their deadline or expire today, filtered based on the assignment groups linked to the logged-in user.|
+|Team average SLAs age|Average duration between start time and end time for all SLAs marked as achieved or completed within a specific team. Filtered by the assignment groups associated with the logged-in user.|
+|Team SLA analysis breached|Percentage of SLAs that weren’t met by a specific team. The data is filtered based on the assignment groups to which the logged-in user belongs to.|
+|Overdue SLAs|Number of open SLAs with the **Has breached** field activated.|
+|Opened SLAs|Total number of SLAs that are in In progress or paused state.|
+|Overall SLA analysis achieved|Percentage of SLAs that have been successfully met by a service provider.|
+|SLAs expiring today|Number of SLAs that are scheduled to reach their deadline or expiration on the current day.|
+|Average SLAs age|Average time span from start time to end time for all SLAs that are marked as either achieved or completed.|
+|Overall SLA analysis breached|Percentage of SLAs that weren’t met by a service provider. It assesses the instances where the agreed-upon time lines outlined in the SLAs were violated.|
+
+## Service management tab
+
+The Service management tab provides metrics that deliver actionable insights, enabling you to track and enhance the efficiency and quality of your services.
+
+|Indicator|Description|
+|---------|-----------|
+|Items not updated in last 5 days|Gauge chart grouping of requests marked as New, In Progress, or On Hold, that haven’t received any updates or modifications within the past five days.|
+|Items not updated for 7+ days|Gauge chart grouping of requests that aren’t updated for more than seven days.|
+|Incident reopen rate|Percentage of incidents that were initially marked as resolved but later required reopening due to unresolved issues or the emergence of related problems.|
+|Average re-assignment count for resolved incidents|Average number of times an incident is reassigned to different team members or teams before it’s finally resolved.|
+|Average active case age|Average duration that cases remain open or active before they’re resolved or closed.|
+|Problems created by case|All problems initially reported with the task type labeled as Case.|
+|Problems created by incident|All problems initially reported with the task type labeled as Incident.|
+|Preferred channel used for communication|Sum of the total number channels used for communication, categorized by the type of channel. This visualization helps which types of channels are most used or have the longest durations.|
+
+## User roles
+
+|User role|Description|
+|---------|-----------|
+|sn\_ind\_tsm\_sdwan.PSEW\_USER|Can view and edit the dashboard and manage users, groups, and roles for the dashboard.|
+
+**Parent Topic:**[Exploring the Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/explore-assurance-workflows.md)
 

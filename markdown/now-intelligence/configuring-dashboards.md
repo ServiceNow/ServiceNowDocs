@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/configuring-dashboards.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Configure your dashboard and perform admin tasks. Most tasks are performed in ei
 
 ## Common configuration tasks
 
-The following tasks do not require a special role, though they may be limited to the dashboard owner or a user with editing rights.
+The following tasks do not require a special role, though they may be limited to the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md) owner or a user with editing rights.
 
 -   [Change dashboard name or description](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
 
@@ -26,16 +26,16 @@ The following tasks do not require a special role, though they may be limited to
 
     Specify the user who requested that this dashboard be created. Specifying the user automatically gives them editing rights to the dashboard.
 
--   [Transfer ownership of the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
+-   [Transfer ownership of a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
 
     By default, the creator of the dashboard is the dashboard owner. If you are the owner of a dashboard, you can transfer this ownership to another user or to a user group.
 
--   [Set the background colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-ac-db-settings.md)
+-   [Set background colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-ac-db-settings.md)
 
     Select the background colors for one or more tabs on the dashboard.
 
--   [See who created the dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
--   [See with whom the dashboard is shared](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
+-   [See who created a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
+-   [See who the dashboard is shared with](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-db-in-ac.md)
 
 ## Admin configuration tasks
 

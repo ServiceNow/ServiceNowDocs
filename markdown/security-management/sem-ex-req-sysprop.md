@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-ex-req-sysprop.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure Exception Management for Security Exposure Management, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -30,7 +30,7 @@ The `sn_vulc.exception_max_request_days` property is used to specify the maximum
 
 2.  On the System Properties page, search for `sn_vulc.exception_max_request_days`.
 
-3.  Click on the property name to open the System Property record.
+3.  Select on the property name to open the System Property record.
 
 4.  To be able to edit this record, ensure that Configuration Compliance is selected as the current application.
 

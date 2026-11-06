@@ -1,5 +1,5 @@
 ---
-title: Enable contextual security plugin \[Updated in Security Center 1.3\]
+title: Enable contextual security plugin
 description: Activate the Contextual Security Plugin \(com.glide.role\_management\) plugin to enable contextual security, which secures a record/information using create, read, write, and delete functionality.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-contextual-security-plugin.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable contextual security plugin \[Updated in Security Center 1.3\]
+# Enable contextual security plugin
 
 Activate the Contextual Security Plugin \(**com.glide.role\_management**\) plugin to enable contextual security, which secures a record/information using create, read, write, and delete functionality.
 
-After it is installed and activated, the dictionary roles \(created by simple security manager\) are no longer tested. Instead, the ServiceNow AI Platform looks for ACL rules on fields and tables. It secures the data with the help of ACL rules instead of traditional, role-based dictionary rules implemented by simple security manager. Even if you configure the dictionary form and add roles to a dictionary entry, no change in rights occurs.
+The Contextual Security Plugin \(**com.glide.role\_management**\) plugin helps manage user groups and roles to protect information through role-based access controls. The plugin efficiently consolidates duplicate entries for inherited roles, and secures a record/information using create, read, write, and delete functionality. After it is installed and activated, the dictionary roles \(created by security manager\) are no longer tested. Instead, the Now Platform looks for ACL rules on fields and tables. It secures the data with the help of ACL rules instead of traditional, role-based dictionary rules implemented by simple security manager. Even if you configure the dictionary form and add roles to a dictionary entry, no change in rights occurs.
+
+Ensure that the plugin **com.glide.role\_management** is activated.
 
 ## More information
 
@@ -30,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Plugin ID
+Configuration name
 
 </td><td>
 
@@ -46,6 +48,38 @@ System Definition &gt; Plugins
 
 </td></tr><tr><td>
 
+Data type
+
+</td><td>
+
+N/A
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+The Contextual Security Plugin \(**com.glide.role\_management**\) plugin is active.
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+The Contextual Security Plugin \(**com.glide.role\_management**\) plugin is not active by default.
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+The Contextual Security Plugin \(**com.glide.role\_management**\) plugin is not active by default.
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -54,35 +88,13 @@ Category
 
 </td></tr><tr><td>
 
-Purpose
+Security risk
 
 </td><td>
 
-Unlike the simple security manager, the contextual security manager is aware of the system table hierarchy. You can potentially have different security rules for a field based on where in the hierarchy it appears.
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-Active
-
-</td></tr><tr><td>
-
-Default value
-
-</td><td>
-
-There is no default value as this is a plugin, not a Glide property.
-
-</td></tr><tr><td>
-
-Security risk rating
-
-</td><td>
-
-8.1
+-   Severity score: 8.1
+-   CVSS rating: High
+-   Security risk details: Failing to transition fully to ACL-based controls may leave sensitive data exposed due to overlooked or outdated dictionary role configurations.
 
 </td></tr><tr><td>
 
@@ -94,19 +106,11 @@ This remediation enforces functional level of access controls, which would let a
 
 </td></tr><tr><td>
 
-Security risk
+Dependencies and prerequisites
 
 </td><td>
 
-\(High\) Functional level access controls must be enforced from the server side prior to executing CRUD operations, ensuring the appropriate level of access to instance users.
-
-</td></tr><tr><td>
-
-References
-
-</td><td>
-
-[Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-control/r_ContextualSecurity.md)
+None
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)

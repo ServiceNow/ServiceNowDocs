@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing territories and agents from Territory Planning console, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
 ---
 
 # Move agents between territories in the Territory Planning console
@@ -78,7 +78,5 @@ This video shows the agent relocation process.\[Omitted video\] Description: Age
 ## Result
 
 -   Agent memberships are updated for the specified source and destination territories based on the form selections.
--   Agent schedule attribute plans related list in the agent's user profile is updated.
-
-**Parent Topic:**[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
+-   **Resource Schedule Attributes** related list in the agent's user profile is updated.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Territory Planning, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
 
 # Enable the Field Service territory model
@@ -18,7 +18,7 @@ Activate the territory model to display the **Territory** field in the work orde
 
 ## Before you begin
 
-Role required: sn\_fsm\_tp.fsm\_territory\_planner
+Role required: sn\_fsm\_tp.territory\_admin
 
 ## About this task
 
@@ -39,7 +39,7 @@ Activate the Field Service Territory Planning plugin \(com.snc.fsm\_territory\_p
 
 After activating the Field Service territory model successfully, the **Territory** field is added to the work order task form. It allows you to assign tasks to agents or crews to specific territories.
 
-The agent's calendar filters based on territories in the Dispatcher Workspace, and the **Qualifier type for Schedule Optimization** system property is automatically set to **Territory**. For more information, see [Schedule optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md).
+The agent's calendar filters based on territories in the Dispatcher Workspace, and the **Qualifier type for Schedule Optimization** system property is automatically set to **Territory**. For more information, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md).
 
 Moreover, with **sn\_fsm.use\_query\_rules** query rule being active, agents, dispatchers, and qualifiers can view the work order tasks if they are created in their territories, ensuring data security.
 

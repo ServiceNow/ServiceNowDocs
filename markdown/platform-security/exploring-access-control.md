@@ -1,22 +1,22 @@
 ---
-title: Exploring ServiceNow access control
+title: Explore ServiceNow access control
 description: The SNC Access Control plugin \(com.snc.snc\_access\_control\) enables you to control which Customer Service and Support employees can access your instance, and when.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/exploring-access-control.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [ServiceNow access control, Access Management]
 ---
 
-# Exploring ServiceNow access control
+# Explore ServiceNow access control
 
 The SNC Access Control plugin \(com.snc.snc\_access\_control\) enables you to control which Customer Service and Support employees can access your instance, and when.
 
 When you first activate the plugin, Customer Service and Support employees cannot log into the instance. Any currently logged-in Customer Service and Support employees remain logged in. You create records in the SNC Access Control table that grant access to specific SNC employees or all employees.
 
-The plugin prevents Customer Service and Support personnel from accessing the instances without your express permission. However, other authorized ServiceNow Operations personnel must perform administrative actions on the underlying infrastructure as part of their responsibilities. This includes supporting and managing the product,responding to security events, and verifying usage. This infrastructure includes servers and databases, among other infrastructure components that make up the SaaS solution. This access method is fully auditable and tracked.
+The plugin prevents Customer Service and Support personnel from accessing the instances without your express permission. However, other authorized ServiceNow Operations personnel, in their capacity to support and manage the product, and verify usage are required to perform administrative actions on the underlying infrastructure. This infrastructure includes servers and databases, among other infrastructure components that make up the SaaS solution. This access method is fully auditable and tracked.
 
 This plugin enables you to restrict access to your instance without your express permission, so it may affect support service levels and the Availability SLA. Availability SLA is then measured from the time that Support staff personnel are granted access to your instance.
 
@@ -78,5 +78,5 @@ The following logging tracks logins and activity by Customer Service and Support
 -   Event logs: The event logs show all Customer Service and Support logins to an instance.
 -   Transaction logs: The transaction logs show all activity on the instance, including any efforts to delete logs.
 
-**Note:** To learn more about this plugin, see [ServiceNow access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_SNCAccessControl.md) in Instance Security Hardening Settings.
+**Note:** To learn more about this plugin, see [Enable SNC access control plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-snc-access-control-plugin.md) in Instance Security Hardening Settings.
 

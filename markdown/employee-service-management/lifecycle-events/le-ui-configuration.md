@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the UI of the lifecycle event builder
@@ -24,7 +24,7 @@ Role required: sn\_hr\_le.admin
 
 1.  Navigate to **All** &gt; **Lifecycle Events** &gt; **Administration** &gt; **LE UI Configuration**.
 
-    \[Omitted image "le-ui-config.png"\] Alt text: Lifecycle Event UI Configuration
+    \[Omitted image "le-ui-config-brand2.png"\] Alt text: Lifecycle Event UI Configuration
 
 2.  To configure the activity type colors, enter the hex color or the name of the color you want.
 

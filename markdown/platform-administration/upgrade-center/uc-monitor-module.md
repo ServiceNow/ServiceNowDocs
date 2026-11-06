@@ -7,7 +7,7 @@ release: yokohama
 product: Upgrade Center
 classification: upgrade-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Upgrade Center, Upgrade Center, Upgrade, Administer the ServiceNow AI Platform]
 ---
@@ -39,9 +39,6 @@ Within this larger process, the Upgrade Monitor helps you upgrade individual ins
 -   After the upgrade, it reports what the upgrade did and for how long
 -   As you upgrade the first non-production instance, it helps you resolve conflicts between customizations and changes that are part of the upgrade
 -   On non-production instances, it provides information that can help you estimate how long the upgrade might take on the production instance
-
-    **Note:** Debug Upgrade provides detailed debugging output for transactions containing artifacts affected by the most recent upgrade, and is designed to assist in upgrade error resolution.
-
 
 ## Monitoring an individual instance as it upgrades
 

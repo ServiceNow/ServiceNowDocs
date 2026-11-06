@@ -1,29 +1,27 @@
 ---
 title: Configuring AI Data Kit
-description: Configure prompts and skills for AI Data Kit.
+description: Set up AI Data Kit so that users in your organization can start working with datasets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/configuring-now-assist-data-kit.html
 release: yokohama
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-09"
 reading_time_minutes: 1
-breadcrumb: [AI Data Kit, Enable AI experiences]
+breadcrumb: [AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
 # Configuring AI Data Kit
 
-Configure prompts and skills for AI Data Kit.
+Set up AI Data Kit so that users in your organization can start working with datasets.
 
 ## Configuration overview
 
-1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/create-new-skill.md)
+1.  [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/install-na-data-kit.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-data-kit/install-na-data-kit.md)
 
-    Create a skill in AI Skill Kit.
+    Install AI Data Kit and its dependent applications and plugins from Application Manager.
 
-2.  [Configure skill deployment settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/configure-skill-settings.md)
-
-    Configure the deployment settings for the skill that you create. The deployment settings enable you to choose where the admin can find the skill in AI Admin Hub.
+2.  Assign the sn\_data\_kit.admin role or the sn\_data\_kit.analyst role to users, depending on the tasks they perform.
 
 

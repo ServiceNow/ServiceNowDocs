@@ -1,0 +1,32 @@
+---
+title: Viewing the cloud asset explorer
+description: The dashboard helps cloud governance and operations teams monitor, track, and act on compliance and asset details more efficiently. As an asset viewer, you can view all assets and drill down to see detailed information for each configuration item \(CI\).
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.html
+release: yokohama
+product: Cloud Account Management
+classification: cloud-account-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+---
+
+# Viewing the cloud asset explorer
+
+The dashboard helps cloud governance and operations teams monitor, track, and act on compliance and asset details more efficiently. As an asset viewer, you can view all assets and drill down to see detailed information for each configuration item \(CI\).
+
+You can access the dashboard in either of two ways.
+
+-   Navigate to **All** &gt; **Cloud Workspace** &gt; **Cloud asset explorer**
+-   Navigate to **Workspaces** &gt; **Cloud Workspace** &gt; **Cloud asset explorer**
+
+\[Omitted image "cam-cloud-asset-overview.png"\] Alt text: Cloud asset explorer dashboard view
+
+**Note:** You can enable or disable the Asset collection configuration to list the CIs. For more information, see [Configure cloud asset collection table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/configure-cloud-asset-collection-table.md).
+
+-   **[Managing the Cloud Account Management cloud asset details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/manage-cam-ci-details.md)**  
+Use the cloud asset form in the Cloud Account Management to view, edit, and manage cloud asset details such as attributes, health, and records.
+
+**Parent Topic:**[Viewing Cloud Account Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/about-cam-dashboard.md)
+

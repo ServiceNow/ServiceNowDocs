@@ -1,5 +1,5 @@
 ---
-title: Create an HR Service Delivery Employee Relations case using Agent Workspace
+title: Create an Employee Relations case in Agent Workspace for HR Case Management
 description: You can use HR Service Delivery Agent Workspace to create ER cases for employees that wish to report misconduct, discrimination, or a disciplinary issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/create-hr-er-ws.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Create an HR Service Delivery Employee Relations case using Agent Workspace
+# Create an Employee Relations case in Agent Workspace for HR Case Management
 
 You can use HR Service Delivery Agent Workspace to create ER cases for employees that wish to report misconduct, discrimination, or a disciplinary issue.
 
@@ -22,11 +22,11 @@ Role required: sn\_hr\_er.case\_writer
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
+1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
-2.  To create a new ER case, select the \[Omitted image "IconCreateRecordMenu.png"\] Alt text: Add New icon **Add** icon.
+2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
-3.  Select **HR Case**.
+3.  In the ER category, click **New**.
 
 4.  Search for an employee or case number, or select the **Skip verification** link if the subject person is external or wants to remain anonymous.
 
@@ -119,11 +119,11 @@ Details about the ER case.**Note:** Interviews are under the **more** tab.
 
     -   **Allegations**
 
-        Information that further defines an employee relations case. For more information, see [Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-allegation.md).
+        Information that further defines an employee relations case. For more information, see [Create an allegation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-allegation.md).
 
     -   **Interviews**
 
-        Interview record for an involved party. For more information, see [Schedule an interview in HR Service Delivery Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+        Interview record for an involved party. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview.md).
 
     -   **Evidence**
 
@@ -133,7 +133,7 @@ Details about the ER case.**Note:** Interviews are under the **more** tab.
 
         Select to view the following:
 
-        -   Corrective Actions: Information about the resolution and any associated corrective actions after an investigation related to the ER case. For more information, see [Create a corrective action in HR Service Delivery Employee Relations in the legacy UI or Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-corrective-actions.md).
+        -   Corrective Actions: Information about the resolution and any associated corrective actions after an investigation related to the ER case. For more information, see [Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-corrective-actions.md).
         -   Attached Knowledge: List of knowledge articles attached to the HR service type. For more information, see [HR Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-knowledge-management.md).
         -   Approvers: Lists employees that can approve changed information or the case, state of approval, comments, and associated dates. For more information, see [Resubmit an HR case for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_ApproveAnHRCase.md).
 

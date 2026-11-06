@@ -1,78 +1,49 @@
 ---
-title: Conversational contract search and insights Workflow
-description: Configure conversational contract search and insights workflow to enable searching information in contracts using natural language and dialogue-driven queries, making it easier to find relevant information.
+title: Use conversational contract search and insights
+description: Search for contract information using natural language queries to quickly find relevant contracts, clauses, and insights.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-agentic-use-conv-search.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Using Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Conversational contract search and insights Workflow
+# Use conversational contract search and insights
 
-Configure conversational contract search and insights workflow to enable searching information in contracts using natural language and dialogue-driven queries, making it easier to find relevant information.
+Search for contract information using natural language queries to quickly find relevant contracts, clauses, and insights.
 
-## Configurations for Conversational contract search and insights
+## About conversational contract search
 
-**Important:**
+Conversational contract search enables you to find contract information using natural language queries in the ServiceNow Otto panel. You can search across contract metadata fields or within contract document content to quickly locate relevant information.
 
--   Verify you have set the data access permission for your role in the following:
-    -   Conversational Contract Search agentic workflow.
+Contract fulfillers and assignment group managers with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller and now\_assist\_panel\_user role can use conversational search in the ServiceNow Otto panel.
 
-        For more information, see [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md).
+**Note:** Conversational search isn't supported in the Virtual Agent panel.
 
-    -   Search contracts AI agent.
+## Types of conversational searches
 
-        For more information, [Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md).
+Conversational search supports the following query types:
 
-    -   Contracts query enhancer and Search contract with contextual input Now Assist skills.
+-   **Metadata queries:** Search based on contract fields such as vendor names, contract dates, payment terms, or contract status. Example: "List all contracts for the vendor Acme."
+-   **Document content queries:** Search for specific clauses or text within contract documents. Example: "List contracts that have a Confidentiality clause."
+-   **Combined queries:** Search using both metadata and document content criteria. Example: "List contracts for Acme vendor with Confidentiality clause."
+-   **Summarization and Q&amp;A:** Get summaries or ask questions about specific contracts. Example: "Summarize the contract CNTR21002."
 
-        For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)
+## Search methods
 
--   Verify you have run the scheduled job to copy signed contract documents into the contract repository. For more information, see [Copy contract documents to contract repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-conv-copy-docs-to-cntr.md).
--   Verify you have indexed the data for conversational search. For more information, see [Index contracts table for conversational search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-converse-search-indexing.md).
+Use the following methods to search for contract information:
 
-    Verify all the skills are activated and configurations complete. For more information, see [Verify skill activation and configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-converse-skills-activation.md).
+-   **Search in contract metadata:** Find contracts by querying structured information in contract fields. For more information, see [Search in contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-search-metadata.md).
+-   **Search in contract documents:** Find information within the content of contract documents, including clauses and specific text. For more information, see [Search in contracts document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-converse-ask-ques-new.md).
 
--   Verify you have turned on the Now Assist panel to view the agentic workflow in it. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   **[Search in contracts document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-converse-ask-ques-new.md)**  
+Ask question in the ServiceNow Otto panel to search for information in the content of the contract document.
+-   **[Search in contract metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-search-metadata.md)**  
+Ask question in the ServiceNow Otto panel to search for information related to contract fields.
 
-## Conditions for the Agentic Workflow to trigger
-
-The Conversational contract search and insights is triggered when a you enter queries in the Now Assist panel.
-
-Contract fulfillers and assignment group managers with the now\_assist\_panel\_user role can view the agentic workflow conversation in the Now Assist panel.
-
-**Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
-
-## Accessing the Agentic Workflow
-
-Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
-
-If your generative AI service provider isn’t Now LLM Service, verify that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
-
-1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
-2.  Search for **Search for Conversational Contract Search and Insights** and open it.
-
-## AI agents used in Search for Conversational Contract Search and Insights Workflow
-
-|Name|Description|
-|----|-----------|
-|Search contracts AI agent|This agent helps you find and understand legal contracts and documents by giving search results for questions asked in natural language. It works as a conversational search and Q&amp;A tool within the Contract Lifecycle Management system.|
-|Document and visual insights AI agent|This agent helps with tasks related to processing of documents. For more information, see [Document and visual insights AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-and-visual-insights-ai-agent.md).|
-
--   **[Search in contracts using conversational search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-converse-ask-ques.md)**  
-Ask question in the Now Assist panel to search for information on the contracts and its content.
-
-**Parent Topic:**[Using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
-
-**Related topics**  
-
-
-[Metadata extraction using Now Assist in Contract Management]()
-
-[Contract analysis using Now Assist in Contract Management]()
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage connected content from topic pages, Taxonomy and connected content, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Manage connected content from topic pages, Taxonomy and connected content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Run the scheduled job for content association
@@ -37,7 +37,7 @@ Role required: admin
 
     **Note:** The default scheduled job run-time is weekly. Edit and update the frequency of execution, as required.
 
-3.  Select **View Details** on the pop-up notification displayed on the topic page to see the new content available for association.
+3.  Select **View Details** on the pop-up notification displayed on the topic page to see the new content available for association or removal..
 
     \[Omitted image "new-content-available.jpg"\] Alt text: The notification states new content is available for association with a link for view details.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Customize an app's workspace configuration in Creator Studio

@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Bring your own license or subscription to the public cloud, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Bring your own license or subscription to the public cloud, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Core infrastructure suite \(CIS\) support for BYOL

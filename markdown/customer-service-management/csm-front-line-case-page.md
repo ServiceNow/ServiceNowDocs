@@ -5,25 +5,25 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-front-line-case-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-18"
-reading_time_minutes: 18
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 20
+breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Front-line case page
 
 The Front-line case page provides a simplified case view that enables front-line agents to quickly gather context, categorize cases, and provide prompt responses to customers.
 
+\[Omitted image "front-line-case-page-template.png"\] Alt text: Front-line case page enables agents to focus on four main areass: contact information, case details, activity stream, and contextual side panel
+
 The Front-line case page focuses on the essential functionality that front-line or tier 1 agents need:
 
--   Looking up and verifying customer information
--   Scanning the activity stream
--   Viewing related information
--   Searching for knowledge articles
+-   Look up and verify customer information
+-   Scan the activity stream
+-   View related information
+-   Search for knowledge articles
 
 The Front-line case page is included with the CRM Workspace application.
-
-\[Omitted image "front-line-case-page-template.png"\] Alt text: The Front-line case page enables agents to focus on four main areas, including contact information, case details, the activity stream, and the contextual side panel.
 
 ## Front-line case page variant
 
@@ -43,7 +43,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page variant available to the selected audience. The Front-line case page variant is active for new and upgrade customers.The active setting combined with the other page variant settings determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ For more information, see [Learn about audiences](https://raw.githubusercontent.
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Front-line case page**.
 4.  Select **Settings** at the top of the page.
 
@@ -101,11 +101,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Form heading
+Form header
 
 </td><td>
 
-The form heading displays the case short description and also includes the action bar and record tags.
+The form header displays the case short description. Agents can quickly glance at the form header to see what the case is about.Agents can edit the short description of a record directly from the record header field. For more information, see [Editable record headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-agent-actions.md).
 
 </td></tr><tr><td>
 
@@ -113,20 +113,15 @@ Record tags
 
 </td><td>
 
-Agents can create multiple tags for a record and then use the tags to group and organize records.For more information, see [Group and find records using tags in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/setting-record-tags-agent-workspace.md).
+Tags enable agents to assign categories to records. Agents can create multiple tags for a record and then use the tags to group and organize records.
 
 </td></tr><tr><td>
 
-Action bar
+[Action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-components.md)
 
 </td><td>
 
-The action bar contains the actions available to users while working on case records. The specific actions are determined by factors such as the user role, case state, and other attributes.-   **In-progress Actions**: Provides a list of minimized [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) and includes a badge that displays the number of items in the list. From this list, an agent can select an item to open the minimized comment, work note, or email.
--   **Create**: Create records such as work orders, incidents, and requests.
--   **Compose**: Compose comments, work notes, and emails in modeless dialogs.
--   **Manage case**: Perform case management actions such as accepting a case or requesting information.
--   **Save**: Save changes to the case record.
--   **More Actions**: Perform additional actions such as proposing a major case or reporting a knowledge gap.
+The action bar contains the actions available to agents while working on case records. This includes buttons and items in the More Actions menu.The specific actions are determined by factors such as the user role, case state, and other attributes.
 
 </td></tr><tr><td>
 
@@ -134,16 +129,16 @@ Contact lookup
 
 </td><td>
 
-Agents can use the contact lookup component to do the following:-   Search for a contact.
+The contact lookup component enables agents to search for contacts and link them to the case record. Agents can use the contact lookup component to do the following:
+
+-   Search for a contact.
 -   Link or unlink a contact.
 -   Edit and save a linked contact record.
 -   Select a reference field on a lookup card, such as a contact name, to open the reference in a sub-tab.
 -   Select an email address on a lookup card to open a draft email in the email composer in a sub-tab.
 -   Select a phone number on a lookup card to make a call.
 
-The contact lookup component displays information in record cards. These cards display contact information and provide quick access to details such name, email, and phone.
-
-For more information, see the [Contact and consumer lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) section below.
+The contact lookup component displays information in record cards. These cards display contact information and provide quick access to details such name, email, and phone.For more information, see the [Contact and consumer lookup components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -187,7 +182,7 @@ The case summarization component appears above the activity stream. When an agen
 -   Post the summary to the activity stream.
 -   Refresh the summary.
 
-The case summarization component requires the Now Assist for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) section below.
+The case summarization component requires the ServiceNow Otto for Customer Service Management \(CSM\) application to be activated and configured. For more information, see the [Case summarization component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -205,13 +200,14 @@ Contextual side panel
 
 </td><td>
 
-The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Front-line case page includes the following tabs.-   Record information
+The contextual side panel component includes different tools that agents can use to research and resolve customer issues. The contextual side panel in the Front-line case page includes the following tabs.-   Record information, including SLA details
 -   Recommended Actions search
 -   Attachments
 -   Form Templates
 -   Response Templates
 -   Email Templates
 -   Related Lists
+-   Collaborate
 
 For more information, see the following sections:
 
@@ -221,12 +217,12 @@ For more information, see the following sections:
 </td></tr></tbody>
 </table>## Action bar component
 
-The Front-line case page supports actions from the following Customer Service Management and CSM Configurable workspace plugins:
+The Front-line case page supports actions from the following Customer Service Management and CRM Workspace plugins:
 
--   Customer Service \(com.sn\_customerservice\)
--   CSM/FSM Configurable WS Foundation \(com.snc.uib.cwf\_workspace\)
--   CSM Configurable Workspace \(com.snc.uib.csm\_agent\_workspace\)
--   CSM Workspace \(com.snc.agent\_workspace.csm\)
+-   Case Management Core \(com.sn\_customerservice\)
+-   CRM Workspace Core \(com.snc.agent\_workspace.csm\)
+-   CRM Workspace \(com.snc.uib.csm\_agent\_workspace\)
+-   CRM Workspace Foundation \(com.snc.uib.cwf\_workspace\)
 -   Major Issue Management \(com.sn\_majorissue\_mgt\)
 -   Customer Service with Service Management \(com.sn\_cs\_sm\)
 -   Customer Service with Request Management plugin \(com.sn\_cs\_sm\_request\)
@@ -234,6 +230,17 @@ The Front-line case page supports actions from the following Customer Service Ma
 -   Omni-Experience Standard Feature Set
 
 If you are using any additional plugins, you must add the actions from those plugins to the Front-line case page action bar. For more information, see [Configure the Front-line case page action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-front-line-case-page-action-bar.md).
+
+The **Create** action on the Front-line case page displays a list of available actions. Selecting an action from this list opens the record either in a sub-tab or in a modeless dialog. For more information, see [Create action layout group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-action-layout-groups.md).
+
+The Front-line case page action bar includes the **Follow** action in the More Actions menu. Selecting this action enables you to receive notifications when comments or work notes are added to the record.
+
+You receive notifications in the Notifications menu at the top of the page according to your notification preferences. You can select the notification to open the record that was updated. For more information, see the following topics:
+
+-   [Configure Next Experience notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-notifications-preferences.md)
+-   [Follow records in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/follow-records-in-next-experience.md)
+
+When the **Follow** action is selected, the button toggles to **Unfollow**. To stop receiving notifications, select **Unfollow**.
 
 ## Contact and consumer lookup components
 
@@ -282,16 +289,16 @@ Using this component, agents can:
 
 **Note:** If the case does not contain enough text to summarize, the system displays the following message: "This case doesn't have the minimum number of words required for summarization yet."
 
-To use the case summarization component with the Front-line case page, activate the Now Assist for Customer Service Management \(CSM\) application and configure the case summarization skill in the Now Assist Admin console. For more information, see:
+To use the case summarization component with the Front-line case page, activate the ServiceNow Otto for Customer Service Management \(CSM\) application and configure the case summarization skill in the AI Admin Hub. For more information, see:
 
--   [Activate Now Assist for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
--   [Configure the case summarization skill in the Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md).
+-   [Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-supporting-info.md)
+-   [Configuring ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-configuring.md)
 
 ## Activity stream component
 
 The activity stream component displays a list of the activities occurring on a case record. The activities in the list can be collapsed or expanded. When collapsed, the agent can quickly scan the list to get an overview of case activities. When expanded, the agent can see detailed information on individual activities.
 
-\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types.
+\[Omitted image "front-line-case-page-activity-stream.png"\] Alt text: The front-line case page activity stream component lists record activities in a collapsed or expanded format and uses tiles to represent the activity types
 
 The activities in the activity stream are represented by tiles that use icons and colors to indicate the activity type.
 
@@ -338,20 +345,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Record Information
-
-</td><td>
-
-The Record Information tab includes the following cards:-   **Overview**: Displays relevant information about the case including the account and contact, the case priority, and the state.
--   **Active SLA**: Displays active SLAs for the case, including time remaining, the SLA state, and any breaches.
-
-The cards that appear in the Record Information tab can be configured in the **Front-line Case Page Ribbon Config** ribbon configuration. For more information, see [Set up a ribbon configuration in CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md).
-
-</td></tr><tr><td>
-
 Recommended Actions
 
 </td><td>
+
+The Recommended Actions tab is now available as the first tab in the contextual side panel and is enabled for Pro customers. It includes a set of base system recommendations, such as similar incidents and similar open incidents.
 
 The Recommended Actions tab includes [AI search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-ai-search.md) functionality. Agents can use AI search to find relevant resources or resolutions for customer issues.The search feature displays an initial set of search results based on the text in the case short description. This initial set of results includes knowledge articles. Agents can also enter different search keywords and repeat the search.
 
@@ -362,13 +360,33 @@ From the list of search results, agents can do the following:
 -   Sort the list of search results.
 -   Open the search results in full view in a record sub-tab.
 -   Take the following actions:
-    -   View and attach article
+    -   [Attach and share article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md)
     -   Perform other actions such as reading articles in full view, flagging articles, or marking articles as helpful or unhelpful.
 -   View successful actions by selecting the Actions history icon.
 
+Suggested Actions tab: This tab displays relevant actions to agents based on the context of a record or recommends a value for a field. For more information on how to configure contexts to display relevant actions for the agent, see [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-nba.md). The Suggested Actions tab is available in the base system for Pro customers and doesn’t require additional configuration. It becomes visible when the Task Intelligence plugin is installed. Non-Pro customers can enable the tab manually.
+
+-   Without the plugin, only the Search tab is visible on the Front-line case page.
+
+-   With the plugin installed, both Search and Suggested Actions tabs appear, and recommendations are shown under Suggested Actions.
+
+-   If the plugin is uninstalled, the Suggested Actions tab is no longer available.
+
+
 For more information, see [Use AI search in Recommended Actions to resolve cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nba-use-ai-search.md).
 
-**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CSM Configurable Workspace application.
+**Note:** Using Recommended Actions in the contextual side panel requires the [Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nba.md) application \(sn\_cs\_nb\_action\) which is included with the CRM Workspace application.
+
+</td></tr><tr><td>
+
+Record Information
+
+</td><td>
+
+The Record Information tab includes the following information: record overview and SLAs.-   The **Overview** card displays relevant information about the record including account and contact, case priority, and state.
+-   The Task SLA cards component displays cards with the record SLA information, including time remaining, the SLA state, and any breaches. For more information, see [Task SLA cards component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-record-page-sla-card-component.md).
+
+**Note:** The cards that appear in the Record Information tab can be configured in the **Front-line Case Page Ribbon Config** ribbon configuration. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md).
 
 </td></tr><tr><td>
 
@@ -400,7 +418,10 @@ Email Templates
 
 </td><td>
 
-The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include the recipients \(email addresses in the To, Cc, and Bcc fields\), the sender, the subject of the email, and text to include in the message body.
+The Email Templates tab provides access to available email templates. These templates contain default values for fields that agents can add to email messages. These default values can include:-   The recipients \(email addresses in the To, Cc, and Bcc fields\)
+-   The sender
+-   The subject of the email
+-   Text to include in the message body
 
 </td></tr><tr><td>
 
@@ -414,12 +435,18 @@ An indicator displays the number of records available in a related list. When ex
 
 For more information, see the [Related lists component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) section below.
 
+</td></tr><tr><td>
+
+Collaborate
+
+</td><td>
+
+The Collaborate component enables agents to communicate with stakeholders and other users and gather information for case resolution. For more information, see [Collaborate component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-ws-collaborate-component.md).
+
 </td></tr></tbody>
 </table>## Related lists component
 
 The related lists component provides access to the case related lists. This component uses an expandable accordion format. Agents can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
-
-\[Omitted image "front-line-case-page-related-lists.png"\] Alt text: The Front-line case page related lists component in the contextual side panel uses an accordion format to expand and display related list items
 
 Related lists include the following actions:
 
@@ -462,9 +489,8 @@ To request information:
 
 The system sets the case **State** field to Awaiting Info and displays the following message to the agent: **Send a comment to request info if you haven’t already. The case is awaiting info.**
 
-If the agent has not sent a comment, they can select **Compose** &gt; **Compose Comments** and use the Compose Activity modeless dialog to create and post a comment.
-
-If the agent has already composed a comment and then selects **Request Info**, the system saves the record and automatically posts the comment to the activity stream.
+-   If the agent has not sent a comment, they can compose and post a comment in the activity stream.
+-   If the agent has already composed a comment and then selects **Request Info**, the system saves the record and automatically posts the comment to the activity stream.
 
 ## Attaching and sharing knowledge articles
 

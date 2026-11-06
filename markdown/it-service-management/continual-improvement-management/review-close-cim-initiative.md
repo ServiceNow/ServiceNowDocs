@@ -7,7 +7,7 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
@@ -18,18 +18,12 @@ Once all tasks in each phase of the improvement have been completed, the Improve
 
 ## Before you begin
 
-Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
-
-## About this task
-
-\[Omitted image "cim-review.png"\] Alt text: CIM review and close process
-
-Preconditions:
-
 -   Incident manager created an improvement request.
 -   Improvement Manager accepted and assigned the improvement request.
 -   Approver group member approved the improvement.
 -   Improvement Manager and Improvement Coordinator implemented the improvement.
+
+Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 ## Procedure
 
@@ -231,5 +225,5 @@ Work notes
 
 [Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 
-[Improvement integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
+[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
 

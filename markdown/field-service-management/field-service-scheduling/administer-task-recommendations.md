@@ -1,5 +1,5 @@
 ---
-title: Setting up Intelligent Task Recommendations
+title: Configuring Intelligent Task Recommendations
 description: Efficiently recommend tasks to agents using Intelligent Task Recommendations, a feature that aligns tasks with agents based on predefined policies and filtering conditions. Determine the applications through which you can access task recommendations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/administer-task-recommendations.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
-# Setting up Intelligent Task Recommendations
+# Configuring Intelligent Task Recommendations
 
 Efficiently recommend tasks to agents using Intelligent Task Recommendations, a feature that aligns tasks with agents based on predefined policies and filtering conditions. Determine the applications through which you can access task recommendations.
 
@@ -29,4 +29,15 @@ The steps to set up Intelligent Task Recommendations are:
 
         **Note:** Custom recommendation criteria are defined by script includes. For more information, see [Providing a script for custom task recommendation criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/script-guidelines-recommendation-criteria.md).
 
+
+**Related topics**  
+
+
+[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-task-recommendation.md)
+
+[Assign work order tasks to agents using Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
+
+[Assign tasks to yourself based on Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/recommend-task-fsm-mobile.md)
+
+[Intelligent Task Recommendations components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-task-recommendation-components.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Digital Portfolio Management reference, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
 
 # Roles for Digital Portfolio Management
@@ -81,8 +81,8 @@ DPM Manager \[sn\_dpm.dpm\_manager\]
 **Note:** The DPM manager can't view or map KPI groups in the ServiceNow AI Platform but users with the service\_editor, service\_admin, or service\_author roles can map KPI groups to their services.
 
 -   Functions that the DPM manager can't do:
-    -   Edit services, offerings, business applications, or application services.
-    -   Edit and update relationships to services, offerings, business applications, or application services.
+    -   Edit services, offerings, business applications, or service instances.
+    -   Edit and update relationships to services, offerings, business applications, or service instances.
     -   Create or edit a service in Service Builder.
 
 **Note:** Service Builder buttons are hidden for the DPM manager role unless the user has the correct role that provides edit access to a particular solution.
@@ -119,8 +119,7 @@ To assign the DPM manager role to a group, the admin does the following:
 |dpm\_personal\_portfolio\_item|Stores records for all types that are in a personal portfolio.|
 |dpm\_unified\_backlog|Stores records for backlog information in a personal portfolio.|
 |sn\_dpm\_kpi\_group\_m2m\_spm\_nodes|Stores records for key performance indicator \(KPI\) group nodes from Service Portfolio Management.|
-|sn\_dpm\_kpi\_group\_m2m\_viz\_config|Stores records for KPIs grouped by data visualization.|
-|sn\_team\_perf\_kpi\_group|Stores records for KPIs grouped by team performance.|
+|sn\_team\_perf\_kpi\_group|Stores records for KPIs, a PA indicator, and data visualization properties.|
 
 **Parent Topic:**[Digital Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-reference-cfw.md)
 

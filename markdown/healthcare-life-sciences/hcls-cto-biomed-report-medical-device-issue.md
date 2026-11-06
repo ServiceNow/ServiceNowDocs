@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcls-cto-biomed-report-medical-device-issue.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating service requests in Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Create service requests, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Report a medical device issue with Care Team Operations for Biomed
@@ -16,7 +16,7 @@ Report any issue with a medical device issue using the Report a medical device i
 
 ## Before you begin
 
-Role required:
+Role required: sn\_hco.care\_team\_member
 
 ## Procedure
 

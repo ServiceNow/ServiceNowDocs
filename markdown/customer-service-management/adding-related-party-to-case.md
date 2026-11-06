@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/adding-related-party-to-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using customer access management, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using customer access management, Customer management, Use, Customer Service Management]
 ---
 
 # Add related parties to a case
@@ -78,7 +78,7 @@ Specifies the sequence in which records are displayed, organized according to bu
 
     Related parties are added to the case.
 
-6.  Ensure that the contact or consumer selected in step 4 is assigned the sn\_customerservice.case\_authorized\_contributor role.
+6.  Confirm that the contact or consumer selected in step 4 is assigned to the sn\_customerservice.case\_authorized\_contributor role.
 
 
 ## Result
@@ -89,7 +89,7 @@ Once related parties are added to the case with a proper functional role having 
 -   Update customer-visible case tasks.
 -   Add additional comments and attachments.
 -   Accept or reject a solution.
--   Receive notifications on case updates. To ensure related parties receive email notifications, add them to the email notification configuration.
+-   Receive notifications on case updates. To confirm that related parties receive email notifications, add them to the email notification configuration.
     1.  Navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Notifications**.
     2.  Select a notification.
     3.  In the Who will receive related list, select the lock icon next to **Users/Groups in fields**.

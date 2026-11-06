@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record creation from security incidents, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,24 +26,18 @@ Role required: sn\_si.admin, sn\_ti.case\_user\_write
 
 1.  Navigate to the security incident that requires escalation by clicking **Security Incident** &gt; **Incidents** &gt; **Assigned to Me**, and open the security incident.
 
-2.  Click the **Add to Security Case** related link.
+2.  Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: and select **Add to Security Case**.
 
     The **Add Security Incident\(s\) to Security Case** dialog box opens.
 
-    \[Omitted image "AddSecIncToCase2.png"\] Alt text: Add this security incident to an existing or new case
-
-3.  If you have a case assigned to you that you want to add this security incident to, fill in the fields as appropriate, then click **Submit**.
+3.  If you have a case assigned to you that you want to add this security incident to, fill in the fields as appropriate, then select **Submit**.
 
     |Field|Description|
     |-----|-----------|
     |Security Case|Select the security case.|
     |Optional notes|As needed, enter additional notes that would be of value to the case analyst.|
 
-4.  If you have one or more cases assigned to you, but want to create a new case and assign the security incident to it, click **Create new case** to show additional fields.
-
-    \[Omitted image "AddSecIncToCase.png"\] Alt text: Add this security incident to a new case
-
-    **Note:** If you do not have any cases assigned to you, the screen above opens first.
+4.  If you have one or more cases assigned to you, but want to create a case and assign the security incident to it, select **Create New Case** to show additional fields.
 
 5.  Fill in the fields as appropriate.
 
@@ -54,7 +48,7 @@ Role required: sn\_si.admin, sn\_ti.case\_user\_write
     |Case Type|Select the type of case being investigated.|
     |Optional notes|As needed, enter additional notes that would be of value to the case analyst.|
 
-6.  Click **Submit**.
+6.  Select **Create**.
 
     A message appears at the top of the security incident, along with a link to the new case.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-08-25"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Using, HR Service Delivery Advanced Integration with Workday, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
@@ -44,5 +44,22 @@ The Employee details updater AI agent enables you to update personal information
 
 The View paychecks AI agent enables you to view paycheck summaries for the selected period.
 
+## View compensation details AI agent
+
+The View Compensation Details AI agent answers questions about your compensation details and those of your employees.
+
 **Parent Topic:**[Using](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-advanced-integration-with-workday.md)
+
+**Related topics**  
+
+
+[Time off request to Workday]()
+
+[Change legal name through Virtual Agent]()
+
+[Publish the VA topic template for legal name change]()
+
+[Report an issue with your payslip]()
+
+[Now Assist Virtual Agent topics for HR Service Delivery Advanced Integration with Workday]()
 

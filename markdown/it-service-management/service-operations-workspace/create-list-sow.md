@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create a list in Service Operations Workspace

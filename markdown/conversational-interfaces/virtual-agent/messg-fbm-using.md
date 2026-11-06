@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with Facebook Messenger, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational Integration with Facebook Messenger
@@ -32,7 +32,12 @@ As a live agent interacting with a requester over the Facebook Messenger service
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** You accept a work item from the Facebook Messenger chat conversation in your Agent Workspace Inbox when an administrator has configured the Facebook Messenger service channel for transfer of chat conversations. For more information, see [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+**Note:** You accept a work item from the Facebook Messenger chat conversation in your Agent Workspace Inbox when an administrator has configured the Facebook Messenger service channel for transfer of chat conversations. For more information, see [Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
-**Parent Topic:**[Integrating Virtual Agent with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
+-   **[Transfer Facebook Messenger chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-live-agent-conv.md)**  
+Configure the Advanced Work Assignment application to transfer a Facebook Messenger chat conversation initiated by a requester \(customer contact or consumer\) to a live agent.
+-   **[Capturing information from a user in a Facebook Messenger chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm-capture-info.md)**  
+Use the collection of input controls provided by Assistant Designer to prompt and capture information from the user in a Facebook Messenger chat conversation.
+
+**Parent Topic:**[Conversational Integration with Facebook Messenger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-fbm.md)
 

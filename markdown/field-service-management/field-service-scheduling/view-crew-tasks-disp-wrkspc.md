@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # View crew tasks on Dispatcher Workspace
@@ -41,6 +41,4 @@ Role required: wm\_dispatcher
 -   The Assigned Crew field in the work order task contains the crew's name. If the crew leader does not accept in a specific time period, the work order task is rejected. The dispatcher can reassign the task to other available agents.
 -   If a task is assigned to a crew, the system updates the estimated travel duration based on the crew's start location or previous start location. The updated value is based on the Manual Assignment property setting used for calculating estimated travel time and distance.
 -   A warning message appears if the assigned task is outside the acceptable radius between the task location and the crew's location.
-
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

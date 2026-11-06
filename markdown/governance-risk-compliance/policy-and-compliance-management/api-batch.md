@@ -1,5 +1,5 @@
 ---
-title: Accessing the batch records in the content integration batch table
+title: Content integration batch table
 description: You can access the batch records in the content integration batch table that is displayed in the GRC: Policy and Compliance integrator application UI. By accessing these records, you can import the data into the Policy and Compliance Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/api-batch.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [GRC: Policy and Compliance integrator, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [GRC: Policy and Compliance integrator, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Accessing the batch records in the content integration batch table
+# Content integration batch table
 
 You can access the batch records in the content integration batch table that is displayed in the GRC: Policy and Compliance integrator application UI. By accessing these records, you can import the data into the Policy and Compliance Management application.
 

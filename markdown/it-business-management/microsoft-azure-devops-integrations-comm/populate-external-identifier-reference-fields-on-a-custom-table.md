@@ -7,9 +7,9 @@ release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Customizing your map configuration for Microsoft Azure DevOps integration, Setting up the integration between Microsoft Azure DevOps and Agile Development 2.0, Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Populate Azure DevOps identifier reference fields for a custom table
@@ -23,6 +23,8 @@ Role required: admin
 ## About this task
 
 You can display references of ID, key, Azure DevOps project, and the project URL on your custom table form. To do so, add an External Identifier reference field to your custom table, and then add the table to the Populate External Identifier Reference business rule.
+
+The Populate External Identifier Reference rule populates this field only for the Story, Epic, and Sprint tables. Other tables, such as `rm_scrum_task`, don't have an External Identifier field by default.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -18,11 +18,9 @@ In Certificate Inventory and Management, you can discover certificates by import
 
 ## Before you begin
 
-Ensure that **TLS\_keepOriginalCertificate** is set to **False**.
-
-Ensure the certificate is in one of the following formats: .cert, .pem, .txt, .der.
-
-Role required: discovery\_admin or admin
+-   Ensure that **TLS\_keepOriginalCertificate** is set to **False**.
+-   Ensure the certificate is in one of the following formats: .cert, .pem, .txt, .der, and .cer.
+-   Role required: discovery\_admin or admin
 
 ## About this task
 

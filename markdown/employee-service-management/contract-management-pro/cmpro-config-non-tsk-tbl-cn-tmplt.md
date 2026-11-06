@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure non-task tables for contract templates
@@ -31,6 +31,8 @@ Role required: admin
 4.  In the Related Links section, select **Create implementation**.
 
 5.  On the Script Include form, fill in the fields.
+
+    \[Omitted image "cmpro-non-task-table.png"\] Alt text: Scripted extension point for non-task table.
 
     For a description of the field values, see [Scripted Extension Point form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-request-management/scripted-extension-point-form-fields.md).
 
@@ -74,21 +76,23 @@ For more information, see [Create a contract template](https://raw.githubusercon
 
 [Add a workspace action button for initiating a contract request]()
 
-[Add Contract requests tab to your workspace]()
+[Add Contract requests tab to the contract request record]()
+
+[Add Contract documents tab to the contract repository record]()
 
 [Add amendment tabs to contract repository record]()
 
-[Display contract documents in a contract repository record]()
-
 [Copy fields from parent request to contract request]()
 
-[Group contract documents by contract type in the contract request form]()
+[Group contract documents by contract type in a contract request]()
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
-[Provide permissions to configure default contract document information]()
+[Assign a role for configuring template mappings]()
 
-[Provide access to contract request fields in condition builders]()
+[Enable contract request fields in condition builders]()
+
+[Configuring the Playbook tab on contract repository records]()
 

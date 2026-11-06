@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,9 +24,7 @@ A bubble chart is a graph that plots multiple demands based on three categories:
 
 The list view on the demand workbench displays a list of the qualified demands that appear in the bubble chart. Selecting a demand from this list highlights the demand in the bubble chart and displays the demand form. The list view is also integrated with Live Feed so users can see current activity for a demand.
 
-To access the demand workbench, navigate to **Demand** &gt; **Demands** &gt; **Workbench**.
-
-\[Omitted image "AssessDemands.png"\] Alt text: Assessing demands using bubble charts from the Demand Workbench.
+To access the demand workbench, navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **Workbench**.\[Omitted image "demand-workbench.png"\] Alt text: Assessing demands using bubble charts from the Demand Workbench.
 
 ## Using the Roadmap
 
@@ -38,6 +36,10 @@ The roadmap is an interactive visualization tool that shows all demands that are
 
 
 [Create a demand]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [View demands]()
 
@@ -55,5 +57,7 @@ The roadmap is an interactive visualization tool that shows all demands that are
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
+[Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

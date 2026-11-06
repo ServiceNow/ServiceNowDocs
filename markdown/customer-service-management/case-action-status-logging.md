@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-action-status-logging.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering case action status, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Case action status, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case action status logging
@@ -35,6 +35,4 @@ To access the **Case Actor Duration** metric definition, navigate to **All** &gt
 
 -   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_MetricDefinitionSupport.md)
 -   [Define a metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-metric.md)
-
-**Parent Topic:**[Administering case action status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-case-action-status.md)
 

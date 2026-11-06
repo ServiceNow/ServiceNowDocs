@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Cloud Cost Management reference, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # System properties for Cloud Cost Management
@@ -97,6 +97,15 @@ sn\_cld\_spend\_aws.num\_months\_forecast
 
 Number of future months after the current month for which the AWS Forecast spend is retrieved during every execution of the Spend job.-   Type: integer
 -   Default value: 2
+
+</td></tr><tr><td>
+
+sn\_cld\_spend\_core.favourite\_views\_limit
+
+</td><td>
+
+The maximum number of spend views that a user can mark as favorites. The request to mark a view as favorite is rejected after the user reaches this value.-   Type: integer
+-   Default value: 10
 
 </td></tr></tbody>
 </table><table id="table_e52_trm_ywb"><thead><tr><th>

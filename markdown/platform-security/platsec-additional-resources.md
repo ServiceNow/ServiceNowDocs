@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/platsec-additional-resources.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
@@ -66,6 +66,19 @@ FAQs
 
 </td></tr><tr><td>
 
+ServiceNow Vault
+
+</td><td>
+
+Getting Started
+
+</td><td>
+
+-   [What is ServiceNow Vault?](https://learning.servicenow.com/lxp/en/servicenow-vault/what-is-servicenow-vault?id=learning_course_prev&course_id=709859b247783a1095898641026d4398&s=1&ssa=3)
+-   [ServiceNow Vault Console Overview](https://learning.servicenow.com/lxp/en/platform-security/servicenow-vault-console-overview?id=learning_course_prev&course_id=ac7d4fb1475eaad0850ec705f16d432d&s=1&ssa=3)
+
+</td></tr><tr><td>
+
 Code Signing
 
 </td><td>
@@ -75,7 +88,7 @@ Getting Started
 </td><td>
 
 -   [Code Signing for enhanced defense-in-depth](https://www.servicenow.com/community/platform-privacy-security-blog/code-signing-for-enhanced-defense-in-depth/ba-p/2809573)
--   [Code Signing and Circle of Trust \(CoT\): Introduction](https://learning.servicenow.com/lxp/en/servicenow-vault/code-signing-and-circle-of-trust-cot-introduction?id=learning_course_prev&course_id=7451423f9330c6102fac74096cba103e)
+-   [Code Signing and Circle of Trust \(CoT\): Introduction](https://learning.servicenow.com/lxp/en/servicenow-vault/code-signing-and-circle-of-trust-introduction?id=learning_course_prev&course_id=fffee6c947747690c2f2090fe16d4396&s=1&ssa=3)
 
 </td></tr><tr><td>
 

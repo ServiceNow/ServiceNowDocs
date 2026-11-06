@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/quality-management-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Field Service Management, Field Service Management]
+breadcrumb: [Explore, Field Service Management]
 ---
 
 # Field Service Quality Management
@@ -29,7 +29,7 @@ Overall, the Field Service Quality Management feature streamlines the process of
 
 [Review a task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/review-send-task-back.md)
 
-[Respond to a reviewed task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/close-wo-wot-mobile.md)
+[Respond to a reviewed work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/close-wo-wot-mobile.md)
 
 [Field Service Quality Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/quality-mgmt-components.md)
 

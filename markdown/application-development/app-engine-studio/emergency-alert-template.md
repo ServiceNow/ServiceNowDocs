@@ -7,18 +7,14 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Available templates, Create your app using an application template, Create your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Emergency Alert template
 
 Build an application in App Engine Studio \(AES\) using the Emergency Alert template to manage communications and track essential resources during an emergency.
-
-To use the Emergency Alert template, install this application from the ServiceNow Store.
-
-\[Omitted image "template-emergency-alert.png"\] Alt text: Emergency Alert template
 
 An emergency alert app allows your organization to keep employees informed and connected during natural disasters and infectious diseases, such as COVID-19.
 

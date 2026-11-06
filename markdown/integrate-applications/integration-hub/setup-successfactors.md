@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [SuccessFactors Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [SuccessFactors Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the SuccessFactors spoke v4.x.x
@@ -26,7 +26,7 @@ Integrate the ServiceNow instance with your SuccessFactors instance using OAuth 
     -   **com.glide.transform.json.max-partial-length**: The maximum value is, `65536`.
 -   Role required: admin.
 
-**Note:** This procedure is applicable if you are setting up the SuccessFactors spoke v4.11.1 for the first time. If you are using an earlier version of the SuccessFactors spoke, see [Migrate to SuccessFactors spoke v4.11.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/migrate-successfactors.md) for the migration procedure.
+**Note:** This procedure is applicable if you are setting up the SuccessFactors spoke v4.12.0 for the first time. If you are using an earlier version of the SuccessFactors spoke, see [Migrate to SuccessFactors spoke v4.12.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/migrate-successfactors.md) for the migration procedure.
 
 For more information about setting up the spoke, see [SAP SuccessFactors Spoke - OAuth Setup &amp; Migration - Pre-Tokyo, Tokyo and beyond](https://www.servicenow.com/community/knowledge-managers/sap-successfactors-spoke-oauth-setup-amp-migration-pre-tokyo/ta-p/2468046) in [ServiceNow Community](https://www.servicenow.com/community/).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Export project data, Project export to Microsoft Project, Importing and exporting projects, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Export project data, Project export to Microsoft Project, Importing and exporting projects, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Export project tasks

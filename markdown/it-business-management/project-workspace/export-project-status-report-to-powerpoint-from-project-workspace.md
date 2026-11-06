@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Export a project status report to Microsoft PowerPoint from Project Workspace
@@ -31,11 +31,13 @@ Create a status report or use an existing status report to download it as a Micr
 
 Exporting the project is beneficial if your stakeholders prefer a slide deck rather than using a dashboard. It also helps the wider audience or external stakeholders who don't have access to the dashboards but are waiting for an update.
 
+You can export a status report directly from the Details page or Planning page by selecting the **Export status report** option from more actions menu.
+
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  From the More actions menu \(\[Omitted image "icon-more-actions.png"\] Alt text: More actions.\), select **Export status report**.
 
@@ -47,7 +49,7 @@ Exporting the project is beneficial if your stakeholders prefer a slide deck rat
 
 5.  When prompted, select the desired location, and save the file.
 
-6.  On the Export status report form, create a status report for a project by clicking the **Please create a status report to be able to export** link.
+6.  On the Export status report form, create a status report for a project by selecting the **Please create a status report to be able to export** link.
 
     \[Omitted image "export-status-report.png"\] Alt text: Export status report window on project workspace
 
@@ -59,13 +61,13 @@ Exporting the project is beneficial if your stakeholders prefer a slide deck rat
 
 9.  Select **Submit**.
 
-10. Click the Export to PowerPoint icon \(\[Omitted image "export-to-powerpoint-icon.png"\] Alt text: Export to PowerPoint icon\).
+10. Select the Export to PowerPoint icon \(\[Omitted image "export-to-powerpoint-icon.png"\] Alt text: Export to PowerPoint icon\).
 
 11. From the Export to PowerPoint window, select the report date by clicking **Status report date**.
 
 12. From the Export to PowerPoint window, select a template by clicking **Select a template**.
 
-13. Click **Export**.
+13. Select **Export**.
 
 
 ## Result

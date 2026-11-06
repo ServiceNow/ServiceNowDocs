@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowAttachmentUploadConfiguration structure - iOS
+# NowAttachmentUploadConfiguration structure- iOS
 
 The NowAttachmentUploadConfiguration structure enables you to define the configuration information for an attachment that you are uploading to your ServiceNow instance.
 
@@ -89,9 +89,9 @@ String
 Name of the table on the ServiceNow instance that contains the record specified in the **recordSysid** parameter.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
-## NowAttachmentUploadConfiguration init\(tableName: String, recordSysId: SysID, fileName: String, contentType: String, encryptionContext: String?\)
+## NowAttachmentUploadConfiguration - init\(tableName: String, recordSysId: SysID, fileName: String, contentType: String, encryptionContext: String?\)
 
 Sets the upload configuration values for the specified attachment.
 

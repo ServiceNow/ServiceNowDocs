@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-integrating-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Integrate, Sales Customer Relationship Management]
 ---
 
 # Order Management integration with Field Service Management
 
 Provides an integration between the Order Management and the Field Service Management applications. This integration is available to all ServiceNow customers with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin, Field Service Management Configurable Workspace \(com.snc.uib.fsm\_agent\_workspace\) plugin, and Field Service Management \(com.snc.work\_management\) plugin.
 
-## Overview
+## Order Management-FSM integration overview
 
 This integration enables automatic and manual creation of work orders from the Order Management application to the Field Service Management application. This integration ensures collaboration between the Order Management and the Field Service Management applications to support the end-to-end order fulfillment process. Work orders are created for an order that requires field service work by field agents. The order fulfillment agents and managers can more efficiently manage order tasks and work order dependencies.
 

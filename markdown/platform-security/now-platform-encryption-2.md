@@ -5,20 +5,26 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/now-platform-encryption-2.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-01-31"
-reading_time_minutes: 7
-breadcrumb: [Column Level Encryption, Encryption]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Exploring Column Level Encryption, Column Level Encryption, Encryption]
 ---
 
 # Column Level Encryption Enterprise
 
 Column Level Encryption Enterprise uses the Key Management Framework \(KMF\) to enable you to customize and manage how fields and attachments are encrypted and decrypted on your instance. A subscription is required to use Column Level Encryption Enterprise.
 
-Column Level Encryption Enterprise is premised with Column Level Encryption Enterprise and uses the Key Management Framework and its full support of key management functions. Column Level Encryption Enterprise provides key-protection and key life-cycle management for application-level field encryption. All keys are protected with a key-wrapping hierarchy ultimately rooted in FIPS \(Federal Information Processing Standards\) 140-2-L3 Hardware Security Modules \(HSM\).
+**Important:**
 
-**Important:** This topic covers the enterprise version of Column Level Encryption Enterprise. For information on the standard version of Column Level Encryption Enterprise, or to learn the differences between the two versions, see [Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md).
+Starting with the Zurich release, Column Level Encryption \(CLE\) and Column Level Encryption Enterprise \(CLEE\) are being prepared for future deprecation. They will be hidden and no longer activated on new instances but will continue to be supported. [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/field-encryption.md) and [Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/now-platform-encryption.md) provide the latest experience for this functionality.
 
-Column Level Encryption Enterprise gives you the ability to manage how supported fields are encrypted and decrypted in accordance with [NIST 800-57](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf) practices. It also uses the most updated version of field-level encryption, including integration for proper key protection and management.
+For details, see the Deprecation Process \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] article in the Now Support knowledge base.
+
+Column Level Encryption Enterprise is premised with Column Level Encryption and uses the Key Management Framework and its full support of key management functions. Column Level Encryption Enterprise provides key-protection and key life-cycle management for application-level field encryption. All keys are protected with a key-wrapping hierarchy ultimately rooted in FIPS \(Federal Information Processing Standards\) 140-2-L3 Hardware Security Modules \(HSM\).
+
+**Important:** This topic covers the enterprise version of Column Level Encryption. For information on the standard version of Column Level Encryption, or to learn the differences between the two versions, see [Exploring Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-fe.md).
+
+Field Encryption Enterprise gives you the ability to manage how supported fields are encrypted and decrypted in accordance with [NIST 800-57](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf) practices. It also uses the most updated version of field-level encryption, including integration for proper key protection and management.
 
 Specifically, Column Level Encryption Enterprise uses the KMF encryption modules, granting you more control of server-side encryption. KMF verifies proper data encryption key protection using key hierarchy and envelope encryption. Your instance encrypts data through cryptographic modules that you configure. You can create an access policy for each module then configure cryptographic specifications and access policies and control key life-cycle management control.
 
@@ -32,7 +38,7 @@ Column Level Encryption Enterprise supports module access policies based on:
 
 See [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/create-module-access-policy.md) for additional information.
 
-**Note:** For details on the supported features of Column Level Encryption Enterprise and how to upgrade and subscribe to the Column Level Encryption Enterprise entitlement refer to [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/encryption-sku.md).
+**Note:** For details on the supported features of Column Level Encryption and how to upgrade and subscribe to the Column Level Encryption Enterprise entitlement refer to [Encryption and Key Management subscription bundle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/encryption-sku.md).
 
 ## Encryption terms
 
@@ -74,11 +80,11 @@ Support for key managementFundamental to Column Level Encryption Enterprise is t
 
 Support for customer supplied keysOne of the biggest benefits of Column Level Encryption Enterprise is that you can use your own keys for encryption. Administrators have the choice to use ServiceNow supplied keys or your own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform®.
 
- You can also manage the key life cycle and decide when to revoke, rotate, and inactivate the keys. After you enable customer-supplied keys and create a cryptographic module, you download a token and public ephemeral key. You use the token and public key to wrap your key and then upload to the instance. To use customer-supplied keys, see [Configure field encryption settings to select key type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/configure-field-encryption-settings.md) and [Using customer supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/csk-landing.md).
+ You can also manage the key life cycle and decide when to revoke, rotate, and inactivate the keys. After you enable customer-supplied keys and create a cryptographic module, you download a token and public ephemeral key. You use the token and public key to wrap your key and then upload to the instance. To use customer-supplied keys, see [Configure field encryption settings to select key type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/configure-field-encryption-settings.md) and [Using customer-supplied keys with Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/csk-landing.md).
 
 </td></tr><tr><td>
 
-\[Omitted image "lock-locked.png"\] Alt text: Column Level Encryption
+\[Omitted image "lock-locked.png"\] Alt text: Field Encryption
 
 </td><td>
 
@@ -105,13 +111,13 @@ Support for non-deterministic encryptionColumn Level Encryption Enterprise suppo
 Resource Exchange Column Level Encryption Enterprise keys instance to instance in a secure manner using the KMF cryptographic APIs to provide confidentiality, integrity, authentication, and non-repudiation. Resource Exchange is a KMF feature that gives you the capability to exchange resources between instances in a secure manner. See [Key Management Framework Resource Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/resource-exchange.md) for details.
 
 </td></tr></tbody>
-</table>**Note:** If you choose not to activate Column Level Encryption Enterprise, you can still use Field Encryption Enterprise. See [Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md) for information.
+</table>**Note:** If you choose not to activate Field Encryption Enterprise, you can still use Field Encryption. See [Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md) for information.
 
-Column Level Encryption Enterprise supports on-premise customers. It doesn’t support Domain Separation.
+Field Encryption Enterprise supports on-premise customers. It doesn’t support Domain Separation.
 
 ## Support for additional encrypted fields
 
-The standard version of Column Level Encryption Enterprise is limited to five encrypted columns. Column Level Encryption Enterprise supports an unlimited number of encrypted columns.
+The standard version of Column Level Encryption is limited to five encrypted columns. Column Level Encryption supports an unlimited number of encrypted columns.
 
 ## Supported field information
 
@@ -136,7 +142,7 @@ The following field types can be encrypted:
 
 -   **Attachment encryption by default**
 
-    Customers using Column Level Encryption Enterprise have attachments encrypted by default in tables that have an active Encrypted Field Configuration \(EFC\) type of **Attachment**.
+    Customers using Column Level Encryption have attachments encrypted by default in tables that have an active Encrypted Field Configuration \(EFC\) type of **Attachment**.
 
     This default encryption defined by the EFC configuration means that admins don’t need to manually declare that an attachment should be encrypted on upload for these tables.
 
@@ -155,9 +161,152 @@ The following field types can be encrypted:
 
 ## API support
 
-Column Level Encryption Enterprise updates the `setDisplayValue()` and `setValue()` APIs so they can insert encrypted data for encrypted fields. It also enables `getDisplayValue()` and `getValue()` to return cleartext values.
+Column Level Encryption enables the following APIs.
 
-The following script illustrates these API changes when the Incident short description is encrypted:
+**Note:** The API behavior described in the following table represents the default configuration for the latest base system package. If you are working with older package versions, you may experience different functionality.
+
+<table id="table_jns_p3m_mhc"><thead><tr><th>
+
+API
+
+</th><th>
+
+Description
+
+</th><th>
+
+Parameters
+
+</th><th>
+
+Return type
+
+</th></tr></thead><tbody><tr><td>
+
+``changeEncryptionContext()``
+
+</td><td>
+
+Updates an active Encryption Context \(EC\) used to encrypt an attachment. When CLE is enabled with the CLE Starter plugin using KMF Crypto Module \(CM\), the API locates the CM for the EC and uses it to encrypt the attachment.
+
+**Note:** This API is only available in the Global scope.
+
+</td><td>
+
+-   sourceTable – Name of table that has the attachment
+-   sourceID – Table record system id.
+-   attachmentID – The sys\_attachment record system id.
+-   newEncryptionContextID - System ID of the new context.
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+`changeCryptoModule()`
+
+</td><td>
+
+Updates an active encryption module used to encrypt an attachment.**Note:** This API is only available in the Global scope.
+
+</td><td>
+
+-   sourceTable – Name of table that has the attachment.
+-   sourceID – Table record system id.
+-   attachmentID – The sys\_attachment record system id.
+-   newCryptoModuleId - System ID of the new encryption module to encrypt the attachment.
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+`disableEncryption()`
+
+</td><td>
+
+Disable active encryption on an attachment.
+
+</td><td>
+
+-   sourceTable – Name of table that contains the attachment.
+-   sourceID – Table record system id.
+-   attachmentID – The sys\_attachment record system id.
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+`getDisplayValue()`
+
+</td><td>
+
+Returns the cleartext display value of an encrypted field.
+
+</td><td>
+
+ 
+
+</td><td>
+
+String
+
+</td></tr><tr><td>
+
+`getValue()`
+
+</td><td>
+
+Returns the cleartext value of an ecrypted field when glide\_encryption.set\_value\_support\_cle.disabled is false \(requires Module Access Policy \(MAP\)\). Returns the encrypted value of an encrypted field when glide\_encryption.set\_value\_support\_cle.disabled is true.
+
+</td><td>
+
+ 
+
+</td><td>
+
+String
+
+</td></tr><tr><td>
+
+`setDisplayValue()`
+
+</td><td>
+
+Inserts encrypted data into an encrypted field for display purposes.
+
+</td><td>
+
+-   name – Field name.
+-   value – Field value.
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+`setValue()`
+
+</td><td>
+
+Inserts encrypted data into an encrypted field, controlled by a system property. Encrypts data when glide\_encryption.set\_value\_support\_cle.disabled is false \(requires MAP\); writes unencrypted data when set to true \(no MAP required\), when glide\_encryption.set\_value\_support\_cle.disabled is true.
+
+</td><td>
+
+-   name – Field name.
+-   value – Field value.
+
+</td><td>
+
+Boolean
+
+</td></tr></tbody>
+</table>The following script illustrates API changes when the Incident short description is encrypted:
 
 ```
 
@@ -168,7 +317,9 @@ gs.info(gr.getValue('short_description')); //displays the unencrypted value
 
 ```
 
-When using `getValue()` to get encrypted text, your script no longer returns the ciphertext. Your script returns the plaintext, assuming that the user has access to the cryptographic module. `getValue()` returns the ciphertext for users who don't have access to the cryptographic module.
+When the Field Encryption plugin is installed, `glide_encryption.set_value_support_cle.disabled` is set to false by default.
 
-**Parent Topic:**[Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/column-level-encryption-landing.md)
+When you call `getValue()` on an encrypted text field, it returns the plaintext if you have access to the cryptographic module; otherwise, it returns either the ciphertext or `null`.
+
+**Parent Topic:**[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md)
 

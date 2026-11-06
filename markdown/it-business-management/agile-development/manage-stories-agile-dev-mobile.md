@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile experience, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Mobile experience for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Managing stories on Agile Development v2 mobile app
@@ -17,6 +17,8 @@ breadcrumb: [Mobile experience, Agile Development 2.0, Strategic Portfolio Manag
 View, edit, and update the details of stories assigned for the current sprint on your mobile device.
 
 On your mobile device, open the Mobile Agent app and navigate to Agile Development v2. Perform the following actions with the role of scrum\_product\_owner, scrum\_team\_member, or scrum\_master.
+
+**Parent Topic:**[Mobile experience for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-2-mobile-app-overview.md)
 
 ## Tracking stories on Agile Development v2
 

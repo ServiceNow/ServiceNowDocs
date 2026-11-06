@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-virtual-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure a contextual link to Virtual Agent, Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---

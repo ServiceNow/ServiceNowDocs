@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-03-26"
-reading_time_minutes: 3
-breadcrumb: [Configuring contract metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Contract metadata extraction, Contract use case mapping, Metadata extraction use case mapping, Now Assist use case mapping, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract metadata extraction
@@ -18,19 +19,19 @@ Map a use case to specific tables, and define conditions to apply the use case f
 
 ## Before you begin
 
-Ensure that the application is in Global or Now Assist in Contract Management scope. If you are configuring the use case mapping in different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
+Ensure that the application is in the Global or ServiceNow Otto for Contract Management Pro scope. If you are configuring the use case mapping in a different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
+Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile for your skill, select **Activate skill**.
+3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -40,89 +41,19 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
 
 6.  In the Use case mappings page, select **New**.
 
-7.  In the Create new use case mapping form, fill in the fields.
+7.  On the Create new use case mapping form, fill in the fields.
 
-<table id="table_lxd_sm1_wcc"><thead><tr><th>
+    For a description of the field values, see [Contract metadata extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.md).
 
-Field
+8.  Select **Save**.
 
-</th><th>
 
-Description
+## Result
 
-</th></tr></thead><tbody><tr><td>
+The use case is mapped to specific tables and conditions, and it is applied for metadata extraction when the conditions are met.
 
-Name
-
-</td><td>
-
-Unique name of the use case mapping.
-
-</td></tr><tr><td>
-
-Use case
-
-</td><td>
-
-The use case used to extract metadata from a signed contract.**Note:** Only active use cases for contract metadata extraction are displayed in the list.
-
-The **CM Pro - Contract Metadata Extraction** use case is available with the Now Assist in Contract Management base system.
-
-</td></tr><tr><td>
-
-Contract type
-
-</td><td>
-
-The contract type for which the use case will apply.**Note:** Only active contract types are displayed in the list.
-
-</td></tr><tr><td>
-
-Order
-
-</td><td>
-
-Order in which the use case will apply.If multiple use cases meet the same conditions, the use case with the lowest order number is applied first.
-
-</td></tr><tr><td>
-
-Request table
-
-</td><td>
-
-The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the use case mapping on a different table.
-
-</td></tr><tr><td>
-
-Contract repository table
-
-</td><td>
-
-The contract repository table where the extracted metadata will be added.
-
-</td></tr><tr><td>
-
-Request conditions
-
-</td><td>
-
-Conditions under which the use case applies on the request table.The field appears only when the request table is selected.
-
-For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
-
-</td></tr><tr><td>
-
-Repository conditions
-
-</td><td>
-
-Conditions under which the use case stores the extracted information on the repository table. The field appears only when the contract repository table is selected.
-
-For more information on using the condition builder, see [Create a condition statement using the condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-cond-state-using-cond-build.md).
-
-</td></tr></tbody>
-</table>8.  Select **Save**.
-
+-   **[Contract metadata extraction use case mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-map-form-me.md)**  
+Use the Create use case mapping form in the contract metadata extraction skill to map the use case to specific tables and conditions.
 
 **Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
@@ -135,7 +66,9 @@ For more information on using the condition builder, see [Create a condition sta
 
 [Enable notification for contract metadata extraction]()
 
-[Configure the workspace URL for contract metadata extraction notifications]()
+[Configure the URL for metadata extraction notifications]()
 
 [Configure an extension point to add contract metadata]()
+
+[Create use cases for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-me.md)
 

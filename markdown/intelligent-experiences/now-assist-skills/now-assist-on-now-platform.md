@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [Now Assist, Gen AI, Generative AI, skill, Platform workflow, Admin]
-breadcrumb: [Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Now Assist skills in the Platform workflow
@@ -27,23 +27,4 @@ Starting with the Zurich Patch 4 release, some generative AI platform skills for
     2.  If you have modified any role for a skill, turned it off and then back on, that skill will stay turned off after the upgrade; maintaining your last known selection.
 
 Some skills, such as the Group Action Framework \(GAF\) skills, support Platform functionality and may require specific configuration.
-
--   **[Article optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-article-optimization.md)**  
-Article optimization skill in ServiceNow AI Platform provides recommendations for improving the quality and health of knowledge articles, providing actionable feedback to authors and managers. The recommendations for knowledge articles become available after you activate the Article Optimization skills in Now Assist Admin.
--   **[Catalog item form slot-fill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/catalog-item-form-slot-fill.md)**  
-With the catalog item form slot-fill skill, Now Assist can automatically complete catalog item forms based on what users search for.
--   **[Now Assist Conversational Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/conversational-help-skills.md)**  
-This skill uses Generative AI application capabilities to provide answers to the questions on the Now Assist panel.
--   **[Now Assist extract information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-extract-information-from-documents.md)**  
-The extract information from documents skill allows you to use Now Assist predictions to extract information from document and image files.
--   **[Knowledge content recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-platform-knowledge.md)**  
-Knowledge generative AI skills on the ServiceNow AI Platform provides recommendations for editing a knowledge article. Once activated, this skill is available on the Now Assist context menu.
--   **[Potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.md)**  
-The Potential Knowledge Gap helps in finding missing or incomplete knowledge coverage by analyzing service interactions. Gap recommendations become available after you activate the Knowledge Gaps skills in Now Assist Admin.
--   **[Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-global-navigation.md)**  
-Use the navigation skill in Now Assist to take you where you want to go on the ServiceNow AI Platform.
--   **[Smart Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.md)**  
-Accelerate document insights with instant summaries, interactive Q&amp;A, and FAQs using Now Assist in Document Management.
-
-**Parent Topic:**[Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills.md)
 

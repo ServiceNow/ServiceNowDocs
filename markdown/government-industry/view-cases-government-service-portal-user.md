@@ -1,18 +1,18 @@
 ---
 title: Track your cases from the Government Service Portal in Public Sector Digital Services
-description: Keep track of your service request, information request, or license/permit request cases in the Government Service Portal by viewing a list of your cases and selecting the ones that you want to see more details about. Here, you can respond to an agent's inquiry, view a response, or see if there are any next steps required to resolve the case.
+description: Track your service request, information request, or license/permit request cases in the Government Service Portal by viewing a list of your cases and selecting the ones that you want to see more details about. Here, you can respond to an agent's inquiry, view a response, or see if there are any next steps required to resolve the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/view-cases-government-service-portal-user.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Track your cases from the Government Service Portal in Public Sector Digital Services
 
-Keep track of your service request, information request, or license/permit request cases in the Government Service Portal by viewing a list of your cases and selecting the ones that you want to see more details about. Here, you can respond to an agent's inquiry, view a response, or see if there are any next steps required to resolve the case.
+Track your service request, information request, or license/permit request cases in the Government Service Portal by viewing a list of your cases and selecting the ones that you want to see more details about. Here, you can respond to an agent's inquiry, view a response, or see if there are any next steps required to resolve the case.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_gsm.constituent
 Selecting a case opens a form with the following sections:
 
 -   A record of activity on the case, including added attachments or any interactions between the requester and the license and permit request case agent.
--   Tasks or actions that need to be taken on the user's part, such as accepting or rejecting a case outcome.
+-   Tasks or actions that must be taken on the user's part, such as accepting or rejecting a case outcome.
 -   The case details, including contact information, the case number, and the case's stage and status.
 -   Any attached files.
 
